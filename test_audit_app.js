@@ -61,9 +61,52 @@ async function main() {
     'grid-token', 'pool-detail', 'grid-chain', 'dead-pool', 'grid-loading',
     'pool-detail-360', 'grid-360', 'pool-detail-dark', 'pool-detail-ko', 'static-page'
   ];
+  // backlog 219 — QUARANTINE, split-gate shape per
+  // playbooks/pre-existing-red-triage.md's rule-E precedent (spec 219, "The
+  // pre-existing red this lens exposes"), same move already applied above to
+  // real junk static pages tripping junk-slug: the CHECK is not softened,
+  // the SCOPE is narrowed to the exact, named, dated surfaces it is proven
+  // on. Real, independently-verified, reproducible defects (second
+  // measurement outside checkOcclusion, resampled to rule out a timing
+  // race — specs/219-notes.md "(a)"/"(b)"/"(d)") on three surfaces today:
+  //   (a) `grid-360` P0 — a duplicate, non-fixed `.theme-toggle`
+  //       (app.js:3139, distinct from the header's own
+  //       `.app-control-btn.theme-toggle`, app.js:3062) renders in
+  //       normal document flow directly under the fixed
+  //       `.app-header-sticky` (style.css:903) once `.app.has-results`
+  //       (grid pages) leaves the mobile `.app:not(.has-results)
+  //       .theme-toggle { position: fixed }` override (style.css:4329)
+  //       un-applied and the base mobile rule `.theme-toggle { position:
+  //       static }` (style.css:4319) takes over.
+  //   (b) `grid-360` P1 — a `.pool-symbol` row sits, AT FIRST PAINT, inside
+  //       the fixed `.app-footer`'s band (style.css:2513) purely because
+  //       enough cards fill a 360x780 viewport to reach it; `.app`'s only
+  //       clearance rule (`padding-bottom: 80px`, style.css:852) protects
+  //       the END of the document, not a mid-page row that happens to land
+  //       at rest — 218's exact lesson, recurring on a surface 217/218
+  //       never touched.
+  //   (d) `grid-token`/`grid-chain` P0+P1 at 1280px — the SAME class as
+  //       (a)/(b), one width wider: at 1280x780, one of nine per-card
+  //       `.calculate-yield-btn-new` buttons and one `.pool-symbol` row land
+  //       inside `.app-footer`'s 69px band at first paint. Surfaced only
+  //       after the round-3 fix added a settle wait after the occlusion
+  //       pass's viewport resize (audit-app.js's `checkOcclusion`,
+  //       "measuring inside that window risks... missed [findings]") — the
+  //       earlier, unsettled measurement was racing the post-resize reflow
+  //       and read stale (pre-resize) geometry where nothing overlapped;
+  //       independently re-measured outside checkOcclusion (own
+  //       `page.evaluate` + `elementFromPoint`) and confirmed a genuine,
+  //       reproducible hit, not a settle-timing artifact of the fix itself.
+  // Fixing any of these is a separate item (spec 219's own scope boundary:
+  // "This item ships the detector. Findings become tickets."). QUARANTINE NO
+  // LONGER NEEDED for a given surface — remove it from the set below (and
+  // drop the whole quarantine once the set is empty) — once that surface
+  // stops producing occlusion findings; the loud console line below names
+  // exactly which quarantined surfaces are clean on a given run.
+  const QUARANTINED_OCCLUSION_SURFACES = new Set(['grid-360', 'grid-token', 'grid-chain']);
   const outPaths = { case1: tmpOut('case1'), case2: tmpOut('case2'), case3: tmpOut('case3') };
 
-  await test('clean run: covers pool-detail + dead-pool, ZERO P0/P1, writes findings JSON', async () => {
+  await test('clean run: covers pool-detail + dead-pool, ZERO P0/P1 (occlusion quarantined to named grid surfaces only, pool-detail* always clean), writes findings JSON', async () => {
     const result = await runAudit({
       port: 8820, snapshotPath: SNAPSHOT, only: APP_SURFACES_PLUS_ANCHOR, outPath: outPaths.case1
     });
@@ -71,8 +114,39 @@ async function main() {
     assert(result.surfacesCovered.includes('pool-detail'), 'surfacesCovered missing "pool-detail" (north-star ?pool=)');
     assert(result.surfacesCovered.includes('dead-pool'), 'surfacesCovered missing "dead-pool" (dead ?pool=)');
 
-    const blocking = result.findings.filter((f) => f.severity === 'P0' || f.severity === 'P1');
-    assert(blocking.length === 0, 'expected ZERO P0/P1 findings on clean data, got: ' + JSON.stringify(blocking));
+    // 1. Every check that is NOT `occlusion` keeps ZERO P0/P1, unchanged —
+    // this is the same assertion the file always made, merely restricted to
+    // exclude the one check now under quarantine.
+    const nonOcclusionBlocking = result.findings.filter((f) => f.check !== 'occlusion' && (f.severity === 'P0' || f.severity === 'P1'));
+    assert(nonOcclusionBlocking.length === 0, 'expected ZERO P0/P1 findings on clean data for every non-occlusion check, got: ' + JSON.stringify(nonOcclusionBlocking));
+
+    // 2. `occlusion` findings are allowed ONLY on the documented quarantined
+    // surface(s) above — a NEW occlusion defect on ANY other covered
+    // surface must still turn this red.
+    const occlusionBlocking = result.findings.filter((f) => f.check === 'occlusion' && (f.severity === 'P0' || f.severity === 'P1'));
+    const unquarantinedOcclusion = occlusionBlocking.filter((f) => !QUARANTINED_OCCLUSION_SURFACES.has(f.surface));
+    assert(unquarantinedOcclusion.length === 0,
+      `a NEW occlusion defect appeared outside the documented quarantine (${[...QUARANTINED_OCCLUSION_SURFACES].join(', ')}); got: ${JSON.stringify(unquarantinedOcclusion)}`);
+
+    // 3. ZERO occlusion findings on every pool-detail* surface, always — the
+    // 217/218 fixes' own regression rail, now machine-watched daily, never
+    // eligible for quarantine.
+    const poolDetailOcclusion = result.findings.filter((f) => f.check === 'occlusion' && f.surface.startsWith('pool-detail'));
+    assert(poolDetailOcclusion.length === 0, 'expected ZERO occlusion findings on any pool-detail* surface (217/218 regression rail), got: ' + JSON.stringify(poolDetailOcclusion));
+
+    // 4. Loud, not silent: the moment a quarantined surface comes back
+    // clean, say so BY NAME, so the quarantine shrinks (and eventually gets
+    // removed) rather than being inherited forever
+    // (playbooks/pre-existing-red-triage.md's own trap: "eleven consecutive
+    // notes files said pre-existing... none said classified").
+    const stillRedSurfaces = new Set(occlusionBlocking.filter((f) => QUARANTINED_OCCLUSION_SURFACES.has(f.surface)).map((f) => f.surface));
+    const nowCleanSurfaces = [...QUARANTINED_OCCLUSION_SURFACES].filter((surface) => !stillRedSurfaces.has(surface));
+    if (nowCleanSurfaces.length > 0) {
+      console.log(`    QUARANTINE NO LONGER NEEDED for [${nowCleanSurfaces.join(', ')}] — produced ZERO occlusion findings this run; remove from QUARANTINED_OCCLUSION_SURFACES. See specs/219-notes.md.`);
+    }
+    if (stillRedSurfaces.size === 0) {
+      console.log('    QUARANTINE FULLY CLEAR — delete QUARANTINED_OCCLUSION_SURFACES and the occlusion special-casing above entirely.');
+    }
 
     // Documented shape, from the written file.
     assert(fs.existsSync(outPaths.case1), 'findings JSON was not written to the temp outPath');

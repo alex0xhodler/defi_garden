@@ -1,0 +1,77 @@
+# .vercelignore — spec 223: stop serving the repo's internals on
+# www.defi.garden.
+#
+# THE ALLOWLIST HALF IS LOAD-BEARING. This file is a denylist, but the thing
+# it must never break is everything NOT listed here: home.html, plan.html,
+# every app bundle + .min/.compiled twin, all CSS, data/, tokens/, chains/,
+# ko/, pools/ (the item-212 markdown twins — pools/*.md, tokens/*.md,
+# chains/*.md, ko/**/*.md are a LIVE runtime feature, never touch them),
+# stories/, spotlights/, sitemap*.xml, llms*.txt, robots.txt, og/ + og-image.png,
+# fonts/, tools/, status, openapi.json, the domain-verification .txt file, and
+# all of .well-known/ (including its .md/.py/.js/template files — agent-skills
+# discovery depends on serving those as static files, not just JSON).
+#
+# WHEN IN DOUBT ABOUT A FILE, KEEP SERVING IT. Every pattern below is anchored
+# (leading `/`) so a root-level name can never accidentally shadow a nested
+# runtime file of the same name (e.g. `/CLAUDE.md` must not match a
+# hypothetical `tokens/CLAUDE.md`). No `!` negations are used anywhere, by
+# design (Vercel's negation handling is unreliable) — every pattern here is
+# written precise enough that none is needed.
+#
+# Gate: test_vercelignore.js parses this file and asserts both the
+# must-keep and must-exclude sets against the real `git ls-files` output,
+# plus a link-integrity scan so a mis-enumeration here fails loudly in CI
+# before it ever reaches a deploy.
+
+# --- dev/test/tooling scripts (root only) -----------------------------------
+/test_*.js
+/run-tests.js
+/audit-app.js
+/compile-app.js
+/minify-assets.js
+/generate-*.js
+/validate-sitemaps.js
+/indexnow-ping.js
+/compute-kpis.js
+/dev-server.js
+/og-image.build.mjs
+/og-image.source.html
+/*.sh
+
+# --- deploy/db/agent config, never meant to be public HTTP responses -------
+/schema.sql
+/wrangler.toml
+/.mcp.json
+/settings.local.json
+
+# --- root-level internal docs (NOT the tokens/chains/pools/ko markdown
+# twins — those are nested, unaffected by these anchored root patterns) -----
+# NOTE: auth.md is deliberately NOT here. It reads like an internal doc but
+# is actually a LIVE agent-discovery asset: .well-known/oauth-authorization-
+# server.json and .well-known/openid-configuration.json both point their
+# `agent_auth.skill` field at https://www.defi.garden/auth.md. This was
+# caught by test_vercelignore.js's link-integrity check (spec 223 Territory
+# notes) — the exact class of mistake this file exists to prevent.
+/CLAUDE.md
+/README.md
+/SITEMAP.md
+/user_journey_diagrams.md
+/stakeholder_communication_plan.md
+
+# --- fixtures / scratch ------------------------------------------------------
+/test_fixtures/
+/test-fixtures/
+
+# --- out-of-scope / never-deployed source dirs (excluding from the deploy
+# upload is fine; MODIFYING these dirs is a separate, out-of-scope action) --
+/src/
+/product-loop-kit/
+/product-loop-kit.zip
+/.claude/
+/.github/
+/.agent-reviews/
+/docs/
+/telegram-bot/
+/whatsapp-bot/
+/workers/
+/edge/

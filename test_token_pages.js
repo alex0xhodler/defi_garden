@@ -8,8 +8,49 @@
 const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 const gen = require('./generate-token-pages.js');
 const chainGen = require('./generate-chain-pages.js'); // 049 — cross-surface linking
+
+// --- 174 scratch-run harness -------------------------------------------------
+// Spec 174's own acceptance test is "the verifier changes MIN_POOL_TVL in a
+// scratch run and observes the copy change with it." This reproduces exactly
+// that: write patched COPIES of the two generators (source text, with every
+// relative `require('./x.js')` rewritten to an absolute path so the copies
+// still resolve their sibling modules from a scratch temp dir) with
+// MIN_POOL_TVL literally edited to a different value, `require()` those
+// copies fresh (never the cached real modules), and render real pages from
+// them. If any template still carries a hardcoded floor literal instead of
+// interpolating the constant, the rendered page will show the OLD floor
+// string alongside/instead of the new one — this harness catches that.
+function rewriteRequiresToAbsolute(src, dir, overrides) {
+  return src.replace(/require\((['"])(\.\.?\/[^'"]+)\1\)/g, (m, q, relPath) => {
+    const abs = (overrides && overrides[relPath]) || path.join(dir, relPath);
+    return `require(${q}${abs.replace(/\\/g, '/')}${q})`;
+  });
+}
+function loadScratchGenerators(newFloor) {
+  const scratchDir = fs.mkdtempSync(path.join(os.tmpdir(), 'dg-174-scratch-'));
+  const tokenSrc = fs.readFileSync(path.join(__dirname, 'generate-token-pages.js'), 'utf8');
+  const patchedMarker = `const MIN_POOL_TVL = ${newFloor};`;
+  const patchedTokenSrc = rewriteRequiresToAbsolute(
+    tokenSrc.replace('const MIN_POOL_TVL = 100000;', patchedMarker), __dirname);
+  assert.ok(patchedTokenSrc.includes(patchedMarker), 'failed to patch MIN_POOL_TVL in the scratch token generator');
+  const tokenScratchPath = path.join(scratchDir, 'generate-token-pages.js');
+  fs.writeFileSync(tokenScratchPath, patchedTokenSrc);
+
+  const chainSrc = fs.readFileSync(path.join(__dirname, 'generate-chain-pages.js'), 'utf8');
+  const patchedChainSrc = rewriteRequiresToAbsolute(chainSrc, __dirname,
+    { './generate-token-pages.js': tokenScratchPath.replace(/\\/g, '/') });
+  const chainScratchPath = path.join(scratchDir, 'generate-chain-pages.js');
+  fs.writeFileSync(chainScratchPath, patchedChainSrc);
+
+  return { tokenGen: require(tokenScratchPath), chainGen: require(chainScratchPath), scratchDir };
+}
+function cleanupScratch(scratchDir) {
+  Object.keys(require.cache).forEach(k => { if (k.startsWith(scratchDir)) delete require.cache[k]; });
+  fs.rmSync(scratchDir, { recursive: true, force: true });
+}
 
 let passed = 0;
 function test(name, fn) {
@@ -112,17 +153,50 @@ test('server-delivered meta description present', () => {
 test('links into the live app at ?token=<SYMBOL>', () => {
   assert.ok(html.includes('https://www.defi.garden/?token=BIG'), 'missing app deep link');
 });
-test('each pool row links to its detail page (/?pool=<id>)', () => {
+test('each pool row links to its detail page (/?pool=<id>&src=seo_token — 203)', () => {
   const top = bySym['BIG'].pools[0];
   assert.ok(top.pool, 'fixture pool missing an id');
-  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}"`),
-    'pool row not linked to its detail page');
+  assert.ok(html.includes(`href="https://www.defi.garden/?pool=${encodeURIComponent(top.pool)}&src=seo_token"`),
+    'pool row not linked to its detail page with the seo_token attribution tag');
   assert.ok(html.includes('class="tp-pool-link"'), 'missing pool link class');
 });
-test('pool row falls back to the token app view when a pool has no id', () => {
+test('pool row falls back to the token app view (tagged src=seo_token — 203) when a pool has no id', () => {
   const noId = gen.renderTokenPage({ symbol: 'X', slug: 'x', qualifyingCount: 1, totalTvl: 2e7,
     pools: [{ project: 'aave', chain: 'Base', tvlUsd: 1e7, apyBase: 5, apyReward: 0 }] });
-  assert.ok(noId.includes('href="https://www.defi.garden/?token=X"'), 'missing fallback link');
+  // 173: the fallback link is the same appUrl the primary CTA uses, so it now
+  // carries the generator's own &minTvl= floor too. 203: the fallback branch
+  // is tagged exactly like the ?pool= branch — a row that falls back to the
+  // token app view is the same attribution question, must not go untagged.
+  assert.ok(noId.includes(`href="https://www.defi.garden/?token=X&minTvl=${gen.MIN_POOL_TVL}&src=seo_token"`), 'missing tagged fallback link');
+});
+test('203 criterion 1: every tp-pool-link href carries src=seo_token, and the count equals the visible row count', () => {
+  const anchors = html.match(/<a class="tp-pool-link" href="[^"]*"/g) || [];
+  assert.strictEqual(anchors.length, bySym['BIG'].pools.length, 'tp-pool-link anchor count must equal the visible row count');
+  assert.ok(anchors.length > 0, 'fixture wiring check: expected >=1 tp-pool-link anchor');
+  anchors.forEach((a) => assert.ok(/[?&]src=seo_token"$/.test(a), `every tp-pool-link href must carry src=seo_token; got: ${a}`));
+});
+test('203 criterion 2: poolHrefFor(p, fallback) with NO third argument is byte-identical to the pre-203 function, both branches', () => {
+  const withId = { pool: 'abc-123' };
+  assert.strictEqual(gen.poolHrefFor(withId, 'https://www.defi.garden/?token=X&minTvl=100000'),
+    'https://www.defi.garden/?pool=abc-123', 'pool-branch output must be byte-identical with no src arg');
+  const noId = {};
+  assert.strictEqual(gen.poolHrefFor(noId, 'https://www.defi.garden/?token=X&minTvl=100000'),
+    'https://www.defi.garden/?token=X&minTvl=100000', 'fallback-branch output must be byte-identical with no src arg');
+  // falsy src (undefined/''/0/null) must behave identically to omitting it entirely.
+  [undefined, '', null, 0].forEach((falsySrc) => {
+    assert.strictEqual(gen.poolHrefFor(withId, 'https://www.defi.garden/?token=X&minTvl=100000', falsySrc),
+      'https://www.defi.garden/?pool=abc-123', `falsy src (${JSON.stringify(falsySrc)}) must not tag the url`);
+  });
+});
+test('203 criterion 2: no ld+json block anywhere in generated output contains "src=" — JSON-LD stays clean', () => {
+  const ldJsonScripts = html.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g) || [];
+  assert.ok(ldJsonScripts.length > 0, 'fixture wiring check: expected >=1 ld+json block');
+  ldJsonScripts.forEach((block) => assert.ok(!/src=/.test(block), `ld+json block must never carry src=; got: ${block}`));
+});
+test('203 criterion 2: every ItemList url matches the clean pattern (no src, no other tracking param)', () => {
+  const items = extractLdJsonBlocks(html, 'ItemList')[0].itemListElement;
+  items.forEach((it) => assert.ok(/^https:\/\/www\.defi\.garden\/\?pool=[^&]+$/.test(it.url) || it.url === `https://www.defi.garden/?token=${encodeURIComponent(bySym['BIG'].symbol)}`,
+    `ItemList url must be clean (no src); got: ${it.url}`));
 });
 test('renders >=1 real pool row with en-US formatted numbers', () => {
   assert.ok(/<td class="num">\d/.test(html), 'no formatted numeric cell');
@@ -131,9 +205,13 @@ test('renders >=1 real pool row with en-US formatted numbers', () => {
 test('indexable (robots index,follow)', () => {
   assert.ok(html.includes('content="index,follow"'), 'should be indexable');
 });
-test('reuses the app design system (links style.css) and uses neuro tokens, no hardcoded hex', () => {
+test('reuses the app design system (links style.css) and uses --ui-* tokens, no hardcoded hex', () => {
   assert.ok(html.includes('<link rel="stylesheet" href="/style.css">'), 'must link the app style.css');
-  assert.ok(html.includes('var(--neuro-shadow-raised)') && html.includes('var(--color-surface)'), 'must use neuro/color tokens');
+  // 247 world: the scoped block consumes --ui-* tokens directly (style.css's
+  // current design-system layer) rather than the deprecated --neuro-*/
+  // --color-* alias names — those still resolve (old cached pages), but new
+  // generator output points at the source tokens.
+  assert.ok(html.includes('var(--ui-accent)') && html.includes('var(--ui-surface)'), 'must use --ui-* tokens');
   const styleBlock = html.match(/<style>[\s\S]*?<\/style>/)[0];
   assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'no hardcoded hex colors in the scoped style block');
 });
@@ -205,8 +283,16 @@ test('exactly one valid ItemList block whose items EXACTLY match the visible tab
     const expectedUrl = p.pool
       ? `https://www.defi.garden/?pool=${encodeURIComponent(p.pool)}`
       : `https://www.defi.garden/?token=${encodeURIComponent(big.symbol)}`;
-    assert.strictEqual(items[i].url, expectedUrl, 'url must match the row\'s own link target');
-    assert.ok(html.includes(`href="${items[i].url}"`), 'ItemList url must actually appear as a rendered row link');
+    assert.strictEqual(items[i].url, expectedUrl, 'url must match the row\'s own link target (clean, no src)');
+    // 203 criterion 5 (replaces the old "href includes the clean url" check,
+    // strictly stronger): the ItemList url must be clean AND the rendered
+    // row href must be EXACTLY that clean url + the src attribution tag —
+    // not merely "contains" it, which would also pass if the clean url
+    // happened to be a prefix of some other unrelated tagged href.
+    const sep = items[i].url.includes('?') ? '&' : '?';
+    const expectedRowHref = `${items[i].url}${sep}src=seo_token`;
+    assert.ok(html.includes(`href="${expectedRowHref}"`),
+      `rendered row href must be exactly the clean ItemList url + src=seo_token; expected href="${expectedRowHref}"`);
   });
 });
 test('ItemList item count matches the number of <tr> rows in the table, not the full pool set', () => {
@@ -470,7 +556,12 @@ test('categoryLinksFor returns distinct categories with working ?token=&poolType
 test('renderTokenPage always renders a By category nav derived from on-page pools (no category hub page exists yet)', () => {
   const html = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12');
   assert.ok(html.includes('aria-label="Pool categories"'), 'missing category nav');
-  assert.ok(html.includes('href="https://www.defi.garden/?token=BIG&poolTypes=Lending"'), 'missing category link');
+  // 173: categoryLinksFor builds off appUrl, which now carries the generator's
+  // own &minTvl= floor — so the category link inherits it too (single
+  // injection site, no re-typed literal).
+  // 204: the category link is a visible estate->app render site, so it now
+  // carries the estate's arrival tag (&src=seo_token) via withSrc.
+  assert.ok(html.includes(`href="https://www.defi.garden/?token=BIG&minTvl=${gen.MIN_POOL_TVL}&poolTypes=Lending&src=seo_token"`), 'missing category link');
 });
 test('cross-links reuse the related nav styling via an added class token, without colliding with the exact class="related" tests', () => {
   const html = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12', [{ chain: 'Ethereum', slug: 'ethereum' }]);
@@ -497,11 +588,11 @@ test('pitch line is token-specific (dataset content, not a fixed template)', () 
   const midHtml2 = gen.renderTokenPage(bySym['MID']);
   assert.ok(midHtml2.includes('A card that spends your MID yield'), 'missing MID-specific pitch');
 });
-test('waitlist block uses the neuro token system only, no hardcoded hex colors, reuses .tp-cta', () => {
+test('waitlist block uses the --ui-* token system only, no hardcoded hex colors, reuses .tp-cta', () => {
   const styleBlock = gen.renderWaitlistCtaStyle('tp');
   assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleBlock), 'hardcoded hex color in the waitlist CTA style block');
-  assert.ok(styleBlock.includes('var(--neuro-shadow-raised)') && styleBlock.includes('.tp-cta'),
-    'must reuse existing neuro tokens/button style');
+  assert.ok(styleBlock.includes('var(--ui-border)') && styleBlock.includes('.tp-cta'),
+    'must reuse existing --ui-* tokens/button style');
   assert.ok(html.includes(styleBlock), 'waitlist style block missing from the rendered page <style>');
   assert.ok(html.match(/<a class="tp-cta" href="\/plan\.html\?waitlist=1/), 'CTA link must reuse the existing .tp-cta button style');
 });
@@ -546,13 +637,32 @@ test('every ranked token (all clear the 032 visible-nonzero table gate) gets a n
     assert.ok(gen.yieldHeadlineFor(r, 'en'), `${r.symbol} unexpectedly got no yield headline`);
   });
 });
-test('returns null (no fabricated number) when the blended MEDIAN rounds to 0.00%, even with a non-zero pool present', () => {
-  const medianZeroRec = { symbol: 'MEDZERO', pools: [
+test('174: returns null (no fabricated number) when every rail-passing pool is visibly zero', () => {
+  const allZeroRec = { symbol: 'ALLZERO174', pools: [
     { apyBase: 0, apyReward: 0, tvlUsd: 200000 },
-    { apyBase: 0, apyReward: 0, tvlUsd: 150000 },
-    { apyBase: 5, apyReward: 0, tvlUsd: 100000 }
+    { apyBase: 0, apyReward: 0, tvlUsd: 150000 }
   ] };
-  assert.strictEqual(gen.yieldHeadlineFor(medianZeroRec, 'en'), null);
+  assert.strictEqual(gen.yieldHeadlineFor(allZeroRec, 'en'), null);
+});
+test('174: a zero-APY pool mixed with real pools is excluded from the blend — exact expected value from a fixture', () => {
+  // Pre-174 behavior blended ALL 3 pools: median([0,4,6]) = 4.00% (a promise
+  // partly resting on a pool the product would never display). 174 requires
+  // the blend to use ONLY the visibly-non-zero, rail-passing pools:
+  // median([4,6]) = 5.00% — a different, exact number this test pins down.
+  const mixedRec = { symbol: 'MIXED174', pools: [
+    { apyBase: 0, apyReward: 0, tvlUsd: 200000 },
+    { apyBase: 4, apyReward: 0, tvlUsd: 150000 },
+    { apyBase: 6, apyReward: 0, tvlUsd: 100000 }
+  ] };
+  const h = gen.yieldHeadlineFor(mixedRec, 'en');
+  assert.ok(h, 'expected a non-null headline once the zero pool is excluded from the blend');
+  const nonZeroPools = [mixedRec.pools[1], mixedRec.pools[2]];
+  const expectedApyStr = gen.formatApy(gp.blendedApy(nonZeroPools));
+  assert.strictEqual(expectedApyStr, '5.00%', 'sanity: the fixture\'s own expected value');
+  assert.strictEqual(h.apyStr, expectedApyStr, 'blended APY must be computed WITHOUT the zero pool');
+  assert.notStrictEqual(h.apyStr, gen.formatApy(gp.blendedApy(mixedRec.pools)), 'must differ from the (wrong) all-pools blend');
+  const expectedForever = gen.formatUsd(gp.foreverNumber(gen.yieldHeadlineAnchor().monthly, gp.blendedApy(nonZeroPools)));
+  assert.strictEqual(h.foreverAmtStr, expectedForever, 'forever amount must be derived from the SAME zero-excluded blend');
 });
 test('renderYieldHeadlineHtml renders nothing for a null headline', () => {
   const t = require('./translations.js').createTranslationFunction('en');
@@ -587,11 +697,285 @@ test('every generated token page (en + ko) carries the yield headline with natur
     assert.ok(koHtml.includes('Claude Pro') && koHtml.includes('구독료'), `KO page yield headline not translated for ${rec.symbol}`);
   });
 });
-test('yield headline uses the neuro token system only, no hardcoded hex colors', () => {
+test('yield headline uses the --ui-* token system only, no hardcoded hex colors', () => {
   const styleMatch = html.match(/\.tp-yield-headline \{[^}]*\}/);
   assert.ok(styleMatch, 'yield headline style rule missing from rendered page');
   assert.ok(!/#[0-9a-fA-F]{3,6}\b/.test(styleMatch[0]), 'hardcoded hex color in the yield headline style');
-  assert.ok(styleMatch[0].includes('var(--neuro-shadow-raised)'), 'must reuse existing neuro shadow token');
+  assert.ok(styleMatch[0].includes('var(--ui-border)'), 'must reuse existing --ui-* border token');
+});
+
+console.log('174 — safety-floor honesty (FAQ) + no 0.00% rows + forever-number rail (committed regression)');
+test('174: FAQ "Are these rates safe?" answer cites the real MIN_POOL_TVL floor and never says "trust filters" (EN)', () => {
+  const faq = extractLdJsonBlocks(html, 'FAQPage')[0].mainEntity;
+  assert.strictEqual(faq[2].name, 'Are these rates safe?');
+  const safetyAnswer = faq[2].acceptedAnswer.text;
+  assert.ok(safetyAnswer.includes(gen.formatUsd(gen.MIN_POOL_TVL)),
+    'FAQ safety answer must cite the real MIN_POOL_TVL floor (' + gen.formatUsd(gen.MIN_POOL_TVL) + ')');
+  assert.ok(!/trust filters/i.test(safetyAnswer),
+    'FAQ safety answer must not attribute the page\'s floor to "DeFi Garden\'s trust filters" (100x false safety claim)');
+});
+test('174: FAQ safety answer changes when MIN_POOL_TVL changes (interpolated, never a re-typed literal)', () => {
+  const t = require('./translations.js').createTranslationFunction('en');
+  assert.ok(t('tcpFaqA3', '$1.00').includes('$1.00'), 'tcpFaqA3 must be a function of its floor argument');
+  assert.ok(t('tcpFaqA3', '$9.99M').includes('$9.99M'), 'tcpFaqA3 must reflect a different floor string, not a fixed literal');
+});
+test('174: FAQ safety answer cites the real USD floor and never says 신뢰 기준 (trust criteria) as the safety guarantee (KO)', () => {
+  const koHtml = gen.renderTokenPage(bySym['BIG'], [], '2026-07-12', [], 'ko');
+  const koFaq = extractLdJsonBlocks(koHtml, 'FAQPage')[0].mainEntity;
+  const safetyAnswer = koFaq[2].acceptedAnswer.text;
+  assert.ok(safetyAnswer.includes(gen.formatUsd(gen.MIN_POOL_TVL)),
+    'KO FAQ safety answer must cite the real USD floor — never a converted/relabeled 원 figure');
+  assert.ok(!safetyAnswer.includes('신뢰 기준'),
+    'KO FAQ safety answer must not attribute the page\'s floor to DeFi Garden\'s "trust criteria" as a safety guarantee');
+});
+test('174: tcpTrustNote footer note is likewise interpolated from the floor, not "trust filters" (EN + KO)', () => {
+  const t = require('./translations.js').createTranslationFunction('en');
+  const tKo = require('./translations.js').createTranslationFunction('ko');
+  assert.ok(!/trust filters/i.test(t('tcpTrustNote', gen.formatUsd(gen.MIN_POOL_TVL))), 'EN trust note must not say "trust filters"');
+  assert.ok(!tKo('tcpTrustNote', gen.formatUsd(gen.MIN_POOL_TVL)).includes('신뢰 기준'), 'KO trust note must not say 신뢰 기준');
+  assert.ok(html.includes(gen.formatUsd(gen.MIN_POOL_TVL)) , 'rendered page must show the real floor somewhere via the trust note');
+});
+test('174: no rendered pool row across ANY ranked token shows 0.00% APY (display excludes zero-yield rows)', () => {
+  ranked.forEach(r => r.pools.forEach(p =>
+    assert.notStrictEqual(gen.formatApy(gen.poolTotalApy(p)), '0.00%', r.symbol + ' has a displayed 0.00% APY row')));
+});
+test('174: rankTopTokens excludes 0.00%-APY rows from the displayed table and backfills a real-yield pool ranked beyond POOLS_PER_PAGE', () => {
+  const backfillPools = [];
+  for (let i = 0; i < 7; i++) {
+    backfillPools.push({ symbol: 'BACKFILL174', project: 'zpool' + i, chain: 'Ethereum',
+      tvlUsd: (900 - i * 100) * 1e6, apyBase: 0, apyReward: 0, pool: 'bf174-z' + i });
+  }
+  // Rank #8 by TVL — inside the gate's `shown` slice, keeps the token qualifying.
+  backfillPools.push({ symbol: 'BACKFILL174', project: 'yieldpool8', chain: 'Ethereum',
+    tvlUsd: 200000000, apyBase: 5, apyReward: 0, pool: 'bf174-y8' });
+  // Rank #9 by TVL — beyond POOLS_PER_PAGE (8), the exact 033-style truncation case.
+  backfillPools.push({ symbol: 'BACKFILL174', project: 'yieldpool9', chain: 'Ethereum',
+    tvlUsd: 100000000, apyBase: 6, apyReward: 0, pool: 'bf174-y9' });
+  const rankedBackfill = gen.rankTopTokens(backfillPools);
+  const rec = rankedBackfill.find(r => r.symbol === 'BACKFILL174');
+  assert.ok(rec, 'BACKFILL174 should qualify (its top-8-by-TVL gate slice has >=1 non-zero pool)');
+  assert.strictEqual(rec.pools.length, 2, 'only the 2 real-yield pools should remain in the displayed table');
+  assert.ok(rec.pools.every(p => gen.formatApy(gen.poolTotalApy(p)) !== '0.00%'),
+    'no displayed BACKFILL174 pool row may show 0.00% APY');
+  assert.ok(rec.pools.some(p => p.pool === 'bf174-y9'),
+    'the rank-9 real-yield pool must backfill into the displayed table once zero rows are excluded');
+  const bfHtml = gen.renderTokenPage(rec, [], '2026-07-12');
+  assert.ok(!bfHtml.includes('0.00%'), 'rendered BACKFILL174 page must not show any 0.00% APY cell');
+});
+test('174: mutating MIN_POOL_TVL in a scratch run moves EVERY floor mention on token + chain + hub pages, with zero stale $100K literal', () => {
+  const { tokenGen, chainGen, scratchDir } = loadScratchGenerators(250000);
+  try {
+    const newFloorStr = tokenGen.formatUsd(250000);
+    assert.strictEqual(newFloorStr, '$250K', 'sanity: the mutated floor formats to $250K');
+
+    const scratchRanked = tokenGen.rankTopTokens(pools); // reuses this file's own token fixture
+    const big = scratchRanked.find(r => r.symbol === 'BIG');
+    assert.ok(big, 'BIG ($500M+$300M pools) must still qualify at the mutated $250K floor');
+    const tokenHtml = tokenGen.renderTokenPage(big, [], '2026-07-12');
+    assert.ok(tokenHtml.includes(newFloorStr), 'token page must show the MUTATED floor, not a fixed literal');
+    assert.ok(!tokenHtml.includes('$100K'), 'token page must not retain the stale $100K literal once the constant changes');
+
+    const azGroups = tokenGen.groupTokensAZ(scratchRanked);
+    const hubHtml = tokenGen.renderTokenHubPage(scratchRanked, azGroups);
+    assert.ok(hubHtml.includes(newFloorStr), 'token hub page must show the MUTATED floor');
+    assert.ok(!hubHtml.includes('$100K'), 'token hub page must not retain the stale $100K literal');
+
+    const scratchChainRanked = chainGen.rankTopChains(pools); // same fixture, chain-side ranking
+    assert.ok(scratchChainRanked.length > 0, 'expected at least one qualifying chain at the mutated floor');
+    const chainRec = scratchChainRanked[0];
+    const chainHtml = chainGen.renderChainPage(chainRec, [], '2026-07-12');
+    assert.ok(chainHtml.includes(newFloorStr), 'chain page must show the MUTATED floor');
+    assert.ok(!chainHtml.includes('$100K'), 'chain page must not retain the stale $100K literal');
+
+    const chainHubHtml = chainGen.renderChainHubPage(scratchChainRanked);
+    assert.ok(chainHubHtml.includes(newFloorStr), 'chain hub page must show the MUTATED floor');
+    assert.ok(!chainHubHtml.includes('$100K'), 'chain hub page must not retain the stale $100K literal');
+  } finally {
+    cleanupScratch(scratchDir);
+  }
+});
+
+console.log('242 — headline pool selection: the representativeness gate + attribution parity');
+// Fixture population (NOT hardcoded page instances — run through rankTopTokens
+// exactly like the population-invariant criterion requires):
+//   POPA — a higher-APY NON-representative pool sits beside two representative
+//          ones; the highest-APY REPRESENTATIVE pool must win (the class the
+//          BIG-fixture accident above never exercised, since BIG's TVL-
+//          largest pool also happens to be its highest-APY pool).
+//   POPB — every displayed pool fails the gate (the documented fallback);
+//          the highest-APY pool must still be the headline, attributed
+//          correctly to itself.
+//   POPC — a single pool with NO apyMean30d at all (the inert null branch —
+//          229's "no evidence of representativeness is not evidence of
+//          representativeness"); falls back to that lone pool.
+//   POPE — the spec's own worked instance (694.11% / apyMean30d 240.47%)
+//          beside a representative pool, used as an explicit positive
+//          control in addition to being part of the population sweep.
+function buildHeadlineFixturePools242() {
+  return [
+    { symbol: 'POPA', project: 'popa-proj1', chain: 'Ethereum', tvlUsd: 5000000, apyBase: 20, apyReward: 0, apyMean30d: 19, pool: 'popa-1' },
+    { symbol: 'POPA', project: 'popa-proj2', chain: 'Polygon', tvlUsd: 3000000, apyBase: 50, apyReward: 0, apyMean30d: 5, pool: 'popa-2' },
+    { symbol: 'POPA', project: 'popa-proj3', chain: 'Arbitrum', tvlUsd: 1000000, apyBase: 8, apyReward: 0, apyMean30d: 8.2, pool: 'popa-3' },
+    { symbol: 'POPB', project: 'popb-proj1', chain: 'Optimism', tvlUsd: 2000000, apyBase: 12, apyReward: 0, apyMean30d: 100, pool: 'popb-1' },
+    { symbol: 'POPB', project: 'popb-proj2', chain: 'Base', tvlUsd: 1500000, apyBase: 30, apyReward: 0, apyMean30d: 2, pool: 'popb-2' },
+    { symbol: 'POPC', project: 'popc-proj1', chain: 'Ethereum', tvlUsd: 500000, apyBase: 6, apyReward: 0, pool: 'popc-1' },
+    { symbol: 'POPE', project: 'popE-bad', chain: 'Ethereum', tvlUsd: 4000000, apyBase: 694.11, apyReward: 0, apyMean30d: 240.47, pool: 'pope-bad' },
+    { symbol: 'POPE', project: 'popE-good', chain: 'Polygon', tvlUsd: 3000000, apyBase: 20.08, apyReward: 0, apyMean30d: 20.5, pool: 'pope-good' }
+  ];
+}
+const fixturePools242 = buildHeadlineFixturePools242();
+const ranked242 = gen.rankTopTokens(fixturePools242, 0);
+const bySym242 = Object.fromEntries(ranked242.map(r => [r.symbol, r]));
+const decodeEntities = (s) => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+
+test('fixture sanity: all 4 tokens qualify for a page (POPA, POPB, POPC, POPE)', () => {
+  assert.deepStrictEqual(ranked242.map(r => r.symbol).sort(), ['POPA', 'POPB', 'POPC', 'POPE']);
+});
+
+test('population invariant: for EVERY rankTopTokens record, the rendered headline APY equals formatApy(poolTotalApy(headlinePoolFor(rec.pools))), and a representative pool is chosen whenever one exists (EN + KO)', () => {
+  ranked242.forEach(rec => {
+    const expectedPool = gen.headlinePoolFor(rec.pools);
+    assert.ok(expectedPool, `[${rec.symbol}] headlinePoolFor returned null for a non-empty pools array`);
+    const expectedApyStr = gen.formatApy(gen.poolTotalApy(expectedPool));
+    ['en', 'ko'].forEach(lang => {
+      const pageHtml = gen.renderTokenPage(rec, [], '2026-08-06', [], lang);
+      const answerText = decodeEntities(pageHtml.match(/class="tp-answer">([^<]*)</)[1]);
+      assert.ok(answerText.includes(expectedApyStr),
+        `[${rec.symbol}/${lang}] answer block missing expected headline APY ${expectedApyStr}: "${answerText}"`);
+      const faqA1 = decodeEntities(pageHtml.match(/<p class="tp-faq-a">([^<]*)<\/p>/)[1]);
+      assert.ok(faqA1.includes(expectedApyStr),
+        `[${rec.symbol}/${lang}] FAQ A1 missing expected headline APY ${expectedApyStr}: "${faqA1}"`);
+    });
+    // (b) representativeness invariant — a genuine invariant on headlinePoolFor's
+    // OWN output, independent of how the page renders it: this is what makes
+    // non-vacuity mutation (a) (headlinePoolFor -> plain Math.max) visible even
+    // though the assertions above reference headlinePoolFor directly.
+    const anyRepresentative = rec.pools.some(p => gen.isRepresentativeRate(p));
+    if (anyRepresentative) {
+      assert.ok(gen.isRepresentativeRate(expectedPool),
+        `[${rec.symbol}] a representative pool exists among rec.pools but the headline pool is NOT representative`);
+    }
+  });
+});
+
+test('attribution invariant: the project + chain rendered in the answer block AND FAQ A1 belong to the SAME pool the headline APY came from, for every record, EN + KO', () => {
+  ranked242.forEach(rec => {
+    const expectedPool = gen.headlinePoolFor(rec.pools);
+    ['en', 'ko'].forEach(lang => {
+      const pageHtml = gen.renderTokenPage(rec, [], '2026-08-06', [], lang);
+      const answerText = decodeEntities(pageHtml.match(/class="tp-answer">([^<]*)</)[1]);
+      const faqA1 = decodeEntities(pageHtml.match(/<p class="tp-faq-a">([^<]*)<\/p>/)[1]);
+      [['answer block', answerText], ['FAQ A1', faqA1]].forEach(([where, text]) => {
+        assert.ok(text.includes(expectedPool.project),
+          `[${rec.symbol}/${lang}] ${where} does not name the headline pool's project (${expectedPool.project}): "${text}"`);
+        assert.ok(text.includes(expectedPool.chain),
+          `[${rec.symbol}/${lang}] ${where} does not name the headline pool's chain (${expectedPool.chain}): "${text}"`);
+        // No OTHER pool's project should appear where the headline pool's
+        // project doesn't match it — guards against a same-numbered
+        // coincidence masking a wrong-pool attribution.
+        rec.pools.filter(p => p !== expectedPool && p.project !== expectedPool.project).forEach(other => {
+          assert.ok(!text.includes(other.project),
+            `[${rec.symbol}/${lang}] ${where} names a NON-headline pool's project (${other.project}) — wrong attribution: "${text}"`);
+        });
+      });
+    });
+  });
+});
+
+test('twin parity: renderTokenPageMarkdown carries the SAME headline APY + project/chain as renderTokenPage, for every record, EN + KO', () => {
+  ranked242.forEach(rec => {
+    const expectedPool = gen.headlinePoolFor(rec.pools);
+    const expectedApy = gen.poolTotalApy(expectedPool);
+    ['en', 'ko'].forEach(lang => {
+      // buildAnswerAndFaq is the SAME function both renderTokenPage and
+      // renderTokenPageMarkdown call — using it as the oracle for the exact
+      // expected text (not just substring probes) proves twin parity.
+      const { answer, faq } = gen.buildAnswerAndFaq(rec.symbol, rec, expectedApy, expectedPool, lang);
+      const md = gen.renderTokenPageMarkdown(rec, [], '2026-08-06', [], lang);
+      assert.ok(md.includes(answer),
+        `[${rec.symbol}/${lang}] markdown twin's answer text does not match the expected buildAnswerAndFaq() output`);
+      assert.ok(md.includes(faq[0].a),
+        `[${rec.symbol}/${lang}] markdown twin's FAQ A1 does not match the expected buildAnswerAndFaq() output`);
+    });
+  });
+});
+
+console.log('242 — positive controls (the spec\'s measured instances, used as controls only — never the definition)');
+test('positive control: a 694.11% pool (apyMean30d 240.47%) beside a representative 20.08% pool -> the unrepresentative pool is NOT the headline', () => {
+  const rec = bySym242['POPE'];
+  const bad = rec.pools.find(p => p.project === 'popE-bad');
+  const good = rec.pools.find(p => p.project === 'popE-good');
+  assert.ok(!gen.isRepresentativeRate(bad), 'sanity: the 694.11%/240.47%-mean pool must fail the gate');
+  assert.ok(gen.isRepresentativeRate(good), 'sanity: the 20.08%/20.5%-mean pool must pass the gate');
+  const headline = gen.headlinePoolFor(rec.pools);
+  assert.strictEqual(headline.project, 'popE-good', 'the unrepresentative 694.11% pool must not be the headline');
+  const html = gen.renderTokenPage(rec, [], '2026-08-06', [], 'en');
+  const answerText = decodeEntities(html.match(/class="tp-answer">([^<]*)</)[1]);
+  assert.ok(answerText.includes('694.11%') === false, 'rendered answer must not headline the 694.11% rate');
+  assert.ok(answerText.includes(gen.formatApy(20.08)), 'rendered answer must headline the representative 20.08% rate');
+  assert.ok(answerText.includes('popE-good') && !answerText.includes('popE-bad'), 'rendered answer must attribute to the representative pool, not the unrepresentative one');
+});
+test('positive control: a record where EVERY pool fails the gate -> the highest-APY pool IS the headline (documented fallback), attribution matches it', () => {
+  const rec = bySym242['POPB'];
+  assert.ok(rec.pools.every(p => !gen.isRepresentativeRate(p)), 'sanity: both POPB pools must fail the gate');
+  const headline = gen.headlinePoolFor(rec.pools);
+  assert.strictEqual(headline.project, 'popb-proj2', 'fallback must pick the highest-APY pool (30% > 12%)');
+  const html = gen.renderTokenPage(rec, [], '2026-08-06', [], 'en');
+  const answerText = decodeEntities(html.match(/class="tp-answer">([^<]*)</)[1]);
+  assert.ok(answerText.includes(gen.formatApy(30)), 'fallback headline must state the highest (unchecked) APY');
+  assert.ok(answerText.includes('popb-proj2') && !answerText.includes('popb-proj1'), 'fallback attribution must match the highest-APY pool, not the other one');
+});
+
+console.log('242 — unchanged-surface proof');
+test('the visible pool table order is UNCHANGED by headline selection: still rec.pools order (TVL-sorted), for every record', () => {
+  ranked242.forEach(rec => {
+    const html = gen.renderTokenPage(rec, [], '2026-08-06', [], 'en');
+    const tbody = html.match(/<tbody>([\s\S]*?)<\/tbody>/)[1];
+    const tableProjects = [...tbody.matchAll(/class="tp-pool-link" href="[^"]*">([^&]*) &rarr;/g)].map(m => m[1]);
+    assert.deepStrictEqual(tableProjects, rec.pools.map(p => p.project),
+      `[${rec.symbol}] visible table row order diverged from rec.pools order`);
+  });
+});
+test('rankTopTokens output (record set, per-record pools + order) is identical whether or not a headline is ever rendered — headlinePoolFor is read-only', () => {
+  const rankedAgain = gen.rankTopTokens(buildHeadlineFixturePools242(), 0);
+  assert.deepStrictEqual(rankedAgain, ranked242, 'rankTopTokens output must be unaffected by 242\'s headline-selection logic');
+});
+
+console.log('242 — mirror proof: generate-spotlight.js re-exports (never redefines) the representativeness gate');
+test('generate-spotlight.js\'s isRepresentativeRate/representativenessRatio/REPRESENTATIVE_REL/REPRESENTATIVE_ABS_PP are the SAME function/value objects as generate-token-pages.js\'s (or, if @napi-rs/canvas is unavailable, a source-level proof that spotlight imports and re-exports without redefining)', () => {
+  let spotlightGen = null;
+  let mode;
+  try {
+    spotlightGen = require('./generate-spotlight.js');
+    mode = 'live require (identity check)';
+  } catch (e) {
+    if (e.code !== 'MODULE_NOT_FOUND' || !/@napi-rs[\\/]canvas/.test(e.message)) throw e;
+    mode = 'source-level proof (@napi-rs/canvas not installed in this checkout)';
+  }
+  console.log(`    [mirror proof ran in: ${mode}]`);
+  if (spotlightGen) {
+    assert.strictEqual(spotlightGen.isRepresentativeRate, gen.isRepresentativeRate, 'isRepresentativeRate identity mismatch (spotlight -> token-pages)');
+    assert.strictEqual(gen.isRepresentativeRate, spotlightGen.isRepresentativeRate, 'isRepresentativeRate identity mismatch (token-pages -> spotlight)');
+    assert.strictEqual(spotlightGen.representativenessRatio, gen.representativenessRatio, 'representativenessRatio identity mismatch (spotlight -> token-pages)');
+    assert.strictEqual(gen.representativenessRatio, spotlightGen.representativenessRatio, 'representativenessRatio identity mismatch (token-pages -> spotlight)');
+    assert.strictEqual(spotlightGen.REPRESENTATIVE_REL, gen.REPRESENTATIVE_REL, 'REPRESENTATIVE_REL identity mismatch (spotlight -> token-pages)');
+    assert.strictEqual(gen.REPRESENTATIVE_REL, spotlightGen.REPRESENTATIVE_REL, 'REPRESENTATIVE_REL identity mismatch (token-pages -> spotlight)');
+    assert.strictEqual(spotlightGen.REPRESENTATIVE_ABS_PP, gen.REPRESENTATIVE_ABS_PP, 'REPRESENTATIVE_ABS_PP identity mismatch (spotlight -> token-pages)');
+    assert.strictEqual(gen.REPRESENTATIVE_ABS_PP, spotlightGen.REPRESENTATIVE_ABS_PP, 'REPRESENTATIVE_ABS_PP identity mismatch (token-pages -> spotlight)');
+  } else {
+    const src = fs.readFileSync(path.join(__dirname, 'generate-spotlight.js'), 'utf8');
+    assert.ok(/require\(\s*\{[\s\S]*?\}\s*=\s*require\(['"]\.\/generate-token-pages\.js['"]\)|=\s*require\(['"]\.\/generate-token-pages\.js['"]\)/.test(src) || /require\(['"]\.\/generate-token-pages\.js['"]\)/.test(src),
+      'generate-spotlight.js must import from generate-token-pages.js');
+    assert.ok(!/function\s+isRepresentativeRate\s*\(/.test(src), 'generate-spotlight.js must NOT redefine isRepresentativeRate');
+    assert.ok(!/function\s+representativenessRatio\s*\(/.test(src), 'generate-spotlight.js must NOT redefine representativenessRatio');
+    assert.ok(!/const\s+REPRESENTATIVE_REL\s*=/.test(src), 'generate-spotlight.js must NOT redefine REPRESENTATIVE_REL');
+    assert.ok(!/const\s+REPRESENTATIVE_ABS_PP\s*=/.test(src), 'generate-spotlight.js must NOT redefine REPRESENTATIVE_ABS_PP');
+    const exportsMatch = src.match(/module\.exports\s*=\s*\{[\s\S]*?\n\};/);
+    assert.ok(exportsMatch, 'generate-spotlight.js must have a module.exports block to inspect');
+    ['REPRESENTATIVE_REL', 'REPRESENTATIVE_ABS_PP', 'isRepresentativeRate', 'representativenessRatio'].forEach(name => {
+      assert.ok(exportsMatch[0].includes(name), `generate-spotlight.js's module.exports must still re-export ${name}`);
+    });
+  }
 });
 
 console.log(`\n${passed} assertions passed`);

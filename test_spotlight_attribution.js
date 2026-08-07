@@ -91,6 +91,20 @@ async function main() {
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
     const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+    // spec 096's production-host gate (analytics.js:96, PRODUCTION_HOSTS at :14)
+    // makes Analytics.track() return early off-allowlist, so a localhost:8798
+    // load never reaches window.mixpanel and the stub queue below reads empty.
+    // Neutralising the check restores the real production path into the SAME
+    // stub queue without touching analytics.js; test_analytics_host_gate_render.js
+    // is the negative control proving suppression still holds when this override
+    // is absent — don't "fix" that gate instead of the test environment.
+    await page.addInitScript(() => {
+      const install = () => {
+        if (typeof Analytics === 'undefined') { setTimeout(install, 0); return; }
+        Analytics.isProductionHost = () => true;
+      };
+      install();
+    });
     await page.addInitScript(() => { try { localStorage.clear(); } catch (e) {} });
     const pageErrors = [];
     page.on('pageerror', (err) => pageErrors.push('pageerror: ' + err.message));
@@ -145,6 +159,16 @@ async function main() {
 
     await test('a plain share link with no ?src= carries source=null on plan_created (no regression)', async () => {
       const page2 = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+      // Same spec 096 host-gate override as the main `page` above — page2 is
+      // a fresh page (own init-script list), so the neutralisation must be
+      // re-installed here too or this leg's stub queue reads empty again.
+      await page2.addInitScript(() => {
+        const install = () => {
+          if (typeof Analytics === 'undefined') { setTimeout(install, 0); return; }
+          Analytics.isProductionHost = () => true;
+        };
+        install();
+      });
       await page2.addInitScript(() => { try { localStorage.clear(); } catch (e) {} });
       for (const [url, localPath] of Object.entries(vendored)) {
         await page2.route(url, (route) => route.fulfill({

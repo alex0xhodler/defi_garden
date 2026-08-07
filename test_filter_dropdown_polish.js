@@ -165,10 +165,19 @@ async function main() {
         if (!nonActive) return { err: 'no non-active chip' };
         const cs = getComputedStyle(active);
         const csN = getComputedStyle(nonActive);
+        // Resolve the design system's on-accent ink to a computed rgb() via a
+        // probe span — the 247 world's filled-primary chip uses
+        // var(--ui-on-accent) (not literal white in every scheme).
+        const probe = document.createElement('span');
+        probe.style.color = 'var(--ui-on-accent)';
+        document.body.appendChild(probe);
+        const onAccent = getComputedStyle(probe).color;
+        probe.remove();
         return {
           activeBg: cs.backgroundColor,
           nonActiveBg: csN.backgroundColor,
           activeColor: cs.color,
+          onAccent,
           activeText: active.textContent.trim()
         };
       });
@@ -178,8 +187,8 @@ async function main() {
         throw new Error('active chip background is transparent: ' + r.activeBg);
       if (r.activeBg === r.nonActiveBg)
         throw new Error('active chip background (' + r.activeBg + ') does not differ from non-active (' + r.nonActiveBg + ')');
-      if (r.activeColor !== 'rgb(255, 255, 255)')
-        throw new Error('active chip color is ' + r.activeColor + ', expected white rgb(255, 255, 255)');
+      if (r.activeColor !== r.onAccent)
+        throw new Error('active chip color is ' + r.activeColor + ', expected on-accent ink ' + r.onAccent);
     });
 
     // B3: hovering a non-active chip lifts (translate) but does NOT scale.

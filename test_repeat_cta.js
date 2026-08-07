@@ -1,15 +1,28 @@
-/* Rendered Playwright test for backlog 125 — repeat CTA block after Pool Info.
-   Mirrors the hero action card's two north-star CTAs at the bottom of the
-   pool-detail page so a reader who has scrolled past Pool Information can
-   convert without scrolling back up. This test proves, against a REAL chromium
-   render of a `?pool=<id>` landing (not source reading):
-   (1) exactly TWO `.cta-button-primary` render (hero + repeat), and the repeat
-       one appears AFTER `.pool-info-section` in DOM order;
+/* Rendered Playwright test for backlog 125 — repeat CTA block, now inside the
+   earnings block (spec 210 moved it there from the page bottom).
+
+   210 rationale for what changed here (see specs/210-notes.md for the full
+   line-by-line justification): the repeat CTA used to sit AFTER Pool
+   Information ("can convert without scrolling back up"). 210 relocates it to
+   the END of the merged calculator-compact "your garden" earnings block —
+   the moment the user has parameterised the projection with their own
+   amount, which 210's evidence identified as the actual intent peak. It is
+   now BEFORE `.pool-info-section` in DOM order, and its `ctaPlacement`
+   changed from `'repeat_footer'` to `'earnings_block'` so hero-vs-earnings-
+   block click share stays readable from the existing event (load-bearing
+   per 210's acceptance criteria — keeping the old string would silently
+   un-measure the move).
+
+   This test proves, against a REAL chromium render of a `?pool=<id>` landing
+   (not source reading):
+   (1) exactly TWO `.cta-button-primary` render (hero + repeat), the repeat
+       one appears BEFORE `.pool-info-section` in DOM order (inside the
+       earnings block), and NO CTA renders after `.pool-info-section`;
    (2) clicking the REPEAT "Garden this pool" fires exactly one
-       `pool_click{source=garden_cta, ctaPlacement=repeat_footer}` with non-empty
-       segmentation props;
+       `pool_click{source=garden_cta, ctaPlacement=earnings_block}` with
+       non-empty segmentation props;
    (3) clicking the REPEAT "Start Earning on <protocol>" fires exactly one
-       `pool_click{source=protocol_link, ctaPlacement=repeat_footer}`, no nav;
+       `pool_click{source=protocol_link, ctaPlacement=earnings_block}`, no nav;
    (4) the HERO "Garden this pool" still fires
        `pool_click{source=garden_cta, ctaPlacement=hero}` (no regression);
    (5) no unexpected page/console errors.
@@ -165,26 +178,33 @@ async function main() {
     await page.goto(`http://localhost:${PORT}/home.html?pool=${encodeURIComponent(URL_DIRECT_POOL.pool)}`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('.pool-detail-view', { timeout: 15000 });
 
-    // (1) exactly TWO .cta-button-primary; the 2nd is AFTER .pool-info-section
-    await test('exactly 2 .cta-button-primary render; repeat one is after .pool-info-section in DOM order', async () => {
+    // (1) exactly TWO .cta-button-primary; the 2nd is BEFORE .pool-info-section
+    // (210: relocated inside the earnings block), and NO CTA renders after
+    // .pool-info-section (the page must not end on a verbatim repeat).
+    await test('exactly 2 .cta-button-primary render; repeat one is BEFORE .pool-info-section (earnings block), none after', async () => {
       const count = await page.locator('.cta-button-primary').count();
       if (count !== 2) throw new Error(`expected exactly 2 .cta-button-primary (hero + repeat), got ${count}`);
-      const repeatAfterInfo = await page.evaluate(() => {
+      const result = await page.evaluate(() => {
         const primaries = Array.from(document.querySelectorAll('.cta-button-primary'));
-        // The repeat block's .pool-info-section reference is the collapsible
-        // Pool Information section (the LAST .pool-info-section — there is also
-        // a hero left-column .pool-info-section). Use the last one.
+        // The Pool Information collapsible section (the LAST .pool-info-section
+        // — there is also a hero left-column .pool-info-section). Use the last one.
         const infoSections = Array.from(document.querySelectorAll('.pool-info-section'));
         const poolInfo = infoSections[infoSections.length - 1];
         const repeat = primaries[1];
-        // Node.DOCUMENT_POSITION_FOLLOWING (4): poolInfo is followed by repeat
-        return !!(poolInfo.compareDocumentPosition(repeat) & Node.DOCUMENT_POSITION_FOLLOWING);
+        // Node.DOCUMENT_POSITION_FOLLOWING (4): repeat is followed by poolInfo,
+        // i.e. repeat comes BEFORE poolInfo in DOM order.
+        const repeatBeforeInfo = !!(repeat.compareDocumentPosition(poolInfo) & Node.DOCUMENT_POSITION_FOLLOWING);
+        // No .cta-button-primary/.cta-button-protocol may render after poolInfo.
+        const anyCtaAfterInfo = Array.from(document.querySelectorAll('.cta-button-primary, .cta-button-protocol'))
+          .some((cta) => !!(poolInfo.compareDocumentPosition(cta) & Node.DOCUMENT_POSITION_FOLLOWING));
+        return { repeatBeforeInfo, anyCtaAfterInfo };
       });
-      if (!repeatAfterInfo) throw new Error('the 2nd (repeat) .cta-button-primary is NOT after .pool-info-section in DOM order');
+      if (!result.repeatBeforeInfo) throw new Error('the 2nd (repeat) .cta-button-primary is NOT before .pool-info-section in DOM order');
+      if (result.anyCtaAfterInfo) throw new Error('a CTA renders AFTER .pool-info-section — the page must not end on a verbatim repeat (210)');
     });
 
-    // (2) repeat garden_cta fires pool_click{source=garden_cta, ctaPlacement=repeat_footer}
-    await test('repeat "Garden this pool" fires pool_click(source=garden_cta, ctaPlacement=repeat_footer) with segmentation props', async () => {
+    // (2) repeat garden_cta fires pool_click{source=garden_cta, ctaPlacement=earnings_block}
+    await test('repeat "Garden this pool" fires pool_click(source=garden_cta, ctaPlacement=earnings_block) with segmentation props', async () => {
       await resetEvents(page);
       const repeat = page.locator('.cta-button-primary').nth(1);
       await repeat.scrollIntoViewIfNeeded();
@@ -192,12 +212,12 @@ async function main() {
       const events = await pollEvents(page, (evs) => evs.some((e) => e.eventName === 'pool_click' && e.eventData.source === 'garden_cta'), 5000);
       const clicks = events.filter((e) => e.eventName === 'pool_click' && e.eventData.source === 'garden_cta');
       if (clicks.length !== 1) throw new Error(`expected exactly one pool_click(source=garden_cta), got ${JSON.stringify(clicks)}`);
-      if (clicks[0].eventData.ctaPlacement !== 'repeat_footer') throw new Error(`expected ctaPlacement=repeat_footer, got ${JSON.stringify(clicks[0].eventData)}`);
+      if (clicks[0].eventData.ctaPlacement !== 'earnings_block') throw new Error(`expected ctaPlacement=earnings_block, got ${JSON.stringify(clicks[0].eventData)}`);
       assertSegmentationProps(clicks[0].eventData, 'garden_cta', 'repeat garden_cta pool_click');
     });
 
-    // (3) repeat protocol_link fires pool_click{source=protocol_link, ctaPlacement=repeat_footer}, no nav
-    await test('repeat "Start Earning on <protocol>" fires pool_click(source=protocol_link, ctaPlacement=repeat_footer), no navigation', async () => {
+    // (3) repeat protocol_link fires pool_click{source=protocol_link, ctaPlacement=earnings_block}, no nav
+    await test('repeat "Start Earning on <protocol>" fires pool_click(source=protocol_link, ctaPlacement=earnings_block), no navigation', async () => {
       await resetEvents(page);
       const link = page.locator('.cta-button-protocol').nth(1);
       if ((await page.locator('.cta-button-protocol').count()) !== 2) throw new Error('expected exactly 2 .cta-button-protocol (hero + repeat) for a pool with a known protocol URL (lido)');
@@ -206,7 +226,7 @@ async function main() {
       const events = await pollEvents(page, (evs) => evs.some((e) => e.eventName === 'pool_click' && e.eventData.source === 'protocol_link'), 5000);
       const clicks = events.filter((e) => e.eventName === 'pool_click' && e.eventData.source === 'protocol_link');
       if (clicks.length !== 1) throw new Error(`expected exactly one pool_click(source=protocol_link), got ${JSON.stringify(clicks)}`);
-      if (clicks[0].eventData.ctaPlacement !== 'repeat_footer') throw new Error(`expected ctaPlacement=repeat_footer, got ${JSON.stringify(clicks[0].eventData)}`);
+      if (clicks[0].eventData.ctaPlacement !== 'earnings_block') throw new Error(`expected ctaPlacement=earnings_block, got ${JSON.stringify(clicks[0].eventData)}`);
       assertSegmentationProps(clicks[0].eventData, 'protocol_link', 'repeat protocol_link pool_click');
       if (page.url().includes('lido.fi')) throw new Error('protocol_link click navigated the test page away — window.open was not intercepted');
     });

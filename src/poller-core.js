@@ -16,7 +16,7 @@
 'use strict';
 
 const APY_SANITY_LIMIT = 1000;      // total APY above this = anomalous (KEPT + flagged downstream)
-const DEFAULT_MIN_TVL = 10000000;   // $10M floor — applied upstream, never lowered
+const DEFAULT_MIN_TVL = 100000;   // $100K floor — applied upstream
 const RETENTION_DAYS = 90;          // history window kept in D1 (Worker prunes older)
 
 /** Match compute-kpis.js round() exactly so the DB path is byte-equivalent to the

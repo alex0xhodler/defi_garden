@@ -35,15 +35,65 @@ run; log which surfaces you covered.
   with `NODE_PATH=/opt/node22/lib/node_modules` (playwright is installed globally) or `npm install` first.
   → ticketed **149** (make the script self-heal and fail loudly).
 
+**COUNTER-TRAP: a finding the harness caused can still be the real finding (learned 2026-07-30).**
+The traps above exist to stop you ticketing fiction. Applied literally they will also kill real findings —
+this one nearly killed a 29.1% gap on the north-star surface. **Blocked external hosts are not only
+fixture noise; they are a faithful sample of a condition that happens in production too** (ad-blockers,
+upstream outages, CSP, slow first paint, a user who bounces before a deferred background fetch resolves).
+
+Worked example: the audit reported `dead-cta` on `pool-detail:ae6b7add`. The pool's protocol resolved fine
+against live `api.llama.fi/protocols` (7,962 protocols, verified in-session), so "sandbox artifact,
+dismiss" was the by-the-letter call. But the CTA's URL came from a **runtime fetch to a second third-party
+host that `app.js:1285` documents as allowed to fail silently**, behind a 96-entry hand-maintained
+fallback. What the harness blocked, an ad-blocker also blocks — for **216 of 741 pools (29.1%)**. → item **182**.
+
+**The three questions, in order — do not stop at Q1:**
+1. *Did the harness cause this?* If no → real finding, ticket it.
+2. *Would this condition ever occur in production?* A blocked/failed third-party host, a slow response, an
+   aborted fetch: **almost always yes.** A malformed fixture payload you wrote yourself: no.
+3. *If yes — what fraction of real users hit it, and what do they see?* **Measure it against live data**
+   (fetch the real upstream in-session; the network is open to `curl`/`node` per NORTH_STAR 2026-07-12).
+   The answer is the finding, and it is usually much larger than the one surface the scanner flagged.
+
+If the honest answer to Q3 is *"nobody knows, and the code fails silently when it happens"* — that is a
+real defect and the not-knowing is part of it. Ticket it, and ticket the instrumentation with it.
+
+**Corollary — record provenance so the next tick does not re-derive it.** This classification cost a live
+API fetch and a read of three call sites. A finding that cannot say *why* the element was absent recurs
+every run, indistinguishable from a real one, and gets skimmed. Item **171** built exactly this
+reconciliation for the pool prescan (promoted suspect renders clean → auto-downgrade P1 → P2 with the
+reconciliation stated in the record); item **183** extends it to the rendered checks. **When you build a
+downgrade path, "undeterminable" must stay blocking** — otherwise the classifier is a relaxation wearing a
+refactor's clothes (`pre-existing-red-triage.md`, Resolution E).
+
 ## Surfaces to drive
 - `/` — planner hero (default funnel top)
 - `?token=<common>` (e.g. USDC) — grid renders pool cards
 - `?token=<obscure/all-sub-$10M>` — the dead-end class (item 133)
 - `?chain=<X>`
-- `?pool=<live id>` — **pool detail = the current north-star surface** (audit this every tick)
+- `?pool=<live id>` — **pool detail = the current north-star surface** (audit this every tick).
+  **Arrival accounting (2026-08-03, item 214):** `pool_view` fires only AFTER pool data resolves, and a
+  `?pool=` arrival blocks on the live multi-MB fetch (`app.js:1144` excludes pool arrivals from the
+  snapshot path even when the pool is snapshot-present) — so an arrival that bounces during the fetch
+  logs a `page_view` and **no** `pool_view` (measured 07-29: `?pool=4438dabc…` page_view 1, pool_view 0).
+  When counting arrivals to this surface, read `page_view` with `pool=` in the URL; `pool_view` counts
+  *renders*, and the gap between the two is itself a signal (bounce-before-paint or non-JS/early-exit
+  crawler).
+  **And it has TWO populations, not one (item 206, 2026-08-02).** The rotation draws from
+  `data/pools-snapshot.json` (736 pools, $10M-railed); the estate deep-links **3,669** ids, of which only
+  **420 (11.4%)** are in that snapshot. Median deep-linked TVL is **$515,134**. So a sub-rail `?pool=`
+  arrival — the majority case, and the only real arrival on record — takes the LIVE-fetch path
+  (`snapshotEligible = !urlParams.pool && …`, `app.js:1144`), carries **no `kpis`**, and renders a page the
+  scanner has never once driven. Drive sub-rail ids explicitly; do not let the snapshot define "a pool".
 - `?pool=<dead id>` — 072 dead-pool empty state
 - `/tokens/<slug>`, `/chains/<slug>` — static SEO pages. Drive a **sample**, not just `usdc`/`ethereum`:
   the junk lives in the tail of the 2,079-page set, never in the flagship page (item 154)
+- `/ko/tokens/<slug>`, `/ko/chains/<slug>` — **the other half of the estate, and `audit-app.js` has never
+  touched it** (item 197, 2026-08-01). 2,186 KO leaf pages, byte-for-byte the same count as the EN estate,
+  2,215 `<loc>`s submitted to Google. `listLeafPages()` is only ever called with `'tokens'`/`'chains'`.
+  **Do not read the `-ko` entries in `surfacesCovered` as coverage** — `pool-detail-ko`/`planner-ko`/
+  `plan-bloom-ko` are app routes via `?lang=ko` and say nothing about the static KO pages. Grep the covered
+  set for the `/ko/` **path prefix**, never for the label. See `detector-signal-coverage.md`, third axis.
 
 ## Bug-class checklist (smell → check → the finding it came from)
 1. **Number sanity.** Scan rendered text for `NaN`/`Infinity`/`undefined`/`null`; absurd magnitude (a
@@ -74,6 +124,48 @@ run; log which surfaces you covered.
    `원` (Won) with no conversion, which is a number-sanity bug wearing an i18n costume; compare the KO
    figure against the EN `$` figure for the same value and flag any unit swap without conversion. →
    caught **137** (`formatKoreanCurrency` stamping 원 onto USD across every pool-detail money string).
+
+   **AND the dictionary itself has THREE failure levels, not one (learned 2026-07-31, item 189).** Every
+   i18n check on this repo before 189 was specced from 137 — a *currency-unit* bug — so all of them
+   inherited its signal set and none looked at the dictionary at all. Run all three; they fail differently
+   and the cheap ones are pure `fs`+regex, no render:
+   - **(1) Key parity.** Flatten BOTH language trees and diff the key sets. **`translations.js` is NESTED —
+     `en`/`ko` each contain `landing` (41) and `planner` (319) sub-objects on top of 185 top-level keys,
+     543 flattened.** A flat `Object.keys(t.en)` reads 185 and will report ~192 phantom "missing" keys the
+     moment you check `t()` call sites in `planner.js`, because `planner.js`'s own `t()` (`planner.js:870`)
+     resolves *into* the `planner` sub-object. **Flatten before diffing, or the check invents its own
+     findings.** Measured 2026-07-31: 543/543, zero asymmetry — a true negative worth recording.
+   - **(2) Value honesty — is the translation translated?** A KO value containing **no Hangul**
+     (`/[가-힣ᄀ-ᇿ㄰-㆏]/`) **and at least one Latin letter** (`/[A-Za-z]/`), whose key path is **not on the
+     allowlist**, is untranslated. Key parity is 100% blind to this: the key exists, so every parity check
+     passes while the string renders in English. → caught **189** (`landing.footerPoweredBy`,
+     `landing.footerMadeWith` on 2,201 KO landers).
+     **Byte-identity with EN is not part of the gate (item 198, 2026-08-01, correcting this playbook's own
+     original wording).** 190's first ship implemented `en === ko && no-Hangul` — keying the gate on
+     *sameness with EN*, a property of the PAIR. Probed against that shipped function: KO `"Powered by "`
+     (one trailing space) → **clean**; KO `"Powered by the DefiLlama feed"` → **clean**; both misses in the
+     exact scenario the gate exists for, because a property of the pair goes silent the moment the pair
+     drifts — reword EN without touching KO and the gate stops firing at precisely the moment KO has become
+     stale English. 198 dropped the identity gate and keyed the predicate on the KO value **alone**: a
+     stale-English KO value is flagged regardless of whether it still matches EN byte-for-byte. Byte-identity
+     is still **reported** in the finding's `detail` string when it happens to hold (real, useful
+     information) — it is simply not required to fire. The Latin-letter conjunct is what makes dropping the
+     identity gate safe: without it, a legitimately non-linguistic KO value (`"$100"`, `"2026"`, `"—"`) would
+     become a suspect the instant it contains no Hangul, and would need an allowlist entry it should never
+     have needed. Accepted blind spot: an untranslated KO value made purely of digits/punctuation is not
+     detectable by this rule — fine, because such a value carries no English prose to be stale.
+   - **(3) The allowlist is the design decision, and it is where this check will rot.** Of 10 no-Hangul KO
+     values, **8 are correct** — brand and product names (`Claude Pro`, `Apple TV+`, `ChatGPT Plus`,
+     `Uber One`, `Leviathan News`, `DefiLlama API`) and the acronym `LP/DEX` are identical in Korean by
+     nature. A predicate without an allowlist is 80% false-positive here and gets skimmed within a week.
+     Keep the allowlist as **data, keyed by exact key path**, each entry carrying a one-line reason, and
+     **report its size next to the suspect count** — otherwise a future reader cannot tell "clean" from
+     "allowlisted into silence." Adding an allowlist entry for a non-brand string is a gate relaxation
+     wearing a maintenance costume (`pre-existing-red-triage.md`, Resolution E).
+   **Scale rule:** a defect in the `landing` namespace multiplies by the generated estate, not by the number
+   of screens — `landing.js` backs 2,201 pages, so two strings is a 2,201-page defect. And `detectLanguage()`
+   (`landing.js:47-55`) auto-selects KO from `navigator.language`, so "nobody passes `?lang=ko`" is never a
+   reason to deprioritise a KO defect.
 6. **Dead CTAs / broken links.** Every primary CTA + link resolves (no dead clicks); the two north-star
    CTAs ("Garden this pool", "Start Earning") fire their events. → 029 (dead pool rows).
 7. **Responsive / dark.** No horizontal body scroll at 360px; dark mode renders; focus rings present. →
@@ -101,6 +193,32 @@ run; log which surfaces you covered.
    human searches it, and it is thin by construction. Corollary: when auditing any surface built by
    splitting a data field, check the *validity predicate*, not the output list — the junk set is
    data-dependent and churns daily (8 date fragments in today's snapshot; only 2 of them committed).
+
+10. **Link-target integrity: does that URL go where the line says it goes? (learned 2026-07-28, item 166 —
+   the class that hid *underneath* a fixed P0.)** Check 6 covers dead CTAs on **rendered** surfaces; this is
+   its counterpart for **generated text** surfaces (`llms.txt`, `llms-full.txt`, and any future machine-
+   readable artifact), where a link is a plain string nobody clicks in testing. Three sub-checks, each of
+   which caught a live prod defect on 2026-07-28:
+   - **(a) Is the query param actually routed?** Extract every `?<key>=` the surface emits and assert
+     membership in `ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {lang}`, read out of `home.html:77-78` — never a
+     hardcoded second copy of those lists. 17 links used `?search=`, which is in neither list, so the IA
+     router resolved `__APP_MODE = 'landing'` and `landing.js:52` (which reads only `lang`) dropped the
+     query: the reader asked for `lido` and got an empty search box. The correct param, `?protocols=`,
+     already existed.
+   - **(b) Does a row about a SPECIFIC thing link to the bare origin?** 15 pool rows rendered
+     `- uniswap-v3 · WETH-USDC — 95.55% APY, $110,825,218 TVL — https://www.defi.garden`. Root cause is the
+     trap below.
+   - **(c) Do two rows claiming DIFFERENT figures share one URL?** Two distinct Base uniswap-v3 WETH-USDC
+     pools (95.5%/$110.8M and 31.7%/$10.2M) pointed at the same `?token=&chain=` grid URL — reading as
+     contradictory claims about one page. A URL that cannot address the row's subject is the smell.
+   **Decision rule:** any row that names a specific pool/protocol must link to a URL that *addresses* it —
+   for pools that means `/?pool=<id>`, the north-star surface (2026-07-23), and `grep -c "?pool="` over the
+   generated surfaces is the one-command version of this whole check. It returned **0** on both files.
+   **The trap worth internalising: `pool.url || meta.baseUrl` is not a fallback, it is an unconditional
+   branch** — no DefiLlama payload has a `url` field, in either the snapshot or the live shape, so the right
+   side fired on 100% of rows for the life of the surface while reading as defensive code. Before trusting
+   any `||` fallback on payload data, prove the left side exists: `grep -c '"url"' data/pools-snapshot.json`.
+   Sibling of `dual-source-logic-divergence.md`.
 
 ## Severity → score (so audit findings compete with metric opportunities)
 - **P0** broken number / page error / astronomical value on a live surface (trust-breaker) → 9+.
@@ -160,7 +278,191 @@ promoted}` field. Kill switch: `AUDIT_STATIC_PRESCAN=0` / `opts.prescan === fals
 spending the expensive render budget, and aim the render at what the prescan flagged as suspicious** — the
 uniform-sample-and-hope pattern this replaces is the default failure mode for auditing anything at scale.
 
+**The same blind spot exists on the APP surfaces, not just the generated ones (item 167, 2026-07-28).**
+154/157 fixed target-selection for the 2,176-page static set and stopped there — so for two more weeks the
+scanner rendered **five** pool-detail surfaces a day (`pool-detail`, `-360`, `-dark`, `-ko`, plus the
+dead-pool control) all pointing at **one hardcoded pool**, `PREFERRED_POOL_ID` = Lido stETH
+(`audit-app.js:88-91`, resolved at `:1065-1068`), out of **740** pools in `data/pools-snapshot.json`.
+That is 0.14% coverage of the north-star surface, on the single most blue-chip row in the dataset.
+The proof that it mattered: **every** pool-detail bug in this backlog's history was hand-found on a
+non-flagship pool — 122 (−900T stability score, balancer-v2), 144 and 145 (both pool
+`201e5f6e-cf75-4d0e-b07f-d58da3cee23a`), 165 (zeebu ZBU's $49-quintillion projection). Not one is Lido
+stETH, so the scanner could not have caught any of them — not because `number-sanity` (P0) is wrong, but
+because it was never aimed at a pool that could trip it. As of 2026-07-28 that snapshot still carried a
+live true positive the scanner had never rendered: `201e5f6e-…` with `apyMean30d` = 30,282.55%, 30× the
+rail. Fix = 157's prescan-then-promote pattern applied to the snapshot (`prescanPools()` +
+`buildPoolSurfaces()`, `AUDIT_POOL_*` switches, a `poolPrescan` block in the findings JSON).
+
+**Decision rule, and it generalises past this scanner:** for every surface an audit drives, ask *"what
+population is this one target drawn from, and what fraction of it can this selection ever reach?"* If the
+answer is "one hand-picked member of a set of N", the clean run is vacuous for the other N−1 — LEARNINGS
+2026-07-27 takeaway 2 ("a filter that returns zero is not evidence of health until you have proven it can
+return non-zero") applied to *targets* rather than to *predicates*. A hardcoded id chosen for being
+reliably good is the strongest possible guarantee the check never fires. Prescan the population cheaply
+(no render), promote the suspects, rotate the rest by seed.
+
+**Text surfaces are covered for numbers, not for claims (item 160 shipped 2026-07-27; gap found
+2026-07-28).** `prescanTextSurfaces()` now reads `llms.txt`/`llms-full.txt` with four signals —
+`apy-rail-breach`, `broken-number-literal`, `tvl-floor-claim`, `empty-surface`. All four are
+number-or-emptiness checks, because 160 was specced from 159, which was a number bug. It returned
+`suspectCount: 0` on the same tick that hand-found **32 mis-targeted links on those exact two files**
+(check 10 above) and the total absence of the planner from the surface (item 168). → ticketed **169**
+(add `link-target-integrity`).
+**The generalisable rule, now on its third instance (148 → 159 → 166): a checker's signal set is always
+drawn from the last bug someone was bitten by, so the next bug is in whatever class no one has been bitten
+by yet.** Whenever you add a check, ask explicitly: *what could sit on this surface and still pass?* And
+treat "the scanner is clean" as scoped to the classes it implements — write it that way in the report. Note
+that item 167 above is the same rule applied to *targets* (one hardcoded pool out of 740) while this is the
+same rule applied to *claim classes*; the shared question is "what can this check never reach?"
+
+**v2 DETECTOR RULE (2026-08-04, `RAZOR.md`): every new check born from a bug ships as the WEAKEST predicate
+consistent with known-good and known-bad — and the motivating instance becomes the check's POSITIVE CONTROL,
+not its definition.** The chain above kept recurring (148 → 159 → 166 → 173, then 212, then 219) because each
+check was induced as the *most specific* hypothesis of the last instance, which is the smallest extension
+that fits the evidence and therefore the least likely to generalise. Two worked pairs, both measured here:
+- **122 → 144.** Strong: `ABSURD_MAGNITUDE = 1e11`, induced from 122's −900,719,925,474,097.9. It cannot see
+  `apyMean30d = 36452.38798` (3.6e4) — 36× `APY_SANITY_LIMIT`, rendered as a trusted "30d Mean APY" card.
+  Weak, and it strictly contains the strong form: **any rendered figure outside the bound the product itself
+  declares — rail-relative, per-field, at every render site of the field** (class 1 above).
+- **166 → 173.** Strong: "a link must parse / the key must be routed" — shipped as `link-target-integrity`
+  and scored **0** the same morning on the 2,200 pages carrying the bug, because `?chain=Cardano` is
+  perfectly routed and simply returns nothing. Weak: **a link must DELIVER what its page claims**, simulated
+  under the target's own default filters (class 11 above). That form found **1,749 dead CTAs**.
+**So the standing question upgrades.** Not *"what could sit on this surface and still pass?"* — that only
+enumerates more instances. Ask instead: ***"what is the WEAKEST predicate that still flags this instance, and
+what stops us checking THAT?"*** Then answer the second half honestly: cost, missing parseability, a missing
+population, a missing lens (`VOCABULARY.md`). If the weak predicate is unaffordable today, ship the narrow one
+and write down the class it leaves open **with a number** — never let the narrow predicate be described as if
+it were the general one.
+**Regime note:** this applies when you are inducing a NEW check. Inside a class already documented here,
+follow the playbook first — the playbooks are the loop's non-uniform prior (`RAZOR.md`, two-regime rule).
+**Corollary for the heartbeat's surface rotation: the cheapest place to find the next defect is the surface
+you audited yesterday**, one class over. Three of the last four P0/P1s (148, 159, 166) were hand-found on
+generated surfaces on days the scanner reported nothing new, and 166 was found by re-opening the file 159
+had just fixed.
+
+**Check 10 has an HTML half, and it is 1,000× bigger than the text half (item 172, 2026-07-29).**
+169 gave `prescanTextSurfaces()` a `link-target-integrity` signal over **2** files. The generated **HTML**
+surface — 2,094 `tokens/*.html` + 89 `chains/*.html` — emits **~41,300** same-origin links, **4,989** of
+them `/?pool=<id>`, the exact hop an SEO lander must make to reach the north-star CTAs. `PRESCAN_SIGNALS`
+had no link signal at all. Three sub-rules port cleanly to HTML, and the porting is where the traps live:
+- **The allowed-param set depends on the link's PATH, not just the router.** `?key=` membership in
+  `ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {lang}` is the right rule only for links to `/`, where the IA
+  router arbitrates mode. A `/plan.html?…` link is the planner *by path*, so router membership says
+  nothing — the live surface emits `/plan.html?waitlist=1&src=seo_token` (item 062) and neither key is in
+  either router array. Single-source that half from `planner.js`'s own `urlParams.get('<key>')` call sites
+  rather than allow-listing the two keys, or the check rots the moment a third one appears. Links to a
+  fixed page (`/tokens/…`, `/chains/…`) have inert queries — skip them.
+- **Decode HTML entities before parsing a query string.** `href="/plan.html?waitlist=1&amp;src=x"` is
+  *correct* HTML. Splitting the raw attribute on `&` invents a phantom key `amp;src` — 2,183 fake findings
+  on this repo, measured. `&amp;` → `&` first, always.
+- **Do not validate `?pool=<id>` liveness against `data/pools-snapshot.json`.** The snapshot is the
+  ≥$10M-floored 745-pool set; token pages use a $100K floor over the full ~16,000-pool feed. Validating
+  one against the other reports **4,233 of 4,989** links dead — all false. Measured against a live
+  DefiLlama fetch the same day, the true number is **15** (0.3%, 14 pages), and it self-heals on the next
+  daily CI regen. Liveness is an *online* check; the offline prescan checks shape and on-disk existence
+  only. Generalised rule: **validate a generated link against the population its generator drew from, not
+  against whatever dataset is nearest to hand.**
+- The third sub-rule with no text-surface equivalent: **does the internal target exist on disk?**
+  (`/tokens/x` → `tokens/x.html` / `tokens/x/index.html`). Live risk class, because 030/032/033 drop a
+  page when its quality gate stops passing and 031 deletes stale pages, while 023's related-token
+  cross-links were minted when the neighbour still qualified. Measured 0 broken of ~41,300 today — which
+  is exactly why it needs a positive control before anyone calls it green.
+
+11. **Cross-surface contract: does the target return what the linking page CLAIMS? (learned 2026-07-29,
+   item 173 — the class four rounds of link-checking could not see.)** Class 10 asks whether a link is
+   *shaped* right. This asks whether it *delivers*. It is the level nobody checks, and it is where the
+   biggest finding on this repo lived: **1,749 of 2,200 indexed SEO pages (79.5%) had a primary CTA that
+   landed on an empty grid** — `chains/cardano.html` naming "33 pools" above a "See live pools on Cardano →"
+   button that returned 0.
+   **A link check has three levels. Run all three; they fail differently:**
+   - **(1) Routed** — is the query key in `ANALYTICS_PARAMS ∪ PLANNER_PARAMS ∪ {lang}`? (class 10a; 166.)
+   - **(2) Resolvable** — does the value name a real entity (project slug, preset key)? Validate against
+     *the population the generator drew from*, never the nearest dataset — see class 10's 4,233-false-
+     positive trap for `?pool=` ids.
+   - **(3) Non-empty** — simulate the target's OWN default filters and assert the result is non-zero, and
+     where the page states a count, that it *matches*. For this repo: the substring symbol match
+     (`app.js:835`), exact chain match, and the `minTvl` rule at `app.js:927` (explicit param wins; absent
+     → `DEFAULT_MIN_TVL`). Cardano at the default → 0; with `&minTvl=100000` → 33, the page's exact claim.
+   **The root-cause smell, and the reason level 3 is structurally invisible to the other two: BOTH SURFACES
+   ARE INDIVIDUALLY CORRECT AND THE CONTRACT BETWEEN THEM IS BROKEN.** `generate-token-pages.js:60`
+   (`MIN_POOL_TVL = 100000`) is right about its own page; `app.js:801` (`DEFAULT_MIN_TVL = 10000000`) is
+   right about the app; the link between them is a lie. 100×. A checker that validates one surface against
+   itself can never see it — which is why 148 → 159 → 166 → 173 all slipped through, each one auditing one
+   side. **Decision rule: whenever two artifacts here are built from the same data by different code paths,
+   audit the CONTRACT — diff the filters/floors/predicates each path applies, and check every link that
+   crosses between them.** Sibling of `dual-source-logic-divergence.md`.
+   Cheapest first move, ~15 lines of node: for every generated page, extract the primary CTA, evaluate it
+   against a live feed, count the zeros. That is how 173 was found.
+   **FIXING one (added 2026-07-29 after 173 shipped — the diagnosis above is only half the playbook):**
+   - **Make the link carry the contract, don't move either floor.** The fix is to append the *linking
+     page's own* parameter (`&minTvl=${MIN_POOL_TVL}`) — read from the existing exported constant, never a
+     re-typed literal (the 159 rule). Changing `DEFAULT_MIN_TVL` instead would be a trust-rail edit and is
+     on the NEVER list. One injection site is usually enough: check whether the derived links
+     (`categoryLinksFor()`'s `&poolTypes=` variants, `poolHrefFor()`'s fallback) are built *from* the base
+     URL — if so they inherit it, and adding a second site creates a new drift surface.
+   - **TRAP — the fix may silently change the DATA PATH, not just the filter.** `app.js:1140`'s
+     `snapshotEligible` requires `minTvl >= DEFAULT_MIN_TVL`, so a link carrying a *lower* floor skips
+     `data/pools-snapshot.json` (which only holds ≥$10M pools) and forces `loadLive()`. Here that is
+     load-bearing — the snapshot *could never* have served the page's set — but it costs the instant first
+     paint. Always ask: after this change, which source does the landing read from? Answer it in the
+     rendered app, not from the URL string.
+   - **TRAP — a param in `canonical.js`'s `CANONICAL_PARAMS` mints a new canonical URL.** `minTvl` is on
+     that list, so every fixed link now points at a self-canonical variant that is *not* in the sitemap.
+     Not a de-indexing (no page removed, no `noindex`), but flag it — do not "fix" it by editing
+     `canonical.js`, which is sacred parameterized-URL behaviour.
+   - **TRAP — pre-existing tests hardcode the OLD href string.** `test_token_pages.js`/`test_chain_pages.js`
+     each asserted an exact CTA URL. Expect them to go red; update them to interpolate the constant rather
+     than typing the number a second time. Budget for this — it is not scope creep, it is the fix.
+   - **Prove it red on the PRE-change output.** Run the new checker against the committed pages *before*
+     regenerating and record the transcript; then regenerate and re-run. 173: 2,200/2,200 dead → 0/2,217.
+     Assert BOTH conditions (carries the floor AND returns ≥1) — the first alone would pass a link that is
+     correctly shaped and still empty, which is the whole bug class.
+   - **A regen diff always carries churn — separate it from your change before claiming anything.** 173's
+     regen dropped 24 token pages and added 41. Re-run the generator's own ranking function against the
+     live feed for every dropped slug to prove each genuinely fell below the floor; that is what
+     distinguishes ordinary daily churn from code-caused de-indexing (the NEVER-list bright line).
+     Full recipe: `seo-surface-regen-delta.md`.
+
+12. **Trust-claim provenance: does the page describe the filter it actually applied? (learned 2026-07-29,
+   item 174 — 159's defect at 1,100× the page count.)** 159 caught `llms.txt` claiming `TVL ≥ $10k` while
+   the product filtered at $10M. **Nobody re-ran that check on the other 2,200 pages**, all of which said,
+   under the FAQ heading *"Are these rates safe?"*: *"Every rate shown passes DeFi Garden's trust filters —
+   a $100K minimum TVL."*
+   - **Grep every generated surface for every rail claim after fixing one of them.** A rail claim is any
+     rendered sentence naming a TVL floor, an APY limit, or "trust filter". Fixing the instance that bit you
+     and stopping is how a 2-file fix leaves 2,200 pages broken.
+   - **A claim scoped to the page ("pools on this page clear $100K") is honest; a claim scoped to the
+     product ("DeFi Garden's trust filters are $100K") is false** if the product's constant differs. Read
+     the sentence's subject, not just its number.
+   - **Follow the claim into every DERIVED number on the page.** 1,713 pages carried a forever-number
+     (*"park $3.4K and it could run a $20/mo Claude Pro subscription, forever"*) blended from pools below
+     the product's floor — the SUBSCRIPTION archetype's trust-critical output, computed off pools the
+     product refuses to display. Same page, same generator, worse consequence than the copy itself.
+   - **And check the table the claim sits above:** 916 rows across 462 pages listed a pool at `0.00%` APY
+     under a "DeFi Yields" heading (the 032/033 class).
+
+13. **Signal hygiene: run the prod filter AND the unfiltered control, claim only the filtered one
+   (learned 2026-07-29).** The same daily-trend query, unfiltered, showed `session_start` 40 and
+   **`error_occurred` 3** on 07-15; with `$current_url contains www.defi.garden` it showed 5 and **0**. The
+   difference is our own localhost/preview sessions. A tick that drops the filter reports a phantom error
+   spike and breaks its own guardrail streak; a tick that never runs the unfiltered control cannot
+   distinguish a true prod-zero from a filter typo silently matching nothing. Record both numbers in the
+   snapshot; make the guardrail claim from the filtered one only.
+
+   **Corollary — verifying a ship: count the ENTITY, never the matching LINE (learned 2026-07-31).**
+   Checking that item 188 removed 7 filter URLs, `curl … | grep -cE 'minTvl=|minApy='` on
+   `sitemap-main.xml` returned **20** — which reads as "the removal failed" and nearly became a phantom P1
+   regression ticket. It is 5 `<loc>` values plus their `hreflang` alternates, and **none** of them was one
+   of the 7 URLs 188 removed: 188 *converted* the class into gated `?chain=All…` rungs rather than deleting
+   it. Two rules fall out, and they generalise past sitemaps: **(a)** extract and count the actual entity
+   (`grep -oE '<loc>[^<]*</loc>'`, then `sort -u`) — a line count over a multi-reference XML/HTML document
+   is not an entity count; **(b) before filing a regression against a ship, read what that item actually
+   did.** A conversion looks exactly like a failed deletion from the outside, and the spec says which one
+   it was. Cheapest version: `git log --oneline -S '<the string>'` plus the item's own `specs/<id>-pr.md`.
+
 **Provenance:** the human's manual audits 2026-07-23 (pool-detail audit → 122/126/127…; the $10M
 dead-end + loading flash → 132/133) and the observation that a signal-driven heartbeat finds NONE of these
-pre-traffic. Seeded from every mechanically-detectable bug caught this session. Item 157's prescan
+pre-traffic. Classes 11-13 added 2026-07-29 from items 173/174 — the tick that found 1,749 dead CTAs
+by checking, for the first time, whether a link DELIVERS rather than whether it PARSES. Seeded from every mechanically-detectable bug caught this session. Item 157's prescan
 promotion traces to 154's own honest follow-up note (`specs/154-notes.md:235-248`).

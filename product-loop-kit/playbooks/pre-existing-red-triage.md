@@ -4,9 +4,10 @@
 or your notes are about to contain the phrase *"PRE-EXISTING, proven on a stashed baseline, not fixed
 (scope creep)"*. Also: when `npm test` stops early and the files after the stopper never run.
 
-**Answer in one line:** proving it's pre-existing is only HALF the job — a red on `main` is either a
-**real product regression the test correctly caught** (fix it, it is a product bug) or a **stale test
-encoding an IA/behavior the product deliberately moved away from** (retire/repoint the test), and
+**Answer in one line:** proving it's pre-existing is only HALF the job — a red on `main` is a **real
+product regression the test correctly caught** (fix it, it is a product bug), a **stale test encoding an
+IA/behavior the product deliberately moved away from** (retire/repoint the test), or a verdict that is
+**not a function of the repository at all** (rule E — split the gate, never delete the measurement), and
 leaving it unclassified silently blinds every `&&`-chained test after it for months.
 
 ## Steps
@@ -36,6 +37,53 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
      → **Repoint** the control at a still-ungated field, and **convert the old injection into a
      negative control** asserting zero findings — that turns the rail that broke your test into the
      thing the test now protects. Deleting the case throws away both.
+   - **Decision rule E — external-data drift** (item 181): the assertion is evaluated against a
+     **live third-party feed at read time** while the thing it judges is **committed bytes**, so the
+     verdict is not a function of the repository at all. Tell it apart from A/B in one probe, and do it
+     BEFORE reading any code: **re-run the same assertion twice, hours apart, on an unchanged tree, and
+     compare the failing SET, not the count.** Same count with different members = drift. Item 181's
+     four runs over 15h gave `{kvcm,ripe}` → `{ankravax,gitc,mchc,n3xt,wmetax,zeal,zro}` → 5 of those →
+     `{cate,cnx,gitc,hahype,mchc,n3xt,wmetax,zro}`, with two members coming back *alive* and no commit
+     in between. Second tell: the generator's own predicate, re-run on today's feed, **agrees** with the
+     gate — they are only read at different instants.
+     → The defect is the **gate's pass condition**, not the product and not a stale assertion. Split the
+     verdict into what the repo decides (fatal at any count) and what the feed decides (bounded budget,
+     always printed) — see Resolution E.
+   - **Decision rule F — stale proxy metric** (item 185): the assertion does not measure the guarantee,
+     it measures a **text artifact that correlates with it** — an occurrence count, a line number, a
+     `grep -c`, a file-size number — and something unrelated moved the proxy. Tell it apart in one
+     command: **enumerate the individual matches the count is built from and ask which ones are the
+     thing.** `A6b` in `test_audit_prescan.js` asserted `reconcilePrescanFindings(` occurs exactly 3×
+     (1 definition + 2 call sites); `grep -n` showed **5** — and two of the five were *comment prose*
+     added by items 183 and 184. Nothing about the guarantee ("`textSurfaceFindings` is never
+     reconciled") had changed, and A6b's four other assertions all still passed. The tell is that the
+     failing assertion is the only *aggregate* one in a test whose specific assertions are green.
+     → **Rule F is the most dangerous red to ignore**, because it fails in the permissive direction:
+     once the threshold is stale, the *real* event it was written to catch (here, a genuine third call
+     site) produces a failure message indistinguishable from today's noise. See Resolution F.
+   - **Decision rule H — rule-B *widening* variant** (item 209): rule B's usual shape is a pivot (the
+     product moved *away* from the assertion). H is the shape where **the product got strictly BETTER and
+     the guard went red for it** — a later item *widened* a boundary the assertion pins as a literal.
+     Three tells, any one of which is enough to stop reading code and start reading LOG/spec history:
+     1. **The failing assertion is a *precondition*, not the guarantee** — its message says "fixture
+        wiring check", "expected N …", "must contain …". The test's actual subject-matter assertions are
+        all green. (Contrast rule F, where the stale aggregate sits among green *specific* assertions;
+        here the stale literal sits among green *behavioural* ones.)
+     2. **Observed is a SUPERSET of expected, not a contradiction of it** — `got 6` where 3 were
+        expected; a URL carrying an *extra* param; `s.width <= 768` where the test greps `<= 360`. A
+        regression shrinks or corrupts; a widening adds.
+     3. **The widening's own test is green and the product code names the item in a comment** — item
+        209's three causes each left one: `// responsive — 360 + 768 surfaces (widened by backlog 201)`,
+        `lensPick: true` + spec 199 §4, and 203's `&src=` rail with `test_seo_src_attribution.js` green.
+        `grep -rn "widened by backlog\|backlog [0-9]*" <the product file>` finds the owner in one command.
+     → Resolution H. **Never revert the widening**; never bump the literal and stop there.
+   - **Decision rule G — deleted-fixture control** (item 185): a positive control that injects nothing
+     and instead **points at a committed artifact that another item deliberately deleted**. Distinct
+     from D: nothing suppresses the value on the way to the screen — the input simply is not there any
+     more, and the deletion was correct. Two tells: the control names a *path*
+     (`staticPages: 'tokens/00.html'`) rather than a value, and the run returns an **empty** result
+     (`got: []`) instead of a wrong one. Confirm with `ls` and one `grep` of LOG.md for the item that
+     removed it (here: 148, "zero junk slugs remain"). → Resolution G.
 4. **Check whether the red also hides a live product defect.** A freshness/wiring gate that is red is
    often a symptom, not the bug: `test_minified_assets.js` failing meant prod was actually *serving the
    raw bundles* (~159 KB extra on the north-star surface), not merely that a test was unhappy.
@@ -53,7 +101,71 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
   added `/plan.html` so the planner render path kept its three-viewport coverage. Prefer `data-testid`
   hooks over class-shape selectors when you repoint, so the new assertion isn't the next stale one.
 - **C** → fixture-route, same-item is fine if it's the test you're already touching.
-- In all three: if the red sat in an `&&` chain, say in LOG.md how far the chain gets *after* your fix
+- **E** → **do not delete the measurement and do not relax the number.** Re-express the one assertion as
+  three classes, each with the fatality its cause deserves (item 181, `test_seo_cta_targets.js`):
+  1. **contract** — everything decidable from the repo alone (malformed link, wrong/missing threshold
+     param, a link whose param doesn't belong to the page it sits on): **fatal at any count > 0**. Take
+     the opportunity to ADD the sub-checks the old single-class assertion never made; a split that
+     doesn't grow the repo-decidable set is a relaxation wearing a refactor's clothes.
+  2. **staleness** — the failure mode the drift explanation would otherwise excuse forever. Anchor it on
+     a freshness signal the artifact carries *itself* (these pages render `Last updated <date>`, the same
+     string as their `dateModified`), and fail when a dead artifact is older than one regen cadence plus
+     one missed run. Drift cannot produce this; a broken regen can only produce this. Unparseable
+     freshness on a dead artifact = fatal, never a pass.
+  3. **drift** — bounded, always printed with the per-item numbers that let a reader see oscillation vs
+     decay (best live value + signed distance from the threshold). The budget must be **derived from
+     measurement and stated with its derivation** (181: worst observed 0.37% → budget 1.0%, ~2.7×
+     headroom, while the regression class it must still catch was 79.5% — 80× the budget).
+  Ship pure `classify()`/`verdict()` functions plus **self-checks on synthetic fixtures that run before
+  any network call**, one per class, proving each can still go red without mutating a committed artifact.
+  That is the only thing standing between "made the gate honest" and "made the red go away."
+- **F** → **do not bump the number.** Re-deriving the constant is the same bug one commit later, and the
+  next comment mentioning the symbol re-reds the gate. Move the measurement onto the thing itself:
+  normalise the source before counting (strip line comments, block comments and string literals, then
+  count real invocations), so prose about the symbol is structurally incapable of moving the number.
+  Then re-prove the assertion still bites — a normalisation that over-strips is a vacuous green, which
+  is strictly worse than the red you started with. **Both directions, in the test file, on a scratch
+  COPY** of the source with the original's md5 asserted unchanged: adding a genuine call site must trip
+  it; adding only a comment mentioning the symbol must not. If the proxy cannot be replaced by a direct
+  measurement, say so in the notes and keep the proxy *with its derivation written next to it*, so the
+  next reader can re-derive rather than guess.
+- **G** → **make the control provision its own fixture.** A control anchored to a committed artifact is
+  hostage to every future repair of that artifact; the fixture must be created at run time from a real
+  page, mutated in exactly the one dimension under test, and removed in a `finally`. Constraints that
+  are load-bearing, not stylistic: (1) put it where the harness can actually reach it — `audit-app.js`
+  resolves both selection (`path.join(ROOT, s.url)`) and serving (`startServer`, with a
+  `!filePath.startsWith(ROOT)` 403) against the repo root, so an `os.tmpdir()` fixture is unreachable
+  by construction; (2) put it at the **same directory depth** as the page it copies, or its relative
+  asset refs resolve somewhere else; (3) **never** inside a generated estate directory (`tokens/`,
+  `chains/`) — re-adding junk to the SEO surface is the defect another item just spent itself removing;
+  (4) assert the copied source's md5 is unchanged afterwards (184's method); (5) assert
+  `git status --porcelain` is clean of the fixture after the run. And add the assertion whose absence
+  made the rot silent: **assert the surface actually ran** (`surfacesCovered` contains it), not merely
+  that findings came back the way you expected.
+- **H** → **re-point at the CLASS, never at the new literal.** Bumping `360` to `768` or `3` to `6` buys
+  you exactly one widening of runway and re-reds on the next one. Three moves, all in the same diff:
+  1. **Tolerate-and-preserve** rather than match-exactly, wherever the widening added *material* to a
+     shape you parse. 209's regex went `([0-9a-f-]+)(")` → `([0-9a-f-]+)([^"]*)(")` and threaded the
+     captured tail back through the mutation, so the id-swap it performs stays a **stale** failure and
+     can never silently become a **contract** failure — the distinction the test exists to draw.
+  2. **Partition, then classify the remainder.** When a widening adds a new *kind* into a collection the
+     test enumerates, do not filter the new kind away and move on — that is how the next kind gets in
+     unnoticed. Assert the count of the kind under test **and** that every remaining entry is a
+     *recognised* other kind (209: `rotationSurfaces.length === poolSample` **plus**
+     `nonRotationSurfaces.every(s => s.lensPick === true)`), so an unclassified third kind still fails.
+     **This added assertion is the item's real deliverable** — it converts a literal that drifts silently
+     into one that fails loudly the next time someone widens the collection.
+  3. **Re-derive every downstream use of the stale value in the same diff**, including the sites that are
+     still green. 209 found 4 uses of a `pickNames` list that had silently ballooned from 3 names to 6;
+     only 2 were failing, because the other 2 read counters that never consult the new kind. Leaving
+     those alone keeps a green test quietly building a wider surface set than it claims to.
+  Then prove non-vacuity **per repaired assertion**, by mutating the *input* on a scratch copy — a
+  missing call AND an unscoped call must both still fail (209 proof 3), a wrong count AND an
+  unclassified kind must both still fail (proof 2). One-directional proof is how a vacuous green ships.
+- **The prevention, worth one grep at the end of any widening item:** `grep -rn '<the old literal>' test_*.js`
+  before you ship the widening. All three of 209's reds would have cost their authors one line each, and
+  instead sat red across at least two later runs, degrading the only pre-ship gate the repo has.
+- In all of them: if the red sat in an `&&` chain, say in LOG.md how far the chain gets *after* your fix
   and which file is the next stopper — the next loop inherits the fact instead of rediscovering it.
 
 ## Traps
@@ -71,6 +183,9 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
   all three viewports while only the bare-`/` cases timed out — a blocked sandbox cannot fail one route
   and pass another in the same browser. Environment reds are indiscriminate; stale-assertion reds are
   surgical.
+- **Calling drift what is actually a regression, by looking at the count instead of the members.** Rule E
+  is the most abusable rule here: it is the one that ends in "and that is fine." Earn it with two runs
+  hours apart on an unchanged tree showing the failing SET churn — never with one run and an argument.
 - **A red gate you can't see past looks like a green suite.** `npm test` exiting 1 at file 6 of 90 reads
   the same as file 90 failing — always report the *position*.
 - **A test asserting the old IA will look like a product bug.** `test_smoke.js` *used to* assert that
@@ -119,6 +234,61 @@ leaving it unclassified silently blinds every `&&`-chained test after it for mon
   158's apparent `test_search.js` collapse (2/20, then 18/20) was `20/20 exit 0` given 550 s. Report the
   timebox as the cause, and never report a killed chain as a red.
 
+- **An empty analytics stub queue on `localhost` is not evidence of anything.** Spec 096's host gate
+  (`analytics.js:96`; `PRODUCTION_HOSTS` at `:14`) makes `Analytics.track()` return **before**
+  `mixpanel.track()` on any non-allowlisted host, so a test that observes analytics by reading
+  `window.mixpanel` is structurally guaranteed to read empty off-prod — whatever the product does.
+  Four files failed this way at once (item 176) and every failure message read like a missing event
+  (`pitch_variant … got undefined`, `no plan_created track call found`). One grep sizes the class:
+  `grep -ln "window.mixpanel" test_*.js`. **Two repairs exist and they are not equivalent** — prefer
+  the second:
+  - wrap `Analytics.track` with a spy and assert on the wrapper. Works, but silently *downgrades*
+    every assertion from "Mixpanel received it" to "the product called track()".
+  - override **only** the host check — `page.addInitScript(() => { … Analytics.isProductionHost =
+    () => true; })` before navigation (shape: `test_analytics_host_gate_render.js:74-89`). The event
+    then travels the real path into the same stub queue, so existing queue reads and assertions stay
+    byte-unchanged. This is the **rule-C remedy applied to a rule-B cause**: neutralise the
+    environment, never weaken the assertion.
+  Leave `test_analytics_host_gate_render.js` alone — it reads the queue *to assert it stays empty*,
+  and is the negative control for the very gate that rotted the others. Every page/context needs its
+  own override; a second `newPage()` silently re-arms the gate.
+- **A path in a URL is not proof the test reads that file.** `test_analytics_fires.js` navigates to
+  `/tokens/big` while `tokens/big.html` does not exist in the checkout — an irresistible story
+  (items 148/174 did churn the slug set) and completely wrong: `:35-38` synthesises the page in
+  memory from `test_fixtures/pools-sample.json` and `:44` serves it from the test's own handler.
+  Before blaming data churn for a `goto` timeout, check whether the test's own server intercepts the
+  path. The real cause was the blocked-subresource trap above — and fixing the invented cause would
+  have left the hang to return with the next external host.
+- **Repointing has a precondition: the target route must already own the behaviour.** 156's
+  repoint-and-re-home rule tempts you to move a displaced assertion onto the obvious sibling route,
+  but if that route never had the behaviour, the "re-homed" test is a **feature request wearing a
+  test's clothes**, and it holds the merge gate red over something nobody ever promised. Item 176
+  briefed a `/plan.html` hub-links case on the strength of the pattern alone; `grep -c seo-hub-links
+  plan.html` = **0** — that surface never existed there. Check the target renders the behaviour
+  *before* writing the case; if it doesn't, delete the case and file the gap as a backlog item.
+  Corollary that saved the same file: when the old element is superseded rather than removed, ask
+  which element inherited the job. On bare `/` the static `.seo-hub-links` block is occluded by the
+  landing's own `.app-footer` (`landing.js:356-367`), which carries the same `/tokens` + `/chains`
+  anchors — so the *user-facing* assertion repoints onto the app footer, while the crawler-surface
+  assertion (045) repoints onto **presence in the DOM**, not visibility. Two different truths, two
+  different assertions; collapsing them into one is how the case got stale in the first place.
+- **An input the harness drops silently turns every control into a coin flip.** `buildStaticSurfaces()`
+  ends its explicit-override branch with `.filter((s) => fs.existsSync(path.join(ROOT, s.url)))` — an
+  override naming a file that no longer exists is discarded with **no note of any kind**, and the run
+  returns a well-formed result over zero surfaces. Item 185's criterion 2 surfaced as a FAIL only by
+  luck, because it happened to assert the *presence* of a finding; the identical rot in any control
+  written the other way round ("assert this page yields nothing") would have gone **green while testing
+  nothing**. Before trusting any test that names an input by path, check the harness's drop behaviour
+  for a missing input, and grep the file for sibling controls that assert absence — those are the ones
+  already lying. The repair is two-sided: make the drop audible in the harness (stderr note, no
+  behaviour change), and make the control assert its surface ran.
+- **The in-flight check is ID-based, so a renumbering PR makes it lie.** `build.md` §1 says an
+  existing `claude/loop-<id>` branch or open PR means "skip this item". Item 176 had both — belonging
+  to an entirely different item that had renumbered *itself* to 176 after a heartbeat took its
+  original number on `main`. Confirm the claimant is the same *work*, not merely the same integer:
+  read the PR title/body before skipping. `main` owns numbering; an unmerged branch's self-assigned
+  id is a proposal, and it is the one that must move.
+
 ## Provenance
 
 Distilled from item **147** (2026-07-26, LOG.md) — `test_minified_assets.js` red on `main` since ~item
@@ -147,3 +317,49 @@ inherited by name from 156's notes. Three separate harness defects in one file, 
 bug; the chain is now confirmed clear through position **12** (`test_search.js` 20/20 at a 550 s budget),
 with positions 13-91 still unobserved because the real-Chromium suite is slower than the 5-minute
 foreground timebox.
+
+The host-gate trap, the served-fixture-path trap, the repoint-precondition rule and the ID-collision
+note added from item **176** (2026-07-29) — the first run to triage the browser lane as a *set* rather
+than one red at a time: **8 files red on `main`, 4 distinct causes, 0 product bugs**. The distribution
+is the lesson. Three of the four causes were a shipped, authorized product change that never updated
+its witnesses (096's host gate → 4 files; 139's archetype-aware checkout CTA → 1; the 07-15 landing
+pivot → 2, the same class 156 fixed in two *other* files), and the fourth was pure sandbox environment
+(blocked hosts hanging `waitUntil:'load'` → 1). Every one had been provable in minutes; none had been
+classified, and the lane had been reporting nothing useful since item 170 made it runnable the day
+before. **A shipped item that changes behaviour owes its witnesses an update in the same diff** — all
+three product-change causes here are the same omission, and the cost lands on whoever next reads the
+gate. The item's own two genuine findings (occluded static hub links in landing mode; `/plan.html`
+carrying no hub-link surface) were surfaced by a builder refusing to adjust a red expectation to match
+observed output — the discipline that keeps "make it green" from eating a real defect.
+
+Decision rule **H** and its resolution added from item **209** (2026-08-02) — the run that finally took the
+**5 pre-existing reds the item-206 verifier had found on an unmodified `origin/main` worktree** and filed
+*"as-is for a future item to address."* Four of the five, in three files, were one class nothing here had a
+slot for: **three shipped widenings that never updated their witnesses** — 203's `&src=seo_token`
+attribution tail on estate pool anchors (regex matched 0 anchors), 199's `lensPick` surfaces landing in an
+`extraSurfaces` array two pre-199 assertions equated with "the rotation picks" (3 picks arrived as 6
+entries), and 201 widening the bloom responsive check from `s.width <= 360` to `<= 768` while the guard
+still grepped the retired literal. **Every one of the four failing assertions was a `fixture wiring check`
+— a precondition guarding a guard** — while the behavioural assertions around them stayed green, which is
+why two prior runs read the reds as background noise. The distribution is the lesson, and it inverts the
+one item 176 taught: 176's causes were behaviour *moving*, 209's were behaviour *improving*, and the guards
+failed identically. Fix was 42 insertions / 12 deletions across three test files, zero product files
+touched.
+
+Decision rule **E** and its resolution added from item **181** (2026-07-30) — the class the previous four
+rules had no slot for, and which three consecutive runs (175, 177, 180) each hand-baselined as
+"pre-existing" without classifying. `test_seo_cta_targets.js` asserted *"zero generated pages whose CTA
+returns 0 pools"* against a **live** DefiLlama read, over **committed** static pages baked ~once a day
+(`sitemap-update.yml`, dispatched ~05:20 UTC, every run `success`). Both halves were correct and the gate
+was still unsatisfiable: `generate-token-pages.js:986-991` wipes and re-mints every bake, so nothing
+lingers, but the mint predicate is a hard `tvlUsd >= $100,000` with **zero margin**, and five of seven
+dead pages sat within **7%** of that line (two within 1%, two already back above it hours later). **The
+tell that generalises beyond this repo: compare failing sets across runs, not counts** — a stable count
+with churning membership is drift, and no amount of code reading will show it to you. The two obvious
+"fixes" were both rejected on documented grounds and are worth knowing before you re-derive them: mint
+hysteresis cannot remove the window (only its frequency), makes the generator stateful, and shrinks
+future SEO surface — the NEVER-list question item 148 sat blocked on for five runs; and baking more often
+buys ~4× at the cost of a Vercel deployment per bake, which the 2026-07-13 standing decision exists to
+prevent. Note what E does **not** license: the user-facing half (a reader clicking into an empty grid
+while the pool is under the floor) stayed filed as item 133 / PR #332 leg C. Reclassifying a red as drift
+excuses the *gate*, never the product.

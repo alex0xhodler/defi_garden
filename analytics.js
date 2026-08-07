@@ -44,8 +44,12 @@ const Analytics = {
     try {
       const params = new URLSearchParams(window.location.search || '');
       // Standard UTMs + the `ref` the spotlight links use (064) + common ad click ids
+      // + `src` (202) — the internal-link counterpart to `ref`: the tag the
+      // product's OWN acquisition links carry (seo_token/seo_chain on the static
+      // SEO estate, x_spotlight on spotlight packs, pool on the north-star CTA),
+      // as opposed to `ref`/click-ids which are third-party attribution.
       ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',
-        'ref', 'gclid', 'fbclid', 'twclid'].forEach((k) => {
+        'ref', 'gclid', 'fbclid', 'twclid', 'src'].forEach((k) => {
         const v = params.get(k);
         if (v) out[k] = String(v).substring(0, 200); // cap length (privacy/safety)
       });
@@ -215,7 +219,16 @@ const Analytics = {
       source_position: context.position || -1,
       search_query: context.searchQuery || null,
       active_filters: this.serializeFilters(context.filters || {}),
-      time_to_view: context.searchStartTime ? Date.now() - context.searchStartTime : null
+      time_to_view: context.searchStartTime ? Date.now() - context.searchStartTime : null,
+      // spec 182 (Territory note T6): emits BOTH spellings of the same
+      // boolean — protocolCtaPresent is the spec-literal camelCase name,
+      // protocol_cta_present is the queryable house snake_case form. Same
+      // "keep both, don't rename and fragment history" precedent as backlog
+      // 123's ctaPlacement/click_type+source pairing. null (not false) when
+      // the caller never computed the property, so it's distinguishable from
+      // a real "no CTA" reading in Mixpanel.
+      protocolCtaPresent: context.protocolCtaPresent === undefined ? null : !!context.protocolCtaPresent,
+      protocol_cta_present: context.protocolCtaPresent === undefined ? null : !!context.protocolCtaPresent
     });
   },
 
@@ -337,14 +350,23 @@ const Analytics = {
   // Performance Tracking
 
   trackPerformance(metric, value, context = {}) {
-    this.track('performance_metric', {
+    const payload = {
       metric_name: metric,
       metric_value: value,
       metric_category: this.categorizePerformanceMetric(metric),
       page_context: context.page || 'unknown',
       connection_type: navigator.connection ? navigator.connection.effectiveType : 'unknown',
       is_slow_device: this.isSlowDevice()
-    });
+    };
+    // Spec 214 AC7: forward the data-source distinction (snapshot vs live)
+    // additively. Explicit keys only (never a wholesale `...context` spread,
+    // which risks colliding with reserved/`$`-prefixed Mixpanel props) and
+    // only when present, so callers that never pass these (every non-
+    // data_load_time trackPerformance call site today) don't start emitting
+    // `source: undefined` / `pools_count: undefined`.
+    if (context.source !== undefined) payload.source = context.source;
+    if (context.pools_count !== undefined) payload.pools_count = context.pools_count;
+    this.track('performance_metric', payload);
   },
 
   // Error Tracking

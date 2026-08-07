@@ -70,9 +70,11 @@ function startServer() {
 }
 
 // New context with pools fixture-routed and every other external request
-// aborted. Collects pageerrors for the zero-page-errors criterion.
-async function newCtx(browser) {
-  const context = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+// aborted. Collects pageerrors for the zero-page-errors criterion. Viewport
+// defaults to the existing 1280x900 (unchanged for all pre-existing spec 072
+// criteria); item 230's occlusion criteria pass their own viewport.
+async function newCtx(browser, viewport = { width: 1280, height: 900 }) {
+  const context = await browser.newContext({ viewport });
   await context.route('**yields.llama.fi/pools**', route => route.fulfill({
     status: 200, contentType: 'application/json', body: FIXTURE_RESPONSE
   }));
@@ -89,6 +91,86 @@ const robotsContent = (page) => page.evaluate(() => {
   const m = document.querySelector('meta[name="robots"]');
   return m ? m.getAttribute('content') : null;
 });
+
+// --- Item 230: at-rest / bottom-of-scroll occlusion of the dead-pool empty
+//     state's alternatives grid by the fixed .app-footer. -------------------
+
+// Scrolls to the true bottom of the document, looping window.scrollTo (content
+// can still be growing/settling right after mount) with short waits, then
+// ASSERTS the bottom was actually reached — a test that silently failed to
+// scroll would pass the geometry assertion below vacuously (playbook trap).
+async function scrollToTrueBottom(page) {
+  let atBottom = false;
+  for (let i = 0; i < 8; i++) {
+    atBottom = await page.evaluate(() => {
+      window.scrollTo(0, document.documentElement.scrollHeight);
+      const doc = document.documentElement;
+      // Within 1px of true bottom counts as "reached" (sub-pixel rounding).
+      return Math.abs((doc.scrollTop + window.innerHeight) - doc.scrollHeight) <= 1;
+    });
+    if (atBottom) break;
+    await page.waitForTimeout(150);
+  }
+  if (!atBottom) throw new Error('scrollToTrueBottom: never reached the true bottom of the document after 8 attempts');
+  return atBottom;
+}
+
+// Every rendered (non-zero-area) element inside .empty-state / .empty-state-
+// alternatives, derived from the DOM AT TEST TIME — never a hardcoded victim
+// list, since the alternatives set is drawn from the fixture at runtime. Each
+// candidate is checked BOTH ways: geometric overlap with .app-footer's rect,
+// and an elementFromPoint hit-test at the element's lower band (2px above its
+// own bottom edge, horizontal centre) — a click-interception check, not just
+// a paint-test (playbook step 5).
+async function findOcclusionVictims(page) {
+  return page.evaluate(() => {
+    const footer = document.querySelector('.app-footer');
+    if (!footer) return { footerRect: null, victims: [] };
+    const fr = footer.getBoundingClientRect();
+    const footerRect = { x: fr.x, y: fr.y, w: fr.width, h: fr.height };
+    const roots = document.querySelectorAll('.empty-state, .empty-state-alternatives');
+    const seen = new Set();
+    const victims = [];
+    roots.forEach((root) => {
+      root.querySelectorAll('*').forEach((el) => {
+        if (seen.has(el)) return; // .empty-state-alternatives nests inside .empty-state
+        seen.add(el);
+        const r = el.getBoundingClientRect();
+        if (r.width === 0 || r.height === 0) return; // skip zero-area elements
+        const overlapX = Math.max(0, Math.min(r.right, fr.right) - Math.max(r.left, fr.left));
+        const overlapY = Math.max(0, Math.min(r.bottom, fr.bottom) - Math.max(r.top, fr.top));
+        const coveredPct = (r.width * r.height) > 0 ? (overlapX * overlapY) / (r.width * r.height) * 100 : 0;
+        const cx = r.left + r.width / 2;
+        const cy = r.bottom - 2;
+        const hit = document.elementFromPoint(cx, cy);
+        const hitInFooter = !!(hit && (hit === footer || footer.contains(hit)));
+        if (coveredPct > 0 || hitInFooter) {
+          victims.push({
+            selector: (typeof el.className === 'string' && el.className) ? el.className : el.tagName,
+            rect: { x: r.x, y: r.y, w: r.width, h: r.height },
+            coveredPct: Number(coveredPct.toFixed(1)),
+            hitInFooter,
+            hitSelector: hit ? ((typeof hit.className === 'string' && hit.className) ? hit.className : hit.tagName) : null
+          });
+        }
+      });
+    });
+    return { footerRect, victims };
+  });
+}
+
+// Throws naming the victim selector, both rects, the covered %, and the
+// hit-test result — never a bare "expected 0 got N" (spec 230 requirement).
+async function assertNoOcclusion(page, label) {
+  const { footerRect, victims } = await findOcclusionVictims(page);
+  if (victims.length) {
+    const lines = victims.map((v) =>
+      `victim ".${v.selector}" rect=${JSON.stringify(v.rect)} vs .app-footer rect=${JSON.stringify(footerRect)} ` +
+      `covered=${v.coveredPct}% hitTest=${v.hitInFooter ? `INSIDE .app-footer (resolved "${v.hitSelector}")` : `clear (resolved "${v.hitSelector}")`}`
+    );
+    throw new Error(`${label}: ${victims.length} occluded element(s) in .empty-state / .empty-state-alternatives:\n    ` + lines.join('\n    '));
+  }
+}
 
 async function main() {
   const server = await startServer();
@@ -198,6 +280,69 @@ async function main() {
       if (cards < 1) throw new Error(`expected >=1 pool-card for a valid token, got ${cards}`);
       const robots = await robotsContent(page);
       if (robots !== 'index, follow') throw new Error(`expected valid token page indexable, got robots=${robots}`);
+      if (pageErrors.length) throw new Error('page errors: ' + pageErrors.join(' | '));
+      await context.close();
+    });
+
+    // --- Item 230 criterion: at-rest occlusion is zero at every design-bar
+    //     viewport (360/768/1280) on the dead-pool empty state --------------
+    for (const viewport of [{ width: 1280, height: 780 }, { width: 768, height: 780 }, { width: 360, height: 780 }]) {
+      await test(`item 230: ${viewport.width}x${viewport.height} at rest (scrollY=0) — zero .empty-state* occlusion by .app-footer`, async () => {
+        const { context, page, pageErrors } = await newCtx(browser, viewport);
+        await page.goto(`http://localhost:${PORT}/home.html?pool=${DEAD_ID}`, { waitUntil: 'load', timeout: 20000 });
+        await page.waitForSelector('.empty-state', { timeout: 15000 });
+        await page.waitForSelector('.empty-state-alternatives .pool-card', { timeout: 15000 });
+        const scrollY = await page.evaluate(() => window.scrollY);
+        if (scrollY !== 0) throw new Error(`expected scrollY=0 at rest, got ${scrollY}`);
+        await assertNoOcclusion(page, `${viewport.width}x${viewport.height} at rest`);
+        if (pageErrors.length) throw new Error('page errors: ' + pageErrors.join(' | '));
+        await context.close();
+      });
+    }
+
+    // --- Item 230 criterion: bottom-of-scroll is still clear. This is the
+    //     case the old `padding-bottom: 80px` used to protect; with the
+    //     footer now in flow it must still hold ---------------------------
+    for (const viewport of [{ width: 1280, height: 780 }, { width: 768, height: 780 }, { width: 360, height: 780 }]) {
+      await test(`item 230: ${viewport.width}x${viewport.height} true bottom of scroll — arrival asserted, zero .empty-state* occlusion`, async () => {
+        const { context, page, pageErrors } = await newCtx(browser, viewport);
+        await page.goto(`http://localhost:${PORT}/home.html?pool=${DEAD_ID}`, { waitUntil: 'load', timeout: 20000 });
+        await page.waitForSelector('.empty-state', { timeout: 15000 });
+        await page.waitForSelector('.empty-state-alternatives .pool-card', { timeout: 15000 });
+        await scrollToTrueBottom(page); // throws if it never arrives — no vacuous pass
+        await assertNoOcclusion(page, `${viewport.width}x${viewport.height} bottom of scroll`);
+        if (pageErrors.length) throw new Error('page errors: ' + pageErrors.join(' | '));
+        await context.close();
+      });
+    }
+
+    // --- Item 230 criterion: no collateral on the analytics search-home
+    //     state — `.app:not(.has-results)` with NO `.results-section`
+    //     (`?app=analytics`, no query yet) must keep the fixed footer + its
+    //     80px clearance untouched; the new selector requires BOTH
+    //     `.results-section` present AND `.has-results` absent, so this
+    //     state (`.results-section` absent) must not match it -------------
+    await test('item 230: analytics search-home (no .results-section) keeps .app-footer fixed + .app padding-bottom:80px', async () => {
+      const { context, page, pageErrors } = await newCtx(browser, { width: 1280, height: 780 });
+      await page.goto(`http://localhost:${PORT}/home.html?app=analytics`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.app-footer', { timeout: 15000 });
+
+      const rendered = await page.evaluate(() => {
+        const app = document.querySelector('.app');
+        const footer = document.querySelector('.app-footer');
+        return {
+          hasResultsSection: !!document.querySelector('.results-section'),
+          appHasResultsClass: app ? app.classList.contains('has-results') : null,
+          footerPosition: footer ? getComputedStyle(footer).position : null,
+          appPaddingBottom: app ? getComputedStyle(app).paddingBottom : null
+        };
+      });
+
+      if (rendered.hasResultsSection) throw new Error('expected NO .results-section on the bare analytics search-home state, found one — fixture/URL does not exercise the collateral case');
+      if (rendered.appHasResultsClass) throw new Error('expected .app to lack .has-results on the search-home state');
+      if (rendered.footerPosition !== 'fixed') throw new Error(`expected .app-footer position:fixed on search-home (no .results-section), got "${rendered.footerPosition}" — item 230's :has(.results-section) selector leaked onto a state with no results`);
+      if (rendered.appPaddingBottom !== '80px') throw new Error(`expected .app padding-bottom:80px on search-home, got "${rendered.appPaddingBottom}"`);
+
       if (pageErrors.length) throw new Error('page errors: ' + pageErrors.join(' | '));
       await context.close();
     });

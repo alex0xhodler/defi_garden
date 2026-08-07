@@ -1,4 +1,7 @@
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+/* Mobile Safari text inflation off — real-device text inflation blew up the
+   header wordmark/search until controls collided and broke fixed-line-height
+   buttons; emulators never showed it. (fix-nav-flicker branch) */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 
 :root {
   /* Primitive Color Tokens */
@@ -89,9 +92,14 @@
   --color-warning-rgb: 168, 75, 47;
   --color-info-rgb: 98, 108, 113;
 
-  /* Typography */
-  --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* Typography — 247 world: Public Sans (text) / Besley (display), rolled
+     out from pool-detail across every surface (self-hosted, @font-face
+     below; the 187 no-CDN rule). Korean falls through to the system sans
+     stack in both — neither latin variable subset covers CJK. */
+  --font-family-base: "Public Sans", "Apple SD Gothic Neo", "Malgun Gothic",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-display: "Besley", "Apple SD Gothic Neo", "Malgun Gothic",
+    Georgia, serif;
   --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo,
     Monaco, Consolas, monospace;
   --font-size-xs: 11px;
@@ -163,9 +171,16 @@
   --container-xl: 1280px;
 }
 
-/* Dark mode colors */
+/* Dark mode colors.
+   Selector is :root:not([data-theme="light"]) — NOT bare :root — so these
+   OS-preference dark values outrank the later unconditional light :root
+   block (the 247-world tokens at ~line 838) by specificity, order-proof.
+   Static pages (tokens/, chains/, hubs) have no theme JS and relied on this
+   media query; with bare :root the later light block silently won and the
+   whole estate rendered light-only for OS-dark visitors (found during the
+   247 estate pass). An explicit data-theme="light" choice still wins. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     /* RGB versions for opacity control (Dark Mode) */
     --color-gray-400-rgb: 119, 124, 124;
     --color-green-300-rgb: 74, 222, 128;
@@ -196,9 +211,9 @@
     --color-surface: #18161D;
     --color-text: #FFFFFF;
     --color-text-secondary: rgba(var(--color-gray-200-rgb), 0.85);
-    --color-primary: #3B82F6;
-    --color-primary-hover: #1CB853;
-    --color-primary-active: #189845;
+    --color-primary: var(--ui-accent);
+    --color-primary-hover: var(--ui-accent-hover);
+    --color-primary-active: var(--ui-accent-active);
     --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
     --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
     --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
@@ -225,13 +240,32 @@
     --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
     --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 
-    /* Dark Mode Neumorphic Shadows (Soft, Quiet Depth) */
-    --neuro-shadow-dark: #0a090c;
-    --neuro-shadow-light: #24212a;
-    --neuro-shadow-raised: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light), inset 1px 1px 1px rgba(255, 255, 255, 0.06);
-    --neuro-shadow-pressed: inset 3px 3px 7px var(--neuro-shadow-dark), inset -3px -3px 7px var(--neuro-shadow-light);
-    --neuro-shadow-flat: 3px 3px 8px var(--neuro-shadow-dark), -3px -3px 8px var(--neuro-shadow-light);
-    --neuro-shadow-subtle: 2px 2px 5px var(--neuro-shadow-dark), -2px -2px 5px var(--neuro-shadow-light);
+    /* 247 world "The Certificate" — dark ramp (the plate) for OS-dark
+       visitors without a data-theme attribute; kept in sync with the
+       [data-theme="dark"] block below. */
+    --ui-bg:               #0F1613;
+    --ui-surface:          #16211A;
+    --ui-surface-muted:    #0A100C;
+    --ui-surface-sunken:   #0A100C;
+    --ui-border:           #26332B;
+    --ui-border-strong:    #415247;
+    --ui-row-border:       #415247; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
+    --ui-text:             #E6EDE4;
+    --ui-text-secondary:   #A9B7A9;
+    --ui-text-muted:       #83937F;
+    --ui-accent:           #7CC9A0;
+    --ui-accent-hover:     #93D6B2;
+    --ui-accent-active:    #66B78D;
+    --ui-accent-soft:      rgba(124, 201, 160, 0.2);
+    --ui-accent-border:    rgba(124, 201, 160, 0.30);
+    --ui-accent-margin:    rgba(124, 201, 160, 0.12);
+    --ui-accent-watermark: rgba(124, 201, 160, 0.055);
+    --ui-on-accent:        #0B1B13;
+    --ui-positive:         #7CC9A0;
+    --ui-warning:          #D9A05B;
+    --ui-danger:           #E58A80;
+    --ui-focus-ring:       0 0 0 3px rgba(124, 201, 160, 0.4);
+    --ui-shadow-overlay:   0 10px 28px rgba(0, 0, 0, 0.45);
 
     /* RGB versions for dark mode */
     --color-success-rgb: var(--color-teal-300-rgb);
@@ -272,9 +306,9 @@
   --color-surface: #18161D;
   --color-text: #FFFFFF;
   --color-text-secondary: rgba(var(--color-gray-200-rgb), 0.85);
-  --color-primary: #3B82F6;
-  --color-primary-hover: var(--color-teal-400);
-  --color-primary-active: var(--color-teal-800);
+  --color-primary: var(--ui-accent);
+  --color-primary-hover: var(--ui-accent-hover);
+  --color-primary-active: var(--ui-accent-active);
   --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
   --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
   --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
@@ -450,19 +484,19 @@ pre code {
 .btn--primary {
   background: var(--color-primary);
   color: var(--color-btn-primary-text);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: none;
+  border: 1px solid transparent;
   font-weight: 600;
   transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn--primary:hover {
   background: var(--color-primary-hover);
-  box-shadow: var(--neuro-shadow-flat);
 }
 
 .btn--primary:active {
   background: var(--color-primary-active);
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
   transform: translateY(1px);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -784,55 +818,620 @@ select.form-control {
   font-family: 'FKGroteskNeue';
   src: url('./fonts/FKGroteskNeue.woff2') format('woff2');
   font-display: swap;
-  /* Improves loading performance */
+  /* Superseded by Public Sans (247 world) as --font-family-base's value —
+     declaration kept only because removing an unreferenced @font-face has
+     no payoff (no request fires unless something names the family) and
+     ~4,400 generated static pages may still reference it inline. */
+}
+
+/* 247 world: the two self-hosted latin variable subsets, promoted from
+   pool-detail across every surface. Same faces pool-detail-styles.css
+   declares — kept in sync there; do not fork a third copy. */
+@font-face {
+  font-family: 'Besley';
+  src: url('./fonts/Besley-latin-var.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url('./fonts/PublicSans-latin-var.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* END PERPLEXITY DESIGN SYSTEM */
-/* Neumorphism Design System Overrides */
+/* Quiet design system — 225 */
 :root {
-  /* Neumorphism Color Palette - Bolder */
-  --neuro-bg: #E2E8F0;
-  --neuro-surface: #EDF2F8;
-  --neuro-surface-light: #F1F5F9;
-  --neuro-shadow-dark: #BDCEDB;
-  --neuro-shadow-light: #FFFFFF;
-  --neuro-shadow-dark-rgb: 148, 163, 184;
-  --neuro-shadow-light-rgb: 255, 255, 255;
+  /* ── 247 world "The Certificate" — light (default) ────────────────────
+     Values promoted from pool-detail-styles.css's .pool-detail-view scope
+     (cert-paper/cert-ink/cert-green/cert-rule) into the shared layer so
+     every surface inherits by value, not by selector scope. */
+  --ui-bg:               #F5F7F0;
+  --ui-surface:          #FBFCF7;
+  --ui-surface-muted:    #EBEFE2;
+  --ui-surface-sunken:   #EBEFE2;
+  --ui-border:           #CBD5C3;
+  --ui-border-strong:    #9FAF98;
+  --ui-text:             #1B2B20;
+  --ui-text-secondary:   #48584A;
+  --ui-text-muted:       #67766A;
+  --ui-accent:           #1E5C3F;
+  --ui-accent-hover:     #174A32;
+  --ui-accent-active:    #113A27;
+  --ui-accent-soft:      rgba(30, 92, 63, 0.16);
+  --ui-accent-border:    rgba(30, 92, 63, 0.30);
+  /* 247 world (item 247 follow-up): two more lathe strengths, same ramp as
+     pool-detail-styles.css's --cert-lathe-margin/-watermark, promoted here
+     so the grid/search/landing ornament layer (style.css ORNAMENT SYSTEM,
+     below) can reuse the world's own committed color instead of forking a
+     third ink namespace. */
+  --ui-accent-margin:    rgba(30, 92, 63, 0.13);
+  --ui-accent-watermark: rgba(30, 92, 63, 0.05);
+  --ui-on-accent:        #F5F9F3;
+  --ui-positive:         #1E5C3F;
+  --ui-warning:          #8A5A18;
+  --ui-danger:           #A3271E;
+  --ui-focus-ring:       0 0 0 3px rgba(30, 92, 63, 0.38);
+  --ui-shadow-overlay:   0 8px 24px rgba(16, 21, 31, 0.10);
+  /* 225 round 3 increment (a): row-separator token for the results grid —
+     equals --ui-border in light, steps up to --ui-border-strong in dark (set
+     in both dark blocks below) so 1px row dividers stay visible on a
+     near-black background instead of the flat system's usual near-invisible
+     border. */
+  --ui-row-border:       var(--ui-border);
+  --ui-radius-sm:        8px;
+  --ui-radius-md:        12px;
+  --ui-radius-lg:        16px;
+  --ui-radius-pill:      999px;
+  --ui-control-h-sm:     32px;   /* chips without an icon */
+  --ui-control-h:        40px;   /* the default for every control */
+  --ui-control-h-lg:     48px;   /* hero CTAs / hero inputs only */
+  --ui-header-h:         56px;   /* per header ROW; <768px uses the override below */
 
-  /* Soft Squircle Radius Scale */
-  --neuro-radius-sm: 10px;
-  --neuro-radius-md: 14px;
-  --neuro-radius-lg: 16px;
-
-  /* Background gradient (lit from center top, resolves per theme) */
-  --neuro-bg-gradient: radial-gradient(circle at center top, var(--color-surface), var(--color-background));
-  --neuro-text: #0F172A;
-  --neuro-text-secondary: #475569;
+  /* DEPRECATED — 225: kept only so generated static pages (tokens/, chains/) inherit the flat system; never use in new rules. */
+  --neuro-bg:            var(--ui-bg);
+  --neuro-surface:       var(--ui-surface);
+  --neuro-surface-light: var(--ui-surface-muted);
+  --neuro-text:          var(--ui-text);
+  --neuro-text-secondary:var(--ui-text-secondary);
+  --neuro-bg-gradient:   var(--ui-bg);
+  --neuro-radius-sm:     var(--ui-radius-sm);
+  --neuro-radius-md:     var(--ui-radius-md);
+  --neuro-radius-lg:     var(--ui-radius-lg);
+  --neuro-shadow-raised: 0 0 0 1px var(--ui-border);
+  --neuro-shadow-flat:   0 0 0 1px var(--ui-border);
+  --neuro-shadow-subtle: 0 0 0 1px var(--ui-border);
+  --neuro-shadow-pressed: inset 0 1px 2px rgba(16, 21, 31, 0.10);
 
   /* Garden Green Theme */
-  --color-primary-blue: #3B82F6;
-  --color-secondary-blue: #93C5FD;
-  --color-dark-blue: #1E40AF;
-  --color-emerald: #2563EB;
-  --color-emerald-light: #93C5FD;
-  --color-emerald-dark: #1D4ED8;
-  --color-sage: #93C5FD;
-  --color-forest: #1E40AF;
+  /* 247 world: these legacy names carried the google-era blues; they now
+     route to the certificate accent ramp so no consumer can render blue. */
+  --color-primary-blue: var(--ui-accent);
+  --color-secondary-blue: var(--ui-accent-hover);
+  --color-dark-blue: var(--ui-accent-active);
+  --color-emerald: var(--ui-accent);
+  --color-emerald-light: var(--ui-accent-hover);
+  --color-emerald-dark: var(--ui-accent-active);
+  --color-sage: var(--ui-accent-hover);
+  --color-forest: var(--ui-accent-active);
 
-  /* Neumorphism Shadows (Light Mode) - Soft, Quiet Depth */
-  --neuro-shadow-raised: 4px 4px 10px rgba(var(--neuro-shadow-dark-rgb), 0.45), -4px -4px 10px rgba(var(--neuro-shadow-light-rgb), 0.9), inset 1px 1px 1px rgba(255, 255, 255, 0.6);
-  --neuro-shadow-pressed: inset 3px 3px 7px rgba(var(--neuro-shadow-dark-rgb), 0.45), inset -3px -3px 7px rgba(var(--neuro-shadow-light-rgb), 0.85);
-  --neuro-shadow-flat: 3px 3px 8px rgba(var(--neuro-shadow-dark-rgb), 0.35), -3px -3px 8px rgba(var(--neuro-shadow-light-rgb), 0.8);
-  --neuro-shadow-subtle: 2px 2px 5px rgba(var(--neuro-shadow-dark-rgb), 0.3), -2px -2px 5px rgba(var(--neuro-shadow-light-rgb), 0.7);
+  /* Semantic bridge — 225: repointed at the flat token layer */
+  --color-background: var(--ui-bg);
+  --color-surface: var(--ui-surface);
+  --color-text: var(--ui-text);
+  --color-text-secondary: var(--ui-text-secondary);
+  --color-primary: var(--ui-accent);
+  --color-primary-hover: var(--ui-accent-hover);
+  --color-primary-active: var(--ui-accent-active);
+}
 
-  /* Override semantic colors with neumorphism theme */
-  --color-background: var(--neuro-bg);
-  --color-surface: var(--neuro-surface);
-  --color-text: var(--neuro-text);
-  --color-text-secondary: var(--neuro-text-secondary);
-  --color-primary: var(--color-primary-blue);
-  --color-primary-hover: var(--color-emerald-dark);
-  --color-primary-active: var(--color-forest);
+/* Quiet design system — 225 §7.1: header row shrinks under 768px */
+@media (max-width: 767px) {
+  :root {
+    --ui-header-h: 52px;
+  }
+}
+
+/* ═══ ORNAMENT SYSTEM — the engraving kit (247 world, hoisted item 247) ══
+   Moved here verbatim from pool-detail-styles.css so the grid (below,
+   .results-panel/.app.has-results/.search-section) and the landing route
+   (landing-styles.css, .landing-app/.landing-trust-section/.landing-
+   garden-card) can consume the SAME primitives pool-detail already
+   shipped, instead of forking a second copy. Nothing about the primitive
+   itself changed — same class names, same custom-property knobs, same
+   keyframe math — this is a relocation, not a redesign; verify pool-
+   detail's render is unaffected by diffing pool-detail-styles.css (the
+   consumer selectors that used to sit in this same rule now stand alone
+   with byte-identical declarations, still loading after this file).
+
+   Four reusable primitives, none of them pool-detail-specific. A surface
+   adopts one by adding the class and (optionally) setting two custom
+   properties:
+
+     .orn-band     guilloché lathework running along x  (repeats)
+     .orn-strand   the same lathework turned down a page margin (repeats y)
+     .orn-rosette  the engine-turned rosette — underprint or watermark
+     .orn-corners  four engraved corner lathes inset into a box's corners
+
+   Knobs: --orn-ink (any color), --orn-size (mask-size), --orn-inset
+   (corners only). Band/strand/rosette geometry lives in assets/*.svg —
+   ONE cached copy per shape serves every instance on the page, replacing
+   the ~18KB of duplicated data URI the two hero bands used to inline. The
+   corner lathe stays inline: four rotations of a ~300-byte path, cheaper
+   than four more requests and near-free after gzip.
+
+   Every primitive is inert — no text, so nothing for a screen reader to
+   read, and pointer-events: none, so no ornament can intercept a click.
+   Ink defaults to --cert-lathe-soft (pool-detail's own scope) and is
+   always a WASH: content contrast is never a negotiation with the
+   decoration. Every OTHER consumer (grid, search, landing, below) sets
+   its own --orn-ink explicitly on its own instance rather than relying on
+   that default, exactly the way pool-detail's non-.orn-band consumers
+   already did (e.g. .pool-hero-card::after’s own --orn-ink override) —
+   --cert-lathe-soft is scoped under .pool-detail-view/.dead-pool-view and
+   would resolve to nothing anywhere else. */
+.orn-band,
+.orn-strand,
+.orn-rosette,
+.orn-corners,
+.results-panel::after,
+.landing-garden-card::after {
+  --orn-ink: var(--cert-lathe-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* — horizontal lathework band — */
+.orn-band {
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size, 50px 20px);
+  mask-size: var(--orn-size, 50px 20px);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+}
+
+/* — vertical lathework strand (page margins) — */
+.orn-strand {
+  -webkit-mask-image: url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: var(--orn-size, 20px 50px);
+  mask-size: var(--orn-size, 20px 50px);
+  -webkit-mask-repeat: repeat-y;
+  mask-repeat: repeat-y;
+}
+
+/* — engine-turned rosette — */
+.orn-rosette {
+  content: '';
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 248px;
+  height: 248px;
+  transform: translate(-50%, -50%);
+  --orn-ink: var(--cert-lathe-underprint);
+}
+
+/* — four corner lathes: the frame's engraved quoins. One layer per corner,
+     each a pre-rotated copy so a mask layer never needs a transform (the
+     transform channel belongs to the ambient motion below). `.results-
+     panel::after` and `.landing-garden-card::after` (below) join this
+     selector's declarations the same way pool-detail-styles.css's own
+     `.pool-hero-card::after` etc. do — one shared geometry rule, each
+     consumer setting its own --orn-ink/--orn-inset override afterward. — */
+.orn-corners,
+.results-panel::after,
+.landing-garden-card::after {
+  content: '';
+  position: absolute;
+  inset: var(--orn-inset, 9px);
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(90 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(180 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(270 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(90 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(180 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(270 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E");
+  -webkit-mask-size: var(--orn-corner-size, 34px 34px);
+  mask-size: var(--orn-corner-size, 34px 34px);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: left top, right top, right bottom, left bottom;
+  mask-position: left top, right top, right bottom, left bottom;
+}
+
+/* ── Ambient motion — the ornament layer only ───────────────────────────
+   The page never moves. These four cycles run 88–124s on the decorative
+   layers alone, in transform and opacity exclusively, so the compositor
+   owns every frame and the main thread stays at zero while the page idles.
+   Nothing here is in sync with anything else — the durations are
+   deliberately coprime so the layers never pulse together and betray
+   themselves as an effect. Every one of them is switched OFF, not
+   shortened, under prefers-reduced-motion (see the block right after the
+   grid/search/landing ornament placements, below). */
+@keyframes ornDrift {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(0, -17px, 0); }
+}
+
+@keyframes ornTurn {
+  from { transform: rotate(-0.9deg); }
+  to   { transform: rotate(0.9deg); }
+}
+
+@keyframes ornTurnCentered {
+  from { transform: translate(-50%, -50%) rotate(-1.1deg); }
+  to   { transform: translate(-50%, -50%) rotate(1.1deg); }
+}
+
+@keyframes ornBreathe {
+  from { opacity: 0.62; }
+  to   { opacity: 1; }
+}
+
+/* ── The grid results page as a ledger sheet ─────────────────────────────
+   Same placement grammar as pool-detail (spec 247 follow-up, item 247):
+   page-margin strands + a watermark rosette bleeding off the right edge,
+   gated to ≥1080px with the same ambient drift; a lathework band riding
+   the results panel's own top inner edge and another closing the page
+   above the footer, watermark-weight and breathing like pool-detail's;
+   engraved corner quoins on the panel itself. Scoped to `.app.has-results`
+   (the grid's own root-class predicate, app.js) — `:not(.dead-pool-view)`
+   throughout because that state already gets pool-detail-styles.css's OWN
+   identical treatment (it shares pool-detail's `.app.dead-pool-view`
+   selectors) and this would otherwise double the same layer on it.
+   Restraint: nothing here ever sits inside `.pools-list`/`.pools-grid` or
+   `.pool-columns` — the row grid test (`test_list_default.js`) asserts
+   `.pool-card`'s parentElement.className is exactly `pools-grid`/
+   `pools-list`, so the ornament layer only ever attaches to the panel
+   shell (`.results-panel`, `.results-section`) or the page root, never a
+   row ancestor. Every layer below is z-index:-1-in-its-own-context or an
+   in-flow, non-interactive strip, and pointer-events: none throughout. */
+.app.has-results:not(.dead-pool-view) {
+  isolation: isolate;
+}
+
+.app.has-results:not(.dead-pool-view)::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+
+.app.has-results:not(.dead-pool-view)::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+
+/* Same 1080px gate as pool-detail: below it the results column owns the
+   full width and the page stays clean. */
+@media (min-width: 1080px) {
+  .app.has-results:not(.dead-pool-view)::before,
+  .app.has-results:not(.dead-pool-view)::after {
+    opacity: 1;
+  }
+
+  .app.has-results:not(.dead-pool-view)::before {
+    animation: ornDrift 112s ease-in-out infinite alternate;
+  }
+
+  .app.has-results:not(.dead-pool-view)::after {
+    animation: ornTurn 121s ease-in-out infinite alternate,
+               ornBreathe 99s ease-in-out infinite alternate;
+  }
+}
+
+/* One composed surface (.results-panel) gets the band + quoins: a top
+   band riding its own inner top edge (in-flow — a real, small block
+   before the header, the same technique pool-detail's .pool-hero-content
+   uses for its top/bottom bands — so no position/z-index juggling is
+   needed against the panel's overflow:hidden), and engraved corner quoins
+   inset just inside its border, watermark-weight and NOT ambient-animated
+   — matching pool-detail's own corners (.pool-hero-card::after), which
+   never carry a cycle either. */
+.results-panel {
+  position: relative;
+  isolation: isolate;
+}
+
+.results-panel::before {
+  content: '';
+  display: block;
+  width: min(320px, 60%);
+  height: 14px;
+  margin: 14px auto 0 auto;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--ui-accent-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size);
+  mask-size: var(--orn-size);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
+  animation: ornBreathe 103s ease-in-out infinite alternate;
+}
+
+.results-panel::after {
+  --orn-inset: 10px;
+  --orn-ink: var(--ui-accent-border);
+  z-index: -1;
+}
+
+/* Closing band above the footer — anchored to `.results-section` (the
+   wrapper around `.results-panel` + pagination), not `.app-footer` itself:
+   the footer switches to `position: static` in this exact state (below,
+   "225 round 3a" / item 230/221) so it is no longer a positioning context
+   for an absolutely-placed child. Sitting at the section's own bottom
+   inner edge reads as "closing the page" without depending on the
+   footer's own layout mode. */
+.results-section {
+  position: relative;
+}
+
+.results-section::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -18px;
+  transform: translateX(-50%);
+  width: min(320px, 60%);
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--ui-accent-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  z-index: -1;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size);
+  mask-size: var(--orn-size);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
+  animation: ornBreathe 116s ease-in-out infinite alternate;
+}
+
+@media (max-width: 767px) {
+  /* Panel is narrower than its own top band's minimum comfortable margin
+     below 768px (spec judgment call, restraint over completeness) — the
+     band and the closing band both drop, same reasoning pool-detail uses
+     for hiding its own more elaborate ornaments under 1080px. Corners and
+     the page-level margin/watermark keep their existing, wider gates
+     above (1080px) and are unaffected by this rule. */
+  .results-panel::before,
+  .results-section::after {
+    display: none;
+  }
+}
+
+/* ── The search state (`/?app=1`, no query yet) as the same sheet ────────
+   Bare `.app` root (app.js never adds `.has-results` until a token/chain
+   query resolves) minus the two other `.app`-rooted states that already
+   carry their own identical treatment: `.pool-detail-view` (pool-detail-
+   styles.css) and `.dead-pool-view` (also pool-detail-styles.css — see the
+   ORNAMENT SYSTEM banner above). Same margin strands + watermark, same
+   1080px gate, same drift; one band under the brand/search unit
+   (`.search-section`, the header + input group rendered only in this
+   state). No corners here — restraint: this state has no panel-shaped
+   container to quoin, and stacking a fourth ornament (strands + watermark
+   + band + corners) onto the leanest, first-impression view read as
+   clutter rather than craft, so it stops at three. */
+.app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view) {
+  isolation: isolate;
+}
+
+.app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+
+.app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+
+@media (min-width: 1080px) {
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::before,
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::after {
+    opacity: 1;
+  }
+
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::before {
+    animation: ornDrift 107s ease-in-out infinite alternate;
+  }
+
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::after {
+    animation: ornTurn 119s ease-in-out infinite alternate,
+               ornBreathe 92s ease-in-out infinite alternate;
+  }
+}
+
+.search-section {
+  position: relative;
+}
+
+.search-section::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  width: min(280px, 70%);
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--ui-accent-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  z-index: -1;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size);
+  mask-size: var(--orn-size);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
+  animation: ornBreathe 109s ease-in-out infinite alternate;
+}
+
+@media (max-width: 767px) {
+  .search-section::after {
+    display: none;
+  }
+}
+
+/* ── Reduced motion — the grid/search ornament layer ─────────────────────
+   Same mechanism as pool-detail-styles.css's own switch (a real
+   `animation: none`, not a shortened duration — these are infinite
+   alternating loops, so collapsing the duration would leave them running,
+   only faster). Also carries the hoisted primitive's own bare-class off-
+   switch (`.orn-band`/`.orn-strand`/`.orn-rosette`/`.orn-corners`), moved
+   here with the rest of the primitive from pool-detail-styles.css. */
+@media (prefers-reduced-motion: reduce) {
+  .app.has-results:not(.dead-pool-view)::before,
+  .app.has-results:not(.dead-pool-view)::after,
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::before,
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::after,
+  .results-panel::before,
+  .results-section::after,
+  .search-section::after,
+  .orn-band,
+  .orn-strand,
+  .orn-rosette,
+  .orn-corners {
+    animation: none !important;
+  }
+}
+
+/* ── The generated SEO estate as a certificate leaf ──────────────────────
+   /tokens/<slug>, /chains/<slug>, their ko/ twins, and the /tokens + /chains
+   hub/A–Z pages (generate-token-pages.js / generate-chain-pages.js) all link
+   this file rather than baking their own copy of it, so this costs nothing
+   extra per page — same margin-strand + closing-band primitives as the grid
+   above, deliberately the SMALLEST subset: no rosette, no corners, and
+   (unlike the app) NO ambient motion at all — this is the crawl surface,
+   where page-weight and LCP are the whole point, not a place to spend an
+   animation budget. `.tp-wrap` (token), `.cp-wrap` (chain), `.hub-wrap`
+   (hub + A–Z, one class per renderHubStyleBlock) are the three wrapper
+   classes every one of these ~4,400 pages already emits. */
+.tp-wrap,
+.cp-wrap,
+.hub-wrap {
+  position: relative;
+  isolation: isolate;
+}
+
+@media (min-width: 1080px) {
+  .tp-wrap::before,
+  .cp-wrap::before,
+  .hub-wrap::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: var(--ui-accent-margin);
+    -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+    mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+    -webkit-mask-size: 20px 50px, 20px 50px;
+    mask-size: 20px 50px, 20px 50px;
+    -webkit-mask-repeat: repeat-y, repeat-y;
+    mask-repeat: repeat-y, repeat-y;
+    -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+    mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  }
+}
+
+/* One closing band, in-flow at the bottom of the wrap (after the page's
+   final note/footer line) — no absolute positioning, so it never needs
+   tuning against a page's own variable content length. Static, no
+   `ornBreathe` cycle (the app's version breathes; this one does not). */
+.tp-wrap::after,
+.cp-wrap::after,
+.hub-wrap::after {
+  content: '';
+  display: block;
+  width: min(320px, 60%);
+  height: 14px;
+  margin: 28px auto 0 auto;
+  background-color: var(--ui-accent-soft);
+  pointer-events: none;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: 35px 14px;
+  mask-size: 35px 14px;
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
 }
 
 * {
@@ -841,7 +1440,7 @@ select.form-control {
 
 body {
   font-family: var(--font-family-base);
-  background: var(--neuro-bg-gradient) 0% 0% / cover fixed;
+  background: var(--ui-bg);
   color: var(--color-text);
   margin: 0;
   padding: 0;
@@ -902,20 +1501,20 @@ body {
 }
 
 /* Google-style sticky header for results pages */
-.google-header-sticky {
+.app-header-sticky {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
   background: var(--color-surface);
-  border-bottom: 1px solid var(--color-border);
-  box-shadow: var(--neuro-shadow-flat);
+  border-bottom: 1px solid var(--ui-border);
+  box-shadow: none;
   overflow: visible;
 }
 
 /* Navigation row - part of the header */
-.google-nav-row {
+.app-nav-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -927,7 +1526,7 @@ body {
   overflow: visible;
 }
 
-.google-header-content {
+.app-header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -937,42 +1536,47 @@ body {
   gap: var(--space-24);
 }
 
-.google-logo {
-  font-size: var(--font-size-xl);
+/* Brand identity — the landing's tile + wordmark recipe (.landing-brand). */
+.app-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
   font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
+  letter-spacing: -0.03em;
+  color: var(--color-text);
   cursor: pointer;
   white-space: nowrap;
   user-select: none;
-  transition: all var(--duration-normal) var(--ease-standard);
 }
 
-.google-logo:hover {
-  transform: translateY(-1px);
+.app-logo:hover {
+  color: var(--color-text);
 }
 
-.google-search-container {
+.app-search-container {
   flex: 1;
   max-width: 500px;
   position: relative;
 }
 
-.google-search-bar {
+.app-search-bar {
   position: relative;
   display: flex;
   align-items: center;
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-subtle);
-  border: none;
+  background: var(--ui-surface);
+  border-radius: var(--ui-radius-lg);
+  border: 1px solid var(--ui-border-strong);
+  box-shadow: none;
   transition: all 0.2s ease;
 }
 
-.google-search-bar:focus-within {
-  box-shadow: var(--neuro-shadow-pressed);
+.app-search-bar:focus-within {
+  border-color: var(--ui-accent);
+  box-shadow: var(--ui-focus-ring);
 }
 
-.google-search-input {
+.app-search-input {
   flex: 1;
   padding: var(--space-12) var(--space-20);
   background: transparent;
@@ -984,87 +1588,164 @@ body {
   caret-color: var(--color-primary);
 }
 
-.google-search-input:placeholder-shown {
+.app-search-input:placeholder-shown {
   caret-color: transparent;
 }
 
-.google-search-input::placeholder {
+.app-search-input::placeholder {
   color: var(--color-text-secondary);
 }
 
 /* ✕ clear button inside google search bar */
-.google-search-clear {
+.app-search-clear {
   padding: var(--space-4) var(--space-8);
   background: transparent;
   border: none;
   color: var(--color-text-secondary);
   cursor: pointer;
   font-size: var(--font-size-sm);
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-sm);
   transition: color 0.2s ease;
   flex-shrink: 0;
 }
 
-.google-search-clear:hover {
+.app-search-clear:hover {
   color: var(--color-text);
 }
 
-.google-search-button {
-  padding: var(--space-10);
+.app-search-button {
+  /* height/padding/border-radius owned by the shared primary-button rule, style.css end.
+     Not a floating circle (225 §3) — a normal primary button. */
   margin-right: var(--space-8);
   background: var(--color-primary);
-  border: none;
-  border-radius: var(--radius-full);
+  border: 1px solid transparent;
   color: var(--color-btn-primary-text);
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: none;
   transition: all var(--duration-normal) var(--ease-standard);
-  min-width: 36px;
-  height: 36px;
 }
 
-.google-search-button:hover {
+.app-search-button:hover {
   background: var(--color-primary-hover);
-  box-shadow: var(--neuro-shadow-flat);
 }
 
-.google-search-button:active {
-  box-shadow: var(--neuro-shadow-pressed);
+.app-search-button:active {
+  box-shadow: none;
+  background: var(--color-primary-active);
+  transform: translateY(1px);
 }
 
-.google-header-controls {
+.app-header-controls {
   display: flex;
   align-items: center;
   gap: var(--space-8);
 }
 
-.google-control-btn {
-  padding: var(--space-8) var(--space-12);
-  background: var(--color-surface);
-  border: none;
-  border-radius: var(--neuro-radius-md);
-  color: var(--color-text);
-  cursor: pointer;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
-  transition: all 0.2s ease;
-  min-width: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* `.app-control-btn` is a geometry-only marker now (shared icon-only-button
+   rule, style.css end) — it used to also carry its own background/border/
+   hover/active block here, but every element wearing it also wears
+   `.theme-toggle` or `.language-toggle`, whose own rules below (later in
+   this file, same specificity) already decided every one of those
+   properties. Two color definitions for the same two controls was the
+   per-surface-variant duplication this pass killed: one shared rule set —
+   `.theme-toggle` / `.language-toggle` below — now owns color/border/hover/
+   active for both header and standalone instances alike. */
+
+/* Backlog 222: `.theme-toggle`/`.language-toggle` (style.css:3913/3993 below)
+   are FLOATING-PAIR rules — `position: fixed`, viewport-pinned `top`/`right`,
+   `z-index: 1000` — written for the standalone pair that render as direct
+   children of `.app` on the analytics HOMEPAGE (`.app:not(.has-results)`,
+   which has no header). `app.js:3057/3062` gives the header's own theme/
+   language buttons those SAME class names (`app-control-btn theme-toggle`
+   / `app-control-btn language-toggle`) so they'd inherit the design-
+   system look — but with no scoping, the floating rules ALSO yank the
+   header's in-flow buttons out of flow and pin them to the same fixed
+   coordinates as the standalone pair. Measured on `?token=USDC` at rest:
+   at 360/480px the header's own pair lands past the viewport edge
+   (`elementFromPoint` -> null, clipped not scrollable-to — see the header-
+   shrink fix below); at >=641px the two pairs coincide at the identical
+   rect, so the header's button paints under the standalone one and eats
+   its clicks.
+
+   Reset the header's own buttons back to normal flow. This selector's two
+   classes give it specificity (0,2,0), which beats every one-class
+   `.theme-toggle`/`.language-toggle` declaration below at (0,1,0) —
+   including inside their `@media` tiers, since a media query adds no
+   specificity of its own — so this wins regardless of source order.
+   Chosen over rescoping each floating rule with `:not(.app-control-btn)`
+   (the fix's spec-documented alternative): that would touch every one of
+   the ~6 `.theme-toggle`/`.language-toggle` declarations spread across 3
+   media-query tiers, where this is one block, next to the
+   `.app-control-btn` rules it protects. */
+.app-header-controls .theme-toggle,
+.app-header-controls .language-toggle {
+  position: static;
+  top: auto;
+  right: auto;
+  margin: 0;
+  z-index: auto;
 }
 
-.google-control-btn:hover {
-  box-shadow: var(--neuro-shadow-subtle);
-  transform: translateY(-1px);
+/* Backlog 222, third strand: even with the header's own theme/language
+   buttons back in flow (the reset above), the header ROW itself had no
+   `@media` override anywhere (`grep -n "app-header-content" style.css`
+   was a single match before this rule) and its middle child
+   `.app-search-container` — and the `<input>` inside it — kept their
+   automatic min-content width (neither had `min-width: 0`), so the row
+   could not shrink below a bare input's intrinsic width. At <=640px that
+   pushed `.app-header-controls` off the right edge of a 360/480px
+   viewport (measured: rect `x:498.8`, `elementFromPoint` -> null;
+   `documentElement.scrollWidth` stayed 360, so this was not overflow the
+   user could scroll to reach — the controls were simply gone). `min-width:
+   0` is the standard flex-item fix (an unconstrained flex child defaults to
+   its content's min-content size, not 0); the tighter gap/padding give the
+   now-shrinkable row a little more room before it has to. */
+@media (max-width: 640px) {
+  .app-header-content {
+    gap: var(--space-8);
+    padding: var(--space-12);
+  }
+
+  .app-search-container {
+    min-width: 0;
+  }
+
+  .app-search-input {
+    min-width: 0;
+  }
 }
 
-.google-control-btn:active {
-  box-shadow: var(--neuro-shadow-pressed);
+/* 225 round 3 increment (a) — the 360px header defect named in this round's
+   brief: at 360px `.app-search-container` shrinks to ~81px (measured), but
+   its own children (`.app-search-input` shrinks correctly to ~40px via the
+   `min-width: 0` above, but `.app-search-clear` is `flex-shrink: 0` and
+   `.app-search-button` has no shrink-below-content-size floor) together
+   need ~118px. `.app-search-bar` is `display: flex` with no width/overflow
+   constraint of its own, so those children don't clip to the container —
+   they spill past its right edge with `overflow: visible` (the default),
+   landing `.app-search-button`'s rect on top of `.language-toggle` next to
+   it. Two changes: `overflow: hidden` on the search bar is the safety net
+   (a real render can never again let this spill onto a sibling control,
+   regardless of content width); hiding the redundant 🔍 button at <=480px
+   is what actually frees enough width for the fix to matter in practice —
+   search still submits on Enter (handleKeyDown) or by picking a result from
+   the autocomplete dropdown, so no submission path is lost. */
+@media (max-width: 640px) {
+  .app-search-bar {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Compound selector, not bare .app-search-button: the shared "Button,
+     primary" geometry role at style.css's end also declares `display:
+     inline-flex` for this class and, by design, sits last in the file so it
+     wins any equal-specificity tie regardless of media-query conditions — a
+     bare `.app-search-button{display:none}` here would lose to it. This
+     selector's extra class wins on specificity instead. */
+  .app-header-content .app-search-button {
+    display: none;
+  }
 }
 
 /* Add padding to body when Google header is shown */
@@ -1074,7 +1755,7 @@ body {
 }
 
 
-.google-nav-tabs {
+.app-nav-tabs {
   display: flex;
   gap: var(--space-4);
   overflow-x: auto;
@@ -1085,26 +1766,26 @@ body {
   overflow-y: visible;
 }
 
-.google-nav-tabs::-webkit-scrollbar {
+.app-nav-tabs::-webkit-scrollbar {
   display: none;
 }
 
 /* Primary category rail + secondary filter cluster grouping (spec 093) */
-.google-nav-primary {
+.app-nav-primary {
   display: flex;
   align-items: center;
   gap: var(--space-4);
   flex-shrink: 0;
 }
 
-.google-nav-secondary {
+.app-nav-secondary {
   display: flex;
   align-items: center;
   gap: var(--space-8);
   flex-shrink: 0;
 }
 
-.google-nav-divider {
+.app-nav-divider {
   width: 1px;
   height: 20px;
   background: var(--color-border);
@@ -1113,17 +1794,23 @@ body {
   align-self: center;
 }
 
-.google-nav-tab svg,
-.google-filter-btn svg {
+.app-nav-tab svg,
+.app-filter-btn svg {
   flex-shrink: 0;
 }
 
-.google-nav-tab {
+.app-nav-tab {
   display: inline-flex;
   align-items: center;
   gap: var(--space-6);
   flex-shrink: 0;
-  padding: var(--space-6) var(--space-12);
+  /* impeccable pass (225): was 6px/12px padding -> a 29px-tall control sitting
+     beside 40px-tall .app-filter-btn pills in the same row (measured). Same
+     control band, two different heights reads as uneven rather than as two
+     deliberately distinct components. 10px vertical padding brings this to
+     the row's shared 40px control height without changing the tab's flat
+     underline language. */
+  padding: var(--space-10) var(--space-12);
   background: transparent;
   border: none;
   border-bottom: 3px solid transparent;
@@ -1136,52 +1823,73 @@ body {
   border-radius: 0;
 }
 
-.google-nav-tab:hover:not(.active) {
+.app-nav-tab:hover:not(.active) {
   color: var(--color-text);
   border-bottom-color: var(--color-border);
 }
 
-.google-nav-tab.active {
+.app-nav-tab.active {
   color: var(--color-primary);
   border-bottom-color: var(--color-primary);
   font-weight: var(--font-weight-semibold);
 }
 
-.google-filter-btn {
-  display: inline-flex;
-  align-items: center;
+.app-filter-btn {
+  /* height/padding/border-radius/font owned by the shared chip rule (icon variant), style.css end */
   gap: var(--space-6);
   flex-shrink: 0;
-  padding: var(--space-8) var(--space-16);
   background: var(--color-surface);
   border: none;
-  border-radius: var(--neuro-radius-md);
   color: var(--color-text);
   cursor: pointer;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
   white-space: nowrap;
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   transition: all 0.2s ease;
 }
 
-.google-filter-btn:hover:not(.active):not(.has-selection) {
-  box-shadow: var(--neuro-shadow-subtle);
+.app-filter-btn:hover:not(.active):not(.has-selection) {
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
-.google-filter-btn.has-selection {
-  background: var(--color-primary);
-  color: white;
-  box-shadow: var(--neuro-shadow-subtle);
+/* Filled-primary selected state (spec 111): a selected filter must be unmistakable,
+   not read as unselected. This is the ONE exception to the accent-soft chip default —
+   see style.css §"Chip / pill" and product-loop-kit/specs/225-design-system.md §3. */
+.app-filter-btn.has-selection {
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
+  box-shadow: none;
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
 }
 
-.google-filter-btn.active:not(.has-selection) {
-  background: var(--color-surface);
-  box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.1), inset -4px -4px 10px rgba(255, 255, 255, 0.7);
-  transform: translateY(2px);
+.app-filter-btn.has-selection:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.app-filter-btn.has-selection:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
+}
+
+/* impeccable pass (225): this used to be a SECOND, softer blue treatment
+   (accent-soft fill + accent text) for "this dropdown is open" — sitting one
+   state away from .has-selection's solid blue fill for "this filter has a
+   value". Two blue intensities on the same component for two different
+   meanings is exactly the "blue at multiple intensities" pattern the human
+   flagged; a glance can't tell "open" from "engaged" by color alone. Blue
+   now means exactly one thing on this control (a value is set); "menu is
+   open" gets the same neutral border-strong step every other toggle in this
+   product already uses for a transient/open state (.view-toggle-btn.active). */
+.app-filter-btn.active:not(.has-selection) {
+  background: var(--ui-surface);
+  border-color: var(--ui-border-strong);
+  color: var(--color-text);
+  box-shadow: none;
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1197,7 +1905,7 @@ body {
   min-width: 200px;
   background: var(--color-surface);
   border-radius: var(--radius-lg);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--ui-shadow-overlay);
   border: 1px solid var(--color-border);
   padding: var(--space-12);
   z-index: 9999;
@@ -1234,7 +1942,7 @@ body {
   min-width: 200px;
   background: var(--color-surface);
   border-radius: var(--radius-lg);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: var(--ui-shadow-overlay);
   border: 1px solid var(--color-border);
   padding: var(--space-12);
   animation: dropdownSlide var(--duration-fast) var(--ease-standard);
@@ -1330,7 +2038,7 @@ body {
 .global-filter-dropdown .filter-pill:hover:not(.active),
 .global-filter-dropdown .filter-chip:hover:not(.active) {
   transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-raised);
+  border-color: var(--ui-border-strong);
 }
 
 /* Scroll indicators for visual feedback */
@@ -1379,22 +2087,31 @@ body {
   scroll-snap-type: x proximity;
 }
 
-/* Enhanced hover animations for scrollable pills */
+/* Selected pill/chip inside the filter dropdown reads as unmistakable filled-primary
+   (matches .app-filter-btn.has-selection) — spec 111: a selected filter must never
+   read as unselected. Every other chip family stays on the accent-soft treatment;
+   this is the one exception, scoped to .global-filter-dropdown. */
 .global-filter-dropdown .filter-pill.active,
 .global-filter-dropdown .filter-chip.active {
-  transform: translateY(-1px);
-  box-shadow: var(--neuro-shadow-raised);
-}
-
-/* Selected chip reads as unmistakable filled-primary (matches .google-filter-btn.has-selection).
-   Scoped to .filter-chip ONLY — the transform/box-shadow override lives here (not on the shared
-   rule above) so chain/protocol pills keep their existing brand/primary fill AND lift unchanged. */
-.global-filter-dropdown .filter-chip.active {
-  background: var(--color-primary);
-  color: white;
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+}
+
+.global-filter-dropdown .filter-pill.active:hover,
+.global-filter-dropdown .filter-chip.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.global-filter-dropdown .filter-pill.active:active,
+.global-filter-dropdown .filter-chip.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 /* Add subtle momentum scrolling feedback */
@@ -1493,73 +2210,17 @@ body {
     inset -15px 0 20px -15px rgba(0, 0, 0, 0.15);
 }
 
-.google-tools-section {
+.app-tools-section {
   display: flex;
   align-items: center;
   gap: var(--space-12);
   flex-shrink: 0;
 }
 
-.google-tools-dropdown {
-  display: flex;
-  align-items: center;
-  gap: var(--space-16);
-  flex-shrink: 0;
-}
-
-.google-tools-btn {
-  padding: var(--space-10) var(--space-16);
-  background: var(--color-surface);
-  border: none;
-  border-radius: var(--neuro-radius-md);
-  color: var(--color-text);
-  cursor: pointer;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
-  transition: all 0.2s ease;
-  display: flex;
-  align-items: center;
-  gap: var(--space-4);
-}
-
-.google-tools-btn:hover {
-  box-shadow: var(--neuro-shadow-subtle);
-  transform: translateY(-1px);
-}
-
-.google-tools-btn:active {
-  box-shadow: var(--neuro-shadow-pressed);
-  transform: translateY(0);
-}
-
-.google-results-count {
+.app-results-count {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
   white-space: nowrap;
-}
-
-.google-tools-panel {
-  background: var(--color-background);
-  border-bottom: 1px solid var(--color-border);
-  box-shadow: var(--neuro-shadow-pressed);
-  max-height: 400px;
-  overflow-y: auto;
-  animation: slideDown var(--duration-normal) var(--ease-standard);
-}
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-8px);
-    max-height: 0;
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-    max-height: 400px;
-  }
 }
 
 .logo {
@@ -1574,23 +2235,26 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
   padding: var(--space-12) var(--space-16);
-  border-radius: var(--neuro-radius-md);
+  border-radius: var(--ui-radius-md);
   background: transparent;
+  border: 1px solid transparent;
   box-shadow: none;
   max-width: 300px;
   margin: 0 auto var(--space-12);
 }
 
+/* 225 round 3c: the wordmark is a mark, not a button — no pill hover, no
+   lift. Color shift only (it resets the app on click). */
 .logo:hover {
-  background: var(--color-background);
-  box-shadow: var(--neuro-shadow-subtle);
-  transform: translateY(-1px);
+  background: transparent;
+  border-color: transparent;
+  color: var(--color-primary-hover);
 }
 
 .logo:active {
-  background: var(--color-background);
-  box-shadow: var(--neuro-shadow-pressed);
-  transform: translateY(0);
+  background: transparent;
+  box-shadow: none;
+  transform: none;
 }
 
 .logo::before {
@@ -1598,12 +2262,14 @@ body {
   font-size: var(--font-size-3xl);
 }
 
+/* 225 round 3c: brand + promise read as one unit — tight to the wordmark,
+   generous before the search control. Full-strength secondary (no faded
+   opacity on the one sentence that says what the product does). */
 .subtitle {
   font-size: var(--font-size-base);
   color: var(--color-text-secondary);
   font-weight: var(--font-weight-normal);
   margin-bottom: var(--space-32);
-  opacity: 0.8;
 }
 
 /* Google-style Search Section */
@@ -1628,7 +2294,7 @@ body {
   padding: var(--space-6) var(--space-12);
   background: rgba(var(--color-primary-rgb, 33, 128, 141), 0.1);
   border: 1px solid rgba(var(--color-primary-rgb, 33, 128, 141), 0.2);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   color: var(--color-primary);
@@ -1690,21 +2356,24 @@ body {
 
 .chain-card {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-20);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: center;
 }
 
 .chain-card:hover {
-  box-shadow: var(--neuro-shadow-subtle);
+  border-color: var(--ui-border-strong);
   transform: translateY(-2px);
 }
 
 .chain-card:active {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: translateY(0);
 }
 
@@ -1750,44 +2419,34 @@ body {
   }
 
   /* Google navigation mobile styles */
-  .google-nav-content {
-    padding: var(--space-8) var(--space-12);
-    gap: var(--space-8);
-  }
-
-  .google-nav-tabs {
+  .app-nav-tabs {
     gap: var(--space-4);
   }
 
   /* Keep primary rail + divider + secondary cluster on one scrollable row (spec 093) */
-  .google-nav-primary,
-  .google-nav-secondary {
+  .app-nav-primary,
+  .app-nav-secondary {
     flex-shrink: 0;
     flex-wrap: nowrap;
   }
 
-  .google-nav-divider {
+  .app-nav-divider {
     flex-shrink: 0;
     margin: 0 var(--space-8);
   }
 
-  .google-nav-tab {
+  .app-nav-tab {
     padding: var(--space-8) var(--space-12);
     font-size: var(--font-size-xs);
   }
 
-  .google-nav-tab svg,
-  .google-filter-btn svg {
+  .app-nav-tab svg,
+  .app-filter-btn svg {
     width: 14px;
     height: 14px;
   }
 
-  .google-tools-btn {
-    padding: var(--space-8) var(--space-12);
-    font-size: var(--font-size-xs);
-  }
-
-  .google-results-count {
+  .app-results-count {
     display: none;
     /* Hide on mobile to save space */
   }
@@ -1799,49 +2458,67 @@ body {
   max-width: 580px;
 }
 
+/* 225 round 3c: the input + autocomplete share this anchor so suggestions
+   attach to the input mid-type instead of floating under the whole column. */
+.search-input-anchor {
+  position: relative;
+  width: 100%;
+}
+
 .search-input {
   width: 100%;
   padding: var(--space-16) var(--space-20);
   font-size: var(--font-size-lg);
   border: none;
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   background: var(--color-background);
   color: var(--color-text);
   caret-color: var(--color-primary);
   transition: all 0.2s ease;
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  box-shadow: none;
   outline: none;
 
-  box-shadow: var(--neuro-shadow-pressed);
-  background: var(--neuro-bg);
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  box-shadow: none;
+  background: var(--ui-surface);
 
   background: var(--color-surface) !important;
-  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  box-shadow: none;
 }
 
 .search-input:placeholder-shown {
   caret-color: transparent;
 }
 
+/* 225 round 3b: ONE focus signal — a contiguous 2px accent ring (1px border
+   + 1px shadow, no offset halo). The offset --ui-focus-ring token stacked on
+   the accent border read as a glowing double border on this permanently
+   autofocused hero input. Still >=2px of visible accent for keyboard users —
+   the focus-visibility rail is not weakened. */
 .search-input:focus {
-  box-shadow: var(--neuro-shadow-pressed), 0 0 0 3px rgba(59, 130, 246, 0.2);
-
-  box-shadow: var(--neuro-shadow-pressed);
+  border-color: var(--ui-accent);
+  box-shadow: 0 0 0 1px var(--ui-accent);
 }
 
 .search-input::placeholder {
   color: var(--color-text-secondary);
 }
 
-/* Neumorphic Autocomplete Dropdown */
+/* Autocomplete Dropdown — anchored to .search-input-anchor (225 round 3c) */
 .autocomplete-dropdown {
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: 0;
   right: 0;
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-subtle);
+  border-radius: var(--ui-radius-lg);
+  box-shadow: var(--ui-shadow-overlay);
+  border: 1px solid var(--ui-border);
   z-index: 1000;
   max-height: 400px;
   overflow-y: auto;
@@ -1852,31 +2529,32 @@ body {
   padding: var(--space-12) var(--space-20);
   cursor: pointer;
   transition: all 0.2s ease;
-  border-radius: var(--neuro-radius-md);
+  border-radius: var(--ui-radius-md);
   margin: var(--space-4) var(--space-8);
   background: var(--color-background);
 }
 
 .autocomplete-item:hover,
 .autocomplete-item.highlighted {
-  background: var(--color-background);
-  box-shadow: var(--neuro-shadow-pressed);
-  color: var(--color-primary);
-  transform: scale(0.98);
+  background: var(--ui-accent-soft);
+  border: 1px solid var(--ui-accent-border);
+  color: var(--ui-accent);
+  box-shadow: none;
 }
 
 /* Neumorphic Filters Section */
 .filters-section {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-16);
   margin-bottom: var(--space-24);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   transition: all 0.3s ease;
 }
 
 .filters-section:hover {
-  box-shadow: var(--neuro-shadow-raised), 0 0 0 1px rgba(59, 130, 246, 0.1);
+  border-color: var(--ui-border-strong);
 }
 
 .filters-grid {
@@ -1900,8 +2578,9 @@ body {
   padding: var(--space-6) var(--space-12);
   margin: 0;
   background: var(--color-background);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-inset);
+  border-radius: var(--ui-radius-sm);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   display: inline-flex;
   align-items: center;
   position: relative;
@@ -1932,12 +2611,14 @@ body {
 .filter-select {
   padding: var(--space-12) var(--space-16);
   border: none;
-  border-radius: var(--neuro-radius-md);
+  border-radius: var(--ui-radius-md);
   background: var(--color-background);
   color: var(--color-text);
   font-size: var(--font-size-base);
   transition: all 0.2s ease;
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  box-shadow: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1951,16 +2632,29 @@ body {
 
 .filter-select:focus {
   outline: none;
-  box-shadow: var(--neuro-shadow-pressed), 0 0 0 3px rgba(59, 130, 246, 0.2);
+  border-color: var(--ui-accent);
+  box-shadow: var(--ui-focus-ring);
 }
 
 .filter-select:hover {
-  box-shadow: var(--neuro-shadow-subtle);
+  border-color: var(--ui-border-strong);
 }
 
 /* Results Section */
 .results-section {
   margin-bottom: var(--space-32);
+}
+
+/* 225 round 3 increment (a): the ONE composed surface — header band, column
+   labels, and rows all live inside this single card. Nothing nested inside
+   it carries its own border/radius/shadow; only the panel does. */
+.results-panel {
+  background: var(--color-background);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .results-header {
@@ -1969,11 +2663,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: var(--space-16);
-  margin-bottom: var(--space-24);
-  padding: var(--space-16) var(--space-20);
-  background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-flat);
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--ui-border);
 }
 
 .results-header-left {
@@ -1990,33 +2681,56 @@ body {
   flex-wrap: wrap;
 }
 
+/* impeccable pass (225): pill radius, not the 12px "labeled button" radius —
+   this is a "make a choice" control (grid/list toggle, sort), the same role
+   as the filter chips one row up on this screen. Rounded-rect here made
+   tabs / chips / sort-control read as three different shape languages for
+   one screen; two of the three ("chips" and "choice controls") now share
+   one pill vocabulary, leaving the flat underline tabs as the one
+   deliberately different (navigation, not selection) shape. */
 .view-toggles {
   display: flex;
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-md);
+  background: var(--ui-surface-muted);
+  border-radius: var(--ui-radius-pill);
   padding: 4px;
-  box-shadow: var(--neuro-shadow-pressed);
+  border: 1px solid var(--ui-border);
+  box-shadow: none;
 }
 
 .view-toggle-btn {
+  /* height/width/padding/border-radius owned by the shared icon-only-button
+     rule (grid/list) or the shared secondary-button rule (.sort-toggle-btn
+     text variant) — both at style.css end. */
   background: transparent;
   border: none;
-  padding: 6px 12px;
-  border-radius: var(--neuro-radius-sm);
   cursor: pointer;
   color: var(--color-text-secondary);
-  font-size: 16px;
   transition: all 0.2s ease;
 }
 
 .view-toggle-btn:hover {
-  color: var(--color-primary);
+  color: var(--color-text);
 }
 
+/* 225 round 3 (a): accent discipline — no blue fill on view/sort selection.
+   Selected state reads via a neutral background + border step only; blue is
+   reserved for the action link's hover/focus and already-selected filter
+   chips (per this surface's design brief). */
 .view-toggle-btn.active {
-  background: var(--color-background);
-  color: var(--color-primary);
-  box-shadow: var(--neuro-shadow-raised);
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  color: var(--color-text);
+  box-shadow: none;
+}
+
+/* Shrink the grid/list icon buttons to the spec's 32px quiet buttons,
+   scoped to this panel so the shared 40px icon-button role used elsewhere
+   (.theme-toggle etc) is untouched. */
+.results-panel .view-toggle-btn:not(.sort-toggle-btn) {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
 }
 
 .sort-control {
@@ -2032,54 +2746,114 @@ body {
 }
 
 .sort-toggles {
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-md);
+  background: var(--ui-surface-muted);
+  border-radius: var(--ui-radius-pill);
   padding: 4px;
-  box-shadow: var(--neuro-shadow-pressed);
+  border: 1px solid var(--ui-border);
+  box-shadow: none;
 }
 
+/* 225 round 3 (a): text segmented control — 13px/500, sentence case (no
+   uppercase, no letter-spacing hack, no mono font). */
 .sort-toggle-btn {
-  font-size: 12px;
-  font-weight: var(--font-weight-bold);
-  padding: 6px 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  /* height/padding owned by the shared secondary-button rule, style.css end */
+  font-size: 13px;
+  font-weight: var(--font-weight-medium);
+  text-transform: none;
+  letter-spacing: normal;
 }
 
-/* List View Styles */
+/* impeccable pass (225): pill radius on the inner buttons too, matching the
+   pill track above. Three classes deep so it beats the shared "Button,
+   secondary" role's 12px radius (style.css end) regardless of source order —
+   that role is correct for reset/pagination/back buttons, which stay 12px;
+   only this sort control moves to the pill "choice control" language. */
+.sort-control .sort-toggles .sort-toggle-btn {
+  border-radius: var(--ui-radius-pill);
+}
+
+/* Slim column-label row, aligned to the exact same grid the rows below use.
+   Hidden under 768px — the two-line mobile row layout doesn't need it. */
+.pool-columns {
+  display: grid;
+  grid-template-columns: 40px 1fr 110px 130px 120px;
+  column-gap: 12px;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--ui-row-border);
+}
+
+.pool-columns span {
+  font-size: 12px;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  text-transform: none;
+}
+
+.pool-columns .col-pool {
+  grid-column: 1 / span 2;
+  text-align: left;
+}
+
+.pool-columns .col-apy,
+.pool-columns .col-tvl {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .pool-columns {
+    display: none;
+  }
+}
+
+/* List View Styles — 225 round 3 (a): rows on ONE CSS grid, no per-row
+   card (no border/radius/shadow of their own); 1px separators between rows
+   only, no gaps. */
 .pools-list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-16);
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .pools-list .pool-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: 40px 1fr 110px 130px 120px;
+  column-gap: 12px;
   align-items: center;
-  justify-content: space-between;
-  gap: var(--space-24);
-  padding: var(--space-16) var(--space-24);
-  min-height: 84px;
-  border-radius: var(--neuro-radius-lg);
-  flex-direction: row;
+  height: 64px;
+  min-height: 64px;
+  padding: 0 20px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--ui-row-border);
+  background: transparent;
 }
 
-.pools-list .pool-header-new {
+.pools-list .pool-card:last-child {
+  border-bottom: none;
+}
+
+.pools-list .pool-card:hover {
+  transform: none;
+  background: var(--ui-surface-muted);
+}
+
+.pools-list .pool-header-new,
+.pools-list .pool-name-group {
   display: contents;
 }
 
 .pools-list .pool-left-section {
-  flex: 2;
-  min-width: 250px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
+  gap: 2px;
 }
 
 .pools-list .pool-apy-section {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -2087,7 +2861,7 @@ body {
   text-align: right;
 }
 
-/* 095: calmer 0-yield hero (pairs with 092's honest .pool-apy-tag). The
+/* 095/225: calmer 0-yield hero (pairs with the honest .pool-apy-tag). The
    0.00% number stays in the DOM — only its visual loudness drops (trust
    rail intact: secondary color + opacity >= 0.7, legible in dark mode). */
 .pools-list .pool-apy-section:has(.pool-apy-tag) .pool-apy-hero {
@@ -2096,27 +2870,16 @@ body {
 }
 
 .pools-list .pool-tvl-section {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: center;
   text-align: right;
-  margin: 0;
-  padding: 0;
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
 }
 
-.pools-list .pool-tvl-section .tvl-label {
-  margin-bottom: var(--space-4);
-  font-size: 10px;
-  opacity: 0.7;
-}
-
-.pools-list .pool-tvl-section .tvl-value {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
+/* Redundant with the "TVL" column header — hide the inline per-row label. */
+.pools-list .tvl-label {
+  display: none;
 }
 
 .pools-list .pool-details-expanded {
@@ -2125,44 +2888,127 @@ body {
 }
 
 .pools-list .pool-cta-section {
-  flex: 1;
   display: flex;
+  align-items: center;
   justify-content: flex-end;
+  /* Overrides the legacy .pool-cta-section{margin-top:auto} (style.css, "Primary
+     CTA Section") — on a grid item that auto margin bottom-aligns instead of
+     centering, which is what actually caused the action link to render low in
+     the row (visually looking like a second line under TVL). */
   margin-top: 0;
 }
 
-@media (max-width: 1024px) {
+/* Quiet action link — 13px/500, secondary color; accent color ONLY on
+   hover/focus (this surface's one exception to no-blue, per the brief). */
+.pools-list .pool-cta-section .calculate-yield-btn-new {
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  background: transparent;
+  white-space: nowrap;
+  /* The shared .calculate-yield-btn-new base rule (style.css end) still
+     carries `margin-top: var(--space-8)` for the grid/card layout it was
+     built for. .pool-cta-section centers this button via flexbox
+     align-items:center, so that un-reset 8px top margin (0 on bottom) shifts
+     the button's own centered position 4px below the row's true vertical
+     center — visibly off from `.tvl-value` next to it. `.pools-grid`'s own
+     override already resets this (see `.pools-grid .pool-cta-section
+     .calculate-yield-btn-new` below); list view needs the identical reset. */
+  margin-top: 0;
+}
+
+.pools-list .pool-cta-section .calculate-yield-btn-new:hover,
+.pools-list .pool-cta-section .calculate-yield-btn-new:focus-visible {
+  color: var(--ui-accent);
+  background: transparent;
+}
+
+/* 225 round 3b: the card (grid) view's action link gets the SAME quiet-link
+   treatment as the approved list view above — secondary at rest, accent only
+   on hover/focus — instead of an accent-colored pseudo-button on every card
+   (which spent the One Voice accent once per card). Kept as a separate
+   scoped rule (not merged with the list rule) so the two views' layout
+   overrides stay independently editable. */
+.pools-grid .pool-cta-section .calculate-yield-btn-new {
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-secondary);
+  background: transparent;
+  white-space: nowrap;
+}
+
+.pools-grid .pool-cta-section .calculate-yield-btn-new:hover,
+.pools-grid .pool-cta-section .calculate-yield-btn-new:focus-visible {
+  color: var(--ui-accent);
+  background: transparent;
+}
+
+/* Two-line mobile row (<768px), ~72px, no per-row card. The whole row is
+   already tappable via the existing row onClick, so the explicit action
+   link is dropped here rather than squeezed into very little width. */
+@media (max-width: 767px) {
   .pools-list .pool-card {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 40px 1fr auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "icon name apy"
+      "icon ctx  tvl";
+    column-gap: 10px;
+    row-gap: 4px;
+    height: auto;
+    min-height: 72px;
+    padding: 12px 16px;
+  }
+
+  .pools-list .pool-left-section {
+    display: contents;
+  }
+
+  .pools-list .pool-logo {
+    grid-area: icon;
+    align-self: center;
+  }
+
+  .pools-list .pool-symbol {
+    grid-area: name;
+    align-self: center;
+  }
+
+  .pools-list .pool-context-inline {
+    grid-area: ctx;
+    align-self: center;
+  }
+
+  .pools-list .pool-apy-section {
+    grid-area: apy;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+  }
+
+  .pools-list .pool-apy-preview,
+  .pools-list .pool-apy-tag {
+    display: none;
+  }
+
+  .pools-list .pool-tvl-section {
+    grid-area: tvl;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
   }
 
   .pools-list .pool-cta-section {
-    flex: 100%;
-    justify-content: center;
-    margin-top: var(--space-16);
-  }
-}
-
-@media (max-width: 768px) {
-  .pools-list .pool-card {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .pools-list .pool-header-new {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: var(--space-16);
-  }
-
-  .pools-list .pool-left-section,
-  .pools-list .pool-apy-section,
-  .pools-list .pool-tvl-section {
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    margin-bottom: var(--space-12);
+    display: none;
   }
 
   .results-controls {
@@ -2172,18 +3018,18 @@ body {
 }
 
 .results-title {
-  font-size: var(--font-size-2xl);
-  font-weight: var(--font-weight-semibold);
+  font-size: 16px;
+  font-weight: 600;
   color: var(--color-text);
 }
 
 .results-count {
-  font-size: var(--font-size-base);
+  font-size: 13px;
   color: var(--color-text-secondary);
-  background: var(--color-background);
-  padding: var(--space-6) var(--space-12);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: transparent;
+  padding: 0;
+  border: none;
+  box-shadow: none;
 }
 
 /* Neumorphic Pool Cards */
@@ -2193,85 +3039,129 @@ body {
   grid-template-columns: 1fr;
 }
 
-/* Desktop: 3 cards per row (1024px and up) */
+/* Desktop: auto-fill compact cards (1024px and up) — 225 round 3c: track
+   count follows the container, so two results no longer strand a dead third
+   column. */
 @media (min-width: 1024px) {
   .pools-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-16);
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-12);
     max-width: 1200px;
     margin: 0 auto;
   }
 }
 
-.pool-card {
-  background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  padding: var(--space-24);
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: var(--neuro-shadow-flat);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 240px;
+/* Grid (card) view — 225 round 3c recomposition: a compact three-cell grid
+   on the list's type system. Header row (icon · symbol/context · APY/$-day)
+   spans; TVL and the action link share ONE closing line under a single
+   hairline. No stretched min-height, no floating rows, no dead middle. */
+.pools-grid .pool-card {
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md);
+  padding: 16px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px 8px;
+  align-content: start;
 }
 
-/* Compact desktop cards */
-@media (min-width: 1024px) {
-  .pool-card {
-    padding: var(--space-16);
-    border-radius: var(--neuro-radius-lg);
-    min-height: 200px;
-    max-height: 280px;
-  }
+.pools-grid .pool-header-new {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+.pools-grid .pool-tvl-section,
+.pools-grid .pool-cta-section {
+  border-top: 1px solid var(--ui-border);
+  padding-top: 12px;
+  margin: 0;
+  /* Both cells stretch to the same closing row so their border-tops meet as
+     ONE hairline across the card; contents center on that row. */
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.pools-grid .pool-cta-section {
+  justify-self: end;
+  justify-content: flex-end;
+}
+
+.pools-grid .pool-cta-section .calculate-yield-btn-new {
+  margin-top: 0;
+  width: auto;
+}
+
+/* Icon + name pairing, shared by both view modes. List view flattens this
+   via display:contents (see .pools-list .pool-name-group above); grid view
+   keeps it as a normal flex row (icon beside the symbol/context stack). */
+.pool-name-group {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-8);
+}
+
+/* 225 round 3b: no per-view type scale — the card view inherits the same
+   15px/600 .pool-symbol the approved list view uses, so toggling views no
+   longer switches design languages. */
+
+/* Grid (card) view TVL cell — label + value inline on the closing line
+   (225 round 3c). */
+.pools-grid .pool-tvl-section {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-6);
+}
+
+/* 225 round 3 (a): border/radius/padding no longer come from the shared
+   geometry block (removed there — see the note at style.css's end) — grid
+   view restores a card look via .pools-grid .pool-card above; list view
+   (default) drops it entirely via .pools-list .pool-card above.
+   225 round 3c: the stretched min-height (240px, then 200–280px desktop)
+   and the flex column that pushed the action to the card floor are gone —
+   they were the card view's dead middle. Card height is now content-sized;
+   rows in one grid track equalize via the grid itself. */
+.pool-card {
+  background: var(--color-background);
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
+  position: relative;
+  overflow: hidden;
 }
 
 .pool-card.clickable {
   cursor: pointer;
 }
 
+/* 225 round 3c: hover is a border + background step, matching the list
+   view's own hover voice — no lift. */
 .pool-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--neuro-shadow-raised);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--ui-border-strong);
+  background: var(--ui-surface-muted);
 }
 
-/* Reduced hover effect for desktop compact cards */
-@media (min-width: 1024px) {
-  .pool-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--neuro-shadow-raised);
-  }
-}
-
+/* 225 round 3 (a): accent discipline — no hover glow/pill/scale on the APY
+   number, no blue-on-hover for the $/day preview or the symbol text. These
+   numbers stay plain at rest and on hover; only the action link and
+   already-selected filter chips get blue (per the design brief). */
 .pool-card:hover .pool-apy-hero {
-  box-shadow: var(--neuro-shadow-subtle);
-  transform: scale(1.02);
-
-  box-shadow: var(--neuro-shadow-pressed) !important;
-  background: var(--neuro-bg);
-  border-radius: var(--neuro-radius-lg);
-  padding: 8px 16px;
-
-  background: var(--color-surface) !important;
-  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
+  box-shadow: none;
 }
 
 .pool-card:hover .pool-apy-preview {
   opacity: 1;
-  color: var(--color-primary);
-  transform: translateY(0);
 }
 
 .pool-card:hover .pool-symbol {
-  color: var(--color-primary);
-  transform: translateX(2px);
+  color: var(--color-text);
 }
 
 .pool-card:active {
   transform: translateY(0) scale(0.99);
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
 }
 
 .pool-card::before {
@@ -2316,14 +3206,15 @@ body {
   opacity: 0.7;
   transition: all 0.2s ease;
   padding: var(--space-2) var(--space-4);
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-sm);
   background: var(--color-background);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .pool-card:hover .external-link {
   opacity: 1;
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
 }
 
 .pool-apy {
@@ -2332,8 +3223,10 @@ body {
   color: var(--color-primary);
   background: var(--color-background);
   padding: var(--space-8) var(--space-12);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-pressed);
+  border-radius: var(--ui-radius-md);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  box-shadow: none;
 }
 
 .pool-details {
@@ -2348,8 +3241,9 @@ body {
   flex-direction: column;
   background: var(--color-background);
   padding: var(--space-8);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-subtle);
+  border-radius: var(--ui-radius-md);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .pool-detail-label {
@@ -2373,10 +3267,11 @@ body {
   background: var(--color-background);
   color: var(--color-primary);
   padding: var(--space-8) var(--space-16);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   text-transform: capitalize;
   max-width: fit-content;
 }
@@ -2390,39 +3285,54 @@ body {
   margin-top: var(--space-32);
 }
 
+/* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
 .pagination-button {
-  padding: var(--space-12) var(--space-20);
   border: none;
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: var(--neuro-radius-md);
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .pagination-button:hover:not(:disabled) {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
 .pagination-button:active:not(:disabled) {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: translateY(0);
 }
 
+/* Filled-primary selected state (spec 111 exception — see the "Chip / pill" note
+   near .app-filter-btn.has-selection above). */
 .pagination-button.active {
-  background: var(--color-primary);
-  color: white;
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
+  box-shadow: none;
+}
+
+.pagination-button.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.pagination-button.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 .pagination-button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .pagination-info {
@@ -2431,8 +3341,10 @@ body {
   margin: 0 var(--space-16);
   padding: var(--space-8) var(--space-16);
   background: var(--color-background);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-pressed);
+  border-radius: var(--ui-radius-md);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  box-shadow: none;
 }
 
 /* Loading and Empty States */
@@ -2441,8 +3353,9 @@ body {
   text-align: center;
   padding: var(--space-32);
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-flat);
+  border-radius: var(--ui-radius-lg);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   margin: var(--space-24) 0;
   width: 100%;
   max-width: 100%;
@@ -2457,7 +3370,8 @@ body {
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 0 auto var(--space-16);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 @keyframes spin {
@@ -2499,8 +3413,9 @@ body {
   text-align: center;
   padding: var(--space-32);
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-flat);
+  border-radius: var(--ui-radius-lg);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   margin: var(--space-24) 0;
 }
 
@@ -2520,7 +3435,8 @@ body {
   background: var(--color-background);
   padding: var(--space-16) var(--space-20);
   text-align: center;
-  box-shadow: 0 -8px 16px var(--neuro-shadow-dark), 0 -4px 8px var(--neuro-shadow-light);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   border-top: 1px solid rgba(59, 130, 246, 0.1);
   z-index: 100;
 }
@@ -2537,13 +3453,59 @@ body {
   font-weight: var(--font-weight-medium);
   transition: all 0.2s ease;
   padding: var(--space-2) var(--space-4);
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-sm);
 }
 
 .app-footer a:hover {
   color: var(--color-primary-hover);
   background: rgba(59, 130, 246, 0.1);
 }
+
+/* Item 230 — the dead-`?pool=` empty state roots at `.app:not(.has-results)`
+   (app.js's root-class predicate never sets `.has-results` for it) yet still
+   renders a full `.results-section` with an alternatives grid (app.js's
+   results-render predicate, a separate check that disagrees with the root
+   class on exactly this state). `.app`'s own `padding-bottom: 80px` above
+   protects only the END of the document; this view's grid sits mid-document
+   at rest, so the fixed `.app-footer` block above paints straight over it —
+   measured 27.9-100% covered per element at 1280x780, `elementFromPoint`
+   resolving into the footer on the TVL row and (at narrower viewports) the
+   CTA itself. Same mechanism already shipped for `.app.pool-detail-view`
+   (`pool-detail-styles.css`) and `.landing-app` (`landing-styles.css`): pull
+   the footer out of the fixed layer so it sits in flow instead of floating
+   over content that isn't at the bottom of the page. Measured, not assumed,
+   against the sticky-footer idiom (`margin-top: auto`), which IS live here
+   since this state is already a flex column (`.app:not(.has-results)`
+   above): both clear all occlusion, but on the short-content case (empty
+   alternatives grid) `margin-top: auto` top-aligns the empty-state message
+   and moves it ~300px from where it renders today, against ~6px for
+   `position: static` alone — disqualified by item 230's pre-registered rule
+   (ship the smaller change to today's rendered geometry). `:has()` scopes
+   this to states that actually render a `.results-section`, so the plain
+   search-home state (no query yet) keeps its fixed footer and 80px
+   clearance untouched — confirmed from the render, not the selector.
+   `padding-bottom: 0` is not a revert of the shared clearance above: once
+   the footer is in flow it protects nothing, and without this line it would
+   leave 80px of dead background beneath a footer that carries a top
+   box-shadow. */
+.app:not(.has-results):has(.results-section) .app-footer { position: static; }
+.app:not(.has-results):has(.results-section) { padding-bottom: 0; }
+
+/* 225 round 3a (operator follow-up), item 221 class: the fixed .app-footer
+   overlapped the last partially-visible row of the results table at rest —
+   measured directly in grid-1280-{dark,light}.png (round 3a's own
+   screenshots), the footer painting over the clipped final "USDC" row
+   regardless of how many rows the table has. Same house pattern as the
+   `.app:not(.has-results)` rule immediately above (item 230) and the
+   already-shipped pool-detail/landing footers (items 218/220): pull the
+   footer out of the fixed layer for the NORMAL `?token=`/`?chain=` results
+   view too, so content is never occluded at any scroll position, not just
+   the dead-`?pool=` empty state item 230 covered. `.app.has-results` only
+   ever renders with a `.results-section` (same render predicate as the
+   root-class check in app.js), so `:has()` here is a belt-and-suspenders
+   match on the house selector shape, not a behavior change by itself. */
+.app.has-results:has(.results-section) .app-footer { position: static; }
+.app.has-results:has(.results-section) { padding-bottom: 0; }
 
 /* Hub nav inside the disclosure footer (086): /tokens + /chains, reusing the
    existing .app-footer a styling so no one-off visual language is introduced.
@@ -2567,7 +3529,7 @@ body {
   color: var(--color-text-secondary);
   text-decoration: none;
   padding: var(--space-2) var(--space-4);
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-sm);
 }
 
 .seo-hub-links a:hover {
@@ -2580,42 +3542,47 @@ body {
   box-shadow: var(--focus-ring);
 }
 
-/* Analytics mode duplicates these two links inside the visible (fixed)
-   .app-footer, so the static crawler footer — which the fixed footer would
-   otherwise occlude — is hidden there (086). Planner mode has no fixed
-   .app-footer, so the static links stay visible + clickable. Mode is set on
-   <html data-app-mode> by home.html's IA router before paint. */
+/* Analytics AND landing modes each duplicate these two links inside their own
+   visible (fixed) .app-footer (analytics: 086; landing: the 2026-07-15
+   landing pivot, landing.js:356-367), so the static crawler footer — which a
+   fixed footer would otherwise occlude — is hidden in both (179 extended the
+   086 rule to landing). Planner mode (?goal=... on /, and /plan.html, which
+   sets no data-app-mode at all — home.html's router never runs there) has no
+   fixed .app-footer, so the static links stay visible + clickable there.
+   Mode is set on <html data-app-mode> by home.html's IA router before paint. */
 /* NOTE (131): this rule is ALSO inlined as render-blocking critical CSS in home.html's <head> so it applies before the async style.min.css swap. Keep both selectors identical. */
-html[data-app-mode="analytics"] .seo-hub-links {
+html[data-app-mode="analytics"] .seo-hub-links,
+html[data-app-mode="landing"] .seo-hub-links {
   display: none;
 }
 
-/* Reset Filters Button - neumorphic recovery action (empty state) */
+/* Reset Filters Button - recovery action (empty state).
+   height/padding/border-radius/font owned by the shared secondary-button
+   rule, style.css end. */
 .reset-filters-btn {
   margin-top: var(--space-20);
   display: inline-flex;
   align-items: center;
   gap: var(--space-8);
-  padding: var(--space-16) var(--space-24);
   border: none;
   background: var(--color-surface);
   color: var(--color-text);
-  border-radius: var(--neuro-radius-md);
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   min-width: auto;
 }
 
 .reset-filters-btn:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-2px);
 }
 
 .reset-filters-btn:active {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: translateY(1px);
 }
 
@@ -2626,8 +3593,35 @@ html[data-app-mode="analytics"] .seo-hub-links {
 
 /* Responsive Design - Mobile Only (Desktop Unchanged) */
 @media (max-width: 768px) {
+  /* Backlog 222, attempt 2: this was `var(--space-20)` (20px) against a
+     120-127px `position: fixed` `.app-header-sticky`, which should have
+     buried `.results-title` ("Yields for USDC") -- it did NOT, only because
+     attempt 1's own two standalone `.theme-toggle`/`.language-toggle`
+     buttons (hidden by this same item, see the `.app.has-results >
+     .theme-toggle` rule below) happened to sit in-flow above the results
+     content and supply ~92px of ACCIDENTAL clearance via their own margins.
+     Deleting that accidental margin (by hiding the buttons) re-exposed the
+     20px gap and put `.results-title` under the header -- measured this
+     attempt, real render, `?token=USDC`: y:49.7 (EN)/49.7 (KO) at
+     360/480px, y:57.7 at 640px, all `elementFromPoint`-hit by
+     `.app-header-content`/`.app-nav-row`, i.e. actually covered, not
+     just close. `.app-header-sticky`'s own measured height across this
+     item's design bar (360/480/640/768, EN+KO): 120px (EN) / 123px (KO) at
+     <=640px, 124px (EN) / 127px (KO) at 700-768px -- max 127px.
+     `.results-title` renders ~29.7px below `.container`'s top regardless of
+     width/lang, so real (non-accidental) clearance needs
+     `padding-top > 127 + 29.7` with margin. 140px puts the title at
+     ~169.7px -- ~42px clear of the tallest header (127px, KO 768) -- and
+     also pushes `.results-header` (bottom of its own taller-when-wrapped
+     box) to a measured minimum ~29px clearance at the same width. This also
+     happens to clear a PRE-EXISTING 768px occlusion that predates 222
+     entirely (baseline `f66ea3fde5` was already occluded there) -- a side
+     effect of this one value, not a separate fix. Do not drop below 135px
+     (criterion 11's `test_mobile_controls_reachable.js`); do not raise past
+     ~160px without re-measuring (matches the >=769px tier's own
+     `padding-top: 160px`, style.css:1134, left untouched). */
   .app.has-results {
-    padding-top: var(--space-20);
+    padding-top: 140px;
   }
 
   .app:not(.has-results) .container {
@@ -2650,18 +3644,22 @@ html[data-app-mode="analytics"] .seo-hub-links {
   .search-input {
     font-size: var(--font-size-base);
     padding: var(--space-12) var(--space-20);
-    border-radius: var(--neuro-radius-lg);
+    border-radius: var(--ui-radius-lg);
     width: 100%;
     box-sizing: border-box;
     max-width: 100%;
     min-height: 44px;
     /* Minimum touch target */
 
-    box-shadow: var(--neuro-shadow-pressed);
-    background: var(--neuro-bg);
+    background: var(--ui-surface);
+    border: 1px solid var(--ui-border-strong);
+    box-shadow: none;
+    background: var(--ui-surface);
 
     background: var(--color-surface) !important;
-    box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
+    background: var(--ui-surface);
+    border: 1px solid var(--ui-border-strong);
+    box-shadow: none;
   }
 
   /* Mobile Autocomplete Dropdown - Optimized Height */
@@ -2712,14 +3710,16 @@ html[data-app-mode="analytics"] .seo-hub-links {
     gap: var(--space-12);
   }
 
-  .pool-card {
-    padding: var(--space-20);
+  /* .pool-card padding/border-radius owned by .pools-grid/.pools-list .pool-card above */
+  .pools-grid .pool-card {
     min-height: auto;
-
-    border-radius: var(--neuro-radius-lg);
   }
 
-  .pool-card.clickable {
+  /* 225 round 3 (a): scoped to grid view — list view's own <=767px rule
+     already sets min-height: 72px (well above this 44px touch-target floor)
+     with higher specificity, so this used to be a no-op there anyway; the
+     unscoped form was one property drift away from silently shrinking it. */
+  .pools-grid .pool-card.clickable {
     min-height: 44px;
     /* Minimum touch target */
   }
@@ -2741,12 +3741,11 @@ html[data-app-mode="analytics"] .seo-hub-links {
     flex-direction: column;
     align-items: flex-start;
     gap: var(--space-12);
-    padding: var(--space-16);
   }
 
-  .results-title {
-    font-size: var(--font-size-xl);
-  }
+  /* 225 round 3 (a): title stays 16px/600 at every width per spec — this
+     used to bump it to 18px on mobile, the one place the design bar
+     mandates a fixed size. */
 
   /* Mobile Pagination */
   .pagination {
@@ -2755,11 +3754,7 @@ html[data-app-mode="analytics"] .seo-hub-links {
     justify-content: center;
   }
 
-  .pagination-button {
-    min-height: 44px;
-    /* Minimum touch target */
-    padding: var(--space-12) var(--space-16);
-  }
+  /* .pagination-button size owned by the shared secondary-button rule (style.css end) */
 
   /* Mobile Footer */
   .app-footer {
@@ -2773,12 +3768,8 @@ html[data-app-mode="analytics"] .seo-hub-links {
 
 /* Small Mobile Devices - Additional Optimizations */
 @media (max-width: 480px) {
-  .pool-card {
-    padding: var(--space-16);
-    margin-bottom: var(--space-16);
-
-    border-radius: var(--neuro-radius-lg);
-  }
+  /* 225 round 3c: the extra <=480px margin-bottom on grid cards is gone —
+     .pools-grid's own gap is the one source of card spacing. */
 
   .search-container {
     max-width: 100%;
@@ -2788,13 +3779,17 @@ html[data-app-mode="analytics"] .seo-hub-links {
   .search-input {
     padding: var(--space-10) var(--space-16);
     font-size: var(--font-size-sm);
-    border-radius: var(--neuro-radius-lg);
+    border-radius: var(--ui-radius-lg);
 
-    box-shadow: var(--neuro-shadow-pressed);
-    background: var(--neuro-bg);
+    background: var(--ui-surface);
+    border: 1px solid var(--ui-border-strong);
+    box-shadow: none;
+    background: var(--ui-surface);
 
     background: var(--color-surface) !important;
-    box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
+    background: var(--ui-surface);
+    border: 1px solid var(--ui-border-strong);
+    box-shadow: none;
   }
 
   .logo {
@@ -2867,12 +3862,14 @@ html {
     /* Force hardware acceleration */
   }
 
-  /* Handle virtual keyboard appearance */
+  /* Handle virtual keyboard appearance — focus treatment matches the base
+     single-ring rule (225 round 3b), not the offset halo token. */
   .search-input:focus {
     position: relative;
     z-index: 9999;
 
-    box-shadow: var(--neuro-shadow-pressed);
+    border-color: var(--ui-accent);
+    box-shadow: 0 0 0 1px var(--ui-accent);
   }
 
   /* Improve touch scrolling */
@@ -2900,11 +3897,15 @@ html {
     font-size: 16px;
     /* Prevents zoom on iOS */
 
-    box-shadow: var(--neuro-shadow-pressed);
-    background: var(--neuro-bg);
+    background: var(--ui-surface);
+    border: 1px solid var(--ui-border-strong);
+    box-shadow: none;
+    background: var(--ui-surface);
 
     background: var(--color-surface) !important;
-    box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
+    background: var(--ui-surface);
+    border: 1px solid var(--ui-border-strong);
+    box-shadow: none;
   }
 }
 
@@ -2913,8 +3914,11 @@ html {
   transform: translateY(-5vh);
 }
 
-/* Enhanced focus states for accessibility */
-.search-input:focus,
+/* Enhanced focus states for accessibility.
+   225 round 3b: .search-input:focus removed from this legacy list — the input
+   already carries the sanctioned Quiet focus treatment (accent border +
+   --ui-focus-ring); stacking this outline on top produced a triple-ring
+   "glowing shell" on the autofocused search state. */
 .filter-select:focus,
 .pagination-button:focus {
   outline: 2px solid var(--color-primary);
@@ -2943,29 +3947,8 @@ html {
     border: 2px solid var(--color-primary);
   }
 
-  /* Enhanced TVL section for compact display */
-  .pool-tvl-section {
-    background: var(--color-background);
-    padding: var(--space-6) var(--space-8);
-    border-radius: var(--neuro-radius-sm);
-    box-shadow: var(--neuro-shadow-subtle);
-    margin-bottom: var(--space-8);
-    text-align: center;
-
-    box-shadow: var(--neuro-shadow-pressed) !important;
-    background: var(--neuro-bg);
-    border-radius: var(--neuro-radius-md);
-
-    background: var(--color-surface) !important;
-    border-radius: var(--neuro-radius-md);
-    box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
-  }
-
-  .tvl-value {
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
-    color: var(--color-text);
-  }
+  /* 225 round 3c: the <=480px TVL-cell padding override is gone — the
+     card's own grid + the shared closing-line rule owns that spacing now. */
 }
 
 /* Custom scrollbar for autocomplete */
@@ -2979,9 +3962,9 @@ html {
 }
 
 .autocomplete-dropdown::-webkit-scrollbar-thumb {
-  background: var(--neuro-shadow-dark);
+  background: var(--ui-border-strong);
   border-radius: 4px;
-  box-shadow: inset 2px 2px 4px var(--neuro-shadow-dark);
+  box-shadow: none;
 }
 
 .autocomplete-dropdown::-webkit-scrollbar-thumb:hover {
@@ -3044,9 +4027,10 @@ html {
   width: 24px;
   height: 24px;
   object-fit: contain;
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-sm);
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   display: block;
 }
 
@@ -3056,9 +4040,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-sm);
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   color: var(--color-primary);
   font-weight: var(--font-weight-bold);
   font-size: 12px;
@@ -3075,56 +4060,33 @@ html {
   object-fit: contain;
   border-radius: 50%;
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   display: block;
 }
 
+/* 225 round 3 (a): 15px/600, body family (mono skin removed everywhere in
+   this surface -- numerals get tabular-nums instead, not a monospace font). */
 .pool-symbol {
-  font-size: var(--font-size-2xl);
-  font-weight: var(--font-weight-black);
+  font-size: 15px;
+  font-weight: 600;
   color: var(--color-text);
-  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
-  margin-bottom: var(--space-2);
-  transition: all 0.2s ease;
+  letter-spacing: normal;
+  line-height: 1.2;
+  transition: color 0.2s ease;
 }
 
-/* Adjust symbol size for compact desktop cards */
-@media (min-width: 1024px) {
-  .pool-symbol {
-    font-size: var(--font-size-lg);
-  }
-}
-
+/* 225 round 3 (a): plain secondary metadata line -- sentence case, no pill,
+   no background, no leading bullet glyph, no uppercase, no blue. */
 .pool-context-inline {
-  font-size: 10px;
-  color: var(--color-primary);
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  display: inline-flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-4);
-  padding: 4px 12px;
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-pressed);
-  opacity: 0.9;
-}
-
-/* Smaller context text for desktop compact cards */
-@media (min-width: 1024px) {
-  .pool-context-inline {
-    font-size: var(--font-size-xs);
-    line-height: 1.3;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
+  font-size: 13px;
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text-secondary);
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .pool-apy-section {
@@ -3142,37 +4104,8 @@ html {
   }
 }
 
-/* Enhanced APY hero styling with shimmer effect */
-.pool-apy-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg,
-      transparent 0%,
-      rgba(255, 255, 255, 0.1) 50%,
-      transparent 100%);
-  transition: left 0.6s ease;
-}
-
-.pool-card:hover .pool-apy-hero::before {
-  left: 100%;
-}
-
-/* Protocol chain badge styling */
-.pool-context-inline::before {
-  content: '';
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--color-secondary-blue);
-  margin-right: var(--space-2);
-}
-
-/* Enhanced trustworthiness indicators */
+/* Enhanced trustworthiness indicators -- dead weight kept inert (opacity: 0,
+   no attribute ever sets data-pool-type); left as-is, out of this round's scope. */
 .pool-left-section::after {
   content: attr(data-pool-type);
   position: absolute;
@@ -3183,59 +4116,14 @@ html {
   font-size: 10px;
   font-weight: var(--font-weight-bold);
   padding: var(--space-1) var(--space-4);
-  border-radius: var(--neuro-radius-md);
+  border-radius: var(--ui-radius-md);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   opacity: 0;
   transform: scale(0.8);
   transition: all 0.3s ease;
-}
-
-
-
-/* Risk assessment visual indicators */
-
-
-
-
-
-
-/* TVL confidence indicators */
-
-
-
-
-
-
-/* Enhanced typography hierarchy for financial data */
-.pool-apy-hero {
-  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-  font-feature-settings: 'tnum' 1, 'kern' 1;
-  font-variant-numeric: tabular-nums;
-
-  box-shadow: var(--neuro-shadow-pressed) !important;
-  background: var(--neuro-bg);
-  border-radius: var(--neuro-radius-lg);
-  padding: 8px 16px;
-
-  background: var(--color-surface) !important;
-  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
-}
-
-.tvl-value,
-.pool-apy-preview {
-  font-feature-settings: 'tnum' 1, 'kern' 1;
-  font-variant-numeric: tabular-nums;
-}
-
-/* Accessibility improvements */
-@media (prefers-reduced-motion: reduce) {
-
-  .pool-apy-hero::before,
-  .calculate-yield-btn-new::before {
-    display: none;
-  }
 }
 
 /* Focus states for accessibility */
@@ -3249,98 +4137,57 @@ html {
   outline-offset: 2px;
 }
 
-/* Enhanced TVL section styling with horizontal layout */
-.pool-tvl-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--color-surface);
-  border: none;
-  padding: var(--space-8) var(--space-12);
-  margin: var(--space-12) 0;
-  transition: all 0.3s ease;
-  border-radius: var(--neuro-radius-md);
-  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
-}
-
-.pool-tvl-section:hover {
-  background: var(--color-surface);
-}
-
+/* 225 round 3 (a): TVL -- 14px, secondary-strong, tabular-nums. Consolidated
+   from what were three drifted duplicate .tvl-label/.tvl-value/
+   .pool-tvl-section definitions (later one always won the cascade; this is
+   the one design now, not three). */
 .tvl-label {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-medium);
   color: var(--color-text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  /* 225 round 3b: badge-style transform/tracking dropped (sentence-case
+     rule) — the string itself is the acronym "TVL", so no visual change to
+     the acronym, but the rule can no longer shout at future label copy. */
+  text-transform: none;
+  letter-spacing: normal;
   opacity: 0.8;
 }
 
 .tvl-value {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-black);
-  color: var(--color-text);
-  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, monospace;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
   font-variant-numeric: tabular-nums;
+  line-height: 1.2;
 }
 
-/* TVL tier-based border styling */
-
-
-
-
-
-
-/* Daily earnings preview enhancement */
+/* 225 round 3 (a): $/day preview -- 12px secondary text, tabular-nums, no
+   pill/border/blue. */
 .pool-apy-preview {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-bold);
+  font-size: 12px;
+  font-weight: var(--font-weight-normal);
   color: var(--color-text-secondary);
-  background: var(--color-surface);
-  border: 1px solid rgba(59, 130, 246, 0.1);
-  padding: var(--space-4) var(--space-8);
-  border-radius: var(--neuro-radius-sm);
-  opacity: 0.9;
-  transition: all 0.3s ease;
-  margin-top: var(--space-2);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
 }
 
-.pool-card:hover .pool-apy-preview {
-  background: var(--color-surface);
-  opacity: 1;
-  color: var(--color-primary);
-}
-
-/* No-supply-yield honest tag (092) — calmer than the daily-earnings preview */
+/* No-supply-yield honest tag (092) -- 225 round 3 (a): plain 13px secondary
+   text, no pill. */
 .pool-apy-tag {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
+  font-size: 13px;
+  font-weight: var(--font-weight-normal);
   color: var(--color-text-secondary);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  padding: var(--space-4) var(--space-8);
-  border-radius: var(--neuro-radius-sm);
-  opacity: 0.85;
-  margin-top: var(--space-2);
   white-space: nowrap;
 }
 
-/* Risk-based top border indicators */
-
-
-
-
-
-
-/* Ghost affordance CTA for card "View & calculate" */
+/* Ghost affordance CTA for card "View & calculate" --
+   height/padding/border-radius/font owned by the shared primary-button rule, style.css end
+   (list view overrides this to a quiet 13px/500 link -- see .pools-list
+   .pool-cta-section .calculate-yield-btn-new above). */
 .calculate-yield-btn-new {
   background: transparent;
   box-shadow: none;
   color: var(--color-primary);
-  font-weight: 600;
-  font-size: var(--font-size-sm);
-  padding: var(--space-8) var(--space-16);
-  border-radius: var(--neuro-radius-md);
   border: none;
   cursor: pointer;
   width: 100%;
@@ -3356,7 +4203,6 @@ html {
 
 .calculate-yield-btn-new:hover {
   background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-subtle);
   transform: none;
 }
 
@@ -3364,67 +4210,16 @@ html {
   /* press-physics rule in the global block handles this */
 }
 
+/* 225 round 3 (a): APY -- 16px/600, body family, tabular-nums, plain text
+   (no pill/background/border/glow/shimmer). Consolidated from what were two
+   drifted duplicate .pool-apy-hero definitions plus a shimmer ::before and a
+   hover-triggered pill (both removed). */
 .pool-apy-hero {
-  font-size: 36px;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: var(--color-primary);
-  background: var(--neuro-bg);
-  padding: var(--space-16) var(--space-24);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-pressed), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  transition: all 0.3s ease;
-  line-height: 0.9;
-  position: relative;
-  overflow: hidden;
-
-  box-shadow: var(--neuro-shadow-pressed) !important;
-  background: var(--neuro-bg);
-  border-radius: var(--neuro-radius-lg);
-  padding: 8px 16px;
-
-  background: var(--color-surface) !important;
-  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
-}
-
-/* Smaller APY display for desktop compact cards */
-@media (min-width: 1024px) {
-  .pool-apy-hero {
-    font-size: var(--font-size-xl);
-    padding: var(--space-6) var(--space-12);
-    border-radius: var(--neuro-radius-sm);
-
-    box-shadow: var(--neuro-shadow-pressed) !important;
-    background: var(--neuro-bg);
-    border-radius: var(--neuro-radius-lg);
-    padding: 8px 16px;
-
-    background: var(--color-surface) !important;
-    box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
-  }
-}
-
-.pool-apy-preview {
-  font-size: var(--font-size-sm);
-  color: var(--color-primary);
-  font-weight: var(--font-weight-bold);
-  opacity: 0.8;
-  transition: all 0.3s ease;
-  line-height: 1;
-  padding: var(--space-2) var(--space-8);
-  text-align: right;
-  background: rgba(59, 130, 246, 0.1);
-  border-radius: var(--neuro-radius-sm);
-  border: 1px solid rgba(59, 130, 246, 0.2);
-  margin-right: var(--space-8);
-}
-
-/* Adjust preview text for desktop compact cards */
-@media (min-width: 1024px) {
-  .pool-apy-preview {
-    font-size: var(--font-size-xs);
-    padding-right: var(--space-12);
-  }
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
 }
 
 /* Context Bar - Protocol + Chain */
@@ -3468,46 +4263,6 @@ html {
   margin-left: var(--space-4);
 }
 
-/* TVL Section */
-.pool-tvl-section {
-  background: var(--color-background);
-  padding: var(--space-10) var(--space-12);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-subtle);
-  margin-bottom: var(--space-16);
-  transition: all 0.3s ease;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: none;
-
-  box-shadow: var(--neuro-shadow-pressed) !important;
-  background: var(--neuro-bg);
-  border-radius: var(--neuro-radius-md);
-
-  background: var(--color-surface) !important;
-  border-radius: var(--neuro-radius-md);
-  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
-}
-
-.tvl-label {
-  font-size: var(--font-size-xs);
-  color: var(--color-text-secondary);
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 0;
-}
-
-.tvl-value {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-black);
-  color: var(--color-text);
-  margin: 0;
-  line-height: 1;
-  font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-}
-
 /* Progressive Disclosure - APY Breakdown */
 .pool-details-expanded {
   opacity: 0;
@@ -3517,8 +4272,9 @@ html {
   margin-bottom: var(--space-16);
   padding: 0 var(--space-16);
   background: var(--color-background);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-subtle);
+  border-radius: var(--ui-radius-sm);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .pool-card:hover .pool-details-expanded {
@@ -3545,8 +4301,9 @@ html {
   font-weight: var(--font-weight-bold);
   background: var(--color-background);
   padding: var(--space-2) var(--space-6);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-subtle);
+  border-radius: var(--ui-radius-sm);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 
@@ -3561,22 +4318,25 @@ html {
   border: none;
   background: var(--color-background);
   color: var(--color-primary);
-  border-radius: var(--neuro-radius-md);
+  border-radius: var(--ui-radius-md);
   cursor: pointer;
   transition: all 0.2s ease;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .calculate-yield-btn:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
   color: var(--color-forest);
 }
 
 .calculate-yield-btn:active {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: translateY(0);
 }
 
@@ -3598,13 +4358,14 @@ html {
 /* Yield Calculator Modal */
 .yield-calculator-modal {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-32);
   max-width: 500px;
   width: 90%;
   max-height: 90vh;
   overflow-y: auto;
-  box-shadow: var(--neuro-shadow-raised), 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--ui-shadow-overlay);
+  border: 1px solid var(--ui-border);
   position: relative;
 }
 
@@ -3638,17 +4399,20 @@ html {
   font-size: var(--font-size-xl);
   color: var(--color-text-secondary);
   transition: all 0.2s ease;
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .modal-close:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   color: var(--color-red-500);
   transform: scale(1.05);
 }
 
 .modal-close:active {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: scale(0.95);
 }
 
@@ -3662,9 +4426,11 @@ html {
 /* Pool Info Section */
 .pool-info {
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   padding: var(--space-20);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  box-shadow: none;
   display: flex;
   flex-direction: column;
   gap: var(--space-12);
@@ -3692,16 +4458,18 @@ html {
   color: var(--color-primary);
   background: var(--color-background);
   padding: var(--space-4) var(--space-8);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-subtle);
+  border-radius: var(--ui-radius-sm);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .pool-info-item .value.token-pair {
   color: var(--color-text);
   background: var(--color-background);
   padding: var(--space-4) var(--space-8);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-subtle);
+  border-radius: var(--ui-radius-sm);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   font-family: monospace;
   font-weight: var(--font-weight-bold);
 }
@@ -3722,18 +4490,21 @@ html {
 .amount-input {
   padding: var(--space-16);
   border: none;
-  border-radius: var(--neuro-radius-md);
+  border-radius: var(--ui-radius-md);
   background: var(--color-background);
   color: var(--color-text);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  box-shadow: none;
   outline: none;
   transition: all 0.2s ease;
 }
 
 .amount-input:focus {
-  box-shadow: var(--neuro-shadow-pressed), 0 0 0 3px rgba(59, 130, 246, 0.2);
+  border-color: var(--ui-accent);
+  box-shadow: var(--ui-focus-ring);
 }
 
 /* Yield Results */
@@ -3749,8 +4520,9 @@ html {
   align-items: center;
   padding: var(--space-16) var(--space-20);
   background: var(--color-background);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-subtle);
+  border-radius: var(--ui-radius-md);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .yield-period {
@@ -3765,8 +4537,10 @@ html {
   color: var(--color-primary);
   background: var(--color-background);
   padding: var(--space-6) var(--space-12);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-pressed);
+  border-radius: var(--ui-radius-sm);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  box-shadow: none;
 }
 
 .yield-disclaimer {
@@ -3777,8 +4551,9 @@ html {
   margin-top: var(--space-8);
   padding: var(--space-8);
   background: var(--color-background);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-subtle);
+  border-radius: var(--ui-radius-sm);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 /* Start Earning Section */
@@ -3789,15 +4564,15 @@ html {
 
 .start-earning-btn {
   padding: var(--space-16) var(--space-32);
-  border: none;
+  border: 1px solid transparent;
   background: var(--color-primary);
   color: white;
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-bold);
-  box-shadow: var(--neuro-shadow-raised);
+  box-shadow: none;
   position: relative;
   overflow: hidden;
   text-transform: uppercase;
@@ -3805,12 +4580,13 @@ html {
 }
 
 .start-earning-btn:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  background: var(--color-primary-hover);
 }
 
 .start-earning-btn:active {
   transform: translateY(1px);
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--color-primary-active);
 }
 
 .start-earning-btn::before {
@@ -3855,73 +4631,70 @@ html {
     font-size: var(--font-size-sm);
   }
 
-  /* New Layout Mobile Styles */
-  .pool-symbol {
-    font-size: var(--font-size-lg);
-  }
+  /* New Layout Mobile Styles — 225 round 3 (a): this block used to
+     reintroduce the pill/border/background/box-shadow treatment on
+     .pool-apy-hero/.pool-tvl-section at <=640px, silently undoing the
+     plain-text redesign above (equal specificity, later in source order —
+     it always won at this width). Sizes for .pool-symbol/.pool-context-
+     inline/.pool-apy-preview/.tvl-value are now constant across breakpoints
+     by design (see the base rules above), so those overrides are dropped
+     too; what remains is scoped to .pools-grid only — list view (default)
+     owns its own <=767px layout above and must stay plain text at every
+     width. */
+  /* 225 round 3b: the <=640px APY size bump is gone — .pool-apy-hero is a
+     constant 16px/600 tabular in BOTH views at every width, per the
+     round-3a "sizes constant across breakpoints" contract above. */
 
-  .pool-context-inline {
-    font-size: var(--font-size-xs);
-  }
-
-  .pool-apy-hero {
-    font-size: var(--font-size-xl);
-    padding: var(--space-6) var(--space-12);
-
-    box-shadow: var(--neuro-shadow-pressed) !important;
-    background: var(--neuro-bg);
-    border-radius: var(--neuro-radius-lg);
-    padding: 8px 16px;
-
-    background: var(--color-surface) !important;
-    box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
-  }
-
-  .pool-apy-preview {
-    font-size: var(--font-size-xs);
-  }
-
-  .pool-tvl-section {
-    padding: var(--space-8);
+  .pools-grid .pool-tvl-section {
+    padding: var(--space-8) 0;
     margin-bottom: var(--space-16);
-
-    box-shadow: var(--neuro-shadow-pressed) !important;
-    background: var(--neuro-bg);
-    border-radius: var(--neuro-radius-md);
-
-    background: var(--color-surface) !important;
-    border-radius: var(--neuro-radius-md);
-    box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
-  }
-
-  .tvl-value {
-    font-size: var(--font-size-base);
   }
 
   .calculate-yield-btn-new {
-    padding: var(--space-8) var(--space-16);
-    font-size: var(--font-size-sm);
-    font-weight: 600;
+    /* height/padding/font owned by the shared primary-button rule (style.css end) */
     text-transform: none;
     letter-spacing: normal;
   }
 }
 
+/* Backlog 222: the STANDALONE `.theme-toggle`/`.language-toggle` pair below
+   (`app.js:3143/3153`) render unconditionally as direct children of `.app`
+   — on the analytics homepage (`.app:not(.has-results)`) that's correct,
+   it's their only home there (no header renders on the homepage). On a
+   RESULTS page (`.app.has-results`, the `?token=`/`?chain=` surface every
+   SEO lander resolves to) the header above ALSO renders its own theme/
+   language buttons (`app.js:3057/3062`, fixed in place by the reset near
+   `.app-control-btn` above) — so this standalone pair becomes a live
+   SECOND copy: buried under the fixed `.app-header-sticky` at <=640px
+   (mobile's `.app:not(.has-results) .theme-toggle` fixed-position override,
+   style.css:4419 below, never matches on a results page by construction,
+   since `has-results` and `:not(.has-results)` are mutually exclusive) and
+   painted-over duplicate chrome at >=641px. Hide it, scoped to
+   `.has-results` only, so `.app:not(.has-results)` — the homepage, which
+   has no header to fall back on — is untouched (spec 222 criterion 8's
+   guard). The `>` child combinator matters: the header's buttons are
+   GRANDchildren of `.app` (via `.app-header-sticky` >
+   `.app-header-content` > `.app-header-controls`), so a descendant
+   selector here would also hide them; `>` restricts this to the two
+   direct-child standalone buttons only, never the header pair this fix
+   keeps working. */
+.app.has-results > .theme-toggle,
+.app.has-results > .language-toggle {
+  display: none;
+}
+
 /* Dark Mode Toggle Styles */
 .theme-toggle {
+  /* width/height/padding/border-radius owned by the shared icon-only-button rule, style.css end */
   position: fixed;
   top: var(--space-20);
   right: var(--space-20);
   z-index: 1000;
-  display: flex;
-  align-items: center;
   gap: var(--space-8);
   background: var(--color-background);
-  border-radius: var(--radius-full);
-  padding: var(--space-8);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   transition: all var(--duration-normal) var(--ease-standard);
-  border: none;
   cursor: pointer;
 }
 
@@ -3936,12 +4709,14 @@ html {
 }
 
 .theme-toggle:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
 .theme-toggle:active {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: translateY(0);
 }
 
@@ -3955,55 +4730,24 @@ html {
   transition: transform var(--duration-normal) var(--ease-standard);
 }
 
-.theme-toggle-switch {
-  position: relative;
-  width: 48px;
-  height: 24px;
-  background: var(--color-surface);
-  border-radius: var(--radius-full);
-  box-shadow: var(--neuro-shadow-pressed);
-  transition: all var(--duration-normal) var(--ease-standard);
-}
-
-.theme-toggle-handle {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 20px;
-  height: 20px;
-  background: var(--color-background);
-  border-radius: 50%;
-  box-shadow: var(--neuro-shadow-subtle);
-  transition: all var(--duration-normal) var(--ease-standard);
-}
-
-.theme-toggle[data-theme="dark"] .theme-toggle-handle {
-  left: 26px;
-  background: var(--color-primary);
-}
-
-.theme-toggle[data-theme="dark"] .theme-toggle-switch {
-  background: var(--color-secondary);
-}
-
-/* .theme-toggle-text removed — icon reflects current state, no text label needed */
+/* .theme-toggle-text removed — icon reflects current state, no text label needed.
+   225 round 3b: .theme-toggle-switch/.theme-toggle-handle rules removed too —
+   the standalone toggle no longer renders the 48px switch (it overflowed the
+   40px icon-only box and clipped off the viewport edge at right: 20px). */
 
 /* Language Toggle Styles */
 .language-toggle {
+  /* width/height/border-radius owned by the shared icon-only-button rule, style.css end */
   position: fixed;
   top: var(--space-20);
-  right: calc(var(--space-20) + 200px);
-  /* Position next to theme toggle */
+  right: calc(var(--space-20) + var(--ui-control-h) + var(--space-8));
+  /* 225 round 3b: sits 8px left of the now-40px icon-only theme toggle
+     (the old +200px offset was sized for the removed icon+switch pill and
+     left a dead 200px gap) */
   z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
   background: var(--color-background);
-  border-radius: var(--radius-full);
-  box-shadow: var(--neuro-shadow-subtle);
-  border: none;
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   cursor: pointer;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
@@ -4013,13 +4757,15 @@ html {
 }
 
 .language-toggle:hover {
-  box-shadow: var(--neuro-shadow-flat);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
   background: var(--color-surface);
 }
 
 .language-toggle:active {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: translateY(0);
 }
 
@@ -4028,26 +4774,24 @@ html {
   .language-toggle {
     position: fixed;
     top: var(--space-20);
-    right: calc(var(--space-20) + 200px);
+    right: calc(var(--space-20) + var(--ui-control-h) + var(--space-8));
   }
 }
 
-/* Mobile Responsive for Language Toggle */
+/* Mobile Responsive for Language Toggle — size owned by the shared
+   icon-only-button rule (style.css end); no responsive shape variant. */
 @media (max-width: 640px) {
   .language-toggle {
     position: static;
     margin: var(--space-16) var(--space-16) var(--space-8) 0;
-    width: 40px;
-    height: 40px;
   }
 
   /* Fix toggle position on mobile initial homepage state only */
   .app:not(.has-results) .language-toggle {
     position: fixed;
     top: var(--space-20);
-    right: calc(var(--space-20) + 140px);
-    width: 40px;
-    height: 40px;
+    /* 225 round 3b: same 8px-left-of-toggle offset as desktop */
+    right: calc(var(--space-20) + var(--ui-control-h) + var(--space-8));
     margin: 0;
   }
 }
@@ -4056,8 +4800,6 @@ html {
 @media (max-width: 480px) {
   .language-toggle {
     margin: var(--space-12) var(--space-12) var(--space-6) 0;
-    width: 36px;
-    height: 36px;
     font-size: var(--font-size-xs);
   }
 
@@ -4065,9 +4807,8 @@ html {
   .app:not(.has-results) .language-toggle {
     position: fixed;
     top: var(--space-16);
-    right: calc(var(--space-16) + 120px);
-    width: 36px;
-    height: 36px;
+    /* 225 round 3b: toggle sits at right: 16px at this width */
+    right: calc(var(--space-16) + var(--ui-control-h) + var(--space-8));
     margin: 0;
   }
 }
@@ -4099,14 +4840,40 @@ html {
   --color-bg-8: rgba(8, 145, 178, 0.15);
   /* Dark cyan */
 
-  /* Semantic Color Tokens (Dark Mode) */
-  --color-background: #1B191E;
-  --color-surface: #211F24;
-  --color-text: #F3F1F4;
-  --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
-  --color-primary: #3B82F6;
-  --color-primary-hover: #1CB853;
-  --color-primary-active: #189845;
+  /* 247 world "The Certificate" — dark ramp (the plate); kept in sync with
+     the prefers-color-scheme block above. */
+  --ui-bg:               #0F1613;
+  --ui-surface:          #16211A;
+  --ui-surface-muted:    #0A100C;
+  --ui-surface-sunken:   #0A100C;
+  --ui-border:           #26332B;
+  --ui-border-strong:    #415247;
+  --ui-row-border:       #415247; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
+  --ui-text:             #E6EDE4;
+  --ui-text-secondary:   #A9B7A9;
+  --ui-text-muted:       #83937F;
+  --ui-accent:           #7CC9A0;
+  --ui-accent-hover:     #93D6B2;
+  --ui-accent-active:    #66B78D;
+  --ui-accent-soft:      rgba(124, 201, 160, 0.2);
+  --ui-accent-border:    rgba(124, 201, 160, 0.30);
+  --ui-accent-margin:    rgba(124, 201, 160, 0.12);
+  --ui-accent-watermark: rgba(124, 201, 160, 0.055);
+  --ui-on-accent:        #0B1B13;
+  --ui-positive:         #7CC9A0;
+  --ui-warning:          #D9A05B;
+  --ui-danger:           #E58A80;
+  --ui-focus-ring:       0 0 0 3px rgba(124, 201, 160, 0.4);
+  --ui-shadow-overlay:   0 10px 28px rgba(0, 0, 0, 0.45);
+
+  /* Semantic Color Tokens (Dark Mode) — 225: repointed at the flat token layer */
+  --color-background: var(--ui-bg);
+  --color-surface: var(--ui-surface);
+  --color-text: var(--ui-text);
+  --color-text-secondary: var(--ui-text-secondary);
+  --color-primary: var(--ui-accent);
+  --color-primary-hover: var(--ui-accent-hover);
+  --color-primary-active: var(--ui-accent-active);
   --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
   --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
   --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
@@ -4130,103 +4897,93 @@ html {
   --focus-outline: 2px solid var(--color-primary);
   --status-bg-opacity: 0.15;
   --status-border-opacity: 0.25;
-
-  /* Dark Mode Neumorphic Shadows (Soft, Quiet Depth) */
-  --neuro-shadow-dark: #141317;
-  --neuro-shadow-light: #2E2B31;
-  --neuro-shadow-raised: 4px 4px 10px var(--neuro-shadow-dark), -4px -4px 10px var(--neuro-shadow-light), inset 1px 1px 1px rgba(255, 255, 255, 0.06);
-  --neuro-shadow-pressed: inset 3px 3px 7px var(--neuro-shadow-dark), inset -3px -3px 7px var(--neuro-shadow-light);
-  --neuro-shadow-flat: 3px 3px 8px var(--neuro-shadow-dark), -3px -3px 8px var(--neuro-shadow-light);
-  --neuro-shadow-subtle: 2px 2px 5px var(--neuro-shadow-dark), -2px -2px 5px var(--neuro-shadow-light);
 }
 
 /* Search Buttons */
+/* 225 round 3c: the two modes sit tight under the search control (they
+   parameterize it); the planner cross-link below gets the generous gap —
+   two intervals, two meanings. */
 .search-buttons {
   display: flex;
-  gap: var(--space-16);
-  margin-top: var(--space-20);
-  padding: var(--space-16);
+  gap: var(--space-12);
+  margin-top: var(--space-16);
+  padding: 0;
   justify-content: center;
+  width: 100%;
 }
 
+/* 225 round 3b: both search-state buttons are Quiet secondary controls —
+   system height/radius (control-h / radius-md), neutral surface, 1px border,
+   sentence case. Hover is a border step only (no lift). */
 .search-button {
   display: flex;
   align-items: center;
   gap: var(--space-8);
-  padding: var(--space-16) var(--space-24);
+  height: var(--ui-control-h);
+  min-height: var(--ui-control-h);
+  padding: 0 var(--space-20);
   border: none;
   background: var(--color-background);
   color: var(--color-text);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-md);
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: border-color 0.2s ease, background 0.2s ease;
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   min-width: 160px;
   justify-content: center;
   text-transform: none;
 }
 
 .search-button:hover:not(:disabled) {
-  box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(-2px);
+  border-color: var(--ui-border-strong);
 }
 
 .search-button:active:not(:disabled) {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: translateY(0);
 }
 
 .search-button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .search-button.disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
+/* 225 round 3b: degen entry stays a first-class feature (its ⅓-haircut
+   honesty rail is untouched) but drops the gradient fill, uppercase badge
+   case, shimmer sweep, and lift hover — it is a Quiet secondary control like
+   its sibling, not the loudest element on a trust-first surface. */
 .search-button.feeling-degen {
-  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-active));
-  color: white;
-  font-weight: var(--font-weight-bold);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  /* Extreme neumorphic button */
-  box-shadow: 8px 8px 16px var(--neuro-shadow-dark), -8px -8px 16px var(--neuro-shadow-light), inset 1px 1px 3px rgba(255, 255, 255, 0.3), inset -1px -1px 3px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  position: relative;
-  overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.search-button.feeling-degen::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
-  transition: left 0.5s ease;
-}
-
-.search-button.feeling-degen:hover::before {
-  left: 100%;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: normal;
+  text-transform: none;
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .search-button.feeling-degen:hover {
-  transform: translateY(-2px);
-  box-shadow: 12px 12px 20px var(--neuro-shadow-dark), -12px -12px 20px var(--neuro-shadow-light), inset 1px 1px 4px rgba(255, 255, 255, 0.5), inset -1px -1px 4px rgba(0, 0, 0, 0.2);
+  border-color: var(--ui-border-strong);
 }
 
 .search-button.feeling-degen:active {
-  transform: translateY(2px);
-  box-shadow: inset 8px 8px 16px rgba(0, 0, 0, 0.3), inset -8px -8px 16px rgba(255, 255, 255, 0.15);
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
+  box-shadow: none;
 }
 
 .button-icon {
@@ -4239,34 +4996,38 @@ html {
   font-weight: var(--font-weight-semibold);
 }
 
-/* Garden Planner entry — warm goal-first invitation under the search buttons */
+/* Garden Planner entry — warm goal-first invitation, a clearly separate
+   region below the search set (225 round 3c: generous 32px interval). */
 .planner-entry {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: var(--space-8);
-  margin: var(--space-8) auto 0;
+  margin: var(--space-32) auto 0;
   padding: var(--space-16) var(--space-24);
   max-width: 460px;
   background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-subtle);
+  border-radius: var(--ui-radius-lg);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   color: var(--color-text);
   text-decoration: none;
   font-size: var(--font-size-base);
   line-height: var(--line-height-normal);
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
-    transform var(--duration-normal) var(--ease-standard);
+  transition: border-color var(--duration-normal) var(--ease-standard),
+    background var(--duration-normal) var(--ease-standard);
 }
 
 .planner-entry:hover {
-  box-shadow: var(--neuro-shadow-flat);
-  transform: translateY(-2px);
+  border-color: var(--ui-border-strong);
+  background: var(--ui-surface-muted);
 }
 
 .planner-entry:active {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: translateY(0);
 }
 
@@ -4285,30 +5046,27 @@ html {
   white-space: nowrap;
 }
 
-/* Mobile responsive for search buttons */
+/* Mobile responsive for search buttons — 225 round 3c: the two modes stay
+   one row (they are peers), each taking half the width; rhythm intervals
+   keep their two meanings (tight to the search, generous to the planner). */
 @media (max-width: 768px) {
   .search-buttons {
-    flex-direction: column;
     gap: var(--space-12);
     margin-top: var(--space-16);
-    padding: var(--space-8);
+    padding: 0;
   }
 
   .planner-entry {
-    margin-top: var(--space-4);
+    margin-top: var(--space-24);
     padding: var(--space-12) var(--space-16);
     font-size: var(--font-size-sm);
   }
 
   .search-button {
-    min-width: auto;
-    width: 100%;
-    padding: var(--space-16) var(--space-20);
+    min-width: 0;
+    flex: 1;
+    padding: 0 var(--space-12);
     font-size: var(--font-size-sm);
-  }
-
-  .button-icon {
-    font-size: var(--font-size-base);
   }
 }
 
@@ -4338,20 +5096,7 @@ html {
     font-size: 14px;
   }
 
-  .theme-toggle-switch {
-    width: 40px;
-    height: 20px;
-  }
-
-  .theme-toggle-handle {
-    width: 16px;
-    height: 16px;
-  }
-
-  .theme-toggle[data-theme="dark"] .theme-toggle-handle {
-    left: 22px;
-  }
-
+  /* 225 round 3b: switch/handle responsive variants removed with the element */
 }
 
 /* Extra small screens - compact mobile toggle */
@@ -4378,22 +5123,7 @@ html {
     font-size: 12px;
   }
 
-  .theme-toggle-switch {
-    width: 36px;
-    height: 18px;
-  }
-
-  .theme-toggle-handle {
-    width: 14px;
-    height: 14px;
-    top: 2px;
-    left: 2px;
-  }
-
-  .theme-toggle[data-theme="dark"] .theme-toggle-handle {
-    left: 20px;
-  }
-
+  /* 225 round 3b: switch/handle responsive variants removed with the element */
 }
 
 
@@ -4478,15 +5208,22 @@ html {
 .search-input {
   transition: all 300ms var(--entry-easing);
 
-  box-shadow: var(--neuro-shadow-pressed);
-  background: var(--neuro-bg);
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  box-shadow: none;
+  background: var(--ui-surface);
 
   background: var(--color-surface) !important;
-  box-shadow: inset 4px 4px 10px var(--neuro-shadow-dark), inset -4px -4px 10px var(--neuro-shadow-light) !important;
+  background: var(--ui-surface);
+  border: 1px solid var(--ui-border-strong);
+  box-shadow: none;
 }
 
+/* 225 round 3b: matches the base single-ring focus rule (this later
+   duplicate is what actually wins the cascade — keep the two in sync). */
 .search-input:focus {
-  box-shadow: var(--neuro-shadow-pressed);
+  border-color: var(--ui-accent);
+  box-shadow: 0 0 0 1px var(--ui-accent);
 }
 
 /* Filters section animations */
@@ -4587,7 +5324,7 @@ html {
       var(--color-secondary) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
 }
 
 @keyframes shimmer {
@@ -4640,14 +5377,6 @@ html {
 /* Theme toggle animations */
 .theme-toggle {
   transition: all 300ms var(--entry-easing);
-}
-
-.theme-toggle:hover {
-  transform: scale(1.05);
-}
-
-.theme-toggle-handle {
-  transition: transform 300ms var(--entry-easing);
 }
 
 /* Enhanced Horizontal Scrolling Filter Styles with Improved UX */
@@ -4749,30 +5478,23 @@ html {
   scroll-snap-align: start;
 }
 
-/* Filter Pills - Clean Neumorphic Style */
+/* Filter Pills - height/padding/border-radius/font owned by the shared chip rule, style.css end */
 .filter-pill {
   flex-shrink: 0;
-  padding: var(--space-8) var(--space-16);
   border: none;
-  border-radius: var(--neuro-radius-md);
   background: var(--color-surface);
   color: var(--color-text);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   transition: all 0.2s ease;
   cursor: pointer;
   white-space: nowrap;
   position: relative;
-  min-height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Hover state - Subtle lift */
 .filter-pill:hover:not(.active) {
-  box-shadow: var(--neuro-shadow-subtle);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
@@ -4782,26 +5504,50 @@ html {
   box-shadow: var(--focus-ring);
 }
 
-/* General filter pill active state - raised when selected */
+/* Filled-primary selected state (spec 111 exception — filter-dropdown chip family). */
 .filter-pill.active {
-  background: var(--color-primary);
-  color: white;
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
+  box-shadow: none;
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
+}
+
+.filter-pill.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.filter-pill.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 .chain-pill {
   position: relative;
 }
 
-/* Chain pills use brand colors when active - raised when selected */
+/* Chain pills: same filled-primary exception as .filter-pill.active above. */
 .chain-pill.active {
-  background: var(--chain-color, var(--color-primary));
-  color: white;
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-accent);
+  border: 1px solid var(--ui-accent);
+  color: var(--ui-on-accent);
+  box-shadow: none;
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
+}
+
+.chain-pill.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.chain-pill.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 /* Enhanced Pool Type Buttons Container */
@@ -4827,30 +5573,24 @@ html {
   scroll-snap-align: start;
 }
 
+/* height/padding/border-radius/font owned by the shared chip rule, style.css end */
 .filter-button {
   flex-shrink: 0;
-  padding: var(--space-8) var(--space-16);
   border: none;
-  border-radius: var(--neuro-radius-md);
   background: var(--color-surface);
   color: var(--color-text);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   transition: all 0.2s ease;
   cursor: pointer;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: var(--space-8);
   white-space: nowrap;
-  min-height: 36px;
 }
 
 /* Inactive filter buttons hover */
 .filter-button:not(.active):hover {
-  box-shadow: var(--neuro-shadow-subtle);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
@@ -4858,7 +5598,10 @@ html {
 .filter-button.active {
   background: var(--color-primary);
   color: white;
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-accent-soft);
+  border-color: var(--ui-accent-border);
+  color: var(--ui-accent);
+  box-shadow: none;
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
 }
@@ -4901,7 +5644,7 @@ html {
   flex-shrink: 0;
   padding: var(--space-4) var(--space-8);
   background: transparent;
-  border-radius: var(--neuro-radius-sm);
+  border-radius: var(--ui-radius-sm);
   min-height: 32px;
   display: flex;
   align-items: center;
@@ -4923,37 +5666,44 @@ html {
   display: none;
 }
 
+/* height/padding/border-radius/font owned by the shared chip rule, style.css end */
 .filter-chip {
   flex-shrink: 0;
-  padding: var(--space-8) var(--space-16);
   border: none;
-  border-radius: var(--neuro-radius-md);
   background: var(--color-surface);
   color: var(--color-text);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  box-shadow: var(--neuro-shadow-subtle);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
   transition: all 0.2s ease;
   cursor: pointer;
   white-space: nowrap;
-  min-height: 36px;
-  display: flex;
-  align-items: center;
 }
 
 /* Inactive filter chips hover */
 .filter-chip:hover:not(.active) {
-  box-shadow: var(--neuro-shadow-subtle);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
-/* Active filter chips - clearly pressed */
+/* Filled-primary selected state (spec 111 exception — filter-dropdown chip family). */
 .filter-chip.active {
-  background: var(--color-primary);
-  color: white;
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+  color: var(--ui-on-accent);
+  box-shadow: none;
   font-weight: var(--font-weight-semibold);
   transform: translateY(0);
+}
+
+.filter-chip.active:hover {
+  background: var(--ui-accent-hover);
+  border-color: var(--ui-accent-hover);
+}
+
+.filter-chip.active:active {
+  background: var(--ui-accent-active);
+  border-color: var(--ui-accent-active);
+  transform: translateY(1px);
 }
 
 /* Mobile responsive for horizontal scrolling filters */
@@ -4982,19 +5732,8 @@ html {
     padding: var(--space-4) 0;
   }
 
-  .filter-pill,
-  .filter-button {
-    padding: var(--space-4) var(--space-10);
-    min-height: 36px;
-    /* Touch target size */
-    font-size: 11px;
-  }
-
-  .filter-chip {
-    padding: var(--space-3) var(--space-8);
-    min-height: 32px;
-    font-size: 10px;
-  }
+  /* .filter-pill/.filter-button/.filter-chip size owned by the shared chip
+     rule (style.css end); no responsive shape variant. */
 
   .filter-pills-container {
     gap: var(--space-8);
@@ -5011,27 +5750,6 @@ html {
     padding: var(--space-8) var(--space-12);
   }
 
-  .filter-chip {
-    padding: var(--space-12) var(--space-16);
-    font-size: var(--font-size-sm);
-    min-height: 44px;
-    border-radius: var(--neuro-radius-md);
-  }
-
-  .filter-pill {
-    padding: var(--space-10) var(--space-16);
-    font-size: var(--font-size-sm);
-    min-height: 44px;
-    border-radius: var(--neuro-radius-md);
-  }
-
-  .filter-button {
-    padding: var(--space-10) var(--space-16);
-    font-size: var(--font-size-sm);
-    min-height: 44px;
-    border-radius: var(--neuro-radius-md);
-  }
-
   .value-filters-row {
     gap: var(--space-12);
   }
@@ -5039,7 +5757,7 @@ html {
   .filters-section {
     padding: var(--space-8);
     margin-bottom: var(--space-16);
-    border-radius: var(--neuro-radius-md);
+    border-radius: var(--ui-radius-md);
   }
 
   .value-filters-row {
@@ -5062,7 +5780,6 @@ html {
   .logo,
   .search-input,
   .theme-toggle,
-  .theme-toggle-handle,
   .language-toggle {
     animation: none !important;
     transition: none !important;
@@ -5070,6 +5787,18 @@ html {
 
   .animate-on-mount {
     opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* Filled-primary selected-chip press (spec 111 exception, see the
+     "Chip / pill" rules above) skips the 1px sink under reduced motion. */
+  .app-filter-btn.has-selection:active,
+  .global-filter-dropdown .filter-pill.active:active,
+  .global-filter-dropdown .filter-chip.active:active,
+  .filter-pill.active:active,
+  .chain-pill.active:active,
+  .filter-chip.active:active,
+  .pagination-button.active:active {
     transform: none !important;
   }
 }
@@ -5080,7 +5809,7 @@ html {
   align-items: center;
   justify-content: center;
   padding: var(--space-12) var(--space-24);
-  border-radius: var(--neuro-radius-lg);
+  border-radius: var(--ui-radius-lg);
   font-size: var(--font-size-base);
   font-weight: 600;
   line-height: 1.5;
@@ -5090,36 +5819,39 @@ html {
   text-decoration: none;
   background: var(--color-background);
   color: var(--color-text);
-  box-shadow: var(--neuro-shadow-flat);
+  box-shadow: none;
+  border: 1px solid var(--ui-border);
 }
 
 .btn:hover:not(:disabled) {
-  box-shadow: var(--neuro-shadow-raised);
+  border-color: var(--ui-border-strong);
   transform: translateY(-1px);
 }
 
 .btn:active:not(:disabled) {
-  box-shadow: var(--neuro-shadow-pressed);
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transform: translateY(1px);
   transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn--primary {
   background: var(--color-primary) !important;
-  color: #FFFFFF !important;
-  box-shadow: var(--neuro-shadow-raised) !important;
+  color: var(--ui-on-accent) !important;
+  box-shadow: none;
+  border: 1px solid transparent;
   font-weight: 600;
   transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn--primary:hover:not(:disabled) {
   background: var(--color-primary-hover) !important;
-  box-shadow: var(--neuro-shadow-flat) !important;
 }
 
 .btn--primary:active:not(:disabled) {
   background: var(--color-primary-active) !important;
-  box-shadow: var(--neuro-shadow-pressed) !important;
+  box-shadow: none;
   transform: translateY(1px);
   transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -5131,10 +5863,10 @@ html {
 .calculate-yield-btn-new:active,
 .start-earning-btn:active,
 .search-button:active,
-.google-search-button:active,
-.google-control-btn:active,
-.google-nav-tab:active,
-.google-filter-btn:active,
+.app-search-button:active,
+.app-control-btn:active,
+.app-nav-tab:active,
+.app-filter-btn:active,
 .view-toggle-btn:active,
 .theme-toggle:active,
 .language-toggle:active,
@@ -5142,17 +5874,49 @@ html {
 .filter-pill:active,
 .filter-chip:active {
   transform: translateY(1px) !important;
-  box-shadow: var(--neuro-shadow-pressed) !important;
+  box-shadow: none;
+  background: var(--ui-surface-muted);
+  transform: translateY(1px);
   transition: transform 80ms ease, box-shadow 80ms ease !important;
 }
 
-/* 2. Smooth Hover Elevation */
+/* Accessibility (item 225): the base press-physics rule above sinks every
+   one of these controls 1px on :active. Under reduced motion the press
+   must still be perceivable (background swap stays) but not animated/
+   moved, so the transform is neutralized here — same selector list as
+   the base rule, plus a few controls with their own local :active
+   transform (pool-card, reset-filters-btn, modal-close) that aren't
+   covered by the base rule's selector list. */
+@media (prefers-reduced-motion: reduce) {
+  .btn:active,
+  .calculate-yield-btn-new:active,
+  .start-earning-btn:active,
+  .search-button:active,
+  .app-search-button:active,
+  .app-control-btn:active,
+  .app-nav-tab:active,
+  .app-filter-btn:active,
+  .view-toggle-btn:active,
+  .theme-toggle:active,
+  .language-toggle:active,
+  .pagination-btn:active,
+  .filter-pill:active,
+  .filter-chip:active,
+  .pool-card:active,
+  .reset-filters-btn:active,
+  .modal-close:active {
+    transform: none !important;
+  }
+}
+
+/* 2. Smooth Hover Elevation
+   225 round 3b: .search-button and .calculate-yield-btn-new removed from
+   this lift list — Quiet hover on those controls is a border/color step
+   only (the lift fought the round-3a quiet-link treatment on every card). */
 .pool-card:hover,
 .pool-row:hover,
-.calculate-yield-btn-new:hover,
-.search-button:hover:not(:disabled),
-.google-nav-tab:hover:not(.active),
-.google-filter-btn:hover:not(.active),
+.app-nav-tab:hover:not(.active),
+.app-filter-btn:hover:not(.active),
 .theme-toggle:hover {
   transform: translateY(-2px);
   transition: transform 200ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 200ms cubic-bezier(0.25, 1, 0.5, 1) !important;
@@ -5227,8 +5991,8 @@ body,
 }
 
 .pool-card,
-.google-search-container,
-.google-header-sticky,
+.app-search-container,
+.app-header-sticky,
 .filter-pills-container,
 .modal-content {
   transition: transform 200ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 200ms cubic-bezier(0.25, 1, 0.5, 1), background-color 300ms ease, color 300ms ease, border-color 300ms ease;
@@ -5306,7 +6070,8 @@ body,
 }
 
 .amount-input:focus {
-  box-shadow: var(--neuro-shadow-pressed) !important;
+  border-color: var(--ui-accent);
+  box-shadow: var(--ui-focus-ring);
 }
 
 @keyframes yieldBounce {
@@ -5357,29 +6122,491 @@ body,
   background: none !important;
 }
 
-/* Detail header controls */
-.detail-header-btn {
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-full);
-  border: none;
-  background: var(--color-surface);
-  box-shadow: var(--neuro-shadow-subtle);
-  cursor: pointer;
-  font-size: 16px;
-  display: flex;
+/* ════════════════════════════════════════════════════════════════════════
+   225 §7 ADDENDUM — the ONE shared component block.
+   One owner across every file (round-1 root cause: three agents split by
+   file, each flattened its own surface, none owned the cross-surface
+   contract). This block is the single source of geometry — radius, height,
+   padding, font-size, font-weight — for every role in the §7.1 table.
+   A surface's own stylesheet may still own colour, background, border
+   COLOUR, and layout (flex/grid/gap/margin/max-width); it may never again
+   declare border-radius / height / min-height / padding / font-size /
+   font-weight for the selectors listed here — those declarations have been
+   removed from planner-styles.css, pool-detail-styles.css,
+   landing-styles.css and from earlier rules in this file. This block must
+   stay LAST in style.css so it is never shadowed by an earlier same-
+   specificity rule within this file; the later-loaded surface stylesheets
+   are handled by deleting their competing declarations instead (deleting,
+   not !important, per §7.2).
+
+   Exactly two shapes exist in the product: --ui-radius-md (12px) for any
+   control with a text label, --ui-radius-pill (999px) for icon-only
+   buttons and every chip. Heights come only from the four control-height
+   tokens plus the documented hero variants (48/56). ════════════════════ */
+
+/* ---------- Button, primary (text label, filled accent) ----------
+   Default: --ui-control-h. Hero (prominent single CTA): --ui-control-h-lg. */
+.gp-cta,
+.cta-button-primary,
+.app-search-button,
+.calculate-yield-btn-new,
+.gp-plan-capital-ok,
+.landing-garden-link,
+.landing-search-submit,
+.start-earning-btn {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: all var(--duration-normal) var(--ease-standard);
+  height: var(--ui-control-h);
+  min-height: var(--ui-control-h);
+  padding: 0 16px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-bold); /* 600 */
+  line-height: 1;
+  box-sizing: border-box;
 }
 
-.detail-header-btn:active {
-  box-shadow: var(--neuro-shadow-pressed) !important;
+/* Hero primary CTAs — the one prominent action on the surface. */
+.gp-primary-cta,
+.gp-waitlist-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--ui-control-h-lg);
+  min-height: var(--ui-control-h-lg);
+  padding: 0 24px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+/* ---------- Button, secondary — text-labelled (radius-md, control-h) ---------- */
+.cta-button-protocol,
+.reset-filters-btn,
+.pagination-button,
+.back-to-results-btn,
+.back-button,
+.gp-restart,
+.gp-my-garden-btn,
+.view-toggle-btn.sort-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--ui-control-h);
+  min-height: var(--ui-control-h);
+  padding: 0 16px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+/* ---------- Button, icon-only — SQUARE at control-h, always pill ---------- */
+.landing-icon-button,
+.landing-menu-button,
+.gp-analytics-btn,
+.gp-theme-toggle,
+.app-control-btn,
+.theme-toggle,
+.language-toggle,
+.view-toggle-btn:not(.sort-toggle-btn),
+.gp-text-send,
+.gp-ask-send {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--ui-control-h);
+  height: var(--ui-control-h);
+  min-width: var(--ui-control-h);
+  min-height: var(--ui-control-h);
+  padding: 0;
+  border-radius: var(--ui-radius-pill);
+  box-sizing: border-box;
+}
+
+/* ---------- Chip — certificate cut (3px), control-h-sm, control-h with an
+   icon. 247 world: chips left the pill shape with the rest of the app; only
+   round icon CONTROLS (the rule above) keep the circle. ---------- */
+.landing-example-chip,
+.gp-ask-chip,
+.filter-pill,
+.filter-chip,
+.filter-button,
+.quick-amount-btn,
+.chain-pill,
+.pool-type-badge,
+.pool-type-badge-hero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--ui-control-h-sm);
+  min-height: var(--ui-control-h-sm);
+  padding: 0 14px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: var(--font-weight-medium); /* 500 */
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+/* Chip variants that always carry an icon/logo — control-h instead of -sm. */
+.app-filter-btn,
+.gp-chip,
+.gp-persona-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--ui-control-h);
+  padding: 0 14px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+/* ---------- Text input / search — radius-md; control-h-lg, hero 56px ---------- */
+.gp-freetext,
+.gp-ask-form,
+.app-search-bar,
+.amount-input {
+  height: var(--ui-control-h-lg);
+  min-height: var(--ui-control-h-lg);
+  padding: 0 16px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  box-sizing: border-box;
+}
+
+/* Hero input — the one prominent search field on the landing page. */
+.landing-search-shell {
+  height: 56px;
+  min-height: 56px;
+  padding: 0 16px;
+  border-radius: var(--ui-radius-md);
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  box-sizing: border-box;
+}
+
+/* ---------- Card / panel — radius-lg; padding 20px, hero 24px ----------
+   225 round 3 increment (a): .pool-card/.results-header removed from this
+   group. Neither is used by any other surface (verified: zero matches in
+   pool-detail-styles.css/planner-styles.css/landing-styles.css), so this
+   group's cross-surface-consistency purpose doesn't apply to them — the grid
+   surface now owns their geometry directly (.results-panel is the single
+   16px-radius/1px-border card; .pool-card is a plain row in list view and
+   keeps a card look only in grid view). See the dedicated rules above. */
+.pool-info-section,
+.calculator-card,
+.gp-bubble,
+.gp-thread,
+.gp-plan-card {
+  border-radius: var(--ui-radius-lg);
+  padding: 20px;
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  box-sizing: border-box;
+}
+
+/* Hero cards — the one prominent panel on the surface. */
+.landing-garden-card,
+.pool-hero-card,
+.gp-waitlist-card {
+  border-radius: var(--ui-radius-lg);
+  padding: 24px;
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  box-sizing: border-box;
+}
+
+/* ---------- Header row — one flat row, --ui-header-h (52px <768px) ----------
+   The analytics grid stacks TWO rows (search row + nav-tabs row); each row
+   gets --ui-header-h so the total is ~112px — that is correct per §7,
+   not a bug to squeeze away. */
+.landing-header,
+.gp-header,
+.app-header-content,
+.app-nav-row {
+  height: var(--ui-header-h);
+  min-height: var(--ui-header-h);
+  max-height: var(--ui-header-h);
+  padding: 0 20px;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.app-header-sticky {
+  border-radius: 0;
+}
+/* ═══ 247 WORLD — CERTIFICATE BUTTON SKIN, APP-WIDE ══════════════════════
+   The pool-detail counterfoil buttons are the product's button voice; this
+   block re-skins every primary/secondary ACTION button to it (colors, 3px
+   certificate radius, the intaglio plate-mark keyline, darkening hover,
+   1px press). Sizes/paddings stay each button's own — the skin changes
+   look, not layout. Round icon CONTROLS (theme/lang toggles, gp-analytics)
+   and nav pills are deliberately excluded. Placed at end of file so it
+   outranks the earlier per-surface definitions at equal specificity. */
+.btn--primary,
+.landing-garden-link,
+.landing-search-submit,
+.app-search-button,
+.gp-primary-cta {
+  position: relative;
+  background: var(--ui-accent);
+  color: var(--ui-on-accent);
+  border: 1px solid var(--ui-accent-active);
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  transition: background 0.2s ease;
+}
+.btn--primary::after,
+.landing-garden-link::after,
+.landing-search-submit::after,
+.app-search-button::after,
+.gp-primary-cta::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--ui-on-accent);
+  border-radius: 1px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.btn--primary:hover:not(:disabled),
+.landing-garden-link:hover,
+.landing-search-submit:hover,
+.app-search-button:hover,
+.gp-primary-cta:hover {
+  background: var(--ui-accent-hover);
+  color: var(--ui-on-accent);
+  transform: none;
+}
+.btn--primary:active:not(:disabled),
+.landing-garden-link:active,
+.landing-search-submit:active,
+.app-search-button:active,
+.gp-primary-cta:active {
+  background: var(--ui-accent-active);
+  color: var(--ui-on-accent);
   transform: translateY(1px);
 }
+.btn--secondary {
+  background: var(--ui-surface);
+  color: var(--ui-text);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: 3px;
+  font-weight: 600;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.btn--secondary:hover {
+  color: var(--ui-accent);
+  border-color: var(--ui-accent);
+  background: var(--ui-surface);
+}
+.btn--secondary:active {
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
+}
+/* Generated SEO estate (/tokens, /chains, hubs, A–Z, KO twins). Those pages
+   bake their own <style> AFTER this stylesheet, so estate selectors here carry
+   one extra point of specificity (a.tp-cta, a[href]) to win the cascade —
+   covering every generated page without a regen. */
+a.tp-cta,
+a.cp-cta,
+a.hub-cta {
+  position: relative;
+  background: var(--ui-accent);
+  color: var(--ui-on-accent);
+  border: 1px solid var(--ui-accent-active);
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  transition: background 0.2s ease;
+}
+a.tp-cta::after,
+a.cp-cta::after,
+a.hub-cta::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--ui-on-accent);
+  border-radius: 1px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+a.tp-cta:hover,
+a.cp-cta:hover,
+a.hub-cta:hover {
+  background: var(--ui-accent-hover);
+  color: var(--ui-on-accent);
+}
+a.tp-cta:active,
+a.cp-cta:active,
+a.hub-cta:active {
+  background: var(--ui-accent-active);
+  color: var(--ui-on-accent);
+  transform: translateY(1px);
+}
+.related-links a[href],
+.hub-links a[href] {
+  background: var(--ui-surface);
+  color: var(--ui-text);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: 3px;
+  font-weight: 600;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.related-links a[href]:hover,
+.hub-links a[href]:hover {
+  color: var(--ui-accent);
+  border-color: var(--ui-accent);
+  background: var(--ui-surface);
+}
+.related-links a[href]:active,
+.hub-links a[href]:active {
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
+}
+@media (prefers-reduced-motion: reduce) {
+  a.tp-cta, a.cp-cta, a.hub-cta, .related-links a[href], .hub-links a[href] { transition: none; }
+  .btn--primary:active, .landing-garden-link:active, .landing-search-submit:active,
+  .app-search-button:active, .gp-primary-cta:active, .btn--secondary:active,
+  a.tp-cta:active, a.cp-cta:active, a.hub-cta:active,
+  .related-links a[href]:active, .hub-links a[href]:active { transform: none; }
+}
 
-.detail-header-controls {
-  display: flex;
-  gap: var(--space-8);
+/* ═══ 247 WORLD — ONE BRAND IDENTITY + ONE SWITCHER SKIN ═════════════════
+   The landing header's identity (leaf mark in a rounded-square tile +
+   18px/-0.03em wordmark) and its icon-button skin are the reference;
+   these rules put the same tile on the analytics grid (.app-brand-mark)
+   and the planner (.gp-brand-mark), and give the grid's theme/language
+   toggles the landing recipe. Placed at end of file so they outrank the
+   earlier .theme-toggle/.language-toggle color declarations at equal
+   specificity. */
+.app-brand-mark,
+.gp-brand-mark {
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  color: var(--color-primary);
+  background: var(--color-background);
+  border-radius: 12px;
+  border: 1px solid var(--ui-border);
+}
+.app-leaf-mark,
+.gp-leaf-mark { width: 22px; height: 22px; display: block; }
+.theme-toggle,
+.language-toggle {
+  border: 1px solid var(--ui-border);
+  background: var(--color-background);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: .02em;
+  transition: color var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard);
+}
+.theme-toggle { font-size: 18px; font-weight: var(--font-weight-normal); line-height: 1; }
+.theme-toggle:hover,
+.language-toggle:hover { color: var(--color-primary); border-color: var(--ui-border-strong); transform: none; }
+.theme-toggle:active,
+.language-toggle:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle:active, .language-toggle:active { transform: none; }
+}
+
+/* ═══ 247 WORLD — GENERATED ESTATE AS THE SAME SHEET ═════════════════════
+   /tokens, /chains, hubs, A–Z and KO twins: the baked page blocks only set
+   font-size/margin/color on their h2s and layout on their wraps, so these
+   non-conflicting declarations apply regardless of cascade order — no
+   regeneration needed. Headings join the Besley certificate voice; each
+   page wrap carries the same page-margin guilloché strands + watermark
+   rosette the app surfaces already have (primitives/keyframes: ORNAMENT
+   SYSTEM above; pseudos are fixed, so the 860px wrap doesn't clip them). */
+.tp-wrap h1, .cp-wrap h1, .hub-wrap h1 {
+  font-weight: 600;
+  letter-spacing: -.01em;
+}
+.tp-wrap h2, .cp-wrap h2, .hub-wrap h2 {
+  font-family: var(--font-family-display);
+  font-weight: 600;
+  letter-spacing: -.005em;
+}
+.tp-wrap, .cp-wrap, .hub-wrap {
+  position: relative;
+  isolation: isolate;
+  /* Certificate geometry: the baked page blocks size their cards/headline
+     boxes/FAQ items with var(--ui-radius-*) — rescoping the tokens on the
+     wrap squares every one of them (same trick as .gp-app), no regen. */
+  --ui-radius-sm: 3px;
+  --ui-radius-md: 4px;
+  --ui-radius-lg: 4px;
+  --ui-radius-pill: 3px;
+}
+.tp-wrap::before, .cp-wrap::before, .hub-wrap::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+.tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+@media (min-width: 1080px) {
+  .tp-wrap::before, .cp-wrap::before, .hub-wrap::before,
+  .tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+    opacity: 1;
+  }
+  .tp-wrap::before, .cp-wrap::before, .hub-wrap::before {
+    animation: ornDrift 109s ease-in-out infinite alternate;
+  }
+  .tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+    animation: ornTurn 121s ease-in-out infinite alternate,
+               ornBreathe 95s ease-in-out infinite alternate;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tp-wrap::before, .cp-wrap::before, .hub-wrap::before,
+  .tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+    animation: none !important;
+  }
 }

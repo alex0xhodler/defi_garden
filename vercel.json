@@ -5,11 +5,36 @@
     {
       "source": "/",
       "has": [
+        { "type": "query", "key": "app" }
+      ],
+      "destination": "/home"
+    },
+    {
+      "source": "/",
+      "has": [
         {
           "type": "header",
           "key": "Accept",
           "value": "(.*)text/markdown(.*)"
         }
+      ],
+      "missing": [
+        { "type": "query", "key": "token" },
+        { "type": "query", "key": "chain" },
+        { "type": "query", "key": "pool" },
+        { "type": "query", "key": "protocols" },
+        { "type": "query", "key": "poolTypes" },
+        { "type": "query", "key": "minTvl" },
+        { "type": "query", "key": "minApy" },
+        { "type": "query", "key": "goal" },
+        { "type": "query", "key": "monthly" },
+        { "type": "query", "key": "years" },
+        { "type": "query", "key": "pace" },
+        { "type": "query", "key": "preset" },
+        { "type": "query", "key": "fresh" },
+        { "type": "query", "key": "capital" },
+        { "type": "query", "key": "fm" },
+        { "type": "query", "key": "dl" }
       ],
       "destination": "/llms.txt"
     },
@@ -42,6 +67,97 @@
       "destination": "/.well-known/openid-configuration.json"
     }
   ],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "^(www\\.)?yield\\.garden$" }],
+      "destination": "https://www.defi.garden/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "^(www\\.)?yield\\.garden$" }],
+      "destination": "https://www.defi.garden/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/tokens/index",
+      "destination": "/tokens",
+      "permanent": true
+    },
+    {
+      "source": "/chains/index",
+      "destination": "/chains",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tokens/index",
+      "destination": "/ko/tokens",
+      "permanent": true
+    },
+    {
+      "source": "/ko/chains/index",
+      "destination": "/ko/chains",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        { "type": "header", "key": "Accept", "value": "(.*)text/markdown(.*)" },
+        { "type": "query", "key": "pool", "value": "(?<poolId>[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})" }
+      ],
+      "destination": "/pools/:poolId.md",
+      "permanent": false
+    },
+    {
+      "source": "/tokens/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/tokens/:slug.md",
+      "permanent": false
+    },
+    {
+      "source": "/chains/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/chains/:slug.md",
+      "permanent": false
+    },
+    {
+      "source": "/ko/tokens/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/ko/tokens/:slug.md",
+      "permanent": false
+    },
+    {
+      "source": "/ko/chains/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/ko/chains/:slug.md",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -64,6 +180,24 @@
           "value": "(.*)text/markdown(.*)"
         }
       ],
+      "missing": [
+        { "type": "query", "key": "token" },
+        { "type": "query", "key": "chain" },
+        { "type": "query", "key": "pool" },
+        { "type": "query", "key": "protocols" },
+        { "type": "query", "key": "poolTypes" },
+        { "type": "query", "key": "minTvl" },
+        { "type": "query", "key": "minApy" },
+        { "type": "query", "key": "goal" },
+        { "type": "query", "key": "monthly" },
+        { "type": "query", "key": "years" },
+        { "type": "query", "key": "pace" },
+        { "type": "query", "key": "preset" },
+        { "type": "query", "key": "fresh" },
+        { "type": "query", "key": "capital" },
+        { "type": "query", "key": "fm" },
+        { "type": "query", "key": "dl" }
+      ],
       "headers": [
         { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
         { "key": "Vary", "value": "Accept" },
@@ -72,9 +206,107 @@
     },
     {
       "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        },
+        { "type": "query", "key": "app" }
+      ],
+      "headers": [
+        { "key": "Content-Type", "value": "text/html; charset=utf-8" },
+        { "key": "Vary", "value": "Accept" }
+      ]
+    },
+    {
+      "source": "/",
       "headers": [
         { "key": "Vary", "value": "Accept" },
         { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/tokens/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "headers": [
+        { "key": "Vary", "value": "Accept" }
+      ]
+    },
+    {
+      "source": "/chains/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "headers": [
+        { "key": "Vary", "value": "Accept" }
+      ]
+    },
+    {
+      "source": "/ko/tokens/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "headers": [
+        { "key": "Vary", "value": "Accept" }
+      ]
+    },
+    {
+      "source": "/ko/chains/:slug([^/.]+)",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "headers": [
+        { "key": "Vary", "value": "Accept" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.md",
+      "headers": [
+        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
+        { "key": "X-Robots-Tag", "value": "noindex" }
+      ]
+    },
+    {
+      "source": "/tokens/:slug",
+      "headers": [
+        { "key": "Vary", "value": "Accept" }
+      ]
+    },
+    {
+      "source": "/chains/:slug",
+      "headers": [
+        { "key": "Vary", "value": "Accept" }
+      ]
+    },
+    {
+      "source": "/ko/tokens/:slug",
+      "headers": [
+        { "key": "Vary", "value": "Accept" }
+      ]
+    },
+    {
+      "source": "/ko/chains/:slug",
+      "headers": [
+        { "key": "Vary", "value": "Accept" }
       ]
     },
     {

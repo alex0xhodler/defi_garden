@@ -1,0 +1,62 @@
+<!--
+  test-fixtures/pre166/llms-full-pre166.txt (backlog 169)
+
+  Provenance: `git show 3935e8d05:llms-full.txt` — the commit immediately
+  before aff271c79 ("166: the AI-discovery surface's links now go where they
+  claim"). The real pre-166 file is 209KB / 5,017 lines — too large to
+  commit — so this is a TRIMMED excerpt: every line below this comment is
+  copied VERBATIM (never retyped or edited) from that file; only the ~4,950
+  surrounding lines not needed to reproduce the measured defect shape were
+  elided (mostly repeated per-token/per-chain TVL listing sections that carry
+  no link-target-integrity content of their own).
+
+  Reproduces the full measured pre-166 ground truth for this file: 10
+  unrouted "?search=" links (rule a) and 15 pool-shaped rows whose only link
+  is the bare "https://www.defi.garden" origin (rule b), all 15 sharing that
+  one bare-origin URL while stating 15 different figure sets (rule c). Do
+  not hand-edit the content below — if the shape needs to change, re-derive
+  it from `git show 3935e8d05:llms-full.txt` again and re-paste verbatim.
+-->
+## Market Analysis: Top Protocols
+TL;DR: Leading DeFi protocols by aggregate TVL across all pools.
+- lido: $17.61B TVL — https://www.defi.garden/?search=lido
+- aave-v3: $14.04B TVL — https://www.defi.garden/?search=aave-v3
+- morpho-blue: $11.07B TVL — https://www.defi.garden/?search=morpho-blue
+- sky-lending: $8.05B TVL — https://www.defi.garden/?search=sky-lending
+- binance-staked-eth: $6.99B TVL — https://www.defi.garden/?search=binance-staked-eth
+- sparklend: $4.10B TVL — https://www.defi.garden/?search=sparklend
+- ether.fi-stake: $3.69B TVL — https://www.defi.garden/?search=ether.fi-stake
+- maple: $3.62B TVL — https://www.defi.garden/?search=maple
+- blackrock-buidl: $3.44B TVL — https://www.defi.garden/?search=blackrock-buidl
+- justlend-v1: $3.29B TVL — https://www.defi.garden/?search=justlend-v1
+
+## Live High-Yield Opportunities (by Chain)
+TL;DR: Current top-performing pools with detailed metrics.
+### Base
+- uniswap-v3 · WETH-USDC — 91.47% APY, $110,855,239 TVL — https://www.defi.garden
+- uniswap-v3 · WETH-USDC — 31.09% APY, $10,191,604 TVL — https://www.defi.garden
+- uniswap-v3 · WETH-CBBTC — 23.15% APY, $11,028,295 TVL — https://www.defi.garden
+- aerodrome-v1 · USDC-AERO — 19.53% APY, $26,223,416 TVL — https://www.defi.garden
+
+### Solana
+- orca-dex · SOL-USDC — 54.78% APY, $25,485,395 TVL — https://www.defi.garden
+- raydium-amm · BOME-WSOL — 29.11% APY, $10,082,637 TVL — https://www.defi.garden
+
+### Ethereum
+- uniswap-v3 · WETH-USDT — 35.52% APY, $82,178,360 TVL — https://www.defi.garden
+- uniswap-v3 · USDC-WETH — 28.45% APY, $94,519,796 TVL — https://www.defi.garden
+- saturn · SUSDAT — 25.56% APY, $80,810,694 TVL — https://www.defi.garden
+- concrete · SRROYUSDC — 25.10% APY, $12,982,896 TVL — https://www.defi.garden
+- uniswap-v3 · WETH-USDT — 22.69% APY, $13,179,813 TVL — https://www.defi.garden
+- stake-dao · SDCRV — 16.03% APY, $24,882,338 TVL — https://www.defi.garden
+- stake-dao · FRXUSD-MSUSD — 15.35% APY, $10,250,485 TVL — https://www.defi.garden
+
+### Arbitrum
+- uniswap-v3 · WETH-USDC — 31.89% APY, $35,642,322 TVL — https://www.defi.garden
+
+### Monad
+- accountable · USDC — 17.60% APY, $99,795,392 TVL — https://www.defi.garden
+
+## Important Disclaimers
+- Yields are volatile and subject to rapid change
+- Always verify current rates and terms on the protocol websites

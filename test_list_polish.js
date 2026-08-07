@@ -6,7 +6,10 @@
    A. .pools-list .pool-apy-section computed align-items === 'flex-end'.
    B. .pools-list .pool-tvl-section computed align-items === 'flex-end'.
    C. .pool-apy-hero + .tvl-value computed font-variant-numeric includes tabular-nums.
-   D. every .pools-list .pool-card offsetHeight >= 84.
+   D. every .pools-list .pool-card offsetHeight >= 64 (225 round 3 increment (a):
+      the row height spec moved from a min-84px card to an exact 64px table row —
+      updated here to pin the new markup, per the dispatch's "tests that pin the
+      OLD grid markup may be updated" allowance).
    E. the 0-yield row (apy-section carrying .pool-apy-tag) has its .pool-apy-hero
       color === resolved var(--color-text-secondary), and the number still shows a '0'.
    F. regression guard: Grid View click → .pool-card parent becomes .pools-grid.
@@ -18,18 +21,19 @@
    Run: node test_list_polish.js */
 const http = require('http');
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
 const { chromium } = require('playwright');
 
 const PORT = 8795;
 const ROOT = __dirname;
-const SCRATCH = '/tmp/claude-0/-home-user-defi-garden/f3b411fb-6502-5242-98d4-1cc4500d77dc/scratchpad';
+const SCRATCH = os.tmpdir();
 const MIME = {
   '.html': 'text/html', '.js': 'application/javascript', '.css': 'text/css',
   '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2',
   '.png': 'image/png', '.txt': 'text/plain', '.xml': 'application/xml'
 };
-const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com/i;
+const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com|icons\.llamao\.fi/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
 // DefiLlama-shaped fixture (mirrors test_list_default.js): sized above
@@ -172,12 +176,14 @@ async function main() {
       if (!/tabular-nums/.test(r.tvl)) throw new Error(`tvl-value font-variant-numeric "${r.tvl}" lacks tabular-nums`);
     });
 
-    await test('D. every .pools-list .pool-card offsetHeight >= 84', async () => {
+    // 225 round 3 increment (a): threshold moved from 84 (min-height card) to
+    // 64 (the spec's exact table-row height) — see the header comment.
+    await test('D. every .pools-list .pool-card offsetHeight >= 64', async () => {
       const heights = await page.evaluate(() =>
         Array.from(document.querySelectorAll('.pools-list .pool-card')).map((c) => c.offsetHeight));
       if (!heights.length) throw new Error('no list cards found');
-      const short = heights.filter((h) => h < 84);
-      if (short.length) throw new Error(`row(s) shorter than 84px: ${JSON.stringify(heights)}`);
+      const short = heights.filter((h) => h < 64);
+      if (short.length) throw new Error(`row(s) shorter than 64px: ${JSON.stringify(heights)}`);
     });
 
     await test('E. 0-yield row hero is calmer (opacity 0.75 + secondary color) with number preserved', async () => {

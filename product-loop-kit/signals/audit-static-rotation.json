@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "tokens": {
+    "cycle": 0,
+    "seen": [
+      "tokens/shit.html",
+      "tokens/wtao.html",
+      "tokens/cscbusdc.html",
+      "tokens/kysol.html",
+      "tokens/usdc.html",
+      "tokens/hklu.html",
+      "tokens/qnt.html",
+      "tokens/uspc.html",
+      "tokens/block.html",
+      "tokens/uns.html",
+      "tokens/axleuroc.html",
+      "tokens/gsol.html",
+      "tokens/pha.html",
+      "tokens/brz.html",
+      "tokens/hyusd.html",
+      "tokens/react.html",
+      "tokens/vdr.html",
+      "tokens/tsuka.html",
+      "tokens/aura.html",
+      "tokens/gno.html",
+      "tokens/palm.html",
+      "tokens/slnusdt.html",
+      "tokens/xbtc.html",
+      "tokens/cusdo.html",
+      "tokens/liquidusd.html",
+      "tokens/maka.html",
+      "tokens/srmhyper.html",
+      "tokens/yog.html",
+      "tokens/doge.html"
+    ]
+  },
+  "chains": {
+    "cycle": 0,
+    "seen": [
+      "chains/solana.html",
+      "chains/ethereum.html",
+      "chains/fuel-ignition.html",
+      "chains/starknet.html",
+      "chains/neutron.html",
+      "chains/berachain.html",
+      "chains/stacks.html",
+      "chains/flow.html",
+      "chains/heco.html",
+      "chains/tac.html",
+      "chains/venom.html",
+      "chains/icp.html",
+      "chains/monad.html",
+      "chains/astar.html"
+    ]
+  },
+  "koTokens": {
+    "cycle": 0,
+    "seen": [
+      "ko/tokens/nos.html",
+      "ko/tokens/syrup.html",
+      "ko/tokens/altt.html",
+      "ko/tokens/flower.html",
+      "ko/tokens/reusde.html",
+      "ko/tokens/vno.html",
+      "ko/tokens/buck.html",
+      "ko/tokens/ifil.html",
+      "ko/tokens/jrusde.html",
+      "ko/tokens/sani.html",
+      "ko/tokens/wfai.html",
+      "ko/tokens/chillguy.html",
+      "ko/tokens/yieldusdt.html",
+      "ko/tokens/dola.html",
+      "ko/tokens/maticx.html",
+      "ko/tokens/speth.html",
+      "ko/tokens/ususds.html",
+      "ko/tokens/black.html",
+      "ko/tokens/hgeth.html",
+      "ko/tokens/qqqb.html",
+      "ko/tokens/wbnb.html",
+      "ko/tokens/car.html",
+      "ko/tokens/inv.html",
+      "ko/tokens/rsup.html"
+    ]
+  },
+  "koChains": {
+    "cycle": 0,
+    "seen": [
+      "ko/chains/xlayer.html",
+      "ko/chains/kava.html",
+      "ko/chains/icp.html",
+      "ko/chains/tron.html",
+      "ko/chains/bifrost-network.html",
+      "ko/chains/neutron.html",
+      "ko/chains/megaeth.html",
+      "ko/chains/algorand.html",
+      "ko/chains/cronos-zkevm.html",
+      "ko/chains/robinhood-chain.html",
+      "ko/chains/canto.html",
+      "ko/chains/osmosis.html"
+    ]
+  }
+}
