@@ -4,7 +4,7 @@ The highest honest MYSTERY yield right now is 0.11% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5e5e11a3-98d2-4ab8-bb11-49d05fbd3f7d&src=seo_token) | Ethereum | 0.11% | $101.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5e5e11a3-98d2-4ab8-bb11-49d05fbd3f7d&src=seo_token) | Ethereum | 0.11% | $101.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MYSTERY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.8K in total.
+1 live pool clear this page's $100K TVL floor, $101.7K in total.
 
 ### Are these rates safe?
 

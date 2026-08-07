@@ -1292,6 +1292,10 @@ function App() {
           setDetailPool(foundPool);
           setCurrentView('pool-detail');
           document.title = `${foundPool.symbol} on ${foundPool.project} | DeFi Garden 🌱`;
+          // 247 world: search-as-navigation — pre-fill the header search bar
+          // with the ?token= that led here, or the pool's own symbol for a
+          // bare `?pool=` deep link with no prior grid state.
+          setSearchInput(selectedToken || foundPool.symbol || '');
 
           // spec 182 Territory T4: the render above (setDetailPool/setCurrentView/
           // document.title) stays immediate and unconditional — that's the SEO
@@ -2273,6 +2277,10 @@ function App() {
 
   // Handle token selection
   const handleTokenSelect = (token) => {
+    // 247 world: search-as-navigation — a token submitted from pool view
+    // (autocomplete pick or the search button) leaves pool view first; the
+    // rest of this handler then runs exactly as it does from the grid.
+    exitPoolViewForNewSearch();
     setChainMode(false); // Switch to token-first mode
 
     // Simple search tracking - capture the full search input at search completion
@@ -2365,6 +2373,10 @@ function App() {
         // Otherwise, attempt to parse natural language
         const query = searchInput.trim();
         if (query) {
+          // 247 world: search-as-navigation — a new query typed from pool
+          // view leaves pool view first; the NL parse below then runs
+          // exactly as it does from the grid.
+          exitPoolViewForNewSearch();
           const { token, chain, poolTypes, protocols } = parseNaturalLanguageQuery(query, availableTokens, allAvailableChains, availableProtocols?.all || []);
 
           // Apply filters based on natural language parsing
@@ -2421,6 +2433,11 @@ function App() {
 
           // Update URL immediately after parsing and setting state
           // The useEffect that listens to state changes will then push the URL
+        } else if (currentView === 'pool-detail') {
+          // 247 world: submitting an empty query from pool view is a clear —
+          // return to the results view for the pre-filled context (spec 247
+          // search-as-nav; replaces the retired "← Back to Search" link).
+          handleSearchClearFromPoolView();
         }
       }
     } else if (showAutocomplete && autocompleteTokens.length > 0) {
@@ -2652,6 +2669,10 @@ function App() {
     // Set the pool for detail view
     setDetailPool(pool);
     setCurrentView('pool-detail');
+    // 247 world: search-as-navigation — pre-fill the header search bar with
+    // the active token query, or the pool's own symbol when browsing got
+    // here without one (chain-only browse, protocol/pool-type filter).
+    setSearchInput(selectedToken || pool.symbol || '');
     // Scroll to top when navigating to pool details
     window.scrollTo(0, 0);
 
@@ -2699,6 +2720,48 @@ function App() {
     }, 0);
   };
 
+  // 247 world: search-as-navigation — the pool-view header search bar (see
+  // renderHeaderRow) reuses the grid's normal submit handlers, adding only
+  // this "leave pool view" step: drop the `pool` URL param (so the URL-sync
+  // effect's `?pool=` guard doesn't hold back the new query's own updateUrl)
+  // and reset detail state. No-op outside pool view.
+  const exitPoolViewForNewSearch = () => {
+    if (currentView !== 'pool-detail') return;
+    const params = new URLSearchParams(window.location.search);
+    params.delete('pool');
+    const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
+    window.history.pushState({}, '', newUrl);
+    setCurrentView('search');
+    setDetailPool(null);
+  };
+
+  // Clearing the search (× button or an empty Enter submit) from pool view
+  // is navigation, not a wipe: it returns to the results view for whatever
+  // context the search bar was pre-filled with — the `?token=` that led
+  // here, or the pool's own symbol when there was no prior grid state (a
+  // bare `?pool=` deep link, or a chain-only browse click-through). Same
+  // destination the retired "← Back to Search" link used to reach.
+  const handleSearchClearFromPoolView = () => {
+    const context = selectedToken || (detailPool && detailPool.symbol) || '';
+
+    Analytics.trackNavigation('pool-detail', 'search', 'search_clear');
+
+    const params = new URLSearchParams(window.location.search);
+    params.delete('pool');
+    const newUrl = params.toString() ? `${window.location.pathname}?${params.toString()}` : window.location.pathname;
+    window.history.pushState({}, '', newUrl);
+
+    setCurrentView('search');
+    setDetailPool(null);
+    setSearchInput(context);
+    if (context && context !== selectedToken) {
+      setChainMode(false);
+      setSelectedToken(context);
+    }
+    setShowAutocomplete(false);
+    setHighlightedIndex(-1);
+  };
+
   // Handle yield calculator - navigate to pool details page
   const handleCalculateYield = (pool, e) => {
     e.preventDefault();
@@ -2710,6 +2773,8 @@ function App() {
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
     setCurrentView('pool-detail');
+    // 247 world: search-as-navigation prefill (see handlePoolClick).
+    setSearchInput(selectedToken || pool.symbol || '');
     // Scroll to top when navigating to pool details
     window.scrollTo(0, 0);
   };
@@ -2979,15 +3044,103 @@ function App() {
 
   // Add debug logging for pool detail view state
 
+  // Shared header row — the SAME band (classes/geometry) on the grid and the
+  // pool view, so `.app-header-sticky` never has a second implementation to
+  // drift out of sync. `includeSearch` used to be the only variation (the
+  // pool view had no wiring from search back into `currentView`); spec 247
+  // wires it up instead — the query IS the navigation state, so the pool
+  // view now renders the identical bar, pre-filled with its context. Logo
+  // stays left, controls stay right either way via the row's own
+  // space-between.
+  const renderHeaderRow = (includeSearch) => (
+    React.createElement('div', { className: 'app-header-content' },
+      // Logo (compact, clickable)
+      React.createElement('div', {
+        className: 'app-logo',
+        onClick: resetApp
+      }, '🌱 DeFi Garden'),
+
+      // Persistent search bar (grid + pool view, both via includeSearch=true)
+      includeSearch && React.createElement('div', { className: 'app-search-container' },
+        React.createElement('div', { className: 'app-search-bar' },
+          React.createElement('input', {
+            type: 'text',
+            className: 'app-search-input',
+            // Placeholder reflects token query only; chain state belongs to filter chips
+            placeholder: selectedToken ? selectedToken : animatedPlaceholder,
+            value: searchInput,
+            onChange: handleSearchInputChange,
+            onKeyDown: handleKeyDown,
+            onFocus: handleInputFocus,
+            onBlur: handleInputBlur
+          }),
+          // ✕ clear button — only visible when search input is non-empty.
+          // From pool view (247 world) this is navigation, not a wipe: it
+          // returns to the results view for the pre-filled context instead
+          // of the grid's full clear-to-homepage.
+          searchInput.length > 0 && React.createElement('button', {
+            className: 'app-search-clear',
+            'aria-label': 'Clear search',
+            onMouseDown: (e) => {
+              // Use mousedown to fire before blur
+              e.preventDefault();
+              if (currentView === 'pool-detail') {
+                handleSearchClearFromPoolView();
+              } else {
+                setSearchInput('');
+                setSelectedToken('');
+                setShowAutocomplete(false);
+              }
+              // Return focus to input
+              const input = e.currentTarget.parentElement.querySelector('.app-search-input');
+              if (input) input.focus();
+            }
+          }, '✕'),
+          React.createElement('button', {
+            className: 'app-search-button',
+            onClick: () => {
+              if (searchInput.length > 0 && autocompleteTokens.length > 0) {
+                handleTokenSelect(autocompleteTokens[0]);
+              }
+            }
+          }, '🔍')
+        )
+      ),
+
+      // Controls (theme, language)
+      React.createElement('div', { className: 'app-header-controls' },
+        React.createElement('button', {
+          className: 'app-control-btn language-toggle',
+          onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
+          'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
+        }, language === 'en' ? 'KO' : 'EN'),
+        React.createElement('button', {
+          className: 'app-control-btn theme-toggle',
+          onClick: toggleTheme,
+          'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
+        }, isDarkMode ? '🌙' : '☀️')
+      )
+    )
+  );
+
   // Render Pool Detail View if active
   if (currentView === 'pool-detail' && detailPool) {
     return React.createElement('div', { className: 'app pool-detail-view' },
+
+      // Same full-width header band as the grid, now WITH the search bar
+      // (spec 247 search-as-navigation) — pre-filled via the setSearchInput
+      // calls at each pool-detail entry point (handlePoolClick,
+      // handleCalculateYield, the url_direct resolver above). Submitting a
+      // new query or clearing this field is the only way out of pool view;
+      // see exitPoolViewForNewSearch / handleSearchClearFromPoolView.
+      React.createElement('div', { className: 'app-header-sticky' },
+        renderHeaderRow(true)
+      ),
 
       React.createElement('div', { className: 'container' },
         React.createElement(PoolDetail, {
           pool: detailPool,
           onBack: handleBackFromDetail,
-          resetApp: resetApp,
           calculateYields: calculateYields,
           futureValue: futureValue,
           formatCurrency: formatCurrency,
@@ -2997,12 +3150,8 @@ function App() {
           formatApy: formatApy,
           getProtocolUrl: getProtocolUrl,
           getProtocolUrlWithRef: getProtocolUrlWithRef,
-          isDarkMode: isDarkMode,
           t: t,
-          AnimatedNumber: AnimatedNumber,
-          toggleTheme: toggleTheme,
-          language: language,
-          changeLanguage: changeLanguage
+          AnimatedNumber: AnimatedNumber
         })
       ),
 
@@ -3030,73 +3179,18 @@ function App() {
   }
 
   return React.createElement('div', {
-    className: `app ${(selectedToken || (chainMode && selectedChain)) ? 'has-results' : ''}`
+    // 247 world: the dead-pool state (a ?pool= arrival whose id no longer
+    // resolves) is pool-detail's own state — it carries .dead-pool-view so
+    // pool-detail-styles.css can set the notice in the certificate world.
+    // deadPoolResolved is false on every grid/search render, so no other
+    // surface's markup or styling changes.
+    className: `app ${(selectedToken || (chainMode && selectedChain)) ? 'has-results' : ''}${deadPoolResolved ? ' dead-pool-view' : ''}`
   },
     // Google-style sticky header - ONLY show when we have results
     (selectedToken || (chainMode && selectedChain)) && React.createElement('div', {
       className: 'app-header-sticky'
     },
-      React.createElement('div', { className: 'app-header-content' },
-        // Logo (compact, clickable)
-        React.createElement('div', {
-          className: 'app-logo',
-          onClick: resetApp
-        }, '🌱 DeFi Garden'),
-
-        // Persistent search bar
-        React.createElement('div', { className: 'app-search-container' },
-          React.createElement('div', { className: 'app-search-bar' },
-            React.createElement('input', {
-              type: 'text',
-              className: 'app-search-input',
-              // Placeholder reflects token query only; chain state belongs to filter chips
-              placeholder: selectedToken ? selectedToken : animatedPlaceholder,
-              value: searchInput,
-              onChange: handleSearchInputChange,
-              onKeyDown: handleKeyDown,
-              onFocus: handleInputFocus,
-              onBlur: handleInputBlur
-            }),
-            // ✕ clear button — only visible when search input is non-empty
-            searchInput.length > 0 && React.createElement('button', {
-              className: 'app-search-clear',
-              'aria-label': 'Clear search',
-              onMouseDown: (e) => {
-                // Use mousedown to fire before blur
-                e.preventDefault();
-                setSearchInput('');
-                setSelectedToken('');
-                setShowAutocomplete(false);
-                // Return focus to input
-                const input = e.currentTarget.parentElement.querySelector('.app-search-input');
-                if (input) input.focus();
-              }
-            }, '✕'),
-            React.createElement('button', {
-              className: 'app-search-button',
-              onClick: () => {
-                if (searchInput.length > 0 && autocompleteTokens.length > 0) {
-                  handleTokenSelect(autocompleteTokens[0]);
-                }
-              }
-            }, '🔍')
-          )
-        ),
-
-        // Controls (theme, language) 
-        React.createElement('div', { className: 'app-header-controls' },
-          React.createElement('button', {
-            className: 'app-control-btn language-toggle',
-            onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
-            'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
-          }, language === 'en' ? 'KO' : 'EN'),
-          React.createElement('button', {
-            className: 'app-control-btn theme-toggle',
-            onClick: toggleTheme,
-            'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-          }, isDarkMode ? '🌙' : '☀️')
-        )
-      ),
+      renderHeaderRow(true),
 
       // Google-style navigation tabs - part of the header
       React.createElement('div', { className: 'app-nav-row' },

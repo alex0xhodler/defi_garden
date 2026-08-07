@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.42% | $352.63M |
-| [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.05% | $17.88M |
+| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.42% | $352.67M |
+| [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.04% | $17.88M |
 | [fluid-dex →](https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token) | Arbitrum | 0.30% | $17.63M |
 | [pendle →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.88% | $12.72M |
 | [pendle →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 9.64% | $12.72M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle에서 APY 10.19%예요.
 
 ### SUSDAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $621.51M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $621.53M예요.
 
 ### 이 수익률은 안전한가요?
 

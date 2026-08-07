@@ -1,13 +1,12 @@
 # USDAI DeFi Yields
 
-The highest honest USDAI yield right now is 6.56% on pendle (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDAI yield right now is 6.56% on pendle (Arbitrum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 0.96% | $50.38M |
 | [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 6.56% | $50.38M |
 | [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 1.92% | $527.9K |
-| [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 1.10% | $112.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDAI pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $102.04M in total.
+5 live pools clear this page's $100K TVL floor, $101.93M in total.
 
 ### Are these rates safe?
 

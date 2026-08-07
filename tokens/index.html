@@ -4,40 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Every DeFi Token&#39;s Live Yields | DeFi Garden 🌱</title>
-    <meta name="description" content="2,076 tokens with live, trust-filtered DeFi yield data — top pools by TVL, browsable by name. Honest yields from DefiLlama, no anomalous rates.">
+    <meta name="description" content="2,069 tokens with live, trust-filtered DeFi yield data — top pools by TVL, browsable by name. Honest yields from DefiLlama, no anomalous rates.">
     <link rel="canonical" href="https://www.defi.garden/tokens">
     <link rel="alternate" hreflang="en" href="https://www.defi.garden/tokens">
     <link rel="alternate" hreflang="ko" href="https://www.defi.garden/ko/tokens">
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/tokens">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Every DeFi Token&#39;s Live Yields | DeFi Garden 🌱">
-    <meta property="og:description" content="2,076 tokens with live, trust-filtered DeFi yield data — top pools by TVL, browsable by name. Honest yields from DefiLlama, no anomalous rates.">
+    <meta property="og:description" content="2,069 tokens with live, trust-filtered DeFi yield data — top pools by TVL, browsable by name. Honest yields from DefiLlama, no anomalous rates.">
     <meta property="og:url" content="https://www.defi.garden/tokens">
     <meta property="og:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
+    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/style.css">
     <style>
       .hub-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .hub-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
-      .hub-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
-      .hub-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
-      .hub-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 18px; margin: 20px 0; }
-      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
-      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
-      .hub-links a:hover { box-shadow: var(--neuro-shadow-flat); }
-      .hub-links a:active { box-shadow: var(--neuro-shadow-pressed); }
-      .hub-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
-      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
-      .hub-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-      .hub-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
-      .hub-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-      .hub-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
-      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } }
-      .hub-waitlist { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 20px 22px; margin: 24px 0; }
-      .hub-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--color-text); }
-      .hub-waitlist p { color: var(--color-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
+      .hub-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .hub-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .hub-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .hub-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 18px; margin: 20px 0; }
+      .hub-card h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .hub-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .hub-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .hub-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .hub-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-pill); }
+      .hub-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .hub-cta:hover { background: var(--ui-accent-hover); }
+      .hub-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .hub-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .hub-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      @media (prefers-reduced-motion: reduce) { .hub-links a, .hub-cta { transition: none; } .hub-links a:active, .hub-cta:active { transform: none; } }
+      .hub-waitlist { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 20px 22px; margin: 24px 0; }
+      .hub-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--ui-text); }
+      .hub-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
       .hub-waitlist .hub-cta { margin: 4px 0 10px; }
       .hub-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
     </style>
@@ -50,7 +52,7 @@
     <script>
       window.addEventListener('load', function () {
         if (typeof Analytics !== 'undefined' && typeof Analytics.trackPageView === 'function') {
-          Analytics.trackPageView("/tokens", {"page_type":"token_hub","token_count":2076,"lang":"en"});
+          Analytics.trackPageView("/tokens", {"page_type":"token_hub","token_count":2069,"lang":"en"});
         }
       });
     </script>
@@ -58,7 +60,7 @@
 <body>
   <main class="hub-wrap">
     <h1>All Token Yield Pages</h1>
-    <p class="sub">2,076 tokens with live, trust-filtered yield data</p>
+    <p class="sub">2,069 tokens with live, trust-filtered yield data</p>
     <p class="intro">Every DeFi Garden token page in one place — live pools ranked by TVL, filtered through a $100K TVL floor and anomaly rails. Start with the top tokens by TVL, or jump straight to a letter.</p>
     <a class="hub-cta" href="https://www.defi.garden/">← Back to DeFi Garden</a>
     <div class="hub-card">
@@ -91,8 +93,8 @@
         <a href="https://www.defi.garden/tokens/ustb">USTB</a>
         <a href="https://www.defi.garden/tokens/strx">STRX</a>
         <a href="https://www.defi.garden/tokens/trx">TRX</a>
-        <a href="https://www.defi.garden/tokens/slisbnb">SLISBNB</a>
         <a href="https://www.defi.garden/tokens/bnsol">BNSOL</a>
+        <a href="https://www.defi.garden/tokens/slisbnb">SLISBNB</a>
         <a href="https://www.defi.garden/tokens/ausd">AUSD</a>
         <a href="https://www.defi.garden/tokens/btc">BTC</a>
         <a href="https://www.defi.garden/tokens/susdai">SUSDAI</a>
@@ -107,8 +109,8 @@
         <a href="https://www.defi.garden/tokens/cbeth">CBETH</a>
         <a href="https://www.defi.garden/tokens/syrupusdc">SYRUPUSDC</a>
         <a href="https://www.defi.garden/tokens/meth">METH</a>
-        <a href="https://www.defi.garden/tokens/usdd">USDD</a>
         <a href="https://www.defi.garden/tokens/usdg">USDG</a>
+        <a href="https://www.defi.garden/tokens/usdd">USDD</a>
         <a href="https://www.defi.garden/tokens/pt">PT</a>
         <a href="https://www.defi.garden/tokens/ousg">OUSG</a>
         <a href="https://www.defi.garden/tokens/onyc">ONYC</a>
@@ -121,8 +123,8 @@
         <a href="https://www.defi.garden/tokens/bpt">BPT</a>
         <a href="https://www.defi.garden/tokens/reusd">REUSD</a>
         <a href="https://www.defi.garden/tokens/usd1">USD1</a>
-        <a href="https://www.defi.garden/tokens/bnb">BNB</a>
         <a href="https://www.defi.garden/tokens/senpyusdmain">SENPYUSDMAIN</a>
+        <a href="https://www.defi.garden/tokens/bnb">BNB</a>
         <a href="https://www.defi.garden/tokens/senrlusdv2">SENRLUSDV2</a>
       </div>
     </div>
@@ -130,30 +132,30 @@
       <h2>Browse all tokens A–Z</h2>
       <div class="hub-links">
         <a href="https://www.defi.garden/tokens/az/0-9">0-9 (29)</a>
-        <a href="https://www.defi.garden/tokens/az/a">A (171)</a>
+        <a href="https://www.defi.garden/tokens/az/a">A (169)</a>
         <a href="https://www.defi.garden/tokens/az/b">B (115)</a>
-        <a href="https://www.defi.garden/tokens/az/c">C (126)</a>
-        <a href="https://www.defi.garden/tokens/az/d">D (80)</a>
-        <a href="https://www.defi.garden/tokens/az/e">E (63)</a>
+        <a href="https://www.defi.garden/tokens/az/c">C (122)</a>
+        <a href="https://www.defi.garden/tokens/az/d">D (79)</a>
+        <a href="https://www.defi.garden/tokens/az/e">E (62)</a>
         <a href="https://www.defi.garden/tokens/az/f">F (79)</a>
         <a href="https://www.defi.garden/tokens/az/g">G (92)</a>
         <a href="https://www.defi.garden/tokens/az/h">H (56)</a>
         <a href="https://www.defi.garden/tokens/az/i">I (37)</a>
         <a href="https://www.defi.garden/tokens/az/j">J (39)</a>
         <a href="https://www.defi.garden/tokens/az/k">K (46)</a>
-        <a href="https://www.defi.garden/tokens/az/l">L (60)</a>
+        <a href="https://www.defi.garden/tokens/az/l">L (59)</a>
         <a href="https://www.defi.garden/tokens/az/m">M (116)</a>
-        <a href="https://www.defi.garden/tokens/az/n">N (53)</a>
+        <a href="https://www.defi.garden/tokens/az/n">N (54)</a>
         <a href="https://www.defi.garden/tokens/az/o">O (43)</a>
         <a href="https://www.defi.garden/tokens/az/p">P (80)</a>
         <a href="https://www.defi.garden/tokens/az/q">Q (13)</a>
-        <a href="https://www.defi.garden/tokens/az/r">R (71)</a>
+        <a href="https://www.defi.garden/tokens/az/r">R (72)</a>
         <a href="https://www.defi.garden/tokens/az/s">S (274)</a>
-        <a href="https://www.defi.garden/tokens/az/t">T (77)</a>
-        <a href="https://www.defi.garden/tokens/az/u">U (88)</a>
+        <a href="https://www.defi.garden/tokens/az/t">T (78)</a>
+        <a href="https://www.defi.garden/tokens/az/u">U (86)</a>
         <a href="https://www.defi.garden/tokens/az/v">V (54)</a>
         <a href="https://www.defi.garden/tokens/az/w">W (113)</a>
-        <a href="https://www.defi.garden/tokens/az/x">X (47)</a>
+        <a href="https://www.defi.garden/tokens/az/x">X (48)</a>
         <a href="https://www.defi.garden/tokens/az/y">Y (31)</a>
         <a href="https://www.defi.garden/tokens/az/z">Z (23)</a>
       </div>

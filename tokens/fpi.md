@@ -4,7 +4,7 @@ The highest honest FPI yield right now is 0.02% on curve-dex (Ethereum), among 4
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f&src=seo_token) | Ethereum | 0.02% | $164.6K |
+| [curve-dex →](https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f&src=seo_token) | Ethereum | 0.02% | $164.7K |
 | [convex-finance →](https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326&src=seo_token) | Ethereum | 0.02% | $164.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

@@ -4,7 +4,7 @@ The highest honest SUPEROETHB yield right now is 4.44% on stake-dao (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.80% | $3.94M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.80% | $3.95M |
 | [stake-dao →](https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token) | Base | 4.44% | $3.38M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUPEROETHB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $36.7M in total.
+4 live pools clear this page's $100K TVL floor, $36.82M in total.
 
 ### Are these rates safe?
 

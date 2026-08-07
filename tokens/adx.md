@@ -4,7 +4,7 @@ The highest honest ADX yield right now is 0.26% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=fc863a95-b764-48d7-a133-f181905cb8cf&src=seo_token) | Ethereum | 0.26% | $277.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fc863a95-b764-48d7-a133-f181905cb8cf&src=seo_token) | Ethereum | 0.26% | $278.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ADX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $277.9K in total.
+1 live pool clear this page's $100K TVL floor, $278.1K in total.
 
 ### Are these rates safe?
 

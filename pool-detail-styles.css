@@ -1,1070 +1,1372 @@
-/* Pool Detail Component Styles */
-.pool-detail-container {
-  min-height: 100vh;
-  background: var(--color-background);
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px 20px 20px;
+/* ═══════════════════════════════════════════════════════════════════════════
+   POOL DETAIL — "THE CERTIFICATE" (247 world)
+   Security-printing grammar for the cautious saver: guilloché lathework,
+   engraved numerals, intaglio-green ink on safety paper; carmine serial ink
+   reserved for cautions. The trust rails are rendered as the document's own
+   authentication marks. Replaces the rejected "Quiet" skin on this surface
+   only — every selector in this file is scoped under .pool-detail-view /
+   .pool-detail-container / .dead-pool-view so the grid, planner and landing
+   surfaces render byte-identically. See DESIGN.md (new authority) and
+   product-loop-kit/specs/247-design-world.md.
+
+   Faces (self-hosted, latin variable subsets — the 187 no-CDN rule):
+   · Besley (Clarendon revival — the certificate/engraving letterform) for
+     display, numerals-of-record, and engraved caps labels.
+   · Public Sans (the civic-document workhorse) for UI text and data.
+   Korean text falls through to the system sans stack — natural, not forced
+   through a latin face.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+@font-face {
+  font-family: 'Besley';
+  src: url('./fonts/Besley-latin-var.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* ═══ 225 round 3c — recomposed page chrome ═══
-   One header row at every viewport (logo left, controls right); the back
-   affordance is a quiet link on its own line. No pills around plain data. */
-.pool-detail-container .header.pool-detail-topbar {
+@font-face {
+  font-family: 'Public Sans';
+  src: url('./fonts/PublicSans-latin-var.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ── Ink and paper ─────────────────────────────────────────────────────────
+   Light = the document: safety paper with a faint green cast (banknote
+   underprint, NOT cream), engraved green-black ink, intaglio green as the
+   committed color, carmine for cautions only.
+   Dark = the plate: green-black steel, pale silver ink, the same lathework.
+   The legacy --color-* / --ui-* names are REMAPPED inside this scope so
+   every inline var() reference in the component resolves into the world
+   without touching other surfaces. */
+.pool-detail-view,
+.dead-pool-view {
+  /* paper */
+  --cert-paper: #F5F7F0;
+  --cert-paper-deep: #EBEFE2;
+  --cert-vellum: #FBFCF7;
+  /* ink */
+  --cert-ink: #1B2B20;
+  --cert-ink-2: #48584A;
+  --cert-ink-3: #67766A;
+  /* intaglio green — the committed color */
+  --cert-green: #1E5C3F;
+  --cert-green-hover: #174A32;
+  --cert-green-active: #113A27;
+  --cert-green-wash: rgba(30, 92, 63, 0.08);
+  --cert-green-wash-strong: rgba(30, 92, 63, 0.16);
+  --cert-on-green: #F5F9F3;
+  /* rules */
+  --cert-rule: #CBD5C3;
+  --cert-rule-strong: #9FAF98;
+  /* serial / caution inks */
+  --cert-red: #A3271E;
+  --cert-red-wash: rgba(163, 39, 30, 0.07);
+  --cert-amber: #8A5A18;
+  /* lathework strength */
+  --cert-lathe: rgba(30, 92, 63, 0.30);
+  --cert-lathe-soft: rgba(30, 92, 63, 0.16);
+  /* page-scale engraving: the margin strands and the watermark rosette are
+     printed at a weight the eye reads as paper, never as content */
+  --cert-lathe-underprint: rgba(30, 92, 63, 0.10);
+  --cert-lathe-caution: rgba(163, 39, 30, 0.22);
+  --cert-lathe-margin: rgba(30, 92, 63, 0.13);
+  --cert-lathe-watermark: rgba(30, 92, 63, 0.05);
+  /* OPAQUE tinted band — the counterfoil / endorsement ground. Opaque on
+     purpose: an rgba() wash reports its own unblended RGB to every contrast
+     reader (browser tooling and test_northstar_cta_fires.js alike), which is
+     how the secondary CTA's label measured 1.04:1 against ink it never
+     actually sat on. A printed tint has one real color; so does this. */
+  --cert-band: #E9EFE8;
+  --cert-band-deep: #DFE7DB;
+  --cert-slip: #FBFCF7;
+  /* focus — always visible, in the world's ink */
+  --cert-focus-ring: 0 0 0 3px rgba(30, 92, 63, 0.38);
+
+  /* legacy token remap (scope-local; inline styles resolve here) */
+  --color-background: var(--cert-paper);
+  --color-surface: var(--cert-vellum);
+  --color-text: var(--cert-ink);
+  --color-text-secondary: var(--cert-ink-2);
+  --color-primary: var(--cert-green);
+  --color-primary-hover: var(--cert-green-hover);
+  --color-primary-active: var(--cert-green-active);
+  --color-success: var(--cert-green);
+  --color-warning: var(--cert-amber);
+  --color-error: var(--cert-red);
+  --ui-border: var(--cert-rule);
+  --ui-border-strong: var(--cert-rule-strong);
+  --ui-surface-muted: var(--cert-paper-deep);
+  --ui-surface-sunken: var(--cert-paper-deep);
+  --ui-accent: var(--cert-green);
+  --ui-focus-ring: var(--cert-focus-ring);
+
+  /* 247 world tokens promoted to the shared layer (style.css) — resolve
+     through it rather than forking a second copy of the same stacks. */
+  --cert-serif: var(--font-family-display);
+  --cert-sans: var(--font-family-base);
+}
+
+[data-theme="dark"] .pool-detail-view,
+[data-theme="dark"] .dead-pool-view {
+  --cert-paper: #0F1613;
+  --cert-paper-deep: #0A100C;
+  --cert-vellum: #16211A;
+  --cert-ink: #E6EDE4;
+  --cert-ink-2: #A9B7A9;
+  --cert-ink-3: #83937f;
+  --cert-green: #7CC9A0;
+  --cert-green-hover: #93D6B2;
+  --cert-green-active: #66B78D;
+  --cert-green-wash: rgba(124, 201, 160, 0.10);
+  --cert-green-wash-strong: rgba(124, 201, 160, 0.2);
+  --cert-on-green: #0B1B13;
+  --cert-rule: #26332B;
+  --cert-rule-strong: #415247;
+  --cert-red: #E58A80;
+  --cert-red-wash: rgba(229, 138, 128, 0.09);
+  --cert-amber: #D9A05B;
+  --cert-lathe: rgba(124, 201, 160, 0.30);
+  --cert-lathe-soft: rgba(124, 201, 160, 0.14);
+  --cert-lathe-underprint: rgba(124, 201, 160, 0.11);
+  --cert-lathe-caution: rgba(229, 138, 128, 0.22);
+  --cert-lathe-margin: rgba(124, 201, 160, 0.12);
+  --cert-lathe-watermark: rgba(124, 201, 160, 0.055);
+  --cert-band: #203227;
+  --cert-band-deep: #27392D;
+  --cert-slip: #2B4034;
+  --cert-focus-ring: 0 0 0 3px rgba(124, 201, 160, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .pool-detail-view,
+  :root:not([data-theme="light"]) .dead-pool-view {
+    --cert-paper: #0F1613;
+    --cert-paper-deep: #0A100C;
+    --cert-vellum: #16211A;
+    --cert-ink: #E6EDE4;
+    --cert-ink-2: #A9B7A9;
+    --cert-ink-3: #83937f;
+    --cert-green: #7CC9A0;
+    --cert-green-hover: #93D6B2;
+    --cert-green-active: #66B78D;
+    --cert-green-wash: rgba(124, 201, 160, 0.10);
+    --cert-green-wash-strong: rgba(124, 201, 160, 0.2);
+    --cert-on-green: #0B1B13;
+    --cert-rule: #26332B;
+    --cert-rule-strong: #415247;
+    --cert-red: #E58A80;
+    --cert-red-wash: rgba(229, 138, 128, 0.09);
+    --cert-amber: #D9A05B;
+    --cert-lathe: rgba(124, 201, 160, 0.30);
+    --cert-lathe-soft: rgba(124, 201, 160, 0.14);
+    --cert-lathe-underprint: rgba(124, 201, 160, 0.11);
+    --cert-lathe-caution: rgba(229, 138, 128, 0.22);
+    --cert-lathe-margin: rgba(124, 201, 160, 0.12);
+    --cert-lathe-watermark: rgba(124, 201, 160, 0.055);
+    --cert-band: #203227;
+    --cert-band-deep: #27392D;
+    --cert-slip: #2B4034;
+    --cert-focus-ring: 0 0 0 3px rgba(124, 201, 160, 0.4);
+  }
+}
+
+/* ═══ ORNAMENT SYSTEM — the engraving kit ═══════════════════════════════
+   HOISTED to style.css (247 world follow-up, item 247): the four reusable
+   primitives (.orn-band/.orn-strand/.orn-rosette/.orn-corners), the
+   ambient-motion keyframes (ornDrift/ornTurn/ornTurnCentered/ornBreathe),
+   and the bare-class reduced-motion off-switch now live there as the ONE
+   shared copy — the grid (style.css results-panel/app.has-results rules)
+   and the landing route (landing-styles.css) both consume them too. This
+   file keeps only what was always pool-detail-specific: the consumer
+   selectors below (.pool-hero-content::before, .pool-action-apy::before,
+   .pool-hero-card::after, …) that set their OWN --orn-ink and geometry on
+   top of the shared primitive, unchanged in text or specificity — pool-
+   detail's render is byte-identical to before the hoist. See style.css's
+   own "ORNAMENT SYSTEM" banner for the moved block and the knobs
+   (--orn-ink / --orn-size / --orn-inset) it exposes. */
+.pool-hero-content::before,
+.pool-hero-content::after,
+.pool-action-apy::before,
+.pool-hero-card::after,
+.calculator-compact::after,
+.pool-info-section::after,
+.pool-hero-actions::after,
+.pool-cta-echo::after,
+.app.pool-detail-view .app-footer::before,
+.app.dead-pool-view .empty-state::before {
+  --orn-ink: var(--cert-lathe-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* — horizontal lathework band — geometry from the shared .orn-band rule
+     (style.css); these three pseudo-elements just join its selector's
+     declarations (verbatim, hoisted-from copy) so each gets the band mask
+     applied to its own box. — */
+.pool-hero-content::before,
+.pool-hero-content::after,
+.pool-hero-actions::after,
+.pool-cta-echo::after,
+.app.pool-detail-view .app-footer::before,
+.app.dead-pool-view .empty-state::before {
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size, 50px 20px);
+  mask-size: var(--orn-size, 50px 20px);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+}
+
+/* — engine-turned rosette — geometry from the shared .orn-rosette rule
+     (style.css); the denomination's underprint sets its own ink. — */
+.pool-action-apy::before {
+  content: '';
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 248px;
+  height: 248px;
+  transform: translate(-50%, -50%);
+  --orn-ink: var(--cert-lathe-underprint);
+}
+
+/* — four corner lathes: the frame's engraved quoins. One layer per corner,
+     each a pre-rotated copy so a mask layer never needs a transform (the
+     transform channel belongs to the ambient motion below). Geometry from
+     the shared .orn-corners rule (style.css). — */
+.pool-hero-card::after,
+.calculator-compact::after,
+.pool-info-section::after {
+  content: '';
+  position: absolute;
+  inset: var(--orn-inset, 9px);
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(90 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(180 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(270 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(90 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(180 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(270 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E");
+  -webkit-mask-size: var(--orn-corner-size, 34px 34px);
+  mask-size: var(--orn-corner-size, 34px 34px);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: left top, right top, right bottom, left bottom;
+  mask-position: left top, right top, right bottom, left bottom;
+}
+
+/* ── The page as a sheet ────────────────────────────────────────────────
+   Two fixed engraving layers behind the document column: guilloché strands
+   ruled down both page margins, and one watermark rosette bleeding off the
+   right edge. Both sit at z-index -1 inside the view's own stacking
+   context, so they print above the paper and beneath every scrap of
+   content; both are pointer-transparent, so hit-testing never sees them.
+   They appear only once the viewport actually HAS margins to print in —
+   below 1080px the column owns the full width and the page stays clean. */
+.app.pool-detail-view,
+.app.dead-pool-view {
+  isolation: isolate;
+}
+
+.app.pool-detail-view::before,
+.app.dead-pool-view::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--cert-lathe-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+
+.app.pool-detail-view::after,
+.app.dead-pool-view::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--cert-lathe-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+
+@media (min-width: 1080px) {
+  .app.pool-detail-view::before,
+  .app.dead-pool-view::before,
+  .app.pool-detail-view::after,
+  .app.dead-pool-view::after {
+    opacity: 1;
+  }
+}
+
+/* ── Section divider — the engraved rule between the document's clauses ─ */
+.cert-divider {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 0 16px 0;
-  margin-bottom: 8px;
-  border-bottom: 1px solid var(--ui-border);
+  justify-content: center;
+  gap: 16px;
+  max-width: 540px;
+  margin: -8px auto 18px auto;
 }
 
-.pool-detail-container .logo.pool-detail-logo {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text);
-  margin: 0;
-  line-height: 1;
-  cursor: pointer;
-  transition: color 0.2s ease;
+.cert-divider .cert-divider-strand {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 14px;
+  --orn-size: 35px 14px;
 }
 
-.pool-detail-container .logo.pool-detail-logo:hover {
-  color: var(--color-primary);
+/* the lozenge that stops the rule — a plain rotated hairline square, no
+   glyph, no icon font */
+.cert-divider-node {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  border: 1px solid var(--cert-rule-strong);
+  background: var(--cert-paper);
 }
 
+/* ── Ambient motion — the ornament layer only ───────────────────────────
+   The four @keyframes (ornDrift/ornTurn/ornTurnCentered/ornBreathe) moved
+   to style.css with the rest of the hoisted primitive (item 247 follow-
+   up) — a @keyframes name is a global, file-independent identifier, so
+   every `animation:` reference below still resolves exactly as before as
+   long as style.css loads first (it does — see home.html's mode-
+   conditional CSS script, which always appends this file's <link> after
+   the always-on style.min.css one). These four cycles run 88–124s on the
+   decorative layers alone, in transform and opacity exclusively, so the
+   compositor owns every frame and the main thread stays at zero while the
+   page idles. Peak travel is well under a pixel per second: the
+   watermark's ±0.9° on a 270px radius is ~8.5px of arc across two full
+   minutes. Nothing here is in sync with anything else — the durations are
+   deliberately coprime so the layers never pulse together and betray
+   themselves as an effect. Every one of them is switched OFF, not
+   shortened, under prefers-reduced-motion (see the end of this file). */
+@media (min-width: 1080px) {
+  .app.pool-detail-view::before,
+  .app.dead-pool-view::before {
+    animation: ornDrift 113s ease-in-out infinite alternate;
+  }
+
+  .app.pool-detail-view::after,
+  .app.dead-pool-view::after {
+    animation: ornTurn 124s ease-in-out infinite alternate,
+               ornBreathe 97s ease-in-out infinite alternate;
+  }
+}
+
+.pool-hero-content::before { animation: ornBreathe 88s ease-in-out infinite alternate; }
+.pool-hero-content::after  { animation: ornBreathe 101s ease-in-out infinite alternate; }
+.pool-action-apy::before   { animation: ornTurnCentered 109s ease-in-out infinite alternate; }
+.cert-divider .cert-divider-strand { animation: ornBreathe 94s ease-in-out infinite alternate; }
+.pool-hero-actions::after  { animation: ornBreathe 118s ease-in-out infinite alternate; }
+.pool-cta-echo::after      { animation: ornBreathe 106s ease-in-out infinite alternate; }
+.app.pool-detail-view .app-footer::before { animation: ornBreathe 91s ease-in-out infinite alternate; }
+
+/* ── Page ground ───────────────────────────────────────────────────────── */
+.app.pool-detail-view {
+  background: var(--cert-paper);
+  font-family: var(--cert-sans);
+  color: var(--cert-ink);
+  /* 247 world follow-up: the chrome band above is now the SAME
+     `.app-header-sticky` the grid uses (position: fixed, style.css) instead
+     of a pool-view-local in-flow header, so the document needs its own
+     clearance to keep from starting underneath it. One row only (no
+     nav-tabs row here) — var(--ui-header-h) + its 1px border-bottom. */
+  padding-top: calc(var(--ui-header-h) + 1px);
+}
+
+.pool-detail-container {
+  min-height: 100vh;
+  background: transparent;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 28px 20px 40px 20px;
+  font-family: var(--cert-sans);
+  color: var(--cert-ink);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Every interactive element inside the document keeps a visible focus. */
+.pool-detail-view button:focus-visible,
+.pool-detail-view a:focus-visible,
+.pool-detail-view input:focus-visible {
+  outline: 2px solid var(--cert-green);
+  outline-offset: 2px;
+}
+
+/* ── Return line ───────────────────────────────────────────────────────── */
 .pool-breadcrumb {
-  margin-bottom: 16px;
+  margin: 10px 0 18px 0;
 }
 
 .pool-breadcrumb-back {
   background: none;
   border: none;
-  padding: 8px 0;
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-text-secondary);
+  padding: 6px 0;
+  font-family: var(--cert-sans);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--cert-ink-3);
   cursor: pointer;
   transition: color 0.2s ease;
 }
 
 .pool-breadcrumb-back:hover,
 .pool-breadcrumb-back:focus-visible {
-  color: var(--color-primary);
-}
-
-/* Ensure back button is visible */
-.back-to-results-btn {
-  display: flex !important;
-  align-items: center;
-  gap: var(--space-8);
-  z-index: 10;
+  color: var(--cert-green);
 }
 
 .pool-detail-empty {
   text-align: center;
-  padding: var(--space-32);
-  color: var(--color-text-secondary);
-}
-
-/* Back Navigation */
-.back-to-results-btn {
-  /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
-  display: flex;
-  align-items: center;
-  gap: var(--space-8);
-  margin-bottom: var(--space-24);
-  background: var(--color-background);
-  border: 1px solid var(--ui-border);
-  color: var(--color-text);
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.back-to-results-btn:hover {
-  border-color: var(--ui-border-strong);
-  transform: translateY(-1px);
-  color: var(--color-primary);
-}
-
-/* Pool Info Section Enhancements */
-.pool-info-header:hover .pool-info-toggle {
-  border-color: var(--ui-border-strong);
-  transform: translateY(-1px);
-}
-
-/* Explorer link styling */
-.pool-info-content a[href*="blockscan.com"]:hover {
-  transform: translateY(-1px);
-  border-color: var(--ui-border-strong);
-  background: var(--color-primary);
-  color: white;
-}
-
-.back-to-results-btn:active {
-  transform: translateY(1px);
-  background: var(--ui-surface-muted);
-}
-
-.back-arrow {
-  font-size: var(--font-size-lg);
-  font-weight: bold;
+  padding: 48px 24px;
+  color: var(--cert-ink-2);
+  font-family: var(--cert-sans);
 }
 
 .back-button {
-  /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: var(--space-8);
-  border: 1px solid var(--ui-border);
-  background: var(--color-background);
-  color: var(--color-text);
+  gap: 8px;
+  margin-top: 12px;
+  padding: 0 18px;
+  height: 40px;
+  border: 1px solid var(--cert-rule-strong);
+  border-radius: 4px;
+  background: var(--cert-vellum);
+  color: var(--cert-ink);
+  font-family: var(--cert-sans);
+  font-size: 14px;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: border-color 0.2s ease, background 0.2s ease;
 }
 
 .back-button:hover {
-  border-color: var(--ui-border-strong);
-  background: var(--ui-surface-muted);
-  transform: translateY(-1px);
-  color: var(--color-primary);
+  border-color: var(--cert-green);
+  color: var(--cert-green);
+  background: var(--cert-vellum);
 }
 
 .back-button:active {
   transform: translateY(1px);
-  background: var(--ui-surface-muted);
+  background: var(--cert-paper-deep);
 }
 
-.breadcrumbs {
-  display: flex;
-  align-items: center;
-  gap: var(--space-8);
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-sm);
-  flex: 1;
-}
-
-.breadcrumb-separator {
-  opacity: 0.5;
-}
-
-.breadcrumb-current {
-  color: var(--color-text);
-  font-weight: var(--font-weight-medium);
-}
-
-/* Pool Detail Header */
-.pool-detail-header {
-  background: var(--color-background);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  padding: var(--space-32);
-  margin-bottom: var(--space-32);
-}
-
-.pool-detail-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: var(--space-24);
-}
-
-.pool-detail-info {
-  flex: 1;
-}
-
-/* 225 round 3b: mono skin dropped — body family, 700 (no monospace face
-   anywhere in the product; DESIGN.md typography). */
-.pool-symbol-large {
-  font-size: var(--font-size-4xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text);
-  margin-bottom: var(--space-8);
-  line-height: 1.2;
-}
-
-.pool-main-info {
-  flex: 1;
-}
-
-.pool-meta-info {
-  display: flex;
-  align-items: center;
-  gap: var(--space-12);
-  margin-bottom: var(--space-16);
-  color: var(--color-text-secondary);
-}
-
-.pool-project {
-  font-size: var(--font-size-lg);
-  color: var(--color-text);
-  font-weight: var(--font-weight-medium);
-}
-
-.pool-chain {
-  font-size: var(--font-size-base);
-  color: var(--color-primary);
-  font-weight: var(--font-weight-medium);
-}
-
-.separator {
-  opacity: 0.6;
-  font-weight: normal;
-}
-
-.protocol-name {
-  font-size: var(--font-size-lg);
-  color: var(--color-text);
-  font-weight: var(--font-weight-medium);
-}
-
-.protocol-link {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-4);
-  color: var(--color-primary);
-  text-decoration: none;
-  font-size: var(--font-size-sm);
-  padding: var(--space-4) var(--space-8);
-  background: var(--color-background);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-pill);
-  transition: all 0.2s ease;
-}
-
-.protocol-link:hover {
-  border-color: var(--ui-border-strong);
-  transform: translateY(-1px);
-}
-
-.pool-type-badge {
-  /* height/padding/border-radius/font owned by the shared chip rule, style.css end.
-     225 round 3b: sentence case + neutral text (metadata chips never spend
-     the accent at rest, never shout in caps — DESIGN.md sentence-case rule). */
-  display: inline-flex;
-  align-items: center;
-  background: var(--color-background);
-  color: var(--color-text-secondary);
-  border: 1px solid var(--ui-border);
-  text-transform: none;
-  letter-spacing: normal;
-  white-space: nowrap;
-}
-
-.pool-detail-apy {
-  text-align: right;
-}
-
-.apy-label {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  margin-bottom: var(--space-4);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.apy-value-large {
-  font-size: var(--font-size-4xl);
-  font-weight: var(--font-weight-black);
-  color: var(--color-primary);
-  background: var(--ui-surface-sunken);
-  padding: var(--space-16) var(--space-24);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  display: inline-block;
-}
-
-/* Pool Metrics Row */
-.pool-metrics-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--space-20);
-  margin-top: var(--space-24);
-}
-
-.metric-card {
-  background: var(--color-background);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  padding: var(--space-20);
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.metric-card:hover {
-  border-color: var(--ui-border-strong);
-  transform: translateY(-2px);
-}
-
-.metric-card.highlight {
-  background: linear-gradient(135deg, var(--color-background), var(--color-forest-light));
-  border: 1px solid var(--ui-border);
-}
-
-.apy-value {
-  color: var(--color-primary);
-  font-weight: var(--font-weight-black);
-}
-
-.apy-breakdown-toggle {
-  margin-top: var(--space-8);
-  padding: var(--space-4) var(--space-8);
-  background: var(--color-background);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-sm);
-  color: var(--color-primary);
-  font-size: var(--font-size-xs);
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.apy-breakdown-toggle:hover {
-  border-color: var(--ui-border-strong);
-}
-
-.metric-label {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  margin-bottom: var(--space-8);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font-weight: var(--font-weight-medium);
-}
-
-.metric-value {
-  font-size: var(--font-size-2xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text);
-}
-
-.metric-subvalue {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  margin-top: var(--space-4);
-}
-
-/* APY Breakdown Details */
-.apy-breakdown-details {
-  margin-top: var(--space-16);
-  padding: var(--space-16);
-  background: var(--ui-surface-sunken);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-}
-
-.breakdown-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: var(--space-8) 0;
-}
-
-.breakdown-item:not(:last-child) {
-  border-bottom: 1px solid rgba(59, 130, 246, 0.1);
-}
-
-.breakdown-label {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-}
-
-.breakdown-value {
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
-}
-
-/* Yield Calculator Section */
-.yield-calculator-section {
-  background: var(--color-background);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  padding: var(--space-32);
-  margin-top: var(--space-32);
-}
-
-.section-title {
-  font-size: var(--font-size-2xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text);
-  margin-bottom: var(--space-24);
-  text-align: center;
-}
-
-.calculator-card {
-  /* border-radius/padding owned by the shared card rule, style.css end */
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-}
-
-.investment-input-group {
-  margin-bottom: var(--space-32);
-  text-align: center;
-}
-
-.input-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-8);
-  margin: var(--space-16) 0;
-}
-
-.currency-symbol {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text-secondary);
-}
-
-.amount-input {
-  /* height/padding/border-radius/font owned by the shared text-input rule, style.css end */
-  width: 200px;
-  border: 1px solid var(--ui-border-strong);
-  background: var(--color-background);
-  color: var(--color-text);
-  text-align: center;
-  outline: none;
-  transition: all 0.2s ease;
-}
-
-.amount-input:focus {
-  border-color: var(--ui-accent);
-  box-shadow: var(--ui-focus-ring);
-}
-
-.quick-amounts {
-  display: flex;
-  gap: var(--space-12);
-  justify-content: center;
-  margin-top: var(--space-16);
-}
-
-.quick-amount-btn {
-  /* height/padding/border-radius/font owned by the shared chip rule, style.css end */
-  border: 1px solid var(--ui-border);
-  background: var(--color-background);
-  color: var(--color-text-secondary);
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.quick-amount-btn:hover {
-  border-color: var(--ui-border-strong);
-  transform: translateY(-1px);
-}
-
-.quick-amount-btn.active {
-  background: var(--ui-accent-soft);
-  border-color: var(--ui-accent-border);
-  color: var(--color-primary);
-}
-
-.input-label {
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-text);
-  margin-bottom: var(--space-8);
-  display: block;
-}
-
-
-/* Yield Results Grid */
-.yield-results-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--space-16);
-  margin-bottom: var(--space-24);
-}
-
-.yield-result-card {
-  background: var(--color-background);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  padding: var(--space-16);
-  text-align: center;
-  transition: all 0.2s ease;
-}
-
-.yield-result-card:hover {
-  border-color: var(--ui-border-strong);
-  transform: translateY(-1px);
-}
-
-.yield-period {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  font-weight: var(--font-weight-medium);
-  margin-bottom: var(--space-4);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.yield-amount {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
-  margin-bottom: var(--space-4);
-}
-
-.yield-rate {
-  font-size: var(--font-size-xs);
-  color: var(--color-text-secondary);
-  font-style: italic;
-}
-
-.yield-disclaimer {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  text-align: center;
-  font-style: italic;
-  padding: var(--space-16);
-  background: var(--color-surface);
-  border-radius: var(--ui-radius-sm);
-  border-left: 3px solid var(--color-primary);
-}
-
-/* Call to Action Section */
-.cta-section {
-  text-align: center;
-  margin-top: var(--space-24);
-}
-
-.start-earning-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-8);
-  padding: var(--space-16) var(--space-32);
-  background: var(--color-primary);
-  color: white;
-  border: 1px solid transparent;
-  border-radius: var(--ui-radius-md);
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-bold);
-  letter-spacing: 0.025em;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  text-decoration: none;
-  position: relative;
-  overflow: hidden;
-}
-
-.start-earning-btn::before { display: none; }
-
-.start-earning-btn:hover {
-  background: var(--color-primary-hover);
-}
-
-.start-earning-btn:active {
-  transform: translateY(1px);
-  background: var(--color-primary-active);
-}
-
-.start-earning-btn.primary {
-  background: var(--color-primary);
-}
-
-.arrow {
-  font-weight: bold;
-  transition: transform 0.2s ease;
-}
-
-.start-earning-btn:hover .arrow {
-  transform: translateX(2px);
-}
-
-/* Additional Information Section */
-.additional-info-section {
-  background: var(--color-background);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  padding: var(--space-32);
-  margin-top: var(--space-32);
-}
-
-.section-subtitle {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text);
-  margin-bottom: var(--space-20);
-  text-align: center;
-}
-
-
-.info-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-20);
-}
-
-.info-item {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-8);
-  padding: var(--space-16);
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-}
-
-.info-item.full-width {
-  grid-column: 1 / -1;
-}
-
-.info-label {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  font-weight: var(--font-weight-medium);
-}
-
-.info-value {
-  font-size: var(--font-size-base);
-  color: var(--color-text);
-  font-weight: var(--font-weight-semibold);
-  word-break: break-all;
-}
-
-.tokens-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-8);
-  margin-top: var(--space-4);
-}
-
-.token-badge {
-  display: inline-flex;
-  align-items: center;
-  padding: var(--space-4) var(--space-8);
-  background: var(--color-background);
-  color: var(--color-text);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-pill);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-}
-
-.token-badge.reward {
-  background: var(--color-primary);
-  color: white;
-}
-
-/* Risk Indicators */
-/* Risk Disclaimer */
-.risk-disclaimer {
-  background: rgba(255, 193, 7, 0.1);
-  border: 1px solid rgba(255, 193, 7, 0.3);
-  border-radius: var(--ui-radius-lg);
-  padding: var(--space-20);
-  margin-top: var(--space-32);
-}
-
-.disclaimer-title {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-bold);
-  color: #ff6b35;
-  margin-bottom: var(--space-12);
-  display: flex;
-  align-items: center;
-  gap: var(--space-8);
-}
-
-.risk-disclaimer p {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  line-height: 1.5;
-  margin: 0;
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .pool-detail-container {
-    padding: 20px 16px 16px 16px;
-  }
-
-  /* 225 round 3c: the header keeps its single row at every viewport — the
-     old stacked-column mobile header (logo / breadcrumb pill / controls,
-     three rows of chrome) is retired. */
-
-  .pool-hero-card {
-    margin-bottom: 24px;
-  }
-
-  .quick-metrics {
-    margin-bottom: 24px;
-  }
-
-  .pool-detail-header {
-    padding: var(--space-20);
-  }
-
-  .pool-metrics-row {
-    grid-template-columns: 1fr;
-  }
-
-  .yield-results-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .info-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .quick-amounts {
-    flex-wrap: wrap;
-  }
-
-  .amount-input {
-    width: 150px;
-  }
-
-  .yield-calculator-section,
-  .additional-info-section {
-    padding: var(--space-20);
-  }
-}
-
-/* ═══ 225 round 3c — recomposed hero: one panel, one relationship ═══
-   Identity (left) faces the headline metric + its honest qualifier (right);
-   one action band closes the panel. Flat at rest — no hover lift, no
-   gradient overlay, no gradient text (craft-floor bans). */
+/* ═══ THE CERTIFICATE ════════════════════════════════════════════════════
+   One engraved document: frame, lathework bands, title, the denomination
+   (Total APY) over its rosette underprint, the honest qualifier as the
+   document's condition clause, the endorsement row, and one action band. */
 .pool-hero-card {
-  background: var(--color-surface);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  /* padding lives on .pool-hero-content / .pool-hero-actions — override the
-     shared hero-card 24px (style.css) so the action band can run full-bleed
-     to the panel edge. */
+  position: relative;
+  background: var(--cert-vellum);
+  border: 1px solid var(--cert-rule-strong);
+  border-radius: 2px;
   padding: 0;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   overflow: hidden;
+  isolation: isolate;
+}
+
+/* corner quoins — the frame's engraved corners, from the shared
+   .orn-corners primitive (inset to sit just inside the inner rule) */
+.pool-hero-card::after {
+  --orn-inset: 11px;
+  --orn-corner-size: 34px 34px;
+  --orn-ink: var(--cert-lathe);
+  z-index: 0;
+}
+
+/* an anomalous document prints its security work in caution ink — the same
+   rail the carmine rate and the warning slips enforce, carried into the
+   engraving so the whole sheet reads "handle with care", not "jackpot". */
+.pool-hero-card.is-anomalous::after,
+.pool-hero-card.is-anomalous .pool-action-apy::before {
+  --orn-ink: var(--cert-lathe-caution);
+}
+
+.pool-hero-card.is-anomalous {
+  border-color: var(--cert-red);
+}
+
+/* …and the rate itself. Intaglio green is this world's ink for money that
+   actually arrives; a rate past the sanity limit is a caution, so it prints
+   in the serial ink the warning slips use. Presentation only — the rail
+   (flag, demote, forced High risk, no projection) is untouched. */
+.pool-hero-card.is-anomalous .apy-value-hero,
+.pool-hero-card.is-anomalous .pool-action-apy-breakdown {
+  color: var(--cert-red);
+}
+
+/* inner double rule — the engraver's frame */
+.pool-hero-card::before {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border: 1px solid var(--cert-rule);
+  border-radius: 1px;
+  pointer-events: none;
+  z-index: 0;
 }
 
 .pool-hero-content {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
-  gap: 32px;
-  padding: 32px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0;
+  padding: 30px 40px 34px 40px;
+  position: relative;
 }
 
-.pool-hero-identity {
-  min-width: 0;
+/* top lathework band — geometry now comes from the shared .orn-band rule
+   (assets/guilloche-band.svg); only the strip's own box lives here */
+.pool-hero-content::before {
+  content: '';
+  order: -1;
+  width: min(420px, 86%);
+  height: 20px;
+  margin-bottom: 22px;
+  --orn-ink: var(--cert-lathe);
+}
+
+/* bottom lathework band closes the document body */
+.pool-hero-content::after {
+  content: '';
+  order: 99;
+  width: min(420px, 86%);
+  height: 20px;
+  margin-top: 26px;
+  --orn-ink: var(--cert-lathe);
+}
+
+/* identity and metric dissolve into the certificate's single column;
+   their children are ordered as a document reads */
+.pool-hero-identity,
+.pool-hero-metric {
+  display: contents;
 }
 
 .pool-symbol-hero {
-  font-size: var(--font-size-4xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text);
-  line-height: 1.1;
-  margin: 0 0 8px 0;
+  order: 1;
+  font-family: var(--cert-serif);
+  font-size: clamp(30px, 5vw, 44px);
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  color: var(--cert-ink);
+  line-height: 1.12;
+  margin: 0 0 6px 0;
   overflow-wrap: anywhere;
+  max-width: 100%;
 }
 
 .pool-meta-simplified {
-  font-size: var(--font-size-lg);
-  color: var(--color-text-secondary);
-  margin-bottom: 20px;
+  order: 2;
+  font-family: var(--cert-sans);
+  font-size: 15px;
+  color: var(--cert-ink-2);
+  margin: 0 0 26px 0;
   overflow-wrap: anywhere;
 }
 
 .pool-meta-simplified .protocol-name {
-  color: var(--color-text);
-  font-weight: var(--font-weight-semibold);
+  color: var(--cert-ink);
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .pool-meta-simplified .chain-name {
-  color: var(--color-text-secondary);
+  color: var(--cert-ink-2);
 }
 
-/* One chip language for the hero's metadata row (type + trust + TVL + risk). */
+.pool-meta-simplified .separator {
+  opacity: 0.55;
+  font-weight: 400;
+}
+
+/* the denomination — Total APY over its engine-turned underprint */
+.pool-action-apy {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  padding: 26px 48px 22px 48px;
+  min-width: min(360px, 100%);
+}
+
+.pool-action-apy::before {
+  content: '';
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  background-color: var(--cert-lathe-soft);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  pointer-events: none;
+}
+
+.pool-action-apy > * {
+  position: relative;
+}
+
+.pool-action-apy-label {
+  font-family: var(--cert-serif);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--cert-ink-2);
+  margin-bottom: 6px;
+}
+
+.pool-action-apy .apy-value-hero {
+  font-family: var(--cert-serif);
+  font-size: clamp(54px, 9vw, 76px);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--cert-green);
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+/* anomalous rate — serial ink, never celebrated */
+.pool-detail-view .apy-value-hero.apy-anomalous,
+.pool-detail-view .apy-anomalous {
+  color: var(--cert-red) !important;
+  background: none !important;
+}
+
+.pool-action-apy-breakdown {
+  font-family: var(--cert-sans);
+  font-size: 13px;
+  color: var(--cert-ink-2);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+.pool-action-apy-sep { opacity: 0.4; }
+
+/* the condition clause — the number's honest qualifier, set as document
+   text under a short center rule */
+.pool-hero-qualifier {
+  order: 4;
+  font-family: var(--cert-sans);
+  font-size: 13.5px;
+  color: var(--cert-ink-2);
+  line-height: 1.65;
+  max-width: 58ch;
+  margin: 4px auto 0 auto;
+  padding-top: 14px;
+  position: relative;
+}
+
+.pool-hero-qualifier::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 56px;
+  border-top: 1px solid var(--cert-rule-strong);
+}
+
+/* endorsement row — type · verified · face value · risk classification */
 .trust-indicators {
+  order: 5;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 8px;
+  margin-top: 26px;
 }
 
 .hero-chip {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 4px 10px;
-  background: var(--ui-surface-muted);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-pill);
-  font-size: var(--font-size-xs);
+  gap: 5px;
+  padding: 7px 13px;
+  background: transparent;
+  border: 1px solid var(--cert-rule);
+  border-radius: 3px;
+  font-family: var(--cert-sans);
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
   white-space: nowrap;
-  color: var(--color-text-secondary);
+  color: var(--cert-ink-2);
 }
 
-/* The headline metric and its honest qualifier are ONE unit. */
-.pool-hero-metric {
+/* ── The counterfoil — the part of the document you act on ──────────────
+   Not a tray with two buttons parked in it: a detachable stub, separated
+   from the certificate above by a printed tear rule (two hairlines 4px
+   apart), opened by its own lathework strip, and carrying one instrument
+   at full plate weight with its countersignature beneath. The ground is an
+   OPAQUE tint — see --cert-band. */
+.pool-hero-actions,
+.pool-cta-echo {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  min-width: 0;
+  align-items: center;
+  gap: 0;
+  position: relative;
+  z-index: 1;
+  background: var(--cert-band);
+  border-top: 1px solid var(--cert-rule-strong);
+  text-align: center;
 }
 
-.pool-action-apy {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 4px;
-}
-
-.pool-action-apy-label {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-text-secondary);
-}
-
-.pool-action-apy .apy-value-hero {
-  font-size: 40px;
-  font-weight: var(--font-weight-bold);
-  font-variant-numeric: tabular-nums;
-  color: var(--color-text);
-  line-height: 1.05;
-}
-
-.pool-action-apy-breakdown {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  font-variant-numeric: tabular-nums;
-  line-height: 1.4;
-}
-
-.pool-action-apy-sep { opacity: 0.4; }
-
-/* The rate-quality sentence — plain quiet text under the number it
-   qualifies, never a detached gray well. */
-.pool-hero-qualifier {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  line-height: 1.55;
-  max-width: 44ch;
-}
-
-/* Action band — closes the hero panel. One primary; protocol is the clear
-   secondary. */
 .pool-hero-actions {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 24px;
-  flex-wrap: wrap;
-  padding: 20px 32px;
-  border-top: 1px solid var(--ui-border);
+  padding: 44px 32px 28px 32px;
+}
+
+/* the tear rule's second hairline */
+.pool-hero-actions::before,
+.pool-cta-echo::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid var(--cert-rule);
+  pointer-events: none;
+}
+
+/* the lathework strip that opens the stub */
+.pool-hero-actions::after,
+.pool-cta-echo::after {
+  content: '';
+  position: absolute;
+  top: 17px;
+  left: 50%;
+  margin-left: -130px;
+  width: 260px;
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--cert-lathe);
 }
 
 .pool-hero-action-primary,
 .pool-hero-action-secondary {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  align-items: center;
+  gap: 8px;
   min-width: 0;
+  position: relative;
 }
 
-.pool-hero-actions .cta-button-primary,
-.pool-cta-echo .cta-button-primary {
-  width: auto;
-  padding: 0 24px;
-  height: var(--ui-control-h-lg);
-  min-height: var(--ui-control-h-lg);
+/* the countersignature sits below a dotted rule stopped by a lozenge —
+   the same node the section dividers use, so the page has ONE separator */
+.pool-hero-action-secondary {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 22px;
 }
 
-.pool-hero-actions .cta-button-protocol,
-.pool-cta-echo .cta-button-protocol {
-  width: auto;
-  padding: 0 20px;
+.pool-hero-action-secondary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(280px, 78%);
+  border-top: 1px dotted var(--cert-rule-strong);
 }
 
-.pool-hero-actions .pool-action-hint,
-.pool-cta-echo .pool-action-hint {
-  text-align: left;
+.pool-hero-action-secondary::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  margin-left: -4px;
+  transform: rotate(45deg);
+  border: 1px solid var(--cert-rule-strong);
+  background: var(--cert-band);
 }
 
 .pool-action-hint {
-  font-size: 11px;
-  color: var(--color-text-secondary);
+  font-family: var(--cert-sans);
+  font-size: 12px;
+  color: var(--cert-ink-3);
   text-align: center;
   margin: 0;
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
-.pool-action-hint--muted { opacity: 0.65; }
+.pool-action-hint--muted { opacity: 0.85; }
 
-/* CTA Buttons */
-/* Primary CTA — Garden this pool (our product) */
-.cta-button-primary {
-  /* height/padding/border-radius/font owned by the shared primary-button rule, style.css end */
+/* Primary — the one engraved-green action */
+.pool-detail-view .cta-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   gap: 8px;
-  width: 100%;
-  background: var(--color-primary);
-  color: white;
-  border: 1px solid transparent;
-  letter-spacing: 0.01em;
+  position: relative;
+  width: auto;
+  height: 54px;
+  min-height: 54px;
+  padding: 0 40px;
+  background: var(--cert-green);
+  color: var(--cert-on-green);
+  border: 1px solid var(--cert-green-active);
+  border-radius: 3px;
+  font-family: var(--cert-sans);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  line-height: 1;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: background 0.2s ease;
+  box-sizing: border-box;
 }
 
-/* 225 round 3c P0: the global `a:hover { color: var(--color-primary-hover) }`
-   (style.css) outranks `.cta-button-primary`'s `color: white` — (0,1,1) vs
-   (0,1,0) — so the moment the pointer rests on this anchor (which happens
-   automatically on card-click arrivals: the pointer stays where the card
-   was, and the hero CTA renders under it) the label painted accent-blue on
-   the accent fill: an invisible label on a blue bar. Hover/active must
-   re-assert the label color explicitly. */
-.cta-button-primary:hover {
-  background: var(--color-primary-hover);
-  color: white;
+/* plate mark — the keyline an intaglio press leaves inside an inked field.
+   A hairline drawn in the ink's own light, not a shadow. */
+.pool-detail-view .cta-button-primary::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--cert-on-green);
+  border-radius: 1px;
+  opacity: 0.3;
+  pointer-events: none;
 }
 
-.cta-button-primary:active {
+.pool-detail-view .cta-button-primary:hover {
+  background: var(--cert-green-hover);
+  color: var(--cert-on-green);
+}
+
+.pool-detail-view .cta-button-primary:active {
   transform: translateY(1px);
-  background: var(--color-primary-active);
-  color: white;
+  background: var(--cert-green-active);
+  color: var(--cert-on-green);
 }
 
-/* Secondary CTA — external protocol link */
-.cta-button-protocol {
-  /* height/padding/border-radius/font owned by the shared secondary-button rule, style.css end */
+.pool-detail-view .cta-button-primary:focus-visible {
+  outline: 2px solid var(--cert-ink);
+  outline-offset: 2px;
+}
+
+/* Secondary — quiet countersigned link */
+.pool-detail-view .cta-button-protocol {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   gap: 6px;
-  width: 100%;
-  background: var(--color-surface);
-  color: var(--color-text-secondary);
-  border: 1px solid var(--ui-border);
+  width: auto;
+  height: 42px;
+  min-height: 42px;
+  padding: 0 20px;
+  background: var(--cert-slip);
+  color: var(--cert-ink);
+  border: 1px solid var(--cert-rule-strong);
+  border-radius: 3px;
+  font-family: var(--cert-sans);
+  font-size: 13.5px;
+  font-weight: 600;
   letter-spacing: 0.01em;
+  line-height: 1;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: color 0.2s ease, border-color 0.2s ease;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
-.cta-button-protocol:hover {
-  background: var(--ui-surface-muted);
-  border-color: var(--ui-border-strong);
-  color: var(--color-text);
+.pool-detail-view .cta-button-protocol:hover {
+  color: var(--cert-green);
+  border-color: var(--cert-green);
+  background: var(--cert-slip);
 }
 
-.cta-button-protocol:active {
+.pool-detail-view .cta-button-protocol:active {
   transform: translateY(1px);
-  background: var(--ui-surface-muted);
+  background: var(--cert-band-deep);
 }
 
-/* ═══ 225 round 3c — supporting sections: one panel voice ═══ */
-
-/* Shared section header type — supporting sections use the title scale, not
-   competing hero scales. */
+/* ═══ SUPPORTING PANELS — one document voice ════════════════════════════
+   The calculator and the register are sub-documents of the same sheet:
+   the hero's outer rule weight, the same corner quoins, and an engraved
+   double rule under each section head once it is opened. */
 .pool-section-title {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-text);
+  font-family: var(--cert-serif);
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--cert-ink);
   line-height: 1.3;
 }
 
 .pool-section-sub {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  margin-top: 2px;
+  font-family: var(--cert-sans);
+  font-size: 13px;
+  color: var(--cert-ink-3);
+  margin-top: 3px;
 }
 
-/* Calculator panel (supporting weight). Flat; no lift on expand. */
-.calculator-compact {
-  background: var(--color-surface);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  padding: 20px;
+.calculator-compact,
+.pool-info-section {
+  position: relative;
+  isolation: isolate;
+  background: var(--cert-vellum);
+  border: 1px solid var(--cert-rule-strong);
+  border-radius: 2px;
+  padding: 22px 26px;
   margin-bottom: 24px;
-  transition: padding 0.3s ease;
 }
 
-.calculator-compact.expanded {
-  padding: 24px;
+/* corner quoins, one weight lighter than the certificate's — these are
+   clauses of the document, not the document */
+.calculator-compact::after,
+.pool-info-section::after {
+  --orn-inset: 8px;
+  --orn-corner-size: 28px 28px;
+  --orn-ink: var(--cert-lathe);
+  z-index: 0;
+}
+
+.calculator-header,
+.pool-info-header,
+.calculator-content,
+.pool-info-content {
+  position: relative;
+  z-index: 1;
+}
+
+.calculator-compact.expanded,
+.pool-info-section.expanded {
+  padding: 24px 30px 28px 30px;
+}
+
+.calculator-header,
+.pool-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  gap: 16px;
+}
+
+.calculator-compact.expanded .calculator-header,
+.pool-info-section.expanded .pool-info-header {
+  padding-bottom: 15px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid var(--cert-rule-strong);
+}
+
+/* the head rule's second hairline */
+.calculator-compact.expanded .calculator-header::after,
+.pool-info-section.expanded .pool-info-header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  border-bottom: 1px solid var(--cert-rule);
+  pointer-events: none;
 }
 
 .calculator-toggle,
 .pool-info-toggle {
-  width: 28px;
-  height: 28px;
-  border-radius: var(--ui-radius-pill);
-  background: var(--color-surface);
-  border: 1px solid var(--ui-border);
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid var(--cert-rule);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10px;
-  color: var(--color-text-secondary);
-  transition: transform 0.3s ease, border-color 0.2s ease;
+  color: var(--cert-ink-3);
+  transition: transform 0.3s ease, border-color 0.2s ease, color 0.2s ease;
   flex-shrink: 0;
 }
 
 .calculator-header:hover .calculator-toggle,
 .pool-info-header:hover .pool-info-toggle {
-  border-color: var(--ui-border-strong);
+  border-color: var(--cert-rule-strong);
+  color: var(--cert-ink);
 }
 
-/* Projection — the section's own prose moment, no gray box. */
+.calculator-compact.expanded .calculator-toggle,
+.pool-info-section.expanded .pool-info-toggle {
+  transform: rotate(180deg);
+}
+
+.pool-info-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+/* ── Principal line — the amount written on the document's rule ───────── */
+.investment-input-group {
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.pool-detail-view .input-wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.pool-detail-view .currency-symbol {
+  font-family: var(--cert-serif);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--cert-ink-2);
+}
+
+.pool-detail-view .amount-input {
+  width: 190px;
+  padding: 4px 8px 6px 8px;
+  border: none;
+  border-bottom: 1px solid var(--cert-rule-strong);
+  border-radius: 0;
+  background: transparent;
+  color: var(--cert-ink);
+  font-family: var(--cert-serif);
+  font-size: 26px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s ease;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.pool-detail-view .amount-input::-webkit-outer-spin-button,
+.pool-detail-view .amount-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pool-detail-view .amount-input:focus {
+  border-bottom-color: var(--cert-green);
+  box-shadow: none;
+  outline: none;
+}
+
+.pool-detail-view .amount-input:focus-visible {
+  outline: none;
+  box-shadow: 0 1px 0 0 var(--cert-green);
+}
+
+/* denominations */
+.calc-denominations {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pool-detail-view .quick-amount-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  padding: 5px 13px;
+  border: 1px solid var(--cert-rule);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--cert-ink-2);
+  font-family: var(--cert-sans);
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.pool-detail-view .quick-amount-btn:hover {
+  border-color: var(--cert-rule-strong);
+  color: var(--cert-ink);
+}
+
+.pool-detail-view .quick-amount-btn:active {
+  transform: translateY(1px);
+  background: var(--cert-paper-deep);
+}
+
+.pool-detail-view .quick-amount-btn.active {
+  background: var(--cert-band);
+  border-color: var(--cert-green);
+  color: var(--cert-green);
+}
+
+/* ── The promise clause (projection) ───────────────────────────────────── */
 .pool-projection-card {
   text-align: center;
-  padding: 20px 0;
-  margin-bottom: 20px;
-  border-bottom: 1px solid var(--ui-border);
+  padding: 20px 0 22px 0;
+  margin-bottom: 22px;
+  border-top: 1px solid var(--cert-rule);
+  border-bottom: 1px solid var(--cert-rule);
+  background: none;
 }
 
 .pool-projection-label {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-text-secondary);
-  margin-bottom: 8px;
+  font-family: var(--cert-serif);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--cert-ink-2);
+  margin-bottom: 12px;
 }
 
 .pool-projection-body {
-  font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-text);
-  line-height: 1.45;
-  max-width: 52ch;
+  font-family: var(--cert-serif);
+  font-size: 19px;
+  font-weight: 400;
+  color: var(--cert-ink);
+  line-height: 1.55;
+  max-width: 46ch;
   margin: 0 auto;
   font-variant-numeric: tabular-nums;
 }
 
 .pool-projection-note {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  margin-top: 8px;
-  line-height: 1.4;
+  font-family: var(--cert-sans);
+  font-size: 13px;
+  color: var(--cert-ink-2);
+  margin-top: 10px;
+  line-height: 1.5;
 }
 
-/* Calculator readout — a composed line, not another well. The amount is the
-   section's one strong number: text color, tabular (no gradient text). */
+/* ── Coupon tabs — 1 Day / 7 Days / 30 Days, perforation between ──────── */
+.calc-tabs {
+  display: flex;
+  margin: 0 auto 22px auto;
+  max-width: 380px;
+  border: 1px solid var(--cert-rule);
+  border-radius: 4px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.calc-tab {
+  flex: 1;
+  padding: 10px 12px;
+  border: none;
+  border-left: 1px dashed var(--cert-rule-strong);
+  background: transparent;
+  color: var(--cert-ink-2);
+  font-family: var(--cert-sans);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.calc-tab:first-child { border-left: none; }
+
+.calc-tab:hover { color: var(--cert-ink); }
+
+.calc-tab.active {
+  background: var(--cert-band);
+  color: var(--cert-green);
+}
+
+/* ── The coupon readout ──────────────────────────────────────────────────
+   The second number of record on the sheet, so it gets the same engine-
+   turned underprint the hero denomination does — one size down. */
 .calc-readout {
+  position: relative;
   text-align: center;
-  padding: 4px 0 8px 0;
-  margin-bottom: 12px;
+  padding: 14px 0 12px 0;
+  margin-bottom: 10px;
+}
+
+.calc-readout::before {
+  content: '';
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 216px;
+  height: 216px;
+  transform: translate(-50%, -50%);
+  --orn-ink: var(--cert-lathe-underprint);
+  pointer-events: none;
+  background-color: var(--orn-ink);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  animation: ornTurnCentered 121s ease-in-out infinite alternate;
+}
+
+.calc-readout > * {
+  position: relative;
+}
+
+/* a rate of zero is not an earning — it prints in ink, never in the
+   intaglio green this world reserves for money that actually arrives */
+.calc-readout.is-zero .calc-readout-amount,
+.pool-action-apy.is-zero .apy-value-hero {
+  color: var(--cert-ink-2);
+}
+
+.calc-readout.is-zero::before,
+.pool-action-apy.is-zero::before {
+  opacity: 0.4;
+}
+
+.calc-readout-label {
+  font-family: var(--cert-serif);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--cert-ink-2);
+  margin-bottom: 10px;
+  cursor: help;
+  position: relative;
+  display: inline-block;
 }
 
 .calc-readout-amount {
-  font-size: var(--font-size-3xl);
-  font-weight: var(--font-weight-bold);
+  font-family: var(--cert-serif);
+  font-size: clamp(34px, 6vw, 44px);
+  font-weight: 600;
   font-variant-numeric: tabular-nums;
-  color: var(--color-text);
+  color: var(--cert-green);
   line-height: 1.1;
   margin-bottom: 8px;
-  transition: transform 0.15s ease-out;
 }
 
-/* Slim contextual echo (spec 237) — a closing line for the earnings block,
-   not a second hero card. */
+.calc-readout-basis {
+  font-family: var(--cert-sans);
+  font-size: 13px;
+  color: var(--cert-ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.yield-pulse-active {
+  animation: certInkSettle 0.3s ease-out;
+}
+
+@keyframes certInkSettle {
+  0% { opacity: 0.45; }
+  100% { opacity: 1; }
+}
+
+/* ── Caution slips and conditions ──────────────────────────────────────── */
+.calc-warning {
+  font-family: var(--cert-sans);
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--cert-red);
+  background: var(--cert-red-wash);
+  border: 1px solid var(--cert-red);
+  border-radius: 3px;
+  padding: 10px 14px;
+  margin: 12px auto 0 auto;
+  max-width: 62ch;
+  text-align: center;
+}
+
+.calc-disclaimer {
+  font-family: var(--cert-sans);
+  font-size: 12px;
+  color: var(--cert-ink-3);
+  text-align: center;
+  line-height: 1.5;
+  margin: 14px auto 0 auto;
+  max-width: 62ch;
+}
+
+/* ── Echo band — the coupon sheet's own counterfoil. Same construction as
+   the hero's (shared rule above): tear rule, lathework strip, plate-weight
+   instrument, countersignature. It bleeds to the panel edge so the stub
+   reads as part of the sheet, not a card inside a card. */
 .pool-cta-echo {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 24px;
-  flex-wrap: wrap;
-  margin-top: 24px;
-  padding-top: 20px;
-  border-top: 1px solid var(--ui-border);
+  margin: 24px -30px -28px -30px;
+  padding: 44px 30px 26px 30px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
 }
 
-/* Pool Information — fact ledger rows (the list view's own voice). */
+/* collapsed calculator: the stub still closes the panel cleanly */
+.calculator-compact:not(.expanded) .pool-cta-echo {
+  margin: 20px -26px -22px -26px;
+  padding: 42px 26px 22px 26px;
+}
+
+/* ═══ THE REGISTER (Pool Information) ═══════════════════════════════════ */
+.pool-info-protocol-link {
+  font-family: var(--cert-sans);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cert-ink-3);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.pool-info-protocol-link:hover,
+.pool-info-protocol-link:focus-visible {
+  color: var(--cert-green);
+}
+
+/* marginal annotations — the honesty notes */
+.pool-info-note {
+  font-family: var(--cert-sans);
+  font-size: 13.5px;
+  color: var(--cert-ink-2);
+  line-height: 1.65;
+  margin-bottom: 16px;
+  max-width: 68ch;
+}
+
+/* ledger rows with dot leaders */
 .pool-facts {
   margin-bottom: 4px;
 }
@@ -1072,105 +1374,236 @@
 .pool-fact-row {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 10px 0;
-  border-bottom: 1px solid var(--ui-border);
+  gap: 12px;
+  padding: 9px 0;
 }
 
-.pool-fact-row:last-child {
-  border-bottom: none;
+.pool-fact-row::after {
+  content: '';
+  flex: 1;
+  order: 0;
+  border-bottom: 1px dotted var(--cert-rule-strong);
+  transform: translateY(-4px);
 }
 
 .pool-fact-label {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
+  order: -1;
+  font-family: var(--cert-sans);
+  font-size: 13.5px;
+  color: var(--cert-ink-2);
 }
 
 .pool-fact-value {
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-semibold);
+  order: 1;
+  font-family: var(--cert-sans);
+  font-size: 14px;
+  font-weight: 600;
   font-variant-numeric: tabular-nums;
-  color: var(--color-text);
+  color: var(--cert-ink);
   text-align: right;
 }
 
-/* Quiet honesty notes inside Pool Information (classes/copy unchanged). */
-.pool-info-note {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
-  line-height: 1.55;
-  margin-bottom: 16px;
-  max-width: 72ch;
+/* underlying assets — the register's schedule */
+.pool-tokens-section {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--cert-rule);
 }
 
-.pool-info-protocol-link {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-text-secondary);
+.pool-tokens-label {
+  font-family: var(--cert-serif);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--cert-ink-2);
+  margin-bottom: 10px;
+}
+
+.pool-tokens-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.pool-token-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 11px;
+  background: transparent;
+  border: 1px solid var(--cert-rule);
+  border-radius: 3px;
+  font-family: var(--cert-sans);
+  font-size: 12px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--cert-ink-2);
   text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+a.pool-token-chip {
+  color: var(--cert-green);
+}
+
+a.pool-token-chip:hover {
+  border-color: var(--cert-green);
+  color: var(--cert-green);
+  background: var(--cert-band);
+  transform: none;
+}
+
+/* ── Document foot ─────────────────────────────────────────────────────── */
+.app.pool-detail-view .app-footer {
+  position: relative;
+  margin-top: auto;
+  background: transparent;
+  border-top: 1px solid var(--cert-rule);
+  box-shadow: none;
+  font-family: var(--cert-sans);
+  color: var(--cert-ink-3);
+  text-align: center;
+  padding: 40px 20px 26px 20px;
+  font-size: 12px;
+}
+
+/* the closing lathework — the band that finishes a printed sheet */
+.app.pool-detail-view .app-footer::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--cert-lathe-soft);
+}
+
+.app.pool-detail-view .app-footer p {
+  color: var(--cert-ink-3);
+  font-size: 12px;
+  margin: 0 0 6px 0;
+}
+
+.app.pool-detail-view .app-footer a {
+  color: var(--cert-ink-2);
+  text-decoration: underline;
+  text-decoration-color: var(--cert-rule-strong);
+  text-underline-offset: 2px;
   transition: color 0.2s ease;
 }
 
-.pool-info-protocol-link:hover,
-.pool-info-protocol-link:focus-visible {
-  color: var(--color-primary);
+.app.pool-detail-view .app-footer a:hover {
+  color: var(--cert-green);
+  text-decoration-color: var(--cert-green);
 }
 
-/* Pool Information panel geometry (was inline). */
-.pool-info-section {
-  background: var(--color-surface);
-  border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
-  padding: 20px;
-  margin-bottom: 24px;
-  transition: padding 0.3s ease;
+.app.pool-detail-view {
+  padding-bottom: 0;
+  /* style.css centers `.app:not(.has-results)` both ways (the search
+     homepage's composition); a document flows from the top and fills its
+     column. Scoped here, so the search/grid shells keep their centering. */
+  justify-content: flex-start;
+  align-items: stretch;
 }
 
-.pool-info-section.expanded {
-  padding: 24px;
+.app.pool-detail-view .container {
+  max-width: none;
+  padding: 0;
+  display: block;
+  /* 247 world fix: `.app:not(.has-results) .container` (style.css, "Add
+     slight upward shift for Google-style positioning") also matches here —
+     pool-detail-view never carries `.has-results` — and pulls this column up
+     by 5vh, sliding the certificate's top (title/ornament frame) behind the
+     opaque fixed `.app-header-sticky` band above at rest, worse the taller
+     the viewport. That -5vh belongs to the homepage's centered search
+     composition only; a document view flows from the top against its own
+     `padding-top` clearance (above) instead. */
+  transform: none;
 }
 
-.quick-amount-btn {
-  transition: all 0.2s ease;
+.pool-detail-container {
+  width: 100%;
 }
 
-.quick-amount-btn:hover {
-  border-color: var(--ui-border-strong);
+/* ── Dead-pool notice — the register's honest "no longer issued" page.
+   Scoped to the dead-pool state only (app.js adds .dead-pool-view beside
+   .app on ?pool= arrivals whose id no longer resolves); the grid's own
+   empty states never carry this class. The alternative pool cards inside
+   keep their grid styling — they are the grid's own component. */
+.app.dead-pool-view {
+  background: var(--cert-paper);
 }
 
-.quick-amount-btn:active {
-  transform: translateY(1px);
-  background: var(--ui-surface-muted);
+.app.dead-pool-view .empty-state {
+  position: relative;
+  padding-top: 42px;
+  font-family: var(--cert-sans);
+  color: var(--cert-ink-2);
 }
 
-/* Mobile-First Responsive Design — 225 round 3c: reflow, not shrink-in-place.
-   The hero stacks identity above metric; the action band stacks full-width. */
+/* the same lathework that opens the certificate opens its cancellation
+   notice — the register keeps one voice for what it issues and what it
+   withdraws */
+.app.dead-pool-view .empty-state::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  margin-left: -125px;
+  width: 250px;
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--cert-lathe-soft);
+}
+
+.app.dead-pool-view .empty-state .empty-message {
+  font-family: var(--cert-serif);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--cert-ink);
+}
+
+.app.dead-pool-view .empty-state .empty-submessage {
+  font-family: var(--cert-sans);
+  color: var(--cert-ink-2);
+  line-height: 1.6;
+}
+
+/* ── Responsive: the document folds, never squeezes ────────────────────── */
 @media (max-width: 768px) {
+  .pool-detail-container {
+    padding: 18px 16px 32px 16px;
+  }
+
   .pool-hero-content {
-    grid-template-columns: 1fr;
-    gap: 24px;
-    padding: 20px;
+    padding: 22px 22px 26px 22px;
   }
 
-  .pool-symbol-hero {
-    font-size: var(--font-size-3xl);
+  .pool-action-apy {
+    padding: 20px 20px 16px 20px;
   }
 
-  .pool-meta-simplified {
-    font-size: var(--font-size-base);
-    margin-bottom: 16px;
-  }
-
-  .pool-action-apy .apy-value-hero {
-    font-size: var(--font-size-4xl);
+  .pool-action-apy::before {
+    width: 240px;
+    height: 240px;
   }
 
   .pool-hero-actions {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 16px 20px 20px 20px;
-    gap: 16px;
+    padding: 40px 20px 24px 20px;
+  }
+
+  .pool-hero-actions::after,
+  .pool-cta-echo::after {
+    width: 176px;
+    margin-left: -88px;
+  }
+
+  .pool-detail-view .cta-button-primary {
+    width: 100%;
+    justify-content: center;
   }
 
   .pool-hero-action-primary,
@@ -1178,50 +1611,85 @@
     width: 100%;
   }
 
-  .pool-hero-actions .cta-button-primary,
-  .pool-hero-actions .cta-button-protocol,
-  .pool-cta-echo .cta-button-primary,
-  .pool-cta-echo .cta-button-protocol {
-    width: 100%;
-    justify-content: center;
+  .calculator-compact,
+  .pool-info-section {
+    padding: 18px 18px;
   }
 
-  .pool-hero-actions .pool-action-hint,
-  .pool-cta-echo .pool-action-hint {
-    text-align: center;
+  .calculator-compact.expanded,
+  .pool-info-section.expanded {
+    padding: 20px 20px 24px 20px;
   }
 
   .pool-cta-echo {
-    flex-direction: column;
-    align-items: stretch;
+    margin: 22px -20px -24px -20px;
+    padding: 40px 20px 22px 20px;
   }
 
-  .calculator-compact {
-    padding: 16px;
+  .calculator-compact:not(.expanded) .pool-cta-echo {
+    margin: 18px -18px -18px -18px;
+    padding: 38px 18px 20px 18px;
   }
 
-  .calculator-compact.expanded {
-    padding: 20px;
+  .calculator-compact::after,
+  .pool-info-section::after {
+    --orn-inset: 6px;
+    --orn-corner-size: 22px 22px;
   }
 
-  .pool-info-section {
-    padding: 16px;
+  .cert-divider {
+    max-width: 300px;
+    gap: 12px;
   }
 
-  .pool-info-section.expanded {
-    padding: 20px;
+  .pool-detail-view .cta-button-protocol {
+    width: 100%;
+    justify-content: center;
   }
 }
 
-/* Animation Support */
-.animate-on-mount {
-  animation: fadeInUp 0.5s ease-out;
+@media (max-width: 480px) {
+  .pool-hero-content::before,
+  .pool-hero-content::after {
+    height: 14px;
+    -webkit-mask-size: 160px 14px;
+    mask-size: 160px 14px;
+  }
+
+  .pool-action-apy::before {
+    width: 200px;
+    height: 200px;
+  }
+
+  .calc-readout::before {
+    width: 168px;
+    height: 168px;
+  }
+
+  .pool-hero-card::after {
+    --orn-corner-size: 26px 26px;
+  }
+
+  .calc-tabs { max-width: 100%; }
+
+  .pool-fact-row { flex-wrap: nowrap; }
 }
 
-@keyframes fadeInUp {
+/* ── Mount — one authored moment: the document prints once ─────────────── */
+/* fill-mode must be `both`: style.css's shared .animate-on-mount base holds
+   opacity 0 and expects the animation's end state to persist. */
+.pool-detail-container .animate-on-mount {
+  animation: certPrint 0.5s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+
+.pool-detail-container .pool-hero-card.animate-on-mount { animation-delay: 0.05s; }
+.pool-detail-container .calculator-compact.animate-on-mount { animation-delay: 0.14s; }
+.pool-detail-container .pool-info-section.animate-on-mount { animation-delay: 0.22s; }
+
+@keyframes certPrint {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(6px);
   }
   to {
     opacity: 1;
@@ -1230,137 +1698,63 @@
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-/* High contrast mode support */
+/* ── High contrast ─────────────────────────────────────────────────────── */
 @media (prefers-contrast: high) {
   .pool-hero-card,
-  .metric-card-simple,
   .calculator-compact,
-  .pool-essentials {
-    box-shadow: 0 0 0 2px var(--color-text) !important;
+  .pool-info-section {
+    box-shadow: 0 0 0 2px var(--cert-ink) !important;
   }
 
-  .cta-button-primary {
-    box-shadow: 0 0 0 2px var(--color-primary) !important;
+  .pool-detail-view .cta-button-primary {
+    box-shadow: 0 0 0 2px var(--cert-green) !important;
   }
 }
 
-/* Reduced motion */
+/* ── Reduced motion — the document is simply there ───────────────────────
+   The blanket rule below only reaches ELEMENTS (`*` never matches a
+   pseudo-element), and every ambient cycle in this world lives on a
+   pseudo-element. So the ornament layer gets its own switch, and it is a
+   real OFF — `animation: none`, not a 0.01ms cycle — because these are
+   infinite alternating loops: collapsing their duration would leave them
+   running, only faster. Nothing on this page moves under this query.
+   The bare `.orn-band`/`.orn-strand`/`.orn-rosette`/`.orn-corners` off-
+   switch moved to style.css with the rest of the hoisted primitive (item
+   247 follow-up) — harmless here either way since every pool-detail USE
+   of them is already caught below, either as a pseudo-element (the
+   `*::before`/`*::after` wildcards) or, for the one literal-element case
+   (`.cert-divider-strand`), by its own explicit entry two lines down. */
 @media (prefers-reduced-motion: reduce) {
-  * {
+  .app.pool-detail-view::before,
+  .app.pool-detail-view::after,
+  .app.dead-pool-view::before,
+  .app.dead-pool-view::after,
+  .pool-detail-container *::before,
+  .pool-detail-container *::after,
+  .app.pool-detail-view *::before,
+  .app.pool-detail-view *::after,
+  .app.dead-pool-view *::before,
+  .app.dead-pool-view *::after,
+  .cert-divider .cert-divider-strand {
+    animation: none !important;
+  }
+
+  .pool-detail-container *,
+  .app.pool-detail-view *,
+  .app.dead-pool-view * {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
 
-  .pool-hero-card:hover,
-  .metric-card-simple:hover,
-  .cta-button-primary:hover {
-    transform: none !important;
-  }
-
-  /* Press physics (design-system 225 §3): no transform under reduced
-     motion, only the background swap. */
-  .cta-button-primary:active,
-  .cta-button-protocol:active,
+  .pool-detail-view .cta-button-primary:active,
+  .pool-detail-view .cta-button-protocol:active,
   .back-button:active,
-  .back-to-results-btn:active,
-  .quick-amount-btn:active {
+  .pool-detail-view .quick-amount-btn:active {
     transform: none !important;
   }
-}
-
-/* Pool Detail View Override for App */
-/* Backlog 217: this rule used to include `padding: 0`, which cancelled
-   `.app`'s own `padding-bottom: 80px` (style.css:852, "Space for footer") —
-   the clearance that keeps content out from under the OPAQUE, fixed
-   `.app-footer`. That left the last ~16-80px of pool-detail content
-   permanently occluded at max scroll on every viewport. `.app` has no other
-   padding declaration anywhere in the design system, so the fix is to stop
-   cancelling the shared clearance rather than restate a one-off value here. */
-
-.app.pool-detail-view .container {
-  max-width: none;
-  padding: 0;
-}
-
-/* Backlog 218: the `garden_cta` anchor (pool-detail's hero action card) can
-   sit inside the band the OPAQUE, `position: fixed` `.app-footer`
-   (style.css:2513-2524) paints over — AT SCROLL POSITION 0, before the user
-   has touched anything, not just at max scroll. Measured on the suite's
-   STETH fixture pool at 360x780: CTA rect 703.3-750.3, footer rect 722-780 —
-   the footer physically overlaps the button and `elementFromPoint` at the
-   CTA's lower band returns the footer, so the click never reaches the
-   anchor. Item 217's fix (the block immediately above, which stopped
-   cancelling `.app`'s `padding-bottom: 80px`) only protects the END of the
-   document; it cannot help an element that isn't at the end. The overlap is
-   content-dependent (hero-card height varies by pool), so no clearance
-   value fixes the class — the fix has to remove the overlay on this view
-   instead.
-
-   This is NOT a revert of 217. 217 deleted a `padding: 0` canceller *while
-   the footer was still a fixed overlay*, restoring the clearance that keeps
-   the document's last pixels from under it. That mechanism is still correct
-   for a fixed footer — it's just not sufficient here, because the CTA is
-   mid-document, not at the end. Here the footer itself stops being an
-   overlay on this view: `position: static` puts it back in normal document
-   flow, so nothing on the page — CTA, prose, or the last pixel — can be
-   occluded or click-intercepted at ANY scroll position, on ANY viewport.
-   That makes 217's clearance vestigial ON THIS VIEW ONLY: with the footer
-   in flow, the 80px reserved for it renders as dead background space AFTER
-   an already in-flow footer, so it is cancelled back to 0 here. (`.app`'s
-   shared 80px rule and every other view that relies on it, e.g. the
-   fixed-footer analytics grid, are untouched — this selector only ever
-   matches `.app.pool-detail-view`.)
-
-   `margin-top: auto` is the flex sticky-footer idiom, not a new layout
-   mode: `.app.pool-detail-view` is already `display: flex; flex-direction:
-   column` via `.app:not(.has-results)` (style.css:857-862 — pool-detail
-   carries no `has-results` class), so pushing the now-in-flow footer to the
-   bottom of a short viewport (e.g. a shorter dead-pool render) just needs
-   `margin-top: auto` on that flex child; no flex/grid property is being
-   introduced that wasn't already active on this view. */
-.app.pool-detail-view .app-footer {
-  position: static;
-  margin-top: auto;
-}
-
-.app.pool-detail-view {
-  padding-bottom: 0;
-}
-
-/* Focus states for accessibility */
-.focusable-element:focus-visible {
-  outline: 2px solid var(--color-primary);
-  outline-offset: 2px;
-  box-shadow: var(--ui-focus-ring);
-}
-
-.cta-button-primary:focus-visible {
-  outline: 2px solid white;
-  outline-offset: 2px;
-}
-
-/* Loading states */
-.loading-shimmer {
-  background: linear-gradient(90deg,
-    var(--color-background) 25%,
-    var(--color-surface) 50%,
-    var(--color-background) 75%);
-  background-size: 200% 100%;
-  animation: shimmer 2s infinite;
-}
-
-@keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
 }

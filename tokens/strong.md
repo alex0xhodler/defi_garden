@@ -4,7 +4,7 @@ The highest honest STRONG yield right now is 0.18% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4091cfda-91c5-4c5d-b813-07c2520b5b5d&src=seo_token) | Ethereum | 0.18% | $178.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4091cfda-91c5-4c5d-b813-07c2520b5b5d&src=seo_token) | Ethereum | 0.18% | $178.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STRONG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $178.2K in total.
+1 live pool clear this page's $100K TVL floor, $178.5K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # TOSHI DeFi Yields
 
-The highest honest TOSHI yield right now is 4.88% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TOSHI yield right now is 5.92% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ee01656a-8aa1-465a-bc30-b80d6821edb0&src=seo_token) | Base | 4.88% | $934.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ee01656a-8aa1-465a-bc30-b80d6821edb0&src=seo_token) | Base | 5.92% | $943.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TOSHI yield today?
 
-4.88% APY on uniswap-v3 (Base), based on live DefiLlama data.
+5.92% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many TOSHI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.2M in total.
+3 live pools clear this page's $100K TVL floor, $1.21M in total.
 
 ### Are these rates safe?
 

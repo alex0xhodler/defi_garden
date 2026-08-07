@@ -1,11 +1,11 @@
 # BPT DeFi Yields
 
-The highest honest BPT yield right now is 53.17% on beets-dex (Sonic), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BPT yield right now is 53.01% on beets-dex (Sonic), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 8.62% | $464.9K |
-| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 53.17% | $185.5K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 8.65% | $464.3K |
+| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 53.01% | $185.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BPT yield today?
 
-53.17% APY on beets-dex (Sonic), based on live DefiLlama data.
+53.01% APY on beets-dex (Sonic), based on live DefiLlama data.
 
 ### How many BPT pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $346.25M in total.
+5 live pools clear this page's $100K TVL floor, $346.91M in total.
 
 ### Are these rates safe?
 

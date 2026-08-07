@@ -1,10 +1,10 @@
 # MY DeFi Yields
 
-The highest honest MY yield right now is 0.17% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MY yield right now is 0.20% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=acdeddf4-1866-4070-8f0e-69a1b3513fe5&src=seo_token) | TON | 0.17% | $237.1K |
+| [dedust →](https://www.defi.garden/?pool=acdeddf4-1866-4070-8f0e-69a1b3513fe5&src=seo_token) | TON | 0.20% | $237.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MY yield today?
 
-0.17% APY on dedust (TON), based on live DefiLlama data.
+0.20% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many MY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $237.1K in total.
+1 live pool clear this page's $100K TVL floor, $237.6K in total.
 
 ### Are these rates safe?
 

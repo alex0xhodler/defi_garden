@@ -5,7 +5,7 @@ The highest honest GRVT yield right now is 203.25% on uniswap-v2 (Base), among 2
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=b116b0ab-10a1-5377-926d-55689198dc5b&src=seo_token) | Base | 203.25% | $209.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b81403b0-6bcb-542d-bff7-5207508601df&src=seo_token) | BSC | 194.06% | $116.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b81403b0-6bcb-542d-bff7-5207508601df&src=seo_token) | BSC | 193.71% | $117.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GRVT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $326.2K in total.
+2 live pools clear this page's $100K TVL floor, $327K in total.
 
 ### Are these rates safe?
 

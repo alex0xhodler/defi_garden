@@ -4,7 +4,7 @@ The highest honest WSPYX yield right now is 0.15% on fluxion-network (Mantle), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=247c4969-6eb4-4abd-b073-7c83d0920e82&src=seo_token) | Ethereum | 0.01% | $321.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=247c4969-6eb4-4abd-b073-7c83d0920e82&src=seo_token) | Ethereum | 0.01% | $321.9K |
 | [fluxion-network →](https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03&src=seo_token) | Mantle | 0.15% | $108.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WSPYX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $969.3K in total.
+3 live pools clear this page's $100K TVL floor, $969.7K in total.
 
 ### Are these rates safe?
 

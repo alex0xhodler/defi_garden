@@ -1,12 +1,12 @@
 # MON 디파이 수익률
 
-현재 MON의 가장 높은 정직한 수익률은 Monad의 uniswap-v4에서 8.81%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MON의 가장 높은 정직한 수익률은 Monad의 uniswap-v4에서 8.80%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token) | Monad | 8.81% | $2M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token) | Monad | 4.70% | $1.44M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token) | Monad | 5.81% | $1.37M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token) | Monad | 8.80% | $2M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token) | Monad | 4.71% | $1.44M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token) | Monad | 5.82% | $1.37M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&src=seo_token) | Monad | 0.01% | $1.32M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -15,7 +15,7 @@
 
 ### 오늘 MON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 uniswap-v4에서 APY 8.81%예요.
+DefiLlama 실시간 데이터 기준, Monad의 uniswap-v4에서 APY 8.80%예요.
 
 ### MON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -27,12 +27,12 @@ DefiLlama 실시간 데이터 기준, Monad의 uniswap-v4에서 APY 8.81%예요.
 
 ## 관련 토큰
 
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [AUSD](https://www.defi.garden/ko/tokens/ausd)
+- [BTC](https://www.defi.garden/ko/tokens/btc)
 
 ## 이용 가능한 체인
 

@@ -4,8 +4,8 @@ The highest honest GRASS yield right now is 0.02% on orca-dex (Solana), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token) | Solana | 4.67% | $236.3K |
-| [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $139.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token) | Solana | 4.20% | $236.2K |
+| [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $138.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GRASS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $497.5K in total.
+3 live pools clear this page's $100K TVL floor, $496.5K in total.
 
 ### Are these rates safe?
 

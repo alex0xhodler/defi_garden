@@ -24,50 +24,54 @@
     <meta name="twitter:image" content="https://www.defi.garden/og/chains/arbitrum.png">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <!-- Reuse the app's design system: style.css defines the neumorphic tokens
-         (--color-*, --neuro-*) + the brand gradient body. The scoped block below
-         styles this page with those tokens only — no hardcoded colors/gradients. -->
+    <!-- Reuse the app's design system (247 world): style.css defines the
+         --ui-* certificate-green tokens (the --color-*/--neuro-* names below
+         are its deprecated aliases, still resolving) + Besley/Public Sans,
+         preloaded above. The scoped block below styles this page with those
+         tokens only — no hardcoded colors/gradients/fonts. -->
+    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/style.css">
     <style>
       .cp-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .cp-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
-      .cp-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
-      .cp-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
-      .cp-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 8px 18px; margin: 20px 0; }
+      .cp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .cp-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .cp-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .cp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 8px 18px; margin: 20px 0; }
       .cp-card table { width: 100%; border-collapse: collapse; }
-      .cp-card th, .cp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
-      .cp-card th { color: var(--color-text-secondary); font-weight: 600; }
-      .cp-card td.num, .cp-card th.num { text-align: right; }
+      .cp-card th, .cp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
+      .cp-card th { color: var(--ui-text-secondary); font-weight: 600; }
+      .cp-card td.num, .cp-card th.num { text-align: right; font-variant-numeric: tabular-nums; }
       .cp-card tr:last-child td { border-bottom: none; }
       .cp-card tbody tr { transition: background .15s ease; }
-      .cp-card tbody tr:hover { background: var(--color-background); }
-      .cp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .cp-card tbody tr:hover { background: var(--ui-surface-muted); }
+      .cp-pool-link { color: var(--ui-accent); text-decoration: none; font-weight: 500; }
       .cp-pool-link:hover { text-decoration: underline; }
-      .cp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      .cp-pool-link:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
       @media (prefers-reduced-motion: reduce) { .cp-card tbody tr { transition: none; } }
-      .cp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
-      .cp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-      .cp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
-      .cp-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+      .cp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .cp-cta:hover { background: var(--ui-accent-hover); }
+      .cp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .cp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .related { margin: 30px 0 8px; }
-      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
-      .related-links a:hover { box-shadow: var(--neuro-shadow-flat); }
-      .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
-      .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-      .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
-      .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
-      .cp-yield-headline { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); padding: 14px 18px; margin: 4px 0 18px; color: var(--color-text); font-weight: 600; line-height: 1.5; }
+      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .related-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .related-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .related-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .cp-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--ui-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-yield-headline { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 4px 0 18px; color: var(--ui-text); font-weight: 600; line-height: 1.5; }
       .cp-faq { margin: 30px 0 8px; }
-      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
-      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
-      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .cp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
-      @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
-      .cp-waitlist { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 20px 22px; margin: 24px 0; }
-      .cp-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--color-text); }
-      .cp-waitlist p { color: var(--color-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
+      @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .cp-waitlist { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 20px 22px; margin: 24px 0; }
+      .cp-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--ui-text); }
+      .cp-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
       .cp-waitlist .cp-cta { margin: 4px 0 10px; }
       .cp-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
     </style>
@@ -90,8 +94,8 @@
     <h1>Arbitrum 디파이 수익률</h1>
     <p class="cp-answer">현재 Arbitrum의 가장 높은 정직한 수익률은 Arbitrum의 usd-ai에서 7.42%이며, $100K TVL 기준을 넘는 454개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.</p>
     <p class="sub">$100K TVL 기준을 넘는 실시간 풀 454개 · TVL 순 정렬</p>
-    <p class="intro">Arbitrum의 가장 큰 실시간 풀은 sky-lending(SUSDS)로, APY 3.52%(TVL $361.44M)예요. 풀 454개가 225개 토큰에 걸쳐 이 페이지의 $100K TVL 기준을 통과했고, 합산 TVL은 $2.45B이에요.</p>
-    <p class="cp-yield-headline">Arbitrum의 유휴 자산으로 약 4.12%의 수익을 낼 수 있어요 — $5.8K를 예치하면 월 $20 Claude Pro 구독료를 영원히 낼 수 있어요.</p>
+    <p class="intro">Arbitrum의 가장 큰 실시간 풀은 sky-lending(SUSDS)로, APY 3.52%(TVL $361.48M)예요. 풀 454개가 225개 토큰에 걸쳐 이 페이지의 $100K TVL 기준을 통과했고, 합산 TVL은 $2.45B이에요.</p>
+    <p class="cp-yield-headline">Arbitrum의 유휴 자산으로 약 4.13%의 수익을 낼 수 있어요 — $5.8K를 예치하면 월 $20 Claude Pro 구독료를 영원히 낼 수 있어요.</p>
     <a class="cp-cta" href="https://www.defi.garden/?chain=Arbitrum&minTvl=100000&src=seo_chain">Arbitrum의 실시간 풀 보기 →</a>
     <div class="cp-card">
     <div class="scroll">
@@ -104,25 +108,25 @@
           <td>SUSDS</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_chain">sky-lending &rarr;</a></td>
           <td class="num">3.52%</td>
-          <td class="num">$361.44M</td>
+          <td class="num">$361.48M</td>
         </tr>
         <tr>
           <td>USDS</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_chain">spark-savings &rarr;</a></td>
           <td class="num">3.52%</td>
-          <td class="num">$361.44M</td>
+          <td class="num">$361.48M</td>
         </tr>
         <tr>
           <td>SUSDAI</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_chain">usd-ai &rarr;</a></td>
           <td class="num">7.42%</td>
-          <td class="num">$352.63M</td>
+          <td class="num">$352.67M</td>
         </tr>
         <tr>
           <td>WBTC</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_chain">aave-v3 &rarr;</a></td>
           <td class="num">0.05%</td>
-          <td class="num">$165.35M</td>
+          <td class="num">$165.4M</td>
         </tr>
         <tr>
           <td>USDAI</td>
@@ -139,14 +143,14 @@
         <tr>
           <td>WBTC.B-USDC</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_chain">gmx-v2-perps &rarr;</a></td>
-          <td class="num">4.76%</td>
-          <td class="num">$43.67M</td>
+          <td class="num">4.74%</td>
+          <td class="num">$43.68M</td>
         </tr>
         <tr>
           <td>USD₮0</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=9f9b14d8-4eaa-4718-85e9-43ca843f6dc6&src=seo_chain">fluid-lending &rarr;</a></td>
-          <td class="num">4.72%</td>
-          <td class="num">$43.08M</td>
+          <td class="num">4.77%</td>
+          <td class="num">$43.1M</td>
         </tr>
       </tbody>
     </table>

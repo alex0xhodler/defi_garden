@@ -4,8 +4,8 @@ The highest honest SUSDAI yield right now is 10.19% on pendle (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.42% | $352.63M |
-| [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.05% | $17.88M |
+| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.42% | $352.67M |
+| [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.04% | $17.88M |
 | [fluid-dex →](https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token) | Arbitrum | 0.30% | $17.63M |
 | [pendle →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.88% | $12.72M |
 | [pendle →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 9.64% | $12.72M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSDAI pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $621.51M in total.
+19 live pools clear this page's $100K TVL floor, $621.53M in total.
 
 ### Are these rates safe?
 

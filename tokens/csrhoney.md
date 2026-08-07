@@ -4,7 +4,7 @@ The highest honest CSRHONEY yield right now is 6.62% on berapaw (Berachain), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e&src=seo_token) | Berachain | 6.62% | $2.47M |
+| [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e&src=seo_token) | Berachain | 6.62% | $2.51M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSRHONEY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.47M in total.
+1 live pool clear this page's $100K TVL floor, $2.51M in total.
 
 ### Are these rates safe?
 

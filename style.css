@@ -87,9 +87,14 @@
   --color-warning-rgb: 168, 75, 47;
   --color-info-rgb: 98, 108, 113;
 
-  /* Typography */
-  --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* Typography — 247 world: Public Sans (text) / Besley (display), rolled
+     out from pool-detail across every surface (self-hosted, @font-face
+     below; the 187 no-CDN rule). Korean falls through to the system sans
+     stack in both — neither latin variable subset covers CJK. */
+  --font-family-base: "Public Sans", "Apple SD Gothic Neo", "Malgun Gothic",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-display: "Besley", "Apple SD Gothic Neo", "Malgun Gothic",
+    Georgia, serif;
   --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo,
     Monaco, Consolas, monospace;
   --font-size-xs: 11px;
@@ -161,9 +166,16 @@
   --container-xl: 1280px;
 }
 
-/* Dark mode colors */
+/* Dark mode colors.
+   Selector is :root:not([data-theme="light"]) — NOT bare :root — so these
+   OS-preference dark values outrank the later unconditional light :root
+   block (the 247-world tokens at ~line 838) by specificity, order-proof.
+   Static pages (tokens/, chains/, hubs) have no theme JS and relied on this
+   media query; with bare :root the later light block silently won and the
+   whole estate rendered light-only for OS-dark visitors (found during the
+   247 estate pass). An explicit data-theme="light" choice still wins. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     /* RGB versions for opacity control (Dark Mode) */
     --color-gray-400-rgb: 119, 124, 124;
     --color-green-300-rgb: 74, 222, 128;
@@ -194,9 +206,9 @@
     --color-surface: #18161D;
     --color-text: #FFFFFF;
     --color-text-secondary: rgba(var(--color-gray-200-rgb), 0.85);
-    --color-primary: #3B82F6;
-    --color-primary-hover: #1CB853;
-    --color-primary-active: #189845;
+    --color-primary: var(--ui-accent);
+    --color-primary-hover: var(--ui-accent-hover);
+    --color-primary-active: var(--ui-accent-active);
     --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
     --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
     --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
@@ -223,26 +235,31 @@
     --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
     --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
 
-    /* Quiet design system — 225: dark ramp for OS-dark visitors without a data-theme attribute */
-    --ui-bg:               #0F1115;
-    --ui-surface:          #161A21;
-    --ui-surface-muted:    #1C212A;
-    --ui-surface-sunken:   #12151B;
-    --ui-border:           #262C36;
-    --ui-border-strong:    #39414F;
-    --ui-row-border:       #39414F; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
-    --ui-text:             #E8ECF3;
-    --ui-text-secondary:   #A2ABBB;
-    --ui-text-muted:       #79839A;
-    --ui-accent:           #4C8DF6;
-    --ui-accent-hover:     #6BA1F8;
-    --ui-accent-active:    #3B82F6;
-    --ui-accent-soft:      #17233A;
-    --ui-accent-border:    #2C4A7A;
-    --ui-on-accent:        #FFFFFF;
-    --ui-positive:         #4ADE80;
-    --ui-warning:          #FBBF24;
-    --ui-danger:           #F87171;
+    /* 247 world "The Certificate" — dark ramp (the plate) for OS-dark
+       visitors without a data-theme attribute; kept in sync with the
+       [data-theme="dark"] block below. */
+    --ui-bg:               #0F1613;
+    --ui-surface:          #16211A;
+    --ui-surface-muted:    #0A100C;
+    --ui-surface-sunken:   #0A100C;
+    --ui-border:           #26332B;
+    --ui-border-strong:    #415247;
+    --ui-row-border:       #415247; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
+    --ui-text:             #E6EDE4;
+    --ui-text-secondary:   #A9B7A9;
+    --ui-text-muted:       #83937F;
+    --ui-accent:           #7CC9A0;
+    --ui-accent-hover:     #93D6B2;
+    --ui-accent-active:    #66B78D;
+    --ui-accent-soft:      rgba(124, 201, 160, 0.2);
+    --ui-accent-border:    rgba(124, 201, 160, 0.30);
+    --ui-accent-margin:    rgba(124, 201, 160, 0.12);
+    --ui-accent-watermark: rgba(124, 201, 160, 0.055);
+    --ui-on-accent:        #0B1B13;
+    --ui-positive:         #7CC9A0;
+    --ui-warning:          #D9A05B;
+    --ui-danger:           #E58A80;
+    --ui-focus-ring:       0 0 0 3px rgba(124, 201, 160, 0.4);
     --ui-shadow-overlay:   0 10px 28px rgba(0, 0, 0, 0.45);
 
     /* RGB versions for dark mode */
@@ -284,9 +301,9 @@
   --color-surface: #18161D;
   --color-text: #FFFFFF;
   --color-text-secondary: rgba(var(--color-gray-200-rgb), 0.85);
-  --color-primary: #3B82F6;
-  --color-primary-hover: var(--color-teal-400);
-  --color-primary-active: var(--color-teal-800);
+  --color-primary: var(--ui-accent);
+  --color-primary-hover: var(--ui-accent-hover);
+  --color-primary-active: var(--ui-accent-active);
   --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
   --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
   --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
@@ -796,32 +813,66 @@ select.form-control {
   font-family: 'FKGroteskNeue';
   src: url('./fonts/FKGroteskNeue.woff2') format('woff2');
   font-display: swap;
-  /* Improves loading performance */
+  /* Superseded by Public Sans (247 world) as --font-family-base's value —
+     declaration kept only because removing an unreferenced @font-face has
+     no payoff (no request fires unless something names the family) and
+     ~4,400 generated static pages may still reference it inline. */
+}
+
+/* 247 world: the two self-hosted latin variable subsets, promoted from
+   pool-detail across every surface. Same faces pool-detail-styles.css
+   declares — kept in sync there; do not fork a third copy. */
+@font-face {
+  font-family: 'Besley';
+  src: url('./fonts/Besley-latin-var.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url('./fonts/PublicSans-latin-var.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* END PERPLEXITY DESIGN SYSTEM */
 /* Quiet design system — 225 */
 :root {
-  /* ── Quiet design system — light (default) ───────────────────────────── */
-  --ui-bg:               #F7F8FA;
-  --ui-surface:          #FFFFFF;
-  --ui-surface-muted:    #F1F3F7;
-  --ui-surface-sunken:   #EDEFF4;
-  --ui-border:           #E4E7EE;
-  --ui-border-strong:    #CBD2DF;
-  --ui-text:             #10151F;
-  --ui-text-secondary:   #5A6478;
-  --ui-text-muted:       #8A93A6;
-  --ui-accent:           #3B82F6;
-  --ui-accent-hover:     #2563EB;
-  --ui-accent-active:    #1D4ED8;
-  --ui-accent-soft:      #EFF5FF;
-  --ui-accent-border:    #BFD8FE;
-  --ui-on-accent:        #FFFFFF;
-  --ui-positive:         #15803D;
-  --ui-warning:          #B45309;
-  --ui-danger:           #B91C1C;
-  --ui-focus-ring:       0 0 0 2px var(--ui-bg), 0 0 0 4px var(--ui-accent);
+  /* ── 247 world "The Certificate" — light (default) ────────────────────
+     Values promoted from pool-detail-styles.css's .pool-detail-view scope
+     (cert-paper/cert-ink/cert-green/cert-rule) into the shared layer so
+     every surface inherits by value, not by selector scope. */
+  --ui-bg:               #F5F7F0;
+  --ui-surface:          #FBFCF7;
+  --ui-surface-muted:    #EBEFE2;
+  --ui-surface-sunken:   #EBEFE2;
+  --ui-border:           #CBD5C3;
+  --ui-border-strong:    #9FAF98;
+  --ui-text:             #1B2B20;
+  --ui-text-secondary:   #48584A;
+  --ui-text-muted:       #67766A;
+  --ui-accent:           #1E5C3F;
+  --ui-accent-hover:     #174A32;
+  --ui-accent-active:    #113A27;
+  --ui-accent-soft:      rgba(30, 92, 63, 0.16);
+  --ui-accent-border:    rgba(30, 92, 63, 0.30);
+  /* 247 world (item 247 follow-up): two more lathe strengths, same ramp as
+     pool-detail-styles.css's --cert-lathe-margin/-watermark, promoted here
+     so the grid/search/landing ornament layer (style.css ORNAMENT SYSTEM,
+     below) can reuse the world's own committed color instead of forking a
+     third ink namespace. */
+  --ui-accent-margin:    rgba(30, 92, 63, 0.13);
+  --ui-accent-watermark: rgba(30, 92, 63, 0.05);
+  --ui-on-accent:        #F5F9F3;
+  --ui-positive:         #1E5C3F;
+  --ui-warning:          #8A5A18;
+  --ui-danger:           #A3271E;
+  --ui-focus-ring:       0 0 0 3px rgba(30, 92, 63, 0.38);
   --ui-shadow-overlay:   0 8px 24px rgba(16, 21, 31, 0.10);
   /* 225 round 3 increment (a): row-separator token for the results grid —
      equals --ui-border in light, steps up to --ui-border-strong in dark (set
@@ -854,14 +905,16 @@ select.form-control {
   --neuro-shadow-pressed: inset 0 1px 2px rgba(16, 21, 31, 0.10);
 
   /* Garden Green Theme */
-  --color-primary-blue: #3B82F6;
-  --color-secondary-blue: #93C5FD;
-  --color-dark-blue: #1E40AF;
-  --color-emerald: #2563EB;
-  --color-emerald-light: #93C5FD;
-  --color-emerald-dark: #1D4ED8;
-  --color-sage: #93C5FD;
-  --color-forest: #1E40AF;
+  /* 247 world: these legacy names carried the google-era blues; they now
+     route to the certificate accent ramp so no consumer can render blue. */
+  --color-primary-blue: var(--ui-accent);
+  --color-secondary-blue: var(--ui-accent-hover);
+  --color-dark-blue: var(--ui-accent-active);
+  --color-emerald: var(--ui-accent);
+  --color-emerald-light: var(--ui-accent-hover);
+  --color-emerald-dark: var(--ui-accent-active);
+  --color-sage: var(--ui-accent-hover);
+  --color-forest: var(--ui-accent-active);
 
   /* Semantic bridge — 225: repointed at the flat token layer */
   --color-background: var(--ui-bg);
@@ -878,6 +931,502 @@ select.form-control {
   :root {
     --ui-header-h: 52px;
   }
+}
+
+/* ═══ ORNAMENT SYSTEM — the engraving kit (247 world, hoisted item 247) ══
+   Moved here verbatim from pool-detail-styles.css so the grid (below,
+   .results-panel/.app.has-results/.search-section) and the landing route
+   (landing-styles.css, .landing-app/.landing-trust-section/.landing-
+   garden-card) can consume the SAME primitives pool-detail already
+   shipped, instead of forking a second copy. Nothing about the primitive
+   itself changed — same class names, same custom-property knobs, same
+   keyframe math — this is a relocation, not a redesign; verify pool-
+   detail's render is unaffected by diffing pool-detail-styles.css (the
+   consumer selectors that used to sit in this same rule now stand alone
+   with byte-identical declarations, still loading after this file).
+
+   Four reusable primitives, none of them pool-detail-specific. A surface
+   adopts one by adding the class and (optionally) setting two custom
+   properties:
+
+     .orn-band     guilloché lathework running along x  (repeats)
+     .orn-strand   the same lathework turned down a page margin (repeats y)
+     .orn-rosette  the engine-turned rosette — underprint or watermark
+     .orn-corners  four engraved corner lathes inset into a box's corners
+
+   Knobs: --orn-ink (any color), --orn-size (mask-size), --orn-inset
+   (corners only). Band/strand/rosette geometry lives in assets/*.svg —
+   ONE cached copy per shape serves every instance on the page, replacing
+   the ~18KB of duplicated data URI the two hero bands used to inline. The
+   corner lathe stays inline: four rotations of a ~300-byte path, cheaper
+   than four more requests and near-free after gzip.
+
+   Every primitive is inert — no text, so nothing for a screen reader to
+   read, and pointer-events: none, so no ornament can intercept a click.
+   Ink defaults to --cert-lathe-soft (pool-detail's own scope) and is
+   always a WASH: content contrast is never a negotiation with the
+   decoration. Every OTHER consumer (grid, search, landing, below) sets
+   its own --orn-ink explicitly on its own instance rather than relying on
+   that default, exactly the way pool-detail's non-.orn-band consumers
+   already did (e.g. .pool-hero-card::after’s own --orn-ink override) —
+   --cert-lathe-soft is scoped under .pool-detail-view/.dead-pool-view and
+   would resolve to nothing anywhere else. */
+.orn-band,
+.orn-strand,
+.orn-rosette,
+.orn-corners,
+.results-panel::after,
+.landing-garden-card::after {
+  --orn-ink: var(--cert-lathe-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* — horizontal lathework band — */
+.orn-band {
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size, 50px 20px);
+  mask-size: var(--orn-size, 50px 20px);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+}
+
+/* — vertical lathework strand (page margins) — */
+.orn-strand {
+  -webkit-mask-image: url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: var(--orn-size, 20px 50px);
+  mask-size: var(--orn-size, 20px 50px);
+  -webkit-mask-repeat: repeat-y;
+  mask-repeat: repeat-y;
+}
+
+/* — engine-turned rosette — */
+.orn-rosette {
+  content: '';
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 248px;
+  height: 248px;
+  transform: translate(-50%, -50%);
+  --orn-ink: var(--cert-lathe-underprint);
+}
+
+/* — four corner lathes: the frame's engraved quoins. One layer per corner,
+     each a pre-rotated copy so a mask layer never needs a transform (the
+     transform channel belongs to the ambient motion below). `.results-
+     panel::after` and `.landing-garden-card::after` (below) join this
+     selector's declarations the same way pool-detail-styles.css's own
+     `.pool-hero-card::after` etc. do — one shared geometry rule, each
+     consumer setting its own --orn-ink/--orn-inset override afterward. — */
+.orn-corners,
+.results-panel::after,
+.landing-garden-card::after {
+  content: '';
+  position: absolute;
+  inset: var(--orn-inset, 9px);
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(90 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(180 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(270 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(90 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(180 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' fill='none' stroke='black' stroke-width='1' stroke-linecap='round'%3E%3Cg transform='rotate(270 20 20)'%3E%3Cpath d='M0 25A25 25 0 0 1 25 0M0 17.5A17.5 17.5 0 0 1 17.5 0M0 10A10 10 0 0 1 10 0'/%3E%3C/g%3E%3C/svg%3E");
+  -webkit-mask-size: var(--orn-corner-size, 34px 34px);
+  mask-size: var(--orn-corner-size, 34px 34px);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: left top, right top, right bottom, left bottom;
+  mask-position: left top, right top, right bottom, left bottom;
+}
+
+/* ── Ambient motion — the ornament layer only ───────────────────────────
+   The page never moves. These four cycles run 88–124s on the decorative
+   layers alone, in transform and opacity exclusively, so the compositor
+   owns every frame and the main thread stays at zero while the page idles.
+   Nothing here is in sync with anything else — the durations are
+   deliberately coprime so the layers never pulse together and betray
+   themselves as an effect. Every one of them is switched OFF, not
+   shortened, under prefers-reduced-motion (see the block right after the
+   grid/search/landing ornament placements, below). */
+@keyframes ornDrift {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(0, -17px, 0); }
+}
+
+@keyframes ornTurn {
+  from { transform: rotate(-0.9deg); }
+  to   { transform: rotate(0.9deg); }
+}
+
+@keyframes ornTurnCentered {
+  from { transform: translate(-50%, -50%) rotate(-1.1deg); }
+  to   { transform: translate(-50%, -50%) rotate(1.1deg); }
+}
+
+@keyframes ornBreathe {
+  from { opacity: 0.62; }
+  to   { opacity: 1; }
+}
+
+/* ── The grid results page as a ledger sheet ─────────────────────────────
+   Same placement grammar as pool-detail (spec 247 follow-up, item 247):
+   page-margin strands + a watermark rosette bleeding off the right edge,
+   gated to ≥1080px with the same ambient drift; a lathework band riding
+   the results panel's own top inner edge and another closing the page
+   above the footer, watermark-weight and breathing like pool-detail's;
+   engraved corner quoins on the panel itself. Scoped to `.app.has-results`
+   (the grid's own root-class predicate, app.js) — `:not(.dead-pool-view)`
+   throughout because that state already gets pool-detail-styles.css's OWN
+   identical treatment (it shares pool-detail's `.app.dead-pool-view`
+   selectors) and this would otherwise double the same layer on it.
+   Restraint: nothing here ever sits inside `.pools-list`/`.pools-grid` or
+   `.pool-columns` — the row grid test (`test_list_default.js`) asserts
+   `.pool-card`'s parentElement.className is exactly `pools-grid`/
+   `pools-list`, so the ornament layer only ever attaches to the panel
+   shell (`.results-panel`, `.results-section`) or the page root, never a
+   row ancestor. Every layer below is z-index:-1-in-its-own-context or an
+   in-flow, non-interactive strip, and pointer-events: none throughout. */
+.app.has-results:not(.dead-pool-view) {
+  isolation: isolate;
+}
+
+.app.has-results:not(.dead-pool-view)::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+
+.app.has-results:not(.dead-pool-view)::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+
+/* Same 1080px gate as pool-detail: below it the results column owns the
+   full width and the page stays clean. */
+@media (min-width: 1080px) {
+  .app.has-results:not(.dead-pool-view)::before,
+  .app.has-results:not(.dead-pool-view)::after {
+    opacity: 1;
+  }
+
+  .app.has-results:not(.dead-pool-view)::before {
+    animation: ornDrift 112s ease-in-out infinite alternate;
+  }
+
+  .app.has-results:not(.dead-pool-view)::after {
+    animation: ornTurn 121s ease-in-out infinite alternate,
+               ornBreathe 99s ease-in-out infinite alternate;
+  }
+}
+
+/* One composed surface (.results-panel) gets the band + quoins: a top
+   band riding its own inner top edge (in-flow — a real, small block
+   before the header, the same technique pool-detail's .pool-hero-content
+   uses for its top/bottom bands — so no position/z-index juggling is
+   needed against the panel's overflow:hidden), and engraved corner quoins
+   inset just inside its border, watermark-weight and NOT ambient-animated
+   — matching pool-detail's own corners (.pool-hero-card::after), which
+   never carry a cycle either. */
+.results-panel {
+  position: relative;
+  isolation: isolate;
+}
+
+.results-panel::before {
+  content: '';
+  display: block;
+  width: min(320px, 60%);
+  height: 14px;
+  margin: 14px auto 0 auto;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--ui-accent-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size);
+  mask-size: var(--orn-size);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
+  animation: ornBreathe 103s ease-in-out infinite alternate;
+}
+
+.results-panel::after {
+  --orn-inset: 10px;
+  --orn-ink: var(--ui-accent-border);
+  z-index: -1;
+}
+
+/* Closing band above the footer — anchored to `.results-section` (the
+   wrapper around `.results-panel` + pagination), not `.app-footer` itself:
+   the footer switches to `position: static` in this exact state (below,
+   "225 round 3a" / item 230/221) so it is no longer a positioning context
+   for an absolutely-placed child. Sitting at the section's own bottom
+   inner edge reads as "closing the page" without depending on the
+   footer's own layout mode. */
+.results-section {
+  position: relative;
+}
+
+.results-section::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -18px;
+  transform: translateX(-50%);
+  width: min(320px, 60%);
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--ui-accent-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  z-index: -1;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size);
+  mask-size: var(--orn-size);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
+  animation: ornBreathe 116s ease-in-out infinite alternate;
+}
+
+@media (max-width: 767px) {
+  /* Panel is narrower than its own top band's minimum comfortable margin
+     below 768px (spec judgment call, restraint over completeness) — the
+     band and the closing band both drop, same reasoning pool-detail uses
+     for hiding its own more elaborate ornaments under 1080px. Corners and
+     the page-level margin/watermark keep their existing, wider gates
+     above (1080px) and are unaffected by this rule. */
+  .results-panel::before,
+  .results-section::after {
+    display: none;
+  }
+}
+
+/* ── The search state (`/?app=1`, no query yet) as the same sheet ────────
+   Bare `.app` root (app.js never adds `.has-results` until a token/chain
+   query resolves) minus the two other `.app`-rooted states that already
+   carry their own identical treatment: `.pool-detail-view` (pool-detail-
+   styles.css) and `.dead-pool-view` (also pool-detail-styles.css — see the
+   ORNAMENT SYSTEM banner above). Same margin strands + watermark, same
+   1080px gate, same drift; one band under the brand/search unit
+   (`.search-section`, the header + input group rendered only in this
+   state). No corners here — restraint: this state has no panel-shaped
+   container to quoin, and stacking a fourth ornament (strands + watermark
+   + band + corners) onto the leanest, first-impression view read as
+   clutter rather than craft, so it stops at three. */
+.app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view) {
+  isolation: isolate;
+}
+
+.app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+
+.app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+
+@media (min-width: 1080px) {
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::before,
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::after {
+    opacity: 1;
+  }
+
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::before {
+    animation: ornDrift 107s ease-in-out infinite alternate;
+  }
+
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::after {
+    animation: ornTurn 119s ease-in-out infinite alternate,
+               ornBreathe 92s ease-in-out infinite alternate;
+  }
+}
+
+.search-section {
+  position: relative;
+}
+
+.search-section::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  width: min(280px, 70%);
+  height: 14px;
+  --orn-size: 35px 14px;
+  --orn-ink: var(--ui-accent-soft);
+  background-color: var(--orn-ink);
+  pointer-events: none;
+  z-index: -1;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: var(--orn-size);
+  mask-size: var(--orn-size);
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
+  animation: ornBreathe 109s ease-in-out infinite alternate;
+}
+
+@media (max-width: 767px) {
+  .search-section::after {
+    display: none;
+  }
+}
+
+/* ── Reduced motion — the grid/search ornament layer ─────────────────────
+   Same mechanism as pool-detail-styles.css's own switch (a real
+   `animation: none`, not a shortened duration — these are infinite
+   alternating loops, so collapsing the duration would leave them running,
+   only faster). Also carries the hoisted primitive's own bare-class off-
+   switch (`.orn-band`/`.orn-strand`/`.orn-rosette`/`.orn-corners`), moved
+   here with the rest of the primitive from pool-detail-styles.css. */
+@media (prefers-reduced-motion: reduce) {
+  .app.has-results:not(.dead-pool-view)::before,
+  .app.has-results:not(.dead-pool-view)::after,
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::before,
+  .app:not(.has-results):not(.pool-detail-view):not(.dead-pool-view)::after,
+  .results-panel::before,
+  .results-section::after,
+  .search-section::after,
+  .orn-band,
+  .orn-strand,
+  .orn-rosette,
+  .orn-corners {
+    animation: none !important;
+  }
+}
+
+/* ── The generated SEO estate as a certificate leaf ──────────────────────
+   /tokens/<slug>, /chains/<slug>, their ko/ twins, and the /tokens + /chains
+   hub/A–Z pages (generate-token-pages.js / generate-chain-pages.js) all link
+   this file rather than baking their own copy of it, so this costs nothing
+   extra per page — same margin-strand + closing-band primitives as the grid
+   above, deliberately the SMALLEST subset: no rosette, no corners, and
+   (unlike the app) NO ambient motion at all — this is the crawl surface,
+   where page-weight and LCP are the whole point, not a place to spend an
+   animation budget. `.tp-wrap` (token), `.cp-wrap` (chain), `.hub-wrap`
+   (hub + A–Z, one class per renderHubStyleBlock) are the three wrapper
+   classes every one of these ~4,400 pages already emits. */
+.tp-wrap,
+.cp-wrap,
+.hub-wrap {
+  position: relative;
+  isolation: isolate;
+}
+
+@media (min-width: 1080px) {
+  .tp-wrap::before,
+  .cp-wrap::before,
+  .hub-wrap::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: var(--ui-accent-margin);
+    -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+    mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+    -webkit-mask-size: 20px 50px, 20px 50px;
+    mask-size: 20px 50px, 20px 50px;
+    -webkit-mask-repeat: repeat-y, repeat-y;
+    mask-repeat: repeat-y, repeat-y;
+    -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+    mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  }
+}
+
+/* One closing band, in-flow at the bottom of the wrap (after the page's
+   final note/footer line) — no absolute positioning, so it never needs
+   tuning against a page's own variable content length. Static, no
+   `ornBreathe` cycle (the app's version breathes; this one does not). */
+.tp-wrap::after,
+.cp-wrap::after,
+.hub-wrap::after {
+  content: '';
+  display: block;
+  width: min(320px, 60%);
+  height: 14px;
+  margin: 28px auto 0 auto;
+  background-color: var(--ui-accent-soft);
+  pointer-events: none;
+  -webkit-mask-image: url('./assets/guilloche-band.svg');
+  mask-image: url('./assets/guilloche-band.svg');
+  -webkit-mask-size: 35px 14px;
+  mask-size: 35px 14px;
+  -webkit-mask-repeat: repeat-x;
+  mask-repeat: repeat-x;
+  -webkit-mask-position: center;
+  mask-position: center;
 }
 
 * {
@@ -1083,26 +1632,15 @@ body {
   gap: var(--space-8);
 }
 
-.app-control-btn {
-  /* width/height/padding/border-radius/font owned by the shared icon-only-button rule, style.css end */
-  background: var(--color-surface);
-  color: var(--color-text);
-  cursor: pointer;
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-  transition: all 0.2s ease;
-}
-
-.app-control-btn:hover {
-  border-color: var(--ui-border-strong);
-  transform: translateY(-1px);
-}
-
-.app-control-btn:active {
-  box-shadow: none;
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
-}
+/* `.app-control-btn` is a geometry-only marker now (shared icon-only-button
+   rule, style.css end) — it used to also carry its own background/border/
+   hover/active block here, but every element wearing it also wears
+   `.theme-toggle` or `.language-toggle`, whose own rules below (later in
+   this file, same specificity) already decided every one of those
+   properties. Two color definitions for the same two controls was the
+   per-surface-variant duplication this pass killed: one shared rule set —
+   `.theme-toggle` / `.language-toggle` below — now owns color/border/hover/
+   active for both header and standalone instances alike. */
 
 /* Backlog 222: `.theme-toggle`/`.language-toggle` (style.css:3913/3993 below)
    are FLOATING-PAIR rules — `position: fixed`, viewport-pinned `top`/`right`,
@@ -2363,6 +2901,15 @@ body {
   color: var(--color-text-secondary);
   background: transparent;
   white-space: nowrap;
+  /* The shared .calculate-yield-btn-new base rule (style.css end) still
+     carries `margin-top: var(--space-8)` for the grid/card layout it was
+     built for. .pool-cta-section centers this button via flexbox
+     align-items:center, so that un-reset 8px top margin (0 on bottom) shifts
+     the button's own centered position 4px below the row's true vertical
+     center — visibly off from `.tvl-value` next to it. `.pools-grid`'s own
+     override already resets this (see `.pools-grid .pool-cta-section
+     .calculate-yield-btn-new` below); list view needs the identical reset. */
+  margin-top: 0;
 }
 
 .pools-list .pool-cta-section .calculate-yield-btn-new:hover,
@@ -4284,26 +4831,30 @@ html {
   --color-bg-8: rgba(8, 145, 178, 0.15);
   /* Dark cyan */
 
-  /* Quiet design system — 225: dark ramp */
-  --ui-bg:               #0F1115;
-  --ui-surface:          #161A21;
-  --ui-surface-muted:    #1C212A;
-  --ui-surface-sunken:   #12151B;
-  --ui-border:           #262C36;
-  --ui-border-strong:    #39414F;
-  --ui-row-border:       #39414F; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
-  --ui-text:             #E8ECF3;
-  --ui-text-secondary:   #A2ABBB;
-  --ui-text-muted:       #79839A;
-  --ui-accent:           #4C8DF6;
-  --ui-accent-hover:     #6BA1F8;
-  --ui-accent-active:    #3B82F6;
-  --ui-accent-soft:      #17233A;
-  --ui-accent-border:    #2C4A7A;
-  --ui-on-accent:        #FFFFFF;
-  --ui-positive:         #4ADE80;
-  --ui-warning:          #FBBF24;
-  --ui-danger:           #F87171;
+  /* 247 world "The Certificate" — dark ramp (the plate); kept in sync with
+     the prefers-color-scheme block above. */
+  --ui-bg:               #0F1613;
+  --ui-surface:          #16211A;
+  --ui-surface-muted:    #0A100C;
+  --ui-surface-sunken:   #0A100C;
+  --ui-border:           #26332B;
+  --ui-border-strong:    #415247;
+  --ui-row-border:       #415247; /* 225 round 3 (a): raised dark-mode contrast step for row dividers */
+  --ui-text:             #E6EDE4;
+  --ui-text-secondary:   #A9B7A9;
+  --ui-text-muted:       #83937F;
+  --ui-accent:           #7CC9A0;
+  --ui-accent-hover:     #93D6B2;
+  --ui-accent-active:    #66B78D;
+  --ui-accent-soft:      rgba(124, 201, 160, 0.2);
+  --ui-accent-border:    rgba(124, 201, 160, 0.30);
+  --ui-accent-margin:    rgba(124, 201, 160, 0.12);
+  --ui-accent-watermark: rgba(124, 201, 160, 0.055);
+  --ui-on-accent:        #0B1B13;
+  --ui-positive:         #7CC9A0;
+  --ui-warning:          #D9A05B;
+  --ui-danger:           #E58A80;
+  --ui-focus-ring:       0 0 0 3px rgba(124, 201, 160, 0.4);
   --ui-shadow-overlay:   0 10px 28px rgba(0, 0, 0, 0.45);
 
   /* Semantic Color Tokens (Dark Mode) — 225: repointed at the flat token layer */
@@ -4819,10 +5370,6 @@ html {
   transition: all 300ms var(--entry-easing);
 }
 
-.theme-toggle:hover {
-  transform: scale(1.05);
-}
-
 /* Enhanced Horizontal Scrolling Filter Styles with Improved UX */
 .filters-container {
   display: flex;
@@ -5282,7 +5829,7 @@ html {
 
 .btn--primary {
   background: var(--color-primary) !important;
-  color: #FFFFFF !important;
+  color: var(--ui-on-accent) !important;
   box-shadow: none;
   border: 1px solid transparent;
   font-weight: 600;
@@ -5329,8 +5876,8 @@ html {
    must still be perceivable (background swap stays) but not animated/
    moved, so the transform is neutralized here — same selector list as
    the base rule, plus a few controls with their own local :active
-   transform (pool-card, reset-filters-btn, modal-close, detail-header-btn)
-   that aren't covered by the base rule's selector list. */
+   transform (pool-card, reset-filters-btn, modal-close) that aren't
+   covered by the base rule's selector list. */
 @media (prefers-reduced-motion: reduce) {
   .btn:active,
   .calculate-yield-btn-new:active,
@@ -5348,8 +5895,7 @@ html {
   .filter-chip:active,
   .pool-card:active,
   .reset-filters-btn:active,
-  .modal-close:active,
-  .detail-header-btn:active {
+  .modal-close:active {
     transform: none !important;
   }
 }
@@ -5567,17 +6113,6 @@ body,
   background: none !important;
 }
 
-/* Detail header controls — width/height/border-radius owned by the shared
-   icon-only-button rule below. */
-.detail-header-btn {
-  background: var(--color-surface);
-  box-shadow: none;
-  border: 1px solid var(--ui-border);
-  cursor: pointer;
-  font-size: 16px;
-  transition: all var(--duration-normal) var(--ease-standard);
-}
-
 /* ════════════════════════════════════════════════════════════════════════
    225 §7 ADDENDUM — the ONE shared component block.
    One owner across every file (round-1 root cause: three agents split by
@@ -5669,7 +6204,6 @@ body,
 .app-control-btn,
 .theme-toggle,
 .language-toggle,
-.detail-header-btn,
 .view-toggle-btn:not(.sort-toggle-btn),
 .gp-text-send,
 .gp-ask-send {
@@ -5798,17 +6332,4 @@ body,
 
 .app-header-sticky {
   border-radius: 0;
-}
-
-.detail-header-btn:active {
-  box-shadow: none;
-  background: var(--ui-surface-muted);
-  transform: translateY(1px);
-  transform: translateY(1px);
-}
-
-.detail-header-controls {
-  display: flex;
-  gap: var(--space-8);
-  align-items: center;
 }

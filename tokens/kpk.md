@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KPK pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $35.39M in total.
+9 live pools clear this page's $100K TVL floor, $35.4M in total.
 
 ### Are these rates safe?
 
