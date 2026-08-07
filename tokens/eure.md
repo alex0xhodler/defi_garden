@@ -1,12 +1,12 @@
 # EURE DeFi Yields
 
-The highest honest EURE yield right now is 8.26% on balancer-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURE yield right now is 4.11% on curve-dex (Gnosis), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token) | Gnosis | 2.55% | $5.34M |
-| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 3.10% | $378.4K |
-| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 8.26% | $378.1K |
+| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 4.11% | $378.8K |
+| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 13.68% | $378.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EURE yield today?
 
-8.26% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
+4.11% APY on curve-dex (Gnosis), based on live DefiLlama data.
 
 ### How many EURE pools clear the TVL floor?
 
@@ -28,10 +28,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 

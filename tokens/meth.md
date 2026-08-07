@@ -1,10 +1,10 @@
 # METH DeFi Yields
 
-The highest honest METH yield right now is 1.87% on meth-protocol (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest METH yield right now is 1.89% on meth-protocol (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 1.87% | $462.95M |
+| [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 1.89% | $462.67M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest METH yield today?
 
-1.87% APY on meth-protocol (Ethereum), based on live DefiLlama data.
+1.89% APY on meth-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many METH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $467.14M in total.
+3 live pools clear this page's $100K TVL floor, $466.87M in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # AUTO DeFi Yields
 
-The highest honest AUTO yield right now is 0.09% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUTO yield right now is 0.06% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.09% | $3.4M |
+| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.06% | $3.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUTO yield today?
 
-0.09% APY on orca-dex (Solana), based on live DefiLlama data.
+0.06% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many AUTO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.2M in total.
+2 live pools clear this page's $100K TVL floor, $7.21M in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

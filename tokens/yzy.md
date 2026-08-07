@@ -1,11 +1,11 @@
 # YZY DeFi Yields
 
-The highest honest YZY yield right now is 9.33% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YZY yield right now is 8.35% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 9.33% | $594.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token) | Solana | 2.49% | $185.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 8.35% | $601.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token) | Solana | 4.88% | $196.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YZY yield today?
 
-9.33% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.35% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many YZY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $779.9K in total.
+2 live pools clear this page's $100K TVL floor, $798.1K in total.
 
 ### Are these rates safe?
 
@@ -29,8 +29,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

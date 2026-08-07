@@ -5,7 +5,7 @@ The highest honest STBT yield right now is 3.52% on matrixdock-stbt (Ethereum), 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [matrixdock-stbt →](https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token) | Ethereum | 3.52% | $24.26M |
-| [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 3.08% | $410.2K |
+| [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 2.99% | $410.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

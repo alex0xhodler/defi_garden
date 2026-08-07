@@ -5,10 +5,10 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [liminal-basis →](https://www.defi.garden/?pool=3dd52c6a-959e-531d-aa18-84bee3e3cbe5&src=seo_token) | Ethereum | 7.61% | $10.83M |
-| [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.61% | $10.5M |
+| [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.89% | $10.52M |
 | [pendle →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 9.02% | $1.79M |
 | [pendle →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 7.53% | $1.79M |
-| [liminal-basis →](https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token) | Arbitrum | 7.61% | $322.9K |
+| [liminal-basis →](https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token) | Arbitrum | 7.89% | $323.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,7 +20,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 pendle에서 APY 9.02%�
 
 ### LIMUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $25.24M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $25.26M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,12 +1,12 @@
 # SIERRA 디파이 수익률
 
-현재 SIERRA의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 1.31%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SIERRA의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 0.58%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.68% | $6.76M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 1.31% | $207.5K |
-| [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.07% | $159.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.58% | $6.75M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.34% | $207.5K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.07% | $159.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 SIERRA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.31%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.58%예요.
 
 ### SIERRA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

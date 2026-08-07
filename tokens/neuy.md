@@ -1,10 +1,10 @@
 # NEUY DeFi Yields
 
-The highest honest NEUY yield right now is 4.57% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEUY yield right now is 4.00% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cbe8614c-8d13-4364-a0a2-97a4c0ff4ec9&src=seo_token) | Polygon | 4.57% | $138.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cbe8614c-8d13-4364-a0a2-97a4c0ff4ec9&src=seo_token) | Polygon | 4.00% | $138.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEUY yield today?
 
-4.57% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+4.00% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many NEUY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.7K in total.
+1 live pool clear this page's $100K TVL floor, $138.4K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 

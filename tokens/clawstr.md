@@ -4,7 +4,7 @@ The highest honest CLAWSTR yield right now is 0.07% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f2cac107-8fa7-4789-8dd9-0c7dac5ce745&src=seo_token) | Base | 0.07% | $369.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f2cac107-8fa7-4789-8dd9-0c7dac5ce745&src=seo_token) | Base | 0.07% | $369.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLAWSTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $369.4K in total.
+1 live pool clear this page's $100K TVL floor, $369.1K in total.
 
 ### Are these rates safe?
 

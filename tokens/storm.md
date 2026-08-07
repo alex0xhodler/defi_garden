@@ -1,10 +1,10 @@
 # STORM DeFi Yields
 
-The highest honest STORM yield right now is 22.20% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STORM yield right now is 22.31% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=080e99a0-9879-496c-81ec-7ef89ca7bab7&src=seo_token) | TON | 22.20% | $310.7K |
+| [ston.fi →](https://www.defi.garden/?pool=080e99a0-9879-496c-81ec-7ef89ca7bab7&src=seo_token) | TON | 22.31% | $313.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STORM yield today?
 
-22.20% APY on ston.fi (TON), based on live DefiLlama data.
+22.31% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many STORM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $969.1K in total.
+2 live pools clear this page's $100K TVL floor, $963.6K in total.
 
 ### Are these rates safe?
 

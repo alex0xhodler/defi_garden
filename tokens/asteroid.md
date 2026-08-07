@@ -1,13 +1,13 @@
 # ASTEROID DeFi Yields
 
-The highest honest ASTEROID yield right now is 32.85% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASTEROID yield right now is 51.19% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 32.85% | $1.76M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 4.92% | $615.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 8.45% | $242.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 0.12% | $114.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 23.09% | $1.76M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 3.09% | $625.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 51.19% | $221.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 0.09% | $114.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ASTEROID yield today?
 
-32.85% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+51.19% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ASTEROID pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $6.21M in total.
+6 live pools clear this page's $100K TVL floor, $6.2M in total.
 
 ### Are these rates safe?
 

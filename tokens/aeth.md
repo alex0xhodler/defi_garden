@@ -4,8 +4,8 @@ The highest honest AETH yield right now is 0.12% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token) | Polkadot | 0.12% | $3.26M |
-| [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.03% | $192.4K |
+| [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token) | Polkadot | 0.12% | $3.27M |
+| [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.03% | $192.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -1,10 +1,10 @@
 # JRROYAPYUSD DeFi Yields
 
-The highest honest JRROYAPYUSD yield right now is 199.82% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRROYAPYUSD yield right now is 322.65% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e&src=seo_token) | Ethereum | 199.82% | $1.2M |
+| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e&src=seo_token) | Ethereum | 322.65% | $1.16M |
 | [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $995.8K |
 | [pendle →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token) | Ethereum | 8.71% | $995.8K |
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRROYAPYUSD yield today?
 
-199.82% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+322.65% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JRROYAPYUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.19M in total.
+3 live pools clear this page's $100K TVL floor, $3.15M in total.
 
 ### Are these rates safe?
 

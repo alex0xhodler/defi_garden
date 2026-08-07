@@ -1,10 +1,10 @@
 # WTSGOV DeFi Yields
 
-The highest honest WTSGOV yield right now is 3.26% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WTSGOV yield right now is 3.24% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=37b9ea6e-da8f-5077-b084-a373fd784bd7&src=seo_token) | Base | 3.26% | $168.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=37b9ea6e-da8f-5077-b084-a373fd784bd7&src=seo_token) | Base | 3.24% | $168.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WTSGOV yield today?
 
-3.26% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+3.24% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many WTSGOV pools clear the TVL floor?
 

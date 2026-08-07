@@ -4,9 +4,9 @@ The highest honest GTUSDCF yield right now is 7.38% on morpho-blue (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.13% | $29.01M |
-| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 7.38% | $3.25M |
-| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 7.18% | $221.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.13% | $27.84M |
+| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 7.38% | $3.62M |
+| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.18% | $360.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTUSDCF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $32.48M in total.
+3 live pools clear this page's $100K TVL floor, $31.82M in total.
 
 ### Are these rates safe?
 

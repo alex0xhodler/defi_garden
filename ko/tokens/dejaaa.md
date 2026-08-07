@@ -4,6 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=996c39bb-3aa3-491b-abec-bfaa4cbae71c&src=seo_token) | Base | 0.02% | $366.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=1013bd79-ab43-46a4-a889-bc36200b284a&src=seo_token) | Solana | 0.04% | $116K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -25,14 +26,15 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.04%예�
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
-- [USTB](https://www.defi.garden/ko/tokens/ustb)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
 
 ## 이용 가능한 체인
 
+- [Base](https://www.defi.garden/ko/chains/base)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
 ## 마지막 업데이트: August 7, 2026

@@ -4,8 +4,8 @@ The highest honest STUSDS yield right now is 5.96% on sky-lending (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token) | Ethereum | 5.96% | $198.28M |
-| [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 5.21% | $4.91M |
+| [sky-lending →](https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token) | Ethereum | 5.96% | $200.65M |
+| [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 5.15% | $4.91M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STUSDS pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $226.38M in total.
+6 live pools clear this page's $100K TVL floor, $228.75M in total.
 
 ### Are these rates safe?
 

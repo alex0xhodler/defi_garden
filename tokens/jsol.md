@@ -4,8 +4,8 @@ The highest honest JSOL yield right now is 5.33% on jpool (Solana), among 4 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.33% | $101.63M |
-| [project-0 →](https://www.defi.garden/?pool=348f14cd-25f3-436c-b2a5-2e2c15f8353b&src=seo_token) | Solana | 0.01% | $125.5K |
+| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.33% | $101.93M |
+| [project-0 →](https://www.defi.garden/?pool=348f14cd-25f3-436c-b2a5-2e2c15f8353b&src=seo_token) | Solana | 0.01% | $125.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JSOL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $108.58M in total.
+4 live pools clear this page's $100K TVL floor, $108.79M in total.
 
 ### Are these rates safe?
 
@@ -29,8 +29,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

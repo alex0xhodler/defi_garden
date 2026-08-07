@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.07% | $287.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.46% | $288.3K |
 | [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.01% | $240.9K |
 | [curve-dex →](https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token) | Polygon | 1.37% | $111.4K |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 curve-dex에서 APY 1.37%예요
 
 ### TGBP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $742.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $743.1K예요.
 
 ### 이 수익률은 안전한가요?
 

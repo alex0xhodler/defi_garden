@@ -1,6 +1,6 @@
 # XMR DeFi Yields
 
-The highest honest XMR yield right now is 19.30% on raydium-amm (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XMR yield right now is 0.14% on raydium-amm (Solana), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -11,7 +11,7 @@ The highest honest XMR yield right now is 19.30% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=3cd5f33f-9adb-5e1e-a0f7-c8b0be848c02&src=seo_token) | Solana | 0.14% | $21.66M |
 | [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.02% | $21.53M |
 | [raydium-amm →](https://www.defi.garden/?pool=8091a438-ca9d-5e41-83cc-eee25682c361&src=seo_token) | Solana | 0.05% | $21.19M |
-| [raydium-amm →](https://www.defi.garden/?pool=bbb4b449-7ae7-5a78-ae83-8b1101341ed8&src=seo_token) | Solana | 19.30% | $100.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=0bebf26c-31c1-5997-bd1c-43a96e231508&src=seo_token) | Solana | 27.32% | $107.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XMR yield today?
 
-19.30% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.14% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many XMR pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $172.93M in total.
+10 live pools clear this page's $100K TVL floor, $173.03M in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

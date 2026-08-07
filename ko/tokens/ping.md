@@ -1,13 +1,11 @@
 # PING 디파이 수익률
 
-현재 PING의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 0.06%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PING의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 2.05%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token) | Base | 7.87% | $1.03M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token) | Base | 0.06% | $340.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=459a71b6-f8e0-432f-af29-c24d88bb9000&src=seo_token) | Base | 0.01% | $256.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a315614c-1b31-4287-8e63-b0cbed3956d6&src=seo_token) | Base | 0.06% | $172.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token) | Base | 2.05% | $1.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token) | Base | 0.03% | $340.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +13,7 @@
 
 ### 오늘 PING의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.06%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 2.05%예요.
 
 ### PING 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

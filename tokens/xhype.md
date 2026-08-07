@@ -5,7 +5,8 @@ The highest honest XHYPE yield right now is 8.98% on liminal-basis (Ethereum), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [liminal-basis →](https://www.defi.garden/?pool=86938e6e-35d9-4cbf-9682-be277f300ab5&src=seo_token) | Ethereum | 8.98% | $5.82M |
-| [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 8.98% | $5.79M |
+| [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 7.24% | $5.78M |
+| [project-x →](https://www.defi.garden/?pool=3c5ef067-08a3-474c-8728-567371ac2e07&src=seo_token) | Hyperliquid L1 | 0.15% | $143.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $11.76M in total.
+3 live pools clear this page's $100K TVL floor, $11.74M in total.
 
 ### Are these rates safe?
 

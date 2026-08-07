@@ -4,7 +4,7 @@ The highest honest AVWBTC yield right now is 0.53% on curve-dex (Avalanche), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $462.5K |
+| [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $462.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $462.5K in total.
+1 live pool clear this page's $100K TVL floor, $462.4K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [VBILL](https://www.defi.garden/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [BTC.B](https://www.defi.garden/tokens/btc-b)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 

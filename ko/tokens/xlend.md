@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 7.02% | $5.34M |
 | [liminal-basis →](https://www.defi.garden/?pool=8eff94a0-f3f9-59cc-9512-45d1f23da877&src=seo_token) | Arbitrum | 7.24% | $5.34M |
 | [liminal-basis →](https://www.defi.garden/?pool=422b0d2e-1548-57cf-99dd-bc923e329e4d&src=seo_token) | Ethereum | 7.24% | $5.34M |
-| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 7.17% | $5.33M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 liminal-basis에서 APY 7.24%�
 
 ## 이용 가능한 체인
 
+- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## 마지막 업데이트: August 7, 2026

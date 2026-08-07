@@ -1,10 +1,10 @@
 # GNS DeFi Yields
 
-The highest honest GNS yield right now is 22.74% on camelot-v3 (Arbitrum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GNS yield right now is 5.09% on camelot-v3 (Arbitrum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=f413a14f-e487-4325-8c88-3f3665e71606&src=seo_token) | Arbitrum | 22.74% | $230K |
+| [camelot-v3 →](https://www.defi.garden/?pool=f413a14f-e487-4325-8c88-3f3665e71606&src=seo_token) | Arbitrum | 5.09% | $230.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GNS yield today?
 
-22.74% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+5.09% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many GNS pools clear the TVL floor?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 

@@ -1,16 +1,16 @@
 # SHIB 디파이 수익률
 
-현재 SHIB의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.89%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SHIB의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 3.19%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd&src=seo_token) | Ethereum | 4.19% | $478.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a3e110f6-1eea-4ad3-b97b-0434e34b55bd&src=seo_token) | Ethereum | 3.78% | $477.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=00ddd141-a177-5bbc-848e-66814a15bb25&src=seo_token) | Solana | 1.89% | $346.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a&src=seo_token) | Ethereum | 3.63% | $244.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1&src=seo_token) | Ethereum | 3.60% | $215.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d&src=seo_token) | Base | 14.23% | $165.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7&src=seo_token) | Solana | 5.16% | $132.7K |
-| [vvs-standard →](https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858&src=seo_token) | Cronos | 1.57% | $108.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=da3d3c6a-8d0d-4db3-8e1f-908ae7ad126a&src=seo_token) | Ethereum | 2.23% | $243.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=37806794-37c5-4d66-b340-ad376ebc2af1&src=seo_token) | Ethereum | 2.48% | $215.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f2a9f172-1e94-4283-bc84-8f6616c4017d&src=seo_token) | Base | 3.31% | $165.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=8b73a7f0-a542-492e-ac5d-eed03df5fdb7&src=seo_token) | Solana | 3.51% | $133.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=71e8d2a5-90be-431c-9891-b5fa7dfae858&src=seo_token) | Cronos | 3.19% | $106.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@
 
 ### 오늘 SHIB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.89%예요.
+DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 3.19%예요.
 
 ### SHIB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

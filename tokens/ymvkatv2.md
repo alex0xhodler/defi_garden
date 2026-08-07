@@ -4,7 +4,7 @@ The highest honest YMVKATV2 yield right now is 1.24% on morpho-blue (Katana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=674ba053-28a6-4e66-b129-4d0f0b967184&src=seo_token) | Katana | 1.24% | $302.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=674ba053-28a6-4e66-b129-4d0f0b967184&src=seo_token) | Katana | 1.24% | $304.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YMVKATV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $302.5K in total.
+1 live pool clear this page's $100K TVL floor, $304.9K in total.
 
 ### Are these rates safe?
 
@@ -27,8 +27,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
-- [GTWETH](https://www.defi.garden/tokens/gtweth)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
+- [GTWETH](https://www.defi.garden/tokens/gtweth)
 - [VBUSDC](https://www.defi.garden/tokens/vbusdc)
 
 ## Available on

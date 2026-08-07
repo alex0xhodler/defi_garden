@@ -4,7 +4,7 @@ The highest honest MULTPOOL yield right now is 0.02% on uniswap-v3 (Polygon), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6c2b9d1a-67a0-4d64-bb8c-5ae71463f248&src=seo_token) | Polygon | 0.02% | $346K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6c2b9d1a-67a0-4d64-bb8c-5ae71463f248&src=seo_token) | Polygon | 0.02% | $351.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MULTPOOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $346K in total.
+1 live pool clear this page's $100K TVL floor, $351.1K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [WPOL](https://www.defi.garden/tokens/wpol)
 
 ## Available on
 

@@ -36,12 +36,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/hyperliquid-l1</loc>
+    <loc>https://www.defi.garden/chains/avalanche</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/avalanche</loc>
+    <loc>https://www.defi.garden/chains/hyperliquid-l1</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>daily</changefreq>
   </url>

@@ -6,7 +6,7 @@ The highest honest USDAI yield right now is 6.56% on pendle (Arbitrum), among 5 
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 0.96% | $50.38M |
 | [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 6.56% | $50.38M |
-| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 1.95% | $528K |
+| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 2.47% | $527.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDAI pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $101.93M in total.
+5 live pools clear this page's $100K TVL floor, $102.42M in total.
 
 ### Are these rates safe?
 
@@ -28,10 +28,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

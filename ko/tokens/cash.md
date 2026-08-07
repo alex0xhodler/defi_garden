@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 0.72% | $7.14M |
+| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 1.40% | $7.15M |
 | [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 4.23% | $2.91M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -29,8 +29,8 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-lend에서 APY 4.23%예�
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 

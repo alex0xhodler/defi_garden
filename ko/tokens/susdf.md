@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 4.15% | $67.66M |
+| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 3.91% | $67.67M |
 | [pendle →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c&src=seo_token) | Ethereum | 4.16% | $248.3K |
 | [pendle →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e&src=seo_token) | Ethereum | 5.44% | $248.3K |
 

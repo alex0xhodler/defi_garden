@@ -4,14 +4,14 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [blackrock-buidl →](https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token) | Ethereum | 3.57% | $964.31M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token) | Aptos | 3.23% | $821.9M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token) | Solana | 3.54% | $697.09M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token) | Avalanche | 3.54% | $631.27M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token) | Ethereum | 3.23% | $224.89M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token) | BSC | 3.23% | $110.83M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token) | OP Mainnet | 3.23% | $26.34M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=1f73ccbf-189e-4471-9e5c-46151b505d7d&src=seo_token) | Arbitrum | 3.23% | $24.28M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token) | Ethereum | 3.57% | $964.4M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token) | Aptos | 3.23% | $821.91M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token) | Solana | 3.54% | $712.22M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token) | Avalanche | 3.54% | $631.33M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token) | Ethereum | 3.23% | $224.91M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token) | BSC | 3.23% | $110.84M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=a12d730b-9f47-47f9-95b6-c8689faf966c&src=seo_token) | OP Mainnet | 3.23% | $26.35M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498&src=seo_token) | Polygon | 3.54% | $13.47M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -46,6 +46,6 @@ DefiLlama 실시간 데이터 기준, Ethereum의 blackrock-buidl에서 APY 3.57
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
-- [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
+- [Polygon](https://www.defi.garden/ko/chains/polygon)
 
 ## 마지막 업데이트: August 7, 2026

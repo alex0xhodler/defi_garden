@@ -1,11 +1,10 @@
 # TREE DeFi Yields
 
-The highest honest TREE yield right now is 0.20% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TREE yield right now is 0.01% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89&src=seo_token) | Ethereum | 0.20% | $1.1M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8&src=seo_token) | Base | 0.12% | $442.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89&src=seo_token) | Ethereum | 0.01% | $1.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TREE yield today?
 
-0.20% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many TREE pools clear the TVL floor?
 
@@ -35,6 +34,5 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Base](https://www.defi.garden/chains/base)
 
 ## Last updated August 7, 2026

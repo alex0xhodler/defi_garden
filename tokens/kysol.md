@@ -4,8 +4,8 @@ The highest honest KYSOL yield right now is 5.16% on kyros (Solana), among 3 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.16% | $7.59M |
-| [raydium-amm →](https://www.defi.garden/?pool=b820fb28-a93a-4d1e-81d0-da3453b98e54&src=seo_token) | Solana | 0.05% | $296.2K |
+| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.16% | $7.61M |
+| [raydium-amm →](https://www.defi.garden/?pool=b820fb28-a93a-4d1e-81d0-da3453b98e54&src=seo_token) | Solana | 0.05% | $296.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KYSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $8.18M in total.
+3 live pools clear this page's $100K TVL floor, $8.2M in total.
 
 ### Are these rates safe?
 
@@ -29,8 +29,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

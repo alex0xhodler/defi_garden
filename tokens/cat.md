@@ -1,10 +1,10 @@
 # CAT DeFi Yields
 
-The highest honest CAT yield right now is 0.99% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAT yield right now is 1.87% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e87cab1c-d5e1-4f3a-88fa-e76b43ad2a65&src=seo_token) | Solana | 0.99% | $112.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=e87cab1c-d5e1-4f3a-88fa-e76b43ad2a65&src=seo_token) | Solana | 1.87% | $113.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CAT yield today?
 
-0.99% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.87% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CAT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $272.5K in total.
+2 live pools clear this page's $100K TVL floor, $273.7K in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

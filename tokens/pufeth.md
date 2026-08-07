@@ -1,15 +1,16 @@
 # PUFETH DeFi Yields
 
-The highest honest PUFETH yield right now is 9.64% on pendle (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUFETH yield right now is 9.64% on pendle (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.34% | $45.99M |
-| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 6.06% | $2.19M |
-| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 5.83% | $1.27M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.98% | $574.6K |
+| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.19% | $45.8M |
+| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 42.04% | $2.2M |
+| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 25.30% | $1.28M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.50% | $574K |
 | [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 9.64% | $149.1K |
 | [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 8.94% | $149.1K |
+| [curve-dex →](https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token) | Ethereum | 28.64% | $101.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PUFETH pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $50.53M in total.
+8 live pools clear this page's $100K TVL floor, $50.45M in total.
 
 ### Are these rates safe?
 

@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.51% | $2.18M |
-| [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.26% | $399K |
+| [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.51% | $2.17M |
+| [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.25% | $398.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 0.51%예요.
 
 ### MWCBBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.58M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.57M예요.
 
 ### 이 수익률은 안전한가요?
 

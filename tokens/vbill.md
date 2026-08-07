@@ -4,7 +4,7 @@ The highest honest VBILL yield right now is 3.57% on vaneck-treasury-fund (Avala
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $136.06M |
+| [vaneck-treasury-fund →](https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token) | Avalanche | 3.57% | $136.08M |
 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token) | Ethereum | 3.57% | $21.51M |
 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token) | BSC | 3.57% | $21.48M |
 | [vaneck-treasury-fund →](https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token) | Solana | 3.57% | $13.91M |
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VBILL pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $199.21M in total.
+5 live pools clear this page's $100K TVL floor, $199.23M in total.
 
 ### Are these rates safe?
 

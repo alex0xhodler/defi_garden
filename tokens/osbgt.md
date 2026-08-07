@@ -1,11 +1,11 @@
 # OSBGT DeFi Yields
 
-The highest honest OSBGT yield right now is 43.35% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OSBGT yield right now is 44.00% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 73.52% | $221K |
-| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 43.35% | $204.1K |
+| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 71.90% | $204.8K |
+| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 44.00% | $189.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OSBGT yield today?
 
-43.35% APY on berapaw (Berachain), based on live DefiLlama data.
+44.00% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many OSBGT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $425.2K in total.
+2 live pools clear this page's $100K TVL floor, $393.9K in total.
 
 ### Are these rates safe?
 

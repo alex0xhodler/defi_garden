@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SBTC | [zest-v2 →](https://www.defi.garden/?pool=f003d6df-fb8f-4a74-8cfb-aee8cc44f433&src=seo_chain) | 0.01% | $47.53M |
-| USDC | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_chain) | 0.49% | $10.06M |
+| SBTC | [zest-v2 →](https://www.defi.garden/?pool=f003d6df-fb8f-4a74-8cfb-aee8cc44f433&src=seo_chain) | 0.01% | $47.51M |
+| USDC | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_chain) | 0.49% | $10.08M |
 | STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_chain) | 0.10% | $1.49M |
 | STX | [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_chain) | 1.16% | $1.34M |
 
@@ -32,7 +32,7 @@ DefiLlama 실시간 데이터 기준, Stacks의 zest-v2에서 APY 1.16%예요.
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
 ## Stacks의 인기 토큰
 

@@ -4,7 +4,7 @@ The highest honest 9SEURC yield right now is 4.74% on lagoon (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=514d3a59-9783-45d9-834f-c8a08d30e9a1&src=seo_token) | Ethereum | 4.74% | $713K |
+| [lagoon →](https://www.defi.garden/?pool=514d3a59-9783-45d9-834f-c8a08d30e9a1&src=seo_token) | Ethereum | 4.74% | $715.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 9SEURC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $713K in total.
+1 live pool clear this page's $100K TVL floor, $715.2K in total.
 
 ### Are these rates safe?
 

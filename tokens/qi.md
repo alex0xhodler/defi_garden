@@ -4,8 +4,8 @@ The highest honest QI yield right now is 0.02% on balancer-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token) | Ethereum | 0.02% | $513.5K |
-| [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 4.89% | $102.5K |
+| [balancer-v2 →](https://www.defi.garden/?pool=26ea467f-3c63-4b35-9f21-983f7a2cdb0e&src=seo_token) | Ethereum | 0.02% | $517.2K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 5.21% | $103.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $616K in total.
+2 live pools clear this page's $100K TVL floor, $620.3K in total.
 
 ### Are these rates safe?
 

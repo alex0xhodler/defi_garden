@@ -4,7 +4,7 @@ The highest honest GTUSDCB yield right now is 8.42% on morpho-blue (Arbitrum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f73ea1af-90f3-4e48-b160-f678f9a4f8aa&src=seo_token) | Arbitrum | 8.42% | $395.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=f73ea1af-90f3-4e48-b160-f678f9a4f8aa&src=seo_token) | Arbitrum | 8.42% | $441.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTUSDCB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $395.2K in total.
+1 live pool clear this page's $100K TVL floor, $441.8K in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 

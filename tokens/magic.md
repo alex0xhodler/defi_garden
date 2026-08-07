@@ -1,10 +1,10 @@
 # MAGIC DeFi Yields
 
-The highest honest MAGIC yield right now is 4.14% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAGIC yield right now is 3.99% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b24fc4d-4c49-4406-b1fe-18693817a517&src=seo_token) | Base | 4.14% | $211.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b24fc4d-4c49-4406-b1fe-18693817a517&src=seo_token) | Base | 3.99% | $210K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAGIC yield today?
 
-4.14% APY on uniswap-v3 (Base), based on live DefiLlama data.
+3.99% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MAGIC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $211.1K in total.
+1 live pool clear this page's $100K TVL floor, $210K in total.
 
 ### Are these rates safe?
 

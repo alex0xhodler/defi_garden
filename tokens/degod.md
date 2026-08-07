@@ -1,10 +1,10 @@
 # DEGOD DeFi Yields
 
-The highest honest DEGOD yield right now is 7.09% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEGOD yield right now is 2.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=62201624-5aef-4705-aafa-e93ec330b451&src=seo_token) | Solana | 7.09% | $164.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=62201624-5aef-4705-aafa-e93ec330b451&src=seo_token) | Solana | 2.23% | $164.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEGOD yield today?
 
-7.09% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.23% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DEGOD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164.1K in total.
+1 live pool clear this page's $100K TVL floor, $164.2K in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

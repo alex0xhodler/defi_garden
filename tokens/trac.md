@@ -1,11 +1,11 @@
 # TRAC DeFi Yields
 
-The highest honest TRAC yield right now is 6.55% on hydration-dex (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRAC yield right now is 6.56% on hydration-dex (Polkadot), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 8.33% | $353.7K |
-| [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 6.55% | $196.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 6.64% | $355.6K |
+| [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 6.56% | $197.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TRAC yield today?
 
-6.55% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+6.56% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many TRAC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $550K in total.
+2 live pools clear this page's $100K TVL floor, $552.7K in total.
 
 ### Are these rates safe?
 

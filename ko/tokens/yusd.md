@@ -4,6 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+| [uniswap-v4 →](https://www.defi.garden/?pool=986a0498-9cd7-4d82-ae06-d3f66f3f0fd7&src=seo_token) | Ethereum | 0.08% | $832.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.11% | $589K |
 | [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -16,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 curve-dex에서 APY 0.16%예�
 
 ### YUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $37.46M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $37.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -24,15 +26,16 @@ DefiLlama 실시간 데이터 기준, Avalanche의 curve-dex에서 APY 0.16%예�
 
 ## 관련 토큰
 
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [SAVAX](https://www.defi.garden/ko/tokens/savax)
-- [VBILL](https://www.defi.garden/ko/tokens/vbill)
-- [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
-- [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 
+- [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
 ## 마지막 업데이트: August 7, 2026

@@ -1,13 +1,13 @@
 # SYBTC DeFi Yields
 
-The highest honest SYBTC yield right now is 20.87% on uniswap-v3 (BSC), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYBTC yield right now is 21.57% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=23bff1c9-7402-4c1f-81e8-d46b09f8e001&src=seo_token) | Ethereum | 1.42% | $590.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 4.79% | $381K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a287546c-cb67-488a-b7c3-02be149a9883&src=seo_token) | Ethereum | 15.91% | $359.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=289081f9-15ee-584d-bbdc-cdd6c8fd422a&src=seo_token) | BSC | 20.87% | $168.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=23bff1c9-7402-4c1f-81e8-d46b09f8e001&src=seo_token) | Ethereum | 1.72% | $590.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a287546c-cb67-488a-b7c3-02be149a9883&src=seo_token) | Ethereum | 21.57% | $426.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 5.32% | $352.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=289081f9-15ee-584d-bbdc-cdd6c8fd422a&src=seo_token) | BSC | 6.82% | $169.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYBTC yield today?
 
-20.87% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+21.57% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SYBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.5M in total.
+4 live pools clear this page's $100K TVL floor, $1.54M in total.
 
 ### Are these rates safe?
 

@@ -1,12 +1,12 @@
 # OVER DeFi Yields
 
-The highest honest OVER yield right now is 11.91% on velodrome-v2 (OP Mainnet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OVER yield right now is 12.13% on velodrome-v2 (OP Mainnet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token) | Base | 10.33% | $347.8K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 2.23% | $274.8K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token) | OP Mainnet | 11.91% | $256.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token) | Base | 10.47% | $348.2K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 2.28% | $274.1K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token) | OP Mainnet | 12.13% | $256.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OVER yield today?
 
-11.91% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+12.13% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many OVER pools clear the TVL floor?
 

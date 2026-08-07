@@ -1,13 +1,11 @@
 # PING DeFi Yields
 
-The highest honest PING yield right now is 0.06% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PING yield right now is 2.05% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token) | Base | 7.87% | $1.03M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token) | Base | 0.06% | $340.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=459a71b6-f8e0-432f-af29-c24d88bb9000&src=seo_token) | Base | 0.01% | $256.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a315614c-1b31-4287-8e63-b0cbed3956d6&src=seo_token) | Base | 0.06% | $172.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token) | Base | 2.05% | $1.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token) | Base | 0.03% | $340.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PING yield today?
 
-0.06% APY on uniswap-v4 (Base), based on live DefiLlama data.
+2.05% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many PING pools clear the TVL floor?
 

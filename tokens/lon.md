@@ -1,10 +1,11 @@
 # LON DeFi Yields
 
-The highest honest LON yield right now is 0.10% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LON yield right now is 0.16% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.10% | $1.09M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.02% | $1.43M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.16% | $1.09M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LON yield today?
 
-0.10% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.16% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many LON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.66M in total.
+3 live pools clear this page's $100K TVL floor, $2.65M in total.
 
 ### Are these rates safe?
 
@@ -24,15 +25,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [STETH](https://www.defi.garden/tokens/steth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
-- [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDS](https://www.defi.garden/tokens/usds)
-- [ETH](https://www.defi.garden/tokens/eth)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
 
 ## Available on
 
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
 ## Last updated August 7, 2026

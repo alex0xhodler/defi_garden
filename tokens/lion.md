@@ -5,8 +5,8 @@ The highest honest LION yield right now is 6.17% on scrub-invest (Kava), among 3
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_token) | Kava | 6.17% | $7.38M |
-| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5&src=seo_token) | Cronos | 0.27% | $1.93M |
-| [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae&src=seo_token) | Solana | 0.33% | $358.4K |
+| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5&src=seo_token) | Cronos | 1.36% | $1.88M |
+| [raydium-amm →](https://www.defi.garden/?pool=7d53f6d4-b6b3-4164-9fc1-dc1a657d22ae&src=seo_token) | Solana | 0.83% | $356.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LION pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $9.67M in total.
+3 live pools clear this page's $100K TVL floor, $9.61M in total.
 
 ### Are these rates safe?
 
@@ -30,8 +30,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # WGOOGLX DeFi Yields
 
-The highest honest WGOOGLX yield right now is 0.48% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGOOGLX yield right now is 0.38% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 0.48% | $112.4K |
+| [fluxion-network →](https://www.defi.garden/?pool=227e8492-33e9-4953-8beb-28973c9fdb8a&src=seo_token) | Mantle | 0.38% | $111.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WGOOGLX yield today?
 
-0.48% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.38% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WGOOGLX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.4K in total.
+1 live pool clear this page's $100K TVL floor, $111.6K in total.
 
 ### Are these rates safe?
 

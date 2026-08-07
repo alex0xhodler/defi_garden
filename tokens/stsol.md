@@ -1,10 +1,10 @@
 # STSOL DeFi Yields
 
-The highest honest STSOL yield right now is 1.08% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STSOL yield right now is 1.69% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7a82f91e-2f28-4b3a-af08-4d553721dd51&src=seo_token) | Solana | 1.08% | $312.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=7a82f91e-2f28-4b3a-af08-4d553721dd51&src=seo_token) | Solana | 1.69% | $312.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STSOL yield today?
 
-1.08% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.69% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $528K in total.
+2 live pools clear this page's $100K TVL floor, $527.8K in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

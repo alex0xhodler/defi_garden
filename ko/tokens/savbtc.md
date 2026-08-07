@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28&src=seo_token) | Avalanche | 3.32% | $7.16M |
+| [avant-avbtc →](https://www.defi.garden/?pool=ee869abc-744a-4e2e-bd5b-f5425dc0bd28&src=seo_token) | Avalanche | 3.32% | $7.15M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -29,7 +29,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 avant-avbtc에서 APY 3.32%�
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [VBILL](https://www.defi.garden/ko/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
-- [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
+- [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
 
 ## 이용 가능한 체인
 

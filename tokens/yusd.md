@@ -4,6 +4,8 @@ The highest honest YUSD yield right now is 0.16% on curve-dex (Avalanche), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [uniswap-v4 →](https://www.defi.garden/?pool=986a0498-9cd7-4d82-ae06-d3f66f3f0fd7&src=seo_token) | Ethereum | 0.08% | $832.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.11% | $589K |
 | [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -16,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $37.46M in total.
+5 live pools clear this page's $100K TVL floor, $37.47M in total.
 
 ### Are these rates safe?
 
@@ -24,15 +26,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
-- [SAVAX](https://www.defi.garden/tokens/savax)
-- [VBILL](https://www.defi.garden/tokens/vbill)
-- [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [BTC.B](https://www.defi.garden/tokens/btc-b)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
 ## Last updated August 7, 2026

@@ -4,7 +4,7 @@ The highest honest TGBP yield right now is 1.37% on curve-dex (Polygon), among 4
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.07% | $287.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.46% | $288.3K |
 | [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.01% | $240.9K |
 | [curve-dex →](https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token) | Polygon | 1.37% | $111.4K |
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TGBP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $742.7K in total.
+4 live pools clear this page's $100K TVL floor, $743.1K in total.
 
 ### Are these rates safe?
 

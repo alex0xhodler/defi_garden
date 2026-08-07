@@ -4,7 +4,7 @@ The highest honest LANTERNSOL yield right now is 6.00% on lantern-staked-sol (So
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259&src=seo_token) | Solana | 6.00% | $1.51M |
+| [lantern-staked-sol →](https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259&src=seo_token) | Solana | 6.00% | $1.52M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

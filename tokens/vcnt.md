@@ -1,12 +1,12 @@
 # VCNT DeFi Yields
 
-The highest honest VCNT yield right now is 32.64% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VCNT yield right now is 31.87% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d4a8a53d-43f6-4cb2-b2f2-58f1762e79c5&src=seo_token) | Base | 32.64% | $182K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be954f9b-34de-473f-a52a-5016ea4db85f&src=seo_token) | Polygon | 19.65% | $169.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token) | Arbitrum | 0.81% | $164K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d4a8a53d-43f6-4cb2-b2f2-58f1762e79c5&src=seo_token) | Base | 31.87% | $182.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be954f9b-34de-473f-a52a-5016ea4db85f&src=seo_token) | Polygon | 19.87% | $168.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token) | Arbitrum | 0.39% | $164K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VCNT yield today?
 
-32.64% APY on uniswap-v3 (Base), based on live DefiLlama data.
+31.87% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many VCNT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $515.1K in total.
+3 live pools clear this page's $100K TVL floor, $515.6K in total.
 
 ### Are these rates safe?
 

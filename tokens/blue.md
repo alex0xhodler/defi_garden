@@ -1,10 +1,10 @@
 # BLUE DeFi Yields
 
-The highest honest BLUE yield right now is 11.28% on ember-protocol (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLUE yield right now is 14.96% on ember-protocol (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ember-protocol →](https://www.defi.garden/?pool=c8d9db16-8eea-43d4-a3dd-138d4ede5f93&src=seo_token) | Sui | 11.28% | $403.4K |
+| [ember-protocol →](https://www.defi.garden/?pool=c8d9db16-8eea-43d4-a3dd-138d4ede5f93&src=seo_token) | Sui | 14.96% | $404.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLUE yield today?
 
-11.28% APY on ember-protocol (Sui), based on live DefiLlama data.
+14.96% APY on ember-protocol (Sui), based on live DefiLlama data.
 
 ### How many BLUE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $403.4K in total.
+1 live pool clear this page's $100K TVL floor, $404.5K in total.
 
 ### Are these rates safe?
 

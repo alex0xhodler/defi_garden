@@ -4,7 +4,7 @@ The highest honest SUIUSDE yield right now is 1.47% on navi-lending (Sui), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token) | Sui | 0.31% | $502.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token) | Sui | 0.32% | $502.2K |
 | [bluefin-spot →](https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token) | Sui | 0.03% | $496.6K |
 | [navi-lending →](https://www.defi.garden/?pool=85c687c8-5ecd-494c-b3cc-d930612349b0&src=seo_token) | Sui | 1.47% | $303.6K |
 

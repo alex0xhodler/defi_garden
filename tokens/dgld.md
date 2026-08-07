@@ -1,10 +1,11 @@
 # DGLD DeFi Yields
 
-The highest honest DGLD yield right now is 4.50% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DGLD yield right now is 0.08% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token) | Ethereum | 4.50% | $480.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token) | Ethereum | 5.69% | $457.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token) | Base | 0.08% | $102.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DGLD yield today?
 
-4.50% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.08% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many DGLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $480.1K in total.
+2 live pools clear this page's $100K TVL floor, $560.4K in total.
 
 ### Are these rates safe?
 
@@ -34,5 +35,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Base](https://www.defi.garden/chains/base)
 
 ## Last updated August 7, 2026

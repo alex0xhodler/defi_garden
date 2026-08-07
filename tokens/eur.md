@@ -4,7 +4,7 @@ The highest honest EUR yield right now is 43.31% on gmtrade (Solana), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=9503cfc7-5b20-4c77-bc16-df72263bd907&src=seo_token) | Solana | 43.31% | $1.61M |
+| [gmtrade →](https://www.defi.garden/?pool=9503cfc7-5b20-4c77-bc16-df72263bd907&src=seo_token) | Solana | 43.31% | $1.55M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EUR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.32M in total.
+2 live pools clear this page's $100K TVL floor, $6.27M in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

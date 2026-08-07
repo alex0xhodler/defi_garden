@@ -4,8 +4,8 @@ The highest honest USTB yield right now is 3.50% on invesco-ustb (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [invesco-ustb →](https://www.defi.garden/?pool=1910847a-f8b5-40ce-a1ab-1dafdded5fbb&src=seo_token) | Ethereum | 3.50% | $749.95M |
-| [invesco-ustb →](https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf&src=seo_token) | Solana | 3.50% | $2.35M |
+| [invesco-ustb →](https://www.defi.garden/?pool=1910847a-f8b5-40ce-a1ab-1dafdded5fbb&src=seo_token) | Ethereum | 3.50% | $797.89M |
+| [invesco-ustb →](https://www.defi.garden/?pool=9ad71299-9318-47b3-9a5a-bbe67c5121bf&src=seo_token) | Solana | 3.50% | $2.25M |
 | [invesco-ustb →](https://www.defi.garden/?pool=8db7cb71-f2b7-45c7-bbff-f32c88ef7b81&src=seo_token) | Plume Mainnet | 3.50% | $1.91M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USTB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $827.31M in total.
+4 live pools clear this page's $100K TVL floor, $875.24M in total.
 
 ### Are these rates safe?
 

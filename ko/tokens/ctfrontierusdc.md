@@ -1,11 +1,11 @@
 # CTFRONTIERUSDC 디파이 수익률
 
-현재 CTFRONTIERUSDC의 가장 높은 정직한 수익률은 Ethereum의 concrete에서 9.34%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CTFRONTIERUSDC의 가장 높은 정직한 수익률은 Ethereum의 concrete에서 5.66%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f&src=seo_token) | Ethereum | 7.61% | $1.18M |
-| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf&src=seo_token) | Ethereum | 9.34% | $457.3K |
+| [concrete →](https://www.defi.garden/?pool=ae9ce29c-ab67-41cd-b2a9-3bc3353d595f&src=seo_token) | Ethereum | 5.66% | $1.19M |
+| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf&src=seo_token) | Ethereum | 20.00% | $457.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 CTFRONTIERUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 concrete에서 APY 9.34%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 concrete에서 APY 5.66%예요.
 
 ### CTFRONTIERUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
