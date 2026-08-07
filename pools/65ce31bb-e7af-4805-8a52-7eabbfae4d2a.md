@@ -1,12 +1,12 @@
 # OVER-USDC — aerodrome-v1 on Base
 
-**Total APY:** 10.29% (0.00% Base · + 10.29% Rewards)
+**Total APY:** 10.33% (0.00% Base · + 10.33% Rewards)
 
-**TVL:** $347.5K
+**TVL:** $347.8K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 12.82%
+**30d Mean APY:** 12.81%
 
 **Exposure:** multi
 
@@ -26,7 +26,7 @@ $1,000 in this pool grows to ~$1,184 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (10.29% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (10.33% headline) — farm rates decay. Active management required.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 

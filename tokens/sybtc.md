@@ -4,10 +4,10 @@ The highest honest SYBTC yield right now is 20.87% on uniswap-v3 (BSC), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=23bff1c9-7402-4c1f-81e8-d46b09f8e001&src=seo_token) | Ethereum | 1.50% | $589K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 4.79% | $380.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a287546c-cb67-488a-b7c3-02be149a9883&src=seo_token) | Ethereum | 16.94% | $359.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=289081f9-15ee-584d-bbdc-cdd6c8fd422a&src=seo_token) | BSC | 20.87% | $168.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=23bff1c9-7402-4c1f-81e8-d46b09f8e001&src=seo_token) | Ethereum | 1.42% | $590.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 4.79% | $381K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a287546c-cb67-488a-b7c3-02be149a9883&src=seo_token) | Ethereum | 15.91% | $359.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=289081f9-15ee-584d-bbdc-cdd6c8fd422a&src=seo_token) | BSC | 20.87% | $168.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

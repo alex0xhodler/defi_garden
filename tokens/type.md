@@ -4,7 +4,7 @@ The highest honest TYPE yield right now is 0.25% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=de2ab694-a5a4-418c-ad06-f198a4604fa0&src=seo_token) | Ethereum | 0.25% | $100.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=de2ab694-a5a4-418c-ad06-f198a4604fa0&src=seo_token) | Ethereum | 0.25% | $100.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.1K in total.
+1 live pool clear this page's $100K TVL floor, $100.2K in total.
 
 ### Are these rates safe?
 

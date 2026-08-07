@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDAT pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $50.33M in total.
+13 live pools clear this page's $100K TVL floor, $50.38M in total.
 
 ### Are these rates safe?
 

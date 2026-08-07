@@ -4,7 +4,7 @@ The highest honest GTWETHC yield right now is 3.25% on morpho-blue (Unichain), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=6c6259b6-1226-40ca-9369-9940fdd25b0a&src=seo_token) | Base | 1.41% | $628.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=6c6259b6-1226-40ca-9369-9940fdd25b0a&src=seo_token) | Base | 1.40% | $608.5K |
 | [morpho-blue →](https://www.defi.garden/?pool=699b2867-ace7-41df-99fe-10806460d274&src=seo_token) | Unichain | 3.25% | $501.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTWETHC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.13M in total.
+2 live pools clear this page's $100K TVL floor, $1.11M in total.
 
 ### Are these rates safe?
 

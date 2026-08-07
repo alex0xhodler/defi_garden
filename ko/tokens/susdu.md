@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Solana의 unitas-usdu에서 APY 9.98%예�
 
 ### SUSDU 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $47.97M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $47.96M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -28,8 +28,8 @@ DefiLlama 실시간 데이터 기준, Solana의 unitas-usdu에서 APY 9.98%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
 
 ## 이용 가능한 체인

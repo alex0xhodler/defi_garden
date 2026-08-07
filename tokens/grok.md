@@ -4,7 +4,7 @@ The highest honest GROK yield right now is 0.64% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e70c3cf9-57e9-4c96-8297-8f18fd789c87&src=seo_token) | Ethereum | 0.64% | $835.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e70c3cf9-57e9-4c96-8297-8f18fd789c87&src=seo_token) | Ethereum | 0.64% | $835.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GROK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $835.7K in total.
+1 live pool clear this page's $100K TVL floor, $835.6K in total.
 
 ### Are these rates safe?
 

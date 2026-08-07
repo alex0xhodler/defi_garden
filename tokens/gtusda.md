@@ -1,11 +1,11 @@
 # GTUSDA DeFi Yields
 
-The highest honest GTUSDA yield right now is 5.02% on gauntlet (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDA yield right now is 5.00% on gauntlet (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 5.00% | $52.64M |
-| [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 5.02% | $1.64M |
+| [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 5.00% | $1.64M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDA yield today?
 
-5.02% APY on gauntlet (Ethereum), based on live DefiLlama data.
+5.00% APY on gauntlet (Base), based on live DefiLlama data.
 
 ### How many GTUSDA pools clear the TVL floor?
 

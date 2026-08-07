@@ -2,7 +2,7 @@
 
 **Total APY:** 5.30% (0.27% Base · + 5.03% Rewards)
 
-**TVL:** $1.87M
+**TVL:** $1.89M
 
 **Pool Type:** Yield Farming
 
@@ -20,13 +20,13 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,294 in 5y at current rates.
+$1,000 in this pool grows to ~$1,295 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 
-[Garden this pool → ~$1,294 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,295 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on hydration-dex](https://hydration.net/?ref=defi.garden)
 

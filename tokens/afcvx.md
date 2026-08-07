@@ -4,7 +4,7 @@ The highest honest AFCVX yield right now is 0.01% on convex-finance (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=30527065-e03e-46b1-bf03-762d12e48885&src=seo_token) | Ethereum | 0.01% | $101.2K |
+| [convex-finance →](https://www.defi.garden/?pool=30527065-e03e-46b1-bf03-762d12e48885&src=seo_token) | Ethereum | 0.01% | $100.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AFCVX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $222.9K in total.
+2 live pools clear this page's $100K TVL floor, $222K in total.
 
 ### Are these rates safe?
 

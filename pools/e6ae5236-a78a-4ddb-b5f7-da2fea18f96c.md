@@ -1,12 +1,12 @@
 # HOLLAR — hydration-dex on Polkadot
 
-**Total APY:** 14.97% (2.48% Base · + 12.49% Rewards)
+**Total APY:** 14.96% (2.48% Base · + 12.49% Rewards)
 
-**TVL:** $2.07M
+**TVL:** $2.08M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 18.37%
+**30d Mean APY:** 18.36%
 
 **Exposure:** single
 

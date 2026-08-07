@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APYUSD pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $96.37M in total.
+15 live pools clear this page's $100K TVL floor, $96.26M in total.
 
 ### Are these rates safe?
 

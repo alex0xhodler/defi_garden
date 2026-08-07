@@ -1,10 +1,10 @@
 # AP DeFi Yields
 
-The highest honest AP yield right now is 2.20% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AP yield right now is 2.40% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f3a6edb9-d167-4a64-b557-15cb402eb6a1&src=seo_token) | Ethereum | 2.20% | $100.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f3a6edb9-d167-4a64-b557-15cb402eb6a1&src=seo_token) | Ethereum | 2.40% | $100.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AP yield today?
 
-2.20% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.40% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many AP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.4K in total.
+1 live pool clear this page's $100K TVL floor, $100.7K in total.
 
 ### Are these rates safe?
 

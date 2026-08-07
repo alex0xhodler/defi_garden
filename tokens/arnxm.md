@@ -4,7 +4,7 @@ The highest honest ARNXM yield right now is 0.02% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=548b98c4-d066-462d-b07a-ec203227dfe2&src=seo_token) | Ethereum | 0.02% | $122K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=548b98c4-d066-462d-b07a-ec203227dfe2&src=seo_token) | Ethereum | 0.02% | $122.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ARNXM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122K in total.
+1 live pool clear this page's $100K TVL floor, $122.1K in total.
 
 ### Are these rates safe?
 

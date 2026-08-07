@@ -1,12 +1,12 @@
 # VBUSDC DeFi Yields
 
-The highest honest VBUSDC yield right now is 12.90% on spectra-metavaults (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBUSDC yield right now is 12.73% on spectra-metavaults (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 4.50% | $8.65M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 2.08% | $4.11M |
-| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 12.90% | $452.7K |
+| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 4.46% | $8.25M |
+| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 2.08% | $4.12M |
+| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 12.73% | $452.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VBUSDC yield today?
 
-12.90% APY on spectra-metavaults (Katana), based on live DefiLlama data.
+12.73% APY on spectra-metavaults (Katana), based on live DefiLlama data.
 
 ### How many VBUSDC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $13.22M in total.
+3 live pools clear this page's $100K TVL floor, $12.81M in total.
 
 ### Are these rates safe?
 

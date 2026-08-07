@@ -1,12 +1,12 @@
 # CATE DeFi Yields
 
-The highest honest CATE yield right now is 0.61% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CATE yield right now is 0.59% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9ad28117-763a-52b9-9d0b-2bdca7abeb10&src=seo_token) | Solana | 0.61% | $1.48M |
+| [raydium-amm →](https://www.defi.garden/?pool=9ad28117-763a-52b9-9d0b-2bdca7abeb10&src=seo_token) | Solana | 0.59% | $1.48M |
 | [raydium-amm →](https://www.defi.garden/?pool=93127081-cbd5-5413-8c29-abe9bf883719&src=seo_token) | Solana | 0.23% | $1.44M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=33a6ef1d-44b0-463b-a089-88986f542843&src=seo_token) | Ethereum | 50.29% | $118.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=33a6ef1d-44b0-463b-a089-88986f542843&src=seo_token) | Ethereum | 47.91% | $118.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CATE yield today?
 
-0.61% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.59% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CATE pools clear the TVL floor?
 

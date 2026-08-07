@@ -4,7 +4,7 @@ The highest honest ETH2X yield right now is 17.17% on arrakis-v1 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $142.3K |
+| [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $142.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ETH2X pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $398.1K in total.
+2 live pools clear this page's $100K TVL floor, $398.6K in total.
 
 ### Are these rates safe?
 
