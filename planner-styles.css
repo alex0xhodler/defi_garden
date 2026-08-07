@@ -15,6 +15,10 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* .gp-header::before's full-bleed band is width:100vw, which includes the
+     vertical scrollbar's width — clip the few px of horizontal bleed so the
+     steps never scroll sideways (same overflow strategy as .landing-app). */
+  overflow-x: clip;
   /* Certificate geometry (247 world): pool detail's panels sit at 2–4px,
      never the soft 8/12/16px app radii. Rescoping the tokens here snaps
      every tokened radius in the planner (cards, chips-rows, inputs,
@@ -127,15 +131,19 @@
   pointer-events: none;
 }
 
+/* Brand identity — the landing's tile + wordmark recipe (.landing-brand). */
 .gp-logo {
-  font-size: var(--font-size-xl);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
   font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
+  letter-spacing: -0.03em;
+  color: var(--color-text);
   text-decoration: none;
   white-space: nowrap;
-  transition: transform var(--duration-normal) var(--ease-standard);
 }
-.gp-logo:hover { transform: translateY(-1px); }
+.gp-logo:hover { color: var(--color-text); }
 
 .gp-header-actions {
   display: flex;
@@ -159,12 +167,14 @@
 .gp-theme-toggle {
   border: 1px solid var(--ui-border);
   background: var(--color-background);
+  color: var(--color-text-secondary);
   cursor: pointer;
-  font-size: var(--font-size-lg);
-  transition: border-color var(--duration-normal) var(--ease-standard),
-    transform var(--duration-normal) var(--ease-standard);
+  font-size: 18px;
+  transition: color var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard);
 }
-.gp-theme-toggle:hover { border-color: var(--ui-border-strong); transform: translateY(-1px); }
+.gp-theme-toggle:hover { color: var(--color-primary); border-color: var(--ui-border-strong); }
+.gp-theme-toggle:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 .gp-theme-icon { line-height: 1; }
 
 /* ---------- Main ---------- */
@@ -1594,12 +1604,14 @@
 .gp-analytics-btn {
   background: var(--color-background);
   border: 1px solid var(--ui-border);
+  color: var(--color-text-secondary);
   font-size: var(--font-size-xl);
   text-decoration: none;
-  transition: border-color var(--duration-normal) var(--ease-standard),
-    transform var(--duration-normal) var(--ease-standard);
+  transition: color var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard);
 }
-.gp-analytics-btn:hover { border-color: var(--ui-border-strong); transform: translateY(-1px); }
+.gp-analytics-btn:hover { color: var(--color-primary); border-color: var(--ui-border-strong); }
+.gp-analytics-btn:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 .gp-analytics-btn:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 
 /* ---------- My Garden header button ---------- */

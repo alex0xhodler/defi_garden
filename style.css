@@ -1536,18 +1536,22 @@ body {
   gap: var(--space-24);
 }
 
+/* Brand identity — the landing's tile + wordmark recipe (.landing-brand). */
 .app-logo {
-  font-size: var(--font-size-xl);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
   font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
+  letter-spacing: -0.03em;
+  color: var(--color-text);
   cursor: pointer;
   white-space: nowrap;
   user-select: none;
-  transition: all var(--duration-normal) var(--ease-standard);
 }
 
 .app-logo:hover {
-  transform: translateY(-1px);
+  color: var(--color-text);
 }
 
 .app-search-container {
@@ -6478,6 +6482,51 @@ a.hub-cta:active {
   .related-links a[href]:active, .hub-links a[href]:active { transform: none; }
 }
 
+/* ═══ 247 WORLD — ONE BRAND IDENTITY + ONE SWITCHER SKIN ═════════════════
+   The landing header's identity (leaf mark in a rounded-square tile +
+   18px/-0.03em wordmark) and its icon-button skin are the reference;
+   these rules put the same tile on the analytics grid (.app-brand-mark)
+   and the planner (.gp-brand-mark), and give the grid's theme/language
+   toggles the landing recipe. Placed at end of file so they outrank the
+   earlier .theme-toggle/.language-toggle color declarations at equal
+   specificity. */
+.app-brand-mark,
+.gp-brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  color: var(--color-primary);
+  background: var(--color-background);
+  border-radius: 12px;
+  border: 1px solid var(--ui-border);
+}
+.app-leaf-mark,
+.gp-leaf-mark { width: 22px; height: 22px; display: block; }
+.theme-toggle,
+.language-toggle {
+  border: 1px solid var(--ui-border);
+  background: var(--color-background);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: .02em;
+  transition: color var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard);
+}
+.theme-toggle { font-size: 18px; font-weight: var(--font-weight-normal); line-height: 1; }
+.theme-toggle:hover,
+.language-toggle:hover { color: var(--color-primary); border-color: var(--ui-border-strong); transform: none; }
+.theme-toggle:active,
+.language-toggle:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle:active, .language-toggle:active { transform: none; }
+}
+
 /* ═══ 247 WORLD — GENERATED ESTATE AS THE SAME SHEET ═════════════════════
    /tokens, /chains, hubs, A–Z and KO twins: the baked page blocks only set
    font-size/margin/color on their h2s and layout on their wraps, so these
@@ -6498,6 +6547,13 @@ a.hub-cta:active {
 .tp-wrap, .cp-wrap, .hub-wrap {
   position: relative;
   isolation: isolate;
+  /* Certificate geometry: the baked page blocks size their cards/headline
+     boxes/FAQ items with var(--ui-radius-*) — rescoping the tokens on the
+     wrap squares every one of them (same trick as .gp-app), no regen. */
+  --ui-radius-sm: 3px;
+  --ui-radius-md: 4px;
+  --ui-radius-lg: 4px;
+  --ui-radius-pill: 3px;
 }
 .tp-wrap::before, .cp-wrap::before, .hub-wrap::before {
   content: '';

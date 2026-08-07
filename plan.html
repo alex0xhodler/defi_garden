@@ -56,11 +56,14 @@
     <link rel="preconnect" href="https://yields.llama.fi">
     <link rel="dns-prefetch" href="//yields.llama.fi">
 
-    <!-- Load CSS non-blocking. style.min.css is CI-minified (backlog 053); edit style.css, never style.min.css. -->
-    <link rel="stylesheet" href="style.min.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="planner-styles.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="style.min.css"></noscript>
-    <noscript><link rel="stylesheet" href="planner-styles.min.css"></noscript>
+    <!-- Load CSS BLOCKING (247 world): the old media="print" swap let React
+         paint the goal picker unstyled for a beat before the sheets landed —
+         a first-impression FOUC on the planner's entry screen. Both sheets
+         are minified + long-cached; render-blocking them trades a few ms of
+         FCP for a composed first paint. Edit style.css/planner-styles.css,
+         never the .min files (backlog 053). -->
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="planner-styles.min.css">
 
     <script>
         // This document IS the planner. Declare planner mode explicitly so
