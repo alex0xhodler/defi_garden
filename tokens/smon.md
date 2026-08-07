@@ -1,12 +1,12 @@
 # SMON DeFi Yields
 
-The highest honest SMON yield right now is 25.68% on curve-dex (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMON yield right now is 27.06% on curve-dex (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.25% | $2.07M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 25.68% | $720K |
-| [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 1.31% | $608.2K |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 27.06% | $720K |
+| [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 1.31% | $606.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SMON yield today?
 
-25.68% APY on curve-dex (Monad), based on live DefiLlama data.
+27.06% APY on curve-dex (Monad), based on live DefiLlama data.
 
 ### How many SMON pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.61M in total.
+4 live pools clear this page's $100K TVL floor, $3.6M in total.
 
 ### Are these rates safe?
 

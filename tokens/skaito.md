@@ -4,8 +4,8 @@ The highest honest SKAITO yield right now is 35.03% on pendle (Base), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token) | Base | 33.27% | $277.4K |
 | [pendle →](https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token) | Base | 35.03% | $277.4K |
+| [pendle →](https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token) | Base | 33.27% | $277.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

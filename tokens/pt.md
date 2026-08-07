@@ -1,13 +1,13 @@
 # PT DeFi Yields
 
-The highest honest PT yield right now is 3.90% on neverland (Monad), among 38 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PT yield right now is 3.89% on neverland (Monad), among 38 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $23.96M |
 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.74% | $16.42M |
-| [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 3.90% | $2.3M |
-| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $111.1K |
+| [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 3.89% | $2.3M |
+| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $111.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PT yield today?
 
-3.90% APY on neverland (Monad), based on live DefiLlama data.
+3.89% APY on neverland (Monad), based on live DefiLlama data.
 
 ### How many PT pools clear the TVL floor?
 
-38 live pools clear this page's $100K TVL floor, $425.76M in total.
+38 live pools clear this page's $100K TVL floor, $425.95M in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # MSTR DeFi Yields
 
-The highest honest MSTR yield right now is 79.20% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSTR yield right now is 78.04% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 79.20% | $293K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token) | Ethereum | 5.32% | $215.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 78.04% | $293K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token) | Ethereum | 5.71% | $214.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSTR yield today?
 
-79.20% APY on raydium-amm (Solana), based on live DefiLlama data.
+78.04% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MSTR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $820.3K in total.
+4 live pools clear this page's $100K TVL floor, $819.6K in total.
 
 ### Are these rates safe?
 

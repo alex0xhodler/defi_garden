@@ -4,7 +4,7 @@ The highest honest DOPPEL yield right now is 0.08% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8ec525c7-6ab2-41c5-97e5-e69a4c9d810e&src=seo_token) | Base | 0.08% | $114.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8ec525c7-6ab2-41c5-97e5-e69a4c9d810e&src=seo_token) | Base | 0.08% | $114.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DOPPEL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.3K in total.
+1 live pool clear this page's $100K TVL floor, $114.6K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.23% | $6.73M |
+| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.22% | $6.73M |
 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 14.93% | $116.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

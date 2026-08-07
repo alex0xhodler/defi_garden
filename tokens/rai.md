@@ -4,7 +4,7 @@ The highest honest RAI yield right now is 3.13% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4cae00bf-061a-455d-8c78-085ebb5659fb&src=seo_token) | Ethereum | 3.13% | $179.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4cae00bf-061a-455d-8c78-085ebb5659fb&src=seo_token) | Ethereum | 3.13% | $179.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.7K in total.
+1 live pool clear this page's $100K TVL floor, $179.9K in total.
 
 ### Are these rates safe?
 

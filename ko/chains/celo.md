@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 0.01% | $1.77M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 0.01% | $1.78M |
 | USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 1.12% | $695.9K |
 | USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a&src=seo_chain) | 0.28% | $643.3K |
 | CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 7.59% | $595.4K |

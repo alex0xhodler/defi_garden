@@ -4,7 +4,7 @@ The highest honest TONNEL yield right now is 0.40% on dedust (TON), among 2 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=5c4240e6-c503-446d-91a6-59bb90c60112&src=seo_token) | TON | 0.59% | $127.2K |
+| [dedust →](https://www.defi.garden/?pool=5c4240e6-c503-446d-91a6-59bb90c60112&src=seo_token) | TON | 0.55% | $127.2K |
 | [dedust →](https://www.defi.garden/?pool=c97d5042-12b1-43cf-b211-64c9ce36be8b&src=seo_token) | TON | 0.40% | $102.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

@@ -4,7 +4,7 @@ The highest honest EBTC yield right now is 0.48% on convex-finance (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408&src=seo_token) | Ethereum | 0.33% | $16.9M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408&src=seo_token) | Ethereum | 0.33% | $16.92M |
 | [fluid-dex →](https://www.defi.garden/?pool=a3fd94a1-2b63-4753-b10a-1436b58768c9&src=seo_token) | Ethereum | 0.83% | $3.33M |
 | [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb&src=seo_token) | Ethereum | 0.31% | $149.5K |
 | [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37&src=seo_token) | Ethereum | 0.48% | $149.5K |
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EBTC pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $26.2M in total.
+7 live pools clear this page's $100K TVL floor, $26.22M in total.
 
 ### Are these rates safe?
 

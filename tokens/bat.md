@@ -5,7 +5,7 @@ The highest honest BAT yield right now is 0.11% on uniswap-v3 (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [bancor-v3 →](https://www.defi.garden/?pool=66cfdeb2-0450-4c1d-bf71-ff6588c5a5bb&src=seo_token) | Ethereum | 0.04% | $219K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token) | Ethereum | 0.11% | $138.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8b00b03b-641a-43b3-a8ec-4113bca456b2&src=seo_token) | Ethereum | 0.11% | $139K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

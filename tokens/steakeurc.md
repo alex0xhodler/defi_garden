@@ -6,7 +6,7 @@ The highest honest STEAKEURC yield right now is 3.23% on morpho-blue (Base), amo
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token) | Base | 3.23% | $3.69M |
 | [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.14% | $756K |
-| [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 3.00% | $522.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 3.00% | $522.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -1,11 +1,11 @@
 # MOCA DeFi Yields
 
-The highest honest MOCA yield right now is 60.74% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOCA yield right now is 60.29% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token) | Ethereum | 4.48% | $350.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 60.74% | $161.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token) | Ethereum | 4.64% | $350.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 60.29% | $161.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOCA yield today?
 
-60.74% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+60.29% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MOCA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $511.3K in total.
+2 live pools clear this page's $100K TVL floor, $511.5K in total.
 
 ### Are these rates safe?
 

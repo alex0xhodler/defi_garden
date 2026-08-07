@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.98% | $247.44M |
-| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.34% | $30.47M |
+| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.98% | $247.38M |
+| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.12% | $30.47M |
 | [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.24% | $26.71M |
 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.01% | $25.68M |
 | [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 2.48% | $22.12M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 maple에서 APY 4.98%예요.
 
 ### USDG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 41개이며, 합산 TVL은 $440.01M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 41개이며, 합산 TVL은 $440M예요.
 
 ### 이 수익률은 안전한가요?
 

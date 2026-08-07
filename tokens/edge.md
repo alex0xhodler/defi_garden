@@ -1,11 +1,11 @@
 # EDGE DeFi Yields
 
-The highest honest EDGE yield right now is 1.67% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EDGE yield right now is 1.77% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token) | Base | 7.95% | $428.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 1.67% | $180.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token) | Base | 7.90% | $429.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 1.77% | $183K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EDGE yield today?
 
-1.67% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.77% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EDGE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $609.1K in total.
+2 live pools clear this page's $100K TVL floor, $612.1K in total.
 
 ### Are these rates safe?
 

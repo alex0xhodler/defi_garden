@@ -1,12 +1,12 @@
 # EURE DeFi Yields
 
-The highest honest EURE yield right now is 4.11% on curve-dex (Gnosis), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURE yield right now is 3.38% on curve-dex (Gnosis), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token) | Gnosis | 2.55% | $5.34M |
-| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 4.11% | $378.8K |
-| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 13.68% | $378.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 13.99% | $379.8K |
+| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 3.38% | $378.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EURE yield today?
 
-4.11% APY on curve-dex (Gnosis), based on live DefiLlama data.
+3.38% APY on curve-dex (Gnosis), based on live DefiLlama data.
 
 ### How many EURE pools clear the TVL floor?
 

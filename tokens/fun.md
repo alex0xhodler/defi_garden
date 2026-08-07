@@ -5,8 +5,8 @@ The highest honest FUN yield right now is 0.55% on quickswap-dex (Polygon), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b&src=seo_token) | Polygon | 0.55% | $2.51M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d&src=seo_token) | Base | 368.16% | $347.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8&src=seo_token) | Solana | 7.57% | $122.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d&src=seo_token) | Base | 356.85% | $347.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8&src=seo_token) | Solana | 7.44% | $122.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

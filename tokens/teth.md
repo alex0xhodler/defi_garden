@@ -1,12 +1,12 @@
 # TETH DeFi Yields
 
-The highest honest TETH yield right now is 2.85% on curve-dex (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TETH yield right now is 2.82% on curve-dex (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.49% | $49.23M |
-| [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.85% | $586.2K |
-| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $168K |
+| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.49% | $49.29M |
+| [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.82% | $586.2K |
+| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $168.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TETH yield today?
 
-2.85% APY on curve-dex (Ethereum), based on live DefiLlama data.
+2.82% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many TETH pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $92.91M in total.
+7 live pools clear this page's $100K TVL floor, $93.03M in total.
 
 ### Are these rates safe?
 

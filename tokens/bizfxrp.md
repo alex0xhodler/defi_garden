@@ -1,10 +1,10 @@
 # BIZFXRP DeFi Yields
 
-The highest honest BIZFXRP yield right now is 1.54% on superform (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIZFXRP yield right now is 1.56% on superform (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=6c0c88d0-c1ba-5acb-b134-c91abcf35649&src=seo_token) | Flare | 1.54% | $286.8K |
+| [superform →](https://www.defi.garden/?pool=6c0c88d0-c1ba-5acb-b134-c91abcf35649&src=seo_token) | Flare | 1.56% | $286.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BIZFXRP yield today?
 
-1.54% APY on superform (Flare), based on live DefiLlama data.
+1.56% APY on superform (Flare), based on live DefiLlama data.
 
 ### How many BIZFXRP pools clear the TVL floor?
 

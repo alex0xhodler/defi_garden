@@ -5,12 +5,12 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 10.05% | $5.4M |
-| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 7.72% | $2.11M |
-| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 9.05% | $1.58M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.82% | $853K |
+| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 7.74% | $2.1M |
+| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 9.07% | $1.58M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.83% | $853K |
 | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.06% | $813.4K |
 | [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 16.16% | $312.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.29% | $218.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.28% | $218.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=d7b6859d-8406-45c5-b2e4-cb5a51f791ce&src=seo_token) | Ethereum | 0.68% | $141.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

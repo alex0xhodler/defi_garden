@@ -5,11 +5,11 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token) | Neutron | 18.32% | $1.36M |
-| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 2.87% | $604K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.02% | $392.8K |
-| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.04% | $289.7K |
-| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 9.26% | $222.9K |
-| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 6.34% | $152.7K |
+| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 2.86% | $605.6K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.02% | $393.8K |
+| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.04% | $290.4K |
+| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 9.23% | $223.6K |
+| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 6.28% | $153.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Neutron의 hydro-inflow에서 APY 18.32%�
 
 ### ATOM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $4.12M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $4.13M예요.
 
 ### 이 수익률은 안전한가요?
 

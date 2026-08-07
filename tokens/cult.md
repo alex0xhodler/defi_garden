@@ -1,11 +1,11 @@
 # CULT DeFi Yields
 
-The highest honest CULT yield right now is 0.74% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CULT yield right now is 0.69% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=402fc2bb-bf5e-453e-aec0-1a4cef273c03&src=seo_token) | Ethereum | 0.68% | $3.27M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9ba1500a-7a0b-43d5-903f-e0bb90e96afb&src=seo_token) | Ethereum | 0.74% | $1.38M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=402fc2bb-bf5e-453e-aec0-1a4cef273c03&src=seo_token) | Ethereum | 0.66% | $3.27M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9ba1500a-7a0b-43d5-903f-e0bb90e96afb&src=seo_token) | Ethereum | 0.69% | $1.38M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CULT yield today?
 
-0.74% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.69% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many CULT pools clear the TVL floor?
 

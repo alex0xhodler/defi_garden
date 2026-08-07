@@ -6,7 +6,7 @@ The highest honest UNIETH yield right now is 2.40% on bedrock-unieth (Ethereum),
 |---|---|---|---|
 | [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.40% | $19.68M |
 | [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.05% | $429.8K |
-| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.81% | $207.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.81% | $208.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

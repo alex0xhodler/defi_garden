@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 11.20% | $1.13M |
+| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 11.19% | $1.13M |
 | [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 96.42% | $213.6K |
 | [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 9.17% | $196.4K |
 | [liqwid →](https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token) | Cardano | 5.34% | $130.9K |

@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 81.76% | $836.3K |
-| [liqwid →](https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token) | Cardano | 0.01% | $352K |
+| [liqwid →](https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token) | Cardano | 0.01% | $354.3K |
 | [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 56.01% | $297.8K |
 | [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 96.42% | $213.6K |
 

@@ -4,8 +4,8 @@ The highest honest COCORO yield right now is 1.60% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=97fc03e7-ae76-47af-8b34-8a2b129bc29c&src=seo_token) | Base | 0.52% | $725.7K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=0f2ba4e2-4964-48b0-8fb8-1fa73b965649&src=seo_token) | Ethereum | 1.60% | $127.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=97fc03e7-ae76-47af-8b34-8a2b129bc29c&src=seo_token) | Base | 0.52% | $726.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0f2ba4e2-4964-48b0-8fb8-1fa73b965649&src=seo_token) | Ethereum | 1.60% | $127.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many COCORO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $852.9K in total.
+2 live pools clear this page's $100K TVL floor, $853.8K in total.
 
 ### Are these rates safe?
 

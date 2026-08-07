@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef&src=seo_token) | TON | 1.20% | $210.5K |
+| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef&src=seo_token) | TON | 1.19% | $210.6K |
 | [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.33% | $109.1K |
 | [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c&src=seo_token) | TON | 1.30% | $107.4K |
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, TON의 ston.fi에서 APY 1.30%예요.
 
 ### GEMSTON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $427K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $427.2K예요.
 
 ### 이 수익률은 안전한가요?
 

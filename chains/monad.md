@@ -4,14 +4,14 @@ The highest honest Monad yield right now is 16.27% on accountable (Monad), among
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain) | 6.82% | $109.98M |
+| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain) | 6.82% | $109.99M |
 | USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1&src=seo_chain) | 16.27% | $100.18M |
-| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain) | 10.02% | $53.38M |
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 2.95% | $52.15M |
+| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain) | 10.02% | $53.62M |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 2.95% | $52.27M |
 | AUSD | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_chain) | 7.80% | $41.28M |
-| STEAKETH | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_chain) | 2.88% | $40.54M |
+| STEAKETH | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_chain) | 2.87% | $40.63M |
 | VUSD | [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_chain) | 0.76% | $36.15M |
-| AUSD | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_chain) | 8.25% | $30.05M |
+| AUSD | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_chain) | 8.25% | $30.06M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Monad pools clear the TVL floor?
 
-168 live pools clear this page's $100K TVL floor, $1.29B in total.
+168 live pools clear this page's $100K TVL floor, $1.28B in total.
 
 ### Are these rates safe?
 

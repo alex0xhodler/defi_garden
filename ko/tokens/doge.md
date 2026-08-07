@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 1.02% | $2.67M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 0.89% | $2.34M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 3.71% | $405.8K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 1.37% | $258.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 1.17% | $2.67M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 1.07% | $2.34M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 3.70% | $407.9K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 1.35% | $256.3K |
 | [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 87.72% | $160.8K |
 | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token) | Heco | 0.07% | $143.7K |
 
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 87.72%예요.
 
 ### DOGE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $11.62M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $11.61M예요.
 
 ### 이 수익률은 안전한가요?
 

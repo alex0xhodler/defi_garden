@@ -1,16 +1,16 @@
 # SOLVBTC DeFi Yields
 
-The highest honest SOLVBTC yield right now is 14.02% on ekubo (Starknet), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOLVBTC yield right now is 13.94% on ekubo (Starknet), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=40769df5-74ce-4d6c-886f-ac4d5f771227&src=seo_token) | Ethereum | 0.01% | $3.72M |
-| [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 14.02% | $1.34M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=40769df5-74ce-4d6c-886f-ac4d5f771227&src=seo_token) | Ethereum | 0.01% | $3.71M |
+| [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 13.94% | $1.34M |
 | [vesu →](https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_token) | Starknet | 2.00% | $1.3M |
-| [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.20% | $293.3K |
-| [vesu →](https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token) | Starknet | 2.24% | $197.8K |
+| [blackhole-clmm →](https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token) | Avalanche | 0.20% | $292K |
+| [vesu →](https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token) | Starknet | 2.24% | $197.7K |
 | [endur →](https://www.defi.garden/?pool=3827d6b6-f6f1-4162-9df7-9024503e42ce&src=seo_token) | Starknet | 2.04% | $188.6K |
-| [ekubo →](https://www.defi.garden/?pool=9944a2b8-0771-4dfd-87db-f342b0fb8f87&src=seo_token) | Starknet | 13.76% | $127.3K |
+| [ekubo →](https://www.defi.garden/?pool=9944a2b8-0771-4dfd-87db-f342b0fb8f87&src=seo_token) | Starknet | 13.68% | $127.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,11 +18,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOLVBTC yield today?
 
-14.02% APY on ekubo (Starknet), based on live DefiLlama data.
+13.94% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many SOLVBTC pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $188.5M in total.
+14 live pools clear this page's $100K TVL floor, $187.7M in total.
 
 ### Are these rates safe?
 

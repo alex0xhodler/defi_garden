@@ -1,11 +1,11 @@
 # BNKR DeFi Yields
 
-The highest honest BNKR yield right now is 219.14% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNKR yield right now is 225.51% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 23.80% | $1.79M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 219.14% | $221.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 24.13% | $1.8M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 225.51% | $220.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BNKR yield today?
 
-219.14% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+225.51% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many BNKR pools clear the TVL floor?
 

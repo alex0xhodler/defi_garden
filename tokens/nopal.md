@@ -5,8 +5,8 @@ The highest honest NOPAL yield right now is 14.95% on pendle (Ethereum), among 3
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 10.52% | $62.04M |
-| [pendle →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 14.26% | $2.88M |
 | [pendle →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 14.95% | $2.88M |
+| [pendle →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 14.26% | $2.88M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

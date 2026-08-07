@@ -4,7 +4,7 @@ The highest honest PRO yield right now is 3.51% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206&src=seo_token) | Ethereum | 3.51% | $271.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206&src=seo_token) | Ethereum | 3.51% | $271.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PRO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $411.1K in total.
+2 live pools clear this page's $100K TVL floor, $411.4K in total.
 
 ### Are these rates safe?
 

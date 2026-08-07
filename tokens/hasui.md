@@ -4,8 +4,8 @@ The highest honest HASUI yield right now is 2.85% on current (Sui), among 3 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.15% | $14.55M |
-| [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.85% | $3.36M |
+| [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.15% | $14.58M |
+| [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.85% | $3.37M |
 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.01% | $2.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HASUI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $20.18M in total.
+3 live pools clear this page's $100K TVL floor, $20.21M in total.
 
 ### Are these rates safe?
 

@@ -4,12 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.45% | $328.53M |
+| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.45% | $329.46M |
 | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.50% | $239.6M |
-| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 3.98% | $177.48M |
-| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.98% | $71.36M |
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.50% | $34.02M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.33% | $33.91M |
+| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 3.98% | $177.69M |
+| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.97% | $71.96M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.51% | $34.02M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.34% | $33.91M |
 | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 6.00% | $28.59M |
 | [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token) | Mantle | 3.90% | $8.94M |
 

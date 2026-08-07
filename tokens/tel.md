@@ -4,12 +4,12 @@ The highest honest TEL yield right now is 40.66% on uniswap-v4 (Polygon), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 5.87% | $735.5K |
+| [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 5.85% | $737.4K |
 | [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 3.44% | $535.5K |
 | [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 2.61% | $316.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 40.66% | $181.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 94.82% | $165.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 27.93% | $114.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 87.97% | $166.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 27.01% | $114.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

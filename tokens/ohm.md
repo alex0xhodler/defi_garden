@@ -6,8 +6,8 @@ The highest honest OHM yield right now is 0.93% on uniswap-v3 (Ethereum), among 
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.27% | $10.64M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 0.93% | $4.14M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token) | Base | 0.07% | $903.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=abe08b87-f138-4d3e-a96a-98294ddad7a1&src=seo_token) | Ethereum | 0.54% | $400.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token) | Base | 0.07% | $904.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=abe08b87-f138-4d3e-a96a-98294ddad7a1&src=seo_token) | Ethereum | 0.54% | $400.4K |
 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.22% | $168.9K |
 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.25% | $158.8K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 0.24% | $104.1K |

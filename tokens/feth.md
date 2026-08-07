@@ -4,7 +4,7 @@ The highest honest FETH yield right now is 0.07% on curve-dex (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=c4adc23f-1e5b-4889-8488-57481d98bfb5&src=seo_token) | Arbitrum | 0.07% | $133.3K |
+| [curve-dex →](https://www.defi.garden/?pool=c4adc23f-1e5b-4889-8488-57481d98bfb5&src=seo_token) | Arbitrum | 0.07% | $133.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

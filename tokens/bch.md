@@ -4,7 +4,7 @@ The highest honest BCH yield right now is 0.24% on venus-core-pool (BSC), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=c5e32cb4-6484-45de-9f46-88004793c352&src=seo_token) | BSC | 0.24% | $350.3K |
+| [venus-core-pool →](https://www.defi.garden/?pool=c5e32cb4-6484-45de-9f46-88004793c352&src=seo_token) | BSC | 0.24% | $351.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BCH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $350.3K in total.
+1 live pool clear this page's $100K TVL floor, $351.1K in total.
 
 ### Are these rates safe?
 

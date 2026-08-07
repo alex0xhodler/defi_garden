@@ -4,7 +4,7 @@ The highest honest QE yield right now is 0.02% on uniswap-v4 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=da466846-ca7b-4e57-a91e-6502e627ab0a&src=seo_token) | Base | 0.02% | $126.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=da466846-ca7b-4e57-a91e-6502e627ab0a&src=seo_token) | Base | 0.02% | $126.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126.2K in total.
+1 live pool clear this page's $100K TVL floor, $126.5K in total.
 
 ### Are these rates safe?
 

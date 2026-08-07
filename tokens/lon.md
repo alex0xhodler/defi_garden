@@ -6,6 +6,7 @@ The highest honest LON yield right now is 0.16% on uniswap-v3 (Arbitrum), among 
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.02% | $1.43M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.16% | $1.09M |
+| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.26% | $127.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

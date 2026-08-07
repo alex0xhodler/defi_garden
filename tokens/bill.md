@@ -4,8 +4,8 @@ The highest honest BILL yield right now is 0.72% on fluxion-network (Mantle), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.72% | $593K |
-| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 9.87% | $119.8K |
+| [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.72% | $592.9K |
+| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 9.68% | $119.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BILL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $712.7K in total.
+2 live pools clear this page's $100K TVL floor, $712.8K in total.
 
 ### Are these rates safe?
 

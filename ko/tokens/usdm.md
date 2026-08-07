@@ -4,13 +4,13 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 14.11% | $1.16M |
+| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 14.10% | $1.16M |
 | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 36.74% | $895.7K |
 | [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 9.02% | $655.5K |
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 23.66% | $648.4K |
-| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 23.74% | $637.9K |
-| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 5.18% | $530.4K |
-| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 18.08% | $506.9K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 23.66% | $648.1K |
+| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 23.73% | $637.7K |
+| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 5.18% | $529.4K |
+| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 18.08% | $506.7K |
 | [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 9.17% | $196.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 36.74%예
 
 ### USDM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $26.5M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $26.49M예요.
 
 ### 이 수익률은 안전한가요?
 

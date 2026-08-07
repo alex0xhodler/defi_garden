@@ -1,17 +1,17 @@
 # XBTC 디파이 수익률
 
-현재 XBTC의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 34.20%이며, $100K TVL 기준을 넘는 19개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XBTC의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 33.78%이며, $100K TVL 기준을 넘는 19개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.14% | $2.26M |
-| [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 2.46% | $2.06M |
+| [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 2.49% | $2.06M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token) | Solana | 1.93% | $2.06M |
 | [liminal-basis →](https://www.defi.garden/?pool=e7791a4c-145d-528f-85a8-68945d8b3478&src=seo_token) | Ethereum | 6.83% | $1.23M |
 | [liminal-basis →](https://www.defi.garden/?pool=20014711-5ee5-58ea-ade1-9d47310bc356&src=seo_token) | Hyperliquid L1 | 4.40% | $1.2M |
 | [hyperion →](https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token) | Aptos | 0.37% | $642.4K |
-| [bluefin-spot →](https://www.defi.garden/?pool=429ec18a-86a3-419b-8593-8fd298772470&src=seo_token) | Sui | 34.20% | $316.9K |
-| [echelon-market →](https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token) | Aptos | 1.41% | $295.5K |
+| [bluefin-spot →](https://www.defi.garden/?pool=429ec18a-86a3-419b-8593-8fd298772470&src=seo_token) | Sui | 33.78% | $320.9K |
+| [echelon-market →](https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token) | Aptos | 1.41% | $295.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@
 
 ### 오늘 XBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 34.20%예요.
+DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 33.78%예요.
 
 ### XBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

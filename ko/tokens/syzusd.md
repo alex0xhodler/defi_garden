@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 8.26% | $27.07M |
-| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 8.26% | $12.07M |
-| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 8.26% | $9.04M |
-| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 8.26% | $1.29M |
+| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 8.25% | $27.08M |
+| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 8.25% | $12.07M |
+| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 8.25% | $9.04M |
+| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 8.25% | $1.29M |
 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.09M |
 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 8.45% | $363.6K |
 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 14.93% | $116.3K |

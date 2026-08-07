@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd&src=seo_token) | Ethereum | 1.76% | $3.86M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd&src=seo_token) | Ethereum | 1.80% | $3.86M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e&src=seo_token) | Ethereum | 0.09% | $1.13M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=3497aee5-aecf-4ed9-9ffe-51d280ff8c06&src=seo_token) | Ethereum | 0.01% | $164.3K |
 

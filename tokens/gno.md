@@ -1,12 +1,12 @@
 # GNO DeFi Yields
 
-The highest honest GNO yield right now is 31.07% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GNO yield right now is 31.17% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token) | Gnosis | 0.11% | $6.52M |
+| [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token) | Gnosis | 0.11% | $6.49M |
 | [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 5.25% | $274K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token) | Ethereum | 31.07% | $105.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token) | Ethereum | 31.17% | $105K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GNO yield today?
 
-31.07% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+31.17% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many GNO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $7.59M in total.
+4 live pools clear this page's $100K TVL floor, $7.56M in total.
 
 ### Are these rates safe?
 

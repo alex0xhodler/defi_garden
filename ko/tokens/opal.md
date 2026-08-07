@@ -1,12 +1,12 @@
 # OPAL 디파이 수익률
 
-현재 OPAL의 가장 높은 정직한 수익률은 Ethereum의 origami-finance에서 5.89%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 OPAL의 가장 높은 정직한 수익률은 Ethereum의 origami-finance에서 5.12%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.42% | $2.26M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5c2b0d8a-8a8a-400c-911e-57073283a2ab&src=seo_token) | Ethereum | 0.36% | $2.26M |
 | [origami-finance →](https://www.defi.garden/?pool=f75f4745-1e04-416e-a9f6-3aee0c535826&src=seo_token) | Ethereum | 26.47% | $369.4K |
-| [origami-finance →](https://www.defi.garden/?pool=c1f6013e-fcb3-4329-860e-2a8a2aabf75f&src=seo_token) | Ethereum | 5.89% | $139.1K |
+| [origami-finance →](https://www.defi.garden/?pool=c1f6013e-fcb3-4329-860e-2a8a2aabf75f&src=seo_token) | Ethereum | 5.12% | $139.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 OPAL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 origami-finance에서 APY 5.89%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 origami-finance에서 APY 5.12%예요.
 
 ### OPAL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

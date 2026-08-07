@@ -4,7 +4,7 @@ The highest honest SAVETH yield right now is 4.51% on avant-aveth (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avant-aveth →](https://www.defi.garden/?pool=b2c0504c-fed5-46ae-908e-aac28bfbede2&src=seo_token) | Ethereum | 4.51% | $19.99M |
+| [avant-aveth →](https://www.defi.garden/?pool=b2c0504c-fed5-46ae-908e-aac28bfbede2&src=seo_token) | Ethereum | 4.51% | $20.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SAVETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $26.29M in total.
+3 live pools clear this page's $100K TVL floor, $26.31M in total.
 
 ### Are these rates safe?
 

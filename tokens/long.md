@@ -4,7 +4,7 @@ The highest honest LONG yield right now is 0.01% on zkswap-v2 (ZKsync Era), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_token) | ZKsync Era | 0.01% | $222.3K |
+| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_token) | ZKsync Era | 0.01% | $224.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LONG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $222.3K in total.
+1 live pool clear this page's $100K TVL floor, $224.3K in total.
 
 ### Are these rates safe?
 

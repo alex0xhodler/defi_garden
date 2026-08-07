@@ -4,7 +4,7 @@ The highest honest BIZUSDT0 yield right now is 10.47% on superform (Flare), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=b58ea55e-70ff-5dca-9f23-b91946855486&src=seo_token) | Flare | 10.47% | $762.7K |
+| [superform →](https://www.defi.garden/?pool=b58ea55e-70ff-5dca-9f23-b91946855486&src=seo_token) | Flare | 10.47% | $762.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BIZUSDT0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $762.7K in total.
+1 live pool clear this page's $100K TVL floor, $762.8K in total.
 
 ### Are these rates safe?
 

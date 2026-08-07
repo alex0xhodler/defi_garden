@@ -4,13 +4,13 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token) | Polygon | 79.85% | $1.11M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token) | Polygon | 0.05% | $679.9K |
-| [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token) | Polygon | 3.27% | $524.6K |
-| [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token) | Polygon | 3.32% | $388.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token) | Polygon | 16.77% | $162K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4d6914cc-4df2-4f1a-8b89-7681721d1758&src=seo_token) | Polygon | 80.03% | $1.11M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=383ba314-d65f-4bce-824a-10357b5bf3ba&src=seo_token) | Polygon | 0.05% | $679.5K |
+| [quickswap-dex →](https://www.defi.garden/?pool=81a51af8-4a0e-409b-9688-264323afc1fe&src=seo_token) | Polygon | 3.30% | $524.3K |
+| [quickswap-dex →](https://www.defi.garden/?pool=2a8b1bc2-596e-435c-8518-ba6897ecb225&src=seo_token) | Polygon | 3.32% | $388.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d8ce4c9a-f1cf-4792-ad78-b5446d06a650&src=seo_token) | Polygon | 16.83% | $161.9K |
 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 3.62% | $157.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d&src=seo_token) | Polygon | 92.66% | $153.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=05497577-3400-4442-8108-6f59c1bb8d4d&src=seo_token) | Polygon | 92.77% | $153.1K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=6dfaa280-b16e-4a49-bd12-175082979153&src=seo_token) | Polygon | 3.74% | $126.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

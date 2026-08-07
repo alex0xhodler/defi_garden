@@ -4,7 +4,7 @@ The highest honest VANCE yield right now is 3.51% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0a14f683-dd6b-402d-8a1a-4a8b3b3d2681&src=seo_token) | Ethereum | 3.51% | $125.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0a14f683-dd6b-402d-8a1a-4a8b3b3d2681&src=seo_token) | Ethereum | 3.51% | $125.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VANCE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $235.6K in total.
+2 live pools clear this page's $100K TVL floor, $235.9K in total.
 
 ### Are these rates safe?
 

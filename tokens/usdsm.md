@@ -1,10 +1,10 @@
 # USDSM DeFi Yields
 
-The highest honest USDSM yield right now is 0.03% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDSM yield right now is 0.06% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=188dc0f1-14e1-4258-9db5-262696c8335d&src=seo_token) | Ethereum | 0.03% | $999.5K |
+| [curve-dex →](https://www.defi.garden/?pool=188dc0f1-14e1-4258-9db5-262696c8335d&src=seo_token) | Ethereum | 0.06% | $999.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDSM yield today?
 
-0.03% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.06% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many USDSM pools clear the TVL floor?
 

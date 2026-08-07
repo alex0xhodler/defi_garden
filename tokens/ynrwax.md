@@ -1,17 +1,17 @@
 # YNRWAX DeFi Yields
 
-The highest honest YNRWAX yield right now is 16.18% on penpie (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YNRWAX yield right now is 16.17% on penpie (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.57% | $830K |
 | [pendle →](https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token) | Ethereum | 13.12% | $830K |
-| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 10.28% | $439.5K |
+| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 10.38% | $439.5K |
 | [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.63% | $374.7K |
-| [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 10.05% | $206.1K |
-| [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 16.18% | $120.7K |
+| [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 10.13% | $206.1K |
+| [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 16.17% | $120.7K |
 | [stake-dao →](https://www.defi.garden/?pool=a1743c40-129b-4c23-bc20-0357a321005f&src=seo_token) | Ethereum | 10.44% | $114K |
-| [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 11.48% | $105.7K |
+| [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 12.15% | $105.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YNRWAX yield today?
 
-16.18% APY on penpie (Ethereum), based on live DefiLlama data.
+16.17% APY on penpie (Ethereum), based on live DefiLlama data.
 
 ### How many YNRWAX pools clear the TVL floor?
 

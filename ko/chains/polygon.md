@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.02% | $53.25M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.29% | $18.98M |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498&src=seo_chain) | 3.54% | $13.47M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.02% | $53.27M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.29% | $19M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498&src=seo_chain) | 3.53% | $13.47M |
 | USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee&src=seo_chain) | 2.72% | $13.1M |
 | USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_chain) | 2.74% | $12.92M |
 | WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_chain) | 0.10% | $6.45M |
 | HLSCOPE | [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_chain) | 6.18% | $4.1M |
-| MATICX | [stader →](https://www.defi.garden/?pool=5b1fe146-7cbd-448d-bf53-8df9c3501016&src=seo_chain) | 2.28% | $3.18M |
+| MATICX | [stader →](https://www.defi.garden/?pool=5b1fe146-7cbd-448d-bf53-8df9c3501016&src=seo_chain) | 2.28% | $3.17M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

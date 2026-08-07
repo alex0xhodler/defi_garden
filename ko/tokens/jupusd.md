@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [jupiter-lend →](https://www.defi.garden/?pool=0dbb5021-00c7-40e2-9e2b-a757f4305ebf&src=seo_token) | Solana | 4.79% | $67.09M |
+| [jupiter-lend →](https://www.defi.garden/?pool=0dbb5021-00c7-40e2-9e2b-a757f4305ebf&src=seo_token) | Solana | 4.79% | $67.07M |
 | [raydium-amm →](https://www.defi.garden/?pool=b486afff-6cb0-4932-aacb-4c32cf955512&src=seo_token) | Solana | 0.97% | $3.89M |
-| [orca-dex →](https://www.defi.garden/?pool=3560380c-4758-48b5-8dd6-38d474018724&src=seo_token) | Solana | 0.32% | $3.85M |
+| [orca-dex →](https://www.defi.garden/?pool=3560380c-4758-48b5-8dd6-38d474018724&src=seo_token) | Solana | 0.26% | $3.85M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Solana의 jupiter-lend에서 APY 4.79%예�
 
 ### JUPUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $74.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $74.81M예요.
 
 ### 이 수익률은 안전한가요?
 

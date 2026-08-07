@@ -1,11 +1,11 @@
 # META DeFi Yields
 
-The highest honest META yield right now is 40.98% on omnipair (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest META yield right now is 40.97% on omnipair (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token) | Solana | 0.79% | $419.9K |
-| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 40.98% | $143.1K |
+| [orca-dex →](https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token) | Solana | 0.88% | $378.1K |
+| [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 40.97% | $143.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest META yield today?
 
-40.98% APY on omnipair (Solana), based on live DefiLlama data.
+40.97% APY on omnipair (Solana), based on live DefiLlama data.
 
 ### How many META pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $863.5K in total.
+3 live pools clear this page's $100K TVL floor, $791.8K in total.
 
 ### Are these rates safe?
 

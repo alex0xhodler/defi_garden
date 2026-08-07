@@ -1,13 +1,13 @@
 # KODIWBTC DeFi Yields
 
-The highest honest KODIWBTC yield right now is 32.80% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIWBTC yield right now is 32.81% on berapaw (Berachain), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_token) | Berachain | 4.09% | $933.5K |
-| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 31.09% | $233.7K |
-| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 11.06% | $165.4K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 32.80% | $107.6K |
+| [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_token) | Berachain | 4.09% | $933.6K |
+| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 31.11% | $233.7K |
+| [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 11.07% | $165.3K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 32.81% | $107.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIWBTC yield today?
 
-32.80% APY on berapaw (Berachain), based on live DefiLlama data.
+32.81% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIWBTC pools clear the TVL floor?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408&src=seo_token) | Ethereum | 0.33% | $16.9M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408&src=seo_token) | Ethereum | 0.33% | $16.92M |
 | [fluid-dex →](https://www.defi.garden/?pool=a3fd94a1-2b63-4753-b10a-1436b58768c9&src=seo_token) | Ethereum | 0.83% | $3.33M |
 | [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb&src=seo_token) | Ethereum | 0.31% | $149.5K |
 | [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37&src=seo_token) | Ethereum | 0.48% | $149.5K |
@@ -19,7 +19,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 0.48%
 
 ### EBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $26.2M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $26.22M예요.
 
 ### 이 수익률은 안전한가요?
 

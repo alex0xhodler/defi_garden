@@ -4,13 +4,13 @@ The highest honest JITOSOL yield right now is 5.04% on jito-liquid-staking (Sola
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900&src=seo_token) | Solana | 5.04% | $733.42M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.12% | $10.7M |
-| [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f&src=seo_token) | Solana | 0.15% | $5.58M |
-| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.80% | $5.47M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.64% | $5.4M |
+| [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900&src=seo_token) | Solana | 5.04% | $732.48M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.12% | $10.69M |
+| [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f&src=seo_token) | Solana | 0.15% | $5.57M |
+| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.81% | $5.46M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.64% | $5.38M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=d61d8c57-4d50-4642-b3fc-f5943ab44059&src=seo_token) | Solana | 0.25% | $2.37M |
-| [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7&src=seo_token) | Solana | 1.63% | $1.67M |
+| [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7&src=seo_token) | Solana | 1.63% | $1.68M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993&src=seo_token) | Solana | 1.12% | $1.49M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JITOSOL pools clear the TVL floor?
 
-28 live pools clear this page's $100K TVL floor, $866.86M in total.
+28 live pools clear this page's $100K TVL floor, $865.56M in total.
 
 ### Are these rates safe?
 

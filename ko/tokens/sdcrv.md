@@ -1,13 +1,13 @@
 # SDCRV 디파이 수익률
 
-현재 SDCRV의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 33.54%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SDCRV의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 33.92%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [stake-dao →](https://www.defi.garden/?pool=0d9e7113-c9bc-4fb6-b138-5ca6f6944d6d&src=seo_token) | Ethereum | 14.05% | $25.21M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 16.66% | $968.6K |
+| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 17.02% | $968.8K |
 | [stake-dao →](https://www.defi.garden/?pool=6403b2cc-ecc7-4054-8fc6-7a6586888e82&src=seo_token) | Ethereum | 18.29% | $576.8K |
-| [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198&src=seo_token) | Ethereum | 33.54% | $234.2K |
+| [convex-finance →](https://www.defi.garden/?pool=5ce7439d-3c4f-406d-b284-6189a0b63198&src=seo_token) | Ethereum | 33.92% | $234.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +15,7 @@
 
 ### 오늘 SDCRV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 33.54%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 33.92%예요.
 
 ### SDCRV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

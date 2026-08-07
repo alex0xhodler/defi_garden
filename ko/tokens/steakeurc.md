@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token) | Base | 3.23% | $3.69M |
 | [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.14% | $756K |
-| [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 3.00% | $522.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 3.00% | $522.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

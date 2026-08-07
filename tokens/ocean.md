@@ -1,10 +1,10 @@
 # OCEAN DeFi Yields
 
-The highest honest OCEAN yield right now is 0.72% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OCEAN yield right now is 0.51% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ea6dd674-7567-44cd-a70f-04634f3510c5&src=seo_token) | Ethereum | 0.72% | $886.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ea6dd674-7567-44cd-a70f-04634f3510c5&src=seo_token) | Ethereum | 0.51% | $887.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OCEAN yield today?
 
-0.72% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.51% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OCEAN pools clear the TVL floor?
 

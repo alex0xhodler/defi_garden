@@ -4,7 +4,7 @@ The highest honest FROGE yield right now is 5.27% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0bf2d2cc-62e4-44ba-84e7-9a420fafc712&src=seo_token) | Ethereum | 5.27% | $398.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0bf2d2cc-62e4-44ba-84e7-9a420fafc712&src=seo_token) | Ethereum | 5.27% | $398.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FROGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $398.2K in total.
+1 live pool clear this page's $100K TVL floor, $398.3K in total.
 
 ### Are these rates safe?
 

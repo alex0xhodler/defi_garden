@@ -4,12 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 5.27% | $450.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 5.44% | $450.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token) | Arbitrum | 3.13% | $283.5K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 3.17% | $214K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 3.13% | $214.4K |
 | [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 2.85% | $208.6K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5&src=seo_token) | Celo | 33.35% | $200.6K |
-| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 15.41% | $193.6K |
+| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 15.90% | $192.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 13.53% | $143.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

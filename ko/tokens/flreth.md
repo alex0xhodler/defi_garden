@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.05% | $1.71M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token) | Flare | 20.88% | $133K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=89cbdfbf-5106-4c0b-92f8-06c0ad5576c3&src=seo_token) | Flare | 20.90% | $133.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Flare의 kinetic에서 APY 0.05%예요.
 
 ### FLRETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.84M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.85M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain) | 6.82% | $109.98M |
+| AUSD | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_chain) | 6.82% | $109.99M |
 | USDC | [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1&src=seo_chain) | 16.27% | $100.18M |
-| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain) | 10.02% | $53.38M |
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 2.95% | $52.15M |
+| HYPERUSDCA | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_chain) | 10.02% | $53.62M |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_chain) | 2.95% | $52.27M |
 | AUSD | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_chain) | 7.80% | $41.28M |
-| STEAKETH | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_chain) | 2.88% | $40.54M |
+| STEAKETH | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_chain) | 2.87% | $40.63M |
 | VUSD | [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_chain) | 0.76% | $36.15M |
-| AUSD | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_chain) | 8.25% | $30.05M |
+| AUSD | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_chain) | 8.25% | $30.06M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Monad의 accountable에서 APY 16.27%예�
 
 ### Monad 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 168개이며, 합산 TVL은 $1.29B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 168개이며, 합산 TVL은 $1.28B예요.
 
 ### 이 수익률은 안전한가요?
 

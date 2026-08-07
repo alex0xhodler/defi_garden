@@ -1,11 +1,11 @@
 # AUDIO DeFi Yields
 
-The highest honest AUDIO yield right now is 1.99% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUDIO yield right now is 1.89% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 1.76% | $478.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 1.99% | $196.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dc7cec37-5def-4023-9c14-f3b1d411c0e2&src=seo_token) | Ethereum | 1.76% | $479.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=bad3c34a-cd03-4f09-ada1-2d0e09d0752b&src=seo_token) | Solana | 1.89% | $196.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUDIO yield today?
 
-1.99% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.89% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AUDIO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $675K in total.
+2 live pools clear this page's $100K TVL floor, $675.5K in total.
 
 ### Are these rates safe?
 

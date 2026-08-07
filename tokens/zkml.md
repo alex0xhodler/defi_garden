@@ -4,7 +4,7 @@ The highest honest ZKML yield right now is 0.13% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=893412a7-5c33-4bf2-a083-05bc5fb569a2&src=seo_token) | Ethereum | 0.13% | $179.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=893412a7-5c33-4bf2-a083-05bc5fb569a2&src=seo_token) | Ethereum | 0.13% | $179.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZKML pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.4K in total.
+1 live pool clear this page's $100K TVL floor, $179.5K in total.
 
 ### Are these rates safe?
 

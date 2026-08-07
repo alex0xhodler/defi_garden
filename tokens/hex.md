@@ -1,13 +1,13 @@
 # HEX DeFi Yields
 
-The highest honest HEX yield right now is 35.49% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEX yield right now is 35.22% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 47.53% | $494.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 35.59% | $244.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 36.24% | $173.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token) | Ethereum | 35.49% | $113.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 47.05% | $499.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 35.46% | $247.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 36.13% | $175K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token) | Ethereum | 35.22% | $114.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEX yield today?
 
-35.49% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+35.22% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HEX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.03M in total.
+4 live pools clear this page's $100K TVL floor, $1.04M in total.
 
 ### Are these rates safe?
 

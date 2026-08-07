@@ -4,8 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.46% | $288.3K |
-| [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.01% | $240.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.42% | $288.4K |
 | [curve-dex →](https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token) | Polygon | 1.37% | $111.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -36,7 +35,6 @@ DefiLlama 실시간 데이터 기준, Polygon의 curve-dex에서 APY 1.37%예요
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
-- [Solana](https://www.defi.garden/ko/chains/solana)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
 ## 마지막 업데이트: August 7, 2026

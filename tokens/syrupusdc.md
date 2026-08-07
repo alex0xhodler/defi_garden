@@ -5,10 +5,10 @@ The highest honest SYRUPUSDC yield right now is 2.70% on orca-dex (Solana), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 0.76% | $13.33M |
-| [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.14% | $10.03M |
+| [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.18% | $10.03M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.13% | $10.03M |
-| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 0.54% | $463.2K |
-| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 2.70% | $201.4K |
+| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 0.52% | $463.2K |
+| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 2.70% | $201.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SYRUPUSDC pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $485.12M in total.
+19 live pools clear this page's $100K TVL floor, $485.14M in total.
 
 ### Are these rates safe?
 

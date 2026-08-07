@@ -1,10 +1,10 @@
 # ULTIMA DeFi Yields
 
-The highest honest ULTIMA yield right now is 0.15% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ULTIMA yield right now is 0.16% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fdd56c4a-1d72-4a1b-9dab-7b0bf01f3ceb&src=seo_token) | BSC | 0.15% | $258.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fdd56c4a-1d72-4a1b-9dab-7b0bf01f3ceb&src=seo_token) | BSC | 0.16% | $258K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ULTIMA yield today?
 
-0.15% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+0.16% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many ULTIMA pools clear the TVL floor?
 

@@ -1,12 +1,12 @@
 # JRROYAPYUSD 디파이 수익률
 
-현재 JRROYAPYUSD의 가장 높은 정직한 수익률은 Ethereum의 royco-v2에서 322.65%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JRROYAPYUSD의 가장 높은 정직한 수익률은 Ethereum의 royco-v2에서 322.09%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e&src=seo_token) | Ethereum | 322.65% | $1.16M |
-| [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $995.8K |
+| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e&src=seo_token) | Ethereum | 322.09% | $1.16M |
 | [pendle →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token) | Ethereum | 8.71% | $995.8K |
+| [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $995.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 JRROYAPYUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 322.65%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 322.09%예요.
 
 ### JRROYAPYUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

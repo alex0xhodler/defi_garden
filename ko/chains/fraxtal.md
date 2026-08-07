@@ -6,11 +6,11 @@
 |---|---|---|---|
 | FRXUSD-FXB20291231 | [curve-dex →](https://www.defi.garden/?pool=6b20c797-ea1e-4dd7-aa7d-4636e3ac2be7&src=seo_chain) | 7.80% | $3.57M |
 | FRAX-WFRXETH | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_chain) | 0.79% | $2.61M |
-| FRXETH-SFRXETH | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_chain) | 3.13% | $2.02M |
+| FRXETH-SFRXETH | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_chain) | 3.14% | $2.02M |
 | FRXUSD-FXB-20261231 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_chain) | 6.60% | $1.59M |
 | FRAX-FXS | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_chain) | 0.21% | $1.4M |
 | FRXUSD-FXB20271231 | [curve-dex →](https://www.defi.garden/?pool=d6c60e42-04ed-4339-bcf1-a6c48084333b&src=seo_chain) | 6.17% | $718.8K |
-| FRXUSD-FXB20271231 | [stake-dao →](https://www.defi.garden/?pool=d3012f03-5a7b-40b2-b2c5-5d1aeab334b8&src=seo_chain) | 5.08% | $630.1K |
+| FRXUSD-FXB20271231 | [stake-dao →](https://www.defi.garden/?pool=d3012f03-5a7b-40b2-b2c5-5d1aeab334b8&src=seo_chain) | 6.19% | $630.1K |
 | IQ-FRXUSD | [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_chain) | 0.11% | $449.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

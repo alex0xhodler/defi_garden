@@ -1,11 +1,11 @@
 # EUSX DeFi Yields
 
-The highest honest EUSX yield right now is 0.07% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUSX yield right now is 0.06% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token) | Solana | 0.06% | $4.67M |
-| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.07% | $4.54M |
+| [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.06% | $4.54M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EUSX yield today?
 
-0.07% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.06% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many EUSX pools clear the TVL floor?
 

@@ -5,7 +5,7 @@ The highest honest NOW yield right now is 0.14% on uniswap-v2 (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=50d36d6b-f56c-4b9a-a256-7089f8b804f3&src=seo_token) | Ethereum | 0.07% | $1.88M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d&src=seo_token) | Ethereum | 0.14% | $305.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=46af331a-b68a-4075-8622-6afe237bf20d&src=seo_token) | Ethereum | 0.14% | $305.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

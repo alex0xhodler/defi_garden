@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 23.66% | $648.4K |
-| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 1.87% | $129.8K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 23.66% | $648.1K |
+| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 2.67% | $129.8K |
 | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token) | Celo | 0.35% | $116.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Monad의 mento-v3에서 APY 23.66%예요.
 
 ### EURM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $894.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $894.3K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,13 +1,13 @@
 # ETHX DeFi Yields
 
-The highest honest ETHX yield right now is 2.77% on curve-dex (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETHX yield right now is 4.69% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token) | Ethereum | 2.23% | $157.1M |
-| [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token) | Ethereum | 2.77% | $340.2K |
+| [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token) | Ethereum | 2.23% | $156.98M |
+| [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token) | Ethereum | 4.69% | $340K |
 | [stake-dao →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token) | Ethereum | 1.71% | $179.7K |
-| [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e&src=seo_token) | Ethereum | 2.77% | $156.1K |
+| [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e&src=seo_token) | Ethereum | 4.69% | $156K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ETHX yield today?
 
-2.77% APY on curve-dex (Ethereum), based on live DefiLlama data.
+4.69% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many ETHX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $158.04M in total.
+6 live pools clear this page's $100K TVL floor, $157.92M in total.
 
 ### Are these rates safe?
 

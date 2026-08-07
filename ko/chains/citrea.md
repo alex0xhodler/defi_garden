@@ -5,7 +5,7 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | WCBTC | [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_chain) | 3.14% | $2.62M |
-| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 4.54% | $110.2K |
+| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 4.54% | $110.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

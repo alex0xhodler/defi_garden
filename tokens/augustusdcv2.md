@@ -4,8 +4,8 @@ The highest honest AUGUSTUSDCV2 yield right now is 9.79% on morpho-blue (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 6.59% | $4.68M |
-| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.79% | $1.07M |
+| [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 6.58% | $4.68M |
+| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.79% | $977K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AUGUSTUSDCV2 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.75M in total.
+2 live pools clear this page's $100K TVL floor, $5.66M in total.
 
 ### Are these rates safe?
 

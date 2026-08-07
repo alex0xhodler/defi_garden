@@ -1,10 +1,10 @@
 # ARM DeFi Yields
 
-The highest honest ARM yield right now is 1.64% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARM yield right now is 1.76% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 1.64% | $133.6K |
+| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 1.76% | $133.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARM yield today?
 
-1.64% APY on curve-dex (Ethereum), based on live DefiLlama data.
+1.76% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many ARM pools clear the TVL floor?
 

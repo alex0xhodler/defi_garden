@@ -5,7 +5,7 @@ The highest honest SUSG yield right now is 23.75% on stake-dao (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=11424f16-ad3c-4bb5-b69d-bdf308644313&src=seo_token) | Ethereum | 21.09% | $629K |
-| [stake-dao →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 23.75% | $626.7K |
+| [stake-dao →](https://www.defi.garden/?pool=1ddc9789-3f5a-5704-9afa-df9aeed2419e&src=seo_token) | Ethereum | 23.75% | $626.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

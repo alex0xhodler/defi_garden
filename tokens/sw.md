@@ -4,8 +4,8 @@ The highest honest SW yield right now is 13.67% on spectra-v2 (Flare), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.67% | $724.6K |
-| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.19% | $724.6K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.67% | $728.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.19% | $728.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

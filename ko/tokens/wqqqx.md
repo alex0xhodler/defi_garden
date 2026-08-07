@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=85731ac0-c354-4ddc-a796-9d3bafde7a1d&src=seo_token) | Ethereum | 0.14% | $327.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=85731ac0-c354-4ddc-a796-9d3bafde7a1d&src=seo_token) | Ethereum | 0.14% | $327.1K |
 | [fluxion-network →](https://www.defi.garden/?pool=2364dd66-69d3-44ef-9e85-4d5217a57b57&src=seo_token) | Mantle | 1.19% | $110.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

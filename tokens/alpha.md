@@ -4,7 +4,7 @@ The highest honest ALPHA yield right now is 0.45% on bluefin-spot (Sui), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.45% | $205.7K |
+| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.45% | $205.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ALPHA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $205.7K in total.
+1 live pool clear this page's $100K TVL floor, $205.9K in total.
 
 ### Are these rates safe?
 

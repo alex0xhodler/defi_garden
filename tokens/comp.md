@@ -1,12 +1,12 @@
 # COMP DeFi Yields
 
-The highest honest COMP yield right now is 16.30% on uniswap-v4 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COMP yield right now is 16.29% on uniswap-v4 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token) | Ethereum | 0.03% | $1.03M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 16.30% | $238.4K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token) | Ethereum | 5.23% | $113.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token) | Ethereum | 0.04% | $1.03M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 16.29% | $238.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token) | Ethereum | 6.24% | $113.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COMP yield today?
 
-16.30% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+16.29% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many COMP pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $6.01M in total.
+7 live pools clear this page's $100K TVL floor, $6.03M in total.
 
 ### Are these rates safe?
 

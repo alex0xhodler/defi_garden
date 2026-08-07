@@ -4,8 +4,8 @@ The highest honest USDG yield right now is 4.98% on maple (Ethereum), among 41 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.98% | $247.44M |
-| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.34% | $30.47M |
+| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.98% | $247.38M |
+| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.12% | $30.47M |
 | [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.24% | $26.71M |
 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.01% | $25.68M |
 | [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 2.48% | $22.12M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDG pools clear the TVL floor?
 
-41 live pools clear this page's $100K TVL floor, $440.01M in total.
+41 live pools clear this page's $100K TVL floor, $440M in total.
 
 ### Are these rates safe?
 

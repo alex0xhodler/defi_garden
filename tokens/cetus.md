@@ -1,11 +1,11 @@
 # CETUS DeFi Yields
 
-The highest honest CETUS yield right now is 15.83% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CETUS yield right now is 17.50% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 15.83% | $921.6K |
-| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 3.06% | $433.1K |
+| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 17.50% | $921.6K |
+| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 3.09% | $432.8K |
 | [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.53% | $127.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CETUS yield today?
 
-15.83% APY on cetus-clmm (Sui), based on live DefiLlama data.
+17.50% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many CETUS pools clear the TVL floor?
 

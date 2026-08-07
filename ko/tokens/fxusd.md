@@ -4,11 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token) | Ethereum | 1.64% | $6.27M |
-| [convex-finance →](https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token) | Ethereum | 1.64% | $5.94M |
+| [curve-dex →](https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token) | Ethereum | 1.40% | $6.28M |
+| [convex-finance →](https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token) | Ethereum | 1.40% | $5.94M |
 | [curve-dex →](https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token) | Ethereum | 0.71% | $612.5K |
-| [curve-dex →](https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token) | Ethereum | 0.83% | $510.1K |
-| [convex-finance →](https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token) | Ethereum | 0.83% | $510.1K |
+| [curve-dex →](https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token) | Ethereum | 0.85% | $510.2K |
+| [convex-finance →](https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token) | Ethereum | 0.85% | $510.1K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=bfcc6016-8fa5-48c0-b922-5be6c6ebd95b&src=seo_token) | Base | 1.04% | $509.9K |
 | [curve-dex →](https://www.defi.garden/?pool=4c68a55a-84e3-48a7-8e5b-2ca451d1835e&src=seo_token) | Ethereum | 3.46% | $444.1K |
 | [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 0.99% | $212K |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 1.0
 
 ### FXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $17.73M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $17.74M예요.
 
 ### 이 수익률은 안전한가요?
 

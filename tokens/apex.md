@@ -4,8 +4,8 @@ The highest honest APEX yield right now is 0.85% on camelot-v3 (Arbitrum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token) | Ethereum | 0.39% | $936.2K |
-| [camelot-v3 →](https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token) | Arbitrum | 0.85% | $154.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token) | Ethereum | 0.39% | $932.7K |
+| [camelot-v3 →](https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token) | Arbitrum | 0.85% | $154.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

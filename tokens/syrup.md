@@ -4,8 +4,8 @@ The highest honest SYRUP yield right now is 2.66% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token) | Ethereum | 1.34% | $1.84M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 2.66% | $633.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token) | Ethereum | 1.54% | $1.83M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 2.66% | $632.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

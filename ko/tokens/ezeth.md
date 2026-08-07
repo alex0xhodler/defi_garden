@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [renzo →](https://www.defi.garden/?pool=e28e32b5-e356-41d9-8dc7-a376ece56619&src=seo_token) | Ethereum | 2.37% | $88.14M |
-| [fluid-dex →](https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d&src=seo_token) | Ethereum | 0.04% | $726.5K |
+| [fluid-dex →](https://www.defi.garden/?pool=dcd38ffa-5a7d-44b6-857e-684811c4620d&src=seo_token) | Ethereum | 0.05% | $727.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

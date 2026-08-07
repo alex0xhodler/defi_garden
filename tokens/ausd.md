@@ -4,11 +4,11 @@ The highest honest AUSD yield right now is 7.80% on euler-v2 (Monad), among 35 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.88% | $378.38M |
-| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.82% | $109.98M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.88% | $378.4M |
+| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.82% | $109.99M |
 | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 7.80% | $41.28M |
-| [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.25% | $30.05M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.59% | $29.08M |
+| [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.25% | $30.06M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.58% | $29.08M |
 | [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $23.96M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.20% | $3.88M |
 | [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 2.23% | $2.92M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AUSD pools clear the TVL floor?
 
-35 live pools clear this page's $100K TVL floor, $679.44M in total.
+35 live pools clear this page's $100K TVL floor, $679.47M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_token) | Tron | 0.31% | $674.5M |
 | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_token) | Tron | 11.27% | $88.43M |
-| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54&src=seo_token) | Solana | 0.93% | $12.21M |
+| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54&src=seo_token) | Solana | 0.90% | $12.21M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183&src=seo_token) | Ethereum | 0.04% | $741.6K |
 | [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.11% | $527.9K |
 

@@ -1,11 +1,11 @@
 # SPCXX DeFi Yields
 
-The highest honest SPCXX yield right now is 538.87% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCXX yield right now is 540.17% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token) | Solana | 538.87% | $629.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token) | Solana | 34.56% | $115.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=8feb7ee9-2530-4168-860a-ee444c809da7&src=seo_token) | Solana | 540.17% | $631.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token) | Solana | 35.15% | $115K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPCXX yield today?
 
-538.87% APY on raydium-amm (Solana), based on live DefiLlama data.
+540.17% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SPCXX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $744.9K in total.
+2 live pools clear this page's $100K TVL floor, $746.3K in total.
 
 ### Are these rates safe?
 

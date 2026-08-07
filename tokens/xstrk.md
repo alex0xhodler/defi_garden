@@ -4,9 +4,9 @@ The highest honest XSTRK yield right now is 16.04% on troves (Starknet), among 5
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f&src=seo_token) | Starknet | 1.18% | $863.7K |
-| [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570&src=seo_token) | Starknet | 16.04% | $262.2K |
-| [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299&src=seo_token) | Starknet | 9.43% | $138K |
+| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f&src=seo_token) | Starknet | 1.18% | $858.9K |
+| [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570&src=seo_token) | Starknet | 16.04% | $263.5K |
+| [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299&src=seo_token) | Starknet | 9.44% | $138.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XSTRK pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.43M in total.
+5 live pools clear this page's $100K TVL floor, $3.42M in total.
 
 ### Are these rates safe?
 

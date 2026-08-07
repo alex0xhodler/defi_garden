@@ -1,9 +1,9 @@
 # Find the Best Yields for Your Tokens Across All Chains | DeFi Garden
 
-- Last Updated: 2026-08-07T22:33:51.925Z
+- Last Updated: 2026-08-07T22:38:12.052Z
 - Canonical: https://www.defi.garden
 - Data Sources: sitemap.xml, DefiLlama API
-- Total URLs: 4396
+- Total URLs: 4392
 
 ## Homepage
 TL;DR: https://www.defi.garden/ is a search-first landing page that routes into both faces of the product: /plan.html (and planner params) for the goal-first Garden Planner, and parameterized URLs (?token=, ?chain=, ?pool=) for the yield analytics app.

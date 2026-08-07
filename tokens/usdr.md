@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $782.8K in total.
+4 live pools clear this page's $100K TVL floor, $782.9K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest WNAUSD yield right now is 14.93% on balancer-v3 (Monad), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.23% | $6.73M |
+| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.22% | $6.73M |
 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 14.93% | $116.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

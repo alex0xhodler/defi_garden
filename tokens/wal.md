@@ -1,12 +1,11 @@
 # WAL DeFi Yields
 
-The highest honest WAL yield right now is 108.69% on cetus-clmm (Sui), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAL yield right now is 55.28% on bluefin-spot (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=d881b1cf-fe86-43cc-b76a-96444bd850ec&src=seo_token) | Sui | 14.04% | $1.61M |
-| [cetus-clmm →](https://www.defi.garden/?pool=593f459f-867e-40c5-9f8a-4724dfaa5bfc&src=seo_token) | Sui | 108.69% | $127.1K |
-| [bluefin-spot →](https://www.defi.garden/?pool=7d38da42-24da-45c3-90c6-550db797d353&src=seo_token) | Sui | 53.81% | $120.6K |
+| [bluefin-spot →](https://www.defi.garden/?pool=7d38da42-24da-45c3-90c6-550db797d353&src=seo_token) | Sui | 55.28% | $118.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAL yield today?
 
-108.69% APY on cetus-clmm (Sui), based on live DefiLlama data.
+55.28% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many WAL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.26M in total.
+3 live pools clear this page's $100K TVL floor, $2.14M in total.
 
 ### Are these rates safe?
 

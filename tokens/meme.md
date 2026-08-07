@@ -4,7 +4,7 @@ The highest honest MEME yield right now is 3.86% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b53e332-3ad2-4307-bc32-54ed412c1652&src=seo_token) | Ethereum | 3.86% | $210.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b53e332-3ad2-4307-bc32-54ed412c1652&src=seo_token) | Ethereum | 3.86% | $210K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MEME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $210.3K in total.
+1 live pool clear this page's $100K TVL floor, $210K in total.
 
 ### Are these rates safe?
 

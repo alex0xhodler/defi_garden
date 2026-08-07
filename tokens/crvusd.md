@@ -4,12 +4,12 @@ The highest honest CRVUSD yield right now is 5.42% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 0.89% | $83.98M |
-| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token) | Ethereum | 0.01% | $49.29M |
-| [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794&src=seo_token) | Ethereum | 2.11% | $46.4M |
-| [curve-dex →](https://www.defi.garden/?pool=747005c3-9750-4330-912e-90d023cfac71&src=seo_token) | Ethereum | 0.07% | $44.84M |
-| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5&src=seo_token) | Ethereum | 5.42% | $29.52M |
-| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token) | Ethereum | 3.44% | $21.97M |
+| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 0.89% | $84.01M |
+| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token) | Ethereum | 0.01% | $49.28M |
+| [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794&src=seo_token) | Ethereum | 2.14% | $46.39M |
+| [curve-dex →](https://www.defi.garden/?pool=747005c3-9750-4330-912e-90d023cfac71&src=seo_token) | Ethereum | 2.29% | $44.86M |
+| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5&src=seo_token) | Ethereum | 5.42% | $29.51M |
+| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token) | Ethereum | 3.45% | $21.97M |
 | [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 2.04% | $18.42M |
 | [curve-llamalend →](https://www.defi.garden/?pool=c38c4411-948a-4769-a93f-5860457a339c&src=seo_token) | Ethereum | 2.71% | $15.84M |
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRVUSD pools clear the TVL floor?
 
-111 live pools clear this page's $100K TVL floor, $560.68M in total.
+111 live pools clear this page's $100K TVL floor, $560.73M in total.
 
 ### Are these rates safe?
 

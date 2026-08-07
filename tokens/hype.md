@@ -1,13 +1,13 @@
 # HYPE DeFi Yields
 
-The highest honest HYPE yield right now is 365.84% on aerodrome-slipstream (Base), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYPE yield right now is 61.43% on orca-dex (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 3.80% | $1.61M |
-| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 61.57% | $1.23M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 365.84% | $252.9K |
-| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 26.17% | $175.9K |
+| [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 3.80% | $1.6M |
+| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 61.43% | $1.23M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 878.82% | $244.6K |
+| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 26.57% | $175.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYPE yield today?
 
-365.84% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+61.43% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many HYPE pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $20.65M in total.
+9 live pools clear this page's $100K TVL floor, $20.62M in total.
 
 ### Are these rates safe?
 
