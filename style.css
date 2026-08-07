@@ -6408,7 +6408,70 @@ body,
   transform: translateY(1px);
   background: var(--ui-surface-muted);
 }
+/* Generated SEO estate (/tokens, /chains, hubs, A–Z, KO twins). Those pages
+   bake their own <style> AFTER this stylesheet, so estate selectors here carry
+   one extra point of specificity (a.tp-cta, a[href]) to win the cascade —
+   covering every generated page without a regen. */
+a.tp-cta,
+a.cp-cta,
+a.hub-cta {
+  position: relative;
+  background: var(--ui-accent);
+  color: var(--ui-on-accent);
+  border: 1px solid var(--ui-accent-active);
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  transition: background 0.2s ease;
+}
+a.tp-cta::after,
+a.cp-cta::after,
+a.hub-cta::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--ui-on-accent);
+  border-radius: 1px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+a.tp-cta:hover,
+a.cp-cta:hover,
+a.hub-cta:hover {
+  background: var(--ui-accent-hover);
+  color: var(--ui-on-accent);
+}
+a.tp-cta:active,
+a.cp-cta:active,
+a.hub-cta:active {
+  background: var(--ui-accent-active);
+  color: var(--ui-on-accent);
+  transform: translateY(1px);
+}
+.related-links a[href],
+.hub-links a[href] {
+  background: var(--ui-surface);
+  color: var(--ui-text);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: 3px;
+  font-weight: 600;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.related-links a[href]:hover,
+.hub-links a[href]:hover {
+  color: var(--ui-accent);
+  border-color: var(--ui-accent);
+  background: var(--ui-surface);
+}
+.related-links a[href]:active,
+.hub-links a[href]:active {
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
+}
 @media (prefers-reduced-motion: reduce) {
+  a.tp-cta, a.cp-cta, a.hub-cta, .related-links a[href], .hub-links a[href] { transition: none; }
   .btn--primary:active, .landing-garden-link:active, .landing-search-submit:active,
-  .app-search-button:active, .gp-primary-cta:active, .btn--secondary:active { transform: none; }
+  .app-search-button:active, .gp-primary-cta:active, .btn--secondary:active,
+  a.tp-cta:active, a.cp-cta:active, a.hub-cta:active,
+  .related-links a[href]:active, .hub-links a[href]:active { transform: none; }
 }
