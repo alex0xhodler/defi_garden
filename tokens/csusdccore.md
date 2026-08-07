@@ -4,11 +4,7 @@ The highest honest CSUSDCCORE yield right now is 5.78% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=32ab021e-6faa-46e2-b609-f15f34d25b09&src=seo_token) | Ethereum | 5.78% | $880.6K |
-=======
-| [morpho-blue →](https://www.defi.garden/?pool=32ab021e-6faa-46e2-b609-f15f34d25b09&src=seo_token) | Ethereum | 5.78% | $880.5K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSUSDCCORE pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $880.6K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $880.5K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,6 +1,5 @@
 # WS DeFi Yields
 
-<<<<<<< HEAD
 The highest honest WS yield right now is 77.41% on shadow-exchange-clmm (Sonic), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -11,18 +10,6 @@ The highest honest WS yield right now is 77.41% on shadow-exchange-clmm (Sonic),
 | [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 77.41% | $171.3K |
 | [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.46% | $165.3K |
 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.08% | $146.1K |
-=======
-The highest honest WS yield right now is 71.89% on shadow-exchange-clmm (Sonic), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.06% | $853.7K |
-| [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.03% | $240.3K |
-| [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 71.89% | $198.5K |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 7.06% | $179K |
-| [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.46% | $165.1K |
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.08% | $146.4K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,11 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WS yield today?
 
-<<<<<<< HEAD
 77.41% APY on shadow-exchange-clmm (Sonic), based on live DefiLlama data.
-=======
-71.89% APY on shadow-exchange-clmm (Sonic), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many WS pools clear the TVL floor?
 

@@ -4,11 +4,7 @@ The highest honest VBETH yield right now is 2.09% on yearn-finance (Katana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 2.09% | $6.02M |
-=======
-| [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 2.09% | $6.03M |
->>>>>>> origin/main
 | [yearn-finance →](https://www.defi.garden/?pool=086e49bb-41f9-48aa-b68f-f108f49e5f93&src=seo_token) | Katana | 0.46% | $729.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

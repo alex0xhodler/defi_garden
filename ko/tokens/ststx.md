@@ -4,11 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_token) | Stacks | 0.10% | $1.48M |
-=======
-| [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_token) | Stacks | 0.10% | $1.51M |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,11 +16,7 @@ DefiLlama 실시간 데이터 기준, Stacks의 zest-v2에서 APY 0.10%예요.
 
 ### STSTX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.48M예요.
-=======
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.51M예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

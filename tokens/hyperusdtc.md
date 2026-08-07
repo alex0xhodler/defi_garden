@@ -1,19 +1,11 @@
 # HYPERUSDTC DeFi Yields
 
-<<<<<<< HEAD
 The highest honest HYPERUSDTC yield right now is 3.03% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-=======
-The highest honest HYPERUSDTC yield right now is 3.23% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
->>>>>>> origin/main
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=cc22fb55-9b8f-4d47-afe3-88cbd21c38f2&src=seo_token) | Stable | 0.25% | $186.1K |
-<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token) | Ethereum | 3.03% | $112.5K |
-=======
-| [morpho-blue →](https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token) | Ethereum | 3.23% | $112.5K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,11 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYPERUSDTC yield today?
 
-<<<<<<< HEAD
 3.03% APY on morpho-blue (Ethereum), based on live DefiLlama data.
-=======
-3.23% APY on morpho-blue (Ethereum), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many HYPERUSDTC pools clear the TVL floor?
 

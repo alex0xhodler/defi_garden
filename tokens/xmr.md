@@ -11,11 +11,7 @@ The highest honest XMR yield right now is 0.14% on raydium-amm (Solana), among 8
 | [raydium-amm →](https://www.defi.garden/?pool=3cd5f33f-9adb-5e1e-a0f7-c8b0be848c02&src=seo_token) | Solana | 0.14% | $21.66M |
 | [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.02% | $21.53M |
 | [raydium-amm →](https://www.defi.garden/?pool=8091a438-ca9d-5e41-83cc-eee25682c361&src=seo_token) | Solana | 0.05% | $21.19M |
-<<<<<<< HEAD
 | [raydium-amm →](https://www.defi.garden/?pool=0bebf26c-31c1-5997-bd1c-43a96e231508&src=seo_token) | Solana | 20.19% | $100.2K |
-=======
-| [raydium-amm →](https://www.defi.garden/?pool=0bebf26c-31c1-5997-bd1c-43a96e231508&src=seo_token) | Solana | 17.35% | $100.2K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -1,6 +1,5 @@
 # BRETT 디파이 수익률
 
-<<<<<<< HEAD
 현재 BRETT의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 49.98%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
@@ -8,15 +7,6 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 2.35% | $923.5K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 49.98% | $649.7K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 1.65% | $127.8K |
-=======
-현재 BRETT의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 44.43%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 2.56% | $915.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 44.43% | $652.2K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 1.49% | $127.8K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -24,11 +14,7 @@
 
 ### 오늘 BRETT의 가장 높은 수익률은 얼마인가요?
 
-<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 49.98%예요.
-=======
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 44.43%예요.
->>>>>>> origin/main
 
 ### BRETT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

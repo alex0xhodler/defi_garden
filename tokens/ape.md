@@ -1,18 +1,10 @@
 # APE DeFi Yields
 
-<<<<<<< HEAD
 The highest honest APE yield right now is 11.88% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=0e4a4a80-55e3-4d34-b545-642b9c495176&src=seo_token) | Ethereum | 11.88% | $289K |
-=======
-The highest honest APE yield right now is 11.37% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0e4a4a80-55e3-4d34-b545-642b9c495176&src=seo_token) | Ethereum | 11.37% | $288.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest APE yield today?
 
-<<<<<<< HEAD
 11.88% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many APE pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $289K in total.
-=======
-11.37% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
-
-### How many APE pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $288.9K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

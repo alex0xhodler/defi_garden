@@ -4,11 +4,7 @@ The highest honest ELONRWA yield right now is 0.01% on uniswap-v3 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=4ed44cc7-d8cc-41fc-9362-9f891f49a860&src=seo_token) | Base | 0.01% | $419.1K |
-=======
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ed44cc7-d8cc-41fc-9362-9f891f49a860&src=seo_token) | Base | 0.01% | $419K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ELONRWA pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $419.1K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $419K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

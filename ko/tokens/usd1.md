@@ -4,21 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 0.95% | $137.9M |
 | [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.53% | $123.6M |
 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 1.44% | $10.05M |
 | [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 0.29% | $9.91M |
 | [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $9.8M |
 | [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 7.36% | $4M |
-=======
-| [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 0.88% | $137.9M |
-| [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.57% | $123.54M |
-| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 1.44% | $10.05M |
-| [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 0.31% | $9.91M |
-| [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $9.8M |
-| [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 7.67% | $4M |
->>>>>>> origin/main
 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token) | Aptos | 3.78% | $2.47M |
 | [justlend-v1 →](https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token) | Tron | 1.23% | $1M |
 
@@ -32,11 +23,7 @@ DefiLlama 실시간 데이터 기준, BSC의 bitway-earn에서 APY 8.00%예요.
 
 ### USD1 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $307.36M예요.
-=======
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $307.28M예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

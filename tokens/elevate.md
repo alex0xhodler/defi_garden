@@ -1,18 +1,10 @@
 # ELEVATE DeFi Yields
 
-<<<<<<< HEAD
 The highest honest ELEVATE yield right now is 5.08% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token) | Ethereum | 5.08% | $110K |
-=======
-The highest honest ELEVATE yield right now is 4.60% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=67dc17a2-c2f7-4113-8f0c-d57c2facc056&src=seo_token) | Ethereum | 4.60% | $109.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ELEVATE yield today?
 
-<<<<<<< HEAD
 5.08% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ELEVATE pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $2.04M in total.
-=======
-4.60% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
-
-### How many ELEVATE pools clear the TVL floor?
-
-2 live pools clear this page's $100K TVL floor, $2.09M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<<< HEAD:ko/tokens/uotf.md
 # UOTF 디파이 수익률
 
 현재 UOTF의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.07%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
@@ -7,75 +5,18 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=809896f2-6e28-5293-9a19-1e73a46bcb56&src=seo_token) | Solana | 0.07% | $18.08M |
-========
-# URKO 디파이 수익률
-
-현재 URKO의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.41%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a59f9326-fa35-467b-94b4-59adcace403e&src=seo_token) | Solana | 0.41% | $101.4K |
->>>>>>>> origin/main:ko/tokens/urko.md
-=======
-<<<<<<<< HEAD:ko/tokens/urko.md
-# URKO 디파이 수익률
-
-현재 URKO의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.36%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a59f9326-fa35-467b-94b4-59adcace403e&src=seo_token) | Solana | 0.36% | $101.6K |
-========
-# UOTF 디파이 수익률
-
-현재 UOTF의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.06%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=809896f2-6e28-5293-9a19-1e73a46bcb56&src=seo_token) | Solana | 0.06% | $18.08M |
->>>>>>>> origin/main:ko/tokens/uotf.md
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 자주 묻는 질문
 
-<<<<<<< HEAD
-<<<<<<<< HEAD:ko/tokens/uotf.md
 ### 오늘 UOTF의 가장 높은 수익률은 얼마인가요?
 
 DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.07%예요.
-=======
-<<<<<<<< HEAD:ko/tokens/urko.md
-### 오늘 URKO의 가장 높은 수익률은 얼마인가요?
-
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.36%예요.
-
-### URKO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
-
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $101.6K예요.
-========
-### 오늘 UOTF의 가장 높은 수익률은 얼마인가요?
-
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.06%예요.
->>>>>>> origin/main
 
 ### UOTF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $18.08M예요.
-<<<<<<< HEAD
-========
-### 오늘 URKO의 가장 높은 수익률은 얼마인가요?
-
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.41%예요.
-
-### URKO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
-
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $101.4K예요.
->>>>>>>> origin/main:ko/tokens/urko.md
-=======
->>>>>>>> origin/main:ko/tokens/uotf.md
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

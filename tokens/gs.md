@@ -4,11 +4,7 @@ The highest honest GS yield right now is 12.47% on gammaswap-open-interest (Arbi
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [gammaswap-open-interest →](https://www.defi.garden/?pool=86a2ee7d-14cb-4819-bf19-351119f5688c&src=seo_token) | Arbitrum | 12.47% | $548.6K |
-=======
-| [gammaswap-open-interest →](https://www.defi.garden/?pool=86a2ee7d-14cb-4819-bf19-351119f5688c&src=seo_token) | Arbitrum | 12.48% | $548.6K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

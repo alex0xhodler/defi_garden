@@ -4,11 +4,7 @@ The highest honest WPOL yield right now is 0.10% on aave-v3 (Polygon), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.10% | $6.42M |
-=======
-| [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.10% | $6.45M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WPOL pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $6.42M in total.
-=======
-1 live pool clear this page's $100K TVL floor, $6.45M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

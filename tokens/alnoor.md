@@ -1,20 +1,11 @@
 # ALNOOR DeFi Yields
 
-<<<<<<< HEAD
 The highest honest ALNOOR yield right now is 0.98% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token) | Solana | 0.98% | $691.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token) | Solana | 0.77% | $216.1K |
-=======
-The highest honest ALNOOR yield right now is 1.16% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token) | Solana | 1.16% | $690K |
-| [raydium-amm →](https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token) | Solana | 0.91% | $215.7K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,19 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALNOOR yield today?
 
-<<<<<<< HEAD
 0.98% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ALNOOR pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $907.4K in total.
-=======
-1.16% APY on raydium-amm (Solana), based on live DefiLlama data.
-
-### How many ALNOOR pools clear the TVL floor?
-
-2 live pools clear this page's $100K TVL floor, $905.6K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

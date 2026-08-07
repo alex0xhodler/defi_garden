@@ -1,18 +1,10 @@
 # TOKE DeFi Yields
 
-<<<<<<< HEAD
 The highest honest TOKE yield right now is 0.24% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [sushiswap →](https://www.defi.garden/?pool=b6789fa8-1a6f-49e7-b5df-7d2c8fc04eac&src=seo_token) | Ethereum | 0.24% | $316.9K |
-=======
-The highest honest TOKE yield right now is 0.37% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=b6789fa8-1a6f-49e7-b5df-7d2c8fc04eac&src=seo_token) | Ethereum | 0.37% | $316.2K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TOKE yield today?
 
-<<<<<<< HEAD
 0.24% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many TOKE pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $316.9K in total.
-=======
-0.37% APY on sushiswap (Ethereum), based on live DefiLlama data.
-
-### How many TOKE pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $316.2K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

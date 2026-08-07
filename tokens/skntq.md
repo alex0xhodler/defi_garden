@@ -4,11 +4,7 @@ The highest honest SKNTQ yield right now is 14.60% on kinetiq-khype (Hyperliquid
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_token) | Hyperliquid L1 | 14.60% | $8.62M |
-=======
-| [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_token) | Hyperliquid L1 | 10.95% | $8.64M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SKNTQ pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $8.62M in total.
-=======
-1 live pool clear this page's $100K TVL floor, $8.64M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

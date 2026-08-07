@@ -18,11 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SENA pools clear the TVL floor?
 
-<<<<<<< HEAD
 3 live pools clear this page's $100K TVL floor, $7.58M in total.
-=======
-3 live pools clear this page's $100K TVL floor, $7.57M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

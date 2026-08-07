@@ -1,18 +1,10 @@
 # ANSEM DeFi Yields
 
-<<<<<<< HEAD
 The highest honest ANSEM yield right now is 300.21% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token) | Solana | 300.21% | $102.1K |
-=======
-The highest honest ANSEM yield right now is 310.43% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token) | Solana | 310.43% | $102.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANSEM yield today?
 
-<<<<<<< HEAD
 300.21% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many ANSEM pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $102.1K in total.
-=======
-310.43% APY on orca-dex (Solana), based on live DefiLlama data.
-
-### How many ANSEM pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $102.9K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

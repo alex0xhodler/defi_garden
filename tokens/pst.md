@@ -4,11 +4,7 @@ The highest honest PST yield right now is 0.20% on kamino-liquidity (Solana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.05% | $3.48M |
-=======
-| [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.04% | $3.48M |
->>>>>>> origin/main
 | [kamino-liquidity →](https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token) | Solana | 0.20% | $1.68M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -21,11 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PST pools clear the TVL floor?
 
-<<<<<<< HEAD
 9 live pools clear this page's $100K TVL floor, $91.42M in total.
-=======
-9 live pools clear this page's $100K TVL floor, $91.56M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -4,7 +4,6 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token) | Arbitrum | 1.59% | $1.53M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token) | Arbitrum | 6.12% | $828.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token) | Arbitrum | 15.54% | $469.3K |
@@ -13,16 +12,6 @@
 | [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 6.46% | $231.2K |
 | [gmx-v2-perps →](https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token) | Arbitrum | 2.70% | $222.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 14.79% | $190.3K |
-=======
-| [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token) | Arbitrum | 1.69% | $1.53M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token) | Arbitrum | 6.69% | $823.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token) | Arbitrum | 16.06% | $469K |
-| [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token) | Arbitrum | 0.39% | $409.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token) | Arbitrum | 8.49% | $247.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 6.43% | $232.1K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token) | Arbitrum | 2.70% | $222.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 17.66% | $190.7K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

@@ -1,18 +1,10 @@
 # BODEN DeFi Yields
 
-<<<<<<< HEAD
 The highest honest BODEN yield right now is 6.09% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=e864d064-1fda-4038-966a-0bfbeaec06b1&src=seo_token) | Solana | 6.09% | $210.1K |
-=======
-The highest honest BODEN yield right now is 7.19% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e864d064-1fda-4038-966a-0bfbeaec06b1&src=seo_token) | Solana | 7.19% | $209.8K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BODEN yield today?
 
-<<<<<<< HEAD
 6.09% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BODEN pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $210.1K in total.
-=======
-7.19% APY on raydium-amm (Solana), based on live DefiLlama data.
-
-### How many BODEN pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $209.8K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

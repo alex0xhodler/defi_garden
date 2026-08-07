@@ -4,11 +4,7 @@ The highest honest Conflux yield right now is 0.16% on nucleon (Conflux), among 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | WCFX-XCFX | [nucleon →](https://www.defi.garden/?pool=4ee2f0ba-ca31-4580-9ca4-7dd7a5cac042&src=seo_chain) | 0.16% | $191.5K |
-=======
-| WCFX-XCFX | [nucleon →](https://www.defi.garden/?pool=4ee2f0ba-ca31-4580-9ca4-7dd7a5cac042&src=seo_chain) | 0.16% | $189K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Conflux pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $191.5K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $189K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

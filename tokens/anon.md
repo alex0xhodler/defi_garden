@@ -4,17 +4,10 @@ The highest honest ANON yield right now is 0.30% on dedust (TON), among 4 pools 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.30% | $164.2K |
 | [ston.fi →](https://www.defi.garden/?pool=a14f8163-e99f-41d7-a234-c04aaa53e456&src=seo_token) | TON | 0.01% | $160.4K |
 | [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 2.43% | $132.2K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=1031a91a-7c71-445a-b6bf-7833e31cedcb&src=seo_token) | Base | 11.03% | $107.6K |
-=======
-| [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.30% | $162.7K |
-| [ston.fi →](https://www.defi.garden/?pool=a14f8163-e99f-41d7-a234-c04aaa53e456&src=seo_token) | TON | 0.01% | $158K |
-| [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 2.86% | $131.9K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=1031a91a-7c71-445a-b6bf-7833e31cedcb&src=seo_token) | Base | 10.99% | $107.5K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -26,11 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ANON pools clear the TVL floor?
 
-<<<<<<< HEAD
 4 live pools clear this page's $100K TVL floor, $564.4K in total.
-=======
-4 live pools clear this page's $100K TVL floor, $560.1K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

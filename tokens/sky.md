@@ -1,6 +1,5 @@
 # SKY DeFi Yields
 
-<<<<<<< HEAD
 The highest honest SKY yield right now is 18.56% on uniswap-v3 (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -12,19 +11,6 @@ The highest honest SKY yield right now is 18.56% on uniswap-v3 (Ethereum), among
 | [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 5.61% | $432.8K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 14.68% | $195.7K |
 | [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 1.09% | $112.3K |
-=======
-The highest honest SKY yield right now is 27.19% on uniswap-v3 (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token) | Ethereum | 6.75% | $951.77M |
-| [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token) | Ethereum | 6.82% | $2.9M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token) | Ethereum | 18.57% | $2.28M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token) | Ethereum | 18.15% | $969.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 5.63% | $433.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 27.19% | $195.5K |
-| [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 1.09% | $112.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,19 +18,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKY yield today?
 
-<<<<<<< HEAD
 18.56% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SKY pools clear the TVL floor?
 
 10 live pools clear this page's $100K TVL floor, $960.79M in total.
-=======
-27.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
-
-### How many SKY pools clear the TVL floor?
-
-10 live pools clear this page's $100K TVL floor, $965.22M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

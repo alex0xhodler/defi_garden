@@ -1,18 +1,10 @@
 # ALB DeFi Yields
 
-<<<<<<< HEAD
 The highest honest ALB yield right now is 2.09% on alien-base-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 2.09% | $345.9K |
-=======
-The highest honest ALB yield right now is 2.06% on alien-base-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [alien-base-v3 →](https://www.defi.garden/?pool=e65dd833-6304-4535-be7d-ae722083890c&src=seo_token) | Base | 2.06% | $345.7K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALB yield today?
 
-<<<<<<< HEAD
 2.09% APY on alien-base-v3 (Base), based on live DefiLlama data.
 
 ### How many ALB pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $345.9K in total.
-=======
-2.06% APY on alien-base-v3 (Base), based on live DefiLlama data.
-
-### How many ALB pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $345.7K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

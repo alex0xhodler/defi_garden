@@ -1,18 +1,10 @@
 # XSTRKBTC DeFi Yields
 
-<<<<<<< HEAD
 The highest honest XSTRKBTC yield right now is 6.33% on ekubo (Starknet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [ekubo →](https://www.defi.garden/?pool=472bb65b-a4ac-4d89-8dd4-e7e06053ed84&src=seo_token) | Starknet | 6.33% | $330.1K |
-=======
-The highest honest XSTRKBTC yield right now is 6.37% on ekubo (Starknet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=472bb65b-a4ac-4d89-8dd4-e7e06053ed84&src=seo_token) | Starknet | 6.37% | $329.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XSTRKBTC yield today?
 
-<<<<<<< HEAD
 6.33% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many XSTRKBTC pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $645.3K in total.
-=======
-6.37% APY on ekubo (Starknet), based on live DefiLlama data.
-
-### How many XSTRKBTC pools clear the TVL floor?
-
-3 live pools clear this page's $100K TVL floor, $645.2K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

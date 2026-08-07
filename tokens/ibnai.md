@@ -4,11 +4,7 @@ The highest honest IBNAI yield right now is 1.02% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v2 →](https://www.defi.garden/?pool=5b316d19-4b4e-57a9-a632-1e56f7af3d2d&src=seo_token) | Ethereum | 1.02% | $289.3K |
-=======
-| [uniswap-v2 →](https://www.defi.garden/?pool=5b316d19-4b4e-57a9-a632-1e56f7af3d2d&src=seo_token) | Ethereum | 1.02% | $289.8K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IBNAI pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $289.3K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $289.8K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

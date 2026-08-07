@@ -1,20 +1,11 @@
 # WLD DeFi Yields
 
-<<<<<<< HEAD
 The highest honest WLD yield right now is 20.86% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=87d47b65-43dd-4ff1-a76c-931d6ef6b12a&src=seo_token) | Ethereum | 17.48% | $190.4K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=882e600d-27b3-4408-85a3-140ab0910ec6&src=seo_token) | Ethereum | 20.86% | $131.6K |
-=======
-The highest honest WLD yield right now is 17.73% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=87d47b65-43dd-4ff1-a76c-931d6ef6b12a&src=seo_token) | Ethereum | 17.47% | $190.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=882e600d-27b3-4408-85a3-140ab0910ec6&src=seo_token) | Ethereum | 17.73% | $132K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,19 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WLD yield today?
 
-<<<<<<< HEAD
 20.86% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WLD pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $322K in total.
-=======
-17.73% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
-
-### How many WLD pools clear the TVL floor?
-
-2 live pools clear this page's $100K TVL floor, $322.5K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

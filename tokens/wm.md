@@ -1,18 +1,10 @@
 # WM DeFi Yields
 
-<<<<<<< HEAD
 The highest honest WM yield right now is 2.25% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=2f340114-f11e-460b-bfc9-79fd70546a55&src=seo_token) | Ethereum | 2.25% | $5M |
-=======
-The highest honest WM yield right now is 3.13% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2f340114-f11e-460b-bfc9-79fd70546a55&src=seo_token) | Ethereum | 3.13% | $3.34M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,15 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WM yield today?
 
-<<<<<<< HEAD
 2.25% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
-=======
-3.13% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many WM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.59M in total.
+2 live pools clear this page's $100K TVL floor, $5.25M in total.
 
 ### Are these rates safe?
 

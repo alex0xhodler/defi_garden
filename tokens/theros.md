@@ -4,11 +4,7 @@ The highest honest THEROS yield right now is 0.16% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [raydium-amm →](https://www.defi.garden/?pool=9df1d4aa-a80e-4c3c-842b-26361fb0f6cd&src=seo_token) | Solana | 0.16% | $1.96M |
-=======
-| [raydium-amm →](https://www.defi.garden/?pool=9df1d4aa-a80e-4c3c-842b-26361fb0f6cd&src=seo_token) | Solana | 0.17% | $1.96M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -4,11 +4,7 @@ The highest honest 3CRYPTO yield right now is 0.44% on yearn-finance (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [yearn-finance →](https://www.defi.garden/?pool=f827e130-1684-4829-b464-b5f99cf1d82b&src=seo_token) | Ethereum | 0.44% | $235.4K |
-=======
-| [yearn-finance →](https://www.defi.garden/?pool=f827e130-1684-4829-b464-b5f99cf1d82b&src=seo_token) | Ethereum | 0.44% | $236K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 3CRYPTO pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $235.4K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $236K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

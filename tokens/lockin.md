@@ -1,18 +1,10 @@
 # LOCKIN DeFi Yields
 
-<<<<<<< HEAD
 The highest honest LOCKIN yield right now is 4.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=b3aa20ae-6e2c-4f68-b1ed-b36b76caa649&src=seo_token) | Solana | 4.35% | $224K |
-=======
-The highest honest LOCKIN yield right now is 5.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b3aa20ae-6e2c-4f68-b1ed-b36b76caa649&src=seo_token) | Solana | 5.04% | $223.5K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LOCKIN yield today?
 
-<<<<<<< HEAD
 4.35% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LOCKIN pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $224K in total.
-=======
-5.04% APY on raydium-amm (Solana), based on live DefiLlama data.
-
-### How many LOCKIN pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $223.5K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

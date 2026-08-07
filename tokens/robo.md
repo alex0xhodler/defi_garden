@@ -1,20 +1,11 @@
 # ROBO DeFi Yields
 
-<<<<<<< HEAD
 The highest honest ROBO yield right now is 62.97% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token) | Ethereum | 62.97% | $475.8K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token) | Base | 33.92% | $374.3K |
-=======
-The highest honest ROBO yield right now is 61.48% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8ced21e-a02f-45d2-a298-41c2a6f69f94&src=seo_token) | Ethereum | 61.48% | $467.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token) | Base | 35.72% | $371K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,11 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROBO yield today?
 
-<<<<<<< HEAD
 62.97% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
-=======
-61.48% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many ROBO pools clear the TVL floor?
 

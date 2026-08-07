@@ -1,23 +1,13 @@
 # BDAG 디파이 수익률
 
-<<<<<<< HEAD
 현재 BDAG의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.59%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-=======
-현재 BDAG의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.53%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
->>>>>>> origin/main
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=29d89ccc-8d08-56b5-a930-742d22c706ff&src=seo_token) | Solana | 0.13% | $5.16M |
-<<<<<<< HEAD
 | [raydium-amm →](https://www.defi.garden/?pool=e5d99a8e-83dd-5aad-bf3f-576a8ea5078a&src=seo_token) | Solana | 0.59% | $3.85M |
 | [raydium-amm →](https://www.defi.garden/?pool=ab44d373-dbd9-5ebb-ad73-9123a79ec999&src=seo_token) | Solana | 0.04% | $3.72M |
 | [raydium-amm →](https://www.defi.garden/?pool=67b704ad-e16c-543b-b6b4-1eefba68193b&src=seo_token) | Solana | 0.41% | $3.71M |
-=======
-| [raydium-amm →](https://www.defi.garden/?pool=e5d99a8e-83dd-5aad-bf3f-576a8ea5078a&src=seo_token) | Solana | 0.53% | $3.85M |
-| [raydium-amm →](https://www.defi.garden/?pool=ab44d373-dbd9-5ebb-ad73-9123a79ec999&src=seo_token) | Solana | 0.04% | $3.72M |
-| [raydium-amm →](https://www.defi.garden/?pool=67b704ad-e16c-543b-b6b4-1eefba68193b&src=seo_token) | Solana | 0.40% | $3.71M |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -25,11 +15,7 @@
 
 ### 오늘 BDAG의 가장 높은 수익률은 얼마인가요?
 
-<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.59%예요.
-=======
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.53%예요.
->>>>>>> origin/main
 
 ### BDAG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

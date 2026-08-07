@@ -1,18 +1,10 @@
 # FTUSD DeFi Yields
 
-<<<<<<< HEAD
 The highest honest FTUSD yield right now is 1.16% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb&src=seo_token) | Ethereum | 1.16% | $1.87M |
-=======
-The highest honest FTUSD yield right now is 1.17% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb&src=seo_token) | Ethereum | 1.17% | $1.87M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FTUSD yield today?
 
-<<<<<<< HEAD
 1.16% APY on curve-dex (Ethereum), based on live DefiLlama data.
-=======
-1.17% APY on curve-dex (Ethereum), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many FTUSD pools clear the TVL floor?
 

@@ -1,19 +1,11 @@
 # EVA DeFi Yields
 
-<<<<<<< HEAD
 The highest honest EVA yield right now is 7.39% on uniswap-v4 (Arbitrum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-=======
-The highest honest EVA yield right now is 7.44% on uniswap-v4 (Arbitrum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
->>>>>>> origin/main
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token) | Arbitrum | 6.47% | $4.7M |
-<<<<<<< HEAD
 | [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 7.39% | $176.8K |
-=======
-| [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 7.44% | $176.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,11 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EVA yield today?
 
-<<<<<<< HEAD
 7.39% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
-=======
-7.44% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many EVA pools clear the TVL floor?
 

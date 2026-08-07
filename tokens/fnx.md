@@ -1,18 +1,10 @@
 # FNX DeFi Yields
 
-<<<<<<< HEAD
 The highest honest FNX yield right now is 0.02% on uniswap-v4 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=a73aa92d-ca72-4cb5-b39e-2444c1f9704d&src=seo_token) | OP Mainnet | 0.02% | $813.4K |
-=======
-The highest honest FNX yield right now is 0.01% on uniswap-v4 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a73aa92d-ca72-4cb5-b39e-2444c1f9704d&src=seo_token) | OP Mainnet | 0.01% | $816.7K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FNX yield today?
 
-<<<<<<< HEAD
 0.02% APY on uniswap-v4 (OP Mainnet), based on live DefiLlama data.
 
 ### How many FNX pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $813.4K in total.
-=======
-0.01% APY on uniswap-v4 (OP Mainnet), based on live DefiLlama data.
-
-### How many FNX pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $816.7K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

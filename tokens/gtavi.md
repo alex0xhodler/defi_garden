@@ -4,11 +4,7 @@ The highest honest GTAVI yield right now is 0.33% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v2 →](https://www.defi.garden/?pool=9127de99-7fbc-5e6f-a08e-f235226046d9&src=seo_token) | Ethereum | 0.33% | $217.8K |
-=======
-| [uniswap-v2 →](https://www.defi.garden/?pool=9127de99-7fbc-5e6f-a08e-f235226046d9&src=seo_token) | Ethereum | 0.33% | $217.4K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTAVI pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $217.8K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $217.4K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

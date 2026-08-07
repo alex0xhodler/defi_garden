@@ -1,6 +1,5 @@
 # VBUSDC DeFi Yields
 
-<<<<<<< HEAD
 The highest honest VBUSDC yield right now is 13.27% on spectra-metavaults (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,15 +7,6 @@ The highest honest VBUSDC yield right now is 13.27% on spectra-metavaults (Katan
 | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 4.35% | $8.65M |
 | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 2.08% | $4.12M |
 | [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 13.27% | $452.8K |
-=======
-The highest honest VBUSDC yield right now is 13.26% on spectra-metavaults (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 4.22% | $8.65M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 2.08% | $4.12M |
-| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 13.26% | $453.4K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,11 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VBUSDC yield today?
 
-<<<<<<< HEAD
 13.27% APY on spectra-metavaults (Katana), based on live DefiLlama data.
-=======
-13.26% APY on spectra-metavaults (Katana), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many VBUSDC pools clear the TVL floor?
 

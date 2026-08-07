@@ -4,12 +4,7 @@ The highest honest INF yield right now is 5.73% on sanctum-infinity (Solana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.73% | $148.18M |
-=======
-| [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.73% | $147.86M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=f4f1b5a0-2ef0-42aa-947b-a5d64ecfc6d8&src=seo_token) | Solana | 0.04% | $224.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many INF pools clear the TVL floor?
 
-<<<<<<< HEAD
 7 live pools clear this page's $100K TVL floor, $159.12M in total.
-=======
-7 live pools clear this page's $100K TVL floor, $158.78M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

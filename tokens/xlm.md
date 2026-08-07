@@ -4,15 +4,9 @@ The highest honest XLM yield right now is 0.47% on blend-pools-v2 (Stellar), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $108.88M |
 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.47% | $618.5K |
 | [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 2.46% | $105.4K |
-=======
-| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $107.98M |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.47% | $613.4K |
-| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 2.59% | $104.8K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,11 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XLM pools clear the TVL floor?
 
-<<<<<<< HEAD
 3 live pools clear this page's $100K TVL floor, $109.6M in total.
-=======
-3 live pools clear this page's $100K TVL floor, $108.7M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

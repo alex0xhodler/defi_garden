@@ -6,11 +6,7 @@ The highest honest XLEND yield right now is 7.24% on liminal-basis (Arbitrum), a
 |---|---|---|---|
 | [liminal-basis →](https://www.defi.garden/?pool=8eff94a0-f3f9-59cc-9512-45d1f23da877&src=seo_token) | Arbitrum | 7.24% | $5.34M |
 | [liminal-basis →](https://www.defi.garden/?pool=422b0d2e-1548-57cf-99dd-bc923e329e4d&src=seo_token) | Ethereum | 7.24% | $5.34M |
-<<<<<<< HEAD
 | [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 7.19% | $5.33M |
-=======
-| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 7.20% | $5.33M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

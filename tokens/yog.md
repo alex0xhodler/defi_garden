@@ -1,6 +1,5 @@
 # YOG DeFi Yields
 
-<<<<<<< HEAD
 The highest honest YOG yield right now is 7.43% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,15 +7,6 @@ The highest honest YOG yield right now is 7.43% on morpho-blue (Ethereum), among
 | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token) | Katana | 3.27% | $4.44M |
 | [morpho-blue →](https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token) | Ethereum | 7.43% | $2.34M |
 | [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 6.74% | $192.6K |
-=======
-The highest honest YOG yield right now is 7.49% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token) | Katana | 3.27% | $4.43M |
-| [morpho-blue →](https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token) | Ethereum | 7.49% | $2.34M |
-| [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 6.74% | $229.6K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,19 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YOG yield today?
 
-<<<<<<< HEAD
 7.43% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many YOG pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $6.97M in total.
-=======
-7.49% APY on morpho-blue (Ethereum), based on live DefiLlama data.
-
-### How many YOG pools clear the TVL floor?
-
-3 live pools clear this page's $100K TVL floor, $7M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

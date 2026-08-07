@@ -4,11 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_token) | MultiversX | 1.01% | $283.4K |
-=======
-| [hatom-lending →](https://www.defi.garden/?pool=5ce5d5ed-2151-4715-8585-a06a4e2e09cb&src=seo_token) | MultiversX | 1.01% | $273.3K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,11 +16,7 @@ DefiLlama 실시간 데이터 기준, MultiversX의 hatom-lending에서 APY 1.01
 
 ### EGLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $283.4K예요.
-=======
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $273.3K예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

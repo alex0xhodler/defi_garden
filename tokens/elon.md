@@ -1,20 +1,11 @@
 # ELON DeFi Yields
 
-<<<<<<< HEAD
 The highest honest ELON yield right now is 0.14% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token) | Ethereum | 4.41% | $4.34M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798&src=seo_token) | Ethereum | 0.14% | $102.7K |
-=======
-The highest honest ELON yield right now is 0.13% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6220e7aa-f086-4340-bd72-2ef46efb5418&src=seo_token) | Ethereum | 3.14% | $4.39M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f2e2a783-5a98-4bf8-8ba6-a1a2927e1798&src=seo_token) | Ethereum | 0.13% | $102.6K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,19 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ELON yield today?
 
-<<<<<<< HEAD
 0.14% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ELON pools clear the TVL floor?
 
 6 live pools clear this page's $100K TVL floor, $6.97M in total.
-=======
-0.13% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
-
-### How many ELON pools clear the TVL floor?
-
-6 live pools clear this page's $100K TVL floor, $7.05M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

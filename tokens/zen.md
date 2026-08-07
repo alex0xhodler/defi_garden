@@ -1,6 +1,5 @@
 # ZEN DeFi Yields
 
-<<<<<<< HEAD
 The highest honest ZEN yield right now is 15.88% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,15 +7,6 @@ The highest honest ZEN yield right now is 15.88% on aerodrome-slipstream (Base),
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8&src=seo_token) | Base | 15.88% | $1.74M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2&src=seo_token) | Base | 43.24% | $1.04M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=f8bc842a-cd86-4128-8fae-e316ec118def&src=seo_token) | Base | 81.56% | $162.5K |
-=======
-The highest honest ZEN yield right now is 30.24% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=6e7d0984-9a39-4619-86e2-13b9aae221b8&src=seo_token) | Base | 11.91% | $1.76M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=913c44c2-5b5c-4dd8-9961-f1d1c112cee2&src=seo_token) | Base | 30.24% | $1.05M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f8bc842a-cd86-4128-8fae-e316ec118def&src=seo_token) | Base | 80.99% | $162K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,19 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZEN yield today?
 
-<<<<<<< HEAD
 15.88% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many ZEN pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $2.95M in total.
-=======
-30.24% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
-
-### How many ZEN pools clear the TVL floor?
-
-3 live pools clear this page's $100K TVL floor, $2.97M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:ko/tokens/mongoose.md
 # MONGOOSE 디파이 수익률
 
 현재 MONGOOSE의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 0.01%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
@@ -6,21 +5,11 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=fc849390-7ddb-40dd-991c-887bf780b283&src=seo_token) | Ethereum | 0.01% | $789.4K |
-========
-# SLAP 디파이 수익률
-
-현재 SLAP의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 0.01%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=720f5a92-487f-4e96-b517-7a40c59ba4c6&src=seo_token) | Ethereum | 0.01% | $421.4K |
->>>>>>>> origin/main:ko/tokens/slap.md
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 자주 묻는 질문
 
-<<<<<<<< HEAD:ko/tokens/mongoose.md
 ### 오늘 MONGOOSE의 가장 높은 수익률은 얼마인가요?
 
 DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.01%예요.
@@ -28,15 +17,6 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.01%예�
 ### MONGOOSE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $789.4K예요.
-========
-### 오늘 SLAP의 가장 높은 수익률은 얼마인가요?
-
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.01%예요.
-
-### SLAP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
-
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $421.4K예요.
->>>>>>>> origin/main:ko/tokens/slap.md
 
 ### 이 수익률은 안전한가요?
 

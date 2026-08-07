@@ -4,11 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74&src=seo_token) | BSC | 105.43% | $128.5K |
-=======
-| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74&src=seo_token) | BSC | 105.43% | $125.1K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,11 +16,7 @@ DefiLlama 실시간 데이터 기준, BSC의 native-credit-pool에서 APY 105.43
 
 ### NVDAB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $259K예요.
-=======
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $255.7K예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

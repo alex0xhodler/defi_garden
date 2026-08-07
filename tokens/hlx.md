@@ -1,6 +1,5 @@
 # HLX DeFi Yields
 
-<<<<<<< HEAD
 The highest honest HLX yield right now is 5.62% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,15 +7,6 @@ The highest honest HLX yield right now is 5.62% on uniswap-v3 (Ethereum), among 
 | [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 64.38% | $334.4K |
 | [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f&src=seo_token) | Ethereum | 1.26% | $240.8K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 5.62% | $192.1K |
-=======
-The highest honest HLX yield right now is 5.98% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 59.41% | $332.5K |
-| [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f&src=seo_token) | Ethereum | 1.27% | $240.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 5.98% | $190.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,19 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HLX yield today?
 
-<<<<<<< HEAD
 5.62% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many HLX pools clear the TVL floor?
 
 4 live pools clear this page's $100K TVL floor, $871.2K in total.
-=======
-5.98% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
-
-### How many HLX pools clear the TVL floor?
-
-4 live pools clear this page's $100K TVL floor, $867.8K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

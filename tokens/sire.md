@@ -1,18 +1,10 @@
 # SIRE DeFi Yields
 
-<<<<<<< HEAD
 The highest honest SIRE yield right now is 29.45% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-v1 →](https://www.defi.garden/?pool=eff94230-e0a9-4189-8e9a-4a30efb1f569&src=seo_token) | Base | 29.45% | $174.4K |
-=======
-The highest honest SIRE yield right now is 29.07% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=eff94230-e0a9-4189-8e9a-4a30efb1f569&src=seo_token) | Base | 29.07% | $175.8K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIRE yield today?
 
-<<<<<<< HEAD
 29.45% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many SIRE pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $174.4K in total.
-=======
-29.07% APY on aerodrome-v1 (Base), based on live DefiLlama data.
-
-### How many SIRE pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $175.8K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

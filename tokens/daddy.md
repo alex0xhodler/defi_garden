@@ -1,18 +1,10 @@
 # DADDY DeFi Yields
 
-<<<<<<< HEAD
 The highest honest DADDY yield right now is 3.92% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=0bd02d7a-7bf4-4f3b-b1e9-bd8439482418&src=seo_token) | Solana | 3.92% | $766.9K |
-=======
-The highest honest DADDY yield right now is 4.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0bd02d7a-7bf4-4f3b-b1e9-bd8439482418&src=seo_token) | Solana | 4.44% | $767.4K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DADDY yield today?
 
-<<<<<<< HEAD
 3.92% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DADDY pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $766.9K in total.
-=======
-4.44% APY on raydium-amm (Solana), based on live DefiLlama data.
-
-### How many DADDY pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $767.4K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

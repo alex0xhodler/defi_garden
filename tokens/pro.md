@@ -1,18 +1,10 @@
 # PRO DeFi Yields
 
-<<<<<<< HEAD
 The highest honest PRO yield right now is 0.01% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206&src=seo_token) | Ethereum | 0.01% | $270.4K |
-=======
-The highest honest PRO yield right now is 0.25% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=443ecf71-b23d-42ec-a9e2-c34177dc3206&src=seo_token) | Ethereum | 0.25% | $271.5K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRO yield today?
 
-<<<<<<< HEAD
 0.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PRO pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $409K in total.
-=======
-0.25% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
-
-### How many PRO pools clear the TVL floor?
-
-2 live pools clear this page's $100K TVL floor, $410.2K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

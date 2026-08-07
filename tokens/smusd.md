@@ -1,20 +1,11 @@
 # SMUSD DeFi Yields
 
-<<<<<<< HEAD
 The highest honest SMUSD yield right now is 2.69% on mezo-vaults (Mezo), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_token) | Mezo | 2.69% | $5.45M |
 | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_token) | Mezo | 0.26% | $2.07M |
-=======
-The highest honest SMUSD yield right now is 2.71% on mezo-vaults (Mezo), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_token) | Mezo | 2.71% | $5.44M |
-| [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_token) | Mezo | 0.26% | $2.06M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,19 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SMUSD yield today?
 
-<<<<<<< HEAD
 2.69% APY on mezo-vaults (Mezo), based on live DefiLlama data.
 
 ### How many SMUSD pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $7.52M in total.
-=======
-2.71% APY on mezo-vaults (Mezo), based on live DefiLlama data.
-
-### How many SMUSD pools clear the TVL floor?
-
-2 live pools clear this page's $100K TVL floor, $7.5M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

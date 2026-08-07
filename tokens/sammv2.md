@@ -4,11 +4,7 @@ The highest honest SAMMV2 yield right now is 7.67% on yearn-finance (OP Mainnet)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 5.88% | $1.06M |
-=======
-| [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 5.89% | $1.06M |
->>>>>>> origin/main
 | [yearn-finance →](https://www.defi.garden/?pool=1da6add5-c4ae-4fe0-af7c-1144ca38db56&src=seo_token) | OP Mainnet | 7.67% | $173.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

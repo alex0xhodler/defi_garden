@@ -4,19 +4,11 @@ The highest honest Mezo yield right now is 27.41% on mezo-earn (Mezo), among 5 p
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 4.15% | $52.92M |
 | SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_chain) | 2.69% | $5.45M |
 | MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 27.41% | $2.9M |
 | SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_chain) | 0.26% | $2.07M |
 | BTC | [boar-finance →](https://www.defi.garden/?pool=8f836e02-e284-5e9d-af8c-e0919d8c975f&src=seo_chain) | 13.63% | $160.8K |
-=======
-| BTC | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_chain) | 4.15% | $52.95M |
-| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_chain) | 2.71% | $5.44M |
-| MEZO | [mezo-earn →](https://www.defi.garden/?pool=ca019988-a0e9-47ae-b5cc-3b48554376fe&src=seo_chain) | 27.41% | $2.92M |
-| SMUSD | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_chain) | 0.26% | $2.06M |
-| BTC | [boar-finance →](https://www.defi.garden/?pool=8f836e02-e284-5e9d-af8c-e0919d8c975f&src=seo_chain) | 13.63% | $160.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -28,11 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Mezo pools clear the TVL floor?
 
-<<<<<<< HEAD
 5 live pools clear this page's $100K TVL floor, $63.5M in total.
-=======
-5 live pools clear this page's $100K TVL floor, $63.53M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

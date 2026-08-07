@@ -1,6 +1,5 @@
 # WFRAX DeFi Yields
 
-<<<<<<< HEAD
 The highest honest WFRAX yield right now is 33.88% on curve-dex (Fraxtal), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,15 +7,6 @@ The highest honest WFRAX yield right now is 33.88% on curve-dex (Fraxtal), among
 | [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.21% | $2.05M |
 | [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.29% | $135.7K |
 | [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token) | Fraxtal | 33.88% | $103.5K |
-=======
-The highest honest WFRAX yield right now is 33.79% on curve-dex (Fraxtal), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.20% | $2.04M |
-| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.27% | $135.6K |
-| [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token) | Fraxtal | 33.79% | $102.5K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,19 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WFRAX yield today?
 
-<<<<<<< HEAD
 33.88% APY on curve-dex (Fraxtal), based on live DefiLlama data.
 
 ### How many WFRAX pools clear the TVL floor?
 
 5 live pools clear this page's $100K TVL floor, $2.72M in total.
-=======
-33.79% APY on curve-dex (Fraxtal), based on live DefiLlama data.
-
-### How many WFRAX pools clear the TVL floor?
-
-5 live pools clear this page's $100K TVL floor, $2.7M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

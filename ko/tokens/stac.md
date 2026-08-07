@@ -1,18 +1,10 @@
 # STAC 디파이 수익률
 
-<<<<<<<< HEAD:ko/tokens/stac.md
 현재 STAC의 가장 높은 정직한 수익률은 Ethereum의 securitize-tokenized-aaa-clo-fund에서 4.81%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [securitize-tokenized-aaa-clo-fund →](https://www.defi.garden/?pool=19494e5c-a34e-448d-9679-7d34df7f8745&src=seo_token) | Ethereum | 4.81% | $102.91M |
-========
-현재 CADD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 24.92%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ed8f9cf1-457b-5185-bc81-e16a7c637bf8&src=seo_token) | Ethereum | 24.92% | $303K |
->>>>>>>> origin/main:ko/tokens/cadd.md
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,19 +12,11 @@
 
 ### 오늘 STAC의 가장 높은 수익률은 얼마인가요?
 
-<<<<<<<< HEAD:ko/tokens/stac.md
 DefiLlama 실시간 데이터 기준, Ethereum의 securitize-tokenized-aaa-clo-fund에서 APY 4.81%예요.
-========
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 24.92%예요.
->>>>>>>> origin/main:ko/tokens/cadd.md
 
 ### STAC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<<< HEAD:ko/tokens/stac.md
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $102.91M예요.
-========
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $303K예요.
->>>>>>>> origin/main:ko/tokens/cadd.md
 
 ### 이 수익률은 안전한가요?
 

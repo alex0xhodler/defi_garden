@@ -1,20 +1,11 @@
 # LQTY DeFi Yields
 
-<<<<<<< HEAD
 The highest honest LQTY yield right now is 11.12% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token) | Ethereum | 11.12% | $450.5K |
 | [gamma →](https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token) | Ethereum | 5.42% | $371.9K |
-=======
-The highest honest LQTY yield right now is 15.17% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0d91ce59-256a-4b7a-a156-357a8df9cc32&src=seo_token) | Ethereum | 15.17% | $446.9K |
-| [gamma →](https://www.defi.garden/?pool=ad500954-864e-4633-8351-b3a5fcd35e00&src=seo_token) | Ethereum | 7.37% | $369.1K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,19 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LQTY yield today?
 
-<<<<<<< HEAD
 11.12% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LQTY pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $822.4K in total.
-=======
-15.17% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
-
-### How many LQTY pools clear the TVL floor?
-
-2 live pools clear this page's $100K TVL floor, $816K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

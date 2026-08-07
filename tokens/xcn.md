@@ -1,20 +1,11 @@
 # XCN DeFi Yields
 
-<<<<<<< HEAD
 The highest honest XCN yield right now is 9.54% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token) | Ethereum | 9.54% | $640.8K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 4.20% | $152.9K |
-=======
-The highest honest XCN yield right now is 13.67% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token) | Ethereum | 13.67% | $641K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 4.48% | $153K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,19 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XCN yield today?
 
-<<<<<<< HEAD
 9.54% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many XCN pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $793.7K in total.
-=======
-13.67% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
-
-### How many XCN pools clear the TVL floor?
-
-2 live pools clear this page's $100K TVL floor, $794K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

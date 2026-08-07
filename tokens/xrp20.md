@@ -4,11 +4,7 @@ The highest honest XRP20 yield right now is 0.03% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v2 →](https://www.defi.garden/?pool=c62959e4-cc36-4fbd-baea-6e9210ec693b&src=seo_token) | Ethereum | 0.03% | $147.4K |
-=======
-| [uniswap-v2 →](https://www.defi.garden/?pool=c62959e4-cc36-4fbd-baea-6e9210ec693b&src=seo_token) | Ethereum | 0.02% | $147.1K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XRP20 pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $147.4K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $147.1K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

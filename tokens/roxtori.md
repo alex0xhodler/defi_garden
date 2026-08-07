@@ -4,11 +4,7 @@ The highest honest ROXTORI yield right now is 3.42% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=ea5f40b9-0d0e-5b99-a967-040a93abc9f6&src=seo_token) | Ethereum | 3.42% | $10.51M |
-=======
-| [morpho-blue →](https://www.defi.garden/?pool=ea5f40b9-0d0e-5b99-a967-040a93abc9f6&src=seo_token) | Ethereum | 3.42% | $10.5M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

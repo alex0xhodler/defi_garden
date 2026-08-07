@@ -1,6 +1,5 @@
 # OSETH DeFi Yields
 
-<<<<<<< HEAD
 The highest honest OSETH yield right now is 6.07% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -9,16 +8,6 @@ The highest honest OSETH yield right now is 6.07% on convex-finance (Ethereum), 
 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.16% | $10.6M |
 | [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.07% | $1.61M |
 | [balancer-v3 →](https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5&src=seo_token) | Ethereum | 1.90% | $1.36M |
-=======
-The highest honest OSETH yield right now is 6.10% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [stakewise-v2 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8&src=seo_token) | Ethereum | 2.25% | $268.99M |
-| [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.18% | $10.6M |
-| [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.10% | $1.61M |
-| [balancer-v3 →](https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5&src=seo_token) | Ethereum | 1.90% | $1.35M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -26,19 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OSETH yield today?
 
-<<<<<<< HEAD
 6.07% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many OSETH pools clear the TVL floor?
 
 6 live pools clear this page's $100K TVL floor, $520.86M in total.
-=======
-6.10% APY on convex-finance (Ethereum), based on live DefiLlama data.
-
-### How many OSETH pools clear the TVL floor?
-
-6 live pools clear this page's $100K TVL floor, $519.3M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

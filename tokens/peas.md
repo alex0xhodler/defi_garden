@@ -1,20 +1,11 @@
 # PEAS DeFi Yields
 
-<<<<<<< HEAD
 The highest honest PEAS yield right now is 3.26% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 2.37% | $1.08M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=59a12e88-fc48-40ce-8e31-0d2e1bfeba8f&src=seo_token) | Ethereum | 3.26% | $164K |
-=======
-The highest honest PEAS yield right now is 2.54% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 2.39% | $1.07M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=59a12e88-fc48-40ce-8e31-0d2e1bfeba8f&src=seo_token) | Ethereum | 2.54% | $162K |
->>>>>>> origin/main
 | [uniswap-v3 →](https://www.defi.garden/?pool=d2290557-51d0-4765-bbaa-a821316aef9b&src=seo_token) | Arbitrum | 0.12% | $130.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,19 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEAS yield today?
 
-<<<<<<< HEAD
 3.26% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PEAS pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $1.37M in total.
-=======
-2.54% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
-
-### How many PEAS pools clear the TVL floor?
-
-3 live pools clear this page's $100K TVL floor, $1.36M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

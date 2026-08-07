@@ -4,11 +4,7 @@ The highest honest HASHAI yield right now is 0.13% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v2 →](https://www.defi.garden/?pool=b7278078-ee0e-491a-99ec-086fe7209d0e&src=seo_token) | Ethereum | 0.13% | $368.3K |
-=======
-| [uniswap-v2 →](https://www.defi.garden/?pool=b7278078-ee0e-491a-99ec-086fe7209d0e&src=seo_token) | Ethereum | 0.13% | $368.4K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HASHAI pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $368.3K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $368.4K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

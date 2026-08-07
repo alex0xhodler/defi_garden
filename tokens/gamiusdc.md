@@ -6,11 +6,7 @@ The highest honest GAMIUSDC yield right now is 10.68% on balancer-v3 (Avalanche)
 |---|---|---|---|
 | [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token) | Ethereum | 8.56% | $6.75M |
 | [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token) | Ethereum | 8.50% | $6.75M |
-<<<<<<< HEAD
 | [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.68% | $685.2K |
-=======
-| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.68% | $685.1K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,11 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GAMIUSDC pools clear the TVL floor?
 
-<<<<<<< HEAD
 4 live pools clear this page's $100K TVL floor, $20.19M in total.
-=======
-4 live pools clear this page's $100K TVL floor, $20.18M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

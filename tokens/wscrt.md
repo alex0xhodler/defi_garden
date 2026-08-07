@@ -4,11 +4,7 @@ The highest honest WSCRT yield right now is 0.44% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v2 →](https://www.defi.garden/?pool=e4afb449-988d-419b-ad20-e8a1d89fab2e&src=seo_token) | Ethereum | 0.44% | $143.3K |
-=======
-| [uniswap-v2 →](https://www.defi.garden/?pool=e4afb449-988d-419b-ad20-e8a1d89fab2e&src=seo_token) | Ethereum | 0.44% | $143K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WSCRT pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $143.3K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $143K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

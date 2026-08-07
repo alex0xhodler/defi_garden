@@ -1,6 +1,5 @@
 # HASUI DeFi Yields
 
-<<<<<<< HEAD
 The highest honest HASUI yield right now is 2.87% on current (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,15 +7,6 @@ The highest honest HASUI yield right now is 2.87% on current (Sui), among 3 pool
 | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.15% | $14.55M |
 | [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.87% | $3.36M |
 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.06% | $2.26M |
-=======
-The highest honest HASUI yield right now is 2.86% on current (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.15% | $14.6M |
-| [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.86% | $3.37M |
-| [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.07% | $2.27M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,19 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HASUI yield today?
 
-<<<<<<< HEAD
 2.87% APY on current (Sui), based on live DefiLlama data.
 
 ### How many HASUI pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $20.17M in total.
-=======
-2.86% APY on current (Sui), based on live DefiLlama data.
-
-### How many HASUI pools clear the TVL floor?
-
-3 live pools clear this page's $100K TVL floor, $20.24M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

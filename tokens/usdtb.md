@@ -4,11 +4,7 @@ The highest honest USDTB yield right now is 5.91% on fluid-lending (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.17% | $20.07M |
-=======
-| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.13% | $20.07M |
->>>>>>> origin/main
 | [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.49% | $6.73M |
 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.91% | $2.22M |
 | [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 1.95% | $1.62M |

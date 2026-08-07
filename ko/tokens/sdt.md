@@ -1,20 +1,11 @@
 # SDT 디파이 수익률
 
-<<<<<<< HEAD
 현재 SDT의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 11.01%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 10.28% | $395.5K |
 | [stake-dao →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 11.01% | $395.2K |
-=======
-현재 SDT의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 10.86%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 10.86% | $395.2K |
-| [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 9.66% | $395.1K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -22,19 +13,11 @@
 
 ### 오늘 SDT의 가장 높은 수익률은 얼마인가요?
 
-<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 11.01%예요.
 
 ### SDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $790.7K예요.
-=======
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 10.86%예요.
-
-### SDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
-
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $790.3K예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

@@ -1,18 +1,10 @@
 # FEUSDC DeFi Yields
 
-<<<<<<< HEAD
 The highest honest FEUSDC yield right now is 6.94% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_token) | Hyperliquid L1 | 6.94% | $12.85M |
-=======
-The highest honest FEUSDC yield right now is 7.04% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_token) | Hyperliquid L1 | 7.04% | $12.7M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEUSDC yield today?
 
-<<<<<<< HEAD
 6.94% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many FEUSDC pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $12.85M in total.
-=======
-7.04% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
-
-### How many FEUSDC pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $12.7M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

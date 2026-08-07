@@ -1,20 +1,11 @@
 # APEUSD DeFi Yields
 
-<<<<<<< HEAD
 The highest honest APEUSD yield right now is 0.03% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.03% | $134.5K |
 | [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.03% | $132.3K |
-=======
-The highest honest APEUSD yield right now is 0.05% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.05% | $134.5K |
-| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.05% | $132.3K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,11 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest APEUSD yield today?
 
-<<<<<<< HEAD
 0.03% APY on curve-dex (Ethereum), based on live DefiLlama data.
-=======
-0.05% APY on curve-dex (Ethereum), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many APEUSD pools clear the TVL floor?
 

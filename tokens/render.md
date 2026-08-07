@@ -1,6 +1,5 @@
 # RENDER DeFi Yields
 
-<<<<<<< HEAD
 The highest honest RENDER yield right now is 17.24% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,15 +7,6 @@ The highest honest RENDER yield right now is 17.24% on raydium-amm (Solana), amo
 | [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 17.24% | $380.7K |
 | [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.04% | $277.8K |
 | [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 7.56% | $224.1K |
-=======
-The highest honest RENDER yield right now is 18.22% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 18.22% | $382.5K |
-| [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.04% | $278.6K |
-| [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 7.72% | $224.4K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,19 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RENDER yield today?
 
-<<<<<<< HEAD
 17.24% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RENDER pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $882.6K in total.
-=======
-18.22% APY on raydium-amm (Solana), based on live DefiLlama data.
-
-### How many RENDER pools clear the TVL floor?
-
-3 live pools clear this page's $100K TVL floor, $885.5K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

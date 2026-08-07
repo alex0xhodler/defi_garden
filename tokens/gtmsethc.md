@@ -4,11 +4,7 @@ The highest honest GTMSETHC yield right now is 0.56% on morpho-blue (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token) | Base | 0.56% | $4.74M |
-=======
-| [morpho-blue →](https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token) | Base | 0.56% | $4.78M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTMSETHC pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $4.74M in total.
-=======
-1 live pool clear this page's $100K TVL floor, $4.78M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

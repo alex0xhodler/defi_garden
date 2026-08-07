@@ -4,11 +4,7 @@ The highest honest OTFY yield right now is 0.07% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [raydium-amm →](https://www.defi.garden/?pool=3237c68c-add4-5adf-8d9c-00b24bd0c7b0&src=seo_token) | Solana | 0.07% | $792.6K |
-=======
-| [raydium-amm →](https://www.defi.garden/?pool=3237c68c-add4-5adf-8d9c-00b24bd0c7b0&src=seo_token) | Solana | 0.08% | $792.6K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

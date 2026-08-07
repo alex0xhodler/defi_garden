@@ -4,13 +4,8 @@ The highest honest TRAC yield right now is 6.56% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 9.97% | $352.9K |
 | [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 6.56% | $196.8K |
-=======
-| [uniswap-v3 →](https://www.defi.garden/?pool=1e7880a1-6217-482e-8053-2d4cc3f71931&src=seo_token) | Ethereum | 10.09% | $351.9K |
-| [hydration-dex →](https://www.defi.garden/?pool=5b9274a9-28f9-425e-89a9-5b1e704d487e&src=seo_token) | Polkadot | 6.56% | $197.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,11 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TRAC pools clear the TVL floor?
 
-<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $549.7K in total.
-=======
-2 live pools clear this page's $100K TVL floor, $549.8K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

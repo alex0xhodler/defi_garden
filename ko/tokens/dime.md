@@ -4,11 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=e81f973d-46dd-4c81-9615-b03bd5585e0a&src=seo_token) | Base | 2.39% | $240.7K |
-=======
-| [uniswap-v3 →](https://www.defi.garden/?pool=e81f973d-46dd-4c81-9615-b03bd5585e0a&src=seo_token) | Base | 2.39% | $240.6K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,11 +16,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 2.39%예요.
 
 ### DIME 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $240.7K예요.
-=======
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $240.6K예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

@@ -1,18 +1,10 @@
 # AGIX DeFi Yields
 
-<<<<<<< HEAD
 The highest honest AGIX yield right now is 1.07% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=fe88500a-ca8d-4bf7-a1bd-8a268989cfd9&src=seo_token) | Ethereum | 1.07% | $128.6K |
-=======
-The highest honest AGIX yield right now is 1.47% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fe88500a-ca8d-4bf7-a1bd-8a268989cfd9&src=seo_token) | Ethereum | 1.47% | $128.5K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AGIX yield today?
 
-<<<<<<< HEAD
 1.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many AGIX pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $128.6K in total.
-=======
-1.47% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
-
-### How many AGIX pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $128.5K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,18 +1,10 @@
 # 50EIGEN DeFi Yields
 
-<<<<<<< HEAD
 The highest honest 50EIGEN yield right now is 11.19% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [balancer-v3 →](https://www.defi.garden/?pool=9dc8d002-85cd-4d9f-b6c9-452331ea01b1&src=seo_token) | Ethereum | 11.19% | $105.7K |
-=======
-The highest honest 50EIGEN yield right now is 10.91% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=9dc8d002-85cd-4d9f-b6c9-452331ea01b1&src=seo_token) | Ethereum | 10.91% | $105.8K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 50EIGEN yield today?
 
-<<<<<<< HEAD
 11.19% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 50EIGEN pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $105.7K in total.
-=======
-10.91% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
-
-### How many 50EIGEN pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $105.8K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

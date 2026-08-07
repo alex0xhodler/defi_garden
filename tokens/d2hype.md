@@ -4,11 +4,7 @@ The highest honest D2HYPE yield right now is 1.09% on d2-finance (Hyperliquid L1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [d2-finance →](https://www.defi.garden/?pool=852e1d53-a5e7-56a3-93b8-6e5951795381&src=seo_token) | Hyperliquid L1 | 1.09% | $8.22M |
-=======
-| [d2-finance →](https://www.defi.garden/?pool=852e1d53-a5e7-56a3-93b8-6e5951795381&src=seo_token) | Hyperliquid L1 | 1.09% | $8.23M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many D2HYPE pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $8.22M in total.
-=======
-1 live pool clear this page's $100K TVL floor, $8.23M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

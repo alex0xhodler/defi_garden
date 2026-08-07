@@ -4,11 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [osmosis-dex →](https://www.defi.garden/?pool=71e170c1-61e7-4a46-9897-6756094cd64c&src=seo_token) | Osmosis | 0.01% | $218.6K |
-=======
-| [osmosis-dex →](https://www.defi.garden/?pool=71e170c1-61e7-4a46-9897-6756094cd64c&src=seo_token) | Osmosis | 0.01% | $218.9K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,11 +16,7 @@ DefiLlama 실시간 데이터 기준, Osmosis의 osmosis-dex에서 APY 0.01%예�
 
 ### NYM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $218.6K예요.
-=======
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $218.9K예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

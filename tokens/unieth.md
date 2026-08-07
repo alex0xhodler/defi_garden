@@ -4,15 +4,9 @@ The highest honest UNIETH yield right now is 2.40% on bedrock-unieth (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.40% | $19.49M |
 | [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.03% | $427.9K |
 | [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.81% | $176.4K |
-=======
-| [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.41% | $19.54M |
-| [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.03% | $428.1K |
-| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.81% | $207.6K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,11 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UNIETH pools clear the TVL floor?
 
-<<<<<<< HEAD
 3 live pools clear this page's $100K TVL floor, $20.09M in total.
-=======
-3 live pools clear this page's $100K TVL floor, $20.17M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

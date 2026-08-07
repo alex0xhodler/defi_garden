@@ -4,11 +4,7 @@ The highest honest MOONEY yield right now is 0.08% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=1373820d-20f9-480b-8030-56576348eae8&src=seo_token) | Ethereum | 0.08% | $323.2K |
-=======
-| [uniswap-v3 →](https://www.defi.garden/?pool=1373820d-20f9-480b-8030-56576348eae8&src=seo_token) | Ethereum | 0.08% | $322.6K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOONEY pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $323.2K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $322.6K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

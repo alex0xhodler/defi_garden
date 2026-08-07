@@ -5,7 +5,6 @@ The highest honest 3CRV yield right now is 3.08% on curve-dex (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.09% | $11.9M |
-<<<<<<< HEAD
 | [curve-dex →](https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token) | Ethereum | 2.37% | $1.07M |
 | [curve-dex →](https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token) | Ethereum | 0.01% | $657.1K |
 | [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.03% | $580.9K |
@@ -13,15 +12,6 @@ The highest honest 3CRV yield right now is 3.08% on curve-dex (Ethereum), among 
 | [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 3.08% | $410.2K |
 | [convex-finance →](https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token) | Ethereum | 0.03% | $388.6K |
 | [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token) | Ethereum | 17.02% | $254.3K |
-=======
-| [curve-dex →](https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token) | Ethereum | 2.75% | $1.07M |
-| [curve-dex →](https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token) | Ethereum | 0.01% | $657.1K |
-| [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.03% | $580.8K |
-| [convex-finance →](https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token) | Ethereum | 0.01% | $571.9K |
-| [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 3.08% | $410.2K |
-| [convex-finance →](https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token) | Ethereum | 0.03% | $388.6K |
-| [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token) | Ethereum | 17.07% | $254.3K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

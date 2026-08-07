@@ -4,13 +4,8 @@ The highest honest WBETH yield right now is 2.35% on binance-staked-eth (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [binance-staked-eth →](https://www.defi.garden/?pool=80b8bf92-b953-4c20-98ea-c9653ef2bb98&src=seo_token) | Ethereum | 2.35% | $6.67B |
 | [binance-staked-eth →](https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a&src=seo_token) | BSC | 2.35% | $400.69M |
-=======
-| [binance-staked-eth →](https://www.defi.garden/?pool=80b8bf92-b953-4c20-98ea-c9653ef2bb98&src=seo_token) | Ethereum | 2.35% | $6.64B |
-| [binance-staked-eth →](https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a&src=seo_token) | BSC | 2.35% | $399.13M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,11 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WBETH pools clear the TVL floor?
 
-<<<<<<< HEAD
 4 live pools clear this page's $100K TVL floor, $7.09B in total.
-=======
-4 live pools clear this page's $100K TVL floor, $7.06B in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

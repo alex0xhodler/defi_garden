@@ -1,18 +1,10 @@
 # ME DeFi Yields
 
-<<<<<<< HEAD
 The highest honest ME yield right now is 2.15% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=bd24f6b5-4037-4c64-b4d8-c7ff12a620fe&src=seo_token) | Solana | 2.15% | $478.7K |
-=======
-The highest honest ME yield right now is 1.68% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=bd24f6b5-4037-4c64-b4d8-c7ff12a620fe&src=seo_token) | Solana | 1.68% | $478K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ME yield today?
 
-<<<<<<< HEAD
 2.15% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ME pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $478.7K in total.
-=======
-1.68% APY on raydium-amm (Solana), based on live DefiLlama data.
-
-### How many ME pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $478K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

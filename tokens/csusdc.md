@@ -4,13 +4,8 @@ The highest honest CSUSDC yield right now is 8.01% on balancer-v3 (Monad), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 7.25% | $1.61M |
 | [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 3.72% | $1.28M |
-=======
-| [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 7.26% | $1.61M |
-| [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 3.68% | $1.28M |
->>>>>>> origin/main
 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 8.01% | $363.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

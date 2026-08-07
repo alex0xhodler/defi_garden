@@ -1,6 +1,5 @@
 # HBAR DeFi Yields
 
-<<<<<<< HEAD
 The highest honest HBAR yield right now is 12.19% on saucerswap-v1 (Hedera), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -9,16 +8,6 @@ The highest honest HBAR yield right now is 12.19% on saucerswap-v1 (Hedera), amo
 | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 6.06% | $488.4K |
 | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.30% | $257.3K |
 | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 12.19% | $142.6K |
-=======
-The highest honest HBAR yield right now is 11.52% on saucerswap-v1 (Hedera), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 6.53% | $1.01M |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_token) | Hedera | 6.00% | $486K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.30% | $256K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 11.52% | $142.1K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -26,19 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HBAR yield today?
 
-<<<<<<< HEAD
 12.19% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
 
 ### How many HBAR pools clear the TVL floor?
 
 5 live pools clear this page's $100K TVL floor, $2.14M in total.
-=======
-11.52% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
-
-### How many HBAR pools clear the TVL floor?
-
-5 live pools clear this page's $100K TVL floor, $2.13M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

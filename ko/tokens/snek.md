@@ -1,20 +1,11 @@
 # SNEK 디파이 수익률
 
-<<<<<<< HEAD
 현재 SNEK의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 59.66%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 41.38% | $715.5K |
 | [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 59.66% | $286.6K |
-=======
-현재 SNEK의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 59.57%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 41.82% | $715.5K |
-| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 59.57% | $289.5K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -22,11 +13,7 @@
 
 ### 오늘 SNEK의 가장 높은 수익률은 얼마인가요?
 
-<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 59.66%예요.
-=======
-DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 59.57%예요.
->>>>>>> origin/main
 
 ### SNEK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

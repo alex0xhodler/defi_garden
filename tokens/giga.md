@@ -1,18 +1,10 @@
 # GIGA DeFi Yields
 
-<<<<<<< HEAD
 The highest honest GIGA yield right now is 6.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193&src=seo_token) | Solana | 6.53% | $1.23M |
-=======
-The highest honest GIGA yield right now is 6.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193&src=seo_token) | Solana | 6.99% | $1.23M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GIGA yield today?
 
-<<<<<<< HEAD
 6.53% APY on raydium-amm (Solana), based on live DefiLlama data.
-=======
-6.99% APY on raydium-amm (Solana), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many GIGA pools clear the TVL floor?
 

@@ -4,13 +4,8 @@ The highest honest HSOL yield right now is 5.72% on helius-staked-sol (Solana), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [helius-staked-sol →](https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301&src=seo_token) | Solana | 5.72% | $65.63M |
 | [project-0 →](https://www.defi.garden/?pool=0987e700-a43d-4c5b-b226-2d61f4390f0b&src=seo_token) | Solana | 0.01% | $202.6K |
-=======
-| [helius-staked-sol →](https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301&src=seo_token) | Solana | 5.72% | $65.47M |
-| [project-0 →](https://www.defi.garden/?pool=0987e700-a43d-4c5b-b226-2d61f4390f0b&src=seo_token) | Solana | 0.01% | $202.1K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,11 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HSOL pools clear the TVL floor?
 
-<<<<<<< HEAD
 3 live pools clear this page's $100K TVL floor, $85.68M in total.
-=======
-3 live pools clear this page's $100K TVL floor, $85.45M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

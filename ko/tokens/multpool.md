@@ -4,11 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<<< HEAD:ko/tokens/multpool.md
 | [uniswap-v3 →](https://www.defi.garden/?pool=6c2b9d1a-67a0-4d64-bb8c-5ae71463f248&src=seo_token) | Polygon | 0.02% | $351K |
-========
-| [echelon-market →](https://www.defi.garden/?pool=121b78c0-a005-4583-9fa1-e6aa72b5a68e&src=seo_token) | Aptos | 5.04% | $100.1K |
->>>>>>>> origin/main:ko/tokens/sthapt.md
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,11 +16,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 0.02%예�
 
 ### MULTPOOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<<< HEAD:ko/tokens/multpool.md
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $351K예요.
-========
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $100.1K예요.
->>>>>>>> origin/main:ko/tokens/sthapt.md
 
 ### 이 수익률은 안전한가요?
 

@@ -4,11 +4,7 @@ The highest honest USUSDS yield right now is 2.62% on usual-usd0 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [usual-usd0 →](https://www.defi.garden/?pool=c90a82e7-0988-4bee-8d31-1b5fea9b99d9&src=seo_token) | Ethereum | 2.62% | $229.8K |
-=======
-| [usual-usd0 →](https://www.defi.garden/?pool=c90a82e7-0988-4bee-8d31-1b5fea9b99d9&src=seo_token) | Ethereum | 2.55% | $229.8K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -1,18 +1,10 @@
 # XWBTC DeFi Yields
 
-<<<<<<< HEAD
 The highest honest XWBTC yield right now is 4.07% on ekubo (Starknet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 4.07% | $608.3K |
-=======
-The highest honest XWBTC yield right now is 4.10% on ekubo (Starknet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 4.10% | $607.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XWBTC yield today?
 
-<<<<<<< HEAD
 4.07% APY on ekubo (Starknet), based on live DefiLlama data.
-=======
-4.10% APY on ekubo (Starknet), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many XWBTC pools clear the TVL floor?
 

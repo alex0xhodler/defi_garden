@@ -4,11 +4,7 @@ The highest honest PALM yield right now is 1.43% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v2 →](https://www.defi.garden/?pool=b496c59b-a596-4073-b0f6-e87bfaa76a61&src=seo_token) | Ethereum | 1.43% | $262.8K |
-=======
-| [uniswap-v2 →](https://www.defi.garden/?pool=b496c59b-a596-4073-b0f6-e87bfaa76a61&src=seo_token) | Ethereum | 1.36% | $262.1K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PALM pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $262.8K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $262.1K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -4,13 +4,8 @@ The highest honest ALD yield right now is 0.04% on convex-finance (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.03% | $455.8K |
 | [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.04% | $455.6K |
-=======
-| [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.03% | $455.3K |
-| [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.04% | $455.1K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,11 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ALD pools clear the TVL floor?
 
-<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $911.4K in total.
-=======
-2 live pools clear this page's $100K TVL floor, $910.4K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

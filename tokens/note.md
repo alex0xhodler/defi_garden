@@ -4,11 +4,7 @@ The highest honest NOTE yield right now is 0.08% on balancer-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [balancer-v2 →](https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token) | Ethereum | 0.08% | $147.2K |
-=======
-| [balancer-v2 →](https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token) | Ethereum | 0.08% | $146.9K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NOTE pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $147.2K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $146.9K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

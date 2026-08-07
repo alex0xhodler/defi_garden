@@ -1,20 +1,11 @@
 # SHIT DeFi Yields
 
-<<<<<<< HEAD
 The highest honest SHIT yield right now is 5.54% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f&src=seo_token) | Ethereum | 5.54% | $271.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895&src=seo_token) | Solana | 2.40% | $240.3K |
-=======
-The highest honest SHIT yield right now is 2.34% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f&src=seo_token) | Ethereum | 2.77% | $269.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895&src=seo_token) | Solana | 2.34% | $242.2K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,19 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHIT yield today?
 
-<<<<<<< HEAD
 5.54% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SHIT pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $663.9K in total.
-=======
-2.34% APY on raydium-amm (Solana), based on live DefiLlama data.
-
-### How many SHIT pools clear the TVL floor?
-
-3 live pools clear this page's $100K TVL floor, $663.2K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

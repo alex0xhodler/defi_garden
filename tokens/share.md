@@ -16,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHARE pools clear the TVL floor?
 
-<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $807.2K in total.
-=======
-2 live pools clear this page's $100K TVL floor, $805.9K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

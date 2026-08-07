@@ -4,13 +4,8 @@ The highest honest SPYB yield right now is 125.12% on native-credit-pool (BSC), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=67d03437-a777-5060-a10b-3da513931636&src=seo_token) | BSC | 0.75% | $169.8K |
 | [native-credit-pool →](https://www.defi.garden/?pool=bd15ae67-bae0-577d-a08f-049c02411632&src=seo_token) | BSC | 125.12% | $105.5K |
-=======
-| [uniswap-v3 →](https://www.defi.garden/?pool=67d03437-a777-5060-a10b-3da513931636&src=seo_token) | BSC | 1.66% | $169.7K |
-| [native-credit-pool →](https://www.defi.garden/?pool=bd15ae67-bae0-577d-a08f-049c02411632&src=seo_token) | BSC | 125.12% | $105.7K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,11 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SPYB pools clear the TVL floor?
 
-<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $275.2K in total.
-=======
-2 live pools clear this page's $100K TVL floor, $275.4K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,18 +1,10 @@
 # UADA DeFi Yields
 
-<<<<<<< HEAD
 The highest honest UADA yield right now is 71.45% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=5a578343-99c5-42a1-a95d-778ddd86d826&src=seo_token) | Base | 71.45% | $186.2K |
-=======
-The highest honest UADA yield right now is 70.31% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a578343-99c5-42a1-a95d-778ddd86d826&src=seo_token) | Base | 70.31% | $184.6K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UADA yield today?
 
-<<<<<<< HEAD
 71.45% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many UADA pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $186.2K in total.
-=======
-70.31% APY on uniswap-v3 (Base), based on live DefiLlama data.
-
-### How many UADA pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $184.6K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

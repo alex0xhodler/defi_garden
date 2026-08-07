@@ -1,6 +1,5 @@
 # SGHO 디파이 수익률
 
-<<<<<<< HEAD
 현재 SGHO의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 21.78%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
@@ -8,15 +7,6 @@
 | [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.25% | $142.66M |
 | [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 20.46% | $254.1K |
 | [stake-dao →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 21.78% | $177.2K |
-=======
-현재 SGHO의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 22.62%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.25% | $142.61M |
-| [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 21.26% | $237.6K |
-| [stake-dao →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 22.62% | $177.2K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -24,19 +14,11 @@
 
 ### 오늘 SGHO의 가장 높은 수익률은 얼마인가요?
 
-<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 21.78%예요.
 
 ### SGHO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $181.39M예요.
-=======
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 22.62%예요.
-
-### SGHO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
-
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $181.33M예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

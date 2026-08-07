@@ -1,20 +1,11 @@
 # PEAR DeFi Yields
 
-<<<<<<< HEAD
 The highest honest PEAR yield right now is 14.08% on camelot-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [camelot-v3 →](https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token) | Arbitrum | 14.08% | $707.1K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token) | Arbitrum | 5.81% | $160.5K |
-=======
-The highest honest PEAR yield right now is 13.44% on camelot-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token) | Arbitrum | 13.44% | $705.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token) | Arbitrum | 5.85% | $160K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,19 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEAR yield today?
 
-<<<<<<< HEAD
 14.08% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many PEAR pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $867.6K in total.
-=======
-13.44% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
-
-### How many PEAR pools clear the TVL floor?
-
-2 live pools clear this page's $100K TVL floor, $865.3K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

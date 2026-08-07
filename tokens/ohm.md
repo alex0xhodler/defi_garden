@@ -1,6 +1,5 @@
 # OHM DeFi Yields
 
-<<<<<<< HEAD
 The highest honest OHM yield right now is 0.98% on uniswap-v3 (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -11,19 +10,6 @@ The highest honest OHM yield right now is 0.98% on uniswap-v3 (Ethereum), among 
 | [uniswap-v3 →](https://www.defi.garden/?pool=abe08b87-f138-4d3e-a96a-98294ddad7a1&src=seo_token) | Ethereum | 0.10% | $398.8K |
 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.24% | $168.8K |
 | [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.27% | $158.8K |
-=======
-The highest honest OHM yield right now is 1.03% on uniswap-v3 (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.64% | $10.58M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 1.03% | $4.11M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token) | Base | 0.07% | $899.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=abe08b87-f138-4d3e-a96a-98294ddad7a1&src=seo_token) | Ethereum | 0.44% | $398.1K |
-| [camelot-v2 →](https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token) | Arbitrum | 0.01% | $231.6K |
-| [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.23% | $168.8K |
-| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.26% | $158.8K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -31,19 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OHM yield today?
 
-<<<<<<< HEAD
 0.98% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many OHM pools clear the TVL floor?
 
 8 live pools clear this page's $100K TVL floor, $16.68M in total.
-=======
-1.03% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
-
-### How many OHM pools clear the TVL floor?
-
-8 live pools clear this page's $100K TVL floor, $16.66M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

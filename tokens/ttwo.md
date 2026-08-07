@@ -1,18 +1,10 @@
 # TTWO DeFi Yields
 
-<<<<<<< HEAD
 The highest honest TTWO yield right now is 106.33% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=de93fa5c-d8c9-56cc-bb1f-536bc4a899b4&src=seo_token) | Solana | 106.33% | $199.3K |
-=======
-The highest honest TTWO yield right now is 123.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=de93fa5c-d8c9-56cc-bb1f-536bc4a899b4&src=seo_token) | Solana | 123.69% | $199.4K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TTWO yield today?
 
-<<<<<<< HEAD
 106.33% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TTWO pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $199.3K in total.
-=======
-123.69% APY on raydium-amm (Solana), based on live DefiLlama data.
-
-### How many TTWO pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $199.4K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

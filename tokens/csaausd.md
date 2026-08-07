@@ -1,18 +1,10 @@
 # CSAAUSD DeFi Yields
 
-<<<<<<< HEAD
 The highest honest CSAAUSD yield right now is 6.75% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=a9fac1a0-f898-47b5-b7d3-d4d07c5f8a89&src=seo_token) | Monad | 6.75% | $1.76M |
-=======
-The highest honest CSAAUSD yield right now is 6.76% on morpho-blue (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a9fac1a0-f898-47b5-b7d3-d4d07c5f8a89&src=seo_token) | Monad | 6.76% | $1.76M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSAAUSD yield today?
 
-<<<<<<< HEAD
 6.75% APY on morpho-blue (Monad), based on live DefiLlama data.
-=======
-6.76% APY on morpho-blue (Monad), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many CSAAUSD pools clear the TVL floor?
 
@@ -36,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
+- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 

@@ -4,11 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.39% | $9.6M |
-=======
-| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.44% | $9.6M |
->>>>>>> origin/main
 | [pendle →](https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token) | Ethereum | 1.58% | $7.22M |
 | [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 5.86% | $7.22M |
 | [pendle →](https://www.defi.garden/?pool=0f93ea50-c40c-5b6a-93fd-41cc4b5cacbe&src=seo_token) | Monad | 4.21% | $1.79M |
@@ -27,11 +23,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 8.11%예요.
 
 ### USDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $50.32M예요.
-=======
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $50.33M예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

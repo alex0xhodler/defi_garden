@@ -1,14 +1,10 @@
 # SHKOOBY DeFi Yields
 
-The highest honest SHKOOBY yield right now is 0.53% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHKOOBY yield right now is 0.52% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [uniswap-v2 →](https://www.defi.garden/?pool=c1265286-1b7d-4b31-810f-0f009168f7c2&src=seo_token) | Ethereum | 0.52% | $345.1K |
-=======
-| [uniswap-v2 →](https://www.defi.garden/?pool=c1265286-1b7d-4b31-810f-0f009168f7c2&src=seo_token) | Ethereum | 0.53% | $344.5K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,15 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHKOOBY yield today?
 
-0.53% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.52% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SHKOOBY pools clear the TVL floor?
 
-<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $345.1K in total.
-=======
-1 live pool clear this page's $100K TVL floor, $344.5K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,18 +1,10 @@
 # WAETHWETH DeFi Yields
 
-<<<<<<< HEAD
 The highest honest WAETHWETH yield right now is 10.38% on balancer-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 10.38% | $4.63M |
-=======
-The highest honest WAETHWETH yield right now is 10.35% on balancer-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 10.35% | $4.62M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,15 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAETHWETH yield today?
 
-<<<<<<< HEAD
 10.38% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
-=======
-10.35% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many WAETHWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.11M in total.
+2 live pools clear this page's $100K TVL floor, $5.13M in total.
 
 ### Are these rates safe?
 

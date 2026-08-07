@@ -1,20 +1,11 @@
 # NPC DeFi Yields
 
-<<<<<<< HEAD
 The highest honest NPC yield right now is 5.22% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token) | Ethereum | 5.22% | $2.18M |
 | [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 2.84% | $370.1K |
-=======
-The highest honest NPC yield right now is 4.59% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token) | Ethereum | 4.59% | $2.18M |
-| [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 1.59% | $369.6K |
->>>>>>> origin/main
 | [uniswap-v2 →](https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token) | Base | 1.86% | $353.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,19 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NPC yield today?
 
-<<<<<<< HEAD
 5.22% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NPC pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $2.91M in total.
-=======
-4.59% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
-
-### How many NPC pools clear the TVL floor?
-
-3 live pools clear this page's $100K TVL floor, $2.9M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

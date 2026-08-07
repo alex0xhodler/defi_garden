@@ -1,20 +1,11 @@
 # XAUM DeFi Yields
 
-<<<<<<< HEAD
 The highest honest XAUM yield right now is 0.12% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774&src=seo_token) | Sui | 0.01% | $824.5K |
 | [bluefin-spot →](https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3&src=seo_token) | Sui | 10.22% | $415.5K |
-=======
-The highest honest XAUM yield right now is 10.62% on bluefin-spot (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774&src=seo_token) | Sui | 0.01% | $822.9K |
-| [bluefin-spot →](https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3&src=seo_token) | Sui | 10.62% | $411.2K |
->>>>>>> origin/main
 | [raydium-amm →](https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token) | Solana | 0.12% | $382.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,11 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAUM yield today?
 
-<<<<<<< HEAD
 0.12% APY on raydium-amm (Solana), based on live DefiLlama data.
-=======
-10.62% APY on bluefin-spot (Sui), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many XAUM pools clear the TVL floor?
 

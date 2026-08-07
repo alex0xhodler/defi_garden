@@ -1,20 +1,11 @@
 # SUSD DeFi Yields
 
-<<<<<<< HEAD
 The highest honest SUSD yield right now is 11.54% on velodrome-v2 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [velodrome-v2 →](https://www.defi.garden/?pool=9d4a4ef4-dfb1-4c89-8daf-66aa70ca8586&src=seo_token) | OP Mainnet | 11.54% | $3.24M |
 | [curve-dex →](https://www.defi.garden/?pool=5eb84bc0-3c50-473c-adab-2ce33a3682e5&src=seo_token) | Ethereum | 0.12% | $213.3K |
-=======
-The highest honest SUSD yield right now is 11.52% on velodrome-v2 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=9d4a4ef4-dfb1-4c89-8daf-66aa70ca8586&src=seo_token) | OP Mainnet | 11.52% | $3.24M |
-| [curve-dex →](https://www.defi.garden/?pool=5eb84bc0-3c50-473c-adab-2ce33a3682e5&src=seo_token) | Ethereum | 0.12% | $213.2K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,11 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSD yield today?
 
-<<<<<<< HEAD
 11.54% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
-=======
-11.52% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
->>>>>>> origin/main
 
 ### How many SUSD pools clear the TVL floor?
 

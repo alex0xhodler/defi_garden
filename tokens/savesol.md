@@ -4,11 +4,7 @@ The highest honest SAVESOL yield right now is 4.68% on save-sol (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [save-sol →](https://www.defi.garden/?pool=1a2f864d-dffb-4b58-bfe4-e136e4ad0547&src=seo_token) | Solana | 4.68% | $3.89M |
-=======
-| [save-sol →](https://www.defi.garden/?pool=1a2f864d-dffb-4b58-bfe4-e136e4ad0547&src=seo_token) | Solana | 4.68% | $3.87M |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,11 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SAVESOL pools clear the TVL floor?
 
-<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $7.46M in total.
-=======
-2 live pools clear this page's $100K TVL floor, $7.43M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

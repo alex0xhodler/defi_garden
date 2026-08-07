@@ -1,18 +1,10 @@
 # XROCK DeFi Yields
 
-<<<<<<< HEAD
 The highest honest XROCK yield right now is 0.93% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [dedust →](https://www.defi.garden/?pool=35447e49-37dd-4e21-b8cc-b237a268b485&src=seo_token) | TON | 0.93% | $120.3K |
-=======
-The highest honest XROCK yield right now is 0.90% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=35447e49-37dd-4e21-b8cc-b237a268b485&src=seo_token) | TON | 0.90% | $119.6K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,19 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XROCK yield today?
 
-<<<<<<< HEAD
 0.93% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many XROCK pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $120.3K in total.
-=======
-0.90% APY on dedust (TON), based on live DefiLlama data.
-
-### How many XROCK pools clear the TVL floor?
-
-1 live pool clear this page's $100K TVL floor, $119.6K in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

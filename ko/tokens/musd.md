@@ -4,15 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token) | Monad | 5.99% | $1.45M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token) | Base | 5.15% | $931.1K |
 | [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token) | Ethereum | 0.65% | $878.9K |
-=======
-| [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token) | Monad | 5.99% | $1.46M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token) | Base | 5.11% | $929.6K |
-| [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token) | Ethereum | 0.65% | $879K |
->>>>>>> origin/main
 | [curve-dex →](https://www.defi.garden/?pool=982fdfd1-caa6-4752-8a2c-c19d13b6cb2c&src=seo_token) | Ethereum | 0.01% | $657.1K |
 | [convex-finance →](https://www.defi.garden/?pool=ac7e57a2-9755-4d17-8f1d-6d898ee88257&src=seo_token) | Ethereum | 0.01% | $571.9K |
 | [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 1.00% | $330.3K |
@@ -27,11 +21,7 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 5.99%예요.
 
 ### MUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $8.59M예요.
-=======
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $8.6M예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

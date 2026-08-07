@@ -1,18 +1,10 @@
 # RIBBIT 디파이 수익률
 
-<<<<<<< HEAD:ko/tokens/ribbit.md
 현재 RIBBIT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 0.09%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=69259ee6-5553-41b3-8ddd-c1bca2e533ae&src=seo_token) | Ethereum | 0.09% | $111.7K |
-=======
-현재 FORTH의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 14.11%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e8c1200b-f298-46f2-89c2-8fed5c40f377&src=seo_token) | Ethereum | 14.11% | $101K |
->>>>>>> origin/main:ko/tokens/forth.md
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,19 +12,11 @@
 
 ### 오늘 RIBBIT의 가장 높은 수익률은 얼마인가요?
 
-<<<<<<< HEAD:ko/tokens/ribbit.md
 DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.09%예요.
-=======
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 14.11%예요.
->>>>>>> origin/main:ko/tokens/forth.md
 
 ### RIBBIT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-<<<<<<< HEAD:ko/tokens/ribbit.md
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $111.7K예요.
-=======
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $101K예요.
->>>>>>> origin/main:ko/tokens/forth.md
 
 ### 이 수익률은 안전한가요?
 

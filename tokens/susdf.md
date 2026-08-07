@@ -4,11 +4,7 @@ The highest honest SUSDF yield right now is 5.44% on pendle (Ethereum), among 3 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-<<<<<<< HEAD
 | [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 4.31% | $67.67M |
-=======
-| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 4.35% | $67.59M |
->>>>>>> origin/main
 | [pendle →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e&src=seo_token) | Ethereum | 5.44% | $248.3K |
 | [pendle →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c&src=seo_token) | Ethereum | 4.16% | $248.3K |
 
@@ -22,11 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSDF pools clear the TVL floor?
 
-<<<<<<< HEAD
 3 live pools clear this page's $100K TVL floor, $68.16M in total.
-=======
-3 live pools clear this page's $100K TVL floor, $68.08M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

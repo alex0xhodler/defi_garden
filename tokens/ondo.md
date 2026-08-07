@@ -1,6 +1,5 @@
 # ONDO DeFi Yields
 
-<<<<<<< HEAD
 The highest honest ONDO yield right now is 23.41% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,15 +7,6 @@ The highest honest ONDO yield right now is 23.41% on uniswap-v3 (Ethereum), amon
 | [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 23.41% | $700.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token) | Ethereum | 16.40% | $235.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token) | Ethereum | 27.58% | $235.1K |
-=======
-The highest honest ONDO yield right now is 25.24% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
-
-| Protocol | Chain | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=67958842-74c0-4d3e-b113-5e6cf83893b6&src=seo_token) | Ethereum | 20.86% | $701.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f7a7c55d-5fea-4cde-933d-e181e0632c3e&src=seo_token) | Ethereum | 12.90% | $237.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6d3edc1-aaa5-4ab0-baf8-63b553a8139e&src=seo_token) | Ethereum | 25.24% | $236.1K |
->>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,19 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ONDO yield today?
 
-<<<<<<< HEAD
 23.41% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ONDO pools clear the TVL floor?
 
 4 live pools clear this page's $100K TVL floor, $1.29M in total.
-=======
-25.24% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
-
-### How many ONDO pools clear the TVL floor?
-
-4 live pools clear this page's $100K TVL floor, $1.3M in total.
->>>>>>> origin/main
 
 ### Are these rates safe?
 

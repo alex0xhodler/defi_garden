@@ -1,20 +1,11 @@
 # COCORO 디파이 수익률
 
-<<<<<<< HEAD
 현재 COCORO의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 2.58%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=97fc03e7-ae76-47af-8b34-8a2b129bc29c&src=seo_token) | Base | 0.48% | $721.9K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=0f2ba4e2-4964-48b0-8fb8-1fa73b965649&src=seo_token) | Ethereum | 2.58% | $124.1K |
-=======
-현재 COCORO의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 2.28%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
-
-| 프로토콜 | 체인 | APY | TVL |
-|---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=97fc03e7-ae76-47af-8b34-8a2b129bc29c&src=seo_token) | Base | 0.60% | $733.3K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=0f2ba4e2-4964-48b0-8fb8-1fa73b965649&src=seo_token) | Ethereum | 2.28% | $123.6K |
->>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -22,19 +13,11 @@
 
 ### 오늘 COCORO의 가장 높은 수익률은 얼마인가요?
 
-<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 2.58%예요.
 
 ### COCORO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $846.1K예요.
-=======
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 2.28%예요.
-
-### COCORO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
-
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $856.9K예요.
->>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 
