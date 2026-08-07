@@ -1,11 +1,11 @@
 # MOCA 디파이 수익률
 
-현재 MOCA의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 73.97%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MOCA의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 74.39%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token) | Ethereum | 4.69% | $352.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 73.97% | $162.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token) | Ethereum | 4.70% | $352.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 74.39% | $162K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 MOCA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 73.97%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 74.39%예요.
 
 ### MOCA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $514.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $514.1K예요.
 
 ### 이 수익률은 안전한가요?
 

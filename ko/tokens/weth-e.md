@@ -1,16 +1,16 @@
 # WETH.E 디파이 수익률
 
-현재 WETH.E의 가장 높은 정직한 수익률은 Avalanche의 blackhole-clmm에서 377.47%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WETH.E의 가장 높은 정직한 수익률은 Avalanche의 blackhole-clmm에서 376.05%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.34% | $5.29M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 29.11% | $4.08M |
-| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 1.18% | $1.87M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 10.71% | $719.5K |
-| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 5.69% | $234.3K |
-| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 0.66% | $152.7K |
-| [blackhole-clmm →](https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token) | Avalanche | 377.47% | $117.2K |
+| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.34% | $5.3M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 29.93% | $4.09M |
+| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 1.19% | $1.86M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 6.32% | $720.7K |
+| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 5.69% | $234.8K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 0.54% | $153.1K |
+| [blackhole-clmm →](https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token) | Avalanche | 376.05% | $117.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,11 +18,11 @@
 
 ### 오늘 WETH.E의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-clmm에서 APY 377.47%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-clmm에서 APY 376.05%예요.
 
 ### WETH.E 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $12.46M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $12.48M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-clmm에서 APY 377.
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [VBILL](https://www.defi.garden/ko/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
+- [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
 
 ## 이용 가능한 체인
 

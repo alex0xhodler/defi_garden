@@ -4,7 +4,7 @@ The highest honest CSWAP yield right now is 2.19% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f38761d4-3bb9-4af0-ace6-160988c47b3e&src=seo_token) | Ethereum | 2.19% | $221.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f38761d4-3bb9-4af0-ace6-160988c47b3e&src=seo_token) | Ethereum | 2.19% | $221.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSWAP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $221.1K in total.
+1 live pool clear this page's $100K TVL floor, $221.4K in total.
 
 ### Are these rates safe?
 

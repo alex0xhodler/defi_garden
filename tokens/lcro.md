@@ -4,7 +4,7 @@ The highest honest LCRO yield right now is 0.01% on tectonic (Cronos), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token) | Cronos | 0.01% | $1.92M |
+| [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token) | Cronos | 0.01% | $1.94M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LCRO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.74M in total.
+2 live pools clear this page's $100K TVL floor, $2.76M in total.
 
 ### Are these rates safe?
 

@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 benqi-lending에서 APY 0.01%
 
 ### WBTC.E 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.78M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.79M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -29,7 +29,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 benqi-lending에서 APY 0.01%
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [VBILL](https://www.defi.garden/ko/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
+- [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
 
 ## 이용 가능한 체인
 

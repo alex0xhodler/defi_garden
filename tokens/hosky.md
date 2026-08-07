@@ -4,7 +4,7 @@ The highest honest HOSKY yield right now is 13.40% on minswap-dex (Cardano), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=823c81ea-67bd-4c14-8c1b-98c6e95b898a&src=seo_token) | Cardano | 13.40% | $217.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=823c81ea-67bd-4c14-8c1b-98c6e95b898a&src=seo_token) | Cardano | 13.40% | $216.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HOSKY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $217.5K in total.
+1 live pool clear this page's $100K TVL floor, $216.9K in total.
 
 ### Are these rates safe?
 

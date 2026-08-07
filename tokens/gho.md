@@ -4,10 +4,10 @@ The highest honest GHO yield right now is 5.99% on aave-v3 (Monad), among 32 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.42% | $28.34M |
+| [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.42% | $28.35M |
 | [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 1.66% | $19.06M |
 | [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.41% | $17.82M |
-| [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 5.35% | $8.31M |
+| [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 5.35% | $8.32M |
 | [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 5.99% | $5.48M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e3f5cd78-4af7-5a1c-abb4-be2a38dbca28&src=seo_token) | Monad | 0.19% | $3.99M |
 | [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 5.15% | $3.43M |
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GHO pools clear the TVL floor?
 
-32 live pools clear this page's $100K TVL floor, $179.16M in total.
+32 live pools clear this page's $100K TVL floor, $179.21M in total.
 
 ### Are these rates safe?
 

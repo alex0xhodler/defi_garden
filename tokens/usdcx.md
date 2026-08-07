@@ -5,8 +5,8 @@ The highest honest USDCX yield right now is 92.84% on minswap-dex (Cardano), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 11.35% | $1.13M |
-| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 92.84% | $227.1K |
-| [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 9.40% | $194.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 92.84% | $226.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 9.40% | $193.9K |
 | [liqwid →](https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token) | Cardano | 5.29% | $135.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

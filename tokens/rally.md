@@ -1,10 +1,10 @@
 # RALLY DeFi Yields
 
-The highest honest RALLY yield right now is 117.52% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RALLY yield right now is 104.53% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token) | Ethereum | 117.52% | $113.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token) | Ethereum | 104.53% | $113.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RALLY yield today?
 
-117.52% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+104.53% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many RALLY pools clear the TVL floor?
 

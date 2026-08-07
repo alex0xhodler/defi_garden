@@ -1,12 +1,12 @@
 # XLM DeFi Yields
 
-The highest honest XLM yield right now is 0.47% on blend-pools-v2 (Stellar), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XLM yield right now is 2.29% on vvs-standard (Cronos), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $108.68M |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.47% | $617.4K |
-| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 2.49% | $104.6K |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $108.92M |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.47% | $618.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 2.29% | $105.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XLM yield today?
 
-0.47% APY on blend-pools-v2 (Stellar), based on live DefiLlama data.
+2.29% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many XLM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $109.4M in total.
+3 live pools clear this page's $100K TVL floor, $109.64M in total.
 
 ### Are these rates safe?
 

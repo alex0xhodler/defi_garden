@@ -1,12 +1,12 @@
 # CVCRVUSD 디파이 수익률
 
-현재 CVCRVUSD의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 14.39%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CVCRVUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 14.40%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token) | Ethereum | 7.23% | $649.7K |
-| [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token) | Ethereum | 14.38% | $378.8K |
-| [stake-dao →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token) | Ethereum | 14.39% | $164.3K |
+| [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token) | Ethereum | 7.30% | $649.7K |
+| [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token) | Ethereum | 14.40% | $378.8K |
+| [stake-dao →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token) | Ethereum | 14.35% | $164.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 CVCRVUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 14.39%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 14.40%예요.
 
 ### CVCRVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

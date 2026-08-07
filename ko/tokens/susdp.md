@@ -29,7 +29,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 parallel-protocol-v3에서 AP
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [VBILL](https://www.defi.garden/ko/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
+- [BTC.B](https://www.defi.garden/ko/tokens/btc-b)
 
 ## 이용 가능한 체인
 

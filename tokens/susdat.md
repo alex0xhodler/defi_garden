@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSDAT pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $116.75M in total.
+17 live pools clear this page's $100K TVL floor, $116.73M in total.
 
 ### Are these rates safe?
 

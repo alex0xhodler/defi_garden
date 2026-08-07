@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [lista-lending →](https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token) | BSC | 0.99% | $28.49M |
-| [venus-core-pool →](https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token) | BSC | 1.17% | $651.6K |
+| [venus-core-pool →](https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token) | BSC | 1.17% | $651.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 1.17%예�
 ## 관련 토큰
 
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)

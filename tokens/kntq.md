@@ -1,10 +1,10 @@
 # KNTQ DeFi Yields
 
-The highest honest KNTQ yield right now is 44.95% on nest-cl (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KNTQ yield right now is 37.46% on nest-cl (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-cl →](https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token) | Hyperliquid L1 | 44.95% | $238.3K |
+| [nest-cl →](https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token) | Hyperliquid L1 | 37.46% | $239.6K |
 | [project-x →](https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token) | Hyperliquid L1 | 0.21% | $190.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KNTQ yield today?
 
-44.95% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+37.46% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many KNTQ pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $588K in total.
+3 live pools clear this page's $100K TVL floor, $589.3K in total.
 
 ### Are these rates safe?
 

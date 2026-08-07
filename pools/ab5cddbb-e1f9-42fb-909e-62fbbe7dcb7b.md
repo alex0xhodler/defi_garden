@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 37.29%
+**30d Mean APY:** 37.31%
 
 **Exposure:** multi
 

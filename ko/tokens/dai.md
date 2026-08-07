@@ -7,9 +7,9 @@
 | [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.17% | $112.64M |
 | [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.29% | $11.46M |
 | [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 3.06% | $9.45M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 2.96% | $8.05M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 0.88% | $8.05M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 2.18% | $3.13M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 2.98% | $8.06M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 0.90% | $8.05M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 2.22% | $3.13M |
 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b&src=seo_token) | Polygon | 0.55% | $2.51M |
 | [aave-v3 →](https://www.defi.garden/?pool=a8e3d841-2788-4647-ad54-5a36fac451b1&src=seo_token) | Arbitrum | 1.57% | $1.61M |
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 aave-v3에서 APY 3.29%예요.
 
 ### DAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 63개이며, 합산 TVL은 $352.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 63개이며, 합산 TVL은 $352.35M예요.
 
 ### 이 수익률은 안전한가요?
 

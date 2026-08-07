@@ -4,7 +4,7 @@ The highest honest WNVDAX yield right now is 0.89% on fluxion-network (Mantle), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b3ca8d99-2013-4ecb-b26b-06480ea25a08&src=seo_token) | Ethereum | 0.57% | $335.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b3ca8d99-2013-4ecb-b26b-06480ea25a08&src=seo_token) | Ethereum | 0.52% | $336.1K |
 | [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.89% | $111.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WNVDAX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $447.2K in total.
+2 live pools clear this page's $100K TVL floor, $448K in total.
 
 ### Are these rates safe?
 

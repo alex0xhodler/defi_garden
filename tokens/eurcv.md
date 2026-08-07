@@ -5,7 +5,7 @@ The highest honest EURCV yield right now is 0.07% on uniswap-v3 (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.07% | $5.79M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token) | Ethereum | 0.30% | $3.4M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token) | Ethereum | 0.31% | $3.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

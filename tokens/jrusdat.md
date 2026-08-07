@@ -5,8 +5,8 @@ The highest honest JRUSDAT yield right now is 51.40% on strata-markets (Ethereum
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [strata-markets →](https://www.defi.garden/?pool=1f42963b-ff24-4563-acb7-0fd35e6ec45b&src=seo_token) | Ethereum | 51.40% | $978.4K |
-| [pendle →](https://www.defi.garden/?pool=918df5fd-7a53-4c24-ae82-d8dd891cdbc8&src=seo_token) | Ethereum | 11.97% | $244.8K |
 | [pendle →](https://www.defi.garden/?pool=afdfcd5c-ea42-475f-9839-07dd312250b4&src=seo_token) | Ethereum | 16.03% | $244.8K |
+| [pendle →](https://www.defi.garden/?pool=918df5fd-7a53-4c24-ae82-d8dd891cdbc8&src=seo_token) | Ethereum | 11.97% | $244.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
