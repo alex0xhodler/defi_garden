@@ -910,7 +910,6 @@ body {
 .app:not(.has-results) {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -919,9 +918,14 @@ body {
    `align-items: center` above would otherwise shrink-and-center the band
    to its content width like every other flex child; `align-self: stretch`
    keeps it full-bleed. `position: static` (instead of the `fixed` every
-   OTHER state uses) keeps it a normal flex child here, so the surrounding
-   `justify-content: center` naturally leaves room for it above the
-   centered search content — no extra top-padding math needed. */
+   OTHER state uses) keeps it a normal flex child here, so it stays a
+   top-of-flow item at y=0, matching the results-state header's `position:
+   fixed; top: 0` and pool-detail's band geometry (236 phase 1 verifier
+   finding 2: `justify-content: center` used to live on `.app:not(.has-
+   results)` itself, which centered the header+container as a GROUP and
+   made the header float mid-page; that centering now lives on `.container`
+   below instead, so only the search content beneath the header is
+   centered in the remaining space). */
 .app:not(.has-results) .app-header-sticky {
   position: static;
   align-self: stretch;
@@ -933,10 +937,16 @@ body {
   padding-top: var(--space-32);
 }
 
-/* Container for homepage state */
+/* Container for homepage state. `flex: 1` + `min-height: 0` (236 phase 1
+   finding 2) makes this the element that fills the space below the now
+   top-pinned `.app-header-sticky`, so its own `justify-content: center`
+   below centers just the search content in the remaining viewport height
+   instead of the old group-centering that also dragged the header down. */
 .app:not(.has-results) .container {
   max-width: 600px;
   width: 100%;
+  flex: 1;
+  min-height: 0;
   margin: 0 auto;
   padding: var(--space-16);
   display: flex;

@@ -551,7 +551,11 @@
 }
 
 @media (max-width: 760px) {
-  .landing-header,
+  /* .landing-header intentionally excluded here — 236 phase 1: it keeps
+     resolving the base rule's `width: min(var(--content-max-width),
+     calc(100% - 48px))` at every viewport (above) so its width/inset stay
+     identical to the grid/pool-detail bands, which have no narrow-viewport
+     override of their own. Do not add it back to this selector list. */
   .landing-hero,
   .landing-trust-section,
   .landing-footer,
@@ -575,7 +579,8 @@
 }
 
 @media (max-width: 440px) {
-  .landing-header,
+  /* .landing-header intentionally excluded here too — see the 760px block
+     above; same shared-token rationale. */
   .landing-hero,
   .landing-trust-section,
   .landing-footer,
