@@ -1,10 +1,10 @@
 # WADZ DeFi Yields
 
-The highest honest WADZ yield right now is 0.29% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WADZ yield right now is 13.23% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0b727494-bcbf-4922-bc83-469d6bd3c41d&src=seo_token) | Ethereum | 0.29% | $110.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0b727494-bcbf-4922-bc83-469d6bd3c41d&src=seo_token) | Ethereum | 13.23% | $111.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WADZ yield today?
 
-0.29% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+13.23% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many WADZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.9K in total.
+1 live pool clear this page's $100K TVL floor, $111.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

@@ -1,12 +1,12 @@
 # INST DeFi Yields
 
-The highest honest INST yield right now is 7.21% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INST yield right now is 5.55% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3&src=seo_token) | Ethereum | 1.13% | $2.72M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d&src=seo_token) | Polygon | 0.66% | $481.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284&src=seo_token) | Ethereum | 7.21% | $408.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3&src=seo_token) | Ethereum | 0.38% | $2.72M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6e54e59d-43ae-4d2c-8c87-1d8c7e71710d&src=seo_token) | Polygon | 0.46% | $479K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284&src=seo_token) | Ethereum | 5.55% | $407.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INST yield today?
 
-7.21% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.55% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many INST pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.61M in total.
+3 live pools clear this page's $100K TVL floor, $3.6M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

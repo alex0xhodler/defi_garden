@@ -1,10 +1,10 @@
 # NICP DeFi Yields
 
-The highest honest NICP yield right now is 8.06% on waterneuron (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NICP yield right now is 8.05% on waterneuron (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_token) | ICP | 8.06% | $4.96M |
+| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_token) | ICP | 8.05% | $4.92M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NICP yield today?
 
-8.06% APY on waterneuron (ICP), based on live DefiLlama data.
+8.05% APY on waterneuron (ICP), based on live DefiLlama data.
 
 ### How many NICP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.96M in total.
+1 live pool clear this page's $100K TVL floor, $4.92M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

@@ -1,10 +1,10 @@
 # UB DeFi Yields
 
-The highest honest UB yield right now is 712.86% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UB yield right now is 514.55% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=70d14a6c-9925-42b8-b181-ffc8a9f9ba02&src=seo_token) | BSC | 712.86% | $205K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=70d14a6c-9925-42b8-b181-ffc8a9f9ba02&src=seo_token) | BSC | 514.55% | $181.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UB yield today?
 
-712.86% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+514.55% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many UB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $205K in total.
+1 live pool clear this page's $100K TVL floor, $181.5K in total.
 
 ### Are these rates safe?
 
@@ -25,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

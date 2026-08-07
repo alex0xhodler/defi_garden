@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YVVBUSDC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.34M in total.
+3 live pools clear this page's $100K TVL floor, $2.39M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

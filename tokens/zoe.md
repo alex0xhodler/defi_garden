@@ -1,10 +1,10 @@
 # ZOE DeFi Yields
 
-The highest honest ZOE yield right now is 0.95% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZOE yield right now is 9.17% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ec88dafc-7c63-427b-8aea-79568f336681&src=seo_token) | Base | 0.95% | $160.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ec88dafc-7c63-427b-8aea-79568f336681&src=seo_token) | Base | 9.17% | $147.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZOE yield today?
 
-0.95% APY on uniswap-v4 (Base), based on live DefiLlama data.
+9.17% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many ZOE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.7K in total.
+1 live pool clear this page's $100K TVL floor, $147.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

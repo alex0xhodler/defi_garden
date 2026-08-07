@@ -1,12 +1,12 @@
 # TAROT DeFi Yields
 
-The highest honest TAROT yield right now is 53.32% on velodrome-v2 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TAROT yield right now is 53.78% on velodrome-v2 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=1f6ca255-d8b4-4c72-b71a-2cf4933f1ff6&src=seo_token) | OP Mainnet | 53.32% | $263.4K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=60728315-0bf5-42e3-9fa7-eec9b2e04a24&src=seo_token) | Base | 26.38% | $147.9K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=6a22f078-db43-4e25-94a6-bdd7da723f01&src=seo_token) | Base | 24.23% | $145.4K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=1f6ca255-d8b4-4c72-b71a-2cf4933f1ff6&src=seo_token) | OP Mainnet | 53.78% | $262.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=60728315-0bf5-42e3-9fa7-eec9b2e04a24&src=seo_token) | Base | 27.13% | $147.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=6a22f078-db43-4e25-94a6-bdd7da723f01&src=seo_token) | Base | 24.61% | $146.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TAROT yield today?
 
-53.32% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+53.78% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many TAROT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $556.7K in total.
+3 live pools clear this page's $100K TVL floor, $556.6K in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

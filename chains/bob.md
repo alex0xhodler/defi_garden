@@ -4,7 +4,7 @@ The highest honest Bob yield right now is 1.01% on avalon-finance (Bob), among 3
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XSOLVBTC | [avalon-finance →](https://www.defi.garden/?pool=19c9b477-6ce9-4e59-897e-1b3ef76afa3a&src=seo_chain) | 1.01% | $111.6K |
+| XSOLVBTC | [avalon-finance →](https://www.defi.garden/?pool=19c9b477-6ce9-4e59-897e-1b3ef76afa3a&src=seo_chain) | 1.01% | $107.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Bob pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $44.43M in total.
+3 live pools clear this page's $100K TVL floor, $44.53M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [XSOLVBTC](https://www.defi.garden/tokens/xsolvbtc)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

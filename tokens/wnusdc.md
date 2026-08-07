@@ -1,10 +1,10 @@
 # WNUSDC DeFi Yields
 
-The highest honest WNUSDC yield right now is 10.21% on balancer-v3 (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WNUSDC yield right now is 10.16% on balancer-v3 (Monad), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.21% | $6.58M |
+| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.16% | $6.58M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WNUSDC yield today?
 
-10.21% APY on balancer-v3 (Monad), based on live DefiLlama data.
+10.16% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many WNUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.45M in total.
+2 live pools clear this page's $100K TVL floor, $7.46M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

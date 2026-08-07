@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&src=seo_token) | Ethereum | 3.94% | $1.41M |
+| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&src=seo_token) | Ethereum | 4.00% | $1.41M |
 | [pendle →](https://www.defi.garden/?pool=e2057cb9-1fe9-4c45-9948-a1863d8155e9&src=seo_token) | Ethereum | 8.27% | $961.4K |
 | [pendle →](https://www.defi.garden/?pool=af8ae772-4e42-4b47-9b47-a51a310f6563&src=seo_token) | Ethereum | 5.77% | $961.4K |
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.27%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026
