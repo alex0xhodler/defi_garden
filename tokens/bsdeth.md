@@ -5,8 +5,8 @@ The highest honest BSDETH yield right now is 3.73% on aerodrome-v1 (Base), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [reserve-protocol →](https://www.defi.garden/?pool=ca775845-b68a-4084-8d8d-29c31970a643&src=seo_token) | Base | 0.81% | $1.2M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 3.73% | $804.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 1.54% | $728.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=65b6cf7e-8846-49e6-adbb-0f176ff427bb&src=seo_token) | Base | 3.73% | $805.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=66dac3bb-be33-4e22-9b35-77f05e492a7d&src=seo_token) | Base | 1.54% | $728K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

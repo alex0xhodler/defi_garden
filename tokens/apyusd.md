@@ -10,7 +10,7 @@ The highest honest APYUSD yield right now is 17.38% on pendle (Ethereum), among 
 | [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 0.11% | $6.89M |
 | [pendle →](https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token) | Ethereum | 15.61% | $5.04M |
 | [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 15.37% | $5.04M |
-| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.38% | $156.9K |
+| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.37% | $159K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APYUSD pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $96.33M in total.
+15 live pools clear this page's $100K TVL floor, $96.37M in total.
 
 ### Are these rates safe?
 

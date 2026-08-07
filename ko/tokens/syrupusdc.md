@@ -4,14 +4,13 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 1.11% | $13.32M |
-| [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.19% | $10.03M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 1.11% | $13.33M |
+| [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.11% | $10.03M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.18% | $10.03M |
-| [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.02% | $2.53M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token) | Arbitrum | 0.92% | $988K |
-| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 5.00% | $463.1K |
+| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 4.97% | $463.1K |
 | [fluid-dex →](https://www.defi.garden/?pool=445aec38-67cf-4aa8-af22-639875df0f78&src=seo_token) | Arbitrum | 0.07% | $276K |
-| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 1.69% | $201.1K |
+| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 1.67% | $201K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +22,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.11%예�
 
 ### SYRUPUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $487.54M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $489.3M예요.
 
 ### 이 수익률은 안전한가요?
 

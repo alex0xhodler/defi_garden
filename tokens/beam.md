@@ -4,8 +4,8 @@ The highest honest BEAM yield right now is 2.10% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=110e18b3-1c38-4248-9e92-837a726e498b&src=seo_token) | Ethereum | 1.02% | $2.54M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e1a60ed9-7e6c-41cd-b8ac-0155227237f5&src=seo_token) | Ethereum | 2.10% | $430.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=110e18b3-1c38-4248-9e92-837a726e498b&src=seo_token) | Ethereum | 1.09% | $2.54M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e1a60ed9-7e6c-41cd-b8ac-0155227237f5&src=seo_token) | Ethereum | 2.10% | $430.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

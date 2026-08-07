@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRVFRXUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $790.5K in total.
+2 live pools clear this page's $100K TVL floor, $790.6K in total.
 
 ### Are these rates safe?
 

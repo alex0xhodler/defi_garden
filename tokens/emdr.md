@@ -4,7 +4,7 @@ The highest honest EMDR yield right now is 14.07% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ac8a468a-6108-4cb1-989d-80e3f07f7e14&src=seo_token) | Ethereum | 14.07% | $180.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ac8a468a-6108-4cb1-989d-80e3f07f7e14&src=seo_token) | Ethereum | 14.07% | $180.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EMDR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $180.5K in total.
+1 live pool clear this page's $100K TVL floor, $180.9K in total.
 
 ### Are these rates safe?
 

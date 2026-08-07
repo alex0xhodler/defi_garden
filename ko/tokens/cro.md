@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token) | Cronos | 0.11% | $2.55M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 4.99% | $403.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 13.24% | $179.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 5.12% | $403.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 14.01% | $179.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

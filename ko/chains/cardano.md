@@ -5,13 +5,13 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | ADA | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_chain) | 2.15% | $7.38M |
-| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_chain) | 4.29% | $1.3M |
+| ADA-MIN | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_chain) | 4.29% | $1.31M |
 | DJED | [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_chain) | 12.88% | $1.03M |
-| ADA-USDM | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_chain) | 37.62% | $892.4K |
-| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_chain) | 83.53% | $827.7K |
-| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_chain) | 41.45% | $725.1K |
-| ADA-USDA | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_chain) | 17.41% | $699.9K |
-| ADA-FLDT | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_chain) | 28.40% | $692.3K |
+| ADA-USDM | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_chain) | 37.62% | $898.5K |
+| ADA-NIGHT | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_chain) | 83.53% | $833.4K |
+| ADA-SNEK | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_chain) | 41.45% | $730K |
+| ADA-USDA | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_chain) | 17.41% | $704.7K |
+| ADA-FLDT | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_chain) | 28.40% | $697.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 83.53%예
 
 ### Cardano 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 36개이며, 합산 TVL은 $24.01M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 36개이며, 합산 TVL은 $24.09M예요.
 
 ### 이 수익률은 안전한가요?
 

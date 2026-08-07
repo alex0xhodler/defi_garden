@@ -1,17 +1,17 @@
 # STRK 디파이 수익률
 
-현재 STRK의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 71.16%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STRK의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 84.53%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [endur →](https://www.defi.garden/?pool=1ce1d44a-0bff-48ef-80c9-f8b6bd78bd17&src=seo_token) | Starknet | 6.76% | $3.21M |
-| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f&src=seo_token) | Starknet | 0.06% | $874.2K |
-| [nostra-money-market →](https://www.defi.garden/?pool=3416094f-9bf9-44b8-8a48-db85cb0d397e&src=seo_token) | Starknet | 1.41% | $726K |
-| [ekubo →](https://www.defi.garden/?pool=55ee94b7-d355-404d-8b60-d822e1856adb&src=seo_token) | Starknet | 71.16% | $479K |
-| [ekubo →](https://www.defi.garden/?pool=b984cf22-1ba7-4576-a8bd-d5a8050d995a&src=seo_token) | Starknet | 58.93% | $422K |
-| [ekubo →](https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035&src=seo_token) | Starknet | 7.82% | $216.1K |
-| [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299&src=seo_token) | Starknet | 9.59% | $140.8K |
-| [vesu →](https://www.defi.garden/?pool=ece0d1a5-7b4c-4a65-9938-3e07d505a95b&src=seo_token) | Starknet | 0.07% | $136.6K |
+| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f&src=seo_token) | Starknet | 0.06% | $873.2K |
+| [nostra-money-market →](https://www.defi.garden/?pool=3416094f-9bf9-44b8-8a48-db85cb0d397e&src=seo_token) | Starknet | 1.41% | $725K |
+| [ekubo →](https://www.defi.garden/?pool=55ee94b7-d355-404d-8b60-d822e1856adb&src=seo_token) | Starknet | 69.31% | $478.7K |
+| [ekubo →](https://www.defi.garden/?pool=b984cf22-1ba7-4576-a8bd-d5a8050d995a&src=seo_token) | Starknet | 84.53% | $421.5K |
+| [ekubo →](https://www.defi.garden/?pool=d030033c-6076-4caf-942a-9f928b857035&src=seo_token) | Starknet | 3.95% | $215.9K |
+| [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299&src=seo_token) | Starknet | 9.60% | $140.5K |
+| [vesu →](https://www.defi.garden/?pool=ece0d1a5-7b4c-4a65-9938-3e07d505a95b&src=seo_token) | Starknet | 0.07% | $136.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@
 
 ### 오늘 STRK의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 71.16%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 84.53%예요.
 
 ### STRK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

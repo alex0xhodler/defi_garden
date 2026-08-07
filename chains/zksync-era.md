@@ -5,7 +5,7 @@ The highest honest ZKsync Era yield right now is 0.01% on symbiosis (ZKsync Era)
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $112K |
-| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 0.50% | $108.4K |
+| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 0.44% | $108.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

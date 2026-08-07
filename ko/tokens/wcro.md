@@ -4,14 +4,14 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token) | Cronos | 0.07% | $28.52M |
-| [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3&src=seo_token) | Cronos | 3.07% | $5.5M |
-| [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238&src=seo_token) | Cronos | 0.45% | $2.11M |
-| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5&src=seo_token) | Cronos | 0.33% | $1.92M |
+| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token) | Cronos | 0.07% | $28.48M |
+| [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3&src=seo_token) | Cronos | 3.05% | $5.5M |
+| [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238&src=seo_token) | Cronos | 0.45% | $2.12M |
+| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5&src=seo_token) | Cronos | 0.34% | $1.91M |
 | [vvs-standard →](https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f&src=seo_token) | Cronos | 0.70% | $1.01M |
-| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 0.53% | $853.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 0.49% | $853.7K |
 | [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a&src=seo_token) | Cronos | 0.04% | $853.5K |
-| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60&src=seo_token) | Cronos | 0.01% | $731.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60&src=seo_token) | Cronos | 0.01% | $732.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.70%예�
 
 ### WCRO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $59.92M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $59.9M예요.
 
 ### 이 수익률은 안전한가요?
 

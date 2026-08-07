@@ -4,7 +4,7 @@ The highest honest BID yield right now is 6.07% on aerodrome-slipstream (Base), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=16454a97-090c-4468-83d5-92a6e55ac2b2&src=seo_token) | Base | 6.07% | $307.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=16454a97-090c-4468-83d5-92a6e55ac2b2&src=seo_token) | Base | 6.07% | $307.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BID pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $307.4K in total.
+1 live pool clear this page's $100K TVL floor, $307.5K in total.
 
 ### Are these rates safe?
 

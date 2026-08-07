@@ -1,16 +1,16 @@
 # ZCHF 디파이 수익률
 
-현재 ZCHF의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 8.38%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ZCHF의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 8.37%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $14.97M |
+| [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $14.98M |
 | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token) | Gnosis | 3.50% | $1.54M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.29% | $1.37M |
-| [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 4.15% | $671.6K |
-| [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $279.8K |
-| [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 8.38% | $212.7K |
-| [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 7.45% | $183.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.28% | $1.37M |
+| [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 4.13% | $671.6K |
+| [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $280K |
+| [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 8.37% | $212.7K |
+| [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 7.46% | $183.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token) | Ethereum | 1.28% | $163.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -19,11 +19,11 @@
 
 ### 오늘 ZCHF의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 8.38%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 8.37%예요.
 
 ### ZCHF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $19.66M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $19.68M예요.
 
 ### 이 수익률은 안전한가요?
 

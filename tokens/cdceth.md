@@ -5,8 +5,8 @@ The highest honest CDCETH yield right now is 1.45% on crypto.com-liquid-staking 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5&src=seo_token) | Cronos | 1.45% | $18.01M |
-| [tectonic →](https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4&src=seo_token) | Cronos | 0.03% | $777.6K |
-| [vvs-standard →](https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9&src=seo_token) | Cronos | 0.42% | $116K |
+| [tectonic →](https://www.defi.garden/?pool=e54504d3-eb54-43c6-adac-f491f808f0f4&src=seo_token) | Cronos | 0.03% | $777.8K |
+| [vvs-standard →](https://www.defi.garden/?pool=1e85a479-3ce7-40ae-b3d2-83deadb6fbd9&src=seo_token) | Cronos | 0.35% | $116K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CDCETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $25.29M in total.
+4 live pools clear this page's $100K TVL floor, $25.3M in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # HOOD DeFi Yields
 
-The highest honest HOOD yield right now is 13.01% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HOOD yield right now is 12.26% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b8b0e6a0-4e4b-5bea-a7d4-1c380cd3e76e&src=seo_token) | Solana | 13.01% | $430.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=dfcd654a-81df-45df-88f0-ad8b5f49f677&src=seo_token) | Solana | 2.33% | $113K |
+| [raydium-amm →](https://www.defi.garden/?pool=b8b0e6a0-4e4b-5bea-a7d4-1c380cd3e76e&src=seo_token) | Solana | 12.26% | $430.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=dfcd654a-81df-45df-88f0-ad8b5f49f677&src=seo_token) | Solana | 2.21% | $113.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HOOD yield today?
 
-13.01% APY on raydium-amm (Solana), based on live DefiLlama data.
+12.26% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HOOD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $543.8K in total.
+2 live pools clear this page's $100K TVL floor, $544.1K in total.
 
 ### Are these rates safe?
 

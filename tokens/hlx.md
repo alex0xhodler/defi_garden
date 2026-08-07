@@ -4,9 +4,9 @@ The highest honest HLX yield right now is 1.15% on curve-dex (Ethereum), among 4
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 61.83% | $333.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f047a4b1-302e-4eca-98fc-929c728d6eb8&src=seo_token) | Ethereum | 62.05% | $334.5K |
 | [curve-dex →](https://www.defi.garden/?pool=1791a7f7-5fe7-55a1-80db-fa18753fe19f&src=seo_token) | Ethereum | 1.15% | $240.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 3.29% | $192.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4c9d0793-6976-5a4b-86a9-9d180a5e8755&src=seo_token) | Ethereum | 3.17% | $192.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HLX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $871.4K in total.
+4 live pools clear this page's $100K TVL floor, $872.8K in total.
 
 ### Are these rates safe?
 

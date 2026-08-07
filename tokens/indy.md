@@ -4,7 +4,7 @@ The highest honest INDY yield right now is 12.67% on minswap-dex (Cardano), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token) | Cardano | 12.67% | $104.8K |
+| [minswap-dex →](https://www.defi.garden/?pool=f34441d6-e9a7-457e-a4e5-77f9d554178c&src=seo_token) | Cardano | 12.67% | $105.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many INDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.8K in total.
+1 live pool clear this page's $100K TVL floor, $105.5K in total.
 
 ### Are these rates safe?
 

@@ -4,8 +4,8 @@ The highest honest TONCOIN yield right now is 1.25% on uniswap-v4 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token) | Ethereum | 0.37% | $716.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token) | Ethereum | 1.25% | $196.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bfdfd932-979c-4a12-8381-d7fa5db9b020&src=seo_token) | Ethereum | 0.38% | $715.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=90fba60d-58ef-4ab3-b775-6835111ab563&src=seo_token) | Ethereum | 1.25% | $196.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TONCOIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $912.9K in total.
+2 live pools clear this page's $100K TVL floor, $912K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # ASSET DeFi Yields
 
-The highest honest ASSET yield right now is 7.46% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASSET yield right now is 8.17% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=227e6334-cd9a-426e-814a-499af64cf449&src=seo_token) | Ethereum | 7.46% | $1.62M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=227e6334-cd9a-426e-814a-499af64cf449&src=seo_token) | Ethereum | 8.17% | $1.61M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ASSET yield today?
 
-7.46% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+8.17% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ASSET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.62M in total.
+1 live pool clear this page's $100K TVL floor, $1.61M in total.
 
 ### Are these rates safe?
 

@@ -11,7 +11,7 @@
 | [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 13.64% | $206.4K |
 | [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 15.81% | $120.7K |
 | [stake-dao →](https://www.defi.garden/?pool=a1743c40-129b-4c23-bc20-0357a321005f&src=seo_token) | Ethereum | 9.92% | $114.2K |
-| [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 11.51% | $105.6K |
+| [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 11.19% | $105.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

@@ -1,13 +1,13 @@
 # FXN DeFi Yields
 
-The highest honest FXN yield right now is 10.96% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXN yield right now is 10.90% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token) | Ethereum | 0.65% | $858.6K |
-| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.28% | $474.9K |
-| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 10.96% | $329.6K |
-| [convex-finance →](https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token) | Ethereum | 0.65% | $295.2K |
+| [curve-dex →](https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token) | Ethereum | 0.65% | $860.7K |
+| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.25% | $477.6K |
+| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 10.90% | $331.2K |
+| [convex-finance →](https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token) | Ethereum | 0.65% | $296.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FXN yield today?
 
-10.96% APY on convex-finance (Ethereum), based on live DefiLlama data.
+10.90% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FXN pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.29M in total.
+5 live pools clear this page's $100K TVL floor, $2.3M in total.
 
 ### Are these rates safe?
 

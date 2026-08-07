@@ -4,8 +4,8 @@ The highest honest SRROYUSDC yield right now is 7.57% on stake-dao (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3f63a73f-836b-481d-9ce5-3455ea5c4a12&src=seo_token) | Ethereum | 1.62% | $873.3K |
-| [stake-dao →](https://www.defi.garden/?pool=23605340-3ba7-4a42-a55e-47cf09ec1d78&src=seo_token) | Ethereum | 7.57% | $873.3K |
+| [stake-dao →](https://www.defi.garden/?pool=23605340-3ba7-4a42-a55e-47cf09ec1d78&src=seo_token) | Ethereum | 7.57% | $873.4K |
+| [curve-dex →](https://www.defi.garden/?pool=3f63a73f-836b-481d-9ce5-3455ea5c4a12&src=seo_token) | Ethereum | 1.61% | $873.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

@@ -4,7 +4,7 @@ The highest honest XSTRKBTC yield right now is 6.26% on ekubo (Starknet), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=472bb65b-a4ac-4d89-8dd4-e7e06053ed84&src=seo_token) | Starknet | 6.26% | $332.7K |
+| [ekubo →](https://www.defi.garden/?pool=472bb65b-a4ac-4d89-8dd4-e7e06053ed84&src=seo_token) | Starknet | 6.26% | $332.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

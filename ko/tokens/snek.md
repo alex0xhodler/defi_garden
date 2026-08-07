@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 41.45% | $725.1K |
-| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 59.91% | $289.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 41.45% | $730K |
+| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 59.91% | $291.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 59.91%예
 
 ### SNEK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.01M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.02M예요.
 
 ### 이 수익률은 안전한가요?
 

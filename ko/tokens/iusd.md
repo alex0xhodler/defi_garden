@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 2.73% | $978.4K |
+| [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 2.74% | $978.4K |
 | [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 3.52% | $206.2K |
-| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.58% | $173.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.58% | $174.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 14.58%예
 
 ### IUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $4.88M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $4.9M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,7 +4,7 @@ The highest honest TOKEN yield right now is 3.46% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=da71ceff-a9d4-40b9-9e7d-4d8ff7c2e964&src=seo_token) | Ethereum | 3.46% | $874.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=da71ceff-a9d4-40b9-9e7d-4d8ff7c2e964&src=seo_token) | Ethereum | 3.46% | $874.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TOKEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $874.3K in total.
+1 live pool clear this page's $100K TVL floor, $874.4K in total.
 
 ### Are these rates safe?
 

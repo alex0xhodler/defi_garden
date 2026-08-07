@@ -1,13 +1,12 @@
 # JUP 디파이 수익률
 
-현재 JUP의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 19.63%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JUP의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 19.78%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 16.91% | $669K |
-| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 19.63% | $341.1K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 10.05% | $311.9K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 3.83% | $157.8K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 17.98% | $668.3K |
+| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 19.78% | $340.5K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 10.05% | $311.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,7 +14,7 @@
 
 ### 오늘 JUP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 19.63%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 19.78%예요.
 
 ### JUP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -1,12 +1,12 @@
 # CVCRVUSD DeFi Yields
 
-The highest honest CVCRVUSD yield right now is 14.39% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CVCRVUSD yield right now is 14.39% on stake-dao (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token) | Ethereum | 7.26% | $649.7K |
-| [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token) | Ethereum | 14.39% | $378.8K |
-| [stake-dao →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token) | Ethereum | 14.38% | $164.3K |
+| [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token) | Ethereum | 7.23% | $649.7K |
+| [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token) | Ethereum | 14.38% | $378.8K |
+| [stake-dao →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token) | Ethereum | 14.39% | $164.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CVCRVUSD yield today?
 
-14.39% APY on convex-finance (Ethereum), based on live DefiLlama data.
+14.39% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many CVCRVUSD pools clear the TVL floor?
 

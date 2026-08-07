@@ -4,9 +4,9 @@ The highest honest FET yield right now is 6.71% on minswap-dex (Cardano), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 21.05% | $995.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token) | Ethereum | 16.65% | $256.5K |
-| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 6.71% | $142.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 21.04% | $994.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token) | Ethereum | 14.65% | $256.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 6.71% | $143.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

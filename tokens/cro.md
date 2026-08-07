@@ -5,8 +5,8 @@ The highest honest CRO yield right now is 0.11% on tectonic (Cronos), among 3 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token) | Cronos | 0.11% | $2.55M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 4.99% | $403.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 13.24% | $179.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 5.12% | $403.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 14.01% | $179.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

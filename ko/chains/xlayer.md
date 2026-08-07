@@ -4,10 +4,10 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 0.24% | $42.7M |
-| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.40% | $10.14M |
-| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 1.33% | $344.9K |
-| XSOL | [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8&src=seo_chain) | 0.02% | $126.7K |
+| USD₮0 | [aave-v3 →](https://www.defi.garden/?pool=19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b&src=seo_chain) | 0.24% | $42.69M |
+| XETH | [aave-v3 →](https://www.defi.garden/?pool=29b6ce50-f9f0-432f-ac0f-a8e949c9392b&src=seo_chain) | 0.41% | $10.08M |
+| USDG | [aave-v3 →](https://www.defi.garden/?pool=8bac9ade-e894-489d-9cb8-f062f16d85de&src=seo_chain) | 1.33% | $345K |
+| XSOL | [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8&src=seo_chain) | 0.02% | $126.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@ DefiLlama 실시간 데이터 기준, Xlayer의 aave-v3에서 APY 1.33%예요.
 
 ### Xlayer 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $83.67M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $83.45M예요.
 
 ### 이 수익률은 안전한가요?
 

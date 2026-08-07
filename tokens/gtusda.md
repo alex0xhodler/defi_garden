@@ -4,7 +4,7 @@ The highest honest GTUSDA yield right now is 5.02% on gauntlet (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.99% | $52.65M |
+| [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 5.00% | $52.64M |
 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 5.02% | $1.64M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

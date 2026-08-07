@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.41% | $699.9K |
+| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.41% | $704.7K |
 | [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token) | Cardano | 16.33% | $222.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

@@ -1,16 +1,16 @@
 # VUSD DeFi Yields
 
-The highest honest VUSD yield right now is 17.20% on curve-dex (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VUSD yield right now is 17.12% on curve-dex (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.76% | $36.14M |
-| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 31.84% | $342.9K |
-| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 39.32% | $254.2K |
+| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.77% | $36.15M |
+| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 31.70% | $342.9K |
+| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 39.33% | $254.2K |
 | [amply-finance →](https://www.defi.garden/?pool=1e2284a8-3983-427c-a432-e4a8b37adade&src=seo_token) | Cronos zkEVM | 0.01% | $179K |
-| [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 14.02% | $172.7K |
-| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 16.10% | $164.9K |
-| [curve-dex →](https://www.defi.garden/?pool=7683064c-bffb-4720-8ac2-571645a4c9d3&src=seo_token) | Ethereum | 17.20% | $101.3K |
+| [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 13.96% | $172.7K |
+| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 16.11% | $164.9K |
+| [curve-dex →](https://www.defi.garden/?pool=7683064c-bffb-4720-8ac2-571645a4c9d3&src=seo_token) | Ethereum | 17.12% | $101.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VUSD yield today?
 
-17.20% APY on curve-dex (Ethereum), based on live DefiLlama data.
+17.12% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many VUSD pools clear the TVL floor?
 

@@ -1,12 +1,12 @@
 # TSLAX DeFi Yields
 
-The highest honest TSLAX yield right now is 12.17% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSLAX yield right now is 11.56% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 12.17% | $1.86M |
-| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 2.06% | $504.7K |
-| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 0.83% | $103.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 11.56% | $1.85M |
+| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 1.95% | $504.3K |
+| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 0.83% | $103.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TSLAX yield today?
 
-12.17% APY on raydium-amm (Solana), based on live DefiLlama data.
+11.56% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TSLAX pools clear the TVL floor?
 

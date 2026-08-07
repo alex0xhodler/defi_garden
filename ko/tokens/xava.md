@@ -1,10 +1,10 @@
 # XAVA 디파이 수익률
 
-현재 XAVA의 가장 높은 정직한 수익률은 Avalanche의 joe-v2.1에서 10.32%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XAVA의 가장 높은 정직한 수익률은 Avalanche의 joe-v2.1에서 9.54%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [joe-v2.1 →](https://www.defi.garden/?pool=97c8b793-19c7-4e66-bf72-b9de03f69cc0&src=seo_token) | Avalanche | 10.32% | $152.1K |
+| [joe-v2.1 →](https://www.defi.garden/?pool=97c8b793-19c7-4e66-bf72-b9de03f69cc0&src=seo_token) | Avalanche | 9.54% | $152.1K |
 | [joe-v2.2 →](https://www.defi.garden/?pool=7a7dab1c-1504-492f-bdf8-6cc48ff93744&src=seo_token) | Avalanche | 1.64% | $120.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -13,7 +13,7 @@
 
 ### 오늘 XAVA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 joe-v2.1에서 APY 10.32%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 joe-v2.1에서 APY 9.54%예요.
 
 ### XAVA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

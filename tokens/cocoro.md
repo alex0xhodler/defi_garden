@@ -1,11 +1,11 @@
 # COCORO DeFi Yields
 
-The highest honest COCORO yield right now is 2.60% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COCORO yield right now is 3.59% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=97fc03e7-ae76-47af-8b34-8a2b129bc29c&src=seo_token) | Base | 0.28% | $726.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=0f2ba4e2-4964-48b0-8fb8-1fa73b965649&src=seo_token) | Ethereum | 2.60% | $125.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=97fc03e7-ae76-47af-8b34-8a2b129bc29c&src=seo_token) | Base | 0.28% | $725.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0f2ba4e2-4964-48b0-8fb8-1fa73b965649&src=seo_token) | Ethereum | 3.59% | $127K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COCORO yield today?
 
-2.60% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.59% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many COCORO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $851.5K in total.
+2 live pools clear this page's $100K TVL floor, $852.8K in total.
 
 ### Are these rates safe?
 

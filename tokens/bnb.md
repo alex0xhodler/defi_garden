@@ -4,10 +4,10 @@ The highest honest BNB yield right now is 114.40% on gmtrade (Solana), among 6 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.10% | $287.79M |
-| [raydium-amm →](https://www.defi.garden/?pool=f15c7999-1309-512e-b18f-7d8a363721ec&src=seo_token) | Solana | 0.13% | $6.87M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.31% | $271.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 100.19% | $208.4K |
+| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.10% | $287.86M |
+| [raydium-amm →](https://www.defi.garden/?pool=f15c7999-1309-512e-b18f-7d8a363721ec&src=seo_token) | Solana | 0.12% | $6.87M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.31% | $271.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 87.03% | $208.5K |
 | [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 114.40% | $104.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BNB pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $295.8M in total.
+6 live pools clear this page's $100K TVL floor, $295.87M in total.
 
 ### Are these rates safe?
 

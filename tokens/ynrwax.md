@@ -11,7 +11,7 @@ The highest honest YNRWAX yield right now is 15.81% on penpie (Ethereum), among 
 | [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 13.64% | $206.4K |
 | [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 15.81% | $120.7K |
 | [stake-dao →](https://www.defi.garden/?pool=a1743c40-129b-4c23-bc20-0357a321005f&src=seo_token) | Ethereum | 9.92% | $114.2K |
-| [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 11.51% | $105.6K |
+| [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 11.19% | $105.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

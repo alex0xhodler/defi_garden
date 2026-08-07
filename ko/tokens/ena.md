@@ -1,11 +1,11 @@
 # ENA 디파이 수익률
 
-현재 ENA의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 37.96%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ENA의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 40.67%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 22.95% | $619.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 37.96% | $477.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 25.49% | $623.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 40.67% | $480.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 ENA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 37.96%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 40.67%예요.
 
 ### ENA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $3.05M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $3.08M예요.
 
 ### 이 수익률은 안전한가요?
 

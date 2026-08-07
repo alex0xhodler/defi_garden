@@ -1,12 +1,12 @@
 # WETH-SAND — aerodrome-slipstream on Base
 
-**Total APY:** 49.77% (1.56% Base · + 48.21% Rewards)
+**Total APY:** 49.76% (1.54% Base · + 48.21% Rewards)
 
-**TVL:** $191.1K
+**TVL:** $191K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 51.28%
+**30d Mean APY:** 51.25%
 
 **Exposure:** multi
 
@@ -26,7 +26,7 @@ $1,000 in this pool grows to ~$2,154 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (49.77% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (49.76% headline) — farm rates decay. Active management required.
 
 We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
 

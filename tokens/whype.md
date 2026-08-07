@@ -1,17 +1,17 @@
 # WHYPE DeFi Yields
 
-The highest honest WHYPE yield right now is 68.04% on ramses-cl-v2 (Hyperliquid L1), among 52 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WHYPE yield right now is 63.26% on nest-cl (Hyperliquid L1), among 52 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_token) | Hyperliquid L1 | 0.57% | $46.13M |
-| [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_token) | Hyperliquid L1 | 11.87% | $17.45M |
-| [project-x →](https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477&src=seo_token) | Hyperliquid L1 | 8.89% | $5.97M |
-| [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 6.65% | $4.84M |
-| [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token) | Hyperliquid L1 | 4.23% | $4.08M |
-| [nest-cl →](https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_token) | Hyperliquid L1 | 60.22% | $3.96M |
-| [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 33.12% | $2.21M |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=f22de837-abb8-44e8-a825-da41500a3b11&src=seo_token) | Hyperliquid L1 | 68.04% | $1.73M |
+| [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_token) | Hyperliquid L1 | 0.57% | $46.2M |
+| [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_token) | Hyperliquid L1 | 12.56% | $17.48M |
+| [project-x →](https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477&src=seo_token) | Hyperliquid L1 | 10.10% | $5.99M |
+| [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 7.53% | $4.86M |
+| [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token) | Hyperliquid L1 | 4.23% | $4.11M |
+| [nest-cl →](https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_token) | Hyperliquid L1 | 63.26% | $3.97M |
+| [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 28.68% | $2.22M |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=f22de837-abb8-44e8-a825-da41500a3b11&src=seo_token) | Hyperliquid L1 | 52.81% | $1.74M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WHYPE yield today?
 
-68.04% APY on ramses-cl-v2 (Hyperliquid L1), based on live DefiLlama data.
+63.26% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many WHYPE pools clear the TVL floor?
 
-52 live pools clear this page's $100K TVL floor, $217.46M in total.
+52 live pools clear this page's $100K TVL floor, $218.11M in total.
 
 ### Are these rates safe?
 

@@ -1,16 +1,16 @@
 # RETH 디파이 수익률
 
-현재 RETH의 가장 높은 정직한 수익률은 Ethereum의 balancer-v3에서 6.82%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RETH의 가장 높은 정직한 수익률은 Ethereum의 balancer-v3에서 6.30%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token) | Ethereum | 2.21% | $2.59B |
 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.20% | $10.6M |
-| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 6.82% | $4.84M |
-| [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.09% | $1.61M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 5.57% | $451.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 6.30% | $4.84M |
+| [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 6.08% | $1.61M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 5.04% | $451.3K |
 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 4.56% | $234.6K |
-| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 4.56% | $216.2K |
+| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 4.56% | $216.3K |
 | [curve-dex →](https://www.defi.garden/?pool=b3a7ecee-57fd-49dc-abf8-cd272a59e6e3&src=seo_token) | Ethereum | 3.87% | $203.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -19,7 +19,7 @@
 
 ### 오늘 RETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 balancer-v3에서 APY 6.82%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 balancer-v3에서 APY 6.30%예요.
 
 ### RETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

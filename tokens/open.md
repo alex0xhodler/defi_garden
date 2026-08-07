@@ -4,7 +4,7 @@ The highest honest OPEN yield right now is 3.49% on steer-protocol (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 3.49% | $269.8K |
+| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 3.49% | $269.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

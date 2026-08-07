@@ -1,10 +1,10 @@
 # MEY 디파이 수익률
 
-현재 MEY의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 110.87%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MEY의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 112.23%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7c8d13e6-e5d7-43d8-8fef-72c2b9185963&src=seo_token) | Base | 110.87% | $101.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7c8d13e6-e5d7-43d8-8fef-72c2b9185963&src=seo_token) | Base | 112.23% | $101.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,7 +12,7 @@
 
 ### 오늘 MEY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 110.87%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 112.23%예요.
 
 ### MEY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

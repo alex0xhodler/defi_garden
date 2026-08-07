@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.99% | $52.65M |
+| [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 5.00% | $52.64M |
 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 5.02% | $1.64M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

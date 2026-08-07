@@ -1,14 +1,14 @@
 # WMON DeFi Yields
 
-The highest honest WMON yield right now is 27.55% on curve-dex (Monad), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMON yield right now is 27.60% on curve-dex (Monad), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 14.92% | $1.18M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 27.55% | $709.4K |
-| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 6.21% | $351.5K |
-| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.84% | $310.6K |
-| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.83% | $223.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 16.48% | $1.18M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 27.60% | $709.4K |
+| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 6.25% | $344.1K |
+| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.84% | $314.7K |
+| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.83% | $226.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WMON yield today?
 
-27.55% APY on curve-dex (Monad), based on live DefiLlama data.
+27.60% APY on curve-dex (Monad), based on live DefiLlama data.
 
 ### How many WMON pools clear the TVL floor?
 

@@ -1,10 +1,10 @@
 # PNKSTR 디파이 수익률
 
-현재 PNKSTR의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 19.86%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PNKSTR의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 19.40%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 19.86% | $582.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 19.40% | $582.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 0.08% | $283.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.07% | $118.4K |
 
@@ -14,7 +14,7 @@
 
 ### 오늘 PNKSTR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 19.86%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 19.40%예요.
 
 ### PNKSTR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

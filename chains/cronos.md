@@ -4,12 +4,12 @@ The highest honest Cronos yield right now is 1.45% on crypto.com-liquid-staking 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [tectonic →](https://www.defi.garden/?pool=0c3c1b07-7c36-4fbb-8e71-226e02bf15c1&src=seo_chain) | 0.12% | $53.27M |
-| USDT | [tectonic →](https://www.defi.garden/?pool=b37c26c3-848f-45f0-bd75-af97f1674a4d&src=seo_chain) | 0.15% | $44.32M |
-| VVS-WCRO | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_chain) | 0.07% | $28.52M |
+| USDC | [tectonic →](https://www.defi.garden/?pool=0c3c1b07-7c36-4fbb-8e71-226e02bf15c1&src=seo_chain) | 0.12% | $53.26M |
+| USDT | [tectonic →](https://www.defi.garden/?pool=b37c26c3-848f-45f0-bd75-af97f1674a4d&src=seo_chain) | 0.15% | $44.3M |
+| VVS-WCRO | [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_chain) | 0.07% | $28.48M |
 | USDT-USDC | [vvs-standard →](https://www.defi.garden/?pool=13b0db7c-491b-47d5-a2fb-e5af0a17b1d1&src=seo_chain) | 0.01% | $19.73M |
 | CDCETH | [crypto.com-liquid-staking →](https://www.defi.garden/?pool=9c2bff87-4f12-470d-bf13-b5b59f495dc5&src=seo_chain) | 1.45% | $18.01M |
-| WCRO-USDC | [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3&src=seo_chain) | 3.07% | $5.5M |
+| WCRO-USDC | [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3&src=seo_chain) | 3.05% | $5.5M |
 | USDC-USDT | [ferro →](https://www.defi.garden/?pool=922160ef-a03f-42dc-9a5e-8a202b8c28b3&src=seo_chain) | 0.03% | $3.94M |
 | CRO | [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_chain) | 0.11% | $2.55M |
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Cronos pools clear the TVL floor?
 
-55 live pools clear this page's $100K TVL floor, $227.41M in total.
+55 live pools clear this page's $100K TVL floor, $227.44M in total.
 
 ### Are these rates safe?
 

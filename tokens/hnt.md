@@ -4,7 +4,7 @@ The highest honest HNT yield right now is 15.87% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token) | Solana | 15.87% | $358.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=4dcc59d7-0c21-4484-a2af-539181a9f8cd&src=seo_token) | Solana | 15.87% | $361K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HNT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $358.6K in total.
+1 live pool clear this page's $100K TVL floor, $361K in total.
 
 ### Are these rates safe?
 

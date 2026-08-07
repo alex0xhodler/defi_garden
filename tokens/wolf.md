@@ -1,10 +1,10 @@
 # WOLF DeFi Yields
 
-The highest honest WOLF yield right now is 2.68% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOLF yield right now is 2.98% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 2.68% | $571.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 2.98% | $574.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token) | Solana | 0.27% | $413.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token) | Base | 18.84% | $194.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token) | Solana | 0.48% | $187.8K |
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WOLF yield today?
 
-2.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.98% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many WOLF pools clear the TVL floor?
 

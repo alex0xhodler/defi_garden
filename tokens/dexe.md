@@ -4,7 +4,7 @@ The highest honest DEXE yield right now is 1.12% on pancakeswap-amm-v3 (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=1bbc9526-56d5-403f-808a-53c8c3277d98&src=seo_token) | Ethereum | 1.12% | $222.8K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=1bbc9526-56d5-403f-808a-53c8c3277d98&src=seo_token) | Ethereum | 1.12% | $222.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DEXE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $222.8K in total.
+1 live pool clear this page's $100K TVL floor, $222.3K in total.
 
 ### Are these rates safe?
 

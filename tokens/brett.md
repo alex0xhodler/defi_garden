@@ -1,11 +1,11 @@
 # BRETT DeFi Yields
 
-The highest honest BRETT yield right now is 2.57% on uniswap-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRETT yield right now is 46.68% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 2.57% | $919.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 174.22% | $619.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token) | Base | 2.58% | $924.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 46.68% | $654K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 1.80% | $127.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRETT yield today?
 
-2.57% APY on uniswap-v3 (Base), based on live DefiLlama data.
+46.68% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many BRETT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.67M in total.
+3 live pools clear this page's $100K TVL floor, $1.71M in total.
 
 ### Are these rates safe?
 

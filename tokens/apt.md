@@ -9,7 +9,7 @@ The highest honest APT yield right now is 195.25% on hyperion (Aptos), among 9 p
 | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
 | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token) | Aptos | 1.12% | $1.44M |
 | [hyperion →](https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token) | Aptos | 195.25% | $353.4K |
-| [thalaswap →](https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token) | Aptos | 0.01% | $332.1K |
+| [thalaswap →](https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token) | Aptos | 0.01% | $332.5K |
 | [hyperion →](https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token) | Aptos | 12.83% | $219.6K |
 | [hyperion →](https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token) | Aptos | 0.09% | $103.9K |
 

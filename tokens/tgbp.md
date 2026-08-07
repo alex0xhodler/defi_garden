@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TGBP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $742.7K in total.
+4 live pools clear this page's $100K TVL floor, $742.6K in total.
 
 ### Are these rates safe?
 

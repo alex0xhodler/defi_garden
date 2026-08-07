@@ -8,7 +8,7 @@ The highest honest Aptos yield right now is 15.13% on hyperion (Aptos), among 26
 | USDT-USDC | [hyperion →](https://www.defi.garden/?pool=a34c8a80-0001-4fc3-9402-7d6ac3e5234a&src=seo_chain) | 15.13% | $6.29M |
 | APT | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_chain) | 2.43% | $3.29M |
 | USD1 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_chain) | 3.78% | $2.47M |
-| USDT-USDC | [thalaswap →](https://www.defi.garden/?pool=0d395bb0-2a84-40cf-9c2d-c829443b9d5c&src=seo_chain) | 13.21% | $1.78M |
+| USDT-USDC | [thalaswap →](https://www.defi.garden/?pool=0d395bb0-2a84-40cf-9c2d-c829443b9d5c&src=seo_chain) | 14.14% | $1.78M |
 | APT | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_chain) | 0.22% | $1.73M |
 | USDC | [echelon-market →](https://www.defi.garden/?pool=5a97dc57-ea99-4d8b-aac9-b1b8b80c6b60&src=seo_chain) | 3.39% | $1.67M |
 | APT-AMAPT | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_chain) | 4.80% | $1.58M |

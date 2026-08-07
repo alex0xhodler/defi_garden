@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 0.74% | $2.66M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 0.39% | $2.33M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 1.07% | $2.66M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 0.85% | $2.33M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 0.16% | $406.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 1.55% | $264.7K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 1.53% | $264.6K |
 | [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 87.72% | $158.3K |
 | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token) | Heco | 0.07% | $143.7K |
 

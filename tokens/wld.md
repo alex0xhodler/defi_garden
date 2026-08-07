@@ -5,7 +5,7 @@ The highest honest WLD yield right now is 17.47% on uniswap-v4 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=87d47b65-43dd-4ff1-a76c-931d6ef6b12a&src=seo_token) | Ethereum | 17.47% | $190.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=882e600d-27b3-4408-85a3-140ab0910ec6&src=seo_token) | Ethereum | 15.74% | $133.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=882e600d-27b3-4408-85a3-140ab0910ec6&src=seo_token) | Ethereum | 15.72% | $133.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $324.1K in total.
+2 live pools clear this page's $100K TVL floor, $324.3K in total.
 
 ### Are these rates safe?
 

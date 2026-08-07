@@ -1,17 +1,17 @@
 # 3CRV DeFi Yields
 
-The highest honest 3CRV yield right now is 29.72% on convex-finance (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 3CRV yield right now is 29.68% on convex-finance (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.09% | $11.9M |
 | [curve-dex →](https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token) | Ethereum | 2.59% | $1.07M |
-| [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.03% | $580.9K |
+| [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.03% | $580.8K |
 | [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 3.08% | $410.2K |
-| [convex-finance →](https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token) | Ethereum | 0.03% | $388.6K |
-| [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token) | Ethereum | 16.93% | $254.3K |
+| [convex-finance →](https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token) | Ethereum | 0.03% | $388.7K |
+| [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token) | Ethereum | 16.86% | $254.3K |
 | [curve-dex →](https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token) | Ethereum | 0.35% | $244.5K |
-| [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token) | Ethereum | 29.72% | $191.9K |
+| [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token) | Ethereum | 29.68% | $191.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 3CRV yield today?
 
-29.72% APY on convex-finance (Ethereum), based on live DefiLlama data.
+29.68% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many 3CRV pools clear the TVL floor?
 

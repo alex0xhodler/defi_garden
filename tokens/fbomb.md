@@ -1,16 +1,16 @@
 # FBOMB DeFi Yields
 
-The highest honest FBOMB yield right now is 103.72% on aerodrome-v1 (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FBOMB yield right now is 103.70% on aerodrome-v1 (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 57.80% | $2.14M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d&src=seo_token) | Base | 103.72% | $1.05M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc&src=seo_token) | Base | 19.86% | $365.4K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 47.77% | $355.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d&src=seo_token) | Base | 103.70% | $1.05M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc&src=seo_token) | Base | 19.85% | $365.6K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 47.66% | $354.9K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde&src=seo_token) | Base | 5.04% | $176.6K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=1a6f5da2-d9ca-4226-8230-9a2c12eef530&src=seo_token) | Base | 2.48% | $153K |
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.09% | $145.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=1a6f5da2-d9ca-4226-8230-9a2c12eef530&src=seo_token) | Base | 2.48% | $152.9K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.09% | $145.3K |
 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=16a23b40-bf26-415a-9dee-271c8f23b5cc&src=seo_token) | Sonic | 1.13% | $100.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FBOMB yield today?
 
-103.72% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+103.70% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many FBOMB pools clear the TVL floor?
 

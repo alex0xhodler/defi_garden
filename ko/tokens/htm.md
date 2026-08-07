@@ -1,10 +1,10 @@
 # HTM 디파이 수익률
 
-현재 HTM의 가장 높은 정직한 수익률은 MultiversX의 xexchange에서 4.10%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HTM의 가장 높은 정직한 수익률은 MultiversX의 xexchange에서 4.09%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 4.10% | $170.1K |
+| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 4.09% | $170.1K |
 | [hatom-lending →](https://www.defi.garden/?pool=b3793477-21c5-44a3-9b6b-9b99d4a16de7&src=seo_token) | MultiversX | 0.01% | $107.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -13,7 +13,7 @@
 
 ### 오늘 HTM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 4.10%예요.
+DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 4.09%예요.
 
 ### HTM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

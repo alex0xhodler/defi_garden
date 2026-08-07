@@ -1,13 +1,12 @@
 # JUP DeFi Yields
 
-The highest honest JUP yield right now is 19.63% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JUP yield right now is 19.78% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 16.91% | $669K |
-| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 19.63% | $341.1K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 10.05% | $311.9K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 3.83% | $157.8K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 17.98% | $668.3K |
+| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 19.78% | $340.5K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 10.05% | $311.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JUP yield today?
 
-19.63% APY on orca-dex (Solana), based on live DefiLlama data.
+19.78% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many JUP pools clear the TVL floor?
 

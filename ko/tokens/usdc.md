@@ -1,17 +1,17 @@
 # USDC 디파이 수익률
 
-현재 USDC의 가장 높은 정직한 수익률은 Ethereum의 pareto-credit에서 8.02%이며, $100K TVL 기준을 넘는 1,513개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDC의 가장 높은 정직한 수익률은 Ethereum의 pareto-credit에서 8.02%이며, $100K TVL 기준을 넘는 1,512개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 4.87% | $2.74B |
-| [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 5.26% | $418.15M |
-| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $274.48M |
+| [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 5.23% | $418.62M |
+| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $274.47M |
 | [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 6.70% | $260.92M |
-| [aave-v3 →](https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token) | Ethereum | 3.31% | $172.86M |
+| [aave-v3 →](https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token) | Ethereum | 3.28% | $181.98M |
 | [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 8.02% | $167.55M |
-| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 5.36% | $145.97M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 20.16% | $115.25M |
+| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 5.29% | $146.12M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 18.90% | $115.25M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pareto-credit에서 APY 8.02%�
 
 ### USDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,513개이며, 합산 TVL은 $8.51B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,512개이며, 합산 TVL은 $8.53B예요.
 
 ### 이 수익률은 안전한가요?
 

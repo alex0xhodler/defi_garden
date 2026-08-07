@@ -5,7 +5,7 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $112K |
-| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 0.50% | $108.4K |
+| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 0.44% | $108.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

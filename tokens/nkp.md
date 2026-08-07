@@ -1,10 +1,10 @@
 # NKP DeFi Yields
 
-The highest honest NKP yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NKP yield right now is 0.03% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b2e8048b-5326-401e-8487-d591b50a67bb&src=seo_token) | Ethereum | 0.01% | $387.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b2e8048b-5326-401e-8487-d591b50a67bb&src=seo_token) | Ethereum | 0.03% | $387.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NKP yield today?
 
-0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NKP pools clear the TVL floor?
 

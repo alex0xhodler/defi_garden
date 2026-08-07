@@ -1,11 +1,10 @@
 # BOX DeFi Yields
 
-The highest honest BOX yield right now is 13.03% on uniswap-v3 (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOX yield right now is 13.02% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token) | BSC | 13.03% | $113.9K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f42f0183-0c91-46f8-9b18-0fcafa094529&src=seo_token) | Ethereum | 0.94% | $101.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=453c7e94-b24d-4352-8684-66f9dab3e88b&src=seo_token) | BSC | 13.02% | $114K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOX yield today?
 
-13.03% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+13.02% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BOX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $215.1K in total.
+1 live pool clear this page's $100K TVL floor, $114K in total.
 
 ### Are these rates safe?
 
@@ -25,16 +24,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [USDT](https://www.defi.garden/tokens/usdt)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USYC](https://www.defi.garden/tokens/usyc)
+- [TRX](https://www.defi.garden/tokens/trx)
+- [SLISBNB](https://www.defi.garden/tokens/slisbnb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Last updated August 7, 2026

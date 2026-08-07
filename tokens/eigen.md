@@ -1,12 +1,12 @@
 # EIGEN DeFi Yields
 
-The highest honest EIGEN yield right now is 5.35% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EIGEN yield right now is 5.33% on uniswap-v3 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 1.43% | $1.1M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 1.40% | $1.1M |
 | [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.68% | $204.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 5.35% | $133.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 5.33% | $133.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EIGEN yield today?
 
-5.35% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.33% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EIGEN pools clear the TVL floor?
 

@@ -4,8 +4,8 @@ The highest honest LISUSD yield right now is 1.17% on venus-core-pool (BSC), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token) | BSC | 1.00% | $28.49M |
-| [venus-core-pool →](https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token) | BSC | 1.17% | $651.7K |
+| [lista-lending →](https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token) | BSC | 0.99% | $28.49M |
+| [venus-core-pool →](https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token) | BSC | 1.17% | $651.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
