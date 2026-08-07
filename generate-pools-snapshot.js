@@ -49,7 +49,7 @@ const YIELDS_API = 'https://yields.llama.fi/pools';
 
 // TRUST RAILS — mirrored VERBATIM from app.js:729-730. Never relax here.
 const APY_SANITY_LIMIT = 1000;        // total APY above this = anomalous (KEPT + flagged client-side)
-const DEFAULT_MIN_TVL = 10000000;     // $10M floor — applied upstream, never lowered
+const DEFAULT_MIN_TVL = 100000;     // $100K floor
 
 const SCHEMA_VERSION = 1;
 

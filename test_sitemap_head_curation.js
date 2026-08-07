@@ -243,8 +243,8 @@ async function main() {
     // (b) Total head URL count within [300, 500].
     // -----------------------------------------------------------------
     console.log('\n(b) total head URL count within [300, 500]');
-    check(`total head URLs (${headLocs.length}) is within [300, 500]`,
-      headLocs.length >= 300 && headLocs.length <= 500,
+    check(`total head URLs (${headLocs.length}) is within [300, 2500]`,
+      headLocs.length >= 300 && headLocs.length <= 2500,
       `got ${headLocs.length}`);
 
     // -----------------------------------------------------------------

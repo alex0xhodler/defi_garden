@@ -56,11 +56,11 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?chain=All</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=All" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=All&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=All" />
-    <lastmod>2026-07-31T03:48:56.397Z</lastmod>
+    <loc>https://www.defi.garden/?chain=All&amp;minTvl=10000000</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=All&amp;minTvl=10000000" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=All&amp;minTvl=10000000&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=All&amp;minTvl=10000000" />
+    <lastmod>2026-08-07T22:33:51.286Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -97,6 +97,15 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=All&amp;minApy=20&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=All&amp;minApy=20" />
     <lastmod>2026-07-31T03:48:56.397Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?chain=All&amp;minApy=50</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=All&amp;minApy=50" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=All&amp;minApy=50&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=All&amp;minApy=50" />
+    <lastmod>2026-08-07T22:33:51.286Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

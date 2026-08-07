@@ -25,7 +25,7 @@ const LANGUAGES = ['en', 'ko'];
 // advertises more than the live page shows by default.
 // Must stay in sync with app.js: DEFAULT_MIN_TVL (app.js:730) and
 // APY_SANITY_LIMIT (app.js:729) — no shared import exists between the two.
-const SITEMAP_MIN_TVL = 10000000; // = app.js DEFAULT_MIN_TVL
+const SITEMAP_MIN_TVL = 100000; // = app.js DEFAULT_MIN_TVL
 const APY_SANITY_LIMIT = 1000; // = app.js APY_SANITY_LIMIT
 const SITEMAP_MIN_QUALIFYING_POOLS = 2;
 

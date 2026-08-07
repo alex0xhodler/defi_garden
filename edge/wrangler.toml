@@ -43,7 +43,7 @@ compatibility_date = "2026-07-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "defi-garden-history"
-database_id = "REPLACE_WITH_EXISTING_defi-garden-history_ID"
+database_id = "2a6a3b87-cc0e-4ed7-a6c6-a8bb49015814"
 
 [[routes]]
 pattern = "www.defi.garden/*"

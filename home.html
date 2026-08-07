@@ -254,7 +254,7 @@
                                     var minApy = args.minApy || 0;
                                     
                                     var filtered = pools.filter(function(p) {
-                                        if (p.tvlUsd < 10000000) return false;
+                                        if (p.tvlUsd < 100000) return false;
                                         if (p.apy > 1000) return false;
                                         
                                         if (token && !p.symbol.toLowerCase().includes(token)) return false;

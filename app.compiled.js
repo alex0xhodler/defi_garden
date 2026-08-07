@@ -802,7 +802,7 @@ function AnimatedNumber({
 
 // APY sanity constants
 var APY_SANITY_LIMIT = 1000;
-var DEFAULT_MIN_TVL = 10000000; // $10M default floor
+var DEFAULT_MIN_TVL = 100000; // $100K default floor
 
 // Shape gate for a `?pool=` id before it is ever reflected into a fetch path
 // (spec 216) — the SAME shape check generate-pool-pages.js's UUID_RE uses to
