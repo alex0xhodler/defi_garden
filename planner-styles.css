@@ -1415,6 +1415,13 @@
   border: 1px solid transparent;
   transition: background var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
+  /* center the label under any wrap or OS text inflation — the fixed
+     line-height left wrapped/inflated labels stuck at the top (mobile). */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.25;
 }
 /* 225 round 3c P0 (same class as pool-detail CTA fix): the checkout CTA can
    render as an <a>, and style.css's `a:hover` color outranks the base rule —
