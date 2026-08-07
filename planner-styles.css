@@ -15,6 +15,14 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* Certificate geometry (247 world): pool detail's panels sit at 2–4px,
+     never the soft 8/12/16px app radii. Rescoping the tokens here snaps
+     every tokened radius in the planner (cards, chips-rows, inputs,
+     panels) to the same near-square plate cut — pills (--radius-full)
+     and avatar circles are deliberately untouched. */
+  --ui-radius-sm: 3px;
+  --ui-radius-md: 4px;
+  --ui-radius-lg: 4px;
 }
 
 /* ── The planner as the same sheet (247 world) ──────────────────────────
@@ -970,11 +978,12 @@
   flex-wrap: wrap;
 }
 .gp-engine-filter-label {
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-semibold);
+  font-family: var(--font-family-display);
+  font-size: 11px;
+  font-weight: 600;
   color: var(--color-text-secondary);
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.18em;
   white-space: nowrap;
   min-width: 36px;
 }
@@ -1909,8 +1918,8 @@
 
 /* Subscription ladder — cumulative stack */
 .gp-sub-ladder { margin: 14px 0; }
-.gp-sub-ladder-title { font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
-  letter-spacing: 0.04em; color: var(--ui-text-secondary); margin-bottom: 8px; }
+.gp-sub-ladder-title { font-family: var(--font-family-display); font-size: 11px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.22em; color: var(--ui-text-secondary); margin-bottom: 8px; }
 .gp-sub-rung {
   display: flex; align-items: center; gap: 8px; padding: 10px 14px;
   border-radius: var(--ui-radius-sm); margin-bottom: 6px;
@@ -2145,11 +2154,12 @@
 }
 
 .gp-plan-card-title {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
+  font-family: var(--font-family-display);
+  font-size: 11px;
+  font-weight: 600;
   color: var(--color-text-secondary);
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.22em;
   margin-bottom: var(--space-4);
 }
 
