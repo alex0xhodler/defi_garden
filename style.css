@@ -6475,3 +6475,80 @@ a.hub-cta:active {
   a.tp-cta:active, a.cp-cta:active, a.hub-cta:active,
   .related-links a[href]:active, .hub-links a[href]:active { transform: none; }
 }
+
+/* ═══ 247 WORLD — GENERATED ESTATE AS THE SAME SHEET ═════════════════════
+   /tokens, /chains, hubs, A–Z and KO twins: the baked page blocks only set
+   font-size/margin/color on their h2s and layout on their wraps, so these
+   non-conflicting declarations apply regardless of cascade order — no
+   regeneration needed. Headings join the Besley certificate voice; each
+   page wrap carries the same page-margin guilloché strands + watermark
+   rosette the app surfaces already have (primitives/keyframes: ORNAMENT
+   SYSTEM above; pseudos are fixed, so the 860px wrap doesn't clip them). */
+.tp-wrap h1, .cp-wrap h1, .hub-wrap h1 {
+  font-weight: 600;
+  letter-spacing: -.01em;
+}
+.tp-wrap h2, .cp-wrap h2, .hub-wrap h2 {
+  font-family: var(--font-family-display);
+  font-weight: 600;
+  letter-spacing: -.005em;
+}
+.tp-wrap, .cp-wrap, .hub-wrap {
+  position: relative;
+  isolation: isolate;
+}
+.tp-wrap::before, .cp-wrap::before, .hub-wrap::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+.tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+@media (min-width: 1080px) {
+  .tp-wrap::before, .cp-wrap::before, .hub-wrap::before,
+  .tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+    opacity: 1;
+  }
+  .tp-wrap::before, .cp-wrap::before, .hub-wrap::before {
+    animation: ornDrift 109s ease-in-out infinite alternate;
+  }
+  .tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+    animation: ornTurn 121s ease-in-out infinite alternate,
+               ornBreathe 95s ease-in-out infinite alternate;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tp-wrap::before, .cp-wrap::before, .hub-wrap::before,
+  .tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+    animation: none !important;
+  }
+}

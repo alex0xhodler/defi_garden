@@ -10,9 +10,81 @@
 }
 
 .gp-app {
+  position: relative;
+  isolation: isolate;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+/* ── The planner as the same sheet (247 world) ──────────────────────────
+   Same certificate ornament layer the grid/search/landing/pool-detail
+   already carry — page-margin guilloché strands + a watermark rosette
+   bleeding off the right edge, ≥1080px gate, ambient drift. Primitives,
+   keyframes (ornDrift/ornTurn/ornBreathe) and tokens come from style.css's
+   ORNAMENT SYSTEM (style.min.css loads before this sheet on plan.html).
+   `position: fixed` like the grid's — the planner scrolls, the sheet
+   doesn't. z-index -1 under `isolation: isolate` above keeps the layer
+   below every .gp-* child without a stacking negotiation. */
+.gp-app::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+
+.gp-app::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+
+@media (min-width: 1080px) {
+  .gp-app::before,
+  .gp-app::after {
+    opacity: 1;
+  }
+
+  .gp-app::before {
+    animation: ornDrift 113s ease-in-out infinite alternate;
+  }
+
+  .gp-app::after {
+    animation: ornTurn 127s ease-in-out infinite alternate,
+               ornBreathe 98s ease-in-out infinite alternate;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gp-app::before,
+  .gp-app::after {
+    animation: none !important;
+  }
 }
 
 /* ---------- Header ---------- */
@@ -147,11 +219,14 @@
   text-align: center;
   margin-bottom: var(--space-24);
 }
+/* 247 world: planner headings/numbers speak the same Besley display voice
+   as pool detail (600 weight, near-neutral tracking). */
 .gp-tagline h1 {
   margin: 0;
+  font-family: var(--font-family-display);
   font-size: var(--font-size-3xl);
-  font-weight: var(--font-weight-bold);
-  letter-spacing: var(--letter-spacing-tight);
+  font-weight: 600;
+  letter-spacing: -.01em;
   color: var(--color-text);
 }
 .gp-tagline p {
@@ -205,9 +280,11 @@
 
 .gp-question {
   margin: 0 0 var(--space-16);
+  font-family: var(--font-family-display);
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-semibold);
+  font-weight: 600;
   line-height: var(--line-height-tight);
+  letter-spacing: -.005em;
   color: var(--color-text);
 }
 .gp-preset-intro {
@@ -521,9 +598,11 @@
 /* Price anchor — the "cost" displayed like Stripe shows $29/mo */
 .gp-checkout-price-block { display: flex; flex-direction: column; gap: 2px; }
 .gp-checkout-price {
+  font-family: var(--font-family-display);
   font-size: 30px;
-  font-weight: var(--font-weight-bold);
-  letter-spacing: var(--letter-spacing-tight);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.01em;
   color: var(--color-text);
   line-height: 1;
 }
@@ -644,8 +723,9 @@
 }
 .gp-share-prompt-text {
   margin: 0;
+  font-family: var(--font-family-display);
   font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
+  font-weight: 600;
   color: var(--color-text);
   line-height: var(--line-height-normal);
 }
@@ -714,9 +794,11 @@
   align-items: flex-start;
 }
 .gp-headline-figure {
+  font-family: var(--font-family-display);
   font-size: 38px;
-  font-weight: var(--font-weight-bold);
-  letter-spacing: var(--letter-spacing-tight);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.01em;
   color: var(--color-primary);
   line-height: 1.15;
   max-width: 560px;
@@ -813,8 +895,10 @@
 
 /* Pools */
 .gp-pools-heading {
+  font-family: var(--font-family-display);
   font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-semibold);
+  font-weight: 600;
+  letter-spacing: -.005em;
   color: var(--color-text);
   margin-bottom: var(--space-12);
 }
@@ -1330,12 +1414,13 @@
   border: 1px solid var(--ui-border);
 }
 .gp-makeit-label {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
+  font-family: var(--font-family-display);
+  font-size: 11px;
+  font-weight: 600;
   color: var(--color-text-secondary);
   margin-bottom: var(--space-12);
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.22em;
 }
 .gp-makeit-sliders { display: flex; flex-direction: column; gap: var(--space-12); }
 .gp-slider-group { display: flex; flex-direction: column; gap: var(--space-6); }
@@ -1818,8 +1903,9 @@
 /* Goal groups (step 1) */
 .gp-goal-groups { display: flex; flex-direction: column; gap: 4px; }
 .gp-goal-group { margin-bottom: 8px; }
-.gp-goal-cat-label { font-size: 0.8rem; font-weight: 600; text-transform: uppercase;
-  letter-spacing: 0.04em; color: var(--ui-text-secondary); margin: 0 0 6px 0; }
+/* Plate-label voice — pool-detail's serif micro-caps recipe. */
+.gp-goal-cat-label { font-family: var(--font-family-display); font-size: 11px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.22em; color: var(--ui-text-secondary); margin: 0 0 6px 0; }
 
 /* Subscription ladder — cumulative stack */
 .gp-sub-ladder { margin: 14px 0; }
@@ -2232,11 +2318,12 @@
   font-family: var(--font-family-base);
 }
 .gp-makeit-compact-label {
-  font-size: var(--font-size-xs);
+  font-family: var(--font-family-display);
+  font-size: 11px;
   color: var(--color-text-secondary);
-  font-weight: var(--font-weight-medium);
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.18em;
   flex-shrink: 0;
 }
 .gp-makeit-compact-summary {
