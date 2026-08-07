@@ -1233,7 +1233,7 @@
 .gp-report-status {
   display: inline-block;
   padding: var(--space-8) var(--space-16);
-  border-radius: var(--radius-full);
+  border-radius: 3px;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-semibold);
   border: 1px solid var(--ui-border);
@@ -1544,7 +1544,7 @@
   font-weight: var(--font-weight-semibold);
   color: var(--color-primary);
   padding: var(--space-4) var(--space-10);
-  border-radius: var(--radius-full);
+  border-radius: 3px;
   background: var(--color-background);
   border: 1px solid var(--ui-border);
 }
@@ -1944,7 +1944,7 @@
 .gp-rung-right { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0; }
 .gp-rung-forever { font-size: 0.85rem; font-weight: 600; color: var(--ui-text-secondary); }
 .gp-rung-badge {
-  background: var(--color-primary); color: #fff; border-radius: 99px;
+  background: var(--color-primary); color: #fff; border-radius: 3px;
   padding: 2px 8px; font-size: 0.72rem; font-weight: 600;
 }
 .gp-rung-pct { font-size: 0.75rem; color: var(--ui-text-secondary); }
@@ -2113,7 +2113,7 @@
   font-weight: var(--font-weight-semibold);
   color: var(--color-primary);
   background: var(--color-background);
-  border-radius: var(--radius-full);
+  border-radius: 3px;
   border: 1px solid var(--ui-border);
   padding: var(--space-4) var(--space-10);
   margin-bottom: var(--space-12);
@@ -2125,7 +2125,7 @@
   font-weight: var(--font-weight-semibold);
   color: var(--color-primary);
   background: var(--color-background);
-  border-radius: var(--radius-full);
+  border-radius: 3px;
   border: 1px solid var(--ui-border);
   padding: var(--space-4) var(--space-10);
   margin-top: var(--space-10);

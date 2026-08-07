@@ -6224,7 +6224,9 @@ body,
   box-sizing: border-box;
 }
 
-/* ---------- Chip / pill — always pill; control-h-sm, control-h with an icon ---------- */
+/* ---------- Chip — certificate cut (3px), control-h-sm, control-h with an
+   icon. 247 world: chips left the pill shape with the rest of the app; only
+   round icon CONTROLS (the rule above) keep the circle. ---------- */
 .landing-example-chip,
 .gp-ask-chip,
 .filter-pill,
@@ -6240,7 +6242,7 @@ body,
   height: var(--ui-control-h-sm);
   min-height: var(--ui-control-h-sm);
   padding: 0 14px;
-  border-radius: var(--ui-radius-pill);
+  border-radius: 3px;
   font-size: 14px;
   font-weight: var(--font-weight-medium); /* 500 */
   line-height: 1;
@@ -6256,7 +6258,7 @@ body,
   justify-content: center;
   min-height: var(--ui-control-h);
   padding: 0 14px;
-  border-radius: var(--ui-radius-pill);
+  border-radius: 3px;
   font-size: 14px;
   font-weight: var(--font-weight-medium);
   line-height: 1.2;
