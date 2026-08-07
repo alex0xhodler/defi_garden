@@ -722,3 +722,108 @@ documentation-honesty defect, not a code defect: the build session mis-attribute
 redirect **both** `AUDIT_ROTATION_STATE` and `AUDIT_STATIC_ROTATION_STATE` before the **first** audit
 invocation (not after a baseline run), and never call a dirty file pre-existing without checking the
 pickup-time `git status`.
+
+---
+
+## The sixth axis: which VALUE TYPES can the predicate evaluate at all? (added 2026-08-07, items 248/249)
+
+Axes 1-5 ask which claim classes a checker can see, what fraction of the population it reaches, whether the
+population is fully enumerated, under which rendering conditions, and whether its allow-list models every
+consumer. All six-minus-one still assume that once the checker *reaches* a member, it can **evaluate** it.
+This axis is the case where it reaches everything and silently evaluates only some of it, because the
+predicate is guarded by a **type test**.
+
+**The tell is a one-line `continue` with a reassuring comment.** `audit-app.js:1071`, the `en-ko-parity`
+value-honesty rule:
+
+```js
+if (typeof enVal !== 'string' || typeof koVal !== 'string') continue; // function/array/number leaves: parity only
+```
+
+Measured against the live dictionary: **391 of 544 keys are strings and get value-checked; 153 (28.1%) are
+functions and get key-existence and nothing else.** The blind region is not the boring tail — **~80 of the
+153 are `planner.*`** (`bloomHeadline`, `heroTarget`, `shareTweet`, `degenHaircutNote`), i.e. the narrative
+copy on the ICP's default surface, plus the whole `tcp*` family behind the generated SEO estate.
+
+**Why this survives longer than the other axes:** the skip is *documented*. `flattenI18nDict`'s own comment
+names function leaves as terminal values and even cites `returnStatus` as an example. A skip with an
+explanatory comment reads as a considered decision, so nobody re-opens it — where an undocumented one invites
+a second look. **A comment explaining why a check does not run is not the same as a decision that it should
+not.** Treat an explanatory comment on a `continue` as a finding, not as reassurance.
+
+**How it surfaced (and it was not by the checker):** item 225 added 5 translation keys in both namespaces;
+3 of the 5 had byte-identical EN/KO values. The gate caught the two string ones and could not see the third,
+``onProtocolChain: (protocol, chain) => `${protocol} · ${chain}` ``. The gap is found by **auditing a commit
+the checker just passed**, never by a clean tick.
+
+### The step that matters most: SIZE THE BLIND REGION BEFORE YOU SCORE IT
+
+Axis 3 already states this for page sub-populations (*"size it honestly before ticketing … run the existing
+predicates over the unscanned sub-population by hand first"*). **Restated in its weakest form, because it is
+not about populations — it is about any blind region, however it was carved:**
+
+> Whenever you find a region a checker cannot see — a sub-population, a leaf type, a lens value, a consumer —
+> **apply the checker's own predicate to that region by hand, and put the defect count in the backlog row.**
+> The number decides whether you filed a bug or a coverage item, and they rank very differently.
+
+Do it in two passes, weakest last:
+
+1. **The strict pass** — exact equality of the two sides (`en[k].toString() === ko[k].toString()`). Cheap,
+   but *too strong*: it misses a KO value that differs from EN and is still English.
+2. **The predicate pass** — run the gate's actual rule against the region, normalising the value into
+   whatever the rule expects. For a function leaf that means extracting comparable literal text: strip the
+   parameter list, strip every `${…}` interpolation, then apply the rule (here: no Hangul AND ≥1 Latin letter).
+
+Worked, on the 153 blind keys:
+
+| pass | result |
+|---|---|
+| strict (identical source) | **2 of 153 (1.3%)** — `onProtocolChain`, `poolPageTitle`; neither carries Latin prose |
+| the gate's own predicate | **1 of 153** — `poolPageTitle`, whose only Latin is the brand name "DeFi Garden" |
+
+So the blind region was **clean**, and the item was filed as latent coverage (5.5) instead of the P1 it
+superficially resembled. **This is the whole value of the step.** A 28.1% blind spot on the ICP's default
+surface writes itself as an alarming ticket; the measurement is what keeps the backlog rankable — axis 3's
+own warning, *"a coverage item oversold as a bug is how a backlog stops being rankable."*
+
+### Writing the fix so the axis cannot recur
+
+- **Do not special-case the type you just found.** `typeof === 'function'` is the same mistake one notch
+  wider. Write a **normalising extractor** that returns comparable text for any leaf type and returns
+  `null` for what it genuinely cannot handle — then **count and emit the nulls** (`skippedLeafTypes`), so
+  the next unhandled type is visible instead of silent. The weakest predicate is *every leaf the dictionary
+  can hold is value-checked, whatever its type*.
+- **Derive the type census at run time, never pin it.** `functionLeaves === 153` is a literal that re-breaks
+  on the next copy change; assert `stringLeaves + functionLeaves === scanned` and that the function count is
+  `> 0` and equal to the live count. (196's seen-cap rule and 197's disk-read population rule, one level down.)
+- **Non-vacuity must be proved on the newly-covered TYPE.** A red demonstrated on a *string* leaf proves only
+  the path that already worked. Force a `planner.*` **function** leaf's literal text to English, confirm the
+  gate names that key, restore byte-identically (`md5sum`). This is the type-level twin of 201's
+  "non-vacuity for a lens is width-specific, not check-specific."
+
+### The neighbouring trap: a suspect in the blind region may be an ALLOW-LIST omission, not a defect
+
+Both keys the gate *did* catch this tick (`resultsColApy` ko `"APY"`, `resultsColTvl` ko `"TVL"`) were
+**correct copy with a missing exemption**: `I18N_UNTRANSLATED_ALLOWLIST` already blessed `navFilterApy`,
+`navFilterTvl`, `tvl`, `planner.poolApy`, `planner.poolTvl` and — decisively — `tcpColApy`/`tcpColTvl`, the
+token/chain-page column headers for those exact two acronyms.
+
+> **Before "fixing" a new suspect, grep the allow-list for a SEMANTIC SIBLING of the key.** If the same value
+> on a different surface is already exempt, you have found an allow-list that lags new key families — a
+> two-line data fix — not untranslated copy. Editing `translations.js` here would have shipped a Korean gloss
+> the EN side does not carry.
+
+And then price the exemption set, per `guard-exemption-rate.md`: after the fix, **8 of 26 entries (30.8%)
+are one repeated acronym pair**, and the next surface with an APY/TVL header adds a 9th. That ratio is over
+the *allow-list*, not the population — the exemption **rate** is 8/391 string keys = **2.0%**, far under the
+~⅓ threshold at which the mechanism itself is wrong. So the narrow per-key fix is correct today, and the
+weaker mechanism (exempt by VALUE over the bounded set `{"APY","TVL"}`) is recorded as the thing to re-ask
+when a 9th lands — **not** taken pre-emptively, because the exact-key-path rule is a deliberate
+auditability choice (`audit-app.js:955-960`).
+
+**Provenance:** items 248/249, heartbeat 2026-08-07. Found by auditing the *four new keys* item 225's merge
+added to `translations.js` after the gate reported 2 suspects — the third identical pair was invisible to the
+gate by type. Third narrowing found in this one gate's predicate (item **190** shipped half its conjunction;
+item **198** fixed the predicate to key on the KO value alone; this is the first found in its *type* coverage
+rather than its logic), which is itself the finding: a gate that has been narrowed three times is a gate
+whose predicate should be re-derived from what it guards, not patched again.

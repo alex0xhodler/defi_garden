@@ -27,7 +27,11 @@
       "tokens/slnusdt.html",
       "tokens/xbtc.html",
       "tokens/cusdo.html",
-      "tokens/liquidusd.html"
+      "tokens/liquidusd.html",
+      "tokens/maka.html",
+      "tokens/srmhyper.html",
+      "tokens/yog.html",
+      "tokens/doge.html"
     ]
   },
   "chains": {
@@ -44,7 +48,9 @@
       "chains/heco.html",
       "chains/tac.html",
       "chains/venom.html",
-      "chains/icp.html"
+      "chains/icp.html",
+      "chains/monad.html",
+      "chains/astar.html"
     ]
   },
   "koTokens": {
@@ -69,7 +75,11 @@
       "ko/tokens/ususds.html",
       "ko/tokens/black.html",
       "ko/tokens/hgeth.html",
-      "ko/tokens/qqqb.html"
+      "ko/tokens/qqqb.html",
+      "ko/tokens/wbnb.html",
+      "ko/tokens/car.html",
+      "ko/tokens/inv.html",
+      "ko/tokens/rsup.html"
     ]
   },
   "koChains": {
@@ -84,7 +94,9 @@
       "ko/chains/megaeth.html",
       "ko/chains/algorand.html",
       "ko/chains/cronos-zkevm.html",
-      "ko/chains/robinhood-chain.html"
+      "ko/chains/robinhood-chain.html",
+      "ko/chains/canto.html",
+      "ko/chains/osmosis.html"
     ]
   }
 }
