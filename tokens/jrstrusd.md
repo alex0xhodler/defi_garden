@@ -1,10 +1,18 @@
 # JRSTRUSD DeFi Yields
 
+<<<<<<< HEAD
 The highest honest JRSTRUSD yield right now is 11.60% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [royco-v2 →](https://www.defi.garden/?pool=770af48f-80a5-5574-bbe3-fed480a999b6&src=seo_token) | Ethereum | 11.60% | $1.01M |
+=======
+The highest honest JRSTRUSD yield right now is 11.61% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [royco-v2 →](https://www.defi.garden/?pool=770af48f-80a5-5574-bbe3-fed480a999b6&src=seo_token) | Ethereum | 11.61% | $1.01M |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRSTRUSD yield today?
 
+<<<<<<< HEAD
 11.60% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+=======
+11.61% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many JRSTRUSD pools clear the TVL floor?
 

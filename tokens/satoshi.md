@@ -1,10 +1,18 @@
 # SATOSHI DeFi Yields
 
+<<<<<<< HEAD
 The highest honest SATOSHI yield right now is 0.34% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=4411a2a3-ed2a-47a4-afc5-a3790e7707bd&src=seo_token) | Ethereum | 0.34% | $146.5K |
+=======
+The highest honest SATOSHI yield right now is 0.35% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v2 →](https://www.defi.garden/?pool=4411a2a3-ed2a-47a4-afc5-a3790e7707bd&src=seo_token) | Ethereum | 0.35% | $146.2K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SATOSHI yield today?
 
+<<<<<<< HEAD
 0.34% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SATOSHI pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $146.5K in total.
+=======
+0.35% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+
+### How many SATOSHI pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $146.2K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -4,10 +4,17 @@ The highest honest ETHX yield right now is 2.20% on stader (Ethereum), among 6 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token) | Ethereum | 2.20% | $155.95M |
 | [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token) | Ethereum | 1.49% | $533.3K |
 | [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e&src=seo_token) | Ethereum | 1.49% | $350.3K |
 | [stake-dao →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token) | Ethereum | 1.45% | $178.6K |
+=======
+| [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token) | Ethereum | 2.20% | $155.34M |
+| [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token) | Ethereum | 0.22% | $533.2K |
+| [convex-finance →](https://www.defi.garden/?pool=65b7d01f-52de-4071-a735-698c52d3643e&src=seo_token) | Ethereum | 0.22% | $350.1K |
+| [stake-dao →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token) | Ethereum | 1.48% | $178.6K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +26,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ETHX pools clear the TVL floor?
 
+<<<<<<< HEAD
 6 live pools clear this page's $100K TVL floor, $157.28M in total.
+=======
+6 live pools clear this page's $100K TVL floor, $156.67M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,10 +1,18 @@
 # OMI DeFi Yields
 
+<<<<<<< HEAD
 The highest honest OMI yield right now is 13.66% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=727a886f-e76c-440e-a246-90a83dca4dd7&src=seo_token) | Base | 13.66% | $253.1K |
+=======
+The highest honest OMI yield right now is 13.03% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=727a886f-e76c-440e-a246-90a83dca4dd7&src=seo_token) | Base | 13.03% | $253.8K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OMI yield today?
 
+<<<<<<< HEAD
 13.66% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many OMI pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $253.1K in total.
+=======
+13.03% APY on uniswap-v3 (Base), based on live DefiLlama data.
+
+### How many OMI pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $253.8K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

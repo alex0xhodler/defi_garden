@@ -1,10 +1,18 @@
 # LIKE DeFi Yields
 
+<<<<<<< HEAD
 The highest honest LIKE yield right now is 5.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token) | Solana | 5.10% | $10.05M |
+=======
+The highest honest LIKE yield right now is 5.76% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=185ce02a-06db-4051-a6d8-25f86b32d77f&src=seo_token) | Solana | 5.76% | $10.05M |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIKE yield today?
 
+<<<<<<< HEAD
 5.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+=======
+5.76% APY on raydium-amm (Solana), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many LIKE pools clear the TVL floor?
 

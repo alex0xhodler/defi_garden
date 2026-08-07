@@ -1,5 +1,6 @@
 # ASTEROID DeFi Yields
 
+<<<<<<< HEAD
 The highest honest ASTEROID yield right now is 20.55% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,6 +9,16 @@ The highest honest ASTEROID yield right now is 20.55% on uniswap-v2 (Ethereum), 
 | [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 4.91% | $613.1K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 20.55% | $247.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 0.13% | $114.4K |
+=======
+The highest honest ASTEROID yield right now is 39.61% on uniswap-v2 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 39.61% | $1.75M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 5.15% | $613.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 11.88% | $260K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 0.15% | $114.5K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +26,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ASTEROID yield today?
 
+<<<<<<< HEAD
 20.55% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ASTEROID pools clear the TVL floor?
 
 6 live pools clear this page's $100K TVL floor, $6.2M in total.
+=======
+39.61% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+
+### How many ASTEROID pools clear the TVL floor?
+
+6 live pools clear this page's $100K TVL floor, $6.22M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,5 +1,6 @@
 # JUP DeFi Yields
 
+<<<<<<< HEAD
 The highest honest JUP yield right now is 19.42% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -9,6 +10,17 @@ The highest honest JUP yield right now is 19.42% on orca-dex (Solana), among 6 p
 | [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 19.42% | $338.2K |
 | [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 10.09% | $309.5K |
 | [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 3.83% | $156.6K |
+=======
+The highest honest JUP yield right now is 17.47% on orca-dex (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token) | Solana | 0.01% | $822.2K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token) | Solana | 14.49% | $655.5K |
+| [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 17.47% | $333K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token) | Solana | 10.09% | $306.3K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 3.83% | $155K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +28,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JUP yield today?
 
+<<<<<<< HEAD
 19.42% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many JUP pools clear the TVL floor?
 
 6 live pools clear this page's $100K TVL floor, $4.06M in total.
+=======
+17.47% APY on orca-dex (Solana), based on live DefiLlama data.
+
+### How many JUP pools clear the TVL floor?
+
+6 live pools clear this page's $100K TVL floor, $3.96M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

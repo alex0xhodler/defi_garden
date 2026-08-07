@@ -4,7 +4,11 @@ The highest honest BUSDC yield right now is 1.54% on curve-dex (Avalanche), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $791.2K |
+=======
+| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $791.3K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BUSDC pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $791.2K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $791.3K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

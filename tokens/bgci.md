@@ -1,10 +1,18 @@
 # BGCI DeFi Yields
 
+<<<<<<< HEAD
 The highest honest BGCI yield right now is 0.67% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=f0e5333b-e19c-4133-ad6a-482e9095b68f&src=seo_token) | Base | 0.67% | $274.9K |
+=======
+The highest honest BGCI yield right now is 0.68% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=f0e5333b-e19c-4133-ad6a-482e9095b68f&src=seo_token) | Base | 0.68% | $274.9K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BGCI yield today?
 
+<<<<<<< HEAD
 0.67% APY on uniswap-v3 (Base), based on live DefiLlama data.
+=======
+0.68% APY on uniswap-v3 (Base), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many BGCI pools clear the TVL floor?
 

@@ -1,10 +1,18 @@
 # JRUSDAT 디파이 수익률
 
+<<<<<<< HEAD
 현재 JRUSDAT의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 51.42%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [strata-markets →](https://www.defi.garden/?pool=1f42963b-ff24-4563-acb7-0fd35e6ec45b&src=seo_token) | Ethereum | 51.42% | $977.9K |
+=======
+현재 JRUSDAT의 가장 높은 정직한 수익률은 Ethereum의 strata-markets에서 51.47%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+
+| 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|
+| [strata-markets →](https://www.defi.garden/?pool=1f42963b-ff24-4563-acb7-0fd35e6ec45b&src=seo_token) | Ethereum | 51.47% | $976.7K |
+>>>>>>> origin/main
 | [pendle →](https://www.defi.garden/?pool=afdfcd5c-ea42-475f-9839-07dd312250b4&src=seo_token) | Ethereum | 16.03% | $244.8K |
 | [pendle →](https://www.defi.garden/?pool=918df5fd-7a53-4c24-ae82-d8dd891cdbc8&src=seo_token) | Ethereum | 11.97% | $244.8K |
 
@@ -14,7 +22,11 @@
 
 ### 오늘 JRUSDAT의 가장 높은 수익률은 얼마인가요?
 
+<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 51.42%예요.
+=======
+DefiLlama 실시간 데이터 기준, Ethereum의 strata-markets에서 APY 51.47%예요.
+>>>>>>> origin/main
 
 ### JRUSDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

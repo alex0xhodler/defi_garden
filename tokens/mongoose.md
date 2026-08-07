@@ -1,3 +1,4 @@
+<<<<<<<< HEAD:tokens/mongoose.md
 # MONGOOSE DeFi Yields
 
 The highest honest MONGOOSE yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
@@ -5,11 +6,21 @@ The highest honest MONGOOSE yield right now is 0.01% on uniswap-v2 (Ethereum), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=fc849390-7ddb-40dd-991c-887bf780b283&src=seo_token) | Ethereum | 0.01% | $789.4K |
+========
+# SLAP DeFi Yields
+
+The highest honest SLAP yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v2 →](https://www.defi.garden/?pool=720f5a92-487f-4e96-b517-7a40c59ba4c6&src=seo_token) | Ethereum | 0.01% | $421.4K |
+>>>>>>>> origin/main:tokens/slap.md
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
 
+<<<<<<<< HEAD:tokens/mongoose.md
 ### What's the highest MONGOOSE yield today?
 
 0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
@@ -17,6 +28,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### How many MONGOOSE pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $789.4K in total.
+========
+### What's the highest SLAP yield today?
+
+0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+
+### How many SLAP pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $421.4K in total.
+>>>>>>>> origin/main:tokens/slap.md
 
 ### Are these rates safe?
 

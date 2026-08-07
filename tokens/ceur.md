@@ -1,11 +1,20 @@
 # CEUR DeFi Yields
 
+<<<<<<< HEAD
 The highest honest CEUR yield right now is 0.01% on uniswap-v3 (Celo), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=5244316f-be8f-4179-af73-f6248d74c2dd&src=seo_token) | Celo | 0.01% | $146.4K |
 | [moola-market →](https://www.defi.garden/?pool=d28c0d39-f65b-403a-9760-19ba8ac0ae2d&src=seo_token) | Celo | 1.00% | $111.5K |
+=======
+The highest honest CEUR yield right now is 0.04% on uniswap-v3 (Celo), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=5244316f-be8f-4179-af73-f6248d74c2dd&src=seo_token) | Celo | 0.04% | $146.4K |
+| [moola-market →](https://www.defi.garden/?pool=d28c0d39-f65b-403a-9760-19ba8ac0ae2d&src=seo_token) | Celo | 1.00% | $111.4K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +22,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CEUR yield today?
 
+<<<<<<< HEAD
 0.01% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many CEUR pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $457.5K in total.
+=======
+0.04% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+
+### How many CEUR pools clear the TVL floor?
+
+3 live pools clear this page's $100K TVL floor, $457.4K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

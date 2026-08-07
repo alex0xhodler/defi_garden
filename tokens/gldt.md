@@ -1,10 +1,18 @@
 # GLDT DeFi Yields
 
+<<<<<<< HEAD
 The highest honest GLDT yield right now is 0.22% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_token) | ICP | 0.22% | $132.1K |
+=======
+The highest honest GLDT yield right now is 0.19% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_token) | ICP | 0.19% | $130K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GLDT yield today?
 
+<<<<<<< HEAD
 0.22% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many GLDT pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $132.1K in total.
+=======
+0.19% APY on icpswap (ICP), based on live DefiLlama data.
+
+### How many GLDT pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $130K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

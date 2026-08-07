@@ -1,5 +1,6 @@
 # STRKBTC 디파이 수익률
 
+<<<<<<< HEAD
 현재 STRKBTC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 32.48%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
@@ -12,6 +13,20 @@
 | [endur →](https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token) | Starknet | 2.10% | $446.6K |
 | [troves →](https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token) | Starknet | 4.06% | $414.2K |
 | [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 3.17% | $373.9K |
+=======
+현재 STRKBTC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 25.50%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+
+| 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|
+| [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 9.70% | $2.99M |
+| [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token) | Starknet | 25.50% | $1.78M |
+| [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 13.79% | $1.33M |
+| [ekubo →](https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token) | Starknet | 16.66% | $839.2K |
+| [ekubo →](https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token) | Starknet | 6.01% | $603.2K |
+| [endur →](https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token) | Starknet | 2.12% | $447.7K |
+| [troves →](https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token) | Starknet | 3.99% | $414.1K |
+| [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 3.09% | $373.7K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +34,11 @@
 
 ### 오늘 STRKBTC의 가장 높은 수익률은 얼마인가요?
 
+<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 32.48%예요.
+=======
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 25.50%예요.
+>>>>>>> origin/main
 
 ### STRKBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

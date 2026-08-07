@@ -4,9 +4,15 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $108.88M |
 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.47% | $618.5K |
 | [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 2.46% | $105.4K |
+=======
+| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $107.98M |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.47% | $613.4K |
+| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 2.59% | $104.8K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,7 +24,11 @@ DefiLlama 실시간 데이터 기준, Stellar의 blend-pools-v2에서 APY 0.47%�
 
 ### XLM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
+<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $109.6M예요.
+=======
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $108.7M예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

@@ -4,7 +4,11 @@ The highest honest TWT yield right now is 0.01% on venus-core-pool (BSC), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [venus-core-pool →](https://www.defi.garden/?pool=c3c5deca-1cfe-42c8-aed4-8c8dd618e98e&src=seo_token) | BSC | 0.01% | $488.1K |
+=======
+| [venus-core-pool →](https://www.defi.garden/?pool=c3c5deca-1cfe-42c8-aed4-8c8dd618e98e&src=seo_token) | BSC | 0.01% | $489.2K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TWT pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $488.1K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $489.2K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

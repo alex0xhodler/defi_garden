@@ -1,5 +1,6 @@
 # GEOD DeFi Yields
 
+<<<<<<< HEAD
 The highest honest GEOD yield right now is 27.85% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -8,6 +9,16 @@ The highest honest GEOD yield right now is 27.85% on orca-dex (Solana), among 5 
 | [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 8.59% | $224.2K |
 | [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 24.58% | $224.2K |
 | [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 6.63% | $121.9K |
+=======
+The highest honest GEOD yield right now is 22.70% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token) | Solana | 22.70% | $251.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 21.53% | $226.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 7.23% | $224.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 5.79% | $122.6K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +26,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GEOD yield today?
 
+<<<<<<< HEAD
 27.85% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many GEOD pools clear the TVL floor?
 
 5 live pools clear this page's $100K TVL floor, $964K in total.
+=======
+22.70% APY on orca-dex (Solana), based on live DefiLlama data.
+
+### How many GEOD pools clear the TVL floor?
+
+5 live pools clear this page's $100K TVL floor, $968.7K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,5 +1,6 @@
 # SUSHI DeFi Yields
 
+<<<<<<< HEAD
 The highest honest SUSHI yield right now is 11.47% on sushiswap (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -7,6 +8,15 @@ The highest honest SUSHI yield right now is 11.47% on sushiswap (Ethereum), amon
 | [sushiswap-v3 →](https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token) | Ethereum | 11.37% | $771K |
 | [sushiswap →](https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token) | Ethereum | 11.47% | $199.2K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token) | Ethereum | 8.93% | $104.1K |
+=======
+The highest honest SUSHI yield right now is 16.14% on sushiswap (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [sushiswap-v3 →](https://www.defi.garden/?pool=a1eaf8b1-2699-4afb-9527-989880080d35&src=seo_token) | Ethereum | 14.81% | $767K |
+| [sushiswap →](https://www.defi.garden/?pool=67e9e077-a277-4906-b7fa-62621223963b&src=seo_token) | Ethereum | 16.14% | $198.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=40506c81-50e7-4063-bc4d-0e3e16031ea7&src=seo_token) | Ethereum | 14.73% | $103.6K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +24,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUSHI yield today?
 
+<<<<<<< HEAD
 11.47% APY on sushiswap (Ethereum), based on live DefiLlama data.
+=======
+16.14% APY on sushiswap (Ethereum), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many SUSHI pools clear the TVL floor?
 

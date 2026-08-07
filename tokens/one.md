@@ -1,10 +1,18 @@
 # ONE DeFi Yields
 
+<<<<<<< HEAD
 The highest honest ONE yield right now is 12.97% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=30165234-d418-4f86-bc9d-f81e82868709&src=seo_token) | Solana | 12.97% | $107.9K |
+=======
+The highest honest ONE yield right now is 14.75% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=30165234-d418-4f86-bc9d-f81e82868709&src=seo_token) | Solana | 14.75% | $107.9K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ONE yield today?
 
+<<<<<<< HEAD
 12.97% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ONE pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $24.06M in total.
+=======
+14.75% APY on raydium-amm (Solana), based on live DefiLlama data.
+
+### How many ONE pools clear the TVL floor?
+
+2 live pools clear this page's $100K TVL floor, $24.04M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

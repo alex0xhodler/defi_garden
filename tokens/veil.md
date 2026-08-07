@@ -1,10 +1,18 @@
 # VEIL DeFi Yields
 
+<<<<<<< HEAD
 The highest honest VEIL yield right now is 83.77% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-v1 →](https://www.defi.garden/?pool=dbbc6ff4-72c5-43cf-aa5c-46e393cdd97e&src=seo_token) | Base | 83.77% | $374K |
+=======
+The highest honest VEIL yield right now is 83.63% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [aerodrome-v1 →](https://www.defi.garden/?pool=dbbc6ff4-72c5-43cf-aa5c-46e393cdd97e&src=seo_token) | Base | 83.63% | $372.7K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VEIL yield today?
 
+<<<<<<< HEAD
 83.77% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many VEIL pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $374K in total.
+=======
+83.63% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+
+### How many VEIL pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $372.7K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

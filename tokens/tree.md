@@ -5,7 +5,11 @@ The highest honest TREE yield right now is 1.30% on uniswap-v3 (Ethereum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=ad4acc7e-f5d4-411f-8774-7744f806cc89&src=seo_token) | Ethereum | 1.30% | $1.09M |
+<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8&src=seo_token) | Base | 0.71% | $439.7K |
+=======
+| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8&src=seo_token) | Base | 0.71% | $438.9K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

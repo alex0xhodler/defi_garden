@@ -4,7 +4,11 @@ The highest honest DSOL yield right now is 5.57% on drift-staked-sol (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [drift-staked-sol →](https://www.defi.garden/?pool=296651fc-25f6-4434-b8ec-17c2af9808da&src=seo_token) | Solana | 5.57% | $204.16M |
+=======
+| [drift-staked-sol →](https://www.defi.garden/?pool=296651fc-25f6-4434-b8ec-17c2af9808da&src=seo_token) | Solana | 5.57% | $203.69M |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DSOL pools clear the TVL floor?
 
+<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $382.17M in total.
+=======
+2 live pools clear this page's $100K TVL floor, $381.03M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

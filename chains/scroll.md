@@ -4,7 +4,11 @@ The highest honest Scroll yield right now is 2.45% on ether.fi-stake (Scroll), a
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=6cec9ad9-01c5-44dd-a081-1ab4e417590c&src=seo_chain) | 2.45% | $467.5K |
+=======
+| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=6cec9ad9-01c5-44dd-a081-1ab4e417590c&src=seo_chain) | 2.39% | $466.7K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Scroll pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $467.5K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $466.7K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

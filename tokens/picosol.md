@@ -16,7 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PICOSOL pools clear the TVL floor?
 
+<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $1.85M in total.
+=======
+2 live pools clear this page's $100K TVL floor, $1.84M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -7,7 +7,11 @@
 | [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 11.46% | $651.2K |
 | [pendle →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token) | Ethereum | 7.05% | $651.2K |
 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token) | Ethereum | 2.55% | $427.3K |
+<<<<<<< HEAD
 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 2.55% | $427.2K |
+=======
+| [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 2.55% | $427.1K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +23,11 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 11.46%예요.
 
 ### FXSAVE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
+<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $60.61M예요.
+=======
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $61.38M예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

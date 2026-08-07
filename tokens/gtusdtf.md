@@ -4,7 +4,11 @@ The highest honest GTUSDTF yield right now is 5.16% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033&src=seo_token) | Ethereum | 4.70% | $11.38M |
+=======
+| [morpho-blue →](https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033&src=seo_token) | Ethereum | 4.87% | $11.38M |
+>>>>>>> origin/main
 | [morpho-blue →](https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363&src=seo_token) | Ethereum | 5.16% | $1.67M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

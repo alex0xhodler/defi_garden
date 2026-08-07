@@ -4,7 +4,11 @@ The highest honest NVDAB yield right now is 105.43% on native-credit-pool (BSC),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74&src=seo_token) | BSC | 105.43% | $128.5K |
+=======
+| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74&src=seo_token) | BSC | 105.43% | $125.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NVDAB pools clear the TVL floor?
 
+<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $259K in total.
+=======
+2 live pools clear this page's $100K TVL floor, $255.7K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

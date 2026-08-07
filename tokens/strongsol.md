@@ -16,7 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STRONGSOL pools clear the TVL floor?
 
+<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $5.97M in total.
+=======
+2 live pools clear this page's $100K TVL floor, $5.96M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

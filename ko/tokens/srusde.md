@@ -4,7 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.16% | $59.06M |
+=======
+| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.15% | $59.05M |
+>>>>>>> origin/main
 | [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 3.97% | $4.6M |
 | [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.65% | $4.6M |
 
@@ -18,7 +22,11 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 3.97%예요.
 
 ### SRUSDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
+<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $117.93M예요.
+=======
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $117.92M예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

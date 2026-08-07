@@ -1,10 +1,18 @@
 # SKR DeFi Yields
 
+<<<<<<< HEAD
 The highest honest SKR yield right now is 30.17% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=fd9493f2-7c09-4348-a5b0-f1081093742f&src=seo_token) | Solana | 30.17% | $354.5K |
+=======
+The highest honest SKR yield right now is 33.75% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [orca-dex →](https://www.defi.garden/?pool=fd9493f2-7c09-4348-a5b0-f1081093742f&src=seo_token) | Solana | 33.75% | $363K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKR yield today?
 
+<<<<<<< HEAD
 30.17% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SKR pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $354.5K in total.
+=======
+33.75% APY on orca-dex (Solana), based on live DefiLlama data.
+
+### How many SKR pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $363K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,5 +1,6 @@
 # GEMSTON 디파이 수익률
 
+<<<<<<< HEAD
 현재 GEMSTON의 가장 높은 정직한 수익률은 TON의 ston.fi에서 1.69%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
@@ -7,6 +8,15 @@
 | [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef&src=seo_token) | TON | 1.25% | $210.2K |
 | [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.35% | $109.3K |
 | [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c&src=seo_token) | TON | 1.69% | $106.8K |
+=======
+현재 GEMSTON의 가장 높은 정직한 수익률은 TON의 ston.fi에서 1.45%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+
+| 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|
+| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef&src=seo_token) | TON | 1.20% | $210K |
+| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.26% | $109.5K |
+| [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c&src=seo_token) | TON | 1.45% | $106K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +24,19 @@
 
 ### 오늘 GEMSTON의 가장 높은 수익률은 얼마인가요?
 
+<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, TON의 ston.fi에서 APY 1.69%예요.
 
 ### GEMSTON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $426.4K예요.
+=======
+DefiLlama 실시간 데이터 기준, TON의 ston.fi에서 APY 1.45%예요.
+
+### GEMSTON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
+
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $425.5K예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

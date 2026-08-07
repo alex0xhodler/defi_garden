@@ -4,7 +4,11 @@ The highest honest CRVLUSD yield right now is 0.07% on yearn-finance (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [yearn-finance →](https://www.defi.garden/?pool=d50e098a-d828-49e4-b65a-d27548478d97&src=seo_token) | Ethereum | 0.07% | $266.5K |
+=======
+| [yearn-finance →](https://www.defi.garden/?pool=d50e098a-d828-49e4-b65a-d27548478d97&src=seo_token) | Ethereum | 0.07% | $266.6K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

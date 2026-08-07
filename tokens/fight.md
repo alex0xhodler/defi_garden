@@ -1,11 +1,20 @@
 # FIGHT DeFi Yields
 
+<<<<<<< HEAD
 The highest honest FIGHT yield right now is 1.88% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token) | Ethereum | 0.03% | $144.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token) | Solana | 1.88% | $132.2K |
+=======
+The highest honest FIGHT yield right now is 2.23% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token) | Ethereum | 0.02% | $145K |
+| [raydium-amm →](https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token) | Solana | 2.23% | $132K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +22,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FIGHT yield today?
 
+<<<<<<< HEAD
 1.88% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FIGHT pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $277.1K in total.
+=======
+2.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+
+### How many FIGHT pools clear the TVL floor?
+
+2 live pools clear this page's $100K TVL floor, $276.9K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

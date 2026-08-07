@@ -1,10 +1,18 @@
 # SJ DeFi Yields
 
+<<<<<<< HEAD
 The highest honest SJ yield right now is 4.26% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=bad7f530-10c0-5f51-be13-890e4440324e&src=seo_token) | Solana | 4.26% | $140.8K |
+=======
+The highest honest SJ yield right now is 3.92% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [orca-dex →](https://www.defi.garden/?pool=bad7f530-10c0-5f51-be13-890e4440324e&src=seo_token) | Solana | 3.92% | $140.6K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SJ yield today?
 
+<<<<<<< HEAD
 4.26% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SJ pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $140.8K in total.
+=======
+3.92% APY on orca-dex (Solana), based on live DefiLlama data.
+
+### How many SJ pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $140.6K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

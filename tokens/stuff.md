@@ -1,10 +1,18 @@
 # STUFF DeFi Yields
 
+<<<<<<< HEAD
 The highest honest STUFF yield right now is 26.12% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [minswap-dex →](https://www.defi.garden/?pool=67dccb2c-0950-488c-a65b-036fee4abf9f&src=seo_token) | Cardano | 26.12% | $174.5K |
+=======
+The highest honest STUFF yield right now is 26.24% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [minswap-dex →](https://www.defi.garden/?pool=67dccb2c-0950-488c-a65b-036fee4abf9f&src=seo_token) | Cardano | 26.24% | $172.9K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STUFF yield today?
 
+<<<<<<< HEAD
 26.12% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many STUFF pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $174.5K in total.
+=======
+26.24% APY on minswap-dex (Cardano), based on live DefiLlama data.
+
+### How many STUFF pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $172.9K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

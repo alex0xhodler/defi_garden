@@ -4,7 +4,11 @@ The highest honest BERASTONE yield right now is 0.01% on uniswap-v3 (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=646eeea2-bac8-4c31-b96c-b8bce376ebae&src=seo_token) | Ethereum | 0.01% | $166.3K |
+=======
+| [uniswap-v3 →](https://www.defi.garden/?pool=646eeea2-bac8-4c31-b96c-b8bce376ebae&src=seo_token) | Ethereum | 0.01% | $166.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BERASTONE pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $166.3K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $166.1K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

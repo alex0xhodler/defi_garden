@@ -1,10 +1,18 @@
 # SNRUSD DeFi Yields
 
+<<<<<<< HEAD
 The highest honest SNRUSD yield right now is 15.32% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [berapaw →](https://www.defi.garden/?pool=7cda51b1-4378-423f-b77d-7304b8b9386c&src=seo_token) | Berachain | 15.32% | $160.4K |
+=======
+The highest honest SNRUSD yield right now is 17.84% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [berapaw →](https://www.defi.garden/?pool=7cda51b1-4378-423f-b77d-7304b8b9386c&src=seo_token) | Berachain | 17.84% | $135.4K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNRUSD yield today?
 
+<<<<<<< HEAD
 15.32% APY on berapaw (Berachain), based on live DefiLlama data.
+=======
+17.84% APY on berapaw (Berachain), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many SNRUSD pools clear the TVL floor?
 

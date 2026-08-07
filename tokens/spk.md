@@ -1,11 +1,20 @@
 # SPK DeFi Yields
 
+<<<<<<< HEAD
 The highest honest SPK yield right now is 4.52% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 4.52% | $595.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 1.58% | $494.8K |
+=======
+The highest honest SPK yield right now is 4.84% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 4.84% | $595.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 1.58% | $495.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +22,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPK yield today?
 
+<<<<<<< HEAD
 4.52% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+=======
+4.84% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many SPK pools clear the TVL floor?
 

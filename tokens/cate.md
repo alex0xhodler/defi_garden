@@ -6,7 +6,11 @@ The highest honest CATE yield right now is 0.55% on raydium-amm (Solana), among 
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=9ad28117-763a-52b9-9d0b-2bdca7abeb10&src=seo_token) | Solana | 0.55% | $1.48M |
 | [raydium-amm →](https://www.defi.garden/?pool=93127081-cbd5-5413-8c29-abe9bf883719&src=seo_token) | Solana | 0.23% | $1.44M |
+<<<<<<< HEAD
 | [uniswap-v2 →](https://www.defi.garden/?pool=33a6ef1d-44b0-463b-a089-88986f542843&src=seo_token) | Ethereum | 53.94% | $115.1K |
+=======
+| [uniswap-v2 →](https://www.defi.garden/?pool=33a6ef1d-44b0-463b-a089-88986f542843&src=seo_token) | Ethereum | 54.65% | $118.7K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

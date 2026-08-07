@@ -1,10 +1,18 @@
 # USA DeFi Yields
 
+<<<<<<< HEAD
 The highest honest USA yield right now is 1.61% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=1a3e39f9-0d00-4a1d-a63b-6c5b1b536fd9&src=seo_token) | Solana | 1.61% | $405.7K |
+=======
+The highest honest USA yield right now is 1.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=1a3e39f9-0d00-4a1d-a63b-6c5b1b536fd9&src=seo_token) | Solana | 1.53% | $407.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USA yield today?
 
+<<<<<<< HEAD
 1.61% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many USA pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $405.7K in total.
+=======
+1.53% APY on raydium-amm (Solana), based on live DefiLlama data.
+
+### How many USA pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $407.1K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

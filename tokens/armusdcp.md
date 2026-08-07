@@ -4,7 +4,11 @@ The highest honest ARMUSDCP yield right now is 3.46% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=49ff023e-209e-495a-9c1a-95d188e954b4&src=seo_token) | Ethereum | 3.46% | $20.48M |
+=======
+| [morpho-blue →](https://www.defi.garden/?pool=49ff023e-209e-495a-9c1a-95d188e954b4&src=seo_token) | Ethereum | 3.46% | $20.47M |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

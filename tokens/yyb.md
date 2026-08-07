@@ -1,5 +1,6 @@
 # YYB DeFi Yields
 
+<<<<<<< HEAD
 The highest honest YYB yield right now is 34.10% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -7,6 +8,15 @@ The highest honest YYB yield right now is 34.10% on convex-finance (Ethereum), a
 | [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 24.05% | $229.4K |
 | [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 16.68% | $210.6K |
 | [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 34.10% | $128.5K |
+=======
+The highest honest YYB yield right now is 34.34% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 24.22% | $228.9K |
+| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 16.79% | $209.8K |
+| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 34.34% | $128K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +24,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YYB yield today?
 
+<<<<<<< HEAD
 34.10% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YYB pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $568.4K in total.
+=======
+34.34% APY on convex-finance (Ethereum), based on live DefiLlama data.
+
+### How many YYB pools clear the TVL floor?
+
+3 live pools clear this page's $100K TVL floor, $566.7K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

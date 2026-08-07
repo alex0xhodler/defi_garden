@@ -1,5 +1,6 @@
 # Hyperliquid L1 DeFi Yields
 
+<<<<<<< HEAD
 The highest honest Hyperliquid L1 yield right now is 7.68% on hyperlend-pooled (Hyperliquid L1), among 162 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
@@ -12,6 +13,20 @@ The highest honest Hyperliquid L1 yield right now is 7.68% on hyperlend-pooled (
 | FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 6.94% | $12.85M |
 | LIMUSD | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_chain) | 7.61% | $10.5M |
 | USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 7.68% | $9.92M |
+=======
+The highest honest Hyperliquid L1 yield right now is 10.95% on kinetiq-khype (Hyperliquid L1), among 160 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Token | Protocol | APY | TVL |
+|---|---|---|---|
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.93% | $780.72M |
+| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.58% | $43.9M |
+| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 5.92% | $18.9M |
+| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 0.79% | $15.86M |
+| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.75% | $13.3M |
+| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 7.04% | $12.7M |
+| LIMUSD | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_chain) | 7.61% | $10.5M |
+| SKNTQ | [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_chain) | 10.95% | $8.64M |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +34,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Hyperliquid L1 yield today?
 
+<<<<<<< HEAD
 7.68% APY on hyperlend-pooled (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many Hyperliquid L1 pools clear the TVL floor?
 
 162 live pools clear this page's $100K TVL floor, $1.71B in total.
+=======
+10.95% APY on kinetiq-khype (Hyperliquid L1), based on live DefiLlama data.
+
+### How many Hyperliquid L1 pools clear the TVL floor?
+
+160 live pools clear this page's $100K TVL floor, $1.72B in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 
@@ -46,5 +69,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [FEHYPE](https://www.defi.garden/tokens/fehype)
 - [FEUSDC](https://www.defi.garden/tokens/feusdc)
 - [LIMUSD](https://www.defi.garden/tokens/limusd)
+- [SKNTQ](https://www.defi.garden/tokens/skntq)
 
 ## Last updated August 7, 2026

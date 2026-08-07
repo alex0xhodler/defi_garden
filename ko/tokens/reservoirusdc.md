@@ -4,7 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2&src=seo_token) | Ethereum | 6.17% | $16.2M |
+=======
+| [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2&src=seo_token) | Ethereum | 6.17% | $16.38M |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +20,11 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.17%예
 
 ### RESERVOIRUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
+<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $16.2M예요.
+=======
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $16.38M예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

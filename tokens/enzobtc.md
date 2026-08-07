@@ -16,7 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ENZOBTC pools clear the TVL floor?
 
+<<<<<<< HEAD
 4 live pools clear this page's $100K TVL floor, $107.72M in total.
+=======
+4 live pools clear this page's $100K TVL floor, $107.7M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

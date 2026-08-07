@@ -1,5 +1,6 @@
 # GEMSTON DeFi Yields
 
+<<<<<<< HEAD
 The highest honest GEMSTON yield right now is 1.69% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -7,6 +8,15 @@ The highest honest GEMSTON yield right now is 1.69% on ston.fi (TON), among 3 po
 | [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef&src=seo_token) | TON | 1.25% | $210.2K |
 | [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.35% | $109.3K |
 | [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c&src=seo_token) | TON | 1.69% | $106.8K |
+=======
+The highest honest GEMSTON yield right now is 1.45% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [ston.fi →](https://www.defi.garden/?pool=709d3202-736e-4bd7-a5fb-bec843ea02ef&src=seo_token) | TON | 1.20% | $210K |
+| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.26% | $109.5K |
+| [ston.fi →](https://www.defi.garden/?pool=5dfe41e2-3f9f-42bd-be29-0f16f8e48f4c&src=seo_token) | TON | 1.45% | $106K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +24,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GEMSTON yield today?
 
+<<<<<<< HEAD
 1.69% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many GEMSTON pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $426.4K in total.
+=======
+1.45% APY on ston.fi (TON), based on live DefiLlama data.
+
+### How many GEMSTON pools clear the TVL floor?
+
+3 live pools clear this page's $100K TVL floor, $425.5K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

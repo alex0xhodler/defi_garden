@@ -1,11 +1,20 @@
 # UPUMP DeFi Yields
 
+<<<<<<< HEAD
 The highest honest UPUMP yield right now is 31.32% on project-x (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [project-x →](https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b&src=seo_token) | Hyperliquid L1 | 26.51% | $258.6K |
 | [project-x →](https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d&src=seo_token) | Hyperliquid L1 | 31.32% | $248.9K |
+=======
+The highest honest UPUMP yield right now is 16.13% on project-x (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [project-x →](https://www.defi.garden/?pool=7bc2a542-ecdb-4510-930d-a7dc54d5d14b&src=seo_token) | Hyperliquid L1 | 10.67% | $259.9K |
+| [project-x →](https://www.defi.garden/?pool=b6d03552-bf47-4bc5-9d29-264453bfad0d&src=seo_token) | Hyperliquid L1 | 16.13% | $252.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +22,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UPUMP yield today?
 
+<<<<<<< HEAD
 31.32% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many UPUMP pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $507.5K in total.
+=======
+16.13% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+
+### How many UPUMP pools clear the TVL floor?
+
+2 live pools clear this page's $100K TVL floor, $512K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

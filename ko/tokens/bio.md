@@ -1,5 +1,6 @@
 # BIO 디파이 수익률
 
+<<<<<<< HEAD
 현재 BIO의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 75.58%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
@@ -10,6 +11,18 @@
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token) | Base | 41.63% | $247.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=77a8b1f4-1119-4d42-8cc3-faeca78d5799&src=seo_token) | Base | 0.01% | $150.8K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 14.48% | $124.1K |
+=======
+현재 BIO의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 37.65%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+
+| 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token) | Base | 664.68% | $317.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token) | Solana | 6.59% | $311.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token) | Ethereum | 4.88% | $286.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token) | Base | 37.65% | $253.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=77a8b1f4-1119-4d42-8cc3-faeca78d5799&src=seo_token) | Base | 0.01% | $150.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 14.35% | $124.5K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,11 +30,19 @@
 
 ### 오늘 BIO의 가장 높은 수익률은 얼마인가요?
 
+<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 75.58%예요.
 
 ### BIO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $1.78M예요.
+=======
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 37.65%예요.
+
+### BIO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
+
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $1.79M예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

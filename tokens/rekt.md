@@ -1,11 +1,20 @@
 # REKT DeFi Yields
 
+<<<<<<< HEAD
 The highest honest REKT yield right now is 5.00% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token) | Ethereum | 2.20% | $998.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token) | Ethereum | 5.00% | $189.2K |
+=======
+The highest honest REKT yield right now is 5.48% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=86384313-4ef1-4f04-ad58-ec8a45332690&src=seo_token) | Ethereum | 2.11% | $996.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=869009a2-5a68-4fd8-87c0-cb9d7124f84b&src=seo_token) | Ethereum | 5.48% | $189.3K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +22,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REKT yield today?
 
+<<<<<<< HEAD
 5.00% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+=======
+5.48% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many REKT pools clear the TVL floor?
 

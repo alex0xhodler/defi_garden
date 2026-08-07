@@ -1,17 +1,31 @@
 # KHYPE 디파이 수익률
 
+<<<<<<< HEAD
 현재 KHYPE의 가장 높은 정직한 수익률은 Hyperliquid L1의 ramses-cl-v2에서 11.07%이며, $100K TVL 기준을 넘는 24개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_token) | Hyperliquid L1 | 1.93% | $780.9M |
 | [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token) | Hyperliquid L1 | 4.22% | $4.04M |
+=======
+현재 KHYPE의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 4.21%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+
+| 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|
+| [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_token) | Hyperliquid L1 | 1.93% | $780.72M |
+| [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token) | Hyperliquid L1 | 4.21% | $4.04M |
+>>>>>>> origin/main
 | [pendle →](https://www.defi.garden/?pool=ab7530b9-f616-4f3a-977f-cc565efbbf01&src=seo_token) | Hyperliquid L1 | 2.32% | $3.23M |
 | [pendle →](https://www.defi.garden/?pool=76c3385f-2844-4c17-b1e2-2556bdd9e2da&src=seo_token) | Hyperliquid L1 | 2.36% | $3.23M |
 | [harmonix-finance →](https://www.defi.garden/?pool=2576d6eb-44a0-459c-8f95-b364bdf86d63&src=seo_token) | Hyperliquid L1 | 2.96% | $2.57M |
 | [hypurrfi-pooled →](https://www.defi.garden/?pool=aa88cdff-f2ca-4644-9900-8a565e12378c&src=seo_token) | Hyperliquid L1 | 0.02% | $1.8M |
+<<<<<<< HEAD
 | [project-x →](https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860&src=seo_token) | Hyperliquid L1 | 0.12% | $1.18M |
 | [ramses-cl-v2 →](https://www.defi.garden/?pool=16333cde-5a26-4f59-96f6-6d184b4369f2&src=seo_token) | Hyperliquid L1 | 11.07% | $1.05M |
+=======
+| [project-x →](https://www.defi.garden/?pool=b7b3264a-0114-46b1-b961-ff9484339860&src=seo_token) | Hyperliquid L1 | 0.05% | $1.48M |
+| [project-x →](https://www.defi.garden/?pool=f790f1f3-435e-4706-aaf2-19b08dde32ed&src=seo_token) | Hyperliquid L1 | 0.19% | $379.6K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +33,19 @@
 
 ### 오늘 KHYPE의 가장 높은 수익률은 얼마인가요?
 
+<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Hyperliquid L1의 ramses-cl-v2에서 APY 11.07%예요.
 
 ### KHYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 24개이며, 합산 TVL은 $1.2B예요.
+=======
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 4.21%예요.
+
+### KHYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
+
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $1.2B예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

@@ -4,7 +4,11 @@ The highest honest MNT yield right now is 2.07% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=f3ede282-2151-4d03-84ec-063bc5daab8d&src=seo_token) | Ethereum | 2.07% | $2.78M |
+=======
+| [uniswap-v3 →](https://www.defi.garden/?pool=f3ede282-2151-4d03-84ec-063bc5daab8d&src=seo_token) | Ethereum | 2.17% | $2.78M |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

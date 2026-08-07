@@ -1,10 +1,18 @@
 # QQQAI DeFi Yields
 
+<<<<<<< HEAD
 The highest honest QQQAI yield right now is 0.01% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=d1eb2723-93a7-460b-ad49-8ed542e00b08&src=seo_token) | Ethereum | 0.01% | $1.13M |
+=======
+The highest honest QQQAI yield right now is 0.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=d1eb2723-93a7-460b-ad49-8ed542e00b08&src=seo_token) | Ethereum | 0.02% | $1.13M |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QQQAI yield today?
 
+<<<<<<< HEAD
 0.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+=======
+0.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many QQQAI pools clear the TVL floor?
 

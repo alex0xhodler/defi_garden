@@ -1,10 +1,18 @@
 # SIGMA DeFi Yields
 
+<<<<<<< HEAD
 The highest honest SIGMA yield right now is 1.28% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=f7886da4-e57f-4678-a9b9-0d9cf1d6ccbe&src=seo_token) | Solana | 1.28% | $259.6K |
+=======
+The highest honest SIGMA yield right now is 1.50% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=f7886da4-e57f-4678-a9b9-0d9cf1d6ccbe&src=seo_token) | Solana | 1.50% | $259K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIGMA yield today?
 
+<<<<<<< HEAD
 1.28% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SIGMA pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $259.6K in total.
+=======
+1.50% APY on raydium-amm (Solana), based on live DefiLlama data.
+
+### How many SIGMA pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $259K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

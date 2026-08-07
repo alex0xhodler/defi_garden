@@ -1,10 +1,18 @@
 # LQ DeFi Yields
 
+<<<<<<< HEAD
 The highest honest LQ yield right now is 5.33% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [minswap-dex →](https://www.defi.garden/?pool=1b452a0b-6a59-4517-a484-0b4415eb8bad&src=seo_token) | Cardano | 5.33% | $178.1K |
+=======
+The highest honest LQ yield right now is 5.46% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [minswap-dex →](https://www.defi.garden/?pool=1b452a0b-6a59-4517-a484-0b4415eb8bad&src=seo_token) | Cardano | 5.46% | $176.5K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LQ yield today?
 
+<<<<<<< HEAD
 5.33% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many LQ pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $178.1K in total.
+=======
+5.46% APY on minswap-dex (Cardano), based on live DefiLlama data.
+
+### How many LQ pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $176.5K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

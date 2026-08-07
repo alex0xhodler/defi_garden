@@ -1,10 +1,18 @@
 # UB DeFi Yields
 
+<<<<<<< HEAD
 The highest honest UB yield right now is 514.55% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=70d14a6c-9925-42b8-b181-ffc8a9f9ba02&src=seo_token) | BSC | 514.55% | $181.5K |
+=======
+The highest honest UB yield right now is 498.84% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=70d14a6c-9925-42b8-b181-ffc8a9f9ba02&src=seo_token) | BSC | 498.84% | $192.2K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UB yield today?
 
+<<<<<<< HEAD
 514.55% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many UB pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $181.5K in total.
+=======
+498.84% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+
+### How many UB pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $192.2K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,10 +1,14 @@
 # WQQQX DeFi Yields
 
-The highest honest WQQQX yield right now is 0.16% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WQQQX yield right now is 0.14% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=85731ac0-c354-4ddc-a796-9d3bafde7a1d&src=seo_token) | Ethereum | 0.16% | $325.7K |
+=======
+| [uniswap-v3 →](https://www.defi.garden/?pool=85731ac0-c354-4ddc-a796-9d3bafde7a1d&src=seo_token) | Ethereum | 0.14% | $325.7K |
+>>>>>>> origin/main
 | [fluxion-network →](https://www.defi.garden/?pool=2364dd66-69d3-44ef-9e85-4d5217a57b57&src=seo_token) | Mantle | 1.19% | $110.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,11 +17,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WQQQX yield today?
 
-0.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.14% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WQQQX pools clear the TVL floor?
 
+<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $435.7K in total.
+=======
+2 live pools clear this page's $100K TVL floor, $435.8K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

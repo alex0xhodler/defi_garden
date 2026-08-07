@@ -5,7 +5,11 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [joe-v2.1 →](https://www.defi.garden/?pool=97c8b793-19c7-4e66-bf72-b9de03f69cc0&src=seo_token) | Avalanche | 10.32% | $152.1K |
+<<<<<<< HEAD
 | [joe-v2.2 →](https://www.defi.garden/?pool=7a7dab1c-1504-492f-bdf8-6cc48ff93744&src=seo_token) | Avalanche | 1.69% | $120.2K |
+=======
+| [joe-v2.2 →](https://www.defi.garden/?pool=7a7dab1c-1504-492f-bdf8-6cc48ff93744&src=seo_token) | Avalanche | 1.68% | $120.6K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +21,11 @@ DefiLlama 실시간 데이터 기준, Avalanche의 joe-v2.1에서 APY 10.32%예�
 
 ### XAVA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
+<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $272.3K예요.
+=======
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $272.8K예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

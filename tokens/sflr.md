@@ -1,5 +1,6 @@
 # SFLR DeFi Yields
 
+<<<<<<< HEAD
 The highest honest SFLR yield right now is 13.66% on spectra-v2 (Flare), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -10,6 +11,18 @@ The highest honest SFLR yield right now is 13.66% on spectra-v2 (Flare), among 6
 | [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.66% | $718.6K |
 | [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.19% | $718.6K |
 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.43% | $300.3K |
+=======
+The highest honest SFLR yield right now is 13.67% on spectra-v2 (Flare), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token) | Flare | 8.84% | $13.96M |
+| [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token) | Flare | 0.51% | $4.62M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.41% | $927.4K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.67% | $719.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.19% | $719.2K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.43% | $301K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,11 +30,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SFLR yield today?
 
+<<<<<<< HEAD
 13.66% APY on spectra-v2 (Flare), based on live DefiLlama data.
 
 ### How many SFLR pools clear the TVL floor?
 
 6 live pools clear this page's $100K TVL floor, $21.23M in total.
+=======
+13.67% APY on spectra-v2 (Flare), based on live DefiLlama data.
+
+### How many SFLR pools clear the TVL floor?
+
+6 live pools clear this page's $100K TVL floor, $21.24M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

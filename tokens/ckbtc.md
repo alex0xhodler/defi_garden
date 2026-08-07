@@ -1,11 +1,20 @@
 # CKBTC DeFi Yields
 
+<<<<<<< HEAD
 The highest honest CKBTC yield right now is 18.81% on icpswap (ICP), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 0.30% | $112.3K |
 | [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 18.81% | $104.4K |
+=======
+The highest honest CKBTC yield right now is 17.59% on icpswap (ICP), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 0.30% | $112.6K |
+| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 17.59% | $104.7K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +22,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CKBTC yield today?
 
+<<<<<<< HEAD
 18.81% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many CKBTC pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $216.7K in total.
+=======
+17.59% APY on icpswap (ICP), based on live DefiLlama data.
+
+### How many CKBTC pools clear the TVL floor?
+
+2 live pools clear this page's $100K TVL floor, $217.2K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

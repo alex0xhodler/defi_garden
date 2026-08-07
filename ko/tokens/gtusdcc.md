@@ -4,9 +4,15 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=fa3d7f72-7a2e-4275-863a-228cb247a096&src=seo_token) | Hyperliquid L1 | 6.22% | $5.39M |
 | [morpho-blue →](https://www.defi.garden/?pool=65653183-7d69-408f-a76c-9dd2914f306f&src=seo_token) | Base | 4.65% | $1.94M |
 | [morpho-blue →](https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token) | Arbitrum | 7.36% | $829.6K |
+=======
+| [morpho-blue →](https://www.defi.garden/?pool=fa3d7f72-7a2e-4275-863a-228cb247a096&src=seo_token) | Hyperliquid L1 | 6.58% | $3.92M |
+| [morpho-blue →](https://www.defi.garden/?pool=65653183-7d69-408f-a76c-9dd2914f306f&src=seo_token) | Base | 4.57% | $1.93M |
+| [morpho-blue →](https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token) | Arbitrum | 7.27% | $829.6K |
+>>>>>>> origin/main
 | [morpho-blue →](https://www.defi.garden/?pool=f0e34228-dbb2-571d-bb69-a8cfee835cbc&src=seo_token) | Hyperliquid L1 | 6.62% | $365.8K |
 | [morpho-blue →](https://www.defi.garden/?pool=e9bfd1d5-658b-4732-9d5b-42afa4d7277a&src=seo_token) | Unichain | 2.33% | $108.6K |
 
@@ -20,7 +26,11 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 6.
 
 ### GTUSDCC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
+<<<<<<< HEAD
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $8.62M예요.
+=======
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $7.16M예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

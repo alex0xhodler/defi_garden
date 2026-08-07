@@ -5,7 +5,10 @@ The highest honest WBTC.E yield right now is 0.01% on benqi-lending (Avalanche),
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [benqi-lending →](https://www.defi.garden/?pool=b22a1540-fcdd-424a-95b0-dde0658a298b&src=seo_token) | Avalanche | 0.01% | $1.39M |
+<<<<<<< HEAD
 | [joe-v2.1 →](https://www.defi.garden/?pool=6bfd664d-9fa1-46f1-b769-b7f92259f0bf&src=seo_token) | Avalanche | 0.01% | $230.4K |
+=======
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

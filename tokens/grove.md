@@ -1,12 +1,20 @@
 # GROVE DeFi Yields
 
+<<<<<<< HEAD
 The highest honest GROVE yield right now is 5.85% on morpho-blue (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+=======
+The highest honest GROVE yield right now is 5.86% on morpho-blue (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+>>>>>>> origin/main
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 5.52% | $22.73M |
 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 3.40% | $1.01M |
+<<<<<<< HEAD
 | [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 5.85% | $337.2K |
+=======
+| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 5.86% | $337.2K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +22,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GROVE yield today?
 
+<<<<<<< HEAD
 5.85% APY on morpho-blue (Monad), based on live DefiLlama data.
+=======
+5.86% APY on morpho-blue (Monad), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many GROVE pools clear the TVL floor?
 

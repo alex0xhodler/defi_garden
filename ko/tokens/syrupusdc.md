@@ -1,5 +1,6 @@
 # SYRUPUSDC 디파이 수익률
 
+<<<<<<< HEAD
 현재 SYRUPUSDC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 0.90%이며, $100K TVL 기준을 넘는 19개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
@@ -12,6 +13,20 @@
 | [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 4.88% | $463.1K |
 | [fluid-dex →](https://www.defi.garden/?pool=445aec38-67cf-4aa8-af22-639875df0f78&src=seo_token) | Arbitrum | 0.07% | $276K |
 | [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 1.23% | $200.2K |
+=======
+현재 SYRUPUSDC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 1.14%이며, $100K TVL 기준을 넘는 19개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+
+| 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|
+| [uniswap-v4 →](https://www.defi.garden/?pool=df8851f0-5b1d-4843-88fd-88468d129c78&src=seo_token) | Ethereum | 1.14% | $13.33M |
+| [orca-dex →](https://www.defi.garden/?pool=e1c57765-701f-49ba-810c-0785a51d3764&src=seo_token) | Solana | 0.20% | $10.03M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.16% | $10.03M |
+| [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.02% | $2.53M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token) | Arbitrum | 0.92% | $987.9K |
+| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 4.84% | $463.1K |
+| [fluid-dex →](https://www.defi.garden/?pool=445aec38-67cf-4aa8-af22-639875df0f78&src=seo_token) | Arbitrum | 0.07% | $275.9K |
+| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 1.52% | $200K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +34,19 @@
 
 ### 오늘 SYRUPUSDC의 가장 높은 수익률은 얼마인가요?
 
+<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.90%예요.
 
 ### SYRUPUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
 이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $487.21M예요.
+=======
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.14%예요.
+
+### SYRUPUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
+
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $487.27M예요.
+>>>>>>> origin/main
 
 ### 이 수익률은 안전한가요?
 

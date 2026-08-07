@@ -1,10 +1,18 @@
 # MERY DeFi Yields
 
+<<<<<<< HEAD
 The highest honest MERY yield right now is 1.62% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [vvs-standard →](https://www.defi.garden/?pool=4e4c5cd4-1d69-4600-8f96-21fe4496ce85&src=seo_token) | Cronos | 1.62% | $287.6K |
+=======
+The highest honest MERY yield right now is 1.66% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [vvs-standard →](https://www.defi.garden/?pool=4e4c5cd4-1d69-4600-8f96-21fe4496ce85&src=seo_token) | Cronos | 1.66% | $287.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MERY yield today?
 
+<<<<<<< HEAD
 1.62% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many MERY pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $287.6K in total.
+=======
+1.66% APY on vvs-standard (Cronos), based on live DefiLlama data.
+
+### How many MERY pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $287.1K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

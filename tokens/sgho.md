@@ -1,5 +1,6 @@
 # SGHO DeFi Yields
 
+<<<<<<< HEAD
 The highest honest SGHO yield right now is 21.78% on stake-dao (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -7,6 +8,15 @@ The highest honest SGHO yield right now is 21.78% on stake-dao (Ethereum), among
 | [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.25% | $142.66M |
 | [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 20.46% | $254.1K |
 | [stake-dao →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 21.78% | $177.2K |
+=======
+The highest honest SGHO yield right now is 22.62% on stake-dao (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [aave-v3 →](https://www.defi.garden/?pool=19d024ed-9c70-4323-9a81-fe873ea5f0e0&src=seo_token) | Ethereum | 4.25% | $142.61M |
+| [curve-dex →](https://www.defi.garden/?pool=e7464c49-c29a-443f-b449-a23d64c455e1&src=seo_token) | Ethereum | 21.26% | $237.6K |
+| [stake-dao →](https://www.defi.garden/?pool=40da51f3-e3bc-5bac-8417-67c3f1e8b8e1&src=seo_token) | Ethereum | 22.62% | $177.2K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +24,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SGHO yield today?
 
+<<<<<<< HEAD
 21.78% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many SGHO pools clear the TVL floor?
 
 4 live pools clear this page's $100K TVL floor, $181.39M in total.
+=======
+22.62% APY on stake-dao (Ethereum), based on live DefiLlama data.
+
+### How many SGHO pools clear the TVL floor?
+
+4 live pools clear this page's $100K TVL floor, $181.33M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

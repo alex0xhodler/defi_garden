@@ -1,10 +1,18 @@
 # RETARDIO DeFi Yields
 
+<<<<<<< HEAD
 The highest honest RETARDIO yield right now is 3.67% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=3fee280d-8834-4dc7-ac1f-bb395ff332da&src=seo_token) | Solana | 3.67% | $259.4K |
+=======
+The highest honest RETARDIO yield right now is 4.16% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=3fee280d-8834-4dc7-ac1f-bb395ff332da&src=seo_token) | Solana | 4.16% | $258.7K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RETARDIO yield today?
 
+<<<<<<< HEAD
 3.67% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RETARDIO pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $259.4K in total.
+=======
+4.16% APY on raydium-amm (Solana), based on live DefiLlama data.
+
+### How many RETARDIO pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $258.7K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

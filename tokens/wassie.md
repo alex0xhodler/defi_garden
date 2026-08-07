@@ -4,7 +4,11 @@ The highest honest WASSIE yield right now is 0.18% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [uniswap-v2 →](https://www.defi.garden/?pool=d5745a01-78c3-4d3c-9c2b-67a3aefab01e&src=seo_token) | Ethereum | 0.18% | $129K |
+=======
+| [uniswap-v2 →](https://www.defi.garden/?pool=d5745a01-78c3-4d3c-9c2b-67a3aefab01e&src=seo_token) | Ethereum | 0.18% | $128.6K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WASSIE pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $129K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $128.6K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

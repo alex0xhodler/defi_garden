@@ -1,5 +1,6 @@
 # TONIC DeFi Yields
 
+<<<<<<< HEAD
 The highest honest TONIC yield right now is 27.93% on vvs-standard (Cronos), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -7,6 +8,15 @@ The highest honest TONIC yield right now is 27.93% on vvs-standard (Cronos), amo
 | [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 27.93% | $193.2K |
 | [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 11.98% | $179.7K |
 | [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 18.50% | $176.7K |
+=======
+The highest honest TONIC yield right now is 27.04% on vvs-standard (Cronos), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 27.04% | $192.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 11.97% | $179.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 18.55% | $176.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +24,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TONIC yield today?
 
+<<<<<<< HEAD
 27.93% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many TONIC pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $549.5K in total.
+=======
+27.04% APY on vvs-standard (Cronos), based on live DefiLlama data.
+
+### How many TONIC pools clear the TVL floor?
+
+3 live pools clear this page's $100K TVL floor, $547.9K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

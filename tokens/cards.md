@@ -1,10 +1,18 @@
 # CARDS DeFi Yields
 
+<<<<<<< HEAD
 The highest honest CARDS yield right now is 34.93% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token) | Solana | 34.93% | $2.79M |
+=======
+The highest honest CARDS yield right now is 38.12% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=593fca5b-1e6c-492e-bb8c-30c5307defb8&src=seo_token) | Solana | 38.12% | $2.84M |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CARDS yield today?
 
+<<<<<<< HEAD
 34.93% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CARDS pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $2.79M in total.
+=======
+38.12% APY on raydium-amm (Solana), based on live DefiLlama data.
+
+### How many CARDS pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $2.84M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

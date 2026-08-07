@@ -1,10 +1,18 @@
 # BGCI 디파이 수익률
 
+<<<<<<< HEAD
 현재 BGCI의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 0.67%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=f0e5333b-e19c-4133-ad6a-482e9095b68f&src=seo_token) | Base | 0.67% | $274.9K |
+=======
+현재 BGCI의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 0.68%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+
+| 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=f0e5333b-e19c-4133-ad6a-482e9095b68f&src=seo_token) | Base | 0.68% | $274.9K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,7 +20,11 @@
 
 ### 오늘 BGCI의 가장 높은 수익률은 얼마인가요?
 
+<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.67%예요.
+=======
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.68%예요.
+>>>>>>> origin/main
 
 ### BGCI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

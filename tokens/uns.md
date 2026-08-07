@@ -1,10 +1,18 @@
 # UNS DeFi Yields
 
+<<<<<<< HEAD
 The highest honest UNS yield right now is 2.08% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=e4fee4b5-08be-45b2-aa31-4adde2b3d9b9&src=seo_token) | Solana | 2.08% | $334.2K |
+=======
+The highest honest UNS yield right now is 2.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=e4fee4b5-08be-45b2-aa31-4adde2b3d9b9&src=seo_token) | Solana | 2.35% | $334.2K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UNS yield today?
 
+<<<<<<< HEAD
 2.08% APY on raydium-amm (Solana), based on live DefiLlama data.
+=======
+2.35% APY on raydium-amm (Solana), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many UNS pools clear the TVL floor?
 

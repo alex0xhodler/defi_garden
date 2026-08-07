@@ -1,14 +1,25 @@
 # Neutron DeFi Yields
 
+<<<<<<< HEAD
 The highest honest Neutron yield right now is 17.46% on hydro-inflow (Neutron), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+=======
+The highest honest Neutron yield right now is 17.18% on hydro-inflow (Neutron), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+>>>>>>> origin/main
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USDC-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.01% | $4.43M |
+<<<<<<< HEAD
 | ATOM | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_chain) | 17.46% | $1.36M |
 | USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 4.95% | $697.3K |
 | USDC-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 1.07% | $204K |
 | WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.82% | $117.1K |
+=======
+| ATOM | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_chain) | 17.18% | $1.37M |
+| USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 4.95% | $697.1K |
+| USDC-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 1.04% | $204.4K |
+| WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.81% | $117.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +27,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Neutron yield today?
 
+<<<<<<< HEAD
 17.46% APY on hydro-inflow (Neutron), based on live DefiLlama data.
+=======
+17.18% APY on hydro-inflow (Neutron), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many Neutron pools clear the TVL floor?
 

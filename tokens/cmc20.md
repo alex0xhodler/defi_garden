@@ -1,10 +1,18 @@
 # CMC20 DeFi Yields
 
+<<<<<<< HEAD
 The highest honest CMC20 yield right now is 1.03% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=c7120c7c-7aa2-417d-b499-8db0f5ff6430&src=seo_token) | Base | 1.03% | $602.7K |
+=======
+The highest honest CMC20 yield right now is 1.19% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7120c7c-7aa2-417d-b499-8db0f5ff6430&src=seo_token) | Base | 1.19% | $602K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CMC20 yield today?
 
+<<<<<<< HEAD
 1.03% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many CMC20 pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $602.7K in total.
+=======
+1.19% APY on uniswap-v3 (Base), based on live DefiLlama data.
+
+### How many CMC20 pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $602K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

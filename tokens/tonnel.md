@@ -1,11 +1,20 @@
 # TONNEL DeFi Yields
 
+<<<<<<< HEAD
 The highest honest TONNEL yield right now is 0.48% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [dedust →](https://www.defi.garden/?pool=5c4240e6-c503-446d-91a6-59bb90c60112&src=seo_token) | TON | 0.77% | $127.2K |
 | [dedust →](https://www.defi.garden/?pool=c97d5042-12b1-43cf-b211-64c9ce36be8b&src=seo_token) | TON | 0.48% | $102.7K |
+=======
+The highest honest TONNEL yield right now is 1.00% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [dedust →](https://www.defi.garden/?pool=5c4240e6-c503-446d-91a6-59bb90c60112&src=seo_token) | TON | 1.00% | $126.8K |
+| [dedust →](https://www.defi.garden/?pool=c97d5042-12b1-43cf-b211-64c9ce36be8b&src=seo_token) | TON | 0.52% | $101.4K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +22,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TONNEL yield today?
 
+<<<<<<< HEAD
 0.48% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many TONNEL pools clear the TVL floor?
 
 2 live pools clear this page's $100K TVL floor, $229.9K in total.
+=======
+1.00% APY on dedust (TON), based on live DefiLlama data.
+
+### How many TONNEL pools clear the TVL floor?
+
+2 live pools clear this page's $100K TVL floor, $228.2K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

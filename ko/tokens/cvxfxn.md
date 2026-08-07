@@ -1,11 +1,20 @@
 # CVXFXN 디파이 수익률
 
+<<<<<<< HEAD
 현재 CVXFXN의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 11.14%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.39% | $469K |
 | [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 11.14% | $325.5K |
+=======
+현재 CVXFXN의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 11.19%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+
+| 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|
+| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.42% | $468.5K |
+| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 11.19% | $325.1K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +22,11 @@
 
 ### 오늘 CVXFXN의 가장 높은 수익률은 얼마인가요?
 
+<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 11.14%예요.
+=======
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 11.19%예요.
+>>>>>>> origin/main
 
 ### CVXFXN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

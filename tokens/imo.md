@@ -1,10 +1,18 @@
 # IMO DeFi Yields
 
+<<<<<<< HEAD
 The highest honest IMO yield right now is 2.31% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879&src=seo_token) | Base | 2.31% | $283.7K |
+=======
+The highest honest IMO yield right now is 2.25% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879&src=seo_token) | Base | 2.25% | $283.8K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IMO yield today?
 
+<<<<<<< HEAD
 2.31% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many IMO pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $283.7K in total.
+=======
+2.25% APY on uniswap-v3 (Base), based on live DefiLlama data.
+
+### How many IMO pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $283.8K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

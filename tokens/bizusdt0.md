@@ -1,10 +1,18 @@
 # BIZUSDT0 DeFi Yields
 
+<<<<<<< HEAD
 The highest honest BIZUSDT0 yield right now is 10.59% on superform (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [superform →](https://www.defi.garden/?pool=b58ea55e-70ff-5dca-9f23-b91946855486&src=seo_token) | Flare | 10.59% | $762.6K |
+=======
+The highest honest BIZUSDT0 yield right now is 10.69% on superform (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [superform →](https://www.defi.garden/?pool=b58ea55e-70ff-5dca-9f23-b91946855486&src=seo_token) | Flare | 10.69% | $762.7K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BIZUSDT0 yield today?
 
+<<<<<<< HEAD
 10.59% APY on superform (Flare), based on live DefiLlama data.
 
 ### How many BIZUSDT0 pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $762.6K in total.
+=======
+10.69% APY on superform (Flare), based on live DefiLlama data.
+
+### How many BIZUSDT0 pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $762.7K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

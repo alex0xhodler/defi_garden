@@ -1,11 +1,20 @@
 # XUSD DeFi Yields
 
+<<<<<<< HEAD
 The highest honest XUSD yield right now is 0.95% on overnight-finance (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.93% | $952.2K |
 | [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.95% | $117.4K |
+=======
+The highest honest XUSD yield right now is 0.97% on sovryn-dex (Rootstock), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.97% | $952.2K |
+| [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.95% | $117.3K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +22,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XUSD yield today?
 
+<<<<<<< HEAD
 0.95% APY on overnight-finance (Arbitrum), based on live DefiLlama data.
+=======
+0.97% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many XUSD pools clear the TVL floor?
 

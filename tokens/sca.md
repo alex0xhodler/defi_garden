@@ -4,8 +4,13 @@ The highest honest SCA yield right now is 2.52% on scallop-lend (Sui), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836&src=seo_token) | Sui | 2.52% | $137.5K |
 | [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56&src=seo_token) | Sui | 0.04% | $107.3K |
+=======
+| [scallop-lend →](https://www.defi.garden/?pool=f0ed3798-1c3f-400b-bac5-32684a7ab836&src=seo_token) | Sui | 2.52% | $133K |
+| [bluefin-spot →](https://www.defi.garden/?pool=db9999d6-75d2-4ba0-bbef-13ac88fedc56&src=seo_token) | Sui | 0.05% | $106.4K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +22,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SCA pools clear the TVL floor?
 
+<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $244.8K in total.
+=======
+2 live pools clear this page's $100K TVL floor, $239.4K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

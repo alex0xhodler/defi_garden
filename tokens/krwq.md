@@ -1,10 +1,18 @@
 # KRWQ DeFi Yields
 
+<<<<<<< HEAD
 The highest honest KRWQ yield right now is 10.25% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=086429b6-6473-4dcd-bf0b-b575f3dd2172&src=seo_token) | Base | 10.25% | $147.1K |
+=======
+The highest honest KRWQ yield right now is 10.35% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=086429b6-6473-4dcd-bf0b-b575f3dd2172&src=seo_token) | Base | 10.35% | $147.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KRWQ yield today?
 
+<<<<<<< HEAD
 10.25% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+=======
+10.35% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+>>>>>>> origin/main
 
 ### How many KRWQ pools clear the TVL floor?
 

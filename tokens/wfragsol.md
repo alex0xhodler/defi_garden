@@ -4,7 +4,11 @@ The highest honest WFRAGSOL yield right now is 0.03% on loopscale (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [loopscale →](https://www.defi.garden/?pool=4eb36cd9-92c4-46b5-8072-1593fcee4f60&src=seo_token) | Solana | 0.03% | $166.3K |
+=======
+| [loopscale →](https://www.defi.garden/?pool=4eb36cd9-92c4-46b5-8072-1593fcee4f60&src=seo_token) | Solana | 0.03% | $166K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WFRAGSOL pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $166.3K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $166K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

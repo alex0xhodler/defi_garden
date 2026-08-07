@@ -1,23 +1,59 @@
+<<<<<<< HEAD
 # EURA DeFi Yields
 
 The highest honest EURA yield right now is 0.02% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+=======
+<<<<<<<< HEAD:tokens/nfd.md
+# NFD DeFi Yields
+
+The highest honest NFD yield right now is 0.03% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [sushiswap →](https://www.defi.garden/?pool=975d955c-7b35-4abd-83a3-3bc990b750f4&src=seo_token) | Ethereum | 0.03% | $565.6K |
+========
+# EURA DeFi Yields
+
+The highest honest EURA yield right now is 0.02% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+>>>>>>> origin/main
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=e360745b-cd16-449d-99f7-600c929ef589&src=seo_token) | Ethereum | 0.02% | $258.9K |
+<<<<<<< HEAD
 | [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.96% | $225.6K |
+=======
+>>>>>>>> origin/main:tokens/eura.md
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
 
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:tokens/nfd.md
+### What's the highest NFD yield today?
+
+0.03% APY on sushiswap (Ethereum), based on live DefiLlama data.
+
+### How many NFD pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $565.6K in total.
+========
+>>>>>>> origin/main
 ### What's the highest EURA yield today?
 
 0.02% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many EURA pools clear the TVL floor?
 
+<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $484.5K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $258.9K in total.
+>>>>>>>> origin/main:tokens/eura.md
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

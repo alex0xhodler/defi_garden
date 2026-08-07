@@ -1,5 +1,6 @@
 # GNO DeFi Yields
 
+<<<<<<< HEAD
 The highest honest GNO yield right now is 34.26% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -7,6 +8,15 @@ The highest honest GNO yield right now is 34.26% on uniswap-v3 (Ethereum), among
 | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token) | Gnosis | 0.11% | $6.47M |
 | [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 5.53% | $273.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token) | Ethereum | 34.26% | $104.5K |
+=======
+The highest honest GNO yield right now is 34.29% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token) | Gnosis | 0.11% | $6.53M |
+| [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 5.20% | $271.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token) | Ethereum | 34.29% | $105.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +24,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GNO yield today?
 
+<<<<<<< HEAD
 34.26% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many GNO pools clear the TVL floor?
 
 4 live pools clear this page's $100K TVL floor, $7.53M in total.
+=======
+34.29% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+
+### How many GNO pools clear the TVL floor?
+
+4 live pools clear this page's $100K TVL floor, $7.6M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

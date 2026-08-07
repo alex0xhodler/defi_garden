@@ -1,10 +1,18 @@
 # MVL DeFi Yields
 
+<<<<<<< HEAD
 The highest honest MVL yield right now is 0.03% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=e3003a9d-e060-460d-a819-6694ee930506&src=seo_token) | Ethereum | 0.03% | $315.5K |
+=======
+The highest honest MVL yield right now is 0.43% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v2 →](https://www.defi.garden/?pool=e3003a9d-e060-460d-a819-6694ee930506&src=seo_token) | Ethereum | 0.43% | $316.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MVL yield today?
 
+<<<<<<< HEAD
 0.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MVL pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $315.5K in total.
+=======
+0.43% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+
+### How many MVL pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $316.1K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -1,10 +1,18 @@
 # BAD DeFi Yields
 
+<<<<<<< HEAD
 The highest honest BAD yield right now is 0.71% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=30f6cb05-609f-4df5-888e-098509d3feee&src=seo_token) | Ethereum | 0.71% | $230.8K |
+=======
+The highest honest BAD yield right now is 0.66% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v2 →](https://www.defi.garden/?pool=30f6cb05-609f-4df5-888e-098509d3feee&src=seo_token) | Ethereum | 0.66% | $230K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BAD yield today?
 
+<<<<<<< HEAD
 0.71% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BAD pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $230.8K in total.
+=======
+0.66% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+
+### How many BAD pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $230K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

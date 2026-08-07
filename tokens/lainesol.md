@@ -4,7 +4,11 @@ The highest honest LAINESOL yield right now is 4.78% on laine-sol (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9&src=seo_token) | Solana | 4.78% | $893.6K |
+=======
+| [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9&src=seo_token) | Solana | 4.78% | $890.5K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LAINESOL pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $893.6K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $890.5K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -4,7 +4,11 @@ The highest honest BUILD yield right now is 0.07% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=9db97cd3-6d35-4afd-9e02-3be6c3e83922&src=seo_token) | Base | 0.07% | $153.6K |
+=======
+| [uniswap-v3 →](https://www.defi.garden/?pool=9db97cd3-6d35-4afd-9e02-3be6c3e83922&src=seo_token) | Base | 0.07% | $153.3K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BUILD pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $153.6K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $153.3K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

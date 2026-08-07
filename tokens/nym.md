@@ -4,7 +4,11 @@ The highest honest NYM yield right now is 0.01% on osmosis-dex (Osmosis), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [osmosis-dex →](https://www.defi.garden/?pool=71e170c1-61e7-4a46-9897-6756094cd64c&src=seo_token) | Osmosis | 0.01% | $218.6K |
+=======
+| [osmosis-dex →](https://www.defi.garden/?pool=71e170c1-61e7-4a46-9897-6756094cd64c&src=seo_token) | Osmosis | 0.01% | $218.9K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NYM pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $218.6K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $218.9K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

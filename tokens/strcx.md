@@ -6,8 +6,13 @@ The highest honest STRCX yield right now is 30.28% on pendle (Ethereum), among 5
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=ebef0664-2c98-47c3-9470-6ae5998c167a&src=seo_token) | Ethereum | 27.13% | $1.07M |
 | [pendle →](https://www.defi.garden/?pool=c886ec66-199e-48d8-ac13-4e39bae18e8f&src=seo_token) | Ethereum | 30.28% | $1.07M |
+<<<<<<< HEAD
 | [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 3.36% | $572.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token) | Solana | 1.25% | $101.7K |
+=======
+| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 3.94% | $572.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token) | Solana | 1.48% | $101.7K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

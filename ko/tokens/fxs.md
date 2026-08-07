@@ -1,5 +1,6 @@
 # FXS 디파이 수익률
 
+<<<<<<< HEAD
 현재 FXS의 가장 높은 정직한 수익률은 Ethereum의 frax에서 4.19%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
@@ -7,6 +8,15 @@
 | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.21% | $1.4M |
 | [frax →](https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token) | Ethereum | 4.19% | $207K |
 | [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.29% | $135.7K |
+=======
+현재 FXS의 가장 높은 정직한 수익률은 Ethereum의 frax에서 3.98%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+
+| 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|
+| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.20% | $1.39M |
+| [frax →](https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token) | Ethereum | 3.98% | $205.4K |
+| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.27% | $135.6K |
+>>>>>>> origin/main
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +24,11 @@
 
 ### 오늘 FXS의 가장 높은 수익률은 얼마인가요?
 
+<<<<<<< HEAD
 DefiLlama 실시간 데이터 기준, Ethereum의 frax에서 APY 4.19%예요.
+=======
+DefiLlama 실시간 데이터 기준, Ethereum의 frax에서 APY 3.98%예요.
+>>>>>>> origin/main
 
 ### FXS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

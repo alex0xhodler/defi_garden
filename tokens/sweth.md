@@ -4,8 +4,13 @@ The highest honest SWETH yield right now is 2.68% on swell-liquid-staking (Ether
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.68% | $28.3M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 0.18% | $151.5K |
+=======
+| [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.68% | $28.26M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 0.18% | $151.2K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +22,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SWETH pools clear the TVL floor?
 
+<<<<<<< HEAD
 2 live pools clear this page's $100K TVL floor, $28.45M in total.
+=======
+2 live pools clear this page's $100K TVL floor, $28.41M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

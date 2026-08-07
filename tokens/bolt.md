@@ -1,10 +1,18 @@
 # BOLT DeFi Yields
 
+<<<<<<< HEAD
 The highest honest BOLT yield right now is 31.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=77e45776-0619-463d-b7e5-bfe885e26422&src=seo_token) | Solana | 31.10% | $110.9K |
+=======
+The highest honest BOLT yield right now is 36.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=77e45776-0619-463d-b7e5-bfe885e26422&src=seo_token) | Solana | 36.43% | $110.8K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOLT yield today?
 
+<<<<<<< HEAD
 31.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BOLT pools clear the TVL floor?
 
 1 live pool clear this page's $100K TVL floor, $110.9K in total.
+=======
+36.43% APY on raydium-amm (Solana), based on live DefiLlama data.
+
+### How many BOLT pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $110.8K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

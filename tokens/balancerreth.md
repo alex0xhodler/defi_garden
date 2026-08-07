@@ -1,5 +1,6 @@
 # BALANCERRETH DeFi Yields
 
+<<<<<<< HEAD
 The highest honest BALANCERRETH yield right now is 7.18% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
@@ -7,6 +8,15 @@ The highest honest BALANCERRETH yield right now is 7.18% on balancer-v3 (Base), 
 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 5.62% | $275.6K |
 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 7.18% | $268.4K |
 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 6.33% | $249.5K |
+=======
+The highest honest BALANCERRETH yield right now is 7.15% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 5.57% | $275.6K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 7.15% | $267.8K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 6.24% | $249K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +24,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BALANCERRETH yield today?
 
+<<<<<<< HEAD
 7.18% APY on balancer-v3 (Base), based on live DefiLlama data.
 
 ### How many BALANCERRETH pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $793.4K in total.
+=======
+7.15% APY on balancer-v3 (Base), based on live DefiLlama data.
+
+### How many BALANCERRETH pools clear the TVL floor?
+
+3 live pools clear this page's $100K TVL floor, $792.3K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

@@ -4,6 +4,7 @@ The highest honest Gnosis yield right now is 4.20% on sdai (Gnosis), among 12 po
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.20% | $54.27M |
 | GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_chain) | 0.11% | $6.47M |
 | EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.54% | $5.36M |
@@ -12,6 +13,16 @@ The highest honest Gnosis yield right now is 4.20% on sdai (Gnosis), among 12 po
 | WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.18% | $531.6K |
 | EURE-X3CRV | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_chain) | 3.52% | $378.3K |
 | WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.66% | $329.5K |
+=======
+| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.20% | $54.66M |
+| GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_chain) | 0.11% | $6.53M |
+| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.55% | $5.35M |
+| ZCHF | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_chain) | 3.50% | $1.54M |
+| USDC.E | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_chain) | 2.92% | $719.9K |
+| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.18% | $530.8K |
+| EURE-X3CRV | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_chain) | 3.54% | $378.4K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.66% | $334.1K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +34,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Gnosis pools clear the TVL floor?
 
+<<<<<<< HEAD
 12 live pools clear this page's $100K TVL floor, $107.81M in total.
+=======
+12 live pools clear this page's $100K TVL floor, $108.38M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

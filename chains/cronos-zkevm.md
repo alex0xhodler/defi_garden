@@ -4,8 +4,13 @@ The highest honest Cronos zkEVM yield right now is 0.01% on amply-finance (Crono
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | WZKCRO | [amply-finance →](https://www.defi.garden/?pool=e6611219-1e6f-4904-91fd-9831eb6ff041&src=seo_chain) | 0.01% | $538.9K |
 | VUSD | [amply-finance →](https://www.defi.garden/?pool=1e2284a8-3983-427c-a432-e4a8b37adade&src=seo_chain) | 0.01% | $172.8K |
+=======
+| WZKCRO | [amply-finance →](https://www.defi.garden/?pool=e6611219-1e6f-4904-91fd-9831eb6ff041&src=seo_chain) | 0.01% | $539.6K |
+| VUSD | [amply-finance →](https://www.defi.garden/?pool=1e2284a8-3983-427c-a432-e4a8b37adade&src=seo_chain) | 0.01% | $170.7K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +22,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Cronos zkEVM pools clear the TVL floor?
 
+<<<<<<< HEAD
 3 live pools clear this page's $100K TVL floor, $973.8K in total.
+=======
+3 live pools clear this page's $100K TVL floor, $969.1K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

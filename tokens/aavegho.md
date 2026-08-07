@@ -4,9 +4,15 @@ The highest honest AAVEGHO yield right now is 3.63% on balancer-v3 (Arbitrum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token) | Base | 3.21% | $369.2K |
 | [balancer-v3 →](https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token) | Arbitrum | 3.63% | $275K |
 | [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 2.60% | $106K |
+=======
+| [balancer-v3 →](https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token) | Base | 3.21% | $369.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token) | Arbitrum | 3.63% | $275K |
+| [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 2.71% | $106K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

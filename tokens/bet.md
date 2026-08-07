@@ -1,10 +1,18 @@
 # BET DeFi Yields
 
+<<<<<<< HEAD
 The highest honest BET yield right now is 2.90% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-v1 →](https://www.defi.garden/?pool=0a99582c-ad74-4380-abec-007014a3d85f&src=seo_token) | Base | 2.90% | $221.6K |
+=======
+The highest honest BET yield right now is 2.88% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [aerodrome-v1 →](https://www.defi.garden/?pool=0a99582c-ad74-4380-abec-007014a3d85f&src=seo_token) | Base | 2.88% | $221.6K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +20,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BET yield today?
 
+<<<<<<< HEAD
 2.90% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many BET pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $19.43M in total.
+=======
+2.88% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+
+### How many BET pools clear the TVL floor?
+
+3 live pools clear this page's $100K TVL floor, $19.41M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

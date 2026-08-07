@@ -4,7 +4,11 @@ The highest honest KNS yield right now is 0.01% on uniswap-v3 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+<<<<<<< HEAD
 | [uniswap-v3 →](https://www.defi.garden/?pool=3f3a4a11-f3b1-4a2d-a2e4-f34ef792aa91&src=seo_token) | Arbitrum | 0.01% | $151.5K |
+=======
+| [uniswap-v3 →](https://www.defi.garden/?pool=3f3a4a11-f3b1-4a2d-a2e4-f34ef792aa91&src=seo_token) | Arbitrum | 0.01% | $151.2K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +20,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KNS pools clear the TVL floor?
 
+<<<<<<< HEAD
 1 live pool clear this page's $100K TVL floor, $151.5K in total.
+=======
+1 live pool clear this page's $100K TVL floor, $151.2K in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 

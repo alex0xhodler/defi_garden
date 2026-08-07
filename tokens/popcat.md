@@ -1,11 +1,20 @@
 # POPCAT DeFi Yields
 
+<<<<<<< HEAD
 The highest honest POPCAT yield right now is 6.78% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token) | Solana | 5.43% | $2.85M |
 | [raydium-amm →](https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token) | Solana | 6.78% | $567.5K |
+=======
+The highest honest POPCAT yield right now is 7.32% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=06faada9-ad40-4027-9380-db05f0f3fd53&src=seo_token) | Solana | 5.97% | $2.85M |
+| [raydium-amm →](https://www.defi.garden/?pool=db3fb94d-dff9-42ce-8ba8-c5ec524e234e&src=seo_token) | Solana | 7.32% | $568.3K |
+>>>>>>> origin/main
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +22,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POPCAT yield today?
 
+<<<<<<< HEAD
 6.78% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many POPCAT pools clear the TVL floor?
 
 3 live pools clear this page's $100K TVL floor, $3.6M in total.
+=======
+7.32% APY on raydium-amm (Solana), based on live DefiLlama data.
+
+### How many POPCAT pools clear the TVL floor?
+
+3 live pools clear this page's $100K TVL floor, $3.61M in total.
+>>>>>>> origin/main
 
 ### Are these rates safe?
 
