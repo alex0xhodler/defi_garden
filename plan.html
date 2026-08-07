@@ -45,17 +45,25 @@
     <meta name="msapplication-TileColor" content="#2D5A3D">
 
     <!-- Performance: Preload critical resources -->
-    <link rel="preload" href="./fonts/FKGroteskNeue.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- 247 world: Public Sans (text) / Besley (display) — self-hosted latin
+         variable subsets, promoted from pool-detail to every surface (the
+         187 no-CDN rule). --font-family-base and --font-family-display in
+         style.css point at them on every mode, including the planner. -->
+    <link rel="preload" href="./fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="./react.production.min.js" as="script">
     <link rel="preload" href="./react-dom.production.min.js" as="script">
     <link rel="preconnect" href="https://yields.llama.fi">
     <link rel="dns-prefetch" href="//yields.llama.fi">
 
-    <!-- Load CSS non-blocking. style.min.css is CI-minified (backlog 053); edit style.css, never style.min.css. -->
-    <link rel="stylesheet" href="style.min.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="planner-styles.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="style.min.css"></noscript>
-    <noscript><link rel="stylesheet" href="planner-styles.min.css"></noscript>
+    <!-- Load CSS BLOCKING (247 world): the old media="print" swap let React
+         paint the goal picker unstyled for a beat before the sheets landed —
+         a first-impression FOUC on the planner's entry screen. Both sheets
+         are minified + long-cached; render-blocking them trades a few ms of
+         FCP for a composed first paint. Edit style.css/planner-styles.css,
+         never the .min files (backlog 053). -->
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="planner-styles.min.css">
 
     <script>
         // This document IS the planner. Declare planner mode explicitly so

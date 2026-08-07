@@ -964,7 +964,7 @@ const I18N_UNTRANSLATED_ALLOWLIST = {
   navFilterTvl: 'acronym, same in KO',
   navFilterApy: 'acronym, same in KO',
   tvl: 'acronym, same in KO',
-  'landing.footerDefillamaApi': 'brand name (DefiLlama API)',
+  defillamaApi: 'brand name (DefiLlama API)',
   'planner.goalClaude': 'brand name (Claude Pro)',
   'planner.goalMax': 'brand name (Max)',
   'planner.goalHulu': 'brand name (Hulu)',
@@ -3559,6 +3559,10 @@ async function main(browser, baseUrl, s, ctx) {
   // s, findings) reads s.occlusionQuiescence rather than taking a 4th
   // parameter (its signature is pinned by test_audit_occlusion_lens.js).
   s.occlusionQuiescence = ctx.occlusionQuiescence;
+  // backlog 233 — same convention, for checkResponsive's own quiescence wait
+  // (and the kind:'static' branch's settle, which reads this same field —
+  // there is only one switch, not one per call site).
+  s.responsiveQuiescence = ctx.responsiveQuiescence;
 
   if (s.dark) await page.addInitScript(() => { try { localStorage.setItem('theme', 'dark'); } catch (e) {} });
 
@@ -3639,7 +3643,25 @@ async function main(browser, baseUrl, s, ctx) {
     if (s.kind === 'static') {
       // Static SEO page: number sanity + page errors, plus the 154 checks —
       // all read from the RENDERED page, this is a detector only (no writes).
-      await page.waitForTimeout(400);
+      // backlog 233 — same quiescence predicate as checkResponsive/
+      // checkOcclusion, under the same s.responsiveQuiescence switch,
+      // replacing the flat 400ms settle this branch inherited (spec 233
+      // change item 3: "the other" 231 left un-instrumented fixed wait,
+      // besides checkResponsive's own). Check name 'quiescence' is
+      // deliberately NEW here: no existing check owns "the page never
+      // settled" outside the occlusion/responsive lenses this predicate also
+      // drives, and this branch has no CTA selector for 'responsive' to name.
+      // When the switch is off, the exact pre-233 flat wait is reproduced.
+      const staticQuiescenceEnabled = s.responsiveQuiescence !== false && process.env.AUDIT_RESPONSIVE_QUIESCENCE !== '0';
+      if (staticQuiescenceEnabled) {
+        const qs = await waitForQuiescence(page, OCCLUSION_QUIESCENCE_BUDGET_MS);
+        if (!qs.reached) {
+          findings.push(finding(s.name, s.vpLabel, 'quiescence', 'P2',
+            `quiescence not reached in ${OCCLUSION_QUIESCENCE_BUDGET_MS}ms at ${s.width}px: ${qs.animCount} animation(s) still running, geometry ${qs.geometryChanged ? 'still changing' : 'stable'} — measuring anyway`));
+        }
+      } else {
+        await page.waitForTimeout(400);
+      }
       const text = await auditText(page, s, findings);
 
       // junk-slug (148 class): leading token of the rendered <h1> is
@@ -3987,7 +4009,39 @@ async function main(browser, baseUrl, s, ctx) {
   }
 }
 
+// backlog 233 — the other half of the class 231 opened. checkResponsive runs
+// BEFORE checkOcclusion in every driver, at ~0ms into the page's INITIAL
+// mount (not a resize-triggered re-mount like 231's target) — same
+// `.animate-on-mount` fadeInScale/slideInLeft entry animations, different
+// trigger, same predicate covers both (spec 233 "Territory notes"). The
+// distortion here is NOT opacity (boundingBox() is not opacity-gated the way
+// checkVisibility() is — 231's exact mechanism does not transfer) but an
+// ANCESTOR TRANSFORM: fadeInScale's scale(0.95)->1 and slideInLeft's
+// translateX(-20px)->0 shrink/shift the CTA's getBoundingClientRect() by up
+// to 5% toward the viewport centre for ~1.2s, which is enough to hide a
+// genuine ~5px ancestor-clip (measured: box.x = -4 at rest reads as +5.2 at
+// t=0 on the pool-detail-360 permanent defect used for this item's rate
+// legs). Pre-fix shipped-path detection rate on that permanent defect: 0/10.
 async function checkResponsive(page, s, findings, ctaSelector) {
+  // backlog 233 — kill switch, same house convention as checkOcclusion's own
+  // (s.responsiveQuiescence set by main() from ctx.responsiveQuiescence,
+  // which runAudit() resolves once from opts/env — see runAudit()'s own
+  // comment). Default ON. When OFF, this reproduces the pre-233 behaviour
+  // EXACTLY: no wait of any kind before the reads below, byte-equivalent to
+  // what shipped before this item (the positive-control leg drives this).
+  const quiescenceEnabled = s.responsiveQuiescence !== false && process.env.AUDIT_RESPONSIVE_QUIESCENCE !== '0';
+  if (quiescenceEnabled) {
+    const q = await waitForQuiescence(page, OCCLUSION_QUIESCENCE_BUDGET_MS);
+    if (!q.reached) {
+      findings.push(finding(s.name, s.vpLabel, 'responsive', 'P2',
+        `quiescence not reached in ${OCCLUSION_QUIESCENCE_BUDGET_MS}ms at ${s.width}px: ${q.animCount} animation(s) still running, geometry ${q.geometryChanged ? 'still changing' : 'stable'} — measuring anyway`));
+    }
+  }
+  // MEASURE ANYWAY (231's rule): a readiness wait that can silently skip a
+  // measurement has only moved the false negative one layer down, so the
+  // reads below run unconditionally — on timeout, on the switch being off,
+  // and on a clean settle alike.
+
   // No horizontal body scroll at the surface's own width.
   const scrollW = await page.evaluate(() => document.body.scrollWidth);
   if (scrollW > s.width) {
@@ -3995,7 +4049,16 @@ async function checkResponsive(page, s, findings, ctaSelector) {
   }
   // Ancestor-clip check (136): the primary CTA box must be inside the viewport.
   const cta = page.locator(ctaSelector).first();
-  if ((await cta.count()) > 0) {
+  const ctaCount = await cta.count();
+  if (ctaCount === 0) {
+    // backlog 233 — a check that cannot go red is not a check (231's rule,
+    // generalised). Before this item, a zero-match selector skipped the
+    // ENTIRE ancestor-clip check silently — no way to tell "the CTA is fine"
+    // from "the CTA selector stopped matching anything at all" (e.g. a
+    // rename that quietly drops the check's only victim-finding leg).
+    findings.push(finding(s.name, s.vpLabel, 'responsive', 'P2',
+      `${ctaSelector} matched zero elements at ${s.width}px — ancestor-clip check has nothing to measure`));
+  } else {
     const box = await cta.boundingBox();
     if (!box || box.width <= 0 || box.height <= 0) {
       findings.push(finding(s.name, s.vpLabel, 'responsive', 'P2', `${ctaSelector} has zero-area box at ${s.width}px (ancestor-clipped)`));
@@ -4859,10 +4922,18 @@ async function runAudit(opts = {}) {
   // test_audit_occlusion_lens.js. Default ON. The CLI never sets
   // opts.occlusionQuiescence.
   const occlusionQuiescenceEnabled = opts.occlusionQuiescence !== false && process.env.AUDIT_OCCLUSION_QUIESCENCE !== '0';
+  // backlog 233 — identical convention, one turn later: resolved once here
+  // from opts/env, carried into main() via ctx, stamped onto each surface
+  // (s.responsiveQuiescence) for checkResponsive AND the kind:'static'
+  // branch to read (checkResponsive's own signature stays (page, s,
+  // findings, ctaSelector) — no 5th parameter — same "don't grow a pinned
+  // signature" reasoning 231 already applied to checkOcclusion). Default ON.
+  // The CLI never sets opts.responsiveQuiescence.
+  const responsiveQuiescenceEnabled = opts.responsiveQuiescence !== false && process.env.AUDIT_RESPONSIVE_QUIESCENCE !== '0';
   // backlog 231 — opts.injectStyle: a CSS string added via page.addStyleTag
   // immediately after each surface's goto(), test-injection only, same
   // convention as opts.rotationState/opts.livePools. Never set by the CLI.
-  const ctx = { snapshotBody, freshMeta, liveBody, subRailLiveBody, poolsById, protocolUrlsPath, occlusionQuiescence: occlusionQuiescenceEnabled, injectStyle: opts.injectStyle };
+  const ctx = { snapshotBody, freshMeta, liveBody, subRailLiveBody, poolsById, protocolUrlsPath, occlusionQuiescence: occlusionQuiescenceEnabled, responsiveQuiescence: responsiveQuiescenceEnabled, injectStyle: opts.injectStyle };
   const findings = [...prescanFindings, ...poolPrescanFindings, ...textSurfaceFindings, ...i18nFindings];
   const surfacesCovered = [];
   // Named only when the pass ran AND survived opts.only (spec 160: unlike
@@ -5058,6 +5129,11 @@ module.exports = {
   // drive/assert the quiescence wait directly and interpolate its budget
   // (item-159 rule) rather than re-typing 3000/100.
   waitForQuiescence, OCCLUSION_QUIESCENCE_BUDGET_MS, OCCLUSION_QUIESCENCE_SAMPLE_GAP_MS,
+  // backlog 233 — exported so test_audit_responsive_lens_reliability.js can
+  // drive checkResponsive directly against page.setContent() fixtures (the
+  // zero-match-selector and never-stabilising-geometry proofs), the same
+  // precedent checkOcclusion's own export already set for 231.
+  checkResponsive,
   // backlog 184 — exported so test_audit_pool_link_liveness.js can drive the
   // live-id resolution directly (with opts.livePools injection) without a
   // full runAudit() invocation.

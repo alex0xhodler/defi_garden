@@ -220,6 +220,29 @@ and the giveaway is that the defect exists on exactly one route.
 
 ## Traps
 
+- **Probe this family IN CLASS, or your non-vacuity proof proves nothing**
+  (item 225, 2026-08-04). Step 0 above already names two lens blind spots
+  (≥80%-viewport overlays; top-anchored overlays at bottom-of-scroll). A probe
+  that lands in either one produces a green that is *documented behaviour*, so
+  it can neither prove nor disprove the gate. 225's first probe —
+  `.app-footer{top:0;height:100vh}` — was both at once, and the "four gates are
+  blind!" finding drafted from it was retracted before filing.
+  **The valid probe, and what it showed:** `.app-footer { height: 340px }`
+  (bottom-anchored, opaque, **44%** of the 780px viewport — outside both blind
+  spots, same geometry as this whole class). An independent measurement — own
+  Playwright script, `?pool=` at 1280×780, scrolled to bottom, no repo gate
+  involved — found a real P0-shaped victim: interactive `<a class="planner-entry">`
+  **82% covered**, `elementFromPoint` at its lower band returning `.app-footer`
+  (click stolen). Under that exact break, `test_audit_app.js`,
+  `test_audit_occlusion_lens.js`, `test_footer_occlusion.js` and
+  `test_cta_at_rest_occlusion.js` **all stayed green**; restore was
+  md5-verified and everything stayed green.
+  **Open question for item 231 (do NOT state it more strongly than this):**
+  either the lens misses an in-class overlay, or the audit's own fixture render
+  never contains that victim — a coverage gap, not a detection gap. 225 did not
+  distinguish them. Until it is settled, treat a green from this family as
+  evidence about the surfaces+geometry it has actually been shown to catch, and
+  run your own probe in the shape of the defect you are chasing.
 - **`git checkout -- <file>` is the WRONG restore in a non-vacuity cycle** (item
   230). Every fix in this class mutates the shipped `style.min.css` to prove the
   new gate can go red — but at that moment the fix itself is still uncommitted,
@@ -325,3 +348,13 @@ render-site-enumeration sweep in favour of enumerating `.app` STATES, the
 `.app-footer` line reference had been wrong by 64 lines; item 221 was parked
 over the same rot in `style.css`): `specs/230.md`, `specs/230-notes.md`,
 `specs/230-pr.md`, `test_dead_pool.js`, LOG.md 2026-08-04 build | 230.
+ Updated
+2026-08-04 by **225** (the design reset), which did not fix a member of this
+class but measured its GATES: two structurally different deliberate breaks —
+an in-class bottom-anchored 340px opaque footer (44% of viewport) with an
+independently measured 82%-covered, click-stolen victim left four gates green,
+adding the "probe this family IN CLASS" trap above — including the retraction
+of a stronger claim drafted from an out-of-class probe — with the exact probe
+CSS, results and md5-verified restore:
+`specs/225-notes.md` (§Non-vacuity proof), `specs/225-pr.md`, LOG.md
+2026-08-04 build | 225.

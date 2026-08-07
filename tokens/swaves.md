@@ -1,10 +1,10 @@
 # SWAVES DeFi Yields
 
-The highest honest SWAVES yield right now is 97.84% on pepeteam-swaves (Waves), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWAVES yield right now is 149.65% on pepeteam-swaves (Waves), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pepeteam-swaves →](https://www.defi.garden/?pool=7701206b-170e-4439-8943-5c0f6cb3b8ca&src=seo_token) | Waves | 97.84% | $233.6K |
+| [pepeteam-swaves →](https://www.defi.garden/?pool=7701206b-170e-4439-8943-5c0f6cb3b8ca&src=seo_token) | Waves | 149.65% | $226.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWAVES yield today?
 
-97.84% APY on pepeteam-swaves (Waves), based on live DefiLlama data.
+149.65% APY on pepeteam-swaves (Waves), based on live DefiLlama data.
 
 ### How many SWAVES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $233.6K in total.
+1 live pool clear this page's $100K TVL floor, $226.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Waves](https://www.defi.garden/chains/waves)
 
-## Last updated August 5, 2026
+## Last updated August 8, 2026

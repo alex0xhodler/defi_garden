@@ -114,7 +114,7 @@ function assertSet(actual, expected, label) {
 // Click the nav tab whose trimmed text exactly equals `label`.
 async function clickTab(page, label) {
   await page.evaluate((lbl) => {
-    const btn = Array.from(document.querySelectorAll('.google-nav-tab')).find(b => b.textContent.trim() === lbl);
+    const btn = Array.from(document.querySelectorAll('.app-nav-tab')).find(b => b.textContent.trim() === lbl);
     if (!btn) throw new Error('tab not found: ' + lbl);
     btn.click();
   }, label);
@@ -142,45 +142,45 @@ async function main() {
     await page.waitForSelector('.pool-card', { timeout: 15000 });
     await waitForSymbols(page, ['USDC-ONDO', 'USDC-AAVE']);
 
-    // (1) Grouping renders: one .google-nav-primary, one .google-nav-secondary,
-    //     a .google-nav-divider between them in DOM order.
+    // (1) Grouping renders: one .app-nav-primary, one .app-nav-secondary,
+    //     a .app-nav-divider between them in DOM order.
     await test('grouping renders: primary → divider → secondary in DOM order', async () => {
       const r = await page.evaluate(() => {
-        const tabs = document.querySelector('.google-nav-tabs');
-        const primaries = tabs.querySelectorAll('.google-nav-primary');
-        const secondaries = tabs.querySelectorAll('.google-nav-secondary');
-        const dividers = tabs.querySelectorAll('.google-nav-divider');
+        const tabs = document.querySelector('.app-nav-tabs');
+        const primaries = tabs.querySelectorAll('.app-nav-primary');
+        const secondaries = tabs.querySelectorAll('.app-nav-secondary');
+        const dividers = tabs.querySelectorAll('.app-nav-divider');
         const kids = Array.from(tabs.children);
-        const iP = kids.findIndex(el => el.classList.contains('google-nav-primary'));
-        const iD = kids.findIndex(el => el.classList.contains('google-nav-divider'));
-        const iS = kids.findIndex(el => el.classList.contains('google-nav-secondary'));
+        const iP = kids.findIndex(el => el.classList.contains('app-nav-primary'));
+        const iD = kids.findIndex(el => el.classList.contains('app-nav-divider'));
+        const iS = kids.findIndex(el => el.classList.contains('app-nav-secondary'));
         return { p: primaries.length, s: secondaries.length, d: dividers.length, iP, iD, iS };
       });
-      if (r.p !== 1) throw new Error('expected exactly 1 .google-nav-primary, got ' + r.p);
-      if (r.s !== 1) throw new Error('expected exactly 1 .google-nav-secondary, got ' + r.s);
-      if (r.d !== 1) throw new Error('expected exactly 1 .google-nav-divider, got ' + r.d);
+      if (r.p !== 1) throw new Error('expected exactly 1 .app-nav-primary, got ' + r.p);
+      if (r.s !== 1) throw new Error('expected exactly 1 .app-nav-secondary, got ' + r.s);
+      if (r.d !== 1) throw new Error('expected exactly 1 .app-nav-divider, got ' + r.d);
       if (!(r.iP >= 0 && r.iD > r.iP && r.iS > r.iD))
         throw new Error(`expected DOM order primary(${r.iP}) < divider(${r.iD}) < secondary(${r.iS})`);
     });
 
     // (2) Primary rail holds only category tabs.
-    await test('primary rail holds every .google-nav-tab and zero .google-filter-btn', async () => {
+    await test('primary rail holds every .app-nav-tab and zero .app-filter-btn', async () => {
       const r = await page.evaluate(() => {
-        const primary = document.querySelector('.google-nav-primary');
-        const allTabs = Array.from(document.querySelectorAll('.google-nav-tab'));
+        const primary = document.querySelector('.app-nav-primary');
+        const allTabs = Array.from(document.querySelectorAll('.app-nav-tab'));
         const tabsOutside = allTabs.filter(t => !primary.contains(t)).length;
-        const filtersInside = primary.querySelectorAll('.google-filter-btn').length;
+        const filtersInside = primary.querySelectorAll('.app-filter-btn').length;
         return { totalTabs: allTabs.length, tabsOutside, filtersInside };
       });
       if (r.totalTabs < 1) throw new Error('expected category tabs to exist');
-      if (r.tabsOutside !== 0) throw new Error(r.tabsOutside + ' .google-nav-tab(s) live outside .google-nav-primary');
-      if (r.filtersInside !== 0) throw new Error(r.filtersInside + ' .google-filter-btn(s) live inside .google-nav-primary');
+      if (r.tabsOutside !== 0) throw new Error(r.tabsOutside + ' .app-nav-tab(s) live outside .app-nav-primary');
+      if (r.filtersInside !== 0) throw new Error(r.filtersInside + ' .app-filter-btn(s) live inside .app-nav-primary');
     });
 
     // (3) Secondary cluster holds only the four id'd filter buttons.
     await test('secondary cluster holds the 4 id\'d filters, IDs preserved', async () => {
       const r = await page.evaluate(() => {
-        const secondary = document.querySelector('.google-nav-secondary');
+        const secondary = document.querySelector('.app-nav-secondary');
         const ids = ['chains-btn', 'tvl-btn', 'protocols-btn', 'apy-btn'];
         const missing = ids.filter(id => !document.getElementById(id));
         const notInside = ids.filter(id => {
@@ -189,20 +189,20 @@ async function main() {
         });
         const notFilterBtn = ids.filter(id => {
           const el = document.getElementById(id);
-          return !el || !el.classList.contains('google-filter-btn');
+          return !el || !el.classList.contains('app-filter-btn');
         });
         return { missing, notInside, notFilterBtn };
       });
       if (r.missing.length) throw new Error('missing filter IDs: ' + JSON.stringify(r.missing));
-      if (r.notInside.length) throw new Error('filters not inside .google-nav-secondary: ' + JSON.stringify(r.notInside));
-      if (r.notFilterBtn.length) throw new Error('filters missing .google-filter-btn class: ' + JSON.stringify(r.notFilterBtn));
+      if (r.notInside.length) throw new Error('filters not inside .app-nav-secondary: ' + JSON.stringify(r.notInside));
+      if (r.notFilterBtn.length) throw new Error('filters missing .app-filter-btn class: ' + JSON.stringify(r.notFilterBtn));
     });
 
     // (4) Category tabs are text-only (no <svg>); every filter button keeps exactly one inline <svg>.
     await test('category tabs have NO <svg>; every filter button has exactly one <svg>', async () => {
       const r = await page.evaluate(() => {
-        const tabs = Array.from(document.querySelectorAll('.google-nav-tab'));
-        const filters = Array.from(document.querySelectorAll('.google-filter-btn'));
+        const tabs = Array.from(document.querySelectorAll('.app-nav-tab'));
+        const filters = Array.from(document.querySelectorAll('.app-filter-btn'));
         const tabsWithSvg = tabs.filter(t => t.querySelector('svg')).length;
         const filtersWrongSvg = filters.filter(f => f.querySelectorAll('svg').length !== 1).length;
         return { tabCount: tabs.length, tabsWithSvg, filterCount: filters.length, filtersWrongSvg };
@@ -236,7 +236,7 @@ async function main() {
       await waitForSymbols(page, ['USDC-ONDO']);
       assertSet(await symbolSet(page), ['USDC-ONDO'], 'RWA-filtered grid');
       const r = await page.evaluate(() => {
-        const tabs = Array.from(document.querySelectorAll('.google-nav-tab'));
+        const tabs = Array.from(document.querySelectorAll('.app-nav-tab'));
         const active = tabs.filter(t => t.classList.contains('active'));
         return { activeCount: active.length, activeText: active.map(t => t.textContent.trim()) };
       });
@@ -244,19 +244,19 @@ async function main() {
       if (r.activeText[0] !== 'RWA') throw new Error('expected RWA to be the active tab, got ' + JSON.stringify(r.activeText));
     });
 
-    // (8) Sticky-on-scroll holds: .google-header-sticky top is pinned near the
+    // (8) Sticky-on-scroll holds: .app-header-sticky top is pinned near the
     //     viewport top and does NOT move when the results scroll (position:fixed).
-    await test('.google-header-sticky stays pinned to the viewport top after scroll', async () => {
+    await test('.app-header-sticky stays pinned to the viewport top after scroll', async () => {
       const before = await page.evaluate(() =>
-        document.querySelector('.google-header-sticky').getBoundingClientRect().top);
+        document.querySelector('.app-header-sticky').getBoundingClientRect().top);
       await page.evaluate(() => window.scrollTo(0, 600));
       await page.waitForTimeout(150);
       const after = await page.evaluate(() =>
-        document.querySelector('.google-header-sticky').getBoundingClientRect().top);
+        document.querySelector('.app-header-sticky').getBoundingClientRect().top);
       if (Math.abs(after) > 12)
-        throw new Error('.google-header-sticky top is ' + after + ' after scroll, expected pinned near viewport top');
+        throw new Error('.app-header-sticky top is ' + after + ' after scroll, expected pinned near viewport top');
       if (Math.abs(after - before) > 1)
-        throw new Error('.google-header-sticky moved on scroll (before=' + before + ', after=' + after + '); not fixed');
+        throw new Error('.app-header-sticky moved on scroll (before=' + before + ', after=' + after + '); not fixed');
       await page.evaluate(() => window.scrollTo(0, 0));
     });
 
@@ -267,13 +267,13 @@ async function main() {
       const r = await page.evaluate(() => {
         const ids = ['chains-btn', 'tvl-btn', 'protocols-btn', 'apy-btn'];
         return {
-          primary: !!document.querySelector('.google-nav-primary'),
-          divider: !!document.querySelector('.google-nav-divider'),
+          primary: !!document.querySelector('.app-nav-primary'),
+          divider: !!document.querySelector('.app-nav-divider'),
           filters: ids.filter(id => document.getElementById(id)).length
         };
       });
-      if (!r.primary) throw new Error('.google-nav-primary missing at 360px');
-      if (!r.divider) throw new Error('.google-nav-divider missing at 360px');
+      if (!r.primary) throw new Error('.app-nav-primary missing at 360px');
+      if (!r.divider) throw new Error('.app-nav-divider missing at 360px');
       if (r.filters !== 4) throw new Error('expected 4 filter buttons at 360px, got ' + r.filters);
     });
 
@@ -290,7 +290,7 @@ async function main() {
       const r = await page.evaluate(() => {
         const label = (id) => {
           const el = document.getElementById(id);
-          const span = el && el.querySelector('.google-nav-label');
+          const span = el && el.querySelector('.app-nav-label');
           return (span ? span.textContent : el ? el.textContent : '').trim();
         };
         return { chains: label('chains-btn'), protocols: label('protocols-btn') };

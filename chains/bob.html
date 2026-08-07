@@ -11,8 +11,8 @@
     <link rel="alternate" hreflang="x-default" href="https://www.defi.garden/chains/bob">
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Chains"},{"@type":"ListItem","position":3,"name":"Bob","item":"https://www.defi.garden/chains/bob"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"avalon-finance on Bob","url":"https://www.defi.garden/?pool=19c9b477-6ce9-4e59-897e-1b3ef76afa3a"}]}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Bob DeFi Yields Dataset","description":"Live DefiLlama yield data for Bob pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/chains/bob","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 5, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest Bob yield today?","acceptedAnswer":{"@type":"Answer","text":"1.01% APY on avalon-finance (Bob), based on live DefiLlama data."}},{"@type":"Question","name":"How many Bob pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear this page's $100K TVL floor, $43.41M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Bob DeFi Yields Dataset","description":"Live DefiLlama yield data for Bob pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/chains/bob","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 7, 2026"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest Bob yield today?","acceptedAnswer":{"@type":"Answer","text":"1.01% APY on avalon-finance (Bob), based on live DefiLlama data."}},{"@type":"Question","name":"How many Bob pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear this page's $100K TVL floor, $44.95M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="Bob DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="3 live pools on Bob above the $100K TVL floor, up to 1.01% APY, across 3 tokens. Honest yields from DefiLlama data — no anomalous rates.">
@@ -24,50 +24,54 @@
     <meta name="twitter:image" content="https://www.defi.garden/og/chains/bob.png">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <!-- Reuse the app's design system: style.css defines the neumorphic tokens
-         (--color-*, --neuro-*) + the brand gradient body. The scoped block below
-         styles this page with those tokens only — no hardcoded colors/gradients. -->
+    <!-- Reuse the app's design system (247 world): style.css defines the
+         --ui-* certificate-green tokens (the --color-*/--neuro-* names below
+         are its deprecated aliases, still resolving) + Besley/Public Sans,
+         preloaded above. The scoped block below styles this page with those
+         tokens only — no hardcoded colors/gradients/fonts. -->
+    <link rel="preload" href="/fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/style.css">
     <style>
       .cp-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .cp-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
-      .cp-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
-      .cp-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
-      .cp-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 8px 18px; margin: 20px 0; }
+      .cp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
+      .cp-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
+      .cp-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
+      .cp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 8px 18px; margin: 20px 0; }
       .cp-card table { width: 100%; border-collapse: collapse; }
-      .cp-card th, .cp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
-      .cp-card th { color: var(--color-text-secondary); font-weight: 600; }
-      .cp-card td.num, .cp-card th.num { text-align: right; }
+      .cp-card th, .cp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
+      .cp-card th { color: var(--ui-text-secondary); font-weight: 600; }
+      .cp-card td.num, .cp-card th.num { text-align: right; font-variant-numeric: tabular-nums; }
       .cp-card tr:last-child td { border-bottom: none; }
       .cp-card tbody tr { transition: background .15s ease; }
-      .cp-card tbody tr:hover { background: var(--color-background); }
-      .cp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
+      .cp-card tbody tr:hover { background: var(--ui-surface-muted); }
+      .cp-pool-link { color: var(--ui-accent); text-decoration: none; font-weight: 500; }
       .cp-pool-link:hover { text-decoration: underline; }
-      .cp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
+      .cp-pool-link:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
       @media (prefers-reduced-motion: reduce) { .cp-card tbody tr { transition: none; } }
-      .cp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
-      .cp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-      .cp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
-      .cp-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+      .cp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
+      .cp-cta:hover { background: var(--ui-accent-hover); }
+      .cp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
+      .cp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
       .related { margin: 30px 0 8px; }
-      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
-      .related-links a:hover { box-shadow: var(--neuro-shadow-flat); }
-      .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
-      .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
-      .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
-      .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
-      .cp-yield-headline { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); padding: 14px 18px; margin: 4px 0 18px; color: var(--color-text); font-weight: 600; line-height: 1.5; }
+      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
+      .related-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
+      .related-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+      .related-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .cp-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--ui-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-yield-headline { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 4px 0 18px; color: var(--ui-text); font-weight: 600; line-height: 1.5; }
       .cp-faq { margin: 30px 0 8px; }
-      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
-      .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
-      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
-      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
+      .cp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
-      @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
-      .cp-waitlist { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 20px 22px; margin: 24px 0; }
-      .cp-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--color-text); }
-      .cp-waitlist p { color: var(--color-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
+      @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      .cp-waitlist { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 20px 22px; margin: 24px 0; }
+      .cp-waitlist h2 { font-size: 1rem; margin: 0 0 8px; color: var(--ui-text); }
+      .cp-waitlist p { color: var(--ui-text-secondary); font-size: .92rem; margin: 0 0 14px; line-height: 1.55; }
       .cp-waitlist .cp-cta { margin: 4px 0 10px; }
       .cp-waitlist-micro { font-size: .78rem !important; margin: 0 !important; }
     </style>
@@ -90,7 +94,7 @@
     <h1>Bob DeFi Yields</h1>
     <p class="cp-answer">The highest honest Bob yield right now is 1.01% on avalon-finance (Bob), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">3 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">Bob's largest live pool is avalon-finance (XSOLVBTC) at 1.01% ($111.1K TVL). 3 pools across 3 tokens clear this page's $100K TVL floor, $43.41M in total.</p>
+    <p class="intro">Bob's largest live pool is avalon-finance (XSOLVBTC) at 1.01% ($108.5K TVL). 3 pools across 3 tokens clear this page's $100K TVL floor, $44.95M in total.</p>
     <p class="cp-yield-headline">Idle assets on Bob could earn ~1.01% — park $23.8K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="cp-cta" href="https://www.defi.garden/?chain=Bob&minTvl=100000&src=seo_chain">See live pools on Bob →</a>
     <div class="cp-card">
@@ -104,7 +108,7 @@
           <td>XSOLVBTC</td>
           <td><a class="cp-pool-link" href="https://www.defi.garden/?pool=19c9b477-6ce9-4e59-897e-1b3ef76afa3a&src=seo_chain">avalon-finance &rarr;</a></td>
           <td class="num">1.01%</td>
-          <td class="num">$111.1K</td>
+          <td class="num">$108.5K</td>
         </tr>
       </tbody>
     </table>
@@ -118,7 +122,7 @@
         </div>
         <div class="cp-faq-item">
           <h3 class="cp-faq-q">How many Bob pools clear the TVL floor?</h3>
-          <p class="cp-faq-a">3 live pools clear this page&#39;s $100K TVL floor, $43.41M in total.</p>
+          <p class="cp-faq-a">3 live pools clear this page&#39;s $100K TVL floor, $44.95M in total.</p>
         </div>
         <div class="cp-faq-item">
           <h3 class="cp-faq-q">Are these rates safe?</h3>
@@ -155,7 +159,7 @@
       <p class="cp-waitlist-micro">Free to join • Card doesn&#39;t exist yet • We&#39;ll email you when it does</p>
     </div>
     <p class="note">Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that&#39;s this page&#39;s listing bar, not a safety guarantee. Education only, not financial advice.</p>
-    <p class="note">Last updated August 5, 2026</p>
+    <p class="note">Last updated August 7, 2026</p>
     <p class="note"><a href="https://www.defi.garden/">DeFi Garden 🌱</a> — plan your DeFi savings by goal.</p>
   </main>
 </body>

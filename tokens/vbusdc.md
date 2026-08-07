@@ -1,25 +1,42 @@
 # VBUSDC DeFi Yields
 
-The highest honest VBUSDC yield right now is 14.92% on yearn-finance (Katana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBUSDC yield right now is 12.72% on spectra-metavaults (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 3.37% | $8.62M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 2.07% | $4.28M |
-| [yearn-finance →](https://www.defi.garden/?pool=ffeb6000-119e-4950-9875-fa90d0d8e373&src=seo_token) | Katana | 1.62% | $1.05M |
-| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 14.92% | $453.8K |
+| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 4.08% | $8.56M |
+| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 2.08% | $4.13M |
+| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 12.72% | $454.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+VBUSDC shows up in 3 pools here, with rates from 2.08% to 12.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.97% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+1 of 3 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| yearn-finance | 4.08% | 4.99% | 61.81% incentives |
+| morpho-blue | 2.08% | 5.97% | Base rate |
+| spectra-metavaults | 12.72% | 13.22% | 18.95% incentives |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest VBUSDC yield today?
 
-14.92% APY on yearn-finance (Katana), based on live DefiLlama data.
+12.72% APY on spectra-metavaults (Katana), based on live DefiLlama data.
 
 ### How many VBUSDC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $14.4M in total.
+3 live pools clear this page's $100K TVL floor, $13.14M in total.
 
 ### Are these rates safe?
 
@@ -29,13 +46,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [BBQUSDC](https://www.defi.garden/tokens/bbqusdc)
-- [GTUSDC](https://www.defi.garden/tokens/gtusdc)
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
-- [GTWETH](https://www.defi.garden/tokens/gtweth)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
+- [GTWETH](https://www.defi.garden/tokens/gtweth)
+- [VBETH](https://www.defi.garden/tokens/vbeth)
 
 ## Available on
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 5, 2026
+## Last updated August 8, 2026

@@ -1,34 +1,34 @@
 # YMVDG-USDC — morpho-blue on Katana
 
-**Total APY:** 3.06% (3.06% Base · + 0.00% Rewards)
+**Total APY:** 3.18% (2.50% Base · + 0.68% Rewards)
 
-**TVL:** $944.5K
+**TVL:** $1.5M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 7.05%
+**30d Mean APY:** 6.52%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: Medium
+## Risk Assessment: Low
 
-Moderate risk profile
+Conservative DeFi strategy
 
-- Low liquidity
+- Medium liquidity
 - Credit risk
 
-## The Long Game
+## The long game
 
-$1,000 in this pool grows to ~$1,163 in 5y at current rates.
+$1,000 in this pool grows to ~$1,170 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 3.06% right now vs a 7.05% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 3.18% right now vs a 6.52% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,163 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,170 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated August 5, 2026
+Last updated August 7, 2026

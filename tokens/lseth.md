@@ -4,9 +4,25 @@ The highest honest LSETH yield right now is 2.32% on liquid-collective (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liquid-collective →](https://www.defi.garden/?pool=465d177e-3d0d-42c0-b5f5-31c857567135&src=seo_token) | Ethereum | 2.32% | $596.48M |
+| [liquid-collective →](https://www.defi.garden/?pool=465d177e-3d0d-42c0-b5f5-31c857567135&src=seo_token) | Ethereum | 2.32% | $611.98M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b16b4a73-dde5-4a4d-93d3-5785c4eb4a04&src=seo_token) | Ethereum | 0.05% | $6.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+LSETH shows up in 2 pools here, with rates from 0.05% to 2.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| liquid-collective | 2.32% | 2.40% | Base rate |
+| uniswap-v3 | 0.05% | 0.35% | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
@@ -16,7 +32,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LSETH pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $608.36M in total.
+7 live pools clear this page's $100K TVL floor, $624.16M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 8, 2026

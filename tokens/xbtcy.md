@@ -4,7 +4,7 @@ The highest honest XBTCY yield right now is 0.79% on gami-labs (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=6a480d8a-6b74-42f3-95b1-19e79d6eabfd&src=seo_token) | Ethereum | 0.79% | $3.22M |
+| [gami-labs →](https://www.defi.garden/?pool=6a480d8a-6b74-42f3-95b1-19e79d6eabfd&src=seo_token) | Ethereum | 0.79% | $3.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XBTCY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.22M in total.
+1 live pool clear this page's $100K TVL floor, $3.26M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 8, 2026

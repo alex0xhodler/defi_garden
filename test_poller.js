@@ -17,7 +17,7 @@ function ok(cond, msg) { assert.ok(cond, msg); passed++; }
 function eq(a, b, msg) { assert.strictEqual(a, b, msg); passed++; }
 
 // --- constants mirror the snapshot generator (never drift) ------------------
-eq(core.DEFAULT_MIN_TVL, 10000000, '$10M TVL floor mirrored');
+eq(core.DEFAULT_MIN_TVL, 100000, '$100K TVL floor mirrored');
 eq(core.APY_SANITY_LIMIT, 1000, 'APY sanity limit mirrored');
 
 // --- round matches compute-kpis.js round() ----------------------------------
@@ -33,8 +33,8 @@ eq(core.totalApy({}), 0, 'total apy null-safe → 0');
 const TS = 1_700_000_000;
 const pools = [
   { pool: 'big',    tvlUsd: 3.3e9, apyBase: 4.86, apyReward: 0 },   // keep
-  { pool: 'exactly',tvlUsd: 10000000, apyBase: 5, apyReward: 1 },   // keep (== floor)
-  { pool: 'under',  tvlUsd: 9999999, apyBase: 8, apyReward: 0 },    // DROP (< floor)
+  { pool: 'exactly',tvlUsd: 100000, apyBase: 5, apyReward: 1 },   // keep (== floor)
+  { pool: 'under',  tvlUsd: 99999, apyBase: 8, apyReward: 0 },    // DROP (< floor)
   { pool: 'anom',   tvlUsd: 5e7, apyBase: 4000, apyReward: 0 },     // KEEP (anomalous, flagged downstream)
   { pool: 'reward', tvlUsd: 2e7, apyBase: 2, apyReward: 3.5 },      // keep, apy=5.5
   { tvlUsd: 5e9, apyBase: 9 },                                      // DROP (no pool id)

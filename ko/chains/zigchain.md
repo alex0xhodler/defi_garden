@@ -1,13 +1,13 @@
 # ZIGChain 디파이 수익률
 
-현재 ZIGChain의 가장 높은 정직한 수익률은 ZIGChain의 valdora-finance에서 59.12%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ZIGChain의 가장 높은 정직한 수익률은 ZIGChain의 permapod에서 62.89%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.67% | $8.28M |
-| USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 10.94% | $3.81M |
-| ZIG | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_chain) | 0.08% | $1.34M |
-| USDC | [permapod →](https://www.defi.garden/?pool=e425717d-74c8-4ffa-859d-595e5e2bd1ec&src=seo_chain) | 59.12% | $157.4K |
+| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.67% | $8.27M |
+| USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 8.29% | $3.82M |
+| ZIG | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_chain) | 0.08% | $1.33M |
+| USDC | [permapod →](https://www.defi.garden/?pool=e425717d-74c8-4ffa-859d-595e5e2bd1ec&src=seo_chain) | 62.89% | $150.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -15,11 +15,11 @@
 
 ### 오늘 ZIGChain의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, ZIGChain의 valdora-finance에서 APY 59.12%예요.
+DefiLlama 실시간 데이터 기준, ZIGChain의 permapod에서 APY 62.89%예요.
 
 ### ZIGChain 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $14.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $14.4M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -29,10 +29,10 @@ DefiLlama 실시간 데이터 기준, ZIGChain의 valdora-finance에서 APY 59.1
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
-- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Base](https://www.defi.garden/ko/chains/base)
+- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
 ## ZIGChain의 인기 토큰
 
@@ -40,4 +40,4 @@ DefiLlama 실시간 데이터 기준, ZIGChain의 valdora-finance에서 APY 59.1
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [ZIG](https://www.defi.garden/ko/tokens/zig)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 7, 2026

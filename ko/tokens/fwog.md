@@ -1,10 +1,10 @@
 # FWOG 디파이 수익률
 
-현재 FWOG의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.61%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FWOG의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.25%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f4b95102-0632-4d7f-899c-65b9b941590c&src=seo_token) | Solana | 1.61% | $1.14M |
+| [raydium-amm →](https://www.defi.garden/?pool=f4b95102-0632-4d7f-899c-65b9b941590c&src=seo_token) | Solana | 1.25% | $1.14M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,7 +12,7 @@
 
 ### 오늘 FWOG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.61%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.25%예요.
 
 ### FWOG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -28,11 +28,11 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.61%예�
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 8, 2026

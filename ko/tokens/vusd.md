@@ -1,27 +1,48 @@
 # VUSD 디파이 수익률
 
-현재 VUSD의 가장 높은 정직한 수익률은 Monad의 curvance에서 31.52%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 17.61%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.76% | $36.13M |
-| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 11.10% | $315.4K |
-| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 25.30% | $226.6K |
-| [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 7.76% | $169.6K |
-| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 9.10% | $161.8K |
-| [curve-dex →](https://www.defi.garden/?pool=7683064c-bffb-4720-8ac2-571645a4c9d3&src=seo_token) | Ethereum | 31.52% | $100.2K |
+| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.76% | $36.15M |
+| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 30.59% | $350.9K |
+| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 37.66% | $262.1K |
+| [amply-finance →](https://www.defi.garden/?pool=1e2284a8-3983-427c-a432-e4a8b37adade&src=seo_token) | Cronos zkEVM | 0.01% | $184K |
+| [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 13.33% | $178.7K |
+| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 15.28% | $170.9K |
+| [curve-dex →](https://www.defi.garden/?pool=7683064c-bffb-4720-8ac2-571645a4c9d3&src=seo_token) | Ethereum | 17.61% | $100.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
+
+## 이 수익률은 어떻게 움직였을까요
+
+VUSD 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.01%부터 37.66%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 17.64%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+
+7개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+
+| 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
+|---|---|---|---|
+| curvance | 0.76% | 0.74% | 인센티브 100.00% |
+| curve-dex | 30.59% | 18.34% | 인센티브 99.54% |
+| stake-dao | 37.66% | 25.05% | 인센티브 99.73% |
+| amply-finance | 0.01% | 2.37% | 기본 금리 |
+| curve-dex | 13.33% | 15.32% | 인센티브 99.62% |
+| stake-dao | 15.28% | 17.64% | 인센티브 99.61% |
+| curve-dex | 17.61% | 23.24% | 인센티브 96.25% |
+
+30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
 ## 자주 묻는 질문
 
 ### 오늘 VUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 31.52%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 17.61%예요.
 
 ### VUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $38.95M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $39.24M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,5 +61,6 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 31.52%예요.
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Cronos zkEVM](https://www.defi.garden/ko/chains/cronos-zkevm)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 8, 2026

@@ -178,7 +178,7 @@ function assertSet(actual, expected, label) {
 // Click the nav tab whose trimmed text exactly equals `label`.
 async function clickTab(page, label) {
   await page.evaluate((lbl) => {
-    const btn = Array.from(document.querySelectorAll('.google-nav-tab')).find(b => b.textContent.trim() === lbl);
+    const btn = Array.from(document.querySelectorAll('.app-nav-tab')).find(b => b.textContent.trim() === lbl);
     if (!btn) throw new Error('tab not found: ' + lbl);
     btn.click();
   }, label);
@@ -209,7 +209,7 @@ async function main() {
     // (a) The RWA + Yield Derivatives nav tabs render.
     await test('nav tabs include "RWA" and "Yield Derivatives"', async () => {
       const labels = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.google-nav-tab')).map(b => b.textContent.trim()));
+        Array.from(document.querySelectorAll('.app-nav-tab')).map(b => b.textContent.trim()));
       for (const want of ['RWA', 'Yield Derivatives']) {
         if (!labels.includes(want)) throw new Error(`expected a nav tab "${want}", got ${JSON.stringify(labels)}`);
       }
@@ -235,7 +235,7 @@ async function main() {
       await page.setViewportSize({ width: 360, height: 780 });
       await page.waitForTimeout(200);
       const labels = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.google-nav-tab')).map(b => b.textContent.trim()));
+        Array.from(document.querySelectorAll('.app-nav-tab')).map(b => b.textContent.trim()));
       for (const want of ['RWA', 'Yield Derivatives']) {
         if (!labels.includes(want)) throw new Error(`expected "${want}" tab at 360px, got ${JSON.stringify(labels)}`);
       }
@@ -251,7 +251,7 @@ async function main() {
     await test('typing "pendle" shows pendle-PROTOCOL pools (not the PENDLE token)', async () => {
       await clickTab(page, 'All');
       await waitForSymbols(page, ['USDC-ONDO', 'USDC-PENDLE', 'PT-USDE', 'USDC-AAVE']);
-      await page.click('.google-search-input');
+      await page.click('.app-search-input');
       await page.keyboard.type('pendle', { delay: 20 });
       await page.waitForTimeout(400); // let the 300ms search debounce settle
       await page.keyboard.press('Enter');

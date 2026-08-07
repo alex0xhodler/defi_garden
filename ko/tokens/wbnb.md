@@ -1,29 +1,52 @@
 # WBNB 디파이 수익률
 
-현재 WBNB의 가장 높은 정직한 수익률은 BSC의 venus-core-pool에서 31.86%이며, $100K TVL 기준을 넘는 33개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WBNB의 가장 높은 정직한 수익률은 BSC의 uniswap-v3에서 22.18%이며, $100K TVL 기준을 넘는 32개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.18% | $242.38M |
-| [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.01% | $67.72M |
-| [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.15% | $52.5M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.34% | $7.45M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 19.44% | $7.43M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token) | BSC | 13.46% | $5.2M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token) | BSC | 31.86% | $4.02M |
-| [native-credit-pool →](https://www.defi.garden/?pool=cd637956-e278-4462-a030-8d0d26a63a5c&src=seo_token) | BSC | 1.17% | $1.54M |
+| [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.19% | $228.99M |
+| [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.01% | $64.38M |
+| [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.11% | $53.3M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 0.98% | $7.36M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 11.36% | $7.24M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token) | BSC | 10.69% | $5.05M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token) | BSC | 22.18% | $3.99M |
+| [kinza-finance →](https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token) | BSC | 0.19% | $1.36M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
+
+## 이 수익률은 어떻게 움직였을까요
+
+WBNB 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 22.18%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.78%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+
+현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
+
+8개 풀 중 4개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+
+| 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
+|---|---|---|---|
+| venus-core-pool | 0.19% | 0.17% | 기본 금리 |
+| aave-v3 | 0.01% | 0.01% | 기본 금리 |
+| venus-core-pool | 0.11% | 0.15% | 기본 금리 |
+| pancakeswap-amm | 0.98% | 1.38% | 기본 금리 |
+| uniswap-v3 | 11.36% | 10.04% | 기본 금리 |
+| uniswap-v3 | 10.69% | 10.71% | 기본 금리 |
+| uniswap-v3 | 22.18% | 26.28% | 기본 금리 |
+| kinza-finance | 0.19% | 0.19% | 기본 금리 |
+
+30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
 ## 자주 묻는 질문
 
 ### 오늘 WBNB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 31.86%예요.
+DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 22.18%예요.
 
 ### WBNB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 33개이며, 합산 TVL은 $397.71M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 32개이며, 합산 TVL은 $380.27M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,11 +58,11 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 31.86%예
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
-- [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
+- [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)
 
 ## 이용 가능한 체인
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 8, 2026

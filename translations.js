@@ -4,8 +4,8 @@ const translations = {
     // Search
     searchPlaceholder: "Search for a token...",
     searchHint: "Try searching for 'ETH on Arbitrum' or 'USDC lending'",
-    tokenSearch: "Token Search",
-    feelingDegen: "I'm Feeling Degen",
+    tokenSearch: "Token search",
+    feelingDegen: "I'm feeling degen",
     
     // Filter labels
     chains: "Chains",
@@ -33,10 +33,18 @@ const translations = {
     navFilterApy: "APY",
 
     // Results
-    showingResults: (count) => `${count} pool${count !== 1 ? 's' : ''} found`,
+    // 241: string-safe plurality check — count arrives pre-formatted en-US
+    // (a string, e.g. "1,976") via the accessor's formatCount mapping, so a
+    // numeric `!== 1` would always be true and this would never say "1 pool".
+    showingResults: (count) => `${count} pool${String(count) !== '1' ? 's' : ''} found`,
     chainYields: (chain) => `${chain} DeFi Yields`,
     tokenYields: (token, chain) => `Yields for ${token}${chain ? ` on ${chain}` : ''}`,
-    
+    sortByLabel: "Sort by:",
+    // 225 round 3 increment (a): results panel column labels + sort-control text
+    resultsColPool: "Pool",
+    resultsColApy: "APY",
+    resultsColTvl: "TVL",
+
     // Pool card labels
     totalApy: "Total APY",
     baseApy: "Base APY:",
@@ -78,8 +86,16 @@ const translations = {
     // Numbers and earnings
     dailyEarnings: (amount) => `Daily earnings`,
     monthlyEarnings: (amount) => `Monthly earnings`,
-    dailyEarningsSubLabel: (amount) => `on $${Number(amount || 0).toLocaleString('en-US')}`,
-    monthlyEarningsSubLabel: (amount) => `on $${Number(amount || 0).toLocaleString('en-US')}`,
+    // 241: the accessor chokepoint (createTranslationFunction) already
+    // formats a raw numeric `amount` en-US via the shared formatCount before
+    // this function ever runs — re-parsing an already-formatted "1,234"-
+    // shaped string with Number(amount).toLocaleString() turns it into "NaN"
+    // (Number() cannot parse a comma-grouped string). formatCount(amount) is
+    // idempotent (identity on an already-formatted string) and still formats
+    // a raw number for any caller that reaches this entry directly, bypassing
+    // the accessor — same shared formatter, not re-implemented.
+    dailyEarningsSubLabel: (amount) => `on $${formatCount(amount) || 0}`,
+    monthlyEarningsSubLabel: (amount) => `on $${formatCount(amount) || 0}`,
     estimatedEarnings: "Estimated Earnings",
     estimatedDailyEarnings: "Estimated Daily Earnings",
     estimatedMonthlyEarnings: "Estimated Monthly Earnings",
@@ -93,12 +109,12 @@ const translations = {
     resetFilters: "Reset Filters",
     showSmallerPools: "Show pools with lower TVL",
     loadingError: "Failed to load yield data. Please try again later.",
-    emptyStateExplanation: (token) => `No live pools for ${token} clear our $10M minimum-TVL safety floor today.`,
-    emptyStateExplanationChain: (chain) => `No live pools on ${chain} clear our $10M minimum-TVL safety floor today.`,
-    poolNotFoundTitle: "This pool is no longer tracked",
-    poolNotFoundExplanation: "It's dropped out of the live DefiLlama data we rely on — likely delisted or migrated by its protocol. Here are trustworthy alternatives that clear our $10M safety floor.",
-    emptyStateAltHeadingChain: (chain) => `Live pools on ${chain} above the $10M floor`,
-    emptyStateAltHeadingStable: "Popular stablecoin pools above the $10M floor",
+    tvlTrendShrinking: (pct, hp) => `This pool's deposits have shrunk about ${pct} over the ${hp} days we've tracked it. A pool can keep clearing our $100K size floor while quietly losing deposits — worth watching for a garden you plan to hold for years.`,
+    emptyStateExplanation: (token) => `No live pools for ${token} clear our $100K minimum-TVL safety floor today.`,
+    emptyStateExplanationChain: (chain) => `No live pools on ${chain} clear our $100K minimum-TVL safety floor today.`,
+    poolNotFoundExplanation: "It's dropped out of the live DefiLlama data we rely on — likely delisted or migrated by its protocol. Here are trustworthy alternatives that clear our $100K safety floor.",
+    emptyStateAltHeadingChain: (chain) => `Live pools on ${chain} above the $100K floor`,
+    emptyStateAltHeadingStable: "Popular stablecoin pools above the $100K floor",
 
     // Navigation
     backToSearch: "← Back to Search",
@@ -109,9 +125,15 @@ const translations = {
     underlyingAssets: "Underlying Assets",
     calculateYourEarnings: "Calculate Your Earnings",
     calcSubPrompt: "See your daily, weekly & monthly returns",
-    basedOnInvestment: (amount) => `Based on $${Number(amount || 0).toLocaleString('en-US')} investment`,
+    // 241: see dailyEarningsSubLabel's comment above — formatCount() reused,
+    // not re-parsed via Number().
+    basedOnInvestment: (amount) => `Based on $${formatCount(amount) || 0} investment`,
     verified: "✓ Verified",
-    onProtocolChain: (protocol, chain, hasUrl) => `on ${protocol} • ${chain}${hasUrl ? ' ↗' : ''}`,
+    // 225 round 3 increment (a): plain secondary metadata line, sentence
+    // case, middle-dot separator — no "on " prefix, no bullet glyph, no
+    // link arrow (the row already navigates on click; the arrow implied an
+    // outbound link this text never was).
+    onProtocolChain: (protocol, chain) => `${protocol} · ${chain}`,
     poolProtocolLogoAlt: (project) => `${project} logo`,
     poolChainLogoAlt: (chain) => `${chain} logo`,
     tvl: "TVL",
@@ -123,12 +145,18 @@ const translations = {
     no: "No",
 
     // Honest mini-projection (pool-detail)
-    projectionHeading: "The Long Game",
-    projectionBody: (principal, years, amount) => `$${Number(principal || 0).toLocaleString('en-US')} in this pool grows to ~$${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })} in ${years}y at current rates.`,
+projectionHeading: "The long game",
+    // 241: see dailyEarningsSubLabel's comment above — formatCount() reused,
+    // not re-parsed via Number(). `amount` (the compounded projection figure)
+    // must arrive already rounded to a whole dollar from the caller — see
+    // PoolDetail.js / generate-pool-pages.js's Math.round() at the t() call
+    // site — since formatCount doesn't itself apply maximumFractionDigits:0.
+    projectionBody: (principal, years, amount) => `$${formatCount(principal) || 0} in this pool grows to ~$${formatCount(amount) || 0} in ${years}y at current rates.`,
     // 165: anomalous-rate replacement for projectionBody — no numbers to rail.
     projectionBodyOutOfRange: "This rate is too far outside normal ranges to project a dollar amount from — the number would be fiction, not a forecast.",
     projectionKeepNote: "Your deposit stays yours — you keep your money, and it keeps working.",
-    gardenThisPoolCtaConcrete: (amount, years) => `Garden this pool → ~$${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })} in ${years}y`,
+    // 241: see projectionBody's comment above (same whole-dollar-rounding contract).
+    gardenThisPoolCtaConcrete: (amount, years) => `Garden this pool → ~$${formatCount(amount) || 0} in ${years}y`,
     poolDegenHaircutNote: (headline) => `Projected at ⅓ haircut (${headline} headline) — farm rates decay. Active management required.`,
 
     // Calculator disclaimers
@@ -137,7 +165,8 @@ const translations = {
 
     // Footer
     poweredBy: "Powered by",
-    madeWith: "Made with AI & Degen Love.",
+    defillamaApi: "DefiLlama API",
+    footerSignOff: "Education, not advice.",
     browseTokens: "Browse tokens",
     browseChains: "Browse chains",
 
@@ -188,11 +217,6 @@ const translations = {
       trustEducation: "Education, not advice",
       trustHeading: "A calmer way to explore yield.",
       trustBody: "Clear entry points, honest numbers, and a next step that makes sense.",
-      footerPoweredBy: "Powered by",
-      footerDefillamaApi: "DefiLlama API",
-      footerMadeWith: ". Made with AI & Degen Love.",
-      footerBrowseTokens: "Browse tokens",
-      footerBrowseChains: "Browse chains",
       searchFallback: "Search",
       returnCaption: "Welcome back",
       returnStatus: (date) => `Planted ${date}`,
@@ -263,7 +287,8 @@ const translations = {
 
       // Step 3 — horizon (growth archetype only; DeFi-honest max 10 years)
       step3Question: "How long can it grow? In DeFi, we plan in seasons — up to 10 years.",
-      years: (n) => `${n} yr${n !== 1 ? 's' : ''}`,
+      // 241: string-safe (see showingResults above) — n arrives pre-formatted.
+      years: (n) => `${n} yr${String(n) !== '1' ? 's' : ''}`,
       yearsShort: "yrs",
       horizonChosen: (n) => `Growing for ${n} years`,
 
@@ -386,7 +411,8 @@ const translations = {
 
       caveatRates: "Today's rates are live and change every day — your real numbers will move with them.",
       caveatHack: "No protocol is hack-proof. Smart contracts can fail or be exploited, and you could lose funds. Education, not advice.",
-      speedupDisciplined: (amt, months) => `Tuck away ${amt}/mo on top and you'd reach it about ${months} month${months === 1 ? '' : 's'} sooner.`,
+      // 241: string-safe (see showingResults above) — months arrives pre-formatted.
+      speedupDisciplined: (amt, months) => `Tuck away ${amt}/mo on top and you'd reach it about ${months} month${String(months) === '1' ? '' : 's'} sooner.`,
 
       disclaimer: "Estimates from live pool rates — they change daily. Education, not advice.",
       pressFeatureLabel: "As featured on",
@@ -533,7 +559,8 @@ const translations = {
       engineSwapClose: "Close",
 
       // Return-visit dashboard — elapsed + estimated growth
-      reportElapsedDays: (n) => n === 1 ? 'Planted 1 day ago' : `Planted ${n} days ago`,
+      // 241: string-safe (see showingResults above) — n arrives pre-formatted.
+      reportElapsedDays: (n) => String(n) === '1' ? 'Planted 1 day ago' : `Planted ${n} days ago`,
       reportEarnedEst: (amt) => `≈${amt} grown so far (estimate)`,
 
       // Return-visit dashboard — subscription covers + next rung
@@ -630,17 +657,21 @@ const translations = {
     // move with it. "clears this page's floor" replaces "clears DeFi
     // Garden's floor" — the floor is this page's listing bar, not a claim
     // about the product's overall trust filters (spec 174).
+    // 241: string-safe plurality checks (see showingResults above) — count/
+    // chainCount/tokenCount arrive pre-formatted en-US via the accessor.
     tcpTokenDescription: (sym, count, apy, chainCount, floorStr) =>
-      `${count} live ${sym} ${count === 1 ? 'pool' : 'pools'} above the ${floorStr} TVL floor, up to ${apy} APY, across ${chainCount} ${chainCount === 1 ? 'chain' : 'chains'}. Honest yields from DefiLlama data — no anomalous rates.`,
+      `${count} live ${sym} ${String(count) === '1' ? 'pool' : 'pools'} above the ${floorStr} TVL floor, up to ${apy} APY, across ${chainCount} ${String(chainCount) === '1' ? 'chain' : 'chains'}. Honest yields from DefiLlama data — no anomalous rates.`,
     tcpChainDescription: (chain, count, apy, tokenCount, floorStr) =>
-      `${count} live ${count === 1 ? 'pool' : 'pools'} on ${chain} above the ${floorStr} TVL floor, up to ${apy} APY, across ${tokenCount} ${tokenCount === 1 ? 'token' : 'tokens'}. Honest yields from DefiLlama data — no anomalous rates.`,
+      `${count} live ${String(count) === '1' ? 'pool' : 'pools'} on ${chain} above the ${floorStr} TVL floor, up to ${apy} APY, across ${tokenCount} ${String(tokenCount) === '1' ? 'token' : 'tokens'}. Honest yields from DefiLlama data — no anomalous rates.`,
+    // 241: string-safe plurality checks (see showingResults above).
     tcpTokenIntro: (sym, project, chain, apy, tvl, count, chainCount, totalTvl, floorStr) =>
-      `${sym}'s largest live pool is ${project} on ${chain} at ${apy} (${tvl} TVL). ${count} ${sym} ${count === 1 ? 'pool' : 'pools'} across ${chainCount} ${chainCount === 1 ? 'chain' : 'chains'} clear this page's ${floorStr} TVL floor, ${totalTvl} in total.`,
+      `${sym}'s largest live pool is ${project} on ${chain} at ${apy} (${tvl} TVL). ${count} ${sym} ${String(count) === '1' ? 'pool' : 'pools'} across ${chainCount} ${String(chainCount) === '1' ? 'chain' : 'chains'} clear this page's ${floorStr} TVL floor, ${totalTvl} in total.`,
     tcpChainIntro: (chain, project, symbol, apy, tvl, count, tokenCount, totalTvl, floorStr) =>
-      `${chain}'s largest live pool is ${project} (${symbol}) at ${apy} (${tvl} TVL). ${count} ${count === 1 ? 'pool' : 'pools'} across ${tokenCount} ${tokenCount === 1 ? 'token' : 'tokens'} clear this page's ${floorStr} TVL floor, ${totalTvl} in total.`,
+      `${chain}'s largest live pool is ${project} (${symbol}) at ${apy} (${tvl} TVL). ${count} ${String(count) === '1' ? 'pool' : 'pools'} across ${tokenCount} ${String(tokenCount) === '1' ? 'token' : 'tokens'} clear this page's ${floorStr} TVL floor, ${totalTvl} in total.`,
     tcpTokenHeading: (sym) => `${sym} DeFi Yields`,
     tcpChainHeading: (chain) => `${chain} DeFi Yields`,
-    tcpSubLine: (count, floorStr) => `${count} live ${count === 1 ? 'pool' : 'pools'} above the ${floorStr} TVL floor · ranked by TVL`,
+    // 241: string-safe (see showingResults above).
+    tcpSubLine: (count, floorStr) => `${count} live ${String(count) === '1' ? 'pool' : 'pools'} above the ${floorStr} TVL floor · ranked by TVL`,
     tcpTokenCta: (sym) => `See live ${sym} pools →`,
     tcpChainCta: (chain) => `See live pools on ${chain} →`,
     // Waitlist CTA (062) — flat top-level keys (like every other tcp* string)
@@ -686,13 +717,15 @@ const translations = {
     tcpChainsAriaLabel: "Chains",
     tcpPoolCategoriesAriaLabel: "Pool categories",
     tcpFaqHeading: "Frequently asked questions",
+    // 241: string-safe (see showingResults above).
     tcpAnswer: (label, apyStr, project, chain, count, floorStr) =>
-      `The highest honest ${label} yield right now is ${apyStr} on ${project} (${chain}), among ${count} ${count === 1 ? 'pool' : 'pools'} above the ${floorStr} TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.`,
+      `The highest honest ${label} yield right now is ${apyStr} on ${project} (${chain}), among ${count} ${String(count) === '1' ? 'pool' : 'pools'} above the ${floorStr} TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.`,
     tcpFaqQ1: (label) => `What's the highest ${label} yield today?`,
     tcpFaqA1: (apyStr, project, chain) => `${apyStr} APY on ${project} (${chain}), based on live DefiLlama data.`,
     tcpFaqQ2: (label) => `How many ${label} pools clear the TVL floor?`,
     // 174: "this page's floor", not "DeFi Garden's floor" — see tcpTokenIntro's comment above.
-    tcpFaqA2: (count, tvlStr, floorStr) => `${count} live ${count === 1 ? 'pool' : 'pools'} clear this page's ${floorStr} TVL floor, ${tvlStr} in total.`,
+    // 241: string-safe (see showingResults above).
+    tcpFaqA2: (count, tvlStr, floorStr) => `${count} live ${String(count) === '1' ? 'pool' : 'pools'} clear this page's ${floorStr} TVL floor, ${tvlStr} in total.`,
     tcpFaqQ3: "Are these rates safe?",
     // 174: this was "Every rate shown passes DeFi Garden's trust filters — a
     // $100K minimum TVL...", stated as an answer to "Are these rates safe?".
@@ -715,13 +748,13 @@ const translations = {
     // unaffected: poolCount there is genuinely both the noun's and the verb's
     // subject, so it correctly keys on poolCount alone — leave it.
     tcpDepthMean: (meanCount, poolCount, medianMeanStr) =>
-      `${meanCount} of these ${poolCount} ${poolCount === 1 ? 'pool' : 'pools'} ${meanCount === 1 ? 'has' : 'have'} a trustworthy 30-day average on file, with a median of ${medianMeanStr} — a useful check against today's number for whether the rate is steady or just having a good day.`,
+      `${meanCount} of these ${poolCount} ${Number(poolCount) === 1 ? 'pool' : 'pools'} ${Number(meanCount) === 1 ? 'has' : 'have'} a trustworthy 30-day average on file, with a median of ${medianMeanStr} — a useful check against today's number for whether the rate is steady or just having a good day.`,
     tcpDepthMixIncentives: (rewardCount, poolCount) =>
-      `${rewardCount} of ${poolCount} ${poolCount === 1 ? 'pool' : 'pools'} ${rewardCount === 1 ? 'blends' : 'blend'} in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.`,
+      `${rewardCount} of ${poolCount} ${Number(poolCount) === 1 ? 'pool' : 'pools'} ${Number(rewardCount) === 1 ? 'blends' : 'blend'} in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.`,
     tcpDepthMixAllBase: (poolCount) =>
-      `All ${poolCount} ${poolCount === 1 ? 'pool pays' : 'pools pay'} a plain base rate right now — no incentive or reward APY mixed in.`,
+      `All ${poolCount} ${Number(poolCount) === 1 ? 'pool pays' : 'pools pay'} a plain base rate right now — no incentive or reward APY mixed in.`,
     tcpDepthIlExposure: (ilCount, poolCount) =>
-      `${ilCount} of ${poolCount} ${poolCount === 1 ? 'pool' : 'pools'} ${ilCount === 1 ? 'carries' : 'carry'} impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.`,
+      `${ilCount} of ${poolCount} ${Number(poolCount) === 1 ? 'pool' : 'pools'} ${Number(ilCount) === 1 ? 'carries' : 'carry'} impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.`,
     tcpDepthColMix: "Yield mix",
     tcpDepthMixBaseCell: "Base rate",
     tcpDepthMixIncentiveCell: (shareStr) => `${shareStr} incentives`,
@@ -791,7 +824,12 @@ const translations = {
     showingResults: (count) => `${count}개 풀 발견`,
     chainYields: (chain) => `${chain} DeFi 수익률`,
     tokenYields: (token, chain) => `${token} 수익률${chain ? ` (${chain})` : ''}`,
-    
+    sortByLabel: "정렬:",
+    // 225 round 3 increment (a): results panel column labels + sort-control text
+    resultsColPool: "풀",
+    resultsColApy: "APY",
+    resultsColTvl: "TVL",
+
     // Pool card labels
     totalApy: "총 APY",
     baseApy: "기본 APY:",
@@ -833,8 +871,9 @@ const translations = {
     // Numbers and earnings
     dailyEarnings: (amount) => `일일 수익`,
     monthlyEarnings: (amount) => `월 수익`,
-    dailyEarningsSubLabel: (amount) => `$${Number(amount || 0).toLocaleString('en-US')} 기준`,
-    monthlyEarningsSubLabel: (amount) => `$${Number(amount || 0).toLocaleString('en-US')} 기준`,
+    // 241: see EN dailyEarningsSubLabel's comment above — formatCount() reused, not re-parsed.
+    dailyEarningsSubLabel: (amount) => `$${formatCount(amount) || 0} 기준`,
+    monthlyEarningsSubLabel: (amount) => `$${formatCount(amount) || 0} 기준`,
     estimatedEarnings: "예상 수익",
     estimatedDailyEarnings: "예상 일일 수익",
     estimatedMonthlyEarnings: "예상 월간 수익",
@@ -848,12 +887,12 @@ const translations = {
     resetFilters: "필터 초기화",
     showSmallerPools: "TVL이 낮은 풀도 보기",
     loadingError: "수익률 데이터를 불러오지 못했습니다. 다시 시도해주세요.",
-    emptyStateExplanation: (token) => `현재 ${token}에서 최소 TVL $10M 기준을 통과하는 라이브 풀이 없습니다.`,
-    emptyStateExplanationChain: (chain) => `현재 ${chain}에는 최소 TVL $10M 기준을 통과하는 라이브 풀이 없습니다.`,
-    poolNotFoundTitle: "더 이상 추적되지 않는 풀입니다",
-    poolNotFoundExplanation: "저희가 사용하는 라이브 DefiLlama 데이터에서 이 풀이 사라졌습니다 — 프로토콜에서 상장 폐지되었거나 마이그레이션되었을 가능성이 높습니다. $10M 안전 기준을 통과하는 신뢰할 수 있는 대안을 아래에 안내합니다.",
-    emptyStateAltHeadingChain: (chain) => `$10M 기준을 통과한 ${chain}의 라이브 풀`,
-    emptyStateAltHeadingStable: "$10M 기준을 통과한 인기 스테이블코인 풀",
+    tvlTrendShrinking: (pct, hp) => `추적한 ${hp}일 동안 이 풀의 예치금이 약 ${pct} 줄었습니다. 풀은 예치금이 조용히 빠져나가는 중에도 우리의 $100K 규모 기준을 계속 통과할 수 있습니다 — 여러 해 동안 가꿀 가든이라면 지켜볼 만합니다.`,
+    emptyStateExplanation: (token) => `현재 ${token}에서 최소 TVL $100K 기준을 통과하는 라이브 풀이 없습니다.`,
+    emptyStateExplanationChain: (chain) => `현재 ${chain}에는 최소 TVL $100K 기준을 통과하는 라이브 풀이 없습니다.`,
+    poolNotFoundExplanation: "저희가 사용하는 라이브 DefiLlama 데이터에서 이 풀이 사라졌습니다 — 프로토콜에서 상장 폐지되었거나 마이그레이션되었을 가능성이 높습니다. $100K 안전 기준을 통과하는 신뢰할 수 있는 대안을 아래에 안내합니다.",
+    emptyStateAltHeadingChain: (chain) => `$100K 기준을 통과한 ${chain}의 라이브 풀`,
+    emptyStateAltHeadingStable: "$100K 기준을 통과한 인기 스테이블코인 풀",
 
     // Navigation
     backToSearch: "← 검색으로 돌아가기",
@@ -864,9 +903,11 @@ const translations = {
     underlyingAssets: "기초 자산",
     calculateYourEarnings: "수익 계산하기",
     calcSubPrompt: "일간·주간·월간 수익을 확인하세요",
-    basedOnInvestment: (amount) => `$${Number(amount || 0).toLocaleString('en-US')} 투자 기준`,
+    // 241: see EN basedOnInvestment's comment above.
+    basedOnInvestment: (amount) => `$${formatCount(amount) || 0} 투자 기준`,
     verified: "✓ 인증됨",
-    onProtocolChain: (protocol, chain, hasUrl) => `${protocol}에서 • ${chain}${hasUrl ? ' ↗' : ''}`,
+    // 225 round 3 increment (a): matches EN — plain metadata line, middle dot, no arrow.
+    onProtocolChain: (protocol, chain) => `${protocol} · ${chain}`,
     poolProtocolLogoAlt: (project) => `${project} 로고`,
     poolChainLogoAlt: (chain) => `${chain} 로고`,
     tvl: "TVL",
@@ -879,10 +920,12 @@ const translations = {
 
     // Honest mini-projection (pool-detail)
     projectionHeading: "장기적으로 보면",
-    projectionBody: (principal, years, amount) => `이 풀에 $${Number(principal || 0).toLocaleString('en-US')}을 넣으면 ${years}년 후 현재 수익률 기준 약 $${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })}이 됩니다.`,
+    // 241: see EN projectionBody's comment above (same whole-dollar-rounding contract).
+    projectionBody: (principal, years, amount) => `이 풀에 $${formatCount(principal) || 0}을 넣으면 ${years}년 후 현재 수익률 기준 약 $${formatCount(amount) || 0}이 됩니다.`,
     projectionBodyOutOfRange: "이 수익률은 정상 범위를 크게 벗어나 있어 금액을 예측해 보여드리지 않습니다 — 그런 숫자는 예측이 아니라 허구에 가깝기 때문입니다.",
     projectionKeepNote: "예치금은 그대로 내 것 — 돈은 지키면서 계속 일하게 하세요.",
-    gardenThisPoolCtaConcrete: (amount, years) => `이 풀 가든하기 → ${years}년 후 약 $${Number(amount || 0).toLocaleString('en-US', { maximumFractionDigits: 0 })}`,
+    // 241: see EN gardenThisPoolCtaConcrete's comment above.
+    gardenThisPoolCtaConcrete: (amount, years) => `이 풀 가든하기 → ${years}년 후 약 $${formatCount(amount) || 0}`,
     poolDegenHaircutNote: (headline) => `⅓ 할인 적용 (헤드라인 ${headline}) — 팜 수익률은 빠르게 감소. 적극적 관리 필요.`,
 
     // Calculator disclaimers
@@ -890,8 +933,9 @@ const translations = {
     calcAnomalyWarning: "⚠ 이 수익률은 비정상적이며 거의 지속 불가능합니다.",
 
     // Footer
-    poweredBy: "제공:",
-    madeWith: "AI와 디젠 사랑으로 제작.",
+    poweredBy: "데이터 제공:",
+    defillamaApi: "DefiLlama API",
+    footerSignOff: "투자 조언이 아닙니다.",
     browseTokens: "토큰 둘러보기",
     browseChains: "체인 둘러보기",
 
@@ -942,11 +986,6 @@ const translations = {
       trustEducation: "투자 조언이 아닙니다",
       trustHeading: "더 차분하게 수익률을 탐색하세요.",
       trustBody: "명확한 시작점, 정직한 숫자, 그리고 다음 행동을 안내합니다.",
-      footerPoweredBy: "데이터 제공:",
-      footerDefillamaApi: "DefiLlama API",
-      footerMadeWith: ". AI와 디젠의 애정으로 만들었어요.",
-      footerBrowseTokens: "토큰 둘러보기",
-      footerBrowseChains: "체인 둘러보기",
       searchFallback: "검색",
       returnCaption: "다시 오셨네요",
       returnStatus: (date) => `${date}에 심었어요`,
@@ -1271,7 +1310,8 @@ const translations = {
       engineSwapClose: "닫기",
 
       // Return-visit dashboard — elapsed + estimated growth
-      reportElapsedDays: (n) => n === 1 ? '심은 지 1일 됐어요' : `심은 지 ${n}일 됐어요`,
+      // 241: string-safe (see EN reportElapsedDays above) — n arrives pre-formatted.
+      reportElapsedDays: (n) => String(n) === '1' ? '심은 지 1일 됐어요' : `심은 지 ${n}일 됐어요`,
       reportEarnedEst: (amt) => `지금까지 약 ${amt} 자란 것으로 추정돼요`,
 
       // Return-visit dashboard — subscription covers + next rung
@@ -1482,17 +1522,31 @@ function detectUserLanguage() {
   return 'en';
 }
 
+// 241: the ONE pinned en-US formatter for numbers that reach the dictionary.
+// Identity for anything that is not a finite number, so it is safe to apply to
+// parameters callers have already formatted (the majority — `amt`, `apy`, `tvl`
+// arrive as pre-formatted strings).
+function formatCount(value) {
+  return (typeof value === 'number' && Number.isFinite(value))
+    ? value.toLocaleString('en-US')
+    : value;
+}
+
 // Translation helper function
 function createTranslationFunction(language) {
   return function t(key, ...params) {
+    // 241: pin every numeric param en-US at this one accessor chokepoint —
+    // the entry never sees a raw number, so a bare `${count}` interpolation
+    // inside the dictionary can no longer render an unformatted digit run.
+    const mappedParams = params.map(formatCount);
     const translation = translations[language][key];
     if (!translation) {
       // Fallback to English if translation missing
       const fallback = translations['en'][key];
-      return fallback ? (typeof fallback === 'function' ? fallback(...params) : fallback) : key;
+      return fallback ? (typeof fallback === 'function' ? fallback(...mappedParams) : fallback) : key;
     }
     if (typeof translation === 'function') {
-      return translation(...params);
+      return translation(...mappedParams);
     }
     return translation;
   };
@@ -1503,6 +1557,7 @@ if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     translations,
     detectUserLanguage,
-    createTranslationFunction
+    createTranslationFunction,
+    formatCount
   };
 }

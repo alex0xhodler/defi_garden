@@ -1,10 +1,10 @@
 # ARMUSDCS DeFi Yields
 
-The highest honest ARMUSDCS yield right now is 4.69% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARMUSDCS yield right now is 4.57% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d2a99602-b0c7-4f6a-a329-82bdaad3df0c&src=seo_token) | Ethereum | 4.69% | $36.61M |
+| [morpho-blue →](https://www.defi.garden/?pool=d2a99602-b0c7-4f6a-a329-82bdaad3df0c&src=seo_token) | Ethereum | 4.57% | $34.76M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARMUSDCS yield today?
 
-4.69% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.57% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ARMUSDCS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $36.61M in total.
+1 live pool clear this page's $100K TVL floor, $34.76M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 5, 2026
+## Last updated August 8, 2026

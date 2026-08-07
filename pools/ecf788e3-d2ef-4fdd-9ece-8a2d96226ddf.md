@@ -1,8 +1,8 @@
 # USDC — blend-pools-v2 on Stellar
 
-**Total APY:** 7.01% (7.01% Base · + 0.00% Rewards)
+**Total APY:** 6.76% (6.76% Base · + 0.00% Rewards)
 
-**TVL:** $12.85M
+**TVL:** $14.05M
 
 **Pool Type:** Yield Farming
 
@@ -18,16 +18,16 @@ Conservative DeFi strategy
 
 - High liquidity
 
-## The Long Game
+## The long game
 
-$1,000 in this pool grows to ~$1,403 in 5y at current rates.
+$1,000 in this pool grows to ~$1,387 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 23 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+Steady so far: across the 25 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,403 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,387 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on blend-pools-v2](https://www.blend.capital/?ref=defi.garden)
 
-Last updated August 5, 2026
+Last updated August 7, 2026

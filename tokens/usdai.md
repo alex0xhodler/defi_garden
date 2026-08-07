@@ -1,25 +1,40 @@
 # USDAI DeFi Yields
 
-The highest honest USDAI yield right now is 6.54% on pendle (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDAI yield right now is 6.56% on pendle (Arbitrum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 0.95% | $50.38M |
-| [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 6.54% | $50.38M |
-| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 2.58% | $527.7K |
-| [fluid-dex →](https://www.defi.garden/?pool=9383bed8-c5cd-4ca1-8692-a8447773a360&src=seo_token) | Arbitrum | 1.22% | $136.5K |
+| [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 0.96% | $50.38M |
+| [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 6.56% | $50.38M |
+| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 2.47% | $527.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+USDAI shows up in 3 pools here, with rates from 0.96% to 6.56% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| pendle | 0.96% | 0.93% | 2.21% incentives |
+| pendle | 6.56% | 6.44% | Base rate |
+| balancer-v3 | 2.47% | 2.68% | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest USDAI yield today?
 
-6.54% APY on pendle (Arbitrum), based on live DefiLlama data.
+6.56% APY on pendle (Arbitrum), based on live DefiLlama data.
 
 ### How many USDAI pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $101.76M in total.
+5 live pools clear this page's $100K TVL floor, $102.42M in total.
 
 ### Are these rates safe?
 
@@ -29,14 +44,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Plasma](https://www.defi.garden/chains/plasma)
 
-## Last updated August 5, 2026
+## Last updated August 8, 2026

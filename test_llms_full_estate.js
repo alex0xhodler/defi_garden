@@ -229,8 +229,8 @@ async function main() {
       llmsUrls.size > headUrls.size);
 
     // --- floor the head alone could never satisfy (spec caps head at 500) -
-    check(`llms-full.txt population (${llmsUrls.size}) clears a floor (>=1000) the head alone could never satisfy (spec bounds the head at 500)`,
-      llmsUrls.size >= 1000);
+    check(`llms-full.txt population (${llmsUrls.size}) clears a floor (>=3000) the head alone could never satisfy (spec bounds the head at 500)`,
+      llmsUrls.size >= 3000);
 
     // --- a tail token (exactly 1 railed pool) is present, absent from head -
     const tokenCounts = gs.railedTokenPoolCounts(pools);
@@ -279,8 +279,8 @@ async function main() {
           });
           const mutantFullContent = fs.readFileSync(path.join(mutantOutDir, 'llms-full.txt'), 'utf8');
           const mutantUrls = extractLlmsUrls(mutantFullContent);
-          const mutantClearsFloor = mutantUrls.size >= 1000;
-          check(`mutant (head-only population): floor assertion goes RED (population=${mutantUrls.size} < 1000, vs real fix's ${llmsUrls.size})`,
+          const mutantClearsFloor = mutantUrls.size >= 3000;
+          check(`mutant (head-only population): floor assertion goes RED (population=${mutantUrls.size} < 3000, vs real fix's ${llmsUrls.size})`,
             !mutantClearsFloor);
           // The superset-of-headUrls relation alone can't discriminate here —
           // headUrls is BY CONSTRUCTION a subset of sitemapUrls (both are

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b4be06c4-0c13-407d-aa67-7b552860af28&src=seo_token) | Arbitrum | 0.01% | $331.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b4be06c4-0c13-407d-aa67-7b552860af28&src=seo_token) | Arbitrum | 0.01% | $346.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.01%예�
 
 ### PGOLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $331.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $346.5K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -26,13 +26,13 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.01%예�
 
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
 
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 5, 2026
+## 마지막 업데이트: August 8, 2026

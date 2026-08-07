@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $469K
+**TVL:** $507K
 
 **Pool Type:** Lending
 
@@ -19,7 +19,7 @@ Moderate risk profile
 - Low liquidity
 - Credit risk
 
-## The Long Game
+## The long game
 
 $1,000 in this pool grows to ~$1,000 in 5y at current rates.
 
@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.01% right now vs a 0.04% 30-day average. Reward 
 
 [Start Earning on venus-core-pool](https://app.venus.io/?ref=defi.garden#/core-pool)
 
-Last updated August 5, 2026
+Last updated August 7, 2026
