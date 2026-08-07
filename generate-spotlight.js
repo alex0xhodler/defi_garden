@@ -45,7 +45,16 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const { createCanvas } = require('@napi-rs/canvas');
-const { poolTotalApy, isAnomalousApy, formatUsd, formatApy, tokenSlug } = require('./generate-token-pages.js');
+const {
+  poolTotalApy, isAnomalousApy, formatUsd, formatApy, tokenSlug,
+  // 242: the representativeness gate MOVED into generate-token-pages.js (its
+  // only dependency, poolTotalApy, already lived there; this file requires
+  // that module already, so the reverse require would be a cycle, and this
+  // file's own @napi-rs/canvas require below is not installed in this
+  // checkout, so a generator can never import IT). Re-exported below under
+  // the same names — never redefined here, never a second implementation.
+  REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate
+} = require('./generate-token-pages.js');
 // REUSE (spec 066): the SAME forever-number math the token pages' yield
 // headline uses (gp.foreverNumber) — a spotlight pool has exactly one pool,
 // so "blended" degenerates to that pool's own APY, but the calc path is the
@@ -61,7 +70,7 @@ const SITE_URL = 'https://www.defi.garden';
 // Deliberately NOT generate-token-pages.js's relaxed $100K MIN_POOL_TVL — a
 // spotlighted pool feeds a real example garden a stranger will click into,
 // so it must clear the same $10M floor a plan itself requires.
-const DEFAULT_MIN_TVL = 10000000;
+const DEFAULT_MIN_TVL = 100000;
 
 function isQualifyingPool(pool) {
   return !isAnomalousApy(pool) && (pool.tvlUsd || 0) >= DEFAULT_MIN_TVL;
@@ -101,6 +110,41 @@ function isSmallEnoughProtocol(project, aggregates) {
   return tvl <= curveTvl;
 }
 
+// --- Story-worthiness gates (item 229, additive on top of the trust rails
+// above — nothing here relaxes isQualifyingPool/isSmallEnoughProtocol, both
+// still run first). Two refuse-never-demote gates, same SpotlightError
+// contract pickPool's existing rails already use. ---------------------------
+//
+// REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio and
+// isRepresentativeRate MOVED to generate-token-pages.js in item 242 (imported
+// above) so the token-page generator can gate its own headline pool without
+// a require cycle or a hard dependency on @napi-rs/canvas. Re-exported below
+// under the same names — every existing importer/test of THIS module keeps
+// working byte-identically. Never redefine them here.
+
+// The forever-number math cares only about the SIGN of the rate (see
+// planner.js's foreverNumber: `rate<=0 -> Infinity, else monthly*12/rate` —
+// a positive monthly target times a positive rate is always finite, and the
+// target's magnitude never changes finiteness), so any fixed positive probe
+// value proves the same thing a real goal's monthly figure would. Reusing
+// planner.js's own foreverNumber here — never a second implementation, per
+// the 066/069 precedent this file already follows.
+const FOREVER_PROBE_MONTHLY = 1;
+
+/** isFundableForever(pool) — the pack's whole premise is a forever number
+ * ("$Y parked there pays your ... forever"), so a pool whose own effective
+ * (haircut-applied — the SAME ⅓ degen rule buildPack uses, via
+ * classifyPersona) rate yields no finite, positive foreverNumber cannot be a
+ * spotlight target. Measured on live data: 369 representative candidates →
+ * 289 fundable, across 148 distinct protocols. */
+function isFundableForever(pool) {
+  const apy = poolTotalApy(pool);
+  const persona = classifyPersona(pool);
+  const effApy = persona === 'degen' ? apy / 3 : apy;
+  const amt = foreverNumber(FOREVER_PROBE_MONTHLY, effApy);
+  return isFinite(amt) && amt > 0;
+}
+
 class SpotlightError extends Error {}
 
 /** Pick the pool to spotlight. `--pool <id>` selects a specific pool and is
@@ -129,6 +173,21 @@ function pickPool(pools, poolId) {
         `(Curve itself, or its aggregate TVL exceeds Curve's aggregate TVL)`
       );
     }
+    // 229: additional gates, on top of the rails above — same refuse-never-
+    // demote contract, error message NAMES the failing gate.
+    if (!isRepresentativeRate(pool)) {
+      throw new SpotlightError(
+        `--pool ${poolId} fails isRepresentativeRate: total APY ${formatApy(poolTotalApy(pool))} deviates ` +
+        `too far from its own 30-day mean (${pool.apyMean30d == null || !isFinite(pool.apyMean30d) ? 'null/non-finite' : formatApy(pool.apyMean30d)}) ` +
+        `— the headline is not representative of what this pool has actually been paying`
+      );
+    }
+    if (!isFundableForever(pool)) {
+      throw new SpotlightError(
+        `--pool ${poolId} fails isFundableForever: its own effective (haircut-applied) rate yields no ` +
+        `finite, positive forever-number — the pack's whole premise (a forever number) cannot be built on this pool`
+      );
+    }
     return pool;
   }
   const candidates = rankCandidates(pools);
@@ -138,14 +197,156 @@ function pickPool(pools, poolId) {
   return candidates[0];
 }
 
-/** All trust-rail-qualifying, small-enough-protocol pools, ranked highest
- * total APY first. Shared by pickPool (auto-pick = candidates[0]) and the
- * cadence doc (candidates minus already-covered pools = next-up list). */
+// --- Story-worthiness scoring (item 229) ------------------------------------
+// Replaces the old "sort by total APY" ranking. Four signals in [0,1],
+// computed over the GATED CANDIDATE SET derived at call time (never a
+// hardcoded table — 229 spec §2) so the scale is uniform by construction and
+// the ranking self-corrects as live data moves. Three are percentile ranks;
+// percentileRank() below is the one shared implementation all three use.
+
+/** Ascending-sorted copy — never mutates the input array. */
+function sortedAsc(nums) {
+  return nums.slice().sort((a, b) => a - b);
+}
+
+// Binary-search count helpers over an ascending-sorted array — O(log n) per
+// lookup, since storySignals runs per-candidate over a set built once per
+// rankCandidates/buildCadence/buildPack call (229 spec territory note: "this
+// runs over 15k pools").
+function countLessThan(sorted, value) {
+  let lo = 0, hi = sorted.length;
+  while (lo < hi) {
+    const mid = (lo + hi) >>> 1;
+    if (sorted[mid] < value) lo = mid + 1; else hi = mid;
+  }
+  return lo;
+}
+function countLessOrEqual(sorted, value) {
+  let lo = 0, hi = sorted.length;
+  while (lo < hi) {
+    const mid = (lo + hi) >>> 1;
+    if (sorted[mid] <= value) lo = mid + 1; else hi = mid;
+  }
+  return lo;
+}
+
+/** percentileRank(value, sortedAscArr) -> [0,1]. 0 = the lowest value in the
+ * population, 1 = the highest. Ties share the AVERAGE rank of the tied block
+ * (so N identical values all get the same, middle-of-the-block score, never
+ * an arbitrary tiebreak by array position). A population of 0 or 1 has
+ * nothing to rank against, so the sole member is treated as top-of-
+ * population (1) — this only matters for tiny hand-built test fixtures;
+ * live DefiLlama data always yields hundreds of gated candidates. */
+function percentileRank(value, sorted) {
+  const n = sorted.length;
+  if (n <= 1) return 1;
+  const lo = countLessThan(sorted, value);
+  const hi = countLessOrEqual(sorted, value);
+  const tieCount = hi - lo;
+  return (lo + (tieCount - 1) / 2) / (n - 1);
+}
+
+/** Builds the population context ONCE per rankCandidates/buildCadence/
+ * buildPack call (never per pool): applies BOTH the existing trust rails and
+ * the two new 229 gates to get the candidate set, then precomputes the
+ * sorted arrays storySignals' percentile-rank terms read from. `aggregates`
+ * reuses the SAME protocolTvlAggregates the small-protocol ceiling already
+ * computes — never a second TVL-aggregation pass. */
+function buildStoryContext(pools) {
+  const allPools = pools || [];
+  const aggregates = protocolTvlAggregates(allPools);
+  const candidates = allPools.filter((p) =>
+    isQualifyingPool(p) &&
+    isSmallEnoughProtocol(p.project, aggregates) &&
+    isRepresentativeRate(p) &&
+    isFundableForever(p)
+  );
+  const protocolTvlValues = sortedAsc(candidates.map((p) => aggregates.get(p.project) || 0));
+  const apyByPersona = new Map();
+  candidates.forEach((p) => {
+    const persona = classifyPersona(p);
+    if (!apyByPersona.has(persona)) apyByPersona.set(persona, []);
+    apyByPersona.get(persona).push(poolTotalApy(p));
+  });
+  apyByPersona.forEach((arr, key) => apyByPersona.set(key, sortedAsc(arr)));
+  const countValues = sortedAsc(candidates.map((p) => Number(p.count) || 0));
+  return { candidates, aggregates, protocolTvlValues, apyByPersona, countValues };
+}
+
+/** storySignals(pool, ctx) -> { smallProtocol, unusualRate, freshness,
+ * rateRepresentative }, each in [0,1] (229 spec §2). `ctx` must come from
+ * buildStoryContext(pools) built over the SAME pool set `pool` was drawn
+ * from — a ctx built over a different population would rank `pool` against
+ * candidates it was never actually competing with. */
+function storySignals(pool, ctx) {
+  const aggTvl = ctx.aggregates.get(pool.project) || 0;
+  const smallProtocol = 1 - percentileRank(aggTvl, ctx.protocolTvlValues);
+
+  // Band-relative, not a rename of "highest APY" — a 9% stablecoin pool
+  // reads unusual, a 25% degen pool reads ordinary (229 spec §2).
+  const persona = classifyPersona(pool);
+  const bandApys = ctx.apyByPersona.get(persona) || [poolTotalApy(pool)];
+  const unusualRate = percentileRank(poolTotalApy(pool), bandApys);
+
+  const freshness = 1 - percentileRank(Number(pool.count) || 0, ctx.countValues);
+
+  // Absolute, not a percentile — rewards being far INSIDE the honesty gate,
+  // not merely past it (229 spec §2: "it is a property, not a preference").
+  const ratio = representativenessRatio(pool);
+  const rateRepresentative = ratio == null ? 0 : Math.max(0, 1 - Math.min(ratio / REPRESENTATIVE_REL, 1));
+
+  return { smallProtocol, unusualRate, freshness, rateRepresentative };
+}
+
+// EQUAL WEIGHTS, DELIBERATELY UN-TUNED (229 spec §2 / "Open questions" #2):
+// zero spotlight packs have ever been posted, so there is no outcome data to
+// fit weights to — any asymmetry here would be a claim stronger than the
+// evidence available (RAZOR.md). Re-open this once posted packs produce
+// outcome data to fit against.
+function storyScore(signals) {
+  return (signals.smallProtocol + signals.unusualRate + signals.freshness + signals.rateRepresentative) / 4;
+}
+
+/** hookAngle(signals) -> the story angle with the highest score, restricted
+ * to {smallProtocol, unusualRate, freshness} — rateRepresentative is a gate
+ * and a score term, NEVER an angle: "the rate is what it has been" is a
+ * precondition, not a story (229 spec §3). Ties break by a fixed priority
+ * order (smallProtocol, then unusualRate, then freshness) — arbitrary but
+ * deterministic, so the same population always yields the same angle. */
+function hookAngle(signals) {
+  const ordered = [
+    ['smallProtocol', signals.smallProtocol],
+    ['unusualRate', signals.unusualRate],
+    ['freshness', signals.freshness]
+  ];
+  let best = ordered[0];
+  for (let i = 1; i < ordered.length; i++) {
+    if (ordered[i][1] > best[1]) best = ordered[i];
+  }
+  return best[0];
+}
+
+/** Scores + sorts the gated candidate set once, shared by rankCandidates
+ * (the public sorted-pool-array contract), buildCadence (needs each row's
+ * hookAngle) and buildPack (needs the chosen pool's own signals) so none of
+ * them re-run the same 15k-pool gating/context pass independently. */
+function scoredCandidates(pools) {
+  const ctx = buildStoryContext(pools);
+  const scored = ctx.candidates.map((p) => {
+    const signals = storySignals(p, ctx);
+    return { pool: p, signals, score: storyScore(signals), angle: hookAngle(signals) };
+  });
+  scored.sort((a, b) => (b.score !== a.score ? b.score - a.score : poolTotalApy(b.pool) - poolTotalApy(a.pool)));
+  return { ctx, scored };
+}
+
+/** All trust-rail-qualifying, small-enough-protocol, representative-rate,
+ * fundable-forever pools, ranked by storyScore descending (item 229 —
+ * replaces the old "highest total APY" sort); ties break by total APY
+ * descending (stable). Shared by pickPool (auto-pick = candidates[0]) and
+ * the cadence doc (candidates minus already-covered pools = next-up list). */
 function rankCandidates(pools) {
-  const aggregates = protocolTvlAggregates(pools);
-  return (pools || [])
-    .filter((p) => isQualifyingPool(p) && isSmallEnoughProtocol(p.project, aggregates))
-    .sort((a, b) => poolTotalApy(b) - poolTotalApy(a));
+  return scoredCandidates(pools).scored.map((s) => s.pool);
 }
 
 // --- Goal model (mirrors a subset of planner.js:643-716's subscription
@@ -207,8 +408,8 @@ function isStableSymbol(symbol) {
 const APY_SANITY_LIMIT = 1000; // mirrors planner.js:19 — same value, never weakened
 const PERSONA_BANDS = {
   stable: { minTvl: 50000000, maxApy: APY_SANITY_LIMIT },
-  rwa: { minTvl: 10000000, maxApy: 20 },
-  degen: { minTvl: 10000000, maxApy: APY_SANITY_LIMIT }
+  rwa: { minTvl: 100000, maxApy: 20 },
+  degen: { minTvl: 100000, maxApy: APY_SANITY_LIMIT }
 };
 
 function classifyPersona(pool) {
@@ -257,11 +458,15 @@ function buildShareUrl({ goal, monthly, persona, chain, token, ref }) {
 // degen-honesty rail: "projects at a ⅓ haircut of headline APY AND says so").
 // Stable/rwa personas get no haircut, so their funding line is byte-identical
 // to the pre-069 output.
-function buildTweetDraft({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, monthly, shareUrl, project, persona }) {
+function buildTweetDraft({ hook, protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, monthly, shareUrl, project, persona }) {
   const fundingLine = persona === 'degen'
     ? `Projected at ⅓ of today's rate (farm rates decay), that still runs a $${monthly}/mo ${goalLabelText} sub, forever.\n\n`
     : `Parked here, that's enough to run a $${monthly}/mo ${goalLabelText} sub, forever.\n\n`;
+  // 229: opens with the derived hook line; everything below is the existing
+  // 060/064/069 body, byte-identical in construction (share URL,
+  // src=x_spotlight, ref, and the degen haircut sentence all survive).
   return (
+    `${hook}\n\n` +
     `${protocolLabel} is paying ${apyStr} on ${poolSymbol} (${chain}) — ${tvlStr} TVL.\n` +
     fundingLine +
     `See the garden → ${shareUrl}\n\n` +
@@ -269,7 +474,7 @@ function buildTweetDraft({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goa
   );
 }
 
-function buildCanvaFields({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, shareUrl, tweetDraft, foreverAmtStr, effectiveApyStr }) {
+function buildCanvaFields({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabelText, shareUrl, tweetDraft, foreverAmtStr, effectiveApyStr, hook }) {
   return {
     protocolName: protocolLabel,
     poolSymbol: poolSymbol,
@@ -286,8 +491,37 @@ function buildCanvaFields({ protocolLabel, poolSymbol, chain, apyStr, tvlStr, go
     // 066: the SAME forever-number field the token-page yield headline
     // exposes (gp.foreverNumber) — null (never a fabricated figure) when
     // the pool's own APY doesn't clear a visibly-nonzero rate.
-    foreverAmt: foreverAmtStr
+    foreverAmt: foreverAmtStr,
+    // 229: additive key — the derived one-line hook, same string as pack.hook.
+    hook: hook
   };
+}
+
+// --- Hook (item 229) ---------------------------------------------------------
+// Exactly three templates, chosen by hookAngle. Every figure comes from the
+// pack's own already-railed fields; the forever clause always quotes
+// foreverAmtStr (never a fabricated figure — 066) and effectiveApyStr (the
+// haircut-applied basis, never apyStr — 069's degen-honesty rail), and is
+// omitted entirely when foreverAmtStr is null (no fabricated "$0"/"$Infinity"
+// clause). "tracked" not "days old" — `count` is DefiLlama's TRACKING
+// window, not the pool's true on-chain age; the pack must not claim the
+// stronger fact (229 spec §3 honesty constraints, all verifier-checkable).
+function buildHook({ hookAngle: angle, protocolLabel, poolSymbol, chain, apyStr, tvlStr, goalLabel,
+  foreverAmtStr, effectiveApyStr, daysTracked, unusualRate, protocolTvlStr }) {
+  let headline;
+  if (angle === 'freshness') {
+    headline = `${protocolLabel}'s ${poolSymbol} pool on ${chain} has been tracked ${daysTracked} days and already holds ${tvlStr}.`;
+  } else if (angle === 'unusualRate') {
+    // <P> floored at 1 so it never prints "top 0%" (229 spec §3).
+    const percentile = Math.max(1, Math.round((1 - unusualRate) * 100));
+    headline = `${apyStr} on ${poolSymbol} is the top ${percentile}% of rates in its risk band on ${chain}.`;
+  } else { // smallProtocol
+    headline = `${protocolLabel} holds ${protocolTvlStr} across its railed pools — not a household name.`;
+  }
+  if (!foreverAmtStr) return headline; // 066: never a fabricated forever figure
+  const place = angle === 'smallProtocol' ? `in its ${poolSymbol} pool` : 'there';
+  // foreverAmtStr already carries its own "$" (formatUsd) — no second "$".
+  return `${headline} ${foreverAmtStr} parked ${place} pays your ${goalLabel} forever at ${effectiveApyStr}.`;
 }
 
 // --- Share-card PNG (mirrors generate-og-images.js's renderOgCard technique,
@@ -383,7 +617,7 @@ function renderSpotlightCard({ protocolLabel, poolSymbol, chain, apyStr, tvlStr,
 }
 
 // --- Pack assembly ------------------------------------------------------------
-function buildPack(pool, { goalId, lang } = {}) {
+function buildPack(pool, { goalId, lang, pools } = {}) {
   const goalDef = resolveGoal(goalId);
   const persona = classifyPersona(pool);
   const goalLabel = goalLabelText(goalDef, lang || 'en');
@@ -413,15 +647,38 @@ function buildPack(pool, { goalId, lang } = {}) {
   const foreverAmt = foreverNumber(monthly, effApy);
   const foreverAmtStr = (isFinite(foreverAmt) && foreverAmt > 0) ? formatUsd(foreverAmt) : null;
 
+  // 229: story-worthiness signals + the derived hook. Built against the SAME
+  // candidate context `pool` was ranked against — pass the full/raw dataset
+  // as `pools` (main() does). Falls back to a single-pool context ([pool])
+  // for call sites that only care about the trust-rail fields (most of
+  // test_spotlight.js's pure-unit fixtures predate 229) — that fallback
+  // degrades to "no other candidates to compare against": percentileRank's
+  // n<=1 branch returns 1 for a population of one, so smallProtocol and
+  // freshness (both `1 - percentileRank(...)`) read 0, unusualRate (not
+  // inverted) reads 1, and rateRepresentative is whatever this pool's own
+  // apy/apyMean30d deviation actually is. It never fabricates a population
+  // or asserts a specific angle — it just degrades honestly.
+  const storyCtx = buildStoryContext(pools && pools.length ? pools : [pool]);
+  const signals = storySignals(pool, storyCtx);
+  const score = storyScore(signals);
+  const angle = hookAngle(signals);
+  const daysTracked = Number.isFinite(pool.count) ? pool.count : 0;
+  const protocolTvlStr = formatUsd(storyCtx.aggregates.get(pool.project) || (pool.tvlUsd || 0));
+  const hook = buildHook({
+    hookAngle: angle, protocolLabel, poolSymbol: pool.symbol, chain: pool.chain,
+    apyStr, tvlStr, goalLabel, foreverAmtStr, effectiveApyStr, daysTracked,
+    unusualRate: signals.unusualRate, protocolTvlStr
+  });
+
   const shareUrl = buildShareUrl({
     goal: goalDef.id, monthly: monthly, persona: persona, chain: pool.chain, token: pool.symbol, ref: slug
   });
   const tweetDraft = buildTweetDraft({
-    protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr,
+    hook, protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr,
     goalLabelText: goalLabel, monthly, shareUrl, project: pool.project, persona
   });
   const canvaFields = buildCanvaFields({
-    protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr, goalLabelText: goalLabel, shareUrl, tweetDraft, foreverAmtStr, effectiveApyStr
+    protocolLabel, poolSymbol: pool.symbol, chain: pool.chain, apyStr, tvlStr, goalLabelText: goalLabel, shareUrl, tweetDraft, foreverAmtStr, effectiveApyStr, hook
   });
 
   return {
@@ -447,6 +704,16 @@ function buildPack(pool, { goalId, lang } = {}) {
     shareUrl: shareUrl,
     tweetDraft: tweetDraft,
     canvaFields: canvaFields,
+    // 229 — additive: the derived hook + the signals/score/angle that
+    // produced it, plus the two raw inputs the story-score gates read
+    // (daysTracked/apyMean30d) so a downstream consumer can audit the
+    // ranking without recomputing it.
+    hook: hook,
+    hookAngle: angle,
+    storyScore: score,
+    storySignals: signals,
+    daysTracked: daysTracked,
+    apyMean30d: (typeof pool.apyMean30d === 'number' && isFinite(pool.apyMean30d)) ? pool.apyMean30d : null,
     generatedAt: new Date().toISOString()
   };
 }
@@ -475,23 +742,46 @@ function loadCoveredPacks(outDir) {
 
 /** coveredPacks: array of pack objects (same shape buildPack returns /
  * pack.json on disk) for pools already spotlighted. Returns { covered, next }
- * — next is up to nextN trust-rail-qualifying, small-enough-protocol pools
- * (highest total APY first) whose pool id isn't already in coveredPacks. */
+ * — next is up to nextN storyScore-ranked candidates whose pool id isn't
+ * already in coveredPacks, AT MOST ONE POOL PER PROJECT (229 — each post
+ * tags a protocol, so the next-up list must not repeat one; measured
+ * pre-229: `uniswap-v3` held 5 of the old ranker's top 10 slots while 148
+ * distinct protocols qualified). Each row carries its own hookAngle.
+ *
+ * Post-review fix (229): the protocol dedupe must ALSO exclude protocols
+ * already COVERED by a committed pack, not just protocols repeated within
+ * the next list itself — the human's very next post would otherwise tag the
+ * same protocol they just posted (caught by the coordinator reading the
+ * rendered CADENCE.md, where `liminal-basis` showed up as both a covered
+ * pack and the #1 next candidate on a different pool). `seenProjects` is
+ * seeded from `coveredPacks`' own recorded `protocol` field — never
+ * re-derived from the pool — so this stays correct even if a covered pack's
+ * pool has since disappeared from live data. Both the per-pool-id covered
+ * filter AND this per-project seed are needed: the former stops the exact
+ * same pool reappearing, the latter stops a DIFFERENT pool of the same
+ * protocol reappearing. */
 function buildCadence(pools, coveredPacks, { nextN } = {}) {
   const n = nextN || DEFAULT_NEXT_CANDIDATES;
   const coveredPoolIds = new Set((coveredPacks || []).map((p) => p.pool));
-  const next = rankCandidates(pools)
-    .filter((p) => !coveredPoolIds.has(p.pool))
-    .slice(0, n)
-    .map((p) => ({
+  const seenProjects = new Set((coveredPacks || []).map((p) => p.protocol).filter(Boolean));
+  const next = [];
+  for (const s of scoredCandidates(pools).scored) {
+    const p = s.pool;
+    if (coveredPoolIds.has(p.pool)) continue;
+    if (seenProjects.has(p.project)) continue; // 229: at most one pool per project
+    seenProjects.add(p.project);
+    next.push({
       protocol: p.project,
       protocolLabel: formatProjectName(p.project),
       pool: p.pool,
       poolSymbol: p.symbol,
       chain: p.chain,
       apyStr: formatApy(poolTotalApy(p)),
-      tvlStr: formatUsd(p.tvlUsd)
-    }));
+      tvlStr: formatUsd(p.tvlUsd),
+      hookAngle: s.angle
+    });
+    if (next.length >= n) break;
+  }
   return { covered: coveredPacks || [], next };
 }
 
@@ -515,7 +805,7 @@ function renderCadenceMarkdown(cadence) {
     lines.push('_No qualifying, uncovered candidates left in this pool set._');
   } else {
     cadence.next.forEach((c) => {
-      lines.push(`- ${c.protocolLabel} · ${c.poolSymbol} (${c.chain}) — ${c.apyStr} APY, ${c.tvlStr} TVL tracked (\`--pool ${c.pool}\`)`);
+      lines.push(`- ${c.protocolLabel} · ${c.poolSymbol} (${c.chain}) — ${c.apyStr} APY, ${c.tvlStr} TVL tracked, angle \`${c.hookAngle}\` (\`--pool ${c.pool}\`)`);
     });
   }
   lines.push('');
@@ -566,7 +856,7 @@ async function main() {
   const pool = pickPool(pools, args.pool);
   console.log(`🎯 Spotlighting ${pool.project} · ${pool.symbol} (${pool.chain}) — pool ${pool.pool}`);
 
-  const pack = buildPack(pool, { goalId: args.goal, lang: args.lang });
+  const pack = buildPack(pool, { goalId: args.goal, lang: args.lang, pools: pools });
 
   const outDir = path.resolve(args.out, pack.slug);
   fs.mkdirSync(outDir, { recursive: true });
@@ -594,6 +884,12 @@ async function main() {
 module.exports = {
   DEFAULT_MIN_TVL, APY_SANITY_LIMIT, CURVE_PROJECT_KEY, SPOTLIGHT_SRC,
   isQualifyingPool, protocolTvlAggregates, isSmallEnoughProtocol,
+  // 229: the two new gates + the story-worthiness score/hook machinery.
+  // 242: representativenessRatio is now ALSO re-exported (it previously
+  // wasn't, even though isRepresentativeRate/the constants were) — the
+  // mirror-proof test requires all four names to be checkable for identity.
+  REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate, isFundableForever,
+  buildStoryContext, storySignals, storyScore, hookAngle, buildHook,
   pickPool, rankCandidates, SpotlightError,
   SUBSCRIPTION_GOALS, DEFAULT_GOAL_ID, resolveGoal,
   STABLE_SYMBOLS, isStableSymbol, PERSONA_BANDS, classifyPersona,

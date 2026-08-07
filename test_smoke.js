@@ -1,9 +1,11 @@
-/* Playwright smoke gate (spec 003): both sacred router paths must actually render.
+/* Playwright smoke gate (spec 003): the sacred router paths must actually render.
    Run: node test_smoke.js
    Serves the repo statically (mimicking vercel.json's "/" -> home.html rewrite)
    and drives real Chromium at 360/768/1280px against:
-     1. "/"              -> planner UI mounts into #planner-root
-     2. "/?token=USDC"    -> analytics app renders .pool-card elements
+     1. "/"              -> search-first landing mounts into #landing-root (2026-07-15 pivot),
+                             and the planner does NOT mount there
+     2. "/plan.html"      -> planner UI mounts into #planner-root
+     3. "/?token=USDC"    -> analytics app renders .pool-card elements
    Fails on any unexpected page/console error (external font/analytics fetch
    failures are ignorable per CLAUDE.md). */
 const http = require('http');
@@ -176,8 +178,17 @@ async function main() {
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   try {
     for (const viewport of VIEWPORTS) {
-      await test('bare / renders planner UI at ' + viewport.width + 'px', async () => {
+      await test('bare / renders the search-first landing at ' + viewport.width + 'px', async () => {
         const { page, errors } = await loadAndCollectErrors(browser, '/', viewport);
+        await page.waitForSelector('[data-testid="landing-search"]', { timeout: 10000 });
+        const plannerMounted = await page.locator('#planner-root .gp-app').count();
+        await page.close();
+        if (plannerMounted !== 0) throw new Error('planner mounted on bare / (expected only the landing)');
+        if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+      });
+
+      await test('/plan.html renders the planner at ' + viewport.width + 'px', async () => {
+        const { page, errors } = await loadAndCollectErrors(browser, '/plan.html', viewport);
         await page.waitForSelector('#planner-root [class*="gp-"]', { timeout: 10000 });
         await page.close();
         if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
@@ -195,7 +206,9 @@ async function main() {
       const { page, errors } = await loadAndCollectErrors(browser, '/?token=USDC', VIEWPORTS[2]);
       await page.waitForSelector('.pool-card', { timeout: 15000 });
       await page.click('.pool-card');
-      await page.waitForSelector('.pool-breadcrumb', { timeout: 10000 });
+      // 247 world: the old "← Back to Search" breadcrumb link (.pool-breadcrumb)
+      // is retired — .pool-hero-card is the unconditional pool-detail render marker now.
+      await page.waitForSelector('.pool-hero-card', { timeout: 10000 });
       const blocks = await page.evaluate(() => Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
         .map(s => JSON.parse(s.textContent)));
       const breadcrumb = blocks.find(b => b['@type'] === 'BreadcrumbList');
@@ -204,6 +217,52 @@ async function main() {
       if (!breadcrumb) throw new Error('no BreadcrumbList JSON-LD found on the pool-detail view');
       if (breadcrumb.itemListElement.length !== 2) throw new Error('expected 2 breadcrumb items (Search Results, <SYMBOL> Pool)');
       if (!/ Pool$/.test(breadcrumb.itemListElement[1].name)) throw new Error('second breadcrumb item should be "<SYMBOL> Pool"');
+    });
+
+    // 247 search-as-nav: the pool-detail header now renders the SAME search
+    // bar as the grid, pre-filled with the active token — submitting a new
+    // query or clearing it are the only ways out of pool view (the old
+    // "← Back to Search" text link is gone).
+    await test('247 search-as-nav: submitting a new query from pool view leaves pool view and shows results for it', async () => {
+      const { page, errors } = await loadAndCollectErrors(browser, '/?token=USDC', VIEWPORTS[2]);
+      await page.waitForSelector('.pool-card', { timeout: 15000 });
+      await page.click('.pool-card');
+      await page.waitForSelector('.pool-hero-card', { timeout: 10000 });
+
+      await page.click('.app-search-input');
+      await page.keyboard.press('Control+A');
+      await page.keyboard.type('eth', { delay: 20 });
+      await page.waitForTimeout(400); // let the 300ms search debounce settle
+      await page.keyboard.press('Enter');
+
+      await page.waitForSelector('.pool-card', { timeout: 10000 });
+      const stillPoolDetail = await page.locator('.pool-detail-view').count();
+      const url = page.url();
+      await page.close();
+      if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+      if (stillPoolDetail !== 0) throw new Error('expected to leave pool-detail view after submitting a new query');
+      if (!/token=ETH/i.test(url)) throw new Error('expected the URL token param to update to the new query, got ' + url);
+      if (/[?&]pool=/.test(url)) throw new Error('expected ?pool= to be dropped on leaving pool view, got ' + url);
+    });
+
+    await test('247 search-as-nav: clearing the search from pool view returns to the token\'s results', async () => {
+      const { page, errors } = await loadAndCollectErrors(browser, '/?token=USDC', VIEWPORTS[2]);
+      await page.waitForSelector('.pool-card', { timeout: 15000 });
+      await page.click('.pool-card');
+      await page.waitForSelector('.pool-hero-card', { timeout: 10000 });
+
+      const prefill = await page.inputValue('.app-search-input');
+      await page.click('.app-search-clear');
+
+      await page.waitForSelector('.pool-card', { timeout: 10000 });
+      const stillPoolDetail = await page.locator('.pool-detail-view').count();
+      const url = page.url();
+      await page.close();
+      if (errors.length) throw new Error('page errors:\n' + errors.join('\n'));
+      if (prefill !== 'USDC') throw new Error('expected the pool-view search bar pre-filled with the active token, got ' + JSON.stringify(prefill));
+      if (stillPoolDetail !== 0) throw new Error('expected to leave pool-detail view after clearing the search');
+      if (!/token=USDC/i.test(url)) throw new Error('expected to land back on the USDC token results, got ' + url);
+      if (/[?&]pool=/.test(url)) throw new Error('expected ?pool= to be dropped on clearing from pool view, got ' + url);
     });
   } finally {
     await browser.close();

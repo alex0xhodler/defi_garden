@@ -2,18 +2,33 @@
    5y projection + "keep your money" frame, ahead of the underwhelming
    daily/monthly small-$ cards.
 
+   RE-POINTED for spec 210 (input-first earnings block merge): the standalone
+   `.pool-projection-card` top-level section and the `.quick-metrics` grid it
+   used to lead (daily card, monthly card, risk card) no longer exist as
+   siblings — 210 merged them into ONE `calculator-compact` "your garden"
+   block. `.pool-projection-card` itself survives (same class, conditions,
+   copy — judgment call recorded in specs/210-notes.md: relocated, not
+   deleted, consistent with the spec's "do not change class names" rule for
+   the sibling rate-note family) but now renders INSIDE `calculator-compact`,
+   AFTER the investment-amount input (`input-wrapper`) — input-first, so the
+   user sets their number before reading the projection. The old daily/
+   monthly-cards-still-render assertion is RETIRED here: those stat cards are
+   gone by design (210 acceptance criterion — dedup, not a regression);
+   test_earnings_dedup.js is the new home for asserting they don't come back.
+
    Proves, against a REAL chromium render of a `?pool=<id>` landing (not source
    reading):
-   (1) the projection card (`.pool-projection-card`) renders BEFORE the
-       quick-metrics earnings grid (`.quick-metrics`) in DOM order;
+   (1) the projection card (`.pool-projection-card`) renders INSIDE
+       `.calculator-compact`, AFTER the amount input (`.input-wrapper`), in DOM
+       order — input-first;
    (2) the projection card still carries the 5y projection number
        (`projectionBody` — "in 5y … at current rates") — the reorder did not
        drop the honest number;
    (3) the "keep your money" line renders inside the projection card in EN
        ("keep your money") AND in KO ("예치금") on a `&lang=ko` render — EN+KO
        both present;
-   (4) the daily + monthly earnings cards still render (single earnings surface
-       preserved, no regression);
+   (4) the standalone `.quick-metrics` grid is GONE (merged away, not a
+       regression — 210's de-duplication);
    (5) no unexpected page/console errors.
 
    House pattern from test_repeat_cta.js / test_ko_pool_money_honesty.js: unpkg
@@ -107,17 +122,37 @@ async function main() {
     // ---- EN render ----
     const { page, pageErrors } = await renderDetail(browser, null);
 
-    // (1) projection card BEFORE the quick-metrics grid in DOM order
-    await test('.pool-projection-card renders BEFORE .quick-metrics in DOM order', async () => {
-      const ok = await page.evaluate(() => {
+    // (1) projection card lives INSIDE calculator-compact, AFTER the amount
+    // input — input-first (210). The old .quick-metrics grid it used to lead
+    // is gone entirely (asserted separately below).
+    await test('.pool-projection-card renders inside .calculator-compact, AFTER the amount input (input-first)', async () => {
+      const result = await page.evaluate(() => {
         const proj = document.querySelector('.pool-projection-card');
-        const grid = document.querySelector('.quick-metrics');
-        if (!proj) throw new Error('no .pool-projection-card on the page');
-        if (!grid) throw new Error('no .quick-metrics grid on the page');
-        // DOCUMENT_POSITION_FOLLOWING (4): grid follows proj.
-        return !!(proj.compareDocumentPosition(grid) & Node.DOCUMENT_POSITION_FOLLOWING);
+        const calc = document.querySelector('.calculator-compact');
+        const input = document.querySelector('.input-wrapper');
+        if (!proj) return { err: 'no .pool-projection-card on the page' };
+        if (!calc) return { err: 'no .calculator-compact on the page' };
+        if (!input) return { err: 'no .input-wrapper (amount input) on the page' };
+        const insideCalc = calc.contains(proj);
+        // DOCUMENT_POSITION_FOLLOWING (4): proj follows input, i.e. input
+        // renders first (input-first ordering).
+        const inputFirst = !!(input.compareDocumentPosition(proj) & Node.DOCUMENT_POSITION_FOLLOWING);
+        return { insideCalc, inputFirst };
       });
-      if (!ok) throw new Error('the projection card is NOT before the quick-metrics earnings grid');
+      if (result.err) throw new Error(result.err);
+      if (!result.insideCalc) throw new Error('.pool-projection-card is NOT inside .calculator-compact');
+      if (!result.inputFirst) throw new Error('.pool-projection-card does NOT come after the amount input — not input-first');
+    });
+
+    // (4, moved up) the standalone .quick-metrics grid no longer exists —
+    // 210 merged the daily/monthly/risk cards it held into the earnings
+    // block and hero chip row. Retiring, not weakening, the old "daily +
+    // monthly earnings cards still render" leg from this file — the
+    // reference-count/no-daily-monthly-stat-card assertions now live in
+    // test_earnings_dedup.js (the natural home for de-dup acceptance).
+    await test('.quick-metrics grid no longer renders (merged into the earnings block, 210)', async () => {
+      const count = await page.locator('.quick-metrics').count();
+      if (count !== 0) throw new Error(`expected .quick-metrics to be gone (merged away by 210), found ${count}`);
     });
 
     // (2) projection card still carries the 5y projection number
@@ -136,17 +171,6 @@ async function main() {
       }
     });
 
-    // (4) daily + monthly earnings cards still render (no regression)
-    await test('daily + monthly earnings cards still render below the projection', async () => {
-      const grid = page.locator('.quick-metrics');
-      const gridText = await grid.innerText();
-      // Risk card + 2 earnings cards live in the grid; assert the 2 earnings
-      // sublabels ("on $1,000") both still render.
-      const sublabels = await page.locator('.metric-sublabel').count();
-      if (sublabels < 2) throw new Error(`expected >=2 .metric-sublabel (daily+monthly), got ${sublabels}`);
-      if (!gridText) throw new Error('.quick-metrics grid rendered empty');
-    });
-
     // (5) no unexpected page/console errors on the EN render
     await test('no unexpected page/console errors (EN)', async () => {
       if (pageErrors.length) throw new Error(pageErrors.join('\n    '));
@@ -162,13 +186,16 @@ async function main() {
       if (!/예치금/.test(txt)) {
         throw new Error('KO keep-note ("예치금") not found in the projection card — lang=ko may not have applied: ' + JSON.stringify(txt));
       }
-      // And the projection card still leads the grid in KO too.
+      // And the projection card still renders input-first (after the amount
+      // input) inside calculator-compact on the KO render too.
       const ok = await koPage.evaluate(() => {
         const proj = document.querySelector('.pool-projection-card');
-        const grid = document.querySelector('.quick-metrics');
-        return !!(proj && grid && (proj.compareDocumentPosition(grid) & Node.DOCUMENT_POSITION_FOLLOWING));
+        const calc = document.querySelector('.calculator-compact');
+        const input = document.querySelector('.input-wrapper');
+        return !!(proj && calc && input && calc.contains(proj) &&
+          (input.compareDocumentPosition(proj) & Node.DOCUMENT_POSITION_FOLLOWING));
       });
-      if (!ok) throw new Error('projection card is not before the grid on the KO render');
+      if (!ok) throw new Error('projection card is not input-first inside calculator-compact on the KO render');
     });
 
     await test('no unexpected page/console errors (KO)', async () => {

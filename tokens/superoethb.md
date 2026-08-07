@@ -1,0 +1,40 @@
+# SUPEROETHB DeFi Yields
+
+The highest honest SUPEROETHB yield right now is 4.49% on stake-dao (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [origin-ether →](https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token) | Base | 2.85% | $18.22M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.91% | $3.96M |
+| [stake-dao →](https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token) | Base | 4.49% | $3.15M |
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest SUPEROETHB yield today?
+
+4.49% APY on stake-dao (Base), based on live DefiLlama data.
+
+### How many SUPEROETHB pools clear the TVL floor?
+
+4 live pools clear this page's $100K TVL floor, $26.04M in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+## Related tokens
+
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
+- [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
+
+## Available on
+
+- [Base](https://www.defi.garden/chains/base)
+
+## Last updated August 7, 2026

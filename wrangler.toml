@@ -24,7 +24,7 @@ compatibility_date = "2026-07-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "defi-garden-history"
-database_id = "REPLACE_WITH_d1_create_OUTPUT"
+database_id = "2a6a3b87-cc0e-4ed7-a6c6-a8bb49015814"
 
 [triggers]
 crons = ["0 * * * *"]   # hourly — DefiLlama pools rarely move faster; keeps D1 tiny

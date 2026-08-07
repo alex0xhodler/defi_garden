@@ -1,0 +1,42 @@
+# YOG DeFi Yields
+
+The highest honest YOG yield right now is 7.45% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token) | Katana | 3.26% | $4.47M |
+| [morpho-blue →](https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token) | Ethereum | 7.45% | $2.45M |
+| [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 6.74% | $230.5K |
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest YOG yield today?
+
+7.45% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+
+### How many YOG pools clear the TVL floor?
+
+3 live pools clear this page's $100K TVL floor, $7.16M in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+## Related tokens
+
+- [STETH](https://www.defi.garden/tokens/steth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
+
+## Available on
+
+- [Katana](https://www.defi.garden/chains/katana)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
+- [Base](https://www.defi.garden/chains/base)
+
+## Last updated August 7, 2026

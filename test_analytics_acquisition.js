@@ -1,9 +1,11 @@
-/* Unit test for the acquisition (UTM / ref / click-id / referring_domain)
-   capture added to analytics.js. Pure Node — mocks window/document/navigator/
-   screen, no browser, no network. Verifies: UTM + `ref` (the 064 spotlight
-   param) + referring_domain are captured from the landing URL; absent params
-   emit NO key (never an "undefined" string); and getBaseContext spreads the
-   captured acquisition onto every event so it's attributable.
+/* Unit test for the acquisition (UTM / ref / click-id / referring_domain /
+   src) capture added to analytics.js. Pure Node — mocks window/document/
+   navigator/screen, no browser, no network. Verifies: UTM + `ref` (the 064
+   spotlight param) + `src` (202 — the internal-link counterpart to `ref`:
+   seo_token/seo_chain/x_spotlight/pool) + referring_domain are captured from
+   the landing URL; absent params emit NO key (never an "undefined" string);
+   and getBaseContext spreads the captured acquisition onto every event so
+   it's attributable.
 
    Run: node test_analytics_acquisition.js */
 
@@ -39,12 +41,22 @@ withEnv({ search: '?utm_source=x_spotlight&utm_medium=social&utm_campaign=curve-
   eq(a.utm_content, 'v1', 'utm_content captured');
   eq(a.ref, 'deadbeef', 'ref captured (064 spotlight attribution param)');
   eq(a.referring_domain, 't.co', 'referring_domain derived from document.referrer host');
+  ok(!('src' in a), 'no src key emitted when the URL carries no ?src= (this landing has none)');
+});
+
+// 1b. `src` — the product's own internal-link acquisition tag (202): the
+// static SEO estate's waitlist CTAs (`?src=seo_token`/`seo_chain`) and the
+// north-star pool CTA (`?src=pool`).
+withEnv({ search: '?src=seo_token' }, () => {
+  const a = Analytics.captureAcquisition();
+  eq(a.src, 'seo_token', 'src captured from a seo_token landing URL');
 });
 
 // 2. No params, no referrer (the current crawler/direct case) → EMPTY, not "undefined" strings
 withEnv({ search: '', referrer: '' }, () => {
   const a = Analytics.captureAcquisition();
   eq(Object.keys(a).length, 0, 'no acquisition keys when nothing to attribute (never undefined strings)');
+  ok(!('src' in a), 'src key absent (not the string "undefined") when ?src= is absent');
 });
 
 // 3. Referrer only (organic search) → referring_domain, no utm keys
@@ -67,6 +79,12 @@ withEnv({ search: '?utm_campaign=' + 'a'.repeat(500) }, () => {
   eq(a.utm_campaign.length, 200, 'utm value capped at 200 chars');
 });
 
+// 5b. `src` gets the identical 200-char cap treatment as `ref`
+withEnv({ search: '?src=' + 'b'.repeat(500) }, () => {
+  const a = Analytics.captureAcquisition();
+  eq(a.src.length, 200, 'src value capped at 200 chars, same treatment as ref');
+});
+
 // 6. getBaseContext spreads the captured acquisition onto every event
 withEnv({ search: '?utm_source=x_spotlight&ref=zz', referrer: 'https://t.co/x' }, () => {
   Analytics.init();                      // captures acquisition from the (mocked) landing URL
@@ -75,6 +93,16 @@ withEnv({ search: '?utm_source=x_spotlight&ref=zz', referrer: 'https://t.co/x' }
   eq(ctx.ref, 'zz', 'every event carries ref');
   eq(ctx.referring_domain, 't.co', 'every event carries referring_domain');
   eq(ctx.referrer, 'https://t.co/x', 'existing referrer property untouched (never undefined)');
+  ok(!('src' in ctx), 'no src key on the emitted event props when this landing carries no ?src=');
+});
+
+// 6b. getBaseContext spreads `src` onto an emitted event's props too (202) —
+// asserted through the event props object, not by reading captureAcquisition's
+// source array directly.
+withEnv({ search: '?src=seo_chain' }, () => {
+  Analytics.init();
+  const ctx = Analytics.getBaseContext();
+  eq(ctx.src, 'seo_chain', 'every event carries src, spread by getBaseContext from captured acquisition');
 });
 
 console.log(`test_analytics_acquisition.js: ${passed}/${passed} assertions passed`);

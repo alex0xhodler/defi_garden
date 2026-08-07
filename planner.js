@@ -866,9 +866,27 @@
     if (typeof window !== 'undefined' && window.translations) return window.translations;
     return null;
   }
+  // 241: mirrors translations.js's formatCount at the makeT() accessor
+  // chokepoint, so a numeric arg is en-US grouped before any dictionary
+  // entry sees it (same fix, same rationale as createTranslationFunction).
+  // Same graceful-degradation contract as safeTranslations() above (spec
+  // 082): translations.min.js — which defines the shared window.formatCount
+  // global — may not have loaded yet, so this must never throw on a missing
+  // global. Prefer the real shared global; only degrade to an inline
+  // identity-safe copy if it's absent.
+  function applyPinnedCounts(args) {
+    var fmt = (typeof window !== 'undefined' && typeof window.formatCount === 'function')
+      ? window.formatCount
+      : function (value) {
+          return (typeof value === 'number' && isFinite(value)) ? value.toLocaleString('en-US') : value;
+        };
+    var out = [];
+    for (var i = 0; i < args.length; i++) out.push(fmt(args[i]));
+    return out;
+  }
   function makeT(lang) {
     return function t(key) {
-      var args = Array.prototype.slice.call(arguments, 1);
+      var args = applyPinnedCounts(Array.prototype.slice.call(arguments, 1));
       // Re-check on every call so strings recover if translations loads late.
       var tr = safeTranslations();
       if (!tr) return key; // graceful degradation: key-echo (same as unknown key)
@@ -3847,9 +3865,23 @@
   // ===========================================================================
   // Header
   // ===========================================================================
+  // Brand leaf mark — same SVG as the landing's LeafMark (landing.js), so
+  // every surface wears one identity tile.
+  function BrandLeafMark() {
+    return e('svg', {
+      className: 'gp-leaf-mark', viewBox: '0 0 32 32', width: 22, height: 22,
+      preserveAspectRatio: 'xMidYMid meet', fill: 'none', 'aria-hidden': 'true'
+    },
+      e('path', { d: 'M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z', fill: 'currentColor' }),
+      e('path', { d: 'M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4', stroke: 'currentColor', strokeWidth: '1.6', strokeLinecap: 'round' })
+    );
+  }
+
   function PlannerHeader(props) {
     return e('header', { className: 'gp-header' },
-      e('a', { className: 'gp-logo', href: 'home.html' }, '🌱 DeFi Garden'),
+      e('a', { className: 'gp-logo', href: 'home.html' },
+        e('span', { className: 'gp-brand-mark', 'aria-hidden': 'true' }, e(BrandLeafMark)),
+        'DeFi Garden'),
       e('div', { className: 'gp-header-actions' },
         // My Garden affordance — shows when plan exists and not already in report view
         props.hasSavedPlan && props.mode !== 'report' ? e('button', {
@@ -3868,7 +3900,7 @@
           type: 'button', className: 'gp-theme-toggle' + (props.dark ? ' is-dark' : ''),
           onClick: props.onToggleTheme, 'aria-label': 'Toggle theme'
         },
-          e('span', { className: 'gp-theme-icon' }, props.dark ? '🌙' : '☀️')
+          e('span', { className: 'gp-theme-icon' }, props.dark ? '☼' : '☾')
         )
       )
     );
@@ -3905,6 +3937,32 @@
     var langState = useState(detectLang());
     var lang = langState[0];
     var t = useMemo(function () { return makeT(lang); }, [lang]);
+
+    // Localize the static crawler footer's anchors (045, 179 — plan.html and
+    // any other static load that carries .seo-hub-links; home.html's copy in
+    // analytics/landing mode is superseded/hidden by the 086/179 CSS rule, so
+    // re-running this there is harmless). The footer ships EN in raw HTML for
+    // crawlers; once the planner mounts, re-key it from the SAME EXISTING
+    // keys the landing/analytics footers already use — browseTokens /
+    // browseChains live on the ROOT dictionary (240 deleted the
+    // translations[lang].landing.footerBrowseTokens/footerBrowseChains
+    // duplicates once landing.js/app.js were unified onto the root keys), NOT
+    // .planner, so makeT's t() can't reach them; read the dict directly, same
+    // fallback shape as makeT/rootT). Runs on every `lang` change, so both
+    // ?lang=ko and a future live language switch land. Guarded: a missing
+    // element, a missing translations global, or a missing key must never
+    // throw and break the render.
+    useEffect(function () {
+      try {
+        var tr = safeTranslations();
+        var rootDict = tr && (tr[lang] || tr.en);
+        if (!rootDict) return;
+        var tokensLink = document.querySelector('.seo-hub-links a[href="/tokens"]');
+        var chainsLink = document.querySelector('.seo-hub-links a[href="/chains"]');
+        if (tokensLink && rootDict.browseTokens) tokensLink.textContent = rootDict.browseTokens;
+        if (chainsLink && rootDict.browseChains) chainsLink.textContent = rootDict.browseChains;
+      } catch (eFooterI18n) {}
+    }, [lang]);
 
     var themeState = useState(function () {
       try {

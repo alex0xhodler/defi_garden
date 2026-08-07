@@ -63,6 +63,20 @@ async function trackedEvents(page) {
 // title/benefits text plus the fired waitlist_opened event props.
 async function openModal(browser, query, mockFormspree) {
   const context = await browser.newContext();
+  // spec 096's production-host gate (analytics.js:96, PRODUCTION_HOSTS at :14)
+  // makes Analytics.track() return early off-allowlist, so a localhost:8798
+  // load never reaches window.mixpanel and the stub queue below reads empty.
+  // Neutralising the check restores the real production path into the SAME
+  // stub queue without touching analytics.js; test_analytics_host_gate_render.js
+  // is the negative control proving suppression still holds when this override
+  // is absent — don't "fix" that gate instead of the test environment.
+  await context.addInitScript(() => {
+    const install = () => {
+      if (typeof Analytics === 'undefined') { setTimeout(install, 0); return; }
+      Analytics.isProductionHost = () => true;
+    };
+    install();
+  });
   await context.route(url => !url.href.startsWith(`http://localhost:${PORT}`) && !url.href.includes('formspree.io'), route => route.abort());
   if (mockFormspree) {
     await context.route('**formspree.io/**', route => route.fulfill({ status: 200, contentType: 'application/json', body: '{}' }));

@@ -10,9 +10,11 @@ on:
     paths:
       - 'generate-sitemap.js'
       - 'generate-pools-snapshot.js'
+      - 'generate-protocol-urls.js'
       - 'compute-kpis.js'
       - 'generate-token-pages.js'
       - 'generate-chain-pages.js'
+      - 'generate-pool-pages.js'
       - 'compile-app.js'
       - 'minify-assets.js'
       - 'app.js'
@@ -72,6 +74,12 @@ jobs:
         node generate-pools-snapshot.js --seo-out "$RUNNER_TEMP/seo-pools.json"
         echo "✅ Pools snapshot generation completed"
 
+    - name: Generate protocol URLs (backlog 182 — CI-baked north-star CTA URL map)
+      run: |
+        echo "🔗 Generating baked protocol-URL map..."
+        node generate-protocol-urls.js
+        echo "✅ Protocol URL generation completed"
+
     - name: Compute KPIs + retain history (backlog 087 — data-layer leg 2 phase 0; 110 — read from D1 when provisioned)
       env:
         HISTORY_ENDPOINT: ${{ secrets.HISTORY_ENDPOINT }}
@@ -92,6 +100,12 @@ jobs:
         echo "⛓️ Generating static /chains/ landing pages + sitemap..."
         node generate-chain-pages.js --out chains --sitemap sitemap-chain-pages.xml --fixture "$RUNNER_TEMP/seo-pools.json"
         echo "Pages: $(ls chains | wc -l) · sitemap URLs: $(grep -c '<loc>' sitemap-chain-pages.xml)"
+
+    - name: Generate pool markdown twins (backlog 213 — agent-readable pool-detail surface)
+      run: |
+        echo "🌱 Generating static /pools/ markdown twins..."
+        node generate-pool-pages.js --out pools --fixture "$RUNNER_TEMP/seo-pools.json"
+        echo "Pages: $(ls pools | wc -l)"
 
     - name: Generate sitemap
       run: |
@@ -146,7 +160,7 @@ jobs:
         git config --local user.email "alex@0xhodler.nl"
         git config --local user.name "alex0xhodler"
         
-        git add data sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains sitemap-token-pages-ko.xml sitemap-chain-pages-ko.xml ko robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js style.min.css planner-styles.min.css pool-detail-styles.min.css
+        git add data sitemap.xml sitemap-token-pages.xml tokens sitemap-chain-pages.xml chains pools sitemap-token-pages-ko.xml sitemap-chain-pages-ko.xml ko robots.txt llms.txt llms-full.txt og app.compiled.js PoolDetail.compiled.js app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js style.min.css planner-styles.min.css pool-detail-styles.min.css
         git add -A -- 'sitemap*.xml'
         git commit -m "chore: update sitemap and LLM files with latest yields
         

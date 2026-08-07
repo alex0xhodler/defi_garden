@@ -81,3 +81,283 @@ Not an experiment window; a process finding, recorded here because it cost a ful
 **Both implementations were sound; they differed in ship shape.** #306 committed the full 5,596-file live regen (junk removal + ordinary daily TVL churn, 19 real tickers out / 11 in). The second run kept a 33-file surgical diff — predicate + test + the 7 orphaned artifacts + their sitemap `<url>` blocks — on the argument that a full regen buries a 20-line fix (item 145's lesson) and that `sitemap-update.yml`'s push trigger regenerates on merge anyway. Both are defensible; #306 was first, so it is the one that stands.
 
 **Takeaway (bind the next build run).** Before picking a READY item, check for an open PR whose branch is `claude/loop-<id>` — an open PR is a status that `BACKLOG.md` on `main` structurally cannot show. Treat "open PR exists for this id" as equivalent to `IN_REVIEW`/`BLOCKED` and skip to the next item. Cheapest check: `git ls-remote origin 'refs/heads/claude/loop-<id>'` before starting, or list open PRs. The alternative fix — splitting the status change into a separate pre-PR commit on `main` — is rejected: it re-opens the two-deployments-per-item problem the 2026-07-13 Vercel-quota decision exists to close.
+
+## 2026-07-27 · 062 / 063 / 066 / 068 / 075 / 079 · the waitlist-funnel cohort (six windows, one verdict)
+All six shipped 2026-07-13/14 and were measured on the same instrument: the 009 waitlist funnel over 07-13→07-27 (`query_id 9fe39c5b`).
+Hypotheses, in one line each: **062** a waitlist CTA on the 2,131 static SEO pages converts crawl-arriving readers · **063** step-by-step drop-off instrumentation shows where the waitlist funnel leaks · **066** an honest per-token "what your idle stack earns" headline strengthens the card pitch · **068** outcome-framed hero copy lifts the top of the waitlist funnel · **075** the same headline extended to chain pages · **079** the CTA on the 58 hub/az spine pages.
+→ Result: **INCONCLUSIVE, all six.** `waitlist_opened`, `waitlist_email_entered`, `waitlist_submit_attempt`, `waitlist_submitted`, `waitlist_cta_click` and `share_link_created` are **all absent from the result set** over the full 14-day window — not low, never fired. Prod `page_view` in the same window = 48.
+Decision: all kept, all DONE. Build legs verified functional at ship; not one of the six hypotheses was ever exercised.
+**Takeaway, and it is now the third cohort to say it** (share funnel 07-24, waitlist reframe 07-26, this): *stop opening calendar windows on the waitlist funnel.* The instrument is correct and the surface is unvisited; a 14-day timer measures nothing but the passage of time and costs a heartbeat's attention to close. Gate the next waitlist item on a **traffic precondition** — ≥30 `waitlist_opened` events — not a date. Six windows closing on one identical zero is the strongest evidence yet that the loop's measurement discipline is being spent where there is nothing to measure.
+
+## 2026-07-27 · 064 · X-spotlight → waitlist attribution
+Hypothesis: tagging spotlight arrivals (`src=x_spotlight` + `ref`) makes per-post distribution measurable. → Result: **INCONCLUSIVE, but with a clean NEGATIVE that is worth more than the window** — prod `page_view` broken down by `src` over 07-13→07-27 (`d649acd9`) returns a **single row: `undefined` = 48**. Zero tagged arrivals of any kind.
+Decision: kept, DONE. The attribution leg is built, correct and **unexercised** — this is not a broken instrument, it is an unposted campaign. The 069 spotlight packs (3 committed, ready-to-post since 07-13) have not been posted.
+Takeaway: `src` breakdown is now the loop's **cheapest true test of whether distribution has started at all** — one query, unambiguous, no sample-size caveat. Run it every tick before scoring any distribution item; while it returns only `undefined`, every distribution hypothesis is untestable by construction and should be scored as blocked-on-human, not as a live experiment.
+
+## 2026-07-27 · PRODUCT QUALITY · A trust rail enforced in the app was never applied to the surface that speaks for it
+Not an experiment window; a product finding, recorded here because the *class* generalises and the loop should have caught it months earlier.
+**What was found.** `https://www.defi.garden/llms.txt` — live, fetched by curl — publishes `- BSC · zeebu · ZBU — 353114.2% APY, $576,877 TVL` under "Live highest APY opportunities". `generate-llms.js` contains **zero occurrences of `SANITY`** and uses a `$10k` TVL floor against the product's `$10M`, then sorts APY-descending. The surface is, by construction, a ranked list of the dataset's worst anomalies. → item 159.
+**Why the loop missed it for so long.** Every rail check the loop has ever run — including this tick's first attempt — targeted the *app* and the *snapshot*. `llms.txt` is a text file: not a page, not in the audit scanner's surface list, not covered by any test. It was never *decided* to be out of scope; it simply never entered anyone's field of view. → item 160.
+**How it actually surfaced** (worth copying): a schema mismatch, not a hunch. The data-layer scan was written as `pools.filter(p => p.apy > 1000)` and returned 0. That looked like a clean rail — but `data/pools-snapshot.json` **has no `apy` field** (keys: `apyBase`, `apyReward`, `apyMean30d`), so the check was passing vacuously on every pool. Re-deriving total APY as `apyBase + apyReward` gave the real answer (max 39.91%, rail genuinely holding), and asking *"who else reads `pool.apy`, then?"* led straight to `generate-llms.js:236/462/576` and the live breach.
+**Takeaways.**
+1. **A rail is a property of a surface, not of a codebase.** `APY_SANITY_LIMIT` being defined in `app.js` and `planner.js` says nothing about `generate-*.js`. When a rail matters, enumerate every emitter of the railed value and check each one; "the rail exists" is not evidence any given surface applies it.
+2. **A filter that returns zero is not evidence of health until you have proven it can return non-zero.** Run every rail check against a known-bad value first. This tick's vacuous check would have reported "0 pools over the limit" forever.
+3. **Dual-source schema divergence is real here:** the live `/pools` payload carries `apy`; the committed snapshot does not. Code that reads `pool.apy` works on one source and silently yields `undefined` on the other. Any fixture must match the shape of the source the code under test actually reads.
+
+## 2026-07-28 · 082 · Planner `translations is not defined` hardening
+Hypothesis: a `safeTranslations()` guard + lazy per-call re-check in `makeT`/`rootT` stops the funnel-top
+`ReferenceError` recurring (first and only occurrence 2026-07-13, bare `/`, `planner.min.js` inside a
+`useMemo`). → Result: **MOVED, weak-n.** `error_occurred` is **absent from the result set** every day
+07-14 → 07-28 — 15 consecutive clean days (`query_id 064d8388`); last non-zero was 07-13, the event that
+motivated the item.
+Decision: kept, DONE. **The honest caveat matters more than the verdict:** the window carried ~82 sessions
+and exactly ONE `plan_created` (07-19), so the planner was barely exercised. "No recurrence observed" is
+what the data supports; "proven robust" is not.
+Takeaway, and it generalises to every guardrail item at this traffic level: **a zero on an
+absence-of-failure metric is only as strong as the number of chances the code had to fail.** Record the
+exercise count alongside the zero (sessions, and the specific event that proves the path ran) or the verdict
+reads far stronger than it is. This is the mirror image of the waitlist cohort's problem — there the
+instrument was unvisited, here the *failure path* was unvisited.
+
+## 2026-07-28 · 088.1 · Rate-track-record / steadiness note on pool detail
+Hypothesis: surfacing 087's `historyPoints` + `apyStdev` as a calm track-record note gives the cautious
+saver a reason to trust the pool and act on it. → Result: **INCONCLUSIVE at n≈0.** Over 30 days the surface
+took `pool_view` **6** (`card_click` 5, `url_direct` 1) and `pool_click` **1** (pre-123,
+`source=undefined`); north-star CTA clicks **0**, all-time (`be2a9cdb`).
+Decision: kept, 088.1 DONE (parent 088 stays open for further surfacings). The note renders correctly and
+degrades honestly across all three tiers (`test_kpi_track_record.js` 7/7 rendered).
+Takeaway: pool-detail is now the north-star surface and it received **six views in a month**. Every
+pool-detail persuasion item is in the same position the waitlist cohort was in — correct, unexercised, and
+unmeasurable. Per the 2026-07-27 process takeaway, this and future pool-detail items should be
+**traffic-gated (`pool_view{url_direct}` ≥ 30), not date-gated**; items 166/168 are the first two written
+that way.
+
+## 2026-07-28 · PRODUCT QUALITY · The numbers on a surface can be honest while its links lie
+Not an experiment window; a product finding. **Yesterday's P0 (159) is fixed and verified on live prod** —
+`llms.txt` now serves 0 APY figures above the 1000% rail (was 8, top 353,114.2%) and claims the true
+`TVL ≥ $10M` floor. Auditing the *same file* one layer down found a second, independent defect underneath
+it, live on prod, of a completely different class.
+
+**What was found (item 166).** 32 links across `llms.txt`/`llms-full.txt` do not go where they claim:
+15 pool rows resolve to the **bare homepage** (`generate-llms.js:606` is `pool.url || meta.baseUrl` and no
+DefiLlama payload has a `url` field — so the fallback fires on 100% of rows, always); 17 `?search=` links
+land on a query-less landing (`search` is in neither `ANALYTICS_PARAMS` nor `PLANNER_PARAMS`, and
+`landing.js` reads only `lang`) even though the routed `?protocols=` param already exists; and 8 top-yield
+rows are not pool-specific, which is why two distinct Base uniswap-v3 WETH-USDC pools (95.5%/$110.8M and
+31.7%/$10.2M) render as two rows on one URL. `grep -c "?pool=" llms*.txt` → **0, 0**: the surface has never
+linked to pool-detail, which the 2026-07-23 decision made the north-star surface.
+
+**And item 168:** `grep -icE "planner|savings|goal|subscription|forever number" llms.txt` → **0**. The file
+describes the product as a yield screener; the planner — the default face — is absent.
+
+**Takeaways.**
+1. **A rail is per-CLASS as well as per-surface.** The 07-27 lesson was "a rail is a property of a surface,
+   not of a codebase." Today's refinement: fixing a surface's *numbers* says nothing about its *links*, its
+   *positioning*, or any other claim it makes. When you find one defect class on a surface, audit the other
+   classes on that same surface before you leave it — the file is already open and the second bug is cheaper
+   to find now than ever again.
+2. **The checker's signal set is always drawn from the last bug (third instance: 148 → 159 → 166).** 160
+   shipped a text-surface prescan specced from 159, so its four signals are all number-or-emptiness checks;
+   it scored `suspectCount: 0` on the two files carrying 32 broken links. Ask, every time a check is added:
+   *what class of defect could sit on this surface and still pass?* → item 169. Note that item 167, shipped
+   the same day by a build run, is the same root cause one axis over — its blind spot was the *target*
+   population (one hardcoded pool of 740), this one's is the *claim* class. Same question, different noun.
+3. **A fallback that can never not fire is a bug, not a fallback.** `pool.url || meta.baseUrl` reads as
+   defensive code and is in fact an unconditional branch: the left side does not exist in any payload shape.
+   Grep-check for the field before trusting a `||` fallback — `grep -c '"url"' data/pools-snapshot.json`
+   would have answered it in one command. Sibling of `dual-source-logic-divergence.md`.
+4. **The most valuable place to look on a quiet tick is the surface you audited yesterday.** Three of the
+   last four P0/P1s (148, 159, 166) were found on generated surfaces, by hand, on days the scanner reported
+   nothing new — and 166 was found by re-opening the very file 159 had just fixed.
+
+## 2026-07-28 · LOOP PROCESS · A heartbeat can be lapped by a build run mid-tick
+Not an experiment. This tick opened on `fac2e30f2`, scored its findings, and wrote three specs numbered
+166/167/168. By commit time `origin/main` had moved one commit ahead: a build run had shipped **its own new
+item 167** (`audit-app.js` renders one hardcoded pool out of 740, PR #323), created from a finding it made
+itself — so the heartbeat's 167 and 168 collided with a live, merged id.
+Resolution: renumbered to 166 / 168 / 169 and re-applied every append on top of `origin/main` rather than
+committing the stale copies of `BACKLOG.md` / `LOG.md` / `playbooks/product-audit.md` (which would have
+silently reverted 167's rows).
+**Takeaway (binds every future tick that writes ids):** the highest id in the working copy is not the
+highest id in the repo. Before assigning ids, `git fetch origin main` and read ids from `origin/main`, not
+from the checkout — and before committing, `git checkout origin/main -- <the shared append-only files>` and
+re-apply, because `BACKLOG.md`, `LOG.md`, `LEARNINGS.md` and the playbooks are append-only files that two
+loops write. This is the 2026-07-26 "two build runs built 148" failure in a new costume: the shared
+bookkeeping files are the contended resource, and a heartbeat that never re-reads them will clobber whatever
+shipped while it was thinking.
+
+## 2026-07-29 · EXPERIMENTS · Four windows closed — three at n≈0, one real
+Measured from `signals/2026-07-29.md` (prod-filtered Mixpanel, project 4042048).
+- **094** (pool-row protocol/chain logos, shipped 07-15) → **INCONCLUSIVE at n≈0.** Prod `pool_view` 30d = 6,
+  `pool_click` = 1. Kept.
+- **114** ("Welcome back" saved-garden re-entry card, shipped 07-15) → **INCONCLUSIVE at n≈0.** Prod
+  `plan_created` 30d = 3, all pre-window; no planner session since 07-19. Kept.
+- **115** (honest `.ics` "tend your garden" reminder at bloom, shipped 07-15) → **INCONCLUSIVE at n≈0.**
+  Prod `tend_reminder_added` 30d = **0** against 3 `plan_created`. Built, instrumented, three chances to
+  fire in thirty days. Kept.
+- **149** (`audit-app.js` self-heal + fail-loud in a fresh clone) → **MOVED. DONE.**
+
+**The takeaway that matters is the asymmetry, not the four verdicts.** Three of these were product
+experiments and all three closed unreadable; the one that closed with a real verdict (149) was an
+*internal-tooling* item whose evidence is produced by the loop's own run rather than by users. At ~6
+sessions/day, that will be true of every product experiment for the foreseeable future. Consequence for
+spec-writing, applied not proposed: 173/174 were written with **traffic-gated** windows (hold until ≥30
+`page_view` on the SEO surface) and a decision rule of *keep unconditionally, the metric read is
+informational* — because a page that promises 33 pools and delivers 0 is broken at any traffic level, and
+pretending a calendar window will adjudicate it is theatre.
+
+## 2026-07-29 · PRODUCT · A link check has three levels, and we keep building level 1
+`prescanStaticPages()` scanned 2,200 pages and returned 7 suspects, all `junk-slug`. **172's
+`link-target-integrity` signal — shipped that same morning — scored 0 on the 2,200 pages carrying 1,749
+dead CTAs** (item 173, found by hand hours later). Not a defect in 172: it was specced from 166, where a
+broken link meant *an unrouted query param*, so it checks param membership. `?chain=Cardano` is perfectly
+routed. It just returns nothing.
+
+**148 → 159 → 166 → 173: four consecutive P0/P1s where the checker's signal set was drawn from the shape of
+the previous bug.** The loop has now recorded "the next bug is in the class nobody has been bitten by yet"
+three times without escaping it. The escape attempt is to stop enumerating instances and name the axis:
+
+1. **Routed** — is the param one the router recognises? (`?search=` was not → 166. 172 automates this.)
+2. **Resolvable** — does the value name a real entity: a pool id, a project slug, a preset key?
+   (Checked by hand this tick across `llms*.txt`: 40 links, 0 misses. Nothing automates it.)
+3. **Non-empty** — does the target, **under its own default filters**, return what the linking page claims?
+   (Nothing checks it. All 1,749 of 173 live here.)
+
+Level 3 is the only level that can catch a defect where **both surfaces are individually correct and the
+contract between them is broken**. That is exactly 173: the page is right about its own $100K set, the app
+is right about its $10M default, and the link between them is a lie. A checker that only ever validates one
+surface against itself is structurally incapable of seeing this class — which is why four rounds of adding
+signals has not helped. → item **175**, whose decision rule tests the *strategy*: if the next link-class bug
+is again found by hand first, stop extending signals and redesign the checker.
+
+**Generalised trap (sibling of `dual-source-logic-divergence.md`): whenever two artifacts in this repo are
+built from the same data by different code paths, the bug is in the CONTRACT, not in either path.** The
+$100K/$10M mismatch had been live since the SEO surface existed, survived items 133, 148, 154, 157, 159,
+166, 167, 172 — every one of which touched either the generators or the checker — because each of them
+audited one side.
+
+## 2026-07-29 · SIGNAL HYGIENE · The prod filter is what makes the guardrail claim true
+Ran the daily-trend query twice: once with `$current_url contains www.defi.garden`, once without.
+Unfiltered, 07-15 shows `session_start` 40 and **`error_occurred` 3**. Filtered, 07-15 shows 5 and **0**.
+The three errors are localhost/preview traffic — our own dev sessions.
+A heartbeat that drops the prod filter reports a phantom error spike and breaks its own guardrail streak;
+one that never runs the unfiltered control cannot tell a real prod-zero from a filter typo that silently
+matches nothing. **Run both, record both, claim only the filtered one.** Now part of `product-audit.md`.
+
+## 2026-07-29 · LOOP PROCESS · A stale branch is not a diff, and its verifier verdict does not transfer
+Item 148 sat as PR #306 for 4 days awaiting one human answer. When the answer came ("merge"), the merge
+returned `405 Pull Request has merge conflicts` — and the conflict was the *lucky* outcome, because
+merging it would have silently reverted two items that shipped the same day:
+- **173** — `main`'s `generate-token-pages.js` now emits `?token=…&minTvl=${MIN_POOL_TVL}`. The 07-26
+  branch carries the pre-173 line. The merge would have re-broken 1,701 token-page CTAs hours after they
+  were fixed and verified live on prod.
+- **170** — the branch's `package.json` is the pre-lane flat test chain. The merge would have deleted the
+  `plain`/`browser` lane runner and ~14 tests (`test_seo_cta_targets.js`, every `test_audit_*.js`) from
+  the merge gate — including the test that guards 173.
+
+Both are files the 148 diff touches only *incidentally*: it needed `isValidToken` in one and a test
+registration in the other. A branch diff carries the WHOLE file, not the hunk you care about.
+
+**Takeaway (binds every future ship off a branch older than ~1 day):** a PR's diff is computed against its
+BASE, not against `main`. When the base has moved, "merge the PR" and "apply the change" are different
+operations, and the verifier PASS earned against the old base **does not transfer** — it verified a repo
+that no longer exists. Do not merge; **transplant**. Check out the current `main`, apply only the hunks the
+spec called for, re-prove non-vacuity on the new checkout, regenerate any derived surface from scratch, and
+re-verify. Then close the original PR as *superseded*, not merged.
+**Detection, cheap and mandatory before any stale-branch merge:**
+`git diff origin/main origin/<branch> -- <each hand-written file>` — every `-` line that is *newer* than
+the branch is something the merge would revert. Here that surfaced two in seconds.
+This is the third costume of one failure: 07-26 "two build runs built 148", 07-28 "a heartbeat can be
+lapped mid-tick", and now "a branch can be lapped between authoring and merge". The contended resource is
+always the same — `main` moves while work is in flight — and the fix is always the same: re-read `main`
+immediately before writing, and re-derive rather than replay.
+
+## 2026-07-30 · 116 · Re-share the garden from report mode — window closed
+
+**Result: INCONCLUSIVE at n≈0. Kept, not reverted.**
+
+Metric was the item's own new origination point, `share_link_created{method:'copy', surface:'report'}`.
+Prod 30d (query `2ef038a7`, `$current_url contains www.defi.garden`): `share_link_created` = **0** —
+absent from the result set entirely. Context from the same query: `plan_created` **3**,
+`share_link_opened` **1**, `plan_saved` **5**.
+
+The affordance is built, instrumented, and render-verified. It cannot fire without a returning visitor who
+has a saved plan reaching report mode, and 30 days produced **three plans in total**. This is an
+absence-of-traffic result, not an absence-of-effect result, and the distinction matters: reverting would
+delete working code on the strength of a sample that could never have shown anything.
+
+**Re-measure 14 days from the first 069 spotlight post.** That is now the gating event for 005, 007, 008
+and 116 alike — four share-loop items whose windows have all closed at n≈0 for the same reason.
+
+## 2026-07-30 · PRODUCT · A fix scoped to the instance that bit us leaves the class open
+
+Item 175 named a pattern in the loop's **detectors**: their signals are drawn from the last bug found, so
+the next bug lands in the class nobody has been bitten by yet (148 → 159 → 166 → 173, four in a row).
+
+This tick found the same pattern wearing a different costume — in a **repair**.
+
+Item 138 fixed a missing north-star CTA by adding **one** static `PROTOCOL_URLS` entry for `sky-lending`,
+and shipped a 2-fixture test guarding **that one protocol**. Correct, verified, and it closed nothing. The
+CTA's real dependency — a runtime fetch to a *second* third-party endpoint that the app documents as
+allowed to fail silently, backed by a 96-entry hand-maintained map — was left exactly as it was. Measured
+today: that map covers **70.9%** of pools; **216 pools / $8.9B TVL / 134 projects** lose half the north
+star whenever the fetch doesn't land, and the result is cached permanently so **the first visit decides**.
+
+**Takeaway, and it generalises past this bug:** when a fix is "add the missing entry", ask what the entry
+is an instance *of*, and whether the mechanism that produced the gap is still producing it. A hand-added
+row in a hand-maintained map is a repair with a built-in expiry date. The test to apply before calling such
+an item done: *if this exact defect appeared in a different member of the same population tomorrow, would
+anything catch it?* For 138 the answer was no, for fourteen months and 134 projects.
+
+**Corollary for the detector side:** item 183 exists because the audit's `dead-cta` finding could not say
+*why* the element was missing, and an unclassified P1 that recurs every run gets skimmed. Item 171 already
+solved this for the pool prescan. The reconciliation discipline is the thing to generalise, not the
+particular check it was first built for.
+
+## 2026-07-30 · PRODUCT AUDIT · A finding caused by the harness can still be the real finding
+
+`playbooks/product-audit.md` warns that fixtures fabricate findings, and the rule has killed false alarms
+before (three in one tick on 2026-07-25). Applied literally today it would have killed a real one.
+
+The audit reported `dead-cta` on a uniswap-v4 pool. The pool resolves fine against live
+`api.llama.fi/protocols` (verified in-session: 7,962 protocols, 5,181 url keys), so by the letter of the
+rule this was a sandbox artifact — the harness blocks that host — and dismissible.
+
+But **what the harness blocked is a thing that also fails in production**: ad-blockers, upstream outages,
+CSP, a slow first paint, a user who bounces before a 100ms-deferred background fetch resolves. The sandbox
+wasn't fabricating a condition; it was *sampling* one.
+
+**Takeaway:** "the fixture caused it" is the start of the analysis, not the end. The right next question is
+**what fraction of real users hit the same condition** — and if the honest answer is "nobody knows, and the
+code is written to fail silently when they do", the finding is real and the not-knowing is part of it.
+Dismissing it as environment would have hidden a 29.1% gap on the north-star surface. The playbook's
+fixture-trap section has been updated with this case.
+
+
+## 2026-08-03 — item 212: a guard aimed at the wrong mechanism is worse than no guard
+
+**Capability bet, recorded as such.** 212's markdown twins have **no metric and never will under current
+instrumentation**: there is no server-log access in this stack, and no client-side event can fire for an
+agent that never runs JS. Agent reads of `/tokens/<slug>.md` are structurally unmeasurable. This is filed
+as a capability bet, not an experiment — **no traffic effect will be claimed for it in any window**, and
+any future claim needs edge/server request logging by `Accept` header first (a different item). Logging
+this here so a later reader does not mistake the absence of a result for a missing measurement.
+
+**The transferable lesson is about the guard, not the feature.** `vercel.json` cannot express "no query
+string at all", so the markdown rule had to re-enumerate the router's content-selecting params in a second
+file. Attempt 1 built that list by scanning the app for literal `.get('key')` calls, and shipped a
+drift-guard test built on the same scan. It passed. It was also blind to `app` — which `home.html:79` reads
+as `ANALYTICS_PARAMS.some(k => params.has(k))` — so `/?app=1`, the live target of the planner header's
+analytics icon, kept returning the homepage index to any agent that asked for markdown. The verifier caught
+it by not trusting the guard's framing.
+
+The failure was not an incomplete list. It was a guard **watching a mechanism that resembled the real one**,
+which is strictly worse than having no guard: it launders the gap as coverage, and the notes and PR
+explainer both went on to claim protection against exactly the class the guard could not see. Attempt 2
+rebuilt it as tested **set equality against the defining arrays themselves**, both directions.
+
+**Rule to carry forward:** when a list of names must exist in two places and only one is read at runtime,
+the other is a *mirror*. Mirrors get an equality test against the original in the same commit that creates
+them — and before writing that test, check which mechanism the original actually uses. If the original is
+not machine-readable, that is the finding: make it parseable rather than hand-maintaining the copy.
+`playbooks/mode-enumeration-staleness.md` carries the checklist.

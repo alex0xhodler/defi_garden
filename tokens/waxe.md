@@ -1,0 +1,38 @@
+# WAXE DeFi Yields
+
+The highest honest WAXE yield right now is 0.65% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v2 →](https://www.defi.garden/?pool=8f75aa1e-81db-4b91-b7ea-df17d36a1efb&src=seo_token) | Ethereum | 0.65% | $116.3K |
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## Frequently asked questions
+
+### What's the highest WAXE yield today?
+
+0.65% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+
+### How many WAXE pools clear the TVL floor?
+
+1 live pool clear this page's $100K TVL floor, $116.3K in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+## Related tokens
+
+- [STETH](https://www.defi.garden/tokens/steth)
+- [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
+
+## Available on
+
+- [Ethereum](https://www.defi.garden/chains/ethereum)
+
+## Last updated August 7, 2026
