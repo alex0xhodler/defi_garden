@@ -112,6 +112,8 @@
       e('path', { d: 'M170 100c26-25 52-25 70-11-15 27-40 31-70 11Z', className: 'landing-plant-leaf landing-plant-leaf-right' }),
       e('path', { d: 'M170 151c-23-18-42-17-56-8 13 22 32 24 56 8Z', className: 'landing-plant-leaf landing-plant-leaf-left landing-plant-leaf-small' }),
       e('path', { d: 'M170 145c22-20 42-20 56-10-12 22-32 25-56 10Z', className: 'landing-plant-leaf landing-plant-leaf-right landing-plant-leaf-small' }),
+      e('path', { d: 'M166 122c-19-13-38-16-56-11', className: 'landing-plant-vein' }),
+      e('path', { d: 'M174 97c18-15 37-19 55-15', className: 'landing-plant-vein' }),
       e('path', { d: 'M128 205h84l-10 35h-64l-10-35Z', className: 'landing-plant-pot' }),
       e('path', { d: 'M122 204h96', className: 'landing-plant-pot-rim' }),
       e('path', { d: 'M110 240h120', className: 'landing-plant-ground' })

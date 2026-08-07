@@ -134,9 +134,10 @@
 
 .landing-backdrop-orbit {
   position: absolute;
-  border: 1px solid rgba(59, 130, 246, .13);
+  border: 1px solid var(--ui-accent-border);
   border-radius: 50%;
   transform: rotate(-18deg);
+  opacity: .45;
 }
 
 .landing-backdrop-orbit-one {
@@ -152,7 +153,7 @@
   height: 260px;
   top: 140px;
   right: -105px;
-  border-color: rgba(59, 130, 246, .08);
+  border-color: var(--ui-accent-margin);
   animation: landing-drift-two 22s ease-in-out infinite;
 }
 
@@ -275,7 +276,7 @@
 .landing-theme-button { font-size: 18px; font-weight: var(--font-weight-normal); line-height: 1; }
 
 .landing-icon-button:hover,
-.landing-menu-button:hover { color: var(--color-primary); border-color: var(--ui-border-strong); transform: translateY(-1px); }
+.landing-menu-button:hover { color: var(--color-primary); border-color: var(--ui-border-strong); }
 .landing-icon-button:active,
 .landing-menu-button:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 
@@ -309,13 +310,16 @@
   border: 1px solid var(--ui-border);
 }
 
-.landing-main { flex: 1; }
+/* The hero absorbs the viewport's spare height (flex: 1 + centered grid)
+   so tall screens split the slack above and below the composition instead
+   of pooling it in one dead band before the trust seam. */
+.landing-main { flex: 1; display: flex; flex-direction: column; }
 
 .landing-hero {
   width: min(1200px, calc(100% - 48px));
-  min-height: 642px;
+  flex: 1;
   margin: 0 auto;
-  padding: 78px 0 88px;
+  padding: 64px 0 72px;
   display: grid;
   grid-template-columns: minmax(0, 1.06fr) minmax(320px, .74fr);
   align-items: center;
@@ -324,14 +328,18 @@
 
 .landing-hero-copy { min-width: 0; }
 
+/* 247 world: the landing speaks in the same certificate voice as pool
+   detail — Besley at 600 with near-neutral tracking (the serif carries its
+   own density; the old -.065em sans tracking mangles it). */
 .landing-title {
   max-width: 690px;
   margin: 0;
   color: var(--color-text);
-  font-size: clamp(48px, 6vw, 76px);
-  font-weight: var(--font-weight-bold);
-  line-height: .98;
-  letter-spacing: -.065em;
+  font-family: var(--font-family-display);
+  font-size: clamp(44px, 5.4vw, 68px);
+  font-weight: 600;
+  line-height: 1.06;
+  letter-spacing: -.015em;
 }
 
 .landing-title-accent { color: var(--color-primary); }
@@ -397,7 +405,7 @@
 }
 
 .landing-search-submit:hover,
-.landing-garden-link:hover { background: var(--color-primary-hover); color: var(--color-btn-primary-text); transform: translateY(-1px); }
+.landing-garden-link:hover { background: var(--color-primary-hover); color: var(--color-btn-primary-text); }
 .landing-search-submit:active,
 .landing-garden-link:active { background: var(--color-primary-active); transform: translateY(1px); }
 
@@ -411,13 +419,16 @@
   margin-top: 17px;
 }
 
+/* Plate-label voice — same recipe as pool-detail's .pool-action-apy-label
+   (serif 11px/600, .22em tracked caps). */
 .landing-examples-label {
   width: 100%;
   margin-bottom: 1px;
   color: var(--color-text-secondary);
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-semibold);
-  letter-spacing: .06em;
+  font-family: var(--font-family-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .22em;
   text-transform: uppercase;
 }
 
@@ -434,7 +445,7 @@
     transform var(--duration-fast) var(--ease-standard);
 }
 
-.landing-example-chip:hover { border-color: var(--color-primary); color: var(--color-primary); transform: translateY(-1px); }
+.landing-example-chip:hover { border-color: var(--color-primary); color: var(--color-primary); }
 .landing-example-chip:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 
 .landing-garden-card {
@@ -473,18 +484,22 @@
 
 .landing-card-caption {
   color: var(--color-text-secondary);
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-semibold);
-  letter-spacing: .04em;
+  font-family: var(--font-family-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
   text-align: right;
 }
 
 .landing-garden-card h2 {
   max-width: 270px;
   margin: 25px 0 10px;
-  font-size: clamp(28px, 3vw, 38px);
-  line-height: 1.04;
-  letter-spacing: -.05em;
+  font-family: var(--font-family-display);
+  font-size: clamp(26px, 2.7vw, 34px);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -.01em;
 }
 
 .landing-garden-card p {
@@ -517,14 +532,18 @@
   animation: landing-plant-breathe 7s ease-in-out infinite;
 }
 
-.landing-plant-halo { fill: var(--color-bg-1); }
-.landing-plant-stem { stroke: currentColor; stroke-width: 5; stroke-linecap: round; }
-.landing-plant-leaf { fill: var(--color-primary); opacity: .92; }
-.landing-plant-leaf-right { fill: var(--color-secondary-blue); }
-.landing-plant-leaf-small { opacity: .72; }
-.landing-plant-pot { fill: var(--color-secondary); stroke: var(--color-border); stroke-width: 2; }
-.landing-plant-pot-rim { stroke: var(--color-primary); stroke-width: 5; stroke-linecap: round; opacity: .75; }
-.landing-plant-ground { stroke: var(--color-border); stroke-width: 2; stroke-linecap: round; }
+/* Engraved botanical plate, not clip-art: the halo is an accent-inked disc
+   ringed like the guilloché rosettes, the leaves are stroked line-art with
+   a soft accent wash, and every legacy blue token (--color-bg-1's navy
+   disc, --color-secondary-blue's leaf) is gone from the world. */
+.landing-plant-halo { fill: var(--ui-accent-watermark); stroke: var(--ui-accent-border); stroke-width: 1; stroke-dasharray: 1 4; stroke-linecap: round; }
+.landing-plant-stem { stroke: currentColor; stroke-width: 3.5; stroke-linecap: round; }
+.landing-plant-leaf { fill: var(--ui-accent-soft); stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; opacity: 1; }
+.landing-plant-leaf-small { fill: var(--ui-accent-margin); }
+.landing-plant-vein { stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; fill: none; opacity: .55; }
+.landing-plant-pot { fill: var(--ui-surface); stroke: currentColor; stroke-width: 1.7; stroke-linejoin: round; }
+.landing-plant-pot-rim { stroke: currentColor; stroke-width: 3; stroke-linecap: round; opacity: .8; }
+.landing-plant-ground { stroke: var(--ui-border-strong); stroke-width: 1.5; stroke-linecap: round; }
 
 .landing-trust-section {
   position: relative;
@@ -591,8 +610,10 @@
 
 .landing-trust-copy h2 {
   margin: 0;
-  font-size: clamp(20px, 2.3vw, 28px);
-  letter-spacing: -.04em;
+  font-family: var(--font-family-display);
+  font-size: clamp(20px, 2.2vw, 26px);
+  font-weight: 600;
+  letter-spacing: -.005em;
 }
 
 .landing-trust-copy p {
@@ -717,7 +738,7 @@
     gap: 42px;
   }
 
-  .landing-title { max-width: 540px; font-size: clamp(46px, 13vw, 62px); }
+  .landing-title { max-width: 540px; font-size: clamp(38px, 11vw, 58px); }
   .landing-hero-body { margin-top: 22px; font-size: 17px; }
   .landing-search-form { margin-top: 28px; }
   .landing-garden-card { min-height: 400px; }
@@ -739,7 +760,7 @@
   /* icon-button/search-shell/search-submit size is owned by the shared
      component rules (style.css end) — no responsive shape variant */
   .landing-hero { padding-top: 46px; }
-  .landing-title { font-size: 46px; }
+  .landing-title { font-size: 38px; }
   .landing-search-shell { gap: 9px; }
   .landing-search-submit-label { display: none; }
   .landing-search-input { font-size: 15px; }
