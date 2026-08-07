@@ -35,6 +35,13 @@
   max-height: var(--ui-header-h);
   padding: 0;
   margin-bottom: 8px;
+  /* 236 phase 1 verifier (non-blocking item): grid's .app-header-sticky
+     paints `--color-surface` and landing's .landing-header paints
+     `--ui-surface` (the same token — --color-surface aliases --ui-surface,
+     style.css:874/4343); this band was transparent, the one band of the
+     three with no surface fill. No sticky/fixed positioning or other rule
+     here relied on the transparency. */
+  background: var(--color-surface);
   border-bottom: 1px solid var(--ui-border);
   box-sizing: border-box;
 }
