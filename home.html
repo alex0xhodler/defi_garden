@@ -135,9 +135,11 @@
         })();
     </script>
 
-    <!-- Shared CSS (always loaded) — minified in CI, backlog 053; edit style.css, never style.min.css -->
-    <link rel="stylesheet" href="style.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="style.min.css"></noscript>
+    <!-- Shared CSS (always loaded) — minified in CI, backlog 053; edit
+         style.css, never style.min.css. Render-BLOCKING since the 247 world:
+         the media="print" swap let every mode's first paint go out unstyled
+         for a beat (worst on the planner's goal picker). -->
+    <link rel="stylesheet" href="style.min.css">
 
     <!-- Critical dedup (131, mirrors the style.css rule 086/179 added at .seo-hub-links):
          the static .seo-hub-links crawler footer is duplicated inside the React
@@ -169,8 +171,10 @@
                 else { l.media = 'print'; l.onload = function() { this.media = 'all'; }; }
                 head.appendChild(l);
             }
-            if (mode === 'analytics') { addCSS('pool-detail-styles.min.css'); }
-            else if (mode === 'planner') { addCSS('planner-styles.min.css'); }
+            // All three mode sheets load BLOCKING (247 world): the async
+            // print-swap path painted each surface unstyled for a beat.
+            if (mode === 'analytics') { addCSS('pool-detail-styles.min.css', true); }
+            else if (mode === 'planner') { addCSS('planner-styles.min.css', true); }
             else { addCSS('landing-styles.css', true); }
             // 247 world: Besley/Public Sans now load on every surface via the
             // shared --font-family-base/-display tokens (style.css) — the

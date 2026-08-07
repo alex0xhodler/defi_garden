@@ -3865,9 +3865,23 @@
   // ===========================================================================
   // Header
   // ===========================================================================
+  // Brand leaf mark — same SVG as the landing's LeafMark (landing.js), so
+  // every surface wears one identity tile.
+  function BrandLeafMark() {
+    return e('svg', {
+      className: 'gp-leaf-mark', viewBox: '0 0 32 32', width: 22, height: 22,
+      preserveAspectRatio: 'xMidYMid meet', fill: 'none', 'aria-hidden': 'true'
+    },
+      e('path', { d: 'M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z', fill: 'currentColor' }),
+      e('path', { d: 'M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4', stroke: 'currentColor', strokeWidth: '1.6', strokeLinecap: 'round' })
+    );
+  }
+
   function PlannerHeader(props) {
     return e('header', { className: 'gp-header' },
-      e('a', { className: 'gp-logo', href: 'home.html' }, '🌱 DeFi Garden'),
+      e('a', { className: 'gp-logo', href: 'home.html' },
+        e('span', { className: 'gp-brand-mark', 'aria-hidden': 'true' }, e(BrandLeafMark)),
+        'DeFi Garden'),
       e('div', { className: 'gp-header-actions' },
         // My Garden affordance — shows when plan exists and not already in report view
         props.hasSavedPlan && props.mode !== 'report' ? e('button', {
@@ -3886,7 +3900,7 @@
           type: 'button', className: 'gp-theme-toggle' + (props.dark ? ' is-dark' : ''),
           onClick: props.onToggleTheme, 'aria-label': 'Toggle theme'
         },
-          e('span', { className: 'gp-theme-icon' }, props.dark ? '🌙' : '☀️')
+          e('span', { className: 'gp-theme-icon' }, props.dark ? '☼' : '☾')
         )
       )
     );

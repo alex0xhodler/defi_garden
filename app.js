@@ -3054,11 +3054,22 @@ function App() {
   // space-between.
   const renderHeaderRow = (includeSearch) => (
     React.createElement('div', { className: 'app-header-content' },
-      // Logo (compact, clickable)
+      // Logo (compact, clickable) — landing's identity tile: leaf mark in a
+      // rounded-square + wordmark (same SVG as landing.js's LeafMark).
       React.createElement('div', {
         className: 'app-logo',
         onClick: resetApp
-      }, '🌱 DeFi Garden'),
+      },
+        React.createElement('span', { className: 'app-brand-mark', 'aria-hidden': 'true' },
+          React.createElement('svg', {
+            className: 'app-leaf-mark', viewBox: '0 0 32 32', width: 22, height: 22,
+            preserveAspectRatio: 'xMidYMid meet', fill: 'none', 'aria-hidden': 'true'
+          },
+            React.createElement('path', { d: 'M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z', fill: 'currentColor' }),
+            React.createElement('path', { d: 'M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4', stroke: 'currentColor', strokeWidth: '1.6', strokeLinecap: 'round' })
+          )
+        ),
+        'DeFi Garden'),
 
       // Persistent search bar (grid + pool view, both via includeSearch=true)
       includeSearch && React.createElement('div', { className: 'app-search-container' },
@@ -3118,7 +3129,7 @@ function App() {
           className: 'app-control-btn theme-toggle',
           onClick: toggleTheme,
           'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-        }, isDarkMode ? '🌙' : '☀️')
+        }, isDarkMode ? '☼' : '☾')
       )
     )
   );
@@ -3274,7 +3285,7 @@ function App() {
       'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
     },
       React.createElement('div', { className: 'theme-toggle-icon' },
-        isDarkMode ? '🌙' : '☀️'
+        isDarkMode ? '☼' : '☾'
       )
     ),
 
