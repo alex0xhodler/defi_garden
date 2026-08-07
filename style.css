@@ -166,9 +166,16 @@
   --container-xl: 1280px;
 }
 
-/* Dark mode colors */
+/* Dark mode colors.
+   Selector is :root:not([data-theme="light"]) — NOT bare :root — so these
+   OS-preference dark values outrank the later unconditional light :root
+   block (the 247-world tokens at ~line 838) by specificity, order-proof.
+   Static pages (tokens/, chains/, hubs) have no theme JS and relied on this
+   media query; with bare :root the later light block silently won and the
+   whole estate rendered light-only for OS-dark visitors (found during the
+   247 estate pass). An explicit data-theme="light" choice still wins. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     /* RGB versions for opacity control (Dark Mode) */
     --color-gray-400-rgb: 119, 124, 124;
     --color-green-300-rgb: 74, 222, 128;
