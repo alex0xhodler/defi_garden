@@ -67,4 +67,4 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 33.35%예요.
 - [Celo](https://www.defi.garden/ko/chains/celo)
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

@@ -69,4 +69,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Katana](https://www.defi.garden/chains/katana)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 109
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

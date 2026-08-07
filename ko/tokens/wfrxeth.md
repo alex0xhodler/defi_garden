@@ -53,4 +53,4 @@ DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 4.38%예요
 
 - [Fraxtal](https://www.defi.garden/ko/chains/fraxtal)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

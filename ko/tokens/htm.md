@@ -53,4 +53,4 @@ DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 3.92%예
 
 - [MultiversX](https://www.defi.garden/ko/chains/multiversx)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

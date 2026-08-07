@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Bifrost Network](https://www.defi.garden/chains/bifrost-network)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

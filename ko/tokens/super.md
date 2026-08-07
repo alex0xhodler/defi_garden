@@ -56,4 +56,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-amm에서 APY 9.76%
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

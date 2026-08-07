@@ -53,4 +53,4 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 yearn-finance에서 APY 8.55
 
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

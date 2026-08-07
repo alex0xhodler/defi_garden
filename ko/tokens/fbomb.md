@@ -67,4 +67,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 104.95%예�
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Sonic](https://www.defi.garden/ko/chains/sonic)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

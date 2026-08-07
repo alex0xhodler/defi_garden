@@ -57,4 +57,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 31.93%예요.
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

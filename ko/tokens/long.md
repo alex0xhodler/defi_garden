@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, ZKsync Era의 zkswap-v2에서 APY 0.01%예
 
 - [ZKsync Era](https://www.defi.garden/ko/chains/zksync-era)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

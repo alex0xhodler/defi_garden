@@ -52,4 +52,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

@@ -53,4 +53,4 @@ DefiLlama 실시간 데이터 기준, ICP의 waterneuron에서 APY 8.05%예요.
 
 - [ICP](https://www.defi.garden/ko/chains/icp)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

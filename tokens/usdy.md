@@ -70,4 +70,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Sui](https://www.defi.garden/chains/sui)
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

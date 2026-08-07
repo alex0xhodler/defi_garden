@@ -62,4 +62,4 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 morpho-blue에서 APY 5.02%�
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 63.80%예요.
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

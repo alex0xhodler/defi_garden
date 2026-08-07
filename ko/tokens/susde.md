@@ -66,4 +66,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 5.51%
 - [Mantle](https://www.defi.garden/ko/chains/mantle)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

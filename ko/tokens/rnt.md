@@ -56,4 +56,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 gt3에서 APY 18.52%예요.
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

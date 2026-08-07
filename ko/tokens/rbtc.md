@@ -56,4 +56,4 @@ DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.52%예
 - [Rootstock](https://www.defi.garden/ko/chains/rootstock)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

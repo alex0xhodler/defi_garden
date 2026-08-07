@@ -62,4 +62,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 gmx-v2-perps에서 APY 16.99%�
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

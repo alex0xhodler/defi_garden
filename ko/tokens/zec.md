@@ -63,4 +63,4 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 61.93%예요.
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Starknet](https://www.defi.garden/ko/chains/starknet)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

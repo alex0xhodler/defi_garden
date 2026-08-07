@@ -64,4 +64,4 @@ DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 5.99%예요.
 - [Sui](https://www.defi.garden/ko/chains/sui)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

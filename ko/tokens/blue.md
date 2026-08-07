@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Sui의 ember-protocol에서 APY 14.96%예�
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

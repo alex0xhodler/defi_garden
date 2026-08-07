@@ -52,4 +52,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 flying-tulip-ftusd에서 APY 9
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Sonic](https://www.defi.garden/ko/chains/sonic)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

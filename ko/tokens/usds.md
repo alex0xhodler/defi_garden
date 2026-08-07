@@ -65,4 +65,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 sky-lending에서 APY 5.96%예
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

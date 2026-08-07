@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Hedera](https://www.defi.garden/chains/hedera)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

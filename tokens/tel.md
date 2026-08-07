@@ -62,4 +62,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

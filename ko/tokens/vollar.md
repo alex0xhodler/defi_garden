@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 8.37%예�
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

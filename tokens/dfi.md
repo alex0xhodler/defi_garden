@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Defichain](https://www.defi.garden/chains/defichain)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

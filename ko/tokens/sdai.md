@@ -56,4 +56,4 @@ DefiLlama 실시간 데이터 기준, Gnosis의 sdai에서 APY 4.10%예요.
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Gnosis](https://www.defi.garden/ko/chains/gnosis)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

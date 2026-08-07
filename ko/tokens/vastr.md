@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Astar의 bifrost-liquid-staking에서 APY 
 
 - [Astar](https://www.defi.garden/ko/chains/astar)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

@@ -69,4 +69,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Aptos](https://www.defi.garden/chains/aptos)
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

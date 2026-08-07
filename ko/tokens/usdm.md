@@ -67,4 +67,4 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 36.74%예
 - [Cardano](https://www.defi.garden/ko/chains/cardano)
 - [MegaETH](https://www.defi.garden/ko/chains/megaeth)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

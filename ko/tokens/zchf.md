@@ -67,4 +67,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 8.11%
 - [Gnosis](https://www.defi.garden/ko/chains/gnosis)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

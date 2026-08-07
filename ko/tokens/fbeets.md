@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Sonic의 beets-dex에서 APY 53.91%예요.
 
 - [Sonic](https://www.defi.garden/ko/chains/sonic)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

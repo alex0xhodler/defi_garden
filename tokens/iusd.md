@@ -56,4 +56,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Echelon Initia](https://www.defi.garden/chains/echelon-initia)
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

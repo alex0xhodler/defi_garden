@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, Move의 yuzu-finance에서 APY 11.19%예�
 
 - [Move](https://www.defi.garden/ko/chains/move)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

@@ -56,4 +56,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated August 8, 2026
+## Last updated August 7, 2026

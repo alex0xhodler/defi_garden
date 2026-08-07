@@ -63,4 +63,4 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.94%예�
 
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

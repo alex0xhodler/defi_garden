@@ -56,4 +56,4 @@ DefiLlama 실시간 데이터 기준, Stellar의 blend-pools-v2에서 APY 0.50%�
 - [Stellar](https://www.defi.garden/ko/chains/stellar)
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

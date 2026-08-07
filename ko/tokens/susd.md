@@ -52,4 +52,4 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 11.78
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

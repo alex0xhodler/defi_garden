@@ -57,4 +57,4 @@ DefiLlama 실시간 데이터 기준, Kava의 scrub-invest에서 APY 6.17%예요
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Venom의 venomstake에서 APY 8.12%예요.
 
 - [Venom](https://www.defi.garden/ko/chains/venom)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026

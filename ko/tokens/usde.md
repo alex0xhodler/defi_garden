@@ -68,4 +68,4 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 6.00%예요.
 - [Monad](https://www.defi.garden/ko/chains/monad)
 - [Mantle](https://www.defi.garden/ko/chains/mantle)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 7, 2026
