@@ -1,10 +1,10 @@
 # ALPHA DeFi Yields
 
-The highest honest ALPHA yield right now is 0.05% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALPHA yield right now is 0.04% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.05% | $205.5K |
+| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.04% | $205.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALPHA yield today?
 
-0.05% APY on bluefin-spot (Sui), based on live DefiLlama data.
+0.04% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many ALPHA pools clear the TVL floor?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [SUI](https://www.defi.garden/tokens/sui)
 - [BUCK](https://www.defi.garden/tokens/buck)
+- [HASUI](https://www.defi.garden/tokens/hasui)
 
 ## Available on
 

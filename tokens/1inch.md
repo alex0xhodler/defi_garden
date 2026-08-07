@@ -1,17 +1,17 @@
 # 1INCH DeFi Yields
 
-The highest honest 1INCH yield right now is 20.54% on uniswap-v4 (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 1INCH yield right now is 27.68% on uniswap-v4 (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 0.29% | $4.62M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 0.03% | $1.76M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 20.54% | $1.33M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 8.02% | $1.04M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 1.13% | $570.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 1.92% | $541.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 33.02% | $516.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.05% | $359.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 0.95% | $4.65M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 0.03% | $1.78M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 19.57% | $1.33M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 8.01% | $1.04M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 0.90% | $570.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 2.00% | $545.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 27.68% | $515.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.05% | $360.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 1INCH yield today?
 
-20.54% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+27.68% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many 1INCH pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $21.42M in total.
+17 live pools clear this page's $100K TVL floor, $21.44M in total.
 
 ### Are these rates safe?
 

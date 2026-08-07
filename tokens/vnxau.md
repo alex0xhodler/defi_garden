@@ -1,11 +1,11 @@
 # VNXAU DeFi Yields
 
-The highest honest VNXAU yield right now is 7.14% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VNXAU yield right now is 7.13% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token) | Solana | 6.25% | $211.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token) | Base | 7.14% | $102.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=a26d57e4-7e35-4113-9e94-1f4c5127c34e&src=seo_token) | Solana | 5.30% | $211.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=38e307a9-7fea-4365-a968-ef46bdd333b9&src=seo_token) | Base | 7.13% | $102.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VNXAU yield today?
 
-7.14% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+7.13% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many VNXAU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $313.7K in total.
+2 live pools clear this page's $100K TVL floor, $314.2K in total.
 
 ### Are these rates safe?
 

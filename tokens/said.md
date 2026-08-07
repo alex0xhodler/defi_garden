@@ -1,10 +1,10 @@
 # SAID DeFi Yields
 
-The highest honest SAID yield right now is 10.89% on gaib (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAID yield right now is 10.86% on gaib (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82&src=seo_token) | Ethereum | 10.89% | $18.45M |
+| [gaib →](https://www.defi.garden/?pool=e575606e-5642-4f87-b9ad-3e53d6f83c82&src=seo_token) | Ethereum | 10.86% | $18.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAID yield today?
 
-10.89% APY on gaib (Ethereum), based on live DefiLlama data.
+10.86% APY on gaib (Ethereum), based on live DefiLlama data.
 
 ### How many SAID pools clear the TVL floor?
 

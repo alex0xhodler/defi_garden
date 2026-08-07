@@ -1,12 +1,12 @@
 # MET 디파이 수익률
 
-현재 MET의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 33.03%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MET의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 33.07%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token) | Base | 16.69% | $522.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=49da3a5c-0f8f-47d2-ac18-d665be77bca0&src=seo_token) | Base | 16.67% | $524.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=6bfd0dbd-139a-4f5a-890a-0638a6a17df8&src=seo_token) | Ethereum | 0.04% | $339K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token) | Base | 33.03% | $197.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f727afcf-25d7-4460-b277-502373a7fc1b&src=seo_token) | Base | 33.07% | $197.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 MET의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 33.03%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 33.07%예요.
 
 ### MET 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

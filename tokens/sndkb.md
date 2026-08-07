@@ -1,10 +1,10 @@
 # SNDKB DeFi Yields
 
-The highest honest SNDKB yield right now is 3.97% on native-credit-pool (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNDKB yield right now is 3.93% on native-credit-pool (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=06081a23-0157-4141-951b-eae858070214&src=seo_token) | BSC | 3.97% | $625.6K |
+| [native-credit-pool →](https://www.defi.garden/?pool=06081a23-0157-4141-951b-eae858070214&src=seo_token) | BSC | 3.93% | $638.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNDKB yield today?
 
-3.97% APY on native-credit-pool (BSC), based on live DefiLlama data.
+3.93% APY on native-credit-pool (BSC), based on live DefiLlama data.
 
 ### How many SNDKB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $625.6K in total.
+1 live pool clear this page's $100K TVL floor, $638.3K in total.
 
 ### Are these rates safe?
 
@@ -25,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)

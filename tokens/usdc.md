@@ -1,17 +1,17 @@
 # USDC DeFi Yields
 
-The highest honest USDC yield right now is 8.02% on pareto-credit (Ethereum), among 1,494 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDC yield right now is 8.02% on pareto-credit (Ethereum), among 1,513 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 4.91% | $2.73B |
-| [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 5.29% | $417.79M |
-| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $274.5M |
-| [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 5.84% | $260.89M |
-| [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 8.02% | $167.56M |
-| [aave-v3 →](https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token) | Ethereum | 3.67% | $164.9M |
-| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 5.23% | $147.29M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 18.45% | $114.83M |
+| [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 4.87% | $2.74B |
+| [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 5.26% | $418.15M |
+| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $274.48M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 6.70% | $260.92M |
+| [aave-v3 →](https://www.defi.garden/?pool=aa70268e-4b52-42bf-a116-608b370f9501&src=seo_token) | Ethereum | 3.31% | $172.86M |
+| [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 8.02% | $167.55M |
+| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 5.36% | $145.97M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 20.16% | $115.25M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDC pools clear the TVL floor?
 
-1,494 live pools clear this page's $100K TVL floor, $8.45B in total.
+1,513 live pools clear this page's $100K TVL floor, $8.51B in total.
 
 ### Are these rates safe?
 

@@ -1,12 +1,12 @@
 # AAVEWETH DeFi Yields
 
-The highest honest AAVEWETH yield right now is 7.18% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVEWETH yield right now is 6.28% on balancer-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 5.62% | $275.6K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 7.18% | $268.4K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 6.33% | $249.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 5.23% | $276.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.25% | $269.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 6.28% | $250.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAVEWETH yield today?
 
-7.18% APY on balancer-v3 (Base), based on live DefiLlama data.
+6.28% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many AAVEWETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $793.4K in total.
+3 live pools clear this page's $100K TVL floor, $797.1K in total.
 
 ### Are these rates safe?
 

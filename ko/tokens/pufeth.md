@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 2.12% | $45.84M |
-| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 6.06% | $2.18M |
-| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 6.10% | $1.27M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.98% | $570.7K |
+| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.34% | $45.07M |
+| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 6.07% | $2.18M |
+| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 5.85% | $1.27M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 5.02% | $572.2K |
 | [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 9.64% | $149.1K |
 | [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 8.94% | $149.1K |
 
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 9.64%예요.
 
 ### PUFETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $50.35M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $49.58M예요.
 
 ### 이 수익률은 안전한가요?
 

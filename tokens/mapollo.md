@@ -4,8 +4,8 @@ The highest honest MAPOLLO yield right now is 8.66% on pendle (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 7.85% | $2.91M |
 | [pendle →](https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token) | Ethereum | 8.66% | $2.91M |
+| [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 7.85% | $2.91M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

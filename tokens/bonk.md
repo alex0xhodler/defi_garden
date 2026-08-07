@@ -1,9 +1,10 @@
 # BONK DeFi Yields
 
-The highest honest BONK yield right now is 0.59% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BONK yield right now is 59.71% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [orca-dex →](https://www.defi.garden/?pool=4420a9de-a883-4ba9-a4c6-4ed12734ab94&src=seo_token) | Solana | 59.71% | $136.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=a4c4203d-62c9-47e3-b96d-63fd03dc9e94&src=seo_token) | Solana | 0.59% | $112.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -12,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BONK yield today?
 
-0.59% APY on raydium-amm (Solana), based on live DefiLlama data.
+59.71% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BONK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.48M in total.
+5 live pools clear this page's $100K TVL floor, $1.47M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest GETH yield right now is 5.80% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token) | Ethereum | 2.22% | $14.58M |
+| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token) | Ethereum | 2.22% | $14.65M |
 | [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_token) | Polkadot | 5.80% | $1.54M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $16.13M in total.
+2 live pools clear this page's $100K TVL floor, $16.19M in total.
 
 ### Are these rates safe?
 

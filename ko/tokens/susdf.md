@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 4.31% | $67.67M |
-| [pendle →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e&src=seo_token) | Ethereum | 5.44% | $248.3K |
+| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 4.25% | $67.66M |
 | [pendle →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c&src=seo_token) | Ethereum | 4.16% | $248.3K |
+| [pendle →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e&src=seo_token) | Ethereum | 5.44% | $248.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

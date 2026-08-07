@@ -1,10 +1,10 @@
 # CHERRY DeFi Yields
 
-The highest honest CHERRY yield right now is 27.01% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHERRY yield right now is 27.26% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=86629737-a4ea-40bc-a6c6-53cb7d0054db&src=seo_token) | TON | 27.01% | $179.7K |
+| [ston.fi →](https://www.defi.garden/?pool=86629737-a4ea-40bc-a6c6-53cb7d0054db&src=seo_token) | TON | 27.26% | $176.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHERRY yield today?
 
-27.01% APY on ston.fi (TON), based on live DefiLlama data.
+27.26% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many CHERRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.7K in total.
+1 live pool clear this page's $100K TVL floor, $176.3K in total.
 
 ### Are these rates safe?
 

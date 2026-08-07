@@ -4,7 +4,7 @@ The highest honest HEZ yield right now is 0.05% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token) | Ethereum | 0.05% | $2.79M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token) | Ethereum | 0.05% | $2.8M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0&src=seo_token) | Ethereum | 0.12% | $1.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HEZ pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.98M in total.
+3 live pools clear this page's $100K TVL floor, $4.99M in total.
 
 ### Are these rates safe?
 

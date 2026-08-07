@@ -1,11 +1,11 @@
 # SDT DeFi Yields
 
-The highest honest SDT yield right now is 11.01% on stake-dao (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDT yield right now is 10.92% on stake-dao (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 10.28% | $395.5K |
-| [stake-dao →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 11.01% | $395.2K |
+| [curve-dex →](https://www.defi.garden/?pool=544cb1d2-7945-4e98-8230-c51160d27d5a&src=seo_token) | Ethereum | 10.17% | $397.4K |
+| [stake-dao →](https://www.defi.garden/?pool=819fdad2-e497-4f01-a1bf-35d6ffcb2e6b&src=seo_token) | Ethereum | 10.92% | $397.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDT yield today?
 
-11.01% APY on stake-dao (Ethereum), based on live DefiLlama data.
+10.92% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many SDT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $790.7K in total.
+2 live pools clear this page's $100K TVL floor, $794.5K in total.
 
 ### Are these rates safe?
 

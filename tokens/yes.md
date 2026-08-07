@@ -4,7 +4,7 @@ The highest honest YES yield right now is 0.32% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3ade62c6-ae1b-50f6-9e84-d6af2a17df07&src=seo_token) | Ethereum | 0.32% | $166.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3ade62c6-ae1b-50f6-9e84-d6af2a17df07&src=seo_token) | Ethereum | 0.32% | $166.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YES pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $406.6K in total.
+2 live pools clear this page's $100K TVL floor, $406.2K in total.
 
 ### Are these rates safe?
 

@@ -1,12 +1,13 @@
 # BORG DeFi Yields
 
-The highest honest BORG yield right now is 23.96% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BORG yield right now is 22.15% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a&src=seo_token) | Solana | 14.69% | $554K |
-| [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397&src=seo_token) | Solana | 0.64% | $483.8K |
-| [orca-dex →](https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367&src=seo_token) | Solana | 23.96% | $155.8K |
+| [orca-dex →](https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a&src=seo_token) | Solana | 13.23% | $558.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397&src=seo_token) | Solana | 0.69% | $487.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=0b08958d-d01e-4068-99cd-55858110afd2&src=seo_token) | Solana | 2.56% | $231.9K |
+| [orca-dex →](https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367&src=seo_token) | Solana | 22.15% | $156.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BORG yield today?
 
-23.96% APY on orca-dex (Solana), based on live DefiLlama data.
+22.15% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BORG pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.19M in total.
+4 live pools clear this page's $100K TVL floor, $1.43M in total.
 
 ### Are these rates safe?
 

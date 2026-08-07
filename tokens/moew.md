@@ -4,7 +4,7 @@ The highest honest MOEW yield right now is 1.12% on uniswap-v3 (Base), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 1.12% | $347.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f171171-9a7d-40ae-aad8-b27f038f6a53&src=seo_token) | Base | 1.12% | $348.4K |
 | [raydium-amm →](https://www.defi.garden/?pool=39dd8e58-ed35-43fc-819d-82b32f67cc45&src=seo_token) | Solana | 0.90% | $107.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOEW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $454.4K in total.
+2 live pools clear this page's $100K TVL floor, $455.5K in total.
 
 ### Are these rates safe?
 

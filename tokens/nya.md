@@ -4,7 +4,7 @@ The highest honest NYA yield right now is 0.01% on uniswap-v3 (OP Mainnet), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $143.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $144.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NYA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $432.1K in total.
+3 live pools clear this page's $100K TVL floor, $437.3K in total.
 
 ### Are these rates safe?
 
@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
+- [BOLD](https://www.defi.garden/tokens/bold)
 - [ALETH](https://www.defi.garden/tokens/aleth)
 - [LUSD](https://www.defi.garden/tokens/lusd)
-- [ALUSD](https://www.defi.garden/tokens/alusd)
 
 ## Available on
 

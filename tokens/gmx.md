@@ -4,12 +4,12 @@ The highest honest GMX yield right now is 0.08% on uniswap-v3 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token) | Arbitrum | 0.08% | $2.11M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 5.40% | $237.4K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.72% | $213.9K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.72% | $213.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token) | Arbitrum | 2.91% | $191.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d05dabc8-b729-4ca9-b83d-204afb62dde4&src=seo_token) | Arbitrum | 26.69% | $125.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token) | Arbitrum | 0.08% | $2.1M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 5.16% | $236.9K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.72% | $213.2K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.72% | $213.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token) | Arbitrum | 2.92% | $190.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d05dabc8-b729-4ca9-b83d-204afb62dde4&src=seo_token) | Arbitrum | 20.02% | $119.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GMX pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $4.5M in total.
+8 live pools clear this page's $100K TVL floor, $4.48M in total.
 
 ### Are these rates safe?
 

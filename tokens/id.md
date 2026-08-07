@@ -1,11 +1,11 @@
 # ID DeFi Yields
 
-The highest honest ID yield right now is 1.69% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ID yield right now is 1.68% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 2.96% | $545K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 1.69% | $115.7K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 2.75% | $545K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 1.68% | $116.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ID yield today?
 
-1.69% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+1.68% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ID pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $660.7K in total.
+2 live pools clear this page's $100K TVL floor, $661.5K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # ATR DeFi Yields
 
-The highest honest ATR yield right now is 6.93% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATR yield right now is 6.34% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=59acff14-ed3d-4661-9e90-5c64b81106c6&src=seo_token) | Solana | 6.93% | $102.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=59acff14-ed3d-4661-9e90-5c64b81106c6&src=seo_token) | Solana | 6.34% | $102.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATR yield today?
 
-6.93% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.34% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ATR pools clear the TVL floor?
 

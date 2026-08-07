@@ -4,7 +4,7 @@ The highest honest ALGO yield right now is 2.04% on folks-finance-lending (Algor
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_token) | Algorand | 2.04% | $3.28M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_token) | Algorand | 2.04% | $3.27M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ALGO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.48M in total.
+2 live pools clear this page's $100K TVL floor, $3.47M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest SRNUSD yield right now is 8.27% on pendle (Ethereum), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&src=seo_token) | Ethereum | 4.00% | $1.41M |
+| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&src=seo_token) | Ethereum | 4.01% | $1.41M |
 | [pendle →](https://www.defi.garden/?pool=e2057cb9-1fe9-4c45-9948-a1863d8155e9&src=seo_token) | Ethereum | 8.27% | $961.4K |
 | [pendle →](https://www.defi.garden/?pool=af8ae772-4e42-4b47-9b47-a51a310f6563&src=seo_token) | Ethereum | 5.77% | $961.4K |
 

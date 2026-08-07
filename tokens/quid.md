@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QUID pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $222K in total.
+2 live pools clear this page's $100K TVL floor, $222.7K in total.
 
 ### Are these rates safe?
 

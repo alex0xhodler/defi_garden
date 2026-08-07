@@ -6,8 +6,8 @@
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=ebef0664-2c98-47c3-9470-6ae5998c167a&src=seo_token) | Ethereum | 27.13% | $1.07M |
 | [pendle →](https://www.defi.garden/?pool=c886ec66-199e-48d8-ac13-4e39bae18e8f&src=seo_token) | Ethereum | 30.28% | $1.07M |
-| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 3.36% | $572.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token) | Solana | 1.25% | $101.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 2.84% | $573.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token) | Solana | 1.03% | $101.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

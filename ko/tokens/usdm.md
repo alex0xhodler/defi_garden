@@ -1,17 +1,17 @@
 # USDM 디파이 수익률
 
-현재 USDM의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 37.37%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDM의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 37.62%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34&src=seo_token) | Ethereum | 3.63% | $20.06M |
-| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 18.14% | $897.1K |
-| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 37.37% | $890.6K |
-| [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 9.02% | $654K |
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 25.23% | $615.4K |
-| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 5.20% | $528.9K |
+| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 18.15% | $896.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 37.62% | $892.4K |
+| [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 9.04% | $653K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 25.22% | $615.6K |
+| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 5.20% | $527.2K |
 | [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 18.25% | $506.6K |
 | [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 25.08% | $338.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 9.40% | $193.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 USDM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 37.37%예요.
+DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 37.62%예요.
 
 ### USDM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $25.63M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $25.82M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -31,16 +31,15 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 37.37%예
 
 ## 관련 토큰
 
-- [STETH](https://www.defi.garden/ko/tokens/steth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SUSDE](https://www.defi.garden/ko/tokens/susde)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
+- [LBTC](https://www.defi.garden/ko/tokens/lbtc)
+- [BTC](https://www.defi.garden/ko/tokens/btc)
+- [AUSD](https://www.defi.garden/ko/tokens/ausd)
 
 ## 이용 가능한 체인
 
-- [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 - [Cardano](https://www.defi.garden/ko/chains/cardano)
 - [MegaETH](https://www.defi.garden/ko/chains/megaeth)

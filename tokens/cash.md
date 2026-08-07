@@ -4,8 +4,8 @@ The highest honest CASH yield right now is 4.22% on kamino-lend (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 1.62% | $7.14M |
-| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 4.22% | $2.91M |
+| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 0.67% | $7.14M |
+| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 4.22% | $2.92M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 0.93% | $504.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CASH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $10.56M in total.
+3 live pools clear this page's $100K TVL floor, $10.57M in total.
 
 ### Are these rates safe?
 

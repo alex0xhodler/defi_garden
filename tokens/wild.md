@@ -4,7 +4,7 @@ The highest honest WILD yield right now is 1.58% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6ac7d09a-555f-4b07-b6b5-1e883de3a6c5&src=seo_token) | Ethereum | 1.58% | $143.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6ac7d09a-555f-4b07-b6b5-1e883de3a6c5&src=seo_token) | Ethereum | 1.58% | $144K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WILD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.7K in total.
+1 live pool clear this page's $100K TVL floor, $144K in total.
 
 ### Are these rates safe?
 

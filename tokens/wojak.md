@@ -4,8 +4,8 @@ The highest honest WOJAK yield right now is 0.05% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 31.81% | $841K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.05% | $624.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 31.69% | $843.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.05% | $629.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

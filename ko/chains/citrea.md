@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WCBTC | [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_chain) | 3.14% | $2.59M |
-| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 4.52% | $115.1K |
+| WCBTC | [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_chain) | 3.14% | $2.62M |
+| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 4.52% | $114K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Citrea의 accountable에서 APY 3.14%예�
 
 ### Citrea 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $4.47M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $4.49M예요.
 
 ### 이 수익률은 안전한가요?
 

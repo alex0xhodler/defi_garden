@@ -1,10 +1,10 @@
 # EURW DeFi Yields
 
-The highest honest EURW yield right now is 8.62% on uniswap-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURW yield right now is 8.16% on uniswap-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c57840e5-a0e1-5b7c-9627-3afbfbd33bcd&src=seo_token) | Monad | 8.62% | $1.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c57840e5-a0e1-5b7c-9627-3afbfbd33bcd&src=seo_token) | Monad | 8.16% | $1.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EURW yield today?
 
-8.62% APY on uniswap-v3 (Monad), based on live DefiLlama data.
+8.16% APY on uniswap-v3 (Monad), based on live DefiLlama data.
 
 ### How many EURW pools clear the TVL floor?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [AUSD](https://www.defi.garden/tokens/ausd)
 - [BTC](https://www.defi.garden/tokens/btc)
+- [AUSD](https://www.defi.garden/tokens/ausd)
 
 ## Available on
 

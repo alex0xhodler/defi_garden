@@ -1,13 +1,13 @@
 # YNETHX DeFi Yields
 
-The highest honest YNETHX yield right now is 5.07% on stake-dao (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YNETHX yield right now is 5.47% on curve-dex (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 3.53% | $967.9K |
-| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 3.53% | $624.3K |
-| [stake-dao →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31&src=seo_token) | Ethereum | 5.07% | $203.2K |
-| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 5.07% | $145.9K |
+| [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 5.47% | $968.3K |
+| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 5.47% | $624.5K |
+| [stake-dao →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31&src=seo_token) | Ethereum | 5.07% | $203.3K |
+| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 5.07% | $146.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YNETHX yield today?
 
-5.07% APY on stake-dao (Ethereum), based on live DefiLlama data.
+5.47% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many YNETHX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $11.9M in total.
+6 live pools clear this page's $100K TVL floor, $11.95M in total.
 
 ### Are these rates safe?
 

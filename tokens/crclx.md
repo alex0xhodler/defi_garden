@@ -1,11 +1,12 @@
 # CRCLX DeFi Yields
 
-The highest honest CRCLX yield right now is 81.40% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRCLX yield right now is 71.05% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6&src=seo_token) | Solana | 81.40% | $2.52M |
-| [raydium-amm →](https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447&src=seo_token) | Solana | 6.21% | $1.73M |
+| [raydium-amm →](https://www.defi.garden/?pool=2619cf7a-535e-43a6-8163-a0d1265611a6&src=seo_token) | Solana | 71.05% | $2.54M |
+| [raydium-amm →](https://www.defi.garden/?pool=e480f2c3-9422-441c-8901-9c32ab359447&src=seo_token) | Solana | 5.41% | $1.75M |
+| [raydium-amm →](https://www.defi.garden/?pool=62d12119-752e-4978-b96e-d5d6ecbc44ba&src=seo_token) | Solana | 20.81% | $101K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRCLX yield today?
 
-81.40% APY on raydium-amm (Solana), based on live DefiLlama data.
+71.05% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CRCLX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.72M in total.
+4 live pools clear this page's $100K TVL floor, $4.86M in total.
 
 ### Are these rates safe?
 

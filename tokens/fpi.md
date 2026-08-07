@@ -1,11 +1,11 @@
 # FPI DeFi Yields
 
-The highest honest FPI yield right now is 0.02% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FPI yield right now is 0.01% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f&src=seo_token) | Ethereum | 0.02% | $164.7K |
-| [convex-finance →](https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326&src=seo_token) | Ethereum | 0.02% | $164.5K |
+| [curve-dex →](https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f&src=seo_token) | Ethereum | 0.01% | $164.7K |
+| [convex-finance →](https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326&src=seo_token) | Ethereum | 0.01% | $164.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FPI yield today?
 
-0.02% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.01% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many FPI pools clear the TVL floor?
 

@@ -4,8 +4,8 @@ The highest honest VCHF yield right now is 7.91% on aerodrome-slipstream (Base),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 1.43% | $425.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token) | Solana | 0.58% | $308.9K |
+| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 1.43% | $423.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token) | Solana | 0.52% | $308.9K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token) | Base | 7.91% | $185.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VCHF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $920.4K in total.
+3 live pools clear this page's $100K TVL floor, $918.6K in total.
 
 ### Are these rates safe?
 

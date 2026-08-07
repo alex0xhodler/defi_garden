@@ -5,13 +5,13 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token) | Tron | 0.02% | $421.19M |
-| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.12% | $152.17M |
-| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 4.15% | $52.92M |
-| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 2.33% | $18.9M |
-| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 2.33% | $3.75M |
-| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 3.90% | $3.14M |
+| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.12% | $153.4M |
+| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 4.04% | $53.39M |
+| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 2.33% | $19.09M |
+| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 2.33% | $3.79M |
+| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 3.93% | $3.16M |
 | [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 163.99% | $1.84M |
-| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.39% | $1.68M |
+| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.30% | $1.74M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 163.99%예요.
 
 ### BTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 21개이며, 합산 TVL은 $672.46M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 21개이며, 합산 TVL은 $674.55M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,8 +4,8 @@ The highest honest CHIP yield right now is 0.21% on uniswap-v3 (Arbitrum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.21% | $967.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 34.58% | $173.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 0.21% | $964.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 29.57% | $174.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

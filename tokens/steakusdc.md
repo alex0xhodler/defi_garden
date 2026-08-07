@@ -4,14 +4,14 @@ The highest honest STEAKUSDC yield right now is 5.42% on morpho-blue (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token) | Base | 4.92% | $590.07M |
-| [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token) | Base | 3.82% | $167.88M |
-| [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token) | Ethereum | 3.40% | $105.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token) | Base | 4.92% | $589.92M |
+| [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token) | Base | 3.85% | $167.83M |
+| [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token) | Ethereum | 3.40% | $104.52M |
 | [morpho-blue →](https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token) | Ethereum | 3.32% | $75.9M |
-| [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token) | Base | 4.86% | $29.29M |
-| [morpho-blue →](https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token) | Ethereum | 5.42% | $13.7M |
-| [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token) | Katana | 1.36% | $13.34M |
-| [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token) | Katana | 1.10% | $1.51M |
+| [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token) | Base | 4.91% | $29.26M |
+| [morpho-blue →](https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token) | Ethereum | 5.42% | $13.78M |
+| [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token) | Katana | 1.38% | $13.31M |
+| [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token) | Katana | 1.10% | $1.5M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STEAKUSDC pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $996.69M in total.
+8 live pools clear this page's $100K TVL floor, $996.02M in total.
 
 ### Are these rates safe?
 

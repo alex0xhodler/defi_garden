@@ -4,7 +4,7 @@ The highest honest TUX yield right now is 0.01% on uniswap-v3 (OP Mainnet), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b139e4b9-156d-4c50-96e2-b9f3d1ebef1e&src=seo_token) | OP Mainnet | 0.01% | $119.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b139e4b9-156d-4c50-96e2-b9f3d1ebef1e&src=seo_token) | OP Mainnet | 0.01% | $119.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TUX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.2K in total.
+1 live pool clear this page's $100K TVL floor, $119.1K in total.
 
 ### Are these rates safe?
 
@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
+- [BOLD](https://www.defi.garden/tokens/bold)
 - [ALETH](https://www.defi.garden/tokens/aleth)
 - [LUSD](https://www.defi.garden/tokens/lusd)
-- [ALUSD](https://www.defi.garden/tokens/alusd)
 
 ## Available on
 

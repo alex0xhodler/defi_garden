@@ -4,7 +4,7 @@ The highest honest KISHU yield right now is 0.77% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=862b5030-3e1d-4781-b14f-2c6b0ce17962&src=seo_token) | Ethereum | 0.77% | $849.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=862b5030-3e1d-4781-b14f-2c6b0ce17962&src=seo_token) | Ethereum | 0.77% | $850.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KISHU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $849.4K in total.
+1 live pool clear this page's $100K TVL floor, $850.8K in total.
 
 ### Are these rates safe?
 

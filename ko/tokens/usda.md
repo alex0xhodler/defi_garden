@@ -1,11 +1,11 @@
 # USDA 디파이 수익률
 
-현재 USDA의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 17.43%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDA의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 17.41%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.43% | $701.1K |
-| [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token) | Cardano | 16.33% | $222.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.41% | $699.9K |
+| [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token) | Cardano | 16.33% | $222.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 USDA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 17.43%예요.
+DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 17.41%예요.
 
 ### USDA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -29,8 +29,8 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 17.43%예
 - [ADA](https://www.defi.garden/ko/tokens/ada)
 - [IUSD](https://www.defi.garden/ko/tokens/iusd)
 - [NIGHT](https://www.defi.garden/ko/tokens/night)
-- [MIN](https://www.defi.garden/ko/tokens/min)
 - [USDCX](https://www.defi.garden/ko/tokens/usdcx)
+- [MIN](https://www.defi.garden/ko/tokens/min)
 
 ## 이용 가능한 체인
 

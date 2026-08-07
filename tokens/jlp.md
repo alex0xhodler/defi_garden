@@ -1,17 +1,17 @@
 # JLP DeFi Yields
 
-The highest honest JLP yield right now is 6.02% on orca-dex (Solana), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JLP yield right now is 5.79% on orca-dex (Solana), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057&src=seo_token) | Solana | 6.02% | $1.06M |
-| [orca-dex →](https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef&src=seo_token) | Solana | 4.68% | $994.7K |
-| [project-0 →](https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f&src=seo_token) | Solana | 0.02% | $833.7K |
-| [orca-dex →](https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f&src=seo_token) | Solana | 1.34% | $415.9K |
-| [orca-dex →](https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99&src=seo_token) | Solana | 2.80% | $216K |
-| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 1.23% | $200.2K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8&src=seo_token) | Solana | 1.99% | $167.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=2d3daafa-362b-4ef0-9e32-5bfb0cbc24ec&src=seo_token) | Solana | 4.67% | $156.6K |
+| [orca-dex →](https://www.defi.garden/?pool=78028d3d-d3f5-4917-afb2-29abed034057&src=seo_token) | Solana | 5.79% | $1.07M |
+| [orca-dex →](https://www.defi.garden/?pool=99306789-b083-4668-86da-4cedb1c9bfef&src=seo_token) | Solana | 4.63% | $999.3K |
+| [project-0 →](https://www.defi.garden/?pool=f944b079-d522-4743-91d8-b593850df87f&src=seo_token) | Solana | 0.02% | $839.4K |
+| [orca-dex →](https://www.defi.garden/?pool=6d8531f1-e1fe-428f-a929-6cf539f2942f&src=seo_token) | Solana | 1.35% | $418.8K |
+| [orca-dex →](https://www.defi.garden/?pool=793745f5-f320-416e-9c86-53a5d4e02c99&src=seo_token) | Solana | 2.92% | $221.3K |
+| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 1.69% | $201.1K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=42e89423-5d97-4177-8e4d-e2959af2d7f8&src=seo_token) | Solana | 1.99% | $169K |
+| [raydium-amm →](https://www.defi.garden/?pool=2d3daafa-362b-4ef0-9e32-5bfb0cbc24ec&src=seo_token) | Solana | 4.40% | $157.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JLP yield today?
 
-6.02% APY on orca-dex (Solana), based on live DefiLlama data.
+5.79% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many JLP pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $161.23M in total.
+15 live pools clear this page's $100K TVL floor, $163.65M in total.
 
 ### Are these rates safe?
 

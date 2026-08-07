@@ -1,17 +1,17 @@
 # VVV DeFi Yields
 
-The highest honest VVV yield right now is 30.24% on aerodrome-v1 (Base), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VVV yield right now is 30.18% on aerodrome-v1 (Base), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500&src=seo_token) | Base | 30.24% | $9.4M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 3.93% | $5.21M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 8.71% | $3.99M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ebbea9be-5a51-4e12-a113-d8524b3fc2dd&src=seo_token) | Base | 1.17% | $2.15M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618&src=seo_token) | Base | 40.78% | $1.98M |
-| [moonwell-lending →](https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token) | Base | 0.29% | $753.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token) | Base | 42.59% | $612.4K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token) | Base | 15.66% | $551.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500&src=seo_token) | Base | 30.18% | $9.43M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 3.93% | $5.22M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 11.03% | $3.96M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ebbea9be-5a51-4e12-a113-d8524b3fc2dd&src=seo_token) | Base | 1.19% | $2.16M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618&src=seo_token) | Base | 152.85% | $812.7K |
+| [moonwell-lending →](https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token) | Base | 0.30% | $758.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token) | Base | 42.06% | $612.9K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token) | Base | 15.67% | $553.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VVV yield today?
 
-30.24% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+30.18% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many VVV pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $25.67M in total.
+13 live pools clear this page's $100K TVL floor, $24.54M in total.
 
 ### Are these rates safe?
 

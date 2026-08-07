@@ -1,12 +1,12 @@
 # TORN DeFi Yields
 
-The highest honest TORN yield right now is 22.62% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TORN yield right now is 14.24% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token) | Ethereum | 11.31% | $264K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token) | Ethereum | 22.62% | $215.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 2.86% | $169.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token) | Ethereum | 7.69% | $267.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token) | Ethereum | 14.24% | $219.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 2.15% | $171.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TORN yield today?
 
-22.62% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+14.24% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many TORN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $649K in total.
+3 live pools clear this page's $100K TVL floor, $658.8K in total.
 
 ### Are these rates safe?
 

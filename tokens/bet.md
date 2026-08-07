@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BET pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $19.43M in total.
+3 live pools clear this page's $100K TVL floor, $19.83M in total.
 
 ### Are these rates safe?
 

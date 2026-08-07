@@ -1,10 +1,10 @@
 # CHI DeFi Yields
 
-The highest honest CHI yield right now is 297.13% on velodrome-v2 (OP Mainnet), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHI yield right now is 300.37% on velodrome-v2 (OP Mainnet), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=ce0d8283-c258-42dc-b744-29486ed9441c&src=seo_token) | OP Mainnet | 297.13% | $171.1K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=ce0d8283-c258-42dc-b744-29486ed9441c&src=seo_token) | OP Mainnet | 300.37% | $169.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHI yield today?
 
-297.13% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+300.37% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many CHI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $286.4K in total.
+2 live pools clear this page's $100K TVL floor, $285.8K in total.
 
 ### Are these rates safe?
 
@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
+- [BOLD](https://www.defi.garden/tokens/bold)
 - [ALETH](https://www.defi.garden/tokens/aleth)
 - [LUSD](https://www.defi.garden/tokens/lusd)
-- [ALUSD](https://www.defi.garden/tokens/alusd)
 
 ## Available on
 

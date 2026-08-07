@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865&src=seo_token) | BSC | 0.05% | $1.96M |
+| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865&src=seo_token) | BSC | 0.05% | $1.97M |
 | [raydium-amm →](https://www.defi.garden/?pool=97ad0a47-8457-571a-8615-2a9e4917c8f5&src=seo_token) | Solana | 0.02% | $605K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -28,8 +28,8 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 0.05%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
+- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
 
 ## 이용 가능한 체인

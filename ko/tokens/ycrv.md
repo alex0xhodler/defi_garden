@@ -1,14 +1,14 @@
 # YCRV 디파이 수익률
 
-현재 YCRV의 가장 높은 정직한 수익률은 Ethereum의 yearn-finance에서 16.88%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YCRV의 가장 높은 정직한 수익률은 Ethereum의 yearn-finance에서 16.87%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 16.88% | $6.02M |
-| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.69% | $1.2M |
+| [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 16.87% | $6.02M |
+| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.49% | $1.2M |
 | [yearn-finance →](https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token) | Ethereum | 14.34% | $982.7K |
-| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 15.00% | $854.7K |
-| [stake-dao →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 16.49% | $211.1K |
+| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 14.78% | $854.3K |
+| [stake-dao →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 16.11% | $211K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@
 
 ### 오늘 YCRV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 16.88%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 16.87%예요.
 
 ### YCRV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

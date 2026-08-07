@@ -4,7 +4,7 @@ The highest honest PEON yield right now is 0.01% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5dab917f-dbef-46ca-b069-a653f63e1166&src=seo_token) | Base | 0.01% | $149.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5dab917f-dbef-46ca-b069-a653f63e1166&src=seo_token) | Base | 0.01% | $150.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PEON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $149.7K in total.
+1 live pool clear this page's $100K TVL floor, $150.9K in total.
 
 ### Are these rates safe?
 
