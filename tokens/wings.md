@@ -1,10 +1,10 @@
 # WINGS DeFi Yields
 
-The highest honest WINGS yield right now is 99.55% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WINGS yield right now is 181.43% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=5fc9731a-2b89-47ca-92f4-34f0a1fb0cb4&src=seo_token) | Solana | 99.55% | $347.3K |
+| [orca-dex →](https://www.defi.garden/?pool=5fc9731a-2b89-47ca-92f4-34f0a1fb0cb4&src=seo_token) | Solana | 181.43% | $332.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WINGS yield today?
 
-99.55% APY on orca-dex (Solana), based on live DefiLlama data.
+181.43% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many WINGS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $347.3K in total.
+1 live pool clear this page's $100K TVL floor, $332.8K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

@@ -1,10 +1,10 @@
 # RXLP DeFi Yields
 
-The highest honest RXLP yield right now is 7.30% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RXLP yield right now is 6.35% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=471872a8-ff3c-424a-97fe-8617f497a150&src=seo_token) | Ethereum | 7.30% | $808.2K |
+| [lagoon →](https://www.defi.garden/?pool=471872a8-ff3c-424a-97fe-8617f497a150&src=seo_token) | Ethereum | 6.35% | $808.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RXLP yield today?
 
-7.30% APY on lagoon (Ethereum), based on live DefiLlama data.
+6.35% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many RXLP pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

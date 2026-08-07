@@ -1,12 +1,12 @@
 # VAULT 디파이 수익률
 
-현재 VAULT의 가장 높은 정직한 수익률은 OP Mainnet의 40-acres에서 16.44%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VAULT의 가장 높은 정직한 수익률은 OP Mainnet의 40-acres에서 17.51%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 12.24% | $7.23M |
-| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 16.44% | $864.3K |
-| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 8.87% | $505.5K |
+| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 11.79% | $7.23M |
+| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 17.51% | $864.5K |
+| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 15.99% | $502.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,7 +14,7 @@
 
 ### 오늘 VAULT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, OP Mainnet의 40-acres에서 APY 16.44%예요.
+DefiLlama 실시간 데이터 기준, OP Mainnet의 40-acres에서 APY 17.51%예요.
 
 ### VAULT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 40-acres에서 APY 16.44%예
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

@@ -1,12 +1,12 @@
 # BALANCERRETH DeFi Yields
 
-The highest honest BALANCERRETH yield right now is 6.96% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BALANCERRETH yield right now is 7.15% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.83% | $277.2K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.96% | $268.7K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 6.11% | $249.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 5.57% | $275.6K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 7.15% | $267.8K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 6.24% | $249K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BALANCERRETH yield today?
 
-6.96% APY on balancer-v3 (Base), based on live DefiLlama data.
+7.15% APY on balancer-v3 (Base), based on live DefiLlama data.
 
 ### How many BALANCERRETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $795.8K in total.
+3 live pools clear this page's $100K TVL floor, $792.3K in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

@@ -1,11 +1,11 @@
 # ALD DeFi Yields
 
-The highest honest ALD yield right now is 0.03% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALD yield right now is 0.04% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.02% | $456K |
-| [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.03% | $455.9K |
+| [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.03% | $455.3K |
+| [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.04% | $455.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALD yield today?
 
-0.03% APY on convex-finance (Ethereum), based on live DefiLlama data.
+0.04% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many ALD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $911.9K in total.
+2 live pools clear this page's $100K TVL floor, $910.4K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

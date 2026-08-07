@@ -1,10 +1,10 @@
 # STFLR DeFi Yields
 
-The highest honest STFLR yield right now is 4.30% on sparkdex-v4 (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STFLR yield right now is 4.56% on sparkdex-v4 (Flare), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.30% | $1.33M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.56% | $1.32M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STFLR yield today?
 
-4.30% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
+4.56% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
 
 ### How many STFLR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.33M in total.
+1 live pool clear this page's $100K TVL floor, $1.32M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

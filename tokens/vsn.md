@@ -1,13 +1,13 @@
 # VSN DeFi Yields
 
-The highest honest VSN yield right now is 2.73% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VSN yield right now is 1.45% on uniswap-v4 (Arbitrum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token) | Ethereum | 0.79% | $3.2M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token) | Ethereum | 2.73% | $1.42M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token) | Arbitrum | 0.89% | $640.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 0.29% | $422.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token) | Ethereum | 0.45% | $3.22M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token) | Ethereum | 0.55% | $1.42M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token) | Arbitrum | 1.45% | $644.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 0.04% | $425.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VSN yield today?
 
-2.73% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+1.45% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
 
 ### How many VSN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.68M in total.
+4 live pools clear this page's $100K TVL floor, $5.71M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

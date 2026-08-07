@@ -1,11 +1,11 @@
 # LST DeFi Yields
 
-The highest honest LST yield right now is 5.46% on marginfi-lst (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LST yield right now is 5.43% on marginfi-lst (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.46% | $7.34M |
-| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.25M |
+| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.43% | $7.26M |
+| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LST yield today?
 
-5.46% APY on marginfi-lst (Solana), based on live DefiLlama data.
+5.43% APY on marginfi-lst (Solana), based on live DefiLlama data.
 
 ### How many LST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.59M in total.
+2 live pools clear this page's $100K TVL floor, $9.49M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

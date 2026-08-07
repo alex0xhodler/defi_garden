@@ -1,8 +1,8 @@
 # YEE-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 6.01% (6.01% Base · + 0.00% Rewards)
+**Total APY:** 10.32% (10.32% Base · + 0.00% Rewards)
 
-**TVL:** $354.6K
+**TVL:** $355.8K
 
 **Pool Type:** LP/DEX
 
@@ -12,23 +12,26 @@
 
 **IL Risk:** Yes
 
-## Risk Assessment: Medium
+## Risk Assessment: High
 
-Moderate risk profile
+Advanced DeFi strategy
 
 - Low liquidity
+- Elevated yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,339 in 5y at current rates.
+$1,000 in this pool grows to ~$1,184 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 6.01% right now vs a 13.61% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+Projected at ⅓ haircut (10.32% headline) — farm rates decay. Active management required.
 
-[Garden this pool → ~$1,339 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+We don't have a rate history for this pool — we track rates day by day only for the largest pools, so there's nothing here to judge how steady this one has been. The rate above is live from DefiLlama.
+
+[Garden this pool → ~$1,184 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 6, 2026
+Last updated August 7, 2026

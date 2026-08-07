@@ -1,10 +1,10 @@
 # BV7X DeFi Yields
 
-The highest honest BV7X yield right now is 3.57% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BV7X yield right now is 1.15% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ae9881b3-c004-4203-95bb-5e3d4c85d38e&src=seo_token) | Base | 3.57% | $269.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ae9881b3-c004-4203-95bb-5e3d4c85d38e&src=seo_token) | Base | 1.15% | $266.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BV7X yield today?
 
-3.57% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.15% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BV7X pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $269.1K in total.
+1 live pool clear this page's $100K TVL floor, $266.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

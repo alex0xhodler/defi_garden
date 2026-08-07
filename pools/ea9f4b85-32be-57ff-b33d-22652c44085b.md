@@ -31,4 +31,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated August 6, 2026
+Last updated August 7, 2026

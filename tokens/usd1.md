@@ -1,15 +1,15 @@
 # USD1 DeFi Yields
 
-The highest honest USD1 yield right now is 9.73% on raydium-amm (Solana), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USD1 yield right now is 8.00% on bitway-earn (BSC), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 0.54% | $137.88M |
-| [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.60% | $123.97M |
-| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.59% | $10.05M |
-| [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 0.43% | $9.91M |
+| [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 0.88% | $137.9M |
+| [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.57% | $123.54M |
+| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 1.44% | $10.05M |
+| [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 0.31% | $9.91M |
 | [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $9.8M |
-| [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 9.73% | $4.03M |
+| [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 7.67% | $4M |
 | [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token) | Aptos | 3.78% | $2.47M |
 | [justlend-v1 →](https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token) | Tron | 1.23% | $1M |
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USD1 yield today?
 
-9.73% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.00% APY on bitway-earn (BSC), based on live DefiLlama data.
 
 ### How many USD1 pools clear the TVL floor?
 
-22 live pools clear this page's $100K TVL floor, $307.96M in total.
+23 live pools clear this page's $100K TVL floor, $307.28M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Aptos](https://www.defi.garden/chains/aptos)
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

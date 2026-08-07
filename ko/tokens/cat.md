@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.99%예�
 
 ### CAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $271.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $271.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.99%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

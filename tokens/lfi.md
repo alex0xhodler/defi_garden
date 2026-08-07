@@ -1,11 +1,10 @@
 # LFI DeFi Yields
 
-The highest honest LFI yield right now is 142.24% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LFI yield right now is 37.18% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 9.37% | $656.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token) | Base | 142.24% | $128.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 37.18% | $605.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LFI yield today?
 
-142.24% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+37.18% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many LFI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $785.2K in total.
+1 live pool clear this page's $100K TVL floor, $605.4K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

@@ -4,8 +4,8 @@ The highest honest AETH yield right now is 0.12% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token) | Polkadot | 0.12% | $3.25M |
-| [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.03% | $191.5K |
+| [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token) | Polkadot | 0.12% | $3.24M |
+| [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.03% | $190.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.44M in total.
+2 live pools clear this page's $100K TVL floor, $3.43M in total.
 
 ### Are these rates safe?
 
@@ -26,14 +26,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [SKY](https://www.defi.garden/tokens/sky)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [TBTC](https://www.defi.garden/tokens/tbtc)
 - [APYUSD](https://www.defi.garden/tokens/apyusd)
 - [GETH](https://www.defi.garden/tokens/geth)
 - [VDOT](https://www.defi.garden/tokens/vdot)
+- [HOLLAR](https://www.defi.garden/tokens/hollar)
 
 ## Available on
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

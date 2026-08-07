@@ -4,9 +4,9 @@ The highest honest CRO yield right now is 0.11% on tectonic (Cronos), among 3 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token) | Cronos | 0.11% | $2.59M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 4.98% | $404.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 8.35% | $180.6K |
+| [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token) | Cronos | 0.11% | $2.56M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 4.07% | $401.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 10.63% | $179.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.18M in total.
+3 live pools clear this page's $100K TVL floor, $3.14M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Cronos](https://www.defi.garden/chains/cronos)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

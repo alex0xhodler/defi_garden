@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.43% | $3.29M |
+| [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.43% | $3.3M |
 | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token) | Aptos | 0.22% | $1.73M |
 | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
 | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token) | Aptos | 1.12% | $1.44M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 195.25%예요.
 
 ### APT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $9.35M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $9.36M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,4 +42,4 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 195.25%예요.
 
 - [Aptos](https://www.defi.garden/ko/chains/aptos)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

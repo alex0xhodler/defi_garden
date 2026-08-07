@@ -4,8 +4,8 @@ The highest honest ANKRETH yield right now is 2.74% on ankr (Ethereum), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.74% | $16.26M |
-| [curve-dex →](https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token) | Ethereum | 1.22% | $109.4K |
+| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.74% | $16.24M |
+| [curve-dex →](https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token) | Ethereum | 1.75% | $109.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ANKRETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $16.37M in total.
+2 live pools clear this page's $100K TVL floor, $16.35M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

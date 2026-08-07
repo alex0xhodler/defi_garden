@@ -1,10 +1,10 @@
 # EUL DeFi Yields
 
-The highest honest EUL yield right now is 22.03% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUL yield right now is 12.64% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5923fed9-8eab-484e-854b-9f19df22d519&src=seo_token) | Ethereum | 22.03% | $877.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5923fed9-8eab-484e-854b-9f19df22d519&src=seo_token) | Ethereum | 12.64% | $849.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EUL yield today?
 
-22.03% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+12.64% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many EUL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $877.6K in total.
+1 live pool clear this page's $100K TVL floor, $849.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

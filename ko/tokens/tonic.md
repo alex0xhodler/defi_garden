@@ -1,12 +1,12 @@
 # TONIC 디파이 수익률
 
-현재 TONIC의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 4.07%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TONIC의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 27.04%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 4.07% | $197.4K |
-| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 1.14% | $181.5K |
-| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.07% | $180.8K |
+| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 27.04% | $192.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 11.97% | $179.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 18.55% | $176.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +14,11 @@
 
 ### 오늘 TONIC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 4.07%예요.
+DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 27.04%예요.
 
 ### TONIC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $559.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $547.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -28,13 +28,13 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 4.07%예�
 
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
+- [PAXG](https://www.defi.garden/ko/tokens/paxg)
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
 - [XRP](https://www.defi.garden/ko/tokens/xrp)
-- [LION](https://www.defi.garden/ko/tokens/lion)
 
 ## 이용 가능한 체인
 
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

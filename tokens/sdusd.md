@@ -1,11 +1,11 @@
 # SDUSD DeFi Yields
 
-The highest honest SDUSD yield right now is 16.45% on stake-dao (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDUSD yield right now is 16.82% on stake-dao (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token) | Ethereum | 14.09% | $684.9K |
-| [stake-dao →](https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token) | Ethereum | 16.45% | $632.2K |
+| [curve-dex →](https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token) | Ethereum | 14.52% | $684.9K |
+| [stake-dao →](https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token) | Ethereum | 16.82% | $632.2K |
 | [dtrinity-dusd →](https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token) | Ethereum | 2.42% | $461.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDUSD yield today?
 
-16.45% APY on stake-dao (Ethereum), based on live DefiLlama data.
+16.82% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many SDUSD pools clear the TVL floor?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

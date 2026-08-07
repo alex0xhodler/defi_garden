@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=330a6316-3d6b-40c4-8f60-a71f44779f76&src=seo_token) | Base | 12.24% | $117.9K |
 | [pendle →](https://www.defi.garden/?pool=36ea8479-86ad-43c3-ba96-1837e17cf396&src=seo_token) | Base | 11.34% | $117.9K |
+| [pendle →](https://www.defi.garden/?pool=330a6316-3d6b-40c4-8f60-a71f44779f76&src=seo_token) | Base | 12.24% | $117.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Base의 pendle에서 APY 12.24%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

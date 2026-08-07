@@ -4,7 +4,7 @@ The highest honest SRUSDAT yield right now is 9.34% on pendle (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 8.11% | $4.21M |
+| [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 8.11% | $4.22M |
 | [pendle →](https://www.defi.garden/?pool=96d93097-1e9e-4b78-ac1d-5924f04e1e56&src=seo_token) | Ethereum | 9.11% | $516.9K |
 | [pendle →](https://www.defi.garden/?pool=23debab1-4c7c-4498-8964-269bca4fdb3a&src=seo_token) | Ethereum | 9.34% | $516.9K |
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

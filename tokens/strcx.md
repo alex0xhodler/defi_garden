@@ -6,8 +6,8 @@ The highest honest STRCX yield right now is 30.28% on pendle (Ethereum), among 5
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=ebef0664-2c98-47c3-9470-6ae5998c167a&src=seo_token) | Ethereum | 27.13% | $1.07M |
 | [pendle →](https://www.defi.garden/?pool=c886ec66-199e-48d8-ac13-4e39bae18e8f&src=seo_token) | Ethereum | 30.28% | $1.07M |
-| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 2.12% | $571.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token) | Solana | 2.53% | $101.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 3.94% | $572.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=6b38ef9b-ee9f-42a9-afdf-5b099b108001&src=seo_token) | Solana | 1.48% | $101.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STRCX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.69M in total.
+5 live pools clear this page's $100K TVL floor, $3.65M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

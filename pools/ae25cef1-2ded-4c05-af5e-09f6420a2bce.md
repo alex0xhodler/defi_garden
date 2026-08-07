@@ -2,11 +2,11 @@
 
 **Total APY:** 2.69% (2.69% Base · + 0.00% Rewards)
 
-**TVL:** $3.2M
+**TVL:** $3.19M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 2.15%
+**30d Mean APY:** 2.16%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ We don't have a rate history for this pool — we track rates day by day only fo
 
 [Start Earning on tydro](https://tydro.com/?ref=defi.garden)
 
-Last updated August 6, 2026
+Last updated August 7, 2026

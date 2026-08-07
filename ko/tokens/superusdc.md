@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 5.97% | $7.6M |
-| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.48% | $1.09M |
+| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 5.98% | $7.6M |
+| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.65% | $916.6K |
 | [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 7.66% | $823.4K |
 | [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 11.12% | $823.4K |
 
@@ -19,7 +19,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 11.12%예요.
 
 ### SUPERUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.34M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.17M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,4 +39,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 11.12%예요.
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

@@ -4,7 +4,7 @@ The highest honest LSSOL yield right now is 0.04% on orca-dex (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=1b3a7d89-5a05-4dbc-be29-d6da56277f60&src=seo_token) | Solana | 0.04% | $129.2K |
+| [orca-dex →](https://www.defi.garden/?pool=1b3a7d89-5a05-4dbc-be29-d6da56277f60&src=seo_token) | Solana | 0.04% | $127.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LSSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.2K in total.
+1 live pool clear this page's $100K TVL floor, $127.7K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

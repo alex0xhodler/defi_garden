@@ -1,11 +1,12 @@
 # ENA DeFi Yields
 
-The highest honest ENA yield right now is 22.96% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ENA yield right now is 40.81% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 22.96% | $600.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 88.08% | $459.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.02% | $1.89M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 22.45% | $604.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 40.81% | $466K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ENA yield today?
 
-22.96% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+40.81% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ENA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.94M in total.
+3 live pools clear this page's $100K TVL floor, $2.96M in total.
 
 ### Are these rates safe?
 
@@ -36,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

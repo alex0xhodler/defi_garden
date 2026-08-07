@@ -1,12 +1,12 @@
 # SUIUSDT DeFi Yields
 
-The highest honest SUIUSDT yield right now is 11.54% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUIUSDT yield right now is 11.55% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 9.19% | $443.6K |
-| [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 6.62% | $434.3K |
-| [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 11.54% | $197.1K |
+| [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 6.61% | $435.4K |
+| [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 9.03% | $427.6K |
+| [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 11.55% | $189.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUIUSDT yield today?
 
-11.54% APY on cetus-clmm (Sui), based on live DefiLlama data.
+11.55% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many SUIUSDT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.07M in total.
+3 live pools clear this page's $100K TVL floor, $1.05M in total.
 
 ### Are these rates safe?
 
@@ -28,13 +28,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [SUI](https://www.defi.garden/tokens/sui)
 - [BUCK](https://www.defi.garden/tokens/buck)
-- [HASUI](https://www.defi.garden/tokens/hasui)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

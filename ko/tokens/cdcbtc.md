@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [tectonic →](https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token) | Cronos | 0.01% | $2.16M |
-| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.16% | $270.1K |
+| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.12% | $268.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -27,13 +27,13 @@ DefiLlama 실시간 데이터 기준, Cronos의 tectonic에서 APY 0.01%예요.
 
 - [XLM](https://www.defi.garden/ko/tokens/xlm)
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
+- [PAXG](https://www.defi.garden/ko/tokens/paxg)
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
 - [XRP](https://www.defi.garden/ko/tokens/xrp)
-- [LION](https://www.defi.garden/ko/tokens/lion)
 
 ## 이용 가능한 체인
 
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

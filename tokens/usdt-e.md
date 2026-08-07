@@ -1,10 +1,10 @@
 # USDT.E DeFi Yields
 
-The highest honest USDT.E yield right now is 12.10% on yuzu-finance (Move), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDT.E yield right now is 11.65% on yuzu-finance (Move), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 12.10% | $1.13M |
+| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 11.65% | $1.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDT.E yield today?
 
-12.10% APY on yuzu-finance (Move), based on live DefiLlama data.
+11.65% APY on yuzu-finance (Move), based on live DefiLlama data.
 
 ### How many USDT.E pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Move](https://www.defi.garden/chains/move)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

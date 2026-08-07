@@ -1,12 +1,12 @@
 # GLDX 디파이 수익률
 
-현재 GLDX의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 7.56%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GLDX의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 4.01%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.09% | $441.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0&src=seo_token) | Solana | 12.43% | $398.6K |
-| [orca-dex →](https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965&src=seo_token) | Solana | 7.56% | $132.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 3.12% | $440.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0&src=seo_token) | Solana | 9.02% | $352.4K |
+| [orca-dex →](https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965&src=seo_token) | Solana | 4.01% | $131.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +14,11 @@
 
 ### 오늘 GLDX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 7.56%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 4.01%예요.
 
 ### GLDX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $972.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $924.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 7.56%예요.
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

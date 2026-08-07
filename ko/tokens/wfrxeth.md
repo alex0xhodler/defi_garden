@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 0.79% | $2.61M |
-| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.44% | $291.7K |
+| [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 0.78% | $2.61M |
+| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.44% | $292.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -26,14 +26,14 @@ DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 4.44%예요
 ## 관련 토큰
 
 - [FRAX](https://www.defi.garden/ko/tokens/frax)
-- [EZETH](https://www.defi.garden/ko/tokens/ezeth)
 - [SFRXETH](https://www.defi.garden/ko/tokens/sfrxeth)
 - [FRXETH](https://www.defi.garden/ko/tokens/frxeth)
 - [FXB20291231](https://www.defi.garden/ko/tokens/fxb20291231)
 - [FXB](https://www.defi.garden/ko/tokens/fxb)
+- [WFRAX](https://www.defi.garden/ko/tokens/wfrax)
 
 ## 이용 가능한 체인
 
 - [Fraxtal](https://www.defi.garden/ko/chains/fraxtal)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

@@ -1,12 +1,12 @@
 # AUSDC DeFi Yields
 
-The highest honest AUSDC yield right now is 6.50% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUSDC yield right now is 6.29% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.45% | $1.98M |
-| [morpho-blue →](https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token) | Ethereum | 6.50% | $1.15M |
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $309K |
+| [hydration-dex →](https://www.defi.garden/?pool=470f1399-4e87-4146-a9f6-4c1294c4959a&src=seo_token) | Polkadot | 0.42% | $1.99M |
+| [morpho-blue →](https://www.defi.garden/?pool=507af9bc-1139-4bf1-b158-ae1f36eb4396&src=seo_token) | Ethereum | 6.29% | $1.15M |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $309.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUSDC yield today?
 
-6.50% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.29% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many AUSDC pools clear the TVL floor?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

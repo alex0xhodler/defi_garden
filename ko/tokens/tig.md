@@ -1,12 +1,12 @@
 # TIG 디파이 수익률
 
-현재 TIG의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 46.98%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TIG의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 42.86%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 69.99% | $1.04M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token) | Base | 4.46% | $141.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 46.98% | $122.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token) | Base | 87.72% | $1.02M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token) | Base | 5.93% | $138.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 42.86% | $120.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -14,11 +14,11 @@
 
 ### 오늘 TIG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 46.98%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 42.86%예요.
 
 ### TIG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.3M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $1.28M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 46.98%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

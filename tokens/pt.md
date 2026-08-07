@@ -1,13 +1,13 @@
 # PT DeFi Yields
 
-The highest honest PT yield right now is 4.04% on neverland (Monad), among 38 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PT yield right now is 3.78% on neverland (Monad), among 37 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $22.27M |
-| [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.89% | $16.29M |
-| [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 4.04% | $2.27M |
-| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $111K |
+| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $22.51M |
+| [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.91% | $16.3M |
+| [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 3.78% | $2.3M |
+| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $111.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PT yield today?
 
-4.04% APY on neverland (Monad), based on live DefiLlama data.
+3.78% APY on neverland (Monad), based on live DefiLlama data.
 
 ### How many PT pools clear the TVL floor?
 
-38 live pools clear this page's $100K TVL floor, $429.93M in total.
+37 live pools clear this page's $100K TVL floor, $422.62M in total.
 
 ### Are these rates safe?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Monad](https://www.defi.garden/chains/monad)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

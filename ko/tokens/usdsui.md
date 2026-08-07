@@ -1,16 +1,15 @@
 # USDSUI 디파이 수익률
 
-현재 USDSUI의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 98.03%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDSUI의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 123.01%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [current →](https://www.defi.garden/?pool=1438fc47-2b15-47ac-8514-1ae7b7246cac&src=seo_token) | Sui | 9.66% | $1.72M |
-| [cetus-clmm →](https://www.defi.garden/?pool=36591b70-7836-40eb-8ec4-b8162d9c0d7c&src=seo_token) | Sui | 3.79% | $1.34M |
-| [navi-lending →](https://www.defi.garden/?pool=d03cebe7-e53a-49d5-977e-dcc8d473c1bc&src=seo_token) | Sui | 8.87% | $979.4K |
-| [bluefin-spot →](https://www.defi.garden/?pool=e3887972-24e6-45a9-8ef5-bcc22b6b5739&src=seo_token) | Sui | 15.56% | $918K |
-| [bluefin-spot →](https://www.defi.garden/?pool=b37f5bba-1b21-4942-a017-5c831e59eec7&src=seo_token) | Sui | 0.01% | $481.1K |
-| [bluefin-spot →](https://www.defi.garden/?pool=1679d913-2179-4a11-aa55-b0727ec81060&src=seo_token) | Sui | 98.03% | $252.2K |
-| [cetus-clmm →](https://www.defi.garden/?pool=1e4c7c80-77c5-4b14-b42e-90498cb3be18&src=seo_token) | Sui | 88.42% | $247.2K |
+| [current →](https://www.defi.garden/?pool=1438fc47-2b15-47ac-8514-1ae7b7246cac&src=seo_token) | Sui | 10.24% | $1.65M |
+| [cetus-clmm →](https://www.defi.garden/?pool=36591b70-7836-40eb-8ec4-b8162d9c0d7c&src=seo_token) | Sui | 3.68% | $1.34M |
+| [navi-lending →](https://www.defi.garden/?pool=d03cebe7-e53a-49d5-977e-dcc8d473c1bc&src=seo_token) | Sui | 8.85% | $980.5K |
+| [bluefin-spot →](https://www.defi.garden/?pool=e3887972-24e6-45a9-8ef5-bcc22b6b5739&src=seo_token) | Sui | 15.07% | $912K |
+| [bluefin-spot →](https://www.defi.garden/?pool=1679d913-2179-4a11-aa55-b0727ec81060&src=seo_token) | Sui | 154.95% | $160.6K |
+| [cetus-clmm →](https://www.defi.garden/?pool=1e4c7c80-77c5-4b14-b42e-90498cb3be18&src=seo_token) | Sui | 123.01% | $145.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,11 +17,11 @@
 
 ### 오늘 USDSUI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 98.03%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 123.01%예요.
 
 ### USDSUI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $5.94M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $5.67M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -32,13 +31,13 @@ DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 98.03%예요
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [SUI](https://www.defi.garden/ko/tokens/sui)
 - [BUCK](https://www.defi.garden/ko/tokens/buck)
-- [HASUI](https://www.defi.garden/ko/tokens/hasui)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

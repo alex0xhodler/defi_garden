@@ -1,17 +1,17 @@
 # USDG DeFi Yields
 
-The highest honest USDG yield right now is 5.02% on maple (Ethereum), among 43 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDG yield right now is 5.02% on maple (Ethereum), among 42 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 5.02% | $263.8M |
-| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.26% | $30.47M |
-| [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.14% | $25.68M |
-| [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.28% | $25.38M |
-| [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 2.58% | $21.01M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=34c08a67-71ab-4e92-aed4-34ede13dce5b&src=seo_token) | Solana | 0.07% | $16M |
-| [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_token) | Robinhood Chain | 3.50% | $12.84M |
-| [aave-v3 →](https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token) | Ethereum | 2.52% | $9.45M |
+| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 5.02% | $254.88M |
+| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 1.20% | $30.47M |
+| [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.21% | $27.03M |
+| [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.04% | $25.68M |
+| [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 2.46% | $22.31M |
+| [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_token) | Robinhood Chain | 3.50% | $12.4M |
+| [aave-v3 →](https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token) | Ethereum | 2.93% | $7.1M |
+| [pendle →](https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token) | Ethereum | 3.43% | $3.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDG pools clear the TVL floor?
 
-43 live pools clear this page's $100K TVL floor, $457.69M in total.
+42 live pools clear this page's $100K TVL floor, $450.46M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

@@ -1,10 +1,10 @@
 # CSCOREETH DeFi Yields
 
-The highest honest CSCOREETH yield right now is 1.52% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSCOREETH yield right now is 1.58% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8cb16e3d-4959-4602-ad70-665f93940058&src=seo_token) | Base | 1.52% | $353.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=8cb16e3d-4959-4602-ad70-665f93940058&src=seo_token) | Base | 1.58% | $343.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSCOREETH yield today?
 
-1.52% APY on morpho-blue (Base), based on live DefiLlama data.
+1.58% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many CSCOREETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $353.9K in total.
+1 live pool clear this page's $100K TVL floor, $343.3K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

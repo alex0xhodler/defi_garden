@@ -1,10 +1,10 @@
 # JAILSTOOL 디파이 수익률
 
-현재 JAILSTOOL의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.93%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JAILSTOOL의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.10%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2a3fffb5-0c27-4e2a-9b6f-08bf1b51f26a&src=seo_token) | Solana | 0.93% | $358.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=2a3fffb5-0c27-4e2a-9b6f-08bf1b51f26a&src=seo_token) | Solana | 1.10% | $352.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +12,11 @@
 
 ### 오늘 JAILSTOOL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.93%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.10%예요.
 
 ### JAILSTOOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $358.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $352.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.93%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

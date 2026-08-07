@@ -1,17 +1,17 @@
 # JITOSOL DeFi Yields
 
-The highest honest JITOSOL yield right now is 4.67% on jito-liquid-staking (Solana), among 28 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JITOSOL yield right now is 5.04% on jito-liquid-staking (Solana), among 28 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900&src=seo_token) | Solana | 4.67% | $729.28M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.11% | $10.63M |
-| [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f&src=seo_token) | Solana | 0.15% | $5.55M |
-| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.64% | $5.42M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.52% | $5.37M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=d61d8c57-4d50-4642-b3fc-f5943ab44059&src=seo_token) | Solana | 0.43% | $2.36M |
-| [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7&src=seo_token) | Solana | 0.93% | $1.68M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993&src=seo_token) | Solana | 0.75% | $1.5M |
+| [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900&src=seo_token) | Solana | 5.04% | $721.9M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.09% | $10.55M |
+| [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f&src=seo_token) | Solana | 0.15% | $5.48M |
+| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.51% | $5.37M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.37% | $5.31M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=d61d8c57-4d50-4642-b3fc-f5943ab44059&src=seo_token) | Solana | 0.22% | $2.33M |
+| [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7&src=seo_token) | Solana | 0.63% | $1.66M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993&src=seo_token) | Solana | 0.98% | $1.48M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JITOSOL yield today?
 
-4.67% APY on jito-liquid-staking (Solana), based on live DefiLlama data.
+5.04% APY on jito-liquid-staking (Solana), based on live DefiLlama data.
 
 ### How many JITOSOL pools clear the TVL floor?
 
-28 live pools clear this page's $100K TVL floor, $861.96M in total.
+28 live pools clear this page's $100K TVL floor, $853.14M in total.
 
 ### Are these rates safe?
 
@@ -43,4 +43,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

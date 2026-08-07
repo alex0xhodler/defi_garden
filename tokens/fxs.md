@@ -1,12 +1,12 @@
 # FXS DeFi Yields
 
-The highest honest FXS yield right now is 3.13% on frax (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXS yield right now is 3.98% on frax (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.15% | $1.39M |
-| [frax →](https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token) | Ethereum | 3.13% | $205.3K |
-| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.10% | $131.3K |
+| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.20% | $1.39M |
+| [frax →](https://www.defi.garden/?pool=9923e857-30b0-4799-95c1-1ae8821b83fe&src=seo_token) | Ethereum | 3.98% | $205.4K |
+| [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.27% | $135.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FXS yield today?
 
-3.13% APY on frax (Ethereum), based on live DefiLlama data.
+3.98% APY on frax (Ethereum), based on live DefiLlama data.
 
 ### How many FXS pools clear the TVL floor?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Fraxtal](https://www.defi.garden/chains/fraxtal)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

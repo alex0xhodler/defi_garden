@@ -1,13 +1,12 @@
 # UPEG DeFi Yields
 
-The highest honest UPEG yield right now is 0.62% on uniswap-v4 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UPEG yield right now is 12.52% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 139.33% | $1.24M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 15.73% | $218.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=64d8ae8f-78d9-4d11-8863-464ddf04d920&src=seo_token) | Ethereum | 0.08% | $142.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a36157a3-e099-4905-8ef6-50be5f9d6a78&src=seo_token) | Ethereum | 0.62% | $111.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 72.53% | $1.23M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 12.52% | $198.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=64d8ae8f-78d9-4d11-8863-464ddf04d920&src=seo_token) | Ethereum | 0.09% | $136.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UPEG yield today?
 
-0.62% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+12.52% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many UPEG pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.81M in total.
+4 live pools clear this page's $100K TVL floor, $1.67M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

@@ -1,14 +1,13 @@
 # ADS DeFi Yields
 
-The highest honest ADS yield right now is 3.61% on uniswap-v3 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ADS yield right now is 0.05% on uniswap-v4 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b0f38a33-b9de-4dd0-a411-dd2e1b57c071&src=seo_token) | Ethereum | 0.04% | $834.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.17% | $722K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.14% | $716.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 3.61% | $320.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 0.90% | $233.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.06% | $713.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.05% | $707.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 9.84% | $317.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 0.77% | $229.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ADS yield today?
 
-3.61% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.05% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many ADS pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $3.03M in total.
+6 live pools clear this page's $100K TVL floor, $2.99M in total.
 
 ### Are these rates safe?
 
@@ -40,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026

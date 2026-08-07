@@ -4,6 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=860a781d-9327-4428-9424-e54ca2f2e475&src=seo_token) | Ethereum | 0.04% | $1.69M |
 | [pendle →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token) | Ethereum | 8.28% | $1.33M |
 | [pendle →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token) | Ethereum | 8.81% | $1.33M |
 
@@ -17,7 +18,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.81%예요.
 
 ### SUSN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $11.21M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $10.49M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.81%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 6, 2026
+## 마지막 업데이트: August 7, 2026

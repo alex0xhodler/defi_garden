@@ -1,17 +1,17 @@
 # USDT0 DeFi Yields
 
-The highest honest USDT0 yield right now is 13.62% on curve-dex (Monad), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDT0 yield right now is 13.17% on curve-dex (Monad), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 3.47% | $59.03M |
-| [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.58% | $46.16M |
-| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 3.84% | $40.95M |
-| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.76% | $21.24M |
-| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 2.63% | $13.38M |
-| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 5.07% | $3.7M |
-| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 13.62% | $2.88M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=863490fc-3912-58cc-b93c-d53d1a19c876&src=seo_token) | Monad | 0.03% | $1.86M |
+| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 3.22% | $83.17M |
+| [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.59% | $46.02M |
+| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 3.85% | $40.71M |
+| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.65% | $15.51M |
+| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 2.65% | $13.29M |
+| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 5.07% | $3.44M |
+| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 13.17% | $2.91M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=863490fc-3912-58cc-b93c-d53d1a19c876&src=seo_token) | Monad | 0.24% | $1.86M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDT0 yield today?
 
-13.62% APY on curve-dex (Monad), based on live DefiLlama data.
+13.17% APY on curve-dex (Monad), based on live DefiLlama data.
 
 ### How many USDT0 pools clear the TVL floor?
 
-27 live pools clear this page's $100K TVL floor, $199.17M in total.
+27 live pools clear this page's $100K TVL floor, $216.9M in total.
 
 ### Are these rates safe?
 
@@ -31,12 +31,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 
 ## Available on
 
@@ -45,4 +45,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Monad](https://www.defi.garden/chains/monad)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 6, 2026
+## Last updated August 7, 2026
