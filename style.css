@@ -2829,6 +2829,15 @@ body {
   color: var(--color-text-secondary);
   background: transparent;
   white-space: nowrap;
+  /* The shared .calculate-yield-btn-new base rule (style.css end) still
+     carries `margin-top: var(--space-8)` for the grid/card layout it was
+     built for. .pool-cta-section centers this button via flexbox
+     align-items:center, so that un-reset 8px top margin (0 on bottom) shifts
+     the button's own centered position 4px below the row's true vertical
+     center — visibly off from `.tvl-value` next to it. `.pools-grid`'s own
+     override already resets this (see `.pools-grid .pool-cta-section
+     .calculate-yield-btn-new` below); list view needs the identical reset. */
+  margin-top: 0;
 }
 
 .pools-list .pool-cta-section .calculate-yield-btn-new:hover,

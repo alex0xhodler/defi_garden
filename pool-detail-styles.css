@@ -1512,6 +1512,15 @@ a.pool-token-chip:hover {
   max-width: none;
   padding: 0;
   display: block;
+  /* 247 world fix: `.app:not(.has-results) .container` (style.css, "Add
+     slight upward shift for Google-style positioning") also matches here —
+     pool-detail-view never carries `.has-results` — and pulls this column up
+     by 5vh, sliding the certificate's top (title/ornament frame) behind the
+     opaque fixed `.app-header-sticky` band above at rest, worse the taller
+     the viewport. That -5vh belongs to the homepage's centered search
+     composition only; a document view flows from the top against its own
+     `padding-top` clearance (above) instead. */
+  transform: none;
 }
 
 .pool-detail-container {

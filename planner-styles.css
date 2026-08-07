@@ -25,8 +25,26 @@
   width: 100%;
   margin: 0 auto;
   gap: var(--space-16);
+  position: relative;
+}
+
+/* Full-bleed band: the row above stays inset to the planner's shared content
+   width, but its background/border-bottom need to span the whole viewport
+   like the grid/pool `.app-header-sticky` band (style.css) and the landing
+   header (landing-styles.css) do — this pseudo carries that, off the
+   header's own `position: relative` so it never disturbs the row's layout. */
+.gp-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
   background: var(--ui-surface);
   border-bottom: 1px solid var(--ui-border);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .gp-logo {

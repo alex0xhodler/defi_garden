@@ -183,8 +183,25 @@
   align-items: center;
   justify-content: space-between;
   gap: 28px;
+}
+
+/* Full-bleed band: the header row above stays inset to the shared content
+   width, but its background/border-bottom need to span the whole viewport
+   like the grid/pool `.app-header-sticky` band (style.css) does — this
+   pseudo carries that, positioned off the header's own `position: relative`
+   (above) so it never disturbs the row's own centered flex layout. */
+.landing-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
   background: var(--ui-surface);
   border-bottom: 1px solid var(--ui-border);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .landing-brand {
