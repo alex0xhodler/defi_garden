@@ -311,7 +311,8 @@ async function main() {
       const collapsed = await page.evaluate(() => ({
         warnings: Array.from(document.querySelectorAll('.calc-warning')).map((n) => n.textContent.trim()),
         disclaimerCount: document.querySelectorAll('.calc-disclaimer').length,
-        primaryCtaCount: document.querySelectorAll('.cta-button-primary').length
+        primaryCtaCount: document.querySelectorAll('.cta-button-primary').length,
+        echoLinkCount: document.querySelectorAll('.cta-echo-link').length
       }));
 
       const anomalyCount = collapsed.warnings.filter((w) => w === tr.en.calcAnomalyWarning).length;
@@ -327,12 +328,14 @@ async function main() {
       if (collapsed.disclaimerCount !== 1) {
         throw new Error(`collapsed: expected exactly 1 .calc-disclaimer, got ${collapsed.disclaimerCount}`);
       }
-      // Sanity: the repeat CTA (with its still-concrete-when-non-anomalous
-      // label) is the exact reachable state the coordinator's report
-      // described — both primaries should still be present alongside the
-      // now-restored warnings/disclaimer.
-      if (collapsed.primaryCtaCount !== 2) {
-        throw new Error(`collapsed: expected 2 .cta-button-primary (hero + repeat) still present, got ${collapsed.primaryCtaCount}`);
+      // Sanity: the hero primary AND the earnings-block echo link (237: the
+      // repeat CTA is no longer a second .cta-button-primary) should still
+      // be present alongside the now-restored warnings/disclaimer.
+      if (collapsed.primaryCtaCount !== 1) {
+        throw new Error(`collapsed: expected exactly 1 .cta-button-primary (hero only), got ${collapsed.primaryCtaCount}`);
+      }
+      if (collapsed.echoLinkCount !== 1) {
+        throw new Error(`collapsed: expected the earnings-block .cta-echo-link to survive collapsing, got ${collapsed.echoLinkCount}`);
       }
 
       // Restore expanded state so it doesn't leak into any later render on

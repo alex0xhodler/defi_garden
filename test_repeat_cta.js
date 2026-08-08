@@ -1,31 +1,29 @@
-/* Rendered Playwright test for backlog 125 — repeat CTA block, now inside the
-   earnings block (spec 210 moved it there from the page bottom).
+/* Rendered Playwright test for backlog 237 — exactly ONE "Garden this pool"
+   primary CTA per pool-detail page (supersedes 210/125's two-full-strength-
+   CTA pattern; see specs/237.md).
 
-   210 rationale for what changed here (see specs/210-notes.md for the full
-   line-by-line justification): the repeat CTA used to sit AFTER Pool
-   Information ("can convert without scrolling back up"). 210 relocates it to
-   the END of the merged calculator-compact "your garden" earnings block —
-   the moment the user has parameterised the projection with their own
-   amount, which 210's evidence identified as the actual intent peak. It is
-   now BEFORE `.pool-info-section` in DOM order, and its `ctaPlacement`
-   changed from `'repeat_footer'` to `'earnings_block'` so hero-vs-earnings-
-   block click share stays readable from the existing event (load-bearing
-   per 210's acceptance criteria — keeping the old string would silently
-   un-measure the move).
-
-   This test proves, against a REAL chromium render of a `?pool=<id>` landing
-   (not source reading):
-   (1) exactly TWO `.cta-button-primary` render (hero + repeat), the repeat
-       one appears BEFORE `.pool-info-section` in DOM order (inside the
-       earnings block), and NO CTA renders after `.pool-info-section`;
-   (2) clicking the REPEAT "Garden this pool" fires exactly one
-       `pool_click{source=garden_cta, ctaPlacement=earnings_block}` with
-       non-empty segmentation props;
-   (3) clicking the REPEAT "Start Earning on <protocol>" fires exactly one
-       `pool_click{source=protocol_link, ctaPlacement=earnings_block}`, no nav;
-   (4) the HERO "Garden this pool" still fires
-       `pool_click{source=garden_cta, ctaPlacement=hero}` (no regression);
-   (5) no unexpected page/console errors.
+   UX audit F2 found the hero CTA pair rendering TWICE at full visual weight
+   (hero + the earnings-block "repeat" — audit C3 confirmed the computed
+   style was byte-identical to the hero even after 225 round 3c's "slim
+   echo" language, because the repeat kept the `.cta-button-primary` class).
+   This test proves, against a REAL chromium render on BOTH pool-detail entry
+   paths named by the spec's acceptance criterion (url_direct + card_click):
+   (1) exactly ONE `.cta-button-primary` (hero) and ONE `.cta-button-protocol`
+       (hero) render on the page — the earnings block's echo is neither;
+   (2) exactly ONE `.cta-echo-link` renders (the earnings block's slim
+       contextual echo), and it navigates to the SAME planner destination as
+       the hero CTA (identical href — both bind the same `gardenThisPoolHref`
+       constant in PoolDetail.js);
+   (3) clicking the echo fires `pool_click{source=garden_cta,
+       ctaPlacement=earnings_block, cta_position=calculator}`;
+   (4) the hero still fires `pool_click{source=garden_cta, ctaPlacement=hero,
+       cta_position=hero}` (no regression from 237's added `cta_position`);
+   (4b) the same 1/1/1 count contract + href parity hold after the card_click
+       entry path (grid -> click a `.pool-card` -> detail);
+   (5) non-vacuity: injecting a second `.cta-button-primary` into the live
+       DOM turns the count assertion red; removing it turns it green again —
+       proves the assertion isn't vacuously true;
+   (6) no unexpected page/console errors.
 
    Same house pattern as test_northstar_cta_fires.js: spy point is
    Analytics.track (the pre-mixpanel choke point), fixture-routed (unpkg
@@ -55,7 +53,14 @@ const URL_DIRECT_POOL = {
   project: 'lido', symbol: 'STETH', chain: 'Ethereum',
   tvlUsd: 17_622_166_047, apyBase: 2.163, apyReward: 0
 };
-const FIXTURE = JSON.stringify({ status: 'success', data: [URL_DIRECT_POOL] });
+// Second pool for the card_click leg (spec 237's acceptance criterion names
+// BOTH entry paths explicitly) — mirrors test_northstar_cta_fires.js's
+// CARD_CLICK_POOL pattern.
+const CARD_CLICK_POOL = {
+  pool: 'usdc-base-aave-test', project: 'aave-v3', symbol: 'USDC', chain: 'Base',
+  tvlUsd: 45_000_000, apyBase: 4.2, apyReward: 0
+};
+const FIXTURE = JSON.stringify({ status: 'success', data: [URL_DIRECT_POOL, CARD_CLICK_POOL] });
 
 let passed = 0;
 async function test(name, fn) {
@@ -84,7 +89,7 @@ function startServer() {
 // every real navigation — call this exactly ONCE per page.
 //
 // Also intercepts the two CTAs at the document capture phase to preventDefault
-// their native browser action (the "Garden this pool" CTA is a real <a href>
+// their native browser action (the "Garden this pool" CTAs are real <a href>
 // into the planner; a real click would navigate this test page away before
 // events can be read back) WITHOUT calling stopPropagation, so React's own
 // bubble-phase onClick (and the Analytics.trackPoolClick call inside it) still
@@ -95,7 +100,7 @@ async function installTrackSpy(page) {
     window.__events = [];
     window.open = () => null;
     document.addEventListener('click', (e) => {
-      if (e.target.closest('.cta-button-primary, .cta-button-protocol')) e.preventDefault();
+      if (e.target.closest('.cta-button-primary, .cta-button-protocol, .cta-echo-link')) e.preventDefault();
     }, true);
     const install = () => {
       if (typeof Analytics === 'undefined' || !Analytics.track) { setTimeout(install, 0); return; }
@@ -144,6 +149,22 @@ function assertSegmentationProps(eventData, expectedSource, label) {
   }
 }
 
+// The 237 count contract, in-page: exactly one of each CTA class. Thrown as
+// an Error (not a bare assert) so the non-vacuity test can catch it.
+async function countCtaClasses(page) {
+  return page.evaluate(() => ({
+    primary: document.querySelectorAll('.cta-button-primary').length,
+    protocol: document.querySelectorAll('.cta-button-protocol').length,
+    echo: document.querySelectorAll('.cta-echo-link').length
+  }));
+}
+
+function assertExactlyOneOfEach(counts, label) {
+  if (counts.primary !== 1) throw new Error(`${label}: expected exactly 1 .cta-button-primary (hero only), got ${counts.primary}`);
+  if (counts.protocol !== 1) throw new Error(`${label}: expected exactly 1 .cta-button-protocol (hero only), got ${counts.protocol}`);
+  if (counts.echo !== 1) throw new Error(`${label}: expected exactly 1 .cta-echo-link (calculator echo), got ${counts.echo}`);
+}
+
 async function main() {
   // Sanity check: the fixture pool id is real, drawn from the committed
   // snapshot — not invented.
@@ -178,73 +199,101 @@ async function main() {
     await page.goto(`http://localhost:${PORT}/home.html?pool=${encodeURIComponent(URL_DIRECT_POOL.pool)}`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('.pool-detail-view', { timeout: 15000 });
 
-    // (1) exactly TWO .cta-button-primary; the 2nd is BEFORE .pool-info-section
-    // (210: relocated inside the earnings block), and NO CTA renders after
-    // .pool-info-section (the page must not end on a verbatim repeat).
-    await test('exactly 2 .cta-button-primary render; repeat one is BEFORE .pool-info-section (earnings block), none after', async () => {
-      const count = await page.locator('.cta-button-primary').count();
-      if (count !== 2) throw new Error(`expected exactly 2 .cta-button-primary (hero + repeat), got ${count}`);
-      const result = await page.evaluate(() => {
-        const primaries = Array.from(document.querySelectorAll('.cta-button-primary'));
-        // The Pool Information collapsible section (the LAST .pool-info-section
-        // — there is also a hero left-column .pool-info-section). Use the last one.
-        const infoSections = Array.from(document.querySelectorAll('.pool-info-section'));
-        const poolInfo = infoSections[infoSections.length - 1];
-        const repeat = primaries[1];
-        // Node.DOCUMENT_POSITION_FOLLOWING (4): repeat is followed by poolInfo,
-        // i.e. repeat comes BEFORE poolInfo in DOM order.
-        const repeatBeforeInfo = !!(repeat.compareDocumentPosition(poolInfo) & Node.DOCUMENT_POSITION_FOLLOWING);
-        // No .cta-button-primary/.cta-button-protocol may render after poolInfo.
-        const anyCtaAfterInfo = Array.from(document.querySelectorAll('.cta-button-primary, .cta-button-protocol'))
-          .some((cta) => !!(poolInfo.compareDocumentPosition(cta) & Node.DOCUMENT_POSITION_FOLLOWING));
-        return { repeatBeforeInfo, anyCtaAfterInfo };
-      });
-      if (!result.repeatBeforeInfo) throw new Error('the 2nd (repeat) .cta-button-primary is NOT before .pool-info-section in DOM order');
-      if (result.anyCtaAfterInfo) throw new Error('a CTA renders AFTER .pool-info-section — the page must not end on a verbatim repeat (210)');
+    // (1) exactly ONE of each CTA class — the 237 count contract.
+    await test('exactly 1 .cta-button-primary + 1 .cta-button-protocol (both hero) + 1 .cta-echo-link (calculator echo)', async () => {
+      const counts = await countCtaClasses(page);
+      assertExactlyOneOfEach(counts, '237 count contract');
     });
 
-    // (2) repeat garden_cta fires pool_click{source=garden_cta, ctaPlacement=earnings_block}
-    await test('repeat "Garden this pool" fires pool_click(source=garden_cta, ctaPlacement=earnings_block) with segmentation props', async () => {
+    // (2) the echo navigates to the SAME planner destination as the hero.
+    await test('calculator echo href matches hero href exactly (same planner destination)', async () => {
+      const [heroHref, echoHref] = await Promise.all([
+        page.locator('.cta-button-primary').first().getAttribute('href'),
+        page.locator('.cta-echo-link').first().getAttribute('href')
+      ]);
+      if (!heroHref) throw new Error('hero .cta-button-primary has no href');
+      if (heroHref !== echoHref) throw new Error(`hero href "${heroHref}" !== echo href "${echoHref}"`);
+    });
+
+    // (3) echo click fires pool_click(source=garden_cta, ctaPlacement=earnings_block, cta_position=calculator)
+    await test('calculator echo "Garden this pool" fires pool_click(source=garden_cta, ctaPlacement=earnings_block, cta_position=calculator)', async () => {
       await resetEvents(page);
-      const repeat = page.locator('.cta-button-primary').nth(1);
-      await repeat.scrollIntoViewIfNeeded();
-      await repeat.click();
+      const echo = page.locator('.cta-echo-link').first();
+      await echo.scrollIntoViewIfNeeded();
+      await echo.click();
       const events = await pollEvents(page, (evs) => evs.some((e) => e.eventName === 'pool_click' && e.eventData.source === 'garden_cta'), 5000);
       const clicks = events.filter((e) => e.eventName === 'pool_click' && e.eventData.source === 'garden_cta');
       if (clicks.length !== 1) throw new Error(`expected exactly one pool_click(source=garden_cta), got ${JSON.stringify(clicks)}`);
       if (clicks[0].eventData.ctaPlacement !== 'earnings_block') throw new Error(`expected ctaPlacement=earnings_block, got ${JSON.stringify(clicks[0].eventData)}`);
-      assertSegmentationProps(clicks[0].eventData, 'garden_cta', 'repeat garden_cta pool_click');
+      if (clicks[0].eventData.cta_position !== 'calculator') throw new Error(`expected cta_position=calculator, got ${JSON.stringify(clicks[0].eventData)}`);
+      assertSegmentationProps(clicks[0].eventData, 'garden_cta', 'calculator echo garden_cta pool_click');
     });
 
-    // (3) repeat protocol_link fires pool_click{source=protocol_link, ctaPlacement=earnings_block}, no nav
-    await test('repeat "Start Earning on <protocol>" fires pool_click(source=protocol_link, ctaPlacement=earnings_block), no navigation', async () => {
+    // (4) hero garden_cta still fires pool_click(source=garden_cta, ctaPlacement=hero, cta_position=hero)
+    await test('hero "Garden this pool" fires pool_click(source=garden_cta, ctaPlacement=hero, cta_position=hero)', async () => {
       await resetEvents(page);
-      const link = page.locator('.cta-button-protocol').nth(1);
-      if ((await page.locator('.cta-button-protocol').count()) !== 2) throw new Error('expected exactly 2 .cta-button-protocol (hero + repeat) for a pool with a known protocol URL (lido)');
-      await link.scrollIntoViewIfNeeded();
-      await link.click();
-      const events = await pollEvents(page, (evs) => evs.some((e) => e.eventName === 'pool_click' && e.eventData.source === 'protocol_link'), 5000);
-      const clicks = events.filter((e) => e.eventName === 'pool_click' && e.eventData.source === 'protocol_link');
-      if (clicks.length !== 1) throw new Error(`expected exactly one pool_click(source=protocol_link), got ${JSON.stringify(clicks)}`);
-      if (clicks[0].eventData.ctaPlacement !== 'earnings_block') throw new Error(`expected ctaPlacement=earnings_block, got ${JSON.stringify(clicks[0].eventData)}`);
-      assertSegmentationProps(clicks[0].eventData, 'protocol_link', 'repeat protocol_link pool_click');
-      if (page.url().includes('lido.fi')) throw new Error('protocol_link click navigated the test page away — window.open was not intercepted');
-    });
-
-    // (4) hero garden_cta still fires pool_click{source=garden_cta, ctaPlacement=hero}
-    await test('hero "Garden this pool" fires pool_click(source=garden_cta, ctaPlacement=hero)', async () => {
-      await resetEvents(page);
-      const hero = page.locator('.cta-button-primary').nth(0);
+      const hero = page.locator('.cta-button-primary').first();
       await hero.scrollIntoViewIfNeeded();
       await hero.click();
       const events = await pollEvents(page, (evs) => evs.some((e) => e.eventName === 'pool_click' && e.eventData.source === 'garden_cta'), 5000);
       const clicks = events.filter((e) => e.eventName === 'pool_click' && e.eventData.source === 'garden_cta');
       if (clicks.length !== 1) throw new Error(`expected exactly one pool_click(source=garden_cta), got ${JSON.stringify(clicks)}`);
       if (clicks[0].eventData.ctaPlacement !== 'hero') throw new Error(`expected ctaPlacement=hero, got ${JSON.stringify(clicks[0].eventData)}`);
+      if (clicks[0].eventData.cta_position !== 'hero') throw new Error(`expected cta_position=hero, got ${JSON.stringify(clicks[0].eventData)}`);
       assertSegmentationProps(clicks[0].eventData, 'garden_cta', 'hero garden_cta pool_click');
     });
 
-    // (5) no unexpected page/console errors
+    // (4b) card_click entry path — spec 237's acceptance criterion names
+    // BOTH url_direct and card_click explicitly. PoolDetail renders from the
+    // same component regardless of entry path (no branch keyed on `source`),
+    // but the count contract gets its own real render here rather than
+    // resting on that as an assumption.
+    await test('card_click entry path: same 1/1/1 CTA count contract holds after grid -> card click -> detail', async () => {
+      await page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.pool-card', { timeout: 15000 });
+      await page.locator('.pool-card').first().click();
+      await page.waitForSelector('.pool-detail-view', { timeout: 10000 });
+      const counts = await countCtaClasses(page);
+      assertExactlyOneOfEach(counts, 'card_click count contract');
+    });
+
+    await test('card_click entry path: calculator echo href matches hero href exactly', async () => {
+      const [heroHref, echoHref] = await Promise.all([
+        page.locator('.cta-button-primary').first().getAttribute('href'),
+        page.locator('.cta-echo-link').first().getAttribute('href')
+      ]);
+      if (!heroHref) throw new Error('hero .cta-button-primary has no href');
+      if (heroHref !== echoHref) throw new Error(`hero href "${heroHref}" !== echo href "${echoHref}"`);
+    });
+
+    // (5) Non-vacuity: prove the count assertion actually distinguishes 1
+    // from 2 — inject a second .cta-button-primary into the live DOM, assert
+    // RED, remove it, assert GREEN again (byte-identical restore: the clone
+    // is appended/removed, no source node is ever touched).
+    await test('non-vacuity: injecting a second .cta-button-primary turns the count assertion red, removing it turns it green', async () => {
+      const before = await countCtaClasses(page);
+      assertExactlyOneOfEach(before, 'non-vacuity baseline');
+
+      await page.evaluate(() => {
+        const original = document.querySelector('.cta-button-primary');
+        const clone = original.cloneNode(true);
+        clone.setAttribute('data-nonvacuity-probe', '1');
+        original.parentElement.appendChild(clone);
+      });
+      const withInjected = await countCtaClasses(page);
+      let wentRed = false;
+      try { assertExactlyOneOfEach(withInjected, 'with injected duplicate'); }
+      catch (e) { wentRed = true; }
+      if (!wentRed) throw new Error(`injecting a 2nd .cta-button-primary did NOT turn the count assertion red — counts: ${JSON.stringify(withInjected)}`);
+
+      await page.evaluate(() => {
+        document.querySelector('[data-nonvacuity-probe="1"]').remove();
+      });
+      const after = await countCtaClasses(page);
+      assertExactlyOneOfEach(after, 'after restore');
+    });
+
+    // (6) no unexpected page/console errors
     await test('no unexpected page/console errors', async () => {
       if (pageErrors.length) throw new Error(pageErrors.join('\n    '));
     });
@@ -252,7 +301,7 @@ async function main() {
     await browser.close();
     server.close();
   }
-  console.log(`test_repeat_cta.js: ${passed}/5 tests passed`);
+  console.log(`test_repeat_cta.js: ${passed}/8 tests passed`);
   if (process.exitCode) process.exit(process.exitCode);
 }
 

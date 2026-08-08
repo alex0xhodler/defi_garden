@@ -256,7 +256,13 @@ const Analytics = {
       // the planner's "Start growing on <project>" CTA (source=plan_checkout).
       // Additive only, same pattern as ctaPlacement above — null for every
       // pre-existing pool_click emitter, north-star `source` filter unchanged.
-      archetype: context.archetype || null
+      archetype: context.archetype || null,
+      // 237: 'hero' | 'calculator' — spec-literal snake_case name distinguishing
+      // the one primary garden_cta from its slim calculator echo, now that the
+      // echo is no longer a second full-strength CTA. Additive/null for every
+      // other pool_click emitter; ctaPlacement above is kept verbatim for
+      // backward compatibility with existing reports.
+      cta_position: context.ctaPosition || null
     });
   },
 
