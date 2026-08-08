@@ -25,7 +25,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | morpho-blue | 7.23% | 7.01% | Base rate |
-| morpho-blue | 0.06% | 0.23% | Base rate |
+| morpho-blue | 0.06% | 0.22% | Base rate |
 | morpho-blue | 2.82% | 2.75% | Base rate |
 | morpho-blue | 3.01% | 3.67% | Base rate |
 | morpho-blue | 2.58% | 2.88% | Base rate |
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YIELD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $12.8M in total.
+5 live pools clear this page's $100K TVL floor, $12.81M in total.
 
 ### Are these rates safe?
 

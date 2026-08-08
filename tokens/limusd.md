@@ -25,7 +25,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | liminal-basis | 7.61% | 7.73% | Base rate |
 | liminal-basis | 7.89% | 7.71% | Base rate |
 | pendle | 9.09% | 9.24% | Base rate |
-| pendle | 9.84% | 8.72% | Base rate |
+| pendle | 9.84% | 8.71% | Base rate |
 | liminal-basis | 7.89% | 7.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

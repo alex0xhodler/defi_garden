@@ -4,8 +4,8 @@ The highest honest XSWAP yield right now is 0.95% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token) | Ethereum | 0.95% | $202.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token) | Base | 0.44% | $126.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token) | Ethereum | 0.95% | $202.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token) | Base | 0.44% | $126.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XSWAP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $328.6K in total.
+2 live pools clear this page's $100K TVL floor, $328.8K in total.
 
 ### Are these rates safe?
 

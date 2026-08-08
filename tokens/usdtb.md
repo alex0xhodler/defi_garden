@@ -4,17 +4,17 @@ The highest honest USDTB yield right now is 5.85% on fluid-lending (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.30% | $20.07M |
-| [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.63% | $6.96M |
+| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.24% | $20.07M |
+| [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.63% | $6.97M |
 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.85% | $2.22M |
 | [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 1.43% | $1.62M |
-| [euler-v2 →](https://www.defi.garden/?pool=a3a7fb56-b19a-4dc8-a3f1-285cb38c5885&src=seo_token) | Ethereum | 2.17% | $162.4K |
+| [euler-v2 →](https://www.defi.garden/?pool=a3a7fb56-b19a-4dc8-a3f1-285cb38c5885&src=seo_token) | Ethereum | 2.23% | $159.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDTB shows up in 5 pools here, with rates from 0.30% to 5.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDTB shows up in 5 pools here, with rates from 0.24% to 5.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,11 +22,11 @@ USDTB shows up in 5 pools here, with rates from 0.30% to 5.85% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.30% | 0.32% | Base rate |
-| aave-v3 | 5.63% | 6.22% | 60.38% incentives |
+| curve-dex | 0.24% | 0.32% | Base rate |
+| aave-v3 | 5.63% | 6.23% | 60.38% incentives |
 | fluid-lending | 5.85% | 5.91% | 58.12% incentives |
-| fluid-dex | 1.43% | 1.13% | Base rate |
-| euler-v2 | 2.17% | 9.53% | Base rate |
+| fluid-dex | 1.43% | 1.14% | Base rate |
+| euler-v2 | 2.23% | 9.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -4,8 +4,8 @@ The highest honest STRUSD yield right now is 12.51% on pendle (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 11.04% | $42.16M |
-| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.49% | $10.06M |
+| [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 10.96% | $42.43M |
+| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.45% | $10.06M |
 | [pendle →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.59% | $7.11M |
 | [pendle →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 12.51% | $7.11M |
 
@@ -13,16 +13,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-STRUSD shows up in 4 pools here, with rates from 5.49% to 12.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRUSD shows up in 4 pools here, with rates from 5.45% to 12.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 12.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 12.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tori-finance | 11.04% | 12.54% | Base rate |
-| curve-dex | 5.49% | 5.59% | Base rate |
+| tori-finance | 10.96% | 12.52% | Base rate |
+| curve-dex | 5.45% | 5.59% | Base rate |
 | pendle | 11.59% | 11.86% | Base rate |
 | pendle | 12.51% | 16.24% | 6.17% incentives |
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $75.8M in total.
+6 live pools clear this page's $100K TVL floor, $76.38M in total.
 
 ### Are these rates safe?
 

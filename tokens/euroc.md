@@ -6,13 +6,13 @@ The highest honest EUROC yield right now is 5.54% on uniswap-v3 (Ethereum), amon
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.39% | $5.81M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token) | Ethereum | 5.54% | $5.13M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 0.23% | $224.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 0.28% | $224.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EUROC shows up in 3 pools here, with rates from 0.23% to 5.54% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EUROC shows up in 3 pools here, with rates from 0.28% to 5.54% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,8 +23,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.39% | 0.42% | Base rate |
-| uniswap-v3 | 5.54% | 5.62% | Base rate |
-| uniswap-v3 | 0.23% | 0.43% | Base rate |
+| uniswap-v3 | 5.54% | 5.56% | Base rate |
+| uniswap-v3 | 0.28% | 0.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

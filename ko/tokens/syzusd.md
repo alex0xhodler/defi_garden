@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 8.23% | $27.07M |
-| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 8.23% | $11.95M |
-| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 8.23% | $9.04M |
-| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 8.23% | $1.29M |
+| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 8.21% | $27.08M |
+| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 8.21% | $11.96M |
+| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 8.21% | $9.04M |
+| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 8.21% | $1.29M |
 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.09M |
 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 8.45% | $363.6K |
 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 14.65% | $116.3K |
@@ -24,13 +24,13 @@ SYZUSD 풀은 여기 7개가 있고, 4개 체인에서 APY가 0.20%부터 14.65%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| yuzu-money | 8.23% | 7.89% | 기본 금리 |
-| yuzu-money | 8.23% | 7.89% | 기본 금리 |
-| yuzu-money | 8.23% | 7.89% | 기본 금리 |
-| yuzu-money | 8.23% | 7.89% | 기본 금리 |
+| yuzu-money | 8.21% | 7.89% | 기본 금리 |
+| yuzu-money | 8.21% | 7.89% | 기본 금리 |
+| yuzu-money | 8.21% | 7.89% | 기본 금리 |
+| yuzu-money | 8.21% | 7.89% | 기본 금리 |
 | curvance | 0.20% | 0.20% | 인센티브 100.00% |
-| balancer-v3 | 8.45% | 11.35% | 인센티브 13.08% |
-| balancer-v3 | 14.65% | 11.73% | 인센티브 65.25% |
+| balancer-v3 | 8.45% | 11.33% | 인센티브 13.08% |
+| balancer-v3 | 14.65% | 11.74% | 인센티브 65.25% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,7 +42,7 @@ DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 14.65%예�
 
 ### SYZUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $52.66M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $52.67M예요.
 
 ### 이 수익률은 안전한가요?
 

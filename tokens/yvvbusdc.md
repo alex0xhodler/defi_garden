@@ -4,8 +4,8 @@ The highest honest YVVBUSDC yield right now is 6.05% on spectra-v2 (Katana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=f4256fda-7b45-42b2-8ae3-e10fe7f63c57&src=seo_token) | Katana | 6.05% | $390.2K |
 | [spectra-v2 →](https://www.defi.garden/?pool=9708b5ed-cb84-4d9c-970a-3619c321beb3&src=seo_token) | Katana | 1.19% | $390.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=f4256fda-7b45-42b2-8ae3-e10fe7f63c57&src=seo_token) | Katana | 6.05% | $390.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,8 +19,8 @@ YVVBUSDC shows up in 2 pools here, with rates from 1.19% to 6.05% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| spectra-v2 | 1.19% | 7.62% | 100.00% incentives |
 | spectra-v2 | 6.05% | 8.13% | 19.63% incentives |
-| spectra-v2 | 1.19% | 7.63% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YVVBUSDC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.35M in total.
+3 live pools clear this page's $100K TVL floor, $2.36M in total.
 
 ### Are these rates safe?
 

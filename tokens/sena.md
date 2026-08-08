@@ -6,7 +6,7 @@ The highest honest SENA yield right now is 14.62% on pendle (Ethereum), among 3 
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.62% | $2.82M |
 | [pendle →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 6.17% | $2.82M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.11% | $1.83M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.11% | $1.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ SENA shows up in 3 pools here, with rates from 0.11% to 14.62% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 14.62% | 14.41% | Base rate |
+| pendle | 14.62% | 14.42% | Base rate |
 | pendle | 6.17% | 6.05% | 5.30% incentives |
 | uniswap-v3 | 0.11% | 0.02% | Base rate |
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SENA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $7.48M in total.
+3 live pools clear this page's $100K TVL floor, $7.49M in total.
 
 ### Are these rates safe?
 

@@ -4,8 +4,8 @@ The highest honest 40ACRESUSDC yield right now is 12.62% on pendle (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=330a6316-3d6b-40c4-8f60-a71f44779f76&src=seo_token) | Base | 12.62% | $100.6K |
 | [pendle →](https://www.defi.garden/?pool=36ea8479-86ad-43c3-ba96-1837e17cf396&src=seo_token) | Base | 12.59% | $100.6K |
+| [pendle →](https://www.defi.garden/?pool=330a6316-3d6b-40c4-8f60-a71f44779f76&src=seo_token) | Base | 12.62% | $100.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,8 +19,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| pendle | 12.59% | 11.42% | Base rate |
 | pendle | 12.62% | 13.39% | Base rate |
-| pendle | 12.59% | 11.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,10 +42,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

@@ -22,9 +22,9 @@ GROVE shows up in 3 pools here, with rates from 3.32% to 6.05% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.61% | 3.57% | Base rate |
+| morpho-blue | 5.61% | 3.58% | Base rate |
 | morpho-blue | 3.32% | 3.72% | Base rate |
-| morpho-blue | 6.05% | 4.84% | 30.46% incentives |
+| morpho-blue | 6.05% | 4.83% | 30.36% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

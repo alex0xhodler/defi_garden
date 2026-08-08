@@ -4,7 +4,7 @@ The highest honest WOLF yield right now is 22.49% on uniswap-v4 (Base), among 6 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 4.27% | $582K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 4.35% | $583.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token) | Solana | 0.29% | $408.5K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token) | Base | 22.49% | $203K |
 | [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token) | Solana | 0.48% | $187.8K |
@@ -24,9 +24,9 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 4.27% | 4.46% | Base rate |
+| uniswap-v2 | 4.35% | 4.46% | Base rate |
 | raydium-amm | 0.29% | 0.46% | Base rate |
-| uniswap-v4 | 22.49% | 41.62% | Base rate |
+| uniswap-v4 | 22.49% | 39.80% | Base rate |
 | raydium-amm | 0.48% | 0.76% | Base rate |
 | raydium-amm | 1.05% | 1.08% | Base rate |
 

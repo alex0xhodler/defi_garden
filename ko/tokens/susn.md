@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token) | Ethereum | 8.27% | $1.33M |
 | [pendle →](https://www.defi.garden/?pool=ed801709-41f3-5cd0-9fd3-c4db7a9e1911&src=seo_token) | Ethereum | 8.09% | $1.33M |
+| [pendle →](https://www.defi.garden/?pool=0edc91ad-7a4d-58fa-9777-df65a86ffbea&src=seo_token) | Ethereum | 8.27% | $1.33M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,8 +19,8 @@ SUSN 풀은 여기 2개가 있고, 1개 체인에서 APY가 8.09%부터 8.27%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 8.27% | 9.16% | 기본 금리 |
 | pendle | 8.09% | 8.29% | 인센티브 4.86% |
+| pendle | 8.27% | 9.16% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

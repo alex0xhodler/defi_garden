@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.62% | $2.82M |
 | [pendle →](https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token) | Ethereum | 6.17% | $2.82M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.11% | $1.83M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.11% | $1.85M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -22,7 +22,7 @@ SENA 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.11%부터 14.62%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 14.62% | 14.41% | 기본 금리 |
+| pendle | 14.62% | 14.42% | 기본 금리 |
 | pendle | 6.17% | 6.05% | 인센티브 5.30% |
 | uniswap-v3 | 0.11% | 0.02% | 기본 금리 |
 
@@ -36,7 +36,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 14.62%예요.
 
 ### SENA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $7.48M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $7.49M예요.
 
 ### 이 수익률은 안전한가요?
 

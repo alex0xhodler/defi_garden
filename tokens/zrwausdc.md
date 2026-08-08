@@ -4,7 +4,7 @@ The highest honest ZRWAUSDC yield right now is 3.32% on lagoon (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=2abfb5d7-f91e-409a-87ac-014f90e8e8d1&src=seo_token) | Ethereum | 3.32% | $363.2K |
+| [lagoon →](https://www.defi.garden/?pool=2abfb5d7-f91e-409a-87ac-014f90e8e8d1&src=seo_token) | Ethereum | 3.32% | $363.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZRWAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $363.2K in total.
+1 live pool clear this page's $100K TVL floor, $363.3K in total.
 
 ### Are these rates safe?
 

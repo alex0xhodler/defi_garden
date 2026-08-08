@@ -1,25 +1,25 @@
 # OETH DeFi Yields
 
-The highest honest OETH yield right now is 6.28% on stake-dao (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OETH yield right now is 6.51% on stake-dao (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3&src=seo_token) | Ethereum | 2.65% | $46.03M |
-| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 3.03% | $42.94M |
-| [curve-dex →](https://www.defi.garden/?pool=18cb2d80-422e-4d0d-a223-66a307f06d8d&src=seo_token) | Ethereum | 0.14% | $1.15M |
-| [convex-finance →](https://www.defi.garden/?pool=b3a55ca0-e3fa-4888-be44-9abf91a33dc9&src=seo_token) | Ethereum | 0.29% | $1.15M |
-| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249&src=seo_token) | Ethereum | 2.48% | $897.6K |
-| [stake-dao →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc&src=seo_token) | Ethereum | 6.28% | $638.6K |
-| [curve-dex →](https://www.defi.garden/?pool=5a4c4cef-e95e-47c3-977a-e41d9fec6cdf&src=seo_token) | Ethereum | 0.17% | $171.5K |
-| [stake-dao →](https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token) | Ethereum | 0.22% | $166.9K |
+| [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3&src=seo_token) | Ethereum | 2.65% | $46.11M |
+| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 3.14% | $42.96M |
+| [curve-dex →](https://www.defi.garden/?pool=18cb2d80-422e-4d0d-a223-66a307f06d8d&src=seo_token) | Ethereum | 0.15% | $1.15M |
+| [convex-finance →](https://www.defi.garden/?pool=b3a55ca0-e3fa-4888-be44-9abf91a33dc9&src=seo_token) | Ethereum | 0.30% | $1.15M |
+| [curve-dex →](https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249&src=seo_token) | Ethereum | 2.49% | $897.7K |
+| [stake-dao →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc&src=seo_token) | Ethereum | 6.51% | $638.7K |
+| [curve-dex →](https://www.defi.garden/?pool=5a4c4cef-e95e-47c3-977a-e41d9fec6cdf&src=seo_token) | Ethereum | 0.26% | $171.6K |
+| [stake-dao →](https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token) | Ethereum | 0.22% | $167K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OETH shows up in 8 pools here, with rates from 0.14% to 6.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OETH shows up in 8 pools here, with rates from 0.15% to 6.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.24% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.21% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ OETH shows up in 8 pools here, with rates from 0.14% to 6.28% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| origin-ether | 2.65% | 2.27% | Base rate |
-| curve-dex | 3.03% | 2.12% | 99.34% incentives |
-| curve-dex | 0.14% | 0.21% | 100.00% incentives |
-| convex-finance | 0.29% | 0.31% | 75.54% incentives |
-| curve-dex | 2.48% | 4.20% | 80.63% incentives |
-| stake-dao | 6.28% | 4.39% | 99.84% incentives |
-| curve-dex | 0.17% | 6.90% | Base rate |
-| stake-dao | 0.22% | 7.99% | Base rate |
+| origin-ether | 2.65% | 2.28% | Base rate |
+| curve-dex | 3.14% | 2.13% | 99.36% incentives |
+| curve-dex | 0.15% | 0.21% | 100.00% incentives |
+| convex-finance | 0.30% | 0.31% | 76.30% incentives |
+| curve-dex | 2.49% | 4.15% | 83.57% incentives |
+| stake-dao | 6.51% | 4.42% | 99.85% incentives |
+| curve-dex | 0.26% | 6.87% | Base rate |
+| stake-dao | 0.22% | 7.94% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OETH yield today?
 
-6.28% APY on stake-dao (Ethereum), based on live DefiLlama data.
+6.51% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many OETH pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $110.99M in total.
+10 live pools clear this page's $100K TVL floor, $111.13M in total.
 
 ### Are these rates safe?
 

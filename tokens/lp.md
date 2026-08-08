@@ -1,6 +1,6 @@
 # LP DeFi Yields
 
-The highest honest LP yield right now is 0.28% on wombat-exchange (Arbitrum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LP yield right now is 0.30% on wombat-exchange (Arbitrum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -10,13 +10,13 @@ The highest honest LP yield right now is 0.28% on wombat-exchange (Arbitrum), am
 | [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.01% | $193.9K |
 | [wombat-exchange →](https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token) | BSC | 0.02% | $184K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
-| [wombat-exchange →](https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token) | Arbitrum | 0.28% | $103.2K |
+| [wombat-exchange →](https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token) | Arbitrum | 0.30% | $103.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LP shows up in 7 pools here, with rates from 0.01% to 0.28% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+LP shows up in 7 pools here, with rates from 0.01% to 0.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 7 of these 7 pools have a trustworthy 30-day average on file, with a median of 0.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -30,9 +30,9 @@ LP shows up in 7 pools here, with rates from 0.01% to 0.28% APY across 2 chains 
 | wombat-exchange | 0.03% | 0.03% | 100.00% incentives |
 | wombat-exchange | 0.05% | 0.05% | 99.98% incentives |
 | wombat-exchange | 0.01% | 0.02% | 100.00% incentives |
-| wombat-exchange | 0.02% | 0.03% | 100.00% incentives |
+| wombat-exchange | 0.02% | 0.02% | 100.00% incentives |
 | wombat-exchange | 0.09% | 0.09% | 100.00% incentives |
-| wombat-exchange | 0.28% | 0.22% | 56.47% incentives |
+| wombat-exchange | 0.30% | 0.22% | 53.68% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LP yield today?
 
-0.28% APY on wombat-exchange (Arbitrum), based on live DefiLlama data.
+0.30% APY on wombat-exchange (Arbitrum), based on live DefiLlama data.
 
 ### How many LP pools clear the TVL floor?
 

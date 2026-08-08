@@ -4,11 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 4.89% | $167.96M |
+| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 4.89% | $167.95M |
 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 3.56% | $20.36M |
-| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.21% | $9.65M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 1.63% | $9M |
-| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.06% | $3.4M |
+| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.25% | $9.65M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 0.01% | $9M |
+| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.05% | $3.4M |
 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 3.36% | $2.12M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 3.32% | $1.55M |
 | [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token) | Ethereum | 2.08% | $1.52M |
@@ -17,7 +17,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 4.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 4.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.32%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,12 +27,12 @@ PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 4.89%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| hastra | 4.89% | 5.54% | 기본 금리 |
+| hastra | 4.89% | 5.53% | 기본 금리 |
 | morpho-blue | 3.56% | 3.93% | 기본 금리 |
-| orca-dex | 0.21% | 0.92% | 기본 금리 |
-| uniswap-v3 | 1.63% | 3.22% | 기본 금리 |
-| orca-dex | 0.06% | 0.23% | 기본 금리 |
-| morpho-blue | 3.36% | 3.43% | 기본 금리 |
+| orca-dex | 0.25% | 0.90% | 기본 금리 |
+| uniswap-v3 | 0.01% | 3.22% | 기본 금리 |
+| orca-dex | 0.05% | 0.23% | 기본 금리 |
+| morpho-blue | 3.36% | 3.42% | 기본 금리 |
 | morpho-blue | 3.32% | 3.71% | 기본 금리 |
 | morpho-blue | 2.08% | 1.74% | 기본 금리 |
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Solana의 hastra에서 APY 4.89%예요.
 
 ### PRIME 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $575.27M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $575.21M예요.
 
 ### 이 수익률은 안전한가요?
 

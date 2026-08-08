@@ -4,7 +4,7 @@ The highest honest ROCKUSDM yield right now is 3.13% on lagoon (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=0f32f981-2ccc-42e2-8591-811867e5f200&src=seo_token) | Ethereum | 3.13% | $108.2K |
+| [lagoon →](https://www.defi.garden/?pool=0f32f981-2ccc-42e2-8591-811867e5f200&src=seo_token) | Ethereum | 3.13% | $108.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROCKUSDM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.2K in total.
+1 live pool clear this page's $100K TVL floor, $108.3K in total.
 
 ### Are these rates safe?
 

@@ -44,10 +44,10 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.04%예�
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
 
 ## 이용 가능한 체인
 

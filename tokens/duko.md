@@ -1,10 +1,10 @@
 # DUKO DeFi Yields
 
-The highest honest DUKO yield right now is 9.86% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUKO yield right now is 8.59% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=870cb804-842a-467e-9fbc-71857ab30b74&src=seo_token) | Solana | 9.86% | $135.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=870cb804-842a-467e-9fbc-71857ab30b74&src=seo_token) | Solana | 8.59% | $137K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DUKO yield today?
 
-9.86% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.59% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DUKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $135.4K in total.
+1 live pool clear this page's $100K TVL floor, $137K in total.
 
 ### Are these rates safe?
 
@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USTB](https://www.defi.garden/tokens/ustb)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

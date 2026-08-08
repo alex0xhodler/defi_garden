@@ -29,8 +29,8 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | morpho-blue | 3.56% | 3.93% | Base rate |
 | morpho-blue | 7.23% | 7.01% | Base rate |
-| morpho-blue | 0.06% | 0.23% | Base rate |
-| morpho-blue | 3.36% | 3.43% | Base rate |
+| morpho-blue | 0.06% | 0.22% | Base rate |
+| morpho-blue | 3.36% | 3.42% | Base rate |
 | morpho-blue | 2.82% | 2.75% | Base rate |
 | morpho-blue | 3.32% | 3.71% | Base rate |
 | morpho-blue | 2.08% | 1.74% | Base rate |
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KPK pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $38.36M in total.
+9 live pools clear this page's $100K TVL floor, $38.37M in total.
 
 ### Are these rates safe?
 

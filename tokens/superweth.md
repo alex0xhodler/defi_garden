@@ -4,10 +4,10 @@ The highest honest SUPERWETH yield right now is 5.09% on pendle (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.32% | $2.57M |
-| [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 5.09% | $398.6K |
+| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.32% | $2.58M |
 | [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.36% | $398.6K |
-| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.51% | $276.3K |
+| [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 5.09% | $398.6K |
+| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.50% | $276.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,10 +21,10 @@ SUPERWETH shows up in 4 pools here, with rates from 1.32% to 5.09% APY across 2 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| superform | 1.32% | 2.45% | 100.00% incentives |
+| superform | 1.32% | 2.44% | 100.00% incentives |
+| pendle | 4.36% | 5.09% | 24.32% incentives |
 | pendle | 5.09% | 6.41% | 20.81% incentives |
-| pendle | 4.36% | 5.10% | 24.32% incentives |
-| superform | 2.51% | 3.00% | 52.81% incentives |
+| superform | 2.50% | 3.00% | 52.69% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

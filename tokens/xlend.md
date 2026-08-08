@@ -4,7 +4,7 @@ The highest honest XLEND yield right now is 7.24% on liminal-basis (Arbitrum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 6.95% | $5.34M |
+| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 6.88% | $5.34M |
 | [liminal-basis →](https://www.defi.garden/?pool=8eff94a0-f3f9-59cc-9512-45d1f23da877&src=seo_token) | Arbitrum | 7.24% | $5.34M |
 | [liminal-basis →](https://www.defi.garden/?pool=422b0d2e-1548-57cf-99dd-bc923e329e4d&src=seo_token) | Ethereum | 7.24% | $5.34M |
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-XLEND shows up in 3 pools here, with rates from 6.95% to 7.24% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+XLEND shows up in 3 pools here, with rates from 6.88% to 7.24% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 7.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -20,7 +20,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| liminal-basis | 6.95% | 7.18% | Base rate |
+| liminal-basis | 6.88% | 7.18% | Base rate |
 | liminal-basis | 7.24% | 7.18% | Base rate |
 | liminal-basis | 7.24% | 7.18% | Base rate |
 

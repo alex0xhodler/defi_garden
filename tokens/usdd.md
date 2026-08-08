@@ -4,7 +4,7 @@ The highest honest USDD yield right now is 3.97% on justlend-v1 (Tron), among 5 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.97% | $452.2M |
+| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 3.97% | $452.19M |
 | [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.01% | $500.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=a94d0ddc-987e-40cc-b2a2-fcf6ac55c689&src=seo_token) | Solana | 0.02% | $350.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token) | Solana | 0.11% | $350.1K |
@@ -22,7 +22,7 @@ USDD shows up in 4 pools here, with rates from 0.01% to 3.97% APY across 2 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | justlend-v1 | 3.97% | 3.98% | 99.98% incentives |
-| raydium-amm | 0.01% | 0.15% | Base rate |
+| raydium-amm | 0.01% | 0.14% | Base rate |
 | raydium-amm | 0.02% | 0.12% | Base rate |
 | raydium-amm | 0.11% | 1.46% | Base rate |
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $453.6M in total.
+5 live pools clear this page's $100K TVL floor, $453.59M in total.
 
 ### Are these rates safe?
 
@@ -49,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [USTB](https://www.defi.garden/tokens/ustb)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

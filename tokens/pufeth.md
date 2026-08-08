@@ -4,13 +4,13 @@ The highest honest PUFETH yield right now is 9.75% on pendle (Ethereum), among 8
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.19% | $45.68M |
+| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.19% | $45.86M |
 | [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 42.04% | $2.2M |
-| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 25.31% | $1.28M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.51% | $573.4K |
+| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 25.30% | $1.28M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.50% | $574.5K |
 | [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 9.75% | $150.7K |
 | [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 12.50% | $150.7K |
-| [curve-dex →](https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token) | Ethereum | 28.69% | $101.1K |
+| [curve-dex →](https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token) | Ethereum | 28.68% | $101.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -24,13 +24,13 @@ PUFETH shows up in 7 pools here, with rates from 3.19% to 42.04% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| puffer-stake | 3.19% | 2.18% | 0.51% incentives |
-| curve-dex | 42.04% | 2.41% | 0.07% incentives |
-| curve-dex | 25.31% | 3.40% | 4.77% incentives |
-| uniswap-v3 | 4.51% | 4.12% | 99.10% incentives |
-| pendle | 9.75% | 6.89% | 64.93% incentives |
+| puffer-stake | 3.19% | 2.19% | 0.50% incentives |
+| curve-dex | 42.04% | 2.62% | 0.07% incentives |
+| curve-dex | 25.30% | 3.51% | 4.76% incentives |
+| uniswap-v3 | 4.50% | 4.12% | 99.10% incentives |
+| pendle | 9.75% | 6.94% | 64.93% incentives |
 | pendle | 12.50% | 4.74% | 50.64% incentives |
-| curve-dex | 28.69% | 6.77% | 17.71% incentives |
+| curve-dex | 28.68% | 6.87% | 17.68% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PUFETH pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $50.33M in total.
+8 live pools clear this page's $100K TVL floor, $50.52M in total.
 
 ### Are these rates safe?
 

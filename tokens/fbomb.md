@@ -1,24 +1,24 @@
 # FBOMB DeFi Yields
 
-The highest honest FBOMB yield right now is 105.31% on aerodrome-v1 (Base), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FBOMB yield right now is 105.02% on aerodrome-v1 (Base), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 58.12% | $2.16M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d&src=seo_token) | Base | 105.31% | $1.05M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc&src=seo_token) | Base | 20.16% | $365.8K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 47.51% | $364.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde&src=seo_token) | Base | 5.12% | $176.7K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=1a6f5da2-d9ca-4226-8230-9a2c12eef530&src=seo_token) | Base | 2.52% | $153K |
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.09% | $145.5K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e2c7a30e-cae6-419d-af75-b4bebd506879&src=seo_token) | Base | 58.13% | $2.15M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=ddf0bc37-9835-443b-bf1c-696cbd373e2d&src=seo_token) | Base | 105.02% | $1.05M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=3571b159-37b6-4f12-903e-55212ddfc6bc&src=seo_token) | Base | 20.09% | $365K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 47.39% | $361.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f5d42b5f-40b7-45b8-b5f2-b15c39378cde&src=seo_token) | Base | 5.10% | $176.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=1a6f5da2-d9ca-4226-8230-9a2c12eef530&src=seo_token) | Base | 2.51% | $152.7K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.20% | $146.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FBOMB shows up in 7 pools here, with rates from 2.09% to 105.31% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+FBOMB shows up in 7 pools here, with rates from 2.20% to 105.02% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 63.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 62.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 7 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -26,13 +26,13 @@ FBOMB shows up in 7 pools here, with rates from 2.09% to 105.31% APY across 3 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 58.12% | 85.12% | 100.00% incentives |
-| aerodrome-v1 | 105.31% | 101.88% | 100.00% incentives |
-| aerodrome-v1 | 20.16% | 97.27% | 100.00% incentives |
-| velodrome-v2 | 47.51% | 63.14% | 100.00% incentives |
-| aerodrome-v1 | 5.12% | 5.51% | 100.00% incentives |
-| aerodrome-v1 | 2.52% | 3.28% | 100.00% incentives |
-| shadow-exchange-legacy | 2.09% | 5.82% | 100.00% incentives |
+| aerodrome-v1 | 58.13% | 84.90% | 100.00% incentives |
+| aerodrome-v1 | 105.02% | 101.89% | 100.00% incentives |
+| aerodrome-v1 | 20.09% | 96.54% | 100.00% incentives |
+| velodrome-v2 | 47.39% | 62.99% | 100.00% incentives |
+| aerodrome-v1 | 5.10% | 5.51% | 100.00% incentives |
+| aerodrome-v1 | 2.51% | 3.28% | 100.00% incentives |
+| shadow-exchange-legacy | 2.20% | 5.76% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FBOMB yield today?
 
-105.31% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+105.02% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many FBOMB pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $4.42M in total.
+7 live pools clear this page's $100K TVL floor, $4.4M in total.
 
 ### Are these rates safe?
 
@@ -54,10 +54,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 
 ## Available on
 

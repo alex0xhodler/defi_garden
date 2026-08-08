@@ -4,7 +4,7 @@ The highest honest PURR yield right now is 0.22% on project-x (Hyperliquid L1), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token) | Hyperliquid L1 | 0.22% | $161.7K |
+| [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token) | Hyperliquid L1 | 0.22% | $162.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PURR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $161.7K in total.
+1 live pool clear this page's $100K TVL floor, $162.3K in total.
 
 ### Are these rates safe?
 

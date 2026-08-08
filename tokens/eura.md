@@ -4,7 +4,7 @@ The highest honest EURA yield right now is 0.03% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e360745b-cd16-449d-99f7-600c929ef589&src=seo_token) | Ethereum | 0.03% | $259.1K |
+| [curve-dex →](https://www.defi.garden/?pool=e360745b-cd16-449d-99f7-600c929ef589&src=seo_token) | Ethereum | 0.03% | $259.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EURA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $259.1K in total.
+1 live pool clear this page's $100K TVL floor, $259.6K in total.
 
 ### Are these rates safe?
 
