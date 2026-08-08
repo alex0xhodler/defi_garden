@@ -6,8 +6,8 @@
    (hero + the earnings-block "repeat" — audit C3 confirmed the computed
    style was byte-identical to the hero even after 225 round 3c's "slim
    echo" language, because the repeat kept the `.cta-button-primary` class).
-   This test proves, against a REAL chromium render of a `?pool=<id>`
-   landing (not source reading):
+   This test proves, against a REAL chromium render on BOTH pool-detail entry
+   paths named by the spec's acceptance criterion (url_direct + card_click):
    (1) exactly ONE `.cta-button-primary` (hero) and ONE `.cta-button-protocol`
        (hero) render on the page — the earnings block's echo is neither;
    (2) exactly ONE `.cta-echo-link` renders (the earnings block's slim
@@ -18,6 +18,8 @@
        ctaPlacement=earnings_block, cta_position=calculator}`;
    (4) the hero still fires `pool_click{source=garden_cta, ctaPlacement=hero,
        cta_position=hero}` (no regression from 237's added `cta_position`);
+   (4b) the same 1/1/1 count contract + href parity hold after the card_click
+       entry path (grid -> click a `.pool-card` -> detail);
    (5) non-vacuity: injecting a second `.cta-button-primary` into the live
        DOM turns the count assertion red; removing it turns it green again —
        proves the assertion isn't vacuously true;
@@ -51,7 +53,14 @@ const URL_DIRECT_POOL = {
   project: 'lido', symbol: 'STETH', chain: 'Ethereum',
   tvlUsd: 17_622_166_047, apyBase: 2.163, apyReward: 0
 };
-const FIXTURE = JSON.stringify({ status: 'success', data: [URL_DIRECT_POOL] });
+// Second pool for the card_click leg (spec 237's acceptance criterion names
+// BOTH entry paths explicitly) — mirrors test_northstar_cta_fires.js's
+// CARD_CLICK_POOL pattern.
+const CARD_CLICK_POOL = {
+  pool: 'usdc-base-aave-test', project: 'aave-v3', symbol: 'USDC', chain: 'Base',
+  tvlUsd: 45_000_000, apyBase: 4.2, apyReward: 0
+};
+const FIXTURE = JSON.stringify({ status: 'success', data: [URL_DIRECT_POOL, CARD_CLICK_POOL] });
 
 let passed = 0;
 async function test(name, fn) {
@@ -234,6 +243,29 @@ async function main() {
       assertSegmentationProps(clicks[0].eventData, 'garden_cta', 'hero garden_cta pool_click');
     });
 
+    // (4b) card_click entry path — spec 237's acceptance criterion names
+    // BOTH url_direct and card_click explicitly. PoolDetail renders from the
+    // same component regardless of entry path (no branch keyed on `source`),
+    // but the count contract gets its own real render here rather than
+    // resting on that as an assumption.
+    await test('card_click entry path: same 1/1/1 CTA count contract holds after grid -> card click -> detail', async () => {
+      await page.goto(`http://localhost:${PORT}/home.html?token=USDC`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.pool-card', { timeout: 15000 });
+      await page.locator('.pool-card').first().click();
+      await page.waitForSelector('.pool-detail-view', { timeout: 10000 });
+      const counts = await countCtaClasses(page);
+      assertExactlyOneOfEach(counts, 'card_click count contract');
+    });
+
+    await test('card_click entry path: calculator echo href matches hero href exactly', async () => {
+      const [heroHref, echoHref] = await Promise.all([
+        page.locator('.cta-button-primary').first().getAttribute('href'),
+        page.locator('.cta-echo-link').first().getAttribute('href')
+      ]);
+      if (!heroHref) throw new Error('hero .cta-button-primary has no href');
+      if (heroHref !== echoHref) throw new Error(`hero href "${heroHref}" !== echo href "${echoHref}"`);
+    });
+
     // (5) Non-vacuity: prove the count assertion actually distinguishes 1
     // from 2 — inject a second .cta-button-primary into the live DOM, assert
     // RED, remove it, assert GREEN again (byte-identical restore: the clone
@@ -269,7 +301,7 @@ async function main() {
     await browser.close();
     server.close();
   }
-  console.log(`test_repeat_cta.js: ${passed}/6 tests passed`);
+  console.log(`test_repeat_cta.js: ${passed}/8 tests passed`);
   if (process.exitCode) process.exit(process.exitCode);
 }
 

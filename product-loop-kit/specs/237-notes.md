@@ -63,3 +63,14 @@ filled green primary + one bordered protocol button; the earnings-block echo ren
 plain underlined text link ("Garden this pool → ~$1,114 in 5y") — visually unmistakably
 secondary, satisfying the addendum's upgraded acceptance bar (computed background ≠ primary
 fill).
+
+## Verifier round
+PASS, tier HIGH (independently confirmed — north-star surface markup + additive analytics
+field). The verifier re-derived the addendum's visual-weight claim itself via
+`getComputedStyle`/`getBoundingClientRect` (not trusting this notes file or the CSS read alone):
+hero `background: rgb(30,92,63)` / `height: 54px` vs echo `background: rgba(0,0,0,0)` (fully
+transparent) / `height: 22.5px` (−58%), at 360/768/1280px, light+dark, EN+KO. It also flagged
+one real gap: the spec's count-contract criterion names BOTH entry paths (`url_direct` +
+`card_click`) but the first draft of `test_repeat_cta.js` only automated `url_direct` — closed
+before shipping by adding a `card_click` leg (grid → `.pool-card` click → detail) asserting the
+same 1/1/1 count + href parity; now 8/8 green.
