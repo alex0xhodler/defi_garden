@@ -599,7 +599,8 @@ function PoolDetail({
                   investmentAmount: Math.round(investmentAmount),
                   projectionYears: PROJECTION_YEARS,
                   ctaVariant: 'generic',
-                  ctaPlacement: 'hero'
+                  ctaPlacement: 'hero',
+                  ctaPosition: 'hero'
                 });
               }
             }
@@ -850,48 +851,42 @@ function PoolDetail({
         t ? t('calcDisclaimer') : 'Estimates based on current rates — yields change constantly. Not financial advice.'
       ),
 
-      // Repeat CTA (210 B3), reduced to a slim contextual echo (225 round
-      // 3c, spec 237's intent — ONE primary composition per page; this line
-      // is the earnings block's own closing action, not a second hero). It
-      // keeps: the intent-peak position at the end of the earnings block
-      // (outside the calculatorExpanded && guard), the concrete
-      // showConcreteCta projection label, the .pool-action-card class
-      // (occlusion tests measure it), and both events' payloads verbatim
-      // (ctaPlacement: 'earnings_block'). It drops: the boxed card, the
-      // "Ready to start this garden?" heading and the duplicated hint stack.
+      // Repeat CTA (210 B3), reduced to a slim contextual TEXT-LEVEL echo
+      // (spec 237 — exactly ONE primary-weight composition per page; this is
+      // the earnings block's own closing action, not a second hero). Prior
+      // rounds (225 round 3c) kept the echo on the `.cta-button-primary`
+      // class, which computes to the SAME 54px filled button as the hero —
+      // audit C3 caught the contract as still unmet on the render. Now: no
+      // `.cta-button-primary`, no `.cta-button-protocol` — a single
+      // `.cta-echo-link` (transparent background, underlined text, no fixed
+      // height) carries the concrete showConcreteCta projection label to the
+      // SAME planner destination as the hero, with `pool_click{source=
+      // garden_cta}` unchanged and `ctaPlacement: 'earnings_block'` kept
+      // verbatim for report continuity; `ctaPosition: 'calculator'` is new
+      // (237's added segmentation — see analytics.js). "Start Earning on
+      // <protocol>" is dropped here entirely — it renders once, at the hero.
       React.createElement('div', {
         className: 'pool-action-card pool-cta-echo'
       },
-        React.createElement('div', { className: 'pool-hero-action-primary' },
-          // Primary CTA — garden this pool (repeat)
-          React.createElement('a', {
-            className: 'cta-button-primary',
-            href: gardenThisPoolHref,
-            onClick: () => {
-              if (typeof Analytics !== 'undefined') {
-                Analytics.trackPoolClick(pool, 'garden_cta', {
-                  investmentAmount: Math.round(investmentAmount),
-                  projectionYears: PROJECTION_YEARS,
-                  ctaVariant: showConcreteCta ? 'concrete' : 'generic',
-                  ctaPlacement: 'earnings_block'
-                });
-              }
+        React.createElement('a', {
+          className: 'cta-echo-link',
+          href: gardenThisPoolHref,
+          onClick: () => {
+            if (typeof Analytics !== 'undefined') {
+              Analytics.trackPoolClick(pool, 'garden_cta', {
+                investmentAmount: Math.round(investmentAmount),
+                projectionYears: PROJECTION_YEARS,
+                ctaVariant: showConcreteCta ? 'concrete' : 'generic',
+                ctaPlacement: 'earnings_block',
+                ctaPosition: 'calculator'
+              });
             }
-}, showConcreteCta
-            // 241: pre-rounded before t() — see projectionBody's call above for why.
-            ? (t ? t('gardenThisPoolCtaConcrete', Math.round(projectionAmount), PROJECTION_YEARS)
-                 : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y`)
-            : (t ? t('gardenThisPoolCta') : 'Garden this pool →')),
-          React.createElement('p', { className: 'pool-action-hint' },
-            t ? t('plannerCtaHint') : 'No wallet needed'
-          )
-        ),
-
-        // Secondary — protocol link, or an honest DefiLlama fallback when no
-        // protocol URL resolves at all (spec 182 leg B/D), repeated.
-        React.createElement('div', { className: 'pool-hero-action-secondary' },
-          ...renderProtocolCtaBlock('earnings_block')
-        )
+          }
+        }, showConcreteCta
+          // 241: pre-rounded before t() — see projectionBody's call above for why.
+          ? (t ? t('gardenThisPoolCtaConcrete', Math.round(projectionAmount), PROJECTION_YEARS)
+               : `Garden this pool → ~$${Math.round(projectionAmount).toLocaleString('en-US')} in ${PROJECTION_YEARS}y`)
+          : (t ? t('gardenThisPoolCta') : 'Garden this pool →'))
       )
     ),
 
