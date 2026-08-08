@@ -1,10 +1,10 @@
 # GITLAWB DeFi Yields
 
-The highest honest GITLAWB yield right now is 8.40% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GITLAWB yield right now is 8.33% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=30946957-e36a-4867-8273-795e8e40208a&src=seo_token) | Base | 8.40% | $1.21M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=30946957-e36a-4867-8273-795e8e40208a&src=seo_token) | Base | 8.33% | $1.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GITLAWB yield today?
 
-8.40% APY on uniswap-v4 (Base), based on live DefiLlama data.
+8.33% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many GITLAWB pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

@@ -1,6 +1,6 @@
 # HBAR-XSAUCE — saucerswap-v1 on Hedera
 
-**Total APY:** 1.30% (0.10% Base · + 1.20% Rewards)
+**Total APY:** 1.31% (0.11% Base · + 1.20% Rewards)
 
 **TVL:** $255.6K
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on saucerswap-v1](https://www.saucerswap.finance/?ref=defi.garden)
 
-Last updated August 7, 2026
+Last updated August 8, 2026

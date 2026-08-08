@@ -4,17 +4,17 @@ The highest honest CRO yield right now is 0.11% on tectonic (Cronos), among 3 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token) | Cronos | 0.11% | $2.43M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 3.37% | $402.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 9.86% | $178.8K |
+| [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token) | Cronos | 0.11% | $2.39M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 45.78% | $392.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 88.92% | $172.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CRO shows up in 3 pools here, with rates from 0.11% to 9.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRO shows up in 3 pools here, with rates from 0.11% to 88.92% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 14.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ CRO shows up in 3 pools here, with rates from 0.11% to 9.86% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tectonic | 0.11% | 0.11% | 7.02% incentives |
-| uniswap-v4 | 3.37% | 14.59% | Base rate |
-| uniswap-v3 | 9.86% | 30.09% | Base rate |
+| tectonic | 0.11% | 0.11% | 6.95% incentives |
+| uniswap-v4 | 45.78% | 14.80% | Base rate |
+| uniswap-v3 | 88.92% | 30.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CRO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.01M in total.
+3 live pools clear this page's $100K TVL floor, $2.96M in total.
 
 ### Are these rates safe?
 
@@ -56,4 +56,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Cronos](https://www.defi.garden/chains/cronos)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

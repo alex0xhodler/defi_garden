@@ -1,10 +1,10 @@
 # LFRAX DeFi Yields
 
-The highest honest LFRAX yield right now is 11.53% on stake-dao (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LFRAX yield right now is 11.59% on stake-dao (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=89c39153-604f-43bf-960a-d52d95eafa51&src=seo_token) | Ethereum | 11.53% | $311.3K |
+| [stake-dao →](https://www.defi.garden/?pool=89c39153-604f-43bf-960a-d52d95eafa51&src=seo_token) | Ethereum | 11.59% | $311.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LFRAX yield today?
 
-11.53% APY on stake-dao (Ethereum), based on live DefiLlama data.
+11.59% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many LFRAX pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

@@ -1,10 +1,10 @@
 # FXB 디파이 수익률
 
-현재 FXB의 가장 높은 정직한 수익률은 Fraxtal의 curve-dex에서 6.60%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FXB의 가장 높은 정직한 수익률은 Fraxtal의 curve-dex에서 6.67%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_token) | Fraxtal | 6.60% | $1.59M |
+| [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_token) | Fraxtal | 6.67% | $1.59M |
 | [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f&src=seo_token) | Ethereum | 2.80% | $842.2K |
 | [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a&src=seo_token) | Ethereum | 2.80% | $804K |
 | [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205&src=seo_token) | Arbitrum | 2.73% | $191.4K |
@@ -13,7 +13,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.73%부터 6.60%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.73%부터 6.67%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.75%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -23,7 +23,7 @@ FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.73%부터 6.60%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 6.60% | 5.77% | 인센티브 19.73% |
+| curve-dex | 6.67% | 5.78% | 인센티브 20.52% |
 | curve-dex | 2.80% | 2.75% | 인센티브 0.00% |
 | convex-finance | 2.80% | 2.75% | 기본 금리 |
 | curve-dex | 2.73% | 2.70% | 기본 금리 |
@@ -34,7 +34,7 @@ FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.73%부터 6.60%까�
 
 ### 오늘 FXB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Fraxtal의 curve-dex에서 APY 6.60%예요.
+DefiLlama 실시간 데이터 기준, Fraxtal의 curve-dex에서 APY 6.67%예요.
 
 ### FXB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -59,4 +59,4 @@ DefiLlama 실시간 데이터 기준, Fraxtal의 curve-dex에서 APY 6.60%예요
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

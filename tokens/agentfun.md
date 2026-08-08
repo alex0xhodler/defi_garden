@@ -4,7 +4,7 @@ The highest honest AGENTFUN yield right now is 0.01% on vvs-standard (Cronos), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60&src=seo_token) | Cronos | 0.01% | $714K |
+| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60&src=seo_token) | Cronos | 0.01% | $721.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AGENTFUN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $919.3K in total.
+2 live pools clear this page's $100K TVL floor, $929K in total.
 
 ### Are these rates safe?
 
@@ -44,11 +44,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [XRP](https://www.defi.garden/tokens/xrp)
-- [LION](https://www.defi.garden/tokens/lion)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

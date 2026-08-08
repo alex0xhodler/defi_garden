@@ -1,25 +1,25 @@
 # EUSD DeFi Yields
 
-The highest honest EUSD yield right now is 38.15% on curve-dex (Base), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUSD yield right now is 38.38% on curve-dex (Base), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 3.00% | $2.18M |
-| [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token) | Ethereum | 0.22% | $1.4M |
-| [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 6.65% | $999.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3&src=seo_token) | Base | 2.34% | $521.2K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 7.12% | $426K |
+| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 2.97% | $2.18M |
+| [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token) | Ethereum | 0.24% | $1.4M |
+| [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 6.71% | $999.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3&src=seo_token) | Base | 2.37% | $521.1K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 7.04% | $431.6K |
 | [stake-dao →](https://www.defi.garden/?pool=6bfa3348-6cbc-43a7-8507-735d90a0b4db&src=seo_token) | Ethereum | 0.34% | $399.3K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 38.15% | $283.1K |
-| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.17% | $226.5K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 38.38% | $283.1K |
+| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 3.13% | $226.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EUSD shows up in 8 pools here, with rates from 0.17% to 38.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EUSD shows up in 8 pools here, with rates from 0.24% to 38.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.21% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.23% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ EUSD shows up in 8 pools here, with rates from 0.17% to 38.15% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.00% | 3.28% | Base rate |
-| curve-dex | 0.22% | 3.35% | Base rate |
-| convex-finance | 6.65% | 5.06% | 96.69% incentives |
-| aerodrome-slipstream | 2.34% | 2.44% | 86.28% incentives |
-| aerodrome-v1 | 7.12% | 8.15% | 100.00% incentives |
+| curve-dex | 2.97% | 3.29% | Base rate |
+| curve-dex | 0.24% | 3.35% | Base rate |
+| convex-finance | 6.71% | 5.10% | 96.42% incentives |
+| aerodrome-slipstream | 2.37% | 2.44% | 85.68% incentives |
+| aerodrome-v1 | 7.04% | 8.14% | 100.00% incentives |
 | stake-dao | 0.34% | 6.53% | Base rate |
-| curve-dex | 38.15% | 30.13% | 98.53% incentives |
-| curve-dex | 0.17% | 0.64% | Base rate |
+| curve-dex | 38.38% | 30.40% | 98.54% incentives |
+| curve-dex | 3.13% | 0.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EUSD yield today?
 
-38.15% APY on curve-dex (Base), based on live DefiLlama data.
+38.38% APY on curve-dex (Base), based on live DefiLlama data.
 
 ### How many EUSD pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $34.54M in total.
+17 live pools clear this page's $100K TVL floor, $34.55M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

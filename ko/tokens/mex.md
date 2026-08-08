@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39fc2c93-90c2-5043-8fb8-7977ec6008c7&src=seo_token) | Arbitrum | 2.38% | $365.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39fc2c93-90c2-5043-8fb8-7977ec6008c7&src=seo_token) | Arbitrum | 0.73% | $367.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=fde52454-c82a-4404-8361-adb74b0276b5&src=seo_token) | Arbitrum | 0.69% | $278.9K |
-| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 5.05% | $110K |
+| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 5.05% | $109.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -22,9 +22,9 @@ MEX 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.69%부터 5.05%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 2.38% | 4.61% | 기본 금리 |
+| uniswap-v4 | 0.73% | 4.45% | 기본 금리 |
 | uniswap-v4 | 0.69% | 10.65% | 기본 금리 |
-| xexchange | 5.05% | 5.26% | 인센티브 73.97% |
+| xexchange | 5.05% | 5.26% | 인센티브 73.98% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -36,7 +36,7 @@ DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 5.05%예
 
 ### MEX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $754.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $756.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -56,4 +56,4 @@ DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 5.05%예
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [MultiversX](https://www.defi.garden/ko/chains/multiversx)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

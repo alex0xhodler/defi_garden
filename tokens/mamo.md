@@ -1,21 +1,21 @@
 # MAMO DeFi Yields
 
-The highest honest MAMO yield right now is 91.38% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAMO yield right now is 75.15% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token) | Base | 40.53% | $398.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token) | Base | 43.43% | $366.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token) | Base | 21.29% | $331.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token) | Base | 91.38% | $255.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token) | Base | 75.15% | $402.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token) | Base | 44.37% | $367.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token) | Base | 21.27% | $332.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token) | Base | 45.13% | $256.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MAMO shows up in 4 pools here, with rates from 21.29% to 91.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MAMO shows up in 4 pools here, with rates from 21.27% to 75.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 112.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 111.15% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,10 +23,10 @@ MAMO shows up in 4 pools here, with rates from 21.29% to 91.38% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 40.53% | 127.94% | 98.39% incentives |
-| aerodrome-slipstream | 43.43% | 74.54% | 98.89% incentives |
-| aerodrome-slipstream | 21.29% | 103.66% | 93.92% incentives |
-| aerodrome-slipstream | 91.38% | 121.11% | 98.07% incentives |
+| aerodrome-slipstream | 75.15% | 127.71% | 99.12% incentives |
+| aerodrome-slipstream | 44.37% | 74.68% | 98.99% incentives |
+| aerodrome-slipstream | 21.27% | 102.59% | 94.19% incentives |
+| aerodrome-slipstream | 45.13% | 119.72% | 95.83% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MAMO yield today?
 
-91.38% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+75.15% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MAMO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.35M in total.
+4 live pools clear this page's $100K TVL floor, $1.36M in total.
 
 ### Are these rates safe?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

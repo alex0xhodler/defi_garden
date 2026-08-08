@@ -4,12 +4,12 @@ The highest honest TBTC yield right now is 5.30% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token) | Ethereum | 0.08% | $8.66M |
-| [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 1.14% | $7.4M |
-| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 2.97% | $3.99M |
-| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 3.88% | $3.84M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 0.30% | $2.59M |
-| [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.30% | $1.88M |
+| [curve-dex →](https://www.defi.garden/?pool=3dadbe45-e87f-43a5-820a-20c908bef612&src=seo_token) | Ethereum | 0.08% | $8.67M |
+| [curve-dex →](https://www.defi.garden/?pool=0208091c-ac2f-4918-9807-82c721142905&src=seo_token) | Ethereum | 1.14% | $7.41M |
+| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 2.98% | $4M |
+| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 3.89% | $3.85M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b4ef32d6-04da-400c-bd82-8342a5b094a6&src=seo_token) | Ethereum | 0.42% | $2.59M |
+| [hydration-dex →](https://www.defi.garden/?pool=eab4ef8c-f35c-434b-a2ea-f8136f1cbc29&src=seo_token) | Polkadot | 5.30% | $1.89M |
 | [curve-dex →](https://www.defi.garden/?pool=9beef608-8e7b-455b-97a1-84247be6631d&src=seo_token) | Arbitrum | 0.02% | $1.13M |
 | [vesu →](https://www.defi.garden/?pool=2d94db74-d1f5-417c-a29a-432d76e0bdfc&src=seo_token) | Starknet | 2.00% | $1.12M |
 
@@ -27,11 +27,11 @@ TBTC shows up in 8 pools here, with rates from 0.02% to 5.30% APY across 4 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.08% | 0.21% | 87.16% incentives |
-| curve-dex | 1.14% | 5.38% | Base rate |
-| curve-dex | 2.97% | 3.05% | 56.22% incentives |
-| convex-finance | 3.88% | 3.96% | 66.46% incentives |
-| uniswap-v3 | 0.30% | 2.12% | Base rate |
+| curve-dex | 0.08% | 0.21% | 87.20% incentives |
+| curve-dex | 1.14% | 5.35% | Base rate |
+| curve-dex | 2.98% | 3.04% | 56.34% incentives |
+| convex-finance | 3.89% | 3.95% | 66.57% incentives |
+| uniswap-v3 | 0.42% | 2.13% | Base rate |
 | hydration-dex | 5.30% | 5.35% | 94.89% incentives |
 | curve-dex | 0.02% | 0.18% | Base rate |
 | vesu | 2.00% | 2.00% | 100.00% incentives |
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TBTC pools clear the TVL floor?
 
-52 live pools clear this page's $100K TVL floor, $226.68M in total.
+52 live pools clear this page's $100K TVL floor, $217.17M in total.
 
 ### Are these rates safe?
 
@@ -68,4 +68,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

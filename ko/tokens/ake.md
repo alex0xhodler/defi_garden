@@ -1,10 +1,10 @@
 # AKE 디파이 수익률
 
-현재 AKE의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.53%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AKE의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.48%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=04166f2e-694d-518c-b08e-bd36e01d3f76&src=seo_token) | Solana | 0.53% | $3.92M |
+| [raydium-amm →](https://www.defi.garden/?pool=04166f2e-694d-518c-b08e-bd36e01d3f76&src=seo_token) | Solana | 0.48% | $3.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.18% | $3.84M |
 | [raydium-amm →](https://www.defi.garden/?pool=4f141be3-4027-5cc0-a209-001afaa01af0&src=seo_token) | Solana | 0.20% | $3.71M |
 
@@ -12,7 +12,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-AKE 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.18%부터 0.53%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+AKE 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.18%부터 0.48%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -22,7 +22,7 @@ AKE 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.18%부터 0.53%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 0.53% | 0.45% | 기본 금리 |
+| raydium-amm | 0.48% | 0.46% | 기본 금리 |
 | raydium-amm | 0.18% | 0.19% | 기본 금리 |
 | raydium-amm | 0.20% | 0.18% | 기본 금리 |
 
@@ -32,7 +32,7 @@ AKE 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.18%부터 0.53%까�
 
 ### 오늘 AKE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.53%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.48%예요.
 
 ### AKE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -55,4 +55,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.53%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

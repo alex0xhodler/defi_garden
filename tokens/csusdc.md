@@ -4,25 +4,25 @@ The highest honest CSUSDC yield right now is 8.45% on balancer-v3 (Monad), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 7.16% | $1.61M |
-| [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 3.72% | $1.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 7.14% | $1.61M |
+| [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 3.65% | $1.28M |
 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 8.45% | $363.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CSUSDC shows up in 3 pools here, with rates from 3.72% to 8.45% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+CSUSDC shows up in 3 pools here, with rates from 3.65% to 8.45% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 7.27% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 7.23% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 7.16% | 7.27% | Base rate |
-| morpho-blue | 3.72% | 3.77% | Base rate |
-| balancer-v3 | 8.45% | 11.38% | 13.08% incentives |
+| morpho-blue | 7.14% | 7.23% | Base rate |
+| morpho-blue | 3.65% | 3.77% | Base rate |
+| balancer-v3 | 8.45% | 11.35% | 13.08% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,4 +55,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

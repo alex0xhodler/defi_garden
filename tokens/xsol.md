@@ -4,7 +4,7 @@ The highest honest XSOL yield right now is 0.02% on aave-v3 (Xlayer), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8&src=seo_token) | Xlayer | 0.02% | $126.7K |
+| [aave-v3 →](https://www.defi.garden/?pool=0a7f26f7-2dc7-4302-ab7f-9845584708a8&src=seo_token) | Xlayer | 0.02% | $127.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126.7K in total.
+1 live pool clear this page's $100K TVL floor, $127.2K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Xlayer](https://www.defi.garden/chains/xlayer)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

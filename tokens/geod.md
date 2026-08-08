@@ -1,21 +1,21 @@
 # GEOD DeFi Yields
 
-The highest honest GEOD yield right now is 63.80% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GEOD yield right now is 8.85% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token) | Solana | 63.80% | $251.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 38.12% | $224.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 14.83% | $222.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 9.97% | $122.8K |
+| [orca-dex →](https://www.defi.garden/?pool=96b9309a-9bd2-4906-b5dc-b2552fc9f5e3&src=seo_token) | Solana | 55.16% | $251.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=a02cd4c1-d31d-4a3b-811a-7f2f13d5e365&src=seo_token) | Solana | 33.43% | $224.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ba905104-5086-4740-a862-af12d1229f07&src=seo_token) | Polygon | 12.34% | $223.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=89ec3fc7-817b-4f44-98b2-fbb2b86c9194&src=seo_token) | Solana | 8.85% | $122.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GEOD shows up in 4 pools here, with rates from 9.97% to 63.80% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GEOD shows up in 4 pools here, with rates from 8.85% to 55.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 59.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 59.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,10 +23,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 63.80% | 111.07% | Base rate |
-| raydium-amm | 38.12% | 94.52% | Base rate |
-| uniswap-v3 | 14.83% | 25.09% | Base rate |
-| raydium-amm | 9.97% | 13.54% | Base rate |
+| orca-dex | 55.16% | 111.25% | Base rate |
+| raydium-amm | 33.43% | 94.58% | Base rate |
+| uniswap-v3 | 12.34% | 25.16% | Base rate |
+| raydium-amm | 8.85% | 13.56% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GEOD yield today?
 
-63.80% APY on orca-dex (Solana), based on live DefiLlama data.
+8.85% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GEOD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $963.3K in total.
+5 live pools clear this page's $100K TVL floor, $963.7K in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

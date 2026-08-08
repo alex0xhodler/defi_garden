@@ -1,12 +1,12 @@
 # LON DeFi Yields
 
-The highest honest LON yield right now is 0.16% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LON yield right now is 0.06% on uniswap-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.02% | $1.43M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.16% | $1.09M |
-| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.26% | $127.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.02% | $1.44M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.06% | $1.09M |
+| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.26% | $128.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,8 +23,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v2 | 0.02% | 0.28% | Base rate |
-| uniswap-v3 | 0.16% | 0.07% | Base rate |
-| sushiswap | 0.26% | 0.85% | Base rate |
+| uniswap-v3 | 0.06% | 0.07% | Base rate |
+| sushiswap | 0.26% | 0.84% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LON yield today?
 
-0.16% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.06% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many LON pools clear the TVL floor?
 
@@ -56,4 +56,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

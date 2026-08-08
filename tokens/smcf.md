@@ -4,7 +4,7 @@ The highest honest SMCF yield right now is 0.26% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=17227b6c-166e-4db8-91c3-ce3d360c7b71&src=seo_token) | Base | 0.26% | $122.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=17227b6c-166e-4db8-91c3-ce3d360c7b71&src=seo_token) | Base | 0.26% | $122.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SMCF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.5K in total.
+1 live pool clear this page's $100K TVL floor, $122.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

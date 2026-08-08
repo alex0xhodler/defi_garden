@@ -1,26 +1,26 @@
 # GTWETH DeFi Yields
 
-The highest honest GTWETH yield right now is 2.02% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTWETH yield right now is 2.14% on morpho-blue (Katana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=eaa7b496-512f-442f-be1f-9d8909442e53&src=seo_token) | Ethereum | 2.02% | $8.24M |
-| [morpho-blue →](https://www.defi.garden/?pool=23a8c413-1595-4380-9a0b-e8eb04907a90&src=seo_token) | Katana | 2.02% | $5.72M |
+| [morpho-blue →](https://www.defi.garden/?pool=eaa7b496-512f-442f-be1f-9d8909442e53&src=seo_token) | Ethereum | 2.11% | $8.23M |
+| [morpho-blue →](https://www.defi.garden/?pool=23a8c413-1595-4380-9a0b-e8eb04907a90&src=seo_token) | Katana | 2.14% | $5.69M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GTWETH shows up in 2 pools here, with rates from 2.02% to 2.02% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTWETH shows up in 2 pools here, with rates from 2.11% to 2.14% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 2.02% | 1.64% | Base rate |
-| morpho-blue | 2.02% | 2.17% | 37.20% incentives |
+| morpho-blue | 2.11% | 1.64% | Base rate |
+| morpho-blue | 2.14% | 2.17% | 35.11% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,11 +28,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GTWETH yield today?
 
-2.02% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.14% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many GTWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $13.96M in total.
+2 live pools clear this page's $100K TVL floor, $13.92M in total.
 
 ### Are these rates safe?
 
@@ -52,4 +52,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

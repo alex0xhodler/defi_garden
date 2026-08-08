@@ -1,11 +1,11 @@
 # Stable DeFi Yields
 
-The highest honest Stable yield right now is 6.73% on morpho-blue (Stable), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Stable yield right now is 6.75% on morpho-blue (Stable), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| GTUSDTB | [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_chain) | 6.73% | $25.44M |
-| HYPERUSDTC | [morpho-blue →](https://www.defi.garden/?pool=cc22fb55-9b8f-4d47-afe3-88cbd21c38f2&src=seo_chain) | 0.25% | $186.2K |
+| GTUSDTB | [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_chain) | 6.75% | $25.44M |
+| HYPERUSDTC | [morpho-blue →](https://www.defi.garden/?pool=cc22fb55-9b8f-4d47-afe3-88cbd21c38f2&src=seo_chain) | 0.15% | $186.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Stable yield today?
 
-6.73% APY on morpho-blue (Stable), based on live DefiLlama data.
+6.75% APY on morpho-blue (Stable), based on live DefiLlama data.
 
 ### How many Stable pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $115.64M in total.
+5 live pools clear this page's $100K TVL floor, $115.56M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [GTUSDTB](https://www.defi.garden/tokens/gtusdtb)
 - [HYPERUSDTC](https://www.defi.garden/tokens/hyperusdtc)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

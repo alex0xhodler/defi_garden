@@ -1,12 +1,12 @@
 # LON 디파이 수익률
 
-현재 LON의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 0.16%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LON의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 0.06%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.02% | $1.43M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.16% | $1.09M |
-| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.26% | $127.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.02% | $1.44M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9924c11e-fc09-4420-8248-c929a0124018&src=seo_token) | Arbitrum | 0.06% | $1.09M |
+| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.26% | $128.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,8 +23,8 @@ LON 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.02%부터 0.26%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v2 | 0.02% | 0.28% | 기본 금리 |
-| uniswap-v3 | 0.16% | 0.07% | 기본 금리 |
-| sushiswap | 0.26% | 0.85% | 기본 금리 |
+| uniswap-v3 | 0.06% | 0.07% | 기본 금리 |
+| sushiswap | 0.26% | 0.84% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -32,7 +32,7 @@ LON 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.02%부터 0.26%까�
 
 ### 오늘 LON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.16%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.06%예요.
 
 ### LON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -56,4 +56,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.16%예�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

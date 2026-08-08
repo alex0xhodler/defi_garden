@@ -4,7 +4,7 @@ The highest honest Bifrost yield right now is 2.19% on bifrost-liquid-staking (B
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VBNC | [bifrost-liquid-staking →](https://www.defi.garden/?pool=eadcb734-fe5e-4f8b-ac19-096906cc12b5&src=seo_chain) | 2.19% | $270.6K |
+| VBNC | [bifrost-liquid-staking →](https://www.defi.garden/?pool=eadcb734-fe5e-4f8b-ac19-096906cc12b5&src=seo_chain) | 2.19% | $270.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Bifrost pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $270.6K in total.
+1 live pool clear this page's $100K TVL floor, $270.5K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [VBNC](https://www.defi.garden/tokens/vbnc)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

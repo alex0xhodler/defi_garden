@@ -1,19 +1,19 @@
 # SKHY DeFi Yields
 
-The highest honest SKHY yield right now is 81.92% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKHY yield right now is 65.54% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2e706a8c-9bce-5e88-9640-d322a70130a5&src=seo_token) | Solana | 81.92% | $924.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=2e706a8c-9bce-5e88-9640-d322a70130a5&src=seo_token) | Solana | 65.54% | $927.1K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=bc03e84d-c20a-53f3-8986-f8c26c10bbb8&src=seo_token) | Base | 0.01% | $300K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SKHY shows up in 2 pools here, with rates from 0.01% to 81.92% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SKHY shows up in 2 pools here, with rates from 0.01% to 65.54% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 53.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 52.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,7 +21,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 81.92% | 106.01% | Base rate |
+| raydium-amm | 65.54% | 105.76% | Base rate |
 | uniswap-v4 | 0.01% | 0.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SKHY yield today?
 
-81.92% APY on raydium-amm (Solana), based on live DefiLlama data.
+65.54% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SKHY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.22M in total.
+2 live pools clear this page's $100K TVL floor, $1.23M in total.
 
 ### Are these rates safe?
 
@@ -54,4 +54,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

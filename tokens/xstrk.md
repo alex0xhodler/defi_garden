@@ -1,20 +1,20 @@
 # XSTRK DeFi Yields
 
-The highest honest XSTRK yield right now is 16.04% on troves (Starknet), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSTRK yield right now is 16.02% on troves (Starknet), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f&src=seo_token) | Starknet | 1.18% | $858.9K |
-| [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570&src=seo_token) | Starknet | 16.04% | $263.5K |
-| [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299&src=seo_token) | Starknet | 9.44% | $138.7K |
+| [ekubo →](https://www.defi.garden/?pool=b022bb22-e9c8-4386-b30f-f40b42d91d4f&src=seo_token) | Starknet | 4.39% | $853.7K |
+| [troves →](https://www.defi.garden/?pool=8edcec10-f9bd-491e-9145-345f74a7c570&src=seo_token) | Starknet | 16.02% | $261.1K |
+| [troves →](https://www.defi.garden/?pool=4658fb22-9c8c-43fb-acd7-ccb49c1e7299&src=seo_token) | Starknet | 9.49% | $137.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XSTRK shows up in 3 pools here, with rates from 1.18% to 16.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSTRK shows up in 3 pools here, with rates from 4.39% to 16.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ekubo | 1.18% | 0.54% | Base rate |
-| troves | 16.04% | 14.28% | Base rate |
-| troves | 9.44% | 1.38% | Base rate |
+| ekubo | 4.39% | 0.57% | Base rate |
+| troves | 16.02% | 14.31% | Base rate |
+| troves | 9.49% | 1.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XSTRK yield today?
 
-16.04% APY on troves (Starknet), based on live DefiLlama data.
+16.02% APY on troves (Starknet), based on live DefiLlama data.
 
 ### How many XSTRK pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.42M in total.
+5 live pools clear this page's $100K TVL floor, $3.39M in total.
 
 ### Are these rates safe?
 
@@ -55,4 +55,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

@@ -1,17 +1,17 @@
 # ECOR DeFi Yields
 
-The highest honest ECOR yield right now is 1.19% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ECOR yield right now is 0.84% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd&src=seo_token) | TON | 1.19% | $120.9K |
+| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd&src=seo_token) | TON | 0.84% | $120.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=ddc364c4-b6b7-499c-92cb-cc72962d6594&src=seo_token) | Solana | 0.43% | $111K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ECOR shows up in 2 pools here, with rates from 0.43% to 1.19% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ECOR shows up in 2 pools here, with rates from 0.43% to 0.84% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.79% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,7 +21,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| dedust | 1.19% | 0.96% | Base rate |
+| dedust | 0.84% | 0.96% | Base rate |
 | raydium-amm | 0.43% | 0.62% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ECOR yield today?
 
-1.19% APY on dedust (TON), based on live DefiLlama data.
+0.84% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many ECOR pools clear the TVL floor?
 
@@ -54,4 +54,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [TON](https://www.defi.garden/chains/ton)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

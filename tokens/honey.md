@@ -4,19 +4,19 @@ The highest honest HONEY yield right now is 33.33% on berapaw (Berachain), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.38% | $1.55M |
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.15% | $1.06M |
-| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.15% | $454.6K |
-| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.33% | $244.1K |
-| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 18.89% | $197.7K |
-| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 2.06% | $135.4K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 32.81% | $107.6K |
+| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.37% | $1.55M |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.15% | $1.05M |
+| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.14% | $454.4K |
+| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.33% | $243.7K |
+| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 18.88% | $197.4K |
+| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 1.92% | $135.2K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 32.79% | $107.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HONEY shows up in 7 pools here, with rates from 2.06% to 33.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HONEY shows up in 7 pools here, with rates from 1.92% to 33.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 7 of these 7 pools have a trustworthy 30-day average on file, with a median of 8.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,13 +26,13 @@ HONEY shows up in 7 pools here, with rates from 2.06% to 33.33% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| berapaw | 8.38% | 8.90% | 100.00% incentives |
-| berapaw | 4.15% | 4.73% | 100.00% incentives |
-| berapaw | 5.15% | 5.76% | 100.00% incentives |
-| berapaw | 33.33% | 35.17% | 100.00% incentives |
-| berapaw | 18.89% | 14.17% | 100.00% incentives |
-| bex | 2.06% | 2.77% | Base rate |
-| berapaw | 32.81% | 22.36% | 100.00% incentives |
+| berapaw | 8.37% | 8.90% | 100.00% incentives |
+| berapaw | 4.15% | 4.72% | 100.00% incentives |
+| berapaw | 5.14% | 5.75% | 100.00% incentives |
+| berapaw | 33.33% | 35.13% | 100.00% incentives |
+| berapaw | 18.88% | 14.21% | 100.00% incentives |
+| bex | 1.92% | 2.74% | Base rate |
+| berapaw | 32.79% | 22.44% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HONEY pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $4.3M in total.
+9 live pools clear this page's $100K TVL floor, $4.29M in total.
 
 ### Are these rates safe?
 
@@ -63,4 +63,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

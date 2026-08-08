@@ -4,7 +4,7 @@ The highest honest ANKRBNB yield right now is 0.81% on ankr (BSC), among 2 pools
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token) | BSC | 0.81% | $628.6K |
+| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token) | BSC | 0.81% | $626.5K |
 | [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.01% | $193.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ANKRBNB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $822.5K in total.
+2 live pools clear this page's $100K TVL floor, $820.5K in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

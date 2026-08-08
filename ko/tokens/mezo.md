@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Mezo의 mezo-earn에서 APY 27.39%예요.
 
 - [Mezo](https://www.defi.garden/ko/chains/mezo)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

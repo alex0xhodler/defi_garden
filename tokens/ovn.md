@@ -4,16 +4,16 @@ The highest honest OVN yield right now is 3.66% on overnight-finance (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token) | Base | 1.53% | $277.7K |
-| [overnight-finance →](https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token) | Base | 3.66% | $234.5K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token) | Base | 1.51% | $280.4K |
+| [overnight-finance →](https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token) | Base | 3.66% | $239.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OVN shows up in 2 pools here, with rates from 1.53% to 3.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OVN shows up in 2 pools here, with rates from 1.51% to 3.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,7 +21,7 @@ OVN shows up in 2 pools here, with rates from 1.53% to 3.66% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 1.53% | 1.96% | 100.00% incentives |
+| aerodrome-v1 | 1.51% | 1.94% | 100.00% incentives |
 | overnight-finance | 3.66% | 3.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OVN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $685.6K in total.
+3 live pools clear this page's $100K TVL floor, $692.9K in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

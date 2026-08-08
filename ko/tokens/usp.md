@@ -1,18 +1,18 @@
 # USP 디파이 수익률
 
-현재 USP의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 649.86%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USP의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 649.76%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token) | Ethereum | 105.95% | $216.3K |
-| [pendle →](https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token) | Ethereum | 106.59% | $216.3K |
-| [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token) | Ethereum | 649.86% | $129K |
+| [pendle →](https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token) | Ethereum | 105.95% | $216.4K |
+| [pendle →](https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token) | Ethereum | 106.68% | $216.4K |
+| [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token) | Ethereum | 649.76% | $129K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USP 풀은 여기 3개가 있고, 1개 체인에서 APY가 105.95%부터 649.86%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USP 풀은 여기 3개가 있고, 1개 체인에서 APY가 105.95%부터 649.76%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 106.46%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -20,9 +20,9 @@ USP 풀은 여기 3개가 있고, 1개 체인에서 APY가 105.95%부터 649.86%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 105.95% | 39.85% | 인센티브 87.20% |
-| pendle | 106.59% | 106.46% | 인센티브 86.69% |
-| curve-dex | 649.86% | 637.45% | 인센티브 99.28% |
+| pendle | 105.95% | 40.17% | 인센티브 87.16% |
+| pendle | 106.68% | 106.46% | 인센티브 86.57% |
+| curve-dex | 649.76% | 637.68% | 인센티브 99.28% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -30,7 +30,7 @@ USP 풀은 여기 3개가 있고, 1개 체인에서 APY가 105.95%부터 649.86%
 
 ### 오늘 USP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 649.86%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 649.76%예요.
 
 ### USP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -53,4 +53,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 649.86%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

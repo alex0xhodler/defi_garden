@@ -4,8 +4,8 @@ The highest honest TSUSDE yield right now is 4.00% on affluent (TON), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.00% | $298.7K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 3.13% | $214.4K |
+| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.00% | $298.3K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 3.13% | $214.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | affluent | 4.00% | 3.94% | Base rate |
-| affluent | 3.13% | 2.59% | Base rate |
+| affluent | 3.13% | 2.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TSUSDE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $513.2K in total.
+2 live pools clear this page's $100K TVL floor, $512.9K in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

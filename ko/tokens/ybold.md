@@ -1,10 +1,10 @@
 # YBOLD 디파이 수익률
 
-현재 YBOLD의 가장 높은 정직한 수익률은 Ethereum의 yearn-finance에서 8.58%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YBOLD의 가장 높은 정직한 수익률은 Ethereum의 yearn-finance에서 8.59%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=4c29f645-12db-461f-a1d7-16900d624271&src=seo_token) | Ethereum | 8.58% | $5.99M |
+| [yearn-finance →](https://www.defi.garden/?pool=4c29f645-12db-461f-a1d7-16900d624271&src=seo_token) | Ethereum | 8.59% | $5.98M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +12,11 @@
 
 ### 오늘 YBOLD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 8.58%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 8.59%예요.
 
 ### YBOLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $5.99M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $5.98M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 8.58%�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

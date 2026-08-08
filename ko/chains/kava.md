@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Kava의 scrub-invest에서 APY 6.17%예요
 - [TIGER](https://www.defi.garden/ko/tokens/tiger)
 - [LION](https://www.defi.garden/ko/tokens/lion)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

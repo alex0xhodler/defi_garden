@@ -1,22 +1,22 @@
 # OHM 디파이 수익률
 
-현재 OHM의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 0.93%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 OHM의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 0.82%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.27% | $10.64M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 0.93% | $4.14M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token) | Base | 0.07% | $904.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=abe08b87-f138-4d3e-a96a-98294ddad7a1&src=seo_token) | Ethereum | 0.54% | $400.4K |
-| [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.22% | $168.9K |
-| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.25% | $158.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 0.24% | $104.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.27% | $10.63M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 0.82% | $4.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token) | Base | 0.07% | $903.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=abe08b87-f138-4d3e-a96a-98294ddad7a1&src=seo_token) | Ethereum | 0.46% | $400K |
+| [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.21% | $168.9K |
+| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.24% | $158.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 0.24% | $103.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-OHM 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.07%부터 0.93%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+OHM 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.07%부터 0.82%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.40%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,12 +27,12 @@ OHM 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.07%부터 0.93%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v3 | 0.27% | 1.23% | 기본 금리 |
-| uniswap-v3 | 0.93% | 1.55% | 기본 금리 |
+| uniswap-v3 | 0.82% | 1.55% | 기본 금리 |
 | uniswap-v3 | 0.07% | 0.01% | 기본 금리 |
-| uniswap-v3 | 0.54% | 0.40% | 기본 금리 |
-| curve-dex | 0.22% | 0.26% | 인센티브 14.87% |
-| convex-finance | 0.25% | 0.30% | 인센티브 23.85% |
-| uniswap-v3 | 0.24% | 0.70% | 기본 금리 |
+| uniswap-v3 | 0.46% | 0.40% | 기본 금리 |
+| curve-dex | 0.21% | 0.27% | 인센티브 15.64% |
+| convex-finance | 0.24% | 0.30% | 인센티브 24.96% |
+| uniswap-v3 | 0.24% | 0.69% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +40,11 @@ OHM 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.07%부터 0.93%까�
 
 ### 오늘 OHM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.93%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.82%예요.
 
 ### OHM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $16.75M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $16.74M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -64,4 +64,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.93%예�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

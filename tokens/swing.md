@@ -1,10 +1,10 @@
 # SWING DeFi Yields
 
-The highest honest SWING yield right now is 328.67% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SWING yield right now is 471.32% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=30d18bcd-cc17-5ec4-a9e1-d19135116a74&src=seo_token) | Ethereum | 328.67% | $239.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=30d18bcd-cc17-5ec4-a9e1-d19135116a74&src=seo_token) | Ethereum | 471.32% | $239.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SWING yield today?
 
-328.67% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+471.32% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SWING pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $239.1K in total.
+1 live pool clear this page's $100K TVL floor, $239.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

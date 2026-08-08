@@ -4,7 +4,7 @@ The highest honest LTAI yield right now is 0.01% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3402c509-d0b4-4011-9034-1ba9c48e84bb&src=seo_token) | Base | 0.01% | $228.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3402c509-d0b4-4011-9034-1ba9c48e84bb&src=seo_token) | Base | 0.01% | $228.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LTAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.6K in total.
+1 live pool clear this page's $100K TVL floor, $228.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

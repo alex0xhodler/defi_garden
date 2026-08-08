@@ -4,9 +4,9 @@ The highest honest MEX yield right now is 5.05% on xexchange (MultiversX), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39fc2c93-90c2-5043-8fb8-7977ec6008c7&src=seo_token) | Arbitrum | 2.38% | $365.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39fc2c93-90c2-5043-8fb8-7977ec6008c7&src=seo_token) | Arbitrum | 0.73% | $367.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=fde52454-c82a-4404-8361-adb74b0276b5&src=seo_token) | Arbitrum | 0.69% | $278.9K |
-| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 5.05% | $110K |
+| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 5.05% | $109.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,9 +22,9 @@ MEX shows up in 3 pools here, with rates from 0.69% to 5.05% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 2.38% | 4.61% | Base rate |
+| uniswap-v4 | 0.73% | 4.45% | Base rate |
 | uniswap-v4 | 0.69% | 10.65% | Base rate |
-| xexchange | 5.05% | 5.26% | 73.97% incentives |
+| xexchange | 5.05% | 5.26% | 73.98% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MEX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $754.6K in total.
+3 live pools clear this page's $100K TVL floor, $756.7K in total.
 
 ### Are these rates safe?
 
@@ -56,4 +56,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

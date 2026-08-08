@@ -1,10 +1,10 @@
 # MC DeFi Yields
 
-The highest honest MC yield right now is 5.38% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MC yield right now is 5.48% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48&src=seo_token) | Ethereum | 5.38% | $169.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48&src=seo_token) | Ethereum | 5.48% | $169.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MC yield today?
 
-5.38% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.48% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many MC pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

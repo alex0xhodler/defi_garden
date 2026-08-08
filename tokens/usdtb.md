@@ -1,32 +1,32 @@
 # USDTB DeFi Yields
 
-The highest honest USDTB yield right now is 5.81% on fluid-lending (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDTB yield right now is 5.85% on fluid-lending (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.29% | $20.08M |
-| [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.64% | $6.95M |
-| [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.81% | $2.22M |
-| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 1.52% | $1.62M |
+| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.30% | $20.07M |
+| [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.63% | $6.96M |
+| [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.85% | $2.22M |
+| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 1.43% | $1.62M |
 | [euler-v2 →](https://www.defi.garden/?pool=a3a7fb56-b19a-4dc8-a3f1-285cb38c5885&src=seo_token) | Ethereum | 2.17% | $162.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDTB shows up in 5 pools here, with rates from 0.29% to 5.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDTB shows up in 5 pools here, with rates from 0.30% to 5.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.29% | 0.32% | Base rate |
-| aave-v3 | 5.64% | 6.20% | 60.34% incentives |
-| fluid-lending | 5.81% | 5.92% | 58.52% incentives |
-| fluid-dex | 1.52% | 1.13% | Base rate |
-| euler-v2 | 2.17% | 9.61% | Base rate |
+| curve-dex | 0.30% | 0.32% | Base rate |
+| aave-v3 | 5.63% | 6.22% | 60.38% incentives |
+| fluid-lending | 5.85% | 5.91% | 58.12% incentives |
+| fluid-dex | 1.43% | 1.13% | Base rate |
+| euler-v2 | 2.17% | 9.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDTB yield today?
 
-5.81% APY on fluid-lending (Ethereum), based on live DefiLlama data.
+5.85% APY on fluid-lending (Ethereum), based on live DefiLlama data.
 
 ### How many USDTB pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $31.02M in total.
+5 live pools clear this page's $100K TVL floor, $31.04M in total.
 
 ### Are these rates safe?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

@@ -1,10 +1,10 @@
 # SRROYSTCUSD DeFi Yields
 
-The highest honest SRROYSTCUSD yield right now is 3.70% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYSTCUSD yield right now is 3.82% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=5958373e-af28-5361-9306-0df2b91dd0a2&src=seo_token) | Ethereum | 3.70% | $2.42M |
+| [royco-v2 →](https://www.defi.garden/?pool=5958373e-af28-5361-9306-0df2b91dd0a2&src=seo_token) | Ethereum | 3.82% | $2.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYSTCUSD yield today?
 
-3.70% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+3.82% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SRROYSTCUSD pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

@@ -1,23 +1,23 @@
 # ZEC 디파이 수익률
 
-현재 ZEC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 61.93%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ZEC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 54.88%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token) | Solana | 41.31% | $3.43M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token) | BSC | 37.21% | $551.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token) | BSC | 46.36% | $291.9K |
-| [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 25.98% | $164.9K |
-| [ekubo →](https://www.defi.garden/?pool=9c2667eb-5416-4cf4-b025-6bca6fecd365&src=seo_token) | Starknet | 61.93% | $130.7K |
-| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token) | Solana | 49.49% | $123.7K |
+| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token) | Solana | 32.65% | $3.42M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token) | BSC | 28.98% | $561K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token) | BSC | 38.12% | $290.8K |
+| [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 19.83% | $164.4K |
+| [ekubo →](https://www.defi.garden/?pool=9c2667eb-5416-4cf4-b025-6bca6fecd365&src=seo_token) | Starknet | 54.88% | $130K |
+| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token) | Solana | 45.69% | $123.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ZEC 풀은 여기 6개가 있고, 3개 체인에서 APY가 25.98%부터 61.93%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ZEC 풀은 여기 6개가 있고, 3개 체인에서 APY가 19.83%부터 54.88%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 43.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 43.34%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 6개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -25,12 +25,12 @@ ZEC 풀은 여기 6개가 있고, 3개 체인에서 APY가 25.98%부터 61.93%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| orca-dex | 41.31% | 62.89% | 기본 금리 |
-| uniswap-v3 | 37.21% | 46.12% | 기본 금리 |
-| uniswap-v3 | 46.36% | 37.18% | 기본 금리 |
-| orca-dex | 25.98% | 38.31% | 기본 금리 |
-| ekubo | 61.93% | 42.99% | 기본 금리 |
-| orca-dex | 49.49% | 43.40% | 기본 금리 |
+| orca-dex | 32.65% | 62.34% | 기본 금리 |
+| uniswap-v3 | 28.98% | 45.92% | 기본 금리 |
+| uniswap-v3 | 38.12% | 37.37% | 기본 금리 |
+| orca-dex | 19.83% | 38.21% | 기본 금리 |
+| ekubo | 54.88% | 43.32% | 기본 금리 |
+| orca-dex | 45.69% | 43.37% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -38,7 +38,7 @@ ZEC 풀은 여기 6개가 있고, 3개 체인에서 APY가 25.98%부터 61.93%�
 
 ### 오늘 ZEC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 61.93%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 54.88%예요.
 
 ### ZEC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -63,4 +63,4 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 61.93%예요.
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Starknet](https://www.defi.garden/ko/chains/starknet)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

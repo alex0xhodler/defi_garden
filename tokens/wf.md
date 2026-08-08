@@ -4,7 +4,7 @@ The highest honest WF yield right now is 0.87% on raydium-amm (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9e814616-cdb2-4d77-ab5e-f761183620ae&src=seo_token) | Solana | 0.87% | $158.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=9e814616-cdb2-4d77-ab5e-f761183620ae&src=seo_token) | Solana | 0.87% | $159.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $158.8K in total.
+1 live pool clear this page's $100K TVL floor, $159.2K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

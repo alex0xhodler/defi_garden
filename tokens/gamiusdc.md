@@ -20,7 +20,7 @@ GAMIUSDC shows up in 3 pools here, with rates from 8.53% to 10.68% APY across 2 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 8.71% | 8.12% | Base rate |
+| lagoon | 8.71% | 8.13% | Base rate |
 | gami-labs | 8.53% | 8.46% | Base rate |
 | balancer-v3 | 10.68% | 9.98% | 83.48% incentives |
 
@@ -54,4 +54,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

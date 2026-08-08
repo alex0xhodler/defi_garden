@@ -4,7 +4,7 @@ The highest honest EMBER yield right now is 0.02% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=018f4c26-022e-4dd1-a8c2-57cc433f6485&src=seo_token) | Base | 0.02% | $110.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=018f4c26-022e-4dd1-a8c2-57cc433f6485&src=seo_token) | Base | 0.02% | $110.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EMBER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.7K in total.
+1 live pool clear this page's $100K TVL floor, $110.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

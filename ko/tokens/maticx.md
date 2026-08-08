@@ -30,7 +30,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 stader에서 APY 2.28%예요.
 
 ### MATICX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $4.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $4.83M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 stader에서 APY 2.28%예요.
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

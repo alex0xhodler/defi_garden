@@ -30,4 +30,4 @@ This pool's rate moves a lot: 0.04% right now vs a 0.08% 30-day average. Reward 
 
 [Start Earning on alien-base-v3](https://alienbase.xyz/?ref=defi.garden)
 
-Last updated August 7, 2026
+Last updated August 8, 2026

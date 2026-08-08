@@ -4,8 +4,8 @@ The highest honest ADAI yield right now is 0.30% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $310K |
-| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.16% | $152.3K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $309.1K |
+| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.16% | $151.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ADAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $462.3K in total.
+2 live pools clear this page's $100K TVL floor, $460.9K in total.
 
 ### Are these rates safe?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

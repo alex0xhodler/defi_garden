@@ -20,7 +20,7 @@ GAMIUSDC 풀은 여기 3개가 있고, 2개 체인에서 APY가 8.53%부터 10.6
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lagoon | 8.71% | 8.12% | 기본 금리 |
+| lagoon | 8.71% | 8.13% | 기본 금리 |
 | gami-labs | 8.53% | 8.46% | 기본 금리 |
 | balancer-v3 | 10.68% | 9.98% | 인센티브 83.48% |
 
@@ -54,4 +54,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 balancer-v3에서 APY 10.68%�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

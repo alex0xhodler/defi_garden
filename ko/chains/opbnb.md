@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Opbnb의 kiloex에서 APY 0.38%예요.
 
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

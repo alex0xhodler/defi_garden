@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Neo의 flamingo-finance에서 APY 5.48%예
 - [FLM](https://www.defi.garden/ko/tokens/flm)
 - [BNEO](https://www.defi.garden/ko/tokens/bneo)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 8, 2026

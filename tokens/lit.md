@@ -1,21 +1,21 @@
 # LIT DeFi Yields
 
-The highest honest LIT yield right now is 64.84% on uniswap-v4 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIT yield right now is 70.10% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=d7c365d5-c893-442a-9060-96f59901c742&src=seo_token) | Ethereum | 70.04% | $745.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 64.84% | $650.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 75.82% | $161.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 41.77% | $121.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8f8a5598-3191-45c8-8563-9bdaeef2f2e7&src=seo_token) | Ethereum | 55.59% | $647.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e009966-024d-4666-86aa-e97ad8eab868&src=seo_token) | Ethereum | 70.10% | $160.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6358547-a080-449e-a6eb-e1a3711eb767&src=seo_token) | Ethereum | 36.67% | $120.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LIT shows up in 4 pools here, with rates from 41.77% to 75.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LIT shows up in 4 pools here, with rates from 36.67% to 70.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 102.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 102.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -24,9 +24,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 70.04% | 143.70% | Base rate |
-| uniswap-v4 | 64.84% | 61.28% | Base rate |
-| uniswap-v3 | 75.82% | 46.65% | Base rate |
-| uniswap-v4 | 41.77% | 166.24% | Base rate |
+| uniswap-v4 | 55.59% | 60.82% | Base rate |
+| uniswap-v3 | 70.10% | 46.80% | Base rate |
+| uniswap-v4 | 36.67% | 165.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LIT yield today?
 
-64.84% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+70.10% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LIT pools clear the TVL floor?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

@@ -1,25 +1,25 @@
 # CBETH DeFi Yields
 
-The highest honest CBETH yield right now is 242.45% on aerodrome-slipstream (Base), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBETH yield right now is 156.23% on aerodrome-slipstream (Base), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.35% | $354.58M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 8.53% | $4.81M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 2.10% | $4.34M |
-| [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.15% | $1.71M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 2.12% | $1.44M |
-| [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.16% | $1.24M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 242.45% | $851.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 0.89% | $682.4K |
+| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.35% | $353.9M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 8.52% | $4.79M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 2.07% | $3.93M |
+| [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.15% | $1.7M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 2.11% | $1.44M |
+| [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.16% | $1.23M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 156.23% | $867.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 0.89% | $681.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBETH shows up in 8 pools here, with rates from 0.89% to 242.45% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBETH shows up in 8 pools here, with rates from 0.89% to 156.23% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,13 +28,13 @@ CBETH shows up in 8 pools here, with rates from 0.89% to 242.45% APY across 2 ch
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | coinbase-wrapped-staked-eth | 2.35% | 2.39% | Base rate |
-| fusion-by-ipor | 8.53% | 10.00% | 66.27% incentives |
-| aerodrome-slipstream | 2.10% | 4.65% | 37.89% incentives |
-| curve-dex | 1.15% | 1.26% | 1.12% incentives |
-| fusion-by-ipor | 2.12% | 9.81% | Base rate |
-| stake-dao | 1.16% | 1.26% | 1.17% incentives |
-| aerodrome-slipstream | 242.45% | 285.84% | 89.52% incentives |
-| uniswap-v3 | 0.89% | 1.37% | Base rate |
+| fusion-by-ipor | 8.52% | 9.96% | 66.32% incentives |
+| aerodrome-slipstream | 2.07% | 4.61% | 44.45% incentives |
+| curve-dex | 1.15% | 1.26% | 1.13% incentives |
+| fusion-by-ipor | 2.11% | 9.76% | Base rate |
+| stake-dao | 1.16% | 1.26% | 1.18% incentives |
+| aerodrome-slipstream | 156.23% | 286.55% | 84.64% incentives |
+| uniswap-v3 | 0.89% | 1.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBETH yield today?
 
-242.45% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+156.23% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBETH pools clear the TVL floor?
 
-25 live pools clear this page's $100K TVL floor, $510.33M in total.
+25 live pools clear this page's $100K TVL floor, $508.87M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

@@ -4,7 +4,7 @@ The highest honest AIBTC yield right now is 0.97% on yield-yak-aggregator (Avala
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=5cb581ae-8049-4cdd-a5ff-a418be125f25&src=seo_token) | Avalanche | 0.97% | $489K |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=5cb581ae-8049-4cdd-a5ff-a418be125f25&src=seo_token) | Avalanche | 0.97% | $488.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AIBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $489K in total.
+1 live pool clear this page's $100K TVL floor, $488.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

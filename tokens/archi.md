@@ -4,7 +4,7 @@ The highest honest ARCHI yield right now is 0.22% on uniswap-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=13ba3fdd-e4fa-42cb-98c7-8e9a4278fe7b&src=seo_token) | Arbitrum | 0.22% | $148.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=13ba3fdd-e4fa-42cb-98c7-8e9a4278fe7b&src=seo_token) | Arbitrum | 0.22% | $148K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ARCHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $148.3K in total.
+1 live pool clear this page's $100K TVL floor, $148K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

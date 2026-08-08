@@ -1,18 +1,18 @@
 # ARM DeFi Yields
 
-The highest honest ARM yield right now is 1.76% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARM yield right now is 1.92% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 1.76% | $133.4K |
+| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 1.92% | $132.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ARM shows up in 1 pools here, with rates from 1.76% to 1.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ARM shows up in 1 pools here, with rates from 1.92% to 1.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -20,7 +20,7 @@ ARM shows up in 1 pools here, with rates from 1.76% to 1.76% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 1.76% | 2.20% | 60.32% incentives |
+| curve-dex | 1.92% | 2.19% | 56.21% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,7 +28,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ARM yield today?
 
-1.76% APY on curve-dex (Ethereum), based on live DefiLlama data.
+1.92% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many ARM pools clear the TVL floor?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

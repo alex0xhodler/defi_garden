@@ -1,19 +1,19 @@
 # FXSAVE DeFi Yields
 
-The highest honest FXSAVE yield right now is 11.46% on pendle (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXSAVE yield right now is 10.90% on pendle (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 11.46% | $651.2K |
-| [pendle →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token) | Ethereum | 7.05% | $651.2K |
-| [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token) | Ethereum | 2.26% | $427.4K |
-| [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 2.26% | $427.3K |
+| [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 10.90% | $658.4K |
+| [pendle →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token) | Ethereum | 7.11% | $658.4K |
+| [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token) | Ethereum | 2.17% | $427.5K |
+| [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 2.17% | $427.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FXSAVE shows up in 4 pools here, with rates from 2.26% to 11.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FXSAVE shows up in 4 pools here, with rates from 2.17% to 10.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.34% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,10 +23,10 @@ FXSAVE shows up in 4 pools here, with rates from 2.26% to 11.46% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 11.46% | 9.67% | Base rate |
-| pendle | 7.05% | 5.79% | Base rate |
-| curve-dex | 2.26% | 2.90% | 0.01% incentives |
-| convex-finance | 2.26% | 2.89% | Base rate |
+| pendle | 10.90% | 9.70% | Base rate |
+| pendle | 7.11% | 5.80% | Base rate |
+| curve-dex | 2.17% | 2.89% | 0.01% incentives |
+| convex-finance | 2.17% | 2.88% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FXSAVE yield today?
 
-11.46% APY on pendle (Ethereum), based on live DefiLlama data.
+10.90% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many FXSAVE pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $60.47M in total.
+6 live pools clear this page's $100K TVL floor, $60.61M in total.
 
 ### Are these rates safe?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026

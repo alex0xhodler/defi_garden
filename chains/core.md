@@ -1,11 +1,11 @@
 # CORE DeFi Yields
 
-The highest honest CORE yield right now is 11.48% on b14g (CORE), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CORE yield right now is 14.03% on b14g (CORE), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| CORE | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_chain) | 11.48% | $1.73M |
-| USDT | [colend-protocol →](https://www.defi.garden/?pool=37360ac7-b50d-4f55-ba36-4d5312231d1a&src=seo_chain) | 0.28% | $137.6K |
+| CORE | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_chain) | 14.03% | $1.73M |
+| USDT | [colend-protocol →](https://www.defi.garden/?pool=37360ac7-b50d-4f55-ba36-4d5312231d1a&src=seo_chain) | 0.28% | $137.2K |
 | WCORE | [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_chain) | 0.79% | $123.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CORE yield today?
 
-11.48% APY on b14g (CORE), based on live DefiLlama data.
+14.03% APY on b14g (CORE), based on live DefiLlama data.
 
 ### How many CORE pools clear the TVL floor?
 
@@ -39,4 +39,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [WCORE](https://www.defi.garden/tokens/wcore)
 
-## Last updated August 7, 2026
+## Last updated August 8, 2026
