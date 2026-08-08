@@ -1,10 +1,14 @@
 # traffic-quality-classification — playbook
 
-**When:** a day/window shows sessions but the north star (`waitlist_submitted`) and engagement stay ~0, and
-you need to decide "is this real traffic worth acting on, or bots?" before proposing any opportunity.
+**When:** a window shows sessions — or, since 2026-08-08, *engagement* — and you need to decide whether it
+counts toward a traffic gate before proposing any opportunity.
 
-**Answer in one line:** at current scale it is almost always crawler/bot traffic — do NOT treat a session
-count as demand until it clears the real-user bar below.
+**Answer in one line (PREDICATE WIDENED 2026-08-08 — read this before the bot signature below):** the
+question is **not** "is there a human behind this session?" but **"does this visit carry information we did
+not already have?"** Crawlers fail that test for want of intent. **Insiders — anyone who can deploy — fail
+it because we already knew they were looking.** Both are excluded by the one predicate; the bot signature
+in step 2 is a sufficient test for the first class only, and it scores the second class as REAL on every
+criterion. At current scale a window is almost always crawler traffic, operator traffic, or both.
 
 ## Steps
 1. Pull the sessions for the window (Mixpanel, prod-host filtered: `$current_url contains www.defi.garden`
@@ -17,11 +21,26 @@ count as demand until it clears the real-user bar below.
    - **Garbage long-tail params:** deep/odd URLs like `?token=20)`, malformed values — crawler URL fuzzing.
    - **Zero engagement:** no `search_*`, `plan_*`, `pool_view`, or dwell.
    - **Uniform fingerprint:** many "unique users" sharing one UA / one-hit shape.
-3. **Decision rule:**
-   - ≥3 of the above across ~100% of the window → **crawler traffic.** Report "N sessions, bot-shaped, not
-     distribution." No opportunity; the binding lever stays human-owned distribution (069).
-   - A session with an acquisition source (utm/ref/real referrer) + multi-step engagement → **real user.**
-     THAT is signal; if `waitlist_*` still 0 below it, the funnel step is the problem, not traffic.
+3. **NEW — the insider cut, and it runs BEFORE the decision rule.** Anything that passes step 2 must still
+   be checked against the party that generates traffic by shipping. Break the window's **engagement events**
+   (not its sessions) down by `$region`, then by `$os`/`$browser`:
+   - Datacenter regions (California/Oregon/Virginia + Android or headless-Chrome shapes) are the burst tail.
+   - A single non-datacenter region carrying **100% of the engagement**, on operator-class devices
+     (iOS/macOS), is the insider signature until an instrument says otherwise.
+   - Cross-check the window against `git log --since=<window> origin/main`. Engagement that lands on the day
+     the operator merged UI work, walking many surfaces with `search_input` = 0, is a **reviewer's sweep**,
+     not a searcher's task.
+   - Until item **252**'s `insider` flag ships there is no instrument here, only this forensic step —
+     so state the attribution as circumstantial and state the *inability* as the finding.
+4. **Decision rule:**
+   - ≥3 bot-signature hits across ~100% of the window → **crawler traffic.** Report "N sessions, bot-shaped,
+     not distribution." No opportunity; the binding lever stays human-owned distribution (069).
+   - Engagement concentrated in one operator-shaped origin → **insider traffic. Does NOT count toward any
+     gate.** Report it with its number; it is not a defect and not an opportunity.
+   - A session with an acquisition source + multi-step engagement **that survives the insider cut** →
+     **real user.** THAT is signal; if `waitlist_*` still 0 below it, the funnel step is the problem.
+   - Report the decomposition every time: **"N sessions, of which C crawler, I insider, R real"** — a
+     window reported without all three terms is a defect in the report.
 
 ## Resolution
 - Bot window → honest no-op; do not manufacture a surface to "fix" phantom demand.
@@ -74,7 +93,45 @@ day `waitlist_opened` carried `src=seo_tokens_hub` ×5.
   down by `$current_url` matching the mint strings, filtered and control both). Re-open only if a NEW mint
   string appears that the current tree can produce.
 
+## The insider — the class that scores REAL on every bot criterion (2026-08-08 case, the north star's first click)
+
+On 2026-08-07 `pool_click{source=garden_cta}` fired for the **first time in the metric's history** —
+breaking a 30-day zero — with `pool_view` 4, `plan_created` 1, `plan_saved` 2. Scored against the bot
+signature above it is **REAL on all six criteria**: multi-step progression, no garbage params, no uniform
+fingerprint (Mobile Safari 6 / Safari 2 / Chrome 9 across 9 distinct URLs), typed actions present,
+`session_start`/`page_view` 1.6× (vs 3.3× on the 08-06 burst). Following this playbook as it was written,
+the next step was to open the north star's first traffic gate.
+
+Broken down by `$region` instead (Mixpanel `b1e1f283`): `pool_click` **1/1 Utrecht**, `pool_view` **4/4
+Utrecht**, `plan_created` **1/1 Utrecht**, `plan_saved` **2/2 Utrecht** — **100% of the window's engagement
+from one region**, on iOS/Mac, on the day the operator merged four design PRs (#409/#411/#412/#413), across
+a 9-surface sweep with `search_input` = 0. Operator self-test. Gate stayed shut.
+
+**Why the fix is a wider predicate and not a region filter.** "Exclude Utrecht" is the narrowest hypothesis
+consistent with this one instance, and it is wrong the day the operator travels or a real Dutch visitor
+arrives — the exact induction error `RAZOR.md`'s worked examples are made of. The weak form is the one at
+the top of this file: *does this visit carry information we did not already have?* It **contains** the
+crawler rule (a crawler carries no intent) rather than sitting beside it, and it survives the operator
+changing continents.
+
+**Rules that follow:**
+- **An engagement event is not automatically a gate event.** The 2026-08-03 rule said an event fired
+  unconditionally on arrival is not engagement. This adds: an event fired by *us* is not demand, however
+  deliberate the click.
+- **Break engagement down by region before reading any first-ever non-zero.** A metric's first non-zero
+  reading is exactly when the loop most wants it to be real — that is when to run the cut, not after.
+- **`src`/`utm` attribution still proves nothing** (2026-08-03 rule, restated because it fired again here):
+  the operator's own sweep carried `src=seo_token` and `src=pool`.
+- **Report the residual.** After item 252 ships, `insider` covers marked devices only — an unmarked device,
+  a teammate or a contractor still lands in "real". Say so with a number; never let the flag's existence be
+  read as proof the residual is zero.
+
 **Provenance:** distilled from the 07-16→07-22 daily heartbeats + reports (07-20 "16-session bot-shaped day",
 07-22 "7 crawler sessions, undefined referrer, garbage params like token=20)"); item 096 (host gate), 120.
 JS-executing-crawler section + src-instrument correction: 2026-08-04 heartbeat (the 92-session 08-03 burst,
 queries `830837ff`/`6fcb43a9`/`a1bb6ebf`/`abea84a5`/`ac34d5cd`).
+Insider section + the widened predicate: 2026-08-08 heartbeat (the 08-07 first-ever `garden_cta` click,
+queries `6ff51037`/`c58fd11f`/`e2cd57dc`/`e461b540`/`35b6e8fd`/`b1e1f283`); filed as item 252,
+`specs/252.md`. **Predicate WIDENED, not narrowed** — per `RAZOR.md`'s rot rule, re-checked on this update:
+the file's governing question moved from "is this a bot?" to "does this visit carry new information?", which
+strictly contains every rule the playbook already held.
