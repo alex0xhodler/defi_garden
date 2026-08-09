@@ -35,7 +35,11 @@
       "tokens/edel.html",
       "tokens/moca.html",
       "tokens/stlink.html",
-      "tokens/3crv.html"
+      "tokens/3crv.html",
+      "tokens/gtusdtp.html",
+      "tokens/pons.html",
+      "tokens/usdcx.html",
+      "tokens/basemate.html"
     ]
   },
   "chains": {
@@ -56,7 +60,9 @@
       "chains/monad.html",
       "chains/astar.html",
       "chains/rsk.html",
-      "chains/cronos.html"
+      "chains/cronos.html",
+      "chains/kusama.html",
+      "chains/xrpl.html"
     ]
   },
   "koTokens": {
@@ -89,7 +95,11 @@
       "ko/tokens/puffer.html",
       "ko/tokens/usdt.html",
       "ko/tokens/bgb.html",
-      "ko/tokens/hair.html"
+      "ko/tokens/hair.html",
+      "ko/tokens/nwisdom.html",
+      "ko/tokens/ticker.html",
+      "ko/tokens/apex.html",
+      "ko/tokens/frxmsusd.html"
     ]
   },
   "koChains": {
@@ -108,7 +118,9 @@
       "ko/chains/canto.html",
       "ko/chains/osmosis.html",
       "ko/chains/cronos.html",
-      "ko/chains/rootstock.html"
+      "ko/chains/rootstock.html",
+      "ko/chains/strato.html",
+      "ko/chains/gnosis.html"
     ]
   }
 }
