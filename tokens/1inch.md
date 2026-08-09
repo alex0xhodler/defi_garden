@@ -11,7 +11,7 @@ The highest honest 1INCH yield right now is 33.03% on uniswap-v4 (Ethereum), amo
 | [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 4.51% | $548.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 33.03% | $530.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.15% | $362.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b40a9869-ec18-453b-a973-e8b603e8c730&src=seo_token) | Ethereum | 1.24% | $295.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=78586eb7-6e85-4617-95ac-37841d076c70&src=seo_token) | Ethereum | 5.61% | $201.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 1INCH shows up in 8 pools here, with rates from 0.15% to 33.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 13.25% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 17.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,14 +27,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.84% | 9.82% | Base rate |
-| uniswap-v4 | 9.06% | 27.48% | Base rate |
-| uniswap-v4 | 4.67% | 21.07% | Base rate |
-| uniswap-v4 | 2.22% | 13.45% | Base rate |
+| uniswap-v4 | 0.84% | 9.87% | Base rate |
+| uniswap-v4 | 9.06% | 27.49% | Base rate |
+| uniswap-v4 | 4.67% | 21.06% | Base rate |
+| uniswap-v4 | 2.22% | 13.51% | Base rate |
 | uniswap-v4 | 4.51% | 13.05% | Base rate |
-| uniswap-v4 | 33.03% | 21.59% | Base rate |
-| uniswap-v4 | 0.15% | 3.61% | Base rate |
-| uniswap-v3 | 1.24% | 0.39% | Base rate |
+| uniswap-v4 | 33.03% | 21.68% | Base rate |
+| uniswap-v4 | 0.15% | 3.63% | Base rate |
+| uniswap-v3 | 5.61% | 20.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many 1INCH pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $21.56M in total.
+17 live pools clear this page's $100K TVL floor, $21.59M in total.
 
 ### Are these rates safe?
 

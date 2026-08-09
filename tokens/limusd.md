@@ -5,7 +5,7 @@ The highest honest LIMUSD yield right now is 9.84% on pendle (Hyperliquid L1), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [liminal-basis →](https://www.defi.garden/?pool=3dd52c6a-959e-531d-aa18-84bee3e3cbe5&src=seo_token) | Ethereum | 7.61% | $10.83M |
-| [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.89% | $10.5M |
+| [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.89% | $10.51M |
 | [pendle →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 9.09% | $1.78M |
 | [pendle →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 9.84% | $1.78M |
 | [liminal-basis →](https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token) | Arbitrum | 7.89% | $323.1K |

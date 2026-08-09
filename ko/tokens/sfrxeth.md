@@ -1,12 +1,12 @@
 # SFRXETH 디파이 수익률
 
-현재 SFRXETH의 가장 높은 정직한 수익률은 Fraxtal의 stake-dao에서 4.50%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SFRXETH의 가장 높은 정직한 수익률은 Fraxtal의 stake-dao에서 4.51%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.57% | $70.97M |
+| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.57% | $71.11M |
 | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.23% | $2.02M |
-| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.50% | $293.1K |
+| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.51% | $292.7K |
 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.37% | $236.2K |
 | [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.37% | $217.8K |
 
@@ -14,7 +14,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SFRXETH 풀은 여기 5개가 있고, 2개 체인에서 APY가 2.37%부터 4.50%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SFRXETH 풀은 여기 5개가 있고, 2개 체인에서 APY가 2.37%부터 4.51%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.73%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -23,8 +23,8 @@ SFRXETH 풀은 여기 5개가 있고, 2개 체인에서 APY가 2.37%부터 4.50%
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | frax-ether | 2.57% | 2.73% | 기본 금리 |
-| curve-dex | 3.23% | 3.33% | 인센티브 52.31% |
-| stake-dao | 4.50% | 4.57% | 인센티브 63.58% |
+| curve-dex | 3.23% | 3.33% | 인센티브 52.39% |
+| stake-dao | 4.51% | 4.57% | 인센티브 63.65% |
 | curve-dex | 2.37% | 2.53% | 기본 금리 |
 | convex-finance | 2.37% | 2.53% | 기본 금리 |
 
@@ -34,11 +34,11 @@ SFRXETH 풀은 여기 5개가 있고, 2개 체인에서 APY가 2.37%부터 4.50%
 
 ### 오늘 SFRXETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 4.50%예요.
+DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 4.51%예요.
 
 ### SFRXETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $79.39M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $79.52M예요.
 
 ### 이 수익률은 안전한가요?
 

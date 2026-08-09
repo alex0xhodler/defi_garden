@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.97% | $67.05M |
-| [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.71% | $20.65M |
+| [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.96% | $67.04M |
+| [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.71% | $20.63M |
 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.75% | $16.44M |
 | [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.93% | $6.86M |
 | [pendle →](https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token) | Ethereum | 13.93% | $6.86M |
-| [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 11.57% | $2.01M |
+| [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 11.45% | $2.01M |
 | [stake-dao →](https://www.defi.garden/?pool=69e053b2-dd99-4c52-beff-a9938cb62fa0&src=seo_token) | Ethereum | 15.43% | $1.48M |
-| [curve-dex →](https://www.defi.garden/?pool=681faca0-5f8d-4341-9ba8-7ef8e73968a3&src=seo_token) | Ethereum | 5.64% | $472.9K |
+| [curve-dex →](https://www.defi.garden/?pool=681faca0-5f8d-4341-9ba8-7ef8e73968a3&src=seo_token) | Ethereum | 27.72% | $473.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USD3 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.71%부터 15.43%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USD3 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.71%부터 27.72%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 11.18%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,14 +27,14 @@ USD3 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.71%부터 15.43%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| 3jane-lending | 6.97% | 6.63% | 기본 금리 |
-| morpho-blue | 1.71% | 1.21% | 인센티브 100.00% |
-| morpho-blue | 1.75% | 1.08% | 인센티브 100.00% |
-| pendle | 11.93% | 10.68% | 인센티브 3.53% |
-| pendle | 13.93% | 12.81% | 기본 금리 |
-| curve-dex | 11.57% | 11.69% | 인센티브 86.26% |
-| stake-dao | 15.43% | 13.22% | 인센티브 79.58% |
-| curve-dex | 5.64% | 13.38% | 인센티브 87.42% |
+| 3jane-lending | 6.96% | 6.63% | 기본 금리 |
+| morpho-blue | 1.71% | 1.22% | 인센티브 100.00% |
+| morpho-blue | 1.75% | 1.09% | 인센티브 100.00% |
+| pendle | 11.93% | 10.69% | 인센티브 3.53% |
+| pendle | 13.93% | 12.82% | 기본 금리 |
+| curve-dex | 11.45% | 11.68% | 인센티브 87.43% |
+| stake-dao | 15.43% | 13.22% | 인센티브 79.72% |
+| curve-dex | 27.72% | 13.41% | 인센티브 17.82% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 15.43%예�
 
 ### USD3 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $125.65M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $125.62M예요.
 
 ### 이 수익률은 안전한가요?
 

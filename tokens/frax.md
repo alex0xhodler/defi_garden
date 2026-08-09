@@ -1,23 +1,23 @@
 # FRAX DeFi Yields
 
-The highest honest FRAX yield right now is 6.53% on curve-dex (Ethereum), among 36 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRAX yield right now is 6.58% on curve-dex (Ethereum), among 36 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.67% | $34.01M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.48% | $33.9M |
-| [curve-dex →](https://www.defi.garden/?pool=a7dc71cb-77cc-435c-b7bc-006651c6c1c0&src=seo_token) | Ethereum | 0.01% | $4.08M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.68% | $34.02M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.49% | $33.91M |
+| [curve-dex →](https://www.defi.garden/?pool=a7dc71cb-77cc-435c-b7bc-006651c6c1c0&src=seo_token) | Ethereum | 0.02% | $4.08M |
 | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_token) | Fraxtal | 0.66% | $2.61M |
-| [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token) | Ethereum | 6.53% | $1.78M |
-| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 0.74% | $1.73M |
+| [curve-dex →](https://www.defi.garden/?pool=3f6aa14f-eb0c-4738-bf74-8bc666f7d2b1&src=seo_token) | Ethereum | 6.58% | $1.78M |
+| [frax →](https://www.defi.garden/?pool=0635869c-31a6-47da-95e5-c75af405c84a&src=seo_token) | Ethereum | 0.76% | $1.73M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d371fc69-9a77-4336-a129-ec79c9548266&src=seo_token) | Ethereum | 0.05% | $1.51M |
-| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.24% | $1.4M |
+| [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_token) | Fraxtal | 0.24% | $1.41M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FRAX shows up in 8 pools here, with rates from 0.01% to 6.53% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FRAX shows up in 8 pools here, with rates from 0.02% to 6.58% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,14 +27,14 @@ FRAX shows up in 8 pools here, with rates from 0.01% to 6.53% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 2.67% | 2.48% | 100.00% incentives |
-| convex-finance | 4.48% | 3.63% | 100.00% incentives |
-| curve-dex | 0.01% | 0.02% | Base rate |
+| curve-dex | 2.68% | 2.48% | 100.00% incentives |
+| convex-finance | 4.49% | 3.64% | 100.00% incentives |
+| curve-dex | 0.02% | 0.02% | Base rate |
 | frax | 0.66% | 1.35% | Base rate |
-| curve-dex | 6.53% | 8.27% | 97.09% incentives |
-| frax | 0.74% | 1.04% | Base rate |
+| curve-dex | 6.58% | 8.26% | 96.66% incentives |
+| frax | 0.76% | 1.03% | Base rate |
 | uniswap-v3 | 0.05% | 0.08% | Base rate |
-| frax | 0.24% | 2.76% | Base rate |
+| frax | 0.24% | 2.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FRAX yield today?
 
-6.53% APY on curve-dex (Ethereum), based on live DefiLlama data.
+6.58% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many FRAX pools clear the TVL floor?
 
-36 live pools clear this page's $100K TVL floor, $99.06M in total.
+36 live pools clear this page's $100K TVL floor, $99.08M in total.
 
 ### Are these rates safe?
 

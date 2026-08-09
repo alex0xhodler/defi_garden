@@ -4,14 +4,14 @@ The highest honest TON yield right now is 17.00% on hipo (TON), among 55 pools a
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| HGRAM | [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4&src=seo_chain) | 17.00% | $11.16M |
+| HGRAM | [hipo →](https://www.defi.garden/?pool=691a2aaa-cef5-4a6a-a3f3-86170fada8f4&src=seo_chain) | 17.00% | $11.05M |
 | GRAM-OPENAI | [tonco →](https://www.defi.garden/?pool=9eb91d9d-867b-5ffe-a02f-fced15a65796&src=seo_chain) | 1.18% | $6.85M |
-| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_chain) | 3.38% | $5.81M |
-| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_chain) | 1.52% | $5.06M |
-| TSTON-USD₮ | [tonco →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854&src=seo_chain) | 18.62% | $4.57M |
+| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_chain) | 3.27% | $5.81M |
+| GRAM-USD₮ | [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_chain) | 1.37% | $5.06M |
+| TSTON-USD₮ | [tonco →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854&src=seo_chain) | 21.42% | $4.57M |
 | USDT | [storm-trade →](https://www.defi.garden/?pool=94623cbe-f6ac-47da-b157-776073f2ac13&src=seo_chain) | 5.59% | $3.19M |
 | GRAM | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_chain) | 6.13% | $1.54M |
-| GRAM | [affluent →](https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_chain) | 3.46% | $1.21M |
+| GRAM | [affluent →](https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_chain) | 3.46% | $1.2M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TON pools clear the TVL floor?
 
-55 live pools clear this page's $100K TVL floor, $64.92M in total.
+55 live pools clear this page's $100K TVL floor, $64.84M in total.
 
 ### Are these rates safe?
 

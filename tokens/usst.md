@@ -4,7 +4,7 @@ The highest honest USST yield right now is 0.01% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=c3939054-97f5-45ad-abb4-7166fb2e5c9b&src=seo_token) | Ethereum | 0.01% | $248.4K |
+| [curve-dex →](https://www.defi.garden/?pool=c3939054-97f5-45ad-abb4-7166fb2e5c9b&src=seo_token) | Ethereum | 0.01% | $248.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $248.4K in total.
+1 live pool clear this page's $100K TVL floor, $248.3K in total.
 
 ### Are these rates safe?
 

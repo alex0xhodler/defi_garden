@@ -4,7 +4,7 @@ The highest honest SAVIOUR yield right now is 0.70% on raydium-amm (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a7696ee9-7edb-47af-ac43-3c8f00c18883&src=seo_token) | Solana | 0.70% | $194.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=a7696ee9-7edb-47af-ac43-3c8f00c18883&src=seo_token) | Solana | 0.70% | $195.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SAVIOUR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $194.6K in total.
+1 live pool clear this page's $100K TVL floor, $195.7K in total.
 
 ### Are these rates safe?
 

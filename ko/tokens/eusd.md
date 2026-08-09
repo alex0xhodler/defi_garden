@@ -1,23 +1,23 @@
 # EUSD 디파이 수익률
 
-현재 EUSD의 가장 높은 정직한 수익률은 Base의 curve-dex에서 40.04%이며, $100K TVL 기준을 넘는 17개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EUSD의 가장 높은 정직한 수익률은 Base의 curve-dex에서 40.19%이며, $100K TVL 기준을 넘는 17개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 3.09% | $2.21M |
-| [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token) | Ethereum | 0.24% | $1.4M |
-| [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 7.11% | $999.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3&src=seo_token) | Base | 1.99% | $536.3K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 6.95% | $428K |
-| [stake-dao →](https://www.defi.garden/?pool=6bfa3348-6cbc-43a7-8507-735d90a0b4db&src=seo_token) | Ethereum | 0.34% | $399.3K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 40.04% | $283.7K |
-| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.33% | $226.4K |
+| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 3.08% | $2.21M |
+| [curve-dex →](https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token) | Ethereum | 0.23% | $1.4M |
+| [convex-finance →](https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token) | Ethereum | 7.12% | $1M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3&src=seo_token) | Base | 1.98% | $536.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 6.92% | $428.3K |
+| [stake-dao →](https://www.defi.garden/?pool=6bfa3348-6cbc-43a7-8507-735d90a0b4db&src=seo_token) | Ethereum | 0.33% | $399.3K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 40.19% | $284.1K |
+| [curve-dex →](https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token) | Ethereum | 0.32% | $226.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.24%부터 40.04%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.23%부터 40.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.32%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,14 +27,14 @@ EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.24%부터 40.04%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 3.09% | 3.29% | 기본 금리 |
-| curve-dex | 0.24% | 3.33% | 기본 금리 |
-| convex-finance | 7.11% | 5.31% | 인센티브 96.63% |
-| aerodrome-slipstream | 1.99% | 2.40% | 인센티브 93.03% |
-| aerodrome-v1 | 6.95% | 8.05% | 인센티브 100.00% |
-| stake-dao | 0.34% | 6.49% | 기본 금리 |
-| curve-dex | 40.04% | 31.73% | 인센티브 100.00% |
-| curve-dex | 0.33% | 0.70% | 기본 금리 |
+| curve-dex | 3.08% | 3.29% | 기본 금리 |
+| curve-dex | 0.23% | 3.31% | 기본 금리 |
+| convex-finance | 7.12% | 5.34% | 인센티브 96.77% |
+| aerodrome-slipstream | 1.98% | 2.39% | 인센티브 93.02% |
+| aerodrome-v1 | 6.92% | 8.03% | 인센티브 100.00% |
+| stake-dao | 0.33% | 6.45% | 기본 금리 |
+| curve-dex | 40.19% | 31.95% | 인센티브 100.00% |
+| curve-dex | 0.32% | 0.70% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ EUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.24%부터 40.04%�
 
 ### 오늘 EUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 curve-dex에서 APY 40.04%예요.
+DefiLlama 실시간 데이터 기준, Base의 curve-dex에서 APY 40.19%예요.
 
 ### EUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $34.58M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $34.59M예요.
 
 ### 이 수익률은 안전한가요?
 

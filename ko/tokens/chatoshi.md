@@ -1,10 +1,10 @@
 # CHATOSHI 디파이 수익률
 
-현재 CHATOSHI의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 13.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CHATOSHI의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 12.66%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3b19ce63-4aa2-45b1-b4dc-c46efcb3ffc0&src=seo_token) | Solana | 13.03% | $120.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=3b19ce63-4aa2-45b1-b4dc-c46efcb3ffc0&src=seo_token) | Solana | 12.66% | $121.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +12,11 @@
 
 ### 오늘 CHATOSHI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 13.03%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 12.66%예요.
 
 ### CHATOSHI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $120.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $121.1K예요.
 
 ### 이 수익률은 안전한가요?
 

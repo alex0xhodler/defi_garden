@@ -5,11 +5,11 @@ The highest honest NVDAX yield right now is 0.02% on kamino-lend (Solana), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.02% | $3.04M |
-| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 1.75% | $2.47M |
-| [jupiter-lend →](https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token) | Solana | 2.02% | $898.1K |
-| [jupiter-lend →](https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token) | Solana | 2.02% | $494.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 1.08% | $154.6K |
-| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 2.02% | $130.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 1.48% | $2.46M |
+| [jupiter-lend →](https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token) | Solana | 2.02% | $896.9K |
+| [jupiter-lend →](https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token) | Solana | 2.02% | $493.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 0.93% | $154.6K |
+| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 1.65% | $130.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 NVDAX shows up in 6 pools here, with rates from 0.02% to 2.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 5.63% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 5.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,11 +26,11 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | kamino-lend | 0.02% | 0.02% | Base rate |
-| raydium-amm | 1.75% | 15.97% | Base rate |
-| jupiter-lend | 2.02% | 0.73% | Base rate |
-| jupiter-lend | 2.02% | 0.73% | Base rate |
-| raydium-amm | 1.08% | 14.85% | Base rate |
-| orca-dex | 2.02% | 10.53% | Base rate |
+| raydium-amm | 1.48% | 15.88% | Base rate |
+| jupiter-lend | 2.02% | 0.74% | Base rate |
+| jupiter-lend | 2.02% | 0.74% | Base rate |
+| raydium-amm | 0.93% | 14.78% | Base rate |
+| orca-dex | 1.65% | 10.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -4,7 +4,7 @@ The highest honest USC yield right now is 0.03% on vvs-flawless (Cronos), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-flawless →](https://www.defi.garden/?pool=9a897879-77c4-5308-a3e0-0e4ed1ad6b2f&src=seo_token) | Cronos | 0.03% | $1.15M |
+| [vvs-flawless →](https://www.defi.garden/?pool=9a897879-77c4-5308-a3e0-0e4ed1ad6b2f&src=seo_token) | Cronos | 0.03% | $1.16M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.15M in total.
+1 live pool clear this page's $100K TVL floor, $1.16M in total.
 
 ### Are these rates safe?
 

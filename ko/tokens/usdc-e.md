@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.02% | $6.44M |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token) | Flare | 0.01% | $6.44M |
 | [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 6.94% | $1.62M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 0.57% | $950.6K |
-| [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.97% | $677.7K |
-| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.08% | $637.2K |
-| [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 1.64% | $537.3K |
-| [symbiosis →](https://www.defi.garden/?pool=1437c28a-0faa-40bb-a987-884134c45d2f&src=seo_token) | Polygon | 2.36% | $503.1K |
-| [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.86% | $478.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token) | Arbitrum | 0.56% | $950.9K |
+| [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.97% | $676.4K |
+| [curve-dex →](https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token) | Arbitrum | 0.08% | $637K |
+| [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token) | Sonic | 1.60% | $537.4K |
+| [symbiosis →](https://www.defi.garden/?pool=1437c28a-0faa-40bb-a987-884134c45d2f&src=seo_token) | Polygon | 2.60% | $503.1K |
+| [dolomite →](https://www.defi.garden/?pool=3ad2976e-6fa4-4eb4-b57a-8841536c3bb9&src=seo_token) | Berachain | 3.86% | $478.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDC.E 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.02%부터 6.94%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDC.E 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.01%부터 6.94%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.42%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,13 +27,13 @@ USDC.E 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.02%부터 6.94%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sparkdex-v3.1 | 0.02% | 0.06% | 기본 금리 |
-| sparkdex-v4 | 6.94% | 6.86% | 인센티브 99.95% |
-| uniswap-v3 | 0.57% | 6.02% | 기본 금리 |
+| sparkdex-v3.1 | 0.01% | 0.06% | 기본 금리 |
+| sparkdex-v4 | 6.94% | 6.87% | 인센티브 99.96% |
+| uniswap-v3 | 0.56% | 6.00% | 기본 금리 |
 | aave-v3 | 2.97% | 2.72% | 기본 금리 |
 | curve-dex | 0.08% | 0.20% | 기본 금리 |
-| shadow-exchange-clmm | 1.64% | 2.12% | 인센티브 100.00% |
-| symbiosis | 2.36% | 1.30% | 기본 금리 |
+| shadow-exchange-clmm | 1.60% | 2.11% | 인센티브 100.00% |
+| symbiosis | 2.60% | 1.30% | 기본 금리 |
 | dolomite | 3.86% | 3.94% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

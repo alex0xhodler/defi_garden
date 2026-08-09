@@ -1,18 +1,18 @@
 # BALANCERRETH DeFi Yields
 
-The highest honest BALANCERRETH yield right now is 6.69% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BALANCERRETH yield right now is 6.70% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.82% | $278.6K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.69% | $270K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.70% | $265.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.48% | $278.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 6.70% | $270.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.70% | $265.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BALANCERRETH shows up in 3 pools here, with rates from 4.82% to 6.69% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+BALANCERRETH shows up in 3 pools here, with rates from 4.48% to 6.70% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -20,9 +20,9 @@ BALANCERRETH shows up in 3 pools here, with rates from 4.82% to 6.69% APY across
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 4.82% | 4.71% | 59.81% incentives |
-| balancer-v3 | 6.69% | 6.35% | 58.66% incentives |
-| balancer-v3 | 5.70% | 6.48% | 70.43% incentives |
+| balancer-v3 | 4.48% | 4.71% | 64.32% incentives |
+| balancer-v3 | 6.70% | 6.35% | 58.75% incentives |
+| balancer-v3 | 5.70% | 6.47% | 70.42% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BALANCERRETH yield today?
 
-6.69% APY on balancer-v3 (Base), based on live DefiLlama data.
+6.70% APY on balancer-v3 (Base), based on live DefiLlama data.
 
 ### How many BALANCERRETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $814K in total.
+3 live pools clear this page's $100K TVL floor, $814.8K in total.
 
 ### Are these rates safe?
 

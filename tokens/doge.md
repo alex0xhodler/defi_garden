@@ -4,11 +4,11 @@ The highest honest DOGE yield right now is 79.00% on gmtrade (Solana), among 8 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 1.37% | $2.68M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 1.11% | $2.35M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 2.52% | $409.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 4.59% | $265.6K |
-| [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 79.00% | $162K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 1.24% | $2.68M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 1.03% | $2.35M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 2.49% | $410.9K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 4.36% | $274.4K |
+| [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 79.00% | $161.9K |
 | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token) | Heco | 0.07% | $143.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -25,11 +25,11 @@ DOGE shows up in 6 pools here, with rates from 0.07% to 79.00% APY across 4 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 1.37% | 1.59% | Base rate |
-| uniswap-v2 | 1.11% | 0.90% | Base rate |
-| uniswap-v2 | 2.52% | 2.52% | Base rate |
-| pancakeswap-amm | 4.59% | 2.33% | Base rate |
-| gmtrade | 79.00% | 67.93% | Base rate |
+| uniswap-v2 | 1.24% | 1.58% | Base rate |
+| uniswap-v2 | 1.03% | 0.90% | Base rate |
+| uniswap-v2 | 2.49% | 2.51% | Base rate |
+| pancakeswap-amm | 4.36% | 2.35% | Base rate |
+| gmtrade | 79.00% | 68.14% | Base rate |
 | mdex | 0.07% | 0.07% | 96.90% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DOGE pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $11.66M in total.
+8 live pools clear this page's $100K TVL floor, $11.65M in total.
 
 ### Are these rates safe?
 

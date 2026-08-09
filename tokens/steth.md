@@ -5,13 +5,13 @@ The highest honest STETH yield right now is 2.17% on convex-finance (Ethereum), 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [lido →](https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_token) | Ethereum | 2.13% | $18.11B |
-| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token) | Ethereum | 1.13% | $78.16M |
-| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token) | Ethereum | 1.13% | $42.03M |
-| [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token) | Ethereum | 1.44% | $18.8M |
-| [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token) | Ethereum | 1.55% | $17.11M |
-| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.65% | $13.47M |
-| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.17% | $13.47M |
-| [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token) | Ethereum | 1.35% | $7.41M |
+| [curve-dex →](https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token) | Ethereum | 1.13% | $78.19M |
+| [convex-finance →](https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token) | Ethereum | 1.13% | $42.05M |
+| [curve-dex →](https://www.defi.garden/?pool=08eaf098-4957-4922-bfca-cc0c46505a43&src=seo_token) | Ethereum | 1.44% | $18.81M |
+| [convex-finance →](https://www.defi.garden/?pool=e378a7c2-6285-4993-9397-87ac9c8adc15&src=seo_token) | Ethereum | 1.55% | $17.12M |
+| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.66% | $13.46M |
+| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.17% | $13.46M |
+| [vesper →](https://www.defi.garden/?pool=9b473092-6f2d-4fe6-af5a-f746b77ef5a0&src=seo_token) | Ethereum | 1.45% | $7.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -28,11 +28,11 @@ STETH shows up in 8 pools here, with rates from 1.13% to 2.17% APY across 1 chai
 | lido | 2.13% | 2.20% | Base rate |
 | curve-dex | 1.13% | 1.22% | Base rate |
 | convex-finance | 1.13% | 1.22% | Base rate |
-| curve-dex | 1.44% | 1.52% | 13.75% incentives |
-| convex-finance | 1.55% | 1.62% | 19.80% incentives |
-| curve-dex | 1.65% | 1.62% | 49.18% incentives |
-| convex-finance | 2.17% | 1.89% | 61.21% incentives |
-| vesper | 1.35% | 1.74% | Base rate |
+| curve-dex | 1.44% | 1.52% | 13.80% incentives |
+| convex-finance | 1.55% | 1.62% | 19.84% incentives |
+| curve-dex | 1.66% | 1.62% | 49.28% incentives |
+| convex-finance | 2.17% | 1.89% | 61.28% incentives |
+| vesper | 1.45% | 1.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

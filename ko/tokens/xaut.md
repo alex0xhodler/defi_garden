@@ -4,22 +4,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 3.42% | $6.35M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 0.95% | $6.02M |
+| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 3.45% | $6.35M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 0.80% | $6.02M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62&src=seo_token) | Ethereum | 5.96% | $5.72M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.18% | $3.3M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 1.44% | $2.34M |
-| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.20% | $2.19M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.33% | $3.3M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 1.22% | $2.35M |
+| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.27% | $2.19M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=3552bffb-c474-46bc-b405-6a137f0792e7&src=seo_token) | Ethereum | 5.90% | $1.68M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 0.30% | $842.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 0.39% | $843.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-XAUT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.18%부터 5.96%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+XAUT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.27%부터 5.96%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.00%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.99%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -27,14 +27,14 @@ XAUT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.18%부터 5.96%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lista-lending | 3.42% | 0.69% | 기본 금리 |
-| uniswap-v3 | 0.95% | 1.88% | 기본 금리 |
-| uniswap-v4 | 5.96% | 6.15% | 기본 금리 |
-| uniswap-v3 | 0.18% | 0.46% | 기본 금리 |
-| uniswap-v3 | 1.44% | 6.56% | 기본 금리 |
-| fluid-dex | 0.20% | 0.47% | 기본 금리 |
-| uniswap-v4 | 5.90% | 4.97% | 기본 금리 |
-| uniswap-v3 | 0.30% | 4.13% | 기본 금리 |
+| lista-lending | 3.45% | 0.71% | 기본 금리 |
+| uniswap-v3 | 0.80% | 1.88% | 기본 금리 |
+| uniswap-v4 | 5.96% | 6.16% | 기본 금리 |
+| uniswap-v3 | 0.33% | 0.46% | 기본 금리 |
+| uniswap-v3 | 1.22% | 6.52% | 기본 금리 |
+| fluid-dex | 0.27% | 0.47% | 기본 금리 |
+| uniswap-v4 | 5.90% | 4.96% | 기본 금리 |
+| uniswap-v3 | 0.39% | 4.10% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

@@ -1,22 +1,22 @@
 # USDSUI DeFi Yields
 
-The highest honest USDSUI yield right now is 111.59% on bluefin-spot (Sui), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDSUI yield right now is 120.02% on bluefin-spot (Sui), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [current →](https://www.defi.garden/?pool=1438fc47-2b15-47ac-8514-1ae7b7246cac&src=seo_token) | Sui | 10.08% | $1.7M |
-| [cetus-clmm →](https://www.defi.garden/?pool=36591b70-7836-40eb-8ec4-b8162d9c0d7c&src=seo_token) | Sui | 3.76% | $1.34M |
-| [bluefin-spot →](https://www.defi.garden/?pool=e3887972-24e6-45a9-8ef5-bcc22b6b5739&src=seo_token) | Sui | 14.06% | $959.6K |
-| [navi-lending →](https://www.defi.garden/?pool=d03cebe7-e53a-49d5-977e-dcc8d473c1bc&src=seo_token) | Sui | 9.23% | $876.3K |
+| [current →](https://www.defi.garden/?pool=1438fc47-2b15-47ac-8514-1ae7b7246cac&src=seo_token) | Sui | 10.37% | $1.69M |
+| [cetus-clmm →](https://www.defi.garden/?pool=36591b70-7836-40eb-8ec4-b8162d9c0d7c&src=seo_token) | Sui | 3.78% | $1.34M |
+| [bluefin-spot →](https://www.defi.garden/?pool=e3887972-24e6-45a9-8ef5-bcc22b6b5739&src=seo_token) | Sui | 14.24% | $959.6K |
+| [navi-lending →](https://www.defi.garden/?pool=d03cebe7-e53a-49d5-977e-dcc8d473c1bc&src=seo_token) | Sui | 9.39% | $812.1K |
 | [bluefin-spot →](https://www.defi.garden/?pool=b37f5bba-1b21-4942-a017-5c831e59eec7&src=seo_token) | Sui | 0.01% | $481.1K |
-| [cetus-clmm →](https://www.defi.garden/?pool=1e4c7c80-77c5-4b14-b42e-90498cb3be18&src=seo_token) | Sui | 85.77% | $255.5K |
-| [bluefin-spot →](https://www.defi.garden/?pool=1679d913-2179-4a11-aa55-b0727ec81060&src=seo_token) | Sui | 111.59% | $244K |
+| [cetus-clmm →](https://www.defi.garden/?pool=1e4c7c80-77c5-4b14-b42e-90498cb3be18&src=seo_token) | Sui | 93.46% | $266.8K |
+| [bluefin-spot →](https://www.defi.garden/?pool=1679d913-2179-4a11-aa55-b0727ec81060&src=seo_token) | Sui | 120.02% | $230.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDSUI shows up in 7 pools here, with rates from 0.01% to 111.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDSUI shows up in 7 pools here, with rates from 0.01% to 120.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 7 of these 7 pools have a trustworthy 30-day average on file, with a median of 8.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,13 +26,13 @@ USDSUI shows up in 7 pools here, with rates from 0.01% to 111.59% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| current | 10.08% | 8.33% | 51.61% incentives |
-| cetus-clmm | 3.76% | 3.10% | 91.48% incentives |
-| bluefin-spot | 14.06% | 18.15% | 93.01% incentives |
-| navi-lending | 9.23% | 8.74% | 65.53% incentives |
-| bluefin-spot | 0.01% | 0.55% | Base rate |
-| cetus-clmm | 85.77% | 84.21% | 60.10% incentives |
-| bluefin-spot | 111.59% | 101.23% | 42.78% incentives |
+| current | 10.37% | 8.34% | 48.91% incentives |
+| cetus-clmm | 3.78% | 3.12% | 91.54% incentives |
+| bluefin-spot | 14.24% | 18.14% | 92.43% incentives |
+| navi-lending | 9.39% | 8.74% | 64.96% incentives |
+| bluefin-spot | 0.01% | 0.54% | Base rate |
+| cetus-clmm | 93.46% | 84.39% | 53.14% incentives |
+| bluefin-spot | 120.02% | 101.40% | 42.31% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDSUI yield today?
 
-111.59% APY on bluefin-spot (Sui), based on live DefiLlama data.
+120.02% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many USDSUI pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $5.86M in total.
+7 live pools clear this page's $100K TVL floor, $5.79M in total.
 
 ### Are these rates safe?
 

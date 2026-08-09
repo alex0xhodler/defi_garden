@@ -1,19 +1,19 @@
 # SPELL DeFi Yields
 
-The highest honest SPELL yield right now is 15.24% on abracadabra-spell (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPELL yield right now is 15.26% on abracadabra-spell (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 1.79% | $160.9K |
-| [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 15.24% | $127.8K |
+| [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 2.36% | $161.4K |
+| [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 15.26% | $128.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPELL shows up in 2 pools here, with rates from 1.79% to 15.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPELL shows up in 2 pools here, with rates from 2.36% to 15.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.91% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ SPELL shows up in 2 pools here, with rates from 1.79% to 15.24% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap | 1.79% | 6.24% | Base rate |
-| abracadabra-spell | 15.24% | 15.58% | 100.00% incentives |
+| sushiswap | 2.36% | 6.23% | Base rate |
+| abracadabra-spell | 15.26% | 15.58% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPELL yield today?
 
-15.24% APY on abracadabra-spell (Ethereum), based on live DefiLlama data.
+15.26% APY on abracadabra-spell (Ethereum), based on live DefiLlama data.
 
 ### How many SPELL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $288.7K in total.
+2 live pools clear this page's $100K TVL floor, $289.6K in total.
 
 ### Are these rates safe?
 

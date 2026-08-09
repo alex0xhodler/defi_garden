@@ -4,15 +4,15 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 0.61% | $522.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 0.28% | $524.8K |
 | [bancor-v3 →](https://www.defi.garden/?pool=f3545a70-1d75-4a45-837b-61a870261bcc&src=seo_token) | Ethereum | 0.01% | $344.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.02% | $221K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.02% | $228.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WNXM 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.01%부터 0.61%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WNXM 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.01%부터 0.28%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.46%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -22,7 +22,7 @@ WNXM 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.01%부터 0.61%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.61% | 5.48% | 기본 금리 |
+| uniswap-v3 | 0.28% | 5.48% | 기본 금리 |
 | bancor-v3 | 0.01% | 0.01% | 기본 금리 |
 | uniswap-v2 | 0.02% | 0.46% | 기본 금리 |
 
@@ -36,7 +36,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.02%예�
 
 ### WNXM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.88M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,10 +4,10 @@ The highest honest PRIME yield right now is 4.89% on hastra (Solana), among 15 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 4.89% | $167.86M |
+| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 4.89% | $167.84M |
 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 3.49% | $20.36M |
-| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.15% | $9.65M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 0.06% | $9M |
+| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.12% | $9.65M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 0.48% | $9M |
 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.03% | $3.4M |
 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 5.30% | $2.12M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 3.26% | $1.55M |
@@ -29,10 +29,10 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | hastra | 4.89% | 5.48% | Base rate |
 | morpho-blue | 3.49% | 3.92% | Base rate |
-| orca-dex | 0.15% | 0.86% | Base rate |
-| uniswap-v3 | 0.06% | 3.16% | Base rate |
+| orca-dex | 0.12% | 0.85% | Base rate |
+| uniswap-v3 | 0.48% | 3.14% | Base rate |
 | orca-dex | 0.03% | 0.23% | Base rate |
-| morpho-blue | 5.30% | 3.40% | Base rate |
+| morpho-blue | 5.30% | 3.41% | Base rate |
 | morpho-blue | 3.26% | 3.71% | Base rate |
 | morpho-blue | 2.18% | 1.75% | Base rate |
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PRIME pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $575.15M in total.
+15 live pools clear this page's $100K TVL floor, $575.02M in total.
 
 ### Are these rates safe?
 

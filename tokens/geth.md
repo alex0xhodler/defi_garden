@@ -4,8 +4,8 @@ The highest honest GETH yield right now is 5.69% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token) | Ethereum | 2.20% | $14.66M |
-| [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_token) | Polkadot | 5.69% | $1.54M |
+| [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token) | Ethereum | 2.20% | $14.69M |
+| [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_token) | Polkadot | 5.69% | $1.53M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ GETH shows up in 2 pools here, with rates from 2.20% to 5.69% APY across 2 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | geth | 2.20% | 2.23% | Base rate |
-| hydration-dex | 5.69% | 5.81% | 88.32% incentives |
+| hydration-dex | 5.69% | 5.81% | 88.34% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $16.2M in total.
+2 live pools clear this page's $100K TVL floor, $16.23M in total.
 
 ### Are these rates safe?
 

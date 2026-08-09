@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.30% | $10.06M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.54% | $6.17M |
-| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 5.07% | $3.91M |
+| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.28% | $10.07M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.52% | $6.2M |
+| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 5.08% | $3.91M |
 | [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 5.17% | $2.37M |
 | [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 10.42% | $2.37M |
 
@@ -14,7 +14,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.54%부터 10.42%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.52%부터 10.42%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.83%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -22,9 +22,9 @@ TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.54%부터 10.42%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 5.30% | 5.58% | 기본 금리 |
-| curve-dex | 0.54% | 0.48% | 인센티브 0.00% |
-| curve-dex | 5.07% | 301.94% | 인센티브 99.41% |
+| curve-dex | 5.28% | 5.57% | 기본 금리 |
+| curve-dex | 0.52% | 0.48% | 인센티브 0.00% |
+| curve-dex | 5.08% | 297.08% | 인센티브 99.61% |
 | pendle | 5.17% | 6.83% | 인센티브 39.21% |
 | pendle | 10.42% | 12.59% | 기본 금리 |
 
@@ -38,7 +38,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 10.42%예요.
 
 ### TRUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $25.87M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $25.9M예요.
 
 ### 이 수익률은 안전한가요?
 

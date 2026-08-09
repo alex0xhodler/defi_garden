@@ -1,19 +1,19 @@
 # CBXRP DeFi Yields
 
-The highest honest CBXRP yield right now is 31.58% on aerodrome-slipstream (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBXRP yield right now is 21.08% on aerodrome-slipstream (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.14% | $1.66M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 31.58% | $476.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 4.54% | $337K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 0.88% | $126K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 21.08% | $537.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 3.17% | $393.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 0.67% | $126.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBXRP shows up in 4 pools here, with rates from 0.14% to 31.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBXRP shows up in 4 pools here, with rates from 0.14% to 21.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,10 +23,10 @@ CBXRP shows up in 4 pools here, with rates from 0.14% to 31.58% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| moonwell-lending | 0.14% | 0.15% | 97.70% incentives |
-| aerodrome-slipstream | 31.58% | 35.55% | 27.35% incentives |
-| aerodrome-slipstream | 4.54% | 13.81% | 27.26% incentives |
-| aerodrome-slipstream | 0.88% | 3.21% | Base rate |
+| moonwell-lending | 0.14% | 0.15% | 97.61% incentives |
+| aerodrome-slipstream | 21.08% | 35.70% | 26.86% incentives |
+| aerodrome-slipstream | 3.17% | 13.83% | 31.03% incentives |
+| aerodrome-slipstream | 0.67% | 3.20% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBXRP yield today?
 
-31.58% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+21.08% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBXRP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $90.3M in total.
+6 live pools clear this page's $100K TVL floor, $90.84M in total.
 
 ### Are these rates safe?
 

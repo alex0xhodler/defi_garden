@@ -4,14 +4,14 @@ The highest honest CLEVCVX yield right now is 24.64% on convex-finance (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token) | Ethereum | 17.67% | $381K |
-| [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token) | Ethereum | 24.64% | $364.2K |
+| [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token) | Ethereum | 17.68% | $382K |
+| [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token) | Ethereum | 24.64% | $365.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CLEVCVX shows up in 2 pools here, with rates from 17.67% to 24.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CLEVCVX shows up in 2 pools here, with rates from 17.68% to 24.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,7 +21,7 @@ CLEVCVX shows up in 2 pools here, with rates from 17.67% to 24.64% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 17.67% | 17.38% | 99.94% incentives |
+| curve-dex | 17.68% | 17.38% | 99.94% incentives |
 | convex-finance | 24.64% | 25.02% | 99.96% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CLEVCVX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $745.2K in total.
+2 live pools clear this page's $100K TVL floor, $747.1K in total.
 
 ### Are these rates safe?
 

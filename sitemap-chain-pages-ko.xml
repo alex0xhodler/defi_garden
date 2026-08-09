@@ -206,12 +206,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/algorand</loc>
+    <loc>https://www.defi.garden/ko/chains/filecoin</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/filecoin</loc>
+    <loc>https://www.defi.garden/ko/chains/algorand</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -251,12 +251,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/venom</loc>
+    <loc>https://www.defi.garden/ko/chains/flow</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/flow</loc>
+    <loc>https://www.defi.garden/ko/chains/venom</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -266,12 +266,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/heco</loc>
+    <loc>https://www.defi.garden/ko/chains/celo</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/celo</loc>
+    <loc>https://www.defi.garden/ko/chains/heco</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>daily</changefreq>
   </url>

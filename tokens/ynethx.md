@@ -7,7 +7,7 @@ The highest honest YNETHX yield right now is 5.48% on stake-dao (Ethereum), amon
 | [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 4.18% | $976.2K |
 | [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 4.18% | $629.6K |
 | [stake-dao →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31&src=seo_token) | Ethereum | 5.48% | $205K |
-| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 5.48% | $147.4K |
+| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 5.48% | $147.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,8 +21,8 @@ YNETHX shows up in 4 pools here, with rates from 4.18% to 5.48% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 4.18% | 5.51% | 0.04% incentives |
-| convex-finance | 4.18% | 7.21% | Base rate |
+| curve-dex | 4.18% | 5.52% | 0.04% incentives |
+| convex-finance | 4.18% | 7.19% | Base rate |
 | stake-dao | 5.48% | 5.81% | 0.07% incentives |
 | yearn-finance | 5.48% | 5.68% | Base rate |
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YNETHX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $11.97M in total.
+6 live pools clear this page's $100K TVL floor, $11.96M in total.
 
 ### Are these rates safe?
 

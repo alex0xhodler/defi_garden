@@ -1,10 +1,10 @@
 # PIPPIN DeFi Yields
 
-The highest honest PIPPIN yield right now is 5.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PIPPIN yield right now is 5.80% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=20d99514-4d6b-4ff3-bbec-0732971885a0&src=seo_token) | Solana | 5.56% | $3.29M |
+| [raydium-amm →](https://www.defi.garden/?pool=20d99514-4d6b-4ff3-bbec-0732971885a0&src=seo_token) | Solana | 5.80% | $3.29M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PIPPIN yield today?
 
-5.56% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.80% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PIPPIN pools clear the TVL floor?
 

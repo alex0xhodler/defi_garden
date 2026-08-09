@@ -1,24 +1,24 @@
 # PEPE 디파이 수익률
 
-현재 PEPE의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 6.84%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PEPE의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 5.69%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 1.03% | $21.42M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 0.84% | $21.54M |
 | [raydium-amm →](https://www.defi.garden/?pool=f533ee34-5354-5712-9a31-332d21888e52&src=seo_token) | Solana | 0.55% | $2.81M |
 | [raydium-amm →](https://www.defi.garden/?pool=75bf0314-4de8-50c3-b390-31d28279f1db&src=seo_token) | Solana | 0.25% | $2.78M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 6.84% | $1.82M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 4.57% | $201.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 5.69% | $1.84M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 6.74% | $196.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 1.88% | $183.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 2.97% | $151.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 3.96% | $153.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PEPE 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.25%부터 6.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PEPE 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.25%부터 6.74%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.76%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.80%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 7개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -26,13 +26,13 @@ PEPE 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.25%부터 6.84%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 1.03% | 3.42% | 기본 금리 |
+| uniswap-v2 | 0.84% | 3.41% | 기본 금리 |
 | raydium-amm | 0.55% | 0.30% | 기본 금리 |
 | raydium-amm | 0.25% | 0.24% | 기본 금리 |
-| uniswap-v3 | 6.84% | 4.65% | 기본 금리 |
-| uniswap-v3 | 4.57% | 1.76% | 기본 금리 |
-| uniswap-v4 | 1.88% | 7.87% | 기본 금리 |
-| raydium-amm | 2.97% | 1.71% | 기본 금리 |
+| uniswap-v3 | 5.69% | 4.66% | 기본 금리 |
+| uniswap-v3 | 6.74% | 1.80% | 기본 금리 |
+| uniswap-v4 | 1.88% | 7.92% | 기본 금리 |
+| raydium-amm | 3.96% | 1.71% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +40,11 @@ PEPE 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.25%부터 6.84%까
 
 ### 오늘 PEPE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 6.84%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 5.69%예요.
 
 ### PEPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $29.36M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $29.49M예요.
 
 ### 이 수익률은 안전한가요?
 

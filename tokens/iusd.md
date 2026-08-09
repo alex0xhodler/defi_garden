@@ -1,18 +1,18 @@
 # IUSD DeFi Yields
 
-The highest honest IUSD yield right now is 14.74% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IUSD yield right now is 14.70% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 2.75% | $978.3K |
-| [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 3.52% | $205.3K |
-| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.74% | $171.1K |
+| [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_token) | Echelon Initia | 2.76% | $978.3K |
+| [liqwid →](https://www.defi.garden/?pool=141d116a-b7b6-4898-8acf-6e5888fad0e0&src=seo_token) | Cardano | 3.52% | $204.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=af811c95-f061-4695-a4d4-2fecdea7b043&src=seo_token) | Cardano | 14.70% | $171.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-IUSD shows up in 3 pools here, with rates from 2.75% to 14.74% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+IUSD shows up in 3 pools here, with rates from 2.76% to 14.70% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,9 +22,9 @@ IUSD shows up in 3 pools here, with rates from 2.75% to 14.74% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| echelon-market | 2.75% | 1.92% | 18.87% incentives |
+| echelon-market | 2.76% | 1.92% | 19.13% incentives |
 | liqwid | 3.52% | 3.82% | Base rate |
-| minswap-dex | 14.74% | 15.13% | 22.18% incentives |
+| minswap-dex | 14.70% | 15.13% | 22.18% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest IUSD yield today?
 
-14.74% APY on minswap-dex (Cardano), based on live DefiLlama data.
+14.70% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many IUSD pools clear the TVL floor?
 
@@ -47,8 +47,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
 - [USDA](https://www.defi.garden/tokens/usda)
-- [NIGHT](https://www.defi.garden/tokens/night)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
+- [NIGHT](https://www.defi.garden/tokens/night)
 - [MIN](https://www.defi.garden/tokens/min)
 
 ## Available on

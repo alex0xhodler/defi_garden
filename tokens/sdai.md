@@ -5,9 +5,9 @@ The highest honest SDAI yield right now is 4.11% on sdai (Gnosis), among 5 pools
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [sky-lending →](https://www.defi.garden/?pool=c8a24fee-ec00-4f38-86c0-9f6daebc4225&src=seo_token) | Ethereum | 1.25% | $209.98M |
-| [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.11% | $54.57M |
-| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 2.81% | $7.1M |
-| [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token) | Ethereum | 0.12% | $203.3K |
+| [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_token) | Gnosis | 4.11% | $54.56M |
+| [curve-dex →](https://www.defi.garden/?pool=d22deafb-dbb1-417c-b555-cc8c9f4b955a&src=seo_token) | Ethereum | 2.83% | $7.1M |
+| [curve-dex →](https://www.defi.garden/?pool=f0eead86-5acd-41a9-93c9-b01766d120e6&src=seo_token) | Ethereum | 0.12% | $203.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SDAI shows up in 4 pools here, with rates from 0.12% to 4.11% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.31% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,8 +23,8 @@ SDAI shows up in 4 pools here, with rates from 0.12% to 4.11% APY across 2 chain
 |---|---|---|---|
 | sky-lending | 1.25% | 1.25% | Base rate |
 | sdai | 4.11% | 4.25% | Base rate |
-| curve-dex | 2.81% | 3.36% | Base rate |
-| curve-dex | 0.12% | 0.13% | 0.31% incentives |
+| curve-dex | 2.83% | 3.35% | Base rate |
+| curve-dex | 0.12% | 0.13% | 0.32% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SDAI pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $280.48M in total.
+5 live pools clear this page's $100K TVL floor, $280.47M in total.
 
 ### Are these rates safe?
 

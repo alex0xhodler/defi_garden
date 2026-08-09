@@ -1,19 +1,19 @@
 # FXN DeFi Yields
 
-The highest honest FXN yield right now is 11.40% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXN yield right now is 11.44% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token) | Ethereum | 0.41% | $869.2K |
-| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.66% | $493.8K |
-| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 11.40% | $343.3K |
-| [convex-finance →](https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token) | Ethereum | 0.41% | $299.1K |
+| [curve-dex →](https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token) | Ethereum | 0.60% | $869.1K |
+| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.70% | $493.4K |
+| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 11.44% | $343.1K |
+| [convex-finance →](https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token) | Ethereum | 0.60% | $299.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FXN shows up in 4 pools here, with rates from 0.41% to 11.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FXN shows up in 4 pools here, with rates from 0.60% to 11.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,10 +23,10 @@ FXN shows up in 4 pools here, with rates from 0.41% to 11.40% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.41% | 0.63% | 0.03% incentives |
-| curve-dex | 7.66% | 7.42% | 94.78% incentives |
-| convex-finance | 11.40% | 10.65% | 96.49% incentives |
-| convex-finance | 0.41% | 0.63% | Base rate |
+| curve-dex | 0.60% | 0.64% | 0.02% incentives |
+| curve-dex | 7.70% | 7.43% | 94.68% incentives |
+| convex-finance | 11.44% | 10.67% | 96.42% incentives |
+| convex-finance | 0.60% | 0.63% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FXN yield today?
 
-11.40% APY on convex-finance (Ethereum), based on live DefiLlama data.
+11.44% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FXN pools clear the TVL floor?
 

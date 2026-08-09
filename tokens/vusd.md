@@ -1,34 +1,34 @@
 # VUSD DeFi Yields
 
-The highest honest VUSD yield right now is 30.07% on stake-dao (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VUSD yield right now is 30.13% on stake-dao (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.76% | $36.15M |
-| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 25.07% | $459.3K |
-| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 30.07% | $370.5K |
-| [amply-finance →](https://www.defi.garden/?pool=1e2284a8-3983-427c-a432-e4a8b37adade&src=seo_token) | Cronos zkEVM | 0.01% | $199.6K |
-| [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 14.20% | $178.7K |
-| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 16.30% | $170.9K |
+| [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.77% | $36.15M |
+| [curve-dex →](https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token) | Ethereum | 25.13% | $459.3K |
+| [stake-dao →](https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token) | Ethereum | 30.13% | $370.5K |
+| [amply-finance →](https://www.defi.garden/?pool=1e2284a8-3983-427c-a432-e4a8b37adade&src=seo_token) | Cronos zkEVM | 0.01% | $202K |
+| [curve-dex →](https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token) | Ethereum | 14.28% | $178.7K |
+| [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 16.34% | $170.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VUSD shows up in 6 pools here, with rates from 0.01% to 30.07% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+VUSD shows up in 6 pools here, with rates from 0.01% to 30.13% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 15.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 15.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curvance | 0.76% | 0.74% | 100.00% incentives |
-| curve-dex | 25.07% | 18.22% | 98.84% incentives |
-| stake-dao | 30.07% | 24.91% | 99.63% incentives |
-| amply-finance | 0.01% | 2.29% | Base rate |
-| curve-dex | 14.20% | 14.28% | 99.72% incentives |
-| stake-dao | 16.30% | 16.41% | 99.82% incentives |
+| curvance | 0.77% | 0.74% | 100.00% incentives |
+| curve-dex | 25.13% | 18.23% | 98.93% incentives |
+| stake-dao | 30.13% | 24.92% | 99.63% incentives |
+| amply-finance | 0.01% | 2.28% | Base rate |
+| curve-dex | 14.28% | 14.27% | 99.51% incentives |
+| stake-dao | 16.34% | 16.40% | 99.76% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,11 +36,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VUSD yield today?
 
-30.07% APY on stake-dao (Ethereum), based on live DefiLlama data.
+30.13% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many VUSD pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $39.37M in total.
+7 live pools clear this page's $100K TVL floor, $39.38M in total.
 
 ### Are these rates safe?
 

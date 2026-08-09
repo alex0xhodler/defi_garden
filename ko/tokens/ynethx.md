@@ -7,7 +7,7 @@
 | [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 4.18% | $976.2K |
 | [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 4.18% | $629.6K |
 | [stake-dao →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31&src=seo_token) | Ethereum | 5.48% | $205K |
-| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 5.48% | $147.4K |
+| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 5.48% | $147.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -21,8 +21,8 @@ YNETHX 풀은 여기 4개가 있고, 1개 체인에서 APY가 4.18%부터 5.48%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 4.18% | 5.51% | 인센티브 0.04% |
-| convex-finance | 4.18% | 7.21% | 기본 금리 |
+| curve-dex | 4.18% | 5.52% | 인센티브 0.04% |
+| convex-finance | 4.18% | 7.19% | 기본 금리 |
 | stake-dao | 5.48% | 5.81% | 인센티브 0.07% |
 | yearn-finance | 5.48% | 5.68% | 기본 금리 |
 
@@ -36,7 +36,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 5.48%예�
 
 ### YNETHX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $11.97M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $11.96M예요.
 
 ### 이 수익률은 안전한가요?
 

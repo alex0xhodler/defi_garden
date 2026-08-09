@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $782.79M in total.
+2 live pools clear this page's $100K TVL floor, $782.8M in total.
 
 ### Are these rates safe?
 

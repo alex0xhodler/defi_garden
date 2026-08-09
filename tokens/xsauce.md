@@ -4,8 +4,8 @@ The highest honest XSAUCE yield right now is 1.29% on saucerswap-v1 (Hedera), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.29% | $260K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 1.07% | $114.7K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.29% | $261.5K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 1.07% | $115.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,7 +21,7 @@ XSAUCE shows up in 2 pools here, with rates from 1.07% to 1.29% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saucerswap-v1 | 1.29% | 1.38% | 93.44% incentives |
+| saucerswap-v1 | 1.29% | 1.38% | 93.42% incentives |
 | saucerswap-v1 | 1.07% | 1.07% | 99.82% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XSAUCE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $374.7K in total.
+2 live pools clear this page's $100K TVL floor, $376.9K in total.
 
 ### Are these rates safe?
 
@@ -44,10 +44,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [HBAR](https://www.defi.garden/tokens/hbar)
 - [SAUCE](https://www.defi.garden/tokens/sauce)
-- [HBARX](https://www.defi.garden/tokens/hbarx)
 - [DOVU](https://www.defi.garden/tokens/dovu)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

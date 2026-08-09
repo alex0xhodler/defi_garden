@@ -11,7 +11,7 @@ The highest honest KPK yield right now is 6.50% on morpho-blue (Ethereum), among
 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 3.06% | $1.65M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 3.26% | $1.55M |
 | [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token) | Ethereum | 2.18% | $1.52M |
-| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 3.58% | $625.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 3.58% | $615.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -29,9 +29,9 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | morpho-blue | 3.49% | 3.92% | Base rate |
 | morpho-blue | 6.50% | 7.03% | Base rate |
-| morpho-blue | 0.03% | 0.19% | Base rate |
-| morpho-blue | 5.30% | 3.40% | Base rate |
-| morpho-blue | 3.06% | 2.75% | Base rate |
+| morpho-blue | 0.03% | 0.18% | Base rate |
+| morpho-blue | 5.30% | 3.41% | Base rate |
+| morpho-blue | 3.06% | 2.76% | Base rate |
 | morpho-blue | 3.26% | 3.71% | Base rate |
 | morpho-blue | 2.18% | 1.75% | Base rate |
 | morpho-blue | 3.58% | 3.68% | Base rate |
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KPK pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $37.74M in total.
+9 live pools clear this page's $100K TVL floor, $37.73M in total.
 
 ### Are these rates safe?
 

@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.19% | $45.07M |
-| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 0.03% | $2.15M |
+| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.18% | $45M |
+| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 0.03% | $2.14M |
 | [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 2.13% | $1.26M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.47% | $572.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.47% | $573.4K |
 | [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 9.75% | $150.7K |
 | [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 12.50% | $150.7K |
 
@@ -23,12 +23,12 @@ PUFETH 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.03%부터 12.50%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| puffer-stake | 3.19% | 2.20% | 인센티브 0.50% |
+| puffer-stake | 3.18% | 2.21% | 인센티브 0.50% |
 | curve-dex | 0.03% | 2.93% | 인센티브 100.00% |
-| curve-dex | 2.13% | 3.68% | 인센티브 56.76% |
+| curve-dex | 2.13% | 3.68% | 인센티브 56.78% |
 | uniswap-v3 | 4.47% | 4.08% | 인센티브 99.98% |
-| pendle | 9.75% | 7.15% | 인센티브 64.93% |
-| pendle | 12.50% | 4.78% | 인센티브 50.64% |
+| pendle | 9.75% | 7.21% | 인센티브 64.93% |
+| pendle | 12.50% | 4.79% | 인센티브 50.64% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,7 +40,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 9.75%예요.
 
 ### PUFETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $49.56M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $49.48M예요.
 
 ### 이 수익률은 안전한가요?
 

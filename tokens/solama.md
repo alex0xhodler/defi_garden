@@ -1,10 +1,10 @@
 # SOLAMA DeFi Yields
 
-The highest honest SOLAMA yield right now is 3.78% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOLAMA yield right now is 3.06% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7d7dd28c-5884-4f7f-ae01-02c8a5e63b99&src=seo_token) | Solana | 3.78% | $107.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=7d7dd28c-5884-4f7f-ae01-02c8a5e63b99&src=seo_token) | Solana | 3.06% | $107.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOLAMA yield today?
 
-3.78% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.06% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SOLAMA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.2K in total.
+1 live pool clear this page's $100K TVL floor, $107.8K in total.
 
 ### Are these rates safe?
 

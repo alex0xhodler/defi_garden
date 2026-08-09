@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd&src=seo_token) | Ethereum | 1.16% | $3.85M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e&src=seo_token) | Ethereum | 0.19% | $1.12M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e&src=seo_token) | Ethereum | 0.19% | $1.14M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=3497aee5-aecf-4ed9-9ffe-51d280ff8c06&src=seo_token) | Ethereum | 0.01% | $164.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -22,7 +22,7 @@ WLFI 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.01%부터 1.16%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 1.16% | 4.28% | 기본 금리 |
+| uniswap-v4 | 1.16% | 4.30% | 기본 금리 |
 | uniswap-v3 | 0.19% | 3.04% | 기본 금리 |
 | uniswap-v4 | 0.01% | 0.00% | 기본 금리 |
 
@@ -36,7 +36,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.01%예�
 
 ### WLFI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $267.2M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $267.24M예요.
 
 ### 이 수익률은 안전한가요?
 

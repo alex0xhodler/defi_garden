@@ -4,7 +4,7 @@ The highest honest BAL yield right now is 0.09% on balancer-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=30eedaf4-83f7-418b-985b-89478d4b90e6&src=seo_token) | Ethereum | 0.09% | $4.26M |
+| [balancer-v2 →](https://www.defi.garden/?pool=30eedaf4-83f7-418b-985b-89478d4b90e6&src=seo_token) | Ethereum | 0.09% | $4.3M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.26M in total.
+1 live pool clear this page's $100K TVL floor, $4.3M in total.
 
 ### Are these rates safe?
 

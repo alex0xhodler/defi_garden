@@ -1,23 +1,23 @@
 # USG DeFi Yields
 
-The highest honest USG yield right now is 17.50% on convex-finance (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USG yield right now is 18.70% on convex-finance (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3a50ec85-2f8b-471a-9536-7517e18e2dbd&src=seo_token) | Ethereum | 4.00% | $1.94M |
-| [curve-dex →](https://www.defi.garden/?pool=5d1de707-d2cf-4142-b6c4-cea8cb8184a4&src=seo_token) | Ethereum | 7.44% | $1.52M |
-| [convex-finance →](https://www.defi.garden/?pool=2c455f9b-22cd-4c64-ae29-d71b51976b2f&src=seo_token) | Ethereum | 12.98% | $885.8K |
-| [convex-finance →](https://www.defi.garden/?pool=00e9e83e-0627-4d3e-9336-d5efcb528754&src=seo_token) | Ethereum | 12.49% | $831.6K |
-| [stake-dao →](https://www.defi.garden/?pool=f09e25a0-5cfa-4b3a-8b42-f1fdb69af484&src=seo_token) | Ethereum | 7.84% | $438.3K |
-| [stake-dao →](https://www.defi.garden/?pool=4fc38167-1f87-4fae-8b63-68d9a5f1eb5b&src=seo_token) | Ethereum | 11.76% | $389.4K |
-| [curve-dex →](https://www.defi.garden/?pool=cf2bb5f7-a963-41fb-a64b-f424b17a90a0&src=seo_token) | Ethereum | 10.63% | $374.8K |
-| [convex-finance →](https://www.defi.garden/?pool=4e9193fa-c973-43bc-8e8f-d08c83107965&src=seo_token) | Ethereum | 17.50% | $270.2K |
+| [curve-dex →](https://www.defi.garden/?pool=3a50ec85-2f8b-471a-9536-7517e18e2dbd&src=seo_token) | Ethereum | 4.38% | $1.94M |
+| [curve-dex →](https://www.defi.garden/?pool=5d1de707-d2cf-4142-b6c4-cea8cb8184a4&src=seo_token) | Ethereum | 7.85% | $1.52M |
+| [convex-finance →](https://www.defi.garden/?pool=2c455f9b-22cd-4c64-ae29-d71b51976b2f&src=seo_token) | Ethereum | 13.40% | $885.5K |
+| [convex-finance →](https://www.defi.garden/?pool=00e9e83e-0627-4d3e-9336-d5efcb528754&src=seo_token) | Ethereum | 12.89% | $831.3K |
+| [stake-dao →](https://www.defi.garden/?pool=f09e25a0-5cfa-4b3a-8b42-f1fdb69af484&src=seo_token) | Ethereum | 7.90% | $438K |
+| [stake-dao →](https://www.defi.garden/?pool=4fc38167-1f87-4fae-8b63-68d9a5f1eb5b&src=seo_token) | Ethereum | 11.86% | $389.1K |
+| [curve-dex →](https://www.defi.garden/?pool=cf2bb5f7-a963-41fb-a64b-f424b17a90a0&src=seo_token) | Ethereum | 11.81% | $374.7K |
+| [convex-finance →](https://www.defi.garden/?pool=4e9193fa-c973-43bc-8e8f-d08c83107965&src=seo_token) | Ethereum | 18.70% | $270.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USG shows up in 8 pools here, with rates from 4.00% to 17.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USG shows up in 8 pools here, with rates from 4.38% to 18.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 10.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,14 +27,14 @@ USG shows up in 8 pools here, with rates from 4.00% to 17.50% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 4.00% | 6.33% | 85.49% incentives |
-| curve-dex | 7.44% | 5.76% | 79.71% incentives |
-| convex-finance | 12.98% | 10.61% | 88.36% incentives |
-| convex-finance | 12.49% | 12.40% | 95.36% incentives |
-| stake-dao | 7.84% | 12.08% | 91.07% incentives |
-| stake-dao | 11.76% | 10.27% | 91.58% incentives |
-| curve-dex | 10.63% | 11.23% | 50.44% incentives |
-| convex-finance | 17.50% | 17.48% | 69.89% incentives |
+| curve-dex | 4.38% | 6.32% | 78.31% incentives |
+| curve-dex | 7.85% | 5.77% | 75.81% incentives |
+| convex-finance | 13.40% | 10.61% | 85.82% incentives |
+| convex-finance | 12.89% | 12.40% | 92.63% incentives |
+| stake-dao | 7.90% | 12.06% | 90.64% incentives |
+| stake-dao | 11.86% | 10.29% | 91.23% incentives |
+| curve-dex | 11.81% | 11.24% | 45.57% incentives |
+| convex-finance | 18.70% | 17.45% | 65.61% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USG yield today?
 
-17.50% APY on convex-finance (Ethereum), based on live DefiLlama data.
+18.70% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many USG pools clear the TVL floor?
 

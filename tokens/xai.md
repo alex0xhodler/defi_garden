@@ -4,7 +4,7 @@ The highest honest XAI yield right now is 0.01% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6a300650-dd02-4c20-a094-ee8f66c3de31&src=seo_token) | Ethereum | 0.01% | $746.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6a300650-dd02-4c20-a094-ee8f66c3de31&src=seo_token) | Ethereum | 0.01% | $746.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $746.6K in total.
+1 live pool clear this page's $100K TVL floor, $746.5K in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # MARSCOIN DeFi Yields
 
-The highest honest MARSCOIN yield right now is 0.02% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MARSCOIN yield right now is 0.01% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=0f961bd3-ba48-52ec-b918-b2833780dc58&src=seo_token) | Solana | 0.02% | $59.95M |
-| [raydium-amm →](https://www.defi.garden/?pool=55fb9b53-ba64-5f34-bd7e-3adc98a197a8&src=seo_token) | Solana | 0.02% | $58.95M |
+| [raydium-amm →](https://www.defi.garden/?pool=55fb9b53-ba64-5f34-bd7e-3adc98a197a8&src=seo_token) | Solana | 0.01% | $58.95M |
 | [raydium-amm →](https://www.defi.garden/?pool=79e3a42d-adfe-5f1e-8ca1-7b3d446bcb09&src=seo_token) | Solana | 0.02% | $30.94M |
 | [raydium-amm →](https://www.defi.garden/?pool=5fc831f1-b421-5e93-87a5-6c03774c8f1e&src=seo_token) | Solana | 0.02% | $27.08M |
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MARSCOIN shows up in 4 pools here, with rates from 0.02% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MARSCOIN shows up in 4 pools here, with rates from 0.01% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 17.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -24,7 +24,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.02% | 76.44% | Base rate |
-| raydium-amm | 0.02% | 0.01% | Base rate |
+| raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.02% | 22.84% | Base rate |
 | raydium-amm | 0.02% | 13.12% | Base rate |
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MARSCOIN yield today?
 
-0.02% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.01% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MARSCOIN pools clear the TVL floor?
 

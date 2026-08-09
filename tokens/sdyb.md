@@ -4,16 +4,16 @@ The highest honest SDYB yield right now is 14.50% on stake-dao (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 10.34% | $155.8K |
-| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 14.50% | $116.1K |
+| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 10.36% | $156.9K |
+| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 14.50% | $116.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SDYB shows up in 2 pools here, with rates from 10.34% to 14.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SDYB shows up in 2 pools here, with rates from 10.36% to 14.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.76% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ SDYB shows up in 2 pools here, with rates from 10.34% to 14.50% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 10.34% | 15.32% | 93.91% incentives |
-| stake-dao | 14.50% | 20.20% | 96.28% incentives |
+| curve-dex | 10.36% | 15.30% | 93.92% incentives |
+| stake-dao | 14.50% | 20.18% | 96.28% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SDYB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $690.7K in total.
+3 live pools clear this page's $100K TVL floor, $695.3K in total.
 
 ### Are these rates safe?
 

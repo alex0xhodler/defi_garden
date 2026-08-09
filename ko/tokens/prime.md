@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 4.89% | $167.86M |
+| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 4.89% | $167.84M |
 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 3.49% | $20.36M |
-| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.15% | $9.65M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 0.06% | $9M |
+| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.12% | $9.65M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 0.48% | $9M |
 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.03% | $3.4M |
 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 5.30% | $2.12M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 3.26% | $1.55M |
@@ -29,10 +29,10 @@ PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.03%부터 5.30%�
 |---|---|---|---|
 | hastra | 4.89% | 5.48% | 기본 금리 |
 | morpho-blue | 3.49% | 3.92% | 기본 금리 |
-| orca-dex | 0.15% | 0.86% | 기본 금리 |
-| uniswap-v3 | 0.06% | 3.16% | 기본 금리 |
+| orca-dex | 0.12% | 0.85% | 기본 금리 |
+| uniswap-v3 | 0.48% | 3.14% | 기본 금리 |
 | orca-dex | 0.03% | 0.23% | 기본 금리 |
-| morpho-blue | 5.30% | 3.40% | 기본 금리 |
+| morpho-blue | 5.30% | 3.41% | 기본 금리 |
 | morpho-blue | 3.26% | 3.71% | 기본 금리 |
 | morpho-blue | 2.18% | 1.75% | 기본 금리 |
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Solana의 hastra에서 APY 4.89%예요.
 
 ### PRIME 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $575.15M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $575.02M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,7 +4,7 @@ The highest honest FEUSD yield right now is 0.01% on hyperswap-v3 (Hyperliquid L
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026&src=seo_token) | Hyperliquid L1 | 0.01% | $232.8K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=4bfe6806-6c47-4a90-9003-4cceed4dd026&src=seo_token) | Hyperliquid L1 | 0.01% | $232.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FEUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $10.06M in total.
+5 live pools clear this page's $100K TVL floor, $10.07M in total.
 
 ### Are these rates safe?
 

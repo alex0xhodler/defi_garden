@@ -1,20 +1,20 @@
 # FET DeFi Yields
 
-The highest honest FET yield right now is 6.78% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FET yield right now is 6.77% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 1.83% | $1.04M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2d8f7a82-79b7-4cb0-96aa-dcda4bfaf688&src=seo_token) | Ethereum | 2.23% | $1.02M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=d2869b84-0682-4bb0-8246-9d936b5fcf53&src=seo_token) | Ethereum | 3.46% | $265.3K |
-| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 6.78% | $144K |
+| [minswap-dex →](https://www.defi.garden/?pool=4bcf36a4-be29-45f8-bab7-f723ccfc79d0&src=seo_token) | Cardano | 6.77% | $144.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FET shows up in 3 pools here, with rates from 1.83% to 6.78% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FET shows up in 3 pools here, with rates from 2.23% to 6.77% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.32% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.31% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ FET shows up in 3 pools here, with rates from 1.83% to 6.78% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.83% | 8.28% | Base rate |
-| uniswap-v4 | 3.46% | 6.24% | Base rate |
-| minswap-dex | 6.78% | 6.32% | 56.34% incentives |
+| uniswap-v3 | 2.23% | 8.14% | Base rate |
+| uniswap-v4 | 3.46% | 6.14% | Base rate |
+| minswap-dex | 6.77% | 6.31% | 56.43% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FET yield today?
 
-6.78% APY on minswap-dex (Cardano), based on live DefiLlama data.
+6.77% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many FET pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.45M in total.
+3 live pools clear this page's $100K TVL floor, $1.43M in total.
 
 ### Are these rates safe?
 

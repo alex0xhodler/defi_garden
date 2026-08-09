@@ -11,7 +11,7 @@ The highest honest SUSDAT yield right now is 254.01% on pendle (Monad), among 17
 | [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 13.63% | $2.65M |
 | [pendle →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token) | Monad | 254.01% | $2.12M |
 | [pendle →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token) | Monad | 20.51% | $2.12M |
-| [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 17.18% | $134.5K |
+| [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 16.82% | $134.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,20 +19,20 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SUSDAT shows up in 8 pools here, with rates from 3.26% to 254.01% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 8 pools have a trustworthy 30-day average on file, with a median of 14.04% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 8 pools have a trustworthy 30-day average on file, with a median of 14.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saturn | 19.41% | 26.89% | Base rate |
-| pendle | 10.98% | 11.42% | Base rate |
-| pendle | 3.26% | 3.38% | 13.07% incentives |
-| pendle | 7.38% | 8.52% | 2.06% incentives |
-| pendle | 13.63% | 14.04% | Base rate |
+| saturn | 19.41% | 26.82% | Base rate |
+| pendle | 10.98% | 11.41% | Base rate |
+| pendle | 3.26% | 3.35% | 13.07% incentives |
+| pendle | 7.38% | 8.51% | 2.06% incentives |
+| pendle | 13.63% | 14.03% | Base rate |
 | pendle | 254.01% | 243.18% | 0.68% incentives |
 | pendle | 20.51% | 25.04% | Base rate |
-| curve-dex | 17.18% | — | Base rate |
+| curve-dex | 16.82% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

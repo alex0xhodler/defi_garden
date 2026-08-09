@@ -8,10 +8,10 @@ The highest honest Fraxtal yield right now is 7.87% on curve-dex (Fraxtal), amon
 | FRAX-WFRXETH | [frax →](https://www.defi.garden/?pool=4966c7ac-99d8-449d-97c9-37bdc9858b07&src=seo_chain) | 0.66% | $2.61M |
 | FRXETH-SFRXETH | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_chain) | 3.23% | $2.02M |
 | FRXUSD-FXB-20261231 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_chain) | 6.61% | $1.59M |
-| FRAX-FXS | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_chain) | 0.24% | $1.4M |
-| FRXUSD-FXB20271231 | [curve-dex →](https://www.defi.garden/?pool=d6c60e42-04ed-4339-bcf1-a6c48084333b&src=seo_chain) | 6.28% | $718.8K |
+| FRAX-FXS | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_chain) | 0.24% | $1.41M |
+| FRXUSD-FXB20271231 | [curve-dex →](https://www.defi.garden/?pool=d6c60e42-04ed-4339-bcf1-a6c48084333b&src=seo_chain) | 6.29% | $718.8K |
 | FRXUSD-FXB20271231 | [stake-dao →](https://www.defi.garden/?pool=d3012f03-5a7b-40b2-b2c5-5d1aeab334b8&src=seo_chain) | 6.29% | $630K |
-| IQ-FRXUSD | [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_chain) | 71.15% | $451.1K |
+| IQ-FRXUSD | [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_chain) | 71.26% | $451.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

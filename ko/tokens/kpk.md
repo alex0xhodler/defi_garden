@@ -11,7 +11,7 @@
 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 3.06% | $1.65M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 3.26% | $1.55M |
 | [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token) | Ethereum | 2.18% | $1.52M |
-| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 3.58% | $625.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 3.58% | $615.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -29,9 +29,9 @@ KPK 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.03%부터 6.50%까�
 |---|---|---|---|
 | morpho-blue | 3.49% | 3.92% | 기본 금리 |
 | morpho-blue | 6.50% | 7.03% | 기본 금리 |
-| morpho-blue | 0.03% | 0.19% | 기본 금리 |
-| morpho-blue | 5.30% | 3.40% | 기본 금리 |
-| morpho-blue | 3.06% | 2.75% | 기본 금리 |
+| morpho-blue | 0.03% | 0.18% | 기본 금리 |
+| morpho-blue | 5.30% | 3.41% | 기본 금리 |
+| morpho-blue | 3.06% | 2.76% | 기본 금리 |
 | morpho-blue | 3.26% | 3.71% | 기본 금리 |
 | morpho-blue | 2.18% | 1.75% | 기본 금리 |
 | morpho-blue | 3.58% | 3.68% | 기본 금리 |
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.50%예
 
 ### KPK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $37.74M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $37.73M예요.
 
 ### 이 수익률은 안전한가요?
 

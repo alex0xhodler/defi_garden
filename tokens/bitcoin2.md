@@ -4,7 +4,7 @@ The highest honest BITCOIN2 yield right now is 0.01% on uniswap-v3 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6249b1cd-789b-4f2c-8fd6-b31e1fc9fb12&src=seo_token) | Ethereum | 0.01% | $237.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6249b1cd-789b-4f2c-8fd6-b31e1fc9fb12&src=seo_token) | Ethereum | 0.01% | $238K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BITCOIN2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $237.6K in total.
+1 live pool clear this page's $100K TVL floor, $238K in total.
 
 ### Are these rates safe?
 

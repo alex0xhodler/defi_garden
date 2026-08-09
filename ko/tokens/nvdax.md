@@ -5,11 +5,11 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.02% | $3.04M |
-| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 1.75% | $2.47M |
-| [jupiter-lend →](https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token) | Solana | 2.02% | $898.1K |
-| [jupiter-lend →](https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token) | Solana | 2.02% | $494.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 1.08% | $154.6K |
-| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 2.02% | $130.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token) | Solana | 1.48% | $2.46M |
+| [jupiter-lend →](https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token) | Solana | 2.02% | $896.9K |
+| [jupiter-lend →](https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token) | Solana | 2.02% | $493.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token) | Solana | 0.93% | $154.6K |
+| [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 1.65% | $130.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@
 
 NVDAX 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.02%부터 2.02%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.63%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.59%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 6개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -26,11 +26,11 @@ NVDAX 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.02%부터 2.02%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | kamino-lend | 0.02% | 0.02% | 기본 금리 |
-| raydium-amm | 1.75% | 15.97% | 기본 금리 |
-| jupiter-lend | 2.02% | 0.73% | 기본 금리 |
-| jupiter-lend | 2.02% | 0.73% | 기본 금리 |
-| raydium-amm | 1.08% | 14.85% | 기본 금리 |
-| orca-dex | 2.02% | 10.53% | 기본 금리 |
+| raydium-amm | 1.48% | 15.88% | 기본 금리 |
+| jupiter-lend | 2.02% | 0.74% | 기본 금리 |
+| jupiter-lend | 2.02% | 0.74% | 기본 금리 |
+| raydium-amm | 0.93% | 14.78% | 기본 금리 |
+| orca-dex | 1.65% | 10.45% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

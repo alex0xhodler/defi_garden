@@ -1,19 +1,19 @@
 # HAIR DeFi Yields
 
-The highest honest HAIR yield right now is 1.30% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAIR yield right now is 1.91% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=210791a3-32da-49d2-8987-eaad8ea715d7&src=seo_token) | Ethereum | 1.30% | $481.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7386d1cf-f7ef-43ee-8087-b1120dcb2da9&src=seo_token) | Base | 1.45% | $111.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=210791a3-32da-49d2-8987-eaad8ea715d7&src=seo_token) | Ethereum | 1.91% | $487.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7386d1cf-f7ef-43ee-8087-b1120dcb2da9&src=seo_token) | Base | 1.59% | $113.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HAIR shows up in 2 pools here, with rates from 1.30% to 1.45% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+HAIR shows up in 2 pools here, with rates from 1.59% to 1.91% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.30% | 1.85% | Base rate |
-| uniswap-v3 | 1.45% | 0.32% | Base rate |
+| uniswap-v3 | 1.91% | 1.86% | Base rate |
+| uniswap-v3 | 1.59% | 0.34% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HAIR yield today?
 
-1.30% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.91% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many HAIR pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $755.1K in total.
+3 live pools clear this page's $100K TVL floor, $762.7K in total.
 
 ### Are these rates safe?
 

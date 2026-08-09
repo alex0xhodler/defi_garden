@@ -6,15 +6,15 @@ The highest honest DMT yield right now is 89.30% on uniswap-v4 (Ethereum), among
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 49.81% | $839.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token) | Ethereum | 89.30% | $361.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 1.49% | $252.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 0.73% | $252.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DMT shows up in 3 pools here, with rates from 1.49% to 89.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DMT shows up in 3 pools here, with rates from 0.73% to 89.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 25.30% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 25.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 49.81% | 25.30% | Base rate |
-| uniswap-v4 | 89.30% | 83.68% | Base rate |
-| uniswap-v3 | 1.49% | 4.58% | Base rate |
+| uniswap-v4 | 49.81% | 25.32% | Base rate |
+| uniswap-v4 | 89.30% | 84.17% | Base rate |
+| uniswap-v3 | 0.73% | 4.56% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

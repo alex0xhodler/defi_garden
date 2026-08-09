@@ -24,7 +24,7 @@ SIERRA shows up in 5 pools here, with rates from 0.07% to 31.49% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.07% | 0.32% | Base rate |
+| uniswap-v4 | 0.07% | 0.33% | Base rate |
 | pendle | 31.49% | 31.49% | 35.55% incentives |
 | pendle | 10.63% | 10.63% | Base rate |
 | uniswap-v4 | 0.26% | 0.85% | Base rate |

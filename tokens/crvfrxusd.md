@@ -1,24 +1,24 @@
 # CRVFRXUSD DeFi Yields
 
-The highest honest CRVFRXUSD yield right now is 6.11% on yearn-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRVFRXUSD yield right now is 6.09% on yearn-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=aff4ace0-a904-4e52-b21d-5f3b61c15309&src=seo_token) | Ethereum | 6.11% | $222.8K |
+| [yearn-finance →](https://www.defi.garden/?pool=aff4ace0-a904-4e52-b21d-5f3b61c15309&src=seo_token) | Ethereum | 6.09% | $222.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CRVFRXUSD shows up in 1 pools here, with rates from 6.11% to 6.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRVFRXUSD shows up in 1 pools here, with rates from 6.09% to 6.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 7.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 7.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 6.11% | 7.07% | Base rate |
+| yearn-finance | 6.09% | 7.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -26,11 +26,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CRVFRXUSD yield today?
 
-6.11% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+6.09% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CRVFRXUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $799.4K in total.
+2 live pools clear this page's $100K TVL floor, $799.2K in total.
 
 ### Are these rates safe?
 

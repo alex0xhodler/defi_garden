@@ -4,7 +4,7 @@ The highest honest CROB yield right now is 0.01% on vvs-standard (Cronos), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=a92927bf-cddf-49f6-ba4e-9b0eb56becb7&src=seo_token) | Cronos | 0.01% | $6.2M |
+| [vvs-standard →](https://www.defi.garden/?pool=a92927bf-cddf-49f6-ba4e-9b0eb56becb7&src=seo_token) | Cronos | 0.01% | $6.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CROB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.2M in total.
+1 live pool clear this page's $100K TVL floor, $6.22M in total.
 
 ### Are these rates safe?
 

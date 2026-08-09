@@ -4,16 +4,16 @@ The highest honest STSUI yield right now is 0.05% on bluefin-spot (Sui), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=42784289-defd-4366-832a-33837938086c&src=seo_token) | Sui | 0.05% | $297.6K |
-| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 1.10% | $215.2K |
+| [bluefin-spot →](https://www.defi.garden/?pool=42784289-defd-4366-832a-33837938086c&src=seo_token) | Sui | 0.05% | $299.5K |
+| [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 1.11% | $215.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STSUI shows up in 2 pools here, with rates from 0.05% to 1.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STSUI shows up in 2 pools here, with rates from 0.05% to 1.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,7 +22,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | bluefin-spot | 0.05% | 0.04% | Base rate |
-| bluefin-spot | 1.10% | 0.31% | Base rate |
+| bluefin-spot | 1.11% | 0.32% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STSUI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $512.8K in total.
+2 live pools clear this page's $100K TVL floor, $515.1K in total.
 
 ### Are these rates safe?
 

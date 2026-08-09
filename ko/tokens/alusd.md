@@ -1,38 +1,38 @@
 # ALUSD 디파이 수익률
 
-현재 ALUSD의 가장 높은 정직한 수익률은 OP Mainnet의 velodrome-v2에서 10.26%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ALUSD의 가장 높은 정직한 수익률은 OP Mainnet의 velodrome-v2에서 10.33%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69&src=seo_token) | Ethereum | 5.04% | $2.2M |
-| [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6&src=seo_token) | Ethereum | 8.03% | $1.87M |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8&src=seo_token) | OP Mainnet | 10.26% | $1.57M |
-| [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d&src=seo_token) | Ethereum | 9.16% | $1.2M |
-| [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 2.83% | $938.8K |
-| [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1&src=seo_token) | Ethereum | 4.53% | $751.2K |
-| [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f&src=seo_token) | Arbitrum | 6.55% | $605.3K |
-| [stake-dao →](https://www.defi.garden/?pool=188aa963-c6c4-45ec-bc13-db067cf33249&src=seo_token) | Arbitrum | 6.40% | $602.6K |
+| [curve-dex →](https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69&src=seo_token) | Ethereum | 4.97% | $2.2M |
+| [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6&src=seo_token) | Ethereum | 7.97% | $1.87M |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8&src=seo_token) | OP Mainnet | 10.33% | $1.57M |
+| [alchemix-v3 →](https://www.defi.garden/?pool=d0cde295-6e3a-58b5-97c1-a83d9863f87d&src=seo_token) | Ethereum | 9.28% | $1.2M |
+| [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 2.86% | $938.7K |
+| [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1&src=seo_token) | Ethereum | 4.56% | $751.2K |
+| [curve-dex →](https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f&src=seo_token) | Arbitrum | 6.44% | $605.2K |
+| [stake-dao →](https://www.defi.garden/?pool=188aa963-c6c4-45ec-bc13-db067cf33249&src=seo_token) | Arbitrum | 6.40% | $601.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ALUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 2.83%부터 10.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ALUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 2.86%부터 10.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.37%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.36%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 7개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 5.04% | 3.60% | 인센티브 91.26% |
-| convex-finance | 8.03% | 6.60% | 인센티브 94.52% |
-| velodrome-v2 | 10.26% | 10.15% | 인센티브 100.00% |
-| alchemix-v3 | 9.16% | 7.63% | 기본 금리 |
-| curve-dex | 2.83% | 2.81% | 인센티브 64.32% |
-| convex-finance | 4.53% | 5.59% | 인센티브 77.72% |
-| curve-dex | 6.55% | 6.39% | 인센티브 96.49% |
-| stake-dao | 6.40% | 6.36% | 인센티브 98.59% |
+| curve-dex | 4.97% | 3.62% | 인센티브 92.76% |
+| convex-finance | 7.97% | 6.58% | 인센티브 95.48% |
+| velodrome-v2 | 10.33% | 10.15% | 인센티브 100.00% |
+| alchemix-v3 | 9.28% | 7.66% | 기본 금리 |
+| curve-dex | 2.86% | 2.81% | 인센티브 63.94% |
+| convex-finance | 4.56% | 5.56% | 인센티브 77.43% |
+| curve-dex | 6.44% | 6.38% | 인센티브 98.29% |
+| stake-dao | 6.40% | 6.34% | 인센티브 98.59% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +40,11 @@ ALUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 2.83%부터 10.26%�
 
 ### 오늘 ALUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 10.26%예요.
+DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 10.33%예요.
 
 ### ALUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $11.32M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $11.31M예요.
 
 ### 이 수익률은 안전한가요?
 

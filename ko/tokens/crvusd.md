@@ -4,22 +4,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token) | Ethereum | 0.01% | $49.98M |
-| [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794&src=seo_token) | Ethereum | 2.21% | $46.39M |
-| [curve-dex →](https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5&src=seo_token) | Ethereum | 0.01% | $34.53M |
-| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token) | Ethereum | 4.20% | $22.39M |
+| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token) | Ethereum | 0.01% | $50.01M |
+| [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794&src=seo_token) | Ethereum | 2.21% | $46.4M |
+| [curve-dex →](https://www.defi.garden/?pool=a0372352-7f3d-457e-b353-85df69b3eab5&src=seo_token) | Ethereum | 0.01% | $34.52M |
+| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token) | Ethereum | 4.17% | $22.51M |
 | [curve-llamalend →](https://www.defi.garden/?pool=c38c4411-948a-4769-a93f-5860457a339c&src=seo_token) | Ethereum | 3.07% | $15.44M |
 | [convex-finance →](https://www.defi.garden/?pool=027b72c2-bf96-451b-ac5f-afe6859b0828&src=seo_token) | Ethereum | 3.82% | $15.41M |
 | [resupply →](https://www.defi.garden/?pool=c4a3e969-02c4-479a-8837-ca498eea3583&src=seo_token) | Ethereum | 3.03% | $15.41M |
-| [curve-dex →](https://www.defi.garden/?pool=5faf730e-2c79-45a2-9459-fbcd185abf18&src=seo_token) | Ethereum | 2.10% | $15.09M |
+| [curve-dex →](https://www.defi.garden/?pool=5faf730e-2c79-45a2-9459-fbcd185abf18&src=seo_token) | Ethereum | 2.12% | $15.09M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 4.20%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 4.17%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.60%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.61%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ CRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 4.20%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.01% | 2.15% | 기본 금리 |
-| curve-dex | 2.21% | 3.06% | 인센티브 99.09% |
-| curve-dex | 0.01% | 2.84% | 기본 금리 |
-| curve-llamalend | 4.20% | 1.83% | 인센티브 58.89% |
-| curve-llamalend | 3.07% | 2.52% | 기본 금리 |
-| convex-finance | 3.82% | 2.67% | 인센티브 19.59% |
-| resupply | 3.03% | 2.19% | 기본 금리 |
-| curve-dex | 2.10% | 3.01% | 인센티브 95.72% |
+| curve-dex | 0.01% | 2.13% | 기본 금리 |
+| curve-dex | 2.21% | 3.06% | 인센티브 99.10% |
+| curve-dex | 0.01% | 2.83% | 기본 금리 |
+| curve-llamalend | 4.17% | 1.84% | 인센티브 58.63% |
+| curve-llamalend | 3.07% | 2.53% | 기본 금리 |
+| convex-finance | 3.82% | 2.68% | 인센티브 19.63% |
+| resupply | 3.03% | 2.20% | 기본 금리 |
+| curve-dex | 2.12% | 3.00% | 인센티브 95.28% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 3.82%
 
 ### CRVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 111개이며, 합산 TVL은 $565.73M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 111개이며, 합산 TVL은 $566.02M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,16 +4,16 @@ The highest honest MSTR yield right now is 6.35% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 2.96% | $294.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token) | Ethereum | 6.35% | $205.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 2.61% | $294.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token) | Ethereum | 6.35% | $205.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSTR shows up in 2 pools here, with rates from 2.96% to 6.35% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSTR shows up in 2 pools here, with rates from 2.61% to 6.35% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 20.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.96% | 37.95% | Base rate |
-| uniswap-v2 | 6.35% | 2.27% | Base rate |
+| raydium-amm | 2.61% | 37.45% | Base rate |
+| uniswap-v2 | 6.35% | 2.30% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

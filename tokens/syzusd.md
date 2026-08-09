@@ -4,12 +4,12 @@ The highest honest SYZUSD yield right now is 15.02% on balancer-v3 (Monad), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 8.11% | $27.08M |
-| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 8.11% | $11.92M |
-| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 8.11% | $9.04M |
-| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 8.11% | $1.29M |
+| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 8.09% | $27.08M |
+| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 8.09% | $11.92M |
+| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 8.09% | $9.05M |
+| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 8.09% | $1.29M |
 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.09M |
-| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 7.40% | $363.6K |
+| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 8.42% | $363.6K |
 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 15.02% | $116.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -24,13 +24,13 @@ SYZUSD shows up in 7 pools here, with rates from 0.20% to 15.02% APY across 4 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yuzu-money | 8.11% | 7.91% | Base rate |
-| yuzu-money | 8.11% | 7.91% | Base rate |
-| yuzu-money | 8.11% | 7.91% | Base rate |
-| yuzu-money | 8.11% | 7.91% | Base rate |
+| yuzu-money | 8.09% | 7.91% | Base rate |
+| yuzu-money | 8.09% | 7.91% | Base rate |
+| yuzu-money | 8.09% | 7.91% | Base rate |
+| yuzu-money | 8.09% | 7.91% | Base rate |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
-| balancer-v3 | 7.40% | 11.18% | 14.92% incentives |
-| balancer-v3 | 15.02% | 11.83% | 63.80% incentives |
+| balancer-v3 | 8.42% | 11.16% | 13.14% incentives |
+| balancer-v3 | 15.02% | 11.86% | 63.84% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SYZUSD pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $52.63M in total.
+9 live pools clear this page's $100K TVL floor, $52.64M in total.
 
 ### Are these rates safe?
 

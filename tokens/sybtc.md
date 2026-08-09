@@ -4,10 +4,10 @@ The highest honest SYBTC yield right now is 22.22% on uniswap-v4 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 3.69% | $640.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 3.64% | $635.6K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=23bff1c9-7402-4c1f-81e8-d46b09f8e001&src=seo_token) | Ethereum | 1.30% | $590.8K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a287546c-cb67-488a-b7c3-02be149a9883&src=seo_token) | Ethereum | 22.22% | $426.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=289081f9-15ee-584d-bbdc-cdd6c8fd422a&src=seo_token) | BSC | 4.47% | $169.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=289081f9-15ee-584d-bbdc-cdd6c8fd422a&src=seo_token) | BSC | 4.44% | $168.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,16 +15,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SYBTC shows up in 4 pools here, with rates from 1.30% to 22.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 9.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 3.69% | 2.44% | Base rate |
-| uniswap-v4 | 1.30% | 3.50% | Base rate |
-| uniswap-v4 | 22.22% | 25.30% | Base rate |
-| uniswap-v3 | 4.47% | 16.71% | Base rate |
+| uniswap-v3 | 3.64% | 2.46% | Base rate |
+| uniswap-v4 | 1.30% | 3.49% | Base rate |
+| uniswap-v4 | 22.22% | 25.44% | Base rate |
+| uniswap-v3 | 4.44% | 15.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SYBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.83M in total.
+4 live pools clear this page's $100K TVL floor, $1.82M in total.
 
 ### Are these rates safe?
 

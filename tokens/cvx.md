@@ -1,23 +1,23 @@
 # CVX DeFi Yields
 
-The highest honest CVX yield right now is 24.64% on convex-finance (Ethereum), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CVX yield right now is 24.64% on convex-finance (Ethereum), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632&src=seo_token) | Ethereum | 4.51% | $9.11M |
-| [curve-dex →](https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99&src=seo_token) | Ethereum | 7.12% | $4.7M |
-| [convex-finance →](https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457&src=seo_token) | Ethereum | 10.82% | $3.43M |
-| [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token) | Ethereum | 7.70% | $1.38M |
-| [convex-finance →](https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c&src=seo_token) | Ethereum | 11.27% | $1.38M |
-| [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token) | Ethereum | 17.67% | $381K |
-| [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token) | Ethereum | 24.64% | $364.2K |
-| [sushiswap →](https://www.defi.garden/?pool=198b765f-13c5-4174-9e8c-effb644382e7&src=seo_token) | Ethereum | 4.32% | $218.6K |
+| [convex-finance →](https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632&src=seo_token) | Ethereum | 4.40% | $9.39M |
+| [curve-dex →](https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99&src=seo_token) | Ethereum | 7.08% | $4.78M |
+| [convex-finance →](https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457&src=seo_token) | Ethereum | 10.71% | $3.49M |
+| [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token) | Ethereum | 7.63% | $1.4M |
+| [convex-finance →](https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c&src=seo_token) | Ethereum | 11.16% | $1.4M |
+| [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token) | Ethereum | 17.68% | $382K |
+| [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token) | Ethereum | 24.64% | $365.1K |
+| [sushiswap →](https://www.defi.garden/?pool=198b765f-13c5-4174-9e8c-effb644382e7&src=seo_token) | Ethereum | 5.65% | $222.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CVX shows up in 8 pools here, with rates from 4.32% to 24.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CVX shows up in 8 pools here, with rates from 4.40% to 24.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 9.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,14 +27,14 @@ CVX shows up in 8 pools here, with rates from 4.32% to 24.64% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| convex-finance | 4.51% | 3.91% | 100.00% incentives |
-| curve-dex | 7.12% | 7.76% | 90.31% incentives |
-| convex-finance | 10.82% | 11.48% | 93.62% incentives |
-| curve-dex | 7.70% | 8.40% | 93.11% incentives |
-| convex-finance | 11.27% | 11.86% | 95.30% incentives |
-| curve-dex | 17.67% | 17.38% | 99.94% incentives |
+| convex-finance | 4.40% | 3.91% | 100.00% incentives |
+| curve-dex | 7.08% | 7.75% | 89.82% incentives |
+| convex-finance | 10.71% | 11.48% | 93.28% incentives |
+| curve-dex | 7.63% | 8.40% | 92.67% incentives |
+| convex-finance | 11.16% | 11.87% | 94.98% incentives |
+| curve-dex | 17.68% | 17.38% | 99.94% incentives |
 | convex-finance | 24.64% | 25.02% | 99.96% incentives |
-| sushiswap | 4.32% | 4.52% | Base rate |
+| sushiswap | 5.65% | 4.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CVX pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $22.86M in total.
+15 live pools clear this page's $100K TVL floor, $23.46M in total.
 
 ### Are these rates safe?
 

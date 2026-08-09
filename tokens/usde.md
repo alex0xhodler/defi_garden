@@ -4,20 +4,20 @@ The highest honest USDE yield right now is 6.00% on aave-v3 (Monad), among 40 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.34% | $336.72M |
-| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.49% | $250.5M |
-| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 3.98% | $187.94M |
-| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.98% | $76.04M |
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.67% | $34.01M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.48% | $33.9M |
-| [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 6.00% | $30.96M |
-| [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token) | Mantle | 3.90% | $8.94M |
+| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.34% | $336.75M |
+| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.49% | $250.52M |
+| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 3.98% | $188.42M |
+| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.95% | $77.93M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.68% | $34.02M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.49% | $33.91M |
+| [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 6.00% | $30.9M |
+| [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token) | Mantle | 3.89% | $8.94M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDE shows up in 8 pools here, with rates from 2.67% to 6.00% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDE shows up in 8 pools here, with rates from 2.68% to 6.00% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,14 +25,14 @@ USDE shows up in 8 pools here, with rates from 2.67% to 6.00% APY across 6 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.34% | 2.57% | 100.00% incentives |
-| morpho-blue | 4.49% | 3.14% | 100.00% incentives |
-| aave-v3 | 3.98% | 3.86% | 51.72% incentives |
-| aave-v3 | 3.98% | 3.71% | 52.83% incentives |
-| curve-dex | 2.67% | 2.48% | 100.00% incentives |
-| convex-finance | 4.48% | 3.63% | 100.00% incentives |
-| aave-v3 | 6.00% | 4.33% | 89.78% incentives |
-| aave-v3 | 3.90% | 5.23% | 96.64% incentives |
+| morpho-blue | 4.34% | 2.60% | 100.00% incentives |
+| morpho-blue | 4.49% | 3.15% | 100.00% incentives |
+| aave-v3 | 3.98% | 3.85% | 51.79% incentives |
+| aave-v3 | 3.95% | 3.71% | 53.36% incentives |
+| curve-dex | 2.68% | 2.48% | 100.00% incentives |
+| convex-finance | 4.49% | 3.64% | 100.00% incentives |
+| aave-v3 | 6.00% | 4.34% | 89.73% incentives |
+| aave-v3 | 3.89% | 5.22% | 96.64% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

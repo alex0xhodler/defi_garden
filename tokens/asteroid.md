@@ -1,12 +1,12 @@
 # ASTEROID DeFi Yields
 
-The highest honest ASTEROID yield right now is 22.48% on uniswap-v2 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASTEROID yield right now is 21.71% on uniswap-v2 (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 22.48% | $1.76M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c9b04a13-5d5b-4a30-baa9-e41a994c6636&src=seo_token) | Ethereum | 21.71% | $1.76M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=1fa98e6f-ec3a-4b59-9df4-01ed9ec4930f&src=seo_token) | Ethereum | 2.87% | $634.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 6.22% | $221.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=864ecb14-e47c-467b-842f-70f8283261c0&src=seo_token) | Ethereum | 10.25% | $215.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=cb536378-0244-418c-9a3e-482f27fa2669&src=seo_token) | Ethereum | 0.17% | $114.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f6fa9095-b152-49e1-a11c-32207c87b8a0&src=seo_token) | Ethereum | 11.81% | $101.1K |
 
@@ -14,9 +14,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ASTEROID shows up in 5 pools here, with rates from 0.17% to 22.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ASTEROID shows up in 5 pools here, with rates from 0.17% to 21.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 5 pools have a trustworthy 30-day average on file, with a median of 28.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 5 pools have a trustworthy 30-day average on file, with a median of 28.65% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -24,10 +24,10 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 22.48% | 85.86% | Base rate |
-| uniswap-v4 | 2.87% | 19.77% | Base rate |
-| uniswap-v2 | 6.22% | 37.84% | Base rate |
-| uniswap-v4 | 0.17% | 13.25% | Base rate |
+| uniswap-v2 | 21.71% | 85.57% | Base rate |
+| uniswap-v4 | 2.87% | 19.60% | Base rate |
+| uniswap-v2 | 10.25% | 37.70% | Base rate |
+| uniswap-v4 | 0.17% | 13.33% | Base rate |
 | uniswap-v4 | 11.81% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ASTEROID yield today?
 
-22.48% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+21.71% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ASTEROID pools clear the TVL floor?
 

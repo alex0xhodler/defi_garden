@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MHYPERBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $12.74M in total.
+4 live pools clear this page's $100K TVL floor, $12.75M in total.
 
 ### Are these rates safe?
 

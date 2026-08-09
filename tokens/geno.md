@@ -4,7 +4,7 @@ The highest honest GENO yield right now is 0.05% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=715b3905-9730-4663-afd7-738f24003e94&src=seo_token) | Ethereum | 0.05% | $796.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=715b3905-9730-4663-afd7-738f24003e94&src=seo_token) | Ethereum | 0.05% | $797.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GENO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $796.3K in total.
+1 live pool clear this page's $100K TVL floor, $797.6K in total.
 
 ### Are these rates safe?
 
