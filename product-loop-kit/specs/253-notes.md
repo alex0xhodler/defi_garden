@@ -17,9 +17,16 @@ which is dependency-install only, no `package.json` edit). Never hand-edited the
 
 ## Deviation from spec
 
-None. Diff is exactly the two restored keys in `translations.js` plus the regenerated `translations.min.js` —
-matches the spec's explicit scope guard ("if the builder touches anything beyond `translations.js` and its
-minified twin, the tier is wrong").
+None in the product-code diff: `translations.js` gets exactly the two restored keys, and `translations.min.js`
+is the regenerated twin — matches the spec's explicit scope guard ("if the builder touches anything beyond
+`translations.js` and its minified twin, the tier is wrong"). The commit additionally carries one line in
+`product-loop-kit/BACKLOG.md` (item 253's own status row, `READY` → `IN_PROGRESS`, attempts `0` → `1`) — this
+is `build.md` step 1's own bookkeeping requirement ("Set it to IN_PROGRESS with today's date"), not a
+product-code scope violation; it is corrected to `SHIPPED` at close-out in the same commit lineage. Flagged
+explicitly here (round 1's verifier FAIL) because an earlier draft of this file omitted it from the "diff is
+exactly..." claim below — restated precisely: the diff touching `translations.js`/`translations.min.js` is
+scope-pure: everything else is `product-loop-kit/` loop-tracking metadata, never product code, trust rails,
+router behavior, or generated SEO surface.
 
 ## Verification performed
 
