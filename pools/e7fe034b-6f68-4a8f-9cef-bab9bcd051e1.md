@@ -1,8 +1,8 @@
 # OSETH-RETH — curve-dex on Ethereum
 
-**Total APY:** 2.29% (2.29% Base · + 0.00% Rewards)
+**Total APY:** 2.35% (2.35% Base · + 0.00% Rewards)
 
-**TVL:** $10.61M
+**TVL:** $10.67M
 
 **Pool Type:** LP/DEX
 
@@ -21,14 +21,14 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,120 in 5y at current rates.
+$1,000 in this pool grows to ~$1,123 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 26 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+Steady so far: across the 27 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,120 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,123 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 
-Last updated August 8, 2026
+Last updated August 9, 2026

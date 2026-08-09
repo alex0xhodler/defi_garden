@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 5.91%
+**30d Mean APY:** 5.92%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on fluid-lending](https://www.fluid.io/?ref=defi.garden)
 
-Last updated August 8, 2026
+Last updated August 9, 2026

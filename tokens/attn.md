@@ -4,7 +4,7 @@ The highest honest ATTN yield right now is 0.19% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=89da7c15-0123-4536-9102-724a2db7121f&src=seo_token) | Base | 0.19% | $142.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=89da7c15-0123-4536-9102-724a2db7121f&src=seo_token) | Base | 0.19% | $140.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ATTN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.7K in total.
+1 live pool clear this page's $100K TVL floor, $140.7K in total.
 
 ### Are these rates safe?
 
@@ -26,13 +26,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

@@ -4,7 +4,7 @@ The highest honest REPV2 yield right now is 2.12% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3ade62c6-ae1b-50f6-9e84-d6af2a17df07&src=seo_token) | Ethereum | 2.12% | $164.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3ade62c6-ae1b-50f6-9e84-d6af2a17df07&src=seo_token) | Ethereum | 2.12% | $164.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many REPV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164.1K in total.
+1 live pool clear this page's $100K TVL floor, $164.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

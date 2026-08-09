@@ -1,28 +1,30 @@
 # TGBP 디파이 수익률
 
-현재 TGBP의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 40.84%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TGBP의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 27.11%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.46% | $288.3K |
-| [curve-dex →](https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token) | Polygon | 1.37% | $111.3K |
-| [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 40.84% | $102.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 0.01% | $288.3K |
+| [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.06% | $240.9K |
+| [curve-dex →](https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token) | Polygon | 1.37% | $111.4K |
+| [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 27.11% | $105.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-TGBP 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.46%부터 40.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+TGBP 풀은 여기 4개가 있고, 4개 체인에서 APY가 0.01%부터 27.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.70%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.12%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-3개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+4개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-slipstream | 0.46% | 0.58% | 기본 금리 |
-| curve-dex | 1.37% | 1.70% | 인센티브 100.00% |
-| curve-dex | 40.84% | 27.67% | 인센티브 100.00% |
+| aerodrome-slipstream | 0.01% | 0.58% | 기본 금리 |
+| orca-dex | 0.06% | 0.25% | 기본 금리 |
+| curve-dex | 1.37% | 1.66% | 인센티브 100.00% |
+| curve-dex | 27.11% | 28.47% | 인센티브 99.78% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -30,11 +32,11 @@ TGBP 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.46%부터 40.84%�
 
 ### 오늘 TGBP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 40.84%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 27.11%예요.
 
 ### TGBP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $743K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $746.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,7 +54,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 40.84%예�
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
+- [Solana](https://www.defi.garden/ko/chains/solana)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 9, 2026

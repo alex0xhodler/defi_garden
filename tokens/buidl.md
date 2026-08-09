@@ -27,7 +27,7 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | blackrock-buidl | 3.56% | 3.55% | Base rate |
 | blackrock-buidl | 3.22% | 3.21% | Base rate |
-| blackrock-buidl | 3.53% | 3.51% | Base rate |
+| blackrock-buidl | 3.53% | 3.52% | Base rate |
 | blackrock-buidl | 3.53% | 3.52% | Base rate |
 | blackrock-buidl | 3.22% | 3.21% | Base rate |
 | blackrock-buidl | 3.22% | 3.21% | Base rate |
@@ -69,4 +69,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

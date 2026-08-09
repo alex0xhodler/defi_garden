@@ -27,7 +27,7 @@ BUIDL 풀은 여기 8개가 있고, 7개 체인에서 APY가 3.22%부터 3.56%�
 |---|---|---|---|
 | blackrock-buidl | 3.56% | 3.55% | 기본 금리 |
 | blackrock-buidl | 3.22% | 3.21% | 기본 금리 |
-| blackrock-buidl | 3.53% | 3.51% | 기본 금리 |
+| blackrock-buidl | 3.53% | 3.52% | 기본 금리 |
 | blackrock-buidl | 3.53% | 3.52% | 기본 금리 |
 | blackrock-buidl | 3.22% | 3.21% | 기본 금리 |
 | blackrock-buidl | 3.22% | 3.21% | 기본 금리 |
@@ -69,4 +69,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 blackrock-buidl에서 APY 3.56
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 9, 2026

@@ -4,7 +4,7 @@ The highest honest DITAU yield right now is 0.29% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b6f0a207-a720-4287-ac46-d834ac8bc6c3&src=seo_token) | Ethereum | 0.29% | $414.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b6f0a207-a720-4287-ac46-d834ac8bc6c3&src=seo_token) | Ethereum | 0.29% | $416K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DITAU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $414.4K in total.
+1 live pool clear this page's $100K TVL floor, $416K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

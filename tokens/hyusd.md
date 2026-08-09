@@ -1,34 +1,30 @@
 # HYUSD DeFi Yields
 
-The highest honest HYUSD yield right now is 7.58% on loopscale (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYUSD yield right now is 2.44% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token) | Solana | 0.18% | $1.9M |
-| [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token) | Solana | 0.23% | $1.76M |
-| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 3.18% | $160.1K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token) | Solana | 4.26% | $160K |
-| [loopscale →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token) | Solana | 7.58% | $120.4K |
+| [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token) | Solana | 0.18% | $1.75M |
+| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 2.44% | $159.7K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token) | Solana | 2.28% | $159.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HYUSD shows up in 5 pools here, with rates from 0.18% to 7.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HYUSD shows up in 3 pools here, with rates from 0.18% to 2.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 3.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| kamino-liquidity | 0.18% | 0.56% | Base rate |
-| orca-dex | 0.23% | 0.71% | Base rate |
-| orca-dex | 3.18% | 4.63% | Base rate |
-| kamino-liquidity | 4.26% | 3.70% | Base rate |
-| loopscale | 7.58% | 5.90% | 22.47% incentives |
+| orca-dex | 0.18% | 0.68% | Base rate |
+| orca-dex | 2.44% | 4.52% | Base rate |
+| kamino-liquidity | 2.28% | 3.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HYUSD yield today?
 
-7.58% APY on loopscale (Solana), based on live DefiLlama data.
+2.44% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many HYUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $4.1M in total.
+4 live pools clear this page's $100K TVL floor, $3.96M in total.
 
 ### Are these rates safe?
 
@@ -59,4 +55,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

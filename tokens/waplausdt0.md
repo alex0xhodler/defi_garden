@@ -1,10 +1,10 @@
 # WAPLAUSDT0 DeFi Yields
 
-The highest honest WAPLAUSDT0 yield right now is 2.02% on balancer-v3 (Plasma), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAPLAUSDT0 yield right now is 1.94% on balancer-v3 (Plasma), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 2.02% | $528.1K |
+| [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 1.94% | $528K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAPLAUSDT0 yield today?
 
-2.02% APY on balancer-v3 (Plasma), based on live DefiLlama data.
+1.94% APY on balancer-v3 (Plasma), based on live DefiLlama data.
 
 ### How many WAPLAUSDT0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $528.1K in total.
+1 live pool clear this page's $100K TVL floor, $528K in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [GHO](https://www.defi.garden/tokens/gho)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [USDAI](https://www.defi.garden/tokens/usdai)
 - [SYZUSD](https://www.defi.garden/tokens/syzusd)
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Plasma](https://www.defi.garden/chains/plasma)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

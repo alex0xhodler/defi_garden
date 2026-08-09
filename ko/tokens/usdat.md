@@ -4,11 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 1.30% | $9.6M |
+| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.24% | $9.6M |
 | [pendle →](https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token) | Ethereum | 1.56% | $7.1M |
 | [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 5.96% | $7.1M |
-| [pendle →](https://www.defi.garden/?pool=026386ce-1a03-5b4f-9e79-a0f21750d0ba&src=seo_token) | Monad | 6.89% | $1.79M |
 | [pendle →](https://www.defi.garden/?pool=0f93ea50-c40c-5b6a-93fd-41cc4b5cacbe&src=seo_token) | Monad | 3.65% | $1.79M |
+| [pendle →](https://www.defi.garden/?pool=026386ce-1a03-5b4f-9e79-a0f21750d0ba&src=seo_token) | Monad | 6.89% | $1.79M |
 | [pendle →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 5.38% | $709.4K |
 | [pendle →](https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token) | Monad | 7.77% | $709.4K |
 | [pendle →](https://www.defi.garden/?pool=ab68cdc9-a839-45a3-8143-8a96c58649bd&src=seo_token) | BSC | 4.48% | $543.4K |
@@ -17,22 +17,22 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDAT 풀은 여기 8개가 있고, 3개 체인에서 APY가 1.30%부터 7.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDAT 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.24%부터 7.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.72%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.71%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 1.30% | 0.51% | 기본 금리 |
-| pendle | 1.56% | 2.46% | 인센티브 16.41% |
-| pendle | 5.96% | 7.31% | 기본 금리 |
-| pendle | 6.89% | 8.80% | 기본 금리 |
+| curve-dex | 0.24% | 0.54% | 기본 금리 |
+| pendle | 1.56% | 2.44% | 인센티브 16.41% |
+| pendle | 5.96% | 7.29% | 기본 금리 |
 | pendle | 3.65% | 8.13% | 인센티브 45.50% |
+| pendle | 6.89% | 8.80% | 기본 금리 |
 | pendle | 5.38% | 11.17% | 인센티브 42.29% |
 | pendle | 7.77% | 7.29% | 기본 금리 |
-| pendle | 4.48% | 8.51% | 기본 금리 |
+| pendle | 4.48% | 8.46% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 7.77%예요.
 
 ### USDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $49.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $48.91M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -65,4 +65,4 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 7.77%예요.
 - [Monad](https://www.defi.garden/ko/chains/monad)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 9, 2026

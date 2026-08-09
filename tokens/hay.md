@@ -22,7 +22,7 @@ HAY shows up in 2 pools here, with rates from 0.02% to 0.05% APY across 1 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | wombat-exchange | 0.02% | 0.02% | 100.00% incentives |
-| wombat-exchange | 0.05% | 0.05% | 99.98% incentives |
+| wombat-exchange | 0.05% | 0.05% | 99.41% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

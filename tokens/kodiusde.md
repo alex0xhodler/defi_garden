@@ -1,10 +1,10 @@
 # KODIUSDE DeFi Yields
 
-The highest honest KODIUSDE yield right now is 8.51% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIUSDE yield right now is 8.50% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.51% | $1.55M |
+| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.50% | $1.54M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIUSDE yield today?
 
-8.51% APY on berapaw (Berachain), based on live DefiLlama data.
+8.50% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIUSDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.55M in total.
+1 live pool clear this page's $100K TVL floor, $1.54M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

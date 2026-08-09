@@ -1,8 +1,8 @@
 # PEPU-WETH — uniswap-v3 on Ethereum
 
-**Total APY:** 0.05% (0.05% Base · + 0.00% Rewards)
+**Total APY:** 0.06% (0.06% Base · + 0.00% Rewards)
 
-**TVL:** $112.7K
+**TVL:** $112.9K
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 8, 2026
+Last updated August 9, 2026

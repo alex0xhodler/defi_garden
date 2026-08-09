@@ -1,11 +1,11 @@
 # NEIRO DeFi Yields
 
-The highest honest NEIRO yield right now is 4.08% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEIRO yield right now is 1.66% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 4.08% | $2.61M |
-| [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 0.61% | $201.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 8.39% | $2.66M |
+| [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 1.66% | $208.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=607f17f6-b231-425c-8f54-565291ffb1d3&src=seo_token) | Solana | 0.40% | $131.5K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 0.01% | $117.5K |
 
@@ -13,9 +13,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-NEIRO shows up in 4 pools here, with rates from 0.01% to 4.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+NEIRO shows up in 4 pools here, with rates from 0.01% to 8.39% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.04% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,10 +23,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 4.08% | 3.38% | Base rate |
-| raydium-amm | 0.61% | 1.18% | Base rate |
+| uniswap-v2 | 8.39% | 3.48% | Base rate |
+| raydium-amm | 1.66% | 1.19% | Base rate |
 | raydium-amm | 0.40% | 0.90% | Base rate |
-| uniswap-v2 | 0.01% | 0.43% | Base rate |
+| uniswap-v2 | 0.01% | 0.44% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NEIRO yield today?
 
-4.08% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.66% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NEIRO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.06M in total.
+4 live pools clear this page's $100K TVL floor, $3.11M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

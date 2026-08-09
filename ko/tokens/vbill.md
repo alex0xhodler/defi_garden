@@ -21,9 +21,9 @@ VBILL 풀은 여기 4개가 있고, 4개 체인에서 APY가 3.53%부터 3.53%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
+| vaneck-treasury-fund | 3.53% | 3.52% | 기본 금리 |
 | vaneck-treasury-fund | 3.53% | 3.51% | 기본 금리 |
-| vaneck-treasury-fund | 3.53% | 3.51% | 기본 금리 |
-| vaneck-treasury-fund | 3.53% | 3.51% | 기본 금리 |
+| vaneck-treasury-fund | 3.53% | 3.52% | 기본 금리 |
 | vaneck-treasury-fund | 3.53% | 3.50% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 vaneck-treasury-fund에서 AP
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 8, 2026
+## 마지막 업데이트: August 9, 2026

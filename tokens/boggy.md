@@ -1,10 +1,10 @@
 # BOGGY DeFi Yields
 
-The highest honest BOGGY yield right now is 0.57% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOGGY yield right now is 0.74% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=724f88f9-9f75-498b-a6f2-f9f8b2c69a1c&src=seo_token) | Solana | 0.57% | $118.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=724f88f9-9f75-498b-a6f2-f9f8b2c69a1c&src=seo_token) | Solana | 0.74% | $125K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOGGY yield today?
 
-0.57% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.74% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BOGGY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.2K in total.
+1 live pool clear this page's $100K TVL floor, $125K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

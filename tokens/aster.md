@@ -1,20 +1,20 @@
 # ASTER DeFi Yields
 
-The highest honest ASTER yield right now is 2.50% on uniswap-v3 (BSC), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASTER yield right now is 9.49% on uniswap-v3 (BSC), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token) | BSC | 0.02% | $783.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token) | BSC | 2.50% | $212.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token) | BSC | 0.86% | $164.4K |
+| [lista-lending →](https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token) | BSC | 0.02% | $794.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token) | BSC | 9.49% | $212.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token) | BSC | 1.47% | $164.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ASTER shows up in 3 pools here, with rates from 0.02% to 2.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ASTER shows up in 3 pools here, with rates from 0.02% to 9.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,8 +23,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | lista-lending | 0.02% | 1.52% | Base rate |
-| uniswap-v3 | 2.50% | 10.08% | Base rate |
-| uniswap-v3 | 0.86% | 5.46% | Base rate |
+| uniswap-v3 | 9.49% | 9.99% | Base rate |
+| uniswap-v3 | 1.47% | 5.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ASTER yield today?
 
-2.50% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+9.49% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many ASTER pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.3M in total.
+4 live pools clear this page's $100K TVL floor, $1.31M in total.
 
 ### Are these rates safe?
 
@@ -55,4 +55,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

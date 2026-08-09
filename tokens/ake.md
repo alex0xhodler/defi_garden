@@ -1,10 +1,10 @@
 # AKE DeFi Yields
 
-The highest honest AKE yield right now is 0.46% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AKE yield right now is 0.76% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=04166f2e-694d-518c-b08e-bd36e01d3f76&src=seo_token) | Solana | 0.46% | $3.92M |
+| [raydium-amm →](https://www.defi.garden/?pool=04166f2e-694d-518c-b08e-bd36e01d3f76&src=seo_token) | Solana | 0.76% | $3.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=eb98c798-bba1-588f-b2e3-81d006ef35e2&src=seo_token) | Solana | 0.18% | $3.84M |
 | [raydium-amm →](https://www.defi.garden/?pool=4f141be3-4027-5cc0-a209-001afaa01af0&src=seo_token) | Solana | 0.20% | $3.71M |
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AKE shows up in 3 pools here, with rates from 0.18% to 0.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AKE shows up in 3 pools here, with rates from 0.18% to 0.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.46% | 0.46% | Base rate |
+| raydium-amm | 0.76% | 0.49% | Base rate |
 | raydium-amm | 0.18% | 0.19% | Base rate |
 | raydium-amm | 0.20% | 0.18% | Base rate |
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AKE yield today?
 
-0.46% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.76% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AKE pools clear the TVL floor?
 
@@ -55,4 +55,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

@@ -1,17 +1,17 @@
 # ANKRETH DeFi Yields
 
-The highest honest ANKRETH yield right now is 2.69% on ankr (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANKRETH yield right now is 2.56% on ankr (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.69% | $16.37M |
-| [curve-dex →](https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token) | Ethereum | 1.25% | $109.9K |
+| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.56% | $16.36M |
+| [curve-dex →](https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token) | Ethereum | 1.39% | $110.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ANKRETH shows up in 2 pools here, with rates from 1.25% to 2.69% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ANKRETH shows up in 2 pools here, with rates from 1.39% to 2.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -19,8 +19,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ankr | 2.69% | 2.62% | Base rate |
-| curve-dex | 1.25% | 1.47% | Base rate |
+| ankr | 2.56% | 2.61% | Base rate |
+| curve-dex | 1.39% | 1.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,11 +28,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ANKRETH yield today?
 
-2.69% APY on ankr (Ethereum), based on live DefiLlama data.
+2.56% APY on ankr (Ethereum), based on live DefiLlama data.
 
 ### How many ANKRETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $16.48M in total.
+2 live pools clear this page's $100K TVL floor, $16.47M in total.
 
 ### Are these rates safe?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026

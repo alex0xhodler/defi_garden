@@ -1,32 +1,30 @@
 # MON DeFi Yields
 
-The highest honest MON yield right now is 10.41% on uniswap-v4 (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MON yield right now is 5.03% on uniswap-v4 (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token) | Monad | 10.41% | $2.02M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token) | Monad | 6.76% | $1.46M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token) | Monad | 8.42% | $1.39M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&src=seo_token) | Monad | 0.01% | $1.34M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token) | Monad | 5.03% | $2.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token) | Monad | 3.04% | $1.46M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token) | Monad | 3.73% | $1.39M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MON shows up in 4 pools here, with rates from 0.01% to 10.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MON shows up in 3 pools here, with rates from 3.04% to 5.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 10.41% | 9.70% | Base rate |
-| uniswap-v4 | 6.76% | 7.21% | Base rate |
-| uniswap-v4 | 8.42% | 8.50% | Base rate |
-| uniswap-v4 | 0.01% | 0.25% | Base rate |
+| uniswap-v4 | 5.03% | 9.68% | Base rate |
+| uniswap-v4 | 3.04% | 7.17% | Base rate |
+| uniswap-v4 | 3.73% | 8.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MON yield today?
 
-10.41% APY on uniswap-v4 (Monad), based on live DefiLlama data.
+5.03% APY on uniswap-v4 (Monad), based on live DefiLlama data.
 
 ### How many MON pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $6.21M in total.
+4 live pools clear this page's $100K TVL floor, $6.22M in total.
 
 ### Are these rates safe?
 
@@ -46,15 +44,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
-- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 8, 2026
+## Last updated August 9, 2026
