@@ -38,12 +38,15 @@ node_modules/
 # Yarn Integrity file
 .yarn-integrity
 
-# Environment variables
+# Environment variables & Credentials
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+gsc-key.json
+*gsc*.json
+*service_account*.json
 .worktrees/
 .vercel
 
