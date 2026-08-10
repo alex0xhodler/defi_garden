@@ -10,8 +10,9 @@
    THE CLAIM UNDER TEST: every place app.js transitions the app into
    `currentView === 'pool-detail'` (every `setCurrentView('pool-detail')` /
    `setCurrentView("pool-detail")` / `` setCurrentView(`pool-detail`) `` call
-   — see "EXHAUSTIVE DELIMITER ENUMERATION" below for why those three are
-   the whole space a textual scan can cover) has, inside the SAME enclosing
+   — see "DELIMITER ENUMERATION" below for why those three exhaust the
+   delimiter axis, and the section after it for the literal spellings and
+   non-literal call forms that are NOT covered) has, inside the SAME enclosing
    named function/handler, a paired `trackPoolView(` emit — and vice versa
    (an emit inside a function that never transitions would be a double-fire
    risk on some other path). Both directions, both derived from the source,
@@ -44,24 +45,48 @@
    three JS string delimiters plus an optional single trailing comma
    (`setCurrentView('pool-detail',)` is legal JS).
 
-   EXHAUSTIVE DELIMITER ENUMERATION — the textual scan's boundary, stated
-   precisely rather than left to be re-discovered by a third verifier pass:
+   DELIMITER ENUMERATION (exhaustive on the delimiter axis ONLY — see the
+   next section for what this does NOT cover), stated precisely rather than
+   left to be re-discovered by a fourth verifier pass:
    JavaScript has EXACTLY THREE string-literal delimiters: `'`, `"`, and
    `` ` `` (backtick/template literal). There is no fourth. All three are
    now covered by `TRANSITION_RE`, both directions, permanently regression-
    locked (variants A/C/D below). The syntactic slack AROUND the call —
    whitespace, newlines, and a legal single trailing comma — is also
-   covered (`\s*` matches newlines; `,?` before the close-paren). That is
-   the FULL extent of what a textual/regex scan can address for a call
-   written as literal source text with a literal string argument.
+   covered (`\s*` matches newlines; `,?` before the close-paren), as is an
+   interleaved block comment between the paren and the literal — the
+   pattern text is comment-blanked before the scan runs, so it still
+   matches. (Not spelled out literally here: a nested block-comment
+   terminator would end THIS comment.)
 
-   WHAT IS OUTSIDE THAT BOUNDARY — disclosed, not silently left standing
-   (RAZOR: "no claim more specific than the evidence supports"). None of the
-   following are string-DELIMITER variants — they are cases where the call
-   is not literal source text at all, which is a different axis entirely
-   and is NOT closable by widening a regex, only by a real parser (out of
-   scope here — see specs/257-notes.md "Attempt 3" for why acorn was not
-   reached for):
+   WHAT IS COVERED IS EXACTLY THAT AND NO MORE — stated as measured rather
+   than as a boast. An earlier revision of this comment claimed the above
+   was "the FULL extent of what a textual/regex scan can address"; the third
+   verifier pass FALSIFIED that with three shapes that are literal source
+   text with a literal string argument and are NOT caught:
+     - ESCAPE-SPELLED LITERAL: the hyphen written as a unicode escape
+       (backslash-u-0-0-2-d) inside an otherwise ordinary quoted string, so
+       the byte sequence "pool-detail" never appears contiguously in the
+       source even though the runtime value is identical.
+     - LINE CONTINUATION inside the literal.
+     - A SECOND ARGUMENT: `setCurrentView('pool-detail', { replace: true })`
+       — `,?\s*\)` covers a trailing comma, not a further argument.
+   All three are addressable by a textual scan; none is covered today. They
+   are recorded here as known gaps rather than closed, because each is an
+   adversarial spelling that does not occur in this codebase, whereas double
+   quotes (natural) and backticks (semi-natural) did and are now covered.
+
+   WHAT IS OUTSIDE THE TEXTUAL AXIS ALTOGETHER — disclosed, not silently
+   left standing (RAZOR: "no claim more specific than the evidence
+   supports"). None of the following are string-DELIMITER variants — they
+   are cases where the call is not literal source text at all. NOTE, also
+   per the third verifier pass: these are NOT "impossible without a parser",
+   which is what this comment previously asserted. The verifier demonstrated
+   that `.call`/`.apply`/`.bind` and computed-property emits fall to a small
+   regex widening, and alias/named-constant forms fall to a two-pass textual
+   scan. They are simply NOT COVERED by the current scan — a scope choice,
+   not a law of nature. Note that an uncaught EMIT shape fails LOUD (it
+   yields a transition with no emit → RED), not silent:
      - ALIASED SETTER: `const setViewAlias = setCurrentView; setViewAlias('pool-detail');`
        — the call site text is `setViewAlias(`, not `setCurrentView(`.
      - STRING CONCATENATION / COMPUTED ARGUMENT: `setCurrentView('pool' + '-detail')`,
