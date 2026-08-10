@@ -905,9 +905,19 @@ test('REGRESSION (variant B, same-owner): a 2nd transition inside an already-ins
   // alone stays green. Only the plain count assertion (test 1, "regex
   // counts") notices the extra transition. This fixture pins that
   // documented limit as a permanent, executable proof rather than prose.
+  // Anchor is the exact, currently-unique comment+call sequence that opens
+  // handlePoolClick's transition (distinct from handleCalculateYield's
+  // near-identical-looking block, which has a different comment: "(same
+  // logic as handlePoolClick)").
+  const anchor = "// Set the pool for detail view\n    setDetailPool(pool);\n    setCurrentView('pool-detail');\n";
+  const anchorCount = realSource.split(anchor).length - 1;
+  assert.strictEqual(anchorCount, 1, `variant-B injection anchor is not unique in app.js (found ${anchorCount} times) — handlePoolClick's body shape changed; update the anchor`);
   const injected = realSource.replace(
-    "setCurrentView('pool-detail');\n    setSearchInput",
-    "setCurrentView('pool-detail');\n    setCurrentView('pool-detail'); // injected variant-B: 2nd transition, same owner (handlePoolClick), no new emit\n    setSearchInput"
+    anchor,
+    anchor.replace(
+      "setCurrentView('pool-detail');\n",
+      "setCurrentView('pool-detail');\n    setCurrentView('pool-detail'); // injected variant-B: 2nd transition, same owner (handlePoolClick), no new emit\n"
+    )
   );
   assert.notStrictEqual(injected, realSource, 'variant-B injection anchor text not found in app.js — handlePoolClick\'s body shape changed; update the anchor');
 
