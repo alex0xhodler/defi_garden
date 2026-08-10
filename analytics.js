@@ -270,7 +270,7 @@ const Analytics = {
   trackPoolView(pool, context = {}) {
     const poolAnalytics = this.enrichPoolData(pool, context);
 
-    this.track('pool_view', {
+    const payload = {
       ...poolAnalytics,
       source_view: context.sourceView || 'search',
       source: context.source || 'card_click',
@@ -287,13 +287,18 @@ const Analytics = {
       // a real "no CTA" reading in Mixpanel.
       protocolCtaPresent: context.protocolCtaPresent === undefined ? null : !!context.protocolCtaPresent,
       protocol_cta_present: context.protocolCtaPresent === undefined ? null : !!context.protocolCtaPresent
-    });
+    };
+    // spec 258: explicit + guarded forward, never a `...context` spread (214
+    // addendum decision rule) — absent when the caller never passed a
+    // surface, not `null`/`undefined`, so pre-258 emitters stay byte-identical.
+    if (context.surface !== undefined) payload.surface = context.surface;
+    this.track('pool_view', payload);
   },
 
   trackPoolClick(pool, clickType, context = {}) {
     const poolAnalytics = this.enrichPoolData(pool, context);
 
-    this.track('pool_click', {
+    const payload = {
       ...poolAnalytics,
       click_type: clickType,
       // North-star segmentation (backlog 123): the pool-detail CTAs are
@@ -321,7 +326,12 @@ const Analytics = {
       // other pool_click emitter; ctaPlacement above is kept verbatim for
       // backward compatibility with existing reports.
       cta_position: context.ctaPosition || null
-    });
+    };
+    // spec 258: explicit + guarded forward, never a `...context` spread (214
+    // addendum decision rule) — absent when the caller never passed a
+    // surface, not `null`/`undefined`, so pre-258 emitters stay byte-identical.
+    if (context.surface !== undefined) payload.surface = context.surface;
+    this.track('pool_click', payload);
   },
 
   trackYieldCalculation(amount, pool, context = {}) {
