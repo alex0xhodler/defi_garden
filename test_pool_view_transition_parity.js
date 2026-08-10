@@ -611,7 +611,7 @@ console.log('test_pool_view_transition_parity.js — spec 257 guard: transition 
 
 const realSource = fs.readFileSync(APP_JS_PATH, 'utf8');
 
-test('regex counts (quote-style tolerant): setCurrentView([\'"]pool-detail[\'"]) and trackPoolView( occur equally often in app.js', () => {
+test('regex counts (all three JS string delimiters + trailing comma): setCurrentView([\'"`]pool-detail[\'"`],?) and trackPoolView( occur equally often in app.js', () => {
   const { transitionIndices, emitIndices } = analyze(realSource);
   assert.strictEqual(
     transitionIndices.length,
