@@ -4,7 +4,7 @@ The highest honest VBGTWETH yield right now is 1.53% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ce14c4f9-26d5-441e-8ae5-a125cb72cd8f&src=seo_token) | Ethereum | 1.53% | $12.08M |
+| [morpho-blue →](https://www.defi.garden/?pool=ce14c4f9-26d5-441e-8ae5-a125cb72cd8f&src=seo_token) | Ethereum | 1.53% | $11.93M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VBGTWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $12.08M in total.
+1 live pool clear this page's $100K TVL floor, $11.93M in total.
 
 ### Are these rates safe?
 

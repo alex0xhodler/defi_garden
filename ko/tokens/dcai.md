@@ -1,10 +1,10 @@
 # DCAI 디파이 수익률
 
-현재 DCAI의 가장 높은 정직한 수익률은 Base의 uniswap-v2에서 3.29%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DCAI의 가장 높은 정직한 수익률은 Base의 uniswap-v2에서 3.30%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=52313960-b547-49aa-97d5-9a3eeebe6d15&src=seo_token) | Base | 3.29% | $366.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=52313960-b547-49aa-97d5-9a3eeebe6d15&src=seo_token) | Base | 3.30% | $359.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +12,11 @@
 
 ### 오늘 DCAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 3.29%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 3.30%예요.
 
 ### DCAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $366.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $359.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -26,10 +26,10 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 3.29%예요.
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 

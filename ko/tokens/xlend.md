@@ -4,15 +4,15 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 6.80% | $5.35M |
 | [liminal-basis →](https://www.defi.garden/?pool=8eff94a0-f3f9-59cc-9512-45d1f23da877&src=seo_token) | Arbitrum | 7.24% | $5.34M |
 | [liminal-basis →](https://www.defi.garden/?pool=422b0d2e-1548-57cf-99dd-bc923e329e4d&src=seo_token) | Ethereum | 7.24% | $5.34M |
+| [liminal-basis →](https://www.defi.garden/?pool=a546653f-1bd8-57e1-ba26-2c0b975f7dd0&src=seo_token) | Hyperliquid L1 | 6.79% | $5.32M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-XLEND 풀은 여기 3개가 있고, 3개 체인에서 APY가 6.80%부터 7.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+XLEND 풀은 여기 3개가 있고, 3개 체인에서 APY가 6.79%부터 7.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.18%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -20,9 +20,9 @@ XLEND 풀은 여기 3개가 있고, 3개 체인에서 APY가 6.80%부터 7.24%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| liminal-basis | 6.80% | 7.11% | 기본 금리 |
 | liminal-basis | 7.24% | 7.18% | 기본 금리 |
 | liminal-basis | 7.24% | 7.18% | 기본 금리 |
+| liminal-basis | 6.79% | 7.11% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 liminal-basis에서 APY 7.24%�
 
 ### XLEND 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $16.02M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $16M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -51,8 +51,8 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 liminal-basis에서 APY 7.24%�
 
 ## 이용 가능한 체인
 
-- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## 마지막 업데이트: August 10, 2026

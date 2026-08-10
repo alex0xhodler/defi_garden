@@ -4,7 +4,7 @@ The highest honest FIDD yield right now is 0.19% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.02% | $3.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.03% | $3.56M |
 | [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.02% | $2.75M |
 | [curve-dex →](https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token) | Ethereum | 0.19% | $1.75M |
 
@@ -20,7 +20,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.02% | 0.08% | Base rate |
+| uniswap-v3 | 0.03% | 0.08% | Base rate |
 | curve-dex | 0.02% | 0.02% | Base rate |
 | curve-dex | 0.19% | 0.06% | Base rate |
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FIDD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $10.31M in total.
+4 live pools clear this page's $100K TVL floor, $10.3M in total.
 
 ### Are these rates safe?
 

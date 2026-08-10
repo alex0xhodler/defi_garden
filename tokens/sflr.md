@@ -4,12 +4,12 @@ The highest honest SFLR yield right now is 13.96% on spectra-v2 (Flare), among 6
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token) | Flare | 8.57% | $14.28M |
+| [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_token) | Flare | 8.70% | $14.29M |
 | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_token) | Flare | 0.52% | $4.71M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.44% | $947.7K |
-| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.96% | $741.8K |
-| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.67% | $741.8K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.89% | $307.8K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.45% | $948.6K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.96% | $742.6K |
+| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.67% | $742.6K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 1.95% | $304.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -25,12 +25,12 @@ SFLR shows up in 6 pools here, with rates from 0.52% to 13.96% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sceptre-liquid | 8.57% | 7.53% | Base rate |
-| kinetic | 0.52% | 0.51% | 88.81% incentives |
-| sparkdex-v4 | 6.44% | 6.95% | 97.69% incentives |
-| spectra-v2 | 13.96% | 13.09% | Base rate |
+| sceptre-liquid | 8.70% | 7.53% | Base rate |
+| kinetic | 0.52% | 0.51% | 88.80% incentives |
+| sparkdex-v4 | 6.45% | 6.95% | 97.42% incentives |
+| spectra-v2 | 13.96% | 13.10% | Base rate |
 | spectra-v2 | 7.67% | 7.01% | Base rate |
-| sparkdex-v3.1 | 1.89% | 2.16% | 35.44% incentives |
+| sparkdex-v3.1 | 1.95% | 2.16% | 34.30% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SFLR pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $21.73M in total.
+6 live pools clear this page's $100K TVL floor, $21.74M in total.
 
 ### Are these rates safe?
 

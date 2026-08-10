@@ -4,7 +4,7 @@ The highest honest OPUS yield right now is 0.64% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=074b02f4-b032-4dfe-af14-e3f38766fa9c&src=seo_token) | Solana | 0.64% | $187.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=074b02f4-b032-4dfe-af14-e3f38766fa9c&src=seo_token) | Solana | 0.64% | $185.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OPUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $187.1K in total.
+1 live pool clear this page's $100K TVL floor, $185.2K in total.
 
 ### Are these rates safe?
 

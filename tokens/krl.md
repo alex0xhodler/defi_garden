@@ -4,7 +4,7 @@ The highest honest KRL yield right now is 0.21% on uniswap-v3 (Base), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fbc556ae-3d63-470b-bb07-dca95eb9e366&src=seo_token) | Base | 0.21% | $101.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fbc556ae-3d63-470b-bb07-dca95eb9e366&src=seo_token) | Base | 0.21% | $101.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KRL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $202.1K in total.
+2 live pools clear this page's $100K TVL floor, $201.7K in total.
 
 ### Are these rates safe?
 
@@ -42,10 +42,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

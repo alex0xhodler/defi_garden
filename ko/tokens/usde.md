@@ -1,17 +1,17 @@
 # USDE 디파이 수익률
 
-현재 USDE의 가장 높은 정직한 수익률은 Monad의 aave-v3에서 6.00%이며, $100K TVL 기준을 넘는 40개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDE의 가장 높은 정직한 수익률은 Monad의 aave-v3에서 6.00%이며, $100K TVL 기준을 넘는 41개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.29% | $340.71M |
-| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.36% | $258.04M |
-| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 3.98% | $192.8M |
-| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.98% | $71.08M |
+| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.29% | $340.69M |
+| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.36% | $258.03M |
+| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 3.98% | $192.77M |
+| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.98% | $71.07M |
 | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 6.00% | $43.98M |
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.87% | $34.01M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.78% | $33.9M |
-| [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token) | Mantle | 3.89% | $8.94M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.87% | $34M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.80% | $33.89M |
+| [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token) | Mantle | 3.96% | $8.76M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -25,14 +25,14 @@ USDE 풀은 여기 8개가 있고, 6개 체인에서 APY가 2.87%부터 6.00%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 4.29% | 2.79% | 인센티브 100.00% |
+| morpho-blue | 4.29% | 2.80% | 인센티브 100.00% |
 | morpho-blue | 4.36% | 3.22% | 인센티브 100.00% |
 | aave-v3 | 3.98% | 3.81% | 인센티브 52.52% |
 | aave-v3 | 3.98% | 3.67% | 인센티브 51.60% |
 | aave-v3 | 6.00% | 4.42% | 인센티브 88.75% |
 | curve-dex | 2.87% | 2.52% | 인센티브 100.00% |
-| convex-finance | 4.78% | 3.73% | 인센티브 100.00% |
-| aave-v3 | 3.89% | 5.11% | 인센티브 96.64% |
+| convex-finance | 4.80% | 3.73% | 인센티브 100.00% |
+| aave-v3 | 3.96% | 5.11% | 인센티브 96.59% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 6.00%예요.
 
 ### USDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 40개이며, 합산 TVL은 $1.28B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 41개이며, 합산 TVL은 $1.28B예요.
 
 ### 이 수익률은 안전한가요?
 

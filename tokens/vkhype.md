@@ -22,7 +22,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 3.12% | 3.23% | Base rate |
+| pendle | 3.12% | 3.22% | Base rate |
 | pendle | 2.95% | 3.07% | Base rate |
 | project-x | 0.85% | 0.13% | Base rate |
 

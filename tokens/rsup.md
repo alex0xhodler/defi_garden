@@ -1,28 +1,28 @@
 # RSUP DeFi Yields
 
-The highest honest RSUP yield right now is 17.28% on curve-dex (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RSUP yield right now is 23.79% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token) | Ethereum | 17.28% | $508.7K |
-| [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 0.17% | $437.3K |
+| [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token) | Ethereum | 17.60% | $501.4K |
+| [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 23.79% | $419.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RSUP shows up in 2 pools here, with rates from 0.17% to 17.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RSUP shows up in 2 pools here, with rates from 17.60% to 23.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 17.28% | 14.07% | 97.86% incentives |
-| convex-finance | 0.17% | 20.82% | Base rate |
+| curve-dex | 17.60% | 14.08% | 97.90% incentives |
+| convex-finance | 23.79% | 20.82% | 98.44% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RSUP yield today?
 
-17.28% APY on curve-dex (Ethereum), based on live DefiLlama data.
+23.79% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many RSUP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $946K in total.
+2 live pools clear this page's $100K TVL floor, $921.3K in total.
 
 ### Are these rates safe?
 

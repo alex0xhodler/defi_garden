@@ -4,7 +4,7 @@ The highest honest ETH0 yield right now is 2.80% on usual-eth0 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-eth0 →](https://www.defi.garden/?pool=d6747cb4-9635-49f9-b417-cbfb9faa252e&src=seo_token) | Ethereum | 2.80% | $1.38M |
+| [usual-eth0 →](https://www.defi.garden/?pool=d6747cb4-9635-49f9-b417-cbfb9faa252e&src=seo_token) | Ethereum | 2.80% | $1.37M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ETH0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.38M in total.
+1 live pool clear this page's $100K TVL floor, $1.37M in total.
 
 ### Are these rates safe?
 

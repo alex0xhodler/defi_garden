@@ -1,21 +1,21 @@
 # DEEP DeFi Yields
 
-The highest honest DEEP yield right now is 184.47% on bluefin-spot (Sui), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEEP yield right now is 190.78% on bluefin-spot (Sui), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05&src=seo_token) | Sui | 16.65% | $2.33M |
-| [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864&src=seo_token) | Sui | 98.43% | $491.8K |
-| [bluefin-spot →](https://www.defi.garden/?pool=95584ba8-aa96-4dd8-becc-8df72a5a8ca1&src=seo_token) | Sui | 55.11% | $165.9K |
-| [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae&src=seo_token) | Sui | 184.47% | $111.1K |
+| [navi-lending →](https://www.defi.garden/?pool=7039a10f-ef49-410d-b003-83c531932c05&src=seo_token) | Sui | 16.62% | $2.34M |
+| [cetus-clmm →](https://www.defi.garden/?pool=39b502cc-d1f2-4c44-8725-c03c04b60864&src=seo_token) | Sui | 94.69% | $563.1K |
+| [bluefin-spot →](https://www.defi.garden/?pool=95584ba8-aa96-4dd8-becc-8df72a5a8ca1&src=seo_token) | Sui | 56.29% | $164.6K |
+| [bluefin-spot →](https://www.defi.garden/?pool=df2b2848-bf34-4fed-a981-c090d5765aae&src=seo_token) | Sui | 190.78% | $112.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DEEP shows up in 4 pools here, with rates from 16.65% to 184.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DEEP shows up in 4 pools here, with rates from 16.62% to 190.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 65.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 65.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,10 +23,10 @@ DEEP shows up in 4 pools here, with rates from 16.65% to 184.47% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| navi-lending | 16.65% | 17.09% | 70.98% incentives |
-| cetus-clmm | 98.43% | 85.90% | 53.73% incentives |
-| bluefin-spot | 55.11% | 45.47% | 64.22% incentives |
-| bluefin-spot | 184.47% | 161.27% | 46.55% incentives |
+| navi-lending | 16.62% | 17.09% | 71.00% incentives |
+| cetus-clmm | 94.69% | 86.02% | 48.63% incentives |
+| bluefin-spot | 56.29% | 45.52% | 63.16% incentives |
+| bluefin-spot | 190.78% | 161.41% | 44.42% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DEEP yield today?
 
-184.47% APY on bluefin-spot (Sui), based on live DefiLlama data.
+190.78% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many DEEP pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $3.22M in total.
+5 live pools clear this page's $100K TVL floor, $3.29M in total.
 
 ### Are these rates safe?
 

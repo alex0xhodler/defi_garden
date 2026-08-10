@@ -1,19 +1,19 @@
 # BNKR 디파이 수익률
 
-현재 BNKR의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 123.57%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BNKR의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 410.18%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 4.35% | $1.74M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 123.57% | $237.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 6.34% | $1.74M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 410.18% | $201.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BNKR 풀은 여기 2개가 있고, 1개 체인에서 APY가 4.35%부터 123.57%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BNKR 풀은 여기 2개가 있고, 1개 체인에서 APY가 6.34%부터 410.18%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 107.17%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 107.31%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 2개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -21,8 +21,8 @@ BNKR 풀은 여기 2개가 있고, 1개 체인에서 APY가 4.35%부터 123.57%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 4.35% | 35.41% | 기본 금리 |
-| aerodrome-slipstream | 123.57% | 178.94% | 인센티브 86.96% |
+| uniswap-v3 | 6.34% | 35.27% | 기본 금리 |
+| aerodrome-slipstream | 410.18% | 179.35% | 인센티브 94.91% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -30,11 +30,11 @@ BNKR 풀은 여기 2개가 있고, 1개 체인에서 APY가 4.35%부터 123.57%�
 
 ### 오늘 BNKR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 123.57%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 410.18%예요.
 
 ### BNKR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.98M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.94M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,10 +44,10 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 123
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 

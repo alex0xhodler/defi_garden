@@ -4,7 +4,7 @@ The highest honest APXETH yield right now is 1.30% on dinero-(pxeth) (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dinero-(pxeth) →](https://www.defi.garden/?pool=fc25b5ff-2ba8-44a3-895b-e0d22d96365f&src=seo_token) | Ethereum | 1.30% | $3.48M |
+| [dinero-(pxeth) →](https://www.defi.garden/?pool=fc25b5ff-2ba8-44a3-895b-e0d22d96365f&src=seo_token) | Ethereum | 1.30% | $3.44M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APXETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.48M in total.
+1 live pool clear this page's $100K TVL floor, $3.44M in total.
 
 ### Are these rates safe?
 

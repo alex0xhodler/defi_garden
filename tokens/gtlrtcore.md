@@ -4,7 +4,7 @@ The highest honest GTLRTCORE yield right now is 1.66% on morpho-blue (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=7feb7f43-e5c0-4fb7-ab1f-ca60a9281c22&src=seo_token) | Ethereum | 1.66% | $2.77M |
+| [morpho-blue →](https://www.defi.garden/?pool=7feb7f43-e5c0-4fb7-ab1f-ca60a9281c22&src=seo_token) | Ethereum | 1.66% | $2.73M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTLRTCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.77M in total.
+1 live pool clear this page's $100K TVL floor, $2.73M in total.
 
 ### Are these rates safe?
 

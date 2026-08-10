@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STZIG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.02M in total.
+2 live pools clear this page's $100K TVL floor, $9.01M in total.
 
 ### Are these rates safe?
 

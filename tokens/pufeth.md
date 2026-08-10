@@ -1,36 +1,34 @@
 # PUFETH DeFi Yields
 
-The highest honest PUFETH yield right now is 9.69% on pendle (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUFETH yield right now is 9.69% on pendle (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.19% | $45.43M |
-| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 0.03% | $2.2M |
-| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 2.19% | $1.27M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.59% | $567.7K |
+| [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.19% | $44.72M |
+| [curve-dex →](https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token) | Ethereum | 0.03% | $2.15M |
+| [curve-dex →](https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token) | Ethereum | 2.20% | $1.25M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token) | Ethereum | 4.65% | $560.9K |
 | [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 9.69% | $151.5K |
 | [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 12.67% | $151.5K |
-| [curve-dex →](https://www.defi.garden/?pool=cb2a0cd1-ce5e-4a37-b7c7-4ec4b488d305&src=seo_token) | Ethereum | 5.25% | $101K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PUFETH shows up in 7 pools here, with rates from 0.03% to 12.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PUFETH shows up in 6 pools here, with rates from 0.03% to 12.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 4.04% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 3.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-7 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+6 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| puffer-stake | 3.19% | 2.23% | 0.52% incentives |
+| puffer-stake | 3.19% | 2.23% | 0.53% incentives |
 | curve-dex | 0.03% | 2.93% | 100.00% incentives |
-| curve-dex | 2.19% | 3.70% | 56.59% incentives |
-| uniswap-v3 | 4.59% | 4.04% | 99.88% incentives |
-| pendle | 9.69% | 7.65% | 66.34% incentives |
+| curve-dex | 2.20% | 3.70% | 56.89% incentives |
+| uniswap-v3 | 4.65% | 4.04% | 99.89% incentives |
+| pendle | 9.69% | 7.68% | 66.34% incentives |
 | pendle | 12.67% | 4.91% | 50.74% incentives |
-| curve-dex | 5.25% | 6.77% | 99.24% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PUFETH pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $50.08M in total.
+7 live pools clear this page's $100K TVL floor, $49.19M in total.
 
 ### Are these rates safe?
 

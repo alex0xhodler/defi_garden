@@ -1,17 +1,17 @@
 # Flare DeFi Yields
 
-The highest honest Flare yield right now is 8.57% on sceptre-liquid (Flare), among 41 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Flare yield right now is 8.70% on sceptre-liquid (Flare), among 41 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| COREUSDT0 | [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_chain) | 2.91% | $21.65M |
-| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_chain) | 1.03% | $21.12M |
+| COREUSDT0 | [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_chain) | 3.28% | $21.66M |
+| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_chain) | 1.05% | $20.9M |
 | USDX | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_chain) | 3.50% | $14.74M |
-| SFLR | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_chain) | 8.57% | $14.28M |
+| SFLR | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_chain) | 8.70% | $14.29M |
 | USD₮0-USDC.E | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_chain) | 0.01% | $6.44M |
-| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_chain) | 1.62% | $5.38M |
+| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_chain) | 1.62% | $5.35M |
 | SFLR | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_chain) | 0.52% | $4.71M |
-| FXRP | [gami-labs →](https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6&src=seo_chain) | 3.16% | $2.85M |
+| FXRP | [gami-labs →](https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6&src=seo_chain) | 3.16% | $2.83M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Flare yield today?
 
-8.57% APY on sceptre-liquid (Flare), based on live DefiLlama data.
+8.70% APY on sceptre-liquid (Flare), based on live DefiLlama data.
 
 ### How many Flare pools clear the TVL floor?
 
-41 live pools clear this page's $100K TVL floor, $121.11M in total.
+41 live pools clear this page's $100K TVL floor, $120.81M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest TAVAX yield right now is 4.88% on treehouse-protocol (Avalanc
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token) | Avalanche | 4.88% | $5.69M |
+| [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token) | Avalanche | 4.88% | $5.59M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TAVAX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.83M in total.
+2 live pools clear this page's $100K TVL floor, $5.73M in total.
 
 ### Are these rates safe?
 

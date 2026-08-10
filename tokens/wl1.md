@@ -4,7 +4,7 @@ The highest honest WL1 yield right now is 0.23% on uniswap-v3 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7a84b5db-89b2-501b-a494-0f2a811f3f17&src=seo_token) | Base | 0.23% | $193K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7a84b5db-89b2-501b-a494-0f2a811f3f17&src=seo_token) | Base | 0.23% | $193.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WL1 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $193K in total.
+1 live pool clear this page's $100K TVL floor, $193.4K in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

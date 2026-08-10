@@ -1,10 +1,10 @@
 # WAAC DeFi Yields
 
-The highest honest WAAC yield right now is 15.01% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAAC yield right now is 17.57% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=139ea625-dbd0-4ffc-a286-af386a9fd64b&src=seo_token) | Ethereum | 15.01% | $291.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=139ea625-dbd0-4ffc-a286-af386a9fd64b&src=seo_token) | Ethereum | 17.57% | $292K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAAC yield today?
 
-15.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+17.57% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WAAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $291.1K in total.
+1 live pool clear this page's $100K TVL floor, $292K in total.
 
 ### Are these rates safe?
 

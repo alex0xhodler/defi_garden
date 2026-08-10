@@ -1,23 +1,23 @@
 # WETH DeFi Yields
 
-The highest honest WETH yield right now is 41.55% on uniswap-v3 (Base), among 1,494 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WETH yield right now is 48.64% on uniswap-v3 (Base), among 1,486 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token) | Ethereum | 1.43% | $717.74M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 41.55% | $113.98M |
-| [sparklend →](https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token) | Ethereum | 1.70% | $104.62M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 15.66% | $94.88M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 18.17% | $77.43M |
-| [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token) | Monad | 1.32% | $51.75M |
-| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 2.94% | $45.98M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 3.62% | $42.53M |
+| [aave-v3 →](https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token) | Ethereum | 1.42% | $711.76M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 48.64% | $112.59M |
+| [sparklend →](https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token) | Ethereum | 1.70% | $103.42M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 17.49% | $94.19M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 20.64% | $76.89M |
+| [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token) | Monad | 1.32% | $50.98M |
+| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 2.99% | $45.23M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 4.67% | $42.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WETH shows up in 8 pools here, with rates from 1.32% to 41.55% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+WETH shows up in 8 pools here, with rates from 1.32% to 48.64% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.21% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,14 +27,14 @@ WETH shows up in 8 pools here, with rates from 1.32% to 41.55% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 1.43% | 1.43% | Base rate |
-| uniswap-v3 | 41.55% | 42.74% | Base rate |
+| aave-v3 | 1.42% | 1.43% | Base rate |
+| uniswap-v3 | 48.64% | 42.77% | Base rate |
 | sparklend | 1.70% | 1.64% | Base rate |
-| uniswap-v3 | 15.66% | 15.37% | Base rate |
-| uniswap-v3 | 18.17% | 21.15% | Base rate |
-| euler-v2 | 1.32% | 3.09% | Base rate |
-| curve-dex | 2.94% | 2.24% | 99.32% incentives |
-| uniswap-v3 | 3.62% | 5.34% | Base rate |
+| uniswap-v3 | 17.49% | 15.39% | Base rate |
+| uniswap-v3 | 20.64% | 21.19% | Base rate |
+| euler-v2 | 1.32% | 3.08% | Base rate |
+| curve-dex | 2.99% | 2.24% | 99.33% incentives |
+| uniswap-v3 | 4.67% | 5.34% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WETH yield today?
 
-41.55% APY on uniswap-v3 (Base), based on live DefiLlama data.
+48.64% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many WETH pools clear the TVL floor?
 
-1,494 live pools clear this page's $100K TVL floor, $4.71B in total.
+1,486 live pools clear this page's $100K TVL floor, $4.66B in total.
 
 ### Are these rates safe?
 

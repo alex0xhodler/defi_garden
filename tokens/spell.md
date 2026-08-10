@@ -4,24 +4,22 @@ The highest honest SPELL yield right now is 15.34% on abracadabra-spell (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=d3708029-34e3-41ce-b076-0aeb4f146904&src=seo_token) | Ethereum | 1.66% | $160.1K |
-| [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 15.34% | $127.1K |
+| [abracadabra-spell →](https://www.defi.garden/?pool=e5f3f8c2-7a28-434a-bd76-3a6445f02c71&src=seo_token) | Ethereum | 15.34% | $125.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPELL shows up in 2 pools here, with rates from 1.66% to 15.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPELL shows up in 1 pools here, with rates from 15.34% to 15.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.83% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 15.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap | 1.66% | 6.13% | Base rate |
 | abracadabra-spell | 15.34% | 15.52% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SPELL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $287.2K in total.
+2 live pools clear this page's $100K TVL floor, $283.9K in total.
 
 ### Are these rates safe?
 

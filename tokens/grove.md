@@ -4,7 +4,7 @@ The highest honest GROVE yield right now is 6.28% on morpho-blue (Monad), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 4.17% | $15.24M |
+| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 4.17% | $13.74M |
 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 3.29% | $1.01M |
 | [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.28% | $337.3K |
 
@@ -24,7 +24,7 @@ GROVE shows up in 3 pools here, with rates from 3.29% to 6.28% APY across 2 chai
 |---|---|---|---|
 | morpho-blue | 4.17% | 3.70% | Base rate |
 | morpho-blue | 3.29% | 3.71% | Base rate |
-| morpho-blue | 6.28% | 5.06% | 31.85% incentives |
+| morpho-blue | 6.28% | 5.07% | 31.83% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GROVE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $16.59M in total.
+3 live pools clear this page's $100K TVL floor, $15.09M in total.
 
 ### Are these rates safe?
 

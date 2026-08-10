@@ -1,10 +1,10 @@
 # TATO DeFi Yields
 
-The highest honest TATO yield right now is 0.26% on turbos (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TATO yield right now is 0.29% on turbos (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.26% | $497.3K |
+| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.29% | $523.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TATO yield today?
 
-0.26% APY on turbos (Sui), based on live DefiLlama data.
+0.29% APY on turbos (Sui), based on live DefiLlama data.
 
 ### How many TATO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $497.3K in total.
+1 live pool clear this page's $100K TVL floor, $523.5K in total.
 
 ### Are these rates safe?
 

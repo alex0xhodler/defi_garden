@@ -4,7 +4,7 @@ The highest honest APVCHF yield right now is 0.26% on morpho-blue (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ad84e9e8-709a-46bb-befe-4b5bbbc85e38&src=seo_token) | Base | 0.26% | $247.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=ad84e9e8-709a-46bb-befe-4b5bbbc85e38&src=seo_token) | Base | 0.26% | $249.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APVCHF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $247.8K in total.
+1 live pool clear this page's $100K TVL floor, $249.7K in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

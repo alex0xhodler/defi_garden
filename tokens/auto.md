@@ -4,7 +4,7 @@ The highest honest AUTO yield right now is 8.36% on hastra (Solana), among 3 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token) | Solana | 8.36% | $5.19M |
+| [hastra →](https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token) | Solana | 8.36% | $5.18M |
 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.02% | $3.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

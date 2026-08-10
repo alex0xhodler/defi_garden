@@ -4,7 +4,7 @@ The highest honest MWUSDC yield right now is 4.72% on morpho-blue (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=b39b492a-0a64-4926-8598-d5acf05d62b5&src=seo_token) | Base | 4.72% | $11.71M |
+| [morpho-blue →](https://www.defi.garden/?pool=b39b492a-0a64-4926-8598-d5acf05d62b5&src=seo_token) | Base | 4.72% | $11.69M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MWUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $11.71M in total.
+1 live pool clear this page's $100K TVL floor, $11.69M in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

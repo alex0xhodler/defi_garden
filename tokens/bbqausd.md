@@ -4,7 +4,7 @@ The highest honest BBQAUSD yield right now is 7.26% on morpho-blue (Monad), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 4.17% | $15.24M |
+| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 4.17% | $13.74M |
 | [morpho-blue →](https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token) | Ethereum | 4.14% | $1.9M |
 | [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.28% | $337.3K |
 | [morpho-blue →](https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token) | Monad | 7.26% | $215.4K |
@@ -25,8 +25,8 @@ BBQAUSD shows up in 4 pools here, with rates from 4.14% to 7.26% APY across 2 ch
 |---|---|---|---|
 | morpho-blue | 4.17% | 3.70% | Base rate |
 | morpho-blue | 4.14% | 3.70% | Base rate |
-| morpho-blue | 6.28% | 5.06% | 31.85% incentives |
-| morpho-blue | 7.26% | 8.57% | 27.54% incentives |
+| morpho-blue | 6.28% | 5.07% | 31.83% incentives |
+| morpho-blue | 7.26% | 8.58% | 27.54% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BBQAUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $17.7M in total.
+4 live pools clear this page's $100K TVL floor, $16.2M in total.
 
 ### Are these rates safe?
 

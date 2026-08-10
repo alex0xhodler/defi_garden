@@ -4,7 +4,7 @@ The highest honest RB yield right now is 0.01% on uniswap-v2 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=87cdc657-629f-4a71-9747-61a389de010a&src=seo_token) | Base | 0.01% | $132.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=87cdc657-629f-4a71-9747-61a389de010a&src=seo_token) | Base | 0.01% | $130.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.7K in total.
+1 live pool clear this page's $100K TVL floor, $130.2K in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

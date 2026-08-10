@@ -1,23 +1,23 @@
 # BOLD 디파이 수익률
 
-현재 BOLD의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 13.49%이며, $100K TVL 기준을 넘는 17개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BOLD의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 13.39%이며, $100K TVL 기준을 넘는 17개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=755529b5-fcf4-4ef0-a7c7-e4f49376706f&src=seo_token) | Ethereum | 0.64% | $7.04M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90&src=seo_token) | Ethereum | 0.07% | $3.42M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19&src=seo_token) | Ethereum | 0.06% | $1.42M |
-| [convex-finance →](https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6&src=seo_token) | Ethereum | 1.33% | $1.27M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d0c42a48-871a-4e83-9ef2-b3f60b3e0e90&src=seo_token) | Ethereum | 0.55% | $3.42M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8d4931e1-b573-4802-856d-244645926b19&src=seo_token) | Ethereum | 0.05% | $1.42M |
+| [convex-finance →](https://www.defi.garden/?pool=beb8b374-06a3-40d5-a89b-8f7e8d0fcee6&src=seo_token) | Ethereum | 1.34% | $1.27M |
 | [stake-dao →](https://www.defi.garden/?pool=522041df-0037-41aa-8a54-87054a78ddbe&src=seo_token) | Ethereum | 5.50% | $564.9K |
-| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 11.62% | $304.4K |
-| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 13.49% | $250.3K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=c031ffa6-0a30-4f69-9d2a-12fc174380d8&src=seo_token) | OP Mainnet | 7.29% | $105.5K |
+| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 11.62% | $304.5K |
+| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 13.39% | $250.3K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=c031ffa6-0a30-4f69-9d2a-12fc174380d8&src=seo_token) | OP Mainnet | 7.18% | $105.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BOLD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 13.49%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BOLD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.05%부터 13.39%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.80%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -25,14 +25,14 @@ BOLD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 13.49%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.64% | 0.76% | 인센티브 65.45% |
-| uniswap-v4 | 0.07% | 1.12% | 기본 금리 |
-| uniswap-v3 | 0.06% | 0.30% | 기본 금리 |
-| convex-finance | 1.33% | 1.05% | 인센티브 83.47% |
-| stake-dao | 5.50% | 6.49% | 인센티브 95.82% |
-| curve-dex | 11.62% | 10.22% | 인센티브 99.91% |
-| stake-dao | 13.49% | 11.58% | 인센티브 98.52% |
-| velodrome-v2 | 7.29% | 8.40% | 인센티브 100.00% |
+| curve-dex | 0.64% | 0.76% | 인센티브 65.46% |
+| uniswap-v4 | 0.55% | 1.12% | 기본 금리 |
+| uniswap-v3 | 0.05% | 0.30% | 기본 금리 |
+| convex-finance | 1.34% | 1.05% | 인센티브 83.53% |
+| stake-dao | 5.50% | 6.48% | 인센티브 95.82% |
+| curve-dex | 11.62% | 10.20% | 인센티브 99.91% |
+| stake-dao | 13.39% | 11.56% | 인센티브 98.51% |
+| velodrome-v2 | 7.18% | 8.39% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,7 +40,7 @@ BOLD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 13.49%�
 
 ### 오늘 BOLD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 13.49%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 13.39%예요.
 
 ### BOLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

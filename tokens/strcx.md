@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 STRCX shows up in 3 pools here, with rates from 0.98% to 25.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ STRCX shows up in 3 pools here, with rates from 0.98% to 25.22% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 24.45% | 21.11% | Base rate |
-| pendle | 25.22% | 27.74% | 6.48% incentives |
-| raydium-amm | 0.98% | 1.43% | Base rate |
+| pendle | 24.45% | 21.10% | Base rate |
+| pendle | 25.22% | 27.73% | 6.48% incentives |
+| raydium-amm | 0.98% | 1.44% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRCX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.76M in total.
+4 live pools clear this page's $100K TVL floor, $3.75M in total.
 
 ### Are these rates safe?
 

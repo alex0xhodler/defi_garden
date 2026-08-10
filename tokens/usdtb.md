@@ -4,10 +4,10 @@ The highest honest USDTB yield right now is 5.77% on fluid-lending (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.11% | $20.07M |
-| [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.62% | $7.81M |
+| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.11% | $20.08M |
+| [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.62% | $7.82M |
 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.77% | $2.25M |
-| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.31% | $1.62M |
+| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.30% | $1.62M |
 | [euler-v2 →](https://www.defi.garden/?pool=a3a7fb56-b19a-4dc8-a3f1-285cb38c5885&src=seo_token) | Ethereum | 1.39% | $205.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,10 +23,10 @@ USDTB shows up in 5 pools here, with rates from 0.11% to 5.77% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curve-dex | 0.11% | 0.23% | Base rate |
-| aave-v3 | 5.62% | 6.27% | 60.50% incentives |
+| aave-v3 | 5.62% | 6.27% | 60.51% incentives |
 | fluid-lending | 5.77% | 5.91% | 58.93% incentives |
-| fluid-dex | 0.31% | 0.75% | Base rate |
-| euler-v2 | 1.39% | 8.68% | Base rate |
+| fluid-dex | 0.30% | 0.75% | Base rate |
+| euler-v2 | 1.39% | 8.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDTB pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $31.96M in total.
+5 live pools clear this page's $100K TVL floor, $31.97M in total.
 
 ### Are these rates safe?
 

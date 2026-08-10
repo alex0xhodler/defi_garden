@@ -1,10 +1,10 @@
 # QUANT DeFi Yields
 
-The highest honest QUANT yield right now is 7.39% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QUANT yield right now is 7.47% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0d2d7e81-8912-45a8-9990-6e73619504b7&src=seo_token) | Solana | 7.39% | $114.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=0d2d7e81-8912-45a8-9990-6e73619504b7&src=seo_token) | Solana | 7.47% | $113K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QUANT yield today?
 
-7.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.47% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many QUANT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.2K in total.
+1 live pool clear this page's $100K TVL floor, $113K in total.
 
 ### Are these rates safe?
 

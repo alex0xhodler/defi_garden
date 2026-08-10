@@ -32,7 +32,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.02%예요.
 
 ### FLUID 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $3.99M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $3.98M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,10 +42,10 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.02%예요.
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 

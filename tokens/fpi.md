@@ -1,10 +1,9 @@
 # FPI DeFi Yields
 
-The highest honest FPI yield right now is 0.04% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FPI yield right now is 0.01% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=09cb35f7-6a06-49e2-8d85-28567efbe3b1&src=seo_token) | Ethereum | 0.04% | $282K |
 | [curve-dex →](https://www.defi.garden/?pool=b03c1486-fde6-4f75-a89a-068f9aa19d0f&src=seo_token) | Ethereum | 0.01% | $164.6K |
 | [convex-finance →](https://www.defi.garden/?pool=b302f3bb-ceb3-4121-95a6-6bb1fdb42326&src=seo_token) | Ethereum | 0.01% | $164.5K |
 
@@ -12,15 +11,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FPI shows up in 3 pools here, with rates from 0.01% to 0.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FPI shows up in 2 pools here, with rates from 0.01% to 0.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.04% | 0.00% | Base rate |
 | curve-dex | 0.01% | 0.00% | Base rate |
 | convex-finance | 0.01% | 0.00% | Base rate |
 
@@ -30,7 +28,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FPI yield today?
 
-0.04% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.01% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many FPI pools clear the TVL floor?
 

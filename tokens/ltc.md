@@ -4,7 +4,7 @@ The highest honest LTC yield right now is 0.05% on venus-core-pool (BSC), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865&src=seo_token) | BSC | 0.05% | $1.96M |
+| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865&src=seo_token) | BSC | 0.05% | $1.95M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.96M in total.
+1 live pool clear this page's $100K TVL floor, $1.95M in total.
 
 ### Are these rates safe?
 

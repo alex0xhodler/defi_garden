@@ -1,25 +1,25 @@
 # DUSD DeFi Yields
 
-The highest honest DUSD yield right now is 18.15% on stake-dao (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUSD yield right now is 18.02% on stake-dao (Ethereum), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 10.59% | $5.41M |
 | [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 8.68% | $2.15M |
-| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 11.73% | $1.61M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 6.51% | $853K |
+| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 11.78% | $1.61M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 6.51% | $852.9K |
 | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.01% | $804.7K |
-| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 18.15% | $320.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.11% | $218.3K |
+| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 18.02% | $320.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.09% | $218.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=d7b6859d-8406-45c5-b2e4-cb5a51f791ce&src=seo_token) | Ethereum | 6.92% | $141.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DUSD shows up in 8 pools here, with rates from 0.01% to 18.15% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+DUSD shows up in 8 pools here, with rates from 0.01% to 18.02% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ DUSD shows up in 8 pools here, with rates from 0.01% to 18.15% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| makina | 10.59% | 5.67% | Base rate |
-| curve-dex | 8.68% | 5.63% | 100.00% incentives |
-| convex-finance | 11.73% | 7.93% | 99.91% incentives |
+| makina | 10.59% | 5.70% | Base rate |
+| curve-dex | 8.68% | 5.64% | 100.00% incentives |
+| convex-finance | 11.78% | 7.95% | 99.92% incentives |
 | curve-dex | 6.51% | 4.29% | 81.25% incentives |
 | defichain-dex | 0.01% | 0.38% | Base rate |
-| stake-dao | 18.15% | 12.98% | 99.94% incentives |
-| raydium-amm | 0.11% | 0.22% | Base rate |
-| uniswap-v4 | 6.92% | 981.56% | Base rate |
+| stake-dao | 18.02% | 13.00% | 99.94% incentives |
+| raydium-amm | 0.09% | 0.22% | Base rate |
+| uniswap-v4 | 6.92% | 956.88% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DUSD yield today?
 
-18.15% APY on stake-dao (Ethereum), based on live DefiLlama data.
+18.02% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many DUSD pools clear the TVL floor?
 
