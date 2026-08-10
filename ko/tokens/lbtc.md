@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.33% | $593.92M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token) | Base | 2.73% | $3.52M |
-| [moonwell-lending →](https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token) | Base | 0.18% | $3.33M |
+| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.33% | $595.07M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token) | Base | 2.72% | $3.54M |
+| [moonwell-lending →](https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token) | Base | 0.17% | $3.34M |
 | [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token) | Sui | 1.28% | $2.91M |
-| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token) | Monad | 6.00% | $1.57M |
-| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a&src=seo_token) | Ethereum | 0.67% | $879.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 2.66% | $746.2K |
-| [curve-dex →](https://www.defi.garden/?pool=9cf39876-6292-414c-9a4f-d09346c48e07&src=seo_token) | Ethereum | 0.06% | $690.6K |
+| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token) | Monad | 6.00% | $1.58M |
+| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a&src=seo_token) | Ethereum | 0.71% | $881.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 3.02% | $747.9K |
+| [curve-dex →](https://www.defi.garden/?pool=9cf39876-6292-414c-9a4f-d09346c48e07&src=seo_token) | Ethereum | 0.07% | $693.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LBTC 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.06%부터 6.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LBTC 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.07%부터 6.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.45%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -26,13 +26,13 @@ LBTC 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.06%부터 6.00%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | lombard-lbtc | 0.33% | 0.33% | 기본 금리 |
-| aerodrome-slipstream | 2.73% | 1.77% | 인센티브 99.98% |
-| moonwell-lending | 0.18% | 0.20% | 인센티브 81.13% |
+| aerodrome-slipstream | 2.72% | 1.77% | 인센티브 99.98% |
+| moonwell-lending | 0.17% | 0.20% | 인센티브 80.67% |
 | navi-lending | 1.28% | 1.41% | 인센티브 99.78% |
 | curve-dex | 6.00% | 5.94% | 인센티브 100.00% |
-| fluid-dex | 0.67% | 1.50% | 기본 금리 |
-| uniswap-v3 | 2.66% | 3.15% | 기본 금리 |
-| curve-dex | 0.06% | 0.18% | 기본 금리 |
+| fluid-dex | 0.71% | 1.50% | 기본 금리 |
+| uniswap-v3 | 3.02% | 3.16% | 기본 금리 |
+| curve-dex | 0.07% | 0.18% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

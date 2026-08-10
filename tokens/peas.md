@@ -1,20 +1,20 @@
 # PEAS DeFi Yields
 
-The highest honest PEAS yield right now is 162.47% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEAS yield right now is 31.75% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 117.54% | $1.39M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=59a12e88-fc48-40ce-8e31-0d2e1bfeba8f&src=seo_token) | Ethereum | 162.47% | $232.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d2290557-51d0-4765-bbaa-a821316aef9b&src=seo_token) | Arbitrum | 50.23% | $173K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 22.87% | $1.39M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=59a12e88-fc48-40ce-8e31-0d2e1bfeba8f&src=seo_token) | Ethereum | 31.75% | $232.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d2290557-51d0-4765-bbaa-a821316aef9b&src=seo_token) | Arbitrum | 12.19% | $173.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PEAS shows up in 3 pools here, with rates from 50.23% to 162.47% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PEAS shows up in 3 pools here, with rates from 12.19% to 31.75% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 15.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 16.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 117.54% | 15.44% | Base rate |
-| uniswap-v3 | 162.47% | 25.23% | Base rate |
-| uniswap-v3 | 50.23% | 10.68% | Base rate |
+| uniswap-v3 | 22.87% | 16.10% | Base rate |
+| uniswap-v3 | 31.75% | 26.12% | Base rate |
+| uniswap-v3 | 12.19% | 10.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PEAS yield today?
 
-162.47% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+31.75% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PEAS pools clear the TVL floor?
 

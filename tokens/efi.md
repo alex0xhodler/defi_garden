@@ -1,10 +1,10 @@
 # EFI DeFi Yields
 
-The highest honest EFI yield right now is 3.83% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EFI yield right now is 6.16% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=a177b41b-09ff-41a4-a6f4-28bd151d9476&src=seo_token) | Polygon | 3.83% | $210K |
+| [quickswap-dex →](https://www.defi.garden/?pool=a177b41b-09ff-41a4-a6f4-28bd151d9476&src=seo_token) | Polygon | 6.16% | $213.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EFI yield today?
 
-3.83% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+6.16% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many EFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $210K in total.
+1 live pool clear this page's $100K TVL floor, $213.2K in total.
 
 ### Are these rates safe?
 

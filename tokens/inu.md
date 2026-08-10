@@ -4,7 +4,7 @@ The highest honest INU yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token) | Ethereum | 0.01% | $257.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=22696727-96c5-41d7-89b6-de10db7534cc&src=seo_token) | Ethereum | 0.01% | $258.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many INU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $358.2K in total.
+2 live pools clear this page's $100K TVL floor, $358.6K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # AIXBT DeFi Yields
 
-The highest honest AIXBT yield right now is 9.53% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AIXBT yield right now is 10.74% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0&src=seo_token) | Base | 9.53% | $302.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=80771dca-2020-453d-8d97-dc82935d7fb0&src=seo_token) | Base | 10.74% | $295.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AIXBT yield today?
 
-9.53% APY on uniswap-v3 (Base), based on live DefiLlama data.
+10.74% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many AIXBT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $302.5K in total.
+1 live pool clear this page's $100K TVL floor, $295.8K in total.
 
 ### Are these rates safe?
 

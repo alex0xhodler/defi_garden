@@ -1,23 +1,23 @@
 # DAI DeFi Yields
 
-The highest honest DAI yield right now is 4.19% on sushiswap-v3 (Ethereum), among 64 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAI yield right now is 4.47% on sushiswap-v3 (Ethereum), among 64 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.17% | $112.64M |
-| [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.28% | $11.68M |
-| [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 3.04% | $9.45M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 4.19% | $8.08M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 1.39% | $8.07M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 2.99% | $3.14M |
+| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.17% | $112.65M |
+| [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.20% | $13.1M |
+| [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 3.03% | $9.45M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 4.47% | $8.08M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 1.28% | $8.07M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 3.32% | $3.14M |
 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b&src=seo_token) | Polygon | 0.55% | $2.44M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1193ef25-862b-43c1-a545-91bbb9678d30&src=seo_token) | Ethereum | 1.35% | $1.45M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1193ef25-862b-43c1-a545-91bbb9678d30&src=seo_token) | Ethereum | 1.09% | $1.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DAI shows up in 8 pools here, with rates from 0.55% to 4.19% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DAI shows up in 8 pools here, with rates from 0.55% to 4.47% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -28,13 +28,13 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | sparklend | 2.17% | 2.24% | Base rate |
-| aave-v3 | 3.28% | 3.87% | Base rate |
-| yearn-finance | 3.04% | 3.00% | Base rate |
-| sushiswap-v3 | 4.19% | 7.69% | Base rate |
-| uniswap-v2 | 1.39% | 1.87% | Base rate |
-| uniswap-v3 | 2.99% | 5.61% | Base rate |
+| aave-v3 | 3.20% | 3.87% | Base rate |
+| yearn-finance | 3.03% | 3.00% | Base rate |
+| sushiswap-v3 | 4.47% | 7.69% | Base rate |
+| uniswap-v2 | 1.28% | 1.87% | Base rate |
+| uniswap-v3 | 3.32% | 5.59% | Base rate |
 | quickswap-dex | 0.55% | 0.55% | Base rate |
-| uniswap-v3 | 1.35% | 3.25% | Base rate |
+| uniswap-v3 | 1.09% | 3.23% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DAI yield today?
 
-4.19% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
+4.47% APY on sushiswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many DAI pools clear the TVL floor?
 
-64 live pools clear this page's $100K TVL floor, $352.61M in total.
+64 live pools clear this page's $100K TVL floor, $354.11M in total.
 
 ### Are these rates safe?
 

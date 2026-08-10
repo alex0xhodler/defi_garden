@@ -5,9 +5,9 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token) | Monad | 2.00% | $10.72M |
-| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.61% | $9.58M |
-| [pendle →](https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token) | Ethereum | 1.13% | $7.25M |
+| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.61% | $9.61M |
 | [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 5.01% | $7.25M |
+| [pendle →](https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token) | Ethereum | 1.13% | $7.25M |
 | [pendle →](https://www.defi.garden/?pool=0f93ea50-c40c-5b6a-93fd-41cc4b5cacbe&src=seo_token) | Monad | 2.70% | $1.62M |
 | [pendle →](https://www.defi.garden/?pool=026386ce-1a03-5b4f-9e79-a0f21750d0ba&src=seo_token) | Monad | 5.49% | $1.62M |
 | [pendle →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 4.55% | $807.5K |
@@ -27,10 +27,10 @@ USDAT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.61%부터 7.08%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 2.00% | 0.04% | 인센티브 100.00% |
+| morpho-blue | 2.00% | 0.06% | 인센티브 100.00% |
 | curve-dex | 0.61% | 0.54% | 기본 금리 |
+| pendle | 5.01% | 7.24% | 기본 금리 |
 | pendle | 1.13% | 2.41% | 인센티브 20.19% |
-| pendle | 5.01% | 7.25% | 기본 금리 |
 | pendle | 2.70% | 8.11% | 인센티브 59.87% |
 | pendle | 5.49% | 8.78% | 기본 금리 |
 | pendle | 4.55% | 10.06% | 인센티브 43.65% |
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 7.08%예요.
 
 ### USDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $49.22M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $49.25M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.07% | $7.61M |
+| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.12% | $7.61M |
 | [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 7.65% | $827.4K |
 | [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 10.92% | $827.4K |
 | [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.72% | $814.3K |
@@ -21,10 +21,10 @@ SUPERUSDC 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.72%부터 10.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| superform | 6.07% | 5.66% | 인센티브 30.84% |
-| pendle | 7.65% | 7.77% | 인센티브 20.19% |
-| pendle | 10.92% | 9.10% | 인센티브 14.15% |
-| superform | 5.72% | 6.04% | 인센티브 32.70% |
+| superform | 6.12% | 5.67% | 인센티브 30.62% |
+| pendle | 7.65% | 7.78% | 인센티브 20.19% |
+| pendle | 10.92% | 9.11% | 인센티브 14.15% |
+| superform | 5.72% | 6.04% | 인센티브 32.72% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

@@ -4,7 +4,7 @@ The highest honest ASTRALIS yield right now is 0.03% on orca-dex (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token) | Solana | 0.03% | $112.3K |
+| [orca-dex →](https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token) | Solana | 0.03% | $108.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ASTRALIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.3K in total.
+1 live pool clear this page's $100K TVL floor, $108.4K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

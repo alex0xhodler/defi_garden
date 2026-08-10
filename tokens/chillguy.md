@@ -1,10 +1,10 @@
 # CHILLGUY DeFi Yields
 
-The highest honest CHILLGUY yield right now is 29.24% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHILLGUY yield right now is 33.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1e958818-9a22-46b0-8567-12cb34fb4eb1&src=seo_token) | Solana | 29.24% | $1.13M |
+| [raydium-amm →](https://www.defi.garden/?pool=1e958818-9a22-46b0-8567-12cb34fb4eb1&src=seo_token) | Solana | 33.75% | $1.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHILLGUY yield today?
 
-29.24% APY on raydium-amm (Solana), based on live DefiLlama data.
+33.75% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CHILLGUY pools clear the TVL floor?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

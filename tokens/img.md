@@ -4,7 +4,7 @@ The highest honest IMG yield right now is 0.82% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b906fe46-e461-4343-aa7c-c7da3834ea45&src=seo_token) | Solana | 0.82% | $111.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=b906fe46-e461-4343-aa7c-c7da3834ea45&src=seo_token) | Solana | 0.82% | $112.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IMG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.6K in total.
+1 live pool clear this page's $100K TVL floor, $112.3K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

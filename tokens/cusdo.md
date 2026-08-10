@@ -4,7 +4,7 @@ The highest honest CUSDO yield right now is 3.36% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [openeden-usdo →](https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token) | Solana | 3.10% | $748.3K |
+| [openeden-usdo →](https://www.defi.garden/?pool=12169161-7815-4160-bd77-a4202cf7c2c1&src=seo_token) | Solana | 3.10% | $748.4K |
 | [curve-dex →](https://www.defi.garden/?pool=08d1f13b-5d65-42c5-863d-fcb447dcea75&src=seo_token) | Ethereum | 3.36% | $160.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -20,7 +20,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | openeden-usdo | 3.10% | 3.09% | Base rate |
-| curve-dex | 3.36% | 3.43% | Base rate |
+| curve-dex | 3.36% | 3.44% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -1,10 +1,10 @@
 # WXRP DeFi Yields
 
-The highest honest WXRP yield right now is 1.59% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WXRP yield right now is 1.58% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 1.59% | $431.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 1.58% | $432.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WXRP yield today?
 
-1.59% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.58% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WXRP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $431.5K in total.
+1 live pool clear this page's $100K TVL floor, $432.1K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

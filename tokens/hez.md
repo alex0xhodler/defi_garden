@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HEZ pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $5M in total.
+3 live pools clear this page's $100K TVL floor, $4.99M in total.
 
 ### Are these rates safe?
 

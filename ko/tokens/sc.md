@@ -1,10 +1,10 @@
 # SC 디파이 수익률
 
-현재 SC의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.05%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SC의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.13%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=80c8defd-8541-4099-99d1-b7b072758066&src=seo_token) | Solana | 1.05% | $294.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=80c8defd-8541-4099-99d1-b7b072758066&src=seo_token) | Solana | 1.13% | $295K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +12,11 @@
 
 ### 오늘 SC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.05%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.13%예요.
 
 ### SC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $294.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $295K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -25,11 +25,11 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.05%예�
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
+- [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 

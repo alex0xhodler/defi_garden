@@ -1,10 +1,10 @@
 # SPECTRE DeFi Yields
 
-The highest honest SPECTRE yield right now is 2.84% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPECTRE yield right now is 1.26% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a0bd9288-8ff5-4545-83a0-6d485d277a72&src=seo_token) | Ethereum | 2.84% | $331.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a0bd9288-8ff5-4545-83a0-6d485d277a72&src=seo_token) | Ethereum | 1.26% | $333.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPECTRE yield today?
 
-2.84% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.26% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SPECTRE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $331.8K in total.
+1 live pool clear this page's $100K TVL floor, $333.6K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # YMVDG DeFi Yields
 
-The highest honest YMVDG yield right now is 3.30% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YMVDG yield right now is 3.32% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=cd293c81-be8a-4da9-8dce-e2a4039ceeef&src=seo_token) | Katana | 3.30% | $1.29M |
+| [morpho-blue →](https://www.defi.garden/?pool=cd293c81-be8a-4da9-8dce-e2a4039ceeef&src=seo_token) | Katana | 3.32% | $1.29M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YMVDG yield today?
 
-3.30% APY on morpho-blue (Katana), based on live DefiLlama data.
+3.32% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many YMVDG pools clear the TVL floor?
 

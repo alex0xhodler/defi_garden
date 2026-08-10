@@ -5,11 +5,11 @@ The highest honest EARNAUSD yield right now is 10.29% on pendle (Monad), among 7
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 3.74% | $21.51M |
-| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.36% | $3.56M |
+| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.40% | $3.56M |
 | [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.87% | $2.78M |
 | [pendle →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.22% | $2.4M |
 | [pendle →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 10.29% | $2.4M |
-| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.27% | $871.6K |
+| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.29% | $871.6K |
 | [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $158.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -26,12 +26,12 @@ EARNAUSD shows up in 7 pools here, with rates from 0.20% to 10.29% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| upshift | 3.74% | 6.80% | 17.78% incentives |
-| morpho-blue | 2.36% | 0.03% | 100.00% incentives |
+| upshift | 3.74% | 6.77% | 17.94% incentives |
+| morpho-blue | 2.40% | 0.05% | 100.00% incentives |
 | curvance | 0.87% | 0.80% | 100.00% incentives |
-| pendle | 9.22% | 8.97% | 5.67% incentives |
+| pendle | 9.22% | 8.95% | 5.67% incentives |
 | pendle | 10.29% | 9.36% | Base rate |
-| neverland | 1.27% | 1.35% | 100.00% incentives |
+| neverland | 1.29% | 1.35% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -52,12 +52,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
+- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 

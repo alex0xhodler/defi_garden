@@ -1,21 +1,21 @@
 # XSGD DeFi Yields
 
-The highest honest XSGD yield right now is 165.95% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSGD yield right now is 94.65% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 165.95% | $452.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 24.09% | $194K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=551cee5b-1511-4802-a1b6-c03e4e16bcf9&src=seo_token) | Polygon | 10.40% | $172.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 13.03% | $168.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token) | Base | 94.65% | $452.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token) | Base | 24.65% | $194.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=551cee5b-1511-4802-a1b6-c03e4e16bcf9&src=seo_token) | Polygon | 5.05% | $170.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 4.40% | $168.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XSGD shows up in 4 pools here, with rates from 10.40% to 165.95% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSGD shows up in 4 pools here, with rates from 4.40% to 94.65% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 21.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 21.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,10 +23,10 @@ XSGD shows up in 4 pools here, with rates from 10.40% to 165.95% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 165.95% | 128.05% | 99.35% incentives |
-| aerodrome-slipstream | 24.09% | 31.50% | 89.35% incentives |
-| uniswap-v3 | 10.40% | 11.51% | Base rate |
-| uniswap-v3 | 13.03% | 9.23% | Base rate |
+| aerodrome-slipstream | 94.65% | 128.16% | 98.80% incentives |
+| aerodrome-slipstream | 24.65% | 31.37% | 87.28% incentives |
+| uniswap-v3 | 5.05% | 11.47% | Base rate |
+| uniswap-v3 | 4.40% | 9.23% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XSGD yield today?
 
-165.95% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+94.65% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many XSGD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $987.4K in total.
+4 live pools clear this page's $100K TVL floor, $985.1K in total.
 
 ### Are these rates safe?
 

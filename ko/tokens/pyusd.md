@@ -1,23 +1,23 @@
 # PYUSD 디파이 수익률
 
-현재 PYUSD의 가장 높은 정직한 수익률은 Solana의 sentora에서 6.92%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PYUSD의 가장 높은 정직한 수익률은 Solana의 sentora에서 6.97%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sentora →](https://www.defi.garden/?pool=77602b5c-3d34-5275-acbd-a18a69ccb206&src=seo_token) | Solana | 6.92% | $115.71M |
+| [sentora →](https://www.defi.garden/?pool=77602b5c-3d34-5275-acbd-a18a69ccb206&src=seo_token) | Solana | 6.97% | $115.7M |
 | [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token) | Ethereum | 0.84% | $85.05M |
-| [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token) | Ethereum | 5.25% | $43.2M |
-| [kamino-lend →](https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token) | Solana | 2.77% | $13.82M |
-| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.15% | $9.65M |
-| [convex-finance →](https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token) | Ethereum | 0.07% | $6.2M |
+| [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token) | Ethereum | 5.25% | $43.25M |
+| [kamino-lend →](https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token) | Solana | 2.77% | $13.85M |
+| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.17% | $9.65M |
+| [convex-finance →](https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token) | Ethereum | 0.07% | $6.28M |
 | [euler-v2 →](https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token) | Ethereum | 6.23% | $5.86M |
-| [kamino-lend →](https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token) | Solana | 3.39% | $4.71M |
+| [kamino-lend →](https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token) | Solana | 3.43% | $4.67M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PYUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.07%부터 6.92%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PYUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.07%부터 6.97%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.82%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,14 +27,14 @@ PYUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.07%부터 6.92%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sentora | 6.92% | 6.94% | 인센티브 45.54% |
-| sparklend | 0.84% | 0.40% | 기본 금리 |
+| sentora | 6.97% | 6.94% | 인센티브 45.28% |
+| sparklend | 0.84% | 0.41% | 기본 금리 |
 | curve-dex | 5.25% | 5.55% | 인센티브 98.67% |
-| kamino-lend | 2.77% | 2.27% | 기본 금리 |
-| orca-dex | 0.15% | 0.76% | 기본 금리 |
-| convex-finance | 0.07% | 0.26% | 인센티브 0.26% |
+| kamino-lend | 2.77% | 2.28% | 기본 금리 |
+| orca-dex | 0.17% | 0.73% | 기본 금리 |
+| convex-finance | 0.07% | 0.26% | 인센티브 0.24% |
 | euler-v2 | 6.23% | 5.67% | 인센티브 46.01% |
-| kamino-lend | 3.39% | 3.36% | 기본 금리 |
+| kamino-lend | 3.43% | 3.36% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ PYUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.07%부터 6.92%�
 
 ### 오늘 PYUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 sentora에서 APY 6.92%예요.
+DefiLlama 실시간 데이터 기준, Solana의 sentora에서 APY 6.97%예요.
 
 ### PYUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $355.65M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $355.73M예요.
 
 ### 이 수익률은 안전한가요?
 

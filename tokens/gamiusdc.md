@@ -20,7 +20,7 @@ GAMIUSDC shows up in 3 pools here, with rates from 8.63% to 10.68% APY across 2 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 9.11% | 8.18% | Base rate |
+| lagoon | 9.11% | 8.19% | Base rate |
 | gami-labs | 8.63% | 8.48% | Base rate |
 | balancer-v3 | 10.68% | 10.00% | 83.48% incentives |
 

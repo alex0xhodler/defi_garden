@@ -6,7 +6,7 @@
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 1.33%
+**30d Mean APY:** 1.34%
 
 **Exposure:** single
 

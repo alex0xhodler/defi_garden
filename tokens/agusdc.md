@@ -13,14 +13,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 AGUSDC shows up in 2 pools here, with rates from 9.83% to 10.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 9.83% | 8.86% | Base rate |
-| gami-labs | 10.03% | 8.71% | Base rate |
+| lagoon | 9.83% | 8.87% | Base rate |
+| gami-labs | 10.03% | 8.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

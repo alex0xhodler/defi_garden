@@ -4,7 +4,7 @@ The highest honest VASTR yield right now is 9.00% on bifrost-liquid-staking (Ast
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=a15cbfc6-d93e-445a-a4c5-b8fd263793d8&src=seo_token) | Astar | 9.00% | $386.1K |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=a15cbfc6-d93e-445a-a4c5-b8fd263793d8&src=seo_token) | Astar | 9.00% | $385.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VASTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $386.1K in total.
+1 live pool clear this page's $100K TVL floor, $385.5K in total.
 
 ### Are these rates safe?
 

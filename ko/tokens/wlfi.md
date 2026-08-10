@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=ee3c4dff-2f07-40d0-8d4e-3bdd91fe5dcd&src=seo_token) | Ethereum | 1.16% | $3.85M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e&src=seo_token) | Ethereum | 1.06% | $1.16M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e&src=seo_token) | Ethereum | 1.05% | $1.16M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=5503962d-c7b8-48e8-ab42-19ab1bea4190&src=seo_token) | Ethereum | 0.01% | $1.07M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=3497aee5-aecf-4ed9-9ffe-51d280ff8c06&src=seo_token) | Ethereum | 0.01% | $164.2K |
 
@@ -15,7 +15,7 @@
 
 WLFI 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.01%부터 1.16%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.53%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.52%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 4개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -24,7 +24,7 @@ WLFI 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.01%부터 1.16%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v4 | 1.16% | 4.34% | 기본 금리 |
-| uniswap-v3 | 1.06% | 3.00% | 기본 금리 |
+| uniswap-v3 | 1.05% | 2.98% | 기본 금리 |
 | uniswap-v3 | 0.01% | 0.06% | 기본 금리 |
 | uniswap-v4 | 0.01% | 0.00% | 기본 금리 |
 

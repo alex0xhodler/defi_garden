@@ -20,9 +20,9 @@ SRROYUSDC shows up in 3 pools here, with rates from 3.55% to 7.48% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| concrete | 3.55% | 5.46% | Base rate |
-| curve-dex | 3.97% | 4.66% | 45.15% incentives |
-| stake-dao | 7.48% | 4.31% | 27.18% incentives |
+| concrete | 3.55% | 5.45% | Base rate |
+| curve-dex | 3.97% | 4.66% | 45.07% incentives |
+| stake-dao | 7.48% | 4.34% | 27.14% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

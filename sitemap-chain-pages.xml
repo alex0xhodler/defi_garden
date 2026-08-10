@@ -161,22 +161,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/mezo</loc>
-    <lastmod>2026-08-10</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/chains/ton</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stacks</loc>
+    <loc>https://www.defi.garden/chains/mezo</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/chains/starknet</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/chains/stacks</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -261,12 +261,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/heco</loc>
+    <loc>https://www.defi.garden/chains/bifrost-network</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/bifrost-network</loc>
+    <loc>https://www.defi.garden/chains/heco</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>daily</changefreq>
   </url>

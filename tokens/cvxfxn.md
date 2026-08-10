@@ -1,19 +1,19 @@
 # CVXFXN DeFi Yields
 
-The highest honest CVXFXN yield right now is 11.48% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CVXFXN yield right now is 11.18% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.61% | $518.6K |
-| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 11.48% | $360.6K |
+| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.50% | $524.9K |
+| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 11.18% | $365K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CVXFXN shows up in 2 pools here, with rates from 7.61% to 11.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CVXFXN shows up in 2 pools here, with rates from 7.50% to 11.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ CVXFXN shows up in 2 pools here, with rates from 7.61% to 11.48% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 7.61% | 7.46% | 95.93% incentives |
-| convex-finance | 11.48% | 10.76% | 97.30% incentives |
+| curve-dex | 7.50% | 7.47% | 95.87% incentives |
+| convex-finance | 11.18% | 10.78% | 97.23% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CVXFXN yield today?
 
-11.48% APY on convex-finance (Ethereum), based on live DefiLlama data.
+11.18% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CVXFXN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.24M in total.
+3 live pools clear this page's $100K TVL floor, $1.25M in total.
 
 ### Are these rates safe?
 

@@ -5,8 +5,8 @@ The highest honest GTUSDCF yield right now is 6.96% on morpho-blue (Base), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.38% | $28.11M |
-| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 6.96% | $5.91M |
-| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.87% | $473.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 6.96% | $6M |
+| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.95% | $416.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,9 +20,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.38% | 5.48% | Base rate |
+| morpho-blue | 5.38% | 5.47% | Base rate |
 | morpho-blue | 6.96% | 5.79% | Base rate |
-| morpho-blue | 6.87% | 5.67% | Base rate |
+| morpho-blue | 6.95% | 5.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GTUSDCF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $34.49M in total.
+3 live pools clear this page's $100K TVL floor, $34.52M in total.
 
 ### Are these rates safe?
 

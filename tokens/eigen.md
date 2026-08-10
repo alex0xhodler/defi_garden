@@ -1,18 +1,18 @@
 # EIGEN DeFi Yields
 
-The highest honest EIGEN yield right now is 2.24% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EIGEN yield right now is 4.50% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 2.37% | $1.09M |
-| [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.98% | $203.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 2.24% | $133.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 4.50% | $1.11M |
+| [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 1.23% | $209.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 2.91% | $138.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EIGEN shows up in 3 pools here, with rates from 0.98% to 2.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EIGEN shows up in 3 pools here, with rates from 1.23% to 4.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 2.37% | 5.26% | Base rate |
-| curve-dex | 0.98% | 1.64% | Base rate |
-| uniswap-v3 | 2.24% | 2.82% | Base rate |
+| uniswap-v3 | 4.50% | 5.20% | Base rate |
+| curve-dex | 1.23% | 1.63% | Base rate |
+| uniswap-v3 | 2.91% | 2.82% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EIGEN yield today?
 
-2.24% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+4.50% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EIGEN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.63M in total.
+4 live pools clear this page's $100K TVL floor, $1.67M in total.
 
 ### Are these rates safe?
 

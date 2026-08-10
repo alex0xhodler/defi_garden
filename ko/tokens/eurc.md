@@ -1,23 +1,23 @@
 # EURC 디파이 수익률
 
-현재 EURC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 47.76%이며, $100K TVL 기준을 넘는 34개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EURC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 106.07%이며, $100K TVL 기준을 넘는 34개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 3.05% | $11.01M |
-| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 3.00% | $4.95M |
-| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.88% | $3.06M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 13.01% | $2.07M |
+| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 3.05% | $11.02M |
+| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 3.01% | $4.95M |
+| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.84% | $3.1M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 15.41% | $2.05M |
 | [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 3.23% | $1.38M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 47.76% | $969.9K |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 4.88% | $851.5K |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 4.87% | $852.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=ae2073a3-2d17-4b0e-a35e-9a90a2569063&src=seo_token) | Ethereum | 3.47% | $774.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 106.07% | $771.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.88%부터 47.76%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.84%부터 106.07%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.50%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,14 +27,14 @@ EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.88%부터 47.76%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 3.05% | 2.81% | 기본 금리 |
-| jupiter-lend | 3.00% | 3.46% | 기본 금리 |
-| aave-v3 | 2.88% | 2.34% | 기본 금리 |
-| aerodrome-slipstream | 13.01% | 24.65% | 인센티브 42.94% |
-| fluid-lending | 3.23% | 3.09% | 기본 금리 |
-| aerodrome-slipstream | 47.76% | 81.47% | 인센티브 36.19% |
-| blend-pools-v2 | 4.88% | 5.54% | 기본 금리 |
-| uniswap-v4 | 3.47% | 8.34% | 기본 금리 |
+| aave-v3 | 3.05% | 2.82% | 기본 금리 |
+| jupiter-lend | 3.01% | 3.46% | 기본 금리 |
+| aave-v3 | 2.84% | 2.35% | 기본 금리 |
+| aerodrome-slipstream | 15.41% | 24.56% | 인센티브 37.05% |
+| fluid-lending | 3.23% | 3.10% | 기본 금리 |
+| blend-pools-v2 | 4.87% | 5.53% | 기본 금리 |
+| uniswap-v4 | 3.47% | 8.33% | 기본 금리 |
+| aerodrome-slipstream | 106.07% | 81.73% | 인센티브 55.39% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.88%부터 47.76%�
 
 ### 오늘 EURC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 47.76%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 106.07%예요.
 
 ### EURC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 34개이며, 합산 TVL은 $36.13M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 34개이며, 합산 TVL은 $35.94M예요.
 
 ### 이 수익률은 안전한가요?
 

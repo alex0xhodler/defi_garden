@@ -1,21 +1,21 @@
 # WBERA DeFi Yields
 
-The highest honest WBERA yield right now is 34.55% on berapaw (Berachain), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBERA yield right now is 34.61% on berapaw (Berachain), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dolomite →](https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token) | Berachain | 3.05% | $288.8K |
-| [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 32.09% | $254.6K |
-| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 34.55% | $211.4K |
-| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 4.61% | $134K |
+| [dolomite →](https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token) | Berachain | 2.96% | $291.3K |
+| [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 32.25% | $255.1K |
+| [berapaw →](https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token) | Berachain | 34.61% | $212.5K |
+| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 4.33% | $133.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WBERA shows up in 4 pools here, with rates from 3.05% to 34.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WBERA shows up in 4 pools here, with rates from 2.96% to 34.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 18.03% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 18.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,10 +23,10 @@ WBERA shows up in 4 pools here, with rates from 3.05% to 34.55% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| dolomite | 3.05% | 2.67% | Base rate |
-| berapaw | 32.09% | 33.54% | 100.00% incentives |
-| berapaw | 34.55% | 33.38% | 100.00% incentives |
-| bex | 4.61% | 2.62% | Base rate |
+| dolomite | 2.96% | 2.67% | Base rate |
+| berapaw | 32.25% | 33.49% | 100.00% incentives |
+| berapaw | 34.61% | 33.34% | 100.00% incentives |
+| bex | 4.33% | 2.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WBERA yield today?
 
-34.55% APY on berapaw (Berachain), based on live DefiLlama data.
+34.61% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many WBERA pools clear the TVL floor?
 

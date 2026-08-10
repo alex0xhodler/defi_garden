@@ -4,7 +4,7 @@ The highest honest WNVDAX yield right now is 0.18% on fluxion-network (Mantle), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b3ca8d99-2013-4ecb-b26b-06480ea25a08&src=seo_token) | Ethereum | 0.03% | $339.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b3ca8d99-2013-4ecb-b26b-06480ea25a08&src=seo_token) | Ethereum | 0.03% | $339.7K |
 | [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.18% | $112.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 WNVDAX shows up in 2 pools here, with rates from 0.03% to 0.18% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,7 +22,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.03% | 0.55% | Base rate |
-| fluxion-network | 0.18% | 0.78% | Base rate |
+| fluxion-network | 0.18% | 0.77% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WNVDAX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $451.6K in total.
+2 live pools clear this page's $100K TVL floor, $452K in total.
 
 ### Are these rates safe?
 

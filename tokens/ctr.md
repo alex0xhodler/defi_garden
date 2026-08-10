@@ -1,10 +1,10 @@
 # CTR DeFi Yields
 
-The highest honest CTR yield right now is 7.69% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CTR yield right now is 9.33% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=034cab88-03cc-4e10-98fe-a1ecb6aa8083&src=seo_token) | Base | 7.69% | $263.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=034cab88-03cc-4e10-98fe-a1ecb6aa8083&src=seo_token) | Base | 9.33% | $261.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CTR yield today?
 
-7.69% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+9.33% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $263.4K in total.
+1 live pool clear this page's $100K TVL floor, $261.6K in total.
 
 ### Are these rates safe?
 

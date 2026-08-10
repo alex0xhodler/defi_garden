@@ -1,10 +1,10 @@
 # WOULD DeFi Yields
 
-The highest honest WOULD yield right now is 16.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOULD yield right now is 13.79% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=71b80fb4-50bc-4e0a-b01f-f60cb59fb859&src=seo_token) | Solana | 16.04% | $1.27M |
+| [raydium-amm →](https://www.defi.garden/?pool=71b80fb4-50bc-4e0a-b01f-f60cb59fb859&src=seo_token) | Solana | 13.79% | $1.27M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WOULD yield today?
 
-16.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+13.79% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WOULD pools clear the TVL floor?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

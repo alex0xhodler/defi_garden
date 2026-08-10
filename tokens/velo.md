@@ -1,25 +1,25 @@
 # VELO DeFi Yields
 
-The highest honest VELO yield right now is 85.62% on velodrome-v3 (OP Mainnet), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VELO yield right now is 46.56% on velodrome-v2 (OP Mainnet), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token) | OP Mainnet | 13.81% | $655.1K |
-| [moonwell-lending →](https://www.defi.garden/?pool=9d914214-b4d7-4bd9-a1c4-41a6364b5c77&src=seo_token) | OP Mainnet | 0.02% | $569K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 46.54% | $356K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token) | OP Mainnet | 14.54% | $193K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token) | OP Mainnet | 13.78% | $189.6K |
-| [velodrome-v3 →](https://www.defi.garden/?pool=73c53154-4d6f-4402-b8a8-42f320c52c63&src=seo_token) | OP Mainnet | 70.29% | $123.7K |
-| [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token) | OP Mainnet | 85.62% | $111.9K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 11.77% | $102.8K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=d4831935-4ab6-48cd-81a7-1986fd6cdaf9&src=seo_token) | OP Mainnet | 13.79% | $654.2K |
+| [moonwell-lending →](https://www.defi.garden/?pool=9d914214-b4d7-4bd9-a1c4-41a6364b5c77&src=seo_token) | OP Mainnet | 0.02% | $565.8K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=8ba5248e-fb39-40c6-8fbe-611542c2780e&src=seo_token) | OP Mainnet | 46.56% | $354.8K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=91ebb282-e9ed-4f28-ab05-2787578b1c3f&src=seo_token) | OP Mainnet | 14.52% | $192.7K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=09921e93-8c35-46fb-94ba-9fe0580a2a88&src=seo_token) | OP Mainnet | 13.68% | $190.4K |
+| [velodrome-v3 →](https://www.defi.garden/?pool=73c53154-4d6f-4402-b8a8-42f320c52c63&src=seo_token) | OP Mainnet | 52.72% | $128K |
+| [velodrome-v3 →](https://www.defi.garden/?pool=46a80298-8bac-4311-b96b-8d9b6a07a94e&src=seo_token) | OP Mainnet | 48.59% | $124.1K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 11.66% | $103.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VELO shows up in 8 pools here, with rates from 0.02% to 85.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VELO shows up in 8 pools here, with rates from 0.02% to 52.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 20.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 20.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ VELO shows up in 8 pools here, with rates from 0.02% to 85.62% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| velodrome-v2 | 13.81% | 19.36% | 100.00% incentives |
+| velodrome-v2 | 13.79% | 19.30% | 100.00% incentives |
 | moonwell-lending | 0.02% | 0.06% | Base rate |
-| velodrome-v2 | 46.54% | 61.40% | 100.00% incentives |
-| extra-finance-leverage-farming | 14.54% | 21.43% | Base rate |
-| velodrome-v2 | 13.78% | 18.27% | 100.00% incentives |
-| velodrome-v3 | 70.29% | 111.66% | 100.00% incentives |
-| velodrome-v3 | 85.62% | 115.77% | 100.00% incentives |
-| velodrome-v2 | 11.77% | 19.38% | 100.00% incentives |
+| velodrome-v2 | 46.56% | 61.24% | 100.00% incentives |
+| extra-finance-leverage-farming | 14.52% | 21.36% | Base rate |
+| velodrome-v2 | 13.68% | 18.22% | 100.00% incentives |
+| velodrome-v3 | 52.72% | 111.71% | 100.00% incentives |
+| velodrome-v3 | 48.59% | 114.70% | 100.00% incentives |
+| velodrome-v2 | 11.66% | 19.29% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VELO yield today?
 
-85.62% APY on velodrome-v3 (OP Mainnet), based on live DefiLlama data.
+46.56% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many VELO pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $2.3M in total.
+8 live pools clear this page's $100K TVL floor, $2.31M in total.
 
 ### Are these rates safe?
 

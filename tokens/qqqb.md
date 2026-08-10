@@ -4,7 +4,7 @@ The highest honest QQQB yield right now is 23.23% on native-credit-pool (BSC), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token) | BSC | 23.23% | $1.54M |
+| [native-credit-pool →](https://www.defi.garden/?pool=a5bd33df-4410-5631-a44b-bab8214b1dc2&src=seo_token) | BSC | 23.23% | $1.55M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QQQB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.54M in total.
+1 live pool clear this page's $100K TVL floor, $1.55M in total.
 
 ### Are these rates safe?
 

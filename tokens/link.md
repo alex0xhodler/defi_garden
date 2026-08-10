@@ -1,12 +1,12 @@
 # LINK DeFi Yields
 
-The highest honest LINK yield right now is 6.44% on uniswap-v3 (Ethereum), among 43 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LINK yield right now is 5.64% on uniswap-v3 (Ethereum), among 43 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token) | Ethereum | 0.03% | $72.16M |
+| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token) | Ethereum | 0.03% | $72.14M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c&src=seo_token) | Ethereum | 2.12% | $21.38M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9&src=seo_token) | Ethereum | 6.44% | $20.99M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9&src=seo_token) | Ethereum | 5.64% | $21M |
 | [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b&src=seo_token) | Ethereum | 0.01% | $5.02M |
 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.06% | $3.97M |
 | [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93&src=seo_token) | Arbitrum | 0.83% | $2.7M |
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-LINK shows up in 8 pools here, with rates from 0.01% to 6.44% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+LINK shows up in 8 pools here, with rates from 0.01% to 5.64% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -28,11 +28,11 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 0.03% | 0.03% | Base rate |
-| uniswap-v4 | 2.12% | 11.04% | Base rate |
-| uniswap-v3 | 6.44% | 7.80% | Base rate |
+| uniswap-v4 | 2.12% | 11.07% | Base rate |
+| uniswap-v3 | 5.64% | 7.80% | Base rate |
 | bancor-v3 | 0.01% | 0.03% | Base rate |
 | curve-dex | 0.06% | 1.96% | Base rate |
-| gmx-v2-perps | 0.83% | 3.89% | Base rate |
+| gmx-v2-perps | 0.83% | 3.84% | Base rate |
 | aave-v3 | 0.03% | 0.02% | Base rate |
 | venus-core-pool | 0.04% | 0.04% | Base rate |
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LINK yield today?
 
-6.44% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.64% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many LINK pools clear the TVL floor?
 
-43 live pools clear this page's $100K TVL floor, $152.82M in total.
+43 live pools clear this page's $100K TVL floor, $152.84M in total.
 
 ### Are these rates safe?
 

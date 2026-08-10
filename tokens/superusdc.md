@@ -4,7 +4,7 @@ The highest honest SUPERUSDC yield right now is 10.92% on pendle (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.07% | $7.61M |
+| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.12% | $7.61M |
 | [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 7.65% | $827.4K |
 | [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 10.92% | $827.4K |
 | [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.72% | $814.3K |
@@ -21,10 +21,10 @@ SUPERUSDC shows up in 4 pools here, with rates from 5.72% to 10.92% APY across 2
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| superform | 6.07% | 5.66% | 30.84% incentives |
-| pendle | 7.65% | 7.77% | 20.19% incentives |
-| pendle | 10.92% | 9.10% | 14.15% incentives |
-| superform | 5.72% | 6.04% | 32.70% incentives |
+| superform | 6.12% | 5.67% | 30.62% incentives |
+| pendle | 7.65% | 7.78% | 20.19% incentives |
+| pendle | 10.92% | 9.11% | 14.15% incentives |
+| superform | 5.72% | 6.04% | 32.72% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

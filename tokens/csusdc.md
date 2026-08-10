@@ -4,7 +4,7 @@ The highest honest CSUSDC yield right now is 8.42% on balancer-v3 (Monad), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 7.24% | $1.61M |
+| [morpho-blue →](https://www.defi.garden/?pool=05c5acfb-eb6c-40bd-865c-2015c017e953&src=seo_token) | Ethereum | 7.29% | $1.61M |
 | [morpho-blue →](https://www.defi.garden/?pool=34b65551-cca1-48f4-9a62-2145c24e92a4&src=seo_token) | Base | 3.42% | $1.27M |
 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 8.42% | $363.6K |
 
@@ -20,9 +20,9 @@ CSUSDC shows up in 3 pools here, with rates from 3.42% to 8.42% APY across 3 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 7.24% | 6.97% | Base rate |
+| morpho-blue | 7.29% | 6.97% | Base rate |
 | morpho-blue | 3.42% | 3.73% | Base rate |
-| balancer-v3 | 8.42% | 11.03% | 13.14% incentives |
+| balancer-v3 | 8.42% | 11.00% | 13.13% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

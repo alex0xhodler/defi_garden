@@ -4,20 +4,20 @@ The highest honest XAUT yield right now is 5.96% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 3.66% | $6.33M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 1.35% | $5.99M |
+| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 2.80% | $6.41M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 1.20% | $6.03M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62&src=seo_token) | Ethereum | 5.96% | $5.72M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.47% | $3.24M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 2.69% | $2.35M |
-| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.44% | $2.18M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.27% | $3.26M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 3.46% | $2.36M |
+| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.33% | $2.19M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=3552bffb-c474-46bc-b405-6a137f0792e7&src=seo_token) | Ethereum | 5.90% | $1.68M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 2.48% | $845.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 2.69% | $848.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XAUT shows up in 8 pools here, with rates from 0.44% to 5.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+XAUT shows up in 8 pools here, with rates from 0.27% to 5.96% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,14 +27,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lista-lending | 3.66% | 0.81% | Base rate |
-| uniswap-v3 | 1.35% | 1.87% | Base rate |
-| uniswap-v4 | 5.96% | 6.24% | Base rate |
-| uniswap-v3 | 0.47% | 0.47% | Base rate |
-| uniswap-v3 | 2.69% | 6.39% | Base rate |
-| fluid-dex | 0.44% | 0.48% | Base rate |
+| lista-lending | 2.80% | 0.83% | Base rate |
+| uniswap-v3 | 1.20% | 1.87% | Base rate |
+| uniswap-v4 | 5.96% | 6.26% | Base rate |
+| uniswap-v3 | 0.27% | 0.47% | Base rate |
+| uniswap-v3 | 3.46% | 6.37% | Base rate |
+| fluid-dex | 0.33% | 0.48% | Base rate |
 | uniswap-v4 | 5.90% | 4.95% | Base rate |
-| uniswap-v3 | 2.48% | 3.97% | Base rate |
+| uniswap-v3 | 2.69% | 3.96% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XAUT pools clear the TVL floor?
 
-29 live pools clear this page's $100K TVL floor, $117.97M in total.
+29 live pools clear this page's $100K TVL floor, $118.63M in total.
 
 ### Are these rates safe?
 

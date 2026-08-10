@@ -4,7 +4,7 @@ The highest honest STHAPT yield right now is 4.96% on echelon-market (Aptos), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=121b78c0-a005-4583-9fa1-e6aa72b5a68e&src=seo_token) | Aptos | 4.96% | $101.1K |
+| [echelon-market →](https://www.defi.garden/?pool=121b78c0-a005-4583-9fa1-e6aa72b5a68e&src=seo_token) | Aptos | 4.96% | $101.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STHAPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.1K in total.
+1 live pool clear this page's $100K TVL floor, $101.5K in total.
 
 ### Are these rates safe?
 

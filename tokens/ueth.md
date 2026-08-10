@@ -1,25 +1,25 @@
 # UETH DeFi Yields
 
-The highest honest UETH yield right now is 41.09% on ramses-cl-v2 (Hyperliquid L1), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UETH yield right now is 40.96% on ramses-cl-v2 (Hyperliquid L1), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 0.52% | $958.2K |
-| [hyperlend-pooled →](https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token) | Hyperliquid L1 | 2.51% | $916.9K |
+| [project-x →](https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token) | Hyperliquid L1 | 2.31% | $961.9K |
+| [hyperlend-pooled →](https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token) | Hyperliquid L1 | 9.41% | $843.4K |
 | [hyperswap-v3 →](https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token) | Hyperliquid L1 | 0.03% | $524.1K |
-| [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 32.02% | $462.7K |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 14.16% | $345.7K |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=71b271fb-e462-40be-9fe7-e237e4308cf7&src=seo_token) | Hyperliquid L1 | 41.09% | $327.3K |
-| [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.02% | $252.9K |
-| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.28% | $212K |
+| [nest-cl →](https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token) | Hyperliquid L1 | 32.67% | $465.3K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 15.38% | $346.2K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=71b271fb-e462-40be-9fe7-e237e4308cf7&src=seo_token) | Hyperliquid L1 | 40.96% | $327.5K |
+| [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.02% | $255K |
+| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.28% | $213K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-UETH shows up in 8 pools here, with rates from 0.02% to 41.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+UETH shows up in 8 pools here, with rates from 0.02% to 40.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.91% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,12 +27,12 @@ UETH shows up in 8 pools here, with rates from 0.02% to 41.09% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| project-x | 0.52% | 11.07% | Base rate |
-| hyperlend-pooled | 2.51% | 2.54% | Base rate |
+| project-x | 2.31% | 11.06% | Base rate |
+| hyperlend-pooled | 9.41% | 2.55% | Base rate |
 | hyperswap-v3 | 0.03% | 1.05% | Base rate |
-| nest-cl | 32.02% | 43.53% | 100.00% incentives |
-| ramses-cl-v2 | 14.16% | 34.63% | 38.91% incentives |
-| ramses-cl-v2 | 41.09% | 50.66% | 100.00% incentives |
+| nest-cl | 32.67% | 43.48% | 100.00% incentives |
+| ramses-cl-v2 | 15.38% | 34.58% | 35.69% incentives |
+| ramses-cl-v2 | 40.96% | 50.55% | 100.00% incentives |
 | hypurrfi-pooled | 0.02% | 0.02% | Base rate |
 | project-x | 0.28% | 2.74% | Base rate |
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest UETH yield today?
 
-41.09% APY on ramses-cl-v2 (Hyperliquid L1), based on live DefiLlama data.
+40.96% APY on ramses-cl-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many UETH pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $4.4M in total.
+10 live pools clear this page's $100K TVL floor, $4.34M in total.
 
 ### Are these rates safe?
 

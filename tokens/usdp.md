@@ -19,7 +19,7 @@ USDP shows up in 2 pools here, with rates from 10.68% to 12.17% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 12.17% | 12.41% | 82.55% incentives |
+| balancer-v3 | 12.17% | 12.40% | 82.55% incentives |
 | balancer-v3 | 10.68% | 10.00% | 83.48% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

@@ -1,21 +1,21 @@
 # STXRP 디파이 수익률
 
-현재 STXRP의 가장 높은 정직한 수익률은 Flare의 spectra-v2에서 3.01%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STXRP의 가장 높은 정직한 수익률은 Flare의 spectra-v2에서 2.96%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 1.62% | $5.4M |
-| [spectra-v2 →](https://www.defi.garden/?pool=b9f857e7-c09a-4385-bab9-907f89c00dc1&src=seo_token) | Flare | 2.66% | $2.84M |
-| [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc&src=seo_token) | Flare | 3.01% | $1.96M |
-| [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41&src=seo_token) | Flare | 0.26% | $178.6K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 1.62% | $5.42M |
+| [spectra-v2 →](https://www.defi.garden/?pool=b9f857e7-c09a-4385-bab9-907f89c00dc1&src=seo_token) | Flare | 2.63% | $2.84M |
+| [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc&src=seo_token) | Flare | 2.96% | $1.96M |
+| [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41&src=seo_token) | Flare | 0.26% | $179.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-STXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.26%부터 3.01%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+STXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.26%부터 2.96%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.98%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.99%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -23,9 +23,9 @@ STXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.26%부터 3.01%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sparkdex-v4 | 1.62% | 1.51% | 인센티브 99.10% |
-| spectra-v2 | 2.66% | 2.88% | 기본 금리 |
-| spectra-v2 | 3.01% | 2.46% | 기본 금리 |
+| sparkdex-v4 | 1.62% | 1.51% | 인센티브 99.07% |
+| spectra-v2 | 2.63% | 2.88% | 기본 금리 |
+| spectra-v2 | 2.96% | 2.46% | 기본 금리 |
 | spectra-v2 | 0.26% | 0.27% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -34,11 +34,11 @@ STXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.26%부터 3.01%�
 
 ### 오늘 STXRP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Flare의 spectra-v2에서 APY 3.01%예요.
+DefiLlama 실시간 데이터 기준, Flare의 spectra-v2에서 APY 2.96%예요.
 
 ### STXRP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.38M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.4M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,19 +1,19 @@
 # BILL DeFi Yields
 
-The highest honest BILL yield right now is 23.83% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BILL yield right now is 23.67% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.04% | $597.7K |
-| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 23.83% | $122.9K |
+| [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.12% | $598.9K |
+| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 23.67% | $125K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BILL shows up in 2 pools here, with rates from 0.04% to 23.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BILL shows up in 2 pools here, with rates from 0.12% to 23.67% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 14.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 14.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| fluxion-network | 0.04% | 0.61% | Base rate |
-| orca-dex | 23.83% | 27.58% | Base rate |
+| fluxion-network | 0.12% | 0.61% | Base rate |
+| orca-dex | 23.67% | 27.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BILL yield today?
 
-23.83% APY on orca-dex (Solana), based on live DefiLlama data.
+23.67% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BILL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $720.6K in total.
+2 live pools clear this page's $100K TVL floor, $723.9K in total.
 
 ### Are these rates safe?
 
@@ -43,11 +43,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

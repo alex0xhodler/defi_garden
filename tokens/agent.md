@@ -4,7 +4,7 @@ The highest honest AGENT yield right now is 0.01% on uniswap-v2 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=aa549574-cc78-4743-b6bf-47370f8684c9&src=seo_token) | Base | 0.01% | $140.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=aa549574-cc78-4743-b6bf-47370f8684c9&src=seo_token) | Base | 0.01% | $140.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AGENT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.3K in total.
+1 live pool clear this page's $100K TVL floor, $140.5K in total.
 
 ### Are these rates safe?
 

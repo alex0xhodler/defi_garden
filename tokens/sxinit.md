@@ -4,7 +4,7 @@ The highest honest SXINIT yield right now is 2.74% on echelon-market (Echelon In
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_token) | Echelon Initia | 2.74% | $212.5K |
+| [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_token) | Echelon Initia | 2.74% | $210.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SXINIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $212.5K in total.
+1 live pool clear this page's $100K TVL floor, $210.5K in total.
 
 ### Are these rates safe?
 

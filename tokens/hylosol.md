@@ -4,8 +4,8 @@ The highest honest HYLOSOL yield right now is 6.17% on hylo-lsts (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 6.17% | $14.39M |
-| [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.01% | $503.3K |
+| [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 6.17% | $14.43M |
+| [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.01% | $505.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HYLOSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $14.9M in total.
+2 live pools clear this page's $100K TVL floor, $14.93M in total.
 
 ### Are these rates safe?
 
@@ -41,11 +41,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # HMSTR DeFi Yields
 
-The highest honest HMSTR yield right now is 3.83% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HMSTR yield right now is 3.11% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=60b30c76-5792-5d1f-abbd-44a19a7c593b&src=seo_token) | Solana | 3.83% | $181.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=60b30c76-5792-5d1f-abbd-44a19a7c593b&src=seo_token) | Solana | 3.11% | $181.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HMSTR yield today?
 
-3.83% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.11% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HMSTR pools clear the TVL floor?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

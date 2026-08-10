@@ -1,19 +1,19 @@
 # DEUS DeFi Yields
 
-The highest honest DEUS yield right now is 332.82% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEUS yield right now is 329.58% on aerodrome-v1 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 332.82% | $649K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 38.68% | $247K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 329.58% | $655.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 38.66% | $247.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DEUS shows up in 2 pools here, with rates from 38.68% to 332.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DEUS shows up in 2 pools here, with rates from 38.66% to 329.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 182.26% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 182.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ DEUS shows up in 2 pools here, with rates from 38.68% to 332.82% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 332.82% | 323.36% | 100.00% incentives |
-| aerodrome-v1 | 38.68% | 41.16% | 100.00% incentives |
+| aerodrome-v1 | 329.58% | 323.32% | 100.00% incentives |
+| aerodrome-v1 | 38.66% | 41.08% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DEUS yield today?
 
-332.82% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+329.58% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many DEUS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $896.1K in total.
+2 live pools clear this page's $100K TVL floor, $902.3K in total.
 
 ### Are these rates safe?
 

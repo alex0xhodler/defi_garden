@@ -1,10 +1,10 @@
 # KTA DeFi Yields
 
-The highest honest KTA yield right now is 10.66% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KTA yield right now is 10.62% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b&src=seo_token) | Base | 10.66% | $4.2M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8ee7be96-79ab-4a27-87b1-097359555e0b&src=seo_token) | Base | 10.62% | $4.21M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4610c594-15fa-4476-858f-8f2deb6b6eb0&src=seo_token) | Base | 0.54% | $326K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4adfe221-5582-41a7-9fa2-0e2c64a054c6&src=seo_token) | Base | 1.66% | $231.8K |
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-KTA shows up in 3 pools here, with rates from 0.54% to 10.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KTA shows up in 3 pools here, with rates from 0.54% to 10.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ KTA shows up in 3 pools here, with rates from 0.54% to 10.66% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 10.66% | 7.78% | 100.00% incentives |
+| aerodrome-v1 | 10.62% | 7.77% | 100.00% incentives |
 | uniswap-v4 | 0.54% | 0.08% | Base rate |
 | uniswap-v4 | 1.66% | 0.67% | Base rate |
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KTA yield today?
 
-10.66% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+10.62% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many KTA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.76M in total.
+3 live pools clear this page's $100K TVL floor, $4.77M in total.
 
 ### Are these rates safe?
 
