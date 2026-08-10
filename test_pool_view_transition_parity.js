@@ -8,11 +8,33 @@
    product-loop-kit/specs/257.md's Acceptance criteria).
 
    THE CLAIM UNDER TEST: every place app.js transitions the app into
-   `currentView === 'pool-detail'` (every `setCurrentView('pool-detail')`
-   call) has, inside the SAME enclosing named function/handler, a paired
-   `Analytics.trackPoolView(` emit — and vice versa (an emit inside a
-   function that never transitions would be a double-fire risk on some
-   other path). Both directions, both derived from the source, every run.
+   `currentView === 'pool-detail'` (every `setCurrentView('pool-detail')` /
+   `setCurrentView("pool-detail")` call, either quote style) has, inside the
+   SAME enclosing named function/handler, a paired `trackPoolView(` emit —
+   and vice versa (an emit inside a function that never transitions would be
+   a double-fire risk on some other path). Both directions, both derived
+   from the source, every run.
+
+   POST-VERIFIER-FAIL REVISION (see specs/257-pr.md "What the verifier
+   found" and specs/257-notes.md "Attempt 2"): the first version of this
+   file matched the transition and emit text with a fixed-spelling
+   `String.prototype.indexOf` scan — a single-quoted, fixed-spacing byte
+   string. The verifier mutated app.js with a fourth entry path written as
+   `setCurrentView("pool-detail")` (double quotes) with no paired emit, and
+   the old indexOf scan did not see it: GREEN, 4/4, on a source that should
+   have failed. Both scans below are now regexes tolerant of quote style
+   (and, for the emit side, of the caller prefix / internal spacing), so a
+   quote-style variant can no longer hide from the gate. What this does NOT
+   fix, and is stated plainly rather than implied away: the gate's
+   resolution is PER NAMED FUNCTION, not per transition. If a fourth
+   `setCurrentView('pool-detail')` call is added inside a function that
+   *already* has its own `trackPoolView(` call elsewhere in its body (e.g.
+   a second transition added inside `App`'s existing anonymous effect,
+   which is itself attributed to the named function `App`), set-equality
+   alone sees no new owner and stays green — only the plain COUNT assertion
+   (transition count === emit count) catches that shape, because it adds a
+   transition without adding an emit. Keep both assertions; neither
+   subsumes the other.
 
    ATTRIBUTION METHOD (documented per the spec's requirement):
    1. `scrub()` walks app.js char-by-char and blanks out (replaces with
@@ -20,21 +42,34 @@
       comment, block comment, and template-literal body. This keeps `{`/`}`
       inside comments/templates from being mistaken for real code braces,
       and keeps a comment that happens to mention "trackPoolView" from
-      producing a false-positive occurrence. Single/double-quoted strings
-      are DELIBERATELY left un-scrubbed: the transition text itself,
-      `setCurrentView('pool-detail')`, contains a single-quoted string
-      literal that is part of the pattern being searched for — blanking it
-      would blank away the very thing under test. This is only safe because
-      app.js contains zero single/double-quoted string literals with a `{`
-      or `}` byte inside them and zero containing the substrings
-      "trackPoolView"/"setCurrentView" (verified by a one-off scan when this
-      file was written); if that ever stops being true, this analyzer would
-      need a real tokenizer, not a documented assumption. One further known
-      wrinkle: a regex literal containing brace quantifiers (app.js has
-      exactly one: `/^[0-9a-f]{8}-.../i`) is NOT scrubbed either — but every
-      brace pair inside a regex quantifier is opened and closed within the
-      same statement, so it nets to zero and never desyncs the depth
-      counter. Documented, not hidden.
+      producing a false-positive occurrence (explicitly verified below —
+      see the "does not inflate the emit count" test, added because the
+      verifier specifically asked whether the `// … trackPoolView call …`
+      comment near app.js:2788 could inflate the count under the new,
+      looser `\btrackPoolView\s*\(` emit regex — it cannot, because scrub()
+      blanks it before either regex ever sees it). Single/double-quoted
+      strings are DELIBERATELY left un-scrubbed: the transition text
+      itself, `setCurrentView('pool-detail')` / `setCurrentView("pool-detail")`,
+      contains a quoted string literal that is part of the pattern being
+      searched for — blanking it would blank away the very thing under
+      test. This is only safe because app.js contains zero single/
+      double-quoted string literals with a `{` or `}` byte inside them and
+      zero containing the substrings "trackPoolView"/"setCurrentView"
+      (verified by a one-off scan when this file was written, and
+      RE-VERIFIED when the scan switched from literal indexOf to regex —
+      the regex change widens WHAT counts as a match, not WHERE the scanner
+      looks, so the same string-content assumption still governs; the
+      re-verification is the same one-off `grep`, re-run, and still finds
+      none). One further known wrinkle: a regex literal containing brace
+      quantifiers or character classes is NOT scrubbed either — app.js has
+      exactly FOUR such literals, not one as an earlier version of this
+      comment claimed (the verifier caught the miscount): `app.js:230`,
+      `:321`, `:474` (three copies of `/[.*+?^${}()|[\]\\]/g`) and `:808`
+      (`/^[0-9a-f]{8}-.../i`). All four are brace-balanced within their own
+      statement (each `{`/`}` pair opens and closes on the same line, inside
+      the same regex literal), so none of them ever desyncs the depth
+      counter — the conclusion survives, only the count was wrong.
+      Documented, not hidden.
    2. `findFunctionStarts()` regex-scans the scrubbed source for the two
       shapes this codebase actually uses to name a function (CLAUDE.md: no
       JSX, `React.createElement` + plain functions/arrows only):
@@ -51,13 +86,16 @@
    3. `analyze()` makes ONE forward pass over the scrubbed source tracking
       brace depth and a stack of {name, depth}. Entering a named function's
       `{` pushes; leaving the `}` that returns depth to the pushed value
-      pops. At every occurrence index of `setCurrentView('pool-detail')` or
-      `Analytics.trackPoolView(`, the current stack top (or `(top-level)` if
-      the stack is empty) is recorded as that occurrence's OWNER — the
-      nearest enclosing NAMED function, skipping anonymous wrapper closures
-      (e.g. a `useEffect(() => {...})` callback attributes to whatever named
-      function contains the `useEffect(...)` call, exactly matching how a
-      human would describe "which handler does this belong to").
+      pops. At every occurrence index of the transition regex
+      (`TRANSITION_RE`, quote-tolerant) or the emit regex (`EMIT_RE`,
+      quote-tolerant is moot here but prefix/spacing-tolerant), the current
+      stack top (or `(top-level)` if the stack is empty) is recorded as that
+      occurrence's OWNER — the nearest enclosing NAMED function, skipping
+      anonymous wrapper closures (e.g. a `useEffect(() => {...})` callback
+      attributes to whatever named function contains the `useEffect(...)`
+      call, exactly matching how a human would describe "which handler does
+      this belong to"). See the header note above for the one thing this
+      resolution level still cannot see (a same-owner double transition).
 
    Run: node test_pool_view_transition_parity.js */
 'use strict';
@@ -75,8 +113,32 @@ function test(name, fn) {
 const REPO_ROOT = __dirname;
 const APP_JS_PATH = path.join(REPO_ROOT, 'app.js');
 
-const TRANSITION_TEXT = "setCurrentView('pool-detail')";
-const EMIT_TEXT = 'Analytics.trackPoolView(';
+// Regex-based, quote-style tolerant (spec-257 FAILURE 1 fix). Matches
+// `setCurrentView('pool-detail')` or `setCurrentView("pool-detail")`, with
+// or without incidental internal whitespace — see header comment.
+const TRANSITION_RE = /setCurrentView\s*\(\s*(['"])pool-detail\1\s*\)/g;
+// Drops the mandatory "Analytics." prefix and the fixed-spacing assumption
+// of the old `'Analytics.trackPoolView('` literal — any call to a function
+// named trackPoolView, however it's reached, counts as an emit site.
+const EMIT_RE = /\btrackPoolView\s*\(/g;
+
+// Frozen copy of the PRE-FIX (verifier-FAILed) literal-string transition
+// scan, kept ONLY to prove the regex fix above is non-vacuous — never used
+// by the real assertions. This is exactly `TRANSITION_TEXT` /
+// `findAllIndices` from the version of this file the verifier reviewed.
+const LEGACY_TRANSITION_TEXT = "setCurrentView('pool-detail')";
+function legacyFindAllIndices(haystack, needle) {
+  const out = [];
+  let i = haystack.indexOf(needle);
+  while (i !== -1) {
+    out.push(i);
+    i = haystack.indexOf(needle, i + 1);
+  }
+  return out;
+}
+function legacyCountTransitions(source) {
+  return legacyFindAllIndices(source, LEGACY_TRANSITION_TEXT).length;
+}
 
 // ---------------------------------------------------------------------------
 // Scrubber — see header comment step 1.
@@ -230,6 +292,20 @@ function findAllIndices(haystack, needle) {
   return out;
 }
 
+// Regex-based occurrence finder — the general form the analyzer uses for
+// both TRANSITION_RE and EMIT_RE. `regex` must carry the `g` flag (or a
+// fresh one is built with `g` added) so `exec` advances `lastIndex`.
+function findAllRegexIndices(haystack, regex) {
+  const re = new RegExp(regex.source, regex.flags.includes('g') ? regex.flags : regex.flags + 'g');
+  const out = [];
+  let m;
+  while ((m = re.exec(haystack))) {
+    out.push(m.index);
+    if (m[0].length === 0) re.lastIndex++; // guard against zero-length-match infinite loop
+  }
+  return out;
+}
+
 // ---------------------------------------------------------------------------
 // analyze() — the analyzer under test. Pure: string in, data out. Reused
 // verbatim by both the real-repo assertions and the self-defeat sub-check
@@ -241,8 +317,8 @@ function analyze(source) {
   const funcStarts = findFunctionStarts(scrubbed);
   const funcStartMap = new Map(funcStarts.map((f) => [f.braceIndex, f.name]));
 
-  const transitionIndices = findAllIndices(scrubbed, TRANSITION_TEXT);
-  const emitIndices = findAllIndices(scrubbed, EMIT_TEXT);
+  const transitionIndices = findAllRegexIndices(scrubbed, TRANSITION_RE);
+  const emitIndices = findAllRegexIndices(scrubbed, EMIT_RE);
   const wanted = new Set([...transitionIndices, ...emitIndices]);
 
   const ownerAt = new Map();
