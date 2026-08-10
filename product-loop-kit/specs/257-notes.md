@@ -84,8 +84,18 @@ of the runs below, not a defect.
    independent decision, just confirming it was followed rather than
    silently reconsidered.
 
-## Finding: `urlDirectPoolViewFiredRef`'s purpose (per spec instruction, "if
-and only if you verify...")
+## Finding: `urlDirectPoolViewFiredRef`'s purpose (per the operator's build
+brief, "if and only if you verify..." — NOT per `specs/257.md`, which
+contains no such instruction; see correction below)
+
+**Provenance correction (Attempt 2):** the section title originally
+attributed the "if and only if you verify the ref's purpose, include the
+line" instruction to the spec. The verifier checked `specs/257.md` and
+confirmed it contains no such instruction — that framing came from the
+operator's build brief for this session, not from the spec document. The
+finding itself is sound and was behaviorally verified (see below); only the
+attribution of where the instruction came from was wrong. Corrected here;
+the analysis is unchanged.
 
 Read `app.js:1280-1340` (the `?pool=` url_direct resolver effect and its
 paired settle-gated emit effect) plus the ref's own declaration comment
@@ -103,8 +113,8 @@ carried a matching `?pool=` id (e.g. a future change that starts writing
 `?pool=` earlier, or a re-render ordering change), it would not double-park
 the same pool for a second emit.
 
-**Structural note (recorded, not acted on beyond following the spec's
-instruction to mirror it):** tracing the actual current code paths, this
+**Structural note (recorded, not acted on beyond following the build
+brief's instruction to mirror it):** tracing the actual current code paths, this
 guard is not load-bearing for either `handlePoolClick` or
 `handleCalculateYield` today — in both cases the url_direct effect's own
 `!detailPool` gate already blocks re-entry immediately after
@@ -113,7 +123,7 @@ and `handleCalculateYield` additionally never calls `window.history.pushState`
 to write `?pool=` into the URL at all (unlike `handlePoolClick`), so the
 url_direct effect's `urlParams.pool` match can't fire for a
 calculator-entered pool regardless of the ref. Set it anyway, matching
-`handlePoolClick` exactly: the spec instruction was framed as "if you
+`handlePoolClick` exactly: the build brief's instruction was framed as "if you
 confirm the ref's purpose, include the line" (confirmed above), it costs
 nothing, and it defends against a category of double-fire risk that a future
 change to `handleCalculateYield` (e.g. adding a `pushState` to keep the URL
@@ -275,3 +285,178 @@ preserved at the destination on `main`.
 
 The build agent's own report mis-attributed this commit to harness
 auto-checkpointing; corrected here so the record is accurate.
+
+## Attempt 2 — verifier FAIL and what changed
+
+The verifier FAILed the Attempt 1 build on two blocking items.
+
+### FAILURE 1 (P1) — the gate was blind to quote-style variants
+
+The spec's population criterion requires "a fourth entry path added tomorrow
+must fail the gate." The verifier mutated `app.js` three ways to test this
+and found the gate blind to one of them:
+
+- **Variant A** — a new named function, `setCurrentView('pool-detail')`
+  (single-quoted), no paired emit → correctly caught, RED 2/4.
+- **Variant B** — a fourth transition added *inside `App`'s existing
+  anonymous effect*, no paired emit → caught, but only by the plain COUNT
+  assertion — set-equality alone passed, because the extra transition
+  attributes to `App`, which already owns an emit.
+- **Variant C** — a new named function, `setCurrentView("pool-detail")`
+  (**double**-quoted), no paired emit → **GREEN, 4/4, exit=0 — MISSED.**
+
+Root cause: `TRANSITION_TEXT = "setCurrentView('pool-detail')"` and
+`EMIT_TEXT = 'Analytics.trackPoolView('` were fixed-spelling
+`String.prototype.indexOf` scans. Any quote-style or whitespace variant was
+invisible to them. The repo enforces no quote-style convention (no eslint/
+prettier/editorconfig), and `app.js` already mixes single- and
+double-quoted literals (e.g. `= "All"`), so this was a live gap, not a
+theoretical one.
+
+**Fix applied** (test file only — `app.js` untouched, confirmed correct by
+the verifier):
+
+1. `TRANSITION_TEXT`/`findAllIndices` replaced by the regex
+   `/setCurrentView\s*\(\s*(['"])pool-detail\1\s*\)/g` over the scrubbed
+   source.
+2. `EMIT_TEXT` replaced by `/\btrackPoolView\s*\(/g` — drops the mandatory
+   `Analytics.` prefix and the fixed-spacing assumption. Explicitly
+   verified (new test) that the `// … trackPoolView call …` comment near
+   `app.js:2788` does not inflate the count under the looser regex — it
+   cannot, because `scrub()` blanks comments before either regex runs.
+3. The self-defeat sub-check's `source: 'yield_calculator'` marker lookup
+   is now the equivalent quote-/whitespace-tolerant regex, for the same
+   reason.
+4. Two permanent regression tests added: an in-memory-only variant A
+   (single-quoted) and variant C (double-quoted) mutated copy of `app.js`
+   (a new named function with an un-paired transition, never written to
+   disk), each asserted caught by the analyzer. The variant-C test also
+   re-runs the frozen pre-fix scan (`legacyCountTransitions`, a verbatim
+   copy of the old `TRANSITION_TEXT`/`indexOf` logic) against the same
+   mutation and asserts it stays unchanged (3→3) — proving the regression
+   case is non-vacuous: it would have been invisible under the pre-fix
+   scanner and is caught only because of this fix.
+5. The header comment's regex-brace-literal count was corrected: the
+   verifier found **four** brace-containing regex literals in `app.js`
+   (`:230`, `:321`, `:474`, `:808`), not the one the header previously
+   claimed. All four remain brace-balanced within their own statement, so
+   the scrubbing conclusion survives — only the count was wrong.
+6. The test header's honesty section was expanded: the gate's resolution is
+   per named function, not per transition — variant B's shape (a second
+   transition added into a function that already owns an emit) is caught
+   only by the count assertion, never by set-equality alone. Stated
+   explicitly rather than left implicit.
+
+The transition-site/emit-site counts on real `app.js` are unchanged (3 and
+3); all four original assertions still pass; the file now carries 7
+assertions total (up from 4).
+
+**Non-vacuity of the two new regression tests — verbatim before/after.**
+Reproduced independently of the permanent regression tests themselves, by
+running the actual pre-fix test file (git commit `8b6fd1c7fa`, the exact
+version the verifier reviewed) and the actual fixed test file against an
+identical, disk-isolated copy of `app.js` with a variant-C
+(`setCurrentView("pool-detail")`, double-quoted, no paired emit) function
+appended — the mutated copy never touched the real `app.js`:
+
+```
+=== TRUE OLD (pre-fix, commit 8b6fd1c7fa) analyzer run against the variant-C
+    mutated app.js — reproduces the verifier's exact finding ===
+test_pool_view_transition_parity.js — spec 257 guard: transition sites vs. pool_view emit sites
+
+    (found 3 of each, at this tick)
+  ✓ grep-equivalent counts: setCurrentView('pool-detail') and Analytics.trackPoolView( occur equally often in app.js
+    owners: App, handleCalculateYield, handlePoolClick
+    transition sites -> owners: L1293:App, L2683:handlePoolClick, L2803:handleCalculateYield
+    emit sites -> owners: L1332:App, L2670:handlePoolClick, L2793:handleCalculateYield
+  ✓ set-equality both directions: every transition-site owner has a paired emit-site owner, and vice versa
+  ✓ handleCalculateYield fires exactly one trackPoolView( and exactly one trackPoolClick( — no double-fire
+    confirmed RED on mutated source: missing-emit owner(s) = [handleCalculateYield]
+  ✓ SELF-DEFEAT: with the spec-257 trackPoolView call surgically removed in memory, the analyzer REPORTS the gap
+
+test_pool_view_transition_parity.js: 4/4 tests passed
+exit=0
+```
+
+```
+=== NEW (fixed, this session) analyzer run against the SAME variant-C
+    mutated app.js — now correctly RED ===
+test_pool_view_transition_parity.js — spec 257 guard: transition sites vs. pool_view emit sites
+
+  ✗ regex counts (quote-style tolerant): setCurrentView(['"]pool-detail['"]) and trackPoolView( occur equally often in app.js
+    expected equal counts, got 4 transition site(s) and 3 emit site(s)
+
+4 !== 3
+
+  ✗ set-equality both directions: every transition-site owner has a paired emit-site owner, and vice versa
+    owner(s) that transition into pool-detail but have NO trackPoolView emit in their own body: injectedVariantCHandler
+  ✓ handleCalculateYield fires exactly one trackPoolView( and exactly one trackPoolClick( — no double-fire
+    confirmed RED on mutated source: missing-emit owner(s) = [handleCalculateYield, injectedVariantCHandler]
+  ✓ SELF-DEFEAT: with the spec-257 trackPoolView call surgically removed in memory, the analyzer REPORTS the gap
+    comment at L2788 confirmed scrubbed; emit count unaffected (3)
+  ✓ the "// … trackPoolView call …" comment near app.js:2788 does not inflate the emit-site count
+    variant A caught by both the legacy scan and the current regex scan (never the gap)
+  ✓ REGRESSION (variant A, single-quoted): a 4th, un-paired setCurrentView('pool-detail') is caught by the analyzer
+    variant C: legacy scan missed it (3 -> 3, unchanged); current regex scan caught it (owner reported: injectedVariantCHandler)
+  ✓ REGRESSION (variant C, double-quoted): a 4th, un-paired setCurrentView("pool-detail") is caught by the analyzer, and PROVEN non-vacuous against the pre-fix scan
+
+test_pool_view_transition_parity.js: 5/7 tests passed
+exit=1
+```
+
+Identical mutated fixture, two different scanners, opposite verdicts: this
+is the non-vacuity proof for the fix. The full `test_pool_view_transition_parity.js`
+run against the real, unmutated `app.js` is 7/7, exit=0 (see below).
+
+### FAILURE 2 (P2) — risk tier artifacts
+
+The verifier independently assigned **HIGH** (998-line diff, ~620
+hand-written, against NORTH_STAR's 150-line LOW cap, on the measurement
+surface; precedent items 186/154/157/167/215/231/233), against the
+builder's LOW guess. `product-loop-kit/specs/257-pr.md` is updated: the
+header now records verifier-assigned HIGH with the reason; a 5-question
+quiz (base64-encoded answers) is appended, matching `186-pr.md`'s format;
+and the "Neither set is hardcoded…" claim is corrected to state the
+post-fix reality honestly — quote-style variants are now caught, but the
+gate's per-named-function resolution still means a same-owner double
+transition (variant B's shape) is caught only by the count assertion. A
+"What the verifier found" section records the variant-C proof and the fix,
+so the audit trail shows the gap rather than hiding it.
+
+### Documentation corrections
+
+`257-notes.md`'s "Finding: `urlDirectPoolViewFiredRef`'s purpose" section
+title mis-attributed its framing instruction ("if and only if you
+verify...") to `specs/257.md`. The verifier confirmed the spec contains no
+such instruction — it came from the operator's build brief for the
+session. Retitled/reworded above; the finding itself (the ref's actual
+behavioral purpose, confirmed by tracing the code) is unchanged, only the
+attribution.
+
+### Full-suite verification after the fix
+
+All run with `timeout 300 node <file>`, against the real repository state
+(app.js untouched throughout):
+
+- `test_pool_view_transition_parity.js` — **7/7**, exit=0. Finds 3
+  transition sites / 3 emit sites on real `app.js`, unchanged from before.
+- `test_pool_view_calculator_path.js` — **5/5**, exit=0.
+- `test_test_registry.js` — **5/5**, exit=0.
+- `test_run_tests.js` — **26/26**, exit=0.
+- `test_compiled_assets.js` — **4/4**, exit=0.
+- `test_minified_assets.js` — **9/9**, exit=0.
+- `test_northstar_cta_fires.js` — **12/12**, exit=0.
+
+`git status --porcelain` shows only `product-loop-kit/specs/257-notes.md`
+as dirty at the time of this entry — `test_pool_view_transition_parity.js`
+and `product-loop-kit/specs/257-pr.md` were checkpointed partway through this
+fix session by the **operator** (commits `99aeb5b903`/`05d7d5ad70`/`f3ece42a8d`),
+not by harness auto-checkpointing and not by the fix agent, which correctly ran
+no `git commit`. Same mechanism and same reason as `b0ea8eb4cf` in Attempt 1: a
+session stop-hook requires a clean tree and the container is ephemeral, so
+in-flight work is checkpointed and pushed rather than risked. The branch
+squash-merges, so only the final state reaches `main`.
+
+(The fix agent's own report repeated Attempt 1's mis-attribution of these
+commits to harness auto-checkpointing; corrected here, as it was there, so the
+audit trail is accurate about who wrote what.)
