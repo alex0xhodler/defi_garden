@@ -1436,8 +1436,29 @@ const T_CALL_RE = /\bt\(\s*(['"`])([A-Za-z_$][\w$]*)\1\s*[,)]/g;
 // argument while staying bounded to THIS call: a lone, unmatched `)` (the
 // call's own closing paren) can never be consumed by either alternative, so
 // the greedy match backtracks only as far as the actual second-argument
-// literal and never reads past its own closing paren into a subsequent
-// `rootT(...)`/`t(...)` call. It does not handle a first argument containing
+// literal. Stated exactly (2026-08-10 verifier round 2, which measured this
+// rather than reasoning about it): the match never reads past the FIRST
+// UNMATCHED `)` — which in syntactically valid JS is always this call's own,
+// so it cannot bleed into a subsequent `rootT(...)`/`t(...)` call. Measured
+// non-bleed cases: `rootT(lang); foo(a, 'BLEED')` → nothing; `wrap(rootT(l,
+// 'k1'), 'BLEED')` → `k1` only; adjacent `rootT` calls resolve independently.
+// The invariant is about the first unmatched paren, NOT about "its own"
+// paren, and the difference is only visible on input that is not valid JS
+// (an unclosed `rootT(` can reach a later literal) — recorded so the claim
+// says what it can actually defend.
+//
+// One over-collection is possible and is population-widening only: a
+// hypothetical THREE-argument `rootT(l, 'k1', 'EXTRA')` backtracks to the
+// LAST literal, harvesting `EXTRA` and missing `k1`. `rootT` is declared
+// two-arg (`planner.js:901`) with exactly one call site
+// (`planner.js:4856`), so no such shape exists — noted, not fixed, because
+// widening a population never causes a missed defect, only a possible false
+// positive, and the FP control covers that direction.
+// Also unchanged from attempt 1 and inherent to a lexical scan: a `rootT(…)`
+// spelled inside a COMMENT is harvested. Same direction (widening), same
+// reason it is tolerable.
+//
+// It does not handle a first argument containing
 // TWO nested levels of parens, or a first argument whose text contains an
 // unbalanced paren inside a string literal — both out of scope, no such call
 // site exists in this repo today. Robust to both `rootT(lang, 'kF')` (plain
