@@ -460,3 +460,278 @@ squash-merges, so only the final state reaches `main`.
 (The fix agent's own report repeated Attempt 1's mis-attribution of these
 commits to harness auto-checkpointing; corrected here, as it was there, so the
 audit trail is accurate about who wrote what.)
+
+## Attempt 3 — verifier FAIL (round 2) and what changed
+
+The second verifier FAILed the Attempt-2 build. Its closing line is the load-bearing finding, more important
+than any single missed character: *"Two attempts have now each closed exactly the one variant the previous
+verifier demonstrated — that pattern, not the missing regex character, is the thing to watch."* Concretely,
+three findings:
+
+### FAILURE 1 (P1) — backtick transition invisible, twice over; four more uncaught shapes disclosed
+
+`setCurrentView(\`pool-detail\`)` (a new named function, no paired emit) scored **GREEN, 7/7, exit=0** against
+the Attempt-2 test. Root cause was TWO independent bugs:
+
+1. `TRANSITION_RE` (Attempt 2) was `/setCurrentView\s*\(\s*(['"])pool-detail\1\s*\)/g` — quote-tolerant for
+   `'`/`"` only, the ONE additional variant Round 1's verifier had demonstrated (double-quoted), and no wider.
+   No backtick branch.
+2. `scrub()` (the single scrubber Attempts 1-2 shared for both the depth-walk and the pattern-scan)
+   unconditionally blanked template-literal BODIES — replaced with spaces — to protect the brace-depth walk
+   from a stray `{`/`}` byte inside a template string. This erased a backtick transition's own text before
+   either regex ever ran, so widening the regex alone would NOT have been sufficient; the scrubbing bug had
+   to be found and fixed independently.
+
+The verifier additionally measured FOUR more uncaught shapes, only one of which (the per-named-function
+resolution limit) had been disclosed: backtick template literal (above); an aliased setter
+(`const setViewAlias = setCurrentView; setViewAlias('pool-detail')`); string concatenation
+(`setCurrentView('pool' + '-detail')`); a named constant (`setCurrentView(POOL_DETAIL_VIEW)`); and a legal
+trailing comma (`setCurrentView('pool-detail',)`). All GREEN, all previously undisclosed except the resolution
+limit.
+
+**Exhaustive delimiter enumeration (required by the operator's brief, stated here as the authoritative
+version — also carried into the test file's own header comment):** JavaScript has EXACTLY THREE
+string-literal delimiters — `'`, `"`, and `` ` `` (backtick). There is no fourth. `TRANSITION_RE` now covers
+all three, plus the syntactic slack around the call: arbitrary whitespace/newlines (`\s*` matches `\n`, so
+this was in fact already covered by the Attempt-2 regex — verified, not assumed, see the "whitespace/newline"
+row in the verification table below) and one legal trailing comma (`,?` — this WAS a genuine, new Attempt-3
+gap fix, not already covered). That is the full extent of what a textual/regex scan can address for a call
+written as literal source text with a literal string argument.
+
+**Disclosed, not caught (five shapes, none required by the spec, all named explicitly in the test file's
+header comment and in `257-pr.md`'s caveat list, replacing the single "one honest caveat" line the verifier
+flagged as an under-claim):**
+1. Aliased setter: `const setViewAlias = setCurrentView; setViewAlias('pool-detail');`
+2. String concatenation / computed argument: `setCurrentView('pool' + '-detail')`
+3. Named constant: `setCurrentView(POOL_DETAIL_VIEW)`
+4. Aliased or computed-property emit (the mirror class on the emit side, per the operator's instruction to
+   audit `EMIT_RE` the same way): `const tpv = Analytics.trackPoolView; tpv(...)`;
+   `Analytics['trackPoolView'](...)`; `Analytics.trackPoolView.call(this, ...)` / `.apply(...)` / `.bind(...)()`
+5. Nested template literal: a backtick string containing another backtick inside its own `${...}`
+   interpolation (e.g. `` `${`nested`}` ``) — `scrubForPatternScan()`'s char-walk finds the FIRST unescaped
+   backtick as the string's close, which a nested template would defeat. A dedicated one-off scan (below)
+   found zero instances in `app.js` today; this is a verified-absent-today fact, not a proof for all future
+   edits.
+
+None of these five requires an AST parser to name; closing them for real would (`acorn` is reachable only as
+an undeclared transitive dependency of `terser` — the same reasoning Attempt 1 gave for not depending on it
+holds here, restated rather than silently re-decided).
+
+**Verification of the "app.js has no problematic string/template content" assumption, re-run for the
+backtick case (Attempt 3):**
+
+```
+$ node -e '... walks every template literal in app.js, tests body against /setCurrentView|trackPoolView|pool-detail/ ...'
+template-literal false-positive-candidate hits: 0
+
+$ node -e '... walks every template literal in app.js, tests body for a nested (unescaped) backtick ...'
+template literal count: 110 possibly nested: 0
+```
+
+Zero of 110 template literals in `app.js` contain the transition/emit substrings, and zero are nested.
+
+### FAILURE 2 (P2) — Attempt 2 introduced a hardcoded population count
+
+`test_pool_view_transition_parity.js:507` (Attempt 2's version) read:
+
+```js
+assert.strictEqual(emitIndices.length, 3, `expected exactly 3 emit sites (the comment must not inflate the count), got ${emitIndices.length}`);
+```
+
+New in Attempt 2, hardcoding the exact population the spec's own Population criterion forbids hardcoding, and
+directly contradicting the file's own neighboring comment ("a 4th site added later must still pass"). The
+verifier appended a **correctly instrumented** fourth path (`handleOpenDetailFromNewSurface`, with BOTH a
+`setCurrentView('pool-detail')` AND a real `Analytics.trackPoolView(...)`) and measured the gate go **RED,
+6/7, exit=1** on this single assertion, while every other assertion (count parity, set-equality) correctly
+stayed green. A future engineer doing the right thing would have hit a red gate pointing at a comment-scrubbing
+red herring.
+
+**Fix:** the hardcoded assertion was replaced with a RELATIVE comparison — deleting only the comment's own
+line from `app.js` (in memory) must not change the emit count returned by `analyze()`, whatever that count
+currently is; no absolute number appears in the assertion. A **permanent positive-control fixture** was added:
+a correctly-paired new transition+emit in a new named function (`handleOpenDetailFromNewSurface`) must keep
+BOTH the count assertion and set-equality green — this is the executable form of "a gate that fires on
+correct code is worse than no gate," and it is the fixture that would have caught Attempt 2's mistake before
+the verifier had to.
+
+### FAILURE 3 (P2) — quiz Q4's answer was self-contradictory
+
+`257-pr.md`'s Q4 asked for the smallest edit adding an *uninstrumented* fourth entry path while still passing
+every assertion. Attempt 2's answer gave the same-owner (variant B) shape and then said "it would be caught
+only by the count assertion" — an edit caught by an assertion does not pass every assertion. The verifier
+measured variant B at 6/7, exit=1, confirming the contradiction directly.
+
+**Fix:** Q4 rewritten to ask for, and answer with, the alias/named-constant family (FAILURE 1's disclosed
+list) — a shape that genuinely produces ZERO regex matches on either side, so every assertion in the file
+passes vacuously true rather than being caught-but-flagged. The other four Q&As were re-read for the same
+defect (a reassuring answer rather than an accurate one); Q1/Q2/Q5 were found accurate and left in substance
+unchanged (wording only, to account for there now being two verifier rounds); Q3 was widened to also name the
+GENERAL pattern behind both misses (narrowest-hypothesis-per-instance, not the class), not just Attempt 1's
+specific mechanism, since the question as originally framed invited exactly the kind of instance-scoped answer
+this whole finding is about.
+
+### What changed (files)
+
+Only `test_pool_view_transition_parity.js`, `product-loop-kit/specs/257-pr.md`, and this file. `app.js`,
+`app.compiled.js`, `app.compiled.min.js`, and `package.json` were not touched (confirmed unchanged — same
+content as the Attempt-2 build; no md5sum diff needed since no edit was made).
+
+In `test_pool_view_transition_parity.js`:
+1. `TRANSITION_RE` → `/setCurrentView\s*\(\s*(['"\`])pool-detail\1\s*,?\s*\)/g` (backtick alternation +
+   optional trailing comma added).
+2. The single `scrub()` was split into `scrubForDepth()` (renamed, behavior unchanged — blanks comments AND
+   template bodies, used for the brace-depth walk) and `scrubForPatternScan()` (new — blanks comments only,
+   preserves ALL quoted-string content including backtick bodies, used for `TRANSITION_RE`/`EMIT_RE`).
+   `analyze()` now runs two scrub passes over the same source and cross-references indices between them
+   (both scrubbers are position-preserving — same length, characters only ever replaced, never
+   inserted/deleted — so an index found via one aligns 1:1 with the same index in the other).
+3. A frozen `PREV_ATTEMPT2_TRANSITION_RE` (the exact Attempt-2 regex, no backtick, no trailing comma) was
+   added alongside the existing `LEGACY_TRANSITION_TEXT` (Attempt-1's indexOf scan), so every new regression
+   fixture can prove non-vacuity against the SPECIFIC prior-round scanner it defeats — not just against "some
+   older version."
+4. Three new permanent regression fixtures: variant D (backtick), variant E (trailing comma), variant B
+   (same-owner, now an executable fixture rather than only prose — proven to desync the count assertion while
+   leaving set-equality green, matching the documented resolution limit exactly).
+5. One new permanent positive-control fixture (FAILURE 2 fix, described above).
+6. The hardcoded `emitIndices.length === 3` assertion replaced with the relative before/after-comment-deletion
+   comparison (FAILURE 2 fix, described above).
+7. The self-defeat marker regex (`removeYieldCalculatorTrackPoolView`'s `markerRe`) widened to accept a
+   backtick-delimited `source:` value too, for consistency with `TRANSITION_RE`'s widening (not because any
+   real call site uses one today — belt-and-suspenders).
+8. `passed`/`totalTests` counters made dynamic (`totalTests++` inside `test()`) so the final
+   `${passed}/${total}` log line can never itself drift into a second hardcoded-number bug alongside the one
+   just fixed.
+9. Header comment rewritten: the false "a quote-style variant can no longer hide from the gate" claim (FAILURE
+   1's second finding — the docs actively claiming coverage they didn't have) replaced with the exhaustive
+   delimiter enumeration, the disclosed five-shape list, and the emit-side widening audit's conclusion (no
+   further regex widening exists that is both textually meaningful and still catchable — alias/computed/bound
+   forms are disclosed, not covered).
+
+In `product-loop-kit/specs/257-pr.md`: "one honest caveat" replaced with the full disclosed list; a "Round 2"
+subsection added under "What the verifier found" (kept alongside "Round 1" rather than overwriting it, so the
+audit trail shows the gate failed twice); risk-tier paragraph's line counts updated to reflect the larger
+diff; Quiz Q3/Q4 reworded and re-answered, Q1/Q2/Q5 re-verified and left substantively unchanged; base64 quiz
+block re-encoded.
+
+### VERIFY BEFORE REPORTING — measured table, disk-isolated copies of `app.js`
+
+Every row below was run as `timeout 300 node test_pool_view_transition_parity.js` against a COPY of the real
+repository written to an isolated scratch directory (`/tmp/.../257v3/rows/<row>/`), each copy mutated exactly
+once and never written back to the real `app.js`. The real `app.js` in the working tree was never touched by
+any of this.
+
+| row | mutation | expected | measured | exit |
+|---|---|---|---|---|
+| 1 | backtick, new fn, no emit | RED | RED, 7/11 | 1 |
+| 2 | single-quoted (variant A), new fn, no emit | RED | RED, 7/11 | 1 |
+| 3 | double-quoted (variant C), new fn, no emit | RED | RED, 7/11 | 1 |
+| 4 | trailing comma, new fn, no emit | RED | RED, 7/11 | 1 |
+| 5 | whitespace/newline-split call, new fn, no emit | RED | RED, 7/11 | 1 |
+| 6 | same-owner (variant B), 2nd transition inside `handlePoolClick`, no new emit | RED (count assertion) | RED, 9/11 | 1 |
+| 7 | correctly-paired 4th path (new fn, transition + real emit) | GREEN | GREEN, 11/11 | 0 |
+| 8a | aliased setter (`setViewAlias`) | GREEN (disclosed, not caught) | GREEN, 11/11 | 0 |
+| 8b | string concatenation (`'pool' + '-detail'`) | GREEN (disclosed, not caught) | GREEN, 11/11 | 0 |
+| 8c | named constant (`POOL_DETAIL_VIEW`) | GREEN (disclosed, not caught) | GREEN, 11/11 | 0 |
+| 9 | unmutated `app.js` | GREEN, 3/3 | GREEN, 11/11, 3 transitions / 3 emits | 0 |
+
+**Row 1 (backtick) verbatim transcript — RED, non-vacuous:**
+
+```
+test_pool_view_transition_parity.js — spec 257 guard: transition sites vs. pool_view emit sites
+
+  ✗ regex counts (quote-style tolerant): setCurrentView(['"]pool-detail['"]) and trackPoolView( occur equally often in app.js
+    expected equal counts, got 4 transition site(s) and 3 emit site(s)
+
+4 !== 3
+
+  ✗ set-equality both directions: every transition-site owner has a paired emit-site owner, and vice versa
+    owner(s) that transition into pool-detail but have NO trackPoolView emit in their own body: injectedRowBacktickHandler
+  ✓ handleCalculateYield fires exactly one trackPoolView( and exactly one trackPoolClick( — no double-fire
+  ✓ SELF-DEFEAT: with the spec-257 trackPoolView call surgically removed in memory, the analyzer REPORTS the gap
+  ✓ the "// … trackPoolView call …" comment near app.js:2788 does not inflate the emit-site count (relative, not hardcoded — spec-257 FAILURE 2 fix)
+  ✓ REGRESSION (variant A, single-quoted): a 4th, un-paired setCurrentView('pool-detail') is caught by the analyzer
+  ✓ REGRESSION (variant C, double-quoted): a 4th, un-paired setCurrentView("pool-detail") is caught by the analyzer, and PROVEN non-vacuous against the pre-fix scan
+  ✓ REGRESSION (variant D, BACKTICK): a 4th, un-paired setCurrentView(`pool-detail`) is caught by the analyzer, and PROVEN non-vacuous against the attempt-2 scan
+  ✓ REGRESSION (variant E, TRAILING COMMA): a 4th, un-paired setCurrentView('pool-detail',) is caught by the analyzer, and PROVEN non-vacuous against the attempt-2 scan
+  ✗ REGRESSION (variant B, same-owner): a 2nd transition inside an already-instrumented function is caught ONLY by the count assertion, never set-equality alone — documents the gate's known resolution limit
+    [set-equality now includes 'injectedRowBacktickHandler' — expected, since this row's OWN mutation adds an unrelated 4th owner; this fixture's assumption of an otherwise-unmutated app.js does not hold inside row 1's isolated copy, which is why this one fixture (only) also goes red here — the three assertions above it already demonstrate row 1's actual point]
+  ✗ POSITIVE CONTROL: a correctly-paired 4th entry path (new transition + real trackPoolView emit, same owner) keeps the gate GREEN — spec-257 FAILURE 2 fix
+    a correctly-paired 4th path must keep transition count === emit count
+
+5 !== 4
+
+test_pool_view_transition_parity.js: 7/11 tests passed
+exit=1
+```
+
+(The variant-B and positive-control fixtures' own failures inside row 1's copy are an artifact of running the
+FULL file — including its OTHER fixtures — against a base that already has an extra, unrelated mutation; they
+are not evidence about the backtick shape itself, which the first three assertions demonstrate directly. This
+is expected and does not weaken the RED verdict for row 1's actual claim.)
+
+**Row 9 (unmutated) verbatim transcript — GREEN, all 11 assertions, 3/3 real transitions and emits:**
+
+```
+test_pool_view_transition_parity.js — spec 257 guard: transition sites vs. pool_view emit sites
+
+    (found 3 of each, at this tick)
+  ✓ regex counts (quote-style tolerant): setCurrentView(['"]pool-detail['"]) and trackPoolView( occur equally often in app.js
+    owners: App, handleCalculateYield, handlePoolClick
+    transition sites -> owners: L1293:App, L2683:handlePoolClick, L2803:handleCalculateYield
+    emit sites -> owners: L1332:App, L2670:handlePoolClick, L2793:handleCalculateYield
+  ✓ set-equality both directions: every transition-site owner has a paired emit-site owner, and vice versa
+  ✓ handleCalculateYield fires exactly one trackPoolView( and exactly one trackPoolClick( — no double-fire
+  ✓ SELF-DEFEAT: with the spec-257 trackPoolView call surgically removed in memory, the analyzer REPORTS the gap
+  ✓ the "// … trackPoolView call …" comment near app.js:2788 does not inflate the emit-site count (relative, not hardcoded — spec-257 FAILURE 2 fix)
+  ✓ REGRESSION (variant A, single-quoted): a 4th, un-paired setCurrentView('pool-detail') is caught by the analyzer
+  ✓ REGRESSION (variant C, double-quoted): a 4th, un-paired setCurrentView("pool-detail") is caught by the analyzer, and PROVEN non-vacuous against the pre-fix scan
+  ✓ REGRESSION (variant D, BACKTICK): a 4th, un-paired setCurrentView(`pool-detail`) is caught by the analyzer, and PROVEN non-vacuous against the attempt-2 scan
+  ✓ REGRESSION (variant E, TRAILING COMMA): a 4th, un-paired setCurrentView('pool-detail',) is caught by the analyzer, and PROVEN non-vacuous against the attempt-2 scan
+  ✓ REGRESSION (variant B, same-owner): a 2nd transition inside an already-instrumented function is caught ONLY by the count assertion, never set-equality alone — documents the gate's known resolution limit
+  ✓ POSITIVE CONTROL: a correctly-paired 4th entry path (new transition + real trackPoolView emit, same owner) keeps the gate GREEN — spec-257 FAILURE 2 fix
+
+test_pool_view_transition_parity.js: 11/11 tests passed
+exit=0
+```
+
+**Row 6 (same-owner / variant B) verbatim transcript — RED via count assertion, exactly as documented:**
+
+```
+  ✗ regex counts (quote-style tolerant): setCurrentView(['"]pool-detail['"]) and trackPoolView( occur equally often in app.js
+    expected equal counts, got 4 transition site(s) and 3 emit site(s)
+
+4 !== 3
+
+  ✓ set-equality both directions: every transition-site owner has a paired emit-site owner, and vice versa
+...
+test_pool_view_transition_parity.js: 9/11 tests passed
+exit=1
+```
+
+(In-repo, in-memory equivalent of this row is also a permanent fixture in the test file itself — "REGRESSION
+(variant B, same-owner)" — which passed 11/11 in the unmodified-app.js run above; the disk-isolated row 6 here
+is the SAME shape verified independently, from outside the file under test, per the operator's instruction not
+to trust only the file's own self-tests.)
+
+### Full-suite verification after the fix (real repository, `app.js` untouched throughout)
+
+All run with `timeout 300 node <file>`:
+
+- `test_pool_view_transition_parity.js` — **11/11**, exit=0. 3 transition sites / 3 emit sites on real
+  `app.js`, unchanged from Attempts 1 and 2.
+- `test_pool_view_calculator_path.js` — **5/5**, exit=0.
+- `test_test_registry.js` — **5/5**, exit=0.
+- `test_run_tests.js` — **26/26**, exit=0.
+- `test_compiled_assets.js` — **4/4**, exit=0.
+- `test_minified_assets.js` — **9/9**, exit=0.
+- `test_northstar_cta_fires.js` — **12/12**, exit=0.
+
+`git diff` against the Attempt-2 state shows changes confined to `test_pool_view_transition_parity.js`,
+`product-loop-kit/specs/257-pr.md`, and this file — `app.js`, `app.compiled.js`, `app.compiled.min.js`, and
+`package.json` are byte-identical to the Attempt-2 build (no edit was made to any of them; nothing to
+md5sum-diff).
+
+As in Attempts 1 and 2, in-flight work in this sandbox was checkpointed and pushed by the operator (not by
+this build/fix agent, which ran no `git commit`) partway through the session, for the same reason recorded
+above (`b0ea8eb4cf`, and the Attempt-2 equivalents): a session stop-hook requires a clean tree and the
+container is ephemeral.
