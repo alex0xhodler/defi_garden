@@ -4406,14 +4406,12 @@ html {
 .modal-close:hover {
   border-color: var(--ui-border-strong);
   color: var(--color-red-500);
-  transform: scale(1.05);
 }
 
 .modal-close:active {
   box-shadow: none;
   background: var(--ui-surface-muted);
   transform: translateY(1px);
-  transform: scale(0.95);
 }
 
 /* Modal Content */
@@ -4470,7 +4468,7 @@ html {
   border-radius: var(--ui-radius-sm);
   box-shadow: none;
   border: 1px solid var(--ui-border);
-  font-family: monospace;
+  font-family: var(--font-family-mono);
   font-weight: var(--font-weight-bold);
 }
 
@@ -5190,14 +5188,6 @@ html {
 /* Header animations */
 .header.animate-on-mount {
   animation: fadeInDown var(--entry-duration-normal) var(--entry-easing) var(--entry-delay-base) both;
-}
-
-.logo {
-  transition: transform 300ms var(--entry-easing);
-}
-
-.logo:hover {
-  transform: scale(1.02);
 }
 
 /* Search section animations */

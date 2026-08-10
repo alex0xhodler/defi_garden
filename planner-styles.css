@@ -1782,7 +1782,7 @@
   margin-top: var(--space-4);
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
-  font-family: var(--font-family-mono, ui-monospace, monospace);
+  font-family: var(--font-family-mono);
   line-height: var(--line-height-normal);
 }
 
@@ -2726,7 +2726,7 @@
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
   word-break: break-all;
-  font-family: monospace;
+  font-family: var(--font-family-mono);
 }
 .gp-waitlist-copy-btn {
   flex-shrink: 0;
