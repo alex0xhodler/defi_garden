@@ -538,12 +538,42 @@ async function main() {
       // mutation, not by test flakiness or a wrong selector.
       await assertControlsReachable(redPage, '768x780 red-proof PRE-mutation (must be green)');
 
+      // Spec 236 (2026-08): the standalone `.theme-toggle`/`.language-toggle`
+      // pair this proof used to merely UN-HIDE (fix (2) was a `display: none`
+      // CSS guard, `.app.has-results > .theme-toggle`) no longer exists in
+      // the DOM at all -- 236 deleted the elements at the SOURCE (app.js no
+      // longer renders them anywhere; the no-results/search state now
+      // renders the same in-flow header band every other view does), so the
+      // defect class fix (2) guarded is now structurally unreachable, not
+      // just CSS-suppressed. `display: flex !important` on a selector that
+      // matches zero elements is a silent no-op -- this positive control
+      // went green-forever the moment 236 shipped, until this fix. Inject
+      // two elements matching the EXACT pre-236 markup shape (same classes,
+      // same aria-label/data-theme/inner-icon shape, as direct children of
+      // `.app`) so the mutation below still has something to reveal and
+      // criteria (1)+(2) can still go red the way they always did.
+      await redPage.evaluate(() => {
+        const app = document.querySelector('.app');
+        const themeBtn = document.createElement('button');
+        themeBtn.className = 'theme-toggle';
+        themeBtn.setAttribute('data-theme', 'light');
+        themeBtn.setAttribute('aria-label', 'Switch to dark mode');
+        themeBtn.innerHTML = '<div class="theme-toggle-icon">☾</div>';
+        const langBtn = document.createElement('button');
+        langBtn.className = 'language-toggle';
+        langBtn.setAttribute('aria-label', 'Switch to Korean');
+        langBtn.textContent = 'EN';
+        app.appendChild(themeBtn);
+        app.appendChild(langBtn);
+      });
+
       // Restore the pre-fix computed state, !important so it wins
       // regardless of specificity/source order:
       //   - re-let the header's own buttons pick up the floating-pair
       //     rules (position: fixed, IDENTICAL top/right to the standalone
       //     pair's own always-on desktop-tier rule) -- undoes fix (1);
-      //   - re-show the standalone pair on a results page -- undoes fix (2);
+      //   - re-show the standalone pair (now injected above) on a results
+      //     page -- undoes fix (2);
       //   - re-widen the search container/input's minimum size so the
       //     header row can no longer shrink -- undoes fix (3).
       await redPage.addStyleTag({ content: `

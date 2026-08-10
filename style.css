@@ -893,6 +893,14 @@ select.form-control {
   --ui-control-h:        40px;   /* the default for every control */
   --ui-control-h-lg:     48px;   /* hero CTAs / hero inputs only */
   --ui-header-h:         56px;   /* per header ROW; <768px uses the override below */
+  /* Spec 236 phase 1: the ONE page-shell width, consumed by every analytics
+     surface's outer container (`.app-header-content`, `.app-nav-row`,
+     `.app.has-results .container`, `.app:not(.has-results) .container`, and
+     the pool-detail view's `.container`) so they can never drift apart
+     again. NOT `.pool-detail-container`'s 880px — that is the certificate's
+     reading MEASURE, a typographic choice nested inside this shell, not a
+     second shell width (see 236-notes.md). */
+  --content-max-width:   1200px;
 
   /* DEPRECATED — 225: kept only so generated static pages (tokens/, chains/) inherit the flat system; never use in new rules. */
   --neuro-bg:            var(--ui-bg);
@@ -1462,15 +1470,32 @@ body {
   align-items: center;
 }
 
+/* Spec 236 phase 1: the no-results/search state (and the dead-pool state,
+   which renders from this same branch) now render the SAME fixed
+   `.app-header-sticky` band the results/pool-detail states do, one row
+   only (no nav-row here — see renderHeaderRow(false) in app.js). Without
+   this, the fixed band would sit on top of the flex-centered hero content
+   underneath it. `.app.pool-detail-view` gets its own identical clearance
+   already (pool-detail-styles.css) — excluded here so the two rules never
+   fight; same one-row height either way, `--ui-header-h` is the shared
+   source. */
+.app:not(.has-results):not(.pool-detail-view) {
+  padding-top: calc(var(--ui-header-h) + 1px);
+}
+
 /* Results state - top aligned like Google results */
 .app.has-results {
   display: block;
   padding-top: var(--space-32);
 }
 
-/* Container for homepage state */
+/* Container for homepage state. Spec 236 phase 1: this shell now resolves
+   the SAME --content-max-width token as the results/pool-detail shells
+   (was a lone 600px) — the hero's own inner blocks (.search-section /
+   .planner-entry) keep the 600px reading measure via their own max-width
+   below, so nothing visually stretches full-bleed at 1280px. */
 .app:not(.has-results) .container {
-  max-width: 600px;
+  max-width: var(--content-max-width);
   width: 100%;
   margin: 0 auto;
   padding: var(--space-16);
@@ -1482,7 +1507,7 @@ body {
 
 /* Container for results state */
 .app.has-results .container {
-  max-width: 1200px;
+  max-width: var(--content-max-width);
   width: 100%;
   margin: 0 auto;
   padding: var(--space-16) var(--space-16);
@@ -1518,7 +1543,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: var(--content-max-width);
   margin: 0 auto;
   padding: var(--space-8) var(--space-16) var(--space-12);
   gap: var(--space-16);
@@ -1530,7 +1555,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: var(--content-max-width);
   margin: 0 auto;
   padding: var(--space-12) var(--space-16);
   gap: var(--space-24);
@@ -2278,6 +2303,15 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  /* Spec 236 phase 1: `.app:not(.has-results) .container` widened from a
+     dedicated 600px to the shared --content-max-width (1200px) token, so
+     this hero block gets its own explicit reading-measure cap instead of
+     inheriting the wider shell — the anchor for the hero's own inner
+     blocks (`.search-container` already caps narrower at 580px, `.planner-
+     entry` at 460px; this is the outer belt-and-suspenders so nothing in
+     this block can silently stretch full-bleed at 1280px). */
+  max-width: 600px;
+  margin-inline: auto;
   margin-bottom: var(--space-16);
 }
 
@@ -2653,7 +2687,11 @@ body {
   border: 1px solid var(--ui-border);
   border-radius: var(--ui-radius-lg);
   overflow: hidden;
-  max-width: 1200px;
+  /* Nested inside `.container` (already capped at --content-max-width), so
+     this was always a no-op duplicate of the same number, never an
+     independent shell — tokenized anyway so it can't silently drift from
+     the real shell width it happens to echo. */
+  max-width: var(--content-max-width);
   margin: 0 auto;
 }
 
@@ -2812,7 +2850,8 @@ body {
 .pools-list {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  /* Same no-op-duplicate reasoning as .results-panel above. */
+  max-width: var(--content-max-width);
   margin: 0 auto;
 }
 
@@ -3046,7 +3085,8 @@ body {
   .pools-grid {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: var(--space-12);
-    max-width: 1200px;
+    /* Same no-op-duplicate reasoning as .results-panel above. */
+    max-width: var(--content-max-width);
     margin: 0 auto;
   }
 }
@@ -3624,14 +3664,21 @@ html[data-app-mode="landing"] .seo-hub-links {
     padding-top: 140px;
   }
 
+  /* Spec 236 phase 1: the `max-width: 100%` these two rules used to carry
+     here was a second, un-tokened width source for the exact two shells
+     236 tokenized above (`.app:not(.has-results) .container` /
+     `.app.has-results .container`) — below --content-max-width's 1200px
+     `100%` and the token resolve to the SAME visible width (the viewport
+     is already narrower than 1200px in this breakpoint), so removing the
+     override is visually inert; it now simply falls through to the base
+     rule's `max-width: var(--content-max-width)` above, so the token is
+     the only place either shell's width is decided at every breakpoint. */
   .app:not(.has-results) .container {
     padding: var(--space-16) var(--space-16);
-    max-width: 100%;
   }
 
   .app.has-results .container {
     padding: var(--space-16) var(--space-16);
-    max-width: 100%;
   }
 
   /* Mobile Search Container - Fix Width Overflow */
@@ -4786,8 +4833,19 @@ html {
     margin: var(--space-16) var(--space-16) var(--space-8) 0;
   }
 
-  /* Fix toggle position on mobile initial homepage state only */
-  .app:not(.has-results) .language-toggle {
+  /* Fix toggle position on mobile initial homepage state only. Spec 236
+     phase 1: `>` (direct child), not a descendant selector — this rule
+     predates 236 and was written for the standalone floating pair that
+     used to render as a DIRECT CHILD of `.app` on this exact state (see
+     the Backlog 222 comment above `.app-header-controls .theme-toggle`).
+     That standalone pair no longer renders anywhere (236 deleted it); the
+     no-results state now renders the SAME in-flow header the other views
+     do, and its `.app-header-controls .language-toggle` is a GRANDCHILD,
+     not a direct child. Before this fix a plain descendant selector here
+     (0,3,0) beat the `.app-header-controls .language-toggle` in-flow reset
+     (0,2,0) and yanked the header's own control back to `position: fixed`
+     at this width, collapsing `.app-header-controls` to a 0×0 box. */
+  .app:not(.has-results) > .language-toggle {
     position: fixed;
     top: var(--space-20);
     /* 225 round 3b: same 8px-left-of-toggle offset as desktop */
@@ -4803,8 +4861,10 @@ html {
     font-size: var(--font-size-xs);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only */
-  .app:not(.has-results) .language-toggle {
+  /* Fix toggle position on extra small mobile initial homepage state only.
+     Spec 236 phase 1: `>` not a descendant selector — same reasoning as
+     the 640px tier above. */
+  .app:not(.has-results) > .language-toggle {
     position: fixed;
     top: var(--space-16);
     /* 225 round 3b: toggle sits at right: 16px at this width */
@@ -5081,8 +5141,11 @@ html {
     z-index: auto;
   }
 
-  /* Fix toggle position on mobile initial homepage state only */
-  .app:not(.has-results) .theme-toggle {
+  /* Fix toggle position on mobile initial homepage state only. Spec 236
+     phase 1: `>` not a descendant selector — same reasoning as the
+     `.language-toggle` tiers above (see that comment for the full
+     Backlog-222-interaction explanation). */
+  .app:not(.has-results) > .theme-toggle {
     position: fixed;
     top: var(--space-20);
     right: var(--space-20);
@@ -5107,8 +5170,10 @@ html {
     gap: var(--space-4);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only */
-  .app:not(.has-results) .theme-toggle {
+  /* Fix toggle position on extra small mobile initial homepage state only.
+     Spec 236 phase 1: `>` not a descendant selector — same reasoning as
+     the 640px tier above. */
+  .app:not(.has-results) > .theme-toggle {
     position: fixed;
     top: var(--space-16);
     right: var(--space-16);
@@ -5187,18 +5252,15 @@ html {
   opacity: 0;
 }
 
-/* Header animations */
-.header.animate-on-mount {
-  animation: fadeInDown var(--entry-duration-normal) var(--entry-easing) var(--entry-delay-base) both;
-}
-
-.logo {
-  transition: transform 300ms var(--entry-easing);
-}
-
-.logo:hover {
-  transform: scale(1.02);
-}
+/* Spec 236 phase 1: `.header.animate-on-mount` (the entry animation for the
+   now-deleted giant centered `h1.logo`/subtitle hero) and this `.logo`
+   hover rule — a banned scale-pop (item 238) that spec 236 said to delete
+   here specifically because its element is gone as a direct consequence of
+   this change — are removed together; nothing renders `.header.animate-
+   on-mount` or `h1.logo` anymore (app.js). The base `.logo`/`.header`/
+   `.subtitle` selectors elsewhere in this file (color/layout, not
+   animation) are ALSO now unreachable but are left as-is: out of this
+   surgical diff's scope, see 236-notes.md. */
 
 /* Search section animations */
 .search-section.animate-on-mount {
