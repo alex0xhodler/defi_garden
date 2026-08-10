@@ -2743,6 +2743,22 @@ function App() {
     // Analytics tracking for yield calculation
     Analytics.trackPoolClick(pool, 'yield_calculator');
 
+    // spec 257: this is a third pool-detail entry path (grid card's
+    // "calculate yield" button) that rendered the full pool-detail view
+    // without ever emitting pool_view — the north star's denominator was
+    // lossy by exactly this path. Mirrors handlePoolClick's pool_view emit
+    // as closely as honest; no spec-182 settle gate is needed here (this
+    // fires from a real click, same as handlePoolClick, not from an async
+    // ?pool= landing racing the baked protocol-URL artifact).
+    urlDirectPoolViewFiredRef.current = pool.pool;
+    Analytics.trackPoolView(pool, {
+      source: 'yield_calculator',
+      search_query: selectedToken || selectedChain || 'browse',
+      selected_chain: selectedChain,
+      selected_token: selectedToken,
+      protocolCtaPresent: !!getProtocolUrlWithRef(pool)
+    });
+
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
     setCurrentView('pool-detail');
