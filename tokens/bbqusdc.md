@@ -4,11 +4,11 @@ The highest honest BBQUSDC yield right now is 6.27% on morpho-blue (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token) | Ethereum | 4.87% | $47.48M |
-| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 6.27% | $27.05M |
+| [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token) | Ethereum | 4.87% | $47.47M |
+| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 6.27% | $26.97M |
 | [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token) | Ethereum | 4.40% | $15.82M |
-| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 5.48% | $2.81M |
-| [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token) | Arbitrum | 4.60% | $1.64M |
+| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 5.45% | $2.83M |
+| [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token) | Arbitrum | 5.32% | $1.64M |
 | [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token) | Katana | 6.27% | $1.46M |
 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 3.29% | $1.01M |
 | [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token) | Monad | 6.17% | $201.4K |
@@ -29,12 +29,12 @@ BBQUSDC shows up in 8 pools here, with rates from 3.29% to 6.27% APY across 5 ch
 |---|---|---|---|
 | morpho-blue | 4.87% | 5.07% | Base rate |
 | morpho-blue | 6.27% | 5.30% | Base rate |
-| morpho-blue | 4.40% | 4.72% | Base rate |
-| morpho-blue | 5.48% | 4.24% | Base rate |
-| morpho-blue | 4.60% | 3.83% | Base rate |
-| morpho-blue | 6.27% | 3.79% | 84.81% incentives |
+| morpho-blue | 4.40% | 4.71% | Base rate |
+| morpho-blue | 5.45% | 4.24% | Base rate |
+| morpho-blue | 5.32% | 3.83% | Base rate |
+| morpho-blue | 6.27% | 3.80% | 84.81% incentives |
 | morpho-blue | 3.29% | 3.71% | Base rate |
-| morpho-blue | 6.17% | 5.76% | 43.05% incentives |
+| morpho-blue | 6.17% | 5.77% | 43.05% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BBQUSDC pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $97.46M in total.
+8 live pools clear this page's $100K TVL floor, $97.39M in total.
 
 ### Are these rates safe?
 

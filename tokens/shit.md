@@ -1,17 +1,17 @@
 # SHIT DeFi Yields
 
-The highest honest SHIT yield right now is 7.16% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHIT yield right now is 6.85% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f&src=seo_token) | Ethereum | 1.16% | $259.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895&src=seo_token) | Solana | 7.16% | $225.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0c86b6ed-2cc2-4211-b363-f1889135527f&src=seo_token) | Ethereum | 1.17% | $259.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=7c0812aa-a058-4ec4-a00f-a8dfe5eaf895&src=seo_token) | Solana | 6.85% | $225.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SHIT shows up in 2 pools here, with rates from 1.16% to 7.16% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHIT shows up in 2 pools here, with rates from 1.17% to 6.85% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.07% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 1.16% | 11.43% | Base rate |
-| raydium-amm | 7.16% | 2.71% | Base rate |
+| uniswap-v4 | 1.17% | 11.41% | Base rate |
+| raydium-amm | 6.85% | 2.73% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SHIT yield today?
 
-7.16% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.85% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SHIT pools clear the TVL floor?
 

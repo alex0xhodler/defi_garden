@@ -1,19 +1,19 @@
 # HEMIBTC 디파이 수익률
 
-현재 HEMIBTC의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 9.33%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HEMIBTC의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 9.21%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 4.46% | $2.62M |
-| [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 6.34% | $2.3M |
-| [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 9.33% | $795.1K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 0.25% | $121.9K |
+| [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 4.58% | $2.68M |
+| [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 6.54% | $2.29M |
+| [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 9.21% | $860.8K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 0.25% | $122.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-HEMIBTC 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.25%부터 9.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+HEMIBTC 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.25%부터 9.21%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.90%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -23,9 +23,9 @@ HEMIBTC 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.25%부터 9.33%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 4.46% | 3.32% | 인센티브 93.05% |
-| stake-dao | 6.34% | 4.48% | 인센티브 97.79% |
-| convex-finance | 9.33% | 6.51% | 인센티브 96.68% |
+| curve-dex | 4.58% | 3.32% | 인센티브 93.23% |
+| stake-dao | 6.54% | 4.48% | 인센티브 97.86% |
+| convex-finance | 9.21% | 6.51% | 인센티브 96.63% |
 | sushiswap-v3 | 0.25% | 0.53% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -34,11 +34,11 @@ HEMIBTC 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.25%부터 9.33%
 
 ### 오늘 HEMIBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 9.33%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 9.21%예요.
 
 ### HEMIBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $6.85M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $6.97M예요.
 
 ### 이 수익률은 안전한가요?
 

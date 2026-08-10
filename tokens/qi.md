@@ -1,18 +1,18 @@
 # QI DeFi Yields
 
-The highest honest QI yield right now is 9.51% on pangolin-v2 (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QI yield right now is 10.97% on pangolin-v2 (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 9.51% | $105.8K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=9eab2ace-e687-48cf-a893-eecb915b3304&src=seo_token) | Avalanche | 10.97% | $106.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-QI shows up in 1 pools here, with rates from 9.51% to 9.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+QI shows up in 1 pools here, with rates from 10.97% to 10.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 17.37% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 17.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -20,7 +20,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pangolin-v2 | 9.51% | 17.37% | Base rate |
+| pangolin-v2 | 10.97% | 17.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,11 +28,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest QI yield today?
 
-9.51% APY on pangolin-v2 (Avalanche), based on live DefiLlama data.
+10.97% APY on pangolin-v2 (Avalanche), based on live DefiLlama data.
 
 ### How many QI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $613.4K in total.
+2 live pools clear this page's $100K TVL floor, $613.9K in total.
 
 ### Are these rates safe?
 

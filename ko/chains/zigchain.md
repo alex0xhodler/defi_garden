@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.68% | $8.19M |
+| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.68% | $8.18M |
 | USDC | [nawa-protocol →](https://www.defi.garden/?pool=103d36c4-5d6a-5630-ad40-234a773f79b2&src=seo_chain) | 8.29% | $3.72M |
 | ZIG | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_chain) | 0.08% | $1.32M |
 | USDC | [permapod →](https://www.defi.garden/?pool=e425717d-74c8-4ffa-859d-595e5e2bd1ec&src=seo_chain) | 54.87% | $168.2K |
@@ -19,7 +19,7 @@ DefiLlama 실시간 데이터 기준, ZIGChain의 permapod에서 APY 54.87%예�
 
 ### ZIGChain 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $14.22M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $14.2M예요.
 
 ### 이 수익률은 안전한가요?
 

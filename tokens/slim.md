@@ -4,7 +4,7 @@ The highest honest SLIM yield right now is 1.74% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3cb668d8-14cf-4c57-bf05-2ec3abd23569&src=seo_token) | Solana | 1.74% | $263.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=3cb668d8-14cf-4c57-bf05-2ec3abd23569&src=seo_token) | Solana | 1.74% | $263.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SLIM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $263.2K in total.
+1 live pool clear this page's $100K TVL floor, $263.1K in total.
 
 ### Are these rates safe?
 

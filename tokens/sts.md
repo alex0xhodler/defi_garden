@@ -1,18 +1,18 @@
 # STS DeFi Yields
 
-The highest honest STS yield right now is 53.00% on beets-dex (Sonic), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STS yield right now is 53.03% on beets-dex (Sonic), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 53.00% | $197.8K |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 6.86% | $191.7K |
+| [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 53.03% | $195.8K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 6.88% | $190.6K |
 | [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token) | Sonic | 0.70% | $108.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STS shows up in 3 pools here, with rates from 0.70% to 53.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STS shows up in 3 pools here, with rates from 0.70% to 53.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 7.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,8 +22,8 @@ STS shows up in 3 pools here, with rates from 0.70% to 53.00% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| beets-dex | 53.00% | 58.74% | 97.43% incentives |
-| beets-dex-v3 | 6.86% | 7.43% | 73.36% incentives |
+| beets-dex | 53.03% | 58.69% | 97.43% incentives |
+| beets-dex-v3 | 6.88% | 7.43% | 73.46% incentives |
 | silo-v2 | 0.70% | 0.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STS yield today?
 
-53.00% APY on beets-dex (Sonic), based on live DefiLlama data.
+53.03% APY on beets-dex (Sonic), based on live DefiLlama data.
 
 ### How many STS pools clear the TVL floor?
 

@@ -1,10 +1,10 @@
 # LEGACY DeFi Yields
 
-The highest honest LEGACY yield right now is 0.81% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LEGACY yield right now is 1.03% on ekubo (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=adddea21-5be6-499f-b448-53ef0d9b8311&src=seo_token) | Starknet | 0.81% | $123K |
+| [ekubo →](https://www.defi.garden/?pool=adddea21-5be6-499f-b448-53ef0d9b8311&src=seo_token) | Starknet | 1.03% | $123K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LEGACY yield today?
 
-0.81% APY on ekubo (Starknet), based on live DefiLlama data.
+1.03% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many LEGACY pools clear the TVL floor?
 
@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [TBTC](https://www.defi.garden/tokens/tbtc)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
+- [SUSN](https://www.defi.garden/tokens/susn)
 - [STRK](https://www.defi.garden/tokens/strk)
 - [XWBTC](https://www.defi.garden/tokens/xwbtc)
-- [ZEC](https://www.defi.garden/tokens/zec)
 
 ## Available on
 

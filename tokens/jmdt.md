@@ -1,10 +1,10 @@
 # JMDT DeFi Yields
 
-The highest honest JMDT yield right now is 202.59% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JMDT yield right now is 202.03% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2969cfe9-cb2c-5e60-a923-2a8240a58483&src=seo_token) | Base | 202.59% | $213K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2969cfe9-cb2c-5e60-a923-2a8240a58483&src=seo_token) | Base | 202.03% | $211K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JMDT yield today?
 
-202.59% APY on uniswap-v2 (Base), based on live DefiLlama data.
+202.03% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many JMDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $213K in total.
+1 live pool clear this page's $100K TVL floor, $211K in total.
 
 ### Are these rates safe?
 

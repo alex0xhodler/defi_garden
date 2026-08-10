@@ -4,7 +4,7 @@ The highest honest HESTIA yield right now is 0.37% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a164e033-163c-4d15-a0dd-248e1ae552b4&src=seo_token) | Base | 0.37% | $158.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a164e033-163c-4d15-a0dd-248e1ae552b4&src=seo_token) | Base | 0.37% | $158.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HESTIA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $158.6K in total.
+1 live pool clear this page's $100K TVL floor, $158.5K in total.
 
 ### Are these rates safe?
 

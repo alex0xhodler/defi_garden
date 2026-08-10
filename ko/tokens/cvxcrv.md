@@ -1,21 +1,21 @@
 # CVXCRV 디파이 수익률
 
-현재 CVXCRV의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 17.74%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CVXCRV의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 18.89%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=ef32dd3b-a03b-4f79-9b65-8420d7e04ad0&src=seo_token) | Ethereum | 12.66% | $43.14M |
-| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 8.50% | $6.51M |
-| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 13.76% | $5.43M |
-| [stake-dao →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba&src=seo_token) | Ethereum | 17.74% | $979.1K |
-| [curve-dex →](https://www.defi.garden/?pool=d33bbfb6-811c-4e80-9928-b96ebd7e136c&src=seo_token) | Ethereum | 0.06% | $157.5K |
-| [convex-finance →](https://www.defi.garden/?pool=f1b831a9-7763-4bad-a64e-cafc86fdb7ec&src=seo_token) | Ethereum | 0.05% | $140.7K |
+| [convex-finance →](https://www.defi.garden/?pool=ef32dd3b-a03b-4f79-9b65-8420d7e04ad0&src=seo_token) | Ethereum | 12.62% | $45.89M |
+| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 9.07% | $6.55M |
+| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 14.60% | $5.46M |
+| [stake-dao →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba&src=seo_token) | Ethereum | 18.89% | $984.5K |
+| [curve-dex →](https://www.defi.garden/?pool=d33bbfb6-811c-4e80-9928-b96ebd7e136c&src=seo_token) | Ethereum | 0.07% | $158.3K |
+| [convex-finance →](https://www.defi.garden/?pool=f1b831a9-7763-4bad-a64e-cafc86fdb7ec&src=seo_token) | Ethereum | 0.06% | $141.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CVXCRV 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.05%부터 17.74%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CVXCRV 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.06%부터 18.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 10.82%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -25,12 +25,12 @@ CVXCRV 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.05%부터 17.74%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| convex-finance | 12.66% | 16.51% | 인센티브 100.00% |
-| curve-dex | 8.50% | 8.34% | 인센티브 99.29% |
-| convex-finance | 13.76% | 13.30% | 인센티브 99.56% |
-| stake-dao | 17.74% | 17.15% | 인센티브 99.32% |
-| curve-dex | 0.06% | 0.23% | 인센티브 18.13% |
-| convex-finance | 0.05% | 0.24% | 기본 금리 |
+| convex-finance | 12.62% | 16.50% | 인센티브 100.00% |
+| curve-dex | 9.07% | 8.34% | 인센티브 99.34% |
+| convex-finance | 14.60% | 13.31% | 인센티브 99.59% |
+| stake-dao | 18.89% | 17.15% | 인센티브 99.36% |
+| curve-dex | 0.07% | 0.23% | 인센티브 16.46% |
+| convex-finance | 0.06% | 0.24% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -38,11 +38,11 @@ CVXCRV 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.05%부터 17.74%
 
 ### 오늘 CVXCRV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 17.74%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 18.89%예요.
 
 ### CVXCRV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $58.66M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $61.52M예요.
 
 ### 이 수익률은 안전한가요?
 

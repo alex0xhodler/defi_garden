@@ -1,20 +1,20 @@
 # SFRXETH DeFi Yields
 
-The highest honest SFRXETH yield right now is 4.69% on stake-dao (Fraxtal), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFRXETH yield right now is 4.89% on stake-dao (Fraxtal), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.57% | $69.34M |
-| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.36% | $1.98M |
-| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.69% | $286.9K |
-| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.39% | $233.6K |
-| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.39% | $215.3K |
+| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.57% | $69.42M |
+| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.47% | $1.97M |
+| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.89% | $286.2K |
+| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.39% | $233.2K |
+| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.39% | $214.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SFRXETH shows up in 5 pools here, with rates from 2.39% to 4.69% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SFRXETH shows up in 5 pools here, with rates from 2.39% to 4.89% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 2.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,8 +23,8 @@ SFRXETH shows up in 5 pools here, with rates from 2.39% to 4.69% APY across 2 ch
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | frax-ether | 2.57% | 2.72% | Base rate |
-| curve-dex | 3.36% | 3.33% | 54.23% incentives |
-| stake-dao | 4.69% | 4.57% | 66.08% incentives |
+| curve-dex | 3.47% | 3.33% | 55.56% incentives |
+| stake-dao | 4.89% | 4.57% | 67.48% incentives |
 | curve-dex | 2.39% | 2.52% | Base rate |
 | convex-finance | 2.39% | 2.52% | Base rate |
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SFRXETH yield today?
 
-4.69% APY on stake-dao (Fraxtal), based on live DefiLlama data.
+4.89% APY on stake-dao (Fraxtal), based on live DefiLlama data.
 
 ### How many SFRXETH pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $77.58M in total.
+8 live pools clear this page's $100K TVL floor, $77.64M in total.
 
 ### Are these rates safe?
 

@@ -6,7 +6,7 @@ The highest honest BUIDL yield right now is 3.56% on blackrock-buidl (Ethereum),
 |---|---|---|---|
 | [blackrock-buidl →](https://www.defi.garden/?pool=b663ca59-c7e6-4435-ae4a-28d339ce6a15&src=seo_token) | Ethereum | 3.56% | $964.68M |
 | [blackrock-buidl →](https://www.defi.garden/?pool=bd0f5a2a-5d74-40bd-a7db-bf1538b314a2&src=seo_token) | Aptos | 3.22% | $821.91M |
-| [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token) | Solana | 3.53% | $712.42M |
+| [blackrock-buidl →](https://www.defi.garden/?pool=590d770e-ed5d-4c8d-ad96-5178c2072295&src=seo_token) | Solana | 3.53% | $712.85M |
 | [blackrock-buidl →](https://www.defi.garden/?pool=0906793c-ec02-4c77-9e0e-eee007269d2f&src=seo_token) | Avalanche | 3.53% | $631.51M |
 | [blackrock-buidl →](https://www.defi.garden/?pool=b2b1d98f-cac1-4e7b-8cd8-d67b576fd259&src=seo_token) | Ethereum | 3.22% | $224.97M |
 | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_token) | BSC | 3.22% | $110.87M |
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BUIDL pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $3.51B in total.
+9 live pools clear this page's $100K TVL floor, $3.52B in total.
 
 ### Are these rates safe?
 

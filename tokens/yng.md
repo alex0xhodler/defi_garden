@@ -4,14 +4,14 @@ The highest honest YNG yield right now is 0.60% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e&src=seo_token) | Ethereum | 0.14% | $1.81M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d&src=seo_token) | Ethereum | 0.60% | $447.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b5dd19a-5d50-476e-b849-91e3eea95d5e&src=seo_token) | Ethereum | 0.12% | $1.81M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1d4a3ec7-b725-4281-9013-638bb81ced9d&src=seo_token) | Ethereum | 0.60% | $447.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YNG shows up in 2 pools here, with rates from 0.14% to 0.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YNG shows up in 2 pools here, with rates from 0.12% to 0.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,7 +21,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.14% | 0.24% | Base rate |
+| uniswap-v3 | 0.12% | 0.24% | Base rate |
 | uniswap-v3 | 0.60% | 0.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

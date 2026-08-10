@@ -6,10 +6,10 @@
 |---|---|---|---|
 | USDC | [aave-v3 →](https://www.defi.garden/?pool=9bf5faf4-32e3-437e-8080-c38eae10cfa6&src=seo_chain) | 1.92% | $1.18M |
 | EVAUSDT-EVAUSDC | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_chain) | 8.52% | $1.15M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=8a0ed79f-2471-4092-b756-1e2e6daaf28d&src=seo_chain) | 0.09% | $1.08M |
-| WS | [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_chain) | 1.05% | $915.5K |
-| USDC.E-USDT | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_chain) | 1.67% | $537.3K |
-| BPT-ANS-SILOWS | [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_chain) | 8.40% | $494.4K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=8a0ed79f-2471-4092-b756-1e2e6daaf28d&src=seo_chain) | 0.09% | $1.09M |
+| WS | [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_chain) | 1.05% | $915K |
+| USDC.E-USDT | [shadow-exchange-clmm →](https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_chain) | 1.65% | $536.9K |
+| BPT-ANS-SILOWS | [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_chain) | 8.48% | $489.6K |
 | SFTUSD | [flying-tulip-ftusd →](https://www.defi.garden/?pool=1b7b94f8-5889-42e1-b0ef-9e4736505d8d&src=seo_chain) | 7.67% | $264.2K |
 | WS | [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_chain) | 0.03% | $256.6K |
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Sonic의 shadow-exchange-legacy에서 APY 
 
 ### Sonic 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 32개이며, 합산 TVL은 $384.5M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 32개이며, 합산 TVL은 $385.02M예요.
 
 ### 이 수익률은 안전한가요?
 

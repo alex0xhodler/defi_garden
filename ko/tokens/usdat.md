@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token) | Monad | 2.00% | $10.54M |
-| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.56% | $9.6M |
+| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.70% | $9.6M |
 | [pendle →](https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token) | Ethereum | 1.13% | $7.25M |
 | [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 5.01% | $7.25M |
 | [pendle →](https://www.defi.garden/?pool=0f93ea50-c40c-5b6a-93fd-41cc4b5cacbe&src=seo_token) | Monad | 2.70% | $1.62M |
@@ -17,7 +17,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDAT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 7.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDAT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.70%부터 7.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.24%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,9 +27,9 @@ USDAT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 7.08%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 2.00% | 0.10% | 인센티브 100.00% |
-| curve-dex | 0.56% | 0.55% | 기본 금리 |
-| pendle | 1.13% | 2.40% | 인센티브 20.19% |
+| morpho-blue | 2.00% | 0.11% | 인센티브 100.00% |
+| curve-dex | 0.70% | 0.55% | 기본 금리 |
+| pendle | 1.13% | 2.39% | 인센티브 20.19% |
 | pendle | 5.01% | 7.23% | 기본 금리 |
 | pendle | 2.70% | 8.11% | 인센티브 59.87% |
 | pendle | 5.49% | 8.78% | 기본 금리 |
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 7.08%예요.
 
 ### USDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $49.21M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $49.14M예요.
 
 ### 이 수익률은 안전한가요?
 

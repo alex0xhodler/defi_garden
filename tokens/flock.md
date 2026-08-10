@@ -1,10 +1,10 @@
 # FLOCK DeFi Yields
 
-The highest honest FLOCK yield right now is 15.26% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLOCK yield right now is 25.42% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 15.26% | $117.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 25.42% | $117.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLOCK yield today?
 
-15.26% APY on uniswap-v3 (Base), based on live DefiLlama data.
+25.42% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many FLOCK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.3K in total.
+1 live pool clear this page's $100K TVL floor, $117.5K in total.
 
 ### Are these rates safe?
 

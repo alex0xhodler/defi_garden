@@ -1,25 +1,25 @@
 # USG 디파이 수익률
 
-현재 USG의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 17.96%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USG의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 18.89%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3a50ec85-2f8b-471a-9536-7517e18e2dbd&src=seo_token) | Ethereum | 4.64% | $1.86M |
-| [curve-dex →](https://www.defi.garden/?pool=5d1de707-d2cf-4142-b6c4-cea8cb8184a4&src=seo_token) | Ethereum | 7.52% | $1.52M |
-| [convex-finance →](https://www.defi.garden/?pool=2c455f9b-22cd-4c64-ae29-d71b51976b2f&src=seo_token) | Ethereum | 13.42% | $888.2K |
-| [convex-finance →](https://www.defi.garden/?pool=00e9e83e-0627-4d3e-9336-d5efcb528754&src=seo_token) | Ethereum | 14.82% | $755.2K |
-| [stake-dao →](https://www.defi.garden/?pool=f09e25a0-5cfa-4b3a-8b42-f1fdb69af484&src=seo_token) | Ethereum | 8.68% | $438.1K |
-| [stake-dao →](https://www.defi.garden/?pool=4fc38167-1f87-4fae-8b63-68d9a5f1eb5b&src=seo_token) | Ethereum | 12.41% | $391.8K |
-| [curve-dex →](https://www.defi.garden/?pool=cf2bb5f7-a963-41fb-a64b-f424b17a90a0&src=seo_token) | Ethereum | 11.83% | $317.2K |
-| [stake-dao →](https://www.defi.garden/?pool=df36bdd4-9483-46df-bf73-15947f98d6a1&src=seo_token) | Ethereum | 17.96% | $222.8K |
+| [curve-dex →](https://www.defi.garden/?pool=3a50ec85-2f8b-471a-9536-7517e18e2dbd&src=seo_token) | Ethereum | 4.72% | $1.86M |
+| [curve-dex →](https://www.defi.garden/?pool=5d1de707-d2cf-4142-b6c4-cea8cb8184a4&src=seo_token) | Ethereum | 7.93% | $1.52M |
+| [convex-finance →](https://www.defi.garden/?pool=2c455f9b-22cd-4c64-ae29-d71b51976b2f&src=seo_token) | Ethereum | 14.25% | $888.2K |
+| [convex-finance →](https://www.defi.garden/?pool=00e9e83e-0627-4d3e-9336-d5efcb528754&src=seo_token) | Ethereum | 15.59% | $755.2K |
+| [stake-dao →](https://www.defi.garden/?pool=f09e25a0-5cfa-4b3a-8b42-f1fdb69af484&src=seo_token) | Ethereum | 9.25% | $438.1K |
+| [stake-dao →](https://www.defi.garden/?pool=4fc38167-1f87-4fae-8b63-68d9a5f1eb5b&src=seo_token) | Ethereum | 13.22% | $391.8K |
+| [curve-dex →](https://www.defi.garden/?pool=cf2bb5f7-a963-41fb-a64b-f424b17a90a0&src=seo_token) | Ethereum | 12.22% | $317.2K |
+| [stake-dao →](https://www.defi.garden/?pool=df36bdd4-9483-46df-bf73-15947f98d6a1&src=seo_token) | Ethereum | 18.89% | $222.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USG 풀은 여기 8개가 있고, 1개 체인에서 APY가 4.64%부터 17.96%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USG 풀은 여기 8개가 있고, 1개 체인에서 APY가 4.72%부터 18.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 10.97%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 10.98%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 8개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ USG 풀은 여기 8개가 있고, 1개 체인에서 APY가 4.64%부터 17.96%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 4.64% | 6.25% | 인센티브 83.62% |
-| curve-dex | 7.52% | 5.88% | 인센티브 84.58% |
-| convex-finance | 13.42% | 10.66% | 인센티브 91.36% |
-| convex-finance | 14.82% | 12.51% | 인센티브 94.87% |
-| stake-dao | 8.68% | 11.93% | 인센티브 92.74% |
-| stake-dao | 12.41% | 10.44% | 인센티브 92.83% |
-| curve-dex | 11.83% | 11.28% | 인센티브 57.65% |
-| stake-dao | 17.96% | 15.18% | 인센티브 73.55% |
+| curve-dex | 4.72% | 6.25% | 인센티브 87.49% |
+| curve-dex | 7.93% | 5.89% | 인센티브 85.36% |
+| convex-finance | 14.25% | 10.67% | 인센티브 91.86% |
+| convex-finance | 15.59% | 12.52% | 인센티브 96.22% |
+| stake-dao | 9.25% | 11.92% | 인센티브 93.19% |
+| stake-dao | 13.22% | 10.45% | 인센티브 93.27% |
+| curve-dex | 12.22% | 11.29% | 인센티브 59.34% |
+| stake-dao | 18.89% | 15.19% | 인센티브 74.86% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,7 +42,7 @@ USG 풀은 여기 8개가 있고, 1개 체인에서 APY가 4.64%부터 17.96%까
 
 ### 오늘 USG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 17.96%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 18.89%예요.
 
 ### USG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

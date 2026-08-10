@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.02% | $3.1M |
 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
-| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.3K |
+| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.2K |
 | [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.02% | $193.7K |
 | [wombat-exchange →](https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token) | BSC | 0.02% | $187.8K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
@@ -28,11 +28,11 @@ LP 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.02%부터 0.16%까�
 |---|---|---|---|
 | wombat-exchange | 0.02% | 0.02% | 인센티브 100.00% |
 | wombat-exchange | 0.03% | 0.03% | 인센티브 100.00% |
-| wombat-exchange | 0.05% | 0.05% | 인센티브 99.94% |
+| wombat-exchange | 0.05% | 0.05% | 인센티브 99.79% |
 | wombat-exchange | 0.02% | 0.02% | 인센티브 91.70% |
 | wombat-exchange | 0.02% | 0.02% | 인센티브 94.32% |
 | wombat-exchange | 0.09% | 0.09% | 인센티브 100.00% |
-| wombat-exchange | 0.16% | 0.22% | 인센티브 99.78% |
+| wombat-exchange | 0.16% | 0.22% | 인센티브 96.99% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

@@ -1,21 +1,21 @@
 # ICP 디파이 수익률
 
-현재 ICP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 116.70%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ICP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 118.15%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 10.08% | $545.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token) | Ethereum | 8.88% | $456.5K |
-| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 4.97% | $452.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token) | Base | 116.70% | $420.4K |
-| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 14.26% | $108.7K |
-| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 2.76% | $106.3K |
+| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 14.92% | $550.1K |
+| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 7.21% | $457.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=919f50a0-1f61-4082-86e9-eb1eec8c82be&src=seo_token) | Ethereum | 11.44% | $457.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=34987574-6e85-4046-ae9f-2b2b881008c6&src=seo_token) | Base | 118.15% | $420.4K |
+| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 2.63% | $107.9K |
+| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 14.98% | $102.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ICP 풀은 여기 6개가 있고, 3개 체인에서 APY가 2.76%부터 116.70%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ICP 풀은 여기 6개가 있고, 3개 체인에서 APY가 2.63%부터 118.15%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.69%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -25,12 +25,12 @@ ICP 풀은 여기 6개가 있고, 3개 체인에서 APY가 2.76%부터 116.70%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| icpswap | 10.08% | 8.49% | 기본 금리 |
-| uniswap-v3 | 8.88% | 2.58% | 기본 금리 |
-| icpswap | 4.97% | 5.64% | 기본 금리 |
-| aerodrome-slipstream | 116.70% | 117.88% | 인센티브 90.73% |
-| icpswap | 14.26% | 20.42% | 기본 금리 |
-| icpswap | 2.76% | 6.89% | 기본 금리 |
+| icpswap | 14.92% | 8.50% | 기본 금리 |
+| icpswap | 7.21% | 5.63% | 기본 금리 |
+| uniswap-v3 | 11.44% | 2.60% | 기본 금리 |
+| aerodrome-slipstream | 118.15% | 117.64% | 인센티브 89.72% |
+| icpswap | 2.63% | 6.89% | 기본 금리 |
+| icpswap | 14.98% | 20.45% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -38,11 +38,11 @@ ICP 풀은 여기 6개가 있고, 3개 체인에서 APY가 2.76%부터 116.70%�
 
 ### 오늘 ICP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 116.70%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 118.15%예요.
 
 ### ICP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $3.84M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $3.85M예요.
 
 ### 이 수익률은 안전한가요?
 

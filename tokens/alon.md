@@ -1,10 +1,10 @@
 # ALON DeFi Yields
 
-The highest honest ALON yield right now is 13.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALON yield right now is 12.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=661d9b85-3750-43c9-a109-154daf11dab3&src=seo_token) | Solana | 13.35% | $332.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=661d9b85-3750-43c9-a109-154daf11dab3&src=seo_token) | Solana | 12.91% | $333.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALON yield today?
 
-13.35% APY on raydium-amm (Solana), based on live DefiLlama data.
+12.91% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ALON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $332.3K in total.
+1 live pool clear this page's $100K TVL floor, $333.6K in total.
 
 ### Are these rates safe?
 

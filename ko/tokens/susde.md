@@ -1,15 +1,15 @@
 # SUSDE 디파이 수익률
 
-현재 SUSDE의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 5.98%이며, $100K TVL 기준을 넘는 60개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSDE의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 5.93%이며, $100K TVL 기준을 넘는 60개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.17% | $1.51B |
 | [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 2.09% | $442.83M |
-| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 2.05% | $194.53M |
-| [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 3.82% | $53.71M |
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.63% | $43.73M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.98% | $35.55M |
+| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 2.06% | $194.32M |
+| [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 3.82% | $53.7M |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.80% | $43.73M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.93% | $35.55M |
 | [pendle →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 4.12% | $14.39M |
 | [pendle →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 12.02% | $14.39M |
 
@@ -17,7 +17,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUSDE 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.05%부터 12.02%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUSDE 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.06%부터 12.02%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.72%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,10 +27,10 @@ SUSDE 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.05%부터 12.02%�
 |---|---|---|---|
 | ethena-usde | 4.17% | 4.00% | 기본 금리 |
 | aave-v3 | 2.09% | 2.37% | 인센티브 100.00% |
-| aave-v3 | 2.05% | 2.34% | 인센티브 100.00% |
+| aave-v3 | 2.06% | 2.34% | 인센티브 100.00% |
 | aave-v3 | 3.82% | 3.34% | 인센티브 100.00% |
-| curve-dex | 3.63% | 3.52% | 인센티브 74.66% |
-| convex-finance | 5.98% | 4.85% | 인센티브 84.62% |
+| curve-dex | 3.80% | 3.52% | 인센티브 75.80% |
+| convex-finance | 5.93% | 4.85% | 인센티브 84.49% |
 | pendle | 4.12% | 3.92% | 기본 금리 |
 | pendle | 12.02% | 27.81% | 인센티브 0.97% |
 
@@ -40,7 +40,7 @@ SUSDE 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.05%부터 12.02%�
 
 ### 오늘 SUSDE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 5.98%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 5.93%예요.
 
 ### SUSDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -1,10 +1,10 @@
 # SENPYUSDMWIN DeFi Yields
 
-The highest honest SENPYUSDMWIN yield right now is 7.49% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENPYUSDMWIN yield right now is 7.21% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e0025c75-bee9-59ed-9b4b-efe23123405f&src=seo_token) | Ethereum | 7.49% | $15.31M |
+| [morpho-blue →](https://www.defi.garden/?pool=e0025c75-bee9-59ed-9b4b-efe23123405f&src=seo_token) | Ethereum | 7.21% | $15.31M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENPYUSDMWIN yield today?
 
-7.49% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.21% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SENPYUSDMWIN pools clear the TVL floor?
 

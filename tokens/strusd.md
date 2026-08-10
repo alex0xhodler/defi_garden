@@ -4,8 +4,8 @@ The highest honest STRUSD yield right now is 12.07% on pendle (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 10.64% | $43.64M |
-| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.15% | $10.06M |
+| [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 10.63% | $43.69M |
+| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.15% | $10.07M |
 | [pendle →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.34% | $7.11M |
 | [pendle →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 12.07% | $7.11M |
 
@@ -21,7 +21,7 @@ STRUSD shows up in 4 pools here, with rates from 5.15% to 12.07% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tori-finance | 10.64% | 12.35% | Base rate |
+| tori-finance | 10.63% | 12.34% | Base rate |
 | curve-dex | 5.15% | 5.54% | Base rate |
 | pendle | 11.34% | 11.84% | Base rate |
 | pendle | 12.07% | 16.12% | 4.74% incentives |
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $78.27M in total.
+6 live pools clear this page's $100K TVL floor, $78.36M in total.
 
 ### Are these rates safe?
 

@@ -1,22 +1,22 @@
 # HONEY DeFi Yields
 
-The highest honest HONEY yield right now is 33.34% on berapaw (Berachain), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HONEY yield right now is 33.30% on berapaw (Berachain), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.36% | $1.55M |
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.13% | $1.06M |
-| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.14% | $454.5K |
-| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.34% | $243.3K |
-| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 5.82% | $195.6K |
-| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 2.84% | $133.1K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 9.61% | $113.6K |
+| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.33% | $1.55M |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.12% | $1.06M |
+| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.12% | $454.9K |
+| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.30% | $243.1K |
+| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 5.80% | $195.7K |
+| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 3.09% | $133K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 9.59% | $113.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HONEY shows up in 7 pools here, with rates from 2.84% to 33.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HONEY shows up in 7 pools here, with rates from 3.09% to 33.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 7 of these 7 pools have a trustworthy 30-day average on file, with a median of 8.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,13 +26,13 @@ HONEY shows up in 7 pools here, with rates from 2.84% to 33.34% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| berapaw | 8.36% | 8.80% | 100.00% incentives |
-| berapaw | 4.13% | 4.61% | 100.00% incentives |
-| berapaw | 5.14% | 5.63% | 100.00% incentives |
-| berapaw | 33.34% | 34.61% | 100.00% incentives |
-| berapaw | 5.82% | 13.87% | 100.00% incentives |
-| bex | 2.84% | 2.56% | Base rate |
-| berapaw | 9.61% | 22.08% | 100.00% incentives |
+| berapaw | 8.33% | 8.80% | 100.00% incentives |
+| berapaw | 4.12% | 4.60% | 100.00% incentives |
+| berapaw | 5.12% | 5.62% | 100.00% incentives |
+| berapaw | 33.30% | 34.60% | 100.00% incentives |
+| berapaw | 5.80% | 13.85% | 100.00% incentives |
+| bex | 3.09% | 2.57% | Base rate |
+| berapaw | 9.59% | 22.05% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HONEY yield today?
 
-33.34% APY on berapaw (Berachain), based on live DefiLlama data.
+33.30% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many HONEY pools clear the TVL floor?
 

@@ -4,7 +4,7 @@ The highest honest AMMVWETH yield right now is 2.35% on lagoon (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=5ee9a6a0-4431-48e4-8935-00de3d3c4455&src=seo_token) | Ethereum | 2.35% | $1.22M |
+| [lagoon →](https://www.defi.garden/?pool=5ee9a6a0-4431-48e4-8935-00de3d3c4455&src=seo_token) | Ethereum | 2.35% | $1.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AMMVWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.22M in total.
+1 live pool clear this page's $100K TVL floor, $1.21M in total.
 
 ### Are these rates safe?
 

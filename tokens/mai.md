@@ -1,19 +1,19 @@
 # MAI DeFi Yields
 
-The highest honest MAI yield right now is 6.23% on extra-finance-leverage-farming (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAI yield right now is 6.25% on extra-finance-leverage-farming (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 6.05% | $2.33M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 6.07% | $2.32M |
 | [quickswap-dex →](https://www.defi.garden/?pool=63eb0ca9-4d62-46e1-8f8a-ae7368910698&src=seo_token) | Polygon | 0.07% | $646.1K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 6.23% | $240.5K |
-| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 5.05% | $130.9K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 6.25% | $239.8K |
+| [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 3.55% | $130.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MAI shows up in 4 pools here, with rates from 0.07% to 6.23% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MAI shows up in 4 pools here, with rates from 0.07% to 6.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,10 +23,10 @@ MAI shows up in 4 pools here, with rates from 0.07% to 6.23% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 6.05% | 6.19% | 100.00% incentives |
+| aerodrome-v1 | 6.07% | 6.19% | 100.00% incentives |
 | quickswap-dex | 0.07% | 297.84% | Base rate |
-| extra-finance-leverage-farming | 6.23% | 6.37% | Base rate |
-| curve-dex | 5.05% | 4.10% | 51.06% incentives |
+| extra-finance-leverage-farming | 6.25% | 6.37% | Base rate |
+| curve-dex | 3.55% | 4.11% | 72.65% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MAI yield today?
 
-6.23% APY on extra-finance-leverage-farming (Base), based on live DefiLlama data.
+6.25% APY on extra-finance-leverage-farming (Base), based on live DefiLlama data.
 
 ### How many MAI pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $5.23M in total.
+8 live pools clear this page's $100K TVL floor, $5.22M in total.
 
 ### Are these rates safe?
 

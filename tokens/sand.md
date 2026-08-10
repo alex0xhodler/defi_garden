@@ -4,15 +4,15 @@ The highest honest SAND yield right now is 3.05% on quickswap-dex (Polygon), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 1.43% | $301.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 1.48% | $301.6K |
 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 3.05% | $161.6K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=6a0fa42d-494e-44d2-adfb-39b3a8eacb5f&src=seo_token) | Base | 17.51% | $100.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=6a0fa42d-494e-44d2-adfb-39b3a8eacb5f&src=seo_token) | Base | 14.94% | $101.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SAND shows up in 3 pools here, with rates from 1.43% to 17.51% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+SAND shows up in 3 pools here, with rates from 1.48% to 14.94% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,9 +22,9 @@ SAND shows up in 3 pools here, with rates from 1.43% to 17.51% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 1.43% | 2.30% | Base rate |
+| uniswap-v2 | 1.48% | 2.29% | Base rate |
 | quickswap-dex | 3.05% | 4.55% | Base rate |
-| aerodrome-slipstream | 17.51% | 49.83% | 91.00% incentives |
+| aerodrome-slipstream | 14.94% | 49.70% | 87.88% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SAND pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $563.4K in total.
+3 live pools clear this page's $100K TVL floor, $565K in total.
 
 ### Are these rates safe?
 

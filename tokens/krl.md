@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KRL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $201.7K in total.
+2 live pools clear this page's $100K TVL floor, $201.6K in total.
 
 ### Are these rates safe?
 

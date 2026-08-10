@@ -1,10 +1,10 @@
 # PXETH DeFi Yields
 
-The highest honest PXETH yield right now is 4.15% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PXETH yield right now is 4.22% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d&src=seo_token) | OP Mainnet | 4.15% | $119.6K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=c4eebef6-8613-4140-9ee9-3a54272c229d&src=seo_token) | OP Mainnet | 4.22% | $119.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PXETH yield today?
 
-4.15% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+4.22% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many PXETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.6K in total.
+1 live pool clear this page's $100K TVL floor, $119.4K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 - [BOLD](https://www.defi.garden/tokens/bold)
 - [ALETH](https://www.defi.garden/tokens/aleth)
-- [LUSD](https://www.defi.garden/tokens/lusd)
+- [ALUSD](https://www.defi.garden/tokens/alusd)
 
 ## Available on
 

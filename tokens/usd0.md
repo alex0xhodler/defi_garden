@@ -4,7 +4,7 @@ The highest honest USD0 yield right now is 1.15% on euler-v2 (Ethereum), among 5
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.07% | $3.7M |
+| [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.08% | $3.7M |
 | [euler-v2 →](https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token) | Ethereum | 1.15% | $3.66M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 0.81% | $3.56M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token) | Ethereum | 0.19% | $1.76M |
@@ -22,7 +22,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.07% | 0.09% | Base rate |
+| curve-dex | 0.08% | 0.09% | Base rate |
 | euler-v2 | 1.15% | 1.06% | Base rate |
 | uniswap-v3 | 0.81% | 0.89% | Base rate |
 | uniswap-v3 | 0.19% | 0.55% | Base rate |

@@ -1,23 +1,23 @@
 # WSTETH 디파이 수익률
 
-현재 WSTETH의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 4.26%이며, $100K TVL 기준을 넘는 138개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WSTETH의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 4.58%이며, $100K TVL 기준을 넘는 138개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token) | Ethereum | 0.03% | $167.14M |
-| [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token) | Ethereum | 0.05% | $77.94M |
-| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.04% | $65.8M |
+| [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token) | Ethereum | 0.03% | $167.07M |
+| [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token) | Ethereum | 0.05% | $78.38M |
+| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.04% | $65.83M |
 | [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token) | Ethereum | 0.03% | $6.13M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token) | Ethereum | 1.05% | $5.38M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 3.02% | $4.55M |
-| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 3.21% | $3.96M |
-| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 4.26% | $3.81M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token) | Ethereum | 1.10% | $5.31M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 3.42% | $4.55M |
+| [curve-dex →](https://www.defi.garden/?pool=92710d25-ca4e-49b4-bbc2-355aa6b3460c&src=seo_token) | Ethereum | 3.45% | $3.95M |
+| [convex-finance →](https://www.defi.garden/?pool=924df19e-c478-4033-a2d7-bc41ed9bc4dc&src=seo_token) | Ethereum | 4.58% | $3.8M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WSTETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 4.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WSTETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 4.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.96%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -31,10 +31,10 @@ WSTETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 4.26%�
 | aave-v3 | 0.05% | 0.06% | 기본 금리 |
 | fluid-dex | 0.04% | 0.10% | 기본 금리 |
 | fluid-lending | 0.03% | 0.03% | 기본 금리 |
-| uniswap-v3 | 1.05% | 1.83% | 기본 금리 |
-| uniswap-v4 | 3.02% | 9.83% | 기본 금리 |
-| curve-dex | 3.21% | 3.03% | 인센티브 60.15% |
-| convex-finance | 4.26% | 3.95% | 인센티브 69.97% |
+| uniswap-v3 | 1.10% | 1.82% | 기본 금리 |
+| uniswap-v4 | 3.42% | 9.83% | 기본 금리 |
+| curve-dex | 3.45% | 3.03% | 인센티브 59.76% |
+| convex-finance | 4.58% | 3.95% | 인센티브 69.63% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,7 +42,7 @@ WSTETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 4.26%�
 
 ### 오늘 WSTETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 4.26%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 4.58%예요.
 
 ### WSTETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

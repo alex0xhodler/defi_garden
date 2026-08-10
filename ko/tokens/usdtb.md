@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.11% | $20.08M |
+| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.18% | $20.07M |
 | [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.62% | $7.82M |
 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.77% | $2.25M |
 | [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.30% | $1.62M |
@@ -14,7 +14,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDTB 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.11%부터 5.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDTB 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.18%부터 5.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.91%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -22,11 +22,11 @@ USDTB 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.11%부터 5.77%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.11% | 0.23% | 기본 금리 |
+| curve-dex | 0.18% | 0.23% | 기본 금리 |
 | aave-v3 | 5.62% | 6.27% | 인센티브 60.51% |
 | fluid-lending | 5.77% | 5.91% | 인센티브 58.93% |
 | fluid-dex | 0.30% | 0.75% | 기본 금리 |
-| euler-v2 | 1.39% | 8.66% | 기본 금리 |
+| euler-v2 | 1.39% | 8.63% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

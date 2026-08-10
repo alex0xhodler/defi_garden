@@ -1,20 +1,20 @@
 # ANON DeFi Yields
 
-The highest honest ANON yield right now is 10.20% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANON yield right now is 9.51% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.03% | $165.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 10.20% | $133.9K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=1031a91a-7c71-445a-b6bf-7833e31cedcb&src=seo_token) | Base | 10.59% | $107.1K |
+| [dedust →](https://www.defi.garden/?pool=7f1b6875-295a-4e2f-a54a-7e66d363a64d&src=seo_token) | TON | 0.04% | $164.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=6b4a535b-0134-456f-bc71-082a86611f5d&src=seo_token) | Solana | 9.51% | $134K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=1031a91a-7c71-445a-b6bf-7833e31cedcb&src=seo_token) | Base | 10.62% | $106.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ANON shows up in 3 pools here, with rates from 0.03% to 10.59% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+ANON shows up in 3 pools here, with rates from 0.04% to 10.62% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 12.13% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 12.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ ANON shows up in 3 pools here, with rates from 0.03% to 10.59% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| dedust | 0.03% | 0.05% | Base rate |
-| raydium-amm | 10.20% | 12.13% | Base rate |
-| aerodrome-v1 | 10.59% | 24.70% | 100.00% incentives |
+| dedust | 0.04% | 0.05% | Base rate |
+| raydium-amm | 9.51% | 12.08% | Base rate |
+| aerodrome-v1 | 10.62% | 24.67% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ANON yield today?
 
-10.20% APY on raydium-amm (Solana), based on live DefiLlama data.
+9.51% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ANON pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $564.1K in total.
+4 live pools clear this page's $100K TVL floor, $563.3K in total.
 
 ### Are these rates safe?
 

@@ -1,25 +1,25 @@
 # MSUSD 디파이 수익률
 
-현재 MSUSD의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 38.20%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MSUSD의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 39.06%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [mainstreet →](https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1&src=seo_token) | Ethereum | 6.60% | $74.62M |
 | [vesper →](https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45&src=seo_token) | Ethereum | 0.88% | $32.44M |
-| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 6.97% | $6.49M |
-| [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a&src=seo_token) | Ethereum | 28.05% | $5.74M |
-| [stake-dao →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token) | Ethereum | 14.49% | $4.46M |
+| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 7.47% | $6.49M |
+| [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a&src=seo_token) | Ethereum | 29.99% | $5.74M |
+| [stake-dao →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token) | Ethereum | 15.39% | $4.48M |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42&src=seo_token) | Base | 11.41% | $4.06M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token) | Base | 38.20% | $1.75M |
-| [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token) | Ethereum | 8.72% | $1.19M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token) | Base | 39.06% | $1.75M |
+| [curve-dex →](https://www.defi.garden/?pool=62ca653d-a58c-4363-9ffb-b6ceea56a712&src=seo_token) | Ethereum | 9.34% | $1.19M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-MSUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.88%부터 38.20%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+MSUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.88%부터 39.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 11.86%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 11.85%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ MSUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.88%부터 38.20%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| mainstreet | 6.60% | 7.07% | 기본 금리 |
+| mainstreet | 6.60% | 7.05% | 기본 금리 |
 | vesper | 0.88% | 1.78% | 기본 금리 |
-| curve-dex | 6.97% | 12.47% | 인센티브 92.54% |
-| convex-finance | 28.05% | 24.29% | 인센티브 98.15% |
-| stake-dao | 14.49% | 20.93% | 인센티브 92.68% |
+| curve-dex | 7.47% | 12.45% | 인센티브 91.83% |
+| convex-finance | 29.99% | 24.32% | 인센티브 97.97% |
+| stake-dao | 15.39% | 20.92% | 인센티브 93.11% |
 | aerodrome-v1 | 11.41% | 11.26% | 인센티브 100.00% |
-| aerodrome-slipstream | 38.20% | 31.44% | 인센티브 48.68% |
-| curve-dex | 8.72% | 5.84% | 인센티브 98.74% |
+| aerodrome-slipstream | 39.06% | 31.53% | 인센티브 48.94% |
+| curve-dex | 9.34% | 5.85% | 인센티브 98.61% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ MSUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.88%부터 38.20%�
 
 ### 오늘 MSUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 38.20%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 39.06%예요.
 
 ### MSUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $140.09M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $140.11M예요.
 
 ### 이 수익률은 안전한가요?
 

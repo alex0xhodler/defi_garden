@@ -4,15 +4,15 @@ The highest honest TONIC yield right now is 0.83% on vvs-standard (Cronos), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 0.83% | $186.5K |
-| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.20% | $163.7K |
-| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 0.52% | $160.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 0.83% | $186.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.21% | $164.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 0.45% | $160.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TONIC shows up in 3 pools here, with rates from 0.20% to 0.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TONIC shows up in 3 pools here, with rates from 0.21% to 0.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 0.83% | 6.56% | Base rate |
-| vvs-standard | 0.20% | 0.87% | Base rate |
-| vvs-standard | 0.52% | 1.48% | Base rate |
+| vvs-standard | 0.83% | 6.54% | Base rate |
+| vvs-standard | 0.21% | 0.87% | Base rate |
+| vvs-standard | 0.45% | 1.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TONIC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $510.5K in total.
+3 live pools clear this page's $100K TVL floor, $511.9K in total.
 
 ### Are these rates safe?
 

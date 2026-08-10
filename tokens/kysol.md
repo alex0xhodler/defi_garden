@@ -4,7 +4,7 @@ The highest honest KYSOL yield right now is 5.13% on kyros (Solana), among 3 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.13% | $7.79M |
+| [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.13% | $7.8M |
 | [raydium-amm →](https://www.defi.garden/?pool=b820fb28-a93a-4d1e-81d0-da3453b98e54&src=seo_token) | Solana | 0.02% | $305.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 KYSOL shows up in 2 pools here, with rates from 0.02% to 5.13% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.72% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,7 +21,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| kyros | 5.13% | 5.36% | Base rate |
+| kyros | 5.13% | 5.35% | Base rate |
 | raydium-amm | 0.02% | 0.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KYSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $8.4M in total.
+3 live pools clear this page's $100K TVL floor, $8.41M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest SUINBNET yield right now is 0.01% on raydium-amm (Solana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=10aac5f8-dd1b-5e8c-b213-6e5601f88673&src=seo_token) | Solana | 0.01% | $819.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=10aac5f8-dd1b-5e8c-b213-6e5601f88673&src=seo_token) | Solana | 0.01% | $819.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUINBNET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $819.5K in total.
+1 live pool clear this page's $100K TVL floor, $819.4K in total.
 
 ### Are these rates safe?
 

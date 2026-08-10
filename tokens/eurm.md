@@ -4,8 +4,8 @@ The highest honest EURM yield right now is 23.37% on mento-v3 (Monad), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 23.37% | $653.4K |
-| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 2.82% | $130.1K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 23.37% | $653.5K |
+| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 2.82% | $130.2K |
 | [mento-v3 →](https://www.defi.garden/?pool=dcf2f352-5100-44af-b11f-c2cbc0845b10&src=seo_token) | Celo | 0.35% | $117.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 EURM shows up in 3 pools here, with rates from 0.35% to 23.37% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 28.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 28.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ EURM shows up in 3 pools here, with rates from 0.35% to 23.37% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| mento-v3 | 23.37% | 28.68% | 99.44% incentives |
-| mento-v3 | 2.82% | 95.76% | Base rate |
-| mento-v3 | 0.35% | 21.85% | Base rate |
+| mento-v3 | 23.37% | 28.66% | 99.44% incentives |
+| mento-v3 | 2.82% | 93.39% | Base rate |
+| mento-v3 | 0.35% | 21.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EURM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $900.5K in total.
+3 live pools clear this page's $100K TVL floor, $900.8K in total.
 
 ### Are these rates safe?
 

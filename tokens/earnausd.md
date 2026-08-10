@@ -26,10 +26,10 @@ EARNAUSD shows up in 7 pools here, with rates from 0.20% to 10.29% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| upshift | 5.22% | 6.72% | 10.77% incentives |
+| upshift | 5.22% | 6.71% | 10.79% incentives |
 | morpho-blue | 2.50% | 0.08% | 100.00% incentives |
 | curvance | 0.76% | 0.80% | 100.00% incentives |
-| pendle | 9.22% | 8.91% | 5.67% incentives |
+| pendle | 9.22% | 8.90% | 5.67% incentives |
 | pendle | 10.29% | 9.35% | Base rate |
 | neverland | 1.12% | 1.36% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EARNAUSD pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $33.85M in total.
+7 live pools clear this page's $100K TVL floor, $33.84M in total.
 
 ### Are these rates safe?
 

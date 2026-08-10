@@ -4,14 +4,14 @@ The highest honest XSAUCE yield right now is 1.26% on saucerswap-v1 (Hedera), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.26% | $255.2K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 1.07% | $112.6K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_token) | Hedera | 1.26% | $255.6K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 1.06% | $112.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XSAUCE shows up in 2 pools here, with rates from 1.07% to 1.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSAUCE shows up in 2 pools here, with rates from 1.06% to 1.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,8 +21,8 @@ XSAUCE shows up in 2 pools here, with rates from 1.07% to 1.26% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saucerswap-v1 | 1.26% | 1.38% | 95.31% incentives |
-| saucerswap-v1 | 1.07% | 1.07% | 99.86% incentives |
+| saucerswap-v1 | 1.26% | 1.38% | 95.32% incentives |
+| saucerswap-v1 | 1.06% | 1.07% | 99.86% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XSAUCE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $367.8K in total.
+2 live pools clear this page's $100K TVL floor, $368.2K in total.
 
 ### Are these rates safe?
 

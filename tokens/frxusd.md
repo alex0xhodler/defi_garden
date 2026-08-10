@@ -1,23 +1,23 @@
 # FRXUSD DeFi Yields
 
-The highest honest FRXUSD yield right now is 28.05% on convex-finance (Ethereum), among 91 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRXUSD yield right now is 29.99% on convex-finance (Ethereum), among 91 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 2.94% | $13.06M |
+| [curve-dex →](https://www.defi.garden/?pool=cfa46afc-eb9c-4ff5-8e35-e6e1feaea974&src=seo_token) | Ethereum | 3.25% | $13.06M |
 | [aave-v4 →](https://www.defi.garden/?pool=44da6781-e5d3-4b77-8171-e55571a8cc22&src=seo_token) | Ethereum | 1.14% | $12.89M |
-| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.10% | $11.85M |
-| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.59% | $11.85M |
-| [convex-finance →](https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token) | Ethereum | 5.90% | $9.27M |
-| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 6.97% | $6.49M |
-| [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a&src=seo_token) | Ethereum | 28.05% | $5.74M |
+| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.16% | $11.85M |
+| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.68% | $11.85M |
+| [convex-finance →](https://www.defi.garden/?pool=22a20de7-791a-48f2-8765-537db17b7f9e&src=seo_token) | Ethereum | 6.43% | $9.27M |
+| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 7.47% | $6.49M |
+| [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a&src=seo_token) | Ethereum | 29.99% | $5.74M |
 | [fraxlend →](https://www.defi.garden/?pool=cc0e4862-04d0-409a-8d79-7f582e7b8b7a&src=seo_token) | Ethereum | 3.00% | $5.31M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FRXUSD shows up in 8 pools here, with rates from 1.14% to 28.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FRXUSD shows up in 8 pools here, with rates from 1.14% to 29.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,13 +25,13 @@ FRXUSD shows up in 8 pools here, with rates from 1.14% to 28.05% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 2.94% | 3.19% | 95.57% incentives |
-| aave-v4 | 1.14% | 1.08% | Base rate |
-| curve-dex | 3.10% | 3.22% | 26.35% incentives |
-| convex-finance | 3.59% | 3.59% | 36.41% incentives |
-| convex-finance | 5.90% | 5.43% | 97.80% incentives |
-| curve-dex | 6.97% | 12.47% | 92.54% incentives |
-| convex-finance | 28.05% | 24.29% | 98.15% incentives |
+| curve-dex | 3.25% | 3.19% | 91.70% incentives |
+| aave-v4 | 1.14% | 1.09% | Base rate |
+| curve-dex | 3.16% | 3.22% | 27.47% incentives |
+| convex-finance | 3.68% | 3.59% | 37.82% incentives |
+| convex-finance | 6.43% | 5.43% | 95.80% incentives |
+| curve-dex | 7.47% | 12.45% | 91.83% incentives |
+| convex-finance | 29.99% | 24.32% | 97.97% incentives |
 | fraxlend | 3.00% | 2.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FRXUSD yield today?
 
-28.05% APY on convex-finance (Ethereum), based on live DefiLlama data.
+29.99% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FRXUSD pools clear the TVL floor?
 
-91 live pools clear this page's $100K TVL floor, $149.3M in total.
+91 live pools clear this page's $100K TVL floor, $149.34M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest AVGUSDCCONSB yield right now is 3.98% on morpho-blue (Base), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d4254f28-f1fe-445e-86ba-b609dd9bbe4d&src=seo_token) | Base | 3.98% | $421.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=d4254f28-f1fe-445e-86ba-b609dd9bbe4d&src=seo_token) | Base | 3.98% | $421.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVGUSDCCONSB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $421.3K in total.
+1 live pool clear this page's $100K TVL floor, $421.4K in total.
 
 ### Are these rates safe?
 

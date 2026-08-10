@@ -1,10 +1,10 @@
 # MEW DeFi Yields
 
-The highest honest MEW yield right now is 2.57% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEW yield right now is 2.37% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62&src=seo_token) | Solana | 2.57% | $6.75M |
+| [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62&src=seo_token) | Solana | 2.37% | $6.74M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEW yield today?
 
-2.57% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.37% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MEW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.75M in total.
+1 live pool clear this page's $100K TVL floor, $6.74M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest USDTB yield right now is 5.77% on fluid-lending (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.11% | $20.08M |
+| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.18% | $20.07M |
 | [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.62% | $7.82M |
 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.77% | $2.25M |
 | [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.30% | $1.62M |
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDTB shows up in 5 pools here, with rates from 0.11% to 5.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDTB shows up in 5 pools here, with rates from 0.18% to 5.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,11 +22,11 @@ USDTB shows up in 5 pools here, with rates from 0.11% to 5.77% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.11% | 0.23% | Base rate |
+| curve-dex | 0.18% | 0.23% | Base rate |
 | aave-v3 | 5.62% | 6.27% | 60.51% incentives |
 | fluid-lending | 5.77% | 5.91% | 58.93% incentives |
 | fluid-dex | 0.30% | 0.75% | Base rate |
-| euler-v2 | 1.39% | 8.66% | Base rate |
+| euler-v2 | 1.39% | 8.63% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

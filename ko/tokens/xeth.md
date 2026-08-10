@@ -38,12 +38,12 @@ DefiLlama 실시간 데이터 기준, Xlayer의 aave-v3에서 APY 0.39%예요.
 
 ## 관련 토큰
 
-- [XSOL](https://www.defi.garden/ko/tokens/xsol)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

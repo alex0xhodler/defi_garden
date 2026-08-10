@@ -1,10 +1,10 @@
 # AMZNX DeFi Yields
 
-The highest honest AMZNX yield right now is 13.25% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AMZNX yield right now is 14.70% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=688fdee4-325a-4e86-904c-7d9ca92d1f45&src=seo_token) | Solana | 13.25% | $358.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=688fdee4-325a-4e86-904c-7d9ca92d1f45&src=seo_token) | Solana | 14.70% | $357.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AMZNX yield today?
 
-13.25% APY on raydium-amm (Solana), based on live DefiLlama data.
+14.70% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AMZNX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $358.2K in total.
+1 live pool clear this page's $100K TVL floor, $357.7K in total.
 
 ### Are these rates safe?
 

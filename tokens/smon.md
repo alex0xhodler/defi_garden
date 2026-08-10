@@ -1,20 +1,20 @@
 # SMON DeFi Yields
 
-The highest honest SMON yield right now is 14.66% on curve-dex (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMON yield right now is 13.87% on curve-dex (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.14% | $2.22M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 14.66% | $728.4K |
-| [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 1.47% | $671K |
+| [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.13% | $2.21M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.87% | $728.4K |
+| [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 1.46% | $673.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SMON shows up in 3 pools here, with rates from 1.47% to 14.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SMON shows up in 3 pools here, with rates from 1.46% to 13.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ SMON shows up in 3 pools here, with rates from 1.47% to 14.66% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| kintsu | 11.14% | 11.62% | Base rate |
-| curve-dex | 14.66% | 24.18% | 100.00% incentives |
-| neverland | 1.47% | 0.75% | 100.00% incentives |
+| kintsu | 11.13% | 11.61% | Base rate |
+| curve-dex | 13.87% | 24.14% | 100.00% incentives |
+| neverland | 1.46% | 0.75% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SMON yield today?
 
-14.66% APY on curve-dex (Monad), based on live DefiLlama data.
+13.87% APY on curve-dex (Monad), based on live DefiLlama data.
 
 ### How many SMON pools clear the TVL floor?
 

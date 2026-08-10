@@ -5,7 +5,7 @@ The highest honest LIUSD yield right now is 8.46% on infinifi (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token) | Ethereum | 7.86% | $5.67M |
-| [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 6.95% | $2.53M |
+| [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 6.95% | $3.28M |
 | [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token) | Ethereum | 5.76% | $1.67M |
 | [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.46% | $1.26M |
 
@@ -25,7 +25,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | infinifi | 7.86% | 8.00% | Base rate |
 | infinifi | 6.95% | 7.08% | Base rate |
-| infinifi | 5.76% | 5.87% | Base rate |
+| infinifi | 5.76% | 5.86% | Base rate |
 | infinifi | 8.46% | 8.62% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LIUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $11.13M in total.
+4 live pools clear this page's $100K TVL floor, $11.88M in total.
 
 ### Are these rates safe?
 

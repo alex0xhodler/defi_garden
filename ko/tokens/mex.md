@@ -1,12 +1,12 @@
 # MEX 디파이 수익률
 
-현재 MEX의 가장 높은 정직한 수익률은 MultiversX의 xexchange에서 3.94%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MEX의 가장 높은 정직한 수익률은 MultiversX의 xexchange에서 4.11%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=39fc2c93-90c2-5043-8fb8-7977ec6008c7&src=seo_token) | Arbitrum | 9.06% | $450.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=fde52454-c82a-4404-8361-adb74b0276b5&src=seo_token) | Arbitrum | 0.69% | $278.9K |
-| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 3.94% | $110.5K |
+| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 4.11% | $111.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -24,7 +24,7 @@ MEX 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.69%부터 9.06%까�
 |---|---|---|---|
 | uniswap-v4 | 9.06% | 4.13% | 기본 금리 |
 | uniswap-v4 | 0.69% | 10.65% | 기본 금리 |
-| xexchange | 3.94% | 4.99% | 인센티브 95.28% |
+| xexchange | 4.11% | 4.99% | 인센티브 91.93% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -32,11 +32,11 @@ MEX 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.69%부터 9.06%까�
 
 ### 오늘 MEX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 3.94%예요.
+DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 4.11%예요.
 
 ### MEX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $840.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $841K예요.
 
 ### 이 수익률은 안전한가요?
 

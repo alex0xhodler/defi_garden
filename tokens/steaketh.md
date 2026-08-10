@@ -4,10 +4,10 @@ The highest honest STEAKETH yield right now is 2.78% on morpho-blue (Monad), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.78% | $38.08M |
-| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 1.72% | $22.89M |
-| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 1.95% | $16.47M |
-| [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token) | Base | 1.43% | $847.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.78% | $38.03M |
+| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 1.75% | $22.91M |
+| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 1.95% | $16.49M |
+| [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token) | Base | 1.43% | $848.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,8 +22,8 @@ STEAKETH shows up in 4 pools here, with rates from 1.43% to 2.78% APY across 3 c
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | morpho-blue | 2.78% | 3.04% | 53.97% incentives |
-| morpho-blue | 1.72% | 1.68% | Base rate |
-| morpho-blue | 1.95% | 1.68% | Base rate |
+| morpho-blue | 1.75% | 1.68% | Base rate |
+| morpho-blue | 1.95% | 1.69% | Base rate |
 | morpho-blue | 1.43% | 1.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

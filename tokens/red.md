@@ -1,19 +1,19 @@
 # RED DeFi Yields
 
-The highest honest RED yield right now is 5.23% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RED yield right now is 4.63% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token) | Ethereum | 5.23% | $335.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token) | Base | 17.61% | $120.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1156f9c3-a099-4ff6-993c-e5afe00a16b1&src=seo_token) | Ethereum | 4.63% | $335.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=8d0b004b-5347-4935-a2c0-80e28fad6f73&src=seo_token) | Base | 17.08% | $120.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RED shows up in 2 pools here, with rates from 5.23% to 17.61% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+RED shows up in 2 pools here, with rates from 4.63% to 17.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 36.05% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 35.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ RED shows up in 2 pools here, with rates from 5.23% to 17.61% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 5.23% | 9.01% | Base rate |
-| aerodrome-slipstream | 17.61% | 63.09% | 46.55% incentives |
+| uniswap-v4 | 4.63% | 9.00% | Base rate |
+| aerodrome-slipstream | 17.08% | 62.98% | 42.16% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RED yield today?
 
-5.23% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+4.63% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many RED pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $455.9K in total.
+2 live pools clear this page's $100K TVL floor, $456K in total.
 
 ### Are these rates safe?
 
