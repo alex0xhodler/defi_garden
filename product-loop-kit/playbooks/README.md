@@ -60,6 +60,8 @@ Provenance: <the LOG/spec entry this was distilled from>
 
 - `compiled-artifact-mutation-proof.md` — you are proving a rendered test is non-vacuous (or judging such a proof) and the mutation appears to have no effect: `home.html` loads the COMPILED bundle, so every mutate/restore cycle needs `npm run compile && npm run minify` or the browser never sees the change — plus the transient-observation rules a single post-settle DOM sample cannot satisfy (item 207)
 
+- `load-time-event-test-race.md` — a rendered analytics test intermittently misses an event fired from a page-lifecycle (`load`) handler while React-fired events are seen 5/5: instrument `patchedAt` vs `loadAt` + `_suppressionLogged` to tell a harness race from a real bug, and never loosen an assertion without a mutation proving the rest still goes red (item 252 — `session_start` seen 4/5 on planner, 1/5 on landing)
+
 - `cost-gate-measurement.md` — a *measure-then-decide* item hands you a threshold ("< 5 MB, < 250 KB gzipped") and you have to produce the number and apply the rule: size the cheapest **implementable** variant (union / additive sidecar), never the headline population; settle raw-vs-gzipped from the ticket's own wording; and before writing NO-GO, check whether a cheaper *shape* exists that the ticket never considered (item 208)
 
 <!-- Index gap, RE-MEASURED 2026-08-07 (heartbeat) — the old note said "18 files exist, 13 listed"
