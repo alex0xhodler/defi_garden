@@ -2782,6 +2782,22 @@ function App() {
     // Analytics tracking for yield calculation
     Analytics.trackPoolClick(pool, 'yield_calculator');
 
+    // spec 257: this transition into pool-detail was previously un-instrumented
+    // for pool_view — the north star's denominator missed this entry path
+    // entirely (see product-loop-kit/specs/257.md). Mirrors handlePoolClick's
+    // trackPoolView call (app.js handlePoolClick, above) including the
+    // urlDirectPoolViewFiredRef set — that ref suppresses a duplicate
+    // url_direct pool_view emit for the same pool id (see its declaration
+    // comment and the guard at the url_direct effect above).
+    urlDirectPoolViewFiredRef.current = pool.pool;
+    Analytics.trackPoolView(pool, {
+      source: 'yield_calculator',
+      search_query: selectedToken || selectedChain || 'browse',
+      selected_chain: selectedChain,
+      selected_token: selectedToken,
+      protocolCtaPresent: !!getProtocolUrlWithRef(pool)
+    });
+
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
     setCurrentView('pool-detail');
