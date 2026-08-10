@@ -1539,7 +1539,15 @@ a.pool-token-chip:hover {
 }
 
 .app.pool-detail-view .container {
-  max-width: none;
+  /* Spec 236 phase 1: this shell now resolves the SAME --content-max-width
+     token every other analytics shell does, so all three page shells agree
+     on one width. Visually inert here at normal viewports — the certificate
+     itself (`.pool-detail-container`, below) already caps at its own 880px
+     reading MEASURE and centers independently — this only stops the outer
+     shell from being a silent, un-tokened `none` (full-bleed) that could
+     drift from the other two shells unnoticed. */
+  max-width: var(--content-max-width);
+  margin: 0 auto;
   padding: 0;
   display: block;
   /* 247 world fix: `.app:not(.has-results) .container` (style.css, "Add
