@@ -902,6 +902,56 @@ function prescanTextSurfaces(opts = {}) {
     }
   }
 
+  // tvl-floor-claim RAIL-RELATIVE arm (backlog 254, spec 254 leg 3). The arm
+  // above (inside the main per-file loop) only ever checks a document
+  // against ITSELF — "is any figure in this section smaller than the floor
+  // this SAME document states" — which never reads DEFAULT_MIN_TVL and so
+  // cannot catch a document that is internally consistent but wrong (spec
+  // 254 evidence: exactly llms.txt's pre-fix state). This arm's predicate is
+  // instead: a stated floor must EQUAL DEFAULT_MIN_TVL, read live off app.js
+  // via loadDefaultMinTvl() above (never a second hardcoded 100000/10000000
+  // here — same discipline as the level-3 link-target-integrity check that
+  // already reuses minTvlInfo). Kept fully separate from the arm above:
+  // additive, its own file list, so the internal-consistency arm's existing
+  // behavior/tests are untouched.
+  //
+  // Surface set widened beyond TEXT_SURFACE_FILES's 2 AI-discovery text
+  // files (opts.railFiles overrides for fixture-driven tests, same
+  // convention as opts.homeHtml/opts.appJs above; unset -> the real served
+  // surfaces): 'home.html' is a RENDERED surface (the navigator.modelContext
+  // tool description) — backlog 254 acceptance criterion 4's "at least one
+  // rendered surface and one generated page" is satisfied structurally: the
+  // generated-page arm is proven by the GENERATED-PAGE-shaped fixture test
+  // in test_audit_text_surfaces.js (opts.railFiles override), not by a real
+  // committed file here. Deliberately NOT a glob of stories/*.html, and NOT
+  // 'stories/kevin.html' either (254 fix pass, verifier finding 1):
+  // tomoko.html/lucia.html/kevin.html each state a DIFFERENT, independent
+  // PERSONA curation floor (TEMPERAMENTS.<key>.minTvl in
+  // generate-stories.js — $50M/$10M/$10M respectively) that is NOT a claim
+  // about the platform's DEFAULT_MIN_TVL rail — scanning any of them here
+  // would be a permanent false positive, not a fix. Kevin is not a special
+  // case relative to tomoko/lucia; all three are excluded the same way.
+  if (minTvlInfo.value != null) {
+    const railFiles = opts.railFiles || TEXT_SURFACE_FILES.concat(['home.html']);
+    for (const file of railFiles) {
+      const abs = path.isAbsolute(file) ? file : path.join(ROOT, file);
+      const rel = path.isAbsolute(file) ? path.relative(ROOT, file) : file;
+      let railContent;
+      try { railContent = fs.readFileSync(abs, 'utf8'); }
+      catch (e) { continue; } // unreadable/missing — skip, never throw (main loop's own convention)
+      const found = findStatedTvlFloorAnyShape(railContent);
+      if (!found) continue;
+      if (found.val !== minTvlInfo.value) {
+        suspects.push({
+          rel, signal: 'tvl-floor-claim', severity: TEXT_SURFACE_SIGNALS['tvl-floor-claim'],
+          detail: `stated floor "${found.text}" does not equal the enforced rail DEFAULT_MIN_TVL ($${minTvlInfo.value.toLocaleString('en-US')}) — rail-relative check`
+        });
+      }
+    }
+  } else if (!opts.railFiles) {
+    console.error('[audit] text prescan: tvl-floor-claim rail-relative arm skipped — ' + minTvlInfo.error);
+  }
+
   // P0-first, then rel — same comparator shape as prescanStaticPages().
   suspects.sort((a, b) => {
     const rank = (sev) => (sev === 'P0' ? 0 : 1);
@@ -910,6 +960,35 @@ function prescanTextSurfaces(opts = {}) {
   });
 
   return { scanned, suspects };
+}
+
+// Shared by the tvl-floor-claim rail-relative arm above AND the repo-wide
+// dictionary/surface scan (test_rail_floor_derivation.js): the several prose
+// SHAPES this product's stating sites actually use for a TVL floor claim
+// (spec 254 evidence table) — "TVL ≥ $X" (llms.txt/llms-full.txt), "$X
+// minimum TVL" (the landing trust badge, EN), "minimum $X TVL" (home.html's
+// tool description), "$X+ TVL" (persona temperament labels), "TVL $X" (the
+// landing trust badge, KO — "최소 TVL $100K", floor-word-then-figure order,
+// the reverse of the EN phrasing). Named groups so every alternate can sit
+// at a different textual position without renumbering a single shared
+// capture-group index. Tried in this fixed order (most specific first,
+// "TVL $X" last as the loosest fallback) and returns the FIRST shape that
+// matches, or null.
+function findStatedTvlFloorAnyShape(content) {
+  const shapes = [
+    /TVL\s*(?:≥|>=)\s*\$(?<amt>[0-9][0-9,]*(?:\.[0-9]+)?)\s*(?<unit>[KMBT])?/,
+    /\$(?<amt>[0-9][0-9,]*(?:\.[0-9]+)?)\s*(?<unit>[KMBT])?\s*minimum\s+TVL/i,
+    /minimum\s+\$(?<amt>[0-9][0-9,]*(?:\.[0-9]+)?)\s*(?<unit>[KMBT])?\s*TVL/i,
+    /\$(?<amt>[0-9][0-9,]*(?:\.[0-9]+)?)\s*(?<unit>[KMBT])?\+\s*TVL/i,
+    /TVL\s+\$(?<amt>[0-9][0-9,]*(?:\.[0-9]+)?)\s*(?<unit>[KMBT])?/,
+  ];
+  for (const re of shapes) {
+    const m = content.match(re);
+    if (!m || !m.groups) continue;
+    const val = parseMoney(m.groups.amt, m.groups.unit);
+    if (Number.isFinite(val)) return { val, text: m[0] };
+  }
+  return null;
 }
 
 // No-suspects/disabled shape — always the same shape whether the pass ran
@@ -5119,6 +5198,13 @@ module.exports = {
   runAudit, scanNumbers, resolvePlaywright, blockingFindings,
   prescanStaticPages, prescanTextSurfaces, prescanPools, buildPoolSurfaces,
   buildStaticSurfaces, reconcilePrescanFindings,
+  // backlog 254 — exported so test_audit_text_surfaces.js (and the repo-wide
+  // rail-derivation scan test) can drive the rail-relative tvl-floor-claim
+  // shape-matcher directly, same precedent countQualifyingPools already set
+  // for item 188's grid-link simulator; loadDefaultMinTvl is exported so a
+  // test can read the SAME live app.js-derived value the signal itself uses,
+  // rather than re-deriving/hardcoding a second copy to assert against.
+  findStatedTvlFloorAnyShape, loadDefaultMinTvl,
   // backlog 219 — exported so test_audit_occlusion_lens.js can drive the
   // occlusion lens directly against a real page (with a hand-made surface
   // object), the same precedent classifyCtaKind/ctaFindingSeverity already

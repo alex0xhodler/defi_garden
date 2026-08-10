@@ -1,4 +1,18 @@
 // Multi-language translation system
+//
+// backlog 254: the shared source of truth for the two trust-rail-stating
+// leaves below (landing.trustFloor, planner.personaDegenDesc, en+ko) — see
+// trust-rails.js's own header for why. This file is BOTH a plain browser
+// <script> (no module system there — reads `window.TRUST_RAILS`, set by a
+// synchronous, non-deferred `<script src="trust-rails.js">` tag placed
+// before this one in home.html/plan.html's <head>, same load-order
+// guarantee canonical.js already relies on) AND a Node-requireable module
+// (see the `module.exports` guard at the bottom of this file) — this guard
+// mirrors that duality in the opposite direction.
+const TRUST_RAILS = (typeof module !== 'undefined' && module.exports)
+  ? require('./trust-rails.js')
+  : (typeof window !== 'undefined' ? window.TRUST_RAILS : null);
+
 const translations = {
   en: {
     // Search
@@ -214,7 +228,13 @@ projectionHeading: "The long game",
       gardenCta: "Plant a garden",
       gardenNote: "No wallet needed to plan",
       trustLive: "Live DefiLlama data",
-      trustFloor: "$10M minimum TVL",
+      // backlog 254: derives from TRUST_RAILS (trust-rails.js) so this never
+      // re-drifts from DEFAULT_MIN_TVL the way the hand-typed "$10M" did.
+      // Function leaf so the existing dictionary mechanism needs no change
+      // (createTranslationFunction already applies params to function
+      // leaves) — takes the formatted floor, defaulting to the live value so
+      // every existing zero-arg call site (landing.js) renders correctly.
+      trustFloor: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `${floor} minimum TVL`,
       trustEducation: "Education, not advice",
       trustHeading: "A calmer way to explore yield.",
       trustBody: "Clear entry points, honest numbers, and a next step that makes sense.",
@@ -305,7 +325,8 @@ projectionHeading: "The long game",
       personaRwaDesc: "Tokenized treasuries, real-world-asset yields, and newer-but-credible entries. TradFi yields moving onchain — the fastest-growing corner of DeFi.",
       personaRwaRisk: "Moderate risk — some regulatory uncertainty on newer products",
       personaDegenTitle: "High Yield",
-      personaDegenDesc: "High-APY LP farms, TVL ≥ $10M. These rates are real today and typically last days-to-weeks, requiring active farm-hopping.",
+      // backlog 254: see landing.trustFloor above — same TRUST_RAILS derivation.
+      personaDegenDesc: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `High-APY LP farms, TVL ≥ ${floor}. These rates are real today and typically last days-to-weeks, requiring active farm-hopping.`,
       personaDegenRisk: "Honest: projected at ⅓ of shown rate — high yields decay fast",
       personaProj: (amt, yrs, apy) => `≈ ${amt} in ${yrs} yrs at ${apy}%`,
       personaProjYield: (yld, apy) => `≈ ${yld}/mo at ${apy}%`,
@@ -984,7 +1005,11 @@ projectionHeading: "The long game",
       gardenCta: "정원 심기",
       gardenNote: "계획에는 지갑이 필요하지 않아요",
       trustLive: "DefiLlama 실시간 데이터",
-      trustFloor: "$1,000만 최소 TVL",
+      // backlog 254: bare Latin "$100K" form (spec's Open Questions judgment
+      // call — matches the KO strings 6fceca79bb already shipped, e.g.
+      // "최소 TVL $100K 기준" (emptyStateExplanation above), rather than a
+      // Hangul numeral like "10만 달러"). See translations.en.landing.trustFloor.
+      trustFloor: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `최소 TVL ${floor}`,
       trustEducation: "투자 조언이 아닙니다",
       trustHeading: "더 차분하게 수익률을 탐색하세요.",
       trustBody: "명확한 시작점, 정직한 숫자, 그리고 다음 행동을 안내합니다.",
@@ -1068,7 +1093,8 @@ projectionHeading: "The long game",
       personaRwaDesc: "토큰화된 국채, 실물 자산 수익률, 신뢰할 수 있는 신규 항목. TradFi 수익률이 온체인으로 — DeFi에서 가장 빠르게 성장하는 영역.",
       personaRwaRisk: "중간 위험 — 신규 상품에 대한 규제 불확실성 존재",
       personaDegenTitle: "고수익",
-      personaDegenDesc: "고수익 LP 팜, TVL ≥ $10M. 이 수익률은 지금 실재하며 보통 며칠~몇 주 지속돼요. 적극적인 농장 이동이 필요합니다.",
+      // backlog 254: see translations.en.planner.personaDegenDesc above.
+      personaDegenDesc: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `고수익 LP 팜, TVL ≥ ${floor}. 이 수익률은 지금 실재하며 보통 며칠~몇 주 지속돼요. 적극적인 농장 이동이 필요합니다.`,
       personaDegenRisk: "솔직히: 표시된 수익률의 ⅓로 투영 — 고수익률은 빠르게 감소",
       personaProj: (amt, yrs, apy) => `≈ ${amt} · ${yrs}년 · ${apy}%`,
       personaProjYield: (yld, apy) => `≈ 월 ${yld} · ${apy}%`,

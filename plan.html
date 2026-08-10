@@ -86,6 +86,11 @@
             } catch (e) {}
         })();
     </script>
+    <!-- Trust-rail constants (backlog 254) — synchronous, no defer, same
+         load-order guarantee as home.html's own trust-rails.js tag: must be
+         defined before translations.min.js's dictionary leaves (deferred
+         below) can read window.TRUST_RAILS. See trust-rails.js's header. -->
+    <script src="trust-rails.js"></script>
     <script defer src="./react.production.min.js"></script>
     <script defer src="./react-dom.production.min.js"></script>
     <script defer src="translations.min.js"></script>
