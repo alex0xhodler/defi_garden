@@ -101,16 +101,61 @@ confirming the mutate/restore cycle left no stale min asset.
 
 ## Class left OPEN, with a number (RAZOR class rule)
 
-This item closes the **hover half** of the banned-motion class only. `@keyframes yieldBounce`
-(`style.css`, applied via `.yield-pulse-active`) is a `scale(1.02)` pop on a bounce easing
-`cubic-bezier(0.34, 1.56, 0.64, 1)` — **both** banned by CLAUDE.md — but it is not a `:hover` rule, so it
-sits outside rule 3's predicate and outside this diff. **1 rule / 1 keyframe block, unguarded**, ticketed
-for its own item. Rule 3 as written would NOT catch a banned scale-pop introduced as a keyframe
-animation tomorrow, and this item does not claim otherwise.
+**CORRECTED after verifier attempt 1 — the first version of this section undercounted the residual and
+used the word "ticketed" for tickets that did not exist.** The verifier found two more members of the
+very class this item claims to have enumerated. Both are recorded here, and the tickets are now real.
+
+This item closes the **hover half** of the banned-motion class only. Left open, **3 members / 2 files**:
+
+| Member | File | Why rule 3 misses it |
+|---|---|---|
+| `@keyframes yieldBounce` (via `.yield-pulse-active`) | style.css | `scale(1.02)` pop on a bounce easing `cubic-bezier(0.34, 1.56, 0.64, 1)` — both CLAUDE.md-banned, but a keyframe, not a `:hover` rule |
+| `@keyframes gpSprout` | planner-styles.css:553-556 | `rotate(4deg) scale(1.08)` at 50% — second unguarded scale-pop keyframe, missed by my first count |
+| `.pool-card:active { transform: translateY(0) scale(0.99) }` | style.css:3161 | the **identical defect** to the `.modal-close:active` scale this diff DID fix — press physics with a scale, on the sacred analytics grid, and a `:active` rule so rule 3's `:hover` predicate cannot see it |
+
+The `.pool-card:active` miss is the instructive one: I fixed `.modal-close:active` on the reasoning that
+one should fix the class rather than the named instance, then failed to enumerate the class I was
+invoking. Partial mitigation, stated for accuracy rather than as a defence: `style.css:5895-5898` sets
+`transform: none !important` on `.pool-card:active` / `.reset-filters-btn:active` / `.modal-close:active`
+under `prefers-reduced-motion`, so the scale is neutralised there — but the default-motion path still
+scales.
+
+**Ticketed for real** (the first draft said "ticketed" when no row existed — that was a false claim, and
+the verifier was right to fail it): **BACKLOG 259** (banned-motion residue: the 2 keyframes + the
+`:active` scale, and widening the gate's predicate from `:hover` to the whole banned-motion class).
+
+Rule 3 as written would NOT catch a banned scale-pop introduced as a keyframe animation tomorrow, and
+this item does not claim otherwise.
 
 The font-stack class **is** closed for the current population: Rule 1 derives the population by glob
 (root `*.css` minus `*.min.css`, plus `stories/stories.css`; a glob returning <4 files fails loudly), so
 a stylesheet added tomorrow is covered on the day it lands, and a hardcoded stack in it fails the gate.
+
+## Deviation 6 (added after verifier attempt 1): the original visual-regression criterion was dropped silently
+
+Original acceptance criterion 6 — *"Visual regression pass at 360/768/1280 × light/dark on grid/detail
+(the 225 screenshot harness, `specs/225-screenshots/capture-shots.js`, reused)"* — did not survive into
+the revised criteria list, and was not recorded as a deviation. That was an omission, not a decision: the
+harness still exists and is runnable, and this diff DOES change rendered typography
+(`.value.token-pair`) and press/hover state on shared modal chrome, so dropping it was not
+self-evidently safe. Recorded here explicitly, and the criterion is reinstated — see the verification
+log below for the pass that was actually run.
+
+## Deviation 7 (added after verifier attempt 1): the uppercase re-scope initially grandfathered 11 rules with no follow-up
+
+The 247-authorship argument is blame-confirmed for **7** of the 24 rules
+(`pool-detail-styles.css:654/1186/1297/1447` ← #409 `514b4ba236`; `planner-styles.css:1929`,
+`planner-styles.css:1934`, `landing-styles.css:491` ← #413 `60278d4d47`). It does **not** reach the 11
+this build's own allowlist labels `unreviewed residue` — including `.filter-label` (style.css:2576),
+`.pool-detail-label` (3253), `.value-filter-label` (5631), `.start-earning-btn` (4576), `.st-eyebrow`
+(stories/stories.css:124) and 5 planner entries, all of which blame to the pre-247 boundary commit
+`d730a7dcc3` and none of which carry the certificate signature this build itself uses as the
+discriminator. Those are exactly the "label/badge classes" the original criterion names.
+
+Leaving them un-swept is still the right call for an autonomous loop — the discriminator is a design
+judgment the human owns — but leaving them un-swept **and unticketed** was claiming a closure that had
+not been filed. Fixed by the honest-no-with-a-ticket-id form: **BACKLOG 260**, carrying the number
+(11), the class, and the open question routed to the human. Rendering remains unchanged in this diff.
 
 ## Tests
 
