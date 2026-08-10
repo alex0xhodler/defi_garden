@@ -2661,7 +2661,7 @@ function App() {
   const totalPages = Math.ceil(filteredPools.length / itemsPerPage);
 
   // Handle pool click to navigate to pool detail page
-  const handlePoolClick = (pool, e, position = -1) => {
+  const handlePoolClick = (pool, e, position = -1, surface) => {
     e.preventDefault();
     e.stopPropagation();
 
@@ -2675,7 +2675,11 @@ function App() {
       selected_token: selectedToken,
       // spec 182 — no gate needed here (this fires from a real click, long
       // after every tier including the baked artifact has had time to load).
-      protocolCtaPresent: !!getProtocolUrlWithRef(pool)
+      protocolCtaPresent: !!getProtocolUrlWithRef(pool),
+      // spec 258: which renderPoolCard instance this click came from (results
+      // grid / empty-state alternatives / dead-pool alternatives) — threaded
+      // in from renderPoolCard, not derived here.
+      surface: surface
     });
 
     // Set the pool for detail view
@@ -2775,12 +2779,15 @@ function App() {
   };
 
   // Handle yield calculator - navigate to pool details page
-  const handleCalculateYield = (pool, e) => {
+  const handleCalculateYield = (pool, e, surface) => {
     e.preventDefault();
     e.stopPropagation();
 
     // Analytics tracking for yield calculation
-    Analytics.trackPoolClick(pool, 'yield_calculator');
+    // spec 258: this call previously passed no context object at all, so
+    // surface had nowhere to go — add one carrying only surface, matching
+    // the trackPoolView context below.
+    Analytics.trackPoolClick(pool, 'yield_calculator', { surface: surface });
 
     // spec 257: this transition into pool-detail was previously un-instrumented
     // for pool_view — the north star's denominator missed this entry path
@@ -2795,7 +2802,9 @@ function App() {
       search_query: selectedToken || selectedChain || 'browse',
       selected_chain: selectedChain,
       selected_token: selectedToken,
-      protocolCtaPresent: !!getProtocolUrlWithRef(pool)
+      protocolCtaPresent: !!getProtocolUrlWithRef(pool),
+      // spec 258: see handlePoolClick's identical surface comment above.
+      surface: surface
     });
 
     // Set the pool for detail view (same logic as handlePoolClick)
@@ -2989,7 +2998,11 @@ function App() {
   // other surface that uses it) is untouched.
   const formatApyGrid = (pct) => Number(pct || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
 
-  const renderPoolCard = (pool, key, position, delayBase) => {
+  // spec 258: `surface` names the RENDERING CONTEXT this card instance is
+  // drawn in ('results' | 'empty_state_alternatives' | 'dead_pool_alternatives'
+  // — see the three call sites below), threaded into both click handlers so
+  // pool_click/pool_view can be attributed without a multi-property join.
+  const renderPoolCard = (pool, key, position, delayBase, surface) => {
     const protocolUrl = getProtocolUrl(pool);
     const quickPreview = getQuickPreview(pool);
     // 225 round 3 increment (a): icon lives in its own grid column, separate
@@ -3001,7 +3014,7 @@ function App() {
     return React.createElement('div', {
       key,
       className: `pool-card animate-on-mount clickable`,
-      onClick: (e) => handlePoolClick(pool, e, position)
+      onClick: (e) => handlePoolClick(pool, e, position, surface)
     },
       // Header: Symbol + Protocol info + APY
       React.createElement('div', { className: 'pool-header-new' },
@@ -3062,7 +3075,7 @@ function App() {
       React.createElement('div', { className: 'pool-cta-section' },
         React.createElement('button', {
           className: 'calculate-yield-btn-new',
-          onClick: (e) => handleCalculateYield(pool, e)
+          onClick: (e) => handleCalculateYield(pool, e, surface)
         }, t('calculateYield'))
       )
     );
@@ -3538,7 +3551,7 @@ function App() {
                 // every row when the live fetch replaced the snapshot (order
                 // shifts), refetching every protocol icon: the visible flicker
                 // right after results appear. Stable id = in-place update.
-                renderPoolCard(pool, pool.pool, (currentPage - 1) * itemsPerPage + index, index * 50)
+                renderPoolCard(pool, pool.pool, (currentPage - 1) * itemsPerPage + index, index * 50, 'results')
               )
             )
           ),
@@ -3599,7 +3612,7 @@ function App() {
             ),
             React.createElement('div', { className: 'pools-grid' },
               emptyAlternatives.items.map((pool, index) =>
-                renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50)
+                renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50, 'empty_state_alternatives')
               )
             )
           ),
@@ -3610,7 +3623,7 @@ function App() {
             ),
             React.createElement('div', { className: 'pools-grid' },
               deadPoolAlternatives.items.map((pool, index) =>
-                renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50)
+                renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50, 'dead_pool_alternatives')
               )
             )
           ),

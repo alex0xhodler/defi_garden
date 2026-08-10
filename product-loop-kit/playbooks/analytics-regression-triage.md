@@ -152,3 +152,56 @@ one, and strictness on the covered paths bought nothing on the uncovered one.
 **Provenance:** item 257 (specs/257.md), found by the 2026-08-10 heartbeat while following a single prod
 `pool_click` to its origin; `signals/2026-08-10.md` §2b(i). Related: 212 (mirror rule), 214 (emitter drops the
 key), RAZOR.md worked example 5.
+
+## Addendum (258, 2026-08-10): the source-derived guard is LEXICAL — say what it can and cannot see
+
+**When:** you are about to write, accept, or cite a gate that derives its population by **parsing source
+text** (the 257 addendum step 4 tells you to derive both sets at test time — this tells you what you have
+actually bought when you do).
+
+**Answer in one line:** a `src.indexOf('someFn(')` scan asserts *"every call site I found is correct"*, never
+*"I found every call site"* — so it fails LOUD for the convention it was written against and goes **silently
+smaller** for anything routed through an alias, `.call`/`.apply`/`.bind`, or a computed reference. Write the
+claim at that width, and state which second leg (if any) covers the rest.
+
+Found in 258: the new `test_pool_click_surface.js` LEG A parses `app.js` for every `renderPoolCard(` call
+site and asserts each passes a literal `surface` argument. The verifier aliased ONE real call site
+(`const rpcAlias = renderPoolCard; rpcAlias(pool, …)` — four args, no surface) and watched the detected
+population go **3 → 2 with no assertion firing**: the scan reported what it found and never asked whether the
+count had shrunk. The rendered LEG B caught that particular mutation, but only because its payload-shape
+assertion demands `surface` unconditionally on the three contexts it drives — not because LEG A noticed.
+A grid that is **both** indirectly called **and** outside the driven URLs is caught by neither.
+
+### Steps
+1. **Write down the string the scan literally searches for.** That string, not your mental model of "call
+   sites", is the population.
+2. **Enumerate the shapes that evade it**: alias/named-constant, `.call`/`.apply`/`.bind`, computed member
+   access, an escape-spelled or template-built identifier. (Item 257's round-4 finding: most of these fall to
+   a modest regex widening — "structurally uncatchable without an AST" is usually false and should not be
+   written without testing it.)
+3. **Test the evasion, do not reason about it.** Introduce ONE evading call site, run the gate, record
+   whether it went RED or the population silently shrank. Restore byte-identically (`md5sum`), file-copy
+   backup — never `git checkout`, which takes the real edits with it.
+4. **Add the cheap half if it is cheap**: an assertion that the detected population never *shrinks* below a
+   derived-at-test-time floor turns the silent case loud without an AST. If you do not add it, say so.
+5. **Write the disclosure into the notes AND the explainer, at equal width.** Notes that say "direct calls"
+   and an explainer that says "any call site" is the same overclaim shipping twice.
+
+### Decision rule
+- Gate fails RED on the evading shape → claim "any call site" honestly.
+- Population silently shrinks → the claim is **"any call site written as a direct call"**, and the sentence
+  must name what closes the remainder (a second rendered leg, a shrink assertion) or admit nothing does.
+- No second leg and no shrink assertion → you have a gate for the convention, not for the class. Shipping it
+  is fine; calling it class-closing is not (RAZOR: no check narrower than the class it guards, no claim wider
+  than the check).
+
+### Traps
+- "It's derived from source, so it can't rot" — derivation kills the *stale-copy* failure (212's mirror), not
+  the *invisible-member* failure. Different defect, different evidence.
+- The evasion test is the only evidence. A guard nobody has watched miss is not known to be narrow **or**
+  wide.
+- Reviewers read the PR explainer, not the notes. The explainer is where an overclaim does its damage.
+
+**Provenance:** item 258 (specs/258.md, specs/258-notes.md), found by the verifier's extension attack on
+LEG A during the 2026-08-10 build run — recorded before merge, with the explainer corrected in the same
+commit. Related: 212 (mirror rule), 214 (emitter drops the key), 257 (transition with no emit), RAZOR.md.
