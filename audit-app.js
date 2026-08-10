@@ -1171,6 +1171,382 @@ function emptyI18nResult() {
   return { scanned: 0, suspectCount: 0, bySignal: {}, allowlistSize: Object.keys(I18N_UNTRANSLATED_ALLOWLIST).length };
 }
 
+// Item 253/256: prescanI18n() above catches a key missing/mistranslated AT
+// THE SOURCE (translations.js itself). It does not catch the sibling failure
+// where the key IS present in the dictionary but a `t()` lookup misses at
+// RENDER time (wrong namespace, stale key reference, a rename that missed
+// one call site) and the app renders the key's own name as if it were copy —
+// item 253's live defect: `.empty-message` rendered the literal
+// `poolNotFoundTitle`, and the existing `waitForSelector` presence check
+// (below, the dead-pool branch) scored that CLEAN because the element WAS
+// there — it just never read what the element said. This family closes the
+// *rendered* leg; the *source* leg is item 255 and deliberately not
+// subsumed here (see specs/256.md's "Class closed" note).
+//
+// 2026-08-10 measurement (backlog 256 follow-up): a dictionary-only
+// population is blind at the exact moment the key is the thing that's
+// wrong — deleting `poolNotFoundTitle` from translations.js shrinks the
+// population exactly when the rendered defect appears, so the gate returned
+// zero findings against a real, Playwright-confirmed `.empty-message`
+// reading the literal text "poolNotFoundTitle". The population is now the
+// UNION of two independently-derived legs:
+//   - Leg A: collectI18nKeyNames() — key names PRESENT in the dictionary
+//     (unchanged, see its own comment below).
+//   - Leg B: collectReferencedKeyNames() — key names REFERENCED at t()/
+//     rootT() call sites in the rendered product source
+//     (collectRenderedScriptSources()); survives a key deleted from the
+//     dictionary because it never reads the dictionary.
+// collectRawKeyPopulation() is the union; scanRawRenderedKeys() below is
+// unchanged — it only ever sees a Set, not which leg(s) contributed a name.
+// 2026-08-10 verifier round 1 (same day, follow-up FAIL): the first cut of
+// leg B's regexes closed only two of the three JS string delimiters and
+// required a bare identifier/literal as rootT()'s first argument — the exact
+// delimiter axis backlog item 257 took three attempts to close (attempt 1:
+// single-quote only; attempt 2: widened to the double-quote variant the
+// verifier had just demonstrated; attempt 3: all three delimiters + trailing
+// comma/whitespace). This file's attempt 1 shipped attempt-2's predicate:
+// `t(`kC`)` (backtick) and `rootT(getLang(), 'kG')` (call-expression first
+// arg) both went uncollected, verified end-to-end (rewrite app.js's call
+// site to a backtick literal, delete the key from both namespaces of
+// translations.js AND translations.min.js, render the dead-pool surface,
+// `.empty-state .empty-message` reads the raw key, `node audit-app.js
+// --only=dead-pool` still returns `findings: []`). T_CALL_RE and
+// ROOT_T_CALL_RE below now accept all three delimiters and a call-expression
+// first argument for rootT(); see their own comments for exactly what widened
+// and why.
+//
+// Residual blind spots, all accepted, stated precisely (not "computed keys"
+// as a catch-all — each is a distinct shape with nothing static to read at
+// scan time, or a static value this scan does not chase):
+//   (a) a genuinely computed key at a call site, e.g. `t(someVar)` or
+//       `t(KEY_CONST)` — the argument is an identifier, not a literal.
+//   (b) a concatenation, e.g. `t('a' + 'b')` — no single literal spans the
+//       whole argument.
+//   (c) an escape-spelled literal, e.g. `t('pool\x4eotFoundTitle')` or a
+//       literal built from `String.fromCharCode(...)` — the regex reads the
+//       source text of the literal, not its evaluated value.
+//   (d) a key reached only through an alias or a named constant assigned
+//       elsewhere (`const k = 'poolNotFoundTitle'; t(k)`) — the literal
+//       exists in the file but not at the call site itself.
+//   (e) scanRawRenderedKeys() is exact-LINE matching (its own comment) — an
+//       inline raw key sharing a line with other text is not caught,
+//       regardless of which leg the key name came from.
+// signal -> severity, single source of truth, same role as I18N_SIGNALS.
+const I18N_RAW_KEY_SIGNALS = { 'i18n:raw-key-rendered': 'P1' };
+
+// Builds the set of every translation-KEY-NAME that would read as a raw,
+// untranslated identifier if it ever escaped onto the page. Derived from the
+// parsed dictionary at run time (never hardcoded) so a key added, renamed, or
+// emptied in translations.js is caught with zero change to this file — the
+// acceptance criterion in specs/256.md.
+//
+// Both namespaces are flattened with the SAME flattenI18nDict() prescanI18n()
+// already uses above — one walker, not two. Each flattened path contributes
+// two candidate strings, because two different miss shapes render two
+// different things:
+//   - the FULL dotted path (e.g. "planner.goalClaude", "poolNotFoundTitle"):
+//     this is what a raw JS object dotted-key would look like if ever printed
+//     whole, and matches prescanI18n()'s own key vocabulary.
+//   - the LAST dotted segment alone (e.g. "goalClaude"): this is what
+//     actually renders in practice. translations.js's own root t() (see
+//     createTranslationFunction(), translations.js ~1564-1580) echoes the
+//     bare top-level KEY STRING back on a double miss — for a top-level key
+//     that bare key and the full path are identical, but for a namespaced
+//     miss the two other callers below only ever see the bare segment:
+//     planner.js's makeT() (planner.js:888-899, `return v == null ? key :
+//     v;` on line 898) looks up `dict[key]` inside the already-selected
+//     `planner` namespace and echoes the bare `key` on a miss, never a
+//     "planner.xxx"-shaped string. (landing.js's `getCopy()`, landing.js:
+//     57-59, was previously cited here too — it is NOT a bare-leaf-echo
+//     site: it returns the `landing` namespace object itself, so a missing
+//     property reads as `undefined`/blank at the call site, never the key's
+//     own name. Corrected 2026-08-10; the bare-leaf justification rests on
+//     planner.js's makeT() alone.) Both the full-path and bare-leaf shapes
+//     above are genuinely renderable, so both go in.
+function collectI18nKeyNames(opts = {}) {
+  let dict = opts.dict;
+  if (dict === undefined) {
+    try {
+      dict = require('./translations.js').translations;
+    } catch (e) {
+      console.error(`[audit] raw-key scan: translations.js unreadable/unparseable — ${e.message}`);
+      return new Set();
+    }
+  }
+  if (!dict || typeof dict !== 'object' || !dict.en || typeof dict.en !== 'object' || !dict.ko || typeof dict.ko !== 'object') {
+    console.error('[audit] raw-key scan: dictionary missing en/ko namespaces — skipped');
+    return new Set();
+  }
+
+  let enFlat, koFlat;
+  try {
+    enFlat = flattenI18nDict(dict.en, '', {});
+    koFlat = flattenI18nDict(dict.ko, '', {});
+  } catch (e) {
+    console.error(`[audit] raw-key scan: dictionary could not be flattened — ${e.message}`);
+    return new Set();
+  }
+
+  const names = new Set();
+  for (const keyPath of [...Object.keys(enFlat), ...Object.keys(koFlat)]) {
+    if (!keyPath) continue; // defensive: empty segment, never a real key
+    names.add(keyPath);
+    const lastDot = keyPath.lastIndexOf('.');
+    const leaf = lastDot === -1 ? keyPath : keyPath.slice(lastDot + 1);
+    if (leaf) names.add(leaf);
+  }
+  return names;
+}
+
+// ---------------------------------------------------------------------------
+// Item 256 follow-up (leg B) — see the "2026-08-10 measurement" comment on
+// I18N_RAW_KEY_SIGNALS above for why this leg exists at all.
+// ---------------------------------------------------------------------------
+
+// The FILE population Leg B scans, derived from the render mechanism itself
+// — never a hand-maintained file list. Walks the two shells the audit's own
+// surfaces load (every surface URL is `/`, `/home.html…`, or `/plan.html…`)
+// and follows their OWN script-loading mechanics — including the one that
+// is NOT a static `<script src>` tag: home.html injects the analytics-app
+// bundles at run time via `addScript(...)` inside a parser-blocking inline
+// script (item 244's boot-order barrier), so a tag-only scan would miss
+// app.js/PoolDetail.js entirely. Both shapes are matched below.
+//
+// Disclosure (2026-08-10, verifier round 1): the SHELL list itself
+// (`collectRenderedScriptSources()`'s `shellPaths` default, just below —
+// `home.html` and `plan.html`) is HARDCODED. Only the SCRIPT list *under*
+// each shell is derived by walking that shell's own markup; nothing ties the
+// two-shell default to the audit's own surface URL list (SURFACES below), so
+// a future surface served from a third shell would silently sit outside leg
+// B's file population unless this default is updated by hand. Not a live
+// hole today — verified directly: `tokens/*.html` and `stories/*.html` (the
+// two other page families the audit visits) carry only the absolute
+// `<script src="https://www.defi.garden/analytics.js">` tag and zero `t('`
+// call sites, so there is currently nothing on those pages for leg B to
+// miss — but the mechanism is a hardcoded list, not a derived one, and this
+// says so plainly rather than by omission.
+//
+// opts.shells: test-injection hook, an array of ABSOLUTE PATHS (strings),
+// read from disk in place of the real home.html/plan.html — chosen over
+// `{ path, source }` because this leg's job is reading real disk paths;
+// content-injection for a *script* is opts.files on the function below.
+const SCRIPT_TAG_SRC_RE = /<script\b[^>]*\bsrc\s*=\s*(['"])([^'"]+)\1/gi;
+const ADD_SCRIPT_CALL_RE = /\baddScript\(\s*(['"])([^'"]+)\1/g;
+
+function localScriptSrcsFromHtml(html) {
+  const srcs = [];
+  const seen = new Set();
+  const collect = (re) => {
+    re.lastIndex = 0;
+    let m;
+    while ((m = re.exec(html)) !== null) {
+      let src = m[2];
+      if (/^(?:[a-z]+:)?\/\//i.test(src)) continue; // absolute/protocol-relative — out of scope
+      const qIdx = src.search(/[?#]/);
+      if (qIdx !== -1) src = src.slice(0, qIdx); // ignore query strings
+      src = src.replace(/^\.\//, '').replace(/^\/+/, '');
+      if (!src || seen.has(src)) continue;
+      seen.add(src);
+      srcs.push(src);
+    }
+  };
+  collect(SCRIPT_TAG_SRC_RE);
+  collect(ADD_SCRIPT_CALL_RE);
+  return srcs;
+}
+
+// Served artifact -> authored source: strips trailing `.compiled`/`.min`
+// infixes one at a time until none remain (`app.compiled.min.js` ->
+// `app.compiled.js` -> `app.js`). The served and source files contain the
+// same string literals the t()/rootT() regexes look for, so reading the
+// source keeps the scan readable and independent of the build step
+// (compile-app.js/minify-assets.js).
+function stripBuildInfixes(filename) {
+  let name = filename;
+  let prev;
+  do {
+    prev = name;
+    name = name.replace(/\.(?:compiled|min)\.js$/, '.js');
+  } while (name !== prev);
+  return name;
+}
+
+function collectRenderedScriptSources(opts = {}) {
+  let shellPaths = opts.shells;
+  if (shellPaths === undefined) shellPaths = [path.join(ROOT, 'home.html'), path.join(ROOT, 'plan.html')];
+
+  const shells = [];
+  for (const p of shellPaths) {
+    try { shells.push({ path: p, source: fs.readFileSync(p, 'utf8') }); }
+    catch (e) { console.error(`[audit] raw-key scan: shell unreadable — ${p}: ${e.message}`); }
+  }
+
+  const out = [];
+  const seenPaths = new Set();
+  for (const shell of shells) {
+    let srcs;
+    try { srcs = localScriptSrcsFromHtml(shell.source); }
+    catch (e) { console.error(`[audit] raw-key scan: could not parse shell ${shell.path} — ${e.message}`); continue; }
+    for (const src of srcs) {
+      const servedPath = path.join(ROOT, src);
+      const sourcePath = path.join(ROOT, stripBuildInfixes(src));
+      const finalPath = (sourcePath !== servedPath && fs.existsSync(sourcePath)) ? sourcePath : servedPath;
+      if (seenPaths.has(finalPath)) continue;
+      seenPaths.add(finalPath);
+      let content;
+      try { content = fs.readFileSync(finalPath, 'utf8'); }
+      catch (e) { console.error(`[audit] raw-key scan: script unreadable — ${finalPath}: ${e.message}`); continue; }
+      out.push({ path: finalPath, source: content });
+    }
+  }
+  return out;
+}
+
+// t('key') / t("key") / t(`key`) — the shared, single-arg lookup function
+// every namespace's t() ends up being (app.js's createTranslationFunction,
+// planner.js's makeT()'s inner `t`, ~line 888). All three JS string
+// delimiters are accepted via the backreferenced group 1 (2026-08-10
+// verifier round 1: the prior version only had `['"]`, missing the backtick
+// shape `t(`kC`)` entirely — see the "verifier round 1" comment block above
+// I18N_RAW_KEY_SIGNALS for the full defeat). Matches only when the ENTIRE
+// first argument is one delimited identifier-shaped literal — the
+// backreferenced delimiter plus the requirement that a `,` or `)` (a
+// complete argument's boundary) immediately follows the closing delimiter is
+// what keeps a computed key like `t('a' + 'b')` from contributing its first
+// fragment ("a") as if it were a real key (documented blind spot (b) above).
+// The identifier charclass `[A-Za-z_$][\w$]*` never contains `{`, so a
+// backtick literal WITH interpolation (`` t(`pre${x}`) ``) still cannot
+// match: the engine can consume the `$` via `[\w$]*` but then needs the
+// closing backtick immediately, and the actual next character is `{` — every
+// possible backtrack fails, so the whole call is correctly left uncollected
+// (verified directly, see this item's probe table).
+const T_CALL_RE = /\bt\(\s*(['"`])([A-Za-z_$][\w$]*)\1\s*[,)]/g;
+
+// rootT(lang, 'key') — planner.js's ~line 901 two-arg root-namespace
+// accessor (see rootT()'s own comment above collectI18nKeyNames()). The key
+// (second argument) accepts all three delimiters, same as T_CALL_RE.
+//
+// The first argument (the language expression) was previously constrained to
+// `[^,()]+` — i.e. no parens at all — which rejected any call expression as
+// the first arg, including the real shape `rootT(getLang(), 'kG')` (2026-08-10
+// verifier round 1 defeat). Widened to
+// `(?:[^()]|\([^()]*\))*` — any run of non-paren characters, OR a
+// single-level-balanced `(...)` group, repeated. This deliberately allows a
+// *shallow* call expression (`getLang()`, `a.b()`, `a.b(x, y)`) as the first
+// argument while staying bounded to THIS call: a lone, unmatched `)` (the
+// call's own closing paren) can never be consumed by either alternative, so
+// the greedy match backtracks only as far as the actual second-argument
+// literal. Stated exactly (2026-08-10 verifier round 2, which measured this
+// rather than reasoning about it): the match never reads past the FIRST
+// UNMATCHED `)` — which in syntactically valid JS is always this call's own,
+// so it cannot bleed into a subsequent `rootT(...)`/`t(...)` call. Measured
+// non-bleed cases: `rootT(lang); foo(a, 'BLEED')` → nothing; `wrap(rootT(l,
+// 'k1'), 'BLEED')` → `k1` only; adjacent `rootT` calls resolve independently.
+// The invariant is about the first unmatched paren, NOT about "its own"
+// paren, and the difference is only visible on input that is not valid JS
+// (an unclosed `rootT(` can reach a later literal) — recorded so the claim
+// says what it can actually defend.
+//
+// One over-collection is possible and is population-widening only: a
+// hypothetical THREE-argument `rootT(l, 'k1', 'EXTRA')` backtracks to the
+// LAST literal, harvesting `EXTRA` and missing `k1`. `rootT` is declared
+// two-arg (`planner.js:901`) with exactly one call site
+// (`planner.js:4856`), so no such shape exists — noted, not fixed, because
+// widening a population never causes a missed defect, only a possible false
+// positive, and the FP control covers that direction.
+// Also unchanged from attempt 1 and inherent to a lexical scan: a `rootT(…)`
+// spelled inside a COMMENT is harvested. Same direction (widening), same
+// reason it is tolerable.
+//
+// It does not handle a first argument containing
+// TWO nested levels of parens, or a first argument whose text contains an
+// unbalanced paren inside a string literal — both out of scope, no such call
+// site exists in this repo today. Robust to both `rootT(lang, 'kF')` (plain
+// identifier, matches the fallback `[^()]` branch) and `rootT(getLang(),
+// 'kG')` / `rootT(a.b(), 'k')` (single-level call expression, matches the
+// `\([^()]*\)` branch) — proven in the probe table below.
+const ROOT_T_CALL_RE = /\brootT\(\s*(?:[^()]|\([^()]*\))*,\s*(['"`])([A-Za-z_$][\w$]*)\1\s*[,)]/g;
+
+function addKeyMatches(re, source, out) {
+  re.lastIndex = 0;
+  let m;
+  while ((m = re.exec(source)) !== null) out.add(m[2]);
+}
+
+// Returns a Set of key-name string literals referenced by t()/rootT() call
+// sites in the rendered scripts. opts.files: test-injection hook, an array
+// of `{ path, source }` (source = file CONTENT, not a path) — same
+// convention as collectI18nKeyNames()'s opts.dict — so a test can prove a
+// call site exists without touching a real file on disk. Never throws.
+function collectReferencedKeyNames(opts = {}) {
+  let files = opts.files;
+  if (files === undefined) {
+    try { files = collectRenderedScriptSources(opts); }
+    catch (e) { console.error(`[audit] raw-key scan: could not derive script sources — ${e.message}`); files = []; }
+  }
+  const names = new Set();
+  for (const file of files || []) {
+    if (!file || typeof file.source !== 'string') continue;
+    try {
+      addKeyMatches(T_CALL_RE, file.source, names);
+      addKeyMatches(ROOT_T_CALL_RE, file.source, names);
+    } catch (e) {
+      console.error(`[audit] raw-key scan: could not scan ${file && file.path ? file.path : '(unknown)'} for t()/rootT() call sites — ${e.message}`);
+    }
+  }
+  return names;
+}
+
+// The population scanRawRenderedKeys() is actually run against: the union
+// of leg A (dictionary key names, opts.dict) and leg B (referenced key
+// names, opts.files/opts.shells) — see the "2026-08-10 measurement" comment
+// on I18N_RAW_KEY_SIGNALS above for why a dictionary-only population is
+// insufficient. opts is passed through unchanged to both legs; each leg
+// reads only the opts key(s) it understands.
+function collectRawKeyPopulation(opts = {}) {
+  const union = new Set(collectI18nKeyNames(opts));
+  for (const k of collectReferencedKeyNames(opts)) union.add(k);
+  return union;
+}
+
+// Memoized at module scope — neither leg's input changes mid-process, so
+// every surface driver shares one derivation instead of re-deriving both
+// legs once per surface (83+ surfaces in a full run).
+let _rawKeyPopulationCache = null;
+function rawKeyPopulation() {
+  if (!_rawKeyPopulationCache) _rawKeyPopulationCache = collectRawKeyPopulation();
+  return _rawKeyPopulationCache;
+}
+
+// Pure, in-Node predicate mirroring scanNumbers()'s shape: takes rendered
+// text (document.body.innerText, already pulled by auditText below) and the
+// key-name set, returns human-readable detail strings.
+//
+// Exact-match-only after trim, line-by-line — NOT a substring/contains test.
+// innerText line-breaks roughly on block boundaries, so a heading/label that
+// renders as nothing but a raw key is its own line; a key merely mentioned
+// inside a longer sentence never is. This is a deliberate, accepted blind
+// spot: an inline raw key sharing a line with other text (e.g. "Loading
+// poolNotFoundTitle...") is not caught, because exact-line matching is what
+// keeps false positives at zero on real copy — and presence-over-precision
+// is exactly the failure mode this item exists to correct (spec 256), so the
+// predicate stays conservative in the other direction rather than risk
+// flagging an English sentence that happens to contain a key as a substring
+// (e.g. the word "plan").
+function scanRawRenderedKeys(text, keyNames) {
+  const hits = [];
+  const seen = new Set();
+  for (const rawLine of String(text || '').split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line) continue;
+    if (!keyNames.has(line)) continue;
+    if (seen.has(line)) continue; // de-dup: same offending key, once per surface
+    seen.add(line);
+    hits.push(`raw translation key rendered as text: "${line}"`);
+  }
+  return hits;
+}
+
 function defaultStaticSeed() {
   // UTC date, YYYY-MM-DD. The one documented Date-based input: it changes
   // once a day, not on every invocation, so a same-day re-run reproduces the
@@ -3625,8 +4001,25 @@ async function auditText(page, s, findings) {
   for (const detail of scanNumbers(text)) {
     findings.push(finding(s.name, s.vpLabel, 'number-sanity', 'P0', detail));
   }
+  // Item 256: runs on every surface this shared collector already visits (no
+  // new page loads, no new rotation cost) — the class this item closes is a
+  // rendered raw translation key, which can surface on any page, not only
+  // the dead-pool empty state that first exposed it (item 253).
+  for (const detail of scanRawRenderedKeys(text, rawKeyPopulation())) {
+    findings.push(finding(s.name, s.vpLabel, 'i18n:raw-key-rendered', I18N_RAW_KEY_SIGNALS['i18n:raw-key-rendered'], detail));
+  }
   return text;
 }
+// Disclosure (2026-08-10, verifier round 1): auditText() is NOT called by
+// every surface driver, contrary to the loose "the single text collector
+// every surface driver already calls" framing elsewhere — the `s.kind ===
+// 'loading'` branch (below, the surface driver's `if (s.kind === 'loading')`
+// block) returns its findings directly and never calls auditText(), so the
+// `grid-loading` surface sits outside this predicate entirely: a raw
+// translation key rendered only during that surface's forced-live loading
+// window would not be caught by leg A, leg B, or scanRawRenderedKeys() at
+// all. Stated here rather than left implied by the surrounding "every
+// surface" language.
 
 async function main(browser, baseUrl, s, ctx) {
   const page = await browser.newPage({ viewport: { width: s.width, height: 900 } });
@@ -5249,6 +5642,17 @@ module.exports = {
   // either) is exported so the exact-key-path (never prefix/substring) test
   // can read the seeded allowlist directly.
   prescanI18n, I18N_UNTRANSLATED_ALLOWLIST,
+  // item 256 — exported so test_audit_raw_key_rendered.js can drive the
+  // key-name derivation and the predicate directly (with opts.dict
+  // injection, same convention as prescanI18n above), and assert the
+  // severity constant instead of re-typing 'P1' (the item-159 rule).
+  collectI18nKeyNames, scanRawRenderedKeys, I18N_RAW_KEY_SIGNALS,
+  // item 256 follow-up (leg B, 2026-08-10) — exported so
+  // test_audit_raw_key_rendered.js can drive the referenced-call-site leg,
+  // the file-population derivation, and the union directly (opts.files/
+  // opts.shells injection, same convention as opts.dict above) without
+  // mutating the real translations.js to prove the deleted-key case.
+  collectRenderedScriptSources, collectReferencedKeyNames, collectRawKeyPopulation,
   // backlog 191 — exported so tests interpolate the real rotation-budget
   // constants (default + ceiling) instead of re-typing them (item-159 rule).
   DEFAULT_POOL_SAMPLE, MAX_POOL_SAMPLE,
