@@ -4,7 +4,7 @@ The highest honest PRIZE yield right now is 0.03% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8526d872-2e67-4f2b-bbfd-2b47263d30cf&src=seo_token) | Solana | 0.03% | $873.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=8526d872-2e67-4f2b-bbfd-2b47263d30cf&src=seo_token) | Solana | 0.03% | $871.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PRIZE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $873.3K in total.
+1 live pool clear this page's $100K TVL floor, $871.2K in total.
 
 ### Are these rates safe?
 
@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

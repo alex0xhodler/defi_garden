@@ -4,8 +4,8 @@ The highest honest JSOL yield right now is 5.31% on jpool (Solana), among 4 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.31% | $106.31M |
-| [project-0 →](https://www.defi.garden/?pool=348f14cd-25f3-436c-b2a5-2e2c15f8353b&src=seo_token) | Solana | 0.01% | $131.1K |
+| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.31% | $105.57M |
+| [project-0 →](https://www.defi.garden/?pool=348f14cd-25f3-436c-b2a5-2e2c15f8353b&src=seo_token) | Solana | 0.01% | $129.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 JSOL shows up in 2 pools here, with rates from 0.01% to 5.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JSOL pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $113.37M in total.
+4 live pools clear this page's $100K TVL floor, $112.57M in total.
 
 ### Are these rates safe?
 
@@ -43,9 +43,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

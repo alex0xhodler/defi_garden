@@ -4,7 +4,7 @@ The highest honest EDGEUSDC yield right now is 6.02% on morpho-blue (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c29704a4-3537-459d-bc4d-1f8812f28bcd&src=seo_token) | Base | 6.02% | $413.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=c29704a4-3537-459d-bc4d-1f8812f28bcd&src=seo_token) | Base | 6.02% | $415.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EDGEUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $413.4K in total.
+1 live pool clear this page's $100K TVL floor, $415.4K in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

@@ -1,25 +1,25 @@
 # DUSD 디파이 수익률
 
-현재 DUSD의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 17.78%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DUSD의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 18.15%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 9.80% | $5.4M |
-| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 8.50% | $2.15M |
-| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 11.54% | $1.61M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 6.40% | $853K |
-| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.09% | $804.7K |
-| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 17.78% | $320.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.17% | $218.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d7b6859d-8406-45c5-b2e4-cb5a51f791ce&src=seo_token) | Ethereum | 0.68% | $141.7K |
+| [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 10.59% | $5.41M |
+| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 8.68% | $2.15M |
+| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 11.73% | $1.61M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 6.51% | $853K |
+| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.01% | $804.7K |
+| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 18.15% | $320.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.11% | $218.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d7b6859d-8406-45c5-b2e4-cb5a51f791ce&src=seo_token) | Ethereum | 6.92% | $141.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.09%부터 17.78%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 18.15%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.57%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.65%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ DUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.09%부터 17.78%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| makina | 9.80% | 5.57% | 기본 금리 |
-| curve-dex | 8.50% | 5.59% | 인센티브 100.00% |
-| convex-finance | 11.54% | 7.86% | 인센티브 99.91% |
-| curve-dex | 6.40% | 4.27% | 인센티브 80.93% |
-| defichain-dex | 0.09% | 0.39% | 기본 금리 |
-| stake-dao | 17.78% | 12.89% | 인센티브 99.94% |
-| raydium-amm | 0.17% | 0.22% | 기본 금리 |
-| uniswap-v4 | 0.68% | — | 기본 금리 |
+| makina | 10.59% | 5.67% | 기본 금리 |
+| curve-dex | 8.68% | 5.63% | 인센티브 100.00% |
+| convex-finance | 11.73% | 7.93% | 인센티브 99.91% |
+| curve-dex | 6.51% | 4.29% | 인센티브 81.25% |
+| defichain-dex | 0.01% | 0.38% | 기본 금리 |
+| stake-dao | 18.15% | 12.98% | 인센티브 99.94% |
+| raydium-amm | 0.11% | 0.22% | 기본 금리 |
+| uniswap-v4 | 6.92% | 981.56% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,7 +42,7 @@ DUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.09%부터 17.78%�
 
 ### 오늘 DUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 17.78%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 18.15%예요.
 
 ### DUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

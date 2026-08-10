@@ -1,19 +1,19 @@
 # MSTRX DeFi Yields
 
-The highest honest MSTRX yield right now is 22.77% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSTRX yield right now is 44.67% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token) | Solana | 22.77% | $552.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token) | Solana | 17.45% | $360.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=340cf7b7-9654-4f2c-9d30-e519dbde849d&src=seo_token) | Solana | 44.67% | $554K |
+| [raydium-amm →](https://www.defi.garden/?pool=e72ac43f-66a2-4f2b-a08c-6280cd5fe45b&src=seo_token) | Solana | 35.23% | $357.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSTRX shows up in 2 pools here, with rates from 17.45% to 22.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSTRX shows up in 2 pools here, with rates from 35.23% to 44.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 33.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 33.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 22.77% | 37.56% | Base rate |
-| raydium-amm | 17.45% | 28.73% | Base rate |
+| raydium-amm | 44.67% | 37.40% | Base rate |
+| raydium-amm | 35.23% | 28.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSTRX yield today?
 
-22.77% APY on raydium-amm (Solana), based on live DefiLlama data.
+44.67% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MSTRX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.19M in total.
+3 live pools clear this page's $100K TVL floor, $2.18M in total.
 
 ### Are these rates safe?
 
@@ -45,9 +45,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

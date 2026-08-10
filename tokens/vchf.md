@@ -1,20 +1,20 @@
 # VCHF DeFi Yields
 
-The highest honest VCHF yield right now is 4.73% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VCHF yield right now is 4.57% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 3.85% | $445.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token) | Solana | 0.20% | $309.8K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token) | Base | 4.73% | $186.9K |
+| [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 4.40% | $447.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token) | Solana | 0.14% | $309.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token) | Base | 4.57% | $187K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VCHF shows up in 3 pools here, with rates from 0.20% to 4.73% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+VCHF shows up in 3 pools here, with rates from 0.14% to 4.57% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.65% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ VCHF shows up in 3 pools here, with rates from 0.20% to 4.73% APY across 3 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| icpswap | 3.85% | 5.68% | Base rate |
-| raydium-amm | 0.20% | 0.30% | Base rate |
-| aerodrome-slipstream | 4.73% | 8.83% | 72.83% incentives |
+| icpswap | 4.40% | 5.65% | Base rate |
+| raydium-amm | 0.14% | 0.30% | Base rate |
+| aerodrome-slipstream | 4.57% | 8.83% | 74.56% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VCHF yield today?
 
-4.73% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+4.57% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many VCHF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $942.4K in total.
+3 live pools clear this page's $100K TVL floor, $944.2K in total.
 
 ### Are these rates safe?
 
@@ -46,10 +46,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 

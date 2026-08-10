@@ -40,12 +40,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
+- [LIMUSD](https://www.defi.garden/tokens/limusd)
 
 ## Available on
 

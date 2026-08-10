@@ -4,16 +4,16 @@ The highest honest FLI yield right now is 17.17% on arrakis-v1 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token) | Ethereum | 1.68% | $259.7K |
-| [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $144.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token) | Ethereum | 1.88% | $253.4K |
+| [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $140.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FLI shows up in 2 pools here, with rates from 1.68% to 17.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FLI shows up in 2 pools here, with rates from 1.88% to 17.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.68% | 0.33% | Base rate |
-| arrakis-v1 | 17.17% | 16.83% | Base rate |
+| uniswap-v3 | 1.88% | 0.34% | Base rate |
+| arrakis-v1 | 17.17% | 16.97% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FLI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $403.8K in total.
+2 live pools clear this page's $100K TVL floor, $394.3K in total.
 
 ### Are these rates safe?
 

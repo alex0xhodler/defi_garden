@@ -4,7 +4,7 @@ The highest honest ANKRAVAX yield right now is 4.96% on ankr (Avalanche), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=6c8f48ae-27f9-4829-866f-7cb08841e816&src=seo_token) | Avalanche | 4.96% | $102.5K |
+| [ankr →](https://www.defi.garden/?pool=6c8f48ae-27f9-4829-866f-7cb08841e816&src=seo_token) | Avalanche | 4.96% | $102.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ANKRAVAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.5K in total.
+1 live pool clear this page's $100K TVL floor, $102.4K in total.
 
 ### Are these rates safe?
 

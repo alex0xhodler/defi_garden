@@ -4,7 +4,7 @@ The highest honest HYPERCBBTCA yield right now is 0.86% on morpho-blue (Monad), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ef0054c3-af89-4aa9-84e9-bb288738d9aa&src=seo_token) | Monad | 0.86% | $7.52M |
+| [morpho-blue →](https://www.defi.garden/?pool=ef0054c3-af89-4aa9-84e9-bb288738d9aa&src=seo_token) | Monad | 0.86% | $7.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HYPERCBBTCA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.52M in total.
+1 live pool clear this page's $100K TVL floor, $7.45M in total.
 
 ### Are these rates safe?
 

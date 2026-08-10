@@ -1,10 +1,10 @@
 # ANDY DeFi Yields
 
-The highest honest ANDY yield right now is 2.93% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANDY yield right now is 1.86% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token) | Ethereum | 2.93% | $886K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0004a5d4-ce6d-43ba-ab8a-64ff555b3853&src=seo_token) | Ethereum | 1.86% | $860.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANDY yield today?
 
-2.93% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.86% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ANDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $886K in total.
+1 live pool clear this page's $100K TVL floor, $860.2K in total.
 
 ### Are these rates safe?
 

@@ -5,22 +5,22 @@ The highest honest SJEUR yield right now is 18.54% on spectra-v2 (Base), among 2
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [spectra-v2 →](https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token) | Base | 18.54% | $212K |
-| [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 10.60% | $212K |
+| [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 10.62% | $212K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SJEUR shows up in 2 pools here, with rates from 10.60% to 18.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SJEUR shows up in 2 pools here, with rates from 10.62% to 18.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| spectra-v2 | 18.54% | 15.77% | 38.59% incentives |
-| spectra-v2 | 10.60% | 9.39% | 67.49% incentives |
+| spectra-v2 | 18.54% | 15.80% | 38.59% incentives |
+| spectra-v2 | 10.62% | 9.40% | 67.39% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SJEUR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $423.9K in total.
+2 live pools clear this page's $100K TVL floor, $424K in total.
 
 ### Are these rates safe?
 
@@ -42,10 +42,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

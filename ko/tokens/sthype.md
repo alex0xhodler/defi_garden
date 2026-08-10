@@ -40,12 +40,12 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 pendle에서 APY 2.46%�
 
 ## 관련 토큰
 
-- [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
+- [LIMUSD](https://www.defi.garden/ko/tokens/limusd)
 
 ## 이용 가능한 체인
 

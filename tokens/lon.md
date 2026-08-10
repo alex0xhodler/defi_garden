@@ -4,16 +4,16 @@ The highest honest LON yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.01% | $1.43M |
-| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.06% | $127.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.01% | $1.42M |
+| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.20% | $126.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LON shows up in 2 pools here, with rates from 0.01% to 0.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LON shows up in 2 pools here, with rates from 0.01% to 0.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.01% | 0.35% | Base rate |
-| sushiswap | 0.06% | 0.83% | Base rate |
+| uniswap-v2 | 0.01% | 0.36% | Base rate |
+| sushiswap | 0.20% | 0.83% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

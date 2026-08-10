@@ -1,10 +1,10 @@
 # SJUSD DeFi Yields
 
-The highest honest SJUSD yield right now is 2.96% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SJUSD yield right now is 1.47% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=a2bedb1d-9534-4544-9d93-9142bfd27fd5&src=seo_token) | Ethereum | 2.96% | $421.2K |
+| [curve-dex →](https://www.defi.garden/?pool=a2bedb1d-9534-4544-9d93-9142bfd27fd5&src=seo_token) | Ethereum | 1.47% | $421.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SJUSD yield today?
 
-2.96% APY on curve-dex (Ethereum), based on live DefiLlama data.
+1.47% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many SJUSD pools clear the TVL floor?
 

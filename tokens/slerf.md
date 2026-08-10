@@ -4,7 +4,7 @@ The highest honest SLERF yield right now is 0.10% on orca-dex (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 0.10% | $112.3K |
+| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 0.10% | $111.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SLERF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.3K in total.
+1 live pool clear this page's $100K TVL floor, $111.8K in total.
 
 ### Are these rates safe?
 
@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

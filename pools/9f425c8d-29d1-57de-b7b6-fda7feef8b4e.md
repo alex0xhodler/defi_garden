@@ -1,12 +1,12 @@
 # GCFA — balancer-v3 on Ethereum
 
-**Total APY:** 1.21% (0.13% Base · + 1.08% Rewards)
+**Total APY:** 1.21% (0.13% Base · + 1.07% Rewards)
 
-**TVL:** $197.8K
+**TVL:** $198K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 1.16%
+**30d Mean APY:** 1.15%
 
 **Exposure:** single
 

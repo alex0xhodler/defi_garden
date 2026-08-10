@@ -1,22 +1,22 @@
 # YCRV DeFi Yields
 
-The highest honest YCRV yield right now is 16.21% on yearn-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YCRV yield right now is 16.18% on yearn-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 16.21% | $7.18M |
-| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.18% | $1.37M |
-| [yearn-finance →](https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token) | Ethereum | 13.85% | $1.16M |
-| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 14.21% | $980.5K |
-| [stake-dao →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 7.01% | $249.5K |
+| [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 16.18% | $6.92M |
+| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.74% | $1.33M |
+| [yearn-finance →](https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token) | Ethereum | 14.29% | $1.13M |
+| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 15.03% | $952.5K |
+| [stake-dao →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 7.05% | $242.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YCRV shows up in 5 pools here, with rates from 7.01% to 16.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YCRV shows up in 5 pools here, with rates from 7.05% to 16.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 14.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 14.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -24,11 +24,11 @@ YCRV shows up in 5 pools here, with rates from 7.01% to 16.21% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 16.21% | 19.08% | Base rate |
-| curve-dex | 8.18% | 8.86% | 98.17% incentives |
-| yearn-finance | 13.85% | 14.68% | Base rate |
-| convex-finance | 14.21% | 15.23% | 98.94% incentives |
-| stake-dao | 7.01% | 14.39% | Base rate |
+| yearn-finance | 16.18% | 18.94% | Base rate |
+| curve-dex | 8.74% | 8.85% | 96.45% incentives |
+| yearn-finance | 14.29% | 14.63% | Base rate |
+| convex-finance | 15.03% | 15.22% | 97.94% incentives |
+| stake-dao | 7.05% | 14.35% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,11 +36,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YCRV yield today?
 
-16.21% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+16.18% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YCRV pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $10.94M in total.
+5 live pools clear this page's $100K TVL floor, $10.57M in total.
 
 ### Are these rates safe?
 

@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 OVN shows up in 2 pools here, with rates from 1.43% to 3.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,7 +21,7 @@ OVN shows up in 2 pools here, with rates from 1.43% to 3.66% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 1.43% | 1.82% | 100.00% incentives |
+| aerodrome-v1 | 1.43% | 1.80% | 100.00% incentives |
 | overnight-finance | 3.66% | 3.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OVN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $698.5K in total.
+3 live pools clear this page's $100K TVL floor, $698K in total.
 
 ### Are these rates safe?
 
@@ -44,10 +44,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # YIELDUSDT DeFi Yields
 
-The highest honest YIELDUSDT yield right now is 9.50% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YIELDUSDT yield right now is 9.55% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=5a50dd87-9597-4462-b286-be3e535959f5&src=seo_token) | Ethereum | 9.50% | $1.07M |
+| [lagoon →](https://www.defi.garden/?pool=5a50dd87-9597-4462-b286-be3e535959f5&src=seo_token) | Ethereum | 9.55% | $1.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YIELDUSDT yield today?
 
-9.50% APY on lagoon (Ethereum), based on live DefiLlama data.
+9.55% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many YIELDUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.07M in total.
+1 live pool clear this page's $100K TVL floor, $1.14M in total.
 
 ### Are these rates safe?
 

@@ -1,19 +1,19 @@
 # WEGLD DeFi Yields
 
-The highest honest WEGLD yield right now is 3.51% on xexchange (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WEGLD yield right now is 3.47% on xexchange (MultiversX), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 2.89% | $833.8K |
-| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 3.51% | $169.7K |
+| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 2.95% | $833.3K |
+| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 3.47% | $169.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WEGLD shows up in 2 pools here, with rates from 2.89% to 3.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WEGLD shows up in 2 pools here, with rates from 2.95% to 3.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.25% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ WEGLD shows up in 2 pools here, with rates from 2.89% to 3.51% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 2.89% | 6.27% | 34.28% incentives |
-| xexchange | 3.51% | 4.23% | 96.86% incentives |
+| xexchange | 2.95% | 6.25% | 33.50% incentives |
+| xexchange | 3.47% | 4.23% | 98.06% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WEGLD yield today?
 
-3.51% APY on xexchange (MultiversX), based on live DefiLlama data.
+3.47% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many WEGLD pools clear the TVL floor?
 

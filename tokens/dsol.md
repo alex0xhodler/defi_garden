@@ -4,7 +4,7 @@ The highest honest DSOL yield right now is 5.56% on drift-staked-sol (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [drift-staked-sol →](https://www.defi.garden/?pool=296651fc-25f6-4434-b8ec-17c2af9808da&src=seo_token) | Solana | 5.56% | $216.04M |
+| [drift-staked-sol →](https://www.defi.garden/?pool=296651fc-25f6-4434-b8ec-17c2af9808da&src=seo_token) | Solana | 5.56% | $214.31M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $404.02M in total.
+2 live pools clear this page's $100K TVL floor, $400.48M in total.
 
 ### Are these rates safe?
 
@@ -41,9 +41,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

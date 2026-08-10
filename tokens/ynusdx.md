@@ -1,21 +1,21 @@
 # YNUSDX DeFi Yields
 
-The highest honest YNUSDX yield right now is 11.09% on stake-dao (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YNUSDX yield right now is 9.91% on stake-dao (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 2.78% | $427.8K |
-| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.09% | $364.7K |
-| [curve-dex →](https://www.defi.garden/?pool=e7873962-d31f-422a-bab6-a1816667e797&src=seo_token) | Ethereum | 4.96% | $179K |
-| [stake-dao →](https://www.defi.garden/?pool=b3719a99-daa3-40ef-a021-c00776dad266&src=seo_token) | Ethereum | 8.33% | $179K |
+| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 2.22% | $427.8K |
+| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 9.91% | $364.7K |
+| [curve-dex →](https://www.defi.garden/?pool=e7873962-d31f-422a-bab6-a1816667e797&src=seo_token) | Ethereum | 4.86% | $179K |
+| [stake-dao →](https://www.defi.garden/?pool=b3719a99-daa3-40ef-a021-c00776dad266&src=seo_token) | Ethereum | 4.82% | $179K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YNUSDX shows up in 4 pools here, with rates from 2.78% to 11.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YNUSDX shows up in 4 pools here, with rates from 2.22% to 9.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.50% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,10 +23,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 2.78% | 12.10% | Base rate |
-| stake-dao | 11.09% | 12.77% | Base rate |
-| curve-dex | 4.96% | 8.90% | Base rate |
-| stake-dao | 8.33% | 8.86% | Base rate |
+| curve-dex | 2.22% | 12.00% | Base rate |
+| stake-dao | 9.91% | 12.72% | Base rate |
+| curve-dex | 4.86% | 8.89% | Base rate |
+| stake-dao | 4.82% | 8.83% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YNUSDX yield today?
 
-11.09% APY on stake-dao (Ethereum), based on live DefiLlama data.
+9.91% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many YNUSDX pools clear the TVL floor?
 

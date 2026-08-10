@@ -1,10 +1,10 @@
 # BIAO DeFi Yields
 
-The highest honest BIAO yield right now is 1.07% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIAO yield right now is 1.09% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=7c4d2101-e58f-425d-adc9-7680d99ac2b2&src=seo_token) | Ethereum | 1.07% | $204.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=7c4d2101-e58f-425d-adc9-7680d99ac2b2&src=seo_token) | Ethereum | 1.09% | $200.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BIAO yield today?
 
-1.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BIAO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $204.2K in total.
+1 live pool clear this page's $100K TVL floor, $200.7K in total.
 
 ### Are these rates safe?
 

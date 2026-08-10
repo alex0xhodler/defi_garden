@@ -1,10 +1,10 @@
 # SKHY 디파이 수익률
 
-현재 SKHY의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 28.21%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SKHY의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 51.95%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2e706a8c-9bce-5e88-9640-d322a70130a5&src=seo_token) | Solana | 28.21% | $857K |
+| [raydium-amm →](https://www.defi.garden/?pool=2e706a8c-9bce-5e88-9640-d322a70130a5&src=seo_token) | Solana | 51.95% | $844.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +12,11 @@
 
 ### 오늘 SKHY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 28.21%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 51.95%예요.
 
 ### SKHY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $857K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $844.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -27,9 +27,9 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 28.21%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
+- [PRIME](https://www.defi.garden/ko/tokens/prime)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
-- [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 

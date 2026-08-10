@@ -1,19 +1,19 @@
 # NOS DeFi Yields
 
-The highest honest NOS yield right now is 13.39% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOS yield right now is 18.32% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token) | Solana | 13.39% | $443.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 12.23% | $149.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token) | Solana | 18.32% | $445.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 17.81% | $149.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NOS shows up in 2 pools here, with rates from 12.23% to 13.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NOS shows up in 2 pools here, with rates from 17.81% to 18.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 15.53% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 15.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 13.39% | 14.73% | Base rate |
-| raydium-amm | 12.23% | 16.34% | Base rate |
+| raydium-amm | 18.32% | 14.83% | Base rate |
+| raydium-amm | 17.81% | 16.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NOS yield today?
 
-13.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+18.32% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NOS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $593K in total.
+2 live pools clear this page's $100K TVL floor, $595.7K in total.
 
 ### Are these rates safe?
 
@@ -45,9 +45,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

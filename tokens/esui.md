@@ -1,10 +1,10 @@
 # ESUI DeFi Yields
 
-The highest honest ESUI yield right now is 7.96% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ESUI yield right now is 8.08% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a&src=seo_token) | Sui | 7.96% | $617.2K |
+| [bluefin-spot →](https://www.defi.garden/?pool=0a30fdbe-ed8c-4cd2-86a6-67d199fff83a&src=seo_token) | Sui | 8.08% | $605.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ESUI yield today?
 
-7.96% APY on bluefin-spot (Sui), based on live DefiLlama data.
+8.08% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many ESUI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $617.2K in total.
+1 live pool clear this page's $100K TVL floor, $605.1K in total.
 
 ### Are these rates safe?
 

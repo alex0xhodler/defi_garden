@@ -4,7 +4,7 @@ The highest honest FIDD yield right now is 0.19% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.01% | $3.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.02% | $3.57M |
 | [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.02% | $2.75M |
 | [curve-dex →](https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token) | Ethereum | 0.19% | $1.75M |
 
@@ -12,17 +12,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FIDD shows up in 3 pools here, with rates from 0.01% to 0.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FIDD shows up in 3 pools here, with rates from 0.02% to 0.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.05% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.01% | 0.09% | Base rate |
+| uniswap-v3 | 0.02% | 0.08% | Base rate |
 | curve-dex | 0.02% | 0.02% | Base rate |
-| curve-dex | 0.19% | 0.05% | Base rate |
+| curve-dex | 0.19% | 0.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FIDD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $10.3M in total.
+4 live pools clear this page's $100K TVL floor, $10.31M in total.
 
 ### Are these rates safe?
 

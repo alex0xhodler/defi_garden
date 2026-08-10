@@ -4,8 +4,8 @@ The highest honest ZKsync Era yield right now is 0.01% on symbiosis (ZKsync Era)
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $115.5K |
-| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 0.43% | $111.9K |
+| USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $112.2K |
+| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 0.05% | $108K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZKsync Era pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $450.3K in total.
+3 live pools clear this page's $100K TVL floor, $439.4K in total.
 
 ### Are these rates safe?
 
@@ -26,11 +26,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
-- [Sonic](https://www.defi.garden/chains/sonic)
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Flare](https://www.defi.garden/chains/flare)
 - [Berachain](https://www.defi.garden/chains/berachain)
 - [Gnosis](https://www.defi.garden/chains/gnosis)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Top tokens on ZKsync Era
 
