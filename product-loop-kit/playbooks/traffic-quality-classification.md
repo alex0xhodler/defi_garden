@@ -88,10 +88,29 @@ day `waitlist_opened` carried `src=seo_tokens_hub` ×5.
   literal + closing backtick, 10 repo JS files carry that literal) and `/?pool=` ×3 (the static prefix of
   `` ?pool=${…} ``; grep over the whole generated estate emits it 0×). Crawlers replay URLs from their own
   caches long after the source stops serving. Decision rule: if the minting file now 404s AND the estate
-  grep is 0, the arrival is a replay of an already-closed mint — expect decay, do not re-ticket, and file
-  the decay as the weakest-form prediction (outcome: the class reaches zero; witnesses: ANY event broken
-  down by `$current_url` matching the mint strings, filtered and control both). Re-open only if a NEW mint
-  string appears that the current tree can produce.
+  grep is 0, the arrival is a replay of an already-closed mint — **do not re-ticket**; re-open only if a NEW
+  mint string appears that the current tree can produce.
+
+- **DO NOT predict that a replay class "decays to zero" — the 2026-08-05 prediction was FALSIFIED on
+  2026-08-10 and this rule replaces its advice.** That prediction ran **zero for five consecutive days**
+  (08-05..08-08) across every named witness, filtered and control, and was one day from resolving TRUE. On
+  **08-09 all three mint strings returned at once**: `?token=USDC%60` (1 session), `` ?token=USDC` ``
+  (1 session + 2 `page_view`s) and `/?pool=` (1 session + 1 `page_view`) — and one of them produced a
+  deliberate `pool_click`. The mint was still closed: `curl https://www.defi.garden/test_list_polish.js`
+  → **404**, re-verified that morning; `.vercelignore`'s `/test_*.js` had shipped in `682cf824ae` five days
+  earlier.
+  **What was wrong was not the prediction's weakness — it named every witness correctly.** It predicted a
+  *trend* over a **queue we cannot observe**. Crawler re-crawl schedules are an unknown inter-arrival
+  distribution; N consecutive days at zero is a **sample** from it, never evidence the class ended.
+  **Rules that follow:**
+  - The observable, falsifiable fact is **mint closure** (a curl matrix + an estate grep), not decay. Predict
+    and resolve on that. It resolved TRUE on 2026-08-04 and has stayed true.
+  - Report replay arrivals as **expected residual of indefinite duration**. Known lower bound on persistence:
+    **≥5 days past mint closure, with a ≥4-day silent gap in the middle.**
+  - A returning fuzz string is a **regression only if the current tree can mint it** — run the class-9
+    provenance grep and the curl before saying so, in that order.
+  - Generalise past URLs: any arrival process fed by someone else's cache or queue (search-engine indexes,
+    LLM training snapshots, RSS mirrors, a partner's stale link) inherits this rule.
 
 ## The insider — the class that scores REAL on every bot criterion (2026-08-08 case, the north star's first click)
 
@@ -125,6 +144,19 @@ changing continents.
 - **Report the residual.** After item 252 ships, `insider` covers marked devices only — an unmarked device,
   a teammate or a contractor still lands in "real". Say so with a number; never let the flag's existence be
   read as proof the residual is zero.
+
+## A crawler can click (2026-08-09)
+
+The 08-09 window's single engagement event was a **deliberate button press** — `.calculate-yield-btn-new` on
+a rescue card — from a crawler-classified session (Iowa/GCP, `$os` Windows, `$browser` Microsoft Edge, landing
+on a scrape-minted fuzz URL). This extends the 2026-08-03 "bots follow CTAs" finding from *URL-triggered*
+events to *DOM-interaction* events. **A click is not a human.** Nothing about gates changes; what changes is
+that "zero engagement" can no longer be scored as a clean binary — score it as `partial` and let the other
+criteria decide, then run the insider cut on the engagement event's `$region`/`$os`/`$browser` as usual.
+
+**Corollary worth its own line:** the click was still *useful* — following it to its `pool_symbol` proved
+which grid rendered it (`playbooks/README.md`'s compounding point). A crawler event carries no demand signal
+and can still carry a **product** signal. Read it for the second, never the first.
 
 **Provenance:** distilled from the 07-16→07-22 daily heartbeats + reports (07-20 "16-session bot-shaped day",
 07-22 "7 crawler sessions, undefined referrer, garbage params like token=20)"); item 096 (host gate), 120.

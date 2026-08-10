@@ -4,6 +4,16 @@
 or your notes are about to contain the phrase *"PRE-EXISTING, proven on a stashed baseline, not fixed
 (scope creep)"*. Also: when `npm test` stops early and the files after the stopper never run.
 
+**Before any of the below — rule 0, added 2026-08-10: read the failure BODY, never the exit code alone, and
+state whether `node_modules/` was present.** A fresh cloud clone has no dependencies. On 2026-08-10 the
+heartbeat's first `node test_dead_pool.js` exited **1** with `Error: Cannot find module 'playwright'`, and
+`audit-app.js` would have done the same; both instruments only ran after `npm install` (exit 0). The previous
+tick had read an exit 1 from **that same file** as a genuine 2-of-12 assertion failure — which it was, then.
+Identical exit code, opposite meaning. Two consequences: an absent dependency reads as a red gate (a false
+alarm the loop will spend a tick on), and — worse — a tick that reports "the audit found nothing" when the
+audit never started is reporting a **vacuous green**. Any tick that runs a Playwright-backed instrument
+records, in its snapshot, whether the dependency was present and what the exit body said.
+
 **Answer in one line:** proving it's pre-existing is only HALF the job — a red on `main` is a **real
 product regression the test correctly caught** (fix it, it is a product bug), a **stale test encoding an
 IA/behavior the product deliberately moved away from** (retire/repoint the test), or a verdict that is
