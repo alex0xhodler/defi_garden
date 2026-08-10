@@ -377,9 +377,12 @@ test('R1 gridLinkPoolCount(): poolTypes classifier unavailable -> constraint DRO
 });
 
 test('R1 gridLinkPoolCount(): minTvl explicit param wins over MIN_TVL_USD', () => {
-  const pools = [{ symbol: 'USDC', chain: 'Base', project: 'x', tvlUsd: 500000, apy: 4 }];
-  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base&minTvl=100000`, pools).count, 1, 'explicit floor below MIN_TVL_USD must be honored, never clamped up');
-  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base`, pools).count, 0, 'absent minTvl falls back to MIN_TVL_USD ($10M) — this pool is below it');
+  // backlog 254: pool/floor pair re-chosen relative to MIN_TVL_USD (now
+  // $100K, was $10M) rather than a stale literal — same relationship as
+  // before (pool below MIN_TVL_USD, above an explicit lower floor).
+  const pools = [{ symbol: 'USDC', chain: 'Base', project: 'x', tvlUsd: 50000, apy: 4 }];
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base&minTvl=10000`, pools).count, 1, 'explicit floor below MIN_TVL_USD must be honored, never clamped up');
+  assert.strictEqual(gridLinkPoolCount(`${BASE180}/?chain=Base`, pools).count, 0, 'absent minTvl falls back to MIN_TVL_USD — this pool is below it');
 });
 
 test('R1 gridLinkPoolCount(): qualification is (tvlUsd||0)>=floor && (tvlUsd||0)>0 — test_seo_cta_targets.js:117 reference', () => {
@@ -405,12 +408,14 @@ test('R1 gridLinkPoolCount(): "?chain=All&minApy=<x>" counts the SAME pools as t
   const pools = [
     { symbol: 'USDC', chain: 'Ethereum', project: 'aave-v3', tvlUsd: 20000000, apy: 6 },
     { symbol: 'USDT', chain: 'Solana', project: 'kamino-lend', tvlUsd: 30000000, apy: 8 },
-    { symbol: 'DAI', chain: 'Base', project: 'compound-v3', tvlUsd: 5000000, apy: 20 }, // below the $10M floor used
+    // backlog 254: below MIN_TVL_USD (now $100K, was $10M) — re-chosen so
+    // this pool stays sub-floor under the corrected floor.
+    { symbol: 'DAI', chain: 'Base', project: 'compound-v3', tvlUsd: 50000, apy: 20 }, // below the TVL floor used
   ];
   const withAll = gridLinkPoolCount(`${BASE180}/?chain=All&minApy=5`, pools);
   const withoutChain = gridLinkPoolCount(`${BASE180}/?minApy=5`, pools);
   assert.strictEqual(withAll.count, withoutChain.count, 'chain=All must count identically to no chain param at all');
-  assert.strictEqual(withAll.count, 2, 'Ethereum + Solana both qualify (>= $10M, >= 5% APY); Base is below the TVL floor');
+  assert.strictEqual(withAll.count, 2, 'Ethereum + Solana both qualify (>= MIN_TVL_USD, >= 5% APY); Base is below the TVL floor');
 });
 
 test('R1 gridLinkPoolCount(): "?chain=Ethereum" (a literal, non-\'All\' chain) still filters exactly — the wildcard must not become a general chain bypass', () => {

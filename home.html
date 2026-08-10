@@ -71,6 +71,14 @@
          global ready before it executes. -->
     <script src="canonical.js"></script>
 
+    <!-- Trust-rail constants (backlog 254) — same load-order guarantee as
+         canonical.js above: synchronous, no defer, so window.TRUST_RAILS is
+         set before ANY later script (this document's own modelContext tool
+         description below, translations.min.js's dictionary leaves,
+         landing.js) reads it. Never a hand-typed "$10M"/"$100K" copy here or
+         anywhere downstream — see trust-rails.js's own header. -->
+    <script src="trust-rails.js"></script>
+
     <script>
         // IA Router — runs before React loads. Zero flash. Zero double-load.
         // ANALYTICS PARAMS: any of these mean "show the analytics app"
@@ -235,7 +243,11 @@
                 tools: [
                     {
                         name: "search_yield_pools",
-                        description: "Search and filter live DeFi yield pools. Fetches live data from DefiLlama API with trust-rail filters (minimum $10M TVL).",
+                        // backlog 254: derives from window.TRUST_RAILS (trust-rails.js,
+                        // loaded synchronously above) rather than a hand-typed "$10M" —
+                        // that literal drifted once already when app.js:801's
+                        // DEFAULT_MIN_TVL moved to $100K.
+                        description: "Search and filter live DeFi yield pools. Fetches live data from DefiLlama API with trust-rail filters (minimum " + window.TRUST_RAILS.formatTvlFloor(window.TRUST_RAILS.DEFAULT_MIN_TVL) + " TVL).",
                         inputSchema: {
                             type: "object",
                             properties: {

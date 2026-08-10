@@ -354,7 +354,7 @@
           ),
           e('div', { className: 'landing-trust-rail' },
             e('div', { className: 'landing-trust-item' }, e('span', { className: 'landing-trust-dot' }), e('span', null, copy.trustLive)),
-            e('div', { className: 'landing-trust-item' }, e('span', { className: 'landing-trust-symbol' }, '⌁'), e('span', null, copy.trustFloor)),
+            e('div', { className: 'landing-trust-item' }, e('span', { className: 'landing-trust-symbol' }, '⌁'), e('span', null, typeof copy.trustFloor === 'function' ? copy.trustFloor() : copy.trustFloor)),
             e('div', { className: 'landing-trust-item' }, e('span', { className: 'landing-trust-symbol' }, '↗'), e('span', null, copy.trustEducation))
           )
         )
