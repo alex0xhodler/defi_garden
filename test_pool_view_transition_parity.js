@@ -354,32 +354,48 @@ function lineOf(source, idx) {
 }
 
 // ---------------------------------------------------------------------------
-// Removes the spec-257 `Analytics.trackPoolView(...)` call from
-// handleCalculateYield, in memory, for the self-defeat sub-check. Locates it
-// via the unique literal `source: 'yield_calculator'` (only the new call
-// carries this exact key/value — the pre-existing `trackPoolClick(pool,
-// 'yield_calculator')` call passes it positionally, not as `source:`),
-// then paren-matches outward to the statement's own `Analytics.trackPoolView(`
-// and forward to its closing `);`.
+// Removes the spec-257 `trackPoolView(...)` call from handleCalculateYield,
+// in memory, for the self-defeat sub-check. Locates it via the `source:
+// 'yield_calculator'` marker (only the new call carries this exact
+// key/value — the pre-existing `trackPoolClick(pool, 'yield_calculator')`
+// call passes it positionally, not as `source:`), regex-tolerant on quote
+// style and whitespace for the same reason as TRANSITION_RE/EMIT_RE above
+// (spec-257 FAILURE 1: a fixed-spelling scan is exactly the gap the
+// verifier found), then paren-matches outward to the statement's own
+// `[Analytics.]trackPoolView(` and forward to its closing `);`.
 // ---------------------------------------------------------------------------
 function removeYieldCalculatorTrackPoolView(source) {
-  const marker = "source: 'yield_calculator'";
-  const markerIdx = source.indexOf(marker);
-  assert(markerIdx !== -1, 'self-defeat setup: marker "source: \'yield_calculator\'" not found in app.js — did the spec-257 emit move or get renamed?');
-  assert(source.indexOf(marker, markerIdx + 1) === -1, 'self-defeat setup: marker "source: \'yield_calculator\'" is not unique in app.js');
+  const markerRe = /source\s*:\s*(['"])yield_calculator\1/g;
+  const markerMatch = markerRe.exec(source);
+  assert(markerMatch, 'self-defeat setup: no marker matching /source\\s*:\\s*([\'"])yield_calculator\\1/ found in app.js — did the spec-257 emit move or get renamed?');
+  const markerIdx = markerMatch.index;
+  assert(markerRe.exec(source) === null, 'self-defeat setup: the yield_calculator source: marker is not unique in app.js');
 
-  const callIdx = source.lastIndexOf(EMIT_TEXT, markerIdx);
-  assert(callIdx !== -1, 'self-defeat setup: could not find the enclosing Analytics.trackPoolView( before the marker');
+  // Nearest trackPoolView( call at or before the marker.
+  const callRe = /\btrackPoolView\s*\(/g;
+  let lastCall = null;
+  let cm;
+  while ((cm = callRe.exec(source)) && cm.index <= markerIdx) {
+    lastCall = cm;
+  }
+  assert(lastCall, 'self-defeat setup: could not find the enclosing trackPoolView( before the marker');
 
-  const openParen = callIdx + 'Analytics.trackPoolView'.length;
-  assert(source[openParen] === '(', 'self-defeat setup: expected "(" right after Analytics.trackPoolView');
+  const openParen = lastCall.index + lastCall[0].length - 1;
+  assert(source[openParen] === '(', 'self-defeat setup: expected "(" at the end of the matched trackPoolView(...) text');
   const closeParen = matchParens(source, openParen);
   assert(closeParen !== -1, 'self-defeat setup: unbalanced parens locating the call to remove');
+
+  // Walk the removal start back over an optional "Analytics." (or any
+  // ident + '.') caller prefix so the whole call expression is removed, not
+  // just its trackPoolView(...) tail.
+  let statementStart = lastCall.index;
+  const prefixMatch = /[A-Za-z_$][\w$]*\.\s*$/.exec(source.slice(0, statementStart));
+  if (prefixMatch) statementStart -= prefixMatch[0].length;
 
   let end = closeParen + 1;
   if (source[end] === ';') end += 1;
 
-  return source.slice(0, callIdx) + source.slice(end);
+  return source.slice(0, statementStart) + source.slice(end);
 }
 
 // ---------------------------------------------------------------------------
@@ -389,7 +405,7 @@ console.log('test_pool_view_transition_parity.js — spec 257 guard: transition 
 
 const realSource = fs.readFileSync(APP_JS_PATH, 'utf8');
 
-test('grep-equivalent counts: setCurrentView(\'pool-detail\') and Analytics.trackPoolView( occur equally often in app.js', () => {
+test('regex counts (quote-style tolerant): setCurrentView([\'"]pool-detail[\'"]) and trackPoolView( occur equally often in app.js', () => {
   const { transitionIndices, emitIndices } = analyze(realSource);
   assert.strictEqual(
     transitionIndices.length,
@@ -470,5 +486,89 @@ test('SELF-DEFEAT: with the spec-257 trackPoolView call surgically removed in me
   console.log(`    confirmed RED on mutated source: missing-emit owner(s) = [${missingEmit.join(', ')}]`);
 });
 
-console.log(`\ntest_pool_view_transition_parity.js: ${passed}/4 tests passed`);
+test('the "// … trackPoolView call …" comment near app.js:2788 does not inflate the emit-site count', () => {
+  // Verifier-requested explicit check (spec-257 FAILURE 1, step 2): since
+  // EMIT_RE dropped the mandatory "Analytics." prefix, it is now loose
+  // enough that IF comment-scrubbing ever regressed, a comment merely
+  // mentioning "trackPoolView" near a stray "(" could inflate the count.
+  // Confirm the comment exists, confirm scrub() removes it, and confirm no
+  // emit site is attributed to its line.
+  const commentNeedle = 'trackPoolView call';
+  const rawIdx = realSource.indexOf(commentNeedle);
+  assert(rawIdx !== -1, 'expected the known trackPoolView-mentioning comment near app.js:2788 to still exist — if it moved/was reworded, this check is stale rather than meaningfully green');
+  assert(realSource.indexOf(commentNeedle, rawIdx + 1) === -1, 'expected the comment needle to be unique in app.js');
+
+  const { scrubbed, emitIndices } = analyze(realSource);
+  assert.strictEqual(scrubbed.indexOf(commentNeedle), -1, 'comment scrubbing failed to blank the trackPoolView-mentioning comment — it is live text the emit regex could match against');
+
+  const rawLine = lineOf(realSource, rawIdx);
+  const emitLines = emitIndices.map((i) => lineOf(realSource, i));
+  assert(!emitLines.includes(rawLine), `expected no emit site attributed to the comment's own line (${rawLine}), got emit sites on lines: ${emitLines.join(', ')}`);
+  assert.strictEqual(emitIndices.length, 3, `expected exactly 3 emit sites (the comment must not inflate the count), got ${emitIndices.length}`);
+  console.log(`    comment at L${rawLine} confirmed scrubbed; emit count unaffected (3)`);
+});
+
+test('REGRESSION (variant A, single-quoted): a 4th, un-paired setCurrentView(\'pool-detail\') is caught by the analyzer', () => {
+  // Permanent lock for the shape the ORIGINAL (pre-verifier-fail) scan
+  // already caught correctly — kept here so a future edit to TRANSITION_RE
+  // can't silently regress the single-quoted case while "fixing" something
+  // else.
+  const injected = "\nfunction injectedVariantAHandler() {\n  setCurrentView('pool-detail');\n}\n";
+  const mutated = realSource + injected;
+  assert.notStrictEqual(mutated, realSource);
+
+  const real = analyze(realSource);
+  const broken = analyze(mutated);
+
+  assert.strictEqual(broken.transitionIndices.length, real.transitionIndices.length + 1, 'expected exactly one new transition site after injecting variant A');
+  assert.strictEqual(broken.emitIndices.length, real.emitIndices.length, 'injecting a transition with no emit must not change the emit count');
+
+  const missingEmit = [...new Set(broken.transitionOwners)].filter((o) => !new Set(broken.emitOwners).has(o));
+  assert(
+    missingEmit.includes('injectedVariantAHandler'),
+    `expected 'injectedVariantAHandler' to be reported as missing its emit, but the gap detector found: [${missingEmit.join(', ')}]`
+  );
+
+  // The legacy (pre-fix) single-quoted-only scan also catches this shape —
+  // confirms variant A was never the gap; only variant C (below) was.
+  const legacyDelta = legacyCountTransitions(mutated) - legacyCountTransitions(realSource);
+  assert.strictEqual(legacyDelta, 1, 'expected the legacy literal scan to also see variant A (single-quoted) — if it does not, this fixture is no longer testing variant A');
+  console.log('    variant A caught by both the legacy scan and the current regex scan (never the gap)');
+});
+
+test('REGRESSION (variant C, double-quoted): a 4th, un-paired setCurrentView("pool-detail") is caught by the analyzer, and PROVEN non-vacuous against the pre-fix scan', () => {
+  // This is the exact shape the verifier used to prove the pre-fix version
+  // of this file was blind (FAILURE 1, "Variant C ... GREEN 4/4, exit=0 —
+  // MISSED"). Permanent regression lock.
+  const injected = '\nfunction injectedVariantCHandler() {\n  setCurrentView("pool-detail");\n}\n';
+  const mutated = realSource + injected;
+  assert.notStrictEqual(mutated, realSource);
+
+  // --- Non-vacuity: prove the OLD (pre-fix) literal single-quote scan is
+  // BLIND to this exact mutation — i.e. that this regression case would
+  // have been RED-required (old scan GREEN/vacuous) before the fix, and is
+  // caught only because TRANSITION_RE is now quote-tolerant.
+  const legacyBefore = legacyCountTransitions(realSource);
+  const legacyAfter = legacyCountTransitions(mutated);
+  assert.strictEqual(
+    legacyAfter,
+    legacyBefore,
+    'expected the legacy single-quote-only scan to MISS the double-quoted variant (this is FAILURE 1 as the verifier found it) — if this now fails, the legacy fixture is not reproducing the original gap'
+  );
+
+  // --- The current, fixed analyzer must catch it.
+  const real = analyze(realSource);
+  const broken = analyze(mutated);
+  assert.strictEqual(broken.transitionIndices.length, real.transitionIndices.length + 1, 'expected exactly one new transition site after injecting variant C');
+  assert.strictEqual(broken.emitIndices.length, real.emitIndices.length, 'injecting a transition with no emit must not change the emit count');
+
+  const missingEmit = [...new Set(broken.transitionOwners)].filter((o) => !new Set(broken.emitOwners).has(o));
+  assert(
+    missingEmit.includes('injectedVariantCHandler'),
+    `expected 'injectedVariantCHandler' to be reported as missing its emit, but the gap detector found: [${missingEmit.join(', ')}]`
+  );
+  console.log(`    variant C: legacy scan missed it (${legacyBefore} -> ${legacyAfter}, unchanged); current regex scan caught it (owner reported: injectedVariantCHandler)`);
+});
+
+console.log(`\ntest_pool_view_transition_parity.js: ${passed}/7 tests passed`);
 if (process.exitCode) process.exit(process.exitCode);
