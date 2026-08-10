@@ -1,19 +1,19 @@
 # JETTON DeFi Yields
 
-The highest honest JETTON yield right now is 71.28% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JETTON yield right now is 71.17% on dedust (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 31.66% | $147.5K |
-| [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 71.28% | $120.2K |
+| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 33.30% | $145.9K |
+| [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 71.17% | $119.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JETTON shows up in 2 pools here, with rates from 31.66% to 71.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JETTON shows up in 2 pools here, with rates from 33.30% to 71.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 64.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 64.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ JETTON shows up in 2 pools here, with rates from 31.66% to 71.28% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ston.fi | 31.66% | 52.47% | 87.61% incentives |
-| dedust | 71.28% | 76.83% | 99.10% incentives |
+| ston.fi | 33.30% | 51.69% | 83.72% incentives |
+| dedust | 71.17% | 76.63% | 98.87% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest JETTON yield today?
 
-71.28% APY on dedust (TON), based on live DefiLlama data.
+71.17% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many JETTON pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $267.6K in total.
+2 live pools clear this page's $100K TVL floor, $265.5K in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

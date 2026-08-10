@@ -7,26 +7,22 @@ The highest honest THBILL yield right now is 3.26% on theo-network-thbill (Ether
 | [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.26% | $84.85M |
 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.26% | $1.41M |
 | [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.26% | $686.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.01% | $175.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-THBILL shows up in 4 pools here, with rates from 0.01% to 3.26% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+THBILL shows up in 3 pools here, with rates from 3.26% to 3.26% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-1 of 4 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| theo-network-thbill | 3.26% | 3.41% | Base rate |
-| theo-network-thbill | 3.26% | 3.41% | Base rate |
-| theo-network-thbill | 3.26% | 3.41% | Base rate |
-| uniswap-v3 | 0.01% | 0.65% | Base rate |
+| theo-network-thbill | 3.26% | 3.40% | Base rate |
+| theo-network-thbill | 3.26% | 3.40% | Base rate |
+| theo-network-thbill | 3.26% | 3.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,4 +55,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

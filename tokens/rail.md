@@ -4,19 +4,19 @@ The highest honest RAIL yield right now is 1.02% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f&src=seo_token) | Ethereum | 0.38% | $3.85M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435&src=seo_token) | Ethereum | 0.45% | $1.07M |
-| [sushiswap →](https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d&src=seo_token) | Ethereum | 0.90% | $730.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e93c4024-939e-40a9-a198-4a28790cbb9f&src=seo_token) | Ethereum | 0.69% | $3.88M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=43ab8882-7948-4252-8e25-5cef3af93435&src=seo_token) | Ethereum | 0.56% | $1.08M |
+| [sushiswap →](https://www.defi.garden/?pool=0023426a-e6e6-4eca-8b84-6cd29b03570d&src=seo_token) | Ethereum | 0.94% | $735.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=8ed16dfa-9214-487e-ab6a-d052f9765aac&src=seo_token) | Ethereum | 1.02% | $386.3K |
-| [sushiswap →](https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317&src=seo_token) | Ethereum | 0.86% | $155.3K |
+| [sushiswap →](https://www.defi.garden/?pool=d1eb0c0c-ab87-4118-895a-73468048c317&src=seo_token) | Ethereum | 0.79% | $156.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RAIL shows up in 5 pools here, with rates from 0.38% to 1.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RAIL shows up in 5 pools here, with rates from 0.56% to 1.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 4.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 3.79% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -24,11 +24,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.38% | 4.70% | Base rate |
-| uniswap-v2 | 0.45% | 4.06% | Base rate |
-| sushiswap | 0.90% | 3.31% | Base rate |
-| uniswap-v4 | 1.02% | 4.19% | Base rate |
-| sushiswap | 0.86% | 4.03% | Base rate |
+| uniswap-v3 | 0.69% | 4.41% | Base rate |
+| uniswap-v2 | 0.56% | 3.74% | Base rate |
+| sushiswap | 0.94% | 3.08% | Base rate |
+| uniswap-v4 | 1.02% | 4.04% | Base rate |
+| sushiswap | 0.79% | 3.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RAIL pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $6.2M in total.
+5 live pools clear this page's $100K TVL floor, $6.24M in total.
 
 ### Are these rates safe?
 
@@ -59,4 +59,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

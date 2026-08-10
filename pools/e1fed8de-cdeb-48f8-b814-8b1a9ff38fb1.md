@@ -2,7 +2,7 @@
 
 **Total APY:** 3.80% (3.80% Base · + 0.00% Rewards)
 
-**TVL:** $1.62M
+**TVL:** $1.61M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on harmonix-finance](https://app.harmonix.fi/?ref=defi.garden)
 
-Last updated August 9, 2026
+Last updated August 10, 2026

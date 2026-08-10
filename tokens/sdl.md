@@ -1,10 +1,10 @@
 # SDL DeFi Yields
 
-The highest honest SDL yield right now is 4.28% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDL yield right now is 6.87% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6a276d5c-349b-4fc0-a501-c56f9127c87f&src=seo_token) | Ethereum | 4.28% | $352.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6a276d5c-349b-4fc0-a501-c56f9127c87f&src=seo_token) | Ethereum | 6.87% | $346.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDL yield today?
 
-4.28% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+6.87% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SDL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $352.1K in total.
+1 live pool clear this page's $100K TVL floor, $346.9K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

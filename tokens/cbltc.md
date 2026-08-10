@@ -1,28 +1,26 @@
 # CBLTC DeFi Yields
 
-The highest honest CBLTC yield right now is 15.63% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBLTC yield right now is 9.18% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 15.63% | $148.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 11.24% | $107.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 9.18% | $109.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBLTC shows up in 2 pools here, with rates from 11.24% to 15.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBLTC shows up in 1 pools here, with rates from 9.18% to 9.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 34.04% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 23.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 15.63% | 44.45% | 37.34% incentives |
-| aerodrome-slipstream | 11.24% | 23.64% | 93.82% incentives |
+| aerodrome-slipstream | 9.18% | 23.44% | 81.83% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +28,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBLTC yield today?
 
-15.63% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+9.18% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBLTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.1M in total.
+3 live pools clear this page's $100K TVL floor, $1.96M in total.
 
 ### Are these rates safe?
 
@@ -53,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

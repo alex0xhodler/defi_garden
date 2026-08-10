@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Neo의 flamingo-finance에서 APY 5.52%예
 
 - [Neo](https://www.defi.garden/ko/chains/neo)
 
-## 마지막 업데이트: August 9, 2026
+## 마지막 업데이트: August 10, 2026

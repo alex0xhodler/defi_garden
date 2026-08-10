@@ -1,20 +1,20 @@
 # USDTB DeFi Yields
 
-The highest honest USDTB yield right now is 5.85% on fluid-lending (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDTB yield right now is 5.92% on fluid-lending (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.03% | $20.08M |
-| [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.59% | $7.23M |
-| [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.85% | $2.22M |
-| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.01% | $1.62M |
-| [euler-v2 →](https://www.defi.garden/?pool=a3a7fb56-b19a-4dc8-a3f1-285cb38c5885&src=seo_token) | Ethereum | 2.48% | $145.5K |
+| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.14% | $20.08M |
+| [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.56% | $7.46M |
+| [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.92% | $2.24M |
+| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.28% | $1.62M |
+| [euler-v2 →](https://www.defi.garden/?pool=a3a7fb56-b19a-4dc8-a3f1-285cb38c5885&src=seo_token) | Ethereum | 1.39% | $205.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDTB shows up in 5 pools here, with rates from 0.01% to 5.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDTB shows up in 5 pools here, with rates from 0.14% to 5.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,11 +22,11 @@ USDTB shows up in 5 pools here, with rates from 0.01% to 5.85% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.03% | 0.28% | Base rate |
-| aave-v3 | 5.59% | 6.28% | 60.86% incentives |
-| fluid-lending | 5.85% | 5.92% | 58.12% incentives |
-| fluid-dex | 0.01% | 0.96% | Base rate |
-| euler-v2 | 2.48% | 9.18% | Base rate |
+| curve-dex | 0.14% | 0.24% | Base rate |
+| aave-v3 | 5.56% | 6.28% | 61.17% incentives |
+| fluid-lending | 5.92% | 5.92% | 57.43% incentives |
+| fluid-dex | 0.28% | 0.77% | Base rate |
+| euler-v2 | 1.39% | 8.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDTB yield today?
 
-5.85% APY on fluid-lending (Ethereum), based on live DefiLlama data.
+5.92% APY on fluid-lending (Ethereum), based on live DefiLlama data.
 
 ### How many USDTB pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $31.29M in total.
+5 live pools clear this page's $100K TVL floor, $31.59M in total.
 
 ### Are these rates safe?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

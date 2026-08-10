@@ -1,40 +1,40 @@
 # USD3 DeFi Yields
 
-The highest honest USD3 yield right now is 15.43% on stake-dao (Ethereum), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USD3 yield right now is 14.00% on pendle (Ethereum), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.96% | $67.04M |
-| [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.71% | $20.63M |
-| [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.75% | $16.44M |
-| [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.93% | $6.86M |
-| [pendle →](https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token) | Ethereum | 13.93% | $6.86M |
-| [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 11.45% | $2.01M |
-| [stake-dao →](https://www.defi.garden/?pool=69e053b2-dd99-4c52-beff-a9938cb62fa0&src=seo_token) | Ethereum | 15.43% | $1.48M |
-| [curve-dex →](https://www.defi.garden/?pool=681faca0-5f8d-4341-9ba8-7ef8e73968a3&src=seo_token) | Ethereum | 27.72% | $473.5K |
+| [3jane-lending →](https://www.defi.garden/?pool=f8cd444e-d99f-4132-b234-fd3482bf8806&src=seo_token) | Ethereum | 6.78% | $67.1M |
+| [morpho-blue →](https://www.defi.garden/?pool=790ebca5-08ba-46ea-9ef3-f5520bf9584c&src=seo_token) | Ethereum | 1.80% | $20.49M |
+| [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.74% | $16.5M |
+| [pendle →](https://www.defi.garden/?pool=0e594c5e-79e3-4ce8-85aa-661dfd9e8ed8&src=seo_token) | Ethereum | 11.96% | $6.86M |
+| [pendle →](https://www.defi.garden/?pool=b6490fe9-b16a-4ccf-8701-cbded659b397&src=seo_token) | Ethereum | 14.00% | $6.86M |
+| [reserve-protocol →](https://www.defi.garden/?pool=9c4e675e-7615-4d60-90ef-03d58c66b476&src=seo_token) | Ethereum | 9.40% | $2.73M |
+| [curve-dex →](https://www.defi.garden/?pool=530bb752-3930-487d-be70-f9510ea1e86e&src=seo_token) | Ethereum | 11.18% | $2.33M |
+| [stake-dao →](https://www.defi.garden/?pool=69e053b2-dd99-4c52-beff-a9938cb62fa0&src=seo_token) | Ethereum | 13.89% | $1.54M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USD3 shows up in 8 pools here, with rates from 1.71% to 27.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USD3 shows up in 8 pools here, with rates from 1.74% to 14.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 11.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 8.69% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 1 of 8 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| 3jane-lending | 6.96% | 6.63% | Base rate |
-| morpho-blue | 1.71% | 1.22% | 100.00% incentives |
-| morpho-blue | 1.75% | 1.09% | 100.00% incentives |
-| pendle | 11.93% | 10.69% | 3.53% incentives |
-| pendle | 13.93% | 12.82% | Base rate |
-| curve-dex | 11.45% | 11.68% | 87.43% incentives |
-| stake-dao | 15.43% | 13.22% | 79.72% incentives |
-| curve-dex | 27.72% | 13.41% | 17.82% incentives |
+| 3jane-lending | 6.78% | 6.65% | Base rate |
+| morpho-blue | 1.80% | 1.27% | 100.00% incentives |
+| morpho-blue | 1.74% | 1.14% | 100.00% incentives |
+| pendle | 11.96% | 10.72% | 3.80% incentives |
+| pendle | 14.00% | 12.86% | Base rate |
+| reserve-protocol | 9.40% | 1.73% | Base rate |
+| curve-dex | 11.18% | 11.61% | 74.51% incentives |
+| stake-dao | 13.89% | 13.19% | 77.54% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USD3 yield today?
 
-15.43% APY on stake-dao (Ethereum), based on live DefiLlama data.
+14.00% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many USD3 pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $125.62M in total.
+13 live pools clear this page's $100K TVL floor, $126.08M in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

@@ -1,10 +1,10 @@
 # CSPR 디파이 수익률
 
-현재 CSPR의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.91%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CSPR의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.13%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2a265415-e598-52de-a138-e90460d8a212&src=seo_token) | Solana | 0.91% | $1.77M |
+| [raydium-amm →](https://www.defi.garden/?pool=2a265415-e598-52de-a138-e90460d8a212&src=seo_token) | Solana | 1.13% | $1.77M |
 | [raydium-amm →](https://www.defi.garden/?pool=5259c0d6-2d70-5114-9ef5-bcce89078c2c&src=seo_token) | Solana | 0.14% | $1.7M |
 | [raydium-amm →](https://www.defi.garden/?pool=34a76123-af18-50b6-9f1d-84bb72c8925f&src=seo_token) | Solana | 0.72% | $1.68M |
 
@@ -12,7 +12,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CSPR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.14%부터 0.91%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CSPR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.14%부터 1.13%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.48%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -22,7 +22,7 @@ CSPR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.14%부터 0.91%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 0.91% | 0.81% | 기본 금리 |
+| raydium-amm | 1.13% | 0.98% | 기본 금리 |
 | raydium-amm | 0.14% | 0.11% | 기본 금리 |
 | raydium-amm | 0.72% | 0.48% | 기본 금리 |
 
@@ -32,7 +32,7 @@ CSPR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.14%부터 0.91%까
 
 ### 오늘 CSPR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.91%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.13%예요.
 
 ### CSPR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -55,4 +55,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.91%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 9, 2026
+## 마지막 업데이트: August 10, 2026

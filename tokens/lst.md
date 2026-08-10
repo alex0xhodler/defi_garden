@@ -4,8 +4,8 @@ The highest honest LST yield right now is 5.38% on marginfi-lst (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.38% | $7.63M |
-| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.34M |
+| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.38% | $7.67M |
+| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.35M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| marginfi-lst | 5.38% | 5.61% | Base rate |
+| marginfi-lst | 5.38% | 5.60% | Base rate |
 | project-0 | 0.01% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.97M in total.
+2 live pools clear this page's $100K TVL floor, $10.02M in total.
 
 ### Are these rates safe?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

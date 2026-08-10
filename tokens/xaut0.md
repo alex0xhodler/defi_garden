@@ -4,22 +4,22 @@ The highest honest XAUT0 yield right now is 33.35% on uniswap-v3 (Celo), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 0.97% | $450K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token) | Arbitrum | 0.18% | $283.6K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 3.00% | $222.6K |
-| [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 0.68% | $208.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 1.18% | $432.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token) | Arbitrum | 0.76% | $282.9K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 3.02% | $218.8K |
+| [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 0.89% | $208.1K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=1aaeec30-87b1-4e69-a126-7fbea60d8dd5&src=seo_token) | Celo | 33.35% | $200.6K |
-| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 0.67% | $194.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 0.01% | $143.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=945f556b-636e-56ba-abfb-e161e0fdce58&src=seo_token) | Monad | 0.11% | $113.8K |
+| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 0.07% | $193.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 1.17% | $143.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=945f556b-636e-56ba-abfb-e161e0fdce58&src=seo_token) | Monad | 0.49% | $113.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XAUT0 shows up in 8 pools here, with rates from 0.01% to 33.35% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
+XAUT0 shows up in 8 pools here, with rates from 0.07% to 33.35% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,14 +27,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.97% | 1.52% | Base rate |
-| uniswap-v4 | 0.18% | 2.25% | Base rate |
-| affluent | 3.00% | 2.63% | Base rate |
-| ston.fi | 0.68% | 1.44% | Base rate |
-| uniswap-v3 | 33.35% | 29.28% | Base rate |
-| project-x | 0.67% | 6.55% | Base rate |
-| uniswap-v4 | 0.01% | 8.59% | Base rate |
-| uniswap-v4 | 0.11% | 9.33% | Base rate |
+| raydium-amm | 1.18% | 1.50% | Base rate |
+| uniswap-v4 | 0.76% | 2.14% | Base rate |
+| affluent | 3.02% | 2.65% | Base rate |
+| ston.fi | 0.89% | 1.42% | Base rate |
+| uniswap-v3 | 33.35% | 29.58% | Base rate |
+| project-x | 0.07% | 6.47% | Base rate |
+| uniswap-v4 | 1.17% | 8.18% | Base rate |
+| uniswap-v4 | 0.49% | 9.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XAUT0 pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $6.79M in total.
+12 live pools clear this page's $100K TVL floor, $6.75M in total.
 
 ### Are these rates safe?
 
@@ -70,4 +70,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

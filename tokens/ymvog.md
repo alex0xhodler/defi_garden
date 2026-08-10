@@ -1,22 +1,22 @@
 # YMVOG DeFi Yields
 
-The highest honest YMVOG yield right now is 5.90% on morpho-blue (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YMVOG yield right now is 6.06% on morpho-blue (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token) | Ethereum | 5.90% | $9.88M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.97% | $4.41M |
-| [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token) | Base | 5.03% | $2.06M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 4.36% | $1.87M |
-| [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token) | Ethereum | 2.16% | $396.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token) | Ethereum | 6.06% | $9.88M |
+| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.94% | $4.39M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token) | Base | 5.31% | $2.06M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.75% | $1.73M |
+| [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token) | Ethereum | 1.89% | $443K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YMVOG shows up in 5 pools here, with rates from 1.97% to 5.90% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+YMVOG shows up in 5 pools here, with rates from 1.89% to 6.06% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -24,11 +24,11 @@ YMVOG shows up in 5 pools here, with rates from 1.97% to 5.90% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.90% | 6.76% | 14.12% incentives |
-| morpho-blue | 1.97% | 5.68% | Base rate |
-| morpho-blue | 5.03% | 4.95% | Base rate |
-| morpho-blue | 4.36% | 7.05% | Base rate |
-| morpho-blue | 2.16% | 1.67% | Base rate |
+| morpho-blue | 6.06% | 6.72% | 14.04% incentives |
+| morpho-blue | 1.94% | 5.47% | Base rate |
+| morpho-blue | 5.31% | 4.94% | Base rate |
+| morpho-blue | 3.75% | 6.91% | Base rate |
+| morpho-blue | 1.89% | 1.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,11 +36,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YMVOG yield today?
 
-5.90% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.06% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many YMVOG pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $18.62M in total.
+5 live pools clear this page's $100K TVL floor, $18.51M in total.
 
 ### Are these rates safe?
 
@@ -61,4 +61,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Katana](https://www.defi.garden/chains/katana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

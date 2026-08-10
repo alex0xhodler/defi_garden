@@ -1,8 +1,8 @@
 # FRAX-FXB-20261231 — curve-dex on Ethereum
 
-**Total APY:** 2.80% (2.80% Base · + 0.00% Rewards)
+**Total APY:** 2.79% (2.79% Base · + 0.00% Rewards)
 
-**TVL:** $842.8K
+**TVL:** $842.7K
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 
-Last updated August 9, 2026
+Last updated August 10, 2026

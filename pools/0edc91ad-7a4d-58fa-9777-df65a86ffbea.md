@@ -1,12 +1,12 @@
 # SUSN — pendle on Ethereum
 
-**Total APY:** 8.27% (8.27% Base · + 0.00% Rewards)
+**Total APY:** 8.28% (8.28% Base · + 0.00% Rewards)
 
 **TVL:** $1.33M
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 9.16%
+**30d Mean APY:** 9.15%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on pendle](https://pendle.finance/?ref=defi.garden)
 
-Last updated August 9, 2026
+Last updated August 10, 2026

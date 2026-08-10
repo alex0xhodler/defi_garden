@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WBTC.E pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.78M in total.
+3 live pools clear this page's $100K TVL floor, $1.79M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

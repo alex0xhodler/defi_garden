@@ -1,40 +1,40 @@
 # YNRWAX DeFi Yields
 
-The highest honest YNRWAX yield right now is 16.32% on penpie (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YNRWAX yield right now is 15.58% on penpie (Ethereum), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.30% | $900.8K |
-| [pendle →](https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token) | Ethereum | 13.29% | $900.8K |
-| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 9.40% | $446.5K |
-| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.92% | $380.6K |
-| [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 9.27% | $209.3K |
-| [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 16.32% | $120.7K |
-| [stake-dao →](https://www.defi.garden/?pool=a1743c40-129b-4c23-bc20-0357a321005f&src=seo_token) | Ethereum | 10.64% | $115.6K |
-| [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 12.39% | $105.7K |
+| [pendle →](https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token) | Ethereum | 12.75% | $912.3K |
+| [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.28% | $912.3K |
+| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 2.89% | $427.8K |
+| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.09% | $364.7K |
+| [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 1.28% | $145.6K |
+| [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 15.58% | $137.6K |
+| [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 11.21% | $105.7K |
+| [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 11.06% | $105.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YNRWAX shows up in 8 pools here, with rates from 9.27% to 16.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YNRWAX shows up in 8 pools here, with rates from 1.28% to 15.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 12.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 12.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-4 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 10.30% | 10.34% | Base rate |
-| pendle | 13.29% | 13.09% | Base rate |
-| curve-dex | 9.40% | 12.34% | Base rate |
-| stake-dao | 11.92% | 12.86% | Base rate |
-| curve-dex | 9.27% | 12.64% | Base rate |
-| penpie | 16.32% | 16.14% | 17.72% incentives |
-| stake-dao | 10.64% | 13.51% | Base rate |
-| spectra-v2 | 12.39% | 11.46% | Base rate |
+| pendle | 12.75% | 13.09% | Base rate |
+| pendle | 10.28% | 10.35% | Base rate |
+| curve-dex | 2.89% | 12.17% | Base rate |
+| stake-dao | 11.09% | 12.79% | Base rate |
+| curve-dex | 1.28% | 12.34% | Base rate |
+| penpie | 15.58% | 16.14% | 18.24% incentives |
+| spectra-v2 | 11.21% | 11.47% | Base rate |
+| spectra-v2 | 11.06% | 11.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YNRWAX yield today?
 
-16.32% APY on penpie (Ethereum), based on live DefiLlama data.
+15.58% APY on penpie (Ethereum), based on live DefiLlama data.
 
 ### How many YNRWAX pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $12.61M in total.
+10 live pools clear this page's $100K TVL floor, $12.53M in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

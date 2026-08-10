@@ -1,11 +1,11 @@
 # Gravity 디파이 수익률
 
-현재 Gravity의 가장 높은 정직한 수익률은 Gravity의 latch에서 2.33%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Gravity의 가장 높은 정직한 수익률은 Gravity의 latch에서 1.97%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | ATUSD | [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab&src=seo_chain) | 0.28% | $1.39M |
-| ATETH | [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_chain) | 2.33% | $186K |
+| ATETH | [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_chain) | 1.97% | $186.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 Gravity의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Gravity의 latch에서 APY 2.33%예요.
+DefiLlama 실시간 데이터 기준, Gravity의 latch에서 APY 1.97%예요.
 
 ### Gravity 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Gravity의 latch에서 APY 2.33%예요.
 - [ATUSD](https://www.defi.garden/ko/tokens/atusd)
 - [ATETH](https://www.defi.garden/ko/tokens/ateth)
 
-## 마지막 업데이트: August 9, 2026
+## 마지막 업데이트: August 10, 2026

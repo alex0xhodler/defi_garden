@@ -4,12 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.43% | $3.3M |
-| [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token) | Aptos | 0.22% | $1.76M |
+| [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.43% | $3.27M |
+| [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token) | Aptos | 0.22% | $1.75M |
 | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
 | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token) | Aptos | 1.12% | $1.44M |
 | [hyperion →](https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token) | Aptos | 195.25% | $353.4K |
-| [thalaswap →](https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token) | Aptos | 0.02% | $339K |
 | [hyperion →](https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token) | Aptos | 12.83% | $219.6K |
 | [hyperion →](https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token) | Aptos | 0.09% | $103.9K |
 
@@ -17,13 +16,13 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-APT 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.02%부터 195.25%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+APT 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.09%부터 195.25%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.78%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.44%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+7개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-8개 풀 중 6개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+7개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
@@ -32,7 +31,6 @@ APT 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.02%부터 195.25%�
 | hyperion | 4.80% | 4.80% | 기본 금리 |
 | hyperion | 1.12% | 1.12% | 기본 금리 |
 | hyperion | 195.25% | 195.25% | 인센티브 1.20% |
-| thalaswap | 0.02% | 0.13% | 기본 금리 |
 | hyperion | 12.83% | 12.83% | 기본 금리 |
 | hyperion | 0.09% | 0.09% | 기본 금리 |
 
@@ -46,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 195.25%예요.
 
 ### APT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $9.4M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $9.35M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -65,4 +63,4 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 195.25%예요.
 
 - [Aptos](https://www.defi.garden/ko/chains/aptos)
 
-## 마지막 업데이트: August 9, 2026
+## 마지막 업데이트: August 10, 2026

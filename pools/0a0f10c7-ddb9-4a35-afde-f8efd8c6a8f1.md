@@ -1,12 +1,12 @@
 # SHIBA2-WETH — uniswap-v3 on Ethereum
 
-**Total APY:** 2.50% (2.50% Base · + 0.00% Rewards)
+**Total APY:** 2.49% (2.49% Base · + 0.00% Rewards)
 
 **TVL:** $1.87M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 0.31%
+**30d Mean APY:** 0.32%
 
 **Exposure:** multi
 
@@ -25,10 +25,10 @@ $1,000 in this pool grows to ~$1,131 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 2.50% right now vs a 0.31% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 2.49% right now vs a 0.32% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,131 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 9, 2026
+Last updated August 10, 2026

@@ -1,8 +1,8 @@
 # MSTR-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 6.35% (6.35% Base · + 0.00% Rewards)
+**Total APY:** 0.15% (0.15% Base · + 0.00% Rewards)
 
-**TVL:** $205.8K
+**TVL:** $206.5K
 
 **Pool Type:** LP/DEX
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,360 in 5y at current rates.
+$1,000 in this pool grows to ~$1,007 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 6.35% right now vs a 2.30% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.15% right now vs a 2.30% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,360 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,007 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 9, 2026
+Last updated August 10, 2026

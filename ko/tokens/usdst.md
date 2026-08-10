@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 5.00%예요.
 
 - [Strato](https://www.defi.garden/ko/chains/strato)
 
-## 마지막 업데이트: August 9, 2026
+## 마지막 업데이트: August 10, 2026

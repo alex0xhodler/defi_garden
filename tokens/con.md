@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Heco](https://www.defi.garden/chains/heco)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

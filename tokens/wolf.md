@@ -1,22 +1,22 @@
 # WOLF DeFi Yields
 
-The highest honest WOLF yield right now is 22.49% on uniswap-v4 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOLF yield right now is 45.17% on uniswap-v4 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 1.64% | $576K |
-| [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token) | Solana | 21.33% | $348.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token) | Base | 22.49% | $203K |
-| [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token) | Solana | 15.83% | $162.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 6.71% | $567.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token) | Solana | 48.12% | $460.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token) | Base | 45.17% | $266.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token) | Solana | 36.24% | $210.2K |
 | [raydium-amm →](https://www.defi.garden/?pool=c5fa4d15-6901-44ef-b524-1bf7f49d4113&src=seo_token) | Solana | 1.05% | $113K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WOLF shows up in 5 pools here, with rates from 1.05% to 22.49% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+WOLF shows up in 5 pools here, with rates from 1.05% to 48.12% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 1.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 3.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -24,10 +24,10 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 1.64% | 4.45% | Base rate |
-| raydium-amm | 21.33% | 0.78% | Base rate |
-| uniswap-v4 | 22.49% | 32.93% | Base rate |
-| raydium-amm | 15.83% | 1.08% | Base rate |
+| uniswap-v2 | 6.71% | 4.51% | Base rate |
+| raydium-amm | 48.12% | 2.71% | Base rate |
+| uniswap-v4 | 45.17% | 32.62% | Base rate |
+| raydium-amm | 36.24% | 3.04% | Base rate |
 | raydium-amm | 1.05% | 1.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -36,11 +36,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WOLF yield today?
 
-22.49% APY on uniswap-v4 (Base), based on live DefiLlama data.
+45.17% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many WOLF pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $1.58M in total.
+6 live pools clear this page's $100K TVL floor, $1.8M in total.
 
 ### Are these rates safe?
 
@@ -61,4 +61,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

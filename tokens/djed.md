@@ -1,30 +1,28 @@
 # DJED DeFi Yields
 
-The highest honest DJED yield right now is 12.86% on liqwid (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DJED yield right now is 12.82% on liqwid (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_token) | Cardano | 12.86% | $1.03M |
-| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 9.67% | $204.7K |
-| [orca-dex →](https://www.defi.garden/?pool=7657241b-5211-593f-975a-afa32b90ed0c&src=seo_token) | Solana | 0.10% | $176.2K |
+| [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_token) | Cardano | 12.82% | $1.04M |
+| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 9.71% | $205.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DJED shows up in 3 pools here, with rates from 0.10% to 12.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DJED shows up in 2 pools here, with rates from 9.71% to 12.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 10.78% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-1 of 3 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| liqwid | 12.86% | 12.95% | Base rate |
-| minswap-dex | 9.67% | 10.78% | 8.48% incentives |
-| orca-dex | 0.10% | 0.10% | Base rate |
+| liqwid | 12.82% | 12.95% | Base rate |
+| minswap-dex | 9.71% | 10.72% | 8.65% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DJED yield today?
 
-12.86% APY on liqwid (Cardano), based on live DefiLlama data.
+12.82% APY on liqwid (Cardano), based on live DefiLlama data.
 
 ### How many DJED pools clear the TVL floor?
 
@@ -44,16 +42,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
+- [USDM](https://www.defi.garden/tokens/usdm)
+- [ADA](https://www.defi.garden/tokens/ada)
+- [IUSD](https://www.defi.garden/tokens/iusd)
+- [USDA](https://www.defi.garden/tokens/usda)
+- [NIGHT](https://www.defi.garden/tokens/night)
+- [USDCX](https://www.defi.garden/tokens/usdcx)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
-- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

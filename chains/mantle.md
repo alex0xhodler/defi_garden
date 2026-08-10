@@ -1,17 +1,17 @@
 # Mantle DeFi Yields
 
-The highest honest Mantle yield right now is 4.19% on aave-v3 (Mantle), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Mantle yield right now is 4.22% on aave-v3 (Mantle), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SUSDE | [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_chain) | 3.76% | $54.11M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_chain) | 4.19% | $32.62M |
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_chain) | 3.55% | $29.05M |
+| SUSDE | [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_chain) | 3.76% | $54.12M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_chain) | 4.22% | $31.92M |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_chain) | 3.55% | $29.06M |
 | USDE | [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_chain) | 3.89% | $8.94M |
-| GHO | [aave-v3 →](https://www.defi.garden/?pool=125974d5-ad17-4a3a-b967-ebbf721fca22&src=seo_chain) | 0.01% | $2.19M |
-| USDT0-BSB | [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29&src=seo_chain) | 1.28% | $634.8K |
-| BILL-USDT0 | [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_chain) | 0.22% | $598.2K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=4a0e9f84-09a0-491a-aa5e-269813d31a59&src=seo_chain) | 1.83% | $391.7K |
+| USDT0-BSB | [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29&src=seo_chain) | 0.48% | $605.1K |
+| BILL-USDT0 | [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_chain) | 0.04% | $597.7K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=4a0e9f84-09a0-491a-aa5e-269813d31a59&src=seo_chain) | 1.86% | $368.3K |
+| ELSA-USDT0 | [fluxion-network →](https://www.defi.garden/?pool=649bee89-0a34-4eb1-b8ab-7c5fdee07ccd&src=seo_chain) | 2.16% | $155.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Mantle yield today?
 
-4.19% APY on aave-v3 (Mantle), based on live DefiLlama data.
+4.22% APY on aave-v3 (Mantle), based on live DefiLlama data.
 
 ### How many Mantle pools clear the TVL floor?
 
-23 live pools clear this page's $100K TVL floor, $192.55M in total.
+22 live pools clear this page's $100K TVL floor, $193.53M in total.
 
 ### Are these rates safe?
 
@@ -44,9 +44,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [GHO](https://www.defi.garden/tokens/gho)
 - [BSB](https://www.defi.garden/tokens/bsb)
 - [BILL](https://www.defi.garden/tokens/bill)
 - [WETH](https://www.defi.garden/tokens/weth)
+- [ELSA](https://www.defi.garden/tokens/elsa)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

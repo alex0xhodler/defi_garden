@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $513K
+**TVL:** $500.1K
 
 **Pool Type:** Lending
 
@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.01% right now vs a 0.03% 30-day average. Reward 
 
 [Start Earning on venus-core-pool](https://app.venus.io/?ref=defi.garden#/core-pool)
 
-Last updated August 9, 2026
+Last updated August 10, 2026

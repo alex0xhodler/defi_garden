@@ -1,19 +1,19 @@
 # NICP DeFi Yields
 
-The highest honest NICP yield right now is 8.05% on waterneuron (ICP), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NICP yield right now is 8.27% on icpswap (ICP), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_token) | ICP | 8.05% | $5.2M |
-| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 3.14% | $105.1K |
+| [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_token) | ICP | 8.04% | $5.17M |
+| [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_token) | ICP | 8.27% | $108.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NICP shows up in 2 pools here, with rates from 3.14% to 8.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NICP shows up in 2 pools here, with rates from 8.04% to 8.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.32% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| waterneuron | 8.05% | 8.05% | Base rate |
-| icpswap | 3.14% | 6.59% | Base rate |
+| waterneuron | 8.04% | 8.05% | Base rate |
+| icpswap | 8.27% | 6.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NICP yield today?
 
-8.05% APY on waterneuron (ICP), based on live DefiLlama data.
+8.27% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many NICP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.3M in total.
+2 live pools clear this page's $100K TVL floor, $5.28M in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

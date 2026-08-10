@@ -5,13 +5,13 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_chain) | 3.55% | $6.67M |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_chain) | 2.89% | $626.4K |
-| ATOM-USDC | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_chain) | 0.02% | $394K |
-| BTC-USDC | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_chain) | 0.03% | $390K |
-| BTC-USDC | [osmosis-dex →](https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_chain) | 0.01% | $364.6K |
-| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_chain) | 0.03% | $300.5K |
-| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e&src=seo_chain) | 0.04% | $296.4K |
-| ATOM-ATONE | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_chain) | 5.91% | $230.9K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_chain) | 3.42% | $627.5K |
+| ATOM-USDC | [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_chain) | 0.02% | $396.4K |
+| BTC-USDC | [osmosis-dex →](https://www.defi.garden/?pool=7cd52014-fecd-4036-a43b-097232c2b5ab&src=seo_chain) | 0.02% | $391.5K |
+| BTC-USDC | [osmosis-dex →](https://www.defi.garden/?pool=a661ddef-8f35-4c56-ac42-5fe2902b6fa6&src=seo_chain) | 0.01% | $365.5K |
+| ATOM-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_chain) | 0.06% | $301K |
+| WETH-OSMO | [osmosis-dex →](https://www.defi.garden/?pool=b52fb9a6-f7df-4920-b82c-7c090455ac6e&src=seo_chain) | 0.07% | $297.6K |
+| ATOM-ATONE | [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_chain) | 5.13% | $230.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -48,4 +48,4 @@ DefiLlama 실시간 데이터 기준, Osmosis의 ondo-yield-assets에서 APY 3.5
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [ATONE](https://www.defi.garden/ko/tokens/atone)
 
-## 마지막 업데이트: August 9, 2026
+## 마지막 업데이트: August 10, 2026

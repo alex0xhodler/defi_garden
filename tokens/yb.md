@@ -4,20 +4,20 @@ The highest honest YB yield right now is 33.50% on convex-finance (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token) | Ethereum | 16.74% | $974.5K |
-| [convex-finance →](https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token) | Ethereum | 23.83% | $378.5K |
-| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 17.48% | $220.7K |
-| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 10.36% | $156.9K |
-| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 33.50% | $136.7K |
-| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 14.50% | $116.3K |
+| [curve-dex →](https://www.defi.garden/?pool=cd24920c-7e1f-4473-81de-b6fccd7ecdfd&src=seo_token) | Ethereum | 19.46% | $985.8K |
+| [convex-finance →](https://www.defi.garden/?pool=fab4c4b9-3f48-4822-9d75-09b3f114a5f5&src=seo_token) | Ethereum | 27.00% | $382.9K |
+| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 16.95% | $231.1K |
+| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 9.60% | $167.2K |
+| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 33.50% | $143.4K |
+| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 14.27% | $124.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YB shows up in 6 pools here, with rates from 10.36% to 33.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YB shows up in 6 pools here, with rates from 9.60% to 33.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 18.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 18.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,12 +25,12 @@ YB shows up in 6 pools here, with rates from 10.36% to 33.50% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 16.74% | 15.72% | 94.57% incentives |
-| convex-finance | 23.83% | 24.30% | 96.18% incentives |
-| curve-dex | 17.48% | 17.41% | 96.80% incentives |
-| curve-dex | 10.36% | 15.30% | 93.92% incentives |
-| convex-finance | 33.50% | 32.50% | 98.33% incentives |
-| stake-dao | 14.50% | 20.18% | 96.28% incentives |
+| curve-dex | 19.46% | 15.65% | 85.15% incentives |
+| convex-finance | 27.00% | 24.20% | 89.30% incentives |
+| curve-dex | 16.95% | 17.44% | 99.59% incentives |
+| curve-dex | 9.60% | 15.17% | 99.48% incentives |
+| convex-finance | 33.50% | 32.61% | 99.79% incentives |
+| stake-dao | 14.27% | 20.07% | 96.15% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YB pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $1.98M in total.
+6 live pools clear this page's $100K TVL floor, $2.03M in total.
 
 ### Are these rates safe?
 
@@ -61,4 +61,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

@@ -1,10 +1,10 @@
 # ARCHAI 디파이 수익률
 
-현재 ARCHAI의 가장 높은 정직한 수익률은 Base의 uniswap-v2에서 0.07%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ARCHAI의 가장 높은 정직한 수익률은 Base의 uniswap-v2에서 0.02%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=daa5e719-e6dc-4746-ab89-973f7c17d116&src=seo_token) | Base | 0.07% | $110.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=daa5e719-e6dc-4746-ab89-973f7c17d116&src=seo_token) | Base | 0.02% | $109.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +12,11 @@
 
 ### 오늘 ARCHAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 0.07%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 0.02%예요.
 
 ### ARCHAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $110.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $109.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 0.07%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 9, 2026
+## 마지막 업데이트: August 10, 2026

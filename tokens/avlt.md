@@ -1,10 +1,10 @@
 # AVLT DeFi Yields
 
-The highest honest AVLT yield right now is 22.15% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVLT yield right now is 6.40% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=7a2a6b6b-9115-4a6b-b9a1-c84e8a40a5ad&src=seo_token) | Hyperliquid L1 | 22.15% | $139K |
+| [project-x →](https://www.defi.garden/?pool=7a2a6b6b-9115-4a6b-b9a1-c84e8a40a5ad&src=seo_token) | Hyperliquid L1 | 6.40% | $137.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AVLT yield today?
 
-22.15% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+6.40% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many AVLT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $139K in total.
+1 live pool clear this page's $100K TVL floor, $137.7K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

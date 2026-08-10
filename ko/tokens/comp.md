@@ -4,15 +4,15 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token) | Ethereum | 0.02% | $1.02M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token) | Ethereum | 0.01% | $1.02M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 18.06% | $236.8K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token) | Ethereum | 1.71% | $113.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token) | Ethereum | 0.74% | $113.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-COMP 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.02%부터 18.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+COMP 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.01%부터 18.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -22,9 +22,9 @@ COMP 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.02%부터 18.06%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.02% | 0.05% | 기본 금리 |
-| uniswap-v4 | 18.06% | 16.68% | 기본 금리 |
-| uniswap-v2 | 1.71% | 3.19% | 기본 금리 |
+| uniswap-v3 | 0.01% | 0.05% | 기본 금리 |
+| uniswap-v4 | 18.06% | 16.69% | 기본 금리 |
+| uniswap-v2 | 0.74% | 3.19% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,4 +55,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 18.06%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 9, 2026
+## 마지막 업데이트: August 10, 2026

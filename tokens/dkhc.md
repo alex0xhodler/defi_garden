@@ -1,6 +1,6 @@
 # DKHC DeFi Yields
 
-The highest honest DKHC yield right now is 0.01% on orca-dex (Solana), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DKHC yield right now is 0.01% on orca-dex (Solana), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DKHC pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $4.56M in total.
+15 live pools clear this page's $100K TVL floor, $3.8M in total.
 
 ### Are these rates safe?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

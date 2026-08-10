@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Plasma의 veda에서 APY 3.68%예요.
 
 - [Plasma](https://www.defi.garden/ko/chains/plasma)
 
-## 마지막 업데이트: August 9, 2026
+## 마지막 업데이트: August 10, 2026

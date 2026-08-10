@@ -1,26 +1,26 @@
 # GAMICUSPC DeFi Yields
 
-The highest honest GAMICUSPC yield right now is 2.51% on lagoon (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GAMICUSPC yield right now is 2.52% on lagoon (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token) | Ethereum | 2.51% | $7.51M |
-| [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.24% | $7.51M |
+| [lagoon →](https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token) | Ethereum | 2.52% | $7.51M |
+| [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.41% | $7.51M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GAMICUSPC shows up in 2 pools here, with rates from 2.24% to 2.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GAMICUSPC shows up in 2 pools here, with rates from 2.41% to 2.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 2.51% | 2.30% | Base rate |
-| gami-labs | 2.24% | 2.68% | Base rate |
+| lagoon | 2.52% | 2.29% | Base rate |
+| gami-labs | 2.41% | 2.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,7 +28,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GAMICUSPC yield today?
 
-2.51% APY on lagoon (Ethereum), based on live DefiLlama data.
+2.52% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many GAMICUSPC pools clear the TVL floor?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026

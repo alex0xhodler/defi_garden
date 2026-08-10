@@ -1,10 +1,10 @@
 # WOULD DeFi Yields
 
-The highest honest WOULD yield right now is 14.11% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOULD yield right now is 16.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=71b80fb4-50bc-4e0a-b01f-f60cb59fb859&src=seo_token) | Solana | 14.11% | $1.28M |
+| [raydium-amm →](https://www.defi.garden/?pool=71b80fb4-50bc-4e0a-b01f-f60cb59fb859&src=seo_token) | Solana | 16.04% | $1.27M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WOULD yield today?
 
-14.11% APY on raydium-amm (Solana), based on live DefiLlama data.
+16.04% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WOULD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.28M in total.
+1 live pool clear this page's $100K TVL floor, $1.27M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 9, 2026
+## Last updated August 10, 2026
