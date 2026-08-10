@@ -1,10 +1,10 @@
 # BXX DeFi Yields
 
-The highest honest BXX yield right now is 0.81% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BXX yield right now is 0.83% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=27eadf89-9f87-4a1f-a637-62420a8b14d3&src=seo_token) | Ethereum | 0.81% | $106.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=27eadf89-9f87-4a1f-a637-62420a8b14d3&src=seo_token) | Ethereum | 0.83% | $105.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BXX yield today?
 
-0.81% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.83% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BXX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.3K in total.
+1 live pool clear this page's $100K TVL floor, $105.1K in total.
 
 ### Are these rates safe?
 

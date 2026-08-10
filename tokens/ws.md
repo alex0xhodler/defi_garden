@@ -1,23 +1,23 @@
 # WS DeFi Yields
 
-The highest honest WS yield right now is 71.41% on shadow-exchange-clmm (Sonic), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WS yield right now is 74.01% on shadow-exchange-clmm (Sonic), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.05% | $934.2K |
-| [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.03% | $261.9K |
-| [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 71.41% | $203.7K |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 7.06% | $195.5K |
-| [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.45% | $180.7K |
-| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.20% | $157.9K |
+| [aave-v3 →](https://www.defi.garden/?pool=09fcd4ee-e2c2-4739-9d6e-1da4273a7109&src=seo_token) | Sonic | 1.05% | $927.9K |
+| [silo-v2 →](https://www.defi.garden/?pool=d7657d6f-da8b-4935-b6ac-a30545df8dbc&src=seo_token) | Sonic | 0.03% | $260.1K |
+| [shadow-exchange-clmm →](https://www.defi.garden/?pool=bfb130df-7dd3-4f19-a54c-305c8cb6c9f0&src=seo_token) | Sonic | 74.01% | $202.4K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 6.94% | $193.7K |
+| [silo-v2 →](https://www.defi.garden/?pool=6a3c5da3-0b8d-4af6-9446-7ae4aa63e327&src=seo_token) | Sonic | 2.45% | $179.4K |
+| [shadow-exchange-legacy →](https://www.defi.garden/?pool=79e3b6bc-bc73-4526-bb66-13878cf8f0e2&src=seo_token) | Sonic | 2.25% | $154K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WS shows up in 6 pools here, with rates from 0.03% to 71.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WS shows up in 6 pools here, with rates from 0.03% to 74.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 3.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 3.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 6 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -26,11 +26,11 @@ WS shows up in 6 pools here, with rates from 0.03% to 71.41% APY across 1 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 1.05% | 1.08% | Base rate |
-| silo-v2 | 0.03% | 1.13% | Base rate |
-| shadow-exchange-clmm | 71.41% | 106.24% | 100.00% incentives |
-| beets-dex-v3 | 7.06% | 7.44% | 72.23% incentives |
+| silo-v2 | 0.03% | 1.06% | Base rate |
+| shadow-exchange-clmm | 74.01% | 104.60% | 100.00% incentives |
+| beets-dex-v3 | 6.94% | 7.44% | 73.65% incentives |
 | silo-v2 | 2.45% | 2.29% | Base rate |
-| shadow-exchange-legacy | 2.20% | 4.94% | 100.00% incentives |
+| shadow-exchange-legacy | 2.25% | 4.80% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WS yield today?
 
-71.41% APY on shadow-exchange-clmm (Sonic), based on live DefiLlama data.
+74.01% APY on shadow-exchange-clmm (Sonic), based on live DefiLlama data.
 
 ### How many WS pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $1.93M in total.
+6 live pools clear this page's $100K TVL floor, $1.92M in total.
 
 ### Are these rates safe?
 

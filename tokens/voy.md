@@ -4,7 +4,7 @@ The highest honest VOY yield right now is 0.01% on uniswap-v2 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=806929a2-514b-48a2-a70b-3e086c83e9df&src=seo_token) | Base | 0.01% | $178.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=806929a2-514b-48a2-a70b-3e086c83e9df&src=seo_token) | Base | 0.01% | $177.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VOY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $178.7K in total.
+1 live pool clear this page's $100K TVL floor, $177.4K in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

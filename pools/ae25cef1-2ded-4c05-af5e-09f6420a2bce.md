@@ -1,8 +1,8 @@
 # USD₮0 — tydro on Ink
 
-**Total APY:** 2.25% (2.25% Base · + 0.00% Rewards)
+**Total APY:** 2.24% (2.24% Base · + 0.00% Rewards)
 
-**TVL:** $4.41M
+**TVL:** $4.43M
 
 **Pool Type:** Yield Farming
 

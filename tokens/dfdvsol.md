@@ -4,7 +4,7 @@ The highest honest DFDVSOL yield right now is 5.83% on dfdv-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dfdv-staked-sol →](https://www.defi.garden/?pool=568bbb48-dc88-4313-b1cc-ab1d4e763d6d&src=seo_token) | Solana | 5.83% | $65.33M |
+| [dfdv-staked-sol →](https://www.defi.garden/?pool=568bbb48-dc88-4313-b1cc-ab1d4e763d6d&src=seo_token) | Solana | 5.83% | $64.96M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DFDVSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $72.66M in total.
+3 live pools clear this page's $100K TVL floor, $72.28M in total.
 
 ### Are these rates safe?
 
@@ -41,9 +41,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

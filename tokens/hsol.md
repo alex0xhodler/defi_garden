@@ -4,8 +4,8 @@ The highest honest HSOL yield right now is 5.70% on helius-staked-sol (Solana), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [helius-staked-sol →](https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301&src=seo_token) | Solana | 5.70% | $69.71M |
-| [project-0 →](https://www.defi.garden/?pool=0987e700-a43d-4c5b-b226-2d61f4390f0b&src=seo_token) | Solana | 0.01% | $214.5K |
+| [helius-staked-sol →](https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301&src=seo_token) | Solana | 5.70% | $69.19M |
+| [project-0 →](https://www.defi.garden/?pool=0987e700-a43d-4c5b-b226-2d61f4390f0b&src=seo_token) | Solana | 0.01% | $212.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $90.88M in total.
+3 live pools clear this page's $100K TVL floor, $90.16M in total.
 
 ### Are these rates safe?
 
@@ -43,9 +43,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

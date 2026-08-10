@@ -1,18 +1,18 @@
 # CBADA DeFi Yields
 
-The highest honest CBADA yield right now is 33.07% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBADA yield right now is 37.85% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token) | Base | 33.07% | $114.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token) | Base | 37.85% | $110.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBADA shows up in 1 pools here, with rates from 33.07% to 33.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBADA shows up in 1 pools here, with rates from 37.85% to 37.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 65.28% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 65.30% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -20,7 +20,7 @@ CBADA shows up in 1 pools here, with rates from 33.07% to 33.07% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 33.07% | 65.28% | 82.83% incentives |
+| aerodrome-slipstream | 37.85% | 65.30% | 81.44% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,11 +28,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CBADA yield today?
 
-33.07% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+37.85% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBADA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $7.8M in total.
+3 live pools clear this page's $100K TVL floor, $7.74M in total.
 
 ### Are these rates safe?
 
@@ -42,10 +42,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

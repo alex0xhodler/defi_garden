@@ -1,10 +1,10 @@
 # DBIT DeFi Yields
 
-The highest honest DBIT yield right now is 1.66% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DBIT yield right now is 1.40% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=9a506a8e-ce30-5b50-b129-fb9454e37fff&src=seo_token) | Ethereum | 1.66% | $625.6K |
+| [makina →](https://www.defi.garden/?pool=9a506a8e-ce30-5b50-b129-fb9454e37fff&src=seo_token) | Ethereum | 1.40% | $620.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DBIT yield today?
 
-1.66% APY on makina (Ethereum), based on live DefiLlama data.
+1.40% APY on makina (Ethereum), based on live DefiLlama data.
 
 ### How many DBIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $625.6K in total.
+1 live pool clear this page's $100K TVL floor, $620.9K in total.
 
 ### Are these rates safe?
 

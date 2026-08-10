@@ -4,23 +4,23 @@ The highest honest SATUSDC yield right now is 6.56% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 6.18% | $1.98M |
+| [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 6.14% | $2.01M |
 | [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 6.56% | $1.47M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SATUSDC shows up in 2 pools here, with rates from 6.18% to 6.56% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SATUSDC shows up in 2 pools here, with rates from 6.14% to 6.56% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.66% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.65% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 6.18% | 7.31% | 27.98% incentives |
-| morpho-blue | 6.56% | 6.01% | Base rate |
+| morpho-blue | 6.14% | 7.29% | 27.48% incentives |
+| morpho-blue | 6.56% | 6.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SATUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.45M in total.
+2 live pools clear this page's $100K TVL floor, $3.48M in total.
 
 ### Are these rates safe?
 

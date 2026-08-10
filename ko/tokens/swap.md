@@ -1,10 +1,10 @@
 # SWAP 디파이 수익률
 
-현재 SWAP의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v3에서 0.04%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SWAP의 가장 높은 정직한 수익률은 Hyperliquid L1의 hyperswap-v3에서 0.07%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=a3495e3b-0550-4ef7-949a-3c27cf066ae3&src=seo_token) | Hyperliquid L1 | 0.04% | $256K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=a3495e3b-0550-4ef7-949a-3c27cf066ae3&src=seo_token) | Hyperliquid L1 | 0.07% | $256K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,7 +12,7 @@
 
 ### 오늘 SWAP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v3에서 APY 0.04%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v3에서 APY 0.07%예요.
 
 ### SWAP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -24,12 +24,12 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 hyperswap-v3에서 APY 0
 
 ## 관련 토큰
 
-- [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
+- [LIMUSD](https://www.defi.garden/ko/tokens/limusd)
 
 ## 이용 가능한 체인
 

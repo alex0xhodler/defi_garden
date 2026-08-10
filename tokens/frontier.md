@@ -1,19 +1,19 @@
 # FRONTIER DeFi Yields
 
-The highest honest FRONTIER yield right now is 7.20% on concrete (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRONTIER yield right now is 7.06% on concrete (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 7.20% | $496.9K |
+| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 7.06% | $497K |
 | [concrete →](https://www.defi.garden/?pool=3c8231f3-1259-5c66-af05-aad426ef3647&src=seo_token) | Ethereum | 1.26% | $118.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FRONTIER shows up in 2 pools here, with rates from 1.26% to 7.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FRONTIER shows up in 2 pools here, with rates from 1.26% to 7.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| concrete | 7.20% | 9.11% | Base rate |
-| concrete | 1.26% | 8.05% | Base rate |
+| concrete | 7.06% | 9.19% | Base rate |
+| concrete | 1.26% | 8.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FRONTIER yield today?
 
-7.20% APY on concrete (Ethereum), based on live DefiLlama data.
+7.06% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many FRONTIER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $615.9K in total.
+2 live pools clear this page's $100K TVL floor, $616K in total.
 
 ### Are these rates safe?
 

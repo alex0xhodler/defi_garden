@@ -1,18 +1,18 @@
 # AUSDT DeFi Yields
 
-The highest honest AUSDT yield right now is 0.79% on hydration-dex (Polkadot), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUSDT yield right now is 0.80% on hydration-dex (Polkadot), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token) | Polkadot | 0.79% | $2.21M |
+| [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token) | Polkadot | 0.80% | $2.22M |
 | [hydration-dex →](https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token) | Polkadot | 0.36% | $1.04M |
-| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $309.8K |
+| [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.30% | $309.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AUSDT shows up in 3 pools here, with rates from 0.30% to 0.79% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AUSDT shows up in 3 pools here, with rates from 0.30% to 0.80% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hydration-dex | 0.79% | 0.78% | Base rate |
+| hydration-dex | 0.80% | 0.78% | Base rate |
 | hydration-dex | 0.36% | 0.42% | Base rate |
 | curve-dex | 0.30% | 0.30% | Base rate |
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AUSDT yield today?
 
-0.79% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+0.80% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many AUSDT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.56M in total.
+3 live pools clear this page's $100K TVL floor, $3.57M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest CSCOREUSDC yield right now is 4.23% on morpho-blue (Base), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=5f406764-32fd-44bf-aa2a-0114d6c4c0ec&src=seo_token) | Base | 4.23% | $104.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=5f406764-32fd-44bf-aa2a-0114d6c4c0ec&src=seo_token) | Base | 4.23% | $105.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSCOREUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.9K in total.
+1 live pool clear this page's $100K TVL floor, $105.1K in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

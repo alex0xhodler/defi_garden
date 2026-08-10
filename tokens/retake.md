@@ -4,7 +4,7 @@ The highest honest RETAKE yield right now is 0.03% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0227ec55-ad24-4c11-aa77-883f2f312237&src=seo_token) | Base | 0.03% | $186.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0227ec55-ad24-4c11-aa77-883f2f312237&src=seo_token) | Base | 0.03% | $185.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RETAKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $186.5K in total.
+1 live pool clear this page's $100K TVL floor, $185.9K in total.
 
 ### Are these rates safe?
 
@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

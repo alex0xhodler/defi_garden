@@ -4,7 +4,7 @@ The highest honest XAG yield right now is 78.40% on gmtrade (Solana), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7&src=seo_token) | Solana | 78.40% | $1.86M |
+| [gmtrade →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7&src=seo_token) | Solana | 78.40% | $1.9M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XAG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.86M in total.
+1 live pool clear this page's $100K TVL floor, $1.9M in total.
 
 ### Are these rates safe?
 
@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

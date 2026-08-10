@@ -4,7 +4,7 @@ The highest honest AAPL yield right now is 24.77% on gmtrade (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=7b56ac37-1249-4ae8-bd5d-2494f3ac7499&src=seo_token) | Solana | 24.77% | $218.2K |
+| [gmtrade →](https://www.defi.garden/?pool=7b56ac37-1249-4ae8-bd5d-2494f3ac7499&src=seo_token) | Solana | 24.77% | $232.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AAPL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $218.2K in total.
+1 live pool clear this page's $100K TVL floor, $232.1K in total.
 
 ### Are these rates safe?
 
@@ -27,9 +27,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 

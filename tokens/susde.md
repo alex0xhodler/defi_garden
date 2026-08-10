@@ -1,15 +1,15 @@
 # SUSDE DeFi Yields
 
-The highest honest SUSDE yield right now is 5.87% on convex-finance (Ethereum), among 59 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDE yield right now is 5.96% on convex-finance (Ethereum), among 59 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.08% | $1.54B |
-| [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 2.09% | $434.42M |
-| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 2.04% | $194.52M |
+| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.17% | $1.51B |
+| [aave-v3 →](https://www.defi.garden/?pool=29932dea-cd71-44c3-95bd-3e1525f4e3dd&src=seo_token) | Ethereum | 2.09% | $442.85M |
+| [aave-v3 →](https://www.defi.garden/?pool=6cf9108a-4832-4681-95d7-757d51d3b24a&src=seo_token) | Plasma | 2.05% | $194.52M |
 | [aave-v3 →](https://www.defi.garden/?pool=a4e37545-203b-4412-9acd-3e8b1aa4d744&src=seo_token) | Mantle | 3.76% | $54.13M |
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.57% | $43.73M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.87% | $35.55M |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.63% | $43.74M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.96% | $35.56M |
 | [pendle →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 4.12% | $14.39M |
 | [pendle →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 12.02% | $14.39M |
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SUSDE shows up in 8 pools here, with rates from 2.04% to 12.02% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDE shows up in 8 pools here, with rates from 2.05% to 12.02% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,12 +25,12 @@ SUSDE shows up in 8 pools here, with rates from 2.04% to 12.02% APY across 4 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ethena-usde | 4.08% | 4.00% | Base rate |
-| aave-v3 | 2.09% | 2.39% | 100.00% incentives |
-| aave-v3 | 2.04% | 2.36% | 100.00% incentives |
+| ethena-usde | 4.17% | 4.00% | Base rate |
+| aave-v3 | 2.09% | 2.37% | 100.00% incentives |
+| aave-v3 | 2.05% | 2.35% | 100.00% incentives |
 | aave-v3 | 3.76% | 3.33% | 100.00% incentives |
-| curve-dex | 3.57% | 3.51% | 74.49% incentives |
-| convex-finance | 5.87% | 4.83% | 84.49% incentives |
+| curve-dex | 3.63% | 3.52% | 74.67% incentives |
+| convex-finance | 5.96% | 4.84% | 84.56% incentives |
 | pendle | 4.12% | 3.92% | Base rate |
 | pendle | 12.02% | 27.81% | 0.97% incentives |
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSDE yield today?
 
-5.87% APY on convex-finance (Ethereum), based on live DefiLlama data.
+5.96% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many SUSDE pools clear the TVL floor?
 
-59 live pools clear this page's $100K TVL floor, $2.65B in total.
+59 live pools clear this page's $100K TVL floor, $2.63B in total.
 
 ### Are these rates safe?
 

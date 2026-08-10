@@ -1,36 +1,36 @@
 # AVUSD DeFi Yields
 
-The highest honest AVUSD yield right now is 11.87% on stake-dao (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVUSD yield right now is 13.49% on stake-dao (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 10.57% | $2.91M |
-| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 7.59% | $990.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 10.51% | $2.91M |
+| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 7.64% | $990.5K |
 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $761.1K |
-| [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 9.48% | $722.1K |
-| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 10.99% | $304.4K |
-| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 11.87% | $250.3K |
-| [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token) | Ethereum | 11.06% | $120.4K |
+| [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 9.64% | $722.1K |
+| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 11.62% | $304.4K |
+| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 13.49% | $250.3K |
+| [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token) | Ethereum | 10.63% | $127.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AVUSD shows up in 7 pools here, with rates from 5.00% to 11.87% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AVUSD shows up in 7 pools here, with rates from 5.00% to 13.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 9.12% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 9.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 7 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 10.57% | 9.12% | 91.09% incentives |
-| curve-dex | 7.59% | 6.09% | 99.60% incentives |
-| curve-dex | 5.00% | 5.87% | 100.00% incentives |
-| stake-dao | 9.48% | 7.39% | 99.47% incentives |
-| curve-dex | 10.99% | 10.28% | 97.09% incentives |
-| stake-dao | 11.87% | 11.65% | 98.32% incentives |
-| convex-finance | 11.06% | 10.94% | 99.73% incentives |
+| balancer-v3 | 10.51% | 9.13% | 91.18% incentives |
+| curve-dex | 7.64% | 6.11% | 99.61% incentives |
+| curve-dex | 5.00% | 5.82% | 100.00% incentives |
+| stake-dao | 9.64% | 7.41% | 99.48% incentives |
+| curve-dex | 11.62% | 10.22% | 99.91% incentives |
+| stake-dao | 13.49% | 11.58% | 98.52% incentives |
+| convex-finance | 10.63% | 10.93% | 99.72% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AVUSD yield today?
 
-11.87% APY on stake-dao (Ethereum), based on live DefiLlama data.
+13.49% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many AVUSD pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $6.06M in total.
+7 live pools clear this page's $100K TVL floor, $6.07M in total.
 
 ### Are these rates safe?
 

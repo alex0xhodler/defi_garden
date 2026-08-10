@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=1b452a0b-6a59-4517-a484-0b4415eb8bad&src=seo_token) | Cardano | 5.35% | $175.8K |
+| [minswap-dex →](https://www.defi.garden/?pool=1b452a0b-6a59-4517-a484-0b4415eb8bad&src=seo_token) | Cardano | 5.35% | $174K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 5.35%예�
 
 ### LQ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $175.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $174K예요.
 
 ### 이 수익률은 안전한가요?
 

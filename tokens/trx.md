@@ -4,17 +4,17 @@ The highest honest TRX yield right now is 11.66% on tr-energy (Tron), among 6 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_token) | Tron | 0.31% | $679.29M |
-| [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_token) | Tron | 11.66% | $89.23M |
-| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54&src=seo_token) | Solana | 0.51% | $12.28M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183&src=seo_token) | Ethereum | 0.49% | $744.5K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.20% | $530.4K |
+| [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_token) | Tron | 0.31% | $681.67M |
+| [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_token) | Tron | 11.66% | $89.46M |
+| [raydium-amm →](https://www.defi.garden/?pool=ca46228a-5be2-4f58-97e2-c98fb2b56e54&src=seo_token) | Solana | 0.77% | $12.31M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0aa6af67-5890-445d-8982-e8963a5f3183&src=seo_token) | Ethereum | 0.44% | $745.3K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.06% | $530.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TRX shows up in 5 pools here, with rates from 0.20% to 11.66% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRX shows up in 5 pools here, with rates from 0.06% to 11.66% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,9 +26,9 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | justlend-v1 | 0.31% | 0.36% | Base rate |
 | tr-energy | 11.66% | 11.37% | Base rate |
-| raydium-amm | 0.51% | 0.93% | Base rate |
-| uniswap-v2 | 0.49% | 0.45% | Base rate |
-| pancakeswap-amm | 0.20% | 0.45% | Base rate |
+| raydium-amm | 0.77% | 0.92% | Base rate |
+| uniswap-v2 | 0.44% | 0.45% | Base rate |
+| pancakeswap-amm | 0.06% | 0.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TRX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $782.71M in total.
+6 live pools clear this page's $100K TVL floor, $785.35M in total.
 
 ### Are these rates safe?
 

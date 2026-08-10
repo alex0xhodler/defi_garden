@@ -4,7 +4,7 @@ The highest honest HUMAUSDC yield right now is 5.44% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a295b2bd-0d49-4b01-803a-ff96bdcd0d33&src=seo_token) | Ethereum | 5.44% | $15.87M |
+| [morpho-blue →](https://www.defi.garden/?pool=a295b2bd-0d49-4b01-803a-ff96bdcd0d33&src=seo_token) | Ethereum | 5.44% | $14.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HUMAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $15.87M in total.
+1 live pool clear this page's $100K TVL floor, $14.45M in total.
 
 ### Are these rates safe?
 

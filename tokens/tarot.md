@@ -1,20 +1,20 @@
 # TAROT DeFi Yields
 
-The highest honest TAROT yield right now is 53.63% on velodrome-v2 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TAROT yield right now is 53.05% on velodrome-v2 (OP Mainnet), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=1f6ca255-d8b4-4c72-b71a-2cf4933f1ff6&src=seo_token) | OP Mainnet | 53.63% | $256.8K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=60728315-0bf5-42e3-9fa7-eec9b2e04a24&src=seo_token) | Base | 26.71% | $145K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=6a22f078-db43-4e25-94a6-bdd7da723f01&src=seo_token) | Base | 26.59% | $131.6K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=1f6ca255-d8b4-4c72-b71a-2cf4933f1ff6&src=seo_token) | OP Mainnet | 53.05% | $256.5K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=60728315-0bf5-42e3-9fa7-eec9b2e04a24&src=seo_token) | Base | 26.90% | $143.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=6a22f078-db43-4e25-94a6-bdd7da723f01&src=seo_token) | Base | 26.59% | $131.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TAROT shows up in 3 pools here, with rates from 26.59% to 53.63% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+TAROT shows up in 3 pools here, with rates from 26.59% to 53.05% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 33.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 33.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ TAROT shows up in 3 pools here, with rates from 26.59% to 53.63% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| velodrome-v2 | 53.63% | 57.75% | 100.00% incentives |
-| aerodrome-v1 | 26.71% | 28.24% | 100.00% incentives |
-| aerodrome-v1 | 26.59% | 33.19% | 100.00% incentives |
+| velodrome-v2 | 53.05% | 57.60% | 100.00% incentives |
+| aerodrome-v1 | 26.90% | 28.12% | 100.00% incentives |
+| aerodrome-v1 | 26.59% | 33.11% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TAROT yield today?
 
-53.63% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+53.05% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many TAROT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $533.4K in total.
+3 live pools clear this page's $100K TVL floor, $531.3K in total.
 
 ### Are these rates safe?
 
@@ -46,10 +46,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 
 ## Available on
 

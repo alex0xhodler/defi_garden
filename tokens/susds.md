@@ -1,14 +1,14 @@
 # SUSDS DeFi Yields
 
-The highest honest SUSDS yield right now is 5.15% on pendle (Ethereum), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDS yield right now is 5.15% on pendle (Ethereum), among 29 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.77B |
-| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.59M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.35% | $10.71M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.54% | $5.9M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.06% | $5.57M |
+| [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.73B |
+| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.36% | $10.7M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.62% | $5.9M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.15% | $5.57M |
 | [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d&src=seo_token) | OP Mainnet | 3.52% | $5.11M |
 | [pendle →](https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec&src=seo_token) | Ethereum | 4.86% | $4.46M |
 | [pendle →](https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa&src=seo_token) | Ethereum | 5.15% | $4.46M |
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SUSDS shows up in 8 pools here, with rates from 0.35% to 5.15% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDS shows up in 8 pools here, with rates from 0.36% to 5.15% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,12 +29,12 @@ SUSDS shows up in 8 pools here, with rates from 0.35% to 5.15% APY across 3 chai
 |---|---|---|---|
 | sky-lending | 3.52% | 3.55% | Base rate |
 | sky-lending | 3.52% | 3.55% | Base rate |
-| uniswap-v3 | 0.35% | 1.27% | Base rate |
-| curve-dex | 3.54% | 3.00% | 76.58% incentives |
-| convex-finance | 5.06% | 4.24% | 83.60% incentives |
-| sky-lending | 3.52% | 3.55% | Base rate |
+| uniswap-v3 | 0.36% | 1.27% | Base rate |
+| curve-dex | 3.62% | 3.01% | 76.51% incentives |
+| convex-finance | 5.15% | 4.24% | 83.50% incentives |
+| sky-lending | 3.52% | 3.54% | Base rate |
 | pendle | 4.86% | 5.26% | 17.45% incentives |
-| pendle | 5.15% | 5.26% | Base rate |
+| pendle | 5.15% | 5.27% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDS pools clear the TVL floor?
 
-30 live pools clear this page's $100K TVL floor, $5.3B in total.
+29 live pools clear this page's $100K TVL floor, $5.26B in total.
 
 ### Are these rates safe?
 

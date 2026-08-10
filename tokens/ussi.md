@@ -4,7 +4,7 @@ The highest honest USSI yield right now is 0.02% on uniswap-v3 (Base), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.02% | $999.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd592ee5-75d2-49e1-b223-3567288810b6&src=seo_token) | Base | 0.02% | $999.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -42,10 +42,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

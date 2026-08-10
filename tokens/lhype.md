@@ -4,7 +4,7 @@ The highest honest LHYPE yield right now is 0.01% on project-x (Hyperliquid L1),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=a0478717-40b1-4579-8c48-6fd70d86aa05&src=seo_token) | Hyperliquid L1 | 0.01% | $378K |
+| [project-x →](https://www.defi.garden/?pool=a0478717-40b1-4579-8c48-6fd70d86aa05&src=seo_token) | Hyperliquid L1 | 0.01% | $384.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LHYPE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.83M in total.
+2 live pools clear this page's $100K TVL floor, $7.77M in total.
 
 ### Are these rates safe?
 
@@ -40,12 +40,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
+- [LIMUSD](https://www.defi.garden/tokens/limusd)
 
 ## Available on
 

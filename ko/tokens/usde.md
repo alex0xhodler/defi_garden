@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.29% | $340.74M |
-| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.35% | $258.87M |
-| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 3.98% | $193M |
-| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.98% | $70.39M |
+| [morpho-blue →](https://www.defi.garden/?pool=2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5&src=seo_token) | Base | 4.29% | $340.71M |
+| [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_token) | Robinhood Chain | 4.36% | $258.04M |
+| [aave-v3 →](https://www.defi.garden/?pool=21e1ac8a-b3aa-4576-9506-0b40137721a0&src=seo_token) | Ethereum | 3.98% | $192.8M |
+| [aave-v3 →](https://www.defi.garden/?pool=42eaf290-24c3-4ce0-82ab-c1276444871b&src=seo_token) | Plasma | 3.98% | $71.08M |
 | [aave-v3 →](https://www.defi.garden/?pool=34f65227-f3f9-5c3f-9182-f6eca85ae729&src=seo_token) | Monad | 6.00% | $43.98M |
-| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.81% | $34.02M |
-| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.70% | $33.9M |
+| [curve-dex →](https://www.defi.garden/?pool=12ca9565-0369-404e-b209-631305e4012a&src=seo_token) | Ethereum | 2.87% | $34.01M |
+| [convex-finance →](https://www.defi.garden/?pool=5fac4a47-5360-49b7-8b61-66f88a3d939f&src=seo_token) | Ethereum | 4.78% | $33.9M |
 | [aave-v3 →](https://www.defi.garden/?pool=76b70b33-d8a4-4e61-8092-9bd1f2be2fc9&src=seo_token) | Mantle | 3.89% | $8.94M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDE 풀은 여기 8개가 있고, 6개 체인에서 APY가 2.81%부터 6.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDE 풀은 여기 8개가 있고, 6개 체인에서 APY가 2.87%부터 6.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.70%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -25,14 +25,14 @@ USDE 풀은 여기 8개가 있고, 6개 체인에서 APY가 2.81%부터 6.00%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 4.29% | 2.75% | 인센티브 100.00% |
-| morpho-blue | 4.35% | 3.21% | 인센티브 100.00% |
-| aave-v3 | 3.98% | 3.82% | 인센티브 52.55% |
-| aave-v3 | 3.98% | 3.68% | 인센티브 51.27% |
-| aave-v3 | 6.00% | 4.40% | 인센티브 89.79% |
-| curve-dex | 2.81% | 2.51% | 인센티브 100.00% |
-| convex-finance | 4.70% | 3.71% | 인센티브 100.00% |
-| aave-v3 | 3.89% | 5.14% | 인센티브 96.64% |
+| morpho-blue | 4.29% | 2.79% | 인센티브 100.00% |
+| morpho-blue | 4.36% | 3.22% | 인센티브 100.00% |
+| aave-v3 | 3.98% | 3.81% | 인센티브 52.52% |
+| aave-v3 | 3.98% | 3.67% | 인센티브 51.60% |
+| aave-v3 | 6.00% | 4.42% | 인센티브 88.75% |
+| curve-dex | 2.87% | 2.52% | 인센티브 100.00% |
+| convex-finance | 4.78% | 3.73% | 인센티브 100.00% |
+| aave-v3 | 3.89% | 5.11% | 인센티브 96.64% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

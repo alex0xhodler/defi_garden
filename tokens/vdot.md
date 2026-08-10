@@ -4,15 +4,15 @@ The highest honest VDOT yield right now is 4.48% on bifrost-liquid-staking (Polk
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 4.48% | $7.36M |
-| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.58% | $3.65M |
-| [hydration-dex →](https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token) | Polkadot | 0.41% | $123.2K |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 4.48% | $7.37M |
+| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.58% | $3.68M |
+| [hydration-dex →](https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token) | Polkadot | 0.42% | $124.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VDOT shows up in 3 pools here, with rates from 0.41% to 4.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VDOT shows up in 3 pools here, with rates from 0.42% to 4.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.63% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -24,7 +24,7 @@ VDOT shows up in 3 pools here, with rates from 0.41% to 4.48% APY across 1 chain
 |---|---|---|---|
 | bifrost-liquid-staking | 4.48% | 4.48% | 3.57% incentives |
 | hydration-dex | 0.58% | 0.63% | Base rate |
-| hydration-dex | 0.41% | 0.42% | Base rate |
+| hydration-dex | 0.42% | 0.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VDOT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $11.14M in total.
+3 live pools clear this page's $100K TVL floor, $11.17M in total.
 
 ### Are these rates safe?
 

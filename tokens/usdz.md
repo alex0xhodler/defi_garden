@@ -4,7 +4,7 @@ The highest honest USDZ yield right now is 0.75% on aerodrome-v1 (Base), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=be8a4206-6543-4690-a5c2-b3e032245aa2&src=seo_token) | Base | 0.75% | $114.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=be8a4206-6543-4690-a5c2-b3e032245aa2&src=seo_token) | Base | 0.75% | $114.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDZ pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $458.6K in total.
+2 live pools clear this page's $100K TVL floor, $457.9K in total.
 
 ### Are these rates safe?
 
@@ -40,10 +40,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 

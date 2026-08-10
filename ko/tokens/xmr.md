@@ -8,8 +8,8 @@
 | [raydium-amm →](https://www.defi.garden/?pool=7c5b28ca-057f-5b12-bf1b-d53696cf9377&src=seo_token) | Solana | 0.01% | $21.85M |
 | [raydium-amm →](https://www.defi.garden/?pool=541701d0-895e-57d5-8eec-d6b4352e15a3&src=seo_token) | Solana | 0.12% | $21.8M |
 | [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.02% | $21.53M |
-| [raydium-amm →](https://www.defi.garden/?pool=6539cedc-38bc-5230-bebe-d7cc8fd89eba&src=seo_token) | Solana | 28.60% | $162.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=b25a4f6f-cfb1-58b2-b2ec-3a181b7cc891&src=seo_token) | Solana | 11.14% | $160K |
+| [raydium-amm →](https://www.defi.garden/?pool=6539cedc-38bc-5230-bebe-d7cc8fd89eba&src=seo_token) | Solana | 27.57% | $162.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=b25a4f6f-cfb1-58b2-b2ec-3a181b7cc891&src=seo_token) | Solana | 22.19% | $160.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=37215baf-7ff3-562c-9437-babd4c99d351&src=seo_token) | Solana | 38.45% | $150K |
 | [raydium-amm →](https://www.defi.garden/?pool=0bebf26c-31c1-5997-bd1c-43a96e231508&src=seo_token) | Solana | 30.69% | $114.2K |
 
@@ -19,7 +19,7 @@
 
 XMR 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 38.45%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.61%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.94%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -31,8 +31,8 @@ XMR 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 38.45%까
 | raydium-amm | 0.01% | 0.01% | 기본 금리 |
 | raydium-amm | 0.12% | 0.10% | 기본 금리 |
 | raydium-amm | 0.02% | 0.10% | 기본 금리 |
-| raydium-amm | 28.60% | 28.03% | 기본 금리 |
-| raydium-amm | 11.14% | 7.12% | 기본 금리 |
+| raydium-amm | 27.57% | 28.01% | 기본 금리 |
+| raydium-amm | 22.19% | 13.78% | 기본 금리 |
 | raydium-amm | 38.45% | 31.31% | 기본 금리 |
 | raydium-amm | 30.69% | 20.39% | 기본 금리 |
 
@@ -57,9 +57,9 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 38.45%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
+- [PRIME](https://www.defi.garden/ko/tokens/prime)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
-- [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 

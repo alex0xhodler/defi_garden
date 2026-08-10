@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [lista-lending →](https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token) | BSC | 0.92% | $28.49M |
-| [venus-core-pool →](https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token) | BSC | 1.18% | $649.7K |
+| [venus-core-pool →](https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token) | BSC | 1.18% | $650.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,7 +20,7 @@ LISUSD 풀은 여기 2개가 있고, 1개 체인에서 APY가 0.92%부터 1.18%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | lista-lending | 0.92% | 1.11% | 기본 금리 |
-| venus-core-pool | 1.18% | 0.99% | 기본 금리 |
+| venus-core-pool | 1.18% | 1.00% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
