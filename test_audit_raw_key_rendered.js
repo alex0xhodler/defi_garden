@@ -365,5 +365,96 @@ test('computed keys are not collected (documented blind spot)', () => {
   assert(refs.size === 1, `expected exactly one collected key from this source; got ${JSON.stringify([...refs])}`);
 });
 
+// ---------------------------------------------------------------------------
+// 18-24. Verifier round 1 regression fixtures (2026-08-10). Item 256's first
+//    cut of leg B closed only two of the three JS string delimiters and
+//    required a bare/unparenthesized first argument for rootT() — the exact
+//    delimiter axis backlog item 257 took three attempts to close. Each
+//    positive case below is proven against the PRIOR (pre-fix) regexes as a
+//    sanity check before being asserted green here, per item 257 attempt-3's
+//    convention: a fixture is only evidence of a fix if it would have been
+//    red beforehand. The PRIOR regexes were:
+//      T_CALL_RE:      /\bt\(\s*(['"])([A-Za-z_$][\w$]*)\1\s*[,)]/g
+//      ROOT_T_CALL_RE: /\brootT\(\s*[^,()]+,\s*(['"])([A-Za-z_$][\w$]*)\1\s*[,)]/g
+// ---------------------------------------------------------------------------
+const PRIOR_T_CALL_RE = /\bt\(\s*(['"])([A-Za-z_$][\w$]*)\1\s*[,)]/g;
+const PRIOR_ROOT_T_CALL_RE = /\brootT\(\s*[^,()]+,\s*(['"])([A-Za-z_$][\w$]*)\1\s*[,)]/g;
+function priorWouldCollect(re, source) {
+  re.lastIndex = 0;
+  return re.test(source);
+}
+
+test('regression (backtick call site): t(`kC`) is collected, and would NOT have been under the prior regex', () => {
+  const source = "function f() { return t(`kC`); }";
+  assert(!priorWouldCollect(PRIOR_T_CALL_RE, source),
+    'test assumption broken: the prior T_CALL_RE must NOT match a backtick literal (else this fixture proves nothing)');
+  const refs = collectReferencedKeyNames({ files: [{ path: '/fake/backtick.js', source }] });
+  assert(refs.has('kC'), `expected the backtick call site to be collected; got ${JSON.stringify([...refs])}`);
+});
+
+test('regression (rootT call-expression first arg): rootT(getLang(), \'kG\') is collected, and would NOT have been under the prior regex', () => {
+  const source = "function f() { return rootT(getLang(), 'kG'); }";
+  assert(!priorWouldCollect(PRIOR_ROOT_T_CALL_RE, source),
+    'test assumption broken: the prior ROOT_T_CALL_RE must NOT match a call-expression first arg (else this fixture proves nothing)');
+  const refs = collectReferencedKeyNames({ files: [{ path: '/fake/rootcall.js', source }] });
+  assert(refs.has('kG'), `expected the rootT(getLang(), ...) call site to be collected; got ${JSON.stringify([...refs])}`);
+});
+
+test('no regression: rootT(lang, \'kF\') (plain identifier first arg) still collected', () => {
+  const source = "function f() { return rootT(lang, 'kF'); }";
+  const refs = collectReferencedKeyNames({ files: [{ path: '/fake/rootplain.js', source }] });
+  assert(refs.has('kF'), `expected the plain-identifier rootT() call site to still be collected; got ${JSON.stringify([...refs])}`);
+});
+
+test('no regression: t(\'kE\', x) (multi-arg) still collected', () => {
+  const source = "function f() { return t('kE', x); }";
+  const refs = collectReferencedKeyNames({ files: [{ path: '/fake/multiarg.js', source }] });
+  assert(refs.has('kE'), `expected the multi-arg t() call site to still be collected; got ${JSON.stringify([...refs])}`);
+});
+
+test('trailing-comma / whitespace / newline-broken call is collected: t(\\n  \'kH\'\\n)', () => {
+  const source = "function f() { return t(\n  'kH'\n); }";
+  const refs = collectReferencedKeyNames({ files: [{ path: '/fake/broken.js', source }] });
+  assert(refs.has('kH'), `expected the newline-broken call site to be collected; got ${JSON.stringify([...refs])}`);
+});
+
+test('negative control: t(someVar) (bare identifier argument) is NOT collected', () => {
+  const source = "function f() { return t(someVar); }";
+  const refs = collectReferencedKeyNames({ files: [{ path: '/fake/negvar.js', source }] });
+  assert(refs.size === 0, `expected zero collected keys; got ${JSON.stringify([...refs])}`);
+});
+
+test('negative control: t(\'a\' + \'b\') (concatenation) is NOT collected', () => {
+  const source = "function f() { return t('a' + 'b'); }";
+  const refs = collectReferencedKeyNames({ files: [{ path: '/fake/negconcat.js', source }] });
+  assert(refs.size === 0, `expected zero collected keys; got ${JSON.stringify([...refs])}`);
+});
+
+test('negative control: t(`pre${x}`) (template literal with interpolation) is NOT collected', () => {
+  const source = "function f() { return t(`pre${x}`); }";
+  const refs = collectReferencedKeyNames({ files: [{ path: '/fake/neginterp.js', source }] });
+  assert(refs.size === 0, `expected zero collected keys; got ${JSON.stringify([...refs])}`);
+});
+
+// ---------------------------------------------------------------------------
+// 25. Real-copy false-positive control, re-run against the WIDENED regexes
+//    specifically (not just the union population case 15 above already
+//    exercises) — the widened delimiter/first-arg acceptance is new surface
+//    area for collectReferencedKeyNames() against the REAL product source,
+//    so re-assert the control directly against it. Per the spec: if this
+//    ever produces a hit, STOP and report the colliding value rather than
+//    weakening the predicate.
+// ---------------------------------------------------------------------------
+test('real-copy false-positive control (widened leg B alone): collectReferencedKeyNames() against the real repo produces a referenced-key set with zero false hits on real EN copy', () => {
+  const values = flattenValues(translations.en, []).filter((v) => typeof v === 'string');
+  assert(values.length > 100, `expected a large real EN value population; got ${values.length}`);
+  const rendered = values.join('\n');
+  const refs = collectReferencedKeyNames();
+  const hits = scanRawRenderedKeys(rendered, refs);
+  assert(hits.length === 0,
+    `REAL EN COPY COLLIDES WITH THE WIDENED LEG B POPULATION — this is a design decision, not a bug to patch here. ` +
+    `Colliding value(s): ${JSON.stringify(hits)}`);
+});
+
 console.log(`\ntest_audit_raw_key_rendered.js: ${passed} passed, ${failed} failed`);
 if (process.exitCode) process.exit(process.exitCode);

@@ -29,8 +29,12 @@ is the shape 253 actually had.
 
 - **Leg A** — every key name in the parsed dictionary, both namespaces, all nesting levels: the full dotted
   path AND the bare leaf segment (both are genuinely renderable: `translations.js`'s root `t()` echoes the bare
-  top-level key, `planner.js`'s `makeT()` echoes the bare key inside the `planner` namespace, `landing.js`
-  hands out the `landing` namespace object directly).
+  top-level key; `planner.js`'s `makeT()`, planner.js:888-899, `return v == null ? key : v;` on line 898,
+  echoes the bare key inside the `planner` namespace on a miss). *Correction, 2026-08-10: this row previously
+  also cited `landing.js`'s `getCopy()` as a bare-leaf-echo site. That was wrong — `getCopy()` (landing.js:
+  57-59) returns the `landing` namespace object itself, so a missing property renders as `undefined`/blank at
+  the call site, never the key's own name. Struck; the bare-leaf justification rests on planner.js's makeT()
+  alone.*
 - **Leg B** — every key-name literal referenced at a `t('…')` / `rootT(…, '…')` call site in the product
   sources the audited shells actually load. The FILE list is itself derived, not hand-maintained: parse
   `home.html` and `plan.html` for local `<script src>` tags **and** for the `addScript('…')` runtime injection
@@ -97,26 +101,93 @@ this item does not ship a gate that would have been vacuous against its own moti
   page visits, no new rotation cost, and the presence-only `waitForSelector` check plus its
   `dead-pool-empty-state` finding are byte-untouched: this item ADDS a signal, it replaces none.
 
+## Verifier round 1 — FAIL, and the fix (2026-08-10, same day)
+
+The first cut of leg B's regexes shipped an overstatement: the notes/PR text above claimed leg B collects
+"every key-name literal referenced at a `t('…')`/`rootT(…, '…')` call site". It did not. Two STATIC-LITERAL
+shapes were missed, both confirmed by the verifier end-to-end (rewrite `app.js`'s `poolNotFoundTitle` call site
+to the missed shape, delete the key from both namespaces of `translations.js` AND `translations.min.js`, render
+the dead-pool surface, read `.empty-state .empty-message`'s textContent as the raw key, run
+`node audit-app.js --only=dead-pool` and get `findings: []`):
+
+| call shape | collected by round-1 regex? |
+|---|---|
+| `t('kA')` / `t("kB")` | yes |
+| `` t(`kC`) `` (backtick) | **no** |
+| `rootT(lang, 'kF')` | yes |
+| `rootT(getLang(), 'kG')` (call expression as first arg) | **no** — `ROOT_T_CALL_RE`'s first-argument
+  charclass was `[^,()]+`, which any parenthesis in the first argument breaks |
+
+This is the exact delimiter axis backlog item **257** took three attempts to close (attempt 1: single-quote
+only; attempt 2: widened to only the double-quote variant the verifier had just demonstrated; attempt 3:
+finally closed all three JS delimiters + trailing comma/whitespace). Round 1 of this item shipped attempt-2's
+predicate — closing the one instance demonstrated, not the axis.
+
+**Fix**: `T_CALL_RE` and `ROOT_T_CALL_RE` (`audit-app.js`) now accept all three JS string delimiters
+(`'`, `"`, `` ` ``) via a backreferenced group, and `ROOT_T_CALL_RE`'s first argument is widened from
+`[^,()]+` to `(?:[^()]|\([^()]*\))*` — any run of non-paren characters, or a single-level-balanced `(...)`
+group, repeated. This accepts a shallow call expression (`getLang()`, `a.b()`) as `rootT()`'s first argument
+while staying bounded to that call: an unmatched `)` (the call's own closing paren) can never be consumed by
+either alternative, so greedy backtracking finds only the real second-argument literal and never reads past
+its own closing paren into a subsequent call. A backtick literal containing `${` (interpolation, not a static
+literal) still cannot match either regex: the key charclass `[A-Za-z_$][\w$]*` can consume the `$` but then
+needs the closing delimiter immediately, and the actual next character is `{` — every backtrack fails.
+Verified directly (probe table, `test_audit_raw_key_rendered.js` header block and this item's PR doc for the
+full table): `t('kA')`→`kA`, `t("kB")`→`kB`, `` t(`kC`) ``→`kC`, `t('kE', x)`→`kE`, `rootT(lang,'kF')`→`kF`,
+`rootT(getLang(),'kG')`→`kG`, `t(someVar)`→(none), `t('a'+'b')`→(none), `` t(`pre${x}`) ``→(none).
+
+Real-repo numbers after the fix, all derived at run time: **Leg A = 904**, **Leg B = 284** (unchanged — no new
+real call site exists in this repo that only the widened delimiters/first-arg would have picked up; the widen
+closes a gap in what the regex *would* match, not a gap in today's actual call sites), **union = 904**. Both
+numbers were re-verified >= their pre-fix values per the acceptance check (refs ≥ 284, union not shrunk).
+
+Six new permanent regression fixtures were added to `test_audit_raw_key_rendered.js` (cases 18-24 plus a
+widened-leg-B-alone false-positive re-run, case 25), following item 257 attempt-3's convention: a positive
+fixture is only evidence of a fix if it is first shown to have been RED against the exact prior (round-1)
+regex. All 27 assertions pass; see "Test status" below.
+
 ## Class: still open, with numbers
 
 - **This item's own class** — "a check whose predicate is narrower than the class it guards" — is **not
   closed**. The population is every `waitForSelector`-shaped assertion in `audit-app.js`; this item converted
   exactly one of them (`dead-pool`) from presence-only to content-asserting, and added a content predicate
   that runs on all text-collecting surfaces. `grep -c "waitForSelector(" audit-app.js` → the remainder are
-  untouched and each can still pass on a well-formed-but-wrong DOM.
-- **Residual blind spots of what shipped**, stated with their shape rather than implied away:
-  (a) a computed or interpolated key at a call site (`t(someVar)`, `t('a' + 'b')`) is in neither leg — there
-  is no static string to read at scan time; (b) an inline raw key sharing a line with other prose is not
-  flagged (exact-line matching, above); (c) a surface the rotation did not visit that tick is not covered —
-  the spec says this explicitly and item 255 is the pre-merge source-level counterpart that does not depend
-  on the rotation.
+  untouched and each can still pass on a well-formed-but-wrong DOM. Verifier round 1 (above) is itself an
+  instance of the same class one level in: the FIRST leg-B regex was narrower than the shapes it claimed to
+  cover.
+- **Residual blind spots of what shipped**, stated with their shape rather than implied away (corrected
+  2026-08-10 — "computed keys" was too coarse a catch-all; each of these is a distinct shape with nothing
+  static to read at scan time, or a static value this scan does not chase):
+  (a) a genuinely computed key, e.g. `t(someVar)` or `t(KEY_CONST)` — the argument is an identifier, not a
+  literal; (b) a concatenation, e.g. `t('a' + 'b')` — no single literal spans the whole argument; (c) an
+  escape-spelled literal, e.g. `t('pool\x4eotFoundTitle')`, or a literal built via `String.fromCharCode(...)`
+  — the regex reads the literal's source text, not its evaluated value; (d) a key reached only through an
+  alias or a named constant assigned elsewhere (`const k = 'poolNotFoundTitle'; t(k)`) — the literal exists in
+  the file but not at the call site itself; (e) an inline raw key sharing a line with other prose is not
+  flagged (exact-line matching, `scanRawRenderedKeys()`'s own doc comment); (f) a surface the rotation did not
+  visit that tick is not covered — the spec says this explicitly and item 255 is the pre-merge source-level
+  counterpart that does not depend on the rotation.
+- **Two additional disclosures surfaced by the verifier, stated plainly:**
+  (g) `collectRenderedScriptSources()`'s shell-path default (`home.html`, `plan.html`) is HARDCODED — only the
+  script list *under* each shell is derived by walking that shell's markup; nothing ties the two-shell default
+  to the audit's own list of surface URLs, so a hypothetical third shell would silently sit outside leg B's
+  file population until this default is hand-updated. Not a live hole today: `tokens/*.html` and
+  `stories/*.html` (verified directly) carry only the absolute `<script src="https://www.defi.garden/
+  analytics.js">` tag and zero `t('` call sites, so there is nothing on those pages for leg B to currently
+  miss — but the mechanism is a hardcoded list, not a derived one.
+  (h) `auditText()` — the collector this item's predicate is wired into — is **not** called by the
+  `s.kind === 'loading'` surface driver branch (`audit-app.js`, the `grid-loading` surface): that branch
+  returns its findings directly before `auditText()` is ever reached, so a raw key rendered only during that
+  surface's forced-live loading window sits outside this item's predicate entirely.
 - **No traffic claim.** Per the spec's Measurement section this is a detector: no Mixpanel event, no funnel
   window, no gate. Its effect is on the loop's own error rate.
 
 ## Test status
 
-- `node test_audit_raw_key_rendered.js` → **18 passed, 0 failed** (registered in package.json's `test:serial`,
-  which `run-tests.js` parses as its single source of truth — an unregistered test file is not a gate).
+- `node test_audit_raw_key_rendered.js` → **27 passed, 0 failed** (was 18 passed before the verifier round 1
+  fix added 9 more: 8 delimiter/first-arg regression fixtures plus a widened-leg-B-alone false-positive
+  re-run — see "Verifier round 1" above). Registered in package.json's `test:serial`, which `run-tests.js`
+  parses as its single source of truth — an unregistered test file is not a gate.
 - `node test_audit_i18n_parity.js` → **15 passed, 2 failed**. Both failures are **pre-existing on the base
   branch**, independently confirmed by running the same file in a clean worktree at `origin/main`
   (`a44f4415d1`): identical 15/2. They are (i) `resultsColApy`/`resultsColTvl` missing from the untranslated

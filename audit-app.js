@@ -1198,11 +1198,37 @@ function emptyI18nResult() {
 //     dictionary because it never reads the dictionary.
 // collectRawKeyPopulation() is the union; scanRawRenderedKeys() below is
 // unchanged — it only ever sees a Set, not which leg(s) contributed a name.
-// Residual blind spots, both accepted:
-//   (a) Leg B only collects single-literal-argument call sites — a
-//       computed/interpolated key (`t(someVar)`, `t('a' + 'b')`) contributes
-//       nothing, there being no static string to read at scan time.
-//   (b) scanRawRenderedKeys() is exact-LINE matching (its own comment) — an
+// 2026-08-10 verifier round 1 (same day, follow-up FAIL): the first cut of
+// leg B's regexes closed only two of the three JS string delimiters and
+// required a bare identifier/literal as rootT()'s first argument — the exact
+// delimiter axis backlog item 257 took three attempts to close (attempt 1:
+// single-quote only; attempt 2: widened to the double-quote variant the
+// verifier had just demonstrated; attempt 3: all three delimiters + trailing
+// comma/whitespace). This file's attempt 1 shipped attempt-2's predicate:
+// `t(`kC`)` (backtick) and `rootT(getLang(), 'kG')` (call-expression first
+// arg) both went uncollected, verified end-to-end (rewrite app.js's call
+// site to a backtick literal, delete the key from both namespaces of
+// translations.js AND translations.min.js, render the dead-pool surface,
+// `.empty-state .empty-message` reads the raw key, `node audit-app.js
+// --only=dead-pool` still returns `findings: []`). T_CALL_RE and
+// ROOT_T_CALL_RE below now accept all three delimiters and a call-expression
+// first argument for rootT(); see their own comments for exactly what widened
+// and why.
+//
+// Residual blind spots, all accepted, stated precisely (not "computed keys"
+// as a catch-all — each is a distinct shape with nothing static to read at
+// scan time, or a static value this scan does not chase):
+//   (a) a genuinely computed key at a call site, e.g. `t(someVar)` or
+//       `t(KEY_CONST)` — the argument is an identifier, not a literal.
+//   (b) a concatenation, e.g. `t('a' + 'b')` — no single literal spans the
+//       whole argument.
+//   (c) an escape-spelled literal, e.g. `t('pool\x4eotFoundTitle')` or a
+//       literal built from `String.fromCharCode(...)` — the regex reads the
+//       source text of the literal, not its evaluated value.
+//   (d) a key reached only through an alias or a named constant assigned
+//       elsewhere (`const k = 'poolNotFoundTitle'; t(k)`) — the literal
+//       exists in the file but not at the call site itself.
+//   (e) scanRawRenderedKeys() is exact-LINE matching (its own comment) — an
 //       inline raw key sharing a line with other text is not caught,
 //       regardless of which leg the key name came from.
 // signal -> severity, single source of truth, same role as I18N_SIGNALS.
@@ -1227,12 +1253,16 @@ const I18N_RAW_KEY_SIGNALS = { 'i18n:raw-key-rendered': 'P1' };
 //     bare top-level KEY STRING back on a double miss — for a top-level key
 //     that bare key and the full path are identical, but for a namespaced
 //     miss the two other callers below only ever see the bare segment:
-//     planner.js's makeT() (~887-900) looks up `dict[key]` inside the
-//     already-selected `planner` namespace and echoes the bare `key` on a
-//     miss, never a "planner.xxx"-shaped string; landing.js's `getCopy()`
-//     (~57-60) hands callers the `landing` namespace object directly, so a
-//     missed property likewise reads/renders by its bare name within that
-//     namespace. Both shapes are genuinely renderable, so both go in.
+//     planner.js's makeT() (planner.js:888-899, `return v == null ? key :
+//     v;` on line 898) looks up `dict[key]` inside the already-selected
+//     `planner` namespace and echoes the bare `key` on a miss, never a
+//     "planner.xxx"-shaped string. (landing.js's `getCopy()`, landing.js:
+//     57-59, was previously cited here too — it is NOT a bare-leaf-echo
+//     site: it returns the `landing` namespace object itself, so a missing
+//     property reads as `undefined`/blank at the call site, never the key's
+//     own name. Corrected 2026-08-10; the bare-leaf justification rests on
+//     planner.js's makeT() alone.) Both the full-path and bare-leaf shapes
+//     above are genuinely renderable, so both go in.
 function collectI18nKeyNames(opts = {}) {
   let dict = opts.dict;
   if (dict === undefined) {
@@ -1281,6 +1311,20 @@ function collectI18nKeyNames(opts = {}) {
 // bundles at run time via `addScript(...)` inside a parser-blocking inline
 // script (item 244's boot-order barrier), so a tag-only scan would miss
 // app.js/PoolDetail.js entirely. Both shapes are matched below.
+//
+// Disclosure (2026-08-10, verifier round 1): the SHELL list itself
+// (`collectRenderedScriptSources()`'s `shellPaths` default, just below —
+// `home.html` and `plan.html`) is HARDCODED. Only the SCRIPT list *under*
+// each shell is derived by walking that shell's own markup; nothing ties the
+// two-shell default to the audit's own surface URL list (SURFACES below), so
+// a future surface served from a third shell would silently sit outside leg
+// B's file population unless this default is updated by hand. Not a live
+// hole today — verified directly: `tokens/*.html` and `stories/*.html` (the
+// two other page families the audit visits) carry only the absolute
+// `<script src="https://www.defi.garden/analytics.js">` tag and zero `t('`
+// call sites, so there is currently nothing on those pages for leg B to
+// miss — but the mechanism is a hardcoded list, not a derived one, and this
+// says so plainly rather than by omission.
 //
 // opts.shells: test-injection hook, an array of ABSOLUTE PATHS (strings),
 // read from disk in place of the real home.html/plan.html — chosen over
@@ -1358,22 +1402,49 @@ function collectRenderedScriptSources(opts = {}) {
   return out;
 }
 
-// t('key') / t("key") — the shared, single-arg lookup function every
-// namespace's t() ends up being (app.js's createTranslationFunction,
-// planner.js's makeT()'s inner `t`, ~line 888). Matches only when the
-// ENTIRE first argument is one quoted identifier-shaped literal — the
-// backreferenced quote char plus the requirement that a `,` or `)` (a
-// complete argument's boundary) immediately follows the closing quote is
+// t('key') / t("key") / t(`key`) — the shared, single-arg lookup function
+// every namespace's t() ends up being (app.js's createTranslationFunction,
+// planner.js's makeT()'s inner `t`, ~line 888). All three JS string
+// delimiters are accepted via the backreferenced group 1 (2026-08-10
+// verifier round 1: the prior version only had `['"]`, missing the backtick
+// shape `t(`kC`)` entirely — see the "verifier round 1" comment block above
+// I18N_RAW_KEY_SIGNALS for the full defeat). Matches only when the ENTIRE
+// first argument is one delimited identifier-shaped literal — the
+// backreferenced delimiter plus the requirement that a `,` or `)` (a
+// complete argument's boundary) immediately follows the closing delimiter is
 // what keeps a computed key like `t('a' + 'b')` from contributing its first
-// fragment ("a") as if it were a real key (documented blind spot (a) above).
-const T_CALL_RE = /\bt\(\s*(['"])([A-Za-z_$][\w$]*)\1\s*[,)]/g;
+// fragment ("a") as if it were a real key (documented blind spot (b) above).
+// The identifier charclass `[A-Za-z_$][\w$]*` never contains `{`, so a
+// backtick literal WITH interpolation (`` t(`pre${x}`) ``) still cannot
+// match: the engine can consume the `$` via `[\w$]*` but then needs the
+// closing backtick immediately, and the actual next character is `{` — every
+// possible backtrack fails, so the whole call is correctly left uncollected
+// (verified directly, see this item's probe table).
+const T_CALL_RE = /\bt\(\s*(['"`])([A-Za-z_$][\w$]*)\1\s*[,)]/g;
 
 // rootT(lang, 'key') — planner.js's ~line 901 two-arg root-namespace
-// accessor (see rootT()'s own comment above collectI18nKeyNames()). The
-// first argument (the language expression) is unconstrained; only the
-// second argument is required to be a complete quoted identifier-shaped
-// literal, same closing-boundary rule as T_CALL_RE.
-const ROOT_T_CALL_RE = /\brootT\(\s*[^,()]+,\s*(['"])([A-Za-z_$][\w$]*)\1\s*[,)]/g;
+// accessor (see rootT()'s own comment above collectI18nKeyNames()). The key
+// (second argument) accepts all three delimiters, same as T_CALL_RE.
+//
+// The first argument (the language expression) was previously constrained to
+// `[^,()]+` — i.e. no parens at all — which rejected any call expression as
+// the first arg, including the real shape `rootT(getLang(), 'kG')` (2026-08-10
+// verifier round 1 defeat). Widened to
+// `(?:[^()]|\([^()]*\))*` — any run of non-paren characters, OR a
+// single-level-balanced `(...)` group, repeated. This deliberately allows a
+// *shallow* call expression (`getLang()`, `a.b()`, `a.b(x, y)`) as the first
+// argument while staying bounded to THIS call: a lone, unmatched `)` (the
+// call's own closing paren) can never be consumed by either alternative, so
+// the greedy match backtracks only as far as the actual second-argument
+// literal and never reads past its own closing paren into a subsequent
+// `rootT(...)`/`t(...)` call. It does not handle a first argument containing
+// TWO nested levels of parens, or a first argument whose text contains an
+// unbalanced paren inside a string literal — both out of scope, no such call
+// site exists in this repo today. Robust to both `rootT(lang, 'kF')` (plain
+// identifier, matches the fallback `[^()]` branch) and `rootT(getLang(),
+// 'kG')` / `rootT(a.b(), 'k')` (single-level call expression, matches the
+// `\([^()]*\)` branch) — proven in the probe table below.
+const ROOT_T_CALL_RE = /\brootT\(\s*(?:[^()]|\([^()]*\))*,\s*(['"`])([A-Za-z_$][\w$]*)\1\s*[,)]/g;
 
 function addKeyMatches(re, source, out) {
   re.lastIndex = 0;
@@ -3918,6 +3989,16 @@ async function auditText(page, s, findings) {
   }
   return text;
 }
+// Disclosure (2026-08-10, verifier round 1): auditText() is NOT called by
+// every surface driver, contrary to the loose "the single text collector
+// every surface driver already calls" framing elsewhere — the `s.kind ===
+// 'loading'` branch (below, the surface driver's `if (s.kind === 'loading')`
+// block) returns its findings directly and never calls auditText(), so the
+// `grid-loading` surface sits outside this predicate entirely: a raw
+// translation key rendered only during that surface's forced-live loading
+// window would not be caught by leg A, leg B, or scanRawRenderedKeys() at
+// all. Stated here rather than left implied by the surrounding "every
+// surface" language.
 
 async function main(browser, baseUrl, s, ctx) {
   const page = await browser.newPage({ viewport: { width: s.width, height: 900 } });
