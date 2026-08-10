@@ -131,6 +131,42 @@ The font-stack class **is** closed for the current population: Rule 1 derives th
 (root `*.css` minus `*.min.css`, plus `stories/stories.css`; a glob returning <4 files fails loudly), so
 a stylesheet added tomorrow is covered on the day it lands, and a hardcoded stack in it fails the gate.
 
+## What actually renders — the blast radius, corrected downward and stated plainly (verifier attempt 2)
+
+Chasing the verifier's finding 4 (*"`.value.token-pair` is the only mono fix that changes what a user
+sees, and it is on the analytics surface"*) turned up something that falsifies that premise — and, with
+it, part of my own risk story. **Independently confirmed by grep, not taken from the build agent:**
+
+- `app.js:875` declares `showYieldCalculator`, and the ONLY other references are `:3642` (the render
+  guard) and two `setShowYieldCalculator(false)` calls at `:3646`/`:3655`. **It is never set true.**
+- `setSelectedPool(` has **zero** call sites in `app.js`.
+- The modal at `app.js:3642` is therefore unreachable, and it is the sole render site of
+  `.value.token-pair` (`:3667`), `.modal-close` (`:3654`) and `.start-earning-btn` (`:3729`).
+
+So of the six CSS edits in this diff:
+
+| Edit | Render site | Live? | User-visible change |
+|---|---|---|---|
+| `.value.token-pair` → token | app.js:3667 | **dead** | none |
+| `.modal-close:hover` scale-pop deleted | app.js:3654 | **dead** | none |
+| `.modal-close:active` scale override deleted | app.js:3654 | **dead** | none |
+| `.gp-waitlist-link-text` → token | — (no call site) | **dead** | none |
+| `.gp-journey-status` dead fallback dropped | planner.js:3547 | live | **none** — the token is always defined, so the fallback never resolved; this is a source cleanup with a null render delta |
+| `.logo:hover` scale-pop deleted | app.js:3347 | live | **yes — the only one.** The wordmark in the analytics no-results header no longer scale-pops on hover |
+
+**The entire user-visible rendering change in this item is: one banned hover animation stops firing.**
+The verifier's HIGH tier is still the right call by NORTH_STAR's "when in doubt → HIGH" and because the
+diff ships regenerated `*.min.css` that prod loads — but the reasoning it was based on (*"rendered
+typography on the sacred analytics surface"*) does not survive contact with the call sites, and neither
+did my own PR explainer's claim that `.value.token-pair` was "the only mono fix that changes what a user
+actually sees". Both are corrected here rather than left standing.
+
+This also means the item's *value* is almost entirely the gate, not the six-line fix — which is what the
+notes claimed from the start, and is now measured rather than asserted.
+
+Filed: **BACKLOG 261** — the dead `app.js` yield-calculator modal (~90 lines, 3 selectors, one of them
+carrying an entry in this item's own uppercase allowlist).
+
 ## Deviation 6 (added after verifier attempt 1): the original visual-regression criterion was dropped silently
 
 Original acceptance criterion 6 — *"Visual regression pass at 360/768/1280 × light/dark on grid/detail

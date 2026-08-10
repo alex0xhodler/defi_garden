@@ -53,25 +53,37 @@ function test(name, fn) {
 }
 
 // ---------------------------------------------------------------------------
-// Population: derived by glob, not a hardcoded file list. Root-level *.css
-// excluding *.min.css, plus stories/stories.css. node_modules/ and .github/
-// are excluded defensively (the root-only glob can't reach them today, but
-// the exclusion is spelled out per the spec so a future recursive glob stays
-// safe).
+// Population: derived by RECURSING from the repo root (238 finding 3c — the
+// prior root-level-only glob plus one hardcoded `stories/stories.css` addon
+// missed a stylesheet planted at any other nested path, e.g.
+// `stories/ext-new.css` or a new subdirectory entirely; a verifier proved
+// this by planting a violating file there and watching the gate stay green).
+// Excludes `node_modules/`, `.github/`, and `*.min.css` per the spec. `.git/`
+// is also pruned — not named in the spec, but walking a multi-GB history
+// directory that can never contain a `*.css` blob on disk is pure waste, and
+// pruning it changes no observable result. Recursion must still land on
+// exactly the same 5 files the root-level glob found (asserted below).
 // ---------------------------------------------------------------------------
-function resolvePopulation() {
-  const rootEntries = fs.readdirSync(ROOT, { withFileTypes: true });
-  const files = rootEntries
-    .filter((e) => e.isFile())
-    .map((e) => e.name)
-    .filter((name) => /\.css$/i.test(name) && !/\.min\.css$/i.test(name))
-    .filter((name) => !name.includes('node_modules') && !name.includes('.github'))
-    .sort();
-  const extra = 'stories/stories.css';
-  if (fs.existsSync(path.join(ROOT, extra)) && !extra.includes('node_modules') && !extra.includes('.github')) {
-    files.push(extra);
+const PRUNED_DIRS = new Set(['node_modules', '.github', '.git']);
+
+function walkCssFiles(dir, relBase) {
+  const found = [];
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  for (const e of entries) {
+    if (e.isDirectory()) {
+      if (PRUNED_DIRS.has(e.name)) continue;
+      found.push(...walkCssFiles(path.join(dir, e.name), relBase ? relBase + '/' + e.name : e.name));
+      continue;
+    }
+    if (!e.isFile()) continue;
+    if (!/\.css$/i.test(e.name) || /\.min\.css$/i.test(e.name)) continue;
+    found.push(relBase ? relBase + '/' + e.name : e.name);
   }
-  return files;
+  return found;
+}
+
+function resolvePopulation() {
+  return walkCssFiles(ROOT, '').sort();
 }
 
 const POPULATION = resolvePopulation();
@@ -173,14 +185,67 @@ function loadFrames(relPath) {
 // Rule 1 — no hardcoded font stacks outside the token layer.
 //
 // Population: every declaration whose property is the real CSS property
-// `font-family`, OR a custom-property definition whose name contains "font"
-// or starts with "cert-" (`--font-family-mono`, `--cert-serif`, ... — "allow
-// any `--*font*`/`--cert-*` property definition, don't hardcode five names").
-// Allowed: (a) value is a `var(--...)` reference; (b) declaration lives
+// `font-family` OR the `font` shorthand (238 finding 3b — a concrete family
+// stack hidden in `font: 12px "SF Mono", monospace` was invisible to a rule
+// that only looked at `font-family`), OR a custom-property definition whose
+// name contains "font" or starts with "cert-" (`--font-family-mono`,
+// `--cert-serif`, ... — "allow any `--*font*`/`--cert-*` property
+// definition, don't hardcode five names"). Allowed: (a) value is a bare
+// `var(--...)` reference with NO fallback, or a `var(--...,  <fallback>)`
+// whose fallback is itself only another `var(--...)` reference (238 finding
+// 3a — a `var(--token, "SF Mono", Monaco, monospace)` used to pass here
+// because the check only looked at whether the value STARTED with `var(--`,
+// so a token reference carrying a dead hardcoded fallback stack was
+// invisible; a concrete fallback is now rejected, but chained token
+// references, e.g. `var(--a, var(--b))`, stay legal); (b) declaration lives
 // inside an `@font-face` block (a descriptor, not a stack); (c) the
 // declaration IS a custom-property token definition (by construction, the
-// place a concrete stack is legitimately allowed to live).
+// place a concrete stack is legitimately allowed to live); (d) for the
+// `font` shorthand only, a keyword-only value (`inherit`/`initial`/`unset`/
+// `revert`/`revert-layer` or a CSS system-font keyword) carries no family
+// stack at all and is legal — `font: inherit` (planner-styles.css:1981,
+// real, must stay green) is exactly this case.
 // ---------------------------------------------------------------------------
+const FONT_SHORTHAND_KEYWORD_ONLY = /^(inherit|initial|unset|revert|revert-layer|caption|icon|menu|message-box|small-caption|status-bar)$/i;
+
+// Parses a value that is a SINGLE, whole `var(--token[, fallback])` call
+// (brace/paren depth aware, so a fallback that itself nests parens — e.g.
+// `var(--a, var(--b, "x"))` — splits correctly on the top-level comma only).
+// Returns null if the trimmed value isn't exactly one such call (extra
+// text before/after disqualifies it — that text could itself be a hardcoded
+// family name).
+function parseSoleVarCall(value) {
+  const trimmed = value.trim();
+  if (!/^var\(/i.test(trimmed) || trimmed[trimmed.length - 1] !== ')') return null;
+  let depth = 0;
+  let closeIdx = -1;
+  for (let i = 3; i < trimmed.length; i++) {
+    if (trimmed[i] === '(') depth++;
+    else if (trimmed[i] === ')') { depth--; if (depth === 0) { closeIdx = i; break; } }
+  }
+  if (closeIdx !== trimmed.length - 1) return null; // unbalanced, or trailing text after the call
+  const inner = trimmed.slice(4, closeIdx);
+  let d2 = 0;
+  let commaIdx = -1;
+  for (let i = 0; i < inner.length; i++) {
+    if (inner[i] === '(') d2++;
+    else if (inner[i] === ')') d2--;
+    else if (inner[i] === ',' && d2 === 0) { commaIdx = i; break; }
+  }
+  if (commaIdx === -1) return { token: inner.trim(), fallback: undefined };
+  return { token: inner.slice(0, commaIdx).trim(), fallback: inner.slice(commaIdx + 1).trim() };
+}
+
+// A legal font value: a bare var(--token) with no fallback, or one whose
+// fallback is itself only a var(--...) reference (chained tokens stay legal;
+// a concrete fallback stack does not).
+function isLegalVarFontValue(value) {
+  const call = parseSoleVarCall(value);
+  if (!call) return false;
+  if (call.fallback === undefined) return true;
+  return /^var\(--/i.test(call.fallback);
+}
+
 function collectFontFamilyViolations() {
   const violations = [];
   for (const relPath of POPULATION) {
@@ -190,11 +255,13 @@ function collectFontFamilyViolations() {
         frame.ancestors.some((a) => /^@font-face/i.test(a));
       for (const d of frame.decls) {
         const isRealFontFamilyProp = d.prop === 'font-family';
+        const isFontShorthandProp = d.prop === 'font';
         const isCustomFontTokenDef = /^--/.test(d.prop) && (/font/i.test(d.prop) || /^--cert-/i.test(d.prop));
-        if (!isRealFontFamilyProp && !isCustomFontTokenDef) continue;
+        if (!isRealFontFamilyProp && !isFontShorthandProp && !isCustomFontTokenDef) continue;
         if (isCustomFontTokenDef) continue; // (c) token definition — always allowed
         if (insideFontFace) continue; // (b) @font-face descriptor — allowed
-        if (/^var\(--/.test(d.value)) continue; // (a) references the token — allowed
+        if (isLegalVarFontValue(d.value)) continue; // (a) bare/chained token reference — allowed
+        if (isFontShorthandProp && FONT_SHORTHAND_KEYWORD_ONLY.test(d.value.trim())) continue; // (d)
         violations.push({ file: relPath, line: d.line, prop: d.prop, value: d.value, selector: frame.header });
       }
     }
@@ -313,6 +380,20 @@ const UPPERCASE_ALLOWLIST = [
 
 const REASON_CATEGORIES = ['247-world micro-label', 'data', 'unreviewed residue'];
 
+// 238 finding 2: two bypasses closed here.
+//   (1) `!important` (and incidental trailing whitespace) defeated the raw
+//       `/^uppercase$/i` match — `text-transform: uppercase !important`
+//       matched nothing and was invisible to Rule 2 entirely. A trailing
+//       `!important` (case/space-insensitive) is stripped before matching.
+//   (2) the allowlist key was `file + selector` only, so a second
+//       declaration for the SAME selector text nested under a DIFFERENT
+//       at-rule (e.g. a `@media` breakpoint override) silently rode on the
+//       top-level entry's key and was never separately checked. `ruleKey`
+//       now folds in the chain of enclosing at-rule headers (there can be
+//       more than one, e.g. nested `@media`/`@supports`), so a same-selector
+//       rule under a different at-rule ancestry is a distinct key. All 24
+//       seeded entries below are top-level (no at-rule ancestor), so their
+//       chain is empty and their key is byte-identical to before this fix.
 function collectUppercaseRules() {
   const rules = [];
   for (const relPath of POPULATION) {
@@ -321,9 +402,12 @@ function collectUppercaseRules() {
       if (/^@/.test(frame.header)) continue; // at-rule container itself, not a rule
       const insideKeyframes = frame.ancestors.some((a) => /^@keyframes/i.test(a));
       if (insideKeyframes) continue;
+      const atRuleChain = frame.ancestors.filter((a) => /^@/.test(a));
       for (const d of frame.decls) {
-        if (d.prop === 'text-transform' && /^uppercase$/i.test(d.value)) {
-          rules.push({ file: relPath, selector: frame.header, line: d.line });
+        if (d.prop !== 'text-transform') continue;
+        const cleanedValue = d.value.replace(/!important\s*$/i, '').trim();
+        if (/^uppercase$/i.test(cleanedValue)) {
+          rules.push({ file: relPath, selector: frame.header, line: d.line, atRuleChain });
         }
       }
     }
@@ -331,7 +415,10 @@ function collectUppercaseRules() {
   return rules;
 }
 
-function ruleKey(r) { return r.file + ' ' + r.selector; }
+function ruleKey(r) {
+  const chain = (r.atRuleChain || []).join(' > ');
+  return r.file + (chain ? ' [' + chain + ']' : '') + ' ' + r.selector;
+}
 
 test('Rule 2: uppercase-rule reasons all name one of the three seeded categories, and no allowlist entry is malformed', () => {
   for (const entry of UPPERCASE_ALLOWLIST) {
@@ -370,6 +457,18 @@ test('Rule 2 (reverse / stale-entry): every allowlist entry has a matching live 
 // @keyframes bodies, and must not be fooled by a comma-separated selector
 // list spanning multiple lines (each individual selector in the list is
 // checked for `:hover`).
+//
+// The criterion is "no `transform: scale*` inside any `:hover`", not just
+// the motivating `.logo:hover { transform: scale(1.02) }` instance. Two
+// widenings (238 finding 1):
+//   - property: match `transform` OR any vendor-prefixed variant
+//     (`-webkit-transform`, `-moz-transform`, ...), not only the bare
+//     unprefixed property, and match ANY `scaleX?Y?Z?3d?(` function form
+//     (`scale(`, `scaleX(`, `scaleY(`, `scaleZ(`, `scale3d(`, ...), not only
+//     literal `scale(`.
+//   - the standalone CSS `scale` property (the modern non-`transform`
+//     scale property) is flagged too when its value is anything other than
+//     the identity values `1` / `none`.
 // ---------------------------------------------------------------------------
 function collectHoverScaleViolations() {
   const violations = [];
@@ -383,8 +482,12 @@ function collectHoverScaleViolations() {
       const hasHover = individualSelectors.some((s) => s.includes(':hover'));
       if (!hasHover) continue;
       for (const d of frame.decls) {
-        if (d.prop === 'transform' && /scale\s*\(/.test(d.value)) {
-          violations.push({ file: relPath, line: d.line, selector: frame.header, value: d.value });
+        const isTransformProp = /^(-[a-z]+-)?transform$/i.test(d.prop);
+        const isStandaloneScaleProp = d.prop === 'scale';
+        if (isTransformProp && /\bscale[a-z0-9]*\s*\(/i.test(d.value)) {
+          violations.push({ file: relPath, line: d.line, selector: frame.header, prop: d.prop, value: d.value });
+        } else if (isStandaloneScaleProp && !/^(1|none)$/i.test(d.value.trim())) {
+          violations.push({ file: relPath, line: d.line, selector: frame.header, prop: d.prop, value: d.value });
         }
       }
     }
@@ -392,11 +495,11 @@ function collectHoverScaleViolations() {
   return violations;
 }
 
-test('Rule 3: no transform:scale(...) inside any :hover selector, repo-wide, no allowlist', () => {
+test('Rule 3: no transform:scale(...) or standalone scale property inside any :hover selector, repo-wide, no allowlist', () => {
   const violations = collectHoverScaleViolations();
   if (violations.length) {
     const detail = violations
-      .map((v) => `${v.file}:${v.line}  selector="${v.selector}"  transform: ${v.value}`)
+      .map((v) => `${v.file}:${v.line}  selector="${v.selector}"  ${v.prop}: ${v.value}`)
       .join('\n    ');
     throw new Error(`${violations.length} scale-pop hover(s) found:\n    ${detail}`);
   }
