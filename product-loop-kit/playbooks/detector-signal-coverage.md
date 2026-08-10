@@ -827,3 +827,51 @@ gate by type. Third narrowing found in this one gate's predicate (item **190** s
 item **198** fixed the predicate to key on the KO value alone; this is the first found in its *type* coverage
 rather than its logic), which is itself the finding: a gate that has been narrowed three times is a gate
 whose predicate should be re-derived from what it guards, not patched again.
+
+---
+
+## Addendum (item 256, 2026-08-10): does the defect SHRINK the gate's population?
+
+**When:** you are building — or reviewing — any gate whose predicate is "X must not appear in POPULATION P",
+where P is derived at run time from an artifact in the repo. Run this before writing the test, not after.
+
+**Answer in one line:** if the defect you are guarding against is *a change to the artifact P is derived
+from*, then P shrinks at exactly the moment the gate should fire, and the gate is guaranteed green — derive
+a second leg from the CONSUMING side and union the two.
+
+**Steps**
+
+1. Name the artifact P is derived from (here: `translations.js`'s dictionary) and the defect class in one
+   sentence (here: "a key is deleted/renamed while a call site still references it").
+2. Ask the one question: **would the defect, once present, change P?** If the defect removes the very member
+   that would match, stop — the gate is vacuous by construction, no matter how good the predicate is.
+3. Find the CONSUMING side — the code whose execution produces the visible failure (here: `t('…')` /
+   `rootT(…, '…')` call sites in the scripts the audited shells load). Derive a second leg from it. It is the
+   leg that survives, because it does not read the artifact the defect edits.
+4. Derive the second leg's own file population from the render mechanism too, never a hand list: parse the
+   shells (`home.html`, `plan.html`) for local `<script src>` **and** for runtime `addScript('…')` injection
+   (item 244's boot barrier — `app.js`/`PoolDetail.js` are in no static tag), and map `.min`/`.compiled`
+   artifacts back to sources.
+5. Union the legs. Record both sizes in the notes (256: Leg A 904, Leg B 284, union 904) and say plainly that
+   equal legs on a healthy tree is expected — **they diverge only when something is broken, which is the
+   whole point.**
+6. Prove the red on the CONSUMING-side leg specifically: delete the key from the dictionary (and from the
+   minified artifact the page actually loads — `home.html:201` serves `translations.min.js`, so mutating only
+   `translations.js` changes nothing on screen), render, confirm the finding, restore, `md5sum` both files.
+
+**Resolution:** ship only if the manufactured red fires on the leg that covers the real defect shape. A red
+demonstrated on the *other* leg proves the path that already worked (249's type-level twin of this rule).
+
+**Traps**
+
+- *"The gate passed on the fixed tree, so it works."* A gate is only evidence once it has been seen red on
+  the exact defect shape. 256's first implementation was green in both worlds.
+- *Mutating the source but not the served artifact.* The page loads `translations.min.js` / `app.compiled.js`.
+  A source-only mutation leaves the render untouched and the run "green" for the wrong reason.
+- *Widening the predicate instead of the population.* The predicate (exact-line match) was never the problem
+  in 256; the population was. Check which one your evidence actually indicts.
+
+**Provenance:** item 256, build loop 2026-08-10. Found by building the spec literally (dictionary-derived
+population), then running the manufactured defect against it: Playwright showed `"poolNotFoundTitle"` rendered
+on the dead-pool surface while `node audit-app.js --only=dead-pool` returned `findings: []`. Fifth narrowing
+in this checker family (190, 198, 212, 249) — and the first found *before* merge rather than by a later tick.
