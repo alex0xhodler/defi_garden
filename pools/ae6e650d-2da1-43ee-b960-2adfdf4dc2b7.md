@@ -1,8 +1,8 @@
 # WETH-CBBTC — uniswap-v3 on Base
 
-**Total APY:** 16.04% (16.04% Base · + 0.00% Rewards)
+**Total APY:** 15.90% (15.90% Base · + 0.00% Rewards)
 
-**TVL:** $11.04M
+**TVL:** $11.05M
 
 **Pool Type:** LP/DEX
 
@@ -22,13 +22,13 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$2,104 in 5y at current rates.
+$1,000 in this pool grows to ~$2,092 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We've been tracking this pool's rate for 21 days. Watching how a rate holds up over time is one honest way to judge it.
 
-[Garden this pool → ~$2,104 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,092 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 

@@ -4,7 +4,7 @@ The highest honest SUSDAT yield right now is 142.12% on pendle (Monad), among 16
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 19.93% | $80.62M |
+| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 19.93% | $80.63M |
 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 11.21% | $2.63M |
 | [pendle →](https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token) | Ethereum | 3.48% | $2.63M |
 | [pendle →](https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token) | BSC | 7.19% | $2.44M |
@@ -24,10 +24,10 @@ SUSDAT shows up in 7 pools here, with rates from 3.48% to 142.12% APY across 3 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saturn | 19.93% | 26.26% | Base rate |
-| pendle | 11.21% | 11.28% | Base rate |
+| saturn | 19.93% | 26.23% | Base rate |
+| pendle | 11.21% | 11.27% | Base rate |
 | pendle | 3.48% | 3.15% | 13.62% incentives |
-| pendle | 7.19% | 8.36% | Base rate |
+| pendle | 7.19% | 8.35% | Base rate |
 | pendle | 13.60% | 13.95% | Base rate |
 | pendle | 142.12% | 226.34% | 2.23% incentives |
 | pendle | 27.65% | 25.48% | Base rate |

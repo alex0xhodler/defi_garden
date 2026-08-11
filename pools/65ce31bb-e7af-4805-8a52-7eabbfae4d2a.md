@@ -1,12 +1,12 @@
 # OVER-USDC — aerodrome-v1 on Base
 
-**Total APY:** 9.67% (0.00% Base · + 9.67% Rewards)
+**Total APY:** 9.68% (0.00% Base · + 9.68% Rewards)
 
 **TVL:** $355.3K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 11.90%
+**30d Mean APY:** 11.88%
 
 **Exposure:** multi
 

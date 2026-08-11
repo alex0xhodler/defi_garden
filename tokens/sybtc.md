@@ -4,8 +4,8 @@ The highest honest SYBTC yield right now is 2.33% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 3.98% | $623.9K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=23bff1c9-7402-4c1f-81e8-d46b09f8e001&src=seo_token) | Ethereum | 2.33% | $581.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 5.26% | $429.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a287546c-cb67-488a-b7c3-02be149a9883&src=seo_token) | Ethereum | 5.96% | $356.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=289081f9-15ee-584d-bbdc-cdd6c8fd422a&src=seo_token) | BSC | 0.68% | $130.4K |
 
@@ -21,9 +21,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| uniswap-v3 | 3.98% | 2.64% | Base rate |
 | uniswap-v4 | 2.33% | 3.24% | Base rate |
-| uniswap-v3 | 5.26% | 2.63% | Base rate |
-| uniswap-v4 | 5.96% | 25.70% | Base rate |
+| uniswap-v4 | 5.96% | 25.77% | Base rate |
 | uniswap-v3 | 0.68% | 13.94% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SYBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.5M in total.
+4 live pools clear this page's $100K TVL floor, $1.69M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Available on
 
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Last updated August 11, 2026

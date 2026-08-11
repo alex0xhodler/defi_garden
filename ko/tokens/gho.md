@@ -1,15 +1,15 @@
 # GHO 디파이 수익률
 
-현재 GHO의 가장 높은 정직한 수익률은 Plasma의 aave-v3에서 7.66%이며, $100K TVL 기준을 넘는 31개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GHO의 가장 높은 정직한 수익률은 Plasma의 aave-v3에서 7.66%이며, $100K TVL 기준을 넘는 32개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.45% | $27.7M |
 | [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 1.66% | $18.96M |
-| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.36% | $17.34M |
+| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.35% | $17.34M |
 | [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.77% | $6.72M |
-| [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 5.78% | $5.23M |
-| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 7.66% | $4.1M |
+| [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 5.92% | $5.05M |
+| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 7.66% | $4.33M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=e3f5cd78-4af7-5a1c-abb4-be2a38dbca28&src=seo_token) | Monad | 0.14% | $3.99M |
 | [fluid-lending →](https://www.defi.garden/?pool=19d0ddd5-083a-4839-a01a-5fdf066e94a3&src=seo_token) | Arbitrum | 5.99% | $2.54M |
 
@@ -27,10 +27,10 @@ GHO 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.14%부터 7.66%까�
 |---|---|---|---|
 | aave-v3 | 1.45% | 1.63% | 기본 금리 |
 | aave-v3 | 1.66% | 1.37% | 기본 금리 |
-| fluid-lending | 5.36% | 5.45% | 인센티브 36.19% |
+| fluid-lending | 5.35% | 5.45% | 인센티브 36.07% |
 | fluid-lending | 6.77% | 7.32% | 인센티브 34.42% |
-| aave-v3 | 5.78% | 6.94% | 인센티브 66.90% |
-| aave-v3 | 7.66% | 6.15% | 인센티브 65.14% |
+| aave-v3 | 5.92% | 6.94% | 인센티브 67.33% |
+| aave-v3 | 7.66% | 6.15% | 인센티브 66.08% |
 | uniswap-v4 | 0.14% | 0.26% | 기본 금리 |
 | fluid-lending | 5.99% | 5.64% | 기본 금리 |
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Plasma의 aave-v3에서 APY 7.66%예요.
 
 ### GHO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 31개이며, 합산 TVL은 $177.79M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 32개이며, 합산 TVL은 $177.95M예요.
 
 ### 이 수익률은 안전한가요?
 

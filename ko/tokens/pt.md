@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $23.36M |
+| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $23.35M |
 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.78% | $16.51M |
 | [morpho-blue →](https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token) | Monad | 2.00% | $10.54M |
 | [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 5.02% | $2.36M |
@@ -26,8 +26,8 @@ PT 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.20%부터 5.02%까�
 |---|---|---|---|
 | curvance | 0.20% | 0.20% | 인센티브 100.00% |
 | morpho-blue | 1.78% | 1.20% | 인센티브 100.00% |
-| morpho-blue | 2.00% | 0.13% | 인센티브 100.00% |
-| neverland | 5.02% | 3.86% | 인센티브 100.00% |
+| morpho-blue | 2.00% | 0.14% | 인센티브 100.00% |
+| neverland | 5.02% | 3.87% | 인센티브 100.00% |
 | curvance | 0.20% | 0.20% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -40,7 +40,7 @@ DefiLlama 실시간 데이터 기준, Monad의 neverland에서 APY 5.02%예요.
 
 ### PT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 38개이며, 합산 TVL은 $430.33M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 38개이며, 합산 TVL은 $430.86M예요.
 
 ### 이 수익률은 안전한가요?
 

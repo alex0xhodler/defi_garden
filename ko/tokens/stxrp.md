@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 1.62% | $5.3M |
-| [spectra-v2 →](https://www.defi.garden/?pool=b9f857e7-c09a-4385-bab9-907f89c00dc1&src=seo_token) | Flare | 2.66% | $2.78M |
+| [spectra-v2 →](https://www.defi.garden/?pool=b9f857e7-c09a-4385-bab9-907f89c00dc1&src=seo_token) | Flare | 2.65% | $2.78M |
 | [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc&src=seo_token) | Flare | 3.00% | $1.92M |
 | [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41&src=seo_token) | Flare | 0.25% | $175.2K |
 
@@ -23,8 +23,8 @@ STXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.25%부터 3.00%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sparkdex-v4 | 1.62% | 1.52% | 인센티브 99.41% |
-| spectra-v2 | 2.66% | 2.90% | 기본 금리 |
+| sparkdex-v4 | 1.62% | 1.52% | 인센티브 99.76% |
+| spectra-v2 | 2.65% | 2.90% | 기본 금리 |
 | spectra-v2 | 3.00% | 2.47% | 기본 금리 |
 | spectra-v2 | 0.25% | 0.27% | 기본 금리 |
 
@@ -38,7 +38,7 @@ DefiLlama 실시간 데이터 기준, Flare의 spectra-v2에서 APY 3.00%예요.
 
 ### STXRP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.18M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $10.17M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,14 +1,14 @@
 # SUSDS 디파이 수익률
 
-현재 SUSDS의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 5.50%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSDS의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 5.59%이며, $100K TVL 기준을 넘는 29개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.73B |
 | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.59M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.47% | $10.71M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.82% | $5.9M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.50% | $5.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.45% | $10.67M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.87% | $5.9M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.59% | $5.57M |
 | [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d&src=seo_token) | OP Mainnet | 3.52% | $5.11M |
 | [pendle →](https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec&src=seo_token) | Ethereum | 4.86% | $4.46M |
 | [pendle →](https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa&src=seo_token) | Ethereum | 5.15% | $4.46M |
@@ -17,7 +17,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUSDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.47%부터 5.50%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUSDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.45%부터 5.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.55%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -29,9 +29,9 @@ SUSDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.47%부터 5.50%�
 |---|---|---|---|
 | sky-lending | 3.52% | 3.55% | 기본 금리 |
 | sky-lending | 3.52% | 3.55% | 기본 금리 |
-| uniswap-v3 | 0.47% | 1.27% | 기본 금리 |
-| curve-dex | 3.82% | 3.02% | 인센티브 79.04% |
-| convex-finance | 5.50% | 4.26% | 인센티브 85.46% |
+| uniswap-v3 | 0.45% | 1.27% | 기본 금리 |
+| curve-dex | 3.87% | 3.03% | 인센티브 79.34% |
+| convex-finance | 5.59% | 4.26% | 인센티브 85.70% |
 | sky-lending | 3.52% | 3.54% | 기본 금리 |
 | pendle | 4.86% | 5.27% | 인센티브 17.45% |
 | pendle | 5.15% | 5.27% | 기본 금리 |
@@ -42,7 +42,7 @@ SUSDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.47%부터 5.50%�
 
 ### 오늘 SUSDS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 5.50%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 5.59%예요.
 
 ### SUSDS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

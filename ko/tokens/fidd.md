@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.11% | $3.56M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.10% | $3.56M |
 | [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.06% | $2.75M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.15% | $2.24M |
 | [curve-dex →](https://www.defi.garden/?pool=7391f7f6-0c62-4b87-83ff-04adf4977cae&src=seo_token) | Ethereum | 0.27% | $1.75M |
@@ -21,7 +21,7 @@ FIDD 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.06%부터 0.27%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 0.11% | 0.08% | 기본 금리 |
+| uniswap-v3 | 0.10% | 0.09% | 기본 금리 |
 | curve-dex | 0.06% | 0.02% | 기본 금리 |
 | uniswap-v3 | 0.15% | 0.15% | 기본 금리 |
 | curve-dex | 0.27% | 0.06% | 기본 금리 |

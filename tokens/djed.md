@@ -5,13 +5,13 @@ The highest honest DJED yield right now is 12.83% on liqwid (Cardano), among 3 p
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [liqwid →](https://www.defi.garden/?pool=4a0746b8-61f7-40b2-9378-80e902aec4f9&src=seo_token) | Cardano | 12.83% | $1.04M |
-| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 9.87% | $200.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=20aa3b87-23d4-4b89-b48a-2db831806f98&src=seo_token) | Cardano | 9.92% | $200.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DJED shows up in 2 pools here, with rates from 9.87% to 12.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DJED shows up in 2 pools here, with rates from 9.92% to 12.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ DJED shows up in 2 pools here, with rates from 9.87% to 12.83% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | liqwid | 12.83% | 12.94% | Base rate |
-| minswap-dex | 9.87% | 10.66% | 8.21% incentives |
+| minswap-dex | 9.92% | 10.66% | 8.17% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

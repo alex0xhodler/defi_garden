@@ -1,12 +1,12 @@
 # EARNAUSD — upshift on Monad
 
-**Total APY:** 5.28% (4.73% Base · + 0.55% Rewards)
+**Total APY:** 5.29% (4.73% Base · + 0.56% Rewards)
 
-**TVL:** $21.38M
+**TVL:** $21.37M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 6.68%
+**30d Mean APY:** 6.67%
 
 **Exposure:** single
 

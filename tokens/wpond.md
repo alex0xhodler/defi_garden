@@ -1,10 +1,10 @@
 # WPOND DeFi Yields
 
-The highest honest WPOND yield right now is 136.70% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WPOND yield right now is 128.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a070bd21-262d-4847-ae17-a6fa7c7f2a54&src=seo_token) | Solana | 136.70% | $123.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=a070bd21-262d-4847-ae17-a6fa7c7f2a54&src=seo_token) | Solana | 128.99% | $123.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WPOND yield today?
 
-136.70% APY on raydium-amm (Solana), based on live DefiLlama data.
+128.99% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WPOND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.6K in total.
+1 live pool clear this page's $100K TVL floor, $123.8K in total.
 
 ### Are these rates safe?
 

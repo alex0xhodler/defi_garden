@@ -1,17 +1,17 @@
 # SDPENDLE DeFi Yields
 
-The highest honest SDPENDLE yield right now is 7.24% on stake-dao (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDPENDLE yield right now is 7.23% on stake-dao (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=362dff31-60e9-4393-b3f5-1ea4cd8caa06&src=seo_token) | Ethereum | 7.24% | $3.7M |
-| [curve-dex →](https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token) | Ethereum | 0.04% | $401.5K |
+| [stake-dao →](https://www.defi.garden/?pool=362dff31-60e9-4393-b3f5-1ea4cd8caa06&src=seo_token) | Ethereum | 7.23% | $3.72M |
+| [curve-dex →](https://www.defi.garden/?pool=2b667896-bd77-46b3-8ddd-bfbb7eafea73&src=seo_token) | Ethereum | 0.04% | $402.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SDPENDLE shows up in 2 pools here, with rates from 0.04% to 7.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SDPENDLE shows up in 2 pools here, with rates from 0.04% to 7.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,7 +21,7 @@ SDPENDLE shows up in 2 pools here, with rates from 0.04% to 7.24% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stake-dao | 7.24% | 8.44% | 100.00% incentives |
+| stake-dao | 7.23% | 8.43% | 100.00% incentives |
 | curve-dex | 0.04% | 0.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SDPENDLE yield today?
 
-7.24% APY on stake-dao (Ethereum), based on live DefiLlama data.
+7.23% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many SDPENDLE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.11M in total.
+2 live pools clear this page's $100K TVL floor, $4.13M in total.
 
 ### Are these rates safe?
 

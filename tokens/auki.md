@@ -1,10 +1,10 @@
 # AUKI DeFi Yields
 
-The highest honest AUKI yield right now is 22.29% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUKI yield right now is 22.24% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f8c0b897-6e0d-4623-8628-977a8f33abfd&src=seo_token) | Base | 22.29% | $255K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f8c0b897-6e0d-4623-8628-977a8f33abfd&src=seo_token) | Base | 22.24% | $256.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUKI yield today?
 
-22.29% APY on uniswap-v3 (Base), based on live DefiLlama data.
+22.24% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many AUKI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $255K in total.
+1 live pool clear this page's $100K TVL floor, $256.2K in total.
 
 ### Are these rates safe?
 

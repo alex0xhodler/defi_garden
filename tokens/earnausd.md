@@ -4,12 +4,12 @@ The highest honest EARNAUSD yield right now is 10.29% on pendle (Monad), among 7
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.28% | $21.38M |
-| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.48% | $3.45M |
-| [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.75% | $2.74M |
+| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.29% | $21.37M |
+| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.49% | $3.45M |
+| [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.76% | $2.74M |
 | [pendle →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.22% | $2.4M |
 | [pendle →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 10.29% | $2.4M |
-| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.33% | $805.9K |
+| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.33% | $805.8K |
 | [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $158.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -26,11 +26,11 @@ EARNAUSD shows up in 7 pools here, with rates from 0.20% to 10.29% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| upshift | 5.28% | 6.68% | 10.50% incentives |
-| morpho-blue | 2.48% | 0.11% | 100.00% incentives |
-| curvance | 0.75% | 0.80% | 100.00% incentives |
-| pendle | 9.22% | 8.87% | 5.67% incentives |
-| pendle | 10.29% | 9.35% | Base rate |
+| upshift | 5.29% | 6.67% | 10.53% incentives |
+| morpho-blue | 2.49% | 0.11% | 100.00% incentives |
+| curvance | 0.76% | 0.79% | 100.00% incentives |
+| pendle | 9.22% | 8.86% | 5.67% incentives |
+| pendle | 10.29% | 9.34% | Base rate |
 | neverland | 1.33% | 1.36% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 

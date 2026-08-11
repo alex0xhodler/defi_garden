@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.14% | $10.07M |
 | [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.36% | $6.2M |
-| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 5.95% | $3.91M |
+| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 6.06% | $3.91M |
 | [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 3.71% | $2.76M |
 | [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 8.29% | $2.76M |
 
@@ -23,8 +23,8 @@ TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.36%부터 8.29%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | curve-dex | 5.14% | 5.53% | 기본 금리 |
-| curve-dex | 0.36% | 0.47% | 인센티브 0.01% |
-| curve-dex | 5.95% | 254.25% | 인센티브 99.16% |
+| curve-dex | 0.36% | 0.46% | 인센티브 0.01% |
+| curve-dex | 6.06% | 252.53% | 인센티브 99.17% |
 | pendle | 3.71% | 6.73% | 인센티브 42.24% |
 | pendle | 8.29% | 12.46% | 기본 금리 |
 

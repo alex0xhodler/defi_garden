@@ -24,7 +24,7 @@ SRUSDAT shows up in 5 pools here, with rates from 8.11% to 12.19% APY across 2 c
 |---|---|---|---|
 | strata-markets | 8.11% | 7.86% | Base rate |
 | pendle | 8.99% | 10.71% | Base rate |
-| pendle | 9.28% | 11.16% | Base rate |
+| pendle | 9.28% | 11.15% | Base rate |
 | pendle | 12.19% | 12.15% | 14.51% incentives |
 | pendle | 11.18% | 11.10% | Base rate |
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SRUSDAT pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $5.45M in total.
+5 live pools clear this page's $100K TVL floor, $5.44M in total.
 
 ### Are these rates safe?
 

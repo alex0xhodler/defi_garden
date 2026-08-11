@@ -4,7 +4,7 @@ The highest honest OCEAN yield right now is 0.33% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ea6dd674-7567-44cd-a70f-04634f3510c5&src=seo_token) | Ethereum | 0.33% | $870.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ea6dd674-7567-44cd-a70f-04634f3510c5&src=seo_token) | Ethereum | 0.33% | $874.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OCEAN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.07M in total.
+3 live pools clear this page's $100K TVL floor, $3.08M in total.
 
 ### Are these rates safe?
 

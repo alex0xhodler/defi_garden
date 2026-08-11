@@ -11,7 +11,7 @@
 | [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 2.59% | $570.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 8.19% | $550.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.18% | $355.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b40a9869-ec18-453b-a973-e8b603e8c730&src=seo_token) | Ethereum | 9.36% | $291.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b40a9869-ec18-453b-a973-e8b603e8c730&src=seo_token) | Ethereum | 15.44% | $292.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -27,14 +27,14 @@
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 3.42% | 9.81% | 기본 금리 |
-| uniswap-v4 | 5.49% | 26.49% | 기본 금리 |
-| uniswap-v4 | 4.80% | 20.39% | 기본 금리 |
-| uniswap-v4 | 46.67% | 22.34% | 기본 금리 |
-| uniswap-v4 | 2.59% | 13.65% | 기본 금리 |
-| uniswap-v4 | 8.19% | 13.44% | 기본 금리 |
-| uniswap-v4 | 0.18% | 3.79% | 기본 금리 |
-| uniswap-v3 | 9.36% | 0.58% | 기본 금리 |
+| uniswap-v4 | 3.42% | 9.82% | 기본 금리 |
+| uniswap-v4 | 5.49% | 26.45% | 기본 금리 |
+| uniswap-v4 | 4.80% | 20.38% | 기본 금리 |
+| uniswap-v4 | 46.67% | 22.35% | 기본 금리 |
+| uniswap-v4 | 2.59% | 13.66% | 기본 금리 |
+| uniswap-v4 | 8.19% | 13.45% | 기본 금리 |
+| uniswap-v4 | 0.18% | 3.80% | 기본 금리 |
+| uniswap-v3 | 15.44% | 0.65% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 8.19%예�
 
 ### 1INCH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $21.31M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $21.35M예요.
 
 ### 이 수익률은 안전한가요?
 

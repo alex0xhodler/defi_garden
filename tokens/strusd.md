@@ -21,7 +21,7 @@ STRUSD shows up in 4 pools here, with rates from 5.14% to 12.07% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tori-finance | 10.48% | 12.32% | Base rate |
+| tori-finance | 10.48% | 12.31% | Base rate |
 | curve-dex | 5.14% | 5.53% | Base rate |
 | pendle | 11.34% | 11.84% | Base rate |
 | pendle | 12.07% | 16.12% | 4.74% incentives |
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $79.51M in total.
+6 live pools clear this page's $100K TVL floor, $79.52M in total.
 
 ### Are these rates safe?
 

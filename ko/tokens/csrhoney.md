@@ -25,8 +25,8 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 5.99%예요
 ## 관련 토큰
 
 - [UNIBTC](https://www.defi.garden/ko/tokens/unibtc)
-- [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
+- [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/ko/tokens/ibera)
 - [HONEY](https://www.defi.garden/ko/tokens/honey)
 - [RE7HONEY](https://www.defi.garden/ko/tokens/re7honey)

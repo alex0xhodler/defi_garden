@@ -4,7 +4,7 @@ The highest honest PT yield right now is 5.02% on neverland (Monad), among 38 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $23.36M |
+| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $23.35M |
 | [morpho-blue →](https://www.defi.garden/?pool=032bee19-6763-4f4d-862f-f4cf0e1774c3&src=seo_token) | Ethereum | 1.78% | $16.51M |
 | [morpho-blue →](https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token) | Monad | 2.00% | $10.54M |
 | [neverland →](https://www.defi.garden/?pool=ed278631-10d3-5aaf-9e27-14d89058a5a6&src=seo_token) | Monad | 5.02% | $2.36M |
@@ -26,8 +26,8 @@ PT shows up in 5 pools here, with rates from 0.20% to 5.02% APY across 2 chains 
 |---|---|---|---|
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 | morpho-blue | 1.78% | 1.20% | 100.00% incentives |
-| morpho-blue | 2.00% | 0.13% | 100.00% incentives |
-| neverland | 5.02% | 3.86% | 100.00% incentives |
+| morpho-blue | 2.00% | 0.14% | 100.00% incentives |
+| neverland | 5.02% | 3.87% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PT pools clear the TVL floor?
 
-38 live pools clear this page's $100K TVL floor, $430.33M in total.
+38 live pools clear this page's $100K TVL floor, $430.86M in total.
 
 ### Are these rates safe?
 

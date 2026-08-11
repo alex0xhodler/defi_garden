@@ -1,12 +1,12 @@
 # NEST-WHYPE — nest-cl on Hyperliquid L1
 
-**Total APY:** 46.57% (0.00% Base · + 46.57% Rewards)
+**Total APY:** 46.59% (0.00% Base · + 46.59% Rewards)
 
-**TVL:** $415K
+**TVL:** $415.9K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 50.03%
+**30d Mean APY:** 50.00%
 
 **Exposure:** multi
 
@@ -25,7 +25,7 @@ $1,000 in this pool grows to ~$2,058 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (46.57% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (46.59% headline) — farm rates decay. Active management required.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 

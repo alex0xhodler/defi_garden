@@ -4,7 +4,7 @@ The highest honest RUSDY yield right now is 1.91% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=39882aee-7fb3-45c2-a39d-9ee60ca09c9b&src=seo_token) | Ethereum | 1.91% | $7.63M |
+| [curve-dex →](https://www.defi.garden/?pool=39882aee-7fb3-45c2-a39d-9ee60ca09c9b&src=seo_token) | Ethereum | 1.91% | $7.62M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RUSDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.63M in total.
+1 live pool clear this page's $100K TVL floor, $7.62M in total.
 
 ### Are these rates safe?
 

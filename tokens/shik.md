@@ -4,7 +4,7 @@ The highest honest SHIK yield right now is 0.05% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4596a588-e059-4155-8220-37577e857d03&src=seo_token) | Ethereum | 0.05% | $220.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4596a588-e059-4155-8220-37577e857d03&src=seo_token) | Ethereum | 0.05% | $220.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHIK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $220.3K in total.
+1 live pool clear this page's $100K TVL floor, $220.9K in total.
 
 ### Are these rates safe?
 

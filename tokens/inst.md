@@ -1,19 +1,19 @@
 # INST DeFi Yields
 
-The highest honest INST yield right now is 6.04% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INST yield right now is 5.96% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=ab8c01f0-0586-4077-bae8-86b3e05704c3&src=seo_token) | Ethereum | 0.20% | $2.75M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284&src=seo_token) | Ethereum | 6.04% | $401.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=91075e50-5155-44e4-a32e-3d2b137ee284&src=seo_token) | Ethereum | 5.96% | $402.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-INST shows up in 2 pools here, with rates from 0.20% to 6.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+INST shows up in 2 pools here, with rates from 0.20% to 5.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.20% | 2.26% | Base rate |
-| uniswap-v3 | 6.04% | 10.91% | Base rate |
+| uniswap-v3 | 0.20% | 2.24% | Base rate |
+| uniswap-v3 | 5.96% | 10.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest INST yield today?
 
-6.04% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.96% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many INST pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.63M in total.
+3 live pools clear this page's $100K TVL floor, $3.64M in total.
 
 ### Are these rates safe?
 

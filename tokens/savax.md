@@ -4,7 +4,7 @@ The highest honest SAVAX yield right now is 2.95% on benqi-staked-avax (Avalanch
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9&src=seo_token) | Avalanche | 2.95% | $145.45M |
+| [benqi-staked-avax →](https://www.defi.garden/?pool=3790c3e5-8644-4f6b-8feb-12434d8b99f9&src=seo_token) | Avalanche | 2.95% | $146.59M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SAVAX pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $264.78M in total.
+7 live pools clear this page's $100K TVL floor, $267.21M in total.
 
 ### Are these rates safe?
 
