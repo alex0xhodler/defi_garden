@@ -331,8 +331,21 @@ function handleToolsList() {
  * to apiCore.handleApiRequest verbatim. Returns null on success (caller
  * wraps it in a JSON-RPC result) or a jsonRpcError-shaped object directly
  * on a -32602-class problem (unknown tool / bad args), so the caller never
- * has to re-derive that distinction. */
-function handleToolsCall(id, params, pools) {
+ * has to re-derive that distinction.
+ *
+ * `pricing` (verifier round 2, backlog 234, FINDING 3): the SAME optional
+ * `{ enabled, mode }` shape `/api` itself receives — passed straight
+ * through to `apiCore.handleApiRequest`'s own `pricing` field, never read
+ * from `env` here (this file stays pure; see header comment's "delegates
+ * verbatim" discipline and the module-level note below). Without this, a
+ * `tools/call` for `explain_rails` (which delegates to `GET /api`) could
+ * only ever see the DARK default — falsifying its own pricing block even
+ * while the real Worker's payment gate was live, the exact contradiction
+ * this finding named. `handleApiRequest` already treats an absent/
+ * undefined `pricing` as fully disabled ("dark") — this function does the
+ * same by simply passing whatever it was given, never assuming a state
+ * nobody told it about. */
+function handleToolsCall(id, params, pools, pricing) {
   const name = params && params.name;
   if (typeof name !== 'string' || name.length === 0) {
     return { error: jsonRpcError(id, -32602, 'tools/call requires a string "name" parameter.') };
@@ -352,6 +365,7 @@ function handleToolsCall(id, params, pools) {
     pathname: request.pathname,
     searchParams: request.searchParams,
     pools: pools,
+    pricing: pricing,
   });
 
   return {
@@ -364,12 +378,22 @@ function handleToolsCall(id, params, pools) {
 
 // ---------------------------------------------------------------------------
 // 6. handleMcpMessage — the one exported entry point. Pure function of its
-//    two inputs; no fetch, no Date, no mutation of `pools` or `message`.
+//    inputs; no fetch, no Date, no mutation of `pools` or `message`.
+//    `pricing` (verifier round 2, backlog 234, FINDING 3) is a THIRD,
+//    OPTIONAL input, carrying the same `{ enabled, mode }` shape `/api`
+//    receives — this file NEVER reads `env` itself (that would break the
+//    "delegates verbatim, no rail copy" purity this whole module is built
+//    on); the Worker (edge/agent-log.mjs) computes it once via
+//    `x402Core.readConfig(env)` and passes it in, exactly as it already
+//    does for `/api` itself. Only `tools/call` (via handleToolsCall) ever
+//    reads it — every other method ignores it entirely, same discipline
+//    `apiCore.handleApiRequest`'s own `pricing` field already documents.
 // ---------------------------------------------------------------------------
 
 function handleMcpMessage(input) {
   const message = input && input.message;
   const pools = (input && Array.isArray(input.pools)) ? input.pools : [];
+  const pricing = input && input.pricing;
 
   const problem = envelopeProblem(message);
   if (problem) {
@@ -405,7 +429,7 @@ function handleMcpMessage(input) {
       return { status: 200, body: jsonRpcResult(id, handleToolsList()) };
     }
     if (method === 'tools/call') {
-      const outcome = handleToolsCall(id, params, pools);
+      const outcome = handleToolsCall(id, params, pools, pricing);
       return { status: 200, body: outcome.error || jsonRpcResult(id, outcome.result) };
     }
     if (method === 'ping') {

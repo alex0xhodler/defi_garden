@@ -276,7 +276,7 @@ console.log('\nF. unknown route 404 shape + rails on every route');
 
 const unknown = apiCore.handleApiRequest({ pathname: '/api/definitely-not-a-route', searchParams: new URLSearchParams(), pools: POPULATION });
 eq(unknown.status, 404, 'unknown /api/* -> 404');
-ok(Array.isArray(unknown.body.endpoints) && unknown.body.endpoints.length >= 5, 'unknown-route 404 carries an endpoints list with all 5 documented routes');
+ok(Array.isArray(unknown.body.endpoints) && unknown.body.endpoints.length >= apiCore.ENDPOINTS.length, 'unknown-route 404 carries an endpoints list with every documented route (currently ' + apiCore.ENDPOINTS.length + ', including /api/pricing)');
 ok(unknown.body.rails && typeof unknown.body.rails.apySanityLimit === 'number', 'unknown-route 404 carries a rails block');
 
 const notFoundPool = apiCore.handleApiRequest({ pathname: '/api/pools/this-id-does-not-exist', searchParams: new URLSearchParams(), pools: POPULATION });

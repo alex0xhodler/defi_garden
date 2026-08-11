@@ -254,6 +254,128 @@ should appear in the same `agent_reads` table — no new query needed,
 picks it up the same way. Full contract, quickstart, and post-deploy
 verification: `edge/MCP.md`.
 
+## 9. Deploy delta — x402 + Web Bot Auth (backlog 234, spec 234)
+
+**Same Worker, same deploy command.** Item 234 added `edge/x402-core.js`
+(payment logic) and `edge/web-bot-auth-core.js` (identity verification),
+wired into THIS file's `edge/agent-log.mjs` alongside the existing `/api`
+and `/mcp` branches — no new route, no new binding, no new `wrangler.toml`
+entry. `wrangler deploy -c edge/wrangler.toml` (unchanged) picks up this
+diff the same way it already picks up 227's and 228's. Full contract:
+`edge/X402.md`.
+
+**Code ships DARK.** `X402_ENABLED` defaults to unset/false — every route
+stays free until a human flips it (see the HUMAN-OWNED list below). This
+deploy delta is safe to run at any time; it does not, by itself, start
+charging anyone for anything.
+
+**Exact byte-identity scope — response BODIES, dark-mode, checked directly
+against `origin/main` (verifier round 1, backlog 234):** `GET /api/health`,
+`GET /api/pools` (bare and with `?token=…`), `GET /api/pools/:id`,
+`GET /api/forever-number`, all three `/mcp` shapes (`initialize`,
+`tools/list`, `tools/call`), and the pass-through path (`Response` body
+object-identical, not merely byte-identical) are unchanged by this diff.
+Three surfaces are deliberately NOT body-identical: `GET /api` (gained a
+`pricing` block plus a 6th `endpoints` entry), the unknown-route `404` (its
+`endpoints` list grew to match), and `GET /api/pricing` (`404` → `200`,
+since the route itself is new). None of those three differences changes
+what data is served or charges anyone anything — they only describe
+pricing, which stays fully DISABLED until a human flips `X402_ENABLED`. A
+fourth difference sits outside this body-identity scope and applies to
+EVERY `/api/*` and `/mcp` response regardless of route, not just the three
+surfaces above: `Access-Control-Allow-Headers` now includes `X-PAYMENT`
+(was `Content-Type` alone) and a new
+`Access-Control-Expose-Headers: X-PAYMENT-RESPONSE` header is sent —
+deliberate, documented at `edge/API.md`'s CORS section (`:69-72`), and
+orthogonal to the body-identity claim above (it changes response headers
+only, never which data is served or to whom).
+
+### 9a. Migrate the D1 table (do this BEFORE deploying the new Worker code)
+
+`agent_reads` (item 224) gains three new nullable columns
+(`agent_identity`, `identity_status`, `payment_status` — see
+`edge/schema.sql`'s own migration comment for the exact column
+descriptions). Run this against the SAME `defi-garden-history` database
+steps 1-2 above already provisioned:
+
+```
+wrangler d1 execute defi-garden-history --remote \
+  --command "ALTER TABLE agent_reads ADD COLUMN agent_identity TEXT;"
+wrangler d1 execute defi-garden-history --remote \
+  --command "ALTER TABLE agent_reads ADD COLUMN identity_status TEXT;"
+wrangler d1 execute defi-garden-history --remote \
+  --command "ALTER TABLE agent_reads ADD COLUMN payment_status TEXT;"
+```
+
+(Equivalently: `wrangler d1 execute defi-garden-history --file=edge/schema.sql --remote`
+re-runs the whole file — safe, since `CREATE TABLE IF NOT EXISTS` is a
+no-op against the already-existing table, but IT WILL ERROR on a second
+run of the three `ALTER TABLE` lines once they've already been applied
+once; that error is expected and harmless, not a sign anything is broken.)
+
+**Order matters, but not as much as you'd think.** `edge/agent-log.mjs`'s
+`insertRow()` attempts the extended (12-column) `INSERT` first and falls
+back to the original 9-column statement on failure — see Territory note 4
+below. So deploying the NEW Worker code before running this migration does
+NOT break logging; it just means every row falls back to the legacy shape
+(no identity/payment columns populated) until the migration runs. Running
+the migration late is always safe to do; running the Worker code before the
+migration is also safe, just less informative in the interim. The
+recommended order above (migrate first) simply avoids that interim gap.
+
+Confirm the columns landed:
+
+```
+wrangler d1 execute defi-garden-history --remote \
+  --command "SELECT ts, path, path_class, agent_identity, identity_status, payment_status FROM agent_reads ORDER BY ts DESC LIMIT 5;"
+```
+
+### 9b. Env vars (all optional, all default to the DARK/off state)
+
+None of these are set in `edge/wrangler.toml` today — they are documented
+there as COMMENTS only (see that file). Add them as `[vars]` (non-secret)
+or, if ever treated as sensitive, `wrangler secret put <NAME>`, per
+Cloudflare's own Worker-secrets docs — this runbook does not prescribe
+which, since none of them are configured yet.
+
+| var | default when unset | meaning |
+|---|---|---|
+| `X402_ENABLED` | `false` (gate is DARK) | `"true"`/`"1"` turns the payment gate ON. **Flipping this is a HUMAN, money-admin action — see below.** |
+| `X402_MODE` | `"test"` (never defaults to live) | `"test"` accepts a well-formed TEST-network payment but never settles; `"live"` verifies against a real facilitator (fail-closed on anything short of an explicit `isValid:true`) — but this Worker never calls the facilitator's `/settle` endpoint, in either mode, so no value ever moves on our side. See `edge/X402.md`'s "What this deliberately does NOT do" for the full residue note. |
+| `X402_NETWORK` | `"base-sepolia"` | the network name a `402` challenge advertises when no override is set. |
+| `X402_ASSET` | unset → `null` (no address invented) | the priced asset's contract address. A `402` honestly reports "not configured yet" until this is set. |
+| `X402_PAY_TO` | unset → `null` (no address invented) | the wallet/handle a future settlement path would pay out to — this Worker itself never settles, in either mode (see `edge/X402.md`). Same honesty rule as `X402_ASSET`. |
+| `X402_FACILITATOR_URL` | unset → live mode fails CLOSED | the x402 facilitator base URL `verifyPayment()` POSTs `<url>/verify` to in live mode. Live mode with no facilitator configured is always rejected, never silently trusted. |
+| `WEB_BOT_AUTH_KEYS` | unset → `{}` (empty keyring) | JSON object, `keyid -> base64url-encoded raw 32-byte Ed25519 public key`. An empty/absent keyring means every signed request honestly resolves to `identity_status: 'unverified'` (unknown keyid), never a throw. |
+
+### HUMAN-OWNED (BLOCKED-class — a loop never performs these; money/org-admin)
+
+- **Claim the `cloudflare.pay` handle `alexxx`** (human-answered,
+  NORTH_STAR 2026-08-05 — do this early, it's free and name-squattable,
+  zero code dependency on anything in this repo).
+- **Enable Monetization Gateway** on the Cloudflare account.
+- **Wallet custody/payout configuration** — provisioning `X402_PAY_TO` /
+  `X402_ASSET` with a REAL address and setting up where funds would go
+  under a future settlement path (this Worker itself never settles, in
+  either mode — see `edge/X402.md`'s "What this deliberately does NOT do").
+- **Flip `X402_ENABLED` to `true`** (and, separately, `X402_MODE` to
+  `"live"` once ready for real-facilitator verification) — the literal act
+  of turning pricing on. **This Worker never settles, in either mode** —
+  flipping `X402_MODE` to `"live"` makes `verifyPayment()` actually call
+  the configured facilitator's `/verify` endpoint instead of accepting a
+  structural test-network match, but no code path in `edge/` ever calls a
+  facilitator's `/settle` endpoint; a real settlement path, if one is ever
+  built, is a separate, future, human-owned decision (see `edge/X402.md`'s
+  "What this deliberately does NOT do"). Per spec 234's Measurement
+  section, this flip is also the clock-start for the item's own
+  gate-decision window (60 days live before a zero-paid-demand outcome
+  closes it as a learning).
+
+None of the above are performed by this diff, this runbook, or any script
+in this repo — no credential, account id, wallet address, or handle is
+present anywhere in the 234 diff (grep-asserted; see
+`product-loop-kit/specs/234-notes.md`).
+
 ## Territory notes (things this runbook found, not anticipated by spec 224)
 
 - No scheduled retention prune runs yet. `edge/agent-log-core.js` exports
