@@ -43,7 +43,11 @@
       "tokens/wzra.html",
       "tokens/csusdccore.html",
       "tokens/lfi.html",
-      "tokens/sirloinusdc.html"
+      "tokens/sirloinusdc.html",
+      "tokens/kodiusde.html",
+      "tokens/send.html",
+      "tokens/wmon.html",
+      "tokens/corgiai.html"
     ]
   },
   "chains": {
@@ -68,7 +72,9 @@
       "chains/kusama.html",
       "chains/xrpl.html",
       "chains/kava.html",
-      "chains/xrpl-evm.html"
+      "chains/xrpl-evm.html",
+      "chains/mezo.html",
+      "chains/aptos.html"
     ]
   },
   "koTokens": {
@@ -109,7 +115,11 @@
       "ko/tokens/evausdt.html",
       "ko/tokens/myrc.html",
       "ko/tokens/susdm.html",
-      "ko/tokens/afcvx.html"
+      "ko/tokens/afcvx.html",
+      "ko/tokens/eurc.html",
+      "ko/tokens/mt.html",
+      "ko/tokens/stupid.html",
+      "ko/tokens/aapl.html"
     ]
   },
   "koChains": {
@@ -132,7 +142,9 @@
       "ko/chains/strato.html",
       "ko/chains/gnosis.html",
       "ko/chains/bifrost.html",
-      "ko/chains/neo.html"
+      "ko/chains/neo.html",
+      "ko/chains/op-mainnet.html",
+      "ko/chains/bitcoin.html"
     ]
   }
 }
