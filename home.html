@@ -257,6 +257,16 @@
                             }
                         },
                         execute: function(args) {
+                            // backlog 266: same reasoning as the description string's
+                            // comment above (:246-249) — the filter predicate itself
+                            // must read window.TRUST_RAILS too, not just describe it in
+                            // prose. totalApy() mirrors edge/api-core.js:85 byte-for-byte
+                            // (apyBase + apyReward, missing treated as 0) so this surface
+                            // rails the same computed total every other railed surface does,
+                            // instead of DefiLlama's own unrailed `apy` field.
+                            function totalApy(p) {
+                                return (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0);
+                            }
                             return fetch("https://yields.llama.fi/pools")
                                 .then(function(res) { return res.json(); })
                                 .then(function(json) {
@@ -264,17 +274,17 @@
                                     var token = (args.token || "").toLowerCase();
                                     var chain = (args.chain || "").toLowerCase();
                                     var minApy = args.minApy || 0;
-                                    
+
                                     var filtered = pools.filter(function(p) {
-                                        if (p.tvlUsd < 100000) return false;
-                                        if (p.apy > 1000) return false;
-                                        
+                                        if (p.tvlUsd < window.TRUST_RAILS.DEFAULT_MIN_TVL) return false;
+                                        if (totalApy(p) > window.TRUST_RAILS.APY_SANITY_LIMIT) return false;
+
                                         if (token && !p.symbol.toLowerCase().includes(token)) return false;
                                         if (chain && p.chain.toLowerCase() !== chain) return false;
-                                        if (minApy && p.apy < minApy) return false;
+                                        if (minApy && totalApy(p) < minApy) return false;
                                         return true;
                                     });
-                                    
+
                                     return {
                                         success: true,
                                         results: filtered.slice(0, 10).map(function(p) {
@@ -284,7 +294,7 @@
                                                 symbol: p.symbol,
                                                 chain: p.chain,
                                                 tvlUsd: p.tvlUsd,
-                                                apy: p.apy
+                                                apy: totalApy(p)
                                             };
                                         })
                                     };

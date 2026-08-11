@@ -15,9 +15,12 @@
  * pack is computed at generation time from live DefiLlama pool data through
  * the SAME sanity rails as the app/planner. Anomalous pools (total APY >
  * APY_SANITY_LIMIT) may NEVER be selected. DEFAULT_MIN_TVL here is the APP's
- * $10M plan-entry floor (app.js:730 / planner.js), NOT generate-token-pages.
- * js's deliberately-relaxed $100K SEO floor — a spotlight feeds a real
- * example garden (plan-entry semantics), not an SEO listing. See
+ * own plan-entry floor (trust-rails.js, mirroring app.js's canonical
+ * constant / planner.js) — the SAME floor generate-token-pages.js's own
+ * MIN_POOL_TVL deliberately does NOT read from (that generator's separately-
+ * decided, relaxed SEO floor coincides with DEFAULT_MIN_TVL's value today,
+ * not by contract) — a spotlight feeds a real example garden (plan-entry
+ * semantics), not an SEO listing. See
  * product-loop-kit/specs/060.md and 060-notes.md for the full rationale and
  * every deviation from the spec's literal text, with reasons.
  *
@@ -62,15 +65,21 @@ const {
 const { foreverNumber } = require('./planner.js');
 const { COLORS, CARD_W, CARD_H } = require('./generate-og-images.js');
 const { translations } = require('./translations.js');
+const { DEFAULT_MIN_TVL, formatTvlFloor } = require('./trust-rails.js');
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
 const SITE_URL = 'https://www.defi.garden';
 
-// --- Trust rails (app.js:730 / planner.js parity) ---------------------------
-// Deliberately NOT generate-token-pages.js's relaxed $100K MIN_POOL_TVL — a
+// --- Trust rails (derived from trust-rails.js — app.js's own canonical
+// plan-entry floor; backlog 266's operator-requested widening replaced a
+// hand-typed second copy here) ------------------------------------------
+// Deliberately NOT generate-token-pages.js's own, separately-decided
+// MIN_POOL_TVL SEO-eligibility floor (a different policy that happens to
+// coincide with DEFAULT_MIN_TVL's value today, not by contract) — a
 // spotlighted pool feeds a real example garden a stranger will click into,
-// so it must clear the same $10M floor a plan itself requires.
-const DEFAULT_MIN_TVL = 100000;
+// so it must clear the SAME floor a plan itself requires, read from the
+// single source rather than a second hand-typed copy of whatever that floor
+// currently is.
 
 function isQualifyingPool(pool) {
   return !isAnomalousApy(pool) && (pool.tvlUsd || 0) >= DEFAULT_MIN_TVL;
@@ -164,7 +173,7 @@ function pickPool(pools, poolId) {
     if (!isQualifyingPool(pool)) {
       throw new SpotlightError(
         `--pool ${poolId} fails trust rails: total APY ${formatApy(poolTotalApy(pool))} ` +
-        `(sanity limit applies) or TVL ${formatUsd(pool.tvlUsd)} is below the $10M floor`
+        `(sanity limit applies) or TVL ${formatUsd(pool.tvlUsd)} is below the ${formatTvlFloor(DEFAULT_MIN_TVL)} floor`
       );
     }
     if (!isSmallEnoughProtocol(pool.project, aggregates)) {
@@ -388,7 +397,7 @@ function goalLabelText(goalDef, lang) {
 // PERSONAS bands at planner.js:500-515). The spec's description only calls
 // out an APY ceiling per band, but curatePools (planner.js:544) ALSO gates
 // on band.minTvl — notably 'stable' requires $50M, not just this script's
-// $10M qualifying floor. Mirroring minTvl too (not just maxApy) is required
+// DEFAULT_MIN_TVL qualifying floor. Mirroring minTvl too (not just maxApy) is required
 // so the persona this script picks is the persona the live planner will
 // actually accept for this exact pool — otherwise a pack could tag a
 // $12M-TVL stablecoin pool 'stable' and the real curatePools would reject it

@@ -23,10 +23,12 @@ const LANGUAGES = ['en', 'ko'];
 // Sitemap URL quality gate (013 — GSC fix, specs/013.md).
 // Mirrors the app's own default rendering threshold so a sitemap URL never
 // advertises more than the live page shows by default.
-// Must stay in sync with app.js: DEFAULT_MIN_TVL (app.js:730) and
-// APY_SANITY_LIMIT (app.js:729) — no shared import exists between the two.
-const SITEMAP_MIN_TVL = 100000; // = app.js DEFAULT_MIN_TVL
-const APY_SANITY_LIMIT = 1000; // = app.js APY_SANITY_LIMIT
+// Derived from trust-rails.js (app.js's own canonical DEFAULT_MIN_TVL/
+// APY_SANITY_LIMIT, app.js:800-801) — a shared import DOES exist between the
+// two now (backlog 266's operator-requested widening replaced the
+// hand-typed "no shared import exists" copies this comment used to carry;
+// see product-loop-kit/specs/266-notes.md).
+const { DEFAULT_MIN_TVL: SITEMAP_MIN_TVL, APY_SANITY_LIMIT } = require('./trust-rails.js');
 const SITEMAP_MIN_QUALIFYING_POOLS = 2;
 
 // Root sitemap-*.xml files this generator must NEVER delete during stale-child
@@ -80,9 +82,9 @@ function isAnomalousApy(pool) {
 
 // item 188: minTvl is now a parameter (default unchanged: SITEMAP_MIN_TVL) so
 // the same qualifying-pool predicate serves both the existing token/chain/
-// category gates (all called with the implicit $10M default) and the new
-// chain=All rung gate below, which needs to evaluate at $1M/$10M/$100M
-// floors — never a second near-identical helper.
+// category gates (all called with the implicit SITEMAP_MIN_TVL/DEFAULT_MIN_TVL
+// default) and the new chain=All rung gate below, which needs to evaluate at
+// $1M/$10M/$100M floors — never a second near-identical helper.
 function isQualifyingPool(pool, minTvl = SITEMAP_MIN_TVL) {
   return (pool.tvlUsd || 0) >= minTvl && !isAnomalousApy(pool);
 }

@@ -4,19 +4,26 @@
  * (like compute-kpis.js); the Worker (src/poller.js, ESM) imports it and wrangler's
  * bundler handles the interop.
  *
- * TRUST RAILS — mirrored VERBATIM from generate-pools-snapshot.js:51-52
- * (themselves mirrored from app.js:729-730). This store is another enforcement
+ * TRUST RAILS — derived from trust-rails.js (itself mirroring app.js's own
+ * canonical constants, app.js:800-801), same as generate-pools-snapshot.js
+ * (verifier round 1, finding 3b: this file used to hand-declare BOTH rails as
+ * bare consts and carry a stale "$10M"/"app.js:729-730" citation — see
+ * product-loop-kit/specs/266-notes.md). This store is another enforcement
  * point for the rails and may NEVER relax or change them:
- *   - $10M TVL floor applied at write time (pools below are dropped).
- *   - Anomalous pools (total APY > 1000%) are KEPT, not dropped — they are flagged
- *     downstream (show flagged, never hide). So we filter on TVL only, exactly as
- *     the snapshot generator does (generate-pools-snapshot.js isRailedIn).
+ *   - DEFAULT_MIN_TVL floor applied at write time (pools below are dropped).
+ *   - Anomalous pools (total APY > APY_SANITY_LIMIT) are KEPT, not dropped — they
+ *     are flagged downstream (show flagged, never hide). So we filter on TVL
+ *     only, exactly as the snapshot generator does (generate-pools-snapshot.js
+ *     isRailedIn).
+ *
+ * `src/poller.js` is an ESM Worker that imports this module and wrangler's
+ * bundler handles the CommonJS interop — `module.exports` and the exported
+ * constant names below are unchanged by this derivation.
  */
 
 'use strict';
 
-const APY_SANITY_LIMIT = 1000;      // total APY above this = anomalous (KEPT + flagged downstream)
-const DEFAULT_MIN_TVL = 100000;   // $100K floor — applied upstream
+const { APY_SANITY_LIMIT, DEFAULT_MIN_TVL } = require('../trust-rails.js');
 const RETENTION_DAYS = 90;          // history window kept in D1 (Worker prunes older)
 
 /** Match compute-kpis.js round() exactly so the DB path is byte-equivalent to the
@@ -35,7 +42,7 @@ function totalApy(pool) {
 /**
  * Project a live DefiLlama `/pools` array into the slim rows to store, applying
  * the trust rails at write time. Returns `[{ pool_id, ts, apy, tvl_usd }, …]`.
- *   - Drops pools below the $10M TVL floor and pools with no `pool` id.
+ *   - Drops pools below the DEFAULT_MIN_TVL floor and pools with no `pool` id.
  *   - KEEPS anomalous pools (apy > APY_SANITY_LIMIT) — never hidden.
  * `tsSeconds` is the poll time in unix seconds (integer).
  */
@@ -45,7 +52,7 @@ function railedRows(pools, tsSeconds) {
   (Array.isArray(pools) ? pools : []).forEach((p) => {
     if (!p || !p.pool) return;                     // need a stable id
     const tvl = Number(p.tvlUsd) || 0;
-    if (tvl < DEFAULT_MIN_TVL) return;             // $10M floor — the ONLY drop
+    if (tvl < DEFAULT_MIN_TVL) return;             // DEFAULT_MIN_TVL floor — the ONLY drop
     out.push({ pool_id: String(p.pool), ts, apy: totalApy(p), tvl_usd: tvl });
   });
   return out;

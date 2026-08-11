@@ -13,6 +13,19 @@ const http = require('http');
 const path = require('path');
 const { spawn } = require('child_process');
 
+// backlog 266: this file's own invariant checks were a THIRD hand-typed
+// copy of the trust rails (asserting "TVL >= $10M" — stale since commit
+// 6fceca79bb moved DEFAULT_MIN_TVL to $100K; see product-loop-kit/specs/266.md's
+// Evidence §4). Both the threshold values AND their printed messages now
+// derive from trust-rails.js, and the APY check uses the same
+// apyBase+apyReward arithmetic as edge/api-core.js:85 / home.html's
+// search_yield_pools tool, instead of the upstream `apy` field.
+const { DEFAULT_MIN_TVL, APY_SANITY_LIMIT, formatTvlFloor } = require('../trust-rails.js');
+
+function totalApy(pool) {
+  return (Number(pool && pool.apyBase) || 0) + (Number(pool && pool.apyReward) || 0);
+}
+
 const PORT = 8001;
 const BASE_URL = `http://127.0.0.1:${PORT}`;
 
@@ -123,17 +136,17 @@ async function main() {
         const p = res.body[0];
         console.log(`   Sample pool: ${p.project} - ${p.symbol} on ${p.chain} (${p.apy.toFixed(2)}% APY, TVL: $${(p.tvlUsd / 1e6).toFixed(1)}M)`);
         
-        // Invariant checks
-        const belowTvlLimit = res.body.filter(x => x.tvlUsd < 10000000);
-        const aboveApyLimit = res.body.filter(x => x.apy > 1000);
+        // Invariant checks — thresholds + messages derived from trust-rails.js (backlog 266)
+        const belowTvlLimit = res.body.filter(x => x.tvlUsd < DEFAULT_MIN_TVL);
+        const aboveApyLimit = res.body.filter(x => totalApy(x) > APY_SANITY_LIMIT);
         if (belowTvlLimit.length > 0) {
-          console.error(`❌ Invariant Violated: Found pools with TVL < $10M!`);
+          console.error(`❌ Invariant Violated: Found pools with TVL < ${formatTvlFloor(DEFAULT_MIN_TVL)}!`);
           failedTests++;
         } else if (aboveApyLimit.length > 0) {
-          console.error(`❌ Invariant Violated: Found pools with APY > 1000%!`);
+          console.error(`❌ Invariant Violated: Found pools with APY > ${APY_SANITY_LIMIT}%!`);
           failedTests++;
         } else {
-          console.log(`   [PASS] Invariant check: All pools strictly respect TVL >= $10M and APY <= 1000% rails.`);
+          console.log(`   [PASS] Invariant check: All pools strictly respect TVL >= ${formatTvlFloor(DEFAULT_MIN_TVL)} and APY <= ${APY_SANITY_LIMIT}% rails.`);
         }
       }
     }

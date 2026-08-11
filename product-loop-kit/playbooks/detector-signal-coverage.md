@@ -941,3 +941,71 @@ leans on is reachable from a real request and has a test that proves it fires.
 the gap by injecting `/api/sharpe` into the dispatcher and watching five test files exit 0. Distilled
 together with item 212 (LEARNINGS 2026-07-30, `RAZOR.md` example 5), which is the same shape one year of
 loop earlier in this file's lineage.
+
+## AXIS 8 — does the detector read the MECHANISM, or the motivating instance's PUNCTUATION? (2026-08-11, item 266)
+
+**When:** you are building (or reviewing) any guard that finds defects by matching **source text** —
+regex over `.js`/`.html`, a grep-shaped scanner, an "is this literal hardcoded?" check. Distinct from axis 7:
+axis 7 asks whether the guard watches the *executor* or a *declaration*. This axis assumes it watches the
+right artifact and asks whether it can **parse** it.
+
+**Answer in one line:** a regex over source text can only ever see punctuation, so it will encode the
+punctuation of whatever instance motivated it — widen it once and the next shape is already there; the
+durable fix is to parse, not to match.
+
+**The evidence.** Item 266's guard (hardcoded trust-rail copies) was written *explicitly to honour* `RAZOR.md`,
+and three consecutive verifier rounds each found it keyed on the two known instances' punctuation:
+
+| round | shapes that scored GREEN | what they had in common |
+|---|---|---|
+| 1 | `1e5` exponent, wrapped condition, missing `;` (ASI), `{ K: 100000 }`, `o.K = 1000` | the two known instances were single-line, decimal, semicolon-terminated |
+| 2 | wrapped *declaration*, multi-line object literal | only the comparison scanner had been de-lined; three others still `split('\n')` |
+| 3 | `(pool.tvlUsd \|\| 0) >= X` — **the repo's house idiom**, and the exact form at the three enforcement lines the item had just repaired | the operand had been assumed to be a bare identifier |
+
+**The one that matters most, and the reason this axis exists.** Closing round 3 surfaced a defect no amount of
+pattern-widening would have found: the comment/string stripper **had no notion of a JS regex literal**. A regex
+containing an odd number of quote characters (`.replace(/("generatedAt":\s*)"[^"]*"/g, …)`) desynced quote
+tracking and **blanked the rest of six whole files from the scan**. The guard was reporting zero findings over
+files it had stopped reading — and every green run, every non-vacuity proof and every allowlist set-equality
+assertion still passed, because they all draw from the same blinded scan.
+
+**Steps**
+
+1. **Ask what the detector's tokenizer is.** If the answer is "regex + `split('\n')` + a hand-rolled
+   comment/string stripper", you have a tokenizer, and it is unvalidated. Validate it *separately from* the
+   patterns: feed it a file containing a regex literal with an odd quote count, a template literal with a
+   nested `}`, an escaped quote, and a `//` inside a string, and assert the surviving text is what you expect.
+2. **Prove the scan reaches the whole file, not just its top.** For each populated file assert a per-file
+   non-vacuity signal — e.g. that the stripped text length is a plausible fraction of the source, or that a
+   known token near EOF is still visible. Six blinded files were invisible precisely because coverage was
+   only ever asserted in aggregate.
+3. **Write the predicate against the repo's OWN idiom, not the bug's.** Grep how the codebase actually
+   expresses the thing (`(x || 0) >= N`, `Number(x) || 0`, `1e6`) and make those first-class. The instance
+   that motivated the item is the positive control, never the grammar.
+4. **Attack it before the verifier does**, and name at least three shapes you have not tried. Record the
+   result whether they escape or not — an attack that *fails* to escape is evidence; an unlisted shape is not.
+5. **If widening the grammar is unbounded, say so with the measurement, not with a hedge.** 266 kept a
+   `SCREAMING_SNAKE` key restriction because relaxing it measured 1040 raw / 107 net sites — that is a
+   defensible narrowing. The same restriction on a *different* detector cost only 4 sites and was therefore
+   indefensible; it was relaxed. Measure per detector.
+
+**Resolution:** the tokenizer has its own tests; per-file reach is asserted; the grammar covers the idioms
+the repo actually uses; every remaining shape is named with a number in the guard's own header AND in the
+spec's open-residue list.
+
+**Traps**
+
+- *"Three rounds of widening, so it must be tight now."* Each widening bought exactly one shape. Count the
+  rounds: if every round found a new one, the ceiling is the method, not the patterns — escalate to parsing.
+- *Aggregate non-vacuity hides per-file blindness.* "The scan finds 55 sites" is compatible with six files
+  contributing zero because they were never read.
+- *The guard's own header is source text too.* 266's header quotes `const DEFAULT_MIN_TVL = 100000;` as
+  prose; without comment-stripping the guard reports itself. Assert that it does not.
+- *A closure claim written before the last attack.* 266's "class closed: yes" was falsified three times. Write
+  the claim as a **list of shapes proven red**, and the residue as a list of shapes proven green — both
+  falsifiable, neither a verdict.
+
+**Provenance:** item 266 (WebMCP trust-rail derivation), verifier rounds 1-3, 2026-08-11 — the round-3
+counter-example was `test_pool_twins.js:117-118`, two adjacent lines comparing the same quantity to the same
+literal where only one was visible to the scan. Extends axis 7 (item 234/212) from *which artifact* to
+*whether it is read at all*.

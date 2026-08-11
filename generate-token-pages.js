@@ -51,17 +51,24 @@ const SITE_URL = 'https://www.defi.garden';
 const YIELDS_API = 'https://yields.llama.fi/pools';
 
 // --- Sanity rails & eligibility --------------------------------------------
-// APY_SANITY_LIMIT is a TRUST RAIL (mirrors app.js:729 / planner.js): a pool
-// whose total APY exceeds it may NEVER be shown or counted — untouched here.
+// APY_SANITY_LIMIT is a TRUST RAIL (derived from trust-rails.js, itself
+// mirroring app.js's own canonical constant / planner.js): a pool whose
+// total APY exceeds it may NEVER be shown or counted — untouched here.
 //
-// MIN_POOL_TVL is this SEO generator's OWN eligibility floor and DELIBERATELY
-// diverges from the app's DEFAULT_MIN_TVL ($10M, app.js:730) per human directive
-// 2026-07-11: the app's $10M floor governs what enters a savings PLAN (caution);
-// these static token pages exist to capture long-tail search traffic from newer
-// tokens, which a $10M floor + 2-pool minimum shut out. The pages still show
-// only real, non-anomalous pools — just down to a $100K floor, any count >= 1.
-const MIN_POOL_TVL = 100000;      // $100K eligibility floor for a page's pools
-const APY_SANITY_LIMIT = 1000;    // TRUST RAIL: total APY above this may NEVER be shown
+// MIN_POOL_TVL is this SEO generator's OWN eligibility floor — a SEPARATELY
+// DECIDED policy per human directive 2026-07-11, not a mirror of the platform
+// trust rail: these static token pages exist to capture long-tail search
+// traffic from newer tokens, so they qualify on any count >= 1 pool rather
+// than the plan path's stricter gate. The platform floor lives as
+// DEFAULT_MIN_TVL in trust-rails.js (canonical app.js:800-801) and is a
+// distinct decision from this one, even though the two values COINCIDE
+// today. The pages still show only real, non-anomalous pools — just down
+// to a $100K floor, any count >= 1.
+const MIN_POOL_TVL = 100000;      // $100K eligibility floor for a page's pools — this generator's OWN SEO policy, deliberately separate from DEFAULT_MIN_TVL (see header)
+// APY_SANITY_LIMIT derived from trust-rails.js (backlog 266 operator-requested
+// widening replaced a hand-typed second copy — total APY above this may NEVER
+// be shown, same rail app.js enforces).
+const { APY_SANITY_LIMIT } = require('./trust-rails.js');
 const MIN_QUALIFYING_POOLS = 1;   // a token needs >=1 qualifying pool to earn a page
 const DEFAULT_LIMIT = 0;          // 0 = no cap: a page for every eligible token
 const POOLS_PER_PAGE = 8;         // how many pools to list on each page
@@ -904,7 +911,7 @@ function mean30dSane(pool) {
  * apyPct30D "render empty in production". That was WRONG (item 232, caught by
  * the verifier). generate-pools-snapshot.js writes TWO artifacts: FIELDS/
  * projectPool applies to the committed data/pools-snapshot.json (the app's
- * $10M snapshot), while the --seo-out transient CI actually feeds the
+ * DEFAULT_MIN_TVL-floored snapshot), while the --seo-out transient CI actually feeds the
  * generators (:305) is RAW and FULL-FIELD by design ("full fields preserved,
  * a provable superset of every pool the 3 SEO generators consume"). Measured:
  * sigma/mu on 15,600/15,600 pools, apyPct30D on 12,560/15,600.

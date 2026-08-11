@@ -13,9 +13,14 @@
  *
  * TRUST RAILS (BINDING — NORTH_STAR NEVER-list applies verbatim):
  *   The rails applied here are the SAME rails the FE runs, applied one layer
- *   upstream. They may NEVER be relaxed here. `DEFAULT_MIN_TVL` ($10M) and
- *   `APY_SANITY_LIMIT` (1000%) are mirrored VERBATIM from app.js:729-730.
- *   - The $10M TVL floor is applied at build time (never lowered).
+ *   upstream. They may NEVER be relaxed here. `DEFAULT_MIN_TVL` and
+ *   `APY_SANITY_LIMIT` are `require('./trust-rails.js')` reads of app.js's own
+ *   canonical constants (app.js:800-801) — not a hand-typed second copy of the
+ *   figure (backlog 266's operator-requested widening found this file
+ *   hand-typing both as bare `const` assignments, invisible to Leg C's
+ *   original comparison-only scan; see product-loop-kit/specs/266-notes.md).
+ *   - The DEFAULT_MIN_TVL floor (see trust-rails.js for its current value —
+ *     never re-typed here) is applied at build time (never lowered).
  *   - Anomalous pools (total APY > APY_SANITY_LIMIT) are KEPT, not dropped —
  *     the FE's demote + ⚠-flag + force-High-risk logic stays client-side and
  *     needs the flagged pools present to do its job (058 §5: ship flags through,
@@ -47,9 +52,9 @@ const https = require('https');
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
 
-// TRUST RAILS — mirrored VERBATIM from app.js:729-730. Never relax here.
-const APY_SANITY_LIMIT = 1000;        // total APY above this = anomalous (KEPT + flagged client-side)
-const DEFAULT_MIN_TVL = 100000;     // $100K floor
+// TRUST RAILS — derived from trust-rails.js (app.js's own canonical values),
+// never hand-typed here (backlog 266 operator-requested widening).
+const { APY_SANITY_LIMIT, DEFAULT_MIN_TVL, formatTvlFloor } = require('./trust-rails.js');
 
 const SCHEMA_VERSION = 1;
 
@@ -72,7 +77,7 @@ function projectPool(pool) {
   return out;
 }
 
-/** The rail: $10M TVL floor applied upstream, anomalous pools KEPT. */
+/** The rail: DEFAULT_MIN_TVL floor applied upstream, anomalous pools KEPT. */
 function isRailedIn(pool) {
   return (Number(pool.tvlUsd) || 0) >= DEFAULT_MIN_TVL;
 }
@@ -300,8 +305,9 @@ async function main() {
 
   // 112: also emit a $1000-floored RAW-pool transient (full fields preserved,
   // a provable superset of every pool the 3 SEO generators consume) so ONE CI
-  // fetch feeds the committed $10M snapshot AND all three generators. Scratch
-  // path only — never committed/served (076 out-isolation lesson).
+  // fetch feeds the committed DEFAULT_MIN_TVL-floored snapshot AND all three
+  // generators. Scratch path only — never committed/served (076 out-isolation
+  // lesson).
   if (args.seoOut) {
     const seoPools = pools.filter(p => (Number(p && p.tvlUsd) || 0) >= 1000);
     fs.writeFileSync(path.resolve(args.seoOut), JSON.stringify(seoPools));
@@ -315,7 +321,7 @@ async function main() {
     console.log(`♻️  No data change — kept committed snapshot (${result.count} railed pools). Nothing written.`);
     return;
   }
-  console.log(`📸 Wrote snapshot: ${result.count} pools >= $${DEFAULT_MIN_TVL.toLocaleString('en-US')} TVL, ${result.bytes} bytes`);
+  console.log(`📸 Wrote snapshot: ${result.count} pools >= ${formatTvlFloor(DEFAULT_MIN_TVL)} TVL, ${result.bytes} bytes`);
   console.log(`🗂️  Wrote ${result.written} files to ${outDir}/ (${result.deleted} stale slice(s) deleted)`);
 }
 
