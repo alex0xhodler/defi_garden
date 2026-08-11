@@ -367,3 +367,106 @@ the bug was that the format could never have shown otherwise.
   `product-loop-kit/BACKLOG.md`'s pending item-259 addition and
   `product-loop-kit/specs/227-pr.md` — both operator-owned, neither edited
   this round; `product-loop-kit/LOG.md` also untouched.
+
+## Verifier round 2 — two non-blocking fixes
+
+Round 2 verifier PASSED item 227 but found two non-blocking honesty
+defects in the item's own new code — both fixed here at the verifier's own
+one-line prescription, no scope creep.
+
+**Defect 1 — `/api/forever-number` mis-attributed a float-overflow
+non-finite result to the rate-must-be-positive branch.** `edge/api-core.js`
+built `notFinanceableReason` from a single ternary keyed only on
+`financeable`, so ANY non-finite `foreverNumber(monthly, apyPct)` — whether
+because `apyPct <= 0` (planner.js:164's explicit `Infinity` return) or
+because a valid positive rate produced a `monthly*12/rate` that overflowed
+float range — got the same "rate must be > 0" sentence. `GET
+/api/forever-number?monthly=1e307&apy=1` is the concrete repro: `apy=1` is
+positive and valid, yet the old code said the opposite. Fixed by splitting
+the ternary on `apyPct <= 0` (the branch `foreverNumber` itself keys on,
+per `planner.js:163-165`) — the `apyPct <= 0` arm keeps the byte-identical
+original sentence; the new arm (reached only when `apyPct > 0` AND the
+result is still non-finite, i.e. genuine overflow) says the capital figure
+exceeds the representable number range and explicitly states the rate
+itself is positive and valid. `foreverNumber` and how it is called are
+byte-unchanged — this is a `notFinanceableReason` string-attribution fix
+only, nothing math-bearing moved.
+
+**Defect 2 — `edge/API.md` overclaimed "every response" carries a `rails`
+object when the `OPTIONS` 204 preflight is body-less and therefore
+carries no body at all, let alone a rails object.** Grepped for every
+instance of the same overbroad phrasing across the `edge/` tree (excluding
+`product-loop-kit/specs/227.md`, which is operator-owned and out of
+bounds per the task): found it twice in `edge/API.md` (the intro
+paragraph and rule 3 of "The rails (non-negotiable)") and once in
+`edge/api-core.js`'s header comment on `buildRailsBlock`. All three now
+read "every response **with a body**"; rule 3 in `API.md` additionally
+gets a one-line parenthetical pointing at the `OPTIONS` 204 case
+immediately below it (already correctly documented at `API.md:58-61`, just
+not cross-referenced from the claim it contradicted). `edge/api-core.js`'s
+other "every path, success or error" comment (on `handleApiRequest`
+itself) was left alone — it was already correctly scoped, since
+`handleApiRequest` is never invoked for `OPTIONS` (that's dispatched in
+`edge/agent-log.mjs` before `api-core.js` is ever reached), so every path
+through that specific function genuinely does return a body.
+
+### Tests added (`test_api_worker.js`, §G and §H2)
+
+- Two overflow inputs (`monthly=1e307&apy=1`, the reported repro, plus an
+  independently-derived second case `monthly=1e300&apy=1e-10`): assert
+  `financeable: false`, `foreverNumber: null`, a non-empty
+  `notFinanceableReason`, and — the actual regression guard — that the
+  reason does NOT match `/rate must be > 0/` or reuse the rate<=0 sentence
+  verbatim. Query strings are written as literal text
+  (`'monthly=1e307&apy=1'`), not built via template-literal number
+  interpolation — `String(1e307)` renders `"1e+307"`, and
+  `URLSearchParams` decodes the `+` as a space, silently breaking the
+  repro; this was caught by the first test run (see non-vacuity below).
+- The existing `apy=0` / `apy=-5` cases in the same `forEach` block gained
+  a new positive assertion — `/rate must be > 0/.test(reason)` — so the
+  suite proves the branch split BOTH ways: the genuine rate<=0 cases still
+  get the old sentence, the overflow cases get the new one, in the same
+  test run.
+- `H2` (`OPTIONS /api/pools`): added `eq(res.body, null, ...)` and
+  `eq(await res.text(), '', ...)` to pin the corrected doc claim to actual
+  Worker behavior — the 204 preflight really has no body for a rails
+  object to live in.
+
+### VERIFICATION — round 2
+
+- `node test_api_worker.js` → `test_api_worker.js: 742/742 assertions
+  passed` (up from 724/724 pre-round-2; +18 assertions from the two new
+  overflow-input tests, the two new rate<=0 positive-attribution
+  assertions, and the two new 204-body assertions).
+- `node run-tests.js --lane=plain --timeout=120` → `TOTAL pass=54 fail=2
+  timeout=0 total=56`. The 2 failures (`test_translations_number_format.js`,
+  `test_vercelignore.js`) are the same pre-existing failures documented in
+  round 1's notes above; untouched this round.
+- Non-vacuity on the branch split, exactly as directed: recorded
+  `md5sum edge/api-core.js` = `a5f9464415c1069aab33afea6422774d` on the
+  fixed file; reverted the `apyPct <= 0` split back to the single
+  unconditional sentence; `node test_api_worker.js` → RED, failing exactly
+  at the new "must NOT falsely claim the rate is non-positive" assertion
+  for `monthly=1e307&apy=1` (`AssertionError`, `actual: false, expected:
+  true`), with the offending (correctly-old, incorrectly-attributed)
+  message printed in the failure text; restored the file from the saved
+  fixed copy; `md5sum edge/api-core.js` = `a5f9464415c1069aab33afea6422774d`
+  again — byte-identical; `node test_api_worker.js` → GREEN,
+  `742/742 assertions passed`.
+- `git diff --stat -- app.js PoolDetail.js planner.js home.html plan.html
+  style.css translations.js` → empty. No product render path touched this
+  round either. No `package.json` change (no dependency added).
+- Files touched this round: `edge/api-core.js` (the `notFinanceableReason`
+  branch split; the `buildRailsBlock` header-comment scoping fix),
+  `edge/API.md` (the two "every response" → "every response with a body"
+  corrections), `test_api_worker.js` (overflow-input tests, rate<=0
+  positive-attribution assertions, 204-no-body assertions). Untouched:
+  `edge/DEPLOY.md`, `edge/agent-log.mjs`, `edge/agent-log-core.js`,
+  `edge/schema.sql`, `edge/wrangler.toml`, `product-loop-kit/specs/227.md`
+  (operator-owned, out of bounds per the task).
+- Unrelated to this round's diff, observed but not caused or reverted:
+  `product-loop-kit/BACKLOG.md`'s item-227 row and `product-loop-kit/LOG.md`
+  picked up a "SHIPPED" status/log entry for 227 during this session,
+  consistent with the outcome-loop's own bookkeeping (`CLAUDE.md`'s
+  "Outcome loop" section) rather than anything this task's two fixes
+  touched — neither file is in the file list above.
