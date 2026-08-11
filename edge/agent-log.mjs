@@ -124,10 +124,18 @@ const API_CORS_HEADERS = {
 };
 
 // In-isolate memo (module-level — persists for the isolate's lifetime,
-// across requests, exactly like a normal Worker global). Cleared implicitly
-// by TTL expiry, never by a failed fetch (a stale-but-present memo is
-// preferred over hammering the upstream on every failure — the NEXT
-// request past the TTL will retry). `__resetPoolsMemoForTests` exists ONLY
+// across requests, exactly like a normal Worker global). NOT cleared by a
+// failed fetch — a stale entry, if any, is simply left sitting in
+// `poolsMemo` untouched — but it is also NEVER served once its TTL has
+// elapsed: the freshness check above is a strict `< POOLS_MEMO_TTL_MS`, so
+// once POOLS_CACHE_TTL_SECONDS (300s) pass since the last successful fetch,
+// every subsequent request re-fetches upstream regardless of whether a
+// stale value is sitting in `poolsMemo`. There is no stale-serving fallback:
+// during a sustained upstream outage, every request past the TTL hits
+// upstream itself and gets its own 503 (Cloudflare's edge cache in front of
+// the upstream fetch, `cf: { cacheTtl, cacheEverything }`, may still absorb
+// some of that — but this in-isolate memo specifically does not).
+// `__resetPoolsMemoForTests` exists ONLY
 // so test_api_worker.js can exercise "fetch succeeds" and "fetch fails"
 // scenarios back-to-back within one process without one polluting the
 // other via this shared module-level state (Node's ESM loader caches this
@@ -175,14 +183,21 @@ async function handleApi(request, url, env, ctx) {
     return new Response(null, { status: 204, headers: API_CORS_HEADERS });
   }
 
-  const responseHeaders = Object.assign(
-    {
-      'Content-Type': 'application/json; charset=utf-8',
-      'Cache-Control': 'public, max-age=' + POOLS_CACHE_TTL_SECONDS,
-      'X-Defi-Garden-Api-Version': apiCore.API_VERSION,
-    },
-    API_CORS_HEADERS
-  );
+  // `Cache-Control` depends on the eventual status: a 5xx (upstream
+  // unavailable, or the internal-error fallback below) is an OUTAGE answer,
+  // not a stable one, and must never be publicly cacheable — a CDN caching
+  // "please try again shortly" for 5 minutes would keep serving it long
+  // after the outage ends. 2xx/4xx keep the existing 300s public caching.
+  function headersFor(status) {
+    return Object.assign(
+      {
+        'Content-Type': 'application/json; charset=utf-8',
+        'Cache-Control': status >= 500 ? 'no-store' : ('public, max-age=' + POOLS_CACHE_TTL_SECONDS),
+        'X-Defi-Garden-Api-Version': apiCore.API_VERSION,
+      },
+      API_CORS_HEADERS
+    );
+  }
 
   let pools;
   try {
@@ -195,18 +210,40 @@ async function handleApi(request, url, env, ctx) {
         'served from stale/fake data.',
       rails: apiCore.buildRailsBlock(),
     };
-    const errRes = new Response(JSON.stringify(body), { status: 503, headers: responseHeaders });
+    const errRes = new Response(JSON.stringify(body), { status: 503, headers: headersFor(503) });
     try { logAgentRead(request, errRes, env, ctx); } catch (_e) { /* never break serving — see logAgentRead's own header note */ }
     return errRes;
   }
 
-  const result = apiCore.handleApiRequest({
-    pathname: url.pathname,
-    searchParams: url.searchParams,
-    pools: pools,
-  });
+  // Defense in depth (verifier round 1, item 227): `apiCore.handleApiRequest`
+  // is guarded internally against the one input class known to throw (a
+  // malformed `:id` percent-escape — see api-core.js's decode guard), but
+  // this try/catch exists so that literally NOTHING thrown by the handler,
+  // known or not-yet-discovered, can ever escape `fetch()` unhandled. An
+  // uncaught throw here previously meant an empty-body, non-JSON response
+  // straight out of the Worker (a Cloudflare 1101 error page in production)
+  // — the one thing this API's whole `rails`-on-every-response contract
+  // promises never happens.
+  let result;
+  try {
+    result = apiCore.handleApiRequest({
+      pathname: url.pathname,
+      searchParams: url.searchParams,
+      pools: pools,
+    });
+  } catch (_err) {
+    result = {
+      status: 500,
+      body: {
+        error: 'internal_error',
+        message: 'This API handler failed unexpectedly while answering this request. This should never ' +
+          'happen and never fabricates or omits the rails block below — please report it if you see it.',
+        rails: apiCore.buildRailsBlock(),
+      },
+    };
+  }
 
-  const apiResponse = new Response(JSON.stringify(result.body), { status: result.status, headers: responseHeaders });
+  const apiResponse = new Response(JSON.stringify(result.body), { status: result.status, headers: headersFor(result.status) });
 
   // 227 acceptance: "Keep the existing agent-read logging behavior working
   // for /api paths too." classifyRequest() already classifies every /api

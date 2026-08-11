@@ -50,8 +50,11 @@ Always read the actual response's `rails` block rather than hardcoding these
 
 ## Caching / CORS
 
-- Every `/api/*` response: `Cache-Control: public, max-age=300`,
-  `Access-Control-Allow-Origin: *`, `X-Defi-Garden-Api-Version: 0.1.0`.
+- Every `/api/*` response: `Access-Control-Allow-Origin: *`,
+  `X-Defi-Garden-Api-Version: 0.1.0`, and a `Cache-Control` that depends on
+  status — `public, max-age=300` for 2xx/4xx, `no-store` for any 5xx (503,
+  500 — see those sections below): an outage answer must never be publicly
+  cached past the outage.
 - `OPTIONS /api/*` → `204 No Content` with
   `Access-Control-Allow-Methods: GET, OPTIONS` and
   `Access-Control-Allow-Headers: Content-Type` (CORS preflight; generous by
@@ -207,9 +210,38 @@ returns:
 }
 ```
 
-This is the ONLY case where this API cannot answer at all — it never falls
-back to the pass-through/origin path (that would mean an `/api/*` request
-receiving the STATIC SITE's HTML, not JSON) and never fabricates pool data.
+This response is never publicly cached: `Cache-Control: no-store` (unlike the
+`public, max-age=300` every other `/api/*` response carries), since an outage
+answer must not keep being served after the outage ends.
+
+### `500` — internal handler error (defense in depth)
+
+If the routing/railing logic in `edge/api-core.js` throws for any reason
+(a defensive catch — the one known-throwing input, a malformed `/api/pools/:id`
+percent-escape, is guarded directly inside `api-core.js` and never reaches
+this branch), `edge/agent-log.mjs`'s `handleApi()` catches it and returns:
+
+```json
+{
+  "error": "internal_error",
+  "message": "This API handler failed unexpectedly while answering this request. ...",
+  "rails": { "...": "..." }
+}
+```
+
+also with `Cache-Control: no-store`. Together with the 503 above, these are
+the only two cases where this API cannot give a normal answer — both still
+return real JSON with a `rails` block, both are logged like any other `/api`
+request, and neither ever falls back to the pass-through/origin path (that
+would mean an `/api/*` request receiving the STATIC SITE's HTML, not JSON)
+or fabricates pool data. `handleApiRequest` itself never throws by
+construction (every input it's documented to accept, including hostile
+`:id` segments, resolves to `{ status, body }`); this 500 branch exists as a
+second line of defense so that even an undiscovered future bug in the
+handler cannot escape `fetch()` as an unhandled exception (which, on
+Cloudflare, would render as an opaque 1101 error page with no body — the
+one thing this API's "every response carries `rails`" contract exists to
+rule out).
 
 ## What this API deliberately does NOT do (v0)
 

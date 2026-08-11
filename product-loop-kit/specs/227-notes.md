@@ -214,3 +214,156 @@ any write path/auth/pricing/x402 (item 234), MCP tool exposure (item 228,
 explicitly "build AFTER 227"). The actual Cloudflare deploy is human-owned
 (credentials), exactly like item 224's — `edge/DEPLOY.md` §7 documents the
 (unchanged) command and how to verify `/api/health` afterward.
+
+## Verifier round 1 — findings and fixes
+
+### BLOCKING: `/api/pools/<malformed-percent-id>` threw an unhandled `URIError`
+
+**Finding.** `edge/api-core.js:492` called `decodeURIComponent(poolIdMatch[1])`
+unguarded, and `handleApi` in `edge/agent-log.mjs` wrapped only `getPools()`
+in try/catch — the `apiCore.handleApiRequest(...)` call itself was bare. The
+verifier reproduced a thrown `URIError: URI malformed` for `GET
+/api/pools/100%`, `GET /api/pools/%`, and `GET /api/pools/%E0%A4%A` against
+the plain module, the real `edge/agent-log.mjs`, and the esbuild-bundled
+Worker — an unhandled exception escaping `worker.fetch()` renders as a
+Cloudflare 1101 error page with no JSON body and no `rails` object,
+falsifying the spec's "every response, including 404/503, contains a
+`rails` object" claim (this API's core differentiator) as well as
+`edge/API.md`'s "This is the ONLY case where this API cannot answer at all"
+(that claim named only the 503 case).
+
+**Fix, at the weak-predicate altitude RAZOR.md calls for** ("no input to
+`handleApiRequest` may produce anything other than `{status, body}` where
+`body` carries a rails block" — not "reject the string `100%`"):
+
+1. `edge/api-core.js` (the `POOL_ID_RE` branch of `handleApiRequest`):
+   `decodeURIComponent` is now wrapped in try/catch; on a `URIError` it falls
+   back to the raw, still-percent-encoded segment rather than throwing. That
+   raw segment can never collide with a real DefiLlama pool id (those are
+   plain UUID-shaped strings, never containing `%`), so it flows straight
+   into `handlePoolById`'s existing 404-with-rails path — no new branch, no
+   new response shape, the standard not-found response.
+2. `edge/agent-log.mjs`'s `handleApi()`: defence in depth, independent of
+   fix 1. The `apiCore.handleApiRequest(...)` call is now itself wrapped in
+   try/catch; ANY throw from the handler (the known one, or an undiscovered
+   future one) is converted to a `500` JSON body carrying
+   `error: "internal_error"` and the same `rails` block every other response
+   carries, logged as an agent read exactly like every other `/api` response,
+   never re-thrown. The pre-existing pass-through path (everything that is
+   NOT `/api` or `/api/*`) is untouched — verified by the existing `H5`
+   Response-identity test, which still passes unchanged.
+3. `edge/API.md:210-212`: corrected. The "ONLY case this API cannot answer
+   at all" sentence now names both the 503 (upstream unavailable) and the
+   new 500 (internal handler error, defense in depth) cases, and a new `500`
+   subsection documents the shape. The top-of-file "Caching / CORS" summary
+   was also corrected — it previously stated every `/api/*` response carries
+   `Cache-Control: public, max-age=300` unconditionally, which stopped being
+   true the moment 5xx responses became `no-store` (see the Cache-Control
+   finding below); it now states the status-dependent rule.
+
+**Non-vacuity — the decode guard specifically** (see the verification
+section below for the full command sequence and output):
+
+- Before (guard present): `md5sum edge/api-core.js` →
+  `e46a321739c09a44625be0563985dd35`
+- Mutated (guard removed, reverted to the bare
+  `return handlePoolById(poolList, decodeURIComponent(poolIdMatch[1]));`):
+  `md5sum edge/api-core.js` → `c5934aff04860caf7f1b5f2e58d49b35`
+- `node test_api_worker.js` → **RED**, exit code 1, at the very first hostile
+  segment in the new population:
+  ```
+  AssertionError [ERR_ASSERTION]: handleApiRequest(trailing-percent) must never throw (threw: URI malformed)
+      at ok (test_api_worker.js:44:42)
+      at Object.<anonymous> (test_api_worker.js:395:3)
+  ```
+- Restored: `md5sum edge/api-core.js` → `e46a321739c09a44625be0563985dd35`
+  (byte-identical to "before")
+- `node test_api_worker.js` → **GREEN**: `test_api_worker.js: 724/724
+  assertions passed`
+
+The `edge/agent-log.mjs` try/catch (fix 2) is exercised independently in
+`test_api_worker.js` §H8: `apiCore.handleApiRequest` is monkey-patched at
+runtime to throw a synthetic error (proving the same object reference is
+shared between the test's `require()` and the Worker's `import` of the same
+CJS file — Node caches a CJS module by resolved path regardless of which
+loader touches it first), `worker.fetch()` is asserted to return a `500`
+with a `rails` block and `Cache-Control: no-store` rather than throwing or
+propagating, the original function is restored, and a follow-up request is
+asserted to succeed normally again (proving the restore itself, not just the
+try/catch, works).
+
+### Non-blocking finding 1 — untrue comment on the pools memo
+
+**Finding.** The comment above `poolsMemo` in `edge/agent-log.mjs` claimed
+"a stale-but-present memo is preferred over hammering the upstream on every
+failure." That is false: `getPools()`'s freshness check is a strict `< TTL`,
+so once the 300s TTL elapses the stale memo is never read again regardless
+of whether a fresh fetch succeeds — during a sustained upstream outage that
+began after the last successful fetch, every request past the TTL hits
+upstream itself and gets its own 503. There is no stale-serving fallback in
+this file today.
+
+**Fix.** Per the task's own preference ("prefer FIXING THE COMMENT — smallest
+change, no behavior change — unless stale-serving is clearly better"): the
+comment was corrected to describe the actual behavior (memo is left
+untouched on failure but never re-served past its TTL; no stale-serving
+fallback exists). No behavior changed — `getPools()`'s logic is byte-for-byte
+what it was.
+
+### Non-blocking finding 2 — 503/500 responses were publicly cacheable
+
+**Finding.** `handleApi()` built its response headers once, before the
+eventual status was known, hardcoding `Cache-Control: public,
+max-age=300` — including on the 503 `upstream_unavailable` path. A CDN or
+client honoring that header would keep serving "please try again shortly"
+for 5 minutes after the actual outage ended.
+
+**Fix.** `headersFor(status)` now branches: `status >= 500` →
+`Cache-Control: no-store`; otherwise (2xx, 4xx) → the existing `public,
+max-age=300`, unchanged. Both the 503 (upstream unavailable) and the new 500
+(internal error, see above) paths now use this. `test_api_worker.js` asserts
+`Cache-Control: no-store` on both the 503 case (`H4`) and the 500 case
+(`H8`).
+
+### Non-blocking finding 3 — `test_api_worker.js:510` printed `${passed}/${passed}`
+
+**Finding.** The final summary line was structurally incapable of showing a
+shortfall: `passed` was compared to itself.
+
+**Fix.** A `total` counter now increments in `ok()`/`eq()` *before* the
+underlying `assert` call (so an assertion that throws still counts toward
+`total`, just not toward `passed`), and both the success path and the
+`.catch` failure path print `${passed}/${total}` (the failure path is new —
+previously it printed no count at all). On a clean run the two numbers are
+still equal, by construction, since nothing failed — that was never the bug;
+the bug was that the format could never have shown otherwise.
+
+## VERIFICATION — round 1
+
+- `node test_api_worker.js` → `test_api_worker.js: 724/724 assertions
+  passed` (up from 609/609 pre-round-1; +115 assertions from the new hostile
+  pool-id population tests §I/§H7/§H8 and the two new Cache-Control checks).
+- `node run-tests.js --lane=plain --timeout=120` → `TOTAL pass=54 fail=2
+  timeout=0 total=56`. The 2 failures (`test_translations_number_format.js`,
+  `test_vercelignore.js`) are the same pre-existing failures the original
+  build's notes documented as confirmed-on-main via `git stash -u`; nothing
+  else touched, per the round-1 task's own instruction to ignore them.
+- `git diff --stat -- app.js PoolDetail.js planner.js home.html plan.html
+  style.css translations.js` → empty. No product render path touched.
+- No new npm dependency: `package.json` unchanged this round.
+- `npx esbuild edge/agent-log.mjs --bundle ...` sanity build was **skipped**:
+  esbuild is not present in `node_modules/.bin` or anywhere else on this
+  machine, and `npx` refuses to fetch it without network access — exactly
+  the "skip if esbuild is not already available offline" case the task
+  anticipated. Not attempted with a workaround (would have required adding
+  a dependency, which is out of bounds).
+- Files touched this round: `edge/api-core.js` (decode guard),
+  `edge/agent-log.mjs` (defense-in-depth try/catch, status-dependent
+  Cache-Control, corrected memo comment), `edge/API.md` (corrected 503/500
+  claims and the caching summary), `test_api_worker.js` (hostile pool-id
+  population tests via both `api-core.js` directly and the real Worker
+  `fetch()`, the `apiCore.handleApiRequest`-throws defense-in-depth test,
+  5xx `Cache-Control` assertions, and the passed/total print fix). Untouched:
+  `product-loop-kit/BACKLOG.md`'s pending item-259 addition and
+  `product-loop-kit/specs/227-pr.md` — both operator-owned, neither edited
+  this round; `product-loop-kit/LOG.md` also untouched.

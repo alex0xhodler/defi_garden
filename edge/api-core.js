@@ -470,7 +470,10 @@ const POOL_ID_RE = /^\/api\/pools\/([^/]+)$/;
  * The one exported entry point. Pure function of its three inputs — no
  * fetch, no Date.now() outside buildHealth's documented exception, no
  * mutation of `pools`. Always returns `{ status, body }`; `body` is a plain
- * JSON-serializable object on every path, success or error.
+ * JSON-serializable object on every path, success or error — including a
+ * malformed/hostile `:id` segment on `/api/pools/:id` (guarded above), which
+ * is the one input class that used to throw a `URIError` out of this
+ * function before it was caught here (see the guard's comment).
  */
 function handleApiRequest(request) {
   const req = request || {};
@@ -489,7 +492,23 @@ function handleApiRequest(request) {
   }
   const poolIdMatch = POOL_ID_RE.exec(path);
   if (poolIdMatch) {
-    return handlePoolById(poolList, decodeURIComponent(poolIdMatch[1]));
+    // `decodeURIComponent` throws `URIError: URI malformed` on a bare "%",
+    // an incomplete percent-escape, or an invalid hex pair (e.g. "100%",
+    // "%zz", "%E0%A4%A") — and `new URL(request.url).pathname` (the caller's
+    // usual source for `pathname`) does NOT reject or decode these; it
+    // preserves them verbatim, so a hostile/malformed id routinely reaches
+    // this line. Falling back to the raw, still-percent-encoded segment on a
+    // decode failure never risks matching a real pool id (DefiLlama pool ids
+    // are plain UUID-shaped strings that never contain "%"), so this simply
+    // flows into handlePoolById's existing 404-with-rails path below instead
+    // of throwing out of handleApiRequest.
+    let poolId;
+    try {
+      poolId = decodeURIComponent(poolIdMatch[1]);
+    } catch (_err) {
+      poolId = poolIdMatch[1];
+    }
+    return handlePoolById(poolList, poolId);
   }
   if (path === '/api/forever-number') {
     return handleForeverNumber(searchParams, poolList);

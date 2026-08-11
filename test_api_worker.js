@@ -40,8 +40,9 @@ const path = require('path');
 const { pathToFileURL } = require('url');
 
 let passed = 0;
-function ok(cond, msg) { assert.ok(cond, msg); passed++; }
-function eq(a, b, msg) { assert.strictEqual(a, b, msg); passed++; }
+let total = 0;
+function ok(cond, msg) { total++; assert.ok(cond, msg); passed++; }
+function eq(a, b, msg) { total++; assert.strictEqual(a, b, msg); passed++; }
 
 const ROOT = __dirname;
 const EDGE_DIR = path.join(ROOT, 'edge');
@@ -349,6 +350,74 @@ eq(apiCore.handleApiRequest({ pathname: '/api/forever-number', searchParams: new
 eq(apiCore.handleApiRequest({ pathname: '/api/forever-number', searchParams: new URLSearchParams('monthly=20&apy=notanumber'), pools: POPULATION }).status, 400, 'non-numeric apy -> 400');
 
 // ===========================================================================
+// I. Hostile/malformed `/api/pools/:id` segments (verifier round 1, item
+//    227). The predicate under test is the WEAK one RAZOR.md calls for:
+//    "no input to handleApiRequest may produce anything other than
+//    { status, body } where body carries a rails block" — never "reject the
+//    string 100%". A population, not a single repro string; and both the
+//    plain api-core.js entry point AND the real edge/agent-log.mjs fetch()
+//    are driven through it, since the original defect required BOTH layers
+//    (an unguarded decodeURIComponent, and a try/catch that only wrapped
+//    getPools()) to actually crash the Worker.
+// ===========================================================================
+console.log('\nI. hostile/malformed /api/pools/:id segments');
+
+const HOSTILE_POOL_ID_SEGMENTS = [
+  // The three exact strings the verifier reproduced the URIError with.
+  { label: 'trailing-percent', segment: '100%' },
+  { label: 'bare-percent', segment: '%' },
+  { label: 'incomplete-multibyte-percent', segment: '%E0%A4%A' },
+  // The rest of the population per the task's minimum list.
+  { label: 'invalid-hex-percent', segment: '%zz' },
+  { label: 'double-percent', segment: '%%' },
+  { label: 'very-long-id', segment: 'x'.repeat(8192) },
+  { label: 'embedded-newline', segment: 'abc\ndef' },
+  { label: 'null-byte-encoded', segment: '%00' },
+  { label: 'null-char-literal', segment: 'abc\u0000def' },
+  { label: 'emoji', segment: '\u{1F600}' },
+  { label: 'dot-dot', segment: '..' },
+  { label: 'already-decoded-real-id', segment: POPULATION[0].pool },
+];
+ok(HOSTILE_POOL_ID_SEGMENTS.length >= 10, 'sanity: hostile pool-id population has at least the 10 minimum members the task asked for');
+
+// I1. Core level (edge/api-core.js), pathname built directly — bypasses
+// URL/new URL() entirely, so this also covers inputs a browser's URL parser
+// would normalize away (e.g. "..") but a hand-built Request-like object
+// passed straight to handleApiRequest would not.
+for (const { label, segment } of HOSTILE_POOL_ID_SEGMENTS) {
+  let threw = null;
+  let result;
+  try {
+    result = apiCore.handleApiRequest({ pathname: '/api/pools/' + segment, searchParams: new URLSearchParams(), pools: POPULATION });
+  } catch (err) {
+    threw = err;
+  }
+  ok(!threw, `handleApiRequest(${label}) must never throw (threw: ${threw && threw.message})`);
+  ok(result && typeof result.status === 'number', `handleApiRequest(${label}) returns a numeric status`);
+  ok(result && result.body && typeof result.body === 'object', `handleApiRequest(${label}) returns a plain object body`);
+  ok(result && result.body && result.body.rails && typeof result.body.rails.apySanityLimit === 'number', `handleApiRequest(${label}) body carries a rails block`);
+}
+console.log(`  I1: ${HOSTILE_POOL_ID_SEGMENTS.length}/${HOSTILE_POOL_ID_SEGMENTS.length} hostile segments handled without a throw, all carrying rails, via api-core.js directly`);
+
+// The already-decoded real id must actually resolve (proves the guard's
+// try/catch doesn't accidentally swallow the NORMAL, successful path too).
+{
+  const real = apiCore.handleApiRequest({ pathname: '/api/pools/' + POPULATION[0].pool, searchParams: new URLSearchParams(), pools: POPULATION });
+  eq(real.status, 200, 'a normal, already-decoded real pool id still resolves 200 through the same code path');
+  eq(real.body.pool, POPULATION[0].pool, 'the resolved pool is the one that was requested');
+}
+
+// Non-vacuity for the population itself: at least the three verifier-repro
+// strings must be ones where decodeURIComponent actually throws — otherwise
+// "the guard never fires" and I1 would pass vacuously.
+const VERIFIER_REPRO_SEGMENTS = ['100%', '%', '%E0%A4%A'];
+for (const s of VERIFIER_REPRO_SEGMENTS) {
+  let decodeThrew = false;
+  try { decodeURIComponent(s); } catch (_e) { decodeThrew = true; }
+  ok(decodeThrew, `sanity: decodeURIComponent(${JSON.stringify(s)}) must itself throw — otherwise this isn't testing the guard at all`);
+}
+
+// ===========================================================================
 // H. The real Worker (edge/agent-log.mjs): /api dispatch, CORS/OPTIONS,
 //    503 on upstream failure, agent-read logging for /api paths, and the
 //    non-/api byte-parity identity proof.
@@ -468,6 +537,7 @@ async function runWorkerTests() {
     const body = await res.json();
     eq(body.error, 'upstream_unavailable', '503 body carries error:"upstream_unavailable"');
     assertRailsBlock(body, '503 upstream_unavailable');
+    eq(res.headers.get('cache-control'), 'no-store', 'verifier round 1: a 503 response must NOT be publicly cacheable (was public, max-age=300 before the fix)');
     eq(calls.length, 1, 'the 503 itself is still logged as an agent read');
     eq(calls[0].args[6], 503, 'agent_reads row records the real 503 status');
     eq(calls[0].args[8], 'api', '503 agent_reads row is still classified path_class "api"');
@@ -502,15 +572,87 @@ async function runWorkerTests() {
     ok(res !== sentinel, '/api/health must NEVER return the pass-through sentinel Response — it is always answered from api-core.js');
   }
 
+  console.log('\nH7. hostile/malformed /api/pools/:id segments driven through the REAL Worker fetch() — never a throw, always JSON with rails');
+  {
+    workerModule.__resetPoolsMemoForTests();
+    setFetch(makeWorkerFetchStub({ poolsBody: POPULATION.slice(0, 50) }));
+    const { db } = makeFakeDB();
+    for (const { label, segment } of HOSTILE_POOL_ID_SEGMENTS) {
+      const { ctx, waited } = makeFakeCtx();
+      // Built directly as a URL string (not via encodeURIComponent) so the
+      // literal, still-percent-escaped bytes reach `new URL(request.url)`
+      // exactly as they would from a real hostile client — this is the
+      // precise mechanism the verifier reproduced ("new URL(...).pathname
+      // preserves the bare % ... these reach the handler").
+      const req = makeRequest('https://www.defi.garden/api/pools/' + segment);
+      let threw = null, res;
+      try {
+        res = await worker.fetch(req, { DB: db }, ctx);
+      } catch (err) {
+        threw = err;
+      }
+      await Promise.allSettled(waited);
+      ok(!threw, `worker.fetch(/api/pools/${label}) must never throw (threw: ${threw && threw.message})`);
+      ok(res && typeof res.status === 'number' && res.status >= 200 && res.status < 600, `worker.fetch(/api/pools/${label}) returns a real HTTP response`);
+      let body = null, parseThrew = null;
+      try { body = await res.json(); } catch (err) { parseThrew = err; }
+      ok(!parseThrew, `worker.fetch(/api/pools/${label}) response body must be valid JSON (parse error: ${parseThrew && parseThrew.message})`);
+      ok(body && body.rails && typeof body.rails.apySanityLimit === 'number', `worker.fetch(/api/pools/${label}) response body carries a rails block`);
+    }
+    console.log(`  H7: ${HOSTILE_POOL_ID_SEGMENTS.length}/${HOSTILE_POOL_ID_SEGMENTS.length} hostile segments answered with real JSON+rails through the real Worker, no throw`);
+  }
+
+  console.log('\nH8. defense in depth: a throwing apiCore.handleApiRequest must not escape worker.fetch() — 500 JSON with rails, non-cacheable');
+  {
+    workerModule.__resetPoolsMemoForTests();
+    setFetch(makeWorkerFetchStub({ poolsBody: POPULATION.slice(0, 5) }));
+    const { db, calls } = makeFakeDB();
+    const { ctx, waited } = makeFakeCtx();
+    const originalHandleApiRequest = apiCore.handleApiRequest;
+    apiCore.handleApiRequest = function () {
+      throw new Error('synthetic handler failure — verifier round 1 defense-in-depth test');
+    };
+    let threw = null, res;
+    try {
+      const req = makeRequest('https://www.defi.garden/api/pools');
+      res = await worker.fetch(req, { DB: db }, ctx);
+    } catch (err) {
+      threw = err;
+    } finally {
+      apiCore.handleApiRequest = originalHandleApiRequest;
+    }
+    await Promise.allSettled(waited);
+    ok(!threw, `a throwing handleApiRequest must not escape worker.fetch() (threw: ${threw && threw.message})`);
+    eq(res.status, 500, 'a thrown handler error surfaces as a JSON 500, not an unhandled exception (previously: a Cloudflare 1101 error page)');
+    eq(res.headers.get('cache-control'), 'no-store', 'a 500 internal_error response must not be publicly cacheable');
+    const body = await res.json();
+    eq(body.error, 'internal_error', '500 body carries error:"internal_error"');
+    assertRailsBlock(body, '500 internal_error');
+    eq(calls.length, 1, 'the 500 itself is still logged as an agent read, same discipline as the 503 path');
+    eq(calls[0].args[6], 500, 'agent_reads row records the real 500 status');
+    // Restored correctly: the NEXT normal request must succeed again.
+    const { ctx: ctx2, waited: waited2 } = makeFakeCtx();
+    const req2 = makeRequest('https://www.defi.garden/api/pools');
+    const res2 = await worker.fetch(req2, { DB: db }, ctx2);
+    await Promise.allSettled(waited2);
+    eq(res2.status, 200, 'after restoring the original handleApiRequest, the next request succeeds normally again');
+  }
+
   restoreFetch();
 }
 
 runWorkerTests()
   .then(() => {
-    console.log(`\ntest_api_worker.js: ${passed}/${passed} assertions passed`);
+    // `passed` and `total` are incremented together by ok()/eq() (total
+    // first, then passed only once the assertion itself didn't throw), so
+    // on a clean run they are equal by construction — this line prints the
+    // real total attempted, not a value structurally forced to mirror
+    // `passed` (verifier round 1, item 227: the old `${passed}/${passed}`
+    // could never show a shortfall even if one existed).
+    console.log(`\ntest_api_worker.js: ${passed}/${total} assertions passed`);
   })
   .catch((err) => {
-    console.error('test_api_worker.js: FAILED');
+    console.error(`test_api_worker.js: FAILED after ${passed}/${total} assertions passed`);
     console.error(err);
     process.exitCode = 1;
   });
