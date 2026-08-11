@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.15% | $10.07M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.21% | $6.2M |
-| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 5.80% | $3.91M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.36% | $6.2M |
+| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 5.94% | $3.91M |
 | [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 3.71% | $2.76M |
 | [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 8.29% | $2.76M |
 
@@ -14,7 +14,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.21%부터 8.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.36%부터 8.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.73%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -22,9 +22,9 @@ TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.21%부터 8.29%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 5.15% | 5.54% | 기본 금리 |
-| curve-dex | 0.21% | 0.47% | 인센티브 0.01% |
-| curve-dex | 5.80% | 259.57% | 인센티브 99.31% |
+| curve-dex | 5.15% | 5.53% | 기본 금리 |
+| curve-dex | 0.36% | 0.47% | 인센티브 0.01% |
+| curve-dex | 5.94% | 255.12% | 인센티브 98.99% |
 | pendle | 3.71% | 6.73% | 인센티브 42.24% |
 | pendle | 8.29% | 12.46% | 기본 금리 |
 
@@ -51,10 +51,10 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.29%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

@@ -4,7 +4,7 @@ The highest honest XAG yield right now is 78.40% on gmtrade (Solana), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7&src=seo_token) | Solana | 78.40% | $1.87M |
+| [gmtrade →](https://www.defi.garden/?pool=88435ce9-aa7c-4b3d-8016-1abf501fd6c7&src=seo_token) | Solana | 78.40% | $1.81M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XAG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.87M in total.
+1 live pool clear this page's $100K TVL floor, $1.81M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

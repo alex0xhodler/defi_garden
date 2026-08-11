@@ -1,20 +1,20 @@
 # PNKSTR DeFi Yields
 
-The highest honest PNKSTR yield right now is 31.19% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNKSTR yield right now is 29.04% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 31.19% | $561.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 1.42% | $274K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.04% | $116.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token) | Ethereum | 29.04% | $554.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 1.08% | $273K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.04% | $116.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PNKSTR shows up in 3 pools here, with rates from 0.04% to 31.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PNKSTR shows up in 3 pools here, with rates from 0.04% to 29.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,8 +22,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 31.19% | 21.90% | Base rate |
-| uniswap-v4 | 1.42% | 0.17% | Base rate |
+| uniswap-v4 | 29.04% | 22.10% | Base rate |
+| uniswap-v4 | 1.08% | 0.18% | Base rate |
 | uniswap-v4 | 0.04% | 0.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PNKSTR yield today?
 
-31.19% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+29.04% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PNKSTR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.08M in total.
+4 live pools clear this page's $100K TVL floor, $2.06M in total.
 
 ### Are these rates safe?
 
@@ -49,10 +49,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

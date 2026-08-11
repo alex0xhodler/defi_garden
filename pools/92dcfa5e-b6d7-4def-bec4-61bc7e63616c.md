@@ -2,7 +2,7 @@
 
 **Total APY:** 0.10% (0.10% Base · + 0.00% Rewards)
 
-**TVL:** $600.6K
+**TVL:** $600.9K
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ This pool's rate moves a lot: 0.10% right now vs a 0.18% 30-day average. Reward 
 
 [Start Earning on fluid-dex](https://www.fluid.io/?ref=defi.garden)
 
-Last updated August 10, 2026
+Last updated August 11, 2026

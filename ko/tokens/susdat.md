@@ -4,11 +4,11 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 19.51% | $81.43M |
+| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 19.94% | $80.64M |
 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 11.21% | $2.63M |
 | [pendle →](https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token) | Ethereum | 3.48% | $2.63M |
-| [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 13.60% | $2.44M |
 | [pendle →](https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token) | BSC | 7.19% | $2.44M |
+| [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 13.60% | $2.44M |
 | [pendle →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token) | Monad | 142.12% | $2.12M |
 | [pendle →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token) | Monad | 27.65% | $2.12M |
 
@@ -24,11 +24,11 @@ SUSDAT 풀은 여기 7개가 있고, 3개 체인에서 APY가 3.48%부터 142.12
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| saturn | 19.51% | 26.33% | 기본 금리 |
+| saturn | 19.94% | 26.27% | 기본 금리 |
 | pendle | 11.21% | 11.28% | 기본 금리 |
-| pendle | 3.48% | 3.17% | 인센티브 13.62% |
+| pendle | 3.48% | 3.16% | 인센티브 13.62% |
+| pendle | 7.19% | 8.36% | 기본 금리 |
 | pendle | 13.60% | 13.96% | 기본 금리 |
-| pendle | 7.19% | 8.38% | 기본 금리 |
 | pendle | 142.12% | 226.34% | 인센티브 2.23% |
 | pendle | 27.65% | 25.48% | 기본 금리 |
 
@@ -42,7 +42,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 142.12%예요.
 
 ### SUSDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $116.22M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $115.35M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 142.12%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
@@ -63,4 +63,4 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 142.12%예요.
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

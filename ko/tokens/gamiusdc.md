@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token) | Ethereum | 9.20% | $6.78M |
 | [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token) | Ethereum | 8.89% | $6.78M |
-| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.68% | $685.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.68% | $685.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,7 +20,7 @@ GAMIUSDC 풀은 여기 3개가 있고, 2개 체인에서 APY가 8.89%부터 10.6
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lagoon | 9.20% | 8.20% | 기본 금리 |
+| lagoon | 9.20% | 8.21% | 기본 금리 |
 | gami-labs | 8.89% | 8.49% | 기본 금리 |
 | balancer-v3 | 10.68% | 10.01% | 인센티브 83.48% |
 
@@ -47,11 +47,11 @@ DefiLlama 실시간 데이터 기준, Avalanche의 balancer-v3에서 APY 10.68%�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

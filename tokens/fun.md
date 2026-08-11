@@ -1,20 +1,20 @@
 # FUN DeFi Yields
 
-The highest honest FUN yield right now is 2.91% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FUN yield right now is 0.55% on quickswap-dex (Polygon), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b&src=seo_token) | Polygon | 0.55% | $2.44M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d&src=seo_token) | Base | 350.54% | $352.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8&src=seo_token) | Solana | 2.91% | $122.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d&src=seo_token) | Base | 324.58% | $350.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8&src=seo_token) | Solana | 1.70% | $122.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FUN shows up in 3 pools here, with rates from 0.55% to 350.54% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+FUN shows up in 3 pools here, with rates from 0.55% to 324.58% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,8 +23,8 @@ FUN shows up in 3 pools here, with rates from 0.55% to 350.54% APY across 3 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | quickswap-dex | 0.55% | 0.55% | Base rate |
-| aerodrome-slipstream | 350.54% | 852.16% | 96.65% incentives |
-| raydium-amm | 2.91% | 4.68% | Base rate |
+| aerodrome-slipstream | 324.58% | 847.87% | 97.08% incentives |
+| raydium-amm | 1.70% | 4.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FUN yield today?
 
-2.91% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.55% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many FUN pools clear the TVL floor?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

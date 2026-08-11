@@ -4,7 +4,7 @@ The highest honest AXLEUROC yield right now is 2.82% on mento-v3 (Celo), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 2.82% | $130.2K |
+| [mento-v3 →](https://www.defi.garden/?pool=facf4a31-0db6-4618-b8c5-1c4c62e743dd&src=seo_token) | Celo | 2.82% | $130.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AXLEUROC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.2K in total.
+1 live pool clear this page's $100K TVL floor, $130.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

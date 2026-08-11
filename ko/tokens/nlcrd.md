@@ -1,10 +1,10 @@
 # NLCRD 디파이 수익률
 
-현재 NLCRD의 가장 높은 정직한 수익률은 Plume Mainnet의 nest-credit에서 13.94%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NLCRD의 가장 높은 정직한 수익률은 Plume Mainnet의 nest-credit에서 16.87%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c&src=seo_token) | Plume Mainnet | 13.94% | $2.1M |
+| [nest-credit →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c&src=seo_token) | Plume Mainnet | 16.87% | $2.1M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,7 +12,7 @@
 
 ### 오늘 NLCRD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 13.94%예요.
+DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 16.87%예요.
 
 ### NLCRD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 13.
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

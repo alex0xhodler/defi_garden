@@ -1,19 +1,19 @@
 # VBUSDT DeFi Yields
 
-The highest honest VBUSDT yield right now is 3.75% on morpho-blue (Katana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBUSDT yield right now is 3.24% on morpho-blue (Katana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 1.97% | $2.02M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.75% | $1.73M |
+| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 1.88% | $2.02M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.24% | $1.74M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VBUSDT shows up in 2 pools here, with rates from 1.97% to 3.75% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VBUSDT shows up in 2 pools here, with rates from 1.88% to 3.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ VBUSDT shows up in 2 pools here, with rates from 1.97% to 3.75% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 1.97% | 4.13% | 9.89% incentives |
-| morpho-blue | 3.75% | 6.79% | Base rate |
+| yearn-finance | 1.88% | 4.13% | 9.73% incentives |
+| morpho-blue | 3.24% | 6.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VBUSDT yield today?
 
-3.75% APY on morpho-blue (Katana), based on live DefiLlama data.
+3.24% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many VBUSDT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.75M in total.
+2 live pools clear this page's $100K TVL floor, $3.76M in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

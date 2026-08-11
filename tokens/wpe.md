@@ -4,7 +4,7 @@ The highest honest WPE yield right now is 0.02% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=528328a8-1883-4732-b9fe-a2ff0471ec50&src=seo_token) | Ethereum | 0.02% | $111.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=528328a8-1883-4732-b9fe-a2ff0471ec50&src=seo_token) | Ethereum | 0.02% | $110.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.5K in total.
+1 live pool clear this page's $100K TVL floor, $110.9K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

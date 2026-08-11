@@ -1,20 +1,20 @@
 # SFRXETH 디파이 수익률
 
-현재 SFRXETH의 가장 높은 정직한 수익률은 Fraxtal의 stake-dao에서 4.89%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SFRXETH의 가장 높은 정직한 수익률은 Fraxtal의 stake-dao에서 4.94%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.57% | $69.42M |
-| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.47% | $1.97M |
-| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.89% | $286.2K |
-| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.39% | $233.2K |
-| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.39% | $214.9K |
+| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.49% | $1.98M |
+| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.94% | $286.6K |
+| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.39% | $231.7K |
+| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.39% | $213.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SFRXETH 풀은 여기 5개가 있고, 2개 체인에서 APY가 2.39%부터 4.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SFRXETH 풀은 여기 5개가 있고, 2개 체인에서 APY가 2.39%부터 4.94%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.72%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -23,8 +23,8 @@ SFRXETH 풀은 여기 5개가 있고, 2개 체인에서 APY가 2.39%부터 4.89%
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | frax-ether | 2.57% | 2.72% | 기본 금리 |
-| curve-dex | 3.47% | 3.33% | 인센티브 55.56% |
-| stake-dao | 4.89% | 4.57% | 인센티브 67.48% |
+| curve-dex | 3.49% | 3.33% | 인센티브 55.90% |
+| stake-dao | 4.94% | 4.57% | 인센티브 67.81% |
 | curve-dex | 2.39% | 2.52% | 기본 금리 |
 | convex-finance | 2.39% | 2.52% | 기본 금리 |
 
@@ -34,7 +34,7 @@ SFRXETH 풀은 여기 5개가 있고, 2개 체인에서 APY가 2.39%부터 4.89%
 
 ### 오늘 SFRXETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 4.89%예요.
+DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 4.94%예요.
 
 ### SFRXETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -51,11 +51,11 @@ DefiLlama 실시간 데이터 기준, Fraxtal의 stake-dao에서 APY 4.89%예요
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Fraxtal](https://www.defi.garden/ko/chains/fraxtal)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

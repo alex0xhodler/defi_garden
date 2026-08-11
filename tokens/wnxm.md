@@ -4,15 +4,15 @@ The highest honest WNXM yield right now is 0.08% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 0.63% | $511.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9965d9da-c995-4e31-b8de-ba431d88b16c&src=seo_token) | Ethereum | 0.78% | $511.3K |
 | [bancor-v3 →](https://www.defi.garden/?pool=f3545a70-1d75-4a45-837b-61a870261bcc&src=seo_token) | Ethereum | 0.01% | $344.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.08% | $220K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=74529548-15e1-461d-9a54-8d95a0a98ee1&src=seo_token) | Ethereum | 0.08% | $216.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WNXM shows up in 3 pools here, with rates from 0.01% to 0.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WNXM shows up in 3 pools here, with rates from 0.01% to 0.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.63% | 5.58% | Base rate |
+| uniswap-v3 | 0.78% | 5.59% | Base rate |
 | bancor-v3 | 0.01% | 0.01% | Base rate |
 | uniswap-v2 | 0.08% | 0.46% | Base rate |
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WNXM pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.81M in total.
+4 live pools clear this page's $100K TVL floor, $1.79M in total.
 
 ### Are these rates safe?
 
@@ -49,10 +49,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

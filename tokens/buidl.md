@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
@@ -69,4 +69,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

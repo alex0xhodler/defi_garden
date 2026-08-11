@@ -22,7 +22,7 @@ SRUSDAT shows up in 5 pools here, with rates from 8.11% to 12.19% APY across 2 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| strata-markets | 8.11% | 7.85% | Base rate |
+| strata-markets | 8.11% | 7.86% | Base rate |
 | pendle | 8.99% | 10.72% | Base rate |
 | pendle | 9.28% | 11.16% | Base rate |
 | pendle | 12.19% | 12.15% | 14.51% incentives |
@@ -51,11 +51,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

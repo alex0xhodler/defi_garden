@@ -1,22 +1,22 @@
 # USDSUI 디파이 수익률
 
-현재 USDSUI의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 128.70%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDSUI의 가장 높은 정직한 수익률은 Sui의 bluefin-spot에서 95.99%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [current →](https://www.defi.garden/?pool=1438fc47-2b15-47ac-8514-1ae7b7246cac&src=seo_token) | Sui | 8.32% | $1.99M |
-| [cetus-clmm →](https://www.defi.garden/?pool=36591b70-7836-40eb-8ec4-b8162d9c0d7c&src=seo_token) | Sui | 4.03% | $1.34M |
-| [navi-lending →](https://www.defi.garden/?pool=d03cebe7-e53a-49d5-977e-dcc8d473c1bc&src=seo_token) | Sui | 8.64% | $1.09M |
-| [bluefin-spot →](https://www.defi.garden/?pool=e3887972-24e6-45a9-8ef5-bcc22b6b5739&src=seo_token) | Sui | 17.76% | $852.3K |
-| [bluefin-spot →](https://www.defi.garden/?pool=b37f5bba-1b21-4942-a017-5c831e59eec7&src=seo_token) | Sui | 0.01% | $481.2K |
-| [cetus-clmm →](https://www.defi.garden/?pool=1e4c7c80-77c5-4b14-b42e-90498cb3be18&src=seo_token) | Sui | 73.75% | $286.5K |
-| [bluefin-spot →](https://www.defi.garden/?pool=1679d913-2179-4a11-aa55-b0727ec81060&src=seo_token) | Sui | 128.70% | $210.8K |
+| [current →](https://www.defi.garden/?pool=1438fc47-2b15-47ac-8514-1ae7b7246cac&src=seo_token) | Sui | 8.99% | $1.89M |
+| [cetus-clmm →](https://www.defi.garden/?pool=36591b70-7836-40eb-8ec4-b8162d9c0d7c&src=seo_token) | Sui | 3.96% | $1.35M |
+| [navi-lending →](https://www.defi.garden/?pool=d03cebe7-e53a-49d5-977e-dcc8d473c1bc&src=seo_token) | Sui | 8.41% | $1.18M |
+| [bluefin-spot →](https://www.defi.garden/?pool=e3887972-24e6-45a9-8ef5-bcc22b6b5739&src=seo_token) | Sui | 18.68% | $811.3K |
+| [bluefin-spot →](https://www.defi.garden/?pool=b37f5bba-1b21-4942-a017-5c831e59eec7&src=seo_token) | Sui | 0.43% | $481.3K |
+| [cetus-clmm →](https://www.defi.garden/?pool=1e4c7c80-77c5-4b14-b42e-90498cb3be18&src=seo_token) | Sui | 81.00% | $246.7K |
+| [bluefin-spot →](https://www.defi.garden/?pool=1679d913-2179-4a11-aa55-b0727ec81060&src=seo_token) | Sui | 95.99% | $240.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDSUI 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.01%부터 128.70%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDSUI 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.43%부터 95.99%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.76%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -26,13 +26,13 @@ USDSUI 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.01%부터 128.70
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| current | 8.32% | 8.45% | 인센티브 60.14% |
-| cetus-clmm | 4.03% | 3.33% | 인센티브 85.91% |
-| navi-lending | 8.64% | 8.76% | 인센티브 66.09% |
-| bluefin-spot | 17.76% | 18.30% | 인센티브 82.94% |
-| bluefin-spot | 0.01% | 0.57% | 기본 금리 |
-| cetus-clmm | 73.75% | 85.72% | 인센티브 62.35% |
-| bluefin-spot | 128.70% | 101.93% | 인센티브 47.50% |
+| current | 8.99% | 8.46% | 인센티브 55.44% |
+| cetus-clmm | 3.96% | 3.35% | 인센티브 86.01% |
+| navi-lending | 8.41% | 8.76% | 인센티브 66.31% |
+| bluefin-spot | 18.68% | 18.34% | 인센티브 82.28% |
+| bluefin-spot | 0.43% | 0.58% | 기본 금리 |
+| cetus-clmm | 81.00% | 85.89% | 인센티브 65.48% |
+| bluefin-spot | 95.99% | 101.94% | 인센티브 50.17% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +40,11 @@ USDSUI 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.01%부터 128.70
 
 ### 오늘 USDSUI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 128.70%예요.
+DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 95.99%예요.
 
 ### USDSUI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $6.25M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $6.19M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -63,4 +63,4 @@ DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 128.70%예�
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

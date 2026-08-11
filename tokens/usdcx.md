@@ -1,20 +1,20 @@
 # USDCX DeFi Yields
 
-The highest honest USDCX yield right now is 90.70% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDCX yield right now is 91.02% on minswap-dex (Cardano), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 10.91% | $1.12M |
-| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 90.70% | $219.8K |
-| [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 10.22% | $183.7K |
+| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 10.87% | $1.12M |
+| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 91.02% | $218.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 10.24% | $181.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDCX shows up in 3 pools here, with rates from 10.22% to 90.70% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDCX shows up in 3 pools here, with rates from 10.24% to 91.02% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 23.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 22.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ USDCX shows up in 3 pools here, with rates from 10.22% to 90.70% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yuzu-finance | 10.91% | 9.39% | 98.91% incentives |
-| minswap-dex | 90.70% | 80.93% | 3.42% incentives |
-| minswap-dex | 10.22% | 23.00% | 49.32% incentives |
+| yuzu-finance | 10.87% | 9.38% | 99.00% incentives |
+| minswap-dex | 91.02% | 81.44% | 3.33% incentives |
+| minswap-dex | 10.24% | 22.89% | 48.54% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDCX yield today?
 
-90.70% APY on minswap-dex (Cardano), based on live DefiLlama data.
+91.02% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many USDCX pools clear the TVL floor?
 
@@ -56,4 +56,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Move](https://www.defi.garden/chains/move)
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

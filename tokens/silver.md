@@ -4,7 +4,7 @@ The highest honest SILVER yield right now is 0.03% on folks-finance-lending (Alg
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_token) | Algorand | 0.03% | $708.3K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_token) | Algorand | 0.03% | $707K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SILVER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $708.3K in total.
+1 live pool clear this page's $100K TVL floor, $707K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Algorand](https://www.defi.garden/chains/algorand)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

@@ -1,10 +1,10 @@
 # APYXAPXUSD DeFi Yields
 
-The highest honest APYXAPXUSD yield right now is 7.50% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest APYXAPXUSD yield right now is 6.69% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=bb6eac99-e375-4643-84c3-5d368538694d&src=seo_token) | Ethereum | 7.50% | $3.04M |
+| [morpho-blue →](https://www.defi.garden/?pool=bb6eac99-e375-4643-84c3-5d368538694d&src=seo_token) | Ethereum | 6.69% | $3.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest APYXAPXUSD yield today?
 
-7.50% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.69% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many APYXAPXUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.04M in total.
+1 live pool clear this page's $100K TVL floor, $3.01M in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

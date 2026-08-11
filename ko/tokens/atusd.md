@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Gravity의 latch에서 APY 0.28%예요.
 
 - [Gravity](https://www.defi.garden/ko/chains/gravity)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

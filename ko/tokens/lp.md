@@ -7,8 +7,8 @@
 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.02% | $3.1M |
 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
 | [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.2K |
-| [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.02% | $193.7K |
-| [wombat-exchange →](https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token) | BSC | 0.02% | $187.8K |
+| [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.01% | $197.7K |
+| [wombat-exchange →](https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token) | BSC | 0.02% | $185.3K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
 | [wombat-exchange →](https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token) | Arbitrum | 0.16% | $103.2K |
 
@@ -16,7 +16,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LP 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.02%부터 0.16%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LP 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.01%부터 0.16%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.03%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -29,8 +29,8 @@ LP 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.02%부터 0.16%까�
 | wombat-exchange | 0.02% | 0.02% | 인센티브 100.00% |
 | wombat-exchange | 0.03% | 0.03% | 인센티브 100.00% |
 | wombat-exchange | 0.05% | 0.05% | 인센티브 99.79% |
-| wombat-exchange | 0.02% | 0.02% | 인센티브 91.70% |
-| wombat-exchange | 0.02% | 0.02% | 인센티브 94.32% |
+| wombat-exchange | 0.01% | 0.02% | 인센티브 100.00% |
+| wombat-exchange | 0.02% | 0.02% | 인센티브 100.00% |
 | wombat-exchange | 0.09% | 0.09% | 인센티브 100.00% |
 | wombat-exchange | 0.16% | 0.22% | 인센티브 96.99% |
 
@@ -64,4 +64,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 wombat-exchange에서 APY 0.16
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

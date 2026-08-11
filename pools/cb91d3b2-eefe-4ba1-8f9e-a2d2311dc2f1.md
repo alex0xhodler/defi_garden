@@ -1,12 +1,12 @@
 # ETH-ESS — uniswap-v4 on Ethereum
 
-**Total APY:** 12.50% (12.50% Base · + 0.00% Rewards)
+**Total APY:** 12.47% (12.47% Base · + 0.00% Rewards)
 
-**TVL:** $159.7K
+**TVL:** $160K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 9.79%
+**30d Mean APY:** 9.85%
 
 **Exposure:** multi
 
@@ -26,7 +26,7 @@ $1,000 in this pool grows to ~$1,226 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (12.50% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (12.47% headline) — farm rates decay. Active management required.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
@@ -34,4 +34,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 10, 2026
+Last updated August 11, 2026

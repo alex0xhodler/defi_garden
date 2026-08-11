@@ -4,7 +4,7 @@ The highest honest JARVIS yield right now is 3.18% on aerodrome-v1 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=63b5e571-db71-4df2-bd44-3d0b867fe03c&src=seo_token) | Base | 3.18% | $102.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=63b5e571-db71-4df2-bd44-3d0b867fe03c&src=seo_token) | Base | 3.18% | $102.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JARVIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.3K in total.
+1 live pool clear this page's $100K TVL floor, $102.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

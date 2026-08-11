@@ -4,7 +4,7 @@ The highest honest SLISBNB yield right now is 1.76% on lista-liquid-staking (BSC
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.76% | $563.78M |
+| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.76% | $563.08M |
 | [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.38% | $1.54M |
 | [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.64% | $1.54M |
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SLISBNB pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $690.87M in total.
+6 live pools clear this page's $100K TVL floor, $689.97M in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

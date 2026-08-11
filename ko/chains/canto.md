@@ -29,10 +29,10 @@ DefiLlama 실시간 데이터 기준, Canto의 canto-lending에서 APY 13.61%예
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
+- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
 ## Canto의 인기 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

@@ -7,7 +7,7 @@ The highest honest SUPERWETH yield right now is 5.08% on pendle (Ethereum), amon
 | [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.34% | $2.52M |
 | [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 5.08% | $399.9K |
 | [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.33% | $399.9K |
-| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.53% | $270.1K |
+| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.53% | $270.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,16 +15,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SUPERWETH shows up in 4 pools here, with rates from 1.34% to 5.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.97% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.96% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| superform | 1.34% | 2.26% | 100.00% incentives |
-| pendle | 5.08% | 6.34% | 20.85% incentives |
-| pendle | 4.33% | 5.00% | 24.48% incentives |
-| superform | 2.53% | 2.94% | 52.81% incentives |
+| superform | 1.34% | 2.24% | 100.00% incentives |
+| pendle | 5.08% | 6.33% | 20.85% incentives |
+| pendle | 4.33% | 4.99% | 24.48% incentives |
+| superform | 2.53% | 2.93% | 52.77% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,11 +49,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

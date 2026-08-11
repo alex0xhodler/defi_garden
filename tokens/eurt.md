@@ -4,7 +4,7 @@ The highest honest EURT yield right now is 0.16% on convex-finance (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.16% | $226.1K |
+| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.16% | $269.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EURT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.39M in total.
+3 live pools clear this page's $100K TVL floor, $1.55M in total.
 
 ### Are these rates safe?
 
@@ -43,10 +43,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on navi-lending](https://www.naviprotocol.io/?ref=defi.garden)
 
-Last updated August 10, 2026
+Last updated August 11, 2026

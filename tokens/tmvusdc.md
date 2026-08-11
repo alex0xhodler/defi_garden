@@ -6,14 +6,14 @@ The highest honest TMVUSDC yield right now is 7.88% on pendle (Ethereum), among 
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 6.52% | $1.5M |
 | [pendle →](https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token) | Ethereum | 7.88% | $1.5M |
-| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 5.50% | $489.6K |
-| [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.41% | $489.3K |
+| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 5.48% | $489.6K |
+| [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.40% | $489.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TMVUSDC shows up in 4 pools here, with rates from 2.41% to 7.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TMVUSDC shows up in 4 pools here, with rates from 2.40% to 7.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,8 +23,8 @@ TMVUSDC shows up in 4 pools here, with rates from 2.41% to 7.88% APY across 1 ch
 |---|---|---|---|
 | pendle | 6.52% | 6.25% | Base rate |
 | pendle | 7.88% | 7.95% | Base rate |
-| curve-dex | 5.50% | 4.59% | 56.19% incentives |
-| convex-finance | 2.41% | 2.48% | Base rate |
+| curve-dex | 5.48% | 4.59% | 56.22% incentives |
+| convex-finance | 2.40% | 2.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,10 +49,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

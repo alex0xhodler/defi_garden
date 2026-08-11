@@ -4,7 +4,7 @@ The highest honest WMTWBTC yield right now is 4.00% on wildcat-protocol (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=74cb85e6-e3d3-4bf6-b82d-2b11df48e685&src=seo_token) | Ethereum | 4.00% | $126.2K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=74cb85e6-e3d3-4bf6-b82d-2b11df48e685&src=seo_token) | Ethereum | 4.00% | $126.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WMTWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126.2K in total.
+1 live pool clear this page's $100K TVL floor, $126.3K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

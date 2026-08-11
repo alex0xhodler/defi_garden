@@ -4,8 +4,8 @@ The highest honest Unichain yield right now is 3.52% on sky-lending (Unichain), 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=39b18684-cf0c-471b-a991-4a65d399367a&src=seo_chain) | 0.89% | $522K |
-| SUSDS | [sky-lending →](https://www.defi.garden/?pool=e92131f3-628f-5983-8a94-995ca58856e8&src=seo_chain) | 3.52% | $165K |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=39b18684-cf0c-471b-a991-4a65d399367a&src=seo_chain) | 0.89% | $522.5K |
+| SUSDS | [sky-lending →](https://www.defi.garden/?pool=e92131f3-628f-5983-8a94-995ca58856e8&src=seo_chain) | 3.52% | $165.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

@@ -1,10 +1,10 @@
 # SRROYEEARN DeFi Yields
 
-The highest honest SRROYEEARN yield right now is 8.24% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYEEARN yield right now is 8.63% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=aadf4138-c3ad-5658-81ef-66603cf65c0d&src=seo_token) | Ethereum | 8.24% | $929.7K |
+| [royco-v2 →](https://www.defi.garden/?pool=aadf4138-c3ad-5658-81ef-66603cf65c0d&src=seo_token) | Ethereum | 8.63% | $929.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYEEARN yield today?
 
-8.24% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+8.63% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SRROYEEARN pools clear the TVL floor?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026
