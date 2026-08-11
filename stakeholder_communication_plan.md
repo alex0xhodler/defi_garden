@@ -252,7 +252,7 @@ Technical Performance:
 #### Chain-Specific Pages
 - [ ] **Data Display:** All pools from selected chain display correctly
 - [ ] **Default Sort:** Results sorted by total APY (highest first)
-- [ ] **Default Filter:** Minimum TVL filter of $100k applied automatically  
+- [ ] **Default Filter:** Minimum TVL filter of $100K applied automatically  
 - [ ] **TVL Options:** Filter options: No min, $10k, $100k, $1M, $10M
 - [ ] **Pool Types:** Filter works for All, Lending, LP/DEX, Staking, Yield Farming
 - [ ] **Pagination:** 10 results per page with navigation controls

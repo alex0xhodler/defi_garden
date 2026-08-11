@@ -14,7 +14,7 @@
     "/pools": {
       "get": {
         "summary": "Retrieve live curated DeFi yield pools",
-        "description": "Get a list of high-quality, curated DeFi yield pools matching your criteria with TVL >= $10M and APY <= 1000%.",
+        "description": "Get a list of high-quality, curated DeFi yield pools matching your criteria with TVL >= $100K and APY <= 1000%.",
         "operationId": "getCuratedPools",
         "parameters": [
           {

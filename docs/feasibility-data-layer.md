@@ -79,7 +79,7 @@ The §4 estimate is now replaced with a REAL measurement, taken live from `https
 
 Whichever option ships, the snapshot/cache layer becomes the natural **server-side enforcement point** for the trust rails that today run client-side in `app.js`/`planner.js`:
 
-- `APY_SANITY_LIMIT = 1000%` and `DEFAULT_MIN_TVL = $10M` would be applied once, at snapshot-build time, instead of (or in addition to) client-side — same outcome, one fewer place a future change could accidentally skip the filter.
+- `APY_SANITY_LIMIT = 1000%` and `DEFAULT_MIN_TVL = $100K` would be applied once, at snapshot-build time, instead of (or in addition to) client-side — same outcome, one fewer place a future change could accidentally skip the filter.
 - The layer must **never** be the place these rails get relaxed; it must remain exactly as auditable as today — every displayed number still traces to a live DefiLlama pool through the same two filters, just applied upstream. Any future spec for this build must repeat NORTH_STAR's NEVER-weaken language verbatim.
 - Anomalous/demoted pools (⚠-flagged, forced High risk) — that demotion logic currently lives in the FE; if it moves to the snapshot builder it must ship the same flags through, not silently drop flagged pools (the app's design intent is "show flagged, not hide flagged").
 

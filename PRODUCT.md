@@ -32,7 +32,7 @@ AND get the thing. Success (dual north star, human 2026-08-04): pool-detail conv
 
 Honest numbers beat exciting numbers. Every displayed figure derives from live DefiLlama pool data
 through trust rails a neighboring product does not enforce: APY sanity limit 1000% (anomalous pools are
-flagged, demoted, and can never enter a plan), $10M default TVL floor, degen projections at a stated ⅓
+flagged, demoted, and can never enter a plan), $100K default TVL floor, degen projections at a stated ⅓
 haircut. Curated + railed + explainable vs the raw firehose. Trust is the conversion currency; the
 default view is the product.
 
