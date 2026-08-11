@@ -15,8 +15,8 @@ without a version bump.
 DefiLlama's `/pools` firehose is raw: ~16k pools, no curation, no floor, no
 anomaly handling. This API is a **curated, railed, explainable** subset of
 that same data — the differentiator for an agent that wants to *cite* a
-number, not just consume one. Every response carries a `rails` object
-stating, in prose, exactly what was filtered out and why. See
+number, not just consume one. Every response with a body carries a `rails`
+object stating, in prose, exactly what was filtered out and why. See
 `CLAUDE.md`'s "Trust rails are the moat" and NORTH_STAR.md's Q4a.
 
 ## The rails (non-negotiable)
@@ -37,10 +37,13 @@ app's own `app.js:800-801`.
    `railsApplied.minTvlClamped: true`. This is **stricter** than the
    analytics app, which lets an interactive user set `minTvl=0`; a curated
    endpoint agents cite does not offer that escape hatch.
-3. **Every response carries a `rails` object** — success or error, 200
-   through 503 — with `apySanityLimit` (number), `minTvl` (number, the
-   *effective* floor for that response), and `apySanityLimitExplanation` /
-   `minTvlExplanation` (prose). This is not optional per-route.
+3. **Every response with a body carries a `rails` object** — success or
+   error, 200 through 503 — with `apySanityLimit` (number), `minTvl`
+   (number, the *effective* floor for that response), and
+   `apySanityLimitExplanation` / `minTvlExplanation` (prose). This is not
+   optional per-route. (The one body-less response is `OPTIONS`'s `204`
+   CORS preflight, below — there is no body for a `rails` object to live
+   in.)
 
 The current live values (subject to a human changing `app.js:800-801` and
 `trust-rails.js` together, per that file's own header comment):

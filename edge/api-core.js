@@ -98,8 +98,10 @@ function meetsFloor(pool, minTvl) {
 }
 
 // ---------------------------------------------------------------------------
-// 2. The `rails` block — present on EVERY response, success or error
-//    (spec 227 acceptance: "including 404/503"). `minTvl` reflects the
+// 2. The `rails` block — present on EVERY response with a body, success or
+//    error (spec 227 acceptance: "including 404/503"). Body-less responses
+//    (the OPTIONS 204 preflight, handled outside this module) carry no
+//    body and therefore no rails block. `minTvl` reflects the
 //    EFFECTIVE floor for the response it's attached to (the request's own
 //    clamped-up value on /api/pools, DEFAULT_MIN_TVL everywhere else).
 // ---------------------------------------------------------------------------
@@ -423,8 +425,12 @@ function handleForeverNumber(searchParams, poolList) {
       foreverNumber: financeable ? raw : null,
       notFinanceableReason: financeable
         ? null
-        : ('An annual rate of ' + apyPct + '% cannot fund a recurring bill (rate must be > 0) — no amount ' +
-           'of capital produces positive monthly yield at that rate.'),
+        : (apyPct <= 0
+            ? ('An annual rate of ' + apyPct + '% cannot fund a recurring bill (rate must be > 0) — no amount ' +
+               'of capital produces positive monthly yield at that rate.')
+            : ('The capital required to fund $' + monthly + '/month at ' + apyPct + '% annually exceeds the ' +
+               'representable number range (monthly*12/rate overflowed) — the rate itself is positive and ' +
+               'valid, this input combination just has no finite answer.')),
       rails: buildRailsBlock(DEFAULT_MIN_TVL),
     },
   };

@@ -325,6 +325,31 @@ ok(typeof planner.foreverNumber === 'function', 'sanity: planner.js exports fore
   eq(res.body.financeable, false, `forever-number(${monthly}, ${apy}) reports financeable:false`);
   eq(res.body.foreverNumber, null, `forever-number(${monthly}, ${apy}) reports foreverNumber:null, never Infinity/NaN (not JSON-safe)`);
   ok(typeof res.body.notFinanceableReason === 'string' && res.body.notFinanceableReason.length > 0, `forever-number(${monthly}, ${apy}) explains why in prose`);
+  ok(/rate must be > 0/.test(res.body.notFinanceableReason), `forever-number(${monthly}, ${apy}) reason correctly attributes non-finiteness to the non-positive rate (got: ${res.body.notFinanceableReason})`);
+});
+
+// Overflow (verifier round 2, item 227, defect 1): a POSITIVE rate can still
+// produce a non-finite foreverNumber via monthly*12/rate overflowing float
+// range. The reason string must NOT blame "rate must be > 0" in that case —
+// the rate is genuinely > 0, the capital figure is just unrepresentable.
+// Two independently-derived overflow inputs, proving the branch split both
+// ways (not just the new side): apyPct <= 0 still gets the old sentence
+// (asserted above) and apyPct > 0 gets the new one (asserted here).
+// Query strings are literal (not built via `${1e307}`, which JS renders as
+// "1e+307" — the "+" is then decoded by URLSearchParams as a space and
+// breaks the repro), matching the exact defect report's own URL shape.
+[
+  { qs: 'monthly=1e307&apy=1', monthly: 1e307, apy: 1 },
+  { qs: 'monthly=1e300&apy=0.0000000001', monthly: 1e300, apy: 1e-10 },
+].forEach(({ qs, monthly, apy }) => {
+  ok(!Number.isFinite(planner.foreverNumber(monthly, apy)), `sanity: planner.js's own foreverNumber(${monthly}, ${apy}) is Infinity (overflow, not a rate<=0 case)`);
+  const res = apiCore.handleApiRequest({ pathname: '/api/forever-number', searchParams: new URLSearchParams(qs), pools: POPULATION });
+  eq(res.status, 200, `forever-number(${qs}) overflow still returns 200`);
+  eq(res.body.financeable, false, `forever-number(${qs}) overflow reports financeable:false`);
+  eq(res.body.foreverNumber, null, `forever-number(${qs}) overflow reports foreverNumber:null`);
+  ok(typeof res.body.notFinanceableReason === 'string' && res.body.notFinanceableReason.length > 0, `forever-number(${qs}) overflow explains why in prose`);
+  ok(!/rate must be > 0/.test(res.body.notFinanceableReason), `forever-number(${qs}) overflow reason must NOT falsely claim the rate is non-positive (apyPct=${apy} is > 0) (got: ${res.body.notFinanceableReason})`);
+  ok(!/cannot fund a recurring bill/.test(res.body.notFinanceableReason), `forever-number(${qs}) overflow reason must not reuse the rate<=0 sentence verbatim (got: ${res.body.notFinanceableReason})`);
 });
 
 // Blended mode (apy omitted): re-derive the TVL-weighted rate independently
@@ -505,6 +530,13 @@ async function runWorkerTests() {
     eq(res.headers.get('access-control-allow-origin'), '*', 'OPTIONS response carries CORS allow-origin');
     eq(res.headers.get('access-control-allow-methods'), 'GET, OPTIONS', 'OPTIONS response carries CORS allow-methods');
     eq(fetchCalled, false, 'OPTIONS preflight must never touch pool data (no fetch call)');
+    // Verifier round 2, item 227, defect 2: API.md now scopes "every
+    // response carries a rails object" to responses WITH a body. Pin that
+    // doc claim to actual behavior — the 204 preflight has no body at all,
+    // so there is nowhere for a rails object to live.
+    eq(res.body, null, 'OPTIONS 204 preflight Response has a null body');
+    const preflightText = await res.text();
+    eq(preflightText, '', 'OPTIONS 204 preflight body reads as empty (no rails object, no JSON at all)');
   }
 
   console.log('\nH3. GET /api/pools -> 200 with real filtered/railed body, using the full population through the Worker');
