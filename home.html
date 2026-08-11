@@ -265,16 +265,34 @@
                                     var chain = (args.chain || "").toLowerCase();
                                     var minApy = args.minApy || 0;
                                     
+                                    // backlog 266: both rails read window.TRUST_RAILS (trust-rails.js,
+                                    // loaded synchronously above — same guarantee the description string
+                                    // 19 lines up already relies on) rather than hand-typed literals that
+                                    // "happened" to equal the rail; and total APY is computed the exact
+                                    // way edge/api-core.js's totalApy() does (apyBase + apyReward), not
+                                    // DefiLlama's own `apy` field, so this surface can't pass a pool an
+                                    // agent would see anomalous everywhere else.
                                     var filtered = pools.filter(function(p) {
-                                        if (p.tvlUsd < 100000) return false;
-                                        if (p.apy > 1000) return false;
-                                        
+                                        var totalApy = (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0);
+                                        if (p.tvlUsd < window.TRUST_RAILS.DEFAULT_MIN_TVL) return false;
+                                        if (totalApy > window.TRUST_RAILS.APY_SANITY_LIMIT) return false;
+
                                         if (token && !p.symbol.toLowerCase().includes(token)) return false;
                                         if (chain && p.chain.toLowerCase() !== chain) return false;
-                                        if (minApy && p.apy < minApy) return false;
+                                        if (minApy && totalApy < minApy) return false;
                                         return true;
                                     });
-                                    
+
+                                    // backlog 266 (verifier finding 3): the returned row mirrors
+                                    // edge/api-core.js's projectPool() enrichment shape exactly —
+                                    // `apy` is DefiLlama's own field, passed through UNMODIFIED (never
+                                    // overwritten, so an agent can compare it against our derived
+                                    // total); `apyBase`/`apyReward` preserve `null` for an absent
+                                    // field rather than coercing to 0 (185 above-floor live pools
+                                    // report both null with a positive `apy` — coercing to 0 there
+                                    // erased "unknown" and silently dropped them from any `minApy`
+                                    // filter); `totalApy` is the ONE new, derived field carrying the
+                                    // apyBase+apyReward total the filter above already computed.
                                     return {
                                         success: true,
                                         results: filtered.slice(0, 10).map(function(p) {
@@ -284,7 +302,10 @@
                                                 symbol: p.symbol,
                                                 chain: p.chain,
                                                 tvlUsd: p.tvlUsd,
-                                                apy: p.apy
+                                                apy: p.apy,
+                                                apyBase: (p.apyBase === undefined ? null : p.apyBase),
+                                                apyReward: (p.apyReward === undefined ? null : p.apyReward),
+                                                totalApy: (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0)
                                             };
                                         })
                                     };

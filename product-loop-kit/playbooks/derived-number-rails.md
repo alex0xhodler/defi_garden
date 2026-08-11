@@ -50,6 +50,44 @@ If a surface is not on that list, it has not been checked — that is exactly ho
 353,114% APY unnoticed for the life of the surface. `llms.txt` was never *decided* to be out of scope; it
 simply never entered anyone's field of view because it is a text file, not a page.
 
+**A rail-applying surface can be an inline `<script>`, not a `.js` file (added 2026-08-11, item 266).**
+The emitter list above was assembled by grepping `*.js` and `generate-*.js`, so it could not see the one
+surface that lives inside an HTML document: `home.html`'s WebMCP block (`navigator.modelContext.
+provideContext`, registered on every page load, reachable by any browser-hosted agent) applied
+`if (p.tvlUsd < 100000) return false; if (p.apy > 1000) return false;` — a third hand-typed copy of both
+rails, nineteen lines below a comment congratulating item 254 for tokenising the *description string*
+next to it. **The prose was tokenised; the predicate underneath it was not.** Two lessons, both cheap:
+
+- Widen the sweep to inline scripts: `grep -rnE "(tvlUsd|apyBase|apyReward|\.apy)\s*(<|>|<=|>=)" --include='*.html' .`
+  (root `*.html` only — the 4,324 generated HTML pages are regenerated from `trust-rails.js`/live data).
+- **A stated figure and an applied predicate are different claim-shapes and need different guards.**
+  254/261 guarded *stated* rails (prose + machine manifests) and were both green while this surface
+  *applied* a stale one. The applied-rail guard has to be behavioural, not textual: `test_webmcp_rail_
+  derivation.js` Leg A mutates `window.TRUST_RAILS` in a real render and demands the filter's output
+  change with it — an assertion a literal that merely *equals* the rail cannot pass, which is precisely
+  the property a source-reading check lacks.
+
+Emitter-list addendum: `home.html` WebMCP tools ✅ (266) · `edge/api-core.js` ✅ (derives from
+`trust-rails.js`, no literal) · `edge/mcp-core.js` ✅ (routes through api-core) ·
+**`tools/test-agent-tools.js:127-128` ❌ — still applies the pre-`6fceca79bb` $10M floor and raw `apy`,
+and prints "All pools strictly respect TVL >= $10M"; backlog 270.**
+
+**A guard whose POPULATION comes from version control cannot see itself until it is committed (added
+2026-08-11, item 266).** Leg C of `test_webmcp_rail_derivation.js` derives its population from
+`git ls-files '*.js'`. Every green run — the builder's and three adversarial verification rounds — was
+measured against a population that silently excluded the untracked file under test; `git add -A` turned
+the gate red immediately. Nothing was wrong with the assertion. **Verify the STAGED tree, not the
+working tree**, whenever a gate globs through git.
+
+**Masking is where inline-script scanners actually fail (same item, three rounds).** A scanner that
+blanks strings and comments before looking for literals must know *every* token type that can contain a
+quote, or one construct desyncs it and blanks everything after: aliased constants slipped a
+field-shaped predicate; template-literal `${...}` was masked while the file's own comment claimed it was
+not; and a **regex literal** (`var re = /'/g;`) opens a phantom string that blanked the next seven
+lines — that one is still open in 266 and is why it parked. If you build such a scanner: enumerate
+string, template (text vs interpolation), comment, AND regex-literal contexts up front, then prove each
+with an injection that must go red.
+
 ## Step 0b — prove your check can fail before you believe it passed
 
 **A filter that returns zero is not evidence of health until you have shown it can return non-zero.**

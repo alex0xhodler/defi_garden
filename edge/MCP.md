@@ -252,20 +252,28 @@ curl -sS -X POST https://www.defi.garden/mcp \
 - **No auth, no write path, no pricing/x402** — that's item 234 (blocked on
   this item).
 - **No sessions, no batching, no resources/prompts/sampling.**
-- **This is NOT the only MCP-branded surface this site serves.** `home.html:227-343`
+- **This is NOT the only MCP-branded surface this site serves.** `home.html:228-364`
   registers **WebMCP** tools on every page load —
   `window.navigator.modelContext.provideContext({ tools: [...] })` exposing
   `search_yield_pools` and `calculate_savings_projection` to any browser-hosted
-  agent. It is live today on `/` and `plan.html`, it is unrelated to this
-  Worker, and it does **not** go through `api-core.js`: its `search_yield_pools`
-  fetches DefiLlama directly and re-implements both trust rails as **hardcoded
-  literals** (`home.html:269-270` — `p.tvlUsd < 100000`, `p.apy > 1000`). Those
-  happen to be correct today and are correct only by coincidence: they are a
-  third copy of rules that `trust-rails.js` exists to keep singular, and this
-  is precisely the drift class item 261 shipped a fix for. Filed as **backlog
-  266**; deliberately not touched here, because `home.html` is the IA router
-  and editing it from an edge-Worker item would be a drive-by on a HIGH-risk
-  render path.
+  agent. It is live today on `/` (and on every parameterized analytics URL —
+  `home.html` is the document Vercel serves for them; `plan.html` registers no
+  tools, correcting this paragraph's earlier claim), and it is unrelated to
+  this Worker. It still does **not** go through `api-core.js` — it fetches
+  DefiLlama directly — but since **backlog 266 shipped (2026-08-11)** its
+  `search_yield_pools` no longer re-implements the rails: both thresholds are
+  read from `window.TRUST_RAILS` (`trust-rails.js`, the same source
+  `api-core.js` requires), and total APY is computed as `apyBase + apyReward`,
+  the expression `api-core.js`'s `totalApy()` uses, instead of DefiLlama's own
+  `apy` field. Before 266 those two predicates were hardcoded literals that
+  matched the rails only by coincidence — the drift class item 261 also
+  shipped a fix for. What is still true and worth knowing when comparing the
+  two surfaces: the WebMCP tool applies the rails **client-side against a live
+  DefiLlama fetch**, so it has no access to this Worker's snapshot fallbacks,
+  caching or `minTvl` clamping, and its result rows are a smaller projection
+  than `api-core.js`'s `projectPool()`. `test_webmcp_rail_derivation.js`
+  guards the derivation behaviourally (it mutates `window.TRUST_RAILS` in a
+  real render and requires the filter's output to move with it).
 
 ## Deploy
 
