@@ -1,5 +1,23 @@
 /*
- * Cloudflare Worker: edge agent-read telemetry (backlog 224, spec 224).
+ * Cloudflare Worker: edge agent-read telemetry (backlog 224, spec 224) +
+ * public read-only Yield API (backlog 227, spec 227), same Worker, one
+ * deploy — spec 227's Change section: "same Worker as 224's logger".
+ *
+ * API DISPATCH (227): `fetch()` checks `/api` and `/api/*` FIRST, before
+ * ANYTHING else runs — including the pass-through line below. This is an
+ * ADDITIONAL branch, not a restructuring of the existing pass-through path:
+ * every other URL falls through to the exact same
+ * `const response = await fetch(request); return response;` this file has
+ * always run, byte-for-byte, so the pre-227 "PASS-THROUGH FIRST" contract
+ * (see below) holds for every non-`/api` request BY CONSTRUCTION — asserted
+ * by test_api_worker.js via Response-object identity, the same technique
+ * test_agent_log.js already uses for its own byte-parity cases. `/api`
+ * requests never reach the pass-through line at all: they are answered
+ * entirely from edge/api-core.js (pure, railed) plus one live fetch of
+ * https://yields.llama.fi/pools (edge-cached + in-isolate memoized — see
+ * getPools() below), never from origin (Vercel). A pool-data fetch failure
+ * returns a 503 JSON carrying api-core.js's own `rails` block — never a
+ * thrown error, never the pass-through path. Full contract: edge/API.md.
  *
  * NAMING NOTE (deviation from the spec's literal "edge/agent-log.js"):
  * this file is `.mjs`, not `.js`. The house pattern (src/poller.js) is a
@@ -54,6 +72,7 @@
  */
 
 import core from './agent-log-core.js';
+import apiCore from './api-core.js';
 
 const INSERT_SQL =
   'INSERT INTO agent_reads (ts, path, ua, ua_family, accept, referer, status, bot_score, path_class) ' +
@@ -61,6 +80,15 @@ const INSERT_SQL =
 
 export default {
   async fetch(request, env, ctx) {
+    // 227: dispatch /api and /api/* to the API handler BEFORE the
+    // pass-through — see this file's header comment. `new URL(request.url)`
+    // only READS request.url; it cannot affect the pass-through fetch()
+    // below in any way, so this check is safe to run unconditionally.
+    const url = new URL(request.url);
+    if (url.pathname === '/api' || url.pathname.startsWith('/api/')) {
+      return handleApi(request, url, env, ctx);
+    }
+
     // PASS-THROUGH FIRST. This is the entire contract with every visitor and
     // agent hitting www.defi.garden — everything below this line is a
     // best-effort side effect on a response that has ALREADY been decided.
@@ -78,6 +106,158 @@ export default {
     return response;
   },
 };
+
+// ---------------------------------------------------------------------------
+// 227: public read-only Yield API — pool-data fetch/memo, routing, response
+// shaping. Everything ABOVE (agent-read logging, pass-through) is 224's and
+// is untouched by any of this.
+// ---------------------------------------------------------------------------
+
+const POOLS_UPSTREAM = 'https://yields.llama.fi/pools';
+const POOLS_CACHE_TTL_SECONDS = 300; // matches the Cache-Control this Worker sends on /api responses
+const POOLS_MEMO_TTL_MS = POOLS_CACHE_TTL_SECONDS * 1000;
+
+const API_CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+};
+
+// In-isolate memo (module-level — persists for the isolate's lifetime,
+// across requests, exactly like a normal Worker global). NOT cleared by a
+// failed fetch — a stale entry, if any, is simply left sitting in
+// `poolsMemo` untouched — but it is also NEVER served once its TTL has
+// elapsed: the freshness check above is a strict `< POOLS_MEMO_TTL_MS`, so
+// once POOLS_CACHE_TTL_SECONDS (300s) pass since the last successful fetch,
+// every subsequent request re-fetches upstream regardless of whether a
+// stale value is sitting in `poolsMemo`. There is no stale-serving fallback:
+// during a sustained upstream outage, every request past the TTL hits
+// upstream itself and gets its own 503 (Cloudflare's edge cache in front of
+// the upstream fetch, `cf: { cacheTtl, cacheEverything }`, may still absorb
+// some of that — but this in-isolate memo specifically does not).
+// `__resetPoolsMemoForTests` exists ONLY
+// so test_api_worker.js can exercise "fetch succeeds" and "fetch fails"
+// scenarios back-to-back within one process without one polluting the
+// other via this shared module-level state (Node's ESM loader caches this
+// module by URL, so re-`import()`-ing it in the same test run returns the
+// SAME instance — this reset hook is the surgical fix for that, not a
+// production code path).
+let poolsMemo = null; // { pools: Array, fetchedAt: number(ms) } | null
+
+export function __resetPoolsMemoForTests() {
+  poolsMemo = null;
+}
+
+/** Fetches https://yields.llama.fi/pools (Cloudflare edge cache + this
+ * in-isolate memo) and returns the raw pool array. Throws on any failure
+ * (non-OK status, network error, unparseable/unexpected-shape body) —
+ * callers (handleApi) turn that into the 503 JSON response; this function
+ * itself never returns a fallback/empty array, which would silently look
+ * like "zero pools exist" instead of honestly failing. */
+async function getPools() {
+  const now = Date.now();
+  if (poolsMemo && (now - poolsMemo.fetchedAt) < POOLS_MEMO_TTL_MS) {
+    return poolsMemo.pools;
+  }
+  const res = await fetch(POOLS_UPSTREAM, {
+    cf: { cacheTtl: POOLS_CACHE_TTL_SECONDS, cacheEverything: true },
+  });
+  if (!res.ok) {
+    throw new Error('yields.llama.fi responded ' + res.status);
+  }
+  const json = await res.json();
+  const pools = Array.isArray(json && json.data) ? json.data : (Array.isArray(json) ? json : null);
+  if (!pools) {
+    throw new Error('yields.llama.fi response had no recognizable pool array');
+  }
+  poolsMemo = { pools, fetchedAt: now };
+  return pools;
+}
+
+/** Answers one /api or /api/* request. OPTIONS is a pure CORS preflight —
+ * answered without touching pool data at all. Every other method is routed
+ * through api-core.js's handleApiRequest (this API is read-only end to end,
+ * so no method-specific branching beyond OPTIONS is needed). */
+async function handleApi(request, url, env, ctx) {
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { status: 204, headers: API_CORS_HEADERS });
+  }
+
+  // `Cache-Control` depends on the eventual status: a 5xx (upstream
+  // unavailable, or the internal-error fallback below) is an OUTAGE answer,
+  // not a stable one, and must never be publicly cacheable — a CDN caching
+  // "please try again shortly" for 5 minutes would keep serving it long
+  // after the outage ends. 2xx/4xx keep the existing 300s public caching.
+  function headersFor(status) {
+    return Object.assign(
+      {
+        'Content-Type': 'application/json; charset=utf-8',
+        'Cache-Control': status >= 500 ? 'no-store' : ('public, max-age=' + POOLS_CACHE_TTL_SECONDS),
+        'X-Defi-Garden-Api-Version': apiCore.API_VERSION,
+      },
+      API_CORS_HEADERS
+    );
+  }
+
+  let pools;
+  try {
+    pools = await getPools();
+  } catch (_err) {
+    const body = {
+      error: 'upstream_unavailable',
+      message: 'Could not fetch live pool data from yields.llama.fi right now; please try again shortly. ' +
+        'This API never fabricates pool data, so a failed upstream fetch is reported honestly rather than ' +
+        'served from stale/fake data.',
+      rails: apiCore.buildRailsBlock(),
+    };
+    const errRes = new Response(JSON.stringify(body), { status: 503, headers: headersFor(503) });
+    try { logAgentRead(request, errRes, env, ctx); } catch (_e) { /* never break serving — see logAgentRead's own header note */ }
+    return errRes;
+  }
+
+  // Defense in depth (verifier round 1, item 227): `apiCore.handleApiRequest`
+  // is guarded internally against the one input class known to throw (a
+  // malformed `:id` percent-escape — see api-core.js's decode guard), but
+  // this try/catch exists so that literally NOTHING thrown by the handler,
+  // known or not-yet-discovered, can ever escape `fetch()` unhandled. An
+  // uncaught throw here previously meant an empty-body, non-JSON response
+  // straight out of the Worker (a Cloudflare 1101 error page in production)
+  // — the one thing this API's whole `rails`-on-every-response contract
+  // promises never happens.
+  let result;
+  try {
+    result = apiCore.handleApiRequest({
+      pathname: url.pathname,
+      searchParams: url.searchParams,
+      pools: pools,
+    });
+  } catch (_err) {
+    result = {
+      status: 500,
+      body: {
+        error: 'internal_error',
+        message: 'This API handler failed unexpectedly while answering this request. This should never ' +
+          'happen and never fabricates or omits the rails block below — please report it if you see it.',
+        rails: apiCore.buildRailsBlock(),
+      },
+    };
+  }
+
+  const apiResponse = new Response(JSON.stringify(result.body), { status: result.status, headers: headersFor(result.status) });
+
+  // 227 acceptance: "Keep the existing agent-read logging behavior working
+  // for /api paths too." classifyRequest() already classifies every /api
+  // path as pathClass 'api' (agent-log-core.js:82-84, written ahead of time
+  // for this item) — reuse logAgentRead exactly as the pass-through path
+  // does, same swallow-everything discipline, same waitUntil scheduling.
+  try {
+    logAgentRead(request, apiResponse, env, ctx);
+  } catch (_err) {
+    // never break serving — identical discipline to fetch()'s own try/catch above.
+  }
+
+  return apiResponse;
+}
 
 /**
  * Best-effort: classify the request and, if it's agent surface and a DB
