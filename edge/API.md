@@ -250,7 +250,9 @@ rule out).
 
 - No auth, no write path, no pricing/x402 (that's item 234).
 - No pagination beyond `limit` (no `offset`/cursor).
-- No MCP tool wrapper (item 228, explicitly built *after* this item).
+- No MCP tool wrapper *in this file* — these same railed reads are also
+  exposed as installable MCP tools that delegate to this exact API; see
+  `edge/MCP.md` (item 228).
 - Not yet linked from `llms.txt` or the site itself — see spec 227's
   "Explicitly OUT of scope": advertising a URL that isn't live yet would be
   a false claim on the agent surface. A follow-up item does that once this

@@ -246,6 +246,14 @@ should appear in the same `agent_reads` table — no new query needed,
 `classifyRequest()` already classified `/api/*` this way ahead of time (see
 `edge/agent-log-core.js:82-84`, written for spec 224, consumed by 227).
 
+## 8. Deploy delta — MCP server (backlog 228, spec 228)
+
+**Same Worker, same command, no new binding, no new route** — item 228 adds
+`edge/mcp-core.js` and a `/mcp` branch in `edge/agent-log.mjs` beside the
+`/api` branch step 7 already covers; `wrangler deploy -c edge/wrangler.toml`
+picks it up the same way. Full contract, quickstart, and post-deploy
+verification: `edge/MCP.md`.
+
 ## Territory notes (things this runbook found, not anticipated by spec 224)
 
 - No scheduled retention prune runs yet. `edge/agent-log-core.js` exports
