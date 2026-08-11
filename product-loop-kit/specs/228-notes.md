@@ -66,8 +66,9 @@ Recorded on the backlog row so review re-scopes against these, not against the 2
    substantive content is "no new deploy step needed" plus the link.
 5. **`test_api_worker.js` was edited** (10 lines) — not listed in the spec's Change section, but
    required *by* it: the spec's Territory notes flagged that the pass-through boundary assertions
-   would go stale, and they had. Four assertions now state the boundary as "non-`/api`,
-   non-`/mcp`". A stale assertion that still passes is worse than none.
+   would go stale, and they had. The boundary is now restated at four sites — **one live assertion
+   message (`test_api_worker.js:590`) plus a block comment and two section labels**, not four
+   assertions (the earlier "four assertions" wording overcounted; verifier round 4). A stale assertion that still passes is worse than none.
 
 ## Spec corrections the territory forced
 

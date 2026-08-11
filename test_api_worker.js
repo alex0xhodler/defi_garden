@@ -446,8 +446,10 @@ for (const s of VERIFIER_REPRO_SEGMENTS) {
 // H. The real Worker (edge/agent-log.mjs): /api dispatch, CORS/OPTIONS,
 //    503 on upstream failure, agent-read logging for /api paths, and the
 //    non-/api, non-/mcp byte-parity identity proof (228 adds a /mcp branch
-//    beside /api — see H5b below for the same identity proof re-stated for
-//    the new boundary).
+//    beside /api — see section K10 in test_mcp_server.js for the same
+//    identity proof re-stated for the new boundary; there is no H5b in this
+//    file, an earlier version of this comment pointed at one that never
+//    existed).
 // ===========================================================================
 
 function makeFakeDB() {
