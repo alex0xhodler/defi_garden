@@ -1,10 +1,10 @@
 # MTUSDC DeFi Yields
 
-The highest honest MTUSDC yield right now is 7.06% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MTUSDC yield right now is 7.27% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 7.06% | $497K |
+| [concrete →](https://www.defi.garden/?pool=1267aba9-a8ea-5aae-9f55-27632686a83a&src=seo_token) | Ethereum | 7.27% | $497.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MTUSDC yield today?
 
-7.06% APY on concrete (Ethereum), based on live DefiLlama data.
+7.27% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many MTUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $497K in total.
+1 live pool clear this page's $100K TVL floor, $497.1K in total.
 
 ### Are these rates safe?
 

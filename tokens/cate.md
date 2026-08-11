@@ -1,19 +1,19 @@
 # CATE DeFi Yields
 
-The highest honest CATE yield right now is 1.03% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CATE yield right now is 0.96% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9ad28117-763a-52b9-9d0b-2bdca7abeb10&src=seo_token) | Solana | 1.03% | $1.48M |
+| [raydium-amm →](https://www.defi.garden/?pool=9ad28117-763a-52b9-9d0b-2bdca7abeb10&src=seo_token) | Solana | 0.96% | $1.48M |
 | [raydium-amm →](https://www.defi.garden/?pool=93127081-cbd5-5413-8c29-abe9bf883719&src=seo_token) | Solana | 0.23% | $1.44M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CATE shows up in 2 pools here, with rates from 0.23% to 1.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CATE shows up in 2 pools here, with rates from 0.23% to 0.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,7 +21,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 1.03% | 0.82% | Base rate |
+| raydium-amm | 0.96% | 0.83% | Base rate |
 | raydium-amm | 0.23% | 0.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CATE yield today?
 
-1.03% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.96% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CATE pools clear the TVL floor?
 

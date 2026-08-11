@@ -1,19 +1,19 @@
 # SNEK DeFi Yields
 
-The highest honest SNEK yield right now is 83.49% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNEK yield right now is 84.73% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 38.50% | $687.6K |
-| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 83.49% | $196.2K |
+| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 39.59% | $678.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 84.73% | $195.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SNEK shows up in 2 pools here, with rates from 38.50% to 83.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SNEK shows up in 2 pools here, with rates from 39.59% to 84.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 48.77% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 49.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ SNEK shows up in 2 pools here, with rates from 38.50% to 83.49% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| minswap-dex | 38.50% | 40.89% | 2.65% incentives |
-| minswap-dex | 83.49% | 56.64% | Base rate |
+| minswap-dex | 39.59% | 40.98% | 2.60% incentives |
+| minswap-dex | 84.73% | 57.34% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SNEK yield today?
 
-83.49% APY on minswap-dex (Cardano), based on live DefiLlama data.
+84.73% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many SNEK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $883.9K in total.
+2 live pools clear this page's $100K TVL floor, $873.7K in total.
 
 ### Are these rates safe?
 
@@ -46,8 +46,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ADA](https://www.defi.garden/tokens/ada)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
-- [USDCX](https://www.defi.garden/tokens/usdcx)
 - [NIGHT](https://www.defi.garden/tokens/night)
+- [USDCX](https://www.defi.garden/tokens/usdcx)
 
 ## Available on
 

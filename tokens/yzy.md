@@ -1,19 +1,19 @@
 # YZY DeFi Yields
 
-The highest honest YZY yield right now is 6.53% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YZY yield right now is 9.27% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 6.53% | $593.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token) | Solana | 3.64% | $168.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=df090a01-2c9e-46a5-8588-bce979765dff&src=seo_token) | Solana | 9.27% | $606.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=97c6bdc8-8fe8-48d1-ad37-3ae90aefac0b&src=seo_token) | Solana | 3.16% | $167.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YZY shows up in 2 pools here, with rates from 3.64% to 6.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YZY shows up in 2 pools here, with rates from 3.16% to 9.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 6.53% | 8.70% | Base rate |
-| raydium-amm | 3.64% | 3.10% | Base rate |
+| raydium-amm | 9.27% | 8.74% | Base rate |
+| raydium-amm | 3.16% | 3.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YZY yield today?
 
-6.53% APY on raydium-amm (Solana), based on live DefiLlama data.
+9.27% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many YZY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $762.1K in total.
+2 live pools clear this page's $100K TVL floor, $773.7K in total.
 
 ### Are these rates safe?
 

@@ -5,21 +5,21 @@ The highest honest XMR yield right now is 27.57% on raydium-amm (Solana), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=1fd548b1-c3f8-5794-adb2-04764d66e43b&src=seo_token) | Solana | 0.02% | $42.83M |
-| [raydium-amm →](https://www.defi.garden/?pool=7c5b28ca-057f-5b12-bf1b-d53696cf9377&src=seo_token) | Solana | 0.01% | $21.85M |
 | [raydium-amm →](https://www.defi.garden/?pool=541701d0-895e-57d5-8eec-d6b4352e15a3&src=seo_token) | Solana | 0.12% | $21.8M |
 | [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.02% | $21.53M |
 | [raydium-amm →](https://www.defi.garden/?pool=96122c7b-beba-5567-a4d4-700f351a370d&src=seo_token) | Solana | 7.52% | $168K |
+| [raydium-amm →](https://www.defi.garden/?pool=b51ff913-e39d-58e2-b974-962189151a80&src=seo_token) | Solana | 9.44% | $168K |
 | [raydium-amm →](https://www.defi.garden/?pool=ece7aac5-37bf-5aac-a456-4a6fbb6ee7f6&src=seo_token) | Solana | 24.95% | $167.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=f2e1fedb-76ad-5350-8bc5-92cb5218e706&src=seo_token) | Solana | 20.06% | $167.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=6539cedc-38bc-5230-bebe-d7cc8fd89eba&src=seo_token) | Solana | 27.57% | $162.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=fcaa7a35-9fe7-5b9c-a6e9-3b5908547d4c&src=seo_token) | Solana | 15.67% | $160.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XMR shows up in 8 pools here, with rates from 0.01% to 27.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XMR shows up in 8 pools here, with rates from 0.02% to 27.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.57% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -28,13 +28,13 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.02% | 0.01% | Base rate |
-| raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.12% | 0.10% | Base rate |
 | raydium-amm | 0.02% | 0.10% | Base rate |
 | raydium-amm | 7.52% | 7.52% | Base rate |
+| raydium-amm | 9.44% | 7.63% | Base rate |
 | raydium-amm | 24.95% | 99.52% | Base rate |
+| raydium-amm | 20.06% | 38.97% | Base rate |
 | raydium-amm | 27.57% | 28.01% | Base rate |
-| raydium-amm | 15.67% | 12.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XMR pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $109.29M in total.
+13 live pools clear this page's $100K TVL floor, $87.61M in total.
 
 ### Are these rates safe?
 

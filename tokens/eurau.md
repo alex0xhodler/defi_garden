@@ -5,15 +5,15 @@ The highest honest EURAU yield right now is 1.03% on aerodrome-slipstream (Base)
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=cca7ebd6-241f-46ce-8c17-710453fa1103&src=seo_token) | Base | 1.03% | $140.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=05456cc4-bd76-5b3a-8236-538e0f59d445&src=seo_token) | Solana | 0.30% | $110.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=05456cc4-bd76-5b3a-8236-538e0f59d445&src=seo_token) | Solana | 0.24% | $110.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EURAU shows up in 2 pools here, with rates from 0.30% to 1.03% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EURAU shows up in 2 pools here, with rates from 0.24% to 1.03% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 1.03% | 0.84% | Base rate |
-| raydium-amm | 0.30% | 0.66% | Base rate |
+| aerodrome-slipstream | 1.03% | 0.86% | Base rate |
+| raydium-amm | 0.24% | 0.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EURAU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $251.3K in total.
+2 live pools clear this page's $100K TVL floor, $251.4K in total.
 
 ### Are these rates safe?
 

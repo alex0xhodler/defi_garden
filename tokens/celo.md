@@ -26,10 +26,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [CUSD](https://www.defi.garden/tokens/cusd)
+- [EURM](https://www.defi.garden/tokens/eurm)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
 - [CEUR](https://www.defi.garden/tokens/ceur)
-- [CGBP](https://www.defi.garden/tokens/cgbp)
-- [CAUD](https://www.defi.garden/tokens/caud)
+- [AXLEUROC](https://www.defi.garden/tokens/axleuroc)
 
 ## Available on
 

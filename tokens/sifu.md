@@ -5,24 +5,20 @@ The highest honest SIFU yield right now is 0.02% on uwu-lend (Ethereum), among 2
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $395.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bbe6546-a912-402d-ab59-230ce98edc5c&src=seo_token) | Ethereum | 0.82% | $186.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SIFU shows up in 2 pools here, with rates from 0.02% to 0.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SIFU shows up in 1 pools here, with rates from 0.02% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uwu-lend | 0.02% | 0.04% | Base rate |
-| uniswap-v3 | 0.82% | 1.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

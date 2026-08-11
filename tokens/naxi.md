@@ -28,8 +28,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [NOPAL](https://www.defi.garden/tokens/nopal)
 - [USCC](https://www.defi.garden/tokens/uscc)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
-- [NCLOA](https://www.defi.garden/tokens/ncloa)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
+- [NCLOA](https://www.defi.garden/tokens/ncloa)
 
 ## Available on
 

@@ -1,24 +1,24 @@
 # WETH.E 디파이 수익률
 
-현재 WETH.E의 가장 높은 정직한 수익률은 Avalanche의 blackhole-clmm에서 269.31%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WETH.E의 가장 높은 정직한 수익률은 Avalanche의 blackhole-clmm에서 307.92%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.35% | $5.2M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 27.69% | $4.13M |
-| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 1.98% | $1.12M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 12.89% | $692.1K |
-| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 5.70% | $231.2K |
-| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 1.87% | $152.2K |
-| [blackhole-clmm →](https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token) | Avalanche | 269.31% | $123.5K |
+| [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.35% | $5.18M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token) | Avalanche | 28.61% | $4M |
+| [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 1.64% | $1.35M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 21.99% | $706.2K |
+| [deltaprime →](https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token) | Avalanche | 5.70% | $230.5K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token) | Avalanche | 3.43% | $149.9K |
+| [blackhole-clmm →](https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token) | Avalanche | 307.92% | $112.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WETH.E 풀은 여기 7개가 있고, 1개 체인에서 APY가 1.35%부터 269.31%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WETH.E 풀은 여기 7개가 있고, 1개 체인에서 APY가 1.35%부터 307.92%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.69%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.71%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -26,13 +26,13 @@ WETH.E 풀은 여기 7개가 있고, 1개 체인에서 APY가 1.35%부터 269.31
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 1.35% | 1.18% | 기본 금리 |
-| pharaoh-v3 | 27.69% | 22.71% | 인센티브 100.00% |
-| benqi-lending | 1.98% | 1.54% | 기본 금리 |
-| uniswap-v3 | 12.89% | 17.52% | 기본 금리 |
-| deltaprime | 5.70% | 4.69% | 기본 금리 |
-| pangolin-v2 | 1.87% | 2.00% | 기본 금리 |
-| blackhole-clmm | 269.31% | 416.41% | 인센티브 100.00% |
+| aave-v3 | 1.35% | 1.19% | 기본 금리 |
+| pharaoh-v3 | 28.61% | 22.51% | 인센티브 100.00% |
+| benqi-lending | 1.64% | 1.54% | 기본 금리 |
+| uniswap-v3 | 21.99% | 17.56% | 기본 금리 |
+| deltaprime | 5.70% | 4.71% | 기본 금리 |
+| pangolin-v2 | 3.43% | 2.00% | 기본 금리 |
+| blackhole-clmm | 307.92% | 413.95% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +40,11 @@ WETH.E 풀은 여기 7개가 있고, 1개 체인에서 APY가 1.35%부터 269.31
 
 ### 오늘 WETH.E의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-clmm에서 APY 269.31%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-clmm에서 APY 307.92%예요.
 
 ### WETH.E 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $11.65M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $11.73M예요.
 
 ### 이 수익률은 안전한가요?
 

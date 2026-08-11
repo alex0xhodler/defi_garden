@@ -1,19 +1,19 @@
 # SPK DeFi Yields
 
-The highest honest SPK yield right now is 6.22% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPK yield right now is 11.94% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 4.55% | $564.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 6.22% | $477.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 3.94% | $561.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 11.94% | $474.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPK shows up in 2 pools here, with rates from 4.55% to 6.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPK shows up in 2 pools here, with rates from 3.94% to 11.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.64% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 4.55% | 7.24% | Base rate |
-| uniswap-v4 | 6.22% | 10.05% | Base rate |
+| uniswap-v4 | 3.94% | 7.25% | Base rate |
+| uniswap-v4 | 11.94% | 10.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPK yield today?
 
-6.22% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+11.94% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SPK pools clear the TVL floor?
 

@@ -1,11 +1,11 @@
 # USDD 디파이 수익률
 
-현재 USDD의 가장 높은 정직한 수익률은 Tron의 justlend-v1에서 4.11%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDD의 가장 높은 정직한 수익률은 Tron의 justlend-v1에서 4.00%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 4.11% | $421.43M |
-| [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.01% | $500.1K |
+| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 4.00% | $421.35M |
+| [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.03% | $500.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=a94d0ddc-987e-40cc-b2a2-fcf6ac55c689&src=seo_token) | Solana | 0.02% | $350.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token) | Solana | 0.11% | $350.1K |
 
@@ -13,7 +13,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDD 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 4.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDD 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.02%부터 4.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.81%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -21,8 +21,8 @@ USDD 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 4.11%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| justlend-v1 | 4.11% | 4.00% | 인센티브 99.98% |
-| raydium-amm | 0.01% | 0.14% | 기본 금리 |
+| justlend-v1 | 4.00% | 4.00% | 인센티브 99.98% |
+| raydium-amm | 0.03% | 0.13% | 기본 금리 |
 | raydium-amm | 0.02% | 0.12% | 기본 금리 |
 | raydium-amm | 0.11% | 1.49% | 기본 금리 |
 
@@ -32,11 +32,11 @@ USDD 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 4.11%까
 
 ### 오늘 USDD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 4.11%예요.
+DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 4.00%예요.
 
 ### USDD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $422.83M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $422.75M예요.
 
 ### 이 수익률은 안전한가요?
 

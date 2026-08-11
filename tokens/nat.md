@@ -1,19 +1,19 @@
 # NAT DeFi Yields
 
-The highest honest NAT yield right now is 19.58% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NAT yield right now is 19.67% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 19.58% | $803.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token) | Ethereum | 29.55% | $349K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 19.67% | $818.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token) | Ethereum | 38.21% | $361.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NAT shows up in 2 pools here, with rates from 19.58% to 29.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NAT shows up in 2 pools here, with rates from 19.67% to 38.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 52.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 52.76% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 19.58% | 24.31% | Base rate |
-| uniswap-v4 | 29.55% | 79.70% | Base rate |
+| uniswap-v4 | 19.67% | 24.47% | Base rate |
+| uniswap-v4 | 38.21% | 81.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NAT yield today?
 
-19.58% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+19.67% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many NAT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.15M in total.
+2 live pools clear this page's $100K TVL floor, $1.18M in total.
 
 ### Are these rates safe?
 

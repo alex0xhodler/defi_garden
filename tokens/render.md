@@ -4,17 +4,17 @@ The highest honest RENDER yield right now is 0.03% on project-0 (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 21.48% | $355.8K |
-| [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.03% | $260.3K |
-| [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 26.15% | $212.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 23.63% | $357.5K |
+| [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.03% | $260.1K |
+| [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 26.82% | $213.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RENDER shows up in 3 pools here, with rates from 0.03% to 26.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RENDER shows up in 3 pools here, with rates from 0.03% to 26.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.95% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 21.48% | 14.30% | Base rate |
+| raydium-amm | 23.63% | 14.47% | Base rate |
 | project-0 | 0.03% | 0.03% | Base rate |
-| orca-dex | 26.15% | 4.95% | Base rate |
+| orca-dex | 26.82% | 5.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RENDER pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $829.1K in total.
+3 live pools clear this page's $100K TVL floor, $830.8K in total.
 
 ### Are these rates safe?
 

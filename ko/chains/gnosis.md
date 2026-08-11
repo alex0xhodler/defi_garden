@@ -1,17 +1,17 @@
 # Gnosis 디파이 수익률
 
-현재 Gnosis의 가장 높은 정직한 수익률은 Gnosis의 curve-dex에서 4.21%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Gnosis의 가장 높은 정직한 수익률은 Gnosis의 sdai에서 4.11%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.11% | $54.35M |
-| GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_chain) | 0.11% | $6.42M |
-| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.62% | $5.09M |
+| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.11% | $54.04M |
+| GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_chain) | 0.11% | $6.39M |
+| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.62% | $5.08M |
 | ZCHF | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_chain) | 3.50% | $1.55M |
-| USDC.E | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_chain) | 2.91% | $726.4K |
-| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.22% | $516.1K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.32% | $513.6K |
-| EURE-X3CRV | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_chain) | 4.21% | $378.3K |
+| USDC.E | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_chain) | 2.90% | $729.6K |
+| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.16% | $513.8K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.31% | $513.2K |
+| EURE-X3CRV | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_chain) | 3.04% | $378.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Gnosis의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Gnosis의 curve-dex에서 APY 4.21%예요.
+DefiLlama 실시간 데이터 기준, Gnosis의 sdai에서 APY 4.11%예요.
 
 ### Gnosis 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $107.32M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 12개이며, 합산 TVL은 $106.85M예요.
 
 ### 이 수익률은 안전한가요?
 

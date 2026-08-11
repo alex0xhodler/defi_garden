@@ -1,10 +1,10 @@
 # GOOK DeFi Yields
 
-The highest honest GOOK yield right now is 237.38% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOOK yield right now is 238.09% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=03e54433-6486-5887-8645-ebab7612757b&src=seo_token) | Base | 237.38% | $186.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=03e54433-6486-5887-8645-ebab7612757b&src=seo_token) | Base | 238.09% | $185.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GOOK yield today?
 
-237.38% APY on uniswap-v2 (Base), based on live DefiLlama data.
+238.09% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many GOOK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $186.9K in total.
+1 live pool clear this page's $100K TVL floor, $185.2K in total.
 
 ### Are these rates safe?
 

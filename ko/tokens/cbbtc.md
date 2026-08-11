@@ -1,40 +1,40 @@
 # CBBTC 디파이 수익률
 
-현재 CBBTC의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 17.54%이며, $100K TVL 기준을 넘는 157개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CBBTC의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 15.36%이며, $100K TVL 기준을 넘는 158개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $155.51M |
-| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 3.06% | $83.74M |
-| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 2.78% | $18.28M |
-| [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token) | Ethereum | 0.78% | $16.82M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 6.41% | $15.63M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token) | Ethereum | 0.05% | $13.88M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=69800b02-58a9-4838-b19d-d2719950e296&src=seo_token) | Ethereum | 4.84% | $11.52M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ae6e650d-2da1-43ee-b960-2adfdf4dc2b7&src=seo_token) | Base | 17.54% | $11.15M |
+| [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $154.58M |
+| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 3.75% | $83.29M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 4.06% | $18.53M |
+| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 1.53% | $18.17M |
+| [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token) | Ethereum | 0.52% | $16.69M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=69800b02-58a9-4838-b19d-d2719950e296&src=seo_token) | Ethereum | 4.11% | $11.47M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ae6e650d-2da1-43ee-b960-2adfdf4dc2b7&src=seo_token) | Base | 15.36% | $10.78M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.11% | $10.74M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CBBTC 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 17.54%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CBBTC 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 15.36%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.63%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.66%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-8개 풀 중 5개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+8개 풀 중 6개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aave-v3 | 0.01% | 0.01% | 기본 금리 |
-| curve-dex | 3.06% | 2.15% | 기본 금리 |
-| curve-dex | 2.78% | 5.11% | 기본 금리 |
-| fluid-dex | 0.78% | 0.43% | 기본 금리 |
-| aerodrome-slipstream | 6.41% | 7.11% | 인센티브 79.60% |
-| uniswap-v4 | 0.05% | 0.17% | 기본 금리 |
-| uniswap-v4 | 4.84% | 6.19% | 기본 금리 |
-| uniswap-v3 | 17.54% | 14.49% | 기본 금리 |
+| curve-dex | 3.75% | 2.20% | 기본 금리 |
+| aerodrome-slipstream | 4.06% | 7.00% | 인센티브 62.40% |
+| curve-dex | 1.53% | 5.12% | 기본 금리 |
+| fluid-dex | 0.52% | 0.43% | 기본 금리 |
+| uniswap-v4 | 4.11% | 6.23% | 기본 금리 |
+| uniswap-v3 | 15.36% | 14.47% | 기본 금리 |
+| uniswap-v3 | 0.11% | 0.11% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ CBBTC 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 17.54%�
 
 ### 오늘 CBBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 17.54%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 15.36%예요.
 
 ### CBBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 157개이며, 합산 TVL은 $5.03B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 158개이며, 합산 TVL은 $5B예요.
 
 ### 이 수익률은 안전한가요?
 

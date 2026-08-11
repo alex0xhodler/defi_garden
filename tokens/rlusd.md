@@ -4,22 +4,22 @@ The highest honest RLUSD yield right now is 4.99% on aave-v3 (Ethereum), among 9
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79&src=seo_token) | Ethereum | 4.99% | $88.66M |
-| [curve-dex →](https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453&src=seo_token) | Ethereum | 4.99% | $73.13M |
+| [aave-v3 →](https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79&src=seo_token) | Ethereum | 4.99% | $85.88M |
+| [curve-dex →](https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453&src=seo_token) | Ethereum | 4.76% | $73.16M |
 | [termmax →](https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c&src=seo_token) | Ethereum | 0.03% | $20.72M |
-| [convex-finance →](https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee&src=seo_token) | Ethereum | 0.43% | $14.12M |
-| [euler-v2 →](https://www.defi.garden/?pool=73e933a7-73b2-43ec-b1e9-d5d1d42ce2de&src=seo_token) | Ethereum | 3.80% | $6M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200&src=seo_token) | Ethereum | 4.94% | $2.94M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67&src=seo_token) | Ethereum | 7.45% | $2.93M |
-| [aave-v3 →](https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f&src=seo_token) | Ethereum | 2.59% | $1.62M |
+| [convex-finance →](https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee&src=seo_token) | Ethereum | 0.18% | $14.16M |
+| [euler-v2 →](https://www.defi.garden/?pool=73e933a7-73b2-43ec-b1e9-d5d1d42ce2de&src=seo_token) | Ethereum | 3.84% | $6M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67&src=seo_token) | Ethereum | 9.99% | $2.94M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200&src=seo_token) | Ethereum | 0.93% | $2.94M |
+| [aave-v3 →](https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f&src=seo_token) | Ethereum | 2.65% | $1.56M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RLUSD shows up in 8 pools here, with rates from 0.03% to 7.45% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RLUSD shows up in 8 pools here, with rates from 0.03% to 9.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ RLUSD shows up in 8 pools here, with rates from 0.03% to 7.45% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 4.99% | 5.10% | 78.22% incentives |
-| curve-dex | 4.99% | 5.48% | 91.38% incentives |
+| aave-v3 | 4.99% | 5.10% | 76.63% incentives |
+| curve-dex | 4.76% | 5.46% | 95.80% incentives |
 | termmax | 0.03% | 0.02% | Base rate |
-| convex-finance | 0.43% | 0.21% | 0.00% incentives |
-| euler-v2 | 3.80% | 4.53% | 68.13% incentives |
-| uniswap-v3 | 4.94% | 3.70% | Base rate |
-| uniswap-v3 | 7.45% | 4.78% | Base rate |
-| aave-v3 | 2.59% | 2.79% | Base rate |
+| convex-finance | 0.18% | 0.22% | 0.01% incentives |
+| euler-v2 | 3.84% | 4.53% | 68.45% incentives |
+| uniswap-v3 | 9.99% | 4.87% | Base rate |
+| uniswap-v3 | 0.93% | 3.74% | Base rate |
+| aave-v3 | 2.65% | 2.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RLUSD pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $213.23M in total.
+9 live pools clear this page's $100K TVL floor, $210.45M in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # VBGTUSDT DeFi Yields
 
-The highest honest VBGTUSDT yield right now is 2.70% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBGTUSDT yield right now is 2.66% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ea033b6e-f4d2-46ef-b609-93b680852a64&src=seo_token) | Ethereum | 2.70% | $5.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=ea033b6e-f4d2-46ef-b609-93b680852a64&src=seo_token) | Ethereum | 2.66% | $4.98M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VBGTUSDT yield today?
 
-2.70% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.66% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many VBGTUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.01M in total.
+1 live pool clear this page's $100K TVL floor, $4.98M in total.
 
 ### Are these rates safe?
 

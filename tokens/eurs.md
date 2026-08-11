@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EURS pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $11.95M in total.
+5 live pools clear this page's $100K TVL floor, $11.94M in total.
 
 ### Are these rates safe?
 

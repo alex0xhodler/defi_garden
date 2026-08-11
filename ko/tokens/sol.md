@@ -1,23 +1,23 @@
 # SOL 디파이 수익률
 
-현재 SOL의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 33.52%이며, $100K TVL 기준을 넘는 78개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SOL의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 35.38%이며, $100K TVL 기준을 넘는 79개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8&src=seo_token) | Solana | 33.52% | $26.05M |
-| [kamino-lend →](https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83&src=seo_token) | Solana | 4.44% | $20.7M |
-| [save →](https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369&src=seo_token) | Solana | 1.96% | $6.33M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.44% | $5.48M |
-| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.53% | $4.8M |
-| [orca-dex →](https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9&src=seo_token) | Solana | 24.84% | $4.58M |
-| [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 20.62% | $3.61M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5&src=seo_token) | Arbitrum | 9.22% | $3.59M |
+| [orca-dex →](https://www.defi.garden/?pool=a5c85bc8-eb41-45c0-a520-d18d7529c0d8&src=seo_token) | Solana | 35.13% | $26.04M |
+| [kamino-lend →](https://www.defi.garden/?pool=525b2dab-ea6a-4cbc-a07f-84ce561d1f83&src=seo_token) | Solana | 4.41% | $20.93M |
+| [save →](https://www.defi.garden/?pool=1170b465-309b-4026-b10d-abdf7b1ac369&src=seo_token) | Solana | 1.97% | $6.29M |
+| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.46% | $5.57M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.32% | $5.5M |
+| [orca-dex →](https://www.defi.garden/?pool=6dc30ef3-d497-497c-91f3-b4ccb817a8b9&src=seo_token) | Solana | 35.38% | $4.59M |
+| [orca-dex →](https://www.defi.garden/?pool=69c64232-ef1a-45f2-b49b-daeb2a906873&src=seo_token) | Solana | 21.38% | $3.6M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=906b233c-8478-4b94-94e5-2d77e6c7c9e5&src=seo_token) | Arbitrum | 9.36% | $3.59M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SOL 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.44%부터 33.52%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SOL 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.32%부터 35.38%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.02%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,14 +27,14 @@ SOL 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.44%부터 33.52%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| orca-dex | 33.52% | 35.73% | 기본 금리 |
-| kamino-lend | 4.44% | 5.12% | 기본 금리 |
-| save | 1.96% | 2.37% | 기본 금리 |
-| kamino-liquidity | 0.44% | 0.39% | 기본 금리 |
-| orca-dex | 0.53% | 0.51% | 기본 금리 |
-| orca-dex | 24.84% | 25.34% | 기본 금리 |
-| orca-dex | 20.62% | 16.90% | 기본 금리 |
-| gmx-v2-perps | 9.22% | 4.92% | 기본 금리 |
+| orca-dex | 35.13% | 35.77% | 기본 금리 |
+| kamino-lend | 4.41% | 5.07% | 기본 금리 |
+| save | 1.97% | 2.36% | 기본 금리 |
+| orca-dex | 0.46% | 0.51% | 기본 금리 |
+| kamino-liquidity | 0.32% | 0.39% | 기본 금리 |
+| orca-dex | 35.38% | 25.43% | 기본 금리 |
+| orca-dex | 21.38% | 16.95% | 기본 금리 |
+| gmx-v2-perps | 9.36% | 4.98% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ SOL 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.44%부터 33.52%까
 
 ### 오늘 SOL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 33.52%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 35.38%예요.
 
 ### SOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 78개이며, 합산 TVL은 $126.01M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 79개이며, 합산 TVL은 $127.76M예요.
 
 ### 이 수익률은 안전한가요?
 

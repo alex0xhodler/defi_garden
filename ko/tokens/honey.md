@@ -1,24 +1,24 @@
 # HONEY 디파이 수익률
 
-현재 HONEY의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 33.39%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HONEY의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 33.24%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.17% | $1.55M |
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.04% | $1.06M |
-| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.02% | $454.4K |
-| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.39% | $237.6K |
-| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 5.67% | $196.3K |
-| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 2.17% | $130.7K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 9.37% | $114K |
+| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 8.05% | $1.55M |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 3.98% | $1.06M |
+| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 4.95% | $454.5K |
+| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.24% | $235.2K |
+| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 5.60% | $195.9K |
+| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 1.94% | $129.9K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 9.28% | $113.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-HONEY 풀은 여기 7개가 있고, 1개 체인에서 APY가 2.17%부터 33.39%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+HONEY 풀은 여기 7개가 있고, 1개 체인에서 APY가 1.94%부터 33.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.77%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.75%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -26,13 +26,13 @@ HONEY 풀은 여기 7개가 있고, 1개 체인에서 APY가 2.17%부터 33.39%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| berapaw | 8.17% | 8.77% | 인센티브 100.00% |
-| berapaw | 4.04% | 4.58% | 인센티브 100.00% |
-| berapaw | 5.02% | 5.59% | 인센티브 100.00% |
-| berapaw | 33.39% | 34.48% | 인센티브 100.00% |
-| berapaw | 5.67% | 13.67% | 인센티브 100.00% |
-| bex | 2.17% | 2.60% | 기본 금리 |
-| berapaw | 9.37% | 21.82% | 인센티브 100.00% |
+| berapaw | 8.05% | 8.75% | 인센티브 100.00% |
+| berapaw | 3.98% | 4.56% | 인센티브 100.00% |
+| berapaw | 4.95% | 5.57% | 인센티브 100.00% |
+| berapaw | 33.24% | 34.40% | 인센티브 100.00% |
+| berapaw | 5.60% | 13.57% | 인센티브 100.00% |
+| bex | 1.94% | 2.60% | 기본 금리 |
+| berapaw | 9.28% | 21.68% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,7 +40,7 @@ HONEY 풀은 여기 7개가 있고, 1개 체인에서 APY가 2.17%부터 33.39%�
 
 ### 오늘 HONEY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 33.39%예요.
+DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 33.24%예요.
 
 ### HONEY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -53,11 +53,11 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 33.39%예�
 ## 관련 토큰
 
 - [UNIBTC](https://www.defi.garden/ko/tokens/unibtc)
-- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/ko/tokens/ibera)
 - [RE7HONEY](https://www.defi.garden/ko/tokens/re7honey)
 - [CSRHONEY](https://www.defi.garden/ko/tokens/csrhoney)
+- [KODIUSDE](https://www.defi.garden/ko/tokens/kodiusde)
 
 ## 이용 가능한 체인
 

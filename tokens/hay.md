@@ -1,17 +1,17 @@
 # HAY DeFi Yields
 
-The highest honest HAY yield right now is 0.05% on wombat-exchange (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAY yield right now is 0.07% on wombat-exchange (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.02% | $3.1M |
-| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.1K |
+| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.07% | $364.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HAY shows up in 2 pools here, with rates from 0.02% to 0.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HAY shows up in 2 pools here, with rates from 0.02% to 0.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ HAY shows up in 2 pools here, with rates from 0.02% to 0.05% APY across 1 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | wombat-exchange | 0.02% | 0.02% | 100.00% incentives |
-| wombat-exchange | 0.05% | 0.05% | 97.40% incentives |
+| wombat-exchange | 0.07% | 0.05% | 70.88% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HAY yield today?
 
-0.05% APY on wombat-exchange (BSC), based on live DefiLlama data.
+0.07% APY on wombat-exchange (BSC), based on live DefiLlama data.
 
 ### How many HAY pools clear the TVL floor?
 

@@ -1,24 +1,24 @@
 # STAK DeFi Yields
 
-The highest honest STAK yield right now is 12.17% on spectra-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STAK yield right now is 12.20% on spectra-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe&src=seo_token) | Ethereum | 12.17% | $188.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=0903d3e4-a569-426a-b1e8-ba79f0d69efe&src=seo_token) | Ethereum | 12.20% | $190.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STAK shows up in 1 pools here, with rates from 12.17% to 12.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STAK shows up in 1 pools here, with rates from 12.20% to 12.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 15.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 15.49% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| spectra-v2 | 12.17% | 15.55% | Base rate |
+| spectra-v2 | 12.20% | 15.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -26,11 +26,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STAK yield today?
 
-12.17% APY on spectra-v2 (Ethereum), based on live DefiLlama data.
+12.20% APY on spectra-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many STAK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $446.5K in total.
+2 live pools clear this page's $100K TVL floor, $456.2K in total.
 
 ### Are these rates safe?
 

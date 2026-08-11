@@ -1,10 +1,10 @@
 # BOOP DeFi Yields
 
-The highest honest BOOP yield right now is 0.03% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOOP yield right now is 0.02% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=cf60d922-ec26-47be-ba90-26635dde94dd&src=seo_token) | Solana | 0.03% | $213.2K |
+| [orca-dex →](https://www.defi.garden/?pool=cf60d922-ec26-47be-ba90-26635dde94dd&src=seo_token) | Solana | 0.02% | $213.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOOP yield today?
 
-0.03% APY on orca-dex (Solana), based on live DefiLlama data.
+0.02% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BOOP pools clear the TVL floor?
 

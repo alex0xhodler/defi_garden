@@ -1,19 +1,19 @@
 # REI DeFi Yields
 
-The highest honest REI yield right now is 91.77% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REI yield right now is 205.83% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 0.84% | $1.96M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 91.77% | $364K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 1.23% | $1.82M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 205.83% | $340.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-REI shows up in 2 pools here, with rates from 0.84% to 91.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+REI shows up in 2 pools here, with rates from 1.23% to 205.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 46.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 47.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 0.84% | 63.23% | Base rate |
-| uniswap-v3 | 91.77% | 30.17% | Base rate |
+| aerodrome-slipstream | 1.23% | 61.41% | Base rate |
+| uniswap-v3 | 205.83% | 32.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest REI yield today?
 
-91.77% APY on uniswap-v3 (Base), based on live DefiLlama data.
+205.83% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many REI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.32M in total.
+2 live pools clear this page's $100K TVL floor, $2.17M in total.
 
 ### Are these rates safe?
 

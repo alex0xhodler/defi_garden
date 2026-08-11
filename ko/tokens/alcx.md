@@ -1,22 +1,22 @@
 # ALCX 디파이 수익률
 
-현재 ALCX의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 32.94%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ALCX의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 33.33%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 0.92% | $552K |
-| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 18.23% | $407.5K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 0.45% | $307.8K |
-| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 32.94% | $276.7K |
-| [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 32.75% | $132.2K |
+| [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 0.77% | $549.4K |
+| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 18.50% | $409.8K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 0.47% | $307K |
+| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 33.33% | $278.3K |
+| [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 32.86% | $133K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ALCX 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.45%부터 32.94%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ALCX 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.47%부터 33.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.26%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.32%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 5개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -24,11 +24,11 @@ ALCX 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.45%부터 32.94%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sushiswap | 0.92% | 1.21% | 기본 금리 |
-| curve-dex | 18.23% | 14.26% | 인센티브 99.18% |
-| sushiswap-v3 | 0.45% | 1.01% | 기본 금리 |
-| convex-finance | 32.94% | 26.37% | 인센티브 99.54% |
-| stake-dao | 32.75% | 25.12% | 인센티브 99.57% |
+| sushiswap | 0.77% | 1.19% | 기본 금리 |
+| curve-dex | 18.50% | 14.32% | 인센티브 99.30% |
+| sushiswap-v3 | 0.47% | 0.97% | 기본 금리 |
+| convex-finance | 33.33% | 26.44% | 인센티브 99.67% |
+| stake-dao | 32.86% | 25.22% | 인센티브 99.60% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -36,7 +36,7 @@ ALCX 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.45%부터 32.94%�
 
 ### 오늘 ALCX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 32.94%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 33.33%예요.
 
 ### ALCX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -4,22 +4,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79&src=seo_token) | Ethereum | 4.99% | $88.66M |
-| [curve-dex →](https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453&src=seo_token) | Ethereum | 4.99% | $73.13M |
+| [aave-v3 →](https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79&src=seo_token) | Ethereum | 4.99% | $85.88M |
+| [curve-dex →](https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453&src=seo_token) | Ethereum | 4.76% | $73.16M |
 | [termmax →](https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c&src=seo_token) | Ethereum | 0.03% | $20.72M |
-| [convex-finance →](https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee&src=seo_token) | Ethereum | 0.43% | $14.12M |
-| [euler-v2 →](https://www.defi.garden/?pool=73e933a7-73b2-43ec-b1e9-d5d1d42ce2de&src=seo_token) | Ethereum | 3.80% | $6M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200&src=seo_token) | Ethereum | 4.94% | $2.94M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67&src=seo_token) | Ethereum | 7.45% | $2.93M |
-| [aave-v3 →](https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f&src=seo_token) | Ethereum | 2.59% | $1.62M |
+| [convex-finance →](https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee&src=seo_token) | Ethereum | 0.18% | $14.16M |
+| [euler-v2 →](https://www.defi.garden/?pool=73e933a7-73b2-43ec-b1e9-d5d1d42ce2de&src=seo_token) | Ethereum | 3.84% | $6M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67&src=seo_token) | Ethereum | 9.99% | $2.94M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200&src=seo_token) | Ethereum | 0.93% | $2.94M |
+| [aave-v3 →](https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f&src=seo_token) | Ethereum | 2.65% | $1.56M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-RLUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 7.45%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+RLUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 9.99%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.11%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.13%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ RLUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 7.45%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 4.99% | 5.10% | 인센티브 78.22% |
-| curve-dex | 4.99% | 5.48% | 인센티브 91.38% |
+| aave-v3 | 4.99% | 5.10% | 인센티브 76.63% |
+| curve-dex | 4.76% | 5.46% | 인센티브 95.80% |
 | termmax | 0.03% | 0.02% | 기본 금리 |
-| convex-finance | 0.43% | 0.21% | 인센티브 0.00% |
-| euler-v2 | 3.80% | 4.53% | 인센티브 68.13% |
-| uniswap-v3 | 4.94% | 3.70% | 기본 금리 |
-| uniswap-v3 | 7.45% | 4.78% | 기본 금리 |
-| aave-v3 | 2.59% | 2.79% | 기본 금리 |
+| convex-finance | 0.18% | 0.22% | 인센티브 0.01% |
+| euler-v2 | 3.84% | 4.53% | 인센티브 68.45% |
+| uniswap-v3 | 9.99% | 4.87% | 기본 금리 |
+| uniswap-v3 | 0.93% | 3.74% | 기본 금리 |
+| aave-v3 | 2.65% | 2.81% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 aave-v3에서 APY 4.99%예요.
 
 ### RLUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $213.23M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $210.45M예요.
 
 ### 이 수익률은 안전한가요?
 
