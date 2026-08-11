@@ -216,7 +216,7 @@ curl -sS -X POST https://www.defi.garden/mcp \
   a live, site-wide-advertised agent-discovery surface that item 228 never
   scoped, and the right resolution is a real choice (correct the card to
   `/mcp` + streamable-HTTP + tools-only, **or** additionally serve `/api/mcp`
-  as an alias classified as `mcp`). Filed as **backlog 264**, and it must be
+  as an alias classified as `mcp`). Filed as **backlog 265**, and it must be
   resolved **at or before** the human's deploy. Note this mismatch is
   pre-existing — the card pointed at a 404 before this item existed and still
   does; item 228 does not create it, it just stops the docs from denying it.
@@ -238,7 +238,7 @@ curl -sS -X POST https://www.defi.garden/mcp \
   happen to be correct today and are correct only by coincidence: they are a
   third copy of rules that `trust-rails.js` exists to keep singular, and this
   is precisely the drift class item 261 shipped a fix for. Filed as **backlog
-  265**; deliberately not touched here, because `home.html` is the IA router
+  266**; deliberately not touched here, because `home.html` is the IA router
   and editing it from an edge-Worker item would be a drive-by on a HIGH-risk
   render path.
 

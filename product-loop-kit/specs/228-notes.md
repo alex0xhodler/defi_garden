@@ -192,7 +192,7 @@ Two further honest limits on what shipped:
    adjacent lines) explaining that a *description string* was moved to `window.TRUST_RAILS`
    because "that literal drifted once already".
 
-   Filed as **backlog 265**. Not touched here — `home.html` is the IA router (HIGH risk, sacred
+   Filed as **backlog 266**. Not touched here — `home.html` is the IA router (HIGH risk, sacred
    parameterized-URL behavior) and editing it from an edge-Worker item is a drive-by.
 
    Consequence for this item's own claims, corrected rather than left standing: `228-pr.md` §2
@@ -203,7 +203,7 @@ Two further honest limits on what shipped:
    Deliberately **not** fixed inside 228 (the verifier's own instruction, and the operator
    agrees): it is a live agent-discovery surface this item never scoped, and the resolution is a
    genuine choice — correct the card to `/mcp`/streamable-HTTP/tools-only, **or** additionally
-   serve `/api/mcp` as an alias classified as `mcp`. Filed as **backlog 264**, flagged as
+   serve `/api/mcp` as an alias classified as `mcp`. Filed as **backlog 265**, flagged as
    must-resolve **at or before** the human's deploy. The mismatch is pre-existing: the card
    pointed at a 404 before this item and still does. 228 does not create it — it stops the docs
    from denying it.
