@@ -5,7 +5,7 @@ The highest honest MIN yield right now is 4.17% on minswap-dex (Cardano), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 4.17% | $1.23M |
-| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.16% | $193.8K |
+| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.16% | $192.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.43M in total.
+2 live pools clear this page's $100K TVL floor, $1.42M in total.
 
 ### Are these rates safe?
 
@@ -46,8 +46,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ADA](https://www.defi.garden/tokens/ada)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
-- [USDCX](https://www.defi.garden/tokens/usdcx)
 - [NIGHT](https://www.defi.garden/tokens/night)
+- [USDCX](https://www.defi.garden/tokens/usdcx)
 
 ## Available on
 

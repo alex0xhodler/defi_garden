@@ -4,8 +4,8 @@ The highest honest ZBTC yield right now is 1.06% on loopscale (Solana), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.06% | $299.5K |
-| [orca-dex →](https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token) | Solana | 0.15% | $133.4K |
+| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.06% | $298.8K |
+| [orca-dex →](https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token) | Solana | 0.15% | $133.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ZBTC shows up in 2 pools here, with rates from 0.15% to 1.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.13% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ZBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $661.5K in total.
+4 live pools clear this page's $100K TVL floor, $660K in total.
 
 ### Are these rates safe?
 

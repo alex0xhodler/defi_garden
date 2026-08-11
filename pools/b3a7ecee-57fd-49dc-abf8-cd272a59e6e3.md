@@ -1,8 +1,8 @@
 # WETH-RETH — curve-dex on Ethereum
 
-**Total APY:** 1.23% (1.23% Base · + 0.00% Rewards)
+**Total APY:** 1.22% (1.22% Base · + 0.00% Rewards)
 
-**TVL:** $200.7K
+**TVL:** $200.6K
 
 **Pool Type:** LP/DEX
 

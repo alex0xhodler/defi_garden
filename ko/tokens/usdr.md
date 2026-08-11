@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token) | Ethereum | 0.04% | $196.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token) | Ethereum | 0.18% | $195.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.10% | $195K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.10% | $194.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.18%예�
 
 ### USDR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $782.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $782.5K예요.
 
 ### 이 수익률은 안전한가요?
 

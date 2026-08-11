@@ -4,12 +4,12 @@ The highest honest ARM yield right now is 12.95% on origin-arm (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origin-arm →](https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token) | Ethereum | 4.74% | $4.22M |
-| [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 2.14% | $4.11M |
-| [origin-arm →](https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token) | Ethereum | 8.40% | $541.4K |
-| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.53% | $420.6K |
+| [origin-arm →](https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token) | Ethereum | 4.66% | $4.31M |
+| [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 2.23% | $4.1M |
+| [origin-arm →](https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token) | Ethereum | 8.39% | $541.5K |
+| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.53% | $419.9K |
 | [origin-arm →](https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token) | Ethereum | 12.95% | $200.2K |
-| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 3.20% | $131.7K |
+| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 3.14% | $131.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -25,12 +25,12 @@ ARM shows up in 6 pools here, with rates from 1.53% to 12.95% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| origin-arm | 4.74% | 4.79% | 31.62% incentives |
-| origin-arm | 2.14% | 2.26% | Base rate |
-| origin-arm | 8.40% | 8.25% | 23.81% incentives |
+| origin-arm | 4.66% | 4.78% | 32.07% incentives |
+| origin-arm | 2.23% | 2.26% | Base rate |
+| origin-arm | 8.39% | 8.27% | 23.83% incentives |
 | origin-arm | 1.53% | 1.55% | Base rate |
-| origin-arm | 12.95% | 13.23% | Base rate |
-| curve-dex | 3.20% | 2.29% | 42.58% incentives |
+| origin-arm | 12.95% | 13.19% | Base rate |
+| curve-dex | 3.14% | 2.29% | 42.61% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ARM pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $9.62M in total.
+6 live pools clear this page's $100K TVL floor, $9.7M in total.
 
 ### Are these rates safe?
 

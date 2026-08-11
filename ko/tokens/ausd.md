@@ -4,12 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.75% | $380.85M |
-| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.83% | $110M |
-| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.38% | $41.17M |
-| [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.15% | $30.06M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.71% | $29.07M |
-| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $23.35M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.75% | $380.89M |
+| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.83% | $110.02M |
+| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.38% | $41.18M |
+| [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.15% | $30.07M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.69% | $29.08M |
+| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $23.36M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.20% | $3.88M |
 | [curvance →](https://www.defi.garden/?pool=87220366-2434-4599-b6bf-7b7daf595a9a&src=seo_token) | Monad | 7.14% | $2.95M |
 
@@ -19,7 +19,7 @@
 
 AUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.20%부터 8.15%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.57%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.59%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,11 +27,11 @@ AUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.20%부터 8.15%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| centrifuge-protocol | 5.75% | 4.23% | 기본 금리 |
-| accountable | 6.83% | 6.81% | 인센티브 4.18% |
+| centrifuge-protocol | 5.75% | 4.24% | 기본 금리 |
+| accountable | 6.83% | 6.81% | 인센티브 4.20% |
 | euler-v2 | 6.38% | 7.46% | 인센티브 19.61% |
-| accountable | 8.15% | 4.92% | 인센티브 17.18% |
-| uniswap-v3 | 0.71% | 0.34% | 기본 금리 |
+| accountable | 8.15% | 4.94% | 인센티브 17.18% |
+| uniswap-v3 | 0.69% | 0.34% | 기본 금리 |
 | curvance | 0.20% | 0.20% | 인센티브 100.00% |
 | uniswap-v4 | 0.20% | 0.13% | 기본 금리 |
 | curvance | 7.14% | 7.33% | 인센티브 35.02% |
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 7.14%예요.
 
 ### AUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 35개이며, 합산 TVL은 $684.65M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 35개이며, 합산 TVL은 $684.74M예요.
 
 ### 이 수익률은 안전한가요?
 

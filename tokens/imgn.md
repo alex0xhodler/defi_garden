@@ -4,7 +4,7 @@ The highest honest IMGN yield right now is 0.08% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4f7d65a6-42f9-4084-a291-bcb6492d0044&src=seo_token) | Base | 0.08% | $157.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4f7d65a6-42f9-4084-a291-bcb6492d0044&src=seo_token) | Base | 0.08% | $157.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IMGN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $157.8K in total.
+1 live pool clear this page's $100K TVL floor, $157.6K in total.
 
 ### Are these rates safe?
 
@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 
 ## Available on
 

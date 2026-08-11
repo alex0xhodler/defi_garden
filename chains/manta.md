@@ -4,7 +4,7 @@ The highest honest Manta yield right now is 14.70% on bifrost-liquid-staking (Ma
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VMANTA | [bifrost-liquid-staking →](https://www.defi.garden/?pool=738aef5d-f33a-4a31-a250-b307a76e7a5d&src=seo_chain) | 14.70% | $1.24M |
+| VMANTA | [bifrost-liquid-staking →](https://www.defi.garden/?pool=738aef5d-f33a-4a31-a250-b307a76e7a5d&src=seo_chain) | 14.70% | $1.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Manta pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.24M in total.
+1 live pool clear this page's $100K TVL floor, $1.23M in total.
 
 ### Are these rates safe?
 

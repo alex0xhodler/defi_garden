@@ -5,13 +5,13 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13&src=seo_token) | Solana | 0.31% | $12.71M |
-| [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0&src=seo_token) | Solana | 2.25% | $7.26M |
-| [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token) | Solana | 0.07% | $4.67M |
+| [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0&src=seo_token) | Solana | 2.26% | $7.24M |
+| [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token) | Solana | 0.08% | $4.67M |
 | [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.06% | $4.54M |
-| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda&src=seo_token) | Solana | 0.15% | $2.99M |
+| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda&src=seo_token) | Solana | 0.16% | $2.99M |
 | [loopscale →](https://www.defi.garden/?pool=8847526a-17a9-46d9-b42d-04617ad31793&src=seo_token) | Solana | 2.00% | $1.27M |
-| [raydium-amm →](https://www.defi.garden/?pool=89101a75-3f6d-4093-bfdc-187a19cae15c&src=seo_token) | Solana | 0.33% | $1.02M |
-| [loopscale →](https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token) | Solana | 5.71% | $285.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=89101a75-3f6d-4093-bfdc-187a19cae15c&src=seo_token) | Solana | 0.30% | $1.02M |
+| [loopscale →](https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token) | Solana | 5.71% | $285.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -26,12 +26,12 @@ USX 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.06%부터 5.71%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | orca-dex | 0.31% | 0.17% | 기본 금리 |
-| kamino-lend | 2.25% | 2.31% | 기본 금리 |
-| orca-dex | 0.07% | 0.10% | 기본 금리 |
+| kamino-lend | 2.26% | 2.31% | 기본 금리 |
+| orca-dex | 0.08% | 0.10% | 기본 금리 |
 | raydium-amm | 0.06% | 0.09% | 기본 금리 |
-| orca-dex | 0.15% | 0.15% | 기본 금리 |
+| orca-dex | 0.16% | 0.14% | 기본 금리 |
 | loopscale | 2.00% | 2.19% | 기본 금리 |
-| raydium-amm | 0.33% | 0.22% | 기본 금리 |
+| raydium-amm | 0.30% | 0.22% | 기본 금리 |
 | loopscale | 5.71% | 5.91% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Solana의 loopscale에서 APY 5.71%예요.
 
 ### USX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $56.79M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $56.77M예요.
 
 ### 이 수익률은 안전한가요?
 

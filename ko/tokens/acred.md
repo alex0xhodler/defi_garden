@@ -23,7 +23,7 @@ ACRED 풀은 여기 6개가 있고, 6개 체인에서 APY가 3.13%부터 3.13%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| apollo-diversified-credit-securitize-fund | 3.13% | 3.92% | 기본 금리 |
+| apollo-diversified-credit-securitize-fund | 3.13% | 3.91% | 기본 금리 |
 | apollo-diversified-credit-securitize-fund | 3.13% | 3.92% | 기본 금리 |
 | apollo-diversified-credit-securitize-fund | 3.13% | 3.92% | 기본 금리 |
 | apollo-diversified-credit-securitize-fund | 3.13% | 3.92% | 기본 금리 |

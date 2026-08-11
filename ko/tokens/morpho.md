@@ -1,24 +1,24 @@
 # MORPHO 디파이 수익률
 
-현재 MORPHO의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 62.94%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MORPHO의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 88.18%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [moonwell-lending →](https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token) | Base | 0.16% | $10.64M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 62.94% | $1.32M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 3.64% | $601.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 14.32% | $406.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 28.25% | $336.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 44.28% | $151.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 13.28% | $136.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 88.18% | $963.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 3.57% | $600.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 13.34% | $405.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 22.85% | $335.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 42.55% | $151.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 13.02% | $136.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-MORPHO 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.16%부터 62.94%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+MORPHO 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.16%부터 88.18%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 22.17%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 22.07%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -26,13 +26,13 @@ MORPHO 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.16%부터 62.94%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| moonwell-lending | 0.16% | 0.17% | 인센티브 91.69% |
-| aerodrome-slipstream | 62.94% | 79.66% | 인센티브 27.58% |
-| uniswap-v4 | 3.64% | 7.44% | 기본 금리 |
-| raydium-amm | 14.32% | 22.17% | 기본 금리 |
-| uniswap-v3 | 28.25% | 48.63% | 기본 금리 |
-| uniswap-v3 | 44.28% | 65.99% | 기본 금리 |
-| uniswap-v3 | 13.28% | 17.55% | 기본 금리 |
+| moonwell-lending | 0.16% | 0.17% | 인센티브 91.61% |
+| aerodrome-slipstream | 88.18% | 79.63% | 인센티브 50.74% |
+| uniswap-v4 | 3.57% | 7.42% | 기본 금리 |
+| raydium-amm | 13.34% | 22.07% | 기본 금리 |
+| uniswap-v3 | 22.85% | 48.57% | 기본 금리 |
+| uniswap-v3 | 42.55% | 65.94% | 기본 금리 |
+| uniswap-v3 | 13.02% | 17.57% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +40,11 @@ MORPHO 풀은 여기 7개가 있고, 3개 체인에서 APY가 0.16%부터 62.94%
 
 ### 오늘 MORPHO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 62.94%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 88.18%예요.
 
 ### MORPHO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $14.62M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $14.26M예요.
 
 ### 이 수익률은 안전한가요?
 

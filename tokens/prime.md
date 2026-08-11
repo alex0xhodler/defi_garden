@@ -4,11 +4,11 @@ The highest honest PRIME yield right now is 6.96% on hastra (Ethereum), among 16
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7&src=seo_token) | Ethereum | 6.96% | $361.73M |
-| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 6.96% | $169.55M |
+| [hastra →](https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7&src=seo_token) | Ethereum | 6.96% | $361.75M |
+| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 6.96% | $169.45M |
 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 3.78% | $20.37M |
-| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.78% | $9.64M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 6.30% | $9M |
+| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.79% | $9.64M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 6.18% | $9M |
 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.01% | $3.4M |
 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 3.04% | $2.12M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 3.61% | $1.55M |
@@ -30,8 +30,8 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | hastra | 6.96% | 6.96% | Base rate |
 | hastra | 6.96% | 5.42% | Base rate |
 | morpho-blue | 3.78% | 3.91% | Base rate |
-| orca-dex | 0.78% | 0.67% | Base rate |
-| uniswap-v3 | 6.30% | 3.21% | Base rate |
+| orca-dex | 0.79% | 0.67% | Base rate |
+| uniswap-v3 | 6.18% | 3.22% | Base rate |
 | orca-dex | 0.01% | 0.19% | Base rate |
 | morpho-blue | 3.04% | 3.40% | Base rate |
 | morpho-blue | 3.61% | 3.71% | Base rate |
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PRIME pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $938.86M in total.
+16 live pools clear this page's $100K TVL floor, $938.77M in total.
 
 ### Are these rates safe?
 

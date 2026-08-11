@@ -4,7 +4,7 @@ The highest honest BGCI yield right now is 3.70% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f0e5333b-e19c-4133-ad6a-482e9095b68f&src=seo_token) | Base | 3.70% | $273K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f0e5333b-e19c-4133-ad6a-482e9095b68f&src=seo_token) | Base | 3.70% | $272.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BGCI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $273K in total.
+1 live pool clear this page's $100K TVL floor, $272.6K in total.
 
 ### Are these rates safe?
 
@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 
 ## Available on
 

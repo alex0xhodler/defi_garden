@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 53.07% | $200.7K |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 6.85% | $196.6K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 6.92% | $194.8K |
 | [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token) | Sonic | 0.70% | $111.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -22,8 +22,8 @@ STS 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.70%부터 53.07%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| beets-dex | 53.07% | 58.44% | 인센티브 97.36% |
-| beets-dex-v3 | 6.85% | 7.42% | 인센티브 73.32% |
+| beets-dex | 53.07% | 58.39% | 인센티브 97.36% |
+| beets-dex-v3 | 6.92% | 7.42% | 인센티브 73.28% |
 | silo-v2 | 0.70% | 0.78% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -45,11 +45,11 @@ DefiLlama 실시간 데이터 기준, Sonic의 beets-dex에서 APY 53.07%예요.
 ## 관련 토큰
 
 - [BPT](https://www.defi.garden/ko/tokens/bpt)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [EVAUSDT](https://www.defi.garden/ko/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/ko/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/ko/tokens/fbomb)
 - [WS](https://www.defi.garden/ko/tokens/ws)
-- [SFTUSD](https://www.defi.garden/ko/tokens/sftusd)
 
 ## 이용 가능한 체인
 

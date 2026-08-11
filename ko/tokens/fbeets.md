@@ -25,11 +25,11 @@ DefiLlama 실시간 데이터 기준, Sonic의 beets-dex에서 APY 53.07%예요.
 ## 관련 토큰
 
 - [BPT](https://www.defi.garden/ko/tokens/bpt)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [EVAUSDT](https://www.defi.garden/ko/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/ko/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/ko/tokens/fbomb)
 - [STS](https://www.defi.garden/ko/tokens/sts)
-- [WS](https://www.defi.garden/ko/tokens/ws)
 
 ## 이용 가능한 체인
 

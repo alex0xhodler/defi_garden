@@ -1,12 +1,12 @@
 # AIOZ-WETH — uniswap-v3 on Ethereum
 
-**Total APY:** 38.12% (38.12% Base · + 0.00% Rewards)
+**Total APY:** 36.42% (36.42% Base · + 0.00% Rewards)
 
-**TVL:** $1.07M
+**TVL:** $1.06M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.11%
+**30d Mean APY:** 3.16%
 
 **Exposure:** multi
 
@@ -22,13 +22,13 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$5,026 in 5y at current rates.
+$1,000 in this pool grows to ~$4,725 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 38.12% right now vs a 3.11% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 36.42% right now vs a 3.16% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$5,026 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$4,725 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 

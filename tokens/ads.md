@@ -1,21 +1,21 @@
 # ADS DeFi Yields
 
-The highest honest ADS yield right now is 5.08% on uniswap-v3 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ADS yield right now is 4.99% on uniswap-v3 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.10% | $707.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.09% | $704K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 5.08% | $314.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 0.12% | $228.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.10% | $706.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.09% | $703.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 4.99% | $314.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 0.12% | $228.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ADS shows up in 4 pools here, with rates from 0.09% to 5.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ADS shows up in 4 pools here, with rates from 0.09% to 4.99% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.97% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.96% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,8 +25,8 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | uniswap-v4 | 0.10% | 28.14% | Base rate |
 | uniswap-v4 | 0.09% | 0.13% | Base rate |
-| uniswap-v3 | 5.08% | 5.51% | Base rate |
-| uniswap-v3 | 0.12% | 2.42% | Base rate |
+| uniswap-v3 | 4.99% | 5.51% | Base rate |
+| uniswap-v3 | 0.12% | 2.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ADS yield today?
 
-5.08% APY on uniswap-v3 (Base), based on live DefiLlama data.
+4.99% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ADS pools clear the TVL floor?
 

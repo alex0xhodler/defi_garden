@@ -5,7 +5,7 @@ The highest honest STS yield right now is 53.07% on beets-dex (Sonic), among 4 p
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [beets-dex →](https://www.defi.garden/?pool=f06686d4-25aa-4600-8910-87844cf3b1c3&src=seo_token) | Sonic | 53.07% | $200.7K |
-| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 6.85% | $196.6K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=e23ed03a-aaaf-4531-82af-36dc959149ae&src=seo_token) | Sonic | 6.92% | $194.8K |
 | [silo-v2 →](https://www.defi.garden/?pool=68892078-2e21-4f27-b458-015d1d842636&src=seo_token) | Sonic | 0.70% | $111.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -22,8 +22,8 @@ STS shows up in 3 pools here, with rates from 0.70% to 53.07% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| beets-dex | 53.07% | 58.44% | 97.36% incentives |
-| beets-dex-v3 | 6.85% | 7.42% | 73.32% incentives |
+| beets-dex | 53.07% | 58.39% | 97.36% incentives |
+| beets-dex-v3 | 6.92% | 7.42% | 73.28% incentives |
 | silo-v2 | 0.70% | 0.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -45,11 +45,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [BPT](https://www.defi.garden/tokens/bpt)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [EVAUSDT](https://www.defi.garden/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
 - [WS](https://www.defi.garden/tokens/ws)
-- [SFTUSD](https://www.defi.garden/tokens/sftusd)
 
 ## Available on
 

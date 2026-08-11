@@ -4,7 +4,7 @@ The highest honest PGOLD yield right now is 0.01% on uniswap-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b4be06c4-0c13-407d-aa67-7b552860af28&src=seo_token) | Arbitrum | 0.01% | $351.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b4be06c4-0c13-407d-aa67-7b552860af28&src=seo_token) | Arbitrum | 0.01% | $351.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PGOLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $351.3K in total.
+1 live pool clear this page's $100K TVL floor, $351.2K in total.
 
 ### Are these rates safe?
 

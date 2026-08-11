@@ -4,7 +4,7 @@ The highest honest NMT yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=bf8c039d-e340-4451-9765-d4664703f256&src=seo_token) | Ethereum | 0.01% | $178.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=bf8c039d-e340-4451-9765-d4664703f256&src=seo_token) | Ethereum | 0.01% | $178K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NMT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $178.1K in total.
+1 live pool clear this page's $100K TVL floor, $178K in total.
 
 ### Are these rates safe?
 

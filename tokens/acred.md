@@ -23,7 +23,7 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| apollo-diversified-credit-securitize-fund | 3.13% | 3.92% | Base rate |
+| apollo-diversified-credit-securitize-fund | 3.13% | 3.91% | Base rate |
 | apollo-diversified-credit-securitize-fund | 3.13% | 3.92% | Base rate |
 | apollo-diversified-credit-securitize-fund | 3.13% | 3.92% | Base rate |
 | apollo-diversified-credit-securitize-fund | 3.13% | 3.92% | Base rate |

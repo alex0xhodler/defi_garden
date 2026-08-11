@@ -4,7 +4,7 @@ The highest honest CSCBUSDC yield right now is 6.23% on morpho-blue (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=097b18e2-9232-4c44-bd2e-502de4ba889e&src=seo_token) | Base | 6.23% | $30.12M |
+| [morpho-blue →](https://www.defi.garden/?pool=097b18e2-9232-4c44-bd2e-502de4ba889e&src=seo_token) | Base | 6.23% | $31.36M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSCBUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $30.12M in total.
+1 live pool clear this page's $100K TVL floor, $31.36M in total.
 
 ### Are these rates safe?
 
@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 
 ## Available on
 

@@ -1,21 +1,21 @@
 # APYUSD 디파이 수익률
 
-현재 APYUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 17.84%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 APYUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 17.87%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.14% | $19.69M |
-| [pendle →](https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token) | Ethereum | 16.85% | $8.78M |
-| [pendle →](https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token) | Ethereum | 17.84% | $8.78M |
-| [pendle →](https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token) | Ethereum | 15.66% | $5.25M |
-| [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 15.38% | $5.25M |
-| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.38% | $202.7K |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.13% | $19.55M |
+| [pendle →](https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token) | Ethereum | 16.83% | $8.7M |
+| [pendle →](https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token) | Ethereum | 17.87% | $8.7M |
+| [pendle →](https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token) | Ethereum | 15.67% | $5.18M |
+| [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 15.49% | $5.18M |
+| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.43% | $185.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-APYUSD 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.38%부터 17.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+APYUSD 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.43%부터 17.87%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 15.26%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -25,12 +25,12 @@ APYUSD 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.38%부터 17.84%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 7.14% | 8.13% | 기본 금리 |
-| pendle | 16.85% | 15.90% | 인센티브 0.96% |
-| pendle | 17.84% | 16.38% | 기본 금리 |
-| pendle | 15.66% | 16.51% | 인센티브 3.43% |
-| pendle | 15.38% | 14.61% | 기본 금리 |
-| hydration-dex | 0.38% | 0.93% | 기본 금리 |
+| curve-dex | 7.13% | 8.13% | 기본 금리 |
+| pendle | 16.83% | 15.91% | 인센티브 0.90% |
+| pendle | 17.87% | 16.39% | 기본 금리 |
+| pendle | 15.67% | 16.50% | 인센티브 3.50% |
+| pendle | 15.49% | 14.62% | 기본 금리 |
+| hydration-dex | 0.43% | 0.93% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -38,11 +38,11 @@ APYUSD 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.38%부터 17.84%
 
 ### 오늘 APYUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 17.84%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 17.87%예요.
 
 ### APYUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $98.59M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $97.78M예요.
 
 ### 이 수익률은 안전한가요?
 

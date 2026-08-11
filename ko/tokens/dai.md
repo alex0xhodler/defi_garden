@@ -4,12 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.17% | $112.61M |
-| [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.19% | $13.17M |
-| [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 3.03% | $9.45M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 0.89% | $7.97M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 3.77% | $7.97M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 2.83% | $3.09M |
+| [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.17% | $112.62M |
+| [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.19% | $13.16M |
+| [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 3.03% | $9.46M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 1.07% | $7.96M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 3.54% | $7.96M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 2.71% | $3.09M |
 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b&src=seo_token) | Polygon | 0.56% | $2.41M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=1193ef25-862b-43c1-a545-91bbb9678d30&src=seo_token) | Ethereum | 5.05% | $1.45M |
 
@@ -30,9 +30,9 @@ DAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 5.05%까�
 | sparklend | 2.17% | 2.23% | 기본 금리 |
 | aave-v3 | 3.19% | 3.88% | 기본 금리 |
 | yearn-finance | 3.03% | 2.99% | 기본 금리 |
-| uniswap-v2 | 0.89% | 1.88% | 기본 금리 |
-| sushiswap-v3 | 3.77% | 7.74% | 기본 금리 |
-| uniswap-v3 | 2.83% | 5.62% | 기본 금리 |
+| uniswap-v2 | 1.07% | 1.88% | 기본 금리 |
+| sushiswap-v3 | 3.54% | 7.73% | 기본 금리 |
+| uniswap-v3 | 2.71% | 5.62% | 기본 금리 |
 | quickswap-dex | 0.56% | 0.55% | 기본 금리 |
 | uniswap-v3 | 5.05% | 3.29% | 기본 금리 |
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 aave-v3에서 APY 3.19%예요.
 
 ### DAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 64개이며, 합산 TVL은 $353.95M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 64개이며, 합산 TVL은 $352.02M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,7 +4,7 @@ The highest honest LSEA yield right now is 0.96% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b417d809-6294-4029-9c4f-4bd745b8a3f8&src=seo_token) | Base | 0.96% | $122.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b417d809-6294-4029-9c4f-4bd745b8a3f8&src=seo_token) | Base | 0.96% | $122K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LSEA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.2K in total.
+1 live pool clear this page's $100K TVL floor, $122K in total.
 
 ### Are these rates safe?
 
@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 
 ## Available on
 

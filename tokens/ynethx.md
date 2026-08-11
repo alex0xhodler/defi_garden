@@ -7,7 +7,7 @@ The highest honest YNETHX yield right now is 5.02% on curve-dex (Ethereum), amon
 | [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 5.02% | $955.9K |
 | [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 5.02% | $616.5K |
 | [stake-dao →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31&src=seo_token) | Ethereum | 4.66% | $200.7K |
-| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 4.66% | $144.5K |
+| [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 4.66% | $144.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,10 +21,10 @@ YNETHX shows up in 4 pools here, with rates from 4.66% to 5.02% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 5.02% | 5.43% | 0.04% incentives |
-| convex-finance | 5.02% | 6.78% | Base rate |
+| curve-dex | 5.02% | 5.42% | 0.04% incentives |
+| convex-finance | 5.02% | 6.76% | Base rate |
 | stake-dao | 4.66% | 5.77% | 0.10% incentives |
-| yearn-finance | 4.66% | 5.67% | Base rate |
+| yearn-finance | 4.66% | 5.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YNETHX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $11.74M in total.
+6 live pools clear this page's $100K TVL floor, $11.71M in total.
 
 ### Are these rates safe?
 

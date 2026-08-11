@@ -8,7 +8,7 @@ The highest honest XMR yield right now is 27.57% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=7c5b28ca-057f-5b12-bf1b-d53696cf9377&src=seo_token) | Solana | 0.01% | $21.85M |
 | [raydium-amm →](https://www.defi.garden/?pool=541701d0-895e-57d5-8eec-d6b4352e15a3&src=seo_token) | Solana | 0.12% | $21.8M |
 | [raydium-amm →](https://www.defi.garden/?pool=fe3c6eae-cc4e-580e-a9ff-d0916b05a81a&src=seo_token) | Solana | 0.02% | $21.53M |
-| [raydium-amm →](https://www.defi.garden/?pool=ece7aac5-37bf-5aac-a456-4a6fbb6ee7f6&src=seo_token) | Solana | 16.28% | $167.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=96122c7b-beba-5567-a4d4-700f351a370d&src=seo_token) | Solana | 7.52% | $168K |
 | [raydium-amm →](https://www.defi.garden/?pool=6539cedc-38bc-5230-bebe-d7cc8fd89eba&src=seo_token) | Solana | 27.57% | $162.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=fcaa7a35-9fe7-5b9c-a6e9-3b5908547d4c&src=seo_token) | Solana | 15.67% | $160.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=b25a4f6f-cfb1-58b2-b2ec-3a181b7cc891&src=seo_token) | Solana | 31.38% | $160.2K |
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 XMR shows up in 8 pools here, with rates from 0.01% to 31.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.81% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,7 +31,7 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.12% | 0.10% | Base rate |
 | raydium-amm | 0.02% | 0.10% | Base rate |
-| raydium-amm | 16.28% | 122.52% | Base rate |
+| raydium-amm | 7.52% | 7.52% | Base rate |
 | raydium-amm | 27.57% | 28.01% | Base rate |
 | raydium-amm | 15.67% | 12.06% | Base rate |
 | raydium-amm | 31.38% | 19.41% | Base rate |

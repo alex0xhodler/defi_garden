@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [BPT](https://www.defi.garden/tokens/bpt)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [EVAUSDT](https://www.defi.garden/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/tokens/fbomb)
 - [STS](https://www.defi.garden/tokens/sts)
-- [WS](https://www.defi.garden/tokens/ws)
 
 ## Available on
 

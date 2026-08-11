@@ -4,7 +4,7 @@ The highest honest MEM yield right now is 0.11% on ston.fi (TON), among 2 pools 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=975a688b-4968-432f-acec-1fd684b780ac&src=seo_token) | TON | 0.11% | $194.6K |
+| [ston.fi →](https://www.defi.garden/?pool=975a688b-4968-432f-acec-1fd684b780ac&src=seo_token) | TON | 0.11% | $193.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MEM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $383.5K in total.
+2 live pools clear this page's $100K TVL floor, $381.5K in total.
 
 ### Are these rates safe?
 

@@ -1,18 +1,18 @@
 # YOG DeFi Yields
 
-The highest honest YOG yield right now is 6.14% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YOG yield right now is 6.11% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token) | Katana | 3.74% | $5.28M |
-| [morpho-blue →](https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token) | Ethereum | 6.14% | $2.27M |
+| [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token) | Katana | 3.73% | $5.27M |
+| [morpho-blue →](https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token) | Ethereum | 6.11% | $2.14M |
 | [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 6.04% | $191.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YOG shows up in 3 pools here, with rates from 3.74% to 6.14% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+YOG shows up in 3 pools here, with rates from 3.73% to 6.11% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,8 +22,8 @@ YOG shows up in 3 pools here, with rates from 3.74% to 6.14% APY across 3 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 3.74% | 2.96% | 14.25% incentives |
-| morpho-blue | 6.14% | 7.17% | 21.17% incentives |
+| morpho-blue | 3.73% | 2.96% | 14.20% incentives |
+| morpho-blue | 6.11% | 7.17% | 20.84% incentives |
 | morpho-blue | 6.04% | 5.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YOG yield today?
 
-6.14% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.11% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many YOG pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $7.74M in total.
+3 live pools clear this page's $100K TVL floor, $7.6M in total.
 
 ### Are these rates safe?
 

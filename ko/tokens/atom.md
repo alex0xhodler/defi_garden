@@ -5,11 +5,11 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_token) | Neutron | 17.54% | $1.4M |
-| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 3.05% | $631.5K |
-| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.02% | $398.7K |
-| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.07% | $302.9K |
-| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 11.02% | $220.8K |
-| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 3.88% | $156.1K |
+| [osmosis-dex →](https://www.defi.garden/?pool=4ced8c2d-67c4-4555-b025-be49c110ca58&src=seo_token) | Osmosis | 3.04% | $631.1K |
+| [osmosis-dex →](https://www.defi.garden/?pool=2335ea7b-8047-4cad-8552-f805e21ac850&src=seo_token) | Osmosis | 0.02% | $398.1K |
+| [osmosis-dex →](https://www.defi.garden/?pool=44d07097-a561-4054-90d0-1db7527c8b66&src=seo_token) | Osmosis | 0.07% | $302.7K |
+| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 11.06% | $221.3K |
+| [osmosis-dex →](https://www.defi.garden/?pool=11766fcf-b92b-4d3f-b32e-768c897db73b&src=seo_token) | Osmosis | 3.83% | $156K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@
 
 ATOM 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.02%부터 17.54%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.36%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.37%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 6개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -25,12 +25,12 @@ ATOM 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.02%부터 17.54%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| hydro-inflow | 17.54% | 17.46% | 기본 금리 |
-| osmosis-dex | 3.05% | 2.80% | 기본 금리 |
+| hydro-inflow | 17.54% | 17.47% | 기본 금리 |
+| osmosis-dex | 3.04% | 2.80% | 기본 금리 |
 | osmosis-dex | 0.02% | 0.22% | 기본 금리 |
 | osmosis-dex | 0.07% | 0.16% | 기본 금리 |
-| osmosis-dex | 11.02% | 12.52% | 기본 금리 |
-| osmosis-dex | 3.88% | 5.93% | 기본 금리 |
+| osmosis-dex | 11.06% | 12.54% | 기본 금리 |
+| osmosis-dex | 3.83% | 5.93% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Neutron의 hydro-inflow에서 APY 17.54%�
 - [AKT](https://www.defi.garden/ko/tokens/akt)
 - [ATONE](https://www.defi.garden/ko/tokens/atone)
 - [DYDX](https://www.defi.garden/ko/tokens/dydx)
-- [NYM](https://www.defi.garden/ko/tokens/nym)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 
 ## 이용 가능한 체인
 

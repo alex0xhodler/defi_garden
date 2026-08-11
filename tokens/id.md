@@ -4,16 +4,16 @@ The highest honest ID yield right now is 1.71% on uniswap-v4 (Ethereum), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 2.25% | $557.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 1.71% | $113.3K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 2.35% | $555K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 1.71% | $113.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ID shows up in 2 pools here, with rates from 1.71% to 2.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ID shows up in 2 pools here, with rates from 1.71% to 2.35% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,7 +21,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap-v3 | 2.25% | 5.31% | Base rate |
+| sushiswap-v3 | 2.35% | 5.30% | Base rate |
 | uniswap-v4 | 1.71% | 2.38% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ID pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $670.5K in total.
+2 live pools clear this page's $100K TVL floor, $668.1K in total.
 
 ### Are these rates safe?
 

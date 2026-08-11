@@ -22,7 +22,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.86% | 0.98% | Base rate |
+| raydium-amm | 0.86% | 0.97% | Base rate |
 | raydium-amm | 0.14% | 0.11% | Base rate |
 | raydium-amm | 0.72% | 0.48% | Base rate |
 

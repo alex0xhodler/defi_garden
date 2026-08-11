@@ -6,7 +6,7 @@ The highest honest SRUSDE yield right now is 3.90% on pendle (Ethereum), among 4
 |---|---|---|---|
 | [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.21% | $58.39M |
 | [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 3.90% | $4.6M |
-| [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.60% | $4.6M |
+| [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.59% | $4.6M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ SRUSDE shows up in 3 pools here, with rates from 3.21% to 3.90% APY across 1 cha
 |---|---|---|---|
 | strata-markets | 3.21% | 3.26% | Base rate |
 | pendle | 3.90% | 3.89% | Base rate |
-| pendle | 3.60% | 3.97% | 7.01% incentives |
+| pendle | 3.59% | 3.97% | 6.26% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -1,12 +1,12 @@
 # WAXE-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 0.90% (0.90% Base · + 0.00% Rewards)
+**Total APY:** 0.89% (0.89% Base · + 0.00% Rewards)
 
 **TVL:** $118K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 1.00%
+**30d Mean APY:** 1.01%
 
 **Exposure:** multi
 

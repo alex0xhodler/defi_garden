@@ -27,9 +27,9 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 0.02%
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
-- [BOLD](https://www.defi.garden/ko/tokens/bold)
 - [ALETH](https://www.defi.garden/ko/tokens/aleth)
 - [ALUSD](https://www.defi.garden/ko/tokens/alusd)
+- [VAULT](https://www.defi.garden/ko/tokens/vault)
 
 ## 이용 가능한 체인
 

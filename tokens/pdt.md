@@ -1,10 +1,10 @@
 # PDT DeFi Yields
 
-The highest honest PDT yield right now is 2.53% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PDT yield right now is 2.55% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=1624abca-7020-4514-9b5e-06110230b9a0&src=seo_token) | Base | 2.53% | $232.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=1624abca-7020-4514-9b5e-06110230b9a0&src=seo_token) | Base | 2.55% | $229.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PDT yield today?
 
-2.53% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+2.55% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many PDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $232.4K in total.
+1 live pool clear this page's $100K TVL floor, $229.6K in total.
 
 ### Are these rates safe?
 
@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
+- [LBTC](https://www.defi.garden/tokens/lbtc)
 
 ## Available on
 

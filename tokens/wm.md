@@ -4,7 +4,7 @@ The highest honest WM yield right now is 2.72% on uniswap-v3 (Ethereum), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2f340114-f11e-460b-bfc9-79fd70546a55&src=seo_token) | Ethereum | 2.72% | $4.99M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2f340114-f11e-460b-bfc9-79fd70546a55&src=seo_token) | Ethereum | 2.72% | $4.98M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
