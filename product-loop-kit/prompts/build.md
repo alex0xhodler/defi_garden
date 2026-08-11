@@ -5,7 +5,11 @@ You are one iteration of the build loop. You do exactly one backlog item this se
 ## 1. Pick up work
 Read `product-loop-kit/NORTH_STAR.md`, then `product-loop-kit/RAZOR.md` (the weakest-hypothesis rule — it governs the guard, test and class rules in §3), then `product-loop-kit/BACKLOG.md`. Take the highest-scored item with status READY (skip items at attempt-limit). Set it to IN_PROGRESS with today's date. Read its spec in `product-loop-kit/specs/` fully. Read `CLAUDE.md`.
 
-**Before you start building, check the item isn't already in flight** (added 2026-07-26 after two runs built item 148 the same day): `git ls-remote origin 'refs/heads/claude/loop-<id>'`, or list open PRs. Because the status change ships in the SAME commit as the code (2026-07-13 rule), an item whose PR is open-but-unmerged — the mandatory outcome for anything NEVER-list-gated — still reads `READY` on `main`. An existing `claude/loop-<id>` branch or open PR means IN_REVIEW/BLOCKED: skip to the next item. Full write-up in `LEARNINGS.md` (2026-07-26, loop process).
+**Before you start building, check the item isn't already in flight** (added 2026-07-26 after two runs built item 148 the same day; made executable 2026-08-11, item 263, after a run built item 227's entire spec only to discover at push time it had already landed hours earlier as PR #425 — the prose version of this check ran once, at pickup, and could not see a merged-and-deleted branch, a base that went stale mid-run, or PR state at all). Fetch open PR data with the GitHub MCP tool (`list_pull_requests`/`search_pull_requests`) and save it to a JSON file, then run:
+```
+node product-loop-kit/check-item-inflight.js <id> --prs=<path-to-that-json>
+```
+Exit 0 (CLEAR) → proceed. Any other exit code obliges you to skip this item and take the next highest-scored READY item instead: exit 1 (COLLISION) means a leg matched — read the printed ref/sha/PR and treat the item as IN_REVIEW/BLOCKED rather than READY; exit 3 (CLEAR-WITH-UNAVAILABLE-LEG) means `--prs` was omitted — supply real PR data before trusting a CLEAR, never proceed on a 3; exit 2 is a usage/environment error — fix the invocation, it is not a verdict either way. Because the status change ships in the SAME commit as the code (2026-07-13 rule), an item whose PR is open-but-unmerged — the mandatory outcome for anything NEVER-list-gated — still reads `READY` on `main`; the check above is what actually catches that, not a memory of the rule. Full write-up in `LEARNINGS.md` (2026-07-26, loop process) and `product-loop-kit/specs/263.md`.
 
 If `git status` shows uncommitted changes OUTSIDE product-loop-kit/ at pickup: STOP — mark nothing, log `dirty tree — human work present, aborting to avoid sweeping it into a loop commit`, and exit. Never commit changes you didn't make.
 
@@ -36,6 +40,11 @@ Invoke the `verifier` subagent with: the spec path, the branch name, the notes f
 - Verifier PASS → continue.
 
 ## 5. Ship per policy (NORTH_STAR.md risk policy)
+- **Immediately before the FIRST push, re-run the in-flight check** (new 2026-08-11, item 263 — this step did not exist before; it is what actually catches blind spots 1 and 2, both only observable at push time, not at pickup). Re-fetch open PR data with the GitHub MCP tool and re-run:
+  ```
+  node product-loop-kit/check-item-inflight.js <id> --prs=<path-to-freshly-fetched-json>
+  ```
+  (the script re-fetches `origin/main` itself, so this also catches a base that went stale mid-session). Exit 0 → push. Any non-zero exit obliges you to STOP and NOT push: exit 1 (COLLISION) means the item landed or someone else claimed it while you built — reconcile against what's actually on `main`/open before doing anything else, and if your work is now redundant, discard the branch and record why rather than merging duplicate work; exit 3 means `--prs` didn't carry real data — fetch it and re-run before pushing, never push on a 3; exit 2 is a usage/environment error — fix the invocation and re-run, it blocks the push exactly like a 1 or 3 until resolved.
 - Check NORTH_STAR.md's NEVER list first (trust-rail weakening, credentials/org-admin/money, SEO deletion, out-of-scope dirs): if the diff touches any → leave the branch unmerged, mark the item BLOCKED with the question, log it, exit.
 - Otherwise (standing decision 2026-07-10): verifier PASS + tests green → merge to main, ANY risk tier. No human pre-merge gate.
 - BEFORE merging, write the explainer to `product-loop-kit/specs/<item-id>-pr.md`: HIGH tier = full walkthrough (goal → intuition → what changed and why, diff in reading order, deviations from spec) ending with a 5-question quiz (answers at the bottom, base64). LOW tier = short explainer, same file.
