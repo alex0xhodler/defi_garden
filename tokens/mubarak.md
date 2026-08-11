@@ -4,7 +4,7 @@ The highest honest MUBARAK yield right now is 0.08% on raydium-amm (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=bb42ddcb-7379-5c24-9200-1ccd4ac3ca9f&src=seo_token) | Solana | 0.08% | $22.98M |
+| [raydium-amm →](https://www.defi.garden/?pool=bb42ddcb-7379-5c24-9200-1ccd4ac3ca9f&src=seo_token) | Solana | 0.08% | $22.99M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MUBARAK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $22.98M in total.
+1 live pool clear this page's $100K TVL floor, $22.99M in total.
 
 ### Are these rates safe?
 

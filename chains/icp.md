@@ -4,14 +4,14 @@ The highest honest ICP yield right now is 8.04% on waterneuron (ICP), among 11 p
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_chain) | 8.04% | $5.64M |
-| CKUSDC-ICP | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_chain) | 22.17% | $569.9K |
-| VCHF-ICP | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_chain) | 12.43% | $466.8K |
-| USDC | [liquidium →](https://www.defi.garden/?pool=d88ae0d8-a1ec-4a32-9fc9-9b4ab7c416e7&src=seo_chain) | 2.70% | $271.3K |
-| USDT | [liquidium →](https://www.defi.garden/?pool=3212366c-3e08-4da7-8ccb-a69fbf7840c1&src=seo_chain) | 2.79% | $227.2K |
-| GLDT-CKUSDT | [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_chain) | 4.34% | $169.3K |
-| CKETH-CKBTC | [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_chain) | 1.49% | $111.7K |
-| NICP-ICP | [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_chain) | 2.60% | $109.5K |
+| NICP | [waterneuron →](https://www.defi.garden/?pool=4450335c-bad3-4293-947b-64896b893a5b&src=seo_chain) | 8.04% | $5.61M |
+| CKUSDC-ICP | [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_chain) | 25.92% | $573.1K |
+| VCHF-ICP | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_chain) | 12.99% | $466.9K |
+| USDC | [liquidium →](https://www.defi.garden/?pool=d88ae0d8-a1ec-4a32-9fc9-9b4ab7c416e7&src=seo_chain) | 2.70% | $271.1K |
+| USDT | [liquidium →](https://www.defi.garden/?pool=3212366c-3e08-4da7-8ccb-a69fbf7840c1&src=seo_chain) | 2.80% | $226.4K |
+| GLDT-CKUSDT | [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_chain) | 4.28% | $166.5K |
+| CKETH-CKBTC | [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_chain) | 1.49% | $111.8K |
+| NICP-ICP | [icpswap →](https://www.defi.garden/?pool=48e0cceb-d027-485f-9622-2ee278dc0a56&src=seo_chain) | 2.56% | $110.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ICP pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $10.57M in total.
+11 live pools clear this page's $100K TVL floor, $10.53M in total.
 
 ### Are these rates safe?
 

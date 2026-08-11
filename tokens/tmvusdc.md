@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 TMVUSDC shows up in 4 pools here, with rates from 2.41% to 7.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,7 +23,7 @@ TMVUSDC shows up in 4 pools here, with rates from 2.41% to 7.88% APY across 1 ch
 |---|---|---|---|
 | pendle | 6.52% | 6.26% | Base rate |
 | pendle | 7.88% | 7.95% | Base rate |
-| curve-dex | 5.53% | 4.59% | 56.40% incentives |
+| curve-dex | 5.53% | 4.59% | 56.38% incentives |
 | convex-finance | 2.41% | 2.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

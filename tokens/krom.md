@@ -4,7 +4,7 @@ The highest honest KROM yield right now is 0.03% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d3d6eb6a-4bf9-4a16-947f-6ce7d5399959&src=seo_token) | Ethereum | 0.03% | $358.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d3d6eb6a-4bf9-4a16-947f-6ce7d5399959&src=seo_token) | Ethereum | 0.03% | $357.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KROM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $358.7K in total.
+1 live pool clear this page's $100K TVL floor, $357.5K in total.
 
 ### Are these rates safe?
 

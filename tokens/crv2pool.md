@@ -23,8 +23,8 @@ CRV2POOL shows up in 3 pools here, with rates from 0.12% to 0.87% APY across 1 c
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curve-dex | 0.32% | 0.28% | Base rate |
-| curve-dex | 0.87% | 0.74% | 86.25% incentives |
-| convex-finance | 0.12% | 2.56% | Base rate |
+| curve-dex | 0.87% | 0.74% | 86.18% incentives |
+| convex-finance | 0.12% | 2.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

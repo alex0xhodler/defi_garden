@@ -4,8 +4,8 @@ The highest honest SW yield right now is 14.53% on spectra-v2 (Flare), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 14.53% | $739K |
-| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 8.32% | $739K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 14.53% | $744.7K |
+| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 8.32% | $744.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | spectra-v2 | 14.53% | 13.12% | Base rate |
-| spectra-v2 | 8.32% | 7.03% | Base rate |
+| spectra-v2 | 8.32% | 7.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SW pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.48M in total.
+2 live pools clear this page's $100K TVL floor, $1.49M in total.
 
 ### Are these rates safe?
 
@@ -43,8 +43,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
-- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [SFLR](https://www.defi.garden/tokens/sflr)
+- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [USDX](https://www.defi.garden/tokens/usdx)
 - [STXRP](https://www.defi.garden/tokens/stxrp)

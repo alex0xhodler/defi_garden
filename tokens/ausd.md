@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 AUSD shows up in 8 pools here, with rates from 0.20% to 8.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.56% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.57% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,10 +27,10 @@ AUSD shows up in 8 pools here, with rates from 0.20% to 8.15% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| centrifuge-protocol | 5.75% | 4.22% | Base rate |
+| centrifuge-protocol | 5.75% | 4.23% | Base rate |
 | accountable | 6.83% | 6.81% | 4.18% incentives |
 | euler-v2 | 6.38% | 7.46% | 19.61% incentives |
-| accountable | 8.15% | 4.90% | 17.18% incentives |
+| accountable | 8.15% | 4.92% | 17.18% incentives |
 | uniswap-v3 | 0.71% | 0.34% | Base rate |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 | uniswap-v4 | 0.20% | 0.13% | Base rate |
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AUSD pools clear the TVL floor?
 
-35 live pools clear this page's $100K TVL floor, $684.64M in total.
+35 live pools clear this page's $100K TVL floor, $684.65M in total.
 
 ### Are these rates safe?
 

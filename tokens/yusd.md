@@ -4,7 +4,7 @@ The highest honest YUSD yield right now is 0.19% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.19% | $589K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.19% | $588.3K |
 | [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $37.47M in total.
+5 live pools clear this page's $100K TVL floor, $37.46M in total.
 
 ### Are these rates safe?
 

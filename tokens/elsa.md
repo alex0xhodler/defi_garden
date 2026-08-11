@@ -1,10 +1,10 @@
 # ELSA DeFi Yields
 
-The highest honest ELSA yield right now is 13.87% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ELSA yield right now is 15.52% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=649bee89-0a34-4eb1-b8ab-7c5fdee07ccd&src=seo_token) | Mantle | 13.87% | $162.5K |
+| [fluxion-network →](https://www.defi.garden/?pool=649bee89-0a34-4eb1-b8ab-7c5fdee07ccd&src=seo_token) | Mantle | 15.52% | $163.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ELSA yield today?
 
-13.87% APY on fluxion-network (Mantle), based on live DefiLlama data.
+15.52% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many ELSA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $162.5K in total.
+1 live pool clear this page's $100K TVL floor, $163.5K in total.
 
 ### Are these rates safe?
 

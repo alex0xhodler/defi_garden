@@ -4,7 +4,7 @@ The highest honest ATC yield right now is 0.01% on uniswap-v3 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.01% | $398.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.01% | $399.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ATC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $398.7K in total.
+1 live pool clear this page's $100K TVL floor, $399.1K in total.
 
 ### Are these rates safe?
 

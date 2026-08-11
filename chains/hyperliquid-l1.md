@@ -4,14 +4,14 @@ The highest honest Hyperliquid L1 yield right now is 23.77% on project-x (Hyperl
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.92% | $778.17M |
-| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.59% | $42.92M |
-| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.30% | $18.77M |
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.92% | $783.19M |
+| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.58% | $43.54M |
+| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.30% | $18.89M |
 | WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 23.77% | $16.74M |
-| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 0.78% | $15.64M |
-| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 7.51% | $13.38M |
+| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 0.79% | $15.65M |
+| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 7.45% | $13.37M |
+| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.96% | $11.35M |
 | LIMUSD | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_chain) | 7.29% | $10.52M |
-| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 9.21% | $9.49M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Hyperliquid L1 pools clear the TVL floor?
 
-164 live pools clear this page's $100K TVL floor, $1.69B in total.
+164 live pools clear this page's $100K TVL floor, $1.7B in total.
 
 ### Are these rates safe?
 

@@ -4,8 +4,8 @@ The highest honest VLMGP yield right now is 0.25% on wompie (Arbitrum), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wompie →](https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token) | BSC | 0.06% | $246.1K |
-| [wompie →](https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token) | Arbitrum | 0.25% | $135.1K |
+| [wompie →](https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token) | BSC | 0.06% | $245.7K |
+| [wompie →](https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token) | Arbitrum | 0.25% | $134.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VLMGP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $381.1K in total.
+2 live pools clear this page's $100K TVL floor, $380.6K in total.
 
 ### Are these rates safe?
 

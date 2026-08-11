@@ -5,16 +5,16 @@ The highest honest FUN yield right now is 0.56% on quickswap-dex (Polygon), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b&src=seo_token) | Polygon | 0.56% | $2.41M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d&src=seo_token) | Base | 290.11% | $350.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8&src=seo_token) | Solana | 1.49% | $122.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=18674a4f-57ea-4c91-99ce-ea1a2b37aa3d&src=seo_token) | Base | 326.20% | $349.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=eadfa983-1111-467f-9d80-22c6a275f6c8&src=seo_token) | Solana | 2.17% | $122.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FUN shows up in 3 pools here, with rates from 0.56% to 290.11% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+FUN shows up in 3 pools here, with rates from 0.56% to 326.20% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,8 +23,8 @@ FUN shows up in 3 pools here, with rates from 0.56% to 290.11% APY across 3 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | quickswap-dex | 0.56% | 0.55% | Base rate |
-| aerodrome-slipstream | 290.11% | 844.36% | 97.27% incentives |
-| raydium-amm | 1.49% | 4.65% | Base rate |
+| aerodrome-slipstream | 326.20% | 843.89% | 97.06% incentives |
+| raydium-amm | 2.17% | 4.64% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FUN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.89M in total.
+3 live pools clear this page's $100K TVL floor, $2.88M in total.
 
 ### Are these rates safe?
 

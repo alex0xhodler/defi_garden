@@ -4,7 +4,7 @@ The highest honest SRUSDE yield right now is 3.90% on pendle (Ethereum), among 4
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.21% | $58.38M |
+| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.21% | $58.39M |
 | [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 3.90% | $4.6M |
 | [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.60% | $4.6M |
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SRUSDE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $116.63M in total.
+4 live pools clear this page's $100K TVL floor, $116.64M in total.
 
 ### Are these rates safe?
 

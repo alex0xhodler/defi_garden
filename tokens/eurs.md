@@ -1,11 +1,11 @@
 # EURS DeFi Yields
 
-The highest honest EURS yield right now is 0.16% on convex-finance (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURS yield right now is 0.16% on convex-finance (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [convex-finance →](https://www.defi.garden/?pool=efa8dc4f-03df-4633-95bf-db188292d9a3&src=seo_token) | Ethereum | 0.01% | $149.38M |
-| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.16% | $269.6K |
+| [convex-finance →](https://www.defi.garden/?pool=7dd11dd0-ce13-4cd2-bc1e-230224289337&src=seo_token) | Ethereum | 0.16% | $270.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EURS pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $304.06M in total.
+7 live pools clear this page's $100K TVL floor, $157.99M in total.
 
 ### Are these rates safe?
 

@@ -4,9 +4,9 @@ The highest honest KP3R yield right now is 0.38% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273&src=seo_token) | Ethereum | 0.11% | $159.8K |
-| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5&src=seo_token) | Ethereum | 0.11% | $159.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f&src=seo_token) | Ethereum | 0.38% | $119.5K |
+| [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273&src=seo_token) | Ethereum | 0.11% | $159.7K |
+| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5&src=seo_token) | Ethereum | 0.11% | $159.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f&src=seo_token) | Ethereum | 0.38% | $118.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,9 +22,9 @@ KP3R shows up in 3 pools here, with rates from 0.11% to 0.38% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.11% | 0.12% | 1.06% incentives |
+| curve-dex | 0.11% | 0.12% | 1.05% incentives |
 | convex-finance | 0.11% | 0.13% | Base rate |
-| uniswap-v3 | 0.38% | 0.66% | Base rate |
+| uniswap-v3 | 0.38% | 0.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KP3R pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $438.7K in total.
+3 live pools clear this page's $100K TVL floor, $437.4K in total.
 
 ### Are these rates safe?
 

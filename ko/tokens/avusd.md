@@ -4,13 +4,13 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 10.57% | $2.91M |
-| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 8.46% | $990.8K |
+| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 10.59% | $2.91M |
+| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 8.41% | $990.8K |
 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $761.1K |
-| [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 10.63% | $722.1K |
-| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 12.89% | $304.4K |
+| [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 10.63% | $722.2K |
+| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 12.81% | $304.4K |
 | [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 14.84% | $250.3K |
-| [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token) | Ethereum | 11.84% | $127.4K |
+| [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token) | Ethereum | 11.77% | $127.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -18,19 +18,19 @@
 
 AVUSD 풀은 여기 7개가 있고, 2개 체인에서 APY가 5.00%부터 14.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.16%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.17%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 7개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| balancer-v3 | 10.57% | 9.16% | 인센티브 91.11% |
-| curve-dex | 8.46% | 6.15% | 인센티브 99.65% |
-| curve-dex | 5.00% | 5.74% | 인센티브 100.00% |
-| stake-dao | 10.63% | 7.47% | 인센티브 99.53% |
-| curve-dex | 12.89% | 10.11% | 인센티브 99.92% |
-| stake-dao | 14.84% | 11.50% | 인센티브 98.65% |
-| convex-finance | 11.84% | 10.94% | 인센티브 99.75% |
+| balancer-v3 | 10.59% | 9.17% | 인센티브 91.02% |
+| curve-dex | 8.41% | 6.15% | 인센티브 99.64% |
+| curve-dex | 5.00% | 5.72% | 인센티브 100.00% |
+| stake-dao | 10.63% | 7.48% | 인센티브 99.53% |
+| curve-dex | 12.81% | 10.11% | 인센티브 99.92% |
+| stake-dao | 14.84% | 11.49% | 인센티브 98.65% |
+| convex-finance | 11.77% | 10.94% | 인센티브 99.75% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

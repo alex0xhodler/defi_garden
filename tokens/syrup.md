@@ -1,19 +1,19 @@
 # SYRUP DeFi Yields
 
-The highest honest SYRUP yield right now is 14.43% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYRUP yield right now is 13.89% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token) | Ethereum | 14.43% | $1.81M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 13.32% | $627.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token) | Ethereum | 13.89% | $1.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 14.71% | $622.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SYRUP shows up in 2 pools here, with rates from 13.32% to 14.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SYRUP shows up in 2 pools here, with rates from 13.89% to 14.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 24.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 24.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 14.43% | 19.35% | Base rate |
-| uniswap-v3 | 13.32% | 30.04% | Base rate |
+| uniswap-v4 | 13.89% | 19.24% | Base rate |
+| uniswap-v3 | 14.71% | 29.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SYRUP yield today?
 
-14.43% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+13.89% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SYRUP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.57M in total.
+3 live pools clear this page's $100K TVL floor, $2.55M in total.
 
 ### Are these rates safe?
 

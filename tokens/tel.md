@@ -1,23 +1,23 @@
 # TEL DeFi Yields
 
-The highest honest TEL yield right now is 27.43% on uniswap-v3 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TEL yield right now is 28.12% on uniswap-v3 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 3.00% | $734.2K |
-| [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 4.10% | $532.2K |
-| [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 2.95% | $315.7K |
+| [balancer-v2 →](https://www.defi.garden/?pool=4e876453-5987-493b-ab83-77dd16abb53c&src=seo_token) | Polygon | 6.06% | $734K |
+| [balancer-v2 →](https://www.defi.garden/?pool=123721fb-e06c-4e01-b455-72848a538df9&src=seo_token) | Polygon | 4.11% | $535.1K |
+| [balancer-v2 →](https://www.defi.garden/?pool=2d143ba5-3e81-48ee-89b3-1b304de3d6e0&src=seo_token) | Polygon | 2.94% | $317.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=6b9473ca-1e45-4fa7-ae93-9a1a4a702663&src=seo_token) | Polygon | 25.71% | $194.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 27.43% | $165.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 4.94% | $112.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4df1cf5f-d247-43f1-8983-e433431de6f0&src=seo_token) | Ethereum | 28.12% | $165.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0060b528-c9e4-4d4d-a514-efba2808d2d4&src=seo_token) | Ethereum | 4.98% | $112.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TEL shows up in 6 pools here, with rates from 2.95% to 27.43% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+TEL shows up in 6 pools here, with rates from 2.94% to 28.12% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 10.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 10.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,12 +25,12 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v2 | 3.00% | 3.57% | Base rate |
-| balancer-v2 | 4.10% | 7.27% | Base rate |
-| balancer-v2 | 2.95% | 4.50% | Base rate |
-| uniswap-v4 | 25.71% | 37.56% | Base rate |
-| uniswap-v3 | 27.43% | 40.30% | Base rate |
-| uniswap-v4 | 4.94% | 13.43% | Base rate |
+| balancer-v2 | 6.06% | 3.58% | Base rate |
+| balancer-v2 | 4.11% | 7.29% | Base rate |
+| balancer-v2 | 2.94% | 4.52% | Base rate |
+| uniswap-v4 | 25.71% | 37.69% | Base rate |
+| uniswap-v3 | 28.12% | 40.33% | Base rate |
+| uniswap-v4 | 4.98% | 13.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TEL yield today?
 
-27.43% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+28.12% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many TEL pools clear the TVL floor?
 

@@ -5,8 +5,8 @@ The highest honest FXB yield right now is 6.62% on curve-dex (Fraxtal), among 5 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_token) | Fraxtal | 6.62% | $1.59M |
-| [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f&src=seo_token) | Ethereum | 2.78% | $842.6K |
-| [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a&src=seo_token) | Ethereum | 2.78% | $804.4K |
+| [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f&src=seo_token) | Ethereum | 2.78% | $842.8K |
+| [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a&src=seo_token) | Ethereum | 2.78% | $804.6K |
 | [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205&src=seo_token) | Arbitrum | 2.73% | $191.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ FXB shows up in 4 pools here, with rates from 2.73% to 6.62% APY across 3 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 6.62% | 5.90% | 20.21% incentives |
+| curve-dex | 6.62% | 5.90% | 20.22% incentives |
 | curve-dex | 2.78% | 2.76% | 0.00% incentives |
 | convex-finance | 2.78% | 2.76% | Base rate |
 | curve-dex | 2.73% | 2.71% | Base rate |

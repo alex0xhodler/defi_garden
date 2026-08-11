@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token) | Cronos | 0.01% | $1.68M |
-| [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token) | Cronos | 0.04% | $704.8K |
+| [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token) | Cronos | 0.01% | $1.71M |
+| [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token) | Cronos | 0.04% | $721.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.04%예�
 
 ### LCRO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.38M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.43M예요.
 
 ### 이 수익률은 안전한가요?
 

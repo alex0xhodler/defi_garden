@@ -1,18 +1,18 @@
 # STON DeFi Yields
 
-The highest honest STON yield right now is 13.73% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STON yield right now is 13.74% on ston.fi (TON), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 13.73% | $721.5K |
+| [ston.fi →](https://www.defi.garden/?pool=31d19516-8eb0-40e7-a6e8-03ef10a505f1&src=seo_token) | TON | 13.74% | $721.7K |
 | [ston.fi →](https://www.defi.garden/?pool=8fe3540e-5c20-4d21-a3af-9f5093eb07c4&src=seo_token) | TON | 0.68% | $187.9K |
-| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.13% | $108.5K |
+| [ston.fi →](https://www.defi.garden/?pool=bc7ac7ae-ef98-4a0a-b352-9c58d082859d&src=seo_token) | TON | 0.13% | $108.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STON shows up in 3 pools here, with rates from 0.13% to 13.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STON shows up in 3 pools here, with rates from 0.13% to 13.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ STON shows up in 3 pools here, with rates from 0.13% to 13.73% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ston.fi | 13.73% | 14.89% | 96.40% incentives |
+| ston.fi | 13.74% | 14.88% | 96.38% incentives |
 | ston.fi | 0.68% | 1.64% | Base rate |
 | ston.fi | 0.13% | 0.47% | Base rate |
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STON yield today?
 
-13.73% APY on ston.fi (TON), based on live DefiLlama data.
+13.74% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many STON pools clear the TVL floor?
 

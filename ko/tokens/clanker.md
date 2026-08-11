@@ -1,19 +1,19 @@
 # CLANKER 디파이 수익률
 
-현재 CLANKER의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 83.32%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CLANKER의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 96.81%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token) | Base | 3.99% | $1.42M |
-| [raydium-amm →](https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token) | Solana | 2.50% | $156.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token) | Base | 4.62% | $1.41M |
+| [raydium-amm →](https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token) | Solana | 2.44% | $157.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token) | Base | 0.99% | $152.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token) | Base | 83.32% | $112.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token) | Base | 96.81% | $119.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CLANKER 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.99%부터 83.32%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CLANKER 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.99%부터 96.81%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.20%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -23,10 +23,10 @@ CLANKER 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.99%부터 83.32
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 3.99% | 8.89% | 기본 금리 |
-| raydium-amm | 2.50% | 3.51% | 기본 금리 |
-| uniswap-v4 | 0.99% | 2.38% | 기본 금리 |
-| aerodrome-slipstream | 83.32% | 97.50% | 인센티브 93.66% |
+| uniswap-v3 | 4.62% | 8.89% | 기본 금리 |
+| raydium-amm | 2.44% | 3.51% | 기본 금리 |
+| uniswap-v4 | 0.99% | 2.36% | 기본 금리 |
+| aerodrome-slipstream | 96.81% | 97.81% | 인센티브 94.32% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -34,7 +34,7 @@ CLANKER 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.99%부터 83.32
 
 ### 오늘 CLANKER의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 83.32%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 96.81%예요.
 
 ### CLANKER 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

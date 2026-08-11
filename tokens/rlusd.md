@@ -31,7 +31,7 @@ RLUSD shows up in 7 pools here, with rates from 0.43% to 5.00% APY across 1 chai
 | convex-finance | 0.43% | 0.21% | 0.00% incentives |
 | euler-v2 | 3.71% | 4.53% | 68.60% incentives |
 | uniswap-v3 | 5.00% | 4.74% | Base rate |
-| uniswap-v3 | 4.72% | 3.65% | Base rate |
+| uniswap-v3 | 4.72% | 3.66% | Base rate |
 | aave-v3 | 2.88% | 2.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RLUSD pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $193.36M in total.
+8 live pools clear this page's $100K TVL floor, $193.37M in total.
 
 ### Are these rates safe?
 

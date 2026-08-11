@@ -4,16 +4,16 @@ The highest honest API3 yield right now is 6.76% on morpho-blue (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 6.76% | $13.37M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 2.26% | $163.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 6.76% | $13.38M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6688893b-a805-4d7a-8b46-3765ba12dabb&src=seo_token) | Ethereum | 1.85% | $163.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-API3 shows up in 2 pools here, with rates from 2.26% to 6.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+API3 shows up in 2 pools here, with rates from 1.85% to 6.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 6.76% | 9.33% | Base rate |
-| uniswap-v4 | 2.26% | 7.51% | Base rate |
+| morpho-blue | 6.76% | 9.20% | Base rate |
+| uniswap-v4 | 1.85% | 7.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
