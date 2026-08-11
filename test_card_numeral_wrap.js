@@ -21,12 +21,37 @@
       window.innerWidth, 1px tolerance).
    D. every numeral cell's own scrollWidth <= clientWidth + 1 (no internal
       clipping/overflow of its own content).
-   E. no numeral cell's box overlaps another numeral cell's box (or the pool
-      name/symbol text) within the same .pool-card (no encroachment).
+   E. no numeral cell's box overlaps ANY other rendered text-bearing leaf
+      element's box within the same .pool-card (no encroachment). The
+      neighbour set is DERIVED from the rendered card (246 finding 1b,
+      attempt 2 — the verifier reproduced a real overlap between
+      .pool-apy-hero and .pool-context-inline that a hardcoded
+      numeral-vs-.pool-symbol-only comparison could never see): every element
+      with no child elements and non-empty text is a candidate neighbour, so
+      .pool-context-inline and .pool-symbol are covered automatically, and so
+      would any future text element added to the card. ONE exclusion:
+      elements inside .pool-cta-section (the CTA button) are left out of the
+      neighbour set — see the inline comment at the derivation site for why,
+      and for the unrelated CTA-button overlap that exclusion was found to be
+      hiding (recorded, not fixed, in specs/246-notes.md).
    Plus, on /?pool=<id> (leg b, already closed by 247 — pinned only):
    F. .pool-token-chip computed font-family === body's computed font-family.
    G. .pool-token-chip computed text-transform !== 'uppercase'.
    Zero page errors throughout (reuses the ignorable-error filter).
+
+   Coverage boundary of check E, stated plainly (RAZOR): the derivation
+   covers every rendered .pool-card in THIS test's population. It does NOT
+   cover, and cannot catch: (1) overlaps hidden by the .pool-cta-section
+   exclusion above; (2) a pairing this file's fixture population doesn't
+   render — in particular, the usdc-poly-aave fixture pool (relabeled to
+   LONGEST_PROJECT_SLUG) below is
+   deliberately paired with a REALISTIC (non-anomalous) APY, so it proves the
+   long-slug byline does NOT collide with a normal-magnitude hero; the same
+   long slug paired with an ANOMALOUS magnitude (e.g. apyBase 9999999.99) DOES
+   collide with .pool-apy-hero at 768px — reproduced in this session, NOT
+   fixed, NOT asserted by any test() below (asserting it would make this file
+   permanently red for a pre-existing, out-of-scope defect) — see
+   specs/246-notes.md for the exact reproduction and viewport.
 
    Harness notes learned the hard way (do not "fix" these):
    - `page.goto` uses waitUntil: 'domcontentloaded', NOT 'load' — 'load' hangs
@@ -64,6 +89,17 @@ const MIME = {
 const IGNORABLE_ERROR_PATTERN = /mp\.defi\.garden|cdn\.mxpnl\.com|mixpanel|api\.llama\.fi\/protocols|fontshare\.com|icons\.llamao\.fi/i;
 const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/pw-browsers/chromium' : undefined;
 
+// 246 finding 1b (verifier, attempt 2): the guard's neighbour set must be
+// exercised against a REALISTIC worst case, not a convenient hardcoded name.
+// Computed from the live snapshot, not hardcoded -- if the snapshot's longest
+// project slug changes, this fixture follows it. Printed below (non-vacuity:
+// the value actually used is visible in the run's own output).
+const SNAPSHOT_FOR_LONGEST_SLUG = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/pools-snapshot.json'), 'utf8'));
+let LONGEST_PROJECT_SLUG = '';
+for (const p of SNAPSHOT_FOR_LONGEST_SLUG.pools) {
+  if (p.project && p.project.length > LONGEST_PROJECT_SLUG.length) LONGEST_PROJECT_SLUG = p.project;
+}
+
 // DefiLlama-shaped fixture (mirrors test_list_polish.js): sized above
 // DEFAULT_MIN_TVL ($10M) so trust-rail filtering never hides them.
 function makePool(id, project, symbol, chain, tvlUsd, apyBase, poolMeta) {
@@ -85,7 +121,17 @@ const FIXTURE_POOLS = [
   makePool('usdc-near-zero', 'quiet-vault', 'USDC', 'Ethereum', 12_000_000, 0.01),
   makePool('usdc-eth-morpho', 'morpho-blue', 'USDC', 'Ethereum', 55_000_000, 5.9),
   makePool('usdc-arb-aave', 'aave-v3', 'USDC', 'Arbitrum', 70_000_000, 4.8),
-  makePool('usdc-poly-aave', 'aave-v3', 'USDC', 'Polygon', 30_000_000, 3.1),
+  // 246 finding 1b: this pool's project is the LONGEST project slug actually
+  // present in data/pools-snapshot.json (computed above, not hardcoded),
+  // paired with a realistic (non-anomalous) APY -- exercises the widened
+  // neighbour-overlap check (E) against a real-world-shaped worst case, not
+  // an invented one. Kept at this pool's original TVL rank (30M) so it
+  // occupies the SAME page-1 slot 'aave-v3'/Polygon held before: itemsPerPage
+  // is 9 (app.js), so simply appending a 12th fixture pool would silently
+  // push the lowest-ranked pool (usdc-daypreview-glitch, the Trial-2
+  // non-vacuity stress fixture for .pool-apy-preview) off page 1 instead of
+  // adding coverage -- relabeling an existing filler pool avoids that.
+  makePool('usdc-poly-aave', LONGEST_PROJECT_SLUG, 'USDC', 'Polygon', 30_000_000, 3.1),
   makePool('usdc-opt-aave', 'aave-v3', 'USDC', 'Optimism', 25_000_000, 2.7),
   makePool('usdc-avax-aave', 'aave-v3', 'USDC', 'Avalanche', 40_000_000, 3.9),
   makePool('usdc-bsc-venus', 'venus-core-pool', 'USDC', 'BSC', 18_000_000, 4.4),
@@ -235,15 +281,45 @@ const SCAN_FN = () => {
       cellsInCard.push({ cls, text: el.textContent, rect });
     }
 
-    // Also include the pool name/symbol text as a neighbour for overlap
-    // checks (a wrapped/overflowing numeral cell could bleed into it).
-    const symbolEl = card.querySelector('.pool-symbol');
+    // 246 finding 1b (widened, attempt 2): neighbours are DERIVED from the
+    // rendered card, not hardcoded to .pool-symbol -- every rendered LEAF
+    // text-bearing element in the card (an element with no child elements and
+    // non-empty trimmed textContent) is a candidate neighbour, so
+    // .pool-context-inline (the "on <project> · <chain>" byline the verifier
+    // reproduced an overlap against) and .pool-symbol are both included
+    // automatically, and so would a sixth text element added to the card
+    // tomorrow. ONE exclusion, stated here rather than silently applied:
+    // elements inside .pool-cta-section (the "Calculate Yield" button) are
+    // left out, because a control's action label is a different semantic
+    // class than passive identity/numeral text and this item's scope is the
+    // numeral-vs-text collision class, not interactive controls. That
+    // exclusion is not merely theoretical: including the CTA button surfaced
+    // a real overlap in grid view (.tvl-value "$950000000.0B" -- the
+    // pre-existing non-vacuity stress fixture for the TVL cell, tvlUsd=
+    // 950e15 -- overlapping .calculate-yield-btn-new "View & calculate →")
+    // that is unrelated to either of this item's two findings; it is neither
+    // fixed nor further investigated here (out of scope), recorded in
+    // specs/246-notes.md instead of being silently swallowed by the
+    // exclusion.
+    const allEls = Array.from(card.querySelectorAll('*')).filter((el) => !el.closest('.pool-cta-section'));
     const neighbours = cellsInCard.slice();
-    if (symbolEl) {
-      neighbours.push({ cls: 'pool-symbol', text: symbolEl.textContent, rect: symbolEl.getBoundingClientRect() });
+    const numeralClassSet = new Set(cellsInCard.map((c) => c.cls));
+    for (const el of allEls) {
+      if (el.children.length !== 0) continue; // only leaves: avoid double-counting a parent and its own child text
+      const txt = (el.textContent || '').trim();
+      if (!txt) continue;
+      const leafCls = (el.className && typeof el.className === 'string') ? el.className.split(/\s+/)[0] : el.tagName;
+      if (numeralClassSet.has(leafCls)) continue; // already scanned above as a numeral cell
+      const leafCs = getComputedStyle(el);
+      if (leafCs.display === 'none') continue;
+      const leafRect = el.getBoundingClientRect();
+      if (leafRect.width === 0 && leafRect.height === 0) continue;
+      neighbours.push({ cls: leafCls || el.tagName, text: txt, rect: leafRect });
     }
 
-    // E. no pairwise overlap among numeral cells (+ symbol) within the card.
+    // E. no pairwise overlap between a numeral cell and any neighbour
+    // (another numeral cell, or any other rendered text-bearing leaf in the
+    // card -- see the derivation above for what "leaf" excludes).
     for (let i = 0; i < cellsInCard.length; i++) {
       for (let j = 0; j < neighbours.length; j++) {
         if (neighbours[j].cls === cellsInCard[i].cls && neighbours[j].text === cellsInCard[i].text) continue;
@@ -280,6 +356,7 @@ async function shot(page, name) {
 
 async function main() {
   console.log('network: unpkg.com BLOCKED (vendored React/Babel), yields.llama.fi BLOCKED (fixture snapshot)');
+  console.log(`longest project slug in data/pools-snapshot.json: "${LONGEST_PROJECT_SLUG}" (${LONGEST_PROJECT_SLUG.length} chars) -- used as usdc-poly-aave's project below (246 finding 1b)`);
   const server = await startServer();
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
   const VIEWPORTS = [360, 768, 1280, 1540];

@@ -13,12 +13,24 @@ server, vendored React/Babel, stale-stubbed snapshot, `CHROMIUM_EXECUTABLE=/opt/
   (measured directly: `height=37.6, lineHeight=19.2` → `Math.round(37.6/19.2) = 2`). Grid view showed
   the same 2-line wrap at 360/768/1280/1540 once the rule was removed. This reproduces the operator's
   original finding exactly — see the non-vacuity transcript below for the actual red output.
-- **Leg (a) named instance ($/day cell), re-confirmed as NOT reproducing with realistic values**:
-  measured `.pool-apy-preview` text width for the widest value reachable under `APY_SANITY_LIMIT`
-  (1000%): `$1000 * (999.99%/100/365) ≈ $27.37/day`, well under the 110px list-view APY track (the same
-  track `.pool-apy-hero` sits in) and nowhere near wrapping. Confirms the operator's finding: this named
-  instance is not a live defect on `main` at realistic magnitudes — see "Leg (a)" below for what this
-  item actually ships for it.
+- **Leg (a) named instance ($/day cell), re-confirmed as NOT reproducing — but only for the
+  NON-anomalous subpopulation (correction, attempt 2, verifier finding 1a)**: `getQuickPreview()`
+  (`app.js:2929-2937`) computes `dailyEarnings` from raw `apyBase + apyReward` with **no clamp** to
+  `APY_SANITY_LIMIT`, and `.pool-apy-preview` (`app.js:3050-3058`) renders for every pool with nonzero
+  yield, anomalous or not — `isAnomalousApy()` (`app.js:2524`) only changes the sibling `.pool-apy-hero`'s
+  className/glyph, it never suppresses or clamps `.pool-apy-preview`. So the widest `$X.XX/day` string is
+  bounded (`$1000 * (999.99%/100/365) ≈ $27.37/day`, well under the 110px list-view APY track) **only for
+  pools with `apyBase + apyReward <= APY_SANITY_LIMIT`**. For the anomalous subpopulation the string is
+  **unbounded**: this session's own Trial 2 (below) rendered `$998.70/day` from a 36,452.38% fixture, and
+  the live `data/pools-snapshot.json` (7,339 pools, `APY_SANITY_LIMIT = 1000`, `app.js:800`) currently
+  contains **17 pools above that limit (0.23% of the total)**, the worst of which
+  (`6cf96588-3d2a-47b3-a2da-8e4e25d5a5fa`, project `zeebu`) would render **`$10,800.22/day`** at the
+  $1,000 preview amount — 394× the non-anomalous bound, and there is no ceiling on how much higher a
+  future anomalous pool's raw APY could push that string. `.pool-apy-preview`'s `white-space: nowrap`
+  rule is therefore **not** merely pre-emptive for the class as a whole: it guards a genuinely unbounded
+  string for the anomalous subpopulation, while remaining a durability guard (not a repair of a live wrap)
+  for the non-anomalous majority, where the named `$X.XX/day` instance from `specs/246.md` still does not
+  reproduce — see "Leg (a)" below for what this item actually ships for it.
 - **Leg (b), re-confirmed already closed**: `.pool-token-chip` computed `font-family` resolves through
   `--cert-sans → var(--font-family-base)` (`pool-detail-styles.css:111`), i.e. the same stack as
   `body`'s computed `font-family` (`"Public Sans", …`); computed `text-transform` is unset (`none`).
@@ -49,9 +61,17 @@ minified artifacts came out byte-identical to their committed versions (no sourc
 
 **Path taken: A — no accommodation needed.** Measured `document.documentElement.scrollWidth <=
 window.innerWidth` and, per numeral cell, `scrollWidth <= clientWidth + 1` plus pairwise
-`getBoundingClientRect()` overlap checks against every other numeral cell and the pool-symbol text in
-the same `.pool-card`, across both views, both themes, all four viewports, with a fixture that includes
-the anomaly-flagged pool. Zero overflow and zero overlap anywhere. Specifically for the list-view APY
+`getBoundingClientRect()` overlap checks against every other numeral cell and (attempt 2, widened per
+verifier finding 1b) every other rendered text-bearing leaf element in the same `.pool-card` — which
+includes `.pool-context-inline` and `.pool-symbol`, and excludes only elements inside
+`.pool-cta-section` (see `test_card_numeral_wrap.js`'s header comment and the derivation site for the
+exact rule and what it leaves out) — across both views, both themes, all four viewports, with a fixture
+that includes the anomaly-flagged pool and (attempt 2) a pool whose project is the longest slug in
+`data/pools-snapshot.json` paired with a realistic APY. **Zero overflow and zero overlap across that
+neighbour set, for the fixture population actually rendered** (RAZOR-scoped, not "anywhere"): this does
+NOT hold for the pairing of a long project slug with an anomalous APY magnitude, which is a reproduced,
+pre-existing, NOT-fixed collision between `.pool-apy-hero` and `.pool-context-inline` — see "Leg (a) —
+pre-existing collision, not fixed" below. Specifically for the list-view APY
 track (110px, `style.css` ~2779/~2821) that the spec flagged as the risk to measure rather than assume:
 the anomaly hero's own box (`⚠ 36,452.38%`) measured `clientWidth === scrollWidth === 110px` at
 768/1280/1540px in both themes — it fits the track exactly, with no measurable slack but also no
@@ -62,13 +82,19 @@ anyway as part of the required test list — both green, see "Test results" belo
 
 ## The three legs' honest outcomes
 
-- **Leg (a) — guard, not repair.** The named $/day-cell instance from `specs/246.md` does not reproduce
-  on `main` with realistic values (bounded by `APY_SANITY_LIMIT`, ~$27.40/day max, well under the
-  110-130px tracks). What shipped is a durability guard against the class the operator identified as
-  still live: the `.pool-apy-hero` rule closes the actual reproducing defect (the anomaly-flagged hero
-  wrapping and separating "⚠" from its number); `.pool-apy-preview` and `.tvl-value` close the same class
-  pre-emptively for the two sibling numeral cells that share the geometry, before either one gets bitten.
-  Never claimed as a repair of a currently-live wrap in those two cells — it wasn't one.
+- **Leg (a) — guard for one subpopulation, live-defect repair for another.** The named $/day-cell instance
+  from `specs/246.md` does not reproduce on `main` with realistic values **for the non-anomalous
+  subpopulation** (bounded by `APY_SANITY_LIMIT`, ~$27.40/day max, well under the 110-130px tracks). It
+  DOES reproduce, unbounded, for the anomalous subpopulation (17/7,339 = 0.23% of pools in the live
+  snapshot today, up to $10,800.22/day currently and not ceilinged — see the correction above). What
+  shipped is therefore two things at once, not one: for the non-anomalous majority, `.pool-apy-preview`
+  and `.tvl-value`'s `nowrap` rules are a durability guard against the class the operator identified as
+  still live, shipped pre-emptively before either cell gets bitten at realistic magnitudes; for the
+  anomalous subpopulation, the SAME `.pool-apy-preview` rule is closing a currently-unbounded, currently
+  reachable (0.23% of live pools) string — a real guard against a real, already-occurring input, not a
+  pre-emptive one. `.pool-apy-hero`'s rule separately closes the actual reproducing wrap defect (the
+  anomaly-flagged hero wrapping and separating "⚠" from its number). Never claimed as a repair of a
+  currently-live wrap in the non-anomalous instance named by `specs/246.md` — it wasn't one there.
 - **Leg (b) — already closed by 247, pinned only.** No CSS change. `PoolDetail.js:1049`'s existing
   comment already records that the 247 world rewrite retired the mono-caps remnant. This item adds
   `test_card_numeral_wrap.js`'s assertions F/G (computed `font-family` === body's, computed
@@ -88,6 +114,92 @@ anyway as part of the required test list — both green, see "Test results" belo
 `USDC-WBETH-WSTETH-RETH-SFRXETH`). It is text, not a numeral cell, so it is outside this item's scope and
 outside the new guard's population (see "Class statement" below). No ticket invented — stated here only,
 per the operator's instruction.
+
+## Attempt 2 (2026-08-11) — verifier finding 1b: widened guard, longest slug, pre-existing collision
+
+The verifier (attempt 1 review) reproduced a genuine `getBoundingClientRect()` intersection at 768px
+between `.pool-apy-hero` and `.pool-context-inline` (the "on `<project>` · `<chain>`" byline) using a
+**real live project slug**, `hamilton-lane-senior-credit-opportunities-securitize-fund`, paired with
+`apyBase: 9999999.99`. `test_card_numeral_wrap.js`'s check E previously compared numeral cells only
+against each other and `.pool-symbol` — narrower than the class it guards (RAZOR). Three things done in
+response, per the operator's brief:
+
+**1. Widened neighbour derivation.** Check E's neighbour set is now DERIVED from the rendered card: every
+element with no child elements and non-empty trimmed text is a candidate neighbour of every numeral cell,
+so `.pool-context-inline` and `.pool-symbol` are covered automatically — as would any future text element
+added to `.pool-card` — rather than needing a new hardcoded class added by hand. ONE exclusion, stated
+explicitly rather than silently applied: elements inside `.pool-cta-section` (the "Calculate Yield"
+button) are left out of the neighbour set, because an interactive control's action label is a different
+semantic class from passive identity/numeral text, and this item's scope is the text-vs-numeral collision
+class, not interactive controls. That exclusion is not academic: including the CTA button in an early
+draft of the derivation surfaced a real, DIFFERENT overlap — `.tvl-value` "$950000000.0B" (the pre-existing
+non-vacuity stress fixture for the TVL cell, `tvlUsd: 950e15`, already in the fixture before this attempt)
+overlapping `.calculate-yield-btn-new` "View & calculate →" in **grid view at 1280px/1540px, both themes**.
+This is unrelated to either of the two findings in this attempt and is **not fixed, not further
+investigated** — recorded here only, per RAZOR, so the exclusion isn't laundering it. If a future item
+widens the neighbour set to include interactive controls, this is where it should start.
+
+**2. Realistic long-slug fixture.** The longest project slug in `data/pools-snapshot.json` is computed at
+test run time (not hardcoded) — `test_card_numeral_wrap.js` reads the snapshot, finds the longest
+`project` value, and prints it every run. Currently: `hamilton-lane-senior-credit-opportunities-securitize-fund`
+(**57 characters** — not 59; recomputed independently of the verifier's report, `String.length` on the
+exact value read from the snapshot). This slug now labels the `usdc-poly-aave` fixture pool (chosen because
+relabeling an existing filler pool, rather than appending a 12th pool, was the only way to add this
+fixture without silently pushing `usdc-daypreview-glitch` — the Trial-2 non-vacuity stress fixture for
+`.pool-apy-preview` — off page 1: `itemsPerPage = 9` in `app.js`, and the default `sortBy: 'tvl'` sort
+already filled page 1's 9 slots with the 11-pool fixture; appending a 12th competing pool changes which 9
+of the 11+1 pools rank into that top 9, not the total shown). It keeps its original realistic APY (3.1%,
+non-anomalous) — pairing the longest real slug with a realistic magnitude, exercising the widened check on
+a real-world-shaped worst case rather than an invented one. **Result: GREEN** — `node test_card_numeral_wrap.js`
+passes 18/18 with this fixture in place (full output below, "Test results, attempt 2").
+
+**3. The pre-existing collision — reproduced, NOT fixed, NOT laundered.** Per the operator's instruction,
+this pairing (long slug × anomalous APY magnitude) is deliberately NOT part of the officially-asserted
+green fixture population — asserting it there would make this file permanently red for a defect this
+attempt is not authorized to fix (no `style.css` changes). Reproduced instead as a one-off session
+verification, mirroring this file's own Trial methodology: same 11-pool fixture, `usdc-poly-aave`'s
+`apyBase` temporarily changed from `3.1` to `9999999.99` (matching the verifier's own reproduction magnitude)
+in a scratch copy of the harness — never committed, `git diff --stat` confirms `test_card_numeral_wrap.js`
+in the repo is unaffected by this step.
+
+```
+✗ list/light/768px: numeral-cell class scan
+    list/light/768px: 1 failure(s) across 27 numeral cells / 9 cards:
+    card[4] .pool-apy-hero "⚠ 9,999,999.99%" overlaps .pool-context-inline "hamilton-lane-senior-credit-opportunities-securitize-fund · Polygon"
+✗ list/dark/768px: numeral-cell class scan
+    list/dark/768px: 1 failure(s) across 27 numeral cells / 9 cards:
+    card[4] .pool-apy-hero "⚠ 9,999,999.99%" overlaps .pool-context-inline "hamilton-lane-senior-credit-opportunities-securitize-fund · Polygon"
+```
+360px, 1280px, 1540px and both grid-view passes stayed green at this magnitude — the collision is
+specific to **768px, list view, both themes** (the width where the byline column is narrow enough for a
+57-char slug to run under the APY column). This is a genuine, live, pre-existing defect: the widened check
+sees it, the shipped `.pool-apy-hero { white-space: nowrap }` rule does not prevent it (nowrap stops the
+hero's OWN text from wrapping, it does not stop a neighbour's box from growing into the hero's space), and
+this attempt does not fix it (no `style.css` changes authorized). It is pre-existing on `main`, not
+introduced by 246: it depends only on `.pool-context-inline`'s existing layout (`style.css:4081`,
+predates 246) and a long slug × high-APY combination that could occur on `main` today independent of any
+246 CSS change.
+
+**Non-vacuity of the widened check itself** (required separately from the collision reproduction above,
+per the operator's instruction — "a widened check nobody has seen fail is not evidence that the widening
+did anything"): using the REALISTIC (green) fixture — no anomalous magnitude, no CSS file touched at all —
+at 768px, the live `.pool-context-inline` element of the long-slug card was translated via inline
+`element.style.transform` (an in-page DOM mutation, not a stylesheet edit; `home.html` loads
+`style.min.css` and this attempt makes no CSS changes, so there is no file to re-minify or checksum here)
+onto `.pool-apy-hero`'s box:
+```
+STEP 1 (baseline): GREEN (27 numeral cells, 9 cards)
+STEP 2 (mutated — .pool-context-inline translated onto .pool-apy-hero's box): RED
+  card[4] .pool-apy-hero "3.10%" overlaps .pool-context-inline "hamilton-lane-senior-credit-opportunities-securitize-fund · Polygon"
+  card[4] .tvl-value "$30.0M" overlaps .pool-context-inline "hamilton-lane-senior-credit-opportunities-securitize-fund · Polygon"
+STEP 3 (mutation removed): GREEN (27 numeral cells, 9 cards) — restored
+```
+The RED explicitly NAMES `.pool-context-inline` as the overlapping neighbour — the exact class the
+original (narrow) check could never have seen, because `.pool-context-inline` was not in its neighbour
+set at all. `git diff --stat style.css` was empty throughout this step (no file was touched) and
+`test_card_numeral_wrap.js` itself was not modified during the mutation (it happened in a separate
+scratch script against the widened `SCAN_FN` logic, then verified against the shipped file directly, "Test
+results, attempt 2" below).
 
 ## Non-vacuity transcript (per sub-rule, each of the three CSS rules + the leg-(b) pin)
 
@@ -213,8 +325,34 @@ element type appearing under a different class name.
   unrelated to this item (this item touches only `style.css`, `style.min.css`, `package.json`, and the new
   test file — none of which either failing test exercises).
 
+## Test results, attempt 2 (2026-08-11 — fixes for verifier findings 1a/1b only)
+
+- `node test_card_numeral_wrap.js` → **18/18 passed**, **414 numeral cells scanned** (unchanged from
+  attempt 1 — relabeling `usdc-poly-aave`'s project to the longest slug doesn't change which/how many
+  numeral cells render, only the byline text next to them). Longest slug printed by the run itself:
+  `hamilton-lane-senior-credit-opportunities-securitize-fund` (57 chars).
+- `node test_test_registry.js` → **5/5 passed** (registration still holds; `test_card_numeral_wrap.js` is
+  the only file this attempt touched, and it's a diff to an already-registered file, not a new one).
+- `git diff --stat` (this attempt) → `test_card_numeral_wrap.js | 94 ++++++++++++++++++++++++++++++++++++++++++-----`
+  only. `style.css`/`style.min.css`/`app.js` untouched — confirmed via `git status --short` and (for the
+  two CSS files, which were temporarily edited and restored to double-check the pre-existing collision
+  reproduces without the shipped `nowrap` rule, then abandoned per this attempt's own constraint that
+  re-minifying "should not come up") `md5sum style.css` → `eef4743878f930665c9a489ebb5f1cc0`, matching
+  attempt 1's baseline checksum, both before and after that abandoned check.
+
 ## What could not be done
 
 Nothing in the required test list was skipped. The only deviation from a literal first pass was the
 minify-before-each-trial correction described in the non-vacuity section above, caught and fixed within
 this session before any result was reported as evidence.
+
+**Attempt 2 addendum**: one path considered and abandoned — independently reproducing the pre-existing
+collision (long slug × anomalous APY) with the shipped `.pool-apy-hero` `nowrap` rule temporarily removed,
+to directly verify the verifier's "reproduces with AND without the rule" claim rather than relying on it.
+Started (temporarily deleted the rule, re-minified, confirmed the collision still reproduces), then
+reverted before use: this attempt's constraints explicitly note that re-minifying "should not come up"
+for a test-only fix, and the collision was already reproduced WITH the shipped rule present (which is the
+only state relevant to "is this fixed by 246" — it isn't). `git checkout -- style.css style.min.css
+app.compiled.min.js PoolDetail.compiled.min.js planner.min.js translations.min.js planner-styles.min.css
+pool-detail-styles.min.css` restored all seven files; `git status --short` after showed only
+`test_card_numeral_wrap.js` modified.
