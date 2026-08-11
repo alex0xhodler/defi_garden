@@ -1,5 +1,10 @@
 # Spec <ID>: <title>
 
+Impact: <north-star leg A|B | guardrail — <which> | defect-count n→0 on <surface>>
+<!-- Required. Repeated VERBATIM as the first line of this item's PR body. Can't fill it? Then this is a
+     process item by definition (build.md §1 pickup arithmetic). Ceremony caps for spec/notes/PR/LOG
+     length, verifier rounds and test:code ratio: build.md §0 — over-cap is a verifier FAIL fixed by deleting text. -->
+
 ## Evidence
 <!-- Verbatim numbers from the heartbeat. If there's no evidence, this item shouldn't exist. -->
 
