@@ -175,6 +175,77 @@ origin (Vercel) at all:
 Neither rollback path touches `agent_reads` or `pool_history` — no data is
 lost, and item 108's poller keeps running unaffected either way.
 
+## 7. Deploy delta — public read-only Yield API (backlog 227, spec 227)
+
+**Same Worker, same command, no new binding.** Item 227 added `edge/api-core.js`
+(pure routing/railing logic) and taught THIS file's `edge/agent-log.mjs` to
+dispatch `/api` and `/api/*` to it, before the pass-through path — see
+`edge/API.md` for the full endpoint contract and `edge/agent-log.mjs`'s own
+header comment for how the dispatch is wired. None of steps 1-6 above
+change:
+
+- No new D1 table, no new `d1_databases` binding — the API reads pool data
+  live from `https://yields.llama.fi/pools` (edge-cached), never from D1.
+  `edge/schema.sql` is unchanged.
+- No new `wrangler.toml` entry, no new route, no new binding — `main` is
+  still `agent-log.mjs`; the same `www.defi.garden/*` route now also serves
+  `/api/*` because the Worker itself branches on path, not because Wrangler
+  config changed.
+- Deploy command is **unchanged**: `wrangler deploy -c edge/wrangler.toml`.
+  Re-running it (after this diff is on the branch that gets deployed) is
+  the entire "provisioning" step for this item — there is no step 1/2/4
+  analog to repeat.
+
+### Verify `/api/health` after deploy
+
+```
+curl -sS "https://www.defi.garden/api/health"
+```
+
+Expect `200` with a JSON body shaped like:
+
+```json
+{"ok":true,"version":"0.1.0","poolsAvailable":<some positive number>,"generatedAt":"<ISO timestamp near now>","rails":{"apySanityLimit":1000,"minTvl":100000, "...":"..."}}
+```
+
+Also confirm CORS + caching headers landed:
+
+```
+curl -sS -D - -o /dev/null "https://www.defi.garden/api/health" | grep -iE "access-control-allow-origin|cache-control|x-defi-garden-api-version"
+```
+
+Expect `access-control-allow-origin: *`, `cache-control: public, max-age=300`,
+`x-defi-garden-api-version: 0.1.0`.
+
+And the OPTIONS preflight:
+
+```
+curl -sS -X OPTIONS -o /dev/null -w "%{http_code}\n" "https://www.defi.garden/api/pools"
+```
+
+Expect `204`.
+
+Finally, confirm the **sacred pass-through** still holds for a normal
+analytics URL — this is the highest-risk part of this item (spec 227's Risk
+tier: HIGH, because the diff touches the Worker in front of every request):
+
+```
+curl -sS "https://www.defi.garden/?token=USDC" | head -5
+```
+
+Should look byte-identical to a request with no Worker in front of it,
+exactly as step 5 above already verifies for `/llms.txt`. If this ever
+looks different post-227-deploy, treat it as a rollback trigger (same two
+rollback options as above — grey-cloud the DNS record, or
+`wrangler delete -c edge/wrangler.toml` — both apply unchanged, since this
+is still the same single Worker).
+
+Confirm the daily-reads query (step 6 above) now also surfaces `/api`
+traffic: after hitting `/api/health` a few times, `path_class = 'api'` rows
+should appear in the same `agent_reads` table — no new query needed,
+`classifyRequest()` already classified `/api/*` this way ahead of time (see
+`edge/agent-log-core.js:82-84`, written for spec 224, consumed by 227).
+
 ## Territory notes (things this runbook found, not anticipated by spec 224)
 
 - No scheduled retention prune runs yet. `edge/agent-log-core.js` exports
