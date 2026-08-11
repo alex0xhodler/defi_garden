@@ -24,7 +24,7 @@ SUSDAT shows up in 7 pools here, with rates from 3.48% to 142.12% APY across 3 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saturn | 19.93% | 26.23% | Base rate |
+| saturn | 19.93% | 26.21% | Base rate |
 | pendle | 11.21% | 11.27% | Base rate |
 | pendle | 3.48% | 3.15% | 13.62% incentives |
 | pendle | 7.19% | 8.35% | Base rate |
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDAT pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $115.3M in total.
+16 live pools clear this page's $100K TVL floor, $115.31M in total.
 
 ### Are these rates safe?
 

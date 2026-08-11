@@ -24,7 +24,7 @@ SUSN shows up in 4 pools here, with rates from 0.05% to 8.28% APY across 2 chain
 | uniswap-v3 | 0.05% | 0.08% | Base rate |
 | pendle | 8.28% | 9.15% | Base rate |
 | pendle | 7.97% | 8.29% | 2.88% incentives |
-| ekubo | 2.88% | 0.57% | Base rate |
+| ekubo | 2.88% | 0.58% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

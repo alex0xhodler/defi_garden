@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.38% | $7.97M |
+| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.39% | $7.97M |
 | [pendle →](https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token) | Ethereum | 22.26% | $1.01M |
 | [pendle →](https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token) | Ethereum | 23.68% | $1.01M |
 
@@ -12,7 +12,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUSD3 풀은 여기 3개가 있고, 1개 체인에서 APY가 14.38%부터 23.68%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUSD3 풀은 여기 3개가 있고, 1개 체인에서 APY가 14.39%부터 23.68%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 21.51%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -20,7 +20,7 @@ SUSD3 풀은 여기 3개가 있고, 1개 체인에서 APY가 14.38%부터 23.68%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| 3jane-lending | 14.38% | 13.94% | 기본 금리 |
+| 3jane-lending | 14.39% | 13.95% | 기본 금리 |
 | pendle | 22.26% | 22.62% | 기본 금리 |
 | pendle | 23.68% | 21.51% | 기본 금리 |
 

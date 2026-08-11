@@ -4,7 +4,7 @@ The highest honest UXRP yield right now is 2.32% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=77c0d868-9f87-41f1-980f-990cca319f08&src=seo_token) | Base | 2.32% | $771.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=77c0d868-9f87-41f1-980f-990cca319f08&src=seo_token) | Base | 2.32% | $771K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UXRP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $771.6K in total.
+1 live pool clear this page's $100K TVL floor, $771K in total.
 
 ### Are these rates safe?
 

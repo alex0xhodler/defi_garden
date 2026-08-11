@@ -1,23 +1,23 @@
 # USDT0 DeFi Yields
 
-The highest honest USDT0 yield right now is 12.00% on curve-dex (Monad), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDT0 yield right now is 12.03% on curve-dex (Monad), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.45% | $55.79M |
+| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.45% | $55.62M |
 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 5.04% | $44.12M |
-| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.47% | $35.09M |
-| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.63% | $17.76M |
+| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.47% | $35.13M |
+| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.66% | $17.91M |
 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 2.76% | $12.83M |
-| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 5.84% | $3.44M |
-| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 12.00% | $2.92M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=863490fc-3912-58cc-b93c-d53d1a19c876&src=seo_token) | Monad | 0.38% | $1.88M |
+| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 5.88% | $3.44M |
+| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 12.03% | $2.92M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=863490fc-3912-58cc-b93c-d53d1a19c876&src=seo_token) | Monad | 4.21% | $1.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDT0 shows up in 8 pools here, with rates from 0.38% to 12.00% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDT0 shows up in 8 pools here, with rates from 2.76% to 12.03% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,14 +25,14 @@ USDT0 shows up in 8 pools here, with rates from 0.38% to 12.00% APY across 4 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 4.45% | 4.22% | 22.28% incentives |
+| aave-v3 | 4.45% | 4.22% | 22.26% incentives |
 | fluid-lending | 5.04% | 5.21% | Base rate |
-| aave-v3 | 4.47% | 4.84% | 49.80% incentives |
-| aave-v3 | 5.63% | 7.14% | 46.80% incentives |
+| aave-v3 | 4.47% | 4.84% | 49.84% incentives |
+| aave-v3 | 5.66% | 7.14% | 47.13% incentives |
 | aave-v3 | 2.76% | 2.65% | Base rate |
-| neverland | 5.84% | 3.76% | 88.85% incentives |
-| curve-dex | 12.00% | 13.73% | 100.00% incentives |
-| uniswap-v4 | 0.38% | 1.16% | Base rate |
+| neverland | 5.88% | 3.77% | 88.87% incentives |
+| curve-dex | 12.03% | 13.72% | 100.00% incentives |
+| uniswap-v4 | 4.21% | 1.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDT0 yield today?
 
-12.00% APY on curve-dex (Monad), based on live DefiLlama data.
+12.03% APY on curve-dex (Monad), based on live DefiLlama data.
 
 ### How many USDT0 pools clear the TVL floor?
 
-27 live pools clear this page's $100K TVL floor, $183.57M in total.
+27 live pools clear this page's $100K TVL floor, $183.4M in total.
 
 ### Are these rates safe?
 

@@ -1,14 +1,14 @@
 # BUSD 디파이 수익률
 
-현재 BUSD의 가장 높은 정직한 수익률은 BSC의 pancakeswap-amm에서 0.81%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BUSD의 가장 높은 정직한 수익률은 BSC의 pancakeswap-amm에서 0.77%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token) | BSC | 0.62% | $1.15M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.08% | $530.8K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 0.81% | $311.7K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token) | BSC | 0.22% | $265K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token) | BSC | 0.57% | $1.14M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.09% | $531.2K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 0.77% | $312K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token) | BSC | 0.21% | $264.9K |
 | [mdex →](https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token) | BSC | 0.25% | $254.1K |
 | [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token) | BSC | 0.51% | $156K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
@@ -17,7 +17,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 0.81%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 0.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.35%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -28,10 +28,10 @@ BUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 0.81%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | wombat-exchange | 0.03% | 0.03% | 인센티브 100.00% |
-| pancakeswap-amm | 0.62% | 1.22% | 기본 금리 |
-| pancakeswap-amm | 0.08% | 0.45% | 기본 금리 |
-| pancakeswap-amm | 0.81% | 1.21% | 기본 금리 |
-| pancakeswap-amm | 0.22% | 0.20% | 기본 금리 |
+| pancakeswap-amm | 0.57% | 1.22% | 기본 금리 |
+| pancakeswap-amm | 0.09% | 0.45% | 기본 금리 |
+| pancakeswap-amm | 0.77% | 1.21% | 기본 금리 |
+| pancakeswap-amm | 0.21% | 0.20% | 기본 금리 |
 | mdex | 0.25% | 0.25% | 인센티브 99.97% |
 | pancakeswap-amm | 0.51% | 0.91% | 기본 금리 |
 | wombat-exchange | 0.09% | 0.09% | 인센티브 100.00% |
@@ -42,7 +42,7 @@ BUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 0.81%까
 
 ### 오늘 BUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 pancakeswap-amm에서 APY 0.81%예요.
+DefiLlama 실시간 데이터 기준, BSC의 pancakeswap-amm에서 APY 0.77%예요.
 
 ### BUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -4,7 +4,7 @@ The highest honest SUSD3 yield right now is 23.68% on pendle (Ethereum), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.38% | $7.97M |
+| [3jane-lending →](https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token) | Ethereum | 14.39% | $7.97M |
 | [pendle →](https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token) | Ethereum | 22.26% | $1.01M |
 | [pendle →](https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token) | Ethereum | 23.68% | $1.01M |
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SUSD3 shows up in 3 pools here, with rates from 14.38% to 23.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSD3 shows up in 3 pools here, with rates from 14.39% to 23.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -20,7 +20,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| 3jane-lending | 14.38% | 13.94% | Base rate |
+| 3jane-lending | 14.39% | 13.95% | Base rate |
 | pendle | 22.26% | 22.62% | Base rate |
 | pendle | 23.68% | 21.51% | Base rate |
 

@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.07% | $3.7M |
 | [euler-v2 →](https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token) | Ethereum | 1.15% | $3.66M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 0.13% | $3.56M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 0.12% | $3.56M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token) | Ethereum | 0.06% | $1.76M |
 | [curve-dex →](https://www.defi.garden/?pool=23a68630-c706-4ed3-bb31-92868a15050b&src=seo_token) | Ethereum | 0.03% | $615.7K |
 
@@ -24,7 +24,7 @@ USD0 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.03%부터 1.15%까
 |---|---|---|---|
 | curve-dex | 0.07% | 0.09% | 기본 금리 |
 | euler-v2 | 1.15% | 1.06% | 기본 금리 |
-| uniswap-v3 | 0.13% | 0.89% | 기본 금리 |
+| uniswap-v3 | 0.12% | 0.90% | 기본 금리 |
 | uniswap-v3 | 0.06% | 0.55% | 기본 금리 |
 | curve-dex | 0.03% | 0.12% | 기본 금리 |
 

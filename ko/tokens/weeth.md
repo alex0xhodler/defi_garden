@@ -4,14 +4,14 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.34% | $3.57B |
-| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.34% | $140.79M |
-| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.34% | $34.24M |
-| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.34% | $13.1M |
-| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.32% | $9.63M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.39% | $3.57B |
+| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.39% | $140.73M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.39% | $34.22M |
+| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.35% | $13.08M |
+| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.32% | $9.53M |
 | [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.77% | $8.01M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token) | Ethereum | 0.02% | $3.86M |
-| [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.32% | $1.49M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token) | Ethereum | 0.02% | $3.85M |
+| [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.32% | $1.4M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -25,14 +25,14 @@ WEETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.02%부터 3.32%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| ether.fi-stake | 2.34% | 2.48% | 인센티브 0.07% |
-| ether.fi-stake | 2.34% | 2.48% | 인센티브 0.07% |
-| ether.fi-stake | 2.34% | 2.48% | 인센티브 0.07% |
-| fluid-dex | 0.34% | 0.24% | 기본 금리 |
-| curve-dex | 2.32% | 2.43% | 인센티브 30.04% |
-| convex-finance | 2.77% | 2.78% | 인센티브 41.56% |
-| uniswap-v3 | 0.02% | 0.08% | 기본 금리 |
-| stake-dao | 3.32% | 3.03% | 인센티브 43.60% |
+| ether.fi-stake | 2.39% | 2.48% | 인센티브 0.07% |
+| ether.fi-stake | 2.39% | 2.48% | 인센티브 0.07% |
+| ether.fi-stake | 2.39% | 2.48% | 인센티브 0.07% |
+| fluid-dex | 0.35% | 0.24% | 기본 금리 |
+| curve-dex | 2.32% | 2.43% | 인센티브 30.13% |
+| convex-finance | 2.77% | 2.78% | 인센티브 41.44% |
+| uniswap-v3 | 0.02% | 0.07% | 기본 금리 |
+| stake-dao | 3.32% | 3.03% | 인센티브 43.97% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

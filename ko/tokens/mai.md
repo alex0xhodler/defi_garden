@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 6.15% | $2.31M |
-| [quickswap-dex →](https://www.defi.garden/?pool=63eb0ca9-4d62-46e1-8f8a-ae7368910698&src=seo_token) | Polygon | 0.09% | $646.5K |
+| [quickswap-dex →](https://www.defi.garden/?pool=63eb0ca9-4d62-46e1-8f8a-ae7368910698&src=seo_token) | Polygon | 0.09% | $646.4K |
 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 6.34% | $239.8K |
 | [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 5.05% | $130.8K |
 
@@ -24,9 +24,9 @@ MAI 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.09%부터 6.34%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aerodrome-v1 | 6.15% | 6.18% | 인센티브 100.00% |
-| quickswap-dex | 0.09% | 296.84% | 기본 금리 |
+| quickswap-dex | 0.09% | 296.35% | 기본 금리 |
 | extra-finance-leverage-farming | 6.34% | 6.36% | 기본 금리 |
-| curve-dex | 5.05% | 4.13% | 인센티브 51.11% |
+| curve-dex | 5.05% | 4.14% | 인센티브 51.10% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

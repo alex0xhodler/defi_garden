@@ -4,25 +4,25 @@ The highest honest JUPUSD yield right now is 5.50% on jupiter-lend (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jupiter-lend →](https://www.defi.garden/?pool=0dbb5021-00c7-40e2-9e2b-a757f4305ebf&src=seo_token) | Solana | 5.50% | $64.73M |
-| [raydium-amm →](https://www.defi.garden/?pool=b486afff-6cb0-4932-aacb-4c32cf955512&src=seo_token) | Solana | 2.85% | $3.89M |
-| [orca-dex →](https://www.defi.garden/?pool=3560380c-4758-48b5-8dd6-38d474018724&src=seo_token) | Solana | 0.92% | $3.85M |
+| [jupiter-lend →](https://www.defi.garden/?pool=0dbb5021-00c7-40e2-9e2b-a757f4305ebf&src=seo_token) | Solana | 5.50% | $64.75M |
+| [raydium-amm →](https://www.defi.garden/?pool=b486afff-6cb0-4932-aacb-4c32cf955512&src=seo_token) | Solana | 2.59% | $3.89M |
+| [orca-dex →](https://www.defi.garden/?pool=3560380c-4758-48b5-8dd6-38d474018724&src=seo_token) | Solana | 0.91% | $3.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JUPUSD shows up in 3 pools here, with rates from 0.92% to 5.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JUPUSD shows up in 3 pools here, with rates from 0.91% to 5.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | jupiter-lend | 5.50% | 5.17% | 18.08% incentives |
-| raydium-amm | 2.85% | 0.40% | Base rate |
-| orca-dex | 0.92% | 0.42% | Base rate |
+| raydium-amm | 2.59% | 0.40% | Base rate |
+| orca-dex | 0.91% | 0.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JUPUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $72.47M in total.
+3 live pools clear this page's $100K TVL floor, $72.49M in total.
 
 ### Are these rates safe?
 

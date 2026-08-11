@@ -1,23 +1,23 @@
 # RETH 디파이 수익률
 
-현재 RETH의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 7.03%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RETH의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 7.00%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token) | Ethereum | 2.21% | $2.54B |
 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.12% | $10.49M |
 | [balancer-v3 →](https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token) | Ethereum | 5.35% | $4.86M |
-| [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 7.03% | $1.6M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 1.73% | $535.7K |
-| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.39% | $231.6K |
-| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.39% | $213.4K |
-| [curve-dex →](https://www.defi.garden/?pool=b3a7ecee-57fd-49dc-abf8-cd272a59e6e3&src=seo_token) | Ethereum | 1.23% | $200.8K |
+| [convex-finance →](https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token) | Ethereum | 7.00% | $1.6M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token) | Ethereum | 1.68% | $535.1K |
+| [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.39% | $231.7K |
+| [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.39% | $213.6K |
+| [curve-dex →](https://www.defi.garden/?pool=b3a7ecee-57fd-49dc-abf8-cd272a59e6e3&src=seo_token) | Ethereum | 1.23% | $200.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-RETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.23%부터 7.03%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+RETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.23%부터 7.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.36%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,9 +27,9 @@ RETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.23%부터 7.03%까
 |---|---|---|---|
 | rocket-pool | 2.21% | 2.20% | 기본 금리 |
 | curve-dex | 2.12% | 2.19% | 기본 금리 |
-| balancer-v3 | 5.35% | 6.03% | 인센티브 67.96% |
-| convex-finance | 7.03% | 6.07% | 인센티브 69.84% |
-| uniswap-v3 | 1.73% | 1.55% | 기본 금리 |
+| balancer-v3 | 5.35% | 6.03% | 인센티브 68.15% |
+| convex-finance | 7.00% | 6.08% | 인센티브 69.72% |
+| uniswap-v3 | 1.68% | 1.55% | 기본 금리 |
 | curve-dex | 2.39% | 2.52% | 기본 금리 |
 | convex-finance | 2.39% | 2.52% | 기본 금리 |
 | curve-dex | 1.23% | 1.23% | 기본 금리 |
@@ -40,7 +40,7 @@ RETH 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.23%부터 7.03%까
 
 ### 오늘 RETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 7.03%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 7.00%예요.
 
 ### RETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

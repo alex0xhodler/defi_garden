@@ -2816,9 +2816,20 @@ body {
   margin: 0 auto;
 }
 
+/* Spec 260 leg A: tracks 3/4 switched from a fixed px to `auto` so an
+   oversized numeral grows its own track instead of overflowing a
+   neighbour. .pool-columns above stays on the baseline fixed-px template on
+   purpose — its track 4 (130px) plus the min-width floor on
+   .pool-tvl-section below (`@media (min-width: 768px)` block) makes a
+   normal row's track 4 resolve to the same 130px, so both grids' track
+   3/4/5 right edges coincide for normal rows (AC-3) without touching
+   .pool-columns. On an anomalous row, track 3/4 grow past that floor and
+   the numeral no longer lines up under the header label — an accepted
+   trade so the numeral is never truncated. Full derivation and the dead-
+   rule trials: specs/260-notes.md. */
 .pools-list .pool-card {
   display: grid;
-  grid-template-columns: 40px 1fr 110px 130px 120px;
+  grid-template-columns: 40px minmax(0, 1fr) auto auto 120px;
   column-gap: 12px;
   align-items: center;
   height: 64px;
@@ -2875,6 +2886,16 @@ body {
   align-items: flex-end;
   justify-content: center;
   text-align: right;
+}
+
+/* Spec 260 leg A: content-derived floor for track 4 protects track 3's (the
+   APY hero's) right edge from drifting on normal rows (AC-3). Scoped to
+   >=768px — the <768px mobile row re-templates the card. Full derivation
+   and the dead-rule trials: specs/260-notes.md. */
+@media (min-width: 768px) {
+  .pools-list .pool-tvl-section {
+    min-width: 130px;
+  }
 }
 
 /* Redundant with the "TVL" column header — hide the inline per-row label. */

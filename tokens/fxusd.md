@@ -6,12 +6,12 @@ The highest honest FXUSD yield right now is 11.47% on curve-dex (Ethereum), amon
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=bcc046f9-d980-40d9-80b2-5d5ae5931131&src=seo_token) | Ethereum | 0.58% | $6.56M |
 | [convex-finance →](https://www.defi.garden/?pool=769acc2d-bbc7-4242-87fd-98fcc015f21e&src=seo_token) | Ethereum | 0.58% | $5.94M |
-| [curve-dex →](https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token) | Ethereum | 1.74% | $581.7K |
+| [curve-dex →](https://www.defi.garden/?pool=4cd5ea56-75f6-449c-b134-cb76e4f86d10&src=seo_token) | Ethereum | 1.73% | $581.8K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=bfcc6016-8fa5-48c0-b922-5be6c6ebd95b&src=seo_token) | Base | 1.30% | $509.9K |
 | [curve-dex →](https://www.defi.garden/?pool=18f29a9a-3550-457b-a39e-b80ce65000aa&src=seo_token) | Ethereum | 0.47% | $509.4K |
 | [convex-finance →](https://www.defi.garden/?pool=bd685d54-44b7-4b98-a2a8-4ecc22b59d66&src=seo_token) | Ethereum | 0.47% | $509.4K |
 | [curve-dex →](https://www.defi.garden/?pool=4c68a55a-84e3-48a7-8e5b-2ca451d1835e&src=seo_token) | Ethereum | 3.62% | $438.3K |
-| [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 11.47% | $164.9K |
+| [curve-dex →](https://www.defi.garden/?pool=2e8bf750-dfef-4b63-844d-da2d861f4e36&src=seo_token) | Ethereum | 11.47% | $165K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,12 +27,12 @@ FXUSD shows up in 8 pools here, with rates from 0.47% to 11.47% APY across 2 cha
 |---|---|---|---|
 | curve-dex | 0.58% | 0.39% | 0.00% incentives |
 | convex-finance | 0.58% | 0.39% | 0.03% incentives |
-| curve-dex | 1.74% | 31.78% | 95.39% incentives |
-| aerodrome-slipstream | 1.30% | 1.28% | 67.86% incentives |
+| curve-dex | 1.73% | 31.77% | 95.37% incentives |
+| aerodrome-slipstream | 1.30% | 1.28% | 67.83% incentives |
 | curve-dex | 0.47% | 0.15% | 0.00% incentives |
 | convex-finance | 0.47% | 0.15% | Base rate |
-| curve-dex | 3.62% | 0.40% | Base rate |
-| curve-dex | 11.47% | 11.69% | 94.77% incentives |
+| curve-dex | 3.62% | 0.41% | Base rate |
+| curve-dex | 11.47% | 11.70% | 94.77% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FXUSD pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $17.88M in total.
+12 live pools clear this page's $100K TVL floor, $17.89M in total.
 
 ### Are these rates safe?
 
