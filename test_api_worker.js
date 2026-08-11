@@ -445,7 +445,11 @@ for (const s of VERIFIER_REPRO_SEGMENTS) {
 // ===========================================================================
 // H. The real Worker (edge/agent-log.mjs): /api dispatch, CORS/OPTIONS,
 //    503 on upstream failure, agent-read logging for /api paths, and the
-//    non-/api byte-parity identity proof.
+//    non-/api, non-/mcp byte-parity identity proof (228 adds a /mcp branch
+//    beside /api — see section K10 in test_mcp_server.js for the same
+//    identity proof re-stated for the new boundary; there is no H5b in this
+//    file, an earlier version of this comment pointed at one that never
+//    existed).
 // ===========================================================================
 
 function makeFakeDB() {
@@ -482,7 +486,7 @@ function makeWorkerFetchStub({ poolsFail, poolsBody, passthroughResponse } = {})
 }
 
 async function runWorkerTests() {
-  console.log('\nH. edge/agent-log.mjs — /api dispatch + non-/api byte-parity');
+  console.log('\nH. edge/agent-log.mjs — /api dispatch + non-/api, non-/mcp byte-parity');
 
   const workerUrl = pathToFileURL(path.join(EDGE_DIR, 'agent-log.mjs')).href;
   const workerModule = await import(workerUrl);
@@ -575,7 +579,7 @@ async function runWorkerTests() {
     eq(calls[0].args[8], 'api', '503 agent_reads row is still classified path_class "api"');
   }
 
-  console.log('\nH5. non-/api request: PASS-THROUGH is untouched — SAME Response object, identity-checked');
+  console.log('\nH5. non-/api, non-/mcp request: PASS-THROUGH is untouched — SAME Response object, identity-checked');
   {
     workerModule.__resetPoolsMemoForTests();
     const sentinel = new Response('sentinel body', { status: 200, headers: { 'content-type': 'text/plain' } });
@@ -585,7 +589,7 @@ async function runWorkerTests() {
     const req = makeRequest('https://www.defi.garden/style.css', { headers: { accept: 'text/css' } });
     const res = await worker.fetch(req, { DB: db }, ctx);
     await Promise.allSettled(waited);
-    ok(res === sentinel, 'a non-/api request must return the EXACT SAME Response instance fetch(request) produced — untouched by the 227 diff');
+    ok(res === sentinel, 'a non-/api, non-/mcp request must return the EXACT SAME Response instance fetch(request) produced — untouched by the 227/228 diffs (228 added a THIRD branch, /mcp, ahead of this same pass-through line — see test_mcp_server.js for the /mcp-specific identity re-proof)');
   }
 
   console.log('\nH6. /api/health request: NOT the pass-through sentinel (identity must differ)');

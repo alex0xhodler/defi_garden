@@ -29,13 +29,21 @@
 //   2. well_known    — "/.well-known/**", "/openapi.json", "/tools/*.json"
 //                       (the agent-discovery assets .vercelignore's header
 //                       names as live agent surface).
-//   3. api           — "/api/*" (future, item 227 — no routes exist yet,
-//                       classified ahead of time so 227 needs no core change).
-//   4. md_twin       — any path ending ".md" (pools/, tokens/, chains/,
+//   3. api           — "/api/*" (item 227's read-only Yield API).
+//   4. mcp           — "/mcp" and "/mcp/*" (item 228's MCP server). A
+//                       separate class from "api", checked immediately
+//                       after it, so NORTH_STAR leg (A)'s two documented
+//                       terms — read-only API calls and MCP invocations —
+//                       stay separable in the D1 log by construction,
+//                       rather than an MCP request silently counting as a
+//                       REST call (see product-loop-kit/specs/228.md's
+//                       Territory notes for why /mcp is its own top-level
+//                       path rather than living under /api/*).
+//   5. md_twin       — any path ending ".md" (pools/, tokens/, chains/,
 //                       ko/**, and any future markdown twin — extension-
 //                       based on purpose, so a new twin directory is covered
 //                       automatically, never a hardcoded directory list).
-//   5. markdown_negotiation — Accept header contains "text/markdown" on ANY
+//   6. markdown_negotiation — Accept header contains "text/markdown" on ANY
 //                       remaining path. This is checked LAST, after the
 //                       specific path classes above, because vercel.json's
 //                       own negotiation redirect only ever fires for a
@@ -81,6 +89,10 @@ function classifyRequest({ pathname, accept } = {}) {
 
   if (path === '/api' || path.startsWith('/api/')) {
     return { pathClass: 'api' };
+  }
+
+  if (path === '/mcp' || path.startsWith('/mcp/')) {
+    return { pathClass: 'mcp' };
   }
 
   if (path.endsWith('.md')) {

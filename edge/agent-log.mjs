@@ -1,7 +1,9 @@
 /*
  * Cloudflare Worker: edge agent-read telemetry (backlog 224, spec 224) +
- * public read-only Yield API (backlog 227, spec 227), same Worker, one
- * deploy — spec 227's Change section: "same Worker as 224's logger".
+ * public read-only Yield API (backlog 227, spec 227) + MCP server (backlog
+ * 228, spec 228) — same Worker, one deploy, per both items' Change
+ * sections ("same Worker as 224's logger" / "same Cloudflare Worker as
+ * 224's logger and 227's API, one deploy").
  *
  * API DISPATCH (227): `fetch()` checks `/api` and `/api/*` FIRST, before
  * ANYTHING else runs — including the pass-through line below. This is an
@@ -9,15 +11,31 @@
  * every other URL falls through to the exact same
  * `const response = await fetch(request); return response;` this file has
  * always run, byte-for-byte, so the pre-227 "PASS-THROUGH FIRST" contract
- * (see below) holds for every non-`/api` request BY CONSTRUCTION — asserted
- * by test_api_worker.js via Response-object identity, the same technique
- * test_agent_log.js already uses for its own byte-parity cases. `/api`
- * requests never reach the pass-through line at all: they are answered
- * entirely from edge/api-core.js (pure, railed) plus one live fetch of
- * https://yields.llama.fi/pools (edge-cached + in-isolate memoized — see
- * getPools() below), never from origin (Vercel). A pool-data fetch failure
- * returns a 503 JSON carrying api-core.js's own `rails` block — never a
- * thrown error, never the pass-through path. Full contract: edge/API.md.
+ * (see below) holds for every non-`/api`, non-`/mcp` request BY
+ * CONSTRUCTION — asserted by test_api_worker.js via Response-object
+ * identity, the same technique test_agent_log.js already uses for its own
+ * byte-parity cases. `/api` requests never reach the pass-through line at
+ * all: they are answered entirely from edge/api-core.js (pure, railed) plus
+ * one live fetch of https://yields.llama.fi/pools (edge-cached + in-isolate
+ * memoized — see getPools() below), never from origin (Vercel). A
+ * pool-data fetch failure returns a 503 JSON carrying api-core.js's own
+ * `rails` block — never a thrown error, never the pass-through path. Full
+ * contract: edge/API.md.
+ *
+ * MCP DISPATCH (228): `fetch()` also checks `/mcp` and `/mcp/*`, right
+ * beside the `/api` check and equally before the pass-through — a THIRD,
+ * separate branch, not folded into `/api/*`, so agent-log-core.js can
+ * classify it as its own `pathClass: 'mcp'` (NORTH_STAR leg (A) counts
+ * "read-only API calls" and "MCP invocations" as two separable terms — see
+ * edge/agent-log-core.js's precedence comment). `POST /mcp` hand-rolls a
+ * JSON-RPC 2.0 dispatch (edge/mcp-core.js, pure, delegates every tool call
+ * back to api-core.js's `handleApiRequest` verbatim — no second rail
+ * copy); `OPTIONS /mcp` is a CORS preflight; every other method (`GET`
+ * included — MCP's Streamable HTTP transport permits a server offering no
+ * server→client SSE stream to answer `GET` with 405) is a 405 JSON error.
+ * `/mcp` reuses the SAME `getPools()` memo `/api` uses — no second fetch
+ * path — and returns the same honest 503 shape on an upstream failure.
+ * Full contract: edge/MCP.md.
  *
  * NAMING NOTE (deviation from the spec's literal "edge/agent-log.js"):
  * this file is `.mjs`, not `.js`. The house pattern (src/poller.js) is a
@@ -73,6 +91,7 @@
 
 import core from './agent-log-core.js';
 import apiCore from './api-core.js';
+import mcpCore from './mcp-core.js';
 
 const INSERT_SQL =
   'INSERT INTO agent_reads (ts, path, ua, ua_family, accept, referer, status, bot_score, path_class) ' +
@@ -87,6 +106,14 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === '/api' || url.pathname.startsWith('/api/')) {
       return handleApi(request, url, env, ctx);
+    }
+
+    // 228: dispatch /mcp and /mcp/* to the MCP handler, same "before the
+    // pass-through" discipline as /api above — see this file's header
+    // comment. A separate branch (not folded into the /api check above) so
+    // agent-log-core.js's classifier can tell the two apart.
+    if (url.pathname === '/mcp' || url.pathname.startsWith('/mcp/')) {
+      return handleMcp(request, url, env, ctx);
     }
 
     // PASS-THROUGH FIRST. This is the entire contract with every visitor and
@@ -257,6 +284,133 @@ async function handleApi(request, url, env, ctx) {
   }
 
   return apiResponse;
+}
+
+// ---------------------------------------------------------------------------
+// 228: MCP server — hand-rolled JSON-RPC 2.0 over a single POST endpoint.
+// Delegates every tool call to api-core.js via edge/mcp-core.js; owns only
+// the transport concerns (HTTP method/status/CORS, JSON.parse of the raw
+// body) exactly as handleApi() does for /api. See edge/MCP.md.
+// ---------------------------------------------------------------------------
+
+const MCP_CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+};
+
+/** Every /mcp JSON response is call-specific (a JSON-RPC result/error tied
+ * to one request body) — never publicly cacheable, unlike /api's stable
+ * 300s caching. */
+function mcpJsonHeaders() {
+  return Object.assign(
+    { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' },
+    MCP_CORS_HEADERS
+  );
+}
+
+function mcpMethodNotAllowed(request, env, ctx) {
+  const body = {
+    error: 'method_not_allowed',
+    message: 'This endpoint accepts POST (JSON-RPC 2.0 messages) and OPTIONS (CORS preflight) only. ' +
+      'GET is not offered because this server never opens a server→client SSE stream (MCP\'s Streamable ' +
+      'HTTP transport permits 405 in that case).',
+  };
+  const res = new Response(JSON.stringify(body), { status: 405, headers: mcpJsonHeaders() });
+  try { logAgentRead(request, res, env, ctx); } catch (_err) { /* never break serving */ }
+  return res;
+}
+
+/** Answers one /mcp request. OPTIONS is a pure CORS preflight — answered
+ * without touching pool data. POST is the only method that speaks
+ * JSON-RPC; every other method (GET included) is a 405. */
+async function handleMcp(request, url, env, ctx) {
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { status: 204, headers: MCP_CORS_HEADERS });
+  }
+  if (request.method !== 'POST') {
+    return mcpMethodNotAllowed(request, env, ctx);
+  }
+
+  // JSON parsing is owned by THIS Worker layer, not edge/mcp-core.js (see
+  // that file's header comment) — a body that isn't valid JSON can never
+  // even be handed to handleMcpMessage, so the -32700 Parse error is raised
+  // right here.
+  let rawBody = '';
+  try {
+    rawBody = await request.text();
+  } catch (_err) {
+    rawBody = '';
+  }
+  let message;
+  try {
+    if (rawBody.length === 0) throw new Error('empty request body');
+    message = JSON.parse(rawBody);
+  } catch (_err) {
+    const parseErrorBody = {
+      jsonrpc: '2.0',
+      id: null,
+      error: { code: -32700, message: 'Parse error: the request body is not valid JSON.' },
+    };
+    const parseErrRes = new Response(JSON.stringify(parseErrorBody), { status: 400, headers: mcpJsonHeaders() });
+    try { logAgentRead(request, parseErrRes, env, ctx); } catch (_e) { /* never break serving */ }
+    return parseErrRes;
+  }
+
+  // Same pool-data source as /api — the EXISTING getPools() memo, no second
+  // fetch path — and the same honest 503 shape on an upstream failure
+  // (spec 228's Change section: "the same honest 503 shape 227 established,
+  // carrying apiCore.buildRailsBlock()").
+  let pools;
+  try {
+    pools = await getPools();
+  } catch (_err) {
+    const body = {
+      error: 'upstream_unavailable',
+      message: 'Could not fetch live pool data from yields.llama.fi right now; please try again shortly. ' +
+        'This server never fabricates pool data, so a failed upstream fetch is reported honestly rather than ' +
+        'served from stale/fake data.',
+      rails: apiCore.buildRailsBlock(),
+    };
+    const errRes = new Response(JSON.stringify(body), { status: 503, headers: mcpJsonHeaders() });
+    try { logAgentRead(request, errRes, env, ctx); } catch (_e) { /* never break serving */ }
+    return errRes;
+  }
+
+  // Defense in depth (same discipline as handleApi()'s own try/catch above):
+  // mcpCore.handleMcpMessage is documented never to throw, but if some
+  // undiscovered future bug escapes it anyway, this still answers with real
+  // JSON instead of an unhandled exception (a Cloudflare 1101 error page).
+  let result;
+  try {
+    result = mcpCore.handleMcpMessage({ message, pools });
+  } catch (_err) {
+    const extractedId = (message && typeof message === 'object' && !Array.isArray(message) && 'id' in message)
+      ? message.id
+      : null;
+    result = {
+      status: 500,
+      body: {
+        jsonrpc: '2.0',
+        id: extractedId,
+        error: { code: -32603, message: 'This MCP handler failed unexpectedly while answering this request.' },
+      },
+    };
+  }
+
+  // A JSON-RPC notification (result.body === null) has no HTTP body at all
+  // — same "204/202 preflight-shaped" treatment /api's OPTIONS 204 gets.
+  const mcpResponse = (result.body === null)
+    ? new Response(null, { status: result.status, headers: MCP_CORS_HEADERS })
+    : new Response(JSON.stringify(result.body), { status: result.status, headers: mcpJsonHeaders() });
+
+  try {
+    logAgentRead(request, mcpResponse, env, ctx);
+  } catch (_err) {
+    // never break serving — identical discipline to handleApi()'s own try/catch above.
+  }
+
+  return mcpResponse;
 }
 
 /**
