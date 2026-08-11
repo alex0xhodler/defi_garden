@@ -414,6 +414,13 @@ regions.forEach((region, i) => {
 const DEPLOY_MD_ALLOWED_AGENT_READS_LINES = [
   '  --command "SELECT ts, path, ua_family, path_class FROM agent_reads ORDER BY ts DESC LIMIT 5;"', // §5 verify SELECT
   '    --command "DELETE FROM agent_reads WHERE ts < strftime(\'%s\',\'now\') - 30*86400;"', // Territory-notes prune DELETE
+  // backlog 234 (spec 234): §9a's post-migration verification SELECT — a
+  // third, genuinely different query (confirms the three new columns
+  // landed), same "legitimate extra query, allowlisted by exact line text"
+  // precedent as the two entries above (this array's own header comment
+  // already documents that adding a legitimate query requires updating
+  // this allowlist, a visible diff — this is that diff).
+  '  --command "SELECT ts, path, path_class, agent_identity, identity_status, payment_status FROM agent_reads ORDER BY ts DESC LIMIT 5;"', // §9a post-migration verify SELECT
 ];
 
 const deployMdLines = deployMd.split('\n');

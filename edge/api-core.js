@@ -46,12 +46,13 @@
  * require: planner.js itself is never written to, and stays off every
  * `git diff --stat` this item produces.
  *
- * ROUTES (v0, exactly as spec 227 lists them):
+ * ROUTES (v0, spec 227's list, plus /api/pricing added by backlog 234):
  *   GET /api                    — this contract document
  *   GET /api/health             — liveness + pool-data freshness
  *   GET /api/pools              — railed pool list (token/chain/minTvl/limit/project)
  *   GET /api/pools/:id          — one pool by DefiLlama `pool` id
- *   GET /api/forever-number     — SUBSCRIPTION-archetype math (?monthly=&apy=)
+ *   GET /api/pricing            — the machine-readable agentic-commerce pricing document
+ *   GET /api/forever-number     — SUBSCRIPTION-archetype math (?monthly=&apy=), PAID
  *   unknown /api/*              — 404 JSON, still carrying `rails` + `endpoints`
  */
 
@@ -125,16 +126,85 @@ function buildRailsBlock(effectiveMinTvl) {
 }
 
 // ---------------------------------------------------------------------------
-// 3. Endpoint metadata — the single list shared by the /api contract
-//    document AND the unknown-route 404 body (spec 227: 404s carry "an
-//    endpoints list").
+// 3. ROUTES — the ONE declarative dispatch table (backlog 234, verifier
+//    round 1 fix — see the root-cause note below). Every route this API
+//    serves — its id, HTTP method, description, optional documented params,
+//    a `match(path)` predicate, and the `handle(ctx)` function that answers
+//    it — lives HERE and ONLY here. `handleApiRequest` (section 10) does
+//    nothing but walk this table; `matchRouteId` (also section 10) walks the
+//    EXACT SAME table to answer "which route, if any, does this path
+//    resolve to", with no fetch/pool access at all. `ENDPOINTS` (the public
+//    metadata list `/api`'s contract document and the unknown-route 404 body
+//    both carry — spec 227) is DERIVED from ROUTES below, never a second,
+//    independently-maintained list.
+//
+//    ROOT-CAUSE NOTE (verifier round 1, backlog 234): before this table
+//    existed, `handleApiRequest` was a chain of bare
+//    `if (path === '/some/route') return {...}` branches, and
+//    `edge/x402-core.js`'s `matchRoute()` derived its OWN static id list
+//    from `PRICE_SCHEDULE`'s own keys — a route added directly to that
+//    if-chain (e.g. a new computed-KPI endpoint) was invisible to
+//    `ENDPOINTS`, invisible to `matchRoute()`, and therefore classified
+//    `null` ("no such resource") by the payment gate instead of hitting
+//    `classifyRoute()`'s default-paid fallback — DEFAULT_TIER = 'paid' could
+//    never fire on a route added this way, so it shipped free by
+//    construction despite every test staying green (the whole population
+//    those tests iterate is ENDPOINTS/PRICE_SCHEDULE, which the new route
+//    was never added to). With ROUTES as the single source, `handleApiRequest`
+//    has no dispatch code outside this table, so a new route can only ever
+//    be added AS a ROUTES entry — which means it automatically appears in
+//    `ENDPOINTS` (derived below) and is automatically recognized by
+//    `matchRouteId`, and therefore by `x402-core.js`'s `classifyRoute()`
+//    default-paid fallback, since that file's `matchRoute` now delegates to
+//    `matchRouteId` directly instead of re-deriving its own id list (see
+//    that file's own header comment). See test_x402_core.js's three-way
+//    mirror section and test_x402_gate.js's injected-route non-vacuity
+//    section for the guards that prove this.
 // ---------------------------------------------------------------------------
 
-const ENDPOINTS = [
-  { method: 'GET', path: '/api', description: 'This contract document: version, endpoints, rails, data source.' },
-  { method: 'GET', path: '/api/health', description: 'Liveness + railed pool-data freshness check.' },
+const POOL_ID_RE = /^\/api\/pools\/([^/]+)$/;
+
+/** Resolves the `:id` segment for a path already confirmed to match
+ * POOL_ID_RE, or null if it somehow doesn't (defensive; `handle` below only
+ * calls this after `match` has already confirmed a match). */
+function resolvePoolIdFromPath(path) {
+  const m = POOL_ID_RE.exec(path);
+  if (!m) return null;
+  // `decodeURIComponent` throws `URIError: URI malformed` on a bare "%", an
+  // incomplete percent-escape, or an invalid hex pair (e.g. "100%", "%zz",
+  // "%E0%A4%A") — and `new URL(request.url).pathname` (the caller's usual
+  // source for `pathname`) does NOT reject or decode these; it preserves
+  // them verbatim, so a hostile/malformed id routinely reaches this line.
+  // Falling back to the raw, still-percent-encoded segment on a decode
+  // failure never risks matching a real pool id (DefiLlama pool ids are
+  // plain UUID-shaped strings that never contain "%"), so this simply flows
+  // into handlePoolById's existing 404-with-rails path instead of throwing.
+  try {
+    return decodeURIComponent(m[1]);
+  } catch (_err) {
+    return m[1];
+  }
+}
+
+const ROUTES = [
   {
-    method: 'GET', path: '/api/pools', description: 'Railed pool list.',
+    id: '/api',
+    method: 'GET',
+    description: 'This contract document: version, endpoints, rails, data source.',
+    match: function (path) { return path === '/api'; },
+    handle: function (ctx) { return { status: 200, body: buildContractDoc(ctx.pricing) }; },
+  },
+  {
+    id: '/api/health',
+    method: 'GET',
+    description: 'Liveness + railed pool-data freshness check.',
+    match: function (path) { return path === '/api/health'; },
+    handle: function (ctx) { return { status: 200, body: buildHealth(ctx.poolList) }; },
+  },
+  {
+    id: '/api/pools',
+    method: 'GET',
+    description: 'Railed pool list.',
     params: {
       token: 'optional — case-insensitive substring match against pool.symbol',
       chain: 'optional — case-insensitive exact match against pool.chain',
@@ -142,24 +212,87 @@ const ENDPOINTS = [
       minTvl: 'optional USD floor; may only RAISE the default floor, never lower it (clamps up)',
       limit: 'optional; default ' + DEFAULT_LIMIT + ', max ' + MAX_LIMIT + ' (values above the max are clamped down)',
     },
+    match: function (path) { return path === '/api/pools'; },
+    handle: function (ctx) { return { status: 200, body: buildPoolsList(ctx.poolList, ctx.searchParams) }; },
   },
-  { method: 'GET', path: '/api/pools/:id', description: 'One pool by its DefiLlama `pool` id.' },
   {
-    method: 'GET', path: '/api/forever-number',
+    id: '/api/pools/:id',
+    method: 'GET',
+    description: 'One pool by its DefiLlama `pool` id.',
+    match: function (path) { return POOL_ID_RE.test(path); },
+    handle: function (ctx) { return handlePoolById(ctx.poolList, resolvePoolIdFromPath(ctx.path)); },
+  },
+  {
+    id: '/api/pricing',
+    method: 'GET',
+    description: 'The machine-readable agentic-commerce pricing document (backlog 234): which routes/MCP ' +
+      'tools are free vs. paid, why, and the current enabled/mode state. Reading this document is itself ' +
+      'always free — an agent must be able to discover what costs money without first probing a route and ' +
+      'getting a 402.',
+    match: function (path) { return path === '/api/pricing'; },
+    handle: function (ctx) { return buildPricingRoute(ctx.pricing); },
+  },
+  {
+    id: '/api/forever-number',
+    method: 'GET',
     description: 'Capital whose yield alone pays a recurring monthly bill forever (the SUBSCRIPTION-archetype math).',
     params: {
       monthly: 'required — USD/month the capital must cover',
       apy: 'optional annual rate, percent; when omitted, a TVL-weighted blended rate is derived from the ' +
         'railed pool set (never a hand-picked pool)',
     },
+    match: function (path) { return path === '/api/forever-number'; },
+    handle: function (ctx) { return handleForeverNumber(ctx.searchParams, ctx.poolList); },
   },
 ];
+
+/** ENDPOINTS — the single list shared by the /api contract document AND the
+ * unknown-route 404 body (spec 227: 404s carry "an endpoints list").
+ * DERIVED from ROUTES above, never a second hand-typed list — see ROUTES'
+ * own header comment for why this is the load-bearing fix. */
+const ENDPOINTS = ROUTES.map(function (route) {
+  const entry = { method: route.method, path: route.id, description: route.description };
+  if (route.params) entry.params = route.params;
+  return entry;
+});
 
 // ---------------------------------------------------------------------------
 // 4. /api — the contract document.
 // ---------------------------------------------------------------------------
 
-function buildContractDoc() {
+/** Builds the `pricing` block on the `/api` contract document (backlog 234,
+ * spec 234 §2: the pricing doc must be discoverable "without a probe
+ * request"). DERIVED from x402-core.js's `PRICE_SCHEDULE` via the same lazy
+ * `require()` discipline `buildPricingRoute()` below already uses (see its
+ * comment, and the module header's circular-require explanation) — never a
+ * second, hand-typed guess at the free/paid split. Deliberately small: a
+ * pointer at `/api/pricing` plus the derived route lists, not a second copy
+ * of the pricing document itself (that document is `buildPricingRoute()`'s
+ * job). `pricingState` is the same optional `{ enabled, mode }` shape
+ * `request.pricing` carries; absent/undefined is treated as fully
+ * disabled/"dark", exactly like `buildPricingRoute()` — this function must
+ * never assume a state nobody told it about. */
+function buildContractDocPricingBlock(pricingState) {
+  const x402Core = require('./x402-core.js');
+  const state = pricingState || {};
+  const enabled = state.enabled === true;
+  const mode = state.mode === 'live' ? 'live' : 'test';
+  const freeRoutes = x402Core.freeRoutes().slice().sort();
+  const paidRoutes = Object.keys(x402Core.PRICE_SCHEDULE)
+    .filter(function (routeId) { return x402Core.PRICE_SCHEDULE[routeId].tier === 'paid'; })
+    .sort();
+  return {
+    document: '/api/pricing',
+    boundary: 'Current APY data (GET /api/pools, GET /api/pools/:id) is free; the historical series and ' +
+      'every other computed KPI (forever-number math today, more over time) is paid — see GET /api/pricing ' +
+      'for the full machine-readable schedule and reasons.',
+    freeRoutes: freeRoutes,
+    paidRoutes: paidRoutes,
+    availability: { enabled: enabled, mode: mode },
+  };
+}
+
+function buildContractDoc(pricingState) {
   return {
     name: 'DeFi Garden read-only Yield API',
     version: API_VERSION,
@@ -175,6 +308,7 @@ function buildContractDoc() {
     },
     endpoints: ENDPOINTS,
     rails: buildRailsBlock(DEFAULT_MIN_TVL),
+    pricing: buildContractDocPricingBlock(pricingState),
   };
 }
 
@@ -437,6 +571,55 @@ function handleForeverNumber(searchParams, poolList) {
 }
 
 // ---------------------------------------------------------------------------
+// 8b. /api/pricing (backlog 234, spec 234) — the machine-readable pricing
+//    document, generated by x402-core.js's `buildPricingDoc()` from
+//    PRICE_SCHEDULE. `/api/pricing` IS listed in `ENDPOINTS` above (see
+//    item 234's follow-up fix, product-loop-kit/specs/234-notes.md
+//    "Deviation 1 — reversed"): an earlier build of this item deliberately
+//    left it out of `ENDPOINTS` to dodge a hardcoded `.concat(['/api/pricing'])`
+//    exception literal in test_x402_core.js's mirror test — that was the
+//    wrong trade (spec 234 §2 requires the pricing doc be discoverable
+//    "without a probe request", and `GET /api` — the contract document a
+//    caller reads first — had no mention of pricing at all). The mirror
+//    test itself was fixed instead, to assert genuine set equality against
+//    the real `ENDPOINTS` table with no exception literal, so the route
+//    could be added here honestly.
+//
+// Reaches x402-core.js/mcp-core.js via a LAZY `require()` inside the
+// function body below, never at this file's top level. Both of those files
+// already `require('./api-core.js')` at THEIR top level; a top-level
+// `require()` back from here would create a circular require that
+// CommonJS's `module.exports = {...}` (whole-object reassignment, the
+// pattern every file in this trio uses) resolves incorrectly — whichever
+// side captures the reference first keeps a stale, empty `{}` forever, since
+// reassignment doesn't update an already-captured reference. A LAZY require,
+// invoked only when `/api/pricing` is actually dispatched (i.e., only after
+// the entire static require graph that got this file loaded has already
+// finished), never observes a partially-loaded module and is safe.
+// ---------------------------------------------------------------------------
+
+/** `pricingState` is the `req.pricing` field `handleApiRequest` receives
+ * (see its own header) — `{ enabled, mode }` as computed by the Worker via
+ * `x402Core.readConfig(env)`, or absent/undefined on any caller that hasn't
+ * wired x402 at all (this file's own tests, MCP's `explain_rails`-style
+ * delegation, etc.), in which case this treats it as fully disabled/"dark"
+ * — the doc must never claim a state nobody told it about. */
+function buildPricingRoute(pricingState) {
+  const x402Core = require('./x402-core.js');
+  const mcpCore = require('./mcp-core.js');
+  const state = pricingState || {};
+  const enabled = state.enabled === true;
+  const mode = state.mode === 'live' ? 'live' : 'test';
+  const doc = x402Core.buildPricingDoc({
+    endpoints: ENDPOINTS,
+    tools: mcpCore.TOOLS,
+    enabled: enabled,
+    mode: mode,
+  });
+  return { status: 200, body: doc };
+}
+
+// ---------------------------------------------------------------------------
 // 9. Unknown /api/* -> 404, still carrying rails + endpoints.
 // ---------------------------------------------------------------------------
 
@@ -470,60 +653,68 @@ function normalizePath(pathname) {
   return p;
 }
 
-const POOL_ID_RE = /^\/api\/pools\/([^/]+)$/;
+/** pathname -> route id, or null when this API serves no such resource (the
+ * "let api-core answer its own honest 404, ungated" case — see
+ * x402-core.js's header comment, "NULL MEANS NO SUCH RESOURCE", and
+ * Territory note 3). Walks the SAME ROUTES table `handleApiRequest` itself
+ * dispatches through, in the same order — by construction, these two can
+ * never recognize a different set of paths, which is the root fix for
+ * backlog 234's verifier round-1 finding (see ROUTES' own header comment).
+ * `edge/x402-core.js`'s `matchRoute()` delegates to this function directly. */
+function matchRouteId(pathname) {
+  const path = normalizePath(pathname);
+  for (let i = 0; i < ROUTES.length; i++) {
+    if (ROUTES[i].match(path)) return ROUTES[i].id;
+  }
+  return null;
+}
 
 /**
- * The one exported entry point. Pure function of its three inputs — no
- * fetch, no Date.now() outside buildHealth's documented exception, no
- * mutation of `pools`. Always returns `{ status, body }`; `body` is a plain
+ * The one exported entry point. Pure function of its inputs — no fetch, no
+ * Date.now() outside buildHealth's documented exception, no mutation of
+ * `pools`. Always returns `{ status, body }`; `body` is a plain
  * JSON-serializable object on every path, success or error — including a
  * malformed/hostile `:id` segment on `/api/pools/:id` (guarded above), which
  * is the one input class that used to throw a `URIError` out of this
- * function before it was caught here (see the guard's comment).
+ * function before it was caught here (see resolvePoolIdFromPath's comment).
+ *
+ * DISPATCH: walks ROUTES (section 3) in order and calls the first matching
+ * entry's `handle`; falls through to `build404()` when nothing matches.
+ * There is NO other dispatch code in this function — see ROUTES' own header
+ * comment for why that is load-bearing, not stylistic.
+ *
+ * `request.pricing` (backlog 234, spec 234): an OPTIONAL `{ enabled, mode }`
+ * field the Worker passes in, carrying the x402 payment-gate state it read
+ * from `env` via `x402Core.readConfig(env)`. This function never reads
+ * `env` itself (it has no access to it, by design — see this file's own
+ * header discipline) and never assumes a state it wasn't told: absent
+ * `pricing` is treated as fully disabled ("dark"), never as "enabled" —
+ * `/api/pricing` and `/api` (its own `pricing` summary block, see
+ * `buildContractDoc`) are the only two routes that consume this field;
+ * every other route ignores it entirely, unaffected by whether the gate is
+ * on or off (gating itself is the Worker's job, before this function is
+ * ever called for a paid route without a valid payment — see
+ * edge/agent-log.mjs).
  */
 function handleApiRequest(request) {
   const req = request || {};
   const path = normalizePath(req.pathname);
-  const searchParams = req.searchParams || null;
-  const poolList = Array.isArray(req.pools) ? req.pools : [];
-
-  if (path === '/api') {
-    return { status: 200, body: buildContractDoc() };
-  }
-  if (path === '/api/health') {
-    return { status: 200, body: buildHealth(poolList) };
-  }
-  if (path === '/api/pools') {
-    return { status: 200, body: buildPoolsList(poolList, searchParams) };
-  }
-  const poolIdMatch = POOL_ID_RE.exec(path);
-  if (poolIdMatch) {
-    // `decodeURIComponent` throws `URIError: URI malformed` on a bare "%",
-    // an incomplete percent-escape, or an invalid hex pair (e.g. "100%",
-    // "%zz", "%E0%A4%A") — and `new URL(request.url).pathname` (the caller's
-    // usual source for `pathname`) does NOT reject or decode these; it
-    // preserves them verbatim, so a hostile/malformed id routinely reaches
-    // this line. Falling back to the raw, still-percent-encoded segment on a
-    // decode failure never risks matching a real pool id (DefiLlama pool ids
-    // are plain UUID-shaped strings that never contain "%"), so this simply
-    // flows into handlePoolById's existing 404-with-rails path below instead
-    // of throwing out of handleApiRequest.
-    let poolId;
-    try {
-      poolId = decodeURIComponent(poolIdMatch[1]);
-    } catch (_err) {
-      poolId = poolIdMatch[1];
-    }
-    return handlePoolById(poolList, poolId);
-  }
-  if (path === '/api/forever-number') {
-    return handleForeverNumber(searchParams, poolList);
+  const ctx = {
+    path: path,
+    searchParams: req.searchParams || null,
+    poolList: Array.isArray(req.pools) ? req.pools : [],
+    pricing: req.pricing,
+  };
+  for (let i = 0; i < ROUTES.length; i++) {
+    if (ROUTES[i].match(path)) return ROUTES[i].handle(ctx);
   }
   return build404();
 }
 
 module.exports = {
   handleApiRequest,
+  matchRouteId,
+  ROUTES,
   API_VERSION,
   DEFAULT_LIMIT,
   MAX_LIMIT,

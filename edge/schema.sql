@@ -21,8 +21,50 @@ CREATE TABLE IF NOT EXISTS agent_reads (
   referer    TEXT,               -- raw Referer header, truncated (MAX_REFERER_LEN); NULL if absent
   status     INTEGER,            -- origin response status code; NULL if unavailable
   bot_score  INTEGER,            -- request.cf.botManagement.score (Cloudflare Bot Management, 1-99); NULL off-plan/absent
-  path_class TEXT    NOT NULL    -- classifyRequest() result: llms | md_twin | api | well_known | markdown_negotiation
+  path_class TEXT    NOT NULL    -- classifyRequest() result: llms | md_twin | api | mcp | well_known | markdown_negotiation
 );
+-- (`path_class` gained the `mcp` value with backlog 228/spec 228 — this
+-- comment was stale until backlog 234 touched the same line; not a
+-- functional change, SQLite has no per-column CHECK here to update.)
+
+-- ---------------------------------------------------------------------------
+-- backlog 234 migration (spec 234, agentic commerce / x402 + Web Bot Auth):
+-- three new NULLABLE columns, added via ALTER TABLE rather than folded into
+-- the CREATE TABLE above, so this file stays correct and idempotent for
+-- BOTH a fresh install (CREATE TABLE makes the 9-column table, then these
+-- three ALTERs bring it to 12) AND the already-deployed table (item 224's
+-- original deploy — CREATE TABLE IF NOT EXISTS is a no-op, these three
+-- ALTERs are the entire delta). The human runs this by hand against
+-- production D1 — see edge/DEPLOY.md's "Deploy delta — x402 + Web Bot Auth"
+-- section for the copy-pasteable `wrangler d1 execute` command. SQLite's
+-- `ALTER TABLE ... ADD COLUMN` has no `IF NOT EXISTS` form, so re-running
+-- this block against a table that already has these columns errors on the
+-- second run — expected and harmless (the columns are already there), not
+-- evidence of a broken migration.
+--
+-- Territory note 4 (spec 234): until this migration runs, the Worker's
+-- 12-column INSERT fails on every write and edge/agent-log.mjs's
+-- insertRow() falls back to the original 9-column statement — so telemetry
+-- keeps landing (the OLD columns), it just doesn't gain the three new ones
+-- until this migration is run. Running it late is safe; the fallback makes
+-- "not yet run" non-catastrophic rather than "must never happen".
+--
+--   agent_identity  — Web Bot Auth `keyid` (RFC 9421 Signature-Input),
+--                      truncated (agent-log-core.js MAX_AGENT_IDENTITY_LEN);
+--                      NULL if never checked (not /api or /mcp) or unsigned.
+--   identity_status — one of web-bot-auth-core.js's IDENTITY_STATUSES
+--                      ('unverified'|'invalid'|'verified'); NULL if never
+--                      checked (a row for a non-/api, non-/mcp path — llms/
+--                      md_twin/well_known/markdown_negotiation — never runs
+--                      the identity check at all, so this is honestly NULL
+--                      there, never a fabricated 'unverified').
+--   payment_status  — one of agent-log-core.js's PAYMENT_STATUSES
+--                      ('none'|'paid'|'paid_test'|'rejected'|'required').
+-- See edge/X402.md for the full payment contract.
+-- ---------------------------------------------------------------------------
+ALTER TABLE agent_reads ADD COLUMN agent_identity TEXT;
+ALTER TABLE agent_reads ADD COLUMN identity_status TEXT;
+ALTER TABLE agent_reads ADD COLUMN payment_status TEXT;
 
 -- Daily aggregation read pattern ("reads by UA-family by day", the
 -- heartbeat's §2 read) groups by day-bucketed ts and ua_family — see

@@ -48,3 +48,23 @@ database_id = "2a6a3b87-cc0e-4ed7-a6c6-a8bb49015814"
 [[routes]]
 pattern = "www.defi.garden/*"
 zone_name = "defi.garden"
+
+# backlog 234 (spec 234, agentic commerce / x402 + Web Bot Auth) — env vars,
+# DOCUMENTED HERE AS COMMENTS ONLY. None of these are configured yet; no
+# secret, account id, wallet address, or handle is present in this repo.
+# Full runbook + the HUMAN-OWNED list (claiming cloudflare.pay, enabling
+# Monetization Gateway, wallet custody/payout, flipping X402_ENABLED/live
+# mode — all money/org-admin, never a loop action): edge/DEPLOY.md §9.
+# Payment contract: edge/X402.md.
+#
+# Add as [vars] (non-secret) below, or `wrangler secret put <NAME>` if ever
+# treated as sensitive — this file does not prescribe which, since none of
+# these are set today:
+#
+#   X402_ENABLED         = "false"        (default when unset; "true"/"1" turns the payment gate ON — HUMAN action)
+#   X402_MODE             = "test"        (default when unset; "test" | "live" — never defaults to live)
+#   X402_NETWORK          = "base-sepolia" (default network for 402 challenges when unset)
+#   X402_ASSET            = ""            (priced-asset contract address; unset -> null, never invented)
+#   X402_PAY_TO           = ""            (settlement wallet/handle; unset -> null, never invented)
+#   X402_FACILITATOR_URL  = ""            (x402 facilitator base URL for live-mode /verify; unset -> live mode fails closed)
+#   WEB_BOT_AUTH_KEYS     = "{}"          (JSON: keyid -> base64url Ed25519 public key; unset -> empty keyring, every signed request honestly resolves 'unverified')

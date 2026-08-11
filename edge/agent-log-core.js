@@ -19,6 +19,17 @@
 
 'use strict';
 
+// backlog 234 (spec 234, Change §3): Web Bot Auth identity verdicts become a
+// first-class D1 column. `IDENTITY_STATUSES` is imported from
+// web-bot-auth-core.js, NEVER hand-typed here — that file is the single
+// source of the three verdict strings ('unverified'/'invalid'/'verified'),
+// and a second hand-typed copy here is exactly the mirror-drift class
+// RAZOR.md warns about. No cycle risk: web-bot-auth-core.js has zero
+// `require()` calls of its own (confirmed by inspection), so this is a
+// plain, safe, one-directional dependency.
+const webBotAuth = require('./web-bot-auth-core.js');
+const IDENTITY_STATUSES = webBotAuth.IDENTITY_STATUSES;
+
 // ---------------------------------------------------------------------------
 // 1. classifyRequest — agent-surface classification.
 //
@@ -167,6 +178,41 @@ const MAX_PATH_LEN = 512;
 const MAX_UA_LEN = 512;
 const MAX_ACCEPT_LEN = 256;
 const MAX_REFERER_LEN = 512;
+// backlog 234: a Web Bot Auth `keyid` is caller-chosen (RFC 9421 Signature-
+// Input parameter), so it gets the same hostile-input truncation discipline
+// as every other unbounded string field above — a huge/hostile keyid must
+// not be able to bloat D1 either.
+const MAX_AGENT_IDENTITY_LEN = 256;
+
+// ---------------------------------------------------------------------------
+// backlog 234 (spec 234, Change §2/§3): PAYMENT_STATUSES — the single source
+// for the `payment_status` D1 column's five legal values. Exported so a
+// caller (edge/agent-log.mjs) reads the string it needs from THIS array
+// (e.g. `PAYMENT_STATUSES[0]`) or from `mapPaymentStatus()` below, rather
+// than hand-typing 'none'/'paid'/'paid_test'/'rejected'/'required' at each
+// call site — the same discipline IDENTITY_STATUSES enforces one file over.
+//
+//   'none'     — the payment gate did not apply to this request at all
+//                (a free-tier route, an unrelated path, or X402_ENABLED is
+//                not true — "dark" per spec 234's acceptance criterion).
+//   'required' — the gate applied (a paid route, gate enabled) and NO
+//                X-PAYMENT header was presented at all — verifyPayment()'s
+//                own 'none' status, renamed here to avoid colliding with
+//                THIS array's unrelated 'none' meaning above.
+//   'rejected' — the gate applied and a payment WAS presented but failed
+//                verification (wrong scheme/network/resource, underpaid,
+//                malformed, or a live-mode facilitator rejection).
+//   'paid'     — the gate applied and a LIVE payment was VERIFIED against the
+//                configured facilitator's /verify endpoint. This is NOT
+//                settlement: this Worker never calls a facilitator's /settle
+//                endpoint (see edge/x402-core.js's verifyPayment() and
+//                edge/X402.md's residue notes), so no funds move on our side
+//                even for a 'paid' row — verified-but-unsettled, always.
+//   'paid_test'— the gate applied and a well-formed TEST-network payment
+//                was accepted (test mode never settles real value).
+// ---------------------------------------------------------------------------
+const PAYMENT_STATUSES = Object.freeze(['none', 'paid', 'paid_test', 'rejected', 'required']);
+const [PAYMENT_NONE, PAYMENT_PAID, PAYMENT_PAID_TEST, PAYMENT_REJECTED, PAYMENT_REQUIRED] = PAYMENT_STATUSES;
 
 function truncate(value, maxLen) {
   const s = String(value);
@@ -189,7 +235,23 @@ function safeBotScore(botScore) {
   return Number.isFinite(n) ? n : null;
 }
 
-function buildRow({ tsSeconds, pathname, userAgent, accept, referer, status, botScore } = {}) {
+/** backlog 234: `agentIdentity`/`identityStatus` are only ever meaningful
+ * for a request the Worker actually ran Web Bot Auth verification against
+ * (`/api` and `/mcp` — see edge/agent-log.mjs). For every other path class,
+ * the caller simply omits them, and they land as `null` here — a DISTINCT
+ * fact from `identity_status: 'unverified'` (which specifically means "we
+ * checked, and this request carried no/an unrecognized signature"; see
+ * web-bot-auth-core.js's own header comment). `identityStatus` is validated
+ * against `IDENTITY_STATUSES` (imported, never hand-typed) — anything else
+ * (including a caller bug) lands as `null` rather than corrupting the
+ * column with an unrecognized string. `paymentStatus` is validated against
+ * `PAYMENT_STATUSES` the same way, defaulting to `'none'` (never null —
+ * "no payment concept applied to this request" is always a real, sayable
+ * fact, unlike identity which can be genuinely "not checked"). */
+function buildRow({
+  tsSeconds, pathname, userAgent, accept, referer, status, botScore,
+  agentIdentity, identityStatus, paymentStatus,
+} = {}) {
   const path = barePathname(pathname);
   const classification = classifyRequest({ pathname: path, accept });
   return {
@@ -202,7 +264,34 @@ function buildRow({ tsSeconds, pathname, userAgent, accept, referer, status, bot
     status: safeStatus(status),
     bot_score: safeBotScore(botScore),
     path_class: classification ? classification.pathClass : null,
+    agent_identity: agentIdentity == null ? null : truncate(agentIdentity, MAX_AGENT_IDENTITY_LEN),
+    identity_status: IDENTITY_STATUSES.indexOf(identityStatus) !== -1 ? identityStatus : null,
+    payment_status: PAYMENT_STATUSES.indexOf(paymentStatus) !== -1 ? paymentStatus : PAYMENT_NONE,
   };
+}
+
+/** backlog 234: the SINGLE place that turns x402-core.js's `verifyPayment()`
+ * result (statuses: 'none'|'paid'|'paid_test'|'rejected', scoped to "was a
+ * payment presented and did it verify") into this file's D1-column
+ * `payment_status` (statuses: 'none'|'paid'|'paid_test'|'rejected'|
+ * 'required', scoped to "what should the log row say about payment for
+ * this request"). The two vocabularies deliberately do not share the string
+ * 'none' 1:1 — verifyPayment()'s 'none' means "no X-PAYMENT header was
+ * presented", which is only interesting/loggable AS 'required' when the
+ * gate actually applied (a paid route, X402_ENABLED true); when the gate
+ * never applied at all (free route, or the flag is off — "dark" per spec
+ * 234), the honest column value is this file's OWN 'none' ("payment is not
+ * a concept here"), regardless of what verifyResult (if any) says. Pure,
+ * exported, and testable in isolation — never re-derived ad hoc at a call
+ * site in edge/agent-log.mjs. */
+function mapPaymentStatus(verifyResult, gateApplied) {
+  if (!gateApplied) return PAYMENT_NONE;
+  if (!verifyResult || typeof verifyResult.status !== 'string') return PAYMENT_NONE;
+  if (verifyResult.status === 'none') return PAYMENT_REQUIRED;
+  if (verifyResult.status === PAYMENT_PAID || verifyResult.status === PAYMENT_PAID_TEST || verifyResult.status === PAYMENT_REJECTED) {
+    return verifyResult.status;
+  }
+  return PAYMENT_NONE;
 }
 
 // ---------------------------------------------------------------------------
@@ -251,7 +340,11 @@ module.exports = {
   MAX_UA_LEN,
   MAX_ACCEPT_LEN,
   MAX_REFERER_LEN,
+  MAX_AGENT_IDENTITY_LEN,
   RETENTION_DAYS,
   retentionCutoff,
   DAILY_READS_QUERY,
+  IDENTITY_STATUSES,
+  PAYMENT_STATUSES,
+  mapPaymentStatus,
 };

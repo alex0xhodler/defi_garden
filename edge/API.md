@@ -55,13 +55,22 @@ Always read the actual response's `rails` block rather than hardcoding these
 
 - Every `/api/*` response: `Access-Control-Allow-Origin: *`,
   `X-Defi-Garden-Api-Version: 0.1.0`, and a `Cache-Control` that depends on
-  status — `public, max-age=300` for 2xx/4xx, `no-store` for any 5xx (503,
-  500 — see those sections below): an outage answer must never be publicly
-  cached past the outage.
+  status AND, since backlog 234, on whether the x402 payment gate applied to
+  this specific request: `public, max-age=300` for an ordinary 2xx/4xx
+  (400/404 included); `no-store` for any 5xx (503, 500 — see those sections
+  below — an outage answer must never be publicly cached past the outage),
+  for a `402` (see "Pricing" below), and for a `200` on a route the gate
+  actually applied to (a paid route, `X402_ENABLED` true, payment verified)
+  — otherwise a shared cache could serve the paid response it cached to the
+  next, unpaid requester of that same URL. A free route, or any route while
+  the gate is dark, is unaffected and keeps the plain 300s public caching.
 - `OPTIONS /api/*` → `204 No Content` with
   `Access-Control-Allow-Methods: GET, OPTIONS` and
-  `Access-Control-Allow-Headers: Content-Type` (CORS preflight; generous by
-  design — this is a public, read-only surface).
+  `Access-Control-Allow-Headers: Content-Type, X-PAYMENT` (CORS preflight;
+  generous by design — this is a public, read-only surface. `X-PAYMENT` was
+  added to the allow-list, and `X-PAYMENT-RESPONSE` to
+  `Access-Control-Expose-Headers`, by backlog 234, so a browser-origin agent
+  can actually complete the documented payment flow — see `X402.md`).
 - Pool data itself is fetched from `https://yields.llama.fi/pools` with
   Cloudflare edge caching (`cf: { cacheTtl: 300, cacheEverything: true }`)
   plus an in-isolate memo, so most requests never hit the upstream directly.
@@ -72,7 +81,13 @@ Always read the actual response's `rails` block rather than hardcoding these
 
 The contract document: `name`, `version`, `description`, `dataSource`
 (`upstream`, `attribution`, `cacheTtlSeconds`), `endpoints` (this same list,
-machine-readable), and `rails`.
+machine-readable), `rails`, and `pricing` (backlog 234: `document` — a
+pointer at `GET /api/pricing`; `freeRoutes`/`paidRoutes` — derived from the
+same price schedule `GET /api/pricing` and `X402.md` describe, never a
+second hand-typed copy; `boundary` — the free/paid split in one sentence;
+`availability` — the live `{ enabled, mode }` state, absent env read as
+disabled/"dark"). This is a small pointer, not a second pricing document —
+see "Pricing" below for the full machine-readable schedule.
 
 ### `GET /api/health`
 
@@ -246,9 +261,53 @@ Cloudflare, would render as an opaque 1101 error page with no body — the
 one thing this API's "every response carries `rails`" contract exists to
 rule out).
 
+## Pricing (backlog 234, spec 234) — `GET /api/pricing`
+
+**Status: code-complete, pricing DARK.** `X402_ENABLED` ships unset — every
+route on this page is served FREE today, including `/api/forever-number`.
+Full contract (the `402` shape, how to pay, Web Bot Auth identity, the
+free/paid boundary in plain terms): [`X402.md`](X402.md).
+
+`GET /api/pricing` is itself always free (an agent must be able to learn
+what costs money without first paying to find out) and returns a
+machine-readable pricing document generated from the same price schedule
+`X402.md` describes in prose — never a second, independently-drifting
+table. It **is** listed in this page's `endpoints` table above and in the
+unknown-route `404` body's `endpoints` list — both mirror
+`edge/api-core.js`'s own `ENDPOINTS` constant exactly (asserted by
+`test_x402_core.js`'s mirror test), and `/api/pricing` is now a genuine
+entry in that constant. (An earlier build of this item left it out of
+`ENDPOINTS` to dodge a hardcoded test exception literal; that was reversed
+as a follow-up fix — spec 234 §2 requires the pricing document be
+discoverable "without a probe request", so `GET /api` itself now also
+carries a small `pricing` summary block pointing at this document. See
+`product-loop-kit/specs/234-notes.md`, "Deviation 1 — reversed", for the
+full history.)
+
+### `402` — payment required
+
+A paid route (currently only `/api/forever-number`) without a valid
+`X-PAYMENT` header returns `402` with an
+[x402](https://blog.cloudflare.com/wallets/) v1-conformant body — see
+`X402.md` for the exact shape and how to construct a valid payment. It
+carries `Cache-Control: no-store` (a `402` must never be publicly cached),
+same as every `5xx` response (the `503`/`500` cases above) — but this is
+**not** "every non-2xx response": a `400` (bad `monthly`/`apy`) or a `404`
+(unknown route, unknown pool id) is publicly cacheable for 300s exactly like
+a `2xx`, since those are stable, non-outage, non-payment-specific answers,
+not something a shared cache could use to serve paid data to an unpaid
+requester. A `200` on a route the gate actually applied to (paid route, gate
+enabled, payment verified) is ALSO `no-store`, for that reason — see
+`X402.md`'s "How to pay" and `edge/agent-log.mjs`'s `headersFor()` comment.
+`402`/`5xx`/gated-`200` are the only three cases this API ever serves
+`no-store`; every other status is `public, max-age=300`. A route classified
+`free` (everything except `/api/forever-number` today) is never gated,
+regardless of `X402_ENABLED`.
+
 ## What this API deliberately does NOT do (v0)
 
-- No auth, no write path, no pricing/x402 (that's item 234).
+- No auth, no write path. Pricing/x402 exists (see above) but ships DARK —
+  `X402_ENABLED` unset, every route free today.
 - No pagination beyond `limit` (no `offset`/cursor).
 - No MCP tool wrapper *in this file* — these same railed reads are also
   exposed as installable MCP tools that delegate to this exact API; see
