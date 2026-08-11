@@ -80,17 +80,22 @@
  * by `:`. Three forms, applied in order:
  *   F1 — a bounded leading digit run, whatever follows (`(?<!\d)\d+(?!\d)` at
  *        the very start, after optional leading whitespace).
- *   F2 — a conventional-commit scope that STARTS with the id: `type(<id>):`
- *        / `type(<id>)!:` / `type(<id> anything-not-a-paren):` (widened
- *        2026-08-11, verifier round 2 FAIL — see "Verifier round 2 FAIL" in
- *        specs/263-notes.md — from the original, narrower "scope is JUST the
- *        digits" rule; the real, landed commit subject
- *        `design(247 world): certificate button skin app-wide ... (#412)`
- *        is a malformed conventional-commit scope with an extra word fused
- *        onto the id, and a human reads it as naming item 247 just as
- *        plainly as `fix(266):` names 266 — the SCOPE_ID_RE regex now
- *        requires only that the scope's LEADING token be the id's digit
- *        run, not that the digit run be the scope's entire content).
+ *   F2 — a conventional-commit scope that IS the id, and nothing else:
+ *        `type(<id>):` / `type(<id>)!:`. Round 2 widened this to "the scope
+ *        merely STARTS with the id" to catch the real, landed subject
+ *        `design(247 world): certificate button skin app-wide ... (#412)`;
+ *        round 3 measured what that widening actually accepted and it was
+ *        far too much — ANY paren-scope whose content opens with a digit run,
+ *        so `fix(2 factor auth): add TOTP support` COLLIDED with the real
+ *        BACKLOG row `002`, and `chore(404 page):`, `feat(500ms):`,
+ *        `docs(100k):`, `chore(24hr):` are the same shape. A false COLLISION
+ *        BLOCKS a legitimate run from pushing, so F2 is back to the strict
+ *        rule and the extra-content shape is now handled the way leg A's
+ *        digit coincidences already were: as a WEAK, informational candidate
+ *        (see weakScopeIdCandidates) that is printed with a count and can
+ *        NEVER change the exit code. `design(247 world)` lands there — still
+ *        visible to a human reading the check's output, no longer able to
+ *        block a push on a guess (see specs/263-notes.md "Round 4").
  *   F3 — strip ONE optional leading conventional-commit prefix (`type:` or
  *        `type(scope):`, e.g. `docs(loop): `) and re-apply F1 to the
  *        remainder (`docs(loop): 118 — GSC ...` -> 118).
@@ -158,15 +163,16 @@ function refHasLoopIdToken(str, id) {
 }
 
 const LEADING_ID_RE = /^\s*(?<!\d)(\d+)(?!\d)/;
-// F2 — widened 2026-08-11 (verifier round 2 FAIL, `design(247 world):`, see
-// file header): the scope no longer has to be JUST the digits — it only has
-// to START with them. `(\d+)` still captures the maximal leading digit run
-// (so it stays bounded/numeric-equality-checked downstream exactly like
-// before); `[^)]*` accepts whatever free text follows inside the same
-// parens, up to the closing paren. `type(<id>):` and `type(<id>)!:` (the
-// original, narrower shape) are unaffected — `[^)]*` matches the empty
-// string for them.
-const SCOPE_ID_RE = /^\s*[\w.-]+\((\d+)[^)]*\)!?\s*:/;
+// F2 — STRICT (restored 2026-08-11, verifier round 3 FAIL, see file header):
+// the scope must be EXACTLY the id's digit run. This is the only F2 shape
+// that counts as a match and can therefore contribute to a COLLISION.
+const SCOPE_ID_RE = /^\s*[\w.-]+\((\d+)\)!?\s*:/;
+// The round-2 (too wide) shape, kept ONLY to detect WEAK, informational
+// scope-lead candidates — a scope whose content starts with the id's digit
+// run but carries extra content after it (`design(247 world):`, and equally
+// `fix(2 factor auth):`). Never used by extractLeadingId; never affects the
+// exit code. See weakScopeIdCandidates.
+const SCOPE_LEAD_ID_RE = /^\s*[\w.-]+\((\d+)([^)]*)\)!?\s*:/;
 const CONVENTIONAL_PREFIX_RE = /^\s*[\w.-]+(?:\([\w.-]+\))?!?\s*:\s*/;
 
 /**
@@ -182,8 +188,7 @@ function extractLeadingId(text) {
   // F1 — bounded leading digit run, whatever follows.
   let m = s.match(LEADING_ID_RE);
   if (m) return { id: m[1], via: 'leading-id' };
-  // F2 — conventional-commit scope whose LEADING token is the id (the scope
-  // may carry extra free text after the digits, e.g. "design(247 world):").
+  // F2 — conventional-commit scope that IS the id, exactly ("fix(266):").
   m = s.match(SCOPE_ID_RE);
   if (m) return { id: m[1], via: 'conventional-scope' };
   // F3 — strip ONE optional leading conventional-commit prefix, re-apply F1.
@@ -258,6 +263,46 @@ function matchLegB(subjects, id) {
 }
 
 // ---------------------------------------------------------------------------
+// Weak scope-lead candidates — legs B and C, informational only.
+// ---------------------------------------------------------------------------
+
+/**
+ * Informational-only companion to matchLegB/matchLegC, mirroring leg A's weak
+ * bucket (weakLegACandidates). Returns every text whose conventional-commit
+ * scope STARTS with `id`'s digit run but carries extra content after it
+ * (`design(247 world):` for id 247 — a real, landed subject that genuinely
+ * names item 247; `fix(2 factor auth):` for id 002 — an ordinary English
+ * scope that names no item at all). The two shapes are indistinguishable to
+ * a regex, so neither is allowed to force a COLLISION: this bucket NEVER
+ * contributes to allMatches / anyMatch / the exit code, it only makes the
+ * candidate visible with a count, per RAZOR (residue must be visible, not
+ * hidden). Texts that already match strongly (exact `type(<id>):` scope, or
+ * F1/F3) are excluded — a strong match is never also reported as weak.
+ *
+ * `texts`: array of {sha, subject} | {number, title, state} | plain strings.
+ */
+function weakScopeIdCandidates(texts, id) {
+  const weak = [];
+  for (const t of texts || []) {
+    const text = typeof t === 'string' ? t : t.subject !== undefined ? t.subject : t.title;
+    const m = (text || '').match(SCOPE_LEAD_ID_RE);
+    if (!m) continue;
+    if (m[2].length === 0) continue; // exact-scope shape — that is a STRONG match, not weak
+    if (Number(m[1]) !== Number(id)) continue;
+    const strong = extractLeadingId(text);
+    if (strong && Number(strong.id) === Number(id)) continue;
+    const entry = { text, scopeId: m[1] };
+    if (typeof t !== 'string') {
+      if (t.sha !== undefined) entry.sha = t.sha;
+      if (t.number !== undefined) entry.number = t.number;
+      if (t.state !== undefined) entry.state = t.state;
+    }
+    weak.push(entry);
+  }
+  return weak;
+}
+
+// ---------------------------------------------------------------------------
 // Leg C — pull requests, any state.
 // ---------------------------------------------------------------------------
 
@@ -295,8 +340,10 @@ function checkInFlight({ id, refs, subjects, prs }) {
   const legAMatches = matchLegA(refs, idStr);
   const legAWeak = weakLegACandidates(refs, idStr);
   const legBMatches = matchLegB(subjects, idStr);
+  const legBWeak = weakScopeIdCandidates(subjects, idStr);
   const legCAvailable = Array.isArray(prs);
   const legCMatches = legCAvailable ? matchLegC(prs, idStr) : [];
+  const legCWeak = legCAvailable ? weakScopeIdCandidates(prs, idStr) : [];
 
   const allMatches = [
     ...legAMatches.map((m) => ({ leg: 'A', ...m })),
@@ -306,11 +353,12 @@ function checkInFlight({ id, refs, subjects, prs }) {
 
   return {
     id: idStr,
-    // legA.weak is informational only — it NEVER contributes to allMatches /
-    // anyMatch / the exit code (see weakLegACandidates doc comment).
+    // legA.weak / legB.weak / legC.weak are informational only — they NEVER
+    // contribute to allMatches / anyMatch / the exit code (see the
+    // weakLegACandidates / weakScopeIdCandidates doc comments).
     legA: { available: true, matches: legAMatches, weak: legAWeak },
-    legB: { available: true, matches: legBMatches },
-    legC: { available: legCAvailable, matches: legCMatches },
+    legB: { available: true, matches: legBMatches, weak: legBWeak },
+    legC: { available: legCAvailable, matches: legCMatches, weak: legCWeak },
     allMatches,
     anyMatch: allMatches.length > 0,
     anyUnavailable: !legCAvailable,
@@ -422,10 +470,22 @@ function runCli(argv) {
   for (const m of result.legB.matches) {
     console.log(`    MATCH  ${m.sha ? m.sha.slice(0, 10) : '?'}  ${m.subject}`);
   }
+  if (result.legB.weak.length > 0) {
+    console.log(
+      `  leg B weak scope-lead candidates (NOT counted as matches): ${result.legB.weak.length} — ` +
+        result.legB.weak.map((w) => `${w.sha ? w.sha.slice(0, 10) + ' ' : ''}${w.text}`).join(' | ')
+    );
+  }
   if (result.legC.available) {
     console.log(`  leg C (pull requests, any state, ${prs.length} scanned): ${result.legC.matches.length} match(es)`);
     for (const m of result.legC.matches) {
       console.log(`    MATCH  #${m.number} [${m.state}]  ${m.title}`);
+    }
+    if (result.legC.weak.length > 0) {
+      console.log(
+        `  leg C weak scope-lead candidates (NOT counted as matches): ${result.legC.weak.length} — ` +
+          result.legC.weak.map((w) => `${w.number !== undefined ? '#' + w.number + ' ' : ''}${w.text}`).join(' | ')
+      );
     }
   } else {
     console.log('  leg C (pull requests, any state): UNAVAILABLE — no --prs data supplied; this leg did not run.');
@@ -466,6 +526,7 @@ module.exports = {
   extractLeadingId,
   matchLegA,
   weakLegACandidates,
+  weakScopeIdCandidates,
   matchLegB,
   matchLegC,
   checkInFlight,

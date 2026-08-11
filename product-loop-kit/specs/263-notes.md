@@ -1113,3 +1113,43 @@ re-run by the verifier with byte-identical restores), scope confined to `product
 `prompts/build.md` call sites present. The parked branch is strictly better than the prose rule it would
 replace — it is parked on an over-acceptance the loop's own budget says to hand over rather than to keep
 swinging at.
+---
+
+# Round 4 — unparked by human directive: what changed (2026-08-11)
+
+Human authorization to exceed the 3-attempt budget, with an efficiency mandate: ONE focused fix, one
+verifier round. Round 3's finding is closed by SPLITTING F2 strong/weak, mirroring leg A's shipped
+weak-bucket pattern — not by inventing a discriminator between "247 world" and "2 factor auth" that no
+evidence supports and no regex can have.
+
+- **STRONG (can cause a COLLISION):** `SCOPE_ID_RE` restored to strict `/^\s*[\w.-]+\((\d+)\)!?\s*:/` —
+  the scope must be EXACTLY the digit run. F1/F3 untouched (round 3 population-swept F1 over 523 real
+  texts, zero false positives — it is evidence-backed, so it stays).
+- **WEAK (informational, never affects the exit code):** new `weakScopeIdCandidates(texts, id)` using the
+  round-2 shape `/^\s*[\w.-]+\((\d+)([^)]*)\)!?\s*:/` with non-empty extra content, surfaced as
+  `legB.weak`/`legC.weak` and printed one line per leg. A strong match is never also reported weak.
+  Live (`check-item-inflight.js 247 --no-fetch --prs=…`, VERDICT CLEAR, exit 0 — visible, cannot block):
+  `leg B weak scope-lead candidates (NOT counted as matches): 1 — 6c33899fee design(247 world): …`
+  `leg C weak scope-lead candidates (NOT counted as matches): 1 — #412 design(247 world): …`
+- **Residue machinery:** `design(247 world)` moves from strong-matched to weak-visible — a
+  KNOWN_LEGBC_RESIDUE entry of its own DERIVED category `SCOPE_LEAD_EXTRA_CONTENT`/`WEAK_VISIBLE` (read
+  from the shipped module's own weak bucket, never hand-assigned), distinct from the 2 `TRUE_MISS`
+  instances no leg surfaces. Both-directions set equality holds and now covers category too, so a silent
+  category flip fails as loudly as a new instance. Printed: `3 instance(s) out of 102 … 2 surfaced by
+  NOTHING (2.0% true-miss rate) and 1 still printed as WEAK`.
+- **Negative controls (round 3's requirement):** the 5 known-bad shapes (`fix(2 factor auth):`,
+  `chore(404 page):`, `feat(500ms):`, `docs(100k):`, `chore(24hr):`) each assert no STRONG match on leg B
+  or C, weak count 1, exit 0; plus a sweep asserting **0 strong matches over 262 BACKLOG ids × 5 shapes**
+  (3 weak candidates — non-vacuous). Assertions **52 → 59 green**; `test_pr_orphan_detector.js` 24/24.
+
+## Non-vacuity, round 4 (ONE cycle, per the ceremony cap)
+
+Mutation: re-widen `SCOPE_ID_RE` to the round-2 `[^)]*` shape — i.e. delete the strong/weak split.
+
+```
+md5 before          bbe075155da14fa1e121b162d3940302   59 assertion group(s) passed
+md5 mutated         19582988eb7ee7e96d95208cf82c0cee   RED — 50 passed, 9 groups FAIL: all 5 new
+    negative controls, the swept 262-id control, the round-3 weak-candidate test, the POPULATION
+    invariant, and the derived-residue set/category equality
+md5 after restore   bbe075155da14fa1e121b162d3940302   byte-identical; 59 assertion group(s) passed
+```

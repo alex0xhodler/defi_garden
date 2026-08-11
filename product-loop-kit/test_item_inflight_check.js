@@ -34,6 +34,7 @@ const checker = require(CLI_PATH);
 const {
   matchLegA,
   weakLegACandidates,
+  weakScopeIdCandidates,
   matchLegB,
   matchLegC,
   checkInFlight,
@@ -122,11 +123,11 @@ function independentExtractLeadId(text) {
   const f1 = tryLeadingDigits(0);
   if (f1 !== null) return f1;
 
-  // F2: word immediately followed by '(', a LEADING digit run (the scope's
-  // remaining content, up to the ')', may be anything — widened 2026-08-11,
-  // verifier round 2 FAIL, "design(247 world):" — the scope only has to
-  // START with the digits, not equal them), ')', optional '!', optional
-  // whitespace, ':'.
+  // F2: word immediately followed by '(', a digit run that is the scope's
+  // ENTIRE content, ')', optional '!', optional whitespace, ':'. Re-tightened
+  // 2026-08-11 (verifier round 3 FAIL — round 2's "scope merely STARTS with
+  // the digits" accepted `fix(2 factor auth):` as item 002; the extra-content
+  // shape is now a WEAK candidate, see weakScopeIdCandidates).
   const i0 = skipWs(0);
   const openParen = s.indexOf('(', i0);
   if (openParen > i0) {
@@ -135,7 +136,7 @@ function independentExtractLeadId(text) {
       let p = openParen + 1;
       const digitsStart = p;
       while (p < s.length && s[p] >= '0' && s[p] <= '9') p++;
-      const closeParen = s.indexOf(')', p);
+      const closeParen = s[p] === ')' ? p : -1;
       if (p > digitsStart && closeParen !== -1) {
         let q = closeParen + 1;
         if (s[q] === '!') q++;
@@ -177,11 +178,12 @@ function independentExtractLeadId(text) {
  * found "at/near the lead":
  *   (0) F1-equivalent — a leading digit run at the very start of the string.
  *   (a) a conventional-commit-shaped scope whose content STARTS with a digit
- *       run, however malformed what follows inside the parens is (the exact
- *       shape check-item-inflight.js's F2 was widened to catch this round —
- *       kept here too, independently, so agreement with the fixed module on
- *       this shape is a genuine cross-check rather than a shared
- *       implementation coincidence).
+ *       run, however malformed what follows inside the parens is. Round 2
+ *       widened the shipped F2 to MATCH this shape; round 3 showed the same
+ *       regex swallows `fix(2 factor auth):` (= real BACKLOG row 002), so
+ *       since round 4 the shipped matcher deliberately does NOT match it and
+ *       this strategy's job here is to DERIVE that disagreement as residue
+ *       of the WEAK_VISIBLE category (see below) rather than to agree.
  *   (b) after optionally stripping ONE leading conventional-commit-shaped
  *       prefix (same optional strip as F3), exactly ONE bare free word
  *       (no colon, no parens inside it) immediately followed by a bounded
@@ -244,7 +246,16 @@ function permissiveLeadingIdCandidate(text) {
  * same shape" is a printed, test-derived fact, never a hand-written one. */
 const RESIDUE_SHAPE_NAMES = {
   'permissive-free-word': 'FREE_WORD_PRECEDES_DIGIT (a bare word, not a conventional-commit prefix or scope, immediately precedes the id — the shipped F1/F2/F3 ladder has no rung that looks past a free word)',
+  'permissive-scope': 'SCOPE_LEAD_EXTRA_CONTENT (a conventional-commit scope opens with the id but carries extra content, e.g. "design(247 world):" — deliberately NOT a match since round 3, because the identical shape covers ordinary English/unit scopes like "fix(2 factor auth):"; surfaced by the checker as a WEAK candidate instead)',
 };
+
+/** The two residue CATEGORIES, distinguished 2026-08-11 (round 4): a
+ * WEAK_VISIBLE text is one the shipped checker still SHOWS the operator (as a
+ * weak scope-lead candidate line) while refusing to collide on it; a
+ * TRUE_MISS is one no leg surfaces at all. Derived per text from the shipped
+ * module's own weak bucket — never hand-assigned. */
+const RESIDUE_WEAK_VISIBLE = 'WEAK_VISIBLE';
+const RESIDUE_TRUE_MISS = 'TRUE_MISS';
 
 // ---------------------------------------------------------------------------
 // Real PR data — COPIED rows from the real GitHub PR list (fetched live,
@@ -402,12 +413,53 @@ test('legB F3: stripping ONE leading conventional-commit prefix then applying F1
 // PR #412's title.
 // ---------------------------------------------------------------------------
 
-test('FIX (leg B/C round 2 — malformed scope): "design(247 world): certificate button skin app-wide ... (#412)" now matches id 247 (was null before the round-2 F2 widening — the scope\'s leading token is the id, but the scope is not JUST the id)', () => {
+// UPDATED 2026-08-11 (verifier round 3 FAIL): round 2 asserted this subject
+// STRONG-matches id 247. It no longer does, and must not — the regex that
+// bought that match also matched `fix(2 factor auth):` against real BACKLOG
+// row 002, and a false COLLISION blocks a legitimate push. The subject is now
+// a WEAK, informational scope-lead candidate: still surfaced to a human, no
+// longer able to change the exit code.
+test('ROUND 3: "design(247 world): certificate button skin app-wide ... (#412)" is a WEAK scope-lead candidate for id 247 — visible, but never a match', () => {
   const subject = 'design(247 world): certificate button skin app-wide — the pool-detail counterfoil look on every action button (#412)';
-  const m = matchLegB([{ sha: 'x', subject }], '247');
-  assert.strictEqual(m.length, 1, `expected id 247 to match "${subject}"`);
-  assert.strictEqual(m[0].via, 'conventional-scope');
+  assert.deepStrictEqual(matchLegB([{ sha: 'x', subject }], '247'), [], 'extra-content scopes must never be STRONG matches');
+  const weak = weakScopeIdCandidates([{ sha: 'x', subject }], '247');
+  assert.strictEqual(weak.length, 1, `expected id 247 to appear as a weak scope-lead candidate for "${subject}"`);
+  assert.strictEqual(weak[0].scopeId, '247');
 });
+
+test('legB: the exact-scope shape "fix(266):" is a STRONG match and is NOT also reported as a weak scope-lead candidate', () => {
+  const subject = 'fix(266): derive WebMCP trust rails from trust-rails.js';
+  assert.strictEqual(matchLegB([{ sha: 'x', subject }], '266').length, 1);
+  assert.deepStrictEqual(weakScopeIdCandidates([{ sha: 'x', subject }], '266'), []);
+});
+
+// ---------------------------------------------------------------------------
+// Section 1e — NEGATIVE CONTROLS for the round-3 over-acceptance (the shape
+// that parked this item): an ordinary English/unit scope whose content merely
+// OPENS with a digit run must never STRONG-match ANY BACKLOG-plausible id.
+// Weak/informational is allowed and expected — that is the whole point of the
+// split. Verbatim shapes from the round-3 verdict (specs/263-notes.md).
+// ---------------------------------------------------------------------------
+
+const KNOWN_BAD_SCOPE_SHAPES = [
+  { subject: 'fix(2 factor auth): add TOTP support', collidedWith: '002' },
+  { subject: 'chore(404 page): restyle the not-found view', collidedWith: '404' },
+  { subject: 'feat(500ms): debounce the filter input', collidedWith: '500' },
+  { subject: 'docs(100k): explain the TVL floor', collidedWith: '100' },
+  { subject: 'chore(24hr): switch the APY window', collidedWith: '024' },
+];
+
+for (const { subject, collidedWith } of KNOWN_BAD_SCOPE_SHAPES) {
+  test(`NEGATIVE CONTROL (round 3): "${subject}" does NOT match id ${collidedWith} — weak candidate only, never a COLLISION`, () => {
+    const rows = [{ sha: 'x', subject }];
+    assert.deepStrictEqual(matchLegB(rows, collidedWith), [], `"${subject}" must not STRONG-match id ${collidedWith} (this exact call returned a match before the round-3 fix)`);
+    assert.deepStrictEqual(matchLegC([{ number: 1, state: 'open', title: subject }], collidedWith), [], 'leg C must behave identically to leg B on this shape');
+    assert.strictEqual(weakScopeIdCandidates(rows, collidedWith).length, 1, 'the candidate must still be VISIBLE in the weak bucket, not silently dropped');
+    const result = checkInFlight({ id: collidedWith, refs: [], subjects: rows, prs: [] });
+    assert.strictEqual(result.anyMatch, false);
+    assert.strictEqual(computeExitCode(result), 0, 'a weak scope-lead candidate must never change the exit code');
+  });
+}
 
 test('KNOWN-BAD CONTROL (must still NOT match): "123: fix inspired by 263" does not match id 263 (mid-sentence mention, F1 finds id 123 which is a different id)', () => {
   assert.deepStrictEqual(matchLegB([{ sha: 'x', subject: '123: fix inspired by 263' }], '263'), []);
@@ -498,6 +550,18 @@ test(`NEGATIVE CONTROL: id ${unclaimedId} (max BACKLOG id + 1, derived at test t
   const result = checkInFlight({ id: unclaimedId, refs: REAL_REFS, subjects: REAL_SUBJECTS, prs: [] });
   assert.strictEqual(result.anyMatch, false, `id ${unclaimedId} unexpectedly matched: ${JSON.stringify(result.allMatches)}`);
   assert.strictEqual(computeExitCode(result), 0);
+});
+
+test('NEGATIVE CONTROL (round 3, swept): none of the 5 known-bad scope shapes STRONG-matches ANY id in the real BACKLOG table (weak candidates allowed and counted)', () => {
+  const rows = KNOWN_BAD_SCOPE_SHAPES.map(({ subject }) => ({ sha: 'x', subject }));
+  let weakSeen = 0;
+  for (const id of backlogIds) {
+    const matches = matchLegB(rows, id);
+    assert.deepStrictEqual(matches, [], `id ${id} STRONG-matched a known-bad scope shape: ${JSON.stringify(matches)}`);
+    weakSeen += weakScopeIdCandidates(rows, id).length;
+  }
+  assert.ok(weakSeen > 0, `vacuous: ${backlogIds.length} BACKLOG ids × 5 known-bad shapes produced ZERO weak candidates, so the sweep proved nothing about the shape being reachable at all`);
+  console.log(`    (known-bad scope shapes: ${backlogIds.length} BACKLOG ids × ${rows.length} shapes → 0 strong matches, ${weakSeen} weak/informational candidate(s))`);
 });
 
 // ---------------------------------------------------------------------------
@@ -637,10 +701,13 @@ test('LEG A REAL POPULATION: the 5 known digit-coincidence refs (positive contro
 // — a malformed conventional-commit scope (`design(247 world):`, PR #412) —
 // from its own denominator, and mis-described the two it did list as "both
 // the same shape" without a mechanism that could have caught a
-// counter-example. `check-item-inflight.js`'s F2 was widened this round to
-// cover the malformed-scope shape directly (so it is no longer residue at
-// all — reducing the true miss count rather than just re-describing it);
-// what genuinely remains is swept and asserted below, by a permissive
+// counter-example. Round 2 widened F2 to cover the malformed-scope shape;
+// round 3 measured that widening as an over-acceptance (`fix(2 factor
+// auth):` = row 002) and round 4 reverted it, so that shape is residue again
+// — but of its own DERIVED category, WEAK_VISIBLE: still printed by the
+// checker as a weak scope-lead candidate, just never a COLLISION. Only the
+// TRUE_MISS category is invisible to the operator, and that count (2) is what
+// the miss rate below reports. What remains is swept and asserted below, by a permissive
 // SECOND extractor built for exactly this (permissiveLeadingIdCandidate,
 // above) rather than remembered as prose. A naive auto-derivation without
 // the zero-candidate filter would still produce noise (the real subject
@@ -691,11 +758,18 @@ test('LEG C REAL POPULATION (PR-title fixture): independent re-implementation ag
 const KNOWN_LEGBC_RESIDUE = [
   {
     text: "docs(loop): gate 150/152/153 on their open questions, keep 151's PT half READY",
+    category: RESIDUE_TRUE_MISS,
     reason: 'REAL origin/main subject — after F3 strips "docs(loop): ", the word "gate" precedes the digit run "150", so F1 cannot reach it (151, also named later in the same subject, is a second, even-less-lead mention, not counted separately)',
   },
   {
     text: 'docs(loop): record 177 CULLED — $10M default floor stays (bookkeeping for closed #332)',
+    category: RESIDUE_TRUE_MISS,
     reason: 'REAL PR #414 title — after F3 strips "docs(loop): ", the word "record" precedes the digit run, so F1 cannot reach it',
+  },
+  {
+    text: 'design(247 world): certificate button skin app-wide — the pool-detail counterfoil look on every action button (#412)',
+    category: RESIDUE_WEAK_VISIBLE,
+    reason: 'REAL origin/main subject (PR #412) — round 2 made this a STRONG match; round 3 showed the regex that bought it also matched "fix(2 factor auth):" against BACKLOG row 002, so since round 4 it is deliberately NOT a match. It is not a silent miss either: the checker prints it as a weak scope-lead candidate (SCOPE_LEAD_EXTRA_CONTENT), which can never change the exit code',
   },
 ];
 
@@ -709,9 +783,16 @@ test('RESIDUE (test-derived): sweep REAL_SUBJECTS + REAL_PR_FIXTURE with the per
       const shipped = extractLeadingId(text);
       const disagrees = !shipped || Number(shipped.id) !== Number(candidate.id);
       if (disagrees) {
+        // Category is DERIVED from the shipped module's own weak bucket, not
+        // hand-assigned: if the checker would still print this text as a weak
+        // scope-lead candidate for the candidate id, it is WEAK_VISIBLE
+        // (disclosed to the operator, never a COLLISION); otherwise no leg
+        // surfaces it at all and it is a TRUE_MISS.
+        const visible = weakScopeIdCandidates([text], candidate.id).length === 1;
         derived.push({
           text,
           candidateId: candidate.id,
+          category: visible ? RESIDUE_WEAK_VISIBLE : RESIDUE_TRUE_MISS,
           shape: RESIDUE_SHAPE_NAMES[candidate.via] || candidate.via,
         });
       }
@@ -734,6 +815,17 @@ test('RESIDUE (test-derived): sweep REAL_SUBJECTS + REAL_PR_FIXTURE with the per
   assert.deepStrictEqual(onlyInKnown, [], `KNOWN_LEGBC_RESIDUE lists text(s) the sweep no longer derives as residue (the matcher may now cover them — remove the stale entry): ${JSON.stringify(onlyInKnown)}`);
   assert.strictEqual(derived.length, KNOWN_LEGBC_RESIDUE.length);
 
+  // Category equality, per text: a residue instance silently changing
+  // category (e.g. a WEAK_VISIBLE one becoming an invisible TRUE_MISS because
+  // the weak bucket stopped surfacing it) must fail as loudly as a new
+  // instance appearing.
+  const derivedCategories = derived.map((d) => `${d.category} ${d.text}`).sort();
+  const knownCategories = KNOWN_LEGBC_RESIDUE.map((k) => `${k.category} ${k.text}`).sort();
+  assert.deepStrictEqual(
+    derivedCategories, knownCategories,
+    'a derived residue instance is in a different CATEGORY than KNOWN_LEGBC_RESIDUE records — weak-visible (still printed by the checker) and true-miss (surfaced by nothing) are not interchangeable'
+  );
+
   // Every derived residue text must ALSO fail to match via matchLegB against
   // its own candidate id — the sweep's null/mismatch check restated at the
   // leg level, so a bug in the sweep itself (vs. a bug in extractLeadingId)
@@ -745,8 +837,11 @@ test('RESIDUE (test-derived): sweep REAL_SUBJECTS + REAL_PR_FIXTURE with the per
 
   const byShape = {};
   for (const { shape } of derived) byShape[shape] = (byShape[shape] || 0) + 1;
+  const byCategory = {};
+  for (const { category } of derived) byCategory[category] = (byCategory[category] || 0) + 1;
   const denom = REAL_SUBJECTS.length + REAL_PR_FIXTURE.length;
-  console.log(`    (leg B/C residue, TEST-DERIVED over the live corpus: ${derived.length} instance(s) out of ${denom} real subjects+titles examined this run — miss rate ${(100 * derived.length / denom).toFixed(1)}% of the corpus)`);
+  const trueMisses = byCategory[RESIDUE_TRUE_MISS] || 0;
+  console.log(`    (leg B/C residue, TEST-DERIVED over the live corpus: ${derived.length} instance(s) out of ${denom} real subjects+titles examined this run — of which ${trueMisses} surfaced by NOTHING (${(100 * trueMisses / denom).toFixed(1)}% true-miss rate) and ${byCategory[RESIDUE_WEAK_VISIBLE] || 0} still printed as WEAK scope-lead candidate(s))`);
   for (const [shape, count] of Object.entries(byShape)) {
     console.log(`      shape "${shape.split(' (')[0]}": ${count} — ${shape}`);
   }
