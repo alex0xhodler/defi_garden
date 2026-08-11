@@ -1,20 +1,20 @@
 # VBUSDC DeFi Yields
 
-The highest honest VBUSDC yield right now is 13.12% on spectra-metavaults (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBUSDC yield right now is 7.54% on spectra-metavaults (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 4.74% | $8.61M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.94% | $4.37M |
-| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 13.12% | $451.7K |
+| [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_token) | Katana | 4.23% | $8.61M |
+| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.93% | $4.4M |
+| [spectra-metavaults →](https://www.defi.garden/?pool=75208693-9e71-431c-886a-e10d7c3c4da4&src=seo_token) | Katana | 7.54% | $454.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VBUSDC shows up in 3 pools here, with rates from 1.94% to 13.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VBUSDC shows up in 3 pools here, with rates from 1.93% to 7.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.29% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ VBUSDC shows up in 3 pools here, with rates from 1.94% to 13.12% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 4.74% | 4.84% | 67.31% incentives |
-| morpho-blue | 1.94% | 5.29% | Base rate |
-| spectra-metavaults | 13.12% | 14.05% | 21.41% incentives |
+| yearn-finance | 4.23% | 4.83% | 63.86% incentives |
+| morpho-blue | 1.93% | 5.24% | Base rate |
+| spectra-metavaults | 7.54% | 14.09% | 33.10% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VBUSDC yield today?
 
-13.12% APY on spectra-metavaults (Katana), based on live DefiLlama data.
+7.54% APY on spectra-metavaults (Katana), based on live DefiLlama data.
 
 ### How many VBUSDC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $13.43M in total.
+3 live pools clear this page's $100K TVL floor, $13.46M in total.
 
 ### Are these rates safe?
 
@@ -55,4 +55,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

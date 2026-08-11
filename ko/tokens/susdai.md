@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.67% | $353.23M |
+| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.67% | $353.25M |
 | [fluid-dex →](https://www.defi.garden/?pool=195030f8-7795-4dc6-b18c-0020d845c1c6&src=seo_token) | Ethereum | 0.09% | $26.25M |
 | [fluid-dex →](https://www.defi.garden/?pool=e9718cac-695f-4012-af88-1c7caeffa471&src=seo_token) | Ethereum | 0.18% | $26.21M |
 | [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.27% | $17.85M |
@@ -19,7 +19,7 @@
 
 SUSDAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.09%부터 9.97%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.89%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.90%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -31,8 +31,8 @@ SUSDAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.09%부터 9.97%�
 | fluid-dex | 0.09% | 0.10% | 기본 금리 |
 | fluid-dex | 0.18% | 0.04% | 기본 금리 |
 | fluid-dex | 0.27% | 0.26% | 기본 금리 |
-| fluid-dex | 0.70% | 0.26% | 기본 금리 |
-| pendle | 8.42% | 8.22% | 인센티브 2.63% |
+| fluid-dex | 0.70% | 0.27% | 기본 금리 |
+| pendle | 8.42% | 8.21% | 인센티브 2.63% |
 | pendle | 9.81% | 9.71% | 기본 금리 |
 | pendle | 9.97% | 9.15% | 인센티브 11.09% |
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle에서 APY 9.97%예요.
 
 ### SUSDAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $621.86M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $621.88M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -59,11 +59,11 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle에서 APY 9.97%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

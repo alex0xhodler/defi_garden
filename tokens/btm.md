@@ -1,10 +1,10 @@
 # BTM DeFi Yields
 
-The highest honest BTM yield right now is 1.65% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTM yield right now is 1.52% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7faf1b88-7eb9-418b-948c-d31e2f9c6232&src=seo_token) | Ethereum | 1.65% | $506.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7faf1b88-7eb9-418b-948c-d31e2f9c6232&src=seo_token) | Ethereum | 1.52% | $511.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTM yield today?
 
-1.65% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.52% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many BTM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $506.2K in total.
+1 live pool clear this page's $100K TVL floor, $511.2K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

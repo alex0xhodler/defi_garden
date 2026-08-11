@@ -4,7 +4,7 @@ The highest honest YUSD yield right now is 0.19% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.19% | $588.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f9d89824-c24c-4816-894c-42c24d1c71fe&src=seo_token) | Ethereum | 0.19% | $589K |
 | [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -45,11 +45,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

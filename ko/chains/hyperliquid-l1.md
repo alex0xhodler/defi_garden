@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.58% | $43.08M |
-| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.00% | $18.66M |
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.92% | $775.84M |
+| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.59% | $42.82M |
+| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.00% | $18.71M |
 | WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 23.77% | $16.74M |
-| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 0.78% | $15.65M |
-| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 7.41% | $12.72M |
+| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 0.79% | $15.6M |
+| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 7.47% | $12.66M |
+| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 6.01% | $10.91M |
 | LIMUSD | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_chain) | 7.29% | $10.52M |
-| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 9.72% | $9.37M |
-| SKNTQ | [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_chain) | 10.95% | $8.51M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 23.7
 
 ### Hyperliquid L1 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 164개이며, 합산 TVL은 $1.68B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 164개이며, 합산 TVL은 $1.69B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -40,11 +40,11 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 23.7
 
 ## Hyperliquid L1의 인기 토큰
 
+- [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [FEHYPE](https://www.defi.garden/ko/tokens/fehype)
 - [FEUSDC](https://www.defi.garden/ko/tokens/feusdc)
 - [LIMUSD](https://www.defi.garden/ko/tokens/limusd)
-- [SKNTQ](https://www.defi.garden/ko/tokens/skntq)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

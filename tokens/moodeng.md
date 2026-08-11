@@ -1,19 +1,19 @@
 # MOODENG DeFi Yields
 
-The highest honest MOODENG yield right now is 8.44% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOODENG yield right now is 9.58% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 8.44% | $2.18M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 7.06% | $444.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 6.02% | $2.16M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 9.58% | $457.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MOODENG shows up in 2 pools here, with rates from 7.06% to 8.44% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MOODENG shows up in 2 pools here, with rates from 6.02% to 9.58% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 8.44% | 6.14% | Base rate |
-| uniswap-v2 | 7.06% | 7.97% | Base rate |
+| raydium-amm | 6.02% | 5.82% | Base rate |
+| uniswap-v2 | 9.58% | 7.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MOODENG yield today?
 
-8.44% APY on raydium-amm (Solana), based on live DefiLlama data.
+9.58% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MOODENG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.63M in total.
+2 live pools clear this page's $100K TVL floor, $2.62M in total.
 
 ### Are these rates safe?
 
@@ -47,11 +47,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

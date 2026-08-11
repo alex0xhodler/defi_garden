@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 theo-network-thbill에서 APY 
 
 ### THBILL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $158.96M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $158.97M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 theo-network-thbill에서 APY 
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
@@ -55,4 +55,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 theo-network-thbill에서 APY 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

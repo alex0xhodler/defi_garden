@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 2.26% | $27.7M |
+| [bitwise-uscc →](https://www.defi.garden/?pool=aff74ce8-4fe3-462b-af11-542cc16d24b2&src=seo_token) | Ethereum | 2.26% | $24.08M |
 | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_token) | Plume Mainnet | 2.26% | $12.64M |
 | [bitwise-uscc →](https://www.defi.garden/?pool=04bf0e7d-904a-4d42-9a25-bb1b5634e863&src=seo_token) | Solana | 2.26% | $9.42M |
 
@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 bitwise-uscc에서 APY 2.26%�
 
 ### USCC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $66.66M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $59.43M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 bitwise-uscc에서 APY 2.26%�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
@@ -55,4 +55,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 bitwise-uscc에서 APY 2.26%�
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

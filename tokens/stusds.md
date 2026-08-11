@@ -4,14 +4,14 @@ The highest honest STUSDS yield right now is 5.96% on sky-lending (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token) | Ethereum | 5.96% | $201.52M |
-| [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 5.16% | $4.88M |
+| [sky-lending →](https://www.defi.garden/?pool=9f71f0fd-cfac-54b1-865e-37338f481708&src=seo_token) | Ethereum | 5.96% | $201.54M |
+| [curve-dex →](https://www.defi.garden/?pool=b7da3156-3157-422f-8163-cb4dd0f182d3&src=seo_token) | Ethereum | 4.95% | $4.88M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STUSDS shows up in 2 pools here, with rates from 5.16% to 5.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STUSDS shows up in 2 pools here, with rates from 4.95% to 5.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -20,7 +20,7 @@ STUSDS shows up in 2 pools here, with rates from 5.16% to 5.96% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | sky-lending | 5.96% | 6.47% | Base rate |
-| curve-dex | 5.16% | 5.28% | 35.51% incentives |
+| curve-dex | 4.95% | 5.27% | 32.77% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STUSDS pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $229.96M in total.
+6 live pools clear this page's $100K TVL floor, $229.97M in total.
 
 ### Are these rates safe?
 
@@ -45,10 +45,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 vaneck-treasury-fund에서 AP
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 vaneck-treasury-fund에서 AP
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

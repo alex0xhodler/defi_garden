@@ -31,4 +31,4 @@ This pool's rate moves a lot: 2.70% right now vs a 8.11% 30-day average. Reward 
 
 [Start Earning on pendle](https://pendle.finance/?ref=defi.garden)
 
-Last updated August 10, 2026
+Last updated August 11, 2026

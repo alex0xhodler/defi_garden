@@ -54,4 +54,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle에서 APY 6.66%예요.
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Plasma](https://www.defi.garden/ko/chains/plasma)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

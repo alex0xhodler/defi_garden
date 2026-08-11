@@ -1,10 +1,10 @@
 # OPTIMUS DeFi Yields
 
-The highest honest OPTIMUS yield right now is 3.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPTIMUS yield right now is 8.71% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=72ad7236-af5c-4390-b179-181d64999f08&src=seo_token) | Ethereum | 3.32% | $128.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=72ad7236-af5c-4390-b179-181d64999f08&src=seo_token) | Ethereum | 8.71% | $142.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OPTIMUS yield today?
 
-3.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+8.71% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OPTIMUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.4K in total.
+1 live pool clear this page's $100K TVL floor, $142.2K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

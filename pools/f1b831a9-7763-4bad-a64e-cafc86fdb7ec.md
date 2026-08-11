@@ -2,11 +2,11 @@
 
 **Total APY:** 0.06% (0.06% Base · + 0.00% Rewards)
 
-**TVL:** $141.4K
+**TVL:** $141.7K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 0.24%
+**30d Mean APY:** 0.23%
 
 **Exposure:** multi
 
@@ -24,10 +24,10 @@ $1,000 in this pool grows to ~$1,003 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.06% right now vs a 0.24% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.06% right now vs a 0.23% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,003 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on convex-finance](https://www.convexfinance.com/?ref=defi.garden)
 
-Last updated August 10, 2026
+Last updated August 11, 2026

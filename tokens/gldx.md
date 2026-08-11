@@ -1,20 +1,20 @@
 # GLDX DeFi Yields
 
-The highest honest GLDX yield right now is 2.06% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GLDX yield right now is 18.23% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.06% | $443.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0&src=seo_token) | Solana | 10.91% | $347K |
-| [orca-dex →](https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965&src=seo_token) | Solana | 9.80% | $133.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.36% | $446.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=3719be8e-77f3-4239-b901-407f6b174fd0&src=seo_token) | Solana | 18.23% | $348.4K |
+| [orca-dex →](https://www.defi.garden/?pool=b7a1de8b-ae15-4365-9f30-b32463510965&src=seo_token) | Solana | 10.33% | $133.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GLDX shows up in 3 pools here, with rates from 2.06% to 10.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GLDX shows up in 3 pools here, with rates from 2.36% to 18.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.34% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.41% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.06% | 1.51% | Base rate |
-| raydium-amm | 10.91% | 7.25% | Base rate |
-| orca-dex | 9.80% | 5.34% | Base rate |
+| raydium-amm | 2.36% | 1.52% | Base rate |
+| raydium-amm | 18.23% | 7.35% | Base rate |
+| orca-dex | 10.33% | 5.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GLDX yield today?
 
-2.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+18.23% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GLDX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $924.3K in total.
+3 live pools clear this page's $100K TVL floor, $928.5K in total.
 
 ### Are these rates safe?
 
@@ -55,4 +55,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

@@ -5,7 +5,7 @@ The highest honest USDAT yield right now is 7.08% on pendle (Monad), among 14 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=d5777238-081c-57b0-baa3-4658c623e9b3&src=seo_token) | Monad | 2.00% | $10.54M |
-| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.70% | $9.6M |
+| [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.71% | $9.6M |
 | [pendle →](https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token) | Ethereum | 1.13% | $7.25M |
 | [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 5.01% | $7.25M |
 | [pendle →](https://www.defi.garden/?pool=0f93ea50-c40c-5b6a-93fd-41cc4b5cacbe&src=seo_token) | Monad | 2.70% | $1.62M |
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDAT shows up in 8 pools here, with rates from 0.70% to 7.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDAT shows up in 8 pools here, with rates from 0.71% to 7.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,10 +27,10 @@ USDAT shows up in 8 pools here, with rates from 0.70% to 7.08% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 2.00% | 0.11% | 100.00% incentives |
-| curve-dex | 0.70% | 0.55% | Base rate |
+| morpho-blue | 2.00% | 0.13% | 100.00% incentives |
+| curve-dex | 0.71% | 0.56% | Base rate |
 | pendle | 1.13% | 2.39% | 20.19% incentives |
-| pendle | 5.01% | 7.23% | Base rate |
+| pendle | 5.01% | 7.22% | Base rate |
 | pendle | 2.70% | 8.11% | 59.87% incentives |
 | pendle | 5.49% | 8.78% | Base rate |
 | pendle | 4.55% | 10.06% | 43.65% incentives |
@@ -59,11 +59,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

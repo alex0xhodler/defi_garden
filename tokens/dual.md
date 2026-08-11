@@ -1,10 +1,10 @@
 # DUAL DeFi Yields
 
-The highest honest DUAL yield right now is 0.11% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUAL yield right now is 0.59% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f3a83af1-141c-4ebb-9aa2-b0a705a1ec61&src=seo_token) | Ethereum | 0.11% | $529.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f3a83af1-141c-4ebb-9aa2-b0a705a1ec61&src=seo_token) | Ethereum | 0.59% | $535.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DUAL yield today?
 
-0.11% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.59% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many DUAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $529.2K in total.
+1 live pool clear this page's $100K TVL floor, $535.5K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

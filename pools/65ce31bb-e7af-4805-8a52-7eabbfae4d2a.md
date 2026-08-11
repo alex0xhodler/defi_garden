@@ -1,12 +1,12 @@
 # OVER-USDC — aerodrome-v1 on Base
 
-**Total APY:** 9.62% (0.00% Base · + 9.62% Rewards)
+**Total APY:** 9.63% (0.00% Base · + 9.63% Rewards)
 
-**TVL:** $355.1K
+**TVL:** $355.3K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 11.97%
+**30d Mean APY:** 11.91%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on aerodrome-v1](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated August 10, 2026
+Last updated August 11, 2026

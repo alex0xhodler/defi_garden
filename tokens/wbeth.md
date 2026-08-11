@@ -5,7 +5,7 @@ The highest honest WBETH yield right now is 2.37% on binance-staked-eth (Ethereu
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [binance-staked-eth →](https://www.defi.garden/?pool=80b8bf92-b953-4c20-98ea-c9653ef2bb98&src=seo_token) | Ethereum | 2.37% | $6.56B |
-| [binance-staked-eth →](https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a&src=seo_token) | BSC | 2.37% | $394.14M |
+| [binance-staked-eth →](https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a&src=seo_token) | BSC | 2.37% | $394.15M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,12 +44,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

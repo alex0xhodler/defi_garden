@@ -6,7 +6,7 @@ The highest honest LUSD yield right now is 1.00% on aave-v3 (Arbitrum), among 5 
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.01% | $11.9M |
 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.53% | $1.34M |
-| [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.2K |
+| [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ LUSD shows up in 3 pools here, with rates from 0.01% to 1.00% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.01% | 0.04% | 4.67% incentives |
+| curve-dex | 0.01% | 0.04% | 4.76% incentives |
 | aave-v3 | 0.53% | 0.54% | Base rate |
 | aave-v3 | 1.00% | 1.00% | Base rate |
 
@@ -49,11 +49,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

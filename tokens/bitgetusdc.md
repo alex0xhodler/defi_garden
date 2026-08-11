@@ -1,10 +1,10 @@
 # BITGETUSDC DeFi Yields
 
-The highest honest BITGETUSDC yield right now is 3.36% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BITGETUSDC yield right now is 4.37% on morpho-blue (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4a433427-2a7e-4193-bf83-e15c996915e8&src=seo_token) | Arbitrum | 3.36% | $3.45M |
+| [morpho-blue →](https://www.defi.garden/?pool=4a433427-2a7e-4193-bf83-e15c996915e8&src=seo_token) | Arbitrum | 4.37% | $2.93M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BITGETUSDC yield today?
 
-3.36% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
+4.37% APY on morpho-blue (Arbitrum), based on live DefiLlama data.
 
 ### How many BITGETUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.45M in total.
+1 live pool clear this page's $100K TVL floor, $2.93M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

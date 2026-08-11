@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $135.9K
+**TVL:** $136K
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ This pool's rate moves a lot: 0.01% right now vs a 0.07% 30-day average. Reward 
 
 [Start Earning on alien-base-v3](https://alienbase.xyz/?ref=defi.garden)
 
-Last updated August 10, 2026
+Last updated August 11, 2026

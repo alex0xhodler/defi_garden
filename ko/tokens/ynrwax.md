@@ -4,22 +4,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.28% | $912.3K |
 | [pendle →](https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token) | Ethereum | 12.75% | $912.3K |
-| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 2.22% | $427.8K |
-| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 9.58% | $364.7K |
-| [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 0.97% | $145.6K |
+| [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.28% | $912.3K |
+| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 9.86% | $428.7K |
+| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 9.45% | $365.5K |
 | [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 14.29% | $137.6K |
 | [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 8.86% | $105.7K |
 | [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 10.02% | $105.7K |
+| [stake-dao →](https://www.defi.garden/?pool=a1743c40-129b-4c23-bc20-0357a321005f&src=seo_token) | Ethereum | 7.79% | $101.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-YNRWAX 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.97%부터 14.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+YNRWAX 풀은 여기 8개가 있고, 1개 체인에서 APY가 7.79%부터 14.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 11.99%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 12.31%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ YNRWAX 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.97%부터 14.29%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 10.28% | 10.36% | 기본 금리 |
 | pendle | 12.75% | 13.10% | 기본 금리 |
-| curve-dex | 2.22% | 11.97% | 기본 금리 |
-| stake-dao | 9.58% | 12.70% | 기본 금리 |
-| curve-dex | 0.97% | 12.00% | 기본 금리 |
-| penpie | 14.29% | 16.11% | 인센티브 19.88% |
-| spectra-v2 | 8.86% | 11.46% | 기본 금리 |
-| spectra-v2 | 10.02% | 11.11% | 기본 금리 |
+| pendle | 10.28% | 10.36% | 기본 금리 |
+| curve-dex | 9.86% | 11.96% | 기본 금리 |
+| stake-dao | 9.45% | 12.66% | 기본 금리 |
+| penpie | 14.29% | 16.10% | 인센티브 19.87% |
+| spectra-v2 | 8.86% | 11.44% | 기본 금리 |
+| spectra-v2 | 10.02% | 11.10% | 기본 금리 |
+| stake-dao | 7.79% | 13.00% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 penpie에서 APY 14.29%예요.
 
 ### YNRWAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $12.53M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $12.54M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -59,10 +59,10 @@ DefiLlama 실시간 데이터 기준, Ethereum의 penpie에서 APY 14.29%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

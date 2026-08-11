@@ -1,10 +1,10 @@
 # BENAT DeFi Yields
 
-The highest honest BENAT yield right now is 48.37% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BENAT yield right now is 52.63% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5d71afa1-3905-49cb-b99f-669c22a6ffd3&src=seo_token) | Ethereum | 48.37% | $129.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5d71afa1-3905-49cb-b99f-669c22a6ffd3&src=seo_token) | Ethereum | 52.63% | $128.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BENAT yield today?
 
-48.37% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+52.63% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many BENAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.1K in total.
+1 live pool clear this page's $100K TVL floor, $128.5K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

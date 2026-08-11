@@ -1,6 +1,6 @@
 # CC DeFi Yields
 
-The highest honest CC yield right now is 0.01% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CC yield right now is 0.01% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $198.94M in total.
+4 live pools clear this page's $100K TVL floor, $295.85M in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

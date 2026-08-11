@@ -1,18 +1,18 @@
 # MSTR DeFi Yields
 
-The highest honest MSTR yield right now is 38.21% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSTR yield right now is 41.95% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 38.21% | $289K |
+| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 41.95% | $289.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSTR shows up in 1 pools here, with rates from 38.21% to 38.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSTR shows up in 1 pools here, with rates from 41.95% to 41.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 34.40% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 34.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -20,7 +20,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 38.21% | 34.40% | Base rate |
+| raydium-amm | 41.95% | 34.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,11 +28,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSTR yield today?
 
-38.21% APY on raydium-amm (Solana), based on live DefiLlama data.
+41.95% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MSTR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $799.8K in total.
+4 live pools clear this page's $100K TVL floor, $800.5K in total.
 
 ### Are these rates safe?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

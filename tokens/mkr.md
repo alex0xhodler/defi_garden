@@ -1,21 +1,21 @@
 # MKR DeFi Yields
 
-The highest honest MKR yield right now is 33.04% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MKR yield right now is 7.74% on uniswap-v3 (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd&src=seo_token) | Ethereum | 1.08% | $1.05M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3&src=seo_token) | Ethereum | 1.17% | $718.6K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e&src=seo_token) | Ethereum | 3.33% | $274.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 33.04% | $183.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=340f308b-f626-4f28-a334-bdb588a4d1dd&src=seo_token) | Ethereum | 0.63% | $1.06M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=031fe8ae-e000-49b6-bcc4-0a90021e5bc3&src=seo_token) | Ethereum | 0.62% | $719.3K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=de7b615e-d156-47d0-a4bf-5b556ab4591e&src=seo_token) | Ethereum | 1.74% | $274.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 7.74% | $184.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MKR shows up in 4 pools here, with rates from 1.08% to 33.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MKR shows up in 4 pools here, with rates from 0.62% to 7.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,10 +23,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 1.08% | 2.30% | Base rate |
-| uniswap-v3 | 1.17% | 5.82% | Base rate |
-| sushiswap-v3 | 3.33% | 6.36% | Base rate |
-| uniswap-v3 | 33.04% | 30.74% | Base rate |
+| uniswap-v2 | 0.63% | 2.29% | Base rate |
+| uniswap-v3 | 0.62% | 5.75% | Base rate |
+| sushiswap-v3 | 1.74% | 6.33% | Base rate |
+| uniswap-v3 | 7.74% | 30.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MKR yield today?
 
-33.04% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+7.74% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many MKR pools clear the TVL floor?
 
@@ -51,10 +51,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

@@ -1,28 +1,28 @@
 # SUIUSDT DeFi Yields
 
-The highest honest SUIUSDT yield right now is 20.15% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUIUSDT yield right now is 10.30% on cetus-clmm (Sui), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 6.59% | $447.3K |
-| [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 10.65% | $345.2K |
-| [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 20.15% | $111.7K |
+| [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 9.15% | $422.7K |
+| [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 10.30% | $223.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUIUSDT shows up in 3 pools here, with rates from 6.59% to 20.15% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUIUSDT shows up in 3 pools here, with rates from 6.59% to 10.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 9.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 9.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| navi-lending | 6.59% | 6.12% | 3.55% incentives |
-| bluefin-spot | 10.65% | 9.86% | 88.04% incentives |
-| cetus-clmm | 20.15% | 15.58% | 89.01% incentives |
+| navi-lending | 6.59% | 6.12% | 3.52% incentives |
+| bluefin-spot | 9.15% | 9.87% | 83.13% incentives |
+| cetus-clmm | 10.30% | 15.57% | 86.49% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUIUSDT yield today?
 
-20.15% APY on cetus-clmm (Sui), based on live DefiLlama data.
+10.30% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many SUIUSDT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $904.3K in total.
+3 live pools clear this page's $100K TVL floor, $1.09M in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

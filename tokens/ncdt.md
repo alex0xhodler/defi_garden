@@ -1,10 +1,10 @@
 # NCDT DeFi Yields
 
-The highest honest NCDT yield right now is 0.05% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NCDT yield right now is 0.04% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=95a1756d-d0f7-45c9-a21e-8c36b3ec7a0f&src=seo_token) | Ethereum | 0.05% | $136.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=95a1756d-d0f7-45c9-a21e-8c36b3ec7a0f&src=seo_token) | Ethereum | 0.04% | $135.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NCDT yield today?
 
-0.05% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.04% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NCDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.2K in total.
+1 live pool clear this page's $100K TVL floor, $135.9K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

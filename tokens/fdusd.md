@@ -5,7 +5,7 @@ The highest honest FDUSD yield right now is 1.94% on venus-core-pool (BSC), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [venus-core-pool →](https://www.defi.garden/?pool=6679b470-7a53-4b96-88c8-262ea927b4b5&src=seo_token) | BSC | 1.94% | $4.72M |
-| [aave-v3 →](https://www.defi.garden/?pool=4734c292-5e38-4962-b7a9-e1e265254c1b&src=seo_token) | BSC | 1.83% | $229K |
+| [aave-v3 →](https://www.defi.garden/?pool=4734c292-5e38-4962-b7a9-e1e265254c1b&src=seo_token) | BSC | 1.83% | $229.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| venus-core-pool | 1.94% | 1.34% | Base rate |
+| venus-core-pool | 1.94% | 1.35% | Base rate |
 | aave-v3 | 1.83% | 1.50% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

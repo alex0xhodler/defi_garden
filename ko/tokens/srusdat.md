@@ -22,7 +22,7 @@ SRUSDAT 풀은 여기 5개가 있고, 2개 체인에서 APY가 8.11%부터 12.19
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| strata-markets | 8.11% | 7.85% | 기본 금리 |
+| strata-markets | 8.11% | 7.86% | 기본 금리 |
 | pendle | 8.99% | 10.72% | 기본 금리 |
 | pendle | 9.28% | 11.16% | 기본 금리 |
 | pendle | 12.19% | 12.15% | 인센티브 14.51% |
@@ -51,11 +51,11 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 12.19%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

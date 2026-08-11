@@ -25,7 +25,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | liminal-basis | 7.61% | 7.73% | Base rate |
 | liminal-basis | 7.29% | 7.74% | Base rate |
 | pendle | 9.06% | 9.23% | Base rate |
-| pendle | 7.85% | 8.76% | Base rate |
+| pendle | 7.85% | 8.75% | Base rate |
 | liminal-basis | 7.29% | 7.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -51,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
@@ -59,4 +59,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

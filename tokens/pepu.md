@@ -1,17 +1,17 @@
 # PEPU DeFi Yields
 
-The highest honest PEPU yield right now is 1.21% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPU yield right now is 1.08% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token) | Ethereum | 1.21% | $163.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token) | Ethereum | 1.08% | $164.1K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=f2149cfe-bffd-45c0-8ceb-b5ee490f16b7&src=seo_token) | Ethereum | 0.12% | $109.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PEPU shows up in 2 pools here, with rates from 0.12% to 1.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PEPU shows up in 2 pools here, with rates from 0.12% to 1.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.61% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,7 +21,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 1.21% | 1.16% | Base rate |
+| uniswap-v4 | 1.08% | 1.16% | Base rate |
 | uniswap-v3 | 0.12% | 0.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PEPU yield today?
 
-1.21% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+1.08% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PEPU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $273.5K in total.
+2 live pools clear this page's $100K TVL floor, $273.9K in total.
 
 ### Are these rates safe?
 
@@ -47,10 +47,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

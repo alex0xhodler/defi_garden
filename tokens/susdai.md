@@ -4,7 +4,7 @@ The highest honest SUSDAI yield right now is 9.97% on pendle (Arbitrum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.67% | $353.23M |
+| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.67% | $353.25M |
 | [fluid-dex →](https://www.defi.garden/?pool=195030f8-7795-4dc6-b18c-0020d845c1c6&src=seo_token) | Ethereum | 0.09% | $26.25M |
 | [fluid-dex →](https://www.defi.garden/?pool=e9718cac-695f-4012-af88-1c7caeffa471&src=seo_token) | Ethereum | 0.18% | $26.21M |
 | [fluid-dex →](https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token) | Arbitrum | 0.27% | $17.85M |
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SUSDAI shows up in 8 pools here, with rates from 0.09% to 9.97% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ SUSDAI shows up in 8 pools here, with rates from 0.09% to 9.97% APY across 2 cha
 | fluid-dex | 0.09% | 0.10% | Base rate |
 | fluid-dex | 0.18% | 0.04% | Base rate |
 | fluid-dex | 0.27% | 0.26% | Base rate |
-| fluid-dex | 0.70% | 0.26% | Base rate |
-| pendle | 8.42% | 8.22% | 2.63% incentives |
+| fluid-dex | 0.70% | 0.27% | Base rate |
+| pendle | 8.42% | 8.21% | 2.63% incentives |
 | pendle | 9.81% | 9.71% | Base rate |
 | pendle | 9.97% | 9.15% | 11.09% incentives |
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDAI pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $621.86M in total.
+19 live pools clear this page's $100K TVL floor, $621.88M in total.
 
 ### Are these rates safe?
 
@@ -59,11 +59,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

@@ -1,10 +1,10 @@
 # ECOR DeFi Yields
 
-The highest honest ECOR yield right now is 0.49% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ECOR yield right now is 0.39% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd&src=seo_token) | TON | 0.49% | $120.4K |
+| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd&src=seo_token) | TON | 0.39% | $120.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ECOR yield today?
 
-0.49% APY on dedust (TON), based on live DefiLlama data.
+0.39% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many ECOR pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

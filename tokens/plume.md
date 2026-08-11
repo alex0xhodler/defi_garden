@@ -4,7 +4,7 @@ The highest honest PLUME yield right now is 5.02% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e456b975-718c-43b1-9e61-66e3b44b3375&src=seo_token) | Ethereum | 5.02% | $182.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e456b975-718c-43b1-9e61-66e3b44b3375&src=seo_token) | Ethereum | 5.02% | $181.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PLUME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.4K in total.
+1 live pool clear this page's $100K TVL floor, $181.8K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

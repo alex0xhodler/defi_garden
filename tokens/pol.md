@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many POL pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $736.5K in total.
+5 live pools clear this page's $100K TVL floor, $734.1K in total.
 
 ### Are these rates safe?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

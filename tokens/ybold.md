@@ -1,10 +1,10 @@
 # YBOLD DeFi Yields
 
-The highest honest YBOLD yield right now is 8.17% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YBOLD yield right now is 8.10% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=4c29f645-12db-461f-a1d7-16900d624271&src=seo_token) | Ethereum | 8.17% | $5.86M |
+| [yearn-finance →](https://www.defi.garden/?pool=4c29f645-12db-461f-a1d7-16900d624271&src=seo_token) | Ethereum | 8.10% | $5.86M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YBOLD yield today?
 
-8.17% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+8.10% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YBOLD pools clear the TVL floor?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

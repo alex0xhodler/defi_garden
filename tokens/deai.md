@@ -1,10 +1,10 @@
 # DEAI DeFi Yields
 
-The highest honest DEAI yield right now is 8.78% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEAI yield right now is 8.59% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 8.78% | $204.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=7e98ca77-5887-500b-81cb-c528d19027df&src=seo_token) | Base | 8.59% | $204.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEAI yield today?
 
-8.78% APY on uniswap-v2 (Base), based on live DefiLlama data.
+8.59% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many DEAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $204.5K in total.
+1 live pool clear this page's $100K TVL floor, $204.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 10, 2026
+## Last updated August 11, 2026

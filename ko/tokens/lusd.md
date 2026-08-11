@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.01% | $11.9M |
 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.53% | $1.34M |
-| [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.2K |
+| [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -22,7 +22,7 @@ LUSD 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.01%부터 1.00%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.01% | 0.04% | 인센티브 4.67% |
+| curve-dex | 0.01% | 0.04% | 인센티브 4.76% |
 | aave-v3 | 0.53% | 0.54% | 기본 금리 |
 | aave-v3 | 1.00% | 1.00% | 기본 금리 |
 
@@ -49,11 +49,11 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 aave-v3에서 APY 1.00%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 10, 2026
+## 마지막 업데이트: August 11, 2026

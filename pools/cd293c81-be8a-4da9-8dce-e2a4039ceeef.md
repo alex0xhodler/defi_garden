@@ -2,11 +2,11 @@
 
 **Total APY:** 3.31% (2.62% Base · + 0.69% Rewards)
 
-**TVL:** $1.28M
+**TVL:** $1.29M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 5.98%
+**30d Mean APY:** 5.93%
 
 **Exposure:** multi
 
@@ -25,10 +25,10 @@ $1,000 in this pool grows to ~$1,177 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 3.31% right now vs a 5.98% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 3.31% right now vs a 5.93% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,177 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated August 10, 2026
+Last updated August 11, 2026
