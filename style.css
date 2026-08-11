@@ -4159,6 +4159,10 @@ html {
   color: var(--color-text-secondary);
   font-variant-numeric: tabular-nums;
   line-height: 1.2;
+  /* 246: numeral cell — never wrap (positive control: an anomalous
+     ⚠ 36,452.38% hero wrapping to 2 lines separated the glyph from the
+     number it qualifies). */
+  white-space: nowrap;
 }
 
 /* 225 round 3 (a): $/day preview -- 12px secondary text, tabular-nums, no
@@ -4169,6 +4173,8 @@ html {
   color: var(--color-text-secondary);
   font-variant-numeric: tabular-nums;
   line-height: 1.2;
+  /* 246: numeral cell — never wrap (see .tvl-value above). */
+  white-space: nowrap;
 }
 
 /* No-supply-yield honest tag (092) -- 225 round 3 (a): plain 13px secondary
@@ -4220,6 +4226,11 @@ html {
   color: var(--color-text);
   line-height: 1.2;
   font-variant-numeric: tabular-nums;
+  /* 246: numeral cell — never wrap. Positive control: an anomaly-flagged
+     pool's "⚠ 36,452.38%" was wrapping to 2 lines (grid 1540/1280/360, list
+     1280/768), separating the warning glyph from the number it qualifies —
+     a trust-rail legibility defect. */
+  white-space: nowrap;
 }
 
 /* Context Bar - Protocol + Chain */
