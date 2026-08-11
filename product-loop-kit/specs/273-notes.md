@@ -55,6 +55,6 @@ goes red. The 320px bar at ~29px wide is a separate squeeze defect, left to 274.
 The lens DID rotate over this surface (`pool-detail-360`, audit-app.js:5181); it missed the overlap
 because its victim scan exempts by construction anything itself fixed/sticky (`audit-app.js:4652`)
 or living inside another overlay (`:4654-4658`) — the search input is inside `.app-header-sticky`, a
-fixed overlay, so overlay-content-occluded-by-a-second-overlay is invisible to it. Closing that
-needs a per-pair "does THIS overlay contain the victim" test plus fixed-victim handling in the core
-loop (>30 lines with the required advisories), so filed as BACKLOG row **276**.
+
+**Concurrent-run addendum (operator):** a second run fixed a SECOND real mechanism — ≤359px flex-floor
+overflow (input padding is a floor `min-width:0` cannot remove; their analysis rebuts our clipping deviation (1)) — full write-up in commit 17686cd827; both fixes co-exist on this branch.
