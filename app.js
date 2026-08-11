@@ -3097,9 +3097,15 @@ function App() {
     React.createElement('div', { className: 'app-header-content' },
       // Logo (compact, clickable) — landing's identity tile: leaf mark in a
       // rounded-square + wordmark (same SVG as landing.js's LeafMark).
+      // 273: 'DeFi Garden' wrapped in .app-brand-wordmark (was a bare text
+      // child) so CSS can hide just the wordmark at <360px — see the
+      // .app-brand-wordmark rule in style.css for why. aria-label on the
+      // row keeps the button's accessible name when the wordmark is hidden
+      // (the icon is aria-hidden, decorative).
       React.createElement('div', {
         className: 'app-logo',
-        onClick: resetApp
+        onClick: resetApp,
+        'aria-label': 'DeFi Garden'
       },
         React.createElement('span', { className: 'app-brand-mark', 'aria-hidden': 'true' },
           React.createElement('svg', {
@@ -3110,7 +3116,7 @@ function App() {
             React.createElement('path', { d: 'M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4', stroke: 'currentColor', strokeWidth: '1.6', strokeLinecap: 'round' })
           )
         ),
-        'DeFi Garden'),
+        React.createElement('span', { className: 'app-brand-wordmark' }, 'DeFi Garden')),
 
       // Persistent search bar (grid + pool view, both via includeSearch=true)
       includeSearch && React.createElement('div', { className: 'app-search-container' },

@@ -1748,6 +1748,50 @@ body {
   }
 }
 
+/* 273 (P0, fixed-overlay-occlusion class — playbook's clipping-not-covering
+   variant): at 320px the row's fixed-floor items alone — `.app-logo` (147px;
+   its wordmark is a bare text node with no `min-width: 0` so it can't
+   shrink) and `.app-header-controls` (88px; both icon buttons carry a hard
+   `min-width: var(--ui-control-h)` from the shared icon-only-button rule,
+   style.css end) — plus this row's own padding/gaps leave
+   `.app-search-container` only ~29px (measured). `.app-search-input`'s own
+   horizontal padding (`var(--space-20)` each side = 40px) is a floor
+   `min-width: 0` cannot remove — shrinking only takes the CONTENT box to 0,
+   padding stays — so the input's real layout box (40px+) is WIDER than that
+   29px allotment. Nothing between `.app-search-input` and
+   `.app-header-controls` clips the overflow (`.app-search-bar`'s
+   `overflow: hidden` above only clips a child from bleeding past ITS OWN
+   box, and that box itself isn't the thing overflowing here), so the
+   input's box paints past its allotment and onto `.app-header-controls` —
+   the human report ("KO language toggle and theme toggle render ON TOP of
+   the search input's right end"). Confirmed absent at 360px+ (measured; see
+   specs/273-notes.md) — scoped to the one width band that fails.
+   Two independent floor reductions, each alone insufficient once a query is
+   typed and `.app-search-clear` (flex-shrink: 0, its own ~26px floor) also
+   renders:
+   (a) hide the wordmark, keep the icon mark — recovers ~120px, the biggest
+       lever by far; the logo stays a clickable, accessible control (an
+       aria-label now carries the name once the text is visually gone,
+       app.js's renderHeaderRow);
+   (b) shrink the input/clear-button's own horizontal padding — cuts their
+       combined floor from ~66px to ~30px, small enough to fit inside what
+       (a) leaves for search once the controls' 88px floor is subtracted. */
+@media (max-width: 359px) {
+  .app-brand-wordmark {
+    display: none;
+  }
+
+  .app-search-input {
+    padding-left: var(--space-8);
+    padding-right: var(--space-8);
+  }
+
+  .app-search-clear {
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+  }
+}
+
 /* Add padding to body when Google header is shown */
 .app.has-results {
   padding-top: 160px;
@@ -4818,8 +4862,14 @@ html {
     margin: var(--space-16) var(--space-16) var(--space-8) 0;
   }
 
-  /* Fix toggle position on mobile initial homepage state only */
-  .app:not(.has-results) .language-toggle {
+  /* Fix toggle position on mobile initial homepage state only.
+     Backlog 273: `>` — see the child-combinator note on
+     `.app.has-results > .theme-toggle` above. This rule's (0,3,0) beats the
+     `.app-header-controls` reset at (0,2,0), so as a DESCENDANT selector it
+     also yanked the HEADER's own controls out of flow on every non-
+     `has-results` route that still renders a header — `.app.pool-detail-view`
+     — dropping them on top of the sticky search input. */
+  .app:not(.has-results) > .language-toggle {
     position: fixed;
     top: var(--space-20);
     /* 225 round 3b: same 8px-left-of-toggle offset as desktop */
@@ -4835,8 +4885,9 @@ html {
     font-size: var(--font-size-xs);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only */
-  .app:not(.has-results) .language-toggle {
+  /* Fix toggle position on extra small mobile initial homepage state only
+     (backlog 273: `>` scopes this to the standalone pair — see above) */
+  .app:not(.has-results) > .language-toggle {
     position: fixed;
     top: var(--space-16);
     /* 225 round 3b: toggle sits at right: 16px at this width */
@@ -5113,8 +5164,10 @@ html {
     z-index: auto;
   }
 
-  /* Fix toggle position on mobile initial homepage state only */
-  .app:not(.has-results) .theme-toggle {
+  /* Fix toggle position on mobile initial homepage state only
+     (backlog 273: `>` scopes this to the standalone pair — see the
+     `.app:not(.has-results) > .language-toggle` note above) */
+  .app:not(.has-results) > .theme-toggle {
     position: fixed;
     top: var(--space-20);
     right: var(--space-20);
@@ -5139,8 +5192,9 @@ html {
     gap: var(--space-4);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only */
-  .app:not(.has-results) .theme-toggle {
+  /* Fix toggle position on extra small mobile initial homepage state only
+     (backlog 273: `>` scopes this to the standalone pair — see above) */
+  .app:not(.has-results) > .theme-toggle {
     position: fixed;
     top: var(--space-16);
     right: var(--space-16);
