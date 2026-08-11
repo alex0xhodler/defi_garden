@@ -4818,8 +4818,14 @@ html {
     margin: var(--space-16) var(--space-16) var(--space-8) 0;
   }
 
-  /* Fix toggle position on mobile initial homepage state only */
-  .app:not(.has-results) .language-toggle {
+  /* Fix toggle position on mobile initial homepage state only.
+     Backlog 273: `>` — see the child-combinator note on
+     `.app.has-results > .theme-toggle` above. This rule's (0,3,0) beats the
+     `.app-header-controls` reset at (0,2,0), so as a DESCENDANT selector it
+     also yanked the HEADER's own controls out of flow on every non-
+     `has-results` route that still renders a header — `.app.pool-detail-view`
+     — dropping them on top of the sticky search input. */
+  .app:not(.has-results) > .language-toggle {
     position: fixed;
     top: var(--space-20);
     /* 225 round 3b: same 8px-left-of-toggle offset as desktop */
@@ -4835,8 +4841,9 @@ html {
     font-size: var(--font-size-xs);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only */
-  .app:not(.has-results) .language-toggle {
+  /* Fix toggle position on extra small mobile initial homepage state only
+     (backlog 273: `>` scopes this to the standalone pair — see above) */
+  .app:not(.has-results) > .language-toggle {
     position: fixed;
     top: var(--space-16);
     /* 225 round 3b: toggle sits at right: 16px at this width */
@@ -5113,8 +5120,10 @@ html {
     z-index: auto;
   }
 
-  /* Fix toggle position on mobile initial homepage state only */
-  .app:not(.has-results) .theme-toggle {
+  /* Fix toggle position on mobile initial homepage state only
+     (backlog 273: `>` scopes this to the standalone pair — see the
+     `.app:not(.has-results) > .language-toggle` note above) */
+  .app:not(.has-results) > .theme-toggle {
     position: fixed;
     top: var(--space-20);
     right: var(--space-20);
@@ -5139,8 +5148,9 @@ html {
     gap: var(--space-4);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only */
-  .app:not(.has-results) .theme-toggle {
+  /* Fix toggle position on extra small mobile initial homepage state only
+     (backlog 273: `>` scopes this to the standalone pair — see above) */
+  .app:not(.has-results) > .theme-toggle {
     position: fixed;
     top: var(--space-16);
     right: var(--space-16);
