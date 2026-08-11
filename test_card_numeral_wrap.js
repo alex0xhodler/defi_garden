@@ -29,29 +29,42 @@
       numeral-vs-.pool-symbol-only comparison could never see): every element
       with no child elements and non-empty text is a candidate neighbour, so
       .pool-context-inline and .pool-symbol are covered automatically, and so
-      would any future text element added to the card. ONE exclusion:
-      elements inside .pool-cta-section (the CTA button) are left out of the
-      neighbour set — see the inline comment at the derivation site for why,
-      and for the unrelated CTA-button overlap that exclusion was found to be
-      hiding (recorded, not fixed, in specs/246-notes.md).
+      would any future text element added to the card. NO exclusion (260):
+      246 shipped this scan with elements inside .pool-cta-section (the CTA
+      button) left OUT of the neighbour set — an early draft that included
+      them surfaced .tvl-value "$950000000.0B" overlapping
+      .calculate-yield-btn-new "View & calculate →" in grid view at
+      1280/1540px, both themes; that overlap was real but unrelated to 246's
+      two findings, so it was recorded (specs/246-notes.md) and the exclusion
+      kept rather than shipping a permanently red suite. 260 fixed the
+      underlying defect (style.css: a flex-shrink "label yields to numeral"
+      discipline on .tvl-label/.tvl-value) and removed the
+      exclusion — numeral-vs-interactive-control is now permanently asserted,
+      not merely recorded.
    Plus, on /?pool=<id> (leg b, already closed by 247 — pinned only):
    F. .pool-token-chip computed font-family === body's computed font-family.
    G. .pool-token-chip computed text-transform !== 'uppercase'.
    Zero page errors throughout (reuses the ignorable-error filter).
 
    Coverage boundary of check E, stated plainly (RAZOR): the derivation
-   covers every rendered .pool-card in THIS test's population. It does NOT
-   cover, and cannot catch: (1) overlaps hidden by the .pool-cta-section
-   exclusion above; (2) a pairing this file's fixture population doesn't
-   render — in particular, the usdc-poly-aave fixture pool (relabeled to
-   LONGEST_PROJECT_SLUG) below is
-   deliberately paired with a REALISTIC (non-anomalous) APY, so it proves the
-   long-slug byline does NOT collide with a normal-magnitude hero; the same
-   long slug paired with an ANOMALOUS magnitude (e.g. apyBase 9999999.99) DOES
-   collide with .pool-apy-hero at 768px — reproduced in this session, NOT
-   fixed, NOT asserted by any test() below (asserting it would make this file
-   permanently red for a pre-existing, out-of-scope defect) — see
-   specs/246-notes.md for the exact reproduction and viewport.
+   covers every rendered .pool-card in THIS test's population, with NO
+   exclusion (260 removed the .pool-cta-section exclusion 246 shipped — see
+   above). What it still cannot catch: a pairing this file's fixture
+   population doesn't render in the MAIN test() loop below — in particular,
+   the usdc-poly-aave fixture pool (relabeled to LONGEST_PROJECT_SLUG) below
+   is deliberately paired with a REALISTIC (non-anomalous) APY, so it proves
+   the long-slug byline does NOT collide with a normal-magnitude hero; the
+   same long slug paired with an ANOMALOUS magnitude (e.g. apyBase
+   9999999.99) DOES collide with .pool-apy-hero at 768px list view —
+   instance (i), BLOCKED on a human decision (product-loop-kit/specs/260.md
+   "Open questions": subgrid row sizing vs. a bounded anomalous-APY display,
+   both out of this item's authority) and NOT asserted by any test() below
+   (asserting it would make this file permanently red for a defect this item
+   is not authorised to fix). It IS reproduced and PRINTED, every run, by the
+   "KNOWN-OPEN (item 260, instance (i))" block in main() below (between the
+   main-listing and pool-detail sections) — printing beats a notes-file
+   footnote because the gap stays visible in the run's own output and cannot
+   quietly be treated as "covered".
 
    Harness notes learned the hard way (do not "fix" these):
    - `page.goto` uses waitUntil: 'domcontentloaded', NOT 'load' — 'load' hangs
@@ -281,27 +294,33 @@ const SCAN_FN = () => {
       cellsInCard.push({ cls, text: el.textContent, rect });
     }
 
-    // 246 finding 1b (widened, attempt 2): neighbours are DERIVED from the
-    // rendered card, not hardcoded to .pool-symbol -- every rendered LEAF
-    // text-bearing element in the card (an element with no child elements and
-    // non-empty trimmed textContent) is a candidate neighbour, so
-    // .pool-context-inline (the "on <project> · <chain>" byline the verifier
-    // reproduced an overlap against) and .pool-symbol are both included
-    // automatically, and so would a sixth text element added to the card
-    // tomorrow. ONE exclusion, stated here rather than silently applied:
-    // elements inside .pool-cta-section (the "Calculate Yield" button) are
-    // left out, because a control's action label is a different semantic
-    // class than passive identity/numeral text and this item's scope is the
-    // numeral-vs-text collision class, not interactive controls. That
-    // exclusion is not merely theoretical: including the CTA button surfaced
-    // a real overlap in grid view (.tvl-value "$950000000.0B" -- the
-    // pre-existing non-vacuity stress fixture for the TVL cell, tvlUsd=
-    // 950e15 -- overlapping .calculate-yield-btn-new "View & calculate →")
-    // that is unrelated to either of this item's two findings; it is neither
-    // fixed nor further investigated here (out of scope), recorded in
-    // specs/246-notes.md instead of being silently swallowed by the
-    // exclusion.
-    const allEls = Array.from(card.querySelectorAll('*')).filter((el) => !el.closest('.pool-cta-section'));
+    // 246 finding 1b (widened, attempt 2), exclusion removed by 260:
+    // neighbours are DERIVED from the rendered card, not hardcoded to
+    // .pool-symbol -- every rendered LEAF text-bearing element in the card
+    // (an element with no child elements and non-empty trimmed textContent)
+    // is a candidate neighbour, so .pool-context-inline (the "on <project> ·
+    // <chain>" byline the verifier reproduced an overlap against) and
+    // .pool-symbol are both included automatically, and so would a sixth
+    // text element added to the card tomorrow. NO exclusion: 246 shipped
+    // this scan with elements inside .pool-cta-section (the "Calculate
+    // Yield" button) left out, on the theory that a control's action label
+    // is a different semantic class than passive identity/numeral text and
+    // this item's scope was the numeral-vs-text collision class, not
+    // interactive controls. That exclusion was not merely theoretical -- an
+    // early draft that included the CTA button surfaced a real overlap in
+    // grid view (.tvl-value "$950000000.0B" -- the pre-existing non-vacuity
+    // stress fixture for the TVL cell, tvlUsd=950e15 -- overlapping
+    // .calculate-yield-btn-new "View & calculate →" at 1280/1540px, both
+    // themes), recorded but left unfixed in specs/246-notes.md, with the
+    // exclusion kept so the suite wouldn't ship permanently red. Item 260
+    // fixed the underlying defect (style.css: a flex-shrink "label yields to
+    // numeral" discipline on .tvl-label/.tvl-value -- the
+    // label, being text, may ellipsize when its 128.7px grid-view track runs
+    // short; the numeral beside it never shrinks, so it no longer needs to
+    // escape into the CTA button's column) and removed the exclusion here --
+    // the full rendered card, interactive controls included, is now always
+    // the neighbour set.
+    const allEls = Array.from(card.querySelectorAll('*'));
     const neighbours = cellsInCard.slice();
     const numeralClassSet = new Set(cellsInCard.map((c) => c.cls));
     for (const el of allEls) {
@@ -449,6 +468,75 @@ async function main() {
       process.exitCode = 1;
     }
     await page.close();
+
+    // ---- KNOWN-OPEN (item 260, instance (i)): reproduced and PRINTED on
+    // every run, NEVER asserted. See the file-header "Coverage boundary"
+    // note and product-loop-kit/specs/260.md "Open questions": instance (i)
+    // (the anomalous-magnitude hero colliding with the long-slug byline, list
+    // view @768px) is BLOCKED on a human decision between two fixes that both
+    // exceed this item's authority (subgrid row sizing vs. a bounded
+    // anomalous-APY display) -- asserting it here would make this suite
+    // permanently red for a defect this item is not authorised to fix.
+    // Printing it in the run's own output, every run, means the gap stays
+    // visible and can't quietly rot into "covered" via a notes-file footnote.
+    // Uses a SEPARATE fixture response, mapped from the same FIXTURE_POOLS
+    // array above (so the two can never drift apart) with only
+    // usdc-poly-aave's apyBase overridden from 3.1 to 9999999.99 -- the
+    // committed FIXTURE_POOLS the main test() loop above ran against is
+    // never mutated. Deliberately does not call test() and does not touch
+    // process.exitCode: this block must never move the pass/total counts. ----
+    try {
+      const KNOWN_OPEN_POOLS = FIXTURE_POOLS.map((p) =>
+        p.pool === 'usdc-poly-aave' ? { ...p, apyBase: 9999999.99 } : p);
+
+      // Fixture-integrity guard (attempt 2, verifier recorded non-failure
+      // (a)): the .map above only does anything because 'usdc-poly-aave' is
+      // in FIXTURE_POOLS today. If that pool is ever renamed/removed, the
+      // .map silently becomes the identity function and everything below
+      // would happily print "0 collisions -- reproduction no longer fires"
+      // -- a message that reads exactly like a real fixed-defect result,
+      // with nothing flagging that the reproduction never actually ran.
+      // Assert the override landed -- exactly one pool differs from
+      // FIXTURE_POOLS, and it differs by having the anomalous apyBase --
+      // before trusting anything the scan reports.
+      const changedIndices = [];
+      for (let i = 0; i < FIXTURE_POOLS.length; i++) {
+        if (JSON.stringify(FIXTURE_POOLS[i]) !== JSON.stringify(KNOWN_OPEN_POOLS[i])) changedIndices.push(i);
+      }
+      const overrideApplied = changedIndices.length === 1 &&
+        KNOWN_OPEN_POOLS[changedIndices[0]].pool === 'usdc-poly-aave' &&
+        KNOWN_OPEN_POOLS[changedIndices[0]].apyBase === 9999999.99;
+
+      if (!overrideApplied) {
+        console.log('\nKNOWN-OPEN (item 260, instance (i)): FIXTURE BROKEN -- usdc-poly-aave no longer in FIXTURE_POOLS, the reproduction is not exercising anything');
+      } else {
+        const KNOWN_OPEN_RESPONSE = JSON.stringify({ status: 'success', data: KNOWN_OPEN_POOLS });
+        const knownOpenPage = await browser.newPage({ viewport: { width: 768, height: 900 } });
+        try {
+          await routeFixtures(knownOpenPage, KNOWN_OPEN_RESPONSE);
+          await knownOpenPage.goto(`http://localhost:${PORT}/?token=USDC`, { waitUntil: 'domcontentloaded', timeout: 20000 });
+          await knownOpenPage.waitForSelector('.pool-card', { timeout: 15000 });
+          await ensureCssApplied(knownOpenPage);
+          const containerClass = await knownOpenPage.evaluate(() => document.querySelector('.pool-card').parentElement.className);
+          if (containerClass !== 'pools-list') throw new Error(`expected pools-list container, got "${containerClass}"`);
+          const { failures } = await knownOpenPage.evaluate(SCAN_FN);
+          if (failures.length) {
+            console.log(`\nKNOWN-OPEN (item 260, instance (i), NOT fixed, human-gated): ${failures.length} collision(s) at 768px list view`);
+            for (const f of failures) console.log('  ' + f);
+            console.log('  see product-loop-kit/specs/260.md "Open questions" -- needs a human decision (subgrid vs bounded anomalous display)');
+          } else {
+            console.log('\nKNOWN-OPEN (item 260, instance (i)): 0 collisions -- reproduction no longer fires, re-check the spec');
+          }
+        } finally {
+          await knownOpenPage.close();
+        }
+      }
+    } catch (err) {
+      // Reproduction infrastructure itself failed (not a repro result) --
+      // print, don't assert: this block must stay non-blocking per its own
+      // contract above.
+      console.log(`\nKNOWN-OPEN (item 260, instance (i)): reproduction harness error (not a test result): ${err.message}`);
+    }
 
     // ---- Pool detail page: leg (b), pinned only (already closed by 247).
     // Theme set via addInitScript + localStorage BEFORE first navigation —

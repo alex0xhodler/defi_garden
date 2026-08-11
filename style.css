@@ -4151,6 +4151,19 @@ html {
   text-transform: none;
   letter-spacing: normal;
   opacity: 0.8;
+  /* 260: label yields to numeral. .pool-tvl-section is a 128.7px grid item
+     (grid view) whose label + gap + value need 148.3px (measured); without
+     shrink discipline the excess pushed .tvl-value's box into
+     .pool-cta-section next door. The label is text and may ellipsize; the
+     numeral it sits beside never may (truncating a number is a trust-rail
+     violation) — see .tvl-value's flex-shrink: 0 below. List view hides
+     this label entirely (.pools-list .tvl-label above), so in effect this
+     is grid-view-only. */
+  flex-shrink: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .tvl-value {
@@ -4163,6 +4176,12 @@ html {
      ⚠ 36,452.38% hero wrapping to 2 lines separated the glyph from the
      number it qualifies). */
   white-space: nowrap;
+  /* 260: the numeral never yields — see .tvl-label above. Declarative, not
+     behavioural: as a flex item with min-width: auto and nowrap text, its
+     min-content size already equals its full text width, so it could never
+     shrink regardless; stated so the yield order is readable at the call
+     site. */
+  flex-shrink: 0;
 }
 
 /* 225 round 3 (a): $/day preview -- 12px secondary text, tabular-nums, no
