@@ -50,6 +50,14 @@ self-tested build and zero flags). Each tick:
    If a collision is detected (`detectIdCollisions`), name both items in the report rather than silently
    renumbering.
 
+## 2d. Vitals — one fixed-format line, EVERY tick (2026-08-11 efficiency reset)
+Compute from `product-loop-kit/LOG.md` (the last 7 days of build lines) plus the open-PR data §2c already fetched, and print this line verbatim in the §4 report — same format every time, so the series is diffable:
+```
+vitals | ships/wk: n | tokens/ship: med | attempts: med | open PRs: n (oldest: d) | product:process: a:b
+```
+`ships/wk` = build lines whose outcome is SHIPPED in the last 7d · `tokens/ship` and `attempts` = medians over those · `oldest: d` = age in days of the oldest open PR · `product:process` = product-item vs loop-tooling-item ships over the same window. Unknown component → write `?`, never omit the field or guess a number.
+**Breach thresholds**: parked PRs >2 · process share >25% · tokens/ship >600k. On any breach, file **at most ONE** triage item this tick (not one per breach) and name the breached number in it. Weekly targets for reference: ≥3 merged product items/wk · median ≤400k tokens/ship · ≥80% first-round ship rate · pile ≤2 PRs, none >48h without a human tag · every run ≤2h.
+
 ## 3. Produce opportunities (3–7, no more)
 Opportunities come from the metric signal (§2) OR the product audit (§2b) — whichever the tick has. Stay inside the weekly theme unless something is on fire (guardrail breached, or a P0 audit finding — a broken/absurd number or page error on a live surface outranks the theme). For each:
 - Evidence: the specific numbers verbatim (metric) OR the rendered repro — surface + what shows (audit)
@@ -63,7 +71,8 @@ Opportunities come from the metric signal (§2) OR the product audit (§2b) — 
 ## 4. Update artifacts
 - Merge opportunities into `product-loop-kit/BACKLOG.md` (don't duplicate; update scores of existing items with fresh evidence; mark items invalidated by new data)
 - **Re-check every GATED row's gate against this tick's signals** (real events only — crawler-classified never count): gate met → promote to READY and note it in the report; gate unmet → leave it, silently.
-- For the top items (respect the in-flight budget): write a spec in `product-loop-kit/specs/` using `_template.md`. Acceptance criteria must be checkable by a verifier who wasn't in this conversation. Include the instrumentation plan.
+- **Process-item filing cap** (mirrors build.md §1's pickup arithmetic): at most ONE process (loop-tooling) item may be READY-and-unbuilt at a time, and a new one is only filed when it would beat the best READY product item by >1.0 — otherwise the observation goes into an existing process row's evidence instead of a new row.
+- For the top items (respect the in-flight budget): write a spec in `product-loop-kit/specs/` using `_template.md`. Every spec carries the `Impact:` line; an item that cannot fill it is a process item by definition and is subject to the cap above. Acceptance criteria must be checkable by a verifier who wasn't in this conversation. Include the instrumentation plan.
 - Close the loop on experiments: any item whose TRAFFIC GATE has opened and whose measurement window ended → write the result (moved / didn't / inconclusive + numbers) into `LEARNINGS.md` and mark the backlog item DONE or REVERT-CANDIDATE. Any shipped item whose gate has NOT opened within 60 days of ship → close it in `LEARNINGS.md` as "UNEXERCISED — re-measure when the gate opens" and mark it DONE (NORTH_STAR experiment discipline, 2026-08-04 — the ledger backstop; six dead windows carried at once is the precedent never to repeat).
 - Write the report to `product-loop-kit/reports/YYYY-MM-DD.md`: 10 lines max — metric state, what changed, top 3 backlog items, experiment results, and any QUESTIONS FOR THE HUMAN. Every "clean"/"zero" line here carries its population and check classes per §2 — an unscoped clean claim in a report is a defect in the report.
 
