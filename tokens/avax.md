@@ -4,21 +4,21 @@ The highest honest AVAX yield right now is 0.35% on folks-finance-xchain (Avalan
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-lending →](https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token) | Avalanche | 0.53% | $4.64M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token) | Avalanche | 2.26% | $4.01M |
-| [folks-finance-xchain →](https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token) | Avalanche | 0.35% | $934.1K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token) | Avalanche | 5.28% | $350.9K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token) | Arbitrum | 7.00% | $219.8K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.01% | $214.5K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.01% | $214.5K |
+| [benqi-lending →](https://www.defi.garden/?pool=38583317-5354-4767-8f1e-6a0ae3aa7b5d&src=seo_token) | Avalanche | 0.57% | $4.54M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=8af72911-4f7b-4476-8191-86dff5401c1c&src=seo_token) | Avalanche | 2.20% | $3.91M |
+| [folks-finance-xchain →](https://www.defi.garden/?pool=3d949993-4ce7-4e09-a487-963c76832326&src=seo_token) | Avalanche | 0.35% | $935.9K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=1454aff4-d878-41d2-8e87-3ae2df778c82&src=seo_token) | Avalanche | 5.89% | $451.5K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=12c85226-c003-45ef-b1f4-af6463ab094f&src=seo_token) | Arbitrum | 6.88% | $220.1K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.01% | $215.3K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=7c719f11-74b4-4653-9d34-279501dd9635&src=seo_token) | Avalanche | 0.01% | $215.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AVAX shows up in 7 pools here, with rates from 0.01% to 7.00% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AVAX shows up in 7 pools here, with rates from 0.01% to 6.88% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 1.54% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 1.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 7 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,13 +26,13 @@ All 7 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| benqi-lending | 0.53% | 1.54% | Base rate |
-| gmx-v2-perps | 2.26% | 4.55% | Base rate |
+| benqi-lending | 0.57% | 1.52% | Base rate |
+| gmx-v2-perps | 2.20% | 4.52% | Base rate |
 | folks-finance-xchain | 0.35% | 0.45% | Base rate |
-| gmx-v2-perps | 5.28% | 12.18% | Base rate |
-| gmx-v2-perps | 7.00% | 24.70% | Base rate |
-| gmx-v2-perps | 0.01% | 0.84% | Base rate |
-| gmx-v2-perps | 0.01% | 0.84% | Base rate |
+| gmx-v2-perps | 5.89% | 12.21% | Base rate |
+| gmx-v2-perps | 6.88% | 24.60% | Base rate |
+| gmx-v2-perps | 0.01% | 0.83% | Base rate |
+| gmx-v2-perps | 0.01% | 0.83% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AVAX pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $10.58M in total.
+7 live pools clear this page's $100K TVL floor, $10.49M in total.
 
 ### Are these rates safe?
 

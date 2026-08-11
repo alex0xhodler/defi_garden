@@ -4,14 +4,14 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900&src=seo_token) | Solana | 5.03% | $755.59M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.11% | $10.75M |
-| [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f&src=seo_token) | Solana | 0.15% | $5.73M |
-| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.54% | $5.54M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.37% | $5.47M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=d61d8c57-4d50-4642-b3fc-f5943ab44059&src=seo_token) | Solana | 0.26% | $2.34M |
-| [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7&src=seo_token) | Solana | 0.73% | $1.67M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993&src=seo_token) | Solana | 0.63% | $1.49M |
+| [jito-liquid-staking →](https://www.defi.garden/?pool=0e7d0722-9054-4907-8593-567b353c0900&src=seo_token) | Solana | 5.03% | $756.76M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.11% | $10.8M |
+| [project-0 →](https://www.defi.garden/?pool=ba625871-0591-4b44-b9da-eb3f34943f9f&src=seo_token) | Solana | 0.15% | $5.74M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=55616349-b749-4467-8edc-abbb40ae80f6&src=seo_token) | Solana | 0.44% | $5.48M |
+| [orca-dex →](https://www.defi.garden/?pool=923d43c8-455e-4196-9b5d-afcc966c934f&src=seo_token) | Solana | 0.53% | $4.8M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=d61d8c57-4d50-4642-b3fc-f5943ab44059&src=seo_token) | Solana | 0.48% | $2.35M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=fdcccd6a-a491-4c30-8024-5677bd3f0993&src=seo_token) | Solana | 0.84% | $1.49M |
+| [raydium-amm →](https://www.defi.garden/?pool=ce89c76d-e6d5-4de0-9706-df3f33d309c7&src=seo_token) | Solana | 0.75% | $1.46M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -27,14 +27,14 @@ JITOSOL 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.11%부터 5.03%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| jito-liquid-staking | 5.03% | 5.12% | 기본 금리 |
+| jito-liquid-staking | 5.03% | 5.11% | 기본 금리 |
 | uniswap-v3 | 0.11% | 0.11% | 기본 금리 |
 | project-0 | 0.15% | 0.15% | 기본 금리 |
-| orca-dex | 0.54% | 0.51% | 기본 금리 |
-| kamino-liquidity | 0.37% | 0.39% | 기본 금리 |
-| kamino-liquidity | 0.26% | 0.33% | 기본 금리 |
-| raydium-amm | 0.73% | 0.91% | 기본 금리 |
-| kamino-liquidity | 0.63% | 0.64% | 기본 금리 |
+| kamino-liquidity | 0.44% | 0.39% | 기본 금리 |
+| orca-dex | 0.53% | 0.51% | 기본 금리 |
+| kamino-liquidity | 0.48% | 0.33% | 기본 금리 |
+| kamino-liquidity | 0.84% | 0.64% | 기본 금리 |
+| raydium-amm | 0.75% | 0.91% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Solana의 jito-liquid-staking에서 APY 5.
 
 ### JITOSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $893.77M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $894.27M예요.
 
 ### 이 수익률은 안전한가요?
 

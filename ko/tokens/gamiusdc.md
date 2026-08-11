@@ -4,15 +4,15 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token) | Ethereum | 9.20% | $6.78M |
-| [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token) | Ethereum | 8.89% | $6.78M |
-| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.68% | $685.6K |
+| [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token) | Ethereum | 9.19% | $6.78M |
+| [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token) | Ethereum | 9.17% | $6.78M |
+| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.68% | $685.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-GAMIUSDC 풀은 여기 3개가 있고, 2개 체인에서 APY가 8.89%부터 10.68%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+GAMIUSDC 풀은 여기 3개가 있고, 2개 체인에서 APY가 9.17%부터 10.68%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.50%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -20,8 +20,8 @@ GAMIUSDC 풀은 여기 3개가 있고, 2개 체인에서 APY가 8.89%부터 10.6
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lagoon | 9.20% | 8.22% | 기본 금리 |
-| gami-labs | 8.89% | 8.50% | 기본 금리 |
+| lagoon | 9.19% | 8.23% | 기본 금리 |
+| gami-labs | 9.17% | 8.50% | 기본 금리 |
 | balancer-v3 | 10.68% | 10.01% | 인센티브 83.48% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 balancer-v3에서 APY 10.68%�
 
 ### GAMIUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $20.23M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $20.24M예요.
 
 ### 이 수익률은 안전한가요?
 

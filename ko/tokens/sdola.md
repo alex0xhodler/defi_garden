@@ -5,34 +5,34 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token) | Ethereum | 6.45% | $7M |
-| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token) | Ethereum | 5.60% | $2.11M |
-| [stake-dao →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token) | Ethereum | 5.77% | $2.04M |
-| [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token) | Ethereum | 6.73% | $1.01M |
-| [stake-dao →](https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token) | Ethereum | 6.93% | $1.01M |
-| [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 2.85% | $938.5K |
-| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 17.98% | $768.7K |
-| [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1&src=seo_token) | Ethereum | 4.83% | $750.8K |
+| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token) | Ethereum | 5.59% | $2.11M |
+| [stake-dao →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token) | Ethereum | 5.78% | $2.04M |
+| [curve-dex →](https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token) | Ethereum | 6.70% | $1.03M |
+| [stake-dao →](https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token) | Ethereum | 6.93% | $1.03M |
+| [curve-dex →](https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token) | Ethereum | 2.98% | $898.7K |
+| [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 17.98% | $768.3K |
+| [convex-finance →](https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1&src=seo_token) | Ethereum | 5.16% | $710.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SDOLA 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.85%부터 17.98%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SDOLA 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.98%부터 17.98%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.44%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.43%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| inverse-finance-firm | 6.45% | 8.43% | 기본 금리 |
-| curve-dex | 5.60% | 7.18% | 기본 금리 |
-| stake-dao | 5.77% | 7.47% | 기본 금리 |
-| curve-dex | 6.73% | 7.41% | 인센티브 18.23% |
-| stake-dao | 6.93% | 7.67% | 인센티브 20.34% |
-| curve-dex | 2.85% | 2.82% | 인센티브 74.06% |
-| curve-dex | 17.98% | 8.86% | 인센티브 86.48% |
-| convex-finance | 4.83% | 5.14% | 인센티브 84.69% |
+| inverse-finance-firm | 6.45% | 8.42% | 기본 금리 |
+| curve-dex | 5.59% | 7.16% | 기본 금리 |
+| stake-dao | 5.78% | 7.45% | 기본 금리 |
+| curve-dex | 6.70% | 7.40% | 인센티브 18.20% |
+| stake-dao | 6.93% | 7.67% | 인센티브 20.25% |
+| curve-dex | 2.98% | 2.83% | 인센티브 72.82% |
+| curve-dex | 17.98% | 8.94% | 인센티브 87.21% |
+| convex-finance | 5.16% | 5.11% | 인센티브 84.30% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 6.93%예�
 
 ### SDOLA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $21.69M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $21.67M예요.
 
 ### 이 수익률은 안전한가요?
 

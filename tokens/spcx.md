@@ -1,20 +1,20 @@
 # SPCX DeFi Yields
 
-The highest honest SPCX yield right now is 14.72% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPCX yield right now is 12.75% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=48e0c6f7-bcab-4b68-ba6f-3fb55ce6da69&src=seo_token) | Solana | 101.75% | $511.2K |
-| [orca-dex →](https://www.defi.garden/?pool=d2728282-d2c0-4232-bf16-9d6309457079&src=seo_token) | Solana | 130.26% | $133.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token) | Solana | 14.72% | $115.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=48e0c6f7-bcab-4b68-ba6f-3fb55ce6da69&src=seo_token) | Solana | 80.88% | $512.5K |
+| [orca-dex →](https://www.defi.garden/?pool=d2728282-d2c0-4232-bf16-9d6309457079&src=seo_token) | Solana | 117.41% | $136K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd3a85f8-0963-40d1-bf6e-fa3a5c9f9507&src=seo_token) | Solana | 12.75% | $116.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPCX shows up in 3 pools here, with rates from 14.72% to 130.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPCX shows up in 3 pools here, with rates from 12.75% to 117.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 33.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 34.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 101.75% | 33.65% | Base rate |
-| orca-dex | 130.26% | 66.74% | Base rate |
-| raydium-amm | 14.72% | 12.12% | Base rate |
+| raydium-amm | 80.88% | 34.14% | Base rate |
+| orca-dex | 117.41% | 67.39% | Base rate |
+| raydium-amm | 12.75% | 12.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPCX yield today?
 
-14.72% APY on raydium-amm (Solana), based on live DefiLlama data.
+12.75% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SPCX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $760.3K in total.
+3 live pools clear this page's $100K TVL floor, $764.7K in total.
 
 ### Are these rates safe?
 

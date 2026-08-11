@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.01% | $11.9M |
 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.53% | $1.34M |
-| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.02% | $786.3K |
+| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.02% | $786.4K |
 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -23,7 +23,7 @@ LUSD 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.01%부터 1.00%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.01% | 0.04% | 인센티브 4.67% |
+| curve-dex | 0.01% | 0.04% | 인센티브 4.76% |
 | aave-v3 | 0.53% | 0.54% | 기본 금리 |
 | curve-dex | 0.02% | 0.09% | 기본 금리 |
 | aave-v3 | 1.00% | 1.00% | 기본 금리 |

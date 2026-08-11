@@ -5,7 +5,7 @@ The highest honest VBWBTC yield right now is 1.51% on yearn-finance (Katana), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [yearn-finance →](https://www.defi.garden/?pool=b554437b-2ad2-46c7-91d0-d3bc2163ff36&src=seo_token) | Katana | 0.83% | $1.31M |
-| [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 1.51% | $954.7K |
+| [yearn-finance →](https://www.defi.garden/?pool=adaebb6c-fea5-4c74-a3b6-d4dae2bc50f8&src=seo_token) | Katana | 1.51% | $958K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +20,7 @@ VBWBTC shows up in 2 pools here, with rates from 0.83% to 1.51% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | yearn-finance | 0.83% | 3.78% | 100.00% incentives |
-| yearn-finance | 1.51% | 1.67% | 97.50% incentives |
+| yearn-finance | 1.51% | 1.67% | 97.40% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VBWBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $24.84M in total.
+4 live pools clear this page's $100K TVL floor, $25.06M in total.
 
 ### Are these rates safe?
 

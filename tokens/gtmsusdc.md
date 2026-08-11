@@ -1,10 +1,10 @@
 # GTMSUSDC DeFi Yields
 
-The highest honest GTMSUSDC yield right now is 0.73% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTMSUSDC yield right now is 0.71% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ca553126-d5b2-48fb-903b-e4585c18eed5&src=seo_token) | Ethereum | 0.73% | $14.69M |
+| [morpho-blue →](https://www.defi.garden/?pool=ca553126-d5b2-48fb-903b-e4585c18eed5&src=seo_token) | Ethereum | 0.71% | $14.69M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTMSUSDC yield today?
 
-0.73% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+0.71% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTMSUSDC pools clear the TVL floor?
 

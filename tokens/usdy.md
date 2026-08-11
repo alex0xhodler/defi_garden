@@ -1,6 +1,6 @@
 # USDY DeFi Yields
 
-The highest honest USDY yield right now is 3.55% on ondo-yield-assets (Ethereum), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDY yield right now is 3.55% on ondo-yield-assets (Ethereum), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDY pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $2.17B in total.
+17 live pools clear this page's $100K TVL floor, $2.17B in total.
 
 ### Are these rates safe?
 

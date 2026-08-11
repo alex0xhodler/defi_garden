@@ -1,25 +1,25 @@
 # EURC 디파이 수익률
 
-현재 EURC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 54.07%이며, $100K TVL 기준을 넘는 31개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EURC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 64.85%이며, $100K TVL 기준을 넘는 32개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 3.02% | $11.23M |
-| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 3.26% | $4.92M |
-| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.86% | $3.08M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 24.45% | $2.44M |
+| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 3.01% | $11.25M |
+| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 3.22% | $4.92M |
+| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.89% | $3.04M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 24.50% | $2.3M |
 | [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 3.35% | $1.38M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 54.07% | $898.2K |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 4.83% | $850.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ae2073a3-2d17-4b0e-a35e-9a90a2569063&src=seo_token) | Ethereum | 2.02% | $730.1K |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 4.82% | $850.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=deeb8740-4041-4ca2-b87c-70f708eae796&src=seo_token) | Base | 64.85% | $842.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ae2073a3-2d17-4b0e-a35e-9a90a2569063&src=seo_token) | Ethereum | 3.22% | $730.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.02%부터 54.07%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.89%부터 64.85%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.49%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.48%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.02%부터 54.07%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 3.02% | 2.83% | 기본 금리 |
-| jupiter-lend | 3.26% | 3.47% | 기본 금리 |
-| aave-v3 | 2.86% | 2.36% | 기본 금리 |
-| aerodrome-slipstream | 24.45% | 24.94% | 인센티브 15.97% |
+| aave-v3 | 3.01% | 2.84% | 기본 금리 |
+| jupiter-lend | 3.22% | 3.48% | 기본 금리 |
+| aave-v3 | 2.89% | 2.37% | 기본 금리 |
+| aerodrome-slipstream | 24.50% | 25.05% | 인센티브 18.24% |
 | fluid-lending | 3.35% | 3.12% | 기본 금리 |
-| aerodrome-slipstream | 54.07% | 83.38% | 인센티브 36.80% |
-| blend-pools-v2 | 4.83% | 5.50% | 기본 금리 |
-| uniswap-v4 | 2.02% | 8.31% | 기본 금리 |
+| blend-pools-v2 | 4.82% | 5.49% | 기본 금리 |
+| aerodrome-slipstream | 64.85% | 83.44% | 인센티브 41.68% |
+| uniswap-v4 | 3.22% | 8.32% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.02%부터 54.07%�
 
 ### 오늘 EURC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 54.07%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 64.85%예요.
 
 ### EURC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 31개이며, 합산 TVL은 $36.13M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 32개이며, 합산 TVL은 $36.08M예요.
 
 ### 이 수익률은 안전한가요?
 

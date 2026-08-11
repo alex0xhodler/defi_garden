@@ -1,21 +1,21 @@
 # TRUMP DeFi Yields
 
-The highest honest TRUMP yield right now is 12.53% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUMP yield right now is 13.29% on orca-dex (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token) | Solana | 2.67% | $805.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token) | Solana | 3.54% | $800.9K |
-| [orca-dex →](https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token) | Solana | 12.53% | $141.9K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token) | Solana | 9.38% | $141.5K |
+| [orca-dex →](https://www.defi.garden/?pool=74c68193-f4a6-4ddc-8cff-5ddde5f62d79&src=seo_token) | Solana | 2.87% | $803.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=98c87de3-9837-4588-8b7e-0771a8c9a795&src=seo_token) | Solana | 3.54% | $799.5K |
+| [orca-dex →](https://www.defi.garden/?pool=022e4b46-a21e-4be4-898b-e7f8fbefb891&src=seo_token) | Solana | 13.29% | $141.7K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=66c15ac9-b871-40c5-bcbb-76f32547925e&src=seo_token) | Solana | 9.34% | $141.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TRUMP shows up in 4 pools here, with rates from 2.67% to 12.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRUMP shows up in 4 pools here, with rates from 2.87% to 13.29% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,10 +23,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 2.67% | 3.78% | Base rate |
+| orca-dex | 2.87% | 3.78% | Base rate |
 | raydium-amm | 3.54% | 3.82% | Base rate |
-| orca-dex | 12.53% | 15.16% | Base rate |
-| kamino-liquidity | 9.38% | 12.22% | Base rate |
+| orca-dex | 13.29% | 15.18% | Base rate |
+| kamino-liquidity | 9.34% | 12.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TRUMP yield today?
 
-12.53% APY on orca-dex (Solana), based on live DefiLlama data.
+13.29% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many TRUMP pools clear the TVL floor?
 

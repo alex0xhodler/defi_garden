@@ -4,15 +4,15 @@ The highest honest MPLX yield right now is 1.51% on kamino-liquidity (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 2.33% | $1.45M |
-| [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 1.30% | $433.4K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 1.51% | $429K |
+| [raydium-amm →](https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token) | Solana | 2.11% | $1.45M |
+| [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 1.31% | $434.3K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 1.51% | $429.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MPLX shows up in 3 pools here, with rates from 1.30% to 2.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MPLX shows up in 3 pools here, with rates from 1.31% to 2.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,8 +22,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.33% | 6.77% | Base rate |
-| orca-dex | 1.30% | 2.64% | Base rate |
+| raydium-amm | 2.11% | 6.77% | Base rate |
+| orca-dex | 1.31% | 2.64% | Base rate |
 | kamino-liquidity | 1.51% | 2.10% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MPLX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.74M in total.
+4 live pools clear this page's $100K TVL floor, $3.75M in total.
 
 ### Are these rates safe?
 

@@ -1,25 +1,25 @@
 # MSETH DeFi Yields
 
-The highest honest MSETH yield right now is 33.50% on aerodrome-slipstream (Base), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSETH yield right now is 32.99% on aerodrome-slipstream (Base), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vesper →](https://www.defi.garden/?pool=4208b678-e7cc-4060-9c74-88554e8ca81e&src=seo_token) | Ethereum | 0.75% | $23.46M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token) | Base | 0.12% | $13.04M |
-| [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token) | Ethereum | 2.70% | $10.03M |
-| [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token) | Base | 0.35% | $6.17M |
-| [stake-dao →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token) | Ethereum | 4.36% | $5.68M |
-| [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token) | Ethereum | 16.46% | $4.86M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token) | Base | 26.26% | $1.75M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0&src=seo_token) | Base | 33.50% | $1.08M |
+| [vesper →](https://www.defi.garden/?pool=4208b678-e7cc-4060-9c74-88554e8ca81e&src=seo_token) | Ethereum | 0.75% | $23.6M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=0af161e4-7127-4f87-89c3-fd0b1175532e&src=seo_token) | Base | 0.12% | $13.12M |
+| [curve-dex →](https://www.defi.garden/?pool=4257ff95-e25c-4340-885d-8ad87c41481b&src=seo_token) | Ethereum | 2.70% | $10.08M |
+| [vesper →](https://www.defi.garden/?pool=e2b9cdfc-e605-4e5b-9feb-512729addac7&src=seo_token) | Base | 0.32% | $6.22M |
+| [stake-dao →](https://www.defi.garden/?pool=71fa0340-09b5-4635-887b-1ce010e602ad&src=seo_token) | Ethereum | 4.39% | $5.71M |
+| [convex-finance →](https://www.defi.garden/?pool=c130b363-10fa-46d9-8221-3b23ed8027b4&src=seo_token) | Ethereum | 16.49% | $4.88M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token) | Base | 26.85% | $1.76M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=08e1a166-5366-4f57-bef8-76acb53699f0&src=seo_token) | Base | 32.99% | $1.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSETH shows up in 8 pools here, with rates from 0.12% to 33.50% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSETH shows up in 8 pools here, with rates from 0.12% to 32.99% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.34% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,13 +28,13 @@ MSETH shows up in 8 pools here, with rates from 0.12% to 33.50% APY across 2 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | vesper | 0.75% | 1.79% | Base rate |
-| aerodrome-v1 | 0.12% | 2.68% | 100.00% incentives |
-| curve-dex | 2.70% | 5.85% | 98.89% incentives |
-| vesper | 0.35% | 1.22% | Base rate |
-| stake-dao | 4.36% | 8.83% | 96.33% incentives |
-| convex-finance | 16.46% | 12.36% | 99.82% incentives |
-| aerodrome-slipstream | 26.26% | 31.65% | 73.14% incentives |
-| aerodrome-slipstream | 33.50% | 47.43% | 91.78% incentives |
+| aerodrome-v1 | 0.12% | 2.66% | 100.00% incentives |
+| curve-dex | 2.70% | 5.79% | 98.89% incentives |
+| vesper | 0.32% | 1.22% | Base rate |
+| stake-dao | 4.39% | 8.79% | 96.35% incentives |
+| convex-finance | 16.49% | 12.33% | 99.82% incentives |
+| aerodrome-slipstream | 26.85% | 31.69% | 70.47% incentives |
+| aerodrome-slipstream | 32.99% | 47.59% | 93.87% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSETH yield today?
 
-33.50% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+32.99% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MSETH pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $71.09M in total.
+17 live pools clear this page's $100K TVL floor, $71.49M in total.
 
 ### Are these rates safe?
 

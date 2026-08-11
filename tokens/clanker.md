@@ -1,21 +1,21 @@
 # CLANKER DeFi Yields
 
-The highest honest CLANKER yield right now is 66.77% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLANKER yield right now is 4.43% on uniswap-v3 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token) | Base | 4.30% | $1.4M |
-| [raydium-amm →](https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token) | Solana | 2.33% | $156.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token) | Base | 4.43% | $1.4M |
+| [raydium-amm →](https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token) | Solana | 2.18% | $156.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token) | Base | 0.99% | $152.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token) | Base | 66.77% | $113.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token) | Base | 185.73% | $115.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CLANKER shows up in 4 pools here, with rates from 0.99% to 66.77% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CLANKER shows up in 4 pools here, with rates from 0.99% to 185.73% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,10 +23,10 @@ CLANKER shows up in 4 pools here, with rates from 0.99% to 66.77% APY across 2 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 4.30% | 8.88% | Base rate |
-| raydium-amm | 2.33% | 3.52% | Base rate |
-| uniswap-v4 | 0.99% | 2.33% | Base rate |
-| aerodrome-slipstream | 66.77% | 97.72% | 91.42% incentives |
+| uniswap-v3 | 4.43% | 8.84% | Base rate |
+| raydium-amm | 2.18% | 3.53% | Base rate |
+| uniswap-v4 | 0.99% | 2.28% | Base rate |
+| aerodrome-slipstream | 185.73% | 97.83% | 96.90% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CLANKER yield today?
 
-66.77% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+4.43% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many CLANKER pools clear the TVL floor?
 

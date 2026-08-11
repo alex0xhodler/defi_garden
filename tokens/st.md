@@ -4,11 +4,11 @@ The highest honest ST yield right now is 0.01% on orca-dex (Solana), among 18 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=240e21d5-f877-46b1-83ee-d59ea35daba2&src=seo_token) | Solana | 0.01% | $550.4K |
-| [orca-dex →](https://www.defi.garden/?pool=5c3504b1-962c-4001-8ebd-869646bd7d43&src=seo_token) | Solana | 0.01% | $544.9K |
-| [orca-dex →](https://www.defi.garden/?pool=dc5d184c-3c8a-4b1f-9983-57bfa08b5c32&src=seo_token) | Solana | 0.01% | $469.7K |
-| [orca-dex →](https://www.defi.garden/?pool=f1337ad9-0fa5-430f-93c3-8bdedc3b7846&src=seo_token) | Solana | 0.01% | $425.2K |
-| [orca-dex →](https://www.defi.garden/?pool=b58a74b1-b6c4-463c-b5fc-c53b90616ac1&src=seo_token) | Solana | 0.01% | $218.4K |
+| [orca-dex →](https://www.defi.garden/?pool=240e21d5-f877-46b1-83ee-d59ea35daba2&src=seo_token) | Solana | 0.01% | $551.4K |
+| [orca-dex →](https://www.defi.garden/?pool=5c3504b1-962c-4001-8ebd-869646bd7d43&src=seo_token) | Solana | 0.01% | $546K |
+| [orca-dex →](https://www.defi.garden/?pool=dc5d184c-3c8a-4b1f-9983-57bfa08b5c32&src=seo_token) | Solana | 0.01% | $470.6K |
+| [orca-dex →](https://www.defi.garden/?pool=f1337ad9-0fa5-430f-93c3-8bdedc3b7846&src=seo_token) | Solana | 0.01% | $426.1K |
+| [orca-dex →](https://www.defi.garden/?pool=b58a74b1-b6c4-463c-b5fc-c53b90616ac1&src=seo_token) | Solana | 0.01% | $218.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ST pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $8.99M in total.
+18 live pools clear this page's $100K TVL floor, $9M in total.
 
 ### Are these rates safe?
 

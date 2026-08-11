@@ -4,7 +4,7 @@ The highest honest STKESOL yield right now is 4.48% on stkesol-by-sol-strategies
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.48% | $47.11M |
+| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.48% | $47.19M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,13 +12,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 STKESOL shows up in 1 pools here, with rates from 4.48% to 4.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stkesol-by-sol-strategies | 4.48% | 4.51% | Base rate |
+| stkesol-by-sol-strategies | 4.48% | 4.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STKESOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $54.15M in total.
+2 live pools clear this page's $100K TVL floor, $54.25M in total.
 
 ### Are these rates safe?
 

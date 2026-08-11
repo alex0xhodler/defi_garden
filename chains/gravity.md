@@ -5,7 +5,7 @@ The highest honest Gravity yield right now is 2.21% on latch (Gravity), among 2 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | ATUSD | [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab&src=seo_chain) | 0.28% | $1.39M |
-| ATETH | [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_chain) | 2.21% | $181.7K |
+| ATETH | [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_chain) | 2.21% | $182.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

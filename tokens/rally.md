@@ -4,7 +4,7 @@ The highest honest RALLY yield right now is 0.12% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token) | Ethereum | 0.12% | $102K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token) | Ethereum | 0.12% | $101.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RALLY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102K in total.
+1 live pool clear this page's $100K TVL floor, $101.4K in total.
 
 ### Are these rates safe?
 

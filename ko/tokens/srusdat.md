@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 8.11% | $4.21M |
-| [pendle →](https://www.defi.garden/?pool=96d93097-1e9e-4b78-ac1d-5924f04e1e56&src=seo_token) | Ethereum | 9.04% | $508K |
-| [pendle →](https://www.defi.garden/?pool=23debab1-4c7c-4498-8964-269bca4fdb3a&src=seo_token) | Ethereum | 9.37% | $508K |
+| [pendle →](https://www.defi.garden/?pool=96d93097-1e9e-4b78-ac1d-5924f04e1e56&src=seo_token) | Ethereum | 9.03% | $508K |
+| [pendle →](https://www.defi.garden/?pool=23debab1-4c7c-4498-8964-269bca4fdb3a&src=seo_token) | Ethereum | 9.33% | $508K |
 | [pendle →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326&src=seo_token) | Monad | 11.15% | $111.2K |
 | [pendle →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 12.18% | $111.2K |
 
@@ -23,10 +23,10 @@ SRUSDAT 풀은 여기 5개가 있고, 2개 체인에서 APY가 8.11%부터 12.18
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | strata-markets | 8.11% | 7.86% | 기본 금리 |
-| pendle | 9.04% | 10.70% | 기본 금리 |
-| pendle | 9.37% | 11.14% | 기본 금리 |
-| pendle | 11.15% | 11.12% | 기본 금리 |
-| pendle | 12.18% | 12.16% | 인센티브 14.56% |
+| pendle | 9.03% | 10.68% | 기본 금리 |
+| pendle | 9.33% | 11.12% | 기본 금리 |
+| pendle | 11.15% | 11.14% | 기본 금리 |
+| pendle | 12.18% | 12.17% | 인센티브 14.61% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

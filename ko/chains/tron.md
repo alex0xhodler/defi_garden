@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_chain) | 0.31% | $681.49M |
-| USDD | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_chain) | 4.11% | $421.67M |
-| BTC | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_chain) | 0.02% | $419.56M |
-| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_chain) | 11.36% | $89.61M |
-| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_chain) | 1.97% | $89.56M |
-| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_chain) | 0.25% | $9.46M |
-| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_chain) | 1.17% | $6.55M |
-| HTX | [justlend-v1 →](https://www.defi.garden/?pool=fbffe534-e01b-418e-b2be-276c760b69f2&src=seo_chain) | 0.03% | $1.31M |
+| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_chain) | 0.31% | $688.59M |
+| USDD | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_chain) | 4.11% | $421.43M |
+| BTC | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_chain) | 0.02% | $415.11M |
+| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_chain) | 11.36% | $90.86M |
+| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_chain) | 2.13% | $81.45M |
+| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_chain) | 0.26% | $9.33M |
+| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_chain) | 1.18% | $6.58M |
+| HTX | [justlend-v1 →](https://www.defi.garden/?pool=fbffe534-e01b-418e-b2be-276c760b69f2&src=seo_chain) | 0.03% | $1.33M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Tron의 tr-energy에서 APY 11.36%예요.
 
 ### Tron 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 24개이며, 합산 TVL은 $3.5B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 24개이며, 합산 TVL은 $3.51B예요.
 
 ### 이 수익률은 안전한가요?
 

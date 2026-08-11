@@ -6,27 +6,27 @@ The highest honest REUSDE yield right now is 18.00% on pendle (Ethereum), among 
 |---|---|---|---|
 | [re →](https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token) | Ethereum | 12.29% | $19.01M |
 | [pendle →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token) | Ethereum | 18.00% | $4.57M |
-| [pendle →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.52% | $4.57M |
-| [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token) | Ethereum | 0.18% | $556.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4f14a69f-31a6-47ce-93db-0aed87f3249f&src=seo_token) | Ethereum | 16.05% | $232.3K |
+| [pendle →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.53% | $4.57M |
+| [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token) | Ethereum | 0.15% | $556.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4f14a69f-31a6-47ce-93db-0aed87f3249f&src=seo_token) | Ethereum | 14.60% | $232K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-REUSDE shows up in 5 pools here, with rates from 0.18% to 18.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+REUSDE shows up in 5 pools here, with rates from 0.15% to 18.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 18.30% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 18.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| re | 12.29% | 13.55% | Base rate |
-| pendle | 18.00% | 18.30% | Base rate |
-| pendle | 17.52% | 20.00% | 3.40% incentives |
-| curve-dex | 0.18% | 0.43% | Base rate |
-| uniswap-v4 | 16.05% | 45.84% | Base rate |
+| re | 12.29% | 13.49% | Base rate |
+| pendle | 18.00% | 18.28% | Base rate |
+| pendle | 17.53% | 19.92% | 3.41% incentives |
+| curve-dex | 0.15% | 0.43% | Base rate |
+| uniswap-v4 | 14.60% | 45.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many REUSDE pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $29.37M in total.
+6 live pools clear this page's $100K TVL floor, $29.38M in total.
 
 ### Are these rates safe?
 

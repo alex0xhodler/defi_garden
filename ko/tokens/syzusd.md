@@ -1,23 +1,23 @@
 # SYZUSD 디파이 수익률
 
-현재 SYZUSD의 가장 높은 정직한 수익률은 Monad의 balancer-v3에서 15.86%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SYZUSD의 가장 높은 정직한 수익률은 Monad의 balancer-v3에서 15.88%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.85% | $27.57M |
-| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 7.85% | $11.4M |
-| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 7.85% | $9M |
-| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.85% | $1.29M |
+| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.83% | $27.5M |
+| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 7.83% | $11.4M |
+| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 7.83% | $9M |
+| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.83% | $1.29M |
 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.05M |
-| [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token) | Monad | 1.21% | $483.4K |
-| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 10.06% | $363.7K |
-| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 15.86% | $116.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token) | Monad | 1.22% | $483.4K |
+| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 10.46% | $363.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 15.88% | $116.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SYZUSD 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.20%부터 15.86%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SYZUSD 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.20%부터 15.88%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.94%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -25,14 +25,14 @@ SYZUSD 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.20%부터 15.86%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| yuzu-money | 7.85% | 7.94% | 기본 금리 |
-| yuzu-money | 7.85% | 7.94% | 기본 금리 |
-| yuzu-money | 7.85% | 7.94% | 기본 금리 |
-| yuzu-money | 7.85% | 7.94% | 기본 금리 |
+| yuzu-money | 7.83% | 7.94% | 기본 금리 |
+| yuzu-money | 7.83% | 7.94% | 기본 금리 |
+| yuzu-money | 7.83% | 7.94% | 기본 금리 |
+| yuzu-money | 7.83% | 7.94% | 기본 금리 |
 | curvance | 0.20% | 0.20% | 인센티브 100.00% |
-| morpho-blue | 1.21% | 0.01% | 인센티브 100.00% |
-| balancer-v3 | 10.06% | 10.88% | 인센티브 5.31% |
-| balancer-v3 | 15.86% | 12.22% | 인센티브 64.50% |
+| morpho-blue | 1.22% | 0.02% | 인센티브 100.00% |
+| balancer-v3 | 10.46% | 10.87% | 인센티브 5.10% |
+| balancer-v3 | 15.88% | 12.25% | 인센티브 64.47% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +40,11 @@ SYZUSD 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.20%부터 15.86%
 
 ### 오늘 SYZUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 15.86%예요.
+DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 15.88%예요.
 
 ### SYZUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $52.14M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $52.07M예요.
 
 ### 이 수익률은 안전한가요?
 

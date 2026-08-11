@@ -4,10 +4,10 @@ The highest honest YIELD yield right now is 6.42% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 6.42% | $6.56M |
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 0.03% | $3.17M |
-| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.99% | $1.66M |
-| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 6.39% | $664K |
+| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 6.42% | $6.33M |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 0.03% | $3.2M |
+| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.99% | $1.68M |
+| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 6.39% | $716.7K |
 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 2.75% | $221.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -24,10 +24,10 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 6.42% | 6.99% | Base rate |
+| morpho-blue | 6.42% | 6.98% | Base rate |
 | morpho-blue | 0.03% | 0.13% | Base rate |
 | morpho-blue | 2.99% | 2.78% | Base rate |
-| morpho-blue | 6.39% | 3.74% | Base rate |
+| morpho-blue | 6.39% | 3.76% | Base rate |
 | morpho-blue | 2.75% | 3.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YIELD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $12.47M in total.
+6 live pools clear this page's $100K TVL floor, $12.34M in total.
 
 ### Are these rates safe?
 

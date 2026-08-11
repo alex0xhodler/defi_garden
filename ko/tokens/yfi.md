@@ -4,19 +4,19 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 5.71% | $1.02M |
-| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 6.11% | $466.4K |
-| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 9.11% | $465.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 1.69% | $127.9K |
-| [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token) | Ethereum | 1.34% | $103K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 5.76% | $1.02M |
+| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 6.09% | $466.4K |
+| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 9.11% | $465.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 1.85% | $128.2K |
+| [sushiswap →](https://www.defi.garden/?pool=0d41092f-2792-4590-96c0-39f68aa77041&src=seo_token) | Ethereum | 1.53% | $103.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-YFI 풀은 여기 5개가 있고, 2개 체인에서 APY가 1.34%부터 9.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+YFI 풀은 여기 5개가 있고, 2개 체인에서 APY가 1.53%부터 9.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.48%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.49%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 5개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -24,11 +24,11 @@ YFI 풀은 여기 5개가 있고, 2개 체인에서 APY가 1.34%부터 9.11%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-v1 | 5.71% | 14.94% | 인센티브 100.00% |
-| curve-dex | 6.11% | 5.48% | 인센티브 94.92% |
-| convex-finance | 9.11% | 7.75% | 인센티브 96.60% |
-| uniswap-v2 | 1.69% | 3.14% | 기본 금리 |
-| sushiswap | 1.34% | 2.88% | 기본 금리 |
+| aerodrome-v1 | 5.76% | 14.94% | 인센티브 100.00% |
+| curve-dex | 6.09% | 5.49% | 인센티브 95.73% |
+| convex-finance | 9.11% | 7.76% | 인센티브 97.15% |
+| uniswap-v2 | 1.85% | 3.12% | 기본 금리 |
+| sushiswap | 1.53% | 2.87% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

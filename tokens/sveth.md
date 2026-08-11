@@ -4,23 +4,23 @@ The highest honest SVETH yield right now is 1.74% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 1.74% | $120.1K |
-| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.67% | $107.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 1.74% | $121K |
+| [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.78% | $108.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SVETH shows up in 2 pools here, with rates from 1.67% to 1.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SVETH shows up in 2 pools here, with rates from 1.74% to 1.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.53% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 1.74% | 3.41% | Base rate |
-| morpho-blue | 1.67% | 3.65% | Base rate |
+| morpho-blue | 1.74% | 3.40% | Base rate |
+| morpho-blue | 1.78% | 3.64% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SVETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $228K in total.
+2 live pools clear this page's $100K TVL floor, $229.6K in total.
 
 ### Are these rates safe?
 

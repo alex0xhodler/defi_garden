@@ -1,24 +1,24 @@
 # MORPHO DeFi Yields
 
-The highest honest MORPHO yield right now is 88.18% on aerodrome-slipstream (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MORPHO yield right now is 55.87% on aerodrome-slipstream (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [moonwell-lending →](https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token) | Base | 0.16% | $10.64M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 88.18% | $963.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 3.57% | $600.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 13.34% | $405.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 22.85% | $335.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 42.55% | $151.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 13.02% | $136.2K |
+| [moonwell-lending →](https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token) | Base | 0.15% | $10.76M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 55.87% | $1.23M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 3.08% | $606.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 12.07% | $407.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 18.36% | $339.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 33.96% | $152.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 9.80% | $137.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MORPHO shows up in 7 pools here, with rates from 0.16% to 88.18% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+MORPHO shows up in 7 pools here, with rates from 0.15% to 55.87% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 22.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 21.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -26,13 +26,13 @@ MORPHO shows up in 7 pools here, with rates from 0.16% to 88.18% APY across 3 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| moonwell-lending | 0.16% | 0.17% | 91.61% incentives |
-| aerodrome-slipstream | 88.18% | 79.63% | 50.74% incentives |
-| uniswap-v4 | 3.57% | 7.42% | Base rate |
-| raydium-amm | 13.34% | 22.07% | Base rate |
-| uniswap-v3 | 22.85% | 48.57% | Base rate |
-| uniswap-v3 | 42.55% | 65.94% | Base rate |
-| uniswap-v3 | 13.02% | 17.57% | Base rate |
+| moonwell-lending | 0.15% | 0.17% | 91.53% incentives |
+| aerodrome-slipstream | 55.87% | 79.61% | 37.81% incentives |
+| uniswap-v4 | 3.08% | 7.38% | Base rate |
+| raydium-amm | 12.07% | 21.88% | Base rate |
+| uniswap-v3 | 18.36% | 48.34% | Base rate |
+| uniswap-v3 | 33.96% | 65.71% | Base rate |
+| uniswap-v3 | 9.80% | 17.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MORPHO yield today?
 
-88.18% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+55.87% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MORPHO pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $14.26M in total.
+8 live pools clear this page's $100K TVL floor, $14.67M in total.
 
 ### Are these rates safe?
 

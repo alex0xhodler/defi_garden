@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GAMICUSPC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $15.03M in total.
+2 live pools clear this page's $100K TVL floor, $15.02M in total.
 
 ### Are these rates safe?
 

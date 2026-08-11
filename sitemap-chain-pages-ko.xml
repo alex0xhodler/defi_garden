@@ -211,12 +211,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/fraxtal</loc>
+    <loc>https://www.defi.garden/ko/chains/algorand</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/algorand</loc>
+    <loc>https://www.defi.garden/ko/chains/fraxtal</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -271,12 +271,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/multiversx</loc>
+    <loc>https://www.defi.garden/ko/chains/celo</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/celo</loc>
+    <loc>https://www.defi.garden/ko/chains/multiversx</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>daily</changefreq>
   </url>

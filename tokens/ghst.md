@@ -1,19 +1,19 @@
 # GHST DeFi Yields
 
-The highest honest GHST yield right now is 42.20% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GHST yield right now is 42.47% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token) | Base | 42.20% | $579.2K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token) | Base | 2.30% | $151.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1fe3e0c-e7b7-4c49-bafb-f0f3ecb65df7&src=seo_token) | Base | 42.47% | $577.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=af08f671-96c6-48a0-a8d3-222e8127ef35&src=seo_token) | Base | 2.32% | $151.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GHST shows up in 2 pools here, with rates from 2.30% to 42.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GHST shows up in 2 pools here, with rates from 2.32% to 42.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 39.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 39.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ GHST shows up in 2 pools here, with rates from 2.30% to 42.20% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 42.20% | 73.80% | 95.73% incentives |
-| aerodrome-v1 | 2.30% | 5.19% | 100.00% incentives |
+| aerodrome-slipstream | 42.47% | 73.91% | 96.79% incentives |
+| aerodrome-v1 | 2.32% | 5.19% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GHST yield today?
 
-42.20% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+42.47% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many GHST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $730.9K in total.
+2 live pools clear this page's $100K TVL floor, $729.7K in total.
 
 ### Are these rates safe?
 
@@ -42,12 +42,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 
 ## Available on
 

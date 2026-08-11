@@ -1,22 +1,22 @@
 # TSLAX DeFi Yields
 
-The highest honest TSLAX yield right now is 9.98% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSLAX yield right now is 8.27% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 9.98% | $1.89M |
-| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 5.68% | $563.3K |
-| [jupiter-lend →](https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token) | Solana | 2.02% | $535.9K |
-| [jupiter-lend →](https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token) | Solana | 2.02% | $198.3K |
-| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 0.48% | $106.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 8.27% | $1.89M |
+| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 4.62% | $565.3K |
+| [jupiter-lend →](https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token) | Solana | 2.02% | $539.9K |
+| [jupiter-lend →](https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token) | Solana | 2.02% | $199.2K |
+| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 0.47% | $107.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TSLAX shows up in 5 pools here, with rates from 0.48% to 9.98% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TSLAX shows up in 5 pools here, with rates from 0.47% to 8.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 7.25% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 7.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -24,11 +24,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 9.98% | 16.08% | Base rate |
-| raydium-amm | 5.68% | 9.51% | Base rate |
-| jupiter-lend | 2.02% | 0.80% | Base rate |
-| jupiter-lend | 2.02% | 0.80% | Base rate |
-| orca-dex | 0.48% | 7.25% | Base rate |
+| raydium-amm | 8.27% | 16.12% | Base rate |
+| raydium-amm | 4.62% | 9.53% | Base rate |
+| jupiter-lend | 2.02% | 0.81% | Base rate |
+| jupiter-lend | 2.02% | 0.81% | Base rate |
+| orca-dex | 0.47% | 7.22% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,11 +36,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TSLAX yield today?
 
-9.98% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.27% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TSLAX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $6.09M in total.
+6 live pools clear this page's $100K TVL floor, $6.1M in total.
 
 ### Are these rates safe?
 

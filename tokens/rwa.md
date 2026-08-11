@@ -1,10 +1,10 @@
 # RWA DeFi Yields
 
-The highest honest RWA yield right now is 32.15% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RWA yield right now is 26.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a&src=seo_token) | Solana | 32.15% | $165.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a&src=seo_token) | Solana | 26.91% | $163.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RWA yield today?
 
-32.15% APY on raydium-amm (Solana), based on live DefiLlama data.
+26.91% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RWA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.8K in total.
+1 live pool clear this page's $100K TVL floor, $163.7K in total.
 
 ### Are these rates safe?
 

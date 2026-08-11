@@ -4,7 +4,7 @@ The highest honest STUPID yield right now is 1.01% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4fffddd6-825a-4a85-a459-132c4c7ee40b&src=seo_token) | Solana | 1.01% | $157K |
+| [raydium-amm →](https://www.defi.garden/?pool=4fffddd6-825a-4a85-a459-132c4c7ee40b&src=seo_token) | Solana | 1.01% | $155.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STUPID pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $157K in total.
+1 live pool clear this page's $100K TVL floor, $155.9K in total.
 
 ### Are these rates safe?
 

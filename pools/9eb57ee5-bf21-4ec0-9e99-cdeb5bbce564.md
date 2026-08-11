@@ -1,8 +1,8 @@
 # USDC-EMXN — uniswap-v4 on Polygon
 
-**Total APY:** 21.89% (21.89% Base · + 0.00% Rewards)
+**Total APY:** 0.03% (0.03% Base · + 0.00% Rewards)
 
-**TVL:** $136.3K
+**TVL:** $136.8K
 
 **Pool Type:** LP/DEX
 
@@ -12,25 +12,22 @@
 
 **IL Risk:** Yes
 
-## Risk Assessment: High
+## Risk Assessment: Medium
 
-Advanced DeFi strategy
+Moderate risk profile
 
 - Low liquidity
-- High yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,422 in 5y at current rates.
+$1,000 in this pool grows to ~$1,002 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (21.89% headline) — farm rates decay. Active management required.
+This pool's rate moves a lot: 0.03% right now vs a 3.59% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-This pool's rate moves a lot: 21.89% right now vs a 3.59% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
-
-[Garden this pool → ~$1,422 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,002 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 

@@ -1,12 +1,12 @@
 # SPCX-USDC — raydium-amm on Solana
 
-**Total APY:** 101.75% (101.75% Base · + 0.00% Rewards)
+**Total APY:** 80.88% (80.88% Base · + 0.00% Rewards)
 
-**TVL:** $511.2K
+**TVL:** $512.5K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 33.65%
+**30d Mean APY:** 34.14%
 
 **Exposure:** multi
 
@@ -22,15 +22,15 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$4,307 in 5y at current rates.
+$1,000 in this pool grows to ~$3,299 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (101.75% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (80.88% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 101.75% right now vs a 33.65% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 80.88% right now vs a 34.14% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$4,307 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$3,299 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 

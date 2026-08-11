@@ -1,10 +1,10 @@
 # IBERA DeFi Yields
 
-The highest honest IBERA yield right now is 3.23% on infrared-finance (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IBERA yield right now is 3.27% on infrared-finance (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d&src=seo_token) | Berachain | 3.23% | $12.96M |
+| [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d&src=seo_token) | Berachain | 3.27% | $12.98M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IBERA yield today?
 
-3.23% APY on infrared-finance (Berachain), based on live DefiLlama data.
+3.27% APY on infrared-finance (Berachain), based on live DefiLlama data.
 
 ### How many IBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $12.96M in total.
+1 live pool clear this page's $100K TVL floor, $12.98M in total.
 
 ### Are these rates safe?
 

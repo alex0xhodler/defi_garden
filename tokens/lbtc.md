@@ -1,36 +1,38 @@
 # LBTC DeFi Yields
 
-The highest honest LBTC yield right now is 4.00% on curve-dex (Monad), among 22 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LBTC yield right now is 4.00% on curve-dex (Monad), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.33% | $581.93M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token) | Base | 3.85% | $3.46M |
-| [moonwell-lending →](https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token) | Base | 0.17% | $3.28M |
-| [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token) | Sui | 1.30% | $2.86M |
-| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token) | Monad | 4.00% | $1.54M |
-| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a&src=seo_token) | Ethereum | 0.13% | $863K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 0.71% | $732.1K |
+| [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.33% | $585.18M |
+| [symbiotic →](https://www.defi.garden/?pool=e96d1b6a-78d9-5e86-af04-2e8467e96f48&src=seo_token) | Ethereum | 0.52% | $27.73M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token) | Base | 3.88% | $3.48M |
+| [moonwell-lending →](https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token) | Base | 0.17% | $3.29M |
+| [navi-lending →](https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token) | Sui | 1.29% | $2.86M |
+| [curve-dex →](https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token) | Monad | 4.00% | $1.55M |
+| [fluid-dex →](https://www.defi.garden/?pool=a346d9ce-65df-4681-b9fa-777b91d8d72a&src=seo_token) | Ethereum | 0.08% | $867.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 0.43% | $736.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LBTC shows up in 7 pools here, with rates from 0.13% to 4.00% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+LBTC shows up in 8 pools here, with rates from 0.08% to 4.00% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 1.48% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-4 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | lombard-lbtc | 0.33% | 0.33% | Base rate |
-| aerodrome-slipstream | 3.85% | 1.78% | 99.72% incentives |
-| moonwell-lending | 0.17% | 0.20% | 80.42% incentives |
-| navi-lending | 1.30% | 1.40% | 99.78% incentives |
-| curve-dex | 4.00% | 5.89% | 100.00% incentives |
-| fluid-dex | 0.13% | 1.48% | Base rate |
-| uniswap-v3 | 0.71% | 3.15% | Base rate |
+| symbiotic | 0.52% | 0.52% | 100.00% incentives |
+| aerodrome-slipstream | 3.88% | 1.79% | 99.83% incentives |
+| moonwell-lending | 0.17% | 0.20% | 80.35% incentives |
+| navi-lending | 1.29% | 1.40% | 99.78% incentives |
+| curve-dex | 4.00% | 5.88% | 100.00% incentives |
+| fluid-dex | 0.08% | 1.48% | Base rate |
+| uniswap-v3 | 0.43% | 3.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LBTC pools clear the TVL floor?
 
-22 live pools clear this page's $100K TVL floor, $1B in total.
+23 live pools clear this page's $100K TVL floor, $1.03B in total.
 
 ### Are these rates safe?
 

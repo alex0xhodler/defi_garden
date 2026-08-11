@@ -1,25 +1,25 @@
 # AAVE DeFi Yields
 
-The highest honest AAVE yield right now is 7.23% on uniswap-v3 (Ethereum), among 29 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVE yield right now is 6.43% on uniswap-v3 (Ethereum), among 29 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 0.11% | $11.19M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 1.47% | $2.96M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 7.23% | $2.79M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 7.79% | $2.18M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 4.79% | $1.78M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 8.43% | $1.03M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 26.27% | $1.01M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2489532d-eb94-40d4-9a99-c417385aaf78&src=seo_token) | Ethereum | 1.66% | $783.1K |
+| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 0.10% | $11.25M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 1.15% | $2.98M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 6.43% | $2.82M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 6.88% | $2.19M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 6.66% | $1.78M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 6.26% | $1.03M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 25.55% | $1.01M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2489532d-eb94-40d4-9a99-c417385aaf78&src=seo_token) | Ethereum | 1.45% | $788K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AAVE shows up in 8 pools here, with rates from 0.11% to 26.27% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AAVE shows up in 8 pools here, with rates from 0.10% to 25.55% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 8 pools have a trustworthy 30-day average on file, with a median of 20.81% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 8 pools have a trustworthy 30-day average on file, with a median of 20.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ AAVE shows up in 8 pools here, with rates from 0.11% to 26.27% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v2 | 0.11% | — | Base rate |
-| uniswap-v4 | 1.47% | 11.24% | Base rate |
-| uniswap-v3 | 7.23% | 11.52% | Base rate |
-| uniswap-v4 | 7.79% | 20.81% | Base rate |
-| uniswap-v4 | 4.79% | 24.36% | Base rate |
-| uniswap-v4 | 8.43% | 20.27% | Base rate |
-| aerodrome-slipstream | 26.27% | 56.86% | 63.24% incentives |
-| uniswap-v3 | 1.66% | 53.47% | Base rate |
+| balancer-v2 | 0.10% | — | Base rate |
+| uniswap-v4 | 1.15% | 11.12% | Base rate |
+| uniswap-v3 | 6.43% | 11.48% | Base rate |
+| uniswap-v4 | 6.88% | 20.60% | Base rate |
+| uniswap-v4 | 6.66% | 24.09% | Base rate |
+| uniswap-v4 | 6.26% | 20.16% | Base rate |
+| aerodrome-slipstream | 25.55% | 56.54% | 68.28% incentives |
+| uniswap-v3 | 1.45% | 53.03% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AAVE yield today?
 
-7.23% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+6.43% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AAVE pools clear the TVL floor?
 
-29 live pools clear this page's $100K TVL floor, $105.66M in total.
+29 live pools clear this page's $100K TVL floor, $106.14M in total.
 
 ### Are these rates safe?
 

@@ -1,19 +1,19 @@
 # BUCK DeFi Yields
 
-The highest honest BUCK yield right now is 4.17% on cetus-clmm (Sui), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUCK yield right now is 4.51% on cetus-clmm (Sui), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [navi-lending →](https://www.defi.garden/?pool=1c81c0b0-db5e-4140-95bc-664c973e2d36&src=seo_token) | Sui | 0.20% | $18.78M |
-| [cetus-clmm →](https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token) | Sui | 0.06% | $1.73M |
-| [raydium-amm →](https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token) | Solana | 1.80% | $130.9K |
-| [cetus-clmm →](https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token) | Sui | 4.17% | $119.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=6f3e9e74-849f-483e-baca-3bacfd01644e&src=seo_token) | Sui | 0.07% | $1.73M |
+| [raydium-amm →](https://www.defi.garden/?pool=9687cf57-cc7c-444b-8e6e-2d4ab8e27616&src=seo_token) | Solana | 1.89% | $131.5K |
+| [cetus-clmm →](https://www.defi.garden/?pool=216f0975-2dfe-4ff6-81e5-c2c62c7bf145&src=seo_token) | Sui | 4.51% | $119.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BUCK shows up in 4 pools here, with rates from 0.06% to 4.17% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BUCK shows up in 4 pools here, with rates from 0.07% to 4.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -24,9 +24,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | navi-lending | 0.20% | 0.22% | Base rate |
-| cetus-clmm | 0.06% | 0.17% | Base rate |
-| raydium-amm | 1.80% | 2.47% | Base rate |
-| cetus-clmm | 4.17% | 5.16% | Base rate |
+| cetus-clmm | 0.07% | 0.17% | Base rate |
+| raydium-amm | 1.89% | 2.48% | Base rate |
+| cetus-clmm | 4.51% | 5.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BUCK yield today?
 
-4.17% APY on cetus-clmm (Sui), based on live DefiLlama data.
+4.51% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many BUCK pools clear the TVL floor?
 

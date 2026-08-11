@@ -4,7 +4,7 @@ The highest honest INIT yield right now is 12.09% on echelon-market (Echelon Ini
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3&src=seo_token) | Echelon Initia | 12.09% | $126.5K |
+| [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3&src=seo_token) | Echelon Initia | 12.09% | $124.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many INIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126.5K in total.
+1 live pool clear this page's $100K TVL floor, $124.5K in total.
 
 ### Are these rates safe?
 

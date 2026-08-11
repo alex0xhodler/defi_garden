@@ -1,28 +1,28 @@
 # SRROYUSDC DeFi Yields
 
-The highest honest SRROYUSDC yield right now is 3.01% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYUSDC yield right now is 6.92% on concrete (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=7081d7c4-d0df-4c68-adce-2bb210cd25e8&src=seo_token) | Ethereum | 1.69% | $11.02M |
-| [stake-dao →](https://www.defi.garden/?pool=23605340-3ba7-4a42-a55e-47cf09ec1d78&src=seo_token) | Ethereum | 8.53% | $873.3K |
-| [curve-dex →](https://www.defi.garden/?pool=3f63a73f-836b-481d-9ce5-3455ea5c4a12&src=seo_token) | Ethereum | 3.01% | $873.3K |
+| [concrete →](https://www.defi.garden/?pool=7081d7c4-d0df-4c68-adce-2bb210cd25e8&src=seo_token) | Ethereum | 6.92% | $11.02M |
+| [curve-dex →](https://www.defi.garden/?pool=3f63a73f-836b-481d-9ce5-3455ea5c4a12&src=seo_token) | Ethereum | 3.02% | $873.5K |
+| [stake-dao →](https://www.defi.garden/?pool=23605340-3ba7-4a42-a55e-47cf09ec1d78&src=seo_token) | Ethereum | 8.56% | $873.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SRROYUSDC shows up in 3 pools here, with rates from 1.69% to 8.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRROYUSDC shows up in 3 pools here, with rates from 3.02% to 8.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| concrete | 1.69% | 5.51% | Base rate |
-| stake-dao | 8.53% | 4.51% | 26.52% incentives |
-| curve-dex | 3.01% | 4.70% | 65.43% incentives |
+| concrete | 6.92% | 5.51% | Base rate |
+| curve-dex | 3.02% | 4.71% | 65.62% incentives |
+| stake-dao | 8.56% | 4.54% | 26.72% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRROYUSDC yield today?
 
-3.01% APY on curve-dex (Ethereum), based on live DefiLlama data.
+6.92% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many SRROYUSDC pools clear the TVL floor?
 

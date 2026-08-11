@@ -1,25 +1,25 @@
 # WFLR DeFi Yields
 
-The highest honest WFLR yield right now is 20.99% on sparkdex-v4 (Flare), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WFLR yield right now is 20.96% on sparkdex-v4 (Flare), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 20.99% | $1.41M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.18% | $1.33M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 20.96% | $1.41M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.19% | $1.32M |
 | [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 5.30% | $1.16M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.17% | $978.5K |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 10.45% | $786.7K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 2.25% | $312.8K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.82% | $302.5K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 4.51% | $237.3K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.16% | $979K |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 10.44% | $785.8K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 2.23% | $312.8K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.84% | $303.4K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 4.24% | $237.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WFLR shows up in 8 pools here, with rates from 0.82% to 20.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WFLR shows up in 8 pools here, with rates from 0.84% to 20.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 8 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ WFLR shows up in 8 pools here, with rates from 0.82% to 20.99% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sparkdex-v4 | 20.99% | 27.22% | 91.73% incentives |
-| sparkdex-v4 | 4.18% | 5.21% | 98.96% incentives |
-| kinetic | 5.30% | 5.34% | 80.93% incentives |
-| sparkdex-v4 | 6.17% | 6.93% | 99.00% incentives |
-| sparkdex-v4 | 10.45% | 13.74% | 93.30% incentives |
-| sparkdex-v3.1 | 2.25% | 3.82% | 42.93% incentives |
-| sparkdex-v3.1 | 0.82% | 2.16% | 81.60% incentives |
-| sparkdex-v3.1 | 4.51% | 7.01% | 13.74% incentives |
+| sparkdex-v4 | 20.96% | 27.19% | 91.92% incentives |
+| sparkdex-v4 | 4.19% | 5.21% | 98.91% incentives |
+| kinetic | 5.30% | 5.34% | 80.94% incentives |
+| sparkdex-v4 | 6.16% | 6.92% | 99.00% incentives |
+| sparkdex-v4 | 10.44% | 13.73% | 93.64% incentives |
+| sparkdex-v3.1 | 2.23% | 3.82% | 43.30% incentives |
+| sparkdex-v3.1 | 0.84% | 2.15% | 79.60% incentives |
+| sparkdex-v3.1 | 4.24% | 6.97% | 14.60% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WFLR yield today?
 
-20.99% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
+20.96% APY on sparkdex-v4 (Flare), based on live DefiLlama data.
 
 ### How many WFLR pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $6.88M in total.
+10 live pools clear this page's $100K TVL floor, $6.78M in total.
 
 ### Are these rates safe?
 

@@ -24,12 +24,12 @@ DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 4.37%예요.
 
 ## 관련 토큰
 
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 
 ## 이용 가능한 체인
 

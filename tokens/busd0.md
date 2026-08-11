@@ -5,14 +5,14 @@ The highest honest BUSD0 yield right now is 2.84% on usual-usd0 (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [usual-usd0 →](https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token) | Ethereum | 2.84% | $505.81M |
-| [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.02% | $3.7M |
+| [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.01% | $3.7M |
 | [usual-usd0 →](https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token) | Arbitrum | 2.84% | $100.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BUSD0 shows up in 3 pools here, with rates from 0.02% to 2.84% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BUSD0 shows up in 3 pools here, with rates from 0.01% to 2.84% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.31% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,7 +21,7 @@ BUSD0 shows up in 3 pools here, with rates from 0.02% to 2.84% APY across 2 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | usual-usd0 | 2.84% | 2.31% | 100.00% incentives |
-| curve-dex | 0.02% | 0.09% | Base rate |
+| curve-dex | 0.01% | 0.09% | Base rate |
 | usual-usd0 | 2.84% | 2.31% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BUSD0 pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $509.62M in total.
+3 live pools clear this page's $100K TVL floor, $509.61M in total.
 
 ### Are these rates safe?
 

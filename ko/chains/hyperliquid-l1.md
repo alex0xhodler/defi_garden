@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.92% | $776.34M |
-| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.58% | $43.57M |
-| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.30% | $18.72M |
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.92% | $777.11M |
+| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.58% | $43.34M |
+| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.30% | $17.62M |
 | WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 23.77% | $16.74M |
-| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 0.79% | $15.65M |
-| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 7.39% | $13.35M |
+| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 0.79% | $15.61M |
+| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 7.48% | $13.35M |
 | LIMUSD | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_chain) | 7.29% | $10.52M |
-| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 12.01% | $8.83M |
+| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 6.17% | $10.26M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 

@@ -1,10 +1,10 @@
 # ARCHAI DeFi Yields
 
-The highest honest ARCHAI yield right now is 0.59% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARCHAI yield right now is 0.60% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=daa5e719-e6dc-4746-ab89-973f7c17d116&src=seo_token) | Base | 0.59% | $108.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=daa5e719-e6dc-4746-ab89-973f7c17d116&src=seo_token) | Base | 0.60% | $109.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARCHAI yield today?
 
-0.59% APY on uniswap-v2 (Base), based on live DefiLlama data.
+0.60% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many ARCHAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.9K in total.
+1 live pool clear this page's $100K TVL floor, $109.3K in total.
 
 ### Are these rates safe?
 
@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [LBTC](https://www.defi.garden/tokens/lbtc)
 
 ## Available on
 

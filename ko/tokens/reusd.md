@@ -5,34 +5,34 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.22% | $174.51M |
-| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 2.13% | $24.79M |
-| [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 10.79% | $9.1M |
-| [pendle →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 9.05% | $9.1M |
-| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 10.42% | $8.99M |
-| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.25% | $4.4M |
-| [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 16.21% | $3.47M |
-| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 9.95% | $2.51M |
+| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 2.18% | $24.8M |
+| [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 10.79% | $9.11M |
+| [pendle →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 9.05% | $9.11M |
+| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 10.38% | $8.99M |
+| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.20% | $4.4M |
+| [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 16.38% | $3.47M |
+| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 9.91% | $2.51M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-REUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.13%부터 16.21%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+REUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.18%부터 16.38%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.15%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.16%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | re | 6.22% | 6.22% | 기본 금리 |
-| fluid-dex | 2.13% | 0.47% | 기본 금리 |
+| fluid-dex | 2.18% | 0.48% | 기본 금리 |
 | pendle | 10.79% | 10.65% | 기본 금리 |
-| pendle | 9.05% | 9.57% | 인센티브 9.92% |
-| curve-dex | 10.42% | 4.98% | 인센티브 90.41% |
-| convex-finance | 14.25% | 8.08% | 인센티브 92.98% |
-| stake-dao | 16.21% | 8.29% | 인센티브 94.88% |
-| curve-dex | 9.95% | 5.48% | 인센티브 82.41% |
+| pendle | 9.05% | 9.56% | 인센티브 9.95% |
+| curve-dex | 10.38% | 5.01% | 인센티브 91.62% |
+| convex-finance | 14.20% | 8.11% | 인센티브 93.87% |
+| stake-dao | 16.38% | 8.34% | 인센티브 94.93% |
+| curve-dex | 9.91% | 5.50% | 인센티브 83.45% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 10.79%예요.
 
 ### REUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $349.57M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $349.86M예요.
 
 ### 이 수익률은 안전한가요?
 

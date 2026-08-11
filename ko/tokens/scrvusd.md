@@ -1,38 +1,38 @@
 # SCRVUSD 디파이 수익률
 
-현재 SCRVUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 6.08%이며, $100K TVL 기준을 넘는 22개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SCRVUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 6.04%이며, $100K TVL 기준을 넘는 22개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926&src=seo_token) | Ethereum | 1.15% | $17.03M |
-| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 10.42% | $8.99M |
-| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.25% | $4.4M |
-| [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 16.21% | $3.47M |
-| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token) | Ethereum | 5.60% | $2.11M |
-| [stake-dao →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token) | Ethereum | 5.77% | $2.04M |
-| [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200&src=seo_token) | Ethereum | 4.73% | $1.39M |
-| [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd&src=seo_token) | Ethereum | 6.08% | $965.7K |
+| [crvusd →](https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926&src=seo_token) | Ethereum | 1.15% | $16.99M |
+| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 10.38% | $8.99M |
+| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.20% | $4.4M |
+| [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 16.38% | $3.47M |
+| [curve-dex →](https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token) | Ethereum | 5.59% | $2.11M |
+| [stake-dao →](https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token) | Ethereum | 5.78% | $2.04M |
+| [curve-dex →](https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200&src=seo_token) | Ethereum | 4.69% | $1.39M |
+| [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd&src=seo_token) | Ethereum | 6.04% | $965.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SCRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.15%부터 16.21%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SCRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.15%부터 16.38%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.45%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.44%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 5개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| crvusd | 1.15% | 1.39% | 기본 금리 |
-| curve-dex | 10.42% | 4.98% | 인센티브 90.41% |
-| convex-finance | 14.25% | 8.08% | 인센티브 92.98% |
-| stake-dao | 16.21% | 8.29% | 인센티브 94.88% |
-| curve-dex | 5.60% | 7.18% | 기본 금리 |
-| stake-dao | 5.77% | 7.47% | 기본 금리 |
-| curve-dex | 4.73% | 4.42% | 인센티브 44.45% |
-| convex-finance | 6.08% | 5.72% | 인센티브 56.72% |
+| crvusd | 1.15% | 1.37% | 기본 금리 |
+| curve-dex | 10.38% | 5.01% | 인센티브 91.62% |
+| convex-finance | 14.20% | 8.11% | 인센티브 93.87% |
+| stake-dao | 16.38% | 8.34% | 인센티브 94.93% |
+| curve-dex | 5.59% | 7.16% | 기본 금리 |
+| stake-dao | 5.78% | 7.45% | 기본 금리 |
+| curve-dex | 4.69% | 4.41% | 인센티브 45.23% |
+| convex-finance | 6.04% | 5.72% | 인센티브 57.43% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +40,11 @@ SCRVUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.15%부터 16.21
 
 ### 오늘 SCRVUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.08%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.04%예요.
 
 ### SCRVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $45.23M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $45.17M예요.
 
 ### 이 수익률은 안전한가요?
 

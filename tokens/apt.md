@@ -4,8 +4,8 @@ The highest honest APT yield right now is 195.25% on hyperion (Aptos), among 9 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.43% | $3.21M |
-| [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token) | Aptos | 0.22% | $1.72M |
+| [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.43% | $3.19M |
+| [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token) | Aptos | 0.22% | $1.7M |
 | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
 | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token) | Aptos | 1.12% | $1.44M |
 | [hyperion →](https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token) | Aptos | 195.25% | $353.4K |
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many APT pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $9.26M in total.
+9 live pools clear this page's $100K TVL floor, $9.21M in total.
 
 ### Are these rates safe?
 

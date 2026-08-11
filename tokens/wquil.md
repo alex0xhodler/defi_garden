@@ -1,10 +1,10 @@
 # WQUIL DeFi Yields
 
-The highest honest WQUIL yield right now is 21.71% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WQUIL yield right now is 26.13% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8bebfb43-8ca7-490a-9876-60b13b2f7049&src=seo_token) | Ethereum | 21.71% | $143.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8bebfb43-8ca7-490a-9876-60b13b2f7049&src=seo_token) | Ethereum | 26.13% | $147.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WQUIL yield today?
 
-21.71% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+26.13% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many WQUIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.1K in total.
+1 live pool clear this page's $100K TVL floor, $147.1K in total.
 
 ### Are these rates safe?
 
