@@ -5,9 +5,9 @@ The highest honest OUSD yield right now is 7.57% on stake-dao (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [origin-dollar →](https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token) | Ethereum | 5.56% | $5.12M |
-| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 4.96% | $1.06M |
-| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 6.38% | $175.9K |
-| [curve-dex →](https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token) | Ethereum | 3.50% | $105.1K |
+| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 4.97% | $1.06M |
+| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 6.41% | $175.9K |
+| [curve-dex →](https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token) | Ethereum | 3.50% | $105.2K |
 | [stake-dao →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 7.57% | $104.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,10 +23,10 @@ OUSD shows up in 5 pools here, with rates from 3.50% to 7.57% APY across 1 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | origin-dollar | 5.56% | 5.10% | Base rate |
-| curve-dex | 4.96% | 3.88% | 99.19% incentives |
-| curve-dex | 6.38% | 4.86% | 99.84% incentives |
-| curve-dex | 3.50% | 5.60% | 99.71% incentives |
-| stake-dao | 7.57% | 5.85% | 99.60% incentives |
+| curve-dex | 4.97% | 3.88% | 99.40% incentives |
+| curve-dex | 6.41% | 4.87% | 99.84% incentives |
+| curve-dex | 3.50% | 5.60% | 100.00% incentives |
+| stake-dao | 7.57% | 5.86% | 99.60% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

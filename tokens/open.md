@@ -4,8 +4,8 @@ The highest honest OPEN yield right now is 5.87% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 4.13% | $266.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 5.87% | $199.8K |
+| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 4.13% | $267.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 5.87% | $199.9K |
 | [ston.fi →](https://www.defi.garden/?pool=1d4c2a54-9f5b-4e10-85f1-631cf031f91d&src=seo_token) | TON | 0.01% | $191.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | steer-protocol | 4.13% | 3.58% | Base rate |
-| uniswap-v3 | 5.87% | 5.35% | Base rate |
+| uniswap-v3 | 5.87% | 5.40% | Base rate |
 | ston.fi | 0.01% | 0.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OPEN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $847.4K in total.
+4 live pools clear this page's $100K TVL floor, $847.9K in total.
 
 ### Are these rates safe?
 
@@ -49,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

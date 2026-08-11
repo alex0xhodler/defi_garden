@@ -5,12 +5,12 @@ The highest honest CAKE yield right now is 6.42% on uniswap-v3 (BSC), among 9 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.01% | $19.28M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.00% | $7.5M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.21% | $3.64M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.05% | $7.5M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.20% | $3.64M |
 | [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $651.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 1.89% | $373K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 0.86% | $312K |
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token) | Ethereum | 5.82% | $142.8K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 1.85% | $372.7K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 0.82% | $311.9K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token) | Ethereum | 5.86% | $142.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=636b6dab-68e3-4e4b-8e85-b4c225ae5f24&src=seo_token) | BSC | 6.42% | $124.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -28,12 +28,12 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | venus-core-pool | 0.01% | 0.01% | Base rate |
-| pancakeswap-amm | 1.00% | 1.28% | Base rate |
-| uniswap-v3 | 0.21% | 0.27% | Base rate |
+| pancakeswap-amm | 1.05% | 1.28% | Base rate |
+| uniswap-v3 | 0.20% | 0.27% | Base rate |
 | aave-v3 | 0.01% | 0.01% | Base rate |
-| pancakeswap-amm | 1.89% | 3.60% | Base rate |
-| pancakeswap-amm | 0.86% | 1.22% | Base rate |
-| pancakeswap-amm-v3 | 5.82% | 4.42% | Base rate |
+| pancakeswap-amm | 1.85% | 3.59% | Base rate |
+| pancakeswap-amm | 0.82% | 1.22% | Base rate |
+| pancakeswap-amm-v3 | 5.86% | 4.42% | Base rate |
 | uniswap-v3 | 6.42% | 5.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

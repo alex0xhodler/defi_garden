@@ -4,7 +4,7 @@ The highest honest UNIBTC yield right now is 0.28% on berapaw (Berachain), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.28% | $17.13M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.28% | $17.32M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=a855fac3-6d35-4bb9-9b0b-b73820025a7c&src=seo_token) | Ethereum | 0.04% | $2.85M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many UNIBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $22.23M in total.
+4 live pools clear this page's $100K TVL floor, $22.42M in total.
 
 ### Are these rates safe?
 
@@ -45,7 +45,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

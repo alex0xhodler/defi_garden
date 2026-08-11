@@ -1,24 +1,24 @@
 # LCAP 디파이 수익률
 
-현재 LCAP의 가장 높은 정직한 수익률은 Base의 stake-dao에서 49.89%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LCAP의 가장 높은 정직한 수익률은 Base의 stake-dao에서 49.91%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token) | Base | 12.14% | $410.4K |
-| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 47.51% | $281.1K |
-| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 49.89% | $206.4K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 4.46% | $168.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token) | Base | 20.29% | $157K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 28.47% | $149K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 13.15% | $121.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token) | Base | 12.07% | $410.6K |
+| [curve-dex →](https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token) | Base | 47.68% | $281.1K |
+| [stake-dao →](https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token) | Base | 49.91% | $206.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 4.48% | $168.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token) | Base | 20.20% | $157K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token) | Base | 28.60% | $149K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 13.21% | $121.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LCAP 풀은 여기 7개가 있고, 1개 체인에서 APY가 4.46%부터 49.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LCAP 풀은 여기 7개가 있고, 1개 체인에서 APY가 4.48%부터 49.91%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 24.56%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 24.57%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 7개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -26,13 +26,13 @@ LCAP 풀은 여기 7개가 있고, 1개 체인에서 APY가 4.46%부터 49.89%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-slipstream | 12.14% | 17.91% | 인센티브 72.53% |
-| curve-dex | 47.51% | 34.43% | 인센티브 99.14% |
-| stake-dao | 49.89% | 36.15% | 인센티브 99.46% |
-| aerodrome-v1 | 4.46% | 4.62% | 인센티브 100.00% |
-| aerodrome-slipstream | 20.29% | 34.70% | 인센티브 79.46% |
-| aerodrome-v1 | 28.47% | 24.56% | 인센티브 100.00% |
-| aerodrome-v1 | 13.15% | 13.60% | 인센티브 100.00% |
+| aerodrome-slipstream | 12.07% | 17.90% | 인센티브 73.14% |
+| curve-dex | 47.68% | 34.50% | 인센티브 99.14% |
+| stake-dao | 49.91% | 36.22% | 인센티브 99.46% |
+| aerodrome-v1 | 4.48% | 4.62% | 인센티브 100.00% |
+| aerodrome-slipstream | 20.20% | 34.67% | 인센티브 80.02% |
+| aerodrome-v1 | 28.60% | 24.57% | 인센티브 100.00% |
+| aerodrome-v1 | 13.21% | 13.59% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,7 +40,7 @@ LCAP 풀은 여기 7개가 있고, 1개 체인에서 APY가 4.46%부터 49.89%�
 
 ### 오늘 LCAP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 stake-dao에서 APY 49.89%예요.
+DefiLlama 실시간 데이터 기준, Base의 stake-dao에서 APY 49.91%예요.
 
 ### LCAP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

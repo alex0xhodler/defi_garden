@@ -4,7 +4,7 @@ The highest honest TOKE yield right now is 0.09% on sushiswap (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=b6789fa8-1a6f-49e7-b5df-7d2c8fc04eac&src=seo_token) | Ethereum | 0.09% | $316.9K |
+| [sushiswap →](https://www.defi.garden/?pool=b6789fa8-1a6f-49e7-b5df-7d2c8fc04eac&src=seo_token) | Ethereum | 0.09% | $313K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TOKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $316.9K in total.
+1 live pool clear this page's $100K TVL floor, $313K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

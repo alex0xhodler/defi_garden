@@ -4,7 +4,7 @@ The highest honest BYTE yield right now is 0.18% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2e1b9a7b-642b-45dd-8504-cb4a496aace4&src=seo_token) | Ethereum | 0.18% | $335.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2e1b9a7b-642b-45dd-8504-cb4a496aace4&src=seo_token) | Ethereum | 0.18% | $335.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BYTE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $335.7K in total.
+1 live pool clear this page's $100K TVL floor, $335.8K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

@@ -4,8 +4,8 @@ The highest honest YNETHX yield right now is 5.02% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 5.02% | $955.7K |
-| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 5.02% | $616.4K |
+| [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 5.02% | $955.8K |
+| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 5.02% | $616.5K |
 | [stake-dao →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31&src=seo_token) | Ethereum | 4.66% | $200.7K |
 | [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 4.17% | $144.4K |
 
@@ -21,8 +21,8 @@ YNETHX shows up in 4 pools here, with rates from 4.17% to 5.02% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 5.02% | 5.46% | 0.04% incentives |
-| convex-finance | 5.02% | 6.85% | Base rate |
+| curve-dex | 5.02% | 5.45% | 0.04% incentives |
+| convex-finance | 5.02% | 6.83% | Base rate |
 | stake-dao | 4.66% | 5.78% | 0.10% incentives |
 | yearn-finance | 4.17% | 5.67% | Base rate |
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YNETHX pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $11.71M in total.
+6 live pools clear this page's $100K TVL floor, $11.7M in total.
 
 ### Are these rates safe?
 
@@ -49,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

@@ -4,8 +4,8 @@ The highest honest EARNAUSD yield right now is 10.29% on pendle (Monad), among 7
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.28% | $21.48M |
-| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.47% | $3.56M |
+| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.28% | $21.38M |
+| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.48% | $3.45M |
 | [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.75% | $2.74M |
 | [pendle →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.22% | $2.4M |
 | [pendle →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 10.29% | $2.4M |
@@ -26,10 +26,10 @@ EARNAUSD shows up in 7 pools here, with rates from 0.20% to 10.29% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| upshift | 5.28% | 6.68% | 10.42% incentives |
-| morpho-blue | 2.47% | 0.10% | 100.00% incentives |
+| upshift | 5.28% | 6.68% | 10.50% incentives |
+| morpho-blue | 2.48% | 0.11% | 100.00% incentives |
 | curvance | 0.75% | 0.80% | 100.00% incentives |
-| pendle | 9.22% | 8.88% | 5.67% incentives |
+| pendle | 9.22% | 8.87% | 5.67% incentives |
 | pendle | 10.29% | 9.35% | Base rate |
 | neverland | 1.33% | 1.36% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EARNAUSD pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $33.53M in total.
+7 live pools clear this page's $100K TVL floor, $33.32M in total.
 
 ### Are these rates safe?
 

@@ -23,8 +23,8 @@ STXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.25%부터 3.00%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sparkdex-v4 | 1.62% | 1.52% | 인센티브 99.42% |
-| spectra-v2 | 2.66% | 2.89% | 기본 금리 |
+| sparkdex-v4 | 1.62% | 1.52% | 인센티브 99.41% |
+| spectra-v2 | 2.66% | 2.90% | 기본 금리 |
 | spectra-v2 | 3.00% | 2.47% | 기본 금리 |
 | spectra-v2 | 0.25% | 0.27% | 기본 금리 |
 
@@ -47,8 +47,8 @@ DefiLlama 실시간 데이터 기준, Flare의 spectra-v2에서 APY 3.00%예요.
 ## 관련 토큰
 
 - [FXRP](https://www.defi.garden/ko/tokens/fxrp)
-- [SFLR](https://www.defi.garden/ko/tokens/sflr)
 - [COREUSDT0](https://www.defi.garden/ko/tokens/coreusdt0)
+- [SFLR](https://www.defi.garden/ko/tokens/sflr)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [USDX](https://www.defi.garden/ko/tokens/usdx)
 - [WFLR](https://www.defi.garden/ko/tokens/wflr)

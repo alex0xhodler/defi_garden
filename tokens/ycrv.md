@@ -1,20 +1,20 @@
 # YCRV DeFi Yields
 
-The highest honest YCRV yield right now is 16.05% on yearn-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YCRV yield right now is 16.03% on yearn-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 16.05% | $7.43M |
-| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.58% | $1.47M |
-| [yearn-finance →](https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token) | Ethereum | 14.02% | $1.21M |
-| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 14.82% | $1.05M |
-| [stake-dao →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 7.25% | $264.8K |
+| [yearn-finance →](https://www.defi.garden/?pool=320550a3-b7c4-4017-a5dd-f3ebed459470&src=seo_token) | Ethereum | 16.03% | $7.57M |
+| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.50% | $1.47M |
+| [yearn-finance →](https://www.defi.garden/?pool=ab10cba6-ae66-4a91-9544-499c375853f9&src=seo_token) | Ethereum | 14.04% | $1.24M |
+| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 14.76% | $1.05M |
+| [stake-dao →](https://www.defi.garden/?pool=419591a2-2cda-4c7a-889e-07cf2e53b4b6&src=seo_token) | Ethereum | 7.30% | $264.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YCRV shows up in 5 pools here, with rates from 7.25% to 16.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YCRV shows up in 5 pools here, with rates from 7.30% to 16.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 14.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -24,11 +24,11 @@ YCRV shows up in 5 pools here, with rates from 7.25% to 16.05% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 16.05% | 18.84% | Base rate |
-| curve-dex | 8.58% | 8.84% | 96.62% incentives |
-| yearn-finance | 14.02% | 14.62% | Base rate |
-| convex-finance | 14.82% | 15.21% | 98.04% incentives |
-| stake-dao | 7.25% | 14.30% | Base rate |
+| yearn-finance | 16.03% | 18.83% | Base rate |
+| curve-dex | 8.50% | 8.83% | 97.77% incentives |
+| yearn-finance | 14.04% | 14.62% | Base rate |
+| convex-finance | 14.76% | 15.21% | 98.71% incentives |
+| stake-dao | 7.30% | 14.30% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,11 +36,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YCRV yield today?
 
-16.05% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+16.03% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YCRV pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $11.43M in total.
+5 live pools clear this page's $100K TVL floor, $11.59M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

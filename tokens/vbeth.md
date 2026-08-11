@@ -18,7 +18,7 @@ VBETH shows up in 1 pools here, with rates from 3.05% to 3.05% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 3.05% | 2.08% | 31.28% incentives |
+| yearn-finance | 3.05% | 2.08% | 31.18% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VBETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $8.47M in total.
+3 live pools clear this page's $100K TVL floor, $8.48M in total.
 
 ### Are these rates safe?
 

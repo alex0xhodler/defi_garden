@@ -1,12 +1,12 @@
 # SRROYUSDC 디파이 수익률
 
-현재 SRROYUSDC의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 2.86%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SRROYUSDC의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 3.03%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [concrete →](https://www.defi.garden/?pool=7081d7c4-d0df-4c68-adce-2bb210cd25e8&src=seo_token) | Ethereum | 1.69% | $11.02M |
-| [curve-dex →](https://www.defi.garden/?pool=3f63a73f-836b-481d-9ce5-3455ea5c4a12&src=seo_token) | Ethereum | 2.86% | $873.4K |
-| [stake-dao →](https://www.defi.garden/?pool=23605340-3ba7-4a42-a55e-47cf09ec1d78&src=seo_token) | Ethereum | 8.31% | $873.3K |
+| [stake-dao →](https://www.defi.garden/?pool=23605340-3ba7-4a42-a55e-47cf09ec1d78&src=seo_token) | Ethereum | 8.31% | $873.4K |
+| [curve-dex →](https://www.defi.garden/?pool=3f63a73f-836b-481d-9ce5-3455ea5c4a12&src=seo_token) | Ethereum | 3.03% | $873.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -21,8 +21,8 @@ SRROYUSDC 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.69%부터 8.3
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | concrete | 1.69% | 5.49% | 기본 금리 |
-| curve-dex | 2.86% | 4.69% | 인센티브 69.21% |
-| stake-dao | 8.31% | 4.45% | 인센티브 26.99% |
+| stake-dao | 8.31% | 4.46% | 인센티브 27.00% |
+| curve-dex | 3.03% | 4.69% | 인센티브 65.63% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -30,7 +30,7 @@ SRROYUSDC 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.69%부터 8.3
 
 ### 오늘 SRROYUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 2.86%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 3.03%예요.
 
 ### SRROYUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 2.86%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

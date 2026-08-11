@@ -32,7 +32,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 6.41%예요.
 
 ### WOUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $498.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $498.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 6.41%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

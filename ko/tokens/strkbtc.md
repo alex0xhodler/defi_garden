@@ -1,23 +1,23 @@
 # STRKBTC 디파이 수익률
 
-현재 STRKBTC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 34.58%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STRKBTC의 가장 높은 정직한 수익률은 Starknet의 ekubo에서 31.21%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 10.82% | $3.14M |
-| [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token) | Starknet | 34.58% | $1.77M |
-| [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 14.32% | $1.37M |
-| [ekubo →](https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token) | Starknet | 18.83% | $832.3K |
-| [ekubo →](https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token) | Starknet | 8.75% | $598.9K |
-| [endur →](https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token) | Starknet | 1.96% | $422.6K |
-| [troves →](https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token) | Starknet | 3.89% | $413.1K |
-| [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 2.81% | $370.9K |
+| [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 10.79% | $3.14M |
+| [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token) | Starknet | 31.21% | $1.77M |
+| [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 14.29% | $1.37M |
+| [ekubo →](https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token) | Starknet | 16.97% | $833K |
+| [ekubo →](https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token) | Starknet | 8.74% | $599.3K |
+| [endur →](https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token) | Starknet | 1.96% | $422.5K |
+| [troves →](https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token) | Starknet | 3.89% | $413.3K |
+| [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 2.81% | $371.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-STRKBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.96%부터 34.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+STRKBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.96%부터 31.21%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.73%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,11 +27,11 @@ STRKBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.96%부터 34.58
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| ekubo | 10.82% | 10.21% | 인센티브 96.17% |
-| ekubo | 34.58% | 28.37% | 기본 금리 |
-| ekubo | 14.32% | 13.76% | 인센티브 100.00% |
-| ekubo | 18.83% | 25.09% | 기본 금리 |
-| ekubo | 8.75% | 7.26% | 인센티브 89.53% |
+| ekubo | 10.79% | 10.21% | 인센티브 96.28% |
+| ekubo | 31.21% | 28.40% | 기본 금리 |
+| ekubo | 14.29% | 13.76% | 인센티브 100.00% |
+| ekubo | 16.97% | 25.08% | 기본 금리 |
+| ekubo | 8.74% | 7.25% | 인센티브 89.50% |
 | endur | 1.96% | 2.04% | 기본 금리 |
 | troves | 3.89% | 5.95% | 기본 금리 |
 | troves | 2.81% | 4.23% | 기본 금리 |
@@ -42,7 +42,7 @@ STRKBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 1.96%부터 34.58
 
 ### 오늘 STRKBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 34.58%예요.
+DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 31.21%예요.
 
 ### STRKBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

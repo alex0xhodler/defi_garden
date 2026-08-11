@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 0.16%
 
 ### EURS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $158.36M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $304.06M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 0.16%
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

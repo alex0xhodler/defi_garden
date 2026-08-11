@@ -23,8 +23,8 @@ STXRP shows up in 4 pools here, with rates from 0.25% to 3.00% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sparkdex-v4 | 1.62% | 1.52% | 99.42% incentives |
-| spectra-v2 | 2.66% | 2.89% | Base rate |
+| sparkdex-v4 | 1.62% | 1.52% | 99.41% incentives |
+| spectra-v2 | 2.66% | 2.90% | Base rate |
 | spectra-v2 | 3.00% | 2.47% | Base rate |
 | spectra-v2 | 0.25% | 0.27% | Base rate |
 
@@ -47,8 +47,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
-- [SFLR](https://www.defi.garden/tokens/sflr)
 - [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
+- [SFLR](https://www.defi.garden/tokens/sflr)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [USDX](https://www.defi.garden/tokens/usdx)
 - [WFLR](https://www.defi.garden/tokens/wflr)

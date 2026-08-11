@@ -11,7 +11,7 @@ The highest honest SYRUPUSDC yield right now is 1.62% on fluid-dex (Ethereum), a
 | [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.21% | $2.53M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=ba65f664-1757-4e50-9680-f8353a68958f&src=seo_token) | Solana | 0.25% | $2.52M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token) | Arbitrum | 0.73% | $1.01M |
-| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 1.62% | $463.4K |
+| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 1.62% | $463.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -26,8 +26,8 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 0.96% | 0.95% | Base rate |
-| orca-dex | 2.15% | 0.87% | Base rate |
-| kamino-liquidity | 1.74% | 0.73% | Base rate |
+| orca-dex | 2.15% | 0.88% | Base rate |
+| kamino-liquidity | 1.74% | 0.74% | Base rate |
 | uniswap-v4 | 0.55% | 0.71% | Base rate |
 | orca-dex | 0.21% | 0.09% | Base rate |
 | kamino-liquidity | 0.25% | 0.07% | Base rate |
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SYRUPUSDC pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $455.56M in total.
+19 live pools clear this page's $100K TVL floor, $455.54M in total.
 
 ### Are these rates safe?
 
@@ -57,7 +57,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

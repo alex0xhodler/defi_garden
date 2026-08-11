@@ -1,23 +1,23 @@
 # FRXETH 디파이 수익률
 
-현재 FRXETH의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 11.84%이며, $100K TVL 기준을 넘는 20개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FRXETH의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 12.61%이며, $100K TVL 기준을 넘는 20개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.85% | $13.22M |
-| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.45% | $13.22M |
-| [curve-dex →](https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token) | Ethereum | 0.75% | $7.64M |
-| [convex-finance →](https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token) | Ethereum | 1.17% | $5.75M |
+| [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.85% | $13.18M |
+| [convex-finance →](https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token) | Ethereum | 2.46% | $13.18M |
+| [curve-dex →](https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token) | Ethereum | 0.76% | $7.61M |
+| [convex-finance →](https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token) | Ethereum | 1.18% | $5.73M |
 | [curve-dex →](https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token) | Ethereum | 1.44% | $5.28M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token) | Ethereum | 0.76% | $2.42M |
-| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.49% | $1.98M |
-| [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token) | Ethereum | 11.84% | $1.47M |
+| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.50% | $1.98M |
+| [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token) | Ethereum | 12.61% | $1.47M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-FRXETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.75%부터 11.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+FRXETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.76%부터 12.61%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.77%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,14 +27,14 @@ FRXETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.75%부터 11.84%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 1.85% | 1.63% | 인센티브 52.32% |
-| convex-finance | 2.45% | 1.92% | 인센티브 64.09% |
-| curve-dex | 0.75% | 0.64% | 인센티브 94.64% |
-| convex-finance | 1.17% | 0.86% | 인센티브 96.57% |
+| curve-dex | 1.85% | 1.63% | 인센티브 52.48% |
+| convex-finance | 2.46% | 1.92% | 인센티브 64.24% |
+| curve-dex | 0.76% | 0.64% | 인센티브 93.43% |
+| convex-finance | 1.18% | 0.86% | 인센티브 95.78% |
 | curve-dex | 1.44% | 1.92% | 인센티브 100.00% |
 | uniswap-v3 | 0.76% | 0.79% | 기본 금리 |
-| curve-dex | 3.49% | 3.33% | 인센티브 55.90% |
-| curve-dex | 11.84% | 8.44% | 인센티브 66.21% |
+| curve-dex | 3.50% | 3.33% | 인센티브 56.00% |
+| curve-dex | 12.61% | 8.45% | 인센티브 62.65% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ FRXETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.75%부터 11.84%
 
 ### 오늘 FRXETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 11.84%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 12.61%예요.
 
 ### FRXETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $57.66M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 20개이며, 합산 TVL은 $57.51M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 11.84%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

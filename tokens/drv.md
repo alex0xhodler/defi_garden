@@ -1,22 +1,22 @@
 # DRV DeFi Yields
 
-The highest honest DRV yield right now is 115.79% on nest-cl (Hyperliquid L1), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DRV yield right now is 132.07% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 8.07% | $428.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 95.20% | $425.8K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 21.84% | $261.4K |
-| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 120.66% | $187.7K |
-| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 115.79% | $168.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 132.07% | $417.5K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 21.93% | $261.6K |
+| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 115.71% | $187.4K |
+| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 127.03% | $159.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DRV shows up in 5 pools here, with rates from 8.07% to 120.66% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DRV shows up in 5 pools here, with rates from 8.07% to 132.07% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 192.94% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 192.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -24,11 +24,11 @@ DRV shows up in 5 pools here, with rates from 8.07% to 120.66% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 8.07% | 211.04% | Base rate |
-| aerodrome-slipstream | 95.20% | 249.53% | 74.18% incentives |
-| aerodrome-v1 | 21.84% | 44.54% | 100.00% incentives |
-| nest-cl | 120.66% | 77.11% | 100.00% incentives |
-| nest-cl | 115.79% | 192.94% | 100.00% incentives |
+| uniswap-v4 | 8.07% | 211.51% | Base rate |
+| aerodrome-slipstream | 132.07% | 248.75% | 77.81% incentives |
+| aerodrome-v1 | 21.93% | 44.53% | 100.00% incentives |
+| nest-cl | 115.71% | 77.17% | 100.00% incentives |
+| nest-cl | 127.03% | 192.83% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,11 +36,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DRV yield today?
 
-115.79% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+132.07% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many DRV pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.47M in total.
+5 live pools clear this page's $100K TVL floor, $1.45M in total.
 
 ### Are these rates safe?
 

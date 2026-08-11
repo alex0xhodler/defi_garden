@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 6.86% | $58.41M |
+| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.23% | $58.4M |
 | [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 3.90% | $4.6M |
 | [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.60% | $4.6M |
 
@@ -12,7 +12,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SRUSDE 풀은 여기 3개가 있고, 1개 체인에서 APY가 3.60%부터 6.86%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SRUSDE 풀은 여기 3개가 있고, 1개 체인에서 APY가 3.23%부터 3.90%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.89%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -20,7 +20,7 @@ SRUSDE 풀은 여기 3개가 있고, 1개 체인에서 APY가 3.60%부터 6.86%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| strata-markets | 6.86% | 3.26% | 기본 금리 |
+| strata-markets | 3.23% | 3.26% | 기본 금리 |
 | pendle | 3.90% | 3.89% | 기본 금리 |
 | pendle | 3.60% | 3.97% | 인센티브 7.01% |
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 3.90%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

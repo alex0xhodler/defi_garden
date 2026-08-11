@@ -4,10 +4,10 @@ The highest honest SUSDS yield right now is 5.50% on convex-finance (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.43B |
-| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.61M |
+| [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.73B |
+| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.59M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.47% | $10.71M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.81% | $5.9M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.82% | $5.9M |
 | [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.50% | $5.57M |
 | [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d&src=seo_token) | OP Mainnet | 3.52% | $5.11M |
 | [pendle →](https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec&src=seo_token) | Ethereum | 4.86% | $4.46M |
@@ -30,8 +30,8 @@ SUSDS shows up in 8 pools here, with rates from 0.47% to 5.50% APY across 3 chai
 | sky-lending | 3.52% | 3.55% | Base rate |
 | sky-lending | 3.52% | 3.55% | Base rate |
 | uniswap-v3 | 0.47% | 1.27% | Base rate |
-| curve-dex | 3.81% | 3.02% | 78.77% incentives |
-| convex-finance | 5.50% | 4.25% | 85.26% incentives |
+| curve-dex | 3.82% | 3.02% | 79.04% incentives |
+| convex-finance | 5.50% | 4.26% | 85.46% incentives |
 | sky-lending | 3.52% | 3.54% | Base rate |
 | pendle | 4.86% | 5.27% | 17.45% incentives |
 | pendle | 5.15% | 5.27% | Base rate |
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDS pools clear the TVL floor?
 
-29 live pools clear this page's $100K TVL floor, $4.97B in total.
+29 live pools clear this page's $100K TVL floor, $5.27B in total.
 
 ### Are these rates safe?
 

@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 5.02% | $955.7K |
-| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 5.02% | $616.4K |
+| [curve-dex →](https://www.defi.garden/?pool=08d9e568-98b5-4957-bad6-e69ed4cf0d76&src=seo_token) | Ethereum | 5.02% | $955.8K |
+| [convex-finance →](https://www.defi.garden/?pool=1329e9b3-986c-4485-9bed-9b744e8a05ef&src=seo_token) | Ethereum | 5.02% | $616.5K |
 | [stake-dao →](https://www.defi.garden/?pool=f44855a6-8872-4f2c-946b-1ca35b1cac31&src=seo_token) | Ethereum | 4.66% | $200.7K |
 | [yearn-finance →](https://www.defi.garden/?pool=5c6d0783-3419-401e-bec6-6ebd13576bc5&src=seo_token) | Ethereum | 4.17% | $144.4K |
 
@@ -21,8 +21,8 @@ YNETHX 풀은 여기 4개가 있고, 1개 체인에서 APY가 4.17%부터 5.02%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 5.02% | 5.46% | 인센티브 0.04% |
-| convex-finance | 5.02% | 6.85% | 기본 금리 |
+| curve-dex | 5.02% | 5.45% | 인센티브 0.04% |
+| convex-finance | 5.02% | 6.83% | 기본 금리 |
 | stake-dao | 4.66% | 5.78% | 인센티브 0.10% |
 | yearn-finance | 4.17% | 5.67% | 기본 금리 |
 
@@ -36,7 +36,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 5.02%예�
 
 ### YNETHX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $11.71M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $11.7M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 5.02%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

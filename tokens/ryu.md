@@ -4,7 +4,7 @@ The highest honest RYU yield right now is 3.95% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b7b7b595-acf2-4bee-92aa-3a3b5acaa40d&src=seo_token) | Ethereum | 3.95% | $253.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b7b7b595-acf2-4bee-92aa-3a3b5acaa40d&src=seo_token) | Ethereum | 3.95% | $253.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RYU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $253.2K in total.
+1 live pool clear this page's $100K TVL floor, $253.4K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

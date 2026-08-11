@@ -4,18 +4,18 @@ The highest honest NEIRO yield right now is 0.02% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 15.17% | $2.77M |
-| [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 2.34% | $212.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token) | Ethereum | 13.59% | $2.78M |
+| [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 2.26% | $211.4K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 0.02% | $114.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token) | Ethereum | 24.49% | $106K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ed26bb34-7d4e-4595-8d10-52855e01b7a4&src=seo_token) | Ethereum | 20.09% | $106.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NEIRO shows up in 4 pools here, with rates from 0.02% to 24.49% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+NEIRO shows up in 4 pools here, with rates from 0.02% to 20.09% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.29% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 2.31% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,10 +23,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 15.17% | 4.76% | Base rate |
-| raydium-amm | 2.34% | 1.24% | Base rate |
-| uniswap-v2 | 0.02% | 0.50% | Base rate |
-| uniswap-v3 | 24.49% | 3.33% | Base rate |
+| uniswap-v2 | 13.59% | 4.78% | Base rate |
+| raydium-amm | 2.26% | 1.24% | Base rate |
+| uniswap-v2 | 0.02% | 0.49% | Base rate |
+| uniswap-v3 | 20.09% | 3.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -51,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

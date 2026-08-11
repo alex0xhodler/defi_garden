@@ -4,7 +4,7 @@ The highest honest SUPEROETHB yield right now is 6.54% on stake-dao (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [origin-ether →](https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token) | Base | 2.85% | $17.29M |
+| [origin-ether →](https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token) | Base | 2.85% | $17.31M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token) | Base | 0.48% | $3.95M |
 | [stake-dao →](https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token) | Base | 6.54% | $2.43M |
 
@@ -21,7 +21,7 @@ SUPEROETHB shows up in 3 pools here, with rates from 0.48% to 6.54% APY across 1
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | origin-ether | 2.85% | 2.62% | Base rate |
-| aerodrome-slipstream | 0.48% | 1.17% | 99.71% incentives |
+| aerodrome-slipstream | 0.48% | 1.17% | 99.72% incentives |
 | stake-dao | 6.54% | 6.59% | 99.08% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUPEROETHB pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $24.37M in total.
+4 live pools clear this page's $100K TVL floor, $24.39M in total.
 
 ### Are these rates safe?
 

@@ -4,12 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token) | Ethereum | 0.03% | $72.92M |
+| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token) | Ethereum | 0.03% | $73.23M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c&src=seo_token) | Ethereum | 7.59% | $21.45M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9&src=seo_token) | Ethereum | 15.23% | $20.89M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9&src=seo_token) | Ethereum | 16.24% | $20.95M |
 | [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b&src=seo_token) | Ethereum | 0.05% | $5.02M |
-| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 17.05% | $3.95M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93&src=seo_token) | Arbitrum | 0.85% | $2.72M |
+| [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 17.00% | $3.95M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93&src=seo_token) | Arbitrum | 0.84% | $2.72M |
 | [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e&src=seo_token) | Polygon | 0.03% | $1.36M |
 | [venus-core-pool →](https://www.defi.garden/?pool=6ef41a41-9394-4782-bf53-7648f50a4a93&src=seo_token) | BSC | 0.04% | $1.25M |
 
@@ -17,9 +17,9 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LINK 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.03%부터 17.05%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LINK 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.03%부터 17.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.04%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.05%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -29,10 +29,10 @@ LINK 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.03%부터 17.05%�
 |---|---|---|---|
 | aave-v3 | 0.03% | 0.03% | 기본 금리 |
 | uniswap-v4 | 7.59% | 11.08% | 기본 금리 |
-| uniswap-v3 | 15.23% | 8.01% | 기본 금리 |
+| uniswap-v3 | 16.24% | 8.03% | 기본 금리 |
 | bancor-v3 | 0.05% | 0.03% | 기본 금리 |
-| curve-dex | 17.05% | 2.03% | 기본 금리 |
-| gmx-v2-perps | 0.85% | 3.70% | 기본 금리 |
+| curve-dex | 17.00% | 2.06% | 기본 금리 |
+| gmx-v2-perps | 0.84% | 3.69% | 기본 금리 |
 | aave-v3 | 0.03% | 0.02% | 기본 금리 |
 | venus-core-pool | 0.04% | 0.04% | 기본 금리 |
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 7.59%예�
 
 ### LINK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 43개이며, 합산 TVL은 $153.69M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 43개이며, 합산 TVL은 $154.08M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 7.59%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

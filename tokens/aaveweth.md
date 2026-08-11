@@ -4,15 +4,15 @@ The highest honest AAVEWETH yield right now is 5.54% on balancer-v3 (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.46% | $270.1K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.54% | $264K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 16.14% | $259.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.46% | $270.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.54% | $264.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 16.12% | $259.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AAVEWETH shows up in 3 pools here, with rates from 4.46% to 16.14% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+AAVEWETH shows up in 3 pools here, with rates from 4.46% to 16.12% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -20,9 +20,9 @@ AAVEWETH shows up in 3 pools here, with rates from 4.46% to 16.14% APY across 3 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 4.46% | 4.70% | 63.36% incentives |
-| balancer-v3 | 5.54% | 6.28% | 69.06% incentives |
-| balancer-v3 | 16.14% | 6.49% | 24.24% incentives |
+| balancer-v3 | 4.46% | 4.70% | 63.40% incentives |
+| balancer-v3 | 5.54% | 6.28% | 69.10% incentives |
+| balancer-v3 | 16.12% | 6.50% | 24.22% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AAVEWETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $793.6K in total.
+3 live pools clear this page's $100K TVL floor, $794.3K in total.
 
 ### Are these rates safe?
 
@@ -44,8 +44,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 

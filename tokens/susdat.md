@@ -4,7 +4,7 @@ The highest honest SUSDAT yield right now is 142.12% on pendle (Monad), among 16
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 19.94% | $80.64M |
+| [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 19.93% | $80.62M |
 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 11.21% | $2.63M |
 | [pendle →](https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token) | Ethereum | 3.48% | $2.63M |
 | [pendle →](https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token) | BSC | 7.19% | $2.44M |
@@ -18,17 +18,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SUSDAT shows up in 7 pools here, with rates from 3.48% to 142.12% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 13.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 13.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saturn | 19.94% | 26.27% | Base rate |
+| saturn | 19.93% | 26.26% | Base rate |
 | pendle | 11.21% | 11.28% | Base rate |
-| pendle | 3.48% | 3.16% | 13.62% incentives |
+| pendle | 3.48% | 3.15% | 13.62% incentives |
 | pendle | 7.19% | 8.36% | Base rate |
-| pendle | 13.60% | 13.96% | Base rate |
+| pendle | 13.60% | 13.95% | Base rate |
 | pendle | 142.12% | 226.34% | 2.23% incentives |
 | pendle | 27.65% | 25.48% | Base rate |
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDAT pools clear the TVL floor?
 
-16 live pools clear this page's $100K TVL floor, $115.35M in total.
+16 live pools clear this page's $100K TVL floor, $115.3M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

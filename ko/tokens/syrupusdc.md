@@ -11,7 +11,7 @@
 | [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.21% | $2.53M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=ba65f664-1757-4e50-9680-f8353a68958f&src=seo_token) | Solana | 0.25% | $2.52M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=be1d7863-b6a4-4ca9-a615-c338e208c15e&src=seo_token) | Arbitrum | 0.73% | $1.01M |
-| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 1.62% | $463.4K |
+| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 1.62% | $463.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -26,8 +26,8 @@ SYRUPUSDC 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.21%부터 2.1
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v4 | 0.96% | 0.95% | 기본 금리 |
-| orca-dex | 2.15% | 0.87% | 기본 금리 |
-| kamino-liquidity | 1.74% | 0.73% | 기본 금리 |
+| orca-dex | 2.15% | 0.88% | 기본 금리 |
+| kamino-liquidity | 1.74% | 0.74% | 기본 금리 |
 | uniswap-v4 | 0.55% | 0.71% | 기본 금리 |
 | orca-dex | 0.21% | 0.09% | 기본 금리 |
 | kamino-liquidity | 0.25% | 0.07% | 기본 금리 |
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 fluid-dex에서 APY 1.62%예�
 
 ### SYRUPUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $455.56M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $455.54M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 fluid-dex에서 APY 1.62%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

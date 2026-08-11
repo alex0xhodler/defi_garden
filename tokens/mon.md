@@ -4,18 +4,18 @@ The highest honest MON yield right now is 0.02% on uniswap-v4 (Monad), among 4 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token) | Monad | 30.24% | $2.1M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token) | Monad | 16.68% | $1.51M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token) | Monad | 21.46% | $1.45M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token) | Monad | 30.23% | $2.1M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token) | Monad | 16.66% | $1.51M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token) | Monad | 21.44% | $1.45M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&src=seo_token) | Monad | 0.02% | $1.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MON shows up in 4 pools here, with rates from 0.02% to 30.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MON shows up in 4 pools here, with rates from 0.02% to 30.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.60% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,9 +23,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 30.24% | 9.48% | Base rate |
-| uniswap-v4 | 16.68% | 6.95% | Base rate |
-| uniswap-v4 | 21.46% | 8.24% | Base rate |
+| uniswap-v4 | 30.23% | 9.51% | Base rate |
+| uniswap-v4 | 16.66% | 6.97% | Base rate |
+| uniswap-v4 | 21.44% | 8.26% | Base rate |
 | uniswap-v4 | 0.02% | 0.23% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

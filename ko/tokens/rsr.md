@@ -1,18 +1,18 @@
 # RSR 디파이 수익률
 
-현재 RSR의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 2.92%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RSR의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 2.88%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 2.92% | $2.18M |
-| [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 6.20% | $136.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 10.95% | $120K |
+| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 2.88% | $2.18M |
+| [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 6.20% | $136.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 10.77% | $120K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-RSR 풀은 여기 3개가 있고, 1개 체인에서 APY가 2.92%부터 10.95%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+RSR 풀은 여기 3개가 있고, 1개 체인에서 APY가 2.88%부터 10.77%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 22.76%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -22,9 +22,9 @@ RSR 풀은 여기 3개가 있고, 1개 체인에서 APY가 2.92%부터 10.95%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 2.92% | 3.29% | 기본 금리 |
-| steer-protocol | 6.20% | 26.78% | 기본 금리 |
-| uniswap-v3 | 10.95% | 22.76% | 기본 금리 |
+| curve-dex | 2.88% | 3.29% | 기본 금리 |
+| steer-protocol | 6.20% | 26.73% | 기본 금리 |
+| uniswap-v3 | 10.77% | 22.76% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -32,7 +32,7 @@ RSR 풀은 여기 3개가 있고, 1개 체인에서 APY가 2.92%부터 10.95%까
 
 ### 오늘 RSR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 2.92%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 2.88%예요.
 
 ### RSR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 2.92%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

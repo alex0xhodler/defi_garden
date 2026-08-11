@@ -4,7 +4,7 @@ The highest honest WSPYX yield right now is 0.15% on fluxion-network (Mantle), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=247c4969-6eb4-4abd-b073-7c83d0920e82&src=seo_token) | Ethereum | 0.03% | $322.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=247c4969-6eb4-4abd-b073-7c83d0920e82&src=seo_token) | Ethereum | 0.03% | $322.9K |
 | [fluxion-network →](https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03&src=seo_token) | Mantle | 0.15% | $108.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSPYX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $973.4K in total.
+3 live pools clear this page's $100K TVL floor, $973.8K in total.
 
 ### Are these rates safe?
 
@@ -47,7 +47,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

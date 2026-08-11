@@ -4,7 +4,7 @@ The highest honest QANX yield right now is 1.95% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ff83b42d-1ded-4c85-974c-4155155fd8dd&src=seo_token) | Ethereum | 1.95% | $292K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ff83b42d-1ded-4c85-974c-4155155fd8dd&src=seo_token) | Ethereum | 1.95% | $292.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many QANX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $292K in total.
+1 live pool clear this page's $100K TVL floor, $292.1K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

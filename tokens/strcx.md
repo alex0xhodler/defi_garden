@@ -4,17 +4,17 @@ The highest honest STRCX yield right now is 25.22% on pendle (Ethereum), among 4
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=c886ec66-199e-48d8-ac13-4e39bae18e8f&src=seo_token) | Ethereum | 25.22% | $1.15M |
 | [pendle →](https://www.defi.garden/?pool=ebef0664-2c98-47c3-9470-6ae5998c167a&src=seo_token) | Ethereum | 24.45% | $1.15M |
-| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 10.29% | $574.5K |
+| [pendle →](https://www.defi.garden/?pool=c886ec66-199e-48d8-ac13-4e39bae18e8f&src=seo_token) | Ethereum | 25.22% | $1.15M |
+| [raydium-amm →](https://www.defi.garden/?pool=c55a300c-3ca8-4b8a-bdaf-ab0d7bb966f3&src=seo_token) | Solana | 9.93% | $574.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STRCX shows up in 3 pools here, with rates from 10.29% to 25.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRCX shows up in 3 pools here, with rates from 9.93% to 25.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -22,9 +22,9 @@ STRCX shows up in 3 pools here, with rates from 10.29% to 25.22% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| pendle | 24.45% | 21.06% | Base rate |
 | pendle | 25.22% | 27.72% | 6.48% incentives |
-| pendle | 24.45% | 21.07% | Base rate |
-| raydium-amm | 10.29% | 1.53% | Base rate |
+| raydium-amm | 9.93% | 1.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,7 +49,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

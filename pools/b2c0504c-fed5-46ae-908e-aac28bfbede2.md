@@ -1,8 +1,8 @@
 # SAVETH — avant-aveth on Ethereum
 
-**Total APY:** 4.51% (4.51% Base · + 0.00% Rewards)
+**Total APY:** 4.52% (4.52% Base · + 0.00% Rewards)
 
-**TVL:** $19.64M
+**TVL:** $19.66M
 
 **Pool Type:** Yield Farming
 

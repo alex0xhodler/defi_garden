@@ -1,23 +1,23 @@
 # STRKBTC DeFi Yields
 
-The highest honest STRKBTC yield right now is 34.58% on ekubo (Starknet), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STRKBTC yield right now is 31.21% on ekubo (Starknet), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 10.82% | $3.14M |
-| [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token) | Starknet | 34.58% | $1.77M |
-| [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 14.32% | $1.37M |
-| [ekubo →](https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token) | Starknet | 18.83% | $832.3K |
-| [ekubo →](https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token) | Starknet | 8.75% | $598.9K |
-| [endur →](https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token) | Starknet | 1.96% | $422.6K |
-| [troves →](https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token) | Starknet | 3.89% | $413.1K |
-| [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 2.81% | $370.9K |
+| [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 10.79% | $3.14M |
+| [ekubo →](https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token) | Starknet | 31.21% | $1.77M |
+| [ekubo →](https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token) | Starknet | 14.29% | $1.37M |
+| [ekubo →](https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token) | Starknet | 16.97% | $833K |
+| [ekubo →](https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token) | Starknet | 8.74% | $599.3K |
+| [endur →](https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token) | Starknet | 1.96% | $422.5K |
+| [troves →](https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token) | Starknet | 3.89% | $413.3K |
+| [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 2.81% | $371.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STRKBTC shows up in 8 pools here, with rates from 1.96% to 34.58% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRKBTC shows up in 8 pools here, with rates from 1.96% to 31.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 8.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,11 +27,11 @@ STRKBTC shows up in 8 pools here, with rates from 1.96% to 34.58% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ekubo | 10.82% | 10.21% | 96.17% incentives |
-| ekubo | 34.58% | 28.37% | Base rate |
-| ekubo | 14.32% | 13.76% | 100.00% incentives |
-| ekubo | 18.83% | 25.09% | Base rate |
-| ekubo | 8.75% | 7.26% | 89.53% incentives |
+| ekubo | 10.79% | 10.21% | 96.28% incentives |
+| ekubo | 31.21% | 28.40% | Base rate |
+| ekubo | 14.29% | 13.76% | 100.00% incentives |
+| ekubo | 16.97% | 25.08% | Base rate |
+| ekubo | 8.74% | 7.25% | 89.50% incentives |
 | endur | 1.96% | 2.04% | Base rate |
 | troves | 3.89% | 5.95% | Base rate |
 | troves | 2.81% | 4.23% | Base rate |
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STRKBTC yield today?
 
-34.58% APY on ekubo (Starknet), based on live DefiLlama data.
+31.21% APY on ekubo (Starknet), based on live DefiLlama data.
 
 ### How many STRKBTC pools clear the TVL floor?
 

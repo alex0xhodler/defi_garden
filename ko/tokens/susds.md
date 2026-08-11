@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.43B |
-| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.61M |
+| [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.73B |
+| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.59M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.47% | $10.71M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.81% | $5.9M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.82% | $5.9M |
 | [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.50% | $5.57M |
 | [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d&src=seo_token) | OP Mainnet | 3.52% | $5.11M |
 | [pendle →](https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec&src=seo_token) | Ethereum | 4.86% | $4.46M |
@@ -30,8 +30,8 @@ SUSDS 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.47%부터 5.50%�
 | sky-lending | 3.52% | 3.55% | 기본 금리 |
 | sky-lending | 3.52% | 3.55% | 기본 금리 |
 | uniswap-v3 | 0.47% | 1.27% | 기본 금리 |
-| curve-dex | 3.81% | 3.02% | 인센티브 78.77% |
-| convex-finance | 5.50% | 4.25% | 인센티브 85.26% |
+| curve-dex | 3.82% | 3.02% | 인센티브 79.04% |
+| convex-finance | 5.50% | 4.26% | 인센티브 85.46% |
 | sky-lending | 3.52% | 3.54% | 기본 금리 |
 | pendle | 4.86% | 5.27% | 인센티브 17.45% |
 | pendle | 5.15% | 5.27% | 기본 금리 |
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 5.50%
 
 ### SUSDS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $4.97B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 29개이며, 합산 TVL은 $5.27B예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,14 +4,14 @@ The highest honest WELL yield right now is 0.32% on moonwell-lending (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 10.68% | $1.24M |
-| [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.32% | $473.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 10.74% | $1.24M |
+| [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.32% | $476.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WELL shows up in 2 pools here, with rates from 0.32% to 10.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WELL shows up in 2 pools here, with rates from 0.32% to 10.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,8 +21,8 @@ WELL shows up in 2 pools here, with rates from 0.32% to 10.68% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 10.68% | 6.16% | 100.00% incentives |
-| moonwell-lending | 0.32% | 0.38% | 47.15% incentives |
+| aerodrome-v1 | 10.74% | 6.17% | 100.00% incentives |
+| moonwell-lending | 0.32% | 0.38% | 46.95% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -1,21 +1,21 @@
 # OHM 디파이 수익률
 
-현재 OHM의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 1.09%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 OHM의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 1.08%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.47% | $10.71M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 1.09% | $4.11M |
-| [camelot-v2 →](https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token) | Arbitrum | 0.01% | $231.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 1.08% | $4.11M |
+| [camelot-v2 →](https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token) | Arbitrum | 0.01% | $231.5K |
 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.04% | $169.6K |
-| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.29% | $159.5K |
+| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.28% | $159.5K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 0.25% | $102.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-OHM 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.01%부터 1.09%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+OHM 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.01%부터 1.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.49%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -26,10 +26,10 @@ OHM 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.01%부터 1.09%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v3 | 0.47% | 1.27% | 기본 금리 |
-| uniswap-v3 | 1.09% | 1.57% | 기본 금리 |
+| uniswap-v3 | 1.08% | 1.57% | 기본 금리 |
 | camelot-v2 | 0.01% | 0.12% | 기본 금리 |
 | curve-dex | 0.04% | 0.25% | 인센티브 100.00% |
-| convex-finance | 0.29% | 0.29% | 인센티브 25.09% |
+| convex-finance | 0.28% | 0.29% | 인센티브 26.05% |
 | uniswap-v3 | 0.25% | 0.70% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -38,11 +38,11 @@ OHM 풀은 여기 6개가 있고, 2개 체인에서 APY가 0.01%부터 1.09%까�
 
 ### 오늘 OHM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 1.09%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 1.08%예요.
 
 ### OHM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $16.79M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $16.8M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 1.09%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

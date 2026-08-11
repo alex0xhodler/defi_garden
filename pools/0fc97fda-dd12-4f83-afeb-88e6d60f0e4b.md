@@ -1,6 +1,6 @@
 # RAY-WSOL — raydium-amm on Solana
 
-**Total APY:** 1.09% (1.09% Base · + 0.00% Rewards)
+**Total APY:** 1.10% (1.10% Base · + 0.00% Rewards)
 
 **TVL:** $2.44M
 

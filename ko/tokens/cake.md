@@ -5,12 +5,12 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [venus-core-pool →](https://www.defi.garden/?pool=88472ba3-f1e9-4da6-89da-eb12cf07e151&src=seo_token) | BSC | 0.01% | $19.28M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.00% | $7.5M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.21% | $3.64M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.05% | $7.5M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b3556e05-a1dd-45f1-ad80-b00284b9ce5a&src=seo_token) | BSC | 0.20% | $3.64M |
 | [aave-v3 →](https://www.defi.garden/?pool=80380208-63a5-46f7-9bb9-caa60fc73a8f&src=seo_token) | BSC | 0.01% | $651.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 1.89% | $373K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 0.86% | $312K |
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token) | Ethereum | 5.82% | $142.8K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=e97ac1e0-6f31-446e-96a7-93893c13743a&src=seo_token) | BSC | 1.85% | $372.7K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 0.82% | $311.9K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=96f98206-cf4b-427a-977a-95f20794ca72&src=seo_token) | Ethereum | 5.86% | $142.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=636b6dab-68e3-4e4b-8e85-b4c225ae5f24&src=seo_token) | BSC | 6.42% | $124.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -28,12 +28,12 @@ CAKE 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 6.42%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | venus-core-pool | 0.01% | 0.01% | 기본 금리 |
-| pancakeswap-amm | 1.00% | 1.28% | 기본 금리 |
-| uniswap-v3 | 0.21% | 0.27% | 기본 금리 |
+| pancakeswap-amm | 1.05% | 1.28% | 기본 금리 |
+| uniswap-v3 | 0.20% | 0.27% | 기본 금리 |
 | aave-v3 | 0.01% | 0.01% | 기본 금리 |
-| pancakeswap-amm | 1.89% | 3.60% | 기본 금리 |
-| pancakeswap-amm | 0.86% | 1.22% | 기본 금리 |
-| pancakeswap-amm-v3 | 5.82% | 4.42% | 기본 금리 |
+| pancakeswap-amm | 1.85% | 3.59% | 기본 금리 |
+| pancakeswap-amm | 0.82% | 1.22% | 기본 금리 |
+| pancakeswap-amm-v3 | 5.86% | 4.42% | 기본 금리 |
 | uniswap-v3 | 6.42% | 5.13% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 6.42%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

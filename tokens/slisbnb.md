@@ -1,18 +1,18 @@
 # SLISBNB DeFi Yields
 
-The highest honest SLISBNB yield right now is 1.76% on lista-liquid-staking (BSC), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SLISBNB yield right now is 1.71% on lista-liquid-staking (BSC), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.76% | $563.08M |
-| [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.38% | $1.54M |
+| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 1.71% | $563.07M |
 | [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.64% | $1.54M |
+| [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.38% | $1.54M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SLISBNB shows up in 3 pools here, with rates from 1.38% to 1.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SLISBNB shows up in 3 pools here, with rates from 1.38% to 1.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -20,9 +20,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lista-liquid-staking | 1.76% | 1.29% | Base rate |
-| pendle | 1.38% | 1.60% | Base rate |
+| lista-liquid-staking | 1.71% | 1.29% | Base rate |
 | pendle | 1.64% | 1.22% | Base rate |
+| pendle | 1.38% | 1.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SLISBNB yield today?
 
-1.76% APY on lista-liquid-staking (BSC), based on live DefiLlama data.
+1.71% APY on lista-liquid-staking (BSC), based on live DefiLlama data.
 
 ### How many SLISBNB pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $689.97M in total.
+6 live pools clear this page's $100K TVL floor, $690.1M in total.
 
 ### Are these rates safe?
 

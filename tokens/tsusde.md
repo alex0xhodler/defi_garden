@@ -5,7 +5,7 @@ The highest honest TSUSDE yield right now is 4.00% on affluent (TON), among 2 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.00% | $298.4K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.83% | $227.6K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.83% | $228K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TSUSDE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $526K in total.
+2 live pools clear this page's $100K TVL floor, $526.4K in total.
 
 ### Are these rates safe?
 

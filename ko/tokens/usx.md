@@ -8,7 +8,7 @@
 | [kamino-lend →](https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0&src=seo_token) | Solana | 2.25% | $7.26M |
 | [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token) | Solana | 0.07% | $4.67M |
 | [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.07% | $4.54M |
-| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda&src=seo_token) | Solana | 0.16% | $2.99M |
+| [orca-dex →](https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda&src=seo_token) | Solana | 0.17% | $2.99M |
 | [loopscale →](https://www.defi.garden/?pool=8847526a-17a9-46d9-b42d-04617ad31793&src=seo_token) | Solana | 2.00% | $1.27M |
 | [raydium-amm →](https://www.defi.garden/?pool=89101a75-3f6d-4093-bfdc-187a19cae15c&src=seo_token) | Solana | 0.36% | $1.02M |
 | [loopscale →](https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token) | Solana | 5.71% | $285.9K |
@@ -29,7 +29,7 @@ USX 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.07%부터 5.71%까�
 | kamino-lend | 2.25% | 2.31% | 기본 금리 |
 | orca-dex | 0.07% | 0.10% | 기본 금리 |
 | raydium-amm | 0.07% | 0.09% | 기본 금리 |
-| orca-dex | 0.16% | 0.15% | 기본 금리 |
+| orca-dex | 0.17% | 0.15% | 기본 금리 |
 | loopscale | 2.00% | 2.19% | 기본 금리 |
 | raydium-amm | 0.36% | 0.21% | 기본 금리 |
 | loopscale | 5.71% | 5.91% | 기본 금리 |

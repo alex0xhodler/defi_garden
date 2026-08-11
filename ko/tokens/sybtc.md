@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=23bff1c9-7402-4c1f-81e8-d46b09f8e001&src=seo_token) | Ethereum | 2.33% | $581.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 5.20% | $429.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 5.26% | $429.2K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=a287546c-cb67-488a-b7c3-02be149a9883&src=seo_token) | Ethereum | 5.96% | $356.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=289081f9-15ee-584d-bbdc-cdd6c8fd422a&src=seo_token) | BSC | 0.68% | $130.4K |
 
@@ -21,9 +21,9 @@ SYBTC 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.68%부터 5.96%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 2.33% | 3.23% | 기본 금리 |
-| uniswap-v3 | 5.20% | 2.62% | 기본 금리 |
-| uniswap-v4 | 5.96% | 25.66% | 기본 금리 |
+| uniswap-v4 | 2.33% | 3.24% | 기본 금리 |
+| uniswap-v3 | 5.26% | 2.63% | 기본 금리 |
+| uniswap-v4 | 5.96% | 25.70% | 기본 금리 |
 | uniswap-v3 | 0.68% | 13.94% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 2.33%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

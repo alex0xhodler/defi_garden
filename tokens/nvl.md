@@ -4,7 +4,7 @@ The highest honest NVL yield right now is 2.88% on minswap-dex (Cardano), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=6cbd5e14-c010-4d58-84af-bbea56885717&src=seo_token) | Cardano | 2.88% | $236.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=6cbd5e14-c010-4d58-84af-bbea56885717&src=seo_token) | Cardano | 2.88% | $235.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NVL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $236.3K in total.
+1 live pool clear this page's $100K TVL floor, $235.6K in total.
 
 ### Are these rates safe?
 

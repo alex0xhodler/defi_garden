@@ -4,12 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.34% | $3.56B |
-| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.34% | $140.34M |
-| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.34% | $34.13M |
-| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.34% | $13.06M |
-| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.54% | $9.6M |
-| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.99% | $7.99M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.39% | $3.56B |
+| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.39% | $140.43M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.39% | $34.15M |
+| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.34% | $13.07M |
+| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.30% | $9.61M |
+| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 2.75% | $7.99M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7434bb67-f79a-4dc7-b3aa-1399a6193fbf&src=seo_token) | Ethereum | 0.02% | $3.85M |
 | [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.35% | $1.49M |
 
@@ -25,14 +25,14 @@ WEETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.02%부터 3.35%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| ether.fi-stake | 2.34% | 2.48% | 인센티브 0.07% |
-| ether.fi-stake | 2.34% | 2.48% | 인센티브 0.07% |
-| ether.fi-stake | 2.34% | 2.48% | 인센티브 0.07% |
+| ether.fi-stake | 2.39% | 2.48% | 인센티브 0.07% |
+| ether.fi-stake | 2.39% | 2.48% | 인센티브 0.07% |
+| ether.fi-stake | 2.39% | 2.48% | 인센티브 0.07% |
 | fluid-dex | 0.34% | 0.24% | 기본 금리 |
-| curve-dex | 2.54% | 2.42% | 인센티브 26.82% |
-| convex-finance | 2.99% | 2.78% | 인센티브 37.78% |
+| curve-dex | 2.30% | 2.42% | 인센티브 29.67% |
+| convex-finance | 2.75% | 2.78% | 인센티브 41.15% |
 | uniswap-v3 | 0.02% | 0.08% | 기본 금리 |
-| stake-dao | 3.35% | 3.02% | 인센티브 42.41% |
+| stake-dao | 3.35% | 3.03% | 인센티브 42.42% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 3.35%예�
 
 ### WEETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 67개이며, 합산 TVL은 $6.61B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 67개이며, 합산 TVL은 $6.62B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -56,8 +56,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 3.35%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 

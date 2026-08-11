@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.95% | $738.9K |
-| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.67% | $738.9K |
+| [spectra-v2 →](https://www.defi.garden/?pool=2f845acb-49b7-47dc-80a0-64d0443bbbb1&src=seo_token) | Flare | 13.95% | $739.7K |
+| [spectra-v2 →](https://www.defi.garden/?pool=6b1d51e9-443c-42fc-9f50-b74e099779a8&src=seo_token) | Flare | 7.67% | $739.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -43,8 +43,8 @@ DefiLlama 실시간 데이터 기준, Flare의 spectra-v2에서 APY 13.95%예요
 ## 관련 토큰
 
 - [FXRP](https://www.defi.garden/ko/tokens/fxrp)
-- [SFLR](https://www.defi.garden/ko/tokens/sflr)
 - [COREUSDT0](https://www.defi.garden/ko/tokens/coreusdt0)
+- [SFLR](https://www.defi.garden/ko/tokens/sflr)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [USDX](https://www.defi.garden/ko/tokens/usdx)
 - [STXRP](https://www.defi.garden/ko/tokens/stxrp)

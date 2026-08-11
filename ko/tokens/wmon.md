@@ -1,22 +1,22 @@
 # WMON 디파이 수익률
 
-현재 WMON의 가장 높은 정직한 수익률은 Monad의 curve-dex에서 13.84%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WMON의 가장 높은 정직한 수익률은 Monad의 curve-dex에서 14.67%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 114.83% | $1.23M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.84% | $728.4K |
-| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.81% | $320K |
-| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 11.06% | $267.8K |
-| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.86% | $227.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.01% | $150.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.01% | $101.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 106.62% | $1.23M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 14.67% | $728.4K |
+| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 2.81% | $319.5K |
+| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 11.04% | $267K |
+| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.86% | $227.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.01% | $150.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.01% | $100.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WMON 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.01%부터 114.83%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WMON 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.01%부터 106.62%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.70%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -26,10 +26,10 @@ WMON 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.01%부터 114.83%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 114.83% | 37.02% | 기본 금리 |
-| curve-dex | 13.84% | 24.03% | 인센티브 100.00% |
+| uniswap-v3 | 106.62% | 37.12% | 기본 금리 |
+| curve-dex | 14.67% | 24.01% | 인센티브 100.00% |
 | curvance | 2.81% | 2.70% | 인센티브 47.98% |
-| neverland | 11.06% | 7.96% | 인센티브 25.12% |
+| neverland | 11.04% | 7.97% | 인센티브 25.25% |
 | curvance | 1.86% | 1.78% | 인센티브 72.62% |
 | uniswap-v3 | 0.01% | 0.01% | 기본 금리 |
 | uniswap-v3 | 0.01% | 0.01% | 기본 금리 |
@@ -40,11 +40,11 @@ WMON 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.01%부터 114.83%�
 
 ### 오늘 WMON의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 13.84%예요.
+DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 14.67%예요.
 
 ### WMON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $3.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $3.81M예요.
 
 ### 이 수익률은 안전한가요?
 

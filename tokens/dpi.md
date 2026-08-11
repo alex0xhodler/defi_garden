@@ -4,7 +4,7 @@ The highest honest DPI yield right now is 0.17% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=46767a06-7655-467f-9570-fc0f5578a66c&src=seo_token) | Ethereum | 0.17% | $616.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=46767a06-7655-467f-9570-fc0f5578a66c&src=seo_token) | Ethereum | 0.17% | $621.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DPI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $616.8K in total.
+1 live pool clear this page's $100K TVL floor, $621.6K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

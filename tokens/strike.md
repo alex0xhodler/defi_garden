@@ -1,10 +1,10 @@
 # STRIKE DeFi Yields
 
-The highest honest STRIKE yield right now is 17.20% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STRIKE yield right now is 17.21% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=b6406ba6-70a5-4b6b-b776-bd16983faf1d&src=seo_token) | Cardano | 17.20% | $464K |
+| [minswap-dex →](https://www.defi.garden/?pool=b6406ba6-70a5-4b6b-b776-bd16983faf1d&src=seo_token) | Cardano | 17.21% | $462.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STRIKE yield today?
 
-17.20% APY on minswap-dex (Cardano), based on live DefiLlama data.
+17.21% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many STRIKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $464K in total.
+1 live pool clear this page's $100K TVL floor, $462.9K in total.
 
 ### Are these rates safe?
 

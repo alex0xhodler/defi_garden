@@ -1,12 +1,12 @@
 # FRXUSD-DUSD — stake-dao on Ethereum
 
-**Total APY:** 19.65% (0.01% Base · + 19.64% Rewards)
+**Total APY:** 19.66% (0.01% Base · + 19.65% Rewards)
 
 **TVL:** $320.7K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 13.11%
+**30d Mean APY:** 13.12%
 
 **Exposure:** multi
 

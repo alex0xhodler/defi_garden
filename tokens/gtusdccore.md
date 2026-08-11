@@ -1,10 +1,10 @@
 # GTUSDCCORE DeFi Yields
 
-The highest honest GTUSDCCORE yield right now is 4.39% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDCCORE yield right now is 4.40% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=baf1a020-a2a4-401a-9425-eba22ffce13c&src=seo_token) | Ethereum | 4.39% | $6.36M |
+| [morpho-blue →](https://www.defi.garden/?pool=baf1a020-a2a4-401a-9425-eba22ffce13c&src=seo_token) | Ethereum | 4.40% | $6.36M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTUSDCCORE yield today?
 
-4.39% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.40% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTUSDCCORE pools clear the TVL floor?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

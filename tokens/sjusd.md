@@ -4,7 +4,7 @@ The highest honest SJUSD yield right now is 1.47% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=a2bedb1d-9534-4544-9d93-9142bfd27fd5&src=seo_token) | Ethereum | 1.47% | $421.2K |
+| [curve-dex →](https://www.defi.garden/?pool=a2bedb1d-9534-4544-9d93-9142bfd27fd5&src=seo_token) | Ethereum | 1.47% | $421.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SJUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $421.2K in total.
+1 live pool clear this page's $100K TVL floor, $421.3K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

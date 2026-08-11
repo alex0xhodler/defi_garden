@@ -4,12 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.86% | $43.74M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 6.01% | $35.56M |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.87% | $43.74M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 6.03% | $35.56M |
 | [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 5.79% | $8.04M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.81% | $5.9M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.82% | $5.9M |
 | [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.50% | $5.57M |
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 0.88% | $758.3K |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 0.64% | $758.1K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.72% | $333.3K |
 | [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token) | Ethereum | 7.59% | $317.8K |
 
@@ -17,7 +17,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DOLA 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.72%부터 7.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DOLA 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.64%부터 7.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.89%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,12 +27,12 @@ DOLA 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.72%부터 7.59%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 3.86% | 3.53% | 인센티브 76.17% |
-| convex-finance | 6.01% | 4.86% | 인센티브 84.70% |
+| curve-dex | 3.87% | 3.53% | 인센티브 76.23% |
+| convex-finance | 6.03% | 4.86% | 인센티브 84.75% |
 | yearn-finance | 5.79% | 5.04% | 기본 금리 |
-| curve-dex | 3.81% | 3.02% | 인센티브 78.77% |
-| convex-finance | 5.50% | 4.25% | 인센티브 85.26% |
-| curve-dex | 0.88% | 1.73% | 기본 금리 |
+| curve-dex | 3.82% | 3.02% | 인센티브 79.04% |
+| convex-finance | 5.50% | 4.26% | 인센티브 85.46% |
+| curve-dex | 0.64% | 1.73% | 기본 금리 |
 | aerodrome-v1 | 0.72% | 0.75% | 인센티브 100.00% |
 | yearn-finance | 7.59% | 5.79% | 기본 금리 |
 
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 7.59%�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

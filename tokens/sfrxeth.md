@@ -4,9 +4,9 @@ The highest honest SFRXETH yield right now is 4.94% on stake-dao (Fraxtal), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.57% | $69.42M |
-| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.49% | $1.98M |
-| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.94% | $286.6K |
+| [frax-ether →](https://www.defi.garden/?pool=5b3aebb3-891d-47fc-92e2-927ada3d5b82&src=seo_token) | Ethereum | 2.57% | $69.48M |
+| [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token) | Fraxtal | 3.50% | $1.98M |
+| [stake-dao →](https://www.defi.garden/?pool=cf4da607-287d-4fbd-ba6b-1b727856ea19&src=seo_token) | Fraxtal | 4.94% | $286.5K |
 | [curve-dex →](https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token) | Ethereum | 2.39% | $231.7K |
 | [convex-finance →](https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token) | Ethereum | 2.39% | $213.6K |
 
@@ -23,8 +23,8 @@ SFRXETH shows up in 5 pools here, with rates from 2.39% to 4.94% APY across 2 ch
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | frax-ether | 2.57% | 2.72% | Base rate |
-| curve-dex | 3.49% | 3.33% | 55.90% incentives |
-| stake-dao | 4.94% | 4.57% | 67.81% incentives |
+| curve-dex | 3.50% | 3.33% | 56.00% incentives |
+| stake-dao | 4.94% | 4.57% | 67.82% incentives |
 | curve-dex | 2.39% | 2.52% | Base rate |
 | convex-finance | 2.39% | 2.52% | Base rate |
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SFRXETH pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $77.64M in total.
+8 live pools clear this page's $100K TVL floor, $77.65M in total.
 
 ### Are these rates safe?
 
@@ -51,7 +51,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

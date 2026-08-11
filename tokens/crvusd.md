@@ -5,19 +5,19 @@ The highest honest CRVUSD yield right now is 5.72% on curve-dex (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=90a3e412-e3be-47e1-a233-fd3760f4a794&src=seo_token) | Ethereum | 2.70% | $46.4M |
-| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5&src=seo_token) | Ethereum | 5.72% | $29.18M |
-| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token) | Ethereum | 3.71% | $24.4M |
-| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 2.80% | $18.25M |
-| [curve-dex →](https://www.defi.garden/?pool=5faf730e-2c79-45a2-9459-fbcd185abf18&src=seo_token) | Ethereum | 2.62% | $14.88M |
-| [curve-llamalend →](https://www.defi.garden/?pool=c38c4411-948a-4769-a93f-5860457a339c&src=seo_token) | Ethereum | 3.09% | $13.33M |
-| [convex-finance →](https://www.defi.garden/?pool=027b72c2-bf96-451b-ac5f-afe6859b0828&src=seo_token) | Ethereum | 3.40% | $13.3M |
-| [resupply →](https://www.defi.garden/?pool=c4a3e969-02c4-479a-8837-ca498eea3583&src=seo_token) | Ethereum | 3.05% | $13.3M |
+| [curve-dex →](https://www.defi.garden/?pool=0fe44dca-3690-4bd2-85a6-77d823b283c5&src=seo_token) | Ethereum | 5.72% | $29.2M |
+| [curve-llamalend →](https://www.defi.garden/?pool=fc689839-abf0-4649-a9dc-8a4778550f4b&src=seo_token) | Ethereum | 3.54% | $24.66M |
+| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 2.79% | $18.27M |
+| [curve-dex →](https://www.defi.garden/?pool=5faf730e-2c79-45a2-9459-fbcd185abf18&src=seo_token) | Ethereum | 2.60% | $14.88M |
+| [curve-llamalend →](https://www.defi.garden/?pool=c38c4411-948a-4769-a93f-5860457a339c&src=seo_token) | Ethereum | 3.19% | $13.26M |
+| [convex-finance →](https://www.defi.garden/?pool=027b72c2-bf96-451b-ac5f-afe6859b0828&src=seo_token) | Ethereum | 3.40% | $13.23M |
+| [resupply →](https://www.defi.garden/?pool=c4a3e969-02c4-479a-8837-ca498eea3583&src=seo_token) | Ethereum | 3.14% | $13.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CRVUSD shows up in 8 pools here, with rates from 2.62% to 5.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRVUSD shows up in 8 pools here, with rates from 2.60% to 5.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,14 +27,14 @@ CRVUSD shows up in 8 pools here, with rates from 2.62% to 5.72% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 2.70% | 3.01% | 94.44% incentives |
+| curve-dex | 2.70% | 3.01% | 94.81% incentives |
 | curve-dex | 5.72% | 6.42% | Base rate |
-| curve-llamalend | 3.71% | 1.99% | 61.55% incentives |
-| curve-dex | 2.80% | 5.11% | Base rate |
-| curve-dex | 2.62% | 2.97% | 91.21% incentives |
-| curve-llamalend | 3.09% | 2.56% | Base rate |
-| convex-finance | 3.40% | 2.76% | 8.93% incentives |
-| resupply | 3.05% | 2.26% | Base rate |
+| curve-llamalend | 3.54% | 1.99% | 63.05% incentives |
+| curve-dex | 2.79% | 5.10% | Base rate |
+| curve-dex | 2.60% | 2.97% | 91.93% incentives |
+| curve-llamalend | 3.19% | 2.56% | Base rate |
+| convex-finance | 3.40% | 2.76% | 9.00% incentives |
+| resupply | 3.14% | 2.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CRVUSD pools clear the TVL floor?
 
-111 live pools clear this page's $100K TVL floor, $570.76M in total.
+111 live pools clear this page's $100K TVL floor, $571.47M in total.
 
 ### Are these rates safe?
 
@@ -59,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

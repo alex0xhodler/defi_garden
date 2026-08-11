@@ -22,7 +22,7 @@ PNKSTR 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.04%부터 29.04%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 29.04% | 22.10% | 기본 금리 |
+| uniswap-v4 | 29.04% | 22.12% | 기본 금리 |
 | uniswap-v4 | 1.08% | 0.18% | 기본 금리 |
 | uniswap-v4 | 0.04% | 0.05% | 기본 금리 |
 
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 29.04%예
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

@@ -4,7 +4,7 @@ The highest honest DOGC yield right now is 0.09% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=afe10985-1d71-48b3-a328-4c0e93e8ef4c&src=seo_token) | Ethereum | 0.09% | $188K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=afe10985-1d71-48b3-a328-4c0e93e8ef4c&src=seo_token) | Ethereum | 0.09% | $188.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DOGC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $188K in total.
+1 live pool clear this page's $100K TVL floor, $188.1K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

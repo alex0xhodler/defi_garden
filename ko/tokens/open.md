@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 4.13% | $266.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 5.87% | $199.8K |
+| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 4.13% | $267.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 5.87% | $199.9K |
 | [ston.fi →](https://www.defi.garden/?pool=1d4c2a54-9f5b-4e10-85f1-631cf031f91d&src=seo_token) | TON | 0.01% | $191.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -23,7 +23,7 @@ OPEN 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.01%부터 5.87%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | steer-protocol | 4.13% | 3.58% | 기본 금리 |
-| uniswap-v3 | 5.87% | 5.35% | 기본 금리 |
+| uniswap-v3 | 5.87% | 5.40% | 기본 금리 |
 | ston.fi | 0.01% | 0.00% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -36,7 +36,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 5.87%예�
 
 ### OPEN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $847.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $847.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,7 +49,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 5.87%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

@@ -32,7 +32,7 @@ DefiLlama 실시간 데이터 기준, ZIGChain의 permapod에서 APY 54.87%예�
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
 ## ZIGChain의 인기 토큰
 

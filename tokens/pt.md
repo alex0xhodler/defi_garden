@@ -25,9 +25,9 @@ PT shows up in 5 pools here, with rates from 0.20% to 5.02% APY across 2 chains 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curvance | 0.20% | 0.20% | 100.00% incentives |
-| morpho-blue | 1.78% | 1.19% | 100.00% incentives |
+| morpho-blue | 1.78% | 1.20% | 100.00% incentives |
 | morpho-blue | 2.00% | 0.13% | 100.00% incentives |
-| neverland | 5.02% | 3.85% | 100.00% incentives |
+| neverland | 5.02% | 3.86% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PT pools clear the TVL floor?
 
-38 live pools clear this page's $100K TVL floor, $430.09M in total.
+38 live pools clear this page's $100K TVL floor, $430.33M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

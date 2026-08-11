@@ -4,7 +4,7 @@ The highest honest WXRP yield right now is 3.44% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 3.44% | $426.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 3.44% | $427.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WXRP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $426.8K in total.
+1 live pool clear this page's $100K TVL floor, $427.1K in total.
 
 ### Are these rates safe?
 

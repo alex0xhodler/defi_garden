@@ -4,7 +4,7 @@ The highest honest CAT yield right now is 0.39% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1411d14f-8f53-457d-afda-36ba3136a836&src=seo_token) | Ethereum | 0.39% | $154.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1411d14f-8f53-457d-afda-36ba3136a836&src=seo_token) | Ethereum | 0.39% | $155K |
 | [raydium-amm →](https://www.defi.garden/?pool=e87cab1c-d5e1-4f3a-88fa-e76b43ad2a65&src=seo_token) | Solana | 0.72% | $117.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -22,7 +22,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v2 | 0.39% | 0.15% | Base rate |
-| raydium-amm | 0.72% | 1.98% | Base rate |
+| raydium-amm | 0.72% | 1.99% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token) | Tron | 1.40% | $1.08M |
-| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 0.95% | $350.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 0.91% | $350.3K |
 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token) | Ethereum | 0.20% | $220.8K |
 | [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.33% | $105.9K |
 
@@ -24,7 +24,7 @@ TUSD 풀은 여기 4개가 있고, 4개 체인에서 APY가 0.20%부터 1.40%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | justlend-v1 | 1.40% | 1.43% | 기본 금리 |
-| raydium-amm | 0.95% | 1.26% | 기본 금리 |
+| raydium-amm | 0.91% | 1.26% | 기본 금리 |
 | pancakeswap-amm-v3 | 0.20% | 0.04% | 기본 금리 |
 | curve-dex | 0.33% | 0.06% | 기본 금리 |
 
@@ -51,7 +51,7 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 1.40%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 
 ## 이용 가능한 체인
 

@@ -1,17 +1,17 @@
 # EURCV DeFi Yields
 
-The highest honest EURCV yield right now is 0.22% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURCV yield right now is 0.11% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.11% | $5.8M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token) | Ethereum | 0.22% | $3.4M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token) | Ethereum | 0.18% | $3.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EURCV shows up in 2 pools here, with rates from 0.11% to 0.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EURCV shows up in 2 pools here, with rates from 0.11% to 0.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.11% | 0.38% | Base rate |
-| uniswap-v3 | 0.22% | 0.72% | Base rate |
+| uniswap-v3 | 0.18% | 0.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EURCV yield today?
 
-0.22% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.11% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EURCV pools clear the TVL floor?
 
@@ -47,7 +47,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

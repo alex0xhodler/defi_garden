@@ -4,8 +4,8 @@ The highest honest MHYPERBTC yield right now is 2.77% on pendle (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.77% | $2.14M |
 | [pendle →](https://www.defi.garden/?pool=2a1e7116-5833-43a2-a431-92ebba5730c6&src=seo_token) | Ethereum | 2.58% | $2.14M |
+| [pendle →](https://www.defi.garden/?pool=9b99b387-071f-4186-868d-5bb74e190b1c&src=seo_token) | Ethereum | 2.77% | $2.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,8 +19,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| pendle | 2.58% | 0.98% | Base rate |
 | pendle | 2.77% | 2.94% | Base rate |
-| pendle | 2.58% | 0.99% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MHYPERBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $12.61M in total.
+4 live pools clear this page's $100K TVL floor, $12.62M in total.
 
 ### Are these rates safe?
 
@@ -45,7 +45,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [SUSDS](https://www.defi.garden/tokens/susds)
 
 ## Available on
 

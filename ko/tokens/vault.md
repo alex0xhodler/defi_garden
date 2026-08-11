@@ -46,8 +46,8 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 40-acres에서 APY 17.37%예
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 
