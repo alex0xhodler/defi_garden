@@ -2,7 +2,7 @@
 
 **Total APY:** 0.10% (0.10% Base · + 0.00% Rewards)
 
-**TVL:** $158.1K
+**TVL:** $158.3K
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on convex-finance](https://www.convexfinance.com/?ref=defi.garden)
 
-Last updated August 11, 2026
+Last updated August 12, 2026

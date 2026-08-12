@@ -54,4 +54,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 overnight-finance에서 APY 0.
 - [Rootstock](https://www.defi.garden/ko/chains/rootstock)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

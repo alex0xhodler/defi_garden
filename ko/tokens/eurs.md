@@ -51,4 +51,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 0.21%
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

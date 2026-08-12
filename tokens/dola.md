@@ -1,23 +1,23 @@
 # DOLA DeFi Yields
 
-The highest honest DOLA yield right now is 7.27% on yearn-finance (Ethereum), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOLA yield right now is 7.31% on yearn-finance (Ethereum), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.79% | $46.58M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.83% | $38.4M |
-| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 5.73% | $8.04M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.75% | $6.19M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.67% | $5.58M |
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 1.43% | $762K |
-| [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token) | Ethereum | 7.27% | $605.8K |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.92% | $46.58M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.97% | $38.39M |
+| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 5.66% | $8.04M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.85% | $6.19M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.80% | $5.58M |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 2.10% | $760.6K |
+| [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token) | Ethereum | 7.31% | $606.1K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.72% | $333.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DOLA shows up in 8 pools here, with rates from 0.72% to 7.27% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DOLA shows up in 8 pools here, with rates from 0.72% to 7.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,13 +27,13 @@ DOLA shows up in 8 pools here, with rates from 0.72% to 7.27% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.79% | 3.55% | 74.94% incentives |
-| convex-finance | 5.83% | 4.89% | 82.85% incentives |
-| yearn-finance | 5.73% | 5.10% | Base rate |
-| curve-dex | 3.75% | 3.06% | 77.31% incentives |
-| convex-finance | 5.67% | 4.29% | 84.64% incentives |
-| curve-dex | 1.43% | 1.75% | Base rate |
-| yearn-finance | 7.27% | 5.85% | Base rate |
+| curve-dex | 3.92% | 3.55% | 74.00% incentives |
+| convex-finance | 5.97% | 4.90% | 82.90% incentives |
+| yearn-finance | 5.66% | 5.11% | Base rate |
+| curve-dex | 3.85% | 3.06% | 76.88% incentives |
+| convex-finance | 5.80% | 4.30% | 84.66% incentives |
+| curve-dex | 2.10% | 1.76% | Base rate |
+| yearn-finance | 7.31% | 5.86% | Base rate |
 | aerodrome-v1 | 0.72% | 0.75% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DOLA yield today?
 
-7.27% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+7.31% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many DOLA pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $152.61M in total.
+15 live pools clear this page's $100K TVL floor, $152.6M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

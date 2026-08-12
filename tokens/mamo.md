@@ -1,21 +1,21 @@
 # MAMO DeFi Yields
 
-The highest honest MAMO yield right now is 83.28% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAMO yield right now is 82.57% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token) | Base | 42.22% | $379.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token) | Base | 47.55% | $353.3K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token) | Base | 59.56% | $325.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token) | Base | 83.28% | $247.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token) | Base | 31.83% | $383.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token) | Base | 47.21% | $354.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token) | Base | 34.41% | $326.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token) | Base | 82.57% | $248.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MAMO shows up in 4 pools here, with rates from 42.22% to 83.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MAMO shows up in 4 pools here, with rates from 31.83% to 82.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 91.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 90.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,10 +23,10 @@ MAMO shows up in 4 pools here, with rates from 42.22% to 83.28% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 42.22% | 120.81% | 97.28% incentives |
-| aerodrome-slipstream | 47.55% | 69.43% | 97.49% incentives |
-| aerodrome-slipstream | 59.56% | 80.41% | 96.21% incentives |
-| aerodrome-slipstream | 83.28% | 102.26% | 96.99% incentives |
+| aerodrome-slipstream | 31.83% | 120.18% | 95.18% incentives |
+| aerodrome-slipstream | 47.21% | 69.14% | 97.67% incentives |
+| aerodrome-slipstream | 34.41% | 79.76% | 93.31% incentives |
+| aerodrome-slipstream | 82.57% | 101.18% | 97.30% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MAMO yield today?
 
-83.28% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+82.57% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MAMO pools clear the TVL floor?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

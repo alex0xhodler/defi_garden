@@ -4,7 +4,7 @@ The highest honest MUB yield right now is 0.26% on native-credit-pool (BSC), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=1687633e-61ff-49d4-9256-5734ba06e595&src=seo_token) | BSC | 0.26% | $319K |
+| [native-credit-pool →](https://www.defi.garden/?pool=1687633e-61ff-49d4-9256-5734ba06e595&src=seo_token) | BSC | 0.26% | $320.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MUB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $319K in total.
+1 live pool clear this page's $100K TVL floor, $320.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

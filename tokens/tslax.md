@@ -1,22 +1,22 @@
 # TSLAX DeFi Yields
 
-The highest honest TSLAX yield right now is 11.62% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSLAX yield right now is 9.57% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 11.62% | $1.91M |
-| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 6.64% | $558.2K |
-| [jupiter-lend →](https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token) | Solana | 2.02% | $544.4K |
-| [jupiter-lend →](https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token) | Solana | 2.02% | $200.7K |
-| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 6.37% | $107.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token) | Solana | 9.57% | $1.9M |
+| [raydium-amm →](https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token) | Solana | 5.28% | $557.5K |
+| [jupiter-lend →](https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token) | Solana | 2.02% | $544K |
+| [jupiter-lend →](https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token) | Solana | 2.02% | $200.5K |
+| [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 6.37% | $107.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TSLAX shows up in 5 pools here, with rates from 2.02% to 11.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TSLAX shows up in 5 pools here, with rates from 2.02% to 9.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 7.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 7.21% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -24,11 +24,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 11.62% | 16.24% | Base rate |
-| raydium-amm | 6.64% | 9.61% | Base rate |
-| jupiter-lend | 2.02% | 0.82% | Base rate |
-| jupiter-lend | 2.02% | 0.82% | Base rate |
-| orca-dex | 6.37% | 7.20% | Base rate |
+| raydium-amm | 9.57% | 16.30% | Base rate |
+| raydium-amm | 5.28% | 9.64% | Base rate |
+| jupiter-lend | 2.02% | 0.83% | Base rate |
+| jupiter-lend | 2.02% | 0.83% | Base rate |
+| orca-dex | 6.37% | 7.21% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TSLAX yield today?
 
-11.62% APY on raydium-amm (Solana), based on live DefiLlama data.
+9.57% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TSLAX pools clear the TVL floor?
 
@@ -59,4 +59,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

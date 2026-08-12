@@ -31,4 +31,4 @@ This pool's rate moves a lot: 5.63% right now vs a 0.84% 30-day average. Reward 
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 11, 2026
+Last updated August 12, 2026

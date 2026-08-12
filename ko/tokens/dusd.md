@@ -5,21 +5,21 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [makina →](https://www.defi.garden/?pool=a0387f4b-18ba-5fb5-8171-0f177254dfeb&src=seo_token) | Ethereum | 5.69% | $4.06M |
-| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 9.66% | $2.15M |
-| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 13.08% | $1.61M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 7.12% | $853.2K |
+| [curve-dex →](https://www.defi.garden/?pool=a3418d18-b05c-4b42-b6fb-d42571791ed2&src=seo_token) | Ethereum | 9.86% | $2.15M |
+| [convex-finance →](https://www.defi.garden/?pool=c77b9508-1a53-4ea1-9913-0207ce711fa2&src=seo_token) | Ethereum | 13.39% | $1.61M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 7.24% | $853.2K |
 | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 0.01% | $805K |
-| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 20.21% | $320.7K |
+| [stake-dao →](https://www.defi.garden/?pool=2bf7dfb1-cc93-5f4b-ba8a-6cf8bd63eff6&src=seo_token) | Ethereum | 20.50% | $320.7K |
 | [defichain-dex →](https://www.defi.garden/?pool=dc833f4f-eafc-4d50-ac5d-b0237641ba5a&src=seo_token) | Defichain | 0.22% | $267.7K |
-| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.14% | $217.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=dd71d1a6-4292-4e94-9ff8-a48ec9cb9d21&src=seo_token) | Solana | 0.13% | $217.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 20.21%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 20.50%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.10%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.12%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ DUSD 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.01%부터 20.21%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| makina | 5.69% | 5.94% | 기본 금리 |
-| curve-dex | 9.66% | 5.83% | 인센티브 100.00% |
-| convex-finance | 13.08% | 8.29% | 인센티브 99.92% |
-| curve-dex | 7.12% | 4.37% | 인센티브 82.59% |
+| makina | 5.69% | 5.98% | 기본 금리 |
+| curve-dex | 9.86% | 5.87% | 인센티브 100.00% |
+| convex-finance | 13.39% | 8.36% | 인센티브 99.93% |
+| curve-dex | 7.24% | 4.38% | 인센티브 83.01% |
 | defichain-dex | 0.01% | 0.37% | 기본 금리 |
-| stake-dao | 20.21% | 13.43% | 인센티브 99.95% |
+| stake-dao | 20.50% | 13.50% | 인센티브 99.95% |
 | defichain-dex | 0.22% | 0.12% | 기본 금리 |
-| raydium-amm | 0.14% | 0.22% | 기본 금리 |
+| raydium-amm | 0.13% | 0.23% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -67,4 +67,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 makina에서 APY 5.69%예요.
 - [Defichain](https://www.defi.garden/ko/chains/defichain)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 4.48% | $67.07M |
+| [falcon-finance →](https://www.defi.garden/?pool=0f67a08c-3f24-4a4b-963e-541f5a5c0364&src=seo_token) | Ethereum | 4.48% | $67.06M |
 | [pendle →](https://www.defi.garden/?pool=a0378513-f9c5-4e6d-908d-9d6eb15e057c&src=seo_token) | Ethereum | 4.66% | $248.5K |
 | [pendle →](https://www.defi.garden/?pool=37568975-6c2a-4aa0-8249-904eed2d093e&src=seo_token) | Ethereum | 5.33% | $248.5K |
 
@@ -21,7 +21,7 @@ SUSDF 풀은 여기 3개가 있고, 1개 체인에서 APY가 4.48%부터 5.33%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | falcon-finance | 4.48% | 5.09% | 기본 금리 |
-| pendle | 4.66% | 5.61% | 기본 금리 |
+| pendle | 4.66% | 5.60% | 기본 금리 |
 | pendle | 5.33% | 5.43% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 5.33%예요.
 
 ### SUSDF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $67.56M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $67.55M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -53,4 +53,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 5.33%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

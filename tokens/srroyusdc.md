@@ -5,24 +5,24 @@ The highest honest SRROYUSDC yield right now is 8.38% on concrete (Ethereum), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [concrete →](https://www.defi.garden/?pool=7081d7c4-d0df-4c68-adce-2bb210cd25e8&src=seo_token) | Ethereum | 8.38% | $11.02M |
-| [stake-dao →](https://www.defi.garden/?pool=23605340-3ba7-4a42-a55e-47cf09ec1d78&src=seo_token) | Ethereum | 9.11% | $873.5K |
-| [curve-dex →](https://www.defi.garden/?pool=3f63a73f-836b-481d-9ce5-3455ea5c4a12&src=seo_token) | Ethereum | 6.94% | $873.5K |
+| [stake-dao →](https://www.defi.garden/?pool=23605340-3ba7-4a42-a55e-47cf09ec1d78&src=seo_token) | Ethereum | 9.37% | $873.5K |
+| [curve-dex →](https://www.defi.garden/?pool=3f63a73f-836b-481d-9ce5-3455ea5c4a12&src=seo_token) | Ethereum | 7.17% | $873.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SRROYUSDC shows up in 3 pools here, with rates from 6.94% to 9.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRROYUSDC shows up in 3 pools here, with rates from 7.17% to 9.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.78% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| concrete | 8.38% | 5.60% | Base rate |
-| stake-dao | 9.11% | 4.63% | 25.34% incentives |
-| curve-dex | 6.94% | 4.78% | 29.24% incentives |
+| concrete | 8.38% | 5.63% | Base rate |
+| stake-dao | 9.37% | 4.68% | 24.99% incentives |
+| curve-dex | 7.17% | 4.82% | 28.90% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

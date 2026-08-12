@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $796.23M in total.
+2 live pools clear this page's $100K TVL floor, $796.25M in total.
 
 ### Are these rates safe?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

@@ -1,25 +1,25 @@
 # MSUSD 디파이 수익률
 
-현재 MSUSD의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 40.67%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MSUSD의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 36.26%이며, $100K TVL 기준을 넘는 27개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [mainstreet →](https://www.defi.garden/?pool=8a28570f-2316-488a-94a7-67c87e76c1f1&src=seo_token) | Ethereum | 6.59% | $74.63M |
 | [vesper →](https://www.defi.garden/?pool=3987099a-9165-47a3-a92f-df14e8d60e45&src=seo_token) | Ethereum | 0.84% | $32.44M |
-| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 7.26% | $6.51M |
-| [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a&src=seo_token) | Ethereum | 12.91% | $5.76M |
-| [stake-dao →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token) | Ethereum | 15.97% | $4.49M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42&src=seo_token) | Base | 11.61% | $4.02M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token) | Base | 27.91% | $1.77M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62&src=seo_token) | Base | 40.67% | $1.31M |
+| [curve-dex →](https://www.defi.garden/?pool=54a73b0a-d1f0-4a82-9e9f-2a6520351527&src=seo_token) | Ethereum | 6.67% | $6.51M |
+| [convex-finance →](https://www.defi.garden/?pool=ee024c35-c5c3-4a41-9018-75f72ec7ae4a&src=seo_token) | Ethereum | 15.67% | $4.86M |
+| [stake-dao →](https://www.defi.garden/?pool=fd1b5014-9f4d-4401-be3d-1188da497c6a&src=seo_token) | Ethereum | 14.75% | $4.49M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=9652fa5a-8b82-4b48-b1b8-5a5d41ddcc42&src=seo_token) | Base | 11.59% | $4.02M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3fea9aec-48b6-4ad3-bd04-f69188bead1d&src=seo_token) | Base | 27.88% | $1.77M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=aae6cc3a-783b-4a76-bea7-c3edccd28d62&src=seo_token) | Base | 36.26% | $1.37M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-MSUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.84%부터 40.67%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+MSUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.84%부터 36.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 16.44%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 16.39%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ MSUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.84%부터 40.67%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| mainstreet | 6.59% | 6.85% | 기본 금리 |
+| mainstreet | 6.59% | 6.82% | 기본 금리 |
 | vesper | 0.84% | 1.75% | 기본 금리 |
-| curve-dex | 7.26% | 12.10% | 인센티브 98.49% |
-| convex-finance | 12.91% | 24.52% | 인센티브 99.61% |
-| stake-dao | 15.97% | 20.79% | 인센티브 93.74% |
-| aerodrome-v1 | 11.61% | 11.23% | 인센티브 100.00% |
-| aerodrome-slipstream | 27.91% | 31.78% | 인센티브 66.82% |
-| aerodrome-slipstream | 40.67% | 62.40% | 인센티브 90.60% |
+| curve-dex | 6.67% | 12.02% | 인센티브 99.25% |
+| convex-finance | 15.67% | 24.45% | 인센티브 99.68% |
+| stake-dao | 14.75% | 20.76% | 인센티브 93.22% |
+| aerodrome-v1 | 11.59% | 11.23% | 인센티브 100.00% |
+| aerodrome-slipstream | 27.88% | 31.80% | 인센티브 66.79% |
+| aerodrome-slipstream | 36.26% | 62.65% | 인센티브 90.99% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ MSUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.84%부터 40.67%�
 
 ### 오늘 MSUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 40.67%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 36.26%예요.
 
 ### MSUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $140.43M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 27개이며, 합산 TVL은 $139.59M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -66,4 +66,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 40.
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

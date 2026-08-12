@@ -25,8 +25,8 @@ DefiLlama 실시간 데이터 기준, Sei의 takara-lend에서 APY 0.61%예요.
 ## 관련 토큰
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [SYZUSD](https://www.defi.garden/ko/tokens/syzusd)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
+- [SYZUSD](https://www.defi.garden/ko/tokens/syzusd)
 - [WSEI](https://www.defi.garden/ko/tokens/wsei)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Sei의 takara-lend에서 APY 0.61%예요.
 
 - [Sei](https://www.defi.garden/ko/chains/sei)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

@@ -4,7 +4,7 @@ The highest honest CKETH yield right now is 1.11% on icpswap (ICP), among 1 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 1.11% | $111.1K |
+| [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 1.11% | $111.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CKETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.1K in total.
+1 live pool clear this page's $100K TVL floor, $111.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Robinhood Chain의 morpho-blue에서 APY 7
 
 - [Robinhood Chain](https://www.defi.garden/ko/chains/robinhood-chain)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 1.11% | $111.1K |
+| [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 1.11% | $111.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 1.11%예요.
 
 ### CKETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $111.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $111.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 1.11%예요.
 
 - [ICP](https://www.defi.garden/ko/chains/icp)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

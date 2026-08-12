@@ -1,21 +1,21 @@
 # DIEM DeFi Yields
 
-The highest honest DIEM yield right now is 12.80% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DIEM yield right now is 66.65% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 4.09% | $5.12M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 12.80% | $3.9M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 36.11% | $327.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 15.63% | $196.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 4.04% | $5.17M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 13.37% | $3.94M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 66.65% | $306.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 18.67% | $198.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DIEM shows up in 4 pools here, with rates from 4.09% to 36.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DIEM shows up in 4 pools here, with rates from 4.04% to 66.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 29.84% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 29.57% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,10 +23,10 @@ DIEM shows up in 4 pools here, with rates from 4.09% to 36.11% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 4.09% | 4.10% | 100.00% incentives |
-| aerodrome-slipstream | 12.80% | 25.29% | 51.39% incentives |
-| aerodrome-slipstream | 36.11% | 129.62% | 89.17% incentives |
-| uniswap-v3 | 15.63% | 34.40% | Base rate |
+| aerodrome-v1 | 4.04% | 4.09% | 100.00% incentives |
+| aerodrome-slipstream | 13.37% | 24.89% | 48.15% incentives |
+| aerodrome-slipstream | 66.65% | 128.39% | 93.04% incentives |
+| uniswap-v3 | 18.67% | 34.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DIEM yield today?
 
-12.80% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+66.65% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many DIEM pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $10.04M in total.
+5 live pools clear this page's $100K TVL floor, $10.12M in total.
 
 ### Are these rates safe?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

@@ -1,10 +1,10 @@
 # BTC2.0 DeFi Yields
 
-The highest honest BTC2.0 yield right now is 0.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTC2.0 yield right now is 0.02% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4ac75fa7-a7ee-48a1-a5a1-cf8ff9dd0c02&src=seo_token) | Ethereum | 0.01% | $257.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4ac75fa7-a7ee-48a1-a5a1-cf8ff9dd0c02&src=seo_token) | Ethereum | 0.02% | $257.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTC2.0 yield today?
 
-0.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.02% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BTC2.0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $257.2K in total.
+1 live pool clear this page's $100K TVL floor, $257.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

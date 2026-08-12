@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
-- [BILL](https://www.defi.garden/tokens/bill)
+- [BSB](https://www.defi.garden/tokens/bsb)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

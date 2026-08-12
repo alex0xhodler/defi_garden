@@ -4,7 +4,7 @@ The highest honest BNSOL yield right now is 4.65% on binance-staked-sol (Solana)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [binance-staked-sol →](https://www.defi.garden/?pool=9e709e57-84eb-496b-82ce-2e8f6a17db1b&src=seo_token) | Solana | 4.65% | $776.54M |
+| [binance-staked-sol →](https://www.defi.garden/?pool=9e709e57-84eb-496b-82ce-2e8f6a17db1b&src=seo_token) | Solana | 4.65% | $784.81M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BNSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $777.38M in total.
+2 live pools clear this page's $100K TVL floor, $785.65M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

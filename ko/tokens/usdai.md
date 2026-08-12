@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 6.64% | $50.4M |
-| [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 0.98% | $50.4M |
+| [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_token) | Arbitrum | 0.98% | $50.38M |
+| [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_token) | Arbitrum | 6.64% | $50.38M |
 | [balancer-v3 →](https://www.defi.garden/?pool=0511276f-4d37-4919-95ab-6cdf418ddd08&src=seo_token) | Plasma | 2.60% | $527.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -20,8 +20,8 @@ USDAI 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.98%부터 6.64%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 6.64% | 6.47% | 기본 금리 |
-| pendle | 0.98% | 0.94% | 인센티브 2.10% |
+| pendle | 0.98% | 0.94% | 인센티브 2.08% |
+| pendle | 6.64% | 6.48% | 기본 금리 |
 | balancer-v3 | 2.60% | 2.64% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle에서 APY 6.64%예요.
 
 ### USDAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $102.49M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $102.44M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -54,4 +54,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle에서 APY 6.64%예요.
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Plasma](https://www.defi.garden/ko/chains/plasma)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

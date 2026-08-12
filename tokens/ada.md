@@ -1,25 +1,25 @@
 # ADA DeFi Yields
 
-The highest honest ADA yield right now is 87.68% on minswap-dex (Cardano), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ADA yield right now is 86.66% on minswap-dex (Cardano), among 23 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token) | Cardano | 2.03% | $6.81M |
-| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 4.26% | $1.21M |
-| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 36.71% | $854.5K |
-| [venus-core-pool →](https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token) | BSC | 0.09% | $844.8K |
-| [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 87.68% | $774.7K |
-| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 39.59% | $678.6K |
-| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.68% | $670.1K |
-| [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 28.19% | $639.1K |
+| [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token) | Cardano | 2.03% | $6.88M |
+| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 4.22% | $1.22M |
+| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 36.51% | $853K |
+| [venus-core-pool →](https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token) | BSC | 0.09% | $851K |
+| [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 86.66% | $782.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 39.56% | $678.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.49% | $670.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 28.14% | $643.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ADA shows up in 8 pools here, with rates from 0.09% to 87.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ADA shows up in 8 pools here, with rates from 0.09% to 86.66% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 25.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 25.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 6 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,13 +28,13 @@ ADA shows up in 8 pools here, with rates from 0.09% to 87.68% APY across 2 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | liqwid | 2.03% | 2.22% | Base rate |
-| minswap-dex | 4.26% | 4.39% | 19.48% incentives |
-| minswap-dex | 36.71% | 31.80% | 19.83% incentives |
+| minswap-dex | 4.22% | 4.39% | 19.43% incentives |
+| minswap-dex | 36.51% | 31.92% | 19.56% incentives |
 | venus-core-pool | 0.09% | 0.13% | Base rate |
-| minswap-dex | 87.68% | 70.80% | 0.47% incentives |
-| minswap-dex | 39.59% | 40.98% | 2.60% incentives |
-| minswap-dex | 17.68% | 21.86% | 74.15% incentives |
-| minswap-dex | 28.19% | 29.18% | 98.08% incentives |
+| minswap-dex | 86.66% | 71.28% | 0.46% incentives |
+| minswap-dex | 39.56% | 41.03% | 2.58% incentives |
+| minswap-dex | 17.49% | 21.75% | 74.10% incentives |
+| minswap-dex | 28.14% | 29.17% | 98.08% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ADA yield today?
 
-87.68% APY on minswap-dex (Cardano), based on live DefiLlama data.
+86.66% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many ADA pools clear the TVL floor?
 
-23 live pools clear this page's $100K TVL floor, $15.54M in total.
+23 live pools clear this page's $100K TVL floor, $15.66M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Cardano](https://www.defi.garden/chains/cardano)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

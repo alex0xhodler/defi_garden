@@ -1,25 +1,25 @@
 # VIRTUAL DeFi Yields
 
-The highest honest VIRTUAL yield right now is 312.02% on aerodrome-v1 (Base), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VIRTUAL yield right now is 308.02% on aerodrome-v1 (Base), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f&src=seo_token) | Base | 5.07% | $4.07M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d&src=seo_token) | Base | 6.82% | $1.01M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 312.02% | $687.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb&src=seo_token) | Base | 37.06% | $639.5K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e&src=seo_token) | Base | 9.71% | $567.5K |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332&src=seo_token) | Base | 1.40% | $512.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d87275b5-c6f2-48be-bcf0-23a87cab80ec&src=seo_token) | Base | 49.79% | $408.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983&src=seo_token) | Base | 23.89% | $388.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f&src=seo_token) | Base | 5.02% | $4.1M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d&src=seo_token) | Base | 7.14% | $1.02M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 308.02% | $696.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb&src=seo_token) | Base | 36.39% | $651K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e&src=seo_token) | Base | 9.28% | $591.7K |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332&src=seo_token) | Base | 1.40% | $520.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d87275b5-c6f2-48be-bcf0-23a87cab80ec&src=seo_token) | Base | 58.21% | $401.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3e406e0c-c916-4a02-b40e-558e67d37983&src=seo_token) | Base | 22.29% | $393.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VIRTUAL shows up in 8 pools here, with rates from 1.40% to 312.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VIRTUAL shows up in 8 pools here, with rates from 1.40% to 308.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 16.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 16.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ VIRTUAL shows up in 8 pools here, with rates from 1.40% to 312.02% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 5.07% | 13.30% | 100.00% incentives |
-| uniswap-v2 | 6.82% | 7.31% | Base rate |
-| aerodrome-v1 | 312.02% | 322.17% | 100.00% incentives |
-| uniswap-v3 | 37.06% | 39.93% | Base rate |
-| aerodrome-v1 | 9.71% | 9.27% | 100.00% incentives |
+| aerodrome-v1 | 5.02% | 13.25% | 100.00% incentives |
+| uniswap-v2 | 7.14% | 7.30% | Base rate |
+| aerodrome-v1 | 308.02% | 321.82% | 100.00% incentives |
+| uniswap-v3 | 36.39% | 39.90% | Base rate |
+| aerodrome-v1 | 9.28% | 9.30% | 100.00% incentives |
 | extra-finance-leverage-farming | 1.40% | 1.69% | Base rate |
-| aerodrome-slipstream | 49.79% | 94.17% | 40.34% incentives |
-| uniswap-v3 | 23.89% | 19.42% | Base rate |
+| aerodrome-slipstream | 58.21% | 93.21% | 50.40% incentives |
+| uniswap-v3 | 22.29% | 19.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VIRTUAL yield today?
 
-312.02% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+308.02% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many VIRTUAL pools clear the TVL floor?
 
-21 live pools clear this page's $100K TVL floor, $11.51M in total.
+21 live pools clear this page's $100K TVL floor, $11.65M in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

@@ -1,17 +1,17 @@
 # SNUSD 디파이 수익률
 
-현재 SNUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 8.94%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SNUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 8.92%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=d2934348-da5a-4514-9095-3a73c2be6bbd&src=seo_token) | Ethereum | 5.85% | $4.3M |
-| [pendle →](https://www.defi.garden/?pool=b83a966f-1228-4a4f-ad9d-ef3553cb6e05&src=seo_token) | Ethereum | 8.94% | $4.3M |
+| [pendle →](https://www.defi.garden/?pool=d2934348-da5a-4514-9095-3a73c2be6bbd&src=seo_token) | Ethereum | 5.84% | $4.3M |
+| [pendle →](https://www.defi.garden/?pool=b83a966f-1228-4a4f-ad9d-ef3553cb6e05&src=seo_token) | Ethereum | 8.92% | $4.3M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SNUSD 풀은 여기 2개가 있고, 1개 체인에서 APY가 5.85%부터 8.94%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SNUSD 풀은 여기 2개가 있고, 1개 체인에서 APY가 5.84%부터 8.92%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.86%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -19,8 +19,8 @@ SNUSD 풀은 여기 2개가 있고, 1개 체인에서 APY가 5.85%부터 8.94%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 5.85% | 6.36% | 인센티브 5.68% |
-| pendle | 8.94% | 9.36% | 기본 금리 |
+| pendle | 5.84% | 6.36% | 인센티브 5.65% |
+| pendle | 8.92% | 9.36% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -28,7 +28,7 @@ SNUSD 풀은 여기 2개가 있고, 1개 체인에서 APY가 5.85%부터 8.94%�
 
 ### 오늘 SNUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.94%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.92%예요.
 
 ### SNUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -51,4 +51,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.94%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

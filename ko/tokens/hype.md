@@ -1,21 +1,21 @@
 # HYPE 디파이 수익률
 
-현재 HYPE의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 475.94%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HYPE의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 256.38%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [harmonix-finance →](https://www.defi.garden/?pool=e1fed8de-cdeb-48f8-b814-8b1a9ff38fb1&src=seo_token) | Hyperliquid L1 | 2.70% | $1.52M |
-| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 21.60% | $1.25M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 475.94% | $255.9K |
-| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 13.67% | $177.7K |
+| [orca-dex →](https://www.defi.garden/?pool=8c53e65a-ca01-4b5c-88ab-3914ea425a78&src=seo_token) | Solana | 20.43% | $1.25M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2d73e593-f529-4373-aca7-58b4c552517b&src=seo_token) | Base | 256.38% | $263.3K |
+| [orca-dex →](https://www.defi.garden/?pool=958cd110-8b2d-4c26-b653-483c21dfd842&src=seo_token) | Solana | 12.86% | $178.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-HYPE 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.70%부터 475.94%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+HYPE 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.70%부터 256.38%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 41.46%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 41.32%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -23,10 +23,10 @@ HYPE 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.70%부터 475.94%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| harmonix-finance | 2.70% | 3.76% | 기본 금리 |
-| orca-dex | 21.60% | 47.70% | 기본 금리 |
-| aerodrome-slipstream | 475.94% | 412.47% | 인센티브 67.04% |
-| orca-dex | 13.67% | 35.23% | 기본 금리 |
+| harmonix-finance | 2.70% | 3.75% | 기본 금리 |
+| orca-dex | 20.43% | 47.53% | 기본 금리 |
+| aerodrome-slipstream | 256.38% | 412.08% | 인센티브 80.64% |
+| orca-dex | 12.86% | 35.11% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -34,11 +34,11 @@ HYPE 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.70%부터 475.94%�
 
 ### 오늘 HYPE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 475.94%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 256.38%예요.
 
 ### HYPE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $20.7M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $20.71M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -59,4 +59,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 475
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

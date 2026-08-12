@@ -4,14 +4,14 @@ The highest honest JUPSOL yield right now is 5.80% on jupiter-staked-sol (Solana
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.80% | $392.64M |
-| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 0.82% | $171K |
+| [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.80% | $395.95M |
+| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 0.73% | $171.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JUPSOL shows up in 2 pools here, with rates from 0.82% to 5.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JUPSOL shows up in 2 pools here, with rates from 0.73% to 5.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.70% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | jupiter-staked-sol | 5.80% | 5.76% | Base rate |
-| orca-dex | 0.82% | 1.64% | Base rate |
+| orca-dex | 0.73% | 1.63% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JUPSOL pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $524.65M in total.
+12 live pools clear this page's $100K TVL floor, $529.12M in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

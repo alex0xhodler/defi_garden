@@ -1,10 +1,10 @@
 # DAG DeFi Yields
 
-The highest honest DAG yield right now is 9.82% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAG yield right now is 13.24% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=aa39285d-73c5-4205-aaa1-010cd663828f&src=seo_token) | Base | 9.82% | $370.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=aa39285d-73c5-4205-aaa1-010cd663828f&src=seo_token) | Base | 13.24% | $373.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAG yield today?
 
-9.82% APY on uniswap-v4 (Base), based on live DefiLlama data.
+13.24% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many DAG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $370.9K in total.
+1 live pool clear this page's $100K TVL floor, $373.2K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

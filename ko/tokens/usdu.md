@@ -51,4 +51,4 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 0.09%
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

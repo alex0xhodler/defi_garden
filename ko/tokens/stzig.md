@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, ZIGChain의 valdora-finance에서 APY 5.68
 
 - [ZIGChain](https://www.defi.garden/ko/chains/zigchain)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

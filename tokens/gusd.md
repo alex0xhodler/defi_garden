@@ -1,10 +1,10 @@
 # GUSD DeFi Yields
 
-The highest honest GUSD yield right now is 3.76% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GUSD yield right now is 6.06% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token) | Ethereum | 3.76% | $1.07M |
+| [curve-dex →](https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token) | Ethereum | 6.06% | $1.07M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GUSD yield today?
 
-3.76% APY on curve-dex (Ethereum), based on live DefiLlama data.
+6.06% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many GUSD pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

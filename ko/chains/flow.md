@@ -4,10 +4,10 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_chain) | 7.90% | $4.19M |
-| WFLOW | [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_chain) | 2.72% | $466.6K |
-| STGUSDC | [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4&src=seo_chain) | 1.37% | $315.4K |
-| PYUSD0 | [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_chain) | 8.90% | $125.4K |
+| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_chain) | 7.90% | $4.17M |
+| WFLOW | [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_chain) | 2.72% | $468.2K |
+| STGUSDC | [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4&src=seo_chain) | 1.37% | $314.8K |
+| PYUSD0 | [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_chain) | 8.91% | $129.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -41,4 +41,4 @@ DefiLlama 실시간 데이터 기준, Flow의 ankr에서 APY 7.90%예요.
 - [STGUSDC](https://www.defi.garden/ko/tokens/stgusdc)
 - [PYUSD0](https://www.defi.garden/ko/tokens/pyusd0)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

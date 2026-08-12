@@ -1,10 +1,10 @@
 # AMWBTC DeFi Yields
 
-The highest honest AMWBTC yield right now is 0.04% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AMWBTC yield right now is 0.02% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd&src=seo_token) | Polygon | 0.04% | $2M |
+| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd&src=seo_token) | Polygon | 0.02% | $2.12M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AMWBTC yield today?
 
-0.04% APY on curve-dex (Polygon), based on live DefiLlama data.
+0.02% APY on curve-dex (Polygon), based on live DefiLlama data.
 
 ### How many AMWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2M in total.
+1 live pool clear this page's $100K TVL floor, $2.12M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

@@ -1,18 +1,18 @@
 # NOCK DeFi Yields
 
-The highest honest NOCK yield right now is 73.20% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NOCK yield right now is 41.92% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token) | Base | 73.20% | $129.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a9975fb5-59ce-4ef2-90ac-02cb0021ca12&src=seo_token) | Base | 41.92% | $126.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NOCK shows up in 1 pools here, with rates from 73.20% to 73.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NOCK shows up in 1 pools here, with rates from 41.92% to 41.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 64.77% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 65.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -20,7 +20,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 73.20% | 64.77% | Base rate |
+| uniswap-v4 | 41.92% | 65.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,11 +28,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NOCK yield today?
 
-73.20% APY on uniswap-v4 (Base), based on live DefiLlama data.
+41.92% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many NOCK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $257.9K in total.
+2 live pools clear this page's $100K TVL floor, $249.4K in total.
 
 ### Are these rates safe?
 
@@ -51,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

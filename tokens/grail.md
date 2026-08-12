@@ -4,7 +4,7 @@ The highest honest GRAIL yield right now is 1.19% on camelot-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=cbe1ac9a-0b0e-47ab-a90b-e2a44574a84b&src=seo_token) | Arbitrum | 1.19% | $153.3K |
+| [camelot-v3 →](https://www.defi.garden/?pool=cbe1ac9a-0b0e-47ab-a90b-e2a44574a84b&src=seo_token) | Arbitrum | 1.19% | $154.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GRAIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $153.3K in total.
+1 live pool clear this page's $100K TVL floor, $154.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

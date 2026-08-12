@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| COREUSDT0 | [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_chain) | 4.40% | $20.91M |
-| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_chain) | 1.05% | $20.73M |
+| FXRP | [kinetic →](https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_chain) | 1.02% | $20.9M |
+| COREUSDT0 | [mystic-finance-lending →](https://www.defi.garden/?pool=5ea185f4-b3cc-4fd8-afe6-39037bf483dd&src=seo_chain) | 4.77% | $20.9M |
 | USDX | [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_chain) | 3.50% | $14.74M |
-| SFLR | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_chain) | 8.70% | $14.19M |
-| USD₮0-USDC.E | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_chain) | 0.09% | $6.44M |
-| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_chain) | 1.62% | $5.29M |
-| SFLR | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_chain) | 0.51% | $4.71M |
-| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=b9f857e7-c09a-4385-bab9-907f89c00dc1&src=seo_chain) | 2.61% | $2.78M |
+| SFLR | [sceptre-liquid →](https://www.defi.garden/?pool=fa132efa-f62b-40f0-addc-8afe0b4a810a&src=seo_chain) | 8.70% | $13.85M |
+| USD₮0-USDC.E | [sparkdex-v3.1 →](https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_chain) | 0.06% | $6.44M |
+| STXRP-FXRP | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_chain) | 1.66% | $5.25M |
+| SFLR | [kinetic →](https://www.defi.garden/?pool=5219817c-dfdb-47cc-b417-f218fb12227d&src=seo_chain) | 0.50% | $4.72M |
+| STXRP | [spectra-v2 →](https://www.defi.garden/?pool=b9f857e7-c09a-4385-bab9-907f89c00dc1&src=seo_chain) | 2.41% | $2.8M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Flare의 sceptre-liquid에서 APY 8.70%예
 
 ### Flare 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 40개이며, 합산 TVL은 $119.09M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 40개이며, 합산 TVL은 $118.91M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,4 +47,4 @@ DefiLlama 실시간 데이터 기준, Flare의 sceptre-liquid에서 APY 8.70%예
 - [STXRP](https://www.defi.garden/ko/tokens/stxrp)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

@@ -1,10 +1,10 @@
 # RWAGMI DeFi Yields
 
-The highest honest RWAGMI yield right now is 5.59% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RWAGMI yield right now is 5.34% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d3836032-ac07-5fa6-b895-7b2c52806088&src=seo_token) | Base | 5.59% | $113.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d3836032-ac07-5fa6-b895-7b2c52806088&src=seo_token) | Base | 5.34% | $113.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RWAGMI yield today?
 
-5.59% APY on uniswap-v4 (Base), based on live DefiLlama data.
+5.34% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many RWAGMI pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

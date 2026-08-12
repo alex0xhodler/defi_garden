@@ -4,7 +4,7 @@ The highest honest FUEL yield right now is 21.00% on fuel-staking (Fuel Ignition
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fuel-staking →](https://www.defi.garden/?pool=ca3f5b8f-896d-4e54-9602-ccaa47727fa2&src=seo_token) | Fuel Ignition | 21.00% | $1.23M |
+| [fuel-staking →](https://www.defi.garden/?pool=ca3f5b8f-896d-4e54-9602-ccaa47727fa2&src=seo_token) | Fuel Ignition | 21.00% | $1.2M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FUEL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.23M in total.
+1 live pool clear this page's $100K TVL floor, $1.2M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Fuel Ignition](https://www.defi.garden/chains/fuel-ignition)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

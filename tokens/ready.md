@@ -1,10 +1,10 @@
 # READY DeFi Yields
 
-The highest honest READY yield right now is 111.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest READY yield right now is 96.90% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=10aba9d6-02ab-4cca-9475-2d0f822fff8b&src=seo_token) | Solana | 111.18% | $165.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=10aba9d6-02ab-4cca-9475-2d0f822fff8b&src=seo_token) | Solana | 96.90% | $170.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest READY yield today?
 
-111.18% APY on raydium-amm (Solana), based on live DefiLlama data.
+96.90% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many READY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.3K in total.
+1 live pool clear this page's $100K TVL floor, $170.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

@@ -4,7 +4,7 @@ The highest honest WEETHS yield right now is 0.86% on fluid-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluid-dex →](https://www.defi.garden/?pool=92dcfa5e-b6d7-4def-bec4-61bc7e63616c&src=seo_token) | Ethereum | 0.86% | $603.7K |
+| [fluid-dex →](https://www.defi.garden/?pool=92dcfa5e-b6d7-4def-bec4-61bc7e63616c&src=seo_token) | Ethereum | 0.86% | $605.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WEETHS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.06M in total.
+2 live pools clear this page's $100K TVL floor, $3.07M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +49,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

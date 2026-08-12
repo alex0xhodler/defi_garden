@@ -4,7 +4,7 @@ The highest honest BIGSB yield right now is 0.33% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c2ce9d03-61be-42e7-903a-bd2e71069a9d&src=seo_token) | Ethereum | 0.33% | $417K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c2ce9d03-61be-42e7-903a-bd2e71069a9d&src=seo_token) | Ethereum | 0.33% | $416.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BIGSB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $417K in total.
+1 live pool clear this page's $100K TVL floor, $416.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 11, 2026
+## Last updated August 12, 2026

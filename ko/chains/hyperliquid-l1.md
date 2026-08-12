@@ -1,17 +1,17 @@
 # Hyperliquid L1 디파이 수익률
 
-현재 Hyperliquid L1의 가장 높은 정직한 수익률은 Hyperliquid L1의 project-x에서 21.66%이며, $100K TVL 기준을 넘는 163개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Hyperliquid L1의 가장 높은 정직한 수익률은 Hyperliquid L1의 liminal-basis에서 7.29%이며, $100K TVL 기준을 넘는 163개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.93% | $769.82M |
-| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.59% | $41.91M |
-| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.30% | $17.46M |
-| WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 21.66% | $16.89M |
-| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 0.79% | $15.4M |
-| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 7.29% | $13.45M |
-| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.92% | $11.62M |
-| LIMUSD | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_chain) | 7.29% | $10.52M |
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.93% | $768.73M |
+| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.59% | $42.24M |
+| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.52% | $17.43M |
+| WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 0.06% | $16.88M |
+| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 0.79% | $15.46M |
+| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 7.21% | $13.35M |
+| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.83% | $12.43M |
+| LIMUSD | [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_chain) | 7.29% | $10.42M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@
 
 ### 오늘 Hyperliquid L1의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 21.66%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 liminal-basis에서 APY 7.29%예요.
 
 ### Hyperliquid L1 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -47,4 +47,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 21.6
 - [FEUSDC](https://www.defi.garden/ko/tokens/feusdc)
 - [LIMUSD](https://www.defi.garden/ko/tokens/limusd)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_token) | Bifrost Network | 6.49% | $296.8K |
+| [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_token) | Bifrost Network | 6.49% | $297.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Bifrost Network의 bifi에서 APY 6.49%예
 
 ### BTCUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $296.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $297.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Bifrost Network의 bifi에서 APY 6.49%예
 
 - [Bifrost Network](https://www.defi.garden/ko/chains/bifrost-network)
 
-## 마지막 업데이트: August 11, 2026
+## 마지막 업데이트: August 12, 2026
