@@ -556,6 +556,79 @@ async function main() {
           `expected zero "unreachable" advisories on the real north-star surface now that scroll-behavior:smooth is defeated, got: ${JSON.stringify(unreachable, null, 2)}`);
       });
     }
+
+    // --- (10)/(11) backlog 276 — the victim scan used to exempt ANY
+    // fixed/sticky element AND anything inside ANY overlay, blanket, not
+    // per-pair. That is strictly wider than the legitimate exemption (a
+    // victim inside its OWN covering overlay), so a victim nested in one
+    // overlay but occluded by a DIFFERENT, unrelated overlay went unseen —
+    // the exact item 273 shape: `.app-search-input` lives inside
+    // `.app-header-sticky` (itself an overlay) and was occluded by a sibling
+    // `.language-toggle` (position:fixed), invisible to the lens. ---
+    function nestedOverlayVictimFixture() {
+      return `<!doctype html><html><head><style>
+        body { margin: 0; height: 1200px; font-family: sans-serif; }
+        .header-sticky { position: sticky; top: 0; left: 0; right: 0; height: 60px; background: #202020; z-index: 1; }
+        .search-input { position: absolute; top: 4px; left: 20px; width: 120px; height: 32px; box-sizing: border-box; }
+        .toggle { position: fixed; top: 8px; left: 60px; width: 40px; height: 40px; background: #900; color: #fff; z-index: 2; }
+      </style></head><body>
+        <div class="header-sticky"><input class="search-input" placeholder="search"></div>
+        <div class="toggle">T</div>
+        <p>page content, well clear of the header</p>
+      </body></html>`;
+    }
+
+    const nestedPage = await browser.newPage({ viewport: { width: 800, height: 780 } });
+    const nestedErrors = makeErrorSink(nestedPage);
+    await nestedPage.setContent(nestedOverlayVictimFixture());
+
+    let nestedFindings = [];
+    await testAsync('(10) backlog 276: a victim inside overlay A, occluded by a DIFFERENT overlay B that is not its ancestor, IS reported', async () => {
+      const s = { name: 'test-nested-overlay-victim', vpLabel: '800px', width: 800, kind: 'static' };
+      await checkOcclusion(nestedPage, s, nestedFindings);
+      const blocking = nestedFindings.filter((f) => f.check === 'occlusion' && f.severity === 'P0');
+      assertT(blocking.length >= 1,
+        `expected >=1 P0 occlusion finding (search-input occluded by the sibling toggle), got: ${JSON.stringify(nestedFindings, null, 2)}`);
+      const namesInput = blocking.some((f) => f.detail.includes('search-input'));
+      assertT(namesInput, `expected a P0 finding naming the search-input, got: ${JSON.stringify(blocking, null, 2)}`);
+    });
+    await testAsync('(10) no unexpected page/console errors on the nested-overlay-victim fixture', async () => {
+      assertT(nestedErrors.length === 0, nestedErrors.join('\n    '));
+    });
+    await nestedPage.close();
+
+    // Negative control (backlog 276's own stated risk: "false-positive risk
+    // on legitimately-nested overlay content — the exemption exists for a
+    // reason"). A victim inside its OWN covering overlay, with no OTHER
+    // overlay on the page, must stay unflagged — the per-pair rewrite must
+    // not have widened the check into flagging every overlay's own children.
+    function selfContainedOverlayFixture() {
+      return `<!doctype html><html><head><style>
+        body { margin: 0; height: 1200px; font-family: sans-serif; padding-top: 60px; }
+        .header { position: fixed; top: 0; left: 0; right: 0; height: 60px; background: #202020; z-index: 1; display: flex; align-items: center; }
+        .header a { color: #fff; margin-left: 16px; }
+      </style></head><body>
+        <div class="header"><a href="#nav">Menu</a></div>
+        <p>page content, safely below the header thanks to top padding</p>
+      </body></html>`;
+    }
+
+    const selfContainedPage = await browser.newPage({ viewport: { width: 800, height: 780 } });
+    const selfContainedErrors = makeErrorSink(selfContainedPage);
+    await selfContainedPage.setContent(selfContainedOverlayFixture());
+
+    let selfContainedFindings = [];
+    await testAsync('(11) negative control: a victim inside its OWN covering overlay, no other overlay on the page, stays unflagged', async () => {
+      const s = { name: 'test-self-contained-overlay', vpLabel: '800px', width: 800, kind: 'static' };
+      await checkOcclusion(selfContainedPage, s, selfContainedFindings);
+      const blocking = selfContainedFindings.filter((f) => f.check === 'occlusion' && (f.severity === 'P0' || f.severity === 'P1'));
+      assertT(blocking.length === 0,
+        `expected zero blocking findings for a nav link inside its own fixed header, got: ${JSON.stringify(blocking, null, 2)}`);
+    });
+    await testAsync('(11) no unexpected page/console errors on the self-contained-overlay fixture', async () => {
+      assertT(selfContainedErrors.length === 0, selfContainedErrors.join('\n    '));
+    });
+    await selfContainedPage.close();
   } finally {
     if (browser) await browser.close();
     if (server) server.close();
