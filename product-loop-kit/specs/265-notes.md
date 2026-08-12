@@ -21,16 +21,26 @@ Deviations from spec, conservative choices, why.
   Two short backward-references to `/api/mcp` remain in the new prose
   (past-tense history: "265 fixed X"), deliberately not scrubbed — they
   describe what was wrong, not what's live now.
+- **Also corrected stale `BACKLOG.md` row 234** (READY → SHIPPED, PR #432 /
+  `dc9892a45b`), found via the pre-build in-flight check — administrative,
+  not in spec 265's scope.
 - **SKILL.md:74 changed** even though its `/api/mcp` was an "e.g." generic
-  example, not a site-specific claim — spec 265 named it explicitly as one
-  of the 5 artifacts to fix, and leaving it would still match the acceptance
-  grep.
+  example, not a site-specific claim. Spec 265 does not name SKILL.md, but
+  leaving it would still trip the acceptance grep's "0 product/tooling
+  sites" bar, so it needed fixing regardless.
+- **`index.json`'s sha256 pin for SKILL.md updated too** (verifier round 1
+  BLOCKING finding) — editing SKILL.md without updating the discovery
+  index's hash of it would have been a fresh instance of this exact item's
+  bug class, self-inflicted.
 
 ## Class NOT closed, with numbers
-This closes the MCP-discovery population only (5 artifacts: 3 cards + 2
-tooling files + 1 doc restatement) — same scope spec 265 declared.
-Untouched, filed separately: `openapi.json` path drift (**262**, BLOCKED on
-the human) and free/paid boundary prose drift (**267**, READY, unbuilt).
+This closes the MCP-discovery population (6 artifacts: 3 cards + 2 tooling
+files + 1 doc restatement — 1 more than spec 265's own tally of 5, found via
+the acceptance grep). Untouched, filed separately: `openapi.json` path drift
+(**262**, BLOCKED on the human) and free/paid boundary prose drift (**267**,
+READY, unbuilt). Also noted but out of scope: `index.json`'s `openapi.json`
+and `llms.txt` sha256 entries are independently stale too (they drift on
+every daily data regen) — predate this diff, not introduced by it.
 
 ## Non-vacuity (proven in-session, byte-identical restores confirmed via md5/diff)
 1. Added a phantom `prompts` capability to `.well-known/mcp.json` → red
