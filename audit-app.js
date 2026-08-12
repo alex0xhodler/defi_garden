@@ -982,7 +982,9 @@ const I18N_UNTRANSLATED_ALLOWLIST = {
   'planner.ladderNetflix': 'brand name (Netflix)',
   'planner.ladderClaude': 'brand name (Claude Pro)',
   tcpColApy: 'acronym, same in KO',
-  tcpColTvl: 'acronym, same in KO'
+  tcpColTvl: 'acronym, same in KO',
+  resultsColApy: 'acronym, same in KO',
+  resultsColTvl: 'acronym, same in KO'
 };
 
 // Recursively flattens a translations namespace into { 'a.b.c': leafValue }.
