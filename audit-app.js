@@ -4650,14 +4650,6 @@ function occlusionPassEval(args) {
   for (var j = 0; j < all.length; j++) {
     if (candidateCount >= candidateCap) { truncated = true; break; }
     var vel = all[j];
-    var vcs = getComputedStyle(vel);
-    if (vcs.position === 'fixed' || vcs.position === 'sticky') continue;
-
-    var insideOverlay = false;
-    for (var k = 0; k < overlays.length; k++) {
-      if (overlays[k].el !== vel && overlays[k].el.contains(vel)) { insideOverlay = true; break; }
-    }
-    if (insideOverlay) continue;
 
     var isInteractive = vel.matches(INTERACTIVE_SEL);
     var snippet = '';
@@ -4676,6 +4668,15 @@ function occlusionPassEval(args) {
 
     for (var oi = 0; oi < overlays.length; oi++) {
       var ov = overlays[oi];
+      // Per-PAIR exemption (item 276), not a blanket victim-side skip: a
+      // victim is only exempt from ITS OWN covering overlay (self or
+      // ancestor), never from every overlay on the page. This also drops the
+      // old "victim itself fixed/sticky -> always skip" rule, so one overlay
+      // occluding ANOTHER overlay's content (the item 273 shape —
+      // .app-search-input sits inside .app-header-sticky, a distinct overlay
+      // from the .language-toggle that actually covers it) is now visible to
+      // the scan instead of exempted by construction.
+      if (ov.el === vel || ov.el.contains(vel)) continue;
       var inter = intersectArea(vrect, ov.rect);
       if (inter <= 0) continue;
       var vArea = area(vrect);
