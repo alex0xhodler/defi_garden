@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 6.55% | $1.5M |
+| [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 6.56% | $1.5M |
 | [pendle →](https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token) | Ethereum | 7.88% | $1.5M |
-| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 5.45% | $489.6K |
-| [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.41% | $489.3K |
+| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 5.40% | $489.5K |
+| [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.41% | $489.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -21,10 +21,10 @@ TMVUSDC 풀은 여기 4개가 있고, 1개 체인에서 APY가 2.41%부터 7.88%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 6.55% | 6.29% | 기본 금리 |
+| pendle | 6.56% | 6.30% | 기본 금리 |
 | pendle | 7.88% | 7.94% | 기본 금리 |
-| curve-dex | 5.45% | 4.61% | 인센티브 55.78% |
-| convex-finance | 2.41% | 2.42% | 기본 금리 |
+| curve-dex | 5.40% | 4.61% | 인센티브 55.36% |
+| convex-finance | 2.41% | 2.40% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

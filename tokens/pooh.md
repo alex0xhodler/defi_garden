@@ -1,10 +1,10 @@
 # POOH DeFi Yields
 
-The highest honest POOH yield right now is 0.73% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POOH yield right now is 0.58% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dd9330d0-6ac3-42e1-bc58-b716646362f5&src=seo_token) | Ethereum | 0.73% | $419.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dd9330d0-6ac3-42e1-bc58-b716646362f5&src=seo_token) | Ethereum | 0.58% | $427.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POOH yield today?
 
-0.73% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.58% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many POOH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $419.8K in total.
+1 live pool clear this page's $100K TVL floor, $427.2K in total.
 
 ### Are these rates safe?
 

@@ -5,9 +5,9 @@ The highest honest LIMUSD yield right now is 9.08% on pendle (Hyperliquid L1), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [liminal-basis →](https://www.defi.garden/?pool=3dd52c6a-959e-531d-aa18-84bee3e3cbe5&src=seo_token) | Ethereum | 7.61% | $10.83M |
-| [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.29% | $10.42M |
+| [liminal-basis →](https://www.defi.garden/?pool=835f689d-0339-51e7-b2a2-e96652e2dbeb&src=seo_token) | Hyperliquid L1 | 7.29% | $10.4M |
 | [pendle →](https://www.defi.garden/?pool=e0ab5e92-79be-4e00-aa28-a2447db45282&src=seo_token) | Hyperliquid L1 | 9.08% | $1.77M |
-| [pendle →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 7.47% | $1.77M |
+| [pendle →](https://www.defi.garden/?pool=331b4ae9-51b9-42ce-857a-9be2cb5dcbcd&src=seo_token) | Hyperliquid L1 | 7.48% | $1.77M |
 | [liminal-basis →](https://www.defi.garden/?pool=7f320a16-c3df-5667-9070-b608d0109dee&src=seo_token) | Arbitrum | 7.29% | $323.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,10 +23,10 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | liminal-basis | 7.61% | 7.73% | Base rate |
-| liminal-basis | 7.29% | 7.70% | Base rate |
-| pendle | 9.08% | 9.21% | Base rate |
-| pendle | 7.47% | 8.71% | Base rate |
-| liminal-basis | 7.29% | 7.70% | Base rate |
+| liminal-basis | 7.29% | 7.69% | Base rate |
+| pendle | 9.08% | 9.20% | Base rate |
+| pendle | 7.48% | 8.70% | Base rate |
+| liminal-basis | 7.29% | 7.69% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LIMUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $25.11M in total.
+5 live pools clear this page's $100K TVL floor, $25.1M in total.
 
 ### Are these rates safe?
 

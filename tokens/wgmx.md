@@ -4,10 +4,10 @@ The highest honest WGMX yield right now is 164.31% on gmtrade (Solana), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token) | Solana | 164.31% | $262.7K |
-| [gmtrade →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token) | Solana | 154.88% | $195.6K |
-| [gmtrade →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token) | Solana | 2.24% | $122.2K |
-| [gmtrade →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token) | Solana | 148.09% | $117.1K |
+| [gmtrade →](https://www.defi.garden/?pool=f34faa07-f81b-4214-8656-3f2d6ead7494&src=seo_token) | Solana | 164.31% | $280.6K |
+| [gmtrade →](https://www.defi.garden/?pool=892ecfd5-1eb1-4294-af2a-9a6ad79bdd18&src=seo_token) | Solana | 154.88% | $200.9K |
+| [gmtrade →](https://www.defi.garden/?pool=4f1a20fc-cd3d-45f8-ab2d-637d537e3a4b&src=seo_token) | Solana | 2.24% | $124K |
+| [gmtrade →](https://www.defi.garden/?pool=7ed8954f-c9e8-4e06-9c93-025e887142cb&src=seo_token) | Solana | 148.09% | $122K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 WGMX shows up in 4 pools here, with rates from 2.24% to 164.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 72.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 73.65% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,10 +23,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gmtrade | 164.31% | 84.11% | Base rate |
-| gmtrade | 154.88% | 101.80% | Base rate |
-| gmtrade | 2.24% | 11.88% | Base rate |
-| gmtrade | 148.09% | 60.18% | Base rate |
+| gmtrade | 164.31% | 85.55% | Base rate |
+| gmtrade | 154.88% | 102.92% | Base rate |
+| gmtrade | 2.24% | 11.60% | Base rate |
+| gmtrade | 148.09% | 61.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WGMX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $697.6K in total.
+4 live pools clear this page's $100K TVL floor, $727.4K in total.
 
 ### Are these rates safe?
 
@@ -47,11 +47,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

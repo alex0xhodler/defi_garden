@@ -4,7 +4,7 @@ The highest honest USDJPY yield right now is 62.03% on gmtrade (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=852b494e-a92c-4e87-94c8-ea4f498d9463&src=seo_token) | Solana | 62.03% | $1.97M |
+| [gmtrade →](https://www.defi.garden/?pool=852b494e-a92c-4e87-94c8-ea4f498d9463&src=seo_token) | Solana | 62.03% | $1.94M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDJPY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.97M in total.
+1 live pool clear this page's $100K TVL floor, $1.94M in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

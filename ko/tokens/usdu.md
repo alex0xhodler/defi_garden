@@ -41,11 +41,11 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 0.09%
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
-- [USTB](https://www.defi.garden/ko/tokens/ustb)
 
 ## 이용 가능한 체인
 

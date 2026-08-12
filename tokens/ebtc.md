@@ -1,13 +1,13 @@
 # EBTC DeFi Yields
 
-The highest honest EBTC yield right now is 0.36% on fluid-dex (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EBTC yield right now is 0.86% on curve-dex (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408&src=seo_token) | Ethereum | 0.33% | $15.88M |
-| [fluid-dex →](https://www.defi.garden/?pool=a3fd94a1-2b63-4753-b10a-1436b58768c9&src=seo_token) | Ethereum | 0.36% | $3.27M |
-| [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37&src=seo_token) | Ethereum | 1.08% | $147.2K |
-| [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb&src=seo_token) | Ethereum | 0.87% | $147.2K |
+| [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408&src=seo_token) | Ethereum | 0.33% | $15.98M |
+| [fluid-dex →](https://www.defi.garden/?pool=a3fd94a1-2b63-4753-b10a-1436b58768c9&src=seo_token) | Ethereum | 0.36% | $3.29M |
+| [curve-dex →](https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb&src=seo_token) | Ethereum | 0.86% | $147.6K |
+| [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37&src=seo_token) | Ethereum | 1.08% | $147.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,8 +23,8 @@ EBTC shows up in 4 pools here, with rates from 0.33% to 1.08% APY across 1 chain
 |---|---|---|---|
 | ether.fi-stake | 0.33% | 0.33% | Base rate |
 | fluid-dex | 0.36% | 0.33% | Base rate |
-| convex-finance | 1.08% | 0.54% | 58.50% incentives |
-| curve-dex | 0.87% | 0.37% | 48.06% incentives |
+| curve-dex | 0.86% | 0.37% | 47.70% incentives |
+| convex-finance | 1.08% | 0.55% | 58.14% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EBTC yield today?
 
-0.36% APY on fluid-dex (Ethereum), based on live DefiLlama data.
+0.86% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many EBTC pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $25M in total.
+7 live pools clear this page's $100K TVL floor, $25.17M in total.
 
 ### Are these rates safe?
 

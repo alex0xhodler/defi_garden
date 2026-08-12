@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 9.24% | $65.81M |
-| [pendle →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 13.99% | $2.89M |
+| [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 9.24% | $65.82M |
 | [pendle →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 14.70% | $2.89M |
+| [pendle →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 13.99% | $2.89M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -21,8 +21,8 @@ NOPAL 풀은 여기 3개가 있고, 2개 체인에서 APY가 9.24%부터 14.70%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | nest-credit | 9.24% | 9.90% | 기본 금리 |
+| pendle | 14.70% | 17.28% | 인센티브 1.54% |
 | pendle | 13.99% | 14.21% | 기본 금리 |
-| pendle | 14.70% | 17.39% | 인센티브 1.53% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 14.70%예요.
 
 ### NOPAL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $71.58M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $71.6M예요.
 
 ### 이 수익률은 안전한가요?
 

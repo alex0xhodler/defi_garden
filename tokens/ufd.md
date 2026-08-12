@@ -1,10 +1,10 @@
 # UFD DeFi Yields
 
-The highest honest UFD yield right now is 1.61% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UFD yield right now is 1.90% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ce002fb5-1b0e-4a72-af43-a800228e83e8&src=seo_token) | Solana | 1.61% | $1.08M |
+| [raydium-amm →](https://www.defi.garden/?pool=ce002fb5-1b0e-4a72-af43-a800228e83e8&src=seo_token) | Solana | 1.90% | $1.07M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UFD yield today?
 
-1.61% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.90% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many UFD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.08M in total.
+1 live pool clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

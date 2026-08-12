@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
-- [Avalanche](https://www.defi.garden/chains/avalanche)
+- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
 ## Top tokens on Canto
 

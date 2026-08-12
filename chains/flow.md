@@ -1,13 +1,13 @@
 # Flow DeFi Yields
 
-The highest honest Flow yield right now is 7.90% on ankr (Flow), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Flow yield right now is 8.91% on more-markets (Flow), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_chain) | 7.90% | $4.22M |
-| WFLOW | [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_chain) | 2.72% | $514.3K |
-| STGUSDC | [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4&src=seo_chain) | 1.37% | $316K |
-| PYUSD0 | [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_chain) | 8.91% | $131.8K |
+| ANKRFLOWEVM | [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_chain) | 7.90% | $4.24M |
+| WFLOW | [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_chain) | 2.72% | $501.6K |
+| STGUSDC | [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4&src=seo_chain) | 1.37% | $313.8K |
+| PYUSD0 | [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_chain) | 8.91% | $131.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +15,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Flow yield today?
 
-7.90% APY on ankr (Flow), based on live DefiLlama data.
+8.91% APY on more-markets (Flow), based on live DefiLlama data.
 
 ### How many Flow pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $7.74M in total.
+7 live pools clear this page's $100K TVL floor, $7.7M in total.
 
 ### Are these rates safe?
 

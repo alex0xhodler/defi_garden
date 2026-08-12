@@ -1,6 +1,6 @@
 # USD0-USDC — uniswap-v3 on Ethereum
 
-**Total APY:** 0.42% (0.42% Base · + 0.00% Rewards)
+**Total APY:** 0.41% (0.41% Base · + 0.00% Rewards)
 
 **TVL:** $1.76M
 

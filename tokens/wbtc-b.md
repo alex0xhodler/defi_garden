@@ -1,25 +1,25 @@
 # WBTC.B DeFi Yields
 
-The highest honest WBTC.B yield right now is 12.62% on gmx-v2-perps (Arbitrum), among 31 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBTC.B yield right now is 12.53% on gmx-v2-perps (Arbitrum), among 31 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token) | Arbitrum | 2.70% | $50.51M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 1.98% | $7.93M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 1.98% | $7.93M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token) | Arbitrum | 10.43% | $1.78M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=4ab15a65-3ed0-4577-973b-ef6f1a97ccc2&src=seo_token) | Arbitrum | 0.53% | $1.13M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token) | Arbitrum | 10.81% | $959K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token) | Arbitrum | 12.62% | $896.4K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token) | Arbitrum | 8.52% | $695.2K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_token) | Arbitrum | 2.65% | $50.68M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 1.88% | $7.98M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=ffb4e407-6507-4615-b776-a0d99cfc1bbb&src=seo_token) | Arbitrum | 1.88% | $7.98M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=9cd96de2-8e96-4eed-b300-5c0e52e87fc9&src=seo_token) | Arbitrum | 10.41% | $1.78M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=4ab15a65-3ed0-4577-973b-ef6f1a97ccc2&src=seo_token) | Arbitrum | 0.55% | $1.14M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=cb3e197e-52ed-41ad-b134-d256fad5ce42&src=seo_token) | Arbitrum | 10.83% | $960.3K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=7b943e70-931b-43e1-97be-a0b7bd623836&src=seo_token) | Arbitrum | 12.53% | $898.9K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=9416081e-458b-4719-8e92-22115ecc7adf&src=seo_token) | Arbitrum | 12.16% | $698K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WBTC.B shows up in 8 pools here, with rates from 0.53% to 12.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WBTC.B shows up in 8 pools here, with rates from 0.55% to 12.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.93% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,14 +27,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gmx-v2-perps | 2.70% | 5.87% | Base rate |
-| gmx-v2-perps | 1.98% | 4.00% | Base rate |
-| gmx-v2-perps | 1.98% | 4.00% | Base rate |
-| gmx-v2-perps | 10.43% | 9.19% | Base rate |
-| gmx-v2-perps | 0.53% | 0.74% | Base rate |
-| gmx-v2-perps | 10.81% | 2.50% | Base rate |
-| gmx-v2-perps | 12.62% | 13.25% | Base rate |
-| gmx-v2-perps | 8.52% | 7.42% | Base rate |
+| gmx-v2-perps | 2.65% | 5.81% | Base rate |
+| gmx-v2-perps | 1.88% | 3.94% | Base rate |
+| gmx-v2-perps | 1.88% | 3.94% | Base rate |
+| gmx-v2-perps | 10.41% | 9.27% | Base rate |
+| gmx-v2-perps | 0.55% | 0.73% | Base rate |
+| gmx-v2-perps | 10.83% | 2.63% | Base rate |
+| gmx-v2-perps | 12.53% | 13.11% | Base rate |
+| gmx-v2-perps | 12.16% | 7.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WBTC.B yield today?
 
-12.62% APY on gmx-v2-perps (Arbitrum), based on live DefiLlama data.
+12.53% APY on gmx-v2-perps (Arbitrum), based on live DefiLlama data.
 
 ### How many WBTC.B pools clear the TVL floor?
 
-31 live pools clear this page's $100K TVL floor, $77.61M in total.
+31 live pools clear this page's $100K TVL floor, $77.92M in total.
 
 ### Are these rates safe?
 

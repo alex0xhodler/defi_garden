@@ -1,25 +1,25 @@
 # BTCB DeFi Yields
 
-The highest honest BTCB yield right now is 20.43% on uniswap-v3 (BSC), among 20 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTCB yield right now is 24.66% on uniswap-v3 (BSC), among 20 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token) | BSC | 0.21% | $279.5M |
-| [aave-v3 →](https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token) | BSC | 0.02% | $61.82M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 10.87% | $6.4M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token) | BSC | 9.81% | $1.39M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token) | BSC | 20.43% | $941.4K |
-| [kinza-finance →](https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token) | BSC | 0.01% | $848.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 2.57% | $808.7K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token) | BSC | 1.65% | $778.4K |
+| [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_token) | BSC | 0.21% | $282.45M |
+| [aave-v3 →](https://www.defi.garden/?pool=45bfb85f-deb5-4990-b9c4-cfb99629e6e8&src=seo_token) | BSC | 0.02% | $62.46M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 11.94% | $6.49M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6b928a97-3519-4cf4-a0e2-c91f34e719db&src=seo_token) | BSC | 11.87% | $1.41M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a8a67ce9-3f86-4272-a305-d4b2abd58783&src=seo_token) | BSC | 24.66% | $950.2K |
+| [kinza-finance →](https://www.defi.garden/?pool=e374da12-db6c-4267-a108-9fc4fbf66108&src=seo_token) | BSC | 0.01% | $856.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ea5a887f-e002-4f4a-b037-3116af5ebfb5&src=seo_token) | BSC | 2.18% | $851.4K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=11b41c5a-3811-4f85-858c-98257fdc5ba6&src=seo_token) | BSC | 1.65% | $783.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BTCB shows up in 8 pools here, with rates from 0.01% to 20.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BTCB shows up in 8 pools here, with rates from 0.01% to 24.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.47% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -29,12 +29,12 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | venus-core-pool | 0.21% | 0.22% | Base rate |
 | aave-v3 | 0.02% | 0.04% | Base rate |
-| uniswap-v3 | 10.87% | 10.16% | Base rate |
-| uniswap-v3 | 9.81% | 18.78% | Base rate |
-| uniswap-v3 | 20.43% | 21.03% | Base rate |
+| uniswap-v3 | 11.94% | 10.16% | Base rate |
+| uniswap-v3 | 11.87% | 18.69% | Base rate |
+| uniswap-v3 | 24.66% | 21.15% | Base rate |
 | kinza-finance | 0.01% | 0.00% | Base rate |
-| uniswap-v3 | 2.57% | 2.71% | Base rate |
-| pancakeswap-amm | 1.65% | 2.22% | Base rate |
+| uniswap-v3 | 2.18% | 2.73% | Base rate |
+| pancakeswap-amm | 1.65% | 2.20% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BTCB yield today?
 
-20.43% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+24.66% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BTCB pools clear the TVL floor?
 
-20 live pools clear this page's $100K TVL floor, $547.59M in total.
+20 live pools clear this page's $100K TVL floor, $553.47M in total.
 
 ### Are these rates safe?
 

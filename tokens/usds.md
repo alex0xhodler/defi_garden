@@ -1,23 +1,23 @@
 # USDS DeFi Yields
 
-The highest honest USDS yield right now is 6.13% on sky-lending (Ethereum), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDS yield right now is 6.01% on sky-lending (Ethereum), among 21 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token) | Ethereum | 3.70% | $871.79M |
-| [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token) | Ethereum | 2.98% | $542.9M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=ff1bb959-d160-4906-bad2-d3e37a1e92e8&src=seo_token) | Ethereum | 3.03% | $871.9M |
+| [sparklend →](https://www.defi.garden/?pool=54e9b138-3146-4c1f-8dce-1cb948f5ef96&src=seo_token) | Ethereum | 3.00% | $542.98M |
 | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_token) | Arbitrum | 3.52% | $361.69M |
-| [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token) | Ethereum | 2.04% | $268.49M |
-| [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token) | Ethereum | 6.13% | $177.96M |
-| [aave-v3 →](https://www.defi.garden/?pool=e65588a1-27ad-4e20-9232-68a6cfaccf63&src=seo_token) | Ethereum | 3.55% | $14.91M |
+| [sparklend →](https://www.defi.garden/?pool=0ed981dc-b49d-426d-ade5-6014728b1ef9&src=seo_token) | Ethereum | 2.04% | $272.86M |
+| [sky-lending →](https://www.defi.garden/?pool=4d87430b-688a-5ac5-a593-4e31ac715d02&src=seo_token) | Ethereum | 6.01% | $178.18M |
+| [aave-v3 →](https://www.defi.garden/?pool=e65588a1-27ad-4e20-9232-68a6cfaccf63&src=seo_token) | Ethereum | 3.53% | $14.91M |
 | [spark-savings →](https://www.defi.garden/?pool=aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd&src=seo_token) | Base | 3.52% | $11.98M |
-| [yearn-finance →](https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token) | Ethereum | 3.63% | $4.88M |
+| [yearn-finance →](https://www.defi.garden/?pool=7501ef09-87d1-405c-b2b2-f269b2727289&src=seo_token) | Ethereum | 3.62% | $4.88M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDS shows up in 8 pools here, with rates from 2.04% to 6.13% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDS shows up in 8 pools here, with rates from 2.04% to 6.01% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,14 +25,14 @@ USDS shows up in 8 pools here, with rates from 2.04% to 6.13% APY across 3 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| centrifuge-protocol | 3.70% | 3.56% | Base rate |
-| sparklend | 2.98% | 3.38% | 100.00% incentives |
+| centrifuge-protocol | 3.03% | 3.57% | Base rate |
+| sparklend | 3.00% | 3.37% | 100.00% incentives |
 | spark-savings | 3.52% | 3.54% | Base rate |
 | sparklend | 2.04% | 2.09% | Base rate |
-| sky-lending | 6.13% | 6.43% | 100.00% incentives |
-| aave-v3 | 3.55% | 3.44% | 97.30% incentives |
+| sky-lending | 6.01% | 6.40% | 100.00% incentives |
+| aave-v3 | 3.53% | 3.44% | 97.29% incentives |
 | spark-savings | 3.52% | 3.54% | Base rate |
-| yearn-finance | 3.63% | 3.59% | Base rate |
+| yearn-finance | 3.62% | 3.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDS yield today?
 
-6.13% APY on sky-lending (Ethereum), based on live DefiLlama data.
+6.01% APY on sky-lending (Ethereum), based on live DefiLlama data.
 
 ### How many USDS pools clear the TVL floor?
 

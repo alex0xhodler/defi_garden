@@ -4,8 +4,8 @@ The highest honest LST yield right now is 5.34% on marginfi-lst (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.34% | $7.65M |
-| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.34M |
+| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.34% | $7.67M |
+| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.35M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $10M in total.
+2 live pools clear this page's $100K TVL floor, $10.03M in total.
 
 ### Are these rates safe?
 
@@ -41,11 +41,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

@@ -1,19 +1,19 @@
 # PBTC DeFi Yields
 
-The highest honest PBTC yield right now is 7.34% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PBTC yield right now is 5.24% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1a81b580-d291-4a70-96c9-24ccd2d9a708&src=seo_token) | Solana | 7.34% | $199.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=fb8cefa0-1f3b-4d64-8f46-103889c30f69&src=seo_token) | Ethereum | 0.04% | $135.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=1a81b580-d291-4a70-96c9-24ccd2d9a708&src=seo_token) | Solana | 5.24% | $199.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fb8cefa0-1f3b-4d64-8f46-103889c30f69&src=seo_token) | Ethereum | 0.11% | $136.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PBTC shows up in 2 pools here, with rates from 0.04% to 7.34% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PBTC shows up in 2 pools here, with rates from 0.11% to 5.24% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.09% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.07% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 7.34% | 10.01% | Base rate |
-| uniswap-v2 | 0.04% | 0.17% | Base rate |
+| raydium-amm | 5.24% | 9.97% | Base rate |
+| uniswap-v2 | 0.11% | 0.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PBTC yield today?
 
-7.34% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.24% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $335.3K in total.
+2 live pools clear this page's $100K TVL floor, $336.2K in total.
 
 ### Are these rates safe?
 

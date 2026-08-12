@@ -1,21 +1,21 @@
 # CJPY DeFi Yields
 
-The highest honest CJPY yield right now is 14.64% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CJPY yield right now is 14.28% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25&src=seo_token) | Ethereum | 8.79% | $239.6K |
-| [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574&src=seo_token) | Ethereum | 9.85% | $237.4K |
-| [convex-finance →](https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00&src=seo_token) | Ethereum | 14.64% | $234.9K |
-| [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c&src=seo_token) | Ethereum | 13.56% | $205.7K |
+| [curve-dex →](https://www.defi.garden/?pool=583ef558-d334-4ac3-9be0-bb0e5ed64a25&src=seo_token) | Ethereum | 8.65% | $241.2K |
+| [curve-dex →](https://www.defi.garden/?pool=c5d9c086-301f-48a1-acfb-34d70bafb574&src=seo_token) | Ethereum | 9.63% | $240.5K |
+| [convex-finance →](https://www.defi.garden/?pool=5192b229-53c2-4c23-8da5-6a309cbc1b00&src=seo_token) | Ethereum | 14.28% | $238K |
+| [convex-finance →](https://www.defi.garden/?pool=d37c7ec1-a23f-4f0f-885b-60461949c90c&src=seo_token) | Ethereum | 13.32% | $207K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CJPY shows up in 4 pools here, with rates from 8.79% to 14.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CJPY shows up in 4 pools here, with rates from 8.65% to 14.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 8.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,10 +23,10 @@ CJPY shows up in 4 pools here, with rates from 8.79% to 14.64% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 8.79% | 6.20% | 98.98% incentives |
-| curve-dex | 9.85% | 6.94% | 99.29% incentives |
-| convex-finance | 14.64% | 9.89% | 99.52% incentives |
-| convex-finance | 13.56% | 9.44% | 99.34% incentives |
+| curve-dex | 8.65% | 6.24% | 98.84% incentives |
+| curve-dex | 9.63% | 6.99% | 99.27% incentives |
+| convex-finance | 14.28% | 9.95% | 99.51% incentives |
+| convex-finance | 13.32% | 9.50% | 99.25% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CJPY yield today?
 
-14.64% APY on convex-finance (Ethereum), based on live DefiLlama data.
+14.28% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CJPY pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.05M in total.
+5 live pools clear this page's $100K TVL floor, $1.06M in total.
 
 ### Are these rates safe?
 

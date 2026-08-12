@@ -1,20 +1,20 @@
 # EUROC DeFi Yields
 
-The highest honest EUROC yield right now is 3.03% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUROC yield right now is 0.10% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.17% | $5.8M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token) | Ethereum | 3.03% | $5.05M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 1.73% | $224.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.10% | $5.8M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token) | Ethereum | 1.99% | $5.05M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 1.88% | $224.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EUROC shows up in 3 pools here, with rates from 0.17% to 3.03% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EUROC shows up in 3 pools here, with rates from 0.10% to 1.99% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.49% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.17% | 0.39% | Base rate |
-| uniswap-v3 | 3.03% | 5.01% | Base rate |
-| uniswap-v3 | 1.73% | 0.49% | Base rate |
+| uniswap-v3 | 0.10% | 0.39% | Base rate |
+| uniswap-v3 | 1.99% | 4.94% | Base rate |
+| uniswap-v3 | 1.88% | 0.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EUROC yield today?
 
-3.03% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.10% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EUROC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $11.07M in total.
+3 live pools clear this page's $100K TVL floor, $11.08M in total.
 
 ### Are these rates safe?
 

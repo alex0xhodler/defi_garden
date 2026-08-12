@@ -4,7 +4,7 @@ The highest honest USDCHF yield right now is 101.91% on gmtrade (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=7013e916-6e62-4132-acef-53920e643693&src=seo_token) | Solana | 101.91% | $1.41M |
+| [gmtrade →](https://www.defi.garden/?pool=7013e916-6e62-4132-acef-53920e643693&src=seo_token) | Solana | 101.91% | $1.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDCHF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.41M in total.
+1 live pool clear this page's $100K TVL floor, $1.45M in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

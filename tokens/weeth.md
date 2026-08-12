@@ -1,23 +1,23 @@
 # WEETH DeFi Yields
 
-The highest honest WEETH yield right now is 3.27% on stake-dao (Ethereum), among 67 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WEETH yield right now is 3.25% on stake-dao (Ethereum), among 68 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.40% | $3.62B |
-| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.40% | $141.3M |
-| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.40% | $34.36M |
-| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.38% | $13.14M |
-| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.58% | $9.65M |
-| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 3.05% | $8.03M |
-| [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.27% | $1.5M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4410a5ad-f0a4-47fc-8c37-15b7056d1c94&src=seo_token) | Base | 0.91% | $604.9K |
+| [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.33% | $3.68B |
+| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.33% | $143.48M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.33% | $34.89M |
+| [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.40% | $13.36M |
+| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.62% | $9.79M |
+| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 3.08% | $8.14M |
+| [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.25% | $1.52M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4410a5ad-f0a4-47fc-8c37-15b7056d1c94&src=seo_token) | Base | 0.88% | $614.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WEETH shows up in 8 pools here, with rates from 0.38% to 3.27% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+WEETH shows up in 8 pools here, with rates from 0.40% to 3.25% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,14 +25,14 @@ WEETH shows up in 8 pools here, with rates from 0.38% to 3.27% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ether.fi-stake | 2.40% | 2.48% | 0.07% incentives |
-| ether.fi-stake | 2.40% | 2.48% | 0.07% incentives |
-| ether.fi-stake | 2.40% | 2.48% | 0.07% incentives |
-| fluid-dex | 0.38% | 0.25% | Base rate |
-| curve-dex | 2.58% | 2.44% | 27.82% incentives |
-| convex-finance | 3.05% | 2.80% | 38.97% incentives |
-| stake-dao | 3.27% | 3.04% | 45.34% incentives |
-| aerodrome-slipstream | 0.91% | 2.06% | 90.36% incentives |
+| ether.fi-stake | 2.33% | 2.48% | 0.07% incentives |
+| ether.fi-stake | 2.33% | 2.48% | 0.07% incentives |
+| ether.fi-stake | 2.33% | 2.48% | 0.07% incentives |
+| fluid-dex | 0.40% | 0.25% | Base rate |
+| curve-dex | 2.62% | 2.45% | 26.68% incentives |
+| convex-finance | 3.08% | 2.81% | 37.61% incentives |
+| stake-dao | 3.25% | 3.05% | 45.20% incentives |
+| aerodrome-slipstream | 0.88% | 2.03% | 93.04% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WEETH yield today?
 
-3.27% APY on stake-dao (Ethereum), based on live DefiLlama data.
+3.25% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many WEETH pools clear the TVL floor?
 
-67 live pools clear this page's $100K TVL floor, $6.73B in total.
+68 live pools clear this page's $100K TVL floor, $6.83B in total.
 
 ### Are these rates safe?
 

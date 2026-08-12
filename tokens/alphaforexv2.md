@@ -1,10 +1,10 @@
 # ALPHAFOREXV2 DeFi Yields
 
-The highest honest ALPHAFOREXV2 yield right now is 11.93% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALPHAFOREXV2 yield right now is 12.00% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=062f273b-2e6f-4c19-8730-177ef65cdb72&src=seo_token) | Ethereum | 11.93% | $2.49M |
+| [morpho-blue →](https://www.defi.garden/?pool=062f273b-2e6f-4c19-8730-177ef65cdb72&src=seo_token) | Ethereum | 12.00% | $2.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALPHAFOREXV2 yield today?
 
-11.93% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+12.00% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ALPHAFOREXV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.49M in total.
+1 live pool clear this page's $100K TVL floor, $2.23M in total.
 
 ### Are these rates safe?
 

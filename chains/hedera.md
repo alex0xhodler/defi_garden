@@ -4,13 +4,12 @@ The highest honest Hedera yield right now is 20.59% on isle-finance (Hedera), am
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_chain) | 6.33% | $988.2K |
+| SAUCE-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_chain) | 6.36% | $988.2K |
 | USDC | [isle-finance →](https://www.defi.garden/?pool=69f3d1b3-aa9f-4ef9-9b4d-e8ce652c4430&src=seo_chain) | 20.59% | $517.9K |
-| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_chain) | 5.51% | $478.6K |
+| USDC-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=fd41363a-f064-4e74-b710-ee2b3658c32b&src=seo_chain) | 5.44% | $477.8K |
 | USDC | [isle-finance →](https://www.defi.garden/?pool=6ecd5969-737d-4e09-95e5-72561e63e911&src=seo_chain) | 13.56% | $400.8K |
-| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_chain) | 1.25% | $250.5K |
-| HBARX-HBAR | [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_chain) | 0.01% | $234.2K |
-| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_chain) | 13.18% | $140.3K |
+| HBAR-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=a95e97ec-4ed8-4ebc-8dae-2f776d83cdfa&src=seo_chain) | 1.24% | $250.6K |
+| HBAR-DOVU | [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_chain) | 12.07% | $139.9K |
 | SAUCE-XSAUCE | [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_chain) | 1.07% | $110.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -36,7 +35,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
-- [Avalanche](https://www.defi.garden/chains/avalanche)
+- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
 ## Top tokens on Hedera
 
@@ -44,7 +43,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [SAUCE](https://www.defi.garden/tokens/sauce)
 - [XSAUCE](https://www.defi.garden/tokens/xsauce)
-- [HBARX](https://www.defi.garden/tokens/hbarx)
 - [DOVU](https://www.defi.garden/tokens/dovu)
 
 ## Last updated August 12, 2026

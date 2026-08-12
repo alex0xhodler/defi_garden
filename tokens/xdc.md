@@ -4,16 +4,16 @@ The highest honest XDC yield right now is 0.18% on raydium-amm (Solana), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6ae9c586-3fbe-5b76-9d95-059347562e4d&src=seo_token) | Solana | 0.09% | $25.98M |
+| [raydium-amm →](https://www.defi.garden/?pool=6ae9c586-3fbe-5b76-9d95-059347562e4d&src=seo_token) | Solana | 0.06% | $25.98M |
 | [raydium-amm →](https://www.defi.garden/?pool=91084eaa-0740-5dcc-87a9-81e6e02f3099&src=seo_token) | Solana | 0.18% | $2.34M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XDC shows up in 2 pools here, with rates from 0.09% to 0.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XDC shows up in 2 pools here, with rates from 0.06% to 0.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 81.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 61.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,7 +21,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.09% | 163.39% | Base rate |
+| raydium-amm | 0.06% | 123.66% | Base rate |
 | raydium-amm | 0.18% | 0.20% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -43,11 +43,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

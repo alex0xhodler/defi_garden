@@ -19,7 +19,7 @@ SNUSD shows up in 2 pools here, with rates from 5.84% to 8.92% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 5.84% | 6.36% | 5.66% incentives |
+| pendle | 5.84% | 6.35% | 5.68% incentives |
 | pendle | 8.92% | 9.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

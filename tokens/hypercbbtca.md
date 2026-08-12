@@ -4,7 +4,7 @@ The highest honest HYPERCBBTCA yield right now is 1.16% on morpho-blue (Monad), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ef0054c3-af89-4aa9-84e9-bb288738d9aa&src=seo_token) | Monad | 1.16% | $5.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=ef0054c3-af89-4aa9-84e9-bb288738d9aa&src=seo_token) | Monad | 1.16% | $5.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HYPERCBBTCA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.01M in total.
+1 live pool clear this page's $100K TVL floor, $5.21M in total.
 
 ### Are these rates safe?
 
@@ -24,12 +24,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
+- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 

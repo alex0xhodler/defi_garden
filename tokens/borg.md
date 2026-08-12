@@ -1,21 +1,21 @@
 # BORG DeFi Yields
 
-The highest honest BORG yield right now is 30.92% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BORG yield right now is 37.62% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a&src=seo_token) | Solana | 18.76% | $578.9K |
+| [orca-dex →](https://www.defi.garden/?pool=490a8764-1b70-4d7f-889a-70637e61a21a&src=seo_token) | Solana | 21.00% | $579K |
+| [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397&src=seo_token) | Solana | 0.37% | $513.9K |
 | [raydium-amm →](https://www.defi.garden/?pool=0b08958d-d01e-4068-99cd-55858110afd2&src=seo_token) | Solana | 1.61% | $261.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397&src=seo_token) | Solana | 1.37% | $177.7K |
-| [orca-dex →](https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367&src=seo_token) | Solana | 30.92% | $171.4K |
+| [orca-dex →](https://www.defi.garden/?pool=14849874-9e8a-44e1-bc49-c6ab4e327367&src=seo_token) | Solana | 37.62% | $167.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BORG shows up in 4 pools here, with rates from 1.37% to 30.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BORG shows up in 4 pools here, with rates from 0.37% to 37.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 14.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 14.09% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,10 +23,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 18.76% | 22.76% | Base rate |
-| raydium-amm | 1.61% | 5.51% | Base rate |
-| raydium-amm | 1.37% | 1.07% | Base rate |
-| orca-dex | 30.92% | 34.66% | Base rate |
+| orca-dex | 21.00% | 22.80% | Base rate |
+| raydium-amm | 0.37% | 1.08% | Base rate |
+| raydium-amm | 1.61% | 5.38% | Base rate |
+| orca-dex | 37.62% | 34.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BORG yield today?
 
-30.92% APY on orca-dex (Solana), based on live DefiLlama data.
+37.62% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BORG pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.19M in total.
+4 live pools clear this page's $100K TVL floor, $1.52M in total.
 
 ### Are these rates safe?
 
@@ -47,11 +47,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

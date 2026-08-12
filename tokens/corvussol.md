@@ -4,7 +4,7 @@ The highest honest CORVUSSOL yield right now is 0.77% on project-0 (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=1b211b86-a553-43e1-82f7-bb6e1f213d9e&src=seo_token) | Solana | 0.77% | $121.2K |
+| [project-0 →](https://www.defi.garden/?pool=1b211b86-a553-43e1-82f7-bb6e1f213d9e&src=seo_token) | Solana | 0.77% | $121.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CORVUSSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.2K in total.
+1 live pool clear this page's $100K TVL floor, $121.9K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

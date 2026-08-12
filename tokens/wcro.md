@@ -1,23 +1,23 @@
 # WCRO DeFi Yields
 
-The highest honest WCRO yield right now is 2.37% on vvs-standard (Cronos), among 26 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WCRO yield right now is 2.18% on vvs-standard (Cronos), among 26 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token) | Cronos | 0.04% | $25.28M |
-| [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3&src=seo_token) | Cronos | 2.20% | $5.21M |
-| [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238&src=seo_token) | Cronos | 1.07% | $1.98M |
-| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5&src=seo_token) | Cronos | 0.38% | $1.73M |
-| [vvs-standard →](https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f&src=seo_token) | Cronos | 2.37% | $951.4K |
-| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 0.26% | $774K |
-| [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a&src=seo_token) | Cronos | 0.02% | $737K |
-| [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token) | Cronos | 0.61% | $713.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=2fca7a84-651c-440a-beb3-eced492a7bea&src=seo_token) | Cronos | 0.03% | $25.16M |
+| [vvs-standard →](https://www.defi.garden/?pool=966396c0-97ed-4da1-8ae8-0c55516a9ab3&src=seo_token) | Cronos | 1.85% | $5.21M |
+| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426&src=seo_token) | Cronos | 0.01% | $1.98M |
+| [vvs-standard →](https://www.defi.garden/?pool=91a5bc7d-da57-44b7-bf8f-059d3e8ee238&src=seo_token) | Cronos | 0.79% | $1.97M |
+| [vvs-standard →](https://www.defi.garden/?pool=e67c8f7e-4bf5-49a7-bd5f-e0459b1895b5&src=seo_token) | Cronos | 0.40% | $1.72M |
+| [vvs-standard →](https://www.defi.garden/?pool=0285b5c7-66d2-4f51-89ec-b7e320bf609f&src=seo_token) | Cronos | 2.18% | $950.1K |
+| [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 0.33% | $770.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a&src=seo_token) | Cronos | 1.18% | $710.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WCRO shows up in 8 pools here, with rates from 0.02% to 2.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WCRO shows up in 8 pools here, with rates from 0.01% to 2.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,14 +27,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| vvs-standard | 0.04% | 0.04% | Base rate |
-| vvs-standard | 2.20% | 2.90% | Base rate |
-| vvs-standard | 1.07% | 1.28% | Base rate |
-| vvs-standard | 0.38% | 0.52% | Base rate |
-| vvs-standard | 2.37% | 1.78% | Base rate |
-| vvs-standard | 0.26% | 0.57% | Base rate |
-| vvs-standard | 0.02% | 0.09% | Base rate |
-| vvs-standard | 0.61% | 0.36% | Base rate |
+| vvs-standard | 0.03% | 0.04% | Base rate |
+| vvs-standard | 1.85% | 2.89% | Base rate |
+| vvs-standard | 0.01% | 0.01% | Base rate |
+| vvs-standard | 0.79% | 1.27% | Base rate |
+| vvs-standard | 0.40% | 0.52% | Base rate |
+| vvs-standard | 2.18% | 1.79% | Base rate |
+| vvs-standard | 0.33% | 0.56% | Base rate |
+| vvs-standard | 1.18% | 0.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WCRO yield today?
 
-2.37% APY on vvs-standard (Cronos), based on live DefiLlama data.
+2.18% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many WCRO pools clear the TVL floor?
 
-26 live pools clear this page's $100K TVL floor, $53.71M in total.
+26 live pools clear this page's $100K TVL floor, $53.48M in total.
 
 ### Are these rates safe?
 

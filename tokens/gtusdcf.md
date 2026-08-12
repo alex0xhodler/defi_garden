@@ -5,8 +5,8 @@ The highest honest GTUSDCF yield right now is 6.24% on morpho-blue (Base), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.53% | $29.97M |
-| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 6.24% | $4.78M |
-| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.22% | $399.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 6.24% | $5.58M |
+| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.21% | $380.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,15 +14,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 GTUSDCF shows up in 3 pools here, with rates from 5.53% to 6.24% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.73% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.53% | 5.41% | Base rate |
-| morpho-blue | 6.24% | 5.84% | Base rate |
-| morpho-blue | 6.22% | 5.73% | Base rate |
+| morpho-blue | 5.53% | 5.40% | Base rate |
+| morpho-blue | 6.24% | 5.86% | Base rate |
+| morpho-blue | 6.21% | 5.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GTUSDCF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $35.14M in total.
+3 live pools clear this page's $100K TVL floor, $35.93M in total.
 
 ### Are these rates safe?
 

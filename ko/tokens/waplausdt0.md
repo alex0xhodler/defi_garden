@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, Plasma의 balancer-v3에서 APY 2.60%예�
 
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [GHO](https://www.defi.garden/ko/tokens/gho)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
+- [GHO](https://www.defi.garden/ko/tokens/gho)
 - [USDAI](https://www.defi.garden/ko/tokens/usdai)
 - [SYZUSD](https://www.defi.garden/ko/tokens/syzusd)
 

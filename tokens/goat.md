@@ -1,18 +1,18 @@
 # GOAT DeFi Yields
 
-The highest honest GOAT yield right now is 4.89% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GOAT yield right now is 3.66% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f840ec7e-3d8c-40ea-b761-66515f8f17b9&src=seo_token) | Solana | 4.89% | $1.22M |
+| [raydium-amm →](https://www.defi.garden/?pool=f840ec7e-3d8c-40ea-b761-66515f8f17b9&src=seo_token) | Solana | 3.66% | $1.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GOAT shows up in 1 pools here, with rates from 4.89% to 4.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GOAT shows up in 1 pools here, with rates from 3.66% to 3.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.88% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -20,7 +20,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 4.89% | 5.88% | Base rate |
+| raydium-amm | 3.66% | 5.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,7 +28,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GOAT yield today?
 
-4.89% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.66% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GOAT pools clear the TVL floor?
 
@@ -41,11 +41,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

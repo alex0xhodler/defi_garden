@@ -1,21 +1,21 @@
 # BSOL DeFi Yields
 
-The highest honest BSOL yield right now is 8.78% on kamino-liquidity (Solana), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BSOL yield right now is 11.20% on kamino-liquidity (Solana), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 5.19% | $70.4M |
-| [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $6.26M |
-| [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $3.93M |
-| [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 0.10% | $458.7K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.33% | $411.8K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 8.78% | $158.4K |
+| [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 5.19% | $70.58M |
+| [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $6.29M |
+| [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $3.95M |
+| [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 0.12% | $461.2K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.33% | $414K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 11.20% | $157.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BSOL shows up in 6 pools here, with rates from 0.02% to 8.78% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BSOL shows up in 6 pools here, with rates from 0.02% to 11.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 6 of these 6 pools have a trustworthy 30-day average on file, with a median of 0.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,12 +25,12 @@ BSOL shows up in 6 pools here, with rates from 0.02% to 8.78% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| blazestake | 5.19% | 5.21% | Base rate |
+| blazestake | 5.19% | 5.20% | Base rate |
 | kamino-lend | 0.02% | 0.02% | Base rate |
 | project-0 | 0.03% | 0.03% | Base rate |
-| orca-dex | 0.10% | 0.47% | 32.65% incentives |
+| orca-dex | 0.12% | 0.47% | 27.54% incentives |
 | kamino-liquidity | 0.33% | 0.41% | Base rate |
-| kamino-liquidity | 8.78% | 9.50% | Base rate |
+| kamino-liquidity | 11.20% | 9.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BSOL yield today?
 
-8.78% APY on kamino-liquidity (Solana), based on live DefiLlama data.
+11.20% APY on kamino-liquidity (Solana), based on live DefiLlama data.
 
 ### How many BSOL pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $103.93M in total.
+8 live pools clear this page's $100K TVL floor, $104.27M in total.
 
 ### Are these rates safe?
 
@@ -51,11 +51,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

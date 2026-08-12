@@ -4,7 +4,7 @@ The highest honest MSETHWETH yield right now is 6.11% on yearn-finance (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=fa69af57-cbc6-473b-b599-c30304e4e4c3&src=seo_token) | Ethereum | 6.11% | $361.8K |
+| [yearn-finance →](https://www.defi.garden/?pool=fa69af57-cbc6-473b-b599-c30304e4e4c3&src=seo_token) | Ethereum | 6.11% | $362.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MSETHWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $361.8K in total.
+1 live pool clear this page's $100K TVL floor, $362.8K in total.
 
 ### Are these rates safe?
 

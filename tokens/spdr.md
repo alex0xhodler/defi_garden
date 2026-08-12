@@ -4,7 +4,7 @@ The highest honest SPDR yield right now is 0.02% on orca-dex (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c3cf2570-0b31-40b6-b4c9-248098a2ba85&src=seo_token) | Solana | 0.02% | $123.7K |
+| [orca-dex →](https://www.defi.garden/?pool=c3cf2570-0b31-40b6-b4c9-248098a2ba85&src=seo_token) | Solana | 0.02% | $124.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SPDR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $123.7K in total.
+1 live pool clear this page's $100K TVL floor, $124.2K in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

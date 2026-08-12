@@ -1,23 +1,23 @@
 # WETH 디파이 수익률
 
-현재 WETH의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 26.92%이며, $100K TVL 기준을 넘는 1,475개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WETH의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 32.08%이며, $100K TVL 기준을 넘는 1,490개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token) | Ethereum | 1.45% | $687.66M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 26.92% | $112.08M |
-| [sparklend →](https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token) | Ethereum | 1.70% | $100.87M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 8.37% | $97.3M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 12.63% | $79.77M |
-| [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token) | Monad | 2.81% | $51.28M |
-| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 3.44% | $44.75M |
-| [curve-dex →](https://www.defi.garden/?pool=747005c3-9750-4330-912e-90d023cfac71&src=seo_token) | Ethereum | 0.10% | $44.38M |
+| [aave-v3 →](https://www.defi.garden/?pool=e880e828-ca59-4ec6-8d4f-27182a4dc23d&src=seo_token) | Ethereum | 1.45% | $700.75M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 32.08% | $113.11M |
+| [sparklend →](https://www.defi.garden/?pool=24195b31-d749-445f-bf9e-b65aa025ebdd&src=seo_token) | Ethereum | 1.69% | $105.07M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 11.25% | $98.31M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token) | Ethereum | 16.43% | $80.48M |
+| [euler-v2 →](https://www.defi.garden/?pool=951e4e49-9760-49a3-aea9-bd832384219f&src=seo_token) | Monad | 2.80% | $52.27M |
+| [curve-dex →](https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token) | Ethereum | 3.37% | $45.07M |
+| [curve-dex →](https://www.defi.garden/?pool=747005c3-9750-4330-912e-90d023cfac71&src=seo_token) | Ethereum | 0.10% | $44.77M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.10%부터 26.92%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.10%부터 32.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.67%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -28,13 +28,13 @@ WETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.10%부터 26.92%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aave-v3 | 1.45% | 1.43% | 기본 금리 |
-| uniswap-v3 | 26.92% | 41.91% | 기본 금리 |
-| sparklend | 1.70% | 1.65% | 기본 금리 |
-| uniswap-v3 | 8.37% | 15.49% | 기본 금리 |
-| uniswap-v3 | 12.63% | 20.94% | 기본 금리 |
-| euler-v2 | 2.81% | 3.02% | 인센티브 51.99% |
-| curve-dex | 3.44% | 2.31% | 인센티브 100.00% |
-| curve-dex | 0.10% | 2.00% | 기본 금리 |
+| uniswap-v3 | 32.08% | 41.70% | 기본 금리 |
+| sparklend | 1.69% | 1.65% | 기본 금리 |
+| uniswap-v3 | 11.25% | 15.41% | 기본 금리 |
+| uniswap-v3 | 16.43% | 20.76% | 기본 금리 |
+| euler-v2 | 2.80% | 3.01% | 인센티브 51.85% |
+| curve-dex | 3.37% | 2.33% | 인센티브 100.00% |
+| curve-dex | 0.10% | 1.99% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ WETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.10%부터 26.92%�
 
 ### 오늘 WETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 26.92%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 32.08%예요.
 
 ### WETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,475개이며, 합산 TVL은 $4.66B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,490개이며, 합산 TVL은 $4.73B예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,15 +4,15 @@ The highest honest GTUSDT yield right now is 3.54% on morpho-blue (Katana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 3.05% | $3.82M |
-| [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 3.54% | $283.5K |
-| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 1.57% | $217.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 3.00% | $3.82M |
+| [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 3.54% | $283K |
+| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 1.61% | $217.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GTUSDT shows up in 3 pools here, with rates from 1.57% to 3.54% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTUSDT shows up in 3 pools here, with rates from 1.61% to 3.54% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -20,9 +20,9 @@ GTUSDT shows up in 3 pools here, with rates from 1.57% to 3.54% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 3.05% | 3.37% | Base rate |
-| morpho-blue | 3.54% | 6.42% | 28.23% incentives |
-| morpho-blue | 1.57% | 2.73% | Base rate |
+| morpho-blue | 3.00% | 3.37% | Base rate |
+| morpho-blue | 3.54% | 6.36% | 28.23% incentives |
+| morpho-blue | 1.61% | 2.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

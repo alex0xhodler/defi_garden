@@ -1,19 +1,19 @@
 # CKBTC DeFi Yields
 
-The highest honest CKBTC yield right now is 18.31% on icpswap (ICP), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CKBTC yield right now is 12.19% on icpswap (ICP), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 1.11% | $111.5K |
-| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 18.31% | $104.8K |
+| [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 1.52% | $112.6K |
+| [icpswap →](https://www.defi.garden/?pool=7f7c08d4-b54a-4183-bd51-c5d047e889a6&src=seo_token) | ICP | 12.19% | $105.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CKBTC shows up in 2 pools here, with rates from 1.11% to 18.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CKBTC shows up in 2 pools here, with rates from 1.52% to 12.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.71% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| icpswap | 1.11% | 2.13% | Base rate |
-| icpswap | 18.31% | 21.29% | Base rate |
+| icpswap | 1.52% | 2.13% | Base rate |
+| icpswap | 12.19% | 21.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CKBTC yield today?
 
-18.31% APY on icpswap (ICP), based on live DefiLlama data.
+12.19% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many CKBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $216.3K in total.
+2 live pools clear this page's $100K TVL floor, $217.9K in total.
 
 ### Are these rates safe?
 

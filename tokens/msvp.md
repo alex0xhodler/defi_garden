@@ -4,7 +4,7 @@ The highest honest MSVP yield right now is 0.06% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5b03658e-fa48-48ee-9142-511e39690259&src=seo_token) | Solana | 0.06% | $2.06M |
+| [raydium-amm →](https://www.defi.garden/?pool=5b03658e-fa48-48ee-9142-511e39690259&src=seo_token) | Solana | 0.06% | $2.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MSVP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.06M in total.
+1 live pool clear this page's $100K TVL floor, $2.03M in total.
 
 ### Are these rates safe?
 
@@ -25,11 +25,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

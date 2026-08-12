@@ -1,23 +1,23 @@
 # XAUT 디파이 수익률
 
-현재 XAUT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 7.43%이며, $100K TVL 기준을 넘는 30개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 XAUT의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 7.14%이며, $100K TVL 기준을 넘는 30개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 4.13% | $6.47M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62&src=seo_token) | Ethereum | 6.56% | $5.81M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 2.02% | $5.21M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.29% | $3.31M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 7.43% | $2.39M |
-| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.94% | $2.22M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3552bffb-c474-46bc-b405-6a137f0792e7&src=seo_token) | Ethereum | 3.95% | $1.68M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 2.84% | $848.1K |
+| [lista-lending →](https://www.defi.garden/?pool=b89d44a1-052a-4ec8-8dba-7802340fee27&src=seo_token) | BSC | 4.54% | $6.5M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=eb252614-7a8e-454f-8346-60ebf50dbe62&src=seo_token) | Ethereum | 3.98% | $5.82M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 1.57% | $5.23M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.12% | $3.28M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a8782f8d-c32b-4497-a74f-1297d807a96e&src=seo_token) | Ethereum | 7.14% | $2.42M |
+| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.40% | $2.22M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3552bffb-c474-46bc-b405-6a137f0792e7&src=seo_token) | Ethereum | 3.85% | $1.66M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=babdbf78-8daf-4e01-8904-d52e20401c23&src=seo_token) | Ethereum | 2.78% | $852.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-XAUT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.29%부터 7.43%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+XAUT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.12%부터 7.14%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.01%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,14 +27,14 @@ XAUT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.29%부터 7.43%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lista-lending | 4.13% | 1.05% | 기본 금리 |
-| uniswap-v4 | 6.56% | 6.70% | 기본 금리 |
-| uniswap-v3 | 2.02% | 1.91% | 기본 금리 |
-| uniswap-v3 | 0.29% | 0.50% | 기본 금리 |
-| uniswap-v3 | 7.43% | 6.76% | 기본 금리 |
-| fluid-dex | 0.94% | 0.52% | 기본 금리 |
-| uniswap-v4 | 3.95% | 5.19% | 기본 금리 |
-| uniswap-v3 | 2.84% | 4.11% | 기본 금리 |
+| lista-lending | 4.54% | 1.10% | 기본 금리 |
+| uniswap-v4 | 3.98% | 6.70% | 기본 금리 |
+| uniswap-v3 | 1.57% | 1.92% | 기본 금리 |
+| uniswap-v3 | 0.12% | 0.49% | 기본 금리 |
+| uniswap-v3 | 7.14% | 6.78% | 기본 금리 |
+| fluid-dex | 0.40% | 0.53% | 기본 금리 |
+| uniswap-v4 | 3.85% | 5.17% | 기본 금리 |
+| uniswap-v3 | 2.78% | 4.10% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ XAUT 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.29%부터 7.43%까
 
 ### 오늘 XAUT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 7.43%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 7.14%예요.
 
 ### XAUT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 30개이며, 합산 TVL은 $145.83M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 30개이며, 합산 TVL은 $146.62M예요.
 
 ### 이 수익률은 안전한가요?
 

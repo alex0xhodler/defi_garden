@@ -4,27 +4,27 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 5.98% | $7.61M |
-| [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 7.68% | $827.6K |
-| [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 10.85% | $827.6K |
-| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.69% | $796K |
+| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 5.97% | $7.61M |
+| [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 7.69% | $827.7K |
+| [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 10.85% | $827.7K |
+| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.71% | $797K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUPERUSDC 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.69%부터 10.85%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUPERUSDC 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.71%부터 10.85%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.93%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.94%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| superform | 5.98% | 5.74% | 인센티브 30.57% |
-| pendle | 7.68% | 7.82% | 인센티브 19.96% |
-| pendle | 10.85% | 9.30% | 인센티브 14.12% |
-| superform | 5.69% | 6.05% | 인센티브 32.13% |
+| superform | 5.97% | 5.76% | 인센티브 30.77% |
+| pendle | 7.69% | 7.82% | 인센티브 19.77% |
+| pendle | 10.85% | 9.37% | 인센티브 14.00% |
+| superform | 5.71% | 6.05% | 인센티브 32.19% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

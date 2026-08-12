@@ -1,25 +1,25 @@
 # WSTETH DeFi Yields
 
-The highest honest WSTETH yield right now is 5.61% on uniswap-v4 (Ethereum), among 140 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WSTETH yield right now is 6.11% on uniswap-v4 (Ethereum), among 141 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token) | Ethereum | 0.03% | $167.59M |
-| [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token) | Ethereum | 0.05% | $82.98M |
-| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.23% | $66.24M |
-| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 0.22% | $11.32M |
-| [symbiotic →](https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988&src=seo_token) | Ethereum | 1.18% | $8.14M |
-| [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token) | Ethereum | 0.03% | $6.18M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token) | Ethereum | 1.02% | $5.42M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 5.61% | $4.59M |
+| [fluid-lending →](https://www.defi.garden/?pool=69b12bf9-edb6-46d9-b5bc-761cf9efe137&src=seo_token) | Ethereum | 0.03% | $170.16M |
+| [aave-v3 →](https://www.defi.garden/?pool=d541708e-1283-4feb-bc7a-457fc5f8db2c&src=seo_token) | Ethereum | 0.05% | $84.25M |
+| [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.09% | $67.38M |
+| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 0.27% | $11.37M |
+| [symbiotic →](https://www.defi.garden/?pool=c7b1c392-37c3-5c73-9725-e10bdb13b988&src=seo_token) | Ethereum | 1.17% | $8.27M |
+| [fluid-lending →](https://www.defi.garden/?pool=e278d5a4-b0b5-43d5-8064-c65a3f386b8a&src=seo_token) | Ethereum | 0.03% | $6.28M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ecd0c563-8aa2-423e-b8e9-d3259a316df9&src=seo_token) | Ethereum | 0.57% | $5.5M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 6.11% | $4.65M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WSTETH shows up in 8 pools here, with rates from 0.03% to 5.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WSTETH shows up in 8 pools here, with rates from 0.03% to 6.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -29,12 +29,12 @@ WSTETH shows up in 8 pools here, with rates from 0.03% to 5.61% APY across 1 cha
 |---|---|---|---|
 | fluid-lending | 0.03% | 0.03% | Base rate |
 | aave-v3 | 0.05% | 0.06% | Base rate |
-| fluid-dex | 0.23% | 0.10% | Base rate |
-| balancer-v2 | 0.22% | — | Base rate |
-| symbiotic | 1.18% | 1.17% | 100.00% incentives |
+| fluid-dex | 0.09% | 0.11% | Base rate |
+| balancer-v2 | 0.27% | — | Base rate |
+| symbiotic | 1.17% | 1.17% | 100.00% incentives |
 | fluid-lending | 0.03% | 0.03% | Base rate |
-| uniswap-v3 | 1.02% | 1.70% | Base rate |
-| uniswap-v4 | 5.61% | 9.83% | Base rate |
+| uniswap-v3 | 0.57% | 1.70% | Base rate |
+| uniswap-v4 | 6.11% | 9.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WSTETH yield today?
 
-5.61% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+6.11% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many WSTETH pools clear the TVL floor?
 
-140 live pools clear this page's $100K TVL floor, $6.14B in total.
+141 live pools clear this page's $100K TVL floor, $6.23B in total.
 
 ### Are these rates safe?
 

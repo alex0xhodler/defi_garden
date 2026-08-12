@@ -4,8 +4,8 @@ The highest honest ZIK yield right now is 0.05% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=775a936e-60bb-422c-bf35-ff970356b580&src=seo_token) | Ethereum | 0.01% | $6.72M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token) | Ethereum | 0.05% | $157K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=775a936e-60bb-422c-bf35-ff970356b580&src=seo_token) | Ethereum | 0.01% | $6.79M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token) | Ethereum | 0.05% | $158.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 0.01% | 0.01% | Base rate |
-| uniswap-v4 | 0.05% | 0.13% | Base rate |
+| uniswap-v4 | 0.05% | 0.12% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ZIK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $8.16M in total.
+4 live pools clear this page's $100K TVL floor, $8.23M in total.
 
 ### Are these rates safe?
 

@@ -5,7 +5,7 @@ The highest honest USDB yield right now is 0.02% on cetus-clmm (Sui), among 3 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [cetus-clmm →](https://www.defi.garden/?pool=10ae2c49-5894-47e1-a48f-8a09da38efb9&src=seo_token) | Sui | 0.02% | $1.09M |
-| [bluefin-spot →](https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token) | Sui | 0.02% | $1.09M |
+| [bluefin-spot →](https://www.defi.garden/?pool=b79585dd-bbaa-479d-a41d-8de93a59af5b&src=seo_token) | Sui | 0.02% | $1.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

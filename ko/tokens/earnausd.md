@@ -4,10 +4,10 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.27% | $21.97M |
-| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.42% | $3.45M |
-| [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.73% | $2.74M |
-| [pendle →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.07% | $2.4M |
+| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 6.36% | $21.93M |
+| [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.50% | $3.45M |
+| [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.74% | $2.7M |
+| [pendle →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.20% | $2.4M |
 | [pendle →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 10.39% | $2.4M |
 | [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.27% | $856.5K |
 | [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $158.8K |
@@ -26,11 +26,11 @@ EARNAUSD 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.20%부터 10.3
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| upshift | 5.27% | 6.57% | 인센티브 10.08% |
-| morpho-blue | 2.42% | 0.19% | 인센티브 100.00% |
-| curvance | 0.73% | 0.79% | 인센티브 100.00% |
-| pendle | 9.07% | 8.78% | 인센티브 5.16% |
-| pendle | 10.39% | 9.39% | 기본 금리 |
+| upshift | 6.36% | 6.53% | 인센티브 8.46% |
+| morpho-blue | 2.50% | 0.23% | 인센티브 100.00% |
+| curvance | 0.74% | 0.79% | 인센티브 100.00% |
+| pendle | 9.20% | 8.76% | 인센티브 5.11% |
+| pendle | 10.39% | 9.41% | 기본 금리 |
 | neverland | 1.27% | 1.37% | 인센티브 100.00% |
 | curvance | 0.20% | 0.20% | 인센티브 100.00% |
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 10.39%예요.
 
 ### EARNAUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $33.97M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $33.89M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,12 +52,12 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 10.39%예요.
 
 ## 관련 토큰
 
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [AUSD](https://www.defi.garden/ko/tokens/ausd)
+- [BTC](https://www.defi.garden/ko/tokens/btc)
 
 ## 이용 가능한 체인
 

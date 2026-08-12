@@ -1,10 +1,10 @@
 # FEY DeFi Yields
 
-The highest honest FEY yield right now is 0.31% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEY yield right now is 0.29% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.31% | $155.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3be4dbcf-74ce-485c-b37e-97dc482ee5c5&src=seo_token) | Base | 0.29% | $157.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEY yield today?
 
-0.31% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.29% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many FEY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $155.2K in total.
+1 live pool clear this page's $100K TVL floor, $157.8K in total.
 
 ### Are these rates safe?
 
