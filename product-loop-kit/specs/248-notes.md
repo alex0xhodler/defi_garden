@@ -28,9 +28,26 @@ in `audit-app.js`, `translations.js` byte-unchanged.
   bump 24→26 — grepped `allowlistSize`/`I18N_UNTRANSLATED_ALLOWLIST` across `test_*.js` first, per
   the acceptance criterion, and confirmed no hardcoded count exists anywhere.
 
-## Class status (unchanged from spec)
+## Class status — CORRECTED after verifier round 1 (see below)
 
-Not closed — 8 of 26 allowlist entries are now "the acronym APY or TVL on some surface" (30.8% of
-the allowlist, 6.6% of the 391 string-key population). Spec's open question (exempt by value over
-`{"APY","TVL"}` vs. exact key path) stays open, not resolved by this item. Item 249 is the adjacent
-territory (function-leaf blind spot in the same gate) — untouched here.
+Not closed — **9 of 26** allowlist entries are now "the acronym APY or TVL on some surface"
+(`navFilterTvl`, `navFilterApy`, `tvl`, `planner.poolApy`, `planner.poolTvl`, `tcpColApy`,
+`tcpColTvl`, `resultsColApy`, `resultsColTvl`) — **34.6%** of the 26-entry allowlist, **6.6%** of the
+391 string-key population (independently recounted via `Object.keys(I18N_UNTRANSLATED_ALLOWLIST)`
+filtered on `/apy|tvl/i`, not eyeballed).
+
+The spec's Open Questions section (specs/248.md) frames the value-vs-key-path exemption-design
+question as deferred "until a 9th acronym entry lands." **This item's own second addition
+(`resultsColTvl`) is that 9th entry — the trigger condition fires within this very change, not at
+some future item.** Original build notes miscounted 8/26 (30.8%) instead of 9/26 (34.6%) and
+therefore claimed the trigger hadn't fired yet; corrected here (verifier round 1 caught this).
+
+The question stays deferred anyway, but on the metric that actually gates the decision:
+`playbooks/guard-exemption-rate.md`'s threshold is exemption rate against the population the gate
+protects (391 string keys), not raw entry count within the allowlist itself. That rate is **6.6%**
+(26/391), well under the ~⅓ threshold, so the narrow per-key fix is still correct today — the "9th
+entry" framing in the spec was itself the weaker/informal tripwire, not the actual decision rule.
+Recorded honestly rather than silently miscounted: this item does NOT resolve the open question,
+and the next builder/human re-asking it should use the 6.6% population-rate number, not the
+allowlist-internal fraction. Item 249 is the adjacent territory (function-leaf blind spot in the
+same gate) — untouched here.
