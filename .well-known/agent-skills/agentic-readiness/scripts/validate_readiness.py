@@ -59,7 +59,7 @@ def main():
     verify_url(f"{base_url}/.well-known/acp.json", expected_content_type="application/json", optional=True)
 
     # 7. MCP Server (Optional for static-only site)
-    verify_url(f"{base_url}/api/mcp", expected_content_type="application/json", optional=True)
+    verify_url(f"{base_url}/mcp", expected_content_type="application/json", optional=True)
 
     # 8. Agent Skills Index
     verify_url(f"{base_url}/.well-known/agent-skills/index.json", expected_content_type="application/json")

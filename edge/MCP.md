@@ -202,49 +202,24 @@ curl -sS -X POST https://www.defi.garden/mcp \
 - **No public MCP registry listing.** The backlog row asks for one, but a
   registry submission is an outward-facing account action naming a URL
   that 404s until deploy — human-owned, follows the deploy runbook below.
-- **A `.well-known/` discovery document already exists — and it is WRONG.**
-  This bullet previously claimed there was none and that discovery was
-  "deferred with the registry listing". That was false, and it was caught by
-  228's verifier rather than by the build. The truth, all of it live on the
-  deployed site today:
-  - **Three** cards, not two — `.well-known/mcp.json`,
-    `.well-known/mcp/server-card.json`, and `.well-known/mcp/server-cards.json`
-    (**plural**; stubs from item 223). All three are **byte-identical**
-    (md5 `82f8aeab3994f0f21fc49e02940ed3cd`) and each declares
-    `"url": "https://www.defi.garden/api/mcp"` with `"type": "sse"`, plus a
-    `prompts` capability (`list`/`get`). The population was enumerated by
-    globbing `.well-known/**` for `mcp` — not by reading two filenames — and
-    the three-way mapping is documented as official at
-    `.well-known/agent-skills/agentic-readiness/SKILL.md:73`. `test_vercelignore.js:306`
-    keeps `server-cards.json` in the must-deploy set, so the plural file is
-    live, not a stray. **A card-only fix is NOT sufficient.** **Completeness caveat, added after a third round of the same under-inclusion:** that glob returns **eight** files, not three. The other five are not cards, but **two of them also hardcode `/api/mcp` for this domain and are deployed**: `.well-known/agent-skills/agentic-readiness/scripts/validate_readiness.py:62` (probes `{base_url}/api/mcp` with `optional=True`, so after a card-only fix it prints a WARN and still **exits 0** — a green readiness check over a broken MCP surface) and `.well-known/agent-skills/agentic-readiness/templates/dns-aid-zone.txt:14` (the DNS-AID HTTPS record this site's own skill tells the operator to publish, `path="/api/mcp"`). `SKILL.md:74` restates `/api/mcp` one line below the `:73` mapping cited above. So the honest statement is: **three cards plus at least two further deployed artifacts**, and this enumeration is NOT claimed exhaustive. Under option (ii) below (alias `/api/mcp`) all of them stay correct; under option (i) every one of them needs updating.
+- **The `.well-known/` discovery cards are correct (fixed by item 265, 2026-08-12).**
+  228 shipped this server, then its verifier found all three discovery cards
+  pointed agents at a dead `/api/mcp` with a phantom `sse` transport and an
+  unimplemented `prompts` capability — filed as 265 and fixed once the human's
+  deploy made the mismatch live. Current state, all three verified
+  byte-identical (md5 recomputed at fix time) and enumerated by globbing
+  `.well-known/**` for `mcp`, never a hand-typed list: `url` is
+  `https://www.defi.garden/mcp`, `type` is `streamable-http`, capabilities are
+  `tools` only (matching `edge/mcp-core.js`'s `SERVER_CAPABILITIES` — the
+  parity test in `test_mcp_discovery_cards.js` derives the expected values
+  from that export rather than hand-typing them, so the two can't drift
+  silently again). The two further hardcoded `/api/mcp` artifacts 265 also
+  found (`validate_readiness.py:62`, `dns-aid-zone.txt:14`) and the SKILL.md
+  restatement are corrected too.
   - `vercel.json:171` emits a `Link: </.well-known/mcp/server-card.json>;
     rel="mcp-server-card"` header on source `/(.*)` — i.e. on **every response
     the site serves** — and `.vercelignore` keeps all of `.well-known/` in the
-    deploy.
-
-  Every one of those three facts disagrees with this server:
-
-  | the live card says | this server actually does |
-  |---|---|
-  | `https://www.defi.garden/api/mcp` | serves `/mcp`; `/api/mcp` is a 404 from the REST API's unknown-route handler |
-  | `"type": "sse"` | answers `GET /mcp` with **405** — Streamable HTTP, no server→client SSE stream |
-  | `prompts: {list, get}` | implements **tools only**; advertising an unimplemented capability is precisely what `edge/mcp-core.js` refuses to do |
-
-  The `/api/mcp` mismatch also defeats the reason this server is mounted at
-  `/mcp` at all: an agent that follows the published card lands in the REST
-  bucket and is logged as `path_class = 'api'`, so MCP invocations would NOT
-  be separable from API calls in the D1 log — the exact failure the mount-point
-  decision was made to avoid.
-
-  **Not fixed in this item, on purpose**: reconciling those cards is an edit to
-  a live, site-wide-advertised agent-discovery surface that item 228 never
-  scoped, and the right resolution is a real choice (correct the card to
-  `/mcp` + streamable-HTTP + tools-only, **or** additionally serve `/api/mcp`
-  as an alias classified as `mcp`). Filed as **backlog 265**, and it must be
-  resolved **at or before** the human's deploy. Note this mismatch is
-  pre-existing — the card pointed at a 404 before this item existed and still
-  does; item 228 does not create it, it just stops the docs from denying it.
+    deploy, so the corrected card now reaches every consumer.
 - **Not advertised in `llms.txt` or the sitemaps.** Publishing a URL that
   isn't live would be a false claim on the agent surface this product's
   whole pitch is built on — a follow-up item adds that once this is
