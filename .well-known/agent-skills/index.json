@@ -20,7 +20,7 @@
       "type": "reference",
       "description": "Configure, optimize, and verify websites and APIs for seamless discovery, consumption, and tool-invocation by AI agents.",
       "url": "https://www.defi.garden/.well-known/agent-skills/agentic-readiness/SKILL.md",
-      "sha256": "cabb7ccab1053231085412b8e5243133591b469e13bb0817828df743e76eef5a"
+      "sha256": "54b9a60f9f50d681cca77238f257ad6f42ff5852cec3fa879f6ab46a7dbbcea9"
     }
   ]
 }
