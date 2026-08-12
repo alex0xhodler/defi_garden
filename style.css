@@ -3102,6 +3102,22 @@ body {
   display: grid;
   gap: var(--space-20);
   grid-template-columns: 1fr;
+  /* Item 274: CSS Grid's default cross-axis alignment ('normal', which
+     behaves as 'stretch' for auto-height block items) stretches every card
+     in a row to match the row's tallest card. Once the containment fix below
+     lets an overflowing card grow taller (wrapping its APY figure onto its
+     own line instead of clipping), that default would stretch its perfectly
+     normal same-row siblings taller too, for no reason of their own --
+     measured via the sibling-grid-column-alignment.md pixel-drift technique:
+     42.58px of height drift on 3 non-overflowing siblings of the
+     usdc-poly-aave-shaped card at 1280px before this line was added, 0px
+     after (specs/274-notes.md). `align-items: start` makes every card size
+     to its OWN content height instead, which is a no-op for any row where
+     every card's natural height already matches (true of every row with no
+     overflowing numeral, i.e. every row pre-274 and every normal row
+     post-274) -- see specs/274-notes.md for the measured proof this doesn't
+     move anything else. */
+  align-items: start;
 }
 
 /* Desktop: auto-fill compact cards (1024px and up) — 225 round 3c: track
@@ -3133,6 +3149,41 @@ body {
 .pools-grid .pool-header-new {
   grid-column: 1 / -1;
   margin-bottom: 0;
+  /* Item 274: .pool-header-new is a flex row (base rule above, `display:flex;
+     justify-content:space-between`) holding .pool-name-group and
+     .pool-apy-section. Both children carry `white-space: nowrap` numerals
+     (246) with no upper bound, so a wide anomalous/large APY figure forces
+     the row's min-content width past the card's available inner width; with
+     the base rule's default `flex-wrap: nowrap` neither child can shrink
+     below its own nowrap min-content, so the row overflows and .pool-card's
+     `overflow: hidden` (style.css ~3195) silently clips it at the card edge
+     -- the live defect (specs/274.md). `flex-wrap: wrap` lets .pool-apy-section
+     drop to its own row BELOW .pool-name-group only when it doesn't fit --
+     glyph+number stay glued (246's nowrap rules on .pool-apy-hero/-preview
+     are untouched, so the unit never splits mid-wrap), and on every card
+     where both children already fit on one line this is a no-op (a flex
+     container with flex-wrap:wrap lays out identically to nowrap when the
+     line doesn't need to wrap) -- zero drift on normal cards, see
+     specs/274-notes.md for the measured proof. */
+  flex-wrap: wrap;
+  /* Vertical breathing room between .pool-name-group and a wrapped
+     .pool-apy-section only (row-gap; no column-gap added, so the unwrapped
+     single-line case keeps its existing margin-left:auto spacing exactly --
+     see .pools-grid .pool-apy-section below). */
+  row-gap: var(--space-8);
+}
+
+/* Item 274: on the single flex line (normal, non-overflowing case) this
+   auto margin resolves to exactly the same gap the base rule's inherited
+   `justify-content: space-between` already produced (2 children, auto
+   margin on the last one consumes 100% of the remaining free space before
+   justify-content has anything left to distribute -- CSS Flexbox #9.5) --
+   so pixel-identical geometry pre/post fix. Once .pool-apy-section wraps to
+   its own row (above), this is what keeps it flush against the card's right
+   edge on that row too, instead of falling back to flex-start (a lone item
+   on a flex line is start-aligned under space-between, not end-aligned). */
+.pools-grid .pool-apy-section {
+  margin-left: auto;
 }
 
 .pools-grid .pool-tvl-section,

@@ -1,6 +1,7 @@
-/* Playwright behavior gate for specs 246 + 260: pool card numeral cells get
-   a wrap discipline AND must never intersect any other element of the same
-   card. Drives the REAL rendered UI (http-server + chromium) and asserts on
+/* Playwright behavior gate for specs 246 + 260 + 274: pool card numeral cells
+   get a wrap discipline, must never intersect any other element of the same
+   card, and (274) must never be clipped by their OWN card's edge in grid
+   view. Drives the REAL rendered UI (http-server + chromium) and asserts on
    the rendered DOM via computed styles — never on source strings — per the
    2026-07-11 standing decision.
 
@@ -63,6 +64,23 @@
       (re-applying the shipped `.pool-columns` regression, and separately
       neutering the `.pool-tvl-section` min-width floor below) proving this
       check would have caught it.
+   J. (spec 274) GRID VIEW ONLY: every existing numeral cell's bounding rect
+      is fully CONTAINED inside its `.pool-card`'s own bounding rect (all
+      four edges, 1px tolerance) — the gap check D can't see, because a
+      `white-space: nowrap` numeral's OWN box always sizes exactly to its
+      content (scrollWidth === clientWidth trivially), so D passes even when
+      the whole box has been laid out past the card's right edge and silently
+      clipped by `.pool-card`'s `overflow: hidden` (style.css ~3195) — the
+      live defect (specs/274.md). Additionally, for every card where every one
+      of its numeral cells passes the containment check above, `.pool-card`'s
+      own `scrollWidth <= clientWidth + 1` is asserted too (no clipping-
+      ancestor overflow at all) — EXCEPT when the card's overflow is
+      DOM-provably caused by a non-numeral leaf (see "Coverage boundary of
+      check J" below): that case is logged, counted, and excluded from the
+      hard assertion rather than silently passed or force-failed on a defect
+      outside this item's scope. Checked at all 4 viewports, both themes,
+      grid view only (list view's `.pool-card` has a different, unrelated
+      layout — see CLAUDE.md/specs/274.md, this item does not touch it).
    Plus, on /?pool=<id> (leg b, already closed by 247 — pinned only):
    F. .pool-token-chip computed font-family === body's computed font-family.
    G. .pool-token-chip computed text-transform !== 'uppercase'.
@@ -131,6 +149,25 @@
    truncate (which AC-4/check H forbids). This is the same trade instance
    (i)'s fix always implied; it was just never written down against a
    concrete pixel measurement until now (see specs/260-notes.md "Attempt 3").
+
+   Coverage boundary of check J (RAZOR, same honesty bar as checks E/I above):
+   measurement surfaced a SEPARATE, PRE-EXISTING defect this item does not fix
+   or cause — an extremely long project-slug byline (`.pool-context-inline`,
+   e.g. `usdc-poly-aave`, non-anomalous ~45.67% APY) can by itself blow out
+   `.pool-header-new` via flexbox's default `min-width: auto` on
+   `.pool-left-section`/`.pool-name-group`, unrelated to any numeral's width.
+   Reproduced on a clean pre-274 baseline (specs/274-notes.md), so it's out of
+   this item's "grid-card containment [for numerals] only" scope (specs/274.md
+   "Class closed by this item"). An unconditional `card.scrollWidth <=
+   clientWidth` would go red on this fixture for the wrong reason, so the
+   ancestor-scrollWidth assertion only hard-fails when the overflow is
+   attributable to a NUMERAL cell (i.e. that cell already fails the
+   containment check above). A card that overflows with every numeral cell
+   individually contained is logged, not silently dropped or hidden — see
+   RUN_CONTAINMENT.excusedByline — same treatment as check E's
+   `.pool-cta-section` exclusion and check I's anomalous-row exclusion. Left
+   OPEN beyond this logging, out of scope here (different bug class: sibling
+   min-content escape, not numeral-track escape).
 
    Harness notes learned the hard way (do not "fix" these):
    - `page.goto` uses waitUntil: 'domcontentloaded', NOT 'load' — 'load' hangs
@@ -246,8 +283,18 @@ const FIXTURE_POOLS = [
   // the smallest realistic magnitude for that cell. Lowest TVL among the 8
   // yielding pools -> ranks 8th of 8 yielding, still on page 1.
   makePool('usdc-near-zero', 'quiet-vault', 'USDC', 'Ethereum', 12_000_000, 0.01),
-  makePool('usdc-eth-morpho', 'morpho-blue', 'USDC', 'Ethereum', 55_000_000, 5.9),
-  makePool('usdc-arb-aave', 'aave-v3', 'USDC', 'Arbitrum', 70_000_000, 4.8),
+  // Spec 274 Population: a normal 2-digit-before-the-decimal APY, well under
+  // APY_SANITY_LIMIT -> non-anomalous, no ⚠ -- the "should never move"
+  // control for check J's containment assertion and the pixel-drift proof
+  // (specs/274-notes.md). Was 5.9 (1-digit) pre-274; retargeted, no other
+  // comment in this file pins the old value.
+  makePool('usdc-eth-morpho', 'morpho-blue', 'USDC', 'Ethereum', 55_000_000, 45.67),
+  // Spec 274 Population: a 3-digit-before-the-decimal APY (705.51%, the exact
+  // magnitude class of the human's live "WETH-CBBTC 705.51" clip report) --
+  // still under the 1000% sanity limit, so non-anomalous/no ⚠, same as the
+  // live case. Was 4.8 (1-digit) pre-274; retargeted, no other comment in
+  // this file pins the old value.
+  makePool('usdc-arb-aave', 'aave-v3', 'USDC', 'Arbitrum', 70_000_000, 705.51),
   // 246 finding 1b: this pool's project is the LONGEST project slug actually
   // present in data/pools-snapshot.json (computed above, not hardcoded),
   // paired with a realistic (non-anomalous) APY -- exercises the widened
@@ -286,7 +333,16 @@ const FIXTURE_POOLS = [
   // it here, in the officially green population, proves the leg-A fix in the
   // shipped CSS -- not just a scratch reproduction outside the test file.
   makePool('usdc-daypreview-glitch', LONGEST_PROJECT_SLUG, 'USDC', 'Ethereum', 15_000_000, 9999999.99),
-  makePool('usdc-tvl-glitch', 'glitch-vault', 'USDC', 'Ethereum', 950_000_000_000_000_000, 3.0)
+  // Spec 274 Population: retargeted from 3.0 (non-anomalous) to 3385.12 --
+  // the exact 4-digit-before-the-decimal magnitude class of the human's live
+  // "IDAI-IUSDC-IUSDT ⚠ 3,385.12%" clip report (anomalous, >1000% sanity
+  // limit -> ⚠ prefix, matching the live case exactly). Doubles this pool's
+  // existing job (line ~453's TVL-glitch/leg-B comment, unaffected -- that
+  // exclusion is about .tvl-value's string width, not apyBase) as the
+  // 4-digit-anomalous member of check J's digit-count population, rather
+  // than adding a 10th fixture pool and disturbing the exactly-9/itemsPerPage
+  // page-1 discipline documented above (spec 260 attempt-2 finding 2).
+  makePool('usdc-tvl-glitch', 'glitch-vault', 'USDC', 'Ethereum', 950_000_000_000_000_000, 3385.12)
 ];
 const FIXTURE_RESPONSE = JSON.stringify({ status: 'success', data: FIXTURE_POOLS });
 
@@ -569,6 +625,73 @@ async function runColumnAlignmentAssertion(page, label) {
   return { applicable: true, checked };
 }
 
+// Spec 274, check J: grid-view numeral containment against the CARD (not
+// just the numeral's own box, which D already covers and which is always
+// trivially satisfied by a nowrap element -- see the file header's check J
+// description). Population is DOM-derived: the same NUMERAL_CLASSES list
+// SCAN_FN uses, re-declared here (this file's existing pattern -- see
+// COLUMN_ALIGN_FN above, which likewise re-derives its own element set
+// rather than sharing a closure, since page.evaluate() callbacks run in the
+// browser with no access to this file's module scope).
+const CONTAINMENT_FN = () => {
+  const NUMERAL_CLASSES = ['pool-apy-hero', 'pool-apy-preview', 'pool-apy-tag', 'tvl-value'];
+  const cards = Array.from(document.querySelectorAll('.pool-card'));
+  const failures = [];
+  const excusedByline = []; // see "Coverage boundary of check J" in the file header
+  let checked = 0;
+
+  cards.forEach((card, cardIdx) => {
+    const cardRect = card.getBoundingClientRect();
+    const numeralCells = [];
+    for (const cls of NUMERAL_CLASSES) {
+      const el = card.querySelector('.' + cls);
+      if (!el) continue;
+      const cs = getComputedStyle(el);
+      if (cs.display === 'none') continue;
+      const rect = el.getBoundingClientRect();
+      if (rect.width === 0 && rect.height === 0) continue;
+      checked++;
+      const contained = rect.left >= cardRect.left - 1 && rect.right <= cardRect.right + 1
+        && rect.top >= cardRect.top - 1 && rect.bottom <= cardRect.bottom + 1;
+      if (!contained) {
+        failures.push(`card[${cardIdx}] .${cls} "${el.textContent}": rect=[${rect.left.toFixed(1)},${rect.right.toFixed(1)}] not contained in card=[${cardRect.left.toFixed(1)},${cardRect.right.toFixed(1)}]`);
+      }
+      numeralCells.push({ cls, contained });
+    }
+
+    const cardOverflows = card.scrollWidth > card.clientWidth + 1;
+    if (!cardOverflows) return; // fully clean card, nothing more to check
+    const anyNumeralUncontained = numeralCells.some((c) => !c.contained);
+    if (anyNumeralUncontained) return; // already reported above; no need to duplicate via the ancestor check
+    // Card overflows but every numeral cell (if any) is individually
+    // contained -- per the file header's "Coverage boundary of check J",
+    // this is the pre-existing, out-of-scope, non-numeral (byline) overflow
+    // class, not a 274 regression. Logged and excluded, not silently passed.
+    excusedByline.push(`card[${cardIdx}]: scrollWidth=${card.scrollWidth} > clientWidth=${card.clientWidth}, but all ${numeralCells.length} numeral cell(s) contained -- excused as pre-existing non-numeral overflow, see "Coverage boundary of check J"`);
+  });
+
+  return { failures, checked, excusedByline, cardCount: cards.length };
+};
+
+const RUN_CONTAINMENT = { checked: 0, excusedByline: 0, combos: 0 };
+
+async function runContainmentAssertion(page, label) {
+  const { failures, checked, excusedByline, cardCount } = await page.evaluate(CONTAINMENT_FN);
+  if (cardCount < 1) throw new Error(`${label}: no .pool-card found (check J is vacuous here)`);
+  if (checked < 1) throw new Error(`${label}: no numeral cells found (check J is vacuous here)`);
+  if (failures.length) {
+    throw new Error(`${label}: ${failures.length} grid-card containment failure(s) across ${checked} numeral cells / ${cardCount} cards:\n    ` + failures.join('\n    '));
+  }
+  RUN_CONTAINMENT.checked += checked;
+  RUN_CONTAINMENT.excusedByline += excusedByline.length;
+  RUN_CONTAINMENT.combos++;
+  if (excusedByline.length) {
+    console.log(`    (check J) ${label}: ${excusedByline.length} card(s) excused (pre-existing non-numeral overflow, see file header):`);
+    excusedByline.forEach((l) => console.log('      ' + l));
+  }
+  return { checked, excusedByline: excusedByline.length };
+}
+
 async function shot(page, name) {
   try {
     await page.screenshot({ path: path.join(SCRATCH, name), fullPage: false });
@@ -660,6 +783,11 @@ async function main() {
         const result = await runColumnAlignmentAssertion(page, `grid/light/${width}px`);
         if (result.applicable) throw new Error(`grid/light/${width}px: expected .pool-columns to be absent in grid view, but check I found it applicable`);
       });
+      await test(`grid/light/${width}px: card containment (check J)`, async () => {
+        await page.setViewportSize({ width, height: 900 });
+        await page.waitForTimeout(600); // let AnimatedNumber settle to its final width before measuring
+        await runContainmentAssertion(page, `grid/light/${width}px`);
+      });
     }
     await shot(page, '246-grid-light-1280.png');
 
@@ -680,6 +808,11 @@ async function main() {
         await page.waitForTimeout(150);
         const result = await runColumnAlignmentAssertion(page, `grid/dark/${width}px`);
         if (result.applicable) throw new Error(`grid/dark/${width}px: expected .pool-columns to be absent in grid view, but check I found it applicable`);
+      });
+      await test(`grid/dark/${width}px: card containment (check J)`, async () => {
+        await page.setViewportSize({ width, height: 900 });
+        await page.waitForTimeout(600); // let AnimatedNumber settle to its final width before measuring
+        await runContainmentAssertion(page, `grid/dark/${width}px`);
       });
     }
     await shot(page, '246-grid-dark-1280.png');
@@ -795,6 +928,18 @@ async function main() {
     process.exitCode = 1;
   } else {
     console.log('✓ COLUMN_ALIGNMENT_COVERAGE: check I asserted on at least one non-anomalous row in every applicable combination');
+  }
+
+  // Spec 274, check J: non-vacuity -- expected applicable at all 4 grid
+  // viewports x 2 themes = 8 combinations; if that count ever drops to 0
+  // (e.g. a future markup change stops rendering .pool-card in grid view)
+  // the check would otherwise pass by never running.
+  console.log(`grid-card containment (check J): ${RUN_CONTAINMENT.checked} numeral cells checked across ${RUN_CONTAINMENT.combos} grid view x theme x viewport combinations (${RUN_CONTAINMENT.excusedByline} card(s) excused as pre-existing non-numeral overflow, see file header "Coverage boundary of check J")`);
+  if (RUN_CONTAINMENT.combos < 1 || RUN_CONTAINMENT.checked < 1) {
+    console.error('✗ CONTAINMENT_COVERAGE: check J never asserted on any combination (vacuous, spec 274)');
+    process.exitCode = 1;
+  } else {
+    console.log('✓ CONTAINMENT_COVERAGE: check J asserted on at least one numeral cell in every grid view x theme x viewport combination');
   }
 
   console.log(`✓ ${passed}/${total} card-numeral-wrap assertions passed`);
