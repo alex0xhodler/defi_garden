@@ -4,7 +4,7 @@ The highest honest BBQTGBP yield right now is 3.56% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c62ee044-fe46-47ec-97e5-b0d7d626ef97&src=seo_token) | Ethereum | 3.56% | $5.23M |
+| [morpho-blue →](https://www.defi.garden/?pool=c62ee044-fe46-47ec-97e5-b0d7d626ef97&src=seo_token) | Ethereum | 3.56% | $5.24M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BBQTGBP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.23M in total.
+1 live pool clear this page's $100K TVL floor, $5.24M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

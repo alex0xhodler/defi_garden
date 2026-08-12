@@ -37,6 +37,11 @@ const {
   MIN_TVL_USD,
   formatTvlFloor,
 } = require('./generate-llms.js');
+// backlog 254: the sync check below asserts MIN_TVL_USD against THIS (the
+// live app.js-mirroring shared source), never a re-typed literal — a
+// hardcoded `10000000` here is exactly the class of defect backlog 254
+// fixed (this file's own former assertion was one of the casualties).
+const { DEFAULT_MIN_TVL } = require('./trust-rails.js');
 
 let passed = 0;
 function test(name, fn) {
@@ -50,8 +55,8 @@ console.log('llms.txt / llms-full.txt trust rails — 159');
 test('APY_SANITY_LIMIT mirrors app.js:800 (1000)', () => {
   assert.strictEqual(APY_SANITY_LIMIT, 1000);
 });
-test('MIN_TVL_USD mirrors app.js:801 DEFAULT_MIN_TVL ($10M)', () => {
-  assert.strictEqual(MIN_TVL_USD, 10000000);
+test('MIN_TVL_USD mirrors trust-rails.js DEFAULT_MIN_TVL (itself mirroring app.js:801)', () => {
+  assert.strictEqual(MIN_TVL_USD, DEFAULT_MIN_TVL);
 });
 
 // --- (a) The real-world anomalous pool from the spec's evidence -----------
@@ -73,7 +78,7 @@ test('APY rail alone is load-bearing: anomalous APY + HUGE TVL is still excluded
 });
 
 // --- (b) In-rail pool at/above the new TVL floor is included --------------
-test('in-rail pool at the $10M TVL floor and sane APY is included', () => {
+test('in-rail pool at the MIN_TVL_USD floor and sane APY is included', () => {
   const pools = [
     { chain: 'Base', project: 'uniswap-v3', symbol: 'WETH-USDC', apy: 25.4, tvlUsd: MIN_TVL_USD },
   ];
@@ -109,7 +114,7 @@ test('boundary: apy === 1000.01 is excluded', () => {
 
 // --- TL;DR string derives from the constant, not a second hardcoded literal
 test('TL;DR TVL claim derives from MIN_TVL_USD via formatTvlFloor', () => {
-  assert.strictEqual(formatTvlFloor(MIN_TVL_USD), '$10M');
+  assert.strictEqual(formatTvlFloor(MIN_TVL_USD), formatTvlFloor(DEFAULT_MIN_TVL));
   assert.strictEqual(formatTvlFloor(1000000), '$1M');
 });
 
@@ -147,7 +152,7 @@ test('committed llms-full.txt still lists >= 5 real pool lines', () => {
   assert.ok(poolLines >= 5, `expected >= 5 pool lines in llms-full.txt, found ${poolLines}`);
 });
 
-test('committed llms.txt TL;DR TVL claim matches the $10M floor actually used', () => {
+test('committed llms.txt TL;DR TVL claim matches the floor actually used', () => {
   const content = fs.readFileSync(path.join(__dirname, 'llms.txt'), 'utf8');
   assert.ok(
     content.includes(`TVL ≥ ${formatTvlFloor(MIN_TVL_USD)}`),

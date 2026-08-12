@@ -1,10 +1,10 @@
 # SRROYSUSDAI DeFi Yields
 
-The highest honest SRROYSUSDAI yield right now is 5.34% on royco-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYSUSDAI yield right now is 5.44% on royco-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=4c85a387-c143-5efb-b561-57d2bb040c4a&src=seo_token) | Arbitrum | 5.34% | $1.14M |
+| [royco-v2 →](https://www.defi.garden/?pool=4c85a387-c143-5efb-b561-57d2bb040c4a&src=seo_token) | Arbitrum | 5.44% | $1.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYSUSDAI yield today?
 
-5.34% APY on royco-v2 (Arbitrum), based on live DefiLlama data.
+5.44% APY on royco-v2 (Arbitrum), based on live DefiLlama data.
 
 ### How many SRROYSUSDAI pools clear the TVL floor?
 
@@ -26,13 +26,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

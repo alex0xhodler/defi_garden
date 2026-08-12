@@ -54,7 +54,7 @@ const FIXTURE_POOLS = [
   { pool: 'curve-2', project: 'curve-dex', symbol: 'crvUSD-USDC', chain: 'Ethereum', tvlUsd: 400000000, apyBase: 4, apyReward: 0 },
   { pool: 'whale-1', project: 'whale-protocol', symbol: 'USDC', chain: 'Ethereum', tvlUsd: 1000000000, apyBase: 5, apyReward: 0 },
   { pool: 'scam-1', project: 'tiny-scam', symbol: 'USDC', chain: 'Ethereum', tvlUsd: 20000000, apyBase: 5000, apyReward: 0 },
-  { pool: 'dust-1', project: 'tiny-dust', symbol: 'USDC', chain: 'Ethereum', tvlUsd: 500000, apyBase: 8, apyReward: 0 },
+  { pool: 'dust-1', project: 'tiny-dust', symbol: 'USDC', chain: 'Ethereum', tvlUsd: 50000, apyBase: 8, apyReward: 0 },
   { pool: 'good-1', project: 'tiny-good', symbol: 'USDC', chain: 'Base', tvlUsd: 15000000, apyBase: 9.5, apyReward: 0, apyMean30d: 9.5, count: 42 }
 ];
 
@@ -233,7 +233,7 @@ const CADENCE_POOLS = [
   { pool: 'small-a', project: 'proto-a', symbol: 'USDC', chain: 'Base', tvlUsd: 15000000, apyBase: 12, apyReward: 0, apyMean30d: 12 },
   { pool: 'small-b', project: 'proto-b', symbol: 'USDT', chain: 'Arbitrum', tvlUsd: 15000000, apyBase: 9, apyReward: 0, apyMean30d: 9 },
   { pool: 'small-c', project: 'proto-c', symbol: 'DAI', chain: 'Optimism', tvlUsd: 15000000, apyBase: 6, apyReward: 0, apyMean30d: 6 },
-  { pool: 'dust-1', project: 'tiny-dust', symbol: 'USDC', chain: 'Ethereum', tvlUsd: 500000, apyBase: 8, apyReward: 0 }
+  { pool: 'dust-1', project: 'tiny-dust', symbol: 'USDC', chain: 'Ethereum', tvlUsd: 50000, apyBase: 8, apyReward: 0 }
 ];
 test('rankCandidates ranks qualifying, small-enough, representative, fundable pools by storyScore descending, excludes Curve/dust (229)', () => {
   const ranked = gen.rankCandidates(CADENCE_POOLS);

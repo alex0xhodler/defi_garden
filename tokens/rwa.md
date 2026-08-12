@@ -1,11 +1,10 @@
 # RWA DeFi Yields
 
-The highest honest RWA yield right now is 203.90% on uniswap-v2 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RWA yield right now is 6.13% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0f4810a4-479a-5fa9-b58b-6700762e27d2&src=seo_token) | Base | 203.90% | $219.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a&src=seo_token) | Solana | 7.23% | $143.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=086a9fae-599d-46ac-a097-6aec49257f5a&src=seo_token) | Solana | 6.13% | $162.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RWA yield today?
 
-203.90% APY on uniswap-v2 (Base), based on live DefiLlama data.
+6.13% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RWA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $363.2K in total.
+1 live pool clear this page's $100K TVL floor, $162.5K in total.
 
 ### Are these rates safe?
 
@@ -26,15 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WEETH](https://www.defi.garden/tokens/weeth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 
-- [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

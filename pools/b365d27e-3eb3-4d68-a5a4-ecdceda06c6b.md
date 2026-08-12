@@ -1,12 +1,12 @@
 # HOLLAR-APYUSD — hydration-dex on Polkadot
 
-**Total APY:** 0.37% (0.37% Base · + 0.00% Rewards)
+**Total APY:** 0.41% (0.41% Base · + 0.00% Rewards)
 
-**TVL:** $159K
+**TVL:** $196.6K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.17%
+**30d Mean APY:** 0.88%
 
 **Exposure:** multi
 
@@ -20,14 +20,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,019 in 5y at current rates.
+$1,000 in this pool grows to ~$1,021 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.37% right now vs a 1.17% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.41% right now vs a 0.88% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,019 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,021 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on hydration-dex](https://hydration.net/?ref=defi.garden)
 
-Last updated August 7, 2026
+Last updated August 12, 2026

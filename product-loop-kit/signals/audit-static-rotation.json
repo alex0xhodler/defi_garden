@@ -31,7 +31,23 @@
       "tokens/maka.html",
       "tokens/srmhyper.html",
       "tokens/yog.html",
-      "tokens/doge.html"
+      "tokens/doge.html",
+      "tokens/edel.html",
+      "tokens/moca.html",
+      "tokens/stlink.html",
+      "tokens/3crv.html",
+      "tokens/gtusdtp.html",
+      "tokens/pons.html",
+      "tokens/usdcx.html",
+      "tokens/basemate.html",
+      "tokens/wzra.html",
+      "tokens/csusdccore.html",
+      "tokens/lfi.html",
+      "tokens/sirloinusdc.html",
+      "tokens/kodiusde.html",
+      "tokens/send.html",
+      "tokens/wmon.html",
+      "tokens/corgiai.html"
     ]
   },
   "chains": {
@@ -50,7 +66,15 @@
       "chains/venom.html",
       "chains/icp.html",
       "chains/monad.html",
-      "chains/astar.html"
+      "chains/astar.html",
+      "chains/rsk.html",
+      "chains/cronos.html",
+      "chains/kusama.html",
+      "chains/xrpl.html",
+      "chains/kava.html",
+      "chains/xrpl-evm.html",
+      "chains/mezo.html",
+      "chains/aptos.html"
     ]
   },
   "koTokens": {
@@ -79,7 +103,23 @@
       "ko/tokens/wbnb.html",
       "ko/tokens/car.html",
       "ko/tokens/inv.html",
-      "ko/tokens/rsup.html"
+      "ko/tokens/rsup.html",
+      "ko/tokens/puffer.html",
+      "ko/tokens/usdt.html",
+      "ko/tokens/bgb.html",
+      "ko/tokens/hair.html",
+      "ko/tokens/nwisdom.html",
+      "ko/tokens/ticker.html",
+      "ko/tokens/apex.html",
+      "ko/tokens/frxmsusd.html",
+      "ko/tokens/evausdt.html",
+      "ko/tokens/myrc.html",
+      "ko/tokens/susdm.html",
+      "ko/tokens/afcvx.html",
+      "ko/tokens/eurc.html",
+      "ko/tokens/mt.html",
+      "ko/tokens/stupid.html",
+      "ko/tokens/aapl.html"
     ]
   },
   "koChains": {
@@ -96,7 +136,15 @@
       "ko/chains/cronos-zkevm.html",
       "ko/chains/robinhood-chain.html",
       "ko/chains/canto.html",
-      "ko/chains/osmosis.html"
+      "ko/chains/osmosis.html",
+      "ko/chains/cronos.html",
+      "ko/chains/rootstock.html",
+      "ko/chains/strato.html",
+      "ko/chains/gnosis.html",
+      "ko/chains/bifrost.html",
+      "ko/chains/neo.html",
+      "ko/chains/op-mainnet.html",
+      "ko/chains/bitcoin.html"
     ]
   }
 }

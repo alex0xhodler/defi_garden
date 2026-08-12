@@ -4,7 +4,7 @@ The highest honest THAPT yield right now is 0.01% on thalaswap (Aptos), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [thalaswap →](https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token) | Aptos | 0.01% | $334.3K |
+| [thalaswap →](https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token) | Aptos | 0.01% | $325.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many THAPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $334.3K in total.
+1 live pool clear this page's $100K TVL floor, $325.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

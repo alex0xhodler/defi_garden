@@ -1,4 +1,18 @@
 // Multi-language translation system
+//
+// backlog 254: the shared source of truth for the two trust-rail-stating
+// leaves below (landing.trustFloor, planner.personaDegenDesc, en+ko) — see
+// trust-rails.js's own header for why. This file is BOTH a plain browser
+// <script> (no module system there — reads `window.TRUST_RAILS`, set by a
+// synchronous, non-deferred `<script src="trust-rails.js">` tag placed
+// before this one in home.html/plan.html's <head>, same load-order
+// guarantee canonical.js already relies on) AND a Node-requireable module
+// (see the `module.exports` guard at the bottom of this file) — this guard
+// mirrors that duality in the opposite direction.
+const TRUST_RAILS = (typeof module !== 'undefined' && module.exports)
+  ? require('./trust-rails.js')
+  : (typeof window !== 'undefined' ? window.TRUST_RAILS : null);
+
 const translations = {
   en: {
     // Search
@@ -109,12 +123,13 @@ const translations = {
     resetFilters: "Reset Filters",
     showSmallerPools: "Show pools with lower TVL",
     loadingError: "Failed to load yield data. Please try again later.",
-    emptyStateExplanation: (token) => `No live pools for ${token} clear our $10M minimum-TVL safety floor today.`,
-    emptyStateExplanationChain: (chain) => `No live pools on ${chain} clear our $10M minimum-TVL safety floor today.`,
+    tvlTrendShrinking: (pct, hp) => `This pool's deposits have shrunk about ${pct} over the ${hp} days we've tracked it. A pool can keep clearing our $100K size floor while quietly losing deposits — worth watching for a garden you plan to hold for years.`,
+    emptyStateExplanation: (token) => `No live pools for ${token} clear our $100K minimum-TVL safety floor today.`,
+    emptyStateExplanationChain: (chain) => `No live pools on ${chain} clear our $100K minimum-TVL safety floor today.`,
     poolNotFoundTitle: "This pool is no longer tracked",
-    poolNotFoundExplanation: "It's dropped out of the live DefiLlama data we rely on — likely delisted or migrated by its protocol. Here are trustworthy alternatives that clear our $10M safety floor.",
-    emptyStateAltHeadingChain: (chain) => `Live pools on ${chain} above the $10M floor`,
-    emptyStateAltHeadingStable: "Popular stablecoin pools above the $10M floor",
+    poolNotFoundExplanation: "It's dropped out of the live DefiLlama data we rely on — likely delisted or migrated by its protocol. Here are trustworthy alternatives that clear our $100K safety floor.",
+    emptyStateAltHeadingChain: (chain) => `Live pools on ${chain} above the $100K floor`,
+    emptyStateAltHeadingStable: "Popular stablecoin pools above the $100K floor",
 
     // Navigation
     backToSearch: "← Back to Search",
@@ -213,7 +228,13 @@ projectionHeading: "The long game",
       gardenCta: "Plant a garden",
       gardenNote: "No wallet needed to plan",
       trustLive: "Live DefiLlama data",
-      trustFloor: "$10M minimum TVL",
+      // backlog 254: derives from TRUST_RAILS (trust-rails.js) so this never
+      // re-drifts from DEFAULT_MIN_TVL the way the hand-typed "$10M" did.
+      // Function leaf so the existing dictionary mechanism needs no change
+      // (createTranslationFunction already applies params to function
+      // leaves) — takes the formatted floor, defaulting to the live value so
+      // every existing zero-arg call site (landing.js) renders correctly.
+      trustFloor: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `${floor} minimum TVL`,
       trustEducation: "Education, not advice",
       trustHeading: "A calmer way to explore yield.",
       trustBody: "Clear entry points, honest numbers, and a next step that makes sense.",
@@ -304,7 +325,8 @@ projectionHeading: "The long game",
       personaRwaDesc: "Tokenized treasuries, real-world-asset yields, and newer-but-credible entries. TradFi yields moving onchain — the fastest-growing corner of DeFi.",
       personaRwaRisk: "Moderate risk — some regulatory uncertainty on newer products",
       personaDegenTitle: "High Yield",
-      personaDegenDesc: "High-APY LP farms, TVL ≥ $10M. These rates are real today and typically last days-to-weeks, requiring active farm-hopping.",
+      // backlog 254: see landing.trustFloor above — same TRUST_RAILS derivation.
+      personaDegenDesc: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `High-APY LP farms, TVL ≥ ${floor}. These rates are real today and typically last days-to-weeks, requiring active farm-hopping.`,
       personaDegenRisk: "Honest: projected at ⅓ of shown rate — high yields decay fast",
       personaProj: (amt, yrs, apy) => `≈ ${amt} in ${yrs} yrs at ${apy}%`,
       personaProjYield: (yld, apy) => `≈ ${yld}/mo at ${apy}%`,
@@ -734,6 +756,32 @@ projectionHeading: "The long game",
     // (DEFAULT_MIN_TVL, app.js) — a 100x false safety claim (spec 174).
     // floorStr is ALWAYS the caller's formatUsd(MIN_POOL_TVL), never re-typed.
     tcpFaqA3: (floorStr) => `Pools listed on this page clear a ${floorStr} minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.`,
+    // "How this rate has behaved" depth section (item 232) — head-set pages
+    // only. Every count/rate string these wrap is computed by
+    // rateBehaviourFor() from the SAME railed rec.pools the table above
+    // already shows; never re-typed here.
+    tcpDepthHeading: "How this rate has behaved",
+    tcpDepthSpread: (symbol, poolCount, lowApyStr, highApyStr, chainCount) =>
+      `${symbol} shows up in ${poolCount} ${poolCount === 1 ? 'pool' : 'pools'} here, with rates from ${lowApyStr} to ${highApyStr} APY across ${chainCount} ${chainCount === 1 ? 'chain' : 'chains'} — the rate depends on which protocol and chain you pick, not just the token.`,
+    // Verb agreement keys on the NUMERATOR (meanCount/rewardCount/ilCount),
+    // never the denominator poolCount — "1 of 8 pools blends", not "blend"
+    // (coordinator review, defect 1). The noun ("pool"/"pools") still keys on
+    // poolCount, since poolCount IS what it counts. tcpDepthMixAllBase is
+    // unaffected: poolCount there is genuinely both the noun's and the verb's
+    // subject, so it correctly keys on poolCount alone — leave it.
+    tcpDepthMean: (meanCount, poolCount, medianMeanStr) =>
+      `${meanCount} of these ${poolCount} ${Number(poolCount) === 1 ? 'pool' : 'pools'} ${Number(meanCount) === 1 ? 'has' : 'have'} a trustworthy 30-day average on file, with a median of ${medianMeanStr} — a useful check against today's number for whether the rate is steady or just having a good day.`,
+    tcpDepthMixIncentives: (rewardCount, poolCount) =>
+      `${rewardCount} of ${poolCount} ${Number(poolCount) === 1 ? 'pool' : 'pools'} ${Number(rewardCount) === 1 ? 'blends' : 'blend'} in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.`,
+    tcpDepthMixAllBase: (poolCount) =>
+      `All ${poolCount} ${Number(poolCount) === 1 ? 'pool pays' : 'pools pay'} a plain base rate right now — no incentive or reward APY mixed in.`,
+    tcpDepthIlExposure: (ilCount, poolCount) =>
+      `${ilCount} of ${poolCount} ${Number(poolCount) === 1 ? 'pool' : 'pools'} ${Number(ilCount) === 1 ? 'carries' : 'carry'} impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.`,
+    tcpDepthColMix: "Yield mix",
+    tcpDepthMixBaseCell: "Base rate",
+    tcpDepthMixIncentiveCell: (shareStr) => `${shareStr} incentives`,
+    tcpDepthNote: (floorStr) =>
+      `The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a ${floorStr} minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.`,
     tcpRelatedTokensHeading: "Related tokens",
     tcpRelatedChainsHeading: "Related chains",
     tcpAvailableOnHeading: "Available on",
@@ -861,12 +909,13 @@ projectionHeading: "The long game",
     resetFilters: "필터 초기화",
     showSmallerPools: "TVL이 낮은 풀도 보기",
     loadingError: "수익률 데이터를 불러오지 못했습니다. 다시 시도해주세요.",
-    emptyStateExplanation: (token) => `현재 ${token}에서 최소 TVL $10M 기준을 통과하는 라이브 풀이 없습니다.`,
-    emptyStateExplanationChain: (chain) => `현재 ${chain}에는 최소 TVL $10M 기준을 통과하는 라이브 풀이 없습니다.`,
+    tvlTrendShrinking: (pct, hp) => `추적한 ${hp}일 동안 이 풀의 예치금이 약 ${pct} 줄었습니다. 풀은 예치금이 조용히 빠져나가는 중에도 우리의 $100K 규모 기준을 계속 통과할 수 있습니다 — 여러 해 동안 가꿀 가든이라면 지켜볼 만합니다.`,
+    emptyStateExplanation: (token) => `현재 ${token}에서 최소 TVL $100K 기준을 통과하는 라이브 풀이 없습니다.`,
+    emptyStateExplanationChain: (chain) => `현재 ${chain}에는 최소 TVL $100K 기준을 통과하는 라이브 풀이 없습니다.`,
     poolNotFoundTitle: "더 이상 추적되지 않는 풀입니다",
-    poolNotFoundExplanation: "저희가 사용하는 라이브 DefiLlama 데이터에서 이 풀이 사라졌습니다 — 프로토콜에서 상장 폐지되었거나 마이그레이션되었을 가능성이 높습니다. $10M 안전 기준을 통과하는 신뢰할 수 있는 대안을 아래에 안내합니다.",
-    emptyStateAltHeadingChain: (chain) => `$10M 기준을 통과한 ${chain}의 라이브 풀`,
-    emptyStateAltHeadingStable: "$10M 기준을 통과한 인기 스테이블코인 풀",
+    poolNotFoundExplanation: "저희가 사용하는 라이브 DefiLlama 데이터에서 이 풀이 사라졌습니다 — 프로토콜에서 상장 폐지되었거나 마이그레이션되었을 가능성이 높습니다. $100K 안전 기준을 통과하는 신뢰할 수 있는 대안을 아래에 안내합니다.",
+    emptyStateAltHeadingChain: (chain) => `$100K 기준을 통과한 ${chain}의 라이브 풀`,
+    emptyStateAltHeadingStable: "$100K 기준을 통과한 인기 스테이블코인 풀",
 
     // Navigation
     backToSearch: "← 검색으로 돌아가기",
@@ -956,7 +1005,11 @@ projectionHeading: "The long game",
       gardenCta: "정원 심기",
       gardenNote: "계획에는 지갑이 필요하지 않아요",
       trustLive: "DefiLlama 실시간 데이터",
-      trustFloor: "$1,000만 최소 TVL",
+      // backlog 254: bare Latin "$100K" form (spec's Open Questions judgment
+      // call — matches the KO strings 6fceca79bb already shipped, e.g.
+      // "최소 TVL $100K 기준" (emptyStateExplanation above), rather than a
+      // Hangul numeral like "10만 달러"). See translations.en.landing.trustFloor.
+      trustFloor: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `최소 TVL ${floor}`,
       trustEducation: "투자 조언이 아닙니다",
       trustHeading: "더 차분하게 수익률을 탐색하세요.",
       trustBody: "명확한 시작점, 정직한 숫자, 그리고 다음 행동을 안내합니다.",
@@ -1040,7 +1093,8 @@ projectionHeading: "The long game",
       personaRwaDesc: "토큰화된 국채, 실물 자산 수익률, 신뢰할 수 있는 신규 항목. TradFi 수익률이 온체인으로 — DeFi에서 가장 빠르게 성장하는 영역.",
       personaRwaRisk: "중간 위험 — 신규 상품에 대한 규제 불확실성 존재",
       personaDegenTitle: "고수익",
-      personaDegenDesc: "고수익 LP 팜, TVL ≥ $10M. 이 수익률은 지금 실재하며 보통 며칠~몇 주 지속돼요. 적극적인 농장 이동이 필요합니다.",
+      // backlog 254: see translations.en.planner.personaDegenDesc above.
+      personaDegenDesc: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `고수익 LP 팜, TVL ≥ ${floor}. 이 수익률은 지금 실재하며 보통 며칠~몇 주 지속돼요. 적극적인 농장 이동이 필요합니다.`,
       personaDegenRisk: "솔직히: 표시된 수익률의 ⅓로 투영 — 고수익률은 빠르게 감소",
       personaProj: (amt, yrs, apy) => `≈ ${amt} · ${yrs}년 · ${apy}%`,
       personaProjYield: (yld, apy) => `≈ 월 ${yld} · ${apy}%`,
@@ -1437,6 +1491,30 @@ projectionHeading: "The long game",
     tcpFaqQ3: "이 수익률은 안전한가요?",
     // 174: floorStr은 항상 호출부의 formatUsd(MIN_POOL_TVL) 값이며, 절대 문자열로 다시 적지 않아요.
     tcpFaqA3: (floorStr) => `이 페이지에 표시된 풀은 최소 TVL ${floorStr} 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.`,
+    // "이 수익률은 어떻게 움직였을까요" 심층 섹션 (item 232) — 헤드 페이지에만 표시돼요.
+    // 아래 문자열이 감싸는 수치는 전부 rateBehaviourFor()가 위 표와 같은,
+    // 안전 기준을 통과한 rec.pools에서 계산한 값이며 여기서 다시 타이핑하지 않아요.
+    tcpDepthHeading: "이 수익률은 어떻게 움직였을까요",
+    // defect 3 (coordinator review): no ambiguous slashed-particle pair
+    // (topic/object/subject marker written both ways, parenthesized) —
+    // "풀은" is a fixed noun+particle that never varies with the interpolated
+    // symbol's batchim, same structural fix tcpTokenIntro/tcpSubLine already
+    // use elsewhere in this catalog.
+    tcpDepthSpread: (symbol, poolCount, lowApyStr, highApyStr, chainCount) =>
+      `${symbol} 풀은 여기 ${poolCount}개가 있고, ${chainCount}개 체인에서 APY가 ${lowApyStr}부터 ${highApyStr}까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.`,
+    tcpDepthMean: (meanCount, poolCount, medianMeanStr) =>
+      `${poolCount}개 풀 중 ${meanCount}개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 ${medianMeanStr}예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.`,
+    tcpDepthMixIncentives: (rewardCount, poolCount) =>
+      `${poolCount}개 풀 중 ${rewardCount}개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.`,
+    tcpDepthMixAllBase: (poolCount) =>
+      `현재 ${poolCount}개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.`,
+    tcpDepthIlExposure: (ilCount, poolCount) =>
+      `${poolCount}개 풀 중 ${ilCount}개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.`,
+    tcpDepthColMix: "수익 구성",
+    tcpDepthMixBaseCell: "기본 금리",
+    tcpDepthMixIncentiveCell: (shareStr) => `인센티브 ${shareStr}`,
+    tcpDepthNote: (floorStr) =>
+      `30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL ${floorStr} 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.`,
     tcpRelatedTokensHeading: "관련 토큰",
     tcpRelatedChainsHeading: "관련 체인",
     tcpAvailableOnHeading: "이용 가능한 체인",

@@ -1,12 +1,12 @@
 # ETH-QUILL — uniswap-v4 on Base
 
-**Total APY:** 8.03% (8.03% Base · + 0.00% Rewards)
+**Total APY:** 1.50% (1.50% Base · + 0.00% Rewards)
 
-**TVL:** $116.6K
+**TVL:** $112.7K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.60%
+**30d Mean APY:** 2.73%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,471 in 5y at current rates.
+$1,000 in this pool grows to ~$1,077 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 8.03% right now vs a 3.60% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 1.50% right now vs a 2.73% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,471 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,077 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 7, 2026
+Last updated August 12, 2026

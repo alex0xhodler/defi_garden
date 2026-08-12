@@ -4,7 +4,7 @@ The highest honest MTA yield right now is 0.02% on velodrome-v2 (OP Mainnet), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=02c84762-9d13-4290-b64c-5d2ca638effc&src=seo_token) | OP Mainnet | 0.02% | $237.5K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=02c84762-9d13-4290-b64c-5d2ca638effc&src=seo_token) | OP Mainnet | 0.02% | $236.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MTA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $237.5K in total.
+1 live pool clear this page's $100K TVL floor, $236.2K in total.
 
 ### Are these rates safe?
 
@@ -27,12 +27,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
-- [BOLD](https://www.defi.garden/tokens/bold)
 - [ALETH](https://www.defi.garden/tokens/aleth)
-- [LUSD](https://www.defi.garden/tokens/lusd)
+- [ALUSD](https://www.defi.garden/tokens/alusd)
+- [VAULT](https://www.defi.garden/tokens/vault)
 
 ## Available on
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

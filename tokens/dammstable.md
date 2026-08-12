@@ -1,10 +1,10 @@
 # DAMMSTABLE DeFi Yields
 
-The highest honest DAMMSTABLE yield right now is 5.89% on lagoon (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAMMSTABLE yield right now is 4.41% on lagoon (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=2c7146e4-90d0-43a7-9e22-bf3b174a924f&src=seo_token) | Arbitrum | 5.89% | $1.47M |
+| [lagoon →](https://www.defi.garden/?pool=2c7146e4-90d0-43a7-9e22-bf3b174a924f&src=seo_token) | Arbitrum | 4.41% | $1.47M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAMMSTABLE yield today?
 
-5.89% APY on lagoon (Arbitrum), based on live DefiLlama data.
+4.41% APY on lagoon (Arbitrum), based on live DefiLlama data.
 
 ### How many DAMMSTABLE pools clear the TVL floor?
 
@@ -26,13 +26,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

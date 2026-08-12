@@ -1,10 +1,10 @@
 # T9CBBTC DeFi Yields
 
-The highest honest T9CBBTC yield right now is 1.91% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest T9CBBTC yield right now is 1.77% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=11705150-c5d1-4ba9-a019-f3648055a441&src=seo_token) | Ethereum | 1.91% | $8.08M |
+| [lagoon →](https://www.defi.garden/?pool=11705150-c5d1-4ba9-a019-f3648055a441&src=seo_token) | Ethereum | 1.77% | $8.06M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest T9CBBTC yield today?
 
-1.91% APY on lagoon (Ethereum), based on live DefiLlama data.
+1.77% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many T9CBBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.08M in total.
+1 live pool clear this page's $100K TVL floor, $8.06M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

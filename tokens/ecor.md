@@ -1,11 +1,10 @@
 # ECOR DeFi Yields
 
-The highest honest ECOR yield right now is 0.43% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ECOR yield right now is 0.45% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd&src=seo_token) | TON | 2.07% | $120.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=ddc364c4-b6b7-499c-92cb-cc72962d6594&src=seo_token) | Solana | 0.43% | $111K |
+| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd&src=seo_token) | TON | 0.45% | $120.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ECOR yield today?
 
-0.43% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.45% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many ECOR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $231.7K in total.
+1 live pool clear this page's $100K TVL floor, $120.5K in total.
 
 ### Are these rates safe?
 
@@ -25,16 +24,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
+- [GRAM](https://www.defi.garden/tokens/gram)
+- [TSTON](https://www.defi.garden/tokens/tston)
+- [HGRAM](https://www.defi.garden/tokens/hgram)
+- [XAUT0](https://www.defi.garden/tokens/xaut0)
+- [UTYA](https://www.defi.garden/tokens/utya)
+- [STON](https://www.defi.garden/tokens/ston)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
-- [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

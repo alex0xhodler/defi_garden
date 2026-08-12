@@ -1,29 +1,52 @@
 # CRV DeFi Yields
 
-The highest honest CRV yield right now is 16.03% on curve-dex (Ethereum), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRV yield right now is 16.19% on convex-finance (Ethereum), among 30 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 7.73% | $6.44M |
-| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 12.44% | $5.35M |
-| [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8&src=seo_token) | Ethereum | 4.92% | $2.19M |
-| [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595&src=seo_token) | Ethereum | 7.03% | $2.03M |
-| [aave-v3 →](https://www.defi.garden/?pool=9932d2d8-1e4e-4248-9307-4f99c7e466a8&src=seo_token) | Ethereum | 0.33% | $1.99M |
-| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.49% | $1.2M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 16.03% | $1M |
-| [stake-dao →](https://www.defi.garden/?pool=de3fb17c-f3f4-463a-880e-7111ebcab1ba&src=seo_token) | Ethereum | 15.94% | $977.8K |
+| [curve-dex →](https://www.defi.garden/?pool=38160634-07f7-4dcd-a26e-0e0d27ef5a1b&src=seo_token) | Ethereum | 10.10% | $6.6M |
+| [convex-finance →](https://www.defi.garden/?pool=3f6f3937-1f0c-4cec-8d3b-904434085bfa&src=seo_token) | Ethereum | 16.19% | $5.5M |
+| [aave-v3 →](https://www.defi.garden/?pool=9932d2d8-1e4e-4248-9307-4f99c7e466a8&src=seo_token) | Ethereum | 0.32% | $2.58M |
+| [curve-dex →](https://www.defi.garden/?pool=4e5fba01-93a0-481f-9514-052f7f250de8&src=seo_token) | Ethereum | 7.93% | $2.37M |
+| [convex-finance →](https://www.defi.garden/?pool=654ac683-141b-42d3-b28d-b2f77eedd595&src=seo_token) | Ethereum | 10.41% | $2.2M |
+| [curve-dex →](https://www.defi.garden/?pool=8e469dbc-6da7-45fd-93a5-c5c4a9c18ed3&src=seo_token) | Ethereum | 8.86% | $1.51M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1583f9-f13b-44e2-bb17-816a2e2ba6bb&src=seo_token) | Ethereum | 13.94% | $1.26M |
+| [convex-finance →](https://www.defi.garden/?pool=a8ae790a-42e3-488f-9e7e-c539da9fec9c&src=seo_token) | Ethereum | 15.34% | $1.07M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+CRV shows up in 8 pools here, with rates from 0.32% to 16.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 8.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+7 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+7 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| curve-dex | 10.10% | 8.36% | 94.95% incentives |
+| convex-finance | 16.19% | 13.43% | 96.85% incentives |
+| aave-v3 | 0.32% | 0.38% | Base rate |
+| curve-dex | 7.93% | 5.15% | 55.47% incentives |
+| convex-finance | 10.41% | 7.27% | 66.09% incentives |
+| curve-dex | 8.86% | 8.81% | 96.73% incentives |
+| curve-dex | 13.94% | 15.03% | 94.98% incentives |
+| convex-finance | 15.34% | 15.18% | 98.11% incentives |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest CRV yield today?
 
-16.03% APY on curve-dex (Ethereum), based on live DefiLlama data.
+16.19% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CRV pools clear the TVL floor?
 
-27 live pools clear this page's $100K TVL floor, $27.69M in total.
+30 live pools clear this page's $100K TVL floor, $31.06M in total.
 
 ### Are these rates safe?
 
@@ -42,4 +65,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

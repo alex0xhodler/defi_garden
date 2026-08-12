@@ -37,9 +37,23 @@ Traps:
 - **Renumbering mid-run.** An ID collision found mid-build (another session's unmerged PR holding your
   next ID) feels urgent. It isn't — the ID is bookkeeping, the build is not. Renumber after the agents
   exit; renaming their spec out from under them costs a restore cycle in both the builder and verifier.
-- **Unmerged PRs hold IDs invisibly.** `BACKLOG.md` on `main` cannot show an ID claimed by an open PR
-  (the status change ships in the same commit as the code — the 2026-07-13 rule). Allocating the next ID
-  needs `list_pull_requests` + `git ls-remote 'refs/heads/claude/loop-*'`, not just the backlog table.
+- **Unmerged PRs hold IDs invisibly — and a MERGED-and-deleted branch is invisible too.** `BACKLOG.md` on
+  `main` cannot show an ID claimed by an open PR (the status change ships in the same commit as the
+  code — the 2026-07-13 rule). Allocating the next ID needs `list_pull_requests` +
+  `git ls-remote 'refs/heads/claude/loop-*'`, not just the backlog table. The same blind spot bit item 227
+  on 2026-08-11 from the other direction: a build run's prose in-flight check (`git ls-remote` for the
+  branch, `origin/main` for the commit) read clean because the branch had already been merged AND
+  deleted — the check has no leg that survives that. It is now executable, not prose:
+  `product-loop-kit/check-item-inflight.js <id> --prs=<path.json>` (spec 263) runs three legs — live
+  branch refs, landed commit subjects on a freshly-fetched `origin/main`, and PR state in ANY state (open,
+  closed, merged) via injected `--prs` data, so a merged-and-deleted branch still shows up on leg C even
+  though leg A alone would miss it. `prompts/build.md` §1 runs it at pickup; §5 (new, 2026-08-11) re-runs it
+  again immediately before the FIRST push, because two of the three blind spots — a stale base, a
+  branch that merges out from under a run mid-session — are only observable at push time. This is a
+  separate script from `pr-orphan-detector.js`'s `computeNextId`/`detectIdCollisions` (item 245, used for
+  the ID-allocation collision check above) — that one asks "which id is next?", this one asks "has THIS
+  id already been built, landed, or claimed?" Do not hand-roll either check from raw
+  `ls-remote`/`list_pull_requests` calls again; both are executable now.
 - **Default output paths.** Any tool a subagent runs that writes a committed artifact (`audit-app.js` →
   `signals/audit-findings.json`) will dirty the diff. Point runs at a scratch `outPath`/`AUDIT_OUT`, and
   check that path in `git status` before committing.

@@ -4,12 +4,31 @@ The highest honest MUSD yield right now is 5.97% on aave-v3 (Monad), among 7 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token) | Base | 5.11% | $931.8K |
-| [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token) | Ethereum | 0.64% | $878.6K |
-| [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token) | Monad | 5.97% | $649.5K |
-| [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 0.99% | $330.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token) | Base | 4.62% | $970.9K |
+| [curve-dex →](https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token) | Ethereum | 1.04% | $851.8K |
+| [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token) | Monad | 5.97% | $784.9K |
+| [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 1.46% | $319.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+MUSD shows up in 4 pools here, with rates from 1.04% to 5.97% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+2 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| aerodrome-slipstream | 4.62% | 10.43% | 90.12% incentives |
+| curve-dex | 1.04% | 0.76% | 76.02% incentives |
+| aave-v3 | 5.97% | 7.39% | 60.10% incentives |
+| convex-finance | 1.46% | 2.22% | 82.84% incentives |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
@@ -19,7 +38,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MUSD pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $7.79M in total.
+7 live pools clear this page's $100K TVL floor, $7.93M in total.
 
 ### Are these rates safe?
 
@@ -40,4 +59,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

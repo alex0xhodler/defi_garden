@@ -4,7 +4,7 @@ The highest honest WPOL yield right now is 0.10% on aave-v3 (Polygon), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.10% | $6.52M |
+| [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.10% | $6.43M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WPOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.52M in total.
+1 live pool clear this page's $100K TVL floor, $6.43M in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [MAI](https://www.defi.garden/tokens/mai)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

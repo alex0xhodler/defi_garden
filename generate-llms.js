@@ -41,27 +41,15 @@ const SNAPSHOT_PATH = process.env.LLMS_SNAPSHOT_PATH || path.resolve('./data/poo
 
 // Trust-rail constants — read-only MIRRORS of the product's own rails, never a
 // second source of truth. `app.js:800` (`APY_SANITY_LIMIT = 1000`) and
-// `app.js:801` (`DEFAULT_MIN_TVL = 10000000`, i.e. $10M) are canonical; this
-// generator must not drift from what the analytics app itself enforces (spec
-// 159 — the AI-discovery surface was publishing anomalous APYs the product
-// would never show). Do not change these values here; changing the rails
-// themselves is a human-gated decision made in app.js.
-const APY_SANITY_LIMIT = 1000; // mirrors app.js:800
-const MIN_TVL_USD = 10000000; // mirrors app.js:801 (DEFAULT_MIN_TVL, $10M)
-
-/**
- * Render a USD TVL floor as an abbreviated, en-US-formatted string (e.g.
- * 10000000 -> "$10M"), for use in TL;DR copy that must derive from
- * MIN_TVL_USD rather than hardcoding a second literal. Money formatting is
- * pinned to en-US throughout this repo (never a bare `toLocaleString()`).
- */
-function formatTvlFloor(usd) {
-  const n = Number(usd) || 0;
-  if (n >= 1e9) return `$${(n / 1e9).toLocaleString('en-US', { maximumFractionDigits: 1 })}B`;
-  if (n >= 1e6) return `$${(n / 1e6).toLocaleString('en-US', { maximumFractionDigits: 1 })}M`;
-  if (n >= 1e3) return `$${(n / 1e3).toLocaleString('en-US', { maximumFractionDigits: 1 })}K`;
-  return `$${n.toLocaleString('en-US')}`;
-}
+// `app.js:801` (`DEFAULT_MIN_TVL`) are canonical; this generator must not
+// drift from what the analytics app itself enforces (spec 159 — the
+// AI-discovery surface was publishing anomalous APYs the product would never
+// show). Sourced from trust-rails.js (backlog 254 — the single place both
+// this generator, generate-stories.js and translations.js reach), never a
+// hand-typed literal here. Do not change the VALUE; changing the rails
+// themselves is a human-gated decision made in app.js (+ trust-rails.js in
+// the same commit).
+const { APY_SANITY_LIMIT, DEFAULT_MIN_TVL: MIN_TVL_USD, formatTvlFloor } = require('./trust-rails.js');
 
 /**
  * URL for a single pool row (spec 166). Deep-links to pool-detail —

@@ -26,13 +26,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [Base](https://www.defi.garden/chains/base)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Stellar](https://www.defi.garden/chains/stellar)
 - [Sei](https://www.defi.garden/chains/sei)
+- [Sui](https://www.defi.garden/chains/sui)
 
 ## Top tokens on Noble
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

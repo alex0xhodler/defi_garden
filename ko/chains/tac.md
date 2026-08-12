@@ -29,10 +29,10 @@ DefiLlama 실시간 데이터 기준, TAC의 midas-rwa에서 APY 9.23%예요.
 - [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
 ## TAC의 인기 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 12, 2026

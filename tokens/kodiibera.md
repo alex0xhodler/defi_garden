@@ -1,10 +1,10 @@
 # KODIIBERA DeFi Yields
 
-The highest honest KODIIBERA yield right now is 9.86% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIIBERA yield right now is 7.77% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=df3f3df2-f5d1-490e-a1de-48a2649e6bee&src=seo_token) | Berachain | 9.86% | $148.4K |
+| [berapaw →](https://www.defi.garden/?pool=df3f3df2-f5d1-490e-a1de-48a2649e6bee&src=seo_token) | Berachain | 7.77% | $135.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIIBERA yield today?
 
-9.86% APY on berapaw (Berachain), based on live DefiLlama data.
+7.77% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIIBERA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $148.4K in total.
+1 live pool clear this page's $100K TVL floor, $135.8K in total.
 
 ### Are these rates safe?
 
@@ -26,13 +26,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [HONEY](https://www.defi.garden/tokens/honey)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
+- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

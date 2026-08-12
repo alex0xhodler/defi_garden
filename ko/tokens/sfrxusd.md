@@ -1,29 +1,50 @@
 # SFRXUSD 디파이 수익률
 
-현재 SFRXUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 6.90%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SFRXUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 12.80%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [frax →](https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5&src=seo_token) | Ethereum | 4.10% | $34.75M |
-| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.08% | $11.85M |
-| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.58% | $11.85M |
-| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 9.25% | $2.58M |
-| [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c&src=seo_token) | Ethereum | 6.90% | $1.89M |
-| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 5.91% | $853K |
-| [stake-dao →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a&src=seo_token) | Ethereum | 15.59% | $380K |
-| [curve-dex →](https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0&src=seo_token) | Ethereum | 2.46% | $225.7K |
+| [frax →](https://www.defi.garden/?pool=42523cca-14b0-44f6-95fb-4781069520a5&src=seo_token) | Ethereum | 4.10% | $36.02M |
+| [convex-finance →](https://www.defi.garden/?pool=956bda67-d4b0-41bf-92da-ea01f4622dda&src=seo_token) | Ethereum | 3.79% | $11.85M |
+| [curve-dex →](https://www.defi.garden/?pool=aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5&src=seo_token) | Ethereum | 3.23% | $11.85M |
+| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 10.11% | $2.51M |
+| [convex-finance →](https://www.defi.garden/?pool=0a84dcf2-f71a-4863-bd2e-1952a043eb0c&src=seo_token) | Ethereum | 12.80% | $1.79M |
+| [curve-dex →](https://www.defi.garden/?pool=15692d23-4da2-4a73-99c0-9c93c1aa86d9&src=seo_token) | Ethereum | 7.29% | $853.3K |
+| [stake-dao →](https://www.defi.garden/?pool=b4436242-634b-4561-9030-11dca253a39a&src=seo_token) | Ethereum | 19.49% | $407.9K |
+| [curve-dex →](https://www.defi.garden/?pool=d515263f-3726-49ad-80c3-d156e8ca79e0&src=seo_token) | Ethereum | 2.17% | $225.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
+
+## 이 수익률은 어떻게 움직였을까요
+
+SFRXUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.17%부터 19.49%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.22%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+
+8개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+
+| 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
+|---|---|---|---|
+| frax | 4.10% | 4.06% | 기본 금리 |
+| convex-finance | 3.79% | 3.60% | 인센티브 39.52% |
+| curve-dex | 3.23% | 3.22% | 인센티브 29.00% |
+| curve-dex | 10.11% | 5.57% | 인센티브 86.05% |
+| convex-finance | 12.80% | 8.89% | 인센티브 88.99% |
+| curve-dex | 7.29% | 4.38% | 인센티브 83.13% |
+| stake-dao | 19.49% | 9.94% | 인센티브 92.41% |
+| curve-dex | 2.17% | 2.42% | 기본 금리 |
+
+30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
 ## 자주 묻는 질문
 
 ### 오늘 SFRXUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.90%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 12.80%예요.
 
 ### SFRXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $69.71M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $70.04M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -42,4 +63,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 6.90%
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 12, 2026

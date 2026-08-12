@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Base의 iaero-protocol에서 APY 21.37%예
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 12, 2026

@@ -1,23 +1,44 @@
 # SDYB DeFi Yields
 
-The highest honest SDYB yield right now is 14.50% on stake-dao (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDYB yield right now is 21.96% on stake-dao (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 9.53% | $151.5K |
-| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 14.50% | $112.9K |
+| [stake-dao →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8&src=seo_token) | Ethereum | 5.08% | $447.7K |
+| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 10.71% | $170.3K |
+| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 21.96% | $126.6K |
+| [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c&src=seo_token) | Ethereum | 21.71% | $124.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+SDYB shows up in 4 pools here, with rates from 5.08% to 21.96% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 17.39% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+
+3 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| stake-dao | 5.08% | 11.64% | 100.00% incentives |
+| curve-dex | 10.71% | 14.88% | 99.81% incentives |
+| stake-dao | 21.96% | 19.89% | 99.32% incentives |
+| convex-finance | 21.71% | 32.44% | 99.91% incentives |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest SDYB yield today?
 
-14.50% APY on stake-dao (Ethereum), based on live DefiLlama data.
+21.96% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many SDYB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $662.7K in total.
+4 live pools clear this page's $100K TVL floor, $869.2K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

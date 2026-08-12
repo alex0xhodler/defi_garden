@@ -128,18 +128,20 @@ async function renderDetail(browser, lang) {
     const basedOnDiv = readout ? readout.children[2] : null;
     const basedOnLine = basedOnDiv ? basedOnDiv.textContent.trim() : '';
     // 210: the HERO .cta-button-primary label is now always the plain
-    // generic string (no $ projection — see PoolDetail.js A4). The repeat
-    // CTA inside the earnings block is the one that KEEPS the concrete
-    // showConcreteCta projection label, since by that point the user has
-    // parameterised the input. Grab both.
-    const ctas = Array.from(document.querySelectorAll('.cta-button-primary'));
+    // generic string (no $ projection — see PoolDetail.js A4). 237: the
+    // repeat CTA is no longer a second .cta-button-primary — it's the
+    // earnings block's slim .cta-echo-link, which is the one that KEEPS the
+    // concrete showConcreteCta projection label, since by that point the
+    // user has parameterised the input. Grab both.
+    const heroCta = document.querySelector('.cta-button-primary');
+    const echoLink = document.querySelector('.cta-echo-link');
     // The projection body is the bold line under the "장기적으로 보면" /
     // "The long game" heading; grab the whole view text and slice for robustness.
     return {
       viewText: view ? view.innerText : '',
       basedOnLine,
-      heroCtaText: ctas[0] ? ctas[0].textContent.trim() : '',
-      repeatCtaText: ctas[1] ? ctas[1].textContent.trim() : ''
+      heroCtaText: heroCta ? heroCta.textContent.trim() : '',
+      repeatCtaText: echoLink ? echoLink.textContent.trim() : ''
     };
   });
   snap.pageErrors = pageErrors;

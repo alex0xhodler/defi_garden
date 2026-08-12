@@ -42,7 +42,7 @@ const FIXTURE = { data: [
     url: 'https://lido.fi', exposure: 'single', ilRisk: 'no', underlyingTokens: ['0xsteth'],
     apy: 3.1, rewardTokens: [] },
   { pool: 'below-floor', chain: 'Base', project: 'sushi', symbol: 'USDC',
-    tvlUsd: 500_000, apyBase: 9, apyReward: 0, apyMean30d: 8, url: 'x',
+    tvlUsd: 50_000, apyBase: 9, apyReward: 0, apyMean30d: 8, url: 'x',
     exposure: 'multi', ilRisk: 'yes', underlyingTokens: ['a', 'b'] },
   { pool: 'anomalous-kept', chain: 'Solana', project: 'degen-farm', symbol: 'MOON-SOL',
     tvlUsd: 15_000_000, apyBase: 1200, apyReward: 500, apyMean30d: 900, poolMeta: 'LP',
@@ -64,7 +64,7 @@ test('13-field projection is exact — no extra fields, allowlist only', () => {
   assert.strictEqual(projected.pool, 'usdc-eth-aave');
 });
 
-test('$10M floor applied; anomalous pool KEPT; sub-floor DROPPED', () => {
+test('$100K floor applied; anomalous pool KEPT; sub-floor DROPPED', () => {
   withTmpDir(dir => {
     g.generateSnapshot(FIXTURE.data, dir, '2026-07-14T00:00:00.000Z');
     const snap = readJson(path.join(dir, 'pools-snapshot.json'));
@@ -73,7 +73,7 @@ test('$10M floor applied; anomalous pool KEPT; sub-floor DROPPED', () => {
     const ids = snap.pools.map(p => p.pool);
     assert.ok(ids.includes('anomalous-kept'), 'anomalous pool above floor must be KEPT');
     assert.ok(!ids.includes('below-floor'), 'sub-floor pool must be dropped');
-    snap.pools.forEach(p => assert.ok(p.tvlUsd >= 10_000_000, 'every pool >= $10M'));
+    snap.pools.forEach(p => assert.ok(p.tvlUsd >= 100_000, 'every pool >= $100K'));
     // No projected pool carries a non-allowlisted field.
     snap.pools.forEach(p => Object.keys(p).forEach(k =>
       assert.ok(FIELDS.includes(k), `snapshot pool has stray field ${k}`)));
@@ -86,7 +86,7 @@ test('envelope shape correct (schemaVersion/source/minTvlUsd/count/pools)', () =
     const snap = readJson(path.join(dir, 'pools-snapshot.json'));
     assert.strictEqual(snap.schemaVersion, 1);
     assert.strictEqual(snap.source, 'https://yields.llama.fi/pools');
-    assert.strictEqual(snap.minTvlUsd, 10_000_000);
+    assert.strictEqual(snap.minTvlUsd, 100_000);
     assert.strictEqual(snap.count, snap.pools.length);
     assert.strictEqual(snap.generatedAt, '2026-07-14T00:00:00.000Z');
   });

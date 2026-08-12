@@ -244,6 +244,82 @@ test('tvl-floor-claim: no stated floor emits nothing (not a defect)', () => {
 });
 
 // ---------------------------------------------------------------------------
+// tvl-floor-claim RAIL-RELATIVE arm (backlog 254, spec 254 leg 3) — its
+// predicate is "a stated floor must equal DEFAULT_MIN_TVL", strictly wider
+// than the internal-consistency arm above (which never reads DEFAULT_MIN_TVL
+// at all, spec 254's own evidence: it could not have caught llms.txt stating
+// a floor internally consistent with itself but wrong relative to the rail).
+// Uses opts.railFiles so these fixtures never touch the real repo files.
+// ---------------------------------------------------------------------------
+const { loadDefaultMinTvl } = require('./audit-app.js');
+const REAL_DEFAULT_MIN_TVL = loadDefaultMinTvl(path.join(ROOT, 'app.js')).value;
+assertT(typeof REAL_DEFAULT_MIN_TVL === 'number', 'sanity: loadDefaultMinTvl must resolve a real number off the real app.js for the tests below');
+const WRONG_MIN_TVL = REAL_DEFAULT_MIN_TVL + 1; // guaranteed to differ, whatever the real rail currently is
+
+test('tvl-floor-claim RAIL-RELATIVE: a RENDERED-surface-shaped fixture ("minimum $X TVL", home.html\'s own prose shape) stating the WRONG floor fires — even though it is perfectly internally consistent with itself', () => {
+  const file = writeFixture('home.html', `Fetches live data with trust-rail filters (minimum $${WRONG_MIN_TVL.toLocaleString('en-US')} TVL).`);
+  try {
+    const result = prescanTextSurfaces({ railFiles: [file] });
+    const hit = result.suspects.find((s) => s.signal === 'tvl-floor-claim');
+    assertT(hit, `expected a rail-relative tvl-floor-claim suspect; got: ${JSON.stringify(result.suspects)}`);
+    assertT(hit.severity === 'P1', `tvl-floor-claim must be P1, got ${hit.severity}`);
+    assertT(hit.detail.includes('rail-relative'), `detail must identify this as the rail-relative arm: ${hit.detail}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('tvl-floor-claim RAIL-RELATIVE: a GENERATED-PAGE-shaped fixture ("$X+ TVL", the persona temperament-label shape) stating the WRONG floor also fires', () => {
+  const file = writeFixture('kevin.html', `<p>Temperament: RWA &amp; Fresh Entries — tokenized treasuries, $${WRONG_MIN_TVL.toLocaleString('en-US')}+ TVL.</p>`);
+  try {
+    const result = prescanTextSurfaces({ railFiles: [file] });
+    const hit = result.suspects.find((s) => s.signal === 'tvl-floor-claim');
+    assertT(hit, `expected a rail-relative tvl-floor-claim suspect; got: ${JSON.stringify(result.suspects)}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('tvl-floor-claim RAIL-RELATIVE: a fixture stating the CORRECT floor (matching the real app.js DEFAULT_MIN_TVL) emits nothing', () => {
+  const file = writeFixture('home.html', `Fetches live data with trust-rail filters (minimum $${REAL_DEFAULT_MIN_TVL.toLocaleString('en-US')} TVL).`);
+  try {
+    const result = prescanTextSurfaces({ railFiles: [file] });
+    assertT(!result.suspects.some((s) => s.signal === 'tvl-floor-claim'),
+      `a correctly-derived floor must not be flagged; got: ${JSON.stringify(result.suspects)}`);
+  } finally { cleanupFixtures(); }
+});
+
+test('tvl-floor-claim RAIL-RELATIVE: the real committed home.html (default railFiles, no override) produces zero suspects today', () => {
+  const result = prescanTextSurfaces();
+  const railHits = result.suspects.filter((s) => s.signal === 'tvl-floor-claim' && s.detail.includes('rail-relative'));
+  assertT(railHits.length === 0, `expected zero real-surface rail-relative suspects; got: ${JSON.stringify(railHits)}`);
+});
+
+test('tvl-floor-claim RAIL-RELATIVE: does NOT flag a DIFFERENT, deliberately-higher persona curation floor (tomoko/lucia\'s "$50M+ TVL" is excluded by design, not a platform-rail claim)', () => {
+  const file = writeFixture('lucia.html', '<p>Temperament: Sleep well — stablecoin pools only, $50M+ TVL.</p>');
+  try {
+    // Explicit override proves the MECHANISM would fire on this shape/value
+    // if asked to check it — the real default railFiles list deliberately
+    // excludes lucia.html/tomoko.html/kevin.html (see prescanTextSurfaces'
+    // own comment), so this is a targeted unit proof of the exclusion's
+    // rationale, not a claim that the default list would also flag it.
+    const result = prescanTextSurfaces({ railFiles: [file] });
+    const hit = result.suspects.find((s) => s.signal === 'tvl-floor-claim');
+    assertT(hit, 'sanity: the shape matcher itself must still detect "$50M+ TVL" as A floor claim (proves the exclusion is about FILE SELECTION via the default railFiles list, not the detector going blind to this shape/value)');
+  } finally { cleanupFixtures(); }
+});
+
+test('tvl-floor-claim RAIL-RELATIVE: does NOT flag kevin\'s OWN persona curation floor (254 fix pass — kevin is excluded on the same footing as tomoko/lucia, not a special case)', () => {
+  const file = writeFixture('kevin.html', '<p>Temperament: RWA &amp; Fresh Entries — tokenized treasuries and credible newer pools, $10M+ TVL.</p>');
+  try {
+    // Same rationale/proof shape as the lucia test above: the default
+    // railFiles list excludes stories/kevin.html entirely (see
+    // prescanTextSurfaces' own comment above the rail-relative arm), so a
+    // real kevin.html stating his own $10M curation floor (not
+    // DEFAULT_MIN_TVL) is never scanned by this arm in normal operation.
+    const result = prescanTextSurfaces({ railFiles: [file] });
+    const hit = result.suspects.find((s) => s.signal === 'tvl-floor-claim');
+    assertT(hit, 'sanity: the shape matcher itself must still detect "$10M+ TVL" as A floor claim (proves the exclusion is about FILE SELECTION via the default railFiles list, not the detector going blind to this shape/value)');
+  } finally { cleanupFixtures(); }
+});
+
+// ---------------------------------------------------------------------------
 // Missing file — never throws, does not count toward scanned.
 // ---------------------------------------------------------------------------
 test('missing file: opts.files pointing at a nonexistent path does not throw, scanned === 0', () => {

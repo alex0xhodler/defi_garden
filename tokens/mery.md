@@ -1,10 +1,10 @@
 # MERY DeFi Yields
 
-The highest honest MERY yield right now is 2.31% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MERY yield right now is 0.57% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=4e4c5cd4-1d69-4600-8f96-21fe4496ce85&src=seo_token) | Cronos | 2.31% | $285.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=4e4c5cd4-1d69-4600-8f96-21fe4496ce85&src=seo_token) | Cronos | 0.57% | $256.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MERY yield today?
 
-2.31% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.57% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many MERY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $285.3K in total.
+1 live pool clear this page's $100K TVL floor, $256.6K in total.
 
 ### Are these rates safe?
 
@@ -24,15 +24,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [XLM](https://www.defi.garden/tokens/xlm)
 - [WCRO](https://www.defi.garden/tokens/wcro)
-- [PAXG](https://www.defi.garden/tokens/paxg)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
+- [LION](https://www.defi.garden/tokens/lion)
 - [XRP](https://www.defi.garden/tokens/xrp)
+- [CRO](https://www.defi.garden/tokens/cro)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

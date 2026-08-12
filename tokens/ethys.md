@@ -1,10 +1,10 @@
 # ETHYS DeFi Yields
 
-The highest honest ETHYS yield right now is 5.76% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ETHYS yield right now is 3.16% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=46a82e36-79fc-439a-b698-ebb705e375b1&src=seo_token) | Ethereum | 5.76% | $250.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=46a82e36-79fc-439a-b698-ebb705e375b1&src=seo_token) | Ethereum | 3.16% | $231.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ETHYS yield today?
 
-5.76% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ETHYS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $250.1K in total.
+1 live pool clear this page's $100K TVL floor, $231.8K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

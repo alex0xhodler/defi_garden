@@ -1,10 +1,10 @@
 # EURW 디파이 수익률
 
-현재 EURW의 가장 높은 정직한 수익률은 Monad의 uniswap-v3에서 7.92%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EURW의 가장 높은 정직한 수익률은 Monad의 uniswap-v3에서 6.70%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c57840e5-a0e1-5b7c-9627-3afbfbd33bcd&src=seo_token) | Monad | 7.92% | $1.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c57840e5-a0e1-5b7c-9627-3afbfbd33bcd&src=seo_token) | Monad | 6.70% | $1.16M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -12,11 +12,11 @@
 
 ### 오늘 EURW의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 uniswap-v3에서 APY 7.92%예요.
+DefiLlama 실시간 데이터 기준, Monad의 uniswap-v3에서 APY 6.70%예요.
 
 ### EURW 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.14M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.16M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -24,15 +24,15 @@ DefiLlama 실시간 데이터 기준, Monad의 uniswap-v3에서 APY 7.92%예요.
 
 ## 관련 토큰
 
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
-- [BTC](https://www.defi.garden/ko/tokens/btc)
 - [AUSD](https://www.defi.garden/ko/tokens/ausd)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 12, 2026

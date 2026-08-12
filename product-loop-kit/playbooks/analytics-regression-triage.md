@@ -101,3 +101,107 @@ went green against the broken code. The verifier caught it.
 **Provenance:** item 214 (specs/214.md AC7 + Territory notes, specs/214-pr.md); verifier FAIL 6/7 on
 attempt 1 → PASS 7/7 on attempt 2. Related: items 044 (`window.Analytics` guard — instrumentation that
 shipped but never fired), 096 (host gate).
+
+## Addendum (257, 2026-08-10): the transition happens and no call site exists at all
+
+**When:** you are about to trust a count of *how often something happened* — a denominator, a funnel step, a
+"views" number — or to write/accept a claim of the form *"X fires once per Y"*.
+
+**Answer in one line:** the 214 addendum asks whether the emitter forwards the key; this one asks whether an
+emitter is **there at all**. Enumerate the STATE TRANSITIONS the metric claims to count and set-equal them
+against the emit sites — both directions. Do not trust the paths someone already verified.
+
+Found in 257: `pool_view` is the north star's denominator. `grep -n "setCurrentView('pool-detail')" app.js`
+returns **three** sites; `trackPoolView` has **two** emit sites repo-wide. `handleCalculateYield`
+(`app.js:2787`) does a full pool-detail render and emits only a `pool_click`. Prod on 2026-08-09 shows the
+consequence directly: `pool_click` 1, `pool_view` **0** — a page rendered and nothing recorded it.
+`NORTH_STAR.md:37` said *"`pool_view` fires exactly once per pool-detail render (verified for both current
+paths; test asserts no double-fire)"* — true of what it verified, and **narrower than the class it guards**.
+`test_northstar_cta_fires.js` covered `url_direct` and `card_click`, the two paths the author had in mind;
+the third had been un-instrumented since it existed. Note the double-fire assertion was the *stricter*-looking
+one, and strictness on the covered paths bought nothing on the uncovered one.
+
+### Steps
+1. **Name the transition, not the handler.** Write down the state change the metric claims to count
+   ("the app enters pool-detail"), then grep for **every** way the code makes that change — the state setter,
+   the route change, the mount — not for handlers you can name.
+2. **Grep the emit sites** for the event, across every file that could emit it (`app.js`, the component,
+   `analytics.js`).
+3. **Set-equal the two sets, both directions.** A transition with no emit is an undercount; an emit with no
+   transition is a double-fire. Both are defects and only the second one usually gets a test.
+4. **Derive both sets at TEST time from the source.** A hand-typed list of line numbers is a mirror and rots
+   exactly like `MIN_TVL_USD = 10000000 // mirrors app.js:801` (item 212/254). The point is that a fourth
+   entry path added next month fails the gate without anyone remembering this playbook.
+5. **Falsify.** Delete the new emit and confirm the gate goes RED; restore byte-identically and confirm GREEN.
+
+### Decision rule
+- Transition set ⊋ emit set → **real defect, and it is retroactive**: the historical series is a lower bound
+  of unknown tightness. Say that with the one confirmed instance if you have one; never retro-correct a past
+  number, and never present the old series as if the fix repaired it.
+- Any ratio built on the incomplete count (a CTR, a conversion rate) is **not bounded by 1** while the gap is
+  open — check whether the numerator can fire on a path the denominator misses, and say so.
+- A doc or spec sentence of the form *"verified for both current paths"* is a **scope statement, not a
+  guarantee**. When you read one, the next move is to count the paths yourself.
+
+### Traps
+- Fixing it by adding one call to one handler closes the instance and leaves the class open. The item is not
+  done until the set-equality gate exists.
+- The measurement surface is trust-sensitive (items 044/096): additive, guarded, spied at the
+  `Analytics.track` boundary — the same rules as the 214 addendum.
+
+**Provenance:** item 257 (specs/257.md), found by the 2026-08-10 heartbeat while following a single prod
+`pool_click` to its origin; `signals/2026-08-10.md` §2b(i). Related: 212 (mirror rule), 214 (emitter drops the
+key), RAZOR.md worked example 5.
+
+## Addendum (258, 2026-08-10): the source-derived guard is LEXICAL — say what it can and cannot see
+
+**When:** you are about to write, accept, or cite a gate that derives its population by **parsing source
+text** (the 257 addendum step 4 tells you to derive both sets at test time — this tells you what you have
+actually bought when you do).
+
+**Answer in one line:** a `src.indexOf('someFn(')` scan asserts *"every call site I found is correct"*, never
+*"I found every call site"* — so it fails LOUD for the convention it was written against and goes **silently
+smaller** for anything routed through an alias, `.call`/`.apply`/`.bind`, or a computed reference. Write the
+claim at that width, and state which second leg (if any) covers the rest.
+
+Found in 258: the new `test_pool_click_surface.js` LEG A parses `app.js` for every `renderPoolCard(` call
+site and asserts each passes a literal `surface` argument. The verifier aliased ONE real call site
+(`const rpcAlias = renderPoolCard; rpcAlias(pool, …)` — four args, no surface) and watched the detected
+population go **3 → 2 with no assertion firing**: the scan reported what it found and never asked whether the
+count had shrunk. The rendered LEG B caught that particular mutation, but only because its payload-shape
+assertion demands `surface` unconditionally on the three contexts it drives — not because LEG A noticed.
+A grid that is **both** indirectly called **and** outside the driven URLs is caught by neither.
+
+### Steps
+1. **Write down the string the scan literally searches for.** That string, not your mental model of "call
+   sites", is the population.
+2. **Enumerate the shapes that evade it**: alias/named-constant, `.call`/`.apply`/`.bind`, computed member
+   access, an escape-spelled or template-built identifier. (Item 257's round-4 finding: most of these fall to
+   a modest regex widening — "structurally uncatchable without an AST" is usually false and should not be
+   written without testing it.)
+3. **Test the evasion, do not reason about it.** Introduce ONE evading call site, run the gate, record
+   whether it went RED or the population silently shrank. Restore byte-identically (`md5sum`), file-copy
+   backup — never `git checkout`, which takes the real edits with it.
+4. **Add the cheap half if it is cheap**: an assertion that the detected population never *shrinks* below a
+   derived-at-test-time floor turns the silent case loud without an AST. If you do not add it, say so.
+5. **Write the disclosure into the notes AND the explainer, at equal width.** Notes that say "direct calls"
+   and an explainer that says "any call site" is the same overclaim shipping twice.
+
+### Decision rule
+- Gate fails RED on the evading shape → claim "any call site" honestly.
+- Population silently shrinks → the claim is **"any call site written as a direct call"**, and the sentence
+  must name what closes the remainder (a second rendered leg, a shrink assertion) or admit nothing does.
+- No second leg and no shrink assertion → you have a gate for the convention, not for the class. Shipping it
+  is fine; calling it class-closing is not (RAZOR: no check narrower than the class it guards, no claim wider
+  than the check).
+
+### Traps
+- "It's derived from source, so it can't rot" — derivation kills the *stale-copy* failure (212's mirror), not
+  the *invisible-member* failure. Different defect, different evidence.
+- The evasion test is the only evidence. A guard nobody has watched miss is not known to be narrow **or**
+  wide.
+- Reviewers read the PR explainer, not the notes. The explainer is where an overclaim does its damage.
+
+**Provenance:** item 258 (specs/258.md, specs/258-notes.md), found by the verifier's extension attack on
+LEG A during the 2026-08-10 build run — recorded before merge, with the explainer corrected in the same
+commit. Related: 212 (mirror rule), 214 (emitter drops the key), 257 (transition with no emit), RAZOR.md.

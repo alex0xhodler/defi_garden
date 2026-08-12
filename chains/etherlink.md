@@ -4,10 +4,10 @@ The highest honest Etherlink yield right now is 9.23% on midas-rwa (Etherlink), 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=c7a1e6c3-e50e-41a7-8bbe-33c88d26b8d0&src=seo_chain) | 14.91% | $4.79M |
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f&src=seo_chain) | 3.22% | $1.22M |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=c7a1e6c3-e50e-41a7-8bbe-33c88d26b8d0&src=seo_chain) | 15.16% | $4.8M |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=6e44d831-b95d-4273-b5d2-acc7cae00e0f&src=seo_chain) | 3.18% | $1.22M |
 | USDC | [midas-rwa →](https://www.defi.garden/?pool=161f03a5-e1cc-4c43-8483-5842789441c8&src=seo_chain) | 9.23% | $1.12M |
-| USDC | [midas-rwa →](https://www.defi.garden/?pool=6b5e7c07-976c-43b4-bba4-33dfb7864a4e&src=seo_chain) | 6.15% | $861.1K |
+| USDC | [midas-rwa →](https://www.defi.garden/?pool=6b5e7c07-976c-43b4-bba4-33dfb7864a4e&src=seo_chain) | 7.46% | $862.2K |
 | USDC | [gearbox →](https://www.defi.garden/?pool=ec15a095-9ee2-42b0-a50e-76aed2342ef4&src=seo_chain) | 1.42% | $434.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -20,7 +20,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Etherlink pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $8.42M in total.
+5 live pools clear this page's $100K TVL floor, $8.43M in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
-- [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
+- [Avalanche](https://www.defi.garden/chains/avalanche)
 
 ## Top tokens on Etherlink
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

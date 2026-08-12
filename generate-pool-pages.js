@@ -594,7 +594,11 @@ module.exports = {
   projectionFor, rateNote, resolveProtocolUrl, withRefParam,
   loadBakedProtocolUrls, loadSnapshotPoolMap, loadFixturePoolMap,
   collectDeepLinkedIds, parseArgs, UUID_RE, PROJECTION_YEARS, DEFAULT_INVESTMENT,
-  buildPoolArtifact, POOL_ARTIFACT_MIN_TVL
+  buildPoolArtifact, POOL_ARTIFACT_MIN_TVL,
+  // Re-exported (not re-derived — it's imported from generate-token-pages.js
+  // above) so a mirror test can assert the two mean30dSane copies agree on
+  // the SAME rail value, not just the same predicate shape (test_mean30d_mirror.js).
+  APY_SANITY_LIMIT
 };
 
 if (require.main === module) {

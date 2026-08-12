@@ -159,7 +159,7 @@ function chainMatchesParam(poolChain, chainParam) {
 // generator file (the 159 rule only binds generate-token-pages.js /
 // generate-chain-pages.js, not this test's evaluation logic). UNCHANGED by
 // item 181.
-const APP_DEFAULT_MIN_TVL = 10000000;
+const APP_DEFAULT_MIN_TVL = 100000;
 
 // item 181: the drift budget, see the header comment for the derivation.
 const DRIFT_BUDGET_FRACTION = 0.01; // 1.0% of scanned-with-CTA pages
@@ -407,7 +407,7 @@ function runSelfChecks() {
       name: '3. wrong floor (app default instead of the generator floor) → FAIL(contract)',
       expectedClass: 'contract',
       page: {
-        html: ctaHtml('https://www.defi.garden/?token=USDC&minTvl=' + APP_DEFAULT_MIN_TVL) + FRESH_DATE_HTML,
+        html: ctaHtml('https://www.defi.garden/?token=USDC&minTvl=50000000') + FRESH_DATE_HTML,
         file: '/tokens/usdc.html', surface: tokenSurface
       },
       pools: [{ symbol: 'USDC', tvlUsd: MIN_POOL_TVL * 2 }]

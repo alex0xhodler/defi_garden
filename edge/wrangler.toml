@@ -1,0 +1,70 @@
+# Cloudflare Worker: edge agent-read telemetry (backlog 224, spec 224).
+#
+# A SECOND, INDEPENDENT Worker from src/poller.js/../wrangler.toml — do not
+# merge this into the root wrangler.toml and do not deploy this file from
+# there. It sits in front of origin on route www.defi.garden/*, passes every
+# request through byte-for-byte unchanged, and write-behind-logs one row per
+# agent-surface request into the EXISTING item-108 D1 database
+# (defi-garden-history) in a NEW table, agent_reads (edge/schema.sql). Full
+# deploy/verify/rollback runbook: edge/DEPLOY.md.
+#
+# HUMAN provisioning (loops never handle credentials — same standing role as
+# the item-108 runbook in the root wrangler.toml):
+#   npm i -g wrangler && wrangler login                     # skip if already done for item 108
+#   wrangler d1 execute defi-garden-history --file=edge/schema.sql --remote
+#     # adds agent_reads to the SAME database item 108 already created.
+#     # Do NOT run `wrangler d1 create` again — this must be the existing DB.
+#   # `wrangler d1 list` prints the existing defi-garden-history database_id;
+#   # paste it below (it is the SAME id already used in the root wrangler.toml).
+#   wrangler deploy -c edge/wrangler.toml
+#   # Then flip the DNS record for www.defi.garden to Cloudflare-proxied
+#   # (orange cloud) in the dashboard — a Worker route only intercepts
+#   # traffic that is actually proxied through Cloudflare first.
+# See edge/DEPLOY.md for the full runbook, including how to verify the first
+# row lands and how to roll back instantly (grey-cloud the DNS record).
+
+name = "defi-garden-agent-log"
+
+# `main` is resolved by Wrangler relative to THIS FILE'S OWN DIRECTORY
+# (edge/), never the repo root and never the cwd `wrangler` happens to be
+# invoked from — this is documented Wrangler config-resolution behavior.
+# agent-log.mjs sits right next to this wrangler.toml, so the correct value
+# is the bare filename. Writing "edge/agent-log.mjs" here (matching the
+# repo-root-relative path used in prose elsewhere in this change) would be
+# WRONG — it would resolve to the nonexistent edge/edge/agent-log.mjs and
+# fail to deploy. Contrast with the root wrangler.toml, where main =
+# "src/poller.js" is correct BECAUSE that file lives at the repo root, so
+# "relative to its own directory" and "repo-root-relative" are the same path.
+# (Separately: this file is `.mjs`, not `.js` — see agent-log.mjs's own
+# header comment for why that extension was necessary.)
+main = "agent-log.mjs"
+compatibility_date = "2026-07-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "defi-garden-history"
+database_id = "2a6a3b87-cc0e-4ed7-a6c6-a8bb49015814"
+
+[[routes]]
+pattern = "www.defi.garden/*"
+zone_name = "defi.garden"
+
+# backlog 234 (spec 234, agentic commerce / x402 + Web Bot Auth) — env vars,
+# DOCUMENTED HERE AS COMMENTS ONLY. None of these are configured yet; no
+# secret, account id, wallet address, or handle is present in this repo.
+# Full runbook + the HUMAN-OWNED list (claiming cloudflare.pay, enabling
+# Monetization Gateway, wallet custody/payout, flipping X402_ENABLED/live
+# mode — all money/org-admin, never a loop action): edge/DEPLOY.md §9.
+# Payment contract: edge/X402.md.
+#
+# Add as [vars] (non-secret) below, or `wrangler secret put <NAME>` if ever
+# treated as sensitive — this file does not prescribe which, since none of
+# these are set today:
+#
+#   X402_ENABLED         = "false"        (default when unset; "true"/"1" turns the payment gate ON — HUMAN action)
+#   X402_MODE             = "test"        (default when unset; "test" | "live" — never defaults to live)
+#   X402_NETWORK          = "base-sepolia" (default network for 402 challenges when unset)
+#   X402_ASSET            = ""            (priced-asset contract address; unset -> null, never invented)
+#   X402_PAY_TO           = ""            (settlement wallet/handle; unset -> null, never invented)
+#   X402_FACILITATOR_URL  = ""            (x402 facilitator base URL for live-mode /verify; unset -> live mode fails closed)
+#   WEB_BOT_AUTH_KEYS     = "{}"          (JSON: keyid -> base64url Ed25519 public key; unset -> empty keyring, every signed request honestly resolves 'unverified')

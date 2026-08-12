@@ -4,7 +4,7 @@ The highest honest BUSDT yield right now is 1.54% on curve-dex (Avalanche), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $791.2K |
+| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $792.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $791.2K in total.
+1 live pool clear this page's $100K TVL floor, $792.6K in total.
 
 ### Are these rates safe?
 
@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [VBILL](https://www.defi.garden/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [BTC.B](https://www.defi.garden/tokens/btc-b)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

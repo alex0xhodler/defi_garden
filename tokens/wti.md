@@ -1,10 +1,10 @@
 # WTI DeFi Yields
 
-The highest honest WTI yield right now is 49.39% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WTI yield right now is 74.60% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=8c19411c-799c-4840-8dfc-2bd4bce2cc5a&src=seo_token) | Solana | 49.39% | $1.51M |
+| [gmtrade →](https://www.defi.garden/?pool=8c19411c-799c-4840-8dfc-2bd4bce2cc5a&src=seo_token) | Solana | 74.60% | $1.5M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WTI yield today?
 
-49.39% APY on gmtrade (Solana), based on live DefiLlama data.
+74.60% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many WTI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.51M in total.
+1 live pool clear this page's $100K TVL floor, $1.5M in total.
 
 ### Are these rates safe?
 
@@ -25,9 +25,9 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [USTB](https://www.defi.garden/tokens/ustb)
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

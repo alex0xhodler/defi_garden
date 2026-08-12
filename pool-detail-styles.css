@@ -926,6 +926,36 @@
   background: var(--cert-band-deep);
 }
 
+/* 237: the earnings block's closing echo — a text-level link, deliberately
+   NOT `.cta-button-primary` (no fill, no fixed height) so exactly one
+   full-weight primary composition exists on the page, at the hero. */
+.pool-detail-view .cta-echo-link {
+  display: inline-block;
+  color: var(--cert-green);
+  font-family: var(--cert-sans);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--cert-rule-strong);
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.pool-detail-view .cta-echo-link:hover {
+  color: var(--cert-green-hover);
+  text-decoration-color: var(--cert-green-hover);
+}
+
+.pool-detail-view .cta-echo-link:active {
+  color: var(--cert-green-active);
+}
+
+.pool-detail-view .cta-echo-link:focus-visible {
+  outline: 2px solid var(--cert-ink);
+  outline-offset: 2px;
+}
+
 /* ═══ SUPPORTING PANELS — one document voice ════════════════════════════
    The calculator and the register are sub-documents of the same sheet:
    the hero's outer rule weight, the same corner quoins, and an engraved

@@ -29,12 +29,66 @@ const Analytics = {
     this.pageLoadTime = Date.now();
     this.lastEventTime = Date.now();
     this.viewStartTime = Date.now();
+    // Persist/clear the insider flag (spec 252) from the landing URL before
+    // acquisition capture, so this session's very first event already
+    // reflects the current ?insider= state.
+    this.applyInsiderParam();
     // Capture acquisition (UTM / click-id / referring domain) ONCE at landing,
     // before any SPA navigation clears the query string. Persisted on `this` for
     // the whole session so every event is attributable — the spotlight links
     // (item 064) carry utm_*/ref, and this is what surfaces them on
     // waitlist_opened etc. under stable, queryable names. Additive only.
     this.acquisition = this.captureAcquisition();
+  },
+
+  // Insider traffic marker (spec 252) — separates the operator's own
+  // shipping/review visits from genuine visitor sessions in every gate read.
+  // Persisted the same way as the `theme`/`defi-garden-lang`/`garden-plan`
+  // conventions: a plain localStorage string, set/cleared once per device by
+  // visiting a URL, read back on every later session including across a
+  // reload and navigation between router modes.
+  INSIDER_STORAGE_KEY: 'defi_garden_insider',
+
+  // In-session override, set by applyInsiderParam() straight from THIS load's
+  // ?insider= param — true/false when the param is present this load,
+  // undefined when it isn't (so a plain reload/navigation with no param falls
+  // through to the persisted localStorage read below). Kept separate from the
+  // localStorage round-trip on purpose: it's what makes a `?insider=1` visit
+  // stamp `insider: true` on its OWN events even if the localStorage write
+  // failed for some reason (storage disabled, quota, etc.) — only a LATER
+  // page load with no param in the URL actually depends on persistence.
+  _insiderOverride: undefined,
+
+  // `?insider=1` persists the flag; `?insider=0` clears it. Neither param
+  // present → leaves whatever was already persisted untouched. Fully
+  // guarded — a throw here must never break tracking site-wide, same
+  // defensive shape as captureAcquisition()/isReturningUser().
+  applyInsiderParam() {
+    try {
+      const params = new URLSearchParams(window.location.search || '');
+      const flag = params.get('insider');
+      if (flag === '1') {
+        this._insiderOverride = true;
+        localStorage.setItem(this.INSIDER_STORAGE_KEY, '1');
+      } else if (flag === '0') {
+        this._insiderOverride = false;
+        localStorage.removeItem(this.INSIDER_STORAGE_KEY);
+      }
+    } catch (e) {}
+  },
+
+  // This load's own ?insider= param wins immediately (see _insiderOverride
+  // above); absent that, falls back to whatever a PRIOR load persisted to
+  // localStorage, read fresh (not cached) so it reflects the latest state.
+  // Guarded — any localStorage failure (e.g. storage disabled) reads as
+  // "not insider", never throws.
+  isInsider() {
+    if (this._insiderOverride !== undefined) return this._insiderOverride;
+    try {
+      return localStorage.getItem(this.INSIDER_STORAGE_KEY) === '1';
+    } catch (e) {
+      return false;
+    }
   },
 
   // Parse the landing URL's acquisition params + the referring domain. All keys
@@ -80,7 +134,11 @@ const Analytics = {
       time_since_last_event: Date.now() - this.lastEventTime,
       // Session-scoped acquisition (utm_*/ref/click-id/referring_domain), captured
       // once at landing so it survives SPA navigation clearing the query string.
-      ...(this.acquisition || {})
+      ...(this.acquisition || {}),
+      // Insider marker (spec 252) — `insider: true` only, never emitted at
+      // all for unmarked visitors (never `insider: false`), matching how
+      // `src`/utm keys above are omitted rather than emitted empty.
+      ...(this.isInsider() ? { insider: true } : {})
     };
   },
 
@@ -212,7 +270,7 @@ const Analytics = {
   trackPoolView(pool, context = {}) {
     const poolAnalytics = this.enrichPoolData(pool, context);
 
-    this.track('pool_view', {
+    const payload = {
       ...poolAnalytics,
       source_view: context.sourceView || 'search',
       source: context.source || 'card_click',
@@ -229,13 +287,18 @@ const Analytics = {
       // a real "no CTA" reading in Mixpanel.
       protocolCtaPresent: context.protocolCtaPresent === undefined ? null : !!context.protocolCtaPresent,
       protocol_cta_present: context.protocolCtaPresent === undefined ? null : !!context.protocolCtaPresent
-    });
+    };
+    // spec 258: explicit + guarded forward, never a `...context` spread (214
+    // addendum decision rule) — absent when the caller never passed a
+    // surface, not `null`/`undefined`, so pre-258 emitters stay byte-identical.
+    if (context.surface !== undefined) payload.surface = context.surface;
+    this.track('pool_view', payload);
   },
 
   trackPoolClick(pool, clickType, context = {}) {
     const poolAnalytics = this.enrichPoolData(pool, context);
 
-    this.track('pool_click', {
+    const payload = {
       ...poolAnalytics,
       click_type: clickType,
       // North-star segmentation (backlog 123): the pool-detail CTAs are
@@ -256,8 +319,19 @@ const Analytics = {
       // the planner's "Start growing on <project>" CTA (source=plan_checkout).
       // Additive only, same pattern as ctaPlacement above — null for every
       // pre-existing pool_click emitter, north-star `source` filter unchanged.
-      archetype: context.archetype || null
-    });
+      archetype: context.archetype || null,
+      // 237: 'hero' | 'calculator' — spec-literal snake_case name distinguishing
+      // the one primary garden_cta from its slim calculator echo, now that the
+      // echo is no longer a second full-strength CTA. Additive/null for every
+      // other pool_click emitter; ctaPlacement above is kept verbatim for
+      // backward compatibility with existing reports.
+      cta_position: context.ctaPosition || null
+    };
+    // spec 258: explicit + guarded forward, never a `...context` spread (214
+    // addendum decision rule) — absent when the caller never passed a
+    // surface, not `null`/`undefined`, so pre-258 emitters stay byte-identical.
+    if (context.surface !== undefined) payload.surface = context.surface;
+    this.track('pool_click', payload);
   },
 
   trackYieldCalculation(amount, pool, context = {}) {

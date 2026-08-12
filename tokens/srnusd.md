@@ -1,20 +1,36 @@
 # SRNUSD DeFi Yields
 
-The highest honest SRNUSD yield right now is 8.27% on pendle (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRNUSD yield right now is 8.54% on pendle (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&src=seo_token) | Ethereum | 4.01% | $1.41M |
-| [pendle →](https://www.defi.garden/?pool=e2057cb9-1fe9-4c45-9948-a1863d8155e9&src=seo_token) | Ethereum | 8.27% | $961.4K |
-| [pendle →](https://www.defi.garden/?pool=af8ae772-4e42-4b47-9b47-a51a310f6563&src=seo_token) | Ethereum | 5.77% | $961.4K |
+| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&src=seo_token) | Ethereum | 4.28% | $1.41M |
+| [pendle →](https://www.defi.garden/?pool=e2057cb9-1fe9-4c45-9948-a1863d8155e9&src=seo_token) | Ethereum | 8.54% | $960K |
+| [pendle →](https://www.defi.garden/?pool=af8ae772-4e42-4b47-9b47-a51a310f6563&src=seo_token) | Ethereum | 6.02% | $960K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+SRNUSD shows up in 3 pools here, with rates from 4.28% to 8.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.74% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| strata-markets | 4.28% | 4.01% | Base rate |
+| pendle | 8.54% | 8.22% | Base rate |
+| pendle | 6.02% | 5.74% | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest SRNUSD yield today?
 
-8.27% APY on pendle (Ethereum), based on live DefiLlama data.
+8.54% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SRNUSD pools clear the TVL floor?
 
@@ -37,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

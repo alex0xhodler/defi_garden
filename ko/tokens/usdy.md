@@ -1,19 +1,40 @@
 # USDY 디파이 수익률
 
-현재 USDY의 가장 높은 정직한 수익률은 Ethereum의 ondo-yield-assets에서 3.55%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDY의 가장 높은 정직한 수익률은 Ethereum의 ondo-yield-assets에서 3.55%이며, $100K TVL 기준을 넘는 17개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [ondo-yield-assets →](https://www.defi.garden/?pool=ac61ee82-2fe4-4f9b-a9cd-7fb33f598859&src=seo_token) | Ethereum | 3.55% | $1.11B |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.55% | $533.89M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.55% | $258M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.55% | $179.02M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_token) | Mantle | 3.55% | $29.05M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_token) | Stellar | 3.55% | $534.15M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_token) | Sei | 3.55% | $258.12M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=00b83068-9f87-4411-b5d7-5d2ff48c40c4&src=seo_token) | Solana | 3.55% | $179.1M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=b5d7a190-38d2-4fdd-8c14-1fd00c11bce1&src=seo_token) | Mantle | 3.55% | $29.06M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=0d635c7d-0a5f-4d6d-9e3e-1245442b9727&src=seo_token) | Noble | 3.55% | $14.4M |
-| [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.55% | $14.33M |
+| [ondo-yield-assets →](https://www.defi.garden/?pool=3007b64e-331d-425d-a7ae-33b8691da1a9&src=seo_token) | Sui | 3.55% | $14.34M |
 | [ondo-yield-assets →](https://www.defi.garden/?pool=509c3a20-3e95-42d5-8835-c4b74beb1baf&src=seo_token) | Osmosis | 3.55% | $6.67M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
+
+## 이 수익률은 어떻게 움직였을까요
+
+USDY 풀은 여기 8개가 있고, 8개 체인에서 APY가 3.55%부터 3.55%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.55%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+
+현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
+
+| 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
+|---|---|---|---|
+| ondo-yield-assets | 3.55% | 3.55% | 기본 금리 |
+| ondo-yield-assets | 3.55% | 3.55% | 기본 금리 |
+| ondo-yield-assets | 3.55% | 3.55% | 기본 금리 |
+| ondo-yield-assets | 3.55% | 3.55% | 기본 금리 |
+| ondo-yield-assets | 3.55% | 3.55% | 기본 금리 |
+| ondo-yield-assets | 3.55% | 3.55% | 기본 금리 |
+| ondo-yield-assets | 3.55% | 3.55% | 기본 금리 |
+| ondo-yield-assets | 3.55% | 3.55% | 기본 금리 |
+
+30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
 ## 자주 묻는 질문
 
@@ -23,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ondo-yield-assets에서 APY 3.
 
 ### USDY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $2.17B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 17개이며, 합산 TVL은 $2.17B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,4 +70,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 ondo-yield-assets에서 APY 3.
 - [Sui](https://www.defi.garden/ko/chains/sui)
 - [Osmosis](https://www.defi.garden/ko/chains/osmosis)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 12, 2026

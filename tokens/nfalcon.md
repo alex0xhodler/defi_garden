@@ -1,10 +1,10 @@
 # NFALCON DeFi Yields
 
-The highest honest NFALCON yield right now is 7.18% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NFALCON yield right now is 7.17% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.18% | $28.68M |
+| [nest-credit →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.17% | $28.76M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NFALCON yield today?
 
-7.18% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+7.17% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NFALCON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $28.68M in total.
+1 live pool clear this page's $100K TVL floor, $28.76M in total.
 
 ### Are these rates safe?
 
@@ -27,12 +27,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USTB](https://www.defi.garden/tokens/ustb)
 - [NOPAL](https://www.defi.garden/tokens/nopal)
 - [USCC](https://www.defi.garden/tokens/uscc)
-- [NCLOA](https://www.defi.garden/tokens/ncloa)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
+- [NCLOA](https://www.defi.garden/tokens/ncloa)
 - [NAXI](https://www.defi.garden/tokens/naxi)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

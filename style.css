@@ -1536,18 +1536,22 @@ body {
   gap: var(--space-24);
 }
 
+/* Brand identity — the landing's tile + wordmark recipe (.landing-brand). */
 .app-logo {
-  font-size: var(--font-size-xl);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
   font-weight: var(--font-weight-bold);
-  color: var(--color-primary);
+  letter-spacing: -0.03em;
+  color: var(--color-text);
   cursor: pointer;
   white-space: nowrap;
   user-select: none;
-  transition: all var(--duration-normal) var(--ease-standard);
 }
 
 .app-logo:hover {
-  transform: translateY(-1px);
+  color: var(--color-text);
 }
 
 .app-search-container {
@@ -1741,6 +1745,50 @@ body {
      selector's extra class wins on specificity instead. */
   .app-header-content .app-search-button {
     display: none;
+  }
+}
+
+/* 273 (P0, fixed-overlay-occlusion class — playbook's clipping-not-covering
+   variant): at 320px the row's fixed-floor items alone — `.app-logo` (147px;
+   its wordmark is a bare text node with no `min-width: 0` so it can't
+   shrink) and `.app-header-controls` (88px; both icon buttons carry a hard
+   `min-width: var(--ui-control-h)` from the shared icon-only-button rule,
+   style.css end) — plus this row's own padding/gaps leave
+   `.app-search-container` only ~29px (measured). `.app-search-input`'s own
+   horizontal padding (`var(--space-20)` each side = 40px) is a floor
+   `min-width: 0` cannot remove — shrinking only takes the CONTENT box to 0,
+   padding stays — so the input's real layout box (40px+) is WIDER than that
+   29px allotment. Nothing between `.app-search-input` and
+   `.app-header-controls` clips the overflow (`.app-search-bar`'s
+   `overflow: hidden` above only clips a child from bleeding past ITS OWN
+   box, and that box itself isn't the thing overflowing here), so the
+   input's box paints past its allotment and onto `.app-header-controls` —
+   the human report ("KO language toggle and theme toggle render ON TOP of
+   the search input's right end"). Confirmed absent at 360px+ (measured; see
+   specs/273-notes.md) — scoped to the one width band that fails.
+   Two independent floor reductions, each alone insufficient once a query is
+   typed and `.app-search-clear` (flex-shrink: 0, its own ~26px floor) also
+   renders:
+   (a) hide the wordmark, keep the icon mark — recovers ~120px, the biggest
+       lever by far; the logo stays a clickable, accessible control (an
+       aria-label now carries the name once the text is visually gone,
+       app.js's renderHeaderRow);
+   (b) shrink the input/clear-button's own horizontal padding — cuts their
+       combined floor from ~66px to ~30px, small enough to fit inside what
+       (a) leaves for search once the controls' 88px floor is subtracted. */
+@media (max-width: 359px) {
+  .app-brand-wordmark {
+    display: none;
+  }
+
+  .app-search-input {
+    padding-left: var(--space-8);
+    padding-right: var(--space-8);
+  }
+
+  .app-search-clear {
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
   }
 }
 
@@ -2812,9 +2860,20 @@ body {
   margin: 0 auto;
 }
 
+/* Spec 260 leg A: tracks 3/4 switched from a fixed px to `auto` so an
+   oversized numeral grows its own track instead of overflowing a
+   neighbour. .pool-columns above stays on the baseline fixed-px template on
+   purpose — its track 4 (130px) plus the min-width floor on
+   .pool-tvl-section below (`@media (min-width: 768px)` block) makes a
+   normal row's track 4 resolve to the same 130px, so both grids' track
+   3/4/5 right edges coincide for normal rows (AC-3) without touching
+   .pool-columns. On an anomalous row, track 3/4 grow past that floor and
+   the numeral no longer lines up under the header label — an accepted
+   trade so the numeral is never truncated. Full derivation and the dead-
+   rule trials: specs/260-notes.md. */
 .pools-list .pool-card {
   display: grid;
-  grid-template-columns: 40px 1fr 110px 130px 120px;
+  grid-template-columns: 40px minmax(0, 1fr) auto auto 120px;
   column-gap: 12px;
   align-items: center;
   height: 64px;
@@ -2871,6 +2930,16 @@ body {
   align-items: flex-end;
   justify-content: center;
   text-align: right;
+}
+
+/* Spec 260 leg A: content-derived floor for track 4 protects track 3's (the
+   APY hero's) right edge from drifting on normal rows (AC-3). Scoped to
+   >=768px — the <768px mobile row re-templates the card. Full derivation
+   and the dead-rule trials: specs/260-notes.md. */
+@media (min-width: 768px) {
+  .pools-list .pool-tvl-section {
+    min-width: 130px;
+  }
 }
 
 /* Redundant with the "TVL" column header — hide the inline per-row label. */
@@ -3033,6 +3102,22 @@ body {
   display: grid;
   gap: var(--space-20);
   grid-template-columns: 1fr;
+  /* Item 274: CSS Grid's default cross-axis alignment ('normal', which
+     behaves as 'stretch' for auto-height block items) stretches every card
+     in a row to match the row's tallest card. Once the containment fix below
+     lets an overflowing card grow taller (wrapping its APY figure onto its
+     own line instead of clipping), that default would stretch its perfectly
+     normal same-row siblings taller too, for no reason of their own --
+     measured via the sibling-grid-column-alignment.md pixel-drift technique:
+     42.58px of height drift on 3 non-overflowing siblings of the
+     usdc-poly-aave-shaped card at 1280px before this line was added, 0px
+     after (specs/274-notes.md). `align-items: start` makes every card size
+     to its OWN content height instead, which is a no-op for any row where
+     every card's natural height already matches (true of every row with no
+     overflowing numeral, i.e. every row pre-274 and every normal row
+     post-274) -- see specs/274-notes.md for the measured proof this doesn't
+     move anything else. */
+  align-items: start;
 }
 
 /* Desktop: auto-fill compact cards (1024px and up) — 225 round 3c: track
@@ -3064,6 +3149,41 @@ body {
 .pools-grid .pool-header-new {
   grid-column: 1 / -1;
   margin-bottom: 0;
+  /* Item 274: .pool-header-new is a flex row (base rule above, `display:flex;
+     justify-content:space-between`) holding .pool-name-group and
+     .pool-apy-section. Both children carry `white-space: nowrap` numerals
+     (246) with no upper bound, so a wide anomalous/large APY figure forces
+     the row's min-content width past the card's available inner width; with
+     the base rule's default `flex-wrap: nowrap` neither child can shrink
+     below its own nowrap min-content, so the row overflows and .pool-card's
+     `overflow: hidden` (style.css ~3195) silently clips it at the card edge
+     -- the live defect (specs/274.md). `flex-wrap: wrap` lets .pool-apy-section
+     drop to its own row BELOW .pool-name-group only when it doesn't fit --
+     glyph+number stay glued (246's nowrap rules on .pool-apy-hero/-preview
+     are untouched, so the unit never splits mid-wrap), and on every card
+     where both children already fit on one line this is a no-op (a flex
+     container with flex-wrap:wrap lays out identically to nowrap when the
+     line doesn't need to wrap) -- zero drift on normal cards, see
+     specs/274-notes.md for the measured proof. */
+  flex-wrap: wrap;
+  /* Vertical breathing room between .pool-name-group and a wrapped
+     .pool-apy-section only (row-gap; no column-gap added, so the unwrapped
+     single-line case keeps its existing margin-left:auto spacing exactly --
+     see .pools-grid .pool-apy-section below). */
+  row-gap: var(--space-8);
+}
+
+/* Item 274: on the single flex line (normal, non-overflowing case) this
+   auto margin resolves to exactly the same gap the base rule's inherited
+   `justify-content: space-between` already produced (2 children, auto
+   margin on the last one consumes 100% of the remaining free space before
+   justify-content has anything left to distribute -- CSS Flexbox #9.5) --
+   so pixel-identical geometry pre/post fix. Once .pool-apy-section wraps to
+   its own row (above), this is what keeps it flush against the card's right
+   edge on that row too, instead of falling back to flex-start (a lone item
+   on a flex line is start-aligned under space-between, not end-aligned). */
+.pools-grid .pool-apy-section {
+  margin-left: auto;
 }
 
 .pools-grid .pool-tvl-section,
@@ -4155,6 +4275,10 @@ html {
   color: var(--color-text-secondary);
   font-variant-numeric: tabular-nums;
   line-height: 1.2;
+  /* 246: numeral cell — never wrap (positive control: an anomalous
+     ⚠ 36,452.38% hero wrapping to 2 lines separated the glyph from the
+     number it qualifies). */
+  white-space: nowrap;
 }
 
 /* 225 round 3 (a): $/day preview -- 12px secondary text, tabular-nums, no
@@ -4165,6 +4289,8 @@ html {
   color: var(--color-text-secondary);
   font-variant-numeric: tabular-nums;
   line-height: 1.2;
+  /* 246: numeral cell — never wrap (see .tvl-value above). */
+  white-space: nowrap;
 }
 
 /* No-supply-yield honest tag (092) -- 225 round 3 (a): plain 13px secondary
@@ -4216,6 +4342,11 @@ html {
   color: var(--color-text);
   line-height: 1.2;
   font-variant-numeric: tabular-nums;
+  /* 246: numeral cell — never wrap. Positive control: an anomaly-flagged
+     pool's "⚠ 36,452.38%" was wrapping to 2 lines (grid 1540/1280/360, list
+     1280/768), separating the warning glyph from the number it qualifies —
+     a trust-rail legibility defect. */
+  white-space: nowrap;
 }
 
 /* Context Bar - Protocol + Chain */
@@ -4782,8 +4913,14 @@ html {
     margin: var(--space-16) var(--space-16) var(--space-8) 0;
   }
 
-  /* Fix toggle position on mobile initial homepage state only */
-  .app:not(.has-results) .language-toggle {
+  /* Fix toggle position on mobile initial homepage state only.
+     Backlog 273: `>` — see the child-combinator note on
+     `.app.has-results > .theme-toggle` above. This rule's (0,3,0) beats the
+     `.app-header-controls` reset at (0,2,0), so as a DESCENDANT selector it
+     also yanked the HEADER's own controls out of flow on every non-
+     `has-results` route that still renders a header — `.app.pool-detail-view`
+     — dropping them on top of the sticky search input. */
+  .app:not(.has-results) > .language-toggle {
     position: fixed;
     top: var(--space-20);
     /* 225 round 3b: same 8px-left-of-toggle offset as desktop */
@@ -4799,8 +4936,9 @@ html {
     font-size: var(--font-size-xs);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only */
-  .app:not(.has-results) .language-toggle {
+  /* Fix toggle position on extra small mobile initial homepage state only
+     (backlog 273: `>` scopes this to the standalone pair — see above) */
+  .app:not(.has-results) > .language-toggle {
     position: fixed;
     top: var(--space-16);
     /* 225 round 3b: toggle sits at right: 16px at this width */
@@ -5077,8 +5215,10 @@ html {
     z-index: auto;
   }
 
-  /* Fix toggle position on mobile initial homepage state only */
-  .app:not(.has-results) .theme-toggle {
+  /* Fix toggle position on mobile initial homepage state only
+     (backlog 273: `>` scopes this to the standalone pair — see the
+     `.app:not(.has-results) > .language-toggle` note above) */
+  .app:not(.has-results) > .theme-toggle {
     position: fixed;
     top: var(--space-20);
     right: var(--space-20);
@@ -5103,8 +5243,9 @@ html {
     gap: var(--space-4);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only */
-  .app:not(.has-results) .theme-toggle {
+  /* Fix toggle position on extra small mobile initial homepage state only
+     (backlog 273: `>` scopes this to the standalone pair — see above) */
+  .app:not(.has-results) > .theme-toggle {
     position: fixed;
     top: var(--space-16);
     right: var(--space-16);
@@ -6224,7 +6365,9 @@ body,
   box-sizing: border-box;
 }
 
-/* ---------- Chip / pill — always pill; control-h-sm, control-h with an icon ---------- */
+/* ---------- Chip — certificate cut (3px), control-h-sm, control-h with an
+   icon. 247 world: chips left the pill shape with the rest of the app; only
+   round icon CONTROLS (the rule above) keep the circle. ---------- */
 .landing-example-chip,
 .gp-ask-chip,
 .filter-pill,
@@ -6240,7 +6383,7 @@ body,
   height: var(--ui-control-h-sm);
   min-height: var(--ui-control-h-sm);
   padding: 0 14px;
-  border-radius: var(--ui-radius-pill);
+  border-radius: 3px;
   font-size: 14px;
   font-weight: var(--font-weight-medium); /* 500 */
   line-height: 1;
@@ -6256,7 +6399,7 @@ body,
   justify-content: center;
   min-height: var(--ui-control-h);
   padding: 0 14px;
-  border-radius: var(--ui-radius-pill);
+  border-radius: 3px;
   font-size: 14px;
   font-weight: var(--font-weight-medium);
   line-height: 1.2;
@@ -6408,7 +6551,199 @@ body,
   transform: translateY(1px);
   background: var(--ui-surface-muted);
 }
+/* Generated SEO estate (/tokens, /chains, hubs, A–Z, KO twins). Those pages
+   bake their own <style> AFTER this stylesheet, so estate selectors here carry
+   one extra point of specificity (a.tp-cta, a[href]) to win the cascade —
+   covering every generated page without a regen. */
+a.tp-cta,
+a.cp-cta,
+a.hub-cta {
+  position: relative;
+  background: var(--ui-accent);
+  color: var(--ui-on-accent);
+  border: 1px solid var(--ui-accent-active);
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  transition: background 0.2s ease;
+}
+a.tp-cta::after,
+a.cp-cta::after,
+a.hub-cta::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--ui-on-accent);
+  border-radius: 1px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+a.tp-cta:hover,
+a.cp-cta:hover,
+a.hub-cta:hover {
+  background: var(--ui-accent-hover);
+  color: var(--ui-on-accent);
+}
+a.tp-cta:active,
+a.cp-cta:active,
+a.hub-cta:active {
+  background: var(--ui-accent-active);
+  color: var(--ui-on-accent);
+  transform: translateY(1px);
+}
+.related-links a[href],
+.hub-links a[href] {
+  background: var(--ui-surface);
+  color: var(--ui-text);
+  border: 1px solid var(--ui-border-strong);
+  border-radius: 3px;
+  font-weight: 600;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.related-links a[href]:hover,
+.hub-links a[href]:hover {
+  color: var(--ui-accent);
+  border-color: var(--ui-accent);
+  background: var(--ui-surface);
+}
+.related-links a[href]:active,
+.hub-links a[href]:active {
+  transform: translateY(1px);
+  background: var(--ui-surface-muted);
+}
 @media (prefers-reduced-motion: reduce) {
+  a.tp-cta, a.cp-cta, a.hub-cta, .related-links a[href], .hub-links a[href] { transition: none; }
   .btn--primary:active, .landing-garden-link:active, .landing-search-submit:active,
-  .app-search-button:active, .gp-primary-cta:active, .btn--secondary:active { transform: none; }
+  .app-search-button:active, .gp-primary-cta:active, .btn--secondary:active,
+  a.tp-cta:active, a.cp-cta:active, a.hub-cta:active,
+  .related-links a[href]:active, .hub-links a[href]:active { transform: none; }
+}
+
+/* ═══ 247 WORLD — ONE BRAND IDENTITY + ONE SWITCHER SKIN ═════════════════
+   The landing header's identity (leaf mark in a rounded-square tile +
+   18px/-0.03em wordmark) and its icon-button skin are the reference;
+   these rules put the same tile on the analytics grid (.app-brand-mark)
+   and the planner (.gp-brand-mark), and give the grid's theme/language
+   toggles the landing recipe. Placed at end of file so they outrank the
+   earlier .theme-toggle/.language-toggle color declarations at equal
+   specificity. */
+.app-brand-mark,
+.gp-brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 38px;
+  height: 38px;
+  color: var(--color-primary);
+  background: var(--color-background);
+  border-radius: 12px;
+  border: 1px solid var(--ui-border);
+}
+.app-leaf-mark,
+.gp-leaf-mark { width: 22px; height: 22px; display: block; }
+.theme-toggle,
+.language-toggle {
+  border: 1px solid var(--ui-border);
+  background: var(--color-background);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: .02em;
+  transition: color var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard);
+}
+.theme-toggle { font-size: 18px; font-weight: var(--font-weight-normal); line-height: 1; }
+.theme-toggle:hover,
+.language-toggle:hover { color: var(--color-primary); border-color: var(--ui-border-strong); transform: none; }
+.theme-toggle:active,
+.language-toggle:active { background: var(--ui-surface-muted); transform: translateY(1px); }
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle:active, .language-toggle:active { transform: none; }
+}
+
+/* ═══ 247 WORLD — GENERATED ESTATE AS THE SAME SHEET ═════════════════════
+   /tokens, /chains, hubs, A–Z and KO twins: the baked page blocks only set
+   font-size/margin/color on their h2s and layout on their wraps, so these
+   non-conflicting declarations apply regardless of cascade order — no
+   regeneration needed. Headings join the Besley certificate voice; each
+   page wrap carries the same page-margin guilloché strands + watermark
+   rosette the app surfaces already have (primitives/keyframes: ORNAMENT
+   SYSTEM above; pseudos are fixed, so the 860px wrap doesn't clip them). */
+.tp-wrap h1, .cp-wrap h1, .hub-wrap h1 {
+  font-weight: 600;
+  letter-spacing: -.01em;
+}
+.tp-wrap h2, .cp-wrap h2, .hub-wrap h2 {
+  font-family: var(--font-family-display);
+  font-weight: 600;
+  letter-spacing: -.005em;
+}
+.tp-wrap, .cp-wrap, .hub-wrap {
+  position: relative;
+  isolation: isolate;
+  /* Certificate geometry: the baked page blocks size their cards/headline
+     boxes/FAQ items with var(--ui-radius-*) — rescoping the tokens on the
+     wrap squares every one of them (same trick as .gp-app), no regen. */
+  --ui-radius-sm: 3px;
+  --ui-radius-md: 4px;
+  --ui-radius-lg: 4px;
+  --ui-radius-pill: 3px;
+}
+.tp-wrap::before, .cp-wrap::before, .hub-wrap::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-margin);
+  -webkit-mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  mask-image: url('./assets/guilloche-strand.svg'), url('./assets/guilloche-strand.svg');
+  -webkit-mask-size: 20px 50px, 20px 50px;
+  mask-size: 20px 50px, 20px 50px;
+  -webkit-mask-repeat: repeat-y, repeat-y;
+  mask-repeat: repeat-y, repeat-y;
+  -webkit-mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+  mask-position: calc(50% - 478px) 0, calc(50% + 478px) 0;
+}
+.tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+  content: '';
+  position: fixed;
+  top: calc(50% - 270px);
+  right: -186px;
+  width: 540px;
+  height: 540px;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--ui-accent-watermark);
+  -webkit-mask-image: url('./assets/guilloche-rosette.svg');
+  mask-image: url('./assets/guilloche-rosette.svg');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  transform-origin: 50% 50%;
+}
+@media (min-width: 1080px) {
+  .tp-wrap::before, .cp-wrap::before, .hub-wrap::before,
+  .tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+    opacity: 1;
+  }
+  .tp-wrap::before, .cp-wrap::before, .hub-wrap::before {
+    animation: ornDrift 109s ease-in-out infinite alternate;
+  }
+  .tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+    animation: ornTurn 121s ease-in-out infinite alternate,
+               ornBreathe 95s ease-in-out infinite alternate;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tp-wrap::before, .cp-wrap::before, .hub-wrap::before,
+  .tp-wrap::after, .cp-wrap::after, .hub-wrap::after {
+    animation: none !important;
+  }
 }

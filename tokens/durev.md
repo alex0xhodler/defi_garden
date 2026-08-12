@@ -1,10 +1,10 @@
 # DUREV DeFi Yields
 
-The highest honest DUREV yield right now is 0.19% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUREV yield right now is 0.29% on dedust (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=2dfd8d9e-1b61-4ad0-b217-f85a5ddb383a&src=seo_token) | TON | 0.19% | $128K |
+| [dedust →](https://www.defi.garden/?pool=2dfd8d9e-1b61-4ad0-b217-f85a5ddb383a&src=seo_token) | TON | 0.29% | $132.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DUREV yield today?
 
-0.19% APY on dedust (TON), based on live DefiLlama data.
+0.29% APY on dedust (TON), based on live DefiLlama data.
 
 ### How many DUREV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128K in total.
+1 live pool clear this page's $100K TVL floor, $132.9K in total.
 
 ### Are these rates safe?
 
@@ -27,12 +27,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [GRAM](https://www.defi.garden/tokens/gram)
 - [TSTON](https://www.defi.garden/tokens/tston)
 - [HGRAM](https://www.defi.garden/tokens/hgram)
-- [OPENAI](https://www.defi.garden/tokens/openai)
 - [XAUT0](https://www.defi.garden/tokens/xaut0)
 - [UTYA](https://www.defi.garden/tokens/utya)
+- [STON](https://www.defi.garden/tokens/ston)
 
 ## Available on
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 7, 2026
+## Last updated August 12, 2026

@@ -1,25 +1,42 @@
 # SUPERWETH 디파이 수익률
 
-현재 SUPERWETH의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 5.29%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUPERWETH의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 5.08%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.30% | $2.57M |
-| [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 5.29% | $394.1K |
-| [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.40% | $394.1K |
-| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.48% | $277K |
+| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.30% | $2.53M |
+| [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 5.08% | $392.3K |
+| [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.33% | $392.3K |
+| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.50% | $276.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
+
+## 이 수익률은 어떻게 움직였을까요
+
+SUPERWETH 풀은 여기 4개가 있고, 2개 체인에서 APY가 1.30%부터 5.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.91%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+
+4개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+
+| 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
+|---|---|---|---|
+| superform | 1.30% | 2.16% | 인센티브 100.00% |
+| pendle | 5.08% | 6.22% | 인센티브 20.84% |
+| pendle | 4.33% | 4.91% | 인센티브 24.45% |
+| superform | 2.50% | 2.91% | 인센티브 51.91% |
+
+30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
 ## 자주 묻는 질문
 
 ### 오늘 SUPERWETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 5.29%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 5.08%예요.
 
 ### SUPERWETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $3.64M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $3.59M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -39,4 +56,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 5.29%예요.
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 7, 2026
+## 마지막 업데이트: August 12, 2026

@@ -172,6 +172,7 @@ then, and could not have found it the next day either.
 | 1 · signal set | which claim classes can this checker see? | 148 → 159/160 → 166/169 → 172 → 175 |
 | 2 · rate + memory | what fraction per tick, and does the picker remember? | 154/157 → 196 · 167/183 → 191/192 |
 | 3 · population | is the set it enumerates the whole set? | **197** |
+| 7 · provenance | did it enumerate the declaration or the executor? | 212 → **234** |
 
 ### Building the axis-3 fix: three traps the transplant itself introduces (added 2026-08-01, item 197 build)
 
@@ -827,3 +828,116 @@ gate by type. Third narrowing found in this one gate's predicate (item **190** s
 item **198** fixed the predicate to key on the KO value alone; this is the first found in its *type* coverage
 rather than its logic), which is itself the finding: a gate that has been narrowed three times is a gate
 whose predicate should be re-derived from what it guards, not patched again.
+
+---
+
+## Addendum (item 256, 2026-08-10): does the defect SHRINK the gate's population?
+
+**When:** you are building — or reviewing — any gate whose predicate is "X must not appear in POPULATION P",
+where P is derived at run time from an artifact in the repo. Run this before writing the test, not after.
+
+**Answer in one line:** if the defect you are guarding against is *a change to the artifact P is derived
+from*, then P shrinks at exactly the moment the gate should fire, and the gate is guaranteed green — derive
+a second leg from the CONSUMING side and union the two.
+
+**Steps**
+
+1. Name the artifact P is derived from (here: `translations.js`'s dictionary) and the defect class in one
+   sentence (here: "a key is deleted/renamed while a call site still references it").
+2. Ask the one question: **would the defect, once present, change P?** If the defect removes the very member
+   that would match, stop — the gate is vacuous by construction, no matter how good the predicate is.
+3. Find the CONSUMING side — the code whose execution produces the visible failure (here: `t('…')` /
+   `rootT(…, '…')` call sites in the scripts the audited shells load). Derive a second leg from it. It is the
+   leg that survives, because it does not read the artifact the defect edits.
+4. Derive the second leg's own file population from the render mechanism too, never a hand list: parse the
+   shells (`home.html`, `plan.html`) for local `<script src>` **and** for runtime `addScript('…')` injection
+   (item 244's boot barrier — `app.js`/`PoolDetail.js` are in no static tag), and map `.min`/`.compiled`
+   artifacts back to sources.
+5. Union the legs. Record both sizes in the notes (256: Leg A 904, Leg B 284, union 904) and say plainly that
+   equal legs on a healthy tree is expected — **they diverge only when something is broken, which is the
+   whole point.**
+6. Prove the red on the CONSUMING-side leg specifically: delete the key from the dictionary (and from the
+   minified artifact the page actually loads — `home.html:201` serves `translations.min.js`, so mutating only
+   `translations.js` changes nothing on screen), render, confirm the finding, restore, `md5sum` both files.
+
+**Resolution:** ship only if the manufactured red fires on the leg that covers the real defect shape. A red
+demonstrated on the *other* leg proves the path that already worked (249's type-level twin of this rule).
+
+**Traps**
+
+- *"The gate passed on the fixed tree, so it works."* A gate is only evidence once it has been seen red on
+  the exact defect shape. 256's first implementation was green in both worlds.
+- *Mutating the source but not the served artifact.* The page loads `translations.min.js` / `app.compiled.js`.
+  A source-only mutation leaves the render untouched and the run "green" for the wrong reason.
+- *Widening the predicate instead of the population.* The predicate (exact-line match) was never the problem
+  in 256; the population was. Check which one your evidence actually indicts.
+
+**Provenance:** item 256, build loop 2026-08-10. Found by building the spec literally (dictionary-derived
+population), then running the manufactured defect against it: Playwright showed `"poolNotFoundTitle"` rendered
+on the dead-pool surface while `node audit-app.js --only=dead-pool` returned `findings: []`. Fifth narrowing
+in this checker family (190, 198, 212, 249) — and the first found *before* merge rather than by a later tick.
+
+## The seventh axis: where did the population COME FROM — the declaration, or the executor? (added 2026-08-11, item 234)
+
+Axis 3 asks *is the enumerated set the whole set?* This axis asks the question one step earlier and it is
+not the same question: **which artifact did the guard read to learn the set?** A guard can enumerate its
+declared population perfectly, prove set-equality in both directions, ship a self-defeat case — and still
+be blind, because the thing it enumerated is a **declaration** (a table, a list, a manifest) while the
+thing that decides real behavior is an **executor** (a dispatcher, a router, a runtime read). Every metric
+the guard reports is then true of the declaration and says nothing about the executor.
+
+Two instances, one shape:
+
+- **Item 212** — `ANALYTICS_PARAMS` was built by scanning for literal `.get('key')` calls, and the drift
+  test was built on the same scan. Blind to `app`, which `home.html:79` reads as
+  `ANALYTICS_PARAMS.some(k => params.has(k))`. Guard green; `/?app=1` served the wrong artifact.
+- **Item 234** — `edge/x402-core.js`'s `matchRoute()` derived its route ids from `PRICE_SCHEDULE`'s own
+  keys, and the mirror test proved `PRICE_SCHEDULE` ↔ `ENDPOINTS` set-equality both directions. Both
+  artifacts are declarations. `handleApiRequest`'s `if (path === '…')` chain is the executor. Adding a
+  computed-KPI route to the dispatcher **only** — the exact thing the item's `DEFAULT_TIER = 'paid'` rule
+  existed to catch — served it **free with the payment gate ON**, and every test in the suite stayed
+  green. The default that the spec made load-bearing was unreachable from a real request.
+
+**Answer in one line:** a guard is only as good as the artifact it enumerates — derive the population from
+the code path that *runs*, and if the executor is not machine-readable, **making it machine-readable is the
+task**, not an optional nicety.
+
+### Steps
+
+1. **Name the executor out loud.** For any guard over a set, write one sentence: *"at runtime, the thing
+   that decides is `<file:function>`."* If that sentence names a different artifact than the one the test
+   reads, stop — you have this defect before you have written a line.
+2. **Test the gap with an injection, not an argument.** Add ONE member to the executor and nothing else
+   (234: one `if (path === '/api/sharpe')` in the dispatcher; 212: one new `params.has()` read). Run the
+   full suite. If it stays green, the gap is real and now has a reproduction.
+3. **Decision rule.** Executor is already a data structure → point the guard at it and delete the
+   declaration-derived copy. Executor is a code chain (`if/else`, `switch`, inline literals) → **refactor
+   it into a declarative table** and derive the declaration FROM the table, rather than parsing the chain
+   with a regex. Parsing is the fallback (RAZOR ex. 5's "making it parseable IS the task"), not the goal:
+   a parser is one more artifact that can drift from what runs.
+4. **Then prove three-way set-equality, each direction separately**, between executor ids, the declared
+   table, and whatever consumer set exists (234: dispatcher ids ↔ `ENDPOINTS` ↔ `PRICE_SCHEDULE`, 3 pairs
+   × 2 directions, each with its own self-defeat case). One combined assertion hides which leg is dead.
+5. **Re-run step 2's injection as a permanent test**, driving the real executor end-to-end, labelled as
+   what it simulates ("a future computed-KPI endpoint someone forgot to price").
+
+**Resolution:** the guard reads the executor; the declaration is derived; the default branch that the spec
+leans on is reachable from a real request and has a test that proves it fires.
+
+**Traps**
+
+- *"Both directions are tested, so the mirror is sound."* Both directions between two **declarations** is
+  a closed loop. Direction count is not provenance.
+- *A hardcoded exception literal in the expected set* (`ENDPOINTS.map(…).concat(['/api/pricing'])`) is the
+  tell that a real member exists outside the table the guard mirrors. Fix the source, never the expectation
+  — this is `guard-exemption-rate.md`'s rule applied to a one-element exemption.
+- *The unreachable default.* A `DEFAULT_TIER`/fallback branch that no runtime path can reach reads as
+  protection in every review. Ask which input produces it, then produce that input.
+- *Skipping the gate on "not in my set" instead of on "the executor serves nothing".* 234's gate skipped
+  when `matchRoute()` returned `null`, conflating "unpriced" with "nonexistent". Key the skip on the
+  executor's own answer (a 404), not on schedule membership.
+
+**Provenance:** item 234 (agentic commerce / x402), verifier round 1, 2026-08-11 — the verifier reproduced
+the gap by injecting `/api/sharpe` into the dispatcher and watching five test files exit 0. Distilled
+together with item 212 (LEARNINGS 2026-07-30, `RAZOR.md` example 5), which is the same shape one year of
+loop earlier in this file's lineage.

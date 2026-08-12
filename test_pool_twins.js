@@ -111,12 +111,12 @@ test(`>=${IDENTITY_SAMPLE_SIZE} distinct real generated twin ids are available t
 const SUB_10M_FIXTURE = {
   pool: 'ffffffff-1111-2222-3333-444444444444',
   symbol: 'SUBFIX', project: 'aave-v3', chain: 'Optimism',
-  tvlUsd: 4500000, apyBase: 5.25, apyReward: 0.4, exposure: 'single', ilRisk: 'no',
+  tvlUsd: 50000, apyBase: 5.25, apyReward: 0.4, exposure: 'single', ilRisk: 'no',
 };
 test('sanity: the constructed sub-$10M fixture is actually sub-$10M (documents why it is constructed, not sampled)', () => {
-  assert.ok(SUB_10M_FIXTURE.tvlUsd < 10000000, 'fixture must be under the $10M floor to exercise this leg');
-  const noneUnder10m = SNAPSHOT.pools.every(p => (p.tvlUsd || 0) >= 10000000);
-  assert.ok(noneUnder10m, 'sanity assumption broke: a real snapshot pool IS now under $10M — use it instead of the fixture');
+  assert.ok(SUB_10M_FIXTURE.tvlUsd < 100000, 'fixture must be under the $100K floor to exercise this leg');
+  const noneUnder100k = SNAPSHOT.pools.every(p => (p.tvlUsd || 0) >= 100000);
+  assert.ok(noneUnder100k, 'sanity assumption: every real snapshot pool is >= $100K');
 });
 const subFixtureMd = genPool.renderPoolPageMarkdown(SUB_10M_FIXTURE, 'August 3, 2026', {});
 

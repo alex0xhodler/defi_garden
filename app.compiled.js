@@ -802,7 +802,7 @@ function AnimatedNumber({
 
 // APY sanity constants
 var APY_SANITY_LIMIT = 1000;
-var DEFAULT_MIN_TVL = 10000000; // $10M default floor
+var DEFAULT_MIN_TVL = 100000; // $100K default floor
 
 // Shape gate for a `?pool=` id before it is ever reflected into a fetch path
 // (spec 216) — the SAME shape check generate-pool-pages.js's UUID_RE uses to
@@ -1958,6 +1958,18 @@ function App() {
           var anomA = apyA > APY_SANITY_LIMIT ? 1 : 0;
           var anomB = apyB > APY_SANITY_LIMIT ? 1 : 0;
           if (anomA !== anomB) return anomA - anomB;
+          // 239: default-view-only demotion of no-supply-yield rows below
+          // yield-bearing rows under the Risk-Adjusted sort. Sits AFTER the
+          // anomaly partition above (anomalous pools must stay demoted last
+          // of all — the trust rail is not weakened) and BEFORE the Sharpe
+          // comparison, since with no apySharpe history every pool falls
+          // through to the TVL tie-break, letting huge-TVL 0%-yield
+          // collateral pools (e.g. WSTETH/CBBTC/WEETH) top the flagship
+          // list. Nothing is filtered — rows stay listed and labeled
+          // "No supply yield" as today, only reordered.
+          var noA = hasNoSupplyYield(a) ? 1 : 0;
+          var noB = hasNoSupplyYield(b) ? 1 : 0;
+          if (noA !== noB) return noA - noB;
           var shA = a.kpis && typeof a.kpis.apySharpe === 'number' ? a.kpis.apySharpe : null;
           var shB = b.kpis && typeof b.kpis.apySharpe === 'number' ? b.kpis.apySharpe : null;
           var nullA = shA === null ? 1 : 0;
@@ -1968,9 +1980,9 @@ function App() {
         }
         if (sortBy === 'tvl') {
           // Yielding pools before no-supply-yield pools, then TVL desc (092)
-          var noA = hasNoSupplyYield(a) ? 1 : 0;
-          var noB = hasNoSupplyYield(b) ? 1 : 0;
-          if (noA !== noB) return noA - noB;
+          var _noA = hasNoSupplyYield(a) ? 1 : 0;
+          var _noB = hasNoSupplyYield(b) ? 1 : 0;
+          if (_noA !== _noB) return _noA - _noB;
           return b.tvlUsd - a.tvlUsd;
         } else {
           var _apyA = (a.apyBase || 0) + (a.apyReward || 0);
@@ -2613,7 +2625,7 @@ function App() {
   var totalPages = Math.ceil(filteredPools.length / itemsPerPage);
 
   // Handle pool click to navigate to pool detail page
-  var handlePoolClick = (pool, e, position = -1) => {
+  var handlePoolClick = (pool, e, position = -1, surface) => {
     e.preventDefault();
     e.stopPropagation();
 
@@ -2627,7 +2639,11 @@ function App() {
       selected_token: selectedToken,
       // spec 182 — no gate needed here (this fires from a real click, long
       // after every tier including the baked artifact has had time to load).
-      protocolCtaPresent: !!getProtocolUrlWithRef(pool)
+      protocolCtaPresent: !!getProtocolUrlWithRef(pool),
+      // spec 258: which renderPoolCard instance this click came from (results
+      // grid / empty-state alternatives / dead-pool alternatives) — threaded
+      // in from renderPoolCard, not derived here.
+      surface: surface
     });
 
     // Set the pool for detail view
@@ -2724,12 +2740,35 @@ function App() {
   };
 
   // Handle yield calculator - navigate to pool details page
-  var handleCalculateYield = (pool, e) => {
+  var handleCalculateYield = (pool, e, surface) => {
     e.preventDefault();
     e.stopPropagation();
 
     // Analytics tracking for yield calculation
-    Analytics.trackPoolClick(pool, 'yield_calculator');
+    // spec 258: this call previously passed no context object at all, so
+    // surface had nowhere to go — add one carrying only surface, matching
+    // the trackPoolView context below.
+    Analytics.trackPoolClick(pool, 'yield_calculator', {
+      surface: surface
+    });
+
+    // spec 257: this transition into pool-detail was previously un-instrumented
+    // for pool_view — the north star's denominator missed this entry path
+    // entirely (see product-loop-kit/specs/257.md). Mirrors handlePoolClick's
+    // trackPoolView call (app.js handlePoolClick, above) including the
+    // urlDirectPoolViewFiredRef set — that ref suppresses a duplicate
+    // url_direct pool_view emit for the same pool id (see its declaration
+    // comment and the guard at the url_direct effect above).
+    urlDirectPoolViewFiredRef.current = pool.pool;
+    Analytics.trackPoolView(pool, {
+      source: 'yield_calculator',
+      search_query: selectedToken || selectedChain || 'browse',
+      selected_chain: selectedChain,
+      selected_token: selectedToken,
+      protocolCtaPresent: !!getProtocolUrlWithRef(pool),
+      // spec 258: see handlePoolClick's identical surface comment above.
+      surface: surface
+    });
 
     // Set the pool for detail view (same logic as handlePoolClick)
     setDetailPool(pool);
@@ -2913,7 +2952,12 @@ function App() {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2
   }) + '%';
-  var renderPoolCard = (pool, key, position, delayBase) => {
+
+  // spec 258: `surface` names the RENDERING CONTEXT this card instance is
+  // drawn in ('results' | 'empty_state_alternatives' | 'dead_pool_alternatives'
+  // — see the three call sites below), threaded into both click handlers so
+  // pool_click/pool_view can be attributed without a multi-property join.
+  var renderPoolCard = (pool, key, position, delayBase, surface) => {
     var protocolUrl = getProtocolUrl(pool);
     var quickPreview = getQuickPreview(pool);
     // 225 round 3 increment (a): icon lives in its own grid column, separate
@@ -2925,7 +2969,7 @@ function App() {
     return React.createElement('div', {
       key,
       className: `pool-card animate-on-mount clickable`,
-      onClick: e => handlePoolClick(pool, e, position)
+      onClick: e => handlePoolClick(pool, e, position, surface)
     },
     // Header: Symbol + Protocol info + APY
     React.createElement('div', {
@@ -2982,7 +3026,7 @@ function App() {
       className: 'pool-cta-section'
     }, React.createElement('button', {
       className: 'calculate-yield-btn-new',
-      onClick: e => handleCalculateYield(pool, e)
+      onClick: e => handleCalculateYield(pool, e, surface)
     }, t('calculateYield'))));
   };
 
@@ -3001,11 +3045,39 @@ function App() {
   var renderHeaderRow = includeSearch => React.createElement('div', {
     className: 'app-header-content'
   },
-  // Logo (compact, clickable)
+  // Logo (compact, clickable) — landing's identity tile: leaf mark in a
+  // rounded-square + wordmark (same SVG as landing.js's LeafMark).
+  // 273: 'DeFi Garden' wrapped in .app-brand-wordmark (was a bare text
+  // child) so CSS can hide just the wordmark at <360px — see the
+  // .app-brand-wordmark rule in style.css for why. aria-label on the
+  // row keeps the button's accessible name when the wordmark is hidden
+  // (the icon is aria-hidden, decorative).
   React.createElement('div', {
     className: 'app-logo',
-    onClick: resetApp
-  }, '🌱 DeFi Garden'),
+    onClick: resetApp,
+    'aria-label': 'DeFi Garden'
+  }, React.createElement('span', {
+    className: 'app-brand-mark',
+    'aria-hidden': 'true'
+  }, React.createElement('svg', {
+    className: 'app-leaf-mark',
+    viewBox: '0 0 32 32',
+    width: 22,
+    height: 22,
+    preserveAspectRatio: 'xMidYMid meet',
+    fill: 'none',
+    'aria-hidden': 'true'
+  }, React.createElement('path', {
+    d: 'M26.7 4.8C16.2 5.2 8.2 10.7 7.1 20.4c-.3 2.8.7 5.2 2.4 6.8 1.6-8.5 6.5-14.6 14.1-18.2-4.5 3.9-7.6 8.7-9 14.6 3.1-3.9 7-6.8 11.7-8.8.8-2.8.9-6 .4-10Z',
+    fill: 'currentColor'
+  }), React.createElement('path', {
+    d: 'M8.8 27.2c3.2-5.1 7.2-8.9 12.2-11.4',
+    stroke: 'currentColor',
+    strokeWidth: '1.6',
+    strokeLinecap: 'round'
+  }))), React.createElement('span', {
+    className: 'app-brand-wordmark'
+  }, 'DeFi Garden')),
   // Persistent search bar (grid + pool view, both via includeSearch=true)
   includeSearch && React.createElement('div', {
     className: 'app-search-container'
@@ -3062,7 +3134,7 @@ function App() {
     className: 'app-control-btn theme-toggle',
     onClick: toggleTheme,
     'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-  }, isDarkMode ? '🌙' : '☀️')));
+  }, isDarkMode ? '☼' : '☾')));
 
   // Render Pool Detail View if active
   if (currentView === 'pool-detail' && detailPool) {
@@ -3196,7 +3268,7 @@ function App() {
     'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
   }, React.createElement('div', {
     className: 'theme-toggle-icon'
-  }, isDarkMode ? '🌙' : '☀️')),
+  }, isDarkMode ? '☼' : '☾')),
   // Language Toggle
   React.createElement('button', {
     className: 'language-toggle',
@@ -3427,7 +3499,7 @@ function App() {
   // every row when the live fetch replaced the snapshot (order
   // shifts), refetching every protocol icon: the visible flicker
   // right after results appear. Stable id = in-place update.
-  renderPoolCard(pool, pool.pool, (currentPage - 1) * itemsPerPage + index, index * 50)))),
+  renderPoolCard(pool, pool.pool, (currentPage - 1) * itemsPerPage + index, index * 50, 'results')))),
   // Pagination
   totalPages > 1 && React.createElement('div', {
     className: 'pagination animate-on-mount',
@@ -3471,7 +3543,7 @@ function App() {
     className: 'empty-submessage'
   }, emptyAlternatives.source === 'chain' ? t('emptyStateAltHeadingChain', selectedChain) : t('emptyStateAltHeadingStable')), React.createElement('div', {
     className: 'pools-grid'
-  }, emptyAlternatives.items.map((pool, index) => renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50)))),
+  }, emptyAlternatives.items.map((pool, index) => renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50, 'empty_state_alternatives')))),
   // Dead-pool alternatives (spec 072): top-TVL stablecoin pools via the same trust rails.
   deadPoolResolved && deadPoolAlternatives.items.length > 0 && React.createElement('div', {
     className: 'empty-state-alternatives'
@@ -3479,7 +3551,7 @@ function App() {
     className: 'empty-submessage'
   }, t('emptyStateAltHeadingStable')), React.createElement('div', {
     className: 'pools-grid'
-  }, deadPoolAlternatives.items.map((pool, index) => renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50)))), minTvl > 0 && React.createElement('button', {
+  }, deadPoolAlternatives.items.map((pool, index) => renderPoolCard(pool, `alt-${pool.pool}-${index}`, -1, index * 50, 'dead_pool_alternatives')))), minTvl > 0 && React.createElement('button', {
     className: 'reset-filters-btn',
     onClick: () => handleTvlSelect(0)
   }, t('showSmallerPools')), React.createElement('button', {

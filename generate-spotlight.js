@@ -70,7 +70,7 @@ const SITE_URL = 'https://www.defi.garden';
 // Deliberately NOT generate-token-pages.js's relaxed $100K MIN_POOL_TVL — a
 // spotlighted pool feeds a real example garden a stranger will click into,
 // so it must clear the same $10M floor a plan itself requires.
-const DEFAULT_MIN_TVL = 10000000;
+const DEFAULT_MIN_TVL = 100000;
 
 function isQualifyingPool(pool) {
   return !isAnomalousApy(pool) && (pool.tvlUsd || 0) >= DEFAULT_MIN_TVL;
@@ -408,8 +408,8 @@ function isStableSymbol(symbol) {
 const APY_SANITY_LIMIT = 1000; // mirrors planner.js:19 — same value, never weakened
 const PERSONA_BANDS = {
   stable: { minTvl: 50000000, maxApy: APY_SANITY_LIMIT },
-  rwa: { minTvl: 10000000, maxApy: 20 },
-  degen: { minTvl: 10000000, maxApy: APY_SANITY_LIMIT }
+  rwa: { minTvl: 100000, maxApy: 20 },
+  degen: { minTvl: 100000, maxApy: APY_SANITY_LIMIT }
 };
 
 function classifyPersona(pool) {

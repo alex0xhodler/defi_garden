@@ -15,6 +15,12 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+// backlog 254: every persona's temperamentLabel below renders its OWN
+// TEMPERAMENTS.<key>.minTvl (a persona curation floor, independent of the
+// platform's DEFAULT_MIN_TVL rail — see the TEMPERAMENTS comment below) via
+// this ONE shared formatter, instead of hand-typing a copy of the number.
+// Never a second `formatTvlFloor` here.
+const { formatTvlFloor } = require('./trust-rails.js');
 
 // Canonical site URL — matches plan.html / index.html canonicals
 const SITE_URL = 'https://www.defi.garden';
@@ -32,7 +38,10 @@ const STABLE_SYMBOLS = ['USDC', 'USDT', 'DAI', 'USDS', 'FRAX', 'TUSD', 'USDP', '
   'LUSD', 'USDD', 'PYUSD', 'USDE', 'SUSD', 'CRVUSD', 'GHO', 'USD0', 'FDUSD', 'USDB',
   'BUSD', 'MIM', 'DOLA', 'USDX', 'EURC', 'EURS', 'RLUSD', 'USDL', 'DEUSD', 'SDAI'];
 
-// Temperament filter bands. Sanity cap (<= APY_SANITY_LIMIT) applies everywhere.
+// Temperament filter bands — each persona's OWN curation choice for which
+// pools populate their story (never sourced from DEFAULT_MIN_TVL; changing
+// these changes which pools are shown, out of scope for backlog 254). Sanity
+// cap (<= APY_SANITY_LIMIT) applies everywhere.
 const TEMPERAMENTS = {
   sleep: { minTvl: 50000000, maxApy: APY_SANITY_LIMIT, stableOnly: true, preferTypes: ['lending', 'staking'] },
   balanced: { minTvl: 10000000, maxApy: 50, stableOnly: false },
@@ -227,7 +236,17 @@ const PERSONAS = [
     monthly: 500,
     years: 10,
     temperament: 'balanced',
-    temperamentLabel: 'RWA & Fresh Entries — tokenized treasuries and credible newer pools, $10M+ TVL',
+    // backlog 254 (fix pass): the "+TVL" figure states THIS PERSONA'S OWN
+    // curation floor — TEMPERAMENTS.balanced.minTvl — exactly like
+    // tomoko/lucia's labels state their own TEMPERAMENTS.sleep.minTvl ($50M).
+    // It must NOT derive from the platform's DEFAULT_MIN_TVL rail: kevin's
+    // actual pool-selection floor here is $10M (TEMPERAMENTS.balanced.minTvl,
+    // above), unrelated to and independent from DEFAULT_MIN_TVL — deriving
+    // from DEFAULT_MIN_TVL stated a floor ("$100K+") the pools on this page
+    // never actually used. Still routed through the shared formatTvlFloor so
+    // the display format matches every other stating site, never a re-typed
+    // literal.
+    temperamentLabel: `RWA & Fresh Entries — tokenized treasuries and credible newer pools, ${formatTvlFloor(TEMPERAMENTS.balanced.minTvl)}+ TVL`,
     intro: [
       'Kevin is 34, a product manager in Austin. He maxes his employer’s 401(k) match every January and never touches it. This story is not about that money.',
       'It is about the other $500 a month — the amount left over after rent, the dog, and one ambitious smoker grill. Kevin and his partner have a goal: a down payment on a first home in roughly 10 years. He wanted that money somewhere he could actually watch, with rates he could verify himself.'
@@ -635,7 +654,7 @@ function renderStoriesCss() {
 
 .st-body {
   min-height: 100vh;
-  background: var(--neuro-bg-gradient) 0% 0% / cover fixed;
+  background: var(--ui-bg);
   color: var(--color-text);
   font-family: var(--font-family-base);
 }
@@ -669,14 +688,14 @@ function renderStoriesCss() {
   text-decoration: none;
   padding: var(--space-8) var(--space-16);
   background: var(--color-surface);
+  border: 1px solid var(--ui-border);
   border-radius: var(--radius-full);
-  box-shadow: var(--neuro-shadow-subtle);
   white-space: nowrap;
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
+  transition: border-color var(--duration-normal) var(--ease-standard),
     transform var(--duration-normal) var(--ease-standard);
 }
-.st-header-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-1px); }
-.st-header-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(0); }
+.st-header-cta:hover { border-color: var(--ui-border-strong); transform: translateY(-1px); }
+.st-header-cta:active { transform: translateY(1px); background: var(--ui-surface-muted); }
 
 /* ---------- Layout ---------- */
 .st-main {
@@ -689,9 +708,9 @@ function renderStoriesCss() {
 .st-section {
   margin: 0 0 var(--space-32);
   padding: var(--space-24);
-  background: var(--color-background);
-  border-radius: var(--neuro-radius-lg);
-  box-shadow: var(--neuro-shadow-raised);
+  background: var(--color-surface);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-lg);
   opacity: 0;
   transform: translateY(12px);
   transition: opacity 480ms var(--ease-standard), transform 480ms var(--ease-standard);
@@ -744,8 +763,8 @@ function renderStoriesCss() {
   justify-content: center;
   font-size: var(--font-size-4xl);
   background: var(--color-surface);
+  border: 1px solid var(--ui-border);
   border-radius: var(--radius-full);
-  box-shadow: var(--neuro-shadow-raised);
   margin-bottom: var(--space-16);
 }
 
@@ -769,9 +788,9 @@ function renderStoriesCss() {
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
   padding: var(--space-6) var(--space-12);
-  background: var(--color-surface);
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
   border-radius: var(--radius-full);
-  box-shadow: var(--neuro-shadow-pressed);
   margin: 0 0 var(--space-16);
 }
 
@@ -785,9 +804,9 @@ function renderStoriesCss() {
 
 .st-stat {
   padding: var(--space-16);
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md);
   text-align: center;
 }
 
@@ -815,9 +834,9 @@ function renderStoriesCss() {
 
 .st-faq-item {
   padding: var(--space-16);
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md);
 }
 
 .st-faq-q {
@@ -843,9 +862,9 @@ function renderStoriesCss() {
 
 .st-risk-card {
   padding: var(--space-16);
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md);
 }
 
 .st-risk-emoji { font-size: var(--font-size-2xl); margin-bottom: var(--space-8); }
@@ -868,9 +887,9 @@ function renderStoriesCss() {
   text-align: center;
   padding: var(--space-24);
   margin: var(--space-16) 0;
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-md);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-md);
 }
 
 .st-headline-figure {
@@ -896,9 +915,9 @@ function renderStoriesCss() {
   flex-wrap: wrap;
   gap: var(--space-8);
   padding: var(--space-12) var(--space-16);
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-subtle);
+  background: var(--ui-surface-muted);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm);
   font-size: var(--font-size-sm);
 }
 
@@ -911,9 +930,9 @@ function renderStoriesCss() {
   color: var(--color-text-secondary);
   margin: var(--space-16) 0 0;
   padding: var(--space-12) var(--space-16);
-  background: var(--color-surface);
-  border-radius: var(--neuro-radius-sm);
-  box-shadow: var(--neuro-shadow-pressed);
+  background: var(--ui-surface-sunken);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-sm);
 }
 
 /* ---------- CTA ---------- */
@@ -927,15 +946,14 @@ function renderStoriesCss() {
   font-weight: var(--font-weight-semibold);
   color: var(--color-btn-primary-text);
   background: var(--color-primary);
+  border: 1px solid transparent;
   border-radius: var(--radius-full);
-  box-shadow: var(--neuro-shadow-raised);
   text-decoration: none;
-  transition: box-shadow var(--duration-normal) var(--ease-standard),
-    transform var(--duration-normal) var(--ease-standard),
+  transition: transform var(--duration-normal) var(--ease-standard),
     background var(--duration-normal) var(--ease-standard);
 }
-.st-cta:hover { background: var(--color-primary-hover); box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
-.st-cta:active { background: var(--color-primary-active); box-shadow: var(--neuro-shadow-pressed); transform: translateY(0); }
+.st-cta:hover { background: var(--color-primary-hover); transform: translateY(-2px); }
+.st-cta:active { background: var(--color-primary-active); transform: translateY(1px); }
 
 .st-cta-secondary {
   display: block;
