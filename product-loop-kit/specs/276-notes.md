@@ -29,8 +29,9 @@ reran → test (10) green.
 ## Regression check
 Ran `test_audit_occlusion_lens_reliability.js` (13/13 green — the detection-rate reliability suite
 is orthogonal to this predicate change) and `test_audit_app.js` (3/3 green, ZERO new occlusion
-findings on any real surface — including the previously-quarantined grid surfaces, which now read
-fully clear; unrelated to this item, not touched here, noted for a future heartbeat tick).
+findings across the 10 app-surfaces subset it covers (excludes planner/landing/plan-bloom/grid-768)
+— including the previously-quarantined grid surfaces, which now read fully clear; unrelated to
+this item, not touched here, noted for a future heartbeat tick).
 
 ## Deviation from spec
 None. Scope stayed exactly the per-pair rewrite; the pre-existing test-2 anchor bug (source
