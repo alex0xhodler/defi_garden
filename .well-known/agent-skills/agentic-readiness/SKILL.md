@@ -71,7 +71,7 @@ Provide clear entry points for agents to authenticate on behalf of users or obta
 ### 5. Live MCP Servers & Server Cards (SEP-1649)
 Expose standard-compliant JSON-RPC interfaces so agents can dynamically invoke tools and query context.
 - **Server Card:** Publish `/.well-known/mcp/server-card.json` (also mapped to `/.well-known/mcp.json` and `/.well-known/mcp/server-cards.json`) declaring capabilities and the transport URL.
-- **Serverless Handler:** Build raw, dependency-free Node.js or Python serverless functions (e.g. `/api/mcp`) that parse standard JSON-RPC 2.0 requests:
+- **Serverless Handler:** Build raw, dependency-free Node.js or Python serverless functions (e.g. `/mcp`) that parse standard JSON-RPC 2.0 requests:
   - `initialize` (return capabilities & serverInfo)
   - `tools/list` (list available schema-enforced tools)
   - `tools/call` (execute and return structured text/json outputs)
