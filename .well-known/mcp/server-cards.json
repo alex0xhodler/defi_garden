@@ -6,18 +6,14 @@
   },
   "transports": [
     {
-      "type": "sse",
-      "url": "https://www.defi.garden/api/mcp"
+      "type": "streamable-http",
+      "url": "https://www.defi.garden/mcp"
     }
   ],
   "capabilities": {
     "tools": {
       "list": true,
       "call": true
-    },
-    "prompts": {
-      "list": true,
-      "get": true
     }
   }
 }

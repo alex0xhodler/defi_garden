@@ -245,6 +245,23 @@ curl -sS -X POST https://www.defi.garden/mcp \
   resolved **at or before** the human's deploy. Note this mismatch is
   pre-existing — the card pointed at a 404 before this item existed and still
   does; item 228 does not create it, it just stops the docs from denying it.
+
+  **Resolved by item 265 (2026-08-12)**: option (i) — correct the cards —
+  shipped. All three cards (`.well-known/mcp.json`, `.well-known/mcp/server-card.json`,
+  `.well-known/mcp/server-cards.json`) now state `url: "https://www.defi.garden/mcp"`,
+  `type: "streamable-http"`, and `capabilities.tools` only (`prompts` dropped).
+  The two further deployed artifacts named above are corrected too:
+  `validate_readiness.py:62` now probes `{base_url}/mcp`;
+  `dns-aid-zone.txt:14` now publishes `path="/mcp"`; `SKILL.md:74`'s restated
+  example now reads `/mcp`. A population-derived parity test
+  (`test_mcp_discovery_cards.js`) globs `.well-known/**` for `mcp`-named
+  server-cards at test time and set-equals each card's declared capabilities
+  against this file's own `SERVER_CAPABILITIES`/`TOOLS` exports, so a future
+  card drifting from what this server actually implements fails a test
+  instead of relying on a fourth verifier round. The historical narrative
+  above (the live-probed 404, the three-round under-count) is left as-is —
+  it is the record of how this was found, not a claim about the current
+  state.
 - **Not advertised in `llms.txt` or the sitemaps.** Publishing a URL that
   isn't live would be a false claim on the agent surface this product's
   whole pitch is built on — a follow-up item adds that once this is

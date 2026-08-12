@@ -11,7 +11,7 @@ _index._agents.<yourdomain.com>.   300 IN TXT   "content-signal: ai-train=no, se
 
 ; 2. Model Context Protocol (_mcp._agents)
 ; Advertises your MCP Server card and dynamic execution endpoints
-_mcp._agents.<yourdomain.com>.     300 IN HTTPS 1 <target.yourdomain.com>. alpn="h2" port="443" path="/api/mcp"
+_mcp._agents.<yourdomain.com>.     300 IN HTTPS 1 <target.yourdomain.com>. alpn="h2" port="443" path="/mcp"
 _mcp._agents.<yourdomain.com>.     300 IN TXT   "mcp-server-card=https://<target.yourdomain.com>/.well-known/mcp/server-card.json"
 
 ; 3. Agent-to-Agent Catalog (_a2a._agents)
