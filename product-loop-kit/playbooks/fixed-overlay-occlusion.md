@@ -26,10 +26,12 @@ and the giveaway is that the defect exists on exactly one route.
      start at step 3 (who cancels the clearance) rather than re-deriving it.
    - **Decision rule:** a human report with NO matching `occlusion` finding is
      a lens gap, not a clean page — reproduce by hand at the reporter's real
-     viewport, then extend the lens (its two documented blind spots are
-     overlays covering ≥80% of the viewport, and content covered by a
-     *top*-anchored overlay at bottom-of-scroll, which is revealable by
-     scrolling up and deliberately not flagged).
+     viewport, then extend the lens (its documented blind spots are overlays
+     covering ≥80% of the viewport; content covered by a *top*-anchored
+     overlay at bottom-of-scroll, revealable by scrolling up and deliberately
+     not flagged; and — CLOSED 2026-08-12, item 276, see Provenance — a victim
+     nested inside one overlay used to be exempt from EVERY overlay on the
+     page, not just its own, so a sibling overlay occluding it went unseen).
 1. **Find the overlay and confirm it is opaque.** `grep -n "position: fixed" style.css`
    → the **`.app-footer` block** (find it with `grep -n '^\.app-footer {' style.css`,
    never by a remembered line number — see the trap below): `fixed; bottom: 0;
@@ -357,4 +359,16 @@ adding the "probe this family IN CLASS" trap above — including the retraction
 of a stronger claim drafted from an out-of-class probe — with the exact probe
 CSS, results and md5-verified restore:
 `specs/225-notes.md` (§Non-vacuity proof), `specs/225-pr.md`, LOG.md
-2026-08-04 build | 225.
+2026-08-04 build | 225. Updated 2026-08-12 by **273** (the mobile header
+toggles overlapping `.app-search-input` on `?pool=` — a `>` child-combinator
+specificity fix, unrelated to the lens itself) and **276**, which fixed the
+INSTRUMENT GAP 273 named: `occlusionPassEval`'s victim scan exempted a
+fixed/sticky victim from every overlay on the page (and pre-filtered anything
+contained by ANY overlay), so `.app-search-input` nested inside
+`.app-header-sticky` was invisible to the lens even though a DIFFERENT
+overlay (`.language-toggle`) was the one covering it — a third documented
+blind spot, now closed by moving the containment check to a per-(victim,
+overlay)-PAIR test inside the comparison loop instead of a page-wide
+pre-filter: `specs/273.md`, `specs/273-notes.md`, `specs/276.md`,
+`specs/276-notes.md`, `specs/276-pr.md`, `test_audit_occlusion_lens.js`
+(tests 10/11), LOG.md 2026-08-12 build | 276.
