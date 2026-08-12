@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token) | Ethereum | 0.03% | $77.1M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c&src=seo_token) | Ethereum | 69.05% | $22.31M |
+| [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token) | Ethereum | 0.03% | $76.77M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c&src=seo_token) | Ethereum | 69.24% | $22.26M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9&src=seo_token) | Ethereum | 27.42% | $21.51M |
 | [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b&src=seo_token) | Ethereum | 0.13% | $5.29M |
 | [curve-dex →](https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token) | Ethereum | 0.03% | $4.21M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93&src=seo_token) | Arbitrum | 1.47% | $2.81M |
-| [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e&src=seo_token) | Polygon | 0.03% | $1.44M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93&src=seo_token) | Arbitrum | 1.45% | $2.8M |
+| [aave-v3 →](https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e&src=seo_token) | Polygon | 0.03% | $1.43M |
 | [venus-core-pool →](https://www.defi.garden/?pool=6ef41a41-9394-4782-bf53-7648f50a4a93&src=seo_token) | BSC | 0.04% | $1.32M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-LINK 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.03%부터 69.05%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+LINK 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.03%부터 69.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.24%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -28,11 +28,11 @@ LINK 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.03%부터 69.05%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | aave-v3 | 0.03% | 0.03% | 기본 금리 |
-| uniswap-v4 | 69.05% | 12.43% | 기본 금리 |
-| uniswap-v3 | 27.42% | 8.77% | 기본 금리 |
+| uniswap-v4 | 69.24% | 12.53% | 기본 금리 |
+| uniswap-v3 | 27.42% | 8.78% | 기본 금리 |
 | bancor-v3 | 0.13% | 0.03% | 기본 금리 |
 | curve-dex | 0.03% | 2.44% | 기본 금리 |
-| gmx-v2-perps | 1.47% | 3.51% | 기본 금리 |
+| gmx-v2-perps | 1.45% | 3.50% | 기본 금리 |
 | aave-v3 | 0.03% | 0.02% | 기본 금리 |
 | venus-core-pool | 0.04% | 0.04% | 기본 금리 |
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 bancor-v3에서 APY 0.13%예�
 
 ### LINK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 43개이며, 합산 TVL은 $161.3M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 43개이며, 합산 TVL은 $160.83M예요.
 
 ### 이 수익률은 안전한가요?
 

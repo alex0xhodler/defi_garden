@@ -5,10 +5,10 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token) | Ethereum | 4.97% | $47.47M |
-| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 5.64% | $26.78M |
-| [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token) | Ethereum | 4.30% | $15.82M |
-| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 5.76% | $2.64M |
-| [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token) | Arbitrum | 6.58% | $1.64M |
+| [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 5.64% | $26.74M |
+| [morpho-blue →](https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token) | Ethereum | 4.28% | $15.83M |
+| [morpho-blue →](https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token) | Base | 5.75% | $2.68M |
+| [morpho-blue →](https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token) | Arbitrum | 6.36% | $1.61M |
 | [morpho-blue →](https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token) | Katana | 5.83% | $1.45M |
 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.18% | $1.01M |
 | [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token) | Monad | 6.28% | $201.4K |
@@ -17,7 +17,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BBQUSDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 4.18%부터 6.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BBQUSDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 4.18%부터 6.36%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.48%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -29,9 +29,9 @@ BBQUSDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 4.18%부터 6.58%
 |---|---|---|---|
 | morpho-blue | 4.97% | 5.06% | 기본 금리 |
 | morpho-blue | 5.64% | 5.32% | 기본 금리 |
-| morpho-blue | 4.30% | 4.68% | 기본 금리 |
-| morpho-blue | 5.76% | 4.27% | 기본 금리 |
-| morpho-blue | 6.58% | 4.06% | 기본 금리 |
+| morpho-blue | 4.28% | 4.68% | 기본 금리 |
+| morpho-blue | 5.75% | 4.27% | 기본 금리 |
+| morpho-blue | 6.36% | 4.06% | 기본 금리 |
 | morpho-blue | 5.83% | 3.96% | 인센티브 86.66% |
 | morpho-blue | 4.18% | 3.72% | 기본 금리 |
 | morpho-blue | 6.28% | 5.87% | 인센티브 42.19% |
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 6.28%예요
 
 ### BBQUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $97.01M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $96.98M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -5,13 +5,13 @@ The highest honest CDCBTC yield right now is 0.01% on tectonic (Cronos), among 2
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [tectonic →](https://www.defi.garden/?pool=c1a1fbbd-408e-4215-bea6-f6810e3ce42d&src=seo_token) | Cronos | 0.01% | $2.14M |
-| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.37% | $250.6K |
+| [vvs-flawless →](https://www.defi.garden/?pool=75c70386-f884-51f7-af30-298005df9605&src=seo_token) | Cronos | 0.38% | $251.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CDCBTC shows up in 2 pools here, with rates from 0.01% to 0.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CDCBTC shows up in 2 pools here, with rates from 0.01% to 0.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,8 +21,8 @@ CDCBTC shows up in 2 pools here, with rates from 0.01% to 0.37% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tectonic | 0.01% | 0.01% | 59.14% incentives |
-| vvs-flawless | 0.37% | 1.14% | Base rate |
+| tectonic | 0.01% | 0.01% | 58.78% incentives |
+| vvs-flawless | 0.38% | 1.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

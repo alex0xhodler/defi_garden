@@ -1,23 +1,23 @@
 # BTC.B DeFi Yields
 
-The highest honest BTC.B yield right now is 28.59% on pharaoh-v3 (Avalanche), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTC.B yield right now is 30.07% on pharaoh-v3 (Avalanche), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $77.2M |
+| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $77.14M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token) | Ethereum | 0.09% | $10.62M |
 | [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.14% | $4.63M |
 | [curve-dex →](https://www.defi.garden/?pool=abb367ab-6773-498e-96ac-5e01a0f76194&src=seo_token) | Ethereum | 0.07% | $2.57M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 28.59% | $1.71M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 30.07% | $1.71M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 3.01% | $1.16M |
-| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 0.43% | $568.9K |
+| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 0.43% | $569.1K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 0.66% | $292.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BTC.B shows up in 8 pools here, with rates from 0.01% to 28.59% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BTC.B shows up in 8 pools here, with rates from 0.01% to 30.07% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.21% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,7 +31,7 @@ BTC.B shows up in 8 pools here, with rates from 0.01% to 28.59% APY across 2 cha
 | uniswap-v4 | 0.09% | 0.07% | Base rate |
 | benqi-lending | 1.14% | 1.10% | Base rate |
 | curve-dex | 0.07% | 0.07% | Base rate |
-| pharaoh-v3 | 28.59% | 26.54% | 100.00% incentives |
+| pharaoh-v3 | 30.07% | 26.38% | 100.00% incentives |
 | uniswap-v3 | 3.01% | 5.35% | Base rate |
 | joe-v2.1 | 0.43% | 1.78% | Base rate |
 | uniswap-v3 | 0.66% | 1.31% | Base rate |
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BTC.B yield today?
 
-28.59% APY on pharaoh-v3 (Avalanche), based on live DefiLlama data.
+30.07% APY on pharaoh-v3 (Avalanche), based on live DefiLlama data.
 
 ### How many BTC.B pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $104.45M in total.
+18 live pools clear this page's $100K TVL floor, $104.4M in total.
 
 ### Are these rates safe?
 

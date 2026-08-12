@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $67.55M in total.
+3 live pools clear this page's $100K TVL floor, $67.56M in total.
 
 ### Are these rates safe?
 

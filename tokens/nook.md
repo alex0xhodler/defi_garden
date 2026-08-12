@@ -4,7 +4,7 @@ The highest honest NOOK yield right now is 6.56% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=07ef9173-79ea-462f-81eb-f1b4d53542ed&src=seo_token) | Base | 6.56% | $397.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=07ef9173-79ea-462f-81eb-f1b4d53542ed&src=seo_token) | Base | 6.56% | $398.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NOOK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $397.7K in total.
+1 live pool clear this page's $100K TVL floor, $398.1K in total.
 
 ### Are these rates safe?
 

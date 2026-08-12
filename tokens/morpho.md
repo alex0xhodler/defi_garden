@@ -1,13 +1,13 @@
 # MORPHO DeFi Yields
 
-The highest honest MORPHO yield right now is 63.66% on aerodrome-slipstream (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MORPHO yield right now is 75.21% on aerodrome-slipstream (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [moonwell-lending →](https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token) | Base | 0.15% | $10.78M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 63.66% | $1.24M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 3.85% | $607.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 12.82% | $408.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 75.21% | $990K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 3.33% | $606.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 12.47% | $408.3K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 38.12% | $339.8K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 38.11% | $139.4K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 10.84% | $137.5K |
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MORPHO shows up in 7 pools here, with rates from 0.15% to 63.66% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+MORPHO shows up in 7 pools here, with rates from 0.15% to 75.21% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 21.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 21.29% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -26,13 +26,13 @@ MORPHO shows up in 7 pools here, with rates from 0.15% to 63.66% APY across 3 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| moonwell-lending | 0.15% | 0.17% | 91.26% incentives |
-| aerodrome-slipstream | 63.66% | 79.47% | 31.58% incentives |
-| uniswap-v4 | 3.85% | 7.25% | Base rate |
-| raydium-amm | 12.82% | 21.33% | Base rate |
+| moonwell-lending | 0.15% | 0.17% | 91.40% incentives |
+| aerodrome-slipstream | 75.21% | 79.47% | 53.27% incentives |
+| uniswap-v4 | 3.33% | 7.24% | Base rate |
+| raydium-amm | 12.47% | 21.29% | Base rate |
 | uniswap-v3 | 38.12% | 47.89% | Base rate |
 | uniswap-v3 | 38.11% | 64.83% | Base rate |
-| uniswap-v3 | 10.84% | 17.28% | Base rate |
+| uniswap-v3 | 10.84% | 17.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MORPHO yield today?
 
-63.66% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+75.21% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MORPHO pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $14.75M in total.
+8 live pools clear this page's $100K TVL floor, $14.5M in total.
 
 ### Are these rates safe?
 

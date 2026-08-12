@@ -4,7 +4,7 @@ The highest honest BOTCOIN yield right now is 3.16% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c7714910-5e58-42a8-b82b-65d2de7bf747&src=seo_token) | Base | 3.16% | $353.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c7714910-5e58-42a8-b82b-65d2de7bf747&src=seo_token) | Base | 3.16% | $320.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BOTCOIN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $641.7K in total.
+3 live pools clear this page's $100K TVL floor, $602.2K in total.
 
 ### Are these rates safe?
 

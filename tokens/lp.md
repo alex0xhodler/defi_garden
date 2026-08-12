@@ -32,7 +32,7 @@ LP shows up in 7 pools here, with rates from 0.01% to 0.16% APY across 2 chains 
 | wombat-exchange | 0.01% | 0.02% | 100.00% incentives |
 | wombat-exchange | 0.02% | 0.02% | 100.00% incentives |
 | wombat-exchange | 0.09% | 0.09% | 100.00% incentives |
-| wombat-exchange | 0.16% | 0.22% | 96.77% incentives |
+| wombat-exchange | 0.16% | 0.22% | 96.75% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

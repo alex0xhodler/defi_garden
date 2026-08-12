@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $515.2K
+**TVL:** $516.5K
 
 **Pool Type:** Lending
 

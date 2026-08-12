@@ -4,12 +4,12 @@ The highest honest EARNAUSD yield right now is 10.39% on pendle (Monad), among 7
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.27% | $21.96M |
+| [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 5.27% | $21.97M |
 | [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.42% | $3.45M |
 | [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.73% | $2.74M |
 | [pendle →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.07% | $2.4M |
 | [pendle →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 10.39% | $2.4M |
-| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.27% | $856.2K |
+| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.27% | $856.5K |
 | [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $158.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -26,10 +26,10 @@ EARNAUSD shows up in 7 pools here, with rates from 0.20% to 10.39% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| upshift | 5.27% | 6.57% | 10.07% incentives |
+| upshift | 5.27% | 6.57% | 10.08% incentives |
 | morpho-blue | 2.42% | 0.19% | 100.00% incentives |
 | curvance | 0.73% | 0.79% | 100.00% incentives |
-| pendle | 9.07% | 8.79% | 5.15% incentives |
+| pendle | 9.07% | 8.78% | 5.16% incentives |
 | pendle | 10.39% | 9.39% | Base rate |
 | neverland | 1.27% | 1.37% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many EARNAUSD pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $33.96M in total.
+7 live pools clear this page's $100K TVL floor, $33.97M in total.
 
 ### Are these rates safe?
 

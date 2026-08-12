@@ -23,8 +23,8 @@ IQ shows up in 3 pools here, with rates from 0.01% to 71.82% APY across 2 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | frax | 0.83% | 0.95% | Base rate |
-| curve-dex | 71.82% | 37.82% | 99.74% incentives |
-| frax | 0.01% | 0.02% | Base rate |
+| curve-dex | 71.82% | 37.89% | 99.74% incentives |
+| frax | 0.01% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

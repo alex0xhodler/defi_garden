@@ -8,9 +8,9 @@ The highest honest OHM yield right now is 1.61% on uniswap-v3 (Ethereum), among 
 | [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 1.61% | $4.12M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token) | Base | 0.17% | $907.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=abe08b87-f138-4d3e-a96a-98294ddad7a1&src=seo_token) | Ethereum | 0.92% | $402.4K |
-| [camelot-v2 →](https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token) | Arbitrum | 0.02% | $231.9K |
+| [camelot-v2 →](https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token) | Arbitrum | 0.02% | $232K |
 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.04% | $169.6K |
-| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.17% | $159.5K |
+| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.17% | $159.6K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 0.21% | $102.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -30,7 +30,7 @@ OHM shows up in 8 pools here, with rates from 0.02% to 1.61% APY across 3 chains
 | uniswap-v3 | 1.55% | 1.30% | Base rate |
 | uniswap-v3 | 1.61% | 1.56% | Base rate |
 | uniswap-v3 | 0.17% | 0.01% | Base rate |
-| uniswap-v3 | 0.92% | 0.44% | Base rate |
+| uniswap-v3 | 0.92% | 0.43% | Base rate |
 | camelot-v2 | 0.02% | 0.12% | Base rate |
 | curve-dex | 0.04% | 0.24% | 100.00% incentives |
 | convex-finance | 0.17% | 0.29% | Base rate |

@@ -6,7 +6,7 @@ The highest honest SIUSD yield right now is 9.02% on pendle (Ethereum), among 5 
 |---|---|---|---|
 | [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 5.09% | $28.46M |
 | [pendle →](https://www.defi.garden/?pool=62e914e8-1027-47a5-b444-5d9e6a407d41&src=seo_token) | Ethereum | 9.02% | $636.4K |
-| [pendle →](https://www.defi.garden/?pool=d9180649-8c45-4911-ae2a-cf20dc30b0b2&src=seo_token) | Ethereum | 8.18% | $636.4K |
+| [pendle →](https://www.defi.garden/?pool=d9180649-8c45-4911-ae2a-cf20dc30b0b2&src=seo_token) | Ethereum | 8.17% | $636.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | infinifi | 5.09% | 5.69% | Base rate |
 | pendle | 9.02% | 8.70% | Base rate |
-| pendle | 8.18% | 7.58% | Base rate |
+| pendle | 8.17% | 7.58% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

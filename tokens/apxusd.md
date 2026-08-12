@@ -4,14 +4,14 @@ The highest honest APXUSD yield right now is 13.68% on apyx-protocol (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.68% | $175.73M |
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.36% | $19.52M |
-| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 11.09% | $7.08M |
+| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 13.68% | $175.74M |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.36% | $19.5M |
+| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 11.09% | $7.06M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token) | Ethereum | 3.06% | $4.59M |
-| [pendle →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 3.46% | $1.85M |
-| [pendle →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 10.77% | $1.85M |
+| [pendle →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 10.77% | $1.84M |
+| [pendle →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 3.47% | $1.84M |
 | [orca-dex →](https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293&src=seo_token) | Solana | 2.34% | $1.02M |
-| [pendle →](https://www.defi.garden/?pool=2d26d208-dffd-4c4d-ab66-3ff850f2a678&src=seo_token) | Ethereum | 8.73% | $940.2K |
+| [pendle →](https://www.defi.garden/?pool=2d26d208-dffd-4c4d-ab66-3ff850f2a678&src=seo_token) | Ethereum | 8.73% | $935.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 APXUSD shows up in 8 pools here, with rates from 2.34% to 13.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.21% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,11 +27,11 @@ APXUSD shows up in 8 pools here, with rates from 2.34% to 13.68% APY across 2 ch
 |---|---|---|---|
 | apyx-protocol | 13.68% | 13.81% | Base rate |
 | curve-dex | 7.36% | 8.12% | Base rate |
-| curve-dex | 11.09% | 5.91% | Base rate |
-| uniswap-v4 | 3.06% | 6.62% | Base rate |
-| pendle | 3.46% | 2.11% | 19.05% incentives |
-| pendle | 10.77% | 8.46% | Base rate |
-| orca-dex | 2.34% | 4.40% | Base rate |
+| curve-dex | 11.09% | 5.93% | Base rate |
+| uniswap-v4 | 3.06% | 6.64% | Base rate |
+| pendle | 10.77% | 8.47% | Base rate |
+| pendle | 3.47% | 2.11% | 19.15% incentives |
+| orca-dex | 2.34% | 4.39% | Base rate |
 | pendle | 8.73% | 7.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many APXUSD pools clear the TVL floor?
 
-23 live pools clear this page's $100K TVL floor, $230.11M in total.
+23 live pools clear this page's $100K TVL floor, $230.04M in total.
 
 ### Are these rates safe?
 

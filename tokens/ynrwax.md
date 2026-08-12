@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 YNRWAX shows up in 8 pools here, with rates from 10.26% to 21.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 11.82% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 11.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,9 +28,9 @@ YNRWAX shows up in 8 pools here, with rates from 10.26% to 21.89% APY across 1 c
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | pendle | 10.26% | 10.36% | Base rate |
-| pendle | 12.26% | 13.04% | Base rate |
-| curve-dex | 20.28% | 12.03% | Base rate |
-| stake-dao | 10.48% | 12.51% | Base rate |
+| pendle | 12.26% | 13.03% | Base rate |
+| curve-dex | 20.28% | 12.04% | Base rate |
+| stake-dao | 10.48% | 12.50% | Base rate |
 | curve-dex | 21.89% | 11.61% | Base rate |
 | penpie | 15.13% | 16.05% | 18.95% incentives |
 | spectra-v2 | 10.32% | 11.35% | Base rate |

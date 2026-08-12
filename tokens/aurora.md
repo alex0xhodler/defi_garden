@@ -1,10 +1,10 @@
 # AURORA DeFi Yields
 
-The highest honest AURORA yield right now is 1.76% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AURORA yield right now is 1.69% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=89bd9552-1265-4d43-9746-dec687837d81&src=seo_token) | Ethereum | 1.76% | $179K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=89bd9552-1265-4d43-9746-dec687837d81&src=seo_token) | Ethereum | 1.69% | $179.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AURORA yield today?
 
-1.76% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.69% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many AURORA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179K in total.
+1 live pool clear this page's $100K TVL floor, $179.1K in total.
 
 ### Are these rates safe?
 

@@ -7,10 +7,10 @@ The highest honest BUSD yield right now is 1.49% on pancakeswap-amm (BSC), among
 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
 | [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token) | BSC | 1.49% | $1.16M |
 | [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.56% | $535.5K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.10% | $314.7K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token) | BSC | 0.07% | $265K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.10% | $314.2K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token) | BSC | 0.07% | $265.1K |
 | [mdex →](https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token) | BSC | 0.25% | $254.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token) | BSC | 0.54% | $155.6K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token) | BSC | 0.55% | $155.6K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -33,7 +33,7 @@ BUSD shows up in 8 pools here, with rates from 0.03% to 1.49% APY across 1 chain
 | pancakeswap-amm | 1.10% | 1.19% | Base rate |
 | pancakeswap-amm | 0.07% | 0.20% | Base rate |
 | mdex | 0.25% | 0.25% | 99.97% incentives |
-| pancakeswap-amm | 0.54% | 0.91% | Base rate |
+| pancakeswap-amm | 0.55% | 0.91% | Base rate |
 | wombat-exchange | 0.09% | 0.09% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BUSD pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $7.11M in total.
+11 live pools clear this page's $100K TVL floor, $7.1M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest DUAL yield right now is 9.99% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f3a83af1-141c-4ebb-9aa2-b0a705a1ec61&src=seo_token) | Ethereum | 9.99% | $527.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f3a83af1-141c-4ebb-9aa2-b0a705a1ec61&src=seo_token) | Ethereum | 9.99% | $527.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DUAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $527.7K in total.
+1 live pool clear this page's $100K TVL floor, $527.5K in total.
 
 ### Are these rates safe?
 

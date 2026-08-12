@@ -4,16 +4,16 @@ The highest honest JETTON yield right now is 71.07% on dedust (TON), among 2 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 28.21% | $146.5K |
+| [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 28.35% | $146.5K |
 | [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 71.07% | $119.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JETTON shows up in 2 pools here, with rates from 28.21% to 71.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JETTON shows up in 2 pools here, with rates from 28.35% to 71.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 62.95% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 62.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ JETTON shows up in 2 pools here, with rates from 28.21% to 71.07% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ston.fi | 28.21% | 49.71% | 98.01% incentives |
-| dedust | 71.07% | 76.19% | 99.12% incentives |
+| ston.fi | 28.35% | 49.67% | 98.02% incentives |
+| dedust | 71.07% | 76.18% | 99.12% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JETTON pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $266.3K in total.
+2 live pools clear this page's $100K TVL floor, $266.2K in total.
 
 ### Are these rates safe?
 

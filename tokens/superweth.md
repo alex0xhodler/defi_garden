@@ -4,16 +4,16 @@ The highest honest SUPERWETH yield right now is 5.08% on pendle (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.33% | $2.53M |
+| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.30% | $2.53M |
 | [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 5.08% | $392.3K |
 | [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.33% | $392.3K |
-| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.53% | $276.6K |
+| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.50% | $276.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUPERWETH shows up in 4 pools here, with rates from 1.33% to 5.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUPERWETH shows up in 4 pools here, with rates from 1.30% to 5.08% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,10 +21,10 @@ SUPERWETH shows up in 4 pools here, with rates from 1.33% to 5.08% APY across 2 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| superform | 1.33% | 2.16% | 100.00% incentives |
-| pendle | 5.08% | 6.23% | 20.94% incentives |
-| pendle | 4.33% | 4.92% | 24.56% incentives |
-| superform | 2.53% | 2.91% | 52.48% incentives |
+| superform | 1.30% | 2.16% | 100.00% incentives |
+| pendle | 5.08% | 6.22% | 20.84% incentives |
+| pendle | 4.33% | 4.91% | 24.45% incentives |
+| superform | 2.50% | 2.91% | 51.91% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

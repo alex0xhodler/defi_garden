@@ -5,10 +5,10 @@ The highest honest WMON yield right now is 27.11% on uniswap-v3 (Monad), among 9
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 27.11% | $1.21M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.91% | $728.5K |
-| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 6.88% | $351.5K |
-| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 3.01% | $297.5K |
-| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.70% | $282.9K |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.92% | $728.5K |
+| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 6.89% | $349.7K |
+| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 3.01% | $299.6K |
+| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.70% | $285K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.03% | $148K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -26,9 +26,9 @@ WMON shows up in 6 pools here, with rates from 0.03% to 27.11% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 27.11% | 37.34% | Base rate |
-| curve-dex | 13.91% | 23.50% | 100.00% incentives |
-| neverland | 6.88% | 7.98% | 41.08% incentives |
-| curvance | 3.01% | 2.68% | 44.92% incentives |
+| curve-dex | 13.92% | 23.47% | 100.00% incentives |
+| neverland | 6.89% | 7.98% | 40.86% incentives |
+| curvance | 3.01% | 2.67% | 44.92% incentives |
 | curvance | 1.70% | 1.78% | 79.38% incentives |
 | uniswap-v3 | 0.03% | 0.01% | Base rate |
 

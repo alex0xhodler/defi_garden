@@ -4,35 +4,35 @@ The highest honest REUSD yield right now is 11.01% on pendle (Ethereum), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.22% | $175.29M |
-| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.23% | $24.8M |
+| [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.22% | $175.34M |
+| [fluid-dex →](https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token) | Ethereum | 0.22% | $24.8M |
 | [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 11.01% | $9.11M |
 | [pendle →](https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token) | Ethereum | 9.34% | $9.11M |
-| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 10.51% | $9.04M |
-| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.52% | $4.4M |
-| [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 16.60% | $3.51M |
-| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 10.04% | $2.51M |
+| [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 10.60% | $9.04M |
+| [convex-finance →](https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token) | Ethereum | 14.64% | $4.4M |
+| [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 16.68% | $3.51M |
+| [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 10.11% | $2.51M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-REUSD shows up in 8 pools here, with rates from 0.23% to 16.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+REUSD shows up in 8 pools here, with rates from 0.22% to 16.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.22% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.23% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | re | 6.22% | 6.22% | Base rate |
-| fluid-dex | 0.23% | 0.50% | Base rate |
+| fluid-dex | 0.22% | 0.50% | Base rate |
 | pendle | 11.01% | 10.66% | Base rate |
-| pendle | 9.34% | 9.52% | 9.59% incentives |
-| curve-dex | 10.51% | 5.12% | 94.01% incentives |
-| convex-finance | 14.52% | 8.23% | 95.66% incentives |
-| stake-dao | 16.60% | 8.51% | 95.18% incentives |
-| curve-dex | 10.04% | 5.57% | 85.95% incentives |
+| pendle | 9.34% | 9.52% | 9.60% incentives |
+| curve-dex | 10.60% | 5.12% | 94.06% incentives |
+| convex-finance | 14.64% | 8.23% | 95.70% incentives |
+| stake-dao | 16.68% | 8.52% | 95.20% incentives |
+| curve-dex | 10.11% | 5.57% | 86.05% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many REUSD pools clear the TVL floor?
 
-26 live pools clear this page's $100K TVL floor, $350.83M in total.
+26 live pools clear this page's $100K TVL floor, $350.88M in total.
 
 ### Are these rates safe?
 

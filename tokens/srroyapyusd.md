@@ -1,28 +1,28 @@
 # SRROYAPYUSD DeFi Yields
 
-The highest honest SRROYAPYUSD yield right now is 210.42% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYAPYUSD yield right now is 209.93% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 210.42% | $2.77M |
-| [pendle →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5&src=seo_token) | Ethereum | 14.60% | $136.8K |
-| [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 21.50% | $136.8K |
+| [royco-v2 →](https://www.defi.garden/?pool=a061ebd7-b5db-57e9-9361-99504b710165&src=seo_token) | Ethereum | 209.93% | $2.77M |
+| [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 21.49% | $136.1K |
+| [pendle →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5&src=seo_token) | Ethereum | 14.59% | $136.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SRROYAPYUSD shows up in 3 pools here, with rates from 14.60% to 210.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRROYAPYUSD shows up in 3 pools here, with rates from 14.59% to 209.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| royco-v2 | 210.42% | 181.86% | Base rate |
-| pendle | 14.60% | 14.49% | Base rate |
-| pendle | 21.50% | 21.96% | Base rate |
+| royco-v2 | 209.93% | 181.94% | Base rate |
+| pendle | 21.49% | 21.95% | Base rate |
+| pendle | 14.59% | 14.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRROYAPYUSD yield today?
 
-210.42% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+209.93% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SRROYAPYUSD pools clear the TVL floor?
 

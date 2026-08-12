@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=947928b7-c446-49d7-a378-392df37660f7&src=seo_token) | Ethereum | 1.37% | $296.4K |
+| [strata-markets →](https://www.defi.garden/?pool=947928b7-c446-49d7-a378-392df37660f7&src=seo_token) | Ethereum | 0.71% | $296.4K |
 | [pendle →](https://www.defi.garden/?pool=35fb4bd5-292b-4f5e-a030-94906f1f83a0&src=seo_token) | Ethereum | 4.03% | $128.2K |
 | [pendle →](https://www.defi.garden/?pool=e1d604f7-2977-42c6-8dbb-3ce933e19af6&src=seo_token) | Ethereum | 7.11% | $128.2K |
 
@@ -12,7 +12,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-JRNUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.37%부터 7.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+JRNUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.71%부터 7.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.34%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -20,7 +20,7 @@ JRNUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.37%부터 7.11%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| strata-markets | 1.37% | 3.08% | 기본 금리 |
+| strata-markets | 0.71% | 3.08% | 기본 금리 |
 | pendle | 4.03% | 5.34% | 기본 금리 |
 | pendle | 7.11% | 6.92% | 기본 금리 |
 

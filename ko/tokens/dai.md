@@ -1,16 +1,16 @@
 # DAI 디파이 수익률
 
-현재 DAI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 4.29%이며, $100K TVL 기준을 넘는 64개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DAI의 가장 높은 정직한 수익률은 Ethereum의 sushiswap-v3에서 4.32%이며, $100K TVL 기준을 넘는 64개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [sparklend →](https://www.defi.garden/?pool=e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb&src=seo_token) | Ethereum | 2.17% | $112.64M |
 | [aave-v3 →](https://www.defi.garden/?pool=3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac&src=seo_token) | Ethereum | 3.21% | $12.79M |
 | [yearn-finance →](https://www.defi.garden/?pool=3fbb0e46-2efe-47cc-acbe-5c892fa56845&src=seo_token) | Ethereum | 3.03% | $9.46M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 4.29% | $7.98M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 1.40% | $7.98M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=089a0c17-446b-4bbd-97ee-882e30684ad7&src=seo_token) | Ethereum | 4.32% | $7.98M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=011b1887-e763-44cc-be06-7764fc3d194c&src=seo_token) | Ethereum | 1.18% | $7.98M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=c7a4d490-cd63-49a2-a969-61854b80344e&src=seo_token) | Ethereum | 3.20% | $3.1M |
-| [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b&src=seo_token) | Polygon | 0.56% | $2.41M |
+| [quickswap-dex →](https://www.defi.garden/?pool=f58fbf13-f60a-46e4-aecf-ccee64f8cf8b&src=seo_token) | Polygon | 0.56% | $2.39M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=1193ef25-862b-43c1-a545-91bbb9678d30&src=seo_token) | Ethereum | 5.86% | $1.51M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -30,8 +30,8 @@ DAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 5.86%까�
 | sparklend | 2.17% | 2.23% | 기본 금리 |
 | aave-v3 | 3.21% | 3.90% | 기본 금리 |
 | yearn-finance | 3.03% | 2.99% | 기본 금리 |
-| sushiswap-v3 | 4.29% | 7.64% | 기본 금리 |
-| uniswap-v2 | 1.40% | 1.86% | 기본 금리 |
+| sushiswap-v3 | 4.32% | 7.63% | 기본 금리 |
+| uniswap-v2 | 1.18% | 1.86% | 기본 금리 |
 | uniswap-v3 | 3.20% | 5.56% | 기본 금리 |
 | quickswap-dex | 0.56% | 0.55% | 기본 금리 |
 | uniswap-v3 | 5.86% | 3.41% | 기본 금리 |
@@ -42,11 +42,11 @@ DAI 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 5.86%까�
 
 ### 오늘 DAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 4.29%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 sushiswap-v3에서 APY 4.32%예요.
 
 ### DAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 64개이며, 합산 TVL은 $351.49M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 64개이며, 합산 TVL은 $351.47M예요.
 
 ### 이 수익률은 안전한가요?
 

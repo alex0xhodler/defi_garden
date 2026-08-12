@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AV3CRV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $708.6K in total.
+2 live pools clear this page's $100K TVL floor, $708.5K in total.
 
 ### Are these rates safe?
 

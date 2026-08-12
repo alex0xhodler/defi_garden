@@ -1,19 +1,19 @@
 # SHMON DeFi Yields
 
-The highest honest SHMON yield right now is 13.91% on curve-dex (Monad), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHMON yield right now is 13.92% on curve-dex (Monad), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 12.33% | $8.5M |
-| [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.55% | $1.21M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.91% | $728.5K |
+| [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 11.29% | $8.52M |
+| [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.54% | $1.21M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.92% | $728.5K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.03% | $148K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SHMON shows up in 4 pools here, with rates from 0.03% to 13.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHMON shows up in 4 pools here, with rates from 0.03% to 13.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,9 +23,9 @@ SHMON shows up in 4 pools here, with rates from 0.03% to 13.91% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| shmonad | 12.33% | 11.86% | Base rate |
-| neverland | 1.55% | 0.80% | 100.00% incentives |
-| curve-dex | 13.91% | 23.50% | 100.00% incentives |
+| shmonad | 11.29% | 11.86% | Base rate |
+| neverland | 1.54% | 0.81% | 100.00% incentives |
+| curve-dex | 13.92% | 23.47% | 100.00% incentives |
 | uniswap-v3 | 0.03% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SHMON yield today?
 
-13.91% APY on curve-dex (Monad), based on live DefiLlama data.
+13.92% APY on curve-dex (Monad), based on live DefiLlama data.
 
 ### How many SHMON pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $11.32M in total.
+6 live pools clear this page's $100K TVL floor, $11.35M in total.
 
 ### Are these rates safe?
 

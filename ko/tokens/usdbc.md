@@ -4,13 +4,13 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d&src=seo_token) | Base | 15.46% | $205.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=496e70c2-a577-4a71-bbc7-32d6c677272d&src=seo_token) | Base | 15.46% | $205.8K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=dc1549ef-221e-464b-b010-e71135f73f22&src=seo_token) | Base | 0.82% | $201.6K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=56b16fb3-5d3c-4fd9-8cee-b131a50d7422&src=seo_token) | Base | 6.29% | $199.3K |
-| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 8.93% | $156K |
+| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 9.05% | $156K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a520562f-03b9-4502-bea1-fba48b05099d&src=seo_token) | Base | 0.60% | $153.9K |
 | [alien-base-v3 →](https://www.defi.garden/?pool=7352417e-acff-4afb-a4c7-c04dd8deda20&src=seo_token) | Base | 0.11% | $136K |
-| [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235&src=seo_token) | Base | 3.52% | $127.9K |
+| [alien-base-v3 →](https://www.defi.garden/?pool=aed8cb93-db45-4512-af89-e54b402ff235&src=seo_token) | Base | 3.49% | $127.9K |
 | [symbiosis →](https://www.defi.garden/?pool=99a26a4c-5b01-4ad1-b230-78d59be9424b&src=seo_token) | Base | 1.44% | $108.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -27,13 +27,13 @@ USDBC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.11%부터 15.46%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aerodrome-v1 | 15.46% | 17.95% | 인센티브 100.00% |
-| aerodrome-v1 | 0.82% | 1.26% | 인센티브 100.00% |
+| aerodrome-v1 | 15.46% | 17.94% | 인센티브 100.00% |
+| aerodrome-v1 | 0.82% | 1.25% | 인센티브 100.00% |
 | aerodrome-v1 | 6.29% | 6.43% | 인센티브 100.00% |
-| curve-dex | 8.93% | 6.40% | 인센티브 98.10% |
+| curve-dex | 9.05% | 6.41% | 인센티브 98.12% |
 | aerodrome-slipstream | 0.60% | 0.82% | 인센티브 77.48% |
 | alien-base-v3 | 0.11% | 0.07% | 기본 금리 |
-| alien-base-v3 | 3.52% | 4.39% | 인센티브 99.01% |
+| alien-base-v3 | 3.49% | 4.39% | 인센티브 99.00% |
 | symbiosis | 1.44% | 1.48% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

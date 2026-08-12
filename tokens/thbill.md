@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many THBILL pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $158.88M in total.
+8 live pools clear this page's $100K TVL floor, $158.89M in total.
 
 ### Are these rates safe?
 

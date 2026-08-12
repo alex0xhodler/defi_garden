@@ -1,6 +1,6 @@
 # SFRXUSD-FRXUSD — curve-dex on Ethereum
 
-**Total APY:** 3.22% (2.29% Base · + 0.93% Rewards)
+**Total APY:** 3.23% (2.29% Base · + 0.94% Rewards)
 
 **TVL:** $11.85M
 

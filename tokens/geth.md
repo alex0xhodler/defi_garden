@@ -20,7 +20,7 @@ GETH shows up in 2 pools here, with rates from 2.20% to 5.64% APY across 2 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | geth | 2.20% | 2.22% | Base rate |
-| hydration-dex | 5.64% | 5.87% | 88.40% incentives |
+| hydration-dex | 5.64% | 5.87% | 88.47% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $15.93M in total.
+2 live pools clear this page's $100K TVL floor, $15.92M in total.
 
 ### Are these rates safe?
 

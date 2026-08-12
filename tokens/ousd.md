@@ -1,20 +1,20 @@
 # OUSD DeFi Yields
 
-The highest honest OUSD yield right now is 7.77% on stake-dao (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OUSD yield right now is 7.79% on stake-dao (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [origin-dollar →](https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token) | Ethereum | 5.43% | $5.63M |
-| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 5.09% | $1.07M |
-| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 6.52% | $175.9K |
-| [curve-dex →](https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token) | Ethereum | 3.65% | $105.4K |
-| [stake-dao →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 7.77% | $104.9K |
+| [curve-dex →](https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token) | Ethereum | 5.13% | $1.07M |
+| [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 6.55% | $175.9K |
+| [curve-dex →](https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token) | Ethereum | 3.68% | $105.4K |
+| [stake-dao →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 7.79% | $104.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OUSD shows up in 5 pools here, with rates from 3.65% to 7.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OUSD shows up in 5 pools here, with rates from 3.68% to 7.79% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,10 +23,10 @@ OUSD shows up in 5 pools here, with rates from 3.65% to 7.77% APY across 1 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | origin-dollar | 5.43% | 5.13% | Base rate |
-| curve-dex | 5.09% | 3.93% | 99.21% incentives |
-| curve-dex | 6.52% | 4.92% | 99.69% incentives |
-| curve-dex | 3.65% | 5.37% | 99.73% incentives |
-| stake-dao | 7.77% | 5.89% | 99.61% incentives |
+| curve-dex | 5.13% | 3.94% | 99.22% incentives |
+| curve-dex | 6.55% | 4.92% | 99.69% incentives |
+| curve-dex | 3.68% | 5.36% | 99.73% incentives |
+| stake-dao | 7.79% | 5.89% | 99.62% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OUSD yield today?
 
-7.77% APY on stake-dao (Ethereum), based on live DefiLlama data.
+7.79% APY on stake-dao (Ethereum), based on live DefiLlama data.
 
 ### How many OUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $7.08M in total.
+5 live pools clear this page's $100K TVL floor, $7.09M in total.
 
 ### Are these rates safe?
 

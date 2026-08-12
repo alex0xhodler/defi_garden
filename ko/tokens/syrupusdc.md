@@ -9,9 +9,9 @@
 | [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.06% | $10.03M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=147986e2-21d1-522a-8635-d35ef7424f42&src=seo_token) | Monad | 0.72% | $5.38M |
 | [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.02% | $2.53M |
-| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 1.51% | $463.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token) | Base | 0.01% | $270.8K |
-| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 2.89% | $202.9K |
+| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 1.55% | $463.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token) | Base | 0.01% | $270.9K |
+| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 2.89% | $203K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -32,9 +32,9 @@ SYRUPUSDC 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.01%부터 2.8
 | kamino-liquidity | 0.06% | 0.77% | 기본 금리 |
 | uniswap-v4 | 0.72% | 0.70% | 기본 금리 |
 | orca-dex | 0.02% | 0.09% | 기본 금리 |
-| fluid-dex | 1.51% | 1.40% | 기본 금리 |
-| uniswap-v4 | 0.01% | 0.12% | 기본 금리 |
-| orca-dex | 2.89% | 3.32% | 기본 금리 |
+| fluid-dex | 1.55% | 1.40% | 기본 금리 |
+| uniswap-v4 | 0.01% | 0.11% | 기본 금리 |
+| orca-dex | 2.89% | 3.31% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 2.89%예요.
 
 ### SYRUPUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $444.15M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 19개이며, 합산 TVL은 $443M예요.
 
 ### 이 수익률은 안전한가요?
 

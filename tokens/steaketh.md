@@ -5,9 +5,9 @@ The highest honest STEAKETH yield right now is 2.77% on morpho-blue (Monad), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.77% | $38.12M |
-| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 2.08% | $23.05M |
-| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 2.11% | $16.76M |
-| [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token) | Base | 1.38% | $986.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 2.06% | $23.06M |
+| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 2.11% | $16.77M |
+| [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token) | Base | 1.38% | $988.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,8 +21,8 @@ STEAKETH shows up in 4 pools here, with rates from 1.38% to 2.77% APY across 3 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 2.77% | 3.10% | 53.55% incentives |
-| morpho-blue | 2.08% | 1.70% | Base rate |
+| morpho-blue | 2.77% | 3.11% | 53.48% incentives |
+| morpho-blue | 2.06% | 1.70% | Base rate |
 | morpho-blue | 2.11% | 1.70% | Base rate |
 | morpho-blue | 1.38% | 1.49% | Base rate |
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STEAKETH pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $79.02M in total.
+5 live pools clear this page's $100K TVL floor, $79.05M in total.
 
 ### Are these rates safe?
 

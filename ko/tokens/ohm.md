@@ -8,9 +8,9 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=dea7e764-1c6a-4d51-bb35-5f428fc85b57&src=seo_token) | Ethereum | 1.61% | $4.12M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=56772e92-32e2-47a5-9611-1626eaf92826&src=seo_token) | Base | 0.17% | $907.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=abe08b87-f138-4d3e-a96a-98294ddad7a1&src=seo_token) | Ethereum | 0.92% | $402.4K |
-| [camelot-v2 →](https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token) | Arbitrum | 0.02% | $231.9K |
+| [camelot-v2 →](https://www.defi.garden/?pool=d1a3947b-c4c8-4ca3-80d9-c91a5decbc9e&src=seo_token) | Arbitrum | 0.02% | $232K |
 | [curve-dex →](https://www.defi.garden/?pool=652ec67f-20b1-4138-8fc3-d78458f47e1a&src=seo_token) | Ethereum | 0.04% | $169.6K |
-| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.17% | $159.5K |
+| [convex-finance →](https://www.defi.garden/?pool=42de7839-da37-4a99-8992-d6352177c4db&src=seo_token) | Ethereum | 0.17% | $159.6K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7b3f1713-9df4-4347-b8e9-a778a00098a7&src=seo_token) | Ethereum | 0.21% | $102.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -30,7 +30,7 @@ OHM 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.02%부터 1.61%까�
 | uniswap-v3 | 1.55% | 1.30% | 기본 금리 |
 | uniswap-v3 | 1.61% | 1.56% | 기본 금리 |
 | uniswap-v3 | 0.17% | 0.01% | 기본 금리 |
-| uniswap-v3 | 0.92% | 0.44% | 기본 금리 |
+| uniswap-v3 | 0.92% | 0.43% | 기본 금리 |
 | camelot-v2 | 0.02% | 0.12% | 기본 금리 |
 | curve-dex | 0.04% | 0.24% | 인센티브 100.00% |
 | convex-finance | 0.17% | 0.29% | 기본 금리 |

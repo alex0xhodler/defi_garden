@@ -1,14 +1,14 @@
 # DOGE DeFi Yields
 
-The highest honest DOGE yield right now is 1.77% on uniswap-v2 (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOGE yield right now is 2.18% on uniswap-v2 (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 2.70% | $2.71M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 1.96% | $2.36M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 1.77% | $399.8K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 5.43% | $276.7K |
-| [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 113.05% | $158.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dfbcf833-57cb-4bce-9e78-188dc3ab2e6d&src=seo_token) | Ethereum | 2.18% | $2.71M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f6d93812-7302-4692-b656-41f91b59d2e9&src=seo_token) | Ethereum | 1.42% | $2.36M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae2dafd7-bda7-4529-aaa8-edba41e37b61&src=seo_token) | Ethereum | 0.38% | $401K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=aa6b78c6-b4e9-4b49-b674-5d0bf3c27c1b&src=seo_token) | BSC | 5.36% | $274.7K |
+| [gmtrade →](https://www.defi.garden/?pool=581dff4f-995c-4e1e-b567-90f89598f4e6&src=seo_token) | Solana | 113.05% | $158.8K |
 | [mdex →](https://www.defi.garden/?pool=372ce454-1efb-49d7-975a-ddf0862ceb24&src=seo_token) | Heco | 0.07% | $143.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -25,11 +25,11 @@ DOGE shows up in 6 pools here, with rates from 0.07% to 113.05% APY across 4 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 2.70% | 1.52% | Base rate |
-| uniswap-v2 | 1.96% | 0.84% | Base rate |
-| uniswap-v2 | 1.77% | 2.48% | Base rate |
-| pancakeswap-amm | 5.43% | 2.47% | Base rate |
-| gmtrade | 113.05% | 72.24% | Base rate |
+| uniswap-v2 | 2.18% | 1.52% | Base rate |
+| uniswap-v2 | 1.42% | 0.84% | Base rate |
+| uniswap-v2 | 0.38% | 2.48% | Base rate |
+| pancakeswap-amm | 5.36% | 2.48% | Base rate |
+| gmtrade | 113.05% | 72.35% | Base rate |
 | mdex | 0.07% | 0.07% | 96.90% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -38,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DOGE yield today?
 
-1.77% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.18% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DOGE pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $11.87M in total.
+8 live pools clear this page's $100K TVL floor, $11.84M in total.
 
 ### Are these rates safe?
 

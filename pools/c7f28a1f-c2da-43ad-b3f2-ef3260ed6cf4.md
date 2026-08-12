@@ -6,7 +6,7 @@
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 9.51%
+**30d Mean APY:** 9.52%
 
 **Exposure:** multi
 

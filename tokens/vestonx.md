@@ -1,10 +1,10 @@
 # VESTONX DeFi Yields
 
-The highest honest VESTONX yield right now is 73.05% on ekubo (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VESTONX yield right now is 71.95% on ekubo (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=89748554-4f90-5307-9e73-98f975280227&src=seo_token) | Robinhood Chain | 73.05% | $104.2K |
+| [ekubo →](https://www.defi.garden/?pool=89748554-4f90-5307-9e73-98f975280227&src=seo_token) | Robinhood Chain | 71.95% | $103.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VESTONX yield today?
 
-73.05% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
+71.95% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
 
 ### How many VESTONX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.2K in total.
+1 live pool clear this page's $100K TVL floor, $103.8K in total.
 
 ### Are these rates safe?
 

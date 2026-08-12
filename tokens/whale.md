@@ -4,7 +4,7 @@ The highest honest WHALE yield right now is 1.50% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0b043d89-8235-43e5-9ddd-da475b6f4f01&src=seo_token) | Ethereum | 1.50% | $284.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0b043d89-8235-43e5-9ddd-da475b6f4f01&src=seo_token) | Ethereum | 1.50% | $284.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WHALE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $284.2K in total.
+1 live pool clear this page's $100K TVL floor, $284.3K in total.
 
 ### Are these rates safe?
 

@@ -5,13 +5,13 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token) | Ethereum | 2.40% | $3.62B |
-| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.40% | $141.31M |
-| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.40% | $34.37M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.40% | $141.3M |
+| [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.40% | $34.36M |
 | [fluid-dex →](https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token) | Ethereum | 0.38% | $13.14M |
-| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.57% | $9.65M |
-| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 3.04% | $8.03M |
+| [curve-dex →](https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token) | Ethereum | 2.58% | $9.65M |
+| [convex-finance →](https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token) | Ethereum | 3.05% | $8.03M |
 | [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 3.27% | $1.5M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4410a5ad-f0a4-47fc-8c37-15b7056d1c94&src=seo_token) | Base | 0.99% | $605K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4410a5ad-f0a4-47fc-8c37-15b7056d1c94&src=seo_token) | Base | 0.91% | $604.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -29,10 +29,10 @@ WEETH 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.38%부터 3.27%�
 | ether.fi-stake | 2.40% | 2.48% | 인센티브 0.07% |
 | ether.fi-stake | 2.40% | 2.48% | 인센티브 0.07% |
 | fluid-dex | 0.38% | 0.25% | 기본 금리 |
-| curve-dex | 2.57% | 2.44% | 인센티브 27.66% |
-| convex-finance | 3.04% | 2.80% | 인센티브 38.78% |
-| stake-dao | 3.27% | 3.04% | 인센티브 45.21% |
-| aerodrome-slipstream | 0.99% | 2.06% | 인센티브 83.16% |
+| curve-dex | 2.58% | 2.44% | 인센티브 27.82% |
+| convex-finance | 3.05% | 2.80% | 인센티브 38.97% |
+| stake-dao | 3.27% | 3.04% | 인센티브 45.34% |
+| aerodrome-slipstream | 0.91% | 2.06% | 인센티브 90.36% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

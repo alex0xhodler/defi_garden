@@ -4,14 +4,14 @@ The highest honest WBNB yield right now is 10.87% on uniswap-v3 (BSC), among 35 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.20% | $246.06M |
-| [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.02% | $69.72M |
-| [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.12% | $56.02M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.15% | $7.68M |
+| [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_token) | BSC | 0.20% | $244.17M |
+| [aave-v3 →](https://www.defi.garden/?pool=9380e5ac-3b75-468c-951c-c24ff6497e80&src=seo_token) | BSC | 0.02% | $69.16M |
+| [venus-core-pool →](https://www.defi.garden/?pool=25e50b68-1e0c-47c6-9088-44749ce971b2&src=seo_token) | BSC | 0.12% | $55.65M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=32038bbe-b72d-49ab-aa17-37d61d44c579&src=seo_token) | BSC | 1.21% | $7.66M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=5bec56fa-fa61-4f9e-b454-dd06df68b876&src=seo_token) | BSC | 10.87% | $6.4M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=a0a4cf75-ccd3-4ec3-a7d3-79ca59d33646&src=seo_token) | BSC | 10.75% | $5.08M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=f52993c8-fdad-40cb-adde-797b383034c5&src=seo_token) | BSC | 47.54% | $3.37M |
-| [kinza-finance →](https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token) | BSC | 0.20% | $1.46M |
+| [kinza-finance →](https://www.defi.garden/?pool=f006f6fb-8acc-45ee-8dd9-47010575666a&src=seo_token) | BSC | 0.20% | $1.45M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,10 +30,10 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | venus-core-pool | 0.20% | 0.17% | Base rate |
 | aave-v3 | 0.02% | 0.01% | Base rate |
 | venus-core-pool | 0.12% | 0.14% | Base rate |
-| pancakeswap-amm | 1.15% | 1.23% | Base rate |
+| pancakeswap-amm | 1.21% | 1.22% | Base rate |
 | uniswap-v3 | 10.87% | 10.16% | Base rate |
 | uniswap-v3 | 10.75% | 10.44% | Base rate |
-| uniswap-v3 | 47.54% | 25.64% | Base rate |
+| uniswap-v3 | 47.54% | 25.62% | Base rate |
 | kinza-finance | 0.20% | 0.19% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WBNB pools clear the TVL floor?
 
-35 live pools clear this page's $100K TVL floor, $404.86M in total.
+35 live pools clear this page's $100K TVL floor, $401.95M in total.
 
 ### Are these rates safe?
 

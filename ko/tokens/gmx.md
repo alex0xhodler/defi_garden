@@ -5,9 +5,9 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token) | Arbitrum | 0.39% | $2.09M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 3.44% | $223.6K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.56% | $211.7K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.56% | $211.7K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 3.44% | $224.2K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.56% | $212.7K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.56% | $212.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token) | Arbitrum | 10.96% | $189.6K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d05dabc8-b729-4ca9-b83d-204afb62dde4&src=seo_token) | Arbitrum | 54.93% | $115.1K |
 
@@ -27,10 +27,10 @@ GMX 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.39%부터 54.93%까
 |---|---|---|---|
 | uniswap-v3 | 0.39% | 0.21% | 기본 금리 |
 | gmx-v2-perps | 3.44% | 15.55% | 기본 금리 |
-| gmx-v2-perps | 0.56% | 5.41% | 기본 금리 |
-| gmx-v2-perps | 0.56% | 5.41% | 기본 금리 |
-| uniswap-v3 | 10.96% | 10.93% | 기본 금리 |
-| uniswap-v3 | 54.93% | 55.20% | 기본 금리 |
+| gmx-v2-perps | 0.56% | 5.40% | 기본 금리 |
+| gmx-v2-perps | 0.56% | 5.40% | 기본 금리 |
+| uniswap-v3 | 10.96% | 10.94% | 기본 금리 |
+| uniswap-v3 | 54.93% | 55.08% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,7 +42,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 54.93%예
 
 ### GMX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $4.43M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $4.44M예요.
 
 ### 이 수익률은 안전한가요?
 

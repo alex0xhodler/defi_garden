@@ -4,13 +4,13 @@ The highest honest CBBTC yield right now is 15.34% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $155.38M |
-| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 2.06% | $83.5M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 3.98% | $18.51M |
-| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 1.53% | $18.22M |
-| [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token) | Ethereum | 0.57% | $16.71M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token) | Ethereum | 0.07% | $13.79M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=69800b02-58a9-4838-b19d-d2719950e296&src=seo_token) | Ethereum | 4.36% | $11.48M |
+| [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $155.17M |
+| [curve-dex →](https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token) | Ethereum | 2.06% | $83.54M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token) | Base | 3.83% | $18.85M |
+| [curve-dex →](https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token) | Ethereum | 1.53% | $18.23M |
+| [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token) | Ethereum | 0.62% | $16.69M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token) | Ethereum | 0.09% | $13.77M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=69800b02-58a9-4838-b19d-d2719950e296&src=seo_token) | Ethereum | 4.39% | $11.47M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=ae6e650d-2da1-43ee-b960-2adfdf4dc2b7&src=seo_token) | Base | 15.34% | $10.79M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -28,12 +28,12 @@ CBBTC shows up in 8 pools here, with rates from 0.01% to 15.34% APY across 2 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aave-v3 | 0.01% | 0.01% | Base rate |
-| curve-dex | 2.06% | 2.20% | Base rate |
-| aerodrome-slipstream | 3.98% | 6.90% | 64.26% incentives |
+| curve-dex | 2.06% | 2.21% | Base rate |
+| aerodrome-slipstream | 3.83% | 6.89% | 63.13% incentives |
 | curve-dex | 1.53% | 5.11% | Base rate |
-| fluid-dex | 0.57% | 0.44% | Base rate |
-| uniswap-v4 | 0.07% | 0.17% | Base rate |
-| uniswap-v4 | 4.36% | 6.24% | Base rate |
+| fluid-dex | 0.62% | 0.44% | Base rate |
+| uniswap-v4 | 0.09% | 0.17% | Base rate |
+| uniswap-v4 | 4.39% | 6.24% | Base rate |
 | uniswap-v3 | 15.34% | 14.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CBBTC pools clear the TVL floor?
 
-158 live pools clear this page's $100K TVL floor, $5.02B in total.
+158 live pools clear this page's $100K TVL floor, $5.01B in total.
 
 ### Are these rates safe?
 

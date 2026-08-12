@@ -22,8 +22,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 146.72% | 196.06% | Base rate |
-| curve-dex | 2.45% | 1.81% | Base rate |
+| uniswap-v3 | 146.72% | 196.34% | Base rate |
+| curve-dex | 2.45% | 1.82% | Base rate |
 | uniswap-v3 | 5.16% | 6.95% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HLX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $888.1K in total.
+4 live pools clear this page's $100K TVL floor, $888.3K in total.
 
 ### Are these rates safe?
 

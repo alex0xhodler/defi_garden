@@ -5,9 +5,9 @@ The highest honest GMX yield right now is 54.93% on uniswap-v3 (Arbitrum), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=5921fee6-b25f-4cd9-9cc4-fb07fe83ea89&src=seo_token) | Arbitrum | 0.39% | $2.09M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 3.44% | $223.6K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.56% | $211.7K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.56% | $211.7K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=61390e39-948c-4d52-9d47-b5cece228647&src=seo_token) | Arbitrum | 3.44% | $224.2K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.56% | $212.7K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=49116ccf-0a6d-48ac-a9de-cc6d62117734&src=seo_token) | Arbitrum | 0.56% | $212.7K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=7df9a60c-61eb-4708-a5a4-613275ddf3f9&src=seo_token) | Arbitrum | 10.96% | $189.6K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d05dabc8-b729-4ca9-b83d-204afb62dde4&src=seo_token) | Arbitrum | 54.93% | $115.1K |
 
@@ -27,10 +27,10 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | uniswap-v3 | 0.39% | 0.21% | Base rate |
 | gmx-v2-perps | 3.44% | 15.55% | Base rate |
-| gmx-v2-perps | 0.56% | 5.41% | Base rate |
-| gmx-v2-perps | 0.56% | 5.41% | Base rate |
-| uniswap-v3 | 10.96% | 10.93% | Base rate |
-| uniswap-v3 | 54.93% | 55.20% | Base rate |
+| gmx-v2-perps | 0.56% | 5.40% | Base rate |
+| gmx-v2-perps | 0.56% | 5.40% | Base rate |
+| uniswap-v3 | 10.96% | 10.94% | Base rate |
+| uniswap-v3 | 54.93% | 55.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GMX pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $4.43M in total.
+8 live pools clear this page's $100K TVL floor, $4.44M in total.
 
 ### Are these rates safe?
 

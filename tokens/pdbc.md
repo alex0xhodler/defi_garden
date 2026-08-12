@@ -1,10 +1,10 @@
 # PDBC DeFi Yields
 
-The highest honest PDBC yield right now is 0.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PDBC yield right now is 0.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=37ee47c4-e6e4-413a-a81b-dc667f1b5657&src=seo_token) | Solana | 0.63% | $103K |
+| [raydium-amm →](https://www.defi.garden/?pool=37ee47c4-e6e4-413a-a81b-dc667f1b5657&src=seo_token) | Solana | 0.60% | $103K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PDBC yield today?
 
-0.63% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.60% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PDBC pools clear the TVL floor?
 

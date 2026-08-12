@@ -5,10 +5,10 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token) | Monad | 27.11% | $1.21M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.91% | $728.5K |
-| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 6.88% | $351.5K |
-| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 3.01% | $297.5K |
-| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.70% | $282.9K |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 13.92% | $728.5K |
+| [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 6.89% | $349.7K |
+| [curvance →](https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token) | Monad | 3.01% | $299.6K |
+| [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.70% | $285K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.03% | $148K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -26,9 +26,9 @@ WMON 풀은 여기 6개가 있고, 1개 체인에서 APY가 0.03%부터 27.11%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v3 | 27.11% | 37.34% | 기본 금리 |
-| curve-dex | 13.91% | 23.50% | 인센티브 100.00% |
-| neverland | 6.88% | 7.98% | 인센티브 41.08% |
-| curvance | 3.01% | 2.68% | 인센티브 44.92% |
+| curve-dex | 13.92% | 23.47% | 인센티브 100.00% |
+| neverland | 6.89% | 7.98% | 인센티브 40.86% |
+| curvance | 3.01% | 2.67% | 인센티브 44.92% |
 | curvance | 1.70% | 1.78% | 인센티브 79.38% |
 | uniswap-v3 | 0.03% | 0.01% | 기본 금리 |
 

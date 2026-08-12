@@ -4,8 +4,8 @@ The highest honest SPK yield right now is 12.30% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 3.49% | $563.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 12.30% | $479.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 3.49% | $563.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 12.30% | $479.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SPK shows up in 2 pools here, with rates from 3.49% to 12.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.69% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 3.49% | 7.24% | Base rate |
-| uniswap-v4 | 12.30% | 10.11% | Base rate |
+| uniswap-v4 | 3.49% | 7.25% | Base rate |
+| uniswap-v4 | 12.30% | 10.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

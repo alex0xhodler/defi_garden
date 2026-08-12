@@ -5,7 +5,7 @@ The highest honest SUSDM yield right now is 0.93% on hybra-v4 (Hyperliquid L1), 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [monetrix →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 3.52% | $2.16M |
-| [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 0.93% | $107.2K |
+| [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 0.93% | $107.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,8 +19,8 @@ SUSDM shows up in 2 pools here, with rates from 0.93% to 3.52% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| monetrix | 3.52% | 7.40% | Base rate |
-| hybra-v4 | 0.93% | 1.41% | 100.00% incentives |
+| monetrix | 3.52% | 7.39% | Base rate |
+| hybra-v4 | 0.93% | 1.40% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

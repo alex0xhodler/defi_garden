@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 YNUSDX shows up in 4 pools here, with rates from 5.58% to 20.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.83% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,8 +23,8 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 20.28% | 12.03% | Base rate |
-| stake-dao | 10.48% | 12.51% | Base rate |
+| curve-dex | 20.28% | 12.04% | Base rate |
+| stake-dao | 10.48% | 12.50% | Base rate |
 | curve-dex | 5.58% | 9.63% | Base rate |
 | stake-dao | 8.44% | 8.86% | Base rate |
 

@@ -1,10 +1,10 @@
 # SHU DeFi Yields
 
-The highest honest SHU yield right now is 15.15% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHU yield right now is 0.88% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b1e56e17-c055-4db1-8160-42a9bee82844&src=seo_token) | Ethereum | 15.15% | $153K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b1e56e17-c055-4db1-8160-42a9bee82844&src=seo_token) | Ethereum | 0.88% | $153.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHU yield today?
 
-15.15% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.88% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SHU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $153K in total.
+1 live pool clear this page's $100K TVL floor, $153.4K in total.
 
 ### Are these rates safe?
 

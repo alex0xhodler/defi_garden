@@ -9,9 +9,9 @@ The highest honest SYRUPUSDC yield right now is 2.89% on orca-dex (Solana), amon
 | [kamino-liquidity →](https://www.defi.garden/?pool=91119a14-3b0a-433a-b09b-51cc079c6ea5&src=seo_token) | Solana | 0.06% | $10.03M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=147986e2-21d1-522a-8635-d35ef7424f42&src=seo_token) | Monad | 0.72% | $5.38M |
 | [orca-dex →](https://www.defi.garden/?pool=5d6a4eed-10da-4eb6-a6f1-20ca6c2256e5&src=seo_token) | Solana | 0.02% | $2.53M |
-| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 1.51% | $463.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token) | Base | 0.01% | $270.8K |
-| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 2.89% | $202.9K |
+| [fluid-dex →](https://www.defi.garden/?pool=405e32c4-b872-4a03-b9d7-87a0d809c23f&src=seo_token) | Ethereum | 1.55% | $463.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=51eb7a69-8b7d-5008-9f2e-2cc164973295&src=seo_token) | Base | 0.01% | $270.9K |
+| [orca-dex →](https://www.defi.garden/?pool=716830b1-61b7-4079-9625-6f5063dfb999&src=seo_token) | Solana | 2.89% | $203K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,9 +32,9 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | kamino-liquidity | 0.06% | 0.77% | Base rate |
 | uniswap-v4 | 0.72% | 0.70% | Base rate |
 | orca-dex | 0.02% | 0.09% | Base rate |
-| fluid-dex | 1.51% | 1.40% | Base rate |
-| uniswap-v4 | 0.01% | 0.12% | Base rate |
-| orca-dex | 2.89% | 3.32% | Base rate |
+| fluid-dex | 1.55% | 1.40% | Base rate |
+| uniswap-v4 | 0.01% | 0.11% | Base rate |
+| orca-dex | 2.89% | 3.31% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SYRUPUSDC pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $444.15M in total.
+19 live pools clear this page's $100K TVL floor, $443M in total.
 
 ### Are these rates safe?
 

@@ -1,15 +1,15 @@
 # PEPE DeFi Yields
 
-The highest honest PEPE yield right now is 3.89% on uniswap-v4 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPE yield right now is 3.88% on uniswap-v4 (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 1.91% | $21.27M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token) | Ethereum | 2.10% | $21.24M |
 | [raydium-amm →](https://www.defi.garden/?pool=f533ee34-5354-5712-9a31-332d21888e52&src=seo_token) | Solana | 0.55% | $2.81M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token) | Ethereum | 11.50% | $1.82M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token) | Base | 4.87% | $186.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 3.89% | $182K |
-| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 1.05% | $151K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 3.88% | $181.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 1.01% | $150.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -25,12 +25,12 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 1.91% | 2.99% | Base rate |
+| uniswap-v2 | 2.10% | 2.99% | Base rate |
 | raydium-amm | 0.55% | 0.30% | Base rate |
-| uniswap-v3 | 11.50% | 5.45% | Base rate |
+| uniswap-v3 | 11.50% | 5.46% | Base rate |
 | uniswap-v3 | 4.87% | 2.46% | Base rate |
-| uniswap-v4 | 3.89% | 7.22% | Base rate |
-| raydium-amm | 1.05% | 1.92% | Base rate |
+| uniswap-v4 | 3.88% | 7.22% | Base rate |
+| raydium-amm | 1.01% | 1.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PEPE yield today?
 
-3.89% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+3.88% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PEPE pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $26.43M in total.
+6 live pools clear this page's $100K TVL floor, $26.39M in total.
 
 ### Are these rates safe?
 

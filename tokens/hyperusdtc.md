@@ -5,7 +5,7 @@ The highest honest HYPERUSDTC yield right now is 2.66% on morpho-blue (Ethereum)
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=cc22fb55-9b8f-4d47-afe3-88cbd21c38f2&src=seo_token) | Stable | 0.26% | $186.1K |
-| [morpho-blue →](https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token) | Ethereum | 2.66% | $112.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token) | Ethereum | 2.66% | $112.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HYPERUSDTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $298.7K in total.
+2 live pools clear this page's $100K TVL floor, $298.6K in total.
 
 ### Are these rates safe?
 

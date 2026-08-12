@@ -4,12 +4,12 @@ The highest honest GTUSDCP yield right now is 5.53% on morpho-blue (OP Mainnet),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469&src=seo_token) | Base | 4.75% | $427.96M |
-| [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97&src=seo_token) | Base | 4.77% | $89.15M |
-| [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c&src=seo_token) | Ethereum | 4.17% | $70.48M |
+| [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469&src=seo_token) | Base | 4.72% | $428.06M |
+| [morpho-blue →](https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97&src=seo_token) | Base | 4.77% | $89.17M |
+| [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c&src=seo_token) | Ethereum | 4.17% | $70.49M |
 | [morpho-blue →](https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc&src=seo_token) | OP Mainnet | 5.53% | $1.1M |
-| [morpho-blue →](https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25&src=seo_token) | Arbitrum | 4.88% | $675.2K |
-| [morpho-blue →](https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170&src=seo_token) | Arbitrum | 5.36% | $321.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25&src=seo_token) | Arbitrum | 4.91% | $680.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170&src=seo_token) | Arbitrum | 5.36% | $321.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,11 +23,11 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.75% | 4.50% | Base rate |
+| morpho-blue | 4.72% | 4.50% | Base rate |
 | morpho-blue | 4.77% | 4.49% | Base rate |
-| morpho-blue | 4.17% | 3.71% | Base rate |
+| morpho-blue | 4.17% | 3.72% | Base rate |
 | morpho-blue | 5.53% | 4.67% | Base rate |
-| morpho-blue | 4.88% | 3.52% | Base rate |
+| morpho-blue | 4.91% | 3.53% | Base rate |
 | morpho-blue | 5.36% | 3.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GTUSDCP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $589.69M in total.
+6 live pools clear this page's $100K TVL floor, $589.82M in total.
 
 ### Are these rates safe?
 

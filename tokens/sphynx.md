@@ -4,7 +4,7 @@ The highest honest SPHYNX yield right now is 0.27% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3e513710-3a66-47f2-8ce9-c9ef0e85e2c6&src=seo_token) | Solana | 0.27% | $518.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=3e513710-3a66-47f2-8ce9-c9ef0e85e2c6&src=seo_token) | Solana | 0.27% | $518.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SPHYNX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $518.4K in total.
+1 live pool clear this page's $100K TVL floor, $518.1K in total.
 
 ### Are these rates safe?
 

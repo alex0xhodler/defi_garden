@@ -7,8 +7,8 @@ The highest honest HYUSD yield right now is 7.48% on loopscale (Solana), among 5
 | [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token) | Solana | 0.18% | $1.88M |
 | [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token) | Solana | 0.29% | $1.74M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token) | Solana | 2.07% | $160.7K |
-| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 3.57% | $159.5K |
-| [loopscale →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token) | Solana | 7.48% | $125.8K |
+| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 3.59% | $159.6K |
+| [loopscale →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token) | Solana | 7.48% | $126K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,8 +27,8 @@ HYUSD shows up in 5 pools here, with rates from 0.18% to 7.48% APY across 1 chai
 | kamino-liquidity | 0.18% | 0.46% | Base rate |
 | orca-dex | 0.29% | 0.59% | Base rate |
 | kamino-liquidity | 2.07% | 3.49% | Base rate |
-| orca-dex | 3.57% | 4.39% | Base rate |
-| loopscale | 7.48% | 6.40% | 21.54% incentives |
+| orca-dex | 3.59% | 4.39% | Base rate |
+| loopscale | 7.48% | 6.41% | 21.54% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

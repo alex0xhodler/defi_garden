@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [GHO](https://www.defi.garden/tokens/gho)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [USDAI](https://www.defi.garden/tokens/usdai)
 - [SYZUSD](https://www.defi.garden/tokens/syzusd)
 

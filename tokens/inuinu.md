@@ -4,7 +4,7 @@ The highest honest INUINU yield right now is 0.06% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=dc911f23-2490-4a92-b27f-ccfbc22d487d&src=seo_token) | Ethereum | 0.06% | $253.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=dc911f23-2490-4a92-b27f-ccfbc22d487d&src=seo_token) | Ethereum | 0.06% | $252.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many INUINU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $253.3K in total.
+1 live pool clear this page's $100K TVL floor, $252.6K in total.
 
 ### Are these rates safe?
 

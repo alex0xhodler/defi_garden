@@ -4,7 +4,7 @@ The highest honest INC yield right now is 0.80% on raydium-amm (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5a23252d-e4b7-422c-a6ad-7727ef0df05e&src=seo_token) | Solana | 0.80% | $292K |
+| [raydium-amm →](https://www.defi.garden/?pool=5a23252d-e4b7-422c-a6ad-7727ef0df05e&src=seo_token) | Solana | 0.80% | $291.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many INC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $292K in total.
+1 live pool clear this page's $100K TVL floor, $291.8K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest NUTS yield right now is 0.49% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0f6d7f3f-7849-4678-8aa0-efe093e0380b&src=seo_token) | Ethereum | 0.49% | $134.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0f6d7f3f-7849-4678-8aa0-efe093e0380b&src=seo_token) | Ethereum | 0.49% | $134.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NUTS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.4K in total.
+1 live pool clear this page's $100K TVL floor, $134.6K in total.
 
 ### Are these rates safe?
 
