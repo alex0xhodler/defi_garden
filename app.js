@@ -187,8 +187,17 @@ const parseNaturalLanguageQuery = (query, allTokens = [], allChains = [], allPro
   // --- Parse Token ---
   // Context-aware token extraction with position scoring
   if (allTokens && allTokens.length > 0) {
+    // PT maturities are variants of one parent asset. The token inventory is
+    // split from pool symbols, so reconstruct only a parent whose underlying
+    // token actually exists; unknown PT-* input must not widen to every PT pool.
+    const ptParentMatch = lowerQuery.match(/^pt-?([a-z0-9]+)$/i);
+    const ptUnderlying = ptParentMatch && allTokens.find(
+      t => String(t).toLowerCase() === ptParentMatch[1].toLowerCase()
+    );
     const exactTokenMatch = allTokens.find(t => t.toLowerCase() === lowerQuery);
-    if (exactTokenMatch) {
+    if (ptParentMatch) {
+      if (ptUnderlying) token = `PT-${String(ptUnderlying).toUpperCase()}`;
+    } else if (exactTokenMatch) {
       token = exactTokenMatch;
     } else {
       // Split query into words for context analysis
@@ -831,15 +840,21 @@ const isStableSymbol = (symbol) => {
 // Token ⇄ pool-symbol matcher for the analytics search (token filter + the
 // chain / protocol / pool-type counts that must agree with the grid).
 // DefiLlama's pool `symbol` is frequently a VAULT ticker that embeds the base
-// asset (STEAKUSDC, GTUSDCP, mwUSDC, ETHENAUSDC), so the old exact split-part
-// equality (`symbol === 'USDC'`) silently dropped the largest venues — e.g.
-// every Morpho Blue USDC vault on Base. Match on substring instead, mirroring
-// DefiLlama's own token grouping. Trust rails stay orthogonal: the
-// DEFAULT_MIN_TVL floor and APY sanity / anomaly demotion still apply to every
-// matched pool downstream, so this widens coverage without weakening them.
+// asset (STEAKUSDC, GTUSDCP, mwUSDC, ETHENAUSDC), so general token search uses
+// substring matching. PT is different: it is a position-family prefix, and a
+// substring match would admit unrelated symbols such as OPT-USDC.
+// Trust rails stay orthogonal: the DEFAULT_MIN_TVL floor and APY sanity /
+// anomaly demotion still apply to every matched pool downstream.
 const symbolMatchesToken = (poolSymbol, token) => {
   if (!poolSymbol || !token) return false;
-  return String(poolSymbol).toUpperCase().includes(String(token).toUpperCase());
+  const symbol = String(poolSymbol).toUpperCase();
+  const wanted = String(token).toUpperCase();
+  if (wanted === 'PT' || wanted.startsWith('PT-')) {
+    if (!symbol.startsWith(wanted)) return false;
+    const boundary = symbol.charAt(wanted.length);
+    return !boundary || '-_/ '.includes(boundary);
+  }
+  return symbol.includes(wanted);
 };
 
 // Main App Component
