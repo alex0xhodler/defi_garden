@@ -14,13 +14,13 @@ Token pages led with one representative current rate, while comparative rate beh
 - Item test: 8/8.
 - Contract populations: token pages 109; token-route depth 27; Markdown twins 16; source-attribution checks 6; registry checks 5.
 - Live generation used 15,607 pools and produced 2,069 token records with 795 sitemap heads. Two runs retained the same generated population.
-- The pre-existing translation arity baseline remains 13 assertions with four known zero-argument entries.
+- The plain lane passes 64/64 after replacing four default parameters with explicit nullish fallbacks; zero-argument rendering stays unchanged while the exhaustive arity probe now covers those numeric arguments.
 
 ## Browser evidence
 Real generated pages showed AAVEUSDC ranked in EN at desktop and mobile widths and in KO; 0X0 showed the insufficient-history state.
 
 ## Review
-Attempt 1 is IN_REVIEW. The reviewer returned AMEND because source attribution was missing from generated links; `src=seo_token` was added. That amendment has not yet been re-reviewed.
+Attempt 1 is IN_REVIEW. The first reviewer returned AMEND because source attribution was missing from generated links; `src=seo_token` was added. Focused re-review and final review both returned PASS.
 
 ## Risk and outcome boundary
 HIGH: the generated delta is very large because this is the expected estate-wide clean cutover. No traffic or citation outcome follows from generation; the retrieval/read/citation ladder remains gated. No `docs.md` exists in the affected area, so no Noridoc changed.
