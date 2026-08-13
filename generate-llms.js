@@ -50,6 +50,8 @@ const SNAPSHOT_PATH = process.env.LLMS_SNAPSHOT_PATH || path.resolve('./data/poo
 // themselves is a human-gated decision made in app.js (+ trust-rails.js in
 // the same commit).
 const { APY_SANITY_LIMIT, DEFAULT_MIN_TVL: MIN_TVL_USD, formatTvlFloor } = require('./trust-rails.js');
+const { ENDPOINTS: API_ENDPOINTS } = require('./edge/api-core.js');
+const { TOOLS: MCP_TOOLS } = require('./edge/mcp-core.js');
 
 /**
  * URL for a single pool row (spec 166). Deep-links to pool-detail —
@@ -565,6 +567,31 @@ function buildPlannerSection(meta, rate, opts = {}) {
 }
 
 /**
+ * Shared agent-discovery section for both LLM surfaces. Endpoint and tool
+ * bullets are derived directly from the canonical runtime inventories.
+ */
+function buildAgentEndpointsSection(meta) {
+  const baseUrl = String(meta.baseUrl).replace(/\/+$/, '');
+  const absoluteUrl = relativePath =>
+    `${baseUrl}/${String(relativePath).replace(/^\/+/, '')}`;
+  const lines = ['## API & MCP'];
+
+  API_ENDPOINTS.forEach(endpoint => {
+    lines.push(`- API route: ${endpoint.method} ${absoluteUrl(endpoint.path)}`);
+  });
+  lines.push(`- MCP endpoint (Streamable HTTP): ${absoluteUrl('/mcp')}`);
+  MCP_TOOLS.forEach(tool => {
+    lines.push(`- MCP tool: ${tool.name}`);
+  });
+  lines.push(
+    `- Trust rails: minimum TVL ${formatTvlFloor(MIN_TVL_USD)}; ` +
+    `maximum total APY ${APY_SANITY_LIMIT}%.`
+  );
+
+  return lines;
+}
+
+/**
  * Build concise llms.txt content with search-optimized sections.
  *
  * `opts.highApyStakingUrl` (spec 180 R3) overrides the "High APY staking"
@@ -608,6 +635,8 @@ function buildConcise(meta, categories, highYield, yieldAnalysis, plannerRateRes
   // Garden Planner section (spec 168) — see buildPlannerSection() for the
   // shared copy and its honesty constraints.
   lines.push(...buildPlannerSection(meta, plannerRateResult, { full: false }));
+  lines.push('');
+  lines.push(...buildAgentEndpointsSection(meta));
   lines.push('');
 
   // Top chains by TVL (most searched)
@@ -727,6 +756,8 @@ function buildFull(meta, categories, highYield, yieldAnalysis, plannerRateResult
 
   // Garden Planner section (spec 168) — shared emitter, fuller body (opts.full).
   lines.push(...buildPlannerSection(meta, plannerRateResult, { full: true }));
+  lines.push('');
+  lines.push(...buildAgentEndpointsSection(meta));
   lines.push('');
 
   // All token pages. item 188 Leg B: guarded the same way ## Other Pages
@@ -1331,6 +1362,7 @@ module.exports = {
   pickHighYield,
   plannerRate,
   buildPlannerSection,
+  buildAgentEndpointsSection,
   analyzeYieldData,
   buildConcise,
   buildFull,
