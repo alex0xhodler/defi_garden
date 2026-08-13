@@ -266,8 +266,9 @@
                                     var minApy = args.minApy || 0;
                                     
                                     var filtered = pools.filter(function(p) {
-                                        if (p.tvlUsd < 100000) return false;
-                                        if (p.apy > 1000) return false;
+                                        var totalApy = (Number(p.apyBase) || 0) + (Number(p.apyReward) || 0);
+                                        if (p.tvlUsd < window.TRUST_RAILS.DEFAULT_MIN_TVL) return false;
+                                        if (totalApy > window.TRUST_RAILS.APY_SANITY_LIMIT) return false;
                                         
                                         if (token && !p.symbol.toLowerCase().includes(token)) return false;
                                         if (chain && p.chain.toLowerCase() !== chain) return false;
