@@ -4,7 +4,12 @@ The highest honest STKESOL yield right now is 4.50% on stkesol-by-sol-strategies
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.50% | $47.21M |
+| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.50% | $47.38M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank STKESOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,11 +35,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STKESOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $54.26M in total.
+2 live pools clear this page's $100K TVL floor, $54.43M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which STKESOL pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank STKESOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -49,4 +58,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

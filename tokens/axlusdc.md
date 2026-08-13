@@ -1,10 +1,15 @@
 # AXLUSDC DeFi Yields
 
-The highest honest AXLUSDC yield right now is 0.04% on curve-dex (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AXLUSDC yield right now is 7.36% on curve-dex (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 0.04% | $158.5K |
+| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 7.36% | $166.1K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank AXLUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AXLUSDC yield today?
 
-0.04% APY on curve-dex (Base), based on live DefiLlama data.
+7.36% APY on curve-dex (Base), based on live DefiLlama data.
 
 ### How many AXLUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $158.5K in total.
+1 live pool clear this page's $100K TVL floor, $166.1K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which AXLUSDC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank AXLUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

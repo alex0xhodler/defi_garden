@@ -4,7 +4,12 @@ The highest honest SRMM1USD yield right now is 7.65% on strata-markets (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=8139ac7b-c983-4800-bb98-60abe3d68157&src=seo_token) | Ethereum | 7.65% | $419.5K |
+| [strata-markets →](https://www.defi.garden/?pool=8139ac7b-c983-4800-bb98-60abe3d68157&src=seo_token) | Ethereum | 7.65% | $419.6K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SRMM1USD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SRMM1USD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $419.5K in total.
+1 live pool clear this page's $100K TVL floor, $419.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SRMM1USD pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SRMM1USD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

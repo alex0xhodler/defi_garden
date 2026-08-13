@@ -6,6 +6,11 @@ The highest honest AMAPT yield right now is 4.80% on hyperion (Aptos), among 1 p
 |---|---|---|---|
 | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank AMAPT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -22,6 +27,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
+### Which AMAPT pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank AMAPT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 ## Related tokens
 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
@@ -29,10 +38,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [TRUAPT](https://www.defi.garden/tokens/truapt)
-- [STAPT](https://www.defi.garden/tokens/stapt)
+- [ABTC](https://www.defi.garden/tokens/abtc)
 
 ## Available on
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

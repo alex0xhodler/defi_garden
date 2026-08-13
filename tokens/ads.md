@@ -1,32 +1,41 @@
 # ADS DeFi Yields
 
-The highest honest ADS yield right now is 3.20% on uniswap-v3 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ADS yield right now is 6.45% on uniswap-v3 (Base), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.10% | $707.5K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.10% | $700.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 3.20% | $314.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 0.15% | $227.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.07% | $705.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.07% | $697.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 6.45% | $314.6K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, ADS's lower-variability candidates are uniswap-v4 (Ethereum), 0.07% APY, $697.5K TVL, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; uniswap-v4 (Ethereum), 0.07% APY, $705.8K TVL, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; uniswap-v3 (Base), 6.45% APY, $314.6K TVL, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.07% | $697.5K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.07% | $705.8K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token) | Base | 6.45% | $314.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ADS shows up in 4 pools here, with rates from 0.10% to 3.20% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ADS shows up in 3 pools here, with rates from 0.07% to 6.45% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.10% | 28.37% | Base rate |
-| uniswap-v4 | 0.10% | 0.13% | Base rate |
-| uniswap-v3 | 3.20% | 5.45% | Base rate |
-| uniswap-v3 | 0.15% | 2.26% | Base rate |
+| uniswap-v4 | 0.07% | 28.32% | Base rate |
+| uniswap-v4 | 0.07% | 0.12% | Base rate |
+| uniswap-v3 | 6.45% | 5.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,15 +43,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ADS yield today?
 
-3.20% APY on uniswap-v3 (Base), based on live DefiLlama data.
+6.45% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ADS pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $2.97M in total.
+6 live pools clear this page's $100K TVL floor, $2.95M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which ADS pools have the most stable APY history?
+
+Based on APY history only, ADS's lower-variability candidates are uniswap-v4 (Ethereum), 0.07% APY, $697.5K TVL, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; uniswap-v4 (Ethereum), 0.07% APY, $705.8K TVL, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; uniswap-v3 (Base), 6.45% APY, $314.6K TVL, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -58,4 +71,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

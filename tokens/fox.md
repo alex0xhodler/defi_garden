@@ -1,10 +1,15 @@
 # FOX DeFi Yields
 
-The highest honest FOX yield right now is 12.21% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FOX yield right now is 2.90% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=a53859f9-996f-41a7-b1f7-9313bd7d8ebc&src=seo_token) | Ethereum | 12.21% | $1.06M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a53859f9-996f-41a7-b1f7-9313bd7d8ebc&src=seo_token) | Ethereum | 2.90% | $1.05M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank FOX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FOX yield today?
 
-12.21% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.90% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FOX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.06M in total.
+1 live pool clear this page's $100K TVL floor, $1.05M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which FOX pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank FOX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

@@ -1,19 +1,29 @@
 # ALNOOR DeFi Yields
 
-The highest honest ALNOOR yield right now is 1.86% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALNOOR yield right now is 0.97% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token) | Solana | 1.76% | $703.5K |
-| [raydium-amm →](https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token) | Solana | 1.86% | $210.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token) | Solana | 0.97% | $708.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token) | Solana | 0.88% | $214.4K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, ALNOOR's lower-variability candidates are raydium-amm (Solana), 0.97% APY, $708.4K TVL, https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token; raydium-amm (Solana), 0.88% APY, $214.4K TVL, https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token) | Solana | 0.97% | $708.4K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token) | Solana | 0.88% | $214.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ALNOOR shows up in 2 pools here, with rates from 1.76% to 1.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALNOOR shows up in 2 pools here, with rates from 0.88% to 0.97% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.57% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 1.76% | 1.51% | Base rate |
-| raydium-amm | 1.86% | 1.62% | Base rate |
+| raydium-amm | 0.97% | 1.31% | Base rate |
+| raydium-amm | 0.88% | 1.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,15 +40,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ALNOOR yield today?
 
-1.86% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.97% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ALNOOR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $913.9K in total.
+2 live pools clear this page's $100K TVL floor, $922.9K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which ALNOOR pools have the most stable APY history?
+
+Based on APY history only, ALNOOR's lower-variability candidates are raydium-amm (Solana), 0.97% APY, $708.4K TVL, https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token; raydium-amm (Solana), 0.88% APY, $214.4K TVL, https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -53,4 +67,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

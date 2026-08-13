@@ -1,10 +1,15 @@
 # PURR DeFi Yields
 
-The highest honest PURR yield right now is 0.17% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PURR yield right now is 9.05% on project-x (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token) | Hyperliquid L1 | 0.17% | $164.4K |
+| [project-x →](https://www.defi.garden/?pool=f551bf0d-fb72-45fe-82c4-c5e2a58fa1d8&src=seo_token) | Hyperliquid L1 | 9.05% | $168.2K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank PURR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PURR yield today?
 
-0.17% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
+9.05% APY on project-x (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many PURR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164.4K in total.
+1 live pool clear this page's $100K TVL floor, $168.2K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which PURR pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank PURR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -29,10 +38,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [XBTC](https://www.defi.garden/tokens/xbtc)
+- [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

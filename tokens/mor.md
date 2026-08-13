@@ -1,10 +1,15 @@
 # MOR DeFi Yields
 
-The highest honest MOR yield right now is 1.53% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOR yield right now is 2.71% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=44f437aa-baa7-48a7-b403-10bc0ca24500&src=seo_token) | Arbitrum | 1.53% | $1.09M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=44f437aa-baa7-48a7-b403-10bc0ca24500&src=seo_token) | Arbitrum | 2.71% | $1.11M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank MOR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOR yield today?
 
-1.53% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+2.71% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many MOR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.09M in total.
+1 live pool clear this page's $100K TVL floor, $1.11M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which MOR pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank MOR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

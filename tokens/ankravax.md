@@ -4,7 +4,12 @@ The highest honest ANKRAVAX yield right now is 4.79% on ankr (Avalanche), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=6c8f48ae-27f9-4829-866f-7cb08841e816&src=seo_token) | Avalanche | 4.79% | $100.5K |
+| [ankr →](https://www.defi.garden/?pool=6c8f48ae-27f9-4829-866f-7cb08841e816&src=seo_token) | Avalanche | 4.79% | $100.6K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank ANKRAVAX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ANKRAVAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.5K in total.
+1 live pool clear this page's $100K TVL floor, $100.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which ANKRAVAX pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank ANKRAVAX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -29,10 +38,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [VBILL](https://www.defi.garden/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [BTC.B](https://www.defi.garden/tokens/btc-b)
+- [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

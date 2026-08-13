@@ -4,7 +4,12 @@ The highest honest NS yield right now is 0.20% on navi-lending (Sui), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=468407a0-6ac8-45a7-ae77-385c8e1b64bc&src=seo_token) | Sui | 0.20% | $132.9K |
+| [navi-lending →](https://www.defi.garden/?pool=468407a0-6ac8-45a7-ae77-385c8e1b64bc&src=seo_token) | Sui | 0.20% | $129.2K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank NS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.9K in total.
+1 live pool clear this page's $100K TVL floor, $129.2K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which NS pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank NS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

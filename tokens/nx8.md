@@ -1,10 +1,15 @@
 # NX8 DeFi Yields
 
-The highest honest NX8 yield right now is 12.59% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NX8 yield right now is 11.05% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=a8e35214-28a0-420f-ad6f-54a8e8af9700&src=seo_token) | Solana | 12.59% | $561.6K |
+| [orca-dex →](https://www.defi.garden/?pool=a8e35214-28a0-420f-ad6f-54a8e8af9700&src=seo_token) | Solana | 11.05% | $561.8K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank NX8 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NX8 yield today?
 
-12.59% APY on orca-dex (Solana), based on live DefiLlama data.
+11.05% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many NX8 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $561.6K in total.
+1 live pool clear this page's $100K TVL floor, $561.8K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which NX8 pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank NX8 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

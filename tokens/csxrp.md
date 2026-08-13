@@ -6,6 +6,11 @@ The highest honest CSXRP yield right now is 0.37% on mystic-finance-lending (Fla
 |---|---|---|---|
 | [mystic-finance-lending →](https://www.defi.garden/?pool=ae77c3b6-f9ca-49a8-b24d-08c12ac2d7b4&src=seo_token) | Flare | 0.37% | $2.19M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank CSXRP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -22,6 +27,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
+### Which CSXRP pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank CSXRP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 ## Related tokens
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

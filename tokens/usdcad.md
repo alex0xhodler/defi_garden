@@ -4,7 +4,12 @@ The highest honest USDCAD yield right now is 45.77% on gmtrade (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=ab5cddbb-e1f9-42fb-909e-62fbbe7dcb7b&src=seo_token) | Solana | 45.77% | $2.74M |
+| [gmtrade →](https://www.defi.garden/?pool=ab5cddbb-e1f9-42fb-909e-62fbbe7dcb7b&src=seo_token) | Solana | 45.77% | $2.76M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank USDCAD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDCAD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.74M in total.
+1 live pool clear this page's $100K TVL floor, $2.76M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which USDCAD pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank USDCAD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

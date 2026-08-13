@@ -1,10 +1,15 @@
 # SDFRXUSDV2 DeFi Yields
 
-The highest honest SDFRXUSDV2 yield right now is 3.20% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDFRXUSDV2 yield right now is 3.17% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0c305f71-d4bf-401b-ad89-76d814954dcf&src=seo_token) | Ethereum | 3.20% | $1.13M |
+| [morpho-blue →](https://www.defi.garden/?pool=0c305f71-d4bf-401b-ad89-76d814954dcf&src=seo_token) | Ethereum | 3.17% | $1.13M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SDFRXUSDV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDFRXUSDV2 yield today?
 
-3.20% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.17% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SDFRXUSDV2 pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SDFRXUSDV2 pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SDFRXUSDV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

@@ -4,7 +4,12 @@ The highest honest SBETH yield right now is 0.29% on scallop-lend (Sui), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [scallop-lend →](https://www.defi.garden/?pool=2c2098f4-8581-4614-baaf-d56831f2a6ee&src=seo_token) | Sui | 0.29% | $509.4K |
+| [scallop-lend →](https://www.defi.garden/?pool=2c2098f4-8581-4614-baaf-d56831f2a6ee&src=seo_token) | Sui | 0.29% | $511K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SBETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SBETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $509.4K in total.
+1 live pool clear this page's $100K TVL floor, $511K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SBETH pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SBETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

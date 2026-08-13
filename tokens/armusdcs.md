@@ -4,7 +4,12 @@ The highest honest ARMUSDCS yield right now is 5.17% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d2a99602-b0c7-4f6a-a329-82bdaad3df0c&src=seo_token) | Ethereum | 5.17% | $36.08M |
+| [morpho-blue →](https://www.defi.garden/?pool=d2a99602-b0c7-4f6a-a329-82bdaad3df0c&src=seo_token) | Ethereum | 5.17% | $36.12M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank ARMUSDCS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ARMUSDCS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $36.08M in total.
+1 live pool clear this page's $100K TVL floor, $36.12M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which ARMUSDCS pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank ARMUSDCS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

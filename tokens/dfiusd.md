@@ -1,10 +1,15 @@
 # DFIUSD DeFi Yields
 
-The highest honest DFIUSD yield right now is 0.04% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DFIUSD yield right now is 0.03% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0c37d0c2-9e69-4f9d-b0d7-a0b2aadc43fb&src=seo_token) | Ethereum | 0.04% | $280.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0c37d0c2-9e69-4f9d-b0d7-a0b2aadc43fb&src=seo_token) | Ethereum | 0.03% | $280.4K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank DFIUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DFIUSD yield today?
 
-0.04% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.03% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many DFIUSD pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which DFIUSD pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank DFIUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

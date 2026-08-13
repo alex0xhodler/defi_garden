@@ -6,10 +6,24 @@
 |---|---|---|---|
 | [mdex →](https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token) | BSC | 0.03% | $7.51M |
 | [mdex →](https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token) | Heco | 0.05% | $5.54M |
-| [mdex →](https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token) | BSC | 0.03% | $548.4K |
+| [mdex →](https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token) | BSC | 0.03% | $548.9K |
 | [mdex →](https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token) | Heco | 0.51% | $143.5K |
 | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token) | Heco | 1.49% | $135.5K |
 | [mdex →](https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token) | BSC | 0.31% | $117.4K |
+
+<!-- rate-stability:ranked -->
+## APY 이력 기반 수익률 안정성
+
+APY 이력만 기준으로 비교한 MDX의 변동성 낮은 후보는 BSC의 mdex, APY 0.31%, TVL $117.4K, https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token; BSC의 mdex, APY 0.03%, TVL $7.51M, https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token; Heco의 mdex, APY 0.51%, TVL $143.5K, https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token; Heco의 mdex, APY 0.05%, TVL $5.54M, https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token; Heco의 mdex, APY 1.49%, TVL $135.5K, https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token; BSC의 mdex, APY 0.03%, TVL $548.9K, https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+
+| 순위 | 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|---|
+| 1 | [mdex →](https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token) | BSC | 0.31% | $117.4K |
+| 2 | [mdex →](https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token) | BSC | 0.03% | $7.51M |
+| 3 | [mdex →](https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token) | Heco | 0.51% | $143.5K |
+| 4 | [mdex →](https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token) | Heco | 0.05% | $5.54M |
+| 5 | [mdex →](https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token) | Heco | 1.49% | $135.5K |
+| 6 | [mdex →](https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token) | BSC | 0.03% | $548.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -48,6 +62,10 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 1.49%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
+### MDX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+
+APY 이력만 기준으로 비교한 MDX의 변동성 낮은 후보는 BSC의 mdex, APY 0.31%, TVL $117.4K, https://www.defi.garden/?pool=29e7cf72-73db-4968-9074-86e6a68180c9&src=seo_token; BSC의 mdex, APY 0.03%, TVL $7.51M, https://www.defi.garden/?pool=dca9ac33-b17b-4998-ac88-24b4cd6c9cd3&src=seo_token; Heco의 mdex, APY 0.51%, TVL $143.5K, https://www.defi.garden/?pool=3218a6d2-6692-4c25-8382-8ba2fb5cde59&src=seo_token; Heco의 mdex, APY 0.05%, TVL $5.54M, https://www.defi.garden/?pool=279e4cc3-d69b-4567-94e5-74eddd7a10ed&src=seo_token; Heco의 mdex, APY 1.49%, TVL $135.5K, https://www.defi.garden/?pool=359957b0-5365-4713-a400-fbfa74313cb9&src=seo_token; BSC의 mdex, APY 0.03%, TVL $548.9K, https://www.defi.garden/?pool=9d7e0d0d-d284-4f5f-9706-9b9f41758093&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+
 ## 관련 토큰
 
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
@@ -62,4 +80,4 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 1.49%예요.
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Heco](https://www.defi.garden/ko/chains/heco)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

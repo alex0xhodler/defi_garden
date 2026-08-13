@@ -6,6 +6,11 @@ The highest honest NFALCON yield right now is 7.17% on nest-credit (Plume Mainne
 |---|---|---|---|
 | [nest-credit →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.17% | $28.76M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank NFALCON pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -22,6 +27,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
+### Which NFALCON pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank NFALCON pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 ## Related tokens
 
 - [USTB](https://www.defi.garden/tokens/ustb)
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

@@ -1,10 +1,15 @@
 # SYNUSDX DeFi Yields
 
-The highest honest SYNUSDX yield right now is 13.57% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYNUSDX yield right now is 13.01% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=30aa6a6f-63ff-44e0-8a50-7fa00fd3d540&src=seo_token) | Ethereum | 13.57% | $357K |
+| [lagoon →](https://www.defi.garden/?pool=30aa6a6f-63ff-44e0-8a50-7fa00fd3d540&src=seo_token) | Ethereum | 13.01% | $362K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SYNUSDX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SYNUSDX yield today?
 
-13.57% APY on lagoon (Ethereum), based on live DefiLlama data.
+13.01% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many SYNUSDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $357K in total.
+1 live pool clear this page's $100K TVL floor, $362K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SYNUSDX pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SYNUSDX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

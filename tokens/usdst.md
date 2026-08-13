@@ -6,6 +6,11 @@ The highest honest USDST yield right now is 5.00% on strato (Strato), among 1 po
 |---|---|---|---|
 | [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f&src=seo_token) | Strato | 5.00% | $1.67M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank USDST pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -22,6 +27,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
+### Which USDST pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank USDST pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 ## Related tokens
 
 - [STRATO](https://www.defi.garden/tokens/strato)
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Strato](https://www.defi.garden/chains/strato)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

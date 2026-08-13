@@ -6,9 +6,14 @@
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=3d5c485e-5dfd-5396-84d5-6ce1ef0abc28&src=seo_token) | Solana | 0.01% | $99.9M |
 | [raydium-amm →](https://www.defi.garden/?pool=f147cf61-e857-520d-83ba-c0f6b2ec69da&src=seo_token) | Solana | 0.01% | $98.9M |
-| [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.01% | $96.92M |
+| [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.02% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=aea8280b-7549-5191-aedf-564957812cfb&src=seo_token) | Solana | 0.01% | $96.91M |
 | [raydium-amm →](https://www.defi.garden/?pool=ccb7702c-646c-5583-9757-46c347e2417c&src=seo_token) | Solana | 0.02% | $93.94M |
+
+<!-- rate-stability:insufficient -->
+## APY 이력 기반 수익률 안정성
+
+비교할 수 있는 CC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -26,7 +31,7 @@ CC 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 0.02%까�
 |---|---|---|---|
 | raydium-amm | 0.01% | 0.01% | 기본 금리 |
 | raydium-amm | 0.01% | 0.00% | 기본 금리 |
-| raydium-amm | 0.01% | 0.01% | 기본 금리 |
+| raydium-amm | 0.02% | 0.01% | 기본 금리 |
 | raydium-amm | 0.01% | 0.01% | 기본 금리 |
 | raydium-amm | 0.02% | 0.02% | 기본 금리 |
 
@@ -46,6 +51,10 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.02%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
+### CC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+
+비교할 수 있는 CC 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
@@ -59,4 +68,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.02%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

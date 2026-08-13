@@ -4,11 +4,23 @@ The highest honest BNB yield right now is 106.05% on gmtrade (Solana), among 6 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.10% | $297.94M |
-| [raydium-amm →](https://www.defi.garden/?pool=f15c7999-1309-512e-b18f-7d8a363721ec&src=seo_token) | Solana | 0.17% | $6.87M |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.30% | $275.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 29.61% | $213.1K |
-| [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 106.05% | $104.6K |
+| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.10% | $298.07M |
+| [raydium-amm →](https://www.defi.garden/?pool=f15c7999-1309-512e-b18f-7d8a363721ec&src=seo_token) | Solana | 0.19% | $6.87M |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.32% | $275.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 24.57% | $214.2K |
+| [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 106.05% | $103K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, BNB's lower-variability candidates are lista-lending (BSC), 0.10% APY, $298.07M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; gmx-v2-perps (Arbitrum), 0.32% APY, $275.9K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; gmtrade (Solana), 106.05% APY, $103K TVL, https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token; uniswap-v3 (Ethereum), 24.57% APY, $214.2K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.10% | $298.07M |
+| 2 | [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.32% | $275.9K |
+| 3 | [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 106.05% | $103K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 24.57% | $214.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +28,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 BNB shows up in 5 pools here, with rates from 0.10% to 106.05% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.22% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.23% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,10 +37,10 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | lista-lending | 0.10% | 0.09% | Base rate |
-| raydium-amm | 0.17% | 0.14% | Base rate |
-| gmx-v2-perps | 0.30% | 0.22% | Base rate |
-| uniswap-v3 | 29.61% | 23.36% | Base rate |
-| gmtrade | 106.05% | 95.31% | Base rate |
+| raydium-amm | 0.19% | 0.14% | Base rate |
+| gmx-v2-perps | 0.32% | 0.23% | Base rate |
+| uniswap-v3 | 24.57% | 22.80% | Base rate |
+| gmtrade | 106.05% | 96.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +52,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BNB pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $305.97M in total.
+6 live pools clear this page's $100K TVL floor, $306.09M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which BNB pools have the most stable APY history?
+
+Based on APY history only, BNB's lower-variability candidates are lista-lending (BSC), 0.10% APY, $298.07M TVL, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; gmx-v2-perps (Arbitrum), 0.32% APY, $275.9K TVL, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; gmtrade (Solana), 106.05% APY, $103K TVL, https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token; uniswap-v3 (Ethereum), 24.57% APY, $214.2K TVL, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -62,4 +78,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

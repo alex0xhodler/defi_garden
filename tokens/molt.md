@@ -1,10 +1,15 @@
 # MOLT DeFi Yields
 
-The highest honest MOLT yield right now is 1.01% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOLT yield right now is 1.10% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=53552b29-1dac-4aec-8034-c5a486b2a8a1&src=seo_token) | Base | 1.01% | $1.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=53552b29-1dac-4aec-8034-c5a486b2a8a1&src=seo_token) | Base | 1.10% | $1.03M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank MOLT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOLT yield today?
 
-1.01% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.10% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many MOLT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.02M in total.
+1 live pool clear this page's $100K TVL floor, $1.03M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which MOLT pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank MOLT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

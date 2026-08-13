@@ -4,11 +4,23 @@ The highest honest YIELD yield right now is 6.46% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 6.46% | $6.77M |
+| [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 6.46% | $6.65M |
 | [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 0.06% | $3.19M |
-| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.73% | $1.69M |
-| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 4.46% | $683.4K |
-| [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 2.56% | $221.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.73% | $1.68M |
+| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 4.46% | $595.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 2.56% | $221.7K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, YIELD's lower-variability candidates are morpho-blue (Arbitrum), 4.46% APY, $595.5K TVL, https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token; morpho-blue (Ethereum), 2.56% APY, $221.7K TVL, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token; morpho-blue (Ethereum), 2.73% APY, $1.68M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; morpho-blue (Ethereum), 6.46% APY, $6.65M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 4.46% | $595.5K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token) | Ethereum | 2.56% | $221.7K |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.73% | $1.68M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 6.46% | $6.65M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +28,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 YIELD shows up in 5 pools here, with rates from 0.06% to 6.46% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 3.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 3.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -24,11 +36,11 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 6.46% | 6.89% | Base rate |
+| morpho-blue | 6.46% | 6.88% | Base rate |
 | morpho-blue | 0.06% | 0.11% | Base rate |
 | morpho-blue | 2.73% | 2.79% | Base rate |
-| morpho-blue | 4.46% | 3.90% | Base rate |
-| morpho-blue | 2.56% | 3.10% | Base rate |
+| morpho-blue | 4.46% | 3.91% | Base rate |
+| morpho-blue | 2.56% | 3.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +52,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YIELD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $12.97M in total.
+6 live pools clear this page's $100K TVL floor, $12.77M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which YIELD pools have the most stable APY history?
+
+Based on APY history only, YIELD's lower-variability candidates are morpho-blue (Arbitrum), 4.46% APY, $595.5K TVL, https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token; morpho-blue (Ethereum), 2.56% APY, $221.7K TVL, https://www.defi.garden/?pool=dcd12f85-bb70-41a5-b862-29a7e25fc055&src=seo_token; morpho-blue (Ethereum), 2.73% APY, $1.68M TVL, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; morpho-blue (Ethereum), 6.46% APY, $6.65M TVL, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,4 +76,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

@@ -6,9 +6,14 @@ The highest honest CC yield right now is 0.02% on raydium-amm (Solana), among 6 
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=3d5c485e-5dfd-5396-84d5-6ce1ef0abc28&src=seo_token) | Solana | 0.01% | $99.9M |
 | [raydium-amm →](https://www.defi.garden/?pool=f147cf61-e857-520d-83ba-c0f6b2ec69da&src=seo_token) | Solana | 0.01% | $98.9M |
-| [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.01% | $96.92M |
+| [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.02% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=aea8280b-7549-5191-aedf-564957812cfb&src=seo_token) | Solana | 0.01% | $96.91M |
 | [raydium-amm →](https://www.defi.garden/?pool=ccb7702c-646c-5583-9757-46c347e2417c&src=seo_token) | Solana | 0.02% | $93.94M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank CC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -26,7 +31,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.01% | 0.00% | Base rate |
-| raydium-amm | 0.01% | 0.01% | Base rate |
+| raydium-amm | 0.02% | 0.01% | Base rate |
 | raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.02% | 0.02% | Base rate |
 
@@ -46,6 +51,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
+### Which CC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank CC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
@@ -59,4 +68,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

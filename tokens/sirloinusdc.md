@@ -1,10 +1,15 @@
 # SIRLOINUSDC DeFi Yields
 
-The highest honest SIRLOINUSDC yield right now is 5.46% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIRLOINUSDC yield right now is 5.47% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8276be38-acc6-4005-ab0d-62680f49f4df&src=seo_token) | Base | 5.46% | $306.08M |
+| [morpho-blue →](https://www.defi.garden/?pool=8276be38-acc6-4005-ab0d-62680f49f4df&src=seo_token) | Base | 5.47% | $310.4M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SIRLOINUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIRLOINUSDC yield today?
 
-5.46% APY on morpho-blue (Base), based on live DefiLlama data.
+5.47% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many SIRLOINUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $306.08M in total.
+1 live pool clear this page's $100K TVL floor, $310.4M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SIRLOINUSDC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SIRLOINUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

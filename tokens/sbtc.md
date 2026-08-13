@@ -4,7 +4,12 @@ The highest honest SBTC yield right now is 0.02% on zest-v2 (Stacks), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zest-v2 →](https://www.defi.garden/?pool=f003d6df-fb8f-4a74-8cfb-aee8cc44f433&src=seo_token) | Stacks | 0.02% | $42.89M |
+| [zest-v2 →](https://www.defi.garden/?pool=f003d6df-fb8f-4a74-8cfb-aee8cc44f433&src=seo_token) | Stacks | 0.02% | $42.84M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $42.89M in total.
+1 live pool clear this page's $100K TVL floor, $42.84M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SBTC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

@@ -1,10 +1,15 @@
 # SRPRIME DeFi Yields
 
-The highest honest SRPRIME yield right now is 6.29% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRPRIME yield right now is 6.20% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=c590eff9-9de2-462c-b629-7e9c89f0b8e9&src=seo_token) | Ethereum | 6.29% | $101.4K |
+| [strata-markets →](https://www.defi.garden/?pool=c590eff9-9de2-462c-b629-7e9c89f0b8e9&src=seo_token) | Ethereum | 6.20% | $101.5K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SRPRIME pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRPRIME yield today?
 
-6.29% APY on strata-markets (Ethereum), based on live DefiLlama data.
+6.20% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many SRPRIME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.4K in total.
+1 live pool clear this page's $100K TVL floor, $101.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SRPRIME pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SRPRIME pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -35,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

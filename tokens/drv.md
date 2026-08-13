@@ -1,22 +1,35 @@
 # DRV DeFi Yields
 
-The highest honest DRV yield right now is 158.50% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DRV yield right now is 136.75% on nest-cl (Hyperliquid L1), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 19.15% | $434.2K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 158.50% | $414.9K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 34.42% | $262.6K |
-| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 87.22% | $189.8K |
-| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 126.46% | $171.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 13.71% | $433.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 135.85% | $425.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 34.50% | $262.8K |
+| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 191.15% | $189.3K |
+| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 136.75% | $167.4K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, DRV's lower-variability candidates are aerodrome-v1 (Base), 34.50% APY, $262.8K TVL, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; nest-cl (Hyperliquid L1), 191.15% APY, $189.3K TVL, https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token; aerodrome-slipstream (Base), 135.85% APY, $425.9K TVL, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; nest-cl (Hyperliquid L1), 136.75% APY, $167.4K TVL, https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token; uniswap-v4 (Base), 13.71% APY, $433.1K TVL, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 34.50% | $262.8K |
+| 2 | [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 191.15% | $189.3K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 135.85% | $425.9K |
+| 4 | [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 136.75% | $167.4K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 13.71% | $433.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DRV shows up in 5 pools here, with rates from 19.15% to 158.50% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+DRV shows up in 5 pools here, with rates from 13.71% to 191.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 191.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 125.21% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -24,11 +37,11 @@ DRV shows up in 5 pools here, with rates from 19.15% to 158.50% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 19.15% | 215.48% | Base rate |
-| aerodrome-slipstream | 158.50% | 252.60% | 100.00% incentives |
-| aerodrome-v1 | 34.42% | 43.92% | 100.00% incentives |
-| nest-cl | 87.22% | 76.51% | 100.00% incentives |
-| nest-cl | 126.46% | 191.14% | 100.00% incentives |
+| uniswap-v4 | 13.71% | 125.21% | Base rate |
+| aerodrome-slipstream | 135.85% | 209.17% | 68.80% incentives |
+| aerodrome-v1 | 34.50% | 44.12% | 100.00% incentives |
+| nest-cl | 191.15% | 80.11% | 100.00% incentives |
+| nest-cl | 136.75% | 189.58% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,15 +49,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DRV yield today?
 
-158.50% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+136.75% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many DRV pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.47M in total.
+5 live pools clear this page's $100K TVL floor, $1.48M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which DRV pools have the most stable APY history?
+
+Based on APY history only, DRV's lower-variability candidates are aerodrome-v1 (Base), 34.50% APY, $262.8K TVL, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; nest-cl (Hyperliquid L1), 191.15% APY, $189.3K TVL, https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token; aerodrome-slipstream (Base), 135.85% APY, $425.9K TVL, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; nest-cl (Hyperliquid L1), 136.75% APY, $167.4K TVL, https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token; uniswap-v4 (Base), 13.71% APY, $433.1K TVL, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,4 +77,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Base](https://www.defi.garden/chains/base)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

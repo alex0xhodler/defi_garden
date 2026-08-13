@@ -1,23 +1,37 @@
 # SPX 디파이 수익률
 
-현재 SPX의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 22.57%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SPX의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 24.96%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token) | Ethereum | 1.01% | $8.75M |
-| [raydium-amm →](https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token) | Solana | 3.73% | $1.58M |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token) | Base | 7.07% | $512.2K |
-| [orca-dex →](https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token) | Solana | 22.57% | $317.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token) | Ethereum | 16.51% | $277.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token) | Ethereum | 0.35% | $158.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token) | Ethereum | 1.64% | $8.74M |
+| [raydium-amm →](https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token) | Solana | 4.33% | $1.59M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token) | Base | 7.10% | $511.6K |
+| [orca-dex →](https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token) | Solana | 24.96% | $319.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token) | Ethereum | 9.63% | $277.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token) | Ethereum | 0.42% | $158.3K |
+
+<!-- rate-stability:ranked -->
+## APY 이력 기반 수익률 안정성
+
+APY 이력만 기준으로 비교한 SPX의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 7.10%, TVL $511.6K, https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token; Ethereum의 uniswap-v4, APY 0.42%, TVL $158.3K, https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token; Solana의 raydium-amm, APY 4.33%, TVL $1.59M, https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token; Ethereum의 uniswap-v2, APY 1.64%, TVL $8.74M, https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token; Ethereum의 uniswap-v3, APY 9.63%, TVL $277.4K, https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token; Solana의 orca-dex, APY 24.96%, TVL $319.2K, https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+
+| 순위 | 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|---|
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token) | Base | 7.10% | $511.6K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token) | Ethereum | 0.42% | $158.3K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token) | Solana | 4.33% | $1.59M |
+| 4 | [uniswap-v2 →](https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token) | Ethereum | 1.64% | $8.74M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token) | Ethereum | 9.63% | $277.4K |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token) | Solana | 24.96% | $319.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SPX 풀은 여기 6개가 있고, 3개 체인에서 APY가 0.35%부터 22.57%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SPX 풀은 여기 6개가 있고, 3개 체인에서 APY가 0.42%부터 24.96%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 11.03%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+6개 풀 중 6개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 10.70%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 6개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -25,12 +39,12 @@ SPX 풀은 여기 6개가 있고, 3개 체인에서 APY가 0.35%부터 22.57%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 1.01% | 4.94% | 기본 금리 |
-| raydium-amm | 3.73% | 8.29% | 기본 금리 |
-| aerodrome-v1 | 7.07% | 13.77% | 인센티브 100.00% |
-| orca-dex | 22.57% | 30.48% | 기본 금리 |
-| uniswap-v3 | 16.51% | 19.56% | 기본 금리 |
-| uniswap-v4 | 0.35% | 1.38% | 기본 금리 |
+| uniswap-v2 | 1.64% | 4.67% | 기본 금리 |
+| raydium-amm | 4.33% | 7.86% | 기본 금리 |
+| aerodrome-v1 | 7.10% | 13.54% | 인센티브 100.00% |
+| orca-dex | 24.96% | 29.69% | 기본 금리 |
+| uniswap-v3 | 9.63% | 18.72% | 기본 금리 |
+| uniswap-v4 | 0.42% | 1.28% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -38,7 +52,7 @@ SPX 풀은 여기 6개가 있고, 3개 체인에서 APY가 0.35%부터 22.57%까
 
 ### 오늘 SPX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 22.57%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 24.96%예요.
 
 ### SPX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -47,6 +61,10 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 22.57%예요.
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
+
+### SPX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+
+APY 이력만 기준으로 비교한 SPX의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 7.10%, TVL $511.6K, https://www.defi.garden/?pool=5f46d9a5-b1e7-49e4-93f8-e6d7a504eb9f&src=seo_token; Ethereum의 uniswap-v4, APY 0.42%, TVL $158.3K, https://www.defi.garden/?pool=3ea04079-840c-44d3-abf0-f8c4185875aa&src=seo_token; Solana의 raydium-amm, APY 4.33%, TVL $1.59M, https://www.defi.garden/?pool=e7187b64-b5f9-43cb-a2be-c101b72873bc&src=seo_token; Ethereum의 uniswap-v2, APY 1.64%, TVL $8.74M, https://www.defi.garden/?pool=d1333759-d29f-4ef7-9347-0109583e5a9a&src=seo_token; Ethereum의 uniswap-v3, APY 9.63%, TVL $277.4K, https://www.defi.garden/?pool=da527a50-3f37-43b1-a19b-1c523e5dbd84&src=seo_token; Solana의 orca-dex, APY 24.96%, TVL $319.2K, https://www.defi.garden/?pool=c6964877-52dc-423e-96a3-1788984a6aaa&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -63,4 +81,4 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 22.57%예요.
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

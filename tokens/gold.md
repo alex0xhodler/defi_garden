@@ -4,7 +4,12 @@ The highest honest GOLD yield right now is 0.15% on folks-finance-lending (Algor
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.15% | $525.3K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.15% | $512.6K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank GOLD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,11 +35,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GOLD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $924.6K in total.
+3 live pools clear this page's $100K TVL floor, $913.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which GOLD pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank GOLD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -49,4 +58,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Algorand](https://www.defi.garden/chains/algorand)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

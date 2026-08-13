@@ -1,25 +1,41 @@
 # PENDLE DeFi Yields
 
-The highest honest PENDLE yield right now is 23.22% on uniswap-v3 (Arbitrum), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PENDLE yield right now is 24.54% on uniswap-v3 (Arbitrum), among 15 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token) | Arbitrum | 4.05% | $1.5M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token) | Arbitrum | 11.41% | $800.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token) | Arbitrum | 23.22% | $447.7K |
-| [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token) | Arbitrum | 0.39% | $403.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token) | Arbitrum | 9.70% | $243.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 1.84% | $229.4K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token) | Arbitrum | 0.15% | $220.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 100.52% | $139.7K |
+| [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token) | Arbitrum | 2.83% | $1.52M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token) | Arbitrum | 14.03% | $812.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token) | Arbitrum | 24.54% | $456.9K |
+| [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token) | Arbitrum | 0.39% | $413.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token) | Arbitrum | 10.61% | $248.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 15.99% | $231.6K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token) | Arbitrum | 0.13% | $222.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 113.79% | $142.3K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, PENDLE's lower-variability candidates are dolomite (Arbitrum), 0.39% APY, $413.3K TVL, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token; gmx-v2-perps (Arbitrum), 0.13% APY, $222.8K TVL, https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token; uniswap-v4 (Ethereum), 15.99% APY, $231.6K TVL, https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token; uniswap-v3 (Arbitrum), 10.61% APY, $248.8K TVL, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token; camelot-v2 (Arbitrum), 2.83% APY, $1.52M TVL, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token; uniswap-v3 (Arbitrum), 14.03% APY, $812.2K TVL, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token; uniswap-v3 (Ethereum), 113.79% APY, $142.3K TVL, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token; uniswap-v3 (Arbitrum), 24.54% APY, $456.9K TVL, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token) | Arbitrum | 0.39% | $413.3K |
+| 2 | [gmx-v2-perps →](https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token) | Arbitrum | 0.13% | $222.8K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 15.99% | $231.6K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token) | Arbitrum | 10.61% | $248.8K |
+| 5 | [camelot-v2 →](https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token) | Arbitrum | 2.83% | $1.52M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token) | Arbitrum | 14.03% | $812.2K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 113.79% | $142.3K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token) | Arbitrum | 24.54% | $456.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PENDLE shows up in 8 pools here, with rates from 0.15% to 100.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PENDLE shows up in 8 pools here, with rates from 0.13% to 113.79% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 15.27% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 15.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,14 +43,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| camelot-v2 | 4.05% | 2.89% | Base rate |
-| uniswap-v3 | 11.41% | 15.89% | Base rate |
-| uniswap-v3 | 23.22% | 36.94% | Base rate |
-| dolomite | 0.39% | 0.37% | Base rate |
-| uniswap-v3 | 9.70% | 17.15% | Base rate |
-| uniswap-v4 | 1.84% | 14.65% | Base rate |
-| gmx-v2-perps | 0.15% | 2.57% | Base rate |
-| uniswap-v3 | 100.52% | 40.73% | Base rate |
+| camelot-v2 | 2.83% | 2.90% | Base rate |
+| uniswap-v3 | 14.03% | 15.81% | Base rate |
+| uniswap-v3 | 24.54% | 36.58% | Base rate |
+| dolomite | 0.39% | 0.38% | Base rate |
+| uniswap-v3 | 10.61% | 16.91% | Base rate |
+| uniswap-v4 | 15.99% | 14.54% | Base rate |
+| gmx-v2-perps | 0.13% | 2.47% | Base rate |
+| uniswap-v3 | 113.79% | 42.39% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,15 +58,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PENDLE yield today?
 
-23.22% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+24.54% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many PENDLE pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $5.37M in total.
+15 live pools clear this page's $100K TVL floor, $5.46M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which PENDLE pools have the most stable APY history?
+
+Based on APY history only, PENDLE's lower-variability candidates are dolomite (Arbitrum), 0.39% APY, $413.3K TVL, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token; gmx-v2-perps (Arbitrum), 0.13% APY, $222.8K TVL, https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token; uniswap-v4 (Ethereum), 15.99% APY, $231.6K TVL, https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token; uniswap-v3 (Arbitrum), 10.61% APY, $248.8K TVL, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token; camelot-v2 (Arbitrum), 2.83% APY, $1.52M TVL, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token; uniswap-v3 (Arbitrum), 14.03% APY, $812.2K TVL, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token; uniswap-v3 (Ethereum), 113.79% APY, $142.3K TVL, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token; uniswap-v3 (Arbitrum), 24.54% APY, $456.9K TVL, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -66,4 +86,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026
