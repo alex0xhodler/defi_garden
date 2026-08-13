@@ -853,6 +853,120 @@ function renderFaqJsonLd(faqItems) {
     }))
   }).replace(/</g, '\\u003c');
 }
+// --- APY-history rate stability (item 279) ----------------------------------
+// A pool needs enough observations for its sigma ordering to be meaningful.
+// The count and sigma remain private inputs: neither reaches the returned
+// candidate records nor any visible copy.
+const RATE_STABILITY_MIN_OBSERVATIONS = 30;
+
+/**
+ * Builds the public facts used by the rate-stability HTML, Markdown, and FAQ.
+ * Lower APY sigma ranks first. Text ties use a deterministic project, chain,
+ * then pool-id ordering so source-array order cannot affect the result.
+ */
+function rateStabilityFor(rec) {
+  const appUrl = `${SITE_URL}/?token=${encodeURIComponent(rec.symbol)}&minTvl=${MIN_POOL_TVL}`;
+  const eligible = (rec.pools || []).filter(p =>
+    isQualifyingPool(p) &&
+    formatApy(poolTotalApy(p)) !== '0.00%' &&
+    Number.isInteger(p.count) &&
+    p.count >= RATE_STABILITY_MIN_OBSERVATIONS &&
+    typeof p.sigma === 'number' &&
+    Number.isFinite(p.sigma) &&
+    p.sigma >= 0
+  );
+
+  if (eligible.length < 2) {
+    return { status: 'insufficient', candidates: [] };
+  }
+
+  eligible.sort((a, b) => {
+    if (a.sigma !== b.sigma) return a.sigma - b.sigma;
+    const projectOrder = String(a.project || '').localeCompare(String(b.project || ''));
+    if (projectOrder) return projectOrder;
+    const chainOrder = String(a.chain || '').localeCompare(String(b.chain || ''));
+    if (chainOrder) return chainOrder;
+    return String(a.pool || '').localeCompare(String(b.pool || ''));
+  });
+
+  return {
+    status: 'ranked',
+    candidates: eligible.map((p, index) => ({
+      rank: index + 1,
+      project: p.project || '—',
+      chain: p.chain || '—',
+      apyStr: formatApy(poolTotalApy(p)),
+      tvlStr: formatUsd(p.tvlUsd),
+      href: poolHrefFor(p, appUrl, 'seo_token')
+    }))
+  };
+}
+
+/** One raw FAQ item shared by visible copy and FAQPage JSON-LD. */
+function rateStabilityFaqItem(stability, symbol, t) {
+  const question = t('tcpRateStabilityFaqQ', symbol);
+  if (stability.status !== 'ranked') {
+    return { q: question, a: t('tcpRateStabilityInsufficientAnswer', symbol) };
+  }
+  const candidates = stability.candidates.map(candidate =>
+    t('tcpRateStabilityCandidate', candidate.project, candidate.chain, candidate.apyStr, candidate.tvlStr, candidate.href)
+  ).join('; ');
+  return { q: question, a: t('tcpRateStabilityRankedAnswer', symbol, candidates) };
+}
+
+/** Visible HTML rendered solely from rateStabilityFor's public result. */
+function renderRateStabilityHtml(stability, symbol, t) {
+  const heading = t('tcpRateStabilityHeading');
+  const faq = rateStabilityFaqItem(stability, symbol, t);
+  const table = stability.status === 'ranked'
+    ? `      <div class="tp-card">
+      <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">${escapeHtml(t('tcpRateStabilityColRank'))}</th><th>${escapeHtml(t('tcpColProtocol'))}</th><th>${escapeHtml(t('tcpColChain'))}</th><th class="num">${escapeHtml(t('tcpColApy'))}</th><th class="num">${escapeHtml(t('tcpColTvl'))}</th></tr>
+        </thead>
+        <tbody>
+${stability.candidates.map(candidate => `          <tr>
+            <td class="num">${candidate.rank}</td>
+            <td><a class="tp-pool-link" href="${escapeHtml(candidate.href)}">${escapeHtml(candidate.project)} &rarr;</a></td>
+            <td>${escapeHtml(candidate.chain)}</td>
+            <td class="num">${candidate.apyStr}</td>
+            <td class="num">${candidate.tvlStr}</td>
+          </tr>`).join('\n')}
+        </tbody>
+      </table>
+      </div>
+      </div>
+`
+    : '';
+  return `    <section class="tp-rate-stability" data-rate-stability-status="${escapeHtml(stability.status)}" aria-label="${escapeHtml(heading)}">
+      <h2>${escapeHtml(heading)}</h2>
+      <p>${escapeHtml(faq.a)}</p>
+${table}    </section>
+`;
+}
+
+/** Markdown twin of renderRateStabilityHtml, fed by the same public result. */
+function renderRateStabilityMarkdown(stability, symbol, t) {
+  const heading = t('tcpRateStabilityHeading');
+  const faq = rateStabilityFaqItem(stability, symbol, t);
+  const table = stability.status === 'ranked'
+    ? `
+| ${t('tcpRateStabilityColRank')} | ${t('tcpColProtocol')} | ${t('tcpColChain')} | ${t('tcpColApy')} | ${t('tcpColTvl')} |
+|---|---|---|---|---|
+${stability.candidates.map(candidate =>
+    `| ${candidate.rank} | [${mdEscape(candidate.project)} →](${candidate.href}) | ${mdEscape(candidate.chain)} | ${candidate.apyStr} | ${candidate.tvlStr} |`
+  ).join('\n')}
+`
+    : '';
+  return `<!-- rate-stability:${stability.status} -->
+## ${heading}
+
+${faq.a}
+${table}
+`;
+}
+
 
 // --- Rate-behaviour depth section (item 232) --------------------------------
 // The 130-page Google head (item 226) carries the whole sitemap bet and had
@@ -1120,8 +1234,12 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
   // table/intro above already use — never touches raw pool data, so an
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
   // 242: attributed to headlinePool (NOT `top`) — the pool bestApy came from.
-  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
+  const { answer, faq: baseFaq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
+  const stability = rateStabilityFor(rec);
+  const stabilityFaq = rateStabilityFaqItem(stability, rec.symbol, t);
+  const faq = baseFaq.concat(stabilityFaq);
   const answerBlock = renderAnswerBlockHtml(answer, 'tp-answer');
+  const stabilityBlock = renderRateStabilityHtml(stability, rec.symbol, t);
   const faqBlock = renderFaqBlockHtml(faq, 'tp-faq', language);
   const faqJsonLd = renderFaqJsonLd(faq);
 
@@ -1159,7 +1277,7 @@ function renderTokenPage(rec, related, generatedDate, chainLinks, lang, ogImageP
 
   // Rate-behaviour depth section (232): head-set pages ONLY (territory note
   // 6 — `opts.isHead` defaults false, so every existing caller stays byte-
-  // identical). Placed after the pool table, before the FAQ block.
+  // identical). The rate-stability block above is independent of this gate.
   const isHead = !!(opts && opts.isHead);
   const depthBlock = isHead ? renderRateBehaviourHtml(rateBehaviourFor(rec), rec.symbol, t) : '';
 
@@ -1242,6 +1360,11 @@ ${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
 ${renderRateBehaviourStyle(isHead)}      .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
 ${renderWaitlistCtaStyle('tp')}    </style>
@@ -1265,7 +1388,7 @@ ${rows}
     </table>
     </div>
     </div>
-${depthBlock}${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+${stabilityBlock}${depthBlock}${faqBlock}${relatedBlock}${chainLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
 ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>
@@ -1297,7 +1420,11 @@ function renderTokenPageMarkdown(rec, related, generatedDate, chainLinks, lang, 
 
   // Direct-answer + FAQ (047): the SAME function call renderTokenPage makes,
   // with the SAME args — reused verbatim, never re-worded (212 fact parity).
-  const { answer, faq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
+  const { answer, faq: baseFaq } = buildAnswerAndFaq(rec.symbol, rec, bestApy, headlinePool, language);
+  const stability = rateStabilityFor(rec);
+  const stabilityFaq = rateStabilityFaqItem(stability, rec.symbol, t);
+  const faq = baseFaq.concat(stabilityFaq);
+  const stabilityMd = renderRateStabilityMarkdown(stability, rec.symbol, t);
 
   // Rate-behaviour depth section (232): SAME head gate as the HTML twin —
   // see renderTokenPage's own comment. '' when not head, matching before.
@@ -1331,7 +1458,7 @@ ${answer}
 |---|---|---|---|
 ${rows}
 
-${t('tcpTrustNote', floorStr)}
+${stabilityMd}${t('tcpTrustNote', floorStr)}
 
 ${depthMd}## ${t('tcpFaqHeading')}
 
@@ -1561,6 +1688,7 @@ module.exports = {
   renderHreflangLinks, renderFontPreloadLinks, SUPPORTED_LANGS,
   yieldHeadlineFor, renderYieldHeadlineHtml, yieldHeadlineAnchor, ladderLabelText, YIELD_HEADLINE_ANCHOR_ID,
   rateBehaviourFor, renderRateBehaviourHtml, renderRateBehaviourMarkdown, renderRateBehaviourStyle, mean30dSane,
+  RATE_STABILITY_MIN_OBSERVATIONS, rateStabilityFor, renderRateStabilityHtml, renderRateStabilityMarkdown, rateStabilityFaqItem,
   MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL, OG_FALLBACK_REL_PATH,
   REPRESENTATIVE_REL, REPRESENTATIVE_ABS_PP, representativenessRatio, isRepresentativeRate,
   headlinePoolFor

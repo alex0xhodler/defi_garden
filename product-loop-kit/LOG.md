@@ -650,6 +650,7 @@ CLASS OPEN, WITH THE NUMBER: the head is 159 `<loc>`s across two disjoint sitema
 2026-08-13 | build | 262 | 1 | IN_REVIEW — PR to be opened; OpenAPI matches 6 runtime GET routes; contract 9 payloads + API/MCP/x402/rail/registry checks green; baseline red is unrelated translations `Function.length` invariant | LOW | local
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 2026-08-13 | build | 151 | 1 | IN_REVIEW — PT and PT-parent search: canonical compact/hyphen forms, delimiter-bounded family matching, OPT-USDC RED→GREEN; 4 parser+4 rendered checks; reviewer PASS. YT deferred (no source). Plain 62/63: unrelated arity baseline fixed in #447. | HIGH | —
 2026-08-14 | build | 267 | 1 | SHIPPED — generated pricing boundary in edge/X402.md, edge/API.md, and edge/MCP.md from PRICE_SCHEDULE via edge/generate-pricing-docs.js; test_x402_core 223/223, test_x402_gate 285/285 | LOW | local
 =======
@@ -664,3 +665,6 @@ CLASS OPEN, WITH THE NUMBER: the head is 159 `<loc>`s across two disjoint sitema
 =======
 2026-08-14 | build | 277 | 1 | IN_REVIEW — generator-owned shared API & MCP section; regen twice on 15,604 pools, second unchanged; suites 2/2,14/14,8/8,12/12,57/57,11/11,5/5; mutation RED→GREEN, byte-identical restore; 265 prerequisite PR #441 shipped; no traffic claim | HIGH | n/a
 >>>>>>> bcaf67b11d (feat(discovery): advertise API and MCP in llms files)
+=======
+2026-08-13 | build | 279 | 1 | IN_REVIEW — ordinal rate-stability answers across eligible EN/KO token pages; test 8/8, browser ranked + insufficient states. Reviewer AMEND on source attribution fixed with `src=seo_token`; awaiting re-review | HIGH
+>>>>>>> 77c8dbee70 (feat(discovery): add citation-ready rate stability)
