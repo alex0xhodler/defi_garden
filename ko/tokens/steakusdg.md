@@ -26,13 +26,13 @@ DefiLlama 실시간 데이터 기준, Robinhood Chain의 morpho-blue에서 APY 7
 
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [USDG](https://www.defi.garden/ko/tokens/usdg)
-- [NVDA](https://www.defi.garden/ko/tokens/nvda)
 - [STONX](https://www.defi.garden/ko/tokens/stonx)
 - [VESTONX](https://www.defi.garden/ko/tokens/vestonx)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 
 ## 이용 가능한 체인
 
 - [Robinhood Chain](https://www.defi.garden/ko/chains/robinhood-chain)
 
-## 마지막 업데이트: August 12, 2026
+## 마지막 업데이트: August 13, 2026

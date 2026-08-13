@@ -1,19 +1,19 @@
 # OPEN DeFi Yields
 
-The highest honest OPEN yield right now is 5.05% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPEN yield right now is 4.13% on steer-protocol (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 4.13% | $272.7K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 5.05% | $204.2K |
+| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 4.13% | $267.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6ab4f0b7-2ad2-4b79-8430-a67f2ccb86bd&src=seo_token) | Ethereum | 2.97% | $200.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OPEN shows up in 2 pools here, with rates from 4.13% to 5.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OPEN shows up in 2 pools here, with rates from 2.97% to 4.13% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| steer-protocol | 4.13% | 3.59% | Base rate |
-| uniswap-v3 | 5.05% | 3.90% | Base rate |
+| steer-protocol | 4.13% | 3.60% | Base rate |
+| uniswap-v3 | 2.97% | 4.34% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OPEN yield today?
 
-5.05% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+4.13% APY on steer-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many OPEN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $860.9K in total.
+4 live pools clear this page's $100K TVL floor, $852K in total.
 
 ### Are these rates safe?
 
@@ -53,4 +53,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

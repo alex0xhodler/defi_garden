@@ -1,20 +1,20 @@
 # WOJAK DeFi Yields
 
-The highest honest WOJAK yield right now is 13.99% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WOJAK yield right now is 2.37% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 13.99% | $856.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.06% | $631.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token) | Solana | 3.78% | $102.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 5.32% | $847.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.31% | $621.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token) | Solana | 2.37% | $101.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WOJAK shows up in 3 pools here, with rates from 0.06% to 13.99% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WOJAK shows up in 3 pools here, with rates from 0.31% to 5.32% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 13.99% | 16.07% | Base rate |
-| uniswap-v2 | 0.06% | 0.20% | Base rate |
-| raydium-amm | 3.78% | 2.35% | Base rate |
+| uniswap-v2 | 5.32% | 15.94% | Base rate |
+| uniswap-v2 | 0.31% | 0.20% | Base rate |
+| raydium-amm | 2.37% | 2.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WOJAK yield today?
 
-13.99% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.37% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WOJAK pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.59M in total.
+3 live pools clear this page's $100K TVL floor, $1.57M in total.
 
 ### Are these rates safe?
 
@@ -56,4 +56,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

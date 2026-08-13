@@ -1,12 +1,12 @@
 # GCFA — balancer-v3 on Ethereum
 
-**Total APY:** 1.24% (0.14% Base · + 1.10% Rewards)
+**Total APY:** 1.25% (0.18% Base · + 1.07% Rewards)
 
-**TVL:** $193.3K
+**TVL:** $191.8K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 1.16%
+**30d Mean APY:** 1.17%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on balancer-v3](https://balancer.fi/?ref=defi.garden)
 
-Last updated August 12, 2026
+Last updated August 13, 2026

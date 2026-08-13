@@ -1,10 +1,10 @@
 # CRONOSUSDC DeFi Yields
 
-The highest honest CRONOSUSDC yield right now is 4.15% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRONOSUSDC yield right now is 4.20% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=7c9210dc-9550-47eb-b73c-5774aa629c96&src=seo_token) | Ethereum | 4.15% | $1.37M |
+| [morpho-blue →](https://www.defi.garden/?pool=7c9210dc-9550-47eb-b73c-5774aa629c96&src=seo_token) | Ethereum | 4.20% | $1.37M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRONOSUSDC yield today?
 
-4.15% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.20% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many CRONOSUSDC pools clear the TVL floor?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

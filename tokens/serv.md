@@ -1,19 +1,19 @@
 # SERV DeFi Yields
 
-The highest honest SERV yield right now is 205.75% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SERV yield right now is 188.68% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 13.55% | $1.28M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 205.75% | $789.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 11.45% | $1.24M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 188.68% | $771.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SERV shows up in 2 pools here, with rates from 13.55% to 205.75% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SERV shows up in 2 pools here, with rates from 11.45% to 188.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 143.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 143.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ SERV shows up in 2 pools here, with rates from 13.55% to 205.75% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 13.55% | 24.21% | Base rate |
-| aerodrome-slipstream | 205.75% | 262.16% | 86.62% incentives |
+| uniswap-v3 | 11.45% | 23.64% | Base rate |
+| aerodrome-slipstream | 188.68% | 263.82% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SERV yield today?
 
-205.75% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+188.68% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many SERV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.06M in total.
+2 live pools clear this page's $100K TVL floor, $2.01M in total.
 
 ### Are these rates safe?
 
@@ -54,4 +54,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

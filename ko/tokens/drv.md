@@ -1,22 +1,22 @@
 # DRV 디파이 수익률
 
-현재 DRV의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 175.58%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DRV의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 158.50%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 18.44% | $456.3K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 150.67% | $447.7K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 21.20% | $272.6K |
-| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 63.24% | $196.7K |
-| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 175.58% | $177.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 19.15% | $434.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 158.50% | $414.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 34.42% | $262.6K |
+| [nest-cl →](https://www.defi.garden/?pool=35944b65-a6bd-56a4-bd28-0928556a37e3&src=seo_token) | Hyperliquid L1 | 87.22% | $189.8K |
+| [nest-cl →](https://www.defi.garden/?pool=a0eb5898-118d-5a6d-9828-fd02b7170c52&src=seo_token) | Hyperliquid L1 | 126.46% | $171.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-DRV 풀은 여기 5개가 있고, 2개 체인에서 APY가 18.44%부터 175.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+DRV 풀은 여기 5개가 있고, 2개 체인에서 APY가 19.15%부터 158.50%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 192.16%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 191.14%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 5개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -24,11 +24,11 @@ DRV 풀은 여기 5개가 있고, 2개 체인에서 APY가 18.44%부터 175.58%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 18.44% | 217.67% | 기본 금리 |
-| aerodrome-slipstream | 150.67% | 251.78% | 인센티브 45.22% |
-| aerodrome-v1 | 21.20% | 44.04% | 인센티브 100.00% |
-| nest-cl | 63.24% | 76.66% | 인센티브 100.00% |
-| nest-cl | 175.58% | 192.16% | 인센티브 100.00% |
+| uniswap-v4 | 19.15% | 215.48% | 기본 금리 |
+| aerodrome-slipstream | 158.50% | 252.60% | 인센티브 100.00% |
+| aerodrome-v1 | 34.42% | 43.92% | 인센티브 100.00% |
+| nest-cl | 87.22% | 76.51% | 인센티브 100.00% |
+| nest-cl | 126.46% | 191.14% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -36,11 +36,11 @@ DRV 풀은 여기 5개가 있고, 2개 체인에서 APY가 18.44%부터 175.58%�
 
 ### 오늘 DRV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 175.58%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 158.50%예요.
 
 ### DRV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.55M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 175.58
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 12, 2026
+## 마지막 업데이트: August 13, 2026

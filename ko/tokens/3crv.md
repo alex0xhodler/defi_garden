@@ -1,25 +1,25 @@
 # 3CRV 디파이 수익률
 
-현재 3CRV의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 3.00%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 3CRV의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 15.10%이며, $100K TVL 기준을 넘는 12개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.01% | $11.9M |
-| [curve-dex →](https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token) | Ethereum | 4.00% | $1.07M |
-| [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.01% | $575.2K |
-| [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 3.00% | $405.6K |
-| [convex-finance →](https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token) | Ethereum | 0.01% | $383K |
+| [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.02% | $11.9M |
+| [curve-dex →](https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token) | Ethereum | 2.54% | $1.07M |
+| [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.01% | $575.1K |
+| [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 2.99% | $405.1K |
+| [convex-finance →](https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token) | Ethereum | 0.01% | $382.9K |
 | [curve-dex →](https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token) | Ethereum | 0.04% | $244.8K |
-| [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token) | Ethereum | 23.84% | $230.7K |
-| [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token) | Ethereum | 41.07% | $173.6K |
+| [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token) | Ethereum | 15.10% | $230.7K |
+| [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token) | Ethereum | 38.93% | $173.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-3CRV 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 41.07%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+3CRV 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.01%부터 38.93%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.65%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.69%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.01% | 0.04% | 인센티브 4.94% |
-| curve-dex | 4.00% | 1.14% | 인센티브 14.33% |
-| curve-dex | 0.01% | 0.06% | 인센티브 0.10% |
-| curve-dex | 3.00% | 3.02% | 기본 금리 |
-| convex-finance | 0.01% | 0.06% | 기본 금리 |
-| curve-dex | 0.04% | 0.17% | 인센티브 100.00% |
-| curve-dex | 23.84% | 13.43% | 인센티브 99.87% |
-| convex-finance | 41.07% | 24.70% | 인센티브 99.93% |
+| curve-dex | 0.02% | 0.04% | 인센티브 2.15% |
+| curve-dex | 2.54% | 1.21% | 인센티브 21.31% |
+| curve-dex | 0.01% | 0.05% | 인센티브 0.10% |
+| curve-dex | 2.99% | 3.02% | 기본 금리 |
+| convex-finance | 0.01% | 0.05% | 기본 금리 |
+| curve-dex | 0.04% | 0.16% | 인센티브 100.00% |
+| curve-dex | 15.10% | 13.67% | 인센티브 100.00% |
+| convex-finance | 38.93% | 25.13% | 인센티브 99.85% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,7 +42,7 @@
 
 ### 오늘 3CRV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 3.00%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 15.10%예요.
 
 ### 3CRV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -65,4 +65,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 3.00%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 12, 2026
+## 마지막 업데이트: August 13, 2026

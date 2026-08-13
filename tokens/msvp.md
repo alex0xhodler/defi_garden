@@ -1,10 +1,10 @@
 # MSVP DeFi Yields
 
-The highest honest MSVP yield right now is 0.06% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSVP yield right now is 0.29% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5b03658e-fa48-48ee-9142-511e39690259&src=seo_token) | Solana | 0.06% | $2.03M |
+| [raydium-amm →](https://www.defi.garden/?pool=5b03658e-fa48-48ee-9142-511e39690259&src=seo_token) | Solana | 0.29% | $1.9M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSVP yield today?
 
-0.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.29% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MSVP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.03M in total.
+1 live pool clear this page's $100K TVL floor, $1.9M in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

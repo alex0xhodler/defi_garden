@@ -1,12 +1,12 @@
 # AUTO — hastra on Solana
 
-**Total APY:** 8.38% (8.38% Base · + 0.00% Rewards)
+**Total APY:** 8.37% (8.37% Base · + 0.00% Rewards)
 
-**TVL:** $5.19M
+**TVL:** $5.08M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 8.38%
+**30d Mean APY:** 8.36%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on hastra](https://hastra.io/?ref=defi.garden)
 
-Last updated August 12, 2026
+Last updated August 13, 2026

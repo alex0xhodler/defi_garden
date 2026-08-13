@@ -1,10 +1,10 @@
 # CBMEGA DeFi Yields
 
-The highest honest CBMEGA yield right now is 106.29% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CBMEGA yield right now is 13.78% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f9fbb53c-9584-498d-9a17-a67376550b5d&src=seo_token) | Base | 106.29% | $344.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f9fbb53c-9584-498d-9a17-a67376550b5d&src=seo_token) | Base | 13.78% | $201.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CBMEGA yield today?
 
-106.29% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+13.78% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CBMEGA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $344.5K in total.
+1 live pool clear this page's $100K TVL floor, $201.9K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

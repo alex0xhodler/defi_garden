@@ -1,21 +1,21 @@
 # HEX DeFi Yields
 
-The highest honest HEX yield right now is 37.10% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEX yield right now is 31.50% on uniswap-v2 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 37.10% | $511.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 37.39% | $251.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 63.50% | $178.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token) | Ethereum | 30.71% | $110.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 31.50% | $472.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 22.98% | $232.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token) | Ethereum | 29.75% | $170K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token) | Ethereum | 28.46% | $102.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HEX shows up in 4 pools here, with rates from 30.71% to 63.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HEX shows up in 4 pools here, with rates from 22.98% to 31.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 31.27% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 31.88% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -23,10 +23,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 37.10% | 30.26% | Base rate |
-| uniswap-v4 | 37.39% | 21.79% | Base rate |
-| uniswap-v3 | 63.50% | 32.27% | Base rate |
-| uniswap-v2 | 30.71% | 34.73% | Base rate |
+| uniswap-v2 | 31.50% | 30.87% | Base rate |
+| uniswap-v4 | 22.98% | 22.28% | Base rate |
+| uniswap-v3 | 29.75% | 32.89% | Base rate |
+| uniswap-v2 | 28.46% | 34.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HEX yield today?
 
-37.10% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+31.50% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HEX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.05M in total.
+4 live pools clear this page's $100K TVL floor, $978K in total.
 
 ### Are these rates safe?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

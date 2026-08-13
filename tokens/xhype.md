@@ -1,26 +1,24 @@
 # XHYPE DeFi Yields
 
-The highest honest XHYPE yield right now is 8.98% on liminal-basis (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XHYPE yield right now is 4.39% on liminal-basis (Hyperliquid L1), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liminal-basis →](https://www.defi.garden/?pool=86938e6e-35d9-4cbf-9682-be277f300ab5&src=seo_token) | Ethereum | 8.98% | $5.82M |
 | [liminal-basis →](https://www.defi.garden/?pool=84e38fd1-024f-4107-a1fc-0ae8bfc1b195&src=seo_token) | Hyperliquid L1 | 4.39% | $5.75M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XHYPE shows up in 2 pools here, with rates from 4.39% to 8.98% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+XHYPE shows up in 1 pools here, with rates from 4.39% to 4.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 7.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| liminal-basis | 8.98% | 8.00% | Base rate |
-| liminal-basis | 4.39% | 7.77% | Base rate |
+| liminal-basis | 4.39% | 7.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,11 +26,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XHYPE yield today?
 
-8.98% APY on liminal-basis (Ethereum), based on live DefiLlama data.
+4.39% APY on liminal-basis (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many XHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $11.72M in total.
+2 live pools clear this page's $100K TVL floor, $5.89M in total.
 
 ### Are these rates safe?
 
@@ -40,16 +38,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
-- [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [KHYPE](https://www.defi.garden/tokens/khype)
+- [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
+- [THBILL](https://www.defi.garden/tokens/thbill)
+- [WSTHYPE](https://www.defi.garden/tokens/wsthype)
+- [XBTC](https://www.defi.garden/tokens/xbtc)
 
 ## Available on
 
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

@@ -1,26 +1,26 @@
 # AGUSDC DeFi Yields
 
-The highest honest AGUSDC yield right now is 9.85% on lagoon (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AGUSDC yield right now is 9.72% on lagoon (Avalanche), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token) | Avalanche | 9.85% | $1.04M |
-| [gami-labs →](https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token) | Avalanche | 9.41% | $1.04M |
+| [lagoon →](https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token) | Avalanche | 9.72% | $1.04M |
+| [gami-labs →](https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token) | Avalanche | 9.44% | $1.04M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AGUSDC shows up in 2 pools here, with rates from 9.41% to 9.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AGUSDC shows up in 2 pools here, with rates from 9.44% to 9.72% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.92% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 9.85% | 8.95% | Base rate |
-| gami-labs | 9.41% | 8.85% | Base rate |
+| lagoon | 9.72% | 8.97% | Base rate |
+| gami-labs | 9.44% | 8.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -28,7 +28,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AGUSDC yield today?
 
-9.85% APY on lagoon (Avalanche), based on live DefiLlama data.
+9.72% APY on lagoon (Avalanche), based on live DefiLlama data.
 
 ### How many AGUSDC pools clear the TVL floor?
 
@@ -45,10 +45,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [VBILL](https://www.defi.garden/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [SAVUSD](https://www.defi.garden/tokens/savusd)
+- [BTC.B](https://www.defi.garden/tokens/btc-b)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

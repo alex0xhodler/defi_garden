@@ -4,7 +4,7 @@ The highest honest RCH yield right now is 0.01% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1edc8161-b61a-4c93-afdf-36c9376322b4&src=seo_token) | Ethereum | 0.01% | $4.25M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1edc8161-b61a-4c93-afdf-36c9376322b4&src=seo_token) | Ethereum | 0.01% | $4.18M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RCH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.25M in total.
+1 live pool clear this page's $100K TVL floor, $4.18M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

@@ -4,7 +4,7 @@ The highest honest KYJTO yield right now is 1.64% on kyros (Solana), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kyros →](https://www.defi.garden/?pool=aaa2c1f0-2651-4261-8efb-9090a37fe091&src=seo_token) | Solana | 1.64% | $947.7K |
+| [kyros →](https://www.defi.garden/?pool=aaa2c1f0-2651-4261-8efb-9090a37fe091&src=seo_token) | Solana | 1.64% | $990.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KYJTO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $947.7K in total.
+1 live pool clear this page's $100K TVL floor, $990.4K in total.
 
 ### Are these rates safe?
 
@@ -25,14 +25,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

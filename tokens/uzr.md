@@ -1,10 +1,10 @@
 # UZR DeFi Yields
 
-The highest honest UZR yield right now is 1.95% on fira (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UZR yield right now is 1.90% on fira (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fira →](https://www.defi.garden/?pool=067c8d57-e9de-49e2-92a3-e3a4d8ab33de&src=seo_token) | Ethereum | 1.95% | $9.07M |
+| [fira →](https://www.defi.garden/?pool=067c8d57-e9de-49e2-92a3-e3a4d8ab33de&src=seo_token) | Ethereum | 1.90% | $9.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UZR yield today?
 
-1.95% APY on fira (Ethereum), based on live DefiLlama data.
+1.90% APY on fira (Ethereum), based on live DefiLlama data.
 
 ### How many UZR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.07M in total.
+1 live pool clear this page's $100K TVL floor, $9.26M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

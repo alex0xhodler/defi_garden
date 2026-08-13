@@ -1,23 +1,23 @@
 # SUSDS DeFi Yields
 
-The highest honest SUSDS yield right now is 5.79% on convex-finance (Ethereum), among 29 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDS yield right now is 5.34% on convex-finance (Ethereum), among 27 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_token) | Ethereum | 3.52% | $4.73B |
-| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.69M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.20% | $10.76M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.85% | $6.19M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.79% | $5.58M |
+| [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_token) | Arbitrum | 3.52% | $361.61M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0cc155d9-0e7f-4bdd-b07e-0a09e34b9af0&src=seo_token) | Ethereum | 0.17% | $10.66M |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.63% | $6.19M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.34% | $5.58M |
 | [sky-lending →](https://www.defi.garden/?pool=0af18cf7-b21c-5a85-93e5-bd58289a2d6d&src=seo_token) | OP Mainnet | 3.52% | $5.11M |
-| [pendle →](https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa&src=seo_token) | Ethereum | 5.15% | $3.46M |
-| [pendle →](https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec&src=seo_token) | Ethereum | 5.10% | $3.46M |
+| [pendle →](https://www.defi.garden/?pool=0a3ea503-239b-4637-acda-7f57016e0caa&src=seo_token) | Ethereum | 5.07% | $3.46M |
+| [pendle →](https://www.defi.garden/?pool=8e9f65c8-8cd7-44a5-9363-36d4017f46ec&src=seo_token) | Ethereum | 5.06% | $3.46M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUSDS shows up in 8 pools here, with rates from 0.20% to 5.79% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDS shows up in 8 pools here, with rates from 0.17% to 5.34% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,12 +29,12 @@ SUSDS shows up in 8 pools here, with rates from 0.20% to 5.79% APY across 3 chai
 |---|---|---|---|
 | sky-lending | 3.52% | 3.55% | Base rate |
 | sky-lending | 3.52% | 3.55% | Base rate |
-| uniswap-v3 | 0.20% | 1.29% | Base rate |
-| curve-dex | 3.85% | 3.08% | 76.62% incentives |
-| convex-finance | 5.79% | 4.32% | 84.46% incentives |
+| uniswap-v3 | 0.17% | 1.25% | Base rate |
+| curve-dex | 3.63% | 3.10% | 76.33% incentives |
+| convex-finance | 5.34% | 4.34% | 83.88% incentives |
 | sky-lending | 3.52% | 3.54% | Base rate |
-| pendle | 5.15% | 5.26% | Base rate |
-| pendle | 5.10% | 5.28% | 21.40% incentives |
+| pendle | 5.07% | 5.26% | Base rate |
+| pendle | 5.06% | 5.29% | 21.27% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSDS yield today?
 
-5.79% APY on convex-finance (Ethereum), based on live DefiLlama data.
+5.34% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many SUSDS pools clear the TVL floor?
 
-29 live pools clear this page's $100K TVL floor, $5.27B in total.
+27 live pools clear this page's $100K TVL floor, $5.26B in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

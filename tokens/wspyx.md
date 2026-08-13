@@ -13,7 +13,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 WSPYX shows up in 2 pools here, with rates from 0.07% to 0.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.18% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSPYX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $983K in total.
+3 live pools clear this page's $100K TVL floor, $983.6K in total.
 
 ### Are these rates safe?
 
@@ -54,4 +54,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

@@ -4,8 +4,8 @@ The highest honest SAUCE yield right now is 6.36% on saucerswap-v1 (Hedera), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 6.36% | $988.2K |
-| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 1.07% | $110.2K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=d88fe316-2ed0-4dd1-b205-739be5aa5814&src=seo_token) | Hedera | 6.36% | $974.4K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=61b8ca39-fd51-47bd-bc62-8cf83fc6f6f7&src=seo_token) | Hedera | 1.07% | $108.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,8 +21,8 @@ SAUCE shows up in 2 pools here, with rates from 1.07% to 6.36% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| saucerswap-v1 | 6.36% | 6.61% | 96.56% incentives |
-| saucerswap-v1 | 1.07% | 1.07% | 99.82% incentives |
+| saucerswap-v1 | 6.36% | 6.61% | 96.51% incentives |
+| saucerswap-v1 | 1.07% | 1.07% | 99.88% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SAUCE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.1M in total.
+2 live pools clear this page's $100K TVL floor, $1.08M in total.
 
 ### Are these rates safe?
 
@@ -44,13 +44,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [HBAR](https://www.defi.garden/tokens/hbar)
 - [XSAUCE](https://www.defi.garden/tokens/xsauce)
+- [HBARX](https://www.defi.garden/tokens/hbarx)
 - [DOVU](https://www.defi.garden/tokens/dovu)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Hedera](https://www.defi.garden/chains/hedera)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

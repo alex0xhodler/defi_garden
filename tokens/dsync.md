@@ -4,7 +4,7 @@ The highest honest DSYNC yield right now is 0.71% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e4d3c36d-4066-436b-877f-884d2f9657d0&src=seo_token) | Ethereum | 0.71% | $605.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e4d3c36d-4066-436b-877f-884d2f9657d0&src=seo_token) | Ethereum | 0.71% | $596.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DSYNC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $605.9K in total.
+1 live pool clear this page's $100K TVL floor, $596.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

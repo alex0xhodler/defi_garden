@@ -4,7 +4,7 @@ The highest honest CUSDX yield right now is 2.16% on sparkdex-v3.1 (Flare), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=da4359c3-cb79-4046-8e68-3abff444b56a&src=seo_token) | Flare | 2.16% | $308.6K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=da4359c3-cb79-4046-8e68-3abff444b56a&src=seo_token) | Flare | 2.16% | $308.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CUSDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $308.6K in total.
+1 live pool clear this page's $100K TVL floor, $308.7K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

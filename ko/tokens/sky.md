@@ -1,24 +1,24 @@
 # SKY 디파이 수익률
 
-현재 SKY의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 10.44%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SKY의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 11.02%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token) | Ethereum | 6.75% | $921.86M |
-| [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token) | Ethereum | 6.81% | $2.81M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token) | Ethereum | 5.95% | $2.18M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token) | Ethereum | 10.44% | $946.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 2.93% | $428.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 64.47% | $191.3K |
-| [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 0.72% | $106.5K |
+| [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token) | Ethereum | 6.75% | $912.69M |
+| [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token) | Ethereum | 6.81% | $2.78M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token) | Ethereum | 3.91% | $2.17M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token) | Ethereum | 11.02% | $928.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 3.16% | $422.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 64.21% | $188.2K |
+| [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 0.68% | $104.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SKY 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.72%부터 64.47%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SKY 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.68%부터 64.21%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.99%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.97%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -26,13 +26,13 @@ SKY 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.72%부터 64.47%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sky-lending | 6.75% | 6.25% | 인센티브 100.00% |
-| origami-finance | 6.81% | 6.22% | 기본 금리 |
-| uniswap-v4 | 5.95% | 6.99% | 기본 금리 |
-| uniswap-v3 | 10.44% | 20.41% | 기본 금리 |
-| uniswap-v4 | 2.93% | 11.19% | 기본 금리 |
-| uniswap-v3 | 64.47% | 28.40% | 기본 금리 |
-| hydration-dex | 0.72% | 1.17% | 기본 금리 |
+| sky-lending | 6.75% | 6.28% | 인센티브 100.00% |
+| origami-finance | 6.81% | 6.24% | 기본 금리 |
+| uniswap-v4 | 3.91% | 6.97% | 기본 금리 |
+| uniswap-v3 | 11.02% | 20.04% | 기본 금리 |
+| uniswap-v4 | 3.16% | 10.85% | 기본 금리 |
+| uniswap-v3 | 64.21% | 28.80% | 기본 금리 |
+| hydration-dex | 0.68% | 1.17% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,11 +40,11 @@ SKY 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.72%부터 64.47%까
 
 ### 오늘 SKY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 10.44%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 11.02%예요.
 
 ### SKY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $934.88M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $925.58M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -64,4 +64,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 10.44%예
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 
-## 마지막 업데이트: August 12, 2026
+## 마지막 업데이트: August 13, 2026

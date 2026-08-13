@@ -1,10 +1,10 @@
 # HTEA DeFi Yields
 
-The highest honest HTEA yield right now is 98.90% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HTEA yield right now is 190.18% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=47b7b57c-333c-405c-bd5d-3ee042836722&src=seo_token) | Base | 98.90% | $137.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=47b7b57c-333c-405c-bd5d-3ee042836722&src=seo_token) | Base | 190.18% | $138.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HTEA yield today?
 
-98.90% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+190.18% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many HTEA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.3K in total.
+1 live pool clear this page's $100K TVL floor, $138.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

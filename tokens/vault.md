@@ -1,20 +1,20 @@
 # VAULT DeFi Yields
 
-The highest honest VAULT yield right now is 17.36% on 40-acres (OP Mainnet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VAULT yield right now is 16.88% on 40-acres (OP Mainnet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 11.74% | $7.24M |
-| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 17.36% | $866.4K |
-| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 14.09% | $503.6K |
+| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 11.67% | $7.2M |
+| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 16.88% | $862.4K |
+| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 12.54% | $502.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VAULT shows up in 3 pools here, with rates from 11.74% to 17.36% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+VAULT shows up in 3 pools here, with rates from 11.67% to 16.88% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| 40-acres | 11.74% | 13.38% | Base rate |
-| 40-acres | 17.36% | 18.29% | Base rate |
-| 40-acres | 14.09% | 12.79% | Base rate |
+| 40-acres | 11.67% | 13.32% | Base rate |
+| 40-acres | 16.88% | 18.25% | Base rate |
+| 40-acres | 12.54% | 12.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VAULT yield today?
 
-17.36% APY on 40-acres (OP Mainnet), based on live DefiLlama data.
+16.88% APY on 40-acres (OP Mainnet), based on live DefiLlama data.
 
 ### How many VAULT pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $9.26M in total.
+4 live pools clear this page's $100K TVL floor, $9.22M in total.
 
 ### Are these rates safe?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026

@@ -1,23 +1,23 @@
 # PRIME 디파이 수익률
 
-현재 PRIME의 가장 높은 정직한 수익률은 Ethereum의 hastra에서 6.88%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PRIME의 가장 높은 정직한 수익률은 Ethereum의 hastra에서 6.87%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7&src=seo_token) | Ethereum | 6.88% | $362.12M |
-| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 6.88% | $168.86M |
-| [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 4.22% | $20.35M |
-| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.36% | $9.65M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 0.12% | $9M |
-| [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 3.05% | $2.12M |
-| [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.18% | $1.55M |
-| [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token) | Ethereum | 2.07% | $1.52M |
+| [hastra →](https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7&src=seo_token) | Ethereum | 6.87% | $363.17M |
+| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 6.87% | $168.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 4.36% | $20.64M |
+| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.23% | $9.65M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 0.25% | $9M |
+| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.03% | $3.4M |
+| [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 3.03% | $2.12M |
+| [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.39% | $1.55M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.12%부터 6.88%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.03%부터 6.87%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.56%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,14 +27,14 @@ PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.12%부터 6.88%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| hastra | 6.88% | 6.92% | 기본 금리 |
-| hastra | 6.88% | 5.43% | 기본 금리 |
-| morpho-blue | 4.22% | 3.90% | 기본 금리 |
-| orca-dex | 0.36% | 0.65% | 기본 금리 |
-| uniswap-v3 | 0.12% | 3.31% | 기본 금리 |
-| morpho-blue | 3.05% | 3.39% | 기본 금리 |
-| morpho-blue | 4.18% | 3.73% | 기본 금리 |
-| morpho-blue | 2.07% | 1.78% | 기본 금리 |
+| hastra | 6.87% | 6.90% | 기본 금리 |
+| hastra | 6.87% | 5.44% | 기본 금리 |
+| morpho-blue | 4.36% | 3.90% | 기본 금리 |
+| orca-dex | 0.23% | 0.64% | 기본 금리 |
+| uniswap-v3 | 0.25% | 3.25% | 기본 금리 |
+| orca-dex | 0.03% | 0.19% | 기본 금리 |
+| morpho-blue | 3.03% | 3.39% | 기본 금리 |
+| morpho-blue | 4.39% | 3.74% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.12%부터 6.88%�
 
 ### 오늘 PRIME의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 hastra에서 APY 6.88%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 hastra에서 APY 6.87%예요.
 
 ### PRIME 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $938.92M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $939.63M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -66,4 +66,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 hastra에서 APY 6.88%예요.
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 12, 2026
+## 마지막 업데이트: August 13, 2026

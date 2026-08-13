@@ -1,38 +1,38 @@
 # GHO DeFi Yields
 
-The highest honest GHO yield right now is 6.19% on aave-v3 (Plasma), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GHO yield right now is 7.47% on fluid-lending (Plasma), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.35% | $29.94M |
-| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.92% | $17.7M |
-| [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 1.78% | $17.52M |
-| [fluid-dex →](https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token) | Ethereum | 1.11% | $14.7M |
-| [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 6.02% | $7.92M |
-| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 6.19% | $7.1M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e3f5cd78-4af7-5a1c-abb4-be2a38dbca28&src=seo_token) | Monad | 1.20% | $3.99M |
-| [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 6.00% | $3.35M |
+| [aave-v3 →](https://www.defi.garden/?pool=76ffb695-7fcf-418c-a368-4a9a2dc76f70&src=seo_token) | Ethereum | 1.04% | $36.67M |
+| [fluid-lending →](https://www.defi.garden/?pool=578cffd4-1470-44d0-8c5d-e9d4bd403651&src=seo_token) | Ethereum | 5.80% | $18.92M |
+| [aave-v3 →](https://www.defi.garden/?pool=41683a7c-20a2-4cd7-83a7-3ccedaad0db1&src=seo_token) | Ethereum | 1.78% | $17.5M |
+| [fluid-dex →](https://www.defi.garden/?pool=16e00a4d-452c-4884-a512-497ac04cc4d9&src=seo_token) | Ethereum | 1.75% | $14.7M |
+| [fluid-lending →](https://www.defi.garden/?pool=9c03c77d-e19c-4fcd-9b68-14e254676552&src=seo_token) | Plasma | 7.47% | $8.97M |
+| [aave-v3 →](https://www.defi.garden/?pool=f0df03c4-a46f-4f41-be89-37226c814918&src=seo_token) | Plasma | 6.33% | $6.04M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e3f5cd78-4af7-5a1c-abb4-be2a38dbca28&src=seo_token) | Monad | 1.02% | $3.99M |
+| [aave-v3 →](https://www.defi.garden/?pool=225ac154-fa49-53ea-a246-12c7483f5b24&src=seo_token) | Monad | 5.97% | $3.12M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GHO shows up in 8 pools here, with rates from 1.11% to 6.19% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+GHO shows up in 8 pools here, with rates from 1.02% to 7.47% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aave-v3 | 1.35% | 1.60% | Base rate |
-| fluid-lending | 5.92% | 5.42% | 32.09% incentives |
-| aave-v3 | 1.78% | 1.40% | Base rate |
-| fluid-dex | 1.11% | 0.24% | Base rate |
-| fluid-lending | 6.02% | 7.39% | 32.89% incentives |
-| aave-v3 | 6.19% | 6.20% | 66.93% incentives |
-| uniswap-v4 | 1.20% | 0.27% | Base rate |
-| aave-v3 | 6.00% | 6.86% | 61.88% incentives |
+| aave-v3 | 1.04% | 1.58% | Base rate |
+| fluid-lending | 5.80% | 5.42% | 30.52% incentives |
+| aave-v3 | 1.78% | 1.41% | Base rate |
+| fluid-dex | 1.75% | 0.29% | Base rate |
+| fluid-lending | 7.47% | 7.44% | 23.43% incentives |
+| aave-v3 | 6.33% | 6.20% | 64.26% incentives |
+| uniswap-v4 | 1.02% | 0.28% | Base rate |
+| aave-v3 | 5.97% | 6.83% | 59.99% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GHO yield today?
 
-6.19% APY on aave-v3 (Plasma), based on live DefiLlama data.
+7.47% APY on fluid-lending (Plasma), based on live DefiLlama data.
 
 ### How many GHO pools clear the TVL floor?
 
-32 live pools clear this page's $100K TVL floor, $178.69M in total.
+32 live pools clear this page's $100K TVL floor, $184.02M in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Plasma](https://www.defi.garden/chains/plasma)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 12, 2026
+## Last updated August 13, 2026
