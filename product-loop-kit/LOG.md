@@ -645,6 +645,7 @@ CLASS OPEN, WITH THE NUMBER: the head is 159 `<loc>`s across two disjoint sitema
 2026-08-12 | build | 265 | 1 | SHIPPED (PR #441) — fixed 3 MCP cards (dead /api/mcp+sse+prompts → live /mcp+streamable-http+tools-only) + 3 residue files; parity test. Round-1 verifier caught a self-inflicted stale sha256, fixed; round-2 PASS. | HIGH | ~50k tok | n/a
 2026-08-12 | build | 276 | 1 | IN_REVIEW→SHIPPED on merge (branch claude/loop-276+PR, per-pair occlusion rewrite) | LOW | 1 build agent; non-vacuity RED/GREEN md5-verified; test_audit_app.js real run: 0 new findings; filed 278 (2 unrelated findings)
 <<<<<<< HEAD
+<<<<<<< HEAD
 2026-08-13 | heartbeat | 1 added (279), 1 updated (262 unblocked/rescored) | agent-adoption interview encoded; no fresh Mixpanel/D1 read; #424 orphan; x402 dark and 268 deprioritized by cycle policy; local runner replaced expired Claude OAuth | n/a | local
 2026-08-13 | build | 262 | 1 | IN_REVIEW — PR to be opened; OpenAPI matches 6 runtime GET routes; contract 9 payloads + API/MCP/x402/rail/registry checks green; baseline red is unrelated translations `Function.length` invariant | LOW | local
 <<<<<<< HEAD
@@ -660,3 +661,6 @@ CLASS OPEN, WITH THE NUMBER: the head is 159 `<loc>`s across two disjoint sitema
 =======
 2026-08-14 | build | 277 | 1 | IN_REVIEW — generator-owned shared API & MCP section; regen twice on 15,604 pools, second unchanged; suites 2/2,14/14,8/8,12/12,57/57,11/11,5/5; mutation RED→GREEN, byte-identical restore; 265 prerequisite PR #441 shipped; no traffic claim | HIGH | n/a
 >>>>>>> 4991ba9def (feat(discovery): advertise API and MCP in llms files)
+=======
+2026-08-14 | build | 277 | 1 | IN_REVIEW — generator-owned shared API & MCP section; regen twice on 15,604 pools, second unchanged; suites 2/2,14/14,8/8,12/12,57/57,11/11,5/5; mutation RED→GREEN, byte-identical restore; 265 prerequisite PR #441 shipped; no traffic claim | HIGH | n/a
+>>>>>>> bcaf67b11d (feat(discovery): advertise API and MCP in llms files)
