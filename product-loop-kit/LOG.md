@@ -646,5 +646,9 @@ CLASS OPEN, WITH THE NUMBER: the head is 159 `<loc>`s across two disjoint sitema
 2026-08-12 | build | 276 | 1 | IN_REVIEW→SHIPPED on merge (branch claude/loop-276+PR, per-pair occlusion rewrite) | LOW | 1 build agent; non-vacuity RED/GREEN md5-verified; test_audit_app.js real run: 0 new findings; filed 278 (2 unrelated findings)
 2026-08-13 | heartbeat | 1 added (279), 1 updated (262 unblocked/rescored) | agent-adoption interview encoded; no fresh Mixpanel/D1 read; #424 orphan; x402 dark and 268 deprioritized by cycle policy; local runner replaced expired Claude OAuth | n/a | local
 2026-08-13 | build | 262 | 1 | IN_REVIEW — PR to be opened; OpenAPI matches 6 runtime GET routes; contract 9 payloads + API/MCP/x402/rail/registry checks green; baseline red is unrelated translations `Function.length` invariant | LOW | local
+<<<<<<< HEAD
 2026-08-13 | build | 151 | 1 | IN_REVIEW — PT and PT-parent search: canonical compact/hyphen forms, delimiter-bounded family matching, OPT-USDC RED→GREEN; 4 parser+4 rendered checks; reviewer PASS. YT deferred (no source). Plain 62/63: unrelated arity baseline fixed in #447. | HIGH | —
 2026-08-14 | build | 267 | 1 | SHIPPED — generated pricing boundary in edge/X402.md, edge/API.md, and edge/MCP.md from PRICE_SCHEDULE via edge/generate-pricing-docs.js; test_x402_core 223/223, test_x402_gate 285/285 | LOW | local
+=======
+2026-08-14 | build | 266 | 1 | IN_REVIEW — PR only, unmerged; shared TVL/APY rails + total APY; gate 5/0, rail claims 11, canonical 24, registry 5; Chromium rejected 600+600 and kept 600+0 | HIGH | n/a
+>>>>>>> 9fdb10c6dc (fix(webmcp): derive shared trust rails)
