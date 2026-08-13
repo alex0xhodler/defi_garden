@@ -14,11 +14,11 @@
 | [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token) | Hyperliquid L1 | 9.88% | $1.74M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 WHYPE의 변동성 낮은 후보는 Hyperliquid L1의 hyperlend-pooled, APY 0.58%, TVL $44.95M, https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_token; Hyperliquid L1의 nest-cl, APY 4.20%, TVL $3.69M, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token; Hyperliquid L1의 nest-cl, APY 28.22%, TVL $5.61M, https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_token; Hyperliquid L1의 nest-cl, APY 17.53%, TVL $2.18M, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; Hyperliquid L1의 project-x, APY 5.98%, TVL $4.72M, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; Hyperliquid L1의 project-x, APY 9.32%, TVL $17.92M, https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_token; Hyperliquid L1의 project-x, APY 7.86%, TVL $5.52M, https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477&src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 9.88%, TVL $1.74M, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_token) | Hyperliquid L1 | 0.58% | $44.95M |
 | 2 | [nest-cl →](https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token) | Hyperliquid L1 | 4.20% | $3.69M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 28.22%
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### WHYPE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 WHYPE의 변동성 낮은 후보는 Hyperliquid L1의 hyperlend-pooled, APY 0.58%, TVL $44.95M, https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_token; Hyperliquid L1의 nest-cl, APY 4.20%, TVL $3.69M, https://www.defi.garden/?pool=ecae90d4-d05d-4485-a1c2-2abf75c96df8&src=seo_token; Hyperliquid L1의 nest-cl, APY 28.22%, TVL $5.61M, https://www.defi.garden/?pool=afe2c8c8-2ab8-4f1b-abda-a8a12718c431&src=seo_token; Hyperliquid L1의 nest-cl, APY 17.53%, TVL $2.18M, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; Hyperliquid L1의 project-x, APY 5.98%, TVL $4.72M, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; Hyperliquid L1의 project-x, APY 9.32%, TVL $17.92M, https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_token; Hyperliquid L1의 project-x, APY 7.86%, TVL $5.52M, https://www.defi.garden/?pool=86eb8c44-6acd-4049-a434-6a6f82e81477&src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 9.88%, TVL $1.74M, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

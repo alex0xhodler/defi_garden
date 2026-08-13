@@ -14,11 +14,11 @@
 | [morpho-blue →](https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token) | Monad | 7.00% | $190.7K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 BBQUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.19%, TVL $1.01M, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; Base의 morpho-blue, APY 5.73%, TVL $26.77M, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token; Base의 morpho-blue, APY 6.20%, TVL $2.77M, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token; Ethereum의 morpho-blue, APY 5.61%, TVL $46.89M, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token; Arbitrum의 morpho-blue, APY 2.62%, TVL $1.48M, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token; Ethereum의 morpho-blue, APY 4.97%, TVL $15.79M, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token; Monad의 morpho-blue, APY 7.00%, TVL $190.7K, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token; Katana의 morpho-blue, APY 5.93%, TVL $1.29M, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token) | Ethereum | 4.19% | $1.01M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token) | Base | 5.73% | $26.77M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Monad의 morpho-blue에서 APY 7.00%예요
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### BBQUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 BBQUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.19%, TVL $1.01M, https://www.defi.garden/?pool=02db57d9-3ba8-40b9-9ae5-557a4da4b3df&src=seo_token; Base의 morpho-blue, APY 5.73%, TVL $26.77M, https://www.defi.garden/?pool=832c94db-4948-4f14-aa65-af6e737d984e&src=seo_token; Base의 morpho-blue, APY 6.20%, TVL $2.77M, https://www.defi.garden/?pool=bf346d43-ef94-4277-b159-ebadb93caef1&src=seo_token; Ethereum의 morpho-blue, APY 5.61%, TVL $46.89M, https://www.defi.garden/?pool=f8d7740c-4cef-420e-a944-1b7caffde643&src=seo_token; Arbitrum의 morpho-blue, APY 2.62%, TVL $1.48M, https://www.defi.garden/?pool=c13f1940-9965-4eee-b7e8-af785591ceda&src=seo_token; Ethereum의 morpho-blue, APY 4.97%, TVL $15.79M, https://www.defi.garden/?pool=36977448-9ad9-43ea-85f2-60ee1b92ecd0&src=seo_token; Monad의 morpho-blue, APY 7.00%, TVL $190.7K, https://www.defi.garden/?pool=ee11e86e-1771-4847-8b49-40c68f85cd46&src=seo_token; Katana의 morpho-blue, APY 5.93%, TVL $1.29M, https://www.defi.garden/?pool=938e1047-c2df-4b13-acaa-15fa76db50cc&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

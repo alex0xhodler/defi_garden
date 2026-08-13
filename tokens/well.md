@@ -8,11 +8,11 @@ The highest honest WELL yield right now is 3.52% on aerodrome-v1 (Base), among 2
 | [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.33% | $455.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, WELL's lower-variability candidates are moonwell-lending (Base), 0.33% APY, $455.2K TVL, https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token; aerodrome-v1 (Base), 3.52% APY, $1.22M TVL, https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [moonwell-lending →](https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token) | Base | 0.33% | $455.2K |
 | 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token) | Base | 3.52% | $1.22M |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which WELL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, WELL's lower-variability candidates are moonwell-lending (Base), 0.33% APY, $455.2K TVL, https://www.defi.garden/?pool=09531322-a5eb-49fb-b610-93e545f664be&src=seo_token; aerodrome-v1 (Base), 3.52% APY, $1.22M TVL, https://www.defi.garden/?pool=8af246ee-cf26-4c8e-88f8-f2021a69e44d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

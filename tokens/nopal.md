@@ -9,11 +9,11 @@ The highest honest NOPAL yield right now is 14.98% on pendle (Ethereum), among 3
 | [pendle →](https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token) | Ethereum | 14.98% | $2.89M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, NOPAL's lower-variability candidates are pendle (Ethereum), 14.04% APY, $2.89M TVL, https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token; nest-credit (Plume Mainnet), 9.35% APY, $67.42M TVL, https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token; pendle (Ethereum), 14.98% APY, $2.89M TVL, https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token) | Ethereum | 14.04% | $2.89M |
 | 2 | [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token) | Plume Mainnet | 9.35% | $67.42M |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which NOPAL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, NOPAL's lower-variability candidates are pendle (Ethereum), 14.04% APY, $2.89M TVL, https://www.defi.garden/?pool=7801e6b3-5cb8-404f-9393-49ec05dcc462&src=seo_token; nest-credit (Plume Mainnet), 9.35% APY, $67.42M TVL, https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_token; pendle (Ethereum), 14.98% APY, $2.89M TVL, https://www.defi.garden/?pool=3f28e2f0-a6ef-401a-ad36-d2ded296f11a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -12,11 +12,11 @@
 | [stake-dao →](https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token) | Ethereum | 0.12% | $167.3K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 OETH의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 5.26%, TVL $3.79M, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc&src=seo_token; Ethereum의 origin-ether, APY 2.65%, TVL $44.41M, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3&src=seo_token; Ethereum의 stake-dao, APY 0.12%, TVL $167.3K, https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $172K, https://www.defi.garden/?pool=5a4c4cef-e95e-47c3-977a-e41d9fec6cdf&src=seo_token; Ethereum의 curve-dex, APY 2.76%, TVL $859.2K, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249&src=seo_token; Ethereum의 curve-dex, APY 2.51%, TVL $46.44M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc&src=seo_token) | Ethereum | 5.26% | $3.79M |
 | 2 | [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3&src=seo_token) | Ethereum | 2.65% | $44.41M |
@@ -62,9 +62,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 5.26%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### OETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 OETH의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 5.26%, TVL $3.79M, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc&src=seo_token; Ethereum의 origin-ether, APY 2.65%, TVL $44.41M, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3&src=seo_token; Ethereum의 stake-dao, APY 0.12%, TVL $167.3K, https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token; Ethereum의 curve-dex, APY 0.02%, TVL $172K, https://www.defi.garden/?pool=5a4c4cef-e95e-47c3-977a-e41d9fec6cdf&src=seo_token; Ethereum의 curve-dex, APY 2.76%, TVL $859.2K, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249&src=seo_token; Ethereum의 curve-dex, APY 2.51%, TVL $46.44M, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

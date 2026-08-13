@@ -8,11 +8,11 @@ The highest honest SVETH yield right now is 1.81% on morpho-blue (Ethereum), amo
 | [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.32% | $108.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SVETH's lower-variability candidates are morpho-blue (Ethereum), 1.81% APY, $120.1K TVL, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token; morpho-blue (Ethereum), 1.32% APY, $108.2K TVL, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token) | Ethereum | 1.81% | $120.1K |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token) | Ethereum | 1.32% | $108.2K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SVETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SVETH's lower-variability candidates are morpho-blue (Ethereum), 1.81% APY, $120.1K TVL, https://www.defi.garden/?pool=c9975691-be71-4086-8d8d-74c87f96dd77&src=seo_token; morpho-blue (Ethereum), 1.32% APY, $108.2K TVL, https://www.defi.garden/?pool=8ad4f4c1-63dc-432a-a5f0-8d405eb39f13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

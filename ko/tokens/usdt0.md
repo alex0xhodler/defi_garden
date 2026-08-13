@@ -14,11 +14,11 @@
 | [nest-cl →](https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token) | Hyperliquid L1 | 7.35% | $653.4K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 4.32%, TVL $61.78M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; Plasma의 fluid-lending, APY 4.70%, TVL $42.48M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; Mantle의 aave-v3, APY 4.48%, TVL $38.68M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; Polygon의 aave-v3, APY 2.76%, TVL $12.82M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; Monad의 neverland, APY 6.86%, TVL $2.98M, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; Monad의 aave-v3, APY 5.17%, TVL $33.18M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; Monad의 curve-dex, APY 12.00%, TVL $2.6M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; Hyperliquid L1의 nest-cl, APY 7.35%, TVL $653.4K, https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.32% | $61.78M |
 | 2 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.70% | $42.48M |
@@ -66,9 +66,9 @@ DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 12.00%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### USDT0 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 4.32%, TVL $61.78M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; Plasma의 fluid-lending, APY 4.70%, TVL $42.48M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; Mantle의 aave-v3, APY 4.48%, TVL $38.68M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; Polygon의 aave-v3, APY 2.76%, TVL $12.82M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; Monad의 neverland, APY 6.86%, TVL $2.98M, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; Monad의 aave-v3, APY 5.17%, TVL $33.18M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; Monad의 curve-dex, APY 12.00%, TVL $2.6M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; Hyperliquid L1의 nest-cl, APY 7.35%, TVL $653.4K, https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

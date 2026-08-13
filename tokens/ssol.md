@@ -8,11 +8,11 @@ The highest honest SSOL yield right now is 0.37% on kamino-liquidity (Solana), a
 | [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.37% | $109.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SSOL's lower-variability candidates are orca-dex (Solana), 0.25% APY, $160.7K TVL, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; kamino-liquidity (Solana), 0.37% APY, $109.4K TVL, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.25% | $160.7K |
 | 2 | [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.37% | $109.4K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SSOL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SSOL's lower-variability candidates are orca-dex (Solana), 0.25% APY, $160.7K TVL, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; kamino-liquidity (Solana), 0.37% APY, $109.4K TVL, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

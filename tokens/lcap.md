@@ -13,11 +13,11 @@ The highest honest LCAP yield right now is 46.56% on stake-dao (Base), among 9 p
 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 12.66% | $122.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 (Base), 12.66% APY, $122.1K TVL, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; aerodrome-v1 (Base), 4.30% APY, $169K TVL, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; aerodrome-slipstream (Base), 10.00% APY, $439.5K TVL, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; stake-dao (Base), 46.56% APY, $207.1K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; aerodrome-v1 (Base), 27.45% APY, $149.1K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; curve-dex (Base), 44.11% APY, $280.8K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; aerodrome-slipstream (Base), 16.88% APY, $158.3K TVL, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 12.66% | $122.1K |
 | 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 4.30% | $169K |
@@ -65,9 +65,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which LCAP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, LCAP's lower-variability candidates are aerodrome-v1 (Base), 12.66% APY, $122.1K TVL, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; aerodrome-v1 (Base), 4.30% APY, $169K TVL, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; aerodrome-slipstream (Base), 10.00% APY, $439.5K TVL, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; stake-dao (Base), 46.56% APY, $207.1K TVL, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; aerodrome-v1 (Base), 27.45% APY, $149.1K TVL, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; curve-dex (Base), 44.11% APY, $280.8K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; aerodrome-slipstream (Base), 16.88% APY, $158.3K TVL, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

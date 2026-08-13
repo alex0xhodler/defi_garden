@@ -13,11 +13,11 @@ The highest honest WETH.E yield right now is 290.20% on blackhole-clmm (Avalanch
 | [blackhole-clmm →](https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token) | Avalanche | 290.20% | $101.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, WETH.E's lower-variability candidates are benqi-lending (Avalanche), 2.28% APY, $949.5K TVL, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token; aave-v3 (Avalanche), 1.35% APY, $5.14M TVL, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token; deltaprime (Avalanche), 5.70% APY, $230.4K TVL, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token; uniswap-v3 (Avalanche), 9.08% APY, $686.5K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; pangolin-v2 (Avalanche), 1.08% APY, $150.5K TVL, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token; pharaoh-v3 (Avalanche), 17.44% APY, $4.09M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; blackhole-clmm (Avalanche), 290.20% APY, $101.5K TVL, https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 2.28% | $949.5K |
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.35% | $5.14M |
@@ -65,9 +65,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which WETH.E pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, WETH.E's lower-variability candidates are benqi-lending (Avalanche), 2.28% APY, $949.5K TVL, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token; aave-v3 (Avalanche), 1.35% APY, $5.14M TVL, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token; deltaprime (Avalanche), 5.70% APY, $230.4K TVL, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token; uniswap-v3 (Avalanche), 9.08% APY, $686.5K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; pangolin-v2 (Avalanche), 1.08% APY, $150.5K TVL, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token; pharaoh-v3 (Avalanche), 17.44% APY, $4.09M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; blackhole-clmm (Avalanche), 290.20% APY, $101.5K TVL, https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

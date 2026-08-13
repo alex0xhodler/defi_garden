@@ -9,11 +9,11 @@ The highest honest WFRAX yield right now is 29.22% on curve-dex (Fraxtal), among
 | [curve-dex →](https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token) | Fraxtal | 29.22% | $108.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, WFRAX's lower-variability candidates are curve-dex (Ethereum), 0.08% APY, $130.4K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; frax (Ethereum), 0.18% APY, $1.96M TVL, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token; curve-dex (Fraxtal), 29.22% APY, $108.1K TVL, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token) | Ethereum | 0.08% | $130.4K |
 | 2 | [frax →](https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token) | Ethereum | 0.18% | $1.96M |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which WFRAX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, WFRAX's lower-variability candidates are curve-dex (Ethereum), 0.08% APY, $130.4K TVL, https://www.defi.garden/?pool=1863bcee-a2ff-44d3-aa59-f81667be97c2&src=seo_token; frax (Ethereum), 0.18% APY, $1.96M TVL, https://www.defi.garden/?pool=cb446ce4-bc96-4ab2-ab92-803d70e94a6b&src=seo_token; curve-dex (Fraxtal), 29.22% APY, $108.1K TVL, https://www.defi.garden/?pool=f071ba3c-20a5-4e7a-b058-963aca464e10&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

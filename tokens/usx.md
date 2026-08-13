@@ -14,11 +14,11 @@ The highest honest USX yield right now is 5.95% on loopscale (Solana), among 10 
 | [loopscale →](https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token) | Solana | 5.95% | $180.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USX's lower-variability candidates are orca-dex (Solana), 0.39% APY, $4.66M TVL, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token; orca-dex (Solana), 0.14% APY, $9.36M TVL, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13&src=seo_token; raydium-amm (Solana), 0.32% APY, $4.53M TVL, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token; kamino-lend (Solana), 2.28% APY, $7.22M TVL, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0&src=seo_token; orca-dex (Solana), 0.13% APY, $2.99M TVL, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda&src=seo_token; loopscale (Solana), 1.99% APY, $1.3M TVL, https://www.defi.garden/?pool=8847526a-17a9-46d9-b42d-04617ad31793&src=seo_token; raydium-amm (Solana), 0.14% APY, $1.02M TVL, https://www.defi.garden/?pool=89101a75-3f6d-4093-bfdc-187a19cae15c&src=seo_token; loopscale (Solana), 5.95% APY, $180.5K TVL, https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token) | Solana | 0.39% | $4.66M |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13&src=seo_token) | Solana | 0.14% | $9.36M |
@@ -66,9 +66,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USX's lower-variability candidates are orca-dex (Solana), 0.39% APY, $4.66M TVL, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token; orca-dex (Solana), 0.14% APY, $9.36M TVL, https://www.defi.garden/?pool=57eb6e5d-ac96-4f39-8535-0ae9c7420b13&src=seo_token; raydium-amm (Solana), 0.32% APY, $4.53M TVL, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token; kamino-lend (Solana), 2.28% APY, $7.22M TVL, https://www.defi.garden/?pool=3c4e1d81-1242-44dc-9d45-86cdcb12b9a0&src=seo_token; orca-dex (Solana), 0.13% APY, $2.99M TVL, https://www.defi.garden/?pool=761e502e-9b40-48e0-b025-8e083b4fdeda&src=seo_token; loopscale (Solana), 1.99% APY, $1.3M TVL, https://www.defi.garden/?pool=8847526a-17a9-46d9-b42d-04617ad31793&src=seo_token; raydium-amm (Solana), 0.14% APY, $1.02M TVL, https://www.defi.garden/?pool=89101a75-3f6d-4093-bfdc-187a19cae15c&src=seo_token; loopscale (Solana), 5.95% APY, $180.5K TVL, https://www.defi.garden/?pool=446ac7d7-ee2b-47f1-a478-65fd0ba604fd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

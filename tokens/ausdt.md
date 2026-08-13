@@ -9,11 +9,11 @@ The highest honest AUSDT yield right now is 0.79% on hydration-dex (Polkadot), a
 | [curve-dex →](https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token) | Ethereum | 0.35% | $309.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, AUSDT's lower-variability candidates are hydration-dex (Polkadot), 0.25% APY, $1.04M TVL, https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token; hydration-dex (Polkadot), 0.79% APY, $2.2M TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.8K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hydration-dex →](https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token) | Polkadot | 0.25% | $1.04M |
 | 2 | [hydration-dex →](https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token) | Polkadot | 0.79% | $2.2M |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which AUSDT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, AUSDT's lower-variability candidates are hydration-dex (Polkadot), 0.25% APY, $1.04M TVL, https://www.defi.garden/?pool=98804e0c-85ec-492b-a396-984c841f27a4&src=seo_token; hydration-dex (Polkadot), 0.79% APY, $2.2M TVL, https://www.defi.garden/?pool=ac63a425-ea86-4395-ae51-e849620399f7&src=seo_token; curve-dex (Ethereum), 0.35% APY, $309.8K TVL, https://www.defi.garden/?pool=e3f861c0-c2b9-4b50-b799-a036a3f11da1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

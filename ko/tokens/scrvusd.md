@@ -14,11 +14,11 @@
 | [convex-finance →](https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd&src=seo_token) | Ethereum | 6.17% | $943.8K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 SCRVUSD의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 12.44%, TVL $3.55M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; Ethereum의 curve-dex, APY 7.63%, TVL $9.35M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; Ethereum의 crvusd, APY 1.58%, TVL $17.31M, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926&src=seo_token; Ethereum의 convex-finance, APY 12.16%, TVL $4.7M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token; Ethereum의 curve-dex, APY 4.55%, TVL $1.38M, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200&src=seo_token; Ethereum의 convex-finance, APY 6.17%, TVL $943.8K, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd&src=seo_token; Ethereum의 stake-dao, APY 5.64%, TVL $2.05M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token; Ethereum의 curve-dex, APY 5.82%, TVL $2.11M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao →](https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token) | Ethereum | 12.44% | $3.55M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token) | Ethereum | 7.63% | $9.35M |
@@ -66,9 +66,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 12.44%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### SCRVUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 SCRVUSD의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 12.44%, TVL $3.55M, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; Ethereum의 curve-dex, APY 7.63%, TVL $9.35M, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; Ethereum의 crvusd, APY 1.58%, TVL $17.31M, https://www.defi.garden/?pool=5fd328af-4203-471b-bd16-1705c726d926&src=seo_token; Ethereum의 convex-finance, APY 12.16%, TVL $4.7M, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token; Ethereum의 curve-dex, APY 4.55%, TVL $1.38M, https://www.defi.garden/?pool=0d6b4d03-fb91-4b6f-bd55-544e7aa71200&src=seo_token; Ethereum의 convex-finance, APY 6.17%, TVL $943.8K, https://www.defi.garden/?pool=18d68b7b-1674-4616-b5a8-65bbfb3723cd&src=seo_token; Ethereum의 stake-dao, APY 5.64%, TVL $2.05M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token; Ethereum의 curve-dex, APY 5.82%, TVL $2.11M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

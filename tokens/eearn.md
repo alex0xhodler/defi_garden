@@ -10,11 +10,11 @@ The highest honest EEARN yield right now is 10.26% on pendle (Ethereum), among 4
 | [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token) | Sui | 8.93% | $177.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EEARN's lower-variability candidates are pendle (Ethereum), 10.26% APY, $1.01M TVL, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; current (Sui), 10.16% APY, $738.4K TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; pendle (Ethereum), 10.05% APY, $1.01M TVL, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; bluefin-spot (Sui), 8.93% APY, $177.7K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token) | Ethereum | 10.26% | $1.01M |
 | 2 | [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 10.16% | $738.4K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EEARN pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EEARN's lower-variability candidates are pendle (Ethereum), 10.26% APY, $1.01M TVL, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; current (Sui), 10.16% APY, $738.4K TVL, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; pendle (Ethereum), 10.05% APY, $1.01M TVL, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; bluefin-spot (Sui), 8.93% APY, $177.7K TVL, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

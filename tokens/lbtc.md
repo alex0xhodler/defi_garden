@@ -14,11 +14,11 @@ The highest honest LBTC yield right now is 4.00% on curve-dex (Monad), among 23 
 | [uniswap-v3 →](https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token) | Ethereum | 3.89% | $720.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc (Ethereum), 0.33% APY, $566.91M TVL, https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token; moonwell-lending (Base), 0.17% APY, $3.22M TVL, https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token; navi-lending (Sui), 1.29% APY, $2.81M TVL, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $5.79M TVL, https://www.defi.garden/?pool=2fa87ded-b27a-4348-b852-e64acd817b79&src=seo_token; curve-dex (Monad), 4.00% APY, $1.52M TVL, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token; uniswap-v3 (Ethereum), 3.89% APY, $720.3K TVL, https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token; aerodrome-slipstream (Base), 2.38% APY, $3.39M TVL, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [lombard-lbtc →](https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token) | Ethereum | 0.33% | $566.91M |
 | 2 | [moonwell-lending →](https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token) | Base | 0.17% | $3.22M |
@@ -65,9 +65,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which LBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, LBTC's lower-variability candidates are lombard-lbtc (Ethereum), 0.33% APY, $566.91M TVL, https://www.defi.garden/?pool=c9762afb-7746-4b5a-a484-a8881a348999&src=seo_token; moonwell-lending (Base), 0.17% APY, $3.22M TVL, https://www.defi.garden/?pool=49b5abd6-5c0b-4491-b7b2-d544257e237e&src=seo_token; navi-lending (Sui), 1.29% APY, $2.81M TVL, https://www.defi.garden/?pool=b4e2b1a6-9617-4aa7-89f4-72128b325812&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $5.79M TVL, https://www.defi.garden/?pool=2fa87ded-b27a-4348-b852-e64acd817b79&src=seo_token; curve-dex (Monad), 4.00% APY, $1.52M TVL, https://www.defi.garden/?pool=1a97c851-f2e5-4408-9113-ef80f1c1fea6&src=seo_token; uniswap-v3 (Ethereum), 3.89% APY, $720.3K TVL, https://www.defi.garden/?pool=039b3dbb-49cf-43af-af77-6ed79e572c83&src=seo_token; aerodrome-slipstream (Base), 2.38% APY, $3.39M TVL, https://www.defi.garden/?pool=ff009fa1-2dda-43e0-a0e2-302787e736c8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

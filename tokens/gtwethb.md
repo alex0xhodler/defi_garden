@@ -8,11 +8,11 @@ The highest honest GTWETHB yield right now is 2.02% on morpho-blue (Ethereum), a
 | [morpho-blue →](https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token) | Ethereum | 2.02% | $190.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GTWETHB's lower-variability candidates are morpho-blue (Ethereum), 2.02% APY, $190.4K TVL, https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token; morpho-blue (Base), 1.64% APY, $1.71M TVL, https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token) | Ethereum | 2.02% | $190.4K |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token) | Base | 1.64% | $1.71M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GTWETHB pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GTWETHB's lower-variability candidates are morpho-blue (Ethereum), 2.02% APY, $190.4K TVL, https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token; morpho-blue (Base), 1.64% APY, $1.71M TVL, https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

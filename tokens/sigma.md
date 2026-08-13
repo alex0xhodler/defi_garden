@@ -7,9 +7,9 @@ The highest honest SIGMA yield right now is 2.59% on raydium-amm (Solana), among
 | [raydium-amm →](https://www.defi.garden/?pool=f7886da4-e57f-4678-a9b9-0d9cf1d6ccbe&src=seo_token) | Solana | 2.59% | $255.4K |
 
 <!-- rate-stability:insufficient -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-There is not enough qualifying APY history to rank SIGMA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,9 +27,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SIGMA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-There is not enough qualifying APY history to rank SIGMA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

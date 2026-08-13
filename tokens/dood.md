@@ -8,11 +8,11 @@ The highest honest DOOD yield right now is 199.19% on orca-dex (Solana), among 2
 | [orca-dex →](https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token) | Solana | 199.19% | $118.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, DOOD's lower-variability candidates are orca-dex (Solana), 199.19% APY, $118.6K TVL, https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token; raydium-amm (Solana), 173.47% APY, $409.4K TVL, https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token) | Solana | 199.19% | $118.6K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token) | Solana | 173.47% | $409.4K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which DOOD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, DOOD's lower-variability candidates are orca-dex (Solana), 199.19% APY, $118.6K TVL, https://www.defi.garden/?pool=315760da-100d-498d-b22f-188f88db50cd&src=seo_token; raydium-amm (Solana), 173.47% APY, $409.4K TVL, https://www.defi.garden/?pool=935f6496-6d11-42fd-9151-72b8603f412a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

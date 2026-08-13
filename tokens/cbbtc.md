@@ -14,11 +14,11 @@ The highest honest CBBTC yield right now is 6.95% on uniswap-v4 (Ethereum), amon
 | [uniswap-v3 →](https://www.defi.garden/?pool=94996334-b27b-5d0f-8389-f418c2da9cdb&src=seo_token) | Base | 0.09% | $10.64M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CBBTC's lower-variability candidates are aave-v3 (Base), 0.01% APY, $154.28M TVL, https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token; fluid-dex (Ethereum), 0.34% APY, $16.47M TVL, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token; uniswap-v4 (Ethereum), 0.10% APY, $13.57M TVL, https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token; curve-dex (Ethereum), 3.37% APY, $81.69M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token; curve-dex (Ethereum), 3.03% APY, $17.87M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token; uniswap-v4 (Ethereum), 6.95% APY, $12.53M TVL, https://www.defi.garden/?pool=69800b02-58a9-4838-b19d-d2719950e296&src=seo_token; aerodrome-slipstream (Base), 2.57% APY, $17.21M TVL, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token) | Base | 0.01% | $154.28M |
 | 2 | [fluid-dex →](https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token) | Ethereum | 0.34% | $16.47M |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CBBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CBBTC's lower-variability candidates are aave-v3 (Base), 0.01% APY, $154.28M TVL, https://www.defi.garden/?pool=89bc7c4c-d71c-435c-ab28-56c803d51320&src=seo_token; fluid-dex (Ethereum), 0.34% APY, $16.47M TVL, https://www.defi.garden/?pool=8e47b0df-d495-4224-bd98-6cf693e88745&src=seo_token; uniswap-v4 (Ethereum), 0.10% APY, $13.57M TVL, https://www.defi.garden/?pool=1ba55596-294c-4aa5-b1fa-615e8dd3ccdd&src=seo_token; curve-dex (Ethereum), 3.37% APY, $81.69M TVL, https://www.defi.garden/?pool=1b6fc394-3f6a-4537-9413-926db5fc10f6&src=seo_token; curve-dex (Ethereum), 3.03% APY, $17.87M TVL, https://www.defi.garden/?pool=f8971721-005b-4a8f-b743-584a30d362a9&src=seo_token; uniswap-v4 (Ethereum), 6.95% APY, $12.53M TVL, https://www.defi.garden/?pool=69800b02-58a9-4838-b19d-d2719950e296&src=seo_token; aerodrome-slipstream (Base), 2.57% APY, $17.21M TVL, https://www.defi.garden/?pool=4943b6d2-aad2-4f4d-b56e-93f41ef043aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

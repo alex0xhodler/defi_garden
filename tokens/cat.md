@@ -8,11 +8,11 @@ The highest honest CAT yield right now is 0.02% on uniswap-v2 (Ethereum), among 
 | [raydium-amm →](https://www.defi.garden/?pool=e87cab1c-d5e1-4f3a-88fa-e76b43ad2a65&src=seo_token) | Solana | 0.72% | $117.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CAT's lower-variability candidates are raydium-amm (Solana), 0.72% APY, $117.7K TVL, https://www.defi.garden/?pool=e87cab1c-d5e1-4f3a-88fa-e76b43ad2a65&src=seo_token; uniswap-v2 (Ethereum), 0.02% APY, $154.8K TVL, https://www.defi.garden/?pool=1411d14f-8f53-457d-afda-36ba3136a836&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=e87cab1c-d5e1-4f3a-88fa-e76b43ad2a65&src=seo_token) | Solana | 0.72% | $117.7K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=1411d14f-8f53-457d-afda-36ba3136a836&src=seo_token) | Ethereum | 0.02% | $154.8K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CAT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CAT's lower-variability candidates are raydium-amm (Solana), 0.72% APY, $117.7K TVL, https://www.defi.garden/?pool=e87cab1c-d5e1-4f3a-88fa-e76b43ad2a65&src=seo_token; uniswap-v2 (Ethereum), 0.02% APY, $154.8K TVL, https://www.defi.garden/?pool=1411d14f-8f53-457d-afda-36ba3136a836&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

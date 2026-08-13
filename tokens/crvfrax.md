@@ -8,11 +8,11 @@ The highest honest CRVFRAX yield right now is 25.32% on stake-dao (Ethereum), am
 | [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 25.32% | $133K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CRVFRAX's lower-variability candidates are yearn-finance (Ethereum), 0.02% APY, $139.7K TVL, https://www.defi.garden/?pool=f6cf60e1-8f33-4a09-9058-f8d1b686bef5&src=seo_token; stake-dao (Ethereum), 25.32% APY, $133K TVL, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [yearn-finance →](https://www.defi.garden/?pool=f6cf60e1-8f33-4a09-9058-f8d1b686bef5&src=seo_token) | Ethereum | 0.02% | $139.7K |
 | 2 | [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 25.32% | $133K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CRVFRAX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CRVFRAX's lower-variability candidates are yearn-finance (Ethereum), 0.02% APY, $139.7K TVL, https://www.defi.garden/?pool=f6cf60e1-8f33-4a09-9058-f8d1b686bef5&src=seo_token; stake-dao (Ethereum), 25.32% APY, $133K TVL, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

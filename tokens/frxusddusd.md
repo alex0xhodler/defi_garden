@@ -7,9 +7,9 @@ The highest honest FRXUSDDUSD yield right now is 17.57% on yearn-finance (Ethere
 | [yearn-finance →](https://www.defi.garden/?pool=a5f9e3ff-9601-553d-a020-60870b3e3f19&src=seo_token) | Ethereum | 17.57% | $239.4K |
 
 <!-- rate-stability:insufficient -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-There is not enough qualifying APY history to rank FRXUSDDUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,9 +27,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which FRXUSDDUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-There is not enough qualifying APY history to rank FRXUSDDUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

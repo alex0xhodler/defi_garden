@@ -9,11 +9,11 @@ The highest honest BADGER yield right now is 0.61% on uniswap-v2 (Ethereum), amo
 | [uniswap-v2 →](https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token) | Ethereum | 0.61% | $198.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BADGER's lower-variability candidates are sushiswap-v3 (Ethereum), 0.07% APY, $234.1K TVL, https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token; uniswap-v3 (Ethereum), 0.06% APY, $3.91M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token; uniswap-v2 (Ethereum), 0.61% APY, $198.7K TVL, https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token) | Ethereum | 0.07% | $234.1K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.06% | $3.91M |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BADGER pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BADGER's lower-variability candidates are sushiswap-v3 (Ethereum), 0.07% APY, $234.1K TVL, https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token; uniswap-v3 (Ethereum), 0.06% APY, $3.91M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token; uniswap-v2 (Ethereum), 0.61% APY, $198.7K TVL, https://www.defi.garden/?pool=702aafc0-e1ea-4415-aaca-910bea8ed504&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

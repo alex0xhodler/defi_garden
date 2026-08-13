@@ -7,9 +7,9 @@ The highest honest TROLL yield right now is 0.41% on uniswap-v2 (Ethereum), amon
 | [uniswap-v2 →](https://www.defi.garden/?pool=12fc4a60-99d5-4d93-9521-912d0d312ae6&src=seo_token) | Ethereum | 0.41% | $456.9K |
 
 <!-- rate-stability:insufficient -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-There is not enough qualifying APY history to rank TROLL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,9 +27,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which TROLL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-There is not enough qualifying APY history to rank TROLL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

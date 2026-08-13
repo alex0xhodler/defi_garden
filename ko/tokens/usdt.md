@@ -14,11 +14,11 @@
 | [aave-v3 →](https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777&src=seo_token) | Ethereum | 4.26% | $73.33M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 USDT의 변동성 낮은 후보는 Ethereum의 spark-savings, APY 3.00%, TVL $352.85M, https://www.defi.garden/?pool=a5d67f7e-5b51-4a9d-969d-caf051a7f5a4&src=seo_token; Ethereum의 aave-v3, APY 4.26%, TVL $73.33M, https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777&src=seo_token; Tron의 justlend-v1, APY 2.12%, TVL $80.42M, https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_token; Ethereum의 maple, APY 4.09%, TVL $943.93M, https://www.defi.garden/?pool=8edfdf02-cdbb-43f7-bca6-954e5fe56813&src=seo_token; Ethereum의 aave-v3, APY 2.87%, TVL $429.02M, https://www.defi.garden/?pool=f981a304-bb6c-45b8-b0c5-fd2f515ad23a&src=seo_token; BSC의 venus-core-pool, APY 1.94%, TVL $88.39M, https://www.defi.garden/?pool=9f3a6015-5045-4471-ba65-ad3dc7c38269&src=seo_token; Ethereum의 fluid-lending, APY 4.11%, TVL $137.92M, https://www.defi.garden/?pool=4e8cc592-c8d5-4824-8155-128ba521e903&src=seo_token; Ethereum의 uniswap-v3, APY 13.52%, TVL $79.6M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [spark-savings →](https://www.defi.garden/?pool=a5d67f7e-5b51-4a9d-969d-caf051a7f5a4&src=seo_token) | Ethereum | 3.00% | $352.85M |
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777&src=seo_token) | Ethereum | 4.26% | $73.33M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 13.52%예
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### USDT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 USDT의 변동성 낮은 후보는 Ethereum의 spark-savings, APY 3.00%, TVL $352.85M, https://www.defi.garden/?pool=a5d67f7e-5b51-4a9d-969d-caf051a7f5a4&src=seo_token; Ethereum의 aave-v3, APY 4.26%, TVL $73.33M, https://www.defi.garden/?pool=a90d554a-b548-4f50-b03e-9dcb724b7777&src=seo_token; Tron의 justlend-v1, APY 2.12%, TVL $80.42M, https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_token; Ethereum의 maple, APY 4.09%, TVL $943.93M, https://www.defi.garden/?pool=8edfdf02-cdbb-43f7-bca6-954e5fe56813&src=seo_token; Ethereum의 aave-v3, APY 2.87%, TVL $429.02M, https://www.defi.garden/?pool=f981a304-bb6c-45b8-b0c5-fd2f515ad23a&src=seo_token; BSC의 venus-core-pool, APY 1.94%, TVL $88.39M, https://www.defi.garden/?pool=9f3a6015-5045-4471-ba65-ad3dc7c38269&src=seo_token; Ethereum의 fluid-lending, APY 4.11%, TVL $137.92M, https://www.defi.garden/?pool=4e8cc592-c8d5-4824-8155-128ba521e903&src=seo_token; Ethereum의 uniswap-v3, APY 13.52%, TVL $79.6M, https://www.defi.garden/?pool=fc9f488e-8183-416f-a61e-4e5c571d4395&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

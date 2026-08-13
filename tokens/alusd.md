@@ -14,11 +14,11 @@ The highest honest ALUSD yield right now is 10.57% on velodrome-v2 (OP Mainnet),
 | [stake-dao →](https://www.defi.garden/?pool=188aa963-c6c4-45ec-bc13-db067cf33249&src=seo_token) | Arbitrum | 5.84% | $607.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ALUSD's lower-variability candidates are convex-finance (Ethereum), 8.56% APY, $1.89M TVL, https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6&src=seo_token; curve-dex (Ethereum), 4.56% APY, $2.23M TVL, https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69&src=seo_token; stake-dao (Arbitrum), 5.84% APY, $607.2K TVL, https://www.defi.garden/?pool=188aa963-c6c4-45ec-bc13-db067cf33249&src=seo_token; curve-dex (Arbitrum), 5.86% APY, $610.8K TVL, https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f&src=seo_token; velodrome-v2 (OP Mainnet), 10.57% APY, $1.67M TVL, https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8&src=seo_token; convex-finance (Ethereum), 4.46% APY, $718.2K TVL, https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1&src=seo_token; curve-dex (Ethereum), 2.80% APY, $896.9K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [convex-finance →](https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6&src=seo_token) | Ethereum | 8.56% | $1.89M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69&src=seo_token) | Ethereum | 4.56% | $2.23M |
@@ -65,9 +65,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ALUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ALUSD's lower-variability candidates are convex-finance (Ethereum), 8.56% APY, $1.89M TVL, https://www.defi.garden/?pool=398fc5e7-b9e3-45a2-b9bb-e65913bb02a6&src=seo_token; curve-dex (Ethereum), 4.56% APY, $2.23M TVL, https://www.defi.garden/?pool=0baca69f-f88b-4dc3-9410-02a77c96df69&src=seo_token; stake-dao (Arbitrum), 5.84% APY, $607.2K TVL, https://www.defi.garden/?pool=188aa963-c6c4-45ec-bc13-db067cf33249&src=seo_token; curve-dex (Arbitrum), 5.86% APY, $610.8K TVL, https://www.defi.garden/?pool=abd14430-0463-4146-a90a-cb63e118750f&src=seo_token; velodrome-v2 (OP Mainnet), 10.57% APY, $1.67M TVL, https://www.defi.garden/?pool=8154fad0-f9ba-46d3-a54a-872080279ec8&src=seo_token; convex-finance (Ethereum), 4.46% APY, $718.2K TVL, https://www.defi.garden/?pool=1fa89639-b77f-4876-bebc-21ba6f36aab1&src=seo_token; curve-dex (Ethereum), 2.80% APY, $896.9K TVL, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

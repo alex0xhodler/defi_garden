@@ -8,11 +8,11 @@ The highest honest HYLOSOL yield right now is 6.18% on hylo-lsts (Solana), among
 | [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.02% | $323.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, HYLOSOL's lower-variability candidates are project-0 (Solana), 0.02% APY, $323.4K TVL, https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token; hylo-lsts (Solana), 6.18% APY, $14.12M TVL, https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [project-0 →](https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token) | Solana | 0.02% | $323.4K |
 | 2 | [hylo-lsts →](https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token) | Solana | 6.18% | $14.12M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which HYLOSOL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, HYLOSOL's lower-variability candidates are project-0 (Solana), 0.02% APY, $323.4K TVL, https://www.defi.garden/?pool=b7449444-38d5-41d6-9e7d-a9bafb7cb2bc&src=seo_token; hylo-lsts (Solana), 6.18% APY, $14.12M TVL, https://www.defi.garden/?pool=1b94ffcc-41ce-4071-b5b7-12d6670f4d75&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -9,11 +9,11 @@ The highest honest USDF yield right now is 7.71% on convex-finance (Ethereum), a
 | [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 7.71% | $1.53M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 7.71% APY, $1.53M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token; curve-dex (Ethereum), 3.19% APY, $3.14M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $10.06M TVL, https://www.defi.garden/?pool=be43dcf6-39dd-43b1-85e8-20844c1b0e58&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 7.71% | $1.53M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token) | Ethereum | 3.19% | $3.14M |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDF pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDF's lower-variability candidates are convex-finance (Ethereum), 7.71% APY, $1.53M TVL, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token; curve-dex (Ethereum), 3.19% APY, $3.14M TVL, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $10.06M TVL, https://www.defi.garden/?pool=be43dcf6-39dd-43b1-85e8-20844c1b0e58&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

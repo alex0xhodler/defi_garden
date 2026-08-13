@@ -8,11 +8,11 @@ The highest honest DGLD yield right now is 0.04% on uniswap-v4 (Base), among 2 p
 | [uniswap-v4 →](https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token) | Base | 0.04% | $102.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, DGLD's lower-variability candidates are uniswap-v4 (Base), 0.04% APY, $102.7K TVL, https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token; uniswap-v4 (Ethereum), 4.29% APY, $455.3K TVL, https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token) | Base | 0.04% | $102.7K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token) | Ethereum | 4.29% | $455.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which DGLD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, DGLD's lower-variability candidates are uniswap-v4 (Base), 0.04% APY, $102.7K TVL, https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token; uniswap-v4 (Ethereum), 4.29% APY, $455.3K TVL, https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

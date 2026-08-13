@@ -7,9 +7,9 @@ The highest honest JRROYAA yield right now is 17.49% on royco-v2 (Ethereum), amo
 | [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 17.49% | $158.4K |
 
 <!-- rate-stability:insufficient -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-There is not enough qualifying APY history to rank JRROYAA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,9 +27,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which JRROYAA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-There is not enough qualifying APY history to rank JRROYAA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

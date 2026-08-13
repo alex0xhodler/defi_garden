@@ -7,9 +7,9 @@ The highest honest ORE yield right now is 53.90% on orca-dex (Solana), among 1 p
 | [orca-dex →](https://www.defi.garden/?pool=64bdbf93-387a-4215-b5ae-6fcc908d2e48&src=seo_token) | Solana | 53.90% | $270.9K |
 
 <!-- rate-stability:insufficient -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-There is not enough qualifying APY history to rank ORE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,9 +27,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ORE pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-There is not enough qualifying APY history to rank ORE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

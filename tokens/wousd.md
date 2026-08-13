@@ -8,11 +8,11 @@ The highest honest WOUSD yield right now is 6.33% on pendle (Ethereum), among 3 
 | [pendle →](https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da&src=seo_token) | Ethereum | 6.33% | $176.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, WOUSD's lower-variability candidates are pendle (Ethereum), 6.33% APY, $176.3K TVL, https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da&src=seo_token; pendle (Ethereum), 5.61% APY, $176.3K TVL, https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da&src=seo_token) | Ethereum | 6.33% | $176.3K |
 | 2 | [pendle →](https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883&src=seo_token) | Ethereum | 5.61% | $176.3K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which WOUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, WOUSD's lower-variability candidates are pendle (Ethereum), 6.33% APY, $176.3K TVL, https://www.defi.garden/?pool=3fc1c65a-c57e-48e5-b896-91672d16e8da&src=seo_token; pendle (Ethereum), 5.61% APY, $176.3K TVL, https://www.defi.garden/?pool=3a0bfe11-ab8a-4112-8916-5185dfd69883&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

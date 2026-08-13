@@ -8,11 +8,11 @@ The highest honest SLVON yield right now is 13.88% on uniswap-v3 (Ethereum), amo
 | [uniswap-v3 →](https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token) | Ethereum | 13.88% | $134.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SLVON's lower-variability candidates are uniswap-v3 (Ethereum), 13.88% APY, $134.8K TVL, https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token; uniswap-v3 (Ethereum), 6.77% APY, $620.4K TVL, https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token) | Ethereum | 13.88% | $134.8K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token) | Ethereum | 6.77% | $620.4K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SLVON pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SLVON's lower-variability candidates are uniswap-v3 (Ethereum), 13.88% APY, $134.8K TVL, https://www.defi.garden/?pool=7025bf35-162a-45b2-9972-a8332f9a3b00&src=seo_token; uniswap-v3 (Ethereum), 6.77% APY, $620.4K TVL, https://www.defi.garden/?pool=0b2a914c-4a73-494b-9c85-ce53820b1382&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

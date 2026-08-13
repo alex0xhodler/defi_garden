@@ -10,11 +10,11 @@ The highest honest ADS yield right now is 4.67% on uniswap-v3 (Base), among 6 po
 | [uniswap-v3 →](https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token) | Base | 0.15% | $224.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ADS's lower-variability candidates are uniswap-v4 (Ethereum), 0.05% APY, $691.1K TVL, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; uniswap-v4 (Ethereum), 0.04% APY, $700.4K TVL, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; uniswap-v3 (Base), 0.15% APY, $224.3K TVL, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; uniswap-v3 (Base), 4.67% APY, $312.5K TVL, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token) | Ethereum | 0.05% | $691.1K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token) | Ethereum | 0.04% | $700.4K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ADS pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ADS's lower-variability candidates are uniswap-v4 (Ethereum), 0.05% APY, $691.1K TVL, https://www.defi.garden/?pool=dc5d2154-2f69-4d84-b9f4-618bebd699c2&src=seo_token; uniswap-v4 (Ethereum), 0.04% APY, $700.4K TVL, https://www.defi.garden/?pool=29dfd344-45c0-4467-bf86-7b3485ce76e2&src=seo_token; uniswap-v3 (Base), 0.15% APY, $224.3K TVL, https://www.defi.garden/?pool=75df49f1-5a3b-4f0f-b3ef-626aa299f705&src=seo_token; uniswap-v3 (Base), 4.67% APY, $312.5K TVL, https://www.defi.garden/?pool=16625656-f950-40fb-9459-ff63f1d561c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

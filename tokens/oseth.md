@@ -10,11 +10,11 @@ The highest honest OSETH yield right now is 6.72% on convex-finance (Ethereum), 
 | [balancer-v3 →](https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5&src=seo_token) | Ethereum | 1.90% | $1.33M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, OSETH's lower-variability candidates are stakewise-v3 (Ethereum), 2.27% APY, $283.84M TVL, https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8&src=seo_token; curve-dex (Ethereum), 2.21% APY, $10.47M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; balancer-v3 (Ethereum), 1.90% APY, $1.33M TVL, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5&src=seo_token; convex-finance (Ethereum), 6.72% APY, $1.59M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stakewise-v3 →](https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8&src=seo_token) | Ethereum | 2.27% | $283.84M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.21% | $10.47M |
@@ -54,9 +54,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which OSETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, OSETH's lower-variability candidates are stakewise-v3 (Ethereum), 2.27% APY, $283.84M TVL, https://www.defi.garden/?pool=4d01599c-69ae-41a3-bae1-5fab896f04c8&src=seo_token; curve-dex (Ethereum), 2.21% APY, $10.47M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; balancer-v3 (Ethereum), 1.90% APY, $1.33M TVL, https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5&src=seo_token; convex-finance (Ethereum), 6.72% APY, $1.59M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

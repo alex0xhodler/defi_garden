@@ -13,11 +13,11 @@ The highest honest 3CRV yield right now is 17.14% on curve-dex (Ethereum), among
 | [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token) | Ethereum | 44.62% | $143.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, 3CRV's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $575.6K TVL, https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token; curve-dex (Ethereum), 2.99% APY, $404.8K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token; curve-dex (Ethereum), 0.18% APY, $247.4K TVL, https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token; convex-finance (Ethereum), 0.03% APY, $383.3K TVL, https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token; curve-dex (Ethereum), 1.83% APY, $1.07M TVL, https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token; curve-dex (Ethereum), 17.14% APY, $193.4K TVL, https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token; convex-finance (Ethereum), 44.62% APY, $143.5K TVL, https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token) | Ethereum | 0.03% | $575.6K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 2.99% | $404.8K |
@@ -65,9 +65,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which 3CRV pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, 3CRV's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $575.6K TVL, https://www.defi.garden/?pool=8d989d6c-99ba-447e-8f3d-3aca98e993fd&src=seo_token; curve-dex (Ethereum), 2.99% APY, $404.8K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token; curve-dex (Ethereum), 0.18% APY, $247.4K TVL, https://www.defi.garden/?pool=fa1ea651-4d34-4672-837f-9dcd043319b9&src=seo_token; convex-finance (Ethereum), 0.03% APY, $383.3K TVL, https://www.defi.garden/?pool=844a8a29-4653-42e6-b675-a6b43fac3678&src=seo_token; curve-dex (Ethereum), 1.83% APY, $1.07M TVL, https://www.defi.garden/?pool=ce225565-9411-4e75-afdb-b0df6e14066b&src=seo_token; curve-dex (Ethereum), 17.14% APY, $193.4K TVL, https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token; convex-finance (Ethereum), 44.62% APY, $143.5K TVL, https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

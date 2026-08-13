@@ -8,11 +8,11 @@ The highest honest SWETH yield right now is 2.61% on swell-liquid-staking (Ether
 | [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 0.66% | $191.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SWETH's lower-variability candidates are swell-liquid-staking (Ethereum), 2.61% APY, $27.75M TVL, https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token; uniswap-v3 (Ethereum), 0.66% APY, $191.6K TVL, https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [swell-liquid-staking →](https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token) | Ethereum | 2.61% | $27.75M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token) | Ethereum | 0.66% | $191.6K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SWETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SWETH's lower-variability candidates are swell-liquid-staking (Ethereum), 2.61% APY, $27.75M TVL, https://www.defi.garden/?pool=ca2acc2d-6246-44aa-ae91-8725b2c62c7c&src=seo_token; uniswap-v3 (Ethereum), 0.66% APY, $191.6K TVL, https://www.defi.garden/?pool=64e26366-3582-439c-b1de-b7cf84cf2749&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

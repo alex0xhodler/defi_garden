@@ -14,11 +14,11 @@
 | [justlend-v1 →](https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token) | Tron | 1.26% | $994.8K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.37%, TVL $10.05M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; BSC의 bitway-earn, APY 8.00%, TVL $9.79M, https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token; Tron의 justlend-v1, APY 1.26%, TVL $994.8K, https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token; Aptos의 echelon-market, APY 3.70%, TVL $2.4M, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token; BSC의 lista-lending, APY 0.70%, TVL $137.87M, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token; Solana의 raydium-amm, APY 0.46%, TVL $9.89M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token; Ethereum의 dolomite, APY 7.80%, TVL $124.41M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token; Solana의 raydium-amm, APY 6.81%, TVL $4.07M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.37% | $10.05M |
 | 2 | [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $9.79M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, BSC의 bitway-earn에서 APY 8.00%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### USD1 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 USD1의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.37%, TVL $10.05M, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; BSC의 bitway-earn, APY 8.00%, TVL $9.79M, https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token; Tron의 justlend-v1, APY 1.26%, TVL $994.8K, https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token; Aptos의 echelon-market, APY 3.70%, TVL $2.4M, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token; BSC의 lista-lending, APY 0.70%, TVL $137.87M, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token; Solana의 raydium-amm, APY 0.46%, TVL $9.89M, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token; Ethereum의 dolomite, APY 7.80%, TVL $124.41M, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token; Solana의 raydium-amm, APY 6.81%, TVL $4.07M, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

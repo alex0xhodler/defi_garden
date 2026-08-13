@@ -9,11 +9,11 @@ The highest honest GTUSDT yield right now is 7.26% on morpho-blue (Katana), amon
 | [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 7.26% | $193.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GTUSDT's lower-variability candidates are morpho-blue (Ethereum), 3.12% APY, $3.79M TVL, https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token; morpho-blue (Katana), 5.61% APY, $218.5K TVL, https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token; morpho-blue (Katana), 7.26% APY, $193.9K TVL, https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 3.12% | $3.79M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 5.61% | $218.5K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GTUSDT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GTUSDT's lower-variability candidates are morpho-blue (Ethereum), 3.12% APY, $3.79M TVL, https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token; morpho-blue (Katana), 5.61% APY, $218.5K TVL, https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token; morpho-blue (Katana), 7.26% APY, $193.9K TVL, https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

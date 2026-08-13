@@ -10,11 +10,11 @@
 | [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 14.03% | $112.5K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 KODIWBTC의 변동성 낮은 후보는 Berachain의 berapaw, APY 1.77%, TVL $905.9K, https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_token; Berachain의 berapaw, APY 14.03%, TVL $112.5K, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; Berachain의 berapaw, APY 33.16%, TVL $200.1K, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token; Berachain의 berapaw, APY 3.15%, TVL $158K, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [berapaw →](https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_token) | Berachain | 1.77% | $905.9K |
 | 2 | [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 14.03% | $112.5K |
@@ -56,9 +56,9 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 33.16%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### KODIWBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 KODIWBTC의 변동성 낮은 후보는 Berachain의 berapaw, APY 1.77%, TVL $905.9K, https://www.defi.garden/?pool=47444258-5cc2-4e33-95a7-1bc5df79b83b&src=seo_token; Berachain의 berapaw, APY 14.03%, TVL $112.5K, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; Berachain의 berapaw, APY 33.16%, TVL $200.1K, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token; Berachain의 berapaw, APY 3.15%, TVL $158K, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

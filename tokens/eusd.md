@@ -14,11 +14,11 @@ The highest honest EUSD yield right now is 44.11% on curve-dex (Base), among 16 
 | [convex-finance →](https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token) | Ethereum | 0.31% | $225.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EUSD's lower-variability candidates are curve-dex (Ethereum), 2.39% APY, $1.12M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; aerodrome-v1 (Base), 6.58% APY, $419.1K TVL, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token; curve-dex (Ethereum), 0.20% APY, $1.15M TVL, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token; curve-dex (Ethereum), 0.31% APY, $226.4K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; convex-finance (Ethereum), 6.77% APY, $1.14M TVL, https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token; convex-finance (Ethereum), 0.31% APY, $225.9K TVL, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; aerodrome-slipstream (Base), 4.26% APY, $426.8K TVL, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3&src=seo_token; curve-dex (Base), 44.11% APY, $280.8K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 2.39% | $1.12M |
 | 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token) | Base | 6.58% | $419.1K |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EUSD's lower-variability candidates are curve-dex (Ethereum), 2.39% APY, $1.12M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; aerodrome-v1 (Base), 6.58% APY, $419.1K TVL, https://www.defi.garden/?pool=bde35fef-649f-4514-a564-e7e7da05eb52&src=seo_token; curve-dex (Ethereum), 0.20% APY, $1.15M TVL, https://www.defi.garden/?pool=3e4081dd-324d-4a46-8aba-01320ac68fa2&src=seo_token; curve-dex (Ethereum), 0.31% APY, $226.4K TVL, https://www.defi.garden/?pool=817329d2-07cb-4cbd-82ac-eb9bc0add450&src=seo_token; convex-finance (Ethereum), 6.77% APY, $1.14M TVL, https://www.defi.garden/?pool=e41e49e0-f4a5-4959-a653-9eab6b65d05f&src=seo_token; convex-finance (Ethereum), 0.31% APY, $225.9K TVL, https://www.defi.garden/?pool=c04005c9-7e34-41a6-91c4-295834ed8ac0&src=seo_token; aerodrome-slipstream (Base), 4.26% APY, $426.8K TVL, https://www.defi.garden/?pool=aeb97af6-bd75-4a34-975b-9166427a0ce3&src=seo_token; curve-dex (Base), 44.11% APY, $280.8K TVL, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

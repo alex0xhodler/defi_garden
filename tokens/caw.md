@@ -8,11 +8,11 @@ The highest honest CAW yield right now is 1.43% on vvs-standard (Cronos), among 
 | [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 1.43% | $800K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CAW's lower-variability candidates are uniswap-v2 (Ethereum), 0.74% APY, $1.55M TVL, https://www.defi.garden/?pool=d4148eeb-90ad-4317-9476-2c838101a254&src=seo_token; vvs-standard (Cronos), 1.43% APY, $800K TVL, https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=d4148eeb-90ad-4317-9476-2c838101a254&src=seo_token) | Ethereum | 0.74% | $1.55M |
 | 2 | [vvs-standard →](https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token) | Cronos | 1.43% | $800K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CAW pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CAW's lower-variability candidates are uniswap-v2 (Ethereum), 0.74% APY, $1.55M TVL, https://www.defi.garden/?pool=d4148eeb-90ad-4317-9476-2c838101a254&src=seo_token; vvs-standard (Cronos), 1.43% APY, $800K TVL, https://www.defi.garden/?pool=17f2bd86-86ab-4b1d-b4c5-ae373f3a5694&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

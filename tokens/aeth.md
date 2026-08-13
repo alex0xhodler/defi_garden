@@ -8,11 +8,11 @@ The highest honest AETH yield right now is 0.09% on hydration-dex (Polkadot), am
 | [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.01% | $188.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, AETH's lower-variability candidates are hydration-dex (Polkadot), 0.01% APY, $188.4K TVL, https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token; hydration-dex (Polkadot), 0.09% APY, $3.2M TVL, https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.01% | $188.4K |
 | 2 | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token) | Polkadot | 0.09% | $3.2M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which AETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, AETH's lower-variability candidates are hydration-dex (Polkadot), 0.01% APY, $188.4K TVL, https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token; hydration-dex (Polkadot), 0.09% APY, $3.2M TVL, https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

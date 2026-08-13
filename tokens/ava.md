@@ -8,11 +8,11 @@ The highest honest AVA yield right now is 387.49% on raydium-amm (Solana), among
 | [raydium-amm →](https://www.defi.garden/?pool=e00d470d-676f-431a-98ad-a6d1acd411c2&src=seo_token) | Solana | 387.49% | $123.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 220.74% APY, $1.32M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token; raydium-amm (Solana), 387.49% APY, $123.4K TVL, https://www.defi.garden/?pool=e00d470d-676f-431a-98ad-a6d1acd411c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token) | Solana | 220.74% | $1.32M |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=e00d470d-676f-431a-98ad-a6d1acd411c2&src=seo_token) | Solana | 387.49% | $123.4K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which AVA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 220.74% APY, $1.32M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token; raydium-amm (Solana), 387.49% APY, $123.4K TVL, https://www.defi.garden/?pool=e00d470d-676f-431a-98ad-a6d1acd411c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

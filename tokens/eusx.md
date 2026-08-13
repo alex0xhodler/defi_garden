@@ -8,11 +8,11 @@ The highest honest EUSX yield right now is 0.39% on orca-dex (Solana), among 4 p
 | [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.32% | $4.53M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EUSX's lower-variability candidates are orca-dex (Solana), 0.39% APY, $4.66M TVL, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token; raydium-amm (Solana), 0.32% APY, $4.53M TVL, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token) | Solana | 0.39% | $4.66M |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token) | Solana | 0.32% | $4.53M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EUSX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EUSX's lower-variability candidates are orca-dex (Solana), 0.39% APY, $4.66M TVL, https://www.defi.garden/?pool=31ea8935-a82e-491e-9cd9-3af57dab0430&src=seo_token; raydium-amm (Solana), 0.32% APY, $4.53M TVL, https://www.defi.garden/?pool=0cb32474-2651-4624-8f39-eae66580778e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

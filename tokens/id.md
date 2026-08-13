@@ -8,11 +8,11 @@ The highest honest ID yield right now is 12.76% on sushiswap-v3 (Ethereum), amon
 | [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 1.01% | $112.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ID's lower-variability candidates are sushiswap-v3 (Ethereum), 12.76% APY, $574K TVL, https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token; uniswap-v4 (Ethereum), 1.01% APY, $112.6K TVL, https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token) | Ethereum | 12.76% | $574K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token) | Ethereum | 1.01% | $112.6K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ID pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ID's lower-variability candidates are sushiswap-v3 (Ethereum), 12.76% APY, $574K TVL, https://www.defi.garden/?pool=e63417fc-c05b-41df-b332-9ae301f39743&src=seo_token; uniswap-v4 (Ethereum), 1.01% APY, $112.6K TVL, https://www.defi.garden/?pool=d3032c06-8520-453a-895d-009e398b897f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

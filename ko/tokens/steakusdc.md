@@ -14,11 +14,11 @@
 | [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token) | Katana | 1.44% | $1.5M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 STEAKUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.19%, TVL $97.17M, https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token; Base의 morpho-blue, APY 3.91%, TVL $24.21M, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token; Ethereum의 morpho-blue, APY 3.99%, TVL $75.02M, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token; Base의 morpho-blue, APY 3.08%, TVL $161.06M, https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token; Base의 morpho-blue, APY 4.12%, TVL $597.48M, https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token; Ethereum의 morpho-blue, APY 5.54%, TVL $14.5M, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token; Katana의 morpho-blue, APY 1.41%, TVL $13.65M, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token; Katana의 morpho-blue, APY 1.44%, TVL $1.5M, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token) | Ethereum | 4.19% | $97.17M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token) | Base | 3.91% | $24.21M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 5.54%예
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### STEAKUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 STEAKUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.19%, TVL $97.17M, https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token; Base의 morpho-blue, APY 3.91%, TVL $24.21M, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token; Ethereum의 morpho-blue, APY 3.99%, TVL $75.02M, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token; Base의 morpho-blue, APY 3.08%, TVL $161.06M, https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token; Base의 morpho-blue, APY 4.12%, TVL $597.48M, https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token; Ethereum의 morpho-blue, APY 5.54%, TVL $14.5M, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token; Katana의 morpho-blue, APY 1.41%, TVL $13.65M, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token; Katana의 morpho-blue, APY 1.44%, TVL $1.5M, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

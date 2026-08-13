@@ -9,11 +9,11 @@ The highest honest SDUSD yield right now is 17.23% on stake-dao (Ethereum), amon
 | [dtrinity-dusd →](https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token) | Ethereum | 2.50% | $461.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SDUSD's lower-variability candidates are dtrinity-dusd (Ethereum), 2.50% APY, $461.6K TVL, https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token; curve-dex (Ethereum), 15.09% APY, $602K TVL, https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token; stake-dao (Ethereum), 17.23% APY, $549.3K TVL, https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [dtrinity-dusd →](https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token) | Ethereum | 2.50% | $461.6K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token) | Ethereum | 15.09% | $602K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SDUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SDUSD's lower-variability candidates are dtrinity-dusd (Ethereum), 2.50% APY, $461.6K TVL, https://www.defi.garden/?pool=78049985-79a8-4343-8618-3c27d41d5054&src=seo_token; curve-dex (Ethereum), 15.09% APY, $602K TVL, https://www.defi.garden/?pool=141fefb5-bb8c-4751-9a91-d450df554a5f&src=seo_token; stake-dao (Ethereum), 17.23% APY, $549.3K TVL, https://www.defi.garden/?pool=46cb667c-a544-44e8-93ad-6a52096b6014&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

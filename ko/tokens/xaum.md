@@ -9,11 +9,11 @@
 | [raydium-amm →](https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token) | Solana | 0.11% | $395.9K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 XAUM의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.11%, TVL $395.9K, https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token; Sui의 navi-lending, APY 0.01%, TVL $817.3K, https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774&src=seo_token; Sui의 bluefin-spot, APY 10.32%, TVL $411.9K, https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token) | Solana | 0.11% | $395.9K |
 | 2 | [navi-lending →](https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774&src=seo_token) | Sui | 0.01% | $817.3K |
@@ -53,9 +53,9 @@ DefiLlama 실시간 데이터 기준, Sui의 bluefin-spot에서 APY 10.32%예요
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### XAUM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 XAUM의 변동성 낮은 후보는 Solana의 raydium-amm, APY 0.11%, TVL $395.9K, https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token; Sui의 navi-lending, APY 0.01%, TVL $817.3K, https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774&src=seo_token; Sui의 bluefin-spot, APY 10.32%, TVL $411.9K, https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

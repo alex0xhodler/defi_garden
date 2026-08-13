@@ -8,11 +8,11 @@ The highest honest SERV yield right now is 169.77% on aerodrome-slipstream (Base
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 169.77% | $797.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 13.02% APY, $1.22M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 169.77% APY, $797.1K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token) | Ethereum | 13.02% | $1.22M |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token) | Base | 169.77% | $797.1K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SERV pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SERV's lower-variability candidates are uniswap-v3 (Ethereum), 13.02% APY, $1.22M TVL, https://www.defi.garden/?pool=32222246-9bc0-420b-b608-2c39dd0bb35c&src=seo_token; aerodrome-slipstream (Base), 169.77% APY, $797.1K TVL, https://www.defi.garden/?pool=3536d45e-555f-436c-93c7-cc6e55342831&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

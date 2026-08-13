@@ -9,11 +9,11 @@ The highest honest BLUAI yield right now is 5.79% on raydium-amm (Solana), among
 | [uniswap-v3 →](https://www.defi.garden/?pool=5dca970b-54a0-4b41-8b2c-6ae96ed3db85&src=seo_token) | BSC | 418.92% | $106.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BLUAI's lower-variability candidates are raydium-amm (Solana), 5.79% APY, $178.6K TVL, https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token; uniswap-v3 (BSC), 418.92% APY, $106.8K TVL, https://www.defi.garden/?pool=5dca970b-54a0-4b41-8b2c-6ae96ed3db85&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token) | Solana | 5.79% | $178.6K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=5dca970b-54a0-4b41-8b2c-6ae96ed3db85&src=seo_token) | BSC | 418.92% | $106.8K |
@@ -52,9 +52,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BLUAI pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BLUAI's lower-variability candidates are raydium-amm (Solana), 5.79% APY, $178.6K TVL, https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token; uniswap-v3 (BSC), 418.92% APY, $106.8K TVL, https://www.defi.garden/?pool=5dca970b-54a0-4b41-8b2c-6ae96ed3db85&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -8,11 +8,11 @@ The highest honest PBTC yield right now is 9.02% on raydium-amm (Solana), among 
 | [uniswap-v2 →](https://www.defi.garden/?pool=fb8cefa0-1f3b-4d64-8f46-103889c30f69&src=seo_token) | Ethereum | 0.10% | $134K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, PBTC's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $134K TVL, https://www.defi.garden/?pool=fb8cefa0-1f3b-4d64-8f46-103889c30f69&src=seo_token; raydium-amm (Solana), 9.02% APY, $205.3K TVL, https://www.defi.garden/?pool=1a81b580-d291-4a70-96c9-24ccd2d9a708&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=fb8cefa0-1f3b-4d64-8f46-103889c30f69&src=seo_token) | Ethereum | 0.10% | $134K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=1a81b580-d291-4a70-96c9-24ccd2d9a708&src=seo_token) | Solana | 9.02% | $205.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which PBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, PBTC's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $134K TVL, https://www.defi.garden/?pool=fb8cefa0-1f3b-4d64-8f46-103889c30f69&src=seo_token; raydium-amm (Solana), 9.02% APY, $205.3K TVL, https://www.defi.garden/?pool=1a81b580-d291-4a70-96c9-24ccd2d9a708&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

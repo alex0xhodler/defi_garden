@@ -14,11 +14,11 @@ The highest honest FXRP yield right now is 16.96% on sparkdex-v4 (Flare), among 
 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4&src=seo_token) | Flare | 1.50% | $513.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, FXRP's lower-variability candidates are sparkdex-v4 (Flare), 2.50% APY, $3.82M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token; spectra-metavaults (Flare), 4.09% APY, $2.75M TVL, https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233&src=seo_token; gami-labs (Flare), 4.09% APY, $2.75M TVL, https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6&src=seo_token; kinetic (Flare), 1.05% APY, $20.47M TVL, https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_token; sparkdex-v4 (Flare), 10.63% APY, $794.5K TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; sparkdex-v4 (Flare), 16.96% APY, $1.92M TVL, https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832&src=seo_token; sparkdex-v3.1 (Flare), 1.50% APY, $513.6K TVL, https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 2.50% | $3.82M |
 | 2 | [spectra-metavaults →](https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233&src=seo_token) | Flare | 4.09% | $2.75M |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which FXRP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, FXRP's lower-variability candidates are sparkdex-v4 (Flare), 2.50% APY, $3.82M TVL, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token; spectra-metavaults (Flare), 4.09% APY, $2.75M TVL, https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233&src=seo_token; gami-labs (Flare), 4.09% APY, $2.75M TVL, https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6&src=seo_token; kinetic (Flare), 1.05% APY, $20.47M TVL, https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_token; sparkdex-v4 (Flare), 10.63% APY, $794.5K TVL, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; sparkdex-v4 (Flare), 16.96% APY, $1.92M TVL, https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832&src=seo_token; sparkdex-v3.1 (Flare), 1.50% APY, $513.6K TVL, https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

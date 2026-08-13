@@ -14,11 +14,11 @@ The highest honest USDG yield right now is 5.00% on maple (Ethereum), among 46 p
 | [pendle →](https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token) | Ethereum | 3.63% | $3.79M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDG's lower-variability candidates are aave-v4 (Ethereum), 1.32% APY, $25.37M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token; curve-dex (Ethereum), 0.23% APY, $30.47M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token; maple (Ethereum), 5.00% APY, $243.18M TVL, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token; pendle (Ethereum), 3.63% APY, $3.79M TVL, https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token; kamino-lend (Solana), 2.67% APY, $20.08M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token; aave-v3 (Ethereum), 4.65% APY, $4.03M TVL, https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token; orca-dex (Solana), 0.12% APY, $25.68M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.32% | $25.37M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.23% | $30.47M |
@@ -65,9 +65,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDG pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDG's lower-variability candidates are aave-v4 (Ethereum), 1.32% APY, $25.37M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token; curve-dex (Ethereum), 0.23% APY, $30.47M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token; maple (Ethereum), 5.00% APY, $243.18M TVL, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token; pendle (Ethereum), 3.63% APY, $3.79M TVL, https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token; kamino-lend (Solana), 2.67% APY, $20.08M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token; aave-v3 (Ethereum), 4.65% APY, $4.03M TVL, https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token; orca-dex (Solana), 0.12% APY, $25.68M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

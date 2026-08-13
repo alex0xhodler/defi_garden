@@ -8,11 +8,11 @@ The highest honest VFY yield right now is 18.56% on aerodrome-slipstream (Base),
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=f8bc842a-cd86-4128-8fae-e316ec118def&src=seo_token) | Base | 18.56% | $160.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, VFY's lower-variability candidates are uniswap-v4 (Base), 1.37% APY, $211.4K TVL, https://www.defi.garden/?pool=fd3c5582-80cb-4cab-b9f9-ca9d9281ff4f&src=seo_token; aerodrome-slipstream (Base), 18.56% APY, $160.2K TVL, https://www.defi.garden/?pool=f8bc842a-cd86-4128-8fae-e316ec118def&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=fd3c5582-80cb-4cab-b9f9-ca9d9281ff4f&src=seo_token) | Base | 1.37% | $211.4K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=f8bc842a-cd86-4128-8fae-e316ec118def&src=seo_token) | Base | 18.56% | $160.2K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which VFY pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, VFY's lower-variability candidates are uniswap-v4 (Base), 1.37% APY, $211.4K TVL, https://www.defi.garden/?pool=fd3c5582-80cb-4cab-b9f9-ca9d9281ff4f&src=seo_token; aerodrome-slipstream (Base), 18.56% APY, $160.2K TVL, https://www.defi.garden/?pool=f8bc842a-cd86-4128-8fae-e316ec118def&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -8,11 +8,11 @@ The highest honest NOS yield right now is 10.74% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 10.74% | $146.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, NOS's lower-variability candidates are raydium-amm (Solana), 7.73% APY, $437K TVL, https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token; raydium-amm (Solana), 10.74% APY, $146.5K TVL, https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token) | Solana | 7.73% | $437K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token) | Solana | 10.74% | $146.5K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which NOS pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, NOS's lower-variability candidates are raydium-amm (Solana), 7.73% APY, $437K TVL, https://www.defi.garden/?pool=7222bf12-2d1d-4ab9-9c46-37a9c32eb347&src=seo_token; raydium-amm (Solana), 10.74% APY, $146.5K TVL, https://www.defi.garden/?pool=b924f276-73c4-4de8-b8c2-db0ae6bf7ce2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

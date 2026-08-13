@@ -8,11 +8,11 @@ The highest honest FLOCK yield right now is 132.06% on aerodrome-slipstream (Bas
 | [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 8.49% | $110.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, FLOCK's lower-variability candidates are uniswap-v3 (Base), 8.49% APY, $110.4K TVL, https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token; aerodrome-slipstream (Base), 132.06% APY, $174.8K TVL, https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 8.49% | $110.4K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token) | Base | 132.06% | $174.8K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which FLOCK pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, FLOCK's lower-variability candidates are uniswap-v3 (Base), 8.49% APY, $110.4K TVL, https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token; aerodrome-slipstream (Base), 132.06% APY, $174.8K TVL, https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

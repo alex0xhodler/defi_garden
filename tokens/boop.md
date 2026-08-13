@@ -8,11 +8,11 @@ The highest honest BOOP yield right now is 0.68% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token) | Solana | 0.68% | $161.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BOOP's lower-variability candidates are orca-dex (Solana), 0.53% APY, $208.9K TVL, https://www.defi.garden/?pool=cf60d922-ec26-47be-ba90-26635dde94dd&src=seo_token; raydium-amm (Solana), 0.68% APY, $161.5K TVL, https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=cf60d922-ec26-47be-ba90-26635dde94dd&src=seo_token) | Solana | 0.53% | $208.9K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token) | Solana | 0.68% | $161.5K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BOOP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BOOP's lower-variability candidates are orca-dex (Solana), 0.53% APY, $208.9K TVL, https://www.defi.garden/?pool=cf60d922-ec26-47be-ba90-26635dde94dd&src=seo_token; raydium-amm (Solana), 0.68% APY, $161.5K TVL, https://www.defi.garden/?pool=7e4d149d-f4ba-4fc8-9cf7-740098f8a8c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

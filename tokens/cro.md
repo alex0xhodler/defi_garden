@@ -9,11 +9,11 @@ The highest honest CRO yield right now is 0.12% on tectonic (Cronos), among 3 po
 | [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 4.96% | $140.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.12% APY, $2.15M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token; uniswap-v4 (Ethereum), 7.57% APY, $381.2K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token; uniswap-v3 (Ethereum), 4.96% APY, $140.1K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token) | Cronos | 0.12% | $2.15M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 7.57% | $381.2K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CRO pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.12% APY, $2.15M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token; uniswap-v4 (Ethereum), 7.57% APY, $381.2K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token; uniswap-v3 (Ethereum), 4.96% APY, $140.1K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

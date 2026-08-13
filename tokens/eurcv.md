@@ -8,11 +8,11 @@ The highest honest EURCV yield right now is 0.36% on uniswap-v3 (Ethereum), amon
 | [uniswap-v3 →](https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token) | Ethereum | 0.36% | $3.41M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EURCV's lower-variability candidates are uniswap-v3 (Ethereum), 0.08% APY, $5.81M TVL, https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token; uniswap-v3 (Ethereum), 0.36% APY, $3.41M TVL, https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.08% | $5.81M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token) | Ethereum | 0.36% | $3.41M |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EURCV pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EURCV's lower-variability candidates are uniswap-v3 (Ethereum), 0.08% APY, $5.81M TVL, https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token; uniswap-v3 (Ethereum), 0.36% APY, $3.41M TVL, https://www.defi.garden/?pool=330fe26f-2f0e-4f15-aca1-5a7a7242bbd1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

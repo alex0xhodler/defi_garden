@@ -13,11 +13,11 @@ The highest honest VUSD yield right now is 26.30% on stake-dao (Ethereum), among
 | [stake-dao →](https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token) | Ethereum | 13.44% | $167.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, VUSD's lower-variability candidates are morpho-blue (Monad), 1.14% APY, $1.84M TVL, https://www.defi.garden/?pool=1d4ed7bb-9fef-4cb4-bb8f-1bd5ce1b7542&src=seo_token; curvance (Monad), 0.76% APY, $36.17M TVL, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token; amply-finance (Cronos zkEVM), 0.01% APY, $187K TVL, https://www.defi.garden/?pool=1e2284a8-3983-427c-a432-e4a8b37adade&src=seo_token; stake-dao (Ethereum), 26.30% APY, $386.9K TVL, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token; curve-dex (Ethereum), 21.70% APY, $475.8K TVL, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token; curve-dex (Ethereum), 11.62% APY, $175K TVL, https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token; stake-dao (Ethereum), 13.44% APY, $167.2K TVL, https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=1d4ed7bb-9fef-4cb4-bb8f-1bd5ce1b7542&src=seo_token) | Monad | 1.14% | $1.84M |
 | 2 | [curvance →](https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token) | Monad | 0.76% | $36.17M |
@@ -63,9 +63,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which VUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, VUSD's lower-variability candidates are morpho-blue (Monad), 1.14% APY, $1.84M TVL, https://www.defi.garden/?pool=1d4ed7bb-9fef-4cb4-bb8f-1bd5ce1b7542&src=seo_token; curvance (Monad), 0.76% APY, $36.17M TVL, https://www.defi.garden/?pool=7e178994-eb38-4b0d-a3fd-ee60ab2e57ea&src=seo_token; amply-finance (Cronos zkEVM), 0.01% APY, $187K TVL, https://www.defi.garden/?pool=1e2284a8-3983-427c-a432-e4a8b37adade&src=seo_token; stake-dao (Ethereum), 26.30% APY, $386.9K TVL, https://www.defi.garden/?pool=e379b5a9-c066-4d10-baa5-e767d8055ed9&src=seo_token; curve-dex (Ethereum), 21.70% APY, $475.8K TVL, https://www.defi.garden/?pool=6bb5e798-b1f7-4e0b-9df2-ce23a6c77e2b&src=seo_token; curve-dex (Ethereum), 11.62% APY, $175K TVL, https://www.defi.garden/?pool=5eee067c-3409-4609-8d33-87250b7d6b6a&src=seo_token; stake-dao (Ethereum), 13.44% APY, $167.2K TVL, https://www.defi.garden/?pool=34dbb513-b75f-48ec-a4b8-41e3b4133e25&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

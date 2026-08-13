@@ -8,11 +8,11 @@ The highest honest CULT yield right now is 0.64% on uniswap-v3 (Ethereum), among
 | [uniswap-v2 →](https://www.defi.garden/?pool=9ba1500a-7a0b-43d5-903f-e0bb90e96afb&src=seo_token) | Ethereum | 0.04% | $1.32M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CULT's lower-variability candidates are uniswap-v2 (Ethereum), 0.04% APY, $1.32M TVL, https://www.defi.garden/?pool=9ba1500a-7a0b-43d5-903f-e0bb90e96afb&src=seo_token; uniswap-v3 (Ethereum), 0.64% APY, $3.14M TVL, https://www.defi.garden/?pool=402fc2bb-bf5e-453e-aec0-1a4cef273c03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=9ba1500a-7a0b-43d5-903f-e0bb90e96afb&src=seo_token) | Ethereum | 0.04% | $1.32M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=402fc2bb-bf5e-453e-aec0-1a4cef273c03&src=seo_token) | Ethereum | 0.64% | $3.14M |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CULT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CULT's lower-variability candidates are uniswap-v2 (Ethereum), 0.04% APY, $1.32M TVL, https://www.defi.garden/?pool=9ba1500a-7a0b-43d5-903f-e0bb90e96afb&src=seo_token; uniswap-v3 (Ethereum), 0.64% APY, $3.14M TVL, https://www.defi.garden/?pool=402fc2bb-bf5e-453e-aec0-1a4cef273c03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

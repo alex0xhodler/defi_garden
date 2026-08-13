@@ -9,11 +9,11 @@ The highest honest NYA yield right now is 0.02% on uniswap-v3 (Base), among 3 po
 | [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token) | Arbitrum | 0.02% | $145.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (OP Mainnet), 0.01% APY, $145.9K TVL, https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token; uniswap-v3 (Arbitrum), 0.02% APY, $145.8K TVL, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token; uniswap-v3 (Base), 0.02% APY, $146.1K TVL, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $145.9K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token) | Arbitrum | 0.02% | $145.8K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which NYA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (OP Mainnet), 0.01% APY, $145.9K TVL, https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token; uniswap-v3 (Arbitrum), 0.02% APY, $145.8K TVL, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token; uniswap-v3 (Base), 0.02% APY, $146.1K TVL, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

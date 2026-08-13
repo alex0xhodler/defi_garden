@@ -8,11 +8,11 @@ The highest honest XSTRKBTC yield right now is 0.64% on troves (Starknet), among
 | [troves →](https://www.defi.garden/?pool=228f40f8-68b7-4f89-956d-b71da7853deb&src=seo_token) | Starknet | 0.64% | $122.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, XSTRKBTC's lower-variability candidates are troves (Starknet), 0.64% APY, $122.3K TVL, https://www.defi.garden/?pool=228f40f8-68b7-4f89-956d-b71da7853deb&src=seo_token; ekubo (Starknet), 3.02% APY, $122.5K TVL, https://www.defi.garden/?pool=472bb65b-a4ac-4d89-8dd4-e7e06053ed84&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [troves →](https://www.defi.garden/?pool=228f40f8-68b7-4f89-956d-b71da7853deb&src=seo_token) | Starknet | 0.64% | $122.3K |
 | 2 | [ekubo →](https://www.defi.garden/?pool=472bb65b-a4ac-4d89-8dd4-e7e06053ed84&src=seo_token) | Starknet | 3.02% | $122.5K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which XSTRKBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, XSTRKBTC's lower-variability candidates are troves (Starknet), 0.64% APY, $122.3K TVL, https://www.defi.garden/?pool=228f40f8-68b7-4f89-956d-b71da7853deb&src=seo_token; ekubo (Starknet), 3.02% APY, $122.5K TVL, https://www.defi.garden/?pool=472bb65b-a4ac-4d89-8dd4-e7e06053ed84&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

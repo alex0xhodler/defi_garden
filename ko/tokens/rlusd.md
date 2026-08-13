@@ -14,11 +14,11 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=bb78714b-5da3-5298-8009-da2451208e67&src=seo_token) | Ethereum | 2.34% | $2.93M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 RLUSD의 변동성 낮은 후보는 Ethereum의 termmax, APY 0.03%, TVL $20.72M, https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c&src=seo_token; Ethereum의 aave-v3, APY 1.27%, TVL $5.23M, https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f&src=seo_token; Ethereum의 aave-v3, APY 4.99%, TVL $79.49M, https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79&src=seo_token; Ethereum의 euler-v2, APY 4.19%, TVL $5.92M, https://www.defi.garden/?pool=73e933a7-73b2-43ec-b1e9-d5d1d42ce2de&src=seo_token; Ethereum의 curve-dex, APY 5.30%, TVL $71.81M, https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453&src=seo_token; Ethereum의 convex-finance, APY 0.05%, TVL $18.04M, https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee&src=seo_token; Ethereum의 uniswap-v3, APY 2.47%, TVL $2.94M, https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [termmax →](https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c&src=seo_token) | Ethereum | 0.03% | $20.72M |
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f&src=seo_token) | Ethereum | 1.27% | $5.23M |
@@ -67,9 +67,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 5.30%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### RLUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 RLUSD의 변동성 낮은 후보는 Ethereum의 termmax, APY 0.03%, TVL $20.72M, https://www.defi.garden/?pool=48025068-1498-40d6-b6c8-c2f0536e325c&src=seo_token; Ethereum의 aave-v3, APY 1.27%, TVL $5.23M, https://www.defi.garden/?pool=85fc6934-c94d-4ebe-9c60-66beb363669f&src=seo_token; Ethereum의 aave-v3, APY 4.99%, TVL $79.49M, https://www.defi.garden/?pool=98d07333-f5e4-4a48-8061-cfb4b73ccf79&src=seo_token; Ethereum의 euler-v2, APY 4.19%, TVL $5.92M, https://www.defi.garden/?pool=73e933a7-73b2-43ec-b1e9-d5d1d42ce2de&src=seo_token; Ethereum의 curve-dex, APY 5.30%, TVL $71.81M, https://www.defi.garden/?pool=e91e23af-9099-45d9-8ba5-ea5b4638e453&src=seo_token; Ethereum의 convex-finance, APY 0.05%, TVL $18.04M, https://www.defi.garden/?pool=d826a92b-2bd2-4fae-8483-db1ef8888aee&src=seo_token; Ethereum의 uniswap-v3, APY 2.47%, TVL $2.94M, https://www.defi.garden/?pool=4df8be17-df55-47cf-b72b-6ef844f62200&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

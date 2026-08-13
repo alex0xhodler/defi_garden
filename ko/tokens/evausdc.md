@@ -10,11 +10,11 @@
 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 8.53% | $1.15M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 EVAUSDC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.17%, TVL $3.41M, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; Ethereum의 stake-dao, APY 9.28%, TVL $3.25M, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; Sonic의 shadow-exchange-legacy, APY 8.53%, TVL $1.15M, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; Ethereum의 convex-finance, APY 9.88%, TVL $1.99M, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 6.17% | $3.41M |
 | 2 | [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 9.28% | $3.25M |
@@ -54,9 +54,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 9.88%
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### EVAUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 EVAUSDC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.17%, TVL $3.41M, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; Ethereum의 stake-dao, APY 9.28%, TVL $3.25M, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; Sonic의 shadow-exchange-legacy, APY 8.53%, TVL $1.15M, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; Ethereum의 convex-finance, APY 9.88%, TVL $1.99M, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

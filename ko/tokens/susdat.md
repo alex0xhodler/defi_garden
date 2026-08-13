@@ -14,11 +14,11 @@
 | [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 332.89% | $117.4K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 BSC의 pendle, APY 13.55%, TVL $2.41M, https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token; Ethereum의 pendle, APY 11.81%, TVL $2.56M, https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token; BSC의 pendle, APY 7.12%, TVL $2.41M, https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token; Ethereum의 pendle, APY 3.29%, TVL $2.56M, https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token; Ethereum의 saturn, APY 18.81%, TVL $80.13M, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; Ethereum의 curve-dex, APY 332.89%, TVL $117.4K, https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 13.55% | $2.41M |
 | 2 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 11.81% | $2.56M |
@@ -64,9 +64,9 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 38.77%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### SUSDAT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 BSC의 pendle, APY 13.55%, TVL $2.41M, https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token; Ethereum의 pendle, APY 11.81%, TVL $2.56M, https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token; BSC의 pendle, APY 7.12%, TVL $2.41M, https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token; Ethereum의 pendle, APY 3.29%, TVL $2.56M, https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token; Ethereum의 saturn, APY 18.81%, TVL $80.13M, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; Ethereum의 curve-dex, APY 332.89%, TVL $117.4K, https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

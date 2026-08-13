@@ -10,11 +10,11 @@ The highest honest VSN yield right now is 3.34% on uniswap-v4 (Arbitrum), among 
 | [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 3.34% | $417.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, VSN's lower-variability candidates are uniswap-v4 (Arbitrum), 2.45% APY, $632.2K TVL, https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token; uniswap-v4 (Arbitrum), 3.34% APY, $417.3K TVL, https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token; uniswap-v4 (Ethereum), 2.37% APY, $3.16M TVL, https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token; uniswap-v4 (Ethereum), 3.28% APY, $1.39M TVL, https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token) | Arbitrum | 2.45% | $632.2K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 3.34% | $417.3K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which VSN pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, VSN's lower-variability candidates are uniswap-v4 (Arbitrum), 2.45% APY, $632.2K TVL, https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token; uniswap-v4 (Arbitrum), 3.34% APY, $417.3K TVL, https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token; uniswap-v4 (Ethereum), 2.37% APY, $3.16M TVL, https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token; uniswap-v4 (Ethereum), 3.28% APY, $1.39M TVL, https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

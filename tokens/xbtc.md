@@ -14,11 +14,11 @@ The highest honest XBTC yield right now is 38.71% on bluefin-spot (Sui), among 1
 | [orca-dex →](https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token) | Solana | 0.95% | $232.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, XBTC's lower-variability candidates are navi-lending (Sui), 1.19% APY, $2.08M TVL, https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token; echelon-market (Aptos), 1.36% APY, $285.1K TVL, https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token; kamino-liquidity (Solana), 1.68% APY, $2.01M TVL, https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token; orca-dex (Solana), 2.22% APY, $2.01M TVL, https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token; orca-dex (Solana), 0.95% APY, $232.1K TVL, https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token; bluefin-spot (Sui), 16.76% APY, $260.3K TVL, https://www.defi.garden/?pool=87bf2211-3545-4894-9a22-019372cecf09&src=seo_token; bluefin-spot (Sui), 38.71% APY, $299.1K TVL, https://www.defi.garden/?pool=429ec18a-86a3-419b-8593-8fd298772470&src=seo_token; hyperion (Aptos), 0.37% APY, $642.4K TVL, https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.19% | $2.08M |
 | 2 | [echelon-market →](https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token) | Aptos | 1.36% | $285.1K |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which XBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, XBTC's lower-variability candidates are navi-lending (Sui), 1.19% APY, $2.08M TVL, https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token; echelon-market (Aptos), 1.36% APY, $285.1K TVL, https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token; kamino-liquidity (Solana), 1.68% APY, $2.01M TVL, https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token; orca-dex (Solana), 2.22% APY, $2.01M TVL, https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token; orca-dex (Solana), 0.95% APY, $232.1K TVL, https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token; bluefin-spot (Sui), 16.76% APY, $260.3K TVL, https://www.defi.garden/?pool=87bf2211-3545-4894-9a22-019372cecf09&src=seo_token; bluefin-spot (Sui), 38.71% APY, $299.1K TVL, https://www.defi.garden/?pool=429ec18a-86a3-419b-8593-8fd298772470&src=seo_token; hyperion (Aptos), 0.37% APY, $642.4K TVL, https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

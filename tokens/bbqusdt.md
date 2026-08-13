@@ -8,11 +8,11 @@ The highest honest BBQUSDT yield right now is 4.08% on morpho-blue (Ethereum), a
 | [morpho-blue →](https://www.defi.garden/?pool=89222e6a-f39f-4500-aeea-f615d61b81f0&src=seo_token) | Ethereum | 2.97% | $2.29M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BBQUSDT's lower-variability candidates are morpho-blue (Ethereum), 4.08% APY, $23.24M TVL, https://www.defi.garden/?pool=c743eac6-1906-4d96-a7aa-667426ec3cc7&src=seo_token; morpho-blue (Ethereum), 2.97% APY, $2.29M TVL, https://www.defi.garden/?pool=89222e6a-f39f-4500-aeea-f615d61b81f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=c743eac6-1906-4d96-a7aa-667426ec3cc7&src=seo_token) | Ethereum | 4.08% | $23.24M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=89222e6a-f39f-4500-aeea-f615d61b81f0&src=seo_token) | Ethereum | 2.97% | $2.29M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BBQUSDT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BBQUSDT's lower-variability candidates are morpho-blue (Ethereum), 4.08% APY, $23.24M TVL, https://www.defi.garden/?pool=c743eac6-1906-4d96-a7aa-667426ec3cc7&src=seo_token; morpho-blue (Ethereum), 2.97% APY, $2.29M TVL, https://www.defi.garden/?pool=89222e6a-f39f-4500-aeea-f615d61b81f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

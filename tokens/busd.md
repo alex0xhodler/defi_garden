@@ -14,11 +14,11 @@ The highest honest BUSD yield right now is 1.13% on pancakeswap-amm (BSC), among
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BUSD's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; mdex (BSC), 0.25% APY, $254.1K TVL, https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token; wombat-exchange (BSC), 0.09% APY, $131.6K TVL, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; pancakeswap-amm (BSC), 0.12% APY, $533.5K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token; pancakeswap-amm (BSC), 0.75% APY, $154.6K TVL, https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token; pancakeswap-amm (BSC), 0.06% APY, $265K TVL, https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token; pancakeswap-amm (BSC), 0.59% APY, $1.15M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token; pancakeswap-amm (BSC), 1.13% APY, $308.4K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
 | 2 | [mdex →](https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token) | BSC | 0.25% | $254.1K |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BUSD's lower-variability candidates are wombat-exchange (BSC), 0.03% APY, $2.05M TVL, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; mdex (BSC), 0.25% APY, $254.1K TVL, https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token; wombat-exchange (BSC), 0.09% APY, $131.6K TVL, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; pancakeswap-amm (BSC), 0.12% APY, $533.5K TVL, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token; pancakeswap-amm (BSC), 0.75% APY, $154.6K TVL, https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token; pancakeswap-amm (BSC), 0.06% APY, $265K TVL, https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token; pancakeswap-amm (BSC), 0.59% APY, $1.15M TVL, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token; pancakeswap-amm (BSC), 1.13% APY, $308.4K TVL, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

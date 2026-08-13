@@ -9,11 +9,11 @@ The highest honest CASH yield right now is 5.33% on kamino-lend (Solana), among 
 | [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 0.83% | $497K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CASH's lower-variability candidates are kamino-lend (Solana), 5.33% APY, $1.03M TVL, https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token; kamino-liquidity (Solana), 0.83% APY, $497K TVL, https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token; orca-dex (Solana), 2.05% APY, $7.14M TVL, https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 5.33% | $1.03M |
 | 2 | [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 0.83% | $497K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CASH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CASH's lower-variability candidates are kamino-lend (Solana), 5.33% APY, $1.03M TVL, https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token; kamino-liquidity (Solana), 0.83% APY, $497K TVL, https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token; orca-dex (Solana), 2.05% APY, $7.14M TVL, https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

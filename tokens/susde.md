@@ -14,11 +14,11 @@ The highest honest SUSDE yield right now is 11.34% on pendle (Monad), among 61 p
 | [pendle →](https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_token) | Plasma | 4.02% | $5.56M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SUSDE's lower-variability candidates are pendle (Plasma), 4.02% APY, $5.56M TVL, https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_token; pendle (Plasma), 4.29% APY, $5.56M TVL, https://www.defi.garden/?pool=7f8430d6-938a-4d49-b6fe-18eeda219da5&src=seo_token; convex-finance (Ethereum), 5.33% APY, $39.47M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; yearn-finance (Ethereum), 4.78% APY, $7.48M TVL, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token; curve-dex (Ethereum), 3.18% APY, $47.1M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; ethena-usde (Ethereum), 4.26% APY, $1.44B TVL, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_token) | Plasma | 4.02% | $5.56M |
 | 2 | [pendle →](https://www.defi.garden/?pool=7f8430d6-938a-4d49-b6fe-18eeda219da5&src=seo_token) | Plasma | 4.29% | $5.56M |
@@ -64,9 +64,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SUSDE pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SUSDE's lower-variability candidates are pendle (Plasma), 4.02% APY, $5.56M TVL, https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_token; pendle (Plasma), 4.29% APY, $5.56M TVL, https://www.defi.garden/?pool=7f8430d6-938a-4d49-b6fe-18eeda219da5&src=seo_token; convex-finance (Ethereum), 5.33% APY, $39.47M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; yearn-finance (Ethereum), 4.78% APY, $7.48M TVL, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token; curve-dex (Ethereum), 3.18% APY, $47.1M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; ethena-usde (Ethereum), 4.26% APY, $1.44B TVL, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

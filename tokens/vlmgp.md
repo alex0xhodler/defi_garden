@@ -8,11 +8,11 @@ The highest honest VLMGP yield right now is 0.25% on wompie (Arbitrum), among 2 
 | [wompie →](https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token) | Arbitrum | 0.25% | $134.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, VLMGP's lower-variability candidates are wompie (Arbitrum), 0.25% APY, $134.7K TVL, https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token; wompie (BSC), 0.06% APY, $247.7K TVL, https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [wompie →](https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token) | Arbitrum | 0.25% | $134.7K |
 | 2 | [wompie →](https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token) | BSC | 0.06% | $247.7K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which VLMGP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, VLMGP's lower-variability candidates are wompie (Arbitrum), 0.25% APY, $134.7K TVL, https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token; wompie (BSC), 0.06% APY, $247.7K TVL, https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

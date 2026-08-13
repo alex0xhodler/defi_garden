@@ -9,11 +9,11 @@ The highest honest KBTC yield right now is 7.11% on velodrome-v3 (Ink), among 7 
 | [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token) | Ink | 4.20% | $272.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, KBTC's lower-variability candidates are uniswap-v3 (Ethereum), 0.06% APY, $28.91M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token; velodrome-v3 (Ink), 4.20% APY, $272.3K TVL, https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token; velodrome-v3 (Ink), 7.11% APY, $1.42M TVL, https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.06% | $28.91M |
 | 2 | [velodrome-v3 →](https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token) | Ink | 4.20% | $272.3K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which KBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, KBTC's lower-variability candidates are uniswap-v3 (Ethereum), 0.06% APY, $28.91M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token; velodrome-v3 (Ink), 4.20% APY, $272.3K TVL, https://www.defi.garden/?pool=f624e335-a9c0-455d-86ed-c54578e99bdf&src=seo_token; velodrome-v3 (Ink), 7.11% APY, $1.42M TVL, https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

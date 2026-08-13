@@ -8,11 +8,11 @@ The highest honest PEPU yield right now is 0.09% on uniswap-v3 (Ethereum), among
 | [uniswap-v3 →](https://www.defi.garden/?pool=f2149cfe-bffd-45c0-8ceb-b5ee490f16b7&src=seo_token) | Ethereum | 0.09% | $110.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, PEPU's lower-variability candidates are uniswap-v4 (Ethereum), 2.95% APY, $158.2K TVL, https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $110.3K TVL, https://www.defi.garden/?pool=f2149cfe-bffd-45c0-8ceb-b5ee490f16b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token) | Ethereum | 2.95% | $158.2K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=f2149cfe-bffd-45c0-8ceb-b5ee490f16b7&src=seo_token) | Ethereum | 0.09% | $110.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which PEPU pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, PEPU's lower-variability candidates are uniswap-v4 (Ethereum), 2.95% APY, $158.2K TVL, https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $110.3K TVL, https://www.defi.garden/?pool=f2149cfe-bffd-45c0-8ceb-b5ee490f16b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

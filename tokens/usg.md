@@ -14,11 +14,11 @@ The highest honest USG yield right now is 15.46% on convex-finance (Ethereum), a
 | [convex-finance →](https://www.defi.garden/?pool=4e9193fa-c973-43bc-8e8f-d08c83107965&src=seo_token) | Ethereum | 15.46% | $304.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USG's lower-variability candidates are convex-finance (Ethereum), 11.79% APY, $888.7K TVL, https://www.defi.garden/?pool=2c455f9b-22cd-4c64-ae29-d71b51976b2f&src=seo_token; convex-finance (Ethereum), 15.46% APY, $304.4K TVL, https://www.defi.garden/?pool=4e9193fa-c973-43bc-8e8f-d08c83107965&src=seo_token; convex-finance (Ethereum), 14.36% APY, $755.8K TVL, https://www.defi.garden/?pool=00e9e83e-0627-4d3e-9336-d5efcb528754&src=seo_token; curve-dex (Ethereum), 5.55% APY, $1.52M TVL, https://www.defi.garden/?pool=5d1de707-d2cf-4142-b6c4-cea8cb8184a4&src=seo_token; curve-dex (Ethereum), 8.09% APY, $398.4K TVL, https://www.defi.garden/?pool=cf2bb5f7-a963-41fb-a64b-f424b17a90a0&src=seo_token; stake-dao (Ethereum), 10.70% APY, $388.2K TVL, https://www.defi.garden/?pool=4fc38167-1f87-4fae-8b63-68d9a5f1eb5b&src=seo_token; curve-dex (Ethereum), 3.48% APY, $1.86M TVL, https://www.defi.garden/?pool=3a50ec85-2f8b-471a-9536-7517e18e2dbd&src=seo_token; stake-dao (Ethereum), 7.56% APY, $433.5K TVL, https://www.defi.garden/?pool=f09e25a0-5cfa-4b3a-8b42-f1fdb69af484&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [convex-finance →](https://www.defi.garden/?pool=2c455f9b-22cd-4c64-ae29-d71b51976b2f&src=seo_token) | Ethereum | 11.79% | $888.7K |
 | 2 | [convex-finance →](https://www.defi.garden/?pool=4e9193fa-c973-43bc-8e8f-d08c83107965&src=seo_token) | Ethereum | 15.46% | $304.4K |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USG pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USG's lower-variability candidates are convex-finance (Ethereum), 11.79% APY, $888.7K TVL, https://www.defi.garden/?pool=2c455f9b-22cd-4c64-ae29-d71b51976b2f&src=seo_token; convex-finance (Ethereum), 15.46% APY, $304.4K TVL, https://www.defi.garden/?pool=4e9193fa-c973-43bc-8e8f-d08c83107965&src=seo_token; convex-finance (Ethereum), 14.36% APY, $755.8K TVL, https://www.defi.garden/?pool=00e9e83e-0627-4d3e-9336-d5efcb528754&src=seo_token; curve-dex (Ethereum), 5.55% APY, $1.52M TVL, https://www.defi.garden/?pool=5d1de707-d2cf-4142-b6c4-cea8cb8184a4&src=seo_token; curve-dex (Ethereum), 8.09% APY, $398.4K TVL, https://www.defi.garden/?pool=cf2bb5f7-a963-41fb-a64b-f424b17a90a0&src=seo_token; stake-dao (Ethereum), 10.70% APY, $388.2K TVL, https://www.defi.garden/?pool=4fc38167-1f87-4fae-8b63-68d9a5f1eb5b&src=seo_token; curve-dex (Ethereum), 3.48% APY, $1.86M TVL, https://www.defi.garden/?pool=3a50ec85-2f8b-471a-9536-7517e18e2dbd&src=seo_token; stake-dao (Ethereum), 7.56% APY, $433.5K TVL, https://www.defi.garden/?pool=f09e25a0-5cfa-4b3a-8b42-f1fdb69af484&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

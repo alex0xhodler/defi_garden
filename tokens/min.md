@@ -8,11 +8,11 @@ The highest honest MIN yield right now is 3.94% on minswap-dex (Cardano), among 
 | [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.26% | $184.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, MIN's lower-variability candidates are minswap-dex (Cardano), 3.94% APY, $1.17M TVL, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token; minswap-dex (Cardano), 2.26% APY, $184.7K TVL, https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 3.94% | $1.17M |
 | 2 | [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.26% | $184.7K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which MIN pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, MIN's lower-variability candidates are minswap-dex (Cardano), 3.94% APY, $1.17M TVL, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token; minswap-dex (Cardano), 2.26% APY, $184.7K TVL, https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

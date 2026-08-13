@@ -14,11 +14,11 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token) | Base | 145.97% | $414.8K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 VVV의 변동성 낮은 후보는 Base의 moonwell-lending, APY 0.27%, TVL $772.5K, https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token; Base의 extra-finance-leverage-farming, APY 11.88%, TVL $554.4K, https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token; Base의 aerodrome-v1, APY 24.48%, TVL $9.27M, https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500&src=seo_token; Base의 aerodrome-v1, APY 3.79%, TVL $5.31M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; Base의 aerodrome-slipstream, APY 18.48%, TVL $4.07M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; Base의 aerodrome-slipstream, APY 2.93%, TVL $2.14M, https://www.defi.garden/?pool=ebbea9be-5a51-4e12-a113-d8524b3fc2dd&src=seo_token; Base의 aerodrome-slipstream, APY 260.18%, TVL $798.8K, https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618&src=seo_token; Base의 uniswap-v3, APY 145.97%, TVL $414.8K, https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [moonwell-lending →](https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token) | Base | 0.27% | $772.5K |
 | 2 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token) | Base | 11.88% | $554.4K |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 24.48%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### VVV 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 VVV의 변동성 낮은 후보는 Base의 moonwell-lending, APY 0.27%, TVL $772.5K, https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token; Base의 extra-finance-leverage-farming, APY 11.88%, TVL $554.4K, https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token; Base의 aerodrome-v1, APY 24.48%, TVL $9.27M, https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500&src=seo_token; Base의 aerodrome-v1, APY 3.79%, TVL $5.31M, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; Base의 aerodrome-slipstream, APY 18.48%, TVL $4.07M, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; Base의 aerodrome-slipstream, APY 2.93%, TVL $2.14M, https://www.defi.garden/?pool=ebbea9be-5a51-4e12-a113-d8524b3fc2dd&src=seo_token; Base의 aerodrome-slipstream, APY 260.18%, TVL $798.8K, https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618&src=seo_token; Base의 uniswap-v3, APY 145.97%, TVL $414.8K, https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

@@ -10,11 +10,11 @@ The highest honest WBERA yield right now is 33.16% on berapaw (Berachain), among
 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 1.29% | $126.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, WBERA's lower-variability candidates are bex (Berachain), 1.29% APY, $126.6K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; berapaw (Berachain), 31.92% APY, $232.5K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token; berapaw (Berachain), 33.16% APY, $200.1K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token; dolomite (Berachain), 1.82% APY, $278.4K TVL, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 1.29% | $126.6K |
 | 2 | [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 31.92% | $232.5K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which WBERA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, WBERA's lower-variability candidates are bex (Berachain), 1.29% APY, $126.6K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; berapaw (Berachain), 31.92% APY, $232.5K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token; berapaw (Berachain), 33.16% APY, $200.1K TVL, https://www.defi.garden/?pool=18329564-f261-4b1a-ac91-b77c7e8e9fb8&src=seo_token; dolomite (Berachain), 1.82% APY, $278.4K TVL, https://www.defi.garden/?pool=0ca7c0e0-ec43-4bd2-b11c-cde41006cb82&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -9,11 +9,11 @@ The highest honest BRETT yield right now is 31.37% on aerodrome-slipstream (Base
 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 0.55% | $129.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BRETT's lower-variability candidates are uniswap-v2 (Ethereum), 0.55% APY, $129.6K TVL, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; aerodrome-slipstream (Base), 31.37% APY, $630.6K TVL, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; uniswap-v3 (Base), 1.32% APY, $886.4K TVL, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token) | Ethereum | 0.55% | $129.6K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token) | Base | 31.37% | $630.6K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BRETT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BRETT's lower-variability candidates are uniswap-v2 (Ethereum), 0.55% APY, $129.6K TVL, https://www.defi.garden/?pool=f3b20abf-9e34-4938-b68f-b47c97c941c1&src=seo_token; aerodrome-slipstream (Base), 31.37% APY, $630.6K TVL, https://www.defi.garden/?pool=e92866f1-3247-444c-ac96-432f461a72e5&src=seo_token; uniswap-v3 (Base), 1.32% APY, $886.4K TVL, https://www.defi.garden/?pool=a9d531ad-7883-41ae-ad3b-ad4f37decf92&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

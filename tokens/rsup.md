@@ -8,11 +8,11 @@ The highest honest RSUP yield right now is 24.77% on convex-finance (Ethereum), 
 | [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 24.77% | $404.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 15.34% APY, $484.5K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token; convex-finance (Ethereum), 24.77% APY, $404.9K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token) | Ethereum | 15.34% | $484.5K |
 | 2 | [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 24.77% | $404.9K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which RSUP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 15.34% APY, $484.5K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token; convex-finance (Ethereum), 24.77% APY, $404.9K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

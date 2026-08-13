@@ -9,11 +9,11 @@ The highest honest TAROT yield right now is 62.10% on velodrome-v2 (OP Mainnet),
 | [aerodrome-v1 →](https://www.defi.garden/?pool=6a22f078-db43-4e25-94a6-bdd7da723f01&src=seo_token) | Base | 29.03% | $127.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, TAROT's lower-variability candidates are aerodrome-v1 (Base), 26.60% APY, $141.8K TVL, https://www.defi.garden/?pool=60728315-0bf5-42e3-9fa7-eec9b2e04a24&src=seo_token; aerodrome-v1 (Base), 29.03% APY, $127.4K TVL, https://www.defi.garden/?pool=6a22f078-db43-4e25-94a6-bdd7da723f01&src=seo_token; velodrome-v2 (OP Mainnet), 62.10% APY, $254.2K TVL, https://www.defi.garden/?pool=1f6ca255-d8b4-4c72-b71a-2cf4933f1ff6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=60728315-0bf5-42e3-9fa7-eec9b2e04a24&src=seo_token) | Base | 26.60% | $141.8K |
 | 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=6a22f078-db43-4e25-94a6-bdd7da723f01&src=seo_token) | Base | 29.03% | $127.4K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which TAROT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, TAROT's lower-variability candidates are aerodrome-v1 (Base), 26.60% APY, $141.8K TVL, https://www.defi.garden/?pool=60728315-0bf5-42e3-9fa7-eec9b2e04a24&src=seo_token; aerodrome-v1 (Base), 29.03% APY, $127.4K TVL, https://www.defi.garden/?pool=6a22f078-db43-4e25-94a6-bdd7da723f01&src=seo_token; velodrome-v2 (OP Mainnet), 62.10% APY, $254.2K TVL, https://www.defi.garden/?pool=1f6ca255-d8b4-4c72-b71a-2cf4933f1ff6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

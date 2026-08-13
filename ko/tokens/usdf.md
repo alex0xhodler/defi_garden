@@ -9,11 +9,11 @@
 | [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 7.71% | $1.53M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 USDF의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 7.71%, TVL $1.53M, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token; Ethereum의 curve-dex, APY 3.19%, TVL $3.14M, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token; Ethereum의 uniswap-v3, APY 0.04%, TVL $10.06M, https://www.defi.garden/?pool=be43dcf6-39dd-43b1-85e8-20844c1b0e58&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [convex-finance →](https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token) | Ethereum | 7.71% | $1.53M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token) | Ethereum | 3.19% | $3.14M |
@@ -51,9 +51,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 7.71%
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### USDF 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 USDF의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 7.71%, TVL $1.53M, https://www.defi.garden/?pool=977bc628-7476-43cf-abb8-68934bf56171&src=seo_token; Ethereum의 curve-dex, APY 3.19%, TVL $3.14M, https://www.defi.garden/?pool=3388eabd-fc53-49bf-b358-d1a6dc3c6112&src=seo_token; Ethereum의 uniswap-v3, APY 0.04%, TVL $10.06M, https://www.defi.garden/?pool=be43dcf6-39dd-43b1-85e8-20844c1b0e58&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

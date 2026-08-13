@@ -9,11 +9,11 @@ The highest honest SUPEROETHB yield right now is 2.85% on origin-ether (Base), a
 | [stake-dao →](https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token) | Base | 2.72% | $1.98M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SUPEROETHB's lower-variability candidates are stake-dao (Base), 2.72% APY, $1.98M TVL, https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token; origin-ether (Base), 2.85% APY, $16.82M TVL, https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token; aerodrome-slipstream (Base), 0.57% APY, $3.96M TVL, https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao →](https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token) | Base | 2.72% | $1.98M |
 | 2 | [origin-ether →](https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token) | Base | 2.85% | $16.82M |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SUPEROETHB pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SUPEROETHB's lower-variability candidates are stake-dao (Base), 2.72% APY, $1.98M TVL, https://www.defi.garden/?pool=bf2ae73f-2483-419f-8ee3-c1332805d532&src=seo_token; origin-ether (Base), 2.85% APY, $16.82M TVL, https://www.defi.garden/?pool=f388573e-5c0f-4dac-9f70-116a4aabaf17&src=seo_token; aerodrome-slipstream (Base), 0.57% APY, $3.96M TVL, https://www.defi.garden/?pool=bc33d1ea-f566-40eb-b0a8-8d8dcf425f18&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

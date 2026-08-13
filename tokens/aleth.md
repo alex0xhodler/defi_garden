@@ -14,11 +14,11 @@ The highest honest ALETH yield right now is 7.39% on velodrome-v2 (OP Mainnet), 
 | [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token) | Ethereum | 2.59% | $969.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ALETH's lower-variability candidates are stake-dao (Ethereum), 2.25% APY, $1.38M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; stake-dao (Ethereum), 1.34% APY, $2.09M TVL, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token; curve-dex (Ethereum), 1.10% APY, $3.09M TVL, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token; convex-finance (Ethereum), 2.59% APY, $969.9K TVL, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token; velodrome-v2 (OP Mainnet), 7.39% APY, $2.46M TVL, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token; yearn-finance (OP Mainnet), 7.11% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; curve-dex (Ethereum), 1.18% APY, $5.3M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.25% | $1.38M |
 | 2 | [stake-dao →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token) | Ethereum | 1.34% | $2.09M |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ALETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ALETH's lower-variability candidates are stake-dao (Ethereum), 2.25% APY, $1.38M TVL, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; stake-dao (Ethereum), 1.34% APY, $2.09M TVL, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token; curve-dex (Ethereum), 1.10% APY, $3.09M TVL, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token; convex-finance (Ethereum), 2.59% APY, $969.9K TVL, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token; velodrome-v2 (OP Mainnet), 7.39% APY, $2.46M TVL, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token; yearn-finance (OP Mainnet), 7.11% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; curve-dex (Ethereum), 1.18% APY, $5.3M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

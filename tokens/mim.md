@@ -8,11 +8,11 @@ The highest honest MIM yield right now is 17.14% on curve-dex (Ethereum), among 
 | [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token) | Ethereum | 44.62% | $143.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, MIM's lower-variability candidates are curve-dex (Ethereum), 17.14% APY, $193.4K TVL, https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token; convex-finance (Ethereum), 44.62% APY, $143.5K TVL, https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token) | Ethereum | 17.14% | $193.4K |
 | 2 | [convex-finance →](https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token) | Ethereum | 44.62% | $143.5K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which MIM pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, MIM's lower-variability candidates are curve-dex (Ethereum), 17.14% APY, $193.4K TVL, https://www.defi.garden/?pool=fb6676ba-0a45-44c8-86f6-63956956ebe1&src=seo_token; convex-finance (Ethereum), 44.62% APY, $143.5K TVL, https://www.defi.garden/?pool=8a20c472-142c-4442-b724-40f2183c073e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

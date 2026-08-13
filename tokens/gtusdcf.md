@@ -9,11 +9,11 @@ The highest honest GTUSDCF yield right now is 6.51% on morpho-blue (Base), among
 | [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.50% | $119.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 6.50% APY, $119.5K TVL, https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token; morpho-blue (Base), 6.51% APY, $6.6M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token; morpho-blue (Ethereum), 5.27% APY, $30.31M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.50% | $119.5K |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 6.51% | $6.6M |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GTUSDCF pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 6.50% APY, $119.5K TVL, https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token; morpho-blue (Base), 6.51% APY, $6.6M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token; morpho-blue (Ethereum), 5.27% APY, $30.31M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

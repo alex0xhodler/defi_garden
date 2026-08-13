@@ -13,11 +13,11 @@
 | [blackhole-clmm →](https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token) | Avalanche | 290.20% | $101.5K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 WETH.E의 변동성 낮은 후보는 Avalanche의 benqi-lending, APY 2.28%, TVL $949.5K, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token; Avalanche의 aave-v3, APY 1.35%, TVL $5.14M, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token; Avalanche의 deltaprime, APY 5.70%, TVL $230.4K, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token; Avalanche의 uniswap-v3, APY 9.08%, TVL $686.5K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pangolin-v2, APY 1.08%, TVL $150.5K, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token; Avalanche의 pharaoh-v3, APY 17.44%, TVL $4.09M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 blackhole-clmm, APY 290.20%, TVL $101.5K, https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [benqi-lending →](https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token) | Avalanche | 2.28% | $949.5K |
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token) | Avalanche | 1.35% | $5.14M |
@@ -65,9 +65,9 @@ DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-clmm에서 APY 290.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### WETH.E 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 WETH.E의 변동성 낮은 후보는 Avalanche의 benqi-lending, APY 2.28%, TVL $949.5K, https://www.defi.garden/?pool=caf50276-7bfe-4af0-8a47-5504fdc96393&src=seo_token; Avalanche의 aave-v3, APY 1.35%, TVL $5.14M, https://www.defi.garden/?pool=c715efe7-a70d-4358-b2c2-c149cf658612&src=seo_token; Avalanche의 deltaprime, APY 5.70%, TVL $230.4K, https://www.defi.garden/?pool=44cae4d5-0848-4c16-bc48-b65d20e443bd&src=seo_token; Avalanche의 uniswap-v3, APY 9.08%, TVL $686.5K, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; Avalanche의 pangolin-v2, APY 1.08%, TVL $150.5K, https://www.defi.garden/?pool=e5064c41-7f36-4fd4-9e64-15353d48dbf2&src=seo_token; Avalanche의 pharaoh-v3, APY 17.44%, TVL $4.09M, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; Avalanche의 blackhole-clmm, APY 290.20%, TVL $101.5K, https://www.defi.garden/?pool=96a08202-70fe-4c11-b4af-6e41ff0c84d5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

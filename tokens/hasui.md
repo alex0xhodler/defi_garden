@@ -9,11 +9,11 @@ The highest honest HASUI yield right now is 2.67% on current (Sui), among 3 pool
 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.02% | $2.27M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, HASUI's lower-variability candidates are navi-lending (Sui), 1.15% APY, $14.59M TVL, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; current (Sui), 2.67% APY, $3.83M TVL, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; cetus-clmm (Sui), 0.02% APY, $2.27M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.15% | $14.59M |
 | 2 | [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.67% | $3.83M |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which HASUI pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, HASUI's lower-variability candidates are navi-lending (Sui), 1.15% APY, $14.59M TVL, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; current (Sui), 2.67% APY, $3.83M TVL, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; cetus-clmm (Sui), 0.02% APY, $2.27M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

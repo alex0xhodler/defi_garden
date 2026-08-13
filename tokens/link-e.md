@@ -8,11 +8,11 @@ The highest honest LINK.E yield right now is 3.29% on uniswap-v3 (Avalanche), am
 | [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 3.29% | $151.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, LINK.E's lower-variability candidates are benqi-lending (Avalanche), 0.02% APY, $620.3K TVL, https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token; uniswap-v3 (Avalanche), 3.29% APY, $151.3K TVL, https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [benqi-lending →](https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token) | Avalanche | 0.02% | $620.3K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 3.29% | $151.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which LINK.E pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, LINK.E's lower-variability candidates are benqi-lending (Avalanche), 0.02% APY, $620.3K TVL, https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token; uniswap-v3 (Avalanche), 3.29% APY, $151.3K TVL, https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

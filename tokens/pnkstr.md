@@ -9,11 +9,11 @@ The highest honest PNKSTR yield right now is 0.73% on uniswap-v4 (Ethereum), amo
 | [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.01% | $115.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, PNKSTR's lower-variability candidates are uniswap-v4 (Ethereum), 0.73% APY, $270.4K TVL, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $115.5K TVL, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token; uniswap-v4 (Ethereum), 6.01% APY, $523.8K TVL, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token) | Ethereum | 0.73% | $270.4K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token) | Ethereum | 0.01% | $115.5K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which PNKSTR pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, PNKSTR's lower-variability candidates are uniswap-v4 (Ethereum), 0.73% APY, $270.4K TVL, https://www.defi.garden/?pool=a527768e-1126-43ad-b657-63704847f3da&src=seo_token; uniswap-v4 (Ethereum), 0.01% APY, $115.5K TVL, https://www.defi.garden/?pool=6bbfdf37-902d-4d81-be16-258cbfcc1da9&src=seo_token; uniswap-v4 (Ethereum), 6.01% APY, $523.8K TVL, https://www.defi.garden/?pool=3ee182aa-d85d-4457-aa02-6f28cb257f97&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

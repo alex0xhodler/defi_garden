@@ -12,11 +12,11 @@ The highest honest NVDAX yield right now is 12.10% on orca-dex (Solana), among 6
 | [orca-dex →](https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token) | Solana | 12.10% | $131K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.02% APY, $3.02M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; jupiter-lend (Solana), 2.02% APY, $747.5K TVL, https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token; jupiter-lend (Solana), 2.02% APY, $961.2K TVL, https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token; raydium-amm (Solana), 6.57% APY, $2.5M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; raydium-amm (Solana), 8.96% APY, $155.2K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; orca-dex (Solana), 12.10% APY, $131K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [kamino-lend →](https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token) | Solana | 0.02% | $3.02M |
 | 2 | [jupiter-lend →](https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token) | Solana | 2.02% | $747.5K |
@@ -62,9 +62,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which NVDAX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, NVDAX's lower-variability candidates are kamino-lend (Solana), 0.02% APY, $3.02M TVL, https://www.defi.garden/?pool=646abe53-eb33-4dbc-815d-50f571299302&src=seo_token; jupiter-lend (Solana), 2.02% APY, $747.5K TVL, https://www.defi.garden/?pool=c4a2e337-9541-43ca-9d85-c8296653e4e7&src=seo_token; jupiter-lend (Solana), 2.02% APY, $961.2K TVL, https://www.defi.garden/?pool=f4effa22-e824-43f7-9a12-e315ce374d37&src=seo_token; raydium-amm (Solana), 6.57% APY, $2.5M TVL, https://www.defi.garden/?pool=6f7708a9-58d0-4941-a06a-b83e91b06903&src=seo_token; raydium-amm (Solana), 8.96% APY, $155.2K TVL, https://www.defi.garden/?pool=a8e25ac4-f4d0-412a-a211-62a4e513eca0&src=seo_token; orca-dex (Solana), 12.10% APY, $131K TVL, https://www.defi.garden/?pool=d841f4d5-34a3-4671-809e-47ed34fd9bcf&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

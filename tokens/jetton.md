@@ -8,11 +8,11 @@ The highest honest JETTON yield right now is 29.55% on ston.fi (TON), among 2 po
 | [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 0.68% | $116.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, JETTON's lower-variability candidates are ston.fi (TON), 29.55% APY, $145.7K TVL, https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token; dedust (TON), 0.68% APY, $116.7K TVL, https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [ston.fi →](https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token) | TON | 29.55% | $145.7K |
 | 2 | [dedust →](https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token) | TON | 0.68% | $116.7K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which JETTON pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, JETTON's lower-variability candidates are ston.fi (TON), 29.55% APY, $145.7K TVL, https://www.defi.garden/?pool=c979e3a0-d123-422a-8ce4-ece89a61e237&src=seo_token; dedust (TON), 0.68% APY, $116.7K TVL, https://www.defi.garden/?pool=3a55afde-0948-4f77-8861-f16315509d63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

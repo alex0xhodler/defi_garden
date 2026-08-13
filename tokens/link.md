@@ -14,11 +14,11 @@ The highest honest LINK yield right now is 2.43% on gmx-v2-perps (Arbitrum), amo
 | [venus-core-pool →](https://www.defi.garden/?pool=6ef41a41-9394-4782-bf53-7648f50a4a93&src=seo_token) | BSC | 0.04% | $1.33M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, LINK's lower-variability candidates are aave-v3 (Ethereum), 0.03% APY, $77.57M TVL, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token; bancor-v3 (Ethereum), 0.16% APY, $5.29M TVL, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b&src=seo_token; venus-core-pool (BSC), 0.04% APY, $1.33M TVL, https://www.defi.garden/?pool=6ef41a41-9394-4782-bf53-7648f50a4a93&src=seo_token; aave-v3 (Polygon), 0.03% APY, $1.44M TVL, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e&src=seo_token; curve-dex (Ethereum), 0.06% APY, $4.24M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token; gmx-v2-perps (Arbitrum), 2.43% APY, $2.82M TVL, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93&src=seo_token; uniswap-v4 (Ethereum), 33.56% APY, $22.35M TVL, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c&src=seo_token; uniswap-v3 (Ethereum), 14.67% APY, $21.49M TVL, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token) | Ethereum | 0.03% | $77.57M |
 | 2 | [bancor-v3 →](https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b&src=seo_token) | Ethereum | 0.16% | $5.29M |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which LINK pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, LINK's lower-variability candidates are aave-v3 (Ethereum), 0.03% APY, $77.57M TVL, https://www.defi.garden/?pool=b847133f-f5d5-4692-b74e-d815d51988fc&src=seo_token; bancor-v3 (Ethereum), 0.16% APY, $5.29M TVL, https://www.defi.garden/?pool=6f61c337-7cee-4ed9-a369-d645caf7748b&src=seo_token; venus-core-pool (BSC), 0.04% APY, $1.33M TVL, https://www.defi.garden/?pool=6ef41a41-9394-4782-bf53-7648f50a4a93&src=seo_token; aave-v3 (Polygon), 0.03% APY, $1.44M TVL, https://www.defi.garden/?pool=995a6317-1c32-48c2-a8c9-683263b8412e&src=seo_token; curve-dex (Ethereum), 0.06% APY, $4.24M TVL, https://www.defi.garden/?pool=a32f1cfb-0706-416a-8557-a8215e6d1ad3&src=seo_token; gmx-v2-perps (Arbitrum), 2.43% APY, $2.82M TVL, https://www.defi.garden/?pool=dffb3514-d667-4f2f-8df3-f716ebe09c93&src=seo_token; uniswap-v4 (Ethereum), 33.56% APY, $22.35M TVL, https://www.defi.garden/?pool=46ac97f1-cb18-40ad-9ae6-b6c31981684c&src=seo_token; uniswap-v3 (Ethereum), 14.67% APY, $21.49M TVL, https://www.defi.garden/?pool=3025b6b3-e95f-490e-ba10-540c9b1b08f9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -9,11 +9,11 @@ The highest honest TORN yield right now is 4.53% on uniswap-v2 (Ethereum), among
 | [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 4.53% | $165.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, TORN's lower-variability candidates are uniswap-v4 (Ethereum), 5.85% APY, $210.1K TVL, https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token; uniswap-v2 (Ethereum), 4.53% APY, $165.4K TVL, https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token; uniswap-v3 (Ethereum), 16.30% APY, $250.8K TVL, https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token) | Ethereum | 5.85% | $210.1K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token) | Ethereum | 4.53% | $165.4K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which TORN pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, TORN's lower-variability candidates are uniswap-v4 (Ethereum), 5.85% APY, $210.1K TVL, https://www.defi.garden/?pool=bfb80e16-7f07-4546-8199-da2060f64723&src=seo_token; uniswap-v2 (Ethereum), 4.53% APY, $165.4K TVL, https://www.defi.garden/?pool=19c89880-9b28-45c5-b235-fcfc4fbc3b2d&src=seo_token; uniswap-v3 (Ethereum), 16.30% APY, $250.8K TVL, https://www.defi.garden/?pool=673878a2-34c7-4a86-bb52-7bce001a1082&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

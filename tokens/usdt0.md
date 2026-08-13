@@ -14,11 +14,11 @@ The highest honest USDT0 yield right now is 12.00% on curve-dex (Monad), among 2
 | [nest-cl →](https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token) | Hyperliquid L1 | 7.35% | $653.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDT0's lower-variability candidates are aave-v3 (Plasma), 4.32% APY, $61.78M TVL, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; fluid-lending (Plasma), 4.70% APY, $42.48M TVL, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; aave-v3 (Mantle), 4.48% APY, $38.68M TVL, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; aave-v3 (Polygon), 2.76% APY, $12.82M TVL, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; neverland (Monad), 6.86% APY, $2.98M TVL, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; aave-v3 (Monad), 5.17% APY, $33.18M TVL, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; curve-dex (Monad), 12.00% APY, $2.6M TVL, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; nest-cl (Hyperliquid L1), 7.35% APY, $653.4K TVL, https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.32% | $61.78M |
 | 2 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 4.70% | $42.48M |
@@ -66,9 +66,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDT0 pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDT0's lower-variability candidates are aave-v3 (Plasma), 4.32% APY, $61.78M TVL, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; fluid-lending (Plasma), 4.70% APY, $42.48M TVL, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; aave-v3 (Mantle), 4.48% APY, $38.68M TVL, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; aave-v3 (Polygon), 2.76% APY, $12.82M TVL, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; neverland (Monad), 6.86% APY, $2.98M TVL, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; aave-v3 (Monad), 5.17% APY, $33.18M TVL, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; curve-dex (Monad), 12.00% APY, $2.6M TVL, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; nest-cl (Hyperliquid L1), 7.35% APY, $653.4K TVL, https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

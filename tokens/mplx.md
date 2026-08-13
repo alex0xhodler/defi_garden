@@ -9,11 +9,11 @@ The highest honest MPLX yield right now is 3.94% on raydium-amm (Solana), among 
 | [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 0.71% | $452.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, MPLX's lower-variability candidates are orca-dex (Solana), 1.32% APY, $457.3K TVL, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; kamino-liquidity (Solana), 0.71% APY, $452.4K TVL, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; raydium-amm (Solana), 3.94% APY, $1.5M TVL, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token) | Solana | 1.32% | $457.3K |
 | 2 | [kamino-liquidity →](https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token) | Solana | 0.71% | $452.4K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which MPLX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, MPLX's lower-variability candidates are orca-dex (Solana), 1.32% APY, $457.3K TVL, https://www.defi.garden/?pool=95f52301-7150-43ad-a33a-63c4af84fbcc&src=seo_token; kamino-liquidity (Solana), 0.71% APY, $452.4K TVL, https://www.defi.garden/?pool=be317431-c02e-4709-b023-60f960d83f27&src=seo_token; raydium-amm (Solana), 3.94% APY, $1.5M TVL, https://www.defi.garden/?pool=9ddc1804-8adf-42a8-bc45-8d34bcc5c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

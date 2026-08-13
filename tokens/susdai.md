@@ -13,11 +13,11 @@ The highest honest SUSDAI yield right now is 10.17% on pendle (Arbitrum), among 
 | [pendle →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 9.35% | $1.46M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SUSDAI's lower-variability candidates are pendle (Arbitrum), 9.29% APY, $1.46M TVL, https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token; pendle (Arbitrum), 10.17% APY, $12.16M TVL, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; usd-ai (Arbitrum), 7.66% APY, $353.58M TVL, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; pendle (Arbitrum), 8.59% APY, $12.16M TVL, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; fluid-dex (Arbitrum), 0.17% APY, $17.84M TVL, https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token; pendle (Arbitrum), 9.35% APY, $1.46M TVL, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; curve-dex (Arbitrum), 4.88% APY, $1.46M TVL, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token) | Arbitrum | 9.29% | $1.46M |
 | 2 | [pendle →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 10.17% | $12.16M |
@@ -63,9 +63,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SUSDAI pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SUSDAI's lower-variability candidates are pendle (Arbitrum), 9.29% APY, $1.46M TVL, https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token; pendle (Arbitrum), 10.17% APY, $12.16M TVL, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; usd-ai (Arbitrum), 7.66% APY, $353.58M TVL, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; pendle (Arbitrum), 8.59% APY, $12.16M TVL, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; fluid-dex (Arbitrum), 0.17% APY, $17.84M TVL, https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token; pendle (Arbitrum), 9.35% APY, $1.46M TVL, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; curve-dex (Arbitrum), 4.88% APY, $1.46M TVL, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

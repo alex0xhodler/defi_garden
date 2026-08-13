@@ -8,11 +8,11 @@ The highest honest USUALX yield right now is 58.34% on usual-usd0 (Ethereum), am
 | [usual-usd0 →](https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488&src=seo_token) | Ethereum | 28.69% | $1.48M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USUALX's lower-variability candidates are usual-usd0 (Ethereum), 58.34% APY, $6.56M TVL, https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727&src=seo_token; usual-usd0 (Ethereum), 28.69% APY, $1.48M TVL, https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [usual-usd0 →](https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727&src=seo_token) | Ethereum | 58.34% | $6.56M |
 | 2 | [usual-usd0 →](https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488&src=seo_token) | Ethereum | 28.69% | $1.48M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USUALX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USUALX's lower-variability candidates are usual-usd0 (Ethereum), 58.34% APY, $6.56M TVL, https://www.defi.garden/?pool=e19c3745-6e2d-4228-b7e0-c28f12b0c727&src=seo_token; usual-usd0 (Ethereum), 28.69% APY, $1.48M TVL, https://www.defi.garden/?pool=f5f2d217-e073-45df-bbee-5b698d2b8488&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

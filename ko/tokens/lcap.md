@@ -13,11 +13,11 @@
 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 12.66% | $122.1K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 LCAP의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 12.66%, TVL $122.1K, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; Base의 aerodrome-v1, APY 4.30%, TVL $169K, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; Base의 aerodrome-slipstream, APY 10.00%, TVL $439.5K, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; Base의 stake-dao, APY 46.56%, TVL $207.1K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 aerodrome-v1, APY 27.45%, TVL $149.1K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; Base의 curve-dex, APY 44.11%, TVL $280.8K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; Base의 aerodrome-slipstream, APY 16.88%, TVL $158.3K, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token) | Base | 12.66% | $122.1K |
 | 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token) | Base | 4.30% | $169K |
@@ -65,9 +65,9 @@ DefiLlama 실시간 데이터 기준, Base의 stake-dao에서 APY 46.56%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### LCAP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 LCAP의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 12.66%, TVL $122.1K, https://www.defi.garden/?pool=12a13c04-5762-4a65-9893-1309e3a03bed&src=seo_token; Base의 aerodrome-v1, APY 4.30%, TVL $169K, https://www.defi.garden/?pool=d7ee4c3f-8154-4201-bfe9-42f981c8b7b8&src=seo_token; Base의 aerodrome-slipstream, APY 10.00%, TVL $439.5K, https://www.defi.garden/?pool=0116270f-73ee-485c-ac5e-496f063c15c4&src=seo_token; Base의 stake-dao, APY 46.56%, TVL $207.1K, https://www.defi.garden/?pool=7eea6b0f-9330-480e-b4db-ef713bada12b&src=seo_token; Base의 aerodrome-v1, APY 27.45%, TVL $149.1K, https://www.defi.garden/?pool=5d98651c-3954-4061-9f5c-58783e030604&src=seo_token; Base의 curve-dex, APY 44.11%, TVL $280.8K, https://www.defi.garden/?pool=d0830d11-880f-402d-92bb-168df671bae3&src=seo_token; Base의 aerodrome-slipstream, APY 16.88%, TVL $158.3K, https://www.defi.garden/?pool=60648541-35cb-4900-b464-016b0ca0abd2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

@@ -8,11 +8,11 @@ The highest honest USDA yield right now is 16.95% on liqwid (Cardano), among 4 p
 | [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token) | Cardano | 16.95% | $207.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDA's lower-variability candidates are liqwid (Cardano), 16.95% APY, $207.4K TVL, https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token; minswap-dex (Cardano), 11.89% APY, $659.1K TVL, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [liqwid →](https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token) | Cardano | 16.95% | $207.4K |
 | 2 | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 11.89% | $659.1K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDA's lower-variability candidates are liqwid (Cardano), 16.95% APY, $207.4K TVL, https://www.defi.garden/?pool=fa66f3f5-24ba-4929-8549-9b811b68ef48&src=seo_token; minswap-dex (Cardano), 11.89% APY, $659.1K TVL, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

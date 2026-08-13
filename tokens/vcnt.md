@@ -9,11 +9,11 @@ The highest honest VCNT yield right now is 46.78% on uniswap-v3 (Base), among 3 
 | [uniswap-v3 →](https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token) | Arbitrum | 1.05% | $159.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, VCNT's lower-variability candidates are uniswap-v3 (Arbitrum), 1.05% APY, $159.6K TVL, https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token; uniswap-v3 (Polygon), 9.45% APY, $169.6K TVL, https://www.defi.garden/?pool=be954f9b-34de-473f-a52a-5016ea4db85f&src=seo_token; uniswap-v3 (Base), 46.78% APY, $178.2K TVL, https://www.defi.garden/?pool=d4a8a53d-43f6-4cb2-b2f2-58f1762e79c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token) | Arbitrum | 1.05% | $159.6K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=be954f9b-34de-473f-a52a-5016ea4db85f&src=seo_token) | Polygon | 9.45% | $169.6K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which VCNT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, VCNT's lower-variability candidates are uniswap-v3 (Arbitrum), 1.05% APY, $159.6K TVL, https://www.defi.garden/?pool=b649f638-8b45-4abb-b5b8-cc2a6ab47190&src=seo_token; uniswap-v3 (Polygon), 9.45% APY, $169.6K TVL, https://www.defi.garden/?pool=be954f9b-34de-473f-a52a-5016ea4db85f&src=seo_token; uniswap-v3 (Base), 46.78% APY, $178.2K TVL, https://www.defi.garden/?pool=d4a8a53d-43f6-4cb2-b2f2-58f1762e79c5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

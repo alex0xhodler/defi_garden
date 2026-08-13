@@ -8,11 +8,11 @@ The highest honest HWHLP yield right now is 2.41% on hyperwave (Hyperliquid L1),
 | [hyperwave →](https://www.defi.garden/?pool=5de6008f-1be1-4ce6-b5f5-025bec262bc1&src=seo_token) | Ethereum | 2.41% | $126.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, HWHLP's lower-variability candidates are hyperwave (Ethereum), 2.41% APY, $126.4K TVL, https://www.defi.garden/?pool=5de6008f-1be1-4ce6-b5f5-025bec262bc1&src=seo_token; hyperwave (Hyperliquid L1), 2.41% APY, $640.1K TVL, https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hyperwave →](https://www.defi.garden/?pool=5de6008f-1be1-4ce6-b5f5-025bec262bc1&src=seo_token) | Ethereum | 2.41% | $126.4K |
 | 2 | [hyperwave →](https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d&src=seo_token) | Hyperliquid L1 | 2.41% | $640.1K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which HWHLP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, HWHLP's lower-variability candidates are hyperwave (Ethereum), 2.41% APY, $126.4K TVL, https://www.defi.garden/?pool=5de6008f-1be1-4ce6-b5f5-025bec262bc1&src=seo_token; hyperwave (Hyperliquid L1), 2.41% APY, $640.1K TVL, https://www.defi.garden/?pool=06a8d79e-8307-4064-ab01-2d00c4532c5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

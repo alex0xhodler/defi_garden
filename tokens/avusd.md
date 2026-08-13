@@ -13,11 +13,11 @@ The highest honest AVUSD yield right now is 10.87% on convex-finance (Ethereum),
 | [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token) | Ethereum | 10.87% | $127.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, AVUSD's lower-variability candidates are curve-dex (Monad), 5.00% APY, $760.7K TVL, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token; curve-dex (Ethereum), 6.54% APY, $990.8K TVL, https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token; stake-dao (Ethereum), 8.26% APY, $722.1K TVL, https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token; stake-dao (Ethereum), 9.79% APY, $292.5K TVL, https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token; curve-dex (Ethereum), 8.50% APY, $346.6K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token; convex-finance (Ethereum), 10.87% APY, $127.4K TVL, https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $760.7K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 6.54% | $990.8K |
@@ -62,9 +62,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which AVUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, AVUSD's lower-variability candidates are curve-dex (Monad), 5.00% APY, $760.7K TVL, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token; curve-dex (Ethereum), 6.54% APY, $990.8K TVL, https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token; stake-dao (Ethereum), 8.26% APY, $722.1K TVL, https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token; stake-dao (Ethereum), 9.79% APY, $292.5K TVL, https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token; curve-dex (Ethereum), 8.50% APY, $346.6K TVL, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token; convex-finance (Ethereum), 10.87% APY, $127.4K TVL, https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

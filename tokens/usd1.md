@@ -14,11 +14,11 @@ The highest honest USD1 yield right now is 8.00% on bitway-earn (BSC), among 21 
 | [justlend-v1 →](https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token) | Tron | 1.26% | $994.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USD1's lower-variability candidates are curve-dex (Ethereum), 0.37% APY, $10.05M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; bitway-earn (BSC), 8.00% APY, $9.79M TVL, https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token; justlend-v1 (Tron), 1.26% APY, $994.8K TVL, https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token; echelon-market (Aptos), 3.70% APY, $2.4M TVL, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token; lista-lending (BSC), 0.70% APY, $137.87M TVL, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token; raydium-amm (Solana), 0.46% APY, $9.89M TVL, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token; dolomite (Ethereum), 7.80% APY, $124.41M TVL, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token; raydium-amm (Solana), 6.81% APY, $4.07M TVL, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.37% | $10.05M |
 | 2 | [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $9.79M |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USD1 pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USD1's lower-variability candidates are curve-dex (Ethereum), 0.37% APY, $10.05M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; bitway-earn (BSC), 8.00% APY, $9.79M TVL, https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token; justlend-v1 (Tron), 1.26% APY, $994.8K TVL, https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token; echelon-market (Aptos), 3.70% APY, $2.4M TVL, https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token; lista-lending (BSC), 0.70% APY, $137.87M TVL, https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token; raydium-amm (Solana), 0.46% APY, $9.89M TVL, https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token; dolomite (Ethereum), 7.80% APY, $124.41M TVL, https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token; raydium-amm (Solana), 6.81% APY, $4.07M TVL, https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -8,11 +8,11 @@ The highest honest LST yield right now is 5.29% on marginfi-lst (Solana), among 
 | [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.31M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, LST's lower-variability candidates are project-0 (Solana), 0.01% APY, $2.31M TVL, https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token; marginfi-lst (Solana), 5.29% APY, $7.48M TVL, https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.31M |
 | 2 | [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.29% | $7.48M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which LST pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, LST's lower-variability candidates are project-0 (Solana), 0.01% APY, $2.31M TVL, https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token; marginfi-lst (Solana), 5.29% APY, $7.48M TVL, https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

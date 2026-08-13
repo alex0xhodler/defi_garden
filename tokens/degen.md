@@ -8,11 +8,11 @@ The highest honest DEGEN yield right now is 102.72% on uniswap-v3 (Base), among 
 | [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 102.72% | $104.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, DEGEN's lower-variability candidates are uniswap-v3 (Base), 102.72% APY, $104.3K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 39.13% APY, $812.8K TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token) | Base | 102.72% | $104.3K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token) | Base | 39.13% | $812.8K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which DEGEN pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, DEGEN's lower-variability candidates are uniswap-v3 (Base), 102.72% APY, $104.3K TVL, https://www.defi.garden/?pool=ae82b93c-7abc-4aaa-82d2-1858454e6827&src=seo_token; uniswap-v3 (Base), 39.13% APY, $812.8K TVL, https://www.defi.garden/?pool=ea2b2c7a-39d9-41e4-8805-edc765de73c2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -8,11 +8,11 @@ The highest honest GTUSDTF yield right now is 6.32% on morpho-blue (Ethereum), a
 | [morpho-blue →](https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363&src=seo_token) | Ethereum | 6.32% | $1.81M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GTUSDTF's lower-variability candidates are morpho-blue (Ethereum), 3.74% APY, $11.38M TVL, https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033&src=seo_token; morpho-blue (Ethereum), 6.32% APY, $1.81M TVL, https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033&src=seo_token) | Ethereum | 3.74% | $11.38M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363&src=seo_token) | Ethereum | 6.32% | $1.81M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GTUSDTF pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GTUSDTF's lower-variability candidates are morpho-blue (Ethereum), 3.74% APY, $11.38M TVL, https://www.defi.garden/?pool=0f25159f-753d-4eef-84f5-1f9b47394033&src=seo_token; morpho-blue (Ethereum), 6.32% APY, $1.81M TVL, https://www.defi.garden/?pool=3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

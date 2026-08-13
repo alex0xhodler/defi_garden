@@ -8,11 +8,11 @@ The highest honest MHYPER yield right now is 8.34% on pendle (Ethereum), among 4
 | [pendle →](https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token) | Ethereum | 8.34% | $1.33M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, MHYPER's lower-variability candidates are pendle (Ethereum), 8.34% APY, $1.33M TVL, https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token; pendle (Ethereum), 2.94% APY, $1.33M TVL, https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token) | Ethereum | 8.34% | $1.33M |
 | 2 | [pendle →](https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token) | Ethereum | 2.94% | $1.33M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which MHYPER pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, MHYPER's lower-variability candidates are pendle (Ethereum), 8.34% APY, $1.33M TVL, https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token; pendle (Ethereum), 2.94% APY, $1.33M TVL, https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

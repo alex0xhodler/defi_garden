@@ -8,11 +8,11 @@ The highest honest HAIR yield right now is 0.05% on uniswap-v3 (Base), among 3 p
 | [uniswap-v3 →](https://www.defi.garden/?pool=7386d1cf-f7ef-43ee-8087-b1120dcb2da9&src=seo_token) | Base | 0.05% | $113.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, HAIR's lower-variability candidates are uniswap-v3 (Ethereum), 0.28% APY, $486.1K TVL, https://www.defi.garden/?pool=210791a3-32da-49d2-8987-eaad8ea715d7&src=seo_token; uniswap-v3 (Base), 0.05% APY, $113.5K TVL, https://www.defi.garden/?pool=7386d1cf-f7ef-43ee-8087-b1120dcb2da9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=210791a3-32da-49d2-8987-eaad8ea715d7&src=seo_token) | Ethereum | 0.28% | $486.1K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7386d1cf-f7ef-43ee-8087-b1120dcb2da9&src=seo_token) | Base | 0.05% | $113.5K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which HAIR pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, HAIR's lower-variability candidates are uniswap-v3 (Ethereum), 0.28% APY, $486.1K TVL, https://www.defi.garden/?pool=210791a3-32da-49d2-8987-eaad8ea715d7&src=seo_token; uniswap-v3 (Base), 0.05% APY, $113.5K TVL, https://www.defi.garden/?pool=7386d1cf-f7ef-43ee-8087-b1120dcb2da9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

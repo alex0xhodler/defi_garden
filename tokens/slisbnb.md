@@ -9,11 +9,11 @@ The highest honest SLISBNB yield right now is 1.58% on pendle (BSC), among 6 poo
 | [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.18% | $1.54M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SLISBNB's lower-variability candidates are pendle (BSC), 1.18% APY, $1.54M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle (BSC), 1.58% APY, $1.54M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 0.69% APY, $568.39M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.18% | $1.54M |
 | 2 | [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.58% | $1.54M |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SLISBNB pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SLISBNB's lower-variability candidates are pendle (BSC), 1.18% APY, $1.54M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle (BSC), 1.58% APY, $1.54M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 0.69% APY, $568.39M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -8,11 +8,11 @@ The highest honest XWBTC yield right now is 3.23% on ekubo (Starknet), among 4 p
 | [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token) | Starknet | 0.02% | $594K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 0.02% APY, $594K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token; ekubo (Starknet), 3.23% APY, $594.7K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token) | Starknet | 0.02% | $594K |
 | 2 | [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 3.23% | $594.7K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which XWBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 0.02% APY, $594K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token; ekubo (Starknet), 3.23% APY, $594.7K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

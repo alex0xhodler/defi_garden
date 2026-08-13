@@ -8,11 +8,11 @@ The highest honest GETH yield right now is 5.49% on hydration-dex (Polkadot), am
 | [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_token) | Polkadot | 5.49% | $1.43M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GETH's lower-variability candidates are geth (Ethereum), 2.20% APY, $14.38M TVL, https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token; hydration-dex (Polkadot), 5.49% APY, $1.43M TVL, https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [geth →](https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token) | Ethereum | 2.20% | $14.38M |
 | 2 | [hydration-dex →](https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_token) | Polkadot | 5.49% | $1.43M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GETH's lower-variability candidates are geth (Ethereum), 2.20% APY, $14.38M TVL, https://www.defi.garden/?pool=048251b6-20c4-4812-b7b1-faf90077c068&src=seo_token; hydration-dex (Polkadot), 5.49% APY, $1.43M TVL, https://www.defi.garden/?pool=8b5616b9-a6af-412d-b0f2-0b5708dc9d01&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

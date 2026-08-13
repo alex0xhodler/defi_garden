@@ -9,11 +9,11 @@ The highest honest SUSD3 yield right now is 22.82% on pendle (Ethereum), among 3
 | [pendle →](https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token) | Ethereum | 22.82% | $1.01M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SUSD3's lower-variability candidates are pendle (Ethereum), 22.82% APY, $1.01M TVL, https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token; pendle (Ethereum), 21.66% APY, $1.01M TVL, https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token; 3jane-lending (Ethereum), 14.80% APY, $7.5M TVL, https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token) | Ethereum | 22.82% | $1.01M |
 | 2 | [pendle →](https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token) | Ethereum | 21.66% | $1.01M |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SUSD3 pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SUSD3's lower-variability candidates are pendle (Ethereum), 22.82% APY, $1.01M TVL, https://www.defi.garden/?pool=098680ea-cbb6-4ea0-964d-82fb130e682f&src=seo_token; pendle (Ethereum), 21.66% APY, $1.01M TVL, https://www.defi.garden/?pool=e5a189bc-ef80-4f8c-bfd5-c521a0e92c24&src=seo_token; 3jane-lending (Ethereum), 14.80% APY, $7.5M TVL, https://www.defi.garden/?pool=a99bb965-ebaa-4d98-9ed2-fa18de52c605&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

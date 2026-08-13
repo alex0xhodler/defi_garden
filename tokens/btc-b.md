@@ -14,11 +14,11 @@ The highest honest BTC.B yield right now is 19.15% on pharaoh-v3 (Avalanche), am
 | [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 0.76% | $290.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BTC.B's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $10.58M TVL, https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token; aave-v3 (Avalanche), 0.01% APY, $75.79M TVL, https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token; benqi-lending (Avalanche), 1.19% APY, $4.21M TVL, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token; uniswap-v3 (Avalanche), 4.02% APY, $1.15M TVL, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token; pharaoh-v3 (Avalanche), 19.15% APY, $1.73M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; uniswap-v3 (Avalanche), 0.76% APY, $290.6K TVL, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token; joe-v2.1 (Avalanche), 0.38% APY, $560.9K TVL, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token) | Ethereum | 0.01% | $10.58M |
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $75.79M |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BTC.B pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BTC.B's lower-variability candidates are uniswap-v4 (Ethereum), 0.01% APY, $10.58M TVL, https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token; aave-v3 (Avalanche), 0.01% APY, $75.79M TVL, https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token; benqi-lending (Avalanche), 1.19% APY, $4.21M TVL, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token; uniswap-v3 (Avalanche), 4.02% APY, $1.15M TVL, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token; pharaoh-v3 (Avalanche), 19.15% APY, $1.73M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; uniswap-v3 (Avalanche), 0.76% APY, $290.6K TVL, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token; joe-v2.1 (Avalanche), 0.38% APY, $560.9K TVL, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

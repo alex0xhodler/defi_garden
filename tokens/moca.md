@@ -8,11 +8,11 @@ The highest honest MOCA yield right now is 40.46% on aerodrome-slipstream (Base)
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 40.46% | $156.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, MOCA's lower-variability candidates are uniswap-v2 (Ethereum), 4.67% APY, $342.6K TVL, https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token; aerodrome-slipstream (Base), 40.46% APY, $156.9K TVL, https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token) | Ethereum | 4.67% | $342.6K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token) | Base | 40.46% | $156.9K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which MOCA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, MOCA's lower-variability candidates are uniswap-v2 (Ethereum), 4.67% APY, $342.6K TVL, https://www.defi.garden/?pool=54e7794f-ba25-4340-99d5-7675d458b6d4&src=seo_token; aerodrome-slipstream (Base), 40.46% APY, $156.9K TVL, https://www.defi.garden/?pool=be832e8d-1241-472f-8382-6b361d7ed724&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -11,11 +11,11 @@ The highest honest WMON yield right now is 16.00% on curve-dex (Monad), among 9 
 | [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.84% | $261.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, WMON's lower-variability candidates are curvance (Monad), 1.84% APY, $261.9K TVL, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; neverland (Monad), 7.80% APY, $309.6K TVL, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; curvance (Monad), 2.85% APY, $304.8K TVL, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; curve-dex (Monad), 16.00% APY, $597.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; uniswap-v3 (Monad), 12.37% APY, $1.2M TVL, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curvance →](https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token) | Monad | 1.84% | $261.9K |
 | 2 | [neverland →](https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token) | Monad | 7.80% | $309.6K |
@@ -59,9 +59,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which WMON pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, WMON's lower-variability candidates are curvance (Monad), 1.84% APY, $261.9K TVL, https://www.defi.garden/?pool=b17d0784-9290-4864-a0f6-8be970867915&src=seo_token; neverland (Monad), 7.80% APY, $309.6K TVL, https://www.defi.garden/?pool=81967ed7-de53-4108-b9eb-3565249a7459&src=seo_token; curvance (Monad), 2.85% APY, $304.8K TVL, https://www.defi.garden/?pool=3248f270-20e1-4c71-aafb-880f62e2bac5&src=seo_token; curve-dex (Monad), 16.00% APY, $597.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; uniswap-v3 (Monad), 12.37% APY, $1.2M TVL, https://www.defi.garden/?pool=82b60bc0-ec94-561a-a9e4-c481d47746dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

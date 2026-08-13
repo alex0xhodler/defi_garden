@@ -8,11 +8,11 @@ The highest honest SYUSD yield right now is 5.50% on pendle (Ethereum), among 2 
 | [pendle →](https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token) | Ethereum | 5.50% | $2.13M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SYUSD's lower-variability candidates are pendle (Ethereum), 5.50% APY, $2.13M TVL, https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token; pendle (Ethereum), 4.77% APY, $2.13M TVL, https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token) | Ethereum | 5.50% | $2.13M |
 | 2 | [pendle →](https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token) | Ethereum | 4.77% | $2.13M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SYUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SYUSD's lower-variability candidates are pendle (Ethereum), 5.50% APY, $2.13M TVL, https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token; pendle (Ethereum), 4.77% APY, $2.13M TVL, https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

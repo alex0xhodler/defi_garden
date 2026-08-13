@@ -8,11 +8,11 @@ The highest honest GTUSDA yield right now is 4.71% on gauntlet (Ethereum), among
 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.71% | $1.61M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Ethereum), 4.71% APY, $1.61M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.70% APY, $53.1M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [gauntlet →](https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token) | Ethereum | 4.71% | $1.61M |
 | 2 | [gauntlet →](https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token) | Base | 4.70% | $53.1M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GTUSDA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GTUSDA's lower-variability candidates are gauntlet (Ethereum), 4.71% APY, $1.61M TVL, https://www.defi.garden/?pool=d764f4ea-c791-4c10-a2d1-505b6c75712a&src=seo_token; gauntlet (Base), 4.70% APY, $53.1M TVL, https://www.defi.garden/?pool=c043062f-fcd6-47aa-b063-70691dc25c1c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

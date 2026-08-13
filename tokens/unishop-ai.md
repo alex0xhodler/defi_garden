@@ -8,11 +8,11 @@ The highest honest UNISHOP.AI yield right now is 0.34% on uniswap-v3 (Arbitrum),
 | [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.13% | $390.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, UNISHOP.AI's lower-variability candidates are uniswap-v3 (Arbitrum), 0.13% APY, $390.2K TVL, https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token; uniswap-v3 (Arbitrum), 0.34% APY, $585.9K TVL, https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token) | Arbitrum | 0.13% | $390.2K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token) | Arbitrum | 0.34% | $585.9K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which UNISHOP.AI pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, UNISHOP.AI's lower-variability candidates are uniswap-v3 (Arbitrum), 0.13% APY, $390.2K TVL, https://www.defi.garden/?pool=bea4794d-e2ba-4186-9f6d-3cca014586c8&src=seo_token; uniswap-v3 (Arbitrum), 0.34% APY, $585.9K TVL, https://www.defi.garden/?pool=ec6dffcd-9e62-4e8f-afae-ba998b7c4b69&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

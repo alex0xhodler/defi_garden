@@ -8,11 +8,11 @@ The highest honest ORBS yield right now is 1.96% on uniswap-v2 (Ethereum), among
 | [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token) | Ethereum | 1.96% | $215.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 0.33% APY, $286.5K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token; uniswap-v2 (Ethereum), 1.96% APY, $215.8K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token) | Polygon | 0.33% | $286.5K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token) | Ethereum | 1.96% | $215.8K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ORBS pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 0.33% APY, $286.5K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token; uniswap-v2 (Ethereum), 1.96% APY, $215.8K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

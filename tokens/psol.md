@@ -8,11 +8,11 @@ The highest honest PSOL yield right now is 6.26% on phantom-sol (Solana), among 
 | [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.02% | $1.44M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, PSOL's lower-variability candidates are phantom-sol (Solana), 6.26% APY, $124.25M TVL, https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token; orca-dex (Solana), 0.02% APY, $1.44M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [phantom-sol →](https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token) | Solana | 6.26% | $124.25M |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.02% | $1.44M |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which PSOL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, PSOL's lower-variability candidates are phantom-sol (Solana), 6.26% APY, $124.25M TVL, https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token; orca-dex (Solana), 0.02% APY, $1.44M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

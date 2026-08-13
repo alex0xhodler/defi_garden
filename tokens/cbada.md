@@ -8,11 +8,11 @@ The highest honest CBADA yield right now is 139.24% on aerodrome-slipstream (Bas
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46&src=seo_token) | Base | 139.24% | $121.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CBADA's lower-variability candidates are aerodrome-slipstream (Base), 51.46% APY, $193.2K TVL, https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token; aerodrome-slipstream (Base), 139.24% APY, $121.8K TVL, https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token) | Base | 51.46% | $193.2K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46&src=seo_token) | Base | 139.24% | $121.8K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CBADA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CBADA's lower-variability candidates are aerodrome-slipstream (Base), 51.46% APY, $193.2K TVL, https://www.defi.garden/?pool=dbf0ffbb-c795-47b1-8ae0-a525c480dbf9&src=seo_token; aerodrome-slipstream (Base), 139.24% APY, $121.8K TVL, https://www.defi.garden/?pool=991b37f9-447b-4282-bb1a-c1cff2220b46&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

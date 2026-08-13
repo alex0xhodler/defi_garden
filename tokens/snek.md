@@ -8,11 +8,11 @@ The highest honest SNEK yield right now is 88.20% on minswap-dex (Cardano), amon
 | [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 88.20% | $187.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SNEK's lower-variability candidates are minswap-dex (Cardano), 40.92% APY, $648.5K TVL, https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token; minswap-dex (Cardano), 88.20% APY, $187.9K TVL, https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 40.92% | $648.5K |
 | 2 | [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 88.20% | $187.9K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SNEK pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SNEK's lower-variability candidates are minswap-dex (Cardano), 40.92% APY, $648.5K TVL, https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token; minswap-dex (Cardano), 88.20% APY, $187.9K TVL, https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

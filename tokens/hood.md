@@ -8,11 +8,11 @@ The highest honest HOOD yield right now is 9.99% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=dfcd654a-81df-45df-88f0-ad8b5f49f677&src=seo_token) | Solana | 2.39% | $117.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, HOOD's lower-variability candidates are raydium-amm (Solana), 9.99% APY, $455.3K TVL, https://www.defi.garden/?pool=b8b0e6a0-4e4b-5bea-a7d4-1c380cd3e76e&src=seo_token; raydium-amm (Solana), 2.39% APY, $117.2K TVL, https://www.defi.garden/?pool=dfcd654a-81df-45df-88f0-ad8b5f49f677&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=b8b0e6a0-4e4b-5bea-a7d4-1c380cd3e76e&src=seo_token) | Solana | 9.99% | $455.3K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=dfcd654a-81df-45df-88f0-ad8b5f49f677&src=seo_token) | Solana | 2.39% | $117.2K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which HOOD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, HOOD's lower-variability candidates are raydium-amm (Solana), 9.99% APY, $455.3K TVL, https://www.defi.garden/?pool=b8b0e6a0-4e4b-5bea-a7d4-1c380cd3e76e&src=seo_token; raydium-amm (Solana), 2.39% APY, $117.2K TVL, https://www.defi.garden/?pool=dfcd654a-81df-45df-88f0-ad8b5f49f677&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

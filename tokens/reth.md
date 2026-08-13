@@ -14,11 +14,11 @@ The highest honest RETH yield right now is 7.99% on balancer-v3 (Ethereum), amon
 | [curve-dex →](https://www.defi.garden/?pool=b3a7ecee-57fd-49dc-abf8-cd272a59e6e3&src=seo_token) | Ethereum | 2.78% | $200.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, RETH's lower-variability candidates are rocket-pool (Ethereum), 2.21% APY, $2.54B TVL, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; curve-dex (Ethereum), 2.21% APY, $10.47M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; curve-dex (Ethereum), 2.91% APY, $231.8K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 2.91% APY, $213.7K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token; convex-finance (Ethereum), 6.72% APY, $1.59M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; balancer-v3 (Ethereum), 7.99% APY, $4.86M TVL, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; curve-dex (Ethereum), 2.78% APY, $200.5K TVL, https://www.defi.garden/?pool=b3a7ecee-57fd-49dc-abf8-cd272a59e6e3&src=seo_token; uniswap-v3 (Ethereum), 3.67% APY, $494.1K TVL, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token) | Ethereum | 2.21% | $2.54B |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token) | Ethereum | 2.21% | $10.47M |
@@ -66,9 +66,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which RETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, RETH's lower-variability candidates are rocket-pool (Ethereum), 2.21% APY, $2.54B TVL, https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_token; curve-dex (Ethereum), 2.21% APY, $10.47M TVL, https://www.defi.garden/?pool=e7fe034b-6f68-4a8f-9cef-bab9bcd051e1&src=seo_token; curve-dex (Ethereum), 2.91% APY, $231.8K TVL, https://www.defi.garden/?pool=8b55f2ca-0f4b-4dbd-8d02-62e8bc397fb9&src=seo_token; convex-finance (Ethereum), 2.91% APY, $213.7K TVL, https://www.defi.garden/?pool=68733740-6d4c-4af2-b938-6a25cc73d7e9&src=seo_token; convex-finance (Ethereum), 6.72% APY, $1.59M TVL, https://www.defi.garden/?pool=10e78df0-9ce4-4d23-bfbd-f35f002e95f5&src=seo_token; balancer-v3 (Ethereum), 7.99% APY, $4.86M TVL, https://www.defi.garden/?pool=efbb5313-739c-4667-aa99-379f84f5b600&src=seo_token; curve-dex (Ethereum), 2.78% APY, $200.5K TVL, https://www.defi.garden/?pool=b3a7ecee-57fd-49dc-abf8-cd272a59e6e3&src=seo_token; uniswap-v3 (Ethereum), 3.67% APY, $494.1K TVL, https://www.defi.garden/?pool=a24f24d4-c90c-4793-a97c-0332c7ff563a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

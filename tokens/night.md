@@ -10,11 +10,11 @@ The highest honest NIGHT yield right now is 92.84% on minswap-dex (Cardano), amo
 | [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 88.20% | $187.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, NIGHT's lower-variability candidates are liqwid (Cardano), 0.01% APY, $318.1K TVL, https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token; minswap-dex (Cardano), 88.20% APY, $187.9K TVL, https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token; minswap-dex (Cardano), 91.19% APY, $737.9K TVL, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token; minswap-dex (Cardano), 92.84% APY, $203.3K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [liqwid →](https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token) | Cardano | 0.01% | $318.1K |
 | 2 | [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 88.20% | $187.9K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which NIGHT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, NIGHT's lower-variability candidates are liqwid (Cardano), 0.01% APY, $318.1K TVL, https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token; minswap-dex (Cardano), 88.20% APY, $187.9K TVL, https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token; minswap-dex (Cardano), 91.19% APY, $737.9K TVL, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token; minswap-dex (Cardano), 92.84% APY, $203.3K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

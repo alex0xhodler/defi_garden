@@ -8,11 +8,11 @@ The highest honest SHX yield right now is 7.95% on uniswap-v4 (Base), among 4 po
 | [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 7.95% | $120.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SHX's lower-variability candidates are uniswap-v4 (Ethereum), 0.42% APY, $919.1K TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 7.95% APY, $120.3K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 0.42% | $919.1K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 7.95% | $120.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SHX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SHX's lower-variability candidates are uniswap-v4 (Ethereum), 0.42% APY, $919.1K TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 7.95% APY, $120.3K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -10,11 +10,11 @@ The highest honest HEX yield right now is 25.31% on uniswap-v2 (Ethereum), among
 | [uniswap-v2 →](https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token) | Ethereum | 19.16% | $103.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, HEX's lower-variability candidates are uniswap-v4 (Ethereum), 22.86% APY, $233K TVL, https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token; uniswap-v2 (Ethereum), 25.31% APY, $475K TVL, https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token; uniswap-v3 (Ethereum), 24.56% APY, $171.3K TVL, https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token; uniswap-v2 (Ethereum), 19.16% APY, $103.2K TVL, https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token) | Ethereum | 22.86% | $233K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token) | Ethereum | 25.31% | $475K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which HEX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, HEX's lower-variability candidates are uniswap-v4 (Ethereum), 22.86% APY, $233K TVL, https://www.defi.garden/?pool=1936d7f9-27be-495e-80ca-4837e99b7b58&src=seo_token; uniswap-v2 (Ethereum), 25.31% APY, $475K TVL, https://www.defi.garden/?pool=58d627ed-2d0f-451a-a228-8751f151fd4c&src=seo_token; uniswap-v3 (Ethereum), 24.56% APY, $171.3K TVL, https://www.defi.garden/?pool=4ea1ebc3-b8b1-4d5b-a4ad-f178ebcfc219&src=seo_token; uniswap-v2 (Ethereum), 19.16% APY, $103.2K TVL, https://www.defi.garden/?pool=e784c110-6325-4fe1-a3f5-287bc44b3e39&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

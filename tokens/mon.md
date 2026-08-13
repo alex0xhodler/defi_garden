@@ -10,11 +10,11 @@ The highest honest MON yield right now is 12.60% on uniswap-v4 (Monad), among 4 
 | [uniswap-v4 →](https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&src=seo_token) | Monad | 0.01% | $1.38M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, MON's lower-variability candidates are uniswap-v4 (Monad), 0.01% APY, $1.38M TVL, https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&src=seo_token; uniswap-v4 (Monad), 7.26% APY, $1.49M TVL, https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token; uniswap-v4 (Monad), 8.81% APY, $1.43M TVL, https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token; uniswap-v4 (Monad), 12.60% APY, $2.08M TVL, https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&src=seo_token) | Monad | 0.01% | $1.38M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token) | Monad | 7.26% | $1.49M |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which MON pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, MON's lower-variability candidates are uniswap-v4 (Monad), 0.01% APY, $1.38M TVL, https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&src=seo_token; uniswap-v4 (Monad), 7.26% APY, $1.49M TVL, https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token; uniswap-v4 (Monad), 8.81% APY, $1.43M TVL, https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token; uniswap-v4 (Monad), 12.60% APY, $2.08M TVL, https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

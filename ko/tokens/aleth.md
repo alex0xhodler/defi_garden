@@ -14,11 +14,11 @@
 | [convex-finance →](https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token) | Ethereum | 2.59% | $969.9K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 ALETH의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 2.25%, TVL $1.38M, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; Ethereum의 stake-dao, APY 1.34%, TVL $2.09M, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token; Ethereum의 curve-dex, APY 1.10%, TVL $3.09M, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token; Ethereum의 convex-finance, APY 2.59%, TVL $969.9K, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token; OP Mainnet의 velodrome-v2, APY 7.39%, TVL $2.46M, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token; OP Mainnet의 yearn-finance, APY 7.11%, TVL $1.06M, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; Ethereum의 curve-dex, APY 1.18%, TVL $5.3M, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao →](https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token) | Ethereum | 2.25% | $1.38M |
 | 2 | [stake-dao →](https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token) | Ethereum | 1.34% | $2.09M |
@@ -67,9 +67,9 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 7.39%
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### ALETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 ALETH의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 2.25%, TVL $1.38M, https://www.defi.garden/?pool=24ddfb84-4b83-4028-991c-56bfcfef76c2&src=seo_token; Ethereum의 stake-dao, APY 1.34%, TVL $2.09M, https://www.defi.garden/?pool=de391743-3009-42b5-8bc3-621443573221&src=seo_token; Ethereum의 curve-dex, APY 1.10%, TVL $3.09M, https://www.defi.garden/?pool=92d8447d-f8fa-4862-889c-7defd260b9dc&src=seo_token; Ethereum의 convex-finance, APY 2.59%, TVL $969.9K, https://www.defi.garden/?pool=191a1676-b210-41c5-887a-0ef981a4c50e&src=seo_token; OP Mainnet의 velodrome-v2, APY 7.39%, TVL $2.46M, https://www.defi.garden/?pool=e2952fae-baab-4c1e-a3fb-b4815c7e1c8d&src=seo_token; OP Mainnet의 yearn-finance, APY 7.11%, TVL $1.06M, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; Ethereum의 curve-dex, APY 1.18%, TVL $5.3M, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

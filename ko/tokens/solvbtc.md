@@ -13,11 +13,11 @@
 | [ekubo →](https://www.defi.garden/?pool=9944a2b8-0771-4dfd-87db-f342b0fb8f87&src=seo_token) | Starknet | 12.68% | $126.9K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 SOLVBTC의 변동성 낮은 후보는 Starknet의 vesu, APY 2.00%, TVL $1.26M, https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_token; Starknet의 vesu, APY 2.22%, TVL $194.8K, https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token; Starknet의 endur, APY 1.83%, TVL $178.8K, https://www.defi.garden/?pool=3827d6b6-f6f1-4162-9df7-9024503e42ce&src=seo_token; Starknet의 ekubo, APY 12.68%, TVL $126.9K, https://www.defi.garden/?pool=9944a2b8-0771-4dfd-87db-f342b0fb8f87&src=seo_token; Avalanche의 joe-v2.2, APY 0.01%, TVL $184.6K, https://www.defi.garden/?pool=711b801c-a11b-4653-9a7c-a3df23e8542f&src=seo_token; Avalanche의 blackhole-clmm, APY 0.15%, TVL $281.7K, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token; Starknet의 ekubo, APY 12.68%, TVL $1.29M, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [vesu →](https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_token) | Starknet | 2.00% | $1.26M |
 | 2 | [vesu →](https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token) | Starknet | 2.22% | $194.8K |
@@ -63,9 +63,9 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 12.68%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### SOLVBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 SOLVBTC의 변동성 낮은 후보는 Starknet의 vesu, APY 2.00%, TVL $1.26M, https://www.defi.garden/?pool=a5a7c6bd-0c78-4251-bce5-71f834775924&src=seo_token; Starknet의 vesu, APY 2.22%, TVL $194.8K, https://www.defi.garden/?pool=5ed14bfd-e408-4510-a02a-57d14dcae22c&src=seo_token; Starknet의 endur, APY 1.83%, TVL $178.8K, https://www.defi.garden/?pool=3827d6b6-f6f1-4162-9df7-9024503e42ce&src=seo_token; Starknet의 ekubo, APY 12.68%, TVL $126.9K, https://www.defi.garden/?pool=9944a2b8-0771-4dfd-87db-f342b0fb8f87&src=seo_token; Avalanche의 joe-v2.2, APY 0.01%, TVL $184.6K, https://www.defi.garden/?pool=711b801c-a11b-4653-9a7c-a3df23e8542f&src=seo_token; Avalanche의 blackhole-clmm, APY 0.15%, TVL $281.7K, https://www.defi.garden/?pool=b9e8f5be-35d4-4eb7-8d38-2bce5678c69d&src=seo_token; Starknet의 ekubo, APY 12.68%, TVL $1.29M, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

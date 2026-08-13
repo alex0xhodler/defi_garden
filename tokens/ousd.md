@@ -11,11 +11,11 @@ The highest honest OUSD yield right now is 6.37% on stake-dao (Ethereum), among 
 | [stake-dao →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 6.37% | $104.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, OUSD's lower-variability candidates are curve-dex (Ethereum), 5.40% APY, $175.9K TVL, https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token; stake-dao (Ethereum), 6.37% APY, $104.9K TVL, https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token; curve-dex (Ethereum), 2.72% APY, $106.7K TVL, https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token; curve-dex (Ethereum), 3.83% APY, $1.07M TVL, https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token; origin-dollar (Ethereum), 5.20% APY, $5.62M TVL, https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token) | Ethereum | 5.40% | $175.9K |
 | 2 | [stake-dao →](https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token) | Ethereum | 6.37% | $104.9K |
@@ -57,9 +57,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which OUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, OUSD's lower-variability candidates are curve-dex (Ethereum), 5.40% APY, $175.9K TVL, https://www.defi.garden/?pool=c3261430-b265-43b9-b031-b6ad6bb901f9&src=seo_token; stake-dao (Ethereum), 6.37% APY, $104.9K TVL, https://www.defi.garden/?pool=fbe03718-c547-4e63-a8bf-7af2a8c9518a&src=seo_token; curve-dex (Ethereum), 2.72% APY, $106.7K TVL, https://www.defi.garden/?pool=1a2ee52d-59f2-4e0e-80ce-2b107444dec7&src=seo_token; curve-dex (Ethereum), 3.83% APY, $1.07M TVL, https://www.defi.garden/?pool=280bc035-0c3d-4148-99b7-1c43a8cf7a8b&src=seo_token; origin-dollar (Ethereum), 5.20% APY, $5.62M TVL, https://www.defi.garden/?pool=529258ee-9b27-4fcf-a32c-b82abb3fda68&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

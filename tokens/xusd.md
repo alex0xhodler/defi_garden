@@ -8,11 +8,11 @@ The highest honest XUSD yield right now is 0.95% on overnight-finance (Arbitrum)
 | [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.95% | $117.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, XUSD's lower-variability candidates are overnight-finance (Arbitrum), 0.95% APY, $117.4K TVL, https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token; sovryn-dex (Rootstock), 0.18% APY, $954.7K TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.95% | $117.4K |
 | 2 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.18% | $954.7K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which XUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, XUSD's lower-variability candidates are overnight-finance (Arbitrum), 0.95% APY, $117.4K TVL, https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token; sovryn-dex (Rootstock), 0.18% APY, $954.7K TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

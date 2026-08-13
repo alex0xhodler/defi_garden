@@ -8,11 +8,11 @@ The highest honest STSUI yield right now is 0.17% on bluefin-spot (Sui), among 2
 | [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.17% | $209.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, STSUI's lower-variability candidates are bluefin-spot (Sui), 0.17% APY, $209.3K TVL, https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token; bluefin-spot (Sui), 0.03% APY, $291.9K TVL, https://www.defi.garden/?pool=42784289-defd-4366-832a-33837938086c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [bluefin-spot →](https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token) | Sui | 0.17% | $209.3K |
 | 2 | [bluefin-spot →](https://www.defi.garden/?pool=42784289-defd-4366-832a-33837938086c&src=seo_token) | Sui | 0.03% | $291.9K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which STSUI pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, STSUI's lower-variability candidates are bluefin-spot (Sui), 0.17% APY, $209.3K TVL, https://www.defi.garden/?pool=3c599de3-5072-4fd2-99ec-c2f13632d133&src=seo_token; bluefin-spot (Sui), 0.03% APY, $291.9K TVL, https://www.defi.garden/?pool=42784289-defd-4366-832a-33837938086c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

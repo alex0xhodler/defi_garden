@@ -14,11 +14,11 @@
 | [stake-dao →](https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token) | Ethereum | 14.04% | $778.4K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 SDOLA의 변동성 낮은 후보는 Ethereum의 inverse-finance-firm, APY 7.07%, TVL $7.97M, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token; Ethereum의 curve-dex, APY 10.88%, TVL $1.03M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; Ethereum의 curve-dex, APY 6.58%, TVL $1.02M, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token; Ethereum의 stake-dao, APY 6.61%, TVL $1.02M, https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token; Ethereum의 stake-dao, APY 5.64%, TVL $2.05M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token; Ethereum의 curve-dex, APY 5.82%, TVL $2.11M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token; Ethereum의 curve-dex, APY 2.80%, TVL $896.9K, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token; Ethereum의 stake-dao, APY 14.04%, TVL $778.4K, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [inverse-finance-firm →](https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token) | Ethereum | 7.07% | $7.97M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token) | Ethereum | 10.88% | $1.03M |
@@ -66,9 +66,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 10.88%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### SDOLA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 SDOLA의 변동성 낮은 후보는 Ethereum의 inverse-finance-firm, APY 7.07%, TVL $7.97M, https://www.defi.garden/?pool=bf0f95c9-bc46-467d-9762-1d80ff50cd74&src=seo_token; Ethereum의 curve-dex, APY 10.88%, TVL $1.03M, https://www.defi.garden/?pool=c69a5fa3-0948-428e-9a01-34057a08fde4&src=seo_token; Ethereum의 curve-dex, APY 6.58%, TVL $1.02M, https://www.defi.garden/?pool=d92e6b85-90ec-4796-a77c-0c56a65e6734&src=seo_token; Ethereum의 stake-dao, APY 6.61%, TVL $1.02M, https://www.defi.garden/?pool=0a80e72c-4590-4e62-b0e8-e47fc718f260&src=seo_token; Ethereum의 stake-dao, APY 5.64%, TVL $2.05M, https://www.defi.garden/?pool=54c9a039-42a2-4756-896a-50b81b239ba9&src=seo_token; Ethereum의 curve-dex, APY 5.82%, TVL $2.11M, https://www.defi.garden/?pool=6ba003eb-fb87-4771-a542-e41d352e7c82&src=seo_token; Ethereum의 curve-dex, APY 2.80%, TVL $896.9K, https://www.defi.garden/?pool=0877b39a-c1a8-4155-b5dc-082600fdc26e&src=seo_token; Ethereum의 stake-dao, APY 14.04%, TVL $778.4K, https://www.defi.garden/?pool=7255c661-892b-4c4c-b869-537a1326b669&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

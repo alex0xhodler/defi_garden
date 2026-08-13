@@ -14,11 +14,11 @@
 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.70% | $333.3K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 DOLA의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 0.70%, TVL $333.3K, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token; Ethereum의 curve-dex, APY 0.62%, TVL $762.2K, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token; Ethereum의 convex-finance, APY 5.33%, TVL $39.47M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; Ethereum의 convex-finance, APY 5.09%, TVL $5.58M, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token; Ethereum의 yearn-finance, APY 4.78%, TVL $7.48M, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token; Ethereum의 curve-dex, APY 3.18%, TVL $47.1M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; Ethereum의 curve-dex, APY 3.01%, TVL $6.34M, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token; Ethereum의 yearn-finance, APY 5.41%, TVL $748.9K, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.70% | $333.3K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 0.62% | $762.2K |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 5.41%�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### DOLA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 DOLA의 변동성 낮은 후보는 Base의 aerodrome-v1, APY 0.70%, TVL $333.3K, https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token; Ethereum의 curve-dex, APY 0.62%, TVL $762.2K, https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token; Ethereum의 convex-finance, APY 5.33%, TVL $39.47M, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; Ethereum의 convex-finance, APY 5.09%, TVL $5.58M, https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token; Ethereum의 yearn-finance, APY 4.78%, TVL $7.48M, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token; Ethereum의 curve-dex, APY 3.18%, TVL $47.1M, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; Ethereum의 curve-dex, APY 3.01%, TVL $6.34M, https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token; Ethereum의 yearn-finance, APY 5.41%, TVL $748.9K, https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

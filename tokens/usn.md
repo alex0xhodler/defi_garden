@@ -8,11 +8,11 @@ The highest honest USN yield right now is 0.13% on uniswap-v3 (Ethereum), among 
 | [uniswap-v3 →](https://www.defi.garden/?pool=ff5f9bc2-741f-4e44-bd80-d81798ba22a3&src=seo_token) | Ethereum | 0.13% | $1.2M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USN's lower-variability candidates are uniswap-v3 (Ethereum), 0.12% APY, $1.33M TVL, https://www.defi.garden/?pool=860a781d-9327-4428-9424-e54ca2f2e475&src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $1.2M TVL, https://www.defi.garden/?pool=ff5f9bc2-741f-4e44-bd80-d81798ba22a3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=860a781d-9327-4428-9424-e54ca2f2e475&src=seo_token) | Ethereum | 0.12% | $1.33M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=ff5f9bc2-741f-4e44-bd80-d81798ba22a3&src=seo_token) | Ethereum | 0.13% | $1.2M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USN pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USN's lower-variability candidates are uniswap-v3 (Ethereum), 0.12% APY, $1.33M TVL, https://www.defi.garden/?pool=860a781d-9327-4428-9424-e54ca2f2e475&src=seo_token; uniswap-v3 (Ethereum), 0.13% APY, $1.2M TVL, https://www.defi.garden/?pool=ff5f9bc2-741f-4e44-bd80-d81798ba22a3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

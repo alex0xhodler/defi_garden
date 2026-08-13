@@ -10,11 +10,11 @@ The highest honest MAI yield right now is 9.42% on extra-finance-leverage-farmin
 | [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 2.47% | $130K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, MAI's lower-variability candidates are aerodrome-v1 (Base), 9.01% APY, $2.31M TVL, https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token; quickswap-dex (Polygon), 0.07% APY, $642.4K TVL, https://www.defi.garden/?pool=63eb0ca9-4d62-46e1-8f8a-ae7368910698&src=seo_token; curve-dex (Polygon), 2.47% APY, $130K TVL, https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token; extra-finance-leverage-farming (Base), 9.42% APY, $239.9K TVL, https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 9.01% | $2.31M |
 | 2 | [quickswap-dex →](https://www.defi.garden/?pool=63eb0ca9-4d62-46e1-8f8a-ae7368910698&src=seo_token) | Polygon | 0.07% | $642.4K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which MAI pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, MAI's lower-variability candidates are aerodrome-v1 (Base), 9.01% APY, $2.31M TVL, https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token; quickswap-dex (Polygon), 0.07% APY, $642.4K TVL, https://www.defi.garden/?pool=63eb0ca9-4d62-46e1-8f8a-ae7368910698&src=seo_token; curve-dex (Polygon), 2.47% APY, $130K TVL, https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token; extra-finance-leverage-farming (Base), 9.42% APY, $239.9K TVL, https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

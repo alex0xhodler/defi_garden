@@ -8,11 +8,11 @@ The highest honest RSETH yield right now is 2.31% on kelp (Ethereum), among 4 po
 | [fluid-dex →](https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token) | Ethereum | 0.02% | $4.05M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, RSETH's lower-variability candidates are kelp (Ethereum), 2.31% APY, $863.29M TVL, https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token; fluid-dex (Ethereum), 0.02% APY, $4.05M TVL, https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [kelp →](https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token) | Ethereum | 2.31% | $863.29M |
 | 2 | [fluid-dex →](https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token) | Ethereum | 0.02% | $4.05M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which RSETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, RSETH's lower-variability candidates are kelp (Ethereum), 2.31% APY, $863.29M TVL, https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token; fluid-dex (Ethereum), 0.02% APY, $4.05M TVL, https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -10,11 +10,11 @@ The highest honest FXSAVE yield right now is 6.23% on pendle (Ethereum), among 7
 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 2.25% | $427.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, FXSAVE's lower-variability candidates are pendle (Ethereum), 6.23% APY, $850.1K TVL, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token; pendle (Ethereum), 5.77% APY, $850.1K TVL, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token; convex-finance (Ethereum), 2.25% APY, $427.5K TVL, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token; curve-dex (Ethereum), 2.25% APY, $427.6K TVL, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token) | Ethereum | 6.23% | $850.1K |
 | 2 | [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 5.77% | $850.1K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which FXSAVE pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, FXSAVE's lower-variability candidates are pendle (Ethereum), 6.23% APY, $850.1K TVL, https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token; pendle (Ethereum), 5.77% APY, $850.1K TVL, https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token; convex-finance (Ethereum), 2.25% APY, $427.5K TVL, https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token; curve-dex (Ethereum), 2.25% APY, $427.6K TVL, https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

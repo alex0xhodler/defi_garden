@@ -8,11 +8,11 @@ The highest honest RALLY yield right now is 31.15% on uniswap-v4 (Ethereum), amo
 | [uniswap-v4 →](https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token) | Ethereum | 31.15% | $100.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, RALLY's lower-variability candidates are uniswap-v4 (Ethereum), 31.15% APY, $100.9K TVL, https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token; uniswap-v4 (Ethereum), 4.53% APY, $110K TVL, https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token) | Ethereum | 31.15% | $100.9K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token) | Ethereum | 4.53% | $110K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which RALLY pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, RALLY's lower-variability candidates are uniswap-v4 (Ethereum), 31.15% APY, $100.9K TVL, https://www.defi.garden/?pool=cbfd606c-ba6d-4392-a274-6a0d8947bce8&src=seo_token; uniswap-v4 (Ethereum), 4.53% APY, $110K TVL, https://www.defi.garden/?pool=8ba0fe2f-37a7-4965-9825-2f186103e338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

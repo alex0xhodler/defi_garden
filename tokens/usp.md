@@ -9,11 +9,11 @@ The highest honest USP yield right now is 655.40% on curve-dex (Ethereum), among
 | [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token) | Ethereum | 655.40% | $129.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USP's lower-variability candidates are pendle (Ethereum), 105.34% APY, $218.3K TVL, https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token; pendle (Ethereum), 105.07% APY, $218.3K TVL, https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token; curve-dex (Ethereum), 655.40% APY, $129.2K TVL, https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token) | Ethereum | 105.34% | $218.3K |
 | 2 | [pendle →](https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token) | Ethereum | 105.07% | $218.3K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USP's lower-variability candidates are pendle (Ethereum), 105.34% APY, $218.3K TVL, https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token; pendle (Ethereum), 105.07% APY, $218.3K TVL, https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token; curve-dex (Ethereum), 655.40% APY, $129.2K TVL, https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

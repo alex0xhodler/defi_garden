@@ -9,11 +9,11 @@ The highest honest EUROC yield right now is 4.06% on uniswap-v3 (Ethereum), amon
 | [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 0.56% | $224.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EUROC's lower-variability candidates are uniswap-v3 (Ethereum), 0.08% APY, $5.81M TVL, https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token; uniswap-v3 (Avalanche), 0.56% APY, $224.3K TVL, https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token; uniswap-v3 (Ethereum), 4.06% APY, $5.27M TVL, https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.08% | $5.81M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 0.56% | $224.3K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EUROC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EUROC's lower-variability candidates are uniswap-v3 (Ethereum), 0.08% APY, $5.81M TVL, https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token; uniswap-v3 (Avalanche), 0.56% APY, $224.3K TVL, https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token; uniswap-v3 (Ethereum), 4.06% APY, $5.27M TVL, https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

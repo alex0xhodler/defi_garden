@@ -10,11 +10,11 @@ The highest honest KNTQ yield right now is 70.42% on nest-cl (Hyperliquid L1), a
 | [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token) | Hyperliquid L1 | 270.49% | $112.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, KNTQ's lower-variability candidates are nest-cl (Hyperliquid L1), 270.49% APY, $112.1K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token; project-x (Hyperliquid L1), 55.59% APY, $223.1K TVL, https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token; nest-cl (Hyperliquid L1), 70.42% APY, $255.2K TVL, https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token; project-x (Hyperliquid L1), 28.18% APY, $197.3K TVL, https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token) | Hyperliquid L1 | 270.49% | $112.1K |
 | 2 | [project-x →](https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token) | Hyperliquid L1 | 55.59% | $223.1K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which KNTQ pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, KNTQ's lower-variability candidates are nest-cl (Hyperliquid L1), 270.49% APY, $112.1K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token; project-x (Hyperliquid L1), 55.59% APY, $223.1K TVL, https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token; nest-cl (Hyperliquid L1), 70.42% APY, $255.2K TVL, https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token; project-x (Hyperliquid L1), 28.18% APY, $197.3K TVL, https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

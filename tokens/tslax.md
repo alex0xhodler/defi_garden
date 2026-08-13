@@ -11,11 +11,11 @@ The highest honest TSLAX yield right now is 7.87% on raydium-amm (Solana), among
 | [orca-dex →](https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token) | Solana | 0.79% | $110.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, TSLAX's lower-variability candidates are jupiter-lend (Solana), 2.02% APY, $209.8K TVL, https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token; jupiter-lend (Solana), 2.02% APY, $577.2K TVL, https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token; raydium-amm (Solana), 7.87% APY, $1.93M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 2.92% APY, $514.5K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 0.79% APY, $110.2K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [jupiter-lend →](https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token) | Solana | 2.02% | $209.8K |
 | 2 | [jupiter-lend →](https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token) | Solana | 2.02% | $577.2K |
@@ -59,9 +59,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which TSLAX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, TSLAX's lower-variability candidates are jupiter-lend (Solana), 2.02% APY, $209.8K TVL, https://www.defi.garden/?pool=0611005f-0834-422f-b819-49a116e9cc51&src=seo_token; jupiter-lend (Solana), 2.02% APY, $577.2K TVL, https://www.defi.garden/?pool=f5268625-ac8f-4498-99b5-f2e1a08c7230&src=seo_token; raydium-amm (Solana), 7.87% APY, $1.93M TVL, https://www.defi.garden/?pool=314c6cb3-b2d1-4262-9b16-1c1db245b262&src=seo_token; raydium-amm (Solana), 2.92% APY, $514.5K TVL, https://www.defi.garden/?pool=37cd8913-83bd-4d9d-a28b-b354ee1743b4&src=seo_token; orca-dex (Solana), 0.79% APY, $110.2K TVL, https://www.defi.garden/?pool=9707453e-63a2-4d7c-8311-ca71f5cad17c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

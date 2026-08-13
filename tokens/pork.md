@@ -8,11 +8,11 @@ The highest honest PORK yield right now is 14.89% on uniswap-v4 (Ethereum), amon
 | [uniswap-v4 →](https://www.defi.garden/?pool=1dc087f9-d367-4dae-a391-1e798891fdb1&src=seo_token) | Ethereum | 14.89% | $234.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, PORK's lower-variability candidates are uniswap-v4 (Ethereum), 14.89% APY, $234.8K TVL, https://www.defi.garden/?pool=1dc087f9-d367-4dae-a391-1e798891fdb1&src=seo_token; uniswap-v3 (Ethereum), 3.51% APY, $261.3K TVL, https://www.defi.garden/?pool=75a896ab-e1ad-4bed-94d3-dcb5e8c5568c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=1dc087f9-d367-4dae-a391-1e798891fdb1&src=seo_token) | Ethereum | 14.89% | $234.8K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=75a896ab-e1ad-4bed-94d3-dcb5e8c5568c&src=seo_token) | Ethereum | 3.51% | $261.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which PORK pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, PORK's lower-variability candidates are uniswap-v4 (Ethereum), 14.89% APY, $234.8K TVL, https://www.defi.garden/?pool=1dc087f9-d367-4dae-a391-1e798891fdb1&src=seo_token; uniswap-v3 (Ethereum), 3.51% APY, $261.3K TVL, https://www.defi.garden/?pool=75a896ab-e1ad-4bed-94d3-dcb5e8c5568c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

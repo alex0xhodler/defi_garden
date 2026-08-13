@@ -12,11 +12,11 @@ The highest honest PEPE yield right now is 2.02% on uniswap-v2 (Ethereum), among
 | [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 2.98% | $151.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, PEPE's lower-variability candidates are raydium-amm (Solana), 2.98% APY, $151.1K TVL, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token; uniswap-v4 (Ethereum), 1.95% APY, $170.2K TVL, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token; uniswap-v3 (Base), 5.97% APY, $184.1K TVL, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token; uniswap-v2 (Ethereum), 2.02% APY, $20.42M TVL, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token; uniswap-v3 (Ethereum), 0.18% APY, $1.69M TVL, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token) | Solana | 2.98% | $151.1K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token) | Ethereum | 1.95% | $170.2K |
@@ -61,9 +61,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which PEPE pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, PEPE's lower-variability candidates are raydium-amm (Solana), 2.98% APY, $151.1K TVL, https://www.defi.garden/?pool=6c84068e-d2da-404f-9430-f8086d072d8b&src=seo_token; uniswap-v4 (Ethereum), 1.95% APY, $170.2K TVL, https://www.defi.garden/?pool=5bc939b7-9b68-442b-89de-ed4f3833cfda&src=seo_token; uniswap-v3 (Base), 5.97% APY, $184.1K TVL, https://www.defi.garden/?pool=0c9d30bd-d127-4350-8193-963dcdaa01ce&src=seo_token; uniswap-v2 (Ethereum), 2.02% APY, $20.42M TVL, https://www.defi.garden/?pool=9f79f58d-6192-4ea1-944e-e1ae866fc2b2&src=seo_token; uniswap-v3 (Ethereum), 0.18% APY, $1.69M TVL, https://www.defi.garden/?pool=a673879e-cf84-4ff6-8561-f7734133bade&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

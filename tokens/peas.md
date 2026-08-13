@@ -9,11 +9,11 @@ The highest honest PEAS yield right now is 6.45% on uniswap-v3 (Ethereum), among
 | [uniswap-v3 →](https://www.defi.garden/?pool=d2290557-51d0-4765-bbaa-a821316aef9b&src=seo_token) | Arbitrum | 4.91% | $170.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, PEAS's lower-variability candidates are uniswap-v3 (Arbitrum), 4.91% APY, $170.5K TVL, https://www.defi.garden/?pool=d2290557-51d0-4765-bbaa-a821316aef9b&src=seo_token; uniswap-v3 (Ethereum), 3.03% APY, $1.38M TVL, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token; uniswap-v3 (Ethereum), 6.45% APY, $232.1K TVL, https://www.defi.garden/?pool=59a12e88-fc48-40ce-8e31-0d2e1bfeba8f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=d2290557-51d0-4765-bbaa-a821316aef9b&src=seo_token) | Arbitrum | 4.91% | $170.5K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token) | Ethereum | 3.03% | $1.38M |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which PEAS pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, PEAS's lower-variability candidates are uniswap-v3 (Arbitrum), 4.91% APY, $170.5K TVL, https://www.defi.garden/?pool=d2290557-51d0-4765-bbaa-a821316aef9b&src=seo_token; uniswap-v3 (Ethereum), 3.03% APY, $1.38M TVL, https://www.defi.garden/?pool=6e4f40e1-36a5-4f86-bea5-a1781c002a45&src=seo_token; uniswap-v3 (Ethereum), 6.45% APY, $232.1K TVL, https://www.defi.garden/?pool=59a12e88-fc48-40ce-8e31-0d2e1bfeba8f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -8,11 +8,11 @@ The highest honest OLAS yield right now is 39.20% on uniswap-v2 (Ethereum), amon
 | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 4.34% | $240.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, OLAS's lower-variability candidates are balancer-v2 (Gnosis), 4.34% APY, $240.7K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; uniswap-v2 (Ethereum), 39.20% APY, $1.02M TVL, https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [balancer-v2 →](https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token) | Gnosis | 4.34% | $240.7K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token) | Ethereum | 39.20% | $1.02M |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which OLAS pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, OLAS's lower-variability candidates are balancer-v2 (Gnosis), 4.34% APY, $240.7K TVL, https://www.defi.garden/?pool=506bc142-e8cc-46d8-8844-0f37e653a3f9&src=seo_token; uniswap-v2 (Ethereum), 39.20% APY, $1.02M TVL, https://www.defi.garden/?pool=73105498-5eaf-4032-8c5b-08615c237f2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

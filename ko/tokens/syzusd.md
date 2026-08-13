@@ -14,11 +14,11 @@
 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 10.63% | $116.5K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Monad의 morpho-blue, APY 1.18%, TVL $480.2K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; Monad의 curvance, APY 0.20%, TVL $1.07M, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; Sei의 yuzu-money, APY 7.50%, TVL $9M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; Ethereum의 yuzu-money, APY 7.50%, TVL $1.29M, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; Monad의 yuzu-money, APY 7.50%, TVL $11.52M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; Plasma의 yuzu-money, APY 7.50%, TVL $28.17M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; Monad의 balancer-v3, APY 10.63%, TVL $116.5K, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token; Monad의 balancer-v3, APY 13.49%, TVL $364.1K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token) | Monad | 1.18% | $480.2K |
 | 2 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.07M |
@@ -66,9 +66,9 @@ DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 13.49%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### SYZUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Monad의 morpho-blue, APY 1.18%, TVL $480.2K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; Monad의 curvance, APY 0.20%, TVL $1.07M, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; Sei의 yuzu-money, APY 7.50%, TVL $9M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; Ethereum의 yuzu-money, APY 7.50%, TVL $1.29M, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; Monad의 yuzu-money, APY 7.50%, TVL $11.52M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; Plasma의 yuzu-money, APY 7.50%, TVL $28.17M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; Monad의 balancer-v3, APY 10.63%, TVL $116.5K, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token; Monad의 balancer-v3, APY 13.49%, TVL $364.1K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

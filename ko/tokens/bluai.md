@@ -9,11 +9,11 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=5dca970b-54a0-4b41-8b2c-6ae96ed3db85&src=seo_token) | BSC | 418.92% | $106.8K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 BLUAI의 변동성 낮은 후보는 Solana의 raydium-amm, APY 5.79%, TVL $178.6K, https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token; BSC의 uniswap-v3, APY 418.92%, TVL $106.8K, https://www.defi.garden/?pool=5dca970b-54a0-4b41-8b2c-6ae96ed3db85&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token) | Solana | 5.79% | $178.6K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=5dca970b-54a0-4b41-8b2c-6ae96ed3db85&src=seo_token) | BSC | 418.92% | $106.8K |
@@ -52,9 +52,9 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 5.79%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### BLUAI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 BLUAI의 변동성 낮은 후보는 Solana의 raydium-amm, APY 5.79%, TVL $178.6K, https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token; BSC의 uniswap-v3, APY 418.92%, TVL $106.8K, https://www.defi.garden/?pool=5dca970b-54a0-4b41-8b2c-6ae96ed3db85&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

@@ -14,11 +14,11 @@
 | [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 2.14% | $366.4K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 STRKBTC의 변동성 낮은 후보는 Starknet의 endur, APY 1.83%, TVL $415.2K, https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token; Starknet의 ekubo, APY 9.30%, TVL $3.16M, https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token; Starknet의 ekubo, APY 6.01%, TVL $589.6K, https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token; Starknet의 troves, APY 2.14%, TVL $366.4K, https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token; Starknet의 ekubo, APY 12.68%, TVL $1.29M, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; Starknet의 troves, APY 3.37%, TVL $409K, https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token; Starknet의 ekubo, APY 17.02%, TVL $824.3K, https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token; Starknet의 ekubo, APY 38.12%, TVL $1.76M, https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [endur →](https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token) | Starknet | 1.83% | $415.2K |
 | 2 | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 9.30% | $3.16M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Starknet의 ekubo에서 APY 38.12%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### STRKBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 STRKBTC의 변동성 낮은 후보는 Starknet의 endur, APY 1.83%, TVL $415.2K, https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token; Starknet의 ekubo, APY 9.30%, TVL $3.16M, https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token; Starknet의 ekubo, APY 6.01%, TVL $589.6K, https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token; Starknet의 troves, APY 2.14%, TVL $366.4K, https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token; Starknet의 ekubo, APY 12.68%, TVL $1.29M, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; Starknet의 troves, APY 3.37%, TVL $409K, https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token; Starknet의 ekubo, APY 17.02%, TVL $824.3K, https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token; Starknet의 ekubo, APY 38.12%, TVL $1.76M, https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

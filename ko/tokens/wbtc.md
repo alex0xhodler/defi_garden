@@ -14,11 +14,11 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=bbecbf69-a4f7-43e3-8b72-de180d106e2c&src=seo_token) | Ethereum | 3.41% | $26.86M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 WBTC의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 0.01%, TVL $2.06B, https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token; Polygon의 aave-v3, APY 0.02%, TVL $51.81M, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token; Arbitrum의 aave-v3, APY 0.05%, TVL $159.44M, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token; Ethereum의 uniswap-v3, APY 0.06%, TVL $28.91M, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token; Ethereum의 uniswap-v3, APY 0.32%, TVL $32.8M, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token; Ethereum의 uniswap-v3, APY 4.61%, TVL $41.97M, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token; Arbitrum의 uniswap-v3, APY 3.31%, TVL $33.19M, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token; Ethereum의 uniswap-v3, APY 3.41%, TVL $26.86M, https://www.defi.garden/?pool=bbecbf69-a4f7-43e3-8b72-de180d106e2c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token) | Ethereum | 0.01% | $2.06B |
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token) | Polygon | 0.02% | $51.81M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 4.61%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### WBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 WBTC의 변동성 낮은 후보는 Ethereum의 aave-v3, APY 0.01%, TVL $2.06B, https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token; Polygon의 aave-v3, APY 0.02%, TVL $51.81M, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token; Arbitrum의 aave-v3, APY 0.05%, TVL $159.44M, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token; Ethereum의 uniswap-v3, APY 0.06%, TVL $28.91M, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token; Ethereum의 uniswap-v3, APY 0.32%, TVL $32.8M, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token; Ethereum의 uniswap-v3, APY 4.61%, TVL $41.97M, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token; Arbitrum의 uniswap-v3, APY 3.31%, TVL $33.19M, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token; Ethereum의 uniswap-v3, APY 3.41%, TVL $26.86M, https://www.defi.garden/?pool=bbecbf69-a4f7-43e3-8b72-de180d106e2c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

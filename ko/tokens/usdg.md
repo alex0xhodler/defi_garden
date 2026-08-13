@@ -14,11 +14,11 @@
 | [pendle →](https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token) | Ethereum | 3.63% | $3.79M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 USDG의 변동성 낮은 후보는 Ethereum의 aave-v4, APY 1.32%, TVL $25.37M, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token; Ethereum의 curve-dex, APY 0.23%, TVL $30.47M, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token; Ethereum의 maple, APY 5.00%, TVL $243.18M, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token; Ethereum의 pendle, APY 3.63%, TVL $3.79M, https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token; Solana의 kamino-lend, APY 2.67%, TVL $20.08M, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token; Ethereum의 aave-v3, APY 4.65%, TVL $4.03M, https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token; Solana의 orca-dex, APY 0.12%, TVL $25.68M, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.32% | $25.37M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.23% | $30.47M |
@@ -65,9 +65,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 maple에서 APY 5.00%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### USDG 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 USDG의 변동성 낮은 후보는 Ethereum의 aave-v4, APY 1.32%, TVL $25.37M, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token; Ethereum의 curve-dex, APY 0.23%, TVL $30.47M, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token; Ethereum의 maple, APY 5.00%, TVL $243.18M, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token; Ethereum의 pendle, APY 3.63%, TVL $3.79M, https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token; Solana의 kamino-lend, APY 2.67%, TVL $20.08M, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token; Ethereum의 aave-v3, APY 4.65%, TVL $4.03M, https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token; Solana의 orca-dex, APY 0.12%, TVL $25.68M, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

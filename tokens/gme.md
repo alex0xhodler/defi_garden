@@ -8,11 +8,11 @@ The highest honest GME yield right now is 1.69% on uniswap-v2 (Ethereum), among 
 | [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 1.69% | $509K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GME's lower-variability candidates are raydium-amm (Solana), 1.18% APY, $853.9K TVL, https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token; uniswap-v2 (Ethereum), 1.69% APY, $509K TVL, https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token) | Solana | 1.18% | $853.9K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 1.69% | $509K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GME pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GME's lower-variability candidates are raydium-amm (Solana), 1.18% APY, $853.9K TVL, https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token; uniswap-v2 (Ethereum), 1.69% APY, $509K TVL, https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

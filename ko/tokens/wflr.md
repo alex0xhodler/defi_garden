@@ -14,11 +14,11 @@
 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 2.46% | $236.2K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 WFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 6.32%, TVL $970.3K, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; Flare의 sparkdex-v4, APY 4.46%, TVL $1.26M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 kinetic, APY 5.22%, TVL $1.16M, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; Flare의 sparkdex-v4, APY 10.63%, TVL $794.5K, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; Flare의 sparkdex-v4, APY 21.06%, TVL $1.43M, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; Flare의 sparkdex-v3.1, APY 1.33%, TVL $307.8K, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; Flare의 sparkdex-v3.1, APY 0.91%, TVL $298K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; Flare의 sparkdex-v3.1, APY 2.46%, TVL $236.2K, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.32% | $970.3K |
 | 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.46% | $1.26M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 21.06%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### WFLR 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 WFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 6.32%, TVL $970.3K, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; Flare의 sparkdex-v4, APY 4.46%, TVL $1.26M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 kinetic, APY 5.22%, TVL $1.16M, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; Flare의 sparkdex-v4, APY 10.63%, TVL $794.5K, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; Flare의 sparkdex-v4, APY 21.06%, TVL $1.43M, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; Flare의 sparkdex-v3.1, APY 1.33%, TVL $307.8K, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; Flare의 sparkdex-v3.1, APY 0.91%, TVL $298K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; Flare의 sparkdex-v3.1, APY 2.46%, TVL $236.2K, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

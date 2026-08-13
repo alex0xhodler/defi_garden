@@ -14,11 +14,11 @@ The highest honest UETH yield right now is 32.11% on ramses-cl-v2 (Hyperliquid L
 | [nest-cl →](https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token) | Hyperliquid L1 | 31.83% | $140.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, UETH's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.02% APY, $245.2K TVL, https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token; hyperlend-pooled (Hyperliquid L1), 2.41% APY, $984.5K TVL, https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token; nest-cl (Hyperliquid L1), 31.83% APY, $140.5K TVL, https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 32.11% APY, $323.2K TVL, https://www.defi.garden/?pool=71b271fb-e462-40be-9fe7-e237e4308cf7&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 13.61% APY, $333.9K TVL, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; project-x (Hyperliquid L1), 4.84% APY, $956.4K TVL, https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token; nest-cl (Hyperliquid L1), 25.08% APY, $429.5K TVL, https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token; hyperswap-v3 (Hyperliquid L1), 0.44% APY, $525.6K TVL, https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hypurrfi-pooled →](https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token) | Hyperliquid L1 | 0.02% | $245.2K |
 | 2 | [hyperlend-pooled →](https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token) | Hyperliquid L1 | 2.41% | $984.5K |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which UETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, UETH's lower-variability candidates are hypurrfi-pooled (Hyperliquid L1), 0.02% APY, $245.2K TVL, https://www.defi.garden/?pool=1e4bfaf9-d95c-4025-bbbc-7af3343bc697&src=seo_token; hyperlend-pooled (Hyperliquid L1), 2.41% APY, $984.5K TVL, https://www.defi.garden/?pool=3002bd03-5e7e-4e38-9b0a-381c1109f77b&src=seo_token; nest-cl (Hyperliquid L1), 31.83% APY, $140.5K TVL, https://www.defi.garden/?pool=1b66a769-28c2-4142-b558-224eb0be8a5f&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 32.11% APY, $323.2K TVL, https://www.defi.garden/?pool=71b271fb-e462-40be-9fe7-e237e4308cf7&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 13.61% APY, $333.9K TVL, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; project-x (Hyperliquid L1), 4.84% APY, $956.4K TVL, https://www.defi.garden/?pool=5f952da0-ffd8-4665-9314-9319e4cafaa8&src=seo_token; nest-cl (Hyperliquid L1), 25.08% APY, $429.5K TVL, https://www.defi.garden/?pool=50b63c78-5597-42c0-a531-d593c9e482b9&src=seo_token; hyperswap-v3 (Hyperliquid L1), 0.44% APY, $525.6K TVL, https://www.defi.garden/?pool=7223e3c9-85ba-424a-91be-f02dcb6f155e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

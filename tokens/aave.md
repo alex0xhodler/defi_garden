@@ -14,11 +14,11 @@ The highest honest AAVE yield right now is 74.93% on aerodrome-slipstream (Base)
 | [uniswap-v3 →](https://www.defi.garden/?pool=2489532d-eb94-40d4-9a99-c417385aaf78&src=seo_token) | Ethereum | 2.35% | $762.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, AAVE's lower-variability candidates are uniswap-v4 (Ethereum), 5.02% APY, $1M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 3.33% APY, $2.9M TVL, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; aerodrome-slipstream (Base), 74.93% APY, $823.2K TVL, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; uniswap-v4 (Ethereum), 12.22% APY, $2.16M TVL, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; uniswap-v3 (Ethereum), 10.00% APY, $2.75M TVL, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; uniswap-v3 (Ethereum), 2.35% APY, $762.6K TVL, https://www.defi.garden/?pool=2489532d-eb94-40d4-9a99-c417385aaf78&src=seo_token; uniswap-v4 (Ethereum), 23.91% APY, $1.66M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; balancer-v2 (Ethereum), 0.31% APY, $10.94M TVL, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 5.02% | $1M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 3.33% | $2.9M |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which AAVE pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, AAVE's lower-variability candidates are uniswap-v4 (Ethereum), 5.02% APY, $1M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 3.33% APY, $2.9M TVL, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; aerodrome-slipstream (Base), 74.93% APY, $823.2K TVL, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; uniswap-v4 (Ethereum), 12.22% APY, $2.16M TVL, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; uniswap-v3 (Ethereum), 10.00% APY, $2.75M TVL, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; uniswap-v3 (Ethereum), 2.35% APY, $762.6K TVL, https://www.defi.garden/?pool=2489532d-eb94-40d4-9a99-c417385aaf78&src=seo_token; uniswap-v4 (Ethereum), 23.91% APY, $1.66M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; balancer-v2 (Ethereum), 0.31% APY, $10.94M TVL, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

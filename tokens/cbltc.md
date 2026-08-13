@@ -8,11 +8,11 @@ The highest honest CBLTC yield right now is 41.88% on aerodrome-slipstream (Base
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 41.88% | $107.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 14.83% APY, $137.5K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 41.88% APY, $107.3K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token) | Base | 14.83% | $137.5K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token) | Base | 41.88% | $107.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CBLTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CBLTC's lower-variability candidates are aerodrome-slipstream (Base), 14.83% APY, $137.5K TVL, https://www.defi.garden/?pool=00899fee-2b90-4ba4-bbb9-5d4bbf281e56&src=seo_token; aerodrome-slipstream (Base), 41.88% APY, $107.3K TVL, https://www.defi.garden/?pool=d58103de-0eea-4690-99c1-eceb1826d860&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

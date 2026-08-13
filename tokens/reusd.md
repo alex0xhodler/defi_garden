@@ -14,11 +14,11 @@ The highest honest REUSD yield right now is 12.44% on stake-dao (Ethereum), amon
 | [curve-dex →](https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token) | Ethereum | 7.30% | $2.59M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, REUSD's lower-variability candidates are pendle (Ethereum), 10.57% APY, $9.03M TVL, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; re (Ethereum), 6.24% APY, $187.33M TVL, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; fluid-dex (Ethereum), 1.04% APY, $24.81M TVL, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; pendle (Ethereum), 9.49% APY, $9.03M TVL, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; stake-dao (Ethereum), 12.44% APY, $3.55M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; curve-dex (Ethereum), 7.30% APY, $2.59M TVL, https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token; curve-dex (Ethereum), 7.63% APY, $9.35M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; convex-finance (Ethereum), 12.16% APY, $4.7M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token) | Ethereum | 10.57% | $9.03M |
 | 2 | [re →](https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token) | Ethereum | 6.24% | $187.33M |
@@ -66,9 +66,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which REUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, REUSD's lower-variability candidates are pendle (Ethereum), 10.57% APY, $9.03M TVL, https://www.defi.garden/?pool=7abaf885-bad2-4531-8550-37b2313f2f76&src=seo_token; re (Ethereum), 6.24% APY, $187.33M TVL, https://www.defi.garden/?pool=1c312830-ee96-40c9-b55f-b0f209ca6ebd&src=seo_token; fluid-dex (Ethereum), 1.04% APY, $24.81M TVL, https://www.defi.garden/?pool=6e521995-76b1-4f60-8c66-767fd01ca5ab&src=seo_token; pendle (Ethereum), 9.49% APY, $9.03M TVL, https://www.defi.garden/?pool=346fecdb-9749-4b75-9366-38bc24134e6f&src=seo_token; stake-dao (Ethereum), 12.44% APY, $3.55M TVL, https://www.defi.garden/?pool=321b0f91-21ca-438b-966e-78946e275589&src=seo_token; curve-dex (Ethereum), 7.30% APY, $2.59M TVL, https://www.defi.garden/?pool=3dde1458-2baa-4b83-a451-c81ac14c8dea&src=seo_token; curve-dex (Ethereum), 7.63% APY, $9.35M TVL, https://www.defi.garden/?pool=5c4940c7-c193-440d-b95e-9148d017e12c&src=seo_token; convex-finance (Ethereum), 12.16% APY, $4.7M TVL, https://www.defi.garden/?pool=1971c939-46e4-4b86-87d9-78308de47af7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

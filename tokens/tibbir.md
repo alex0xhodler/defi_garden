@@ -8,11 +8,11 @@ The highest honest TIBBIR yield right now is 17.01% on aerodrome-slipstream (Bas
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 17.01% | $126.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, TIBBIR's lower-variability candidates are aerodrome-slipstream (Base), 518.94% APY, $253.1K TVL, https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token; aerodrome-slipstream (Base), 17.01% APY, $126.5K TVL, https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token) | Base | 518.94% | $253.1K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 17.01% | $126.5K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which TIBBIR pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, TIBBIR's lower-variability candidates are aerodrome-slipstream (Base), 518.94% APY, $253.1K TVL, https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token; aerodrome-slipstream (Base), 17.01% APY, $126.5K TVL, https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

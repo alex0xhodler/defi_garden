@@ -8,11 +8,11 @@ The highest honest SJEUR yield right now is 16.98% on spectra-v2 (Base), among 2
 | [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 10.06% | $209.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SJEUR's lower-variability candidates are spectra-v2 (Base), 10.06% APY, $209.5K TVL, https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token; spectra-v2 (Base), 16.98% APY, $209.5K TVL, https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [spectra-v2 →](https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token) | Base | 10.06% | $209.5K |
 | 2 | [spectra-v2 →](https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token) | Base | 16.98% | $209.5K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SJEUR pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SJEUR's lower-variability candidates are spectra-v2 (Base), 10.06% APY, $209.5K TVL, https://www.defi.garden/?pool=32af4747-0aa4-5575-8a7a-e48f60de06f7&src=seo_token; spectra-v2 (Base), 16.98% APY, $209.5K TVL, https://www.defi.garden/?pool=1a22730d-077c-5186-8bcb-bfb86412717b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -8,11 +8,11 @@ The highest honest EVA yield right now is 28.33% on uniswap-v3 (Arbitrum), among
 | [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 9.88% | $174.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Arbitrum), 28.33% APY, $4.59M TVL, https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token; uniswap-v4 (Arbitrum), 9.88% APY, $174.4K TVL, https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token) | Arbitrum | 28.33% | $4.59M |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token) | Arbitrum | 9.88% | $174.4K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EVA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EVA's lower-variability candidates are uniswap-v3 (Arbitrum), 28.33% APY, $4.59M TVL, https://www.defi.garden/?pool=53fd68b5-0f79-4b3b-9171-577e562beee4&src=seo_token; uniswap-v4 (Arbitrum), 9.88% APY, $174.4K TVL, https://www.defi.garden/?pool=02ca9060-f168-4658-8257-4cb32c938089&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

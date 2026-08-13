@@ -8,11 +8,11 @@ The highest honest XSOL yield right now is 99.13% on orca-dex (Solana), among 2 
 | [orca-dex →](https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2&src=seo_token) | Solana | 99.13% | $117.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, XSOL's lower-variability candidates are loopscale (Solana), 0.77% APY, $421K TVL, https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token; orca-dex (Solana), 99.13% APY, $117.5K TVL, https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [loopscale →](https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token) | Solana | 0.77% | $421K |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2&src=seo_token) | Solana | 99.13% | $117.5K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which XSOL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, XSOL's lower-variability candidates are loopscale (Solana), 0.77% APY, $421K TVL, https://www.defi.garden/?pool=035a1b2c-17b5-4563-bf22-ca4018a55052&src=seo_token; orca-dex (Solana), 99.13% APY, $117.5K TVL, https://www.defi.garden/?pool=0af4c7b5-07f9-4bd8-be80-4f71dbb612e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -10,11 +10,11 @@ The highest honest XSGD yield right now is 65.89% on aerodrome-slipstream (Base)
 | [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 0.41% | $168.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, XSGD's lower-variability candidates are uniswap-v3 (Polygon), 0.06% APY, $173.3K TVL, https://www.defi.garden/?pool=551cee5b-1511-4802-a1b6-c03e4e16bcf9&src=seo_token; uniswap-v3 (Polygon), 0.41% APY, $168.7K TVL, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; aerodrome-slipstream (Base), 21.16% APY, $192.3K TVL, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; aerodrome-slipstream (Base), 65.89% APY, $455.3K TVL, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=551cee5b-1511-4802-a1b6-c03e4e16bcf9&src=seo_token) | Polygon | 0.06% | $173.3K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token) | Polygon | 0.41% | $168.7K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which XSGD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, XSGD's lower-variability candidates are uniswap-v3 (Polygon), 0.06% APY, $173.3K TVL, https://www.defi.garden/?pool=551cee5b-1511-4802-a1b6-c03e4e16bcf9&src=seo_token; uniswap-v3 (Polygon), 0.41% APY, $168.7K TVL, https://www.defi.garden/?pool=c7f28a1f-c2da-43ad-b3f2-ef3260ed6cf4&src=seo_token; aerodrome-slipstream (Base), 21.16% APY, $192.3K TVL, https://www.defi.garden/?pool=3a9705b8-a90e-4ff3-a33d-29d64a817c81&src=seo_token; aerodrome-slipstream (Base), 65.89% APY, $455.3K TVL, https://www.defi.garden/?pool=d64d1a37-08dc-49fe-b679-97b0b29ac5e2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

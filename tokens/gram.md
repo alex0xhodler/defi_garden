@@ -14,11 +14,11 @@ The highest honest GRAM yield right now is 14.34% on affluent (TON), among 33 po
 | [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 7.44% | $585.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GRAM's lower-variability candidates are evaa-protocol (TON), 4.34% APY, $1.14M TVL, https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token; affluent (TON), 3.47% APY, $1.18M TVL, https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_token; affluent (TON), 14.34% APY, $746.4K TVL, https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token; ston.fi (TON), 4.05% APY, $5.77M TVL, https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token; storm-trade (TON), 6.11% APY, $1.52M TVL, https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token; ston.fi (TON), 1.66% APY, $5.03M TVL, https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token; ston.fi (TON), 18.57% APY, $912.7K TVL, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [evaa-protocol →](https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token) | TON | 4.34% | $1.14M |
 | 2 | [affluent →](https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_token) | TON | 3.47% | $1.18M |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GRAM pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GRAM's lower-variability candidates are evaa-protocol (TON), 4.34% APY, $1.14M TVL, https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token; affluent (TON), 3.47% APY, $1.18M TVL, https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_token; affluent (TON), 14.34% APY, $746.4K TVL, https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token; ston.fi (TON), 4.05% APY, $5.77M TVL, https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token; storm-trade (TON), 6.11% APY, $1.52M TVL, https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token; ston.fi (TON), 1.66% APY, $5.03M TVL, https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token; ston.fi (TON), 18.57% APY, $912.7K TVL, https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

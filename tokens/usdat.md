@@ -14,11 +14,11 @@ The highest honest USDAT yield right now is 6.38% on pendle (Ethereum), among 16
 | [pendle →](https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token) | Monad | 5.64% | $819.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDAT's lower-variability candidates are curve-dex (Ethereum), 0.80% APY, $9.08M TVL, https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token; pendle (Ethereum), 6.38% APY, $6.99M TVL, https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token; pendle (Ethereum), 1.78% APY, $6.99M TVL, https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token) | Ethereum | 0.80% | $9.08M |
 | 2 | [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 6.38% | $6.99M |
@@ -63,9 +63,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDAT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDAT's lower-variability candidates are curve-dex (Ethereum), 0.80% APY, $9.08M TVL, https://www.defi.garden/?pool=bf004519-b1f8-4b45-a5ba-334473e701e2&src=seo_token; pendle (Ethereum), 6.38% APY, $6.99M TVL, https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token; pendle (Ethereum), 1.78% APY, $6.99M TVL, https://www.defi.garden/?pool=95b3493d-e474-4098-9794-973e86a06213&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

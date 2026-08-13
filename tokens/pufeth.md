@@ -12,11 +12,11 @@ The highest honest PUFETH yield right now is 7.55% on pendle (Ethereum), among 7
 | [pendle →](https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token) | Ethereum | 5.57% | $218.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, PUFETH's lower-variability candidates are puffer-stake (Ethereum), 3.19% APY, $45.06M TVL, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token; pendle (Ethereum), 7.55% APY, $218.4K TVL, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token; pendle (Ethereum), 5.57% APY, $218.4K TVL, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token; curve-dex (Ethereum), 2.31% APY, $1.25M TVL, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token; curve-dex (Ethereum), 0.03% APY, $2.15M TVL, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token; uniswap-v3 (Ethereum), 5.13% APY, $563.3K TVL, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [puffer-stake →](https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token) | Ethereum | 3.19% | $45.06M |
 | 2 | [pendle →](https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token) | Ethereum | 7.55% | $218.4K |
@@ -60,9 +60,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which PUFETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, PUFETH's lower-variability candidates are puffer-stake (Ethereum), 3.19% APY, $45.06M TVL, https://www.defi.garden/?pool=bac6982a-f344-42f7-9af4-a9882f4a77f0&src=seo_token; pendle (Ethereum), 7.55% APY, $218.4K TVL, https://www.defi.garden/?pool=bff45894-3c74-453b-b7ec-00837e09230b&src=seo_token; pendle (Ethereum), 5.57% APY, $218.4K TVL, https://www.defi.garden/?pool=af01c9fd-58d8-4ecc-b27f-99b7bf40af8a&src=seo_token; curve-dex (Ethereum), 2.31% APY, $1.25M TVL, https://www.defi.garden/?pool=00a7c200-ad4e-4bb1-9c81-57edefe71925&src=seo_token; curve-dex (Ethereum), 0.03% APY, $2.15M TVL, https://www.defi.garden/?pool=4b179a19-7b56-4b0d-a876-95f89dba3ef9&src=seo_token; uniswap-v3 (Ethereum), 5.13% APY, $563.3K TVL, https://www.defi.garden/?pool=f152a018-6cc6-4614-8b56-fe4548773cd4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

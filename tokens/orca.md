@@ -9,11 +9,11 @@ The highest honest ORCA yield right now is 0.01% on orca-dex (Solana), among 4 p
 | [orca-dex →](https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1&src=seo_token) | Solana | 27.73% | $124.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ORCA's lower-variability candidates are orca-dex (Solana), 0.01% APY, $296.4K TVL, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token; orca-dex (Solana), 27.73% APY, $124.7K TVL, https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1&src=seo_token; orca-dex (Solana), 10.50% APY, $541.9K TVL, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token) | Solana | 0.01% | $296.4K |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1&src=seo_token) | Solana | 27.73% | $124.7K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ORCA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ORCA's lower-variability candidates are orca-dex (Solana), 0.01% APY, $296.4K TVL, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token; orca-dex (Solana), 27.73% APY, $124.7K TVL, https://www.defi.garden/?pool=1e98f4e4-2579-4488-bfa1-f0a7c71eccd1&src=seo_token; orca-dex (Solana), 10.50% APY, $541.9K TVL, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

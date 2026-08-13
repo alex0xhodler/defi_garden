@@ -14,11 +14,11 @@ The highest honest SUSDAT yield right now is 38.77% on pendle (Monad), among 15 
 | [curve-dex →](https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token) | Ethereum | 332.89% | $117.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SUSDAT's lower-variability candidates are pendle (BSC), 13.55% APY, $2.41M TVL, https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token; pendle (Ethereum), 11.81% APY, $2.56M TVL, https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token; pendle (BSC), 7.12% APY, $2.41M TVL, https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token; pendle (Ethereum), 3.29% APY, $2.56M TVL, https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token; saturn (Ethereum), 18.81% APY, $80.13M TVL, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; curve-dex (Ethereum), 332.89% APY, $117.4K TVL, https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 13.55% | $2.41M |
 | 2 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 11.81% | $2.56M |
@@ -64,9 +64,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SUSDAT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SUSDAT's lower-variability candidates are pendle (BSC), 13.55% APY, $2.41M TVL, https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token; pendle (Ethereum), 11.81% APY, $2.56M TVL, https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token; pendle (BSC), 7.12% APY, $2.41M TVL, https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token; pendle (Ethereum), 3.29% APY, $2.56M TVL, https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token; saturn (Ethereum), 18.81% APY, $80.13M TVL, https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token; curve-dex (Ethereum), 332.89% APY, $117.4K TVL, https://www.defi.garden/?pool=a5ed9aac-3cec-4c88-b996-94b6cc76c2fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

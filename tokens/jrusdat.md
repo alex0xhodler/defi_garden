@@ -9,11 +9,11 @@ The highest honest JRUSDAT yield right now is 38.29% on strata-markets (Ethereum
 | [pendle →](https://www.defi.garden/?pool=afdfcd5c-ea42-475f-9839-07dd312250b4&src=seo_token) | Ethereum | 16.47% | $257.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, JRUSDAT's lower-variability candidates are pendle (Ethereum), 16.47% APY, $257.3K TVL, https://www.defi.garden/?pool=afdfcd5c-ea42-475f-9839-07dd312250b4&src=seo_token; pendle (Ethereum), 11.28% APY, $257.3K TVL, https://www.defi.garden/?pool=918df5fd-7a53-4c24-ae82-d8dd891cdbc8&src=seo_token; strata-markets (Ethereum), 38.29% APY, $1.6M TVL, https://www.defi.garden/?pool=1f42963b-ff24-4563-acb7-0fd35e6ec45b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=afdfcd5c-ea42-475f-9839-07dd312250b4&src=seo_token) | Ethereum | 16.47% | $257.3K |
 | 2 | [pendle →](https://www.defi.garden/?pool=918df5fd-7a53-4c24-ae82-d8dd891cdbc8&src=seo_token) | Ethereum | 11.28% | $257.3K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which JRUSDAT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, JRUSDAT's lower-variability candidates are pendle (Ethereum), 16.47% APY, $257.3K TVL, https://www.defi.garden/?pool=afdfcd5c-ea42-475f-9839-07dd312250b4&src=seo_token; pendle (Ethereum), 11.28% APY, $257.3K TVL, https://www.defi.garden/?pool=918df5fd-7a53-4c24-ae82-d8dd891cdbc8&src=seo_token; strata-markets (Ethereum), 38.29% APY, $1.6M TVL, https://www.defi.garden/?pool=1f42963b-ff24-4563-acb7-0fd35e6ec45b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

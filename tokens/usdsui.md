@@ -13,11 +13,11 @@ The highest honest USDSUI yield right now is 91.03% on bluefin-spot (Sui), among
 | [bluefin-spot →](https://www.defi.garden/?pool=1679d913-2179-4a11-aa55-b0727ec81060&src=seo_token) | Sui | 91.03% | $224K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDSUI's lower-variability candidates are navi-lending (Sui), 6.65% APY, $2.12M TVL, https://www.defi.garden/?pool=d03cebe7-e53a-49d5-977e-dcc8d473c1bc&src=seo_token; current (Sui), 6.87% APY, $2.99M TVL, https://www.defi.garden/?pool=1438fc47-2b15-47ac-8514-1ae7b7246cac&src=seo_token; bluefin-spot (Sui), 0.68% APY, $481.4K TVL, https://www.defi.garden/?pool=b37f5bba-1b21-4942-a017-5c831e59eec7&src=seo_token; cetus-clmm (Sui), 9.38% APY, $1.21M TVL, https://www.defi.garden/?pool=36591b70-7836-40eb-8ec4-b8162d9c0d7c&src=seo_token; bluefin-spot (Sui), 40.11% APY, $434.4K TVL, https://www.defi.garden/?pool=e3887972-24e6-45a9-8ef5-bcc22b6b5739&src=seo_token; cetus-clmm (Sui), 70.04% APY, $272.1K TVL, https://www.defi.garden/?pool=1e4c7c80-77c5-4b14-b42e-90498cb3be18&src=seo_token; bluefin-spot (Sui), 91.03% APY, $224K TVL, https://www.defi.garden/?pool=1679d913-2179-4a11-aa55-b0727ec81060&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [navi-lending →](https://www.defi.garden/?pool=d03cebe7-e53a-49d5-977e-dcc8d473c1bc&src=seo_token) | Sui | 6.65% | $2.12M |
 | 2 | [current →](https://www.defi.garden/?pool=1438fc47-2b15-47ac-8514-1ae7b7246cac&src=seo_token) | Sui | 6.87% | $2.99M |
@@ -65,9 +65,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDSUI pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDSUI's lower-variability candidates are navi-lending (Sui), 6.65% APY, $2.12M TVL, https://www.defi.garden/?pool=d03cebe7-e53a-49d5-977e-dcc8d473c1bc&src=seo_token; current (Sui), 6.87% APY, $2.99M TVL, https://www.defi.garden/?pool=1438fc47-2b15-47ac-8514-1ae7b7246cac&src=seo_token; bluefin-spot (Sui), 0.68% APY, $481.4K TVL, https://www.defi.garden/?pool=b37f5bba-1b21-4942-a017-5c831e59eec7&src=seo_token; cetus-clmm (Sui), 9.38% APY, $1.21M TVL, https://www.defi.garden/?pool=36591b70-7836-40eb-8ec4-b8162d9c0d7c&src=seo_token; bluefin-spot (Sui), 40.11% APY, $434.4K TVL, https://www.defi.garden/?pool=e3887972-24e6-45a9-8ef5-bcc22b6b5739&src=seo_token; cetus-clmm (Sui), 70.04% APY, $272.1K TVL, https://www.defi.garden/?pool=1e4c7c80-77c5-4b14-b42e-90498cb3be18&src=seo_token; bluefin-spot (Sui), 91.03% APY, $224K TVL, https://www.defi.garden/?pool=1679d913-2179-4a11-aa55-b0727ec81060&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

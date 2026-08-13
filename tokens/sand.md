@@ -9,11 +9,11 @@ The highest honest SAND yield right now is 64.74% on aerodrome-slipstream (Base)
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=6a0fa42d-494e-44d2-adfb-39b3a8eacb5f&src=seo_token) | Base | 64.74% | $100.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SAND's lower-variability candidates are quickswap-dex (Polygon), 3.05% APY, $161.6K TVL, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; uniswap-v2 (Ethereum), 1.50% APY, $292.1K TVL, https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token; aerodrome-slipstream (Base), 64.74% APY, $100.1K TVL, https://www.defi.garden/?pool=6a0fa42d-494e-44d2-adfb-39b3a8eacb5f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 3.05% | $161.6K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 1.50% | $292.1K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SAND pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SAND's lower-variability candidates are quickswap-dex (Polygon), 3.05% APY, $161.6K TVL, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; uniswap-v2 (Ethereum), 1.50% APY, $292.1K TVL, https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token; aerodrome-slipstream (Base), 64.74% APY, $100.1K TVL, https://www.defi.garden/?pool=6a0fa42d-494e-44d2-adfb-39b3a8eacb5f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

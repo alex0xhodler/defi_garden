@@ -8,11 +8,11 @@ The highest honest EDGE yield right now is 16.90% on aerodrome-v1 (Base), among 
 | [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 3.71% | $189.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EDGE's lower-variability candidates are uniswap-v3 (Ethereum), 3.71% APY, $189.6K TVL, https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token; aerodrome-v1 (Base), 16.90% APY, $419.7K TVL, https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token) | Ethereum | 3.71% | $189.6K |
 | 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token) | Base | 16.90% | $419.7K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EDGE pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EDGE's lower-variability candidates are uniswap-v3 (Ethereum), 3.71% APY, $189.6K TVL, https://www.defi.garden/?pool=af141e5f-a166-4553-ae5d-cd2e2d5a48cf&src=seo_token; aerodrome-v1 (Base), 16.90% APY, $419.7K TVL, https://www.defi.garden/?pool=2d426b54-fa16-466d-9e3b-677a6e99a756&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

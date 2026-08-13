@@ -12,11 +12,11 @@
 | [raydium-amm →](https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token) | Solana | 8.47% | $121.6K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 QQQX의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.06%, TVL $3.02M, https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token; Solana의 jupiter-lend, APY 2.02%, TVL $1.45M, https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token; Solana의 jupiter-lend, APY 2.02%, TVL $287.9K, https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token; Solana의 raydium-amm, APY 2.08%, TVL $2.67M, https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token; Solana의 raydium-amm, APY 2.72%, TVL $124.4K, https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token; Solana의 raydium-amm, APY 8.47%, TVL $121.6K, https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [kamino-lend →](https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token) | Solana | 0.06% | $3.02M |
 | 2 | [jupiter-lend →](https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token) | Solana | 2.02% | $1.45M |
@@ -62,9 +62,9 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 8.47%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### QQQX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 QQQX의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.06%, TVL $3.02M, https://www.defi.garden/?pool=c776be75-2fe5-4cd3-b7da-48f60542afdd&src=seo_token; Solana의 jupiter-lend, APY 2.02%, TVL $1.45M, https://www.defi.garden/?pool=00bae807-a7dc-4fb5-995d-b579f0eb1455&src=seo_token; Solana의 jupiter-lend, APY 2.02%, TVL $287.9K, https://www.defi.garden/?pool=3988eb46-4d83-4d26-9878-655a4a6b4e1a&src=seo_token; Solana의 raydium-amm, APY 2.08%, TVL $2.67M, https://www.defi.garden/?pool=318d20fb-417b-492f-aeb9-d0709b0d3d58&src=seo_token; Solana의 raydium-amm, APY 2.72%, TVL $124.4K, https://www.defi.garden/?pool=a7c454bf-d9f7-43e7-aa65-2440a8e8188d&src=seo_token; Solana의 raydium-amm, APY 8.47%, TVL $121.6K, https://www.defi.garden/?pool=0d7ffd2b-257e-4066-95be-35fb37bc748b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

@@ -8,11 +8,11 @@ The highest honest FIGHT yield right now is 1.84% on uniswap-v2 (Ethereum), amon
 | [raydium-amm →](https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token) | Solana | 0.62% | $139.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, FIGHT's lower-variability candidates are raydium-amm (Solana), 0.62% APY, $139.1K TVL, https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token; uniswap-v2 (Ethereum), 1.84% APY, $145.8K TVL, https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token) | Solana | 0.62% | $139.1K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token) | Ethereum | 1.84% | $145.8K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which FIGHT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, FIGHT's lower-variability candidates are raydium-amm (Solana), 0.62% APY, $139.1K TVL, https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token; uniswap-v2 (Ethereum), 1.84% APY, $145.8K TVL, https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -9,11 +9,11 @@ The highest honest XAUM yield right now is 10.32% on bluefin-spot (Sui), among 3
 | [raydium-amm →](https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token) | Solana | 0.11% | $395.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, XAUM's lower-variability candidates are raydium-amm (Solana), 0.11% APY, $395.9K TVL, https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token; navi-lending (Sui), 0.01% APY, $817.3K TVL, https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774&src=seo_token; bluefin-spot (Sui), 10.32% APY, $411.9K TVL, https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token) | Solana | 0.11% | $395.9K |
 | 2 | [navi-lending →](https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774&src=seo_token) | Sui | 0.01% | $817.3K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which XAUM pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, XAUM's lower-variability candidates are raydium-amm (Solana), 0.11% APY, $395.9K TVL, https://www.defi.garden/?pool=2d1af0cc-235d-4df7-9cca-24beef3c2804&src=seo_token; navi-lending (Sui), 0.01% APY, $817.3K TVL, https://www.defi.garden/?pool=92ed5037-1e23-404a-8985-93945fa91774&src=seo_token; bluefin-spot (Sui), 10.32% APY, $411.9K TVL, https://www.defi.garden/?pool=c03f4a14-b0f0-4b91-a184-ce82f28332b3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

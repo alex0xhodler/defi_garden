@@ -8,11 +8,11 @@ The highest honest GRASS yield right now is 1.19% on raydium-amm (Solana), among
 | [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $145.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 1.19% APY, $247.3K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token; orca-dex (Solana), 0.02% APY, $145.3K TVL, https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token) | Solana | 1.19% | $247.3K |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token) | Solana | 0.02% | $145.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GRASS pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GRASS's lower-variability candidates are raydium-amm (Solana), 1.19% APY, $247.3K TVL, https://www.defi.garden/?pool=acd2a7e0-55ee-46ee-a1b2-66298b60cb0e&src=seo_token; orca-dex (Solana), 0.02% APY, $145.3K TVL, https://www.defi.garden/?pool=4e006879-08a6-4522-81e5-c5c5c42f5a1b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

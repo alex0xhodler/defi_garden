@@ -9,11 +9,11 @@ The highest honest SENA yield right now is 14.52% on pendle (Ethereum), among 3 
 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.02% | $1.7M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $1.7M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; pendle (Ethereum), 14.52% APY, $2.45M TVL, https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token; pendle (Ethereum), 6.14% APY, $2.45M TVL, https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.02% | $1.7M |
 | 2 | [pendle →](https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token) | Ethereum | 14.52% | $2.45M |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SENA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $1.7M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; pendle (Ethereum), 14.52% APY, $2.45M TVL, https://www.defi.garden/?pool=b22e6842-0f1b-4b6e-b172-0bfadca52d65&src=seo_token; pendle (Ethereum), 6.14% APY, $2.45M TVL, https://www.defi.garden/?pool=9c827894-a718-440b-a0a7-e18284c6171c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

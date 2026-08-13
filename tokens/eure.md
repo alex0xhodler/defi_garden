@@ -9,11 +9,11 @@ The highest honest EURE yield right now is 2.65% on aave-v3 (Gnosis), among 3 po
 | [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 11.48% | $281.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EURE's lower-variability candidates are aave-v3 (Gnosis), 2.65% APY, $4.98M TVL, https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token; balancer-v3 (Arbitrum), 11.48% APY, $281.8K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token; curve-dex (Gnosis), 1.57% APY, $379K TVL, https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token) | Gnosis | 2.65% | $4.98M |
 | 2 | [balancer-v3 →](https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token) | Arbitrum | 11.48% | $281.8K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EURE pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EURE's lower-variability candidates are aave-v3 (Gnosis), 2.65% APY, $4.98M TVL, https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_token; balancer-v3 (Arbitrum), 11.48% APY, $281.8K TVL, https://www.defi.garden/?pool=c3f33e70-a3b9-4c5a-b5b7-2a79654c6403&src=seo_token; curve-dex (Gnosis), 1.57% APY, $379K TVL, https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

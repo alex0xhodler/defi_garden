@@ -14,11 +14,11 @@ The highest honest UBTC yield right now is 19.30% on nest-cl (Hyperliquid L1), a
 | [nest-cl →](https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token) | Hyperliquid L1 | 19.30% | $149.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, UBTC's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 0.16% APY, $8.21M TVL, https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token; project-x (Hyperliquid L1), 2.81% APY, $375.4K TVL, https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token; nest-cl (Hyperliquid L1), 19.30% APY, $149.2K TVL, https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token; project-x (Hyperliquid L1), 11.10% APY, $385K TVL, https://www.defi.garden/?pool=e6daa1c9-ec48-41e9-9196-1936e0e1ead7&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 13.61% APY, $333.9K TVL, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; nest-cl (Hyperliquid L1), 17.53% APY, $2.18M TVL, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; project-x (Hyperliquid L1), 5.98% APY, $4.72M TVL, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; hyperswap-v3 (Hyperliquid L1), 9.88% APY, $1.74M TVL, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hyperlend-pooled →](https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token) | Hyperliquid L1 | 0.16% | $8.21M |
 | 2 | [project-x →](https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token) | Hyperliquid L1 | 2.81% | $375.4K |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which UBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, UBTC's lower-variability candidates are hyperlend-pooled (Hyperliquid L1), 0.16% APY, $8.21M TVL, https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token; project-x (Hyperliquid L1), 2.81% APY, $375.4K TVL, https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token; nest-cl (Hyperliquid L1), 19.30% APY, $149.2K TVL, https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token; project-x (Hyperliquid L1), 11.10% APY, $385K TVL, https://www.defi.garden/?pool=e6daa1c9-ec48-41e9-9196-1936e0e1ead7&src=seo_token; ramses-cl-v2 (Hyperliquid L1), 13.61% APY, $333.9K TVL, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; nest-cl (Hyperliquid L1), 17.53% APY, $2.18M TVL, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; project-x (Hyperliquid L1), 5.98% APY, $4.72M TVL, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; hyperswap-v3 (Hyperliquid L1), 9.88% APY, $1.74M TVL, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

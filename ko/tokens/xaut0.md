@@ -12,11 +12,11 @@
 | [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 22.70% | $143.6K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 XAUT0의 변동성 낮은 후보는 TON의 affluent, APY 2.81%, TVL $227.5K, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token; Arbitrum의 uniswap-v4, APY 4.29%, TVL $285.5K, https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token; TON의 ston.fi, APY 0.49%, TVL $208.7K, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token; Solana의 raydium-amm, APY 5.57%, TVL $448.1K, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token; Arbitrum의 uniswap-v4, APY 22.70%, TVL $143.6K, https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token; Hyperliquid L1의 project-x, APY 4.78%, TVL $197.1K, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.81% | $227.5K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token) | Arbitrum | 4.29% | $285.5K |
@@ -62,9 +62,9 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 4.78
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### XAUT0 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 XAUT0의 변동성 낮은 후보는 TON의 affluent, APY 2.81%, TVL $227.5K, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token; Arbitrum의 uniswap-v4, APY 4.29%, TVL $285.5K, https://www.defi.garden/?pool=9c75059f-782b-4969-972e-081078ff2725&src=seo_token; TON의 ston.fi, APY 0.49%, TVL $208.7K, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token; Solana의 raydium-amm, APY 5.57%, TVL $448.1K, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token; Arbitrum의 uniswap-v4, APY 22.70%, TVL $143.6K, https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token; Hyperliquid L1의 project-x, APY 4.78%, TVL $197.1K, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

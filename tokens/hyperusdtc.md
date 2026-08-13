@@ -8,11 +8,11 @@ The highest honest HYPERUSDTC yield right now is 2.82% on morpho-blue (Ethereum)
 | [morpho-blue →](https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token) | Ethereum | 2.82% | $112.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, HYPERUSDTC's lower-variability candidates are morpho-blue (Ethereum), 2.82% APY, $112.5K TVL, https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token; morpho-blue (Stable), 0.32% APY, $186.1K TVL, https://www.defi.garden/?pool=cc22fb55-9b8f-4d47-afe3-88cbd21c38f2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token) | Ethereum | 2.82% | $112.5K |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=cc22fb55-9b8f-4d47-afe3-88cbd21c38f2&src=seo_token) | Stable | 0.32% | $186.1K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which HYPERUSDTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, HYPERUSDTC's lower-variability candidates are morpho-blue (Ethereum), 2.82% APY, $112.5K TVL, https://www.defi.garden/?pool=b8fbfc46-60cd-4a53-ac4d-dbbe190ec231&src=seo_token; morpho-blue (Stable), 0.32% APY, $186.1K TVL, https://www.defi.garden/?pool=cc22fb55-9b8f-4d47-afe3-88cbd21c38f2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -14,11 +14,11 @@
 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4&src=seo_token) | Flare | 1.50% | $513.6K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 FXRP의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 2.50%, TVL $3.82M, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token; Flare의 spectra-metavaults, APY 4.09%, TVL $2.75M, https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233&src=seo_token; Flare의 gami-labs, APY 4.09%, TVL $2.75M, https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6&src=seo_token; Flare의 kinetic, APY 1.05%, TVL $20.47M, https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_token; Flare의 sparkdex-v4, APY 10.63%, TVL $794.5K, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; Flare의 sparkdex-v4, APY 16.96%, TVL $1.92M, https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832&src=seo_token; Flare의 sparkdex-v3.1, APY 1.50%, TVL $513.6K, https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 2.50% | $3.82M |
 | 2 | [spectra-metavaults →](https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233&src=seo_token) | Flare | 4.09% | $2.75M |
@@ -67,9 +67,9 @@ DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 16.96%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### FXRP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 FXRP의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 2.50%, TVL $3.82M, https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token; Flare의 spectra-metavaults, APY 4.09%, TVL $2.75M, https://www.defi.garden/?pool=af2be81f-fa29-4562-ab9f-f103748f2233&src=seo_token; Flare의 gami-labs, APY 4.09%, TVL $2.75M, https://www.defi.garden/?pool=5679232d-a8e5-407f-a3e4-82959e6024a6&src=seo_token; Flare의 kinetic, APY 1.05%, TVL $20.47M, https://www.defi.garden/?pool=28c0f086-2e1a-40f0-a5f5-763d706c0806&src=seo_token; Flare의 sparkdex-v4, APY 10.63%, TVL $794.5K, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; Flare의 sparkdex-v4, APY 16.96%, TVL $1.92M, https://www.defi.garden/?pool=edf74623-c808-4dae-91a2-dd3573884832&src=seo_token; Flare의 sparkdex-v3.1, APY 1.50%, TVL $513.6K, https://www.defi.garden/?pool=552f9391-52f8-458a-abf6-1070a28562a4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

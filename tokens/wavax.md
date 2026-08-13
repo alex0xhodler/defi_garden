@@ -14,11 +14,11 @@ The highest honest WAVAX yield right now is 37.32% on joe-v2.2 (Avalanche), amon
 | [joe-v2.2 →](https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token) | Avalanche | 37.32% | $558.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, WAVAX's lower-variability candidates are aave-v3 (Avalanche), 0.72% APY, $75.15M TVL, https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token; uniswap-v3 (Avalanche), 9.08% APY, $686.5K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; pharaoh-v3 (Avalanche), 17.44% APY, $4.09M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; pharaoh-v3 (Avalanche), 19.15% APY, $1.73M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; uniswap-v3 (Avalanche), 6.23% APY, $3.4M TVL, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token; joe-v2.2 (Avalanche), 37.32% APY, $558.6K TVL, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token; pharaoh-v3 (Avalanche), 223.41% APY, $1.6M TVL, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token) | Avalanche | 0.72% | $75.15M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token) | Avalanche | 9.08% | $686.5K |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which WAVAX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, WAVAX's lower-variability candidates are aave-v3 (Avalanche), 0.72% APY, $75.15M TVL, https://www.defi.garden/?pool=a1e18d7d-9a5f-4251-acb4-a87e005fe2c5&src=seo_token; uniswap-v3 (Avalanche), 9.08% APY, $686.5K TVL, https://www.defi.garden/?pool=cf2fed69-253b-4a63-b3a4-c5011805b04a&src=seo_token; pharaoh-v3 (Avalanche), 17.44% APY, $4.09M TVL, https://www.defi.garden/?pool=1a72e920-0b77-4d75-8e90-d26aa872f0cc&src=seo_token; pharaoh-v3 (Avalanche), 19.15% APY, $1.73M TVL, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; uniswap-v3 (Avalanche), 6.23% APY, $3.4M TVL, https://www.defi.garden/?pool=7ae7a327-9d57-4dbc-afd6-b8b2f4918d68&src=seo_token; joe-v2.2 (Avalanche), 37.32% APY, $558.6K TVL, https://www.defi.garden/?pool=e8e45a86-cd5f-4d8e-9614-0dbd178da741&src=seo_token; pharaoh-v3 (Avalanche), 223.41% APY, $1.6M TVL, https://www.defi.garden/?pool=6c627c56-d108-482a-976b-48050d688af0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

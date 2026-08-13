@@ -9,11 +9,11 @@ The highest honest SPC yield right now is 86.44% on sushiswap-v3 (Ethereum), amo
 | [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 69.77% | $144.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SPC's lower-variability candidates are sushiswap-v3 (Ethereum), 86.44% APY, $189.4K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 69.77% APY, $144.8K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token) | Ethereum | 86.44% | $189.4K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token) | Ethereum | 69.77% | $144.8K |
@@ -52,9 +52,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SPC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SPC's lower-variability candidates are sushiswap-v3 (Ethereum), 86.44% APY, $189.4K TVL, https://www.defi.garden/?pool=f1b63e59-085d-47aa-a513-5be63973609c&src=seo_token; curve-dex (Ethereum), 69.77% APY, $144.8K TVL, https://www.defi.garden/?pool=f13e0a93-16eb-44ef-b329-bc87aa2e60aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

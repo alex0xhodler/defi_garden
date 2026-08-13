@@ -9,11 +9,11 @@ The highest honest ALNOOR yield right now is 0.53% on raydium-amm (Solana), amon
 | [raydium-amm →](https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token) | Solana | 0.53% | $213.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ALNOOR's lower-variability candidates are raydium-amm (Solana), 0.41% APY, $679.3K TVL, https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token; raydium-amm (Solana), 0.53% APY, $213.1K TVL, https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token) | Solana | 0.41% | $679.3K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token) | Solana | 0.53% | $213.1K |
@@ -52,9 +52,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ALNOOR pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ALNOOR's lower-variability candidates are raydium-amm (Solana), 0.41% APY, $679.3K TVL, https://www.defi.garden/?pool=25f64d5d-1b9c-4305-b166-10d9c2a01c4e&src=seo_token; raydium-amm (Solana), 0.53% APY, $213.1K TVL, https://www.defi.garden/?pool=23192a08-98c7-411d-9c2a-f387259b436b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

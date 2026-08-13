@@ -13,11 +13,11 @@ The highest honest EVAUSDT yield right now is 11.43% on convex-finance (Ethereum
 | [stake-dao →](https://www.defi.garden/?pool=e4758bf0-9659-443a-a168-7f5abca5c751&src=seo_token) | Ethereum | 8.37% | $253.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EVAUSDT's lower-variability candidates are curve-dex (Ethereum), 6.17% APY, $3.41M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; stake-dao (Ethereum), 8.37% APY, $253.9K TVL, https://www.defi.garden/?pool=e4758bf0-9659-443a-a168-7f5abca5c751&src=seo_token; stake-dao (Ethereum), 9.28% APY, $3.25M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; shadow-exchange-legacy (Sonic), 8.53% APY, $1.15M TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; convex-finance (Ethereum), 9.88% APY, $1.99M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token; curve-dex (Ethereum), 3.97% APY, $455K TVL, https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token; convex-finance (Ethereum), 11.43% APY, $363.8K TVL, https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 6.17% | $3.41M |
 | 2 | [stake-dao →](https://www.defi.garden/?pool=e4758bf0-9659-443a-a168-7f5abca5c751&src=seo_token) | Ethereum | 8.37% | $253.9K |
@@ -63,9 +63,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EVAUSDT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EVAUSDT's lower-variability candidates are curve-dex (Ethereum), 6.17% APY, $3.41M TVL, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; stake-dao (Ethereum), 8.37% APY, $253.9K TVL, https://www.defi.garden/?pool=e4758bf0-9659-443a-a168-7f5abca5c751&src=seo_token; stake-dao (Ethereum), 9.28% APY, $3.25M TVL, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; shadow-exchange-legacy (Sonic), 8.53% APY, $1.15M TVL, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; convex-finance (Ethereum), 9.88% APY, $1.99M TVL, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token; curve-dex (Ethereum), 3.97% APY, $455K TVL, https://www.defi.garden/?pool=244ca619-1f47-400f-bfef-a0c6bc8ca62e&src=seo_token; convex-finance (Ethereum), 11.43% APY, $363.8K TVL, https://www.defi.garden/?pool=f313b141-661b-4ae4-a120-f93723ec3dcc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

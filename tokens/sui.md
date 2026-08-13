@@ -14,11 +14,11 @@ The highest honest SUI yield right now is 46.83% on bluefin-spot (Sui), among 23
 | [cetus-clmm →](https://www.defi.garden/?pool=7f0299d7-e03a-4914-933c-abc994c17086&src=seo_token) | Sui | 44.65% | $636.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SUI's lower-variability candidates are ember-protocol (Sui), 5.15% APY, $4.7M TVL, https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e&src=seo_token; cetus-clmm (Sui), 0.02% APY, $2.27M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; scallop-lend (Sui), 1.54% APY, $2.09M TVL, https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c&src=seo_token; navi-lending (Sui), 2.03% APY, $3.79M TVL, https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2&src=seo_token; cetus-clmm (Sui), 44.65% APY, $636.5K TVL, https://www.defi.garden/?pool=7f0299d7-e03a-4914-933c-abc994c17086&src=seo_token; cetus-clmm (Sui), 26.12% APY, $935K TVL, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; cetus-clmm (Sui), 27.87% APY, $3.89M TVL, https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2&src=seo_token; bluefin-spot (Sui), 46.83% APY, $2.07M TVL, https://www.defi.garden/?pool=8fe85437-7c62-4292-8f68-b87294d792ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [ember-protocol →](https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e&src=seo_token) | Sui | 5.15% | $4.7M |
 | 2 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.02% | $2.27M |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SUI pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SUI's lower-variability candidates are ember-protocol (Sui), 5.15% APY, $4.7M TVL, https://www.defi.garden/?pool=7434e429-9a41-4060-8a48-f0338dd3c23e&src=seo_token; cetus-clmm (Sui), 0.02% APY, $2.27M TVL, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; scallop-lend (Sui), 1.54% APY, $2.09M TVL, https://www.defi.garden/?pool=f77d3465-d067-43ff-a325-3450716aed9c&src=seo_token; navi-lending (Sui), 2.03% APY, $3.79M TVL, https://www.defi.garden/?pool=f8ffbfd7-7448-45f4-9cc4-f8c1185489a2&src=seo_token; cetus-clmm (Sui), 44.65% APY, $636.5K TVL, https://www.defi.garden/?pool=7f0299d7-e03a-4914-933c-abc994c17086&src=seo_token; cetus-clmm (Sui), 26.12% APY, $935K TVL, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; cetus-clmm (Sui), 27.87% APY, $3.89M TVL, https://www.defi.garden/?pool=1249e3d1-af05-4308-a9d8-75127ec2e4c2&src=seo_token; bluefin-spot (Sui), 46.83% APY, $2.07M TVL, https://www.defi.garden/?pool=8fe85437-7c62-4292-8f68-b87294d792ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

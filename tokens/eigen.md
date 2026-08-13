@@ -9,11 +9,11 @@ The highest honest EIGEN yield right now is 2.18% on uniswap-v3 (Ethereum), amon
 | [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 2.18% | $126.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EIGEN's lower-variability candidates are curve-dex (Ethereum), 0.48% APY, $196.2K TVL, https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token; uniswap-v3 (Ethereum), 2.18% APY, $126.6K TVL, https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token; uniswap-v3 (Ethereum), 0.80% APY, $1.05M TVL, https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.48% | $196.2K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 2.18% | $126.6K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EIGEN pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EIGEN's lower-variability candidates are curve-dex (Ethereum), 0.48% APY, $196.2K TVL, https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token; uniswap-v3 (Ethereum), 2.18% APY, $126.6K TVL, https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token; uniswap-v3 (Ethereum), 0.80% APY, $1.05M TVL, https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

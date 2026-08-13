@@ -10,11 +10,11 @@
 | [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 1.10% | $319.7K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 MUSD의 변동성 낮은 후보는 Monad의 aave-v3, APY 5.99%, TVL $1.71M, https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token; Ethereum의 convex-finance, APY 1.10%, TVL $319.7K, https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token; Ethereum의 curve-dex, APY 0.73%, TVL $851.7K, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token; Base의 aerodrome-slipstream, APY 0.79%, TVL $916.8K, https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token) | Monad | 5.99% | $1.71M |
 | 2 | [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 1.10% | $319.7K |
@@ -56,9 +56,9 @@ DefiLlama 실시간 데이터 기준, Monad의 aave-v3에서 APY 5.99%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### MUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 MUSD의 변동성 낮은 후보는 Monad의 aave-v3, APY 5.99%, TVL $1.71M, https://www.defi.garden/?pool=b5ca474e-8117-55d5-982b-78421f845abf&src=seo_token; Ethereum의 convex-finance, APY 1.10%, TVL $319.7K, https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token; Ethereum의 curve-dex, APY 0.73%, TVL $851.7K, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token; Base의 aerodrome-slipstream, APY 0.79%, TVL $916.8K, https://www.defi.garden/?pool=ccf4821e-9aec-4aaa-aeaa-7914af0ed6c1&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

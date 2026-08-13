@@ -14,11 +14,11 @@ The highest honest VVV yield right now is 24.48% on aerodrome-v1 (Base), among 1
 | [uniswap-v3 →](https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token) | Base | 145.97% | $414.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, VVV's lower-variability candidates are moonwell-lending (Base), 0.27% APY, $772.5K TVL, https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token; extra-finance-leverage-farming (Base), 11.88% APY, $554.4K TVL, https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token; aerodrome-v1 (Base), 24.48% APY, $9.27M TVL, https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500&src=seo_token; aerodrome-v1 (Base), 3.79% APY, $5.31M TVL, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; aerodrome-slipstream (Base), 18.48% APY, $4.07M TVL, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; aerodrome-slipstream (Base), 2.93% APY, $2.14M TVL, https://www.defi.garden/?pool=ebbea9be-5a51-4e12-a113-d8524b3fc2dd&src=seo_token; aerodrome-slipstream (Base), 260.18% APY, $798.8K TVL, https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618&src=seo_token; uniswap-v3 (Base), 145.97% APY, $414.8K TVL, https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [moonwell-lending →](https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token) | Base | 0.27% | $772.5K |
 | 2 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token) | Base | 11.88% | $554.4K |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which VVV pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, VVV's lower-variability candidates are moonwell-lending (Base), 0.27% APY, $772.5K TVL, https://www.defi.garden/?pool=24a93dec-13fc-434f-afb7-0987cb304257&src=seo_token; extra-finance-leverage-farming (Base), 11.88% APY, $554.4K TVL, https://www.defi.garden/?pool=84884749-d26f-4105-8ea9-2a0ca92a69a5&src=seo_token; aerodrome-v1 (Base), 24.48% APY, $9.27M TVL, https://www.defi.garden/?pool=a703f8c8-d94c-4bce-8c8b-a1ec8556f500&src=seo_token; aerodrome-v1 (Base), 3.79% APY, $5.31M TVL, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; aerodrome-slipstream (Base), 18.48% APY, $4.07M TVL, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; aerodrome-slipstream (Base), 2.93% APY, $2.14M TVL, https://www.defi.garden/?pool=ebbea9be-5a51-4e12-a113-d8524b3fc2dd&src=seo_token; aerodrome-slipstream (Base), 260.18% APY, $798.8K TVL, https://www.defi.garden/?pool=7185982b-0632-4e70-89ca-441c2f0b2618&src=seo_token; uniswap-v3 (Base), 145.97% APY, $414.8K TVL, https://www.defi.garden/?pool=c7d461f8-4ad8-42d8-a6b8-378fd8045660&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

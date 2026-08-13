@@ -9,11 +9,11 @@ The highest honest RSR yield right now is 2.39% on curve-dex (Ethereum), among 4
 | [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 5.49% | $114.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, RSR's lower-variability candidates are curve-dex (Ethereum), 2.39% APY, $1.12M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; uniswap-v3 (Ethereum), 5.49% APY, $114.7K TVL, https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token; steer-protocol (Ethereum), 6.20% APY, $134.4K TVL, https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 2.39% | $1.12M |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 5.49% | $114.7K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which RSR pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, RSR's lower-variability candidates are curve-dex (Ethereum), 2.39% APY, $1.12M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; uniswap-v3 (Ethereum), 5.49% APY, $114.7K TVL, https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token; steer-protocol (Ethereum), 6.20% APY, $134.4K TVL, https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -8,11 +8,11 @@ The highest honest SMUSD yield right now is 1.90% on mezo-vaults (Mezo), among 2
 | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_token) | Mezo | 0.33% | $2.08M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SMUSD's lower-variability candidates are mezo-vaults (Mezo), 0.33% APY, $2.08M TVL, https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_token; mezo-vaults (Mezo), 1.90% APY, $5.49M TVL, https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_token) | Mezo | 0.33% | $2.08M |
 | 2 | [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_token) | Mezo | 1.90% | $5.49M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SMUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SMUSD's lower-variability candidates are mezo-vaults (Mezo), 0.33% APY, $2.08M TVL, https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_token; mezo-vaults (Mezo), 1.90% APY, $5.49M TVL, https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

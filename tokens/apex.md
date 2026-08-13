@@ -8,11 +8,11 @@ The highest honest APEX yield right now is 1.25% on uniswap-v3 (Ethereum), among
 | [camelot-v3 →](https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token) | Arbitrum | 1.40% | $147K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, APEX's lower-variability candidates are uniswap-v3 (Ethereum), 1.25% APY, $885.5K TVL, https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token; camelot-v3 (Arbitrum), 1.40% APY, $147K TVL, https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token) | Ethereum | 1.25% | $885.5K |
 | 2 | [camelot-v3 →](https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token) | Arbitrum | 1.40% | $147K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which APEX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, APEX's lower-variability candidates are uniswap-v3 (Ethereum), 1.25% APY, $885.5K TVL, https://www.defi.garden/?pool=cbadd822-d513-49f7-ad6f-249a587f1a74&src=seo_token; camelot-v3 (Arbitrum), 1.40% APY, $147K TVL, https://www.defi.garden/?pool=bd655034-56b8-4b66-a8a1-7b0732bc5dba&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

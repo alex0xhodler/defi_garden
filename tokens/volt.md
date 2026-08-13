@@ -8,11 +8,11 @@ The highest honest VOLT yield right now is 0.70% on uniswap-v2 (Ethereum), among
 | [uniswap-v2 →](https://www.defi.garden/?pool=71c481f9-12b0-4430-ad0f-04ebbac1321a&src=seo_token) | Ethereum | 0.01% | $320.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, VOLT's lower-variability candidates are uniswap-v2 (Ethereum), 0.70% APY, $755K TVL, https://www.defi.garden/?pool=aec7794c-a8d6-4111-b5ff-3b4c90fc60b6&src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $320.6K TVL, https://www.defi.garden/?pool=71c481f9-12b0-4430-ad0f-04ebbac1321a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=aec7794c-a8d6-4111-b5ff-3b4c90fc60b6&src=seo_token) | Ethereum | 0.70% | $755K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=71c481f9-12b0-4430-ad0f-04ebbac1321a&src=seo_token) | Ethereum | 0.01% | $320.6K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which VOLT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, VOLT's lower-variability candidates are uniswap-v2 (Ethereum), 0.70% APY, $755K TVL, https://www.defi.garden/?pool=aec7794c-a8d6-4111-b5ff-3b4c90fc60b6&src=seo_token; uniswap-v2 (Ethereum), 0.01% APY, $320.6K TVL, https://www.defi.garden/?pool=71c481f9-12b0-4430-ad0f-04ebbac1321a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

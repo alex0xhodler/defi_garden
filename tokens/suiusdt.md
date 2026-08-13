@@ -9,11 +9,11 @@ The highest honest SUIUSDT yield right now is 8.56% on cetus-clmm (Sui), among 3
 | [cetus-clmm →](https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token) | Sui | 8.56% | $245.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SUIUSDT's lower-variability candidates are bluefin-spot (Sui), 8.38% APY, $413.2K TVL, https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token; navi-lending (Sui), 6.47% APY, $493.7K TVL, https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token; cetus-clmm (Sui), 8.56% APY, $245.4K TVL, https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [bluefin-spot →](https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token) | Sui | 8.38% | $413.2K |
 | 2 | [navi-lending →](https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token) | Sui | 6.47% | $493.7K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SUIUSDT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SUIUSDT's lower-variability candidates are bluefin-spot (Sui), 8.38% APY, $413.2K TVL, https://www.defi.garden/?pool=758db5ab-2c6c-4fd0-95e6-a61365f5d80c&src=seo_token; navi-lending (Sui), 6.47% APY, $493.7K TVL, https://www.defi.garden/?pool=857af8fd-c907-4b9a-a74b-83b446996246&src=seo_token; cetus-clmm (Sui), 8.56% APY, $245.4K TVL, https://www.defi.garden/?pool=8b8c020c-9472-4085-9762-bdda1ab72ba0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

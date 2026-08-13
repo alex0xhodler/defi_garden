@@ -9,11 +9,11 @@ The highest honest USDD yield right now is 4.02% on justlend-v1 (Tron), among 4 
 | [raydium-amm →](https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token) | Solana | 0.11% | $350.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDD's lower-variability candidates are raydium-amm (Solana), 0.01% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; raydium-amm (Solana), 0.11% APY, $350.1K TVL, https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token; justlend-v1 (Tron), 4.02% APY, $418.89M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.01% | $500.1K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token) | Solana | 0.11% | $350.1K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDD's lower-variability candidates are raydium-amm (Solana), 0.01% APY, $500.1K TVL, https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token; raydium-amm (Solana), 0.11% APY, $350.1K TVL, https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token; justlend-v1 (Tron), 4.02% APY, $418.89M TVL, https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

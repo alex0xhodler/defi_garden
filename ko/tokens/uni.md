@@ -14,11 +14,11 @@
 | [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $1.21M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 UNI의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 0.02%, TVL $1.21M, https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token; Ethereum의 uniswap-v2, APY 5.83%, TVL $2.23M, https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token; Ethereum의 uniswap-v4, APY 14.47%, TVL $2.15M, https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token; Ethereum의 uniswap-v3, APY 5.75%, TVL $13.89M, https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token; Ethereum의 uniswap-v4, APY 12.62%, TVL $2.28M, https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token; Ethereum의 uniswap-v3, APY 0.03%, TVL $1.96M, https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token; Ethereum의 uniswap-v3, APY 26.40%, TVL $2.22M, https://www.defi.garden/?pool=eec57259-b836-4431-83cc-1306bc897a71&src=seo_token; Ethereum의 uniswap-v4, APY 23.91%, TVL $1.66M, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [dolomite →](https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token) | Arbitrum | 0.02% | $1.21M |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token) | Ethereum | 5.83% | $2.23M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 26.40%예
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### UNI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 UNI의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 0.02%, TVL $1.21M, https://www.defi.garden/?pool=1f6280d9-fdca-4c6b-b657-88f85316f982&src=seo_token; Ethereum의 uniswap-v2, APY 5.83%, TVL $2.23M, https://www.defi.garden/?pool=8d590f2f-98b3-42c6-aa6e-47460f2097a8&src=seo_token; Ethereum의 uniswap-v4, APY 14.47%, TVL $2.15M, https://www.defi.garden/?pool=d375185a-a911-460d-ad17-0362508660bf&src=seo_token; Ethereum의 uniswap-v3, APY 5.75%, TVL $13.89M, https://www.defi.garden/?pool=a9ee1b5f-558b-4e1d-a467-16345e64bc25&src=seo_token; Ethereum의 uniswap-v4, APY 12.62%, TVL $2.28M, https://www.defi.garden/?pool=7344d0ac-fcec-4886-827e-5b98716735d1&src=seo_token; Ethereum의 uniswap-v3, APY 0.03%, TVL $1.96M, https://www.defi.garden/?pool=e6922191-75b3-4b30-8258-1a8e09bbe739&src=seo_token; Ethereum의 uniswap-v3, APY 26.40%, TVL $2.22M, https://www.defi.garden/?pool=eec57259-b836-4431-83cc-1306bc897a71&src=seo_token; Ethereum의 uniswap-v4, APY 23.91%, TVL $1.66M, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

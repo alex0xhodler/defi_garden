@@ -9,11 +9,11 @@ The highest honest AAVEGHO yield right now is 3.28% on balancer-v3 (Base), among
 | [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 3.12% | $106.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, AAVEGHO's lower-variability candidates are balancer-v3 (Ethereum), 3.12% APY, $106.2K TVL, https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token; balancer-v3 (Arbitrum), 2.64% APY, $230.7K TVL, https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token; balancer-v3 (Base), 3.28% APY, $342.3K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [balancer-v3 →](https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token) | Ethereum | 3.12% | $106.2K |
 | 2 | [balancer-v3 →](https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token) | Arbitrum | 2.64% | $230.7K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which AAVEGHO pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, AAVEGHO's lower-variability candidates are balancer-v3 (Ethereum), 3.12% APY, $106.2K TVL, https://www.defi.garden/?pool=4b7374ee-02b8-4082-be38-f1de25d398b0&src=seo_token; balancer-v3 (Arbitrum), 2.64% APY, $230.7K TVL, https://www.defi.garden/?pool=841020d1-45aa-4203-b42e-379a053f3a8a&src=seo_token; balancer-v3 (Base), 3.28% APY, $342.3K TVL, https://www.defi.garden/?pool=96a2dc74-8cb5-43a8-9a86-75612cf7f904&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

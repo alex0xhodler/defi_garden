@@ -8,11 +8,11 @@ The highest honest SAMMV2 yield right now is 12.01% on yearn-finance (OP Mainnet
 | [yearn-finance →](https://www.defi.garden/?pool=1da6add5-c4ae-4fe0-af7c-1144ca38db56&src=seo_token) | OP Mainnet | 12.01% | $173.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SAMMV2's lower-variability candidates are yearn-finance (OP Mainnet), 7.11% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; yearn-finance (OP Mainnet), 12.01% APY, $173.3K TVL, https://www.defi.garden/?pool=1da6add5-c4ae-4fe0-af7c-1144ca38db56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [yearn-finance →](https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token) | OP Mainnet | 7.11% | $1.06M |
 | 2 | [yearn-finance →](https://www.defi.garden/?pool=1da6add5-c4ae-4fe0-af7c-1144ca38db56&src=seo_token) | OP Mainnet | 12.01% | $173.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SAMMV2 pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SAMMV2's lower-variability candidates are yearn-finance (OP Mainnet), 7.11% APY, $1.06M TVL, https://www.defi.garden/?pool=2a6bb29a-5dbb-4bbc-b31a-0737453b1ee9&src=seo_token; yearn-finance (OP Mainnet), 12.01% APY, $173.3K TVL, https://www.defi.garden/?pool=1da6add5-c4ae-4fe0-af7c-1144ca38db56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

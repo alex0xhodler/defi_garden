@@ -10,11 +10,11 @@ The highest honest GTUSDCC yield right now is 6.73% on morpho-blue (Arbitrum), a
 | [morpho-blue →](https://www.defi.garden/?pool=f0e34228-dbb2-571d-bb69-a8cfee835cbc&src=seo_token) | Hyperliquid L1 | 5.11% | $166.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GTUSDCC's lower-variability candidates are morpho-blue (Base), 3.75% APY, $1.89M TVL, https://www.defi.garden/?pool=65653183-7d69-408f-a76c-9dd2914f306f&src=seo_token; morpho-blue (Arbitrum), 6.73% APY, $1.2M TVL, https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token; morpho-blue (Hyperliquid L1), 5.11% APY, $166.7K TVL, https://www.defi.garden/?pool=f0e34228-dbb2-571d-bb69-a8cfee835cbc&src=seo_token; morpho-blue (Hyperliquid L1), 6.69% APY, $2.78M TVL, https://www.defi.garden/?pool=fa3d7f72-7a2e-4275-863a-228cb247a096&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=65653183-7d69-408f-a76c-9dd2914f306f&src=seo_token) | Base | 3.75% | $1.89M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token) | Arbitrum | 6.73% | $1.2M |
@@ -54,9 +54,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GTUSDCC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GTUSDCC's lower-variability candidates are morpho-blue (Base), 3.75% APY, $1.89M TVL, https://www.defi.garden/?pool=65653183-7d69-408f-a76c-9dd2914f306f&src=seo_token; morpho-blue (Arbitrum), 6.73% APY, $1.2M TVL, https://www.defi.garden/?pool=aebb9f47-d15b-4671-8fe3-debb6e913ae2&src=seo_token; morpho-blue (Hyperliquid L1), 5.11% APY, $166.7K TVL, https://www.defi.garden/?pool=f0e34228-dbb2-571d-bb69-a8cfee835cbc&src=seo_token; morpho-blue (Hyperliquid L1), 6.69% APY, $2.78M TVL, https://www.defi.garden/?pool=fa3d7f72-7a2e-4275-863a-228cb247a096&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

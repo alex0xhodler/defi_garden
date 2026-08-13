@@ -8,11 +8,11 @@ The highest honest BNKR yield right now is 351.70% on aerodrome-slipstream (Base
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 351.70% | $113.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BNKR's lower-variability candidates are uniswap-v3 (Base), 96.91% APY, $1.53M TVL, https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token; aerodrome-slipstream (Base), 351.70% APY, $113.2K TVL, https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 96.91% | $1.53M |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 351.70% | $113.2K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BNKR pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BNKR's lower-variability candidates are uniswap-v3 (Base), 96.91% APY, $1.53M TVL, https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token; aerodrome-slipstream (Base), 351.70% APY, $113.2K TVL, https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

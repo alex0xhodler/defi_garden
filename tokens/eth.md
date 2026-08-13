@@ -14,11 +14,11 @@ The highest honest ETH yield right now is 2.28% on stakewise-v3 (Ethereum), amon
 | [gmx-v2-perps →](https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_token) | Arbitrum | 3.96% | $40.1M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ETH's lower-variability candidates are spark-savings (Ethereum), 1.65% APY, $64.5M TVL, https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea&src=seo_token; fluid-dex (Ethereum), 0.67% APY, $66.02M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token; convex-finance (Ethereum), 1.20% APY, $41.21M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token; fluid-lending (Ethereum), 1.72% APY, $54.6M TVL, https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df&src=seo_token; fluid-lending (Ethereum), 1.72% APY, $80.89M TVL, https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869&src=seo_token; gmx-v2-perps (Arbitrum), 3.96% APY, $40.1M TVL, https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_token; curve-dex (Ethereum), 1.20% APY, $76.64M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [spark-savings →](https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea&src=seo_token) | Ethereum | 1.65% | $64.5M |
 | 2 | [fluid-dex →](https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token) | Ethereum | 0.67% | $66.02M |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ETH's lower-variability candidates are spark-savings (Ethereum), 1.65% APY, $64.5M TVL, https://www.defi.garden/?pool=bace601a-530a-432c-9b79-8c6451de25ea&src=seo_token; fluid-dex (Ethereum), 0.67% APY, $66.02M TVL, https://www.defi.garden/?pool=4f715567-420c-400d-9a62-0059331e3940&src=seo_token; convex-finance (Ethereum), 1.20% APY, $41.21M TVL, https://www.defi.garden/?pool=5ce23e7e-3800-4c9c-ad30-6db3db0515a1&src=seo_token; fluid-lending (Ethereum), 1.72% APY, $54.6M TVL, https://www.defi.garden/?pool=1262521f-3ba5-47d7-b035-ace072a0d0df&src=seo_token; fluid-lending (Ethereum), 1.72% APY, $80.89M TVL, https://www.defi.garden/?pool=cbb9fc26-2b9e-436a-95d0-c75e2c0f5869&src=seo_token; gmx-v2-perps (Arbitrum), 3.96% APY, $40.1M TVL, https://www.defi.garden/?pool=61b4c35c-97f6-4c05-a5ff-aeb4426adf5b&src=seo_token; curve-dex (Ethereum), 1.20% APY, $76.64M TVL, https://www.defi.garden/?pool=57d30b9c-fc66-4ac2-b666-69ad5f410cce&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

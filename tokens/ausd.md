@@ -14,11 +14,11 @@ The highest honest AUSD yield right now is 8.15% on accountable (Monad), among 3
 | [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.35% | $3.88M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, AUSD's lower-variability candidates are curvance (Monad), 0.20% APY, $22.83M TVL, https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token; curve-dex (Ethereum), 0.01% APY, $25M TVL, https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token; uniswap-v4 (Monad), 0.35% APY, $3.88M TVL, https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token; uniswap-v3 (Ethereum), 0.68% APY, $29.07M TVL, https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token; accountable (Monad), 6.82% APY, $110.04M TVL, https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token; centrifuge-protocol (Ethereum), 5.33% APY, $383.51M TVL, https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token; euler-v2 (Monad), 7.33% APY, $41.55M TVL, https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $22.83M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token) | Ethereum | 0.01% | $25M |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which AUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, AUSD's lower-variability candidates are curvance (Monad), 0.20% APY, $22.83M TVL, https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token; curve-dex (Ethereum), 0.01% APY, $25M TVL, https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token; uniswap-v4 (Monad), 0.35% APY, $3.88M TVL, https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token; uniswap-v3 (Ethereum), 0.68% APY, $29.07M TVL, https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token; accountable (Monad), 6.82% APY, $110.04M TVL, https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token; centrifuge-protocol (Ethereum), 5.33% APY, $383.51M TVL, https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token; euler-v2 (Monad), 7.33% APY, $41.55M TVL, https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

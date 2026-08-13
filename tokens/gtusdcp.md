@@ -12,11 +12,11 @@ The highest honest GTUSDCP yield right now is 5.31% on morpho-blue (OP Mainnet),
 | [morpho-blue →](https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170&src=seo_token) | Arbitrum | 2.91% | $321.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GTUSDCP's lower-variability candidates are morpho-blue (Base), 4.12% APY, $428.06M TVL, https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469&src=seo_token; morpho-blue (Ethereum), 4.19% APY, $70.93M TVL, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c&src=seo_token; morpho-blue (Base), 4.12% APY, $89.18M TVL, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97&src=seo_token; morpho-blue (Arbitrum), 2.69% APY, $501.4K TVL, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25&src=seo_token; morpho-blue (OP Mainnet), 5.31% APY, $1.11M TVL, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc&src=seo_token; morpho-blue (Arbitrum), 2.91% APY, $321.2K TVL, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469&src=seo_token) | Base | 4.12% | $428.06M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c&src=seo_token) | Ethereum | 4.19% | $70.93M |
@@ -60,9 +60,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GTUSDCP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GTUSDCP's lower-variability candidates are morpho-blue (Base), 4.12% APY, $428.06M TVL, https://www.defi.garden/?pool=e0672197-9f3e-4414-bca5-e6b4c90aa469&src=seo_token; morpho-blue (Ethereum), 4.19% APY, $70.93M TVL, https://www.defi.garden/?pool=71b34441-5a46-431b-a9b3-8c081cd0d74c&src=seo_token; morpho-blue (Base), 4.12% APY, $89.18M TVL, https://www.defi.garden/?pool=df7ccfd1-2642-4d79-851a-a5b07d9b8a97&src=seo_token; morpho-blue (Arbitrum), 2.69% APY, $501.4K TVL, https://www.defi.garden/?pool=7aad812f-4ed1-42ea-8c8f-654b5ef49d25&src=seo_token; morpho-blue (OP Mainnet), 5.31% APY, $1.11M TVL, https://www.defi.garden/?pool=6b655652-e718-4cba-a17b-42ee036531dc&src=seo_token; morpho-blue (Arbitrum), 2.91% APY, $321.2K TVL, https://www.defi.garden/?pool=8b0a8a57-e1b0-4d69-ab5d-d858de1d4170&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

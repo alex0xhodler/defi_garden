@@ -8,11 +8,11 @@ The highest honest MXNB yield right now is 10.25% on aerodrome-slipstream (Base)
 | [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token) | Arbitrum | 1.19% | $154.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, MXNB's lower-variability candidates are uniswap-v3 (Arbitrum), 1.19% APY, $154.1K TVL, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token; aerodrome-slipstream (Base), 10.25% APY, $156.9K TVL, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token) | Arbitrum | 1.19% | $154.1K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token) | Base | 10.25% | $156.9K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which MXNB pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, MXNB's lower-variability candidates are uniswap-v3 (Arbitrum), 1.19% APY, $154.1K TVL, https://www.defi.garden/?pool=50fa251e-e773-4fcd-b7bf-1a77aa61676d&src=seo_token; aerodrome-slipstream (Base), 10.25% APY, $156.9K TVL, https://www.defi.garden/?pool=a19395f8-284d-4af0-a56b-2dee133132ee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

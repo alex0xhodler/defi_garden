@@ -14,11 +14,11 @@ The highest honest PYUSD yield right now is 6.21% on sentora (Solana), among 24 
 | [euler-v2 →](https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token) | Ethereum | 5.25% | $6.45M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, PYUSD's lower-variability candidates are kamino-lend (Solana), 2.77% APY, $13.97M TVL, https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token; sparklend (Ethereum), 0.30% APY, $90.85M TVL, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token; orca-dex (Solana), 1.06% APY, $9.65M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; euler-v2 (Ethereum), 5.25% APY, $6.45M TVL, https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token; kamino-liquidity (Solana), 0.14% APY, $19.57M TVL, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6&src=seo_token; orca-dex (Solana), 0.06% APY, $19.58M TVL, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9&src=seo_token; curve-dex (Ethereum), 5.65% APY, $42.94M TVL, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [kamino-lend →](https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token) | Solana | 2.77% | $13.97M |
 | 2 | [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token) | Ethereum | 0.30% | $90.85M |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which PYUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, PYUSD's lower-variability candidates are kamino-lend (Solana), 2.77% APY, $13.97M TVL, https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token; sparklend (Ethereum), 0.30% APY, $90.85M TVL, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token; orca-dex (Solana), 1.06% APY, $9.65M TVL, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; euler-v2 (Ethereum), 5.25% APY, $6.45M TVL, https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token; kamino-liquidity (Solana), 0.14% APY, $19.57M TVL, https://www.defi.garden/?pool=5147b468-e863-45fb-a8d6-592f413f24c6&src=seo_token; orca-dex (Solana), 0.06% APY, $19.58M TVL, https://www.defi.garden/?pool=99203560-4a69-4a67-9dbc-70b78a68a2b9&src=seo_token; curve-dex (Ethereum), 5.65% APY, $42.94M TVL, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

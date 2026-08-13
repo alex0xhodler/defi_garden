@@ -8,11 +8,11 @@ The highest honest BITCOIN yield right now is 0.09% on uniswap-v3 (Ethereum), am
 | [uniswap-v3 →](https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934&src=seo_token) | Ethereum | 0.09% | $127.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BITCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 4.09% APY, $823.5K TVL, https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $127.4K TVL, https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a&src=seo_token) | Ethereum | 4.09% | $823.5K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934&src=seo_token) | Ethereum | 0.09% | $127.4K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BITCOIN pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BITCOIN's lower-variability candidates are uniswap-v3 (Ethereum), 4.09% APY, $823.5K TVL, https://www.defi.garden/?pool=50f50e9d-4720-45e7-9285-e0fccfbd946a&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $127.4K TVL, https://www.defi.garden/?pool=458bebdc-d4d2-410f-9338-93d295c4e934&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

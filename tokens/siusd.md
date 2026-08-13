@@ -9,11 +9,11 @@ The highest honest SIUSD yield right now is 9.28% on pendle (Ethereum), among 5 
 | [pendle →](https://www.defi.garden/?pool=d9180649-8c45-4911-ae2a-cf20dc30b0b2&src=seo_token) | Ethereum | 7.80% | $509.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SIUSD's lower-variability candidates are pendle (Ethereum), 9.28% APY, $509.7K TVL, https://www.defi.garden/?pool=62e914e8-1027-47a5-b444-5d9e6a407d41&src=seo_token; pendle (Ethereum), 7.80% APY, $509.7K TVL, https://www.defi.garden/?pool=d9180649-8c45-4911-ae2a-cf20dc30b0b2&src=seo_token; infinifi (Ethereum), 6.13% APY, $25.97M TVL, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=62e914e8-1027-47a5-b444-5d9e6a407d41&src=seo_token) | Ethereum | 9.28% | $509.7K |
 | 2 | [pendle →](https://www.defi.garden/?pool=d9180649-8c45-4911-ae2a-cf20dc30b0b2&src=seo_token) | Ethereum | 7.80% | $509.7K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SIUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SIUSD's lower-variability candidates are pendle (Ethereum), 9.28% APY, $509.7K TVL, https://www.defi.garden/?pool=62e914e8-1027-47a5-b444-5d9e6a407d41&src=seo_token; pendle (Ethereum), 7.80% APY, $509.7K TVL, https://www.defi.garden/?pool=d9180649-8c45-4911-ae2a-cf20dc30b0b2&src=seo_token; infinifi (Ethereum), 6.13% APY, $25.97M TVL, https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

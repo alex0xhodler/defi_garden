@@ -8,11 +8,11 @@ The highest honest META yield right now is 14.70% on omnipair (Solana), among 3 
 | [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 14.70% | $135.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, META's lower-variability candidates are omnipair (Solana), 14.70% APY, $135.9K TVL, https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token; orca-dex (Solana), 0.21% APY, $339.1K TVL, https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [omnipair →](https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token) | Solana | 14.70% | $135.9K |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token) | Solana | 0.21% | $339.1K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which META pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, META's lower-variability candidates are omnipair (Solana), 14.70% APY, $135.9K TVL, https://www.defi.garden/?pool=2b258c8d-7574-4cea-94b4-7be374c11982&src=seo_token; orca-dex (Solana), 0.21% APY, $339.1K TVL, https://www.defi.garden/?pool=eb90f418-b91a-4d57-a1ab-6356eff3c4d0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

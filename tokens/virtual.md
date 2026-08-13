@@ -14,11 +14,11 @@ The highest honest VIRTUAL yield right now is 285.87% on aerodrome-v1 (Base), am
 | [uniswap-v3 →](https://www.defi.garden/?pool=e7965416-dcc0-5999-8b22-19357429aeb2&src=seo_token) | Base | 38.48% | $389.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, VIRTUAL's lower-variability candidates are aerodrome-v1 (Base), 1.70% APY, $579.4K TVL, https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e&src=seo_token; aerodrome-v1 (Base), 4.24% APY, $4.16M TVL, https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f&src=seo_token; extra-finance-leverage-farming (Base), 1.41% APY, $546.3K TVL, https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332&src=seo_token; uniswap-v2 (Base), 9.79% APY, $1.04M TVL, https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d&src=seo_token; uniswap-v3 (Base), 56.74% APY, $663.6K TVL, https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb&src=seo_token; aerodrome-slipstream (Base), 31.74% APY, $391.7K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token; aerodrome-v1 (Base), 285.87% APY, $722.1K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e&src=seo_token) | Base | 1.70% | $579.4K |
 | 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f&src=seo_token) | Base | 4.24% | $4.16M |
@@ -67,9 +67,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which VIRTUAL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, VIRTUAL's lower-variability candidates are aerodrome-v1 (Base), 1.70% APY, $579.4K TVL, https://www.defi.garden/?pool=29bd1f1e-f7e8-461d-a9c9-ddb6148d799e&src=seo_token; aerodrome-v1 (Base), 4.24% APY, $4.16M TVL, https://www.defi.garden/?pool=2669bac4-c8c1-4436-b00c-0b9287681b3f&src=seo_token; extra-finance-leverage-farming (Base), 1.41% APY, $546.3K TVL, https://www.defi.garden/?pool=b447fdcf-c371-4802-80c6-b15395d34332&src=seo_token; uniswap-v2 (Base), 9.79% APY, $1.04M TVL, https://www.defi.garden/?pool=eeb01a7f-dd5d-4d34-8c99-25fe47ba6c2d&src=seo_token; uniswap-v3 (Base), 56.74% APY, $663.6K TVL, https://www.defi.garden/?pool=2df3e378-a3c7-4187-995f-51fe7ff18ccb&src=seo_token; aerodrome-slipstream (Base), 31.74% APY, $391.7K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token; aerodrome-v1 (Base), 285.87% APY, $722.1K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

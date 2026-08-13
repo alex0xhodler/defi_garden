@@ -10,11 +10,11 @@ The highest honest YNUSDX yield right now is 10.66% on stake-dao (Ethereum), amo
 | [stake-dao →](https://www.defi.garden/?pool=b3719a99-daa3-40ef-a021-c00776dad266&src=seo_token) | Ethereum | 8.60% | $128.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, YNUSDX's lower-variability candidates are stake-dao (Ethereum), 8.60% APY, $128.6K TVL, https://www.defi.garden/?pool=b3719a99-daa3-40ef-a021-c00776dad266&src=seo_token; curve-dex (Ethereum), 5.18% APY, $128.6K TVL, https://www.defi.garden/?pool=e7873962-d31f-422a-bab6-a1816667e797&src=seo_token; curve-dex (Ethereum), 21.89% APY, $435K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao (Ethereum), 10.66% APY, $370.9K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao →](https://www.defi.garden/?pool=b3719a99-daa3-40ef-a021-c00776dad266&src=seo_token) | Ethereum | 8.60% | $128.6K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=e7873962-d31f-422a-bab6-a1816667e797&src=seo_token) | Ethereum | 5.18% | $128.6K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which YNUSDX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, YNUSDX's lower-variability candidates are stake-dao (Ethereum), 8.60% APY, $128.6K TVL, https://www.defi.garden/?pool=b3719a99-daa3-40ef-a021-c00776dad266&src=seo_token; curve-dex (Ethereum), 5.18% APY, $128.6K TVL, https://www.defi.garden/?pool=e7873962-d31f-422a-bab6-a1816667e797&src=seo_token; curve-dex (Ethereum), 21.89% APY, $435K TVL, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; stake-dao (Ethereum), 10.66% APY, $370.9K TVL, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -9,11 +9,11 @@ The highest honest YOG yield right now is 7.78% on morpho-blue (Ethereum), among
 | [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 5.97% | $310.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, YOG's lower-variability candidates are morpho-blue (Base), 5.97% APY, $310.2K TVL, https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token; morpho-blue (Katana), 2.06% APY, $5.29M TVL, https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token; morpho-blue (Ethereum), 7.78% APY, $2.06M TVL, https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token) | Base | 5.97% | $310.2K |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token) | Katana | 2.06% | $5.29M |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which YOG pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, YOG's lower-variability candidates are morpho-blue (Base), 5.97% APY, $310.2K TVL, https://www.defi.garden/?pool=d3b75c5c-3e30-4c87-ad3c-f94b9359c59f&src=seo_token; morpho-blue (Katana), 2.06% APY, $5.29M TVL, https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_token; morpho-blue (Ethereum), 7.78% APY, $2.06M TVL, https://www.defi.garden/?pool=04b66432-af9e-44d0-a44d-80189f511b13&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

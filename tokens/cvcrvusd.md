@@ -9,11 +9,11 @@ The highest honest CVCRVUSD yield right now is 15.34% on convex-finance (Ethereu
 | [stake-dao →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token) | Ethereum | 13.58% | $174.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CVCRVUSD's lower-variability candidates are convex-finance (Ethereum), 15.34% APY, $412.6K TVL, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token; curve-dex (Ethereum), 6.97% APY, $695.8K TVL, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token; stake-dao (Ethereum), 13.58% APY, $174.5K TVL, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token) | Ethereum | 15.34% | $412.6K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token) | Ethereum | 6.97% | $695.8K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CVCRVUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CVCRVUSD's lower-variability candidates are convex-finance (Ethereum), 15.34% APY, $412.6K TVL, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token; curve-dex (Ethereum), 6.97% APY, $695.8K TVL, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token; stake-dao (Ethereum), 13.58% APY, $174.5K TVL, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

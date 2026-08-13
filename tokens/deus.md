@@ -8,11 +8,11 @@ The highest honest DEUS yield right now is 285.87% on aerodrome-v1 (Base), among
 | [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 39.64% | $229.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, DEUS's lower-variability candidates are aerodrome-v1 (Base), 39.64% APY, $229.8K TVL, https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token; aerodrome-v1 (Base), 285.87% APY, $722.1K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token) | Base | 39.64% | $229.8K |
 | 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token) | Base | 285.87% | $722.1K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which DEUS pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, DEUS's lower-variability candidates are aerodrome-v1 (Base), 39.64% APY, $229.8K TVL, https://www.defi.garden/?pool=76135ba8-dbbd-43e6-babb-92e5931bb359&src=seo_token; aerodrome-v1 (Base), 285.87% APY, $722.1K TVL, https://www.defi.garden/?pool=19512b42-f6bb-4b90-b813-1f968df20b5c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

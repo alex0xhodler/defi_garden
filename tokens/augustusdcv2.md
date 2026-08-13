@@ -8,11 +8,11 @@ The highest honest AUGUSTUSDCV2 yield right now is 8.54% on morpho-blue (Monad),
 | [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 5.64% | $742.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 8.54% APY, $3.76M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 5.64% APY, $742.9K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 8.54% | $3.76M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 5.64% | $742.9K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which AUGUSTUSDCV2 pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 8.54% APY, $3.76M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 5.64% APY, $742.9K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

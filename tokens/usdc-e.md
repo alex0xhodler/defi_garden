@@ -14,11 +14,11 @@ The highest honest USDC.E yield right now is 7.00% on sparkdex-v4 (Flare), among
 | [sushiswap-v3 →](https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token) | Arbitrum | 3.04% | $419.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDC.E's lower-variability candidates are aave-v3 (Gnosis), 2.98% APY, $666.8K TVL, https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token; sparkdex-v4 (Flare), 7.00% APY, $2.32M TVL, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; symbiosis (Polygon), 4.82% APY, $458K TVL, https://www.defi.garden/?pool=1437c28a-0faa-40bb-a987-884134c45d2f&src=seo_token; shadow-exchange-clmm (Sonic), 0.72% APY, $535.9K TVL, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; curve-dex (Arbitrum), 0.06% APY, $637.3K TVL, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; sparkdex-v3.1 (Flare), 0.06% APY, $6.44M TVL, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; sushiswap-v3 (Arbitrum), 3.04% APY, $419.3K TVL, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; uniswap-v3 (Arbitrum), 2.81% APY, $936.4K TVL, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token) | Gnosis | 2.98% | $666.8K |
 | 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token) | Flare | 7.00% | $2.32M |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDC.E pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDC.E's lower-variability candidates are aave-v3 (Gnosis), 2.98% APY, $666.8K TVL, https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_token; sparkdex-v4 (Flare), 7.00% APY, $2.32M TVL, https://www.defi.garden/?pool=d0230aad-1f7d-418f-bb92-fbb4acd9581a&src=seo_token; symbiosis (Polygon), 4.82% APY, $458K TVL, https://www.defi.garden/?pool=1437c28a-0faa-40bb-a987-884134c45d2f&src=seo_token; shadow-exchange-clmm (Sonic), 0.72% APY, $535.9K TVL, https://www.defi.garden/?pool=97b1770c-f7a3-4128-8937-525cdaba68d4&src=seo_token; curve-dex (Arbitrum), 0.06% APY, $637.3K TVL, https://www.defi.garden/?pool=4f3f9753-a071-4524-a564-35372a76c78d&src=seo_token; sparkdex-v3.1 (Flare), 0.06% APY, $6.44M TVL, https://www.defi.garden/?pool=a2851527-da35-4688-bacb-2ad86991d9db&src=seo_token; sushiswap-v3 (Arbitrum), 3.04% APY, $419.3K TVL, https://www.defi.garden/?pool=57015496-e4d1-4a4a-b278-d49a5bf0a1d3&src=seo_token; uniswap-v3 (Arbitrum), 2.81% APY, $936.4K TVL, https://www.defi.garden/?pool=9fb44210-2b23-4b7d-8f2f-aba82b93843e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

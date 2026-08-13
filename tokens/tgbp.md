@@ -9,11 +9,11 @@ The highest honest TGBP yield right now is 23.73% on curve-dex (Ethereum), among
 | [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 23.73% | $106.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, TGBP's lower-variability candidates are aerodrome-slipstream (Base), 1.42% APY, $288.7K TVL, https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token; orca-dex (Solana), 0.65% APY, $241K TVL, https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token; curve-dex (Ethereum), 23.73% APY, $106.6K TVL, https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 1.42% | $288.7K |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.65% | $241K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which TGBP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, TGBP's lower-variability candidates are aerodrome-slipstream (Base), 1.42% APY, $288.7K TVL, https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token; orca-dex (Solana), 0.65% APY, $241K TVL, https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token; curve-dex (Ethereum), 23.73% APY, $106.6K TVL, https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

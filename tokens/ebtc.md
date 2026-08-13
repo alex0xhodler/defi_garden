@@ -10,11 +10,11 @@ The highest honest EBTC yield right now is 0.78% on convex-finance (Ethereum), a
 | [convex-finance →](https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37&src=seo_token) | Ethereum | 0.78% | $145.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, EBTC's lower-variability candidates are ether.fi-stake (Ethereum), 0.33% APY, $15.62M TVL, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408&src=seo_token; fluid-dex (Ethereum), 0.11% APY, $3.22M TVL, https://www.defi.garden/?pool=a3fd94a1-2b63-4753-b10a-1436b58768c9&src=seo_token; convex-finance (Ethereum), 0.78% APY, $145.6K TVL, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37&src=seo_token; curve-dex (Ethereum), 0.31% APY, $145.6K TVL, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [ether.fi-stake →](https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408&src=seo_token) | Ethereum | 0.33% | $15.62M |
 | 2 | [fluid-dex →](https://www.defi.garden/?pool=a3fd94a1-2b63-4753-b10a-1436b58768c9&src=seo_token) | Ethereum | 0.11% | $3.22M |
@@ -54,9 +54,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which EBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, EBTC's lower-variability candidates are ether.fi-stake (Ethereum), 0.33% APY, $15.62M TVL, https://www.defi.garden/?pool=f6568026-ff92-463d-8712-b9e8f8ea1408&src=seo_token; fluid-dex (Ethereum), 0.11% APY, $3.22M TVL, https://www.defi.garden/?pool=a3fd94a1-2b63-4753-b10a-1436b58768c9&src=seo_token; convex-finance (Ethereum), 0.78% APY, $145.6K TVL, https://www.defi.garden/?pool=149c89b1-c592-41ea-95b4-901295f69c37&src=seo_token; curve-dex (Ethereum), 0.31% APY, $145.6K TVL, https://www.defi.garden/?pool=369fe157-a536-440e-9e9c-c080a369cbcb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -9,11 +9,11 @@ The highest honest RENDER yield right now is 8.42% on raydium-amm (Solana), amon
 | [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 3.40% | $211.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.03% APY, $257.8K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token; raydium-amm (Solana), 8.42% APY, $354.4K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token; orca-dex (Solana), 3.40% APY, $211.9K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.03% | $257.8K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 8.42% | $354.4K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which RENDER pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.03% APY, $257.8K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token; raydium-amm (Solana), 8.42% APY, $354.4K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token; orca-dex (Solana), 3.40% APY, $211.9K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -8,11 +8,11 @@ The highest honest TAVAX yield right now is 5.11% on treehouse-protocol (Avalanc
 | [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 3.19% | $133K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, TAVAX's lower-variability candidates are treehouse-protocol (Avalanche), 5.11% APY, $5.53M TVL, https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token; pharaoh-v3 (Avalanche), 3.19% APY, $133K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [treehouse-protocol →](https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token) | Avalanche | 5.11% | $5.53M |
 | 2 | [pharaoh-v3 →](https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token) | Avalanche | 3.19% | $133K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which TAVAX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, TAVAX's lower-variability candidates are treehouse-protocol (Avalanche), 5.11% APY, $5.53M TVL, https://www.defi.garden/?pool=40a1e447-058d-4c5b-b567-30543ea185c3&src=seo_token; pharaoh-v3 (Avalanche), 3.19% APY, $133K TVL, https://www.defi.garden/?pool=29630e33-15fa-41aa-857e-595ea7878580&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

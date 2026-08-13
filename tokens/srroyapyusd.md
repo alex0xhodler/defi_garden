@@ -9,11 +9,11 @@ The highest honest SRROYAPYUSD yield right now is 173.76% on royco-v2 (Ethereum)
 | [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 14.10% | $136.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SRROYAPYUSD's lower-variability candidates are pendle (Ethereum), 14.60% APY, $136.6K TVL, https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5&src=seo_token; pendle (Ethereum), 14.10% APY, $136.6K TVL, https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5&src=seo_token) | Ethereum | 14.60% | $136.6K |
 | 2 | [pendle →](https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token) | Ethereum | 14.10% | $136.6K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SRROYAPYUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SRROYAPYUSD's lower-variability candidates are pendle (Ethereum), 14.60% APY, $136.6K TVL, https://www.defi.garden/?pool=c8833fef-aa7e-474c-8a78-06808548a7f5&src=seo_token; pendle (Ethereum), 14.10% APY, $136.6K TVL, https://www.defi.garden/?pool=25de7136-c1eb-4156-b62a-5b2b83fb80dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

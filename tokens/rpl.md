@@ -9,11 +9,11 @@ The highest honest RPL yield right now is 1.14% on aave-v3 (Ethereum), among 3 p
 | [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token) | Ethereum | 7.85% | $170.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, RPL's lower-variability candidates are aave-v3 (Ethereum), 1.14% APY, $292.8K TVL, https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token; uniswap-v3 (Ethereum), 0.50% APY, $317K TVL, https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token; uniswap-v4 (Ethereum), 7.85% APY, $170.2K TVL, https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token) | Ethereum | 1.14% | $292.8K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token) | Ethereum | 0.50% | $317K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which RPL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, RPL's lower-variability candidates are aave-v3 (Ethereum), 1.14% APY, $292.8K TVL, https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token; uniswap-v3 (Ethereum), 0.50% APY, $317K TVL, https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token; uniswap-v4 (Ethereum), 7.85% APY, $170.2K TVL, https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

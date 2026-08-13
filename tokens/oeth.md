@@ -12,11 +12,11 @@ The highest honest OETH yield right now is 5.26% on stake-dao (Ethereum), among 
 | [stake-dao →](https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token) | Ethereum | 0.12% | $167.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, OETH's lower-variability candidates are stake-dao (Ethereum), 5.26% APY, $3.79M TVL, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc&src=seo_token; origin-ether (Ethereum), 2.65% APY, $44.41M TVL, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3&src=seo_token; stake-dao (Ethereum), 0.12% APY, $167.3K TVL, https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token; curve-dex (Ethereum), 0.02% APY, $172K TVL, https://www.defi.garden/?pool=5a4c4cef-e95e-47c3-977a-e41d9fec6cdf&src=seo_token; curve-dex (Ethereum), 2.76% APY, $859.2K TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249&src=seo_token; curve-dex (Ethereum), 2.51% APY, $46.44M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [stake-dao →](https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc&src=seo_token) | Ethereum | 5.26% | $3.79M |
 | 2 | [origin-ether →](https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3&src=seo_token) | Ethereum | 2.65% | $44.41M |
@@ -62,9 +62,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which OETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, OETH's lower-variability candidates are stake-dao (Ethereum), 5.26% APY, $3.79M TVL, https://www.defi.garden/?pool=02e8f190-ec31-4850-946a-185627abe6dc&src=seo_token; origin-ether (Ethereum), 2.65% APY, $44.41M TVL, https://www.defi.garden/?pool=423681e3-4787-40ce-ae43-e9f67c5269b3&src=seo_token; stake-dao (Ethereum), 0.12% APY, $167.3K TVL, https://www.defi.garden/?pool=fb979f05-c103-416d-9c1c-f5f1c6cbda53&src=seo_token; curve-dex (Ethereum), 0.02% APY, $172K TVL, https://www.defi.garden/?pool=5a4c4cef-e95e-47c3-977a-e41d9fec6cdf&src=seo_token; curve-dex (Ethereum), 2.76% APY, $859.2K TVL, https://www.defi.garden/?pool=540d4202-fb1d-4bfd-bba9-508fc93b9249&src=seo_token; curve-dex (Ethereum), 2.51% APY, $46.44M TVL, https://www.defi.garden/?pool=077b47b8-76c9-4081-97f2-9ca43ebdbaa0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

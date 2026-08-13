@@ -14,11 +14,11 @@
 | [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 200.91% | $1.68M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 justlend-v1, APY 0.02%, TVL $409.79M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token; Bitcoin의 b14g, APY 0.13%, TVL $148.69M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; Ethereum의 midas-rwa, APY 2.47%, TVL $18.46M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; Monad의 midas-rwa, APY 2.47%, TVL $3.67M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; Mezo의 mezo-earn, APY 4.12%, TVL $51.77M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; Bitcoin의 chainflip-lending, APY 0.33%, TVL $1.81M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; Bitcoin의 chainflip-amm, APY 4.59%, TVL $2.94M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; Solana의 gmtrade, APY 200.91%, TVL $1.68M, https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token) | Tron | 0.02% | $409.79M |
 | 2 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.13% | $148.69M |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 200.91%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### BTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 justlend-v1, APY 0.02%, TVL $409.79M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token; Bitcoin의 b14g, APY 0.13%, TVL $148.69M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; Ethereum의 midas-rwa, APY 2.47%, TVL $18.46M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; Monad의 midas-rwa, APY 2.47%, TVL $3.67M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; Mezo의 mezo-earn, APY 4.12%, TVL $51.77M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; Bitcoin의 chainflip-lending, APY 0.33%, TVL $1.81M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; Bitcoin의 chainflip-amm, APY 4.59%, TVL $2.94M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; Solana의 gmtrade, APY 200.91%, TVL $1.68M, https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

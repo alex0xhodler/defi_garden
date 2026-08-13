@@ -14,11 +14,11 @@
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 BUSD의 변동성 낮은 후보는 BSC의 wombat-exchange, APY 0.03%, TVL $2.05M, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; BSC의 mdex, APY 0.25%, TVL $254.1K, https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token; BSC의 wombat-exchange, APY 0.09%, TVL $131.6K, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; BSC의 pancakeswap-amm, APY 0.12%, TVL $533.5K, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token; BSC의 pancakeswap-amm, APY 0.75%, TVL $154.6K, https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token; BSC의 pancakeswap-amm, APY 0.06%, TVL $265K, https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token; BSC의 pancakeswap-amm, APY 0.59%, TVL $1.15M, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token; BSC의 pancakeswap-amm, APY 1.13%, TVL $308.4K, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
 | 2 | [mdex →](https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token) | BSC | 0.25% | $254.1K |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, BSC의 pancakeswap-amm에서 APY 1.13%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### BUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 BUSD의 변동성 낮은 후보는 BSC의 wombat-exchange, APY 0.03%, TVL $2.05M, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; BSC의 mdex, APY 0.25%, TVL $254.1K, https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token; BSC의 wombat-exchange, APY 0.09%, TVL $131.6K, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; BSC의 pancakeswap-amm, APY 0.12%, TVL $533.5K, https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token; BSC의 pancakeswap-amm, APY 0.75%, TVL $154.6K, https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token; BSC의 pancakeswap-amm, APY 0.06%, TVL $265K, https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token; BSC의 pancakeswap-amm, APY 0.59%, TVL $1.15M, https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token; BSC의 pancakeswap-amm, APY 1.13%, TVL $308.4K, https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

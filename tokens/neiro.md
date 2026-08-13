@@ -9,11 +9,11 @@ The highest honest NEIRO yield right now is 6.89% on uniswap-v2 (Ethereum), amon
 | [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 0.04% | $115.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, NEIRO's lower-variability candidates are raydium-amm (Solana), 0.53% APY, $209.6K TVL, https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $115.1K TVL, https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token; uniswap-v2 (Ethereum), 6.89% APY, $2.59M TVL, https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token) | Solana | 0.53% | $209.6K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token) | Ethereum | 0.04% | $115.1K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which NEIRO pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, NEIRO's lower-variability candidates are raydium-amm (Solana), 0.53% APY, $209.6K TVL, https://www.defi.garden/?pool=05cc0a87-c502-4bd1-a48a-42cb979910e5&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $115.1K TVL, https://www.defi.garden/?pool=8f4a496f-48ea-46e3-ad6c-0ea92284bbe7&src=seo_token; uniswap-v2 (Ethereum), 6.89% APY, $2.59M TVL, https://www.defi.garden/?pool=4f090daa-bdd6-4208-8b05-a59d33c07fe1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

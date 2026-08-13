@@ -8,11 +8,11 @@ The highest honest POLS yield right now is 2.66% on uniswap-v2 (Ethereum), among
 | [uniswap-v2 →](https://www.defi.garden/?pool=2776796e-82f2-4694-a0d3-561490f68fac&src=seo_token) | Ethereum | 2.66% | $105.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, POLS's lower-variability candidates are uniswap-v3 (Base), 0.11% APY, $216.5K TVL, https://www.defi.garden/?pool=fdda889e-d3f3-4f3f-848a-4e2484b9c56b&src=seo_token; uniswap-v2 (Ethereum), 2.66% APY, $105.9K TVL, https://www.defi.garden/?pool=2776796e-82f2-4694-a0d3-561490f68fac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=fdda889e-d3f3-4f3f-848a-4e2484b9c56b&src=seo_token) | Base | 0.11% | $216.5K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=2776796e-82f2-4694-a0d3-561490f68fac&src=seo_token) | Ethereum | 2.66% | $105.9K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which POLS pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, POLS's lower-variability candidates are uniswap-v3 (Base), 0.11% APY, $216.5K TVL, https://www.defi.garden/?pool=fdda889e-d3f3-4f3f-848a-4e2484b9c56b&src=seo_token; uniswap-v2 (Ethereum), 2.66% APY, $105.9K TVL, https://www.defi.garden/?pool=2776796e-82f2-4694-a0d3-561490f68fac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

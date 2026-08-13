@@ -8,11 +8,11 @@ The highest honest STHYPE yield right now is 2.55% on pendle (Hyperliquid L1), a
 | [pendle →](https://www.defi.garden/?pool=c15de172-944b-4303-971c-7a6e7564ad38&src=seo_token) | Hyperliquid L1 | 2.41% | $1.28M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, STHYPE's lower-variability candidates are pendle (Hyperliquid L1), 2.55% APY, $1.28M TVL, https://www.defi.garden/?pool=0e022695-0c2a-4682-b93a-fffd8723fe7f&src=seo_token; pendle (Hyperliquid L1), 2.41% APY, $1.28M TVL, https://www.defi.garden/?pool=c15de172-944b-4303-971c-7a6e7564ad38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=0e022695-0c2a-4682-b93a-fffd8723fe7f&src=seo_token) | Hyperliquid L1 | 2.55% | $1.28M |
 | 2 | [pendle →](https://www.defi.garden/?pool=c15de172-944b-4303-971c-7a6e7564ad38&src=seo_token) | Hyperliquid L1 | 2.41% | $1.28M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which STHYPE pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, STHYPE's lower-variability candidates are pendle (Hyperliquid L1), 2.55% APY, $1.28M TVL, https://www.defi.garden/?pool=0e022695-0c2a-4682-b93a-fffd8723fe7f&src=seo_token; pendle (Hyperliquid L1), 2.41% APY, $1.28M TVL, https://www.defi.garden/?pool=c15de172-944b-4303-971c-7a6e7564ad38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

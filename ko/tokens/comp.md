@@ -9,11 +9,11 @@
 | [uniswap-v2 →](https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token) | Ethereum | 7.26% | $109.2K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 COMP의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 7.48%, TVL $227.3K, https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token; Ethereum의 uniswap-v3, APY 0.11%, TVL $971.9K, https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token; Ethereum의 uniswap-v2, APY 7.26%, TVL $109.2K, https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token) | Ethereum | 7.48% | $227.3K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token) | Ethereum | 0.11% | $971.9K |
@@ -53,9 +53,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 7.48%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### COMP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 COMP의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 7.48%, TVL $227.3K, https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token; Ethereum의 uniswap-v3, APY 0.11%, TVL $971.9K, https://www.defi.garden/?pool=a0653f73-8c6b-4c01-a9bb-92bb4c872100&src=seo_token; Ethereum의 uniswap-v2, APY 7.26%, TVL $109.2K, https://www.defi.garden/?pool=4aa5eec2-12a4-4df2-b521-7fd5235bf49f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

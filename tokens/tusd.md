@@ -10,11 +10,11 @@ The highest honest TUSD yield right now is 1.41% on justlend-v1 (Tron), among 5 
 | [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.06% | $104.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 2.82% APY, $350.3K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; curve-dex (Polygon), 0.06% APY, $104.6K TVL, https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token; justlend-v1 (Tron), 1.41% APY, $1.07M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.24% APY, $221K TVL, https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 2.82% | $350.3K |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.06% | $104.6K |
@@ -56,9 +56,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which TUSD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 2.82% APY, $350.3K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; curve-dex (Polygon), 0.06% APY, $104.6K TVL, https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token; justlend-v1 (Tron), 1.41% APY, $1.07M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.24% APY, $221K TVL, https://www.defi.garden/?pool=91c10355-5240-4c71-89d4-dccf03dd20cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -14,11 +14,11 @@ The highest honest BTC yield right now is 200.91% on gmtrade (Solana), among 21 
 | [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 200.91% | $1.68M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BTC's lower-variability candidates are justlend-v1 (Tron), 0.02% APY, $409.79M TVL, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token; b14g (Bitcoin), 0.13% APY, $148.69M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; midas-rwa (Ethereum), 2.47% APY, $18.46M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; midas-rwa (Monad), 2.47% APY, $3.67M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; mezo-earn (Mezo), 4.12% APY, $51.77M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; chainflip-lending (Bitcoin), 0.33% APY, $1.81M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; chainflip-amm (Bitcoin), 4.59% APY, $2.94M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; gmtrade (Solana), 200.91% APY, $1.68M TVL, https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token) | Tron | 0.02% | $409.79M |
 | 2 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.13% | $148.69M |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BTC's lower-variability candidates are justlend-v1 (Tron), 0.02% APY, $409.79M TVL, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token; b14g (Bitcoin), 0.13% APY, $148.69M TVL, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; midas-rwa (Ethereum), 2.47% APY, $18.46M TVL, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; midas-rwa (Monad), 2.47% APY, $3.67M TVL, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; mezo-earn (Mezo), 4.12% APY, $51.77M TVL, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; chainflip-lending (Bitcoin), 0.33% APY, $1.81M TVL, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; chainflip-amm (Bitcoin), 4.59% APY, $2.94M TVL, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; gmtrade (Solana), 200.91% APY, $1.68M TVL, https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

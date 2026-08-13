@@ -9,11 +9,11 @@ The highest honest SMON yield right now is 16.00% on curve-dex (Monad), among 4 
 | [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 2.06% | $553.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 11.27% APY, $2.02M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token; neverland (Monad), 2.06% APY, $553.1K TVL, https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token; curve-dex (Monad), 16.00% APY, $597.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [kintsu →](https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token) | Monad | 11.27% | $2.02M |
 | 2 | [neverland →](https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token) | Monad | 2.06% | $553.1K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SMON pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SMON's lower-variability candidates are kintsu (Monad), 11.27% APY, $2.02M TVL, https://www.defi.garden/?pool=73c511a9-4dc0-4397-babe-e578fd75f0dd&src=seo_token; neverland (Monad), 2.06% APY, $553.1K TVL, https://www.defi.garden/?pool=ac94c300-c621-4266-97c1-34b2104caeca&src=seo_token; curve-dex (Monad), 16.00% APY, $597.1K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

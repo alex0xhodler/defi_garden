@@ -14,11 +14,11 @@
 | [stake-dao →](https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token) | Ethereum | 2.87% | $1.35M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 WEETH의 변동성 낮은 후보는 Base의 ether.fi-stake, APY 2.32%, TVL $34.2M, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token; Linea의 ether.fi-stake, APY 2.32%, TVL $140.89M, https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token; Ethereum의 stake-dao, APY 2.87%, TVL $1.35M, https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token; Ethereum의 ether.fi-stake, APY 2.32%, TVL $3.69B, https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token; Ethereum의 fluid-dex, APY 0.55%, TVL $10.6M, https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token; Ethereum의 convex-finance, APY 2.59%, TVL $8M, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token; Ethereum의 curve-dex, APY 2.08%, TVL $9.47M, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token; Ethereum의 uniswap-v3, APY 0.01%, TVL $9.09M, https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [ether.fi-stake →](https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token) | Base | 2.32% | $34.2M |
 | 2 | [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token) | Linea | 2.32% | $140.89M |
@@ -66,9 +66,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 2.87%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### WEETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 WEETH의 변동성 낮은 후보는 Base의 ether.fi-stake, APY 2.32%, TVL $34.2M, https://www.defi.garden/?pool=333f3e8b-6fe3-4ba0-9657-265ae94b7496&src=seo_token; Linea의 ether.fi-stake, APY 2.32%, TVL $140.89M, https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_token; Ethereum의 stake-dao, APY 2.87%, TVL $1.35M, https://www.defi.garden/?pool=f5fe9982-f8c8-4cd1-b81c-e75feaa70c4f&src=seo_token; Ethereum의 ether.fi-stake, APY 2.32%, TVL $3.69B, https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_token; Ethereum의 fluid-dex, APY 0.55%, TVL $10.6M, https://www.defi.garden/?pool=d603563c-3780-4f9a-9625-25063b033c57&src=seo_token; Ethereum의 convex-finance, APY 2.59%, TVL $8M, https://www.defi.garden/?pool=7a943c54-a3cc-4977-b400-6bcad3d0c06c&src=seo_token; Ethereum의 curve-dex, APY 2.08%, TVL $9.47M, https://www.defi.garden/?pool=747e43ae-940f-430b-a216-251d5949b27e&src=seo_token; Ethereum의 uniswap-v3, APY 0.01%, TVL $9.09M, https://www.defi.garden/?pool=84fb00e5-3c59-4878-8ebe-4fd601a861bd&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

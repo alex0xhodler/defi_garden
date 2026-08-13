@@ -8,11 +8,11 @@ The highest honest STBT yield right now is 3.53% on matrixdock-stbt (Ethereum), 
 | [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 2.99% | $404.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, STBT's lower-variability candidates are matrixdock-stbt (Ethereum), 3.53% APY, $23.92M TVL, https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token; curve-dex (Ethereum), 2.99% APY, $404.8K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [matrixdock-stbt →](https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token) | Ethereum | 3.53% | $23.92M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token) | Ethereum | 2.99% | $404.8K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which STBT pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, STBT's lower-variability candidates are matrixdock-stbt (Ethereum), 3.53% APY, $23.92M TVL, https://www.defi.garden/?pool=723797ce-f2ec-49a9-8463-7e57e02b6ea5&src=seo_token; curve-dex (Ethereum), 2.99% APY, $404.8K TVL, https://www.defi.garden/?pool=5fe2b0c5-c65a-488f-bb8a-85f8b6ea27ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -11,11 +11,11 @@ The highest honest JUP yield right now is 14.00% on orca-dex (Solana), among 6 p
 | [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 2.11% | $151.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, JUP's lower-variability candidates are project-0 (Solana), 0.01% APY, $745.9K TVL, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token; orca-dex (Solana), 14.00% APY, $311.2K TVL, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token; kamino-liquidity (Solana), 2.11% APY, $151.9K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token; kamino-liquidity (Solana), 1.96% APY, $300.5K TVL, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token; kamino-liquidity (Solana), 11.48% APY, $621.3K TVL, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [project-0 →](https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token) | Solana | 0.01% | $745.9K |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token) | Solana | 14.00% | $311.2K |
@@ -59,9 +59,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which JUP pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, JUP's lower-variability candidates are project-0 (Solana), 0.01% APY, $745.9K TVL, https://www.defi.garden/?pool=d946f451-2368-4911-889a-9e12ce14d4d0&src=seo_token; orca-dex (Solana), 14.00% APY, $311.2K TVL, https://www.defi.garden/?pool=18da9637-00b2-4eda-bf76-942f1acbfc28&src=seo_token; kamino-liquidity (Solana), 2.11% APY, $151.9K TVL, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token; kamino-liquidity (Solana), 1.96% APY, $300.5K TVL, https://www.defi.garden/?pool=b96b2112-b529-4b09-b89e-b172d810108f&src=seo_token; kamino-liquidity (Solana), 11.48% APY, $621.3K TVL, https://www.defi.garden/?pool=2311da1c-3d89-43cb-afdb-e19edfc01b1e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

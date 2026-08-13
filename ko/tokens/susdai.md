@@ -13,11 +13,11 @@
 | [pendle →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 9.35% | $1.46M |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 SUSDAI의 변동성 낮은 후보는 Arbitrum의 pendle, APY 9.29%, TVL $1.46M, https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token; Arbitrum의 pendle, APY 10.17%, TVL $12.16M, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; Arbitrum의 usd-ai, APY 7.66%, TVL $353.58M, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; Arbitrum의 pendle, APY 8.59%, TVL $12.16M, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; Arbitrum의 fluid-dex, APY 0.17%, TVL $17.84M, https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token; Arbitrum의 pendle, APY 9.35%, TVL $1.46M, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; Arbitrum의 curve-dex, APY 4.88%, TVL $1.46M, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token) | Arbitrum | 9.29% | $1.46M |
 | 2 | [pendle →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 10.17% | $12.16M |
@@ -63,9 +63,9 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 pendle에서 APY 10.17%예요.
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### SUSDAI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 SUSDAI의 변동성 낮은 후보는 Arbitrum의 pendle, APY 9.29%, TVL $1.46M, https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token; Arbitrum의 pendle, APY 10.17%, TVL $12.16M, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; Arbitrum의 usd-ai, APY 7.66%, TVL $353.58M, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; Arbitrum의 pendle, APY 8.59%, TVL $12.16M, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; Arbitrum의 fluid-dex, APY 0.17%, TVL $17.84M, https://www.defi.garden/?pool=8e68dfc4-646e-4fdc-b068-891296c80fb5&src=seo_token; Arbitrum의 pendle, APY 9.35%, TVL $1.46M, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; Arbitrum의 curve-dex, APY 4.88%, TVL $1.46M, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

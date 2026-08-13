@@ -14,11 +14,11 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token) | Ethereum | 84.24% | $139.9K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 PENDLE의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 0.39%, TVL $402.7K, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.13%, TVL $220.9K, https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token; Ethereum의 uniswap-v4, APY 7.48%, TVL $227.3K, https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token; Arbitrum의 uniswap-v3, APY 6.90%, TVL $243.7K, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token; Arbitrum의 camelot-v2, APY 1.84%, TVL $1.5M, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token; Arbitrum의 uniswap-v3, APY 9.05%, TVL $795.4K, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token; Ethereum의 uniswap-v3, APY 84.24%, TVL $139.9K, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token; Arbitrum의 uniswap-v3, APY 16.52%, TVL $448.3K, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [dolomite →](https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token) | Arbitrum | 0.39% | $402.7K |
 | 2 | [gmx-v2-perps →](https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token) | Arbitrum | 0.13% | $220.9K |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 9.05%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### PENDLE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 PENDLE의 변동성 낮은 후보는 Arbitrum의 dolomite, APY 0.39%, TVL $402.7K, https://www.defi.garden/?pool=9cb7fc60-9b7d-459e-8bf1-8f5189631cac&src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.13%, TVL $220.9K, https://www.defi.garden/?pool=b9783c07-05de-4c55-97ac-2e1929aff338&src=seo_token; Ethereum의 uniswap-v4, APY 7.48%, TVL $227.3K, https://www.defi.garden/?pool=828a7f36-3990-424e-ab3a-652f4b4eb514&src=seo_token; Arbitrum의 uniswap-v3, APY 6.90%, TVL $243.7K, https://www.defi.garden/?pool=090bbc01-1bfb-435d-b928-58ea9bdc8a25&src=seo_token; Arbitrum의 camelot-v2, APY 1.84%, TVL $1.5M, https://www.defi.garden/?pool=054b89fc-997b-4600-a4ab-00dbd72c0474&src=seo_token; Arbitrum의 uniswap-v3, APY 9.05%, TVL $795.4K, https://www.defi.garden/?pool=a978c15f-c41a-433b-b02f-3434256ba66f&src=seo_token; Ethereum의 uniswap-v3, APY 84.24%, TVL $139.9K, https://www.defi.garden/?pool=e889bc1c-15fe-4d3b-95e7-f72b7501e0f4&src=seo_token; Arbitrum의 uniswap-v3, APY 16.52%, TVL $448.3K, https://www.defi.garden/?pool=18f93685-c199-44e7-8e25-154781d0a575&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

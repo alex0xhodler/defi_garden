@@ -8,11 +8,11 @@ The highest honest ALD yield right now is 0.11% on convex-finance (Ethereum), am
 | [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.10% | $456.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ALD's lower-variability candidates are curve-dex (Ethereum), 0.10% APY, $456.7K TVL, https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token; convex-finance (Ethereum), 0.11% APY, $456.7K TVL, https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.10% | $456.7K |
 | 2 | [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.11% | $456.7K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ALD pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ALD's lower-variability candidates are curve-dex (Ethereum), 0.10% APY, $456.7K TVL, https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token; convex-finance (Ethereum), 0.11% APY, $456.7K TVL, https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

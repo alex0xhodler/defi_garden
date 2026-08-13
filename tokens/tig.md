@@ -9,11 +9,11 @@ The highest honest TIG yield right now is 12.49% on aerodrome-slipstream (Base),
 | [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 168.25% | $106.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, TIG's lower-variability candidates are aerodrome-slipstream (Base), 12.49% APY, $125.5K TVL, https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token; uniswap-v3 (Base), 168.25% APY, $106.6K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 73.33% APY, $917.9K TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token) | Base | 12.49% | $125.5K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token) | Base | 168.25% | $106.6K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which TIG pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, TIG's lower-variability candidates are aerodrome-slipstream (Base), 12.49% APY, $125.5K TVL, https://www.defi.garden/?pool=d665da9a-2fd9-4271-b340-cfebe20612c4&src=seo_token; uniswap-v3 (Base), 168.25% APY, $106.6K TVL, https://www.defi.garden/?pool=6164cd98-fb7a-43b1-82e2-b1203dd46a2b&src=seo_token; aerodrome-slipstream (Base), 73.33% APY, $917.9K TVL, https://www.defi.garden/?pool=b92ea731-821e-4c73-9057-de72697118f4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -9,11 +9,11 @@ The highest honest WOJAK yield right now is 17.28% on uniswap-v2 (Ethereum), amo
 | [raydium-amm →](https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token) | Solana | 4.10% | $103.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, WOJAK's lower-variability candidates are uniswap-v2 (Ethereum), 0.12% APY, $620.9K TVL, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; uniswap-v2 (Ethereum), 17.28% APY, $878.5K TVL, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; raydium-amm (Solana), 4.10% APY, $103.3K TVL, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token) | Ethereum | 0.12% | $620.9K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token) | Ethereum | 17.28% | $878.5K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which WOJAK pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, WOJAK's lower-variability candidates are uniswap-v2 (Ethereum), 0.12% APY, $620.9K TVL, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; uniswap-v2 (Ethereum), 17.28% APY, $878.5K TVL, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; raydium-amm (Solana), 4.10% APY, $103.3K TVL, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

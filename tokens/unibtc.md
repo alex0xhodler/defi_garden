@@ -10,11 +10,11 @@ The highest honest UNIBTC yield right now is 1.47% on symbiotic (Ethereum), amon
 | [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 1.47% | $2.49M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, UNIBTC's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $2.8M TVL, https://www.defi.garden/?pool=a855fac3-6d35-4bb9-9b0b-b73820025a7c&src=seo_token; berapaw (Berachain), 0.81% APY, $17.01M TVL, https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=a855fac3-6d35-4bb9-9b0b-b73820025a7c&src=seo_token) | Ethereum | 0.03% | $2.8M |
 | 2 | [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.81% | $17.01M |
@@ -52,9 +52,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which UNIBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, UNIBTC's lower-variability candidates are uniswap-v3 (Ethereum), 0.03% APY, $2.8M TVL, https://www.defi.garden/?pool=a855fac3-6d35-4bb9-9b0b-b73820025a7c&src=seo_token; berapaw (Berachain), 0.81% APY, $17.01M TVL, https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

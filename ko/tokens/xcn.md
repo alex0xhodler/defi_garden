@@ -8,11 +8,11 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 2.07% | $150.9K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 XCN의 변동성 낮은 후보는 Base의 uniswap-v3, APY 2.07%, TVL $150.9K, https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token; Ethereum의 uniswap-v2, APY 7.85%, TVL $620.2K, https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token) | Base | 2.07% | $150.9K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token) | Ethereum | 7.85% | $620.2K |
@@ -50,9 +50,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 7.85%예�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### XCN 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 XCN의 변동성 낮은 후보는 Base의 uniswap-v3, APY 2.07%, TVL $150.9K, https://www.defi.garden/?pool=f9409e25-01d6-471b-a2e4-801d703590b3&src=seo_token; Ethereum의 uniswap-v2, APY 7.85%, TVL $620.2K, https://www.defi.garden/?pool=76f204e7-f0cf-49cf-8ca7-4bb8ce90b95d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

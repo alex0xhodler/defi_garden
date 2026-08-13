@@ -9,11 +9,11 @@ The highest honest GNO yield right now is 0.11% on aave-v3 (Gnosis), among 4 poo
 | [uniswap-v3 →](https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token) | Ethereum | 8.93% | $103.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, GNO's lower-variability candidates are aave-v3 (Gnosis), 0.11% APY, $6.36M TVL, https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token; balancer-v2 (Ethereum), 0.53% APY, $262.6K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token; uniswap-v3 (Ethereum), 8.93% APY, $103.2K TVL, https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token) | Gnosis | 0.11% | $6.36M |
 | 2 | [balancer-v2 →](https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token) | Ethereum | 0.53% | $262.6K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which GNO pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, GNO's lower-variability candidates are aave-v3 (Gnosis), 0.11% APY, $6.36M TVL, https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_token; balancer-v2 (Ethereum), 0.53% APY, $262.6K TVL, https://www.defi.garden/?pool=685974d1-530d-442a-ac70-cdda142e6a40&src=seo_token; uniswap-v3 (Ethereum), 8.93% APY, $103.2K TVL, https://www.defi.garden/?pool=caf4f7ff-3f1e-41b6-8c6c-7ca70265d08d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

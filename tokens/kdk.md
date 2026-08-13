@@ -8,11 +8,11 @@ The highest honest KDK yield right now is 24.10% on berapaw (Berachain), among 2
 | [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 3.15% | $158K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, KDK's lower-variability candidates are berapaw (Berachain), 24.10% APY, $225.6K TVL, https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token; berapaw (Berachain), 3.15% APY, $158K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [berapaw →](https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token) | Berachain | 24.10% | $225.6K |
 | 2 | [berapaw →](https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token) | Berachain | 3.15% | $158K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which KDK pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, KDK's lower-variability candidates are berapaw (Berachain), 24.10% APY, $225.6K TVL, https://www.defi.garden/?pool=82afb694-e6b8-4950-bd95-bc433349a4d8&src=seo_token; berapaw (Berachain), 3.15% APY, $158K TVL, https://www.defi.garden/?pool=f98f4cb5-7e5c-4281-ae93-ac1a0688308e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

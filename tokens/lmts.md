@@ -8,11 +8,11 @@ The highest honest LMTS yield right now is 31.00% on aerodrome-slipstream (Base)
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token) | Base | 31.00% | $259.9K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, LMTS's lower-variability candidates are aerodrome-slipstream (Base), 31.00% APY, $259.9K TVL, https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token; aerodrome-slipstream (Base), 77.68% APY, $517.3K TVL, https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token) | Base | 31.00% | $259.9K |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token) | Base | 77.68% | $517.3K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which LMTS pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, LMTS's lower-variability candidates are aerodrome-slipstream (Base), 31.00% APY, $259.9K TVL, https://www.defi.garden/?pool=298f28f6-fab0-461f-8bd1-ad5b07e4b590&src=seo_token; aerodrome-slipstream (Base), 77.68% APY, $517.3K TVL, https://www.defi.garden/?pool=e606cbde-282e-44c6-b498-bfa85acc262d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

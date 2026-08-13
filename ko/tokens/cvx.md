@@ -14,11 +14,11 @@
 | [uniswap-v4 →](https://www.defi.garden/?pool=19a3e775-d12d-464d-b29e-4ee62b126812&src=seo_token) | Ethereum | 40.41% | $185.1K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 CVX의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 3.71%, TVL $9.62M, https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632&src=seo_token; Ethereum의 curve-dex, APY 16.05%, TVL $388.4K, https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token; Ethereum의 curve-dex, APY 9.50%, TVL $1.41M, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token; Ethereum의 curve-dex, APY 7.25%, TVL $4.81M, https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99&src=seo_token; Ethereum의 convex-finance, APY 28.62%, TVL $371K, https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token; Ethereum의 convex-finance, APY 13.30%, TVL $1.41M, https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c&src=seo_token; Ethereum의 convex-finance, APY 12.46%, TVL $3.51M, https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457&src=seo_token; Ethereum의 uniswap-v4, APY 40.41%, TVL $185.1K, https://www.defi.garden/?pool=19a3e775-d12d-464d-b29e-4ee62b126812&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [convex-finance →](https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632&src=seo_token) | Ethereum | 3.71% | $9.62M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token) | Ethereum | 16.05% | $388.4K |
@@ -68,9 +68,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 40.41%예
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### CVX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 CVX의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 3.71%, TVL $9.62M, https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632&src=seo_token; Ethereum의 curve-dex, APY 16.05%, TVL $388.4K, https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token; Ethereum의 curve-dex, APY 9.50%, TVL $1.41M, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token; Ethereum의 curve-dex, APY 7.25%, TVL $4.81M, https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99&src=seo_token; Ethereum의 convex-finance, APY 28.62%, TVL $371K, https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token; Ethereum의 convex-finance, APY 13.30%, TVL $1.41M, https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c&src=seo_token; Ethereum의 convex-finance, APY 12.46%, TVL $3.51M, https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457&src=seo_token; Ethereum의 uniswap-v4, APY 40.41%, TVL $185.1K, https://www.defi.garden/?pool=19a3e775-d12d-464d-b29e-4ee62b126812&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

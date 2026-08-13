@@ -14,11 +14,11 @@ The highest honest CVX yield right now is 40.41% on uniswap-v4 (Ethereum), among
 | [uniswap-v4 →](https://www.defi.garden/?pool=19a3e775-d12d-464d-b29e-4ee62b126812&src=seo_token) | Ethereum | 40.41% | $185.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CVX's lower-variability candidates are convex-finance (Ethereum), 3.71% APY, $9.62M TVL, https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632&src=seo_token; curve-dex (Ethereum), 16.05% APY, $388.4K TVL, https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token; curve-dex (Ethereum), 9.50% APY, $1.41M TVL, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token; curve-dex (Ethereum), 7.25% APY, $4.81M TVL, https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99&src=seo_token; convex-finance (Ethereum), 28.62% APY, $371K TVL, https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token; convex-finance (Ethereum), 13.30% APY, $1.41M TVL, https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c&src=seo_token; convex-finance (Ethereum), 12.46% APY, $3.51M TVL, https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457&src=seo_token; uniswap-v4 (Ethereum), 40.41% APY, $185.1K TVL, https://www.defi.garden/?pool=19a3e775-d12d-464d-b29e-4ee62b126812&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [convex-finance →](https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632&src=seo_token) | Ethereum | 3.71% | $9.62M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token) | Ethereum | 16.05% | $388.4K |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CVX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CVX's lower-variability candidates are convex-finance (Ethereum), 3.71% APY, $9.62M TVL, https://www.defi.garden/?pool=777032e6-e815-4f44-90b4-abb98f0f9632&src=seo_token; curve-dex (Ethereum), 16.05% APY, $388.4K TVL, https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token; curve-dex (Ethereum), 9.50% APY, $1.41M TVL, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token; curve-dex (Ethereum), 7.25% APY, $4.81M TVL, https://www.defi.garden/?pool=3e889559-f3f0-4f36-93e6-5e7d2b33ed99&src=seo_token; convex-finance (Ethereum), 28.62% APY, $371K TVL, https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token; convex-finance (Ethereum), 13.30% APY, $1.41M TVL, https://www.defi.garden/?pool=0e818d38-c480-44a6-a533-5666ed59e50c&src=seo_token; convex-finance (Ethereum), 12.46% APY, $3.51M TVL, https://www.defi.garden/?pool=25d9dc49-3182-493a-bda4-0db53b25f457&src=seo_token; uniswap-v4 (Ethereum), 40.41% APY, $185.1K TVL, https://www.defi.garden/?pool=19a3e775-d12d-464d-b29e-4ee62b126812&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

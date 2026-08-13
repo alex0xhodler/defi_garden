@@ -8,11 +8,11 @@ The highest honest USDR yield right now is 0.22% on uniswap-v4 (Ethereum), among
 | [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.07% | $195.1K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDR's lower-variability candidates are uniswap-v4 (Ethereum), 0.07% APY, $195.1K TVL, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token; uniswap-v4 (Ethereum), 0.22% APY, $195.3K TVL, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.07% | $195.1K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token) | Ethereum | 0.22% | $195.3K |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDR pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDR's lower-variability candidates are uniswap-v4 (Ethereum), 0.07% APY, $195.1K TVL, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token; uniswap-v4 (Ethereum), 0.22% APY, $195.3K TVL, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

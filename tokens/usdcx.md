@@ -9,11 +9,11 @@ The highest honest USDCX yield right now is 92.84% on minswap-dex (Cardano), amo
 | [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 8.05% | $183.3K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USDCX's lower-variability candidates are yuzu-finance (Move), 11.72% APY, $1.04M TVL, https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token; minswap-dex (Cardano), 8.05% APY, $183.3K TVL, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; minswap-dex (Cardano), 92.84% APY, $203.3K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 11.72% | $1.04M |
 | 2 | [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 8.05% | $183.3K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USDCX pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USDCX's lower-variability candidates are yuzu-finance (Move), 11.72% APY, $1.04M TVL, https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token; minswap-dex (Cardano), 8.05% APY, $183.3K TVL, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; minswap-dex (Cardano), 92.84% APY, $203.3K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

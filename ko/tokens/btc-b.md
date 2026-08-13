@@ -14,11 +14,11 @@
 | [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 0.76% | $290.6K |
 
 <!-- rate-stability:ranked -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-APY 이력만 기준으로 비교한 BTC.B의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.01%, TVL $10.58M, https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token; Avalanche의 aave-v3, APY 0.01%, TVL $75.79M, https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token; Avalanche의 benqi-lending, APY 1.19%, TVL $4.21M, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token; Avalanche의 uniswap-v3, APY 4.02%, TVL $1.15M, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token; Avalanche의 pharaoh-v3, APY 19.15%, TVL $1.73M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; Avalanche의 uniswap-v3, APY 0.76%, TVL $290.6K, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token; Avalanche의 joe-v2.1, APY 0.38%, TVL $560.9K, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
-| 순위 | 프로토콜 | 체인 | APY | TVL |
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token) | Ethereum | 0.01% | $10.58M |
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $75.79M |
@@ -67,9 +67,9 @@ DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 19.15%�
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### BTC.B 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-APY 이력만 기준으로 비교한 BTC.B의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.01%, TVL $10.58M, https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token; Avalanche의 aave-v3, APY 0.01%, TVL $75.79M, https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token; Avalanche의 benqi-lending, APY 1.19%, TVL $4.21M, https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token; Avalanche의 uniswap-v3, APY 4.02%, TVL $1.15M, https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token; Avalanche의 pharaoh-v3, APY 19.15%, TVL $1.73M, https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token; Avalanche의 uniswap-v3, APY 0.76%, TVL $290.6K, https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token; Avalanche의 joe-v2.1, APY 0.38%, TVL $560.9K, https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

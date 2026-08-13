@@ -9,11 +9,11 @@ The highest honest CRV2POOL yield right now is 1.10% on convex-finance (Ethereum
 | [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 1.10% | $319.7K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, CRV2POOL's lower-variability candidates are curve-dex (Ethereum), 0.37% APY, $10.05M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; convex-finance (Ethereum), 1.10% APY, $319.7K TVL, https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token; curve-dex (Ethereum), 0.73% APY, $851.7K TVL, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.37% | $10.05M |
 | 2 | [convex-finance →](https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token) | Ethereum | 1.10% | $319.7K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which CRV2POOL pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, CRV2POOL's lower-variability candidates are curve-dex (Ethereum), 0.37% APY, $10.05M TVL, https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token; convex-finance (Ethereum), 1.10% APY, $319.7K TVL, https://www.defi.garden/?pool=7d067063-da6e-4f27-b948-44bc0657b643&src=seo_token; curve-dex (Ethereum), 0.73% APY, $851.7K TVL, https://www.defi.garden/?pool=c27e64f8-21d5-47a5-be7a-7d6382eb43a8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

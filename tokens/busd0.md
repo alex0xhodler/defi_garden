@@ -9,11 +9,11 @@ The highest honest BUSD0 yield right now is 2.50% on usual-usd0 (Ethereum), amon
 | [usual-usd0 →](https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token) | Arbitrum | 2.50% | $100.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BUSD0's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $1.75M TVL, https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token; usual-usd0 (Arbitrum), 2.50% APY, $100.2K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token; usual-usd0 (Ethereum), 2.50% APY, $505.35M TVL, https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.01% | $1.75M |
 | 2 | [usual-usd0 →](https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token) | Arbitrum | 2.50% | $100.2K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BUSD0 pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BUSD0's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $1.75M TVL, https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token; usual-usd0 (Arbitrum), 2.50% APY, $100.2K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token; usual-usd0 (Ethereum), 2.50% APY, $505.35M TVL, https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

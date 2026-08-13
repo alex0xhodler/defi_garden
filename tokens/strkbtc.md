@@ -14,11 +14,11 @@ The highest honest STRKBTC yield right now is 38.12% on ekubo (Starknet), among 
 | [troves →](https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token) | Starknet | 2.14% | $366.4K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, STRKBTC's lower-variability candidates are endur (Starknet), 1.83% APY, $415.2K TVL, https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token; ekubo (Starknet), 9.30% APY, $3.16M TVL, https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token; ekubo (Starknet), 6.01% APY, $589.6K TVL, https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token; troves (Starknet), 2.14% APY, $366.4K TVL, https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token; ekubo (Starknet), 12.68% APY, $1.29M TVL, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; troves (Starknet), 3.37% APY, $409K TVL, https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token; ekubo (Starknet), 17.02% APY, $824.3K TVL, https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token; ekubo (Starknet), 38.12% APY, $1.76M TVL, https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [endur →](https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token) | Starknet | 1.83% | $415.2K |
 | 2 | [ekubo →](https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token) | Starknet | 9.30% | $3.16M |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which STRKBTC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, STRKBTC's lower-variability candidates are endur (Starknet), 1.83% APY, $415.2K TVL, https://www.defi.garden/?pool=f4040a51-84b6-465a-8f7e-01ab64ad42f1&src=seo_token; ekubo (Starknet), 9.30% APY, $3.16M TVL, https://www.defi.garden/?pool=42284cfd-a59f-4128-8677-bbaeb0519148&src=seo_token; ekubo (Starknet), 6.01% APY, $589.6K TVL, https://www.defi.garden/?pool=5fe3a5c6-4423-48c7-a726-cbc269cfa390&src=seo_token; troves (Starknet), 2.14% APY, $366.4K TVL, https://www.defi.garden/?pool=b657e46f-3649-4efd-8ed0-29e29f36ef1b&src=seo_token; ekubo (Starknet), 12.68% APY, $1.29M TVL, https://www.defi.garden/?pool=fd90352e-6772-472c-a0d4-cdef49027da5&src=seo_token; troves (Starknet), 3.37% APY, $409K TVL, https://www.defi.garden/?pool=2785439d-0119-4f77-be2b-55231e49cff6&src=seo_token; ekubo (Starknet), 17.02% APY, $824.3K TVL, https://www.defi.garden/?pool=e9a4a3d6-c2fe-438b-88b4-d4ea598b6651&src=seo_token; ekubo (Starknet), 38.12% APY, $1.76M TVL, https://www.defi.garden/?pool=4d047314-ded1-4def-a372-b8e429759efb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

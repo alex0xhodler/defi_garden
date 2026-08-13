@@ -9,11 +9,11 @@ The highest honest STEAKEURC yield right now is 3.49% on morpho-blue (Base), amo
 | [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 2.42% | $652.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 3.46% APY, $775.1K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token; morpho-blue (Ethereum), 2.42% APY, $652.5K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token; morpho-blue (Base), 3.49% APY, $3.29M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.46% | $775.1K |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 2.42% | $652.5K |
@@ -51,9 +51,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which STEAKEURC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 3.46% APY, $775.1K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token; morpho-blue (Ethereum), 2.42% APY, $652.5K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token; morpho-blue (Base), 3.49% APY, $3.29M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

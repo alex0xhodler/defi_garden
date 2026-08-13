@@ -8,11 +8,11 @@ The highest honest AGUSDC yield right now is 9.76% on lagoon (Avalanche), among 
 | [gami-labs →](https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token) | Avalanche | 9.13% | $1.04M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (Avalanche), 9.13% APY, $1.04M TVL, https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token; lagoon (Avalanche), 9.76% APY, $1.04M TVL, https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [gami-labs →](https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token) | Avalanche | 9.13% | $1.04M |
 | 2 | [lagoon →](https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token) | Avalanche | 9.76% | $1.04M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which AGUSDC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (Avalanche), 9.13% APY, $1.04M TVL, https://www.defi.garden/?pool=3027f6e5-c7bf-4e44-a3a7-5e7211b374cc&src=seo_token; lagoon (Avalanche), 9.76% APY, $1.04M TVL, https://www.defi.garden/?pool=763f056b-94ce-47cc-843a-6beb6eee0946&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

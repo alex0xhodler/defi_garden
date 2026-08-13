@@ -9,11 +9,11 @@ The highest honest UNIETH yield right now is 2.34% on bedrock-unieth (Ethereum),
 | [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.03% | $423.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, UNIETH's lower-variability candidates are bedrock-unieth (Ethereum), 2.34% APY, $19.29M TVL, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token; curve-dex (Ethereum), 0.03% APY, $423.2K TVL, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.34% | $19.29M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token) | Ethereum | 0.03% | $423.2K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which UNIETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, UNIETH's lower-variability candidates are bedrock-unieth (Ethereum), 2.34% APY, $19.29M TVL, https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token; curve-dex (Ethereum), 0.03% APY, $423.2K TVL, https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -9,11 +9,11 @@ The highest honest ZORA yield right now is 7.46% on uniswap-v4 (Base), among 3 p
 | [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 7.46% | $122.2K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (Base), 7.46% APY, $122.2K TVL, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; uniswap-v4 (Base), 0.36% APY, $137.7K TVL, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; uniswap-v4 (Base), 2.47% APY, $467.2K TVL, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token) | Base | 7.46% | $122.2K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token) | Base | 0.36% | $137.7K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ZORA pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ZORA's lower-variability candidates are uniswap-v4 (Base), 7.46% APY, $122.2K TVL, https://www.defi.garden/?pool=35073fec-dc78-42ab-83c8-91e3c7c7c447&src=seo_token; uniswap-v4 (Base), 0.36% APY, $137.7K TVL, https://www.defi.garden/?pool=9c7ee6ef-37b9-497c-8d30-c2a62649d38b&src=seo_token; uniswap-v4 (Base), 2.47% APY, $467.2K TVL, https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

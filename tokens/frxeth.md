@@ -14,11 +14,11 @@ The highest honest FRXETH yield right now is 9.50% on curve-dex (Ethereum), amon
 | [curve-dex →](https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token) | Ethereum | 9.50% | $1.41M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, FRXETH's lower-variability candidates are uniswap-v3 (Ethereum), 0.29% APY, $2.43M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; curve-dex (Ethereum), 1.78% APY, $13.2M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; convex-finance (Ethereum), 1.13% APY, $5.74M TVL, https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token; convex-finance (Ethereum), 2.25% APY, $13.2M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; curve-dex (Ethereum), 0.73% APY, $7.62M TVL, https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token; curve-dex (Fraxtal), 3.21% APY, $1.98M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 1.18% APY, $5.3M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token; curve-dex (Ethereum), 9.50% APY, $1.41M TVL, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token) | Ethereum | 0.29% | $2.43M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token) | Ethereum | 1.78% | $13.2M |
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which FRXETH pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, FRXETH's lower-variability candidates are uniswap-v3 (Ethereum), 0.29% APY, $2.43M TVL, https://www.defi.garden/?pool=674bdd49-b1cc-4345-b75e-5bd7df953838&src=seo_token; curve-dex (Ethereum), 1.78% APY, $13.2M TVL, https://www.defi.garden/?pool=991df258-b474-4a40-8482-acf080e8ab39&src=seo_token; convex-finance (Ethereum), 1.13% APY, $5.74M TVL, https://www.defi.garden/?pool=4fc7d3dc-a6f0-40e6-af53-ab9d6b50b5c0&src=seo_token; convex-finance (Ethereum), 2.25% APY, $13.2M TVL, https://www.defi.garden/?pool=c9873dab-0979-478c-b48c-3c3a0c935449&src=seo_token; curve-dex (Ethereum), 0.73% APY, $7.62M TVL, https://www.defi.garden/?pool=5455e498-1ca6-4f36-80f4-cf6a2f977c51&src=seo_token; curve-dex (Fraxtal), 3.21% APY, $1.98M TVL, https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_token; curve-dex (Ethereum), 1.18% APY, $5.3M TVL, https://www.defi.garden/?pool=7619ddc5-29c3-4d65-b15e-9fb7abf0da88&src=seo_token; curve-dex (Ethereum), 9.50% APY, $1.41M TVL, https://www.defi.garden/?pool=2292999a-f229-4118-823b-3f43211edd4f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

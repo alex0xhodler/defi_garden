@@ -8,11 +8,11 @@ The highest honest ARC yield right now is 15.62% on raydium-amm (Solana), among 
 | [uniswap-v3 →](https://www.defi.garden/?pool=d68f716b-d900-45f5-9ad7-1d84d3532937&src=seo_token) | Arbitrum | 0.02% | $346.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, ARC's lower-variability candidates are uniswap-v3 (Arbitrum), 0.02% APY, $346.6K TVL, https://www.defi.garden/?pool=d68f716b-d900-45f5-9ad7-1d84d3532937&src=seo_token; raydium-amm (Solana), 15.62% APY, $3.97M TVL, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=d68f716b-d900-45f5-9ad7-1d84d3532937&src=seo_token) | Arbitrum | 0.02% | $346.6K |
 | 2 | [raydium-amm →](https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token) | Solana | 15.62% | $3.97M |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which ARC pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, ARC's lower-variability candidates are uniswap-v3 (Arbitrum), 0.02% APY, $346.6K TVL, https://www.defi.garden/?pool=d68f716b-d900-45f5-9ad7-1d84d3532937&src=seo_token; raydium-amm (Solana), 15.62% APY, $3.97M TVL, https://www.defi.garden/?pool=83e9a75a-881a-4e5a-9aaa-82e2140fa57d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

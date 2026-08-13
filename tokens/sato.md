@@ -8,11 +8,11 @@ The highest honest SATO yield right now is 9.40% on uniswap-v4 (Ethereum), among
 | [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 9.40% | $242.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 9.40% APY, $242.6K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 4.79% APY, $252.7K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v4 →](https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token) | Ethereum | 9.40% | $242.6K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token) | Ethereum | 4.79% | $252.7K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which SATO pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, SATO's lower-variability candidates are uniswap-v4 (Ethereum), 9.40% APY, $242.6K TVL, https://www.defi.garden/?pool=530f2e5c-94ee-43e9-b676-048b4f7065a5&src=seo_token; uniswap-v4 (Ethereum), 4.79% APY, $252.7K TVL, https://www.defi.garden/?pool=b15bfa27-2900-4362-aec1-3f9df2e88830&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

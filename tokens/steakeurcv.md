@@ -8,11 +8,11 @@ The highest honest STEAKEURCV yield right now is 3.00% on morpho-blue (Ethereum)
 | [morpho-blue →](https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3&src=seo_token) | Ethereum | 0.84% | $1.92M |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, STEAKEURCV's lower-variability candidates are morpho-blue (Ethereum), 0.84% APY, $1.92M TVL, https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3&src=seo_token; morpho-blue (Ethereum), 3.00% APY, $126.5M TVL, https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3&src=seo_token) | Ethereum | 0.84% | $1.92M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76&src=seo_token) | Ethereum | 3.00% | $126.5M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which STEAKEURCV pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, STEAKEURCV's lower-variability candidates are morpho-blue (Ethereum), 0.84% APY, $1.92M TVL, https://www.defi.garden/?pool=cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3&src=seo_token; morpho-blue (Ethereum), 3.00% APY, $126.5M TVL, https://www.defi.garden/?pool=d3b28212-a46b-4db8-8bb7-2c946b3cbe76&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

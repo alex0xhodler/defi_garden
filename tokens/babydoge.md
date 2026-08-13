@@ -8,11 +8,11 @@ The highest honest BABYDOGE yield right now is 6.07% on raydium-amm (Solana), am
 | [raydium-amm →](https://www.defi.garden/?pool=3bfab9b1-eb28-4a08-85c3-97ab77590eff&src=seo_token) | Solana | 6.07% | $161.5K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, BABYDOGE's lower-variability candidates are raydium-amm (Solana), 6.07% APY, $161.5K TVL, https://www.defi.garden/?pool=3bfab9b1-eb28-4a08-85c3-97ab77590eff&src=seo_token; uniswap-v3 (Ethereum), 0.29% APY, $729.6K TVL, https://www.defi.garden/?pool=e3004fe1-6e4b-4011-9be2-848052c8634c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=3bfab9b1-eb28-4a08-85c3-97ab77590eff&src=seo_token) | Solana | 6.07% | $161.5K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e3004fe1-6e4b-4011-9be2-848052c8634c&src=seo_token) | Ethereum | 0.29% | $729.6K |
@@ -50,9 +50,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which BABYDOGE pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, BABYDOGE's lower-variability candidates are raydium-amm (Solana), 6.07% APY, $161.5K TVL, https://www.defi.garden/?pool=3bfab9b1-eb28-4a08-85c3-97ab77590eff&src=seo_token; uniswap-v3 (Ethereum), 0.29% APY, $729.6K TVL, https://www.defi.garden/?pool=e3004fe1-6e4b-4011-9be2-848052c8634c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

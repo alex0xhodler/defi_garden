@@ -9,11 +9,11 @@ The highest honest VCHF yield right now is 7.87% on icpswap (ICP), among 3 pools
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token) | Base | 7.43% | $185.6K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, VCHF's lower-variability candidates are raydium-amm (Solana), 0.16% APY, $309.2K TVL, https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token; icpswap (ICP), 7.87% APY, $447.6K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token; aerodrome-slipstream (Base), 7.43% APY, $185.6K TVL, https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token) | Solana | 0.16% | $309.2K |
 | 2 | [icpswap →](https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token) | ICP | 7.87% | $447.6K |
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which VCHF pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, VCHF's lower-variability candidates are raydium-amm (Solana), 0.16% APY, $309.2K TVL, https://www.defi.garden/?pool=0305fcf7-ae22-4d91-a1d1-eb8da4ce9109&src=seo_token; icpswap (ICP), 7.87% APY, $447.6K TVL, https://www.defi.garden/?pool=8f3e0a00-3b1c-4e87-ac0d-117c3e057248&src=seo_token; aerodrome-slipstream (Base), 7.43% APY, $185.6K TVL, https://www.defi.garden/?pool=4f407ce1-6415-4729-9917-5c6057344618&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

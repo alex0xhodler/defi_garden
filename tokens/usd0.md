@@ -11,11 +11,11 @@ The highest honest USD0 yield right now is 0.56% on euler-v2 (Ethereum), among 5
 | [curve-dex →](https://www.defi.garden/?pool=23a68630-c706-4ed3-bb31-92868a15050b&src=seo_token) | Ethereum | 0.03% | $615.8K |
 
 <!-- rate-stability:ranked -->
-## Rate stability from APY history
+## tcpRateStabilityHeading
 
-Based on APY history only, USD0's lower-variability candidates are uniswap-v3 (Ethereum), 0.25% APY, $3.56M TVL, https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token; euler-v2 (Ethereum), 0.56% APY, $10.67M TVL, https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token; curve-dex (Ethereum), 0.01% APY, $1.75M TVL, https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token; curve-dex (Ethereum), 0.03% APY, $615.8K TVL, https://www.defi.garden/?pool=23a68630-c706-4ed3-bb31-92868a15050b&src=seo_token; uniswap-v3 (Ethereum), 0.27% APY, $1.76M TVL, https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
-| Rank | Protocol | Chain | APY | TVL |
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token) | Ethereum | 0.25% | $3.56M |
 | 2 | [euler-v2 →](https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token) | Ethereum | 0.56% | $10.67M |
@@ -57,9 +57,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### Which USD0 pools have the most stable APY history?
+### tcpRateStabilityFaqQ
 
-Based on APY history only, USD0's lower-variability candidates are uniswap-v3 (Ethereum), 0.25% APY, $3.56M TVL, https://www.defi.garden/?pool=752413a7-1a7e-4d76-9f34-89568ba026ee&src=seo_token; euler-v2 (Ethereum), 0.56% APY, $10.67M TVL, https://www.defi.garden/?pool=4d48ed69-2a14-4609-91c0-bc129a6dc586&src=seo_token; curve-dex (Ethereum), 0.01% APY, $1.75M TVL, https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token; curve-dex (Ethereum), 0.03% APY, $615.8K TVL, https://www.defi.garden/?pool=23a68630-c706-4ed3-bb31-92868a15050b&src=seo_token; uniswap-v3 (Ethereum), 0.27% APY, $1.76M TVL, https://www.defi.garden/?pool=97bd40a6-c57e-4c32-8ee3-3fcfdc1faf9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

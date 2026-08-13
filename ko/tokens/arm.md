@@ -11,9 +11,9 @@
 | [origin-arm →](https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token) | Ethereum | 11.43% | $200.2K |
 
 <!-- rate-stability:insufficient -->
-## APY 이력 기반 수익률 안정성
+## tcpRateStabilityHeading
 
-비교할 수 있는 ARM 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityInsufficientAnswer
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -51,9 +51,9 @@ DefiLlama 실시간 데이터 기준, Ethereum의 origin-arm에서 APY 11.43%예
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### ARM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+### tcpRateStabilityFaqQ
 
-비교할 수 있는 ARM 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+tcpRateStabilityInsufficientAnswer
 
 ## 관련 토큰
 
