@@ -18,18 +18,26 @@ Token pages led with one representative current rate, while comparative rate beh
 - The plain lane passes 64/64 after replacing four default parameters with explicit nullish fallbacks; zero-argument rendering stays unchanged while the exhaustive arity probe now covers those numeric arguments.
 =======
 - Live generation used 15,607 pools and produced 2,069 token records with 795 sitemap heads. Two runs retained the same generated population.
+<<<<<<< HEAD
 - The pre-existing translation arity baseline remains 13 assertions with four known zero-argument entries.
 >>>>>>> 78a1faa4a6 (feat(discovery): add citation-ready rate stability)
+=======
+- The plain lane passes 64/64 after replacing four default parameters with explicit nullish fallbacks; zero-argument rendering stays unchanged while the exhaustive arity probe now covers those numeric arguments.
+>>>>>>> abfe876b1c (docs(loop): record item 279 verification)
 
 ## Browser evidence
 Real generated pages showed AAVEUSDC ranked in EN at desktop and mobile widths and in KO; 0X0 showed the insufficient-history state.
 
 ## Review
 <<<<<<< HEAD
+<<<<<<< HEAD
 Attempt 1 is IN_REVIEW. The first reviewer returned AMEND because source attribution was missing from generated links; `src=seo_token` was added. Focused re-review and final review both returned PASS.
 =======
 Attempt 1 is IN_REVIEW. The reviewer returned AMEND because source attribution was missing from generated links; `src=seo_token` was added. That amendment has not yet been re-reviewed.
 >>>>>>> 78a1faa4a6 (feat(discovery): add citation-ready rate stability)
+=======
+Attempt 1 is IN_REVIEW. The first reviewer returned AMEND because source attribution was missing from generated links; `src=seo_token` was added. Focused re-review and final review both returned PASS.
+>>>>>>> abfe876b1c (docs(loop): record item 279 verification)
 
 ## Risk and outcome boundary
 HIGH: the generated delta is very large because this is the expected estate-wide clean cutover. No traffic or citation outcome follows from generation; the retrieval/read/citation ladder remains gated. No `docs.md` exists in the affected area, so no Noridoc changed.
