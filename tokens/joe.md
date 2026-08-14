@@ -1,10 +1,15 @@
 # JOE DeFi Yields
 
-The highest honest JOE yield right now is 1.26% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JOE yield right now is 1.16% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=86e7d910-b29c-49d7-8183-e8f52932cc64&src=seo_token) | Ethereum | 1.26% | $1.15M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=86e7d910-b29c-49d7-8183-e8f52932cc64&src=seo_token) | Ethereum | 1.16% | $1.15M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank JOE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JOE yield today?
 
-1.26% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JOE pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which JOE pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank JOE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

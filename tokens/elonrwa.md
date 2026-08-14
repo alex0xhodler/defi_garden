@@ -4,7 +4,12 @@ The highest honest ELONRWA yield right now is 0.19% on uniswap-v3 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ed44cc7-d8cc-41fc-9362-9f891f49a860&src=seo_token) | Base | 0.19% | $426K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ed44cc7-d8cc-41fc-9362-9f891f49a860&src=seo_token) | Base | 0.19% | $423.2K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank ELONRWA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ELONRWA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $426K in total.
+1 live pool clear this page's $100K TVL floor, $423.2K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which ELONRWA pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank ELONRWA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

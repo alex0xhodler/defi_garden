@@ -1,10 +1,15 @@
 # CADD DeFi Yields
 
-The highest honest CADD yield right now is 25.57% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CADD yield right now is 25.43% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ed8f9cf1-457b-5185-bc81-e16a7c637bf8&src=seo_token) | Ethereum | 25.57% | $305.1K |
+| [curve-dex →](https://www.defi.garden/?pool=ed8f9cf1-457b-5185-bc81-e16a7c637bf8&src=seo_token) | Ethereum | 25.43% | $305.1K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank CADD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CADD yield today?
 
-25.57% APY on curve-dex (Ethereum), based on live DefiLlama data.
+25.43% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many CADD pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which CADD pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank CADD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

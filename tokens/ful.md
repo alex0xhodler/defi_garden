@@ -4,7 +4,12 @@ The highest honest FUL yield right now is 0.22% on vvs-standard (Cronos), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.22% | $382.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.22% | $386K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank FUL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FUL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $382.3K in total.
+1 live pool clear this page's $100K TVL floor, $386K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which FUL pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank FUL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

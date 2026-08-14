@@ -4,9 +4,20 @@ The highest honest NYA yield right now is 0.02% on uniswap-v3 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token) | Base | 0.01% | $147.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token) | Arbitrum | 0.02% | $146.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $146.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token) | Base | 0.01% | $146.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token) | Arbitrum | 0.02% | $146K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $145.9K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (OP Mainnet), 0.01% APY, $145.9K TVL, https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token; uniswap-v3 (Arbitrum), 0.02% APY, $146K TVL, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token; uniswap-v3 (Base), 0.01% APY, $146.2K TVL, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token) | OP Mainnet | 0.01% | $145.9K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token) | Arbitrum | 0.02% | $146K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token) | Base | 0.01% | $146.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -36,11 +47,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NYA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $440.4K in total.
+3 live pools clear this page's $100K TVL floor, $438.1K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which NYA pools have the most stable APY history?
+
+Based on APY history only, NYA's lower-variability candidates are uniswap-v3 (OP Mainnet), 0.01% APY, $145.9K TVL, https://www.defi.garden/?pool=7bd9c764-36e6-4fc6-b816-a96109a6faf0&src=seo_token; uniswap-v3 (Arbitrum), 0.02% APY, $146K TVL, https://www.defi.garden/?pool=4b0214bf-be80-464d-9058-8712af9c0cab&src=seo_token; uniswap-v3 (Base), 0.01% APY, $146.2K TVL, https://www.defi.garden/?pool=89b0b4fd-06ff-4d9c-813a-4c0ed46a294c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

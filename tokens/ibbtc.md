@@ -4,7 +4,12 @@ The highest honest IBBTC yield right now is 0.14% on sushiswap-v3 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=017c340c-3778-419d-be57-1a6032e05e9f&src=seo_token) | Ethereum | 0.14% | $165.2K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=017c340c-3778-419d-be57-1a6032e05e9f&src=seo_token) | Ethereum | 0.14% | $164.6K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank IBBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IBBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.2K in total.
+1 live pool clear this page's $100K TVL floor, $164.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which IBBTC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank IBBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

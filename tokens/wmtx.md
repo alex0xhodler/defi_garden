@@ -1,10 +1,15 @@
 # WMTX DeFi Yields
 
-The highest honest WMTX yield right now is 14.58% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WMTX yield right now is 14.64% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=517adad1-55e2-45a9-99fd-fbb75bc78ef6&src=seo_token) | Cardano | 14.58% | $146.5K |
+| [minswap-dex →](https://www.defi.garden/?pool=517adad1-55e2-45a9-99fd-fbb75bc78ef6&src=seo_token) | Cardano | 14.64% | $145.9K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank WMTX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WMTX yield today?
 
-14.58% APY on minswap-dex (Cardano), based on live DefiLlama data.
+14.64% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many WMTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146.5K in total.
+1 live pool clear this page's $100K TVL floor, $145.9K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which WMTX pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank WMTX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

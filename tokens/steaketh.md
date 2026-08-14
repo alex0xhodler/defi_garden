@@ -4,10 +4,22 @@ The highest honest STEAKETH yield right now is 2.80% on morpho-blue (Monad), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.80% | $37.89M |
-| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 1.81% | $23.11M |
-| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 1.93% | $16.79M |
-| [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token) | Base | 1.44% | $1.15M |
+| [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.80% | $37.67M |
+| [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 1.73% | $22.98M |
+| [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 1.93% | $16.69M |
+| [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token) | Base | 1.44% | $1.14M |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, STEAKETH's lower-variability candidates are morpho-blue (Ethereum), 1.93% APY, $16.69M TVL, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token; morpho-blue (Ethereum), 1.73% APY, $22.98M TVL, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token; morpho-blue (Base), 1.44% APY, $1.14M TVL, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token; morpho-blue (Monad), 2.80% APY, $37.67M TVL, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token) | Ethereum | 1.93% | $16.69M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token) | Ethereum | 1.73% | $22.98M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token) | Base | 1.44% | $1.14M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token) | Monad | 2.80% | $37.67M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,9 +33,9 @@ STEAKETH shows up in 4 pools here, with rates from 1.44% to 2.80% APY across 3 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 2.80% | 3.10% | 53.26% incentives |
-| morpho-blue | 1.81% | 1.73% | Base rate |
-| morpho-blue | 1.93% | 1.72% | Base rate |
+| morpho-blue | 2.80% | 3.10% | 53.20% incentives |
+| morpho-blue | 1.73% | 1.73% | Base rate |
+| morpho-blue | 1.93% | 1.73% | Base rate |
 | morpho-blue | 1.44% | 1.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -36,11 +48,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STEAKETH pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $79.05M in total.
+5 live pools clear this page's $100K TVL floor, $78.59M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which STEAKETH pools have the most stable APY history?
+
+Based on APY history only, STEAKETH's lower-variability candidates are morpho-blue (Ethereum), 1.93% APY, $16.69M TVL, https://www.defi.garden/?pool=1b2ca876-3a09-4261-a685-7818260bdc67&src=seo_token; morpho-blue (Ethereum), 1.73% APY, $22.98M TVL, https://www.defi.garden/?pool=eed40ce3-ca1a-4433-b3e1-0689ed33d5cd&src=seo_token; morpho-blue (Base), 1.44% APY, $1.14M TVL, https://www.defi.garden/?pool=0a00bb9a-bad6-41ca-92e5-d6b9ad24857e&src=seo_token; morpho-blue (Monad), 2.80% APY, $37.67M TVL, https://www.defi.garden/?pool=22f041f7-8313-43c2-b319-bcf70f5ee2aa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

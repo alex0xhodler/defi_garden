@@ -1,10 +1,15 @@
 # CTR DeFi Yields
 
-The highest honest CTR yield right now is 45.76% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CTR yield right now is 19.95% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=034cab88-03cc-4e10-98fe-a1ecb6aa8083&src=seo_token) | Base | 45.76% | $277.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=034cab88-03cc-4e10-98fe-a1ecb6aa8083&src=seo_token) | Base | 19.95% | $277.2K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank CTR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CTR yield today?
 
-45.76% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+19.95% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $277.9K in total.
+1 live pool clear this page's $100K TVL floor, $277.2K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which CTR pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank CTR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

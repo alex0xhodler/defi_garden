@@ -1,6 +1,6 @@
 # XMR DeFi Yields
 
-The highest honest XMR yield right now is 38.45% on raydium-amm (Solana), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XMR yield right now is 38.45% on raydium-amm (Solana), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -12,6 +12,11 @@ The highest honest XMR yield right now is 38.45% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=37215baf-7ff3-562c-9437-babd4c99d351&src=seo_token) | Solana | 38.45% | $150K |
 | [raydium-amm →](https://www.defi.garden/?pool=0bebf26c-31c1-5997-bd1c-43a96e231508&src=seo_token) | Solana | 30.69% | $114.2K |
 | [raydium-amm →](https://www.defi.garden/?pool=bbb4b449-7ae7-5a78-ae83-8b1101341ed8&src=seo_token) | Solana | 18.83% | $100.3K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank XMR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -46,11 +51,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XMR pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $1.69M in total.
+14 live pools clear this page's $100K TVL floor, $1.79M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which XMR pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank XMR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

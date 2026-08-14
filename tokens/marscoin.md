@@ -8,6 +8,11 @@ The highest honest MARSCOIN yield right now is 0.02% on raydium-amm (Solana), am
 | [raydium-amm →](https://www.defi.garden/?pool=55fb9b53-ba64-5f34-bd7e-3adc98a197a8&src=seo_token) | Solana | 0.02% | $58.95M |
 | [raydium-amm →](https://www.defi.garden/?pool=5fc831f1-b421-5e93-87a5-6c03774c8f1e&src=seo_token) | Solana | 0.02% | $27.08M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank MARSCOIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -41,6 +46,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which MARSCOIN pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank MARSCOIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

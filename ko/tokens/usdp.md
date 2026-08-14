@@ -7,6 +7,16 @@
 | [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 12.16% | $1.07M |
 | [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.60% | $685.5K |
 
+<!-- rate-stability:ranked -->
+## APY 이력 기반 수익률 안정성
+
+APY 이력만 기준으로 비교한 USDP의 변동성 낮은 후보는 Hyperliquid L1의 balancer-v3, APY 12.16%, TVL $1.07M, https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token; Avalanche의 balancer-v3, APY 10.60%, TVL $685.5K, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+
+| 순위 | 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|---|
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 12.16% | $1.07M |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.60% | $685.5K |
+
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
@@ -38,6 +48,10 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 balancer-v3에서 APY 12
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
+### USDP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+
+APY 이력만 기준으로 비교한 USDP의 변동성 낮은 후보는 Hyperliquid L1의 balancer-v3, APY 12.16%, TVL $1.07M, https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token; Avalanche의 balancer-v3, APY 10.60%, TVL $685.5K, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
@@ -45,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 balancer-v3에서 APY 12
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
+- [VBILL](https://www.defi.garden/ko/tokens/vbill)
 
 ## 이용 가능한 체인
 

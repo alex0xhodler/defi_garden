@@ -1,10 +1,15 @@
 # XAGM DeFi Yields
 
-The highest honest XAGM yield right now is 11.59% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAGM yield right now is 11.53% on bluefin-spot (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 11.59% | $151.7K |
+| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 11.53% | $151.7K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank XAGM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XAGM yield today?
 
-11.59% APY on bluefin-spot (Sui), based on live DefiLlama data.
+11.53% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many XAGM pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which XAGM pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank XAGM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

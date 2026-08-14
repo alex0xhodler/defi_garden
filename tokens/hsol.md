@@ -4,8 +4,18 @@ The highest honest HSOL yield right now is 5.73% on helius-staked-sol (Solana), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [helius-staked-sol →](https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301&src=seo_token) | Solana | 5.73% | $68.61M |
-| [project-0 →](https://www.defi.garden/?pool=0987e700-a43d-4c5b-b226-2d61f4390f0b&src=seo_token) | Solana | 0.01% | $211.3K |
+| [helius-staked-sol →](https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301&src=seo_token) | Solana | 5.73% | $68.43M |
+| [project-0 →](https://www.defi.garden/?pool=0987e700-a43d-4c5b-b226-2d61f4390f0b&src=seo_token) | Solana | 0.01% | $210.4K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, HSOL's lower-variability candidates are project-0 (Solana), 0.01% APY, $210.4K TVL, https://www.defi.garden/?pool=0987e700-a43d-4c5b-b226-2d61f4390f0b&src=seo_token; helius-staked-sol (Solana), 5.73% APY, $68.43M TVL, https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [project-0 →](https://www.defi.garden/?pool=0987e700-a43d-4c5b-b226-2d61f4390f0b&src=seo_token) | Solana | 0.01% | $210.4K |
+| 2 | [helius-staked-sol →](https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301&src=seo_token) | Solana | 5.73% | $68.43M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,11 +42,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $89.46M in total.
+3 live pools clear this page's $100K TVL floor, $89.19M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which HSOL pools have the most stable APY history?
+
+Based on APY history only, HSOL's lower-variability candidates are project-0 (Solana), 0.01% APY, $210.4K TVL, https://www.defi.garden/?pool=0987e700-a43d-4c5b-b226-2d61f4390f0b&src=seo_token; helius-staked-sol (Solana), 5.73% APY, $68.43M TVL, https://www.defi.garden/?pool=d7e101d6-8e6c-4348-9c5f-62398872a301&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

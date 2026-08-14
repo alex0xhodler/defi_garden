@@ -4,7 +4,12 @@ The highest honest WPE yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=528328a8-1883-4732-b9fe-a2ff0471ec50&src=seo_token) | Ethereum | 0.01% | $111.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=528328a8-1883-4732-b9fe-a2ff0471ec50&src=seo_token) | Ethereum | 0.01% | $111K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank WPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.6K in total.
+1 live pool clear this page's $100K TVL floor, $111K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which WPE pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank WPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

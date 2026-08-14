@@ -4,7 +4,12 @@ The highest honest SAN yield right now is 0.13% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token) | Ethereum | 0.13% | $484.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token) | Ethereum | 0.13% | $482.1K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SAN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,11 +37,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SAN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $661.1K in total.
+2 live pools clear this page's $100K TVL floor, $658.4K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SAN pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SAN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

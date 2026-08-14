@@ -7,6 +7,16 @@ The highest honest HAY yield right now is 0.05% on wombat-exchange (BSC), among 
 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.02% | $3.1M |
 | [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.8K |
 
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, HAY's lower-variability candidates are wombat-exchange (BSC), 0.05% APY, $363.8K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (BSC), 0.02% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.8K |
+| 2 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.02% | $3.1M |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -39,6 +49,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which HAY pools have the most stable APY history?
+
+Based on APY history only, HAY's lower-variability candidates are wombat-exchange (BSC), 0.05% APY, $363.8K TVL, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; wombat-exchange (BSC), 0.02% APY, $3.1M TVL, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

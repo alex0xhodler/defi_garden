@@ -4,16 +4,21 @@ The highest honest TRC20 yield right now is 30.55% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=767edfe8-2990-5bdc-aa01-26d326781c32&src=seo_token) | Solana | 21.24% | $100.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=767edfe8-2990-5bdc-aa01-26d326781c32&src=seo_token) | Solana | 25.04% | $100.4K |
 | [raydium-amm →](https://www.defi.garden/?pool=03ef5f8e-7c6e-5b83-97c0-8c32d3dfcc0d&src=seo_token) | Solana | 30.55% | $100.1K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank TRC20 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TRC20 shows up in 2 pools here, with rates from 21.24% to 30.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRC20 shows up in 2 pools here, with rates from 25.04% to 30.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 21.24% | 17.84% | Base rate |
+| raydium-amm | 25.04% | 19.35% | Base rate |
 | raydium-amm | 30.55% | 24.54% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,6 +44,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which TRC20 pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank TRC20 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

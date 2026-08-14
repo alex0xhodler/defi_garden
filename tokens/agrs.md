@@ -1,10 +1,15 @@
 # AGRS DeFi Yields
 
-The highest honest AGRS yield right now is 7.71% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AGRS yield right now is 6.97% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=346f7a36-701c-4998-afdb-3a609bb77127&src=seo_token) | Ethereum | 7.71% | $128.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=346f7a36-701c-4998-afdb-3a609bb77127&src=seo_token) | Ethereum | 6.97% | $128.5K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank AGRS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AGRS yield today?
 
-7.71% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+6.97% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AGRS pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which AGRS pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank AGRS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

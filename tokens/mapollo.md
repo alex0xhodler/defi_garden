@@ -7,6 +7,16 @@ The highest honest MAPOLLO yield right now is 8.79% on pendle (Ethereum), among 
 | [pendle →](https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token) | Ethereum | 8.79% | $2.91M |
 | [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 7.93% | $2.91M |
 
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, MAPOLLO's lower-variability candidates are pendle (Ethereum), 7.93% APY, $2.91M TVL, https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token; pendle (Ethereum), 8.79% APY, $2.91M TVL, https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 7.93% | $2.91M |
+| 2 | [pendle →](https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token) | Ethereum | 8.79% | $2.91M |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -37,6 +47,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which MAPOLLO pools have the most stable APY history?
+
+Based on APY history only, MAPOLLO's lower-variability candidates are pendle (Ethereum), 7.93% APY, $2.91M TVL, https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token; pendle (Ethereum), 8.79% APY, $2.91M TVL, https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

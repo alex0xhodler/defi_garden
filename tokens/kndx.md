@@ -4,7 +4,12 @@ The highest honest KNDX yield right now is 0.04% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b2b1e5e2-0623-4cc6-9cc0-f3b35679c5bc&src=seo_token) | Ethereum | 0.04% | $115.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b2b1e5e2-0623-4cc6-9cc0-f3b35679c5bc&src=seo_token) | Ethereum | 0.04% | $114.7K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank KNDX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KNDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.3K in total.
+1 live pool clear this page's $100K TVL floor, $114.7K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which KNDX pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank KNDX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

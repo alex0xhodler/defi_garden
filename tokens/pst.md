@@ -7,6 +7,16 @@ The highest honest PST yield right now is 0.23% on kamino-liquidity (Solana), am
 | [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.03% | $3.19M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token) | Solana | 0.23% | $1.39M |
 
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, PST's lower-variability candidates are orca-dex (Solana), 0.03% APY, $3.19M TVL, https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token; kamino-liquidity (Solana), 0.23% APY, $1.39M TVL, https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.03% | $3.19M |
+| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token) | Solana | 0.23% | $1.39M |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -34,11 +44,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PST pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $90.2M in total.
+9 live pools clear this page's $100K TVL floor, $90.18M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which PST pools have the most stable APY history?
+
+Based on APY history only, PST's lower-variability candidates are orca-dex (Solana), 0.03% APY, $3.19M TVL, https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token; kamino-liquidity (Solana), 0.23% APY, $1.39M TVL, https://www.defi.garden/?pool=93c0c806-6d48-4899-bc63-4505e4ffcd15&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

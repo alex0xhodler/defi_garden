@@ -6,6 +6,11 @@ The highest honest TSLA yield right now is 53.68% on gmtrade (Solana), among 2 p
 |---|---|---|---|
 | [gmtrade →](https://www.defi.garden/?pool=e61dbb1b-24aa-4380-a001-644d2c68b2ce&src=seo_token) | Solana | 53.68% | $216.1K |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank TSLA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -37,6 +42,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which TSLA pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank TSLA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

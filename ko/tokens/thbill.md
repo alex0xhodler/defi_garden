@@ -7,7 +7,19 @@
 | [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.45% | $84.89M |
 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.45% | $1.41M |
 | [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.45% | $696.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.07% | $179.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.07% | $179.8K |
+
+<!-- rate-stability:ranked -->
+## APY 이력 기반 수익률 안정성
+
+APY 이력만 기준으로 비교한 THBILL의 변동성 낮은 후보는 Arbitrum의 theo-network-thbill, APY 3.45%, TVL $696.4K, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; Ethereum의 theo-network-thbill, APY 3.45%, TVL $84.89M, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; Hyperliquid L1의 theo-network-thbill, APY 3.45%, TVL $1.41M, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; Arbitrum의 uniswap-v3, APY 0.07%, TVL $179.8K, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+
+| 순위 | 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|---|
+| 1 | [theo-network-thbill →](https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token) | Arbitrum | 3.45% | $696.4K |
+| 2 | [theo-network-thbill →](https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token) | Ethereum | 3.45% | $84.89M |
+| 3 | [theo-network-thbill →](https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token) | Hyperliquid L1 | 3.45% | $1.41M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token) | Arbitrum | 0.07% | $179.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -38,11 +50,15 @@ DefiLlama 실시간 데이터 기준, Ethereum의 theo-network-thbill에서 APY 
 
 ### THBILL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $158.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $158.81M예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
+
+### THBILL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+
+APY 이력만 기준으로 비교한 THBILL의 변동성 낮은 후보는 Arbitrum의 theo-network-thbill, APY 3.45%, TVL $696.4K, https://www.defi.garden/?pool=406c2d1b-e2e6-4512-9bae-3ce861ee8052&src=seo_token; Ethereum의 theo-network-thbill, APY 3.45%, TVL $84.89M, https://www.defi.garden/?pool=e17dab50-85b1-45e8-b4a5-b8ae7898c4a3&src=seo_token; Hyperliquid L1의 theo-network-thbill, APY 3.45%, TVL $1.41M, https://www.defi.garden/?pool=79b09234-3993-4b35-9ba0-4b9bafd35ba9&src=seo_token; Arbitrum의 uniswap-v3, APY 0.07%, TVL $179.8K, https://www.defi.garden/?pool=6bc0ba8d-4c5d-4d34-bd66-990692f75c3f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

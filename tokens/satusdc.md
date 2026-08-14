@@ -7,6 +7,11 @@ The highest honest SATUSDC yield right now is 5.92% on morpho-blue (Monad), amon
 | [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 5.92% | $1.77M |
 | [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 4.76% | $1.11M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SATUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -19,7 +24,7 @@ SATUSDC shows up in 2 pools here, with rates from 4.76% to 5.92% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.92% | 7.07% | 29.10% incentives |
+| morpho-blue | 5.92% | 7.06% | 29.08% incentives |
 | morpho-blue | 4.76% | 5.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -37,6 +42,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SATUSDC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SATUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

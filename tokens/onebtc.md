@@ -4,7 +4,12 @@ The highest honest ONEBTC yield right now is 0.29% on sushiswap (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=cc148927-5f55-4af2-9f6b-a96a0a919f0c&src=seo_token) | Ethereum | 0.29% | $269.4K |
+| [sushiswap →](https://www.defi.garden/?pool=cc148927-5f55-4af2-9f6b-a96a0a919f0c&src=seo_token) | Ethereum | 0.29% | $268.9K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank ONEBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ONEBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $269.4K in total.
+1 live pool clear this page's $100K TVL floor, $268.9K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which ONEBTC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank ONEBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

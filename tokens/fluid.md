@@ -4,7 +4,12 @@ The highest honest FLUID yield right now is 0.05% on uniswap-v3 (Base), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2edfe9c4-2e3b-4cc7-8bd3-7383a8f0b343&src=seo_token) | Base | 0.05% | $188.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2edfe9c4-2e3b-4cc7-8bd3-7383a8f0b343&src=seo_token) | Base | 0.05% | $187.8K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank FLUID pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,11 +37,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FLUID pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.79M in total.
+4 live pools clear this page's $100K TVL floor, $3.78M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which FLUID pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank FLUID pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

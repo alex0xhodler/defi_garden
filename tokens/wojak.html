@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"WOJAK","item":"https://www.defi.garden/tokens/wojak"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"uniswap-v2 on Ethereum","url":"https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b"},{"@type":"ListItem","position":2,"name":"uniswap-v2 on Ethereum","url":"https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0"},{"@type":"ListItem","position":3,"name":"raydium-amm on Solana","url":"https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"WOJAK DeFi Yields Dataset","description":"Live DefiLlama yield data for WOJAK pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/wojak","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest WOJAK yield today?","acceptedAnswer":{"@type":"Answer","text":"0.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many WOJAK pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear this page's $100K TVL floor, $1.62M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest WOJAK yield today?","acceptedAnswer":{"@type":"Answer","text":"0.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many WOJAK pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear this page's $100K TVL floor, $1.62M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which WOJAK pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, WOJAK's lower-variability candidates are uniswap-v2 (Ethereum), 0.06% APY, $621.7K TVL, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token; uniswap-v2 (Ethereum), 28.05% APY, $895.4K TVL, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token; raydium-amm (Solana), 3.72% APY, $104.8K TVL, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="WOJAK DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="3 live WOJAK pools above the $100K TVL floor, up to 0.06% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -97,8 +102,8 @@
     <h1>WOJAK DeFi Yields</h1>
     <p class="tp-answer">The highest honest WOJAK yield right now is 0.06% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">3 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">WOJAK's largest live pool is uniswap-v2 on Ethereum at 24.20% ($894.9K TVL). 3 WOJAK pools across 2 chains clear this page's $100K TVL floor, $1.62M in total.</p>
-    <p class="tp-yield-headline">Your idle WOJAK could earn ~3.90% — park $6.2K and it could run a $20/mo Claude Pro subscription, forever.</p>
+    <p class="intro">WOJAK's largest live pool is uniswap-v2 on Ethereum at 28.05% ($895.4K TVL). 3 WOJAK pools across 2 chains clear this page's $100K TVL floor, $1.62M in total.</p>
+    <p class="tp-yield-headline">Your idle WOJAK could earn ~3.72% — park $6.5K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=WOJAK&minTvl=100000&src=seo_token">See live WOJAK pools →</a>
     <div class="tp-card">
     <div class="scroll">
@@ -110,29 +115,65 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&src=seo_token">uniswap-v2 &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">24.20%</td>
-          <td class="num">$894.9K</td>
+          <td class="num">28.05%</td>
+          <td class="num">$895.4K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&src=seo_token">uniswap-v2 &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">0.06%</td>
-          <td class="num">$623K</td>
+          <td class="num">$621.7K</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&src=seo_token">raydium-amm &rarr;</a></td>
           <td>Solana</td>
-          <td class="num">3.90%</td>
-          <td class="num">$105.5K</td>
+          <td class="num">3.72%</td>
+          <td class="num">$104.8K</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
+      <h2>Rate stability from APY history</h2>
+      <p>Based on APY history only, WOJAK&#39;s lower-variability candidates are uniswap-v2 (Ethereum), 0.06% APY, $621.7K TVL, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&amp;src=seo_token; uniswap-v2 (Ethereum), 28.05% APY, $895.4K TVL, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&amp;src=seo_token; raydium-amm (Solana), 3.72% APY, $104.8K TVL, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
+      <div class="tp-card">
+      <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">Rank</th><th>Protocol</th><th>Chain</th><th class="num">APY</th><th class="num">TVL</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="num">1</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&amp;src=seo_token">uniswap-v2 &rarr;</a></td>
+            <td>Ethereum</td>
+            <td class="num">0.06%</td>
+            <td class="num">$621.7K</td>
+          </tr>
+          <tr>
+            <td class="num">2</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&amp;src=seo_token">uniswap-v2 &rarr;</a></td>
+            <td>Ethereum</td>
+            <td class="num">28.05%</td>
+            <td class="num">$895.4K</td>
+          </tr>
+          <tr>
+            <td class="num">3</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&amp;src=seo_token">raydium-amm &rarr;</a></td>
+            <td>Solana</td>
+            <td class="num">3.72%</td>
+            <td class="num">$104.8K</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+    </section>
     <section class="tp-depth" aria-label="How this rate has behaved">
       <h2>How this rate has behaved</h2>
-    <p>WOJAK shows up in 3 pools here, with rates from 0.06% to 24.20% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
-    <p>3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.42% — a useful check against today&#39;s number for whether the rate is steady or just having a good day.</p>
+    <p>WOJAK shows up in 3 pools here, with rates from 0.06% to 28.05% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
+    <p>3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.43% — a useful check against today&#39;s number for whether the rate is steady or just having a good day.</p>
     <p>All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.</p>
     <p>3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.</p>
       <div class="tp-card">
@@ -144,8 +185,8 @@
         <tbody>
         <tr>
           <td>uniswap-v2</td>
-          <td class="num">24.20%</td>
-          <td class="num">15.44%</td>
+          <td class="num">28.05%</td>
+          <td class="num">15.48%</td>
           <td class="num">Base rate</td>
         </tr>
         <tr>
@@ -156,8 +197,8 @@
         </tr>
         <tr>
           <td>raydium-amm</td>
-          <td class="num">3.90%</td>
-          <td class="num">2.42%</td>
+          <td class="num">3.72%</td>
+          <td class="num">2.43%</td>
           <td class="num">Base rate</td>
         </tr>
         </tbody>
@@ -179,6 +220,10 @@
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Which WOJAK pools have the most stable APY history?</h3>
+          <p class="tp-faq-a">Based on APY history only, WOJAK&#39;s lower-variability candidates are uniswap-v2 (Ethereum), 0.06% APY, $621.7K TVL, https://www.defi.garden/?pool=d55be5c3-1f73-457b-91d6-e0061e5570d0&amp;src=seo_token; uniswap-v2 (Ethereum), 28.05% APY, $895.4K TVL, https://www.defi.garden/?pool=f4e58fa4-d718-4b19-afc0-48ebb704609b&amp;src=seo_token; raydium-amm (Solana), 3.72% APY, $104.8K TVL, https://www.defi.garden/?pool=dac75713-4172-4ca1-972c-6fab5b995ef5&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
         </div>
     </section>
     <nav class="related" aria-label="Related tokens">

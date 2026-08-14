@@ -4,7 +4,12 @@ The highest honest URKO yield right now is 0.41% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a59f9326-fa35-467b-94b4-59adcace403e&src=seo_token) | Solana | 0.41% | $129.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=a59f9326-fa35-467b-94b4-59adcace403e&src=seo_token) | Solana | 0.41% | $118.5K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank URKO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many URKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.7K in total.
+1 live pool clear this page's $100K TVL floor, $118.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which URKO pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank URKO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

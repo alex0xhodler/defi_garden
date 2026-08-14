@@ -7,6 +7,16 @@ The highest honest WNVDAX yield right now is 0.53% on uniswap-v3 (Ethereum), amo
 | [uniswap-v3 →](https://www.defi.garden/?pool=b3ca8d99-2013-4ecb-b26b-06480ea25a08&src=seo_token) | Ethereum | 0.53% | $336K |
 | [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.36% | $113.1K |
 
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, WNVDAX's lower-variability candidates are uniswap-v3 (Ethereum), 0.53% APY, $336K TVL, https://www.defi.garden/?pool=b3ca8d99-2013-4ecb-b26b-06480ea25a08&src=seo_token; fluxion-network (Mantle), 0.36% APY, $113.1K TVL, https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b3ca8d99-2013-4ecb-b26b-06480ea25a08&src=seo_token) | Ethereum | 0.53% | $336K |
+| 2 | [fluxion-network →](https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token) | Mantle | 0.36% | $113.1K |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -39,6 +49,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which WNVDAX pools have the most stable APY history?
+
+Based on APY history only, WNVDAX's lower-variability candidates are uniswap-v3 (Ethereum), 0.53% APY, $336K TVL, https://www.defi.garden/?pool=b3ca8d99-2013-4ecb-b26b-06480ea25a08&src=seo_token; fluxion-network (Mantle), 0.36% APY, $113.1K TVL, https://www.defi.garden/?pool=2a510869-6356-4486-8bb5-d5a808634496&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

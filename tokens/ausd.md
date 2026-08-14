@@ -4,14 +4,29 @@ The highest honest AUSD yield right now is 8.15% on accountable (Monad), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.25% | $383.47M |
-| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.83% | $110.04M |
-| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.93% | $41.62M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.25% | $383.54M |
+| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.82% | $110.06M |
+| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.93% | $41.63M |
 | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.15% | $30.08M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.79% | $29.07M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.80% | $29.08M |
 | [curve-dex →](https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token) | Ethereum | 0.01% | $25M |
 | [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $22.84M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.35% | $3.88M |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, AUSD's lower-variability candidates are curvance (Monad), 0.20% APY, $22.84M TVL, https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token; curve-dex (Ethereum), 0.01% APY, $25M TVL, https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token; uniswap-v4 (Monad), 0.35% APY, $3.88M TVL, https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token; uniswap-v3 (Ethereum), 0.80% APY, $29.08M TVL, https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token; accountable (Monad), 6.82% APY, $110.06M TVL, https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token; centrifuge-protocol (Ethereum), 5.25% APY, $383.54M TVL, https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token; euler-v2 (Monad), 6.93% APY, $41.63M TVL, https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $22.84M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token) | Ethereum | 0.01% | $25M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.35% | $3.88M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.80% | $29.08M |
+| 5 | [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.82% | $110.06M |
+| 6 | [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.25% | $383.54M |
+| 7 | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.93% | $41.63M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +34,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 AUSD shows up in 8 pools here, with rates from 0.01% to 8.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -28,10 +43,10 @@ AUSD shows up in 8 pools here, with rates from 0.01% to 8.15% APY across 2 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | centrifuge-protocol | 5.25% | 4.51% | Base rate |
-| accountable | 6.83% | 6.81% | 4.08% incentives |
+| accountable | 6.82% | 6.81% | 4.05% incentives |
 | euler-v2 | 6.93% | 7.38% | 18.03% incentives |
-| accountable | 8.15% | 5.48% | 17.18% incentives |
-| uniswap-v3 | 0.79% | 0.38% | Base rate |
+| accountable | 8.15% | 5.49% | 17.18% incentives |
+| uniswap-v3 | 0.80% | 0.38% | Base rate |
 | curve-dex | 0.01% | 0.01% | Base rate |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 | uniswap-v4 | 0.35% | 0.14% | Base rate |
@@ -46,11 +61,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AUSD pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $686.38M in total.
+33 live pools clear this page's $100K TVL floor, $686.47M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which AUSD pools have the most stable APY history?
+
+Based on APY history only, AUSD's lower-variability candidates are curvance (Monad), 0.20% APY, $22.84M TVL, https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token; curve-dex (Ethereum), 0.01% APY, $25M TVL, https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token; uniswap-v4 (Monad), 0.35% APY, $3.88M TVL, https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token; uniswap-v3 (Ethereum), 0.80% APY, $29.08M TVL, https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token; accountable (Monad), 6.82% APY, $110.06M TVL, https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token; centrifuge-protocol (Ethereum), 5.25% APY, $383.54M TVL, https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token; euler-v2 (Monad), 6.93% APY, $41.63M TVL, https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

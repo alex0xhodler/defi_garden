@@ -4,7 +4,12 @@ The highest honest CTWBTC yield right now is 2.53% on concrete (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=41d4d267-8a93-4c7a-bdd8-8ad4f78d5bd2&src=seo_token) | Ethereum | 2.53% | $1.85M |
+| [concrete →](https://www.defi.garden/?pool=41d4d267-8a93-4c7a-bdd8-8ad4f78d5bd2&src=seo_token) | Ethereum | 2.53% | $1.84M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank CTWBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,13 +17,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 CTWBTC shows up in 1 pools here, with rates from 2.53% to 2.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| concrete | 2.53% | 1.67% | Base rate |
+| concrete | 2.53% | 1.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +35,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CTWBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $20.51M in total.
+2 live pools clear this page's $100K TVL floor, $20.44M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which CTWBTC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank CTWBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

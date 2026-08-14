@@ -1,19 +1,31 @@
 # HYPERUSDCA DeFi Yields
 
-The highest honest HYPERUSDCA yield right now is 8.77% on morpho-blue (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYPERUSDCA yield right now is 8.76% on morpho-blue (Monad), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.77% | $55.86M |
+| [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.76% | $55.82M |
 | [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.38% | $4.81M |
 | [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.48% | $2.42M |
-| [morpho-blue →](https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token) | Arbitrum | 3.24% | $457.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token) | Arbitrum | 3.27% | $457.6K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, HYPERUSDCA's lower-variability candidates are morpho-blue (Ethereum), 6.38% APY, $4.81M TVL, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; morpho-blue (Monad), 8.76% APY, $55.82M TVL, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; morpho-blue (Arbitrum), 3.27% APY, $457.6K TVL, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; morpho-blue (Ethereum), 7.48% APY, $2.42M TVL, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token) | Ethereum | 6.38% | $4.81M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token) | Monad | 8.76% | $55.82M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token) | Arbitrum | 3.27% | $457.6K |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token) | Ethereum | 7.48% | $2.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HYPERUSDCA shows up in 4 pools here, with rates from 3.24% to 8.77% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+HYPERUSDCA shows up in 4 pools here, with rates from 3.27% to 8.76% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,10 +33,10 @@ HYPERUSDCA shows up in 4 pools here, with rates from 3.24% to 8.77% APY across 3
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 8.77% | 9.60% | 12.34% incentives |
+| morpho-blue | 8.76% | 9.61% | 12.30% incentives |
 | morpho-blue | 6.38% | 6.10% | Base rate |
 | morpho-blue | 7.48% | 7.14% | Base rate |
-| morpho-blue | 3.24% | 3.48% | Base rate |
+| morpho-blue | 3.27% | 3.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,15 +44,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HYPERUSDCA yield today?
 
-8.77% APY on morpho-blue (Monad), based on live DefiLlama data.
+8.76% APY on morpho-blue (Monad), based on live DefiLlama data.
 
 ### How many HYPERUSDCA pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $63.55M in total.
+4 live pools clear this page's $100K TVL floor, $63.51M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which HYPERUSDCA pools have the most stable APY history?
+
+Based on APY history only, HYPERUSDCA's lower-variability candidates are morpho-blue (Ethereum), 6.38% APY, $4.81M TVL, https://www.defi.garden/?pool=5a55b869-de6e-42ba-9091-6ee0e02525c2&src=seo_token; morpho-blue (Monad), 8.76% APY, $55.82M TVL, https://www.defi.garden/?pool=ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb&src=seo_token; morpho-blue (Arbitrum), 3.27% APY, $457.6K TVL, https://www.defi.garden/?pool=646df9da-01ef-4da5-9746-acbf12f70cfa&src=seo_token; morpho-blue (Ethereum), 7.48% APY, $2.42M TVL, https://www.defi.garden/?pool=3d438f2e-0022-4814-80be-f626ba8fcd40&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

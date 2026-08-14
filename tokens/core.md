@@ -7,6 +7,16 @@ The highest honest CORE yield right now is 13.92% on b14g (CORE), among 4 pools 
 | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token) | CORE | 13.92% | $1.7M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.18% | $1.55M |
 
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.18% APY, $1.55M TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; b14g (CORE), 13.92% APY, $1.7M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.18% | $1.55M |
+| 2 | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token) | CORE | 13.92% | $1.7M |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -34,11 +44,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CORE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.57M in total.
+4 live pools clear this page's $100K TVL floor, $4.56M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which CORE pools have the most stable APY history?
+
+Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.18% APY, $1.55M TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; b14g (CORE), 13.92% APY, $1.7M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

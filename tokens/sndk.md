@@ -1,10 +1,15 @@
 # SNDK DeFi Yields
 
-The highest honest SNDK yield right now is 34.42% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNDK yield right now is 32.89% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8&src=seo_token) | Solana | 34.42% | $488.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8&src=seo_token) | Solana | 32.89% | $462.5K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SNDK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNDK yield today?
 
-34.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+32.89% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SNDK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $488.8K in total.
+1 live pool clear this page's $100K TVL floor, $462.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SNDK pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SNDK pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

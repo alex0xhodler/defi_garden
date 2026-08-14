@@ -4,7 +4,12 @@ The highest honest CHKN yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b591a7c5-9f62-4c91-babd-4f127d5ea9be&src=seo_token) | Ethereum | 0.01% | $626.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b591a7c5-9f62-4c91-babd-4f127d5ea9be&src=seo_token) | Ethereum | 0.01% | $623.6K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank CHKN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CHKN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $626.8K in total.
+1 live pool clear this page's $100K TVL floor, $623.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which CHKN pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank CHKN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"NVDA","item":"https://www.defi.garden/tokens/nvda"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"gmtrade on Solana","url":"https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7"},{"@type":"ListItem","position":2,"name":"defichain-dex on Defichain","url":"https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"NVDA DeFi Yields Dataset","description":"Live DefiLlama yield data for NVDA pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/nvda","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest NVDA yield today?","acceptedAnswer":{"@type":"Answer","text":"35.22% APY on gmtrade (Solana), based on live DefiLlama data."}},{"@type":"Question","name":"How many NVDA pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"2 live pools clear this page's $100K TVL floor, $717.5K in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest NVDA yield today?","acceptedAnswer":{"@type":"Answer","text":"35.22% APY on gmtrade (Solana), based on live DefiLlama data."}},{"@type":"Question","name":"How many NVDA pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"2 live pools clear this page's $100K TVL floor, $717.6K in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which NVDA pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, NVDA's lower-variability candidates are defichain-dex (Defichain), 0.10% APY, $149.5K TVL, https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_token; gmtrade (Solana), 35.22% APY, $568.1K TVL, https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="NVDA DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="2 live NVDA pools above the $100K TVL floor, up to 35.22% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -97,7 +102,7 @@
     <h1>NVDA DeFi Yields</h1>
     <p class="tp-answer">The highest honest NVDA yield right now is 35.22% on gmtrade (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">2 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">NVDA's largest live pool is gmtrade on Solana at 35.22% ($568.1K TVL). 2 NVDA pools across 2 chains clear this page's $100K TVL floor, $717.5K in total.</p>
+    <p class="intro">NVDA's largest live pool is gmtrade on Solana at 35.22% ($568.1K TVL). 2 NVDA pools across 2 chains clear this page's $100K TVL floor, $717.6K in total.</p>
     <p class="tp-yield-headline">Your idle NVDA could earn ~17.66% — park $1.4K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=NVDA&minTvl=100000&src=seo_token">See live NVDA pools →</a>
     <div class="tp-card">
@@ -123,10 +128,39 @@
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
+      <h2>Rate stability from APY history</h2>
+      <p>Based on APY history only, NVDA&#39;s lower-variability candidates are defichain-dex (Defichain), 0.10% APY, $149.5K TVL, https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&amp;src=seo_token; gmtrade (Solana), 35.22% APY, $568.1K TVL, https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
+      <div class="tp-card">
+      <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">Rank</th><th>Protocol</th><th>Chain</th><th class="num">APY</th><th class="num">TVL</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="num">1</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&amp;src=seo_token">defichain-dex &rarr;</a></td>
+            <td>Defichain</td>
+            <td class="num">0.10%</td>
+            <td class="num">$149.5K</td>
+          </tr>
+          <tr>
+            <td class="num">2</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&amp;src=seo_token">gmtrade &rarr;</a></td>
+            <td>Solana</td>
+            <td class="num">35.22%</td>
+            <td class="num">$568.1K</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+    </section>
     <section class="tp-depth" aria-label="How this rate has behaved">
       <h2>How this rate has behaved</h2>
     <p>NVDA shows up in 2 pools here, with rates from 0.10% to 35.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
-    <p>2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.76% — a useful check against today&#39;s number for whether the rate is steady or just having a good day.</p>
+    <p>2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.75% — a useful check against today&#39;s number for whether the rate is steady or just having a good day.</p>
     <p>All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.</p>
     <p>2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.</p>
       <div class="tp-card">
@@ -139,13 +173,13 @@
         <tr>
           <td>gmtrade</td>
           <td class="num">35.22%</td>
-          <td class="num">37.51%</td>
+          <td class="num">37.49%</td>
           <td class="num">Base rate</td>
         </tr>
         <tr>
           <td>defichain-dex</td>
           <td class="num">0.10%</td>
-          <td class="num">0.01%</td>
+          <td class="num">0.02%</td>
           <td class="num">Base rate</td>
         </tr>
         </tbody>
@@ -162,11 +196,15 @@
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">How many NVDA pools clear the TVL floor?</h3>
-          <p class="tp-faq-a">2 live pools clear this page&#39;s $100K TVL floor, $717.5K in total.</p>
+          <p class="tp-faq-a">2 live pools clear this page&#39;s $100K TVL floor, $717.6K in total.</p>
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Which NVDA pools have the most stable APY history?</h3>
+          <p class="tp-faq-a">Based on APY history only, NVDA&#39;s lower-variability candidates are defichain-dex (Defichain), 0.10% APY, $149.5K TVL, https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&amp;src=seo_token; gmtrade (Solana), 35.22% APY, $568.1K TVL, https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
         </div>
     </section>
     <nav class="related" aria-label="Related tokens">

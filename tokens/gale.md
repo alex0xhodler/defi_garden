@@ -6,6 +6,11 @@ The highest honest GALE yield right now is 0.04% on uniswap-v2 (Base), among 1 p
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=42ab0e83-5b89-4f2e-8936-bf48da38203e&src=seo_token) | Base | 0.04% | $137.3K |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank GALE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which GALE pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank GALE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

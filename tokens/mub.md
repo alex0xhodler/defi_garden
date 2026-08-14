@@ -4,7 +4,12 @@ The highest honest MUB yield right now is 0.26% on native-credit-pool (BSC), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=1687633e-61ff-49d4-9256-5734ba06e595&src=seo_token) | BSC | 0.26% | $352.3K |
+| [native-credit-pool →](https://www.defi.garden/?pool=1687633e-61ff-49d4-9256-5734ba06e595&src=seo_token) | BSC | 0.26% | $352.6K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank MUB pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MUB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $352.3K in total.
+1 live pool clear this page's $100K TVL floor, $352.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which MUB pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank MUB pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

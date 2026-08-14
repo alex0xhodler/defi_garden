@@ -4,7 +4,12 @@ The highest honest FLOKI yield right now is 0.03% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=542cda14-2cee-4069-b83c-328b93910dbf&src=seo_token) | Ethereum | 0.03% | $5.85M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=542cda14-2cee-4069-b83c-328b93910dbf&src=seo_token) | Ethereum | 0.03% | $5.82M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank FLOKI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,11 +37,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FLOKI pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $6.35M in total.
+4 live pools clear this page's $100K TVL floor, $6.33M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which FLOKI pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank FLOKI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

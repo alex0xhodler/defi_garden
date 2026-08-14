@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"VBILL","item":"https://www.defi.garden/tokens/vbill"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"vaneck-treasury-fund on Avalanche","url":"https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3"},{"@type":"ListItem","position":2,"name":"vaneck-treasury-fund on Ethereum","url":"https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d"},{"@type":"ListItem","position":3,"name":"vaneck-treasury-fund on BSC","url":"https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76"},{"@type":"ListItem","position":4,"name":"vaneck-treasury-fund on Solana","url":"https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"VBILL DeFi Yields Dataset","description":"Live DefiLlama yield data for VBILL pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/vbill","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest VBILL yield today?","acceptedAnswer":{"@type":"Answer","text":"3.53% APY on vaneck-treasury-fund (Avalanche), based on live DefiLlama data."}},{"@type":"Question","name":"How many VBILL pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"5 live pools clear this page's $100K TVL floor, $199.49M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest VBILL yield today?","acceptedAnswer":{"@type":"Answer","text":"3.53% APY on vaneck-treasury-fund (Avalanche), based on live DefiLlama data."}},{"@type":"Question","name":"How many VBILL pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"5 live pools clear this page's $100K TVL floor, $199.49M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which VBILL pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, VBILL's lower-variability candidates are vaneck-treasury-fund (Ethereum), 3.53% APY, $21.67M TVL, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&src=seo_token; vaneck-treasury-fund (Avalanche), 3.53% APY, $136.15M TVL, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&src=seo_token; vaneck-treasury-fund (BSC), 3.53% APY, $21.49M TVL, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&src=seo_token; vaneck-treasury-fund (Solana), 3.53% APY, $13.92M TVL, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="VBILL DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="5 live VBILL pools above the $100K TVL floor, up to 3.53% APY, across 4 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -135,6 +140,49 @@
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
+      <h2>Rate stability from APY history</h2>
+      <p>Based on APY history only, VBILL&#39;s lower-variability candidates are vaneck-treasury-fund (Ethereum), 3.53% APY, $21.67M TVL, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&amp;src=seo_token; vaneck-treasury-fund (Avalanche), 3.53% APY, $136.15M TVL, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&amp;src=seo_token; vaneck-treasury-fund (BSC), 3.53% APY, $21.49M TVL, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&amp;src=seo_token; vaneck-treasury-fund (Solana), 3.53% APY, $13.92M TVL, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
+      <div class="tp-card">
+      <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">Rank</th><th>Protocol</th><th>Chain</th><th class="num">APY</th><th class="num">TVL</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="num">1</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&amp;src=seo_token">vaneck-treasury-fund &rarr;</a></td>
+            <td>Ethereum</td>
+            <td class="num">3.53%</td>
+            <td class="num">$21.67M</td>
+          </tr>
+          <tr>
+            <td class="num">2</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&amp;src=seo_token">vaneck-treasury-fund &rarr;</a></td>
+            <td>Avalanche</td>
+            <td class="num">3.53%</td>
+            <td class="num">$136.15M</td>
+          </tr>
+          <tr>
+            <td class="num">3</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&amp;src=seo_token">vaneck-treasury-fund &rarr;</a></td>
+            <td>BSC</td>
+            <td class="num">3.53%</td>
+            <td class="num">$21.49M</td>
+          </tr>
+          <tr>
+            <td class="num">4</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&amp;src=seo_token">vaneck-treasury-fund &rarr;</a></td>
+            <td>Solana</td>
+            <td class="num">3.53%</td>
+            <td class="num">$13.92M</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+    </section>
     <section class="tp-depth" aria-label="How this rate has behaved">
       <h2>How this rate has behaved</h2>
     <p>VBILL shows up in 4 pools here, with rates from 3.53% to 3.53% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
@@ -190,6 +238,10 @@
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Which VBILL pools have the most stable APY history?</h3>
+          <p class="tp-faq-a">Based on APY history only, VBILL&#39;s lower-variability candidates are vaneck-treasury-fund (Ethereum), 3.53% APY, $21.67M TVL, https://www.defi.garden/?pool=7fb382fb-fdc0-438f-bb5e-fc21f0351a7d&amp;src=seo_token; vaneck-treasury-fund (Avalanche), 3.53% APY, $136.15M TVL, https://www.defi.garden/?pool=5663e2ef-7e9c-4755-9701-9b59b90dbba3&amp;src=seo_token; vaneck-treasury-fund (BSC), 3.53% APY, $21.49M TVL, https://www.defi.garden/?pool=2f7d9d91-af21-4424-92e4-1c8aef7e8f76&amp;src=seo_token; vaneck-treasury-fund (Solana), 3.53% APY, $13.92M TVL, https://www.defi.garden/?pool=5857cb89-c6e0-4a53-84b3-9e4d3135fbb5&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
         </div>
     </section>
     <nav class="related" aria-label="Related tokens">

@@ -6,6 +6,11 @@ The highest honest HMSTR yield right now is 4.05% on raydium-amm (Solana), among
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=60b30c76-5792-5d1f-abbd-44a19a7c593b&src=seo_token) | Solana | 4.05% | $181.9K |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank HMSTR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which HMSTR pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank HMSTR pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

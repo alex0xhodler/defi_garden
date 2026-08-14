@@ -6,6 +6,11 @@ The highest honest WLFI yield right now is 0.01% on uniswap-v3 (Ethereum), among
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=9b8344e7-531f-436e-a025-1967bbef465e&src=seo_token) | Ethereum | 0.01% | $1.41M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank WLFI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -32,11 +37,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WLFI pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $285.59M in total.
+7 live pools clear this page's $100K TVL floor, $285.58M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which WLFI pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank WLFI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

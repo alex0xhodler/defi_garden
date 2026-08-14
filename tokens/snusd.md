@@ -7,6 +7,16 @@ The highest honest SNUSD yield right now is 8.19% on pendle (Ethereum), among 3 
 | [pendle →](https://www.defi.garden/?pool=d2934348-da5a-4514-9095-3a73c2be6bbd&src=seo_token) | Ethereum | 5.41% | $4.25M |
 | [pendle →](https://www.defi.garden/?pool=b83a966f-1228-4a4f-ad9d-ef3553cb6e05&src=seo_token) | Ethereum | 8.19% | $4.25M |
 
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, SNUSD's lower-variability candidates are pendle (Ethereum), 5.41% APY, $4.25M TVL, https://www.defi.garden/?pool=d2934348-da5a-4514-9095-3a73c2be6bbd&src=seo_token; pendle (Ethereum), 8.19% APY, $4.25M TVL, https://www.defi.garden/?pool=b83a966f-1228-4a4f-ad9d-ef3553cb6e05&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [pendle →](https://www.defi.garden/?pool=d2934348-da5a-4514-9095-3a73c2be6bbd&src=seo_token) | Ethereum | 5.41% | $4.25M |
+| 2 | [pendle →](https://www.defi.garden/?pool=b83a966f-1228-4a4f-ad9d-ef3553cb6e05&src=seo_token) | Ethereum | 8.19% | $4.25M |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -20,7 +30,7 @@ SNUSD shows up in 2 pools here, with rates from 5.41% to 8.19% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | pendle | 5.41% | 6.35% | 5.67% incentives |
-| pendle | 8.19% | 9.38% | Base rate |
+| pendle | 8.19% | 9.39% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,6 +47,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SNUSD pools have the most stable APY history?
+
+Based on APY history only, SNUSD's lower-variability candidates are pendle (Ethereum), 5.41% APY, $4.25M TVL, https://www.defi.garden/?pool=d2934348-da5a-4514-9095-3a73c2be6bbd&src=seo_token; pendle (Ethereum), 8.19% APY, $4.25M TVL, https://www.defi.garden/?pool=b83a966f-1228-4a4f-ad9d-ef3553cb6e05&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

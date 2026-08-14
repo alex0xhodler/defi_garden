@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"MON","item":"https://www.defi.garden/tokens/mon"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"uniswap-v4 on Monad","url":"https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea"},{"@type":"ListItem","position":2,"name":"uniswap-v4 on Monad","url":"https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8"},{"@type":"ListItem","position":3,"name":"uniswap-v4 on Monad","url":"https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5"},{"@type":"ListItem","position":4,"name":"uniswap-v4 on Monad","url":"https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"MON DeFi Yields Dataset","description":"Live DefiLlama yield data for MON pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/mon","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest MON yield today?","acceptedAnswer":{"@type":"Answer","text":"12.60% APY on uniswap-v4 (Monad), based on live DefiLlama data."}},{"@type":"Question","name":"How many MON pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear this page's $100K TVL floor, $6.38M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest MON yield today?","acceptedAnswer":{"@type":"Answer","text":"12.60% APY on uniswap-v4 (Monad), based on live DefiLlama data."}},{"@type":"Question","name":"How many MON pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"4 live pools clear this page's $100K TVL floor, $6.38M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which MON pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, MON's lower-variability candidates are uniswap-v4 (Monad), 0.01% APY, $1.38M TVL, https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&src=seo_token; uniswap-v4 (Monad), 7.26% APY, $1.49M TVL, https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&src=seo_token; uniswap-v4 (Monad), 8.81% APY, $1.43M TVL, https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&src=seo_token; uniswap-v4 (Monad), 12.60% APY, $2.08M TVL, https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="MON DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="4 live MON pools above the $100K TVL floor, up to 12.60% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -135,10 +140,53 @@
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
+      <h2>Rate stability from APY history</h2>
+      <p>Based on APY history only, MON&#39;s lower-variability candidates are uniswap-v4 (Monad), 0.01% APY, $1.38M TVL, https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&amp;src=seo_token; uniswap-v4 (Monad), 7.26% APY, $1.49M TVL, https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&amp;src=seo_token; uniswap-v4 (Monad), 8.81% APY, $1.43M TVL, https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&amp;src=seo_token; uniswap-v4 (Monad), 12.60% APY, $2.08M TVL, https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
+      <div class="tp-card">
+      <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">Rank</th><th>Protocol</th><th>Chain</th><th class="num">APY</th><th class="num">TVL</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="num">1</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&amp;src=seo_token">uniswap-v4 &rarr;</a></td>
+            <td>Monad</td>
+            <td class="num">0.01%</td>
+            <td class="num">$1.38M</td>
+          </tr>
+          <tr>
+            <td class="num">2</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&amp;src=seo_token">uniswap-v4 &rarr;</a></td>
+            <td>Monad</td>
+            <td class="num">7.26%</td>
+            <td class="num">$1.49M</td>
+          </tr>
+          <tr>
+            <td class="num">3</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&amp;src=seo_token">uniswap-v4 &rarr;</a></td>
+            <td>Monad</td>
+            <td class="num">8.81%</td>
+            <td class="num">$1.43M</td>
+          </tr>
+          <tr>
+            <td class="num">4</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&amp;src=seo_token">uniswap-v4 &rarr;</a></td>
+            <td>Monad</td>
+            <td class="num">12.60%</td>
+            <td class="num">$2.08M</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+    </section>
     <section class="tp-depth" aria-label="How this rate has behaved">
       <h2>How this rate has behaved</h2>
     <p>MON shows up in 4 pools here, with rates from 0.01% to 12.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
-    <p>4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.91% — a useful check against today&#39;s number for whether the rate is steady or just having a good day.</p>
+    <p>4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.90% — a useful check against today&#39;s number for whether the rate is steady or just having a good day.</p>
     <p>All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.</p>
     <p>4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.</p>
       <div class="tp-card">
@@ -163,7 +211,7 @@
         <tr>
           <td>uniswap-v4</td>
           <td class="num">8.81%</td>
-          <td class="num">8.56%</td>
+          <td class="num">8.55%</td>
           <td class="num">Base rate</td>
         </tr>
         <tr>
@@ -192,16 +240,20 @@
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
         </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Which MON pools have the most stable APY history?</h3>
+          <p class="tp-faq-a">Based on APY history only, MON&#39;s lower-variability candidates are uniswap-v4 (Monad), 0.01% APY, $1.38M TVL, https://www.defi.garden/?pool=0b49d3c0-f01d-59c5-af01-e083594d160f&amp;src=seo_token; uniswap-v4 (Monad), 7.26% APY, $1.49M TVL, https://www.defi.garden/?pool=c2105b6c-6313-5495-b2bb-0dae37acdce8&amp;src=seo_token; uniswap-v4 (Monad), 8.81% APY, $1.43M TVL, https://www.defi.garden/?pool=391b065e-fa38-5796-a47b-c99d664e15f5&amp;src=seo_token; uniswap-v4 (Monad), 12.60% APY, $2.08M TVL, https://www.defi.garden/?pool=4480844a-3f6b-5cfe-953e-6146f9c2f6ea&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
+        </div>
     </section>
     <nav class="related" aria-label="Related tokens">
       <h2>Related tokens</h2>
       <div class="related-links">
-        <a href="https://www.defi.garden/tokens/usdc">USDC</a>
         <a href="https://www.defi.garden/tokens/weth">WETH</a>
         <a href="https://www.defi.garden/tokens/susde">SUSDE</a>
         <a href="https://www.defi.garden/tokens/usde">USDE</a>
         <a href="https://www.defi.garden/tokens/lbtc">LBTC</a>
         <a href="https://www.defi.garden/tokens/ausd">AUSD</a>
+        <a href="https://www.defi.garden/tokens/btc">BTC</a>
       </div>
     </nav>
     <nav class="related xlink-chains" aria-label="Chains">

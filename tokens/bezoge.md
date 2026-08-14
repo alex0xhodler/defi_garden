@@ -4,7 +4,12 @@ The highest honest BEZOGE yield right now is 0.01% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d0b647f3-ecbc-495f-a5a8-e8b3f35bfbcb&src=seo_token) | Ethereum | 0.01% | $106.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d0b647f3-ecbc-495f-a5a8-e8b3f35bfbcb&src=seo_token) | Ethereum | 0.01% | $106.4K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank BEZOGE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BEZOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.7K in total.
+1 live pool clear this page's $100K TVL floor, $106.4K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which BEZOGE pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank BEZOGE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -1,10 +1,15 @@
 # PEPECAT DeFi Yields
 
-The highest honest PEPECAT yield right now is 5.82% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPECAT yield right now is 5.31% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d3df0f29-4f6b-41eb-80b9-4de0a1312298&src=seo_token) | Solana | 5.82% | $210.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=d3df0f29-4f6b-41eb-80b9-4de0a1312298&src=seo_token) | Solana | 5.31% | $209.5K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank PEPECAT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEPECAT yield today?
 
-5.82% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.31% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PEPECAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $210.8K in total.
+1 live pool clear this page's $100K TVL floor, $209.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which PEPECAT pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank PEPECAT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,6 +6,11 @@ The highest honest OTFY yield right now is 0.04% on raydium-amm (Solana), among 
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=3237c68c-add4-5adf-8d9c-00b24bd0c7b0&src=seo_token) | Solana | 0.04% | $792.6K |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank OTFY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -37,6 +42,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which OTFY pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank OTFY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

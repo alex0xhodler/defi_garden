@@ -6,6 +6,11 @@ The highest honest HUSDT yield right now is 2.57% on morpho-blue (Ethereum), amo
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=ab3e992c-dffc-4895-a1a7-58f23460b092&src=seo_token) | Ethereum | 2.57% | $6.99M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank HUSDT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which HUSDT pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank HUSDT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

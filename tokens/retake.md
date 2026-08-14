@@ -4,7 +4,12 @@ The highest honest RETAKE yield right now is 0.04% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0227ec55-ad24-4c11-aa77-883f2f312237&src=seo_token) | Base | 0.04% | $182.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0227ec55-ad24-4c11-aa77-883f2f312237&src=seo_token) | Base | 0.04% | $181.3K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank RETAKE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RETAKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.3K in total.
+1 live pool clear this page's $100K TVL floor, $181.3K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which RETAKE pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank RETAKE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

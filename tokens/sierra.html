@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"SIERRA","item":"https://www.defi.garden/tokens/sierra"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"pendle on Ethereum","url":"https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b"},{"@type":"ListItem","position":2,"name":"pendle on Ethereum","url":"https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18"},{"@type":"ListItem","position":3,"name":"uniswap-v4 on Ethereum","url":"https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83"},{"@type":"ListItem","position":4,"name":"joe-v2.2 on Avalanche","url":"https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"SIERRA DeFi Yields Dataset","description":"Live DefiLlama yield data for SIERRA pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/sierra","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest SIERRA yield today?","acceptedAnswer":{"@type":"Answer","text":"8.11% APY on pendle (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many SIERRA pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"5 live pools clear this page's $100K TVL floor, $22.65M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest SIERRA yield today?","acceptedAnswer":{"@type":"Answer","text":"8.11% APY on pendle (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many SIERRA pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"5 live pools clear this page's $100K TVL floor, $22.65M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which SIERRA pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"There is not enough qualifying APY history to rank SIERRA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="SIERRA DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="5 live SIERRA pools above the $100K TVL floor, up to 8.11% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -98,7 +103,7 @@
     <p class="tp-answer">The highest honest SIERRA yield right now is 8.11% on pendle (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">5 live pools above the $100K TVL floor · ranked by TVL</p>
     <p class="intro">SIERRA's largest live pool is pendle on Ethereum at 8.11% ($7.34M TVL). 5 SIERRA pools across 2 chains clear this page's $100K TVL floor, $22.65M in total.</p>
-    <p class="tp-yield-headline">Your idle SIERRA could earn ~2.63% — park $9.1K and it could run a $20/mo Claude Pro subscription, forever.</p>
+    <p class="tp-yield-headline">Your idle SIERRA could earn ~2.64% — park $9.1K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=SIERRA&minTvl=100000&src=seo_token">See live SIERRA pools →</a>
     <div class="tp-card">
     <div class="scroll">
@@ -116,7 +121,7 @@
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token">pendle &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">4.57%</td>
+          <td class="num">4.60%</td>
           <td class="num">$7.34M</td>
         </tr>
         <tr>
@@ -135,10 +140,14 @@
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="insufficient" aria-label="Rate stability from APY history">
+      <h2>Rate stability from APY history</h2>
+      <p>There is not enough qualifying APY history to rank SIERRA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
+    </section>
     <section class="tp-depth" aria-label="How this rate has behaved">
       <h2>How this rate has behaved</h2>
     <p>SIERRA shows up in 4 pools here, with rates from 0.05% to 8.11% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
-    <p>4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.07% — a useful check against today&#39;s number for whether the rate is steady or just having a good day.</p>
+    <p>4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.05% — a useful check against today&#39;s number for whether the rate is steady or just having a good day.</p>
     <p>1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.</p>
     <p>2 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.</p>
       <div class="tp-card">
@@ -151,14 +160,14 @@
         <tr>
           <td>pendle</td>
           <td class="num">8.11%</td>
-          <td class="num">8.98%</td>
+          <td class="num">8.95%</td>
           <td class="num">Base rate</td>
         </tr>
         <tr>
           <td>pendle</td>
-          <td class="num">4.57%</td>
-          <td class="num">9.88%</td>
-          <td class="num">17.19% incentives</td>
+          <td class="num">4.60%</td>
+          <td class="num">9.73%</td>
+          <td class="num">16.93% incentives</td>
         </tr>
         <tr>
           <td>uniswap-v4</td>
@@ -169,7 +178,7 @@
         <tr>
           <td>joe-v2.2</td>
           <td class="num">0.05%</td>
-          <td class="num">1.16%</td>
+          <td class="num">1.15%</td>
           <td class="num">Base rate</td>
         </tr>
         </tbody>
@@ -191,6 +200,10 @@
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Which SIERRA pools have the most stable APY history?</h3>
+          <p class="tp-faq-a">There is not enough qualifying APY history to rank SIERRA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
         </div>
     </section>
     <nav class="related" aria-label="Related tokens">

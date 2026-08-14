@@ -7,6 +7,11 @@ The highest honest EURAU yield right now is 0.91% on aerodrome-slipstream (Base)
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=cca7ebd6-241f-46ce-8c17-710453fa1103&src=seo_token) | Base | 0.91% | $140.7K |
 | [raydium-amm →](https://www.defi.garden/?pool=05456cc4-bd76-5b3a-8236-538e0f59d445&src=seo_token) | Solana | 0.22% | $110.7K |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank EURAU pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -39,6 +44,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which EURAU pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank EURAU pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

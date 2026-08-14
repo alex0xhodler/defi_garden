@@ -1,10 +1,15 @@
 # ALCH DeFi Yields
 
-The highest honest ALCH yield right now is 2.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALCH yield right now is 2.93% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b09355f3-286d-472e-a1dd-4d0170dfb4aa&src=seo_token) | Solana | 2.91% | $2.03M |
+| [raydium-amm →](https://www.defi.garden/?pool=b09355f3-286d-472e-a1dd-4d0170dfb4aa&src=seo_token) | Solana | 2.93% | $2.02M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank ALCH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALCH yield today?
 
-2.91% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.93% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ALCH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.03M in total.
+1 live pool clear this page's $100K TVL floor, $2.02M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which ALCH pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank ALCH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

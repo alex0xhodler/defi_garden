@@ -4,10 +4,22 @@ The highest honest TMVUSDC yield right now is 7.88% on pendle (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 6.66% | $1.5M |
+| [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 6.67% | $1.5M |
 | [pendle →](https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token) | Ethereum | 7.88% | $1.5M |
-| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 5.68% | $489.6K |
-| [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.73% | $489.3K |
+| [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 5.67% | $489.7K |
+| [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.73% | $489.4K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, TMVUSDC's lower-variability candidates are pendle (Ethereum), 7.88% APY, $1.5M TVL, https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token; pendle (Ethereum), 6.67% APY, $1.5M TVL, https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token; curve-dex (Ethereum), 5.67% APY, $489.7K TVL, https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token; convex-finance (Ethereum), 2.73% APY, $489.4K TVL, https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [pendle →](https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token) | Ethereum | 7.88% | $1.5M |
+| 2 | [pendle →](https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token) | Ethereum | 6.67% | $1.5M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token) | Ethereum | 5.67% | $489.7K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token) | Ethereum | 2.73% | $489.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,9 +33,9 @@ TMVUSDC shows up in 4 pools here, with rates from 2.73% to 7.88% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 6.66% | 6.35% | Base rate |
+| pendle | 6.67% | 6.35% | Base rate |
 | pendle | 7.88% | 7.93% | Base rate |
-| curve-dex | 5.68% | 4.63% | 51.98% incentives |
+| curve-dex | 5.67% | 4.63% | 51.84% incentives |
 | convex-finance | 2.73% | 2.33% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -41,6 +53,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which TMVUSDC pools have the most stable APY history?
+
+Based on APY history only, TMVUSDC's lower-variability candidates are pendle (Ethereum), 7.88% APY, $1.5M TVL, https://www.defi.garden/?pool=c94278be-cf51-43bd-b13b-32bc9a79b7ae&src=seo_token; pendle (Ethereum), 6.67% APY, $1.5M TVL, https://www.defi.garden/?pool=9265d3fd-df30-4433-8d97-4643a17a4fa2&src=seo_token; curve-dex (Ethereum), 5.67% APY, $489.7K TVL, https://www.defi.garden/?pool=7c92ee70-da06-4b5b-ac61-908f7759afcf&src=seo_token; convex-finance (Ethereum), 2.73% APY, $489.4K TVL, https://www.defi.garden/?pool=f118d0fd-6e91-4870-bf36-aa582b093fe3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

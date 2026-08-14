@@ -4,7 +4,12 @@ The highest honest RAMP yield right now is 0.05% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=3edd79ba-7af4-4855-8f3b-152be40b3333&src=seo_token) | Ethereum | 0.05% | $114.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3edd79ba-7af4-4855-8f3b-152be40b3333&src=seo_token) | Ethereum | 0.05% | $114.3K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank RAMP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RAMP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.7K in total.
+1 live pool clear this page's $100K TVL floor, $114.3K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which RAMP pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank RAMP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

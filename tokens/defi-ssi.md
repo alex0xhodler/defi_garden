@@ -1,10 +1,15 @@
 # DEFI.SSI DeFi Yields
 
-The highest honest DEFI.SSI yield right now is 4.05% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEFI.SSI yield right now is 3.61% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=dd116223-4792-48b5-8c31-e8b41477749c&src=seo_token) | Base | 4.05% | $502.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=dd116223-4792-48b5-8c31-e8b41477749c&src=seo_token) | Base | 3.61% | $502.7K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank DEFI.SSI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEFI.SSI yield today?
 
-4.05% APY on uniswap-v3 (Base), based on live DefiLlama data.
+3.61% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DEFI.SSI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $502.8K in total.
+1 live pool clear this page's $100K TVL floor, $502.7K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which DEFI.SSI pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank DEFI.SSI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

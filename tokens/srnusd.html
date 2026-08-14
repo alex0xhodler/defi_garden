@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"SRNUSD","item":"https://www.defi.garden/tokens/srnusd"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"strata-markets on Ethereum","url":"https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649"},{"@type":"ListItem","position":2,"name":"pendle on Ethereum","url":"https://www.defi.garden/?pool=e2057cb9-1fe9-4c45-9948-a1863d8155e9"},{"@type":"ListItem","position":3,"name":"pendle on Ethereum","url":"https://www.defi.garden/?pool=af8ae772-4e42-4b47-9b47-a51a310f6563"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"SRNUSD DeFi Yields Dataset","description":"Live DefiLlama yield data for SRNUSD pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/srnusd","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest SRNUSD yield today?","acceptedAnswer":{"@type":"Answer","text":"9.08% APY on pendle (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many SRNUSD pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear this page's $100K TVL floor, $2.98M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest SRNUSD yield today?","acceptedAnswer":{"@type":"Answer","text":"9.08% APY on pendle (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many SRNUSD pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear this page's $100K TVL floor, $2.98M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which SRNUSD pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, SRNUSD's lower-variability candidates are strata-markets (Ethereum), 4.25% APY, $1.38M TVL, https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&src=seo_token; pendle (Ethereum), 9.08% APY, $798.3K TVL, https://www.defi.garden/?pool=e2057cb9-1fe9-4c45-9948-a1863d8155e9&src=seo_token; pendle (Ethereum), 6.60% APY, $798.3K TVL, https://www.defi.garden/?pool=af8ae772-4e42-4b47-9b47-a51a310f6563&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="SRNUSD DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="3 live SRNUSD pools above the $100K TVL floor, up to 9.08% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -129,6 +134,42 @@
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
+      <h2>Rate stability from APY history</h2>
+      <p>Based on APY history only, SRNUSD&#39;s lower-variability candidates are strata-markets (Ethereum), 4.25% APY, $1.38M TVL, https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&amp;src=seo_token; pendle (Ethereum), 9.08% APY, $798.3K TVL, https://www.defi.garden/?pool=e2057cb9-1fe9-4c45-9948-a1863d8155e9&amp;src=seo_token; pendle (Ethereum), 6.60% APY, $798.3K TVL, https://www.defi.garden/?pool=af8ae772-4e42-4b47-9b47-a51a310f6563&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
+      <div class="tp-card">
+      <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">Rank</th><th>Protocol</th><th>Chain</th><th class="num">APY</th><th class="num">TVL</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="num">1</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&amp;src=seo_token">strata-markets &rarr;</a></td>
+            <td>Ethereum</td>
+            <td class="num">4.25%</td>
+            <td class="num">$1.38M</td>
+          </tr>
+          <tr>
+            <td class="num">2</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=e2057cb9-1fe9-4c45-9948-a1863d8155e9&amp;src=seo_token">pendle &rarr;</a></td>
+            <td>Ethereum</td>
+            <td class="num">9.08%</td>
+            <td class="num">$798.3K</td>
+          </tr>
+          <tr>
+            <td class="num">3</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=af8ae772-4e42-4b47-9b47-a51a310f6563&amp;src=seo_token">pendle &rarr;</a></td>
+            <td>Ethereum</td>
+            <td class="num">6.60%</td>
+            <td class="num">$798.3K</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+    </section>
     <section class="tp-depth" aria-label="How this rate has behaved">
       <h2>How this rate has behaved</h2>
     <p>SRNUSD shows up in 3 pools here, with rates from 4.25% to 9.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
@@ -178,6 +219,10 @@
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Which SRNUSD pools have the most stable APY history?</h3>
+          <p class="tp-faq-a">Based on APY history only, SRNUSD&#39;s lower-variability candidates are strata-markets (Ethereum), 4.25% APY, $1.38M TVL, https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&amp;src=seo_token; pendle (Ethereum), 9.08% APY, $798.3K TVL, https://www.defi.garden/?pool=e2057cb9-1fe9-4c45-9948-a1863d8155e9&amp;src=seo_token; pendle (Ethereum), 6.60% APY, $798.3K TVL, https://www.defi.garden/?pool=af8ae772-4e42-4b47-9b47-a51a310f6563&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
         </div>
     </section>
     <nav class="related" aria-label="Related tokens">

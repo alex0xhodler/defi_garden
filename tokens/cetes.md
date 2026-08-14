@@ -6,6 +6,11 @@ The highest honest CETES yield right now is 1.50% on kuru-clob (Monad), among 3 
 |---|---|---|---|
 | [kuru-clob →](https://www.defi.garden/?pool=143f0c93-342a-4949-8253-167e57328e38&src=seo_token) | Monad | 1.50% | $111.8K |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank CETES pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -32,20 +37,24 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CETES pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $366.2K in total.
+3 live pools clear this page's $100K TVL floor, $366.3K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
+### Which CETES pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank CETES pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
+- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 

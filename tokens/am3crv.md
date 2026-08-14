@@ -4,8 +4,18 @@ The highest honest AM3CRV yield right now is 0.15% on curve-dex (Polygon), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd&src=seo_token) | Polygon | 0.02% | $2.09M |
-| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.15% | $105K |
+| [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd&src=seo_token) | Polygon | 0.02% | $2.08M |
+| [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.15% | $104.9K |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, AM3CRV's lower-variability candidates are curve-dex (Polygon), 0.15% APY, $104.9K TVL, https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token; curve-dex (Polygon), 0.02% APY, $2.08M TVL, https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [curve-dex →](https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token) | Polygon | 0.15% | $104.9K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd&src=seo_token) | Polygon | 0.02% | $2.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -39,6 +49,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which AM3CRV pools have the most stable APY history?
+
+Based on APY history only, AM3CRV's lower-variability candidates are curve-dex (Polygon), 0.15% APY, $104.9K TVL, https://www.defi.garden/?pool=7d4e3d43-cd8a-4c93-a358-a6ea14c60e53&src=seo_token; curve-dex (Polygon), 0.02% APY, $2.08M TVL, https://www.defi.garden/?pool=e646248a-065d-4035-a2b3-2b9d1af767cd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
