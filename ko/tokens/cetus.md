@@ -1,18 +1,18 @@
 # CETUS 디파이 수익률
 
-현재 CETUS의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 24.06%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CETUS의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 3.23%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 24.06% | $943.1K |
-| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 3.34% | $456.3K |
-| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.51% | $142.7K |
+| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 26.28% | $941.8K |
+| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 3.23% | $456.7K |
+| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.51% | $142.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CETUS 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.51%부터 24.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CETUS 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.51%부터 26.28%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.24%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -22,8 +22,8 @@ CETUS 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.51%부터 24.06%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| cetus-clmm | 24.06% | 16.50% | 인센티브 12.51% |
-| cetus-clmm | 3.34% | 5.24% | 기본 금리 |
+| cetus-clmm | 26.28% | 16.52% | 인센티브 11.50% |
+| cetus-clmm | 3.23% | 5.24% | 기본 금리 |
 | navi-lending | 0.51% | 0.52% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -32,7 +32,7 @@ CETUS 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.51%부터 24.06%�
 
 ### 오늘 CETUS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 24.06%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 3.23%예요.
 
 ### CETUS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

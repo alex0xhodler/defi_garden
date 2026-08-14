@@ -5,11 +5,11 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.24% | $47.08M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.45% | $39.45M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.43% | $39.45M |
 | [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 4.90% | $7.48M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.08% | $6.34M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.20% | $5.58M |
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 1.40% | $763.1K |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.07% | $6.34M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.18% | $5.58M |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 1.40% | $762.9K |
 | [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token) | Ethereum | 5.54% | $749.2K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.71% | $333.3K |
 
@@ -27,11 +27,11 @@ DOLA 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.71%부터 5.54%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 3.24% | 3.57% | 인센티브 67.64% |
-| convex-finance | 5.45% | 4.95% | 인센티브 80.72% |
+| curve-dex | 3.24% | 3.57% | 인센티브 67.56% |
+| convex-finance | 5.43% | 4.95% | 인센티브 80.66% |
 | yearn-finance | 4.90% | 5.19% | 기본 금리 |
-| curve-dex | 3.08% | 3.11% | 인센티브 71.76% |
-| convex-finance | 5.20% | 4.36% | 인센티브 83.27% |
+| curve-dex | 3.07% | 3.11% | 인센티브 71.68% |
+| convex-finance | 5.18% | 4.36% | 인센티브 83.22% |
 | curve-dex | 1.40% | 1.78% | 기본 금리 |
 | yearn-finance | 5.54% | 5.93% | 기본 금리 |
 | aerodrome-v1 | 0.71% | 0.74% | 인센티브 100.00% |
@@ -46,7 +46,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 5.54%�
 
 ### DOLA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $161.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $161.43M예요.
 
 ### 이 수익률은 안전한가요?
 

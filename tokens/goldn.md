@@ -4,7 +4,7 @@ The highest honest GOLDN yield right now is 0.01% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7d90e5f9-9b5e-423e-b3bc-8533f37c9b18&src=seo_token) | Base | 0.01% | $253.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7d90e5f9-9b5e-423e-b3bc-8533f37c9b18&src=seo_token) | Base | 0.01% | $295.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GOLDN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $253.1K in total.
+1 live pool clear this page's $100K TVL floor, $295.6K in total.
 
 ### Are these rates safe?
 

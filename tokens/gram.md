@@ -4,20 +4,20 @@ The highest honest GRAM yield right now is 14.34% on affluent (TON), among 33 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token) | TON | 5.63% | $5.77M |
-| [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token) | TON | 5.18% | $5.03M |
+| [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token) | TON | 4.68% | $5.77M |
+| [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token) | TON | 2.92% | $5.03M |
 | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token) | TON | 6.12% | $1.52M |
-| [affluent →](https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_token) | TON | 3.47% | $1.2M |
+| [affluent →](https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_token) | TON | 3.47% | $1.18M |
 | [evaa-protocol →](https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token) | TON | 4.33% | $1.14M |
-| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 24.76% | $909.5K |
-| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 14.34% | $754K |
-| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 12.04% | $586.7K |
+| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 19.93% | $911K |
+| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 14.34% | $747.9K |
+| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 8.39% | $585.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GRAM shows up in 8 pools here, with rates from 3.47% to 24.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+GRAM shows up in 8 pools here, with rates from 2.92% to 19.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 6.22% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,14 +27,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ston.fi | 5.63% | 6.27% | Base rate |
-| ston.fi | 5.18% | 3.74% | Base rate |
+| ston.fi | 4.68% | 6.26% | Base rate |
+| ston.fi | 2.92% | 3.74% | Base rate |
 | storm-trade | 6.12% | 6.17% | Base rate |
-| affluent | 3.47% | 5.87% | Base rate |
-| evaa-protocol | 4.33% | 5.41% | Base rate |
-| ston.fi | 24.76% | 59.95% | Base rate |
+| affluent | 3.47% | 5.85% | Base rate |
+| evaa-protocol | 4.33% | 5.40% | Base rate |
+| ston.fi | 19.93% | 59.97% | Base rate |
 | affluent | 14.34% | 13.28% | Base rate |
-| dedust | 12.04% | 23.45% | Base rate |
+| dedust | 8.39% | 23.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GRAM pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $27.51M in total.
+33 live pools clear this page's $100K TVL floor, $27.48M in total.
 
 ### Are these rates safe?
 

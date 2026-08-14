@@ -1,18 +1,18 @@
 # RPL DeFi Yields
 
-The highest honest RPL yield right now is 1.23% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RPL yield right now is 1.14% on aave-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token) | Ethereum | 1.23% | $325.6K |
-| [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token) | Ethereum | 1.14% | $301.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token) | Ethereum | 15.85% | $174.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token) | Ethereum | 1.11% | $322.4K |
+| [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token) | Ethereum | 1.14% | $298.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token) | Ethereum | 16.00% | $172.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RPL shows up in 3 pools here, with rates from 1.14% to 15.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RPL shows up in 3 pools here, with rates from 1.11% to 16.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 1.23% | 1.38% | Base rate |
+| uniswap-v3 | 1.11% | 1.38% | Base rate |
 | aave-v3 | 1.14% | 1.06% | Base rate |
-| uniswap-v4 | 15.85% | 35.28% | Base rate |
+| uniswap-v4 | 16.00% | 35.22% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RPL yield today?
 
-1.23% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.14% APY on aave-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many RPL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $801.2K in total.
+3 live pools clear this page's $100K TVL floor, $793.5K in total.
 
 ### Are these rates safe?
 

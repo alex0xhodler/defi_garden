@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $317.5K in total.
+2 live pools clear this page's $100K TVL floor, $317.4K in total.
 
 ### Are these rates safe?
 

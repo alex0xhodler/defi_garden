@@ -1,10 +1,10 @@
 # PUFFER DeFi Yields
 
-The highest honest PUFFER yield right now is 21.92% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUFFER yield right now is 35.53% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=72fc66c6-3e16-49ba-aef4-0adbaabb8776&src=seo_token) | Ethereum | 21.92% | $133.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=72fc66c6-3e16-49ba-aef4-0adbaabb8776&src=seo_token) | Ethereum | 35.53% | $133.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PUFFER yield today?
 
-21.92% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+35.53% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PUFFER pools clear the TVL floor?
 

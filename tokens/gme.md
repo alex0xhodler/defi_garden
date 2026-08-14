@@ -1,17 +1,17 @@
 # GME DeFi Yields
 
-The highest honest GME yield right now is 1.85% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GME yield right now is 1.59% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token) | Solana | 1.15% | $857K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 1.85% | $511.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token) | Solana | 1.20% | $853.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 1.59% | $510.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GME shows up in 2 pools here, with rates from 1.15% to 1.85% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GME shows up in 2 pools here, with rates from 1.20% to 1.59% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.98% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 1.15% | 3.54% | Base rate |
-| uniswap-v2 | 1.85% | 4.42% | Base rate |
+| raydium-amm | 1.20% | 3.53% | Base rate |
+| uniswap-v2 | 1.59% | 4.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GME yield today?
 
-1.85% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.59% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GME pools clear the TVL floor?
 

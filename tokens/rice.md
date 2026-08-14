@@ -4,7 +4,7 @@ The highest honest RICE yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4e7447e7-3de8-4034-8182-0de482941ce5&src=seo_token) | Ethereum | 0.01% | $288.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4e7447e7-3de8-4034-8182-0de482941ce5&src=seo_token) | Ethereum | 0.01% | $288.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RICE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $288.4K in total.
+1 live pool clear this page's $100K TVL floor, $288.2K in total.
 
 ### Are these rates safe?
 

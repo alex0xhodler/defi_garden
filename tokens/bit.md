@@ -4,7 +4,7 @@ The highest honest BIT yield right now is 0.02% on sushiswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=720c7dbb-8f29-4f6b-aaa4-0effa1f11711&src=seo_token) | Ethereum | 0.02% | $158.5K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=720c7dbb-8f29-4f6b-aaa4-0effa1f11711&src=seo_token) | Ethereum | 0.02% | $158.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $158.5K in total.
+1 live pool clear this page's $100K TVL floor, $158.2K in total.
 
 ### Are these rates safe?
 

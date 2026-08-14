@@ -1,17 +1,17 @@
 # CLEVCVX DeFi Yields
 
-The highest honest CLEVCVX yield right now is 28.71% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLEVCVX yield right now is 28.62% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token) | Ethereum | 16.09% | $395.7K |
-| [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token) | Ethereum | 28.71% | $378K |
+| [curve-dex →](https://www.defi.garden/?pool=26f8cc1d-7e06-4af6-b5d9-8f18dcac39af&src=seo_token) | Ethereum | 16.04% | $395.4K |
+| [convex-finance →](https://www.defi.garden/?pool=2f73ca67-3484-4aa3-8a26-48718a3b8bd7&src=seo_token) | Ethereum | 28.62% | $377.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CLEVCVX shows up in 2 pools here, with rates from 16.09% to 28.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CLEVCVX shows up in 2 pools here, with rates from 16.04% to 28.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,8 +21,8 @@ CLEVCVX shows up in 2 pools here, with rates from 16.09% to 28.71% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 16.09% | 17.47% | 99.69% incentives |
-| convex-finance | 28.71% | 25.61% | 99.83% incentives |
+| curve-dex | 16.04% | 17.46% | 99.69% incentives |
+| convex-finance | 28.62% | 25.61% | 99.83% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CLEVCVX yield today?
 
-28.71% APY on convex-finance (Ethereum), based on live DefiLlama data.
+28.62% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CLEVCVX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $773.7K in total.
+2 live pools clear this page's $100K TVL floor, $773K in total.
 
 ### Are these rates safe?
 

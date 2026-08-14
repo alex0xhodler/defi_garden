@@ -4,22 +4,22 @@ The highest honest XSTRKBTC yield right now is 0.64% on troves (Starknet), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=472bb65b-a4ac-4d89-8dd4-e7e06053ed84&src=seo_token) | Starknet | 3.05% | $123.7K |
-| [troves →](https://www.defi.garden/?pool=228f40f8-68b7-4f89-956d-b71da7853deb&src=seo_token) | Starknet | 0.64% | $123.5K |
+| [ekubo →](https://www.defi.garden/?pool=472bb65b-a4ac-4d89-8dd4-e7e06053ed84&src=seo_token) | Starknet | 3.04% | $123.5K |
+| [troves →](https://www.defi.garden/?pool=228f40f8-68b7-4f89-956d-b71da7853deb&src=seo_token) | Starknet | 0.64% | $123.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XSTRKBTC shows up in 2 pools here, with rates from 0.64% to 3.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XSTRKBTC shows up in 2 pools here, with rates from 0.64% to 3.04% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ekubo | 3.05% | 7.02% | 99.98% incentives |
+| ekubo | 3.04% | 7.01% | 99.98% incentives |
 | troves | 0.64% | 0.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XSTRKBTC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $409.6K in total.
+3 live pools clear this page's $100K TVL floor, $408.8K in total.
 
 ### Are these rates safe?
 
@@ -41,11 +41,11 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related tokens
 
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [STRKBTC](https://www.defi.garden/tokens/strkbtc)
 - [STRK](https://www.defi.garden/tokens/strk)
 - [XWBTC](https://www.defi.garden/tokens/xwbtc)
 - [ZEC](https://www.defi.garden/tokens/zec)
-- [XSTRK](https://www.defi.garden/tokens/xstrk)
 
 ## Available on
 

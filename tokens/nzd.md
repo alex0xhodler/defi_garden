@@ -4,7 +4,7 @@ The highest honest NZD yield right now is 92.99% on gmtrade (Solana), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6&src=seo_token) | Solana | 92.99% | $1.03M |
+| [gmtrade →](https://www.defi.garden/?pool=399d9968-ff94-47fd-83ee-2a9852e0a9a6&src=seo_token) | Solana | 92.99% | $1.01M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NZD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.03M in total.
+1 live pool clear this page's $100K TVL floor, $1.01M in total.
 
 ### Are these rates safe?
 

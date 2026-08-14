@@ -1,23 +1,23 @@
 # XBTC DeFi Yields
 
-The highest honest XBTC yield right now is 27.06% on bluefin-spot (Sui), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XBTC yield right now is 33.06% on bluefin-spot (Sui), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.20% | $2.09M |
+| [navi-lending →](https://www.defi.garden/?pool=90d9471d-6bf6-4f34-bbdf-ba47775458f8&src=seo_token) | Sui | 1.20% | $2.08M |
+| [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 2.18% | $2.02M |
 | [kamino-liquidity →](https://www.defi.garden/?pool=6e8b600a-aa3b-402d-a68a-7dec1a097585&src=seo_token) | Solana | 1.68% | $2.02M |
-| [orca-dex →](https://www.defi.garden/?pool=a342ad05-4072-4571-9b37-7f5685a80f8a&src=seo_token) | Solana | 2.10% | $2.02M |
 | [hyperion →](https://www.defi.garden/?pool=92273ca5-f765-452a-b8b0-02c26d54465d&src=seo_token) | Aptos | 0.37% | $642.4K |
-| [bluefin-spot →](https://www.defi.garden/?pool=429ec18a-86a3-419b-8593-8fd298772470&src=seo_token) | Sui | 27.06% | $322K |
-| [echelon-market →](https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token) | Aptos | 1.37% | $287.9K |
-| [bluefin-spot →](https://www.defi.garden/?pool=87bf2211-3545-4894-9a22-019372cecf09&src=seo_token) | Sui | 15.95% | $271.4K |
-| [orca-dex →](https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token) | Solana | 0.93% | $234.3K |
+| [bluefin-spot →](https://www.defi.garden/?pool=429ec18a-86a3-419b-8593-8fd298772470&src=seo_token) | Sui | 33.06% | $307.5K |
+| [echelon-market →](https://www.defi.garden/?pool=908ee999-7560-40e3-bd81-e9b58b1713c4&src=seo_token) | Aptos | 1.37% | $287.4K |
+| [bluefin-spot →](https://www.defi.garden/?pool=87bf2211-3545-4894-9a22-019372cecf09&src=seo_token) | Sui | 15.65% | $271K |
+| [orca-dex →](https://www.defi.garden/?pool=5da5ddfa-7b18-4b3c-bb01-380174cbf449&src=seo_token) | Solana | 0.90% | $233.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XBTC shows up in 8 pools here, with rates from 0.37% to 27.06% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+XBTC shows up in 8 pools here, with rates from 0.37% to 33.06% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 1.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,14 +27,14 @@ XBTC shows up in 8 pools here, with rates from 0.37% to 27.06% APY across 3 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| navi-lending | 1.20% | 1.18% | 78.65% incentives |
-| kamino-liquidity | 1.68% | 1.98% | Base rate |
-| orca-dex | 2.10% | 2.49% | Base rate |
+| navi-lending | 1.20% | 1.18% | 78.62% incentives |
+| orca-dex | 2.18% | 2.49% | Base rate |
+| kamino-liquidity | 1.68% | 1.97% | Base rate |
 | hyperion | 0.37% | 0.37% | Base rate |
-| bluefin-spot | 27.06% | 29.56% | 45.61% incentives |
+| bluefin-spot | 33.06% | 29.60% | 38.98% incentives |
 | echelon-market | 1.37% | 1.32% | 100.00% incentives |
-| bluefin-spot | 15.95% | 15.84% | 91.78% incentives |
-| orca-dex | 0.93% | 1.50% | Base rate |
+| bluefin-spot | 15.65% | 15.85% | 93.45% incentives |
+| orca-dex | 0.90% | 1.50% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XBTC yield today?
 
-27.06% APY on bluefin-spot (Sui), based on live DefiLlama data.
+33.06% APY on bluefin-spot (Sui), based on live DefiLlama data.
 
 ### How many XBTC pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $41.85M in total.
+18 live pools clear this page's $100K TVL floor, $41.73M in total.
 
 ### Are these rates safe?
 

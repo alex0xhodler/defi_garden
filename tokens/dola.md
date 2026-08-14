@@ -5,11 +5,11 @@ The highest honest DOLA yield right now is 5.54% on yearn-finance (Ethereum), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.24% | $47.08M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.45% | $39.45M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.43% | $39.45M |
 | [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 4.90% | $7.48M |
-| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.08% | $6.34M |
-| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.20% | $5.58M |
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 1.40% | $763.1K |
+| [curve-dex →](https://www.defi.garden/?pool=b36c0e1b-792f-4fee-8160-a0002c23e1d1&src=seo_token) | Ethereum | 3.07% | $6.34M |
+| [convex-finance →](https://www.defi.garden/?pool=51f9c038-feed-4666-8866-30efc92e0566&src=seo_token) | Ethereum | 5.18% | $5.58M |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 1.40% | $762.9K |
 | [yearn-finance →](https://www.defi.garden/?pool=b6c74919-d481-4a45-8e03-60513866c112&src=seo_token) | Ethereum | 5.54% | $749.2K |
 | [aerodrome-v1 →](https://www.defi.garden/?pool=3fb276c8-b618-4abc-b015-829b90701c07&src=seo_token) | Base | 0.71% | $333.3K |
 
@@ -27,11 +27,11 @@ DOLA shows up in 8 pools here, with rates from 0.71% to 5.54% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.24% | 3.57% | 67.64% incentives |
-| convex-finance | 5.45% | 4.95% | 80.72% incentives |
+| curve-dex | 3.24% | 3.57% | 67.56% incentives |
+| convex-finance | 5.43% | 4.95% | 80.66% incentives |
 | yearn-finance | 4.90% | 5.19% | Base rate |
-| curve-dex | 3.08% | 3.11% | 71.76% incentives |
-| convex-finance | 5.20% | 4.36% | 83.27% incentives |
+| curve-dex | 3.07% | 3.11% | 71.68% incentives |
+| convex-finance | 5.18% | 4.36% | 83.22% incentives |
 | curve-dex | 1.40% | 1.78% | Base rate |
 | yearn-finance | 5.54% | 5.93% | Base rate |
 | aerodrome-v1 | 0.71% | 0.74% | 100.00% incentives |
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DOLA pools clear the TVL floor?
 
-15 live pools clear this page's $100K TVL floor, $161.45M in total.
+15 live pools clear this page's $100K TVL floor, $161.43M in total.
 
 ### Are these rates safe?
 

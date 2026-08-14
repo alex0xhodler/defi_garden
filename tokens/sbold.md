@@ -4,8 +4,8 @@ The highest honest SBOLD yield right now is 5.39% on pendle (Ethereum), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token) | Ethereum | 3.52% | $247.3K |
-| [pendle →](https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token) | Ethereum | 5.39% | $247.3K |
+| [pendle →](https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token) | Ethereum | 5.39% | $247.2K |
+| [pendle →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token) | Ethereum | 3.52% | $247.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,14 +13,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SBOLD shows up in 2 pools here, with rates from 3.52% to 5.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| pendle | 5.39% | 5.51% | 2.80% incentives |
 | pendle | 3.52% | 3.58% | Base rate |
-| pendle | 5.39% | 5.51% | 2.81% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SBOLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $494.6K in total.
+2 live pools clear this page's $100K TVL floor, $494.4K in total.
 
 ### Are these rates safe?
 

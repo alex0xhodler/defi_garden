@@ -1,12 +1,12 @@
 # CC DeFi Yields
 
-The highest honest CC yield right now is 0.03% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CC yield right now is 0.02% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=3d5c485e-5dfd-5396-84d5-6ce1ef0abc28&src=seo_token) | Solana | 0.01% | $99.9M |
 | [raydium-amm →](https://www.defi.garden/?pool=f147cf61-e857-520d-83ba-c0f6b2ec69da&src=seo_token) | Solana | 0.01% | $98.9M |
-| [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.03% | $96.92M |
+| [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.02% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=aea8280b-7549-5191-aedf-564957812cfb&src=seo_token) | Solana | 0.01% | $96.91M |
 | [raydium-amm →](https://www.defi.garden/?pool=ccb7702c-646c-5583-9757-46c347e2417c&src=seo_token) | Solana | 0.02% | $93.94M |
 
@@ -14,7 +14,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CC shows up in 5 pools here, with rates from 0.01% to 0.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CC shows up in 5 pools here, with rates from 0.01% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,7 +26,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.01% | 0.00% | Base rate |
-| raydium-amm | 0.03% | 0.01% | Base rate |
+| raydium-amm | 0.02% | 0.01% | Base rate |
 | raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.02% | 0.02% | Base rate |
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CC yield today?
 
-0.03% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CC pools clear the TVL floor?
 

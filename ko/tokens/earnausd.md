@@ -6,11 +6,11 @@
 |---|---|---|---|
 | [upshift →](https://www.defi.garden/?pool=e10580de-1ad2-4bbc-a0e8-ad4db95df4a3&src=seo_token) | Monad | 6.24% | $21.79M |
 | [morpho-blue →](https://www.defi.garden/?pool=aca3847e-76cc-4a8d-b247-9ba023cea7a4&src=seo_token) | Monad | 2.50% | $3.45M |
-| [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.73% | $2.66M |
+| [curvance →](https://www.defi.garden/?pool=0f3df3ac-888b-4412-8ddd-33d4b5745e34&src=seo_token) | Monad | 0.73% | $2.65M |
 | [pendle →](https://www.defi.garden/?pool=d688ccec-d5ab-4622-9a1e-c1c0534712df&src=seo_token) | Monad | 9.17% | $2.4M |
 | [pendle →](https://www.defi.garden/?pool=7753ed14-c1f6-44be-84df-343023cd7235&src=seo_token) | Monad | 10.38% | $2.4M |
-| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.41% | $765.3K |
-| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $159.2K |
+| [neverland →](https://www.defi.garden/?pool=60f6cb66-25c3-42da-a4ff-796937f3a2d2&src=seo_token) | Monad | 1.41% | $765.2K |
+| [curvance →](https://www.defi.garden/?pool=83d85308-41e5-5736-a2a3-03c56c9ce6a0&src=seo_token) | Monad | 0.20% | $159.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -26,10 +26,10 @@ EARNAUSD 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.20%부터 10.3
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| upshift | 6.24% | 6.42% | 인센티브 8.56% |
-| morpho-blue | 2.50% | 0.36% | 인센티브 100.00% |
+| upshift | 6.24% | 6.41% | 인센티브 8.51% |
+| morpho-blue | 2.50% | 0.37% | 인센티브 100.00% |
 | curvance | 0.73% | 0.79% | 인센티브 100.00% |
-| pendle | 9.17% | 8.78% | 인센티브 5.54% |
+| pendle | 9.17% | 8.78% | 인센티브 5.53% |
 | pendle | 10.38% | 9.53% | 기본 금리 |
 | neverland | 1.41% | 1.36% | 인센티브 100.00% |
 | curvance | 0.20% | 0.20% | 인센티브 100.00% |
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 10.38%예요.
 
 ### EARNAUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $33.63M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $33.62M예요.
 
 ### 이 수익률은 안전한가요?
 

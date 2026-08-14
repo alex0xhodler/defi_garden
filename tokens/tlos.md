@@ -1,10 +1,10 @@
 # TLOS DeFi Yields
 
-The highest honest TLOS yield right now is 169.90% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TLOS yield right now is 159.29% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=9d3d9149-6be9-4cf0-94b8-7718a82b0cf8&src=seo_token) | Base | 169.90% | $197.3K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=9d3d9149-6be9-4cf0-94b8-7718a82b0cf8&src=seo_token) | Base | 159.29% | $204.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TLOS yield today?
 
-169.90% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+159.29% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many TLOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $197.3K in total.
+1 live pool clear this page's $100K TVL floor, $204.7K in total.
 
 ### Are these rates safe?
 

@@ -4,15 +4,15 @@ The highest honest HEMI yield right now is 0.13% on sushiswap-v3 (Hemi), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 1.90% | $269.7K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 2.59% | $143.2K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 1.92% | $264.1K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 2.53% | $143K |
 | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 0.13% | $110.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HEMI shows up in 3 pools here, with rates from 0.13% to 2.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HEMI shows up in 3 pools here, with rates from 0.13% to 2.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 4.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,8 +22,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap-v3 | 1.90% | 4.71% | Base rate |
-| sushiswap-v3 | 2.59% | 8.19% | Base rate |
+| sushiswap-v3 | 1.92% | 4.71% | Base rate |
+| sushiswap-v3 | 2.53% | 8.18% | Base rate |
 | sushiswap-v3 | 0.13% | 0.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HEMI pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $523.5K in total.
+3 live pools clear this page's $100K TVL floor, $517.6K in total.
 
 ### Are these rates safe?
 

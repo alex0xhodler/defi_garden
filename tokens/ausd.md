@@ -4,11 +4,11 @@ The highest honest AUSD yield right now is 8.15% on accountable (Monad), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.25% | $383.49M |
-| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.83% | $110.05M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.25% | $383.47M |
+| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.83% | $110.04M |
 | [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.93% | $41.62M |
 | [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.15% | $30.08M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.77% | $29.07M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.79% | $29.07M |
 | [curve-dex →](https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token) | Ethereum | 0.01% | $25M |
 | [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $22.84M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.35% | $3.88M |
@@ -27,11 +27,11 @@ AUSD shows up in 8 pools here, with rates from 0.01% to 8.15% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| centrifuge-protocol | 5.25% | 4.50% | Base rate |
-| accountable | 6.83% | 6.81% | 4.11% incentives |
+| centrifuge-protocol | 5.25% | 4.51% | Base rate |
+| accountable | 6.83% | 6.81% | 4.08% incentives |
 | euler-v2 | 6.93% | 7.38% | 18.03% incentives |
-| accountable | 8.15% | 5.47% | 17.18% incentives |
-| uniswap-v3 | 0.77% | 0.38% | Base rate |
+| accountable | 8.15% | 5.48% | 17.18% incentives |
+| uniswap-v3 | 0.79% | 0.38% | Base rate |
 | curve-dex | 0.01% | 0.01% | Base rate |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 | uniswap-v4 | 0.35% | 0.14% | Base rate |
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AUSD pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $686.15M in total.
+33 live pools clear this page's $100K TVL floor, $686.38M in total.
 
 ### Are these rates safe?
 

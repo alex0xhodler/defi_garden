@@ -1,17 +1,17 @@
 # APXUSD DeFi Yields
 
-The highest honest APXUSD yield right now is 12.75% on apyx-protocol (Ethereum), among 24 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest APXUSD yield right now is 12.75% on apyx-protocol (Ethereum), among 25 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 12.75% | $177.38M |
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.09% | $19.74M |
-| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 3.93% | $7.13M |
-| [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 0.02% | $7.07M |
+| [apyx-protocol →](https://www.defi.garden/?pool=cb6139f9-4a68-4efd-8245-0312a92aee55&src=seo_token) | Ethereum | 12.75% | $176.17M |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.09% | $19.84M |
+| [curve-dex →](https://www.defi.garden/?pool=10155a57-e18b-53f7-b91a-e8bd90122e0a&src=seo_token) | Ethereum | 3.93% | $7.19M |
+| [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 0.02% | $7.06M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=02d27f9f-e63d-497f-bbd9-826261b0d976&src=seo_token) | Ethereum | 9.35% | $4.28M |
-| [pendle →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 10.55% | $1.94M |
-| [pendle →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 3.29% | $1.94M |
-| [orca-dex →](https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293&src=seo_token) | Solana | 1.58% | $1.03M |
+| [pendle →](https://www.defi.garden/?pool=37fbd051-f7b6-4698-9ea6-ecb57ee1593b&src=seo_token) | Ethereum | 10.62% | $1.88M |
+| [pendle →](https://www.defi.garden/?pool=e7f25daf-de52-4fa1-ae9d-707bd7266751&src=seo_token) | Ethereum | 3.36% | $1.88M |
+| [orca-dex →](https://www.defi.garden/?pool=6d512187-0ad5-571e-9102-924dc6e19293&src=seo_token) | Solana | 1.93% | $1.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,12 +27,12 @@ APXUSD shows up in 8 pools here, with rates from 0.02% to 12.75% APY across 2 ch
 |---|---|---|---|
 | apyx-protocol | 12.75% | 13.79% | Base rate |
 | curve-dex | 7.09% | 8.10% | Base rate |
-| curve-dex | 3.93% | 5.90% | Base rate |
+| curve-dex | 3.93% | 5.88% | Base rate |
 | orca-dex | 0.02% | 0.09% | Base rate |
 | uniswap-v4 | 9.35% | 6.67% | Base rate |
-| pendle | 10.55% | 8.86% | Base rate |
-| pendle | 3.29% | 2.31% | 19.87% incentives |
-| orca-dex | 1.58% | 3.76% | Base rate |
+| pendle | 10.62% | 8.88% | Base rate |
+| pendle | 3.36% | 2.32% | 20.06% incentives |
+| orca-dex | 1.93% | 3.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many APXUSD pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $231.06M in total.
+25 live pools clear this page's $100K TVL floor, $229.95M in total.
 
 ### Are these rates safe?
 

@@ -1,19 +1,19 @@
 # FXB 디파이 수익률
 
-현재 FXB의 가장 높은 정직한 수익률은 Fraxtal의 curve-dex에서 6.55%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FXB의 가장 높은 정직한 수익률은 Fraxtal의 curve-dex에서 6.56%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_token) | Fraxtal | 6.55% | $1.59M |
-| [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f&src=seo_token) | Ethereum | 2.78% | $843.6K |
-| [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a&src=seo_token) | Ethereum | 2.78% | $805.3K |
+| [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_token) | Fraxtal | 6.56% | $1.59M |
+| [curve-dex →](https://www.defi.garden/?pool=9cced191-ad6f-4fab-b1c1-3ba2d15ccf0f&src=seo_token) | Ethereum | 2.78% | $843.4K |
+| [convex-finance →](https://www.defi.garden/?pool=94a49ecc-c7e6-410c-8a7e-7449ce3fa79a&src=seo_token) | Ethereum | 2.78% | $805.1K |
 | [curve-dex →](https://www.defi.garden/?pool=83bf9b9c-e031-4687-b221-fa91133b8205&src=seo_token) | Arbitrum | 2.73% | $191.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.73%부터 6.55%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.73%부터 6.56%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.76%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -23,7 +23,7 @@ FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.73%부터 6.55%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 6.55% | 6.01% | 인센티브 19.26% |
+| curve-dex | 6.56% | 6.01% | 인센티브 19.32% |
 | curve-dex | 2.78% | 2.76% | 인센티브 0.00% |
 | convex-finance | 2.78% | 2.76% | 기본 금리 |
 | curve-dex | 2.73% | 2.71% | 기본 금리 |
@@ -34,7 +34,7 @@ FXB 풀은 여기 4개가 있고, 3개 체인에서 APY가 2.73%부터 6.55%까�
 
 ### 오늘 FXB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Fraxtal의 curve-dex에서 APY 6.55%예요.
+DefiLlama 실시간 데이터 기준, Fraxtal의 curve-dex에서 APY 6.56%예요.
 
 ### FXB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -4,10 +4,10 @@ The highest honest STXRP yield right now is 3.02% on spectra-v2 (Flare), among 4
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 2.51% | $3.85M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=fe56d007-4f9f-4eaf-84e2-ea4248769975&src=seo_token) | Flare | 2.51% | $3.84M |
 | [spectra-v2 →](https://www.defi.garden/?pool=b9f857e7-c09a-4385-bab9-907f89c00dc1&src=seo_token) | Flare | 2.40% | $2.76M |
 | [spectra-v2 →](https://www.defi.garden/?pool=ff0b0d1d-a21e-430b-95f4-61f7142736bc&src=seo_token) | Flare | 3.02% | $1.91M |
-| [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41&src=seo_token) | Flare | 0.24% | $174.2K |
+| [spectra-v2 →](https://www.defi.garden/?pool=121077f0-d508-4a6a-af0b-ecd70f79be41&src=seo_token) | Flare | 0.24% | $174K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ STXRP shows up in 4 pools here, with rates from 0.24% to 3.02% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sparkdex-v4 | 2.51% | 1.58% | 99.23% incentives |
+| sparkdex-v4 | 2.51% | 1.59% | 99.22% incentives |
 | spectra-v2 | 2.40% | 2.95% | Base rate |
 | spectra-v2 | 3.02% | 2.52% | Base rate |
 | spectra-v2 | 0.24% | 0.27% | Base rate |
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STXRP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $8.7M in total.
+4 live pools clear this page's $100K TVL floor, $8.68M in total.
 
 ### Are these rates safe?
 

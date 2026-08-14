@@ -4,8 +4,8 @@ The highest honest FXSAVE yield right now is 6.23% on pendle (Ethereum), among 7
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 5.74% | $824.4K |
-| [pendle →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token) | Ethereum | 6.23% | $824.4K |
+| [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 5.73% | $850.1K |
+| [pendle →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token) | Ethereum | 6.23% | $850.1K |
 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token) | Ethereum | 2.59% | $427.5K |
 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 2.59% | $427.4K |
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 FXSAVE shows up in 4 pools here, with rates from 2.59% to 6.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -23,8 +23,8 @@ FXSAVE shows up in 4 pools here, with rates from 2.59% to 6.23% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 5.74% | 11.45% | Base rate |
-| pendle | 6.23% | 6.54% | Base rate |
+| pendle | 5.73% | 11.46% | Base rate |
+| pendle | 6.23% | 6.55% | Base rate |
 | curve-dex | 2.59% | 2.62% | 0.01% incentives |
 | convex-finance | 2.59% | 2.61% | Base rate |
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FXSAVE pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $62.63M in total.
+7 live pools clear this page's $100K TVL floor, $63M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest PHA yield right now is 14.75% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=eed0e360-a9fc-4c3a-bbcf-d0f841c67167&src=seo_token) | Ethereum | 14.75% | $133K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=eed0e360-a9fc-4c3a-bbcf-d0f841c67167&src=seo_token) | Ethereum | 14.75% | $133.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PHA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133K in total.
+1 live pool clear this page's $100K TVL floor, $133.1K in total.
 
 ### Are these rates safe?
 

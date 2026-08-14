@@ -1,10 +1,10 @@
 # 20WETH DeFi Yields
 
-The highest honest 20WETH yield right now is 27.36% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 20WETH yield right now is 27.31% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c&src=seo_token) | Ethereum | 27.36% | $205.2K |
+| [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c&src=seo_token) | Ethereum | 27.31% | $205.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 20WETH yield today?
 
-27.36% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+27.31% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 20WETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $205.2K in total.
+1 live pool clear this page's $100K TVL floor, $205.1K in total.
 
 ### Are these rates safe?
 

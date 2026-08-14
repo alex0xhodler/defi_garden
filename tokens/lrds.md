@@ -1,10 +1,10 @@
 # LRDS DeFi Yields
 
-The highest honest LRDS yield right now is 91.82% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LRDS yield right now is 91.23% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=d3510680-2a01-413b-8d78-585911338ac0&src=seo_token) | Base | 91.82% | $227.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=d3510680-2a01-413b-8d78-585911338ac0&src=seo_token) | Base | 91.23% | $227.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LRDS yield today?
 
-91.82% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+91.23% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many LRDS pools clear the TVL floor?
 

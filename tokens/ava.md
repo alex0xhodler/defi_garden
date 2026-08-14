@@ -1,19 +1,19 @@
 # AVA DeFi Yields
 
-The highest honest AVA yield right now is 384.48% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVA yield right now is 370.23% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token) | Solana | 223.71% | $1.3M |
-| [raydium-amm →](https://www.defi.garden/?pool=e00d470d-676f-431a-98ad-a6d1acd411c2&src=seo_token) | Solana | 384.48% | $119.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token) | Solana | 214.52% | $1.31M |
+| [raydium-amm →](https://www.defi.garden/?pool=e00d470d-676f-431a-98ad-a6d1acd411c2&src=seo_token) | Solana | 370.23% | $120.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AVA shows up in 2 pools here, with rates from 223.71% to 384.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AVA shows up in 2 pools here, with rates from 214.52% to 370.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 129.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 131.25% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,8 +21,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 223.71% | 45.79% | Base rate |
-| raydium-amm | 384.48% | 214.19% | Base rate |
+| raydium-amm | 214.52% | 46.38% | Base rate |
+| raydium-amm | 370.23% | 216.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AVA yield today?
 
-384.48% APY on raydium-amm (Solana), based on live DefiLlama data.
+370.23% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AVA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.42M in total.
+2 live pools clear this page's $100K TVL floor, $1.43M in total.
 
 ### Are these rates safe?
 

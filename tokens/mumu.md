@@ -1,10 +1,10 @@
 # MUMU DeFi Yields
 
-The highest honest MUMU yield right now is 1.73% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MUMU yield right now is 1.59% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=15b0e2a1-e1c8-4c24-97c6-3a5531b9993e&src=seo_token) | Solana | 1.73% | $120.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=15b0e2a1-e1c8-4c24-97c6-3a5531b9993e&src=seo_token) | Solana | 1.59% | $120.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MUMU yield today?
 
-1.73% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.59% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MUMU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.3K in total.
+1 live pool clear this page's $100K TVL floor, $120.1K in total.
 
 ### Are these rates safe?
 

@@ -1,6 +1,6 @@
 # HYPERUSDTC — morpho-blue on Ethereum
 
-**Total APY:** 2.72% (2.72% Base · + 0.00% Rewards)
+**Total APY:** 2.73% (2.73% Base · + 0.00% Rewards)
 
 **TVL:** $112.5K
 

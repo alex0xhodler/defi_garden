@@ -1,10 +1,10 @@
 # SAFE DeFi Yields
 
-The highest honest SAFE yield right now is 25.16% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAFE yield right now is 25.46% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2505d5de-74c0-4d4c-b9cb-8ce082319f74&src=seo_token) | Ethereum | 25.16% | $189.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2505d5de-74c0-4d4c-b9cb-8ce082319f74&src=seo_token) | Ethereum | 25.46% | $189K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAFE yield today?
 
-25.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+25.46% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SAFE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $189.8K in total.
+1 live pool clear this page's $100K TVL floor, $189K in total.
 
 ### Are these rates safe?
 

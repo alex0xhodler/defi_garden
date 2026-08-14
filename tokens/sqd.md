@@ -1,10 +1,10 @@
 # SQD DeFi Yields
 
-The highest honest SQD yield right now is 4.73% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SQD yield right now is 4.71% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=0a3b7dce-d0b2-425a-9556-566f5f2f188a&src=seo_token) | Base | 4.73% | $280.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=0a3b7dce-d0b2-425a-9556-566f5f2f188a&src=seo_token) | Base | 4.71% | $280.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SQD yield today?
 
-4.73% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+4.71% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many SQD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $280.8K in total.
+1 live pool clear this page's $100K TVL floor, $280.2K in total.
 
 ### Are these rates safe?
 
