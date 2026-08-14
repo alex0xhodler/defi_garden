@@ -378,3 +378,20 @@ should know that distinction going in.
   of scope per the spec's own "Class closed" note.
 - The now-fully-dead `.logo`/`.header`/`.subtitle` base CSS (color/layout,
   not the animation/scale-pop already removed) is not swept.
+
+## Mobile search-context follow-up
+
+The first PR preview exposed a phone-only geometry defect: at 360px the
+wordmark and fixed-size controls left the search input with a 40px text box,
+so the active query disappeared while the non-shrinking clear button remained.
+The shared header now hides only the redundant wordmark below 480px, keeps the
+38px leaf identity tile, removes duplicated field padding, and gives the clear
+action a fixed 32px hit area. The exact query remains in the editable input;
+long pool symbols show their meaningful prefix rather than an empty field.
+
+`test_mobile_search_context.js` covers no-results and pool-detail arrivals at
+360px plus the wider 768px identity state. It asserts exact values, at least
+96px of visible input width, zero horizontal overflow, reachable controls,
+an accessible localized label, and restoration of the full wordmark when
+space permits. The source and compiled/minified asset twins are regenerated
+together.

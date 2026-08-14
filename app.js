@@ -3124,6 +3124,7 @@ function App() {
           React.createElement('input', {
             type: 'text',
             className: 'app-search-input',
+            'aria-label': t('tokenSearch'),
             // Placeholder reflects token query only; chain state belongs to filter chips
             placeholder: selectedToken ? selectedToken : animatedPlaceholder,
             value: searchInput,

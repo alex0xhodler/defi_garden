@@ -1773,49 +1773,6 @@ body {
   }
 }
 
-/* 273 (P0, fixed-overlay-occlusion class — playbook's clipping-not-covering
-   variant): at 320px the row's fixed-floor items alone — `.app-logo` (147px;
-   its wordmark is a bare text node with no `min-width: 0` so it can't
-   shrink) and `.app-header-controls` (88px; both icon buttons carry a hard
-   `min-width: var(--ui-control-h)` from the shared icon-only-button rule,
-   style.css end) — plus this row's own padding/gaps leave
-   `.app-search-container` only ~29px (measured). `.app-search-input`'s own
-   horizontal padding (`var(--space-20)` each side = 40px) is a floor
-   `min-width: 0` cannot remove — shrinking only takes the CONTENT box to 0,
-   padding stays — so the input's real layout box (40px+) is WIDER than that
-   29px allotment. Nothing between `.app-search-input` and
-   `.app-header-controls` clips the overflow (`.app-search-bar`'s
-   `overflow: hidden` above only clips a child from bleeding past ITS OWN
-   box, and that box itself isn't the thing overflowing here), so the
-   input's box paints past its allotment and onto `.app-header-controls` —
-   the human report ("KO language toggle and theme toggle render ON TOP of
-   the search input's right end"). Confirmed absent at 360px+ (measured; see
-   specs/273-notes.md) — scoped to the one width band that fails.
-   Two independent floor reductions, each alone insufficient once a query is
-   typed and `.app-search-clear` (flex-shrink: 0, its own ~26px floor) also
-   renders:
-   (a) hide the wordmark, keep the icon mark — recovers ~120px, the biggest
-       lever by far; the logo stays a clickable, accessible control (an
-       aria-label now carries the name once the text is visually gone,
-       app.js's renderHeaderRow);
-   (b) shrink the input/clear-button's own horizontal padding — cuts their
-       combined floor from ~66px to ~30px, small enough to fit inside what
-       (a) leaves for search once the controls' 88px floor is subtracted. */
-@media (max-width: 359px) {
-  .app-brand-wordmark {
-    display: none;
-  }
-
-  .app-search-input {
-    padding-left: var(--space-8);
-    padding-right: var(--space-8);
-  }
-
-  .app-search-clear {
-    padding-left: var(--space-4);
-    padding-right: var(--space-4);
-  }
-}
 
 /* Add padding to body when Google header is shown */
 .app.has-results {
@@ -6706,6 +6663,45 @@ a.hub-cta:active {
 .language-toggle:active { background: var(--ui-surface-muted); transform: translateY(1px); }
 @media (prefers-reduced-motion: reduce) {
   .theme-toggle:active, .language-toggle:active { transform: none; }
+}
+
+/* The analytics header search is a compact control, not a second hero field.
+   Override the shared field padding so its active query keeps the space. */
+.app-header-content .app-search-bar {
+  padding: 0 8px;
+}
+
+.app-header-content .app-search-input {
+  min-width: 0;
+  height: 100%;
+  padding: 0 8px;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+}
+
+.app-header-content .app-search-clear {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+}
+
+@media (max-width: 480px) {
+  .app-logo {
+    flex: 0 0 38px;
+  }
+
+  .app-brand-wordmark {
+    display: none;
+  }
+
+  .app-search-container {
+    flex: 1 1 auto;
+  }
 }
 
 /* ═══ 247 WORLD — GENERATED ESTATE AS THE SAME SHEET ═════════════════════
