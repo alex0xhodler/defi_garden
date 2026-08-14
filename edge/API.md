@@ -268,6 +268,14 @@ route on this page is served FREE today, including `/api/forever-number`.
 Full contract (the `402` shape, how to pay, Web Bot Auth identity, the
 free/paid boundary in plain terms): [`X402.md`](X402.md).
 
+<!-- BEGIN GENERATED PRICING ROUTES -->
+**Free routes:** `GET /api`, `GET /api/health`, `GET /api/pools`, `GET /api/pools/:id`, `GET /api/pricing`.
+
+**Paid routes:** `GET /api/forever-number`.
+
+Any API route not explicitly listed as free defaults to paid.
+<!-- END GENERATED PRICING ROUTES -->
+
 `GET /api/pricing` is itself always free (an agent must be able to learn
 what costs money without first paying to find out) and returns a
 machine-readable pricing document generated from the same price schedule
@@ -286,8 +294,7 @@ full history.)
 
 ### `402` — payment required
 
-A paid route (currently only `/api/forever-number`) without a valid
-`X-PAYMENT` header returns `402` with an
+A paid route without a valid `X-PAYMENT` header returns `402` with an
 [x402](https://blog.cloudflare.com/wallets/) v1-conformant body — see
 `X402.md` for the exact shape and how to construct a valid payment. It
 carries `Cache-Control: no-store` (a `402` must never be publicly cached),
@@ -301,8 +308,7 @@ enabled, payment verified) is ALSO `no-store`, for that reason — see
 `X402.md`'s "How to pay" and `edge/agent-log.mjs`'s `headersFor()` comment.
 `402`/`5xx`/gated-`200` are the only three cases this API ever serves
 `no-store`; every other status is `public, max-age=300`. A route classified
-`free` (everything except `/api/forever-number` today) is never gated,
-regardless of `X402_ENABLED`.
+`free` is never gated, regardless of `X402_ENABLED`.
 
 ## What this API deliberately does NOT do (v0)
 
