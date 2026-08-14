@@ -637,6 +637,100 @@ console.log(`  ${mcpCore.TOOLS.length}/${mcpCore.TOOLS.length} real mcp-core too
 console.log('  self-defeat confirmed: an impure pathname is caught, drifting search params are caught, a throwing argsToRequest is caught, a genuinely-pure tool is not flagged');
 
 // ===========================================================================
+// G2. Prose pricing contracts derive their complete populations from the
+//     REAL schedule/tool tables. Marked regions make stale generated docs a
+//     deterministic failure rather than a review-time wording guess.
+// ===========================================================================
+console.log('\nG2. generated prose boundary — schedule/routes/tools stay singular');
+
+const ROUTE_REGION_BEGIN = '<!-- BEGIN GENERATED PRICING ROUTES -->';
+const ROUTE_REGION_END = '<!-- END GENERATED PRICING ROUTES -->';
+const TOOL_REGION_BEGIN = '<!-- BEGIN GENERATED MCP PRICING -->';
+const TOOL_REGION_END = '<!-- END GENERATED MCP PRICING -->';
+
+function expectedRouteBoundaryMarkdown() {
+  const entries = Object.values(x402.PRICE_SCHEDULE);
+  const free = entries.filter((entry) => entry.tier === 'free').map((entry) => '`GET ' + entry.route + '`');
+  const paid = entries.filter((entry) => entry.tier === 'paid').map((entry) => '`GET ' + entry.route + '`');
+  return '**Free routes:** ' + free.join(', ') + '.\n\n' +
+    '**Paid routes:** ' + paid.join(', ') + '.\n\n' +
+    'Any API route not explicitly listed as free defaults to paid.';
+}
+
+function expectedToolBoundaryMarkdown() {
+  const free = [];
+  const paid = [];
+  for (const tool of mcpCore.TOOLS) {
+    const classification = x402.classifyMcpTool(tool.name, mcpCore.TOOLS);
+    (classification.tier === 'free' ? free : paid).push('`' + tool.name + '`');
+  }
+  return '**Free tools:** ' + free.join(', ') + '.\n\n' +
+    '**Paid tools:** ' + paid.join(', ') + '.\n\n' +
+    'Any tool whose API route is not explicitly listed as free defaults to paid.';
+}
+
+function generatedRegion(file, begin, end) {
+  const source = fs.readFileSync(path.join(EDGE_DIR, file), 'utf8');
+  eq(source.split(begin).length - 1, 1, `${file}: exactly one ${begin} marker`);
+  eq(source.split(end).length - 1, 1, `${file}: exactly one ${end} marker`);
+  return source.slice(source.indexOf(begin) + begin.length, source.indexOf(end)).trim();
+}
+
+for (const file of ['X402.md', 'API.md']) {
+  eq(
+    generatedRegion(file, ROUTE_REGION_BEGIN, ROUTE_REGION_END),
+    expectedRouteBoundaryMarkdown(),
+    `${file}: generated route boundary matches every real PRICE_SCHEDULE row`
+  );
+}
+eq(
+  generatedRegion('MCP.md', TOOL_REGION_BEGIN, TOOL_REGION_END),
+  expectedToolBoundaryMarkdown(),
+  'MCP.md: generated tool boundary matches every real TOOLS row through PRICE_SCHEDULE'
+);
+
+const originalHealthTier = x402.PRICE_SCHEDULE['/api/health'];
+x402.PRICE_SCHEDULE['/api/health'] = Object.assign({}, originalHealthTier, {
+  tier: 'paid',
+  priceUsdcAtomic: x402.DEFAULT_PRICE_USDC_ATOMIC,
+});
+const mutatedBoundary = x402.buildPricingDoc({
+  endpoints: apiCore.ENDPOINTS,
+  tools: mcpCore.TOOLS,
+  enabled: false,
+  mode: 'test',
+}).boundary;
+x402.PRICE_SCHEDULE['/api/health'] = originalHealthTier;
+ok(
+  mutatedBoundary.includes('Paid routes:') && mutatedBoundary.includes('GET /api/health'),
+  'self-defeat: changing a schedule tier changes the machine-readable boundary route list'
+);
+
+const invalidHealthTier = x402.PRICE_SCHEDULE['/api/health'];
+x402.PRICE_SCHEDULE['/api/health'] = Object.assign({}, invalidHealthTier, {
+  tier: 'complimentary',
+});
+total++;
+try {
+  assert.throws(
+    () => x402.buildBoundarySentence(),
+    /\/api\/health.*complimentary/,
+    'an invalid schedule tier must fail with its route and value instead of disappearing from both lists'
+  );
+  passed++;
+} finally {
+  x402.PRICE_SCHEDULE['/api/health'] = invalidHealthTier;
+}
+
+const x402ContractSource = fs.readFileSync(path.join(EDGE_DIR, 'X402.md'), 'utf8');
+ok(
+  x402ContractSource.includes(`"boundary": "${x402.buildBoundarySentence()}"`),
+  'X402.md: published pricing response example shows the real generated boundary contract'
+);
+
+console.log('  docs and machine boundary derive route/tool populations from the real schedule');
+
+// ===========================================================================
 // H-K run inside an async function (verifyPayment is async) — Node cannot
 // mix top-level `require()` with top-level `await` unambiguously in a
 // CommonJS file, so everything needing `await` lives below this point,

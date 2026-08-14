@@ -229,6 +229,63 @@ function freeRoutes() {
   });
 }
 
+function groupedRoutesByTier() {
+  const grouped = { free: [], paid: [] };
+  Object.keys(PRICE_SCHEDULE).forEach(function (routeId) {
+    const tier = PRICE_SCHEDULE[routeId].tier;
+    if (!Object.prototype.hasOwnProperty.call(grouped, tier)) {
+      throw new Error('PRICE_SCHEDULE route ' + routeId + ' has unsupported tier "' + tier + '"');
+    }
+    grouped[tier].push(routeId);
+  });
+  return grouped;
+}
+
+function routesForTier(tier) {
+  const grouped = groupedRoutesByTier();
+  if (!Object.prototype.hasOwnProperty.call(grouped, tier)) {
+    throw new Error('Unsupported pricing tier "' + tier + '"');
+  }
+  return grouped[tier];
+}
+
+function markdownList(values, prefix) {
+  return values.map(function (value) {
+    return '`' + (prefix || '') + value + '`';
+  }).join(', ');
+}
+
+/** Canonical prose route list for generated Markdown regions. */
+function buildRouteBoundaryMarkdown() {
+  const grouped = groupedRoutesByTier();
+  return '**Free routes:** ' + markdownList(grouped.free, 'GET ') + '.\n\n' +
+    '**Paid routes:** ' + markdownList(grouped.paid, 'GET ') + '.\n\n' +
+    'Any API route not explicitly listed as free defaults to paid.';
+}
+
+/** Canonical prose tool list, derived through each tool's declared route. */
+function buildToolBoundaryMarkdown(tools) {
+  groupedRoutesByTier();
+  const toolList = Array.isArray(tools) ? tools : [];
+  const free = [];
+  const paid = [];
+  toolList.forEach(function (tool) {
+    const classification = classifyMcpTool(tool.name, toolList);
+    (classification && classification.tier === 'free' ? free : paid).push(tool.name);
+  });
+  return '**Free tools:** ' + markdownList(free) + '.\n\n' +
+    '**Paid tools:** ' + markdownList(paid) + '.\n\n' +
+    'Any tool whose API route is not explicitly listed as free defaults to paid.';
+}
+
+/** Machine-contract sentence; route populations still come only from the schedule. */
+function buildBoundarySentence() {
+  const grouped = groupedRoutesByTier();
+  return 'Free routes: ' + grouped.free.map(function (route) { return 'GET ' + route; }).join(', ') +
+    '. Paid routes: ' + grouped.paid.map(function (route) { return 'GET ' + route; }).join(', ') +
+    '. Any API route not explicitly listed as free defaults to paid.';
+}
+
 // ---------------------------------------------------------------------------
 // 4. matchRoute — recognizes exactly the paths api-core.js's own live
 //    dispatch table recognizes, by DELEGATING to api-core.js's own
@@ -614,11 +671,7 @@ function buildPricingDoc(args) {
     name: 'DeFi Garden agentic-commerce pricing document',
     protocol: { name: PROTOCOL_NAME, version: PROTOCOL_VERSION },
     asset: { symbol: ASSET_SYMBOL, decimals: ASSET_DECIMALS },
-    boundary:
-      'Current APY data is free — the live railed rates DeFi Garden already serves (GET /api/pools, ' +
-      'GET /api/pools/:id) cost nothing. The historical series DeFi Garden computes and retains, and every ' +
-      'other computed KPI (Sharpe, stability scores, forever-number math, and any future computed field), ' +
-      'are paid. An endpoint not explicitly listed as free in this document defaults to paid.',
+    boundary: buildBoundarySentence(),
     routes: routes,
     mcpTools: mcpTools,
     availability: {
@@ -644,6 +697,10 @@ module.exports = {
   PRICE_SCHEDULE,
   classifyRoute,
   freeRoutes,
+  routesForTier,
+  buildRouteBoundaryMarkdown,
+  buildToolBoundaryMarkdown,
+  buildBoundarySentence,
   matchRoute,
   classifyMcpTool,
   readConfig,

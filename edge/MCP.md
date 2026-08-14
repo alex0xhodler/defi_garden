@@ -146,18 +146,17 @@ other tool's output.
 tool below is callable free today, `forever_number` included. Full
 contract: [`X402.md`](X402.md).
 
-`forever_number` is the one paid tool (it delegates to
-`GET /api/forever-number`, a computed KPI under the human's free/paid
-boundary); `find_pools`, `get_pool`, and `explain_rails` stay free today,
-under the current boundary (current-APY passthrough + self-description) —
-see `X402.md`'s "The default is PAID, not free" for why this is a standing,
-revisable decision rather than a permanent guarantee. A `tools/call` for
-`forever_number` without a valid `X-PAYMENT` header gets the SAME
-x402-conformant `402` body `/api/forever-number` itself returns, at HTTP
-status `402` — a **transport-level** response, not a JSON-RPC `error`
-object, because the resource being purchased is the underlying REST route
-regardless of which transport reached it. `tools/list`, `initialize`,
-`ping`, notifications, and every free tool are never gated.
+<!-- BEGIN GENERATED MCP PRICING -->
+**Free tools:** `find_pools`, `get_pool`, `explain_rails`.
+
+**Paid tools:** `forever_number`.
+
+Any tool whose API route is not explicitly listed as free defaults to paid.
+<!-- END GENERATED MCP PRICING -->
+
+A `tools/call` for a paid tool without a valid payment header gets the same
+x402 payment-required response as its underlying REST route. `tools/list`,
+`initialize`, `ping`, notifications, and every free tool are never gated.
 
 Tool pricing is derived from the exact same schedule
 `edge/x402-core.js`'s `PRICE_SCHEDULE` encodes, via each tool's own
