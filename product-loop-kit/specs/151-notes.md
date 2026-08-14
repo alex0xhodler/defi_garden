@@ -20,7 +20,7 @@
 - Parser/category non-regressions, compiled/minified derivation, registry, and `git diff --check` pass.
 - Real Chromium preview: bare PT excludes `OPT-USDC`; canonical and compact parent queries render all expected maturities.
 - Reviewer round 1 found the substring collision; focused re-review returned PASS with no BLOCKING or AMEND findings.
-- Full plain lane: 62/63. Sole failure is the pre-existing `test_translations_number_format.js` zero-argument arity baseline already repaired on open PR #447; item 151 does not duplicate that unrelated patch.
+- Full plain lane: 64/64 after carrying the identical four-function translation arity repair also present on open PRs #424/#447; whichever lands later should drop that overlap during rebase.
 
 ## Boundary
 
