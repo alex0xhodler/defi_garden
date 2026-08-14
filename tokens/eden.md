@@ -6,6 +6,11 @@ The highest honest EDEN yield right now is 253.39% on uniswap-v4 (Ethereum), amo
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=5f810995-6401-4230-8d11-14e791f63da4&src=seo_token) | Ethereum | 253.39% | $662K |
 
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

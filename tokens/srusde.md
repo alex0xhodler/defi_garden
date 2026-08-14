@@ -4,9 +4,20 @@ The highest honest SRUSDE yield right now is 3.77% on pendle (Ethereum), among 4
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.30% | $56.22M |
+| [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.30% | $56.1M |
 | [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 3.77% | $4.49M |
-| [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.66% | $4.49M |
+| [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.67% | $4.49M |
+
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [pendle →](https://www.defi.garden/?pool=1ce755be-27bd-4ecb-848c-f662e3ac2691&src=seo_token) | Ethereum | 3.77% | $4.49M |
+| 2 | [strata-markets →](https://www.defi.garden/?pool=843be062-d836-43ef-9670-c78d6ecb60bf&src=seo_token) | Ethereum | 3.30% | $56.1M |
+| 3 | [pendle →](https://www.defi.garden/?pool=7c3c3f3c-d5b9-4cb7-b930-ca63f6c11722&src=seo_token) | Ethereum | 3.67% | $4.49M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +33,7 @@ SRUSDE shows up in 3 pools here, with rates from 3.30% to 3.77% APY across 1 cha
 |---|---|---|---|
 | strata-markets | 3.30% | 3.28% | Base rate |
 | pendle | 3.77% | 3.88% | Base rate |
-| pendle | 3.66% | 3.88% | 6.21% incentives |
+| pendle | 3.67% | 3.88% | 6.13% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +45,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SRUSDE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $114.3M in total.
+4 live pools clear this page's $100K TVL floor, $114.05M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -4,7 +4,12 @@ The highest honest RASOL yield right now is 0.33% on project-0 (Solana), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=7df4544a-46dc-58db-9d6c-884ed8efcea5&src=seo_token) | Solana | 0.33% | $220K |
+| [project-0 →](https://www.defi.garden/?pool=7df4544a-46dc-58db-9d6c-884ed8efcea5&src=seo_token) | Solana | 0.33% | $220.2K |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,11 +35,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RASOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $341.3K in total.
+2 live pools clear this page's $100K TVL floor, $341.4K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

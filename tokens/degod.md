@@ -6,6 +6,11 @@ The highest honest DEGOD yield right now is 0.40% on raydium-amm (Solana), among
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=62201624-5aef-4705-aafa-e93ec330b451&src=seo_token) | Solana | 0.40% | $177.1K |
 
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

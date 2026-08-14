@@ -5,7 +5,17 @@ The highest honest USDP yield right now is 12.16% on balancer-v3 (Hyperliquid L1
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 12.16% | $1.07M |
-| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.60% | $685.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.60% | $685.6K |
+
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 12.16% | $1.07M |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 10.60% | $685.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,7 +29,7 @@ USDP shows up in 2 pools here, with rates from 10.60% to 12.16% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 12.16% | 12.34% | 82.86% incentives |
+| balancer-v3 | 12.16% | 12.33% | 82.86% incentives |
 | balancer-v3 | 10.60% | 10.04% | 84.04% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -38,6 +48,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
+
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
@@ -45,7 +59,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [VBILL](https://www.defi.garden/tokens/vbill)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 
 ## Available on
 

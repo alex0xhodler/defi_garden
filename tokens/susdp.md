@@ -4,7 +4,12 @@ The highest honest SUSDP yield right now is 10.00% on parallel-protocol-v3 (Aval
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [parallel-protocol-v3 →](https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token) | Avalanche | 10.00% | $259.6K |
+| [parallel-protocol-v3 →](https://www.defi.garden/?pool=f65159b4-7bec-40c8-8f31-1fa2f5408738&src=seo_token) | Avalanche | 10.00% | $259.7K |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,11 +35,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $463.7K in total.
+2 live pools clear this page's $100K TVL floor, $463.8K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

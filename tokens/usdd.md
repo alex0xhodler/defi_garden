@@ -4,9 +4,20 @@ The highest honest USDD yield right now is 4.02% on justlend-v1 (Tron), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 4.02% | $420.62M |
+| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 4.02% | $418.89M |
 | [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.01% | $500.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token) | Solana | 0.11% | $350.1K |
+
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.01% | $500.1K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token) | Solana | 0.11% | $350.1K |
+| 3 | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 4.02% | $418.89M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +31,7 @@ USDD shows up in 3 pools here, with rates from 0.01% to 4.02% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| justlend-v1 | 4.02% | 4.00% | 99.98% incentives |
+| justlend-v1 | 4.02% | 3.99% | 99.98% incentives |
 | raydium-amm | 0.01% | 0.13% | Base rate |
 | raydium-amm | 0.11% | 1.47% | Base rate |
 
@@ -34,11 +45,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $421.67M in total.
+4 live pools clear this page's $100K TVL floor, $419.94M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

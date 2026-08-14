@@ -1,19 +1,29 @@
 # LSK DeFi Yields
 
-The highest honest LSK yield right now is 15.67% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LSK yield right now is 15.33% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 8.11% | $196.8K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 15.67% | $147.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 7.22% | $198.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 15.33% | $149.2K |
+
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b9887f2f-8d21-4c7f-8265-798b7748766c&src=seo_token) | Ethereum | 7.22% | $198.1K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=15f66ad4-6475-4a39-9362-ec117a55dd62&src=seo_token) | Base | 15.33% | $149.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LSK shows up in 2 pools here, with rates from 8.11% to 15.67% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+LSK shows up in 2 pools here, with rates from 7.22% to 15.33% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 12.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +31,8 @@ LSK shows up in 2 pools here, with rates from 8.11% to 15.67% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 8.11% | 11.39% | Base rate |
-| aerodrome-slipstream | 15.67% | 13.76% | 78.84% incentives |
+| uniswap-v4 | 7.22% | 11.39% | Base rate |
+| aerodrome-slipstream | 15.33% | 13.74% | 79.42% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,15 +40,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LSK yield today?
 
-15.67% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+15.33% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many LSK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $344.7K in total.
+2 live pools clear this page's $100K TVL floor, $347.3K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

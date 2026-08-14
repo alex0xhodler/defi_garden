@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"ATETH","item":"https://www.defi.garden/tokens/ateth"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"latch on Gravity","url":"https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"ATETH DeFi Yields Dataset","description":"Live DefiLlama yield data for ATETH pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/ateth","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest ATETH yield today?","acceptedAnswer":{"@type":"Answer","text":"2.05% APY on latch (Gravity), based on live DefiLlama data."}},{"@type":"Question","name":"How many ATETH pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"1 live pool clear this page's $100K TVL floor, $177.7K in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest ATETH yield today?","acceptedAnswer":{"@type":"Answer","text":"2.05% APY on latch (Gravity), based on live DefiLlama data."}},{"@type":"Question","name":"How many ATETH pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"1 live pool clear this page's $100K TVL floor, $178.1K in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"tcpRateStabilityFaqQ","acceptedAnswer":{"@type":"Answer","text":"tcpRateStabilityInsufficientAnswer"}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="ATETH DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="1 live ATETH pool above the $100K TVL floor, up to 2.05% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .scroll { overflow-x: auto; }
       @media (prefers-reduced-motion: reduce) { .tp-cta, .related-links a { transition: none; } .tp-cta:active, .related-links a:active { transform: none; } }
       .tp-waitlist { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 20px 22px; margin: 24px 0; }
@@ -94,7 +99,7 @@
     <h1>ATETH DeFi Yields</h1>
     <p class="tp-answer">The highest honest ATETH yield right now is 2.05% on latch (Gravity), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">1 live pool above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">ATETH's largest live pool is latch on Gravity at 2.05% ($177.7K TVL). 1 ATETH pool across 1 chain clear this page's $100K TVL floor, $177.7K in total.</p>
+    <p class="intro">ATETH's largest live pool is latch on Gravity at 2.05% ($178.1K TVL). 1 ATETH pool across 1 chain clear this page's $100K TVL floor, $178.1K in total.</p>
     <p class="tp-yield-headline">Your idle ATETH could earn ~2.05% — park $11.7K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=ATETH&minTvl=100000&src=seo_token">See live ATETH pools →</a>
     <div class="tp-card">
@@ -108,12 +113,16 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_token">latch &rarr;</a></td>
           <td>Gravity</td>
           <td class="num">2.05%</td>
-          <td class="num">$177.7K</td>
+          <td class="num">$178.1K</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="insufficient" aria-label="tcpRateStabilityHeading">
+      <h2>tcpRateStabilityHeading</h2>
+      <p>tcpRateStabilityInsufficientAnswer</p>
+    </section>
     <section class="tp-faq" aria-label="Frequently asked questions">
       <h2>Frequently asked questions</h2>
         <div class="tp-faq-item">
@@ -122,11 +131,15 @@
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">How many ATETH pools clear the TVL floor?</h3>
-          <p class="tp-faq-a">1 live pool clear this page&#39;s $100K TVL floor, $177.7K in total.</p>
+          <p class="tp-faq-a">1 live pool clear this page&#39;s $100K TVL floor, $178.1K in total.</p>
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">tcpRateStabilityFaqQ</h3>
+          <p class="tp-faq-a">tcpRateStabilityInsufficientAnswer</p>
         </div>
     </section>
     <nav class="related" aria-label="Related tokens">

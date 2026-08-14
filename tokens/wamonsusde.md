@@ -1,10 +1,15 @@
 # WAMONSUSDE DeFi Yields
 
-The highest honest WAMONSUSDE yield right now is 11.74% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAMONSUSDE yield right now is 11.59% on balancer-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=afde2a3f-5b44-5dd7-a936-5bc991064e6a&src=seo_token) | Monad | 11.74% | $783.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=afde2a3f-5b44-5dd7-a936-5bc991064e6a&src=seo_token) | Monad | 11.59% | $783.5K |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAMONSUSDE yield today?
 
-11.74% APY on balancer-v3 (Monad), based on live DefiLlama data.
+11.59% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many WAMONSUSDE pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

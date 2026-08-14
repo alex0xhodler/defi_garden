@@ -7,6 +7,16 @@ The highest honest WSPYX yield right now is 0.30% on fluxion-network (Mantle), a
 | [uniswap-v3 →](https://www.defi.garden/?pool=247c4969-6eb4-4abd-b073-7c83d0920e82&src=seo_token) | Ethereum | 0.07% | $324.4K |
 | [fluxion-network →](https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03&src=seo_token) | Mantle | 0.30% | $108.3K |
 
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [fluxion-network →](https://www.defi.garden/?pool=913ce101-55b1-4230-93c7-d523f0d9ca03&src=seo_token) | Mantle | 0.30% | $108.3K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=247c4969-6eb4-4abd-b073-7c83d0920e82&src=seo_token) | Ethereum | 0.07% | $324.4K |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -34,11 +44,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSPYX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $986.7K in total.
+3 live pools clear this page's $100K TVL floor, $987K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

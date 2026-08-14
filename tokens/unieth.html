@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"UNIETH","item":"https://www.defi.garden/tokens/unieth"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"bedrock-unieth on Ethereum","url":"https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79"},{"@type":"ListItem","position":2,"name":"morpho-blue on Ethereum","url":"https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3"},{"@type":"ListItem","position":3,"name":"curve-dex on Ethereum","url":"https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"UNIETH DeFi Yields Dataset","description":"Live DefiLlama yield data for UNIETH pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/unieth","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest UNIETH yield today?","acceptedAnswer":{"@type":"Answer","text":"2.34% APY on bedrock-unieth (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many UNIETH pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear this page's $100K TVL floor, $22.84M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest UNIETH yield today?","acceptedAnswer":{"@type":"Answer","text":"2.34% APY on bedrock-unieth (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many UNIETH pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"3 live pools clear this page's $100K TVL floor, $22.9M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"tcpRateStabilityFaqQ","acceptedAnswer":{"@type":"Answer","text":"tcpRateStabilityRankedAnswer"}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="UNIETH DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="3 live UNIETH pools above the $100K TVL floor, up to 2.34% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -97,7 +102,7 @@
     <h1>UNIETH DeFi Yields</h1>
     <p class="tp-answer">The highest honest UNIETH yield right now is 2.34% on bedrock-unieth (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">3 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">UNIETH's largest live pool is bedrock-unieth on Ethereum at 2.34% ($19.24M TVL). 3 UNIETH pools across 1 chain clear this page's $100K TVL floor, $22.84M in total.</p>
+    <p class="intro">UNIETH's largest live pool is bedrock-unieth on Ethereum at 2.34% ($19.29M TVL). 3 UNIETH pools across 1 chain clear this page's $100K TVL floor, $22.9M in total.</p>
     <p class="tp-yield-headline">Your idle UNIETH could earn ~2.04% — park $11.8K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=UNIETH&minTvl=100000&src=seo_token">See live UNIETH pools →</a>
     <div class="tp-card">
@@ -111,27 +116,56 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token">bedrock-unieth &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">2.34%</td>
-          <td class="num">$19.24M</td>
+          <td class="num">$19.29M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token">morpho-blue &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">2.04%</td>
-          <td class="num">$3.18M</td>
+          <td class="num">$3.19M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&src=seo_token">curve-dex &rarr;</a></td>
           <td>Ethereum</td>
-          <td class="num">0.09%</td>
-          <td class="num">$424.5K</td>
+          <td class="num">0.03%</td>
+          <td class="num">$423.2K</td>
         </tr>
       </tbody>
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="tcpRateStabilityHeading">
+      <h2>tcpRateStabilityHeading</h2>
+      <p>tcpRateStabilityRankedAnswer</p>
+      <div class="tp-card">
+      <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">tcpRateStabilityColRank</th><th>Protocol</th><th>Chain</th><th class="num">APY</th><th class="num">TVL</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="num">1</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&amp;src=seo_token">bedrock-unieth &rarr;</a></td>
+            <td>Ethereum</td>
+            <td class="num">2.34%</td>
+            <td class="num">$19.29M</td>
+          </tr>
+          <tr>
+            <td class="num">2</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=656524d2-7cf6-4ed4-ab49-929053005759&amp;src=seo_token">curve-dex &rarr;</a></td>
+            <td>Ethereum</td>
+            <td class="num">0.03%</td>
+            <td class="num">$423.2K</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+    </section>
     <section class="tp-depth" aria-label="How this rate has behaved">
       <h2>How this rate has behaved</h2>
-    <p>UNIETH shows up in 3 pools here, with rates from 0.09% to 2.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
+    <p>UNIETH shows up in 3 pools here, with rates from 0.03% to 2.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
     <p>3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.95% — a useful check against today&#39;s number for whether the rate is steady or just having a good day.</p>
     <p>All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.</p>
       <div class="tp-card">
@@ -144,7 +178,7 @@
         <tr>
           <td>bedrock-unieth</td>
           <td class="num">2.34%</td>
-          <td class="num">2.41%</td>
+          <td class="num">2.40%</td>
           <td class="num">Base rate</td>
         </tr>
         <tr>
@@ -155,8 +189,8 @@
         </tr>
         <tr>
           <td>curve-dex</td>
-          <td class="num">0.09%</td>
-          <td class="num">1.80%</td>
+          <td class="num">0.03%</td>
+          <td class="num">1.79%</td>
           <td class="num">Base rate</td>
         </tr>
         </tbody>
@@ -173,11 +207,15 @@
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">How many UNIETH pools clear the TVL floor?</h3>
-          <p class="tp-faq-a">3 live pools clear this page&#39;s $100K TVL floor, $22.84M in total.</p>
+          <p class="tp-faq-a">3 live pools clear this page&#39;s $100K TVL floor, $22.9M in total.</p>
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">tcpRateStabilityFaqQ</h3>
+          <p class="tp-faq-a">tcpRateStabilityRankedAnswer</p>
         </div>
     </section>
     <nav class="related" aria-label="Related tokens">

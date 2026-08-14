@@ -5,13 +5,29 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token) | BSC | 0.56% | $1.15M |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.25% | $533.7K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.13% | $309.3K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token) | BSC | 0.59% | $1.15M |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.12% | $533.5K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.13% | $308.4K |
 | [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token) | BSC | 0.06% | $265K |
 | [mdex →](https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token) | BSC | 0.25% | $254.1K |
-| [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token) | BSC | 0.74% | $154.8K |
+| [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token) | BSC | 0.75% | $154.6K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
+
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|---|
+| 1 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
+| 2 | [mdex →](https://www.defi.garden/?pool=59dfe38a-a776-4966-a5f7-02e0c362d104&src=seo_token) | BSC | 0.25% | $254.1K |
+| 3 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
+| 4 | [pancakeswap-amm →](https://www.defi.garden/?pool=6dab81ee-8eea-4163-a38a-58986dd65595&src=seo_token) | BSC | 0.12% | $533.5K |
+| 5 | [pancakeswap-amm →](https://www.defi.garden/?pool=0b2fde3f-330e-47e3-843e-244a96c50746&src=seo_token) | BSC | 0.75% | $154.6K |
+| 6 | [pancakeswap-amm →](https://www.defi.garden/?pool=b6fa8f40-7e6b-414e-850d-807750249031&src=seo_token) | BSC | 0.06% | $265K |
+| 7 | [pancakeswap-amm →](https://www.defi.garden/?pool=1ba6ccca-7122-47ce-854e-06883f9b2897&src=seo_token) | BSC | 0.59% | $1.15M |
+| 8 | [pancakeswap-amm →](https://www.defi.garden/?pool=062c254e-89bf-44ab-8b04-242bf5916f0a&src=seo_token) | BSC | 1.13% | $308.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -28,12 +44,12 @@ BUSD 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 1.13%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | wombat-exchange | 0.03% | 0.03% | 인센티브 100.00% |
-| pancakeswap-amm | 0.56% | 1.18% | 기본 금리 |
-| pancakeswap-amm | 0.25% | 0.42% | 기본 금리 |
-| pancakeswap-amm | 1.13% | 1.12% | 기본 금리 |
+| pancakeswap-amm | 0.59% | 1.17% | 기본 금리 |
+| pancakeswap-amm | 0.12% | 0.41% | 기본 금리 |
+| pancakeswap-amm | 1.13% | 1.11% | 기본 금리 |
 | pancakeswap-amm | 0.06% | 0.19% | 기본 금리 |
 | mdex | 0.25% | 0.25% | 인센티브 99.97% |
-| pancakeswap-amm | 0.74% | 0.83% | 기본 금리 |
+| pancakeswap-amm | 0.75% | 0.82% | 기본 금리 |
 | wombat-exchange | 0.09% | 0.09% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -46,11 +62,15 @@ DefiLlama 실시간 데이터 기준, BSC의 pancakeswap-amm에서 APY 1.13%예�
 
 ### BUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $7.12M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $7.11M예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

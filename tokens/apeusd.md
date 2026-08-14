@@ -5,7 +5,17 @@ The highest honest APEUSD yield right now is 0.06% on curve-dex (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.06% | $134.5K |
-| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.06% | $132.3K |
+| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.06% | $132.4K |
+
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.06% | $134.5K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.06% | $132.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -37,6 +47,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

@@ -4,7 +4,12 @@ The highest honest CSCORES yield right now is 5.34% on morpho-blue (Katana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=36d00dc7-505a-4c7d-b82a-08e89f39e0dc&src=seo_token) | Katana | 5.34% | $252.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=36d00dc7-505a-4c7d-b82a-08e89f39e0dc&src=seo_token) | Katana | 5.34% | $253K |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSCORES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $252.3K in total.
+1 live pool clear this page's $100K TVL floor, $253K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

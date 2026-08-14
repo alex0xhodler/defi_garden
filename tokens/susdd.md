@@ -7,20 +7,30 @@ The highest honest SUSDD yield right now is 8.05% on pendle (Ethereum), among 4 
 | [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 8.05% | $5.1M |
 | [pendle →](https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token) | Ethereum | 7.08% | $5.1M |
 
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 8.05% | $5.1M |
+| 2 | [pendle →](https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token) | Ethereum | 7.08% | $5.1M |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
 SUSDD shows up in 2 pools here, with rates from 7.08% to 8.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 8.05% | 7.58% | Base rate |
-| pendle | 7.08% | 6.64% | 2.99% incentives |
+| pendle | 8.05% | 7.59% | Base rate |
+| pendle | 7.08% | 6.65% | 2.95% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,6 +47,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

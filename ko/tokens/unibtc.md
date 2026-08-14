@@ -5,9 +5,19 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [symbiotic →](https://www.defi.garden/?pool=dfe5b8a1-9d7d-5477-8312-1fdd1de8f136&src=seo_token) | Ethereum | 0.16% | $65.56M |
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.74% | $17.03M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a855fac3-6d35-4bb9-9b0b-b73820025a7c&src=seo_token) | Ethereum | 0.03% | $2.81M |
-| [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 1.47% | $2.5M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.81% | $17.01M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a855fac3-6d35-4bb9-9b0b-b73820025a7c&src=seo_token) | Ethereum | 0.03% | $2.8M |
+| [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 1.47% | $2.49M |
+
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|---|
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=a855fac3-6d35-4bb9-9b0b-b73820025a7c&src=seo_token) | Ethereum | 0.03% | $2.8M |
+| 2 | [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.81% | $17.01M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -22,7 +32,7 @@ UNIBTC 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.03%부터 1.47%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | symbiotic | 0.16% | 0.16% | 인센티브 100.00% |
-| berapaw | 0.74% | 0.31% | 인센티브 100.00% |
+| berapaw | 0.81% | 0.31% | 인센티브 100.00% |
 | uniswap-v3 | 0.03% | 0.04% | 기본 금리 |
 | symbiotic | 1.47% | 1.46% | 인센티브 100.00% |
 
@@ -36,11 +46,15 @@ DefiLlama 실시간 데이터 기준, Ethereum의 symbiotic에서 APY 1.47%예�
 
 ### UNIBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $90.22M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $90.17M예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

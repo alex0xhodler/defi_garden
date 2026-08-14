@@ -762,6 +762,15 @@ projectionHeading: "The long game",
     // (DEFAULT_MIN_TVL, app.js) — a 100x false safety claim (spec 174).
     // floorStr is ALWAYS the caller's formatUsd(MIN_POOL_TVL), never re-typed.
     tcpFaqA3: (floorStr) => `Pools listed on this page clear a ${floorStr} minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.`,
+    tcpRateStabilityHeading: "Rate stability from APY history",
+    tcpRateStabilityFaqQ: (symbol) => `Which ${symbol} pools have the most stable APY history?`,
+    tcpRateStabilityCandidate: (project, chain, apyStr, tvlStr, href) =>
+      `${project} (${chain}), ${apyStr} APY, ${tvlStr} TVL, ${href}`,
+    tcpRateStabilityRankedAnswer: (symbol, candidates) =>
+      `Based on APY history only, ${symbol}'s lower-variability candidates are ${candidates}. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.`,
+    tcpRateStabilityInsufficientAnswer: (symbol) =>
+      `There is not enough qualifying APY history to rank ${symbol} pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.`,
+    tcpRateStabilityColRank: "Rank",
     // "How this rate has behaved" depth section (item 232) — head-set pages
     // only. Every count/rate string these wrap is computed by
     // rateBehaviourFor() from the SAME railed rec.pools the table above
@@ -1503,6 +1512,15 @@ projectionHeading: "The long game",
     tcpFaqQ3: "이 수익률은 안전한가요?",
     // 174: floorStr은 항상 호출부의 formatUsd(MIN_POOL_TVL) 값이며, 절대 문자열로 다시 적지 않아요.
     tcpFaqA3: (floorStr) => `이 페이지에 표시된 풀은 최소 TVL ${floorStr} 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.`,
+    tcpRateStabilityHeading: "APY 이력 기반 수익률 안정성",
+    tcpRateStabilityFaqQ: (symbol) => `${symbol} 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?`,
+    tcpRateStabilityCandidate: (project, chain, apyStr, tvlStr, href) =>
+      `${chain}의 ${project}, APY ${apyStr}, TVL ${tvlStr}, ${href}`,
+    tcpRateStabilityRankedAnswer: (symbol, candidates) =>
+      `APY 이력만 기준으로 비교한 ${symbol}의 변동성 낮은 후보는 ${candidates}예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.`,
+    tcpRateStabilityInsufficientAnswer: (symbol) =>
+      `비교할 수 있는 ${symbol} 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.`,
+    tcpRateStabilityColRank: "순위",
     // "이 수익률은 어떻게 움직였을까요" 심층 섹션 (item 232) — 헤드 페이지에만 표시돼요.
     // 아래 문자열이 감싸는 수치는 전부 rateBehaviourFor()가 위 표와 같은,
     // 안전 기준을 통과한 rec.pools에서 계산한 값이며 여기서 다시 타이핑하지 않아요.

@@ -1,10 +1,15 @@
 # PALM DeFi Yields
 
-The highest honest PALM yield right now is 1.19% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PALM yield right now is 2.50% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b496c59b-a596-4073-b0f6-e87bfaa76a61&src=seo_token) | Ethereum | 1.19% | $253.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b496c59b-a596-4073-b0f6-e87bfaa76a61&src=seo_token) | Ethereum | 2.50% | $252.5K |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PALM yield today?
 
-1.19% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.50% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PALM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $253.4K in total.
+1 live pool clear this page's $100K TVL floor, $252.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

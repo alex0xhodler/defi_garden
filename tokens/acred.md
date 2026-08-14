@@ -11,24 +11,38 @@ The highest honest ACRED yield right now is 6.09% on apollo-diversified-credit-s
 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 6.09% | $4.9M |
 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 6.09% | $907.9K |
 
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=6df8c98a-81c8-44df-828f-40e071d8f848&src=seo_token) | Avalanche | 6.09% | $4.9M |
+| 2 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=07fa6716-2fb2-49eb-a560-cb88e3ad822c&src=seo_token) | Ethereum | 6.09% | $28.8M |
+| 3 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_token) | Ink | 6.09% | $11.09M |
+| 4 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=33cca4fa-fcb8-4232-800e-f1d84c65ba10&src=seo_token) | Polygon | 6.09% | $907.9K |
+| 5 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_token) | Sei | 6.09% | $15.63M |
+| 6 | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=41fc35e6-953a-4ecd-a500-3db322050568&src=seo_token) | Solana | 6.09% | $18.33M |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
 ACRED shows up in 6 pools here, with rates from 6.09% to 6.09% APY across 6 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 3.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 3.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| apollo-diversified-credit-securitize-fund | 6.09% | 3.85% | Base rate |
-| apollo-diversified-credit-securitize-fund | 6.09% | 3.85% | Base rate |
-| apollo-diversified-credit-securitize-fund | 6.09% | 3.85% | Base rate |
-| apollo-diversified-credit-securitize-fund | 6.09% | 3.85% | Base rate |
-| apollo-diversified-credit-securitize-fund | 6.09% | 3.85% | Base rate |
-| apollo-diversified-credit-securitize-fund | 6.09% | 3.85% | Base rate |
+| apollo-diversified-credit-securitize-fund | 6.09% | 3.86% | Base rate |
+| apollo-diversified-credit-securitize-fund | 6.09% | 3.86% | Base rate |
+| apollo-diversified-credit-securitize-fund | 6.09% | 3.86% | Base rate |
+| apollo-diversified-credit-securitize-fund | 6.09% | 3.86% | Base rate |
+| apollo-diversified-credit-securitize-fund | 6.09% | 3.86% | Base rate |
+| apollo-diversified-credit-securitize-fund | 6.09% | 3.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,6 +59,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

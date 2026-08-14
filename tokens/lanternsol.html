@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"LANTERNSOL","item":"https://www.defi.garden/tokens/lanternsol"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"lantern-staked-sol on Solana","url":"https://www.defi.garden/?pool=3acae3f1-94fe-4a48-a4bf-5669e06dc259"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"LANTERNSOL DeFi Yields Dataset","description":"Live DefiLlama yield data for LANTERNSOL pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/lanternsol","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest LANTERNSOL yield today?","acceptedAnswer":{"@type":"Answer","text":"5.95% APY on lantern-staked-sol (Solana), based on live DefiLlama data."}},{"@type":"Question","name":"How many LANTERNSOL pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"2 live pools clear this page's $100K TVL floor, $3.2M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest LANTERNSOL yield today?","acceptedAnswer":{"@type":"Answer","text":"5.95% APY on lantern-staked-sol (Solana), based on live DefiLlama data."}},{"@type":"Question","name":"How many LANTERNSOL pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"2 live pools clear this page's $100K TVL floor, $3.2M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"tcpRateStabilityFaqQ","acceptedAnswer":{"@type":"Answer","text":"tcpRateStabilityInsufficientAnswer"}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="LANTERNSOL DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="2 live LANTERNSOL pools above the $100K TVL floor, up to 5.95% APY, across 1 chain. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -117,6 +122,10 @@
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="insufficient" aria-label="tcpRateStabilityHeading">
+      <h2>tcpRateStabilityHeading</h2>
+      <p>tcpRateStabilityInsufficientAnswer</p>
+    </section>
     <section class="tp-depth" aria-label="How this rate has behaved">
       <h2>How this rate has behaved</h2>
     <p>LANTERNSOL shows up in 1 pools here, with rates from 5.95% to 5.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
@@ -154,6 +163,10 @@
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">tcpRateStabilityFaqQ</h3>
+          <p class="tp-faq-a">tcpRateStabilityInsufficientAnswer</p>
         </div>
     </section>
     <nav class="related" aria-label="Related tokens">

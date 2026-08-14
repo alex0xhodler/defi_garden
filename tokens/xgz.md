@@ -4,7 +4,12 @@ The highest honest XGZ yield right now is 0.08% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=714437a0-6424-4151-99ee-c1b5d59e89db&src=seo_token) | Ethereum | 0.08% | $165.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=714437a0-6424-4151-99ee-c1b5d59e89db&src=seo_token) | Ethereum | 0.08% | $166K |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XGZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.5K in total.
+1 live pool clear this page's $100K TVL floor, $166K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

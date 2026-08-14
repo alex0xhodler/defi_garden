@@ -1,10 +1,15 @@
 # RIZZMAS DeFi Yields
 
-The highest honest RIZZMAS yield right now is 3.80% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RIZZMAS yield right now is 3.30% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0c9b7f0c-8ded-4299-bf77-7bb19bddd32a&src=seo_token) | Solana | 3.80% | $178.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=0c9b7f0c-8ded-4299-bf77-7bb19bddd32a&src=seo_token) | Solana | 3.30% | $177.1K |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RIZZMAS yield today?
 
-3.80% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.30% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RIZZMAS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $178.1K in total.
+1 live pool clear this page's $100K TVL floor, $177.1K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

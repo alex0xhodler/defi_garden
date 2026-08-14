@@ -4,7 +4,12 @@ The highest honest HERMESOS yield right now is 0.26% on uniswap-v4 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=307fb6a5-7b29-4bc6-9f59-b958482388f7&src=seo_token) | Base | 0.26% | $117K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=307fb6a5-7b29-4bc6-9f59-b958482388f7&src=seo_token) | Base | 0.26% | $117.1K |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HERMESOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117K in total.
+1 live pool clear this page's $100K TVL floor, $117.1K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

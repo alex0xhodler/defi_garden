@@ -4,7 +4,12 @@ The highest honest AIUSD yield right now is 0.43% on yield-yak-aggregator (Avala
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=41fa2437-d7a3-4f0b-a5a3-6cd59a8e65ce&src=seo_token) | Avalanche | 0.43% | $902.3K |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=41fa2437-d7a3-4f0b-a5a3-6cd59a8e65ce&src=seo_token) | Avalanche | 0.43% | $902.2K |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AIUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $902.3K in total.
+1 live pool clear this page's $100K TVL floor, $902.2K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

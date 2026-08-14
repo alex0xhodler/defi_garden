@@ -1,21 +1,33 @@
 # KNTQ 디파이 수익률
 
-현재 KNTQ의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 75.64%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KNTQ의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 70.42%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nest-cl →](https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token) | Hyperliquid L1 | 75.64% | $255.5K |
-| [project-x →](https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token) | Hyperliquid L1 | 31.67% | $220.1K |
-| [project-x →](https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token) | Hyperliquid L1 | 25.63% | $194.2K |
-| [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token) | Hyperliquid L1 | 398.51% | $110.2K |
+| [nest-cl →](https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token) | Hyperliquid L1 | 70.42% | $255.2K |
+| [project-x →](https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token) | Hyperliquid L1 | 55.59% | $223.1K |
+| [project-x →](https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token) | Hyperliquid L1 | 28.18% | $197.3K |
+| [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token) | Hyperliquid L1 | 270.49% | $112.1K |
+
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|---|
+| 1 | [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token) | Hyperliquid L1 | 270.49% | $112.1K |
+| 2 | [project-x →](https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token) | Hyperliquid L1 | 55.59% | $223.1K |
+| 3 | [nest-cl →](https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token) | Hyperliquid L1 | 70.42% | $255.2K |
+| 4 | [project-x →](https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token) | Hyperliquid L1 | 28.18% | $197.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-KNTQ 풀은 여기 4개가 있고, 1개 체인에서 APY가 25.63%부터 398.51%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+KNTQ 풀은 여기 4개가 있고, 1개 체인에서 APY가 28.18%부터 270.49%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 31.33%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 31.52%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -23,10 +35,10 @@ KNTQ 풀은 여기 4개가 있고, 1개 체인에서 APY가 25.63%부터 398.51%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| nest-cl | 75.64% | 51.94% | 인센티브 100.00% |
-| project-x | 31.67% | 8.07% | 기본 금리 |
-| project-x | 25.63% | 10.73% | 기본 금리 |
-| nest-cl | 398.51% | 82.32% | 인센티브 100.00% |
+| nest-cl | 70.42% | 52.12% | 인센티브 100.00% |
+| project-x | 55.59% | 8.45% | 기본 금리 |
+| project-x | 28.18% | 10.92% | 기본 금리 |
+| nest-cl | 270.49% | 83.41% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -34,15 +46,19 @@ KNTQ 풀은 여기 4개가 있고, 1개 체인에서 APY가 25.63%부터 398.51%
 
 ### 오늘 KNTQ의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 75.64%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 70.42%예요.
 
 ### KNTQ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $780K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $787.7K예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## 관련 토큰
 

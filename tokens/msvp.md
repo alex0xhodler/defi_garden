@@ -4,7 +4,12 @@ The highest honest MSVP yield right now is 0.06% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5b03658e-fa48-48ee-9142-511e39690259&src=seo_token) | Solana | 0.06% | $1.9M |
+| [raydium-amm →](https://www.defi.garden/?pool=5b03658e-fa48-48ee-9142-511e39690259&src=seo_token) | Solana | 0.06% | $1.93M |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MSVP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.9M in total.
+1 live pool clear this page's $100K TVL floor, $1.93M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

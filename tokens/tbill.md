@@ -7,6 +7,16 @@ The highest honest TBILL yield right now is 3.63% on openeden-tbill (Ethereum), 
 | [openeden-tbill →](https://www.defi.garden/?pool=e140f3b2-0327-46ea-93f5-88b17b0a0a16&src=seo_token) | Ethereum | 3.63% | $21.21M |
 | [openeden-tbill →](https://www.defi.garden/?pool=43491afc-b9a5-4f12-974a-1f9cdfb5d7d5&src=seo_token) | Solana | 3.63% | $230.9K |
 
+<!-- rate-stability:ranked -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityRankedAnswer
+
+| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [openeden-tbill →](https://www.defi.garden/?pool=e140f3b2-0327-46ea-93f5-88b17b0a0a16&src=seo_token) | Ethereum | 3.63% | $21.21M |
+| 2 | [openeden-tbill →](https://www.defi.garden/?pool=43491afc-b9a5-4f12-974a-1f9cdfb5d7d5&src=seo_token) | Solana | 3.63% | $230.9K |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -37,6 +47,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityRankedAnswer
 
 ## Related tokens
 

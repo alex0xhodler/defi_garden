@@ -7,6 +7,11 @@ The highest honest KDCC yield right now is 0.25% on raydium-amm (Solana), among 
 | [raydium-amm →](https://www.defi.garden/?pool=036da802-05b0-5d5f-9657-cd8f65758f8f&src=seo_token) | Solana | 0.25% | $501.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=29108aaa-ffee-5b01-b623-df0bc054151d&src=seo_token) | Solana | 0.02% | $294.1K |
 
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -39,6 +44,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

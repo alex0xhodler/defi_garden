@@ -4,7 +4,12 @@ The highest honest RSWETH yield right now is 0.54% on swell-liquid-restaking (Et
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [swell-liquid-restaking →](https://www.defi.garden/?pool=eff9b43c-a80d-4bfc-9f9e-55e02a8ef619&src=seo_token) | Ethereum | 0.54% | $24.76M |
+| [swell-liquid-restaking →](https://www.defi.garden/?pool=eff9b43c-a80d-4bfc-9f9e-55e02a8ef619&src=seo_token) | Ethereum | 0.54% | $24.83M |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RSWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $24.76M in total.
+1 live pool clear this page's $100K TVL floor, $24.83M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 

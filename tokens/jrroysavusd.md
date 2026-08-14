@@ -1,10 +1,15 @@
 # JRROYSAVUSD DeFi Yields
 
-The highest honest JRROYSAVUSD yield right now is 11.68% on royco-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRROYSAVUSD yield right now is 11.54% on royco-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=36b496c7-8a7a-56e5-9570-6be8d1934144&src=seo_token) | Avalanche | 11.68% | $1.58M |
+| [royco-v2 →](https://www.defi.garden/?pool=36b496c7-8a7a-56e5-9570-6be8d1934144&src=seo_token) | Avalanche | 11.54% | $1.58M |
+
+<!-- rate-stability:insufficient -->
+## tcpRateStabilityHeading
+
+tcpRateStabilityInsufficientAnswer
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRROYSAVUSD yield today?
 
-11.68% APY on royco-v2 (Avalanche), based on live DefiLlama data.
+11.54% APY on royco-v2 (Avalanche), based on live DefiLlama data.
 
 ### How many JRROYSAVUSD pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### tcpRateStabilityFaqQ
+
+tcpRateStabilityInsufficientAnswer
 
 ## Related tokens
 
