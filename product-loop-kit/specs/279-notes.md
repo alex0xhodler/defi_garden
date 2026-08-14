@@ -13,7 +13,7 @@ Token pages led with one representative current rate, while comparative rate beh
 ## Test evidence
 - Item test: 8/8.
 - Contract populations: token pages 109; token-route depth 27; Markdown twins 16; source-attribution checks 6; registry checks 5.
-- Live generation used 15,607 pools and produced 2,069 token records with 795 sitemap heads. Two runs retained the same generated population.
+- Rebased live generation used 15,598 pools and produced 2,052 token records with 795 sitemap heads. Two runs retained the same generated population.
 - The plain lane passes 64/64 after replacing four default parameters with explicit nullish fallbacks; zero-argument rendering stays unchanged while the exhaustive arity probe now covers those numeric arguments.
 
 ## Browser evidence
