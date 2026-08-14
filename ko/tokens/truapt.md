@@ -29,10 +29,10 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 1.12%예요.
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [APT](https://www.defi.garden/ko/tokens/apt)
 - [AMAPT](https://www.defi.garden/ko/tokens/amapt)
-- [STAPT](https://www.defi.garden/ko/tokens/stapt)
+- [ABTC](https://www.defi.garden/ko/tokens/abtc)
 
 ## 이용 가능한 체인
 
 - [Aptos](https://www.defi.garden/ko/chains/aptos)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

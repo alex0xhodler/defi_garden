@@ -1,12 +1,12 @@
 # VBWBTC — yearn-finance on Katana
 
-**Total APY:** 1.52% (0.06% Base · + 1.46% Rewards)
+**Total APY:** 1.94% (0.08% Base · + 1.86% Rewards)
 
-**TVL:** $943.8K
+**TVL:** $945K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.67%
+**30d Mean APY:** 1.68%
 
 **Exposure:** single
 
@@ -20,14 +20,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,078 in 5y at current rates.
+$1,000 in this pool grows to ~$1,101 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$1,078 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,101 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on yearn-finance](https://yearn.fi/?ref=defi.garden)
 
-Last updated August 13, 2026
+Last updated August 14, 2026

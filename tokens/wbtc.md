@@ -1,25 +1,25 @@
 # WBTC DeFi Yields
 
-The highest honest WBTC yield right now is 6.97% on uniswap-v3 (Arbitrum), among 298 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBTC yield right now is 0.05% on aave-v3 (Arbitrum), among 302 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token) | Ethereum | 0.01% | $2.08B |
-| [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token) | Arbitrum | 0.05% | $162.63M |
-| [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token) | Polygon | 0.02% | $51.92M |
-| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token) | Ethereum | 2.54% | $50.42M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 11.96% | $42.2M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token) | Ethereum | 1.59% | $32.92M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token) | Arbitrum | 6.97% | $32.17M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.09% | $29.21M |
+| [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token) | Arbitrum | 0.05% | $161.49M |
+| [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token) | Polygon | 0.02% | $52.27M |
+| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token) | Ethereum | 4.77% | $50.39M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 8.08% | $42.29M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token) | Arbitrum | 4.12% | $33.5M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token) | Ethereum | 0.16% | $33M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.04% | $29.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WBTC shows up in 8 pools here, with rates from 0.01% to 11.96% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+WBTC shows up in 8 pools here, with rates from 0.01% to 8.08% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -30,11 +30,11 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 | aave-v3 | 0.01% | 0.01% | Base rate |
 | aave-v3 | 0.05% | 0.05% | Base rate |
 | aave-v3 | 0.02% | 0.02% | Base rate |
-| curve-dex | 2.54% | 2.00% | Base rate |
-| uniswap-v3 | 11.96% | 5.29% | Base rate |
-| uniswap-v3 | 1.59% | 0.95% | Base rate |
-| uniswap-v3 | 6.97% | 9.03% | Base rate |
-| uniswap-v3 | 0.09% | 0.29% | Base rate |
+| curve-dex | 4.77% | 2.14% | Base rate |
+| uniswap-v3 | 8.08% | 5.26% | Base rate |
+| uniswap-v3 | 4.12% | 8.77% | Base rate |
+| uniswap-v3 | 0.16% | 0.91% | Base rate |
+| uniswap-v3 | 0.04% | 0.29% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WBTC yield today?
 
-6.97% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.05% APY on aave-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many WBTC pools clear the TVL floor?
 
-298 live pools clear this page's $100K TVL floor, $4.28B in total.
+302 live pools clear this page's $100K TVL floor, $4.29B in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

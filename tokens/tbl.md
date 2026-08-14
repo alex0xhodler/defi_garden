@@ -1,10 +1,10 @@
 # TBL DeFi Yields
 
-The highest honest TBL yield right now is 3.41% on openeden-tbill (XRPL), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TBL yield right now is 3.63% on openeden-tbill (XRPL), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57&src=seo_token) | XRPL | 3.41% | $62.51M |
+| [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57&src=seo_token) | XRPL | 3.63% | $62.53M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TBL yield today?
 
-3.41% APY on openeden-tbill (XRPL), based on live DefiLlama data.
+3.63% APY on openeden-tbill (XRPL), based on live DefiLlama data.
 
 ### How many TBL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $62.51M in total.
+1 live pool clear this page's $100K TVL floor, $62.53M in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [XRPL](https://www.defi.garden/chains/xrpl)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

@@ -29,10 +29,10 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 d2-finance에서 APY 4.8
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
-- [XBTC](https://www.defi.garden/ko/tokens/xbtc)
+- [UBTC](https://www.defi.garden/ko/tokens/ubtc)
 
 ## 이용 가능한 체인
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

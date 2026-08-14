@@ -1,25 +1,25 @@
 # USD1 디파이 수익률
 
-현재 USD1의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 8.51%이며, $100K TVL 기준을 넘는 22개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USD1의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 9.29%이며, $100K TVL 기준을 넘는 21개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 1.66% | $137.86M |
-| [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.83% | $124.42M |
-| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.21% | $10.05M |
-| [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 0.32% | $9.9M |
-| [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $9.8M |
-| [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 8.51% | $4.08M |
-| [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token) | Aptos | 3.78% | $2.44M |
-| [justlend-v1 →](https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token) | Tron | 1.25% | $994.1K |
+| [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_token) | BSC | 0.72% | $137.88M |
+| [dolomite →](https://www.defi.garden/?pool=86e18974-35ca-4948-9c82-694facf9d082&src=seo_token) | Ethereum | 7.81% | $124.31M |
+| [curve-dex →](https://www.defi.garden/?pool=8f9342a3-be19-4dcb-889f-3eb6f8402e23&src=seo_token) | Ethereum | 0.23% | $10.05M |
+| [raydium-amm →](https://www.defi.garden/?pool=d14d4632-727b-47c2-b69a-def5691b4155&src=seo_token) | Solana | 0.60% | $9.9M |
+| [bitway-earn →](https://www.defi.garden/?pool=5527ec50-0afb-4812-a794-746d6b37b429&src=seo_token) | BSC | 8.00% | $9.79M |
+| [raydium-amm →](https://www.defi.garden/?pool=866092b0-6627-432a-af86-e1af0c4dae6c&src=seo_token) | Solana | 9.29% | $4.09M |
+| [echelon-market →](https://www.defi.garden/?pool=77602b93-35e4-48eb-bd66-043d13f442b1&src=seo_token) | Aptos | 3.76% | $2.44M |
+| [justlend-v1 →](https://www.defi.garden/?pool=4669ed4a-b459-4085-af60-84ddafaed129&src=seo_token) | Tron | 1.25% | $995K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USD1 풀은 여기 8개가 있고, 5개 체인에서 APY가 0.21%부터 8.51%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USD1 풀은 여기 8개가 있고, 5개 체인에서 APY가 0.23%부터 9.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.42%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.43%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -27,14 +27,14 @@ USD1 풀은 여기 8개가 있고, 5개 체인에서 APY가 0.21%부터 8.51%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lista-lending | 1.66% | 0.70% | 기본 금리 |
-| dolomite | 7.83% | 7.50% | 인센티브 79.98% |
-| curve-dex | 0.21% | 0.28% | 기본 금리 |
-| raydium-amm | 0.32% | 0.53% | 기본 금리 |
+| lista-lending | 0.72% | 0.72% | 기본 금리 |
+| dolomite | 7.81% | 7.51% | 인센티브 79.90% |
+| curve-dex | 0.23% | 0.27% | 기본 금리 |
+| raydium-amm | 0.60% | 0.48% | 기본 금리 |
 | bitway-earn | 8.00% | 8.00% | 기본 금리 |
-| raydium-amm | 8.51% | 12.67% | 기본 금리 |
-| echelon-market | 3.78% | 3.66% | 인센티브 16.07% |
-| justlend-v1 | 1.25% | 1.18% | 기본 금리 |
+| raydium-amm | 9.29% | 11.86% | 기본 금리 |
+| echelon-market | 3.76% | 3.66% | 인센티브 15.76% |
+| justlend-v1 | 1.25% | 1.19% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ USD1 풀은 여기 8개가 있고, 5개 체인에서 APY가 0.21%부터 8.51%까
 
 ### 오늘 USD1의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 8.51%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 9.29%예요.
 
 ### USD1 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 22개이며, 합산 TVL은 $308.14M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 21개이며, 합산 TVL은 $307.96M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,4 +69,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 8.51%예�
 - [Aptos](https://www.defi.garden/ko/chains/aptos)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

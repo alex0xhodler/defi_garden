@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Base의 zircuit-finance에서 APY 8.50%예
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

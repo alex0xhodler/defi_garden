@@ -1,23 +1,25 @@
 # SMUSD DeFi Yields
 
-The highest honest SMUSD yield right now is 0.31% on mezo-vaults (Mezo), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SMUSD yield right now is 1.90% on mezo-vaults (Mezo), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_token) | Mezo | 0.31% | $2.09M |
+| [mezo-vaults →](https://www.defi.garden/?pool=3331548c-0ff8-40b6-8502-8260623a37df&src=seo_token) | Mezo | 1.90% | $5.49M |
+| [mezo-vaults →](https://www.defi.garden/?pool=515e257a-3a9c-418b-93fc-acabf4021905&src=seo_token) | Mezo | 0.31% | $2.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SMUSD shows up in 1 pools here, with rates from 0.31% to 0.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SMUSD shows up in 2 pools here, with rates from 0.31% to 1.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 1.73% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.39% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| mezo-vaults | 1.90% | 3.04% | 100.00% incentives |
 | mezo-vaults | 0.31% | 1.73% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -26,11 +28,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SMUSD yield today?
 
-0.31% APY on mezo-vaults (Mezo), based on live DefiLlama data.
+1.90% APY on mezo-vaults (Mezo), based on live DefiLlama data.
 
 ### How many SMUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.58M in total.
+2 live pools clear this page's $100K TVL floor, $7.57M in total.
 
 ### Are these rates safe?
 
@@ -49,4 +51,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Mezo](https://www.defi.garden/chains/mezo)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

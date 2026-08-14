@@ -1,25 +1,25 @@
 # AUSD DeFi Yields
 
-The highest honest AUSD yield right now is 7.03% on euler-v2 (Monad), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUSD yield right now is 8.15% on accountable (Monad), among 33 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.60% | $383.42M |
-| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.83% | $110.02M |
-| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 7.03% | $41.38M |
-| [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.15% | $30.07M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.78% | $29.07M |
-| [curve-dex →](https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token) | Ethereum | 0.02% | $25M |
-| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $23.57M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=c475f250-23b3-4650-8fa8-c978979c8034&src=seo_token) | Ethereum | 5.25% | $383.49M |
+| [accountable →](https://www.defi.garden/?pool=4baffdfd-8015-4713-bad4-10a199b30157&src=seo_token) | Monad | 6.83% | $110.05M |
+| [euler-v2 →](https://www.defi.garden/?pool=f234d4dc-9b36-4b23-b1ad-ab73e8286b56&src=seo_token) | Monad | 6.93% | $41.62M |
+| [accountable →](https://www.defi.garden/?pool=6e69bba9-5a90-5712-8f5e-2012b57f5daf&src=seo_token) | Monad | 8.15% | $30.08M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=458a64c5-2f64-4ca6-8be7-41b8aef029eb&src=seo_token) | Ethereum | 0.77% | $29.07M |
+| [curve-dex →](https://www.defi.garden/?pool=2830a09f-e16b-4e8e-851c-b50d3c245844&src=seo_token) | Ethereum | 0.01% | $25M |
+| [curvance →](https://www.defi.garden/?pool=639be72a-52e2-474c-9c4c-e376b3aa7cad&src=seo_token) | Monad | 0.20% | $22.84M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=9615deeb-a4e1-506b-9aca-624a2e020ca6&src=seo_token) | Monad | 0.35% | $3.88M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AUSD shows up in 8 pools here, with rates from 0.02% to 8.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AUSD shows up in 8 pools here, with rates from 0.01% to 8.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.40% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 2.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ AUSD shows up in 8 pools here, with rates from 0.02% to 8.15% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| centrifuge-protocol | 5.60% | 4.44% | Base rate |
-| accountable | 6.83% | 6.81% | 4.13% incentives |
-| euler-v2 | 7.03% | 7.40% | 17.78% incentives |
-| accountable | 8.15% | 5.30% | 17.18% incentives |
-| uniswap-v3 | 0.78% | 0.36% | Base rate |
-| curve-dex | 0.02% | 0.01% | Base rate |
+| centrifuge-protocol | 5.25% | 4.50% | Base rate |
+| accountable | 6.83% | 6.81% | 4.11% incentives |
+| euler-v2 | 6.93% | 7.38% | 18.03% incentives |
+| accountable | 8.15% | 5.47% | 17.18% incentives |
+| uniswap-v3 | 0.77% | 0.38% | Base rate |
+| curve-dex | 0.01% | 0.01% | Base rate |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
-| uniswap-v4 | 0.35% | 0.13% | Base rate |
+| uniswap-v4 | 0.35% | 0.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AUSD yield today?
 
-7.03% APY on euler-v2 (Monad), based on live DefiLlama data.
+8.15% APY on accountable (Monad), based on live DefiLlama data.
 
 ### How many AUSD pools clear the TVL floor?
 
-33 live pools clear this page's $100K TVL floor, $686.7M in total.
+33 live pools clear this page's $100K TVL floor, $686.15M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

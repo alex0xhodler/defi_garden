@@ -1,10 +1,10 @@
 # KITTY DeFi Yields
 
-The highest honest KITTY yield right now is 77.81% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KITTY yield right now is 59.29% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token) | Solana | 77.81% | $321.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=590ca2b4-5dee-4423-b912-eb0d7ad030cc&src=seo_token) | Solana | 59.29% | $289.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KITTY yield today?
 
-77.81% APY on raydium-amm (Solana), based on live DefiLlama data.
+59.29% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many KITTY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $321.7K in total.
+1 live pool clear this page's $100K TVL floor, $289.6K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

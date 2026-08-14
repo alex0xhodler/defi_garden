@@ -29,10 +29,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [APT](https://www.defi.garden/tokens/apt)
 - [TRUAPT](https://www.defi.garden/tokens/truapt)
-- [STAPT](https://www.defi.garden/tokens/stapt)
+- [ABTC](https://www.defi.garden/tokens/abtc)
 
 ## Available on
 
 - [Aptos](https://www.defi.garden/chains/aptos)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

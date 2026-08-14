@@ -1,21 +1,21 @@
 # SDYB 디파이 수익률
 
-현재 SDYB의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 20.75%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SDYB의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 14.29%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8&src=seo_token) | Ethereum | 5.00% | $454.9K |
-| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 9.97% | $172.2K |
-| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 20.75% | $128.1K |
-| [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c&src=seo_token) | Ethereum | 20.13% | $126.1K |
+| [stake-dao →](https://www.defi.garden/?pool=265b1b8f-d19e-4ebc-9303-0eeab9f723f8&src=seo_token) | Ethereum | 5.31% | $460.1K |
+| [curve-dex →](https://www.defi.garden/?pool=f13c7bc3-690f-44fb-bca6-698784176a29&src=seo_token) | Ethereum | 9.57% | $194.7K |
+| [stake-dao →](https://www.defi.garden/?pool=44f659b4-51c3-4897-baf2-6b351d4eaf0d&src=seo_token) | Ethereum | 14.29% | $150.6K |
+| [convex-finance →](https://www.defi.garden/?pool=ada8ac24-70a8-4ac5-b545-6b61b73b240c&src=seo_token) | Ethereum | 13.96% | $115.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SDYB 풀은 여기 4개가 있고, 1개 체인에서 APY가 5.00%부터 20.75%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SDYB 풀은 여기 4개가 있고, 1개 체인에서 APY가 5.31%부터 14.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 17.34%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 17.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -23,10 +23,10 @@ SDYB 풀은 여기 4개가 있고, 1개 체인에서 APY가 5.00%부터 20.75%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| stake-dao | 5.00% | 11.26% | 인센티브 100.00% |
-| curve-dex | 9.97% | 14.71% | 인센티브 99.30% |
-| stake-dao | 20.75% | 19.97% | 인센티브 99.42% |
-| convex-finance | 20.13% | 31.44% | 인센티브 99.65% |
+| stake-dao | 5.31% | 10.90% | 인센티브 100.00% |
+| curve-dex | 9.57% | 14.53% | 인센티브 78.89% |
+| stake-dao | 14.29% | 19.85% | 인센티브 97.20% |
+| convex-finance | 13.96% | 30.72% | 인센티브 85.53% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -34,11 +34,11 @@ SDYB 풀은 여기 4개가 있고, 1개 체인에서 APY가 5.00%부터 20.75%�
 
 ### 오늘 SDYB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 20.75%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 14.29%예요.
 
 ### SDYB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $881.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $921.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -57,4 +57,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 20.75%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

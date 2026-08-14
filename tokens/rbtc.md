@@ -1,28 +1,34 @@
 # RBTC DeFi Yields
 
-The highest honest RBTC yield right now is 0.95% on sovryn-dex (Rootstock), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RBTC yield right now is 0.12% on sovryn-dex (Rootstock), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.95% | $961.4K |
-| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.20% | $748.3K |
+| [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.12% | $955.5K |
+| [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token) | Rootstock | 0.05% | $755.9K |
+| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.09% | $739.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 1.64% | $233.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 1.53% | $117.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RBTC shows up in 2 pools here, with rates from 0.20% to 0.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RBTC shows up in 5 pools here, with rates from 0.05% to 1.64% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+3 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sovryn-dex | 0.95% | 0.56% | 100.00% incentives |
-| sovryn-dex | 0.20% | 0.17% | 100.00% incentives |
+| sovryn-dex | 0.12% | 0.56% | 100.00% incentives |
+| sovryn-dex | 0.05% | 0.08% | 100.00% incentives |
+| sovryn-dex | 0.09% | 0.17% | 100.00% incentives |
+| uniswap-v3 | 1.64% | 0.36% | Base rate |
+| uniswap-v3 | 1.53% | 0.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +36,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RBTC yield today?
 
-0.95% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
+0.12% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
 
 ### How many RBTC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $3.4M in total.
+6 live pools clear this page's $100K TVL floor, $3.37M in total.
 
 ### Are these rates safe?
 
@@ -42,15 +48,17 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [XUSD](https://www.defi.garden/tokens/xusd)
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
+- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WETH](https://www.defi.garden/tokens/weth)
+- [WBTC](https://www.defi.garden/tokens/wbtc)
 
 ## Available on
 
 - [Rootstock](https://www.defi.garden/chains/rootstock)
+- [Arbitrum](https://www.defi.garden/chains/arbitrum)
+- [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

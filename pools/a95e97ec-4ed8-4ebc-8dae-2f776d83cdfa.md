@@ -2,11 +2,11 @@
 
 **Total APY:** 1.25% (0.05% Base · + 1.20% Rewards)
 
-**TVL:** $246.7K
+**TVL:** $246.1K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.37%
+**30d Mean APY:** 1.36%
 
 **Exposure:** multi
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on saucerswap-v1](https://www.saucerswap.finance/?ref=defi.garden)
 
-Last updated August 13, 2026
+Last updated August 14, 2026

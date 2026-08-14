@@ -1,17 +1,17 @@
 # MIN DeFi Yields
 
-The highest honest MIN yield right now is 4.28% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MIN yield right now is 4.25% on minswap-dex (Cardano), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 4.28% | $1.2M |
-| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.25% | $187.2K |
+| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 4.25% | $1.18M |
+| [minswap-dex →](https://www.defi.garden/?pool=48ddeb50-cdc2-4e7f-a806-a641d66bd37f&src=seo_token) | Cardano | 2.24% | $185.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MIN shows up in 2 pools here, with rates from 2.25% to 4.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MIN shows up in 2 pools here, with rates from 2.24% to 4.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.35% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -21,8 +21,8 @@ MIN shows up in 2 pools here, with rates from 2.25% to 4.28% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| minswap-dex | 4.28% | 4.39% | 19.39% incentives |
-| minswap-dex | 2.25% | 2.32% | Base rate |
+| minswap-dex | 4.25% | 4.38% | 19.29% incentives |
+| minswap-dex | 2.24% | 2.31% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MIN yield today?
 
-4.28% APY on minswap-dex (Cardano), based on live DefiLlama data.
+4.25% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many MIN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.38M in total.
+2 live pools clear this page's $100K TVL floor, $1.37M in total.
 
 ### Are these rates safe?
 
@@ -47,10 +47,10 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
 - [NIGHT](https://www.defi.garden/tokens/night)
-- [DJED](https://www.defi.garden/tokens/djed)
+- [USDCX](https://www.defi.garden/tokens/usdcx)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

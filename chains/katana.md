@@ -1,17 +1,17 @@
 # Katana DeFi Yields
 
-The highest honest Katana yield right now is 4.06% on yearn-finance (Katana), among 36 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Katana yield right now is 4.91% on yearn-finance (Katana), among 32 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_chain) | 1.39% | $13.16M |
-| USDC | [metrom →](https://www.defi.garden/?pool=809cb987-fd97-59b4-ba4e-47c2a08c9019&src=seo_chain) | 3.88% | $8.64M |
-| VBUSDC | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_chain) | 4.06% | $8.53M |
-| WETH | [metrom →](https://www.defi.garden/?pool=c8aa8668-d211-59b5-bce4-85db5ef63a6f&src=seo_chain) | 1.45% | $6.03M |
-| VBETH | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_chain) | 2.02% | $5.9M |
-| YOG-ETH | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_chain) | 2.09% | $5.28M |
-| YMVOG-VBUSDC | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_chain) | 1.91% | $4.37M |
-| USDT | [metrom →](https://www.defi.garden/?pool=63bbec47-856a-5ff5-aa51-c192d81dcc84&src=seo_chain) | 1.76% | $2.46M |
+| STEAKUSDC | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_chain) | 1.39% | $13.05M |
+| VBUSDC | [yearn-finance →](https://www.defi.garden/?pool=0f185c65-9d48-48d2-85ab-7728314988e6&src=seo_chain) | 4.91% | $8.4M |
+| VBETH | [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_chain) | 1.99% | $5.93M |
+| YOG-ETH | [morpho-blue →](https://www.defi.garden/?pool=96b8354b-36db-5f9a-a5aa-c103dbffa720&src=seo_chain) | 2.06% | $5.31M |
+| YMVOG-VBUSDC | [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_chain) | 1.85% | $4.38M |
+| GTWETH | [morpho-blue →](https://www.defi.garden/?pool=23a8c413-1595-4380-9a0b-e8eb04907a90&src=seo_chain) | 1.87% | $2.38M |
+| VBUSDT | [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_chain) | 2.71% | $1.96M |
+| CSVBUSDT | [morpho-blue →](https://www.defi.garden/?pool=130d0e23-8a40-5108-b9b6-fc754456a786&src=seo_chain) | 3.73% | $1.77M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Katana yield today?
 
-4.06% APY on yearn-finance (Katana), based on live DefiLlama data.
+4.91% APY on yearn-finance (Katana), based on live DefiLlama data.
 
 ### How many Katana pools clear the TVL floor?
 
-36 live pools clear this page's $100K TVL floor, $112.3M in total.
+32 live pools clear this page's $100K TVL floor, $93.23M in total.
 
 ### Are these rates safe?
 
@@ -34,19 +34,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
-- [BSC](https://www.defi.garden/chains/bsc)
-- [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
+- [Monad](https://www.defi.garden/chains/monad)
+- [Plasma](https://www.defi.garden/chains/plasma)
 
 ## Top tokens on Katana
 
 - [STEAKUSDC](https://www.defi.garden/tokens/steakusdc)
 - [VBUSDC](https://www.defi.garden/tokens/vbusdc)
-- [USDC](https://www.defi.garden/tokens/usdc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [VBETH](https://www.defi.garden/tokens/vbeth)
 - [YOG](https://www.defi.garden/tokens/yog)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
+- [GTWETH](https://www.defi.garden/tokens/gtweth)
+- [VBUSDT](https://www.defi.garden/tokens/vbusdt)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

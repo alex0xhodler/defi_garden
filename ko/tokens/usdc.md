@@ -1,23 +1,23 @@
 # USDC 디파이 수익률
 
-현재 USDC의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 32.26%이며, $100K TVL 기준을 넘는 1,513개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDC의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 30.30%이며, $100K TVL 기준을 넘는 1,517개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 4.82% | $2.59B |
-| [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 4.55% | $431.68M |
-| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $270.13M |
-| [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 5.60% | $261.06M |
-| [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 8.02% | $167.53M |
-| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 5.03% | $151.02M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 32.26% | $112.07M |
-| [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1&src=seo_token) | Monad | 14.70% | $100.18M |
+| [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 4.83% | $2.58B |
+| [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 5.08% | $422.28M |
+| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $269.55M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 5.25% | $261.13M |
+| [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 8.02% | $168.44M |
+| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 5.35% | $148.02M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 30.30% | $111.73M |
+| [accountable →](https://www.defi.garden/?pool=1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1&src=seo_token) | Monad | 14.69% | $100.22M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 3.52%부터 32.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 3.52%부터 30.30%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.03%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,14 +27,14 @@ USDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 3.52%부터 32.26%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| maple | 4.82% | 4.91% | 기본 금리 |
-| jupiter-lend | 4.55% | 4.87% | 인센티브 15.42% |
+| maple | 4.83% | 4.91% | 기본 금리 |
+| jupiter-lend | 5.08% | 4.88% | 인센티브 14.21% |
 | spark-savings | 3.52% | 3.54% | 기본 금리 |
-| centrifuge-protocol | 5.60% | 4.44% | 기본 금리 |
-| pareto-credit | 8.02% | 8.22% | 기본 금리 |
-| fluid-lending | 5.03% | 5.14% | 기본 금리 |
-| uniswap-v3 | 32.26% | 41.47% | 기본 금리 |
-| accountable | 14.70% | 17.21% | 인센티브 2.02% |
+| centrifuge-protocol | 5.25% | 4.50% | 기본 금리 |
+| pareto-credit | 8.02% | 8.21% | 기본 금리 |
+| fluid-lending | 5.35% | 5.14% | 기본 금리 |
+| uniswap-v3 | 30.30% | 41.03% | 기본 금리 |
+| accountable | 14.69% | 17.11% | 인센티브 2.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ USDC 풀은 여기 8개가 있고, 5개 체인에서 APY가 3.52%부터 32.26%�
 
 ### 오늘 USDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 32.26%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 30.30%예요.
 
 ### USDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,513개이며, 합산 TVL은 $8.68B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,517개이며, 합산 TVL은 $8.69B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,4 +69,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 32.26%예요.
 - [Base](https://www.defi.garden/ko/chains/base)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

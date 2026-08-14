@@ -4,7 +4,7 @@ The highest honest STCELO yield right now is 7.98% on uniswap-v3 (Celo), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 7.98% | $591.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 7.98% | $971.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STCELO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $591.8K in total.
+1 live pool clear this page's $100K TVL floor, $971.6K in total.
 
 ### Are these rates safe?
 
@@ -24,15 +24,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [XAUT0](https://www.defi.garden/tokens/xaut0)
+- [USDM](https://www.defi.garden/tokens/usdm)
 - [CUSD](https://www.defi.garden/tokens/cusd)
+- [EURM](https://www.defi.garden/tokens/eurm)
 - [CELO](https://www.defi.garden/tokens/celo)
 - [CEUR](https://www.defi.garden/tokens/ceur)
-- [CGBP](https://www.defi.garden/tokens/cgbp)
 - [CAUD](https://www.defi.garden/tokens/caud)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

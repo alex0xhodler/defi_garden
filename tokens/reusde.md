@@ -1,32 +1,32 @@
 # REUSDE DeFi Yields
 
-The highest honest REUSDE yield right now is 18.18% on pendle (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REUSDE yield right now is 18.27% on pendle (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [re →](https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token) | Ethereum | 12.28% | $19.02M |
-| [pendle →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token) | Ethereum | 18.18% | $4.58M |
-| [pendle →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.61% | $4.58M |
-| [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token) | Ethereum | 0.22% | $557.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4f14a69f-31a6-47ce-93db-0aed87f3249f&src=seo_token) | Ethereum | 13.64% | $232.6K |
+| [re →](https://www.defi.garden/?pool=145810df-dc01-43e7-8033-e0aa5dceb767&src=seo_token) | Ethereum | 12.28% | $19.03M |
+| [pendle →](https://www.defi.garden/?pool=2c9d004f-649b-4d6c-9efb-d4759f132361&src=seo_token) | Ethereum | 18.27% | $4.59M |
+| [pendle →](https://www.defi.garden/?pool=bfb4d5f7-8479-4695-bb29-1c72b2407333&src=seo_token) | Ethereum | 17.67% | $4.59M |
+| [curve-dex →](https://www.defi.garden/?pool=12b0dcd9-d6fd-443d-88c4-68063f38f5bb&src=seo_token) | Ethereum | 0.19% | $557.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4f14a69f-31a6-47ce-93db-0aed87f3249f&src=seo_token) | Ethereum | 8.82% | $232.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-REUSDE shows up in 5 pools here, with rates from 0.22% to 18.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+REUSDE shows up in 5 pools here, with rates from 0.19% to 18.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 18.13% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 18.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| re | 12.28% | 12.90% | Base rate |
-| pendle | 18.18% | 18.13% | Base rate |
-| pendle | 17.61% | 19.22% | 2.91% incentives |
-| curve-dex | 0.22% | 0.41% | Base rate |
-| uniswap-v4 | 13.64% | 42.45% | Base rate |
+| re | 12.28% | 12.55% | Base rate |
+| pendle | 18.27% | 18.11% | Base rate |
+| pendle | 17.67% | 18.86% | 2.96% incentives |
+| curve-dex | 0.19% | 0.38% | Base rate |
+| uniswap-v4 | 8.82% | 36.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest REUSDE yield today?
 
-18.18% APY on pendle (Ethereum), based on live DefiLlama data.
+18.27% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many REUSDE pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $29.42M in total.
+6 live pools clear this page's $100K TVL floor, $29.44M in total.
 
 ### Are these rates safe?
 
@@ -57,4 +57,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

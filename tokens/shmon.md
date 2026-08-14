@@ -4,29 +4,27 @@ The highest honest SHMON yield right now is 16.00% on curve-dex (Monad), among 6
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 13.74% | $8.97M |
-| [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.20% | $1.48M |
-| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 16.00% | $595.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b8820164-b066-543d-a1a0-8b2ab1444515&src=seo_token) | Monad | 0.01% | $155.9K |
+| [shmonad →](https://www.defi.garden/?pool=ee40513c-9356-4c53-9f26-446b484a8ae2&src=seo_token) | Monad | 12.80% | $8.85M |
+| [neverland →](https://www.defi.garden/?pool=8faff3d6-7dbd-4541-a036-d1f38d61e5d4&src=seo_token) | Monad | 1.30% | $1.47M |
+| [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 16.00% | $597.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SHMON shows up in 4 pools here, with rates from 0.01% to 16.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHMON shows up in 3 pools here, with rates from 1.30% to 16.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.33% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-2 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+1 of 3 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| shmonad | 13.74% | 11.84% | Base rate |
-| neverland | 1.20% | 0.82% | 100.00% incentives |
-| curve-dex | 16.00% | 23.14% | 100.00% incentives |
-| uniswap-v3 | 0.01% | 0.01% | Base rate |
+| shmonad | 12.80% | 11.87% | Base rate |
+| neverland | 1.30% | 0.84% | 100.00% incentives |
+| curve-dex | 16.00% | 22.83% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SHMON pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $11.95M in total.
+6 live pools clear this page's $100K TVL floor, $11.8M in total.
 
 ### Are these rates safe?
 
@@ -57,4 +55,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

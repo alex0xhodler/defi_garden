@@ -4,7 +4,7 @@ The highest honest WEPE yield right now is 0.03% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c35362a7-3ac8-400b-8799-18a72dfcb786&src=seo_token) | Ethereum | 0.03% | $262.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c35362a7-3ac8-400b-8799-18a72dfcb786&src=seo_token) | Ethereum | 0.03% | $263.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WEPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $262.1K in total.
+1 live pool clear this page's $100K TVL floor, $263.4K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026

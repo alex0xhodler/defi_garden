@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 0.01%예요.
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 13, 2026
+## 마지막 업데이트: August 14, 2026

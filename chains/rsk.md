@@ -1,10 +1,11 @@
 # RSK DeFi Yields
 
-The highest honest RSK yield right now is 2.47% on midas-rwa (RSK), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RSK yield right now is 2.47% on midas-rwa (RSK), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [midas-rwa →](https://www.defi.garden/?pool=037e58ef-f36c-4a1a-9fe6-65c0fd0b863d&src=seo_chain) | 2.47% | $258.4K |
+| BTC | [midas-rwa →](https://www.defi.garden/?pool=037e58ef-f36c-4a1a-9fe6-65c0fd0b863d&src=seo_chain) | 2.47% | $258.6K |
+| USDT0 | [symbiosis →](https://www.defi.garden/?pool=e026e305-cf00-4fe8-b5e1-22dcc11ab763&src=seo_chain) | 0.49% | $101.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RSK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $258.4K in total.
+2 live pools clear this page's $100K TVL floor, $360.3K in total.
 
 ### Are these rates safe?
 
@@ -27,12 +28,13 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Monad](https://www.defi.garden/chains/monad)
-- [Bitcoin](https://www.defi.garden/chains/bitcoin)
-- [Mezo](https://www.defi.garden/chains/mezo)
-- [ICP](https://www.defi.garden/chains/icp)
+- [Plasma](https://www.defi.garden/chains/plasma)
+- [Polygon](https://www.defi.garden/chains/polygon)
+- [Mantle](https://www.defi.garden/chains/mantle)
 
 ## Top tokens on RSK
 
 - [BTC](https://www.defi.garden/tokens/btc)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 
-## Last updated August 13, 2026
+## Last updated August 14, 2026
