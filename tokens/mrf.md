@@ -4,7 +4,7 @@ The highest honest MRF yield right now is 0.02% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=59859e12-07e7-485c-bda6-582f95c28896&src=seo_token) | Ethereum | 0.02% | $394.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=59859e12-07e7-485c-bda6-582f95c28896&src=seo_token) | Ethereum | 0.02% | $391.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MRF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $394.1K in total.
+1 live pool clear this page's $100K TVL floor, $391.5K in total.
 
 ### Are these rates safe?
 

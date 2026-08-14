@@ -1,25 +1,25 @@
 # PMUSD DeFi Yields
 
-The highest honest PMUSD yield right now is 32.81% on convex-finance (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PMUSD yield right now is 33.24% on convex-finance (Ethereum), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token) | Ethereum | 14.99% | $2.83M |
-| [curve-dex →](https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token) | Ethereum | 7.85% | $2.65M |
-| [curve-dex →](https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token) | Ethereum | 7.54% | $2.3M |
-| [convex-finance →](https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token) | Ethereum | 16.36% | $1.79M |
-| [convex-finance →](https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token) | Ethereum | 32.81% | $1.67M |
-| [convex-finance →](https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token) | Ethereum | 18.14% | $1.46M |
-| [stake-dao →](https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token) | Ethereum | 23.96% | $1.17M |
-| [stake-dao →](https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token) | Ethereum | 13.55% | $991.8K |
+| [curve-dex →](https://www.defi.garden/?pool=ce8d4fdf-748d-46b7-833a-224cb15386d5&src=seo_token) | Ethereum | 15.19% | $2.83M |
+| [curve-dex →](https://www.defi.garden/?pool=227d976d-035c-4be3-83a9-70a6135f9c18&src=seo_token) | Ethereum | 7.94% | $2.65M |
+| [curve-dex →](https://www.defi.garden/?pool=37fb91f9-866e-4fb1-9339-1311c04a8a00&src=seo_token) | Ethereum | 7.64% | $2.3M |
+| [convex-finance →](https://www.defi.garden/?pool=02ad75ab-b463-465f-a942-1c858ab4fd17&src=seo_token) | Ethereum | 16.62% | $1.79M |
+| [convex-finance →](https://www.defi.garden/?pool=fe043c50-fcc5-4ffc-9dae-f6bfee61cf40&src=seo_token) | Ethereum | 33.24% | $1.67M |
+| [convex-finance →](https://www.defi.garden/?pool=b395019b-ecc9-430d-be47-617f13fa3975&src=seo_token) | Ethereum | 18.38% | $1.46M |
+| [stake-dao →](https://www.defi.garden/?pool=37d3884b-49dc-49ff-9ce8-2435c1401cb0&src=seo_token) | Ethereum | 24.00% | $1.17M |
+| [stake-dao →](https://www.defi.garden/?pool=dd3d15c2-7665-418e-9eeb-bc855e32e4a1&src=seo_token) | Ethereum | 13.59% | $990.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PMUSD shows up in 8 pools here, with rates from 7.54% to 32.81% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PMUSD shows up in 8 pools here, with rates from 7.64% to 33.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 18.11% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 18.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 8 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,14 +27,14 @@ PMUSD shows up in 8 pools here, with rates from 7.54% to 32.81% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 14.99% | 17.31% | 99.80% incentives |
-| curve-dex | 7.85% | 10.43% | 99.87% incentives |
-| curve-dex | 7.54% | 9.44% | 99.87% incentives |
-| convex-finance | 16.36% | 19.77% | 99.94% incentives |
-| convex-finance | 32.81% | 32.62% | 99.91% incentives |
-| convex-finance | 18.14% | 18.92% | 99.94% incentives |
-| stake-dao | 23.96% | 28.46% | 99.17% incentives |
-| stake-dao | 13.55% | 16.46% | 99.48% incentives |
+| curve-dex | 15.19% | 17.31% | 99.80% incentives |
+| curve-dex | 7.94% | 10.43% | 100.00% incentives |
+| curve-dex | 7.64% | 9.44% | 99.87% incentives |
+| convex-finance | 16.62% | 19.75% | 99.64% incentives |
+| convex-finance | 33.24% | 32.64% | 99.91% incentives |
+| convex-finance | 18.38% | 18.92% | 99.95% incentives |
+| stake-dao | 24.00% | 28.45% | 99.17% incentives |
+| stake-dao | 13.59% | 16.46% | 99.48% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PMUSD yield today?
 
-32.81% APY on convex-finance (Ethereum), based on live DefiLlama data.
+33.24% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many PMUSD pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $16.48M in total.
+11 live pools clear this page's $100K TVL floor, $16.47M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest CAT yield right now is 0.02% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1411d14f-8f53-457d-afda-36ba3136a836&src=seo_token) | Ethereum | 0.02% | $155.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1411d14f-8f53-457d-afda-36ba3136a836&src=seo_token) | Ethereum | 0.02% | $154.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=e87cab1c-d5e1-4f3a-88fa-e76b43ad2a65&src=seo_token) | Solana | 0.72% | $117.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CAT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $273.4K in total.
+2 live pools clear this page's $100K TVL floor, $272.6K in total.
 
 ### Are these rates safe?
 

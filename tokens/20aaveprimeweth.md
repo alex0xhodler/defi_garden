@@ -1,10 +1,10 @@
 # 20AAVEPRIMEWETH DeFi Yields
 
-The highest honest 20AAVEPRIMEWETH yield right now is 0.86% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 20AAVEPRIMEWETH yield right now is 0.91% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5&src=seo_token) | Ethereum | 0.86% | $210.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5&src=seo_token) | Ethereum | 0.91% | $210.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +12,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 20AAVEPRIMEWETH yield today?
 
-0.86% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+0.91% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 20AAVEPRIMEWETH pools clear the TVL floor?
 

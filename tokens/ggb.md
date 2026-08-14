@@ -4,7 +4,7 @@ The highest honest GGB yield right now is 0.09% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=895d9dbf-b950-5b12-9f39-35256d60a743&src=seo_token) | Ethereum | 0.09% | $260.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=895d9dbf-b950-5b12-9f39-35256d60a743&src=seo_token) | Ethereum | 0.09% | $260.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GGB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $260.3K in total.
+1 live pool clear this page's $100K TVL floor, $260.2K in total.
 
 ### Are these rates safe?
 

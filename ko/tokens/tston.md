@@ -5,16 +5,16 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [tonco →](https://www.defi.garden/?pool=92dba085-11b3-5951-aeec-f7d65c21e854&src=seo_token) | TON | 41.25% | $4.57M |
-| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 14.34% | $747.9K |
-| [ston.fi →](https://www.defi.garden/?pool=38a43214-1895-49b4-8c61-ddf9dabe8cf9&src=seo_token) | TON | 3.22% | $600.8K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.86% | $224K |
-| [ston.fi →](https://www.defi.garden/?pool=0427f819-6c83-41e1-b001-d9ae07b4ee2f&src=seo_token) | TON | 2.21% | $165K |
+| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 14.34% | $748K |
+| [ston.fi →](https://www.defi.garden/?pool=38a43214-1895-49b4-8c61-ddf9dabe8cf9&src=seo_token) | TON | 3.20% | $600.8K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.85% | $224.5K |
+| [ston.fi →](https://www.defi.garden/?pool=0427f819-6c83-41e1-b001-d9ae07b4ee2f&src=seo_token) | TON | 2.20% | $165K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-TSTON 풀은 여기 5개가 있고, 1개 체인에서 APY가 2.21%부터 41.25%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+TSTON 풀은 여기 5개가 있고, 1개 체인에서 APY가 2.20%부터 41.25%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.41%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -24,11 +24,11 @@ TSTON 풀은 여기 5개가 있고, 1개 체인에서 APY가 2.21%부터 41.25%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| tonco | 41.25% | 44.07% | 기본 금리 |
-| affluent | 14.34% | 13.28% | 기본 금리 |
-| ston.fi | 3.22% | 3.12% | 기본 금리 |
-| affluent | 2.86% | 2.82% | 기본 금리 |
-| ston.fi | 2.21% | 3.41% | 기본 금리 |
+| tonco | 41.25% | 44.06% | 기본 금리 |
+| affluent | 14.34% | 13.29% | 기본 금리 |
+| ston.fi | 3.20% | 3.12% | 기본 금리 |
+| affluent | 2.85% | 2.83% | 기본 금리 |
+| ston.fi | 2.20% | 3.41% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

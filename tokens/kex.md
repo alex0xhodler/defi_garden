@@ -4,7 +4,7 @@ The highest honest KEX yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b5d698f9-1f15-43a1-b95e-0e54882a1bd1&src=seo_token) | Ethereum | 0.01% | $114.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b5d698f9-1f15-43a1-b95e-0e54882a1bd1&src=seo_token) | Ethereum | 0.01% | $114.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.7K in total.
+1 live pool clear this page's $100K TVL floor, $114.3K in total.
 
 ### Are these rates safe?
 

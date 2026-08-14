@@ -4,8 +4,8 @@ The highest honest VOLT yield right now is 0.81% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=aec7794c-a8d6-4111-b5ff-3b4c90fc60b6&src=seo_token) | Ethereum | 0.81% | $756.7K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=71c481f9-12b0-4430-ad0f-04ebbac1321a&src=seo_token) | Ethereum | 0.01% | $321.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=aec7794c-a8d6-4111-b5ff-3b4c90fc60b6&src=seo_token) | Ethereum | 0.81% | $752.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=71c481f9-12b0-4430-ad0f-04ebbac1321a&src=seo_token) | Ethereum | 0.01% | $319.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VOLT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.08M in total.
+2 live pools clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 

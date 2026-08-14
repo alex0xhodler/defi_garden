@@ -4,7 +4,7 @@ The highest honest XORCA yield right now is 0.01% on orca-dex (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token) | Solana | 0.01% | $297.8K |
+| [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token) | Solana | 0.01% | $296.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XORCA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $297.8K in total.
+1 live pool clear this page's $100K TVL floor, $296.8K in total.
 
 ### Are these rates safe?
 

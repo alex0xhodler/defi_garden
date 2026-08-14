@@ -4,7 +4,7 @@ The highest honest OLDSLERF yield right now is 0.02% on raydium-amm (Solana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916&src=seo_token) | Solana | 0.02% | $12.8M |
+| [raydium-amm →](https://www.defi.garden/?pool=eb0fb099-5af2-45a7-961a-0daf3cb53916&src=seo_token) | Solana | 0.02% | $12.72M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OLDSLERF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $12.8M in total.
+1 live pool clear this page's $100K TVL floor, $12.72M in total.
 
 ### Are these rates safe?
 

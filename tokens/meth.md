@@ -4,8 +4,8 @@ The highest honest METH yield right now is 1.91% on meth-protocol (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 1.91% | $447.4M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token) | Ethereum | 0.05% | $1.28M |
+| [meth-protocol →](https://www.defi.garden/?pool=b9f2f00a-ba96-4589-a171-dde979a23d87&src=seo_token) | Ethereum | 1.91% | $444.85M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=05171ab2-0920-42fd-8cea-660548b9ea58&src=seo_token) | Ethereum | 0.05% | $1.27M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,13 +13,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 METH shows up in 2 pools here, with rates from 0.05% to 1.91% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.00% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| meth-protocol | 1.91% | 1.91% | Base rate |
+| meth-protocol | 1.91% | 1.92% | Base rate |
 | uniswap-v3 | 0.05% | 0.10% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many METH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $451.52M in total.
+3 live pools clear this page's $100K TVL floor, $448.96M in total.
 
 ### Are these rates safe?
 

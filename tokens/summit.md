@@ -1,10 +1,10 @@
 # SUMMIT DeFi Yields
 
-The highest honest SUMMIT yield right now is 9.20% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUMMIT yield right now is 14.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=011fc54e-7120-5e2e-a4d3-99a7351ea134&src=seo_token) | Solana | 9.20% | $187.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=011fc54e-7120-5e2e-a4d3-99a7351ea134&src=seo_token) | Solana | 14.23% | $187.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUMMIT yield today?
 
-9.20% APY on raydium-amm (Solana), based on live DefiLlama data.
+14.23% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SUMMIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $187.6K in total.
+1 live pool clear this page's $100K TVL floor, $187.9K in total.
 
 ### Are these rates safe?
 

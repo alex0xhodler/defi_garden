@@ -4,7 +4,7 @@ The highest honest APUFF yield right now is 0.03% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bea7dc6-2704-4255-ab6e-cff914f129f4&src=seo_token) | Ethereum | 0.03% | $462.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bea7dc6-2704-4255-ab6e-cff914f129f4&src=seo_token) | Ethereum | 0.03% | $461.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APUFF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $462.8K in total.
+1 live pool clear this page's $100K TVL floor, $461.3K in total.
 
 ### Are these rates safe?
 

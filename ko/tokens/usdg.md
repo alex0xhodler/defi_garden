@@ -4,14 +4,14 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.99% | $243.86M |
-| [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_token) | Robinhood Chain | 3.50% | $31.33M |
-| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.18% | $30.48M |
+| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.99% | $243.05M |
+| [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_token) | Robinhood Chain | 3.50% | $31.36M |
+| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.16% | $30.48M |
 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.10% | $25.68M |
-| [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.31% | $25.5M |
-| [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 2.75% | $19.33M |
-| [aave-v3 →](https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token) | Ethereum | 4.65% | $4.03M |
-| [pendle →](https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token) | Ethereum | 3.66% | $3.79M |
+| [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.32% | $25.4M |
+| [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 2.75% | $19.32M |
+| [aave-v3 →](https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token) | Ethereum | 4.65% | $4.04M |
+| [pendle →](https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token) | Ethereum | 3.65% | $3.79M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -27,12 +27,12 @@ USDG 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.10%부터 4.99%까
 |---|---|---|---|
 | maple | 4.99% | 5.01% | 기본 금리 |
 | spark-savings | 3.50% | 3.50% | 기본 금리 |
-| curve-dex | 0.18% | 0.45% | 기본 금리 |
+| curve-dex | 0.16% | 0.44% | 기본 금리 |
 | orca-dex | 0.10% | 0.25% | 기본 금리 |
-| aave-v4 | 1.31% | 1.05% | 기본 금리 |
-| kamino-lend | 2.75% | 2.48% | 기본 금리 |
+| aave-v4 | 1.32% | 1.05% | 기본 금리 |
+| kamino-lend | 2.75% | 2.47% | 기본 금리 |
 | aave-v3 | 4.65% | 5.09% | 기본 금리 |
-| pendle | 3.66% | 3.74% | 인센티브 7.85% |
+| pendle | 3.65% | 3.74% | 인센티브 7.79% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 maple에서 APY 4.99%예요.
 
 ### USDG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 46개이며, 합산 TVL은 $447.46M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 46개이며, 합산 TVL은 $446.53M예요.
 
 ### 이 수익률은 안전한가요?
 

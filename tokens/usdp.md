@@ -45,7 +45,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
+- [VBILL](https://www.defi.garden/tokens/vbill)
 
 ## Available on
 

@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CETES pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $366.2K in total.
+3 live pools clear this page's $100K TVL floor, $366.3K in total.
 
 ### Are these rates safe?
 
@@ -40,12 +40,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
+- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 

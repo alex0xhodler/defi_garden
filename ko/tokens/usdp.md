@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 balancer-v3에서 APY 12
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
+- [VBILL](https://www.defi.garden/ko/tokens/vbill)
 
 ## 이용 가능한 체인
 

@@ -1,12 +1,12 @@
 # USD₮ — aave-v3 on Celo
 
-**Total APY:** 8.92% (0.48% Base · + 8.44% Rewards)
+**Total APY:** 8.91% (0.47% Base · + 8.44% Rewards)
 
 **TVL:** $1.33M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 5.38%
+**30d Mean APY:** 5.39%
 
 **Exposure:** single
 
@@ -21,13 +21,13 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,533 in 5y at current rates.
+$1,000 in this pool grows to ~$1,532 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 8.92% right now vs a 5.38% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 8.91% right now vs a 5.39% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,533 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,532 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aave-v3](https://aave.com/?ref=defi.garden)
 

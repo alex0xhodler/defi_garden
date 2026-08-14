@@ -4,7 +4,7 @@ The highest honest SDFXN yield right now is 30.59% on stake-dao (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=da360310-1187-4b7d-ab8a-0411f63d2a8d&src=seo_token) | Ethereum | 30.59% | $443.5K |
+| [stake-dao →](https://www.defi.garden/?pool=da360310-1187-4b7d-ab8a-0411f63d2a8d&src=seo_token) | Ethereum | 30.59% | $441.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SDFXN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $443.5K in total.
+1 live pool clear this page's $100K TVL floor, $441.3K in total.
 
 ### Are these rates safe?
 

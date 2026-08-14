@@ -4,13 +4,13 @@ The highest honest Gnosis yield right now is 4.11% on sdai (Gnosis), among 13 po
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.11% | $54.09M |
+| SDAI | [sdai →](https://www.defi.garden/?pool=13392973-be6e-4b2f-bce9-4f7dd53d1c3a&src=seo_chain) | 4.11% | $54.18M |
 | GNO | [aave-v3 →](https://www.defi.garden/?pool=25b57085-9668-46e8-b464-a46a37d45f9d&src=seo_chain) | 0.11% | $6.35M |
-| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.64% | $5.02M |
+| EURE | [aave-v3 →](https://www.defi.garden/?pool=eb089ddf-77ba-459c-8e87-7a66c7fc3f27&src=seo_chain) | 2.64% | $5.03M |
 | ZCHF | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_chain) | 3.50% | $1.55M |
-| USDC.E | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_chain) | 2.92% | $720.2K |
-| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.14% | $531.5K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.32% | $514.9K |
+| USDC.E | [aave-v3 →](https://www.defi.garden/?pool=461505e0-e631-4af0-b0e9-6a861d917939&src=seo_chain) | 2.96% | $683.2K |
+| WXDAI-USDC-USDT | [curve-dex →](https://www.defi.garden/?pool=2569b270-835a-4c3e-b915-9cb48ed413da&src=seo_chain) | 0.14% | $534.6K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=4eedc8b7-6314-4ac1-9966-dff2e1bebcf1&src=seo_chain) | 1.32% | $512.5K |
 | EURE-X3CRV | [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_chain) | 2.08% | $378.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Gnosis pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $107.13M in total.
+13 live pools clear this page's $100K TVL floor, $107.16M in total.
 
 ### Are these rates safe?
 

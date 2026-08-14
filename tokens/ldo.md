@@ -4,17 +4,17 @@ The highest honest LDO yield right now is 0.05% on aave-v3 (Ethereum), among 4 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token) | Ethereum | 43.51% | $479.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token) | Ethereum | 6.39% | $427.1K |
-| [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token) | Ethereum | 0.05% | $192.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e715d826-57af-46ea-8396-5352be9964a8&src=seo_token) | Ethereum | 44.54% | $474.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2fc9c593-f66b-4d05-b474-87ebc13ce378&src=seo_token) | Ethereum | 6.34% | $423.2K |
+| [aave-v3 →](https://www.defi.garden/?pool=475e0e56-2648-4b75-82cb-e82f5983787a&src=seo_token) | Ethereum | 0.05% | $191K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LDO shows up in 3 pools here, with rates from 0.05% to 43.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LDO shows up in 3 pools here, with rates from 0.05% to 44.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 13.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,8 +22,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 43.51% | 24.37% | Base rate |
-| uniswap-v3 | 6.39% | 13.85% | Base rate |
+| uniswap-v3 | 44.54% | 24.20% | Base rate |
+| uniswap-v3 | 6.34% | 13.80% | Base rate |
 | aave-v3 | 0.05% | 0.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LDO pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.21M in total.
+4 live pools clear this page's $100K TVL floor, $1.2M in total.
 
 ### Are these rates safe?
 

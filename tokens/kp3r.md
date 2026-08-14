@@ -4,9 +4,9 @@ The highest honest KP3R yield right now is 0.01% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273&src=seo_token) | Ethereum | 0.01% | $159.3K |
-| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5&src=seo_token) | Ethereum | 0.01% | $158.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f&src=seo_token) | Ethereum | 0.09% | $119.9K |
+| [curve-dex →](https://www.defi.garden/?pool=b14cb043-eca3-4893-a8c9-3b5e6a96f273&src=seo_token) | Ethereum | 0.01% | $159K |
+| [convex-finance →](https://www.defi.garden/?pool=8ba6cffc-8eed-4c62-a19a-ab0c2b5991c5&src=seo_token) | Ethereum | 0.01% | $158.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=73af0123-ecdf-4952-9799-fb9be4f2833f&src=seo_token) | Ethereum | 0.09% | $119K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -22,7 +22,7 @@ KP3R shows up in 3 pools here, with rates from 0.01% to 0.09% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.01% | 0.12% | 9.91% incentives |
+| curve-dex | 0.01% | 0.12% | 10.07% incentives |
 | convex-finance | 0.01% | 0.14% | Base rate |
 | uniswap-v3 | 0.09% | 0.67% | Base rate |
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KP3R pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $438.1K in total.
+3 live pools clear this page's $100K TVL floor, $436.6K in total.
 
 ### Are these rates safe?
 

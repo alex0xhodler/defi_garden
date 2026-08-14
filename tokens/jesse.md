@@ -4,7 +4,7 @@ The highest honest JESSE yield right now is 2.29% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 2.29% | $476K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=9937ca05-c36e-4acf-9aeb-7a62e131bfcd&src=seo_token) | Base | 2.29% | $475.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JESSE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $476K in total.
+1 live pool clear this page's $100K TVL floor, $475.3K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest STK yield right now is 0.35% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2350eb4c-ff90-435b-b44c-eef026c3db07&src=seo_token) | Ethereum | 0.35% | $469.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2350eb4c-ff90-435b-b44c-eef026c3db07&src=seo_token) | Ethereum | 0.35% | $466.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $469.2K in total.
+1 live pool clear this page's $100K TVL floor, $466.6K in total.
 
 ### Are these rates safe?
 

@@ -5,13 +5,13 @@ The highest honest ADI yield right now is 3.29% on uniswap-v3 (Ethereum), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=81cf8afe-48ec-4120-82de-16315324da42&src=seo_token) | Ethereum | 3.29% | $2.77M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9b020193-6072-46d1-a429-41a4450ab275&src=seo_token) | Ethereum | 1.35% | $490.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9b020193-6072-46d1-a429-41a4450ab275&src=seo_token) | Ethereum | 1.36% | $489.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ADI shows up in 2 pools here, with rates from 1.35% to 3.29% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ADI shows up in 2 pools here, with rates from 1.36% to 3.29% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -22,7 +22,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 3.29% | 4.03% | Base rate |
-| uniswap-v3 | 1.35% | 3.26% | Base rate |
+| uniswap-v3 | 1.36% | 3.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -4,9 +4,9 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.58% | $48.44M |
-| [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.47% | $577.1K |
-| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $165.2K |
+| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.58% | $48.24M |
+| [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.46% | $576.7K |
+| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $164.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -21,7 +21,7 @@ TETH 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.01%부터 2.58%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | treehouse-protocol | 2.58% | 2.60% | 기본 금리 |
-| curve-dex | 2.47% | 2.78% | 기본 금리 |
+| curve-dex | 2.46% | 2.78% | 기본 금리 |
 | euler-v2 | 0.01% | 0.01% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -34,7 +34,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 treehouse-protocol에서 APY 2
 
 ### TETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $91.41M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $91.02M예요.
 
 ### 이 수익률은 안전한가요?
 

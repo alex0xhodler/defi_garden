@@ -1,12 +1,12 @@
 # WOLF 디파이 수익률
 
-현재 WOLF의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 22.66%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WOLF의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 22.23%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 1.89% | $542.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5e5d5503-d46f-4c46-a895-c92f615dd852&src=seo_token) | Ethereum | 1.49% | $538.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=9bf970e6-2689-4694-8ea2-ed3350fdcb1e&src=seo_token) | Solana | 0.25% | $466.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token) | Base | 22.66% | $228.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1b93a3e1-6442-4365-9d3f-ee912f684311&src=seo_token) | Base | 22.23% | $229.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=1bba4b68-1742-4547-90a4-18b60f30ce63&src=seo_token) | Solana | 0.54% | $211.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=c5fa4d15-6901-44ef-b524-1bf7f49d4113&src=seo_token) | Solana | 1.34% | $113.1K |
 
@@ -14,7 +14,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WOLF 풀은 여기 5개가 있고, 3개 체인에서 APY가 0.25%부터 22.66%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WOLF 풀은 여기 5개가 있고, 3개 체인에서 APY가 0.25%부터 22.23%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.08%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -24,9 +24,9 @@ WOLF 풀은 여기 5개가 있고, 3개 체인에서 APY가 0.25%부터 22.66%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 1.89% | 4.43% | 기본 금리 |
-| raydium-amm | 0.25% | 3.76% | 기본 금리 |
-| uniswap-v4 | 22.66% | 34.04% | 기본 금리 |
+| uniswap-v2 | 1.49% | 4.42% | 기본 금리 |
+| raydium-amm | 0.25% | 3.77% | 기본 금리 |
+| uniswap-v4 | 22.23% | 34.11% | 기본 금리 |
 | raydium-amm | 0.54% | 4.08% | 기본 금리 |
 | raydium-amm | 1.34% | 1.47% | 기본 금리 |
 
@@ -36,11 +36,11 @@ WOLF 풀은 여기 5개가 있고, 3개 체인에서 APY가 0.25%부터 22.66%�
 
 ### 오늘 WOLF의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 22.66%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 22.23%예요.
 
 ### WOLF 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $1.74M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $1.73M예요.
 
 ### 이 수익률은 안전한가요?
 

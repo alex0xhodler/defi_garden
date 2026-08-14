@@ -4,8 +4,8 @@ The highest honest VKHYPE yield right now is 3.49% on pendle (Hyperliquid L1), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.49% | $673.2K |
-| [pendle →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 3.02% | $673.2K |
+| [pendle →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.49% | $669.9K |
+| [pendle →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 3.02% | $669.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VKHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.72M in total.
+3 live pools clear this page's $100K TVL floor, $1.71M in total.
 
 ### Are these rates safe?
 

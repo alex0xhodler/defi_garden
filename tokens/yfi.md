@@ -1,19 +1,19 @@
 # YFI DeFi Yields
 
-The highest honest YFI yield right now is 9.13% on convex-finance (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YFI yield right now is 9.23% on convex-finance (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 6.37% | $1.01M |
-| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 5.34% | $462.1K |
-| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 9.13% | $461.4K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 1.75% | $126.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a79fd5ae-6507-4190-88b1-5032c43bf7cc&src=seo_token) | Base | 6.36% | $1M |
+| [curve-dex →](https://www.defi.garden/?pool=700ab88a-4323-4b82-8fbe-b69dd8790e95&src=seo_token) | Ethereum | 5.39% | $461.2K |
+| [convex-finance →](https://www.defi.garden/?pool=f3330a13-895a-4772-b4f2-b20030e36498&src=seo_token) | Ethereum | 9.23% | $460.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4c3b9cbb-25f9-4d3e-9422-1aa1087e1d39&src=seo_token) | Ethereum | 1.83% | $126.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YFI shows up in 4 pools here, with rates from 1.75% to 9.13% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+YFI shows up in 4 pools here, with rates from 1.83% to 9.23% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,10 +23,10 @@ YFI shows up in 4 pools here, with rates from 1.75% to 9.13% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 6.37% | 14.98% | 100.00% incentives |
-| curve-dex | 5.34% | 5.39% | 88.02% incentives |
-| convex-finance | 9.13% | 7.77% | 92.99% incentives |
-| uniswap-v2 | 1.75% | 2.69% | Base rate |
+| aerodrome-v1 | 6.36% | 14.98% | 100.00% incentives |
+| curve-dex | 5.39% | 5.39% | 88.50% incentives |
+| convex-finance | 9.23% | 7.77% | 93.28% incentives |
+| uniswap-v2 | 1.83% | 2.69% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -34,11 +34,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YFI yield today?
 
-9.13% APY on convex-finance (Ethereum), based on live DefiLlama data.
+9.23% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YFI pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $3.02M in total.
+8 live pools clear this page's $100K TVL floor, $3.01M in total.
 
 ### Are these rates safe?
 

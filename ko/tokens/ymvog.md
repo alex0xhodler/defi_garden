@@ -1,20 +1,20 @@
 # YMVOG 디파이 수익률
 
-현재 YMVOG의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.84%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YMVOG의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.87%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token) | Ethereum | 6.84% | $9.8M |
-| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.85% | $4.39M |
-| [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token) | Base | 5.29% | $2.06M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.55% | $1.62M |
-| [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token) | Ethereum | 1.84% | $364.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=0b5fa01f-9759-4401-b15b-f9ed6fd06e2b&src=seo_token) | Ethereum | 6.87% | $9.8M |
+| [morpho-blue →](https://www.defi.garden/?pool=7bb0eadb-184e-58a6-8eba-d3025999276a&src=seo_token) | Katana | 1.85% | $4.38M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba74d2b3-ed94-45b2-8536-92dcc29dac8e&src=seo_token) | Base | 5.34% | $2.06M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.55% | $1.61M |
+| [morpho-blue →](https://www.defi.garden/?pool=50f2d0ab-a2ed-4c90-a92c-a8565a1a207c&src=seo_token) | Ethereum | 1.78% | $362K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-YMVOG 풀은 여기 5개가 있고, 3개 체인에서 APY가 1.84%부터 6.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+YMVOG 풀은 여기 5개가 있고, 3개 체인에서 APY가 1.78%부터 6.87%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.97%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -24,11 +24,11 @@ YMVOG 풀은 여기 5개가 있고, 3개 체인에서 APY가 1.84%부터 6.84%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 6.84% | 6.58% | 인센티브 11.54% |
-| morpho-blue | 1.85% | 4.48% | 기본 금리 |
-| morpho-blue | 5.29% | 4.97% | 기본 금리 |
-| morpho-blue | 3.55% | 6.16% | 기본 금리 |
-| morpho-blue | 1.84% | 1.73% | 기본 금리 |
+| morpho-blue | 6.87% | 6.58% | 인센티브 11.44% |
+| morpho-blue | 1.85% | 4.46% | 기본 금리 |
+| morpho-blue | 5.34% | 4.97% | 기본 금리 |
+| morpho-blue | 3.55% | 6.15% | 기본 금리 |
+| morpho-blue | 1.78% | 1.73% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -36,11 +36,11 @@ YMVOG 풀은 여기 5개가 있고, 3개 체인에서 APY가 1.84%부터 6.84%�
 
 ### 오늘 YMVOG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.84%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.87%예요.
 
 ### YMVOG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $18.24M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $18.21M예요.
 
 ### 이 수익률은 안전한가요?
 

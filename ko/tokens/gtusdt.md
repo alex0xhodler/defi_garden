@@ -4,15 +4,15 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 3.03% | $3.79M |
-| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 5.67% | $217.8K |
-| [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 7.26% | $193.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 3.05% | $3.79M |
+| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 5.65% | $216.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 7.26% | $192.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-GTUSDT 풀은 여기 3개가 있고, 2개 체인에서 APY가 3.03%부터 7.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+GTUSDT 풀은 여기 3개가 있고, 2개 체인에서 APY가 3.05%부터 7.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.36%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -20,8 +20,8 @@ GTUSDT 풀은 여기 3개가 있고, 2개 체인에서 APY가 3.03%부터 7.26%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 3.03% | 3.36% | 기본 금리 |
-| morpho-blue | 5.67% | 2.76% | 기본 금리 |
+| morpho-blue | 3.05% | 3.36% | 기본 금리 |
+| morpho-blue | 5.65% | 2.77% | 기본 금리 |
 | morpho-blue | 7.26% | 6.17% | 인센티브 13.78% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

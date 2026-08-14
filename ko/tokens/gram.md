@@ -4,22 +4,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token) | TON | 4.68% | $5.77M |
-| [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token) | TON | 2.92% | $5.03M |
+| [ston.fi →](https://www.defi.garden/?pool=ad078c5e-e07c-4a25-97ab-c04d2c9d8908&src=seo_token) | TON | 4.63% | $5.77M |
+| [ston.fi →](https://www.defi.garden/?pool=4c139e6e-1a29-496e-b916-7edd07069340&src=seo_token) | TON | 2.94% | $5.03M |
 | [storm-trade →](https://www.defi.garden/?pool=4c4efd02-2cb9-412f-b2d3-8b05208847ae&src=seo_token) | TON | 6.12% | $1.52M |
-| [affluent →](https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_token) | TON | 3.47% | $1.18M |
+| [affluent →](https://www.defi.garden/?pool=33864c02-3daf-49ed-95f1-26bbf05ea448&src=seo_token) | TON | 3.47% | $1.19M |
 | [evaa-protocol →](https://www.defi.garden/?pool=8242b3c1-fc8a-40d3-a932-77d6e5b30663&src=seo_token) | TON | 4.33% | $1.14M |
-| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 19.93% | $911K |
-| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 14.34% | $747.9K |
-| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 8.39% | $585.8K |
+| [ston.fi →](https://www.defi.garden/?pool=c3927520-3894-4808-83a8-77416f892950&src=seo_token) | TON | 21.83% | $915.3K |
+| [affluent →](https://www.defi.garden/?pool=5b80acdc-c1fd-4174-8943-3506f7559fae&src=seo_token) | TON | 14.34% | $748K |
+| [dedust →](https://www.defi.garden/?pool=72825804-40ee-5a27-9716-a2c098b7ba6e&src=seo_token) | TON | 8.66% | $587.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-GRAM 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.92%부터 19.93%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+GRAM 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.94%부터 21.83%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.22%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 6.21%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -27,14 +27,14 @@ GRAM 풀은 여기 8개가 있고, 1개 체인에서 APY가 2.92%부터 19.93%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| ston.fi | 4.68% | 6.26% | 기본 금리 |
-| ston.fi | 2.92% | 3.74% | 기본 금리 |
+| ston.fi | 4.63% | 6.26% | 기본 금리 |
+| ston.fi | 2.94% | 3.74% | 기본 금리 |
 | storm-trade | 6.12% | 6.17% | 기본 금리 |
-| affluent | 3.47% | 5.85% | 기본 금리 |
-| evaa-protocol | 4.33% | 5.40% | 기본 금리 |
-| ston.fi | 19.93% | 59.97% | 기본 금리 |
-| affluent | 14.34% | 13.28% | 기본 금리 |
-| dedust | 8.39% | 23.37% | 기본 금리 |
+| affluent | 3.47% | 5.83% | 기본 금리 |
+| evaa-protocol | 4.33% | 5.39% | 기본 금리 |
+| ston.fi | 21.83% | 60.00% | 기본 금리 |
+| affluent | 14.34% | 13.29% | 기본 금리 |
+| dedust | 8.66% | 23.29% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

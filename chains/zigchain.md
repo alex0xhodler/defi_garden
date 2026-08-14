@@ -4,9 +4,9 @@ The highest honest ZIGChain yield right now is 82.72% on permapod (ZIGChain), am
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.68% | $8.07M |
-| ZIG | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_chain) | 0.08% | $1.3M |
-| USDC | [permapod →](https://www.defi.garden/?pool=e425717d-74c8-4ffa-859d-595e5e2bd1ec&src=seo_chain) | 82.72% | $120.4K |
+| STZIG | [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_chain) | 5.68% | $8M |
+| ZIG | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_chain) | 0.08% | $1.29M |
+| USDC | [permapod →](https://www.defi.garden/?pool=e425717d-74c8-4ffa-859d-595e5e2bd1ec&src=seo_chain) | 82.72% | $120.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZIGChain pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $14.02M in total.
+5 live pools clear this page's $100K TVL floor, $13.93M in total.
 
 ### Are these rates safe?
 

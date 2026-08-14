@@ -1,19 +1,19 @@
 # TIBBIR DeFi Yields
 
-The highest honest TIBBIR yield right now is 390.59% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TIBBIR yield right now is 391.65% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token) | Base | 390.59% | $256.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 25.39% | $126.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token) | Base | 391.65% | $259K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 25.10% | $127.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TIBBIR shows up in 2 pools here, with rates from 25.39% to 390.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TIBBIR shows up in 2 pools here, with rates from 25.10% to 391.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 142.82% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 143.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -21,8 +21,8 @@ TIBBIR shows up in 2 pools here, with rates from 25.39% to 390.59% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 390.59% | 273.00% | 55.61% incentives |
-| aerodrome-slipstream | 25.39% | 12.64% | Base rate |
+| aerodrome-slipstream | 391.65% | 274.16% | 54.44% incentives |
+| aerodrome-slipstream | 25.10% | 12.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,11 +30,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TIBBIR yield today?
 
-390.59% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+391.65% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TIBBIR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $382.5K in total.
+2 live pools clear this page's $100K TVL floor, $386.1K in total.
 
 ### Are these rates safe?
 

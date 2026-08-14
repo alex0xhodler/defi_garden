@@ -1,17 +1,17 @@
 # BBQUSDT DeFi Yields
 
-The highest honest BBQUSDT yield right now is 4.02% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BBQUSDT yield right now is 4.05% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c743eac6-1906-4d96-a7aa-667426ec3cc7&src=seo_token) | Ethereum | 4.02% | $23.24M |
+| [morpho-blue →](https://www.defi.garden/?pool=c743eac6-1906-4d96-a7aa-667426ec3cc7&src=seo_token) | Ethereum | 4.05% | $23.24M |
 | [morpho-blue →](https://www.defi.garden/?pool=89222e6a-f39f-4500-aeea-f615d61b81f0&src=seo_token) | Ethereum | 2.97% | $2.29M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BBQUSDT shows up in 2 pools here, with rates from 2.97% to 4.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BBQUSDT shows up in 2 pools here, with rates from 2.97% to 4.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -19,7 +19,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 4.02% | 3.67% | Base rate |
+| morpho-blue | 4.05% | 3.68% | Base rate |
 | morpho-blue | 2.97% | 3.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -28,7 +28,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BBQUSDT yield today?
 
-4.02% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.05% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many BBQUSDT pools clear the TVL floor?
 

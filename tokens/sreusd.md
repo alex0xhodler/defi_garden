@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SREUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $29.18M in total.
+2 live pools clear this page's $100K TVL floor, $29.02M in total.
 
 ### Are these rates safe?
 

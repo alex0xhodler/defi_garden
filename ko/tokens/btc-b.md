@@ -1,23 +1,23 @@
 # BTC.B 디파이 수익률
 
-현재 BTC.B의 가장 높은 정직한 수익률은 Avalanche의 pharaoh-v3에서 18.84%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BTC.B의 가장 높은 정직한 수익률은 Avalanche의 pharaoh-v3에서 18.89%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $76.4M |
+| [aave-v3 →](https://www.defi.garden/?pool=94e3f442-ab03-4138-a7a8-910bac548058&src=seo_token) | Avalanche | 0.01% | $76.24M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=144acb4e-d43e-4a74-9220-29af82ef3029&src=seo_token) | Ethereum | 0.01% | $10.58M |
-| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.19% | $4.26M |
-| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 18.84% | $1.74M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 4.24% | $1.16M |
-| [aave-v4 →](https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token) | Avalanche | 0.02% | $722.1K |
-| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 0.44% | $566.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 0.83% | $291.6K |
+| [benqi-lending →](https://www.defi.garden/?pool=0a842b8b-c003-4f6c-8f4e-b231c4cdaec8&src=seo_token) | Avalanche | 1.19% | $4.25M |
+| [pharaoh-v3 →](https://www.defi.garden/?pool=40507624-6d6e-4214-a3cb-babfb8576814&src=seo_token) | Avalanche | 18.89% | $1.73M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=02b0c0a6-71d5-4276-b490-2679daac9b8c&src=seo_token) | Avalanche | 4.09% | $1.16M |
+| [aave-v4 →](https://www.defi.garden/?pool=2042df78-d039-53c3-b568-7486ebe87c6d&src=seo_token) | Avalanche | 0.02% | $720.6K |
+| [joe-v2.1 →](https://www.defi.garden/?pool=1ebb561a-fcec-4ea8-8bd7-a4f557d644d4&src=seo_token) | Avalanche | 0.39% | $565.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b03fe15c-c70f-4aec-a561-17536444c9bf&src=seo_token) | Avalanche | 0.73% | $291.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-BTC.B 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 18.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+BTC.B 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 18.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.16%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -30,11 +30,11 @@ BTC.B 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 18.84%�
 | aave-v3 | 0.01% | 0.01% | 기본 금리 |
 | uniswap-v4 | 0.01% | 0.08% | 기본 금리 |
 | benqi-lending | 1.19% | 1.10% | 기본 금리 |
-| pharaoh-v3 | 18.84% | 23.37% | 인센티브 100.00% |
-| uniswap-v3 | 4.24% | 5.03% | 기본 금리 |
+| pharaoh-v3 | 18.89% | 23.32% | 인센티브 100.00% |
+| uniswap-v3 | 4.09% | 5.02% | 기본 금리 |
 | aave-v4 | 0.02% | 0.06% | 기본 금리 |
-| joe-v2.1 | 0.44% | 1.59% | 기본 금리 |
-| uniswap-v3 | 0.83% | 1.22% | 기본 금리 |
+| joe-v2.1 | 0.39% | 1.58% | 기본 금리 |
+| uniswap-v3 | 0.73% | 1.21% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ BTC.B 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.01%부터 18.84%�
 
 ### 오늘 BTC.B의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 18.84%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 pharaoh-v3에서 APY 18.89%예요.
 
 ### BTC.B 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $111.77M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $112.16M예요.
 
 ### 이 수익률은 안전한가요?
 

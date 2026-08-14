@@ -5,7 +5,7 @@ The highest honest LCRO yield right now is 0.35% on vvs-standard (Cronos), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [tectonic →](https://www.defi.garden/?pool=3d7bb879-a2cb-4bbf-bc70-9a589ac0dfe2&src=seo_token) | Cronos | 0.01% | $1.7M |
-| [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token) | Cronos | 0.35% | $742.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=869cf619-bf00-4fd9-93e0-77e29e06e412&src=seo_token) | Cronos | 0.35% | $745.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 

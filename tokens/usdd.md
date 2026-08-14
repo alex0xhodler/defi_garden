@@ -4,7 +4,7 @@ The highest honest USDD yield right now is 4.02% on justlend-v1 (Tron), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 4.02% | $420.65M |
+| [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_token) | Tron | 4.02% | $420.62M |
 | [raydium-amm →](https://www.defi.garden/?pool=55b43fc8-4ebb-4cbb-a37e-e85a1469b4fd&src=seo_token) | Solana | 0.01% | $500.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=6f44d7cc-89c2-448e-9934-f8616c513fd7&src=seo_token) | Solana | 0.11% | $350.1K |
 
@@ -34,7 +34,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $421.7M in total.
+4 live pools clear this page's $100K TVL floor, $421.67M in total.
 
 ### Are these rates safe?
 

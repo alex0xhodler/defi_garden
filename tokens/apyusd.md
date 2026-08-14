@@ -4,13 +4,13 @@ The highest honest APYUSD yield right now is 18.14% on pendle (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.09% | $19.84M |
-| [pendle →](https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token) | Ethereum | 17.01% | $8.86M |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.00% | $19.41M |
+| [pendle →](https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token) | Ethereum | 17.00% | $8.86M |
 | [pendle →](https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token) | Ethereum | 18.14% | $8.86M |
 | [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 0.02% | $7.06M |
 | [pendle →](https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token) | Ethereum | 15.36% | $5.37M |
-| [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 15.39% | $5.37M |
-| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.40% | $250.8K |
+| [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 15.44% | $5.37M |
+| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.40% | $250.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -26,13 +26,13 @@ APYUSD shows up in 7 pools here, with rates from 0.02% to 18.14% APY across 3 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 7.09% | 8.10% | Base rate |
-| pendle | 17.01% | 16.07% | 0.83% incentives |
-| pendle | 18.14% | 16.73% | Base rate |
+| curve-dex | 7.00% | 8.10% | Base rate |
+| pendle | 17.00% | 16.08% | 0.82% incentives |
+| pendle | 18.14% | 16.75% | Base rate |
 | orca-dex | 0.02% | 0.09% | Base rate |
-| pendle | 15.36% | 16.29% | 2.72% incentives |
-| pendle | 15.39% | 14.78% | Base rate |
-| hydration-dex | 0.40% | 0.78% | Base rate |
+| pendle | 15.36% | 16.29% | 2.70% incentives |
+| pendle | 15.44% | 14.78% | Base rate |
+| hydration-dex | 0.40% | 0.77% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many APYUSD pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $99.54M in total.
+14 live pools clear this page's $100K TVL floor, $99.14M in total.
 
 ### Are these rates safe?
 

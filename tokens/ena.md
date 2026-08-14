@@ -4,17 +4,17 @@ The highest honest ENA yield right now is 0.02% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 18.54% | $2.44M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.02% | $1.74M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 7.06% | $572.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 19.08% | $2.44M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.02% | $1.73M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 6.63% | $569.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ENA shows up in 3 pools here, with rates from 0.02% to 18.54% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ENA shows up in 3 pools here, with rates from 0.02% to 19.08% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 22.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 22.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -22,9 +22,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 18.54% | 42.22% | Base rate |
+| uniswap-v4 | 19.08% | 42.14% | Base rate |
 | uniswap-v3 | 0.02% | 0.03% | Base rate |
-| uniswap-v3 | 7.06% | 22.06% | Base rate |
+| uniswap-v3 | 6.63% | 22.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -36,7 +36,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ENA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.75M in total.
+3 live pools clear this page's $100K TVL floor, $4.74M in total.
 
 ### Are these rates safe?
 

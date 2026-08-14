@@ -1,18 +1,18 @@
 # BOTTO DeFi Yields
 
-The highest honest BOTTO yield right now is 132.30% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOTTO yield right now is 133.31% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cedb1cd2-ecd9-4b76-ae63-6d6f95a81578&src=seo_token) | Ethereum | 0.01% | $475.4K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 132.30% | $177.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token) | Ethereum | 0.17% | $138.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cedb1cd2-ecd9-4b76-ae63-6d6f95a81578&src=seo_token) | Ethereum | 0.01% | $469.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 133.31% | $175.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token) | Ethereum | 0.18% | $137.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BOTTO shows up in 3 pools here, with rates from 0.01% to 132.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BOTTO shows up in 3 pools here, with rates from 0.01% to 133.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,8 +23,8 @@ BOTTO shows up in 3 pools here, with rates from 0.01% to 132.30% APY across 2 ch
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.01% | 0.24% | Base rate |
-| aerodrome-v1 | 132.30% | 127.66% | 100.00% incentives |
-| uniswap-v2 | 0.17% | 0.22% | Base rate |
+| aerodrome-v1 | 133.31% | 127.54% | 100.00% incentives |
+| uniswap-v2 | 0.18% | 0.22% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +32,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BOTTO yield today?
 
-132.30% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+133.31% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many BOTTO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $791.9K in total.
+3 live pools clear this page's $100K TVL floor, $782K in total.
 
 ### Are these rates safe?
 

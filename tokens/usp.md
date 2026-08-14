@@ -1,18 +1,18 @@
 # USP DeFi Yields
 
-The highest honest USP yield right now is 657.40% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USP yield right now is 652.25% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=97760ad2-cbf8-49c1-b55d-b66bc5222a56&src=seo_token) | Ethereum | 104.60% | $218.2K |
 | [pendle →](https://www.defi.garden/?pool=ce16b628-b091-420c-8776-38273752d7bf&src=seo_token) | Ethereum | 105.36% | $218.2K |
-| [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token) | Ethereum | 657.40% | $129.2K |
+| [curve-dex →](https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c&src=seo_token) | Ethereum | 652.25% | $129.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USP shows up in 3 pools here, with rates from 104.60% to 657.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USP shows up in 3 pools here, with rates from 104.60% to 652.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 106.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -20,9 +20,9 @@ USP shows up in 3 pools here, with rates from 104.60% to 657.40% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 104.60% | 64.60% | 87.54% incentives |
+| pendle | 104.60% | 65.16% | 87.54% incentives |
 | pendle | 105.36% | 106.26% | 86.91% incentives |
-| curve-dex | 657.40% | 645.24% | 97.98% incentives |
+| curve-dex | 652.25% | 645.36% | 98.76% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -30,7 +30,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USP yield today?
 
-657.40% APY on curve-dex (Ethereum), based on live DefiLlama data.
+652.25% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many USP pools clear the TVL floor?
 

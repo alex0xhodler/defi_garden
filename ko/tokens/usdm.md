@@ -1,25 +1,25 @@
 # USDM 디파이 수익률
 
-현재 USDM의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 36.31%이며, $100K TVL 기준을 넘는 13개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDM의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 36.44%이며, $100K TVL 기준을 넘는 14개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34&src=seo_token) | Ethereum | 0.01% | $19.87M |
-| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 12.78% | $1.21M |
-| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 12.49% | $1.01M |
-| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 36.31% | $846.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=eb21dc22-0b56-4dad-90df-331373f26d34&src=seo_token) | Ethereum | 0.01% | $19.92M |
+| [mento-v3 →](https://www.defi.garden/?pool=ce74b9e0-376d-45ea-b1a4-362de60c12ce&src=seo_token) | Monad | 12.78% | $1.2M |
+| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 36.44% | $843.1K |
+| [mento-v3 →](https://www.defi.garden/?pool=85dded37-c55d-4b2c-aca1-a136854bec51&src=seo_token) | Monad | 13.34% | $758.1K |
 | [liqwid →](https://www.defi.garden/?pool=ce3021c9-af52-46b0-a61a-3e92acdfd79b&src=seo_token) | Cardano | 8.68% | $688.3K |
-| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 10.89% | $492.1K |
-| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 5.59% | $486.8K |
-| [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token) | Celo | 0.01% | $469.6K |
+| [mento-v3 →](https://www.defi.garden/?pool=b4fe9dc1-d635-4d15-8a4f-0a38e880e572&src=seo_token) | Monad | 10.90% | $492.1K |
+| [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_token) | MegaETH | 5.59% | $487.8K |
+| [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_token) | Celo | 0.01% | $472.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDM 풀은 여기 8개가 있고, 5개 체인에서 APY가 0.01%부터 36.31%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDM 풀은 여기 8개가 있고, 5개 체인에서 APY가 0.01%부터 36.44%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 12.23%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 12.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -28,13 +28,13 @@ USDM 풀은 여기 8개가 있고, 5개 체인에서 APY가 0.01%부터 36.31%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v3 | 0.01% | 0.89% | 기본 금리 |
-| mento-v3 | 12.78% | 14.83% | 인센티브 98.64% |
-| mento-v3 | 12.49% | 26.98% | 인센티브 98.44% |
-| minswap-dex | 36.31% | 33.20% | 인센티브 19.58% |
-| liqwid | 8.68% | 9.64% | 기본 금리 |
-| mento-v3 | 10.89% | 18.40% | 인센티브 94.53% |
-| aave-v3 | 5.59% | 5.32% | 기본 금리 |
-| aave-v3 | 0.01% | 1.63% | 기본 금리 |
+| mento-v3 | 12.78% | 14.76% | 인센티브 98.63% |
+| minswap-dex | 36.44% | 33.25% | 인센티브 19.51% |
+| mento-v3 | 13.34% | 26.93% | 인센티브 98.72% |
+| liqwid | 8.68% | 9.62% | 기본 금리 |
+| mento-v3 | 10.90% | 18.16% | 인센티브 94.47% |
+| aave-v3 | 5.59% | 5.33% | 기본 금리 |
+| aave-v3 | 0.01% | 1.62% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,11 +42,11 @@ USDM 풀은 여기 8개가 있고, 5개 체인에서 APY가 0.01%부터 36.31%�
 
 ### 오늘 USDM의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 36.31%예요.
+DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 36.44%예요.
 
 ### USDM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 13개이며, 합산 TVL은 $26.08M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $25.93M예요.
 
 ### 이 수익률은 안전한가요?
 

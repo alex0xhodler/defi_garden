@@ -5,10 +5,10 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=455c4729-92b2-45e3-8cb5-144d5ac9f5f9&src=seo_token) | Ethereum | 60.66% | $1.24M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 12.67% | $273.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=64d8ae8f-78d9-4d11-8863-464ddf04d920&src=seo_token) | Ethereum | 0.04% | $157.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=a36157a3-e099-4905-8ef6-50be5f9d6a78&src=seo_token) | Ethereum | 0.82% | $125.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=46b99c5c-80bc-44cb-9971-0ef5999520df&src=seo_token) | Ethereum | 33.06% | $107.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=95f6784c-93c0-4d6d-ade3-bfca12ed6f2d&src=seo_token) | Ethereum | 12.77% | $270.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=64d8ae8f-78d9-4d11-8863-464ddf04d920&src=seo_token) | Ethereum | 0.04% | $157.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a36157a3-e099-4905-8ef6-50be5f9d6a78&src=seo_token) | Ethereum | 0.81% | $125.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=46b99c5c-80bc-44cb-9971-0ef5999520df&src=seo_token) | Ethereum | 31.17% | $106.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -25,10 +25,10 @@ UPEG 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.04%부터 60.66%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v4 | 60.66% | 54.16% | 기본 금리 |
-| uniswap-v4 | 12.67% | 11.46% | 기본 금리 |
-| uniswap-v4 | 0.04% | 5.71% | 기본 금리 |
-| uniswap-v4 | 0.82% | 0.49% | 기본 금리 |
-| uniswap-v4 | 33.06% | 96.05% | 기본 금리 |
+| uniswap-v4 | 12.77% | 11.46% | 기본 금리 |
+| uniswap-v4 | 0.04% | 5.70% | 기본 금리 |
+| uniswap-v4 | 0.81% | 0.49% | 기본 금리 |
+| uniswap-v4 | 31.17% | 95.84% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

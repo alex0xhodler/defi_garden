@@ -1,10 +1,10 @@
 # WYT DeFi Yields
 
-The highest honest WYT yield right now is 11.65% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WYT yield right now is 11.89% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=e99ed358-5ff6-4aeb-87a2-cf1d38c5cebd&src=seo_token) | Solana | 11.65% | $221.5K |
+| [orca-dex →](https://www.defi.garden/?pool=e99ed358-5ff6-4aeb-87a2-cf1d38c5cebd&src=seo_token) | Solana | 11.89% | $220.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WYT yield today?
 
-11.65% APY on orca-dex (Solana), based on live DefiLlama data.
+11.89% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many WYT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $221.5K in total.
+1 live pool clear this page's $100K TVL floor, $220.1K in total.
 
 ### Are these rates safe?
 

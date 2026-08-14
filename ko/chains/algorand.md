@@ -1,15 +1,15 @@
 # Algorand 디파이 수익률
 
-현재 Algorand의 가장 높은 정직한 수익률은 Algorand의 folks-finance-lending에서 5.00%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Algorand의 가장 높은 정직한 수익률은 Algorand의 folks-finance-lending에서 4.98%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | ALGO | [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_chain) | 1.98% | $2.98M |
-| USDC | [folks-finance-lending →](https://www.defi.garden/?pool=fd218e64-f5d4-495f-a943-7a120a33e281&src=seo_chain) | 5.00% | $944.8K |
-| GOBTC | [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c&src=seo_chain) | 0.08% | $872.6K |
-| SILVER | [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_chain) | 0.03% | $701.9K |
-| GOLD | [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_chain) | 0.15% | $508.2K |
-| GOETH | [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82&src=seo_chain) | 0.03% | $343K |
+| USDC | [folks-finance-lending →](https://www.defi.garden/?pool=fd218e64-f5d4-495f-a943-7a120a33e281&src=seo_chain) | 4.98% | $952.7K |
+| GOBTC | [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c&src=seo_chain) | 0.08% | $867K |
+| SILVER | [folks-finance-lending →](https://www.defi.garden/?pool=eb55651f-7442-48f1-b56d-5aa9a46ac972&src=seo_chain) | 0.03% | $700.7K |
+| GOLD | [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_chain) | 0.15% | $506.9K |
+| GOETH | [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82&src=seo_chain) | 0.03% | $340.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,11 +17,11 @@
 
 ### 오늘 Algorand의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 APY 5.00%예요.
+DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 APY 4.98%예요.
 
 ### Algorand 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $19.43M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $19.38M예요.
 
 ### 이 수익률은 안전한가요?
 
