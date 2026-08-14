@@ -369,8 +369,37 @@ function buildConcise(meta, categories, highYield, yieldAnalysis) {
   
   // Homepage section
   lines.push('## Homepage');
-  lines.push('TL;DR: Main dashboard for discovering DeFi yields across all chains and protocols.');
+  lines.push('TL;DR: Main application entry point routing to both the Garden Planner (/plan.html) and parameterized yield analytics (/?token=, /?chain=).');
   categories.homepage.slice(0, 3).forEach(url => lines.push(`- ${url}`));
+  lines.push('');
+
+  // Garden Planner section
+  lines.push('## Garden Planner');
+  lines.push('TL;DR: A goal-first savings planner for people and agents calculating target capital and "forever numbers" — lives at /plan.html.');
+  lines.push(`- Entry point: ${meta.baseUrl}/plan.html`);
+  lines.push(`- Example filled plans: ${meta.baseUrl}/?preset=tomoko and ${meta.baseUrl}/?preset=kevin`);
+  lines.push('- GROWTH: long-horizon goals (retirement, house) — projects future value from steady monthly deposits.');
+  lines.push('- TARGET: specific expense target — projects time-to-item from monthly deposits and the live rate.');
+  lines.push('- SUBSCRIPTION: the "forever number" — the capital whose yield alone covers a recurring bill or compute cost indefinitely.');
+  lines.push('- Forever number formula: forever number = annual bill ÷ blended rate.');
+  lines.push('- Trust rails: minimum TVL $100K; maximum total APY 1000%.');
+  lines.push('');
+
+  // API & MCP Protocols
+  lines.push('## API & Model Context Protocol (MCP)');
+  lines.push('TL;DR: Machine-native interfaces for AI agents, onchain autonomous wallets, and scripts.');
+  lines.push(`- API route: GET ${meta.baseUrl}/api`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/health`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/pools`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/pools/:id`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/pricing`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/forever-number`);
+  lines.push(`- MCP endpoint (Streamable HTTP): ${meta.baseUrl}/mcp`);
+  lines.push(`- MCP SSE endpoint: ${meta.baseUrl}/api/mcp`);
+  lines.push('- MCP tool: find_pools — Query live curated pools filtered by token, chain, pool type, TVL, and APY.');
+  lines.push('- MCP tool: get_pool — Retrieve detailed pool trajectory and metadata.');
+  lines.push('- MCP tool: forever_number — Calculate required principal to pay recurring expenses strictly from yield.');
+  lines.push('- MCP tool: explain_rails — Returns the deterministic safety rules (TVL >= $100k, APY cap <= 1000%).');
   lines.push('');
   
   // Top chains by TVL (most searched)
@@ -474,6 +503,35 @@ function buildFull(meta, categories, highYield, yieldAnalysis) {
   lines.push('## Homepage');
   lines.push('TL;DR: Main application entry points and dashboards.');
   categories.homepage.forEach(url => lines.push(`- ${url}`));
+  lines.push('');
+
+  // Garden Planner section
+  lines.push('## Garden Planner');
+  lines.push('TL;DR: A goal-first savings planner for people and agents calculating target capital and "forever numbers" — lives at /plan.html.');
+  lines.push(`- Entry point: ${meta.baseUrl}/plan.html`);
+  lines.push(`- Example filled plans: ${meta.baseUrl}/?preset=tomoko and ${meta.baseUrl}/?preset=kevin`);
+  lines.push('- GROWTH: long-horizon goals (retirement, house) — projects future value from steady monthly deposits.');
+  lines.push('- TARGET: specific expense target — projects time-to-item from monthly deposits and the live rate.');
+  lines.push('- SUBSCRIPTION: the "forever number" — the capital whose yield alone covers a recurring bill or compute cost indefinitely.');
+  lines.push('- Forever number formula: forever number = annual bill ÷ blended rate.');
+  lines.push('- Trust rails: minimum TVL $100K; maximum total APY 1000%.');
+  lines.push('');
+
+  // API & MCP Protocols
+  lines.push('## API & Model Context Protocol (MCP)');
+  lines.push('TL;DR: Machine-native interfaces for AI agents, onchain autonomous wallets, and scripts.');
+  lines.push(`- API route: GET ${meta.baseUrl}/api`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/health`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/pools`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/pools/:id`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/pricing`);
+  lines.push(`- API route: GET ${meta.baseUrl}/api/forever-number`);
+  lines.push(`- MCP endpoint (Streamable HTTP): ${meta.baseUrl}/mcp`);
+  lines.push(`- MCP SSE endpoint: ${meta.baseUrl}/api/mcp`);
+  lines.push('- MCP tool: find_pools — Query live curated pools filtered by token, chain, pool type, TVL, and APY.');
+  lines.push('- MCP tool: get_pool — Retrieve detailed pool trajectory and metadata.');
+  lines.push('- MCP tool: forever_number — Calculate required principal to pay recurring expenses strictly from yield.');
+  lines.push('- MCP tool: explain_rails — Returns the deterministic safety rules (TVL >= $100k, APY cap <= 1000%).');
   lines.push('');
   
   // All token pages

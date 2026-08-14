@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "DeFi Garden API",
-    "version": "1.0.0",
-    "description": "API endpoints for DeFi Garden yield discovery and goal calculations"
+    "version": "1.1.0",
+    "description": "Deterministic, machine-native API and MCP endpoints for DeFi yield discovery, trust rail verification, and savings goal projections."
   },
   "servers": [
     {
@@ -14,8 +14,8 @@
     "/pools": {
       "get": {
         "summary": "Retrieve live curated DeFi yield pools",
-        "description": "Get a list of high-quality, curated DeFi yield pools matching your criteria with TVL >= $10M and APY <= 1000%.",
-        "operationId": "getCuratedPools",
+        "description": "Get a list of high-quality, curated DeFi yield pools filtered by deterministic trust rails (TVL >= $100K, APY <= 1000%).",
+        "operationId": "findPools",
         "parameters": [
           {
             "name": "token",
@@ -24,7 +24,7 @@
             "schema": {
               "type": "string"
             },
-            "description": "Filter by token symbol (e.g. USDC, ETH)"
+            "description": "Filter by token symbol (e.g. USDC, ETH, SOL)"
           },
           {
             "name": "chain",
@@ -33,12 +33,40 @@
             "schema": {
               "type": "string"
             },
-            "description": "Filter by chain name (e.g. Ethereum, Arbitrum)"
+            "description": "Filter by blockchain network (e.g. Ethereum, Base, Arbitrum, Solana)"
+          },
+          {
+            "name": "poolTypes",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Filter by pool strategy: Lending, Staking, LP/DEX, Yield Farming"
+          },
+          {
+            "name": "minTvl",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "number",
+              "default": 100000
+            },
+            "description": "Minimum TVL in USD"
+          },
+          {
+            "name": "minApy",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "number"
+            },
+            "description": "Minimum APY percentage"
           }
         ],
         "responses": {
           "200": {
-            "description": "A list of curated pools",
+            "description": "A list of curated pools matching criteria",
             "content": {
               "application/json": {
                 "schema": {
@@ -68,10 +96,86 @@
         }
       }
     },
+    "/pools/{id}": {
+      "get": {
+        "summary": "Retrieve single pool details",
+        "description": "Get granular APY breakdown and liquidity metrics for a single pool UUID.",
+        "operationId": "getPool",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Pool UUID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Detailed pool data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/forever-number": {
+      "get": {
+        "summary": "Calculate capital needed to fund recurring expenses from yield",
+        "description": "Calculates the Forever Number: capital = annual bill ÷ blended rate.",
+        "operationId": "calculateForeverNumber",
+        "parameters": [
+          {
+            "name": "monthlyExpense",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "number"
+            },
+            "description": "Monthly recurring bill or compute cost in USD"
+          },
+          {
+            "name": "blendedApy",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "number",
+              "default": 4.0
+            },
+            "description": "Expected APY percentage"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Forever number calculation result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "monthlyExpense": { "type": "number" },
+                    "annualExpense": { "type": "number" },
+                    "blendedApyPercent": { "type": "number" },
+                    "foreverNumberUsd": { "type": "number" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/planner": {
       "post": {
         "summary": "Calculate savings and yield projection",
-        "description": "Calculate goal-first, skeuomorphic savings plan with compound growth estimations.",
+        "description": "Calculate goal-first savings plan with compound growth estimations.",
         "operationId": "calculateProjection",
         "requestBody": {
           "required": true,
@@ -86,7 +190,8 @@
                 "properties": {
                   "monthlyDeposit": { "type": "number" },
                   "years": { "type": "number" },
-                  "goalName": { "type": "string" }
+                  "goalName": { "type": "string" },
+                  "pace": { "type": "string" }
                 }
               }
             }
@@ -103,13 +208,53 @@
               }
             }
           }
-        },
-        "x-payment-info": {
-          "intent": "charge",
-          "method": "tempo",
-          "amount": "0",
-          "currency": "0x833589fCD6eDb351a47402d5823ca7F192534578",
-          "description": "Free goal projection computation"
+        }
+      }
+    },
+    "/pricing": {
+      "get": {
+        "summary": "Pricing & rate limits",
+        "description": "Returns pricing tier information ($0 Free Open Source).",
+        "operationId": "getPricing",
+        "responses": {
+          "200": {
+            "description": "Pricing information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "price": { "type": "number", "example": 0 },
+                    "tier": { "type": "string", "example": "free_open_source" },
+                    "rateLimit": { "type": "string", "example": "100req/min" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "summary": "Service health check",
+        "description": "Returns operational status of DeFi Garden API and DefiLlama data upstream.",
+        "operationId": "getHealth",
+        "responses": {
+          "200": {
+            "description": "Health status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": { "type": "string", "example": "healthy" },
+                    "uptime": { "type": "number" }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }

@@ -2,9 +2,14 @@
   "$schema": "https://modelcontextprotocol.org/schemas/mcp-server-card-v1.json",
   "serverInfo": {
     "name": "DeFi Garden MCP Server",
-    "version": "1.0.0"
+    "version": "1.1.0",
+    "description": "Yield discovery and deterministic trust rails engine for AI agents and autonomous onchain wallets."
   },
   "transports": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.defi.garden/mcp"
+    },
     {
       "type": "sse",
       "url": "https://www.defi.garden/api/mcp"
@@ -19,5 +24,52 @@
       "list": true,
       "get": true
     }
-  }
+  },
+  "tools": [
+    {
+      "name": "find_pools",
+      "description": "Find curated DeFi yield pools filtered by deterministic trust rails (TVL >= $100k, APY <= 1000%).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "token": { "type": "string", "description": "Token symbol (e.g. USDC, ETH, SOL)" },
+          "chain": { "type": "string", "description": "Blockchain name (e.g. Ethereum, Base, Solana)" },
+          "poolTypes": { "type": "string", "description": "Pool type: Lending, Staking, LP/DEX, Yield Farming" },
+          "minTvl": { "type": "number", "description": "Minimum TVL in USD" },
+          "minApy": { "type": "number", "description": "Minimum APY percentage" }
+        }
+      }
+    },
+    {
+      "name": "get_pool",
+      "description": "Retrieve detailed metadata and APY breakdown for a specific pool UUID.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "poolId": { "type": "string", "description": "Pool UUID" }
+        },
+        "required": ["poolId"]
+      }
+    },
+    {
+      "name": "forever_number",
+      "description": "Calculate capital whose yield indefinitely covers a recurring monthly/annual bill or compute cost.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "monthlyExpense": { "type": "number", "description": "Monthly recurring bill or compute cost in USD" },
+          "blendedApy": { "type": "number", "description": "Expected blended APY percentage (default: 4.0)" }
+        },
+        "required": ["monthlyExpense"]
+      }
+    },
+    {
+      "name": "explain_rails",
+      "description": "Returns deterministic trust rails rules (TVL >= $100k, APY cap <= 1000%, anomaly demotion).",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  ]
 }

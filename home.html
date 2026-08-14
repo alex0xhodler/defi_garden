@@ -40,11 +40,88 @@
     <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:creator" content="@defigarden">
 
-    <!-- Structured data (spec 040): sitewide Organization + WebSite JSON-LD.
+    <!-- Structured data (spec 040): sitewide Organization + WebSite + WebApplication JSON-LD.
          Static, unlike the canonical/title rewrite above — the IA router
          doesn't touch this, it's the same brand entity in every mode. -->
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/","logo":"https://www.defi.garden/og-image.png"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"DeFi Garden","url":"https://www.defi.garden/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"DeFi Garden","url":"https://www.defi.garden/","applicationCategory":"FinanceApplication","operatingSystem":"All, Web, Model Context Protocol (MCP)","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Open-source yield discovery and financial planning engine for autonomous AI agents, onchain wallets, and goal-first savers.","featureList":["Model Context Protocol (MCP) Streamable HTTP Server","Goal-first savings planner (Forever Number)","Real-time DeFi yield filtering across 5000+ pools","Deterministic trust rails (TVL >= $100k, APY <= 1000%)"]}</script>
+
+    <!-- WebMCP: Browser-Native Agent Tool Registration -->
+    <script>
+    (function() {
+      if (typeof window !== 'undefined') {
+        window.navigator = window.navigator || {};
+        if (!window.navigator.modelContext) {
+          window.navigator.modelContext = {
+            tools: [],
+            provideContext: function(options) {
+              if (options && options.tools) { this.tools.push(...options.tools); }
+              return Promise.resolve();
+            }
+          };
+        }
+        if (window.navigator.modelContext && typeof window.navigator.modelContext.provideContext === 'function') {
+          window.navigator.modelContext.provideContext({
+            tools: [
+              {
+                name: "find_pools",
+                description: "Find curated DeFi yield pools filtered by trust rails (TVL >= $100k, max APY 1000%).",
+                inputSchema: {
+                  type: "object",
+                  properties: {
+                    token: { type: "string", description: "Token symbol (e.g. USDC, ETH, SOL)" },
+                    chain: { type: "string", description: "Blockchain name (e.g. Ethereum, Base, Solana)" },
+                    poolTypes: { type: "string", description: "Pool type: Lending, Staking, LP/DEX, Yield Farming" },
+                    minTvl: { type: "number", description: "Minimum TVL in USD" },
+                    minApy: { type: "number", description: "Minimum APY percentage" }
+                  }
+                },
+                execute: function(args) {
+                  return fetch('https://yields.llama.fi/pools')
+                    .then(function(res) { return res.json(); })
+                    .then(function(data) {
+                      var pools = (data.data || []).filter(function(p) {
+                        if (p.tvlUsd < (args.minTvl || 100000)) return false;
+                        if (p.apy > (args.minApy || 1000)) return false;
+                        if (args.token && !((p.symbol || '').toUpperCase().includes(args.token.toUpperCase()))) return false;
+                        if (args.chain && (p.chain || '').toLowerCase() !== args.chain.toLowerCase()) return false;
+                        return true;
+                      }).slice(0, 10);
+                      return { success: true, pools: pools };
+                    });
+                }
+              },
+              {
+                name: "forever_number",
+                description: "Calculate capital needed whose yield indefinitely covers a recurring monthly/annual expense.",
+                inputSchema: {
+                  type: "object",
+                  properties: {
+                    monthlyExpense: { type: "number", description: "Monthly expense in USD" },
+                    blendedApy: { type: "number", description: "Expected APY percentage (default: 4.0)" }
+                  },
+                  required: ["monthlyExpense"]
+                },
+                execute: function(args) {
+                  var apy = (args.blendedApy || 4.0) / 100;
+                  var annualBill = args.monthlyExpense * 12;
+                  var capitalRequired = annualBill / apy;
+                  return Promise.resolve({
+                    success: true,
+                    monthlyExpense: args.monthlyExpense,
+                    annualExpense: annualBill,
+                    blendedApyPercent: (args.blendedApy || 4.0),
+                    foreverNumberUsd: Math.round(capitalRequired)
+                  });
+                }
+              }
+            ]
+          });
+        }
+      }
+    })();
+    </script>
 
     <!-- App Icons and Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
