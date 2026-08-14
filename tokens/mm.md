@@ -4,7 +4,12 @@ The highest honest MM yield right now is 0.36% on uniswap-v3 (Ethereum), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ef8315ea-2eba-48f8-98a8-3bfd6ab8e021&src=seo_token) | Ethereum | 0.36% | $103.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ef8315ea-2eba-48f8-98a8-3bfd6ab8e021&src=seo_token) | Ethereum | 0.36% | $104.5K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank MM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -37,6 +42,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which MM pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank MM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

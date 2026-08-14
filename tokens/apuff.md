@@ -4,7 +4,12 @@ The highest honest APUFF yield right now is 0.03% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7bea7dc6-2704-4255-ab6e-cff914f129f4&src=seo_token) | Ethereum | 0.03% | $461.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7bea7dc6-2704-4255-ab6e-cff914f129f4&src=seo_token) | Ethereum | 0.03% | $462K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank APUFF pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APUFF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $461.3K in total.
+1 live pool clear this page's $100K TVL floor, $462K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which APUFF pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank APUFF pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

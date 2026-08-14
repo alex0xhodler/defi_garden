@@ -1,10 +1,15 @@
 # USA DeFi Yields
 
-The highest honest USA yield right now is 1.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USA yield right now is 2.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1a3e39f9-0d00-4a1d-a63b-6c5b1b536fd9&src=seo_token) | Solana | 1.60% | $409.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=1a3e39f9-0d00-4a1d-a63b-6c5b1b536fd9&src=seo_token) | Solana | 2.02% | $411.3K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank USA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USA yield today?
 
-1.60% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many USA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $409.4K in total.
+1 live pool clear this page's $100K TVL floor, $411.3K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which USA pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank USA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

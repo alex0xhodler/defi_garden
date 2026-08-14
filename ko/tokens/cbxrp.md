@@ -1,19 +1,31 @@
 # CBXRP 디파이 수익률
 
-현재 CBXRP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 24.87%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CBXRP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 53.58%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.14% | $1.63M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 24.87% | $473.5K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 11.62% | $216.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 1.33% | $136.1K |
+| [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.13% | $1.62M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 53.58% | $358K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 10.14% | $261.2K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 1.44% | $135.7K |
+
+<!-- rate-stability:ranked -->
+## APY 이력 기반 수익률 안정성
+
+APY 이력만 기준으로 비교한 CBXRP의 변동성 낮은 후보는 Base의 moonwell-lending, APY 0.13%, TVL $1.62M, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; Base의 aerodrome-slipstream, APY 53.58%, TVL $358K, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; Base의 aerodrome-slipstream, APY 10.14%, TVL $261.2K, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token; Base의 aerodrome-slipstream, APY 1.44%, TVL $135.7K, https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+
+| 순위 | 프로토콜 | 체인 | APY | TVL |
+|---|---|---|---|---|
+| 1 | [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.13% | $1.62M |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 53.58% | $358K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 10.14% | $261.2K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 1.44% | $135.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CBXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.14%부터 24.87%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CBXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.13%부터 53.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.46%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -23,10 +35,10 @@ CBXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.14%부터 24.87%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| moonwell-lending | 0.14% | 0.14% | 인센티브 97.60% |
-| aerodrome-slipstream | 24.87% | 40.62% | 인센티브 22.79% |
-| aerodrome-slipstream | 11.62% | 16.57% | 인센티브 10.81% |
-| aerodrome-slipstream | 1.33% | 2.35% | 기본 금리 |
+| moonwell-lending | 0.13% | 0.14% | 인센티브 97.56% |
+| aerodrome-slipstream | 53.58% | 40.87% | 인센티브 54.46% |
+| aerodrome-slipstream | 10.14% | 16.63% | 인센티브 8.89% |
+| aerodrome-slipstream | 1.44% | 2.30% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -34,15 +46,19 @@ CBXRP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.14%부터 24.87%�
 
 ### 오늘 CBXRP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 24.87%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 53.58%예요.
 
 ### CBXRP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $90.15M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $89.75M예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
+
+### CBXRP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
+
+APY 이력만 기준으로 비교한 CBXRP의 변동성 낮은 후보는 Base의 moonwell-lending, APY 0.13%, TVL $1.62M, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; Base의 aerodrome-slipstream, APY 53.58%, TVL $358K, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; Base의 aerodrome-slipstream, APY 10.14%, TVL $261.2K, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token; Base의 aerodrome-slipstream, APY 1.44%, TVL $135.7K, https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

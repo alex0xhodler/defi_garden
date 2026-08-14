@@ -6,6 +6,11 @@ The highest honest AIXDROP yield right now is 0.80% on raydium-amm (Solana), amo
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=ca0151ad-7189-40de-be1b-c945b55efcdf&src=seo_token) | Solana | 0.80% | $168.4K |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank AIXDROP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which AIXDROP pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank AIXDROP pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

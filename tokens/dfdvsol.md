@@ -4,7 +4,12 @@ The highest honest DFDVSOL yield right now is 5.83% on dfdv-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dfdv-staked-sol →](https://www.defi.garden/?pool=568bbb48-dc88-4313-b1cc-ab1d4e763d6d&src=seo_token) | Solana | 5.83% | $73.5M |
+| [dfdv-staked-sol →](https://www.defi.garden/?pool=568bbb48-dc88-4313-b1cc-ab1d4e763d6d&src=seo_token) | Solana | 5.83% | $73.36M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank DFDVSOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,11 +35,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DFDVSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $90.5M in total.
+3 live pools clear this page's $100K TVL floor, $90.34M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which DFDVSOL pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank DFDVSOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

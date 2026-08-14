@@ -1,10 +1,15 @@
 # 9SUSDC DeFi Yields
 
-The highest honest 9SUSDC yield right now is 7.13% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 9SUSDC yield right now is 5.94% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=2bc0cfec-842e-4319-8da3-85374f087c33&src=seo_token) | Ethereum | 7.13% | $3.87M |
+| [lagoon →](https://www.defi.garden/?pool=2bc0cfec-842e-4319-8da3-85374f087c33&src=seo_token) | Ethereum | 5.94% | $3.87M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank 9SUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 9SUSDC yield today?
 
-7.13% APY on lagoon (Ethereum), based on live DefiLlama data.
+5.94% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many 9SUSDC pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which 9SUSDC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank 9SUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,6 +6,11 @@ The highest honest WAWETH yield right now is 1.90% on balancer-v3 (Ethereum), am
 |---|---|---|---|
 | [balancer-v3 →](https://www.defi.garden/?pool=a5d146f0-29f6-4b60-98a1-537f22e3f4d5&src=seo_token) | Ethereum | 1.90% | $1.33M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank WAWETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which WAWETH pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank WAWETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

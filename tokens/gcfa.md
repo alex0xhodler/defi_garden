@@ -1,10 +1,15 @@
 # GCFA DeFi Yields
 
-The highest honest GCFA yield right now is 1.15% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GCFA yield right now is 1.17% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=9f425c8d-29d1-57de-b7b6-fda7feef8b4e&src=seo_token) | Ethereum | 1.15% | $188K |
+| [balancer-v3 →](https://www.defi.garden/?pool=9f425c8d-29d1-57de-b7b6-fda7feef8b4e&src=seo_token) | Ethereum | 1.17% | $194.1K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank GCFA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GCFA yield today?
 
-1.15% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+1.17% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many GCFA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $188K in total.
+1 live pool clear this page's $100K TVL floor, $194.1K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which GCFA pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank GCFA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

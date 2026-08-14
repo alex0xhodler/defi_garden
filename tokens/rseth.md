@@ -4,14 +4,24 @@ The highest honest RSETH yield right now is 2.31% on kelp (Ethereum), among 4 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kelp →](https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token) | Ethereum | 2.31% | $862.1M |
-| [fluid-dex →](https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token) | Ethereum | 0.01% | $4.04M |
+| [kelp →](https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token) | Ethereum | 2.31% | $863.29M |
+| [fluid-dex →](https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token) | Ethereum | 0.02% | $4.05M |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, RSETH's lower-variability candidates are kelp (Ethereum), 2.31% APY, $863.29M TVL, https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token; fluid-dex (Ethereum), 0.02% APY, $4.05M TVL, https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [kelp →](https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token) | Ethereum | 2.31% | $863.29M |
+| 2 | [fluid-dex →](https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token) | Ethereum | 0.02% | $4.05M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RSETH shows up in 2 pools here, with rates from 0.01% to 2.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RSETH shows up in 2 pools here, with rates from 0.02% to 2.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -20,7 +30,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | kelp | 2.31% | 2.49% | Base rate |
-| fluid-dex | 0.01% | 1.50% | Base rate |
+| fluid-dex | 0.02% | 1.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -32,11 +42,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RSETH pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $868.73M in total.
+4 live pools clear this page's $100K TVL floor, $869.93M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which RSETH pools have the most stable APY history?
+
+Based on APY history only, RSETH's lower-variability candidates are kelp (Ethereum), 2.31% APY, $863.29M TVL, https://www.defi.garden/?pool=33c732f6-a78d-41da-af5b-ccd9fa5e52d5&src=seo_token; fluid-dex (Ethereum), 0.02% APY, $4.05M TVL, https://www.defi.garden/?pool=acbd8c1e-4dcc-4297-9ef1-b7cb9c5e421f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

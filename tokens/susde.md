@@ -4,35 +4,49 @@ The highest honest SUSDE yield right now is 11.34% on pendle (Monad), among 61 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.37% | $1.44B |
-| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.26% | $47.08M |
-| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.49% | $39.46M |
-| [pendle →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 4.14% | $16.13M |
-| [pendle →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 11.34% | $16.13M |
-| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 4.90% | $7.48M |
-| [pendle →](https://www.defi.garden/?pool=7f8430d6-938a-4d49-b6fe-18eeda219da5&src=seo_token) | Plasma | 4.30% | $5.56M |
-| [pendle →](https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_token) | Plasma | 4.11% | $5.56M |
+| [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.26% | $1.44B |
+| [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.18% | $47.1M |
+| [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.33% | $39.47M |
+| [pendle →](https://www.defi.garden/?pool=5531d8b2-41b6-5641-aa9f-258fbcb5c82a&src=seo_token) | Monad | 11.34% | $16.11M |
+| [pendle →](https://www.defi.garden/?pool=798551dc-52c0-5085-821e-48d4cb5916aa&src=seo_token) | Monad | 4.14% | $16.11M |
+| [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 4.78% | $7.48M |
+| [pendle →](https://www.defi.garden/?pool=7f8430d6-938a-4d49-b6fe-18eeda219da5&src=seo_token) | Plasma | 4.29% | $5.56M |
+| [pendle →](https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_token) | Plasma | 4.02% | $5.56M |
+
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, SUSDE's lower-variability candidates are pendle (Plasma), 4.02% APY, $5.56M TVL, https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_token; pendle (Plasma), 4.29% APY, $5.56M TVL, https://www.defi.garden/?pool=7f8430d6-938a-4d49-b6fe-18eeda219da5&src=seo_token; convex-finance (Ethereum), 5.33% APY, $39.47M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; yearn-finance (Ethereum), 4.78% APY, $7.48M TVL, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token; curve-dex (Ethereum), 3.18% APY, $47.1M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; ethena-usde (Ethereum), 4.26% APY, $1.44B TVL, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [pendle →](https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_token) | Plasma | 4.02% | $5.56M |
+| 2 | [pendle →](https://www.defi.garden/?pool=7f8430d6-938a-4d49-b6fe-18eeda219da5&src=seo_token) | Plasma | 4.29% | $5.56M |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token) | Ethereum | 5.33% | $39.47M |
+| 4 | [yearn-finance →](https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token) | Ethereum | 4.78% | $7.48M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token) | Ethereum | 3.18% | $47.1M |
+| 6 | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token) | Ethereum | 4.26% | $1.44B |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUSDE shows up in 8 pools here, with rates from 3.26% to 11.34% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDE shows up in 8 pools here, with rates from 3.18% to 11.34% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.27% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 4.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ethena-usde | 4.37% | 4.04% | Base rate |
-| curve-dex | 3.26% | 3.57% | 67.84% incentives |
-| convex-finance | 5.49% | 4.96% | 80.86% incentives |
-| pendle | 4.14% | 3.99% | Base rate |
-| pendle | 11.34% | 21.76% | 0.60% incentives |
-| yearn-finance | 4.90% | 5.19% | Base rate |
-| pendle | 4.30% | 4.47% | 4.25% incentives |
-| pendle | 4.11% | 4.06% | Base rate |
+| ethena-usde | 4.26% | 4.04% | Base rate |
+| curve-dex | 3.18% | 3.57% | 67.58% incentives |
+| convex-finance | 5.33% | 4.96% | 80.68% incentives |
+| pendle | 11.34% | 21.50% | 0.59% incentives |
+| pendle | 4.14% | 4.00% | Base rate |
+| yearn-finance | 4.78% | 5.19% | Base rate |
+| pendle | 4.29% | 4.46% | 4.22% incentives |
+| pendle | 4.02% | 4.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,6 +63,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SUSDE pools have the most stable APY history?
+
+Based on APY history only, SUSDE's lower-variability candidates are pendle (Plasma), 4.02% APY, $5.56M TVL, https://www.defi.garden/?pool=194e4710-98d2-43c4-8a5e-9d031ad850ec&src=seo_token; pendle (Plasma), 4.29% APY, $5.56M TVL, https://www.defi.garden/?pool=7f8430d6-938a-4d49-b6fe-18eeda219da5&src=seo_token; convex-finance (Ethereum), 5.33% APY, $39.47M TVL, https://www.defi.garden/?pool=85407c01-6f16-4cef-9ef2-1b2bf2556183&src=seo_token; yearn-finance (Ethereum), 4.78% APY, $7.48M TVL, https://www.defi.garden/?pool=77a6c1f4-fc04-47ff-aa62-090bcb20e3db&src=seo_token; curve-dex (Ethereum), 3.18% APY, $47.1M TVL, https://www.defi.garden/?pool=8a3a7995-73b3-4e25-8b5c-82a8841bf720&src=seo_token; ethena-usde (Ethereum), 4.26% APY, $1.44B TVL, https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,6 +6,11 @@ The highest honest AI2U2 yield right now is 137.58% on uniswap-v2 (Base), among 
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=69e3b362-746b-5947-a889-046de0c0e02d&src=seo_token) | Base | 137.58% | $332.5K |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank AI2U2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which AI2U2 pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank AI2U2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

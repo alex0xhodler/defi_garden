@@ -7,6 +7,16 @@ The highest honest HLSCOPE yield right now is 6.55% on hamilton-lane-senior-cred
 | [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_token) | Polygon | 6.55% | $4.1M |
 | [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=45911f55-b599-47b2-a5e6-8a2e7d42f75b&src=seo_token) | Ethereum | 6.55% | $202.2K |
 
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, HLSCOPE's lower-variability candidates are hamilton-lane-senior-credit-opportunities-securitize-fund (Ethereum), 6.55% APY, $202.2K TVL, https://www.defi.garden/?pool=45911f55-b599-47b2-a5e6-8a2e7d42f75b&src=seo_token; hamilton-lane-senior-credit-opportunities-securitize-fund (Polygon), 6.55% APY, $4.1M TVL, https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=45911f55-b599-47b2-a5e6-8a2e7d42f75b&src=seo_token) | Ethereum | 6.55% | $202.2K |
+| 2 | [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_token) | Polygon | 6.55% | $4.1M |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
@@ -37,6 +47,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which HLSCOPE pools have the most stable APY history?
+
+Based on APY history only, HLSCOPE's lower-variability candidates are hamilton-lane-senior-credit-opportunities-securitize-fund (Ethereum), 6.55% APY, $202.2K TVL, https://www.defi.garden/?pool=45911f55-b599-47b2-a5e6-8a2e7d42f75b&src=seo_token; hamilton-lane-senior-credit-opportunities-securitize-fund (Polygon), 6.55% APY, $4.1M TVL, https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

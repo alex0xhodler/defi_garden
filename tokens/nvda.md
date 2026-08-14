@@ -7,13 +7,23 @@ The highest honest NVDA yield right now is 35.22% on gmtrade (Solana), among 2 p
 | [gmtrade →](https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token) | Solana | 35.22% | $568.1K |
 | [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_token) | Defichain | 0.10% | $149.5K |
 
+<!-- rate-stability:ranked -->
+## Rate stability from APY history
+
+Based on APY history only, NVDA's lower-variability candidates are defichain-dex (Defichain), 0.10% APY, $149.5K TVL, https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_token; gmtrade (Solana), 35.22% APY, $568.1K TVL, https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_token) | Defichain | 0.10% | $149.5K |
+| 2 | [gmtrade →](https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token) | Solana | 35.22% | $568.1K |
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
 NVDA shows up in 2 pools here, with rates from 0.10% to 35.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 18.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -21,7 +31,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gmtrade | 35.22% | 37.49% | Base rate |
+| gmtrade | 35.22% | 37.43% | Base rate |
 | defichain-dex | 0.10% | 0.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,6 +49,10 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which NVDA pools have the most stable APY history?
+
+Based on APY history only, NVDA's lower-variability candidates are defichain-dex (Defichain), 0.10% APY, $149.5K TVL, https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_token; gmtrade (Solana), 35.22% APY, $568.1K TVL, https://www.defi.garden/?pool=8c67811c-fff6-46f7-a5ee-98e735ae28d7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

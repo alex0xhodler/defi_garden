@@ -12,7 +12,7 @@
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.defi.garden/"},{"@type":"ListItem","position":2,"name":"Tokens"},{"@type":"ListItem","position":3,"name":"USDO","item":"https://www.defi.garden/tokens/usdo"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"openeden-usdo on Ethereum","url":"https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd"},{"@type":"ListItem","position":2,"name":"openeden-usdo on BSC","url":"https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"USDO DeFi Yields Dataset","description":"Live DefiLlama yield data for USDO pools on DeFi Garden, filtered by a $100K TVL floor and anomalous-APY exclusion.","url":"https://www.defi.garden/tokens/usdo","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden"},"dateModified":"August 14, 2026"}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest USDO yield today?","acceptedAnswer":{"@type":"Answer","text":"3.10% APY on openeden-usdo (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many USDO pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"2 live pools clear this page's $100K TVL floor, $26.05M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the highest USDO yield today?","acceptedAnswer":{"@type":"Answer","text":"3.10% APY on openeden-usdo (Ethereum), based on live DefiLlama data."}},{"@type":"Question","name":"How many USDO pools clear the TVL floor?","acceptedAnswer":{"@type":"Answer","text":"2 live pools clear this page's $100K TVL floor, $26.06M in total."}},{"@type":"Question","name":"Are these rates safe?","acceptedAnswer":{"@type":"Answer","text":"Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown."}},{"@type":"Question","name":"Which USDO pools have the most stable APY history?","acceptedAnswer":{"@type":"Answer","text":"Based on APY history only, USDO's lower-variability candidates are openeden-usdo (BSC), 3.10% APY, $190K TVL, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; openeden-usdo (Ethereum), 3.10% APY, $25.87M TVL, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk."}}]}</script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="USDO DeFi Yields — Live Pools by TVL | DeFi Garden 🌱">
     <meta property="og:description" content="2 live USDO pools above the $100K TVL floor, up to 3.10% APY, across 2 chains. Honest yields from DefiLlama data — no anomalous rates.">
@@ -67,6 +67,11 @@
       .tp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
       .tp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
       .tp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .tp-rate-stability { margin: 30px 0 8px; }
+      .tp-rate-stability h2 { font-size: 1rem; margin: 0 0 12px; color: var(--ui-text); }
+      .tp-rate-stability p { color: var(--ui-text); margin: 0 0 10px; line-height: 1.6; }
+      .tp-rate-stability .tp-card { margin: 14px 0 0; }
+      .tp-rate-stability table { min-width: 620px; }
       .tp-depth { margin: 30px 0 8px; }
       .tp-depth h2 { font-size: 1rem; margin: 0 0 12px; color: var(--color-text); }
       .tp-depth p { color: var(--color-text); margin: 0 0 10px; line-height: 1.6; }
@@ -97,7 +102,7 @@
     <h1>USDO DeFi Yields</h1>
     <p class="tp-answer">The highest honest USDO yield right now is 3.10% on openeden-usdo (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (&gt;1000% APY) pools.</p>
     <p class="sub">2 live pools above the $100K TVL floor · ranked by TVL</p>
-    <p class="intro">USDO's largest live pool is openeden-usdo on Ethereum at 3.10% ($25.86M TVL). 2 USDO pools across 2 chains clear this page's $100K TVL floor, $26.05M in total.</p>
+    <p class="intro">USDO's largest live pool is openeden-usdo on Ethereum at 3.10% ($25.87M TVL). 2 USDO pools across 2 chains clear this page's $100K TVL floor, $26.06M in total.</p>
     <p class="tp-yield-headline">Your idle USDO could earn ~3.10% — park $7.7K and it could run a $20/mo Claude Pro subscription, forever.</p>
     <a class="tp-cta" href="https://www.defi.garden/?token=USDO&minTvl=100000&src=seo_token">See live USDO pools →</a>
     <div class="tp-card">
@@ -111,7 +116,7 @@
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token">openeden-usdo &rarr;</a></td>
           <td>Ethereum</td>
           <td class="num">3.10%</td>
-          <td class="num">$25.86M</td>
+          <td class="num">$25.87M</td>
         </tr>
         <tr>
           <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token">openeden-usdo &rarr;</a></td>
@@ -123,6 +128,35 @@
     </table>
     </div>
     </div>
+    <section class="tp-rate-stability" data-rate-stability-status="ranked" aria-label="Rate stability from APY history">
+      <h2>Rate stability from APY history</h2>
+      <p>Based on APY history only, USDO&#39;s lower-variability candidates are openeden-usdo (BSC), 3.10% APY, $190K TVL, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&amp;src=seo_token; openeden-usdo (Ethereum), 3.10% APY, $25.87M TVL, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
+      <div class="tp-card">
+      <div class="scroll">
+      <table>
+        <thead>
+          <tr><th class="num">Rank</th><th>Protocol</th><th>Chain</th><th class="num">APY</th><th class="num">TVL</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="num">1</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&amp;src=seo_token">openeden-usdo &rarr;</a></td>
+            <td>BSC</td>
+            <td class="num">3.10%</td>
+            <td class="num">$190K</td>
+          </tr>
+          <tr>
+            <td class="num">2</td>
+            <td><a class="tp-pool-link" href="https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&amp;src=seo_token">openeden-usdo &rarr;</a></td>
+            <td>Ethereum</td>
+            <td class="num">3.10%</td>
+            <td class="num">$25.87M</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </div>
+    </section>
     <section class="tp-depth" aria-label="How this rate has behaved">
       <h2>How this rate has behaved</h2>
     <p>USDO shows up in 2 pools here, with rates from 3.10% to 3.10% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.</p>
@@ -161,11 +195,15 @@
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">How many USDO pools clear the TVL floor?</h3>
-          <p class="tp-faq-a">2 live pools clear this page&#39;s $100K TVL floor, $26.05M in total.</p>
+          <p class="tp-faq-a">2 live pools clear this page&#39;s $100K TVL floor, $26.06M in total.</p>
         </div>
         <div class="tp-faq-item">
           <h3 class="tp-faq-q">Are these rates safe?</h3>
           <p class="tp-faq-a">Pools listed on this page clear a $100K minimum TVL and exclude anomalous (&gt;1000% APY) rates — that is this page&#39;s listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.</p>
+        </div>
+        <div class="tp-faq-item">
+          <h3 class="tp-faq-q">Which USDO pools have the most stable APY history?</h3>
+          <p class="tp-faq-a">Based on APY history only, USDO&#39;s lower-variability candidates are openeden-usdo (BSC), 3.10% APY, $190K TVL, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&amp;src=seo_token; openeden-usdo (Ethereum), 3.10% APY, $25.87M TVL, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&amp;src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.</p>
         </div>
     </section>
     <nav class="related" aria-label="Related tokens">

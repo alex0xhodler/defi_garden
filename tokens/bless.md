@@ -1,10 +1,15 @@
 # BLESS DeFi Yields
 
-The highest honest BLESS yield right now is 236.13% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLESS yield right now is 202.00% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a8d7ae2-18e2-483d-a5aa-0fc8b8585535&src=seo_token) | BSC | 236.13% | $102K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a8d7ae2-18e2-483d-a5aa-0fc8b8585535&src=seo_token) | BSC | 202.00% | $101.9K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank BLESS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLESS yield today?
 
-236.13% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+202.00% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BLESS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102K in total.
+1 live pool clear this page's $100K TVL floor, $101.9K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which BLESS pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank BLESS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

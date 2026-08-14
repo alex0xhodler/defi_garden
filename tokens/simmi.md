@@ -4,7 +4,12 @@ The highest honest SIMMI yield right now is 1.39% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=12d67546-b171-4e27-8157-b9796c1ee7b6&src=seo_token) | Base | 1.39% | $212K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=12d67546-b171-4e27-8157-b9796c1ee7b6&src=seo_token) | Base | 1.39% | $212.7K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SIMMI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SIMMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $212K in total.
+1 live pool clear this page's $100K TVL floor, $212.7K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SIMMI pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SIMMI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

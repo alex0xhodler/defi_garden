@@ -1,10 +1,15 @@
 # NEURAL DeFi Yields
 
-The highest honest NEURAL yield right now is 0.83% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEURAL yield right now is 0.57% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5690eef7-353b-4f8e-bd6a-a68b0c5fafa8&src=seo_token) | Ethereum | 0.83% | $307.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5690eef7-353b-4f8e-bd6a-a68b0c5fafa8&src=seo_token) | Ethereum | 0.57% | $308.2K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank NEURAL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEURAL yield today?
 
-0.83% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.57% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many NEURAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $307.9K in total.
+1 live pool clear this page's $100K TVL floor, $308.2K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which NEURAL pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank NEURAL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

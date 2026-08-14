@@ -4,7 +4,12 @@ The highest honest SENRLUSDV2 yield right now is 6.13% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2e53bb82-f13f-4157-a3bf-b1a91b94b6a4&src=seo_token) | Ethereum | 6.13% | $322.82M |
+| [morpho-blue →](https://www.defi.garden/?pool=2e53bb82-f13f-4157-a3bf-b1a91b94b6a4&src=seo_token) | Ethereum | 6.13% | $322.87M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank SENRLUSDV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SENRLUSDV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $322.82M in total.
+1 live pool clear this page's $100K TVL floor, $322.87M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which SENRLUSDV2 pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank SENRLUSDV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

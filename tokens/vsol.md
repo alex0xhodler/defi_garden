@@ -4,7 +4,12 @@ The highest honest VSOL yield right now is 5.22% on the-vault-liquid-staking (So
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [the-vault-liquid-staking →](https://www.defi.garden/?pool=8b46fdde-a5e4-4574-9926-6ba8047f4fca&src=seo_token) | Solana | 5.22% | $101.66M |
+| [the-vault-liquid-staking →](https://www.defi.garden/?pool=8b46fdde-a5e4-4574-9926-6ba8047f4fca&src=seo_token) | Solana | 5.22% | $101.46M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank VSOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,11 +35,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $115.3M in total.
+2 live pools clear this page's $100K TVL floor, $115.12M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which VSOL pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank VSOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

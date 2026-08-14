@@ -4,7 +4,12 @@ The highest honest LTC yield right now is 0.05% on venus-core-pool (BSC), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865&src=seo_token) | BSC | 0.05% | $1.93M |
+| [venus-core-pool →](https://www.defi.garden/?pool=15cbd370-c6dd-4258-89a4-4623e17c2865&src=seo_token) | BSC | 0.05% | $1.92M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank LTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.93M in total.
+1 live pool clear this page's $100K TVL floor, $1.92M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which LTC pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank LTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -1,10 +1,15 @@
 # WEETH.BASE DeFi Yields
 
-The highest honest WEETH.BASE yield right now is 2.96% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WEETH.BASE yield right now is 2.92% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f291f114-93db-44df-ba8b-5f1ba3fd7c93&src=seo_token) | Base | 2.96% | $1.08M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f291f114-93db-44df-ba8b-5f1ba3fd7c93&src=seo_token) | Base | 2.92% | $1.08M |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank WEETH.BASE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WEETH.BASE yield today?
 
-2.96% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+2.92% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many WEETH.BASE pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which WEETH.BASE pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank WEETH.BASE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

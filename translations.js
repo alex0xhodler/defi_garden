@@ -232,13 +232,8 @@ projectionHeading: "The long game",
       // re-drifts from DEFAULT_MIN_TVL the way the hand-typed "$10M" did.
       // Function leaf so the existing dictionary mechanism needs no change
       // (createTranslationFunction already applies params to function
-<<<<<<< HEAD
       // leaves) — resolves omitted/nullish input to the live value so every
       // existing zero-arg call site renders correctly without reducing Function.length.
-=======
-      // leaves) — takes the formatted floor, defaulting to the live value so
-      // every existing zero-arg call site (landing.js) renders correctly.
->>>>>>> 77c8dbee70 (feat(discovery): add citation-ready rate stability)
       trustFloor: (floor) => {
         const value = floor == null ? TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL) : floor;
         return `${value} minimum TVL`;

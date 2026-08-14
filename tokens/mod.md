@@ -1,10 +1,15 @@
 # MOD DeFi Yields
 
-The highest honest MOD yield right now is 0.02% on thalaswap (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOD yield right now is 0.07% on thalaswap (Aptos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [thalaswap →](https://www.defi.garden/?pool=a3bc736c-fcfc-4460-bce9-183029abd59a&src=seo_token) | Aptos | 0.02% | $160.1K |
+| [thalaswap →](https://www.defi.garden/?pool=a3bc736c-fcfc-4460-bce9-183029abd59a&src=seo_token) | Aptos | 0.07% | $161K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank MOD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,15 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOD yield today?
 
-0.02% APY on thalaswap (Aptos), based on live DefiLlama data.
+0.07% APY on thalaswap (Aptos), based on live DefiLlama data.
 
 ### How many MOD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.1K in total.
+1 live pool clear this page's $100K TVL floor, $161K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which MOD pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank MOD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,6 +6,11 @@ The highest honest GUSDCQ yield right now is 4.16% on morpho-blue (Ethereum), am
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91&src=seo_token) | Ethereum | 4.16% | $24.29M |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank GUSDCQ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which GUSDCQ pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank GUSDCQ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

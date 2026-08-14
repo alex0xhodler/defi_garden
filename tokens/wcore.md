@@ -4,7 +4,12 @@ The highest honest WCORE yield right now is 0.95% on colend-protocol (CORE), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.95% | $116.4K |
+| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.95% | $114.4K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank WCORE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.4K in total.
+1 live pool clear this page's $100K TVL floor, $114.4K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which WCORE pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank WCORE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

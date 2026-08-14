@@ -1,10 +1,15 @@
 # STTD DeFi Yields
 
-The highest honest STTD yield right now is 5.81% on tizi (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STTD yield right now is 5.69% on tizi (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tizi →](https://www.defi.garden/?pool=04024d8f-2f09-4c89-aab6-d80e41fc726d&src=seo_token) | Base | 5.81% | $223.2K |
+| [tizi →](https://www.defi.garden/?pool=04024d8f-2f09-4c89-aab6-d80e41fc726d&src=seo_token) | Base | 5.69% | $223.2K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank STTD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STTD yield today?
 
-5.81% APY on tizi (Base), based on live DefiLlama data.
+5.69% APY on tizi (Base), based on live DefiLlama data.
 
 ### How many STTD pools clear the TVL floor?
 
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which STTD pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank STTD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

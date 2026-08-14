@@ -6,6 +6,11 @@ The highest honest VAPI yield right now is 58.14% on uniswap-v4 (Base), among 1 
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=f4a2cdf0-5173-5387-b7c8-e08346a87db4&src=seo_token) | Base | 58.14% | $112.6K |
 
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank VAPI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## Frequently asked questions
@@ -21,6 +26,10 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which VAPI pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank VAPI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
