@@ -612,16 +612,13 @@ async function main() {
     await redPage.close();
 
     // --- (9) SECOND RED PROOF, attempt 2: own isolated page at 360x780.
-    // The proof above only ever demonstrates the >=641px duplicate-paint
-    // failure (a `theme-toggle-switch` painted on top). This item was
-    // promoted for the 360/480px UNREACHABLE failure -- the header control's
-    // rect pushed off-screen, `elementFromPoint` -> null -- and no existing
-    // red proof reproduced it. Undo ONLY fix (3) (the `<=640px min-width: 0`
-    // block), leaving fixes (1)/(2) intact, so this pass isolates the actual
-    // P0 signature instead of re-demonstrating the >=641px one. ---
+    // The compact-search follow-up adds independent protections beyond
+    // min-width:0: phone wordmark removal and tighter field/action padding.
+    // Reintroduce the complete pre-fix geometry so this positive control
+    // continues to prove the unreachable-control detector.
     const redPage2 = await browser.newPage({ viewport: { width: 360, height: 780 } });
     await routeFixtures(redPage2);
-    await test('(9) RED PROOF #2 (attempt 2, 360x780): mutating away the <=640px min-width:0 block reproduces the UNREACHABLE signature (off-screen, elementFromPoint -> null), not the >=641px duplicate-paint one', async () => {
+    await test('(9) RED PROOF #2 (360x780): restoring pre-fix search geometry reproduces the unreachable off-screen control signature', async () => {
       await redPage2.goto(tokenUrl, { waitUntil: 'load', timeout: 20000 });
       await redPage2.waitForSelector('.pool-card', { timeout: 15000 });
       await waitForCss(redPage2);
@@ -630,8 +627,12 @@ async function main() {
       await assertControlsReachable(redPage2, '360x780 unreachable-red-proof PRE-mutation (must be green)');
 
       await redPage2.addStyleTag({ content: `
+        .app-brand-wordmark { display: inline !important; }
+        .app-logo { flex: 0 1 auto !important; }
+        .app-search-bar { padding-left: 16px !important; padding-right: 16px !important; }
         .app-search-container { min-width: 170px !important; }
-        .app-search-input { min-width: 170px !important; }
+        .app-search-input { min-width: 170px !important; padding-left: 20px !important; padding-right: 20px !important; }
+        .app-search-clear { width: auto !important; padding-left: 8px !important; padding-right: 8px !important; }
       `});
       await redPage2.waitForTimeout(100);
 

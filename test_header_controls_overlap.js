@@ -272,25 +272,30 @@ async function openCase(browser, { url, width, theme, lang, extraCss }) {
     await ctx.close();
   }
 
-  // (6) analytics homepage not regressed by the `>` scoping.
+  // (6) analytics homepage uses the same in-flow header controls.
   {
     const { ctx, page } = await openCase(browser, { url: '/?app=1', width: 360, theme: 'light', lang: 'en' });
-    await test('homepage 360: standalone pair still fixed and still pressable', async () => {
+    await test('homepage 360: shared header pair stays in-flow and pressable', async () => {
       const m = await page.evaluate(() => {
         const out = [];
-        for (const sel of ['.theme-toggle', '.language-toggle']) {
+        for (const sel of ['.app-header-controls .theme-toggle', '.app-header-controls .language-toggle']) {
           const el = document.querySelector(sel);
           if (!el) { out.push({ sel, missing: true }); continue; }
           const r = el.getBoundingClientRect();
           const hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2);
           out.push({ sel, position: getComputedStyle(el).position, w: r.width, h: r.height, hit: hit ? (el.contains(hit) || el === hit ? 'SELF' : String(hit.className || hit.tagName)) : 'null' });
         }
-        return { out, hasHeader: !!document.querySelector('.app-header-sticky') };
+        return {
+          out,
+          headerCount: document.querySelectorAll('.app-header-sticky').length,
+          standaloneCount: document.querySelectorAll('.app > .theme-toggle, .app > .language-toggle').length
+        };
       });
-      if (m.hasHeader) throw new Error('unexpected: the analytics homepage rendered a header');
+      if (m.headerCount !== 1) throw new Error(`expected one shared analytics header, got ${m.headerCount}`);
+      if (m.standaloneCount !== 0) throw new Error(`expected no standalone control pair, got ${m.standaloneCount} controls`);
       for (const t of m.out) {
-        if (t.missing) throw new Error(`${t.sel} missing on the homepage`);
-        if (t.position !== 'fixed') throw new Error(`${t.sel} lost its fixed positioning on the homepage (position: ${t.position})`);
+        if (t.missing) throw new Error(`${t.sel} missing from the homepage header`);
+        if (t.position === 'fixed') throw new Error(`${t.sel} escaped the header flow (position: fixed)`);
         if (!(t.w > 0 && t.h > 0)) throw new Error(`${t.sel} has a zero box on the homepage`);
         if (t.hit !== 'SELF') throw new Error(`${t.sel} not pressable on the homepage: elementFromPoint -> ${t.hit}`);
       }

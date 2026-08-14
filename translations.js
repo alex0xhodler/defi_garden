@@ -232,9 +232,13 @@ projectionHeading: "The long game",
       // re-drifts from DEFAULT_MIN_TVL the way the hand-typed "$10M" did.
       // Function leaf so the existing dictionary mechanism needs no change
       // (createTranslationFunction already applies params to function
-      // leaves) — takes the formatted floor, defaulting to the live value so
-      // every existing zero-arg call site (landing.js) renders correctly.
-      trustFloor: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `${floor} minimum TVL`,
+      // leaves) — resolves omitted/nullish input to the live value so every
+      // existing zero-arg call site (landing.js) renders correctly without
+      // reducing Function.length to zero.
+      trustFloor: (floor) => {
+        const value = floor == null ? TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL) : floor;
+        return `${value} minimum TVL`;
+      },
       trustEducation: "Education, not advice",
       trustHeading: "A calmer way to explore yield.",
       trustBody: "Clear entry points, honest numbers, and a next step that makes sense.",
@@ -326,7 +330,10 @@ projectionHeading: "The long game",
       personaRwaRisk: "Moderate risk — some regulatory uncertainty on newer products",
       personaDegenTitle: "High Yield",
       // backlog 254: see landing.trustFloor above — same TRUST_RAILS derivation.
-      personaDegenDesc: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `High-APY LP farms, TVL ≥ ${floor}. These rates are real today and typically last days-to-weeks, requiring active farm-hopping.`,
+      personaDegenDesc: (floor) => {
+        const value = floor == null ? TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL) : floor;
+        return `High-APY LP farms, TVL ≥ ${value}. These rates are real today and typically last days-to-weeks, requiring active farm-hopping.`;
+      },
       personaDegenRisk: "Honest: projected at ⅓ of shown rate — high yields decay fast",
       personaProj: (amt, yrs, apy) => `≈ ${amt} in ${yrs} yrs at ${apy}%`,
       personaProjYield: (yld, apy) => `≈ ${yld}/mo at ${apy}%`,
@@ -1009,7 +1016,10 @@ projectionHeading: "The long game",
       // call — matches the KO strings 6fceca79bb already shipped, e.g.
       // "최소 TVL $100K 기준" (emptyStateExplanation above), rather than a
       // Hangul numeral like "10만 달러"). See translations.en.landing.trustFloor.
-      trustFloor: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `최소 TVL ${floor}`,
+      trustFloor: (floor) => {
+        const value = floor == null ? TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL) : floor;
+        return `최소 TVL ${value}`;
+      },
       trustEducation: "투자 조언이 아닙니다",
       trustHeading: "더 차분하게 수익률을 탐색하세요.",
       trustBody: "명확한 시작점, 정직한 숫자, 그리고 다음 행동을 안내합니다.",
@@ -1094,7 +1104,10 @@ projectionHeading: "The long game",
       personaRwaRisk: "중간 위험 — 신규 상품에 대한 규제 불확실성 존재",
       personaDegenTitle: "고수익",
       // backlog 254: see translations.en.planner.personaDegenDesc above.
-      personaDegenDesc: (floor = TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL)) => `고수익 LP 팜, TVL ≥ ${floor}. 이 수익률은 지금 실재하며 보통 며칠~몇 주 지속돼요. 적극적인 농장 이동이 필요합니다.`,
+      personaDegenDesc: (floor) => {
+        const value = floor == null ? TRUST_RAILS && TRUST_RAILS.formatTvlFloor(TRUST_RAILS.DEFAULT_MIN_TVL) : floor;
+        return `고수익 LP 팜, TVL ≥ ${value}. 이 수익률은 지금 실재하며 보통 며칠~몇 주 지속돼요. 적극적인 농장 이동이 필요합니다.`;
+      },
       personaDegenRisk: "솔직히: 표시된 수익률의 ⅓로 투영 — 고수익률은 빠르게 감소",
       personaProj: (amt, yrs, apy) => `≈ ${amt} · ${yrs}년 · ${apy}%`,
       personaProjYield: (yld, apy) => `≈ 월 ${yld} · ${apy}%`,
