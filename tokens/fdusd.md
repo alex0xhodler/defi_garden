@@ -8,11 +8,11 @@ The highest honest FDUSD yield right now is 1.90% on aave-v3 (BSC), among 2 pool
 | [aave-v3 →](https://www.defi.garden/?pool=4734c292-5e38-4962-b7a9-e1e265254c1b&src=seo_token) | BSC | 1.90% | $213.5K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, FDUSD's lower-variability candidates are aave-v3 (BSC), 1.90% APY, $213.5K TVL, https://www.defi.garden/?pool=4734c292-5e38-4962-b7a9-e1e265254c1b&src=seo_token; venus-core-pool (BSC), 1.32% APY, $5.25M TVL, https://www.defi.garden/?pool=6679b470-7a53-4b96-88c8-262ea927b4b5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aave-v3 →](https://www.defi.garden/?pool=4734c292-5e38-4962-b7a9-e1e265254c1b&src=seo_token) | BSC | 1.90% | $213.5K |
 | 2 | [venus-core-pool →](https://www.defi.garden/?pool=6679b470-7a53-4b96-88c8-262ea927b4b5&src=seo_token) | BSC | 1.32% | $5.25M |
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| venus-core-pool | 1.32% | 1.46% | Base rate |
+| venus-core-pool | 1.32% | 1.47% | Base rate |
 | aave-v3 | 1.90% | 1.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which FDUSD pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, FDUSD's lower-variability candidates are aave-v3 (BSC), 1.90% APY, $213.5K TVL, https://www.defi.garden/?pool=4734c292-5e38-4962-b7a9-e1e265254c1b&src=seo_token; venus-core-pool (BSC), 1.32% APY, $5.25M TVL, https://www.defi.garden/?pool=6679b470-7a53-4b96-88c8-262ea927b4b5&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

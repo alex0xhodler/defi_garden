@@ -1,15 +1,15 @@
 # BIGSB DeFi Yields
 
-The highest honest BIGSB yield right now is 0.48% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIGSB yield right now is 0.50% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c2ce9d03-61be-42e7-903a-bd2e71069a9d&src=seo_token) | Ethereum | 0.48% | $421.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c2ce9d03-61be-42e7-903a-bd2e71069a9d&src=seo_token) | Ethereum | 0.50% | $423K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BIGSB pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BIGSB yield today?
 
-0.48% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.50% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BIGSB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $421.9K in total.
+1 live pool clear this page's $100K TVL floor, $423K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which BIGSB pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BIGSB pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

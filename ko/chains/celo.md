@@ -1,17 +1,17 @@
 # Celo 디파이 수익률
 
-현재 Celo의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 34.53%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Celo의 가장 높은 정직한 수익률은 Celo의 uniswap-v3에서 33.94%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 3.26% | $1.45M |
-| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 8.91% | $1.33M |
-| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 7.98% | $968.6K |
-| USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a&src=seo_chain) | 0.30% | $643.1K |
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_chain) | 0.01% | $472.6K |
-| USD₮-WBTC | [uniswap-v3 →](https://www.defi.garden/?pool=8f5e5824-7c41-4af2-899b-2db398962bea&src=seo_chain) | 34.53% | $244.5K |
-| USD₮-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=53a906e0-d837-4cef-b562-e29222f6b3b6&src=seo_chain) | 14.17% | $219K |
-| USD₮-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=81cba9f3-4799-46af-aeaa-eb5cf0c4fdc0&src=seo_chain) | 1.47% | $189.8K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 3.28% | $1.43M |
+| USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 8.80% | $1.37M |
+| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 7.97% | $962.4K |
+| USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a&src=seo_chain) | 0.50% | $642.8K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=4bbdb2ff-3237-44a5-bb86-6562f9814ad9&src=seo_chain) | 0.02% | $470.3K |
+| USD₮-WBTC | [uniswap-v3 →](https://www.defi.garden/?pool=8f5e5824-7c41-4af2-899b-2db398962bea&src=seo_chain) | 33.94% | $243K |
+| USD₮-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=53a906e0-d837-4cef-b562-e29222f6b3b6&src=seo_chain) | 7.29% | $217.6K |
+| USD₮-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=81cba9f3-4799-46af-aeaa-eb5cf0c4fdc0&src=seo_chain) | 1.71% | $189.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Celo의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 34.53%예요.
+DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 33.94%예요.
 
 ### Celo 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $7.14M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $7.05M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -32,8 +32,8 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 34.53%예요.
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
+- [Base](https://www.defi.garden/ko/chains/base)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Monad](https://www.defi.garden/ko/chains/monad)
 - [Plasma](https://www.defi.garden/ko/chains/plasma)

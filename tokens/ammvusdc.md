@@ -1,15 +1,15 @@
 # AMMVUSDC DeFi Yields
 
-The highest honest AMMVUSDC yield right now is 4.84% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AMMVUSDC yield right now is 3.31% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=e2d5bf46-87c9-46f4-b865-9ecc7bd63b63&src=seo_token) | Ethereum | 4.84% | $131.8K |
+| [lagoon →](https://www.defi.garden/?pool=e2d5bf46-87c9-46f4-b865-9ecc7bd63b63&src=seo_token) | Ethereum | 3.31% | $131.8K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank AMMVUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AMMVUSDC yield today?
 
-4.84% APY on lagoon (Ethereum), based on live DefiLlama data.
+3.31% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many AMMVUSDC pools clear the TVL floor?
 
@@ -27,9 +27,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which AMMVUSDC pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank AMMVUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

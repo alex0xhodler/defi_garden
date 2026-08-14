@@ -1,29 +1,29 @@
 # WUSDC 디파이 수익률
 
-현재 WUSDC의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 1.84%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WUSDC의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 1.70%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token) | Sui | 1.84% | $148.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token) | Sui | 1.70% | $148.6K |
 | [navi-lending →](https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token) | Sui | 1.48% | $147.2K |
 | [scallop-lend →](https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token) | Sui | 1.19% | $122.3K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## APY 이력 기반 수익률 안정성
 
-tcpRateStabilityRankedAnswer
+APY 이력만 기준으로 비교한 WUSDC의 변동성 낮은 후보는 Sui의 navi-lending, APY 1.48%, TVL $147.2K, https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token; Sui의 scallop-lend, APY 1.19%, TVL $122.3K, https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token; Sui의 cetus-clmm, APY 1.70%, TVL $148.6K, https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
-| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
+| 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [navi-lending →](https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token) | Sui | 1.48% | $147.2K |
 | 2 | [scallop-lend →](https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token) | Sui | 1.19% | $122.3K |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token) | Sui | 1.84% | $148.2K |
+| 3 | [cetus-clmm →](https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token) | Sui | 1.70% | $148.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WUSDC 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.19%부터 1.84%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WUSDC 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.19%부터 1.70%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.47%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -33,7 +33,7 @@ WUSDC 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.19%부터 1.84%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| cetus-clmm | 1.84% | 2.11% | 기본 금리 |
+| cetus-clmm | 1.70% | 2.09% | 기본 금리 |
 | navi-lending | 1.48% | 1.47% | 기본 금리 |
 | scallop-lend | 1.19% | 1.35% | 기본 금리 |
 
@@ -43,28 +43,28 @@ WUSDC 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.19%부터 1.84%�
 
 ### 오늘 WUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 1.84%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 1.70%예요.
 
 ### WUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $417.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $418.1K예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### tcpRateStabilityFaqQ
+### WUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-tcpRateStabilityRankedAnswer
+APY 이력만 기준으로 비교한 WUSDC의 변동성 낮은 후보는 Sui의 navi-lending, APY 1.48%, TVL $147.2K, https://www.defi.garden/?pool=838df6ef-2fdc-48ba-b1ba-a5fd508ea283&src=seo_token; Sui의 scallop-lend, APY 1.19%, TVL $122.3K, https://www.defi.garden/?pool=b1d5ce92-a1c4-49f7-9769-50ce5edf2335&src=seo_token; Sui의 cetus-clmm, APY 1.70%, TVL $148.6K, https://www.defi.garden/?pool=58eb1ad4-758f-407d-afc2-0b465b1e76a7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
 - [SUI](https://www.defi.garden/ko/tokens/sui)
 - [BUCK](https://www.defi.garden/ko/tokens/buck)
-- [HASUI](https://www.defi.garden/ko/tokens/hasui)
 
 ## 이용 가능한 체인
 

@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token) | Base | 3.49% | $3.29M |
-| [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.46% | $775.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token) | Base | 3.49% | $3.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.46% | $718.9K |
 | [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 2.42% | $652.5K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## APY 이력 기반 수익률 안정성
 
-tcpRateStabilityRankedAnswer
+APY 이력만 기준으로 비교한 STEAKEURC의 변동성 낮은 후보는 Base의 morpho-blue, APY 3.46%, TVL $718.9K, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token; Ethereum의 morpho-blue, APY 2.42%, TVL $652.5K, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token; Base의 morpho-blue, APY 3.49%, TVL $3.28M, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
-| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
+| 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.46% | $775.1K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.46% | $718.9K |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 2.42% | $652.5K |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token) | Base | 3.49% | $3.29M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token) | Base | 3.49% | $3.28M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -31,7 +31,7 @@ STEAKEURC 풀은 여기 3개가 있고, 2개 체인에서 APY가 2.42%부터 3.4
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 3.49% | 4.01% | 기본 금리 |
+| morpho-blue | 3.49% | 4.00% | 기본 금리 |
 | morpho-blue | 3.46% | 4.00% | 기본 금리 |
 | morpho-blue | 2.42% | 3.30% | 기본 금리 |
 
@@ -45,15 +45,15 @@ DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 3.49%예요.
 
 ### STEAKEURC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $4.72M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $4.65M예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### tcpRateStabilityFaqQ
+### STEAKEURC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-tcpRateStabilityRankedAnswer
+APY 이력만 기준으로 비교한 STEAKEURC의 변동성 낮은 후보는 Base의 morpho-blue, APY 3.46%, TVL $718.9K, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token; Ethereum의 morpho-blue, APY 2.42%, TVL $652.5K, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token; Base의 morpho-blue, APY 3.49%, TVL $3.28M, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

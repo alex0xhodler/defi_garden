@@ -1,39 +1,39 @@
 # ZCHF DeFi Yields
 
-The highest honest ZCHF yield right now is 9.42% on convex-finance (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZCHF yield right now is 9.13% on convex-finance (Ethereum), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $14.92M |
+| [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $14.91M |
 | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token) | Gnosis | 3.50% | $1.55M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.20% | $1.31M |
-| [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 3.85% | $680.1K |
-| [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $308.9K |
-| [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 9.42% | $212K |
-| [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 7.28% | $179.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token) | Ethereum | 2.01% | $162K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.19% | $1.31M |
+| [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 3.70% | $682.2K |
+| [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $309.2K |
+| [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 9.13% | $212.6K |
+| [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 7.07% | $180.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token) | Ethereum | 1.29% | $162.1K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, ZCHF's lower-variability candidates are frankencoin (Ethereum), 3.50% APY, $14.91M TVL, https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token; frankencoin (Base), 3.50% APY, $309.2K TVL, https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token; frankencoin (Gnosis), 3.50% APY, $1.55M TVL, https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token; uniswap-v3 (Ethereum), 0.19% APY, $1.31M TVL, https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token; curve-dex (Ethereum), 3.70% APY, $682.2K TVL, https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token; stake-dao (Ethereum), 7.07% APY, $180.4K TVL, https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token; convex-finance (Ethereum), 9.13% APY, $212.6K TVL, https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token; uniswap-v3 (Ethereum), 1.29% APY, $162.1K TVL, https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $14.92M |
-| 2 | [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $308.9K |
+| 1 | [frankencoin →](https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token) | Ethereum | 3.50% | $14.91M |
+| 2 | [frankencoin →](https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token) | Base | 3.50% | $309.2K |
 | 3 | [frankencoin →](https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token) | Gnosis | 3.50% | $1.55M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.20% | $1.31M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 3.85% | $680.1K |
-| 6 | [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 7.28% | $179.8K |
-| 7 | [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 9.42% | $212K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token) | Ethereum | 2.01% | $162K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token) | Ethereum | 0.19% | $1.31M |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token) | Ethereum | 3.70% | $682.2K |
+| 6 | [stake-dao →](https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token) | Ethereum | 7.07% | $180.4K |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token) | Ethereum | 9.13% | $212.6K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token) | Ethereum | 1.29% | $162.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZCHF shows up in 8 pools here, with rates from 0.20% to 9.42% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZCHF shows up in 8 pools here, with rates from 0.19% to 9.13% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.50% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -45,12 +45,12 @@ ZCHF shows up in 8 pools here, with rates from 0.20% to 9.42% APY across 3 chain
 |---|---|---|---|
 | frankencoin | 3.50% | 3.50% | Base rate |
 | frankencoin | 3.50% | 3.50% | Base rate |
-| uniswap-v3 | 0.20% | 0.31% | Base rate |
-| curve-dex | 3.85% | 4.19% | 94.29% incentives |
+| uniswap-v3 | 0.19% | 0.31% | Base rate |
+| curve-dex | 3.70% | 4.18% | 95.41% incentives |
 | frankencoin | 3.50% | 3.50% | Base rate |
-| convex-finance | 9.42% | 8.54% | 97.66% incentives |
-| stake-dao | 7.28% | 7.75% | 96.98% incentives |
-| uniswap-v3 | 2.01% | 3.39% | Base rate |
+| convex-finance | 9.13% | 8.54% | 98.14% incentives |
+| stake-dao | 7.07% | 7.74% | 96.89% incentives |
+| uniswap-v3 | 1.29% | 3.33% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,7 +58,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZCHF yield today?
 
-9.42% APY on convex-finance (Ethereum), based on live DefiLlama data.
+9.13% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many ZCHF pools clear the TVL floor?
 
@@ -68,9 +68,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which ZCHF pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, ZCHF's lower-variability candidates are frankencoin (Ethereum), 3.50% APY, $14.91M TVL, https://www.defi.garden/?pool=8b427366-7bfb-4c61-88be-8dc004fdc3da&src=seo_token; frankencoin (Base), 3.50% APY, $309.2K TVL, https://www.defi.garden/?pool=e5a2cc6d-7872-4b59-8ce5-0d4c59b19d52&src=seo_token; frankencoin (Gnosis), 3.50% APY, $1.55M TVL, https://www.defi.garden/?pool=75ff7280-15a9-4111-9b68-25254d741529&src=seo_token; uniswap-v3 (Ethereum), 0.19% APY, $1.31M TVL, https://www.defi.garden/?pool=fd20e294-586b-46c6-ae46-260b0940d3b4&src=seo_token; curve-dex (Ethereum), 3.70% APY, $682.2K TVL, https://www.defi.garden/?pool=d85aeae0-e233-4c1e-8620-66569a571609&src=seo_token; stake-dao (Ethereum), 7.07% APY, $180.4K TVL, https://www.defi.garden/?pool=fd66e795-75cc-493c-9afd-a7d91ffa00ac&src=seo_token; convex-finance (Ethereum), 9.13% APY, $212.6K TVL, https://www.defi.garden/?pool=34f1ecee-852f-4720-8371-b83cde5ea86b&src=seo_token; uniswap-v3 (Ethereum), 1.29% APY, $162.1K TVL, https://www.defi.garden/?pool=4ce93f84-a3dd-45fe-9bb0-515c8c5a00ae&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

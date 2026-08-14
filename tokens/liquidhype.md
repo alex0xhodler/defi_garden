@@ -4,12 +4,12 @@ The highest honest LIQUIDHYPE yield right now is 1.30% on ether.fi-liquid (Hyper
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-liquid →](https://www.defi.garden/?pool=175dee04-353e-4e90-af77-e20f455f8372&src=seo_token) | Hyperliquid L1 | 1.30% | $2.3M |
+| [ether.fi-liquid →](https://www.defi.garden/?pool=175dee04-353e-4e90-af77-e20f455f8372&src=seo_token) | Hyperliquid L1 | 1.30% | $2.28M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank LIQUIDHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,21 +21,21 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LIQUIDHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.3M in total.
+1 live pool clear this page's $100K TVL floor, $2.28M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which LIQUIDHYPE pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank LIQUIDHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
-- [WHYPE](https://www.defi.garden/tokens/whype)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
+- [WHYPE](https://www.defi.garden/tokens/whype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)

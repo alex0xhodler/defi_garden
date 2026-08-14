@@ -8,11 +8,11 @@ The highest honest MAPOLLO yield right now is 8.51% on pendle (Ethereum), among 
 | [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 7.95% | $2.9M |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, MAPOLLO's lower-variability candidates are pendle (Ethereum), 7.95% APY, $2.9M TVL, https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token; pendle (Ethereum), 8.51% APY, $2.9M TVL, https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token) | Ethereum | 7.95% | $2.9M |
 | 2 | [pendle →](https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token) | Ethereum | 8.51% | $2.9M |
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which MAPOLLO pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, MAPOLLO's lower-variability candidates are pendle (Ethereum), 7.95% APY, $2.9M TVL, https://www.defi.garden/?pool=6eb17039-f0dc-4059-ab80-0d32a7ed195a&src=seo_token; pendle (Ethereum), 8.51% APY, $2.9M TVL, https://www.defi.garden/?pool=12ff3b1c-6ab2-418d-9bd7-9463b10e1b8b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

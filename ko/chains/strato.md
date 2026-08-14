@@ -27,8 +27,8 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 5.43%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
-- [Base](https://www.defi.garden/ko/chains/base)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
+- [Base](https://www.defi.garden/ko/chains/base)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 

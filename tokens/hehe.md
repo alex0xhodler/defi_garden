@@ -1,15 +1,15 @@
 # HEHE DeFi Yields
 
-The highest honest HEHE yield right now is 5.86% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEHE yield right now is 4.71% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ccfdf5f6-910a-4d8b-8dd2-6c3d34ed32ae&src=seo_token) | Solana | 5.86% | $148K |
+| [raydium-amm →](https://www.defi.garden/?pool=ccfdf5f6-910a-4d8b-8dd2-6c3d34ed32ae&src=seo_token) | Solana | 4.71% | $148.2K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank HEHE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEHE yield today?
 
-5.86% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.71% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HEHE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $148K in total.
+1 live pool clear this page's $100K TVL floor, $148.2K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which HEHE pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank HEHE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

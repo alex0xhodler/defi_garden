@@ -1,15 +1,15 @@
 # ALARSAIL.R DeFi Yields
 
-The highest honest ALARSAIL.R yield right now is 13.57% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALARSAIL.R yield right now is 13.77% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=3f0c4095-02b6-486f-adb0-688b8da944c2&src=seo_token) | Berachain | 13.57% | $430.3K |
+| [berapaw →](https://www.defi.garden/?pool=3f0c4095-02b6-486f-adb0-688b8da944c2&src=seo_token) | Berachain | 13.77% | $430.4K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank ALARSAIL.R pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALARSAIL.R yield today?
 
-13.57% APY on berapaw (Berachain), based on live DefiLlama data.
+13.77% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many ALARSAIL.R pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $430.3K in total.
+1 live pool clear this page's $100K TVL floor, $430.4K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which ALARSAIL.R pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank ALARSAIL.R pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

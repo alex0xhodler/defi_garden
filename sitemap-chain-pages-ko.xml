@@ -16,12 +16,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/base</loc>
+    <loc>https://www.defi.garden/ko/chains/bsc</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bsc</loc>
+    <loc>https://www.defi.garden/ko/chains/base</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -156,12 +156,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/mezo</loc>
+    <loc>https://www.defi.garden/ko/chains/ton</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/ton</loc>
+    <loc>https://www.defi.garden/ko/chains/mezo</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -206,12 +206,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/fraxtal</loc>
+    <loc>https://www.defi.garden/ko/chains/filecoin</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/filecoin</loc>
+    <loc>https://www.defi.garden/ko/chains/fraxtal</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
   </url>

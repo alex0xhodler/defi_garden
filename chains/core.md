@@ -4,8 +4,8 @@ The highest honest CORE yield right now is 13.92% on b14g (CORE), among 2 pools 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| CORE | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_chain) | 13.92% | $1.7M |
-| WCORE | [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_chain) | 0.95% | $116.4K |
+| CORE | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_chain) | 13.92% | $1.67M |
+| WCORE | [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_chain) | 0.96% | $114.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CORE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.81M in total.
+2 live pools clear this page's $100K TVL floor, $1.78M in total.
 
 ### Are these rates safe?
 
@@ -27,8 +27,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
+- [Base](https://www.defi.garden/chains/base)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 

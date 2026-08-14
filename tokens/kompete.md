@@ -1,15 +1,15 @@
 # KOMPETE DeFi Yields
 
-The highest honest KOMPETE yield right now is 0.02% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KOMPETE yield right now is 0.16% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1b5b7722-f7e9-41f2-b266-2536e5c00e8b&src=seo_token) | Ethereum | 0.02% | $253.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1b5b7722-f7e9-41f2-b266-2536e5c00e8b&src=seo_token) | Ethereum | 0.16% | $258K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank KOMPETE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KOMPETE yield today?
 
-0.02% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.16% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many KOMPETE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $253.7K in total.
+1 live pool clear this page's $100K TVL floor, $258K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which KOMPETE pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank KOMPETE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

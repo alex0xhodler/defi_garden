@@ -1,15 +1,15 @@
 # WHOODX DeFi Yields
 
-The highest honest WHOODX yield right now is 1.87% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WHOODX yield right now is 0.39% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=30836422-c578-4f77-8f81-861c509c5d4c&src=seo_token) | Mantle | 1.87% | $118.4K |
+| [fluxion-network →](https://www.defi.garden/?pool=30836422-c578-4f77-8f81-861c509c5d4c&src=seo_token) | Mantle | 0.39% | $117.6K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank WHOODX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,28 +17,28 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WHOODX yield today?
 
-1.87% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.39% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WHOODX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.4K in total.
+1 live pool clear this page's $100K TVL floor, $117.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which WHOODX pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank WHOODX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
 - [BSB](https://www.defi.garden/tokens/bsb)
-- [BILL](https://www.defi.garden/tokens/bill)
 
 ## Available on
 

@@ -1,15 +1,15 @@
 # RTPLV2 DeFi Yields
 
-The highest honest RTPLV2 yield right now is 119.16% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RTPLV2 yield right now is 158.95% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a0f70caf-3706-48c5-ad14-b88c49762c2b&src=seo_token) | Solana | 119.16% | $102.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=a0f70caf-3706-48c5-ad14-b88c49762c2b&src=seo_token) | Solana | 158.95% | $101.8K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank RTPLV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RTPLV2 yield today?
 
-119.16% APY on raydium-amm (Solana), based on live DefiLlama data.
+158.95% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RTPLV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.6K in total.
+1 live pool clear this page's $100K TVL floor, $101.8K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which RTPLV2 pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank RTPLV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

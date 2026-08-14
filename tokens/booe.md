@@ -1,15 +1,15 @@
 # BOOE DeFi Yields
 
-The highest honest BOOE yield right now is 4.55% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOOE yield right now is 3.54% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e20cd35f-a0bb-4926-aa19-a3d78087a0e6&src=seo_token) | Ethereum | 4.55% | $347.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e20cd35f-a0bb-4926-aa19-a3d78087a0e6&src=seo_token) | Ethereum | 3.54% | $345.8K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BOOE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOOE yield today?
 
-4.55% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.54% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BOOE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $347.8K in total.
+1 live pool clear this page's $100K TVL floor, $345.8K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which BOOE pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BOOE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

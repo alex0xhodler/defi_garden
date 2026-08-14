@@ -4,12 +4,12 @@ The highest honest LAINESOL yield right now is 4.63% on laine-sol (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9&src=seo_token) | Solana | 4.63% | $925.7K |
+| [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9&src=seo_token) | Solana | 4.63% | $920.4K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank LAINESOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,15 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LAINESOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $925.7K in total.
+1 live pool clear this page's $100K TVL floor, $920.4K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which LAINESOL pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank LAINESOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

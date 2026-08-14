@@ -4,12 +4,12 @@ The highest honest BUDDY yield right now is 0.10% on hyperswap-v2 (Hyperliquid L
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=0769c153-7ba5-4993-91e7-aa95f81dcdd3&src=seo_token) | Hyperliquid L1 | 0.10% | $222K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=0769c153-7ba5-4993-91e7-aa95f81dcdd3&src=seo_token) | Hyperliquid L1 | 0.10% | $219K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BUDDY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,21 +21,21 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BUDDY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $222K in total.
+1 live pool clear this page's $100K TVL floor, $219K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which BUDDY pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BUDDY pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
-- [WHYPE](https://www.defi.garden/tokens/whype)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
+- [WHYPE](https://www.defi.garden/tokens/whype)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)

@@ -1,15 +1,15 @@
 # NEET DeFi Yields
 
-The highest honest NEET yield right now is 25.90% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NEET yield right now is 48.00% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 25.90% | $368.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=df4a9c30-9169-4a5b-b09e-5e958bd3ceac&src=seo_token) | Solana | 48.00% | $372.6K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank NEET pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NEET yield today?
 
-25.90% APY on raydium-amm (Solana), based on live DefiLlama data.
+48.00% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NEET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $368.9K in total.
+1 live pool clear this page's $100K TVL floor, $372.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which NEET pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank NEET pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

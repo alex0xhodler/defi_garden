@@ -1,15 +1,15 @@
 # MRF DeFi Yields
 
-The highest honest MRF yield right now is 0.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MRF yield right now is 0.03% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=59859e12-07e7-485c-bda6-582f95c28896&src=seo_token) | Ethereum | 0.02% | $392.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=59859e12-07e7-485c-bda6-582f95c28896&src=seo_token) | Ethereum | 0.03% | $393.1K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank MRF pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MRF yield today?
 
-0.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.03% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many MRF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $392.7K in total.
+1 live pool clear this page's $100K TVL floor, $393.1K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which MRF pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank MRF pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

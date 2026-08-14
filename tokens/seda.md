@@ -1,15 +1,15 @@
 # SEDA DeFi Yields
 
-The highest honest SEDA yield right now is 56.44% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SEDA yield right now is 166.85% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=6e914bf1-d395-4f95-a2f7-562a636a24b5&src=seo_token) | Base | 56.44% | $189.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=6e914bf1-d395-4f95-a2f7-562a636a24b5&src=seo_token) | Base | 166.85% | $188.6K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SEDA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SEDA yield today?
 
-56.44% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+166.85% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many SEDA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $189.9K in total.
+1 live pool clear this page's $100K TVL floor, $188.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which SEDA pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SEDA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

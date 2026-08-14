@@ -4,12 +4,12 @@ The highest honest GGAVAX yield right now is 6.06% on hypha (Avalanche), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hypha →](https://www.defi.garden/?pool=3efc0d84-53c6-4c6a-b1c3-c140502c7f26&src=seo_token) | Avalanche | 6.06% | $3.59M |
+| [hypha →](https://www.defi.garden/?pool=3efc0d84-53c6-4c6a-b1c3-c140502c7f26&src=seo_token) | Avalanche | 6.06% | $3.62M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank GGAVAX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,13 +17,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 GGAVAX shows up in 1 pools here, with rates from 6.06% to 6.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hypha | 6.06% | 5.14% | Base rate |
+| hypha | 6.06% | 5.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,15 +35,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GGAVAX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.9M in total.
+2 live pools clear this page's $100K TVL floor, $3.94M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which GGAVAX pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank GGAVAX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

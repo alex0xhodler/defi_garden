@@ -1,15 +1,15 @@
 # AVB DeFi Yields
 
-The highest honest AVB yield right now is 1.01% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVB yield right now is 0.94% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=80dff3b9-92af-4212-8430-449d16519fe5&src=seo_token) | Solana | 1.01% | $133.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=80dff3b9-92af-4212-8430-449d16519fe5&src=seo_token) | Solana | 0.94% | $133.1K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank AVB pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AVB yield today?
 
-1.01% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.94% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AVB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.2K in total.
+1 live pool clear this page's $100K TVL floor, $133.1K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which AVB pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank AVB pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

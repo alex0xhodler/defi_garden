@@ -1,10 +1,10 @@
 # Move DeFi Yields
 
-The highest honest Move yield right now is 11.26% on yuzu-finance (Move), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Move yield right now is 12.13% on yuzu-finance (Move), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDCX-USDT.E | [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_chain) | 11.26% | $1.04M |
+| USDCX-USDT.E | [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_chain) | 12.13% | $1.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Move yield today?
 
-11.26% APY on yuzu-finance (Move), based on live DefiLlama data.
+12.13% APY on yuzu-finance (Move), based on live DefiLlama data.
 
 ### How many Move pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.7M in total.
+4 live pools clear this page's $100K TVL floor, $3.69M in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
+- [Base](https://www.defi.garden/chains/base)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 

@@ -4,33 +4,33 @@ The highest honest MHYPER yield right now is 8.34% on pendle (Ethereum), among 4
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token) | Ethereum | 2.94% | $1.33M |
+| [pendle →](https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token) | Ethereum | 6.81% | $1.33M |
 | [pendle →](https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token) | Ethereum | 8.34% | $1.33M |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, MHYPER's lower-variability candidates are pendle (Ethereum), 8.34% APY, $1.33M TVL, https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token; pendle (Ethereum), 6.81% APY, $1.33M TVL, https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token) | Ethereum | 8.34% | $1.33M |
-| 2 | [pendle →](https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token) | Ethereum | 2.94% | $1.33M |
+| 2 | [pendle →](https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token) | Ethereum | 6.81% | $1.33M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MHYPER shows up in 2 pools here, with rates from 2.94% to 8.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MHYPER shows up in 2 pools here, with rates from 6.81% to 8.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.72% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 8.65% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 2.94% | 8.97% | Base rate |
-| pendle | 8.34% | 8.47% | Base rate |
+| pendle | 6.81% | 8.84% | Base rate |
+| pendle | 8.34% | 8.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which MHYPER pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, MHYPER's lower-variability candidates are pendle (Ethereum), 8.34% APY, $1.33M TVL, https://www.defi.garden/?pool=7409011e-a225-44ac-a0c8-13e4a98cbb24&src=seo_token; pendle (Ethereum), 6.81% APY, $1.33M TVL, https://www.defi.garden/?pool=4e0c07de-2da5-41ab-be4b-3c7c73a9e9f7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

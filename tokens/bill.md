@@ -1,29 +1,29 @@
 # BILL DeFi Yields
 
-The highest honest BILL yield right now is 0.25% on fluxion-network (Mantle), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BILL yield right now is 11.28% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.25% | $417.8K |
-| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 8.47% | $116.3K |
+| [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.92% | $413.8K |
+| [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 11.28% | $113.7K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, BILL's lower-variability candidates are orca-dex (Solana), 11.28% APY, $113.7K TVL, https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token; fluxion-network (Mantle), 0.92% APY, $413.8K TVL, https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 8.47% | $116.3K |
-| 2 | [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.25% | $417.8K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token) | Solana | 11.28% | $113.7K |
+| 2 | [fluxion-network →](https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token) | Mantle | 0.92% | $413.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BILL shows up in 2 pools here, with rates from 0.25% to 8.47% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BILL shows up in 2 pools here, with rates from 0.92% to 11.28% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.78% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 10.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| fluxion-network | 0.25% | 0.40% | Base rate |
-| orca-dex | 8.47% | 21.16% | Base rate |
+| fluxion-network | 0.92% | 0.40% | Base rate |
+| orca-dex | 11.28% | 20.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,28 +40,28 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BILL yield today?
 
-0.25% APY on fluxion-network (Mantle), based on live DefiLlama data.
+11.28% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many BILL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $534.1K in total.
+2 live pools clear this page's $100K TVL floor, $527.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which BILL pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, BILL's lower-variability candidates are orca-dex (Solana), 11.28% APY, $113.7K TVL, https://www.defi.garden/?pool=fa4c2169-a338-4b66-95d4-1dc9dc6f59fb&src=seo_token; fluxion-network (Mantle), 0.92% APY, $413.8K TVL, https://www.defi.garden/?pool=85407ecd-f711-4fa6-9328-3078aebfaa95&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

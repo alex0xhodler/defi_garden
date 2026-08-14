@@ -1,15 +1,15 @@
 # BRLA DeFi Yields
 
-The highest honest BRLA yield right now is 35.76% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRLA yield right now is 31.53% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9788bb03-a6fc-4d68-8e50-125caf1b2cec&src=seo_token) | Polygon | 35.76% | $108.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9788bb03-a6fc-4d68-8e50-125caf1b2cec&src=seo_token) | Polygon | 31.53% | $103K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BRLA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRLA yield today?
 
-35.76% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+31.53% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many BRLA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.5K in total.
+1 live pool clear this page's $100K TVL floor, $103K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which BRLA pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BRLA pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

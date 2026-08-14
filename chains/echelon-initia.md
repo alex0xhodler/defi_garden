@@ -1,13 +1,13 @@
 # Echelon Initia DeFi Yields
 
-The highest honest Echelon Initia yield right now is 11.60% on echelon-market (Echelon Initia), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Echelon Initia yield right now is 11.53% on echelon-market (Echelon Initia), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | IUSD | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_chain) | 2.90% | $891.1K |
-| USDC | [echelon-market →](https://www.defi.garden/?pool=d08cafa1-0af2-4673-8b21-ac5533e9bb20&src=seo_chain) | 2.37% | $259.3K |
-| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_chain) | 2.67% | $200.7K |
-| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3&src=seo_chain) | 11.60% | $118.2K |
+| USDC | [echelon-market →](https://www.defi.garden/?pool=d08cafa1-0af2-4673-8b21-ac5533e9bb20&src=seo_chain) | 2.38% | $259.3K |
+| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_chain) | 2.67% | $202.9K |
+| INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3&src=seo_chain) | 11.53% | $122.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Echelon Initia yield today?
 
-11.60% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
+11.53% APY on echelon-market (Echelon Initia), based on live DefiLlama data.
 
 ### How many Echelon Initia pools clear the TVL floor?
 
@@ -29,8 +29,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
+- [Base](https://www.defi.garden/chains/base)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 

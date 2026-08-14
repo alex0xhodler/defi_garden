@@ -4,28 +4,28 @@ The highest honest RPL yield right now is 1.14% on aave-v3 (Ethereum), among 3 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token) | Ethereum | 0.50% | $317K |
-| [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token) | Ethereum | 1.14% | $292.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token) | Ethereum | 7.85% | $170.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token) | Ethereum | 4.87% | $323.7K |
+| [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token) | Ethereum | 1.14% | $299.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token) | Ethereum | 6.89% | $173.5K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, RPL's lower-variability candidates are aave-v3 (Ethereum), 1.14% APY, $299.4K TVL, https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token; uniswap-v3 (Ethereum), 4.87% APY, $323.7K TVL, https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token; uniswap-v4 (Ethereum), 6.89% APY, $173.5K TVL, https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token) | Ethereum | 1.14% | $292.8K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token) | Ethereum | 0.50% | $317K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token) | Ethereum | 7.85% | $170.2K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token) | Ethereum | 1.14% | $299.4K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token) | Ethereum | 4.87% | $323.7K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token) | Ethereum | 6.89% | $173.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RPL shows up in 3 pools here, with rates from 0.50% to 7.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RPL shows up in 3 pools here, with rates from 1.14% to 6.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.37% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.50% | 1.37% | Base rate |
+| uniswap-v3 | 4.87% | 1.36% | Base rate |
 | aave-v3 | 1.14% | 1.06% | Base rate |
-| uniswap-v4 | 7.85% | 34.79% | Base rate |
+| uniswap-v4 | 6.89% | 33.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,15 +47,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RPL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $780.1K in total.
+3 live pools clear this page's $100K TVL floor, $796.7K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which RPL pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, RPL's lower-variability candidates are aave-v3 (Ethereum), 1.14% APY, $299.4K TVL, https://www.defi.garden/?pool=4a2ded3a-3667-40a8-a9b2-503b6d357b49&src=seo_token; uniswap-v3 (Ethereum), 4.87% APY, $323.7K TVL, https://www.defi.garden/?pool=624dacc8-25ac-44b2-b68c-4f8d7eab1e1e&src=seo_token; uniswap-v4 (Ethereum), 6.89% APY, $173.5K TVL, https://www.defi.garden/?pool=ee62baf9-7268-4799-8e07-0e1b2a31b2f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

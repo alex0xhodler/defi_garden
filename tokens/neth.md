@@ -4,12 +4,12 @@ The highest honest NETH yield right now is 2.12% on nodedao (Ethereum), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nodedao →](https://www.defi.garden/?pool=22e390ef-5f59-4194-b1d5-e1daf818b7f8&src=seo_token) | Ethereum | 2.12% | $8.89M |
+| [nodedao →](https://www.defi.garden/?pool=22e390ef-5f59-4194-b1d5-e1daf818b7f8&src=seo_token) | Ethereum | 2.12% | $8.9M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank NETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,15 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.89M in total.
+1 live pool clear this page's $100K TVL floor, $8.9M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which NETH pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank NETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

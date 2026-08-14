@@ -1,29 +1,29 @@
 # HARAMBE DeFi Yields
 
-The highest honest HARAMBE yield right now is 3.10% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HARAMBE yield right now is 0.30% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token) | Solana | 3.10% | $181.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token) | Solana | 2.01% | $178K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=601b6bd7-331a-434d-9d26-b52c1bdf6f1e&src=seo_token) | Ethereum | 0.30% | $121.5K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, HARAMBE's lower-variability candidates are uniswap-v3 (Ethereum), 0.30% APY, $121.5K TVL, https://www.defi.garden/?pool=601b6bd7-331a-434d-9d26-b52c1bdf6f1e&src=seo_token; raydium-amm (Solana), 2.01% APY, $178K TVL, https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=601b6bd7-331a-434d-9d26-b52c1bdf6f1e&src=seo_token) | Ethereum | 0.30% | $121.5K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token) | Solana | 3.10% | $181.6K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token) | Solana | 2.01% | $178K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HARAMBE shows up in 2 pools here, with rates from 0.30% to 3.10% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+HARAMBE shows up in 2 pools here, with rates from 0.30% to 2.01% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.10% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,7 +31,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 3.10% | 6.12% | Base rate |
+| raydium-amm | 2.01% | 6.14% | Base rate |
 | uniswap-v3 | 0.30% | 0.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -40,19 +40,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HARAMBE yield today?
 
-3.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.30% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many HARAMBE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $303.1K in total.
+2 live pools clear this page's $100K TVL floor, $299.4K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which HARAMBE pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, HARAMBE's lower-variability candidates are uniswap-v3 (Ethereum), 0.30% APY, $121.5K TVL, https://www.defi.garden/?pool=601b6bd7-331a-434d-9d26-b52c1bdf6f1e&src=seo_token; raydium-amm (Solana), 2.01% APY, $178K TVL, https://www.defi.garden/?pool=28ba71e9-cc90-4625-8fcd-febb76abf2d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
