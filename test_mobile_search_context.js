@@ -174,6 +174,18 @@ async function main() {
     passed++;
     console.log('✓ 360px pool-detail header visibly preserves the pool symbol');
 
+    const phoneBoundary = await openPage(
+      browser,
+      origin,
+      `/?token=${NO_RESULTS_QUERY}`,
+      '.empty-state',
+      { width: 480, height: 780 }
+    );
+    assertMobileSearch(await searchFacts(phoneBoundary), NO_RESULTS_QUERY);
+    await phoneBoundary.close();
+    passed++;
+    console.log('✓ 480px breakpoint keeps the active query and compact identity');
+
     const tablet = await openPage(
       browser,
       origin,
@@ -191,7 +203,7 @@ async function main() {
     await browser.close();
     await new Promise((resolve) => server.close(resolve));
   }
-  console.log(`${passed}/3 mobile search-context assertions passed`);
+  console.log(`${passed}/4 mobile search-context assertions passed`);
 }
 
 main().catch((err) => {

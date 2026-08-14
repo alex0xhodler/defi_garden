@@ -3261,13 +3261,8 @@ function App() {
   }, React.createElement('span', {
     className: 'app-results-count'
   }, `${filteredPools.length.toLocaleString('en-US')} results`)))),
-  // Spec 236 phase 1: the standalone floating `.theme-toggle`/
-  // `.language-toggle` pair (and the giant centered `h1.logo` + subtitle
-  // hero it sat beside) are GONE — the band above now carries identity
-  // and controls on every view of this component, so this state no
-  // longer needs its own second copy. (`.app.has-results >` already hid
-  // this pair on the results state; that CSS guard is now dead but left
-  // in place — see 236-notes.md.)
+  // The shared header above owns identity and controls on every analytics
+  // view; do not render a second homepage-only pair or hero here.
 
   React.createElement('div', {
     className: 'container'

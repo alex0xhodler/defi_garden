@@ -1676,32 +1676,9 @@ body {
    `.theme-toggle` / `.language-toggle` below — now owns color/border/hover/
    active for both header and standalone instances alike. */
 
-/* Backlog 222: `.theme-toggle`/`.language-toggle` (style.css:3913/3993 below)
-   are FLOATING-PAIR rules — `position: fixed`, viewport-pinned `top`/`right`,
-   `z-index: 1000` — written for the standalone pair that render as direct
-   children of `.app` on the analytics HOMEPAGE (`.app:not(.has-results)`,
-   which has no header). `app.js:3057/3062` gives the header's own theme/
-   language buttons those SAME class names (`app-control-btn theme-toggle`
-   / `app-control-btn language-toggle`) so they'd inherit the design-
-   system look — but with no scoping, the floating rules ALSO yank the
-   header's in-flow buttons out of flow and pin them to the same fixed
-   coordinates as the standalone pair. Measured on `?token=USDC` at rest:
-   at 360/480px the header's own pair lands past the viewport edge
-   (`elementFromPoint` -> null, clipped not scrollable-to — see the header-
-   shrink fix below); at >=641px the two pairs coincide at the identical
-   rect, so the header's button paints under the standalone one and eats
-   its clicks.
-
-   Reset the header's own buttons back to normal flow. This selector's two
-   classes give it specificity (0,2,0), which beats every one-class
-   `.theme-toggle`/`.language-toggle` declaration below at (0,1,0) —
-   including inside their `@media` tiers, since a media query adds no
-   specificity of its own — so this wins regardless of source order.
-   Chosen over rescoping each floating rule with `:not(.app-control-btn)`
-   (the fix's spec-documented alternative): that would touch every one of
-   the ~6 `.theme-toggle`/`.language-toggle` declarations spread across 3
-   media-query tiers, where this is one block, next to the
-   `.app-control-btn` rules it protects. */
+/* The shared analytics header always owns these controls. Toggle classes
+   retain fixed-position variants for other surfaces, so reset header
+   descendants to normal flow regardless of viewport or source order. */
 .app-header-controls .theme-toggle,
 .app-header-controls .language-toggle {
   position: static;
@@ -4788,31 +4765,6 @@ html {
   }
 }
 
-/* Backlog 222: the STANDALONE `.theme-toggle`/`.language-toggle` pair below
-   (`app.js:3143/3153`) render unconditionally as direct children of `.app`
-   — on the analytics homepage (`.app:not(.has-results)`) that's correct,
-   it's their only home there (no header renders on the homepage). On a
-   RESULTS page (`.app.has-results`, the `?token=`/`?chain=` surface every
-   SEO lander resolves to) the header above ALSO renders its own theme/
-   language buttons (`app.js:3057/3062`, fixed in place by the reset near
-   `.app-control-btn` above) — so this standalone pair becomes a live
-   SECOND copy: buried under the fixed `.app-header-sticky` at <=640px
-   (mobile's `.app:not(.has-results) .theme-toggle` fixed-position override,
-   style.css:4419 below, never matches on a results page by construction,
-   since `has-results` and `:not(.has-results)` are mutually exclusive) and
-   painted-over duplicate chrome at >=641px. Hide it, scoped to
-   `.has-results` only, so `.app:not(.has-results)` — the homepage, which
-   has no header to fall back on — is untouched (spec 222 criterion 8's
-   guard). The `>` child combinator matters: the header's buttons are
-   GRANDchildren of `.app` (via `.app-header-sticky` >
-   `.app-header-content` > `.app-header-controls`), so a descendant
-   selector here would also hide them; `>` restricts this to the two
-   direct-child standalone buttons only, never the header pair this fix
-   keeps working. */
-.app.has-results > .theme-toggle,
-.app.has-results > .language-toggle {
-  display: none;
-}
 
 /* Dark Mode Toggle Styles */
 .theme-toggle {
@@ -4917,20 +4869,6 @@ html {
     margin: var(--space-16) var(--space-16) var(--space-8) 0;
   }
 
-  /* Fix toggle position on mobile initial homepage state only.
-     Backlog 273: `>` — see the child-combinator note on
-     `.app.has-results > .theme-toggle` above. This rule's (0,3,0) beats the
-     `.app-header-controls` reset at (0,2,0), so as a DESCENDANT selector it
-     also yanked the HEADER's own controls out of flow on every non-
-     `has-results` route that still renders a header — `.app.pool-detail-view`
-     — dropping them on top of the sticky search input. */
-  .app:not(.has-results) > .language-toggle {
-    position: fixed;
-    top: var(--space-20);
-    /* 225 round 3b: same 8px-left-of-toggle offset as desktop */
-    right: calc(var(--space-20) + var(--ui-control-h) + var(--space-8));
-    margin: 0;
-  }
 }
 
 /* Extra small screens - compact mobile toggle */
@@ -4940,15 +4878,6 @@ html {
     font-size: var(--font-size-xs);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only
-     (backlog 273: `>` scopes this to the standalone pair — see above) */
-  .app:not(.has-results) > .language-toggle {
-    position: fixed;
-    top: var(--space-16);
-    /* 225 round 3b: toggle sits at right: 16px at this width */
-    right: calc(var(--space-16) + var(--ui-control-h) + var(--space-8));
-    margin: 0;
-  }
 }
 
 /* Data attribute based theme switching */
@@ -5219,16 +5148,6 @@ html {
     z-index: auto;
   }
 
-  /* Fix toggle position on mobile initial homepage state only
-     (backlog 273: `>` scopes this to the standalone pair — see the
-     `.app:not(.has-results) > .language-toggle` note above) */
-  .app:not(.has-results) > .theme-toggle {
-    position: fixed;
-    top: var(--space-20);
-    right: var(--space-20);
-    z-index: 1000;
-    margin: 0;
-  }
 
   .theme-toggle-icon {
     width: 18px;
@@ -5247,16 +5166,6 @@ html {
     gap: var(--space-4);
   }
 
-  /* Fix toggle position on extra small mobile initial homepage state only
-     (backlog 273: `>` scopes this to the standalone pair — see above) */
-  .app:not(.has-results) > .theme-toggle {
-    position: fixed;
-    top: var(--space-16);
-    right: var(--space-16);
-    z-index: 1000;
-    margin: 0;
-    padding: var(--space-4);
-  }
 
   .theme-toggle-icon {
     width: 16px;

@@ -136,13 +136,11 @@ OUT of scope here and is not addressed by this diff.
   `'Find the best yields...'` were hardcoded English with no `t()` call to
   begin with (pre-existing, not something 236 needed to fix), so removing
   them removes a latent i18n gap rather than creating one.
-- Left the `.app.has-results > .theme-toggle, .app.has-results >
-  .language-toggle { display: none }` CSS guard (style.css, "Backlog 222")
-  in place even though it is now fully dead (no standalone `.theme-toggle`/
-  `.language-toggle` renders as a direct child of `.app` anywhere in the
-  app anymore) — deleting it is safe but not required for this item's
-  acceptance criteria, and I preferred not to touch code outside this
-  change's direct causal chain.
+- The initial build left the dead direct-child toggle guards in place. The
+  preview follow-up removed them and their four mobile positioning variants:
+  every analytics view now renders controls only inside the shared header, so
+  selectors for `.app > .theme-toggle` / `.language-toggle` had no runtime
+  target and described an architecture that no longer exists.
 - Did not touch `.error-state`'s CSS (no max-width) even though the
   no-results shell widened — inspected it: it's a flex child of
   `.container` under `align-items: center` (not `stretch`), so it never
@@ -349,23 +347,14 @@ already contained it.
 **Honest consequence, stated plainly**: as of 236, item 222's original
 duplicate-controls defect class is **structurally unreachable** on the
 shipped product — the elements that made it possible are gone from the
-render path, not merely hidden by CSS. The surviving CSS guard
-(`.app.has-results > .theme-toggle, .app.has-results > .language-toggle {
-display: none; }`, "Backlog 222" in `style.css`) is therefore **defence-in-
-depth against a future regression, not live protection against anything
-the product currently renders** — kept in place (see "Conservative
-choices" above; this note supersedes that entry's characterization, which
-undersold the point) on the judgment that a cheap, harmless guard against
-a future accidental reintroduction is worth more than the small clarity
-gain from deleting it. Correspondingly, criterion (9)'s RED proof no longer
-tests "does the CSS guard correctly hide a real duplicate the product
-renders" (that question is now moot — the product never renders one) but
-"if a duplicate pair were ever reintroduced by a future change, would the
-guard still catch it and would `assertControlsReachable` still detect the
-resulting defect" — a synthetic-reintroduction test, not a real one. That
-is the correct test for what the code now is, but it is a narrower claim
-than the original proof made, and the next person touching this file
-should know that distinction going in.
+render path, not merely hidden by CSS. The preview follow-up therefore
+removed the dead direct-child CSS guards instead of retaining a second
+architecture as defence-in-depth.
+
+Criterion (9)'s RED proof now injects the retired duplicate shape only after
+its green precondition, then restores the former fixed geometry. It tests
+whether `assertControlsReachable` detects duplicate/covered controls; it no
+longer claims that production CSS hides a duplicate the product can render.
 
 ## What phase 1 does NOT close
 - Phase 2's nav links ("Search yields / How it works / My garden") are not

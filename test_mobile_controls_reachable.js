@@ -1,103 +1,16 @@
-/* Rendered Playwright test for backlog 222 — on analytics results pages
-   (`?token=`/`?chain=`, the surface every SEO lander resolves to) FOUR
-   theme/language controls render in the DOM and, before this fix, NONE of
-   them were pressable at 360/480px (off-screen, clipped, `elementFromPoint`
-   -> null) and they merely duplicated/painted-over each other at >=641px.
+/* Rendered Playwright regression test for the shared analytics header.
 
-   Root cause (spec 222's Evidence, file:line):
-     (A) `.theme-toggle`/`.language-toggle` (style.css, the floating-pair
-         rules written for the STANDALONE pair on the analytics homepage)
-         carried no scoping, so they ALSO yanked the header's own
-         `.app-control-btn.theme-toggle`/`.app-control-btn.
-         language-toggle` (app.js:3057/3062) out of flow and pinned them to
-         the same fixed coordinates as the standalone pair.
-     (B) `.app-header-content` had no `<=640px` override and its
-         `.app-search-container`/`.app-search-input` children had no
-         `min-width: 0`, so the header row could not shrink below a bare
-         input's intrinsic width — pushing `.app-header-controls` off the
-         360/480px viewport edge, clipped (not scrollable-to).
-     (C) The standalone pair (app.js:3143/3153) render unconditionally as
-         direct children of `.app`, so on a RESULTS page they are a live
-         SECOND copy of the header's controls: buried under the fixed
-         header at <=640px, painted duplicate chrome at >=641px.
+   Across token, chain, pool-detail, and analytics-homepage routes, it checks
+   one visible theme/language pair, pressable hit targets, no horizontal
+   overflow, functional clicks, EN/KO and light/dark parity, and results
+   content clearing the sticky header at the supported viewport boundaries.
 
-   The fix (style.css, three changes, styling only):
-     1. `.app-header-controls .theme-toggle, .app-header-controls
-        .language-toggle { position: static; top: auto; right: auto;
-        margin: 0; z-index: auto; }` — stops the floating rules from
-        matching the header's own buttons, at every viewport.
-     2. `.app.has-results > .theme-toggle, .app.has-results >
-        .language-toggle { display: none; }` — hides the standalone
-        duplicates on results pages only; the `.app:not(.has-results)`
-        analytics homepage keeps its only pair (criterion 8's guard).
-     3. `min-width: 0` on `.app-search-container`/`.app-search-input`
-        plus a tighter `gap`/`padding` on `.app-header-content`, inside
-        the existing `@media (max-width: 640px)` tier, so the header row can
-        shrink instead of pushing its controls off-screen.
+   Isolated mutation proofs restore the former fixed/oversized geometry and
+   inject a duplicate legacy pair only after a green precondition. Each proof
+   must make the behavioral assertion fail, preventing vacuous coverage.
 
-   This test proves, against a REAL render (not source reading — a stale
-   MINIFIED sheet is the trap item 136 fell into; `home.html:134` loads
-   `style.min.css`, so this test's fixture-routed server serves the exact
-   file production serves):
-   (1) `?token=USDC` at 360/480/640/768/1280 x 780: exactly ONE
-       `.theme-toggle` and exactly ONE `.language-toggle` are visible
-       (non-zero rect, `display !== 'none'`);
-   (2) same widths: each visible toggle's `elementFromPoint` at its centre
-       AND at 75% of its height resolves to that button or a descendant of
-       it — a hit test, not rect algebra, because the failure mode that
-       matters is "the user taps and nothing happens";
-   (3) same widths: `documentElement.scrollWidth <= innerWidth` — no
-       horizontal overflow introduced or left behind;
-   (4) it actually works: at 360px, a real `click()` on the theme toggle
-       flips `data-theme`; a real click on the language toggle flips the
-       `?lang` URL state — both will fail with a Playwright interception
-       error if anything covers the button;
-   (5) KO parity (CLAUDE.md hard rule): (1)-(3) re-run at 360px with
-       `?lang=ko`;
-   (6) dark mode: (1)-(3) re-run at 360px with `localStorage.theme = 'dark'`
-       set via `addInitScript` on a fresh page, `data-theme="dark"` asserted
-       before measuring;
-   (7) `?chain=` parity: (1)-(3) re-run at 360px on `?chain=Ethereum` — the
-       other sacred parameterized surface, same `has-results` code path;
-   (8) the analytics homepage (`?app=1`, `.app:not(.has-results)`, no
-       header rendered) is NOT regressed: at 360px the standalone pair is
-       still visible AND still hit-tests to itself — the guard on fix (2)'s
-       `.has-results`-only scoping;
-   (9) RED PROOF (non-vacuity), on its own isolated page at 768x780 (the
-       width spec 222's own evidence measured the header's and standalone's
-       `.language-toggle` occupying the IDENTICAL rect): the shipped fix is
-       mutated away in-page (all three rules restored to their pre-fix
-       computed effect via `!important`, which wins regardless of
-       specificity/source order) and criteria (1)+(2) MUST go red, with the
-       failure naming the covering element — a check that cannot fail is
-       not evidence of health. ATTEMPT 2 adds a second isolated-page red
-       proof, at 360x780, that mutates away ONLY the `<=640px min-width: 0`
-       block (leaving fixes 1/2 intact) and asserts the item's actual P0
-       signature — the header control's `elementFromPoint` at its centre
-       resolving to `null` because its centre sits outside the viewport,
-       while `documentElement.scrollWidth` stays equal to `innerWidth` (a
-       clip, not overflow the user could scroll to reach) — since the
-       original 768px-only red proof only ever demonstrates the >=641px
-       duplicate-paint failure, never the 360/480px unreachable-control
-       failure this item was promoted to fix;
-   (10) no unexpected page/console errors on any measured page.
-   (11) ATTEMPT 2 — the regression attempt 1 introduced and this attempt
-       fixes: at 360/480/640/768 x 780, EN and KO, `?token=USDC` (plus
-       `?chain=Ethereum` at 360px), at rest: `.results-title` and
-       `.results-header` each (i) have a bounding rect that does NOT
-       intersect `.app-header-sticky`'s rect, and (ii) hit-test via
-       `elementFromPoint` at their centre to themselves or a descendant —
-       never the header or a header child. Plus a RED PROOF, own isolated
-       page: mutate `.app.has-results`'s `padding-top` back to the
-       pre-attempt-2 `var(--space-20)` (20px) and assert criterion 11 goes
-       red naming the header.
-
-   Fixture-routed (unpkg React/ReactDOM/Babel vendored from node_modules,
-   `icons.llamao.fi` aborted, `data/pools-snapshot*` 404'd to force the live
-   path, `https://yields.llama.fi/pools` fulfilled with a 12-pool fixture) —
-   the house pattern copied verbatim from test_cta_at_rest_occlusion.js.
-   Browser-originated external HTTPS is blocked in this sandbox
-   (NORTH_STAR.md 2026-07-12).
+   Fixtures serve the same compiled/minified assets production loads while
+   replacing external React, icon, and pool-data requests deterministically.
 
    Run: node test_mobile_controls_reachable.js */
 
@@ -185,13 +98,9 @@ function attachErrorCollector(page) {
   return errors;
 }
 
-// Diagnostic read for one selector ('.theme-toggle' or '.language-toggle'):
-// every matching DOM node's visibility + a hit test (centre AND 75%-height
-// "lower band") against the first VISIBLE node found in document order (the
-// header instance renders first in app.js's JSX tree; on the analytics
-// homepage the standalone instance is the only match). Falls back to the
-// first node of any kind if none read as visible, so the red-proof case
-// still names a real element instead of just reporting "0 visible".
+// Read every matching control's visibility and hit-test geometry. Production
+// renders the shared header instance; mutation proofs may inject a legacy
+// duplicate so failure diagnostics still name the covering element.
 async function measureControlsDiagnostic(page, selector) {
   return page.evaluate((sel) => {
     const els = Array.from(document.querySelectorAll(sel));
@@ -485,13 +394,12 @@ async function main() {
     });
     await chainPage.close();
 
-    // --- (8): the analytics HOMEPAGE (?app=1, .app:not(.has-results), no
-    // header) must NOT be regressed -- the guard on fix (2)'s .has-results
-    // scoping. Only the standalone pair exists in the DOM here. ---
+    // --- (8): the analytics homepage uses the same shared header and must
+    // keep its one in-flow control pair reachable at phone width. ---
     const homePage = await browser.newPage({ viewport: { width: 360, height: 780 } });
     const homeErrors = attachErrorCollector(homePage);
     await routeFixtures(homePage);
-    await test('(8) 360px ?app=1 (analytics homepage): standalone theme-toggle and language-toggle still visible and self-hit-testing', async () => {
+    await test('(8) 360px ?app=1 (analytics homepage): shared-header controls visible and self-hit-testing', async () => {
       await homePage.goto(homepageUrl, { waitUntil: 'load', timeout: 20000 });
       await homePage.waitForSelector('#root .search-input', { timeout: 15000 });
       await waitForCss(homePage);
@@ -511,7 +419,7 @@ async function main() {
     const homeWidePage = await browser.newPage({ viewport: { width: 1280, height: 780 } });
     const homeWideErrors = attachErrorCollector(homeWidePage);
     await routeFixtures(homeWidePage);
-    await test('(8b) 1280px ?app=1 (analytics homepage): standalone controls fully on-canvas, content fits their boxes, self-hit-testing', async () => {
+    await test('(8b) 1280px ?app=1 (analytics homepage): shared-header controls on-canvas and self-hit-testing', async () => {
       await homeWidePage.goto(homepageUrl, { waitUntil: 'load', timeout: 20000 });
       await homeWidePage.waitForSelector('#root .search-input', { timeout: 15000 });
       await waitForCss(homeWidePage);
@@ -522,11 +430,9 @@ async function main() {
     });
     await homeWidePage.close();
 
-    // --- (9) RED PROOF, own isolated page, 768x780 -- the exact width
-    // spec 222's evidence measured the header's and standalone's
-    // .language-toggle occupying the IDENTICAL rect, so undoing the fix
-    // here reproduces a deterministic, exact overlap rather than a
-    // width-dependent partial one. ---
+    // --- (9) RED PROOF, own isolated page, 768x780. Inject the retired
+    // duplicate shape and restore fixed positioning so the reachability
+    // assertion deterministically detects overlapping controls. ---
     const redPage = await browser.newPage({ viewport: { width: 768, height: 780 } });
     await routeFixtures(redPage);
     await test('(9) RED PROOF: with the shipped fix mutated away in-page, criteria (1)+(2) go red naming the covering element', async () => {
@@ -538,20 +444,9 @@ async function main() {
       // mutation, not by test flakiness or a wrong selector.
       await assertControlsReachable(redPage, '768x780 red-proof PRE-mutation (must be green)');
 
-      // Spec 236 (2026-08): the standalone `.theme-toggle`/`.language-toggle`
-      // pair this proof used to merely UN-HIDE (fix (2) was a `display: none`
-      // CSS guard, `.app.has-results > .theme-toggle`) no longer exists in
-      // the DOM at all -- 236 deleted the elements at the SOURCE (app.js no
-      // longer renders them anywhere; the no-results/search state now
-      // renders the same in-flow header band every other view does), so the
-      // defect class fix (2) guarded is now structurally unreachable, not
-      // just CSS-suppressed. `display: flex !important` on a selector that
-      // matches zero elements is a silent no-op -- this positive control
-      // went green-forever the moment 236 shipped, until this fix. Inject
-      // two elements matching the EXACT pre-236 markup shape (same classes,
-      // same aria-label/data-theme/inner-icon shape, as direct children of
-      // `.app`) so the mutation below still has something to reveal and
-      // criteria (1)+(2) can still go red the way they always did.
+      // The duplicate elements no longer exist in production. Inject their
+      // retired direct-child shape after the green precondition solely to
+      // prove that duplicate-control and occlusion detection can go red.
       await redPage.evaluate(() => {
         const app = document.querySelector('.app');
         const themeBtn = document.createElement('button');
@@ -567,15 +462,9 @@ async function main() {
         app.appendChild(langBtn);
       });
 
-      // Restore the pre-fix computed state, !important so it wins
-      // regardless of specificity/source order:
-      //   - re-let the header's own buttons pick up the floating-pair
-      //     rules (position: fixed, IDENTICAL top/right to the standalone
-      //     pair's own always-on desktop-tier rule) -- undoes fix (1);
-      //   - re-show the standalone pair (now injected above) on a results
-      //     page -- undoes fix (2);
-      //   - re-widen the search container/input's minimum size so the
-      //     header row can no longer shrink -- undoes fix (3).
+      // Restore the former fixed header geometry and wide search minimum.
+      // The injected duplicate remains visible, so criteria (1)+(2) must
+      // detect either the duplicate population or its covering geometry.
       await redPage.addStyleTag({ content: `
         .app-header-controls .theme-toggle {
           position: fixed !important; top: var(--space-20) !important;
@@ -585,8 +474,6 @@ async function main() {
           position: fixed !important; top: var(--space-20) !important;
           right: calc(var(--space-20) + 200px) !important; z-index: 1000 !important; margin: 0 !important;
         }
-        .app.has-results > .theme-toggle { display: flex !important; }
-        .app.has-results > .language-toggle { display: flex !important; }
         .app-search-container { min-width: 170px !important; }
         .app-search-input { min-width: 170px !important; }
       `});
