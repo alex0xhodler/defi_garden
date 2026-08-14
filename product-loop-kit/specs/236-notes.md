@@ -373,7 +373,7 @@ longer claims that production CSS hides a duplicate the product can render.
 The first PR preview exposed a phone-only geometry defect: at 360px the
 wordmark and fixed-size controls left the search input with a 40px text box,
 so the active query disappeared while the non-shrinking clear button remained.
-The shared header now hides only the redundant wordmark below 480px, keeps the
+The shared header now hides only the redundant wordmark at or below 480px, keeps the
 38px leaf identity tile, removes duplicated field padding, and gives the clear
 action a fixed 32px hit area. The exact query remains in the editable input;
 long pool symbols show their meaningful prefix rather than an empty field.

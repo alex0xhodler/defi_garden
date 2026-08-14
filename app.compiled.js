@@ -3048,7 +3048,7 @@ function App() {
   // Logo (compact, clickable) — landing's identity tile: leaf mark in a
   // rounded-square + wordmark (same SVG as landing.js's LeafMark).
   // 273: 'DeFi Garden' wrapped in .app-brand-wordmark (was a bare text
-  // child) so CSS can hide just the wordmark at <360px — see the
+  // child) so CSS can hide just the wordmark at <=480px — see the
   // .app-brand-wordmark rule in style.css for why. aria-label on the
   // row keeps the button's accessible name when the wordmark is hidden
   // (the icon is aria-hidden, decorative).
