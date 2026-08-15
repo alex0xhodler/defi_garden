@@ -1,10 +1,10 @@
 # TSLA DeFi Yields
 
-The highest honest TSLA yield right now is 53.68% on gmtrade (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TSLA yield right now is 62.56% on gmtrade (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=e61dbb1b-24aa-4380-a001-644d2c68b2ce&src=seo_token) | Solana | 53.68% | $218.1K |
+| [gmtrade →](https://www.defi.garden/?pool=e61dbb1b-24aa-4380-a001-644d2c68b2ce&src=seo_token) | Solana | 62.56% | $218K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TSLA shows up in 1 pools here, with rates from 53.68% to 53.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TSLA shows up in 1 pools here, with rates from 62.56% to 62.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 43.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 43.52% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| gmtrade | 53.68% | 43.51% | Base rate |
+| gmtrade | 62.56% | 43.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TSLA yield today?
 
-53.68% APY on gmtrade (Solana), based on live DefiLlama data.
+62.56% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many TSLA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $485.8K in total.
+2 live pools clear this page's $100K TVL floor, $485.7K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank TSLA pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

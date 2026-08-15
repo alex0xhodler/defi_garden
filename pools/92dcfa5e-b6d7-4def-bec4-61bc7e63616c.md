@@ -1,8 +1,8 @@
 # WEETHS-ETH — fluid-dex on Ethereum
 
-**Total APY:** 0.02% (0.02% Base · + 0.00% Rewards)
+**Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $603.3K
+**TVL:** $604.7K
 
 **Pool Type:** Yield Farming
 
@@ -24,10 +24,10 @@ $1,000 in this pool grows to ~$1,001 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.02% right now vs a 0.27% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.01% right now vs a 0.27% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,001 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on fluid-dex](https://www.fluid.io/?ref=defi.garden)
 
-Last updated August 14, 2026
+Last updated August 15, 2026

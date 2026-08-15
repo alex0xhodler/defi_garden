@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5ece4c16-0c8d-5563-8963-f0de72169e6c&src=seo_token) | Base | 0.27% | $160K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5ece4c16-0c8d-5563-8963-f0de72169e6c&src=seo_token) | Base | 0.27% | $157.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.27%예요.
 
 ### REPPO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $160K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $157.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.27%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

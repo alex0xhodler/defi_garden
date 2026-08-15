@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank URRWA pools. This view covers
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

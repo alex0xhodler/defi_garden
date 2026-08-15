@@ -1,10 +1,10 @@
 # BLACK 디파이 수익률
 
-현재 BLACK의 가장 높은 정직한 수익률은 Avalanche의 blackhole-amm에서 8.26%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BLACK의 가장 높은 정직한 수익률은 Avalanche의 blackhole-amm에서 7.95%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180&src=seo_token) | Avalanche | 8.26% | $146.5K |
+| [blackhole-amm →](https://www.defi.garden/?pool=7f1d52de-191f-462b-981e-fff521ab6180&src=seo_token) | Avalanche | 7.95% | $146.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 BLACK의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-amm에서 APY 8.26%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-amm에서 APY 7.95%예요.
 
 ### BLACK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 blackhole-amm에서 APY 8.26%
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

@@ -1,42 +1,42 @@
 # TGBP DeFi Yields
 
-The highest honest TGBP yield right now is 23.68% on curve-dex (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TGBP yield right now is 0.66% on orca-dex (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 2.55% | $288.8K |
 | [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.66% | $241.1K |
 | [curve-dex →](https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token) | Polygon | 0.50% | $111.6K |
-| [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 23.68% | $106.7K |
+| [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 0.24% | $106.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TGBP's lower-variability candidates are aerodrome-slipstream (Base), 2.55% APY, $288.8K TVL, https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token; orca-dex (Solana), 0.66% APY, $241.1K TVL, https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token; curve-dex (Ethereum), 23.68% APY, $106.7K TVL, https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token; curve-dex (Polygon), 0.50% APY, $111.6K TVL, https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TGBP's lower-variability candidates are aerodrome-slipstream (Base), 2.55% APY, $288.8K TVL, https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token; orca-dex (Solana), 0.66% APY, $241.1K TVL, https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token; curve-dex (Ethereum), 0.24% APY, $106.7K TVL, https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token; curve-dex (Polygon), 0.50% APY, $111.6K TVL, https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token) | Base | 2.55% | $288.8K |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token) | Solana | 0.66% | $241.1K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 23.68% | $106.7K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token) | Ethereum | 0.24% | $106.7K |
 | 4 | [curve-dex →](https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token) | Polygon | 0.50% | $111.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TGBP shows up in 4 pools here, with rates from 0.50% to 23.68% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+TGBP shows up in 4 pools here, with rates from 0.24% to 2.55% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 1.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 2.55% | 0.73% | Base rate |
-| orca-dex | 0.66% | 0.27% | Base rate |
-| curve-dex | 0.50% | 1.49% | Base rate |
-| curve-dex | 23.68% | 33.55% | 98.99% incentives |
+| aerodrome-slipstream | 2.55% | 0.75% | Base rate |
+| orca-dex | 0.66% | 0.26% | Base rate |
+| curve-dex | 0.50% | 1.48% | Base rate |
+| curve-dex | 0.24% | 33.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TGBP yield today?
 
-23.68% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.66% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many TGBP pools clear the TVL floor?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TGBP pools have the most stable APY history?
 
-Based on APY history only, TGBP's lower-variability candidates are aerodrome-slipstream (Base), 2.55% APY, $288.8K TVL, https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token; orca-dex (Solana), 0.66% APY, $241.1K TVL, https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token; curve-dex (Ethereum), 23.68% APY, $106.7K TVL, https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token; curve-dex (Polygon), 0.50% APY, $111.6K TVL, https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TGBP's lower-variability candidates are aerodrome-slipstream (Base), 2.55% APY, $288.8K TVL, https://www.defi.garden/?pool=217fdd9f-8a4b-4609-9d7e-0f94cfd585bb&src=seo_token; orca-dex (Solana), 0.66% APY, $241.1K TVL, https://www.defi.garden/?pool=9994027b-8888-472a-a1a6-6b76f1c362a8&src=seo_token; curve-dex (Ethereum), 0.24% APY, $106.7K TVL, https://www.defi.garden/?pool=5b746c21-7a23-4ae2-8ab2-736f42eaacc6&src=seo_token; curve-dex (Polygon), 0.50% APY, $111.6K TVL, https://www.defi.garden/?pool=0f5f1bba-3cf4-4655-8dd6-a23ef3bce225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, TGBP's lower-variability candidates are aerodrome-sli
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

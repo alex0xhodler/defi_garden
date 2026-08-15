@@ -1,10 +1,10 @@
 # MATIC DeFi Yields
 
-The highest honest MATIC yield right now is 9.01% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MATIC yield right now is 10.44% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token) | Ethereum | 9.01% | $183.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=7e0b43a6-9aa1-4d9e-a9de-ab5269b63a2b&src=seo_token) | Ethereum | 10.44% | $184.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MATIC yield today?
 
-9.01% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+10.44% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MATIC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $183.6K in total.
+1 live pool clear this page's $100K TVL floor, $184.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MATIC pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

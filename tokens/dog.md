@@ -6,18 +6,18 @@ The highest honest DOG yield right now is 0.17% on raydium-amm (Solana), among 5
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token) | Ethereum | 0.01% | $1.2M |
 | [raydium-amm →](https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token) | Solana | 0.17% | $528.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token) | Base | 0.01% | $216.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token) | Base | 0.01% | $216.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.17% APY, $528.8K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.2M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token; uniswap-v3 (Base), 0.01% APY, $216.6K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.17% APY, $528.8K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.2M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token; uniswap-v3 (Base), 0.01% APY, $216.8K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token) | Solana | 0.17% | $528.8K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token) | Ethereum | 0.01% | $1.2M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token) | Base | 0.01% | $216.6K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token) | Base | 0.01% | $216.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DOG pools have the most stable APY history?
 
-Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.17% APY, $528.8K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.2M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token; uniswap-v3 (Base), 0.01% APY, $216.6K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.17% APY, $528.8K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.2M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token; uniswap-v3 (Base), 0.01% APY, $216.8K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, DOG's lower-variability candidates are raydium-amm (S
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

@@ -68,4 +68,4 @@ Based on APY history only, XUSD's lower-variability candidates are overnight-fin
 - [Rootstock](https://www.defi.garden/chains/rootstock)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

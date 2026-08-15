@@ -1,10 +1,10 @@
 # MKUSD 디파이 수익률
 
-현재 MKUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 0.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MKUSD의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 0.02%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=6595a5b8-9900-4225-8237-ba63b0d226c6&src=seo_token) | Ethereum | 0.03% | $116.7K |
+| [curve-dex →](https://www.defi.garden/?pool=6595a5b8-9900-4225-8237-ba63b0d226c6&src=seo_token) | Ethereum | 0.02% | $116.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 MKUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 0.03%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 0.02%예요.
 
 ### MKUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 0.03%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

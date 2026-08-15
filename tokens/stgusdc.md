@@ -4,7 +4,7 @@ The highest honest STGUSDC yield right now is 1.37% on more-markets (Flow), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4&src=seo_token) | Flow | 1.37% | $314.4K |
+| [more-markets →](https://www.defi.garden/?pool=7a8f42b3-2724-46bb-84b6-6e0b6a4670a4&src=seo_token) | Flow | 1.37% | $315.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STGUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $314.4K in total.
+1 live pool clear this page's $100K TVL floor, $315.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STGUSDC pools. This view cove
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

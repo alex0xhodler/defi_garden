@@ -68,4 +68,4 @@ Based on APY history only, WQQQX's lower-variability candidates are fluxion-netw
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

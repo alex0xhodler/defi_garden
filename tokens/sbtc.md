@@ -4,7 +4,7 @@ The highest honest SBTC yield right now is 0.02% on zest-v2 (Stacks), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zest-v2 →](https://www.defi.garden/?pool=f003d6df-fb8f-4a74-8cfb-aee8cc44f433&src=seo_token) | Stacks | 0.02% | $42.64M |
+| [zest-v2 →](https://www.defi.garden/?pool=f003d6df-fb8f-4a74-8cfb-aee8cc44f433&src=seo_token) | Stacks | 0.02% | $42.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $42.64M in total.
+1 live pool clear this page's $100K TVL floor, $42.68M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SBTC pools. This view covers 
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

@@ -32,7 +32,7 @@ DJED shows up in 2 pools here, with rates from 10.80% to 12.79% APY across 1 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | liqwid | 12.79% | 12.90% | Base rate |
-| minswap-dex | 10.80% | 10.51% | 7.31% incentives |
+| minswap-dex | 10.80% | 10.51% | 7.50% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -67,4 +67,4 @@ Based on APY history only, DJED's lower-variability candidates are liqwid (Carda
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

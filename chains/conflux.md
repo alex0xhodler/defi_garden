@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WCFX](https://www.defi.garden/tokens/wcfx)
 - [XCFX](https://www.defi.garden/tokens/xcfx)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

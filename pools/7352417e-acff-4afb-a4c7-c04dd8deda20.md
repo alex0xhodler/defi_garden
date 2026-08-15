@@ -1,6 +1,6 @@
 # USDC-USDBC — alien-base-v3 on Base
 
-**Total APY:** 0.16% (0.16% Base · + 0.00% Rewards)
+**Total APY:** 0.05% (0.05% Base · + 0.00% Rewards)
 
 **TVL:** $136K
 
@@ -20,14 +20,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,008 in 5y at current rates.
+$1,000 in this pool grows to ~$1,003 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.16% right now vs a 0.09% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 0.05% right now vs a 0.09% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,008 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,003 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on alien-base-v3](https://alienbase.xyz/?ref=defi.garden)
 
-Last updated August 14, 2026
+Last updated August 15, 2026

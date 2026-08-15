@@ -65,4 +65,4 @@ Based on APY history only, AGUSDC's lower-variability candidates are gami-labs (
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

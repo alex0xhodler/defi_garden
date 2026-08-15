@@ -4,7 +4,7 @@ The highest honest BEZOGE yield right now is 0.11% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d0b647f3-ecbc-495f-a5a8-e8b3f35bfbcb&src=seo_token) | Ethereum | 0.11% | $106.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d0b647f3-ecbc-495f-a5a8-e8b3f35bfbcb&src=seo_token) | Ethereum | 0.11% | $106.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BEZOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.2K in total.
+1 live pool clear this page's $100K TVL floor, $106.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BEZOGE pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

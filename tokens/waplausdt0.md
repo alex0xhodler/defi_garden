@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WAPLAUSDT0 pools. This view c
 
 - [Plasma](https://www.defi.garden/chains/plasma)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

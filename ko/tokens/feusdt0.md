@@ -1,10 +1,10 @@
 # FEUSDT0 디파이 수익률
 
-현재 FEUSDT0의 가장 높은 정직한 수익률은 Hyperliquid L1의 morpho-blue에서 6.52%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FEUSDT0의 가장 높은 정직한 수익률은 Hyperliquid L1의 morpho-blue에서 5.84%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d716dd56-359d-4dad-b89b-ac8f95df505e&src=seo_token) | Hyperliquid L1 | 6.52% | $8.88M |
+| [morpho-blue →](https://www.defi.garden/?pool=d716dd56-359d-4dad-b89b-ac8f95df505e&src=seo_token) | Hyperliquid L1 | 5.84% | $8.88M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 FEUSDT0의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 6.52%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 5.84%예요.
 
 ### FEUSDT0 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -34,8 +34,8 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 6.
 ## 관련 토큰
 
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 6.
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

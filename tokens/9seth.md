@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank 9SETH pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

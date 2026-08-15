@@ -1,14 +1,14 @@
 # TRUSD 디파이 수익률
 
-현재 TRUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 8.26%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TRUSD의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 8.29%이며, $100K TVL 기준을 넘는 6개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.61% | $10.07M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.28% | $5.15M |
-| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.78% | $4.88M |
-| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 3.77% | $2.75M |
-| [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 8.26% | $2.75M |
+| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.67% | $10.07M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.27% | $5.15M |
+| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.82% | $4.88M |
+| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 3.98% | $2.74M |
+| [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 8.29% | $2.74M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -19,7 +19,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.28%부터 8.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.27%부터 8.29%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.47%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,11 +27,11 @@ TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.28%부터 8.26%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 5.61% | 5.47% | 기본 금리 |
-| curve-dex | 0.28% | 0.47% | 인센티브 0.21% |
-| curve-dex | 3.78% | 194.19% | 인센티브 96.30% |
-| pendle | 3.77% | 4.69% | 인센티브 45.98% |
-| pendle | 8.26% | 9.82% | 기본 금리 |
+| curve-dex | 5.67% | 5.47% | 기본 금리 |
+| curve-dex | 0.27% | 0.46% | 인센티브 0.22% |
+| curve-dex | 3.82% | 191.21% | 인센티브 95.81% |
+| pendle | 3.98% | 4.65% | 인센티브 48.46% |
+| pendle | 8.29% | 9.74% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -39,11 +39,11 @@ TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.28%부터 8.26%�
 
 ### 오늘 TRUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.26%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.29%예요.
 
 ### TRUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $27.94M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $27.97M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -66,4 +66,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 8.26%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

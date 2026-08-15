@@ -4,7 +4,7 @@ The highest honest NATI yield right now is 0.05% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=aa42c0f5-4cec-4739-b0ae-06e97ea059f1&src=seo_token) | Ethereum | 0.05% | $619.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=aa42c0f5-4cec-4739-b0ae-06e97ea059f1&src=seo_token) | Ethereum | 0.05% | $620K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NATI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $619.1K in total.
+1 live pool clear this page's $100K TVL floor, $620K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NATI pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WW3 pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

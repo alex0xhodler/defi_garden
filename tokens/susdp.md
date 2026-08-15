@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $463.8K in total.
+2 live pools clear this page's $100K TVL floor, $463.9K in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank SUSDP pools. This view covers
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

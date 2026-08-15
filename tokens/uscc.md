@@ -70,4 +70,4 @@ Based on APY history only, USCC's lower-variability candidates are bitwise-uscc 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

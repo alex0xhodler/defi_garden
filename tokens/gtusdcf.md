@@ -1,29 +1,29 @@
 # GTUSDCF DeFi Yields
 
-The highest honest GTUSDCF yield right now is 6.51% on morpho-blue (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDCF yield right now is 6.47% on morpho-blue (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.27% | $30.31M |
-| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 6.51% | $6.64M |
-| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.37% | $119.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.31% | $30.32M |
+| [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 6.47% | $6.82M |
+| [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.37% | $119.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 6.37% APY, $119.1K TVL, https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token; morpho-blue (Base), 6.51% APY, $6.64M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token; morpho-blue (Ethereum), 5.27% APY, $30.31M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 6.37% APY, $119.2K TVL, https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token; morpho-blue (Base), 6.47% APY, $6.82M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token; morpho-blue (Ethereum), 5.31% APY, $30.32M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.37% | $119.1K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 6.51% | $6.64M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.27% | $30.31M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token) | Base | 6.37% | $119.2K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token) | Base | 6.47% | $6.82M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token) | Ethereum | 5.31% | $30.32M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GTUSDCF shows up in 3 pools here, with rates from 5.27% to 6.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTUSDCF shows up in 3 pools here, with rates from 5.31% to 6.47% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 5.80% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.27% | 5.35% | Base rate |
-| morpho-blue | 6.51% | 5.91% | Base rate |
+| morpho-blue | 5.31% | 5.35% | Base rate |
+| morpho-blue | 6.47% | 5.92% | Base rate |
 | morpho-blue | 6.37% | 5.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -41,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GTUSDCF yield today?
 
-6.51% APY on morpho-blue (Base), based on live DefiLlama data.
+6.47% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many GTUSDCF pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $37.07M in total.
+3 live pools clear this page's $100K TVL floor, $37.25M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDCF pools have the most stable APY history?
 
-Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 6.37% APY, $119.1K TVL, https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token; morpho-blue (Base), 6.51% APY, $6.64M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token; morpho-blue (Ethereum), 5.27% APY, $30.31M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blue (Base), 6.37% APY, $119.2K TVL, https://www.defi.garden/?pool=305edf0e-a304-42db-b2f1-7a427841bc80&src=seo_token; morpho-blue (Base), 6.47% APY, $6.82M TVL, https://www.defi.garden/?pool=92a97f48-005e-4819-a838-f442ea92c401&src=seo_token; morpho-blue (Ethereum), 5.31% APY, $30.32M TVL, https://www.defi.garden/?pool=ff113246-f6e0-4e10-b92c-abd3cd1d7dd6&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, GTUSDCF's lower-variability candidates are morpho-blu
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

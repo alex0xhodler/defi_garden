@@ -1,10 +1,10 @@
 # NBASIS 디파이 수익률
 
-현재 NBASIS의 가장 높은 정직한 수익률은 Plume Mainnet의 nest-credit에서 7.44%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NBASIS의 가장 높은 정직한 수익률은 Plume Mainnet의 nest-credit에서 3.72%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a&src=seo_token) | Plume Mainnet | 7.44% | $186.5K |
+| [nest-credit →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a&src=seo_token) | Plume Mainnet | 3.72% | $186.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 NBASIS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 7.44%예요.
+DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 3.72%예요.
 
 ### NBASIS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 7.4
 - [NOPAL](https://www.defi.garden/ko/tokens/nopal)
 - [USCC](https://www.defi.garden/ko/tokens/uscc)
 - [NFALCON](https://www.defi.garden/ko/tokens/nfalcon)
-- [NCLOA](https://www.defi.garden/ko/tokens/ncloa)
 - [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
+- [NCLOA](https://www.defi.garden/ko/tokens/ncloa)
 
 ## 이용 가능한 체인
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

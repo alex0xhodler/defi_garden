@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DAMMSTABLE pools. This view c
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

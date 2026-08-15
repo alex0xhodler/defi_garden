@@ -1,10 +1,10 @@
 # PENDLEUSDC DeFi Yields
 
-The highest honest PENDLEUSDC yield right now is 7.66% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PENDLEUSDC yield right now is 7.15% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d73fcfed-a2ca-5314-a94b-a841982df77f&src=seo_token) | Ethereum | 7.66% | $26.7M |
+| [morpho-blue →](https://www.defi.garden/?pool=d73fcfed-a2ca-5314-a94b-a841982df77f&src=seo_token) | Ethereum | 7.15% | $26.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PENDLEUSDC yield today?
 
-7.66% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+7.15% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many PENDLEUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $26.7M in total.
+1 live pool clear this page's $100K TVL floor, $26.36M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PENDLEUSDC pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

@@ -4,7 +4,7 @@ The highest honest WORLD yield right now is 0.14% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9329e5e6-29ba-4dc5-8a12-1079db0f8c64&src=seo_token) | Ethereum | 0.14% | $154K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9329e5e6-29ba-4dc5-8a12-1079db0f8c64&src=seo_token) | Ethereum | 0.14% | $154.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WORLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $154K in total.
+1 live pool clear this page's $100K TVL floor, $154.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WORLD pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

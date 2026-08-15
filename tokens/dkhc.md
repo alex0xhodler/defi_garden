@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank DKHC pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

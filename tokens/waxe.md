@@ -4,7 +4,7 @@ The highest honest WAXE yield right now is 0.40% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8f75aa1e-81db-4b91-b7ea-df17d36a1efb&src=seo_token) | Ethereum | 0.40% | $115K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8f75aa1e-81db-4b91-b7ea-df17d36a1efb&src=seo_token) | Ethereum | 0.40% | $115.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WAXE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115K in total.
+1 live pool clear this page's $100K TVL floor, $115.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WAXE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

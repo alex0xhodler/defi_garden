@@ -10,8 +10,8 @@
 | [raydium-amm →](https://www.defi.garden/?pool=6539cedc-38bc-5230-bebe-d7cc8fd89eba&src=seo_token) | Solana | 27.57% | $162.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=b25a4f6f-cfb1-58b2-b2ec-3a181b7cc891&src=seo_token) | Solana | 31.38% | $160.2K |
 | [raydium-amm →](https://www.defi.garden/?pool=37215baf-7ff3-562c-9437-babd4c99d351&src=seo_token) | Solana | 38.45% | $150K |
+| [raydium-amm →](https://www.defi.garden/?pool=238d8203-0264-56a4-a33c-1f7f4b9ca848&src=seo_token) | Solana | 8.95% | $118.5K |
 | [raydium-amm →](https://www.defi.garden/?pool=0bebf26c-31c1-5997-bd1c-43a96e231508&src=seo_token) | Solana | 30.69% | $114.2K |
-| [raydium-amm →](https://www.defi.garden/?pool=ce4982e0-8389-5fb6-a431-6613c8029ab5&src=seo_token) | Solana | 9.73% | $100.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -38,8 +38,8 @@ XMR 풀은 여기 8개가 있고, 1개 체인에서 APY가 7.52%부터 38.45%까
 | raydium-amm | 27.57% | 28.01% | 기본 금리 |
 | raydium-amm | 31.38% | 19.41% | 기본 금리 |
 | raydium-amm | 38.45% | 31.31% | 기본 금리 |
+| raydium-amm | 8.95% | 7.38% | 기본 금리 |
 | raydium-amm | 30.69% | 20.39% | 기본 금리 |
-| raydium-amm | 9.73% | 9.73% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -51,7 +51,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 38.45%예�
 
 ### XMR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $1.79M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $1.81M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -74,4 +74,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 38.45%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

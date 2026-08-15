@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank HXXI pools. This view covers 
 ## Related tokens
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HXXI pools. This view covers 
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

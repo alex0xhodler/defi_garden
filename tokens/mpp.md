@@ -1,10 +1,10 @@
 # MPP DeFi Yields
 
-The highest honest MPP yield right now is 0.29% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MPP yield right now is 0.59% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b061e0f-f5b0-4656-b78e-87363611a70b&src=seo_token) | Base | 0.29% | $3.19M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b061e0f-f5b0-4656-b78e-87363611a70b&src=seo_token) | Base | 0.59% | $3.19M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MPP yield today?
 
-0.29% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.59% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MPP pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MPP pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

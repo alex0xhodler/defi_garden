@@ -1,10 +1,10 @@
 # PURINTAUSDC DeFi Yields
 
-The highest honest PURINTAUSDC yield right now is 1.92% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PURINTAUSDC yield right now is 2.04% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=30e92100-6705-4137-b920-568e035b1e54&src=seo_token) | Ethereum | 1.92% | $501.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=30e92100-6705-4137-b920-568e035b1e54&src=seo_token) | Ethereum | 2.04% | $501.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PURINTAUSDC yield today?
 
-1.92% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.04% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many PURINTAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $501.3K in total.
+1 live pool clear this page's $100K TVL floor, $501.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PURINTAUSDC pools. This view 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

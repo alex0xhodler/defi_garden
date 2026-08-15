@@ -34,8 +34,8 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 d2-finance에서 APY 4.8
 ## 관련 토큰
 
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 d2-finance에서 APY 4.8
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

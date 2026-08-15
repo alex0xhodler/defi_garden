@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XCFX pools. This view covers 
 
 - [Conflux](https://www.defi.garden/chains/conflux)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

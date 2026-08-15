@@ -1,10 +1,10 @@
 # BLESS DeFi Yields
 
-The highest honest BLESS yield right now is 197.59% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BLESS yield right now is 200.69% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a8d7ae2-18e2-483d-a5aa-0fc8b8585535&src=seo_token) | BSC | 197.59% | $102.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a8d7ae2-18e2-483d-a5aa-0fc8b8585535&src=seo_token) | BSC | 200.69% | $101.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BLESS yield today?
 
-197.59% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+200.69% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BLESS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.4K in total.
+1 live pool clear this page's $100K TVL floor, $101.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BLESS pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

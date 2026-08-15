@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 0.91%예�
 
 ### XVS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.49M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.5M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 0.91%예�
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

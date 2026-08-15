@@ -2,11 +2,11 @@
 
 **Total APY:** 9.86% (0.00% Base · + 9.86% Rewards)
 
-**TVL:** $363.6K
+**TVL:** $363.7K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 11.03%
+**30d Mean APY:** 10.99%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,601 in 5y at current rates.
+$1,000 in this pool grows to ~$1,600 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
+Steady so far: across the 9 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,601 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,600 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aerodrome-v1](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated August 14, 2026
+Last updated August 15, 2026

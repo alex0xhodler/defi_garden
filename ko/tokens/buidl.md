@@ -89,4 +89,4 @@ APY 이력만 기준으로 비교한 BUIDL의 변동성 낮은 후보는 Aptos�
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

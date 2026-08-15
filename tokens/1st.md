@@ -1,10 +1,10 @@
 # 1ST DeFi Yields
 
-The highest honest 1ST yield right now is 32.52% on t3tris-finance (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 1ST yield right now is 38.47% on t3tris-finance (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [t3tris-finance →](https://www.defi.garden/?pool=50fb4290-200d-5724-8e7c-51343fd0448a&src=seo_token) | Arbitrum | 32.52% | $100K |
+| [t3tris-finance →](https://www.defi.garden/?pool=50fb4290-200d-5724-8e7c-51343fd0448a&src=seo_token) | Arbitrum | 38.47% | $100.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 1ST yield today?
 
-32.52% APY on t3tris-finance (Arbitrum), based on live DefiLlama data.
+38.47% APY on t3tris-finance (Arbitrum), based on live DefiLlama data.
 
 ### How many 1ST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100K in total.
+1 live pool clear this page's $100K TVL floor, $100.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank 1ST pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

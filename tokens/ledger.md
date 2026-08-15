@@ -1,10 +1,10 @@
 # LEDGER DeFi Yields
 
-The highest honest LEDGER yield right now is 1.24% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LEDGER yield right now is 0.13% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c42d83bf-7f52-431f-940a-9b60e91df4b4&src=seo_token) | Ethereum | 1.24% | $242.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c42d83bf-7f52-431f-940a-9b60e91df4b4&src=seo_token) | Ethereum | 0.13% | $242.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LEDGER yield today?
 
-1.24% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.13% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LEDGER pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LEDGER pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

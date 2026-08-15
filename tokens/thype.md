@@ -1,10 +1,10 @@
 # THYPE DeFi Yields
 
-The highest honest THYPE yield right now is 3.79% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THYPE yield right now is 3.80% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=01290ffe-b5ae-4a7e-9ebc-dfbc731b58c2&src=seo_token) | Hyperliquid L1 | 3.79% | $113.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=01290ffe-b5ae-4a7e-9ebc-dfbc731b58c2&src=seo_token) | Hyperliquid L1 | 3.80% | $113.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THYPE yield today?
 
-3.79% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
+3.80% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many THYPE pools clear the TVL floor?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank THYPE pools. This view covers
 ## Related tokens
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WHYPE](https://www.defi.garden/tokens/whype)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank THYPE pools. This view covers
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

@@ -1,39 +1,39 @@
 # STEAKUSDC 디파이 수익률
 
-현재 STEAKUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 5.54%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 STEAKUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 5.19%이며, $100K TVL 기준을 넘는 8개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token) | Base | 4.12% | $587.98M |
-| [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token) | Base | 3.08% | $160.1M |
-| [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token) | Ethereum | 4.19% | $102.15M |
-| [morpho-blue →](https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token) | Ethereum | 3.98% | $74.92M |
-| [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token) | Base | 3.91% | $24.2M |
-| [morpho-blue →](https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token) | Ethereum | 5.54% | $14.35M |
-| [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token) | Katana | 1.46% | $11.81M |
-| [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token) | Katana | 0.58% | $1.5M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token) | Base | 4.12% | $588.27M |
+| [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token) | Base | 3.08% | $159.67M |
+| [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token) | Ethereum | 4.16% | $102.3M |
+| [morpho-blue →](https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token) | Ethereum | 3.96% | $74.94M |
+| [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token) | Base | 3.91% | $24.18M |
+| [morpho-blue →](https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token) | Ethereum | 5.19% | $14.35M |
+| [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token) | Katana | 1.60% | $11.79M |
+| [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token) | Katana | 1.09% | $1.49M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 STEAKUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.19%, TVL $102.15M, https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token; Base의 morpho-blue, APY 3.91%, TVL $24.2M, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token; Ethereum의 morpho-blue, APY 3.98%, TVL $74.92M, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token; Base의 morpho-blue, APY 3.08%, TVL $160.1M, https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token; Base의 morpho-blue, APY 4.12%, TVL $587.98M, https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token; Ethereum의 morpho-blue, APY 5.54%, TVL $14.35M, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token; Katana의 morpho-blue, APY 1.46%, TVL $11.81M, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token; Katana의 morpho-blue, APY 0.58%, TVL $1.5M, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STEAKUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.16%, TVL $102.3M, https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token; Base의 morpho-blue, APY 3.91%, TVL $24.18M, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token; Ethereum의 morpho-blue, APY 3.96%, TVL $74.94M, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token; Base의 morpho-blue, APY 3.08%, TVL $159.67M, https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token; Base의 morpho-blue, APY 4.12%, TVL $588.27M, https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token; Ethereum의 morpho-blue, APY 5.19%, TVL $14.35M, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token; Katana의 morpho-blue, APY 1.60%, TVL $11.79M, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token; Katana의 morpho-blue, APY 1.09%, TVL $1.49M, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token) | Ethereum | 4.19% | $102.15M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token) | Base | 3.91% | $24.2M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token) | Ethereum | 3.98% | $74.92M |
-| 4 | [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token) | Base | 3.08% | $160.1M |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token) | Base | 4.12% | $587.98M |
-| 6 | [morpho-blue →](https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token) | Ethereum | 5.54% | $14.35M |
-| 7 | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token) | Katana | 1.46% | $11.81M |
-| 8 | [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token) | Katana | 0.58% | $1.5M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token) | Ethereum | 4.16% | $102.3M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token) | Base | 3.91% | $24.18M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token) | Ethereum | 3.96% | $74.94M |
+| 4 | [morpho-blue →](https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token) | Base | 3.08% | $159.67M |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token) | Base | 4.12% | $588.27M |
+| 6 | [morpho-blue →](https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token) | Ethereum | 5.19% | $14.35M |
+| 7 | [morpho-blue →](https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token) | Katana | 1.60% | $11.79M |
+| 8 | [morpho-blue →](https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token) | Katana | 1.09% | $1.49M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-STEAKUSDC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.58%부터 5.54%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+STEAKUSDC 풀은 여기 8개가 있고, 3개 체인에서 APY가 1.09%부터 5.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.67%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -44,13 +44,13 @@ STEAKUSDC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.58%부터 5.5
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | morpho-blue | 4.12% | 4.49% | 기본 금리 |
-| morpho-blue | 3.08% | 3.39% | 기본 금리 |
-| morpho-blue | 4.19% | 3.76% | 기본 금리 |
-| morpho-blue | 3.98% | 3.59% | 기본 금리 |
+| morpho-blue | 3.08% | 3.38% | 기본 금리 |
+| morpho-blue | 4.16% | 3.76% | 기본 금리 |
+| morpho-blue | 3.96% | 3.59% | 기본 금리 |
 | morpho-blue | 3.91% | 4.26% | 기본 금리 |
-| morpho-blue | 5.54% | 4.88% | 기본 금리 |
-| morpho-blue | 1.46% | 1.59% | 기본 금리 |
-| morpho-blue | 0.58% | 2.93% | 인센티브 33.81% |
+| morpho-blue | 5.19% | 4.89% | 기본 금리 |
+| morpho-blue | 1.60% | 1.58% | 기본 금리 |
+| morpho-blue | 1.09% | 2.92% | 인센티브 18.24% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,7 +58,7 @@ STEAKUSDC 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.58%부터 5.5
 
 ### 오늘 STEAKUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 5.54%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 5.19%예요.
 
 ### STEAKUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 5.54%예
 
 ### STEAKUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 STEAKUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.19%, TVL $102.15M, https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token; Base의 morpho-blue, APY 3.91%, TVL $24.2M, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token; Ethereum의 morpho-blue, APY 3.98%, TVL $74.92M, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token; Base의 morpho-blue, APY 3.08%, TVL $160.1M, https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token; Base의 morpho-blue, APY 4.12%, TVL $587.98M, https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token; Ethereum의 morpho-blue, APY 5.54%, TVL $14.35M, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token; Katana의 morpho-blue, APY 1.46%, TVL $11.81M, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token; Katana의 morpho-blue, APY 0.58%, TVL $1.5M, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 STEAKUSDC의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.16%, TVL $102.3M, https://www.defi.garden/?pool=931ea9be-5f4d-428e-beaf-205fc5b4e2b5&src=seo_token; Base의 morpho-blue, APY 3.91%, TVL $24.18M, https://www.defi.garden/?pool=7820bd3c-461a-4811-9f0b-1d39c1503c3f&src=seo_token; Ethereum의 morpho-blue, APY 3.96%, TVL $74.94M, https://www.defi.garden/?pool=b55f43a8-f444-4cd8-a3a4-0a4e786ba566&src=seo_token; Base의 morpho-blue, APY 3.08%, TVL $159.67M, https://www.defi.garden/?pool=81ae8812-f04f-4f6e-9d71-ee5778f3a178&src=seo_token; Base의 morpho-blue, APY 4.12%, TVL $588.27M, https://www.defi.garden/?pool=ba68527f-8ec2-4c55-827a-8f4673ae047c&src=seo_token; Ethereum의 morpho-blue, APY 5.19%, TVL $14.35M, https://www.defi.garden/?pool=775d91ae-e10e-4bd9-a444-9caf0d18d85d&src=seo_token; Katana의 morpho-blue, APY 1.60%, TVL $11.79M, https://www.defi.garden/?pool=d56ab93e-d48d-44f2-8139-9bb020afc980&src=seo_token; Katana의 morpho-blue, APY 1.09%, TVL $1.49M, https://www.defi.garden/?pool=3b541fc4-9887-476e-80a3-7865442e4954&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -87,4 +87,4 @@ APY 이력만 기준으로 비교한 STEAKUSDC의 변동성 낮은 후보는 Eth
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Katana](https://www.defi.garden/ko/chains/katana)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

@@ -1,10 +1,10 @@
 # IUSDC DeFi Yields
 
-The highest honest IUSDC yield right now is 123.74% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IUSDC yield right now is 123.57% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7e218bc2-186c-473d-af0c-415bcdfe392b&src=seo_token) | Ethereum | 123.74% | $1.77M |
+| [curve-dex →](https://www.defi.garden/?pool=7e218bc2-186c-473d-af0c-415bcdfe392b&src=seo_token) | Ethereum | 123.57% | $1.77M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IUSDC yield today?
 
-123.74% APY on curve-dex (Ethereum), based on live DefiLlama data.
+123.57% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many IUSDC pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank IUSDC pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

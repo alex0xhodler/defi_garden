@@ -1,10 +1,10 @@
 # BAL DeFi Yields
 
-The highest honest BAL yield right now is 1.68% on balancer-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BAL yield right now is 1.66% on balancer-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=30eedaf4-83f7-418b-985b-89478d4b90e6&src=seo_token) | Ethereum | 1.68% | $4.15M |
+| [balancer-v2 →](https://www.defi.garden/?pool=30eedaf4-83f7-418b-985b-89478d4b90e6&src=seo_token) | Ethereum | 1.66% | $4.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BAL yield today?
 
-1.68% APY on balancer-v2 (Ethereum), based on live DefiLlama data.
+1.66% APY on balancer-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.15M in total.
+1 live pool clear this page's $100K TVL floor, $4.18M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BAL pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

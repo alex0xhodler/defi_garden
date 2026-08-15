@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SUIETH pools. This view cover
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

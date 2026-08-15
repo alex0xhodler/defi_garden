@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SUN pools. This view covers A
 
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

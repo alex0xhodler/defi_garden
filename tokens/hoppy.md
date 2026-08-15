@@ -4,7 +4,7 @@ The highest honest HOPPY yield right now is 0.59% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1d02e0b2-9441-4c4f-922a-1fa61aa98733&src=seo_token) | Ethereum | 0.59% | $318.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1d02e0b2-9441-4c4f-922a-1fa61aa98733&src=seo_token) | Ethereum | 0.59% | $318.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HOPPY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $318.3K in total.
+1 live pool clear this page's $100K TVL floor, $318.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HOPPY pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

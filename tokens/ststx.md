@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STSTX pools. This view covers
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

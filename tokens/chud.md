@@ -1,10 +1,10 @@
 # CHUD DeFi Yields
 
-The highest honest CHUD yield right now is 2.51% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHUD yield right now is 2.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=bb353c21-5286-4630-bf1a-48ae29532198&src=seo_token) | Solana | 2.51% | $197.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=bb353c21-5286-4630-bf1a-48ae29532198&src=seo_token) | Solana | 2.02% | $199.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHUD yield today?
 
-2.51% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CHUD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $197.8K in total.
+1 live pool clear this page's $100K TVL floor, $199.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CHUD pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

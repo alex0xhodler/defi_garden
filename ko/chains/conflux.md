@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Conflux의 nucleon에서 APY 0.15%예요.
 - [WCFX](https://www.defi.garden/ko/tokens/wcfx)
 - [XCFX](https://www.defi.garden/ko/tokens/xcfx)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

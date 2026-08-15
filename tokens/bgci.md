@@ -4,7 +4,7 @@ The highest honest BGCI yield right now is 0.09% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f0e5333b-e19c-4133-ad6a-482e9095b68f&src=seo_token) | Base | 0.09% | $272.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f0e5333b-e19c-4133-ad6a-482e9095b68f&src=seo_token) | Base | 0.09% | $272.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BGCI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $272.1K in total.
+1 live pool clear this page's $100K TVL floor, $272.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BGCI pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026

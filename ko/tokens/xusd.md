@@ -68,4 +68,4 @@ APY 이력만 기준으로 비교한 XUSD의 변동성 낮은 후보는 Arbitrum
 - [Rootstock](https://www.defi.garden/ko/chains/rootstock)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

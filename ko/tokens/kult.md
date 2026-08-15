@@ -1,10 +1,10 @@
 # KULT 디파이 수익률
 
-현재 KULT의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 1.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KULT의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 1.22%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cd5f3777-5c8f-4015-9ada-7b8c36c5d496&src=seo_token) | Base | 1.49% | $143.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=cd5f3777-5c8f-4015-9ada-7b8c36c5d496&src=seo_token) | Base | 1.22% | $143.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 KULT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 1.49%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 1.22%예요.
 
 ### KULT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 1.49%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 15, 2026

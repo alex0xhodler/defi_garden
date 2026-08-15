@@ -5,16 +5,16 @@ The highest honest MEM yield right now is 0.02% on ston.fi (TON), among 2 pools 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [ston.fi →](https://www.defi.garden/?pool=975a688b-4968-432f-acec-1fd684b780ac&src=seo_token) | TON | 0.02% | $194.6K |
-| [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.01% | $188.9K |
+| [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.01% | $189.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MEM's lower-variability candidates are dedust (TON), 0.01% APY, $188.9K TVL, https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token; ston.fi (TON), 0.02% APY, $194.6K TVL, https://www.defi.garden/?pool=975a688b-4968-432f-acec-1fd684b780ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MEM's lower-variability candidates are dedust (TON), 0.01% APY, $189.4K TVL, https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token; ston.fi (TON), 0.02% APY, $194.6K TVL, https://www.defi.garden/?pool=975a688b-4968-432f-acec-1fd684b780ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.01% | $188.9K |
+| 1 | [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.01% | $189.4K |
 | 2 | [ston.fi →](https://www.defi.garden/?pool=975a688b-4968-432f-acec-1fd684b780ac&src=seo_token) | TON | 0.02% | $194.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MEM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $383.5K in total.
+2 live pools clear this page's $100K TVL floor, $384K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MEM pools have the most stable APY history?
 
-Based on APY history only, MEM's lower-variability candidates are dedust (TON), 0.01% APY, $188.9K TVL, https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token; ston.fi (TON), 0.02% APY, $194.6K TVL, https://www.defi.garden/?pool=975a688b-4968-432f-acec-1fd684b780ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MEM's lower-variability candidates are dedust (TON), 0.01% APY, $189.4K TVL, https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token; ston.fi (TON), 0.02% APY, $194.6K TVL, https://www.defi.garden/?pool=975a688b-4968-432f-acec-1fd684b780ac&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, MEM's lower-variability candidates are dedust (TON), 
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 14, 2026
+## Last updated August 15, 2026
