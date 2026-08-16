@@ -341,10 +341,9 @@
             e('div', { className: 'landing-examples landing-reveal landing-reveal-five' },
               e('span', { className: 'landing-examples-label' }, copy.examplesLabel),
               e(ExampleChip, { value: 'USDC on Base', onChoose: chooseExample }, copy.exampleUsdc),
-              e(ExampleChip, { value: 'ETH staking', onChoose: chooseExample }, copy.exampleEth),
-              e(ExampleChip, { value: 'Lending on Arbitrum', onChoose: chooseExample }, copy.exampleLending),
               e(ExampleChip, { value: 'Pendle PTs', onChoose: chooseExample }, copy.examplePendle || 'Pendle PTs'),
-              e(ExampleChip, { value: 'Morpho vaults', onChoose: chooseExample }, copy.exampleMorpho || 'Morpho vaults')
+              e(ExampleChip, { value: 'Morpho vaults', onChoose: chooseExample }, copy.exampleMorpho || 'Morpho vaults'),
+              e(ExampleChip, { value: 'Kamino lending', onChoose: chooseExample }, copy.exampleKamino || 'Kamino lending')
             )
           ),
           showReturnCard
