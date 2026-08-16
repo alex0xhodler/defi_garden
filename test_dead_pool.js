@@ -269,6 +269,90 @@ async function main() {
       await context.close();
     });
 
+    // --- Item 275: Recovery Action Card & Quick-Pivot Discovery Chips -------
+    await test('dead ?pool= renders recovery card with search prompt and quick discovery chips', async () => {
+      const { context, page, pageErrors } = await newCtx(browser);
+      await page.goto(`http://localhost:${PORT}/home.html?pool=${DEAD_ID}`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.empty-state', { timeout: 15000 });
+
+      await page.waitForSelector('.dead-pool-recovery-card', { timeout: 8000 });
+      await page.waitForSelector('.recovery-search-prompt', { timeout: 8000 });
+
+      const chipCount = await page.locator('.recovery-chip').count();
+      if (chipCount < 4) throw new Error(`expected at least 4 recovery chips, got ${chipCount}`);
+
+      if (pageErrors.length) throw new Error('page errors: ' + pageErrors.join(' | '));
+      await context.close();
+    });
+
+    await test('clicking a token recovery chip executes search and transitions to live results', async () => {
+      const { context, page, pageErrors } = await newCtx(browser);
+      await page.goto(`http://localhost:${PORT}/home.html?pool=${DEAD_ID}`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.dead-pool-recovery-card', { timeout: 15000 });
+
+      // Click a token chip (USDC)
+      const usdcChip = page.locator('.recovery-chip[data-query="USDC"]');
+      await usdcChip.click();
+
+      // Should transition to active search results
+      await page.waitForSelector('.results-section .pool-card', { timeout: 10000 });
+
+      // Empty state should be cleared
+      const emptyStateCount = await page.locator('.empty-state').count();
+      if (emptyStateCount !== 0) throw new Error(`expected empty-state to be removed after chip click, got ${emptyStateCount}`);
+
+      // URL should no longer have ?pool=
+      const currentUrl = page.url();
+      if (currentUrl.includes('pool=')) throw new Error(`expected ?pool= removed from URL after recovery chip click, got ${currentUrl}`);
+
+      const robots = await robotsContent(page);
+      if (robots !== 'index, follow') throw new Error(`expected robots restored to "index, follow", got ${robots}`);
+
+      if (pageErrors.length) throw new Error('page errors: ' + pageErrors.join(' | '));
+      await context.close();
+    });
+
+    await test('clicking a protocol recovery chip renders all-chain protocol results', async () => {
+      const { context, page, pageErrors } = await newCtx(browser);
+      await page.goto(`http://localhost:${PORT}/home.html?pool=${DEAD_ID}`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.dead-pool-recovery-card', { timeout: 15000 });
+
+      // Click a protocol chip (e.g. Kamino or Aave V3)
+      const aaveChip = page.locator('.recovery-chip[data-query="Aave V3"]');
+      await aaveChip.click();
+
+      // Should transition to active search results for protocol
+      await page.waitForSelector('.results-section .pool-card', { timeout: 10000 });
+
+      // Empty state should be cleared
+      const emptyStateCount = await page.locator('.empty-state').count();
+      if (emptyStateCount !== 0) throw new Error(`expected empty-state to be removed after protocol chip click, got ${emptyStateCount}`);
+
+      // URL should no longer have ?pool=
+      const currentUrl = page.url();
+      if (currentUrl.includes('pool=')) throw new Error(`expected ?pool= removed from URL after protocol chip click, got ${currentUrl}`);
+
+      const robots = await robotsContent(page);
+      if (robots !== 'index, follow') throw new Error(`expected robots restored to "index, follow", got ${robots}`);
+
+      if (pageErrors.length) throw new Error('page errors: ' + pageErrors.join(' | '));
+      await context.close();
+    });
+
+    await test('dead ?pool=&lang=ko renders KO recovery card and prompt', async () => {
+      const { context, page, pageErrors } = await newCtx(browser);
+      await page.goto(`http://localhost:${PORT}/home.html?pool=${DEAD_ID}&lang=ko`, { waitUntil: 'load', timeout: 20000 });
+      await page.waitForSelector('.dead-pool-recovery-card', { timeout: 15000 });
+
+      const promptText = await page.locator('.recovery-search-prompt').textContent();
+      if (!promptText || !/[가-힣]/.test(promptText)) {
+        throw new Error(`expected Korean text in recovery prompt, got "${promptText}"`);
+      }
+
+      if (pageErrors.length) throw new Error('page errors: ' + pageErrors.join(' | '));
+      await context.close();
+    });
+
     // --- Criterion 6: token empty-state path untouched — a VALID token search
     //     still renders the grid and is indexable (deadPoolResolved=false path
     //     renders byte-identically to before) -------------------------------

@@ -3568,6 +3568,66 @@ body {
   margin-top: var(--space-16);
 }
 
+
+/* Dead-pool recovery card (Item 275) */
+.dead-pool-recovery-card {
+  margin: var(--space-24) auto var(--space-16);
+  max-width: 640px;
+  padding: var(--space-20);
+  background: var(--color-surface);
+  border-radius: var(--ui-radius-lg);
+  border: 1px solid var(--ui-border);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.recovery-search-prompt {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+  margin-bottom: var(--space-12);
+  line-height: 1.4;
+}
+
+.recovery-chips-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-8);
+}
+
+.recovery-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--space-8) var(--space-16);
+  background: var(--color-background);
+  color: var(--color-text);
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: var(--neuro-shadow-sm, var(--shadow-xs));
+  font-family: inherit;
+}
+
+.recovery-chip:hover {
+  background: var(--color-surface);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-1px);
+}
+
+.recovery-chip:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.recovery-chip:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
 /* Error State */
 .error-state {
   text-align: center;

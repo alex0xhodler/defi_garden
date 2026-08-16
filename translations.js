@@ -130,6 +130,8 @@ const translations = {
     poolNotFoundExplanation: "It's dropped out of the live DefiLlama data we rely on — likely delisted or migrated by its protocol. Here are trustworthy alternatives that clear our $100K safety floor.",
     emptyStateAltHeadingChain: (chain) => `Live pools on ${chain} above the $100K floor`,
     emptyStateAltHeadingStable: "Popular stablecoin pools above the $100K floor",
+    deadPoolRecoveryPrompt: "Looking for active yields? Explore top assets & protocols:",
+    deadPoolAltHeading: "Verified alternatives clearing our $100K safety floor:",
 
     // Navigation
     backToSearch: "← Back to Search",
@@ -932,6 +934,8 @@ projectionHeading: "The long game",
     poolNotFoundExplanation: "저희가 사용하는 라이브 DefiLlama 데이터에서 이 풀이 사라졌습니다 — 프로토콜에서 상장 폐지되었거나 마이그레이션되었을 가능성이 높습니다. $100K 안전 기준을 통과하는 신뢰할 수 있는 대안을 아래에 안내합니다.",
     emptyStateAltHeadingChain: (chain) => `$100K 기준을 통과한 ${chain}의 라이브 풀`,
     emptyStateAltHeadingStable: "$100K 기준을 통과한 인기 스테이블코인 풀",
+    deadPoolRecoveryPrompt: "활성 수익률을 찾고 계신가요? 인기 자산 및 프로토콜을 둘러보세요:",
+    deadPoolAltHeading: "$100K 안전 기준을 통과한 검증된 대체 풀:",
 
     // Navigation
     backToSearch: "← 검색으로 돌아가기",
