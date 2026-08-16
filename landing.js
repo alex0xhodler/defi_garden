@@ -13,6 +13,7 @@
 
   var TOKEN_HINTS = ['USDC', 'USDT', 'DAI', 'ETH', 'WETH', 'BTC', 'WBTC', 'SOL', 'LINK', 'UNI', 'AAVE', 'CRV'];
   var CHAIN_HINTS = ['Arbitrum', 'Base', 'Ethereum', 'Polygon', 'Optimism', 'Solana', 'Avalanche', 'BNB Chain', 'Plasma', 'Celo', 'Gnosis'];
+  var PROTOCOL_HINTS = ['Morpho', 'Pendle', 'Aave', 'Compound', 'Curve', 'Uniswap', 'Aerodrome', 'Lido', 'Euler', 'Venus', 'Yearn', 'Raydium', 'Kamino'];
 
   // goal id -> translations.planner label key (canonical list owned by planner.js
   // GOALS; duplicated read-only here because planner.js is not loaded on the
@@ -128,6 +129,8 @@
     var params = new URLSearchParams();
     var token = null;
     var chain = null;
+    var protocol = null;
+    var poolType = null;
 
     TOKEN_HINTS.some(function (candidate) {
       if (new RegExp('(^|\\s)' + candidate.toLowerCase().replace(/[.*+?^${}()|[\\]\\]/g, '\\$&') + '(?=\\s|$)', 'i').test(lower)) {
@@ -145,14 +148,33 @@
       return false;
     });
 
-    if (!token && /^[a-z0-9][a-z0-9._-]*$/i.test(clean)) token = clean.toUpperCase();
-    if (!token && !chain) {
+    PROTOCOL_HINTS.some(function (candidate) {
+      if (lower.indexOf(candidate.toLowerCase()) !== -1) {
+        protocol = candidate;
+        return true;
+      }
+      return false;
+    });
+
+    if (!protocol) {
+      if (/\bstaking\b|\bstake\b/i.test(lower)) {
+        poolType = 'Staking';
+      } else if (/\blending\b|\blend\b/i.test(lower)) {
+        poolType = 'Lending';
+      }
+    }
+
+    if (!token && !protocol && /^[a-z0-9][a-z0-9._-]*$/i.test(clean)) token = clean.toUpperCase();
+    if (!token && !chain && !protocol) {
       var exactChain = CHAIN_HINTS.find(function (candidate) { return candidate.toLowerCase() === lower; });
       if (exactChain) chain = exactChain;
     }
 
-    if (token) params.set('token', token);
     if (chain) params.set('chain', chain);
+    else if (protocol || poolType) params.set('chain', 'All');
+    if (token) params.set('token', token);
+    if (protocol) params.set('protocols', protocol);
+    if (poolType) params.set('poolTypes', poolType);
     if (params.toString()) return '/?' + params.toString();
 
     // Keep the user inside the authoritative analytics search app for less
@@ -241,9 +263,8 @@
     }
 
     function chooseExample(value) {
-      setQuery(value);
-      var input = document.querySelector('.landing-search-input');
-      if (input) input.focus();
+      var href = buildSearchHref(value);
+      if (href) window.location.assign(href);
     }
 
     function closeMenu() { setMenuOpen(false); }
@@ -321,8 +342,9 @@
             e('div', { className: 'landing-examples landing-reveal landing-reveal-five' },
               e('span', { className: 'landing-examples-label' }, copy.examplesLabel),
               e(ExampleChip, { value: 'USDC on Base', onChoose: chooseExample }, copy.exampleUsdc),
-              e(ExampleChip, { value: 'ETH staking', onChoose: chooseExample }, copy.exampleEth),
-              e(ExampleChip, { value: 'Lending on Arbitrum', onChoose: chooseExample }, copy.exampleLending)
+              e(ExampleChip, { value: 'Pendle PTs', onChoose: chooseExample }, copy.examplePendle || 'Pendle PTs'),
+              e(ExampleChip, { value: 'Morpho vaults', onChoose: chooseExample }, copy.exampleMorpho || 'Morpho vaults'),
+              e(ExampleChip, { value: 'Kamino lending', onChoose: chooseExample }, copy.exampleKamino || 'Kamino lending')
             )
           ),
           showReturnCard

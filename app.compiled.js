@@ -1012,6 +1012,13 @@ function App() {
       setShowFilters(true);
       setShowAutocomplete(false);
       document.title = `${urlParams.token.toUpperCase()} Yields | DeFi Garden 🌱`;
+    } else if (urlParams.protocols && urlParams.protocols.length > 0 || urlParams.poolTypes && urlParams.poolTypes.length > 0) {
+      setChainMode(true);
+      setSelectedChain('All');
+      setShowFilters(true);
+      setShowAutocomplete(false);
+      var primaryTitle = urlParams.protocols && urlParams.protocols[0] || urlParams.poolTypes && urlParams.poolTypes[0] || 'DeFi';
+      document.title = `${primaryTitle} Yields | DeFi Garden 🌱`;
     }
     if (urlParams.chain) setSelectedChain(urlParams.chain);
     if (urlParams.poolTypes) setSelectedPoolTypes(urlParams.poolTypes);
@@ -1062,6 +1069,15 @@ function App() {
         setSelectedChain(urlParams.chain);
         setShowFilters(true);
         document.title = `${urlParams.token.toUpperCase()} Yields | DeFi Garden 🌱`;
+      } else if (urlParams.protocols && urlParams.protocols.length > 0 || urlParams.poolTypes && urlParams.poolTypes.length > 0) {
+        // Protocol/poolType mode
+        setChainMode(true);
+        setSelectedToken('');
+        setSearchInput('');
+        setSelectedChain('All');
+        setShowFilters(true);
+        var primaryTitle = urlParams.protocols && urlParams.protocols[0] || urlParams.poolTypes && urlParams.poolTypes[0] || 'DeFi';
+        document.title = `${primaryTitle} Yields | DeFi Garden 🌱`;
       } else {
         // Homepage
         setChainMode(false);
