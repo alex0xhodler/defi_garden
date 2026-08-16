@@ -4,7 +4,7 @@ The highest honest XSOLVBTC yield right now is 1.00% on avalon-finance (Bob), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avalon-finance →](https://www.defi.garden/?pool=19c9b477-6ce9-4e59-897e-1b3ef76afa3a&src=seo_token) | Bob | 1.00% | $106.4K |
+| [avalon-finance →](https://www.defi.garden/?pool=19c9b477-6ce9-4e59-897e-1b3ef76afa3a&src=seo_token) | Bob | 1.00% | $105.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XSOLVBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $50.15M in total.
+2 live pools clear this page's $100K TVL floor, $49.72M in total.
 
 ### Are these rates safe?
 

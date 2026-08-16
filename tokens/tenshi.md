@@ -4,7 +4,7 @@ The highest honest TENSHI yield right now is 0.25% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e6452a11-065b-418a-9c05-416dadf9727e&src=seo_token) | Ethereum | 0.25% | $102.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e6452a11-065b-418a-9c05-416dadf9727e&src=seo_token) | Ethereum | 0.25% | $102.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TENSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.8K in total.
+1 live pool clear this page's $100K TVL floor, $102.7K in total.
 
 ### Are these rates safe?
 

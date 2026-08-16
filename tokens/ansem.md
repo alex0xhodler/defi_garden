@@ -1,11 +1,11 @@
 # ANSEM DeFi Yields
 
-The highest honest ANSEM yield right now is 340.92% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANSEM yield right now is 245.81% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25&src=seo_token) | Solana | 477.57% | $295.3K |
-| [orca-dex →](https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token) | Solana | 340.92% | $135.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25&src=seo_token) | Solana | 382.48% | $288.4K |
+| [orca-dex →](https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583&src=seo_token) | Solana | 245.81% | $134.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ANSEM shows up in 2 pools here, with rates from 340.92% to 477.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ANSEM shows up in 2 pools here, with rates from 245.81% to 382.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 2 pools has a trustworthy 30-day average on file, with a median of 308.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 2 pools has a trustworthy 30-day average on file, with a median of 303.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 477.57% | — | Base rate |
-| orca-dex | 340.92% | 308.61% | Base rate |
+| raydium-amm | 382.48% | — | Base rate |
+| orca-dex | 245.81% | 303.87% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ANSEM yield today?
 
-340.92% APY on orca-dex (Solana), based on live DefiLlama data.
+245.81% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many ANSEM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $431.2K in total.
+2 live pools clear this page's $100K TVL floor, $422.5K in total.
 
 ### Are these rates safe?
 

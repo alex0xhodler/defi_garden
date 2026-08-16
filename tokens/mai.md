@@ -1,31 +1,31 @@
 # MAI DeFi Yields
 
-The highest honest MAI yield right now is 9.39% on extra-finance-leverage-farming (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAI yield right now is 9.41% on extra-finance-leverage-farming (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 8.98% | $2.32M |
-| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 9.39% | $240.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 8.99% | $2.32M |
+| [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 9.41% | $240.8K |
 | [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 0.90% | $129.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MAI's lower-variability candidates are aerodrome-v1 (Base), 8.98% APY, $2.32M TVL, https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token; curve-dex (Polygon), 0.90% APY, $129.6K TVL, https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token; extra-finance-leverage-farming (Base), 9.39% APY, $240.8K TVL, https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MAI's lower-variability candidates are aerodrome-v1 (Base), 8.99% APY, $2.32M TVL, https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token; curve-dex (Polygon), 0.90% APY, $129.6K TVL, https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token; extra-finance-leverage-farming (Base), 9.41% APY, $240.8K TVL, https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 8.98% | $2.32M |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token) | Base | 8.99% | $2.32M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token) | Polygon | 0.90% | $129.6K |
-| 3 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 9.39% | $240.8K |
+| 3 | [extra-finance-leverage-farming →](https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token) | Base | 9.41% | $240.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MAI shows up in 3 pools here, with rates from 0.90% to 9.39% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MAI shows up in 3 pools here, with rates from 0.90% to 9.41% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,8 +33,8 @@ MAI shows up in 3 pools here, with rates from 0.90% to 9.39% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 8.98% | 6.45% | 100.00% incentives |
-| extra-finance-leverage-farming | 9.39% | 6.62% | Base rate |
+| aerodrome-v1 | 8.99% | 6.46% | 100.00% incentives |
+| extra-finance-leverage-farming | 9.41% | 6.64% | Base rate |
 | curve-dex | 0.90% | 4.42% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MAI yield today?
 
-9.39% APY on extra-finance-leverage-farming (Base), based on live DefiLlama data.
+9.41% APY on extra-finance-leverage-farming (Base), based on live DefiLlama data.
 
 ### How many MAI pools clear the TVL floor?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MAI pools have the most stable APY history?
 
-Based on APY history only, MAI's lower-variability candidates are aerodrome-v1 (Base), 8.98% APY, $2.32M TVL, https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token; curve-dex (Polygon), 0.90% APY, $129.6K TVL, https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token; extra-finance-leverage-farming (Base), 9.39% APY, $240.8K TVL, https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MAI's lower-variability candidates are aerodrome-v1 (Base), 8.99% APY, $2.32M TVL, https://www.defi.garden/?pool=b27bcdaf-d4ee-4d34-bb09-e746630c9d60&src=seo_token; curve-dex (Polygon), 0.90% APY, $129.6K TVL, https://www.defi.garden/?pool=91e77fb6-a859-4dad-af0b-4b07d513905a&src=seo_token; extra-finance-leverage-farming (Base), 9.41% APY, $240.8K TVL, https://www.defi.garden/?pool=839a983e-c88b-449d-8143-c841de552375&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

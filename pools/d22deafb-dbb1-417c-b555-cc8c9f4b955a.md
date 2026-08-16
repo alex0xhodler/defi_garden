@@ -1,8 +1,8 @@
 # SDAI-SUSDE — curve-dex on Ethereum
 
-**Total APY:** 2.91% (2.91% Base · + 0.00% Rewards)
+**Total APY:** 2.90% (2.90% Base · + 0.00% Rewards)
 
-**TVL:** $5.44M
+**TVL:** $5.45M
 
 **Pool Type:** LP/DEX
 

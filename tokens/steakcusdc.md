@@ -4,7 +4,7 @@ The highest honest STEAKCUSDC yield right now is 7.20% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2f5341f4-6c2e-4c65-b2e0-10cd5228ff62&src=seo_token) | Ethereum | 7.20% | $34.13M |
+| [morpho-blue →](https://www.defi.garden/?pool=2f5341f4-6c2e-4c65-b2e0-10cd5228ff62&src=seo_token) | Ethereum | 7.20% | $34.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STEAKCUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $34.13M in total.
+1 live pool clear this page's $100K TVL floor, $34.42M in total.
 
 ### Are these rates safe?
 

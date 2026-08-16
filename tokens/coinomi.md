@@ -1,10 +1,10 @@
 # COINOMI DeFi Yields
 
-The highest honest COINOMI yield right now is 0.14% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COINOMI yield right now is 0.09% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 0.14% | $113K |
+| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 0.09% | $112.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COINOMI yield today?
 
-0.14% APY on orca-dex (Solana), based on live DefiLlama data.
+0.09% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many COINOMI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113K in total.
+1 live pool clear this page's $100K TVL floor, $112.7K in total.
 
 ### Are these rates safe?
 

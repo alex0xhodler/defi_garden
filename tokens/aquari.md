@@ -4,7 +4,7 @@ The highest honest AQUARI yield right now is 5.62% on uniswap-v2 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=44db045d-0587-47cc-a9d0-470b5616fd71&src=seo_token) | Base | 5.62% | $104.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=44db045d-0587-47cc-a9d0-470b5616fd71&src=seo_token) | Base | 5.62% | $104.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AQUARI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.5K in total.
+1 live pool clear this page's $100K TVL floor, $104.4K in total.
 
 ### Are these rates safe?
 

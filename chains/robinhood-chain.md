@@ -1,17 +1,17 @@
 # Robinhood Chain DeFi Yields
 
-The highest honest Robinhood Chain yield right now is 195.66% on ekubo (Robinhood Chain), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Robinhood Chain yield right now is 194.04% on ekubo (Robinhood Chain), among 12 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | STEAKUSDG | [morpho-blue →](https://www.defi.garden/?pool=32f586b4-5358-5aa2-88ee-c842139e7023&src=seo_chain) | 7.54% | $313.52M |
-| USDE | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_chain) | 4.50% | $284.27M |
-| USDG | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_chain) | 3.50% | $34.33M |
+| USDE | [morpho-blue →](https://www.defi.garden/?pool=d3ed814d-9763-5436-8b25-66bdbabd36f8&src=seo_chain) | 4.50% | $284.48M |
+| USDG | [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_chain) | 3.50% | $34.34M |
 | USDE | [accountable →](https://www.defi.garden/?pool=8f8bdead-177c-5019-8dba-a1f13fe2dc61&src=seo_chain) | 26.01% | $1.37M |
-| STONX-USDG | [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_chain) | 19.32% | $664.4K |
-| WETH-USDG | [alandale-v3 →](https://www.defi.garden/?pool=98ea5e7c-ff59-52d8-a1ce-633c308d4c5c&src=seo_chain) | 51.76% | $156.7K |
-| ETH-USDG | [ekubo →](https://www.defi.garden/?pool=f5946d39-c480-5b12-8f2e-6f8b9dfd0dc1&src=seo_chain) | 195.66% | $154.4K |
-| ETH-USDG | [kyberswap-fairflow →](https://www.defi.garden/?pool=058c6b93-03fb-57a2-ab92-e39d6e47d076&src=seo_chain) | 47.77% | $128.7K |
+| STONX-USDG | [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_chain) | 19.23% | $661.8K |
+| WETH-USDG | [alandale-v3 →](https://www.defi.garden/?pool=98ea5e7c-ff59-52d8-a1ce-633c308d4c5c&src=seo_chain) | 51.89% | $156.7K |
+| ETH-USDG | [ekubo →](https://www.defi.garden/?pool=f5946d39-c480-5b12-8f2e-6f8b9dfd0dc1&src=seo_chain) | 194.04% | $154.3K |
+| ETH-USDG | [kyberswap-fairflow →](https://www.defi.garden/?pool=058c6b93-03fb-57a2-ab92-e39d6e47d076&src=seo_chain) | 48.51% | $128.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -19,11 +19,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Robinhood Chain yield today?
 
-195.66% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
+194.04% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
 
 ### How many Robinhood Chain pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $755.76M in total.
+12 live pools clear this page's $100K TVL floor, $755.97M in total.
 
 ### Are these rates safe?
 

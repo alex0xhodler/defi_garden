@@ -4,7 +4,7 @@ The highest honest GTCBBTCC yield right now is 0.03% on morpho-blue (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3b910461-8f90-425b-af3f-1f2ce05e607a&src=seo_token) | Base | 0.03% | $248.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=3b910461-8f90-425b-af3f-1f2ce05e607a&src=seo_token) | Base | 0.03% | $248K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTCBBTCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $248.3K in total.
+1 live pool clear this page's $100K TVL floor, $248K in total.
 
 ### Are these rates safe?
 

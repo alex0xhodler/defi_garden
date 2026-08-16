@@ -4,7 +4,7 @@ The highest honest YZM yield right now is 0.50% on curvance (Monad), among 3 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $486.6K |
+| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $486.7K |
 | [morpho-blue →](https://www.defi.garden/?pool=9ca84254-ecc7-53a7-adf1-4186812dfa37&src=seo_token) | Monad | 1.25% | $197.7K |
 
 <!-- rate-stability:insufficient -->
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YZM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $904.2K in total.
+3 live pools clear this page's $100K TVL floor, $904.3K in total.
 
 ### Are these rates safe?
 

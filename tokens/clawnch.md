@@ -1,10 +1,10 @@
 # CLAWNCH DeFi Yields
 
-The highest honest CLAWNCH yield right now is 8.65% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLAWNCH yield right now is 8.61% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=935f2256-3107-4ffb-a1b9-4b1c2ec2b732&src=seo_token) | Base | 8.65% | $609.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=935f2256-3107-4ffb-a1b9-4b1c2ec2b732&src=seo_token) | Base | 8.61% | $607.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CLAWNCH yield today?
 
-8.65% APY on uniswap-v4 (Base), based on live DefiLlama data.
+8.61% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many CLAWNCH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $609.2K in total.
+1 live pool clear this page's $100K TVL floor, $607.9K in total.
 
 ### Are these rates safe?
 

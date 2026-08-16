@@ -4,7 +4,7 @@ The highest honest XFUND yield right now is 0.31% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=518c716e-3365-4964-adce-632b0006ad6e&src=seo_token) | Ethereum | 0.31% | $129.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=518c716e-3365-4964-adce-632b0006ad6e&src=seo_token) | Ethereum | 0.31% | $129.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XFUND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.4K in total.
+1 live pool clear this page's $100K TVL floor, $129.3K in total.
 
 ### Are these rates safe?
 

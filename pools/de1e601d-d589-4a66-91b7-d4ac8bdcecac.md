@@ -1,6 +1,6 @@
 # USDTB — fluid-lending on Ethereum
 
-**Total APY:** 5.69% (2.29% Base · + 3.40% Rewards)
+**Total APY:** 5.70% (2.30% Base · + 3.40% Rewards)
 
 **TVL:** $2.29M
 

@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, ZKsync Era의 symbiosis에서 APY 0.01%예
 
 ### ZKsync Era 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $437.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $437.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, ZKsync Era의 symbiosis에서 APY 0.01%예
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
-- [Flare](https://www.defi.garden/ko/chains/flare)
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
+- [Flare](https://www.defi.garden/ko/chains/flare)
 - [Gnosis](https://www.defi.garden/ko/chains/gnosis)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 

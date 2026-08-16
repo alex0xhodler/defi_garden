@@ -1,12 +1,12 @@
 # USDAT — pendle on Monad
 
-**Total APY:** 2.41% (1.40% Base · + 1.01% Rewards)
+**Total APY:** 2.39% (1.37% Base · + 1.01% Rewards)
 
-**TVL:** $1.55M
+**TVL:** $1.53M
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 5.99%
+**30d Mean APY:** 5.86%
 
 **Exposure:** single
 
@@ -21,13 +21,13 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,127 in 5y at current rates.
+$1,000 in this pool grows to ~$1,125 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 2.41% right now vs a 5.99% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 2.39% right now vs a 5.86% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,127 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,125 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on pendle](https://pendle.finance/?ref=defi.garden)
 

@@ -1,10 +1,10 @@
 # SNDK DeFi Yields
 
-The highest honest SNDK yield right now is 1.83% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNDK yield right now is 2.20% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8&src=seo_token) | Solana | 1.83% | $477.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=1868e098-b4a7-4a4f-aa49-333c03abced8&src=seo_token) | Solana | 2.20% | $475.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNDK yield today?
 
-1.83% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.20% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SNDK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $477.3K in total.
+1 live pool clear this page's $100K TVL floor, $475.3K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # TEQOIN DeFi Yields
 
-The highest honest TEQOIN yield right now is 145.13% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TEQOIN yield right now is 133.74% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1adcaca9-1ff8-5665-8636-a12ed038abe0&src=seo_token) | Base | 145.13% | $112.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1adcaca9-1ff8-5665-8636-a12ed038abe0&src=seo_token) | Base | 133.74% | $127.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TEQOIN yield today?
 
-145.13% APY on uniswap-v2 (Base), based on live DefiLlama data.
+133.74% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many TEQOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.2K in total.
+1 live pool clear this page's $100K TVL floor, $127.2K in total.
 
 ### Are these rates safe?
 

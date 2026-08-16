@@ -23,7 +23,7 @@ USDT.E shows up in 1 pools here, with rates from 11.06% to 11.06% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yuzu-finance | 11.06% | 9.30% | 99.55% incentives |
+| yuzu-finance | 11.06% | 9.30% | 99.63% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -1,10 +1,10 @@
 # CYLA DeFi Yields
 
-The highest honest CYLA yield right now is 0.77% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CYLA yield right now is 0.78% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b3900e54-8e0c-4424-a509-ce7be585dcf2&src=seo_token) | Solana | 0.77% | $124.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=b3900e54-8e0c-4424-a509-ce7be585dcf2&src=seo_token) | Solana | 0.78% | $123.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CYLA yield today?
 
-0.77% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.78% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CYLA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.1K in total.
+1 live pool clear this page's $100K TVL floor, $123.7K in total.
 
 ### Are these rates safe?
 

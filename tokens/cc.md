@@ -1,11 +1,11 @@
 # CC DeFi Yields
 
-The highest honest CC yield right now is 0.02% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CC yield right now is 0.02% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3d5c485e-5dfd-5396-84d5-6ce1ef0abc28&src=seo_token) | Solana | 0.01% | $99.9M |
 | [raydium-amm →](https://www.defi.garden/?pool=f147cf61-e857-520d-83ba-c0f6b2ec69da&src=seo_token) | Solana | 0.01% | $98.9M |
+| [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.01% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=aea8280b-7549-5191-aedf-564957812cfb&src=seo_token) | Solana | 0.01% | $96.91M |
 | [raydium-amm →](https://www.defi.garden/?pool=ccb7702c-646c-5583-9757-46c347e2417c&src=seo_token) | Solana | 0.02% | $93.94M |
 
@@ -28,8 +28,8 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.01% | 0.00% | Base rate |
+| raydium-amm | 0.01% | 0.02% | Base rate |
 | raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.02% | 0.02% | Base rate |
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $486.7M in total.
+5 live pools clear this page's $100K TVL floor, $386.81M in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # RETARDIO 디파이 수익률
 
-현재 RETARDIO의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 4.09%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RETARDIO의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 3.41%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3fee280d-8834-4dc7-ac1f-bb395ff332da&src=seo_token) | Solana | 4.09% | $287K |
+| [raydium-amm →](https://www.defi.garden/?pool=3fee280d-8834-4dc7-ac1f-bb395ff332da&src=seo_token) | Solana | 3.41% | $285.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 RETARDIO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 4.09%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 3.41%예요.
 
 ### RETARDIO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $287K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $285.8K예요.
 
 ### 이 수익률은 안전한가요?
 

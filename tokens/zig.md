@@ -4,7 +4,7 @@ The highest honest ZIG yield right now is 0.08% on permapod (ZIGChain), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token) | ZIGChain | 0.08% | $1.27M |
+| [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token) | ZIGChain | 0.08% | $1.23M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZIG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.27M in total.
+1 live pool clear this page's $100K TVL floor, $1.23M in total.
 
 ### Are these rates safe?
 

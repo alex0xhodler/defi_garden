@@ -1,10 +1,10 @@
 # RFD DeFi Yields
 
-The highest honest RFD yield right now is 0.19% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RFD yield right now is 0.27% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=60eb38e8-3686-4b70-be8c-0e04b138e8e4&src=seo_token) | Ethereum | 0.19% | $1.05M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=60eb38e8-3686-4b70-be8c-0e04b138e8e4&src=seo_token) | Ethereum | 0.27% | $1.05M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RFD yield today?
 
-0.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.27% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many RFD pools clear the TVL floor?
 

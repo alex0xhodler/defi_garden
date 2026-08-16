@@ -32,7 +32,7 @@ WELL shows up in 2 pools here, with rates from 0.18% to 3.49% APY across 1 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | aerodrome-v1 | 3.49% | 6.60% | 100.00% incentives |
-| moonwell-lending | 0.18% | 0.35% | Base rate |
+| moonwell-lending | 0.18% | 0.34% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=fc5788b4-916d-4909-85f2-1d25e5a1000d&src=seo_token) | Base | 7.09% | $734.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fc5788b4-916d-4909-85f2-1d25e5a1000d&src=seo_token) | Base | 7.09% | $732K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 7.09%예요.
 
 ### EAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $734.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $732K예요.
 
 ### 이 수익률은 안전한가요?
 

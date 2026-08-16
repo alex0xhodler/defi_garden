@@ -6,18 +6,18 @@
 |---|---|---|---|
 | [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token) | Ethereum | 7.73% | $5.66M |
 | [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 6.84% | $3.15M |
-| [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.32% | $1.2M |
+| [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.32% | $1.17M |
 | [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token) | Ethereum | 5.67% | $1.07M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LIUSD의 변동성 낮은 후보는 Ethereum의 infinifi, APY 7.73%, TVL $5.66M, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token; Ethereum의 infinifi, APY 8.32%, TVL $1.2M, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token; Ethereum의 infinifi, APY 5.67%, TVL $1.07M, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token; Ethereum의 infinifi, APY 6.84%, TVL $3.15M, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LIUSD의 변동성 낮은 후보는 Ethereum의 infinifi, APY 7.73%, TVL $5.66M, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token; Ethereum의 infinifi, APY 8.32%, TVL $1.17M, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token; Ethereum의 infinifi, APY 5.67%, TVL $1.07M, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token; Ethereum의 infinifi, APY 6.84%, TVL $3.15M, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token) | Ethereum | 7.73% | $5.66M |
-| 2 | [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.32% | $1.2M |
+| 2 | [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.32% | $1.17M |
 | 3 | [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token) | Ethereum | 5.67% | $1.07M |
 | 4 | [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 6.84% | $3.15M |
 
@@ -35,9 +35,9 @@ LIUSD 풀은 여기 4개가 있고, 1개 체인에서 APY가 5.67%부터 8.32%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| infinifi | 7.73% | 7.91% | 기본 금리 |
+| infinifi | 7.73% | 7.90% | 기본 금리 |
 | infinifi | 6.84% | 7.00% | 기본 금리 |
-| infinifi | 8.32% | 8.52% | 기본 금리 |
+| infinifi | 8.32% | 8.51% | 기본 금리 |
 | infinifi | 5.67% | 5.80% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 infinifi에서 APY 8.32%예요
 
 ### LIUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $11.08M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $11.06M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 infinifi에서 APY 8.32%예요
 
 ### LIUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LIUSD의 변동성 낮은 후보는 Ethereum의 infinifi, APY 7.73%, TVL $5.66M, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token; Ethereum의 infinifi, APY 8.32%, TVL $1.2M, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token; Ethereum의 infinifi, APY 5.67%, TVL $1.07M, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token; Ethereum의 infinifi, APY 6.84%, TVL $3.15M, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LIUSD의 변동성 낮은 후보는 Ethereum의 infinifi, APY 7.73%, TVL $5.66M, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token; Ethereum의 infinifi, APY 8.32%, TVL $1.17M, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token; Ethereum의 infinifi, APY 5.67%, TVL $1.07M, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token; Ethereum의 infinifi, APY 6.84%, TVL $3.15M, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

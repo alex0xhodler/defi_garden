@@ -1,10 +1,10 @@
 # THAT DeFi Yields
 
-The highest honest THAT yield right now is 11.05% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THAT yield right now is 10.51% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127&src=seo_token) | Polygon | 11.05% | $223.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127&src=seo_token) | Polygon | 10.51% | $223.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THAT yield today?
 
-11.05% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+10.51% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many THAT pools clear the TVL floor?
 

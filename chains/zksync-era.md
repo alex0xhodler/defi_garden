@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZKsync Era pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $437.8K in total.
+3 live pools clear this page's $100K TVL floor, $437.7K in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 - [Polygon](https://www.defi.garden/chains/polygon)
-- [Flare](https://www.defi.garden/chains/flare)
 - [Berachain](https://www.defi.garden/chains/berachain)
+- [Flare](https://www.defi.garden/chains/flare)
 - [Gnosis](https://www.defi.garden/chains/gnosis)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
