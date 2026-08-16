@@ -1789,3 +1789,546 @@ a.pool-token-chip:hover {
     transform: none !important;
   }
 }
+
+/* ── Yield-Funded Virtual Card Terminal (PRD Design 3) ─────────────────── */
+.yield-card-terminal {
+  background: var(--cert-paper);
+  border: 1px solid var(--cert-rule-strong);
+  border-radius: var(--radius-lg, 16px);
+  padding: 24px;
+  margin: 24px 0;
+  box-sizing: border-box;
+}
+
+.yield-card-context-banner {
+  margin-bottom: 20px;
+}
+
+.yield-card-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.yield-card-badge {
+  display: inline-block;
+  background: var(--cert-green-wash-strong);
+  color: var(--cert-green);
+  font-family: var(--font-family-base, sans-serif);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.yield-card-context-meta {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.8rem;
+  color: var(--cert-ink-3);
+}
+
+.yield-card-title {
+  font-family: 'Besley', Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--cert-ink);
+  margin: 0 0 6px;
+  letter-spacing: -0.01em;
+}
+
+.yield-card-subtitle {
+  font-size: 0.88rem;
+  color: var(--cert-ink-2);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Slider Section */
+.yield-card-slider-section {
+  background: var(--cert-vellum);
+  border: 1px solid var(--cert-rule);
+  border-radius: var(--radius-base, 12px);
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+
+.yield-card-slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.yield-card-deposit-readout,
+.yield-card-yield-readout {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.readout-label {
+  font-size: 0.75rem;
+  color: var(--cert-ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.readout-value {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--cert-ink);
+}
+
+.yield-card-monthly-yield {
+  color: var(--cert-green);
+}
+
+.yield-card-slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.yield-card-slider {
+  width: 100%;
+  height: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--cert-paper-deep);
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+.yield-card-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--cert-green);
+  border: 2px solid var(--cert-paper);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.yield-card-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--cert-green);
+  border: 2px solid var(--cert-paper);
+  cursor: pointer;
+}
+
+.yield-card-presets {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.yield-preset-btn {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.78rem;
+  padding: 4px 10px;
+  border: 1px solid var(--cert-rule);
+  border-radius: var(--radius-sm, 6px);
+  background: var(--cert-paper);
+  color: var(--cert-ink-2);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.yield-preset-btn:hover {
+  border-color: var(--cert-green);
+  color: var(--cert-ink);
+}
+
+.yield-preset-btn.is-active {
+  background: var(--cert-green);
+  color: var(--cert-on-green);
+  border-color: var(--cert-green);
+}
+
+/* Subscription Unlock Grid */
+.yield-card-grid-section {
+  margin-bottom: 22px;
+}
+
+.yield-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+.yield-card-item {
+  padding: 12px 14px;
+  border-radius: var(--radius-base, 12px);
+  background: var(--cert-vellum);
+  border: 1px solid var(--cert-rule);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 72px;
+}
+
+.yield-card-item:hover {
+  border-color: var(--cert-green);
+  transform: translateY(-1px);
+}
+
+.yield-card-item.is-covered {
+  border: 1px solid var(--cert-rule-strong);
+}
+
+.yield-card-item.is-covered.is-selected {
+  border: 2px solid var(--cert-green);
+  background: var(--cert-green-wash);
+}
+
+.yield-card-item.is-locked {
+  border: 1px dashed var(--cert-rule);
+  opacity: 0.65;
+}
+
+.yield-card-item.is-locked:hover {
+  opacity: 0.9;
+  border-color: var(--cert-ink-3);
+}
+
+.yield-card-item-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.yield-card-brand-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.yield-card-brand-icon-fallback {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.yield-card-item-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--cert-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.yield-card-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+
+.yield-card-item-price {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.76rem;
+  color: var(--cert-ink-3);
+  font-weight: 600;
+}
+
+.yield-card-status-pill {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.pill-covered {
+  background: var(--cert-green-wash-strong);
+  color: var(--cert-green);
+}
+
+.pill-locked {
+  background: var(--cert-paper-deep);
+  color: var(--cert-ink-3);
+}
+
+/* Virtual Visa Card & Reservation Form Row */
+.yield-card-bottom-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 20px;
+  align-items: stretch;
+}
+
+@media (max-width: 768px) {
+  .yield-card-bottom-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.virtual-visa-card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.virtual-visa-card {
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 1.586 / 1;
+  border-radius: 14px;
+  padding: 18px 20px;
+  background: linear-gradient(135deg, #11261d 0%, #1e4536 60%, #0d1e16 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.visa-card-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visa-gold-chip {
+  width: 36px;
+  height: 26px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #fae08c 0%, #d4af37 50%, #997819 100%);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.visa-gold-chip .chip-circuit-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.visa-logo-svg {
+  display: block;
+}
+
+.visa-card-center {
+  margin: 10px 0;
+}
+
+.visa-card-label-sub {
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.65);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.visa-card-funded-label {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.visa-card-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.visa-card-network-info {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+
+.visa-card-cap-badge {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.18);
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+/* Reservation Form & Receipt */
+.yield-card-reservation-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yield-card-reservation {
+  background: var(--cert-vellum);
+  border: 1px solid var(--cert-rule);
+  border-radius: var(--radius-base, 12px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.reservation-title {
+  font-family: 'Besley', Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--cert-ink);
+  margin: 0 0 6px;
+}
+
+.reservation-subtitle {
+  font-size: 0.8rem;
+  color: var(--cert-ink-3);
+  margin: 0 0 14px;
+  line-height: 1.4;
+}
+
+.reservation-input-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.email-input {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 12px;
+  border: 1px solid var(--cert-rule-strong);
+  border-radius: var(--radius-sm, 6px);
+  font-size: 0.88rem;
+  background: var(--cert-paper);
+  color: var(--cert-ink);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.email-input:focus {
+  border-color: var(--cert-green);
+}
+
+.reserve-submit-btn {
+  padding: 10px 16px;
+  background: var(--cert-green);
+  color: var(--cert-on-green);
+  border: none;
+  border-radius: var(--radius-sm, 6px);
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  white-space: nowrap;
+}
+
+.reserve-submit-btn:hover {
+  background: var(--cert-green-hover);
+}
+
+.reserve-submit-btn:active {
+  background: var(--cert-green-active);
+}
+
+.validation-error {
+  color: var(--color-error, #c53030);
+  font-size: 0.78rem;
+  margin-top: 6px;
+}
+
+.yield-card-receipt {
+  background: var(--cert-green-wash);
+  border: 1px solid var(--cert-green);
+  border-radius: var(--radius-base, 12px);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.receipt-spot-badge {
+  display: inline-block;
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: var(--cert-green);
+  color: var(--cert-on-green);
+  padding: 3px 10px;
+  border-radius: 9999px;
+  margin-bottom: 8px;
+}
+
+.receipt-title {
+  font-family: 'Besley', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--cert-ink);
+  margin: 0 0 6px;
+}
+
+.receipt-summary {
+  font-size: 0.85rem;
+  color: var(--cert-ink-2);
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.receipt-note {
+  font-size: 0.8rem;
+  color: var(--cert-ink-3);
+  margin: 0 0 12px;
+  max-width: 320px;
+  line-height: 1.4;
+}
+
+.receipt-share-btn {
+  font-size: 0.82rem;
+  padding: 6px 14px;
+  border: 1px solid var(--cert-green);
+  background: var(--cert-paper);
+  color: var(--cert-green);
+  border-radius: var(--radius-sm, 6px);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.receipt-share-btn:hover {
+  background: var(--cert-green);
+  color: var(--cert-on-green);
+}
