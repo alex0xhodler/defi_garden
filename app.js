@@ -3621,10 +3621,60 @@ function App() {
               )
             )
           ),
-          // Dead-pool alternatives (spec 072): top-TVL stablecoin pools via the same trust rails.
+          // Spec 275: Active Recovery Action Card with quick-pivot discovery chips
+          deadPoolResolved && React.createElement('div', { className: 'dead-pool-recovery-card' },
+            React.createElement('div', { className: 'recovery-search-prompt' }, t('deadPoolRecoveryPrompt')),
+            React.createElement('div', { className: 'recovery-chips-grid' },
+              [
+                { label: 'USDC', query: 'USDC', type: 'token' },
+                { label: 'USDT', query: 'USDT', type: 'token' },
+                { label: 'ETH', query: 'ETH', type: 'token' },
+                { label: 'SOL', query: 'SOL', type: 'token' },
+                { label: 'Kamino', query: 'Kamino', type: 'protocol' },
+                { label: 'Aave V3', query: 'Aave V3', type: 'protocol' },
+                { label: 'Pendle', query: 'Pendle', type: 'protocol' },
+                { label: 'Morpho', query: 'Morpho', type: 'protocol' }
+              ].map((chip) =>
+                React.createElement('button', {
+                  key: chip.label,
+                  type: 'button',
+                  className: 'recovery-chip',
+                  'data-query': chip.query,
+                  onClick: () => {
+                    setDeadPoolParam(null);
+                    try {
+                      const url = new URL(window.location.href);
+                      url.searchParams.delete('pool');
+                      window.history.replaceState({}, '', url.toString());
+                    } catch (err) {}
+                    if (chip.type === 'token') {
+                      handleTokenSelect(chip.query);
+                    } else if (chip.type === 'protocol') {
+                      exitPoolViewForNewSearch();
+                      setChainMode(true);
+                      setSelectedChain('All');
+                      setSelectedToken('');
+                      setSelectedProtocols([chip.query]);
+                      setSearchInput(chip.query);
+                      setShowFilters(true);
+                      setShowAutocomplete(false);
+                      setHighlightedIndex(-1);
+                      Analytics.trackSearch(chip.query, {
+                        selected_protocol: chip.query,
+                        input_method: 'recovery_chip',
+                        surface: 'dead_pool_recovery',
+                        language
+                      });
+                    }
+                  }
+                }, chip.label)
+              )
+            )
+          ),
+          // Dead-pool alternatives (spec 072 / 275): top-TVL stablecoin pools via the same trust rails.
           deadPoolResolved && deadPoolAlternatives.items.length > 0 && React.createElement('div', { className: 'empty-state-alternatives' },
             React.createElement('div', { className: 'empty-submessage' },
-              t('emptyStateAltHeadingStable')
+              t('deadPoolAltHeading')
             ),
             React.createElement('div', { className: 'pools-grid' },
               deadPoolAlternatives.items.map((pool, index) =>
