@@ -1,31 +1,31 @@
 # EIGEN DeFi Yields
 
-The highest honest EIGEN yield right now is 2.18% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EIGEN yield right now is 1.11% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 0.80% | $1.05M |
-| [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.48% | $196.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 2.18% | $126.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 0.16% | $1.06M |
+| [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.34% | $196.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 1.11% | $128.1K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, EIGEN's lower-variability candidates are curve-dex (Ethereum), 0.34% APY, $196.7K TVL, https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token; uniswap-v3 (Ethereum), 1.11% APY, $128.1K TVL, https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token; uniswap-v3 (Ethereum), 0.16% APY, $1.06M TVL, https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.48% | $196.2K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 2.18% | $126.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 0.80% | $1.05M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token) | Ethereum | 0.34% | $196.7K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token) | Ethereum | 1.11% | $128.1K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token) | Ethereum | 0.16% | $1.06M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EIGEN shows up in 3 pools here, with rates from 0.48% to 2.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+EIGEN shows up in 3 pools here, with rates from 0.16% to 1.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.10% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.17% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.80% | 4.28% | Base rate |
-| curve-dex | 0.48% | 1.47% | Base rate |
-| uniswap-v3 | 2.18% | 3.10% | Base rate |
+| uniswap-v3 | 0.16% | 3.65% | Base rate |
+| curve-dex | 0.34% | 1.38% | Base rate |
+| uniswap-v3 | 1.11% | 3.17% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EIGEN yield today?
 
-2.18% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.11% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EIGEN pools clear the TVL floor?
 
@@ -53,9 +53,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which EIGEN pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, EIGEN's lower-variability candidates are curve-dex (Ethereum), 0.34% APY, $196.7K TVL, https://www.defi.garden/?pool=299e4ce8-3f76-4475-8a84-489286714bb4&src=seo_token; uniswap-v3 (Ethereum), 1.11% APY, $128.1K TVL, https://www.defi.garden/?pool=1b12d383-6ca1-4047-bae1-28c9c58f04ac&src=seo_token; uniswap-v3 (Ethereum), 0.16% APY, $1.06M TVL, https://www.defi.garden/?pool=c868c20f-8156-4230-9e60-586f42879c66&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ tcpRateStabilityRankedAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

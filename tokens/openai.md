@@ -7,9 +7,9 @@ The highest honest OPENAI yield right now is 209.04% on uniswap-v2 (Base), among
 | [uniswap-v2 →](https://www.defi.garden/?pool=80878f35-9554-5410-b6e1-a9f92e3e423d&src=seo_token) | Base | 209.04% | $123.6K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank OPENAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -43,21 +43,21 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which OPENAI pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank OPENAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

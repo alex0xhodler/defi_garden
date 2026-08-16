@@ -7,9 +7,9 @@ The highest honest NTBILL yield right now is 3.70% on nest-credit (Plume Mainnet
 | [nest-credit →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b&src=seo_token) | Plume Mainnet | 3.70% | $2.44M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank NTBILL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,9 +27,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which NTBILL pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank NTBILL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

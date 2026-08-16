@@ -1,33 +1,33 @@
 # LIUSD DeFi Yields
 
-The highest honest LIUSD yield right now is 8.89% on infinifi (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIUSD yield right now is 8.32% on infinifi (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token) | Ethereum | 8.25% | $5.67M |
-| [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 7.30% | $3.16M |
-| [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.89% | $1.26M |
-| [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token) | Ethereum | 6.05% | $1.07M |
+| [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token) | Ethereum | 7.73% | $5.66M |
+| [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 6.84% | $3.15M |
+| [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.32% | $1.2M |
+| [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token) | Ethereum | 5.67% | $1.07M |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, LIUSD's lower-variability candidates are infinifi (Ethereum), 7.73% APY, $5.66M TVL, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token; infinifi (Ethereum), 8.32% APY, $1.2M TVL, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token; infinifi (Ethereum), 5.67% APY, $1.07M TVL, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token; infinifi (Ethereum), 6.84% APY, $3.15M TVL, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token) | Ethereum | 8.25% | $5.67M |
-| 2 | [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.89% | $1.26M |
-| 3 | [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token) | Ethereum | 6.05% | $1.07M |
-| 4 | [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 7.30% | $3.16M |
+| 1 | [infinifi →](https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token) | Ethereum | 7.73% | $5.66M |
+| 2 | [infinifi →](https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token) | Ethereum | 8.32% | $1.2M |
+| 3 | [infinifi →](https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token) | Ethereum | 5.67% | $1.07M |
+| 4 | [infinifi →](https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token) | Ethereum | 6.84% | $3.15M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LIUSD shows up in 4 pools here, with rates from 6.05% to 8.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LIUSD shows up in 4 pools here, with rates from 5.67% to 8.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.54% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| infinifi | 8.25% | 8.00% | Base rate |
-| infinifi | 7.30% | 7.08% | Base rate |
-| infinifi | 8.89% | 8.62% | Base rate |
-| infinifi | 6.05% | 5.86% | Base rate |
+| infinifi | 7.73% | 7.91% | Base rate |
+| infinifi | 6.84% | 7.00% | Base rate |
+| infinifi | 8.32% | 8.52% | Base rate |
+| infinifi | 5.67% | 5.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,19 +46,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest LIUSD yield today?
 
-8.89% APY on infinifi (Ethereum), based on live DefiLlama data.
+8.32% APY on infinifi (Ethereum), based on live DefiLlama data.
 
 ### How many LIUSD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $11.16M in total.
+4 live pools clear this page's $100K TVL floor, $11.08M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which LIUSD pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, LIUSD's lower-variability candidates are infinifi (Ethereum), 7.73% APY, $5.66M TVL, https://www.defi.garden/?pool=cda362c2-3822-4d0f-bc56-383bdc5ed3fc&src=seo_token; infinifi (Ethereum), 8.32% APY, $1.2M TVL, https://www.defi.garden/?pool=01def518-e633-4f6f-a497-e1e29deedd2b&src=seo_token; infinifi (Ethereum), 5.67% APY, $1.07M TVL, https://www.defi.garden/?pool=fef01bce-008a-43b0-85f9-5377a56411c4&src=seo_token; infinifi (Ethereum), 6.84% APY, $3.15M TVL, https://www.defi.garden/?pool=a83398f6-9f44-4046-8e30-12bae393e54d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ tcpRateStabilityRankedAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

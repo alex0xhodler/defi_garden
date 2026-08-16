@@ -1,15 +1,15 @@
 # HWHYPE DeFi Yields
 
-The highest honest HWHYPE yield right now is 5.11% on hyperwave (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HWHYPE yield right now is 4.79% on hyperwave (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperwave →](https://www.defi.garden/?pool=88c6f0fd-5371-4b60-8032-ddf168b4bdd6&src=seo_token) | Hyperliquid L1 | 5.11% | $1.14M |
+| [hyperwave →](https://www.defi.garden/?pool=88c6f0fd-5371-4b60-8032-ddf168b4bdd6&src=seo_token) | Hyperliquid L1 | 4.79% | $1.16M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank HWHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HWHYPE yield today?
 
-5.11% APY on hyperwave (Hyperliquid L1), based on live DefiLlama data.
+4.79% APY on hyperwave (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many HWHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.14M in total.
+1 live pool clear this page's $100K TVL floor, $1.16M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which HWHYPE pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank HWHYPE pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

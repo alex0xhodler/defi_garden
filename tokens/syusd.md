@@ -1,36 +1,36 @@
 # SYUSD DeFi Yields
 
-The highest honest SYUSD yield right now is 5.50% on pendle (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYUSD yield right now is 5.49% on pendle (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token) | Ethereum | 4.77% | $2.13M |
-| [pendle →](https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token) | Ethereum | 5.50% | $2.13M |
+| [pendle →](https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token) | Ethereum | 4.71% | $2.13M |
+| [pendle →](https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token) | Ethereum | 5.49% | $2.13M |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, SYUSD's lower-variability candidates are pendle (Ethereum), 5.49% APY, $2.13M TVL, https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token; pendle (Ethereum), 4.71% APY, $2.13M TVL, https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token) | Ethereum | 5.50% | $2.13M |
-| 2 | [pendle →](https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token) | Ethereum | 4.77% | $2.13M |
+| 1 | [pendle →](https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token) | Ethereum | 5.49% | $2.13M |
+| 2 | [pendle →](https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token) | Ethereum | 4.71% | $2.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SYUSD shows up in 2 pools here, with rates from 4.77% to 5.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SYUSD shows up in 2 pools here, with rates from 4.71% to 5.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.40% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 4.77% | 5.62% | Base rate |
-| pendle | 5.50% | 5.18% | Base rate |
+| pendle | 4.71% | 5.48% | Base rate |
+| pendle | 5.49% | 5.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SYUSD yield today?
 
-5.50% APY on pendle (Ethereum), based on live DefiLlama data.
+5.49% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SYUSD pools clear the TVL floor?
 
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which SYUSD pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, SYUSD's lower-variability candidates are pendle (Ethereum), 5.49% APY, $2.13M TVL, https://www.defi.garden/?pool=392e2c0a-a086-46a3-841f-ca4d476eb5e1&src=seo_token; pendle (Ethereum), 4.71% APY, $2.13M TVL, https://www.defi.garden/?pool=5f27c880-eca6-4a53-9035-08745fba73f3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,4 +65,4 @@ tcpRateStabilityRankedAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

@@ -1,15 +1,15 @@
 # CKUSDC DeFi Yields
 
-The highest honest CKUSDC yield right now is 9.56% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CKUSDC yield right now is 8.60% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 9.56% | $544.9K |
+| [icpswap →](https://www.defi.garden/?pool=8d70550f-b6b4-4b01-9885-878f69f3d690&src=seo_token) | ICP | 8.60% | $552.7K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank CKUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CKUSDC yield today?
 
-9.56% APY on icpswap (ICP), based on live DefiLlama data.
+8.60% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many CKUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $544.9K in total.
+1 live pool clear this page's $100K TVL floor, $552.7K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which CKUSDC pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank CKUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

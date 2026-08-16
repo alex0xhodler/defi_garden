@@ -1,15 +1,15 @@
 # UNIUSDT DeFi Yields
 
-The highest honest UNIUSDT yield right now is 2.99% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UNIUSDT yield right now is 3.20% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=15800e9b-9ab9-57c7-8957-deb1d823cfcc&src=seo_token) | Ethereum | 2.99% | $966K |
+| [morpho-blue →](https://www.defi.garden/?pool=15800e9b-9ab9-57c7-8957-deb1d823cfcc&src=seo_token) | Ethereum | 3.20% | $843.7K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank UNIUSDT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UNIUSDT yield today?
 
-2.99% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.20% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many UNIUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $966K in total.
+1 live pool clear this page's $100K TVL floor, $843.7K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which UNIUSDT pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank UNIUSDT pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

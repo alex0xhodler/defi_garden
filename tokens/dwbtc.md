@@ -1,15 +1,15 @@
 # DWBTC DeFi Yields
 
-The highest honest DWBTC yield right now is 0.17% on gami-labs (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DWBTC yield right now is 0.18% on gami-labs (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=72fe2b6a-bb86-40c9-87ea-9dd97e9cb8bf&src=seo_token) | Ethereum | 0.17% | $270.1K |
+| [gami-labs →](https://www.defi.garden/?pool=72fe2b6a-bb86-40c9-87ea-9dd97e9cb8bf&src=seo_token) | Ethereum | 0.18% | $307.7K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank DWBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DWBTC yield today?
 
-0.17% APY on gami-labs (Ethereum), based on live DefiLlama data.
+0.18% APY on gami-labs (Ethereum), based on live DefiLlama data.
 
 ### How many DWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $270.1K in total.
+1 live pool clear this page's $100K TVL floor, $307.7K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which DWBTC pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank DWBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

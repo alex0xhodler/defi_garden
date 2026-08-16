@@ -1,29 +1,29 @@
 # POD DeFi Yields
 
-The highest honest POD yield right now is 198.18% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POD yield right now is 153.33% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 2.46% | $4.35M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 198.18% | $249.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 3.94% | $4.27M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 153.33% | $248.7K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, POD's lower-variability candidates are uniswap-v4 (Base), 3.94% APY, $4.27M TVL, https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token; aerodrome-slipstream (Base), 153.33% APY, $248.7K TVL, https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 2.46% | $4.35M |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 198.18% | $249.1K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token) | Base | 3.94% | $4.27M |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token) | Base | 153.33% | $248.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-POD shows up in 2 pools here, with rates from 2.46% to 198.18% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+POD shows up in 2 pools here, with rates from 3.94% to 153.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 196.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 176.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ POD shows up in 2 pools here, with rates from 2.46% to 198.18% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 2.46% | 15.74% | Base rate |
-| aerodrome-slipstream | 198.18% | 378.01% | 61.70% incentives |
+| uniswap-v4 | 3.94% | 14.92% | Base rate |
+| aerodrome-slipstream | 153.33% | 337.99% | 65.78% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,31 +40,31 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest POD yield today?
 
-198.18% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+153.33% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many POD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.6M in total.
+2 live pools clear this page's $100K TVL floor, $4.52M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which POD pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, POD's lower-variability candidates are uniswap-v4 (Base), 3.94% APY, $4.27M TVL, https://www.defi.garden/?pool=371fd70e-301d-49e0-b072-a8af7470d8d4&src=seo_token; aerodrome-slipstream (Base), 153.33% APY, $248.7K TVL, https://www.defi.garden/?pool=bb42cceb-30ab-5e80-866b-117e3f154c06&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

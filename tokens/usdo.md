@@ -5,16 +5,16 @@ The highest honest USDO yield right now is 3.10% on openeden-usdo (Ethereum), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.10% | $25.87M |
-| [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $190K |
+| [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $190.1K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, USDO's lower-variability candidates are openeden-usdo (BSC), 3.10% APY, $190.1K TVL, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; openeden-usdo (Ethereum), 3.10% APY, $25.87M TVL, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $190K |
+| 1 | [openeden-usdo →](https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token) | BSC | 3.10% | $190.1K |
 | 2 | [openeden-usdo →](https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token) | Ethereum | 3.10% | $25.87M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -48,9 +48,9 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which USDO pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, USDO's lower-variability candidates are openeden-usdo (BSC), 3.10% APY, $190.1K TVL, https://www.defi.garden/?pool=85d9b9d3-3ca0-410c-bde0-d8ab07fe21c3&src=seo_token; openeden-usdo (Ethereum), 3.10% APY, $25.87M TVL, https://www.defi.garden/?pool=f083596e-032d-4d6b-a7a8-1836d3f99bcd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -66,4 +66,4 @@ tcpRateStabilityRankedAnswer
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

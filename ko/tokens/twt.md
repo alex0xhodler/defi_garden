@@ -4,12 +4,12 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [venus-core-pool →](https://www.defi.garden/?pool=c3c5deca-1cfe-42c8-aed4-8c8dd618e98e&src=seo_token) | BSC | 0.01% | $518.4K |
+| [venus-core-pool →](https://www.defi.garden/?pool=c3c5deca-1cfe-42c8-aed4-8c8dd618e98e&src=seo_token) | BSC | 0.01% | $501.5K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## APY 이력 기반 수익률 안정성
 
-tcpRateStabilityInsufficientAnswer
+비교할 수 있는 TWT 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -21,15 +21,15 @@ DefiLlama 실시간 데이터 기준, BSC의 venus-core-pool에서 APY 0.01%예�
 
 ### TWT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $518.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $501.5K예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### tcpRateStabilityFaqQ
+### TWT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-tcpRateStabilityInsufficientAnswer
+비교할 수 있는 TWT 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 16, 2026

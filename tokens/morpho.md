@@ -1,53 +1,53 @@
 # MORPHO DeFi Yields
 
-The highest honest MORPHO yield right now is 43.51% on aerodrome-slipstream (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MORPHO yield right now is 68.42% on aerodrome-slipstream (Base), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [moonwell-lending →](https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token) | Base | 0.15% | $10.51M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 43.51% | $1.09M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 7.94% | $596.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 4.79% | $404.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 17.21% | $371.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 16.28% | $136.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 20.67% | $127K |
+| [moonwell-lending →](https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token) | Base | 0.01% | $10.75M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 68.42% | $835.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 2.29% | $604.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 3.00% | $407.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 10.05% | $375.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 3.06% | $137.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 12.16% | $128.1K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, MORPHO's lower-variability candidates are moonwell-lending (Base), 0.01% APY, $10.75M TVL, https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token; uniswap-v4 (Ethereum), 2.29% APY, $604.2K TVL, https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token; raydium-amm (Solana), 3.00% APY, $407.4K TVL, https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token; uniswap-v3 (Ethereum), 3.06% APY, $137.2K TVL, https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token; uniswap-v3 (Base), 12.16% APY, $128.1K TVL, https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token; aerodrome-slipstream (Base), 68.42% APY, $835.2K TVL, https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token; uniswap-v3 (Base), 10.05% APY, $375.3K TVL, https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [moonwell-lending →](https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token) | Base | 0.15% | $10.51M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 7.94% | $596.9K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 4.79% | $404.3K |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 16.28% | $136.2K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 20.67% | $127K |
-| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 43.51% | $1.09M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 17.21% | $371.9K |
+| 1 | [moonwell-lending →](https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token) | Base | 0.01% | $10.75M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token) | Ethereum | 2.29% | $604.2K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token) | Solana | 3.00% | $407.4K |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token) | Ethereum | 3.06% | $137.2K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token) | Base | 12.16% | $128.1K |
+| 6 | [aerodrome-slipstream →](https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token) | Base | 68.42% | $835.2K |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token) | Base | 10.05% | $375.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MORPHO shows up in 7 pools here, with rates from 0.15% to 43.51% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+MORPHO shows up in 7 pools here, with rates from 0.01% to 68.42% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 18.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 16.72% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 7 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 6 of 7 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| moonwell-lending | 0.15% | 0.16% | 91.35% incentives |
-| aerodrome-slipstream | 43.51% | 76.16% | 34.78% incentives |
-| uniswap-v4 | 7.94% | 6.19% | Base rate |
-| raydium-amm | 4.79% | 18.90% | Base rate |
-| uniswap-v3 | 17.21% | 44.66% | Base rate |
-| uniswap-v3 | 16.28% | 15.54% | Base rate |
-| uniswap-v3 | 20.67% | 61.27% | Base rate |
+| moonwell-lending | 0.01% | 0.16% | Base rate |
+| aerodrome-slipstream | 68.42% | 70.49% | 78.92% incentives |
+| uniswap-v4 | 2.29% | 5.72% | Base rate |
+| raydium-amm | 3.00% | 16.72% | Base rate |
+| uniswap-v3 | 10.05% | 42.46% | Base rate |
+| uniswap-v3 | 3.06% | 15.38% | Base rate |
+| uniswap-v3 | 12.16% | 58.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,19 +55,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MORPHO yield today?
 
-43.51% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+68.42% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MORPHO pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $14.29M in total.
+8 live pools clear this page's $100K TVL floor, $14.31M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which MORPHO pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, MORPHO's lower-variability candidates are moonwell-lending (Base), 0.01% APY, $10.75M TVL, https://www.defi.garden/?pool=4af140f4-7467-48a5-8993-cd68003a7a6f&src=seo_token; uniswap-v4 (Ethereum), 2.29% APY, $604.2K TVL, https://www.defi.garden/?pool=7f8017d4-98f7-4e4c-b626-c4863ba4d356&src=seo_token; raydium-amm (Solana), 3.00% APY, $407.4K TVL, https://www.defi.garden/?pool=2167056c-624c-57bd-a01f-28974d08de13&src=seo_token; uniswap-v3 (Ethereum), 3.06% APY, $137.2K TVL, https://www.defi.garden/?pool=53da6e5a-778d-40d5-a5f3-f188b27cb576&src=seo_token; uniswap-v3 (Base), 12.16% APY, $128.1K TVL, https://www.defi.garden/?pool=ccc0d82d-c94f-406f-ace2-20b2ec5e278a&src=seo_token; aerodrome-slipstream (Base), 68.42% APY, $835.2K TVL, https://www.defi.garden/?pool=f884e3f7-f6e1-4b9e-b041-8624411ccddf&src=seo_token; uniswap-v3 (Base), 10.05% APY, $375.3K TVL, https://www.defi.garden/?pool=b22b7d0b-f09e-4d4f-9790-8a5619646c41&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -84,4 +84,4 @@ tcpRateStabilityRankedAnswer
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

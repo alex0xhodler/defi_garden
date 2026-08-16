@@ -1,15 +1,15 @@
 # SENPYUSDMWIN DeFi Yields
 
-The highest honest SENPYUSDMWIN yield right now is 8.38% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENPYUSDMWIN yield right now is 8.03% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e0025c75-bee9-59ed-9b4b-efe23123405f&src=seo_token) | Ethereum | 8.38% | $21.19M |
+| [morpho-blue →](https://www.defi.garden/?pool=e0025c75-bee9-59ed-9b4b-efe23123405f&src=seo_token) | Ethereum | 8.03% | $21.31M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SENPYUSDMWIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENPYUSDMWIN yield today?
 
-8.38% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+8.03% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SENPYUSDMWIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $21.19M in total.
+1 live pool clear this page's $100K TVL floor, $21.31M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which SENPYUSDMWIN pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SENPYUSDMWIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

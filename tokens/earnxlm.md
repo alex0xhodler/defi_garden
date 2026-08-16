@@ -4,12 +4,12 @@ The highest honest EARNXLM yield right now is 3.00% on gami-labs (Stellar), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_token) | Stellar | 3.00% | $2.71M |
+| [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_token) | Stellar | 3.00% | $2.69M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank EARNXLM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,15 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EARNXLM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.71M in total.
+1 live pool clear this page's $100K TVL floor, $2.69M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which EARNXLM pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank EARNXLM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

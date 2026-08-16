@@ -1,39 +1,39 @@
 # CASH DeFi Yields
 
-The highest honest CASH yield right now is 5.33% on kamino-lend (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CASH yield right now is 4.10% on kamino-lend (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 2.05% | $7.14M |
-| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 5.33% | $1.03M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 0.83% | $497K |
+| [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 2.00% | $7.14M |
+| [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 4.10% | $3.49M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 0.90% | $497K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, CASH's lower-variability candidates are kamino-lend (Solana), 4.10% APY, $3.49M TVL, https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token; kamino-liquidity (Solana), 0.90% APY, $497K TVL, https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token; orca-dex (Solana), 2.00% APY, $7.14M TVL, https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 5.33% | $1.03M |
-| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 0.83% | $497K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 2.05% | $7.14M |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token) | Solana | 4.10% | $3.49M |
+| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token) | Solana | 0.90% | $497K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token) | Solana | 2.00% | $7.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CASH shows up in 3 pools here, with rates from 0.83% to 5.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CASH shows up in 3 pools here, with rates from 0.90% to 4.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.05% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 2.05% | 1.05% | Base rate |
-| kamino-lend | 5.33% | 3.73% | Base rate |
-| kamino-liquidity | 0.83% | 0.59% | Base rate |
+| orca-dex | 2.00% | 1.14% | Base rate |
+| kamino-lend | 4.10% | 3.83% | Base rate |
+| kamino-liquidity | 0.90% | 0.61% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,19 +41,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CASH yield today?
 
-5.33% APY on kamino-lend (Solana), based on live DefiLlama data.
+4.10% APY on kamino-lend (Solana), based on live DefiLlama data.
 
 ### How many CASH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $8.67M in total.
+3 live pools clear this page's $100K TVL floor, $11.13M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which CASH pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, CASH's lower-variability candidates are kamino-lend (Solana), 4.10% APY, $3.49M TVL, https://www.defi.garden/?pool=6557f42a-a68a-414d-b7ac-3f3b301dda28&src=seo_token; kamino-liquidity (Solana), 0.90% APY, $497K TVL, https://www.defi.garden/?pool=fa200a4c-e14a-4cec-a9e9-583f3c2f1891&src=seo_token; orca-dex (Solana), 2.00% APY, $7.14M TVL, https://www.defi.garden/?pool=515956c6-5b23-4039-803c-bc20ff887688&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ tcpRateStabilityRankedAnswer
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

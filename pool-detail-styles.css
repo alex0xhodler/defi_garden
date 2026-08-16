@@ -1539,7 +1539,8 @@ a.pool-token-chip:hover {
 }
 
 .app.pool-detail-view .container {
-  max-width: none;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
   padding: 0;
   display: block;
   /* 247 world fix: `.app:not(.has-results) .container` (style.css, "Add

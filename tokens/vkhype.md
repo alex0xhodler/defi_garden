@@ -1,27 +1,27 @@
 # VKHYPE DeFi Yields
 
-The highest honest VKHYPE yield right now is 3.49% on pendle (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VKHYPE yield right now is 3.59% on pendle (Hyperliquid L1), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.49% | $665.8K |
-| [pendle →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 3.02% | $665.8K |
+| [pendle →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.59% | $680.8K |
+| [pendle →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 3.06% | $680.8K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, VKHYPE's lower-variability candidates are pendle (Hyperliquid L1), 3.59% APY, $680.8K TVL, https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token; pendle (Hyperliquid L1), 3.06% APY, $680.8K TVL, https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.49% | $665.8K |
-| 2 | [pendle →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 3.02% | $665.8K |
+| 1 | [pendle →](https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token) | Hyperliquid L1 | 3.59% | $680.8K |
+| 2 | [pendle →](https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token) | Hyperliquid L1 | 3.06% | $680.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VKHYPE shows up in 2 pools here, with rates from 3.02% to 3.49% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VKHYPE shows up in 2 pools here, with rates from 3.06% to 3.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.12% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,8 +29,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 3.49% | 3.20% | Base rate |
-| pendle | 3.02% | 3.04% | Base rate |
+| pendle | 3.59% | 3.21% | Base rate |
+| pendle | 3.06% | 3.03% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,19 +38,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VKHYPE yield today?
 
-3.49% APY on pendle (Hyperliquid L1), based on live DefiLlama data.
+3.59% APY on pendle (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many VKHYPE pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.7M in total.
+3 live pools clear this page's $100K TVL floor, $1.74M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which VKHYPE pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, VKHYPE's lower-variability candidates are pendle (Hyperliquid L1), 3.59% APY, $680.8K TVL, https://www.defi.garden/?pool=c38aebbd-e63c-454a-8ee8-f901820cde32&src=seo_token; pendle (Hyperliquid L1), 3.06% APY, $680.8K TVL, https://www.defi.garden/?pool=8949fc00-145b-47bf-9452-7eb89b499f25&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,4 +65,4 @@ tcpRateStabilityRankedAnswer
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

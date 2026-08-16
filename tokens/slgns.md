@@ -1,15 +1,15 @@
 # SLGNS DeFi Yields
 
-The highest honest SLGNS yield right now is 113.36% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SLGNS yield right now is 93.90% on uniswap-v4 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=810d0c5a-17ef-48b3-9414-ab6c05d3a9cb&src=seo_token) | Polygon | 113.36% | $871.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=810d0c5a-17ef-48b3-9414-ab6c05d3a9cb&src=seo_token) | Polygon | 93.90% | $879.5K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SLGNS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SLGNS yield today?
 
-113.36% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+93.90% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many SLGNS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $871.3K in total.
+1 live pool clear this page's $100K TVL floor, $879.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which SLGNS pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SLGNS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

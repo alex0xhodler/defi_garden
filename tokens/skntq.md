@@ -4,12 +4,12 @@ The highest honest SKNTQ yield right now is 10.95% on kinetiq-khype (Hyperliquid
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_token) | Hyperliquid L1 | 10.95% | $10.55M |
+| [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_token) | Hyperliquid L1 | 10.95% | $11.75M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SKNTQ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,15 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SKNTQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $10.55M in total.
+1 live pool clear this page's $100K TVL floor, $11.75M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which SKNTQ pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SKNTQ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

@@ -4,12 +4,12 @@ The highest honest WSEI yield right now is 1.32% on takara-lend (Sei), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_token) | Sei | 1.32% | $694K |
+| [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_token) | Sei | 1.32% | $690.5K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank WSEI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,15 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WSEI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $694K in total.
+1 live pool clear this page's $100K TVL floor, $690.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which WSEI pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank WSEI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Sei](https://www.defi.garden/chains/sei)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

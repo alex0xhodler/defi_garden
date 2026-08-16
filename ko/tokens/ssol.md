@@ -1,27 +1,27 @@
 # SSOL 디파이 수익률
 
-현재 SSOL의 가장 높은 정직한 수익률은 Solana의 kamino-liquidity에서 0.37%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SSOL의 가장 높은 정직한 수익률은 Solana의 kamino-liquidity에서 0.31%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.25% | $160.7K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.37% | $109.4K |
+| [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.23% | $160.5K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.31% | $109.3K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## APY 이력 기반 수익률 안정성
 
-tcpRateStabilityRankedAnswer
+APY 이력만 기준으로 비교한 SSOL의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.23%, TVL $160.5K, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; Solana의 kamino-liquidity, APY 0.31%, TVL $109.3K, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
-| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
+| 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.25% | $160.7K |
-| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.37% | $109.4K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.23% | $160.5K |
+| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.31% | $109.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SSOL 풀은 여기 2개가 있고, 1개 체인에서 APY가 0.25%부터 0.37%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SSOL 풀은 여기 2개가 있고, 1개 체인에서 APY가 0.23%부터 0.31%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.45%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -31,8 +31,8 @@ SSOL 풀은 여기 2개가 있고, 1개 체인에서 APY가 0.25%부터 0.37%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| orca-dex | 0.25% | 0.54% | 기본 금리 |
-| kamino-liquidity | 0.37% | 0.37% | 기본 금리 |
+| orca-dex | 0.23% | 0.52% | 기본 금리 |
+| kamino-liquidity | 0.31% | 0.37% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,19 +40,19 @@ SSOL 풀은 여기 2개가 있고, 1개 체인에서 APY가 0.25%부터 0.37%까
 
 ### 오늘 SSOL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 0.37%예요.
+DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 0.31%예요.
 
 ### SSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $494.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $500.6K예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### tcpRateStabilityFaqQ
+### SSOL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-tcpRateStabilityRankedAnswer
+APY 이력만 기준으로 비교한 SSOL의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.23%, TVL $160.5K, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; Solana의 kamino-liquidity, APY 0.31%, TVL $109.3K, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -67,4 +67,4 @@ tcpRateStabilityRankedAnswer
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 16, 2026

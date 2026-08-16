@@ -1,29 +1,29 @@
 # BNSOL DeFi Yields
 
-The highest honest BNSOL yield right now is 4.67% on binance-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNSOL yield right now is 4.77% on binance-staked-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [binance-staked-sol →](https://www.defi.garden/?pool=9e709e57-84eb-496b-82ce-2e8f6a17db1b&src=seo_token) | Solana | 4.67% | $772.57M |
+| [binance-staked-sol →](https://www.defi.garden/?pool=9e709e57-84eb-496b-82ce-2e8f6a17db1b&src=seo_token) | Solana | 4.77% | $766.05M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BNSOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BNSOL shows up in 1 pools here, with rates from 4.67% to 4.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BNSOL shows up in 1 pools here, with rates from 4.77% to 4.77% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.76% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| binance-staked-sol | 4.67% | 4.76% | Base rate |
+| binance-staked-sol | 4.77% | 4.75% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -31,19 +31,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BNSOL yield today?
 
-4.67% APY on binance-staked-sol (Solana), based on live DefiLlama data.
+4.77% APY on binance-staked-sol (Solana), based on live DefiLlama data.
 
 ### How many BNSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $773.41M in total.
+2 live pools clear this page's $100K TVL floor, $766.88M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which BNSOL pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BNSOL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -58,4 +58,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

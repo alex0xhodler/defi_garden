@@ -4,18 +4,18 @@ The highest honest XLM yield right now is 0.50% on blend-pools-v2 (Stellar), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $121.93M |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.50% | $649.8K |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $120.38M |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.50% | $641.4K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.06% APY, $120.38M TVL, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; blend-pools-v2 (Stellar), 0.50% APY, $641.4K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $121.93M |
-| 2 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.50% | $649.8K |
+| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $120.38M |
+| 2 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.50% | $641.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -29,8 +29,8 @@ XLM shows up in 2 pools here, with rates from 0.06% to 0.50% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| blend-pools-v2 | 0.06% | 0.06% | 99.76% incentives |
-| blend-pools-v2 | 0.50% | 0.50% | 75.09% incentives |
+| blend-pools-v2 | 0.06% | 0.06% | 99.74% incentives |
+| blend-pools-v2 | 0.50% | 0.50% | 74.79% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,15 +42,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XLM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $122.58M in total.
+2 live pools clear this page's $100K TVL floor, $121.02M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which XLM pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.06% APY, $120.38M TVL, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; blend-pools-v2 (Stellar), 0.50% APY, $641.4K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,4 +65,4 @@ tcpRateStabilityRankedAnswer
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

@@ -1,15 +1,15 @@
 # NTX DeFi Yields
 
-The highest honest NTX yield right now is 4.62% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NTX yield right now is 6.78% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=be47e85b-6c1f-4ece-ad70-8eb8f11ca873&src=seo_token) | Cardano | 4.62% | $143.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=be47e85b-6c1f-4ece-ad70-8eb8f11ca873&src=seo_token) | Cardano | 6.78% | $140K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank NTX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NTX yield today?
 
-4.62% APY on minswap-dex (Cardano), based on live DefiLlama data.
+6.78% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many NTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.3K in total.
+1 live pool clear this page's $100K TVL floor, $140K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which NTX pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank NTX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

@@ -1,23 +1,23 @@
 # STORM DeFi Yields
 
-The highest honest STORM yield right now is 23.05% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STORM yield right now is 22.63% on ston.fi (TON), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=080e99a0-9879-496c-81ec-7ef89ca7bab7&src=seo_token) | TON | 23.05% | $307.7K |
+| [ston.fi →](https://www.defi.garden/?pool=080e99a0-9879-496c-81ec-7ef89ca7bab7&src=seo_token) | TON | 22.63% | $302.8K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank STORM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STORM shows up in 1 pools here, with rates from 23.05% to 23.05% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STORM shows up in 1 pools here, with rates from 22.63% to 22.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 21.97% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 22.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,7 +25,7 @@ STORM shows up in 1 pools here, with rates from 23.05% to 23.05% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ston.fi | 23.05% | 21.97% | 95.91% incentives |
+| ston.fi | 22.63% | 22.01% | 93.79% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,19 +33,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STORM yield today?
 
-23.05% APY on ston.fi (TON), based on live DefiLlama data.
+22.63% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many STORM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $909.2K in total.
+2 live pools clear this page's $100K TVL floor, $904.5K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which STORM pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank STORM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,4 +60,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

@@ -1,29 +1,29 @@
 # KODIWETH DeFi Yields
 
-The highest honest KODIWETH yield right now is 31.92% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIWETH yield right now is 32.76% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 31.92% | $232.5K |
-| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 8.40% | $196.2K |
+| [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 32.76% | $242.2K |
+| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 11.09% | $196.4K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, KODIWETH's lower-variability candidates are berapaw (Berachain), 11.09% APY, $196.4K TVL, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; berapaw (Berachain), 32.76% APY, $242.2K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 8.40% | $196.2K |
-| 2 | [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 31.92% | $232.5K |
+| 1 | [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 11.09% | $196.4K |
+| 2 | [berapaw →](https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token) | Berachain | 32.76% | $242.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KODIWETH shows up in 2 pools here, with rates from 8.40% to 31.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KODIWETH shows up in 2 pools here, with rates from 11.09% to 32.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 22.88% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 22.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ KODIWETH shows up in 2 pools here, with rates from 8.40% to 31.92% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| berapaw | 31.92% | 32.82% | 100.00% incentives |
-| berapaw | 8.40% | 12.94% | 100.00% incentives |
+| berapaw | 32.76% | 32.60% | 100.00% incentives |
+| berapaw | 11.09% | 12.77% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,19 +40,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KODIWETH yield today?
 
-31.92% APY on berapaw (Berachain), based on live DefiLlama data.
+32.76% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIWETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $428.7K in total.
+2 live pools clear this page's $100K TVL floor, $438.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which KODIWETH pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, KODIWETH's lower-variability candidates are berapaw (Berachain), 11.09% APY, $196.4K TVL, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; berapaw (Berachain), 32.76% APY, $242.2K TVL, https://www.defi.garden/?pool=b1a757d8-5004-46d9-99c7-085c045bed09&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ tcpRateStabilityRankedAnswer
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

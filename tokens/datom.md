@@ -7,9 +7,9 @@ The highest honest DATOM yield right now is 0.01% on astroport (Neutron), among 
 | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_token) | Neutron | 0.01% | $4.45M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank DATOM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,9 +27,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which DATOM pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank DATOM pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Neutron](https://www.defi.garden/chains/neutron)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

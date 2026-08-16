@@ -4,12 +4,12 @@ The highest honest SPARKUSDC yield right now is 3.70% on morpho-blue (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a5fab52f-73fa-4f44-9c09-9af1eb20996c&src=seo_token) | Base | 3.70% | $46.71M |
+| [morpho-blue →](https://www.defi.garden/?pool=a5fab52f-73fa-4f44-9c09-9af1eb20996c&src=seo_token) | Base | 3.70% | $57.5M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SPARKUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,27 +21,27 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SPARKUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $46.71M in total.
+1 live pool clear this page's $100K TVL floor, $57.5M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which SPARKUSDC pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank SPARKUSDC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

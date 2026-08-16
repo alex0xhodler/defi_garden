@@ -1,15 +1,15 @@
 # MSETHWETH DeFi Yields
 
-The highest honest MSETHWETH yield right now is 4.45% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSETHWETH yield right now is 4.25% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=fa69af57-cbc6-473b-b599-c30304e4e4c3&src=seo_token) | Ethereum | 4.45% | $367.2K |
+| [yearn-finance →](https://www.defi.garden/?pool=fa69af57-cbc6-473b-b599-c30304e4e4c3&src=seo_token) | Ethereum | 4.25% | $369.4K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank MSETHWETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSETHWETH yield today?
 
-4.45% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+4.25% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many MSETHWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $367.2K in total.
+1 live pool clear this page's $100K TVL floor, $369.4K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which MSETHWETH pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank MSETHWETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

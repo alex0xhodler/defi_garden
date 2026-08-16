@@ -1,15 +1,15 @@
 # YMVKATV2 DeFi Yields
 
-The highest honest YMVKATV2 yield right now is 1.07% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YMVKATV2 yield right now is 1.03% on morpho-blue (Katana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=674ba053-28a6-4e66-b129-4d0f0b967184&src=seo_token) | Katana | 1.07% | $280.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=674ba053-28a6-4e66-b129-4d0f0b967184&src=seo_token) | Katana | 1.03% | $288.2K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank YMVKATV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YMVKATV2 yield today?
 
-1.07% APY on morpho-blue (Katana), based on live DefiLlama data.
+1.03% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many YMVKATV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $280.5K in total.
+1 live pool clear this page's $100K TVL floor, $288.2K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which YMVKATV2 pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank YMVKATV2 pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

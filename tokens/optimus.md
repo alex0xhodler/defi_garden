@@ -1,15 +1,15 @@
 # OPTIMUS DeFi Yields
 
-The highest honest OPTIMUS yield right now is 1.62% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPTIMUS yield right now is 0.54% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=72ad7236-af5c-4390-b179-181d64999f08&src=seo_token) | Ethereum | 1.62% | $139.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=72ad7236-af5c-4390-b179-181d64999f08&src=seo_token) | Ethereum | 0.54% | $139.2K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank OPTIMUS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OPTIMUS yield today?
 
-1.62% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.54% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OPTIMUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $139.5K in total.
+1 live pool clear this page's $100K TVL floor, $139.2K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which OPTIMUS pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank OPTIMUS pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

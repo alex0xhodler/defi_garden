@@ -7,9 +7,9 @@
 | [uniswap-v2 →](https://www.defi.garden/?pool=80878f35-9554-5410-b6e1-a9f92e3e423d&src=seo_token) | Base | 209.04% | $123.6K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## APY 이력 기반 수익률 안정성
 
-tcpRateStabilityInsufficientAnswer
+비교할 수 있는 OPENAI 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -43,21 +43,21 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 209.04%예요
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### tcpRateStabilityFaqQ
+### OPENAI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-tcpRateStabilityInsufficientAnswer
+비교할 수 있는 OPENAI 풀의 APY 이력이 충분하지 않아요. 이 내용은 APY 이력만 다루며 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 16, 2026

@@ -1,15 +1,15 @@
 # PMFRXUSD DeFi Yields
 
-The highest honest PMFRXUSD yield right now is 18.94% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PMFRXUSD yield right now is 19.70% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=099fab49-5103-4c85-b5e6-fff734eb1691&src=seo_token) | Ethereum | 18.94% | $114.7K |
+| [yearn-finance →](https://www.defi.garden/?pool=099fab49-5103-4c85-b5e6-fff734eb1691&src=seo_token) | Ethereum | 19.70% | $108.9K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank PMFRXUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PMFRXUSD yield today?
 
-18.94% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+19.70% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many PMFRXUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.7K in total.
+1 live pool clear this page's $100K TVL floor, $108.9K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which PMFRXUSD pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank PMFRXUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

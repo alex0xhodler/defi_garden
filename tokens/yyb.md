@@ -1,31 +1,31 @@
 # YYB DeFi Yields
 
-The highest honest YYB yield right now is 33.02% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YYB yield right now is 26.65% on convex-finance (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 17.30% | $266.1K |
-| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 13.98% | $241.1K |
-| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 33.02% | $142.8K |
+| [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 12.51% | $275.2K |
+| [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 16.83% | $234.8K |
+| [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 26.65% | $175.6K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, YYB's lower-variability candidates are curve-dex (Ethereum), 12.51% APY, $275.2K TVL, https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token; convex-finance (Ethereum), 26.65% APY, $175.6K TVL, https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token; yearn-finance (Ethereum), 16.83% APY, $234.8K TVL, https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 13.98% | $241.1K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 33.02% | $142.8K |
-| 3 | [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 17.30% | $266.1K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token) | Ethereum | 12.51% | $275.2K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token) | Ethereum | 26.65% | $175.6K |
+| 3 | [yearn-finance →](https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token) | Ethereum | 16.83% | $234.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-YYB shows up in 3 pools here, with rates from 13.98% to 33.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+YYB shows up in 3 pools here, with rates from 12.51% to 26.65% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 28.19% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 27.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,9 +33,9 @@ YYB shows up in 3 pools here, with rates from 13.98% to 33.02% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 17.30% | 28.19% | Base rate |
-| curve-dex | 13.98% | 17.48% | 99.86% incentives |
-| convex-finance | 33.02% | 33.27% | 99.94% incentives |
+| curve-dex | 12.51% | 17.34% | 96.72% incentives |
+| yearn-finance | 16.83% | 27.48% | Base rate |
+| convex-finance | 26.65% | 33.18% | 98.46% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,19 +43,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest YYB yield today?
 
-33.02% APY on convex-finance (Ethereum), based on live DefiLlama data.
+26.65% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YYB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $650K in total.
+3 live pools clear this page's $100K TVL floor, $685.6K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which YYB pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, YYB's lower-variability candidates are curve-dex (Ethereum), 12.51% APY, $275.2K TVL, https://www.defi.garden/?pool=176cdf57-8f46-47e2-9610-3d59d4f8b6ec&src=seo_token; convex-finance (Ethereum), 26.65% APY, $175.6K TVL, https://www.defi.garden/?pool=74521558-894d-436f-afa7-af802e39d76b&src=seo_token; yearn-finance (Ethereum), 16.83% APY, $234.8K TVL, https://www.defi.garden/?pool=1086598d-7ef0-425e-b247-2ca613302221&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ tcpRateStabilityRankedAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

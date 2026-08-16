@@ -1,15 +1,15 @@
 # PEPECOIN DeFi Yields
 
-The highest honest PEPECOIN yield right now is 0.38% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPECOIN yield right now is 0.48% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=94d4b914-efc8-499f-9391-ea6d5a75b1aa&src=seo_token) | Ethereum | 0.38% | $1.09M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=94d4b914-efc8-499f-9391-ea6d5a75b1aa&src=seo_token) | Ethereum | 0.48% | $1.1M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank PEPECOIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,19 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEPECOIN yield today?
 
-0.38% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.48% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PEPECOIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.09M in total.
+1 live pool clear this page's $100K TVL floor, $1.1M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which PEPECOIN pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank PEPECOIN pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

@@ -1,29 +1,29 @@
 # SYRUP DeFi Yields
 
-The highest honest SYRUP yield right now is 13.48% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SYRUP yield right now is 41.41% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token) | Ethereum | 9.32% | $1.8M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 13.48% | $627.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token) | Ethereum | 40.49% | $1.88M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 41.41% | $662K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, SYRUP's lower-variability candidates are uniswap-v4 (Ethereum), 40.49% APY, $1.88M TVL, https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token; uniswap-v3 (Ethereum), 41.41% APY, $662K TVL, https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token) | Ethereum | 9.32% | $1.8M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 13.48% | $627.3K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token) | Ethereum | 40.49% | $1.88M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token) | Ethereum | 41.41% | $662K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SYRUP shows up in 2 pools here, with rates from 9.32% to 13.48% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SYRUP shows up in 2 pools here, with rates from 40.49% to 41.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 21.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 19.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 9.32% | 17.47% | Base rate |
-| uniswap-v3 | 13.48% | 25.23% | Base rate |
+| uniswap-v4 | 40.49% | 17.05% | Base rate |
+| uniswap-v3 | 41.41% | 22.82% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,19 +40,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SYRUP yield today?
 
-13.48% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+41.41% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SYRUP pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.56M in total.
+3 live pools clear this page's $100K TVL floor, $2.69M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which SYRUP pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, SYRUP's lower-variability candidates are uniswap-v4 (Ethereum), 40.49% APY, $1.88M TVL, https://www.defi.garden/?pool=d8490bb4-a01e-4f21-aaaf-15e6e953951d&src=seo_token; uniswap-v3 (Ethereum), 41.41% APY, $662K TVL, https://www.defi.garden/?pool=7f1c4126-3998-4334-9ce3-c640e869d682&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ tcpRateStabilityRankedAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

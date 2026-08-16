@@ -4,18 +4,18 @@ The highest honest AETH yield right now is 0.09% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token) | Polkadot | 0.09% | $3.2M |
-| [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.01% | $188.4K |
+| [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token) | Polkadot | 0.09% | $3.21M |
+| [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.01% | $188.8K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, AETH's lower-variability candidates are hydration-dex (Polkadot), 0.01% APY, $188.8K TVL, https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token; hydration-dex (Polkadot), 0.09% APY, $3.21M TVL, https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.01% | $188.4K |
-| 2 | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token) | Polkadot | 0.09% | $3.2M |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token) | Polkadot | 0.01% | $188.8K |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token) | Polkadot | 0.09% | $3.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 AETH shows up in 2 pools here, with rates from 0.01% to 0.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.08% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.07% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -42,15 +42,15 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.39M in total.
+2 live pools clear this page's $100K TVL floor, $3.4M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which AETH pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, AETH's lower-variability candidates are hydration-dex (Polkadot), 0.01% APY, $188.8K TVL, https://www.defi.garden/?pool=b90433eb-4df0-4ebe-9cc5-dedfc256474e&src=seo_token; hydration-dex (Polkadot), 0.09% APY, $3.21M TVL, https://www.defi.garden/?pool=d3c48526-63c5-48c4-a2bc-11dd4172a458&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,4 +65,4 @@ tcpRateStabilityRankedAnswer
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

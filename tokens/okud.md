@@ -7,9 +7,9 @@ The highest honest OKUD yield right now is 0.11% on orca-dex (Solana), among 1 p
 | [orca-dex →](https://www.defi.garden/?pool=fa50e0ff-1627-5ee1-9923-e9acb987200a&src=seo_token) | Solana | 0.11% | $174.7K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank OKUD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -27,9 +27,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which OKUD pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank OKUD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

@@ -1,23 +1,23 @@
 # STRX DeFi Yields
 
-The highest honest STRX yield right now is 1.17% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STRX yield right now is 0.67% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=35ccf692-604f-422e-b17a-04f2c238cf10&src=seo_token) | Solana | 1.17% | $112.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=35ccf692-604f-422e-b17a-04f2c238cf10&src=seo_token) | Solana | 0.67% | $112.5K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank STRX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STRX shows up in 1 pools here, with rates from 1.17% to 1.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+STRX shows up in 1 pools here, with rates from 0.67% to 0.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.92% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.79% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 1.17% | 0.92% | Base rate |
+| raydium-amm | 0.67% | 0.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,19 +33,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest STRX yield today?
 
-1.17% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.67% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STRX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $794.49M in total.
+2 live pools clear this page's $100K TVL floor, $791.27M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which STRX pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank STRX pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,4 +60,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

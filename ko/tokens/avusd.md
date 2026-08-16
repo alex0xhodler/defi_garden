@@ -1,50 +1,51 @@
 # AVUSD 디파이 수익률
 
-현재 AVUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 10.87%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AVUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 11.99%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 9.81% | $3.27M |
-| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 6.54% | $990.8K |
-| [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $760.7K |
-| [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 8.26% | $722.1K |
-| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 8.50% | $346.6K |
-| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 9.79% | $292.5K |
-| [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token) | Ethereum | 10.87% | $127.4K |
+| [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 10.48% | $3.27M |
+| [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 6.06% | $1.02M |
+| [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $760.5K |
+| [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 7.72% | $722.1K |
+| [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 8.83% | $332.5K |
+| [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 10.10% | $277K |
+| [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token) | Ethereum | 11.99% | $158.1K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## APY 이력 기반 수익률 안정성
 
-tcpRateStabilityRankedAnswer
+APY 이력만 기준으로 비교한 AVUSD의 변동성 낮은 후보는 Monad의 curve-dex, APY 5.00%, TVL $760.5K, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token; Ethereum의 curve-dex, APY 6.06%, TVL $1.02M, https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token; Monad의 balancer-v3, APY 10.48%, TVL $3.27M, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token; Ethereum의 stake-dao, APY 7.72%, TVL $722.1K, https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token; Ethereum의 stake-dao, APY 10.10%, TVL $277K, https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token; Ethereum의 curve-dex, APY 8.83%, TVL $332.5K, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token; Ethereum의 convex-finance, APY 11.99%, TVL $158.1K, https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
-| tcpRateStabilityColRank | 프로토콜 | 체인 | APY | TVL |
+| 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $760.7K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 6.54% | $990.8K |
-| 3 | [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 8.26% | $722.1K |
-| 4 | [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 9.79% | $292.5K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 8.50% | $346.6K |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token) | Ethereum | 10.87% | $127.4K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token) | Monad | 5.00% | $760.5K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token) | Ethereum | 6.06% | $1.02M |
+| 3 | [balancer-v3 →](https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token) | Monad | 10.48% | $3.27M |
+| 4 | [stake-dao →](https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token) | Ethereum | 7.72% | $722.1K |
+| 5 | [stake-dao →](https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token) | Ethereum | 10.10% | $277K |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token) | Ethereum | 8.83% | $332.5K |
+| 7 | [convex-finance →](https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token) | Ethereum | 11.99% | $158.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-AVUSD 풀은 여기 7개가 있고, 2개 체인에서 APY가 5.00%부터 10.87%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+AVUSD 풀은 여기 7개가 있고, 2개 체인에서 APY가 5.00%부터 11.99%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.31%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.38%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 7개 풀 중 7개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| balancer-v3 | 9.81% | 9.31% | 인센티브 90.29% |
-| curve-dex | 6.54% | 6.33% | 인센티브 99.24% |
-| curve-dex | 5.00% | 5.46% | 인센티브 100.00% |
-| stake-dao | 8.26% | 7.74% | 인센티브 99.52% |
-| curve-dex | 8.50% | 10.01% | 인센티브 99.06% |
-| stake-dao | 9.79% | 11.41% | 인센티브 98.67% |
-| convex-finance | 10.87% | 10.95% | 인센티브 99.54% |
+| balancer-v3 | 10.48% | 9.38% | 인센티브 91.65% |
+| curve-dex | 6.06% | 6.33% | 인센티브 99.51% |
+| curve-dex | 5.00% | 5.32% | 인센티브 100.00% |
+| stake-dao | 7.72% | 7.77% | 인센티브 99.61% |
+| curve-dex | 8.83% | 9.88% | 인센티브 98.07% |
+| stake-dao | 10.10% | 11.24% | 인센티브 98.61% |
+| convex-finance | 11.99% | 11.03% | 인센티브 99.75% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -52,19 +53,19 @@ AVUSD 풀은 여기 7개가 있고, 2개 체인에서 APY가 5.00%부터 10.87%�
 
 ### 오늘 AVUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 10.87%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 11.99%예요.
 
 ### AVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $6.51M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $6.54M예요.
 
 ### 이 수익률은 안전한가요?
 
 이 페이지에 표시된 풀은 최소 TVL $100K 기준을 충족하고 이상 수치(APY 1000% 초과)인 풀을 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 이는 투자 조언이 아닌 교육 목적의 정보이며, 표시된 수익률과 무관하게 디파이에는 스마트 컨트랙트 및 시장 위험이 따라요.
 
-### tcpRateStabilityFaqQ
+### AVUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-tcpRateStabilityRankedAnswer
+APY 이력만 기준으로 비교한 AVUSD의 변동성 낮은 후보는 Monad의 curve-dex, APY 5.00%, TVL $760.5K, https://www.defi.garden/?pool=008de1a7-4b49-48dd-ae72-c0651092ae73&src=seo_token; Ethereum의 curve-dex, APY 6.06%, TVL $1.02M, https://www.defi.garden/?pool=1044613e-47c3-48b8-b608-9986da8fbe7b&src=seo_token; Monad의 balancer-v3, APY 10.48%, TVL $3.27M, https://www.defi.garden/?pool=86d04138-6712-5be0-85f4-1d92331ca1d5&src=seo_token; Ethereum의 stake-dao, APY 7.72%, TVL $722.1K, https://www.defi.garden/?pool=2bffeb0a-aeae-4c72-bcf2-ed4555e7d5a2&src=seo_token; Ethereum의 stake-dao, APY 10.10%, TVL $277K, https://www.defi.garden/?pool=a740c473-a566-5478-bf1c-ecc69326d260&src=seo_token; Ethereum의 curve-dex, APY 8.83%, TVL $332.5K, https://www.defi.garden/?pool=1cb41712-6417-485e-aa23-db1d99a57b2b&src=seo_token; Ethereum의 convex-finance, APY 11.99%, TVL $158.1K, https://www.defi.garden/?pool=cc5ab66c-6759-4772-a360-34436b940460&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -80,4 +81,4 @@ tcpRateStabilityRankedAnswer
 - [Monad](https://www.defi.garden/ko/chains/monad)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 14, 2026
+## 마지막 업데이트: August 16, 2026

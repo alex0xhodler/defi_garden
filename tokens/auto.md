@@ -1,22 +1,22 @@
 # AUTO DeFi Yields
 
-The highest honest AUTO yield right now is 8.02% on hastra (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUTO yield right now is 8.07% on hastra (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token) | Solana | 8.02% | $5.19M |
-| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.02% | $3.4M |
+| [hastra →](https://www.defi.garden/?pool=4964d3ac-eb9a-54dd-a7f6-faadac4393ea&src=seo_token) | Solana | 8.07% | $4.89M |
+| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.07% | $3.4M |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank AUTO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AUTO shows up in 2 pools here, with rates from 0.02% to 8.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AUTO shows up in 2 pools here, with rates from 0.07% to 8.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hastra | 8.02% | 8.37% | Base rate |
-| orca-dex | 0.02% | 0.19% | Base rate |
+| hastra | 8.07% | 8.37% | Base rate |
+| orca-dex | 0.07% | 0.19% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,19 +35,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AUTO yield today?
 
-8.02% APY on hastra (Solana), based on live DefiLlama data.
+8.07% APY on hastra (Solana), based on live DefiLlama data.
 
 ### How many AUTO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $12.52M in total.
+3 live pools clear this page's $100K TVL floor, $12.01M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which AUTO pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank AUTO pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -62,4 +62,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

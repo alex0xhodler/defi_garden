@@ -4,12 +4,12 @@ The highest honest BALLZ yield right now is 0.01% on vvs-standard (Cronos), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1&src=seo_token) | Cronos | 0.01% | $454.9K |
+| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1&src=seo_token) | Cronos | 0.01% | $445.9K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BALLZ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,27 +21,27 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BALLZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $454.9K in total.
+1 live pool clear this page's $100K TVL floor, $445.9K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which BALLZ pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BALLZ pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [PAXG](https://www.defi.garden/tokens/paxg)
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [LION](https://www.defi.garden/tokens/lion)
 - [XRP](https://www.defi.garden/tokens/xrp)
-- [CRO](https://www.defi.garden/tokens/cro)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

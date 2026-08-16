@@ -1,31 +1,31 @@
 # ENA DeFi Yields
 
-The highest honest ENA yield right now is 27.39% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ENA yield right now is 0.02% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 27.39% | $2.42M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.02% | $1.7M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 8.72% | $563.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 17.21% | $2.42M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.02% | $1.69M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 5.61% | $559.8K |
 
 <!-- rate-stability:ranked -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $1.69M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; uniswap-v3 (Ethereum), 5.61% APY, $559.8K TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 17.21% APY, $2.42M TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
-| tcpRateStabilityColRank | Protocol | Chain | APY | TVL |
+| Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.02% | $1.7M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 8.72% | $563.4K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 27.39% | $2.42M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token) | Ethereum | 0.02% | $1.69M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token) | Ethereum | 5.61% | $559.8K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token) | Ethereum | 17.21% | $2.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ENA shows up in 3 pools here, with rates from 0.02% to 27.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ENA shows up in 3 pools here, with rates from 0.02% to 17.21% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.95% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 21.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 27.39% | 42.01% | Base rate |
+| uniswap-v4 | 17.21% | 41.40% | Base rate |
 | uniswap-v3 | 0.02% | 0.03% | Base rate |
-| uniswap-v3 | 8.72% | 21.95% | Base rate |
+| uniswap-v3 | 5.61% | 21.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,19 +43,19 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ENA yield today?
 
-27.39% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ENA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.69M in total.
+3 live pools clear this page's $100K TVL floor, $4.67M in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which ENA pools have the most stable APY history?
 
-tcpRateStabilityRankedAnswer
+Based on APY history only, ENA's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $1.69M TVL, https://www.defi.garden/?pool=7cab1c3e-b841-41c7-bce4-d8c41959bba2&src=seo_token; uniswap-v3 (Ethereum), 5.61% APY, $559.8K TVL, https://www.defi.garden/?pool=5a7ea2ca-8651-487e-90ca-e7b06102a050&src=seo_token; uniswap-v4 (Ethereum), 17.21% APY, $2.42M TVL, https://www.defi.garden/?pool=381d7ca9-8c11-4091-90fe-165c34c739ff&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -70,4 +70,4 @@ tcpRateStabilityRankedAnswer
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026

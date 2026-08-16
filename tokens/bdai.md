@@ -4,12 +4,12 @@ The highest honest BDAI yield right now is 1.54% on curve-dex (Avalanche), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $793.3K |
+| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $793.9K |
 
 <!-- rate-stability:insufficient -->
-## tcpRateStabilityHeading
+## Rate stability from APY history
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BDAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -21,15 +21,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BDAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $793.3K in total.
+1 live pool clear this page's $100K TVL floor, $793.9K in total.
 
 ### Are these rates safe?
 
 Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
 
-### tcpRateStabilityFaqQ
+### Which BDAI pools have the most stable APY history?
 
-tcpRateStabilityInsufficientAnswer
+There is not enough qualifying APY history to rank BDAI pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -44,4 +44,4 @@ tcpRateStabilityInsufficientAnswer
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 14, 2026
+## Last updated August 16, 2026
