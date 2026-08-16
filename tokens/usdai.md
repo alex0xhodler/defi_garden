@@ -31,8 +31,8 @@ USDAI shows up in 3 pools here, with rates from 0.97% to 6.61% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 0.97% | 0.96% | 2.08% incentives |
-| pendle | 6.61% | 6.54% | Base rate |
+| pendle | 0.97% | 0.96% | 2.07% incentives |
+| pendle | 6.61% | 6.55% | Base rate |
 | balancer-v3 | 2.60% | 2.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDAI pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $102.35M in total.
+5 live pools clear this page's $100K TVL floor, $102.36M in total.
 
 ### Are these rates safe?
 
@@ -69,4 +69,4 @@ Based on APY history only, USDAI's lower-variability candidates are pendle (Arbi
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Plasma](https://www.defi.garden/chains/plasma)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

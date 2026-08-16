@@ -1,10 +1,10 @@
 # XSUSHI DeFi Yields
 
-The highest honest XSUSHI yield right now is 1.57% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XSUSHI yield right now is 0.68% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=8ac88afb-25f2-4053-b8ae-391358f568be&src=seo_token) | Ethereum | 1.57% | $144K |
+| [sushiswap →](https://www.defi.garden/?pool=8ac88afb-25f2-4053-b8ae-391358f568be&src=seo_token) | Ethereum | 0.68% | $144.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XSUSHI yield today?
 
-1.57% APY on sushiswap (Ethereum), based on live DefiLlama data.
+0.68% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many XSUSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $144K in total.
+1 live pool clear this page's $100K TVL floor, $144.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XSUSHI pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

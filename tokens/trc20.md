@@ -1,10 +1,10 @@
 # TRC20 DeFi Yields
 
-The highest honest TRC20 yield right now is 36.28% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRC20 yield right now is 34.27% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=767edfe8-2990-5bdc-aa01-26d326781c32&src=seo_token) | Solana | 36.28% | $100.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=c4f8099f-5888-5700-8a1c-a49c8617de70&src=seo_token) | Solana | 34.27% | $100.1K |
 | [raydium-amm →](https://www.defi.garden/?pool=03ef5f8e-7c6e-5b83-97c0-8c32d3dfcc0d&src=seo_token) | Solana | 33.56% | $100.1K |
 
 <!-- rate-stability:insufficient -->
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TRC20 shows up in 2 pools here, with rates from 33.56% to 36.28% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRC20 shows up in 2 pools here, with rates from 33.56% to 34.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 25.18% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 24.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 36.28% | 24.54% | Base rate |
+| raydium-amm | 34.27% | 22.93% | Base rate |
 | raydium-amm | 33.56% | 25.81% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TRC20 yield today?
 
-36.28% APY on raydium-amm (Solana), based on live DefiLlama data.
+34.27% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TRC20 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $200.4K in total.
+2 live pools clear this page's $100K TVL floor, $200.3K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank TRC20 pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

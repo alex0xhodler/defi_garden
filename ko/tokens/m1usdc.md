@@ -1,10 +1,10 @@
 # M1USDC 디파이 수익률
 
-현재 M1USDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.95%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 M1USDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 8.09%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=212a6c31-9633-408e-b2bb-347490046581&src=seo_token) | Ethereum | 7.95% | $8.44M |
+| [morpho-blue →](https://www.defi.garden/?pool=212a6c31-9633-408e-b2bb-347490046581&src=seo_token) | Ethereum | 8.09% | $8.45M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 M1USDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.95%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 8.09%예요.
 
 ### M1USDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $8.44M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $8.45M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.95%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 64.07%예요.
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

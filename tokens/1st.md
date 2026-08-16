@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank 1ST pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

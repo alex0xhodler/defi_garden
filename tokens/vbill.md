@@ -34,7 +34,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | vaneck-treasury-fund | 3.53% | 3.53% | Base rate |
-| vaneck-treasury-fund | 3.53% | 3.52% | Base rate |
+| vaneck-treasury-fund | 3.53% | 3.53% | Base rate |
 | vaneck-treasury-fund | 3.53% | 3.53% | Base rate |
 | vaneck-treasury-fund | 3.53% | 3.52% | Base rate |
 
@@ -74,4 +74,4 @@ Based on APY history only, VBILL's lower-variability candidates are vaneck-treas
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

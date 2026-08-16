@@ -4,7 +4,7 @@ The highest honest SUPERWBTC yield right now is 0.69% on superform (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=d69cb2c8-bf7a-4817-8364-6713a2140213&src=seo_token) | Ethereum | 0.69% | $1.48M |
+| [superform →](https://www.defi.garden/?pool=d69cb2c8-bf7a-4817-8364-6713a2140213&src=seo_token) | Ethereum | 0.69% | $1.49M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUPERWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.48M in total.
+1 live pool clear this page's $100K TVL floor, $1.49M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SUPERWBTC pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

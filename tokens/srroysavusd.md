@@ -1,10 +1,10 @@
 # SRROYSAVUSD DeFi Yields
 
-The highest honest SRROYSAVUSD yield right now is 9.36% on royco-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYSAVUSD yield right now is 9.34% on royco-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=10ed830c-0bd3-5ee8-8a51-48b44bb6dd10&src=seo_token) | Avalanche | 9.36% | $4.85M |
+| [royco-v2 →](https://www.defi.garden/?pool=10ed830c-0bd3-5ee8-8a51-48b44bb6dd10&src=seo_token) | Avalanche | 9.34% | $5.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYSAVUSD yield today?
 
-9.36% APY on royco-v2 (Avalanche), based on live DefiLlama data.
+9.34% APY on royco-v2 (Avalanche), based on live DefiLlama data.
 
 ### How many SRROYSAVUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.85M in total.
+1 live pool clear this page's $100K TVL floor, $5.01M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SRROYSAVUSD pools. This view 
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

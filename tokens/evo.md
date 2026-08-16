@@ -1,10 +1,10 @@
 # EVO DeFi Yields
 
-The highest honest EVO yield right now is 2.48% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EVO yield right now is 4.86% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3d255331-6cad-42b0-b690-4baf0508d8bc&src=seo_token) | Base | 2.48% | $136.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3d255331-6cad-42b0-b690-4baf0508d8bc&src=seo_token) | Base | 4.86% | $134.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EVO yield today?
 
-2.48% APY on uniswap-v4 (Base), based on live DefiLlama data.
+4.86% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many EVO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136.1K in total.
+1 live pool clear this page's $100K TVL floor, $134.3K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank EVO pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

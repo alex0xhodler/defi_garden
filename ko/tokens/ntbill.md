@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 3.7
 - [NOPAL](https://www.defi.garden/ko/tokens/nopal)
 - [USCC](https://www.defi.garden/ko/tokens/uscc)
 - [NFALCON](https://www.defi.garden/ko/tokens/nfalcon)
-- [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
 - [NCLOA](https://www.defi.garden/ko/tokens/ncloa)
+- [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
 
 ## 이용 가능한 체인
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

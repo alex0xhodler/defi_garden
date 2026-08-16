@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank WMETAX pools. This view cover
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [WSPYX](https://www.defi.garden/tokens/wspyx)
-- [BSB](https://www.defi.garden/tokens/bsb)
+- [KII](https://www.defi.garden/tokens/kii)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

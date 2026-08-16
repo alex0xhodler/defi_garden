@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank QUANT pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

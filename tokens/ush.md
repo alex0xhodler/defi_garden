@@ -1,10 +1,10 @@
 # USH DeFi Yields
 
-The highest honest USH yield right now is 4.52% on xexchange (MultiversX), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USH yield right now is 3.92% on xexchange (MultiversX), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 4.52% | $110.9K |
+| [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 3.92% | $110.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USH yield today?
 
-4.52% APY on xexchange (MultiversX), based on live DefiLlama data.
+3.92% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many USH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.9K in total.
+1 live pool clear this page's $100K TVL floor, $110.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank USH pools. This view covers A
 
 - [MultiversX](https://www.defi.garden/chains/multiversx)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

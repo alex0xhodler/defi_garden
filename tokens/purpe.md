@@ -1,10 +1,10 @@
 # PURPE DeFi Yields
 
-The highest honest PURPE yield right now is 1.88% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PURPE yield right now is 2.42% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ebbdda8f-7746-4af9-9d82-1d2f5022b21c&src=seo_token) | Solana | 1.88% | $296.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=ebbdda8f-7746-4af9-9d82-1d2f5022b21c&src=seo_token) | Solana | 2.42% | $288.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PURPE yield today?
 
-1.88% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.42% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PURPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $296.6K in total.
+1 live pool clear this page's $100K TVL floor, $288.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PURPE pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

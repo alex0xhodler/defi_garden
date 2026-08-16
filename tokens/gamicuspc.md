@@ -29,8 +29,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 2.52% | 2.35% | Base rate |
-| gami-labs | 2.44% | 2.51% | Base rate |
+| lagoon | 2.52% | 2.36% | Base rate |
+| gami-labs | 2.44% | 2.49% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -65,4 +65,4 @@ Based on APY history only, GAMICUSPC's lower-variability candidates are gami-lab
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

@@ -4,8 +4,8 @@ The highest honest Bitcoin yield right now is 0.32% on chainflip-lending (Bitcoi
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_chain) | 0.13% | $142.69M |
-| BTC | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_chain) | 5.15% | $2.95M |
+| BTC | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_chain) | 0.14% | $149.13M |
+| BTC | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_chain) | 5.04% | $2.95M |
 | BTC | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_chain) | 0.32% | $1.82M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Bitcoin pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $147.46M in total.
+3 live pools clear this page's $100K TVL floor, $153.91M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BTC](https://www.defi.garden/tokens/btc)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

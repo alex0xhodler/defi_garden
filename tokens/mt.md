@@ -4,7 +4,7 @@ The highest honest MT yield right now is 0.01% on uniswap-v3 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bba96f26-dd6e-41eb-bb30-69102dbd3634&src=seo_token) | Base | 0.01% | $146K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bba96f26-dd6e-41eb-bb30-69102dbd3634&src=seo_token) | Base | 0.01% | $145.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $146K in total.
+1 live pool clear this page's $100K TVL floor, $145.9K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank MT pools. This view covers AP
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

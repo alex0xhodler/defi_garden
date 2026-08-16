@@ -1,10 +1,10 @@
 # TERMINUS DeFi Yields
 
-The highest honest TERMINUS yield right now is 0.98% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TERMINUS yield right now is 1.92% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6e81c9bf-de9e-4529-95cd-4637a6c5fafb&src=seo_token) | Ethereum | 0.98% | $198.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6e81c9bf-de9e-4529-95cd-4637a6c5fafb&src=seo_token) | Ethereum | 1.92% | $191.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TERMINUS yield today?
 
-0.98% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.92% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TERMINUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $198.6K in total.
+1 live pool clear this page's $100K TVL floor, $191.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TERMINUS pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

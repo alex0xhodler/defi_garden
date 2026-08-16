@@ -1,10 +1,10 @@
 # AWE DeFi Yields
 
-The highest honest AWE yield right now is 31.45% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AWE yield right now is 30.64% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=ff38a530-7e1d-476a-9582-0adc16a90a9d&src=seo_token) | Base | 31.45% | $389.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=ff38a530-7e1d-476a-9582-0adc16a90a9d&src=seo_token) | Base | 30.64% | $398.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AWE yield today?
 
-31.45% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+30.64% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many AWE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $389.9K in total.
+1 live pool clear this page's $100K TVL floor, $398.2K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank AWE pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

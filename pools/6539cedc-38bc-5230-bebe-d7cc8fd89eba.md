@@ -28,10 +28,10 @@ Your deposit stays yours — you keep your money, and it keeps working.
 
 Projected at ⅓ haircut (27.57% headline) — farm rates decay. Active management required.
 
-We've been tracking this pool's rate for 8 days. Watching how a rate holds up over time is one honest way to judge it.
+We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
 [Garden this pool → ~$1,552 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated August 15, 2026
+Last updated August 16, 2026

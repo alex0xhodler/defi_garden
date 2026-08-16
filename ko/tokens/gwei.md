@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.12%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

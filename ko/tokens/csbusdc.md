@@ -1,10 +1,10 @@
 # CSBUSDC 디파이 수익률
 
-현재 CSBUSDC의 가장 높은 정직한 수익률은 Hyperliquid L1의 balancer-v3에서 2.08%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CSBUSDC의 가장 높은 정직한 수익률은 Hyperliquid L1의 balancer-v3에서 10.60%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 2.08% | $1.07M |
+| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 10.60% | $1.07M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 CSBUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 balancer-v3에서 APY 2.08%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 balancer-v3에서 APY 10.60%예요.
 
 ### CSBUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 balancer-v3에서 APY 2.
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

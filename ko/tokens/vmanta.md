@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Manta의 bifrost-liquid-staking에서 APY 
 
 - [Manta](https://www.defi.garden/ko/chains/manta)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank STSTX pools. This view covers
 
 ## Related tokens
 
-- [SBTC](https://www.defi.garden/tokens/sbtc)
 - [STX](https://www.defi.garden/tokens/stx)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Stacks](https://www.defi.garden/chains/stacks)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

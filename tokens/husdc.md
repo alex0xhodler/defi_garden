@@ -4,7 +4,7 @@ The highest honest HUSDC yield right now is 3.52% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=677f756a-eda4-48b0-ba35-60adc9b44d88&src=seo_token) | Ethereum | 3.52% | $16.65M |
+| [morpho-blue →](https://www.defi.garden/?pool=677f756a-eda4-48b0-ba35-60adc9b44d88&src=seo_token) | Ethereum | 3.52% | $16.67M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $16.65M in total.
+1 live pool clear this page's $100K TVL floor, $16.67M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HUSDC pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

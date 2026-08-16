@@ -4,7 +4,7 @@ The highest honest MOLTX yield right now is 0.01% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f85a18af-b72b-4aa0-a464-4fd09bd0125c&src=seo_token) | Base | 0.01% | $251.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f85a18af-b72b-4aa0-a464-4fd09bd0125c&src=seo_token) | Base | 0.01% | $251.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOLTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $251.8K in total.
+1 live pool clear this page's $100K TVL floor, $251.3K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank MOLTX pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

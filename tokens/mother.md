@@ -4,7 +4,7 @@ The highest honest MOTHER yield right now is 0.36% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=872ad21b-2cd9-4c55-8714-4f43a39dfa11&src=seo_token) | Solana | 0.36% | $305.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=872ad21b-2cd9-4c55-8714-4f43a39dfa11&src=seo_token) | Solana | 0.36% | $303.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOTHER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $305.1K in total.
+1 live pool clear this page's $100K TVL floor, $303.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MOTHER pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

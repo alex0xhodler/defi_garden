@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Stacks의 zest-v2에서 APY 1.23%예요.
 
 ## 관련 토큰
 
-- [SBTC](https://www.defi.garden/ko/tokens/sbtc)
 - [STSTX](https://www.defi.garden/ko/tokens/ststx)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 
 ## 이용 가능한 체인
 
 - [Stacks](https://www.defi.garden/ko/chains/stacks)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HXXI pools. This view covers 
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

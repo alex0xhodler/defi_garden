@@ -1,10 +1,10 @@
 # GUSDCQ DeFi Yields
 
-The highest honest GUSDCQ yield right now is 4.16% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GUSDCQ yield right now is 4.13% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91&src=seo_token) | Ethereum | 4.16% | $24.3M |
+| [morpho-blue →](https://www.defi.garden/?pool=ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91&src=seo_token) | Ethereum | 4.13% | $24.3M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GUSDCQ yield today?
 
-4.16% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.13% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GUSDCQ pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GUSDCQ pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

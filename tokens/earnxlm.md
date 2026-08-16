@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EARNXLM pools. This view cove
 
 - [Stellar](https://www.defi.garden/chains/stellar)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

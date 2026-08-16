@@ -1,11 +1,12 @@
 # KII DeFi Yields
 
-The highest honest KII yield right now is 311.41% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KII yield right now is 245.40% on uniswap-v2 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c&src=seo_token) | Mantle | 2.07% | $397.9K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=4d1dc28a-7fb9-542d-b319-abc463376b4a&src=seo_token) | Base | 72.26% | $231.2K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=a7d941de-2a7c-514f-b60d-dc153a79b7d9&src=seo_token) | Base | 311.41% | $139.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=a7d941de-2a7c-514f-b60d-dc153a79b7d9&src=seo_token) | Base | 245.40% | $182.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,18 +17,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-KII shows up in 2 pools here, with rates from 72.26% to 311.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KII shows up in 3 pools here, with rates from 2.07% to 245.40% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 228.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 294.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| fluxion-network | 2.07% | 803.30% | Base rate |
 | uniswap-v2 | 72.26% | 119.17% | Base rate |
-| uniswap-v2 | 311.41% | 337.14% | Base rate |
+| uniswap-v2 | 245.40% | 294.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +37,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KII yield today?
 
-311.41% APY on uniswap-v2 (Base), based on live DefiLlama data.
+245.40% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many KII pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $782.3K in total.
+3 live pools clear this page's $100K TVL floor, $811.9K in total.
 
 ### Are these rates safe?
 
@@ -53,13 +55,14 @@ There is not enough qualifying APY history to rank KII pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
+- [SUSDE](https://www.defi.garden/tokens/susde)
 
 ## Available on
 
+- [Mantle](https://www.defi.garden/chains/mantle)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

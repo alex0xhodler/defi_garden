@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Boba의 symbiosis에서 APY 0.09%예요.
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

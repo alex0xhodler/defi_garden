@@ -80,4 +80,4 @@ Based on APY history only, MDX's lower-variability candidates are mdex (BSC), 0.
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Heco](https://www.defi.garden/chains/heco)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

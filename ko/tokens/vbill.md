@@ -34,7 +34,7 @@ VBILL 풀은 여기 4개가 있고, 4개 체인에서 APY가 3.53%부터 3.53%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | vaneck-treasury-fund | 3.53% | 3.53% | 기본 금리 |
-| vaneck-treasury-fund | 3.53% | 3.52% | 기본 금리 |
+| vaneck-treasury-fund | 3.53% | 3.53% | 기본 금리 |
 | vaneck-treasury-fund | 3.53% | 3.53% | 기본 금리 |
 | vaneck-treasury-fund | 3.53% | 3.52% | 기본 금리 |
 
@@ -74,4 +74,4 @@ APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereu
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

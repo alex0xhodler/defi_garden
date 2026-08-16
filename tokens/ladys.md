@@ -1,10 +1,10 @@
 # LADYS DeFi Yields
 
-The highest honest LADYS yield right now is 1.44% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LADYS yield right now is 1.11% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=79ae8295-372d-4d67-8fc4-03f54c2b49ea&src=seo_token) | Ethereum | 1.44% | $670.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=79ae8295-372d-4d67-8fc4-03f54c2b49ea&src=seo_token) | Ethereum | 1.11% | $663.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LADYS yield today?
 
-1.44% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.11% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LADYS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $670.3K in total.
+1 live pool clear this page's $100K TVL floor, $663.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LADYS pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026

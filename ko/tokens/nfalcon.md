@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.16% | $28.77M |
+| [nest-credit →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.16% | $28.78M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 7.1
 
 ### NFALCON 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $28.77M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $28.78M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 7.1
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
 - [NOPAL](https://www.defi.garden/ko/tokens/nopal)
 - [USCC](https://www.defi.garden/ko/tokens/uscc)
-- [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
 - [NCLOA](https://www.defi.garden/ko/tokens/ncloa)
+- [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
 - [NAXI](https://www.defi.garden/ko/tokens/naxi)
 
 ## 이용 가능한 체인
 
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 
-## 마지막 업데이트: August 15, 2026
+## 마지막 업데이트: August 16, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AVWBTC pools. This view cover
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 15, 2026
+## Last updated August 16, 2026
