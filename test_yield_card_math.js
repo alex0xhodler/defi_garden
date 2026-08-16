@@ -28,6 +28,11 @@ test('monthly yield with $1,000 deposit at 6.00% APY is $5.00', () => {
   assert.strictEqual(yieldMonthly, 5.0);
 });
 
+test('monthly yield with lower $300 deposit at 6.20% APY is ~$1.55', () => {
+  const yieldMonthly = PoolDetail.calculateMonthlyYield(300, 6.2);
+  assert.ok(Math.abs(yieldMonthly - 1.55) < 0.01, `Expected ~1.55, got ${yieldMonthly}`);
+});
+
 test('monthly yield with 0 deposit or 0 APY is 0', () => {
   assert.strictEqual(PoolDetail.calculateMonthlyYield(0, 6.2), 0);
   assert.strictEqual(PoolDetail.calculateMonthlyYield(4000, 0), 0);

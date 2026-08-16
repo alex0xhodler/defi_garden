@@ -244,7 +244,7 @@ function YieldCardWidget({
     }
   };
 
-  return React.createElement('div', { className: 'yield-card-terminal animate-on-mount' },
+  return React.createElement('div', { id: 'yield-card-widget', className: 'yield-card-terminal animate-on-mount' },
     // Context alert banner
     React.createElement('div', { className: 'yield-card-context-banner' },
       React.createElement('div', { className: 'yield-card-badge-row' },
@@ -275,15 +275,15 @@ function YieldCardWidget({
         React.createElement('input', {
           type: 'range',
           className: 'yield-card-slider',
-          min: '1000',
+          min: '300',
           max: '25000',
-          step: depositAmount >= 10000 ? '500' : '250',
+          step: '50',
           value: depositAmount,
           onChange: handleSliderChange,
           'aria-label': _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'
         }),
         React.createElement('div', { className: 'yield-card-presets' },
-          [1000, 2000, 4000, 10000, 25000].map(amt =>
+          [300, 1000, 2000, 4000, 10000, 25000].map(amt =>
             React.createElement('button', {
               key: amt,
               type: 'button',
@@ -607,7 +607,7 @@ function PoolDetail({
   });
   const [investmentAmount, setInvestmentAmount] = useState(1000);
   const [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
-  const [calculatorExpanded, setCalculatorExpanded] = useState(true);
+  const [calculatorExpanded, setCalculatorExpanded] = useState(false);
   const [poolInfoExpanded, setPoolInfoExpanded] = useState(true);
   const [activeCalculatorTab, setActiveCalculatorTab] = useState('30days');
   const [isPulsing, setIsPulsing] = useState(false);
@@ -1020,13 +1020,18 @@ function PoolDetail({
           // the user has parameterised the input.
           React.createElement('a', {
             className: 'cta-button-primary',
-            href: gardenThisPoolHref,
-            onClick: () => {
+            href: '#yield-card-widget',
+            onClick: (e) => {
+              e.preventDefault();
+              const el = document.getElementById('yield-card-widget') || document.querySelector('.yield-card-terminal');
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+              }
               if (typeof Analytics !== 'undefined') {
                 Analytics.trackPoolClick(pool, 'garden_cta', {
                   investmentAmount: Math.round(investmentAmount),
                   projectionYears: PROJECTION_YEARS,
-                  ctaVariant: 'generic',
+                  ctaVariant: 'card_widget_scroll',
                   ctaPlacement: 'hero',
                   ctaPosition: 'hero'
                 });
@@ -1100,6 +1105,19 @@ function PoolDetail({
         React.createElement('div', { className: 'calculator-toggle' },
           renderChevronIcon()
         )
+      ),
+
+      // Collapsed action row — quick scroll to the Yield-Funded Virtual Card terminal
+      !calculatorExpanded && React.createElement('div', { className: 'calc-collapsed-action-row' },
+        React.createElement('button', {
+          type: 'button',
+          className: 'calc-scroll-up-btn',
+          onClick: (e) => {
+            e.stopPropagation();
+            const el = document.getElementById('yield-card-widget') || document.querySelector('.yield-card-terminal');
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, '↑ Explore Yield-Funded Virtual Card')
       ),
 
       // Expanded Calculator Content

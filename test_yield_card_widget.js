@@ -92,12 +92,13 @@ async function run() {
       const banner = await page.$('.yield-card-context-banner');
       assert.ok(banner, 'Context banner should exist');
 
-      // Check slider with default $4,000
+      // Check slider with min 300 and default $4,000
       const slider = await page.$('input.yield-card-slider');
       assert.ok(slider, 'Deposit slider should exist');
+      const minVal = await slider.getAttribute('min');
+      assert.strictEqual(minVal, '300', 'Slider minimum should be 300');
       const val = await slider.inputValue();
       assert.strictEqual(val, '4000', 'Default slider deposit should be 4000');
-
       // Check monthly yield readout ($4k @ pool APY ~ 2.14% = $7.15/mo)
       const readout = await page.$eval('.yield-card-monthly-yield', el => el.textContent);
       assert.ok(readout.includes('7.15') || readout.includes('7.14'), `Expected monthly yield ~$7.15, got: ${readout}`);
@@ -119,6 +120,49 @@ async function run() {
       // Check reservation terminal
       const reserveForm = await page.$('.yield-card-reservation');
       assert.ok(reserveForm, 'Reservation form should exist');
+
+      await page.close();
+    });
+
+    await test('Calculate Your Earnings is collapsed by default and Hero Garden button scrolls to Card Widget', async () => {
+      const page = await browser.newPage();
+      await page.goto(`http://localhost:${PORT}/?app=1&pool=747c1d2a-c668-4682-b9f9-296708a3dd90`);
+      await page.waitForSelector('.pool-detail-container', { timeout: 5000 });
+
+      // Calculator should NOT be expanded by default
+      const calcCompact = await page.$('.calculator-compact');
+      assert.ok(calcCompact, 'Calculator section should exist');
+      const calcClass = await calcCompact.getAttribute('class');
+      assert.ok(!calcClass.includes('expanded'), 'Calculator should be collapsed by default');
+
+      // Hero Garden this pool button should have href #yield-card-widget
+      const heroGardenBtn = await page.$('.pool-hero-action-primary a.cta-button-primary');
+      assert.ok(heroGardenBtn, 'Hero Garden CTA should exist');
+      const heroHref = await heroGardenBtn.getAttribute('href');
+      assert.strictEqual(heroHref, '#yield-card-widget', 'Hero Garden CTA href should point to #yield-card-widget');
+
+      // Click hero button
+      await heroGardenBtn.click();
+
+      // Card terminal widget should exist and have id yield-card-widget
+      const widget = await page.$('#yield-card-widget');
+      assert.ok(widget, 'Yield Card Widget with id yield-card-widget should exist');
+
+      await page.close();
+    });
+
+    await test('Slider allows sliding down to $300 minimum and updates calculation', async () => {
+      const page = await browser.newPage();
+      await page.goto(`http://localhost:${PORT}/?app=1&pool=747c1d2a-c668-4682-b9f9-296708a3dd90`);
+      await page.waitForSelector('.yield-card-terminal', { timeout: 5000 });
+
+      const slider = await page.$('input.yield-card-slider');
+      await slider.fill('300');
+      await slider.dispatchEvent('input');
+      await slider.dispatchEvent('change');
+
+      const readout300 = await page.$eval('.yield-card-monthly-yield', el => el.textContent);
+      assert.ok(readout300.includes('0.54') || readout300.includes('0.53'), `Expected yield ~$0.54 at $300, got ${readout300}`);
 
       await page.close();
     });

@@ -1794,7 +1794,7 @@ a.pool-token-chip:hover {
 .yield-card-terminal {
   background: var(--cert-paper);
   border: 1px solid var(--cert-rule-strong);
-  border-radius: var(--radius-lg, 16px);
+  border-radius: 0;
   padding: 24px;
   margin: 24px 0;
   box-sizing: border-box;
@@ -1821,7 +1821,7 @@ a.pool-token-chip:hover {
   font-weight: 700;
   letter-spacing: 0.05em;
   padding: 3px 8px;
-  border-radius: 4px;
+  border-radius: 0;
   text-transform: uppercase;
 }
 
@@ -1841,6 +1841,7 @@ a.pool-token-chip:hover {
 }
 
 .yield-card-subtitle {
+  font-family: 'Public Sans', system-ui, sans-serif;
   font-size: 0.88rem;
   color: var(--cert-ink-2);
   line-height: 1.5;
@@ -1851,7 +1852,7 @@ a.pool-token-chip:hover {
 .yield-card-slider-section {
   background: var(--cert-vellum);
   border: 1px solid var(--cert-rule);
-  border-radius: var(--radius-base, 12px);
+  border-radius: 0;
   padding: 18px 20px;
   margin-bottom: 20px;
 }
@@ -1873,6 +1874,7 @@ a.pool-token-chip:hover {
 }
 
 .readout-label {
+  font-family: 'Public Sans', system-ui, sans-serif;
   font-size: 0.75rem;
   color: var(--cert-ink-3);
   text-transform: uppercase;
@@ -1885,6 +1887,7 @@ a.pool-token-chip:hover {
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--cert-ink);
+  font-variant-numeric: tabular-nums;
 }
 
 .yield-card-monthly-yield {
@@ -1899,11 +1902,11 @@ a.pool-token-chip:hover {
 
 .yield-card-slider {
   width: 100%;
-  height: 8px;
+  height: 6px;
   -webkit-appearance: none;
   appearance: none;
   background: var(--cert-paper-deep);
-  border-radius: 4px;
+  border-radius: 0;
   outline: none;
   cursor: pointer;
   margin: 8px 0;
@@ -1912,21 +1915,21 @@ a.pool-token-chip:hover {
 .yield-card-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
   background: var(--cert-green);
-  border: 2px solid var(--cert-paper);
+  border: 1px solid var(--cert-ink);
   cursor: pointer;
   transition: transform 0.1s ease;
 }
 
 .yield-card-slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 0;
   background: var(--cert-green);
-  border: 2px solid var(--cert-paper);
+  border: 1px solid var(--cert-ink);
   cursor: pointer;
 }
 
@@ -1941,7 +1944,7 @@ a.pool-token-chip:hover {
   font-size: 0.78rem;
   padding: 4px 10px;
   border: 1px solid var(--cert-rule);
-  border-radius: var(--radius-sm, 6px);
+  border-radius: 0;
   background: var(--cert-paper);
   color: var(--cert-ink-2);
   cursor: pointer;
@@ -1972,7 +1975,7 @@ a.pool-token-chip:hover {
 
 .yield-card-item {
   padding: 12px 14px;
-  border-radius: var(--radius-base, 12px);
+  border-radius: 0;
   background: var(--cert-vellum);
   border: 1px solid var(--cert-rule);
   cursor: pointer;
@@ -1985,7 +1988,6 @@ a.pool-token-chip:hover {
 
 .yield-card-item:hover {
   border-color: var(--cert-green);
-  transform: translateY(-1px);
 }
 
 .yield-card-item.is-covered {
@@ -2017,7 +2019,7 @@ a.pool-token-chip:hover {
 .yield-card-brand-icon {
   width: 18px;
   height: 18px;
-  border-radius: 4px;
+  border-radius: 0;
   flex-shrink: 0;
 }
 
@@ -2027,6 +2029,7 @@ a.pool-token-chip:hover {
 }
 
 .yield-card-item-name {
+  font-family: 'Public Sans', system-ui, sans-serif;
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--cert-ink);
@@ -2047,13 +2050,14 @@ a.pool-token-chip:hover {
   font-size: 0.76rem;
   color: var(--cert-ink-3);
   font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
 
 .yield-card-status-pill {
   font-size: 0.7rem;
   font-weight: 700;
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: 0;
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
@@ -2092,10 +2096,10 @@ a.pool-token-chip:hover {
   width: 100%;
   max-width: 380px;
   aspect-ratio: 1.586 / 1;
-  border-radius: 14px;
+  border-radius: 4px;
   padding: 18px 20px;
-  background: linear-gradient(135deg, #11261d 0%, #1e4536 60%, #0d1e16 100%);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(135deg, #0d2218 0%, #153828 60%, #0a1b13 100%);
+  border: 1px solid var(--cert-rule-strong);
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -2114,9 +2118,9 @@ a.pool-token-chip:hover {
 .visa-gold-chip {
   width: 36px;
   height: 26px;
-  border-radius: 5px;
+  border-radius: 2px;
   background: linear-gradient(135deg, #fae08c 0%, #d4af37 50%, #997819 100%);
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   position: relative;
   box-sizing: border-box;
 }
@@ -2127,7 +2131,7 @@ a.pool-token-chip:hover {
   left: 0;
   right: 0;
   height: 1px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .visa-logo-svg {
@@ -2139,6 +2143,7 @@ a.pool-token-chip:hover {
 }
 
 .visa-card-label-sub {
+  font-family: 'Public Sans', system-ui, sans-serif;
   font-size: 0.65rem;
   letter-spacing: 0.08em;
   color: rgba(255, 255, 255, 0.65);
@@ -2166,6 +2171,7 @@ a.pool-token-chip:hover {
 }
 
 .visa-card-network-info {
+  font-family: 'Public Sans', system-ui, sans-serif;
   font-size: 0.72rem;
   color: rgba(255, 255, 255, 0.75);
   letter-spacing: 0.03em;
@@ -2178,7 +2184,7 @@ a.pool-token-chip:hover {
   font-weight: 700;
   background: rgba(255, 255, 255, 0.18);
   padding: 3px 8px;
-  border-radius: 4px;
+  border-radius: 0;
   color: #ffffff;
   white-space: nowrap;
 }
@@ -2193,7 +2199,7 @@ a.pool-token-chip:hover {
 .yield-card-reservation {
   background: var(--cert-vellum);
   border: 1px solid var(--cert-rule);
-  border-radius: var(--radius-base, 12px);
+  border-radius: 0;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -2211,6 +2217,7 @@ a.pool-token-chip:hover {
 }
 
 .reservation-subtitle {
+  font-family: 'Public Sans', system-ui, sans-serif;
   font-size: 0.8rem;
   color: var(--cert-ink-3);
   margin: 0 0 14px;
@@ -2228,7 +2235,7 @@ a.pool-token-chip:hover {
   min-width: 180px;
   padding: 10px 12px;
   border: 1px solid var(--cert-rule-strong);
-  border-radius: var(--radius-sm, 6px);
+  border-radius: 0;
   font-size: 0.88rem;
   background: var(--cert-paper);
   color: var(--cert-ink);
@@ -2245,7 +2252,7 @@ a.pool-token-chip:hover {
   background: var(--cert-green);
   color: var(--cert-on-green);
   border: none;
-  border-radius: var(--radius-sm, 6px);
+  border-radius: 0;
   font-weight: 600;
   font-size: 0.88rem;
   cursor: pointer;
@@ -2270,7 +2277,7 @@ a.pool-token-chip:hover {
 .yield-card-receipt {
   background: var(--cert-green-wash);
   border: 1px solid var(--cert-green);
-  border-radius: var(--radius-base, 12px);
+  border-radius: 0;
   padding: 20px;
   text-align: center;
   display: flex;
@@ -2289,7 +2296,7 @@ a.pool-token-chip:hover {
   background: var(--cert-green);
   color: var(--cert-on-green);
   padding: 3px 10px;
-  border-radius: 9999px;
+  border-radius: 0;
   margin-bottom: 8px;
 }
 
@@ -2322,7 +2329,7 @@ a.pool-token-chip:hover {
   border: 1px solid var(--cert-green);
   background: var(--cert-paper);
   color: var(--cert-green);
-  border-radius: var(--radius-sm, 6px);
+  border-radius: 0;
   cursor: pointer;
   font-weight: 600;
   transition: all 0.15s ease;
@@ -2331,4 +2338,32 @@ a.pool-token-chip:hover {
 .receipt-share-btn:hover {
   background: var(--cert-green);
   color: var(--cert-on-green);
+}
+
+/* Collapsed Calculator scroll-up action */
+.calc-collapsed-action-row {
+  padding: 10px 18px 14px;
+  background: var(--cert-vellum);
+  border-top: 1px solid var(--cert-rule);
+}
+
+.calc-scroll-up-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid var(--cert-rule);
+  color: var(--cert-green);
+  font-family: 'Public Sans', system-ui, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.calc-scroll-up-btn:hover {
+  background: var(--cert-green-wash);
+  border-color: var(--cert-green);
 }
