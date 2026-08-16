@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nodedao →](https://www.defi.garden/?pool=cb82fc8f-ea76-4823-b53b-98ee7486efce&src=seo_token) | Ethereum | 2.12% | $18M |
+| [nodedao →](https://www.defi.garden/?pool=cb82fc8f-ea76-4823-b53b-98ee7486efce&src=seo_token) | Ethereum | 2.12% | $18.09M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 nodedao에서 APY 2.12%예요.
 
 ### RNETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $18M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $18.09M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,8 +1,8 @@
 # LP-HAY — wombat-exchange on BSC
 
-**Total APY:** 0.05% (0.01% Base · + 0.05% Rewards)
+**Total APY:** 0.05% (0.00% Base · + 0.05% Rewards)
 
-**TVL:** $363.3K
+**TVL:** $362.7K
 
 **Pool Type:** Yield Farming
 

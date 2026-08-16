@@ -1,6 +1,6 @@
 # SRUSDAT DeFi Yields
 
-The highest honest SRUSDAT yield right now is 13.01% on pendle (Monad), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRUSDAT yield right now is 13.31% on pendle (Monad), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -8,7 +8,7 @@ The highest honest SRUSDAT yield right now is 13.01% on pendle (Monad), among 5 
 | [pendle →](https://www.defi.garden/?pool=96d93097-1e9e-4b78-ac1d-5924f04e1e56&src=seo_token) | Ethereum | 9.77% | $417.3K |
 | [pendle →](https://www.defi.garden/?pool=23debab1-4c7c-4498-8964-269bca4fdb3a&src=seo_token) | Ethereum | 10.20% | $417.3K |
 | [pendle →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326&src=seo_token) | Monad | 11.69% | $111.7K |
-| [pendle →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 13.01% | $111.7K |
+| [pendle →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 13.31% | $111.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -25,19 +25,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SRUSDAT shows up in 5 pools here, with rates from 8.11% to 13.01% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRUSDAT shows up in 5 pools here, with rates from 8.11% to 13.31% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 10.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 10.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | strata-markets | 8.11% | 7.92% | Base rate |
-| pendle | 9.77% | 10.25% | Base rate |
-| pendle | 10.20% | 10.67% | Base rate |
-| pendle | 11.69% | 11.47% | Base rate |
-| pendle | 13.01% | 12.82% | 14.57% incentives |
+| pendle | 9.77% | 10.24% | Base rate |
+| pendle | 10.20% | 10.66% | Base rate |
+| pendle | 11.69% | 11.48% | Base rate |
+| pendle | 13.31% | 12.83% | 14.59% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRUSDAT yield today?
 
-13.01% APY on pendle (Monad), based on live DefiLlama data.
+13.31% APY on pendle (Monad), based on live DefiLlama data.
 
 ### How many SRUSDAT pools clear the TVL floor?
 

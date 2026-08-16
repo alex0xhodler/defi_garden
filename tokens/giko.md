@@ -1,10 +1,10 @@
 # GIKO DeFi Yields
 
-The highest honest GIKO yield right now is 3.96% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GIKO yield right now is 3.73% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=793b63bd-0ae7-47c5-a264-43771203bcc5&src=seo_token) | Solana | 3.96% | $107.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=793b63bd-0ae7-47c5-a264-43771203bcc5&src=seo_token) | Solana | 3.73% | $106.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GIKO yield today?
 
-3.96% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.73% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GIKO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.4K in total.
+1 live pool clear this page's $100K TVL floor, $106.8K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank GIKO pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

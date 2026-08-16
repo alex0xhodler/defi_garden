@@ -1,29 +1,29 @@
 # GME DeFi Yields
 
-The highest honest GME yield right now is 0.71% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GME yield right now is 0.70% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token) | Solana | 0.71% | $841.5K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 0.63% | $504K |
+| [raydium-amm →](https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token) | Solana | 0.70% | $846.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 0.41% | $506.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GME's lower-variability candidates are raydium-amm (Solana), 0.71% APY, $841.5K TVL, https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token; uniswap-v2 (Ethereum), 0.63% APY, $504K TVL, https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GME's lower-variability candidates are raydium-amm (Solana), 0.70% APY, $846.2K TVL, https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token; uniswap-v2 (Ethereum), 0.41% APY, $506.8K TVL, https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token) | Solana | 0.71% | $841.5K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 0.63% | $504K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token) | Solana | 0.70% | $846.2K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token) | Ethereum | 0.41% | $506.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GME shows up in 2 pools here, with rates from 0.63% to 0.71% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GME shows up in 2 pools here, with rates from 0.41% to 0.70% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.76% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.71% | 3.38% | Base rate |
-| uniswap-v2 | 0.63% | 4.13% | Base rate |
+| raydium-amm | 0.70% | 3.37% | Base rate |
+| uniswap-v2 | 0.41% | 4.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GME yield today?
 
-0.71% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.70% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GME pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.47M in total.
+3 live pools clear this page's $100K TVL floor, $1.48M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GME pools have the most stable APY history?
 
-Based on APY history only, GME's lower-variability candidates are raydium-amm (Solana), 0.71% APY, $841.5K TVL, https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token; uniswap-v2 (Ethereum), 0.63% APY, $504K TVL, https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GME's lower-variability candidates are raydium-amm (Solana), 0.70% APY, $846.2K TVL, https://www.defi.garden/?pool=80074ed7-393e-4416-b5c6-e761cf285169&src=seo_token; uniswap-v2 (Ethereum), 0.41% APY, $506.8K TVL, https://www.defi.garden/?pool=6acb72f3-69be-4753-86dd-4eaf4bb519f0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

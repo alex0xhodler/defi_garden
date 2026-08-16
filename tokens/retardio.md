@@ -1,10 +1,10 @@
 # RETARDIO DeFi Yields
 
-The highest honest RETARDIO yield right now is 3.41% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RETARDIO yield right now is 2.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3fee280d-8834-4dc7-ac1f-bb395ff332da&src=seo_token) | Solana | 3.41% | $285.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=3fee280d-8834-4dc7-ac1f-bb395ff332da&src=seo_token) | Solana | 2.63% | $288.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RETARDIO yield today?
 
-3.41% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.63% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RETARDIO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $285.8K in total.
+1 live pool clear this page's $100K TVL floor, $288.3K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank RETARDIO pools. This view cov
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

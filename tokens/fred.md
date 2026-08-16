@@ -1,10 +1,10 @@
 # FRED DeFi Yields
 
-The highest honest FRED yield right now is 3.39% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FRED yield right now is 2.43% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7af646ef-3098-455a-8b7d-a61217559064&src=seo_token) | Solana | 3.39% | $206.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=7af646ef-3098-455a-8b7d-a61217559064&src=seo_token) | Solana | 2.43% | $207.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FRED yield today?
 
-3.39% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.43% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FRED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $206.6K in total.
+1 live pool clear this page's $100K TVL floor, $207.6K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank FRED pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

@@ -1,11 +1,11 @@
 # SKAITO DeFi Yields
 
-The highest honest SKAITO yield right now is 78.40% on pendle (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKAITO yield right now is 82.92% on pendle (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token) | Base | 78.40% | $105K |
-| [pendle →](https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token) | Base | 65.26% | $105K |
+| [pendle →](https://www.defi.garden/?pool=49c3dda0-a106-56af-86f5-0984f808f366&src=seo_token) | Base | 68.07% | $101K |
+| [pendle →](https://www.defi.garden/?pool=1e4ff880-95ba-55b1-9d27-eb79686de7e4&src=seo_token) | Base | 82.92% | $101K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,16 +16,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SKAITO shows up in 2 pools here, with rates from 65.26% to 78.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SKAITO shows up in 2 pools here, with rates from 68.07% to 82.92% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 52.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 52.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 78.40% | 55.08% | 13.70% incentives |
-| pendle | 65.26% | 49.19% | Base rate |
+| pendle | 68.07% | 49.62% | Base rate |
+| pendle | 82.92% | 55.70% | 13.80% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SKAITO yield today?
 
-78.40% APY on pendle (Base), based on live DefiLlama data.
+82.92% APY on pendle (Base), based on live DefiLlama data.
 
 ### How many SKAITO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $210.1K in total.
+2 live pools clear this page's $100K TVL floor, $202K in total.
 
 ### Are these rates safe?
 

@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.37M in total.
+4 live pools clear this page's $100K TVL floor, $3.36M in total.
 
 ### Are these rates safe?
 

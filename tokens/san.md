@@ -4,18 +4,18 @@ The highest honest SAN yield right now is 0.17% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token) | Ethereum | 0.02% | $483.6K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=6ae1ef21-207c-4956-ba8d-272ac82b033f&src=seo_token) | Ethereum | 0.17% | $176.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token) | Ethereum | 0.02% | $486.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6ae1ef21-207c-4956-ba8d-272ac82b033f&src=seo_token) | Ethereum | 0.17% | $177.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SAN's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $483.6K TVL, https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token; uniswap-v2 (Ethereum), 0.17% APY, $176.4K TVL, https://www.defi.garden/?pool=6ae1ef21-207c-4956-ba8d-272ac82b033f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAN's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $486.2K TVL, https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token; uniswap-v2 (Ethereum), 0.17% APY, $177.3K TVL, https://www.defi.garden/?pool=6ae1ef21-207c-4956-ba8d-272ac82b033f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token) | Ethereum | 0.02% | $483.6K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=6ae1ef21-207c-4956-ba8d-272ac82b033f&src=seo_token) | Ethereum | 0.17% | $176.4K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token) | Ethereum | 0.02% | $486.2K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=6ae1ef21-207c-4956-ba8d-272ac82b033f&src=seo_token) | Ethereum | 0.17% | $177.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 0.02% | 0.04% | Base rate |
-| uniswap-v2 | 0.17% | 0.00% | Base rate |
+| uniswap-v2 | 0.17% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SAN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $660K in total.
+2 live pools clear this page's $100K TVL floor, $663.5K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SAN pools have the most stable APY history?
 
-Based on APY history only, SAN's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $483.6K TVL, https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token; uniswap-v2 (Ethereum), 0.17% APY, $176.4K TVL, https://www.defi.garden/?pool=6ae1ef21-207c-4956-ba8d-272ac82b033f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SAN's lower-variability candidates are uniswap-v3 (Ethereum), 0.02% APY, $486.2K TVL, https://www.defi.garden/?pool=66257bbe-9c73-44f8-a2b0-05a5b9fc94c5&src=seo_token; uniswap-v2 (Ethereum), 0.17% APY, $177.3K TVL, https://www.defi.garden/?pool=6ae1ef21-207c-4956-ba8d-272ac82b033f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -1,10 +1,10 @@
 # ARENA DeFi Yields
 
-The highest honest ARENA yield right now is 0.48% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARENA yield right now is 0.39% on joe-v2.2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [joe-v2.2 →](https://www.defi.garden/?pool=72e8567d-3063-477f-82b1-33d23fe8e3fe&src=seo_token) | Avalanche | 0.48% | $130.3K |
+| [joe-v2.2 →](https://www.defi.garden/?pool=72e8567d-3063-477f-82b1-33d23fe8e3fe&src=seo_token) | Avalanche | 0.39% | $131.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARENA yield today?
 
-0.48% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
+0.39% APY on joe-v2.2 (Avalanche), based on live DefiLlama data.
 
 ### How many ARENA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.3K in total.
+1 live pool clear this page's $100K TVL floor, $131.8K in total.
 
 ### Are these rates safe?
 

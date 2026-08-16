@@ -4,7 +4,7 @@ The highest honest THEROS yield right now is 0.16% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9df1d4aa-a80e-4c3c-842b-26361fb0f6cd&src=seo_token) | Solana | 0.16% | $2M |
+| [raydium-amm →](https://www.defi.garden/?pool=9df1d4aa-a80e-4c3c-842b-26361fb0f6cd&src=seo_token) | Solana | 0.16% | $2.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many THEROS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2M in total.
+1 live pool clear this page's $100K TVL floor, $2.01M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank THEROS pools. This view cover
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

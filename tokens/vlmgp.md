@@ -4,18 +4,18 @@ The highest honest VLMGP yield right now is 0.25% on wompie (Arbitrum), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wompie →](https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token) | BSC | 0.06% | $245.4K |
+| [wompie →](https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token) | BSC | 0.06% | $244.8K |
 | [wompie →](https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token) | Arbitrum | 0.25% | $134.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VLMGP's lower-variability candidates are wompie (Arbitrum), 0.25% APY, $134.7K TVL, https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token; wompie (BSC), 0.06% APY, $245.4K TVL, https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VLMGP's lower-variability candidates are wompie (Arbitrum), 0.25% APY, $134.7K TVL, https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token; wompie (BSC), 0.06% APY, $244.8K TVL, https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [wompie →](https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token) | Arbitrum | 0.25% | $134.7K |
-| 2 | [wompie →](https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token) | BSC | 0.06% | $245.4K |
+| 2 | [wompie →](https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token) | BSC | 0.06% | $244.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VLMGP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $380.2K in total.
+2 live pools clear this page's $100K TVL floor, $379.5K in total.
 
 ### Are these rates safe?
 
@@ -50,15 +50,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VLMGP pools have the most stable APY history?
 
-Based on APY history only, VLMGP's lower-variability candidates are wompie (Arbitrum), 0.25% APY, $134.7K TVL, https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token; wompie (BSC), 0.06% APY, $245.4K TVL, https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VLMGP's lower-variability candidates are wompie (Arbitrum), 0.25% APY, $134.7K TVL, https://www.defi.garden/?pool=00af582b-810c-42a6-a4a6-b70bc580f050&src=seo_token; wompie (BSC), 0.06% APY, $244.8K TVL, https://www.defi.garden/?pool=95d89fbf-49ec-4b53-9485-d0299bb9fd7a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDT](https://www.defi.garden/tokens/usdt)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
 
 ## Available on

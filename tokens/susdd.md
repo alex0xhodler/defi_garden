@@ -4,18 +4,18 @@ The highest honest SUSDD yield right now is 8.01% on pendle (Ethereum), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 8.01% | $5.1M |
-| [pendle →](https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token) | Ethereum | 7.03% | $5.1M |
+| [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 8.01% | $5.09M |
+| [pendle →](https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token) | Ethereum | 7.03% | $5.09M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDD's lower-variability candidates are pendle (Ethereum), 8.01% APY, $5.1M TVL, https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token; pendle (Ethereum), 7.03% APY, $5.1M TVL, https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDD's lower-variability candidates are pendle (Ethereum), 8.01% APY, $5.09M TVL, https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token; pendle (Ethereum), 7.03% APY, $5.09M TVL, https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 8.01% | $5.1M |
-| 2 | [pendle →](https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token) | Ethereum | 7.03% | $5.1M |
+| 1 | [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 8.01% | $5.09M |
+| 2 | [pendle →](https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token) | Ethereum | 7.03% | $5.09M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,14 +23,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SUSDD shows up in 2 pools here, with rates from 7.03% to 8.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.22% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.23% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 8.01% | 7.68% | Base rate |
-| pendle | 7.03% | 6.75% | 2.99% incentives |
+| pendle | 8.01% | 7.69% | Base rate |
+| pendle | 7.03% | 6.76% | 3.07% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $24.44M in total.
+4 live pools clear this page's $100K TVL floor, $24.43M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDD pools have the most stable APY history?
 
-Based on APY history only, SUSDD's lower-variability candidates are pendle (Ethereum), 8.01% APY, $5.1M TVL, https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token; pendle (Ethereum), 7.03% APY, $5.1M TVL, https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDD's lower-variability candidates are pendle (Ethereum), 8.01% APY, $5.09M TVL, https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token; pendle (Ethereum), 7.03% APY, $5.09M TVL, https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

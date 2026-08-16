@@ -4,7 +4,7 @@ The highest honest CODY yield right now is 0.01% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5a7347ba-679a-443f-a086-5fa01803b396&src=seo_token) | Base | 0.01% | $250.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5a7347ba-679a-443f-a086-5fa01803b396&src=seo_token) | Base | 0.01% | $248.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CODY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $250.5K in total.
+1 live pool clear this page's $100K TVL floor, $248.2K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest IMO yield right now is 0.69% on uniswap-v3 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879&src=seo_token) | Base | 0.69% | $289K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a4747855-3a36-46cb-bfb6-5bb706b25879&src=seo_token) | Base | 0.69% | $289.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IMO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $289K in total.
+1 live pool clear this page's $100K TVL floor, $289.4K in total.
 
 ### Are these rates safe?
 

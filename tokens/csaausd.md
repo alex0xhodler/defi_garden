@@ -4,7 +4,7 @@ The highest honest CSAAUSD yield right now is 8.12% on morpho-blue (Monad), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a9fac1a0-f898-47b5-b7d3-d4d07c5f8a89&src=seo_token) | Monad | 8.12% | $1.77M |
+| [morpho-blue →](https://www.defi.garden/?pool=a9fac1a0-f898-47b5-b7d3-d4d07c5f8a89&src=seo_token) | Monad | 8.12% | $1.76M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSAAUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.77M in total.
+1 live pool clear this page's $100K TVL floor, $1.76M in total.
 
 ### Are these rates safe?
 

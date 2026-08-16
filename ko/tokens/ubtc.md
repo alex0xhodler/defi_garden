@@ -1,41 +1,41 @@
 # UBTC 디파이 수익률
 
-현재 UBTC의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 18.40%이며, $100K TVL 기준을 넘는 16개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 UBTC의 가장 높은 정직한 수익률은 Hyperliquid L1의 nest-cl에서 19.24%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [hyperlend-pooled →](https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token) | Hyperliquid L1 | 0.14% | $8.44M |
-| [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 2.71% | $4.73M |
-| [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 17.83% | $2.07M |
-| [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token) | Hyperliquid L1 | 4.54% | $1.76M |
-| [project-x →](https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token) | Hyperliquid L1 | 0.32% | $368.1K |
-| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 8.70% | $334.5K |
-| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.03% | $210.2K |
-| [nest-cl →](https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token) | Hyperliquid L1 | 18.40% | $149.3K |
+| [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 5.27% | $4.76M |
+| [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 19.24% | $2.09M |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token) | Hyperliquid L1 | 8.82% | $1.78M |
+| [project-x →](https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token) | Hyperliquid L1 | 0.72% | $368.8K |
+| [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 10.61% | $336K |
+| [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.03% | $209.6K |
+| [nest-cl →](https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token) | Hyperliquid L1 | 17.98% | $149.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 UBTC의 변동성 낮은 후보는 Hyperliquid L1의 hyperlend-pooled, APY 0.14%, TVL $8.44M, https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token; Hyperliquid L1의 project-x, APY 0.03%, TVL $210.2K, https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token; Hyperliquid L1의 project-x, APY 0.32%, TVL $368.1K, https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token; Hyperliquid L1의 nest-cl, APY 18.40%, TVL $149.3K, https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token; Hyperliquid L1의 ramses-cl-v2, APY 8.70%, TVL $334.5K, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; Hyperliquid L1의 nest-cl, APY 17.83%, TVL $2.07M, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; Hyperliquid L1의 project-x, APY 2.71%, TVL $4.73M, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 4.54%, TVL $1.76M, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 UBTC의 변동성 낮은 후보는 Hyperliquid L1의 hyperlend-pooled, APY 0.14%, TVL $8.44M, https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token; Hyperliquid L1의 project-x, APY 0.03%, TVL $209.6K, https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token; Hyperliquid L1의 project-x, APY 0.72%, TVL $368.8K, https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token; Hyperliquid L1의 nest-cl, APY 17.98%, TVL $149.6K, https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token; Hyperliquid L1의 ramses-cl-v2, APY 10.61%, TVL $336K, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; Hyperliquid L1의 nest-cl, APY 19.24%, TVL $2.09M, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; Hyperliquid L1의 project-x, APY 5.27%, TVL $4.76M, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 8.82%, TVL $1.78M, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hyperlend-pooled →](https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token) | Hyperliquid L1 | 0.14% | $8.44M |
-| 2 | [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.03% | $210.2K |
-| 3 | [project-x →](https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token) | Hyperliquid L1 | 0.32% | $368.1K |
-| 4 | [nest-cl →](https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token) | Hyperliquid L1 | 18.40% | $149.3K |
-| 5 | [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 8.70% | $334.5K |
-| 6 | [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 17.83% | $2.07M |
-| 7 | [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 2.71% | $4.73M |
-| 8 | [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token) | Hyperliquid L1 | 4.54% | $1.76M |
+| 2 | [project-x →](https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token) | Hyperliquid L1 | 0.03% | $209.6K |
+| 3 | [project-x →](https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token) | Hyperliquid L1 | 0.72% | $368.8K |
+| 4 | [nest-cl →](https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token) | Hyperliquid L1 | 17.98% | $149.6K |
+| 5 | [ramses-cl-v2 →](https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token) | Hyperliquid L1 | 10.61% | $336K |
+| 6 | [nest-cl →](https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token) | Hyperliquid L1 | 19.24% | $2.09M |
+| 7 | [project-x →](https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token) | Hyperliquid L1 | 5.27% | $4.76M |
+| 8 | [hyperswap-v3 →](https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token) | Hyperliquid L1 | 8.82% | $1.78M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-UBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 18.40%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+UBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 19.24%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.82%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.47%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -44,13 +44,13 @@ UBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 18.40%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | hyperlend-pooled | 0.14% | 0.16% | 기본 금리 |
-| project-x | 2.71% | 11.45% | 기본 금리 |
-| nest-cl | 17.83% | 31.18% | 인센티브 100.00% |
-| hyperswap-v3 | 4.54% | 18.19% | 기본 금리 |
-| project-x | 0.32% | 4.75% | 기본 금리 |
-| ramses-cl-v2 | 8.70% | 28.92% | 인센티브 87.83% |
-| project-x | 0.03% | 2.20% | 기본 금리 |
-| nest-cl | 18.40% | 27.91% | 인센티브 100.00% |
+| project-x | 5.27% | 11.15% | 기본 금리 |
+| nest-cl | 19.24% | 31.04% | 인센티브 100.00% |
+| hyperswap-v3 | 8.82% | 17.78% | 기본 금리 |
+| project-x | 0.72% | 4.68% | 기본 금리 |
+| ramses-cl-v2 | 10.61% | 28.45% | 인센티브 84.29% |
+| project-x | 0.03% | 2.18% | 기본 금리 |
+| nest-cl | 17.98% | 27.86% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ UBTC 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 18.40%�
 
 ### 오늘 UBTC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 18.40%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 19.24%예요.
 
 ### UBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 16개이며, 합산 TVL은 $36.87M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $36.88M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 nest-cl에서 APY 18.40%
 
 ### UBTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 UBTC의 변동성 낮은 후보는 Hyperliquid L1의 hyperlend-pooled, APY 0.14%, TVL $8.44M, https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token; Hyperliquid L1의 project-x, APY 0.03%, TVL $210.2K, https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token; Hyperliquid L1의 project-x, APY 0.32%, TVL $368.1K, https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token; Hyperliquid L1의 nest-cl, APY 18.40%, TVL $149.3K, https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token; Hyperliquid L1의 ramses-cl-v2, APY 8.70%, TVL $334.5K, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; Hyperliquid L1의 nest-cl, APY 17.83%, TVL $2.07M, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; Hyperliquid L1의 project-x, APY 2.71%, TVL $4.73M, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 4.54%, TVL $1.76M, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 UBTC의 변동성 낮은 후보는 Hyperliquid L1의 hyperlend-pooled, APY 0.14%, TVL $8.44M, https://www.defi.garden/?pool=96e6c755-2821-407b-83fb-9f8816bdac54&src=seo_token; Hyperliquid L1의 project-x, APY 0.03%, TVL $209.6K, https://www.defi.garden/?pool=903b5eea-8973-41d4-9408-da8c2e53ff2f&src=seo_token; Hyperliquid L1의 project-x, APY 0.72%, TVL $368.8K, https://www.defi.garden/?pool=a6e8bb4d-2309-4652-82bc-949622c450cd&src=seo_token; Hyperliquid L1의 nest-cl, APY 17.98%, TVL $149.6K, https://www.defi.garden/?pool=f0fdd117-6a23-47d8-a42b-67202b9d6102&src=seo_token; Hyperliquid L1의 ramses-cl-v2, APY 10.61%, TVL $336K, https://www.defi.garden/?pool=fa2fa951-a1ff-43f6-b326-2db069497ef2&src=seo_token; Hyperliquid L1의 nest-cl, APY 19.24%, TVL $2.09M, https://www.defi.garden/?pool=62048f53-e93d-4c48-b925-50053037a00d&src=seo_token; Hyperliquid L1의 project-x, APY 5.27%, TVL $4.76M, https://www.defi.garden/?pool=399b47e5-f461-44c2-8534-7e3ea9e22c3c&src=seo_token; Hyperliquid L1의 hyperswap-v3, APY 8.82%, TVL $1.78M, https://www.defi.garden/?pool=296529ba-2569-45a5-aa69-4ea4158527ef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

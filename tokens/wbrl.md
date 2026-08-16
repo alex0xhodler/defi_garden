@@ -4,7 +4,7 @@ The highest honest WBRL yield right now is 1.08% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=737d73ff-fb58-54da-9152-ab8c60acc2ee&src=seo_token) | Base | 0.15% | $339.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=737d73ff-fb58-54da-9152-ab8c60acc2ee&src=seo_token) | Base | 0.15% | $339K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=822f315a-f370-4797-8bbd-81f52aa95d3a&src=seo_token) | Ethereum | 1.08% | $285.5K |
 
 <!-- rate-stability:insufficient -->
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.15% | 0.42% | Base rate |
+| uniswap-v4 | 0.15% | 0.41% | Base rate |
 | uniswap-v4 | 1.08% | 1.29% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WBRL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $625.1K in total.
+2 live pools clear this page's $100K TVL floor, $624.5K in total.
 
 ### Are these rates safe?
 

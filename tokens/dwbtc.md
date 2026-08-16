@@ -4,7 +4,7 @@ The highest honest DWBTC yield right now is 0.18% on gami-labs (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=72fe2b6a-bb86-40c9-87ea-9dd97e9cb8bf&src=seo_token) | Ethereum | 0.18% | $307.5K |
+| [gami-labs →](https://www.defi.garden/?pool=72fe2b6a-bb86-40c9-87ea-9dd97e9cb8bf&src=seo_token) | Ethereum | 0.18% | $308.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DWBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $307.5K in total.
+1 live pool clear this page's $100K TVL floor, $308.8K in total.
 
 ### Are these rates safe?
 

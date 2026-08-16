@@ -1,10 +1,10 @@
 # LIQ DeFi Yields
 
-The highest honest LIQ yield right now is 1.69% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIQ yield right now is 1.71% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=432f25f3-bb7f-4077-af0e-a3b26b9f0b8d&src=seo_token) | Base | 1.69% | $502.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=432f25f3-bb7f-4077-af0e-a3b26b9f0b8d&src=seo_token) | Base | 1.71% | $504.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIQ yield today?
 
-1.69% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.71% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many LIQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $502.7K in total.
+1 live pool clear this page's $100K TVL floor, $504.9K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # PIPPIN DeFi Yields
 
-The highest honest PIPPIN yield right now is 5.76% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PIPPIN yield right now is 7.16% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=20d99514-4d6b-4ff3-bbec-0732971885a0&src=seo_token) | Solana | 5.76% | $3.25M |
+| [raydium-amm →](https://www.defi.garden/?pool=20d99514-4d6b-4ff3-bbec-0732971885a0&src=seo_token) | Solana | 7.16% | $3.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PIPPIN yield today?
 
-5.76% APY on raydium-amm (Solana), based on live DefiLlama data.
+7.16% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PIPPIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.25M in total.
+1 live pool clear this page's $100K TVL floor, $3.29M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank PIPPIN pools. This view cover
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
-- [USTB](https://www.defi.garden/tokens/ustb)
 
 ## Available on
 

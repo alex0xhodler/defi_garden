@@ -1,10 +1,10 @@
 # IAG DeFi Yields
 
-The highest honest IAG yield right now is 17.45% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IAG yield right now is 16.80% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=926cd961-45ad-40d7-9876-6f0fe19d8fa3&src=seo_token) | Cardano | 17.45% | $161.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=926cd961-45ad-40d7-9876-6f0fe19d8fa3&src=seo_token) | Cardano | 16.80% | $161.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IAG yield today?
 
-17.45% APY on minswap-dex (Cardano), based on live DefiLlama data.
+16.80% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many IAG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $161.6K in total.
+1 live pool clear this page's $100K TVL floor, $161.7K in total.
 
 ### Are these rates safe?
 

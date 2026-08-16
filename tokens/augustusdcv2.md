@@ -5,17 +5,17 @@ The highest honest AUGUSTUSDCV2 yield right now is 8.14% on morpho-blue (Monad),
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 8.14% | $3.92M |
-| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 7.85% | $752.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 7.85% | $752.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 8.14% APY, $3.92M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 7.85% APY, $752.6K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 8.14% APY, $3.92M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 7.85% APY, $752.5K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 8.14% | $3.92M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 7.85% | $752.6K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 7.85% | $752.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ AUGUSTUSDCV2 shows up in 2 pools here, with rates from 7.85% to 8.14% APY across
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | morpho-blue | 8.14% | 7.16% | 29.04% incentives |
-| morpho-blue | 7.85% | 7.34% | Base rate |
+| morpho-blue | 7.85% | 7.33% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AUGUSTUSDCV2 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.68M in total.
+2 live pools clear this page's $100K TVL floor, $4.67M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AUGUSTUSDCV2 pools have the most stable APY history?
 
-Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 8.14% APY, $3.92M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 7.85% APY, $752.6K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 8.14% APY, $3.92M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 7.85% APY, $752.5K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

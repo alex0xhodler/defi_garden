@@ -4,7 +4,7 @@ The highest honest KUSDC yield right now is 6.04% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4828569b-ddba-42a7-9bf9-e7e6d809112d&src=seo_token) | Ethereum | 6.04% | $8.36M |
+| [morpho-blue →](https://www.defi.garden/?pool=4828569b-ddba-42a7-9bf9-e7e6d809112d&src=seo_token) | Ethereum | 6.04% | $8.35M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.36M in total.
+1 live pool clear this page's $100K TVL floor, $8.35M in total.
 
 ### Are these rates safe?
 
