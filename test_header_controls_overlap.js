@@ -272,10 +272,10 @@ async function openCase(browser, { url, width, theme, lang, extraCss }) {
     await ctx.close();
   }
 
-  // (6) analytics homepage not regressed by the `>` scoping.
+  // (6) analytics homepage now renders the unified header band (236 phase 1).
   {
     const { ctx, page } = await openCase(browser, { url: '/?app=1', width: 360, theme: 'light', lang: 'en' });
-    await test('homepage 360: standalone pair still fixed and still pressable', async () => {
+    await test('homepage 360: shared-header controls visible and pressable', async () => {
       const m = await page.evaluate(() => {
         const out = [];
         for (const sel of ['.theme-toggle', '.language-toggle']) {
@@ -287,10 +287,9 @@ async function openCase(browser, { url, width, theme, lang, extraCss }) {
         }
         return { out, hasHeader: !!document.querySelector('.app-header-sticky') };
       });
-      if (m.hasHeader) throw new Error('unexpected: the analytics homepage rendered a header');
+      if (!m.hasHeader) throw new Error('expected: the analytics homepage to render the shared header band');
       for (const t of m.out) {
         if (t.missing) throw new Error(`${t.sel} missing on the homepage`);
-        if (t.position !== 'fixed') throw new Error(`${t.sel} lost its fixed positioning on the homepage (position: ${t.position})`);
         if (!(t.w > 0 && t.h > 0)) throw new Error(`${t.sel} has a zero box on the homepage`);
         if (t.hit !== 'SELF') throw new Error(`${t.sel} not pressable on the homepage: elementFromPoint -> ${t.hit}`);
       }

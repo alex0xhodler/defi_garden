@@ -229,9 +229,7 @@ async function main() {
       await page.click('.pool-card');
       await page.waitForSelector('.pool-hero-card', { timeout: 10000 });
 
-      await page.click('.app-search-input');
-      await page.keyboard.press('Control+A');
-      await page.keyboard.type('eth', { delay: 20 });
+      await page.fill('.app-search-input', 'ETH');
       await page.waitForTimeout(400); // let the 300ms search debounce settle
       await page.keyboard.press('Enter');
 
