@@ -4,11 +4,11 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.02% | $52.05M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.24% | $19.24M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.02% | $52.06M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.24% | $19.29M |
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498&src=seo_chain) | 3.54% | $13.47M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_chain) | 2.79% | $12.71M |
 | USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee&src=seo_chain) | 2.84% | $12.48M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_chain) | 2.84% | $12.41M |
 | WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_chain) | 0.10% | $6.4M |
 | HLSCOPE | [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_chain) | 6.45% | $4.09M |
 | MATICX | [stader →](https://www.defi.garden/?pool=5b1fe146-7cbd-448d-bf53-8df9c3501016&src=seo_chain) | 2.28% | $3.17M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 hamilton-lane-senior-credit-opp
 
 ### Polygon 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 171개이며, 합산 TVL은 $231.9M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 171개이며, 합산 TVL은 $231.92M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -43,8 +43,8 @@ DefiLlama 실시간 데이터 기준, Polygon의 hamilton-lane-senior-credit-opp
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [WPOL](https://www.defi.garden/ko/tokens/wpol)
 - [HLSCOPE](https://www.defi.garden/ko/tokens/hlscope)
 - [MATICX](https://www.defi.garden/ko/tokens/maticx)

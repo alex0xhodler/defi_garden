@@ -5,13 +5,13 @@ The highest honest Ink yield right now is 5.33% on apollo-diversified-credit-sec
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=f1ce6992-889f-42c0-9af4-215caf1c22dd&src=seo_chain) | 5.33% | $11.1M |
-| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 1.55% | $6.77M |
-| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae&src=seo_chain) | 1.24% | $3.61M |
-| USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce&src=seo_chain) | 2.55% | $3.59M |
-| USD₮0-USDG | [velodrome-v3 →](https://www.defi.garden/?pool=b9ba5af5-01a6-49c7-bc56-516053a29e96&src=seo_chain) | 1.74% | $1.76M |
-| USD₮0-KBTC | [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_chain) | 5.09% | $1.47M |
-| USD₮0-WETH | [velodrome-v3 →](https://www.defi.garden/?pool=e9a3d32d-d09a-40f0-ad44-8b7a7941bc78&src=seo_chain) | 3.25% | $1.43M |
-| USDG | [tydro →](https://www.defi.garden/?pool=065ea91c-deff-4da0-a06f-64c642780936&src=seo_chain) | 2.09% | $989.7K |
+| USDC | [tydro →](https://www.defi.garden/?pool=4d296741-940d-44c1-a729-f6bd1f330f6f&src=seo_chain) | 1.53% | $6.9M |
+| WETH | [tydro →](https://www.defi.garden/?pool=15baa435-9e38-4688-a345-6fe5783235ae&src=seo_chain) | 1.24% | $3.62M |
+| USD₮0 | [tydro →](https://www.defi.garden/?pool=ae25cef1-2ded-4c05-af5e-09f6420a2bce&src=seo_chain) | 2.55% | $3.58M |
+| USD₮0-USDG | [velodrome-v3 →](https://www.defi.garden/?pool=b9ba5af5-01a6-49c7-bc56-516053a29e96&src=seo_chain) | 1.73% | $1.76M |
+| USD₮0-WETH | [velodrome-v3 →](https://www.defi.garden/?pool=e9a3d32d-d09a-40f0-ad44-8b7a7941bc78&src=seo_chain) | 2.00% | $1.54M |
+| USD₮0-KBTC | [velodrome-v3 →](https://www.defi.garden/?pool=558d461e-3bf6-41f6-bce8-e4d6271d209e&src=seo_chain) | 5.04% | $1.47M |
+| USDG | [tydro →](https://www.defi.garden/?pool=065ea91c-deff-4da0-a06f-64c642780936&src=seo_chain) | 2.15% | $945.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Ink pools clear the TVL floor?
 
-18 live pools clear this page's $100K TVL floor, $66.83M in total.
+18 live pools clear this page's $100K TVL floor, $67.03M in total.
 
 ### Are these rates safe?
 

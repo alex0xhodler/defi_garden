@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WETH | [euler-v2 →](https://www.defi.garden/?pool=39b18684-cf0c-471b-a991-4a65d399367a&src=seo_chain) | 0.89% | $525K |
+| WETH | [euler-v2 →](https://www.defi.garden/?pool=39b18684-cf0c-471b-a991-4a65d399367a&src=seo_chain) | 0.89% | $525.3K |
 | SUSDS | [sky-lending →](https://www.defi.garden/?pool=e92131f3-628f-5983-8a94-995ca58856e8&src=seo_chain) | 3.52% | $165.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.

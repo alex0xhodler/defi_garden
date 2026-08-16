@@ -1,9 +1,9 @@
 # Complete DeFi Yield Index: Best Token Yields Across All Blockchains | DeFi Garden
 
-- Last Updated: 2026-08-16T02:58:51.916Z
+- Last Updated: 2026-08-16T09:22:48.187Z
 - Canonical: https://www.defi.garden
-- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-08-16T02:57:23.740Z)
-- Total URLs: 4310
+- Data Sources: sitemap.xml, DefiLlama API (fetched: 2026-08-16T09:21:25.510Z)
+- Total URLs: 4300
 - Categories: homepage(1), tokens(0), chains(7), poolTypes(0), highValue(0)
 
 ## Homepage
@@ -19,7 +19,7 @@ TL;DR: A goal-first savings planner for people who think in monthly deposits and
 - SUBSCRIPTION: the "forever number" — the capital whose yield alone covers a recurring bill, indefinitely.
 - Forever number formula: forever number = annual bill ÷ blended rate. No projected dollar figure is published here — a plan's own inputs determine the real number.
 - An early-access waitlist exists for a card that would pay a subscription directly from a position's yield; the card itself is not available yet.
-- Live blended rate: 3.0% — median APY across the 5404 pools clearing our published rails (TVL ≥ $100K, APY ≤ 1000%) on the date above.
+- Live blended rate: 2.9% — median APY across the 5389 pools clearing our published rails (TVL ≥ $100K, APY ≤ 1000%) on the date above.
 - A plan's own rate is computed over a different set: the planner picks a small, temperament-filtered selection of pools (the default pace is stablecoin lending/staking only) and blends those, so the rate a plan shows will differ from this market-wide median.
 
 ## API & MCP
@@ -112,6 +112,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/chains/polkadot
 - https://www.defi.garden/chains/polygon
 - https://www.defi.garden/chains/robinhood-chain
+- https://www.defi.garden/chains/rootstock
 - https://www.defi.garden/chains/rsk
 - https://www.defi.garden/chains/scroll
 - https://www.defi.garden/chains/sei
@@ -199,6 +200,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/chains/polkadot
 - https://www.defi.garden/ko/chains/polygon
 - https://www.defi.garden/ko/chains/robinhood-chain
+- https://www.defi.garden/ko/chains/rootstock
 - https://www.defi.garden/ko/chains/rsk
 - https://www.defi.garden/ko/chains/scroll
 - https://www.defi.garden/ko/chains/sei
@@ -277,6 +279,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/aero
 - https://www.defi.garden/ko/tokens/aerobud
 - https://www.defi.garden/ko/tokens/aeth
+- https://www.defi.garden/ko/tokens/aethusdc
 - https://www.defi.garden/ko/tokens/aethweth
 - https://www.defi.garden/ko/tokens/aeurc
 - https://www.defi.garden/ko/tokens/aevo
@@ -453,6 +456,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/ban
 - https://www.defi.garden/ko/tokens/banana
 - https://www.defi.garden/ko/tokens/basemate
+- https://www.defi.garden/ko/tokens/baseshake
 - https://www.defi.garden/ko/tokens/bat
 - https://www.defi.garden/ko/tokens/bbqausd
 - https://www.defi.garden/ko/tokens/bbqtgbp
@@ -511,7 +515,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/bongo
 - https://www.defi.garden/ko/tokens/bonk
 - https://www.defi.garden/ko/tokens/bonksol
-- https://www.defi.garden/ko/tokens/booe
 - https://www.defi.garden/ko/tokens/boop
 - https://www.defi.garden/ko/tokens/bored
 - https://www.defi.garden/ko/tokens/borg
@@ -538,8 +541,10 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/btn
 - https://www.defi.garden/ko/tokens/btse
 - https://www.defi.garden/ko/tokens/btt
+- https://www.defi.garden/ko/tokens/btw
 - https://www.defi.garden/ko/tokens/bubble
 - https://www.defi.garden/ko/tokens/buck
+- https://www.defi.garden/ko/tokens/buddy
 - https://www.defi.garden/ko/tokens/buidl
 - https://www.defi.garden/ko/tokens/build
 - https://www.defi.garden/ko/tokens/busd
@@ -614,6 +619,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/comp
 - https://www.defi.garden/ko/tokens/con
 - https://www.defi.garden/ko/tokens/conway
+- https://www.defi.garden/ko/tokens/coral
 - https://www.defi.garden/ko/tokens/core
 - https://www.defi.garden/ko/tokens/coreusdc
 - https://www.defi.garden/ko/tokens/coreusdt0
@@ -653,7 +659,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/csusdccore
 - https://www.defi.garden/ko/tokens/csvbusdt
 - https://www.defi.garden/ko/tokens/cswap
-- https://www.defi.garden/ko/tokens/csxrp
 - https://www.defi.garden/ko/tokens/ctdefiusdt
 - https://www.defi.garden/ko/tokens/ctfrontierusdc
 - https://www.defi.garden/ko/tokens/cto
@@ -700,7 +705,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/dext
 - https://www.defi.garden/ko/tokens/dfdvsol
 - https://www.defi.garden/ko/tokens/dfi
-- https://www.defi.garden/ko/tokens/dg
 - https://www.defi.garden/ko/tokens/dgld
 - https://www.defi.garden/ko/tokens/dhc
 - https://www.defi.garden/ko/tokens/dhn
@@ -773,7 +777,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/ena
 - https://www.defi.garden/ko/tokens/ens
 - https://www.defi.garden/ko/tokens/epik
-- https://www.defi.garden/ko/tokens/erc20
+- https://www.defi.garden/ko/tokens/eqb
 - https://www.defi.garden/ko/tokens/erub
 - https://www.defi.garden/ko/tokens/esp
 - https://www.defi.garden/ko/tokens/esports
@@ -822,10 +826,12 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/felix
 - https://www.defi.garden/ko/tokens/fely
 - https://www.defi.garden/ko/tokens/fet
+- https://www.defi.garden/ko/tokens/feusd
 - https://www.defi.garden/ko/tokens/feusdc
 - https://www.defi.garden/ko/tokens/feusdt0
 - https://www.defi.garden/ko/tokens/feusdt02
 - https://www.defi.garden/ko/tokens/fey
+- https://www.defi.garden/ko/tokens/fidd
 - https://www.defi.garden/ko/tokens/fight
 - https://www.defi.garden/ko/tokens/fih
 - https://www.defi.garden/ko/tokens/finale
@@ -843,12 +849,11 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/flt
 - https://www.defi.garden/ko/tokens/fluid
 - https://www.defi.garden/ko/tokens/flusd
-- https://www.defi.garden/ko/tokens/fm
+- https://www.defi.garden/ko/tokens/fnx
 - https://www.defi.garden/ko/tokens/fo
 - https://www.defi.garden/ko/tokens/folks
 - https://www.defi.garden/ko/tokens/fora
 - https://www.defi.garden/ko/tokens/fox
-- https://www.defi.garden/ko/tokens/fpi
 - https://www.defi.garden/ko/tokens/frax
 - https://www.defi.garden/ko/tokens/fraxbp
 - https://www.defi.garden/ko/tokens/fred
@@ -889,6 +894,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/gbpm
 - https://www.defi.garden/ko/tokens/gcfa
 - https://www.defi.garden/ko/tokens/gdex
+- https://www.defi.garden/ko/tokens/gdtc
 - https://www.defi.garden/ko/tokens/gear
 - https://www.defi.garden/ko/tokens/gemston
 - https://www.defi.garden/ko/tokens/gen
@@ -917,7 +923,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/goat
 - https://www.defi.garden/ko/tokens/gobtc
 - https://www.defi.garden/ko/tokens/goeth
-- https://www.defi.garden/ko/tokens/goku
 - https://www.defi.garden/ko/tokens/gold
 - https://www.defi.garden/ko/tokens/googlx
 - https://www.defi.garden/ko/tokens/gook
@@ -989,7 +994,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/hermesos
 - https://www.defi.garden/ko/tokens/hestia
 - https://www.defi.garden/ko/tokens/hex
-- https://www.defi.garden/ko/tokens/hez
 - https://www.defi.garden/ko/tokens/hfun
 - https://www.defi.garden/ko/tokens/hgeth
 - https://www.defi.garden/ko/tokens/hgram
@@ -1017,7 +1021,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/hunt
 - https://www.defi.garden/ko/tokens/husdc
 - https://www.defi.garden/ko/tokens/husdt
-- https://www.defi.garden/ko/tokens/hwhlp
 - https://www.defi.garden/ko/tokens/hwhype
 - https://www.defi.garden/ko/tokens/hxxi
 - https://www.defi.garden/ko/tokens/hyausd
@@ -1035,7 +1038,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/ibera
 - https://www.defi.garden/ko/tokens/ibnai
 - https://www.defi.garden/ko/tokens/ic
-- https://www.defi.garden/ko/tokens/ichi
 - https://www.defi.garden/ko/tokens/icp
 - https://www.defi.garden/ko/tokens/id
 - https://www.defi.garden/ko/tokens/idai
@@ -1072,7 +1074,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/jarvis
 - https://www.defi.garden/ko/tokens/jellyjelly
 - https://www.defi.garden/ko/tokens/jesse
-- https://www.defi.garden/ko/tokens/jest
 - https://www.defi.garden/ko/tokens/jesus
 - https://www.defi.garden/ko/tokens/jetton
 - https://www.defi.garden/ko/tokens/jeur
@@ -1082,6 +1083,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/joe
 - https://www.defi.garden/ko/tokens/joff
 - https://www.defi.garden/ko/tokens/jpyc
+- https://www.defi.garden/ko/tokens/jrmhyper
 - https://www.defi.garden/ko/tokens/jrmm1usd
 - https://www.defi.garden/ko/tokens/jrnusd
 - https://www.defi.garden/ko/tokens/jrprime
@@ -1138,6 +1140,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/kodiwbera
 - https://www.defi.garden/ko/tokens/kodiwbtc
 - https://www.defi.garden/ko/tokens/kodiweth
+- https://www.defi.garden/ko/tokens/kompete
 - https://www.defi.garden/ko/tokens/kori
 - https://www.defi.garden/ko/tokens/kp3r
 - https://www.defi.garden/ko/tokens/kpk
@@ -1164,7 +1167,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/letsbonk
 - https://www.defi.garden/ko/tokens/lfi
 - https://www.defi.garden/ko/tokens/lfrax
-- https://www.defi.garden/ko/tokens/lhype
 - https://www.defi.garden/ko/tokens/lidowsteth
 - https://www.defi.garden/ko/tokens/like
 - https://www.defi.garden/ko/tokens/limusd
@@ -1185,7 +1187,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/lmts
 - https://www.defi.garden/ko/tokens/lmwr
 - https://www.defi.garden/ko/tokens/lockin
-- https://www.defi.garden/ko/tokens/lon
 - https://www.defi.garden/ko/tokens/loop
 - https://www.defi.garden/ko/tokens/lp
 - https://www.defi.garden/ko/tokens/lpt
@@ -1231,7 +1232,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/mchc
 - https://www.defi.garden/ko/tokens/mchype
 - https://www.defi.garden/ko/tokens/mcweth
-- https://www.defi.garden/ko/tokens/md
 - https://www.defi.garden/ko/tokens/mdx
 - https://www.defi.garden/ko/tokens/me
 - https://www.defi.garden/ko/tokens/mebt
@@ -1272,7 +1272,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/mog
 - https://www.defi.garden/ko/tokens/molly
 - https://www.defi.garden/ko/tokens/molt
-- https://www.defi.garden/ko/tokens/moltx
 - https://www.defi.garden/ko/tokens/mon
 - https://www.defi.garden/ko/tokens/moobifi
 - https://www.defi.garden/ko/tokens/moodeng
@@ -1288,7 +1287,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/morphousdc
 - https://www.defi.garden/ko/tokens/mot
 - https://www.defi.garden/ko/tokens/mother
-- https://www.defi.garden/ko/tokens/moveusd
 - https://www.defi.garden/ko/tokens/mpeth
 - https://www.defi.garden/ko/tokens/mplx
 - https://www.defi.garden/ko/tokens/mpp
@@ -1310,6 +1308,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/mtusdc
 - https://www.defi.garden/ko/tokens/mtx
 - https://www.defi.garden/ko/tokens/mub
+- https://www.defi.garden/ko/tokens/mubi
 - https://www.defi.garden/ko/tokens/mult
 - https://www.defi.garden/ko/tokens/multpool
 - https://www.defi.garden/ko/tokens/mumu
@@ -1317,6 +1316,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/mushu
 - https://www.defi.garden/ko/tokens/mvl
 - https://www.defi.garden/ko/tokens/mvp
+- https://www.defi.garden/ko/tokens/mwcbbtc
 - https://www.defi.garden/ko/tokens/mweth
 - https://www.defi.garden/ko/tokens/mweurc
 - https://www.defi.garden/ko/tokens/mwusdc
@@ -1344,12 +1344,12 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/newt
 - https://www.defi.garden/ko/tokens/nexo
 - https://www.defi.garden/ko/tokens/nfalcon
+- https://www.defi.garden/ko/tokens/nfd
 - https://www.defi.garden/ko/tokens/nflxb
 - https://www.defi.garden/ko/tokens/nft
 - https://www.defi.garden/ko/tokens/nicp
 - https://www.defi.garden/ko/tokens/night
 - https://www.defi.garden/ko/tokens/nil
-- https://www.defi.garden/ko/tokens/nkp
 - https://www.defi.garden/ko/tokens/nlcrd
 - https://www.defi.garden/ko/tokens/nmr
 - https://www.defi.garden/ko/tokens/nock
@@ -1359,7 +1359,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/nopal
 - https://www.defi.garden/ko/tokens/nos
 - https://www.defi.garden/ko/tokens/not
-- https://www.defi.garden/ko/tokens/now
 - https://www.defi.garden/ko/tokens/npc
 - https://www.defi.garden/ko/tokens/ns
 - https://www.defi.garden/ko/tokens/nst
@@ -1424,7 +1423,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/pandora
 - https://www.defi.garden/ko/tokens/papi
 - https://www.defi.garden/ko/tokens/parti
-- https://www.defi.garden/ko/tokens/patriot
 - https://www.defi.garden/ko/tokens/pawth
 - https://www.defi.garden/ko/tokens/paxg
 - https://www.defi.garden/ko/tokens/payai
@@ -1514,22 +1512,20 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/qom
 - https://www.defi.garden/ko/tokens/qqqb
 - https://www.defi.garden/ko/tokens/qqqx
-- https://www.defi.garden/ko/tokens/qrx
 - https://www.defi.garden/ko/tokens/qsave
 - https://www.defi.garden/ko/tokens/qst
 - https://www.defi.garden/ko/tokens/quant
 - https://www.defi.garden/ko/tokens/quill
 - https://www.defi.garden/ko/tokens/rad
-- https://www.defi.garden/ko/tokens/rai
 - https://www.defi.garden/ko/tokens/rail
 - https://www.defi.garden/ko/tokens/rain
 - https://www.defi.garden/ko/tokens/rally
-- https://www.defi.garden/ko/tokens/ramp
 - https://www.defi.garden/ko/tokens/rasol
 - https://www.defi.garden/ko/tokens/ratspeak
 - https://www.defi.garden/ko/tokens/rave
 - https://www.defi.garden/ko/tokens/ray
 - https://www.defi.garden/ko/tokens/rb
+- https://www.defi.garden/ko/tokens/rbtc
 - https://www.defi.garden/ko/tokens/rceth
 - https://www.defi.garden/ko/tokens/rcode
 - https://www.defi.garden/ko/tokens/re7honey
@@ -1571,6 +1567,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/rndr
 - https://www.defi.garden/ko/tokens/rneth
 - https://www.defi.garden/ko/tokens/rnt
+- https://www.defi.garden/ko/tokens/roai
 - https://www.defi.garden/ko/tokens/robo
 - https://www.defi.garden/ko/tokens/robotmoney
 - https://www.defi.garden/ko/tokens/rock-loopedeth
@@ -1658,6 +1655,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/shi
 - https://www.defi.garden/ko/tokens/shib
 - https://www.defi.garden/ko/tokens/shiba2
+- https://www.defi.garden/ko/tokens/shik
 - https://www.defi.garden/ko/tokens/shiro
 - https://www.defi.garden/ko/tokens/shit
 - https://www.defi.garden/ko/tokens/shmon
@@ -1681,7 +1679,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/siusd
 - https://www.defi.garden/ko/tokens/sj
 - https://www.defi.garden/ko/tokens/sjeur
-- https://www.defi.garden/ko/tokens/sjusd
 - https://www.defi.garden/ko/tokens/skaito
 - https://www.defi.garden/ko/tokens/skbdi
 - https://www.defi.garden/ko/tokens/skhy
@@ -1689,6 +1686,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/skntq
 - https://www.defi.garden/ko/tokens/skr
 - https://www.defi.garden/ko/tokens/sky
+- https://www.defi.garden/ko/tokens/slap
 - https://www.defi.garden/ko/tokens/slerf
 - https://www.defi.garden/ko/tokens/slgns
 - https://www.defi.garden/ko/tokens/slim
@@ -1706,7 +1704,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/sndk
 - https://www.defi.garden/ko/tokens/sndkb
 - https://www.defi.garden/ko/tokens/snek
-- https://www.defi.garden/ko/tokens/snort
 - https://www.defi.garden/ko/tokens/snpad
 - https://www.defi.garden/ko/tokens/snrusd
 - https://www.defi.garden/ko/tokens/snt
@@ -1730,6 +1727,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/spcx
 - https://www.defi.garden/ko/tokens/spcxb
 - https://www.defi.garden/ko/tokens/spcxx
+- https://www.defi.garden/ko/tokens/spdr
 - https://www.defi.garden/ko/tokens/spec
 - https://www.defi.garden/ko/tokens/spectre
 - https://www.defi.garden/ko/tokens/spell
@@ -1801,7 +1799,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/strike
 - https://www.defi.garden/ko/tokens/strk
 - https://www.defi.garden/ko/tokens/strkbtc
-- https://www.defi.garden/ko/tokens/strong
 - https://www.defi.garden/ko/tokens/strongsol
 - https://www.defi.garden/ko/tokens/strusd
 - https://www.defi.garden/ko/tokens/strx
@@ -1854,7 +1851,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/susn
 - https://www.defi.garden/ko/tokens/sveth
 - https://www.defi.garden/ko/tokens/sw
-- https://www.defi.garden/ko/tokens/swap
 - https://www.defi.garden/ko/tokens/swarms
 - https://www.defi.garden/ko/tokens/swaves
 - https://www.defi.garden/ko/tokens/sweat
@@ -1886,6 +1882,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/telebtc
 - https://www.defi.garden/ko/tokens/tellr
 - https://www.defi.garden/ko/tokens/tenshi
+- https://www.defi.garden/ko/tokens/teqoin
 - https://www.defi.garden/ko/tokens/terminus
 - https://www.defi.garden/ko/tokens/test
 - https://www.defi.garden/ko/tokens/tet
@@ -1956,7 +1953,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/udoge
 - https://www.defi.garden/ko/tokens/ueth
 - https://www.defi.garden/ko/tokens/ufd
-- https://www.defi.garden/ko/tokens/uft
 - https://www.defi.garden/ko/tokens/ultima
 - https://www.defi.garden/ko/tokens/ultrausdc
 - https://www.defi.garden/ko/tokens/ultrausdt
@@ -2116,7 +2112,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/wcro
 - https://www.defi.garden/ko/tokens/weeth
 - https://www.defi.garden/ko/tokens/weeth-base
-- https://www.defi.garden/ko/tokens/weeths
 - https://www.defi.garden/ko/tokens/wegld
 - https://www.defi.garden/ko/tokens/well
 - https://www.defi.garden/ko/tokens/wepe
@@ -2154,6 +2149,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/wmon
 - https://www.defi.garden/ko/tokens/wmstrx
 - https://www.defi.garden/ko/tokens/wmtusdc
+- https://www.defi.garden/ko/tokens/wmtusdt
 - https://www.defi.garden/ko/tokens/wmtwbtc
 - https://www.defi.garden/ko/tokens/wmtx
 - https://www.defi.garden/ko/tokens/wnausd
@@ -2172,7 +2168,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/wqqqx
 - https://www.defi.garden/ko/tokens/wquil
 - https://www.defi.garden/ko/tokens/ws
-- https://www.defi.garden/ko/tokens/wsb
 - https://www.defi.garden/ko/tokens/wsei
 - https://www.defi.garden/ko/tokens/wsol
 - https://www.defi.garden/ko/tokens/wspyx
@@ -2213,6 +2208,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/xcfx
 - https://www.defi.garden/ko/tokens/xcn
 - https://www.defi.garden/ko/tokens/xcu
+- https://www.defi.garden/ko/tokens/xcx
 - https://www.defi.garden/ko/tokens/xeth
 - https://www.defi.garden/ko/tokens/xfund
 - https://www.defi.garden/ko/tokens/xlm
@@ -2232,6 +2228,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/xstrkbtc
 - https://www.defi.garden/ko/tokens/xsushi
 - https://www.defi.garden/ko/tokens/xswap
+- https://www.defi.garden/ko/tokens/xusd
 - https://www.defi.garden/ko/tokens/xvs
 - https://www.defi.garden/ko/tokens/xwbtc
 - https://www.defi.garden/ko/tokens/xyo
@@ -2266,7 +2263,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/ko/tokens/yzy
 - https://www.defi.garden/ko/tokens/zama
 - https://www.defi.garden/ko/tokens/zbtc
-- https://www.defi.garden/ko/tokens/zbu
 - https://www.defi.garden/ko/tokens/zchf
 - https://www.defi.garden/ko/tokens/zec
 - https://www.defi.garden/ko/tokens/zen
@@ -2343,6 +2339,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/aero
 - https://www.defi.garden/tokens/aerobud
 - https://www.defi.garden/tokens/aeth
+- https://www.defi.garden/tokens/aethusdc
 - https://www.defi.garden/tokens/aethweth
 - https://www.defi.garden/tokens/aeurc
 - https://www.defi.garden/tokens/aevo
@@ -2519,6 +2516,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/ban
 - https://www.defi.garden/tokens/banana
 - https://www.defi.garden/tokens/basemate
+- https://www.defi.garden/tokens/baseshake
 - https://www.defi.garden/tokens/bat
 - https://www.defi.garden/tokens/bbqausd
 - https://www.defi.garden/tokens/bbqtgbp
@@ -2577,7 +2575,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/bongo
 - https://www.defi.garden/tokens/bonk
 - https://www.defi.garden/tokens/bonksol
-- https://www.defi.garden/tokens/booe
 - https://www.defi.garden/tokens/boop
 - https://www.defi.garden/tokens/bored
 - https://www.defi.garden/tokens/borg
@@ -2604,8 +2601,10 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/btn
 - https://www.defi.garden/tokens/btse
 - https://www.defi.garden/tokens/btt
+- https://www.defi.garden/tokens/btw
 - https://www.defi.garden/tokens/bubble
 - https://www.defi.garden/tokens/buck
+- https://www.defi.garden/tokens/buddy
 - https://www.defi.garden/tokens/buidl
 - https://www.defi.garden/tokens/build
 - https://www.defi.garden/tokens/busd
@@ -2680,6 +2679,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/comp
 - https://www.defi.garden/tokens/con
 - https://www.defi.garden/tokens/conway
+- https://www.defi.garden/tokens/coral
 - https://www.defi.garden/tokens/core
 - https://www.defi.garden/tokens/coreusdc
 - https://www.defi.garden/tokens/coreusdt0
@@ -2719,7 +2719,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/csusdccore
 - https://www.defi.garden/tokens/csvbusdt
 - https://www.defi.garden/tokens/cswap
-- https://www.defi.garden/tokens/csxrp
 - https://www.defi.garden/tokens/ctdefiusdt
 - https://www.defi.garden/tokens/ctfrontierusdc
 - https://www.defi.garden/tokens/cto
@@ -2766,7 +2765,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/dext
 - https://www.defi.garden/tokens/dfdvsol
 - https://www.defi.garden/tokens/dfi
-- https://www.defi.garden/tokens/dg
 - https://www.defi.garden/tokens/dgld
 - https://www.defi.garden/tokens/dhc
 - https://www.defi.garden/tokens/dhn
@@ -2839,7 +2837,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/ena
 - https://www.defi.garden/tokens/ens
 - https://www.defi.garden/tokens/epik
-- https://www.defi.garden/tokens/erc20
+- https://www.defi.garden/tokens/eqb
 - https://www.defi.garden/tokens/erub
 - https://www.defi.garden/tokens/esp
 - https://www.defi.garden/tokens/esports
@@ -2888,10 +2886,12 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/felix
 - https://www.defi.garden/tokens/fely
 - https://www.defi.garden/tokens/fet
+- https://www.defi.garden/tokens/feusd
 - https://www.defi.garden/tokens/feusdc
 - https://www.defi.garden/tokens/feusdt0
 - https://www.defi.garden/tokens/feusdt02
 - https://www.defi.garden/tokens/fey
+- https://www.defi.garden/tokens/fidd
 - https://www.defi.garden/tokens/fight
 - https://www.defi.garden/tokens/fih
 - https://www.defi.garden/tokens/finale
@@ -2909,12 +2909,11 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/flt
 - https://www.defi.garden/tokens/fluid
 - https://www.defi.garden/tokens/flusd
-- https://www.defi.garden/tokens/fm
+- https://www.defi.garden/tokens/fnx
 - https://www.defi.garden/tokens/fo
 - https://www.defi.garden/tokens/folks
 - https://www.defi.garden/tokens/fora
 - https://www.defi.garden/tokens/fox
-- https://www.defi.garden/tokens/fpi
 - https://www.defi.garden/tokens/frax
 - https://www.defi.garden/tokens/fraxbp
 - https://www.defi.garden/tokens/fred
@@ -2955,6 +2954,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/gbpm
 - https://www.defi.garden/tokens/gcfa
 - https://www.defi.garden/tokens/gdex
+- https://www.defi.garden/tokens/gdtc
 - https://www.defi.garden/tokens/gear
 - https://www.defi.garden/tokens/gemston
 - https://www.defi.garden/tokens/gen
@@ -2983,7 +2983,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/goat
 - https://www.defi.garden/tokens/gobtc
 - https://www.defi.garden/tokens/goeth
-- https://www.defi.garden/tokens/goku
 - https://www.defi.garden/tokens/gold
 - https://www.defi.garden/tokens/googlx
 - https://www.defi.garden/tokens/gook
@@ -3055,7 +3054,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/hermesos
 - https://www.defi.garden/tokens/hestia
 - https://www.defi.garden/tokens/hex
-- https://www.defi.garden/tokens/hez
 - https://www.defi.garden/tokens/hfun
 - https://www.defi.garden/tokens/hgeth
 - https://www.defi.garden/tokens/hgram
@@ -3083,7 +3081,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/hunt
 - https://www.defi.garden/tokens/husdc
 - https://www.defi.garden/tokens/husdt
-- https://www.defi.garden/tokens/hwhlp
 - https://www.defi.garden/tokens/hwhype
 - https://www.defi.garden/tokens/hxxi
 - https://www.defi.garden/tokens/hyausd
@@ -3101,7 +3098,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/ibera
 - https://www.defi.garden/tokens/ibnai
 - https://www.defi.garden/tokens/ic
-- https://www.defi.garden/tokens/ichi
 - https://www.defi.garden/tokens/icp
 - https://www.defi.garden/tokens/id
 - https://www.defi.garden/tokens/idai
@@ -3138,7 +3134,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/jarvis
 - https://www.defi.garden/tokens/jellyjelly
 - https://www.defi.garden/tokens/jesse
-- https://www.defi.garden/tokens/jest
 - https://www.defi.garden/tokens/jesus
 - https://www.defi.garden/tokens/jetton
 - https://www.defi.garden/tokens/jeur
@@ -3148,6 +3143,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/joe
 - https://www.defi.garden/tokens/joff
 - https://www.defi.garden/tokens/jpyc
+- https://www.defi.garden/tokens/jrmhyper
 - https://www.defi.garden/tokens/jrmm1usd
 - https://www.defi.garden/tokens/jrnusd
 - https://www.defi.garden/tokens/jrprime
@@ -3204,6 +3200,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/kodiwbera
 - https://www.defi.garden/tokens/kodiwbtc
 - https://www.defi.garden/tokens/kodiweth
+- https://www.defi.garden/tokens/kompete
 - https://www.defi.garden/tokens/kori
 - https://www.defi.garden/tokens/kp3r
 - https://www.defi.garden/tokens/kpk
@@ -3230,7 +3227,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/letsbonk
 - https://www.defi.garden/tokens/lfi
 - https://www.defi.garden/tokens/lfrax
-- https://www.defi.garden/tokens/lhype
 - https://www.defi.garden/tokens/lidowsteth
 - https://www.defi.garden/tokens/like
 - https://www.defi.garden/tokens/limusd
@@ -3251,7 +3247,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/lmts
 - https://www.defi.garden/tokens/lmwr
 - https://www.defi.garden/tokens/lockin
-- https://www.defi.garden/tokens/lon
 - https://www.defi.garden/tokens/loop
 - https://www.defi.garden/tokens/lp
 - https://www.defi.garden/tokens/lpt
@@ -3297,7 +3292,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/mchc
 - https://www.defi.garden/tokens/mchype
 - https://www.defi.garden/tokens/mcweth
-- https://www.defi.garden/tokens/md
 - https://www.defi.garden/tokens/mdx
 - https://www.defi.garden/tokens/me
 - https://www.defi.garden/tokens/mebt
@@ -3338,7 +3332,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/mog
 - https://www.defi.garden/tokens/molly
 - https://www.defi.garden/tokens/molt
-- https://www.defi.garden/tokens/moltx
 - https://www.defi.garden/tokens/mon
 - https://www.defi.garden/tokens/moobifi
 - https://www.defi.garden/tokens/moodeng
@@ -3354,7 +3347,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/morphousdc
 - https://www.defi.garden/tokens/mot
 - https://www.defi.garden/tokens/mother
-- https://www.defi.garden/tokens/moveusd
 - https://www.defi.garden/tokens/mpeth
 - https://www.defi.garden/tokens/mplx
 - https://www.defi.garden/tokens/mpp
@@ -3376,6 +3368,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/mtusdc
 - https://www.defi.garden/tokens/mtx
 - https://www.defi.garden/tokens/mub
+- https://www.defi.garden/tokens/mubi
 - https://www.defi.garden/tokens/mult
 - https://www.defi.garden/tokens/multpool
 - https://www.defi.garden/tokens/mumu
@@ -3383,6 +3376,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/mushu
 - https://www.defi.garden/tokens/mvl
 - https://www.defi.garden/tokens/mvp
+- https://www.defi.garden/tokens/mwcbbtc
 - https://www.defi.garden/tokens/mweth
 - https://www.defi.garden/tokens/mweurc
 - https://www.defi.garden/tokens/mwusdc
@@ -3410,12 +3404,12 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/newt
 - https://www.defi.garden/tokens/nexo
 - https://www.defi.garden/tokens/nfalcon
+- https://www.defi.garden/tokens/nfd
 - https://www.defi.garden/tokens/nflxb
 - https://www.defi.garden/tokens/nft
 - https://www.defi.garden/tokens/nicp
 - https://www.defi.garden/tokens/night
 - https://www.defi.garden/tokens/nil
-- https://www.defi.garden/tokens/nkp
 - https://www.defi.garden/tokens/nlcrd
 - https://www.defi.garden/tokens/nmr
 - https://www.defi.garden/tokens/nock
@@ -3425,7 +3419,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/nopal
 - https://www.defi.garden/tokens/nos
 - https://www.defi.garden/tokens/not
-- https://www.defi.garden/tokens/now
 - https://www.defi.garden/tokens/npc
 - https://www.defi.garden/tokens/ns
 - https://www.defi.garden/tokens/nst
@@ -3490,7 +3483,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/pandora
 - https://www.defi.garden/tokens/papi
 - https://www.defi.garden/tokens/parti
-- https://www.defi.garden/tokens/patriot
 - https://www.defi.garden/tokens/pawth
 - https://www.defi.garden/tokens/paxg
 - https://www.defi.garden/tokens/payai
@@ -3580,22 +3572,20 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/qom
 - https://www.defi.garden/tokens/qqqb
 - https://www.defi.garden/tokens/qqqx
-- https://www.defi.garden/tokens/qrx
 - https://www.defi.garden/tokens/qsave
 - https://www.defi.garden/tokens/qst
 - https://www.defi.garden/tokens/quant
 - https://www.defi.garden/tokens/quill
 - https://www.defi.garden/tokens/rad
-- https://www.defi.garden/tokens/rai
 - https://www.defi.garden/tokens/rail
 - https://www.defi.garden/tokens/rain
 - https://www.defi.garden/tokens/rally
-- https://www.defi.garden/tokens/ramp
 - https://www.defi.garden/tokens/rasol
 - https://www.defi.garden/tokens/ratspeak
 - https://www.defi.garden/tokens/rave
 - https://www.defi.garden/tokens/ray
 - https://www.defi.garden/tokens/rb
+- https://www.defi.garden/tokens/rbtc
 - https://www.defi.garden/tokens/rceth
 - https://www.defi.garden/tokens/rcode
 - https://www.defi.garden/tokens/re7honey
@@ -3637,6 +3627,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/rndr
 - https://www.defi.garden/tokens/rneth
 - https://www.defi.garden/tokens/rnt
+- https://www.defi.garden/tokens/roai
 - https://www.defi.garden/tokens/robo
 - https://www.defi.garden/tokens/robotmoney
 - https://www.defi.garden/tokens/rock-loopedeth
@@ -3724,6 +3715,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/shi
 - https://www.defi.garden/tokens/shib
 - https://www.defi.garden/tokens/shiba2
+- https://www.defi.garden/tokens/shik
 - https://www.defi.garden/tokens/shiro
 - https://www.defi.garden/tokens/shit
 - https://www.defi.garden/tokens/shmon
@@ -3747,7 +3739,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/siusd
 - https://www.defi.garden/tokens/sj
 - https://www.defi.garden/tokens/sjeur
-- https://www.defi.garden/tokens/sjusd
 - https://www.defi.garden/tokens/skaito
 - https://www.defi.garden/tokens/skbdi
 - https://www.defi.garden/tokens/skhy
@@ -3755,6 +3746,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/skntq
 - https://www.defi.garden/tokens/skr
 - https://www.defi.garden/tokens/sky
+- https://www.defi.garden/tokens/slap
 - https://www.defi.garden/tokens/slerf
 - https://www.defi.garden/tokens/slgns
 - https://www.defi.garden/tokens/slim
@@ -3772,7 +3764,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/sndk
 - https://www.defi.garden/tokens/sndkb
 - https://www.defi.garden/tokens/snek
-- https://www.defi.garden/tokens/snort
 - https://www.defi.garden/tokens/snpad
 - https://www.defi.garden/tokens/snrusd
 - https://www.defi.garden/tokens/snt
@@ -3796,6 +3787,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/spcx
 - https://www.defi.garden/tokens/spcxb
 - https://www.defi.garden/tokens/spcxx
+- https://www.defi.garden/tokens/spdr
 - https://www.defi.garden/tokens/spec
 - https://www.defi.garden/tokens/spectre
 - https://www.defi.garden/tokens/spell
@@ -3867,7 +3859,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/strike
 - https://www.defi.garden/tokens/strk
 - https://www.defi.garden/tokens/strkbtc
-- https://www.defi.garden/tokens/strong
 - https://www.defi.garden/tokens/strongsol
 - https://www.defi.garden/tokens/strusd
 - https://www.defi.garden/tokens/strx
@@ -3920,7 +3911,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/susn
 - https://www.defi.garden/tokens/sveth
 - https://www.defi.garden/tokens/sw
-- https://www.defi.garden/tokens/swap
 - https://www.defi.garden/tokens/swarms
 - https://www.defi.garden/tokens/swaves
 - https://www.defi.garden/tokens/sweat
@@ -3952,6 +3942,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/telebtc
 - https://www.defi.garden/tokens/tellr
 - https://www.defi.garden/tokens/tenshi
+- https://www.defi.garden/tokens/teqoin
 - https://www.defi.garden/tokens/terminus
 - https://www.defi.garden/tokens/test
 - https://www.defi.garden/tokens/tet
@@ -4022,7 +4013,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/udoge
 - https://www.defi.garden/tokens/ueth
 - https://www.defi.garden/tokens/ufd
-- https://www.defi.garden/tokens/uft
 - https://www.defi.garden/tokens/ultima
 - https://www.defi.garden/tokens/ultrausdc
 - https://www.defi.garden/tokens/ultrausdt
@@ -4182,7 +4172,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/wcro
 - https://www.defi.garden/tokens/weeth
 - https://www.defi.garden/tokens/weeth-base
-- https://www.defi.garden/tokens/weeths
 - https://www.defi.garden/tokens/wegld
 - https://www.defi.garden/tokens/well
 - https://www.defi.garden/tokens/wepe
@@ -4220,6 +4209,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/wmon
 - https://www.defi.garden/tokens/wmstrx
 - https://www.defi.garden/tokens/wmtusdc
+- https://www.defi.garden/tokens/wmtusdt
 - https://www.defi.garden/tokens/wmtwbtc
 - https://www.defi.garden/tokens/wmtx
 - https://www.defi.garden/tokens/wnausd
@@ -4238,7 +4228,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/wqqqx
 - https://www.defi.garden/tokens/wquil
 - https://www.defi.garden/tokens/ws
-- https://www.defi.garden/tokens/wsb
 - https://www.defi.garden/tokens/wsei
 - https://www.defi.garden/tokens/wsol
 - https://www.defi.garden/tokens/wspyx
@@ -4279,6 +4268,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/xcfx
 - https://www.defi.garden/tokens/xcn
 - https://www.defi.garden/tokens/xcu
+- https://www.defi.garden/tokens/xcx
 - https://www.defi.garden/tokens/xeth
 - https://www.defi.garden/tokens/xfund
 - https://www.defi.garden/tokens/xlm
@@ -4298,6 +4288,7 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/xstrkbtc
 - https://www.defi.garden/tokens/xsushi
 - https://www.defi.garden/tokens/xswap
+- https://www.defi.garden/tokens/xusd
 - https://www.defi.garden/tokens/xvs
 - https://www.defi.garden/tokens/xwbtc
 - https://www.defi.garden/tokens/xyo
@@ -4332,7 +4323,6 @@ TL;DR: Additional site functionality and tools.
 - https://www.defi.garden/tokens/yzy
 - https://www.defi.garden/tokens/zama
 - https://www.defi.garden/tokens/zbtc
-- https://www.defi.garden/tokens/zbu
 - https://www.defi.garden/tokens/zchf
 - https://www.defi.garden/tokens/zec
 - https://www.defi.garden/tokens/zen
@@ -4353,23 +4343,23 @@ TL;DR: Additional site functionality and tools.
 
 ## Market Analysis: Top Chains by TVL
 TL;DR: Comprehensive chain rankings by total value locked.
-- Ethereum: $87.13B TVL — https://www.defi.garden/?chain=Ethereum
+- Ethereum: $87.34B TVL — https://www.defi.garden/?chain=Ethereum
 - Solana: $8.70B TVL — https://www.defi.garden/?chain=Solana
 - Base: $6.31B TVL — https://www.defi.garden/?chain=Base
-- BSC: $6.29B TVL — https://www.defi.garden/?chain=BSC
+- BSC: $6.28B TVL — https://www.defi.garden/?chain=BSC
 - Tron: $3.48B TVL — https://www.defi.garden/?chain=Tron
 - Arbitrum: $2.43B TVL — https://www.defi.garden/?chain=Arbitrum
-- Hyperliquid L1: $1.75B TVL — https://www.defi.garden/?chain=Hyperliquid%20L1
+- Hyperliquid L1: $1.76B TVL — https://www.defi.garden/?chain=Hyperliquid%20L1
 - Avalanche: $1.69B TVL — https://www.defi.garden/?chain=Avalanche
 
 ## Market Analysis: Top Protocols
 TL;DR: Leading DeFi protocols by aggregate TVL across all pools.
 - lido: $17.87B TVL — https://www.defi.garden/?protocols=lido
-- aave-v3: $14.20B TVL — https://www.defi.garden/?protocols=aave-v3
+- aave-v3: $14.38B TVL — https://www.defi.garden/?protocols=aave-v3
 - morpho-blue: $11.79B TVL — https://www.defi.garden/?protocols=morpho-blue
-- sky-lending: $7.88B TVL — https://www.defi.garden/?protocols=sky-lending
-- binance-staked-eth: $6.98B TVL — https://www.defi.garden/?protocols=binance-staked-eth
-- sparklend: $4.25B TVL — https://www.defi.garden/?protocols=sparklend
+- sky-lending: $7.89B TVL — https://www.defi.garden/?protocols=sky-lending
+- binance-staked-eth: $6.99B TVL — https://www.defi.garden/?protocols=binance-staked-eth
+- sparklend: $4.26B TVL — https://www.defi.garden/?protocols=sparklend
 - ether.fi-stake: $3.91B TVL — https://www.defi.garden/?protocols=ether.fi-stake
 - maple: $3.75B TVL — https://www.defi.garden/?protocols=maple
 - blackrock-buidl: $3.55B TVL — https://www.defi.garden/?protocols=blackrock-buidl
@@ -4377,53 +4367,55 @@ TL;DR: Leading DeFi protocols by aggregate TVL across all pools.
 
 ## Market Analysis: Popular Token-Chain Combinations
 TL;DR: Most liquid token-chain pairs ranked by TVL.
-- STETH on Ethereum: $18.08B TVL — https://www.defi.garden/?token=STETH&chain=Ethereum
-- WBETH on Ethereum: $6.58B TVL — https://www.defi.garden/?token=WBETH&chain=Ethereum
+- STETH on Ethereum: $18.07B TVL — https://www.defi.garden/?token=STETH&chain=Ethereum
+- WBETH on Ethereum: $6.59B TVL — https://www.defi.garden/?token=WBETH&chain=Ethereum
 - WEETH on Ethereum: $6.57B TVL — https://www.defi.garden/?token=WEETH&chain=Ethereum
 - WSTETH on Ethereum: $5.87B TVL — https://www.defi.garden/?token=WSTETH&chain=Ethereum
-- USDC on Ethereum: $5.08B TVL — https://www.defi.garden/?token=USDC&chain=Ethereum
+- USDC on Ethereum: $5.26B TVL — https://www.defi.garden/?token=USDC&chain=Ethereum
 - SUSDS on Ethereum: $4.90B TVL — https://www.defi.garden/?token=SUSDS&chain=Ethereum
 - WBTC on Ethereum: $3.83B TVL — https://www.defi.garden/?token=WBTC&chain=Ethereum
-- WETH on Ethereum: $3.68B TVL — https://www.defi.garden/?token=WETH&chain=Ethereum
+- WETH on Ethereum: $3.69B TVL — https://www.defi.garden/?token=WETH&chain=Ethereum
 - USYC on BSC: $2.91B TVL — https://www.defi.garden/?token=USYC&chain=BSC
 - USDT on Ethereum: $2.74B TVL — https://www.defi.garden/?token=USDT&chain=Ethereum
 - RETH on Ethereum: $2.66B TVL — https://www.defi.garden/?token=RETH&chain=Ethereum
-- CBBTC on Base: $2.58B TVL — https://www.defi.garden/?token=CBBTC&chain=Base
+- CBBTC on Base: $2.59B TVL — https://www.defi.garden/?token=CBBTC&chain=Base
 - CBBTC on Ethereum: $2.31B TVL — https://www.defi.garden/?token=CBBTC&chain=Ethereum
-- SUSDE on Ethereum: $2.04B TVL — https://www.defi.garden/?token=SUSDE&chain=Ethereum
-- USDS on Ethereum: $1.93B TVL — https://www.defi.garden/?token=USDS&chain=Ethereum
-- USDC on Solana: $1.56B TVL — https://www.defi.garden/?token=USDC&chain=Solana
-- KHYPE on Hyperliquid L1: $1.21B TVL — https://www.defi.garden/?token=KHYPE&chain=Hyperliquid%20L1
+- SUSDE on Ethereum: $2.03B TVL — https://www.defi.garden/?token=SUSDE&chain=Ethereum
+- USDS on Ethereum: $1.92B TVL — https://www.defi.garden/?token=USDS&chain=Ethereum
+- USDC on Solana: $1.57B TVL — https://www.defi.garden/?token=USDC&chain=Solana
+- KHYPE on Hyperliquid L1: $1.22B TVL — https://www.defi.garden/?token=KHYPE&chain=Hyperliquid%20L1
 - BUIDL on Ethereum: $1.19B TVL — https://www.defi.garden/?token=BUIDL&chain=Ethereum
 - USDY on Ethereum: $1.11B TVL — https://www.defi.garden/?token=USDY&chain=Ethereum
 - ETH on Ethereum: $1.10B TVL — https://www.defi.garden/?token=ETH&chain=Ethereum
 
 ## Live High-Yield Opportunities (by Chain)
 TL;DR: Current top-performing pools with detailed metrics.
-### Base
-- aerodrome-slipstream · USDC-ACU — 742.11% APY, $240,514 TVL — https://www.defi.garden/?pool=adcae740-c286-43a4-b71d-8c301a4ac526
-- aerodrome-slipstream · USDC-TITN — 676.80% APY, $245,523 TVL — https://www.defi.garden/?pool=5b9e4e99-b003-4990-b852-73c77c0fe533
-- aerodrome-slipstream · WETH-CBBTC — 667.72% APY, $970,323 TVL — https://www.defi.garden/?pool=541b4974-e23b-4a7a-968f-6cfc027825de
-- aerodrome-slipstream · SOL-USDC — 492.96% APY, $408,865 TVL — https://www.defi.garden/?pool=a6a1fe38-a220-4f68-a2b9-d2749c3e4664
-
 ### Ethereum
-- supernova-cl · XAUT-USDT — 698.97% APY, $105,720 TVL — https://www.defi.garden/?pool=4536871e-8cde-42ee-8ecc-f20d4be4ac60
+- supernova-cl · XAUT-USDT — 699.05% APY, $105,711 TVL — https://www.defi.garden/?pool=4536871e-8cde-42ee-8ecc-f20d4be4ac60
 - uniswap-v4 · APXUSD-USDC — 663.77% APY, $608,399 TVL — https://www.defi.garden/?pool=03dc86ac-1ee3-57f4-a3e5-4cda59f579c5
-- curve-dex · FRXUSD-USP — 659.08% APY, $128,906 TVL — https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c
-- uniswap-v3 · WETH-COW — 592.42% APY, $344,228 TVL — https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af
-- royco-v2 · JRROYAPYUSD — 452.10% APY, $1,151,349 TVL — https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e
+- curve-dex · FRXUSD-USP — 658.95% APY, $128,935 TVL — https://www.defi.garden/?pool=d9d5e264-59e4-4a5c-84ff-bd55554ade2c
+- uniswap-v3 · WETH-COW — 645.17% APY, $347,406 TVL — https://www.defi.garden/?pool=3dc6640f-d845-45dd-a891-f4dd46d676af
+- royco-v2 · JRROYAPYUSD — 446.39% APY, $1,151,349 TVL — https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e
+
+### Base
+- aerodrome-slipstream · WETH-CBBTC — 693.01% APY, $969,616 TVL — https://www.defi.garden/?pool=541b4974-e23b-4a7a-968f-6cfc027825de
+- aerodrome-slipstream · USDC-TITN — 681.86% APY, $245,365 TVL — https://www.defi.garden/?pool=5b9e4e99-b003-4990-b852-73c77c0fe533
+- aerodrome-slipstream · WETH-USDC — 612.79% APY, $126,321 TVL — https://www.defi.garden/?pool=80739318-c205-4177-9207-3c4322925ac6
+- aerodrome-slipstream · WETH-TIBBIR — 455.54% APY, $291,458 TVL — https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2
 
 ### Solana
-- raydium-amm · MANLET-ANSEM — 628.85% APY, $298,010 TVL — https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25
-- raydium-amm · TTWO-GTA6 — 593.79% APY, $228,605 TVL — https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6
-- orca-dex · ANSEM-USDC — 510.30% APY, $138,529 TVL — https://www.defi.garden/?pool=36b987ec-39b7-42f2-a8fb-1b9e28050583
+- raydium-amm · TTWO-GTA6 — 649.92% APY, $220,286 TVL — https://www.defi.garden/?pool=fecc3a72-9111-564e-a107-904097d7a0e6
+- raydium-amm · MANLET-ANSEM — 506.39% APY, $294,615 TVL — https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25
+
+### BSC
+- uniswap-v3 · BTW-USDT — 514.05% APY, $129,279 TVL — https://www.defi.garden/?pool=d4ce588e-d9a6-4dc1-bf5f-b86509692888
 
 ### Sonic
-- peapods-finance · USDC — 507.77% APY, $107,971 TVL — https://www.defi.garden/?pool=57c44e74-fad5-4fd0-a1ba-cc3cc883f0c9
+- peapods-finance · USDC — 507.77% APY, $108,113 TVL — https://www.defi.garden/?pool=57c44e74-fad5-4fd0-a1ba-cc3cc883f0c9
 
 ### Avalanche
-- blackhole-clmm · WAVAX-USDC — 487.40% APY, $536,312 TVL — https://www.defi.garden/?pool=2b42e1cd-5e65-4e1a-9df4-fb324a41e3cd
-- blackhole-clmm · BTC.B-WAVAX — 459.65% APY, $121,535 TVL — https://www.defi.garden/?pool=56bf3203-38ce-4ea0-8564-828e41d4df18
+- blackhole-clmm · WAVAX-USDC — 474.80% APY, $538,737 TVL — https://www.defi.garden/?pool=2b42e1cd-5e65-4e1a-9df4-fb324a41e3cd
+- blackhole-clmm · BTC.B-WAVAX — 458.30% APY, $121,534 TVL — https://www.defi.garden/?pool=56bf3203-38ce-4ea0-8564-828e41d4df18
 
 ## Important Disclaimers
 - Yields are volatile and subject to rapid change

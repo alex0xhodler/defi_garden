@@ -1,6 +1,6 @@
 # Fraxtal 디파이 수익률
 
-현재 Fraxtal의 가장 높은 정직한 수익률은 Fraxtal의 curve-dex에서 59.83%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Fraxtal의 가장 높은 정직한 수익률은 Fraxtal의 curve-dex에서 59.72%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
@@ -9,9 +9,9 @@
 | FRXETH-SFRXETH | [curve-dex →](https://www.defi.garden/?pool=41ac01a5-f67f-470c-96bf-7ffb31692dd0&src=seo_chain) | 3.16% | $1.98M |
 | FRXUSD-FXB-20261231 | [curve-dex →](https://www.defi.garden/?pool=1158d570-535c-4798-9811-9f782db49732&src=seo_chain) | 6.46% | $1.59M |
 | FRAX-FXS | [frax →](https://www.defi.garden/?pool=80a19d30-a586-44ea-82b0-03cf63290a79&src=seo_chain) | 0.15% | $1.34M |
-| FRXUSD-FXB20271231 | [curve-dex →](https://www.defi.garden/?pool=d6c60e42-04ed-4339-bcf1-a6c48084333b&src=seo_chain) | 4.69% | $718.9K |
-| FRXUSD-FXB20271231 | [stake-dao →](https://www.defi.garden/?pool=d3012f03-5a7b-40b2-b2c5-5d1aeab334b8&src=seo_chain) | 4.70% | $630.1K |
-| IQ-FRXUSD | [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_chain) | 59.83% | $440.6K |
+| FRXUSD-FXB20271231 | [curve-dex →](https://www.defi.garden/?pool=d6c60e42-04ed-4339-bcf1-a6c48084333b&src=seo_chain) | 4.68% | $718.9K |
+| FRXUSD-FXB20271231 | [stake-dao →](https://www.defi.garden/?pool=d3012f03-5a7b-40b2-b2c5-5d1aeab334b8&src=seo_chain) | 4.68% | $630.1K |
+| IQ-FRXUSD | [curve-dex →](https://www.defi.garden/?pool=a68b676f-e3f2-4962-b034-635f1e180eb7&src=seo_chain) | 59.72% | $438.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,7 +19,7 @@
 
 ### 오늘 Fraxtal의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Fraxtal의 curve-dex에서 APY 59.83%예요.
+DefiLlama 실시간 데이터 기준, Fraxtal의 curve-dex에서 APY 59.72%예요.
 
 ### Fraxtal 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

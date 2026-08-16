@@ -1,12 +1,12 @@
 # RAVE-USDC — aerodrome-slipstream on Base
 
-**Total APY:** 238.08% (63.60% Base · + 174.48% Rewards)
+**Total APY:** 122.70% (46.17% Base · + 76.52% Rewards)
 
-**TVL:** $308.7K
+**TVL:** $320.6K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 304.82%
+**30d Mean APY:** 296.10%
 
 **Exposure:** multi
 
@@ -22,15 +22,15 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$18,562 in 5y at current rates.
+$1,000 in this pool grows to ~$5,553 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (238.08% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (122.70% headline) — farm rates decay. Active management required.
 
-We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
+This pool's rate moves a lot: 122.70% right now vs a 296.10% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$18,562 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$5,553 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aerodrome-slipstream](https://aerodrome.finance/?ref=defi.garden)
 
