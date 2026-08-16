@@ -1,10 +1,10 @@
 # HESTIA 디파이 수익률
 
-현재 HESTIA의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 0.01%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HESTIA의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 0.08%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a164e033-163c-4d15-a0dd-248e1ae552b4&src=seo_token) | Base | 0.01% | $159K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a164e033-163c-4d15-a0dd-248e1ae552b4&src=seo_token) | Base | 0.08% | $159K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 HESTIA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.01%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.08%예요.
 
 ### HESTIA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

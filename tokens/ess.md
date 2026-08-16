@@ -4,7 +4,7 @@ The highest honest ESS yield right now is 0.03% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cb91d3b2-eefe-4ba1-8f9e-a2d2311dc2f1&src=seo_token) | Ethereum | 0.03% | $163.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cb91d3b2-eefe-4ba1-8f9e-a2d2311dc2f1&src=seo_token) | Ethereum | 0.03% | $163.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ESS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.1K in total.
+1 live pool clear this page's $100K TVL floor, $163.4K in total.
 
 ### Are these rates safe?
 

@@ -3204,12 +3204,18 @@ function App() {
     // surface's markup or styling changes.
     className: `app ${selectedToken || chainMode && selectedChain ? 'has-results' : ''}${deadPoolResolved ? ' dead-pool-view' : ''}`
   },
-  // Google-style sticky header - ONLY show when we have results
-  (selectedToken || chainMode && selectedChain) && React.createElement('div', {
-    className: 'app-header-sticky'
-  }, renderHeaderRow(true),
-  // Google-style navigation tabs - part of the header
+  // Spec 236 phase 1: the SAME `.app-header-sticky` band renders on every
+  // view of this component now, not just the results state — the identity
+  // + controls it carries used to be duplicated as a floating pair on the
+  // no-results/search state (removed below) and absent from it entirely.
+  // `includeSearch` stays the one sanctioned variation: the band's plain
+  // input has no autocomplete dropdown, so the no-results state keeps its
+  // own `.search-section` below (with autocomplete) instead of losing it.
   React.createElement('div', {
+    className: 'app-header-sticky'
+  }, renderHeaderRow(!!(selectedToken || chainMode && selectedChain)),
+  // Google-style navigation tabs - part of the header - ONLY on results
+  (selectedToken || chainMode && selectedChain) && React.createElement('div', {
     className: 'app-nav-row'
   }, React.createElement('div', {
     className: 'app-nav-tabs'
@@ -3267,38 +3273,12 @@ function App() {
   }, React.createElement('span', {
     className: 'app-results-count'
   }, `${filteredPools.length.toLocaleString('en-US')} results`)))),
-  // Theme Toggle (homepage/results) — 225 round 3b: the legacy 48px
-  // switch/handle pair is gone. The shared icon-only-button rule makes
-  // .theme-toggle a 40px pill; icon+gap+switch was ~76px of content
-  // overflowing that box, and at `position: fixed; right: 20px` the
-  // switch's handle spilled past the viewport edge as a clipped,
-  // unpressable sliver (the 136/221 clip class). The icon alone reflects
-  // state, matching the header's own icon-only toggle.
-  React.createElement('button', {
-    className: 'theme-toggle',
-    'data-theme': isDarkMode ? 'dark' : 'light',
-    onClick: toggleTheme,
-    'aria-label': `Switch to ${isDarkMode ? 'light' : 'dark'} mode`
-  }, React.createElement('div', {
-    className: 'theme-toggle-icon'
-  }, isDarkMode ? '☼' : '☾')),
-  // Language Toggle
-  React.createElement('button', {
-    className: 'language-toggle',
-    onClick: () => changeLanguage(language === 'en' ? 'ko' : 'en'),
-    'aria-label': `Switch to ${language === 'en' ? 'Korean' : 'English'}`
-  }, language === 'en' ? 'KO' : 'EN'), React.createElement('div', {
+  // The shared header above owns identity and controls on every analytics
+  // view; do not render a second homepage-only pair or hero here.
+
+  React.createElement('div', {
     className: 'container'
   },
-  // Header - only show when no results
-  !(selectedToken || chainMode && selectedChain) && React.createElement('div', {
-    className: `header animate-on-mount`
-  }, React.createElement('h1', {
-    className: 'logo',
-    onClick: resetApp
-  }, 'DeFi Garden'), React.createElement('p', {
-    className: 'subtitle'
-  }, 'Find the best yields for your tokens across all chains')),
   // Search Section - hide when in filtered state (both token and chain mode)
   !(selectedToken || chainMode && selectedChain) && React.createElement('div', {
     className: 'search-section animate-on-mount'

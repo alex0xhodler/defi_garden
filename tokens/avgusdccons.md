@@ -4,7 +4,7 @@ The highest honest AVGUSDCCONS yield right now is 3.73% on morpho-blue (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=9e982350-5e38-4174-afac-dd0d6b244a00&src=seo_token) | Ethereum | 3.73% | $538K |
+| [morpho-blue →](https://www.defi.garden/?pool=9e982350-5e38-4174-afac-dd0d6b244a00&src=seo_token) | Ethereum | 3.73% | $538.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVGUSDCCONS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $538K in total.
+1 live pool clear this page's $100K TVL floor, $538.1K in total.
 
 ### Are these rates safe?
 

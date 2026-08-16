@@ -4,7 +4,7 @@ The highest honest ASTRALIS yield right now is 0.34% on orca-dex (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token) | Solana | 0.34% | $131.1K |
+| [orca-dex →](https://www.defi.garden/?pool=1ade3ae6-1b3f-4f50-8633-6c0dda9c7889&src=seo_token) | Solana | 0.34% | $131.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ASTRALIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.1K in total.
+1 live pool clear this page's $100K TVL floor, $131.2K in total.
 
 ### Are these rates safe?
 

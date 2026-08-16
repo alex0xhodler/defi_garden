@@ -4,7 +4,7 @@ The highest honest GEN yield right now is 0.10% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2a6f1655-d6c0-454f-8923-f884ecc20525&src=seo_token) | Ethereum | 0.10% | $219.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2a6f1655-d6c0-454f-8923-f884ecc20525&src=seo_token) | Ethereum | 0.10% | $219.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GEN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $344.7K in total.
+2 live pools clear this page's $100K TVL floor, $344.9K in total.
 
 ### Are these rates safe?
 

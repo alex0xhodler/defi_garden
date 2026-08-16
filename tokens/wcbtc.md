@@ -1,10 +1,10 @@
 # WCBTC DeFi Yields
 
-The highest honest WCBTC yield right now is 1.76% on accountable (Citrea), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WCBTC yield right now is 1.68% on accountable (Citrea), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_token) | Citrea | 1.76% | $2.52M |
+| [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_token) | Citrea | 1.68% | $2.52M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WCBTC yield today?
 
-1.76% APY on accountable (Citrea), based on live DefiLlama data.
+1.68% APY on accountable (Citrea), based on live DefiLlama data.
 
 ### How many WCBTC pools clear the TVL floor?
 

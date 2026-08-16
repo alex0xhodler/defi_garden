@@ -1,10 +1,10 @@
 # STKR DeFi Yields
 
-The highest honest STKR yield right now is 1.90% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STKR yield right now is 1.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ae7e2af0-c21f-4892-aa48-2dd753eef23d&src=seo_token) | Solana | 1.90% | $121K |
+| [raydium-amm →](https://www.defi.garden/?pool=ae7e2af0-c21f-4892-aa48-2dd753eef23d&src=seo_token) | Solana | 1.44% | $121.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STKR yield today?
 
-1.90% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.44% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STKR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121K in total.
+1 live pool clear this page's $100K TVL floor, $121.2K in total.
 
 ### Are these rates safe?
 

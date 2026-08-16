@@ -4,7 +4,7 @@ The highest honest PUMPBTC yield right now is 0.01% on curve-dex (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=25e631a3-bdba-43a8-81ff-46000465212f&src=seo_token) | Ethereum | 0.01% | $842.4K |
+| [curve-dex →](https://www.defi.garden/?pool=25e631a3-bdba-43a8-81ff-46000465212f&src=seo_token) | Ethereum | 0.01% | $823.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PUMPBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $842.4K in total.
+1 live pool clear this page's $100K TVL floor, $823.6K in total.
 
 ### Are these rates safe?
 

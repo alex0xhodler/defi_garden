@@ -4,7 +4,7 @@ The highest honest SMILEY yield right now is 0.01% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0c0c96c3-f1c0-48d9-90f8-aaf6dd545562&src=seo_token) | Ethereum | 0.01% | $334K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0c0c96c3-f1c0-48d9-90f8-aaf6dd545562&src=seo_token) | Ethereum | 0.01% | $334.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SMILEY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $334K in total.
+1 live pool clear this page's $100K TVL floor, $334.3K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest RB yield right now is 0.01% on uniswap-v2 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=87cdc657-629f-4a71-9747-61a389de010a&src=seo_token) | Base | 0.01% | $130.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=87cdc657-629f-4a71-9747-61a389de010a&src=seo_token) | Base | 0.01% | $130.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.9K in total.
+1 live pool clear this page's $100K TVL floor, $130.8K in total.
 
 ### Are these rates safe?
 

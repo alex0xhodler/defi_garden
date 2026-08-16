@@ -1,10 +1,10 @@
 # KODIBRBTC DeFi Yields
 
-The highest honest KODIBRBTC yield right now is 1.10% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KODIBRBTC yield right now is 1.09% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 1.10% | $17.03M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 1.09% | $16.79M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KODIBRBTC yield today?
 
-1.10% APY on berapaw (Berachain), based on live DefiLlama data.
+1.09% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many KODIBRBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $17.03M in total.
+1 live pool clear this page's $100K TVL floor, $16.79M in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # TEST DeFi Yields
 
-The highest honest TEST yield right now is 1.45% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TEST yield right now is 1.64% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4d839bcc-f852-4132-8b4e-8bc9f046828d&src=seo_token) | Solana | 1.45% | $120.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=4d839bcc-f852-4132-8b4e-8bc9f046828d&src=seo_token) | Solana | 1.64% | $119.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TEST yield today?
 
-1.45% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.64% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TEST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.2K in total.
+1 live pool clear this page's $100K TVL floor, $119.1K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # TGC DeFi Yields
 
-The highest honest TGC yield right now is 1.20% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TGC yield right now is 1.12% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d51bbed3-2541-457f-a1f9-d9c51e9a5868&src=seo_token) | Ethereum | 1.20% | $944.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d51bbed3-2541-457f-a1f9-d9c51e9a5868&src=seo_token) | Ethereum | 1.12% | $946.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TGC yield today?
 
-1.20% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.12% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TGC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $944.7K in total.
+1 live pool clear this page's $100K TVL floor, $946.6K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest SINV yield right now is 0.88% on inverse-finance-firm (Ethere
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [inverse-finance-firm →](https://www.defi.garden/?pool=e0f537bd-5d32-4dc1-9c87-b3c61eb6ee6f&src=seo_token) | Ethereum | 0.88% | $1.3M |
+| [inverse-finance-firm →](https://www.defi.garden/?pool=e0f537bd-5d32-4dc1-9c87-b3c61eb6ee6f&src=seo_token) | Ethereum | 0.88% | $1.28M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SINV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.53M in total.
+2 live pools clear this page's $100K TVL floor, $1.51M in total.
 
 ### Are these rates safe?
 

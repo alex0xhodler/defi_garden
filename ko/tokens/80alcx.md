@@ -1,10 +1,10 @@
 # 80ALCX 디파이 수익률
 
-현재 80ALCX의 가장 높은 정직한 수익률은 Ethereum의 balancer-v3에서 27.83%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 80ALCX의 가장 높은 정직한 수익률은 Ethereum의 balancer-v3에서 27.84%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c&src=seo_token) | Ethereum | 27.83% | $205K |
+| [balancer-v3 →](https://www.defi.garden/?pool=3e6b6c26-cbae-4822-88fa-d2268aeffc9c&src=seo_token) | Ethereum | 27.84% | $205K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 80ALCX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 balancer-v3에서 APY 27.83%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 balancer-v3에서 APY 27.84%예요.
 
 ### 80ALCX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

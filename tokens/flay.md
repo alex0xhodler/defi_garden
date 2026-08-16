@@ -4,7 +4,7 @@ The highest honest FLAY yield right now is 0.37% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ad728587-4c24-4e8b-9aae-37159b2d7df7&src=seo_token) | Ethereum | 0.37% | $259.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ad728587-4c24-4e8b-9aae-37159b2d7df7&src=seo_token) | Ethereum | 0.37% | $258.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FLAY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $777.7K in total.
+2 live pools clear this page's $100K TVL floor, $775.4K in total.
 
 ### Are these rates safe?
 
