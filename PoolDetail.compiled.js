@@ -26,6 +26,13 @@ function isRungCovered(monthlyYield, monthlyCost) {
   var B = Number(monthlyCost) || 0;
   return Y >= B - 0.00001;
 }
+var STABLE_SYMBOLS = ['USDC', 'USDT', 'DAI', 'USDS', 'FRAX', 'FDUSD', 'PYUSD', 'TUSD', 'BUSD', 'LUSD', 'GUSD', 'CRVUSD', 'USDD', 'USDE', 'SUSD', 'SUSDS', 'EURS', 'EURC'];
+function isStableSymbol(symbol) {
+  if (!symbol) return false;
+  var parts = String(symbol).toUpperCase().split(/[-_\/\s+]/).map(s => s.trim()).filter(Boolean);
+  if (parts.length === 0) return false;
+  return parts.every(p => STABLE_SYMBOLS.includes(p));
+}
 var YIELD_CARD_CATALOG_KR = [{
   id: 'baemin_club',
   name: '배민클럽 (배달의민족)',
@@ -237,6 +244,35 @@ function YieldCardWidget({
   var [isSubmitted, setIsSubmitted] = useState(false);
   var [reservedSpot, setReservedSpot] = useState(2481);
   var [linkCopied, setLinkCopied] = useState(false);
+  var [tokenPrice, setTokenPrice] = useState(null);
+  var isStable = isStableSymbol(pool && pool.symbol);
+  useEffect(() => {
+    if (isStable) {
+      setTokenPrice(1.0);
+      return;
+    }
+    if (!pool || !pool.underlyingTokens || pool.underlyingTokens.length === 0) {
+      return;
+    }
+    var isMounted = true;
+    var token = pool.underlyingTokens[0];
+    var chainSlug = (pool.chain || 'ethereum').toLowerCase().replace(/\s+/g, '-');
+    var coinKey = token.includes(':') ? token : `${chainSlug === 'avalanche' ? 'avax' : chainSlug === 'binance' ? 'bsc' : chainSlug}:${token}`;
+    if (typeof fetch !== 'undefined') {
+      fetch(`https://coins.llama.fi/prices/current/${coinKey}`).then(res => res.json()).then(data => {
+        if (!isMounted) return;
+        if (data && data.coins) {
+          var matched = data.coins[coinKey] || Object.values(data.coins)[0];
+          if (matched && typeof matched.price === 'number' && matched.price > 0) {
+            setTokenPrice(matched.price);
+          }
+        }
+      }).catch(() => {});
+    }
+    return () => {
+      isMounted = false;
+    };
+  }, [pool && pool.pool, pool && pool.symbol, isStable]);
   var _t = t || (k => k);
   var _formatUsd = formatUsd || ((n, f) => '$' + Number(n || 0).toLocaleString('en-US', {
     maximumFractionDigits: f || 2
@@ -374,7 +410,20 @@ function YieldCardWidget({
     className: 'readout-label'
   }, _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'), React.createElement('span', {
     className: 'readout-value'
-  }, `$${_formatNum(depositAmount)} ${pool.symbol || 'USDC'}`)), React.createElement('div', {
+  }, function () {
+    var sym = pool.symbol || 'USDC';
+    if (isStable) {
+      return `$${_formatNum(depositAmount)} ${sym}`;
+    }
+    if (typeof tokenPrice === 'number' && tokenPrice > 0) {
+      var tokenQty = depositAmount / tokenPrice;
+      var formattedQty = tokenQty >= 1000 ? _formatNum(Math.round(tokenQty)) : tokenQty >= 1 ? tokenQty.toFixed(2) : tokenQty.toFixed(4);
+      return `$${_formatNum(depositAmount)} USD (≈ ${formattedQty} ${sym})`;
+    }
+    return `$${_formatNum(depositAmount)} USD (${sym})`;
+  }()), !isStable && typeof tokenPrice === 'number' && tokenPrice > 0 && React.createElement('span', {
+    className: 'yield-card-price-note'
+  }, `@ ${_formatUsd(tokenPrice, tokenPrice < 1 ? 4 : 2)} / ${pool.symbol || 'token'}`)), React.createElement('div', {
     className: 'yield-card-yield-readout'
   }, React.createElement('span', {
     className: 'readout-label'

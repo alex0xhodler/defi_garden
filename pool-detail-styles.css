@@ -1890,6 +1890,14 @@ a.pool-token-chip:hover {
   font-variant-numeric: tabular-nums;
 }
 
+.yield-card-price-note {
+  font-family: var(--font-family-mono, monospace);
+  font-size: 0.75rem;
+  color: var(--cert-ink-3);
+  margin-top: 2px;
+  font-weight: 500;
+}
+
 .yield-card-monthly-yield {
   color: var(--cert-green);
 }

@@ -25,6 +25,18 @@ function isRungCovered(monthlyYield, monthlyCost) {
   return Y >= (B - 0.00001);
 }
 
+const STABLE_SYMBOLS = [
+  'USDC', 'USDT', 'DAI', 'USDS', 'FRAX', 'FDUSD', 'PYUSD', 'TUSD',
+  'BUSD', 'LUSD', 'GUSD', 'CRVUSD', 'USDD', 'USDE', 'SUSD', 'SUSDS', 'EURS', 'EURC'
+];
+
+function isStableSymbol(symbol) {
+  if (!symbol) return false;
+  const parts = String(symbol).toUpperCase().split(/[-_\/\s+]/).map(s => s.trim()).filter(Boolean);
+  if (parts.length === 0) return false;
+  return parts.every(p => STABLE_SYMBOLS.includes(p));
+}
+
 const YIELD_CARD_CATALOG_KR = [
   { id: 'baemin_club', name: '배민클럽 (배달의민족)', monthlyCostKrw: 3990, monthlyCostUsd: 2.95, domain: 'baemin.com', emoji: '🛵', category: ['food_delivery', 'lifestyle'] },
   { id: 'naver_plus', name: '네이버플러스 멤버십', monthlyCostKrw: 4900, monthlyCostUsd: 3.60, domain: 'naver.com', emoji: '🟢', category: ['shopping', 'content'] },
@@ -121,6 +133,42 @@ function YieldCardWidget({
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [reservedSpot, setReservedSpot] = useState(2481);
   const [linkCopied, setLinkCopied] = useState(false);
+  const [tokenPrice, setTokenPrice] = useState(null);
+  const isStable = isStableSymbol(pool && pool.symbol);
+
+  useEffect(() => {
+    if (isStable) {
+      setTokenPrice(1.0);
+      return;
+    }
+    if (!pool || !pool.underlyingTokens || pool.underlyingTokens.length === 0) {
+      return;
+    }
+
+    let isMounted = true;
+    const token = pool.underlyingTokens[0];
+    const chainSlug = (pool.chain || 'ethereum').toLowerCase().replace(/\s+/g, '-');
+    const coinKey = token.includes(':')
+      ? token
+      : `${chainSlug === 'avalanche' ? 'avax' : (chainSlug === 'binance' ? 'bsc' : chainSlug)}:${token}`;
+
+    if (typeof fetch !== 'undefined') {
+      fetch(`https://coins.llama.fi/prices/current/${coinKey}`)
+        .then(res => res.json())
+        .then(data => {
+          if (!isMounted) return;
+          if (data && data.coins) {
+            const matched = data.coins[coinKey] || Object.values(data.coins)[0];
+            if (matched && typeof matched.price === 'number' && matched.price > 0) {
+              setTokenPrice(matched.price);
+            }
+          }
+        })
+        .catch(() => {});
+    }
+
+    return () => { isMounted = false; };
+  }, [pool && pool.pool, pool && pool.symbol, isStable]);
 
   const _t = t || ((k) => k);
   const _formatUsd = formatUsd || ((n, f) => '$' + Number(n || 0).toLocaleString('en-US', { maximumFractionDigits: f || 2 }));
@@ -262,7 +310,26 @@ function YieldCardWidget({
       React.createElement('div', { className: 'yield-card-slider-header' },
         React.createElement('div', { className: 'yield-card-deposit-readout' },
           React.createElement('span', { className: 'readout-label' }, _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'),
-          React.createElement('span', { className: 'readout-value' }, `$${_formatNum(depositAmount)} ${pool.symbol || 'USDC'}`)
+          React.createElement('span', { className: 'readout-value' },
+            (function () {
+              const sym = pool.symbol || 'USDC';
+              if (isStable) {
+                return `$${_formatNum(depositAmount)} ${sym}`;
+              }
+              if (typeof tokenPrice === 'number' && tokenPrice > 0) {
+                const tokenQty = depositAmount / tokenPrice;
+                const formattedQty = tokenQty >= 1000
+                  ? _formatNum(Math.round(tokenQty))
+                  : (tokenQty >= 1 ? tokenQty.toFixed(2) : tokenQty.toFixed(4));
+                return `$${_formatNum(depositAmount)} USD (≈ ${formattedQty} ${sym})`;
+              }
+              return `$${_formatNum(depositAmount)} USD (${sym})`;
+            })()
+          ),
+          (!isStable && typeof tokenPrice === 'number' && tokenPrice > 0) &&
+          React.createElement('span', { className: 'yield-card-price-note' },
+            `@ ${_formatUsd(tokenPrice, tokenPrice < 1 ? 4 : 2)} / ${pool.symbol || 'token'}`
+          )
         ),
         React.createElement('div', { className: 'yield-card-yield-readout' },
           React.createElement('span', { className: 'readout-label' }, _t('yieldCard.monthlyYield') || 'Monthly Yield Generated'),
