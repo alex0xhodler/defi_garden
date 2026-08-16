@@ -152,7 +152,7 @@ async function main() {
     await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('#landing-root .landing-example-chip', { timeout: 10000 });
     await page.locator('#landing-root .landing-example-chip', { hasText: 'Kamino lending' }).click();
-    await page.waitForURL((url) => url.searchParams.get('protocols') === 'Kamino' && url.searchParams.get('poolTypes') === 'Lending', { waitUntil: 'commit', timeout: 10000 });
+    await page.waitForURL((url) => url.searchParams.get('protocols') === 'Kamino' && url.searchParams.get('chain') === 'All' && !url.searchParams.has('poolTypes'), { waitUntil: 'commit', timeout: 10000 });
     await page.waitForSelector('.pool-card', { timeout: 15000 });
     passed++;
     console.log('  ✓ tapping Kamino lending example chip navigates directly to search results');

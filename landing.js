@@ -156,10 +156,12 @@
       return false;
     });
 
-    if (/\bstaking\b|\bstake\b/i.test(lower)) {
-      poolType = 'Staking';
-    } else if (/\blending\b|\blend\b/i.test(lower)) {
-      poolType = 'Lending';
+    if (!protocol) {
+      if (/\bstaking\b|\bstake\b/i.test(lower)) {
+        poolType = 'Staking';
+      } else if (/\blending\b|\blend\b/i.test(lower)) {
+        poolType = 'Lending';
+      }
     }
 
     if (!token && !protocol && /^[a-z0-9][a-z0-9._-]*$/i.test(clean)) token = clean.toUpperCase();
@@ -168,12 +170,11 @@
       if (exactChain) chain = exactChain;
     }
 
-    if (token) params.set('token', token);
     if (chain) params.set('chain', chain);
     else if (protocol || poolType) params.set('chain', 'All');
+    if (token) params.set('token', token);
     if (protocol) params.set('protocols', protocol);
     if (poolType) params.set('poolTypes', poolType);
-
     if (params.toString()) return '/?' + params.toString();
 
     // Keep the user inside the authoritative analytics search app for less
