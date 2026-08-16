@@ -1728,15 +1728,25 @@ body {
 @media (max-width: 640px) {
   .app-header-content {
     gap: var(--space-8);
-    padding: var(--space-12);
+    padding: var(--space-8) var(--space-12);
+  }
+
+  .app-brand-wordmark {
+    display: none;
   }
 
   .app-search-container {
     min-width: 0;
+    flex: 1;
   }
 
   .app-search-input {
     min-width: 0;
+    font-size: var(--font-size-sm);
+    padding: var(--space-8) var(--space-12);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
 
@@ -1801,11 +1811,7 @@ body {
    (b) shrink the input/clear-button's own horizontal padding — cuts their
        combined floor from ~66px to ~30px, small enough to fit inside what
        (a) leaves for search once the controls' 88px floor is subtracted. */
-@media (max-width: 359px) {
-  .app-brand-wordmark {
-    display: none;
-  }
-
+@media (max-width: 480px) {
   .app-search-input {
     padding-left: var(--space-8);
     padding-right: var(--space-8);

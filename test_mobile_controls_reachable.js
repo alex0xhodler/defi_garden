@@ -610,6 +610,7 @@ async function main() {
       await assertControlsReachable(redPage2, '360x780 unreachable-red-proof PRE-mutation (must be green)');
 
       await redPage2.addStyleTag({ content: `
+        .app-brand-wordmark { display: inline !important; }
         .app-search-container { min-width: 170px !important; }
         .app-search-input { min-width: 170px !important; }
       `});
