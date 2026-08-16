@@ -1,31 +1,31 @@
 # EVAUSDC 디파이 수익률
 
-현재 EVAUSDC의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 9.45%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EVAUSDC의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 9.59%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 5.96% | $3.41M |
-| [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 8.95% | $3.25M |
-| [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 9.45% | $2.1M |
+| [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 6.06% | $3.41M |
+| [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 9.01% | $3.25M |
+| [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 9.59% | $2.1M |
 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 8.54% | $1.14M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 EVAUSDC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 5.96%, TVL $3.41M, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; Ethereum의 stake-dao, APY 8.95%, TVL $3.25M, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; Sonic의 shadow-exchange-legacy, APY 8.54%, TVL $1.14M, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; Ethereum의 convex-finance, APY 9.45%, TVL $2.1M, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EVAUSDC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.06%, TVL $3.41M, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; Ethereum의 stake-dao, APY 9.01%, TVL $3.25M, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; Sonic의 shadow-exchange-legacy, APY 8.54%, TVL $1.14M, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; Ethereum의 convex-finance, APY 9.59%, TVL $2.1M, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 5.96% | $3.41M |
-| 2 | [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 8.95% | $3.25M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token) | Ethereum | 6.06% | $3.41M |
+| 2 | [stake-dao →](https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token) | Ethereum | 9.01% | $3.25M |
 | 3 | [shadow-exchange-legacy →](https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token) | Sonic | 8.54% | $1.14M |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 9.45% | $2.1M |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token) | Ethereum | 9.59% | $2.1M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-EVAUSDC 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.96%부터 9.45%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+EVAUSDC 풀은 여기 4개가 있고, 2개 체인에서 APY가 6.06%부터 9.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 9.66%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -33,9 +33,9 @@ EVAUSDC 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.96%부터 9.45%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 5.96% | 8.21% | 인센티브 100.00% |
-| stake-dao | 8.95% | 10.74% | 인센티브 100.00% |
-| convex-finance | 9.45% | 11.21% | 인센티브 100.00% |
+| curve-dex | 6.06% | 8.20% | 인센티브 100.00% |
+| stake-dao | 9.01% | 10.73% | 인센티브 100.00% |
+| convex-finance | 9.59% | 11.21% | 인센티브 100.00% |
 | shadow-exchange-legacy | 8.54% | 8.58% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -44,7 +44,7 @@ EVAUSDC 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.96%부터 9.45%
 
 ### 오늘 EVAUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 9.45%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 9.59%예요.
 
 ### EVAUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -56,7 +56,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 9.45%
 
 ### EVAUSDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 EVAUSDC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 5.96%, TVL $3.41M, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; Ethereum의 stake-dao, APY 8.95%, TVL $3.25M, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; Sonic의 shadow-exchange-legacy, APY 8.54%, TVL $1.14M, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; Ethereum의 convex-finance, APY 9.45%, TVL $2.1M, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EVAUSDC의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 6.06%, TVL $3.41M, https://www.defi.garden/?pool=9d2981a0-af33-4a5d-b43f-b191a36fdc3b&src=seo_token; Ethereum의 stake-dao, APY 9.01%, TVL $3.25M, https://www.defi.garden/?pool=3d18012e-c874-46e8-8a96-8454f000be0b&src=seo_token; Sonic의 shadow-exchange-legacy, APY 8.54%, TVL $1.14M, https://www.defi.garden/?pool=b344826d-1c25-43e5-8e75-3b7510531c4c&src=seo_token; Ethereum의 convex-finance, APY 9.59%, TVL $2.1M, https://www.defi.garden/?pool=3f9ff90a-50aa-4af7-9a3f-4d45586425f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

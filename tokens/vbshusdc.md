@@ -4,7 +4,7 @@ The highest honest VBSHUSDC yield right now is 3.92% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d7c8dc33-235e-4d08-94e9-8b72c2500d0d&src=seo_token) | Ethereum | 3.92% | $12.3M |
+| [morpho-blue →](https://www.defi.garden/?pool=d7c8dc33-235e-4d08-94e9-8b72c2500d0d&src=seo_token) | Ethereum | 3.92% | $12.31M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VBSHUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $12.3M in total.
+1 live pool clear this page's $100K TVL floor, $12.31M in total.
 
 ### Are these rates safe?
 

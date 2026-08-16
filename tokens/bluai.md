@@ -5,7 +5,7 @@ The highest honest BLUAI yield right now is 1.00% on raydium-amm (Solana), among
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=1ae71187-2cb6-573c-9143-87c0d92a5815&src=seo_token) | Solana | 0.16% | $17.24M |
-| [raydium-amm →](https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token) | Solana | 1.00% | $175.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token) | Solana | 1.00% | $175.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -27,7 +27,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.16% | 179.57% | Base rate |
-| raydium-amm | 1.00% | 3.89% | Base rate |
+| raydium-amm | 1.00% | 3.88% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

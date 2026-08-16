@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=823c81ea-67bd-4c14-8c1b-98c6e95b898a&src=seo_token) | Cardano | 13.28% | $197.9K |
+| [minswap-dex →](https://www.defi.garden/?pool=823c81ea-67bd-4c14-8c1b-98c6e95b898a&src=seo_token) | Cardano | 13.28% | $198.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 13.28%예
 
 ### HOSKY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $197.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $198.2K예요.
 
 ### 이 수익률은 안전한가요?
 

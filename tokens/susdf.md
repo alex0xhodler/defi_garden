@@ -31,7 +31,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| falcon-finance | 4.55% | 5.01% | Base rate |
+| falcon-finance | 4.55% | 5.00% | Base rate |
 | pendle | 4.71% | 5.44% | Base rate |
 | pendle | 5.33% | 5.40% | Base rate |
 

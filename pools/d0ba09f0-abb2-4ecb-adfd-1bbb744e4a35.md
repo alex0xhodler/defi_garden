@@ -1,12 +1,12 @@
 # TABOSHI-WETH — uniswap-v3 on Base
 
-**Total APY:** 73.86% (73.86% Base · + 0.00% Rewards)
+**Total APY:** 74.63% (74.63% Base · + 0.00% Rewards)
 
-**TVL:** $129.3K
+**TVL:** $128.3K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 48.09%
+**30d Mean APY:** 48.14%
 
 **Exposure:** multi
 
@@ -22,15 +22,15 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$3,006 in 5y at current rates.
+$1,000 in this pool grows to ~$3,037 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (73.86% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (74.63% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 73.86% right now vs a 48.09% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 74.63% right now vs a 48.14% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$3,006 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$3,037 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 

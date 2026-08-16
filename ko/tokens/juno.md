@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=82944144-af68-4ee9-b7e3-dab62215bb7c&src=seo_token) | Base | 1.60% | $281K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=82944144-af68-4ee9-b7e3-dab62215bb7c&src=seo_token) | Base | 1.60% | $280.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 1.60%예요.
 
 ### JUNO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $281K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $280.9K예요.
 
 ### 이 수익률은 안전한가요?
 

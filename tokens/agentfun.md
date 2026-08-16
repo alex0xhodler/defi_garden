@@ -5,7 +5,7 @@ The highest honest AGENTFUN yield right now is 0.12% on vvs-standard (Cronos), a
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60&src=seo_token) | Cronos | 0.07% | $672.4K |
-| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086&src=seo_token) | Cronos | 0.12% | $193.3K |
+| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086&src=seo_token) | Cronos | 0.12% | $193.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AGENTFUN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $865.7K in total.
+2 live pools clear this page's $100K TVL floor, $865.8K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=603797bc-91d7-46b9-81d9-fca30928c800&src=seo_token) | Solana | 1.02% | $176.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=603797bc-91d7-46b9-81d9-fca30928c800&src=seo_token) | Solana | 1.02% | $176.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.02%예�
 
 ### FRIC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $176.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $176.9K예요.
 
 ### 이 수익률은 안전한가요?
 

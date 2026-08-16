@@ -4,7 +4,7 @@ The highest honest SPRK yield right now is 1.34% on sparkdex-v3.1 (Flare), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 1.34% | $305.7K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 1.34% | $306.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SPRK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $305.7K in total.
+1 live pool clear this page's $100K TVL floor, $306.4K in total.
 
 ### Are these rates safe?
 

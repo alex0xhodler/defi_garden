@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39fc2c93-90c2-5043-8fb8-7977ec6008c7&src=seo_token) | Arbitrum | 2.81% | $243.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39fc2c93-90c2-5043-8fb8-7977ec6008c7&src=seo_token) | Arbitrum | 2.81% | $243.1K |
 | [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 3.94% | $110.2K |
 
 <!-- rate-stability:insufficient -->
@@ -27,7 +27,7 @@ MEX 풀은 여기 2개가 있고, 2개 체인에서 APY가 2.81%부터 3.94%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v4 | 2.81% | 3.77% | 기본 금리 |
-| xexchange | 3.94% | 4.49% | 인센티브 95.22% |
+| xexchange | 3.94% | 4.49% | 인센티브 95.08% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, MultiversX의 xexchange에서 APY 3.94%예
 
 ### MEX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $353.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $353.4K예요.
 
 ### 이 수익률은 안전한가요?
 

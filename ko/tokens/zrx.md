@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2994a649-ba24-44e3-827b-37bd08e9696f&src=seo_token) | Ethereum | 0.14% | $183.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2994a649-ba24-44e3-827b-37bd08e9696f&src=seo_token) | Ethereum | 0.14% | $183K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.14%예�
 
 ### ZRX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $377.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $377.3K예요.
 
 ### 이 수익률은 안전한가요?
 

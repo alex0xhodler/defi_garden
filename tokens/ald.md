@@ -32,7 +32,7 @@ ALD shows up in 2 pools here, with rates from 0.01% to 0.16% APY across 1 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curve-dex | 0.01% | 0.16% | 100.00% incentives |
-| convex-finance | 0.16% | 0.19% | 13.23% incentives |
+| convex-finance | 0.16% | 0.19% | 13.40% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

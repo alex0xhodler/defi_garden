@@ -1,10 +1,10 @@
 # FISH 디파이 수익률
 
-현재 FISH의 가장 높은 정직한 수익률은 TON의 dedust에서 0.17%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FISH의 가장 높은 정직한 수익률은 TON의 dedust에서 0.11%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=d3ea6adc-951d-4135-9b0d-81c54e7a7d90&src=seo_token) | TON | 0.17% | $102.2K |
+| [dedust →](https://www.defi.garden/?pool=d3ea6adc-951d-4135-9b0d-81c54e7a7d90&src=seo_token) | TON | 0.11% | $102.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 FISH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.17%예요.
+DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.11%예요.
 
 ### FISH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

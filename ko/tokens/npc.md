@@ -1,21 +1,21 @@
 # NPC 디파이 수익률
 
-현재 NPC의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.39%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NPC의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 1.51%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token) | Ethereum | 1.59% | $2.1M |
-| [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 1.39% | $364.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 1.51% | $363.8K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token) | Base | 1.21% | $340.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 NPC의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.39%, TVL $364.1K, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token; Base의 uniswap-v2, APY 1.21%, TVL $340.2K, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token; Ethereum의 uniswap-v2, APY 1.59%, TVL $2.1M, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NPC의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.51%, TVL $363.8K, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token; Base의 uniswap-v2, APY 1.21%, TVL $340.2K, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token; Ethereum의 uniswap-v2, APY 1.59%, TVL $2.1M, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 1.39% | $364.1K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token) | Solana | 1.51% | $363.8K |
 | 2 | [uniswap-v2 →](https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token) | Base | 1.21% | $340.2K |
 | 3 | [uniswap-v2 →](https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token) | Ethereum | 1.59% | $2.1M |
 
@@ -34,7 +34,7 @@ NPC 풀은 여기 3개가 있고, 3개 체인에서 APY가 1.21%부터 1.59%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | uniswap-v2 | 1.59% | 3.61% | 기본 금리 |
-| raydium-amm | 1.39% | 2.55% | 기본 금리 |
+| raydium-amm | 1.51% | 2.55% | 기본 금리 |
 | uniswap-v2 | 1.21% | 3.16% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -43,7 +43,7 @@ NPC 풀은 여기 3개가 있고, 3개 체인에서 APY가 1.21%부터 1.59%까�
 
 ### 오늘 NPC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.39%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.51%예요.
 
 ### NPC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 1.39%예�
 
 ### NPC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 NPC의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.39%, TVL $364.1K, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token; Base의 uniswap-v2, APY 1.21%, TVL $340.2K, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token; Ethereum의 uniswap-v2, APY 1.59%, TVL $2.1M, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 NPC의 변동성 낮은 후보는 Solana의 raydium-amm, APY 1.51%, TVL $363.8K, https://www.defi.garden/?pool=bb095f7e-b901-4bf2-afb3-45a9c0182ef1&src=seo_token; Base의 uniswap-v2, APY 1.21%, TVL $340.2K, https://www.defi.garden/?pool=3e8be2b0-5267-4567-b371-c5bde0645681&src=seo_token; Ethereum의 uniswap-v2, APY 1.59%, TVL $2.1M, https://www.defi.garden/?pool=ae3be39f-ee3b-43de-a644-2924d7d33106&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -4,7 +4,7 @@ The highest honest RESERVOIRUSDC yield right now is 6.19% on morpho-blue (Ethere
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2&src=seo_token) | Ethereum | 6.19% | $14.9M |
+| [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2&src=seo_token) | Ethereum | 6.19% | $15.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RESERVOIRUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $14.9M in total.
+1 live pool clear this page's $100K TVL floor, $15.04M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest THQ yield right now is 5.62% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e48ef376-ab68-47a2-9e18-2ec1d6c43081&src=seo_token) | Ethereum | 5.62% | $116.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e48ef376-ab68-47a2-9e18-2ec1d6c43081&src=seo_token) | Ethereum | 5.62% | $116.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many THQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.6K in total.
+1 live pool clear this page's $100K TVL floor, $116.7K in total.
 
 ### Are these rates safe?
 

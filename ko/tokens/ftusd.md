@@ -1,12 +1,12 @@
 # FTUSD 디파이 수익률
 
-현재 FTUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 27.19%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FTUSD의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 27.59%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb&src=seo_token) | Ethereum | 1.27% | $1.88M |
-| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9&src=seo_token) | Ethereum | 12.05% | $330.1K |
-| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d&src=seo_token) | Ethereum | 27.19% | $111.9K |
+| [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb&src=seo_token) | Ethereum | 1.29% | $1.88M |
+| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9&src=seo_token) | Ethereum | 12.23% | $330.1K |
+| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d&src=seo_token) | Ethereum | 27.59% | $111.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-FTUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.27%부터 27.19%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+FTUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.29%부터 27.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 26.58%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -27,9 +27,9 @@ FTUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.27%부터 27.19%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 1.27% | 2.39% | 인센티브 100.00% |
-| curve-dex | 12.05% | 51.61% | 인센티브 99.92% |
-| convex-finance | 27.19% | 26.58% | 인센티브 99.96% |
+| curve-dex | 1.29% | 2.39% | 인센티브 100.00% |
+| curve-dex | 12.23% | 51.62% | 인센티브 99.92% |
+| convex-finance | 27.59% | 26.58% | 인센티브 99.96% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -37,7 +37,7 @@ FTUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 1.27%부터 27.19%�
 
 ### 오늘 FTUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 27.19%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 27.59%예요.
 
 ### FTUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

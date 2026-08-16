@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Stacks pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $56.79M in total.
+6 live pools clear this page's $100K TVL floor, $56.81M in total.
 
 ### Are these rates safe?
 

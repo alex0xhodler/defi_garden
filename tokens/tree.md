@@ -4,7 +4,7 @@ The highest honest TREE yield right now is 0.04% on uniswap-v3 (Base), among 2 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8&src=seo_token) | Base | 0.04% | $426.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b241433a-e7a0-4d38-b14d-2cfdd1028ec8&src=seo_token) | Base | 0.04% | $428.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

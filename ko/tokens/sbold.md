@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token) | Ethereum | 3.52% | $247.4K |
-| [pendle →](https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token) | Ethereum | 5.26% | $247.4K |
+| [pendle →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token) | Ethereum | 3.52% | $247.3K |
+| [pendle →](https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token) | Ethereum | 5.26% | $247.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 5.26%예요.
 
 ### SBOLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $494.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $494.6K예요.
 
 ### 이 수익률은 안전한가요?
 

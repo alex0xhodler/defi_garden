@@ -1,8 +1,8 @@
 # USDT-ULTIMA — uniswap-v3 on BSC
 
-**Total APY:** 0.03% (0.03% Base · + 0.00% Rewards)
+**Total APY:** 0.02% (0.02% Base · + 0.00% Rewards)
 
-**TVL:** $258.6K
+**TVL:** $256.6K
 
 **Pool Type:** LP/DEX
 

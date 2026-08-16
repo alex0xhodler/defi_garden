@@ -4,7 +4,7 @@ The highest honest SHI yield right now is 0.09% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9e666bc6-8c20-46b5-ae4a-0765724872e0&src=seo_token) | Ethereum | 0.09% | $600.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9e666bc6-8c20-46b5-ae4a-0765724872e0&src=seo_token) | Ethereum | 0.09% | $600.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $600.8K in total.
+1 live pool clear this page's $100K TVL floor, $600.5K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest CONWAY yield right now is 0.03% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cb966a46-20d1-4b93-b58b-b6fc03dcd5df&src=seo_token) | Base | 0.03% | $460.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cb966a46-20d1-4b93-b58b-b6fc03dcd5df&src=seo_token) | Base | 0.03% | $459.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CONWAY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $460.1K in total.
+1 live pool clear this page's $100K TVL floor, $459.9K in total.
 
 ### Are these rates safe?
 

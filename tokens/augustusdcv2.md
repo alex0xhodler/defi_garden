@@ -29,7 +29,7 @@ AUGUSTUSDCV2 shows up in 2 pools here, with rates from 7.85% to 8.14% APY across
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 8.14% | 7.15% | 29.04% incentives |
+| morpho-blue | 8.14% | 7.15% | 29.03% incentives |
 | morpho-blue | 7.85% | 7.36% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

@@ -4,7 +4,7 @@ The highest honest A0T yield right now is 7.65% on uniswap-v4 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=60e232c8-2c54-41a1-98a4-a8be1b2c75a0&src=seo_token) | Base | 7.65% | $408.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=60e232c8-2c54-41a1-98a4-a8be1b2c75a0&src=seo_token) | Base | 7.65% | $408.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many A0T pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $408.7K in total.
+1 live pool clear this page's $100K TVL floor, $408.6K in total.
 
 ### Are these rates safe?
 

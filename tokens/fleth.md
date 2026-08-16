@@ -4,7 +4,7 @@ The highest honest FLETH yield right now is 0.03% on uniswap-v4 (Base), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=98f81d1a-7b4b-40a4-8d96-d38da041a7bf&src=seo_token) | Base | 0.03% | $265.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=98f81d1a-7b4b-40a4-8d96-d38da041a7bf&src=seo_token) | Base | 0.03% | $264.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FLETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $782.5K in total.
+2 live pools clear this page's $100K TVL floor, $779.3K in total.
 
 ### Are these rates safe?
 

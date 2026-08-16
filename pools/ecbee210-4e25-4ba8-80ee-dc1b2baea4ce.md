@@ -1,8 +1,8 @@
 # TBTC — accountable on Ethereum
 
-**Total APY:** 1.03% (1.03% Base · + 0.00% Rewards)
+**Total APY:** 1.02% (1.02% Base · + 0.00% Rewards)
 
-**TVL:** $819K
+**TVL:** $819.1K
 
 **Pool Type:** Yield Farming
 

@@ -4,7 +4,7 @@ The highest honest PEPU yield right now is 1.27% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token) | Ethereum | 1.27% | $155.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c3b58e2f-30d3-49c0-a47e-c5d2d87f123d&src=seo_token) | Ethereum | 1.27% | $155.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PEPU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $265.9K in total.
+2 live pools clear this page's $100K TVL floor, $265.7K in total.
 
 ### Are these rates safe?
 

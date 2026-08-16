@@ -1,40 +1,37 @@
 # BOTTO DeFi Yields
 
-The highest honest BOTTO yield right now is 127.22% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOTTO yield right now is 127.43% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=cedb1cd2-ecd9-4b76-ae63-6d6f95a81578&src=seo_token) | Ethereum | 0.07% | $485.2K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 127.22% | $181.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 127.43% | $181.3K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token) | Ethereum | 0.45% | $141.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BOTTO's lower-variability candidates are uniswap-v3 (Ethereum), 0.07% APY, $485.2K TVL, https://www.defi.garden/?pool=cedb1cd2-ecd9-4b76-ae63-6d6f95a81578&src=seo_token; uniswap-v2 (Ethereum), 0.45% APY, $141.8K TVL, https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token; aerodrome-v1 (Base), 127.22% APY, $181.4K TVL, https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOTTO's lower-variability candidates are uniswap-v2 (Ethereum), 0.45% APY, $141.8K TVL, https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token; aerodrome-v1 (Base), 127.43% APY, $181.3K TVL, https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=cedb1cd2-ecd9-4b76-ae63-6d6f95a81578&src=seo_token) | Ethereum | 0.07% | $485.2K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token) | Ethereum | 0.45% | $141.8K |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 127.22% | $181.4K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token) | Ethereum | 0.45% | $141.8K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token) | Base | 127.43% | $181.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BOTTO shows up in 3 pools here, with rates from 0.07% to 127.22% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BOTTO shows up in 2 pools here, with rates from 0.45% to 127.43% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.24% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 63.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
-3 of 3 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.07% | 0.24% | Base rate |
-| aerodrome-v1 | 127.22% | 126.43% | 100.00% incentives |
+| aerodrome-v1 | 127.43% | 126.41% | 100.00% incentives |
 | uniswap-v2 | 0.45% | 0.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -43,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BOTTO yield today?
 
-127.22% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+127.43% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many BOTTO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $808.4K in total.
+3 live pools clear this page's $100K TVL floor, $808.1K in total.
 
 ### Are these rates safe?
 
@@ -55,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BOTTO pools have the most stable APY history?
 
-Based on APY history only, BOTTO's lower-variability candidates are uniswap-v3 (Ethereum), 0.07% APY, $485.2K TVL, https://www.defi.garden/?pool=cedb1cd2-ecd9-4b76-ae63-6d6f95a81578&src=seo_token; uniswap-v2 (Ethereum), 0.45% APY, $141.8K TVL, https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token; aerodrome-v1 (Base), 127.22% APY, $181.4K TVL, https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOTTO's lower-variability candidates are uniswap-v2 (Ethereum), 0.45% APY, $141.8K TVL, https://www.defi.garden/?pool=850a24e1-d2bb-48fa-8481-85c7cf593501&src=seo_token; aerodrome-v1 (Base), 127.43% APY, $181.3K TVL, https://www.defi.garden/?pool=f83daa70-8229-4adb-ab31-d144242a98b7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,7 +65,7 @@ Based on APY history only, BOTTO's lower-variability candidates are uniswap-v3 (
 
 ## Available on
 
-- [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
+- [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Last updated August 16, 2026

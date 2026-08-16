@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=1ae71187-2cb6-573c-9143-87c0d92a5815&src=seo_token) | Solana | 0.16% | $17.24M |
-| [raydium-amm →](https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token) | Solana | 1.00% | $175.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=056aa3c1-92c7-45ae-abf2-89ac8d59572e&src=seo_token) | Solana | 1.00% | $175.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -27,7 +27,7 @@ BLUAI 풀은 여기 2개가 있고, 1개 체인에서 APY가 0.16%부터 1.00%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | raydium-amm | 0.16% | 179.57% | 기본 금리 |
-| raydium-amm | 1.00% | 3.89% | 기본 금리 |
+| raydium-amm | 1.00% | 3.88% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

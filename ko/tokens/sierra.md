@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
+| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 4.82% | $7.3M |
 | [pendle →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.11% | $7.3M |
-| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 4.79% | $7.3M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.03% | $4.65M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.02% | $3.16M |
 | [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.04% | $163.8K |
@@ -34,8 +34,8 @@ SIERRA 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.02%부터 8.11%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
+| pendle | 4.82% | 7.57% | 인센티브 8.88% |
 | pendle | 8.11% | 8.60% | 기본 금리 |
-| pendle | 4.79% | 7.60% | 인센티브 8.93% |
 | uniswap-v4 | 0.03% | 0.41% | 기본 금리 |
 | uniswap-v4 | 0.02% | 0.63% | 기본 금리 |
 | joe-v2.2 | 0.04% | 1.08% | 기본 금리 |

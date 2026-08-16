@@ -6,7 +6,7 @@ The highest honest TRUSD yield right now is 8.81% on pendle (Ethereum), among 6 
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.57% | $10.07M |
 | [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.24% | $5.15M |
-| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.72% | $4.89M |
+| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.78% | $4.89M |
 | [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 4.03% | $2.74M |
 | [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 8.81% | $2.74M |
 
@@ -28,9 +28,9 @@ TRUSD shows up in 5 pools here, with rates from 0.24% to 8.81% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curve-dex | 5.57% | 5.48% | Base rate |
-| curve-dex | 0.24% | 0.45% | 0.25% incentives |
-| curve-dex | 3.72% | 177.59% | 97.85% incentives |
-| pendle | 4.03% | 4.53% | 47.44% incentives |
+| curve-dex | 0.24% | 0.44% | 0.25% incentives |
+| curve-dex | 3.78% | 177.17% | 97.89% incentives |
+| pendle | 4.03% | 4.52% | 47.44% incentives |
 | pendle | 8.81% | 9.52% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

@@ -4,7 +4,7 @@ The highest honest BASESHAKE yield right now is 3.63% on uniswap-v4 (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=82202743-7f22-464c-aa59-fe1becfe703e&src=seo_token) | Base | 3.63% | $333.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=82202743-7f22-464c-aa59-fe1becfe703e&src=seo_token) | Base | 3.63% | $333.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BASESHAKE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $333.9K in total.
+1 live pool clear this page's $100K TVL floor, $333.8K in total.
 
 ### Are these rates safe?
 

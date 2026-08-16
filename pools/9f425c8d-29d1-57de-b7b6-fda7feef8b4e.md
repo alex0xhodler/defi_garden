@@ -1,6 +1,6 @@
 # GCFA — balancer-v3 on Ethereum
 
-**Total APY:** 1.23% (0.13% Base · + 1.10% Rewards)
+**Total APY:** 1.22% (0.13% Base · + 1.09% Rewards)
 
 **TVL:** $189.1K
 

@@ -1,10 +1,10 @@
 # CEUR DeFi Yields
 
-The highest honest CEUR yield right now is 0.04% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CEUR yield right now is 0.05% on uniswap-v3 (Celo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5244316f-be8f-4179-af73-f6248d74c2dd&src=seo_token) | Celo | 0.04% | $148.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5244316f-be8f-4179-af73-f6248d74c2dd&src=seo_token) | Celo | 0.05% | $148.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CEUR yield today?
 
-0.04% APY on uniswap-v3 (Celo), based on live DefiLlama data.
+0.05% APY on uniswap-v3 (Celo), based on live DefiLlama data.
 
 ### How many CEUR pools clear the TVL floor?
 

@@ -4,7 +4,7 @@ The highest honest TATO yield right now is 0.73% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.25% | $446.7K |
+| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.25% | $443.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=2bfc88be-6f91-49d6-8f75-9a2debcc16d3&src=seo_token) | Solana | 0.73% | $155.2K |
 
 <!-- rate-stability:insufficient -->
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TATO pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $601.9K in total.
+2 live pools clear this page's $100K TVL floor, $599K in total.
 
 ### Are these rates safe?
 

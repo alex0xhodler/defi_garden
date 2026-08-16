@@ -4,7 +4,7 @@ The highest honest BENAT yield right now is 8.10% on uniswap-v4 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5d71afa1-3905-49cb-b99f-669c22a6ffd3&src=seo_token) | Ethereum | 8.10% | $131.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5d71afa1-3905-49cb-b99f-669c22a6ffd3&src=seo_token) | Ethereum | 8.10% | $131.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BENAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.3K in total.
+1 live pool clear this page's $100K TVL floor, $131.2K in total.
 
 ### Are these rates safe?
 

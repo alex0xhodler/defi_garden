@@ -4,7 +4,7 @@ The highest honest JSOL yield right now is 5.29% on jpool (Solana), among 4 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.29% | $103.33M |
+| [jpool →](https://www.defi.garden/?pool=177d0a37-d0fb-4b18-b290-f46bbe8d307f&src=seo_token) | Solana | 5.29% | $103.34M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -1,10 +1,10 @@
 # RUSD DeFi Yields
 
-The highest honest RUSD yield right now is 7.81% on fusion-by-ipor (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RUSD yield right now is 7.90% on fusion-by-ipor (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fusion-by-ipor →](https://www.defi.garden/?pool=567c8eb4-a71c-4bf8-b063-5be5329e4fe7&src=seo_token) | Ethereum | 7.81% | $746.9K |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=567c8eb4-a71c-4bf8-b063-5be5329e4fe7&src=seo_token) | Ethereum | 7.90% | $746.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RUSD yield today?
 
-7.81% APY on fusion-by-ipor (Ethereum), based on live DefiLlama data.
+7.90% APY on fusion-by-ipor (Ethereum), based on live DefiLlama data.
 
 ### How many RUSD pools clear the TVL floor?
 

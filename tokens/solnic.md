@@ -4,7 +4,7 @@ The highest honest SOLNIC yield right now is 0.88% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=cb21a7cd-5924-4b5a-897e-3d7f67c17b82&src=seo_token) | Solana | 0.88% | $127.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=cb21a7cd-5924-4b5a-897e-3d7f67c17b82&src=seo_token) | Solana | 0.88% | $127.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SOLNIC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.7K in total.
+1 live pool clear this page's $100K TVL floor, $127.8K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest ETHENAUSDC yield right now is 3.44% on morpho-blue (Base), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=14170877-8941-4c7d-b12c-06517c70f1e7&src=seo_token) | Base | 3.44% | $80.51M |
+| [morpho-blue →](https://www.defi.garden/?pool=14170877-8941-4c7d-b12c-06517c70f1e7&src=seo_token) | Base | 3.44% | $80.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ETHENAUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $80.51M in total.
+1 live pool clear this page's $100K TVL floor, $80.5M in total.
 
 ### Are these rates safe?
 

@@ -4,8 +4,8 @@ The highest honest SBOLD yield right now is 5.26% on pendle (Ethereum), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token) | Ethereum | 3.52% | $247.4K |
-| [pendle →](https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token) | Ethereum | 5.26% | $247.4K |
+| [pendle →](https://www.defi.garden/?pool=2ce146c4-4443-50eb-851b-fc7d37a3cd0a&src=seo_token) | Ethereum | 3.52% | $247.3K |
+| [pendle →](https://www.defi.garden/?pool=08bff643-b15f-5cd5-a64e-df85c99e25eb&src=seo_token) | Ethereum | 5.26% | $247.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SBOLD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $494.8K in total.
+2 live pools clear this page's $100K TVL floor, $494.6K in total.
 
 ### Are these rates safe?
 

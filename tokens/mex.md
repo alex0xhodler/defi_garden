@@ -4,7 +4,7 @@ The highest honest MEX yield right now is 3.94% on xexchange (MultiversX), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39fc2c93-90c2-5043-8fb8-7977ec6008c7&src=seo_token) | Arbitrum | 2.81% | $243.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39fc2c93-90c2-5043-8fb8-7977ec6008c7&src=seo_token) | Arbitrum | 2.81% | $243.1K |
 | [xexchange →](https://www.defi.garden/?pool=7b0b92c0-fad5-4b48-b4b9-f46902690be5&src=seo_token) | MultiversX | 3.94% | $110.2K |
 
 <!-- rate-stability:insufficient -->
@@ -27,7 +27,7 @@ MEX shows up in 2 pools here, with rates from 2.81% to 3.94% APY across 2 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v4 | 2.81% | 3.77% | Base rate |
-| xexchange | 3.94% | 4.49% | 95.22% incentives |
+| xexchange | 3.94% | 4.49% | 95.08% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MEX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $353.3K in total.
+2 live pools clear this page's $100K TVL floor, $353.4K in total.
 
 ### Are these rates safe?
 

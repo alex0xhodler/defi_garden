@@ -1,12 +1,12 @@
 # WETH-NST — uniswap-v3 on Arbitrum
 
-**Total APY:** 7.09% (7.09% Base · + 0.00% Rewards)
+**Total APY:** 7.08% (7.08% Base · + 0.00% Rewards)
 
-**TVL:** $139.1K
+**TVL:** $139.2K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 8.01%
+**30d Mean APY:** 8.00%
 
 **Exposure:** multi
 

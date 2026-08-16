@@ -32,7 +32,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 APYUSD shows up in 7 pools here, with rates from 0.68% to 17.45% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 14.88% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 14.89% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 7 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -40,13 +40,13 @@ APYUSD shows up in 7 pools here, with rates from 0.68% to 17.45% APY across 3 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 9.35% | 7.94% | Base rate |
+| curve-dex | 9.35% | 7.93% | Base rate |
 | pendle | 16.34% | 16.14% | 1.11% incentives |
 | pendle | 17.45% | 16.91% | Base rate |
-| orca-dex | 3.03% | 0.30% | Base rate |
-| pendle | 15.11% | 14.88% | Base rate |
+| orca-dex | 3.03% | 0.31% | Base rate |
+| pendle | 15.11% | 14.89% | Base rate |
 | pendle | 16.23% | 16.24% | 3.17% incentives |
-| hydration-dex | 0.68% | 0.70% | Base rate |
+| hydration-dex | 0.68% | 0.69% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,7 +58,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many APYUSD pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $98.99M in total.
+13 live pools clear this page's $100K TVL floor, $99M in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.25% | $446.7K |
+| [turbos →](https://www.defi.garden/?pool=984a4230-6120-48af-ac22-1de8e2e5768e&src=seo_token) | Sui | 0.25% | $443.8K |
 | [raydium-amm →](https://www.defi.garden/?pool=2bfc88be-6f91-49d6-8f75-9a2debcc16d3&src=seo_token) | Solana | 0.73% | $155.2K |
 
 <!-- rate-stability:insufficient -->
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.73%예�
 
 ### TATO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $601.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $599K예요.
 
 ### 이 수익률은 안전한가요?
 

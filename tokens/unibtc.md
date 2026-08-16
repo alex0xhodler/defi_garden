@@ -5,7 +5,7 @@ The highest honest UNIBTC yield right now is 1.47% on symbiotic (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [symbiotic →](https://www.defi.garden/?pool=dfe5b8a1-9d7d-5477-8312-1fdd1de8f136&src=seo_token) | Ethereum | 0.16% | $65.56M |
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 1.09% | $16.79M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 1.09% | $16.68M |
 | [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 1.47% | $2.5M |
 
 <!-- rate-stability:insufficient -->
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many UNIBTC pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $89.98M in total.
+7 live pools clear this page's $100K TVL floor, $89.86M in total.
 
 ### Are these rates safe?
 

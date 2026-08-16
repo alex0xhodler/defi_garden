@@ -5,16 +5,16 @@ The highest honest KYSOL yield right now is 5.30% on kyros (Solana), among 2 poo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.30% | $7.76M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=89078c25-46af-4855-a513-db4b5d91ed01&src=seo_token) | Solana | 0.10% | $303.7K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=89078c25-46af-4855-a513-db4b5d91ed01&src=seo_token) | Solana | 0.10% | $303.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KYSOL's lower-variability candidates are kamino-liquidity (Solana), 0.10% APY, $303.7K TVL, https://www.defi.garden/?pool=89078c25-46af-4855-a513-db4b5d91ed01&src=seo_token; kyros (Solana), 5.30% APY, $7.76M TVL, https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KYSOL's lower-variability candidates are kamino-liquidity (Solana), 0.10% APY, $303.9K TVL, https://www.defi.garden/?pool=89078c25-46af-4855-a513-db4b5d91ed01&src=seo_token; kyros (Solana), 5.30% APY, $7.76M TVL, https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-liquidity →](https://www.defi.garden/?pool=89078c25-46af-4855-a513-db4b5d91ed01&src=seo_token) | Solana | 0.10% | $303.7K |
+| 1 | [kamino-liquidity →](https://www.defi.garden/?pool=89078c25-46af-4855-a513-db4b5d91ed01&src=seo_token) | Solana | 0.10% | $303.9K |
 | 2 | [kyros →](https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token) | Solana | 5.30% | $7.76M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | kyros | 5.30% | 5.29% | Base rate |
-| kamino-liquidity | 0.10% | 0.02% | Base rate |
+| kamino-liquidity | 0.10% | 0.03% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KYSOL pools have the most stable APY history?
 
-Based on APY history only, KYSOL's lower-variability candidates are kamino-liquidity (Solana), 0.10% APY, $303.7K TVL, https://www.defi.garden/?pool=89078c25-46af-4855-a513-db4b5d91ed01&src=seo_token; kyros (Solana), 5.30% APY, $7.76M TVL, https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KYSOL's lower-variability candidates are kamino-liquidity (Solana), 0.10% APY, $303.9K TVL, https://www.defi.garden/?pool=89078c25-46af-4855-a513-db4b5d91ed01&src=seo_token; kyros (Solana), 5.30% APY, $7.76M TVL, https://www.defi.garden/?pool=28d991e9-dcd9-4fcd-a29e-0fa98a296c5e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

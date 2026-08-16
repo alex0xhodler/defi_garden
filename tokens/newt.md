@@ -4,7 +4,7 @@ The highest honest NEWT yield right now is 8.24% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=59cb33bd-8864-4d32-860b-0895c70cbda7&src=seo_token) | Ethereum | 8.24% | $433.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=59cb33bd-8864-4d32-860b-0895c70cbda7&src=seo_token) | Ethereum | 8.24% | $433.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NEWT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $433.2K in total.
+1 live pool clear this page's $100K TVL floor, $433.3K in total.
 
 ### Are these rates safe?
 

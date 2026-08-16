@@ -1,10 +1,10 @@
 # FREECODE 디파이 수익률
 
-현재 FREECODE의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 12.20%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 FREECODE의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 12.21%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=047746a3-bc7c-4f44-a5b1-043d1787a1fb&src=seo_token) | Base | 12.20% | $131.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=047746a3-bc7c-4f44-a5b1-043d1787a1fb&src=seo_token) | Base | 12.21% | $131.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 FREECODE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 12.20%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 12.21%예요.
 
 ### FREECODE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

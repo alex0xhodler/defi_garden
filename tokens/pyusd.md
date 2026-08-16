@@ -42,14 +42,14 @@ PYUSD shows up in 8 pools here, with rates from 0.14% to 6.36% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sentora | 6.36% | 6.69% | 42.65% incentives |
+| sentora | 6.36% | 6.69% | 42.64% incentives |
 | sparklend | 0.30% | 0.44% | Base rate |
 | curve-dex | 5.34% | 5.42% | 99.44% incentives |
 | orca-dex | 0.19% | 0.19% | Base rate |
 | kamino-liquidity | 0.14% | 0.15% | Base rate |
 | kamino-lend | 2.78% | 2.43% | Base rate |
 | orca-dex | 2.14% | 0.63% | Base rate |
-| euler-v2 | 4.11% | 5.52% | 60.82% incentives |
+| euler-v2 | 4.11% | 5.52% | 60.83% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -61,7 +61,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PYUSD pools clear the TVL floor?
 
-24 live pools clear this page's $100K TVL floor, $347.57M in total.
+24 live pools clear this page's $100K TVL floor, $347.56M in total.
 
 ### Are these rates safe?
 

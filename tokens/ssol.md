@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $500.6K in total.
+3 live pools clear this page's $100K TVL floor, $500.7K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest USD0A yield right now is 2.95% on usual-usd0 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=59114e98-d254-41cf-b170-1ae93e8dfeb9&src=seo_token) | Ethereum | 2.95% | $583.4K |
+| [usual-usd0 →](https://www.defi.garden/?pool=59114e98-d254-41cf-b170-1ae93e8dfeb9&src=seo_token) | Ethereum | 2.95% | $583.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USD0A pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $583.4K in total.
+1 live pool clear this page's $100K TVL floor, $583.5K in total.
 
 ### Are these rates safe?
 
