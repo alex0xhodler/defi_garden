@@ -888,6 +888,8 @@ async function generateSitemapSuite(poolsOverride) {
 function generateRobotsTxt() {
   return `# robots.txt for DeFi Garden - AI-ready Yield Discovery
 # Updated May 2026 for Agentic Search Compliance
+# AI content signaling
+Content-signal: search=yes, ai-train=no, use=reference
 
 # Sitemap Index
 Sitemap: ${SITE_URL}sitemap.xml
@@ -910,6 +912,21 @@ User-agent: ChatGPT-User
 Allow: /
 Allow: /llms.txt
 
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: Claude-Web
+Allow: /
+Allow: /llms.txt
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: Google-InspectionTool
 Allow: /
 
@@ -919,17 +936,20 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-User-agent: OAI-SearchBot
+User-agent: Google-Extended
 Allow: /
 
-User-agent: PerplexityBot
+User-agent: Applebot-Extended
 Allow: /
 
-User-agent: Claude-Web
+User-agent: Amazonbot
 Allow: /
 
 # Block spam bots
 User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
 Disallow: /
 
 User-agent: MJ12bot
