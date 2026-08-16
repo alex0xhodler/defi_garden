@@ -7,8 +7,8 @@ The highest honest SRUSDAT yield right now is 13.28% on pendle (Monad), among 5 
 | [strata-markets →](https://www.defi.garden/?pool=d0f93146-6936-4fac-841e-68178b5a59b2&src=seo_token) | Ethereum | 8.11% | $4.26M |
 | [pendle →](https://www.defi.garden/?pool=96d93097-1e9e-4b78-ac1d-5924f04e1e56&src=seo_token) | Ethereum | 9.73% | $417.3K |
 | [pendle →](https://www.defi.garden/?pool=23debab1-4c7c-4498-8964-269bca4fdb3a&src=seo_token) | Ethereum | 10.09% | $417.3K |
-| [pendle →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326&src=seo_token) | Monad | 11.69% | $111.7K |
 | [pendle →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 13.28% | $111.7K |
+| [pendle →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326&src=seo_token) | Monad | 11.69% | $111.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -27,17 +27,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SRUSDAT shows up in 5 pools here, with rates from 8.11% to 13.28% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 10.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 10.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | strata-markets | 8.11% | 7.91% | Base rate |
-| pendle | 9.73% | 10.29% | Base rate |
-| pendle | 10.09% | 10.70% | Base rate |
-| pendle | 11.69% | 11.45% | Base rate |
-| pendle | 13.28% | 12.78% | 14.40% incentives |
+| pendle | 9.73% | 10.27% | Base rate |
+| pendle | 10.09% | 10.68% | Base rate |
+| pendle | 13.28% | 12.80% | 14.37% incentives |
+| pendle | 11.69% | 11.47% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

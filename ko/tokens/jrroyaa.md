@@ -1,10 +1,10 @@
 # JRROYAA 디파이 수익률
 
-현재 JRROYAA의 가장 높은 정직한 수익률은 Ethereum의 royco-v2에서 17.54%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JRROYAA의 가장 높은 정직한 수익률은 Ethereum의 royco-v2에서 17.38%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 17.54% | $158.4K |
+| [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 17.38% | $158.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 JRROYAA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 17.54%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 17.38%예요.
 
 ### JRROYAA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

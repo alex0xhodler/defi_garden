@@ -1,10 +1,10 @@
 # JRNUSD DeFi Yields
 
-The highest honest JRNUSD yield right now is 1.05% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRNUSD yield right now is 0.97% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=947928b7-c446-49d7-a378-392df37660f7&src=seo_token) | Ethereum | 1.05% | $286.6K |
+| [strata-markets →](https://www.defi.garden/?pool=947928b7-c446-49d7-a378-392df37660f7&src=seo_token) | Ethereum | 0.97% | $286.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRNUSD yield today?
 
-1.05% APY on strata-markets (Ethereum), based on live DefiLlama data.
+0.97% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many JRNUSD pools clear the TVL floor?
 

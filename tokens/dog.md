@@ -6,18 +6,18 @@ The highest honest DOG yield right now is 0.21% on uniswap-v3 (Base), among 5 po
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token) | Ethereum | 0.01% | $1.18M |
 | [raydium-amm →](https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token) | Solana | 0.17% | $528.8K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token) | Base | 0.21% | $216.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token) | Base | 0.21% | $216.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.17% APY, $528.8K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.18M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token; uniswap-v3 (Base), 0.21% APY, $216.4K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.17% APY, $528.8K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.18M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token; uniswap-v3 (Base), 0.21% APY, $216.5K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token) | Solana | 0.17% | $528.8K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token) | Ethereum | 0.01% | $1.18M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token) | Base | 0.21% | $216.4K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token) | Base | 0.21% | $216.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -35,7 +35,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | uniswap-v3 | 0.01% | 0.05% | Base rate |
 | raydium-amm | 0.17% | 0.52% | Base rate |
-| uniswap-v3 | 0.21% | 0.03% | Base rate |
+| uniswap-v3 | 0.21% | 0.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DOG pools have the most stable APY history?
 
-Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.17% APY, $528.8K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.18M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token; uniswap-v3 (Base), 0.21% APY, $216.4K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DOG's lower-variability candidates are raydium-amm (Solana), 0.17% APY, $528.8K TVL, https://www.defi.garden/?pool=5002328b-b428-446c-ac12-9846c560219f&src=seo_token; uniswap-v3 (Ethereum), 0.01% APY, $1.18M TVL, https://www.defi.garden/?pool=c0288de1-2d00-457c-ab70-56e3a6295dcc&src=seo_token; uniswap-v3 (Base), 0.21% APY, $216.5K TVL, https://www.defi.garden/?pool=6430a6d8-5208-48fa-870e-2bbd81f04592&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

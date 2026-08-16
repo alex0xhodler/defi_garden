@@ -24,8 +24,8 @@ SATUSDC shows up in 2 pools here, with rates from 5.54% to 5.82% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.82% | 6.97% | 30.27% incentives |
-| morpho-blue | 5.54% | 5.78% | Base rate |
+| morpho-blue | 5.82% | 6.96% | 30.28% incentives |
+| morpho-blue | 5.54% | 5.77% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

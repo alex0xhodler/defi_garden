@@ -4,7 +4,7 @@ The highest honest DORK yield right now is 0.01% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5794660c-8c61-4de3-925c-eb2e5ebf92b2&src=seo_token) | Ethereum | 0.01% | $106.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5794660c-8c61-4de3-925c-eb2e5ebf92b2&src=seo_token) | Ethereum | 0.01% | $106.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DORK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.6K in total.
+1 live pool clear this page's $100K TVL floor, $106.7K in total.
 
 ### Are these rates safe?
 

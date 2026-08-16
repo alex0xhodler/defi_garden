@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.11% | $7.3M |
-| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 4.71% | $7.3M |
+| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 4.79% | $7.3M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=b9ee6d74-61a0-5d20-888f-99839ee40a83&src=seo_token) | Ethereum | 0.03% | $4.65M |
 | [uniswap-v4 →](https://www.defi.garden/?pool=640a9171-635a-4acd-a614-b4baca312769&src=seo_token) | Ethereum | 0.02% | $3.16M |
 | [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.04% | $163.8K |
@@ -26,7 +26,7 @@ APY 이력만 기준으로 비교한 SIERRA의 변동성 낮은 후보는 Ethere
 
 SIERRA 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.02%부터 8.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.09%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.08%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 5개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -34,11 +34,11 @@ SIERRA 풀은 여기 5개가 있고, 2개 체인에서 APY가 0.02%부터 8.11%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 8.11% | 8.63% | 기본 금리 |
-| pendle | 4.71% | 7.75% | 인센티브 9.12% |
-| uniswap-v4 | 0.03% | 0.43% | 기본 금리 |
-| uniswap-v4 | 0.02% | 0.64% | 기본 금리 |
-| joe-v2.2 | 0.04% | 1.09% | 기본 금리 |
+| pendle | 8.11% | 8.60% | 기본 금리 |
+| pendle | 4.79% | 7.60% | 인센티브 8.93% |
+| uniswap-v4 | 0.03% | 0.41% | 기본 금리 |
+| uniswap-v4 | 0.02% | 0.63% | 기본 금리 |
+| joe-v2.2 | 0.04% | 1.08% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

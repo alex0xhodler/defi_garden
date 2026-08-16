@@ -1,10 +1,10 @@
 # CRVALUSD DeFi Yields
 
-The highest honest CRVALUSD yield right now is 0.12% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRVALUSD yield right now is 0.15% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=a58c513c-8430-4525-a53a-14ccbe8fa507&src=seo_token) | Ethereum | 0.12% | $129.9K |
+| [yearn-finance →](https://www.defi.garden/?pool=a58c513c-8430-4525-a53a-14ccbe8fa507&src=seo_token) | Ethereum | 0.15% | $129.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRVALUSD yield today?
 
-0.12% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+0.15% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CRVALUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.9K in total.
+1 live pool clear this page's $100K TVL floor, $129.8K in total.
 
 ### Are these rates safe?
 

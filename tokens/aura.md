@@ -5,7 +5,7 @@ The highest honest AURA yield right now is 0.03% on raydium-amm (Solana), among 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=d604a83a-d69a-5564-abf2-f82caec760ee&src=seo_token) | Solana | 0.03% | $4.57M |
-| [raydium-amm →](https://www.defi.garden/?pool=c2f18cd1-e4e6-4ecd-aec5-e078505c69e7&src=seo_token) | Solana | 1.26% | $1.24M |
+| [raydium-amm →](https://www.defi.garden/?pool=c2f18cd1-e4e6-4ecd-aec5-e078505c69e7&src=seo_token) | Solana | 1.23% | $1.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AURA shows up in 2 pools here, with rates from 0.03% to 1.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AURA shows up in 2 pools here, with rates from 0.03% to 1.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.15% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.03% | 0.04% | Base rate |
-| raydium-amm | 1.26% | 8.27% | Base rate |
+| raydium-amm | 1.23% | 8.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AURA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.81M in total.
+2 live pools clear this page's $100K TVL floor, $5.82M in total.
 
 ### Are these rates safe?
 

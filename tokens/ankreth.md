@@ -4,17 +4,17 @@ The highest honest ANKRETH yield right now is 2.60% on ankr (Ethereum), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.60% | $16.08M |
+| [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.60% | $16.07M |
 | [curve-dex →](https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token) | Ethereum | 2.06% | $108.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ANKRETH's lower-variability candidates are ankr (Ethereum), 2.60% APY, $16.08M TVL, https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token; curve-dex (Ethereum), 2.06% APY, $108.1K TVL, https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANKRETH's lower-variability candidates are ankr (Ethereum), 2.60% APY, $16.07M TVL, https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token; curve-dex (Ethereum), 2.06% APY, $108.1K TVL, https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.60% | $16.08M |
+| 1 | [ankr →](https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token) | Ethereum | 2.60% | $16.07M |
 | 2 | [curve-dex →](https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token) | Ethereum | 2.06% | $108.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ANKRETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $16.19M in total.
+2 live pools clear this page's $100K TVL floor, $16.17M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ANKRETH pools have the most stable APY history?
 
-Based on APY history only, ANKRETH's lower-variability candidates are ankr (Ethereum), 2.60% APY, $16.08M TVL, https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token; curve-dex (Ethereum), 2.06% APY, $108.1K TVL, https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANKRETH's lower-variability candidates are ankr (Ethereum), 2.60% APY, $16.07M TVL, https://www.defi.garden/?pool=e201dbed-63fa-48e2-bfa2-f56e730167d2&src=seo_token; curve-dex (Ethereum), 2.06% APY, $108.1K TVL, https://www.defi.garden/?pool=83fcc624-ff58-4c3a-9b10-b8cc9d0da285&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

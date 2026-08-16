@@ -4,7 +4,7 @@ The highest honest INTMKSRROYUSDC yield right now is 2.63% on makina (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=9bdf55a5-348a-5e51-bbc3-6daecd6165eb&src=seo_token) | Ethereum | 2.63% | $11.01M |
+| [makina →](https://www.defi.garden/?pool=9bdf55a5-348a-5e51-bbc3-6daecd6165eb&src=seo_token) | Ethereum | 2.63% | $11.02M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many INTMKSRROYUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $11.01M in total.
+1 live pool clear this page's $100K TVL floor, $11.02M in total.
 
 ### Are these rates safe?
 

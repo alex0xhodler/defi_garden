@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=e5244fed-5ffd-49bb-a14f-4009e25ccb2b&src=seo_token) | Sui | 2.52% | $121.1K |
+| [navi-lending →](https://www.defi.garden/?pool=e5244fed-5ffd-49bb-a14f-4009e25ccb2b&src=seo_token) | Sui | 2.52% | $122.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 2.52%예요.
 
 ### IKA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $121.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $122.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,8 +36,8 @@ DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 2.52%예요.
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [SUI](https://www.defi.garden/ko/tokens/sui)
 - [BUCK](https://www.defi.garden/ko/tokens/buck)
+- [SUI](https://www.defi.garden/ko/tokens/sui)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
 
 ## 이용 가능한 체인

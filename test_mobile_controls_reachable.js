@@ -485,13 +485,12 @@ async function main() {
     });
     await chainPage.close();
 
-    // --- (8): the analytics HOMEPAGE (?app=1, .app:not(.has-results), no
-    // header) must NOT be regressed -- the guard on fix (2)'s .has-results
-    // scoping. Only the standalone pair exists in the DOM here. ---
+    // --- (8): the analytics homepage uses the same shared header and must
+    // keep its one in-flow control pair reachable at phone width. ---
     const homePage = await browser.newPage({ viewport: { width: 360, height: 780 } });
     const homeErrors = attachErrorCollector(homePage);
     await routeFixtures(homePage);
-    await test('(8) 360px ?app=1 (analytics homepage): standalone theme-toggle and language-toggle still visible and self-hit-testing', async () => {
+    await test('(8) 360px ?app=1 (analytics homepage): shared-header controls visible and self-hit-testing', async () => {
       await homePage.goto(homepageUrl, { waitUntil: 'load', timeout: 20000 });
       await homePage.waitForSelector('#root .search-input', { timeout: 15000 });
       await waitForCss(homePage);
@@ -511,7 +510,7 @@ async function main() {
     const homeWidePage = await browser.newPage({ viewport: { width: 1280, height: 780 } });
     const homeWideErrors = attachErrorCollector(homeWidePage);
     await routeFixtures(homeWidePage);
-    await test('(8b) 1280px ?app=1 (analytics homepage): standalone controls fully on-canvas, content fits their boxes, self-hit-testing', async () => {
+    await test('(8b) 1280px ?app=1 (analytics homepage): shared-header controls on-canvas and self-hit-testing', async () => {
       await homeWidePage.goto(homepageUrl, { waitUntil: 'load', timeout: 20000 });
       await homeWidePage.waitForSelector('#root .search-input', { timeout: 15000 });
       await waitForCss(homeWidePage);
@@ -522,11 +521,9 @@ async function main() {
     });
     await homeWidePage.close();
 
-    // --- (9) RED PROOF, own isolated page, 768x780 -- the exact width
-    // spec 222's evidence measured the header's and standalone's
-    // .language-toggle occupying the IDENTICAL rect, so undoing the fix
-    // here reproduces a deterministic, exact overlap rather than a
-    // width-dependent partial one. ---
+    // --- (9) RED PROOF, own isolated page, 768x780. Inject the retired
+    // duplicate shape and restore fixed positioning so the reachability
+    // assertion deterministically detects overlapping controls. ---
     const redPage = await browser.newPage({ viewport: { width: 768, height: 780 } });
     await routeFixtures(redPage);
     await test('(9) RED PROOF: with the shipped fix mutated away in-page, criteria (1)+(2) go red naming the covering element', async () => {
@@ -538,25 +535,38 @@ async function main() {
       // mutation, not by test flakiness or a wrong selector.
       await assertControlsReachable(redPage, '768x780 red-proof PRE-mutation (must be green)');
 
-      // Restore the pre-fix computed state, !important so it wins
-      // regardless of specificity/source order:
-      //   - re-let the header's own buttons pick up the floating-pair
-      //     rules (position: fixed, IDENTICAL top/right to the standalone
-      //     pair's own always-on desktop-tier rule) -- undoes fix (1);
-      //   - re-show the standalone pair on a results page -- undoes fix (2);
-      //   - re-widen the search container/input's minimum size so the
-      //     header row can no longer shrink -- undoes fix (3).
+      // The duplicate elements no longer exist in production. Inject their
+      // retired direct-child shape after the green precondition solely to
+      // prove that duplicate-control and occlusion detection can go red.
+      await redPage.evaluate(() => {
+        const app = document.querySelector('.app');
+        const themeBtn = document.createElement('button');
+        themeBtn.className = 'theme-toggle';
+        themeBtn.setAttribute('data-theme', 'light');
+        themeBtn.setAttribute('aria-label', 'Switch to dark mode');
+        themeBtn.innerHTML = '<div class="theme-toggle-icon">☾</div>';
+        const langBtn = document.createElement('button');
+        langBtn.className = 'language-toggle';
+        langBtn.setAttribute('aria-label', 'Switch to Korean');
+        langBtn.textContent = 'EN';
+        app.appendChild(themeBtn);
+        app.appendChild(langBtn);
+      });
+
+      // Restore the former fixed header geometry and wide search minimum.
+      // The injected duplicate remains visible, so criteria (1)+(2) must
+      // detect either the duplicate population or its covering geometry.
       await redPage.addStyleTag({ content: `
-        .app-header-controls .theme-toggle {
+        .app > .theme-toggle {
           position: fixed !important; top: var(--space-20) !important;
-          right: var(--space-20) !important; z-index: 1000 !important; margin: 0 !important;
+          right: var(--space-20) !important; z-index: 1000 !important;
+          display: flex !important; width: 40px !important; height: 40px !important;
         }
-        .app-header-controls .language-toggle {
+        .app > .language-toggle {
           position: fixed !important; top: var(--space-20) !important;
-          right: calc(var(--space-20) + 200px) !important; z-index: 1000 !important; margin: 0 !important;
+          right: calc(var(--space-20) + 60px) !important; z-index: 1000 !important;
+          display: flex !important; width: 40px !important; height: 40px !important;
         }
-        .app.has-results > .theme-toggle { display: flex !important; }
-        .app.has-results > .language-toggle { display: flex !important; }
         .app-search-container { min-width: 170px !important; }
         .app-search-input { min-width: 170px !important; }
       `});

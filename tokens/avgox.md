@@ -1,10 +1,10 @@
 # AVGOX DeFi Yields
 
-The highest honest AVGOX yield right now is 3.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVGOX yield right now is 2.28% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5877c8cd-f400-4dec-a998-2b54a6676c5c&src=seo_token) | Solana | 3.10% | $124.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=5877c8cd-f400-4dec-a998-2b54a6676c5c&src=seo_token) | Solana | 2.28% | $124.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AVGOX yield today?
 
-3.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.28% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AVGOX pools clear the TVL floor?
 

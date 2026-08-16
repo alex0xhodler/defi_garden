@@ -893,6 +893,14 @@ select.form-control {
   --ui-control-h:        40px;   /* the default for every control */
   --ui-control-h-lg:     48px;   /* hero CTAs / hero inputs only */
   --ui-header-h:         56px;   /* per header ROW; <768px uses the override below */
+  /* Spec 236 phase 1: the ONE page-shell width, consumed by every analytics
+     surface's outer container (`.app-header-content`, `.app-nav-row`,
+     `.app.has-results .container`, `.app:not(.has-results) .container`, and
+     the pool-detail view's `.container`) so they can never drift apart
+     again. NOT `.pool-detail-container`'s 880px — that is the certificate's
+     reading MEASURE, a typographic choice nested inside this shell, not a
+     second shell width (see 236-notes.md). */
+  --content-max-width:   1200px;
 
   /* DEPRECATED — 225: kept only so generated static pages (tokens/, chains/) inherit the flat system; never use in new rules. */
   --neuro-bg:            var(--ui-bg);
@@ -1462,15 +1470,32 @@ body {
   align-items: center;
 }
 
+/* Spec 236 phase 1: the no-results/search state (and the dead-pool state,
+   which renders from this same branch) now render the SAME fixed
+   `.app-header-sticky` band the results/pool-detail states do, one row
+   only (no nav-row here — see renderHeaderRow(false) in app.js). Without
+   this, the fixed band would sit on top of the flex-centered hero content
+   underneath it. `.app.pool-detail-view` gets its own identical clearance
+   already (pool-detail-styles.css) — excluded here so the two rules never
+   fight; same one-row height either way, `--ui-header-h` is the shared
+   source. */
+.app:not(.has-results):not(.pool-detail-view) {
+  padding-top: calc(var(--ui-header-h) + 1px);
+}
+
 /* Results state - top aligned like Google results */
 .app.has-results {
   display: block;
   padding-top: var(--space-32);
 }
 
-/* Container for homepage state */
+/* Container for homepage state. Spec 236 phase 1: this shell now resolves
+   the SAME --content-max-width token as the results/pool-detail shells
+   (was a lone 600px) — the hero's own inner blocks (.search-section /
+   .planner-entry) keep the 600px reading measure via their own max-width
+   below, so nothing visually stretches full-bleed at 1280px. */
 .app:not(.has-results) .container {
-  max-width: 600px;
+  max-width: var(--content-max-width);
   width: 100%;
   margin: 0 auto;
   padding: var(--space-16);
@@ -1482,7 +1507,7 @@ body {
 
 /* Container for results state */
 .app.has-results .container {
-  max-width: 1200px;
+  max-width: var(--content-max-width);
   width: 100%;
   margin: 0 auto;
   padding: var(--space-16) var(--space-16);
@@ -1518,7 +1543,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: var(--content-max-width);
   margin: 0 auto;
   padding: var(--space-8) var(--space-16) var(--space-12);
   gap: var(--space-16);
@@ -1530,7 +1555,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: var(--content-max-width);
   margin: 0 auto;
   padding: var(--space-12) var(--space-16);
   gap: var(--space-24);
@@ -2325,6 +2350,19 @@ body {
   margin-bottom: var(--space-16);
 }
 
+/* Spec 236 phase 1: `.app:not(.has-results) .container` widened from a
+   dedicated 600px to the shared --content-max-width (1200px) token, so
+   this hero block gets its own explicit reading-measure cap instead of
+   inheriting the wider shell — the anchor for the hero's own inner
+   blocks (`.search-container` already caps narrower at 580px, `.planner-
+   entry` at 460px; this is the outer belt-and-suspenders so nothing in
+   this column expands full-bleed at 1280px). */
+.app:not(.has-results) .search-section {
+  max-width: 600px;
+  width: 100%;
+  margin-inline: auto;
+}
+
 /* Adjust search section for results state */
 .app.has-results .search-section {
   margin-bottom: var(--space-24);
@@ -2697,7 +2735,7 @@ body {
   border: 1px solid var(--ui-border);
   border-radius: var(--ui-radius-lg);
   overflow: hidden;
-  max-width: 1200px;
+  max-width: var(--content-max-width);
   margin: 0 auto;
 }
 
@@ -2856,7 +2894,7 @@ body {
 .pools-list {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: var(--content-max-width);
   margin: 0 auto;
 }
 
@@ -3127,7 +3165,7 @@ body {
   .pools-grid {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: var(--space-12);
-    max-width: 1200px;
+    max-width: var(--content-max-width);
     margin: 0 auto;
   }
 }
@@ -3740,14 +3778,21 @@ html[data-app-mode="landing"] .seo-hub-links {
     padding-top: 140px;
   }
 
+  /* Spec 236 phase 1: the `max-width: 100%` these two rules used to carry
+     overrode the base rule's `max-width: var(--content-max-width)` that
+     236 tokenized above (`.app:not(.has-results) .container` /
+     `.app.has-results .container`) — below --content-max-width's 1200px
+     `100%` and the token resolve to the SAME visible width (the viewport
+     is already narrower than 1200px in this breakpoint), so removing the
+     override is visually inert; it now simply falls through to the base
+     rule's `max-width: var(--content-max-width)` above, so the token is
+     the only place either shell's width is decided at every breakpoint. */
   .app:not(.has-results) .container {
     padding: var(--space-16) var(--space-16);
-    max-width: 100%;
   }
 
   .app.has-results .container {
     padding: var(--space-16) var(--space-16);
-    max-width: 100%;
   }
 
   /* Mobile Search Container - Fix Width Overflow */

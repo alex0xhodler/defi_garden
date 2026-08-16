@@ -1,10 +1,10 @@
 # SDFXN 디파이 수익률
 
-현재 SDFXN의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 27.94%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SDFXN의 가장 높은 정직한 수익률은 Ethereum의 stake-dao에서 27.93%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stake-dao →](https://www.defi.garden/?pool=da360310-1187-4b7d-ab8a-0411f63d2a8d&src=seo_token) | Ethereum | 27.94% | $500.4K |
+| [stake-dao →](https://www.defi.garden/?pool=da360310-1187-4b7d-ab8a-0411f63d2a8d&src=seo_token) | Ethereum | 27.93% | $500.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SDFXN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 27.94%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 stake-dao에서 APY 27.93%예요.
 
 ### SDFXN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
