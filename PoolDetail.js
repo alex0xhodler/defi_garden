@@ -100,12 +100,84 @@ function serializeWaitlistPayload(opts) {
   };
 }
 
+function renderEmvChip() {
+  return React.createElement('svg', {
+    className: 'visa-gold-chip visa-gold-chip-svg',
+    viewBox: '0 0 50 38',
+    width: 44,
+    height: 34,
+    'aria-hidden': 'true',
+    role: 'img'
+  },
+    React.createElement('defs', null,
+      React.createElement('linearGradient', { id: 'emv-gold-grad', x1: '0%', y1: '0%', x2: '100%', y2: '100%' },
+        React.createElement('stop', { offset: '0%', stopColor: '#fae392' }),
+        React.createElement('stop', { offset: '40%', stopColor: '#d8b040' }),
+        React.createElement('stop', { offset: '70%', stopColor: '#b88c1c' }),
+        React.createElement('stop', { offset: '100%', stopColor: '#8a650c' })
+      )
+    ),
+    React.createElement('rect', { x: 0.5, y: 0.5, width: 49, height: 37, rx: 4, fill: 'url(#emv-gold-grad)', stroke: '#634803', strokeWidth: 1 }),
+    React.createElement('path', { d: 'M15 1 L15 37 M35 1 L35 37 M1 19 L49 19 M15 11 L35 11 M15 27 L35 27 M15 19 C20 15, 30 15, 35 19 C30 23, 20 23, 15 19 Z', fill: 'none', stroke: '#523c04', strokeWidth: 0.8, opacity: 0.85 })
+  );
+}
+
+function renderNfcIcon() {
+  return React.createElement('svg', {
+    className: 'visa-nfc-icon',
+    viewBox: '0 0 24 24',
+    width: 18,
+    height: 18,
+    fill: 'none',
+    stroke: 'rgba(255,255,255,0.75)',
+    strokeWidth: 1.8,
+    strokeLinecap: 'round',
+    'aria-hidden': 'true'
+  },
+    React.createElement('path', { d: 'M8.5 16.5a5 5 0 0 1 0-9' }),
+    React.createElement('path', { d: 'M12 19a8.5 8.5 0 0 1 0-14' }),
+    React.createElement('path', { d: 'M15.5 21.5a12 12 0 0 1 0-19' }),
+    React.createElement('path', { d: 'M5 14a2 2 0 0 1 0-4' })
+  );
+}
+
+function renderLockIcon() {
+  return React.createElement('svg', {
+    className: 'card-lock-icon',
+    viewBox: '0 0 16 16',
+    width: 11,
+    height: 11,
+    fill: 'currentColor',
+    'aria-hidden': 'true'
+  },
+    React.createElement('path', { d: 'M8 1a3.5 3.5 0 0 0-3.5 3.5V6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-.5V4.5A3.5 3.5 0 0 0 8 1zm2 5H6V4.5a2 2 0 1 1 4 0V6z' })
+  );
+}
+
+function renderMailIcon() {
+  return React.createElement('svg', {
+    className: 'input-mail-icon',
+    viewBox: '0 0 20 20',
+    width: 16,
+    height: 16,
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.5,
+    strokeLinecap: 'round',
+    strokeLinejoin: 'round',
+    'aria-hidden': 'true'
+  },
+    React.createElement('rect', { x: 2, y: 4, width: 16, height: 12, rx: 1 }),
+    React.createElement('path', { d: 'M2 6l8 5 8-5' })
+  );
+}
+
 function renderVisaSvg() {
   return React.createElement('svg', {
     className: 'visa-logo-svg',
     viewBox: '0 0 780 250',
-    width: 54,
-    height: 18,
+    width: 58,
+    height: 19,
     fill: '#ffffff',
     'aria-label': 'VISA',
     role: 'img'
@@ -425,28 +497,49 @@ function YieldCardWidget({
       // Left: Virtual Visa Card Mockup
       React.createElement('div', { className: 'virtual-visa-card-wrapper' },
         React.createElement('div', { className: 'virtual-visa-card' },
+          // Guilloche lathework pattern background
+          React.createElement('div', { className: 'visa-card-guilloche', 'aria-hidden': 'true' }),
+          
+          // Card top row: EMV Chip + NFC Wave (left) & Visa Logo (right)
           React.createElement('div', { className: 'visa-card-top-row' },
-            React.createElement('div', { className: 'visa-gold-chip', 'aria-hidden': 'true' },
-              React.createElement('span', { className: 'chip-circuit-line' })
+            React.createElement('div', { className: 'visa-card-chip-group' },
+              renderEmvChip(),
+              renderNfcIcon()
             ),
-            renderVisaSvg()
+            React.createElement('div', { className: 'visa-card-brand-group' },
+              renderVisaSvg(),
+              React.createElement('span', { className: 'visa-card-type-badge' }, 'DEBIT')
+            )
           ),
+
+          // Card center: Masked PAN & Dedicated Spend label
           React.createElement('div', { className: 'visa-card-center' },
-            React.createElement('div', { className: 'visa-card-label-sub' }, 'DEFI GARDEN • VIRTUAL ISSUING'),
+            React.createElement('div', { className: 'visa-card-pan' }, '4242  ••••  ••••  8842'),
+            React.createElement('div', { className: 'visa-card-label-sub' },
+              isKorean ? 'DEFI GARDEN • 가상 발급 전용' : 'DEFI GARDEN • VIRTUAL ISSUING'
+            ),
             React.createElement('div', { className: 'visa-card-funded-label' },
               isKorean
                 ? `${selectedSub.name} ${(_t('yieldCard.cardDedicatedSuffix') !== 'yieldCard.cardDedicatedSuffix' && _t('yieldCard.cardDedicatedSuffix')) || '결제 전용'}`
                 : `${selectedSub.name.toUpperCase()} ${(_t('yieldCard.cardFundedSuffix') !== 'yieldCard.cardFundedSuffix' && _t('yieldCard.cardFundedSuffix')) || 'FUNDED'}`
             )
           ),
+
+          // Card bottom row: Expiration, Network info & Spend cap badge
           React.createElement('div', { className: 'visa-card-bottom-row' },
-            React.createElement('div', { className: 'visa-card-network-info' },
-              `${(pool.chain || 'BASE').toUpperCase()} ${(pool.symbol || 'USDC').toUpperCase()} • ${Number(totalApy || 0).toFixed(1)}% ${(_t('yieldCard.liveApyFunded') !== 'yieldCard.liveApyFunded' && _t('yieldCard.liveApyFunded')) || 'YIELD FUNDED'}`
+            React.createElement('div', { className: 'visa-card-meta-left' },
+              React.createElement('span', { className: 'visa-card-expiry' }, 'VALID 08/31'),
+              React.createElement('span', { className: 'visa-card-network-info' },
+                `${(pool.chain || 'BASE').toUpperCase()} ${(pool.symbol || 'USDC').toUpperCase()} • ${Number(totalApy || 0).toFixed(1)}% ${_t('yieldCard.liveApyFunded') || 'YIELD FUNDED'}`
+              )
             ),
             React.createElement('div', { className: 'visa-card-cap-badge' },
-              isKorean && selectedSub.monthlyCostKrw
-                ? (_t('yieldCard.cardCapKrw', _formatNum(selectedSub.monthlyCostKrw)) || `월 한도: ₩${_formatNum(selectedSub.monthlyCostKrw)}`)
-                : (_t('yieldCard.cardCap', selectedSub.monthlyCostUsd.toFixed(2)) || `CAP: $${selectedSub.monthlyCostUsd.toFixed(2)}/MO`)
+              renderLockIcon(),
+              React.createElement('span', null,
+                isKorean && selectedSub.monthlyCostKrw
+                  ? (_t('yieldCard.cardCapKrw', _formatNum(selectedSub.monthlyCostKrw)) || `월 한도: ₩${_formatNum(selectedSub.monthlyCostKrw)}`)
+                  : (_t('yieldCard.cardCap', selectedSub.monthlyCostUsd.toFixed(2)) || `CAP: $${selectedSub.monthlyCostUsd.toFixed(2)}/MO`)
+              )
             )
           )
         )
@@ -455,32 +548,73 @@ function YieldCardWidget({
       // Right: Reservation Lead Capture / Receipt
       React.createElement('div', { className: 'yield-card-reservation-wrapper' },
         !isSubmitted ? React.createElement('div', { className: 'yield-card-reservation' },
+          // Live queue indicator
+          React.createElement('div', { className: 'reservation-queue-status' },
+            React.createElement('span', { className: 'queue-pulse-dot' }),
+            React.createElement('span', { className: 'queue-text' },
+              isKorean
+                ? `⚡ ${reservedSpot.toLocaleString('en-US')}명이 얼리 액세스 대기 중`
+                : `⚡ ${reservedSpot.toLocaleString('en-US')} developers & savers in launch queue`
+            )
+          ),
           React.createElement('h3', { className: 'reservation-title' }, _t('yieldCard.reserveTitle') || 'Reserve Virtual Card For This Pool'),
           React.createElement('p', { className: 'reservation-subtitle' }, _t('yieldCard.reserveSubtitle') || 'Free to join • Card spends yield, never principal • No wallet required'),
+          
+          // 3 Trust Pillars
+          React.createElement('div', { className: 'reservation-pillars' },
+            React.createElement('div', { className: 'pillar-item' },
+              React.createElement('span', { className: 'pillar-icon' }, '🛡️'),
+              React.createElement('span', { className: 'pillar-text' },
+                isKorean ? '원금 100% 보존' : '100% Principal Protected'
+              )
+            ),
+            React.createElement('div', { className: 'pillar-item' },
+              React.createElement('span', { className: 'pillar-icon' }, '🔒'),
+              React.createElement('span', { className: 'pillar-text' },
+                isKorean ? '구독처 전용 잠금' : 'Merchant-Locked Routing'
+              )
+            ),
+            React.createElement('div', { className: 'pillar-item' },
+              React.createElement('span', { className: 'pillar-icon' }, '💳'),
+              React.createElement('span', { className: 'pillar-text' },
+                isKorean ? 'Apple/Google Pay 지원' : 'Apple & Google Pay Ready'
+              )
+            )
+          ),
+
           React.createElement('form', { className: 'reservation-form', noValidate: true, onSubmit: handleSubmit },
             React.createElement('div', { className: 'reservation-input-group' },
-              React.createElement('input', {
-                type: 'email',
-                className: 'email-input',
-                placeholder: _t('yieldCard.emailPlaceholder') || 'Enter developer / user email...',
-                value: email,
-                onChange: (e) => setEmail(e.target.value),
-                required: true
-              }),
+              React.createElement('div', { className: 'input-with-icon' },
+                renderMailIcon(),
+                React.createElement('input', {
+                  type: 'email',
+                  className: 'email-input',
+                  placeholder: _t('yieldCard.emailPlaceholder') || 'Enter developer / user email...',
+                  value: email,
+                  onChange: (e) => setEmail(e.target.value),
+                  required: true
+                })
+              ),
               React.createElement('button', {
                 type: 'submit',
                 className: 'reserve-submit-btn'
               }, _t('yieldCard.submitBtn') || 'Issue My Card at Launch →')
             ),
             validationError && React.createElement('div', { className: 'validation-error' }, validationError)
+          ),
+          React.createElement('p', { className: 'reservation-micro-hint' },
+            isKorean
+              ? '지갑 연결이나 KYC 없이 100% 무료 등록 • 출시 즉시 이메일 안내'
+              : 'No wallet connection or KYC required to reserve • 100% free forever'
           )
         ) : React.createElement('div', { className: 'yield-card-receipt animate-on-mount' },
+          React.createElement('div', { className: 'receipt-icon-badge' }, '🌱'),
           React.createElement('div', { className: 'receipt-spot-badge' },
             _t('yieldCard.spotNumber', reservedSpot) || `Waitlist Spot #${reservedSpot}`
           ),
           React.createElement('h3', { className: 'receipt-title' }, _t('yieldCard.receiptTitle') || 'Waitlist Spot Reserved 🌱'),
-          React.createElement('p', { className: 'receipt-summary' },
-            `${pool.symbol || 'USDC'} Card • ${selectedSub.name} • ${isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/mo` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`}`
+          React.createElement('div', { className: 'receipt-card-preview-chip' },
+            `${pool.symbol || 'USDC'} Yield Card • ${selectedSub.name} • ${isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/mo` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`}`
           ),
           React.createElement('p', { className: 'receipt-note' },
             _t('yieldCard.receiptNote') || 'We will email you the moment merchant-locked virtual card issuing launches for this pool.'
