@@ -23,7 +23,8 @@ const CHROMIUM_EXECUTABLE = fs.existsSync('/opt/pw-browsers/chromium') ? '/opt/p
 
 const FIXTURE_POOLS = [
   { pool: 'usdc-base-aave', project: 'aave-v3', symbol: 'USDC', chain: 'Base', tvlUsd: 45_000_000, apyBase: 4.2, apyReward: 0 },
-  { pool: 'usdc-eth-morpho', project: 'morpho-blue', symbol: 'USDC', chain: 'Ethereum', tvlUsd: 55_000_000, apyBase: 5.9, apyReward: 0 }
+  { pool: 'usdc-eth-morpho', project: 'morpho-blue', symbol: 'USDC', chain: 'Ethereum', tvlUsd: 55_000_000, apyBase: 5.9, apyReward: 0 },
+  { pool: 'usde-eth-pendle', project: 'pendle', symbol: 'USDe', chain: 'Ethereum', tvlUsd: 65_000_000, apyBase: 8.5, apyReward: 0 }
 ];
 
 function startServer() {
@@ -118,6 +119,33 @@ async function main() {
     await page.waitForSelector('.pool-card', { timeout: 15000 });
     passed++;
     console.log('  ✓ landing search enters the existing analytics result route');
+
+    // Test direct tap on example chips: "USDC on Base"
+    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
+    await page.waitForSelector('#landing-root .landing-example-chip', { timeout: 10000 });
+    await page.locator('#landing-root .landing-example-chip', { hasText: 'USDC on Base' }).click();
+    await page.waitForURL((url) => url.searchParams.get('token') === 'USDC' && url.searchParams.get('chain') === 'Base', { waitUntil: 'commit', timeout: 10000 });
+    await page.waitForSelector('.pool-card', { timeout: 15000 });
+    passed++;
+    console.log('  ✓ tapping USDC on Base example chip navigates directly to search results');
+
+    // Test direct tap on example chips: "Pendle PTs"
+    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
+    await page.waitForSelector('#landing-root .landing-example-chip', { timeout: 10000 });
+    await page.locator('#landing-root .landing-example-chip', { hasText: 'Pendle PTs' }).click();
+    await page.waitForURL((url) => url.searchParams.get('protocols') === 'Pendle', { waitUntil: 'commit', timeout: 10000 });
+    await page.waitForSelector('.pool-card', { timeout: 15000 });
+    passed++;
+    console.log('  ✓ tapping Pendle PTs example chip navigates directly to search results');
+
+    // Test direct tap on example chips: "Morpho vaults"
+    await page.goto(`http://localhost:${PORT}/`, { waitUntil: 'load', timeout: 20000 });
+    await page.waitForSelector('#landing-root .landing-example-chip', { timeout: 10000 });
+    await page.locator('#landing-root .landing-example-chip', { hasText: 'Morpho vaults' }).click();
+    await page.waitForURL((url) => url.searchParams.get('protocols') === 'Morpho', { waitUntil: 'commit', timeout: 10000 });
+    await page.waitForSelector('.pool-card', { timeout: 15000 });
+    passed++;
+    console.log('  ✓ tapping Morpho vaults example chip navigates directly to search results');
 
     await page.goto(`http://localhost:${PORT}/plan.html`, { waitUntil: 'load', timeout: 20000 });
     await page.waitForSelector('#planner-root .gp-app', { timeout: 10000 });
