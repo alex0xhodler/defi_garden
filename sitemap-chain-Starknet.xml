@@ -10,4 +10,103 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WBTC&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=STRKBTC&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STRKBTC&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STRKBTC&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STRKBTC&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=STRK&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STRK&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STRK&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STRK&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETH&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XSTRK&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XSTRK&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XSTRK&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XSTRK&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WSTETH&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTETH&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTETH&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSTETH&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SOLVBTC&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOLVBTC&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TBTC&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TBTC&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TBTC&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TBTC&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XWBTC&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XWBTC&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XWBTC&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XWBTC&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XSTRKBTC&amp;chain=Starknet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XSTRKBTC&amp;chain=Starknet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XSTRKBTC&amp;chain=Starknet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XSTRKBTC&amp;chain=Starknet" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.57</priority>
+  </url>
 </urlset>

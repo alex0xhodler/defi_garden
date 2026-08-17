@@ -10,4 +10,40 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SAUCE&amp;chain=Hedera</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAUCE&amp;chain=Hedera" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAUCE&amp;chain=Hedera&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAUCE&amp;chain=Hedera" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HBAR&amp;chain=Hedera</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HBAR&amp;chain=Hedera" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HBAR&amp;chain=Hedera&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HBAR&amp;chain=Hedera" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=Hedera</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Hedera" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Hedera&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Hedera" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XSAUCE&amp;chain=Hedera</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XSAUCE&amp;chain=Hedera" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XSAUCE&amp;chain=Hedera&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XSAUCE&amp;chain=Hedera" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
 </urlset>

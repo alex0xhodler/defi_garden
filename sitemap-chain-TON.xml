@@ -10,4 +10,121 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TSTON&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TSTON&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TSTON&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TSTON&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GRAM&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GRAM&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GRAM&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GRAM&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=UTYA&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UTYA&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UTYA&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UTYA&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=STON&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STON&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STON&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STON&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=STORM&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STORM&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STORM&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STORM&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TSUSDE&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TSUSDE&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TSUSDE&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TSUSDE&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XAUT0&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAUT0&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAUT0&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XAUT0&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GEMSTON&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GEMSTON&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GEMSTON&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GEMSTON&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NOT&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NOT&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NOT&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NOT&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ANON&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ANON&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ANON&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ANON&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=JETTON&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=JETTON&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=JETTON&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=JETTON&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TONNEL&amp;chain=TON</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TONNEL&amp;chain=TON" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TONNEL&amp;chain=TON&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TONNEL&amp;chain=TON" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.54</priority>
+  </url>
 </urlset>

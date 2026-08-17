@@ -2,19 +2,19 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-LP-DEX.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Lending.xml</loc>
-    <lastmod>2026-07-14T06:51:12.134Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Staking.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-category-Yield-Farming.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Abstract.xml</loc>
@@ -30,11 +30,11 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Aptos.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Arbitrum.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Astar.xml</loc>
@@ -42,19 +42,19 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Avalanche.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-BSC.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Base.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Berachain.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Bifrost-Network.xml</loc>
@@ -66,7 +66,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Bitcoin.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Bob.xml</loc>
@@ -85,16 +85,12 @@
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.defi.garden/sitemap-chain-Carbon.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-  </sitemap>
-  <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Cardano.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Celo.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Chia.xml</loc>
@@ -114,11 +110,11 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Cronos.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Defichain.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Echelon-Initia.xml</loc>
@@ -126,11 +122,11 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Ethereum.xml</loc>
-    <lastmod>2026-07-14T07:30:50.043Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Etherlink.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Fantom.xml</loc>
@@ -142,7 +138,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Flare.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Flow.xml</loc>
@@ -150,7 +146,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Fraxtal.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Fuel-Ignition.xml</loc>
@@ -158,7 +154,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Gnosis.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Gravity.xml</loc>
@@ -166,23 +162,23 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Heco.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Hedera.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Hemi.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Hyperliquid-L1.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-ICP.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Igra.xml</loc>
@@ -190,7 +186,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Ink.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Kasplex.xml</loc>
@@ -198,7 +194,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Katana.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Kava.xml</loc>
@@ -210,7 +206,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Linea.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Manta.xml</loc>
@@ -218,7 +214,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Mantle.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-MegaETH.xml</loc>
@@ -230,11 +226,11 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Mezo.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Monad.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Moonbeam.xml</loc>
@@ -250,7 +246,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-MultiversX.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Neo.xml</loc>
@@ -258,7 +254,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Neutron.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Noble.xml</loc>
@@ -266,11 +262,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-OP-Mainnet.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>https://www.defi.garden/sitemap-chain-Obyte.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Opbnb.xml</loc>
@@ -278,7 +270,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Osmosis.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Pharos.xml</loc>
@@ -286,23 +278,27 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Plasma.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Plume-Mainnet.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Polkadot.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Polygon.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-RSK.xml</loc>
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-chain-Robinhood-Chain.xml</loc>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Rollux.xml</loc>
@@ -326,11 +322,11 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Solana.xml</loc>
-    <lastmod>2026-07-14T07:30:50.043Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Sonic.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Stable.xml</loc>
@@ -342,15 +338,19 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Starknet.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Stellar.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.defi.garden/sitemap-chain-Strato.xml</loc>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Sui.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-TAC.xml</loc>
@@ -358,7 +358,7 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-TON.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Taiko.xml</loc>
@@ -374,19 +374,19 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Tron.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Unichain.xml</loc>
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.defi.garden/sitemap-chain-Unit0.xml</loc>
+    <loc>https://www.defi.garden/sitemap-chain-Venom.xml</loc>
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.defi.garden/sitemap-chain-Venom.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <loc>https://www.defi.garden/sitemap-chain-Voi-Network.xml</loc>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-Waves.xml</loc>
@@ -410,19 +410,19 @@
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-ZIGChain.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-chain-ZKsync-Era.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-main.xml</loc>
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-tokens-all.xml</loc>
-    <lastmod>2026-07-14T09:32:43.763Z</lastmod>
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.defi.garden/sitemap-token-pages.xml</loc>

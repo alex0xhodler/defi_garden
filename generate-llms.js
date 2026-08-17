@@ -199,21 +199,26 @@ async function fetchYieldsSafe() {
  * Select high-yield opportunities from pool data
  */
 function pickHighYield(pools, options = {}) {
-  const { minTvlUsd = 10000, topN = 15 } = options;
+  const { minTvlUsd = 100000, topN = 15 } = options;
   
   if (!pools || pools.length === 0) {
     return { top: [], byChain: {} };
   }
 
-  // Filter pools with sufficient TVL and valid APY
+  // Filter pools with sufficient TVL (>= $100K), valid APY (0 < APY <= 1000), and recent activity
   const filtered = pools.filter(pool => {
     const tvl = Number(pool.tvlUsd) || 0;
-    const apy = Number(pool.apy) || 0;
-    return tvl >= minTvlUsd && apy > 0 && isFinite(apy);
+    const apy = Number((pool.apyBase || 0) + (pool.apyReward || 0)) || Number(pool.apy) || 0;
+    const isActive = pool.count == null || pool.count > 0;
+    return tvl >= minTvlUsd && apy > 0 && apy <= 1000 && isFinite(apy) && isActive;
   });
 
   // Sort by APY descending
-  filtered.sort((a, b) => Number(b.apy) - Number(a.apy));
+  filtered.sort((a, b) => {
+    const apyA = Number((a.apyBase || 0) + (a.apyReward || 0)) || Number(a.apy) || 0;
+    const apyB = Number((b.apyBase || 0) + (b.apyReward || 0)) || Number(b.apy) || 0;
+    return apyB - apyA;
+  });
   
   const top = filtered.slice(0, topN);
   
@@ -242,7 +247,7 @@ function analyzeYieldData(pools) {
     };
   }
 
-  // Aggregate data by chain, protocol, and token
+  // Aggregate data by chain, protocol, and token — gated to qualified pools (>= $100k TVL, 0 < APY <= 1000)
   const chainTvl = new Map();
   const protocolTvl = new Map();
   const tokenTvl = new Map();
@@ -250,7 +255,9 @@ function analyzeYieldData(pools) {
 
   pools.forEach(pool => {
     const tvl = Number(pool.tvlUsd) || 0;
-    if (tvl <= 0) return;
+    const apy = Number((pool.apyBase || 0) + (pool.apyReward || 0)) || Number(pool.apy) || 0;
+    const isActive = pool.count == null || pool.count > 0;
+    if (tvl < 100000 || apy <= 0 || apy > 1000 || !isActive) return;
 
     // Chain aggregation
     if (pool.chain) {

@@ -10,4 +10,103 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VVS&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VVS&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VVS&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VVS&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WCRO&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WCRO&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WCRO&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WCRO&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CDCETH&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CDCETH&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CDCETH&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CDCETH&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WETH&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WBTC&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CDCBTC&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CDCBTC&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CDCBTC&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CDCBTC&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LCRO&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LCRO&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LCRO&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LCRO&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AGENTFUN&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AGENTFUN&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AGENTFUN&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AGENTFUN&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TONIC&amp;chain=Cronos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TONIC&amp;chain=Cronos" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TONIC&amp;chain=Cronos&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TONIC&amp;chain=Cronos" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
 </urlset>

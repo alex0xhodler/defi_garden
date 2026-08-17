@@ -10,4 +10,85 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HONEY&amp;chain=Berachain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HONEY&amp;chain=Berachain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HONEY&amp;chain=Berachain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HONEY&amp;chain=Berachain" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KODIWBTC&amp;chain=Berachain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KODIWBTC&amp;chain=Berachain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KODIWBTC&amp;chain=Berachain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KODIWBTC&amp;chain=Berachain" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WETH&amp;chain=Berachain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=Berachain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=Berachain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=Berachain" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WBTC&amp;chain=Berachain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=Berachain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=Berachain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=Berachain" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OSBGT&amp;chain=Berachain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OSBGT&amp;chain=Berachain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OSBGT&amp;chain=Berachain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OSBGT&amp;chain=Berachain" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC.E&amp;chain=Berachain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC.E&amp;chain=Berachain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC.E&amp;chain=Berachain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC.E&amp;chain=Berachain" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WBERA&amp;chain=Berachain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBERA&amp;chain=Berachain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBERA&amp;chain=Berachain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBERA&amp;chain=Berachain" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KODIWETH&amp;chain=Berachain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KODIWETH&amp;chain=Berachain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KODIWETH&amp;chain=Berachain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KODIWETH&amp;chain=Berachain" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KDK&amp;chain=Berachain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KDK&amp;chain=Berachain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KDK&amp;chain=Berachain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KDK&amp;chain=Berachain" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
 </urlset>
