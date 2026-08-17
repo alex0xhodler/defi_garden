@@ -560,6 +560,38 @@ const Analytics = {
     });
   },
 
+  // Yield-Funded Virtual Card Widget Events (PRD Design 3)
+  trackYieldCardSliderChange(context = {}) {
+    this.track('yield_card_slider_change', {
+      pool_id: context.pool_id || (context.pool && context.pool.pool) || null,
+      chain: context.chain || (context.pool && context.pool.chain) || null,
+      token: context.token || (context.pool && context.pool.symbol) || null,
+      apy: context.apy != null ? context.apy : (context.pool ? (context.pool.apyBase || 0) + (context.pool.apyReward || 0) : null),
+      simulated_deposit: context.simulated_deposit != null ? context.simulated_deposit : context.depositAmount,
+      monthly_yield: context.monthly_yield != null ? context.monthly_yield : context.monthlyYield
+    });
+  },
+
+  trackYieldCardSubscriptionSelected(context = {}) {
+    this.track('yield_card_subscription_selected', {
+      pool_id: context.pool_id || (context.pool && context.pool.pool) || null,
+      goal_id: context.goal_id || context.goalId || null,
+      monthly_cost: context.monthly_cost != null ? context.monthly_cost : context.monthlyCost,
+      is_covered: context.is_covered != null ? !!context.is_covered : !!context.isCovered
+    });
+  },
+
+  trackYieldCardReserved(context = {}) {
+    this.track('yield_card_reserved', {
+      pool_id: context.pool_id || (context.pool && context.pool.pool) || null,
+      chain: context.chain || (context.pool && context.pool.chain) || null,
+      token: context.token || (context.pool && context.pool.symbol) || null,
+      goal_id: context.goal_id || context.selectedGoalId || null,
+      deposit_amount: context.deposit_amount != null ? context.deposit_amount : context.depositAmount,
+      email_provided: context.email_provided != null ? !!context.email_provided : true
+    });
+  },
+
   // Utility Functions
 
   classifySearchType(query) {
