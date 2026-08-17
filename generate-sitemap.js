@@ -9,7 +9,6 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
-const vm = require('vm');
 
 // Base URL for the site - updated to DeFi Garden (ensuring trailing slash)
 const SITE_URL = (process.env.SITE_URL || 'https://www.defi.garden').replace(/\/$/, '') + '/';
@@ -21,11 +20,8 @@ const YIELDS_API = 'https://yields.llama.fi/pools';
 const LANGUAGES = ['en', 'ko'];
 
 // Sitemap URL quality gate (013 — GSC fix, specs/013.md).
-// Mirrors the app's own default rendering threshold so a sitemap URL never
-// advertises more than the live page shows by default.
-// Must stay in sync with app.js: DEFAULT_MIN_TVL (app.js:730) and
-// APY_SANITY_LIMIT (app.js:729) — no shared import exists between the two.
-const SITEMAP_MIN_TVL = 100000; // = app.js DEFAULT_MIN_TVL
+// Gated to active pools with TVL >= $100K, 0 < APY <= 1000%, and recent activity.
+const SITEMAP_MIN_TVL = 100000; // $100K floor to clear thin/stale pools and soft 404s
 const APY_SANITY_LIMIT = 1000; // = app.js APY_SANITY_LIMIT
 const SITEMAP_MIN_QUALIFYING_POOLS = 2;
 
@@ -65,123 +61,26 @@ function cleanupStaleSitemaps(writtenFilenames, dir = process.cwd()) {
   return deleted;
 }
 
-// item 188: total APY a pool actually earns — apyBase + apyReward, matching
-// app.js:1869-1871/:1958-1960, NOT the raw `apy` field the live feed also
-// carries (those differ: measured apy>=5 counts 145 pools, the app shows
-// 137). Extracted so isAnomalousApy() and the new chain=All rung gate below
-// share one computation, never two copies.
 function poolTotalApy(pool) {
-  return (pool.apyBase || 0) + (pool.apyReward || 0);
+  const total = (pool.apyBase || 0) + (pool.apyReward || 0);
+  return total > 0 ? total : (pool.apy || 0);
 }
 
 function isAnomalousApy(pool) {
-  return poolTotalApy(pool) > APY_SANITY_LIMIT;
+  const total = poolTotalApy(pool);
+  return total <= 0 || total > APY_SANITY_LIMIT;
 }
 
-// item 188: minTvl is now a parameter (default unchanged: SITEMAP_MIN_TVL) so
-// the same qualifying-pool predicate serves both the existing token/chain/
-// category gates (all called with the implicit $10M default) and the new
-// chain=All rung gate below, which needs to evaluate at $1M/$10M/$100M
-// floors — never a second near-identical helper.
-function isQualifyingPool(pool, minTvl = SITEMAP_MIN_TVL) {
-  return (pool.tvlUsd || 0) >= minTvl && !isAnomalousApy(pool);
+function hasRecentActivity(pool) {
+  if (pool.count != null && pool.count <= 0) return false;
+  return true;
 }
 
-// item 188 (specs/188.md): counts pools qualifying for a `?chain=All&...`
-// sitemap rung under the app's own semantics — floor = explicit minTvl when
-// present else SITEMAP_MIN_TVL (mirrors app.js:927's "respect explicit
-// minTvl=0; fall back to DEFAULT_MIN_TVL only when the param is absent"),
-// minApy compared against apyBase+apyReward (not raw apy), plus the existing
-// anomaly rail via isQualifyingPool() — never a duplicated rail constant.
-function countQualifyingChainAll(pools, { minTvl = SITEMAP_MIN_TVL, minApy = 0 } = {}) {
-  let n = 0;
-  for (const p of pools) {
-    if (!isQualifyingPool(p, minTvl)) continue;
-    if (poolTotalApy(p) < minApy) continue;
-    n++;
-  }
-  return n;
+function isQualifyingPool(pool) {
+  const tvl = pool.tvlUsd || 0;
+  const apy = poolTotalApy(pool);
+  return tvl >= SITEMAP_MIN_TVL && apy > 0 && apy <= APY_SANITY_LIMIT && hasRecentActivity(pool);
 }
-
-// item 226 (specs/226.md, Google head-curation): this is the SAME
-// ≥2-railed-pools gate item 013 already applies to app-view (?token=/?chain=)
-// sitemap URLs — now applied to the static-page (/tokens/<slug>,
-// /chains/<slug>) sitemaps too, so no new quality idea is invented, one
-// number reused everywhere. Tied to SITEMAP_MIN_QUALIFYING_POOLS directly
-// (not a separately-typed "2") so the two gates can never drift apart.
-const HEAD_MIN_RAILED_POOLS = SITEMAP_MIN_QUALIFYING_POOLS;
-
-// Function declarations (not consts) so they're safely callable above their
-// source position via hoisting — isValidToken is defined further down this
-// file, beside extractValidCombinations, which these mirror.
-
-/**
- * Map<UPPERCASE token symbol, count of RAILED pools> — pools passing
- * isQualifyingPool (tvlUsd >= SITEMAP_MIN_TVL, not anomalous), split into
- * token symbols exactly like generateSitemapSuite's own per-token qualifying
- * loop. SINGLE SOURCE OF TRUTH (mirror rule): generateSitemapSuite calls this
- * directly for its own qualifyingTokenPoolCount map instead of keeping a
- * second inline copy of the same loop.
- */
-function railedTokenPoolCounts(pools) {
-  const counts = new Map();
-  (pools || []).forEach(p => {
-    if (!isQualifyingPool(p)) return;
-    const symbols = p.symbol?.split(/[-_\/\s]/).map(s => s.trim().toUpperCase()) || [];
-    symbols.forEach(s => {
-      if (!isValidToken(s)) return;
-      counts.set(s, (counts.get(s) || 0) + 1);
-    });
-  });
-  return counts;
-}
-
-/** Map<chain, count of RAILED pools> — same rails as railedTokenPoolCounts,
- * grouped by chain instead of by token symbol. */
-function railedChainPoolCounts(pools) {
-  const counts = new Map();
-  (pools || []).forEach(p => {
-    if (!isQualifyingPool(p)) return;
-    const chain = (p.chain || '').toString().trim();
-    if (!chain) return;
-    counts.set(chain, (counts.get(chain) || 0) + 1);
-  });
-  return counts;
-}
-
-function isHeadToken(symbol, counts) {
-  return (counts.get(String(symbol).toUpperCase()) || 0) >= HEAD_MIN_RAILED_POOLS;
-}
-function isHeadChain(chain, counts) {
-  return (counts.get(chain) || 0) >= HEAD_MIN_RAILED_POOLS;
-}
-
-/** Set<UPPERCASE symbol> of tokens clearing the head gate — the single
- * predicate generate-token-pages.js filters its sitemap URL list through.
- * The count>=HEAD_MIN_RAILED_POOLS comparison lives ONLY in isHeadToken()
- * above (mirror rule) — this just iterates and delegates to it. */
-function selectHeadTokens(pools) {
-  const counts = railedTokenPoolCounts(pools);
-  const out = new Set();
-  counts.forEach((count, symbol) => { if (isHeadToken(symbol, counts)) out.add(symbol); });
-  return out;
-}
-/** Set<chain name> of chains clearing the head gate — the single predicate
- * generate-chain-pages.js filters its sitemap URL list through. The
- * count>=HEAD_MIN_RAILED_POOLS comparison lives ONLY in isHeadChain() above
- * (mirror rule) — this just iterates and delegates to it. */
-function selectHeadChains(pools) {
-  const counts = railedChainPoolCounts(pools);
-  const out = new Set();
-  counts.forEach((count, chain) => { if (isHeadChain(chain, counts)) out.add(chain); });
-  return out;
-}
-
-// item 226 (human authorization 2026-08-04 Q3b): Google's sitemap view is a
-// curated head. The app-view families below stay LIVE, self-canonical and
-// linked from every static page's "view in app" CTA — they simply leave the
-// sitemaps. Flip to true to restore them (the spec's documented revert).
-const EMIT_APP_VIEW_SITEMAPS = false;
 
 /**
  * Fetch pool data from Defillama API
@@ -213,51 +112,16 @@ async function fetchPoolData() {
   });
 }
 
-// 112: load pools from a fixture/transient, failing SAFE to live. Returns an
-// array only when the fixture holds a non-empty pool array; otherwise null so
-// the caller live-fetches (never a truncated/empty run that would prune SEO).
-function loadFixturePools(fixturePath) {
-  if (!fixturePath) return null;
-  try {
-    const raw = JSON.parse(fs.readFileSync(fixturePath, 'utf8'));
-    const arr = raw && raw.data ? raw.data : raw;
-    if (Array.isArray(arr) && arr.length > 0) return arr;
-    console.warn('⚠️  Fixture empty — live fallback:', fixturePath);
-    return null;
-  } catch (e) {
-    console.warn('⚠️  Fixture missing/malformed — live fallback:', fixturePath, '(' + e.message + ')');
-    return null;
-  }
-}
-
-function parseFixtureArg(argv) {
-  let fixture = process.env.POOLS_FIXTURE || null;
-  for (let i = 0; i < argv.length; i++) if (argv[i] === '--fixture') fixture = argv[++i];
-  return fixture;
-}
-
 /**
  * Strict token filtering to remove junk/spam/unwanted symbols
  * Complies with 2026 "Sitemap Hygiene" standards
- *
- * Mirrors generate-token-pages.js's isValidToken exactly (spec 148) — the two
- * must never drift. tokenRegex alone accepts pure-digit strings and Pendle-
- * style expiry-date fragments (e.g. the "22OCT2026" split out of
- * "PT-SUSDE-22OCT2026" by the symbol.split() callers below) — both are real
- * regex matches but not real tokens, so two further rejection rules layer on
- * top.
  */
 function isValidToken(symbol) {
   if (!symbol || typeof symbol !== 'string') return false;
   // Alphanumeric, dots, hyphens, and underscores only. 2-15 chars.
   // Exclude symbols starting with weird characters like $, %, etc.
   const tokenRegex = /^[A-Z0-9][A-Z0-9.\-_]{1,14}$/i;
-  if (!tokenRegex.test(symbol)) return false;
-  const pureNumericRegex = /^[0-9]+$/;
-  if (pureNumericRegex.test(symbol)) return false; // e.g. "2027", "00", "67"
-  const dateFragmentRegex = /^[0-9]{1,2}(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[0-9]{2,4}$/i;
-  if (dateFragmentRegex.test(symbol)) return false; // e.g. "22OCT2026", "16SEP26"
-  return true;
+  return tokenRegex.test(symbol);
 }
 
 /**
@@ -317,122 +181,23 @@ function extractValidCombinations(pools) {
   };
 }
 
-// item 189 (specs/189.md): the classifier below USED TO BE a forked, 4-
-// category, 3-short-list copy of the product's real pool-type classifier —
-// it disagreed with app.js's getPoolTypeShared (PoolDetail.js, spec 130's
-// "SINGLE SOURCE OF TRUTH … do not fork a second copy of this classifier")
-// on 12.2% of the committed snapshot, over-assigning to "Yield Farming" and
-// emitting sitemap category URLs that rendered an EMPTY grid on the real
-// product. Fixed by extracting the real getPoolTypeShared straight out of
-// PoolDetail.js instead of maintaining a second copy.
-const POOL_TYPE_START_MARKER = 'const LENDING_PROTOCOLS';
-const POOL_TYPE_FN_MARKER = 'function getPoolTypeShared';
-const DEFAULT_POOL_DETAIL_PATH = path.join(__dirname, 'PoolDetail.js');
-
 /**
- * Extract & evaluate PoolDetail.js's getPoolTypeShared (spec 130's classifier
- * region: `const LENDING_PROTOCOLS` through the close of `function
- * getPoolTypeShared`) via a bare `vm` context — the same anchor-slice-
- * evaluate pattern test_helpers_parser.js's extractParser uses for app.js's
- * NL parser (item 084). That region references only String/Array builtins
- * and the five list constants it declares itself — no DOM, no React
- * (verified, spec 189) — so it evaluates cleanly outside the browser.
- *
- * Throws a single actionable Error naming PoolDetail.js and both anchors on
- * ANY failure (missing file, moved/renamed anchor, unparseable slice, or a
- * non-function result) — NEVER falls back to the old forked lists. A silent
- * fallback is exactly how the fork this item fixes shipped and survived
- * undetected (spec 189's root-cause finding); the loud failure mirrors this
- * file's existing posture on a DefiLlama fetch error.
- *
- * Exported un-cached (no module-scope memo inside this function) so tests
- * can exercise the failure path directly against a scratch file without
- * disturbing the real cache below; getPoolType()'s module-scope extraction
- * at require time is the one production caller.
- */
-function extractGetPoolTypeShared(poolDetailPath = DEFAULT_POOL_DETAIL_PATH) {
-  let src;
-  try {
-    src = fs.readFileSync(poolDetailPath, 'utf8');
-  } catch (err) {
-    throw new Error(
-      `generate-sitemap.js: could not read ${poolDetailPath} to extract the shared pool-type ` +
-      `classifier "${POOL_TYPE_FN_MARKER}" (spec 130's single source of truth; spec 189's de-fork) ` +
-      `— ${err.message}`
-    );
-  }
-
-  const start = src.indexOf(POOL_TYPE_START_MARKER);
-  if (start < 0) {
-    throw new Error(
-      `generate-sitemap.js: could not locate "${POOL_TYPE_START_MARKER}" in ${poolDetailPath} — ` +
-      `the classifier region's start anchor (spec 189) was renamed or moved. Update ` +
-      `generate-sitemap.js's extractGetPoolTypeShared() to track PoolDetail.js.`
-    );
-  }
-
-  const fnStart = src.indexOf(POOL_TYPE_FN_MARKER, start);
-  if (fnStart < 0) {
-    throw new Error(
-      `generate-sitemap.js: found "${POOL_TYPE_START_MARKER}" but not "${POOL_TYPE_FN_MARKER}" ` +
-      `after it in ${poolDetailPath} — the classifier region's end anchor (spec 189) was renamed ` +
-      `or moved. Update generate-sitemap.js's extractGetPoolTypeShared() to track PoolDetail.js.`
-    );
-  }
-
-  // The function body is `function getPoolTypeShared(pool) { ... }` closed by
-  // a bare `}` at column 0 (every nested block inside it is indented) — the
-  // same closing-brace convention test_helpers_parser.js's extractParser
-  // relies on for app.js's parser.
-  const closeIdx = src.indexOf('\n}', fnStart);
-  if (closeIdx < 0) {
-    throw new Error(
-      `generate-sitemap.js: located "${POOL_TYPE_FN_MARKER}" in ${poolDetailPath} but not its ` +
-      `closing brace — the function shape changed unexpectedly. Update ` +
-      `generate-sitemap.js's extractGetPoolTypeShared() (spec 189).`
-    );
-  }
-  const sliced = src.slice(start, closeIdx + 2); // include the trailing "\n}"
-
-  const ctx = {};
-  vm.createContext(ctx);
-  let fn;
-  try {
-    fn = vm.runInContext(sliced + '\ngetPoolTypeShared;', ctx);
-  } catch (err) {
-    throw new Error(
-      `generate-sitemap.js: the slice of ${poolDetailPath} from "${POOL_TYPE_START_MARKER}" to the ` +
-      `end of "${POOL_TYPE_FN_MARKER}" did not evaluate cleanly (spec 189 extraction) — ${err.message}`
-    );
-  }
-  if (typeof fn !== 'function') {
-    throw new Error(
-      `generate-sitemap.js: extracted "${POOL_TYPE_FN_MARKER}" from ${poolDetailPath} is not a ` +
-      `function (got ${typeof fn}) — the slice from "${POOL_TYPE_START_MARKER}" to ` +
-      `"${POOL_TYPE_FN_MARKER}" is wrong. Update generate-sitemap.js's extractGetPoolTypeShared() (spec 189).`
-    );
-  }
-  return fn;
-}
-
-// item 189: extracted AT REQUIRE TIME (not lazily on first call) so a
-// broken/moved PoolDetail.js fails generate-sitemap.js's own require() loudly
-// — the same posture this file already has for a DefiLlama fetch error —
-// instead of three downstream consumers (generate-llms.js, audit-app.js,
-// generate-token-pages.js) each silently re-adopting a wrong classifier.
-// Cached here at module scope: every getPoolType(pool) call below reuses this
-// one extracted function; PoolDetail.js is read/evaluated exactly once.
-const _getPoolTypeShared = extractGetPoolTypeShared();
-
-/**
- * Determine pool type from pool data — delegates to the product's single
- * source of truth (spec 130's getPoolTypeShared in PoolDetail.js), extracted
- * above. Name and signature kept identical to the pre-189 fork so
- * generate-llms.js / audit-app.js / generate-token-pages.js need ZERO
- * call-site changes (spec 189).
+ * Determine pool type from pool data
  */
 function getPoolType(pool) {
-  return _getPoolTypeShared(pool);
+  if (!pool.project) return 'Yield Farming';
+  
+  const projectName = pool.project.toLowerCase().replace(/\s+/g, '-');
+  
+  const lendingProjects = ['aave', 'compound', 'morpho', 'spark', 'radiant', 'euler', 'venus', 'strike'];
+  const stakingProjects = ['lido', 'rocket-pool', 'ether.fi', 'jito', 'marinade', 'stader', 'frax'];
+  const dexProjects = ['uniswap', 'curve', 'balancer', 'pancakeswap', 'sushiswap', 'aerodrome', 'velodrome'];
+  
+  if (lendingProjects.some(p => projectName.includes(p))) return 'Lending';
+  if (stakingProjects.some(p => projectName.includes(p))) return 'Staking';
+  if (dexProjects.some(p => projectName.includes(p))) return 'LP/DEX';
+  
+  return 'Yield Farming';
 }
 
 /**
@@ -559,6 +324,9 @@ function maxLastmodFromFile(filePath, fallback) {
   for (const { lastmod } of parseExistingUrlEntries(filePath).values()) {
     if (lastmod > max) max = lastmod;
   }
+  if (max && /^\d{4}-\d{2}-\d{2}$/.test(max)) {
+    max = `${max}T00:00:00.000Z`;
+  }
   return max || fallback;
 }
 
@@ -600,21 +368,23 @@ async function generateSitemapSuite(poolsOverride) {
     // not anomalous) per token, per token+chain, and per token+category —
     // the exact filter a URL's default page would apply. A URL only earns a
     // sitemap entry once its combo clears SITEMAP_MIN_QUALIFYING_POOLS.
-    // item 226 (mirror rule): qualifyingTokenPoolCount used to be a second
-    // inline copy of this exact per-token loop — now it IS railedTokenPoolCounts,
-    // the same single source of truth generate-token-pages.js's selectHeadTokens
-    // reads. The per-chain/per-category maps below have no head-selection
-    // twin (those stay app-view-only), so they keep their own loop.
-    const qualifyingTokenPoolCount = railedTokenPoolCounts(pools); // token -> count
+    const qualifyingTokenPoolCount = new Map(); // token -> count
     const qualifyingTokenChainPoolCount = new Map(); // "token|chain" -> count
     const qualifyingTokenCategoryPoolCount = new Map(); // "token|category" -> count
+    const chainQualifyingPoolCount = new Map(); // chain -> count
+    const chainQualifyingTvlMap = new Map(); // chain -> tvl
 
     pools.forEach(p => {
       if (!isQualifyingPool(p)) return;
       const symbols = p.symbol?.split(/[-_\/\s]/).map(s => s.trim().toUpperCase()) || [];
       const type = getPoolType(p);
+      if (p.chain) {
+        chainQualifyingPoolCount.set(p.chain, (chainQualifyingPoolCount.get(p.chain) || 0) + 1);
+        chainQualifyingTvlMap.set(p.chain, (chainQualifyingTvlMap.get(p.chain) || 0) + (p.tvlUsd || 0));
+      }
       symbols.forEach(s => {
         if (!isValidToken(s)) return;
+        qualifyingTokenPoolCount.set(s, (qualifyingTokenPoolCount.get(s) || 0) + 1);
         const chainKey = `${s}|${p.chain}`;
         qualifyingTokenChainPoolCount.set(chainKey, (qualifyingTokenChainPoolCount.get(chainKey) || 0) + 1);
         const catKey = `${s}|${type}`;
@@ -627,73 +397,31 @@ async function generateSitemapSuite(poolsOverride) {
       'sitemap-main.xml': []
     };
 
-    // 1. Main & Metadata Sitemaps
+    // 1. Main & Metadata Sitemaps (clean, static canonical URLs only — no parameterized query filters)
     console.log('📝 Building sitemap-main.xml...');
-    sitemaps['sitemap-main.xml'].push(generateUrlXml(SITE_URL, LASTMOD_PLACEHOLDER, '1.0', 'hourly'));
-
-    // Garden Planner + Yield Stories (static pages generated by generate-stories.js)
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(SITE_URL, LASTMOD_PLACEHOLDER, '1.0', 'daily'));
     sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}plan.html`, LASTMOD_PLACEHOLDER, '0.9', 'weekly'));
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}tokens`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
+    sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}chains`, LASTMOD_PLACEHOLDER, '0.9', 'daily'));
+
     const STORY_SLUGS = ['tomoko', 'kevin', 'lucia'];
     STORY_SLUGS.forEach(slug => {
       sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}stories/${slug}.html`, LASTMOD_PLACEHOLDER, '0.7', 'monthly'));
     });
 
-    // item 188 (specs/188.md): the 7 hardcoded `?minTvl=`/`?minApy=` URLs
-    // below were homepage duplicates — a filter-only query never reaches a
-    // branch that populates filteredPools (app.js:2010-2013's token-first
-    // early return), so every one of them rendered the same empty search
-    // hero as `/`. Replaced with the app's own token-less chain-first browse
-    // mode (`?chain=All`, app.js:1837/1843's `chainMatch = selectedChain ===
-    // 'All' || ...`), which DOES render a real grid. Gated exactly like every
-    // other sitemap URL (item 013): a rung only earns a <loc> once
-    // >= SITEMAP_MIN_QUALIFYING_POOLS pools clear ITS OWN effective filter
-    // (countQualifyingChainAll() above) — never hardcoded, re-decided on
-    // every daily bake.
-    const tvlRungs = [1000000, 10000000, 100000000];
-    const apyRungs = [5, 10, 20, 50];
-    const droppedFilterRungs = [];
-
-    tvlRungs.forEach(tvl => {
-      const qualifying = countQualifyingChainAll(pools, { minTvl: tvl });
-      if (qualifying < SITEMAP_MIN_QUALIFYING_POOLS) {
-        droppedFilterRungs.push(`minTvl=${tvl} (${qualifying} qualifying)`);
-        return;
-      }
-      // The $10M rung normalises to `?chain=All`: app.js's own updateUrl()
-      // (app.js:948) omits a minTvl equal to DEFAULT_MIN_TVL, so the app
-      // itself would rewrite `?chain=All&minTvl=10000000` to `?chain=All` on
-      // load — emit the app's own normalised form directly so the submitted
-      // URL, the address bar and the canonical always agree.
-      const url = tvl === SITEMAP_MIN_TVL
-        ? `${SITE_URL}?chain=All`
-        : `${SITE_URL}?chain=All&minTvl=${tvl}`;
-      sitemaps['sitemap-main.xml'].push(generateUrlXml(url, LASTMOD_PLACEHOLDER, '0.5', 'daily'));
-    });
-
-    apyRungs.forEach(apy => {
-      const qualifying = countQualifyingChainAll(pools, { minApy: apy });
-      if (qualifying < SITEMAP_MIN_QUALIFYING_POOLS) {
-        droppedFilterRungs.push(`minApy=${apy} (${qualifying} qualifying)`);
-        return;
-      }
-      sitemaps['sitemap-main.xml'].push(generateUrlXml(`${SITE_URL}?chain=All&minApy=${apy}`, LASTMOD_PLACEHOLDER, '0.5', 'daily'));
-    });
-
-    if (droppedFilterRungs.length > 0) {
-      console.log(`   ⏭️  sitemap-main.xml: dropped ${droppedFilterRungs.length} filter rung(s) below quality gate (< ${SITEMAP_MIN_QUALIFYING_POOLS} qualifying pools) — ${droppedFilterRungs.join(', ')}`);
-    }
-
     // 2. Vertical: Chain-Specific Sitemaps
+    // Gate to active chains with TVL >= $5M AND >= 3 qualifying pools to avoid index fragmentation
     console.log('📝 Building Vertical Chain Sitemaps...');
-    const topChains = Array.from(chainTokensMap.keys()).sort((a, b) => {
-      // Sort by chain popularity (simple heuristic)
-      const popular = ['Ethereum', 'Base', 'Arbitrum', 'Polygon', 'Optimism', 'Solana', 'Avalanche', 'BNB Chain'];
-      const aIdx = popular.indexOf(a);
-      const bIdx = popular.indexOf(b);
-      if (aIdx !== -1 && bIdx !== -1) return aIdx - bIdx;
-      if (aIdx !== -1) return -1;
-      if (bIdx !== -1) return 1;
-      return a.localeCompare(b);
+    const eligibleChains = Array.from(chainTokensMap.keys()).filter(chain => {
+      const qualifyingPools = chainQualifyingPoolCount.get(chain) || 0;
+      const tvl = chainQualifyingTvlMap.get(chain) || 0;
+      return qualifyingPools >= 3 && tvl >= 5000000;
+    });
+
+    const topChains = eligibleChains.sort((a, b) => {
+      const tvlA = chainQualifyingTvlMap.get(a) || 0;
+      const tvlB = chainQualifyingTvlMap.get(b) || 0;
+      return tvlB - tvlA;
     });
 
     topChains.forEach(chain => {
@@ -724,21 +452,12 @@ async function generateSitemapSuite(poolsOverride) {
 
     // 3. Vertical: Category-Specific Sitemaps (Lending, Staking, etc.)
     console.log('📝 Building Vertical Category Sitemaps...');
-    // item 189 (specs/189.md, Leg B): the product's real classifier
-    // (getPoolTypeShared, above) has SIX categories — app.js:114-121's
-    // CATEGORY_TABS nav taxonomy — not the fork's four. Adding RWA and Yield
-    // Derivatives here means every category getPoolType() can now return
-    // earns a sitemap file; the 013 quality gate (>= SITEMAP_MIN_QUALIFYING_POOLS)
-    // still applies per-token-per-category unchanged, so a category only
-    // ships a file/URL once some token actually clears it.
-    const categories = ['Lending', 'Staking', 'LP/DEX', 'Yield Farming', 'RWA', 'Yield Derivatives'];
+    const categories = ['Lending', 'Staking', 'LP/DEX', 'Yield Farming'];
     const categoryUrlMap = {
       'Lending': 'Lending',
       'LP/DEX': 'LP%2FDEX',
-      'Staking': 'Staking',
-      'Yield Farming': 'Yield%20Farming',
-      'RWA': 'RWA',
-      'Yield Derivatives': 'Yield%20Derivatives'
+      'Staking': 'Staking', 
+      'Yield Farming': 'Yield%20Farming'
     };
 
     categories.forEach(cat => {
@@ -782,28 +501,6 @@ async function generateSitemapSuite(poolsOverride) {
     });
     console.log(`   ⏭️  sitemap-tokens-all.xml: dropped ${tokensDropped} of ${tokens.length} thin token(s) below quality gate (< ${SITEMAP_MIN_QUALIFYING_POOLS} pools @ $${(SITEMAP_MIN_TVL / 1e6).toFixed(0)}M TVL)`);
 
-    // item 226 (human authorization 2026-08-04 Q3b): the three app-view
-    // families built above (per-chain, per-category, sitemap-tokens-all) are
-    // computed exactly as before — their own "N dropped" logs above stay
-    // honest — but never reach disk/the index when EMIT_APP_VIEW_SITEMAPS is
-    // off. cleanupStaleSitemaps() (080) then removes any previously-written
-    // copies on the next real run, since they're absent from writtenFilenames
-    // below — that is an ARTIFACT deletion, never a page deletion (the pages
-    // themselves stay live, self-canonical, linked from the app's own "view
-    // in app" CTA). Flip EMIT_APP_VIEW_SITEMAPS to restore.
-    if (!EMIT_APP_VIEW_SITEMAPS) {
-      const appViewSitemapNames = topChains
-        .map(chain => `sitemap-chain-${chain.replace(/[^a-z0-9]/gi, '-')}.xml`)
-        .concat(categories.map(cat => `sitemap-category-${cat.replace(/[^a-z0-9]/gi, '-')}.xml`))
-        .concat(['sitemap-tokens-all.xml']);
-      let suppressedUrlCount = 0;
-      appViewSitemapNames.forEach(name => {
-        suppressedUrlCount += (sitemaps[name] || []).length;
-        delete sitemaps[name];
-      });
-      console.log(`⏭️  app-view sitemap families suppressed (item 226 head curation) — ${suppressedUrlCount} URLs not submitted`);
-    }
-
     // Write all sitemaps. lastmod is preserved per-entry (081): an entry
     // byte-identical to its committed form keeps its committed timestamp; only
     // changed/new entries get `now`, so a no-data-change run is byte-identical
@@ -823,50 +520,63 @@ async function generateSitemapSuite(poolsOverride) {
       }
     }
 
-    // Generate Index (Alphabetical). Each child's <lastmod> = the max URL lastmod
-    // in that child (081), so the index only moves when a child really changed.
+    // Generate Index (Prioritized, SOTA Ordering: sitemap-main.xml first, static landing hubs, tokens, categories, chains).
     let indexXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
     indexXml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
-    generatedFilenames.sort().forEach(filename => {
-      if (sitemaps[filename].length > 0) {
-        indexXml += '  <sitemap>\n';
-        indexXml += `    <loc>${SITE_URL}${filename}</loc>\n`;
-        indexXml += `    <lastmod>${childMaxLastmod[filename]}</lastmod>\n`;
-        indexXml += '  </sitemap>\n';
-      }
-    });
-    // Include the static /tokens/ landing-page sitemap (021) when it has been
-    // generated (generate-token-pages.js writes it in the same CI run). Kept
-    // discoverable via the index so crawlers find the real static pages.
+
+    const indexEntries = [];
+
+    // 1. Core Canonical Site Structure (First Priority)
+    if (sitemaps['sitemap-main.xml'] && sitemaps['sitemap-main.xml'].length > 0) {
+      indexEntries.push({ loc: `${SITE_URL}sitemap-main.xml`, lastmod: childMaxLastmod['sitemap-main.xml'] || now });
+    }
+
+    // 2. Static Landing Pages (EN)
     if (fs.existsSync('sitemap-token-pages.xml')) {
-      indexXml += '  <sitemap>\n';
-      indexXml += `    <loc>${SITE_URL}sitemap-token-pages.xml</loc>\n`;
-      indexXml += `    <lastmod>${maxLastmodFromFile('sitemap-token-pages.xml', now)}</lastmod>\n`;
-      indexXml += '  </sitemap>\n';
+      indexEntries.push({ loc: `${SITE_URL}sitemap-token-pages.xml`, lastmod: maxLastmodFromFile('sitemap-token-pages.xml', now) });
     }
-    // Include the static /chains/ landing-page sitemap (041) when it has been
-    // generated (generate-chain-pages.js writes it in the same CI run) —
-    // mirrors the sitemap-token-pages.xml guard directly above.
     if (fs.existsSync('sitemap-chain-pages.xml')) {
-      indexXml += '  <sitemap>\n';
-      indexXml += `    <loc>${SITE_URL}sitemap-chain-pages.xml</loc>\n`;
-      indexXml += `    <lastmod>${maxLastmodFromFile('sitemap-chain-pages.xml', now)}</lastmod>\n`;
-      indexXml += '  </sitemap>\n';
+      indexEntries.push({ loc: `${SITE_URL}sitemap-chain-pages.xml`, lastmod: maxLastmodFromFile('sitemap-chain-pages.xml', now) });
     }
-    // Korean /ko/tokens/ + /ko/chains/ landing-page sitemaps (050) — same
-    // existsSync guard pattern as their en counterparts above.
+
+    // 3. Static Landing Pages (KO)
     if (fs.existsSync('sitemap-token-pages-ko.xml')) {
-      indexXml += '  <sitemap>\n';
-      indexXml += `    <loc>${SITE_URL}sitemap-token-pages-ko.xml</loc>\n`;
-      indexXml += `    <lastmod>${maxLastmodFromFile('sitemap-token-pages-ko.xml', now)}</lastmod>\n`;
-      indexXml += '  </sitemap>\n';
+      indexEntries.push({ loc: `${SITE_URL}sitemap-token-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-token-pages-ko.xml', now) });
     }
     if (fs.existsSync('sitemap-chain-pages-ko.xml')) {
-      indexXml += '  <sitemap>\n';
-      indexXml += `    <loc>${SITE_URL}sitemap-chain-pages-ko.xml</loc>\n`;
-      indexXml += `    <lastmod>${maxLastmodFromFile('sitemap-chain-pages-ko.xml', now)}</lastmod>\n`;
-      indexXml += '  </sitemap>\n';
+      indexEntries.push({ loc: `${SITE_URL}sitemap-chain-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-chain-pages-ko.xml', now) });
     }
+
+    // 4. Global Token Index
+    if (sitemaps['sitemap-tokens-all.xml'] && sitemaps['sitemap-tokens-all.xml'].length > 0) {
+      indexEntries.push({ loc: `${SITE_URL}sitemap-tokens-all.xml`, lastmod: childMaxLastmod['sitemap-tokens-all.xml'] || now });
+    }
+
+    // 5. Vertical Category Shards
+    categories.forEach(cat => {
+      const safeCatName = cat.replace(/[^a-z0-9]/gi, '-');
+      const filename = `sitemap-category-${safeCatName}.xml`;
+      if (sitemaps[filename] && sitemaps[filename].length > 0) {
+        indexEntries.push({ loc: `${SITE_URL}${filename}`, lastmod: childMaxLastmod[filename] || now });
+      }
+    });
+
+    // 6. Active Chain Shards (TVL-ranked)
+    topChains.forEach(chain => {
+      const safeChainName = chain.replace(/[^a-z0-9]/gi, '-');
+      const filename = `sitemap-chain-${safeChainName}.xml`;
+      if (sitemaps[filename] && sitemaps[filename].length > 0) {
+        indexEntries.push({ loc: `${SITE_URL}${filename}`, lastmod: childMaxLastmod[filename] || now });
+      }
+    });
+
+    indexEntries.forEach(entry => {
+      indexXml += '  <sitemap>\n';
+      indexXml += `    <loc>${entry.loc}</loc>\n`;
+      indexXml += `    <lastmod>${entry.lastmod}</lastmod>\n`;
+      indexXml += '  </sitemap>\n';
+    });
+
     indexXml += '</sitemapindex>';
     fs.writeFileSync('sitemap.xml', indexXml);
     console.log('✅ Generated sitemap.xml (Index)');
@@ -888,8 +598,6 @@ async function generateSitemapSuite(poolsOverride) {
 function generateRobotsTxt() {
   return `# robots.txt for DeFi Garden - AI-ready Yield Discovery
 # Updated May 2026 for Agentic Search Compliance
-# AI content signaling
-Content-signal: search=yes, ai-train=no, use=reference
 
 # Sitemap Index
 Sitemap: ${SITE_URL}sitemap.xml
@@ -912,21 +620,6 @@ User-agent: ChatGPT-User
 Allow: /
 Allow: /llms.txt
 
-User-agent: ClaudeBot
-Allow: /
-Allow: /llms.txt
-
-User-agent: Claude-Web
-Allow: /
-Allow: /llms.txt
-
-User-agent: PerplexityBot
-Allow: /
-Allow: /llms.txt
-
-User-agent: OAI-SearchBot
-Allow: /
-
 User-agent: Google-InspectionTool
 Allow: /
 
@@ -936,20 +629,17 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-User-agent: Google-Extended
+User-agent: OAI-SearchBot
 Allow: /
 
-User-agent: Applebot-Extended
+User-agent: PerplexityBot
 Allow: /
 
-User-agent: Amazonbot
+User-agent: Claude-Web
 Allow: /
 
 # Block spam bots
 User-agent: CCBot
-Disallow: /
-
-User-agent: Bytespider
 Disallow: /
 
 User-agent: MJ12bot
@@ -963,8 +653,8 @@ Disallow: /
 async function main() {
   try {
     console.log('🚀 Generating SOTA sitemap suite for DeFi Garden...');
-    const override = loadFixturePools(parseFixtureArg(process.argv.slice(2)));
-    await generateSitemapSuite(override);
+    
+    await generateSitemapSuite();
     
     const robotsContent = generateRobotsTxt();
     fs.writeFileSync('robots.txt', robotsContent);
@@ -987,8 +677,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, extractGetPoolTypeShared, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER, loadFixturePools, parseFixtureArg, isValidToken, isQualifyingPool, poolTotalApy, countQualifyingChainAll, SITEMAP_MIN_TVL, SITEMAP_MIN_QUALIFYING_POOLS, APY_SANITY_LIMIT,
-  // item 226: head-selection predicate (single source of truth) + the
-  // app-view-suppression flag, exported so generate-token-pages.js /
-  // generate-chain-pages.js / tests read the SAME predicate, never a copy.
-  HEAD_MIN_RAILED_POOLS, railedTokenPoolCounts, railedChainPoolCounts, isHeadToken, isHeadChain, selectHeadTokens, selectHeadChains, EMIT_APP_VIEW_SITEMAPS };
+module.exports = { generateSitemapSuite, generateRobotsTxt, getPoolType, cleanupStaleSitemaps, FOREIGN_PAGE_SITEMAPS, parseExistingUrlEntries, resolveLastmods, maxLastmodFromFile, LASTMOD_PLACEHOLDER };

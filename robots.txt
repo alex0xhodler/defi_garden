@@ -1,7 +1,5 @@
 # robots.txt for DeFi Garden - AI-ready Yield Discovery
 # Updated May 2026 for Agentic Search Compliance
-# AI content signaling
-Content-signal: search=yes, ai-train=no, use=reference
 
 # Sitemap Index
 Sitemap: https://www.defi.garden/sitemap.xml
@@ -24,21 +22,6 @@ User-agent: ChatGPT-User
 Allow: /
 Allow: /llms.txt
 
-User-agent: ClaudeBot
-Allow: /
-Allow: /llms.txt
-
-User-agent: Claude-Web
-Allow: /
-Allow: /llms.txt
-
-User-agent: PerplexityBot
-Allow: /
-Allow: /llms.txt
-
-User-agent: OAI-SearchBot
-Allow: /
-
 User-agent: Google-InspectionTool
 Allow: /
 
@@ -48,20 +31,17 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-User-agent: Google-Extended
+User-agent: OAI-SearchBot
 Allow: /
 
-User-agent: Applebot-Extended
+User-agent: PerplexityBot
 Allow: /
 
-User-agent: Amazonbot
+User-agent: Claude-Web
 Allow: /
 
 # Block spam bots
 User-agent: CCBot
-Disallow: /
-
-User-agent: Bytespider
 Disallow: /
 
 User-agent: MJ12bot

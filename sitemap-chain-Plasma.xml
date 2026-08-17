@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.defi.garden/?chain=Plasma</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?chain=Plasma" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?chain=Plasma&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?chain=Plasma" />
+    <lastmod>2026-08-17T13:30:38.362Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUSDE&amp;chain=Plasma</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDE&amp;chain=Plasma" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDE&amp;chain=Plasma&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDE&amp;chain=Plasma" />
+    <lastmod>2026-08-17T13:30:38.362Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT0&amp;chain=Plasma</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT0&amp;chain=Plasma" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT0&amp;chain=Plasma&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT0&amp;chain=Plasma" />
+    <lastmod>2026-08-17T13:30:38.362Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GHO&amp;chain=Plasma</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GHO&amp;chain=Plasma" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GHO&amp;chain=Plasma&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GHO&amp;chain=Plasma" />
+    <lastmod>2026-08-17T13:30:38.362Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
+  </url>
+</urlset>

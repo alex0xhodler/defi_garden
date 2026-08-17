@@ -34,23 +34,17 @@ const { createTranslationFunction } = require('./translations.js');
 // Per-page OG images (051). Safe as a top-level require: this module only
 // requires generate-token-pages.js (not this one back), so no load cycle.
 const { generateOgImages } = require('./generate-og-images.js');
-// item 226: selectHeadChains is the single head-selection predicate (lives in
-// generate-sitemap.js beside the rails it reuses). No cycle: generate-sitemap.js
-// requires neither this file nor generate-token-pages.js back.
-const { selectHeadChains } = require('./generate-sitemap.js');
 
 const {
   SITE_URL, APY_SANITY_LIMIT, MIN_POOL_TVL, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT,
   isQualifyingPool, poolTotalApy, formatUsd, formatApy, escapeHtml,
-  renderAnalyticsBootstrap, renderHubStyleBlock, renderFontPreloadLinks, tokenSlug: chainSlug,
-  poolHrefFor, withSrc, renderItemListJsonLd, renderDatasetJsonLd,
+  renderAnalyticsBootstrap, renderHubStyleBlock, tokenSlug: chainSlug,
+  poolHrefFor, renderItemListJsonLd, renderDatasetJsonLd,
   buildAnswerAndFaq, renderAnswerBlockHtml, renderFaqBlockHtml, renderFaqJsonLd,
   todayGeneratedDate, renderLastUpdatedHtml, renderHreflangLinks,
   categoryLinksFor, renderLinkNavHtml, tokenSymbols, isValidToken, OG_FALLBACK_REL_PATH,
   renderWaitlistCtaHtml, renderWaitlistCtaStyle,
-  yieldHeadlineFor, renderYieldHeadlineHtml, mdEscape, assertNonEmptyPages,
-  // item 243: reuse 242's headline-selection gate — no local definition.
-  headlinePoolFor, isRepresentativeRate
+  yieldHeadlineFor, renderYieldHeadlineHtml
 } = tp;
 
 const YIELDS_API = 'https://yields.llama.fi/pools';
@@ -88,26 +82,14 @@ function rankTopChains(pools, limit) {
     // at least one VISIBLE non-zero yield. A chain whose top-8-by-TVL pools
     // are all "0.00%" (rounded or real) is thin/low-quality and dropped,
     // even if a real yield exists further down the ranking.
-    // This gate must stay evaluated on `shown` EXACTLY as-is (030/032/033) —
-    // it decides which chains get a page at all, and moving it would change
-    // the generated page set. It is deliberately NOT the same slice used for
-    // display below (174).
     if (!shown.some(p => formatApy(poolTotalApy(p)) !== '0.00%')) return;
-    // 174: the DISPLAYED table excludes 0.00%-APY rows — a listed "yield" of
-    // zero isn't a yield opportunity. Filter zeros out of the FULL sorted
-    // pool list (not just `shown`) before taking the top POOLS_PER_PAGE, so a
-    // page that loses zero rows can backfill real yield rows from further
-    // down the TVL ranking instead of shrinking below POOLS_PER_PAGE.
-    const displayPools = rec.pools
-      .filter(p => formatApy(poolTotalApy(p)) !== '0.00%')
-      .slice(0, POOLS_PER_PAGE);
     records.push({
       chain,
       slug: chainSlug(chain),
       totalTvl: rec.totalTvl,
       qualifyingCount: rec.qualifyingCount,
       tokens: Array.from(rec.tokens),
-      pools: displayPools
+      pools: shown
     });
   });
 
@@ -164,26 +146,19 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const enUrl = `${SITE_URL}/chains/${rec.slug}`;
   const koUrl = `${SITE_URL}/ko/chains/${rec.slug}`;
   const pageUrl = language === 'ko' ? koUrl : enUrl;
-  const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}&minTvl=${MIN_POOL_TVL}`;
+  const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}`;
   const genDate = generatedDate || todayGeneratedDate();
   const ogImageRelPath = (ogImagePaths && ogImagePaths.get(rec.slug)) || OG_FALLBACK_REL_PATH;
   const ogImageUrl = `${SITE_URL}/${ogImageRelPath}`;
-  // item 243: the headline claim (rate + the pool named beside it) must come
-  // from ONE pool that passes isRepresentativeRate — same gate 242 shipped
-  // for token pages, reused here rather than re-implemented.
-  const headlinePool = headlinePoolFor(rec.pools);
-  const bestApy = poolTotalApy(headlinePool);
+  const bestApy = Math.max(...rec.pools.map(poolTotalApy));
   const tokenCount = rec.tokens.length;
   const title = t('tcpChainTitle', rec.chain);
-  // 174: EVERY floor mention on this page derives from MIN_POOL_TVL — never a
-  // re-typed literal. One formatted value, reused by every t(...) call below.
-  const floorStr = formatUsd(MIN_POOL_TVL);
-  const description = t('tcpChainDescription', rec.chain, rec.qualifyingCount, formatApy(bestApy), tokenCount, floorStr);
+  const description = t('tcpChainDescription', rec.chain, rec.qualifyingCount, formatApy(bestApy), tokenCount);
 
   // Unique per-chain intro from real data (023-style content depth).
   const top = rec.pools[0];
   const intro = t('tcpChainIntro', chainName, escapeHtml(top.project || '—'), escapeHtml(top.symbol || '—'),
-    formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, tokenCount, formatUsd(rec.totalTvl), floorStr);
+    formatApy(poolTotalApy(top)), formatUsd(top.tvlUsd), rec.qualifyingCount, tokenCount, formatUsd(rec.totalTvl));
 
   // BreadcrumbList (040 pattern): Home and the current page are real,
   // linkable URLs. "Chains" has no `item` — there is no /chains hub page in
@@ -205,7 +180,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const itemListJsonLd = renderItemListJsonLd(rec.pools, appUrl, language);
   const datasetJsonLd = renderDatasetJsonLd(
     t('tcpDatasetChainName', rec.chain),
-    t('tcpDatasetChainDescription', rec.chain, floorStr),
+    t('tcpDatasetChainDescription', rec.chain),
     pageUrl,
     genDate
   );
@@ -213,7 +188,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   // Direct-answer + FAQ (047, GEO/AEO): built from the SAME gated `rec` the
   // table/intro above already use — never touches raw pool data, so an
   // anomalous/sub-floor pool structurally cannot reach the answer or FAQ.
-  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, headlinePool, language);
+  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, top, language);
   const answerBlock = renderAnswerBlockHtml(answer, 'cp-answer');
 
   // Honest per-chain yield headline (075): reuses generate-token-pages.js's
@@ -243,11 +218,7 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
     ({ label: tk.symbol, href: `${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${tk.slug}` }));
   const topTokensHeading = t('tcpTopTokensOnHeading', rec.chain);
   const tokenLinksBlock = renderLinkNavHtml(tokenNavItems, topTokensHeading, topTokensHeading, 'xlink-tokens');
-  // 204: category nav links are a visible estate->app boundary, tagged the
-  // same as the main CTA below — categoryLinksFor itself stays untouched
-  // (shared, unaware of which generator called it); the tag is applied here,
-  // at the render site, over every item it returned (never skipped/duplicated).
-  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: withSrc(c.url, 'seo_chain') }));
+  const categoryItems = categoryLinksFor(rec.pools, appUrl).map(c => ({ label: c.category, href: c.url }));
   const categoryBlock = renderLinkNavHtml(categoryItems, t('tcpPoolCategoriesAriaLabel'), t('tcpByCategoryHeading'), 'xlink-category');
 
   // Waitlist CTA (062): the only path from this page into the card funnel.
@@ -256,10 +227,8 @@ function renderChainPage(rec, related, generatedDate, tokenLinks, lang, ogImageP
   const rows = rec.pools.map(p => {
     // Each pool links to its detail page (the app matches pool.pool ===
     // urlParams.pool). Falls back to this chain's app view if no id. Shared
-    // with the ItemList JSON-LD above via poolHrefFor so they can't drift —
-    // the visible row is tagged 'seo_chain' (203); the JSON-LD call above is
-    // NOT, so it stays clean (spec 203 §6, deliberate deviation).
-    const poolHref = poolHrefFor(p, appUrl, 'seo_chain');
+    // with the ItemList JSON-LD above via poolHrefFor so they can't drift.
+    const poolHref = poolHrefFor(p, appUrl);
     return `        <tr>
           <td>${escapeHtml(p.symbol || '—')}</td>
           <td><a class="cp-pool-link" href="${poolHref}">${escapeHtml(p.project || '—')} &rarr;</a></td>
@@ -291,58 +260,56 @@ ${renderHreflangLinks(enUrl, koUrl)}    <script type="application/ld+json">${bre
     <meta name="twitter:image" content="${ogImageUrl}">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-    <!-- Reuse the app's design system (247 world): style.css defines the
-         --ui-* certificate-green tokens (the --color-*/--neuro-* names below
-         are its deprecated aliases, still resolving) + Besley/Public Sans,
-         preloaded above. The scoped block below styles this page with those
-         tokens only — no hardcoded colors/gradients/fonts. -->
-${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">
+    <!-- Reuse the app's design system: style.css defines the neumorphic tokens
+         (--color-*, --neuro-*) + the brand gradient body. The scoped block below
+         styles this page with those tokens only — no hardcoded colors/gradients. -->
+    <link rel="stylesheet" href="/style.css">
     <style>
       .cp-wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px; }
-      .cp-wrap h1 { font-family: var(--font-family-display); font-size: 1.7rem; margin: 0 0 4px; color: var(--ui-text); }
-      .cp-wrap .sub { color: var(--ui-text-secondary); margin: 0 0 16px; }
-      .cp-wrap .intro { color: var(--ui-text); margin: 4px 0 22px; line-height: 1.6; }
-      .cp-card { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-lg); box-shadow: none; padding: 8px 18px; margin: 20px 0; }
+      .cp-wrap h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--color-text); }
+      .cp-wrap .sub { color: var(--color-text-secondary); margin: 0 0 16px; }
+      .cp-wrap .intro { color: var(--color-text); margin: 4px 0 22px; line-height: 1.6; }
+      .cp-card { background: var(--color-surface); border-radius: var(--neuro-radius-lg); box-shadow: var(--neuro-shadow-raised); padding: 8px 18px; margin: 20px 0; }
       .cp-card table { width: 100%; border-collapse: collapse; }
-      .cp-card th, .cp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--ui-border); color: var(--ui-text); }
-      .cp-card th { color: var(--ui-text-secondary); font-weight: 600; }
-      .cp-card td.num, .cp-card th.num { text-align: right; font-variant-numeric: tabular-nums; }
+      .cp-card th, .cp-card td { text-align: left; padding: 13px 8px; border-bottom: 1px solid var(--color-border); color: var(--color-text); }
+      .cp-card th { color: var(--color-text-secondary); font-weight: 600; }
+      .cp-card td.num, .cp-card th.num { text-align: right; }
       .cp-card tr:last-child td { border-bottom: none; }
       .cp-card tbody tr { transition: background .15s ease; }
-      .cp-card tbody tr:hover { background: var(--ui-surface-muted); }
-      .cp-pool-link { color: var(--ui-accent); text-decoration: none; font-weight: 500; }
+      .cp-card tbody tr:hover { background: var(--color-background); }
+      .cp-pool-link { color: var(--color-primary); text-decoration: none; font-weight: 500; }
       .cp-pool-link:hover { text-decoration: underline; }
-      .cp-pool-link:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); border-radius: var(--ui-radius-sm); }
+      .cp-pool-link:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--neuro-radius-sm); }
       @media (prefers-reduced-motion: reduce) { .cp-card tbody tr { transition: none; } }
-      .cp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--ui-accent); color: var(--ui-on-accent); border: 1px solid transparent; border-radius: var(--ui-radius-md); box-shadow: none; text-decoration: none; font-weight: 600; transition: background .15s ease, transform .1s ease; }
-      .cp-cta:hover { background: var(--ui-accent-hover); }
-      .cp-cta:active { background: var(--ui-accent-active); transform: translateY(1px); }
-      .cp-cta:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
+      .cp-cta { display: inline-block; margin: 8px 0 4px; padding: 14px 24px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); text-decoration: none; font-weight: 600; transition: box-shadow .2s ease, transform .2s ease; }
+      .cp-cta:hover { box-shadow: var(--neuro-shadow-flat); transform: translateY(-2px); }
+      .cp-cta:active { box-shadow: var(--neuro-shadow-pressed); transform: translateY(1px); }
+      .cp-cta:focus-visible { outline: none; box-shadow: var(--focus-ring); }
       .related { margin: 30px 0 8px; }
-      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
-      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--ui-surface); color: var(--ui-accent); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-pill); box-shadow: none; text-decoration: none; font-size: .9rem; transition: background .15s ease, border-color .15s ease, transform .1s ease; }
-      .related-links a:hover { background: var(--ui-surface-muted); border-color: var(--ui-border-strong); }
-      .related-links a:active { background: var(--ui-surface-muted); transform: translateY(1px); }
-      .related-links a:focus-visible { outline: none; box-shadow: var(--ui-focus-ring); }
-      .cp-wrap .note { color: var(--ui-text-secondary); font-size: .9rem; }
-      .cp-answer { color: var(--ui-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
-      .cp-yield-headline { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 4px 0 18px; color: var(--ui-text); font-weight: 600; line-height: 1.5; }
+      .related h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .related-links a { display: inline-block; margin: 0 8px 8px 0; padding: 8px 14px; background: var(--color-surface); color: var(--color-primary); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); text-decoration: none; font-size: .9rem; transition: box-shadow .2s ease; }
+      .related-links a:hover { box-shadow: var(--neuro-shadow-flat); }
+      .related-links a:active { box-shadow: var(--neuro-shadow-pressed); }
+      .related-links a:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+      .cp-wrap .note { color: var(--color-text-secondary); font-size: .9rem; }
+      .cp-answer { color: var(--color-text); margin: 10px 0 18px; line-height: 1.6; font-weight: 500; }
+      .cp-yield-headline { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-raised); padding: 14px 18px; margin: 4px 0 18px; color: var(--color-text); font-weight: 600; line-height: 1.5; }
       .cp-faq { margin: 30px 0 8px; }
-      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--ui-text); }
-      .cp-faq-item { background: var(--ui-surface); border: 1px solid var(--ui-border); border-radius: var(--ui-radius-md); box-shadow: none; padding: 14px 18px; margin: 0 0 12px; }
-      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--ui-text); }
-      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--ui-text-secondary); line-height: 1.55; }
+      .cp-faq h2 { font-size: 1rem; margin-bottom: 12px; color: var(--color-text); }
+      .cp-faq-item { background: var(--color-surface); border-radius: var(--neuro-radius-md); box-shadow: var(--neuro-shadow-subtle); padding: 14px 18px; margin: 0 0 12px; }
+      .cp-faq-q { font-size: .95rem; margin: 0 0 6px; color: var(--color-text); }
+      .cp-faq-a { font-size: .9rem; margin: 0; color: var(--color-text-secondary); line-height: 1.55; }
       .scroll { overflow-x: auto; }
-      @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } .cp-cta:active, .related-links a:active { transform: none; } }
+      @media (prefers-reduced-motion: reduce) { .cp-cta, .related-links a { transition: none; } }
 ${renderWaitlistCtaStyle('cp')}    </style>
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains/${rec.slug}`, { page_type: 'chain_landing', chain: rec.chain, pool_count: rec.qualifyingCount, lang: language })}
 </head>
 <body>
   <main class="cp-wrap">
     <h1>${escapeHtml(t('tcpChainHeading', rec.chain))}</h1>
-${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount, floorStr))}</p>
+${answerBlock}    <p class="sub">${escapeHtml(t('tcpSubLine', rec.qualifyingCount))}</p>
     <p class="intro">${intro}</p>
-${yieldHeadlineBlock}    <a class="cp-cta" href="${withSrc(appUrl, 'seo_chain')}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
+${yieldHeadlineBlock}    <a class="cp-cta" href="${appUrl}">${escapeHtml(t('tcpChainCta', rec.chain))}</a>
     <div class="cp-card">
     <div class="scroll">
     <table>
@@ -355,7 +322,7 @@ ${rows}
     </table>
     </div>
     </div>
-${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+${faqBlock}${relatedBlock}${tokenLinksBlock}${categoryBlock}${waitlistBlock}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
 ${renderLastUpdatedHtml(genDate, language)}    <p class="note"><a href="${SITE_URL}/">DeFi Garden 🌱</a> — ${escapeHtml(t('tcpFooterTagline'))}</p>
   </main>
 </body>
@@ -395,14 +362,14 @@ ${renderHreflangLinks(enUrl, koUrl)}    <meta property="og:type" content="websit
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index,follow">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
-${renderFontPreloadLinks()}    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
+    <link rel="stylesheet" href="/style.css">${renderHubStyleBlock()}
 ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains`, { page_type: 'chain_hub', chain_count: ranked.length, lang: language })}
 </head>
 <body>
   <main class="hub-wrap">
     <h1>${escapeHtml(t('tcpChainHubHeading'))}</h1>
     <p class="sub">${escapeHtml(t('tcpChainHubSub', ranked.length))}</p>
-    <p class="intro">${escapeHtml(t('tcpChainHubIntro', formatUsd(MIN_POOL_TVL)))}</p>
+    <p class="intro">${escapeHtml(t('tcpChainHubIntro'))}</p>
     <a class="hub-cta" href="${SITE_URL}/">${escapeHtml(t('tcpHubBackCta'))}</a>
     <div class="hub-card">
       <h2>${escapeHtml(t('tcpAllChainsHeading'))}</h2>
@@ -410,65 +377,10 @@ ${renderAnalyticsBootstrap(`${language === 'ko' ? '/ko' : ''}/chains`, { page_ty
         ${links}
       </div>
     </div>
-${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote', formatUsd(MIN_POOL_TVL)))}</p>
+${renderWaitlistCtaHtml(t('tcpWaitlistPitchHub'), 'hub', 'seo_chains_hub', t)}    <p class="note">${escapeHtml(t('tcpTrustNote'))}</p>
   </main>
 </body>
 </html>
-`;
-}
-
-/** Markdown twin of renderChainPage (spec 212) — same construction pattern
- * as generate-token-pages.js's renderTokenPageMarkdown: built from the SAME
- * gated `rec` + the SAME buildAnswerAndFaq()/poolHrefFor()/formatUsd()/
- * formatApy() the HTML uses, so the twin can never drift by construction.
- * Same params as renderChainPage minus `ogImagePaths`. */
-function renderChainPageMarkdown(rec, related, generatedDate, tokenLinks, lang) {
-  const language = (lang === 'ko') ? 'ko' : 'en';
-  const t = createTranslationFunction(language);
-  const genDate = generatedDate || todayGeneratedDate();
-  const appUrl = `${SITE_URL}/?chain=${encodeURIComponent(rec.chain)}&minTvl=${MIN_POOL_TVL}`;
-  // item 243: identical substitution to the HTML path above — the headline
-  // rate and the pool attributed beside it always come from the same pool.
-  const headlinePool = headlinePoolFor(rec.pools);
-  const bestApy = poolTotalApy(headlinePool);
-  // 174: the floor claim below derives from MIN_POOL_TVL, same as the HTML —
-  // never a re-typed literal.
-  const floorStr = formatUsd(MIN_POOL_TVL);
-
-  const { answer, faq } = buildAnswerAndFaq(rec.chain, rec, bestApy, headlinePool, language);
-
-  const rows = rec.pools.map(p => {
-    const poolHref = poolHrefFor(p, appUrl, 'seo_chain');
-    return `| ${mdEscape(p.symbol || '—')} | [${mdEscape(p.project || '—')} →](${poolHref}) | ${formatApy(poolTotalApy(p))} | ${formatUsd(p.tvlUsd)} |`;
-  }).join('\n');
-
-  const faqMd = (faq || []).map(item => `### ${item.q}\n\n${item.a}`).join('\n\n');
-
-  const relatedMd = (related && related.length)
-    ? `\n## ${t('tcpRelatedChainsHeading')}\n\n` + related.map(r =>
-        `- [${mdEscape(r.chain)}](${SITE_URL}/${language === 'ko' ? 'ko/chains' : 'chains'}/${r.slug})`).join('\n') + '\n'
-    : '';
-
-  const tokenLinksMd = (tokenLinks && tokenLinks.length)
-    ? `\n## ${t('tcpTopTokensOnHeading', rec.chain)}\n\n` + tokenLinks.map(tk =>
-        `- [${mdEscape(tk.symbol)}](${SITE_URL}/${language === 'ko' ? 'ko/tokens' : 'tokens'}/${tk.slug})`).join('\n') + '\n'
-    : '';
-
-  return `# ${t('tcpChainHeading', rec.chain)}
-
-${answer}
-
-| ${t('tcpColToken')} | ${t('tcpColProtocol')} | ${t('tcpColApy')} | ${t('tcpColTvl')} |
-|---|---|---|---|
-${rows}
-
-${t('tcpTrustNote', floorStr)}
-
-## ${t('tcpFaqHeading')}
-
-${faqMd}
-${relatedMd}${tokenLinksMd}
-## ${t('tcpLastUpdated', genDate)}
 `;
 }
 
@@ -503,23 +415,6 @@ function fetchPoolData() {
   });
 }
 
-// 112: load pools from a fixture/transient, failing SAFE to live. Returns an
-// array only when the fixture holds a non-empty pool array; otherwise null so
-// the caller live-fetches (never a truncated/empty run that would prune SEO).
-function loadFixturePools(fixturePath) {
-  if (!fixturePath) return null;
-  try {
-    const raw = JSON.parse(fs.readFileSync(fixturePath, 'utf8'));
-    const arr = raw && raw.data ? raw.data : raw;
-    if (Array.isArray(arr) && arr.length > 0) return arr;
-    console.warn('⚠️  Fixture empty — live fallback:', fixturePath);
-    return null;
-  } catch (e) {
-    console.warn('⚠️  Fixture missing/malformed — live fallback:', fixturePath, '(' + e.message + ')');
-    return null;
-  }
-}
-
 function parseArgs(argv) {
   const args = { fixture: process.env.POOLS_FIXTURE || null, out: 'chains', limit: DEFAULT_LIMIT, sitemap: 'sitemap-chain-pages.xml' };
   for (let i = 0; i < argv.length; i++) {
@@ -534,9 +429,11 @@ function parseArgs(argv) {
 
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  let pools = loadFixturePools(args.fixture);
-  if (pools) {
-    console.log('📄 Loaded pools from fixture:', args.fixture);
+  let pools;
+  if (args.fixture) {
+    console.log('📄 Loading pools from fixture:', args.fixture);
+    const raw = JSON.parse(fs.readFileSync(args.fixture, 'utf8'));
+    pools = raw.data || raw;
   } else {
     console.log('📡 Fetching pools from DefiLlama...');
     pools = await fetchPoolData();
@@ -545,9 +442,6 @@ async function main() {
 
   const ranked = rankTopChains(pools, args.limit);
   console.log(`🏆 ${ranked.length} chains (>= ${MIN_QUALIFYING_POOLS} qualifying pool each)`);
-  // item 226: machine-checked soft-404 gate — throws loudly rather than ever
-  // writing/sitemapping an empty-table page.
-  assertNonEmptyPages(ranked, 'generate-chain-pages.js chains');
 
   // Per-page OG images (051): one per chain slug, shared across en/ko (the
   // card data doesn't vary by language).
@@ -563,11 +457,9 @@ async function main() {
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   // Clean stale pages first so chains dropped by the gate / renamed slugs
   // don't linger from a previous run (mirrors 031's token-page cleanup).
-  // *.html AND *.md (212) — an orphaned Markdown twin of a page that no
-  // longer exists is the exact drift failure mode this item exists to prevent.
   if (outDir !== process.cwd()) {
     fs.readdirSync(outDir).forEach(f => {
-      if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(outDir, f));
+      if (f.endsWith('.html')) fs.rmSync(path.join(outDir, f));
     });
   }
   // One generation date for the whole run (048): every page's visible "Last
@@ -582,9 +474,6 @@ async function main() {
   ranked.forEach(rec => {
     const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
     fs.writeFileSync(path.join(outDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'en', ogImagePaths));
-    // 212: Markdown twin, written in the SAME loop from the SAME `rec`/`genDate`
-    // so the two can never drift out of the same generation run.
-    fs.writeFileSync(path.join(outDir, `${rec.slug}.md`), renderChainPageMarkdown(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'en'));
   });
   console.log(`📝 Wrote ${ranked.length} pages to ${args.out}/`);
 
@@ -600,32 +489,25 @@ async function main() {
   const koOutDir = path.join(path.dirname(outDir), 'ko', path.basename(outDir));
   if (!fs.existsSync(koOutDir)) fs.mkdirSync(koOutDir, { recursive: true });
   if (koOutDir !== process.cwd()) {
-    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html') || f.endsWith('.md')) fs.rmSync(path.join(koOutDir, f)); });
+    fs.readdirSync(koOutDir).forEach(f => { if (f.endsWith('.html')) fs.rmSync(path.join(koOutDir, f)); });
   }
   ranked.forEach(rec => {
     const tokenLinks = topTokensOnChain(rec, generatedTokenSlugs);
     fs.writeFileSync(path.join(koOutDir, `${rec.slug}.html`), renderChainPage(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'ko', ogImagePaths));
-    fs.writeFileSync(path.join(koOutDir, `${rec.slug}.md`), renderChainPageMarkdown(rec, relatedChainsFor(rec, ranked), genDate, tokenLinks, 'ko'));
   });
   fs.writeFileSync(path.join(koOutDir, 'index.html'), renderChainHubPage(ranked, 'ko'));
   console.log(`🇰🇷 Wrote ${ranked.length} ko/chains pages + ko hub page`);
 
   if (args.sitemap) {
-    const lastmod = new Date().toISOString().slice(0, 10);
-    // item 226: pages are still written for EVERY ranked chain above (nothing
-    // deleted) — only the SITEMAP URL list is filtered to the demand-
-    // plausible head (generate-sitemap.js's selectHeadChains, the single
-    // source of truth for this gate). The hub URL stays in the sitemap in full.
-    const headChains = selectHeadChains(pools);
-    const headRanked = ranked.filter(rec => headChains.has(rec.chain));
+    const lastmod = new Date().toISOString();
     const hubUrls = [`${SITE_URL}/chains`];
-    fs.writeFileSync(path.resolve(args.sitemap), renderChainSitemap(headRanked, lastmod, hubUrls));
-    console.log(`🗺️  Wrote ${args.sitemap} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${hubUrls.length} hub URL)`);
+    fs.writeFileSync(path.resolve(args.sitemap), renderChainSitemap(ranked, lastmod, hubUrls));
+    console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length + hubUrls.length} URLs)`);
 
     const koSitemapPath = args.sitemap.replace(/\.xml$/, '-ko.xml');
     const koHubUrls = [`${SITE_URL}/ko/chains`];
-    fs.writeFileSync(path.resolve(koSitemapPath), renderChainSitemap(headRanked, lastmod, koHubUrls, 'ko'));
-    console.log(`🗺️  Wrote ${koSitemapPath} (${headRanked.length} head URLs of ${ranked.length} generated pages, + ${koHubUrls.length} hub URL)`);
+    fs.writeFileSync(path.resolve(koSitemapPath), renderChainSitemap(ranked, lastmod, koHubUrls, 'ko'));
+    console.log(`🗺️  Wrote ${koSitemapPath} (${ranked.length + koHubUrls.length} URLs)`);
   }
 }
 
@@ -634,7 +516,7 @@ if (require.main === module) {
 }
 
 module.exports = {
-  rankTopChains, renderChainPage, renderChainPageMarkdown, relatedChainsFor, renderChainSitemap, renderChainHubPage, chainSlug,
-  topTokensOnChain, loadFixturePools,
+  rankTopChains, renderChainPage, relatedChainsFor, renderChainSitemap, renderChainHubPage, chainSlug,
+  topTokensOnChain,
   POOLS_PER_PAGE, MIN_POOL_TVL, APY_SANITY_LIMIT, MIN_QUALIFYING_POOLS, DEFAULT_LIMIT, SITE_URL
 };
