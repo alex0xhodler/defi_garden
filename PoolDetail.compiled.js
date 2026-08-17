@@ -389,6 +389,8 @@ function PoolDetail({
 
   // BreadcrumbList JSON-LD (040): mirrors the visual breadcrumb above
   // (Search Results -> <SYMBOL> Pool) without touching its markup/behavior.
+  var origin = typeof window !== 'undefined' && window.location && window.location.origin || 'https://www.defi.garden';
+  var poolUrl = `${origin}/?pool=${encodeURIComponent(pool.pool || '')}`;
   var breadcrumbJsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -396,13 +398,51 @@ function PoolDetail({
       '@type': 'ListItem',
       position: 1,
       name: 'Search Results',
-      item: `${window.location.origin}/?app=1`
+      item: `${origin}/?app=1`
     }, {
       '@type': 'ListItem',
       position: 2,
       name: `${pool.symbol} Pool`,
-      item: `${window.location.origin}/?pool=${encodeURIComponent(pool.pool)}`
+      item: poolUrl
     }]
+  }).replace(/</g, '\\u003c');
+
+  // FinancialProduct JSON-LD (AEO/GEO & GSC metadata) — defensive, trust-railed
+  var financialProductJsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FinancialProduct',
+    name: `${pool.project || 'DeFi'} ${pool.symbol || ''} Pool on ${pool.chain || 'DeFi'}`,
+    description: `Real-time yield pool on ${pool.project || 'DeFi'} (${pool.chain || 'DeFi'}) with ${_formatApy(totalApy)} APY and ${formatCurrency(pool.tvlUsd)} TVL.`,
+    ...(showConcreteCta ? {
+      annualPercentageRate: Number(Number(totalApy || 0).toFixed(2)),
+      interestRate: Number(Number(totalApy || 0).toFixed(2))
+    } : {}),
+    provider: {
+      '@type': 'Organization',
+      name: pool.project || 'DeFi Protocol'
+    },
+    currency: 'USD',
+    category: poolType,
+    url: poolUrl
+  }).replace(/</g, '\\u003c');
+
+  // Dataset JSON-LD (Rich Data metadata)
+  var poolDatasetJsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: `${pool.symbol || ''} ${pool.project || ''} Yield Data (${pool.chain || ''})`,
+    description: `Live DefiLlama yield data for ${pool.symbol || ''} on ${pool.project || ''} (${pool.chain || ''}) with ${formatCurrency(pool.tvlUsd)} TVL.`,
+    url: poolUrl,
+    creator: {
+      '@type': 'Organization',
+      name: 'DeFi Garden',
+      url: origin
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'DeFi Garden',
+      url: origin
+    }
   }).replace(/</g, '\\u003c');
 
   // 247 world: layout is owned by pool-detail-styles.css (the certificate
@@ -413,6 +453,16 @@ function PoolDetail({
     type: 'application/ld+json',
     dangerouslySetInnerHTML: {
       __html: breadcrumbJsonLd
+    }
+  }), React.createElement('script', {
+    type: 'application/ld+json',
+    dangerouslySetInnerHTML: {
+      __html: financialProductJsonLd
+    }
+  }), React.createElement('script', {
+    type: 'application/ld+json',
+    dangerouslySetInnerHTML: {
+      __html: poolDatasetJsonLd
     }
   }),
   // Header — app.js renders the SAME full-width `.app-header-sticky` band
