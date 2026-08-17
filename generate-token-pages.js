@@ -999,7 +999,7 @@ async function main() {
   console.log(`🇰🇷 Wrote ${ranked.length} ko/tokens pages + ko hub + ${azGroups.length} ko A–Z pages`);
 
   if (args.sitemap) {
-    const lastmod = new Date().toISOString().slice(0, 10);
+    const lastmod = new Date().toISOString();
     const hubUrls = [`${SITE_URL}/tokens`].concat(azGroups.map(g => `${SITE_URL}/tokens/az/${g.slug}`));
     fs.writeFileSync(path.resolve(args.sitemap), renderTokenSitemap(ranked, lastmod, hubUrls));
     console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length + hubUrls.length} URLs)`);

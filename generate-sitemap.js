@@ -324,6 +324,9 @@ function maxLastmodFromFile(filePath, fallback) {
   for (const { lastmod } of parseExistingUrlEntries(filePath).values()) {
     if (lastmod > max) max = lastmod;
   }
+  if (max && /^\d{4}-\d{2}-\d{2}$/.test(max)) {
+    max = `${max}T00:00:00.000Z`;
+  }
   return max || fallback;
 }
 
@@ -368,11 +371,17 @@ async function generateSitemapSuite(poolsOverride) {
     const qualifyingTokenPoolCount = new Map(); // token -> count
     const qualifyingTokenChainPoolCount = new Map(); // "token|chain" -> count
     const qualifyingTokenCategoryPoolCount = new Map(); // "token|category" -> count
+    const chainQualifyingPoolCount = new Map(); // chain -> count
+    const chainQualifyingTvlMap = new Map(); // chain -> tvl
 
     pools.forEach(p => {
       if (!isQualifyingPool(p)) return;
       const symbols = p.symbol?.split(/[-_\/\s]/).map(s => s.trim().toUpperCase()) || [];
       const type = getPoolType(p);
+      if (p.chain) {
+        chainQualifyingPoolCount.set(p.chain, (chainQualifyingPoolCount.get(p.chain) || 0) + 1);
+        chainQualifyingTvlMap.set(p.chain, (chainQualifyingTvlMap.get(p.chain) || 0) + (p.tvlUsd || 0));
+      }
       symbols.forEach(s => {
         if (!isValidToken(s)) return;
         qualifyingTokenPoolCount.set(s, (qualifyingTokenPoolCount.get(s) || 0) + 1);
@@ -401,16 +410,18 @@ async function generateSitemapSuite(poolsOverride) {
     });
 
     // 2. Vertical: Chain-Specific Sitemaps
+    // Gate to active chains with TVL >= $5M AND >= 3 qualifying pools to avoid index fragmentation
     console.log('📝 Building Vertical Chain Sitemaps...');
-    const topChains = Array.from(chainTokensMap.keys()).sort((a, b) => {
-      // Sort by chain popularity (simple heuristic)
-      const popular = ['Ethereum', 'Base', 'Arbitrum', 'Polygon', 'Optimism', 'Solana', 'Avalanche', 'BNB Chain'];
-      const aIdx = popular.indexOf(a);
-      const bIdx = popular.indexOf(b);
-      if (aIdx !== -1 && bIdx !== -1) return aIdx - bIdx;
-      if (aIdx !== -1) return -1;
-      if (bIdx !== -1) return 1;
-      return a.localeCompare(b);
+    const eligibleChains = Array.from(chainTokensMap.keys()).filter(chain => {
+      const qualifyingPools = chainQualifyingPoolCount.get(chain) || 0;
+      const tvl = chainQualifyingTvlMap.get(chain) || 0;
+      return qualifyingPools >= 3 && tvl >= 5000000;
+    });
+
+    const topChains = eligibleChains.sort((a, b) => {
+      const tvlA = chainQualifyingTvlMap.get(a) || 0;
+      const tvlB = chainQualifyingTvlMap.get(b) || 0;
+      return tvlB - tvlA;
     });
 
     topChains.forEach(chain => {
@@ -509,50 +520,63 @@ async function generateSitemapSuite(poolsOverride) {
       }
     }
 
-    // Generate Index (Alphabetical). Each child's <lastmod> = the max URL lastmod
-    // in that child (081), so the index only moves when a child really changed.
+    // Generate Index (Prioritized, SOTA Ordering: sitemap-main.xml first, static landing hubs, tokens, categories, chains).
     let indexXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
     indexXml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
-    generatedFilenames.sort().forEach(filename => {
-      if (sitemaps[filename].length > 0) {
-        indexXml += '  <sitemap>\n';
-        indexXml += `    <loc>${SITE_URL}${filename}</loc>\n`;
-        indexXml += `    <lastmod>${childMaxLastmod[filename]}</lastmod>\n`;
-        indexXml += '  </sitemap>\n';
-      }
-    });
-    // Include the static /tokens/ landing-page sitemap (021) when it has been
-    // generated (generate-token-pages.js writes it in the same CI run). Kept
-    // discoverable via the index so crawlers find the real static pages.
+
+    const indexEntries = [];
+
+    // 1. Core Canonical Site Structure (First Priority)
+    if (sitemaps['sitemap-main.xml'] && sitemaps['sitemap-main.xml'].length > 0) {
+      indexEntries.push({ loc: `${SITE_URL}sitemap-main.xml`, lastmod: childMaxLastmod['sitemap-main.xml'] || now });
+    }
+
+    // 2. Static Landing Pages (EN)
     if (fs.existsSync('sitemap-token-pages.xml')) {
-      indexXml += '  <sitemap>\n';
-      indexXml += `    <loc>${SITE_URL}sitemap-token-pages.xml</loc>\n`;
-      indexXml += `    <lastmod>${maxLastmodFromFile('sitemap-token-pages.xml', now)}</lastmod>\n`;
-      indexXml += '  </sitemap>\n';
+      indexEntries.push({ loc: `${SITE_URL}sitemap-token-pages.xml`, lastmod: maxLastmodFromFile('sitemap-token-pages.xml', now) });
     }
-    // Include the static /chains/ landing-page sitemap (041) when it has been
-    // generated (generate-chain-pages.js writes it in the same CI run) —
-    // mirrors the sitemap-token-pages.xml guard directly above.
     if (fs.existsSync('sitemap-chain-pages.xml')) {
-      indexXml += '  <sitemap>\n';
-      indexXml += `    <loc>${SITE_URL}sitemap-chain-pages.xml</loc>\n`;
-      indexXml += `    <lastmod>${maxLastmodFromFile('sitemap-chain-pages.xml', now)}</lastmod>\n`;
-      indexXml += '  </sitemap>\n';
+      indexEntries.push({ loc: `${SITE_URL}sitemap-chain-pages.xml`, lastmod: maxLastmodFromFile('sitemap-chain-pages.xml', now) });
     }
-    // Korean /ko/tokens/ + /ko/chains/ landing-page sitemaps (050) — same
-    // existsSync guard pattern as their en counterparts above.
+
+    // 3. Static Landing Pages (KO)
     if (fs.existsSync('sitemap-token-pages-ko.xml')) {
-      indexXml += '  <sitemap>\n';
-      indexXml += `    <loc>${SITE_URL}sitemap-token-pages-ko.xml</loc>\n`;
-      indexXml += `    <lastmod>${maxLastmodFromFile('sitemap-token-pages-ko.xml', now)}</lastmod>\n`;
-      indexXml += '  </sitemap>\n';
+      indexEntries.push({ loc: `${SITE_URL}sitemap-token-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-token-pages-ko.xml', now) });
     }
     if (fs.existsSync('sitemap-chain-pages-ko.xml')) {
-      indexXml += '  <sitemap>\n';
-      indexXml += `    <loc>${SITE_URL}sitemap-chain-pages-ko.xml</loc>\n`;
-      indexXml += `    <lastmod>${maxLastmodFromFile('sitemap-chain-pages-ko.xml', now)}</lastmod>\n`;
-      indexXml += '  </sitemap>\n';
+      indexEntries.push({ loc: `${SITE_URL}sitemap-chain-pages-ko.xml`, lastmod: maxLastmodFromFile('sitemap-chain-pages-ko.xml', now) });
     }
+
+    // 4. Global Token Index
+    if (sitemaps['sitemap-tokens-all.xml'] && sitemaps['sitemap-tokens-all.xml'].length > 0) {
+      indexEntries.push({ loc: `${SITE_URL}sitemap-tokens-all.xml`, lastmod: childMaxLastmod['sitemap-tokens-all.xml'] || now });
+    }
+
+    // 5. Vertical Category Shards
+    categories.forEach(cat => {
+      const safeCatName = cat.replace(/[^a-z0-9]/gi, '-');
+      const filename = `sitemap-category-${safeCatName}.xml`;
+      if (sitemaps[filename] && sitemaps[filename].length > 0) {
+        indexEntries.push({ loc: `${SITE_URL}${filename}`, lastmod: childMaxLastmod[filename] || now });
+      }
+    });
+
+    // 6. Active Chain Shards (TVL-ranked)
+    topChains.forEach(chain => {
+      const safeChainName = chain.replace(/[^a-z0-9]/gi, '-');
+      const filename = `sitemap-chain-${safeChainName}.xml`;
+      if (sitemaps[filename] && sitemaps[filename].length > 0) {
+        indexEntries.push({ loc: `${SITE_URL}${filename}`, lastmod: childMaxLastmod[filename] || now });
+      }
+    });
+
+    indexEntries.forEach(entry => {
+      indexXml += '  <sitemap>\n';
+      indexXml += `    <loc>${entry.loc}</loc>\n`;
+      indexXml += `    <lastmod>${entry.lastmod}</lastmod>\n`;
+      indexXml += '  </sitemap>\n';
+    });
+
     indexXml += '</sitemapindex>';
     fs.writeFileSync('sitemap.xml', indexXml);
     console.log('✅ Generated sitemap.xml (Index)');

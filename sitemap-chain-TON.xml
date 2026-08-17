@@ -101,15 +101,6 @@
     <priority>0.56</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=ANON&amp;chain=TON</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ANON&amp;chain=TON" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ANON&amp;chain=TON&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ANON&amp;chain=TON" />
-    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.58</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=JETTON&amp;chain=TON</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=JETTON&amp;chain=TON" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=JETTON&amp;chain=TON&amp;lang=ko" />

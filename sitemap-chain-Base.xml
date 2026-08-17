@@ -200,15 +200,6 @@
     <priority>0.67</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=VIRTUAL&amp;chain=Base</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VIRTUAL&amp;chain=Base" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VIRTUAL&amp;chain=Base&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VIRTUAL&amp;chain=Base" />
-    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.71</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=ETH&amp;chain=Base</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=Base" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=Base&amp;lang=ko" />
@@ -225,6 +216,15 @@
     <lastmod>2026-08-17T10:51:55.904Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VIRTUAL&amp;chain=Base</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VIRTUAL&amp;chain=Base" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VIRTUAL&amp;chain=Base&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VIRTUAL&amp;chain=Base" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=MSUSD&amp;chain=Base</loc>
@@ -303,9 +303,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=REI&amp;chain=Base" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=REI&amp;chain=Base&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=REI&amp;chain=Base" />
-    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <lastmod>2026-08-17T12:59:51.253Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.63</priority>
+    <priority>0.64</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=ZEN&amp;chain=Base</loc>
@@ -326,15 +326,6 @@
     <priority>0.63</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=BNKR&amp;chain=Base</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BNKR&amp;chain=Base" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BNKR&amp;chain=Base&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BNKR&amp;chain=Base" />
-    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.62</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=USDT&amp;chain=Base</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=Base" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=Base&amp;lang=ko" />
@@ -342,6 +333,15 @@
     <lastmod>2026-08-17T10:51:55.904Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BNKR&amp;chain=Base</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BNKR&amp;chain=Base" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BNKR&amp;chain=Base&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BNKR&amp;chain=Base" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=CLANKER&amp;chain=Base</loc>
@@ -407,15 +407,6 @@
     <priority>0.63</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=USSI&amp;chain=Base</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USSI&amp;chain=Base" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USSI&amp;chain=Base&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USSI&amp;chain=Base" />
-    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.61</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=EUSD&amp;chain=Base</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EUSD&amp;chain=Base" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EUSD&amp;chain=Base&amp;lang=ko" />
@@ -423,6 +414,15 @@
     <lastmod>2026-08-17T10:51:55.904Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USSI&amp;chain=Base</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USSI&amp;chain=Base" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USSI&amp;chain=Base&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USSI&amp;chain=Base" />
+    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=TIG&amp;chain=Base</loc>
@@ -519,9 +519,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ZORA&amp;chain=Base" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ZORA&amp;chain=Base&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ZORA&amp;chain=Base" />
-    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <lastmod>2026-08-17T12:59:51.253Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.61</priority>
+    <priority>0.60</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=DRV&amp;chain=Base</loc>
@@ -717,9 +717,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OUSDT&amp;chain=Base" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OUSDT&amp;chain=Base&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OUSDT&amp;chain=Base" />
-    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <lastmod>2026-08-17T12:59:51.253Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.56</priority>
+    <priority>0.57</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AAA&amp;chain=Base</loc>
@@ -729,5 +729,14 @@
     <lastmod>2026-08-17T10:51:55.904Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SKAITO&amp;chain=Base</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SKAITO&amp;chain=Base" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SKAITO&amp;chain=Base&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SKAITO&amp;chain=Base" />
+    <lastmod>2026-08-17T12:59:51.253Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
   </url>
 </urlset>

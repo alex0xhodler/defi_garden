@@ -132,9 +132,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OVER&amp;chain=OP+Mainnet" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OVER&amp;chain=OP+Mainnet&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OVER&amp;chain=OP+Mainnet" />
-    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <lastmod>2026-08-17T12:59:51.253Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.61</priority>
+    <priority>0.62</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=CRVUSD&amp;chain=OP%20Mainnet</loc>

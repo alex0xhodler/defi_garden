@@ -69,9 +69,9 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDSUI&amp;chain=Sui" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDSUI&amp;chain=Sui&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDSUI&amp;chain=Sui" />
-    <lastmod>2026-08-17T10:51:55.904Z</lastmod>
+    <lastmod>2026-08-17T12:59:51.253Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.69</priority>
+    <priority>0.68</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=XBTC&amp;chain=Sui</loc>
@@ -128,19 +128,19 @@
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=WAL&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAL&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAL&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAL&amp;chain=Sui" />
+    <loc>https://www.defi.garden/?token=CETUS&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CETUS&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CETUS&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CETUS&amp;chain=Sui" />
     <lastmod>2026-08-17T10:51:55.904Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.62</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=CETUS&amp;chain=Sui</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CETUS&amp;chain=Sui" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CETUS&amp;chain=Sui&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CETUS&amp;chain=Sui" />
+    <loc>https://www.defi.garden/?token=WAL&amp;chain=Sui</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAL&amp;chain=Sui" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAL&amp;chain=Sui&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAL&amp;chain=Sui" />
     <lastmod>2026-08-17T10:51:55.904Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.62</priority>

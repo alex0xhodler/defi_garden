@@ -499,7 +499,7 @@ async function main() {
   console.log(`🇰🇷 Wrote ${ranked.length} ko/chains pages + ko hub page`);
 
   if (args.sitemap) {
-    const lastmod = new Date().toISOString().slice(0, 10);
+    const lastmod = new Date().toISOString();
     const hubUrls = [`${SITE_URL}/chains`];
     fs.writeFileSync(path.resolve(args.sitemap), renderChainSitemap(ranked, lastmod, hubUrls));
     console.log(`🗺️  Wrote ${args.sitemap} (${ranked.length + hubUrls.length} URLs)`);
