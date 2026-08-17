@@ -4,7 +4,7 @@ The highest honest CNFI yield right now is 0.27% on uniswap-v3 (Arbitrum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b0f0d1d-3f08-4db2-a3d9-63c1d09b76a4&src=seo_token) | Arbitrum | 0.27% | $191.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b0f0d1d-3f08-4db2-a3d9-63c1d09b76a4&src=seo_token) | Arbitrum | 0.27% | $193.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CNFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $191.7K in total.
+1 live pool clear this page's $100K TVL floor, $193.2K in total.
 
 ### Are these rates safe?
 

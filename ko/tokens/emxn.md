@@ -35,10 +35,10 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 0.71%예�
 
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [DAI](https://www.defi.garden/ko/tokens/dai)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [LINK](https://www.defi.garden/ko/tokens/link)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 
 ## 이용 가능한 체인
 

@@ -4,7 +4,7 @@ The highest honest SPARKUSDTBC yield right now is 2.72% on morpho-blue (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=95161b3c-7d6e-4c02-a0d7-878ac357ebbf&src=seo_token) | Ethereum | 2.72% | $34.97M |
+| [morpho-blue →](https://www.defi.garden/?pool=95161b3c-7d6e-4c02-a0d7-878ac357ebbf&src=seo_token) | Ethereum | 2.72% | $34.83M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SPARKUSDTBC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $34.97M in total.
+1 live pool clear this page's $100K TVL floor, $34.83M in total.
 
 ### Are these rates safe?
 

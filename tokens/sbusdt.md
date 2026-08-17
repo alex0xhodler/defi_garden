@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank SBUSDT pools. This view cover
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [BUCK](https://www.defi.garden/tokens/buck)
 - [SUI](https://www.defi.garden/tokens/sui)
+- [BUCK](https://www.defi.garden/tokens/buck)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 
 ## Available on

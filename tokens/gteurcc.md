@@ -4,7 +4,7 @@ The highest honest GTEURCC yield right now is 2.16% on morpho-blue (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d4ea65f3-b54b-49c4-81ba-56e16eec4fb7&src=seo_token) | Ethereum | 2.16% | $1.23M |
+| [morpho-blue →](https://www.defi.garden/?pool=d4ea65f3-b54b-49c4-81ba-56e16eec4fb7&src=seo_token) | Ethereum | 2.16% | $1.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTEURCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.23M in total.
+1 live pool clear this page's $100K TVL floor, $1.24M in total.
 
 ### Are these rates safe?
 

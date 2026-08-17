@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.05% | $421.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.05% | $422.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, BSC의 uniswap-v3에서 APY 0.05%예요.
 
 ### ATC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $421.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $422.9K예요.
 
 ### 이 수익률은 안전한가요?
 

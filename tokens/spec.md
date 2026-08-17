@@ -1,10 +1,10 @@
 # SPEC DeFi Yields
 
-The highest honest SPEC yield right now is 2.65% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPEC yield right now is 15.02% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5903a3bc-b380-4ab7-ba6c-823cee041645&src=seo_token) | Base | 2.65% | $119.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5903a3bc-b380-4ab7-ba6c-823cee041645&src=seo_token) | Base | 15.02% | $118.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPEC yield today?
 
-2.65% APY on uniswap-v4 (Base), based on live DefiLlama data.
+15.02% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SPEC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.8K in total.
+1 live pool clear this page's $100K TVL floor, $118.3K in total.
 
 ### Are these rates safe?
 

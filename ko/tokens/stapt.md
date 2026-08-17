@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=cc5bf3e2-c68f-45ae-8d61-8d2ec473ddd3&src=seo_token) | Aptos | 2.43% | $433K |
+| [echelon-market →](https://www.defi.garden/?pool=cc5bf3e2-c68f-45ae-8d61-8d2ec473ddd3&src=seo_token) | Aptos | 2.43% | $430.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 echelon-market에서 APY 2.43%예
 
 ### STAPT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $433K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $430.8K예요.
 
 ### 이 수익률은 안전한가요?
 

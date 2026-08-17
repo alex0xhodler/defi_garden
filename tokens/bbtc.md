@@ -4,7 +4,7 @@ The highest honest BBTC yield right now is 0.98% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099&src=seo_token) | Ethereum | 0.98% | $201.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099&src=seo_token) | Ethereum | 0.98% | $202.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $201.2K in total.
+1 live pool clear this page's $100K TVL floor, $202.5K in total.
 
 ### Are these rates safe?
 

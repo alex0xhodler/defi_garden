@@ -1,31 +1,31 @@
 # OVER DeFi Yields
 
-The highest honest OVER yield right now is 10.34% on velodrome-v2 (OP Mainnet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OVER yield right now is 10.42% on velodrome-v2 (OP Mainnet), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token) | Base | 9.60% | $384.1K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 1.27% | $300.7K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token) | OP Mainnet | 10.34% | $282.8K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token) | Base | 9.62% | $383.7K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 1.27% | $301.5K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token) | OP Mainnet | 10.42% | $282.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OVER's lower-variability candidates are velodrome-v2 (OP Mainnet), 1.27% APY, $300.7K TVL, https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token; velodrome-v2 (OP Mainnet), 10.34% APY, $282.8K TVL, https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token; aerodrome-v1 (Base), 9.60% APY, $384.1K TVL, https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OVER's lower-variability candidates are velodrome-v2 (OP Mainnet), 1.27% APY, $301.5K TVL, https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token; velodrome-v2 (OP Mainnet), 10.42% APY, $282.5K TVL, https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token; aerodrome-v1 (Base), 9.62% APY, $383.7K TVL, https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 1.27% | $300.7K |
-| 2 | [velodrome-v2 →](https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token) | OP Mainnet | 10.34% | $282.8K |
-| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token) | Base | 9.60% | $384.1K |
+| 1 | [velodrome-v2 →](https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token) | OP Mainnet | 1.27% | $301.5K |
+| 2 | [velodrome-v2 →](https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token) | OP Mainnet | 10.42% | $282.5K |
+| 3 | [aerodrome-v1 →](https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token) | Base | 9.62% | $383.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OVER shows up in 3 pools here, with rates from 1.27% to 10.34% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+OVER shows up in 3 pools here, with rates from 1.27% to 10.42% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 10.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 10.79% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,9 +33,9 @@ OVER shows up in 3 pools here, with rates from 1.27% to 10.34% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 9.60% | 10.80% | 100.00% incentives |
-| velodrome-v2 | 1.27% | 2.37% | 100.00% incentives |
-| velodrome-v2 | 10.34% | 12.24% | 100.00% incentives |
+| aerodrome-v1 | 9.62% | 10.79% | 100.00% incentives |
+| velodrome-v2 | 1.27% | 2.36% | 100.00% incentives |
+| velodrome-v2 | 10.42% | 12.22% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,7 +43,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OVER yield today?
 
-10.34% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+10.42% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many OVER pools clear the TVL floor?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OVER pools have the most stable APY history?
 
-Based on APY history only, OVER's lower-variability candidates are velodrome-v2 (OP Mainnet), 1.27% APY, $300.7K TVL, https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token; velodrome-v2 (OP Mainnet), 10.34% APY, $282.8K TVL, https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token; aerodrome-v1 (Base), 9.60% APY, $384.1K TVL, https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OVER's lower-variability candidates are velodrome-v2 (OP Mainnet), 1.27% APY, $301.5K TVL, https://www.defi.garden/?pool=396f0ae1-c26a-4f65-aeb4-e09e3c4e2d9c&src=seo_token; velodrome-v2 (OP Mainnet), 10.42% APY, $282.5K TVL, https://www.defi.garden/?pool=f5f03272-8345-41a6-a129-f3d1620c8e68&src=seo_token; aerodrome-v1 (Base), 9.62% APY, $383.7K TVL, https://www.defi.garden/?pool=65ce31bb-e7af-4805-8a52-7eabbfae4d2a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

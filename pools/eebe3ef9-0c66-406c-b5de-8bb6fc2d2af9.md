@@ -1,8 +1,8 @@
 # WZRA-USDC — raydium-amm on Solana
 
-**Total APY:** 0.45% (0.45% Base · + 0.00% Rewards)
+**Total APY:** 0.46% (0.46% Base · + 0.00% Rewards)
 
-**TVL:** $128K
+**TVL:** $127.7K
 
 **Pool Type:** LP/DEX
 

@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=f147cf61-e857-520d-83ba-c0f6b2ec69da&src=seo_token) | Solana | 0.01% | $98.9M |
-| [raydium-amm →](https://www.defi.garden/?pool=e1a3cd26-8102-57fd-b3b5-af932c43daf1&src=seo_token) | Solana | 0.01% | $96.93M |
 | [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.01% | $96.92M |
+| [raydium-amm →](https://www.defi.garden/?pool=e1a3cd26-8102-57fd-b3b5-af932c43daf1&src=seo_token) | Solana | 0.01% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=aea8280b-7549-5191-aedf-564957812cfb&src=seo_token) | Solana | 0.01% | $96.91M |
 | [raydium-amm →](https://www.defi.garden/?pool=ccb7702c-646c-5583-9757-46c347e2417c&src=seo_token) | Solana | 0.02% | $93.94M |
 
@@ -30,8 +30,8 @@ CC 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 0.02%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | raydium-amm | 0.01% | 0.00% | 기본 금리 |
-| raydium-amm | 0.01% | 0.00% | 기본 금리 |
 | raydium-amm | 0.01% | 0.02% | 기본 금리 |
+| raydium-amm | 0.01% | 0.01% | 기본 금리 |
 | raydium-amm | 0.01% | 0.01% | 기본 금리 |
 | raydium-amm | 0.02% | 0.02% | 기본 금리 |
 

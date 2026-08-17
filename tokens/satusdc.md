@@ -5,7 +5,7 @@ The highest honest SATUSDC yield right now is 5.79% on morpho-blue (Monad), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=e6cd1ce0-d34b-5c5f-86f1-26dedf428fa7&src=seo_token) | Monad | 5.79% | $1.81M |
-| [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 5.30% | $1.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=2202d562-d4b0-4114-bf9a-5ecba6173a79&src=seo_token) | Ethereum | 5.30% | $1.13M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -24,7 +24,7 @@ SATUSDC shows up in 2 pools here, with rates from 5.30% to 5.79% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 5.79% | 6.93% | 30.27% incentives |
+| morpho-blue | 5.79% | 6.92% | 30.27% incentives |
 | morpho-blue | 5.30% | 5.76% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SATUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.09M in total.
+2 live pools clear this page's $100K TVL floor, $2.94M in total.
 
 ### Are these rates safe?
 

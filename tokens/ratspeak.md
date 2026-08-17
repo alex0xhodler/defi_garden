@@ -1,10 +1,10 @@
 # RATSPEAK DeFi Yields
 
-The highest honest RATSPEAK yield right now is 4.91% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RATSPEAK yield right now is 99.71% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c770eb58-49db-492d-b42c-11acedff8ce1&src=seo_token) | Base | 4.91% | $142.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c770eb58-49db-492d-b42c-11acedff8ce1&src=seo_token) | Base | 99.71% | $170.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RATSPEAK yield today?
 
-4.91% APY on uniswap-v4 (Base), based on live DefiLlama data.
+99.71% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many RATSPEAK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.9K in total.
+1 live pool clear this page's $100K TVL floor, $170.4K in total.
 
 ### Are these rates safe?
 

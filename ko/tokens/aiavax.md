@@ -1,10 +1,10 @@
 # AIAVAX 디파이 수익률
 
-현재 AIAVAX의 가장 높은 정직한 수익률은 Avalanche의 yield-yak-aggregator에서 2.65%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 AIAVAX의 가장 높은 정직한 수익률은 Avalanche의 yield-yak-aggregator에서 2.81%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=6a6ec71a-4e41-4db9-b206-edb9f87a7746&src=seo_token) | Avalanche | 2.65% | $1.51M |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=6a6ec71a-4e41-4db9-b206-edb9f87a7746&src=seo_token) | Avalanche | 2.81% | $1.51M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 AIAVAX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 yield-yak-aggregator에서 APY 2.65%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 yield-yak-aggregator에서 APY 2.81%예요.
 
 ### AIAVAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -4,7 +4,7 @@ The highest honest PLAY yield right now is 0.03% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=61666eb3-58e9-40fd-8e9d-21a7d9c2ebca&src=seo_token) | Solana | 0.03% | $179.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=61666eb3-58e9-40fd-8e9d-21a7d9c2ebca&src=seo_token) | Solana | 0.03% | $180K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PLAY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.8K in total.
+1 live pool clear this page's $100K TVL floor, $180K in total.
 
 ### Are these rates safe?
 

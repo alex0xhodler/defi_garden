@@ -4,7 +4,7 @@ The highest honest SHRUB yield right now is 0.12% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ae9bded8-3c12-48dc-9e64-eff37429604a&src=seo_token) | Ethereum | 0.12% | $202.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ae9bded8-3c12-48dc-9e64-eff37429604a&src=seo_token) | Ethereum | 0.12% | $203.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHRUB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $202.3K in total.
+1 live pool clear this page's $100K TVL floor, $203.2K in total.
 
 ### Are these rates safe?
 

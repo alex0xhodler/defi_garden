@@ -35,9 +35,9 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 12.60% | 10.75% | Base rate |
-| uniswap-v4 | 7.26% | 7.07% | Base rate |
-| uniswap-v4 | 8.81% | 8.42% | Base rate |
+| uniswap-v4 | 12.60% | 10.78% | Base rate |
+| uniswap-v4 | 7.26% | 7.06% | Base rate |
+| uniswap-v4 | 8.81% | 8.43% | Base rate |
 | uniswap-v4 | 0.01% | 0.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -62,12 +62,12 @@ Based on APY history only, MON's lower-variability candidates are uniswap-v4 (Mo
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
+- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 

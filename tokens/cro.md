@@ -5,27 +5,27 @@ The highest honest CRO yield right now is 0.12% on tectonic (Cronos), among 3 po
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token) | Cronos | 0.12% | $2.11M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 0.68% | $377.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 0.60% | $137.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 0.87% | $378.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 0.62% | $137.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.12% APY, $2.11M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token; uniswap-v4 (Ethereum), 0.68% APY, $377.5K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token; uniswap-v3 (Ethereum), 0.60% APY, $137.5K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.12% APY, $2.11M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token; uniswap-v4 (Ethereum), 0.87% APY, $378.8K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token; uniswap-v3 (Ethereum), 0.62% APY, $137.8K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [tectonic →](https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token) | Cronos | 0.12% | $2.11M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 0.68% | $377.5K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 0.60% | $137.5K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token) | Ethereum | 0.87% | $378.8K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token) | Ethereum | 0.62% | $137.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CRO shows up in 3 pools here, with rates from 0.12% to 0.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CRO shows up in 3 pools here, with rates from 0.12% to 0.87% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.38% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 11.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,9 +33,9 @@ CRO shows up in 3 pools here, with rates from 0.12% to 0.68% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tectonic | 0.12% | 0.12% | 6.92% incentives |
-| uniswap-v4 | 0.68% | 11.38% | Base rate |
-| uniswap-v3 | 0.60% | 22.81% | Base rate |
+| tectonic | 0.12% | 0.12% | 6.89% incentives |
+| uniswap-v4 | 0.87% | 11.02% | Base rate |
+| uniswap-v3 | 0.62% | 22.18% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CRO pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.62M in total.
+3 live pools clear this page's $100K TVL floor, $2.63M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CRO pools have the most stable APY history?
 
-Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.12% APY, $2.11M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token; uniswap-v4 (Ethereum), 0.68% APY, $377.5K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token; uniswap-v3 (Ethereum), 0.60% APY, $137.5K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CRO's lower-variability candidates are tectonic (Cronos), 0.12% APY, $2.11M TVL, https://www.defi.garden/?pool=75ed00fb-d519-41e7-883e-149b4952811d&src=seo_token; uniswap-v4 (Ethereum), 0.87% APY, $378.8K TVL, https://www.defi.garden/?pool=b71f50a6-9744-4399-9578-70cdbfd00808&src=seo_token; uniswap-v3 (Ethereum), 0.62% APY, $137.8K TVL, https://www.defi.garden/?pool=c2859369-1954-46b0-a692-8a9c5aa77624&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

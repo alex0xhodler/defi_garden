@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 7.97% | $969.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_token) | Celo | 7.97% | $972.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 7.97%예요.
 
 ### STCELO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $969.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $972.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,9 +36,9 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 7.97%예요.
 - [USDM](https://www.defi.garden/ko/tokens/usdm)
 - [CUSD](https://www.defi.garden/ko/tokens/cusd)
 - [CELO](https://www.defi.garden/ko/tokens/celo)
+- [EURM](https://www.defi.garden/ko/tokens/eurm)
 - [CEUR](https://www.defi.garden/ko/tokens/ceur)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
 
 ## 이용 가능한 체인
 

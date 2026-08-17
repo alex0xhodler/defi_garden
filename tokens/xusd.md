@@ -4,7 +4,7 @@ The highest honest XUSD yield right now is 0.95% on overnight-finance (Arbitrum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.95% | $117.4K |
+| [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.95% | $119.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.26M in total.
+3 live pools clear this page's $100K TVL floor, $1.27M in total.
 
 ### Are these rates safe?
 

@@ -1,12 +1,12 @@
 # ALETH-WETH — velodrome-v2 on OP Mainnet
 
-**Total APY:** 7.40% (0.00% Base · + 7.40% Rewards)
+**Total APY:** 7.39% (0.00% Base · + 7.39% Rewards)
 
-**TVL:** $2.48M
+**TVL:** $2.5M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 6.33%
+**30d Mean APY:** 6.35%
 
 **Exposure:** multi
 

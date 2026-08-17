@@ -1,10 +1,10 @@
 # NVL 디파이 수익률
 
-현재 NVL의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 2.89%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NVL의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 2.87%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=6cbd5e14-c010-4d58-84af-bbea56885717&src=seo_token) | Cardano | 2.89% | $213.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=6cbd5e14-c010-4d58-84af-bbea56885717&src=seo_token) | Cardano | 2.87% | $215.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 NVL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 2.89%예요.
+DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 2.87%예요.
 
 ### NVL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $213.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $215.2K예요.
 
 ### 이 수익률은 안전한가요?
 

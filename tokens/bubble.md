@@ -1,10 +1,10 @@
 # BUBBLE DeFi Yields
 
-The highest honest BUBBLE yield right now is 3.79% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BUBBLE yield right now is 3.19% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a1075cbc-0a4e-4893-a19a-48364e3821c1&src=seo_token) | Ethereum | 3.79% | $111.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a1075cbc-0a4e-4893-a19a-48364e3821c1&src=seo_token) | Ethereum | 3.19% | $113.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BUBBLE yield today?
 
-3.79% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+3.19% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many BUBBLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.1K in total.
+1 live pool clear this page's $100K TVL floor, $113.3K in total.
 
 ### Are these rates safe?
 

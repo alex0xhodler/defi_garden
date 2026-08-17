@@ -4,7 +4,7 @@ The highest honest PUSSY yield right now is 0.24% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=471b57c9-619d-41b6-a9ec-5a1fb4897ea8&src=seo_token) | Ethereum | 0.24% | $278.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=471b57c9-619d-41b6-a9ec-5a1fb4897ea8&src=seo_token) | Ethereum | 0.24% | $281.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PUSSY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $278.9K in total.
+1 live pool clear this page's $100K TVL floor, $281.2K in total.
 
 ### Are these rates safe?
 

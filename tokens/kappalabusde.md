@@ -4,7 +4,7 @@ The highest honest KAPPALABUSDE yield right now is 12.00% on wildcat-protocol (E
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa&src=seo_token) | Ethereum | 12.00% | $235.7K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=2d2d3e18-f08c-442a-985d-d9d448404bfa&src=seo_token) | Ethereum | 12.00% | $235.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KAPPALABUSDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $235.7K in total.
+1 live pool clear this page's $100K TVL floor, $235.6K in total.
 
 ### Are these rates safe?
 

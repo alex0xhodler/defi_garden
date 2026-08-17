@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many APEUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $266.8K in total.
+2 live pools clear this page's $100K TVL floor, $267K in total.
 
 ### Are these rates safe?
 

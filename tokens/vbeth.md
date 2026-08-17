@@ -4,7 +4,7 @@ The highest honest VBETH yield right now is 1.87% on yearn-finance (Katana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 1.87% | $5.89M |
+| [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 1.87% | $5.97M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -23,7 +23,7 @@ VBETH shows up in 1 pools here, with rates from 1.87% to 1.87% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 1.87% | 2.18% | 48.79% incentives |
+| yearn-finance | 1.87% | 2.18% | 48.62% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VBETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $8.18M in total.
+3 live pools clear this page's $100K TVL floor, $8.27M in total.
 
 ### Are these rates safe?
 

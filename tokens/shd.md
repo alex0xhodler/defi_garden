@@ -4,7 +4,7 @@ The highest honest SHD yield right now is 0.11% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ece1e3f8-382f-4156-a0af-d3ef1ae83ef5&src=seo_token) | Ethereum | 0.11% | $134.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ece1e3f8-382f-4156-a0af-d3ef1ae83ef5&src=seo_token) | Ethereum | 0.11% | $134.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SHD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.1K in total.
+1 live pool clear this page's $100K TVL floor, $134.7K in total.
 
 ### Are these rates safe?
 

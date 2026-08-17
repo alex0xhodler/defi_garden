@@ -4,7 +4,7 @@ The highest honest HEGIC yield right now is 0.02% on uniswap-v3 (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e72b5f97-7631-4f13-a251-39d798750f6a&src=seo_token) | Arbitrum | 0.02% | $1.72M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e72b5f97-7631-4f13-a251-39d798750f6a&src=seo_token) | Arbitrum | 0.02% | $1.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HEGIC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.72M in total.
+1 live pool clear this page's $100K TVL floor, $1.73M in total.
 
 ### Are these rates safe?
 

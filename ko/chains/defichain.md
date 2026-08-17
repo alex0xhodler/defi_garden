@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 1.04% | $724.1K |
+| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 1.04% | $724.4K |
 | SPY-DUSD | [defichain-dex →](https://www.defi.garden/?pool=d6f831a7-0079-4400-b2c5-a8436358d53a&src=seo_chain) | 0.26% | $193.3K |
 | NVDA-DUSD | [defichain-dex →](https://www.defi.garden/?pool=a13e4841-8f66-4426-9ed1-472c9e159e93&src=seo_chain) | 0.89% | $150.6K |
 

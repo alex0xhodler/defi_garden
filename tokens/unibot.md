@@ -1,10 +1,10 @@
 # UNIBOT DeFi Yields
 
-The highest honest UNIBOT yield right now is 0.28% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UNIBOT yield right now is 0.23% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fd883134-dc0c-4c13-a349-afbf2756da4c&src=seo_token) | Ethereum | 0.28% | $620.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fd883134-dc0c-4c13-a349-afbf2756da4c&src=seo_token) | Ethereum | 0.23% | $623.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UNIBOT yield today?
 
-0.28% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.23% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many UNIBOT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $620.2K in total.
+1 live pool clear this page's $100K TVL floor, $623.5K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # RNBW DeFi Yields
 
-The highest honest RNBW yield right now is 1.70% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RNBW yield right now is 1.08% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=913fa7b2-9cd0-4216-8c32-1147bb6d5aaf&src=seo_token) | Base | 1.70% | $208.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=913fa7b2-9cd0-4216-8c32-1147bb6d5aaf&src=seo_token) | Base | 1.08% | $208.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RNBW yield today?
 
-1.70% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.08% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many RNBW pools clear the TVL floor?
 

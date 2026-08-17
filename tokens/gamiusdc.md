@@ -31,9 +31,9 @@ GAMIUSDC shows up in 3 pools here, with rates from 6.15% to 9.16% APY across 2 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 9.16% | 8.43% | Base rate |
+| lagoon | 9.16% | 8.44% | Base rate |
 | gami-labs | 9.04% | 8.57% | Base rate |
-| balancer-v3 | 6.15% | 10.02% | 72.47% incentives |
+| balancer-v3 | 6.15% | 9.99% | 72.47% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
