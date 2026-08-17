@@ -1,10 +1,10 @@
 # RE7HONEY 디파이 수익률
 
-현재 RE7HONEY의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 8.49%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 RE7HONEY의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 8.44%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_token) | Berachain | 8.49% | $4.15M |
+| [berapaw →](https://www.defi.garden/?pool=6e43f0da-2563-40f3-95fa-8bcf6e10b72b&src=seo_token) | Berachain | 8.44% | $4.15M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 RE7HONEY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 8.49%예요.
+DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 8.44%예요.
 
 ### RE7HONEY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 8.49%예요
 
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

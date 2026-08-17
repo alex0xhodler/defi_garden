@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MOONBTC pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

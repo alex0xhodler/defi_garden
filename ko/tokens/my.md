@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=acdeddf4-1866-4070-8f0e-69a1b3513fe5&src=seo_token) | TON | 0.08% | $260.5K |
+| [dedust →](https://www.defi.garden/?pool=acdeddf4-1866-4070-8f0e-69a1b3513fe5&src=seo_token) | TON | 0.08% | $260.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.08%예요.
 
 ### MY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $260.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $260.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.08%예요.
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

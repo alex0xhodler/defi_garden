@@ -1,10 +1,10 @@
 # CGN 디파이 수익률
 
-현재 CGN의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 4.40%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CGN의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 4.47%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3b8a5058-db35-40d5-b513-358d6c7a5a83&src=seo_token) | Base | 4.40% | $106.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3b8a5058-db35-40d5-b513-358d6c7a5a83&src=seo_token) | Base | 4.47% | $106.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 CGN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 4.40%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 4.47%예요.
 
 ### CGN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 4.40%예요.
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

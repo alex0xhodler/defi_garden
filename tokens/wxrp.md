@@ -1,10 +1,10 @@
 # WXRP DeFi Yields
 
-The highest honest WXRP yield right now is 0.73% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WXRP yield right now is 0.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 0.73% | $425.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=02b9bb25-4320-47d5-91ca-817dafa32d4d&src=seo_token) | Solana | 0.60% | $424.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WXRP yield today?
 
-0.73% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.60% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WXRP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $425.1K in total.
+1 live pool clear this page's $100K TVL floor, $424.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WXRP pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

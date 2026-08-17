@@ -4,24 +4,24 @@ The highest honest OVN yield right now is 3.66% on overnight-finance (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token) | Base | 1.38% | $281.9K |
-| [overnight-finance →](https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token) | Base | 3.66% | $241.9K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token) | Base | 1.39% | $284.1K |
+| [overnight-finance →](https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token) | Base | 3.66% | $245.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OVN's lower-variability candidates are overnight-finance (Base), 3.66% APY, $241.9K TVL, https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token; aerodrome-v1 (Base), 1.38% APY, $281.9K TVL, https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OVN's lower-variability candidates are overnight-finance (Base), 3.66% APY, $245.7K TVL, https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token; aerodrome-v1 (Base), 1.39% APY, $284.1K TVL, https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [overnight-finance →](https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token) | Base | 3.66% | $241.9K |
-| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token) | Base | 1.38% | $281.9K |
+| 1 | [overnight-finance →](https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token) | Base | 3.66% | $245.7K |
+| 2 | [aerodrome-v1 →](https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token) | Base | 1.39% | $284.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OVN shows up in 2 pools here, with rates from 1.38% to 3.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OVN shows up in 2 pools here, with rates from 1.39% to 3.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,7 +31,7 @@ OVN shows up in 2 pools here, with rates from 1.38% to 3.66% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 1.38% | 1.52% | 100.00% incentives |
+| aerodrome-v1 | 1.39% | 1.52% | 100.00% incentives |
 | overnight-finance | 3.66% | 3.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OVN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $697.5K in total.
+3 live pools clear this page's $100K TVL floor, $705.8K in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OVN pools have the most stable APY history?
 
-Based on APY history only, OVN's lower-variability candidates are overnight-finance (Base), 3.66% APY, $241.9K TVL, https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token; aerodrome-v1 (Base), 1.38% APY, $281.9K TVL, https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OVN's lower-variability candidates are overnight-finance (Base), 3.66% APY, $245.7K TVL, https://www.defi.garden/?pool=907fabc1-d5af-45f3-8628-96f0258c525c&src=seo_token; aerodrome-v1 (Base), 1.39% APY, $284.1K TVL, https://www.defi.garden/?pool=a0584beb-730d-4b3e-b988-ad80aa985eb4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

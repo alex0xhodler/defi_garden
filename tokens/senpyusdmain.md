@@ -1,10 +1,10 @@
 # SENPYUSDMAIN DeFi Yields
 
-The highest honest SENPYUSDMAIN yield right now is 5.91% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENPYUSDMAIN yield right now is 5.49% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=699f25fe-09f4-4f82-8f58-baa5b0af8fa4&src=seo_token) | Ethereum | 5.91% | $316.18M |
+| [morpho-blue →](https://www.defi.garden/?pool=699f25fe-09f4-4f82-8f58-baa5b0af8fa4&src=seo_token) | Ethereum | 5.49% | $316.13M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENPYUSDMAIN yield today?
 
-5.91% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.49% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SENPYUSDMAIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $316.18M in total.
+1 live pool clear this page's $100K TVL floor, $316.13M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SENPYUSDMAIN pools. This view
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

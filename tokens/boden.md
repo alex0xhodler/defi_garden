@@ -4,7 +4,7 @@ The highest honest BODEN yield right now is 1.06% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e864d064-1fda-4038-966a-0bfbeaec06b1&src=seo_token) | Solana | 1.06% | $245.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=e864d064-1fda-4038-966a-0bfbeaec06b1&src=seo_token) | Solana | 1.06% | $244.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BODEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $245.1K in total.
+1 live pool clear this page's $100K TVL floor, $244.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BODEN pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

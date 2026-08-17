@@ -1,10 +1,10 @@
 # UDOGE DeFi Yields
 
-The highest honest UDOGE yield right now is 0.20% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UDOGE yield right now is 0.39% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0b693573-8798-4515-b525-a9d13a732eff&src=seo_token) | Base | 0.20% | $209.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0b693573-8798-4515-b525-a9d13a732eff&src=seo_token) | Base | 0.39% | $209.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UDOGE yield today?
 
-0.20% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.39% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many UDOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $209.9K in total.
+1 live pool clear this page's $100K TVL floor, $209.8K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank UDOGE pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

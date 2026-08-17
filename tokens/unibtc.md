@@ -5,8 +5,8 @@ The highest honest UNIBTC yield right now is 1.47% on symbiotic (Ethereum), amon
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [symbiotic →](https://www.defi.garden/?pool=dfe5b8a1-9d7d-5477-8312-1fdd1de8f136&src=seo_token) | Ethereum | 0.16% | $65.56M |
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 1.08% | $17.04M |
-| [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 1.47% | $2.51M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 1.07% | $17.04M |
+| [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 1.47% | $2.5M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,14 +19,14 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 UNIBTC shows up in 3 pools here, with rates from 0.16% to 1.47% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.32% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | symbiotic | 0.16% | 0.16% | 100.00% incentives |
-| berapaw | 1.08% | 0.32% | 100.00% incentives |
+| berapaw | 1.07% | 0.33% | 100.00% incentives |
 | symbiotic | 1.47% | 1.46% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many UNIBTC pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $90.25M in total.
+7 live pools clear this page's $100K TVL floor, $90.24M in total.
 
 ### Are these rates safe?
 
@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank UNIBTC pools. This view cover
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

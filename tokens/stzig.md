@@ -4,7 +4,7 @@ The highest honest STZIG yield right now is 5.64% on valdora-finance (ZIGChain),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_token) | ZIGChain | 5.64% | $7.51M |
+| [valdora-finance →](https://www.defi.garden/?pool=7a3bb4ae-9f3c-5e14-84bc-d7970edb60f6&src=seo_token) | ZIGChain | 5.64% | $7.35M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STZIG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $8.26M in total.
+2 live pools clear this page's $100K TVL floor, $8.09M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank STZIG pools. This view covers
 
 - [ZIGChain](https://www.defi.garden/chains/zigchain)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

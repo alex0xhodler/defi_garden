@@ -1,10 +1,10 @@
 # SRROYDMG DeFi Yields
 
-The highest honest SRROYDMG yield right now is 5.11% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYDMG yield right now is 5.08% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=91c2fa9b-e660-5f77-a3f9-8397e302bd42&src=seo_token) | Ethereum | 5.11% | $607.5K |
+| [royco-v2 →](https://www.defi.garden/?pool=91c2fa9b-e660-5f77-a3f9-8397e302bd42&src=seo_token) | Ethereum | 5.08% | $607.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRROYDMG yield today?
 
-5.11% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+5.08% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SRROYDMG pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SRROYDMG pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

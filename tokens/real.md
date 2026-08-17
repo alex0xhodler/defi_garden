@@ -1,10 +1,10 @@
 # REAL DeFi Yields
 
-The highest honest REAL yield right now is 5.26% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REAL yield right now is 5.12% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9bd6ba2f-30ac-4d25-ae4e-b143585cf4a8&src=seo_token) | Solana | 5.26% | $187.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=9bd6ba2f-30ac-4d25-ae4e-b143585cf4a8&src=seo_token) | Solana | 5.12% | $188.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REAL yield today?
 
-5.26% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.12% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many REAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $187.9K in total.
+1 live pool clear this page's $100K TVL floor, $188.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank REAL pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

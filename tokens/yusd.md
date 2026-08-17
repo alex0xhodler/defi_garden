@@ -4,7 +4,7 @@ The highest honest YUSD yield right now is 0.16% on curve-dex (Avalanche), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $163.9K |
+| [curve-dex →](https://www.defi.garden/?pool=619fc6bd-d3b9-42f8-bf7b-9f72ed1c17bd&src=seo_token) | Avalanche | 0.16% | $164K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $37.47M in total.
+5 live pools clear this page's $100K TVL floor, $37.46M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank YUSD pools. This view covers 
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

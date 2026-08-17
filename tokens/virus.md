@@ -4,7 +4,7 @@ The highest honest VIRUS yield right now is 0.10% on dedust (TON), among 1 pool 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=c97d5042-12b1-43cf-b211-64c9ce36be8b&src=seo_token) | TON | 0.10% | $103K |
+| [dedust →](https://www.defi.garden/?pool=c97d5042-12b1-43cf-b211-64c9ce36be8b&src=seo_token) | TON | 0.10% | $102.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VIRUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103K in total.
+1 live pool clear this page's $100K TVL floor, $102.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VIRUS pools. This view covers
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

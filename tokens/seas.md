@@ -4,7 +4,7 @@ The highest honest SEAS yield right now is 0.34% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=eae7f4a4-d314-4e17-9cea-d17e3e551d1a&src=seo_token) | Solana | 0.34% | $868.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=eae7f4a4-d314-4e17-9cea-d17e3e551d1a&src=seo_token) | Solana | 0.34% | $872.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SEAS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $868.2K in total.
+1 live pool clear this page's $100K TVL floor, $872.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SEAS pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

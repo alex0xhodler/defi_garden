@@ -1,10 +1,10 @@
 # XCX DeFi Yields
 
-The highest honest XCX yield right now is 53.28% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XCX yield right now is 63.51% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=54f3b763-f862-4cc4-a01e-88066a0009fe&src=seo_token) | BSC | 53.28% | $102.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=54f3b763-f862-4cc4-a01e-88066a0009fe&src=seo_token) | BSC | 63.51% | $102.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XCX yield today?
 
-53.28% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+63.51% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many XCX pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XCX pools. This view covers A
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

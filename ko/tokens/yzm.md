@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $486.5K |
+| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $486.6K |
 | [morpho-blue →](https://www.defi.garden/?pool=9ca84254-ecc7-53a7-adf1-4186812dfa37&src=seo_token) | Monad | 1.25% | $197.7K |
 
 <!-- rate-stability:insufficient -->
@@ -25,7 +25,7 @@ YZM 풀은 여기 2개가 있고, 1개 체인에서 APY가 0.50%부터 1.25%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | curvance | 0.50% | 0.44% | 인센티브 100.00% |
-| morpho-blue | 1.25% | 0.41% | 인센티브 100.00% |
+| morpho-blue | 1.25% | 0.42% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 0.50%예요.
 
 ### YZM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $904.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $904.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,15 +49,15 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 0.50%예요.
 
 ## 관련 토큰
 
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [AUSD](https://www.defi.garden/ko/tokens/ausd)
-- [BTC](https://www.defi.garden/ko/tokens/btc)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

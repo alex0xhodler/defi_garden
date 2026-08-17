@@ -1,10 +1,10 @@
 # NBIS DeFi Yields
 
-The highest honest NBIS yield right now is 4.05% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NBIS yield right now is 2.80% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=46eb97ca-b5e7-5fa9-bd53-18597fa57d93&src=seo_token) | Solana | 4.05% | $290.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=46eb97ca-b5e7-5fa9-bd53-18597fa57d93&src=seo_token) | Solana | 2.80% | $291K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NBIS yield today?
 
-4.05% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.80% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NBIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $290.1K in total.
+1 live pool clear this page's $100K TVL floor, $291K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NBIS pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

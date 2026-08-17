@@ -4,7 +4,7 @@ The highest honest PICOSOL yield right now is 5.27% on pico-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pico-staked-sol →](https://www.defi.garden/?pool=924e2834-3086-439e-b10d-8b55e1acaa29&src=seo_token) | Solana | 5.27% | $1.47M |
+| [pico-staked-sol →](https://www.defi.garden/?pool=924e2834-3086-439e-b10d-8b55e1acaa29&src=seo_token) | Solana | 5.27% | $1.46M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PICOSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.91M in total.
+2 live pools clear this page's $100K TVL floor, $1.9M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank PICOSOL pools. This view cove
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

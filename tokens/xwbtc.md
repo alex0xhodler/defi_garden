@@ -4,18 +4,18 @@ The highest honest XWBTC yield right now is 2.97% on ekubo (Starknet), among 4 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 2.97% | $598K |
-| [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token) | Starknet | 0.72% | $597.6K |
+| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 2.97% | $597K |
+| [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token) | Starknet | 0.72% | $596.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 0.72% APY, $597.6K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token; ekubo (Starknet), 2.97% APY, $598K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 0.72% APY, $596.3K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token; ekubo (Starknet), 2.97% APY, $597K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token) | Starknet | 0.72% | $597.6K |
-| 2 | [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 2.97% | $598K |
+| 1 | [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token) | Starknet | 0.72% | $596.3K |
+| 2 | [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 2.97% | $597K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -29,8 +29,8 @@ XWBTC shows up in 2 pools here, with rates from 0.72% to 2.97% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ekubo | 2.97% | 3.72% | 99.99% incentives |
-| troves | 0.72% | 0.41% | Base rate |
+| ekubo | 2.97% | 3.72% | 99.97% incentives |
+| troves | 0.72% | 0.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XWBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.14M in total.
+4 live pools clear this page's $100K TVL floor, $5.12M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XWBTC pools have the most stable APY history?
 
-Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 0.72% APY, $597.6K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token; ekubo (Starknet), 2.97% APY, $598K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 0.72% APY, $596.3K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token; ekubo (Starknet), 2.97% APY, $597K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -65,4 +65,4 @@ Based on APY history only, XWBTC's lower-variability candidates are troves (Star
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

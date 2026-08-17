@@ -4,7 +4,7 @@ The highest honest YZM yield right now is 0.50% on curvance (Monad), among 3 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $486.5K |
+| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $486.6K |
 | [morpho-blue →](https://www.defi.garden/?pool=9ca84254-ecc7-53a7-adf1-4186812dfa37&src=seo_token) | Monad | 1.25% | $197.7K |
 
 <!-- rate-stability:insufficient -->
@@ -25,7 +25,7 @@ YZM shows up in 2 pools here, with rates from 0.50% to 1.25% APY across 1 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curvance | 0.50% | 0.44% | 100.00% incentives |
-| morpho-blue | 1.25% | 0.41% | 100.00% incentives |
+| morpho-blue | 1.25% | 0.42% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YZM pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $904.1K in total.
+3 live pools clear this page's $100K TVL floor, $904.3K in total.
 
 ### Are these rates safe?
 
@@ -49,15 +49,15 @@ There is not enough qualifying APY history to rank YZM pools. This view covers A
 
 ## Related tokens
 
+- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
-- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

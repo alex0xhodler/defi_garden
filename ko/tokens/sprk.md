@@ -1,10 +1,10 @@
 # SPRK 디파이 수익률
 
-현재 SPRK의 가장 높은 정직한 수익률은 Flare의 sparkdex-v3.1에서 1.38%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SPRK의 가장 높은 정직한 수익률은 Flare의 sparkdex-v3.1에서 1.40%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 1.38% | $305.4K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 1.40% | $305.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SPRK의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v3.1에서 APY 1.38%예요.
+DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v3.1에서 APY 1.40%예요.
 
 ### SPRK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v3.1에서 APY 1.38%예�
 
 - [Flare](https://www.defi.garden/ko/chains/flare)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

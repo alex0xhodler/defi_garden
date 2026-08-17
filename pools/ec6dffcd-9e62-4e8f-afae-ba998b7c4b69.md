@@ -1,6 +1,6 @@
 # UNISHOP.AI-USDT — uniswap-v3 on Arbitrum
 
-**Total APY:** 0.27% (0.27% Base · + 0.00% Rewards)
+**Total APY:** 0.28% (0.28% Base · + 0.00% Rewards)
 
 **TVL:** $585.8K
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 16, 2026
+Last updated August 17, 2026

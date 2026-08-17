@@ -1,10 +1,10 @@
 # TAI DeFi Yields
 
-The highest honest TAI yield right now is 9.73% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TAI yield right now is 22.58% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8b8d1d29-eb53-4865-929d-72c2aa52328f&src=seo_token) | Solana | 9.73% | $118.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=8b8d1d29-eb53-4865-929d-72c2aa52328f&src=seo_token) | Solana | 22.58% | $119K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TAI yield today?
 
-9.73% APY on raydium-amm (Solana), based on live DefiLlama data.
+22.58% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.7K in total.
+1 live pool clear this page's $100K TVL floor, $119K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TAI pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

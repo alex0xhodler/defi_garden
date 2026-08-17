@@ -1,10 +1,10 @@
 # MSFTX DeFi Yields
 
-The highest honest MSFTX yield right now is 4.49% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSFTX yield right now is 3.07% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7a2d3931-0c0a-4e99-9e4b-4c647f532363&src=seo_token) | Solana | 4.49% | $241.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=7a2d3931-0c0a-4e99-9e4b-4c647f532363&src=seo_token) | Solana | 3.07% | $241.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MSFTX yield today?
 
-4.49% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.07% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MSFTX pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MSFTX pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

@@ -1,10 +1,10 @@
 # WEETH.BASE 디파이 수익률
 
-현재 WEETH.BASE의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 2.93%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WEETH.BASE의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 2.97%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f291f114-93db-44df-ba8b-5f1ba3fd7c93&src=seo_token) | Base | 2.93% | $1.09M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f291f114-93db-44df-ba8b-5f1ba3fd7c93&src=seo_token) | Base | 2.97% | $1.09M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 WEETH.BASE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 2.93%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 2.97%예요.
 
 ### WEETH.BASE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 2.93%예요
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
+- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

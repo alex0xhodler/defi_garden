@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TOAD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $464.2K in total.
+2 live pools clear this page's $100K TVL floor, $464.1K in total.
 
 ### Are these rates safe?
 
@@ -51,13 +51,13 @@ There is not enough qualifying APY history to rank TOAD pools. This view covers 
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

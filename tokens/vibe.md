@@ -1,10 +1,10 @@
 # VIBE DeFi Yields
 
-The highest honest VIBE yield right now is 116.09% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VIBE yield right now is 223.67% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=517fba73-622f-4e5d-ba81-4213670b418b&src=seo_token) | Ethereum | 116.09% | $668.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=517fba73-622f-4e5d-ba81-4213670b418b&src=seo_token) | Ethereum | 223.67% | $691.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VIBE yield today?
 
-116.09% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+223.67% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many VIBE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $668.9K in total.
+1 live pool clear this page's $100K TVL floor, $691.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VIBE pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

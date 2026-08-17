@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.06% | $20.08M |
+| [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.06% | $20.07M |
 | [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.57% | $7.99M |
 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.70% | $2.29M |
-| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.07% | $1.55M |
+| [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.06% | $1.55M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDTB의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.06%, TVL $20.08M, https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token; Ethereum의 fluid-dex, APY 0.07%, TVL $1.55M, https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token; Ethereum의 aave-v3, APY 5.57%, TVL $7.99M, https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token; Ethereum의 fluid-lending, APY 5.70%, TVL $2.29M, https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDTB의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.06%, TVL $20.07M, https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token; Ethereum의 fluid-dex, APY 0.06%, TVL $1.55M, https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token; Ethereum의 aave-v3, APY 5.57%, TVL $7.99M, https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token; Ethereum의 fluid-lending, APY 5.70%, TVL $2.29M, https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.06% | $20.08M |
-| 2 | [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.07% | $1.55M |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token) | Ethereum | 0.06% | $20.07M |
+| 2 | [fluid-dex →](https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token) | Ethereum | 0.06% | $1.55M |
 | 3 | [aave-v3 →](https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token) | Ethereum | 5.57% | $7.99M |
 | 4 | [fluid-lending →](https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token) | Ethereum | 5.70% | $2.29M |
 
@@ -33,10 +33,10 @@ USDTB 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.06%부터 5.70%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.06% | 0.19% | 기본 금리 |
+| curve-dex | 0.06% | 0.18% | 기본 금리 |
 | aave-v3 | 5.57% | 5.65% | 인센티브 61.03% |
-| fluid-lending | 5.70% | 5.83% | 인센티브 59.65% |
-| fluid-dex | 0.07% | 0.48% | 기본 금리 |
+| fluid-lending | 5.70% | 5.82% | 인센티브 59.65% |
+| fluid-dex | 0.06% | 0.47% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,7 +56,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 fluid-lending에서 APY 5.70%�
 
 ### USDTB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDTB의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.06%, TVL $20.08M, https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token; Ethereum의 fluid-dex, APY 0.07%, TVL $1.55M, https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token; Ethereum의 aave-v3, APY 5.57%, TVL $7.99M, https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token; Ethereum의 fluid-lending, APY 5.70%, TVL $2.29M, https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDTB의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.06%, TVL $20.07M, https://www.defi.garden/?pool=fa91389d-ab0f-43e5-8921-9c9a462d97d2&src=seo_token; Ethereum의 fluid-dex, APY 0.06%, TVL $1.55M, https://www.defi.garden/?pool=0ab47792-0cc7-41e8-9438-8872c3c37fef&src=seo_token; Ethereum의 aave-v3, APY 5.57%, TVL $7.99M, https://www.defi.garden/?pool=baee0253-eb6e-4a08-a579-a2acd4f034b2&src=seo_token; Ethereum의 fluid-lending, APY 5.70%, TVL $2.29M, https://www.defi.garden/?pool=de1e601d-d589-4a66-91b7-d4ac8bdcecac&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -71,4 +71,4 @@ APY 이력만 기준으로 비교한 USDTB의 변동성 낮은 후보는 Ethereu
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

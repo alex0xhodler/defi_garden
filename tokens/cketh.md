@@ -1,10 +1,10 @@
 # CKETH DeFi Yields
 
-The highest honest CKETH yield right now is 0.01% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CKETH yield right now is 0.02% on icpswap (ICP), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 0.01% | $110.5K |
+| [icpswap →](https://www.defi.garden/?pool=04a24949-4d03-46f1-bd11-1d95f59ed9d3&src=seo_token) | ICP | 0.02% | $110.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CKETH yield today?
 
-0.01% APY on icpswap (ICP), based on live DefiLlama data.
+0.02% APY on icpswap (ICP), based on live DefiLlama data.
 
 ### How many CKETH pools clear the TVL floor?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank CKETH pools. This view covers
 - [VCHF](https://www.defi.garden/tokens/vchf)
 - [CKUSDC](https://www.defi.garden/tokens/ckusdc)
 - [CKBTC](https://www.defi.garden/tokens/ckbtc)
-- [GLDT](https://www.defi.garden/tokens/gldt)
+- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Manta의 bifrost-liquid-staking에서 APY 
 
 - [VMANTA](https://www.defi.garden/ko/tokens/vmanta)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

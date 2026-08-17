@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STGUSDC pools. This view cove
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

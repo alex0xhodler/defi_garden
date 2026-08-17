@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stronghold-staked-sol →](https://www.defi.garden/?pool=2df41814-3481-4e53-a91f-4a621e750f91&src=seo_token) | Solana | 5.29% | $3.24M |
+| [stronghold-staked-sol →](https://www.defi.garden/?pool=2df41814-3481-4e53-a91f-4a621e750f91&src=seo_token) | Solana | 5.29% | $3.19M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Solana의 stronghold-staked-sol에서 APY 
 
 ### STRONGSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $6.22M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $6.15M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Solana의 stronghold-staked-sol에서 APY 
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

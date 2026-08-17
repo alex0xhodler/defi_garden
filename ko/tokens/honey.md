@@ -1,37 +1,37 @@
 # HONEY 디파이 수익률
 
-현재 HONEY의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 33.59%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HONEY의 가장 높은 정직한 수익률은 Berachain의 berapaw에서 33.47%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 10.19% | $1.55M |
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.03% | $1.06M |
-| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.04% | $454.8K |
-| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.59% | $237.2K |
-| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 11.48% | $196.3K |
-| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 2.74% | $128.4K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 19.16% | $113K |
+| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 9.89% | $1.55M |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.01% | $1.06M |
+| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.01% | $454.8K |
+| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.47% | $236.6K |
+| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 11.70% | $196.5K |
+| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 2.08% | $128.3K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 19.58% | $112.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 HONEY의 변동성 낮은 후보는 Berachain의 berapaw, APY 5.04%, TVL $454.8K, https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token; Berachain의 berapaw, APY 4.03%, TVL $1.06M, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token; Berachain의 berapaw, APY 19.16%, TVL $113K, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; Berachain의 berapaw, APY 11.48%, TVL $196.3K, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; Berachain의 berapaw, APY 10.19%, TVL $1.55M, https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token; Berachain의 bex, APY 2.74%, TVL $128.4K, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; Berachain의 berapaw, APY 33.59%, TVL $237.2K, https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HONEY의 변동성 낮은 후보는 Berachain의 berapaw, APY 5.01%, TVL $454.8K, https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token; Berachain의 berapaw, APY 4.01%, TVL $1.06M, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token; Berachain의 berapaw, APY 19.58%, TVL $112.9K, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; Berachain의 berapaw, APY 11.70%, TVL $196.5K, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; Berachain의 berapaw, APY 9.89%, TVL $1.55M, https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token; Berachain의 bex, APY 2.08%, TVL $128.3K, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; Berachain의 berapaw, APY 33.47%, TVL $236.6K, https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.04% | $454.8K |
-| 2 | [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.03% | $1.06M |
-| 3 | [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 19.16% | $113K |
-| 4 | [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 11.48% | $196.3K |
-| 5 | [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 10.19% | $1.55M |
-| 6 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 2.74% | $128.4K |
-| 7 | [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.59% | $237.2K |
+| 1 | [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 5.01% | $454.8K |
+| 2 | [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 4.01% | $1.06M |
+| 3 | [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 19.58% | $112.9K |
+| 4 | [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 11.70% | $196.5K |
+| 5 | [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 9.89% | $1.55M |
+| 6 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 2.08% | $128.3K |
+| 7 | [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 33.47% | $236.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-HONEY 풀은 여기 7개가 있고, 1개 체인에서 APY가 2.74%부터 33.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+HONEY 풀은 여기 7개가 있고, 1개 체인에서 APY가 2.08%부터 33.47%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 7개 풀 중 7개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 8.70%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -41,13 +41,13 @@ HONEY 풀은 여기 7개가 있고, 1개 체인에서 APY가 2.74%부터 33.59%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| berapaw | 10.19% | 8.70% | 인센티브 100.00% |
-| berapaw | 4.03% | 4.38% | 인센티브 100.00% |
-| berapaw | 5.04% | 5.38% | 인센티브 100.00% |
-| berapaw | 33.59% | 33.61% | 인센티브 100.00% |
-| berapaw | 11.48% | 12.75% | 인센티브 100.00% |
-| bex | 2.74% | 2.67% | 기본 금리 |
-| berapaw | 19.16% | 20.73% | 인센티브 100.00% |
+| berapaw | 9.89% | 8.70% | 인센티브 100.00% |
+| berapaw | 4.01% | 4.37% | 인센티브 100.00% |
+| berapaw | 5.01% | 5.36% | 인센티브 100.00% |
+| berapaw | 33.47% | 33.59% | 인센티브 100.00% |
+| berapaw | 11.70% | 12.73% | 인센티브 100.00% |
+| bex | 2.08% | 2.64% | 기본 금리 |
+| berapaw | 19.58% | 20.73% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -55,7 +55,7 @@ HONEY 풀은 여기 7개가 있고, 1개 체인에서 APY가 2.74%부터 33.59%�
 
 ### 오늘 HONEY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 33.59%예요.
+DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 33.47%예요.
 
 ### HONEY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Berachain의 berapaw에서 APY 33.59%예�
 
 ### HONEY 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 HONEY의 변동성 낮은 후보는 Berachain의 berapaw, APY 5.04%, TVL $454.8K, https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token; Berachain의 berapaw, APY 4.03%, TVL $1.06M, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token; Berachain의 berapaw, APY 19.16%, TVL $113K, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; Berachain의 berapaw, APY 11.48%, TVL $196.3K, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; Berachain의 berapaw, APY 10.19%, TVL $1.55M, https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token; Berachain의 bex, APY 2.74%, TVL $128.4K, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; Berachain의 berapaw, APY 33.59%, TVL $237.2K, https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HONEY의 변동성 낮은 후보는 Berachain의 berapaw, APY 5.01%, TVL $454.8K, https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token; Berachain의 berapaw, APY 4.01%, TVL $1.06M, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token; Berachain의 berapaw, APY 19.58%, TVL $112.9K, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; Berachain의 berapaw, APY 11.70%, TVL $196.5K, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; Berachain의 berapaw, APY 9.89%, TVL $1.55M, https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token; Berachain의 bex, APY 2.08%, TVL $128.3K, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; Berachain의 berapaw, APY 33.47%, TVL $236.6K, https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -82,4 +82,4 @@ APY 이력만 기준으로 비교한 HONEY의 변동성 낮은 후보는 Beracha
 
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

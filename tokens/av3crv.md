@@ -67,4 +67,4 @@ Based on APY history only, AV3CRV's lower-variability candidates are curve-dex (
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

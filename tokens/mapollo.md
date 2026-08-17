@@ -65,4 +65,4 @@ Based on APY history only, MAPOLLO's lower-variability candidates are pendle (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

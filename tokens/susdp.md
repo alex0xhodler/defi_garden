@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank SUSDP pools. This view covers
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

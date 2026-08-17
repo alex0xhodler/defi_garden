@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GNZ pools. This view covers A
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

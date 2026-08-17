@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VDO pools. This view covers A
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

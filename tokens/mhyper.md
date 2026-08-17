@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 6.81% | 8.39% | Base rate |
+| pendle | 6.81% | 8.37% | Base rate |
 | pendle | 8.34% | 8.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MHYPER pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.57M in total.
+4 live pools clear this page's $100K TVL floor, $3.53M in total.
 
 ### Are these rates safe?
 
@@ -65,4 +65,4 @@ Based on APY history only, MHYPER's lower-variability candidates are pendle (Eth
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

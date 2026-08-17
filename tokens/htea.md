@@ -1,10 +1,10 @@
 # HTEA DeFi Yields
 
-The highest honest HTEA yield right now is 70.18% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HTEA yield right now is 68.47% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=47b7b57c-333c-405c-bd5d-3ee042836722&src=seo_token) | Base | 70.18% | $132.8K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=47b7b57c-333c-405c-bd5d-3ee042836722&src=seo_token) | Base | 68.47% | $132.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HTEA yield today?
 
-70.18% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+68.47% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many HTEA pools clear the TVL floor?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank HTEA pools. This view covers 
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, BSC의 native-credit-pool에서 APY 25.14%
 
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

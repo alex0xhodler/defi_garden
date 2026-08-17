@@ -67,4 +67,4 @@ Based on APY history only, ALNOOR's lower-variability candidates are raydium-amm
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

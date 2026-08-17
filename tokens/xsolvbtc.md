@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XSOLVBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $49.98M in total.
+2 live pools clear this page's $100K TVL floor, $50M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank XSOLVBTC pools. This view cov
 
 - [Bob](https://www.defi.garden/chains/bob)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

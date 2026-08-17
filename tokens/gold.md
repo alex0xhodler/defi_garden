@@ -4,8 +4,8 @@ The highest honest GOLD yield right now is 0.15% on folks-finance-lending (Algor
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d4ae5908-ed9e-42be-ad6b-63bf6107c409&src=seo_token) | Solana | 0.13% | $560.6K |
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.15% | $521.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=d4ae5908-ed9e-42be-ad6b-63bf6107c409&src=seo_token) | Solana | 0.10% | $607.2K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.15% | $527.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-GOLD shows up in 2 pools here, with rates from 0.13% to 0.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GOLD shows up in 2 pools here, with rates from 0.10% to 0.15% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.13% | 0.15% | Base rate |
+| raydium-amm | 0.10% | 0.14% | Base rate |
 | folks-finance-lending | 0.15% | 0.13% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GOLD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.48M in total.
+4 live pools clear this page's $100K TVL floor, $1.54M in total.
 
 ### Are these rates safe?
 
@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank GOLD pools. This view covers 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Algorand](https://www.defi.garden/chains/algorand)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

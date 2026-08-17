@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MCB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $756.8K in total.
+2 live pools clear this page's $100K TVL floor, $756.9K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank MCB pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026
