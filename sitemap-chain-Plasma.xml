@@ -20,21 +20,21 @@
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=PT&amp;chain=Plasma</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PT&amp;chain=Plasma" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PT&amp;chain=Plasma&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PT&amp;chain=Plasma" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://www.defi.garden/?token=USDT0&amp;chain=Plasma</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT0&amp;chain=Plasma" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT0&amp;chain=Plasma&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT0&amp;chain=Plasma" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.84</priority>
+    <priority>0.83</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GHO&amp;chain=Plasma</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GHO&amp;chain=Plasma" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GHO&amp;chain=Plasma&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GHO&amp;chain=Plasma" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
   </url>
 </urlset>

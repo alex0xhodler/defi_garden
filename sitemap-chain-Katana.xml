@@ -10,4 +10,58 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VBWBTC&amp;chain=Katana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VBWBTC&amp;chain=Katana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VBWBTC&amp;chain=Katana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VBWBTC&amp;chain=Katana" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=STEAKUSDC&amp;chain=Katana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=STEAKUSDC&amp;chain=Katana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=STEAKUSDC&amp;chain=Katana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=STEAKUSDC&amp;chain=Katana" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VBUSDC&amp;chain=Katana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VBUSDC&amp;chain=Katana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VBUSDC&amp;chain=Katana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VBUSDC&amp;chain=Katana" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=YMVOG&amp;chain=Katana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YMVOG&amp;chain=Katana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YMVOG&amp;chain=Katana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YMVOG&amp;chain=Katana" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VBUSDT&amp;chain=Katana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VBUSDT&amp;chain=Katana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VBUSDT&amp;chain=Katana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VBUSDT&amp;chain=Katana" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GTUSDT&amp;chain=Katana</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GTUSDT&amp;chain=Katana" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GTUSDT&amp;chain=Katana&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GTUSDT&amp;chain=Katana" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
 </urlset>

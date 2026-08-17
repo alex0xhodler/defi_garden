@@ -10,4 +10,85 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ADA&amp;chain=Cardano</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ADA&amp;chain=Cardano" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ADA&amp;chain=Cardano&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ADA&amp;chain=Cardano" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=IUSD&amp;chain=Cardano</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IUSD&amp;chain=Cardano" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IUSD&amp;chain=Cardano&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IUSD&amp;chain=Cardano" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MIN&amp;chain=Cardano</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MIN&amp;chain=Cardano" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MIN&amp;chain=Cardano&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MIN&amp;chain=Cardano" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DJED&amp;chain=Cardano</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DJED&amp;chain=Cardano" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DJED&amp;chain=Cardano&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DJED&amp;chain=Cardano" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDM&amp;chain=Cardano</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDM&amp;chain=Cardano" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDM&amp;chain=Cardano&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDM&amp;chain=Cardano" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NIGHT&amp;chain=Cardano</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NIGHT&amp;chain=Cardano" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NIGHT&amp;chain=Cardano&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NIGHT&amp;chain=Cardano" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDA&amp;chain=Cardano</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDA&amp;chain=Cardano" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDA&amp;chain=Cardano&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDA&amp;chain=Cardano" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SNEK&amp;chain=Cardano</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SNEK&amp;chain=Cardano" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SNEK&amp;chain=Cardano&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SNEK&amp;chain=Cardano" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDCX&amp;chain=Cardano</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDCX&amp;chain=Cardano" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDCX&amp;chain=Cardano&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDCX&amp;chain=Cardano" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
 </urlset>

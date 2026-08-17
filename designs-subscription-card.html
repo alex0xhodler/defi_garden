@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>디파이 가든 (DeFi Garden) — 디파이 수익으로 매달 구독료 평생 결제하기</title>
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: var(--color-background);
+      color: var(--color-text);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: var(--space-24) var(--space-16) var(--space-64);
+    }
+    .demo-container {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+    .header-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: var(--space-32);
+      padding-bottom: var(--space-16);
+      border-bottom: 1px solid var(--color-border);
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .logo-badge {
+      font-size: var(--font-size-xl);
+      font-weight: 700;
+      color: var(--color-primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .badge-pill {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      background: var(--color-bg-1);
+      color: var(--color-primary);
+      font-weight: 600;
+      border: 1px solid rgba(33, 128, 141, 0.2);
+    }
+
+    /* Controls Header */
+    .controls-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .geo-selector-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 10px;
+      padding: 4px 10px;
+    }
+    .country-select {
+      border: none;
+      background: transparent;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-text);
+      cursor: pointer;
+      outline: none;
+    }
+
+    /* Main View Card */
+    .view-card {
+      background: var(--color-surface);
+      border-radius: 16px;
+      border: 1px solid var(--color-card-border);
+      padding: 32px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    /* Live Pool Context */
+    .pool-context-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 20px;
+      background: var(--color-background);
+      border-radius: 12px;
+      border: 1px solid var(--color-border);
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .pool-identity {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .token-icon-pair {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #2775CA;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 15px;
+      box-shadow: 0 2px 6px rgba(39, 117, 202, 0.3);
+    }
+    .pool-stats-row {
+      display: flex;
+      gap: 20px;
+    }
+    .stat-item {
+      text-align: right;
+    }
+    .stat-item .val {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: var(--font-family-mono);
+    }
+    .stat-item .label {
+      font-size: 11px;
+      color: var(--color-text-secondary);
+      text-transform: uppercase;
+    }
+
+    /* Interactive Deposit Simulator */
+    .slider-zone {
+      margin: 24px 0;
+      padding: 24px;
+      background: var(--color-background);
+      border-radius: 12px;
+      border: 1px solid var(--color-border);
+    }
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 12px;
+    }
+    .deposit-figure {
+      font-size: 28px;
+      font-weight: 700;
+      font-family: var(--font-family-mono);
+      color: var(--color-text);
+    }
+    .range-input {
+      width: 100%;
+      height: 8px;
+      border-radius: 4px;
+      accent-color: var(--color-primary);
+      cursor: pointer;
+      margin-bottom: 16px;
+    }
+
+    /* Subscription Unlocks Grid */
+    .sub-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      margin: 20px 0 28px;
+    }
+    .sub-card {
+      padding: 16px;
+      border-radius: 12px;
+      border: 1px solid var(--color-border);
+      background: var(--color-surface);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 96px;
+    }
+    .sub-card.locked {
+      opacity: 0.45;
+      background: var(--color-background);
+      border-style: dashed;
+    }
+    .sub-card.unlocked {
+      border-color: var(--color-border);
+      background: var(--color-surface);
+    }
+    .sub-card.unlocked:hover {
+      border-color: var(--color-primary);
+      transform: translateY(-1px);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    }
+    .sub-card.selected {
+      border-color: var(--color-primary);
+      background: var(--color-bg-1);
+      box-shadow: 0 0 0 2px var(--color-primary);
+    }
+    
+    .sub-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .brand-favicon {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      object-fit: contain;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      background: #ffffff;
+      padding: 2px;
+    }
+
+    .sub-badge {
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 999px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    .sub-badge.covered {
+      background: rgba(33, 128, 141, 0.15);
+      color: var(--color-primary);
+    }
+    .sub-badge.need-more {
+      background: var(--color-gray-200);
+      color: var(--color-text-secondary);
+    }
+    .sub-name {
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 2px;
+      color: var(--color-text);
+    }
+    .sub-cost {
+      font-size: 12px;
+      color: var(--color-text-secondary);
+    }
+
+    /* Virtual Card Preview Terminal */
+    .virtual-card-terminal {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 24px;
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid var(--color-border);
+      align-items: center;
+    }
+    @media (max-width: 740px) {
+      .virtual-card-terminal { grid-template-columns: 1fr; }
+    }
+
+    .visa-card-render {
+      background: linear-gradient(135deg, #13343B 0%, #1c4952 100%);
+      color: #ffffff;
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 10px 28px rgba(19, 52, 59, 0.25);
+      position: relative;
+    }
+    .visa-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    .visa-chip {
+      width: 36px;
+      height: 26px;
+      background: linear-gradient(135deg, #e4c172 0%, #c99e3a 100%);
+      border-radius: 5px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    
+    .visa-logo-svg {
+      height: 22px;
+      fill: #ffffff;
+    }
+
+    .visa-card-label {
+      font-family: var(--font-family-mono);
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      margin-bottom: 14px;
+      font-weight: 600;
+    }
+    .visa-card-footer {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      opacity: 0.85;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .action-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .input-box {
+      padding: 12px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--color-border);
+      background: var(--color-background);
+      color: var(--color-text);
+      font-size: 14px;
+    }
+    .btn-mint {
+      padding: 12px 20px;
+      border-radius: 8px;
+      border: none;
+      background: var(--color-primary);
+      color: var(--color-white);
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+    .btn-mint:hover {
+      background: var(--color-primary-hover);
+    }
+  </style>
+</head>
+<body>
+
+<div class="demo-container">
+  <div class="header-nav">
+    <a href="#" class="logo-badge">
+      <span>DeFi Garden</span>
+      <span class="badge-pill">수익 결제 가상 카드</span>
+    </a>
+    
+    <div class="controls-header">
+      <div class="geo-selector-container">
+        <span>📍 지역/국가:</span>
+        <select class="country-select" id="geo-switcher" onchange="handleCountryChange(this.value)">
+          <option value="KR" selected>🇰🇷 대한민국 (KRW ₩)</option>
+          <option value="US">🇺🇸 미국 (USD $)</option>
+          <option value="DE">🇩🇪 독일/EU (EUR €)</option>
+          <option value="GB">🇬🇧 영국 (GBP £)</option>
+          <option value="JP">🇯🇵 일본 (JPY ¥)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIEW 3: Contextual Yield Arbitrage (Korean Native) -->
+  <div id="view-3" class="view-card">
+    <div style="margin-bottom: 20px;">
+      <h2 style="margin: 0 0 6px; font-size: 22px;" id="hero-headline">온체인 수익으로 매달 정기 구독료를 평생 결제하세요</h2>
+      <p style="margin: 0; font-size: 14px; color: var(--color-text-secondary);" id="hero-subtext">
+        Base 네트워크에 예치한 원금(USDC)은 100% 안전하게 유지되며, 매달 발생하는 이자 수익만 가상 Visa 카드로 자동 지급되어 구독료를 결제합니다.
+      </p>
+    </div>
+
+    <!-- Live Pool Context -->
+    <div class="pool-context-bar">
+      <div class="pool-identity">
+        <div class="token-icon-pair">$</div>
+        <div>
+          <div style="font-weight: 700; font-size: 15px;">USDC 예치 & 대출 풀</div>
+          <div style="font-size: 12px; color: var(--color-text-secondary);">Base 체인 &bull; Seamless / Aave-v3</div>
+        </div>
+      </div>
+      <div class="pool-stats-row">
+        <div class="stat-item">
+          <div class="val" style="color: var(--color-primary);">6.20%</div>
+          <div class="label">실시간 연이율 (APY)</div>
+        </div>
+        <div class="stat-item">
+          <div class="val">9.4 / 10</div>
+          <div class="label">위험 안전도 점수</div>
+        </div>
+        <div class="stat-item">
+          <div class="val">$48.2M</div>
+          <div class="label">풀 예치 규모 (TVL)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Deposit Simulation Slider -->
+    <div class="slider-zone">
+      <div class="slider-header">
+        <span style="font-size: 13px; color: var(--color-text-secondary); font-weight: 600;">예치 시뮬레이션:</span>
+        <span id="deposit-readout" class="deposit-figure">$4,000 USDC</span>
+      </div>
+      <input type="range" class="range-input" id="sim-slider" min="500" max="20000" step="250" value="4000" oninput="handleSim(this.value)">
+      
+      <div style="display: flex; justify-content: space-between; font-size: 12px; color: var(--color-text-secondary); font-family: var(--font-family-mono);">
+        <span>$500 (최소)</span>
+        <span id="monthly-yield-readout" style="color: var(--color-primary); font-weight: bold;">월 예상 수익: $20.67 (약 ₩27,900 / 월)</span>
+        <span>$20,000 (최대)</span>
+      </div>
+    </div>
+
+    <!-- Dynamic Subscriptions Unlocked -->
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 8px;">
+      <div style="font-size: 13px; font-weight: 600; color: var(--color-text-secondary);">
+        내 수익으로 평생 무료 결제 가능한 구독 서비스:
+      </div>
+      <div id="country-tag" style="font-size: 11px; color: var(--color-primary); font-weight: 600;">
+        대한민국 맞춤 인기 서비스
+      </div>
+    </div>
+
+    <div class="sub-grid" id="subs-container">
+      <!-- Injected dynamically based on Country catalog -->
+    </div>
+
+    <!-- Virtual Card Minting Terminal -->
+    <div class="virtual-card-terminal">
+      <div class="visa-card-render">
+        <div class="visa-card-header">
+          <div class="visa-chip"></div>
+          <!-- Authentic Crisp Visa SVG Mark -->
+          <svg class="visa-logo-svg" viewBox="0 0 780 250">
+            <path d="M293.6 244.6h-59.5l37.2-229.4h59.5l-37.2 229.4zm233.1-224.2c-11.8-4.7-30.3-9.8-53.4-9.8-58.8 0-100.2 31.3-100.6 76.1-.4 33.1 29.5 51.5 52.1 62.5 23.2 11.3 31 18.5 30.9 28.6-.2 15.5-18.6 22.6-35.8 22.6-23.9 0-36.7-3.6-56.3-12.2l-7.9-3.7-8.5 52.6c14.1 6.5 40.3 12.1 67.4 12.4 63.6 0 104.9-31.4 105.5-80.1.3-26.7-15.9-47-50.8-63.7-21.2-10.9-34.1-18.1-34-29.1.1-9.8 11-20.2 34.8-20.2 19.8-.3 34.2 4.2 45.4 9.1l5.4 2.6 5.7-48.4v2.7zm173.8-5.2h-46.1c-14.3 0-25 4.1-31.3 19.2l-88.8 210.2h62.5l12.4-34.5h76.4l7.2 34.5h55.1l-47.4-229.4zm-73.4 148.8l23.7-65.1c-.1.2 4.9-13.3 7.8-21.8l4 19.6 13.8 67.3h-49.3zm-463.3-148.8l-58.3 156.4-6.2-31.8c-10.9-37-44.8-77.1-82.7-97.1l53.6 201.8h63.2l94.1-229.3h-63.7zM78.6 15.2H2.2L0 25.7c60.3 15.4 100.2 52.6 116.7 97.1L97.5 37.3C94.4 23.4 86.8 15.6 78.6 15.2z"/>
+          </svg>
+        </div>
+        <div class="visa-card-label" id="card-sub-title">CODEX PRO 결제 전용 카드</div>
+        <div class="visa-card-footer">
+          <span>BASE USDC &bull; 6.2% 이자 직결</span>
+          <span id="card-cap-badge">월 한도: ₩29,000</span>
+        </div>
+      </div>
+
+      <div class="action-panel">
+        <div style="font-size: 14px; font-weight: 700; color: var(--color-text);">
+          이 풀에 연결된 가상 Visa 카드 사전 예약
+        </div>
+        <input type="email" class="input-box" id="res-email" placeholder="이메일 주소를 입력하세요 (알림용)..." required>
+        <button class="btn-mint" onclick="submitReservation()">출시 시 가상 카드 발급받기</button>
+        <div id="res-success" style="display:none; font-size: 12px; color: var(--color-primary); font-weight: 600; line-height: 1.4;">
+          &check; 사전 예약 완료! Base USDC 수익 결제 카드 1차 파일럿에 등록되었습니다.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const APY = 0.062;
+  const USD_KRW = 1350;
+  let currentDeposit = 4000;
+  let currentCountry = 'KR';
+  let selectedSub = null;
+
+  // Localized Subscriptions Catalog
+  const CATALOG = {
+    KR: {
+      name: '대한민국',
+      badge: '대한민국 맞춤 인기 서비스',
+      currency: 'KRW',
+      symbol: '₩',
+      rateToUsd: 1350.0,
+      subs: [
+        { id: 'opencode', name: 'OpenCode Go', costUsd: 5.0, displayCost: '₩6,800/월', domain: 'opencode.ai', badgeText: '완전 무료' },
+        { id: 'naver', name: '네이버플러스 멤버십', costUsd: 3.6, displayCost: '₩4,900/월', domain: 'naver.com', badgeText: '완전 무료' },
+        { id: 'baemin', name: '배민클럽', costUsd: 2.9, displayCost: '₩3,990/월', domain: 'baemin.com', badgeText: '완전 무료' },
+        { id: 'coupang', name: '쿠팡 와우 멤버십', costUsd: 5.8, displayCost: '₩7,890/월', domain: 'coupang.com', badgeText: '완전 무료' },
+        { id: 'melon', name: '멜론 스트리밍', costUsd: 8.1, displayCost: '₩10,900/월', domain: 'melon.com', badgeText: '완전 무료' },
+        { id: 'youtube', name: '유튜브 프리미엄', costUsd: 11.0, displayCost: '₩14,900/월', domain: 'youtube.com', badgeText: '완전 무료' },
+        { id: 'tving', name: '티빙 (TVING)', costUsd: 10.0, displayCost: '₩13,500/월', domain: 'tving.com', badgeText: '완전 무료' },
+        { id: 'claude', name: 'Claude Pro', costUsd: 20.0, displayCost: '₩29,000/월', domain: 'claude.ai', badgeText: '완전 무료' },
+        { id: 'codex', name: 'Codex Pro / ChatGPT', costUsd: 20.0, displayCost: '₩29,000/월', domain: 'openai.com', badgeText: '완전 무료' },
+        { id: 'cursor', name: 'Cursor Pro', costUsd: 20.0, displayCost: '₩29,000/월', domain: 'cursor.com', badgeText: '완전 무료' }
+      ]
+    },
+    US: {
+      name: 'United States',
+      badge: 'Showing top services in United States',
+      currency: 'USD',
+      symbol: '$',
+      rateToUsd: 1.0,
+      subs: [
+        { id: 'opencode', name: 'OpenCode Go', costUsd: 5.0, displayCost: '$5.00/mo', domain: 'opencode.ai', badgeText: 'Covered' },
+        { id: 'prime', name: 'Amazon Prime Video', costUsd: 4.99, displayCost: '$4.99/mo', domain: 'amazon.com', badgeText: 'Covered' },
+        { id: 'telegram', name: 'Telegram Premium', costUsd: 4.99, displayCost: '$4.99/mo', domain: 'telegram.org', badgeText: 'Covered' },
+        { id: 'spotify', name: 'Spotify Premium', costUsd: 11.0, displayCost: '$11.00/mo', domain: 'spotify.com', badgeText: 'Covered' },
+        { id: 'xbox', name: 'Xbox Game Pass', costUsd: 17.0, displayCost: '$17.00/mo', domain: 'xbox.com', badgeText: 'Covered' },
+        { id: 'codex', name: 'Codex Pro', costUsd: 20.0, displayCost: '$20.00/mo', domain: 'openai.com', badgeText: 'Covered' },
+        { id: 'claude', name: 'Claude Pro', costUsd: 20.0, displayCost: '$20.00/mo', domain: 'claude.ai', badgeText: 'Covered' },
+        { id: 'cursor', name: 'Cursor Pro', costUsd: 20.0, displayCost: '$20.00/mo', domain: 'cursor.com', badgeText: 'Covered' }
+      ]
+    },
+    DE: {
+      name: 'Germany / EU',
+      badge: 'Showing top services in Germany & EU',
+      currency: 'EUR',
+      symbol: '€',
+      rateToUsd: 0.92,
+      subs: [
+        { id: 'opencode', name: 'OpenCode Go', costUsd: 5.0, displayCost: '€4.50/mo', domain: 'opencode.ai', badgeText: 'Covered' },
+        { id: 'telegram', name: 'Telegram Premium', costUsd: 4.99, displayCost: '€4.50/mo', domain: 'telegram.org', badgeText: 'Covered' },
+        { id: 'wolt', name: 'Wolt+ Pass', costUsd: 6.5, displayCost: '€5.99/mo', domain: 'wolt.com', badgeText: 'Covered' },
+        { id: 'spotify', name: 'Spotify Premium', costUsd: 11.9, displayCost: '€10.99/mo', domain: 'spotify.com', badgeText: 'Covered' },
+        { id: 'codex', name: 'Codex Pro', costUsd: 20.0, displayCost: '€18.50/mo', domain: 'openai.com', badgeText: 'Covered' },
+        { id: 'claude', name: 'Claude Pro', costUsd: 20.0, displayCost: '€18.50/mo', domain: 'claude.ai', badgeText: 'Covered' }
+      ]
+    },
+    GB: {
+      name: 'United Kingdom',
+      badge: 'Showing top services in United Kingdom',
+      currency: 'GBP',
+      symbol: '£',
+      rateToUsd: 0.79,
+      subs: [
+        { id: 'deliveroo', name: 'Deliveroo Plus', costUsd: 4.4, displayCost: '£3.49/mo', domain: 'deliveroo.co.uk', badgeText: 'Covered' },
+        { id: 'opencode', name: 'OpenCode Go', costUsd: 5.0, displayCost: '£3.99/mo', domain: 'opencode.ai', badgeText: 'Covered' },
+        { id: 'spotify', name: 'Spotify UK', costUsd: 15.1, displayCost: '£11.99/mo', domain: 'spotify.com', badgeText: 'Covered' },
+        { id: 'codex', name: 'Codex Pro', costUsd: 20.0, displayCost: '£15.99/mo', domain: 'openai.com', badgeText: 'Covered' },
+        { id: 'claude', name: 'Claude Pro', costUsd: 20.0, displayCost: '£15.99/mo', domain: 'claude.ai', badgeText: 'Covered' }
+      ]
+    },
+    JP: {
+      name: 'Japan',
+      badge: 'Showing top services in Japan',
+      currency: 'JPY',
+      symbol: '¥',
+      rateToUsd: 155.0,
+      subs: [
+        { id: 'opencode', name: 'OpenCode Go', costUsd: 5.0, displayCost: '¥750/月', domain: 'opencode.ai', badgeText: 'Covered' },
+        { id: 'line', name: 'LINE MUSIC', costUsd: 6.3, displayCost: '¥980/月', domain: 'line.me', badgeText: 'Covered' },
+        { id: 'youtube', name: 'YouTube Premium', costUsd: 8.2, displayCost: '¥1,280/月', domain: 'youtube.com', badgeText: 'Covered' },
+        { id: 'codex', name: 'Codex Pro', costUsd: 20.0, displayCost: '¥3,100/月', domain: 'openai.com', badgeText: 'Covered' },
+        { id: 'claude', name: 'Claude Pro', costUsd: 20.0, displayCost: '¥3,100/月', domain: 'claude.ai', badgeText: 'Covered' }
+      ]
+    }
+  };
+
+  function renderGrid() {
+    const data = CATALOG[currentCountry] || CATALOG.KR;
+    document.getElementById('country-tag').innerText = data.badge;
+    const monthlyYieldUsd = (currentDeposit * APY) / 12;
+    const container = document.getElementById('subs-container');
+    container.innerHTML = '';
+
+    data.subs.forEach((sub, idx) => {
+      const isCovered = monthlyYieldUsd >= sub.costUsd;
+      const reqDeposit = Math.ceil((sub.costUsd * 12) / APY);
+      const isSel = selectedSub ? selectedSub.id === sub.id : (idx === (data.subs.length > 7 ? 7 : 0));
+      if (isSel && !selectedSub) selectedSub = sub;
+
+      const card = document.createElement('div');
+      card.className = `sub-card ${isCovered ? 'unlocked' : 'locked'} ${isSel ? 'selected' : ''}`;
+      card.onclick = () => selectCard(sub, isCovered);
+
+      let badgeHtml = '';
+      if (isCovered) {
+        badgeHtml = `<span class="sub-badge covered">${sub.badgeText}</span>`;
+      } else {
+        const reqStr = reqDeposit >= 1000 ? (reqDeposit/1000).toFixed(1) + 'k' : reqDeposit;
+        badgeHtml = `<span class="sub-badge need-more">$${reqStr} 예치 필요</span>`;
+      }
+
+      card.innerHTML = `
+        <div class="sub-top-row">
+          <img class="brand-favicon" src="https://www.google.com/s2/favicons?domain=${sub.domain}&sz=64" alt="${sub.name}">
+          ${badgeHtml}
+        </div>
+        <div>
+          <div class="sub-name">${sub.name}</div>
+          <div class="sub-cost">${sub.displayCost}</div>
+        </div>
+      `;
+      container.appendChild(card);
+    });
+
+    if (selectedSub) updateCardMockup(selectedSub);
+  }
+
+  function selectCard(sub, isCovered) {
+    if (!isCovered) return;
+    selectedSub = sub;
+    renderGrid();
+  }
+
+  function updateCardMockup(sub) {
+    document.getElementById('card-sub-title').innerText = `${sub.name.toUpperCase()} 결제 전용`;
+    document.getElementById('card-cap-badge').innerText = `월 한도: ${sub.displayCost.split('/')[0]}`;
+  }
+
+  function handleCountryChange(code) {
+    currentCountry = code;
+    selectedSub = null;
+    renderGrid();
+  }
+
+  function handleSim(val) {
+    currentDeposit = Number(val);
+    document.getElementById('deposit-readout').innerText = '$' + currentDeposit.toLocaleString() + ' USDC';
+    const monthlyYield = (currentDeposit * APY) / 12;
+    const krwYield = Math.round(monthlyYield * USD_KRW);
+    document.getElementById('monthly-yield-readout').innerText = 
+      `월 예상 수익: $${monthlyYield.toFixed(2)} (약 ₩${krwYield.toLocaleString()} / 월)`;
+    renderGrid();
+  }
+
+  function submitReservation() {
+    const email = document.getElementById('res-email').value;
+    if (!email || !email.includes('@')) {
+      alert('올바른 이메일 주소를 입력해 주세요.');
+      return;
+    }
+    document.getElementById('res-success').style.display = 'block';
+  }
+
+  // Initial Boot
+  window.addEventListener('DOMContentLoaded', () => {
+    currentCountry = 'KR';
+    document.getElementById('geo-switcher').value = 'KR';
+    renderGrid();
+  });
+</script>
+</body>
+</html>

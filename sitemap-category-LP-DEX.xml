@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.defi.garden/?token=DAI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DAI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DAI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DAI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=USDC&amp;poolTypes=LP%2FDEX</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;poolTypes=LP%2FDEX" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
@@ -65,6 +74,15 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=RLUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RLUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RLUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RLUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=WBTC&amp;poolTypes=LP%2FDEX</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;poolTypes=LP%2FDEX" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
@@ -74,13 +92,85 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=MSUSD&amp;poolTypes=LP%2FDEX</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSUSD&amp;poolTypes=LP%2FDEX" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSUSD&amp;poolTypes=LP%2FDEX" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <loc>https://www.defi.garden/?token=OETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.81</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DOLA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DOLA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DOLA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DOLA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUSDE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PYUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PYUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PYUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PYUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FRAX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FRAX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FRAX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FRAX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TBTC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TBTC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TBTC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TBTC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.83</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDG&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KBTC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KBTC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=AUSD&amp;poolTypes=LP%2FDEX</loc>
@@ -92,13 +182,13 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <loc>https://www.defi.garden/?token=AERO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AERO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AERO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AERO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <priority>0.78</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=LINK&amp;poolTypes=LP%2FDEX</loc>
@@ -110,13 +200,67 @@
     <priority>0.82</priority>
   </url>
   <url>
+    <loc>https://www.defi.garden/?token=PEPE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PEPE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PEPE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PEPE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=APXUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=APXUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=APXUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=APXUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.84</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BET&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BET&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BET&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BET&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
     <loc>https://www.defi.garden/?token=PAXG&amp;poolTypes=LP%2FDEX</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PAXG&amp;poolTypes=LP%2FDEX" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PAXG&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PAXG&amp;poolTypes=LP%2FDEX" />
-    <lastmod>2026-07-14T04:50:54.912Z</lastmod>
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=UNI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UNI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UNI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UNI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.77</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SYRUPUSDC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUPUSDC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUPUSDC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUPUSDC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FRXETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FRXETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FRXETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FRXETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
   </url>
   <url>
     <loc>https://www.defi.garden/?token=FRXUSD&amp;poolTypes=LP%2FDEX</loc>
@@ -126,5 +270,2399 @@
     <lastmod>2026-07-14T04:50:54.912Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=3CRV&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=3CRV&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=3CRV&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=3CRV&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SFRXUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SFRXUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SFRXUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SFRXUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BTC.B&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTC.B&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTC.B&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTC.B&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.81</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WSTETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSTETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AAVE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OSETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OSETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OSETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OSETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OHM&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OHM&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OHM&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OHM&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUSDS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TRUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TRUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TRUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TRUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDF&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDF&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDF&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDF&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USD1&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USD1&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USD1&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USD1&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CRV2POOL&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CRV2POOL&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CRV2POOL&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CRV2POOL&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VVV&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VVV&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VVV&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VVV&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WEETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WEETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WEETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WEETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=REUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=REUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=REUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=REUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SCRVUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SCRVUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SCRVUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SCRVUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.77</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SPX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SPX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SPX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SPX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FXUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FXUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FXUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FXUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CRV&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CRV&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CRV&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CRV&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CVXCRV&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CVXCRV&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CVXCRV&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CVXCRV&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CAKE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CAKE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CAKE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CAKE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WBNB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBNB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBNB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBNB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BOLD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BOLD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BOLD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BOLD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ZIK&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ZIK&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ZIK&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ZIK&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MSUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BTCB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BTCB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BTCB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BTCB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SKY&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SKY&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SKY&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SKY&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XAUT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAUT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAUT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XAUT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LBTC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LBTC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LBTC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LBTC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EUROC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EUROC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EUROC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EUROC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EURCV&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EURCV&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EURCV&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EURCV&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SDAI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SDAI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SDAI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SDAI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.84</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DIEM&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DIEM&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DIEM&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DIEM&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ALETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ALETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ALETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ALETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CVX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CVX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CVX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CVX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EURC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EURC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EURC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EURC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SIERRA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SIERRA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SIERRA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SIERRA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=1INCH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=1INCH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=1INCH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=1INCH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ELON&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ELON&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ELON&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ELON&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VIRTUAL&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VIRTUAL&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VIRTUAL&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VIRTUAL&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WLFI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WLFI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WLFI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WLFI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KTA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KTA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KTA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KTA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=POD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=POD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=POD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=POD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GHO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GHO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GHO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GHO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BADGER&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BADGER&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BADGER&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BADGER&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RAIL&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RAIL&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RAIL&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RAIL&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FIDD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FIDD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FIDD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FIDD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USD0&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USD0&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USD0&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USD0&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EVA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EVA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EVA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EVA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ARB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ARB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ARB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ARB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EVAUSDT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EVAUSDT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EVAUSDT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EVAUSDT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WAVAX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WAVAX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WAVAX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WAVAX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CBETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CBETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CBETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CBETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WNAUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WNAUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WNAUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WNAUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ASTEROID&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ASTEROID&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ASTEROID&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ASTEROID&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AVUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AVUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AVUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AVUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SDOLA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SDOLA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SDOLA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SDOLA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.74</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VSN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VSN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VSN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VSN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CULT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CULT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CULT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CULT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HEMIBTC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HEMIBTC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HEMIBTC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HEMIBTC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HEZ&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HEZ&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HEZ&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HEZ&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ADI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ADI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ADI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ADI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=INST&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=INST&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=INST&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=INST&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DOGE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DOGE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DOGE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DOGE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PMUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PMUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PMUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PMUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT0&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT0&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT0&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT0&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.83</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RLB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RLB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RLB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RLB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BEAM&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BEAM&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BEAM&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BEAM&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USD3&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USD3&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USD3&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USD3&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.81</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ENA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ENA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ENA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ENA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MAI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MAI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MAI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MAI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FAI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FAI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FAI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FAI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GMX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GMX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GMX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GMX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ALUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ALUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ALUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ALUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PUFETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PUFETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PUFETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PUFETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.77</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WTAO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WTAO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WTAO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WTAO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FBOMB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FBOMB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FBOMB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FBOMB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MON&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MON&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MON&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MON&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NPC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NPC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NPC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NPC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SFRXETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SFRXETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SFRXETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SFRXETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.79</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SYRUP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYRUP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYRUP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYRUP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FTUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FTUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FTUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FTUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SHIBA2&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SHIBA2&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SHIBA2&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SHIBA2&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=REI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=REI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=REI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=REI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USG&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USG&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USG&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USG&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=YNG&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YNG&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YNG&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YNG&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NOW&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NOW&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NOW&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NOW&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ZEN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ZEN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ZEN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ZEN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FXB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FXB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FXB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FXB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=20261231&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=20261231&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=20261231&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=20261231&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BNKR&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BNKR&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BNKR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BNKR&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LON&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LON&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LON&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LON&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PEAS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PEAS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PEAS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PEAS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CLANKER&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CLANKER&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CLANKER&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CLANKER&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ZCHF&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ZCHF&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ZCHF&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ZCHF&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=UPEG&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UPEG&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UPEG&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UPEG&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RAIN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RAIN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RAIN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RAIN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SERV&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SERV&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SERV&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SERV&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FRAXBP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FRAXBP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FRAXBP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FRAXBP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WMATIC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WMATIC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WMATIC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WMATIC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RSR&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RSR&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RSR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RSR&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WMON&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WMON&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WMON&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WMON&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MKR&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MKR&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MKR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MKR&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PNKSTR&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PNKSTR&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PNKSTR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PNKSTR&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AIOZ&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AIOZ&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AIOZ&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AIOZ&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EIGEN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EIGEN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EIGEN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EIGEN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=YB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BSDETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BSDETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BSDETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BSDETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OLAS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OLAS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OLAS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OLAS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USOL&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USOL&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USOL&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USOL&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CHIP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CHIP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CHIP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CHIP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=YFI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YFI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YFI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YFI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=COMP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=COMP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=COMP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=COMP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PING&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PING&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PING&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PING&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USSI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USSI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USSI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USSI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SHX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SHX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SHX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SHX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FXN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FXN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FXN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FXN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MORPHO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MORPHO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MORPHO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MORPHO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HUNT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HUNT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HUNT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HUNT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC.E&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC.E&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC.E&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC.E&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=REKT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=REKT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=REKT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=REKT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TIG&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TIG&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TIG&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TIG&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TOSHI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TOSHI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TOSHI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TOSHI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FET&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FET&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FET&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FET&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BRETT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BRETT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BRETT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BRETT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OGN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OGN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OGN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OGN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=YUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ADS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ADS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ADS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ADS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WOJAK&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WOJAK&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WOJAK&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WOJAK&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BITCOIN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BITCOIN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BITCOIN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BITCOIN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DMT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DMT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DMT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DMT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NAT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NAT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NAT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NAT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ONDO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ONDO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ONDO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ONDO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DEGEN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DEGEN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DEGEN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DEGEN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PENDLE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PENDLE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PENDLE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PENDLE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=INV&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=INV&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=INV&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=INV&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LIT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LIT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LIT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LIT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUSHI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSHI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSHI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSHI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETHFI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETHFI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETHFI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETHFI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SPCXB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SPCXB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SPCXB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SPCXB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TRX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TRX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TRX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TRX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SYBTC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYBTC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYBTC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYBTC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BOTCOIN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BOTCOIN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BOTCOIN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BOTCOIN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TEL&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TEL&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TEL&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TEL&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TONCOIN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TONCOIN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TONCOIN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TONCOIN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DEUS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DEUS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DEUS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DEUS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VIBE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VIBE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VIBE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VIBE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=COCORO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=COCORO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=COCORO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=COCORO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SOL&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SOL&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SOL&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SOL&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.81</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VELO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VELO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VELO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VELO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XCN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XCN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XCN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XCN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SLVON&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SLVON&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SLVON&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SLVON&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SHMON&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SHMON&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SHMON&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SHMON&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=UNISHOP.AI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=UNISHOP.AI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=UNISHOP.AI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=UNISHOP.AI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ZEC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ZEC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ZEC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ZEC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SPK&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SPK&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SPK&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SPK&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GHST&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GHST&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GHST&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GHST&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ID&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ID&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ID&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ID&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=REUSDE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=REUSDE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=REUSDE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=REUSDE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ALCX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ALCX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ALCX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ALCX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WOLF&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WOLF&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WOLF&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WOLF&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MET&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MET&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MET&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MET&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WXDAI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WXDAI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WXDAI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WXDAI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=JEUR&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=JEUR&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=JEUR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=JEUR&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LMTS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LMTS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LMTS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LMTS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WOO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WOO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WOO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WOO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.76</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ZORA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ZORA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ZORA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ZORA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ROBO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ROBO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ROBO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ROBO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CBXRP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CBXRP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CBXRP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CBXRP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HAIR&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HAIR&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HAIR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HAIR&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LDO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LDO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LDO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LDO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HEX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HEX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HEX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HEX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BOTTO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BOTTO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BOTTO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BOTTO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WARS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WARS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WARS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WARS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DGLD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DGLD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DGLD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DGLD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SHIB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SHIB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SHIB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SHIB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AV3CRV&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AV3CRV&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AV3CRV&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AV3CRV&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ICP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ICP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ICP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ICP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=IXS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=IXS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=IXS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=IXS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XRP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XRP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XRP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XRP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ATH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ATH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ATH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ATH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DRV&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DRV&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DRV&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DRV&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XSGD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XSGD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XSGD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XSGD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LCAP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LCAP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LCAP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LCAP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SUSDAT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SUSDAT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SUSDAT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SUSDAT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.81</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=YNRWAX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YNRWAX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YNRWAX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YNRWAX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.71</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=YNUSDX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=YNUSDX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=YNUSDX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=YNUSDX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EDGE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EDGE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EDGE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EDGE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=QNT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=QNT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=QNT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=QNT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MAMO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MAMO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MAMO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MAMO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.62</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OVER&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OVER&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OVER&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OVER&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=EURE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=EURE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=EURE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=EURE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CRO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CRO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CRO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CRO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SYZUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SYZUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SYZUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SYZUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.77</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MOCA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MOCA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MOCA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MOCA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HLX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HLX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HLX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HLX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AAVEUSDC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVEUSDC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVEUSDC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVEUSDC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AAVEGHO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVEGHO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVEGHO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVEGHO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WBRL&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBRL&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBRL&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBRL&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RED&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RED&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RED&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RED&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.57</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BOB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BOB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BOB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BOB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=COW&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=COW&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=COW&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=COW&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BIO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BIO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BIO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BIO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RPL&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RPL&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RPL&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RPL&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=INJ&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=INJ&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=INJ&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=INJ&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ADAI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ADAI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ADAI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ADAI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.57</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SAND&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAND&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAND&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAND&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TIBBIR&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TIBBIR&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TIBBIR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TIBBIR&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TGBP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TGBP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TGBP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TGBP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XAUT0&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XAUT0&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XAUT0&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XAUT0&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GNO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GNO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GNO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GNO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RNDR&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RNDR&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RNDR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RNDR&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BALANCERRETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BALANCERRETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BALANCERRETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BALANCERRETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AAVEWETH&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAVEWETH&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAVEWETH&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAVEWETH&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DOS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DOS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DOS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DOS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.57</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=HEMI&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=HEMI&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=HEMI&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=HEMI&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PORK&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PORK&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PORK&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PORK&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PRO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PRO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PRO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PRO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TAROT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TAROT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TAROT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TAROT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=GEOD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=GEOD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=GEOD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=GEOD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CBADA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CBADA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CBADA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CBADA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.69</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TORN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TORN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TORN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TORN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CJPY&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CJPY&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CJPY&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CJPY&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PROMPT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PROMPT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PROMPT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PROMPT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SATO&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SATO&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SATO&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SATO&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.57</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=RBTC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=RBTC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=RBTC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=RBTC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KII&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KII&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KII&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KII&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=TUSD&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=TUSD&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=TUSD&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=TUSD&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=POLS&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=POLS&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=POLS&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=POLS&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ASTER&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ASTER&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ASTER&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ASTER&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VFY&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VFY&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VFY&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VFY&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PRISM&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PRISM&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PRISM&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PRISM&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDBC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDBC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDBC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDBC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=XSWAP&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=XSWAP&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=XSWAP&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=XSWAP&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=LSK&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=LSK&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=LSK&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=LSK&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDR&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDR&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDR&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDR&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.59</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VCNT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VCNT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VCNT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VCNT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=FLOCK&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=FLOCK&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=FLOCK&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=FLOCK&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SPC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SPC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SPC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SPC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.57</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WSB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MXNB&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MXNB&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MXNB&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MXNB&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=KP3R&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=KP3R&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=KP3R&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=KP3R&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.57</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=PEPU&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=PEPU&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=PEPU&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=PEPU&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.54</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BLZ&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BLZ&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BLZ&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BLZ&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.54</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NYA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NYA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NYA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NYA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.58</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BRIAN&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BRIAN&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BRIAN&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BRIAN&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.57</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CBLTC&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CBLTC&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CBLTC&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CBLTC&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VANCE&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VANCE&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VANCE&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VANCE&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WFRAX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WFRAX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WFRAX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WFRAX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=BOX&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=BOX&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=BOX&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=BOX&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.55</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=AAA&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=AAA&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=AAA&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=AAA&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OUSDT&amp;poolTypes=LP%2FDEX</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OUSDT&amp;poolTypes=LP%2FDEX" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OUSDT&amp;poolTypes=LP%2FDEX&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OUSDT&amp;poolTypes=LP%2FDEX" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
   </url>
 </urlset>

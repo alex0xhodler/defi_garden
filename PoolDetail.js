@@ -205,6 +205,37 @@ function PoolDetail({
     ]
   }).replace(/</g, '\\u003c');
 
+  // FinancialProduct JSON-LD (AEO/GEO & GSC metadata)
+  const todayDate = new Date().toISOString().split('T')[0];
+  const financialProductJsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FinancialProduct',
+    name: `${pool.project || 'DeFi'} ${pool.symbol || ''} Pool on ${pool.chain || 'DeFi'}`,
+    description: `Real-time yield pool on ${pool.project || 'DeFi'} (${pool.chain || 'DeFi'}) with ${formatApy(totalApy)} APY and ${formatUsd(pool.tvlUsd)} TVL.`,
+    annualPercentageRate: Number(totalApy.toFixed(2)),
+    interestRate: Number(totalApy.toFixed(2)),
+    provider: {
+      '@type': 'Organization',
+      name: pool.project || 'DeFi Protocol'
+    },
+    currency: pool.symbol || 'USD',
+    category: pool.category || 'Yield Farming',
+    url: `${window.location.origin}/?pool=${encodeURIComponent(pool.pool)}`,
+    dateModified: todayDate
+  }).replace(/</g, '\\u003c');
+
+  // Dataset JSON-LD
+  const poolDatasetJsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: `${pool.symbol || ''} ${pool.project || ''} Yield Data (${pool.chain || ''})`,
+    description: `Live DefiLlama yield data for ${pool.symbol || ''} on ${pool.project || ''} (${pool.chain || ''}) with ${formatUsd(pool.tvlUsd)} TVL.`,
+    url: `${window.location.origin}/?pool=${encodeURIComponent(pool.pool)}`,
+    creator: { '@type': 'Organization', name: 'DeFi Garden', url: window.location.origin },
+    publisher: { '@type': 'Organization', name: 'DeFi Garden', url: window.location.origin },
+    dateModified: todayDate
+  }).replace(/</g, '\\u003c');
+
   return React.createElement('div', {
     className: 'pool-detail-container',
     style: {
@@ -221,6 +252,14 @@ function PoolDetail({
     React.createElement('script', {
       type: 'application/ld+json',
       dangerouslySetInnerHTML: { __html: breadcrumbJsonLd }
+    }),
+    React.createElement('script', {
+      type: 'application/ld+json',
+      dangerouslySetInnerHTML: { __html: financialProductJsonLd }
+    }),
+    React.createElement('script', {
+      type: 'application/ld+json',
+      dangerouslySetInnerHTML: { __html: poolDatasetJsonLd }
     }),
     // Clean Header: Logo | Breadcrumb | Toggle
     React.createElement('div', {

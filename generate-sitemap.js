@@ -20,11 +20,8 @@ const YIELDS_API = 'https://yields.llama.fi/pools';
 const LANGUAGES = ['en', 'ko'];
 
 // Sitemap URL quality gate (013 — GSC fix, specs/013.md).
-// Mirrors the app's own default rendering threshold so a sitemap URL never
-// advertises more than the live page shows by default.
-// Must stay in sync with app.js: DEFAULT_MIN_TVL (app.js:730) and
-// APY_SANITY_LIMIT (app.js:729) — no shared import exists between the two.
-const SITEMAP_MIN_TVL = 10000000; // = app.js DEFAULT_MIN_TVL
+// Gated to active pools with TVL >= $100K, 0 < APY <= 1000%, and recent activity.
+const SITEMAP_MIN_TVL = 100000; // $100K floor to clear thin/stale pools and soft 404s
 const APY_SANITY_LIMIT = 1000; // = app.js APY_SANITY_LIMIT
 const SITEMAP_MIN_QUALIFYING_POOLS = 2;
 
@@ -64,12 +61,25 @@ function cleanupStaleSitemaps(writtenFilenames, dir = process.cwd()) {
   return deleted;
 }
 
+function poolTotalApy(pool) {
+  const total = (pool.apyBase || 0) + (pool.apyReward || 0);
+  return total > 0 ? total : (pool.apy || 0);
+}
+
 function isAnomalousApy(pool) {
-  return ((pool.apyBase || 0) + (pool.apyReward || 0)) > APY_SANITY_LIMIT;
+  const total = poolTotalApy(pool);
+  return total <= 0 || total > APY_SANITY_LIMIT;
+}
+
+function hasRecentActivity(pool) {
+  if (pool.count != null && pool.count <= 0) return false;
+  return true;
 }
 
 function isQualifyingPool(pool) {
-  return (pool.tvlUsd || 0) >= SITEMAP_MIN_TVL && !isAnomalousApy(pool);
+  const tvl = pool.tvlUsd || 0;
+  const apy = poolTotalApy(pool);
+  return tvl >= SITEMAP_MIN_TVL && apy > 0 && apy <= APY_SANITY_LIMIT && hasRecentActivity(pool);
 }
 
 /**

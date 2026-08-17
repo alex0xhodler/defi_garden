@@ -10,4 +10,13 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DUSD&amp;chain=Defichain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DUSD&amp;chain=Defichain" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DUSD&amp;chain=Defichain&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DUSD&amp;chain=Defichain" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
 </urlset>

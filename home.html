@@ -40,11 +40,13 @@
     <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:creator" content="@defigarden">
 
-    <!-- Structured data (spec 040): sitewide Organization + WebSite JSON-LD.
+    <!-- Structured data (spec 040): sitewide Organization + WebSite + Dataset + FinancialProduct JSON-LD.
          Static, unlike the canonical/title rewrite above — the IA router
          doesn't touch this, it's the same brand entity in every mode. -->
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/","logo":"https://www.defi.garden/og-image.png"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"DeFi Garden","url":"https://www.defi.garden/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"DeFi Garden Curated Yield Dataset","description":"Real-time curated DeFi yield and APY data from DefiLlama across 50+ protocols with $100K+ TVL trust rails.","url":"https://www.defi.garden/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/"},"dateModified":"2026-08-17"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FinancialProduct","name":"DeFi Garden Goal-First Savings Planner","description":"Goal-first savings planning and automated yield tracking powered by live on-chain DeFi rates.","annualPercentageRate":5.5,"interestRate":5.5,"provider":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/"},"currency":"USD","category":"Yield Farming","url":"https://www.defi.garden/plan.html","dateModified":"2026-08-17"}</script>
 
     <!-- App Icons and Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">

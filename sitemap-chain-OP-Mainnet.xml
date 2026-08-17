@@ -10,4 +10,157 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WSTETH&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WSTETH&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WSTETH&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WSTETH&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WBTC&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WBTC&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WBTC&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WBTC&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ETH&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ETH&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ETH&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ETH&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDT&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDT&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDT&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDT&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=WETH&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=WETH&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=WETH&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=WETH&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ALETH&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ALETH&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ALETH&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ALETH&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=SAMMV2&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=SAMMV2&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=SAMMV2&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=SAMMV2&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MSETH&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSETH&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSETH&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSETH&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MSUSD&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MSUSD&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MSUSD&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MSUSD&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=VELO&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=VELO&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=VELO&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=VELO&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OP&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OP&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OP&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OP&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.63</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=DAI&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=DAI&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=DAI&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=DAI&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.86</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=OVER&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=OVER&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=OVER&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=OVER&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.61</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CRVUSD&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CRVUSD&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CRVUSD&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CRVUSD&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=USDC.E&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=USDC.E&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=USDC.E&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=USDC.E&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.73</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=MOOBIFI&amp;chain=OP%20Mainnet</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=MOOBIFI&amp;chain=OP+Mainnet" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=MOOBIFI&amp;chain=OP+Mainnet&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=MOOBIFI&amp;chain=OP+Mainnet" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.56</priority>
+  </url>
 </urlset>

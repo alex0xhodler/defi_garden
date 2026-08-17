@@ -10,4 +10,31 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.defi.garden/?token=NICP&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=NICP&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=NICP&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=NICP&amp;chain=ICP" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=ICP&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=ICP&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=ICP&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=ICP&amp;chain=ICP" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.67</priority>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/?token=CKBTC&amp;chain=ICP</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.defi.garden/?token=CKBTC&amp;chain=ICP" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.defi.garden/?token=CKBTC&amp;chain=ICP&amp;lang=ko" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.defi.garden/?token=CKBTC&amp;chain=ICP" />
+    <lastmod>2026-08-17T09:47:29.783Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.54</priority>
+  </url>
 </urlset>
