@@ -4,7 +4,7 @@ The highest honest SOLANA yield right now is 0.14% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=94edbb97-f737-4205-95f6-6e6a778d71e7&src=seo_token) | Ethereum | 0.14% | $104.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=94edbb97-f737-4205-95f6-6e6a778d71e7&src=seo_token) | Ethereum | 0.14% | $103.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SOLANA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.3K in total.
+1 live pool clear this page's $100K TVL floor, $103.7K in total.
 
 ### Are these rates safe?
 

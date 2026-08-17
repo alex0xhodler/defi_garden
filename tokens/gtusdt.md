@@ -1,29 +1,29 @@
 # GTUSDT DeFi Yields
 
-The highest honest GTUSDT yield right now is 2.84% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTUSDT yield right now is 2.76% on morpho-blue (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 2.84% | $3.79M |
-| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 2.07% | $217.3K |
-| [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 2.80% | $100.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 2.76% | $3.78M |
+| [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 2.07% | $217.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 2.80% | $100.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GTUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.84% APY, $3.79M TVL, https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token; morpho-blue (Katana), 2.07% APY, $217.3K TVL, https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token; morpho-blue (Katana), 2.80% APY, $100.1K TVL, https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.76% APY, $3.78M TVL, https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token; morpho-blue (Katana), 2.07% APY, $217.5K TVL, https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token; morpho-blue (Katana), 2.80% APY, $100.2K TVL, https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 2.84% | $3.79M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 2.07% | $217.3K |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 2.80% | $100.1K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token) | Ethereum | 2.76% | $3.78M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token) | Katana | 2.07% | $217.5K |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token) | Katana | 2.80% | $100.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GTUSDT shows up in 3 pools here, with rates from 2.07% to 2.84% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTUSDT shows up in 3 pools here, with rates from 2.07% to 2.80% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,9 +31,9 @@ GTUSDT shows up in 3 pools here, with rates from 2.07% to 2.84% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 2.84% | 3.38% | Base rate |
+| morpho-blue | 2.76% | 3.38% | Base rate |
 | morpho-blue | 2.07% | 2.95% | Base rate |
-| morpho-blue | 2.80% | 5.93% | 35.66% incentives |
+| morpho-blue | 2.80% | 5.91% | 35.66% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GTUSDT yield today?
 
-2.84% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.76% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTUSDT pools clear the TVL floor?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTUSDT pools have the most stable APY history?
 
-Based on APY history only, GTUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.84% APY, $3.79M TVL, https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token; morpho-blue (Katana), 2.07% APY, $217.3K TVL, https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token; morpho-blue (Katana), 2.80% APY, $100.1K TVL, https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTUSDT's lower-variability candidates are morpho-blue (Ethereum), 2.76% APY, $3.78M TVL, https://www.defi.garden/?pool=025dadbc-c175-4a37-a5ec-dff5062b1a50&src=seo_token; morpho-blue (Katana), 2.07% APY, $217.5K TVL, https://www.defi.garden/?pool=377f2c68-9740-4a9e-a606-09fdfd5129fe&src=seo_token; morpho-blue (Katana), 2.80% APY, $100.2K TVL, https://www.defi.garden/?pool=5ed0616d-81e1-447b-9c20-43d808087061&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

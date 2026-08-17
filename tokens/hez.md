@@ -4,19 +4,19 @@ The highest honest HEZ yield right now is 0.10% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token) | Ethereum | 0.07% | $2.8M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token) | Ethereum | 0.07% | $2.79M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0&src=seo_token) | Ethereum | 0.28% | $1.1M |
 | [uniswap-v2 →](https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706&src=seo_token) | Ethereum | 0.10% | $1.09M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HEZ's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $1.09M TVL, https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706&src=seo_token; uniswap-v2 (Ethereum), 0.07% APY, $2.8M TVL, https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token; uniswap-v2 (Ethereum), 0.28% APY, $1.1M TVL, https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEZ's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $1.09M TVL, https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706&src=seo_token; uniswap-v2 (Ethereum), 0.07% APY, $2.79M TVL, https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token; uniswap-v2 (Ethereum), 0.28% APY, $1.1M TVL, https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v2 →](https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706&src=seo_token) | Ethereum | 0.10% | $1.09M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token) | Ethereum | 0.07% | $2.8M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token) | Ethereum | 0.07% | $2.79M |
 | 3 | [uniswap-v2 →](https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0&src=seo_token) | Ethereum | 0.28% | $1.1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HEZ pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.99M in total.
+3 live pools clear this page's $100K TVL floor, $4.98M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HEZ pools have the most stable APY history?
 
-Based on APY history only, HEZ's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $1.09M TVL, https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706&src=seo_token; uniswap-v2 (Ethereum), 0.07% APY, $2.8M TVL, https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token; uniswap-v2 (Ethereum), 0.28% APY, $1.1M TVL, https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEZ's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $1.09M TVL, https://www.defi.garden/?pool=b1d38ddc-d751-4864-99bf-f88c8ff45706&src=seo_token; uniswap-v2 (Ethereum), 0.07% APY, $2.79M TVL, https://www.defi.garden/?pool=66997df7-fe3d-4a67-a13b-8d9d7bd0863a&src=seo_token; uniswap-v2 (Ethereum), 0.28% APY, $1.1M TVL, https://www.defi.garden/?pool=39a4d8a0-51c4-4635-9945-b1741e174bd0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

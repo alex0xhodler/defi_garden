@@ -5,16 +5,16 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [lagoon →](https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token) | Ethereum | 2.50% | $7.52M |
-| [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.51% | $7.52M |
+| [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.51% | $7.51M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 GAMICUSPC의 변동성 낮은 후보는 Ethereum의 gami-labs, APY 2.51%, TVL $7.52M, https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token; Ethereum의 lagoon, APY 2.50%, TVL $7.52M, https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GAMICUSPC의 변동성 낮은 후보는 Ethereum의 gami-labs, APY 2.51%, TVL $7.51M, https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token; Ethereum의 lagoon, APY 2.50%, TVL $7.52M, https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.51% | $7.52M |
+| 1 | [gami-labs →](https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token) | Ethereum | 2.51% | $7.51M |
 | 2 | [lagoon →](https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token) | Ethereum | 2.50% | $7.52M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 gami-labs에서 APY 2.51%예�
 
 ### GAMICUSPC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 GAMICUSPC의 변동성 낮은 후보는 Ethereum의 gami-labs, APY 2.51%, TVL $7.52M, https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token; Ethereum의 lagoon, APY 2.50%, TVL $7.52M, https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 GAMICUSPC의 변동성 낮은 후보는 Ethereum의 gami-labs, APY 2.51%, TVL $7.51M, https://www.defi.garden/?pool=78a8e9f9-8f2e-4a6e-a613-ce461ec869cd&src=seo_token; Ethereum의 lagoon, APY 2.50%, TVL $7.52M, https://www.defi.garden/?pool=8d222944-11f4-49f3-9b64-1716eb8b7794&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

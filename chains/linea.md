@@ -1,14 +1,14 @@
 # Linea DeFi Yields
 
-The highest honest Linea yield right now is 214.89% on etherex-cl (Linea), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Linea yield right now is 144.31% on etherex-cl (Linea), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_chain) | 2.38% | $143.13M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=40a5252b-305d-495a-9582-664a09ef2dc5&src=seo_chain) | 0.60% | $4.44M |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=e68ecfb4-ba44-49e9-9626-31299405b520&src=seo_chain) | 0.05% | $671.9K |
-| USDC-WETH | [etherex-cl →](https://www.defi.garden/?pool=54125a9d-966d-4734-85e5-ae231b781894&src=seo_chain) | 214.89% | $157.1K |
-| USDC | [aave-v3 →](https://www.defi.garden/?pool=5a49dee1-344d-4b50-a167-8f5faab08752&src=seo_chain) | 4.43% | $148K |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_chain) | 2.38% | $142.06M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=40a5252b-305d-495a-9582-664a09ef2dc5&src=seo_chain) | 0.62% | $4.3M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=e68ecfb4-ba44-49e9-9626-31299405b520&src=seo_chain) | 0.05% | $668.7K |
+| USDC-WETH | [etherex-cl →](https://www.defi.garden/?pool=54125a9d-966d-4734-85e5-ae231b781894&src=seo_chain) | 144.31% | $156.2K |
+| USDC | [aave-v3 →](https://www.defi.garden/?pool=5a49dee1-344d-4b50-a167-8f5faab08752&src=seo_chain) | 4.23% | $152K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,11 +16,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Linea yield today?
 
-214.89% APY on etherex-cl (Linea), based on live DefiLlama data.
+144.31% APY on etherex-cl (Linea), based on live DefiLlama data.
 
 ### How many Linea pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $153.93M in total.
+11 live pools clear this page's $100K TVL floor, $152.68M in total.
 
 ### Are these rates safe?
 

@@ -4,18 +4,18 @@ The highest honest LON yield right now is 0.25% on sushiswap (Ethereum), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.10% | $1.42M |
-| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.25% | $127K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.10% | $1.41M |
+| [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.25% | $126.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LON's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $1.42M TVL, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token; sushiswap (Ethereum), 0.25% APY, $127K TVL, https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LON's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $1.41M TVL, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token; sushiswap (Ethereum), 0.25% APY, $126.6K TVL, https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.10% | $1.42M |
-| 2 | [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.25% | $127K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token) | Ethereum | 0.10% | $1.41M |
+| 2 | [sushiswap →](https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token) | Ethereum | 0.25% | $126.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LON pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $2.63M in total.
+3 live pools clear this page's $100K TVL floor, $2.62M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LON pools have the most stable APY history?
 
-Based on APY history only, LON's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $1.42M TVL, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token; sushiswap (Ethereum), 0.25% APY, $127K TVL, https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LON's lower-variability candidates are uniswap-v2 (Ethereum), 0.10% APY, $1.41M TVL, https://www.defi.garden/?pool=180bedce-a7e9-42fb-9d0d-b181e975a0d7&src=seo_token; sushiswap (Ethereum), 0.25% APY, $126.6K TVL, https://www.defi.garden/?pool=53327beb-9e23-46f3-ad6e-9be0eb7e3338&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

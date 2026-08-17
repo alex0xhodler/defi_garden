@@ -4,7 +4,7 @@ The highest honest MATICX yield right now is 2.28% on stader (Polygon), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stader →](https://www.defi.garden/?pool=5b1fe146-7cbd-448d-bf53-8df9c3501016&src=seo_token) | Polygon | 2.28% | $3.18M |
+| [stader →](https://www.defi.garden/?pool=5b1fe146-7cbd-448d-bf53-8df9c3501016&src=seo_token) | Polygon | 2.28% | $3.2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MATICX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $4.84M in total.
+4 live pools clear this page's $100K TVL floor, $4.87M in total.
 
 ### Are these rates safe?
 
@@ -49,10 +49,10 @@ There is not enough qualifying APY history to rank MATICX pools. This view cover
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 

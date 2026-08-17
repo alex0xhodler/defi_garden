@@ -1,10 +1,10 @@
 # ATTN DeFi Yields
 
-The highest honest ATTN yield right now is 0.23% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATTN yield right now is 0.27% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=89da7c15-0123-4536-9102-724a2db7121f&src=seo_token) | Base | 0.23% | $131.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=89da7c15-0123-4536-9102-724a2db7121f&src=seo_token) | Base | 0.27% | $131.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATTN yield today?
 
-0.23% APY on uniswap-v3 (Base), based on live DefiLlama data.
+0.27% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ATTN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.8K in total.
+1 live pool clear this page's $100K TVL floor, $131.5K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # ORE 디파이 수익률
 
-현재 ORE의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 33.72%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ORE의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 31.86%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=64bdbf93-387a-4215-b5ae-6fcc908d2e48&src=seo_token) | Solana | 33.72% | $274K |
+| [orca-dex →](https://www.defi.garden/?pool=64bdbf93-387a-4215-b5ae-6fcc908d2e48&src=seo_token) | Solana | 31.86% | $271.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 ORE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 33.72%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 31.86%예요.
 
 ### ORE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $274K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $271.3K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -35,8 +35,8 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 12.60% | 10.78% | Base rate |
-| uniswap-v4 | 7.26% | 7.06% | Base rate |
+| uniswap-v4 | 12.60% | 10.79% | Base rate |
+| uniswap-v4 | 7.26% | 7.05% | Base rate |
 | uniswap-v4 | 8.81% | 8.43% | Base rate |
 | uniswap-v4 | 0.01% | 0.18% | Base rate |
 

@@ -1,29 +1,29 @@
 # BNKR DeFi Yields
 
-The highest honest BNKR yield right now is 138.43% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BNKR yield right now is 282.20% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 64.35% | $1.53M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 138.43% | $118.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 65.28% | $1.51M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 282.20% | $109.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BNKR's lower-variability candidates are uniswap-v3 (Base), 64.35% APY, $1.53M TVL, https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token; aerodrome-slipstream (Base), 138.43% APY, $118.5K TVL, https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BNKR's lower-variability candidates are uniswap-v3 (Base), 65.28% APY, $1.51M TVL, https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token; aerodrome-slipstream (Base), 282.20% APY, $109.7K TVL, https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 64.35% | $1.53M |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 138.43% | $118.5K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token) | Base | 65.28% | $1.51M |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token) | Base | 282.20% | $109.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BNKR shows up in 2 pools here, with rates from 64.35% to 138.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BNKR shows up in 2 pools here, with rates from 65.28% to 282.20% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 122.68% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 123.04% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ BNKR shows up in 2 pools here, with rates from 64.35% to 138.43% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 64.35% | 42.70% | Base rate |
-| aerodrome-slipstream | 138.43% | 202.67% | 70.75% incentives |
+| uniswap-v3 | 65.28% | 42.80% | Base rate |
+| aerodrome-slipstream | 282.20% | 203.28% | 85.05% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BNKR yield today?
 
-138.43% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+282.20% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many BNKR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.65M in total.
+2 live pools clear this page's $100K TVL floor, $1.62M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BNKR pools have the most stable APY history?
 
-Based on APY history only, BNKR's lower-variability candidates are uniswap-v3 (Base), 64.35% APY, $1.53M TVL, https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token; aerodrome-slipstream (Base), 138.43% APY, $118.5K TVL, https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BNKR's lower-variability candidates are uniswap-v3 (Base), 65.28% APY, $1.51M TVL, https://www.defi.garden/?pool=2bb5e61e-0ed0-4c05-b791-6e3aa146875c&src=seo_token; aerodrome-slipstream (Base), 282.20% APY, $109.7K TVL, https://www.defi.garden/?pool=d7b0af87-0dba-4f48-8505-c801fccad673&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

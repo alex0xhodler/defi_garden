@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [symbiotic →](https://www.defi.garden/?pool=dfe5b8a1-9d7d-5477-8312-1fdd1de8f136&src=seo_token) | Ethereum | 0.16% | $65.56M |
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 1.07% | $17.12M |
-| [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 1.46% | $2.52M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 1.06% | $17.11M |
+| [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 1.46% | $2.51M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -26,7 +26,7 @@ UNIBTC 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.16%부터 1.46%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | symbiotic | 0.16% | 0.16% | 인센티브 100.00% |
-| berapaw | 1.07% | 0.33% | 인센티브 100.00% |
+| berapaw | 1.06% | 0.33% | 인센티브 100.00% |
 | symbiotic | 1.46% | 1.46% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 symbiotic에서 APY 1.46%예�
 
 ### UNIBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $90.37M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $90.33M예요.
 
 ### 이 수익률은 안전한가요?
 

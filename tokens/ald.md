@@ -4,18 +4,18 @@ The highest honest ALD yield right now is 0.36% on convex-finance (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.35% | $461.2K |
-| [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.36% | $461K |
+| [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.35% | $460.7K |
+| [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.36% | $460.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ALD's lower-variability candidates are curve-dex (Ethereum), 0.35% APY, $461.2K TVL, https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token; convex-finance (Ethereum), 0.36% APY, $461K TVL, https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALD's lower-variability candidates are curve-dex (Ethereum), 0.35% APY, $460.7K TVL, https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token; convex-finance (Ethereum), 0.36% APY, $460.6K TVL, https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.35% | $461.2K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.36% | $461K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token) | Ethereum | 0.35% | $460.7K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token) | Ethereum | 0.36% | $460.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -31,8 +31,8 @@ ALD shows up in 2 pools here, with rates from 0.35% to 0.36% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.35% | 0.16% | 3.90% incentives |
-| convex-finance | 0.36% | 0.19% | 6.02% incentives |
+| curve-dex | 0.35% | 0.16% | 3.82% incentives |
+| convex-finance | 0.36% | 0.19% | 5.88% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ALD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $922.2K in total.
+2 live pools clear this page's $100K TVL floor, $921.3K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ALD pools have the most stable APY history?
 
-Based on APY history only, ALD's lower-variability candidates are curve-dex (Ethereum), 0.35% APY, $461.2K TVL, https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token; convex-finance (Ethereum), 0.36% APY, $461K TVL, https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALD's lower-variability candidates are curve-dex (Ethereum), 0.35% APY, $460.7K TVL, https://www.defi.garden/?pool=31273585-b1a5-4ae6-8026-ce0f377d24a1&src=seo_token; convex-finance (Ethereum), 0.36% APY, $460.6K TVL, https://www.defi.garden/?pool=2f4fa5ef-ed48-4814-87f6-2b61c5359277&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

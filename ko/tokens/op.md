@@ -4,20 +4,20 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $307.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token) | OP Mainnet | 54.71% | $304.5K |
+| [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $303.3K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token) | OP Mainnet | 0.03% | $261K |
-| [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 16.28% | $156.9K |
+| [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 16.07% | $155.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 OP의 변동성 낮은 후보는 OP Mainnet의 aave-v3, APY 0.06%, TVL $307.9K, https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token; OP Mainnet의 curve-dex, APY 16.28%, TVL $156.9K, https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token; OP Mainnet의 uniswap-v3, APY 54.71%, TVL $304.5K, https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token; OP Mainnet의 uniswap-v4, APY 0.03%, TVL $261K, https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OP의 변동성 낮은 후보는 OP Mainnet의 aave-v3, APY 0.06%, TVL $303.3K, https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token; OP Mainnet의 curve-dex, APY 16.07%, TVL $155.3K, https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token; OP Mainnet의 uniswap-v3, APY 54.71%, TVL $304.5K, https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token; OP Mainnet의 uniswap-v4, APY 0.03%, TVL $261K, https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $307.9K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 16.28% | $156.9K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $303.3K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 16.07% | $155.3K |
 | 3 | [uniswap-v3 →](https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token) | OP Mainnet | 54.71% | $304.5K |
 | 4 | [uniswap-v4 →](https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token) | OP Mainnet | 0.03% | $261K |
 
@@ -35,10 +35,10 @@ OP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.03%부터 54.71%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 0.06% | 0.06% | 기본 금리 |
 | uniswap-v3 | 54.71% | 45.98% | 기본 금리 |
-| uniswap-v4 | 0.03% | 27.59% | 기본 금리 |
-| curve-dex | 16.28% | 15.17% | 인센티브 96.74% |
+| aave-v3 | 0.06% | 0.06% | 기본 금리 |
+| uniswap-v4 | 0.03% | 27.60% | 기본 금리 |
+| curve-dex | 16.07% | 15.17% | 인센티브 96.45% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 uniswap-v3에서 APY 54.71%�
 
 ### OP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.29M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.28M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 uniswap-v3에서 APY 54.71%�
 
 ### OP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 OP의 변동성 낮은 후보는 OP Mainnet의 aave-v3, APY 0.06%, TVL $307.9K, https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token; OP Mainnet의 curve-dex, APY 16.28%, TVL $156.9K, https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token; OP Mainnet의 uniswap-v3, APY 54.71%, TVL $304.5K, https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token; OP Mainnet의 uniswap-v4, APY 0.03%, TVL $261K, https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 OP의 변동성 낮은 후보는 OP Mainnet의 aave-v3, APY 0.06%, TVL $303.3K, https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token; OP Mainnet의 curve-dex, APY 16.07%, TVL $155.3K, https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token; OP Mainnet의 uniswap-v3, APY 54.71%, TVL $304.5K, https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token; OP Mainnet의 uniswap-v4, APY 0.03%, TVL $261K, https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

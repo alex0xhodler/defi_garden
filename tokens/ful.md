@@ -1,10 +1,10 @@
 # FUL DeFi Yields
 
-The highest honest FUL yield right now is 0.14% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FUL yield right now is 0.11% on vvs-standard (Cronos), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.14% | $365.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=f6a666d9-44b7-4589-9a6d-93b8712ed427&src=seo_token) | Cronos | 0.11% | $366K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FUL yield today?
 
-0.14% APY on vvs-standard (Cronos), based on live DefiLlama data.
+0.11% APY on vvs-standard (Cronos), based on live DefiLlama data.
 
 ### How many FUL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $365.7K in total.
+1 live pool clear this page's $100K TVL floor, $366K in total.
 
 ### Are these rates safe?
 
@@ -33,12 +33,12 @@ There is not enough qualifying APY history to rank FUL pools. This view covers A
 
 ## Related tokens
 
+- [XRP](https://www.defi.garden/tokens/xrp)
 - [PAXG](https://www.defi.garden/tokens/paxg)
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [LION](https://www.defi.garden/tokens/lion)
-- [XRP](https://www.defi.garden/tokens/xrp)
 
 ## Available on
 

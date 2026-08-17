@@ -1,10 +1,10 @@
 # POND DeFi Yields
 
-The highest honest POND yield right now is 1.18% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POND yield right now is 4.20% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=19a40c5f-6176-447c-96f1-02fade0ceb3f&src=seo_token) | Ethereum | 1.18% | $107.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=19a40c5f-6176-447c-96f1-02fade0ceb3f&src=seo_token) | Ethereum | 4.20% | $108.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest POND yield today?
 
-1.18% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.20% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many POND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.9K in total.
+1 live pool clear this page's $100K TVL floor, $108.6K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest BIL yield right now is 0.10% on hydration-dex (Polkadot), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f&src=seo_token) | Polkadot | 0.10% | $306.6K |
+| [hydration-dex →](https://www.defi.garden/?pool=030640cd-7bd6-534b-a389-a0475c8f926f&src=seo_token) | Polkadot | 0.10% | $307.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $306.6K in total.
+1 live pool clear this page's $100K TVL floor, $307.4K in total.
 
 ### Are these rates safe?
 

@@ -6,18 +6,18 @@
 |---|---|---|---|
 | [pendle →](https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token) | Ethereum | 10.11% | $1.01M |
 | [pendle →](https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token) | Ethereum | 10.21% | $1.01M |
-| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 10.53% | $740.8K |
+| [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 10.53% | $741.3K |
 | [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token) | Sui | 7.00% | $177.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 EEARN의 변동성 낮은 후보는 Ethereum의 pendle, APY 10.21%, TVL $1.01M, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; Sui의 current, APY 10.53%, TVL $740.8K, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; Ethereum의 pendle, APY 10.11%, TVL $1.01M, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; Sui의 bluefin-spot, APY 7.00%, TVL $177.9K, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EEARN의 변동성 낮은 후보는 Ethereum의 pendle, APY 10.21%, TVL $1.01M, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; Sui의 current, APY 10.53%, TVL $741.3K, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; Ethereum의 pendle, APY 10.11%, TVL $1.01M, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; Sui의 bluefin-spot, APY 7.00%, TVL $177.9K, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [pendle →](https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token) | Ethereum | 10.21% | $1.01M |
-| 2 | [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 10.53% | $740.8K |
+| 2 | [current →](https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token) | Sui | 10.53% | $741.3K |
 | 3 | [pendle →](https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token) | Ethereum | 10.11% | $1.01M |
 | 4 | [bluefin-spot →](https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token) | Sui | 7.00% | $177.9K |
 
@@ -35,10 +35,10 @@ EEARN 풀은 여기 4개가 있고, 2개 체인에서 APY가 7.00%부터 10.53%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 10.11% | 9.98% | 기본 금리 |
+| pendle | 10.11% | 9.99% | 기본 금리 |
 | pendle | 10.21% | 10.29% | 기본 금리 |
-| current | 10.53% | 10.34% | 인센티브 7.92% |
-| bluefin-spot | 7.00% | 15.75% | 인센티브 97.15% |
+| current | 10.53% | 10.33% | 인센티브 7.90% |
+| bluefin-spot | 7.00% | 15.72% | 인센티브 97.15% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Sui의 current에서 APY 10.53%예요.
 
 ### EEARN 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 EEARN의 변동성 낮은 후보는 Ethereum의 pendle, APY 10.21%, TVL $1.01M, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; Sui의 current, APY 10.53%, TVL $740.8K, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; Ethereum의 pendle, APY 10.11%, TVL $1.01M, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; Sui의 bluefin-spot, APY 7.00%, TVL $177.9K, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EEARN의 변동성 낮은 후보는 Ethereum의 pendle, APY 10.21%, TVL $1.01M, https://www.defi.garden/?pool=3766b1c3-1808-41e5-8844-76c8d1df244f&src=seo_token; Sui의 current, APY 10.53%, TVL $741.3K, https://www.defi.garden/?pool=c9e32cbc-6404-4cbe-ba9d-8d7a7912d831&src=seo_token; Ethereum의 pendle, APY 10.11%, TVL $1.01M, https://www.defi.garden/?pool=85425a01-6fd0-47f8-a3b0-ba4ed8b25ef9&src=seo_token; Sui의 bluefin-spot, APY 7.00%, TVL $177.9K, https://www.defi.garden/?pool=c508dc44-d2aa-4507-a506-83397cbeb0f2&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

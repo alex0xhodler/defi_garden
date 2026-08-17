@@ -4,7 +4,7 @@ The highest honest MM yield right now is 0.03% on uniswap-v3 (Ethereum), among 3
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ef8315ea-2eba-48f8-98a8-3bfd6ab8e021&src=seo_token) | Ethereum | 0.03% | $103.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ef8315ea-2eba-48f8-98a8-3bfd6ab8e021&src=seo_token) | Ethereum | 0.03% | $103.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

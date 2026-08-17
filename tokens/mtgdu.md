@@ -1,10 +1,10 @@
 # MTGDU DeFi Yields
 
-The highest honest MTGDU yield right now is 0.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MTGDU yield right now is 0.29% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=27a0c8b4-143d-467e-aec3-4c1128c2413e&src=seo_token) | Solana | 0.35% | $118K |
+| [raydium-amm →](https://www.defi.garden/?pool=27a0c8b4-143d-467e-aec3-4c1128c2413e&src=seo_token) | Solana | 0.29% | $118K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MTGDU yield today?
 
-0.35% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.29% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MTGDU pools clear the TVL floor?
 

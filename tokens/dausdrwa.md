@@ -4,7 +4,7 @@ The highest honest DAUSDRWA yield right now is 5.01% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=810c3c15-112a-5e57-8a22-e53e1a5b5e75&src=seo_token) | Ethereum | 5.01% | $100.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=810c3c15-112a-5e57-8a22-e53e1a5b5e75&src=seo_token) | Ethereum | 5.01% | $100.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DAUSDRWA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.3K in total.
+1 live pool clear this page's $100K TVL floor, $100.4K in total.
 
 ### Are these rates safe?
 

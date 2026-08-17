@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ZIK pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $8.17M in total.
+4 live pools clear this page's $100K TVL floor, $8.18M in total.
 
 ### Are these rates safe?
 

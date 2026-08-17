@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 8.34% | $464.8K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 8.34% | $462K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Sonic의 beets-dex-v3에서 APY 8.34%예�
 
 ### ANS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $464.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $462K예요.
 
 ### 이 수익률은 안전한가요?
 

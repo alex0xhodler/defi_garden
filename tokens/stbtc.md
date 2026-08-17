@@ -4,7 +4,7 @@ The highest honest STBTC yield right now is 0.09% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b84fda77-bad7-41f3-a3e5-9bf974b6d796&src=seo_token) | Ethereum | 0.09% | $843.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b84fda77-bad7-41f3-a3e5-9bf974b6d796&src=seo_token) | Ethereum | 0.09% | $838.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $16.57M in total.
+2 live pools clear this page's $100K TVL floor, $16.5M in total.
 
 ### Are these rates safe?
 

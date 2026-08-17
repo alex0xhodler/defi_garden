@@ -4,7 +4,7 @@ The highest honest FAFO yield right now is 0.69% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b4d19d19-4080-4d27-844e-4f5e722f1710&src=seo_token) | Solana | 0.69% | $140.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=b4d19d19-4080-4d27-844e-4f5e722f1710&src=seo_token) | Solana | 0.69% | $140.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FAFO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.4K in total.
+1 live pool clear this page's $100K TVL floor, $140.1K in total.
 
 ### Are these rates safe?
 

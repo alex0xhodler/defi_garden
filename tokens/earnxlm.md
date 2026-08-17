@@ -1,10 +1,10 @@
 # EARNXLM DeFi Yields
 
-The highest honest EARNXLM yield right now is 3.00% on gami-labs (Stellar), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EARNXLM yield right now is 5.00% on gami-labs (Stellar), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_token) | Stellar | 3.00% | $2.66M |
+| [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_token) | Stellar | 5.00% | $2.66M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EARNXLM yield today?
 
-3.00% APY on gami-labs (Stellar), based on live DefiLlama data.
+5.00% APY on gami-labs (Stellar), based on live DefiLlama data.
 
 ### How many EARNXLM pools clear the TVL floor?
 

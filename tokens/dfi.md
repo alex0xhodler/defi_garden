@@ -4,7 +4,7 @@ The highest honest DFI yield right now is 1.04% on defichain-dex (Defichain), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 1.04% | $724.4K |
+| [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_token) | Defichain | 1.04% | $724.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

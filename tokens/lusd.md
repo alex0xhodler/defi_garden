@@ -5,19 +5,19 @@ The highest honest LUSD yield right now is 1.00% on aave-v3 (Arbitrum), among 5 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.58% | $1.25M |
-| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.08% | $785.4K |
-| [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.2K |
+| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.08% | $785.3K |
+| [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LUSD's lower-variability candidates are curve-dex (Ethereum), 0.08% APY, $785.4K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; aave-v3 (Ethereum), 0.58% APY, $1.25M TVL, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; aave-v3 (Arbitrum), 1.00% APY, $117.2K TVL, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LUSD's lower-variability candidates are curve-dex (Ethereum), 0.08% APY, $785.3K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; aave-v3 (Ethereum), 0.58% APY, $1.25M TVL, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; aave-v3 (Arbitrum), 1.00% APY, $117.4K TVL, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.08% | $785.4K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.08% | $785.3K |
 | 2 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.58% | $1.25M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.2K |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LUSD pools have the most stable APY history?
 
-Based on APY history only, LUSD's lower-variability candidates are curve-dex (Ethereum), 0.08% APY, $785.4K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; aave-v3 (Ethereum), 0.58% APY, $1.25M TVL, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; aave-v3 (Arbitrum), 1.00% APY, $117.2K TVL, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LUSD's lower-variability candidates are curve-dex (Ethereum), 0.08% APY, $785.3K TVL, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; aave-v3 (Ethereum), 0.58% APY, $1.25M TVL, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; aave-v3 (Arbitrum), 1.00% APY, $117.4K TVL, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

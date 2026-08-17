@@ -4,7 +4,7 @@ The highest honest CLAWDSPIRACY yield right now is 0.33% on uniswap-v4 (Base), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f6df99a6-b164-4d12-918b-5249146cc7ce&src=seo_token) | Base | 0.33% | $125.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f6df99a6-b164-4d12-918b-5249146cc7ce&src=seo_token) | Base | 0.33% | $124.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLAWDSPIRACY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $125.3K in total.
+1 live pool clear this page's $100K TVL floor, $124.9K in total.
 
 ### Are these rates safe?
 

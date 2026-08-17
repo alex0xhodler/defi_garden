@@ -1,33 +1,33 @@
 # NIGHT DeFi Yields
 
-The highest honest NIGHT yield right now is 89.39% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NIGHT yield right now is 90.30% on minswap-dex (Cardano), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 89.39% | $738.7K |
-| [liqwid →](https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token) | Cardano | 0.01% | $322.1K |
-| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 87.94% | $206.9K |
-| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 87.46% | $188.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 90.30% | $731.5K |
+| [liqwid →](https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token) | Cardano | 0.01% | $320.1K |
+| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 89.51% | $203.2K |
+| [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 88.42% | $186.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NIGHT's lower-variability candidates are liqwid (Cardano), 0.01% APY, $322.1K TVL, https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token; minswap-dex (Cardano), 87.46% APY, $188.1K TVL, https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token; minswap-dex (Cardano), 89.39% APY, $738.7K TVL, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token; minswap-dex (Cardano), 87.94% APY, $206.9K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NIGHT's lower-variability candidates are liqwid (Cardano), 0.01% APY, $320.1K TVL, https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token; minswap-dex (Cardano), 88.42% APY, $186.2K TVL, https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token; minswap-dex (Cardano), 90.30% APY, $731.5K TVL, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token; minswap-dex (Cardano), 89.51% APY, $203.2K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [liqwid →](https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token) | Cardano | 0.01% | $322.1K |
-| 2 | [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 87.46% | $188.1K |
-| 3 | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 89.39% | $738.7K |
-| 4 | [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 87.94% | $206.9K |
+| 1 | [liqwid →](https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token) | Cardano | 0.01% | $320.1K |
+| 2 | [minswap-dex →](https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token) | Cardano | 88.42% | $186.2K |
+| 3 | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 90.30% | $731.5K |
+| 4 | [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 89.51% | $203.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NIGHT shows up in 4 pools here, with rates from 0.01% to 89.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NIGHT shows up in 4 pools here, with rates from 0.01% to 90.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 75.58% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 75.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ NIGHT shows up in 4 pools here, with rates from 0.01% to 89.39% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| minswap-dex | 89.39% | 83.99% | 0.47% incentives |
+| minswap-dex | 90.30% | 84.30% | 0.47% incentives |
 | liqwid | 0.01% | 0.01% | Base rate |
-| minswap-dex | 87.94% | 97.02% | 3.49% incentives |
-| minswap-dex | 87.46% | 67.17% | Base rate |
+| minswap-dex | 89.51% | 97.32% | 3.44% incentives |
+| minswap-dex | 88.42% | 67.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest NIGHT yield today?
 
-89.39% APY on minswap-dex (Cardano), based on live DefiLlama data.
+90.30% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many NIGHT pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.46M in total.
+4 live pools clear this page's $100K TVL floor, $1.44M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NIGHT pools have the most stable APY history?
 
-Based on APY history only, NIGHT's lower-variability candidates are liqwid (Cardano), 0.01% APY, $322.1K TVL, https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token; minswap-dex (Cardano), 87.46% APY, $188.1K TVL, https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token; minswap-dex (Cardano), 89.39% APY, $738.7K TVL, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token; minswap-dex (Cardano), 87.94% APY, $206.9K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NIGHT's lower-variability candidates are liqwid (Cardano), 0.01% APY, $320.1K TVL, https://www.defi.garden/?pool=754b876f-e961-4af6-9f84-223e38c59293&src=seo_token; minswap-dex (Cardano), 88.42% APY, $186.2K TVL, https://www.defi.garden/?pool=dec4ed30-5969-4c36-804c-637ec8976856&src=seo_token; minswap-dex (Cardano), 90.30% APY, $731.5K TVL, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token; minswap-dex (Cardano), 89.51% APY, $203.2K TVL, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

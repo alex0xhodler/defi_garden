@@ -1,8 +1,8 @@
 # USDT-MQT — uniswap-v3 on Avalanche
 
-**Total APY:** 0.39% (0.39% Base · + 0.00% Rewards)
+**Total APY:** 0.38% (0.38% Base · + 0.00% Rewards)
 
-**TVL:** $224.6K
+**TVL:** $224.4K
 
 **Pool Type:** LP/DEX
 

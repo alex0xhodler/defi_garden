@@ -1,10 +1,10 @@
 # TRUEX DeFi Yields
 
-The highest honest TRUEX yield right now is 0.20% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUEX yield right now is 0.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=efc2e25c-3b25-4b44-889e-56a7f44e56d3&src=seo_token) | Solana | 0.20% | $1.21M |
+| [raydium-amm →](https://www.defi.garden/?pool=efc2e25c-3b25-4b44-889e-56a7f44e56d3&src=seo_token) | Solana | 0.38% | $1.21M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TRUEX yield today?
 
-0.20% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TRUEX pools clear the TVL floor?
 

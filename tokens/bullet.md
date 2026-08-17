@@ -4,7 +4,7 @@ The highest honest BULLET yield right now is 0.02% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=38832596-aef8-452b-ae32-c53cf925a4f4&src=seo_token) | Ethereum | 0.02% | $119.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=38832596-aef8-452b-ae32-c53cf925a4f4&src=seo_token) | Ethereum | 0.02% | $119.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BULLET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.9K in total.
+1 live pool clear this page's $100K TVL floor, $119.5K in total.
 
 ### Are these rates safe?
 

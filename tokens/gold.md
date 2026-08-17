@@ -5,7 +5,7 @@ The highest honest GOLD yield right now is 0.15% on folks-finance-lending (Algor
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=d4ae5908-ed9e-42be-ad6b-63bf6107c409&src=seo_token) | Solana | 0.09% | $602.2K |
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.15% | $522K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.15% | $520.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

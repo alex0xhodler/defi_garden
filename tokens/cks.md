@@ -1,10 +1,10 @@
 # CKS DeFi Yields
 
-The highest honest CKS yield right now is 0.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CKS yield right now is 0.39% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ff88af5c-bb40-444c-abd6-e2f3b665d152&src=seo_token) | Solana | 0.63% | $160.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=ff88af5c-bb40-444c-abd6-e2f3b665d152&src=seo_token) | Solana | 0.39% | $159.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CKS yield today?
 
-0.63% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.39% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CKS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $160.8K in total.
+1 live pool clear this page's $100K TVL floor, $159.9K in total.
 
 ### Are these rates safe?
 

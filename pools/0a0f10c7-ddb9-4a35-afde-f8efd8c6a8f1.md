@@ -1,8 +1,8 @@
 # SHIBA2-WETH — uniswap-v3 on Ethereum
 
-**Total APY:** 1.07% (1.07% Base · + 0.00% Rewards)
+**Total APY:** 1.08% (1.08% Base · + 0.00% Rewards)
 
-**TVL:** $1.87M
+**TVL:** $1.85M
 
 **Pool Type:** LP/DEX
 

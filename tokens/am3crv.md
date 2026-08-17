@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AM3CRV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.94M in total.
+2 live pools clear this page's $100K TVL floor, $1.93M in total.
 
 ### Are these rates safe?
 
@@ -51,10 +51,10 @@ There is not enough qualifying APY history to rank AM3CRV pools. This view cover
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 

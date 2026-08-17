@@ -4,7 +4,7 @@ The highest honest XUSD yield right now is 0.95% on overnight-finance (Arbitrum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.95% | $119.1K |
+| [overnight-finance →](https://www.defi.garden/?pool=95395442-9b4a-47a9-ad4f-14cbb7a1efd3&src=seo_token) | Arbitrum | 0.95% | $117.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

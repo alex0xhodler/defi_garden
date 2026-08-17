@@ -5,7 +5,7 @@ The highest honest VIBE yield right now is 223.67% on uniswap-v3 (Ethereum), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [uniswap-v3 →](https://www.defi.garden/?pool=517fba73-622f-4e5d-ba81-4213670b418b&src=seo_token) | Ethereum | 223.67% | $691.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9&src=seo_token) | Ethereum | 0.68% | $677.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f820ac25-379b-5b24-b6b2-61cd0f48f3e9&src=seo_token) | Ethereum | 38.39% | $662.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-VIBE shows up in 2 pools here, with rates from 0.68% to 223.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VIBE shows up in 2 pools here, with rates from 38.39% to 223.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 215.93% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 226.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -27,7 +27,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | uniswap-v3 | 223.67% | 431.18% | Base rate |
-| uniswap-v4 | 0.68% | 0.68% | Base rate |
+| uniswap-v4 | 38.39% | 21.83% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VIBE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.37M in total.
+2 live pools clear this page's $100K TVL floor, $1.35M in total.
 
 ### Are these rates safe?
 

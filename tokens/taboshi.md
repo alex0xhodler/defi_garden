@@ -1,10 +1,10 @@
 # TABOSHI DeFi Yields
 
-The highest honest TABOSHI yield right now is 89.37% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TABOSHI yield right now is 121.28% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d0ba09f0-abb2-4ecb-adfd-1bbb744e4a35&src=seo_token) | Base | 89.37% | $124.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d0ba09f0-abb2-4ecb-adfd-1bbb744e4a35&src=seo_token) | Base | 121.28% | $135.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TABOSHI yield today?
 
-89.37% APY on uniswap-v3 (Base), based on live DefiLlama data.
+121.28% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many TABOSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.1K in total.
+1 live pool clear this page's $100K TVL floor, $135.4K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest FORCE yield right now is 0.02% on uniswap-v2 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8d9c2928-6c61-404d-8271-d98d66126bc1&src=seo_token) | Base | 0.02% | $147.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8d9c2928-6c61-404d-8271-d98d66126bc1&src=seo_token) | Base | 0.02% | $146.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FORCE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.1K in total.
+1 live pool clear this page's $100K TVL floor, $146.9K in total.
 
 ### Are these rates safe?
 

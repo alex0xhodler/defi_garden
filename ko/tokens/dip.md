@@ -33,12 +33,12 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.01%예�
 
 ## 관련 토큰
 
+- [XRP](https://www.defi.garden/ko/tokens/xrp)
 - [PAXG](https://www.defi.garden/ko/tokens/paxg)
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
 - [LION](https://www.defi.garden/ko/tokens/lion)
-- [XRP](https://www.defi.garden/ko/tokens/xrp)
 
 ## 이용 가능한 체인
 

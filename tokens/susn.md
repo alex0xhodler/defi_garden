@@ -25,7 +25,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 8.15% | 8.66% | Base rate |
+| pendle | 8.15% | 8.65% | Base rate |
 | pendle | 7.66% | 7.99% | Base rate |
 | uniswap-v3 | 0.01% | 0.09% | Base rate |
 
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSN pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $10.14M in total.
+8 live pools clear this page's $100K TVL floor, $10.13M in total.
 
 ### Are these rates safe?
 

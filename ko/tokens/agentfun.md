@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60&src=seo_token) | Cronos | 0.03% | $672.6K |
-| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086&src=seo_token) | Cronos | 0.01% | $192.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60&src=seo_token) | Cronos | 0.03% | $672.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086&src=seo_token) | Cronos | 0.01% | $193.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.03%예�
 
 ### AGENTFUN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $865.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $865.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -51,12 +51,12 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 0.03%예�
 
 ## 관련 토큰
 
+- [XRP](https://www.defi.garden/ko/tokens/xrp)
 - [PAXG](https://www.defi.garden/ko/tokens/paxg)
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
 - [LION](https://www.defi.garden/ko/tokens/lion)
-- [XRP](https://www.defi.garden/ko/tokens/xrp)
 
 ## 이용 가능한 체인
 

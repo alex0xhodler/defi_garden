@@ -1,10 +1,10 @@
 # SPARKUSDCBC DeFi Yields
 
-The highest honest SPARKUSDCBC yield right now is 3.91% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPARKUSDCBC yield right now is 3.90% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3e31d9a0-4d87-492e-8c2d-78471cd76cec&src=seo_token) | Ethereum | 3.91% | $1.71M |
+| [morpho-blue →](https://www.defi.garden/?pool=3e31d9a0-4d87-492e-8c2d-78471cd76cec&src=seo_token) | Ethereum | 3.90% | $1.7M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPARKUSDCBC yield today?
 
-3.91% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.90% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SPARKUSDCBC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.71M in total.
+1 live pool clear this page's $100K TVL floor, $1.7M in total.
 
 ### Are these rates safe?
 

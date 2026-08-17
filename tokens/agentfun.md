@@ -4,8 +4,8 @@ The highest honest AGENTFUN yield right now is 0.03% on vvs-standard (Cronos), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60&src=seo_token) | Cronos | 0.03% | $672.6K |
-| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086&src=seo_token) | Cronos | 0.01% | $192.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=42cf02bc-b368-4fbc-956a-ffc9b22d0b60&src=seo_token) | Cronos | 0.03% | $672.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=eb29a2ea-1c01-59f4-b808-2ca987295086&src=seo_token) | Cronos | 0.01% | $193.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AGENTFUN pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $865.2K in total.
+2 live pools clear this page's $100K TVL floor, $865.8K in total.
 
 ### Are these rates safe?
 
@@ -51,12 +51,12 @@ There is not enough qualifying APY history to rank AGENTFUN pools. This view cov
 
 ## Related tokens
 
+- [XRP](https://www.defi.garden/tokens/xrp)
 - [PAXG](https://www.defi.garden/tokens/paxg)
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [LION](https://www.defi.garden/tokens/lion)
-- [XRP](https://www.defi.garden/tokens/xrp)
 
 ## Available on
 

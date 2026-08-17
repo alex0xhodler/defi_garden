@@ -4,8 +4,8 @@ The highest honest SIERRA yield right now is 8.10% on pendle (Ethereum), among 5
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.10% | $7.3M |
-| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 5.19% | $7.3M |
+| [pendle →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.10% | $7.62M |
+| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 5.17% | $7.62M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,16 +16,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SIERRA shows up in 2 pools here, with rates from 5.19% to 8.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SIERRA shows up in 2 pools here, with rates from 5.17% to 8.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 8.10% | 8.52% | Base rate |
-| pendle | 5.19% | 7.17% | 9.04% incentives |
+| pendle | 8.10% | 8.51% | Base rate |
+| pendle | 5.17% | 7.13% | 8.66% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SIERRA pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $22.58M in total.
+5 live pools clear this page's $100K TVL floor, $23.22M in total.
 
 ### Are these rates safe?
 

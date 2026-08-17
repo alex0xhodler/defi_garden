@@ -4,30 +4,30 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token) | Ethereum | 12.89% | $807.2K |
-| [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.28% | $807.2K |
-| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 11.34% | $423.6K |
-| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.18% | $365.6K |
-| [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 13.71% | $108.9K |
+| [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.28% | $806.8K |
+| [pendle →](https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token) | Ethereum | 12.89% | $806.8K |
+| [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 11.17% | $423.7K |
+| [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.07% | $365.7K |
+| [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 13.41% | $108.9K |
 | [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 11.55% | $105.9K |
 | [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 11.20% | $105.9K |
-| [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 15.76% | $101.3K |
+| [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 15.76% | $101.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 YNRWAX의 변동성 낮은 후보는 Ethereum의 spectra-v2, APY 11.20%, TVL $105.9K, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; Ethereum의 spectra-v2, APY 11.55%, TVL $105.9K, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token; Ethereum의 pendle, APY 10.28%, TVL $807.2K, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token; Ethereum의 penpie, APY 15.76%, TVL $101.3K, https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token; Ethereum의 curve-dex, APY 13.71%, TVL $108.9K, https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token; Ethereum의 pendle, APY 12.89%, TVL $807.2K, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token; Ethereum의 curve-dex, APY 11.34%, TVL $423.6K, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; Ethereum의 stake-dao, APY 11.18%, TVL $365.6K, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YNRWAX의 변동성 낮은 후보는 Ethereum의 spectra-v2, APY 11.20%, TVL $105.9K, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; Ethereum의 spectra-v2, APY 11.55%, TVL $105.9K, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token; Ethereum의 pendle, APY 10.28%, TVL $806.8K, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token; Ethereum의 penpie, APY 15.76%, TVL $101.2K, https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token; Ethereum의 curve-dex, APY 13.41%, TVL $108.9K, https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token; Ethereum의 pendle, APY 12.89%, TVL $806.8K, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token; Ethereum의 curve-dex, APY 11.17%, TVL $423.7K, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; Ethereum의 stake-dao, APY 11.07%, TVL $365.7K, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [spectra-v2 →](https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token) | Ethereum | 11.20% | $105.9K |
 | 2 | [spectra-v2 →](https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token) | Ethereum | 11.55% | $105.9K |
-| 3 | [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.28% | $807.2K |
-| 4 | [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 15.76% | $101.3K |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 13.71% | $108.9K |
-| 6 | [pendle →](https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token) | Ethereum | 12.89% | $807.2K |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 11.34% | $423.6K |
-| 8 | [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.18% | $365.6K |
+| 3 | [pendle →](https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token) | Ethereum | 10.28% | $806.8K |
+| 4 | [penpie →](https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token) | Ethereum | 15.76% | $101.2K |
+| 5 | [curve-dex →](https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token) | Ethereum | 13.41% | $108.9K |
+| 6 | [pendle →](https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token) | Ethereum | 12.89% | $806.8K |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token) | Ethereum | 11.17% | $423.7K |
+| 8 | [stake-dao →](https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token) | Ethereum | 11.07% | $365.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -43,14 +43,14 @@ YNRWAX 풀은 여기 8개가 있고, 1개 체인에서 APY가 10.28%부터 15.76
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 12.89% | 12.73% | 기본 금리 |
 | pendle | 10.28% | 10.38% | 기본 금리 |
-| curve-dex | 11.34% | 11.85% | 기본 금리 |
-| stake-dao | 11.18% | 11.91% | 기본 금리 |
-| curve-dex | 13.71% | 10.56% | 기본 금리 |
+| pendle | 12.89% | 12.73% | 기본 금리 |
+| curve-dex | 11.17% | 11.85% | 기본 금리 |
+| stake-dao | 11.07% | 11.90% | 기본 금리 |
+| curve-dex | 13.41% | 10.54% | 기본 금리 |
 | spectra-v2 | 11.55% | 11.10% | 기본 금리 |
 | spectra-v2 | 11.20% | 10.97% | 기본 금리 |
-| penpie | 15.76% | 15.88% | 인센티브 18.20% |
+| penpie | 15.76% | 15.88% | 인센티브 18.19% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 penpie에서 APY 15.76%예요.
 
 ### YNRWAX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 YNRWAX의 변동성 낮은 후보는 Ethereum의 spectra-v2, APY 11.20%, TVL $105.9K, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; Ethereum의 spectra-v2, APY 11.55%, TVL $105.9K, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token; Ethereum의 pendle, APY 10.28%, TVL $807.2K, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token; Ethereum의 penpie, APY 15.76%, TVL $101.3K, https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token; Ethereum의 curve-dex, APY 13.71%, TVL $108.9K, https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token; Ethereum의 pendle, APY 12.89%, TVL $807.2K, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token; Ethereum의 curve-dex, APY 11.34%, TVL $423.6K, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; Ethereum의 stake-dao, APY 11.18%, TVL $365.6K, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 YNRWAX의 변동성 낮은 후보는 Ethereum의 spectra-v2, APY 11.20%, TVL $105.9K, https://www.defi.garden/?pool=f3b7edfa-e21b-4679-8406-323f41db15fd&src=seo_token; Ethereum의 spectra-v2, APY 11.55%, TVL $105.9K, https://www.defi.garden/?pool=826ba692-c0fa-4308-a376-61d450fd01c9&src=seo_token; Ethereum의 pendle, APY 10.28%, TVL $806.8K, https://www.defi.garden/?pool=91338cef-96b3-4546-aa54-f95bcfa50a95&src=seo_token; Ethereum의 penpie, APY 15.76%, TVL $101.2K, https://www.defi.garden/?pool=b1b8d8da-7e73-4516-9c30-d1986e06b234&src=seo_token; Ethereum의 curve-dex, APY 13.41%, TVL $108.9K, https://www.defi.garden/?pool=1ddac7f7-b171-4e6b-925d-43efb182c92c&src=seo_token; Ethereum의 pendle, APY 12.89%, TVL $806.8K, https://www.defi.garden/?pool=59cc7f5d-7446-431b-ae0e-d2ccc8c13a9b&src=seo_token; Ethereum의 curve-dex, APY 11.17%, TVL $423.7K, https://www.defi.garden/?pool=3ede185c-be5c-4610-a411-7aedb3a3b58e&src=seo_token; Ethereum의 stake-dao, APY 11.07%, TVL $365.7K, https://www.defi.garden/?pool=8cd0ad37-055d-4ec5-aa2d-b435367aa872&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -4,24 +4,24 @@ The highest honest NAVX yield right now is 0.01% on navi-lending (Sui), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $1.71M |
-| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 2.57% | $134.4K |
+| [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $1.69M |
+| [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 4.73% | $132.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NAVX's lower-variability candidates are navi-lending (Sui), 0.01% APY, $1.71M TVL, https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token; cetus-clmm (Sui), 2.57% APY, $134.4K TVL, https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NAVX's lower-variability candidates are navi-lending (Sui), 0.01% APY, $1.69M TVL, https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token; cetus-clmm (Sui), 4.73% APY, $132.3K TVL, https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $1.71M |
-| 2 | [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 2.57% | $134.4K |
+| 1 | [navi-lending →](https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token) | Sui | 0.01% | $1.69M |
+| 2 | [cetus-clmm →](https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token) | Sui | 4.73% | $132.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-NAVX shows up in 2 pools here, with rates from 0.01% to 2.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NAVX shows up in 2 pools here, with rates from 0.01% to 4.73% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | navi-lending | 0.01% | 0.01% | Base rate |
-| cetus-clmm | 2.57% | 13.41% | Base rate |
+| cetus-clmm | 4.73% | 13.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NAVX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.85M in total.
+2 live pools clear this page's $100K TVL floor, $1.82M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NAVX pools have the most stable APY history?
 
-Based on APY history only, NAVX's lower-variability candidates are navi-lending (Sui), 0.01% APY, $1.71M TVL, https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token; cetus-clmm (Sui), 2.57% APY, $134.4K TVL, https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NAVX's lower-variability candidates are navi-lending (Sui), 0.01% APY, $1.69M TVL, https://www.defi.garden/?pool=3ef9a5b0-5f59-4354-8387-3c6d502e0b18&src=seo_token; cetus-clmm (Sui), 4.73% APY, $132.3K TVL, https://www.defi.garden/?pool=f51b07b7-fbf0-4aa8-90f6-c87fac186b9f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

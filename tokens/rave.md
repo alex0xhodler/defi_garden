@@ -1,10 +1,10 @@
 # RAVE DeFi Yields
 
-The highest honest RAVE yield right now is 121.24% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAVE yield right now is 135.44% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 121.24% | $318.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=af5670be-df7d-4d34-934f-5b5cc7dcef0b&src=seo_token) | Base | 135.44% | $320.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RAVE yield today?
 
-121.24% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+135.44% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many RAVE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $318.1K in total.
+1 live pool clear this page's $100K TVL floor, $320.5K in total.
 
 ### Are these rates safe?
 

@@ -33,12 +33,12 @@ There is not enough qualifying APY history to rank DIP pools. This view covers A
 
 ## Related tokens
 
+- [XRP](https://www.defi.garden/tokens/xrp)
 - [PAXG](https://www.defi.garden/tokens/paxg)
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [LION](https://www.defi.garden/tokens/lion)
-- [XRP](https://www.defi.garden/tokens/xrp)
 
 ## Available on
 

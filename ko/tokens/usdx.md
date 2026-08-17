@@ -34,8 +34,8 @@ DefiLlama 실시간 데이터 기준, Flare의 clearpool-lending에서 APY 3.50%
 ## 관련 토큰
 
 - [FXRP](https://www.defi.garden/ko/tokens/fxrp)
-- [SFLR](https://www.defi.garden/ko/tokens/sflr)
 - [COREUSDT0](https://www.defi.garden/ko/tokens/coreusdt0)
+- [SFLR](https://www.defi.garden/ko/tokens/sflr)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [STXRP](https://www.defi.garden/ko/tokens/stxrp)
 - [WFLR](https://www.defi.garden/ko/tokens/wflr)

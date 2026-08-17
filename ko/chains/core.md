@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| CORE | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_chain) | 13.86% | $1.93M |
-| WCORE | [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_chain) | 0.89% | $133.6K |
+| CORE | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_chain) | 13.86% | $1.97M |
+| WCORE | [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_chain) | 0.90% | $137.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, CORE의 b14g에서 APY 13.86%예요.
 
 ### CORE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $2.11M예요.
 
 ### 이 수익률은 안전한가요?
 

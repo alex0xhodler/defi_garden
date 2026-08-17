@@ -1,6 +1,6 @@
 # ERC10 DeFi Yields
 
-The highest honest ERC10 yield right now is 0.01% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ERC10 yield right now is 0.01% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ERC10 pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $299.5M in total.
+6 live pools clear this page's $100K TVL floor, $599M in total.
 
 ### Are these rates safe?
 

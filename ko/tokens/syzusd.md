@@ -1,39 +1,39 @@
 # SYZUSD 디파이 수익률
 
-현재 SYZUSD의 가장 높은 정직한 수익률은 Monad의 balancer-v3에서 11.42%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SYZUSD의 가장 높은 정직한 수익률은 Monad의 balancer-v3에서 11.85%이며, $100K TVL 기준을 넘는 9개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.68% | $28.53M |
-| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 7.68% | $11.53M |
-| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 7.68% | $9.01M |
-| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.68% | $1.29M |
+| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.69% | $28.53M |
+| [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 7.69% | $11.78M |
+| [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 7.69% | $9.01M |
+| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.69% | $1.29M |
 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.06M |
 | [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token) | Monad | 1.12% | $479.9K |
-| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 11.42% | $363.8K |
-| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.36% | $116.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 11.85% | $363.8K |
+| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.44% | $116.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.20%, TVL $1.06M, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; Monad의 morpho-blue, APY 1.12%, TVL $479.9K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; Sei의 yuzu-money, APY 7.68%, TVL $9.01M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; Ethereum의 yuzu-money, APY 7.68%, TVL $1.29M, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; Monad의 yuzu-money, APY 7.68%, TVL $11.53M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; Plasma의 yuzu-money, APY 7.68%, TVL $28.53M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; Monad의 balancer-v3, APY 11.36%, TVL $116.3K, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token; Monad의 balancer-v3, APY 11.42%, TVL $363.8K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.20%, TVL $1.06M, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; Monad의 morpho-blue, APY 1.12%, TVL $479.9K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; Sei의 yuzu-money, APY 7.69%, TVL $9.01M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; Ethereum의 yuzu-money, APY 7.69%, TVL $1.29M, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; Monad의 yuzu-money, APY 7.69%, TVL $11.78M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; Plasma의 yuzu-money, APY 7.69%, TVL $28.53M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; Monad의 balancer-v3, APY 11.44%, TVL $116.3K, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token; Monad의 balancer-v3, APY 11.85%, TVL $363.8K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.06M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token) | Monad | 1.12% | $479.9K |
-| 3 | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 7.68% | $9.01M |
-| 4 | [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.68% | $1.29M |
-| 5 | [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 7.68% | $11.53M |
-| 6 | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.68% | $28.53M |
-| 7 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.36% | $116.3K |
-| 8 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 11.42% | $363.8K |
+| 3 | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 7.69% | $9.01M |
+| 4 | [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.69% | $1.29M |
+| 5 | [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 7.69% | $11.78M |
+| 6 | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.69% | $28.53M |
+| 7 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.44% | $116.3K |
+| 8 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 11.85% | $363.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SYZUSD 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.20%부터 11.42%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SYZUSD 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.20%부터 11.85%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.92%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -41,14 +41,14 @@ SYZUSD 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.20%부터 11.42%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| yuzu-money | 7.68% | 7.92% | 기본 금리 |
-| yuzu-money | 7.68% | 7.92% | 기본 금리 |
-| yuzu-money | 7.68% | 7.92% | 기본 금리 |
-| yuzu-money | 7.68% | 7.92% | 기본 금리 |
+| yuzu-money | 7.69% | 7.92% | 기본 금리 |
+| yuzu-money | 7.69% | 7.92% | 기본 금리 |
+| yuzu-money | 7.69% | 7.92% | 기본 금리 |
+| yuzu-money | 7.69% | 7.92% | 기본 금리 |
 | curvance | 0.20% | 0.20% | 인센티브 100.00% |
 | morpho-blue | 1.12% | 0.32% | 인센티브 100.00% |
-| balancer-v3 | 11.42% | 11.17% | 인센티브 52.01% |
-| balancer-v3 | 11.36% | 12.47% | 인센티브 47.21% |
+| balancer-v3 | 11.85% | 11.17% | 인센티브 51.45% |
+| balancer-v3 | 11.44% | 12.48% | 인센티브 47.67% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,11 +56,11 @@ SYZUSD 풀은 여기 8개가 있고, 4개 체인에서 APY가 0.20%부터 11.42%
 
 ### 오늘 SYZUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 11.42%예요.
+DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 11.85%예요.
 
 ### SYZUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $53.24M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $53.5M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,7 +68,7 @@ DefiLlama 실시간 데이터 기준, Monad의 balancer-v3에서 APY 11.42%예�
 
 ### SYZUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.20%, TVL $1.06M, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; Monad의 morpho-blue, APY 1.12%, TVL $479.9K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; Sei의 yuzu-money, APY 7.68%, TVL $9.01M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; Ethereum의 yuzu-money, APY 7.68%, TVL $1.29M, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; Monad의 yuzu-money, APY 7.68%, TVL $11.53M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; Plasma의 yuzu-money, APY 7.68%, TVL $28.53M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; Monad의 balancer-v3, APY 11.36%, TVL $116.3K, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token; Monad의 balancer-v3, APY 11.42%, TVL $363.8K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SYZUSD의 변동성 낮은 후보는 Monad의 curvance, APY 0.20%, TVL $1.06M, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; Monad의 morpho-blue, APY 1.12%, TVL $479.9K, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; Sei의 yuzu-money, APY 7.69%, TVL $9.01M, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; Ethereum의 yuzu-money, APY 7.69%, TVL $1.29M, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; Monad의 yuzu-money, APY 7.69%, TVL $11.78M, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; Plasma의 yuzu-money, APY 7.69%, TVL $28.53M, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; Monad의 balancer-v3, APY 11.44%, TVL $116.3K, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token; Monad의 balancer-v3, APY 11.85%, TVL $363.8K, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

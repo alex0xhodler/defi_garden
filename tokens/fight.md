@@ -4,26 +4,26 @@ The highest honest FIGHT yield right now is 0.40% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token) | Ethereum | 0.27% | $147.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token) | Ethereum | 0.28% | $146.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token) | Solana | 0.40% | $136K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FIGHT's lower-variability candidates are raydium-amm (Solana), 0.40% APY, $136K TVL, https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token; uniswap-v2 (Ethereum), 0.27% APY, $147.7K TVL, https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FIGHT's lower-variability candidates are raydium-amm (Solana), 0.40% APY, $136K TVL, https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token; uniswap-v2 (Ethereum), 0.28% APY, $146.6K TVL, https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [raydium-amm →](https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token) | Solana | 0.40% | $136K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token) | Ethereum | 0.27% | $147.7K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token) | Ethereum | 0.28% | $146.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FIGHT shows up in 2 pools here, with rates from 0.27% to 0.40% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FIGHT shows up in 2 pools here, with rates from 0.28% to 0.40% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.83% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 0.27% | 1.23% | Base rate |
-| raydium-amm | 0.40% | 2.42% | Base rate |
+| uniswap-v2 | 0.28% | 1.23% | Base rate |
+| raydium-amm | 0.40% | 2.44% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FIGHT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $283.8K in total.
+2 live pools clear this page's $100K TVL floor, $282.7K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FIGHT pools have the most stable APY history?
 
-Based on APY history only, FIGHT's lower-variability candidates are raydium-amm (Solana), 0.40% APY, $136K TVL, https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token; uniswap-v2 (Ethereum), 0.27% APY, $147.7K TVL, https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FIGHT's lower-variability candidates are raydium-amm (Solana), 0.40% APY, $136K TVL, https://www.defi.garden/?pool=15c6e86c-0085-476a-984f-5d26076b747a&src=seo_token; uniswap-v2 (Ethereum), 0.28% APY, $146.6K TVL, https://www.defi.garden/?pool=828a3eff-6c9b-43b5-933b-55a3d3f8a0dd&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
