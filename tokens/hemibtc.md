@@ -1,33 +1,33 @@
 # HEMIBTC DeFi Yields
 
-The highest honest HEMIBTC yield right now is 7.05% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEMIBTC yield right now is 6.86% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 3.24% | $2.94M |
-| [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 4.98% | $2.56M |
-| [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 7.05% | $1.15M |
+| [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 3.13% | $2.96M |
+| [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 4.95% | $2.58M |
+| [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 6.86% | $1.16M |
 | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 0.03% | $111.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HEMIBTC's lower-variability candidates are convex-finance (Ethereum), 7.05% APY, $1.15M TVL, https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token; sushiswap-v3 (Hemi), 0.03% APY, $111.8K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; stake-dao (Ethereum), 4.98% APY, $2.56M TVL, https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token; curve-dex (Ethereum), 3.24% APY, $2.94M TVL, https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEMIBTC's lower-variability candidates are convex-finance (Ethereum), 6.86% APY, $1.16M TVL, https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token; sushiswap-v3 (Hemi), 0.03% APY, $111.8K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; stake-dao (Ethereum), 4.95% APY, $2.58M TVL, https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token; curve-dex (Ethereum), 3.13% APY, $2.96M TVL, https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 7.05% | $1.15M |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 6.86% | $1.16M |
 | 2 | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 0.03% | $111.8K |
-| 3 | [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 4.98% | $2.56M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 3.24% | $2.94M |
+| 3 | [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 4.95% | $2.58M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 3.13% | $2.96M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HEMIBTC shows up in 4 pools here, with rates from 0.03% to 7.05% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+HEMIBTC shows up in 4 pools here, with rates from 0.03% to 6.86% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.17% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ HEMIBTC shows up in 4 pools here, with rates from 0.03% to 7.05% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 3.24% | 3.49% | 89.19% incentives |
-| stake-dao | 4.98% | 4.84% | 92.37% incentives |
-| convex-finance | 7.05% | 6.98% | 95.03% incentives |
-| sushiswap-v3 | 0.03% | 0.54% | Base rate |
+| curve-dex | 3.13% | 3.49% | 91.05% incentives |
+| stake-dao | 4.95% | 4.85% | 92.33% incentives |
+| convex-finance | 6.86% | 6.99% | 95.92% incentives |
+| sushiswap-v3 | 0.03% | 0.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HEMIBTC yield today?
 
-7.05% APY on convex-finance (Ethereum), based on live DefiLlama data.
+6.86% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many HEMIBTC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $7.78M in total.
+5 live pools clear this page's $100K TVL floor, $7.83M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HEMIBTC pools have the most stable APY history?
 
-Based on APY history only, HEMIBTC's lower-variability candidates are convex-finance (Ethereum), 7.05% APY, $1.15M TVL, https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token; sushiswap-v3 (Hemi), 0.03% APY, $111.8K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; stake-dao (Ethereum), 4.98% APY, $2.56M TVL, https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token; curve-dex (Ethereum), 3.24% APY, $2.94M TVL, https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEMIBTC's lower-variability candidates are convex-finance (Ethereum), 6.86% APY, $1.16M TVL, https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token; sushiswap-v3 (Hemi), 0.03% APY, $111.8K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; stake-dao (Ethereum), 4.95% APY, $2.58M TVL, https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token; curve-dex (Ethereum), 3.13% APY, $2.96M TVL, https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -74,4 +74,4 @@ Based on APY history only, HEMIBTC's lower-variability candidates are convex-fin
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Hemi](https://www.defi.garden/chains/hemi)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

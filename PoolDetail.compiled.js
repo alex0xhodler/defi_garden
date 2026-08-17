@@ -3,7 +3,724 @@
 var {
   useState,
   useEffect
-} = React;
+} = typeof React !== 'undefined' ? React : {};
+
+// Yield-Funded Virtual Card Catalogs & Pure Mathematical Helpers (PRD Design 3)
+function calculateMonthlyYield(deposit, netApy) {
+  var C = Number(deposit) || 0;
+  var apy = Number(netApy) || 0;
+  if (C <= 0 || apy <= 0) return 0;
+  var r = apy / 100;
+  return C * r / 12;
+}
+function calculateRequiredCapital(monthlyCost, netApy) {
+  var B = Number(monthlyCost) || 0;
+  var apy = Number(netApy) || 0;
+  if (B <= 0) return 0;
+  if (apy <= 0) return Infinity;
+  var r = apy / 100;
+  return Math.ceil(B * 12 / r);
+}
+function isRungCovered(monthlyYield, monthlyCost) {
+  var Y = Number(monthlyYield) || 0;
+  var B = Number(monthlyCost) || 0;
+  return Y >= B - 0.00001;
+}
+var STABLE_SYMBOLS = ['USDC', 'USDT', 'DAI', 'USDS', 'FRAX', 'FDUSD', 'PYUSD', 'TUSD', 'BUSD', 'LUSD', 'GUSD', 'CRVUSD', 'USDD', 'USDE', 'SUSD', 'SUSDS', 'EURS', 'EURC'];
+function isStableSymbol(symbol) {
+  if (!symbol) return false;
+  var parts = String(symbol).toUpperCase().split(/[-_\/\s+]/).map(s => s.trim()).filter(Boolean);
+  if (parts.length === 0) return false;
+  return parts.every(p => STABLE_SYMBOLS.includes(p));
+}
+var YIELD_CARD_CATALOG_KR = [{
+  id: 'baemin_club',
+  name: '배민클럽 (배달의민족)',
+  monthlyCostKrw: 3990,
+  monthlyCostUsd: 2.95,
+  domain: 'baemin.com',
+  emoji: '🛵',
+  category: ['food_delivery', 'lifestyle']
+}, {
+  id: 'naver_plus',
+  name: '네이버플러스 멤버십',
+  monthlyCostKrw: 4900,
+  monthlyCostUsd: 3.60,
+  domain: 'naver.com',
+  emoji: '🟢',
+  category: ['shopping', 'content']
+}, {
+  id: 'opencode_go',
+  name: 'OpenCode Go',
+  monthlyCostKrw: 6800,
+  monthlyCostUsd: 5.00,
+  domain: 'opencode.ai',
+  emoji: '⚡',
+  category: ['developer_tool', 'ai_service']
+}, {
+  id: 'coupang_wow',
+  name: '쿠팡 와우 멤버십',
+  monthlyCostKrw: 7890,
+  monthlyCostUsd: 5.80,
+  domain: 'coupang.com',
+  emoji: '🚀',
+  category: ['shopping', 'delivery']
+}, {
+  id: 'melon',
+  name: '멜론 스트리밍',
+  monthlyCostKrw: 10900,
+  monthlyCostUsd: 8.10,
+  domain: 'melon.com',
+  emoji: '🎵',
+  category: ['music', 'streaming']
+}, {
+  id: 'tving',
+  name: '티빙 (TVING)',
+  monthlyCostKrw: 13500,
+  monthlyCostUsd: 10.00,
+  domain: 'tving.com',
+  emoji: '📺',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'youtube_kr',
+  name: '유튜브 프리미엄',
+  monthlyCostKrw: 14900,
+  monthlyCostUsd: 11.00,
+  domain: 'youtube.com',
+  emoji: '▶️',
+  category: ['video', 'subscription']
+}, {
+  id: 'claude_pro',
+  name: 'Claude Pro',
+  monthlyCostKrw: 29000,
+  monthlyCostUsd: 20.00,
+  domain: 'claude.ai',
+  emoji: '🤖',
+  category: ['ai_service', 'software_subscription']
+}, {
+  id: 'codex_pro',
+  name: 'Codex Pro / ChatGPT Plus',
+  monthlyCostKrw: 29000,
+  monthlyCostUsd: 20.00,
+  domain: 'openai.com',
+  emoji: '💬',
+  category: ['ai_service', 'software_subscription']
+}, {
+  id: 'cursor_pro',
+  name: 'Cursor Pro',
+  monthlyCostKrw: 29000,
+  monthlyCostUsd: 20.00,
+  domain: 'cursor.com',
+  emoji: '✨',
+  category: ['developer_tool', 'ai_service']
+}];
+var YIELD_CARD_CATALOG_USD = [{
+  id: 'prime_video',
+  name: 'Amazon Prime Video',
+  monthlyCostUsd: 4.99,
+  domain: 'amazon.com',
+  emoji: '📦',
+  category: ['entertainment', 'streaming']
+}, {
+  id: 'telegram_prem',
+  name: 'Telegram Premium',
+  monthlyCostUsd: 4.99,
+  domain: 'telegram.org',
+  emoji: '✈️',
+  category: ['messaging', 'social']
+}, {
+  id: 'opencode_go',
+  name: 'OpenCode Go',
+  monthlyCostUsd: 5.00,
+  domain: 'opencode.ai',
+  emoji: '⚡',
+  category: ['developer_tool', 'ai_service']
+}, {
+  id: 'spotify',
+  name: 'Spotify Premium',
+  monthlyCostUsd: 11.00,
+  domain: 'spotify.com',
+  emoji: '🎵',
+  category: ['music', 'streaming']
+}, {
+  id: 'xbox',
+  name: 'Xbox Game Pass',
+  monthlyCostUsd: 17.00,
+  domain: 'xbox.com',
+  emoji: '🎮',
+  category: ['gaming', 'subscription']
+}, {
+  id: 'codex_pro',
+  name: 'Codex Pro',
+  monthlyCostUsd: 20.00,
+  domain: 'openai.com',
+  emoji: '💬',
+  category: ['ai_service', 'software_subscription']
+}, {
+  id: 'claude_pro',
+  name: 'Claude Pro',
+  monthlyCostUsd: 20.00,
+  domain: 'claude.ai',
+  emoji: '🤖',
+  category: ['ai_service', 'software_subscription']
+}, {
+  id: 'cursor_pro',
+  name: 'Cursor Pro',
+  monthlyCostUsd: 20.00,
+  domain: 'cursor.com',
+  emoji: '✨',
+  category: ['developer_tool', 'ai_service']
+}, {
+  id: 'openai_api',
+  name: 'OpenAI API Tier 2',
+  monthlyCostUsd: 50.00,
+  domain: 'platform.openai.com',
+  emoji: '⚡',
+  category: ['developer_tool', 'ai_api']
+}];
+function getYieldCardCatalog(langOrLocale) {
+  var isKo = false;
+  if (typeof langOrLocale === 'string') {
+    isKo = langOrLocale.toLowerCase().startsWith('ko');
+  } else if (typeof window !== 'undefined') {
+    var tz = typeof Intl !== 'undefined' && Intl.DateTimeFormat ? Intl.DateTimeFormat().resolvedOptions().timeZone : '';
+    var browserLang = (navigator.language || '').toLowerCase();
+    var storedLang = typeof localStorage !== 'undefined' && localStorage.getItem('defi-garden-lang') || '';
+    isKo = storedLang === 'ko' || browserLang.startsWith('ko') || tz === 'Asia/Seoul';
+  }
+  return isKo ? YIELD_CARD_CATALOG_KR : YIELD_CARD_CATALOG_USD;
+}
+function serializeWaitlistPayload(opts) {
+  var pool = opts.pool || {};
+  var sub = opts.subscription || {};
+  var netApy = ((pool.apyBase || 0) + (pool.apyReward || 0)) / 100;
+  var randomHex = Math.random().toString(16).substring(2, 10);
+  return {
+    waitlist_id: `yc_${randomHex}`,
+    timestamp: Date.now(),
+    user_email: opts.email,
+    target_pool: {
+      pool_id: pool.pool || null,
+      chain: pool.chain || 'DeFi',
+      token: pool.symbol || '',
+      net_apy: Number(netApy.toFixed(4))
+    },
+    subscription: {
+      id: sub.id || 'custom',
+      name: sub.name || 'Virtual Card Subscription',
+      monthly_limit_usd: Number((sub.monthlyCostUsd || 20).toFixed(2)),
+      merchant_category_lock: sub.category || ['software_subscription', 'ai_service']
+    },
+    simulated_deposit_usd: Number((Number(opts.depositAmount) || 4000).toFixed(2))
+  };
+}
+function renderEmvChip() {
+  return React.createElement('svg', {
+    className: 'visa-gold-chip visa-gold-chip-svg',
+    viewBox: '0 0 50 38',
+    width: 44,
+    height: 34,
+    'aria-hidden': 'true',
+    role: 'img'
+  }, React.createElement('defs', null, React.createElement('linearGradient', {
+    id: 'emv-gold-grad',
+    x1: '0%',
+    y1: '0%',
+    x2: '100%',
+    y2: '100%'
+  }, React.createElement('stop', {
+    offset: '0%',
+    stopColor: '#fae392'
+  }), React.createElement('stop', {
+    offset: '40%',
+    stopColor: '#d8b040'
+  }), React.createElement('stop', {
+    offset: '70%',
+    stopColor: '#b88c1c'
+  }), React.createElement('stop', {
+    offset: '100%',
+    stopColor: '#8a650c'
+  }))), React.createElement('rect', {
+    x: 0.5,
+    y: 0.5,
+    width: 49,
+    height: 37,
+    rx: 4,
+    fill: 'url(#emv-gold-grad)',
+    stroke: '#634803',
+    strokeWidth: 1
+  }), React.createElement('path', {
+    d: 'M15 1 L15 37 M35 1 L35 37 M1 19 L49 19 M15 11 L35 11 M15 27 L35 27 M15 19 C20 15, 30 15, 35 19 C30 23, 20 23, 15 19 Z',
+    fill: 'none',
+    stroke: '#523c04',
+    strokeWidth: 0.8,
+    opacity: 0.85
+  }));
+}
+function renderNfcIcon() {
+  return React.createElement('svg', {
+    className: 'visa-nfc-icon',
+    viewBox: '0 0 24 24',
+    width: 18,
+    height: 18,
+    fill: 'none',
+    stroke: 'rgba(255,255,255,0.75)',
+    strokeWidth: 1.8,
+    strokeLinecap: 'round',
+    'aria-hidden': 'true'
+  }, React.createElement('path', {
+    d: 'M8.5 16.5a5 5 0 0 1 0-9'
+  }), React.createElement('path', {
+    d: 'M12 19a8.5 8.5 0 0 1 0-14'
+  }), React.createElement('path', {
+    d: 'M15.5 21.5a12 12 0 0 1 0-19'
+  }), React.createElement('path', {
+    d: 'M5 14a2 2 0 0 1 0-4'
+  }));
+}
+function renderLockIcon() {
+  return React.createElement('svg', {
+    className: 'card-lock-icon',
+    viewBox: '0 0 16 16',
+    width: 11,
+    height: 11,
+    fill: 'currentColor',
+    'aria-hidden': 'true'
+  }, React.createElement('path', {
+    d: 'M8 1a3.5 3.5 0 0 0-3.5 3.5V6H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-.5V4.5A3.5 3.5 0 0 0 8 1zm2 5H6V4.5a2 2 0 1 1 4 0V6z'
+  }));
+}
+function renderMailIcon() {
+  return React.createElement('svg', {
+    className: 'input-mail-icon',
+    viewBox: '0 0 20 20',
+    width: 16,
+    height: 16,
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.5,
+    strokeLinecap: 'round',
+    strokeLinejoin: 'round',
+    'aria-hidden': 'true'
+  }, React.createElement('rect', {
+    x: 2,
+    y: 4,
+    width: 16,
+    height: 12,
+    rx: 1
+  }), React.createElement('path', {
+    d: 'M2 6l8 5 8-5'
+  }));
+}
+function renderVisaSvg() {
+  return React.createElement('svg', {
+    className: 'visa-logo-svg',
+    viewBox: '0 0 780 250',
+    width: 58,
+    height: 19,
+    fill: '#ffffff',
+    'aria-label': 'VISA',
+    role: 'img'
+  }, React.createElement('path', {
+    d: 'M292.5 6.6L193.3 243.4H128L78 57.6C75 45.8 72.4 41.5 62.9 36.3C47.4 27.9 22.2 20.3 0 15.3L3.8 6.6H107.5C121.3 6.6 133.7 15.8 136.8 31.8L163 171.1L228.3 6.6H292.5ZM548.8 167.3C549.4 104.3 461.9 100.8 462.8 72.8C463.2 64.3 471.3 55.2 489.6 52.8C498.7 51.6 523.8 50.6 552.1 63.8L563.3 11.7C548 6.2 528.2 0.8 502.9 0.8C442.2 0.8 399.1 33.1 398.6 79.1C397.7 113.3 428.3 132.3 451.6 143.7C475.6 155.3 483.6 162.8 483.4 173.3C483.1 189.4 463.8 196.4 446 196.7C415 197.2 396.9 188.4 382.4 181.7L370.8 235.8C385.7 242.7 413.2 248.6 441.7 248.9C506 248.9 548.2 217.2 548.8 167.3ZM712.3 243.4H768.8L719.6 6.6H668.1C656.3 6.6 646.6 13.4 642.3 23.8L548.8 243.4H614.3L627.3 207.3H707.4L712.3 243.4ZM645.4 157.6L678.8 65.6L698.1 157.6H645.4ZM387.9 6.6L336.2 243.4H274.6L326.3 6.6H387.9Z'
+  }));
+}
+function YieldCardWidget({
+  pool,
+  totalApy,
+  t,
+  formatCurrency,
+  formatUsd,
+  formatNum,
+  formatApy,
+  riskAssessment
+}) {
+  var [depositAmount, setDepositAmount] = useState(4000);
+  var [selectedGoalId, setSelectedGoalId] = useState('codex_pro');
+  var [email, setEmail] = useState('');
+  var [validationError, setValidationError] = useState('');
+  var [isSubmitted, setIsSubmitted] = useState(false);
+  var [reservedSpot, setReservedSpot] = useState(2481);
+  var [linkCopied, setLinkCopied] = useState(false);
+  var [tokenPrice, setTokenPrice] = useState(null);
+  var isStable = isStableSymbol(pool && pool.symbol);
+  useEffect(() => {
+    if (isStable) {
+      setTokenPrice(1.0);
+      return;
+    }
+    if (!pool || !pool.underlyingTokens || pool.underlyingTokens.length === 0) {
+      return;
+    }
+    var isMounted = true;
+    var token = pool.underlyingTokens[0];
+    var chainSlug = (pool.chain || 'ethereum').toLowerCase().replace(/\s+/g, '-');
+    var coinKey = token.includes(':') ? token : `${chainSlug === 'avalanche' ? 'avax' : chainSlug === 'binance' ? 'bsc' : chainSlug}:${token}`;
+    if (typeof fetch !== 'undefined') {
+      fetch(`https://coins.llama.fi/prices/current/${coinKey}`).then(res => res.json()).then(data => {
+        if (!isMounted) return;
+        if (data && data.coins) {
+          var matched = data.coins[coinKey] || Object.values(data.coins)[0];
+          if (matched && typeof matched.price === 'number' && matched.price > 0) {
+            setTokenPrice(matched.price);
+          }
+        }
+      }).catch(() => {});
+    }
+    return () => {
+      isMounted = false;
+    };
+  }, [pool && pool.pool, pool && pool.symbol, isStable]);
+  var _t = t || (k => k);
+  var _formatUsd = formatUsd || ((n, f) => '$' + Number(n || 0).toLocaleString('en-US', {
+    maximumFractionDigits: f || 2
+  }));
+  var _formatNum = formatNum || (n => Number(n || 0).toLocaleString('en-US'));
+  var isKorean = typeof window !== 'undefined' && (localStorage.getItem('defi-garden-lang') === 'ko' || navigator.language && navigator.language.toLowerCase().startsWith('ko') || typeof Intl !== 'undefined' && Intl.DateTimeFormat && Intl.DateTimeFormat().resolvedOptions().timeZone === 'Asia/Seoul');
+  var catalog = getYieldCardCatalog(isKorean ? 'ko' : 'en');
+  var selectedSub = catalog.find(i => i.id === selectedGoalId) || catalog[0];
+  var monthlyYield = calculateMonthlyYield(depositAmount, totalApy);
+  var formatReqCap = (costUsd, costKrw) => {
+    var cost = isKorean && costKrw ? costKrw / 1380 : costUsd;
+    var req = calculateRequiredCapital(cost, totalApy);
+    if (!Number.isFinite(req) || req <= 0) return '—';
+    if (req >= 1000) {
+      return `$${(req / 1000).toFixed(1)}k`;
+    }
+    return `$${_formatNum(req)}`;
+  };
+  var handleSliderChange = e => {
+    var val = Number(e.target.value) || 1000;
+    setDepositAmount(val);
+    if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSliderChange) {
+      Analytics.trackYieldCardSliderChange({
+        pool,
+        depositAmount: val,
+        monthlyYield: calculateMonthlyYield(val, totalApy)
+      });
+    }
+  };
+  var handleCardClick = (item, isCovered, reqCap) => {
+    if (isCovered) {
+      setSelectedGoalId(item.id);
+      if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSubscriptionSelected) {
+        Analytics.trackYieldCardSubscriptionSelected({
+          pool,
+          goalId: item.id,
+          monthlyCost: item.monthlyCostUsd,
+          isCovered: true
+        });
+      }
+    } else {
+      var targetDeposit = Math.min(25000, Math.max(1000, reqCap));
+      setDepositAmount(targetDeposit);
+      setSelectedGoalId(item.id);
+      if (typeof Analytics !== 'undefined') {
+        if (Analytics.trackYieldCardSliderChange) {
+          Analytics.trackYieldCardSliderChange({
+            pool,
+            depositAmount: targetDeposit,
+            monthlyYield: calculateMonthlyYield(targetDeposit, totalApy)
+          });
+        }
+        if (Analytics.trackYieldCardSubscriptionSelected) {
+          Analytics.trackYieldCardSubscriptionSelected({
+            pool,
+            goalId: item.id,
+            monthlyCost: item.monthlyCostUsd,
+            isCovered: false
+          });
+        }
+      }
+    }
+  };
+  var handleSubmit = e => {
+    e.preventDefault();
+    var trimmedEmail = (email || '').trim();
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(trimmedEmail)) {
+      setValidationError(_t('yieldCard.invalidEmail') || 'Please enter a valid email address.');
+      return;
+    }
+    setValidationError('');
+    var payload = serializeWaitlistPayload({
+      email: trimmedEmail,
+      pool,
+      subscription: selectedSub,
+      depositAmount
+    });
+    try {
+      if (typeof localStorage !== 'undefined') {
+        var existing = [];
+        try {
+          var raw = localStorage.getItem('defi_garden_card_waitlist');
+          if (raw) existing = JSON.parse(raw);
+          if (!Array.isArray(existing)) existing = [existing];
+        } catch (_) {}
+        existing.push(payload);
+        localStorage.setItem('defi_garden_card_waitlist', JSON.stringify(existing));
+        setReservedSpot(2480 + existing.length);
+      }
+    } catch (_) {}
+    if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardReserved) {
+      Analytics.trackYieldCardReserved({
+        pool,
+        goalId: selectedSub.id,
+        depositAmount,
+        email_provided: true
+      });
+    }
+    setIsSubmitted(true);
+  };
+  var handleCopyLink = () => {
+    if (typeof navigator !== 'undefined' && navigator.clipboard) {
+      navigator.clipboard.writeText(window.location.href);
+      setLinkCopied(true);
+      setTimeout(() => setLinkCopied(false), 2500);
+    }
+  };
+  return React.createElement('div', {
+    id: 'yield-card-widget',
+    className: 'yield-card-terminal animate-on-mount'
+  },
+  // Context alert banner
+  React.createElement('div', {
+    className: 'yield-card-context-banner'
+  }, React.createElement('div', {
+    className: 'yield-card-badge-row'
+  }, React.createElement('span', {
+    className: 'yield-card-badge'
+  }, _t('yieldCard.badge') || 'EARLY ACCESS'), React.createElement('span', {
+    className: 'yield-card-context-meta'
+  }, `${pool.symbol} (${pool.chain || 'DeFi'}) • Net APY: ${Number(totalApy || 0).toFixed(2)}% • Risk: ${riskAssessment ? riskAssessment.level : 'Low'} • TVL: ${formatCurrency(pool.tvlUsd)}`)), React.createElement('h2', {
+    className: 'yield-card-title'
+  }, _t('yieldCard.title') || 'Yield-Funded Virtual Card'), React.createElement('p', {
+    className: 'yield-card-subtitle'
+  }, _t('yieldCard.subtitle') || 'Fund software and lifestyle subscriptions with idle yield — keep your principal 100% intact.')),
+  // Deposit simulator slider section
+  React.createElement('div', {
+    className: 'yield-card-slider-section'
+  }, React.createElement('div', {
+    className: 'yield-card-slider-header'
+  }, React.createElement('div', {
+    className: 'yield-card-deposit-readout'
+  }, React.createElement('span', {
+    className: 'readout-label'
+  }, _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'), React.createElement('span', {
+    className: 'readout-value'
+  }, function () {
+    var sym = pool.symbol || 'USDC';
+    if (isStable) {
+      return `$${_formatNum(depositAmount)} ${sym}`;
+    }
+    if (typeof tokenPrice === 'number' && tokenPrice > 0) {
+      var tokenQty = depositAmount / tokenPrice;
+      var formattedQty = tokenQty >= 1000 ? _formatNum(Math.round(tokenQty)) : tokenQty >= 1 ? tokenQty.toFixed(2) : tokenQty.toFixed(4);
+      return `$${_formatNum(depositAmount)} USD (≈ ${formattedQty} ${sym})`;
+    }
+    return `$${_formatNum(depositAmount)} USD (${sym})`;
+  }()), !isStable && typeof tokenPrice === 'number' && tokenPrice > 0 && React.createElement('span', {
+    className: 'yield-card-price-note'
+  }, `@ ${_formatUsd(tokenPrice, tokenPrice < 1 ? 4 : 2)} / ${pool.symbol || 'token'}`)), React.createElement('div', {
+    className: 'yield-card-yield-readout'
+  }, React.createElement('span', {
+    className: 'readout-label'
+  }, _t('yieldCard.monthlyYield') || 'Monthly Yield Generated'), React.createElement('span', {
+    className: 'readout-value yield-card-monthly-yield'
+  }, `${_formatUsd(monthlyYield)} ${_t('yieldCard.perMonth') || '/ month'}`))), React.createElement('div', {
+    className: 'yield-card-slider-wrapper'
+  }, React.createElement('input', {
+    type: 'range',
+    className: 'yield-card-slider',
+    min: '300',
+    max: '25000',
+    step: '50',
+    value: depositAmount,
+    onChange: handleSliderChange,
+    'aria-label': _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'
+  }), React.createElement('div', {
+    className: 'yield-card-presets'
+  }, [300, 1000, 2000, 4000, 10000, 25000].map(amt => React.createElement('button', {
+    key: amt,
+    type: 'button',
+    className: `yield-preset-btn${depositAmount === amt ? ' is-active' : ''}`,
+    onClick: () => {
+      setDepositAmount(amt);
+      if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSliderChange) {
+        Analytics.trackYieldCardSliderChange({
+          pool,
+          depositAmount: amt,
+          monthlyYield: calculateMonthlyYield(amt, totalApy)
+        });
+      }
+    }
+  }, `$${amt >= 1000 ? `${amt / 1000}k` : amt}`))))),
+  // Dynamic subscription unlock grid
+  React.createElement('div', {
+    className: 'yield-card-grid-section'
+  }, React.createElement('div', {
+    className: 'yield-card-grid'
+  }, catalog.map(item => {
+    var isCovered = isRungCovered(monthlyYield, item.monthlyCostUsd);
+    var isSelected = selectedGoalId === item.id;
+    var reqCap = calculateRequiredCapital(item.monthlyCostUsd, totalApy);
+    return React.createElement('div', {
+      key: item.id,
+      className: `yield-card-item ${isCovered ? 'is-covered' : 'is-locked'}${isSelected ? ' is-selected' : ''}`,
+      'data-goal-id': item.id,
+      onClick: () => handleCardClick(item, isCovered, reqCap)
+    }, React.createElement('div', {
+      className: 'yield-card-item-top'
+    }, React.createElement('img', {
+      className: 'yield-card-brand-icon',
+      src: `https://www.google.com/s2/favicons?domain=${item.domain}&sz=64`,
+      alt: '',
+      'aria-hidden': 'true',
+      loading: 'lazy',
+      onError: ev => {
+        var t2 = ev.target;
+        if (!t2 || !t2.parentNode) return;
+        var s = document.createElement('span');
+        s.className = 'yield-card-brand-icon-fallback';
+        s.textContent = item.emoji || '⚡';
+        t2.parentNode.replaceChild(s, t2);
+      }
+    }), React.createElement('span', {
+      className: 'yield-card-item-name'
+    }, item.name)), React.createElement('div', {
+      className: 'yield-card-item-bottom'
+    }, React.createElement('span', {
+      className: 'yield-card-item-price'
+    }, isKorean && item.monthlyCostKrw ? `₩${_formatNum(item.monthlyCostKrw)}/mo` : `$${item.monthlyCostUsd.toFixed(2)}/mo`), React.createElement('span', {
+      className: `yield-card-status-pill ${isCovered ? 'pill-covered' : 'pill-locked'}`
+    }, isCovered ? _t('yieldCard.statusCovered') || '✓ COVERED' : _t('yieldCard.requiresCapital', formatReqCap(item.monthlyCostUsd, item.monthlyCostKrw)) || `Requires ${formatReqCap(item.monthlyCostUsd, item.monthlyCostKrw)}`)));
+  }))),
+  // Card Preview & Reservation Row
+  React.createElement('div', {
+    className: 'yield-card-bottom-row'
+  },
+  // Left: Virtual Visa Card Mockup
+  React.createElement('div', {
+    className: 'virtual-visa-card-wrapper'
+  }, React.createElement('div', {
+    className: 'virtual-visa-card'
+  },
+  // Guilloche lathework pattern background
+  React.createElement('div', {
+    className: 'visa-card-guilloche',
+    'aria-hidden': 'true'
+  }),
+  // Card top row: EMV Chip + NFC Wave (left) & Visa Logo (right)
+  React.createElement('div', {
+    className: 'visa-card-top-row'
+  }, React.createElement('div', {
+    className: 'visa-card-chip-group'
+  }, renderEmvChip(), renderNfcIcon()), React.createElement('div', {
+    className: 'visa-card-brand-group'
+  }, renderVisaSvg(), React.createElement('span', {
+    className: 'visa-card-type-badge'
+  }, 'DEBIT'))),
+  // Card center: Masked PAN & Dedicated Spend label
+  React.createElement('div', {
+    className: 'visa-card-center'
+  }, React.createElement('div', {
+    className: 'visa-card-pan'
+  }, '4242  ••••  ••••  8842'), React.createElement('div', {
+    className: 'visa-card-label-sub'
+  }, isKorean ? 'DEFI GARDEN • 가상 발급 전용' : 'DEFI GARDEN • VIRTUAL ISSUING'), React.createElement('div', {
+    className: 'visa-card-funded-label'
+  }, isKorean ? `${selectedSub.name} ${_t('yieldCard.cardDedicatedSuffix') !== 'yieldCard.cardDedicatedSuffix' && _t('yieldCard.cardDedicatedSuffix') || '결제 전용'}` : `${selectedSub.name.toUpperCase()} ${_t('yieldCard.cardFundedSuffix') !== 'yieldCard.cardFundedSuffix' && _t('yieldCard.cardFundedSuffix') || 'FUNDED'}`)),
+  // Card bottom row: Expiration, Network info & Spend cap badge
+  React.createElement('div', {
+    className: 'visa-card-bottom-row'
+  }, React.createElement('div', {
+    className: 'visa-card-meta-left'
+  }, React.createElement('span', {
+    className: 'visa-card-expiry'
+  }, 'VALID 08/31'), React.createElement('span', {
+    className: 'visa-card-network-info'
+  }, `${(pool.chain || 'BASE').toUpperCase()} ${(pool.symbol || 'USDC').toUpperCase()} • ${Number(totalApy || 0).toFixed(1)}% ${_t('yieldCard.liveApyFunded') || 'YIELD FUNDED'}`)), React.createElement('div', {
+    className: 'visa-card-cap-badge'
+  }, renderLockIcon(), React.createElement('span', null, isKorean && selectedSub.monthlyCostKrw ? _t('yieldCard.cardCapKrw', _formatNum(selectedSub.monthlyCostKrw)) || `월 한도: ₩${_formatNum(selectedSub.monthlyCostKrw)}` : _t('yieldCard.cardCap', selectedSub.monthlyCostUsd.toFixed(2)) || `CAP: $${selectedSub.monthlyCostUsd.toFixed(2)}/MO`))))),
+  // Right: Reservation Lead Capture / Receipt
+  React.createElement('div', {
+    className: 'yield-card-reservation-wrapper'
+  }, !isSubmitted ? React.createElement('div', {
+    className: 'yield-card-reservation'
+  },
+  // Live queue indicator
+  React.createElement('div', {
+    className: 'reservation-queue-status'
+  }, React.createElement('span', {
+    className: 'queue-pulse-dot'
+  }), React.createElement('span', {
+    className: 'queue-text'
+  }, isKorean ? `⚡ ${reservedSpot.toLocaleString('en-US')}명이 얼리 액세스 대기 중` : `⚡ ${reservedSpot.toLocaleString('en-US')} developers & savers in launch queue`)), React.createElement('h3', {
+    className: 'reservation-title'
+  }, _t('yieldCard.reserveTitle') || 'Reserve Virtual Card For This Pool'), React.createElement('p', {
+    className: 'reservation-subtitle'
+  }, _t('yieldCard.reserveSubtitle') || 'Free to join • Card spends yield, never principal • No wallet required'),
+  // 3 Trust Pillars
+  React.createElement('div', {
+    className: 'reservation-pillars'
+  }, React.createElement('div', {
+    className: 'pillar-item'
+  }, React.createElement('span', {
+    className: 'pillar-icon'
+  }, '🛡️'), React.createElement('span', {
+    className: 'pillar-text'
+  }, isKorean ? '원금 100% 보존' : '100% Principal Protected')), React.createElement('div', {
+    className: 'pillar-item'
+  }, React.createElement('span', {
+    className: 'pillar-icon'
+  }, '🔒'), React.createElement('span', {
+    className: 'pillar-text'
+  }, isKorean ? '구독처 전용 잠금' : 'Merchant-Locked Routing')), React.createElement('div', {
+    className: 'pillar-item'
+  }, React.createElement('span', {
+    className: 'pillar-icon'
+  }, '💳'), React.createElement('span', {
+    className: 'pillar-text'
+  }, isKorean ? 'Apple/Google Pay 지원' : 'Apple & Google Pay Ready'))), React.createElement('form', {
+    className: 'reservation-form',
+    noValidate: true,
+    onSubmit: handleSubmit
+  }, React.createElement('div', {
+    className: 'reservation-input-group'
+  }, React.createElement('div', {
+    className: 'input-with-icon'
+  }, renderMailIcon(), React.createElement('input', {
+    type: 'email',
+    className: 'email-input',
+    placeholder: _t('yieldCard.emailPlaceholder') || 'Enter developer / user email...',
+    value: email,
+    onChange: e => setEmail(e.target.value),
+    required: true
+  })), React.createElement('button', {
+    type: 'submit',
+    className: 'reserve-submit-btn'
+  }, _t('yieldCard.submitBtn') || 'Issue My Card at Launch →')), validationError && React.createElement('div', {
+    className: 'validation-error'
+  }, validationError)), React.createElement('p', {
+    className: 'reservation-micro-hint'
+  }, isKorean ? '지갑 연결이나 KYC 없이 100% 무료 등록 • 출시 즉시 이메일 안내' : 'No wallet connection or KYC required to reserve • 100% free forever')) : React.createElement('div', {
+    className: 'yield-card-receipt animate-on-mount'
+  }, React.createElement('div', {
+    className: 'receipt-icon-badge'
+  }, '🌱'), React.createElement('div', {
+    className: 'receipt-spot-badge'
+  }, _t('yieldCard.spotNumber', reservedSpot) || `Waitlist Spot #${reservedSpot}`), React.createElement('h3', {
+    className: 'receipt-title'
+  }, _t('yieldCard.receiptTitle') || 'Waitlist Spot Reserved 🌱'), React.createElement('div', {
+    className: 'receipt-card-preview-chip'
+  }, `${pool.symbol || 'USDC'} Yield Card • ${selectedSub.name} • ${isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/mo` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`}`), React.createElement('p', {
+    className: 'receipt-note'
+  }, _t('yieldCard.receiptNote') || 'We will email you the moment merchant-locked virtual card issuing launches for this pool.'), React.createElement('button', {
+    type: 'button',
+    className: 'receipt-share-btn',
+    onClick: handleCopyLink
+  }, linkCopied ? _t('yieldCard.linkCopied') || 'Copied!' : _t('yieldCard.shareLink') || 'Copy share link')))));
+}
 
 // Pool type categorization — SINGLE SOURCE OF TRUTH (spec 130).
 // These list constants + getPoolTypeShared live here (PoolDetail.js loads
@@ -176,7 +893,7 @@ function PoolDetail({
   });
   var [investmentAmount, setInvestmentAmount] = useState(1000);
   var [showAPYBreakdown, setShowAPYBreakdown] = useState(false);
-  var [calculatorExpanded, setCalculatorExpanded] = useState(true);
+  var [calculatorExpanded, setCalculatorExpanded] = useState(false);
   var [poolInfoExpanded, setPoolInfoExpanded] = useState(true);
   var [activeCalculatorTab, setActiveCalculatorTab] = useState('30days');
   var [isPulsing, setIsPulsing] = useState(false);
@@ -597,13 +1314,20 @@ function PoolDetail({
   // the user has parameterised the input.
   React.createElement('a', {
     className: 'cta-button-primary',
-    href: gardenThisPoolHref,
-    onClick: () => {
+    href: '#yield-card-widget',
+    onClick: e => {
+      e.preventDefault();
+      var el = document.getElementById('yield-card-widget') || document.querySelector('.yield-card-terminal');
+      if (el) {
+        el.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
       if (typeof Analytics !== 'undefined') {
         Analytics.trackPoolClick(pool, 'garden_cta', {
           investmentAmount: Math.round(investmentAmount),
           projectionYears: PROJECTION_YEARS,
-          ctaVariant: 'generic',
+          ctaVariant: 'card_widget_scroll',
           ctaPlacement: 'hero',
           ctaPosition: 'hero'
         });
@@ -617,6 +1341,28 @@ function PoolDetail({
   React.createElement('div', {
     className: 'pool-hero-action-secondary'
   }, ...renderProtocolCtaBlock('hero')))),
+  // Engraved rule between hero and Yield Card Terminal
+  React.createElement('div', {
+    className: 'cert-divider',
+    'aria-hidden': 'true'
+  }, React.createElement('span', {
+    className: 'orn-band cert-divider-strand'
+  }), React.createElement('span', {
+    className: 'cert-divider-node'
+  }), React.createElement('span', {
+    className: 'orn-band cert-divider-strand'
+  })),
+  // Yield-Funded Virtual Card Terminal (PRD Design 3)
+  React.createElement(YieldCardWidget, {
+    pool: pool,
+    totalApy: totalApy,
+    t: t,
+    formatCurrency: formatCurrency,
+    formatUsd: _formatUsd,
+    formatNum: _formatNum,
+    formatApy: _formatApy,
+    riskAssessment: riskAssessment
+  }),
   // Engraved rule between the document's clauses (247 world). Decorative
   // only: aria-hidden, no text, and the ornament primitives are
   // pointer-events: none, so this can never sit between a user and a
@@ -653,6 +1399,20 @@ function PoolDetail({
   }, t ? t('calcSubPrompt') : 'See your daily, weekly & monthly returns')), React.createElement('div', {
     className: 'calculator-toggle'
   }, renderChevronIcon())),
+  // Collapsed action row — quick scroll to the Yield-Funded Virtual Card terminal
+  !calculatorExpanded && React.createElement('div', {
+    className: 'calc-collapsed-action-row'
+  }, React.createElement('button', {
+    type: 'button',
+    className: 'calc-scroll-up-btn',
+    onClick: e => {
+      e.stopPropagation();
+      var el = document.getElementById('yield-card-widget') || document.querySelector('.yield-card-terminal');
+      if (el) el.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  }, '↑ Explore Yield-Funded Virtual Card')),
   // Expanded Calculator Content
   calculatorExpanded && React.createElement('div', {
     className: 'calculator-content',
@@ -1066,6 +1826,14 @@ if (typeof document !== 'undefined') {
   styleSheet.textContent = fadeInStyles;
   document.head.appendChild(styleSheet);
 }
+
+// Attach pure calculation helpers and widget for external testing and reuse
+PoolDetail.calculateMonthlyYield = calculateMonthlyYield;
+PoolDetail.calculateRequiredCapital = calculateRequiredCapital;
+PoolDetail.isRungCovered = isRungCovered;
+PoolDetail.getYieldCardCatalog = getYieldCardCatalog;
+PoolDetail.serializeWaitlistPayload = serializeWaitlistPayload;
+PoolDetail.YieldCardWidget = YieldCardWidget;
 
 // Export for use in main app
 if (typeof module !== 'undefined' && module.exports) {

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank COREUSDT0 pools. This view co
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

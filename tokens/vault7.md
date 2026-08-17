@@ -4,7 +4,7 @@ The highest honest VAULT7 yield right now is 4.00% on affluent (TON), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.00% | $298.6K |
+| [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.00% | $298.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many VAULT7 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $298.6K in total.
+1 live pool clear this page's $100K TVL floor, $298.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VAULT7 pools. This view cover
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

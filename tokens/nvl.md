@@ -1,10 +1,10 @@
 # NVL DeFi Yields
 
-The highest honest NVL yield right now is 2.65% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVL yield right now is 2.87% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=6cbd5e14-c010-4d58-84af-bbea56885717&src=seo_token) | Cardano | 2.65% | $218.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=6cbd5e14-c010-4d58-84af-bbea56885717&src=seo_token) | Cardano | 2.87% | $215.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NVL yield today?
 
-2.65% APY on minswap-dex (Cardano), based on live DefiLlama data.
+2.87% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many NVL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $218.3K in total.
+1 live pool clear this page's $100K TVL floor, $215.2K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank NVL pools. This view covers A
 - [ADA](https://www.defi.garden/tokens/ada)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
-- [NIGHT](https://www.defi.garden/tokens/night)
 - [USDCX](https://www.defi.garden/tokens/usdcx)
+- [NIGHT](https://www.defi.garden/tokens/night)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

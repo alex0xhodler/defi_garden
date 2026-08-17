@@ -4,7 +4,7 @@ The highest honest XRPL EVM yield right now is 2.21% on midas-rwa (XRPL EVM), am
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XRP | [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_chain) | 2.21% | $656.2K |
+| XRP | [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_chain) | 2.21% | $658.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XRPL EVM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $656.2K in total.
+1 live pool clear this page's $100K TVL floor, $658.1K in total.
 
 ### Are these rates safe?
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [XRP](https://www.defi.garden/tokens/xrp)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

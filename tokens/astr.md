@@ -1,10 +1,10 @@
 # ASTR DeFi Yields
 
-The highest honest ASTR yield right now is 0.43% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASTR yield right now is 0.42% on hydration-dex (Polkadot), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=c11bb727-d099-47a1-ae8d-032ecc94e26d&src=seo_token) | Polkadot | 0.43% | $203.4K |
+| [hydration-dex →](https://www.defi.garden/?pool=c11bb727-d099-47a1-ae8d-032ecc94e26d&src=seo_token) | Polkadot | 0.42% | $202.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ASTR yield today?
 
-0.43% APY on hydration-dex (Polkadot), based on live DefiLlama data.
+0.42% APY on hydration-dex (Polkadot), based on live DefiLlama data.
 
 ### How many ASTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $203.4K in total.
+1 live pool clear this page's $100K TVL floor, $202.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ASTR pools. This view covers 
 
 - [Polkadot](https://www.defi.garden/chains/polkadot)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

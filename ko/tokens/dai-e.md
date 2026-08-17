@@ -1,10 +1,10 @@
 # DAI.E 디파이 수익률
 
-현재 DAI.E의 가장 높은 정직한 수익률은 Avalanche의 aave-v3에서 1.79%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DAI.E의 가장 높은 정직한 수익률은 Avalanche의 aave-v3에서 1.78%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=3e669ce8-74c5-4fc9-bf85-f40a924c6407&src=seo_token) | Avalanche | 1.79% | $1.69M |
+| [aave-v3 →](https://www.defi.garden/?pool=3e669ce8-74c5-4fc9-bf85-f40a924c6407&src=seo_token) | Avalanche | 1.78% | $1.69M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 DAI.E의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Avalanche의 aave-v3에서 APY 1.79%예요.
+DefiLlama 실시간 데이터 기준, Avalanche의 aave-v3에서 APY 1.78%예요.
 
 ### DAI.E 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 aave-v3에서 APY 1.79%예요
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

@@ -1,10 +1,10 @@
 # DOT DeFi Yields
 
-The highest honest DOT yield right now is 22.93% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOT yield right now is 49.46% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4b7680b1-3bbc-42a3-88c8-b1cb5d66f6cb&src=seo_token) | Base | 22.93% | $287.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4b7680b1-3bbc-42a3-88c8-b1cb5d66f6cb&src=seo_token) | Base | 49.46% | $303.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-DOT shows up in 1 pools here, with rates from 22.93% to 22.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DOT shows up in 1 pools here, with rates from 49.46% to 49.46% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 97.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 94.46% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 22.93% | 97.62% | Base rate |
+| uniswap-v4 | 49.46% | 94.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DOT yield today?
 
-22.93% APY on uniswap-v4 (Base), based on live DefiLlama data.
+49.46% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many DOT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.07M in total.
+3 live pools clear this page's $100K TVL floor, $1.08M in total.
 
 ### Are these rates safe?
 
@@ -51,13 +51,13 @@ There is not enough qualifying APY history to rank DOT pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

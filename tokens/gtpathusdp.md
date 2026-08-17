@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GTPATHUSDP pools. This view c
 
 - [Tempo](https://www.defi.garden/chains/tempo)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

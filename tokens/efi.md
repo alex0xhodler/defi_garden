@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank EFI pools. This view covers A
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

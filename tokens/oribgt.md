@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ORIBGT pools. This view cover
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

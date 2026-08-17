@@ -4,7 +4,7 @@ The highest honest GLDT yield right now is 0.01% on icpswap (ICP), among 1 pool 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_token) | ICP | 0.01% | $187.6K |
+| [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_token) | ICP | 0.01% | $193.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GLDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $187.6K in total.
+1 live pool clear this page's $100K TVL floor, $193.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GLDT pools. This view covers 
 
 - [ICP](https://www.defi.garden/chains/icp)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

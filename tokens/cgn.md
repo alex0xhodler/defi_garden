@@ -4,7 +4,7 @@ The highest honest CGN yield right now is 4.40% on uniswap-v4 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3b8a5058-db35-40d5-b513-358d6c7a5a83&src=seo_token) | Base | 4.40% | $106.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3b8a5058-db35-40d5-b513-358d6c7a5a83&src=seo_token) | Base | 4.40% | $106.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CGN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.4K in total.
+1 live pool clear this page's $100K TVL floor, $106.3K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank CGN pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

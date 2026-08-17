@@ -4,7 +4,7 @@ The highest honest BOBO yield right now is 0.05% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded&src=seo_token) | Ethereum | 0.05% | $147.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ded20b67-3ce3-4ab8-ac4c-235b501a4ded&src=seo_token) | Ethereum | 0.05% | $149.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BOBO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $147.6K in total.
+1 live pool clear this page's $100K TVL floor, $149.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BOBO pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

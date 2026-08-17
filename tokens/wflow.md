@@ -4,7 +4,7 @@ The highest honest WFLOW yield right now is 1.92% on more-markets (Flow), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_token) | Flow | 1.92% | $466.3K |
+| [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_token) | Flow | 1.92% | $463.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WFLOW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $466.3K in total.
+1 live pool clear this page's $100K TVL floor, $463.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WFLOW pools. This view covers
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SLX pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $77.64M in total.
+2 live pools clear this page's $100K TVL floor, $77.65M in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank SLX pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

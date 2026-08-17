@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_token) | ICP | 0.01% | $187.6K |
+| [icpswap →](https://www.defi.garden/?pool=6feacbd4-c28f-4e73-8c2e-5857db3594ee&src=seo_token) | ICP | 0.01% | $193.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 0.01%예요.
 
 ### CKUSDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $187.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $193.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, ICP의 icpswap에서 APY 0.01%예요.
 
 - [ICP](https://www.defi.garden/ko/chains/icp)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

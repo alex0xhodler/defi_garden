@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GS pools. This view covers AP
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

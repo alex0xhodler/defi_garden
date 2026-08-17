@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Monad의 yuzu-money에서 APY 6.97%예요.
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

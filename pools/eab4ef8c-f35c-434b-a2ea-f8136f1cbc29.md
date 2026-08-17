@@ -2,7 +2,7 @@
 
 **Total APY:** 5.16% (0.20% Base · + 4.96% Rewards)
 
-**TVL:** $1.75M
+**TVL:** $1.76M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on hydration-dex](https://hydration.net/?ref=defi.garden)
 
-Last updated August 16, 2026
+Last updated August 17, 2026

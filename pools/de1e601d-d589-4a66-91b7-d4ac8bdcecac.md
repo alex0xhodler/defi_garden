@@ -1,12 +1,12 @@
 # USDTB — fluid-lending on Ethereum
 
-**Total APY:** 5.70% (2.30% Base · + 3.40% Rewards)
+**Total APY:** 5.69% (2.29% Base · + 3.40% Rewards)
 
 **TVL:** $2.29M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 5.83%
+**30d Mean APY:** 5.82%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on fluid-lending](https://www.fluid.io/?ref=defi.garden)
 
-Last updated August 16, 2026
+Last updated August 17, 2026

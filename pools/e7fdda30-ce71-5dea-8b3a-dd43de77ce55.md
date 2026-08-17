@@ -2,11 +2,11 @@
 
 **Total APY:** 11.09% (11.09% Base · + 0.00% Rewards)
 
-**TVL:** $45.6M
+**TVL:** $45.61M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 11.88%
+**30d Mean APY:** 11.82%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ Steady so far: across the 34 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on tori-finance](https://tori.finance/?ref=defi.garden)
 
-Last updated August 16, 2026
+Last updated August 17, 2026

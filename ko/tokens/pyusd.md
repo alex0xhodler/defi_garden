@@ -1,40 +1,40 @@
 # PYUSD 디파이 수익률
 
-현재 PYUSD의 가장 높은 정직한 수익률은 Solana의 sentora에서 6.45%이며, $100K TVL 기준을 넘는 24개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PYUSD의 가장 높은 정직한 수익률은 Solana의 sentora에서 6.58%이며, $100K TVL 기준을 넘는 24개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sentora →](https://www.defi.garden/?pool=77602b5c-3d34-5275-acbd-a18a69ccb206&src=seo_token) | Solana | 6.45% | $115.39M |
-| [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token) | Ethereum | 0.30% | $90.86M |
-| [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token) | Ethereum | 5.35% | $43.03M |
-| [kamino-lend →](https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token) | Solana | 2.77% | $14.11M |
-| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.24% | $9.65M |
-| [euler-v2 →](https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token) | Ethereum | 4.11% | $7.45M |
-| [convex-finance →](https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token) | Ethereum | 0.04% | $6.19M |
-| [kamino-lend →](https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token) | Solana | 2.96% | $5.25M |
+| [sentora →](https://www.defi.garden/?pool=77602b5c-3d34-5275-acbd-a18a69ccb206&src=seo_token) | Solana | 6.58% | $114.55M |
+| [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token) | Ethereum | 0.30% | $90.85M |
+| [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token) | Ethereum | 5.31% | $43.22M |
+| [kamino-lend →](https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token) | Solana | 2.80% | $14.47M |
+| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.16% | $9.65M |
+| [euler-v2 →](https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token) | Ethereum | 4.09% | $7.49M |
+| [convex-finance →](https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token) | Ethereum | 0.02% | $6.19M |
+| [kamino-lend →](https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token) | Solana | 3.00% | $5.14M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 PYUSD의 변동성 낮은 후보는 Solana의 kamino-lend, APY 2.77%, TVL $14.11M, https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token; Ethereum의 sparklend, APY 0.30%, TVL $90.86M, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token; Solana의 orca-dex, APY 0.24%, TVL $9.65M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; Solana의 kamino-lend, APY 2.96%, TVL $5.25M, https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token; Ethereum의 euler-v2, APY 4.11%, TVL $7.45M, https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token; Ethereum의 convex-finance, APY 0.04%, TVL $6.19M, https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token; Ethereum의 curve-dex, APY 5.35%, TVL $43.03M, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PYUSD의 변동성 낮은 후보는 Solana의 kamino-lend, APY 2.80%, TVL $14.47M, https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token; Ethereum의 sparklend, APY 0.30%, TVL $90.85M, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token; Solana의 orca-dex, APY 0.16%, TVL $9.65M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; Solana의 kamino-lend, APY 3.00%, TVL $5.14M, https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token; Ethereum의 euler-v2, APY 4.09%, TVL $7.49M, https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $6.19M, https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token; Ethereum의 curve-dex, APY 5.31%, TVL $43.22M, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token) | Solana | 2.77% | $14.11M |
-| 2 | [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token) | Ethereum | 0.30% | $90.86M |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.24% | $9.65M |
-| 4 | [kamino-lend →](https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token) | Solana | 2.96% | $5.25M |
-| 5 | [euler-v2 →](https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token) | Ethereum | 4.11% | $7.45M |
-| 6 | [convex-finance →](https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token) | Ethereum | 0.04% | $6.19M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token) | Ethereum | 5.35% | $43.03M |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token) | Solana | 2.80% | $14.47M |
+| 2 | [sparklend →](https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token) | Ethereum | 0.30% | $90.85M |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.16% | $9.65M |
+| 4 | [kamino-lend →](https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token) | Solana | 3.00% | $5.14M |
+| 5 | [euler-v2 →](https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token) | Ethereum | 4.09% | $7.49M |
+| 6 | [convex-finance →](https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token) | Ethereum | 0.02% | $6.19M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token) | Ethereum | 5.31% | $43.22M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PYUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.04%부터 6.45%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PYUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.02%부터 6.58%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.85%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.86%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 4개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -42,14 +42,14 @@ PYUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.04%부터 6.45%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sentora | 6.45% | 6.68% | 인센티브 42.18% |
+| sentora | 6.58% | 6.67% | 인센티브 41.44% |
 | sparklend | 0.30% | 0.44% | 기본 금리 |
-| curve-dex | 5.35% | 5.42% | 인센티브 99.25% |
-| kamino-lend | 2.77% | 2.44% | 기본 금리 |
-| orca-dex | 0.24% | 0.63% | 기본 금리 |
-| euler-v2 | 4.11% | 5.50% | 인센티브 60.80% |
-| convex-finance | 0.04% | 0.25% | 인센티브 0.42% |
-| kamino-lend | 2.96% | 3.26% | 기본 금리 |
+| curve-dex | 5.31% | 5.41% | 인센티브 99.62% |
+| kamino-lend | 2.80% | 2.46% | 기본 금리 |
+| orca-dex | 0.16% | 0.63% | 기본 금리 |
+| euler-v2 | 4.09% | 5.48% | 인센티브 60.64% |
+| convex-finance | 0.02% | 0.25% | 인센티브 0.79% |
+| kamino-lend | 3.00% | 3.26% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,11 +57,11 @@ PYUSD 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.04%부터 6.45%�
 
 ### 오늘 PYUSD의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 sentora에서 APY 6.45%예요.
+DefiLlama 실시간 데이터 기준, Solana의 sentora에서 APY 6.58%예요.
 
 ### PYUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 24개이며, 합산 TVL은 $347.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 24개이며, 합산 TVL은 $346.85M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,7 +69,7 @@ DefiLlama 실시간 데이터 기준, Solana의 sentora에서 APY 6.45%예요.
 
 ### PYUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 PYUSD의 변동성 낮은 후보는 Solana의 kamino-lend, APY 2.77%, TVL $14.11M, https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token; Ethereum의 sparklend, APY 0.30%, TVL $90.86M, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token; Solana의 orca-dex, APY 0.24%, TVL $9.65M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; Solana의 kamino-lend, APY 2.96%, TVL $5.25M, https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token; Ethereum의 euler-v2, APY 4.11%, TVL $7.45M, https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token; Ethereum의 convex-finance, APY 0.04%, TVL $6.19M, https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token; Ethereum의 curve-dex, APY 5.35%, TVL $43.03M, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PYUSD의 변동성 낮은 후보는 Solana의 kamino-lend, APY 2.80%, TVL $14.47M, https://www.defi.garden/?pool=44f4d357-a29d-4990-a64a-a8452be2d884&src=seo_token; Ethereum의 sparklend, APY 0.30%, TVL $90.85M, https://www.defi.garden/?pool=995b269a-8409-4c55-b97e-868f443b432e&src=seo_token; Solana의 orca-dex, APY 0.16%, TVL $9.65M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; Solana의 kamino-lend, APY 3.00%, TVL $5.14M, https://www.defi.garden/?pool=cfced7e4-e041-445b-845e-afde335e3a35&src=seo_token; Ethereum의 euler-v2, APY 4.09%, TVL $7.49M, https://www.defi.garden/?pool=fa55aa2b-e244-4ce4-ab00-9e96b39df32b&src=seo_token; Ethereum의 convex-finance, APY 0.02%, TVL $6.19M, https://www.defi.garden/?pool=01146cce-9140-4e03-9a2e-82c99ccc42f1&src=seo_token; Ethereum의 curve-dex, APY 5.31%, TVL $43.22M, https://www.defi.garden/?pool=14681aee-05c9-4733-acd0-7b2c84616209&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -85,4 +85,4 @@ APY 이력만 기준으로 비교한 PYUSD의 변동성 낮은 후보는 Solana�
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

@@ -1,10 +1,10 @@
 # ABT DeFi Yields
 
-The highest honest ABT yield right now is 4.26% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ABT yield right now is 12.16% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9af4e11a-a0a4-4482-a3e6-3729b4dfb36f&src=seo_token) | Ethereum | 4.26% | $115K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9af4e11a-a0a4-4482-a3e6-3729b4dfb36f&src=seo_token) | Ethereum | 12.16% | $115.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ABT yield today?
 
-4.26% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+12.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ABT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115K in total.
+1 live pool clear this page's $100K TVL floor, $115.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ABT pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

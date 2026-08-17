@@ -74,4 +74,4 @@ Based on APY history only, VBILL's lower-variability candidates are vaneck-treas
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

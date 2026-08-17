@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token) | ZIGChain | 0.08% | $1.21M |
+| [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token) | ZIGChain | 0.08% | $1.2M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, ZIGChain의 permapod에서 APY 0.08%예요
 
 ### ZIG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.21M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.2M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, ZIGChain의 permapod에서 APY 0.08%예요
 
 - [ZIGChain](https://www.defi.garden/ko/chains/zigchain)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

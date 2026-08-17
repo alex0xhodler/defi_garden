@@ -4,7 +4,7 @@ The highest honest PMFRXUSD yield right now is 20.42% on yearn-finance (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=099fab49-5103-4c85-b5e6-fff734eb1691&src=seo_token) | Ethereum | 20.42% | $108.9K |
+| [yearn-finance →](https://www.defi.garden/?pool=099fab49-5103-4c85-b5e6-fff734eb1691&src=seo_token) | Ethereum | 20.42% | $109K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PMFRXUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $108.9K in total.
+1 live pool clear this page's $100K TVL floor, $109K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PMFRXUSD pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

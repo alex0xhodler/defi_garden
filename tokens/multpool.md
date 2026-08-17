@@ -1,10 +1,10 @@
 # MULTPOOL DeFi Yields
 
-The highest honest MULTPOOL yield right now is 0.13% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MULTPOOL yield right now is 0.08% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6c2b9d1a-67a0-4d64-bb8c-5ae71463f248&src=seo_token) | Polygon | 0.13% | $329.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6c2b9d1a-67a0-4d64-bb8c-5ae71463f248&src=seo_token) | Polygon | 0.08% | $329.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MULTPOOL yield today?
 
-0.13% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+0.08% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many MULTPOOL pools clear the TVL floor?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank MULTPOOL pools. This view cov
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

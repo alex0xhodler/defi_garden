@@ -40,4 +40,4 @@ DefiLlama 실시간 데이터 기준, Hemi의 sushiswap-v3에서 APY 1.26%예요
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [HEMIBTC](https://www.defi.garden/ko/tokens/hemibtc)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

@@ -1,10 +1,10 @@
 # APU DeFi Yields
 
-The highest honest APU yield right now is 0.19% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest APU yield right now is 0.86% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9947f275-dabf-4e21-bb04-f1020c916731&src=seo_token) | Ethereum | 0.19% | $815.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9947f275-dabf-4e21-bb04-f1020c916731&src=seo_token) | Ethereum | 0.86% | $819.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest APU yield today?
 
-0.19% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.86% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many APU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $815.1K in total.
+1 live pool clear this page's $100K TVL floor, $819.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank APU pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

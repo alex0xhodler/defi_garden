@@ -1,10 +1,10 @@
 # JJB DeFi Yields
 
-The highest honest JJB yield right now is 0.34% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JJB yield right now is 0.24% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=99c531c2-b884-5432-a34a-a7e0b87c80c5&src=seo_token) | Solana | 0.34% | $1.34M |
+| [raydium-amm →](https://www.defi.garden/?pool=99c531c2-b884-5432-a34a-a7e0b87c80c5&src=seo_token) | Solana | 0.24% | $1.34M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JJB yield today?
 
-0.34% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.24% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many JJB pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank JJB pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

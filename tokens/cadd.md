@@ -1,10 +1,10 @@
 # CADD DeFi Yields
 
-The highest honest CADD yield right now is 15.99% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CADD yield right now is 15.79% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ed8f9cf1-457b-5185-bc81-e16a7c637bf8&src=seo_token) | Ethereum | 15.99% | $304.9K |
+| [curve-dex →](https://www.defi.garden/?pool=ed8f9cf1-457b-5185-bc81-e16a7c637bf8&src=seo_token) | Ethereum | 15.79% | $305K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CADD yield today?
 
-15.99% APY on curve-dex (Ethereum), based on live DefiLlama data.
+15.79% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many CADD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $304.9K in total.
+1 live pool clear this page's $100K TVL floor, $305K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CADD pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

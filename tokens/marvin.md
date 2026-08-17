@@ -1,10 +1,10 @@
 # MARVIN DeFi Yields
 
-The highest honest MARVIN yield right now is 0.82% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MARVIN yield right now is 0.27% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=88c82279-6c14-4f74-8e9b-70e22e19627b&src=seo_token) | Ethereum | 0.82% | $132.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=88c82279-6c14-4f74-8e9b-70e22e19627b&src=seo_token) | Ethereum | 0.27% | $133K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MARVIN yield today?
 
-0.82% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.27% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many MARVIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.7K in total.
+1 live pool clear this page's $100K TVL floor, $133K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MARVIN pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

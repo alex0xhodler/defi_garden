@@ -6,7 +6,7 @@
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 7.84%
+**30d Mean APY:** 7.88%
 
 **Exposure:** single
 
@@ -30,4 +30,4 @@ Steady so far: across the 34 days we've tracked it, this pool's rate has stayed 
 
 [Start Earning on sceptre-liquid](https://flare.sceptre.fi/?ref=defi.garden)
 
-Last updated August 16, 2026
+Last updated August 17, 2026

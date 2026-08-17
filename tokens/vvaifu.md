@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VVAIFU pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

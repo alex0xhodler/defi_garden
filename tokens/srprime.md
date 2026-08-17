@@ -1,10 +1,10 @@
 # SRPRIME DeFi Yields
 
-The highest honest SRPRIME yield right now is 6.02% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRPRIME yield right now is 5.95% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=c590eff9-9de2-462c-b629-7e9c89f0b8e9&src=seo_token) | Ethereum | 6.02% | $101.5K |
+| [strata-markets →](https://www.defi.garden/?pool=c590eff9-9de2-462c-b629-7e9c89f0b8e9&src=seo_token) | Ethereum | 5.95% | $101.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRPRIME yield today?
 
-6.02% APY on strata-markets (Ethereum), based on live DefiLlama data.
+5.95% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many SRPRIME pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SRPRIME pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

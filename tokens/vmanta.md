@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VMANTA pools. This view cover
 
 - [Manta](https://www.defi.garden/chains/manta)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

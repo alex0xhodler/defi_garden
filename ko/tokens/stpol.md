@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 stake.link-liquid에서 APY 3.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

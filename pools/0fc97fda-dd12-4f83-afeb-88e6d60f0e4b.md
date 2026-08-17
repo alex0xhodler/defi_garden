@@ -2,7 +2,7 @@
 
 **Total APY:** 0.28% (0.28% Base · + 0.00% Rewards)
 
-**TVL:** $2.42M
+**TVL:** $2.41M
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.28% right now vs a 1.21% 30-day average. Reward 
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated August 16, 2026
+Last updated August 17, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SBUSDT pools. This view cover
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026

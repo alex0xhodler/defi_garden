@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 5.61% | $491.5K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.62% | $185.5K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 5.61% | $489K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.62% | $187.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, MegaETH의 aave-v3에서 APY 5.61%예요.
 - [USDM](https://www.defi.garden/ko/tokens/usdm)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 
-## 마지막 업데이트: August 16, 2026
+## 마지막 업데이트: August 17, 2026

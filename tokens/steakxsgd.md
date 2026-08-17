@@ -1,10 +1,10 @@
 # STEAKXSGD DeFi Yields
 
-The highest honest STEAKXSGD yield right now is 0.62% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STEAKXSGD yield right now is 0.63% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0dfc66d9-74eb-41be-a9d1-1d73f452934f&src=seo_token) | Base | 0.62% | $1.09M |
+| [morpho-blue →](https://www.defi.garden/?pool=0dfc66d9-74eb-41be-a9d1-1d73f452934f&src=seo_token) | Base | 0.63% | $1.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STEAKXSGD yield today?
 
-0.62% APY on morpho-blue (Base), based on live DefiLlama data.
+0.63% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many STEAKXSGD pools clear the TVL floor?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank STEAKXSGD pools. This view co
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 16, 2026
+## Last updated August 17, 2026
