@@ -2699,6 +2699,24 @@ function App() {
 
   const totalPages = Math.ceil(filteredPools.length / itemsPerPage);
 
+  // Keyboard navigation for pagination (ArrowLeft / ArrowRight)
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName) || document.activeElement?.isContentEditable) {
+        return;
+      }
+      if (totalPages > 1) {
+        if (e.key === 'ArrowLeft') {
+          setCurrentPage(prev => Math.max(1, prev - 1));
+        } else if (e.key === 'ArrowRight') {
+          setCurrentPage(prev => Math.min(totalPages, prev + 1));
+        }
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [totalPages]);
+
   // Handle pool click to navigate to pool detail page
   const handlePoolClick = (pool, e, position = -1, surface) => {
     e.preventDefault();
@@ -3494,7 +3512,6 @@ function App() {
       error && React.createElement('div', { className: 'error-state' },
         React.createElement('div', { className: 'error-message' }, error)
       ),
-
 
       // Results Section - show for both token mode and chain mode
       (selectedToken || (chainMode && selectedChain) || deadPoolResolved) && React.createElement('div', { className: 'results-section animate-on-mount' },
