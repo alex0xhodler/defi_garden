@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank OPENAI pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

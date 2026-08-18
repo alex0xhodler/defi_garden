@@ -1,6 +1,6 @@
 # TBTC — hydration-dex on Polkadot
 
-**Total APY:** 5.18% (0.20% Base · + 4.98% Rewards)
+**Total APY:** 5.19% (0.20% Base · + 4.99% Rewards)
 
 **TVL:** $1.74M
 
@@ -20,14 +20,14 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,287 in 5y at current rates.
+$1,000 in this pool grows to ~$1,288 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$1,287 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,288 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on hydration-dex](https://hydration.net/?ref=defi.garden)
 
-Last updated August 17, 2026
+Last updated August 18, 2026

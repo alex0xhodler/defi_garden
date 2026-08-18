@@ -66,4 +66,4 @@ APY 이력만 기준으로 비교한 USDO의 변동성 낮은 후보는 BSC의 o
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026

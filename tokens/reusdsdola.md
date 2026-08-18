@@ -1,10 +1,10 @@
 # REUSDSDOLA DeFi Yields
 
-The highest honest REUSDSDOLA yield right now is 16.80% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REUSDSDOLA yield right now is 15.96% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=98fcaeb8-6e0a-4552-8f42-41d801a48528&src=seo_token) | Ethereum | 16.80% | $199.5K |
+| [yearn-finance →](https://www.defi.garden/?pool=98fcaeb8-6e0a-4552-8f42-41d801a48528&src=seo_token) | Ethereum | 15.96% | $199.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REUSDSDOLA yield today?
 
-16.80% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+15.96% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many REUSDSDOLA pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank REUSDSDOLA pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

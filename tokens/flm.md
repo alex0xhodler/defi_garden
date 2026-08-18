@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FLM pools. This view covers A
 
 - [Neo](https://www.defi.garden/chains/neo)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

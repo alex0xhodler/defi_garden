@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Moonbeam의 moonwell-lending에서 APY 0.0
 
 - [Moonbeam](https://www.defi.garden/ko/chains/moonbeam)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026

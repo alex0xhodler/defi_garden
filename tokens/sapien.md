@@ -1,10 +1,10 @@
 # SAPIEN DeFi Yields
 
-The highest honest SAPIEN yield right now is 44.16% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAPIEN yield right now is 64.91% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=de6728b0-3ca6-4791-8ff7-94ad7aa44801&src=seo_token) | Base | 44.16% | $710K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=de6728b0-3ca6-4791-8ff7-94ad7aa44801&src=seo_token) | Base | 64.91% | $704.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SAPIEN yield today?
 
-44.16% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+64.91% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many SAPIEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $710K in total.
+1 live pool clear this page's $100K TVL floor, $704.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SAPIEN pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

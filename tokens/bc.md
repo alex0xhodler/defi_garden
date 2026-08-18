@@ -1,10 +1,10 @@
 # BC DeFi Yields
 
-The highest honest BC yield right now is 8.06% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BC yield right now is 6.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=fef9bde9-fd67-465c-bf52-930d7782e174&src=seo_token) | Solana | 8.06% | $2.9M |
+| [raydium-amm →](https://www.defi.garden/?pool=fef9bde9-fd67-465c-bf52-930d7782e174&src=seo_token) | Solana | 6.53% | $2.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BC yield today?
 
-8.06% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.9M in total.
+1 live pool clear this page's $100K TVL floor, $2.94M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BC pools. This view covers AP
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

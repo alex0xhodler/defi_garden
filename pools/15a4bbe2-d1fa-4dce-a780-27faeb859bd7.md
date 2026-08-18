@@ -1,12 +1,12 @@
 # ARCHGV1USDC — morpho-blue on Base
 
-**Total APY:** 3.90% (3.90% Base · + 0.00% Rewards)
+**Total APY:** 3.91% (3.91% Base · + 0.00% Rewards)
 
 **TVL:** $1.25M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 4.25%
+**30d Mean APY:** 4.24%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated August 17, 2026
+Last updated August 18, 2026

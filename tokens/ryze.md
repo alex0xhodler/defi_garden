@@ -1,10 +1,10 @@
 # RYZE DeFi Yields
 
-The highest honest RYZE yield right now is 0.02% on uniswap-v4 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RYZE yield right now is 0.03% on uniswap-v4 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=97090e08-3182-463b-9da4-b7d886f0d290&src=seo_token) | Arbitrum | 0.02% | $1.65M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=97090e08-3182-463b-9da4-b7d886f0d290&src=seo_token) | Arbitrum | 0.03% | $1.65M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-RYZE shows up in 1 pools here, with rates from 0.02% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RYZE shows up in 1 pools here, with rates from 0.03% to 0.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.02% | 0.11% | Base rate |
+| uniswap-v4 | 0.03% | 0.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,7 +33,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RYZE yield today?
 
-0.02% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
+0.03% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
 
 ### How many RYZE pools clear the TVL floor?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank RYZE pools. This view covers 
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

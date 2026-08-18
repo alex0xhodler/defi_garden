@@ -4,7 +4,7 @@ The highest honest BALLZ yield right now is 0.02% on vvs-standard (Cronos), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1&src=seo_token) | Cronos | 0.02% | $444.5K |
+| [vvs-standard →](https://www.defi.garden/?pool=adcdf709-5943-4cfb-b532-3921e74addb1&src=seo_token) | Cronos | 0.02% | $432.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BALLZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $444.5K in total.
+1 live pool clear this page's $100K TVL floor, $432.8K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BALLZ pools. This view covers
 ## Related tokens
 
 - [XRP](https://www.defi.garden/tokens/xrp)
-- [PAXG](https://www.defi.garden/tokens/paxg)
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [LION](https://www.defi.garden/tokens/lion)
+- [CRO](https://www.defi.garden/tokens/cro)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

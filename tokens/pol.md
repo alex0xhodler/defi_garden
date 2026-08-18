@@ -1,0 +1,63 @@
+# POL DeFi Yields
+
+The highest honest POL yield right now is 30.43% on uniswap-v4 (Polygon), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+
+| Protocol | Chain | APY | TVL |
+|---|---|---|---|
+| [uniswap-v4 →](https://www.defi.garden/?pool=ce4fb431-d3a8-49b7-b0c3-ae3f9c5f0318&src=seo_token) | Polygon | 30.43% | $104.8K |
+
+<!-- rate-stability:insufficient -->
+## Rate stability from APY history
+
+There is not enough qualifying APY history to rank POL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
+
+## How this rate has behaved
+
+POL shows up in 1 pools here, with rates from 30.43% to 30.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+
+1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| uniswap-v4 | 30.43% | 3.46% | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
+
+## Frequently asked questions
+
+### What's the highest POL yield today?
+
+30.43% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+
+### How many POL pools clear the TVL floor?
+
+6 live pools clear this page's $100K TVL floor, $938.3K in total.
+
+### Are these rates safe?
+
+Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000% APY) rates — that is this page's listing bar, not a safety guarantee. This is education, not financial advice; DeFi carries smart-contract and market risk regardless of the rate shown.
+
+### Which POL pools have the most stable APY history?
+
+There is not enough qualifying APY history to rank POL pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+## Related tokens
+
+- [WBTC](https://www.defi.garden/tokens/wbtc)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
+- [DAI](https://www.defi.garden/tokens/dai)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
+- [LINK](https://www.defi.garden/tokens/link)
+- [ACRED](https://www.defi.garden/tokens/acred)
+
+## Available on
+
+- [Polygon](https://www.defi.garden/chains/polygon)
+
+## Last updated August 18, 2026

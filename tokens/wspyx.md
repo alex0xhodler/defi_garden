@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSPYX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $987.2K in total.
+3 live pools clear this page's $100K TVL floor, $983.9K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank WSPYX pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

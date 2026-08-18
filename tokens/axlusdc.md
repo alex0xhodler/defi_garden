@@ -1,10 +1,10 @@
 # AXLUSDC DeFi Yields
 
-The highest honest AXLUSDC yield right now is 6.96% on curve-dex (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AXLUSDC yield right now is 7.00% on curve-dex (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 6.96% | $166.2K |
+| [curve-dex →](https://www.defi.garden/?pool=05979e07-baf5-4f94-b417-19bf64130e1d&src=seo_token) | Base | 7.00% | $166K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AXLUSDC yield today?
 
-6.96% APY on curve-dex (Base), based on live DefiLlama data.
+7.00% APY on curve-dex (Base), based on live DefiLlama data.
 
 ### How many AXLUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $166.2K in total.
+1 live pool clear this page's $100K TVL floor, $166K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AXLUSDC pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

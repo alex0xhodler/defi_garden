@@ -4,7 +4,7 @@ The highest honest FM yield right now is 0.03% on vvs-standard (Cronos), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a&src=seo_token) | Cronos | 0.03% | $718.6K |
+| [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a&src=seo_token) | Cronos | 0.03% | $699.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $718.6K in total.
+1 live pool clear this page's $100K TVL floor, $699.6K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank FM pools. This view covers AP
 ## Related tokens
 
 - [XRP](https://www.defi.garden/tokens/xrp)
-- [PAXG](https://www.defi.garden/tokens/paxg)
 - [WCRO](https://www.defi.garden/tokens/wcro)
 - [VVS](https://www.defi.garden/tokens/vvs)
 - [CDCETH](https://www.defi.garden/tokens/cdceth)
 - [LION](https://www.defi.garden/tokens/lion)
+- [CRO](https://www.defi.garden/tokens/cro)
 
 ## Available on
 
 - [Cronos](https://www.defi.garden/chains/cronos)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

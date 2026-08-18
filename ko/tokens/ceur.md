@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 0.07%예요.
 
 ## 관련 토큰
 
-- [USDM](https://www.defi.garden/ko/tokens/usdm)
 - [CUSD](https://www.defi.garden/ko/tokens/cusd)
 - [CELO](https://www.defi.garden/ko/tokens/celo)
 - [STCELO](https://www.defi.garden/ko/tokens/stcelo)
-- [EURM](https://www.defi.garden/ko/tokens/eurm)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 
 - [Celo](https://www.defi.garden/ko/chains/celo)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026

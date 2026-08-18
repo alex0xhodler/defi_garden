@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many TOAD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $464.3K in total.
+2 live pools clear this page's $100K TVL floor, $465.2K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank TOAD pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Noble의 ondo-yield-assets에서 APY 3.55%
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026

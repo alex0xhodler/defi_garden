@@ -1,10 +1,10 @@
 # API3COREUSDC DeFi Yields
 
-The highest honest API3COREUSDC yield right now is 3.47% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest API3COREUSDC yield right now is 3.31% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0c2bec53-0061-40f8-b389-6b253b49783e&src=seo_token) | Ethereum | 3.47% | $3.94M |
+| [morpho-blue →](https://www.defi.garden/?pool=0c2bec53-0061-40f8-b389-6b253b49783e&src=seo_token) | Ethereum | 3.31% | $3.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest API3COREUSDC yield today?
 
-3.47% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.31% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many API3COREUSDC pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank API3COREUSDC pools. This view
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

@@ -1,14 +1,14 @@
 # TRUSD DeFi Yields
 
-The highest honest TRUSD yield right now is 9.02% on pendle (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUSD yield right now is 9.32% on pendle (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.44% | $10.07M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.15% | $5.15M |
-| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.74% | $4.89M |
-| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 3.54% | $2.74M |
-| [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 9.02% | $2.74M |
+| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.52% | $10.07M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.12% | $5.15M |
+| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.76% | $4.89M |
+| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 3.71% | $2.74M |
+| [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 9.32% | $2.74M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TRUSD shows up in 5 pools here, with rates from 0.15% to 9.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRUSD shows up in 5 pools here, with rates from 0.12% to 9.32% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,11 +27,11 @@ TRUSD shows up in 5 pools here, with rates from 0.15% to 9.02% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 5.44% | 5.48% | Base rate |
-| curve-dex | 0.15% | 0.43% | 0.40% incentives |
-| curve-dex | 3.74% | 167.30% | 97.86% incentives |
-| pendle | 3.54% | 4.44% | 37.69% incentives |
-| pendle | 9.02% | 9.45% | Base rate |
+| curve-dex | 5.52% | 5.48% | Base rate |
+| curve-dex | 0.12% | 0.42% | 0.50% incentives |
+| curve-dex | 3.76% | 161.55% | 97.61% incentives |
+| pendle | 3.71% | 4.38% | 36.80% incentives |
+| pendle | 9.32% | 9.43% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TRUSD yield today?
 
-9.02% APY on pendle (Ethereum), based on live DefiLlama data.
+9.32% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many TRUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $27.86M in total.
+6 live pools clear this page's $100K TVL floor, $27.85M in total.
 
 ### Are these rates safe?
 
@@ -66,4 +66,4 @@ There is not enough qualifying APY history to rank TRUSD pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

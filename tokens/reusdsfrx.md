@@ -1,10 +1,10 @@
 # REUSDSFRX DeFi Yields
 
-The highest honest REUSDSFRX yield right now is 14.53% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REUSDSFRX yield right now is 14.23% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=378059a2-f730-40fb-9596-bc9811be530d&src=seo_token) | Ethereum | 14.53% | $311.6K |
+| [yearn-finance →](https://www.defi.garden/?pool=378059a2-f730-40fb-9596-bc9811be530d&src=seo_token) | Ethereum | 14.23% | $312.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REUSDSFRX yield today?
 
-14.53% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+14.23% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many REUSDSFRX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $311.6K in total.
+1 live pool clear this page's $100K TVL floor, $312.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank REUSDSFRX pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

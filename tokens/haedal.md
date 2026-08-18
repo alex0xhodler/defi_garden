@@ -1,10 +1,10 @@
 # HAEDAL DeFi Yields
 
-The highest honest HAEDAL yield right now is 4.01% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAEDAL yield right now is 24.41% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token) | Sui | 4.01% | $576.1K |
+| [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token) | Sui | 24.41% | $578.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HAEDAL yield today?
 
-4.01% APY on cetus-clmm (Sui), based on live DefiLlama data.
+24.41% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many HAEDAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $576.1K in total.
+1 live pool clear this page's $100K TVL floor, $578.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HAEDAL pools. This view cover
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WMSTRX pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

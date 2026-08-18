@@ -4,7 +4,7 @@ The highest honest NTBILL yield right now is 3.70% on nest-credit (Plume Mainnet
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b&src=seo_token) | Plume Mainnet | 3.70% | $2.44M |
+| [nest-credit →](https://www.defi.garden/?pool=867c563e-92a0-41be-a4de-7af5e9f9816b&src=seo_token) | Plume Mainnet | 3.70% | $2.43M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NTBILL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.44M in total.
+1 live pool clear this page's $100K TVL floor, $2.43M in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank NTBILL pools. This view cover
 - [NOPAL](https://www.defi.garden/tokens/nopal)
 - [USCC](https://www.defi.garden/tokens/uscc)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
-- [NCLOA](https://www.defi.garden/tokens/ncloa)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
+- [NCLOA](https://www.defi.garden/tokens/ncloa)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

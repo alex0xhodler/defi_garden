@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 0.17%예요.
 
 ### CUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.27M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $1.3M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,15 +49,15 @@ DefiLlama 실시간 데이터 기준, Celo의 uniswap-v3에서 APY 0.17%예요.
 
 ## 관련 토큰
 
-- [USDM](https://www.defi.garden/ko/tokens/usdm)
 - [CELO](https://www.defi.garden/ko/tokens/celo)
 - [STCELO](https://www.defi.garden/ko/tokens/stcelo)
-- [EURM](https://www.defi.garden/ko/tokens/eurm)
 - [CEUR](https://www.defi.garden/ko/tokens/ceur)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 
 - [Celo](https://www.defi.garden/ko/chains/celo)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026

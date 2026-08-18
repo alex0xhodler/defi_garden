@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STEAKUSDG pools. This view co
 
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

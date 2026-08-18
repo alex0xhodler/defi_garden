@@ -4,7 +4,7 @@ The highest honest WIGL yield right now is 0.11% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b8dab6a-a137-4f96-af4d-42f1874d35ef&src=seo_token) | Ethereum | 0.11% | $235.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b8dab6a-a137-4f96-af4d-42f1874d35ef&src=seo_token) | Ethereum | 0.11% | $236.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WIGL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $235.9K in total.
+1 live pool clear this page's $100K TVL floor, $236.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WIGL pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026
