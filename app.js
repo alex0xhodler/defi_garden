@@ -151,7 +151,18 @@ const NAV_ICONS = {
   apy: 'M19 5 5 19 M5 5h4v4H5z M15 15h4v4h-4z',
   // shield / gauge — Risk adjusted (Sharpe)
   sharpe: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20',
-  risk: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20'
+  risk: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20',
+  // chevrons for drawer stage indicator
+  chevronUp: 'M18 15l-6-6-6 6',
+  chevronDown: 'M6 9l6 6 6-6',
+  // search magnifying glass
+  search: 'M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z M21 21l-4.35-4.35',
+  // zap / flash — L2 / fast
+  zap: 'M13 2 3 14h9l-1 8 10-12h-9l1-8z',
+  // leaf — plant / organic yield
+  leaf: 'M11 20A7 7 0 0 1 4 13C4 7 10 3 20 3c0 10-4 16-9 17z M4 13c5 0 8 3 8 8',
+  // vault / lock — safe stables
+  vault: 'M12 2v20 M17 5H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z M12 11a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'
 };
 
 // Render a 16x16 currentColor line glyph for the nav rail (spec 093).
@@ -870,6 +881,55 @@ const PoolLogo = React.memo(({ project, chain, t }) => {
   );
 });
 
+const ChainBadgeLogo = React.memo(({ chain }) => {
+  const [error, setError] = useState(false);
+  if (!chain || chain === 'All' || error) {
+    return navIcon('chains');
+  }
+  const src = `https://icons.llamao.fi/icons/chains/rsz_${encodeURIComponent(String(chain).toLowerCase())}?w=48&h=48`;
+  return React.createElement('img', {
+    className: 'chain-card-icon-img',
+    src,
+    width: 16,
+    height: 16,
+    loading: 'lazy',
+    decoding: 'async',
+    alt: `${chain} icon`,
+    onError: () => setError(true)
+  });
+});
+
+const CURATED_DRAWER_TOKENS = [
+  { symbol: 'All', label: 'All', icon: 'all' },
+  { symbol: 'USDC', label: 'USDC', url: 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png' },
+  { symbol: 'USDT', label: 'USDT', url: 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png' },
+  { symbol: 'USDe', label: 'USDe', url: 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4c9EDD5852cd905f086C759E8383e09bff1E68B3/logo.png' },
+  { symbol: 'USDG', label: 'USDG', url: 'https://icons.llamao.fi/icons/protocols/paxos?w=48&h=48' },
+  { symbol: 'ETH', label: 'ETH', url: 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png' },
+  { symbol: 'BTC', label: 'BTC', url: 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/binance/assets/BTCB-1DE/logo.png' },
+  { symbol: 'SOL', label: 'SOL', url: 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png' },
+  { symbol: 'sUSDe', label: 'sUSDe', url: 'https://icons.llamao.fi/icons/protocols/ethena-usde?w=48&h=48' },
+  { symbol: 'cbETH', label: 'cbETH', url: 'https://icons.llamao.fi/icons/protocols/coinbase-wrapped-staked-eth?w=48&h=48' },
+  { symbol: 'DAI', label: 'DAI', url: 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png' }
+];
+
+const TokenBadgeLogo = React.memo(({ token }) => {
+  const [error, setError] = useState(false);
+  if (!token || token.symbol === 'All' || !token.url || error) {
+    return token.symbol === 'All' ? navIcon('all') : null;
+  }
+  return React.createElement('img', {
+    className: 'token-chip-icon-img',
+    src: token.url,
+    width: 16,
+    height: 16,
+    loading: 'lazy',
+    decoding: 'async',
+    alt: `${token.label} logo`,
+    onError: () => setError(true)
+  });
+});
+
 // APY sanity constants
 const APY_SANITY_LIMIT = 1000;
 const DEFAULT_MIN_TVL = 100000; // $100K default floor
@@ -887,6 +947,28 @@ const POOL_ARTIFACT_UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-
 const NO_SUPPLY_YIELD_EPSILON = 0.01;
 const hasNoSupplyYield = (pool) => ((pool.apyBase || 0) + (pool.apyReward || 0)) < NO_SUPPLY_YIELD_EPSILON;
 
+
+// Risk-adjusted stability score: uses historical Sharpe ratio if computed,
+// otherwise evaluates organic base APY vs 30d deviation + institutional TVL depth.
+const getPoolRiskScore = (pool) => {
+  if (pool && pool.kpis && typeof pool.kpis.apySharpe === 'number' && Number.isFinite(pool.kpis.apySharpe)) {
+    return Math.max(0, pool.kpis.apySharpe);
+  }
+  if (!pool) return 0;
+  const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
+  const mean30d = typeof pool.apyMean30d === 'number' && pool.apyMean30d > 0 ? pool.apyMean30d : totalApy;
+  const deviation = Math.abs(totalApy - mean30d);
+  
+  // TVL liquidity credibility boost: >=$100M (+1.0), >=$10M (+0.5), >=$1M (+0.25)
+  const tvl = pool.tvlUsd || 0;
+  const tvlBoost = tvl >= 100000000 ? 1.0 : (tvl >= 10000000 ? 0.5 : (tvl >= 1000000 ? 0.25 : 0));
+  
+  // Stablecoin or organic base APY stability ratio
+  const organicRatio = totalApy > 0 ? (pool.apyBase || totalApy) / totalApy : 0.5;
+  const rawScore = (totalApy / (deviation + 1.2)) * organicRatio + tvlBoost;
+  
+  return Math.max(0, Math.round(rawScore * 10) / 10);
+};
 // Stablecoin symbol allowlist — mirrors planner.js's STABLE_SYMBOLS/isStableSymbol
 // exactly. Duplicated rather than imported: this repo has no build step or module
 // system linking app.js and planner.js, so each browser script is self-contained
@@ -944,13 +1026,13 @@ function App() {
   const [selectedProtocols, setSelectedProtocols] = useState([]); // New state for protocol filtering
   const [minTvl, setMinTvl] = useState(DEFAULT_MIN_TVL);
   const [minApy, setMinApy] = useState(0);
+  const [minSharpe, setMinSharpe] = useState(0);
   const [viewMode, setViewMode] = useState('list');
   const [sortBy, setSortBy] = useState('tvl');
   const [userSortedApy, setUserSortedApy] = useState(false); // true when user explicitly clicks APY sort
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Check localStorage first, then fall back to system preference
     const saved = localStorage.getItem('theme');
     if (saved) {
       return saved === 'dark';
@@ -979,6 +1061,100 @@ function App() {
   const pendingNlSearchTrackRef = useRef(null); // NL-Enter search awaiting a real results_count once filteredPools settles
   const poolsSourceRef = useRef(null); // where `pools` came from: 'snapshot' | 'live' (spec 059 — drives the escape-hatch refetch)
   const kpiEnrichedPoolRef = useRef(null); // spec 105 — pool id whose kpis we already tried to enrich from the snapshot (prevents refetch/loop)
+
+  // Mobile Bottom Spatial Drawer & Smart Lens state
+  const [mobileDrawerStage, setMobileDrawerStage] = useState('peek');
+  const [activeSmartLens, setActiveSmartLens] = useState('all');
+  const touchStartYRef = useRef(0);
+
+  const applySmartLens = (lensId) => {
+    setActiveSmartLens(lensId);
+    if (lensId === 'all') {
+      setSelectedPoolTypes([]);
+      setSelectedToken('');
+      setSelectedChain('All');
+      setChainMode(true);
+      setMinApy(0);
+      setSortBy('tvl');
+    } else if (lensId === 'stables') {
+      setSelectedPoolTypes(['Lending']);
+      setSelectedToken('USDC');
+      setSelectedChain('');
+      setChainMode(false);
+      setMinApy(3.0);
+      setSortBy('tvl');
+    } else if (lensId === 'high_yield') {
+      setSelectedPoolTypes([]);
+      setSelectedToken('');
+      setSelectedChain('All');
+      setChainMode(true);
+      setMinApy(8.0);
+      setSortBy('apy');
+      setUserSortedApy(true);
+    } else if (lensId === 'base_l2') {
+      setSelectedPoolTypes([]);
+      setSelectedToken('');
+      setSelectedProtocols([]);
+      setSelectedChain('Base');
+      setChainMode(true);
+      setMinApy(0);
+      setMinSharpe(0);
+      setSortBy('tvl');
+    } else if (lensId === 'robinhood') {
+      setSelectedPoolTypes([]);
+      setSelectedToken('');
+      setSelectedProtocols([]);
+      setSelectedChain('Robinhood Chain');
+      setChainMode(true);
+      setMinApy(0);
+      setMinSharpe(0);
+      setSortBy('tvl');
+    } else if (lensId === 'pendle_pts') {
+      setSelectedPoolTypes([]);
+      setSelectedToken('PT');
+      setSelectedProtocols([]);
+      setSelectedChain('All');
+      setChainMode(false);
+      setMinApy(0);
+      setMinSharpe(0);
+      setSortBy('tvl');
+    } else if (lensId === 'lst') {
+      setSelectedPoolTypes(['Staking']);
+      setSelectedToken('');
+      setSelectedChain('All');
+      setChainMode(true);
+      setMinApy(0);
+      setSortBy('tvl');
+    } else if (lensId === 'rwa') {
+      setSelectedPoolTypes(['RWA']);
+      setSelectedToken('');
+      setSelectedChain('All');
+      setChainMode(true);
+      setMinApy(0);
+      setSortBy('tvl');
+    }
+  };
+
+  const cycleMobileDrawerStage = () => {
+    setMobileDrawerStage(prev => prev === 'peek' ? 'half' : (prev === 'half' ? 'full' : 'peek'));
+  };
+
+  const handleDrawerTouchStart = (e) => {
+    if (e.touches && e.touches[0]) {
+      touchStartYRef.current = e.touches[0].clientY;
+    }
+  };
+
+  const handleDrawerTouchEnd = (e) => {
+    if (e.changedTouches && e.changedTouches[0]) {
+      const deltaY = e.changedTouches[0].clientY - touchStartYRef.current;
+      if (deltaY < -40) {
+        setMobileDrawerStage(prev => prev === 'peek' ? 'half' : 'full');
+      } else if (deltaY > 40) {
+        setMobileDrawerStage(prev => prev === 'full' ? 'half' : 'peek');
+      }
+    }
+  };
 
   // Language state management
   const [language, setLanguage] = useState(() => {
@@ -2072,7 +2248,9 @@ function App() {
         const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
         const apyMatch = totalApy >= minApy;
 
-        return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+        const sharpeMatch = minSharpe === 0 || getPoolRiskScore(pool) >= minSharpe;
+
+        return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && sharpeMatch && pool.tvlUsd > 0;
       });
       // Sort by selected criteria
       filtered.sort((a, b) => {
@@ -2173,7 +2351,9 @@ function App() {
         const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
         const apyMatch = totalApy >= minApy;
 
-        return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+        const sharpeMatch = minSharpe === 0 || getPoolRiskScore(pool) >= minSharpe;
+
+        return chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && sharpeMatch && pool.tvlUsd > 0;
       });
 
       // Sort by selected criteria
@@ -2273,7 +2453,9 @@ function App() {
       const totalApy = (pool.apyBase || 0) + (pool.apyReward || 0);
       const apyMatch = totalApy >= minApy;
 
-      return hasToken && chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && pool.tvlUsd > 0;
+      const sharpeMatch = minSharpe === 0 || getPoolRiskScore(pool) >= minSharpe;
+
+      return hasToken && chainMatch && poolTypeMatch && protocolMatch && tvlMatch && apyMatch && sharpeMatch && pool.tvlUsd > 0;
     });
 
     // Sort by selected criteria
@@ -2314,10 +2496,9 @@ function App() {
         return apyB - apyA;
       }
     });
-
     setFilteredPools(filtered);
     setCurrentPage(1); // Reset to first page when filters change
-  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, pools, chainMode, sortBy, userSortedApy]);
+  }, [selectedToken, selectedChain, selectedPoolTypes, selectedProtocols, minTvl, minApy, minSharpe, pools, chainMode, sortBy, userSortedApy]);
 
   // Fire the NL-Enter search_success event once filteredPools has settled
   // (it's still stale in the same tick the Enter handler sets it, and can
@@ -3314,6 +3495,322 @@ function App() {
       )
     );
   }
+  const renderMobileSpatialDrawer = () => {
+    if (currentView === 'pool-detail') return [];
+
+    const smartLenses = [
+      { id: 'all', icon: 'all', label: language === 'ko' ? '모든 수익률' : 'All Yields' },
+      { id: 'robinhood', icon: 'chains', label: language === 'ko' ? 'Robinhood 체인' : 'Robinhood Chain' },
+      { id: 'pendle_pts', icon: 'yieldderiv', label: language === 'ko' ? 'Pendle PTs' : 'Pendle PTs' },
+      { id: 'stables', icon: 'vault', label: language === 'ko' ? '안정 스테이블 > 3%' : 'Stables > 3%' },
+      { id: 'high_yield', icon: 'apy', label: language === 'ko' ? '고수익 > 8%' : 'High APY > 8%' },
+      { id: 'base_l2', icon: 'zap', label: language === 'ko' ? 'Base & L2s' : 'Base & L2s' },
+      { id: 'lst', icon: 'staking', label: language === 'ko' ? '유동성 스테이킹' : 'Liquid Staking' },
+      { id: 'rwa', icon: 'rwa', label: language === 'ko' ? '실물자산 (RWA)' : 'Real World Assets' }
+    ];
+
+    const popularChains = [
+      { name: 'All', label: language === 'ko' ? '모든 체인' : 'All Chains' },
+      { name: 'Ethereum', label: 'Ethereum' },
+      { name: 'Arbitrum', label: 'Arbitrum' },
+      { name: 'Base', label: 'Base' },
+      { name: 'Robinhood Chain', label: 'Robinhood' },
+      { name: 'Solana', label: 'Solana' },
+      { name: 'Avalanche', label: 'Avalanche' }
+    ];
+    return [
+      React.createElement('div', {
+        key: 'spatial-drawer',
+        className: `mobile-spatial-drawer stage-${mobileDrawerStage}`,
+        id: 'mobileSpatialDrawer'
+      },
+        React.createElement('div', {
+          className: 'drawer-handle-zone',
+          onClick: cycleMobileDrawerStage,
+          onTouchStart: handleDrawerTouchStart,
+          onTouchEnd: handleDrawerTouchEnd
+        },
+          React.createElement('div', { className: 'drawer-handle-bar' })
+        ),
+
+        React.createElement('div', { className: 'omnibar-header-row' },
+          React.createElement('div', { className: 'smart-lens-stream' },
+            smartLenses.map(lens =>
+              React.createElement('span', {
+                key: lens.id,
+                className: `lens-chip ${activeSmartLens === lens.id ? 'active' : ''}`,
+                onClick: (e) => {
+                  e.stopPropagation();
+                  applySmartLens(lens.id);
+                }
+              },
+                navIcon(lens.icon),
+                React.createElement('span', null, lens.label)
+              )
+            )
+          ),
+
+          React.createElement('div', {
+            className: 'omnibar-input-box',
+            onClick: () => { if (mobileDrawerStage === 'peek') setMobileDrawerStage('half'); }
+          },
+            navIcon('search'),
+            React.createElement('input', {
+              type: 'text',
+              placeholder: selectedToken || (chainMode && selectedChain) || (language === 'ko' ? '토큰, 체인 또는 프로토콜 검색...' : 'Search token, chain, or protocol...'),
+              value: searchInput,
+              onChange: handleSearchInputChange,
+              onKeyDown: handleKeyDown,
+              onFocus: () => { if (mobileDrawerStage === 'peek') setMobileDrawerStage('half'); }
+            }),
+            React.createElement('span', {
+              className: 'quick-depth-indicator',
+              'aria-label': mobileDrawerStage === 'full' ? 'Collapse drawer' : 'Expand drawer',
+              onClick: (e) => { e.stopPropagation(); cycleMobileDrawerStage(); }
+            }, navIcon(mobileDrawerStage === 'full' ? 'chevronDown' : 'chevronUp'))
+          )
+        ),
+
+        React.createElement('div', { className: 'drawer-body-scroll' },
+          React.createElement('div', { className: 'drawer-section' },
+            React.createElement('div', { className: 'section-label' },
+              React.createElement('span', null, language === 'ko' ? '토큰 바로가기' : 'Quick Token Focus'),
+              selectedToken && React.createElement('span', {
+                style: { color: 'var(--accent)', fontSize: '10px', cursor: 'pointer' },
+                onClick: () => { setSelectedToken(''); setChainMode(true); setSelectedChain('All'); }
+              }, language === 'ko' ? '초기화' : 'Clear')
+            ),
+            React.createElement('div', { className: 'quick-token-row' },
+              CURATED_DRAWER_TOKENS.map(tok =>
+                React.createElement('span', {
+                  key: tok.symbol,
+                  className: `token-chip ${(tok.symbol === 'All' && !selectedToken) || (selectedToken && selectedToken.toUpperCase() === tok.symbol.toUpperCase()) ? 'active' : ''}`,
+                  onClick: () => {
+                    if (tok.symbol === 'All') {
+                      setSelectedToken('');
+                      setChainMode(true);
+                      setSelectedChain('All');
+                    } else {
+                      setSelectedToken(tok.symbol);
+                      setChainMode(false);
+                      setSearchInput(tok.symbol);
+                    }
+                  }
+                },
+                  React.createElement(TokenBadgeLogo, { token: tok }),
+                  React.createElement('span', null, tok.label)
+                )
+              )
+            )
+          ),
+
+          React.createElement('div', { className: 'drawer-section' },
+            React.createElement('div', { className: 'section-label' },
+              React.createElement('span', null, language === 'ko' ? '체인 생태계' : 'Chain Ecosystem')
+            ),
+            React.createElement('div', { className: 'chain-matrix-grid' },
+              popularChains.map(ch =>
+                React.createElement('div', {
+                  key: ch.name,
+                  className: `chain-matrix-card ${selectedChain === ch.name ? 'active' : ''}`,
+                  onClick: () => {
+                    setSelectedChain(ch.name);
+                    setChainMode(true);
+                  }
+                },
+                  React.createElement(ChainBadgeLogo, { chain: ch.name }),
+                  React.createElement('span', { className: 'chain-card-name' }, ch.label)
+                )
+              )
+            )
+          ),
+
+          React.createElement('div', { className: 'drawer-section' },
+            React.createElement('div', { className: 'section-label' },
+              React.createElement('span', null, language === 'ko' ? '정렬 기준' : 'Sort Metric')
+            ),
+            React.createElement('div', { className: 'sort-segment-row' },
+              React.createElement('button', {
+                className: `sort-segment-btn ${sortBy === 'apy' ? 'active' : ''}`,
+                onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
+              },
+                navIcon('apy'),
+                React.createElement('span', null, 'APY')
+              ),
+              React.createElement('button', {
+                className: `sort-segment-btn ${sortBy === 'tvl' ? 'active' : ''}`,
+                onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
+              },
+                navIcon('tvl'),
+                React.createElement('span', null, 'TVL')
+              ),
+              React.createElement('button', {
+                className: `sort-segment-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
+                onClick: () => { setSortBy('sharpe'); setUserSortedApy(false); }
+              },
+                navIcon('sharpe'),
+                React.createElement('span', null, language === 'ko' ? '위험' : 'Risk')
+              )
+            )
+          ),
+
+          React.createElement('div', { className: 'deep-filter-section' },
+            sortBy === 'sharpe' ? [
+              React.createElement('div', { className: 'section-label', key: 'label' },
+                React.createElement('span', null, language === 'ko' ? '샤프 지수 / 위험 조정 기준' : 'Risk-Adjusted Stability (Sharpe Ratio)'),
+                minSharpe > 0 && React.createElement('span', {
+                  style: { color: 'var(--ui-accent)', fontSize: '10px', cursor: 'pointer' },
+                  onClick: () => setMinSharpe(0)
+                }, language === 'ko' ? '초기화' : 'Reset')
+              ),
+              React.createElement('div', { className: 'slider-box', key: 'slider' },
+                React.createElement('input', {
+                  type: 'range',
+                  className: 'deep-filter-slider',
+                  min: '0',
+                  max: '3',
+                  step: '0.25',
+                  value: minSharpe,
+                  onChange: (e) => setMinSharpe(parseFloat(e.target.value))
+                }),
+                React.createElement('div', { className: 'slider-value-display' },
+                  React.createElement('span', null, '0.0 (All Risk)'),
+                  React.createElement('span', { style: { color: 'var(--ui-accent)', fontWeight: '700' } },
+                    minSharpe === 0
+                      ? (language === 'ko' ? '모든 위험 등급' : 'All Risk Profiles')
+                      : (minSharpe >= 2.5
+                          ? `≥ ${minSharpe} Sharpe · ${language === 'ko' ? '최상위 안정성' : 'Pristine Stability'}`
+                          : (minSharpe >= 1.5
+                              ? `≥ ${minSharpe} Sharpe · ${language === 'ko' ? '검증된 트랙레코드' : 'Battle-Tested'}`
+                              : `≥ ${minSharpe} Sharpe · ${language === 'ko' ? '안정성 양호' : 'Good Stability'}`))),
+                  React.createElement('span', null, '3.0+ (Max)')
+                ),
+                React.createElement('div', { className: 'yield-card-presets', key: 'presets' },
+                  [
+                    { val: 0, label: language === 'ko' ? '전체' : 'All Risk' },
+                    { val: 1.0, label: '≥ 1.0' },
+                    { val: 1.5, label: '≥ 1.5' },
+                    { val: 2.0, label: '≥ 2.0' },
+                    { val: 2.5, label: '≥ 2.5' }
+                  ].map(p =>
+                    React.createElement('button', {
+                      key: p.val,
+                      className: `filter-chip ${minSharpe === p.val ? 'active' : ''}`,
+                      onClick: () => setMinSharpe(p.val)
+                    }, p.label)
+                  )
+                )
+              )
+            ] : (sortBy === 'apy' ? [
+              React.createElement('div', { className: 'section-label', key: 'label' },
+                React.createElement('span', null, language === 'ko' ? '최소 수익률 (APY)' : 'Minimum APY Filter'),
+                minApy > 0 && React.createElement('span', {
+                  style: { color: 'var(--ui-accent)', fontSize: '10px', cursor: 'pointer' },
+                  onClick: () => setMinApy(0)
+                }, language === 'ko' ? '초기화' : 'Reset')
+              ),
+              React.createElement('div', { className: 'slider-box', key: 'slider' },
+                React.createElement('input', {
+                  type: 'range',
+                  className: 'deep-filter-slider',
+                  min: '0',
+                  max: '20',
+                  step: '0.5',
+                  value: minApy,
+                  onChange: (e) => setMinApy(parseFloat(e.target.value))
+                }),
+                React.createElement('div', { className: 'slider-value-display' },
+                  React.createElement('span', null, '0% Floor'),
+                  React.createElement('span', { style: { color: 'var(--ui-accent)', fontWeight: '700' } },
+                    minApy > 0 ? `≥ ${minApy}% APY` : (language === 'ko' ? '모든 수익률' : 'Any APY')),
+                  React.createElement('span', null, '20%+')
+                ),
+                React.createElement('div', { className: 'yield-card-presets', key: 'presets' },
+                  [
+                    { val: 0, label: language === 'ko' ? '전체' : 'Any APY' },
+                    { val: 3, label: '3%+' },
+                    { val: 5, label: '5%+' },
+                    { val: 8, label: '8%+' },
+                    { val: 12, label: '12%+' }
+                  ].map(p =>
+                    React.createElement('button', {
+                      key: p.val,
+                      className: `filter-chip ${minApy === p.val ? 'active' : ''}`,
+                      onClick: () => setMinApy(p.val)
+                    }, p.label)
+                  )
+                )
+              )
+            ] : [
+              React.createElement('div', { className: 'section-label', key: 'label' },
+                React.createElement('span', null, language === 'ko' ? '최소 유동성 (TVL Floor)' : 'Minimum TVL Liquidity Floor'),
+                minTvl > 0 && React.createElement('span', {
+                  style: { color: 'var(--ui-accent)', fontSize: '10px', cursor: 'pointer' },
+                  onClick: () => setMinTvl(0)
+                }, language === 'ko' ? '초기화' : 'Reset')
+              ),
+              React.createElement('div', { className: 'slider-box', key: 'slider' },
+                React.createElement('input', {
+                  type: 'range',
+                  className: 'deep-filter-slider',
+                  min: '0',
+                  max: '4',
+                  step: '1',
+                  value: minTvl === 0 ? 0 : (minTvl <= 10000 ? 1 : (minTvl <= 100000 ? 2 : (minTvl <= 1000000 ? 3 : 4))),
+                  onChange: (e) => {
+                    const steps = [0, 10000, 100000, 1000000, 10000000];
+                    setMinTvl(steps[parseInt(e.target.value, 10)] || 0);
+                  }
+                }),
+                React.createElement('div', { className: 'slider-value-display' },
+                  React.createElement('span', null, '$0'),
+                  React.createElement('span', { style: { color: 'var(--ui-accent)', fontWeight: '700' } },
+                    minTvl === 0
+                      ? (language === 'ko' ? '제한 없음' : 'No Floor ($0)')
+                      : (minTvl >= 10000000
+                          ? (language === 'ko' ? '≥ $10M (기관급 유동성)' : '≥ $10M (Institutional)')
+                          : (minTvl >= 1000000
+                              ? (language === 'ko' ? '≥ $1M (깊은 유동성)' : '≥ $1M (Deep Liquidity)')
+                              : (minTvl >= 100000
+                                  ? (language === 'ko' ? '≥ $100K (기본 검증)' : '≥ $100K (Verified Base)')
+                                  : '≥ $10K+')))),
+                  React.createElement('span', null, '$10M+')
+                ),
+                React.createElement('div', { className: 'yield-card-presets', key: 'presets' },
+                  [
+                    { val: 0, label: 'No Min' },
+                    { val: 100000, label: '$100K+' },
+                    { val: 1000000, label: '$1M+' },
+                    { val: 10000000, label: '$10M+' }
+                  ].map(p =>
+                    React.createElement('button', {
+                      key: p.val,
+                      className: `filter-chip ${minTvl === p.val ? 'active' : ''}`,
+                      onClick: () => setMinTvl(p.val)
+                    }, p.label)
+                  )
+                )
+              )
+            ])
+          )
+        ),
+
+        mobileDrawerStage !== 'peek' && React.createElement('button', {
+          className: 'drawer-apply-bar',
+          onClick: () => {
+            setMobileDrawerStage('peek');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        }, `${language === 'ko' ? '결과 보기' : 'Apply Filters'} (${filteredPools.length} ${language === 'ko' ? '개 풀' : 'Pools'})`)
+      ),
+
+      mobileDrawerStage !== 'peek' && React.createElement('div', {
+        key: 'spatial-backdrop',
+        className: 'mobile-drawer-backdrop show',
+        onClick: () => setMobileDrawerStage('peek')
+      })
+    ];
+  };
 
   return React.createElement('div', {
     // 247 world: the dead-pool state (a ?pool= arrival whose id no longer
@@ -3577,14 +4074,14 @@ function App() {
                       onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
                     },
                       navIcon('apy'),
-                      React.createElement('span', null, t('resultsColApy'))
+                      React.createElement('span', null, 'APY')
                     ),
                     React.createElement('button', {
                       className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
                       onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
                     },
                       navIcon('tvl'),
-                      React.createElement('span', null, t('resultsColTvl'))
+                      React.createElement('span', null, 'TVL')
                     ),
                     React.createElement('button', {
                       className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
@@ -4030,7 +4527,8 @@ function App() {
             }, apy.label)
           )
         )
-      )
+      ),
+      ...renderMobileSpatialDrawer()
     )
   );
 }
