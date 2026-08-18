@@ -41,11 +41,13 @@
     <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
     <meta name="twitter:creator" content="@defigarden">
 
-    <!-- Structured data (spec 040): sitewide Organization + WebSite JSON-LD.
+    <!-- Structured data (spec 040): sitewide Organization + WebSite + Dataset + WebApplication JSON-LD.
          Static, unlike the canonical/title rewrite above — the IA router
          doesn't touch this, it's the same brand entity in every mode. -->
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/","logo":"https://www.defi.garden/og-image.png"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"DeFi Garden","url":"https://www.defi.garden/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"DeFi Garden Curated Yield Dataset","description":"Real-time curated DeFi yield and APY data from DefiLlama across 50+ protocols with $100K+ TVL trust rails.","url":"https://www.defi.garden/","creator":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/"},"publisher":{"@type":"Organization","name":"DeFi Garden","url":"https://www.defi.garden/"}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"DeFi Garden","applicationCategory":"FinanceApplication","operatingSystem":"Any","description":"Goal-first savings planning and automated yield discovery powered by live on-chain DeFi rates.","url":"https://www.defi.garden/"}</script>
 
     <!-- App Icons and Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">

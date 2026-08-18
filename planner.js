@@ -3878,7 +3878,7 @@
   }
 
   function PlannerHeader(props) {
-    return e('header', { className: 'gp-header' },
+    return e('header', { className: 'gp-header' + (props.isScrolled ? ' is-scrolled' : '') },
       e('a', { className: 'gp-logo', href: 'home.html' },
         e('span', { className: 'gp-brand-mark', 'aria-hidden': 'true' }, e(BrandLeafMark)),
         'DeFi Garden'),
@@ -3976,6 +3976,18 @@
       document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
       try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e9) {}
     }, [dark]);
+
+    var scrollState = useState(false);
+    var isScrolled = scrollState[0], setIsScrolled = scrollState[1];
+    useEffect(function () {
+      function onScroll() {
+        var scrolled = window.scrollY > 4;
+        setIsScrolled(function (prev) { return prev !== scrolled ? scrolled : prev; });
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+      return function () { window.removeEventListener('scroll', onScroll); };
+    }, []);
 
     // Pools
     var poolsState = useState([]);
@@ -4906,6 +4918,7 @@
 
     return e('div', { className: 'gp-app' },
       e(PlannerHeader, {
+        isScrolled: isScrolled,
         dark: dark, onToggleTheme: function () { setDark(function (d) { return !d; }); },
         canRestart: canRestart, restartLabel: t('startFresh'), onRestart: restart,
         hasSavedPlan: hasSavedPlan,

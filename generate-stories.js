@@ -638,6 +638,14 @@ ${poolRows}
     }, { threshold: 0.2 });
 
     for (var k = 0; k < sections.length; k++) io.observe(sections[k]);
+
+    window.addEventListener('scroll', function() {
+      var h = document.querySelector('.st-header');
+      if (h) {
+        if (window.scrollY > 4) h.classList.add('is-scrolled');
+        else h.classList.remove('is-scrolled');
+      }
+    }, { passive: true });
   })();
   </script>
 </body>
@@ -659,6 +667,34 @@ function renderStoriesCss() {
   font-family: var(--font-family-base);
 }
 
+.st-body::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  pointer-events: none;
+  z-index: 40;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.22) 0%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+[data-theme="dark"] .st-body::after {
+  background: linear-gradient(to top, rgba(10, 15, 29, 0.28) 0%, transparent 100%);
+}
+
+@media (max-width: 768px) {
+  .st-body::after {
+    height: 32px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+}
+
 /* ---------- Header ---------- */
 .st-header {
   display: flex;
@@ -669,6 +705,29 @@ function renderStoriesCss() {
   width: 100%;
   margin: 0 auto;
   padding: var(--space-16);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.st-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: var(--ui-surface);
+  border-bottom: 1px solid var(--ui-border);
+  z-index: -1;
+  pointer-events: none;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.st-header.is-scrolled::before {
+  box-shadow: var(--ui-shadow-overlay);
+  border-bottom-color: var(--ui-border-strong);
 }
 
 .st-logo {
