@@ -103,22 +103,33 @@ function serializeWaitlistPayload(opts) {
 function renderEmvChip() {
   return React.createElement('svg', {
     className: 'visa-gold-chip visa-gold-chip-svg',
-    viewBox: '0 0 50 38',
-    width: 44,
-    height: 34,
+    viewBox: '0 0 46 34',
+    width: 42,
+    height: 31,
     'aria-hidden': 'true',
     role: 'img'
   },
     React.createElement('defs', null,
-      React.createElement('linearGradient', { id: 'emv-gold-grad', x1: '0%', y1: '0%', x2: '100%', y2: '100%' },
-        React.createElement('stop', { offset: '0%', stopColor: '#fae392' }),
-        React.createElement('stop', { offset: '40%', stopColor: '#d8b040' }),
-        React.createElement('stop', { offset: '70%', stopColor: '#b88c1c' }),
-        React.createElement('stop', { offset: '100%', stopColor: '#8a650c' })
+      React.createElement('linearGradient', { id: 'emv-metallic-grad', x1: '0%', y1: '0%', x2: '100%', y2: '100%' },
+        React.createElement('stop', { offset: '0%', stopColor: '#ded5c5' }),
+        React.createElement('stop', { offset: '35%', stopColor: '#bfae95' }),
+        React.createElement('stop', { offset: '70%', stopColor: '#d6cbba' }),
+        React.createElement('stop', { offset: '100%', stopColor: '#9e8c72' })
+      ),
+      React.createElement('linearGradient', { id: 'emv-bevel-grad', x1: '0%', y1: '0%', x2: '0%', y2: '100%' },
+        React.createElement('stop', { offset: '0%', stopColor: 'rgba(255,255,255,0.7)' }),
+        React.createElement('stop', { offset: '100%', stopColor: 'rgba(0,0,0,0.3)' })
       )
     ),
-    React.createElement('rect', { x: 0.5, y: 0.5, width: 49, height: 37, rx: 4, fill: 'url(#emv-gold-grad)', stroke: '#634803', strokeWidth: 1 }),
-    React.createElement('path', { d: 'M15 1 L15 37 M35 1 L35 37 M1 19 L49 19 M15 11 L35 11 M15 27 L35 27 M15 19 C20 15, 30 15, 35 19 C30 23, 20 23, 15 19 Z', fill: 'none', stroke: '#523c04', strokeWidth: 0.8, opacity: 0.85 })
+    React.createElement('rect', { x: 0.5, y: 0.5, width: 45, height: 33, rx: 4.5, fill: 'url(#emv-metallic-grad)', stroke: 'rgba(30,25,18,0.4)', strokeWidth: 0.8 }),
+    React.createElement('rect', { x: 1.2, y: 1.2, width: 43.6, height: 31.6, rx: 4, fill: 'none', stroke: 'url(#emv-bevel-grad)', strokeWidth: 0.6 }),
+    React.createElement('path', {
+      d: 'M 13 1 L 13 33 M 33 1 L 33 33 M 1 17 L 13 17 M 33 17 L 45 17 M 13 11.5 C 18 11.5, 28 11.5, 33 11.5 M 13 22.5 C 18 22.5, 28 22.5, 33 22.5 M 19 11.5 L 19 22.5 M 27 11.5 L 27 22.5',
+      fill: 'none',
+      stroke: 'rgba(50, 40, 25, 0.75)',
+      strokeWidth: 0.75,
+      strokeLinecap: 'round'
+    })
   );
 }
 
@@ -129,15 +140,71 @@ function renderNfcIcon() {
     width: 18,
     height: 18,
     fill: 'none',
-    stroke: 'rgba(255,255,255,0.75)',
+    stroke: 'rgba(255,255,255,0.85)',
     strokeWidth: 1.8,
     strokeLinecap: 'round',
     'aria-hidden': 'true'
   },
-    React.createElement('path', { d: 'M8.5 16.5a5 5 0 0 1 0-9' }),
-    React.createElement('path', { d: 'M12 19a8.5 8.5 0 0 1 0-14' }),
-    React.createElement('path', { d: 'M15.5 21.5a12 12 0 0 1 0-19' }),
-    React.createElement('path', { d: 'M5 14a2 2 0 0 1 0-4' })
+    React.createElement('path', { d: 'M7 16a5.5 5.5 0 0 1 0-8' }),
+    React.createElement('path', { d: 'M11 18.5a9 9 0 0 1 0-13' }),
+    React.createElement('path', { d: 'M15 21a12.5 12.5 0 0 1 0-18' }),
+    React.createElement('path', { d: 'M3 13.5a2 2 0 0 1 0-3' })
+  );
+}
+
+function renderShieldCheckIcon() {
+  return React.createElement('svg', {
+    className: 'pillar-svg-icon',
+    viewBox: '0 0 20 20',
+    width: 16,
+    height: 16,
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.6,
+    strokeLinecap: 'round',
+    strokeLinejoin: 'round',
+    'aria-hidden': 'true'
+  },
+    React.createElement('path', { d: 'M10 18s6-3 6-7.5V4.5L10 2 4 4.5v6c0 4.5 6 7.5 6 7.5z' }),
+    React.createElement('path', { d: 'm7.5 10 2 2 3.5-3.5' })
+  );
+}
+
+function renderLockKeyIcon() {
+  return React.createElement('svg', {
+    className: 'pillar-svg-icon',
+    viewBox: '0 0 20 20',
+    width: 16,
+    height: 16,
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.6,
+    strokeLinecap: 'round',
+    strokeLinejoin: 'round',
+    'aria-hidden': 'true'
+  },
+    React.createElement('rect', { x: 4, y: 9, width: 12, height: 9, rx: 2 }),
+    React.createElement('path', { d: 'M7 9V6a3 3 0 0 1 6 0v3' }),
+    React.createElement('circle', { cx: 10, cy: 13.5, r: 1, fill: 'currentColor' })
+  );
+}
+
+function renderPhoneWalletIcon() {
+  return React.createElement('svg', {
+    className: 'pillar-svg-icon',
+    viewBox: '0 0 20 20',
+    width: 16,
+    height: 16,
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: 1.6,
+    strokeLinecap: 'round',
+    strokeLinejoin: 'round',
+    'aria-hidden': 'true'
+  },
+    React.createElement('rect', { x: 3, y: 4, width: 14, height: 12, rx: 2 }),
+    React.createElement('path', { d: 'M3 8h14' }),
+    React.createElement('circle', { cx: 14, cy: 12, r: 1, fill: 'currentColor' })
   );
 }
 
@@ -499,7 +566,8 @@ function YieldCardWidget({
         React.createElement('div', { className: 'virtual-visa-card' },
           // Guilloche lathework pattern background
           React.createElement('div', { className: 'visa-card-guilloche', 'aria-hidden': 'true' }),
-          
+          React.createElement('div', { className: 'visa-card-specular', 'aria-hidden': 'true' }),
+
           // Card top row: EMV Chip + NFC Wave (left) & Visa Logo (right)
           React.createElement('div', { className: 'visa-card-top-row' },
             React.createElement('div', { className: 'visa-card-chip-group' },
@@ -530,7 +598,9 @@ function YieldCardWidget({
             React.createElement('div', { className: 'visa-card-meta-left' },
               React.createElement('span', { className: 'visa-card-expiry' }, 'VALID 08/31'),
               React.createElement('span', { className: 'visa-card-network-info' },
-                `${(pool.chain || 'BASE').toUpperCase()} ${(pool.symbol || 'USDC').toUpperCase()} • ${Number(totalApy || 0).toFixed(1)}% ${_t('yieldCard.liveApyFunded') || 'YIELD FUNDED'}`
+                isKorean
+                  ? `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% 이자 직결`
+                  : `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% ${_t('yieldCard.liveApyFunded') || 'YIELD FUNDED'}`
               )
             ),
             React.createElement('div', { className: 'visa-card-cap-badge' },
@@ -554,30 +624,33 @@ function YieldCardWidget({
             React.createElement('span', { className: 'queue-text' },
               isKorean
                 ? `⚡ ${reservedSpot.toLocaleString('en-US')}명이 얼리 액세스 대기 중`
-                : `⚡ ${reservedSpot.toLocaleString('en-US')} developers & savers in launch queue`
+                : `⚡ ${reservedSpot.toLocaleString('en-US')} in launch queue`
             )
           ),
           React.createElement('h3', { className: 'reservation-title' }, _t('yieldCard.reserveTitle') || 'Reserve Virtual Card For This Pool'),
           React.createElement('p', { className: 'reservation-subtitle' }, _t('yieldCard.reserveSubtitle') || 'Free to join • Card spends yield, never principal • No wallet required'),
-          
-          // 3 Trust Pillars
+
+          // 3 Trust Pillars with clean vector iconography
           React.createElement('div', { className: 'reservation-pillars' },
             React.createElement('div', { className: 'pillar-item' },
-              React.createElement('span', { className: 'pillar-icon' }, '🛡️'),
-              React.createElement('span', { className: 'pillar-text' },
-                isKorean ? '원금 100% 보존' : '100% Principal Protected'
+              React.createElement('div', { className: 'pillar-icon' }, renderShieldCheckIcon()),
+              React.createElement('div', { className: 'pillar-text' },
+                React.createElement('span', { className: 'pillar-headline' }, isKorean ? '원금 100% 보존' : '100% Principal Protected'),
+                React.createElement('span', { className: 'pillar-subline' }, isKorean ? '수익금만 자동 결제' : 'Spends yield only')
               )
             ),
             React.createElement('div', { className: 'pillar-item' },
-              React.createElement('span', { className: 'pillar-icon' }, '🔒'),
-              React.createElement('span', { className: 'pillar-text' },
-                isKorean ? '구독처 전용 잠금' : 'Merchant-Locked Routing'
+              React.createElement('div', { className: 'pillar-icon' }, renderLockKeyIcon()),
+              React.createElement('div', { className: 'pillar-text' },
+                React.createElement('span', { className: 'pillar-headline' }, isKorean ? '구독처 전용 잠금' : 'Merchant-Locked Routing'),
+                React.createElement('span', { className: 'pillar-subline' }, isKorean ? '지정 서비스만 승인' : 'Dedicated to selected app')
               )
             ),
             React.createElement('div', { className: 'pillar-item' },
-              React.createElement('span', { className: 'pillar-icon' }, '💳'),
-              React.createElement('span', { className: 'pillar-text' },
-                isKorean ? 'Apple/Google Pay 지원' : 'Apple & Google Pay Ready'
+              React.createElement('div', { className: 'pillar-icon' }, renderPhoneWalletIcon()),
+              React.createElement('div', { className: 'pillar-text' },
+                React.createElement('span', { className: 'pillar-headline' }, isKorean ? 'Apple/Google Pay 지원' : 'Apple & Google Pay Ready'),
+                React.createElement('span', { className: 'pillar-subline' }, isKorean ? '출시 즉시 간편 등록' : 'Direct digital wallet')
               )
             )
           ),
