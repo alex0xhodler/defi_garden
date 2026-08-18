@@ -1,10 +1,10 @@
 # BC DeFi Yields
 
-The highest honest BC yield right now is 4.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BC yield right now is 4.09% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=fef9bde9-fd67-465c-bf52-930d7782e174&src=seo_token) | Solana | 4.60% | $3.05M |
+| [raydium-amm →](https://www.defi.garden/?pool=fef9bde9-fd67-465c-bf52-930d7782e174&src=seo_token) | Solana | 4.09% | $3.03M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BC yield today?
 
-4.60% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.09% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.05M in total.
+1 live pool clear this page's $100K TVL floor, $3.03M in total.
 
 ### Are these rates safe?
 

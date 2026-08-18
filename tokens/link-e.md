@@ -4,18 +4,18 @@ The highest honest LINK.E yield right now is 0.02% on benqi-lending (Avalanche),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [benqi-lending →](https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token) | Avalanche | 0.02% | $669.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 1.63% | $156.6K |
+| [benqi-lending →](https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token) | Avalanche | 0.02% | $665.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 1.63% | $155.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LINK.E's lower-variability candidates are benqi-lending (Avalanche), 0.02% APY, $669.3K TVL, https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token; uniswap-v3 (Avalanche), 1.63% APY, $156.6K TVL, https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LINK.E's lower-variability candidates are benqi-lending (Avalanche), 0.02% APY, $665.9K TVL, https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token; uniswap-v3 (Avalanche), 1.63% APY, $155.8K TVL, https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [benqi-lending →](https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token) | Avalanche | 0.02% | $669.3K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 1.63% | $156.6K |
+| 1 | [benqi-lending →](https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token) | Avalanche | 0.02% | $665.9K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token) | Avalanche | 1.63% | $155.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | benqi-lending | 0.02% | 0.02% | Base rate |
-| uniswap-v3 | 1.63% | 5.87% | Base rate |
+| uniswap-v3 | 1.63% | 5.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LINK.E pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.75M in total.
+3 live pools clear this page's $100K TVL floor, $1.74M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LINK.E pools have the most stable APY history?
 
-Based on APY history only, LINK.E's lower-variability candidates are benqi-lending (Avalanche), 0.02% APY, $669.3K TVL, https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token; uniswap-v3 (Avalanche), 1.63% APY, $156.6K TVL, https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LINK.E's lower-variability candidates are benqi-lending (Avalanche), 0.02% APY, $665.9K TVL, https://www.defi.garden/?pool=d50993de-f841-4a41-81b6-8e7465e12793&src=seo_token; uniswap-v3 (Avalanche), 1.63% APY, $155.8K TVL, https://www.defi.garden/?pool=d1b7269f-f416-423b-ba77-624a98fe7231&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

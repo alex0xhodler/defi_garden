@@ -1,39 +1,39 @@
 # CBETH 디파이 수익률
 
-현재 CBETH의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 137.80%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CBETH의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 167.33%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.33% | $363.26M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 8.71% | $4.75M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 5.00% | $3.16M |
-| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 15.00% | $2.54M |
+| [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.33% | $363M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 8.69% | $4.75M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 3.69% | $3.54M |
+| [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 15.02% | $2.54M |
 | [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.41% | $1.37M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 137.80% | $1.1M |
-| [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.29% | $900.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 1.54% | $481.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 167.33% | $1.09M |
+| [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.29% | $899K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 1.55% | $480.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CBETH의 변동성 낮은 후보는 Ethereum의 coinbase-wrapped-staked-eth, APY 2.33%, TVL $363.26M, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token; Base의 stake-dao, APY 1.29%, TVL $900.9K, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token; Base의 fusion-by-ipor, APY 15.00%, TVL $2.54M, https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token; Base의 aerodrome-slipstream, APY 5.00%, TVL $3.16M, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token; Base의 fusion-by-ipor, APY 8.71%, TVL $4.75M, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token; Ethereum의 uniswap-v3, APY 1.54%, TVL $481.6K, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token; Base의 curve-dex, APY 1.41%, TVL $1.37M, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token; Base의 aerodrome-slipstream, APY 137.80%, TVL $1.1M, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBETH의 변동성 낮은 후보는 Ethereum의 coinbase-wrapped-staked-eth, APY 2.33%, TVL $363M, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token; Base의 stake-dao, APY 1.29%, TVL $899K, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token; Base의 fusion-by-ipor, APY 15.02%, TVL $2.54M, https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token; Base의 aerodrome-slipstream, APY 3.69%, TVL $3.54M, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token; Base의 fusion-by-ipor, APY 8.69%, TVL $4.75M, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token; Ethereum의 uniswap-v3, APY 1.55%, TVL $480.8K, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token; Base의 curve-dex, APY 1.41%, TVL $1.37M, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token; Base의 aerodrome-slipstream, APY 167.33%, TVL $1.09M, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.33% | $363.26M |
-| 2 | [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.29% | $900.9K |
-| 3 | [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 15.00% | $2.54M |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 5.00% | $3.16M |
-| 5 | [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 8.71% | $4.75M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 1.54% | $481.6K |
+| 1 | [coinbase-wrapped-staked-eth →](https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token) | Ethereum | 2.33% | $363M |
+| 2 | [stake-dao →](https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token) | Base | 1.29% | $899K |
+| 3 | [fusion-by-ipor →](https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token) | Base | 15.02% | $2.54M |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token) | Base | 3.69% | $3.54M |
+| 5 | [fusion-by-ipor →](https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token) | Base | 8.69% | $4.75M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token) | Ethereum | 1.55% | $480.8K |
 | 7 | [curve-dex →](https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token) | Base | 1.41% | $1.37M |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 137.80% | $1.1M |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token) | Base | 167.33% | $1.09M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CBETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.29%부터 137.80%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CBETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.29%부터 167.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.58%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -44,13 +44,13 @@ CBETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.29%부터 137.80%
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | coinbase-wrapped-staked-eth | 2.33% | 2.36% | 기본 금리 |
-| fusion-by-ipor | 8.71% | 8.66% | 인센티브 64.67% |
-| aerodrome-slipstream | 5.00% | 2.80% | 인센티브 19.71% |
-| fusion-by-ipor | 15.00% | 8.19% | 인센티브 89.47% |
-| curve-dex | 1.41% | 1.19% | 인센티브 1.32% |
-| aerodrome-slipstream | 137.80% | 226.35% | 인센티브 87.57% |
+| fusion-by-ipor | 8.69% | 8.65% | 인센티브 64.66% |
+| aerodrome-slipstream | 3.69% | 2.80% | 인센티브 23.07% |
+| fusion-by-ipor | 15.02% | 8.19% | 인센티브 89.60% |
+| curve-dex | 1.41% | 1.19% | 인센티브 1.31% |
+| aerodrome-slipstream | 167.33% | 226.09% | 인센티브 89.92% |
 | stake-dao | 1.29% | 1.20% | 인센티브 1.54% |
-| uniswap-v3 | 1.54% | 0.94% | 기본 금리 |
+| uniswap-v3 | 1.55% | 0.94% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ CBETH 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.29%부터 137.80%
 
 ### 오늘 CBETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 137.80%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 167.33%예요.
 
 ### CBETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $524.35M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $524.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 137
 
 ### CBETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CBETH의 변동성 낮은 후보는 Ethereum의 coinbase-wrapped-staked-eth, APY 2.33%, TVL $363.26M, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token; Base의 stake-dao, APY 1.29%, TVL $900.9K, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token; Base의 fusion-by-ipor, APY 15.00%, TVL $2.54M, https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token; Base의 aerodrome-slipstream, APY 5.00%, TVL $3.16M, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token; Base의 fusion-by-ipor, APY 8.71%, TVL $4.75M, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token; Ethereum의 uniswap-v3, APY 1.54%, TVL $481.6K, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token; Base의 curve-dex, APY 1.41%, TVL $1.37M, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token; Base의 aerodrome-slipstream, APY 137.80%, TVL $1.1M, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBETH의 변동성 낮은 후보는 Ethereum의 coinbase-wrapped-staked-eth, APY 2.33%, TVL $363M, https://www.defi.garden/?pool=0f45d730-b279-4629-8e11-ccb5cc3038b4&src=seo_token; Base의 stake-dao, APY 1.29%, TVL $899K, https://www.defi.garden/?pool=7aa4237c-3526-4a52-9db6-63c7b7c4d6c0&src=seo_token; Base의 fusion-by-ipor, APY 15.02%, TVL $2.54M, https://www.defi.garden/?pool=9ab89329-1f5d-5f2c-9589-eef5fae43807&src=seo_token; Base의 aerodrome-slipstream, APY 3.69%, TVL $3.54M, https://www.defi.garden/?pool=dc5b6771-96a6-4b38-b1c3-912544c23899&src=seo_token; Base의 fusion-by-ipor, APY 8.69%, TVL $4.75M, https://www.defi.garden/?pool=8d8b3ef8-1fee-4314-8cae-cdde303e4947&src=seo_token; Ethereum의 uniswap-v3, APY 1.55%, TVL $480.8K, https://www.defi.garden/?pool=473a2c92-cc86-4f86-b380-85141bcec627&src=seo_token; Base의 curve-dex, APY 1.41%, TVL $1.37M, https://www.defi.garden/?pool=475d7ab5-a4b8-4400-ad1c-94ef9e8bdfe3&src=seo_token; Base의 aerodrome-slipstream, APY 167.33%, TVL $1.09M, https://www.defi.garden/?pool=79369b35-dd99-4d68-b989-31c258fc40ab&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

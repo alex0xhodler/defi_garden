@@ -4,18 +4,18 @@ The highest honest JUPSOL yield right now is 5.85% on jupiter-staked-sol (Solana
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.85% | $400.26M |
-| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 0.78% | $174.1K |
+| [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.85% | $398.15M |
+| [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 0.78% | $173.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JUPSOL's lower-variability candidates are jupiter-staked-sol (Solana), 5.85% APY, $400.26M TVL, https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token; orca-dex (Solana), 0.78% APY, $174.1K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JUPSOL's lower-variability candidates are jupiter-staked-sol (Solana), 5.85% APY, $398.15M TVL, https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token; orca-dex (Solana), 0.78% APY, $173.3K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.85% | $400.26M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 0.78% | $174.1K |
+| 1 | [jupiter-staked-sol →](https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token) | Solana | 5.85% | $398.15M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token) | Solana | 0.78% | $173.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JUPSOL pools clear the TVL floor?
 
-12 live pools clear this page's $100K TVL floor, $535.1M in total.
+12 live pools clear this page's $100K TVL floor, $532.05M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JUPSOL pools have the most stable APY history?
 
-Based on APY history only, JUPSOL's lower-variability candidates are jupiter-staked-sol (Solana), 5.85% APY, $400.26M TVL, https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token; orca-dex (Solana), 0.78% APY, $174.1K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JUPSOL's lower-variability candidates are jupiter-staked-sol (Solana), 5.85% APY, $398.15M TVL, https://www.defi.garden/?pool=52bd72a7-9e81-4112-abb4-71673e8de9bf&src=seo_token; orca-dex (Solana), 0.78% APY, $173.3K TVL, https://www.defi.garden/?pool=ee677538-15f3-4567-8510-22e31e3ff065&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

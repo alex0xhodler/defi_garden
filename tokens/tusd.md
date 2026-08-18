@@ -1,29 +1,29 @@
 # TUSD DeFi Yields
 
-The highest honest TUSD yield right now is 1.41% on justlend-v1 (Tron), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TUSD yield right now is 2.25% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token) | Tron | 1.41% | $1.07M |
-| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 2.40% | $350.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=a29db313-6acc-4bae-867d-d49a139a2a96&src=seo_token) | Arbitrum | 0.01% | $212.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 2.25% | $350.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a29db313-6acc-4bae-867d-d49a139a2a96&src=seo_token) | Arbitrum | 0.01% | $212.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 2.40% APY, $350.5K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; uniswap-v3 (Arbitrum), 0.01% APY, $212.5K TVL, https://www.defi.garden/?pool=a29db313-6acc-4bae-867d-d49a139a2a96&src=seo_token; justlend-v1 (Tron), 1.41% APY, $1.07M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 2.25% APY, $350.5K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; uniswap-v3 (Arbitrum), 0.01% APY, $212.4K TVL, https://www.defi.garden/?pool=a29db313-6acc-4bae-867d-d49a139a2a96&src=seo_token; justlend-v1 (Tron), 1.41% APY, $1.07M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 2.40% | $350.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=a29db313-6acc-4bae-867d-d49a139a2a96&src=seo_token) | Arbitrum | 0.01% | $212.5K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token) | Solana | 2.25% | $350.5K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=a29db313-6acc-4bae-867d-d49a139a2a96&src=seo_token) | Arbitrum | 0.01% | $212.4K |
 | 3 | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token) | Tron | 1.41% | $1.07M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TUSD shows up in 3 pools here, with rates from 0.01% to 2.40% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+TUSD shows up in 3 pools here, with rates from 0.01% to 2.25% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 1.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -32,7 +32,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | justlend-v1 | 1.41% | 1.43% | Base rate |
-| raydium-amm | 2.40% | 1.50% | Base rate |
+| raydium-amm | 2.25% | 1.51% | Base rate |
 | uniswap-v3 | 0.01% | 0.04% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TUSD yield today?
 
-1.41% APY on justlend-v1 (Tron), based on live DefiLlama data.
+2.25% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TUSD pools clear the TVL floor?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TUSD pools have the most stable APY history?
 
-Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 2.40% APY, $350.5K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; uniswap-v3 (Arbitrum), 0.01% APY, $212.5K TVL, https://www.defi.garden/?pool=a29db313-6acc-4bae-867d-d49a139a2a96&src=seo_token; justlend-v1 (Tron), 1.41% APY, $1.07M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TUSD's lower-variability candidates are raydium-amm (Solana), 2.25% APY, $350.5K TVL, https://www.defi.garden/?pool=a2801182-6419-4c99-8472-be3dbee35006&src=seo_token; uniswap-v3 (Arbitrum), 0.01% APY, $212.4K TVL, https://www.defi.garden/?pool=a29db313-6acc-4bae-867d-d49a139a2a96&src=seo_token; justlend-v1 (Tron), 1.41% APY, $1.07M TVL, https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

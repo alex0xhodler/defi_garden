@@ -1,10 +1,10 @@
 # BTW DeFi Yields
 
-The highest honest BTW yield right now is 264.24% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTW yield right now is 289.56% on uniswap-v3 (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d4ce588e-d9a6-4dc1-bf5f-b86509692888&src=seo_token) | BSC | 264.24% | $158.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d4ce588e-d9a6-4dc1-bf5f-b86509692888&src=seo_token) | BSC | 289.56% | $159.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTW yield today?
 
-264.24% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+289.56% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many BTW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $158.7K in total.
+1 live pool clear this page's $100K TVL floor, $159.3K in total.
 
 ### Are these rates safe?
 

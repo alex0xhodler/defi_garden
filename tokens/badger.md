@@ -35,7 +35,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | uniswap-v3 | 0.07% | 0.15% | Base rate |
 | sushiswap-v3 | 0.08% | 0.06% | Base rate |
-| uniswap-v2 | 0.05% | 0.32% | Base rate |
+| uniswap-v2 | 0.05% | 0.33% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

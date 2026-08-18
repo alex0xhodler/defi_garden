@@ -5,7 +5,7 @@ The highest honest GOLD yield right now is 0.17% on folks-finance-lending (Algor
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=d4ae5908-ed9e-42be-ad6b-63bf6107c409&src=seo_token) | Solana | 0.09% | $602.2K |
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $477.1K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.17% | $468.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GOLD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.49M in total.
+4 live pools clear this page's $100K TVL floor, $1.48M in total.
 
 ### Are these rates safe?
 

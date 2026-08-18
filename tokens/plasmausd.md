@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank PLASMAUSD pools. This view co
 
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
-- [GHO](https://www.defi.garden/tokens/gho)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
+- [GHO](https://www.defi.garden/tokens/gho)
 - [SYZUSD](https://www.defi.garden/tokens/syzusd)
 - [YZPP](https://www.defi.garden/tokens/yzpp)
 

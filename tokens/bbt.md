@@ -4,7 +4,7 @@ The highest honest BBT yield right now is 14.54% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=3c33605c-307a-4162-8279-0fdc5119d048&src=seo_token) | Solana | 14.54% | $109.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=3c33605c-307a-4162-8279-0fdc5119d048&src=seo_token) | Solana | 14.54% | $109.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BBT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.2K in total.
+1 live pool clear this page's $100K TVL floor, $109.7K in total.
 
 ### Are these rates safe?
 

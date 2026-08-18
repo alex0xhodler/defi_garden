@@ -1,6 +1,6 @@
 # USDAT DeFi Yields
 
-The highest honest USDAT yield right now is 10.35% on pendle (Monad), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDAT yield right now is 10.30% on pendle (Monad), among 16 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -10,7 +10,7 @@ The highest honest USDAT yield right now is 10.35% on pendle (Monad), among 16 p
 | [pendle →](https://www.defi.garden/?pool=81b63593-7983-4395-a73d-62c955b9e9cf&src=seo_token) | Ethereum | 6.33% | $6.79M |
 | [pendle →](https://www.defi.garden/?pool=0f93ea50-c40c-5b6a-93fd-41cc4b5cacbe&src=seo_token) | Monad | 1.97% | $1.53M |
 | [pendle →](https://www.defi.garden/?pool=026386ce-1a03-5b4f-9e79-a0f21750d0ba&src=seo_token) | Monad | 6.05% | $1.53M |
-| [pendle →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 10.35% | $611.4K |
+| [pendle →](https://www.defi.garden/?pool=5b0253f1-000a-5b6f-bf90-1e413d0cf88e&src=seo_token) | Monad | 10.30% | $611.4K |
 | [pendle →](https://www.defi.garden/?pool=e59641ad-24a2-520a-aca3-8bd73bdf61e9&src=seo_token) | Monad | 6.81% | $611.4K |
 
 <!-- rate-stability:ranked -->
@@ -28,9 +28,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USDAT shows up in 8 pools here, with rates from 1.15% to 10.35% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDAT shows up in 8 pools here, with rates from 1.15% to 10.30% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.60% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 8 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -38,13 +38,13 @@ USDAT shows up in 8 pools here, with rates from 1.15% to 10.35% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 2.00% | 0.67% | 100.00% incentives |
-| curve-dex | 1.15% | 0.59% | Base rate |
-| pendle | 1.76% | 1.88% | 11.93% incentives |
-| pendle | 6.33% | 6.48% | Base rate |
-| pendle | 1.97% | 4.73% | 47.44% incentives |
-| pendle | 6.05% | 7.18% | Base rate |
-| pendle | 10.35% | 8.66% | 81.32% incentives |
+| morpho-blue | 2.00% | 0.68% | 100.00% incentives |
+| curve-dex | 1.15% | 0.60% | Base rate |
+| pendle | 1.76% | 1.87% | 11.87% incentives |
+| pendle | 6.33% | 6.47% | Base rate |
+| pendle | 1.97% | 4.69% | 47.28% incentives |
+| pendle | 6.05% | 7.16% | Base rate |
+| pendle | 10.30% | 8.68% | 81.22% incentives |
 | pendle | 6.81% | 6.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USDAT yield today?
 
-10.35% APY on pendle (Monad), based on live DefiLlama data.
+10.30% APY on pendle (Monad), based on live DefiLlama data.
 
 ### How many USDAT pools clear the TVL floor?
 

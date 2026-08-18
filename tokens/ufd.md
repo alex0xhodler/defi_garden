@@ -1,10 +1,10 @@
 # UFD DeFi Yields
 
-The highest honest UFD yield right now is 1.34% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UFD yield right now is 1.15% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ce002fb5-1b0e-4a72-af43-a800228e83e8&src=seo_token) | Solana | 1.34% | $1.07M |
+| [raydium-amm →](https://www.defi.garden/?pool=ce002fb5-1b0e-4a72-af43-a800228e83e8&src=seo_token) | Solana | 1.15% | $1.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest UFD yield today?
 
-1.34% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.15% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many UFD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.07M in total.
+1 live pool clear this page's $100K TVL floor, $1.06M in total.
 
 ### Are these rates safe?
 

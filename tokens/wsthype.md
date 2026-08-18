@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSTHYPE pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $118.18M in total.
+6 live pools clear this page's $100K TVL floor, $118.2M in total.
 
 ### Are these rates safe?
 

@@ -5,8 +5,8 @@ The highest honest Stacks yield right now is 1.24% on zest-v2 (Stacks), among 6 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USDC | [zest-v2 →](https://www.defi.garden/?pool=d45867ba-dd86-45f4-9b89-1893b65eaf69&src=seo_chain) | 0.58% | $10.08M |
-| STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_chain) | 0.15% | $1.34M |
-| STX | [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_chain) | 1.24% | $1.22M |
+| STSTX | [zest-v2 →](https://www.defi.garden/?pool=c9199d93-6e54-48cf-9063-aba26c9887e5&src=seo_chain) | 0.15% | $1.33M |
+| STX | [zest-v2 →](https://www.defi.garden/?pool=3020a368-7997-45d2-8f70-0439acb472c2&src=seo_chain) | 1.24% | $1.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Stacks pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $57.93M in total.
+6 live pools clear this page's $100K TVL floor, $57.77M in total.
 
 ### Are these rates safe?
 

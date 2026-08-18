@@ -4,7 +4,7 @@ The highest honest PEPECAT yield right now is 0.96% on raydium-amm (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d3df0f29-4f6b-41eb-80b9-4de0a1312298&src=seo_token) | Solana | 0.96% | $220.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=d3df0f29-4f6b-41eb-80b9-4de0a1312298&src=seo_token) | Solana | 0.96% | $219.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PEPECAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $220.5K in total.
+1 live pool clear this page's $100K TVL floor, $219.1K in total.
 
 ### Are these rates safe?
 

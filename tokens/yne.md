@@ -1,10 +1,10 @@
 # YNE DeFi Yields
 
-The highest honest YNE yield right now is 0.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YNE yield right now is 0.68% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c07d4aa3-781e-4a14-bd2d-082c3bac7f62&src=seo_token) | Solana | 0.69% | $106.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=c07d4aa3-781e-4a14-bd2d-082c3bac7f62&src=seo_token) | Solana | 0.68% | $106.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YNE yield today?
 
-0.69% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.68% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many YNE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.7K in total.
+1 live pool clear this page's $100K TVL floor, $106.1K in total.
 
 ### Are these rates safe?
 

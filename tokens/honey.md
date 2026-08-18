@@ -1,39 +1,39 @@
 # HONEY DeFi Yields
 
-The highest honest HONEY yield right now is 32.90% on berapaw (Berachain), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HONEY yield right now is 32.59% on berapaw (Berachain), among 10 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 9.81% | $1.56M |
-| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 8.08% | $528.8K |
-| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 4.99% | $451.5K |
-| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 32.90% | $240.2K |
-| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 12.91% | $198.1K |
-| [dolomite →](https://www.defi.garden/?pool=8c88be5c-2438-4e1d-b94b-123f66169d1c&src=seo_token) | Berachain | 1.93% | $151.7K |
-| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 8.80% | $129.3K |
-| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 20.25% | $115.1K |
+| [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 9.63% | $1.55M |
+| [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 7.97% | $528.1K |
+| [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 4.92% | $450.7K |
+| [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 32.59% | $238.6K |
+| [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 12.80% | $197.7K |
+| [dolomite →](https://www.defi.garden/?pool=8c88be5c-2438-4e1d-b94b-123f66169d1c&src=seo_token) | Berachain | 1.93% | $151.6K |
+| [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 8.54% | $128.6K |
+| [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 19.95% | $114.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HONEY's lower-variability candidates are dolomite (Berachain), 1.93% APY, $151.7K TVL, https://www.defi.garden/?pool=8c88be5c-2438-4e1d-b94b-123f66169d1c&src=seo_token; berapaw (Berachain), 4.99% APY, $451.5K TVL, https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token; berapaw (Berachain), 8.08% APY, $528.8K TVL, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token; berapaw (Berachain), 20.25% APY, $115.1K TVL, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; berapaw (Berachain), 12.91% APY, $198.1K TVL, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; berapaw (Berachain), 9.81% APY, $1.56M TVL, https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token; bex (Berachain), 8.80% APY, $129.3K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; berapaw (Berachain), 32.90% APY, $240.2K TVL, https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HONEY's lower-variability candidates are dolomite (Berachain), 1.93% APY, $151.6K TVL, https://www.defi.garden/?pool=8c88be5c-2438-4e1d-b94b-123f66169d1c&src=seo_token; berapaw (Berachain), 4.92% APY, $450.7K TVL, https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token; berapaw (Berachain), 7.97% APY, $528.1K TVL, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token; berapaw (Berachain), 19.95% APY, $114.8K TVL, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; berapaw (Berachain), 12.80% APY, $197.7K TVL, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; berapaw (Berachain), 9.63% APY, $1.55M TVL, https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token; bex (Berachain), 8.54% APY, $128.6K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; berapaw (Berachain), 32.59% APY, $238.6K TVL, https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [dolomite →](https://www.defi.garden/?pool=8c88be5c-2438-4e1d-b94b-123f66169d1c&src=seo_token) | Berachain | 1.93% | $151.7K |
-| 2 | [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 4.99% | $451.5K |
-| 3 | [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 8.08% | $528.8K |
-| 4 | [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 20.25% | $115.1K |
-| 5 | [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 12.91% | $198.1K |
-| 6 | [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 9.81% | $1.56M |
-| 7 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 8.80% | $129.3K |
-| 8 | [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 32.90% | $240.2K |
+| 1 | [dolomite →](https://www.defi.garden/?pool=8c88be5c-2438-4e1d-b94b-123f66169d1c&src=seo_token) | Berachain | 1.93% | $151.6K |
+| 2 | [berapaw →](https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token) | Berachain | 4.92% | $450.7K |
+| 3 | [berapaw →](https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token) | Berachain | 7.97% | $528.1K |
+| 4 | [berapaw →](https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token) | Berachain | 19.95% | $114.8K |
+| 5 | [berapaw →](https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token) | Berachain | 12.80% | $197.7K |
+| 6 | [berapaw →](https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token) | Berachain | 9.63% | $1.55M |
+| 7 | [bex →](https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token) | Berachain | 8.54% | $128.6K |
+| 8 | [berapaw →](https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token) | Berachain | 32.59% | $238.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HONEY shows up in 8 pools here, with rates from 1.93% to 32.90% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HONEY shows up in 8 pools here, with rates from 1.93% to 32.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 7.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -43,14 +43,14 @@ HONEY shows up in 8 pools here, with rates from 1.93% to 32.90% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| berapaw | 9.81% | 8.73% | 100.00% incentives |
-| berapaw | 8.08% | 4.32% | 100.00% incentives |
-| berapaw | 4.99% | 5.31% | 100.00% incentives |
-| berapaw | 32.90% | 33.52% | 100.00% incentives |
-| berapaw | 12.91% | 12.70% | 100.00% incentives |
-| dolomite | 1.93% | 4.43% | Base rate |
-| bex | 8.80% | 2.82% | Base rate |
-| berapaw | 20.25% | 20.75% | 100.00% incentives |
+| berapaw | 9.63% | 8.73% | 100.00% incentives |
+| berapaw | 7.97% | 4.33% | 100.00% incentives |
+| berapaw | 4.92% | 5.31% | 100.00% incentives |
+| berapaw | 32.59% | 33.52% | 100.00% incentives |
+| berapaw | 12.80% | 12.70% | 100.00% incentives |
+| dolomite | 1.93% | 4.42% | Base rate |
+| bex | 8.54% | 2.84% | Base rate |
+| berapaw | 19.95% | 20.75% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,7 +58,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HONEY yield today?
 
-32.90% APY on berapaw (Berachain), based on live DefiLlama data.
+32.59% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many HONEY pools clear the TVL floor?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HONEY pools have the most stable APY history?
 
-Based on APY history only, HONEY's lower-variability candidates are dolomite (Berachain), 1.93% APY, $151.7K TVL, https://www.defi.garden/?pool=8c88be5c-2438-4e1d-b94b-123f66169d1c&src=seo_token; berapaw (Berachain), 4.99% APY, $451.5K TVL, https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token; berapaw (Berachain), 8.08% APY, $528.8K TVL, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token; berapaw (Berachain), 20.25% APY, $115.1K TVL, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; berapaw (Berachain), 12.91% APY, $198.1K TVL, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; berapaw (Berachain), 9.81% APY, $1.56M TVL, https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token; bex (Berachain), 8.80% APY, $129.3K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; berapaw (Berachain), 32.90% APY, $240.2K TVL, https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HONEY's lower-variability candidates are dolomite (Berachain), 1.93% APY, $151.6K TVL, https://www.defi.garden/?pool=8c88be5c-2438-4e1d-b94b-123f66169d1c&src=seo_token; berapaw (Berachain), 4.92% APY, $450.7K TVL, https://www.defi.garden/?pool=26068531-0421-4828-b79a-fac28094da80&src=seo_token; berapaw (Berachain), 7.97% APY, $528.1K TVL, https://www.defi.garden/?pool=afa4cd8e-4b07-4e8c-918f-9675a4f103d3&src=seo_token; berapaw (Berachain), 19.95% APY, $114.8K TVL, https://www.defi.garden/?pool=b3b28743-f20b-4849-8250-1b2f3047c436&src=seo_token; berapaw (Berachain), 12.80% APY, $197.7K TVL, https://www.defi.garden/?pool=7f236628-273b-49b3-a283-edb4962dbfb2&src=seo_token; berapaw (Berachain), 9.63% APY, $1.55M TVL, https://www.defi.garden/?pool=63e9c699-9eaf-4106-aaf5-653297e0b9dd&src=seo_token; bex (Berachain), 8.54% APY, $128.6K TVL, https://www.defi.garden/?pool=7bab2ac1-eb5c-4ed6-bd9c-652c29fe6a7e&src=seo_token; berapaw (Berachain), 32.59% APY, $238.6K TVL, https://www.defi.garden/?pool=271704e9-c169-4370-99f2-d818e778db52&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

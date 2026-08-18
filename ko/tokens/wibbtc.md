@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.02% | $186.6K |
+| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.02% | $186.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 0.02%
 
 ### WIBBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $805.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $803.4K예요.
 
 ### 이 수익률은 안전한가요?
 

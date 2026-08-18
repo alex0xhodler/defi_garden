@@ -4,8 +4,8 @@ The highest honest FXSAVE yield right now is 6.03% on pendle (Ethereum), among 7
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 5.39% | $774.4K |
 | [pendle →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token) | Ethereum | 6.03% | $774.4K |
+| [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 5.39% | $774.4K |
 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token) | Ethereum | 1.80% | $427.6K |
 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 1.80% | $427.5K |
 
@@ -35,8 +35,8 @@ FXSAVE shows up in 4 pools here, with rates from 1.80% to 6.03% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 5.39% | 9.74% | Base rate |
 | pendle | 6.03% | 6.60% | Base rate |
+| pendle | 5.39% | 9.70% | Base rate |
 | curve-dex | 1.80% | 2.58% | 0.01% incentives |
 | convex-finance | 1.80% | 2.57% | Base rate |
 

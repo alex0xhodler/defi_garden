@@ -4,8 +4,8 @@ The highest honest STRUSD yield right now is 11.61% on pendle (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 11.09% | $45.63M |
-| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.51% | $10.07M |
+| [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 11.05% | $45.77M |
+| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.51% | $10.08M |
 | [pendle →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.61% | $7.05M |
 | [pendle →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 11.48% | $7.05M |
 
@@ -20,16 +20,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 STRUSD shows up in 4 pools here, with rates from 5.51% to 11.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.63% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 11.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tori-finance | 11.09% | 11.69% | Base rate |
+| tori-finance | 11.05% | 11.68% | Base rate |
 | curve-dex | 5.51% | 5.48% | Base rate |
 | pendle | 11.61% | 11.57% | Base rate |
-| pendle | 11.48% | 12.15% | 2.73% incentives |
+| pendle | 11.48% | 12.14% | 2.71% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $81.8M in total.
+6 live pools clear this page's $100K TVL floor, $82.1M in total.
 
 ### Are these rates safe?
 

@@ -4,18 +4,18 @@ The highest honest ADOT yield right now is 6.81% on hydration-dex (Polkadot), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.36% | $3.41M |
-| [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 6.81% | $1.39M |
+| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.36% | $3.39M |
+| [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 6.81% | $1.37M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ADOT's lower-variability candidates are hydration-dex (Polkadot), 0.36% APY, $3.41M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 6.81% APY, $1.39M TVL, https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADOT's lower-variability candidates are hydration-dex (Polkadot), 0.36% APY, $3.39M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 6.81% APY, $1.37M TVL, https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.36% | $3.41M |
-| 2 | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 6.81% | $1.39M |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.36% | $3.39M |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token) | Polkadot | 6.81% | $1.37M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -32,7 +32,7 @@ ADOT shows up in 2 pools here, with rates from 0.36% to 6.81% APY across 1 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | hydration-dex | 0.36% | 0.57% | Base rate |
-| hydration-dex | 6.81% | 7.39% | 74.36% incentives |
+| hydration-dex | 6.81% | 7.39% | 74.40% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ADOT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.79M in total.
+2 live pools clear this page's $100K TVL floor, $4.76M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ADOT pools have the most stable APY history?
 
-Based on APY history only, ADOT's lower-variability candidates are hydration-dex (Polkadot), 0.36% APY, $3.41M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 6.81% APY, $1.39M TVL, https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ADOT's lower-variability candidates are hydration-dex (Polkadot), 0.36% APY, $3.39M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 6.81% APY, $1.37M TVL, https://www.defi.garden/?pool=328f9944-f7cc-4a53-af5a-6e8eaa2fa72b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

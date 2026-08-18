@@ -4,26 +4,33 @@ The highest honest XWBTC yield right now is 2.86% on ekubo (Starknet), among 4 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 2.86% | $612.1K |
+| [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 2.86% | $611.5K |
+| [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token) | Starknet | 1.43% | $611K |
 
-<!-- rate-stability:insufficient -->
+<!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-There is not enough qualifying APY history to rank XWBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 1.43% APY, $611K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token; ekubo (Starknet), 2.86% APY, $611.5K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+
+| Rank | Protocol | Chain | APY | TVL |
+|---|---|---|---|---|
+| 1 | [troves →](https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token) | Starknet | 1.43% | $611K |
+| 2 | [ekubo →](https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token) | Starknet | 2.86% | $611.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XWBTC shows up in 1 pools here, with rates from 2.86% to 2.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+XWBTC shows up in 2 pools here, with rates from 1.43% to 2.86% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| ekubo | 2.86% | 3.67% | 99.95% incentives |
+| ekubo | 2.86% | 3.66% | 99.95% incentives |
+| troves | 1.43% | 0.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XWBTC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.15M in total.
+4 live pools clear this page's $100K TVL floor, $5.13M in total.
 
 ### Are these rates safe?
 
@@ -43,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XWBTC pools have the most stable APY history?
 
-There is not enough qualifying APY history to rank XWBTC pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XWBTC's lower-variability candidates are troves (Starknet), 1.43% APY, $611K TVL, https://www.defi.garden/?pool=279fa648-fb09-47e9-a63a-1c8ffaeee212&src=seo_token; ekubo (Starknet), 2.86% APY, $611.5K TVL, https://www.defi.garden/?pool=3b3b2d81-da38-450b-ae70-28911fd214d2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

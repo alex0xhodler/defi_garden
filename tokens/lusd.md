@@ -35,9 +35,9 @@ LUSD shows up in 4 pools here, with rates from 0.05% to 1.00% APY across 2 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.09% | 0.04% | 0.45% incentives |
+| curve-dex | 0.09% | 0.04% | 0.44% incentives |
 | aave-v3 | 0.58% | 0.54% | Base rate |
-| curve-dex | 0.05% | 0.10% | Base rate |
+| curve-dex | 0.05% | 0.09% | Base rate |
 | aave-v3 | 1.00% | 1.00% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

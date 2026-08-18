@@ -4,7 +4,7 @@ The highest honest IDLE yield right now is 33.21% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=71dc090b-7c1c-4481-85cf-9184fb7fb950&src=seo_token) | Solana | 33.21% | $343.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=71dc090b-7c1c-4481-85cf-9184fb7fb950&src=seo_token) | Solana | 33.21% | $341.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IDLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $343.5K in total.
+1 live pool clear this page's $100K TVL floor, $341.4K in total.
 
 ### Are these rates safe?
 

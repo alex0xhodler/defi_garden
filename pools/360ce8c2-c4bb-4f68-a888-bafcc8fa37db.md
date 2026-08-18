@@ -1,12 +1,12 @@
 # KNTQ-USDC — project-x on Hyperliquid L1
 
-**Total APY:** 17.15% (17.15% Base · + 0.00% Rewards)
+**Total APY:** 17.24% (17.24% Base · + 0.00% Rewards)
 
-**TVL:** $248.7K
+**TVL:** $249.2K
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 10.58%
+**30d Mean APY:** 10.63%
 
 **Exposure:** multi
 
@@ -21,13 +21,13 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$2,207 in 5y at current rates.
+$1,000 in this pool grows to ~$2,215 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 17.15% right now vs a 10.58% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 17.24% right now vs a 10.63% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$2,207 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,215 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on project-x](https://www.prjx.com/?ref=defi.garden)
 

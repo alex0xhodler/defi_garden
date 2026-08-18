@@ -1,12 +1,12 @@
 # DICKBUTT-WETH — uniswap-v3 on Base
 
-**Total APY:** 3.92% (3.92% Base · + 0.00% Rewards)
+**Total APY:** 3.91% (3.91% Base · + 0.00% Rewards)
 
-**TVL:** $163.9K
+**TVL:** $165.4K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 12.51%
+**30d Mean APY:** 12.49%
 
 **Exposure:** multi
 
@@ -25,7 +25,7 @@ $1,000 in this pool grows to ~$1,212 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 3.92% right now vs a 12.51% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 3.91% right now vs a 12.49% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,212 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 

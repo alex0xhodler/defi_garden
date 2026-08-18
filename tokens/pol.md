@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many POL pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $954.7K in total.
+6 live pools clear this page's $100K TVL floor, $952.7K in total.
 
 ### Are these rates safe?
 

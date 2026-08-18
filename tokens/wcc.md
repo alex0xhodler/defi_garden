@@ -4,7 +4,7 @@ The highest honest WCC yield right now is 2.80% on ea-finance (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ea-finance →](https://www.defi.garden/?pool=0f2ada2d-bf56-46cd-b79f-81c841fa2cc6&src=seo_token) | BSC | 2.80% | $222.3K |
+| [ea-finance →](https://www.defi.garden/?pool=0f2ada2d-bf56-46cd-b79f-81c841fa2cc6&src=seo_token) | BSC | 2.80% | $228.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $222.3K in total.
+1 live pool clear this page's $100K TVL floor, $228.3K in total.
 
 ### Are these rates safe?
 

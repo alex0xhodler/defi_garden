@@ -29,8 +29,8 @@ USDP shows up in 2 pools here, with rates from 7.47% to 12.72% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 12.72% | 11.80% | 66.03% incentives |
-| balancer-v3 | 7.47% | 9.82% | 77.34% incentives |
+| balancer-v3 | 12.72% | 11.80% | 66.04% incentives |
+| balancer-v3 | 7.47% | 9.81% | 77.34% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,7 +59,7 @@ Based on APY history only, USDP's lower-variability candidates are balancer-v3 (
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [VBILL](https://www.defi.garden/tokens/vbill)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 
 ## Available on
 

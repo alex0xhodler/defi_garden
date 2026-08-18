@@ -5,19 +5,19 @@ The highest honest ASTER yield right now is 5.71% on uniswap-v3 (BSC), among 4 p
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [lista-lending →](https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token) | BSC | 0.03% | $786.3K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token) | BSC | 5.71% | $212.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token) | BSC | 1.10% | $164.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token) | BSC | 5.71% | $212.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token) | BSC | 1.10% | $164.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ASTER's lower-variability candidates are lista-lending (BSC), 0.03% APY, $786.3K TVL, https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token; uniswap-v3 (BSC), 5.71% APY, $212.1K TVL, https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token; uniswap-v3 (BSC), 1.10% APY, $164.4K TVL, https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ASTER's lower-variability candidates are lista-lending (BSC), 0.03% APY, $786.3K TVL, https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token; uniswap-v3 (BSC), 5.71% APY, $212.2K TVL, https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token; uniswap-v3 (BSC), 1.10% APY, $164.5K TVL, https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [lista-lending →](https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token) | BSC | 0.03% | $786.3K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token) | BSC | 5.71% | $212.1K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token) | BSC | 1.10% | $164.4K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token) | BSC | 5.71% | $212.2K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token) | BSC | 1.10% | $164.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ASTER pools have the most stable APY history?
 
-Based on APY history only, ASTER's lower-variability candidates are lista-lending (BSC), 0.03% APY, $786.3K TVL, https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token; uniswap-v3 (BSC), 5.71% APY, $212.1K TVL, https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token; uniswap-v3 (BSC), 1.10% APY, $164.4K TVL, https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ASTER's lower-variability candidates are lista-lending (BSC), 0.03% APY, $786.3K TVL, https://www.defi.garden/?pool=0c2ec4fb-554a-48c6-b985-3e9362278609&src=seo_token; uniswap-v3 (BSC), 5.71% APY, $212.2K TVL, https://www.defi.garden/?pool=57012b95-52ab-43b4-bd51-27bdf9ec0fca&src=seo_token; uniswap-v3 (BSC), 1.10% APY, $164.5K TVL, https://www.defi.garden/?pool=49fe4439-4af2-4d80-bcbb-d4456b2fd2bc&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

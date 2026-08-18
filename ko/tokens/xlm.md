@@ -4,18 +4,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $118.46M |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 1.10% | $284.4K |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $117.9M |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 1.10% | $283K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 XLM의 변동성 낮은 후보는 Stellar의 blend-pools-v2, APY 0.06%, TVL $118.46M, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; Stellar의 blend-pools-v2, APY 1.10%, TVL $284.4K, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XLM의 변동성 낮은 후보는 Stellar의 blend-pools-v2, APY 0.06%, TVL $117.9M, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; Stellar의 blend-pools-v2, APY 1.10%, TVL $283K, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $118.46M |
-| 2 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 1.10% | $284.4K |
+| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $117.9M |
+| 2 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 1.10% | $283K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -42,7 +42,7 @@ DefiLlama 실시간 데이터 기준, Stellar의 blend-pools-v2에서 APY 0.06%�
 
 ### XLM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $118.75M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $118.19M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Stellar의 blend-pools-v2에서 APY 0.06%�
 
 ### XLM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 XLM의 변동성 낮은 후보는 Stellar의 blend-pools-v2, APY 0.06%, TVL $118.46M, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; Stellar의 blend-pools-v2, APY 1.10%, TVL $284.4K, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XLM의 변동성 낮은 후보는 Stellar의 blend-pools-v2, APY 0.06%, TVL $117.9M, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; Stellar의 blend-pools-v2, APY 1.10%, TVL $283K, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

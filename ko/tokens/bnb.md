@@ -4,26 +4,26 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.08% | $294.38M |
+| [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.08% | $294M |
 | [raydium-amm →](https://www.defi.garden/?pool=f15c7999-1309-512e-b18f-7d8a363721ec&src=seo_token) | Solana | 0.23% | $6.87M |
 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.16% | $571.9K |
-| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.63% | $274.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 9.92% | $214.8K |
+| [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.63% | $274.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 10.29% | $214.6K |
 | [raydium-amm →](https://www.defi.garden/?pool=14e27bb9-bcce-557e-b474-8ed5a4d24eec&src=seo_token) | Solana | 0.01% | $192K |
 | [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 103.05% | $105.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 lista-lending, APY 0.08%, TVL $294.38M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; Rootstock의 sovryn-dex, APY 0.16%, TVL $571.9K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.63%, TVL $274.2K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; Solana의 gmtrade, APY 103.05%, TVL $105.2K, https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token; Ethereum의 uniswap-v3, APY 9.92%, TVL $214.8K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 lista-lending, APY 0.08%, TVL $294M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; Rootstock의 sovryn-dex, APY 0.16%, TVL $571.9K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.63%, TVL $274.1K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; Solana의 gmtrade, APY 103.05%, TVL $105.2K, https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token; Ethereum의 uniswap-v3, APY 10.29%, TVL $214.6K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.08% | $294.38M |
+| 1 | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token) | BSC | 0.08% | $294M |
 | 2 | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token) | Rootstock | 0.16% | $571.9K |
-| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.63% | $274.2K |
+| 3 | [gmx-v2-perps →](https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token) | Arbitrum | 0.63% | $274.1K |
 | 4 | [gmtrade →](https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token) | Solana | 103.05% | $105.2K |
-| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 9.92% | $214.8K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token) | Ethereum | 10.29% | $214.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -42,10 +42,10 @@ BNB 풀은 여기 7개가 있고, 5개 체인에서 APY가 0.01%부터 103.05%�
 | lista-lending | 0.08% | 0.09% | 기본 금리 |
 | raydium-amm | 0.23% | 0.16% | 기본 금리 |
 | sovryn-dex | 0.16% | 0.08% | 인센티브 100.00% |
-| gmx-v2-perps | 0.63% | 0.30% | 기본 금리 |
-| uniswap-v3 | 9.92% | 22.84% | 기본 금리 |
+| gmx-v2-perps | 0.63% | 0.31% | 기본 금리 |
+| uniswap-v3 | 10.29% | 22.85% | 기본 금리 |
 | raydium-amm | 0.01% | 0.01% | 기본 금리 |
-| gmtrade | 103.05% | 103.84% | 기본 금리 |
+| gmtrade | 103.05% | 103.92% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,7 +57,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 103.05%예요.
 
 ### BNB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $302.6M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $302.22M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -65,7 +65,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 103.05%예요.
 
 ### BNB 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 lista-lending, APY 0.08%, TVL $294.38M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; Rootstock의 sovryn-dex, APY 0.16%, TVL $571.9K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.63%, TVL $274.2K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; Solana의 gmtrade, APY 103.05%, TVL $105.2K, https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token; Ethereum의 uniswap-v3, APY 9.92%, TVL $214.8K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BNB의 변동성 낮은 후보는 BSC의 lista-lending, APY 0.08%, TVL $294M, https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_token; Rootstock의 sovryn-dex, APY 0.16%, TVL $571.9K, https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_token; Arbitrum의 gmx-v2-perps, APY 0.63%, TVL $274.1K, https://www.defi.garden/?pool=e71a0cb7-4f13-4b95-b144-19943935c2ec&src=seo_token; Solana의 gmtrade, APY 103.05%, TVL $105.2K, https://www.defi.garden/?pool=4d5f2138-e925-4cb4-82bd-b7316894dcb3&src=seo_token; Ethereum의 uniswap-v3, APY 10.29%, TVL $214.6K, https://www.defi.garden/?pool=e22573b1-2309-4358-a3f7-f51551679a3a&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

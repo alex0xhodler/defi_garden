@@ -4,7 +4,7 @@ The highest honest MOCHI yield right now is 3.50% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b5788765-cbeb-4032-b20a-c85663b30925&src=seo_token) | Base | 3.50% | $101.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b5788765-cbeb-4032-b20a-c85663b30925&src=seo_token) | Base | 3.50% | $101.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOCHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.2K in total.
+1 live pool clear this page's $100K TVL floor, $101.1K in total.
 
 ### Are these rates safe?
 

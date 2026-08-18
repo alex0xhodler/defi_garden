@@ -4,7 +4,7 @@ The highest honest XAGM yield right now is 18.59% on bluefin-spot (Sui), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 18.59% | $138.4K |
+| [bluefin-spot →](https://www.defi.garden/?pool=af7501b2-1e4c-4a82-b269-befa70e5ff41&src=seo_token) | Sui | 18.59% | $137.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XAGM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $138.4K in total.
+1 live pool clear this page's $100K TVL floor, $137.8K in total.
 
 ### Are these rates safe?
 

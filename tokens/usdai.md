@@ -29,7 +29,7 @@ USDAI shows up in 2 pools here, with rates from 1.02% to 6.78% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 1.02% | 0.97% | 2.01% incentives |
+| pendle | 1.02% | 0.97% | 2.00% incentives |
 | pendle | 6.78% | 6.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDAI pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $102.66M in total.
+4 live pools clear this page's $100K TVL floor, $102.67M in total.
 
 ### Are these rates safe?
 

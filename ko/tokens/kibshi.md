@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=072f98e7-dcc6-4382-8004-71d297338690&src=seo_token) | Ethereum | 0.20% | $258.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=072f98e7-dcc6-4382-8004-71d297338690&src=seo_token) | Ethereum | 0.20% | $251.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.20%예�
 
 ### KIBSHI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $258.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $251.5K예요.
 
 ### 이 수익률은 안전한가요?
 

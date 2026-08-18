@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=11f4f3ae-021f-4d85-9c83-2b9c5cb7a51e&src=seo_token) | Arbitrum | 0.15% | $108.8K |
+| [camelot-v2 →](https://www.defi.garden/?pool=11f4f3ae-021f-4d85-9c83-2b9c5cb7a51e&src=seo_token) | Arbitrum | 0.15% | $108.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 camelot-v2에서 APY 0.15%예�
 
 ### EQB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $108.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $108.7K예요.
 
 ### 이 수익률은 안전한가요?
 

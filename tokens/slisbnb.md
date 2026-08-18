@@ -4,20 +4,20 @@ The highest honest SLISBNB yield right now is 1.63% on pendle (BSC), among 6 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 0.77% | $566.66M |
-| [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.18% | $1.54M |
-| [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.63% | $1.54M |
+| [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 0.77% | $566.23M |
+| [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.18% | $1.53M |
+| [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.63% | $1.53M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SLISBNB's lower-variability candidates are pendle (BSC), 1.18% APY, $1.54M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle (BSC), 1.63% APY, $1.54M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 0.77% APY, $566.66M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SLISBNB's lower-variability candidates are pendle (BSC), 1.18% APY, $1.53M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle (BSC), 1.63% APY, $1.53M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 0.77% APY, $566.23M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.18% | $1.54M |
-| 2 | [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.63% | $1.54M |
-| 3 | [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 0.77% | $566.66M |
+| 1 | [pendle →](https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token) | BSC | 1.18% | $1.53M |
+| 2 | [pendle →](https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token) | BSC | 1.63% | $1.53M |
+| 3 | [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token) | BSC | 0.77% | $566.23M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SLISBNB pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $694.81M in total.
+6 live pools clear this page's $100K TVL floor, $694.34M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SLISBNB pools have the most stable APY history?
 
-Based on APY history only, SLISBNB's lower-variability candidates are pendle (BSC), 1.18% APY, $1.54M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle (BSC), 1.63% APY, $1.54M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 0.77% APY, $566.66M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SLISBNB's lower-variability candidates are pendle (BSC), 1.18% APY, $1.53M TVL, https://www.defi.garden/?pool=0d90df68-a705-4961-82f5-4c15f999d258&src=seo_token; pendle (BSC), 1.63% APY, $1.53M TVL, https://www.defi.garden/?pool=086e3909-a1e4-42cd-ab1c-6bfe50edda0f&src=seo_token; lista-liquid-staking (BSC), 0.77% APY, $566.23M TVL, https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

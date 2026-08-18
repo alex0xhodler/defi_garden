@@ -4,7 +4,7 @@ The highest honest MANEKI yield right now is 0.06% on raydium-amm (Solana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=75f2465b-aae7-4e6d-a075-59312f639394&src=seo_token) | Solana | 0.06% | $1.96M |
+| [raydium-amm →](https://www.defi.garden/?pool=75f2465b-aae7-4e6d-a075-59312f639394&src=seo_token) | Solana | 0.06% | $1.95M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MANEKI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.96M in total.
+1 live pool clear this page's $100K TVL floor, $1.95M in total.
 
 ### Are these rates safe?
 

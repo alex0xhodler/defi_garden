@@ -4,24 +4,24 @@ The highest honest AUGUSTUSDCV2 yield right now is 9.43% on morpho-blue (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 7.93% | $4.26M |
-| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.43% | $754K |
+| [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 7.75% | $4.16M |
+| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.43% | $754.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 7.93% APY, $4.26M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 9.43% APY, $754K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 7.75% APY, $4.16M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 9.43% APY, $754.1K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 7.93% | $4.26M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.43% | $754K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 7.75% | $4.16M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.43% | $754.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AUGUSTUSDCV2 shows up in 2 pools here, with rates from 7.93% to 9.43% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+AUGUSTUSDCV2 shows up in 2 pools here, with rates from 7.75% to 9.43% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 7.24% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,8 +29,8 @@ AUGUSTUSDCV2 shows up in 2 pools here, with rates from 7.93% to 9.43% APY across
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 7.93% | 7.11% | 30.15% incentives |
-| morpho-blue | 9.43% | 7.36% | Base rate |
+| morpho-blue | 7.75% | 7.11% | 28.55% incentives |
+| morpho-blue | 9.43% | 7.37% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AUGUSTUSDCV2 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.01M in total.
+2 live pools clear this page's $100K TVL floor, $4.91M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AUGUSTUSDCV2 pools have the most stable APY history?
 
-Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 7.93% APY, $4.26M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 9.43% APY, $754K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AUGUSTUSDCV2's lower-variability candidates are morpho-blue (Monad), 7.75% APY, $4.16M TVL, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; morpho-blue (Ethereum), 9.43% APY, $754.1K TVL, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

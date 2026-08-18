@@ -4,8 +4,8 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 5.39% | $774.4K |
 | [pendle →](https://www.defi.garden/?pool=62f77482-8595-4279-872d-a02a806e9127&src=seo_token) | Ethereum | 6.03% | $774.4K |
+| [pendle →](https://www.defi.garden/?pool=3e79042b-3018-4559-8fdf-6851ae2537c5&src=seo_token) | Ethereum | 5.39% | $774.4K |
 | [curve-dex →](https://www.defi.garden/?pool=d2cec87c-a53a-45bd-aeae-c98cbc599bc6&src=seo_token) | Ethereum | 1.80% | $427.6K |
 | [convex-finance →](https://www.defi.garden/?pool=c9c1eb2b-3a22-41e1-b896-4cbfc5c0ddb1&src=seo_token) | Ethereum | 1.80% | $427.5K |
 
@@ -35,8 +35,8 @@ FXSAVE 풀은 여기 4개가 있고, 1개 체인에서 APY가 1.80%부터 6.03%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| pendle | 5.39% | 9.74% | 기본 금리 |
 | pendle | 6.03% | 6.60% | 기본 금리 |
+| pendle | 5.39% | 9.70% | 기본 금리 |
 | curve-dex | 1.80% | 2.58% | 인센티브 0.01% |
 | convex-finance | 1.80% | 2.57% | 기본 금리 |
 

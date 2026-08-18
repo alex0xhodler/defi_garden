@@ -4,24 +4,24 @@ The highest honest VBUSDT yield right now is 4.03% on morpho-blue (Katana), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 2.97% | $1.95M |
+| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 3.16% | $1.95M |
 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 4.03% | $1.56M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VBUSDT's lower-variability candidates are yearn-finance (Katana), 2.97% APY, $1.95M TVL, https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token; morpho-blue (Katana), 4.03% APY, $1.56M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBUSDT's lower-variability candidates are yearn-finance (Katana), 3.16% APY, $1.95M TVL, https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token; morpho-blue (Katana), 4.03% APY, $1.56M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 2.97% | $1.95M |
+| 1 | [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 3.16% | $1.95M |
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 4.03% | $1.56M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VBUSDT shows up in 2 pools here, with rates from 2.97% to 4.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VBUSDT shows up in 2 pools here, with rates from 3.16% to 4.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.67% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ VBUSDT shows up in 2 pools here, with rates from 2.97% to 4.03% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 2.97% | 3.98% | 40.92% incentives |
-| morpho-blue | 4.03% | 5.37% | 25.56% incentives |
+| yearn-finance | 3.16% | 3.98% | 45.80% incentives |
+| morpho-blue | 4.03% | 5.35% | 25.57% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBUSDT pools have the most stable APY history?
 
-Based on APY history only, VBUSDT's lower-variability candidates are yearn-finance (Katana), 2.97% APY, $1.95M TVL, https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token; morpho-blue (Katana), 4.03% APY, $1.56M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBUSDT's lower-variability candidates are yearn-finance (Katana), 3.16% APY, $1.95M TVL, https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token; morpho-blue (Katana), 4.03% APY, $1.56M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

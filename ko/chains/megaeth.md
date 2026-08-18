@@ -1,11 +1,11 @@
 # MegaETH 디파이 수익률
 
-현재 MegaETH의 가장 높은 정직한 수익률은 MegaETH의 aave-v3에서 5.61%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MegaETH의 가장 높은 정직한 수익률은 MegaETH의 aave-v3에서 5.62%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 5.61% | $491.9K |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.62% | $188.2K |
+| USDM | [aave-v3 →](https://www.defi.garden/?pool=5c994437-94bf-4c96-a4c1-5b8ae446dfd0&src=seo_chain) | 5.62% | $492.8K |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=1b9f6e32-d7d0-4261-8fd8-7921d8a43d91&src=seo_chain) | 0.62% | $187.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,7 +13,7 @@
 
 ### 오늘 MegaETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, MegaETH의 aave-v3에서 APY 5.61%예요.
+DefiLlama 실시간 데이터 기준, MegaETH의 aave-v3에서 APY 5.62%예요.
 
 ### MegaETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

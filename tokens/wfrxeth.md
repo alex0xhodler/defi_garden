@@ -31,8 +31,8 @@ WFRXETH shows up in 2 pools here, with rates from 0.49% to 4.20% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| frax | 0.49% | 1.04% | Base rate |
-| stake-dao | 4.20% | 4.52% | 62.87% incentives |
+| frax | 0.49% | 1.03% | Base rate |
+| stake-dao | 4.20% | 4.52% | 62.61% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WFRXETH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.9M in total.
+2 live pools clear this page's $100K TVL floor, $2.91M in total.
 
 ### Are these rates safe?
 

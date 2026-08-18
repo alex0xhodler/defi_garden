@@ -4,18 +4,18 @@ The highest honest XLM yield right now is 0.06% on blend-pools-v2 (Stellar), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $118.46M |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 1.10% | $284.4K |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $117.9M |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 1.10% | $283K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.06% APY, $118.46M TVL, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; blend-pools-v2 (Stellar), 1.10% APY, $284.4K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.06% APY, $117.9M TVL, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; blend-pools-v2 (Stellar), 1.10% APY, $283K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $118.46M |
-| 2 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 1.10% | $284.4K |
+| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.06% | $117.9M |
+| 2 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 1.10% | $283K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XLM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $118.75M in total.
+2 live pools clear this page's $100K TVL floor, $118.19M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XLM pools have the most stable APY history?
 
-Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.06% APY, $118.46M TVL, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; blend-pools-v2 (Stellar), 1.10% APY, $284.4K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XLM's lower-variability candidates are blend-pools-v2 (Stellar), 0.06% APY, $117.9M TVL, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; blend-pools-v2 (Stellar), 1.10% APY, $283K TVL, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

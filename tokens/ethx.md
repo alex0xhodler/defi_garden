@@ -4,36 +4,36 @@ The highest honest ETHX yield right now is 2.20% on stader (Ethereum), among 5 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token) | Ethereum | 2.20% | $157M |
-| [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token) | Ethereum | 8.69% | $219.2K |
-| [stake-dao →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token) | Ethereum | 10.16% | $189.9K |
+| [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token) | Ethereum | 2.20% | $156.72M |
+| [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token) | Ethereum | 8.64% | $218.9K |
+| [stake-dao →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token) | Ethereum | 10.13% | $189.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.20% APY, $157M TVL, https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token; curve-dex (Ethereum), 8.69% APY, $219.2K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token; stake-dao (Ethereum), 10.16% APY, $189.9K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.20% APY, $156.72M TVL, https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token; curve-dex (Ethereum), 8.64% APY, $218.9K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token; stake-dao (Ethereum), 10.13% APY, $189.9K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token) | Ethereum | 2.20% | $157M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token) | Ethereum | 8.69% | $219.2K |
-| 3 | [stake-dao →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token) | Ethereum | 10.16% | $189.9K |
+| 1 | [stader →](https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token) | Ethereum | 2.20% | $156.72M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token) | Ethereum | 8.64% | $218.9K |
+| 3 | [stake-dao →](https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token) | Ethereum | 10.13% | $189.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ETHX shows up in 3 pools here, with rates from 2.20% to 10.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ETHX shows up in 3 pools here, with rates from 2.20% to 10.13% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.35% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.36% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | stader | 2.20% | 2.17% | Base rate |
-| curve-dex | 8.69% | 3.35% | 79.06% incentives |
-| stake-dao | 10.16% | 3.78% | 79.73% incentives |
+| curve-dex | 8.64% | 3.36% | 78.93% incentives |
+| stake-dao | 10.13% | 3.80% | 79.57% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ETHX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $157.69M in total.
+5 live pools clear this page's $100K TVL floor, $157.41M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ETHX pools have the most stable APY history?
 
-Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.20% APY, $157M TVL, https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token; curve-dex (Ethereum), 8.69% APY, $219.2K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token; stake-dao (Ethereum), 10.16% APY, $189.9K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETHX's lower-variability candidates are stader (Ethereum), 2.20% APY, $156.72M TVL, https://www.defi.garden/?pool=90bfb3c2-5d35-4959-a275-ba5085b08aa3&src=seo_token; curve-dex (Ethereum), 8.64% APY, $218.9K TVL, https://www.defi.garden/?pool=f78f31b0-80ed-4504-bf89-74e0162e998f&src=seo_token; stake-dao (Ethereum), 10.13% APY, $189.9K TVL, https://www.defi.garden/?pool=c572b921-0373-439d-b224-caf54b78f358&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -4,7 +4,7 @@ The highest honest WIBBTC yield right now is 0.02% on convex-finance (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.02% | $186.6K |
+| [convex-finance →](https://www.defi.garden/?pool=bd661874-6d9f-4969-8602-83b94eb76bed&src=seo_token) | Ethereum | 0.02% | $186.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WIBBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $805.4K in total.
+2 live pools clear this page's $100K TVL floor, $803.4K in total.
 
 ### Are these rates safe?
 

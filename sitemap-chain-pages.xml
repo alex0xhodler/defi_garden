@@ -131,12 +131,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/flare</loc>
+    <loc>https://www.defi.garden/chains/stable</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stable</loc>
+    <loc>https://www.defi.garden/chains/flare</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -171,12 +171,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/stacks</loc>
+    <loc>https://www.defi.garden/chains/starknet</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/starknet</loc>
+    <loc>https://www.defi.garden/chains/stacks</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>

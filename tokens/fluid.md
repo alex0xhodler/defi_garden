@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FLUID pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.8M in total.
+4 live pools clear this page's $100K TVL floor, $3.77M in total.
 
 ### Are these rates safe?
 

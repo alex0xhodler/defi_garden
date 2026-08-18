@@ -11,12 +11,12 @@
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.03% | $1.55M |
 | [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token) | Ethereum | 1.82% | $1.52M |
 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.99% | $1.52M |
-| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 3.80% | $583.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 3.80% | $580.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 KPK의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.03%, TVL $1.55M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Ethereum의 morpho-blue, APY 4.10%, TVL $20.67M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token; Ethereum의 morpho-blue, APY 2.54%, TVL $2.12M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token; Ethereum의 morpho-blue, APY 1.82%, TVL $1.52M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token; Arbitrum의 morpho-blue, APY 3.80%, TVL $583.6K, https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token; Ethereum의 morpho-blue, APY 2.99%, TVL $1.52M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; Ethereum의 morpho-blue, APY 9.33%, TVL $7.21M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 KPK의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.03%, TVL $1.55M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Ethereum의 morpho-blue, APY 4.10%, TVL $20.67M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token; Ethereum의 morpho-blue, APY 2.54%, TVL $2.12M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token; Ethereum의 morpho-blue, APY 1.82%, TVL $1.52M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token; Arbitrum의 morpho-blue, APY 3.80%, TVL $580.3K, https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token; Ethereum의 morpho-blue, APY 2.99%, TVL $1.52M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; Ethereum의 morpho-blue, APY 9.33%, TVL $7.21M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
@@ -24,7 +24,7 @@ APY 이력만 기준으로 비교한 KPK의 변동성 낮은 후보는 Ethereum�
 | 2 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 4.10% | $20.67M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 2.54% | $2.12M |
 | 4 | [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token) | Ethereum | 1.82% | $1.52M |
-| 5 | [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 3.80% | $583.6K |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token) | Arbitrum | 3.80% | $580.3K |
 | 6 | [morpho-blue →](https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token) | Ethereum | 2.99% | $1.52M |
 | 7 | [morpho-blue →](https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token) | Ethereum | 9.33% | $7.21M |
 
@@ -44,7 +44,7 @@ KPK 풀은 여기 8개가 있고, 2개 체인에서 APY가 1.82%부터 23.85%까
 |---|---|---|---|
 | morpho-blue | 4.10% | 3.94% | 기본 금리 |
 | morpho-blue | 9.33% | 6.75% | 기본 금리 |
-| morpho-blue | 23.85% | 6.30% | 인센티브 99.68% |
+| morpho-blue | 23.85% | 6.40% | 인센티브 99.68% |
 | morpho-blue | 2.54% | 3.39% | 기본 금리 |
 | morpho-blue | 4.03% | 3.81% | 기본 금리 |
 | morpho-blue | 1.82% | 1.82% | 기본 금리 |
@@ -61,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 9.33%예
 
 ### KPK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $40.56M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $40.55M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,7 +69,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 9.33%예
 
 ### KPK 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 KPK의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.03%, TVL $1.55M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Ethereum의 morpho-blue, APY 4.10%, TVL $20.67M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token; Ethereum의 morpho-blue, APY 2.54%, TVL $2.12M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token; Ethereum의 morpho-blue, APY 1.82%, TVL $1.52M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token; Arbitrum의 morpho-blue, APY 3.80%, TVL $583.6K, https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token; Ethereum의 morpho-blue, APY 2.99%, TVL $1.52M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; Ethereum의 morpho-blue, APY 9.33%, TVL $7.21M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 KPK의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.03%, TVL $1.55M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Ethereum의 morpho-blue, APY 4.10%, TVL $20.67M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token; Ethereum의 morpho-blue, APY 2.54%, TVL $2.12M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token; Ethereum의 morpho-blue, APY 1.82%, TVL $1.52M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token; Arbitrum의 morpho-blue, APY 3.80%, TVL $580.3K, https://www.defi.garden/?pool=91213fb6-1d6b-45de-b6a0-22747de02778&src=seo_token; Ethereum의 morpho-blue, APY 2.99%, TVL $1.52M, https://www.defi.garden/?pool=24dab21e-a9b8-4369-b965-d96dc4911558&src=seo_token; Ethereum의 morpho-blue, APY 9.33%, TVL $7.21M, https://www.defi.garden/?pool=4c1b8c3d-3b3d-4dac-b334-49c405d9bf8f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

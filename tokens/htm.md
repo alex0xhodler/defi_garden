@@ -4,7 +4,7 @@ The highest honest HTM yield right now is 3.85% on xexchange (MultiversX), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 3.85% | $173.8K |
+| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 3.85% | $173.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 HTM shows up in 1 pools here, with rates from 3.85% to 3.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -25,7 +25,7 @@ HTM shows up in 1 pools here, with rates from 3.85% to 3.85% APY across 1 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 3.85% | 3.98% | 89.82% incentives |
+| xexchange | 3.85% | 3.97% | 89.65% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many HTM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $376.4K in total.
+2 live pools clear this page's $100K TVL floor, $376.6K in total.
 
 ### Are these rates safe?
 

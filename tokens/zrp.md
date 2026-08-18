@@ -4,7 +4,7 @@ The highest honest ZRP yield right now is 2.70% on quickswap-dex (Polygon), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=b5107522-0c4d-4adf-84f2-ebdd40ce35f8&src=seo_token) | Polygon | 2.70% | $489.7K |
+| [quickswap-dex →](https://www.defi.garden/?pool=b5107522-0c4d-4adf-84f2-ebdd40ce35f8&src=seo_token) | Polygon | 2.70% | $489.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZRP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $489.7K in total.
+1 live pool clear this page's $100K TVL floor, $489.6K in total.
 
 ### Are these rates safe?
 

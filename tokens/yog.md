@@ -33,8 +33,8 @@ YOG shows up in 3 pools here, with rates from 1.86% to 6.18% APY across 3 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 1.86% | 2.61% | 32.30% incentives |
-| morpho-blue | 6.18% | 7.16% | 9.74% incentives |
+| morpho-blue | 1.86% | 2.61% | 32.45% incentives |
+| morpho-blue | 6.18% | 7.16% | 9.81% incentives |
 | morpho-blue | 5.24% | 5.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YOG pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $7.59M in total.
+3 live pools clear this page's $100K TVL floor, $7.58M in total.
 
 ### Are these rates safe?
 

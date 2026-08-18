@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Plasma의 veda에서 APY 3.15%예요.
 
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
-- [GHO](https://www.defi.garden/ko/tokens/gho)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
+- [GHO](https://www.defi.garden/ko/tokens/gho)
 - [SYZUSD](https://www.defi.garden/ko/tokens/syzusd)
 - [YZPP](https://www.defi.garden/ko/tokens/yzpp)
 

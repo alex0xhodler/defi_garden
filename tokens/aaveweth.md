@@ -1,23 +1,23 @@
 # AAVEWETH DeFi Yields
 
-The highest honest AAVEWETH yield right now is 5.27% on balancer-v3 (Arbitrum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAVEWETH yield right now is 5.27% on balancer-v3 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.30% | $276.1K |
-| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.25% | $270.2K |
-| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.27% | $265.7K |
+| [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.30% | $275.7K |
+| [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.27% | $269.9K |
+| [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.16% | $265.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AAVEWETH's lower-variability candidates are balancer-v3 (Base), 5.25% APY, $270.2K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; balancer-v3 (Arbitrum), 5.27% APY, $265.7K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; balancer-v3 (OP Mainnet), 4.30% APY, $276.1K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVEWETH's lower-variability candidates are balancer-v3 (Base), 5.27% APY, $269.9K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; balancer-v3 (Arbitrum), 5.16% APY, $265.4K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; balancer-v3 (OP Mainnet), 4.30% APY, $275.7K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.25% | $270.2K |
-| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.27% | $265.7K |
-| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.30% | $276.1K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token) | Base | 5.27% | $269.9K |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token) | Arbitrum | 5.16% | $265.4K |
+| 3 | [balancer-v3 →](https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token) | OP Mainnet | 4.30% | $275.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -31,9 +31,9 @@ AAVEWETH shows up in 3 pools here, with rates from 4.30% to 5.27% APY across 3 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 4.30% | 4.62% | 59.39% incentives |
-| balancer-v3 | 5.25% | 5.96% | 66.43% incentives |
-| balancer-v3 | 5.27% | 6.43% | 66.86% incentives |
+| balancer-v3 | 4.30% | 4.62% | 59.38% incentives |
+| balancer-v3 | 5.27% | 5.96% | 66.60% incentives |
+| balancer-v3 | 5.16% | 6.42% | 69.52% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AAVEWETH yield today?
 
-5.27% APY on balancer-v3 (Arbitrum), based on live DefiLlama data.
+5.27% APY on balancer-v3 (Base), based on live DefiLlama data.
 
 ### How many AAVEWETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $812.1K in total.
+3 live pools clear this page's $100K TVL floor, $811K in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AAVEWETH pools have the most stable APY history?
 
-Based on APY history only, AAVEWETH's lower-variability candidates are balancer-v3 (Base), 5.25% APY, $270.2K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; balancer-v3 (Arbitrum), 5.27% APY, $265.7K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; balancer-v3 (OP Mainnet), 4.30% APY, $276.1K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVEWETH's lower-variability candidates are balancer-v3 (Base), 5.27% APY, $269.9K TVL, https://www.defi.garden/?pool=cff9b9e2-37b7-4282-98b3-528c23e430f6&src=seo_token; balancer-v3 (Arbitrum), 5.16% APY, $265.4K TVL, https://www.defi.garden/?pool=ac6586ef-aeec-4448-bab8-c3a1b14b59a3&src=seo_token; balancer-v3 (OP Mainnet), 4.30% APY, $275.7K TVL, https://www.defi.garden/?pool=f40bad4e-96b8-4726-b7ad-e15e81ba8442&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
