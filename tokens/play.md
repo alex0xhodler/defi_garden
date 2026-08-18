@@ -4,7 +4,7 @@ The highest honest PLAY yield right now is 0.01% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=61666eb3-58e9-40fd-8e9d-21a7d9c2ebca&src=seo_token) | Solana | 0.01% | $181.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=61666eb3-58e9-40fd-8e9d-21a7d9c2ebca&src=seo_token) | Solana | 0.01% | $181.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PLAY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181.2K in total.
+1 live pool clear this page's $100K TVL floor, $181.1K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank PLAY pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

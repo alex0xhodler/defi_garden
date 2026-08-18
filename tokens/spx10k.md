@@ -1,10 +1,10 @@
 # SPX10K DeFi Yields
 
-The highest honest SPX10K yield right now is 29.41% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPX10K yield right now is 21.49% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1e451927-ef4e-5261-a837-812cf7ce9b41&src=seo_token) | Base | 29.41% | $102.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1e451927-ef4e-5261-a837-812cf7ce9b41&src=seo_token) | Base | 21.49% | $102.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPX10K yield today?
 
-29.41% APY on uniswap-v2 (Base), based on live DefiLlama data.
+21.49% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SPX10K pools clear the TVL floor?
 

@@ -1,10 +1,10 @@
 # RUSSELL DeFi Yields
 
-The highest honest RUSSELL yield right now is 17.15% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RUSSELL yield right now is 8.76% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=5d212bdb-7272-40f1-93e5-ff058cedeb0e&src=seo_token) | Base | 17.15% | $294.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=5d212bdb-7272-40f1-93e5-ff058cedeb0e&src=seo_token) | Base | 8.76% | $286.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RUSSELL yield today?
 
-17.15% APY on uniswap-v2 (Base), based on live DefiLlama data.
+8.76% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many RUSSELL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $294.7K in total.
+1 live pool clear this page's $100K TVL floor, $286.7K in total.
 
 ### Are these rates safe?
 

@@ -1,10 +1,10 @@
 # OPP DeFi Yields
 
-The highest honest OPP yield right now is 44.59% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPP yield right now is 44.39% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=6545c9af-4a76-4e67-b1c6-a778aabd3dff&src=seo_token) | OP Mainnet | 44.59% | $156K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=6545c9af-4a76-4e67-b1c6-a778aabd3dff&src=seo_token) | OP Mainnet | 44.39% | $155.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OPP yield today?
 
-44.59% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+44.39% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many OPP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $156K in total.
+1 live pool clear this page's $100K TVL floor, $155.2K in total.
 
 ### Are these rates safe?
 

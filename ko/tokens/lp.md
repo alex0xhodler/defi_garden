@@ -43,9 +43,9 @@ LP 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.01%부터 0.16%까�
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.02% | 인센티브 100.00% |
 | wombat-exchange | 0.03% | 0.03% | 인센티브 100.00% |
-| wombat-exchange | 0.05% | 0.05% | 인센티브 91.87% |
-| wombat-exchange | 0.01% | 0.02% | 인센티브 99.86% |
-| wombat-exchange | 0.02% | 0.02% | 인센티브 99.91% |
+| wombat-exchange | 0.05% | 0.05% | 인센티브 92.25% |
+| wombat-exchange | 0.01% | 0.02% | 인센티브 100.00% |
+| wombat-exchange | 0.02% | 0.02% | 인센티브 100.00% |
 | wombat-exchange | 0.09% | 0.09% | 인센티브 100.00% |
 | wombat-exchange | 0.16% | 0.20% | 인센티브 100.00% |
 

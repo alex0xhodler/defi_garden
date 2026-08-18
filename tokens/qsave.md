@@ -1,10 +1,10 @@
 # QSAVE DeFi Yields
 
-The highest honest QSAVE yield right now is 84.74% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QSAVE yield right now is 98.42% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=af09aa13-0f0f-55c0-a578-825bc8fdda95&src=seo_token) | Base | 84.74% | $326.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=af09aa13-0f0f-55c0-a578-825bc8fdda95&src=seo_token) | Base | 98.42% | $284.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QSAVE yield today?
 
-84.74% APY on uniswap-v4 (Base), based on live DefiLlama data.
+98.42% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many QSAVE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $326.6K in total.
+1 live pool clear this page's $100K TVL floor, $284.7K in total.
 
 ### Are these rates safe?
 

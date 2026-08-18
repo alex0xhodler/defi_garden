@@ -1,8 +1,8 @@
 # VVS-WCRO — vvs-standard on Cronos
 
-**Total APY:** 0.03% (0.03% Base · + 0.00% Rewards)
+**Total APY:** 0.04% (0.04% Base · + 0.00% Rewards)
 
-**TVL:** $24.8M
+**TVL:** $24.85M
 
 **Pool Type:** Yield Farming
 

@@ -1,10 +1,10 @@
 # PI DeFi Yields
 
-The highest honest PI yield right now is 0.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PI yield right now is 0.03% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d2c9506e-be63-5c35-af65-1c91f826f6c5&src=seo_token) | Solana | 0.02% | $89.09M |
+| [raydium-amm →](https://www.defi.garden/?pool=d2c9506e-be63-5c35-af65-1c91f826f6c5&src=seo_token) | Solana | 0.03% | $89.08M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PI yield today?
 
-0.02% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.03% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $89.09M in total.
+1 live pool clear this page's $100K TVL floor, $89.08M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank PI pools. This view covers AP
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

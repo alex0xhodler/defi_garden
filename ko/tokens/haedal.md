@@ -1,10 +1,10 @@
 # HAEDAL 디파이 수익률
 
-현재 HAEDAL의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 24.41%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HAEDAL의 가장 높은 정직한 수익률은 Sui의 cetus-clmm에서 7.75%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token) | Sui | 24.41% | $578.4K |
+| [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token) | Sui | 7.75% | $578.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 HAEDAL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 24.41%예요.
+DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 7.75%예요.
 
 ### HAEDAL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -36,8 +36,8 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 24.41%예요.
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [SUI](https://www.defi.garden/ko/tokens/sui)
 - [BUCK](https://www.defi.garden/ko/tokens/buck)
+- [SUI](https://www.defi.garden/ko/tokens/sui)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
 
 ## 이용 가능한 체인

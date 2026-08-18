@@ -1,8 +1,8 @@
 # FUN-DAI — quickswap-dex on Polygon
 
-**Total APY:** 0.56% (0.56% Base · + 0.00% Rewards)
+**Total APY:** 0.55% (0.55% Base · + 0.00% Rewards)
 
-**TVL:** $2.28M
+**TVL:** $2.25M
 
 **Pool Type:** LP/DEX
 

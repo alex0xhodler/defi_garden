@@ -4,7 +4,7 @@ The highest honest EAI yield right now is 0.01% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=835e310f-97b8-4ddb-bd0a-c7e693219987&src=seo_token) | Ethereum | 0.01% | $272.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=835e310f-97b8-4ddb-bd0a-c7e693219987&src=seo_token) | Ethereum | 0.01% | $408.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $272.5K in total.
+1 live pool clear this page's $100K TVL floor, $408.5K in total.
 
 ### Are these rates safe?
 

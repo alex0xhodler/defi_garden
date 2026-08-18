@@ -4,7 +4,7 @@ The highest honest PKT yield right now is 0.32% on uniswap-v2 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b3371832-ee19-40b0-a7a3-211be26edc46&src=seo_token) | Base | 0.32% | $172.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b3371832-ee19-40b0-a7a3-211be26edc46&src=seo_token) | Base | 0.32% | $171K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PKT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $172.2K in total.
+1 live pool clear this page's $100K TVL floor, $171K in total.
 
 ### Are these rates safe?
 

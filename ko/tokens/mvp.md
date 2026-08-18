@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=04097667-0a7d-5bcc-bf1a-2c31afdfd291&src=seo_token) | Solana | 0.07% | $300K |
-| [raydium-amm →](https://www.defi.garden/?pool=185c1767-7eb1-516a-b04a-505a76da5782&src=seo_token) | Solana | 0.06% | $300K |
+| [raydium-amm →](https://www.defi.garden/?pool=185c1767-7eb1-516a-b04a-505a76da5782&src=seo_token) | Solana | 0.05% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=45edad80-a4a7-53c6-9a58-509dcbd48153&src=seo_token) | Solana | 0.06% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=14d952c8-6b58-59de-99f9-1a4e9bc45769&src=seo_token) | Solana | 0.02% | $300K |
 
@@ -29,7 +29,7 @@ MVP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.02%부터 0.07%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | raydium-amm | 0.07% | 0.14% | 기본 금리 |
-| raydium-amm | 0.06% | 0.06% | 기본 금리 |
+| raydium-amm | 0.05% | 0.06% | 기본 금리 |
 | raydium-amm | 0.06% | 0.06% | 기본 금리 |
 | raydium-amm | 0.02% | 0.04% | 기본 금리 |
 
@@ -56,11 +56,11 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.07%예�
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 

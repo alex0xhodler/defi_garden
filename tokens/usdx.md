@@ -4,7 +4,7 @@ The highest honest USDX yield right now is 3.50% on clearpool-lending (Flare), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_token) | Flare | 3.50% | $14.74M |
+| [clearpool-lending →](https://www.defi.garden/?pool=be50b874-8147-440d-b8ca-f2c202e9ed64&src=seo_token) | Flare | 3.50% | $15.39M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $14.74M in total.
+1 live pool clear this page's $100K TVL floor, $15.39M in total.
 
 ### Are these rates safe?
 

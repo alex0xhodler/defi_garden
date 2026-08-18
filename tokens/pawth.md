@@ -4,7 +4,7 @@ The highest honest PAWTH yield right now is 0.01% on uniswap-v2 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b2c67581-f92f-4e1a-b818-369f50599b3f&src=seo_token) | Base | 0.01% | $102K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b2c67581-f92f-4e1a-b818-369f50599b3f&src=seo_token) | Base | 0.01% | $101K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PAWTH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102K in total.
+1 live pool clear this page's $100K TVL floor, $101K in total.
 
 ### Are these rates safe?
 

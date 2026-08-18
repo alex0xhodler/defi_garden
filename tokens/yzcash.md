@@ -4,7 +4,7 @@ The highest honest YZCASH yield right now is 5.94% on yuzu-money (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=12b8c52b-d73e-595d-8bbc-f610d0c54d71&src=seo_token) | Ethereum | 5.94% | $8.31M |
+| [yuzu-money →](https://www.defi.garden/?pool=12b8c52b-d73e-595d-8bbc-f610d0c54d71&src=seo_token) | Ethereum | 5.94% | $7.54M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YZCASH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.31M in total.
+1 live pool clear this page's $100K TVL floor, $7.54M in total.
 
 ### Are these rates safe?
 

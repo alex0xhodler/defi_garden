@@ -1,10 +1,10 @@
 # SJ DeFi Yields
 
-The highest honest SJ yield right now is 3.30% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SJ yield right now is 1.42% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=bad7f530-10c0-5f51-be13-890e4440324e&src=seo_token) | Solana | 3.30% | $145.9K |
+| [orca-dex →](https://www.defi.garden/?pool=bad7f530-10c0-5f51-be13-890e4440324e&src=seo_token) | Solana | 1.42% | $146.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SJ yield today?
 
-3.30% APY on orca-dex (Solana), based on live DefiLlama data.
+1.42% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SJ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $145.9K in total.
+1 live pool clear this page's $100K TVL floor, $146.2K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank SJ pools. This view covers AP
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

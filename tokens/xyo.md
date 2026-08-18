@@ -1,10 +1,10 @@
 # XYO DeFi Yields
 
-The highest honest XYO yield right now is 4.40% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XYO yield right now is 7.38% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=b38d57dd-3755-4c94-9d13-96faa3e6edf4&src=seo_token) | Ethereum | 4.40% | $327.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b38d57dd-3755-4c94-9d13-96faa3e6edf4&src=seo_token) | Ethereum | 7.38% | $324.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XYO yield today?
 
-4.40% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+7.38% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many XYO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $327.8K in total.
+1 live pool clear this page's $100K TVL floor, $324.9K in total.
 
 ### Are these rates safe?
 

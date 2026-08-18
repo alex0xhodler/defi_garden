@@ -1,10 +1,10 @@
 # CETES DeFi Yields
 
-The highest honest CETES yield right now is 0.09% on kuru-clob (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CETES yield right now is 2.93% on kuru-clob (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kuru-clob →](https://www.defi.garden/?pool=143f0c93-342a-4949-8253-167e57328e38&src=seo_token) | Monad | 0.09% | $111.6K |
+| [kuru-clob →](https://www.defi.garden/?pool=143f0c93-342a-4949-8253-167e57328e38&src=seo_token) | Monad | 2.93% | $111.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CETES shows up in 1 pools here, with rates from 0.09% to 0.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CETES shows up in 1 pools here, with rates from 2.93% to 2.93% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| kuru-clob | 0.09% | 3.02% | Base rate |
+| kuru-clob | 2.93% | 3.02% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,7 +33,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CETES yield today?
 
-0.09% APY on kuru-clob (Monad), based on live DefiLlama data.
+2.93% APY on kuru-clob (Monad), based on live DefiLlama data.
 
 ### How many CETES pools clear the TVL floor?
 
@@ -49,12 +49,12 @@ There is not enough qualifying APY history to rank CETES pools. This view covers
 
 ## Related tokens
 
-- [USDC](https://www.defi.garden/tokens/usdc)
 - [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
+- [BTC](https://www.defi.garden/tokens/btc)
 
 ## Available on
 

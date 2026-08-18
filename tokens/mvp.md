@@ -5,7 +5,7 @@ The highest honest MVP yield right now is 0.07% on raydium-amm (Solana), among 4
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=04097667-0a7d-5bcc-bf1a-2c31afdfd291&src=seo_token) | Solana | 0.07% | $300K |
-| [raydium-amm →](https://www.defi.garden/?pool=185c1767-7eb1-516a-b04a-505a76da5782&src=seo_token) | Solana | 0.06% | $300K |
+| [raydium-amm →](https://www.defi.garden/?pool=185c1767-7eb1-516a-b04a-505a76da5782&src=seo_token) | Solana | 0.05% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=45edad80-a4a7-53c6-9a58-509dcbd48153&src=seo_token) | Solana | 0.06% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=14d952c8-6b58-59de-99f9-1a4e9bc45769&src=seo_token) | Solana | 0.02% | $300K |
 
@@ -29,7 +29,7 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.07% | 0.14% | Base rate |
-| raydium-amm | 0.06% | 0.06% | Base rate |
+| raydium-amm | 0.05% | 0.06% | Base rate |
 | raydium-amm | 0.06% | 0.06% | Base rate |
 | raydium-amm | 0.02% | 0.04% | Base rate |
 
@@ -56,11 +56,11 @@ There is not enough qualifying APY history to rank MVP pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
