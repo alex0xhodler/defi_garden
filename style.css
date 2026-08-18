@@ -3208,13 +3208,18 @@ body {
   align-items: start;
 }
 
-/* Desktop: auto-fill compact cards (1024px and up) — 225 round 3c: track
-   count follows the container, so two results no longer strand a dead third
-   column. */
+/* Responsive grid for cards view — 3x3 layout on desktop matching itemsPerPage (9) */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .pools-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-12);
+  }
+}
+
 @media (min-width: 1024px) {
   .pools-grid {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: var(--space-12);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--space-16);
     max-width: var(--content-max-width);
     margin: 0 auto;
   }
