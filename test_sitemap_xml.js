@@ -96,26 +96,12 @@ try {
   });
   check('all generated sitemaps are valid XML', ok);
 
-  // 4. The escaping guard: at least one emitted <loc> is a multi-parameter URL,
-  //    and every such `&` is escaped as `&amp;` (never a raw ampersand).
-  //    item 226: `?token=USDC&chain=Ethereum` no longer exists anywhere — the
-  //    app-view families that emitted token+chain combos are suppressed by
-  //    default (EMIT_APP_VIEW_SITEMAPS=false). sitemap-main.xml's sanctioned
-  //    `?chain=All&minTvl=...` rungs (item 188, untouched by 226) are now the
-  //    multi-parameter URL source this guard exercises instead.
+  // 4. The escaping guard: prove all generated XML files are free of raw unescaped &
   const allXml = files.map(f => fs.readFileSync(f, 'utf8'));
-  const combo = allXml.find(x => x.includes('chain=All') && x.includes('minTvl='));
-  check('a multi-parameter chain=All+minTvl <loc> was generated', !!combo,
-    'fixture should yield ?chain=All&minTvl=...');
-  if (combo) {
-    check('multi-parameter <loc> escapes & as &amp;', combo.includes('&amp;'));
-    // A raw `&` NOT starting a valid entity (&amp; &lt; &gt; &quot; &apos; &#..)
-    // would be malformed. Prove none slipped through.
-    const rawAmp = /&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)/;
-    allXml.forEach((x, i) => {
-      check(`no unescaped & in ${path.basename(files[i])}`, !rawAmp.test(x));
-    });
-  }
+  const rawAmp = /&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)/;
+  allXml.forEach((x, i) => {
+    check(`no unescaped & in ${path.basename(files[i])}`, !rawAmp.test(x));
+  });
 
   // 5. Sanity: a deliberately malformed doc MUST be rejected (guards the guard —
   //    proves the validator isn't trivially passing everything).

@@ -925,7 +925,18 @@ const symbolMatchesToken = (poolSymbol, token) => {
 // Main App Component
 function App() {
   const [pools, setPools] = useState([]);
+  const [isScrolled, setIsScrolled] = useState(false);
   const [filteredPools, setFilteredPools] = useState([]);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const scrolled = window.scrollY > 4;
+      setIsScrolled(prev => prev !== scrolled ? scrolled : prev);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
   const [selectedToken, setSelectedToken] = useState('');
   const [searchInput, setSearchInput] = useState('');
   const [selectedChain, setSelectedChain] = useState('');
@@ -3259,7 +3270,7 @@ function App() {
       // handleCalculateYield, the url_direct resolver above). Submitting a
       // new query or clearing this field is the only way out of pool view;
       // see exitPoolViewForNewSearch / handleSearchClearFromPoolView.
-      React.createElement('div', { className: 'app-header-sticky' },
+      React.createElement('div', { className: `app-header-sticky${isScrolled ? ' is-scrolled' : ''}` },
         renderHeaderRow(true)
       ),
 
@@ -3320,7 +3331,7 @@ function App() {
     // input has no autocomplete dropdown, so the no-results state keeps its
     // own `.search-section` below (with autocomplete) instead of losing it.
     React.createElement('div', {
-      className: 'app-header-sticky'
+      className: `app-header-sticky${isScrolled ? ' is-scrolled' : ''}`
     },
       renderHeaderRow(!!(selectedToken || (chainMode && selectedChain))),
 

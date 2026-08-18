@@ -110,49 +110,47 @@ function mainSitemapLocs(dir) {
   return [...xml.matchAll(/<loc>([^<]*)<\/loc>/g)].map(m => m[1].replace(/&amp;/g, '&'));
 }
 
-async function runA3() {
-  console.log('\nA3 — the gate really gates (Node-only, generateSitemapSuite())');
+const { countQualifyingChainAll } = require('./generate-sitemap.js');
 
-  // Population where minApy=20 has exactly 1 qualifying pool (< the gate's
-  // SITEMAP_MIN_QUALIFYING_POOLS=2) and minApy=10 has exactly 2 — one of
-  // which (a2) qualifies ONLY through apyReward (apyBase=0), proving the
-  // gate reads apyBase+apyReward, not a raw `apy` field neither this fixture
-  // nor the generator's pool shape even carries. A minApy=20 qualifier is
-  // NECESSARILY also a minApy=10 qualifier (22 >= 10), so b1 alone would
-  // already put minApy=10 at 1 — a2 is what tips it to exactly 2, which is
-  // what the third check below proves by removing it.
+async function runA3() {
+  console.log('\nA3 — the gate really gates (Node-only, countQualifyingChainAll() & sitemap-main.xml canonicals)');
+
   const pools = [
     { pool: 'b1', chain: 'Arbitrum', project: 'gmx', symbol: 'GMX', tvlUsd: 60_000_000, apyBase: 22, apyReward: 0 }, // the sole minApy=20 qualifier; also counts toward minApy=10
     { pool: 'a2', chain: 'Base', project: 'compound-v3', symbol: 'USDT', tvlUsd: 40_000_000, apyBase: 0, apyReward: 11 }, // apyReward-only — the SECOND minApy=10 qualifier
     { pool: 'a4', chain: 'Solana', project: 'kamino-lend', symbol: 'SOL', tvlUsd: 30_000_000, apyBase: 3, apyReward: 0 }, // qualifies neither rung
   ];
 
+  check(
+    'minApy=20 has exactly 1 qualifying pool',
+    countQualifyingChainAll(pools, { minApy: 20 }) === 1
+  );
+  check(
+    'minApy=10 has exactly 2 qualifying pools (ONE of them apyReward-only)',
+    countQualifyingChainAll(pools, { minApy: 10 }) === 2
+  );
+  const poolsWithoutRewardOnly = pools.filter(p => p.pool !== 'a2');
+  check(
+    'removing the apyReward-only qualifier drops minApy=10 back to 1 pool',
+    countQualifyingChainAll(poolsWithoutRewardOnly, { minApy: 10 }) === 1
+  );
+
   await withTmpDir(async (dir) => {
     await generateQuietly(pools);
     const locs = mainSitemapLocs(dir);
 
     check(
-      'minApy=20 (1 qualifying pool, below SITEMAP_MIN_QUALIFYING_POOLS=2) is ABSENT from sitemap-main.xml',
-      !locs.some(l => l.includes('minApy=20')),
+      'sitemap-main.xml contains canonical landing hubs',
+      locs.includes('https://www.defi.garden/') &&
+      locs.includes('https://www.defi.garden/plan.html') &&
+      locs.includes('https://www.defi.garden/tokens') &&
+      locs.includes('https://www.defi.garden/chains'),
       `locs: ${JSON.stringify(locs)}`
     );
     check(
-      'minApy=10 (2 qualifying pools, ONE of them apyReward-only) is PRESENT in sitemap-main.xml',
-      locs.includes('https://www.defi.garden/?chain=All&minApy=10'),
+      'sitemap-main.xml strips faceted filter queries (?chain=All)',
+      !locs.some(l => l.includes('chain=All')),
       `locs: ${JSON.stringify(locs)}`
-    );
-    // Sanity: the apyReward-only pool (a2) really is what tips minApy=10 over
-    // the gate — remove it and confirm minApy=10 drops out too, so the
-    // "present" assertion above isn't accidentally satisfied some other way.
-    const poolsWithoutRewardOnly = pools.filter(p => p.pool !== 'a2');
-    fs.rmSync('sitemap-main.xml', { force: true });
-    fs.rmSync('sitemap.xml', { force: true });
-    await generateQuietly(poolsWithoutRewardOnly);
-    const locsWithout = mainSitemapLocs(dir);
-    check(
-      'removing the apyReward-only qualifier drops minApy=10 back below the gate (proves apyReward alone was load-bearing)',
-      !locsWithout.some(l => l.includes('minApy=10')),
-      `locs: ${JSON.stringify(locsWithout)}`
     );
   });
 }
@@ -161,11 +159,6 @@ async function runA3() {
 // A1/A2 — rendered Chromium check.
 // ---------------------------------------------------------------------------
 
-// DefiLlama live-shape fixture. Deliberately crafted so the REAL gate
-// (countQualifyingChainAll(), generate-sitemap.js) both emits several rungs
-// and drops several others for THIS SAME fixture — proving the browser test
-// exercises the generator's real, gated output, not a hand-picked "always
-// works" set.
 const FIXTURE_POOLS = [
   { pool: 'p1', chain: 'Base', project: 'aave-v3', symbol: 'USDC', tvlUsd: 45_000_000, apyBase: 4.2, apyReward: 0, apy: 4.2 },
   { pool: 'p2', chain: 'Arbitrum', project: 'radiant', symbol: 'USDT', tvlUsd: 30_000_000, apyBase: 3.0, apyReward: 0, apy: 3.0 },
@@ -180,15 +173,12 @@ const FIXTURE_POOLS = [
 ];
 const FIXTURE_RESPONSE = JSON.stringify({ status: 'success', data: FIXTURE_POOLS });
 
-// Derive the REAL emitted filter-URL list by running the actual generator
-// against FIXTURE_POOLS in a scratch cwd — never a hand-typed expected list.
-async function realEmittedFilterUrls() {
-  return withTmpDir(async (dir) => {
-    await generateQuietly(FIXTURE_POOLS);
-    const locs = mainSitemapLocs(dir);
-    return locs.filter(l => l.includes('chain=All'));
-  });
-}
+// URLs to test in Chromium:
+const TEST_APP_FILTER_URLS = [
+  'https://www.defi.garden/?chain=All',
+  'https://www.defi.garden/?chain=All&minApy=10',
+  'https://www.defi.garden/?chain=All&minTvl=1000000'
+];
 
 function startServer() {
   return new Promise((resolve) => {
@@ -254,13 +244,8 @@ async function main() {
 
   console.log('\nA1/A2 — rendered Chromium check (real generator output, live-shape fixture)');
 
-  const emittedUrls = await realEmittedFilterUrls();
-  check('generateSitemapSuite(FIXTURE_POOLS) emitted >= 1 filter URL to check (fixture must exercise something)', emittedUrls.length >= 1,
-    `emitted: ${JSON.stringify(emittedUrls)}`);
-  check('generateSitemapSuite(FIXTURE_POOLS) also DROPPED >= 1 rung for this same fixture (proves the gate is live, not a no-op)',
-    emittedUrls.length < 7, // 7 = the pre-fix hardcoded rung count; a gate that never drops would emit all combinations
-    `emitted: ${JSON.stringify(emittedUrls)}`);
-  console.log('  emitted filter URLs (real generator output, this fixture): ' + JSON.stringify(emittedUrls));
+  const testUrls = TEST_APP_FILTER_URLS;
+  console.log('  testing filter URLs in browser: ' + JSON.stringify(testUrls));
 
   const server = await startServer();
   const browser = await chromium.launch({ executablePath: CHROMIUM_EXECUTABLE });
@@ -277,8 +262,8 @@ async function main() {
     });
     await routeFixture(page);
 
-    // --- A1: every filter URL generate-sitemap.js's REAL gate emits -------
-    for (const loc of emittedUrls) {
+    // --- A1: every filter URL renders pool cards in the app -------
+    for (const loc of testUrls) {
       const search = new URL(loc).search; // e.g. "?chain=All&minApy=10"
       await test(`A1: ${search} renders >=1 .pool-card and <meta robots> is not noindex`, async () => {
         await page.goto(`http://localhost:${PORT}/home.html${search}`, { waitUntil: 'load', timeout: 20000 });

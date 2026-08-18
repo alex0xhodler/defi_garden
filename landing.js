@@ -204,7 +204,20 @@
     var menuState = useState(false);
     var menuOpen = menuState[0];
     var setMenuOpen = menuState[1];
+    var scrollState = useState(false);
+    var isScrolled = scrollState[0];
+    var setIsScrolled = scrollState[1];
     var copy = getCopy(language);
+
+    useEffect(function () {
+      function onScroll() {
+        var scrolled = window.scrollY > 4;
+        setIsScrolled(function (prev) { return prev !== scrolled ? scrolled : prev; });
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+      return function () { window.removeEventListener('scroll', onScroll); };
+    }, []);
 
     var savedPlanState = useState(readSavedPlan);
     var savedPlan = savedPlanState[0];
@@ -277,7 +290,7 @@
         e('span', { className: 'landing-backdrop-dot landing-backdrop-dot-two' })
       ),
 
-      e('header', { className: 'landing-header landing-reveal landing-reveal-one' },
+      e('header', { className: 'landing-header landing-reveal landing-reveal-one' + (isScrolled ? ' is-scrolled' : '') },
         e('a', { className: 'landing-brand', href: '/', 'aria-label': copy.navSearch },
           e('span', { className: 'landing-brand-mark' }, e(LeafMark)),
           e('span', null, 'DeFi Garden')

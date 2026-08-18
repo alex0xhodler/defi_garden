@@ -109,7 +109,9 @@
   width: 100%;
   margin: 0 auto;
   gap: var(--space-16);
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 /* Full-bleed band: the row above stays inset to the planner's shared content
@@ -129,6 +131,12 @@
   border-bottom: 1px solid var(--ui-border);
   z-index: -1;
   pointer-events: none;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.gp-header.is-scrolled::before {
+  box-shadow: var(--ui-shadow-overlay);
+  border-bottom-color: var(--ui-border-strong);
 }
 
 /* Brand identity — the landing's tile + wordmark recipe (.landing-brand). */

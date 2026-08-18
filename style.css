@@ -1536,6 +1536,13 @@ body {
   border-bottom: 1px solid var(--ui-border);
   box-shadow: none;
   overflow: visible;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.app-header-sticky.is-scrolled,
+.app-header-sticky.header--scrolled {
+  box-shadow: var(--ui-shadow-overlay);
+  border-bottom-color: var(--ui-border-strong);
 }
 
 /* Navigation row - part of the header */
