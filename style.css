@@ -7014,17 +7014,31 @@ a.hub-cta:active {
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--color-background, #0f1411);
+    background: rgba(15, 20, 17, 0.96);
+    backdrop-filter: blur(28px) saturate(180%);
+    -webkit-backdrop-filter: blur(28px);
     border-top: 1px solid var(--ui-border-strong, rgba(255, 255, 255, 0.16));
     border-radius: 4px 4px 0 0;
-    box-shadow: 0 -16px 45px rgba(0, 0, 0, 0.85);
+    box-shadow: 0 -20px 50px rgba(0, 0, 0, 0.9), 0 -2px 10px rgba(0, 0, 0, 0.5);
     z-index: 1000;
     transition: height 0.36s cubic-bezier(0.16, 1, 0.3, 1);
-    padding-bottom: env(safe-area-inset-bottom, 12px);
+    padding-bottom: max(env(safe-area-inset-bottom, 16px), 16px);
+  }
+
+  /* Permanent bottom underlay to seal the home indicator / overscroll zone */
+  .mobile-spatial-drawer::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -150px;
+    height: 150px;
+    background: #0f1411;
+    pointer-events: none;
   }
 
   .mobile-spatial-drawer.stage-peek {
-    height: calc(118px + env(safe-area-inset-bottom, 0px));
+    height: calc(126px + env(safe-area-inset-bottom, 16px));
   }
 
   .mobile-spatial-drawer.stage-half {
