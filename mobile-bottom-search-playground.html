@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Smart Omnibar with Spatial Depth — DeFi Garden</title>
+<style>
+  :root {
+    --bg-deep: #080c0a;
+    --bg-app: #0d1310;
+    --surface-card: #131b16;
+    --surface-elevated: #1a251e;
+    --surface-input: #0a0f0c;
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-active: rgba(46, 213, 115, 0.4);
+    --accent: #2ed573;
+    --accent-glow: rgba(46, 213, 115, 0.25);
+    --accent-soft: rgba(46, 213, 115, 0.12);
+    --text-main: #f1f5f2;
+    --text-muted: #8b9b92;
+    --text-dim: #5a6860;
+    --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    --mono: "SF Mono", "Fira Code", monospace;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background: var(--bg-deep);
+    color: var(--text-main);
+    font-family: var(--font);
+    display: flex;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .playground-root {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  /* Left: Phone Simulator Stage */
+  .stage-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 24px;
+    background: radial-gradient(circle at center 20%, #16241c 0%, var(--bg-deep) 75%);
+  }
+
+  .stage-header {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .stage-header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .stage-header p {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  /* Phone Mockup Frame */
+  .phone-frame {
+    width: 390px;
+    height: 800px;
+    background: var(--bg-app);
+    border-radius: 48px;
+    border: 9px solid #232b26;
+    box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.08), inset 0 0 0 2px #000;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Dynamic Island & Status Bar */
+  .phone-status-bar {
+    height: 44px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-main);
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+  }
+
+  .phone-island {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+    height: 28px;
+    background: #000;
+    border-radius: 20px;
+    z-index: 101;
+  }
+
+  /* Scrollable Screen Content */
+  .phone-screen {
+    flex: 1;
+    overflow-y: auto;
+    padding: 54px 16px 160px 16px;
+    position: relative;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .phone-screen::-webkit-scrollbar { display: none; }
+
+  /* App Minimal Top Bar */
+  .phone-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0 16px 0;
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: 16px;
+  }
+
+  .brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+
+  .brand-logo svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--accent);
+  }
+
+  .top-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .pill-chip {
+    background: var(--surface-card);
+    border: 1px solid var(--border-subtle);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  /* Query Context Header */
+  .query-hero {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .query-hero-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+
+  .query-hero-count {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  /* Yield Cards */
+  .pool-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .pool-item {
+    background: var(--surface-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 16px;
+    padding: 14px;
+    transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+    position: relative;
+    cursor: pointer;
+  }
+
+  .pool-item:hover, .pool-item:active {
+    background: var(--surface-elevated);
+    border-color: rgba(46, 213, 115, 0.3);
+    transform: translateY(-1px);
+  }
+
+  .pool-item-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pool-token-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .token-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #233128;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 13px;
+    color: var(--accent);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .token-info-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+
+  .token-info-sub {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 1px;
+  }
+
+  .pool-apy-col {
+    text-align: right;
+  }
+
+  .pool-apy-value {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: -0.01em;
+  }
+
+  .pool-apy-sub {
+    font-size: 10px;
+    color: var(--text-muted);
+  }
+
+  .pool-item-bottom {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .pool-tag {
+    background: rgba(255, 255, 255, 0.04);
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-size: 10px;
+    color: var(--text-muted);
+  }
+
+  /* Home Indicator Bar */
+  .home-indicator {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 134px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+    z-index: 999;
+    pointer-events: none;
+  }
+
+  /* Backdrop Blur Overlay */
+  .sheet-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 490;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.35s ease;
+  }
+
+  .sheet-backdrop.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* ============================================================
+     THE HYBRID: SMART OMNIBAR WITH 3-STAGE SPATIAL DRAWER DEPTH
+     ============================================================ */
+
+  .spatial-drawer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, #16211a 0%, #0e1511 100%);
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 32px 32px 0 0;
+    box-shadow: 0 -18px 45px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(46, 213, 115, 0.1);
+    z-index: 500;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), height 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Stage 1: Peek Omnibar (Resting) */
+  .spatial-drawer.stage-peek {
+    height: 128px;
+    transform: translateY(0);
+  }
+
+  /* Stage 2: Half Sheet (Curated Lenses & Chains) */
+  .spatial-drawer.stage-half {
+    height: 480px;
+    transform: translateY(0);
+  }
+
+  /* Stage 3: Full Sheet (Deep Discovery Omnisearch) */
+  .spatial-drawer.stage-full {
+    height: 720px;
+    transform: translateY(0);
+  }
+
+  /* Drag Handle Area */
+  .drawer-handle-zone {
+    padding: 10px 0 4px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: grab;
+    user-select: none;
+  }
+
+  .drawer-handle-bar {
+    width: 44px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+  }
+
+  .drawer-handle-zone:hover .drawer-handle-bar {
+    background: var(--accent);
+    width: 52px;
+  }
+
+  /* Omnibar Header Row (Always in View) */
+  .omnibar-header-row {
+    padding: 6px 16px 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* Smart Lens Horizontal Chip Stream */
+  .smart-lens-stream {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 2px;
+  }
+  .smart-lens-stream::-webkit-scrollbar { display: none; }
+
+  .lens-chip {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 5px 10px;
+    border-radius: 14px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-muted);
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .lens-chip:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+  }
+
+  .lens-chip.active {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-color: var(--border-active);
+    box-shadow: 0 0 12px var(--accent-glow);
+  }
+
+  /* Omnibar Input Box */
+  .omnibar-input-box {
+    background: var(--surface-input);
+    border: 1px solid var(--border-subtle);
+    border-radius: 18px;
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.4);
+    transition: all 0.2s ease;
+  }
+
+  .omnibar-input-box:focus-within {
+    border-color: var(--border-active);
+    box-shadow: 0 0 15px var(--accent-glow), inset 0 2px 4px rgba(0,0,0,0.4);
+  }
+
+  .sparkle-icon {
+    color: var(--accent);
+    font-size: 14px;
+    animation: sparkleGlow 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes sparkleGlow {
+    0% { transform: scale(1); opacity: 0.8; }
+    100% { transform: scale(1.15); opacity: 1; filter: drop-shadow(0 0 4px var(--accent)); }
+  }
+
+  .omnibar-input-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-main);
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .omnibar-input-box input::placeholder {
+    color: var(--text-muted);
+  }
+
+  .quick-depth-indicator {
+    font-size: 10px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-muted);
+    padding: 2px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  /* ============================================================
+     DRAWER BODY CONTENT (Revealed in Half & Full Stages)
+     ============================================================ */
+
+  .drawer-body-scroll {
+    flex: 1;
+    overflow-y: auto;
+    padding: 8px 16px 100px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .drawer-body-scroll::-webkit-scrollbar { display: none; }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Quick Token Chips */
+  .quick-token-row {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .token-chip {
+    background: var(--surface-card);
+    border: 1px solid var(--border-subtle);
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-main);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .token-chip:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .token-chip.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+  }
+
+  /* Chain Matrix Grid */
+  .chain-matrix-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .chain-matrix-card {
+    background: var(--surface-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 14px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .chain-matrix-card:hover {
+    background: var(--surface-elevated);
+    border-color: rgba(255,255,255,0.15);
+  }
+
+  .chain-matrix-card.active {
+    background: #17261d;
+    border-color: var(--accent);
+  }
+
+  .chain-card-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+
+  .chain-card-tvl {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  /* Sort Control Segment */
+  .sort-segment-row {
+    display: flex;
+    background: var(--surface-input);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 3px;
+    gap: 4px;
+  }
+
+  .sort-segment-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 4px;
+    border-radius: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    transition: all 0.2s ease;
+  }
+
+  .sort-segment-btn.active {
+    background: var(--surface-elevated);
+    color: var(--text-main);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  /* Full Stage Deep Filters */
+  .deep-filter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .slider-box {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .slider-box input[type="range"] {
+    accent-color: var(--accent);
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .slider-value-display {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  /* Floating Sticky Apply Bar */
+  .drawer-apply-bar {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    right: 16px;
+    background: var(--accent);
+    color: #000;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+    border-radius: 18px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px var(--accent-glow);
+    transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 550;
+  }
+
+  .drawer-apply-bar:active {
+    transform: scale(0.97);
+  }
+
+  /* Right Side: Interactive Controls Sidebar */
+  .sidebar-area {
+    width: 440px;
+    background: #0b100d;
+    border-left: 1px solid var(--border-subtle);
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    overflow-y: auto;
+  }
+
+  .sidebar-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+
+  .depth-stage-selector {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 24px;
+  }
+
+  .depth-stage-btn {
+    flex: 1;
+    background: var(--surface-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 10px;
+    padding: 10px 6px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-muted);
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+
+  .depth-stage-btn:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--text-main);
+  }
+
+  .depth-stage-btn.active {
+    background: var(--accent);
+    color: #000;
+    border-color: var(--accent);
+  }
+
+  /* Philosophy Breakdown Cards */
+  .philosophy-box {
+    background: var(--surface-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .philosophy-item {
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--text-muted);
+  }
+
+  .philosophy-item strong {
+    color: var(--text-main);
+  }
+
+  .spec-box {
+    background: #060907;
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 14px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: #a3b8ad;
+    line-height: 1.6;
+    margin-top: auto;
+  }
+
+  .spec-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  .copy-btn {
+    background: var(--accent);
+    color: #000;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 11px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="playground-root">
+
+  <!-- Left Side: Interactive Phone Stage -->
+  <div class="stage-area">
+    <div class="stage-header">
+      <h1>Smart Omnibar + Spatial Drawer Depth</h1>
+      <p>Paradigm 5 (Ambient AI Lenses) married with Paradigm 4 (3-Stage Spatial Depth)</p>
+    </div>
+
+    <!-- Phone Simulator Frame -->
+    <div class="phone-frame" id="phoneMockup">
+      <!-- Status bar & Dynamic Island -->
+      <div class="phone-status-bar">
+        <span>9:41</span>
+        <div class="phone-island"></div>
+        <span>5G 100%</span>
+      </div>
+
+      <!-- Backdrop Overlay -->
+      <div class="sheet-backdrop" id="sheetBackdrop" onclick="setDrawerStage('peek')"></div>
+
+      <!-- Main Screen Content -->
+      <div class="phone-screen" id="phoneScreen">
+        <!-- Minimal Top Nav -->
+        <div class="phone-top-bar">
+          <div class="brand-logo">
+            <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+            DeFi Garden
+          </div>
+          <div class="top-actions">
+            <span class="pill-chip" id="activeSortBadge">Sort: TVL ⬇</span>
+          </div>
+        </div>
+
+        <!-- Query Hero -->
+        <div class="query-hero">
+          <div>
+            <div class="query-hero-title" id="queryTitle">All Verified Yields</div>
+            <div class="query-hero-count" id="queryCount">Showing 9 pools matching lens</div>
+          </div>
+        </div>
+
+        <!-- Pool Card List -->
+        <div class="pool-card-list" id="poolListContainer">
+          <!-- Dynamic cards rendered via JS -->
+        </div>
+      </div>
+
+      <!-- =========================================================
+           THE SMART OMNIBAR + 3-STAGE SPATIAL DRAWER
+           ========================================================= -->
+      <div class="spatial-drawer stage-peek" id="spatialDrawer">
+        <!-- Drag Handle -->
+        <div class="drawer-handle-zone" onclick="cycleDrawerStage()">
+          <div class="drawer-handle-bar"></div>
+        </div>
+
+        <!-- Omnibar Header Row (Visible in all stages) -->
+        <div class="omnibar-header-row">
+          <!-- Smart Lens Stream -->
+          <div class="smart-lens-stream">
+            <span class="lens-chip active" onclick="applySmartLens('all', this)">✦ All Yields</span>
+            <span class="lens-chip" onclick="applySmartLens('stables', this)">🛡 Stables > 4%</span>
+            <span class="lens-chip" onclick="applySmartLens('high_yield', this)">🔥 High APY > 8%</span>
+            <span class="lens-chip" onclick="applySmartLens('base_l2', this)">⚡ Base & L2s</span>
+            <span class="lens-chip" onclick="applySmartLens('lst', this)">💎 Liquid Staking</span>
+            <span class="lens-chip" onclick="applySmartLens('rwa', this)">🏛 Real World Assets</span>
+          </div>
+
+          <!-- Omnibar Search Bar -->
+          <div class="omnibar-input-box" onclick="if(currentStage==='peek') setDrawerStage('half')">
+            <span class="sparkle-icon">✦</span>
+            <input type="text" id="omniInput" placeholder="Ask DeFi Garden or type token..." oninput="handleSearch(this.value)">
+            <span class="quick-depth-indicator" id="stageBadge" onclick="cycleDrawerStage()">PEEK ▴</span>
+          </div>
+        </div>
+
+        <!-- Drawer Body Content (Revealed in Half & Full Depth) -->
+        <div class="drawer-body-scroll">
+          <!-- Quick Token Selection -->
+          <div>
+            <div class="section-label">
+              <span>Quick Token Focus</span>
+              <span style="color:var(--accent); font-size:10px; cursor:pointer;" onclick="filterToken('All')">Clear</span>
+            </div>
+            <div class="quick-token-row">
+              <span class="token-chip active" onclick="filterToken('All', this)">All</span>
+              <span class="token-chip" onclick="filterToken('USDC', this)">USDC</span>
+              <span class="token-chip" onclick="filterToken('ETH', this)">ETH</span>
+              <span class="token-chip" onclick="filterToken('SOL', this)">SOL</span>
+              <span class="token-chip" onclick="filterToken('sUSDe', this)">sUSDe</span>
+              <span class="token-chip" onclick="filterToken('cbETH', this)">cbETH</span>
+            </div>
+          </div>
+
+          <!-- Chain Matrix Cards -->
+          <div>
+            <div class="section-label">
+              <span>Chain Ecosystem</span>
+              <span style="color:var(--text-muted); font-size:10px;">Select to narrow</span>
+            </div>
+            <div class="chain-matrix-grid">
+              <div class="chain-matrix-card active" onclick="filterChain('All', this)">
+                <span class="chain-card-name">🌐 All Chains</span>
+                <span class="chain-card-tvl">$6.8B</span>
+              </div>
+              <div class="chain-matrix-card" onclick="filterChain('Ethereum', this)">
+                <span class="chain-card-name">Ethereum</span>
+                <span class="chain-card-tvl">$2.6B</span>
+              </div>
+              <div class="chain-matrix-card" onclick="filterChain('Arbitrum', this)">
+                <span class="chain-card-name">Arbitrum</span>
+                <span class="chain-card-tvl">$1.2B</span>
+              </div>
+              <div class="chain-matrix-card" onclick="filterChain('Base', this)">
+                <span class="chain-card-name">Base</span>
+                <span class="chain-card-tvl">$840M</span>
+              </div>
+              <div class="chain-matrix-card" onclick="filterChain('Solana', this)">
+                <span class="chain-card-name">Solana</span>
+                <span class="chain-card-tvl">$620M</span>
+              </div>
+              <div class="chain-matrix-card" onclick="filterChain('Avalanche', this)">
+                <span class="chain-card-name">Avalanche</span>
+                <span class="chain-card-tvl">$261M</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sort Segmented Choices -->
+          <div>
+            <div class="section-label">Primary Sort Metric</div>
+            <div class="sort-segment-row">
+              <button class="sort-segment-btn active" onclick="setSort('tvl', this)">≡ TVL Floor</button>
+              <button class="sort-segment-btn" onclick="setSort('apy', this)">% Highest APY</button>
+              <button class="sort-segment-btn" onclick="setSort('sharpe', this)">🛡 Sharpe / Risk</button>
+            </div>
+          </div>
+
+          <!-- Deep Filters Section (Stage 3 Full Depth) -->
+          <div class="deep-filter-section">
+            <div class="section-label">Minimum APY Filter</div>
+            <div class="slider-box">
+              <input type="range" min="0" max="15" step="0.5" value="0" id="apySlider" oninput="handleApySlider(this.value)">
+              <div class="slider-value-display">
+                <span>0% Floor</span>
+                <span id="sliderValText" style="color:var(--accent); font-weight:700;">Any APY</span>
+                <span>15%+</span>
+              </div>
+            </div>
+
+            <div class="section-label" style="margin-top:8px;">Protocol Directory</div>
+            <div class="quick-token-row">
+              <span class="token-chip" onclick="handleSearch('Morpho')">Morpho Blue</span>
+              <span class="token-chip" onclick="handleSearch('Maple')">Maple</span>
+              <span class="token-chip" onclick="handleSearch('Aerodrome')">Aerodrome</span>
+              <span class="token-chip" onclick="handleSearch('Jupiter')">Jupiter Lend</span>
+              <span class="token-chip" onclick="handleSearch('Centrifuge')">Centrifuge</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sticky Floating Apply Action Bar (When in Half/Full) -->
+        <button class="drawer-apply-bar" id="drawerApplyBtn" style="display:none;" onclick="setDrawerStage('peek')">
+          Apply Filters (<span id="btnPoolCount">9</span> Pools Found) →
+        </button>
+      </div>
+
+      <!-- iOS Home Indicator -->
+      <div class="home-indicator"></div>
+    </div>
+  </div>
+
+  <!-- Right Side: Prototype Controls, Philosophy & Spec Exporter -->
+  <div class="sidebar-area">
+    <div class="sidebar-title">Drawer Depth Stage</div>
+
+    <div class="depth-stage-selector">
+      <button class="depth-stage-btn active" id="btnStagePeek" onclick="setDrawerStage('peek')">1. Peek (Resting)</button>
+      <button class="depth-stage-btn" id="btnStageHalf" onclick="setDrawerStage('half')">2. Half (Curated)</button>
+      <button class="depth-stage-btn" id="btnStageFull" onclick="setDrawerStage('full')">3. Full (Deep)</button>
+    </div>
+
+    <div class="sidebar-title">Why This Hybrid Sticks</div>
+    <div class="philosophy-box">
+      <div class="philosophy-item">
+        <strong>1. Progressive Disclosure (Depth without Clutter):</strong>
+        At rest, the omnibar takes only 128px at the bottom. Users get 1-tap Smart Lenses immediately without opening any menus.
+      </div>
+      <div class="philosophy-item">
+        <strong>2. Spatial Muscle Memory (Maps Paradigm):</strong>
+        Pulling up feels physical and predictable. Half stage reveals curated chains & tokens; full stage reveals sliders and protocol directories.
+      </div>
+      <div class="philosophy-item">
+        <strong>3. Smart Lenses > Raw Filters:</strong>
+        Instead of forcing users to configure 4 dropdowns, 1 tap on <em>"🛡 Stables > 4%"</em> or <em>"⚡ Base & L2s"</em> instantly scopes the entire feed.
+      </div>
+    </div>
+
+    <!-- Generated Spec for Claude -->
+    <div class="spec-box">
+      <div class="spec-header">
+        <strong>GENERATED SPEC FOR IMPLEMENTATION</strong>
+        <button class="copy-btn" onclick="copySpec()">Copy Spec</button>
+      </div>
+      <div id="specContent">
+        Implement Smart Omnibar + Spatial 3-Stage Drawer on mobile:
+        - Stage 1 (Peek / 128px): Luminous floating glass omnibar with horizontal Smart Lenses stream (✦ All, 🛡 Stables > 4%, 🔥 High APY, ⚡ Base L2s) + natural language input.
+        - Stage 2 (Half / 480px): Spatial drawer revealing Quick Token chips, Chain Matrix cards ($TVL badges), and Segmented Sort choices.
+        - Stage 3 (Full / 720px): Deep discovery with APY range slider, protocol directory, and sticky "Apply Filters (N Pools)" CTA bar.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const POOLS_DATA = [
+    { name: 'USDC', protocol: 'Maple Finance', chain: 'Ethereum', apy: 4.81, tvl: '$2.6B', cat: 'Lending', daily: '$0.13/day' },
+    { name: 'STEAKUSDC', protocol: 'Morpho Blue', chain: 'Base', apy: 4.12, tvl: '$584.5M', cat: 'Lending', daily: '$0.11/day' },
+    { name: 'USDC', protocol: 'Jupiter Lend', chain: 'Solana', apy: 4.36, tvl: '$440.9M', cat: 'Lending', daily: '$0.12/day' },
+    { name: 'GTUSDCP', protocol: 'Morpho Blue', chain: 'Base', apy: 4.12, tvl: '$428.9M', cat: 'Lending', daily: '$0.11/day' },
+    { name: 'SIRLOINUSDC', protocol: 'Morpho Blue', chain: 'Base', apy: 5.65, tvl: '$322.0M', cat: 'Lending', daily: '$0.15/day' },
+    { name: 'USDC', protocol: 'Spark Savings', chain: 'Ethereum', apy: 3.52, tvl: '$270.5M', cat: 'Lending', daily: '$0.10/day' },
+    { name: 'USDC', protocol: 'Centrifuge', chain: 'Avalanche', apy: 5.10, tvl: '$261.3M', cat: 'RWA', daily: '$0.14/day' },
+    { name: 'cbETH / ETH', protocol: 'Aerodrome', chain: 'Base', apy: 8.45, tvl: '$190.2M', cat: 'LP/DEX', daily: '$0.23/day' },
+    { name: 'sUSDe', protocol: 'Ethena', chain: 'Ethereum', apy: 12.80, tvl: '$1.4B', cat: 'Staking', daily: '$0.35/day' }
+  ];
+
+  let currentCategory = 'All';
+  let currentChain = 'All';
+  let currentToken = 'All';
+  let minApy = 0;
+  let searchQuery = '';
+  let activeSort = 'tvl';
+  let currentStage = 'peek'; // 'peek', 'half', 'full'
+
+  function renderPools() {
+    const container = document.getElementById('poolListContainer');
+    let filtered = POOLS_DATA.filter(p => {
+      const matchCat = currentCategory === 'All' || p.cat === currentCategory;
+      const matchChain = currentChain === 'All' || p.chain === currentChain;
+      const matchToken = currentToken === 'All' || p.name.includes(currentToken);
+      const matchApy = p.apy >= minApy;
+      const matchQuery = !searchQuery || 
+        p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+        p.protocol.toLowerCase().includes(searchQuery.toLowerCase()) || 
+        p.chain.toLowerCase().includes(searchQuery.toLowerCase());
+      return matchCat && matchChain && matchToken && matchApy && matchQuery;
+    });
+
+    if (activeSort === 'apy') filtered.sort((a,b) => b.apy - a.apy);
+    else if (activeSort === 'tvl') filtered.sort((a,b) => parseFloat(b.tvl.replace(/[^0-9.]/g,'')) - parseFloat(a.tvl.replace(/[^0-9.]/g,'')));
+
+    document.getElementById('queryCount').textContent = `Showing ${filtered.length} pools matching lens`;
+    document.getElementById('btnPoolCount').textContent = filtered.length;
+    document.getElementById('queryTitle').textContent = searchQuery ? `Yields for "${searchQuery}"` : (currentCategory === 'All' ? (currentChain === 'All' ? 'All Verified Yields' : `${currentChain} Yields`) : `${currentCategory} Yields`);
+
+    container.innerHTML = filtered.map(p => `
+      <div class="pool-item">
+        <div class="pool-item-top">
+          <div class="pool-token-group">
+            <div class="token-avatar">${p.name.substring(0, 2)}</div>
+            <div>
+              <div class="token-info-name">${p.name}</div>
+              <div class="token-info-sub">${p.protocol} · ${p.chain}</div>
+            </div>
+          </div>
+          <div class="pool-apy-col">
+            <div class="pool-apy-value">${p.apy.toFixed(2)}%</div>
+            <div class="pool-apy-sub">${p.daily}</div>
+          </div>
+        </div>
+        <div class="pool-item-bottom">
+          <span>TVL <strong>${p.tvl}</strong></span>
+          <span class="pool-tag">${p.cat}</span>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function handleSearch(val) {
+    searchQuery = val;
+    document.getElementById('omniInput').value = val;
+    renderPools();
+  }
+
+  function filterToken(tok, el) {
+    currentToken = tok;
+    document.querySelectorAll('.token-chip').forEach(c => c.classList.remove('active'));
+    if (el) el.classList.add('active');
+    renderPools();
+  }
+
+  function filterChain(chain, el) {
+    currentChain = chain;
+    document.querySelectorAll('.chain-matrix-card').forEach(c => c.classList.remove('active'));
+    if (el) el.classList.add('active');
+    renderPools();
+  }
+
+  function setSort(metric, el) {
+    activeSort = metric;
+    document.querySelectorAll('.sort-segment-btn').forEach(b => b.classList.remove('active'));
+    if (el) el.classList.add('active');
+    document.getElementById('activeSortBadge').textContent = `Sort: ${metric.toUpperCase()} ⬇`;
+    renderPools();
+  }
+
+  function handleApySlider(val) {
+    minApy = parseFloat(val);
+    document.getElementById('sliderValText').textContent = minApy > 0 ? `≥ ${minApy}% APY` : 'Any APY';
+    renderPools();
+  }
+
+  function applySmartLens(type, el) {
+    document.querySelectorAll('.lens-chip').forEach(c => c.classList.remove('active'));
+    if (el) el.classList.add('active');
+
+    // Reset base filters
+    currentCategory = 'All';
+    currentChain = 'All';
+    currentToken = 'All';
+    minApy = 0;
+    searchQuery = '';
+    document.getElementById('omniInput').value = '';
+
+    if (type === 'stables') {
+      currentCategory = 'Lending';
+      currentToken = 'USDC';
+      minApy = 4.0;
+    } else if (type === 'high_yield') {
+      minApy = 8.0;
+      activeSort = 'apy';
+    } else if (type === 'base_l2') {
+      currentChain = 'Base';
+    } else if (type === 'lst') {
+      currentCategory = 'Staking';
+    } else if (type === 'rwa') {
+      currentCategory = 'RWA';
+    }
+
+    renderPools();
+  }
+
+  function setDrawerStage(stage) {
+    currentStage = stage;
+    const drawer = document.getElementById('spatialDrawer');
+    const backdrop = document.getElementById('sheetBackdrop');
+    const applyBtn = document.getElementById('drawerApplyBtn');
+    const badge = document.getElementById('stageBadge');
+
+    drawer.className = `spatial-drawer stage-${stage}`;
+    backdrop.className = stage === 'peek' ? 'sheet-backdrop' : 'sheet-backdrop show';
+    applyBtn.style.display = stage === 'peek' ? 'none' : 'flex';
+
+    if (stage === 'peek') badge.textContent = 'PEEK ▴';
+    else if (stage === 'half') badge.textContent = 'HALF ▴';
+    else badge.textContent = 'FULL ▾';
+
+    document.querySelectorAll('.depth-stage-btn').forEach(b => b.classList.remove('active'));
+    if (stage === 'peek') document.getElementById('btnStagePeek').classList.add('active');
+    else if (stage === 'half') document.getElementById('btnStageHalf').classList.add('active');
+    else document.getElementById('btnStageFull').classList.add('active');
+  }
+
+  function cycleDrawerStage() {
+    if (currentStage === 'peek') setDrawerStage('half');
+    else if (currentStage === 'half') setDrawerStage('full');
+    else setDrawerStage('peek');
+  }
+
+  function copySpec() {
+    const text = document.getElementById('specContent').innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.querySelector('.copy-btn');
+      btn.innerText = 'Copied!';
+      setTimeout(() => btn.innerText = 'Copy Spec', 1500);
+    });
+  }
+
+  // Initial render
+  renderPools();
+</script>
+
+</body>
+</html>
