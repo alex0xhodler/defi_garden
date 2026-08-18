@@ -1,10 +1,10 @@
 # YZPRIME 디파이 수익률
 
-현재 YZPRIME의 가장 높은 정직한 수익률은 Monad의 yuzu-money에서 6.96%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 YZPRIME의 가장 높은 정직한 수익률은 Monad의 yuzu-money에서 6.97%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=18147bfe-ee41-4762-9a95-c0ff28215798&src=seo_token) | Monad | 6.96% | $7.66M |
+| [yuzu-money →](https://www.defi.garden/?pool=18147bfe-ee41-4762-9a95-c0ff28215798&src=seo_token) | Monad | 6.97% | $7.66M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 YZPRIME의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 yuzu-money에서 APY 6.96%예요.
+DefiLlama 실시간 데이터 기준, Monad의 yuzu-money에서 APY 6.97%예요.
 
 ### YZPRIME 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Monad의 yuzu-money에서 APY 6.96%예요.
 
 ## 관련 토큰
 
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [AUSD](https://www.defi.garden/ko/tokens/ausd)
-- [BTC](https://www.defi.garden/ko/tokens/btc)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026

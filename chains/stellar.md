@@ -4,14 +4,14 @@ The highest honest Stellar yield right now is 10.00% on gami-labs (Stellar), amo
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_chain) | 3.55% | $534.4M |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_chain) | 0.06% | $120.74M |
-| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_chain) | 10.00% | $21.49M |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf&src=seo_chain) | 6.49% | $14.5M |
-| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_chain) | 5.00% | $2.66M |
-| EURC | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_chain) | 4.62% | $858.6K |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_chain) | 0.50% | $643.6K |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=48c597dc-9367-4b4a-aa10-49b9755c4c2e&src=seo_chain) | 6.29% | $134.6K |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_chain) | 3.55% | $534.45M |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_chain) | 0.06% | $120.29M |
+| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_chain) | 10.00% | $22.43M |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf&src=seo_chain) | 6.38% | $15.1M |
+| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_chain) | 5.00% | $3.17M |
+| EURC | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_chain) | 4.61% | $857K |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_chain) | 0.99% | $327.6K |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=48c597dc-9367-4b4a-aa10-49b9755c4c2e&src=seo_chain) | 6.07% | $139.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Stellar pools clear the TVL floor?
 
-8 live pools clear this page's $100K TVL floor, $695.43M in total.
+8 live pools clear this page's $100K TVL floor, $696.76M in total.
 
 ### Are these rates safe?
 
@@ -33,8 +33,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [BSC](https://www.defi.garden/chains/bsc)
 - [Base](https://www.defi.garden/chains/base)
+- [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
@@ -47,4 +47,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [EARNXLM](https://www.defi.garden/tokens/earnxlm)
 - [EURC](https://www.defi.garden/tokens/eurc)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

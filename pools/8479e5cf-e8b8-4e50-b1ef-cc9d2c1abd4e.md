@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on nest-credit](https://nest.credit/?ref=defi.garden)
 
-Last updated August 17, 2026
+Last updated August 18, 2026

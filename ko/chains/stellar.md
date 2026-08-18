@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_chain) | 3.55% | $534.4M |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_chain) | 0.06% | $120.74M |
-| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_chain) | 10.00% | $21.49M |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf&src=seo_chain) | 6.49% | $14.5M |
-| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_chain) | 5.00% | $2.66M |
-| EURC | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_chain) | 4.62% | $858.6K |
-| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_chain) | 0.50% | $643.6K |
-| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=48c597dc-9367-4b4a-aa10-49b9755c4c2e&src=seo_chain) | 6.29% | $134.6K |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=a66e2d12-188b-407d-aaec-d95640e08ef7&src=seo_chain) | 3.55% | $534.45M |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_chain) | 0.06% | $120.29M |
+| EARNUSDC | [gami-labs →](https://www.defi.garden/?pool=038cb9c0-814d-41cc-ac43-b4fefd95da53&src=seo_chain) | 10.00% | $22.43M |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf&src=seo_chain) | 6.38% | $15.1M |
+| EARNXLM | [gami-labs →](https://www.defi.garden/?pool=879fac16-fff2-4985-b516-366eeb9c0c6c&src=seo_chain) | 5.00% | $3.17M |
+| EURC | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_chain) | 4.61% | $857K |
+| XLM | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_chain) | 0.99% | $327.6K |
+| USDC | [blend-pools-v2 →](https://www.defi.garden/?pool=48c597dc-9367-4b4a-aa10-49b9755c4c2e&src=seo_chain) | 6.07% | $139.7K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 10.00%예�
 
 ### Stellar 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $695.43M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $696.76M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,8 +33,8 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 10.00%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
-- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Base](https://www.defi.garden/ko/chains/base)
+- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
@@ -47,4 +47,4 @@ DefiLlama 실시간 데이터 기준, Stellar의 gami-labs에서 APY 10.00%예�
 - [EARNXLM](https://www.defi.garden/ko/tokens/earnxlm)
 - [EURC](https://www.defi.garden/ko/tokens/eurc)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026

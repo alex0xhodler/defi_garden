@@ -4,18 +4,18 @@ The highest honest LST yield right now is 5.23% on marginfi-lst (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.23% | $7.46M |
-| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.3M |
+| [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.23% | $7.49M |
+| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.31M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LST's lower-variability candidates are project-0 (Solana), 0.01% APY, $2.3M TVL, https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token; marginfi-lst (Solana), 5.23% APY, $7.46M TVL, https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LST's lower-variability candidates are project-0 (Solana), 0.01% APY, $2.31M TVL, https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token; marginfi-lst (Solana), 5.23% APY, $7.49M TVL, https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.3M |
-| 2 | [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.23% | $7.46M |
+| 1 | [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.31M |
+| 2 | [marginfi-lst →](https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token) | Solana | 5.23% | $7.49M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| marginfi-lst | 5.23% | 5.51% | Base rate |
+| marginfi-lst | 5.23% | 5.50% | Base rate |
 | project-0 | 0.01% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.76M in total.
+2 live pools clear this page's $100K TVL floor, $9.8M in total.
 
 ### Are these rates safe?
 
@@ -50,19 +50,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LST pools have the most stable APY history?
 
-Based on APY history only, LST's lower-variability candidates are project-0 (Solana), 0.01% APY, $2.3M TVL, https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token; marginfi-lst (Solana), 5.23% APY, $7.46M TVL, https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LST's lower-variability candidates are project-0 (Solana), 0.01% APY, $2.31M TVL, https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token; marginfi-lst (Solana), 5.23% APY, $7.49M TVL, https://www.defi.garden/?pool=d17a8eb2-fcfd-4f02-b757-1f9122e9ca56&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

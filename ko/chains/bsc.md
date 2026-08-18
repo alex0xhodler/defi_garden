@@ -1,17 +1,17 @@
 # BSC 디파이 수익률
 
-현재 BSC의 가장 높은 정직한 수익률은 BSC의 blackrock-buidl에서 3.23%이며, $100K TVL 기준을 넘는 183개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BSC의 가장 높은 정직한 수익률은 BSC의 circle-usyc에서 3.27%이며, $100K TVL 기준을 넘는 183개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USYC | [circle-usyc →](https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_chain) | 2.96% | $2.91B |
-| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_chain) | 0.75% | $567.22M |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a&src=seo_chain) | 2.27% | $398.7M |
-| BNB | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_chain) | 0.08% | $294.61M |
-| BTCB | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_chain) | 0.19% | $277.28M |
-| WBNB | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_chain) | 0.21% | $237.93M |
-| USD1 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_chain) | 0.75% | $137.88M |
-| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_chain) | 3.23% | $111.01M |
+| USYC | [circle-usyc →](https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_chain) | 3.27% | $2.91B |
+| SLISBNB | [lista-liquid-staking →](https://www.defi.garden/?pool=50bb5f69-85ea-4f70-81da-3661a1633fc4&src=seo_chain) | 0.77% | $567.08M |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/?pool=566c64cb-c1ec-4027-bb67-1e9326d6d48a&src=seo_chain) | 2.27% | $400.18M |
+| BNB | [lista-lending →](https://www.defi.garden/?pool=e15db93c-9c49-490c-896d-24092b4d7471&src=seo_chain) | 0.08% | $294.67M |
+| BTCB | [venus-core-pool →](https://www.defi.garden/?pool=87c8ee0d-b812-47c1-803f-f91a3907079e&src=seo_chain) | 0.19% | $282.39M |
+| WBNB | [venus-core-pool →](https://www.defi.garden/?pool=747b58ab-aefd-42e1-a312-01ad5a0ab7f5&src=seo_chain) | 0.21% | $237.01M |
+| USD1 | [lista-lending →](https://www.defi.garden/?pool=d6fec854-4258-495b-95df-e4066214f41d&src=seo_chain) | 1.14% | $137.9M |
+| BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=55402b0b-af35-452b-b015-627b4233f0f1&src=seo_chain) | 3.26% | $111.05M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 BSC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, BSC의 blackrock-buidl에서 APY 3.23%예요.
+DefiLlama 실시간 데이터 기준, BSC의 circle-usyc에서 APY 3.27%예요.
 
 ### BSC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 183개이며, 합산 TVL은 $6.27B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 183개이며, 합산 TVL은 $6.28B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -49,4 +49,4 @@ DefiLlama 실시간 데이터 기준, BSC의 blackrock-buidl에서 APY 3.23%예�
 - [USD1](https://www.defi.garden/ko/tokens/usd1)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026

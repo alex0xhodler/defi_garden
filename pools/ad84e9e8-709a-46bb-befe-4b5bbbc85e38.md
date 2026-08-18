@@ -1,12 +1,12 @@
 # APVCHF — morpho-blue on Base
 
-**Total APY:** 0.10% (0.10% Base · + 0.00% Rewards)
+**Total APY:** 0.09% (0.09% Base · + 0.00% Rewards)
 
-**TVL:** $246.9K
+**TVL:** $246K
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 0.12%
+**30d Mean APY:** 0.13%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated August 17, 2026
+Last updated August 18, 2026

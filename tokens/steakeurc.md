@@ -5,35 +5,35 @@ The highest honest STEAKEURC yield right now is 3.38% on morpho-blue (Base), amo
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token) | Base | 3.38% | $3.31M |
-| [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.35% | $760.4K |
-| [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 2.44% | $654.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.35% | $770.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 2.43% | $653.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 3.35% APY, $760.4K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token; morpho-blue (Ethereum), 2.44% APY, $654.8K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token; morpho-blue (Base), 3.38% APY, $3.31M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 3.35% APY, $770.5K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token; morpho-blue (Ethereum), 2.43% APY, $653.7K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token; morpho-blue (Base), 3.38% APY, $3.31M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.35% | $760.4K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 2.44% | $654.8K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token) | Base | 3.35% | $770.5K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token) | Ethereum | 2.43% | $653.7K |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token) | Base | 3.38% | $3.31M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-STEAKEURC shows up in 3 pools here, with rates from 2.44% to 3.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+STEAKEURC shows up in 3 pools here, with rates from 2.43% to 3.38% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.89% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 3.87% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 3.38% | 3.92% | Base rate |
-| morpho-blue | 3.35% | 3.89% | Base rate |
-| morpho-blue | 2.44% | 3.27% | Base rate |
+| morpho-blue | 3.38% | 3.89% | Base rate |
+| morpho-blue | 3.35% | 3.87% | Base rate |
+| morpho-blue | 2.43% | 3.27% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STEAKEURC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.73M in total.
+3 live pools clear this page's $100K TVL floor, $4.74M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which STEAKEURC pools have the most stable APY history?
 
-Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 3.35% APY, $760.4K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token; morpho-blue (Ethereum), 2.44% APY, $654.8K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token; morpho-blue (Base), 3.38% APY, $3.31M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, STEAKEURC's lower-variability candidates are morpho-blue (Base), 3.35% APY, $770.5K TVL, https://www.defi.garden/?pool=cd35c563-0b37-47f6-a522-c7e5240b3f65&src=seo_token; morpho-blue (Ethereum), 2.43% APY, $653.7K TVL, https://www.defi.garden/?pool=b11815a0-6055-4a92-a161-531252383f26&src=seo_token; morpho-blue (Base), 3.38% APY, $3.31M TVL, https://www.defi.garden/?pool=e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, STEAKEURC's lower-variability candidates are morpho-b
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

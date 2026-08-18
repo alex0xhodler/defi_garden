@@ -66,4 +66,4 @@ Based on APY history only, HLSCOPE's lower-variability candidates are hamilton-l
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

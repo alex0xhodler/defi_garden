@@ -1,34 +1,37 @@
 # ETH-ESS — uniswap-v4 on Ethereum
 
-**Total APY:** 0.19% (0.19% Base · + 0.00% Rewards)
+**Total APY:** 12.74% (12.74% Base · + 0.00% Rewards)
 
-**TVL:** $166.1K
+**TVL:** $159.7K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 9.51%
+**30d Mean APY:** 9.74%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: Medium
+## Risk Assessment: High
 
-Moderate risk profile
+Advanced DeFi strategy
 
 - Low liquidity
+- Elevated yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,009 in 5y at current rates.
+$1,000 in this pool grows to ~$1,231 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.19% right now vs a 9.51% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+Projected at ⅓ haircut (12.74% headline) — farm rates decay. Active management required.
 
-[Garden this pool → ~$1,009 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
+
+[Garden this pool → ~$1,231 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v4](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 17, 2026
+Last updated August 18, 2026

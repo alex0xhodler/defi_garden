@@ -1,39 +1,39 @@
 # SUSDAI DeFi Yields
 
-The highest honest SUSDAI yield right now is 10.06% on pendle (Arbitrum), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUSDAI yield right now is 9.95% on pendle (Arbitrum), among 19 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.66% | $354.57M |
-| [fluid-dex →](https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token) | Arbitrum | 0.01% | $17.66M |
-| [pendle →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 10.06% | $11.93M |
-| [pendle →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.58% | $11.93M |
-| [pendle →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 8.81% | $1.52M |
-| [pendle →](https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token) | Arbitrum | 9.32% | $1.52M |
-| [curve-dex →](https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token) | Arbitrum | 4.84% | $1.4M |
+| [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.65% | $354.82M |
+| [fluid-dex →](https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token) | Arbitrum | 0.06% | $17.66M |
+| [pendle →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 9.95% | $11.93M |
+| [pendle →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.57% | $11.93M |
+| [pendle →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 8.81% | $1.54M |
+| [pendle →](https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token) | Arbitrum | 9.31% | $1.54M |
+| [curve-dex →](https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token) | Arbitrum | 4.95% | $1.4M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDAI's lower-variability candidates are pendle (Arbitrum), 9.32% APY, $1.52M TVL, https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token; pendle (Arbitrum), 10.06% APY, $11.93M TVL, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; usd-ai (Arbitrum), 7.66% APY, $354.57M TVL, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; pendle (Arbitrum), 8.58% APY, $11.93M TVL, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; fluid-dex (Arbitrum), 0.01% APY, $17.66M TVL, https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token; pendle (Arbitrum), 8.81% APY, $1.52M TVL, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; curve-dex (Arbitrum), 4.84% APY, $1.4M TVL, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDAI's lower-variability candidates are pendle (Arbitrum), 9.31% APY, $1.54M TVL, https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token; pendle (Arbitrum), 9.95% APY, $11.93M TVL, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; usd-ai (Arbitrum), 7.65% APY, $354.82M TVL, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; pendle (Arbitrum), 8.57% APY, $11.93M TVL, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; fluid-dex (Arbitrum), 0.06% APY, $17.66M TVL, https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token; pendle (Arbitrum), 8.81% APY, $1.54M TVL, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; curve-dex (Arbitrum), 4.95% APY, $1.4M TVL, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token) | Arbitrum | 9.32% | $1.52M |
-| 2 | [pendle →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 10.06% | $11.93M |
-| 3 | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.66% | $354.57M |
-| 4 | [pendle →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.58% | $11.93M |
-| 5 | [fluid-dex →](https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token) | Arbitrum | 0.01% | $17.66M |
-| 6 | [pendle →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 8.81% | $1.52M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token) | Arbitrum | 4.84% | $1.4M |
+| 1 | [pendle →](https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token) | Arbitrum | 9.31% | $1.54M |
+| 2 | [pendle →](https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token) | Arbitrum | 9.95% | $11.93M |
+| 3 | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token) | Arbitrum | 7.65% | $354.82M |
+| 4 | [pendle →](https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token) | Arbitrum | 8.57% | $11.93M |
+| 5 | [fluid-dex →](https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token) | Arbitrum | 0.06% | $17.66M |
+| 6 | [pendle →](https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token) | Arbitrum | 8.81% | $1.54M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token) | Arbitrum | 4.95% | $1.4M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUSDAI shows up in 7 pools here, with rates from 0.01% to 10.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUSDAI shows up in 7 pools here, with rates from 0.06% to 9.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 7 pools have a trustworthy 30-day average on file, with a median of 8.34% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 7 pools have a trustworthy 30-day average on file, with a median of 8.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 7 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -41,13 +41,13 @@ SUSDAI shows up in 7 pools here, with rates from 0.01% to 10.06% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| usd-ai | 7.66% | 7.60% | Base rate |
-| fluid-dex | 0.01% | 0.20% | Base rate |
-| pendle | 10.06% | 9.80% | Base rate |
-| pendle | 8.58% | 8.34% | 2.23% incentives |
-| pendle | 8.81% | 9.17% | Base rate |
-| pendle | 9.32% | 9.44% | Base rate |
-| curve-dex | 4.84% | 4.72% | Base rate |
+| usd-ai | 7.65% | 7.61% | Base rate |
+| fluid-dex | 0.06% | 0.20% | Base rate |
+| pendle | 9.95% | 9.81% | Base rate |
+| pendle | 8.57% | 8.37% | 2.29% incentives |
+| pendle | 8.81% | 9.16% | Base rate |
+| pendle | 9.31% | 9.42% | Base rate |
+| curve-dex | 4.95% | 4.73% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -55,11 +55,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUSDAI yield today?
 
-10.06% APY on pendle (Arbitrum), based on live DefiLlama data.
+9.95% APY on pendle (Arbitrum), based on live DefiLlama data.
 
 ### How many SUSDAI pools clear the TVL floor?
 
-19 live pools clear this page's $100K TVL floor, $621.58M in total.
+19 live pools clear this page's $100K TVL floor, $621.89M in total.
 
 ### Are these rates safe?
 
@@ -67,7 +67,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDAI pools have the most stable APY history?
 
-Based on APY history only, SUSDAI's lower-variability candidates are pendle (Arbitrum), 9.32% APY, $1.52M TVL, https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token; pendle (Arbitrum), 10.06% APY, $11.93M TVL, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; usd-ai (Arbitrum), 7.66% APY, $354.57M TVL, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; pendle (Arbitrum), 8.58% APY, $11.93M TVL, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; fluid-dex (Arbitrum), 0.01% APY, $17.66M TVL, https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token; pendle (Arbitrum), 8.81% APY, $1.52M TVL, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; curve-dex (Arbitrum), 4.84% APY, $1.4M TVL, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDAI's lower-variability candidates are pendle (Arbitrum), 9.31% APY, $1.54M TVL, https://www.defi.garden/?pool=b44dc004-56b7-48d0-97b6-da33ead5e6eb&src=seo_token; pendle (Arbitrum), 9.95% APY, $11.93M TVL, https://www.defi.garden/?pool=894ef05d-8143-4fa2-9a1c-bebc14686337&src=seo_token; usd-ai (Arbitrum), 7.65% APY, $354.82M TVL, https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_token; pendle (Arbitrum), 8.57% APY, $11.93M TVL, https://www.defi.garden/?pool=55d53cce-4455-4085-8245-557257d9fe61&src=seo_token; fluid-dex (Arbitrum), 0.06% APY, $17.66M TVL, https://www.defi.garden/?pool=9605b661-5066-4aeb-b2f6-119db53e9d79&src=seo_token; pendle (Arbitrum), 8.81% APY, $1.54M TVL, https://www.defi.garden/?pool=0ab4e683-9d5b-43d3-aeb8-98dd1da1a694&src=seo_token; curve-dex (Arbitrum), 4.95% APY, $1.4M TVL, https://www.defi.garden/?pool=24d52f63-cc2a-40a4-914d-6056f5e0f8ee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -82,4 +82,4 @@ Based on APY history only, SUSDAI's lower-variability candidates are pendle (Arb
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

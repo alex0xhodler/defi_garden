@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MORPHOPYUSD pools. This view 
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

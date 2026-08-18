@@ -1,10 +1,10 @@
 # YZCASH DeFi Yields
 
-The highest honest YZCASH yield right now is 5.95% on yuzu-money (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YZCASH yield right now is 5.94% on yuzu-money (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=12b8c52b-d73e-595d-8bbc-f610d0c54d71&src=seo_token) | Ethereum | 5.95% | $8.31M |
+| [yuzu-money →](https://www.defi.garden/?pool=12b8c52b-d73e-595d-8bbc-f610d0c54d71&src=seo_token) | Ethereum | 5.94% | $8.31M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YZCASH yield today?
 
-5.95% APY on yuzu-money (Ethereum), based on live DefiLlama data.
+5.94% APY on yuzu-money (Ethereum), based on live DefiLlama data.
 
 ### How many YZCASH pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank YZCASH pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

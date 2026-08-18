@@ -1,10 +1,10 @@
 # PRD DeFi Yields
 
-The highest honest PRD yield right now is 8.13% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRD yield right now is 11.94% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c4a7c5a4-a9b7-4eb4-8560-9e0fcd95ec27&src=seo_token) | Ethereum | 8.13% | $4.98M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c4a7c5a4-a9b7-4eb4-8560-9e0fcd95ec27&src=seo_token) | Ethereum | 11.94% | $4.49M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRD yield today?
 
-8.13% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+11.94% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PRD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $4.98M in total.
+1 live pool clear this page's $100K TVL floor, $4.49M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PRD pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 17, 2026
+## Last updated August 18, 2026

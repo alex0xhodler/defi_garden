@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.07%예�
 
 ### WSPYX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $987.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $983.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.07%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026

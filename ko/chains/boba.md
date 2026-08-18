@@ -4,7 +4,7 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDC | [symbiosis →](https://www.defi.garden/?pool=89d182d1-e93e-413f-9fe9-36e22be9e755&src=seo_chain) | 0.09% | $142.2K |
+| USDC | [symbiosis →](https://www.defi.garden/?pool=89d182d1-e93e-413f-9fe9-36e22be9e755&src=seo_chain) | 0.09% | $142.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -16,7 +16,7 @@ DefiLlama 실시간 데이터 기준, Boba의 symbiosis에서 APY 0.09%예요.
 
 ### Boba 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $142.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $142.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -26,8 +26,8 @@ DefiLlama 실시간 데이터 기준, Boba의 symbiosis에서 APY 0.09%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
-- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Base](https://www.defi.garden/ko/chains/base)
+- [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Boba의 symbiosis에서 APY 0.09%예요.
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 
-## 마지막 업데이트: August 17, 2026
+## 마지막 업데이트: August 18, 2026
