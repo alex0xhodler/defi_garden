@@ -2739,7 +2739,7 @@ body {
 .results-panel {
   background: var(--color-background);
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-lg);
+  border-radius: 3px;
   overflow: hidden;
   max-width: var(--content-max-width);
   margin: 0 auto;
@@ -2779,7 +2779,7 @@ body {
 .view-toggles {
   display: flex;
   background: var(--ui-surface-muted);
-  border-radius: var(--ui-radius-pill);
+  border-radius: 3px;
   padding: 4px;
   border: 1px solid var(--ui-border);
   box-shadow: none;
@@ -2819,6 +2819,7 @@ body {
   height: 32px;
   min-width: 32px;
   min-height: 32px;
+  border-radius: 3px;
 }
 
 .sort-control {
@@ -2835,7 +2836,7 @@ body {
 
 .sort-toggles {
   background: var(--ui-surface-muted);
-  border-radius: var(--ui-radius-pill);
+  border-radius: 3px;
   padding: 4px;
   border: 1px solid var(--ui-border);
   box-shadow: none;
@@ -2849,15 +2850,20 @@ body {
   font-weight: var(--font-weight-medium);
   text-transform: none;
   letter-spacing: normal;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
-/* impeccable pass (225): pill radius on the inner buttons too, matching the
-   pill track above. Three classes deep so it beats the shared "Button,
-   secondary" role's 12px radius (style.css end) regardless of source order —
-   that role is correct for reset/pagination/back buttons, which stay 12px;
-   only this sort control moves to the pill "choice control" language. */
+.sort-toggle-btn svg {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+}
+
+/* On-brand sharp styling for sort toggle choices */
 .sort-control .sort-toggles .sort-toggle-btn {
-  border-radius: var(--ui-radius-pill);
+  border-radius: 3px;
 }
 
 /* Slim column-label row, aligned to the exact same grid the rows below use.
@@ -3182,7 +3188,7 @@ body {
    hairline. No stretched min-height, no floating rows, no dead middle. */
 .pools-grid .pool-card {
   border: 1px solid var(--ui-border);
-  border-radius: var(--ui-radius-md);
+  border-radius: 3px;
   padding: 16px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -3193,41 +3199,32 @@ body {
 .pools-grid .pool-header-new {
   grid-column: 1 / -1;
   margin-bottom: 0;
-  /* Item 274: .pool-header-new is a flex row (base rule above, `display:flex;
-     justify-content:space-between`) holding .pool-name-group and
-     .pool-apy-section. Both children carry `white-space: nowrap` numerals
-     (246) with no upper bound, so a wide anomalous/large APY figure forces
-     the row's min-content width past the card's available inner width; with
-     the base rule's default `flex-wrap: nowrap` neither child can shrink
-     below its own nowrap min-content, so the row overflows and .pool-card's
-     `overflow: hidden` (style.css ~3195) silently clips it at the card edge
-     -- the live defect (specs/274.md). `flex-wrap: wrap` lets .pool-apy-section
-     drop to its own row BELOW .pool-name-group only when it doesn't fit --
-     glyph+number stay glued (246's nowrap rules on .pool-apy-hero/-preview
-     are untouched, so the unit never splits mid-wrap), and on every card
-     where both children already fit on one line this is a no-op (a flex
-     container with flex-wrap:wrap lays out identically to nowrap when the
-     line doesn't need to wrap) -- zero drift on normal cards, see
-     specs/274-notes.md for the measured proof. */
-  flex-wrap: wrap;
-  /* Vertical breathing room between .pool-name-group and a wrapped
-     .pool-apy-section only (row-gap; no column-gap added, so the unwrapped
-     single-line case keeps its existing margin-left:auto spacing exactly --
-     see .pools-grid .pool-apy-section below). */
-  row-gap: var(--space-8);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: var(--space-8);
 }
 
-/* Item 274: on the single flex line (normal, non-overflowing case) this
-   auto margin resolves to exactly the same gap the base rule's inherited
-   `justify-content: space-between` already produced (2 children, auto
-   margin on the last one consumes 100% of the remaining free space before
-   justify-content has anything left to distribute -- CSS Flexbox #9.5) --
-   so pixel-identical geometry pre/post fix. Once .pool-apy-section wraps to
-   its own row (above), this is what keeps it flush against the card's right
-   edge on that row too, instead of falling back to flex-start (a lone item
-   on a flex line is start-aligned under space-between, not end-aligned). */
+.pools-grid .pool-name-group {
+  min-width: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
+.pools-grid .pool-left-section {
+  min-width: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
 .pools-grid .pool-apy-section {
   margin-left: auto;
+  flex-shrink: 0;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .pools-grid .pool-tvl-section,
@@ -3454,6 +3451,11 @@ body {
   transition: all 0.2s ease;
   box-shadow: none;
   border: 1px solid var(--ui-border);
+  border-radius: 3px;
+}
+
+.pagination .pagination-button {
+  border-radius: 3px;
 }
 
 .pagination-button:hover:not(:disabled) {
@@ -3500,8 +3502,7 @@ body {
   color: var(--color-text-secondary);
   margin: 0 var(--space-16);
   padding: var(--space-8) var(--space-16);
-  background: var(--color-background);
-  border-radius: var(--ui-radius-md);
+  border-radius: 3px;
   background: var(--ui-surface-muted);
   border: 1px solid var(--ui-border);
   box-shadow: none;
