@@ -1266,10 +1266,10 @@ function PoolDetail({
               e.preventDefault();
               const el = document.getElementById('yield-card-widget') || document.querySelector('.yield-card-terminal');
               if (el) {
-                el.scrollIntoView({ behavior: 'smooth' });
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
               }
               if (typeof Analytics !== 'undefined') {
-                Analytics.trackPoolClick(pool, 'garden_cta', {
+                Analytics.trackPoolClick(pool, 'spend_yield_cta', {
                   investmentAmount: Math.round(investmentAmount),
                   projectionYears: PROJECTION_YEARS,
                   ctaVariant: 'card_widget_scroll',
@@ -1278,9 +1278,9 @@ function PoolDetail({
                 });
               }
             }
-          }, t ? t('gardenThisPoolCta') : 'Garden this pool →'),
+          }, t ? t('spendYieldCta') : 'Spend yield →'),
           React.createElement('p', { className: 'pool-action-hint' },
-            t ? t('plannerCtaHint') : 'No wallet needed'
+            t ? t('spendYieldHint') : 'Fund subscriptions • Keep principal intact'
           )
         ),
 

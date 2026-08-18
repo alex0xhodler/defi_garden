@@ -130,11 +130,11 @@ async function freshPage(browser, errs) {
     // ---- Scenario 1: pool-detail → Garden CTA → planner arrival (A, B, D-pool) ----
     console.log('[Scenario 1] Garden-this-pool CTA arrival');
     await page.goto(`http://localhost:${PORT}/home.html?pool=${POOL_ID}`, { waitUntil: 'commit', timeout: 20000 });
-    await page.waitForSelector('.cta-button-primary', { timeout: 15000 });
+    await page.waitForSelector('.cta-echo-link', { timeout: 15000 });
 
     await Promise.all([
       page.waitForNavigation({ waitUntil: 'commit', timeout: 15000 }),
-      page.locator('.cta-button-primary').first().click(),
+      page.locator('.cta-echo-link').first().click(),
     ]);
     const landedUrl = page.url();
     // A: navigation carries the src=pool marker
