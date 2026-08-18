@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=36d00dc7-505a-4c7d-b82a-08e89f39e0dc&src=seo_token) | Katana | 6.11% | $253.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=36d00dc7-505a-4c7d-b82a-08e89f39e0dc&src=seo_token) | Katana | 6.11% | $253.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Katana의 morpho-blue에서 APY 6.11%예�
 
 ### CSCORES 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $253.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $253.5K예요.
 
 ### 이 수익률은 안전한가요?
 

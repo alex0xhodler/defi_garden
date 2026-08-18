@@ -1,10 +1,10 @@
 # CSRHONEY DeFi Yields
 
-The highest honest CSRHONEY yield right now is 5.57% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSRHONEY yield right now is 5.72% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e&src=seo_token) | Berachain | 5.57% | $2.68M |
+| [berapaw →](https://www.defi.garden/?pool=4aa13699-f779-47aa-aa34-078c3a8b489e&src=seo_token) | Berachain | 5.72% | $2.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSRHONEY yield today?
 
-5.57% APY on berapaw (Berachain), based on live DefiLlama data.
+5.72% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many CSRHONEY pools clear the TVL floor?
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank CSRHONEY pools. This view cov
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
-- [HONEY](https://www.defi.garden/tokens/honey)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
+- [HONEY](https://www.defi.garden/tokens/honey)
 - [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
 
 ## Available on

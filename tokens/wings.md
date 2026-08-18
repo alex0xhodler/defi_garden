@@ -4,7 +4,7 @@ The highest honest WINGS yield right now is 0.42% on orca-dex (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=5fc9731a-2b89-47ca-92f4-34f0a1fb0cb4&src=seo_token) | Solana | 0.42% | $329.1K |
+| [orca-dex →](https://www.defi.garden/?pool=5fc9731a-2b89-47ca-92f4-34f0a1fb0cb4&src=seo_token) | Solana | 0.42% | $328.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WINGS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $329.1K in total.
+1 live pool clear this page's $100K TVL floor, $328.8K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank WINGS pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

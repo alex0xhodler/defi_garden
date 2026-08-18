@@ -1,10 +1,10 @@
 # TRUST DeFi Yields
 
-The highest honest TRUST yield right now is 2.30% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUST yield right now is 2.42% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e351f2a6-2bcd-4a74-9d44-fc9795fce9c8&src=seo_token) | Base | 2.30% | $252.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e351f2a6-2bcd-4a74-9d44-fc9795fce9c8&src=seo_token) | Base | 2.42% | $253.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TRUST shows up in 1 pools here, with rates from 2.30% to 2.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRUST shows up in 1 pools here, with rates from 2.42% to 2.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 8.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 2.30% | 8.58% | Base rate |
+| aerodrome-slipstream | 2.42% | 8.58% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TRUST yield today?
 
-2.30% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+2.42% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TRUST pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $392.7K in total.
+2 live pools clear this page's $100K TVL floor, $395.2K in total.
 
 ### Are these rates safe?
 

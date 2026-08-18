@@ -1,12 +1,12 @@
 # WETH-SAND — aerodrome-slipstream on Base
 
-**Total APY:** 58.26% (6.95% Base · + 51.32% Rewards)
+**Total APY:** 56.00% (7.05% Base · + 48.95% Rewards)
 
-**TVL:** $103.3K
+**TVL:** $103.7K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 47.66%
+**30d Mean APY:** 47.72%
 
 **Exposure:** multi
 
@@ -22,15 +22,15 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$2,429 in 5y at current rates.
+$1,000 in this pool grows to ~$2,353 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (58.26% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (56.00% headline) — farm rates decay. Active management required.
 
 We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$2,429 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,353 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aerodrome-slipstream](https://aerodrome.finance/?ref=defi.garden)
 

@@ -1,10 +1,10 @@
 # OHHA 디파이 수익률
 
-현재 OHHA의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.32%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 OHHA의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 0.22%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=118bc80d-be58-57b6-9422-e82cec5b5e99&src=seo_token) | Solana | 0.32% | $355.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=118bc80d-be58-57b6-9422-e82cec5b5e99&src=seo_token) | Solana | 0.22% | $359.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 OHHA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.32%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.22%예요.
 
 ### OHHA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $355.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $359.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,11 +34,11 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.32%예�
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 

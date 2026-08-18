@@ -2,11 +2,11 @@
 
 **Total APY:** 43.94% (43.94% Base · + 0.00% Rewards)
 
-**TVL:** $1.78M
+**TVL:** $1.75M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 64.07%
+**30d Mean APY:** 64.05%
 
 **Exposure:** multi
 

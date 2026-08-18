@@ -4,7 +4,7 @@ The highest honest AKITA yield right now is 0.12% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21&src=seo_token) | Ethereum | 0.12% | $214.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1109a03b-618c-47b3-af82-8031fee2ce21&src=seo_token) | Ethereum | 0.12% | $216.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AKITA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $214.8K in total.
+1 live pool clear this page's $100K TVL floor, $216.3K in total.
 
 ### Are these rates safe?
 

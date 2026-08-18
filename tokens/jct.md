@@ -1,10 +1,10 @@
 # JCT DeFi Yields
 
-The highest honest JCT yield right now is 0.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JCT yield right now is 0.29% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c7cc107d-6072-5642-b87b-957cfce84611&src=seo_token) | Solana | 0.04% | $2.6M |
+| [raydium-amm →](https://www.defi.garden/?pool=c7cc107d-6072-5642-b87b-957cfce84611&src=seo_token) | Solana | 0.29% | $2.6M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JCT yield today?
 
-0.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.29% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many JCT pools clear the TVL floor?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank JCT pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

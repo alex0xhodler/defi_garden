@@ -4,7 +4,7 @@ The highest honest DIP yield right now is 0.01% on vvs-standard (Cronos), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426&src=seo_token) | Cronos | 0.01% | $1.95M |
+| [vvs-standard →](https://www.defi.garden/?pool=7e35aad6-a8ef-42d1-8857-a46a188be426&src=seo_token) | Cronos | 0.01% | $1.94M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DIP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.95M in total.
+1 live pool clear this page's $100K TVL floor, $1.94M in total.
 
 ### Are these rates safe?
 

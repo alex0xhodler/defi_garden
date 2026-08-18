@@ -4,7 +4,7 @@ The highest honest XPT yield right now is 69.52% on gmtrade (Solana), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=0fe1de2a-b3a6-4575-94a2-f3938da47f79&src=seo_token) | Solana | 69.52% | $285.2K |
+| [gmtrade →](https://www.defi.garden/?pool=0fe1de2a-b3a6-4575-94a2-f3938da47f79&src=seo_token) | Solana | 69.52% | $285.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $285.2K in total.
+1 live pool clear this page's $100K TVL floor, $285.3K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank XPT pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

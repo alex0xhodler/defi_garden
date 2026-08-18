@@ -1,10 +1,10 @@
 # GIGA DeFi Yields
 
-The highest honest GIGA yield right now is 4.90% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GIGA yield right now is 5.12% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193&src=seo_token) | Solana | 4.90% | $1.26M |
+| [raydium-amm →](https://www.defi.garden/?pool=10a72779-843e-4491-a9f6-7bc81e452193&src=seo_token) | Solana | 5.12% | $1.28M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GIGA yield today?
 
-4.90% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.12% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GIGA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.26M in total.
+1 live pool clear this page's $100K TVL floor, $1.28M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank GIGA pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

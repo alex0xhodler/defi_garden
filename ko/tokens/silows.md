@@ -1,10 +1,10 @@
 # SILOWS 디파이 수익률
 
-현재 SILOWS의 가장 높은 정직한 수익률은 Sonic의 beets-dex-v3에서 11.63%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SILOWS의 가장 높은 정직한 수익률은 Sonic의 beets-dex-v3에서 11.03%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 11.63% | $450.5K |
+| [beets-dex-v3 →](https://www.defi.garden/?pool=a9e36a8e-2518-4fd1-8ec2-3c8ee125f88d&src=seo_token) | Sonic | 11.03% | $450.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SILOWS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sonic의 beets-dex-v3에서 APY 11.63%예요.
+DefiLlama 실시간 데이터 기준, Sonic의 beets-dex-v3에서 APY 11.03%예요.
 
 ### SILOWS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,7 +38,7 @@ DefiLlama 실시간 데이터 기준, Sonic의 beets-dex-v3에서 APY 11.63%예�
 - [EVAUSDT](https://www.defi.garden/ko/tokens/evausdt)
 - [EVAUSDC](https://www.defi.garden/ko/tokens/evausdc)
 - [FBOMB](https://www.defi.garden/ko/tokens/fbomb)
-- [STS](https://www.defi.garden/ko/tokens/sts)
+- [SFTUSD](https://www.defi.garden/ko/tokens/sftusd)
 
 ## 이용 가능한 체인
 

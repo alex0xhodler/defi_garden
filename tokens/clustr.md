@@ -4,7 +4,7 @@ The highest honest CLUSTR yield right now is 0.05% on uniswap-v3 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4ed698b2-f601-4f2f-b547-8c9788c6b7ae&src=seo_token) | Base | 0.05% | $131.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4ed698b2-f601-4f2f-b547-8c9788c6b7ae&src=seo_token) | Base | 0.05% | $133K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLUSTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.6K in total.
+1 live pool clear this page's $100K TVL floor, $133K in total.
 
 ### Are these rates safe?
 

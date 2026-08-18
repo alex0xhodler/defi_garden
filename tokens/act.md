@@ -1,10 +1,10 @@
 # ACT DeFi Yields
 
-The highest honest ACT yield right now is 7.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ACT yield right now is 8.29% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=804a0c7b-7eb7-4b75-b066-4c568704fefe&src=seo_token) | Solana | 7.69% | $1.21M |
+| [raydium-amm →](https://www.defi.garden/?pool=804a0c7b-7eb7-4b75-b066-4c568704fefe&src=seo_token) | Solana | 8.29% | $1.21M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ACT yield today?
 
-7.69% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.29% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ACT pools clear the TVL floor?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank ACT pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

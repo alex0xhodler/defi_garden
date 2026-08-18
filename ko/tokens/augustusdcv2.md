@@ -4,24 +4,24 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 7.97% | $3.86M |
-| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.43% | $753.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 7.93% | $4.26M |
+| [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.43% | $754K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 AUGUSTUSDCV2의 변동성 낮은 후보는 Monad의 morpho-blue, APY 7.97%, TVL $3.86M, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; Ethereum의 morpho-blue, APY 9.43%, TVL $753.9K, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AUGUSTUSDCV2의 변동성 낮은 후보는 Monad의 morpho-blue, APY 7.93%, TVL $4.26M, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; Ethereum의 morpho-blue, APY 9.43%, TVL $754K, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 7.97% | $3.86M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.43% | $753.9K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token) | Monad | 7.93% | $4.26M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token) | Ethereum | 9.43% | $754K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-AUGUSTUSDCV2 풀은 여기 2개가 있고, 2개 체인에서 APY가 7.97%부터 9.43%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+AUGUSTUSDCV2 풀은 여기 2개가 있고, 2개 체인에서 APY가 7.93%부터 9.43%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.24%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -29,8 +29,8 @@ AUGUSTUSDCV2 풀은 여기 2개가 있고, 2개 체인에서 APY가 7.97%부터 
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| morpho-blue | 7.97% | 7.12% | 인센티브 30.55% |
-| morpho-blue | 9.43% | 7.35% | 기본 금리 |
+| morpho-blue | 7.93% | 7.11% | 인센티브 30.15% |
+| morpho-blue | 9.43% | 7.36% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -42,7 +42,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 9.43%예
 
 ### AUGUSTUSDCV2 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $4.61M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $5.01M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -50,7 +50,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 9.43%예
 
 ### AUGUSTUSDCV2 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 AUGUSTUSDCV2의 변동성 낮은 후보는 Monad의 morpho-blue, APY 7.97%, TVL $3.86M, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; Ethereum의 morpho-blue, APY 9.43%, TVL $753.9K, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 AUGUSTUSDCV2의 변동성 낮은 후보는 Monad의 morpho-blue, APY 7.93%, TVL $4.26M, https://www.defi.garden/?pool=0b033747-3a22-486b-a600-9958b878bef7&src=seo_token; Ethereum의 morpho-blue, APY 9.43%, TVL $754K, https://www.defi.garden/?pool=df22be39-3524-4843-93c3-ae4afabd93a7&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

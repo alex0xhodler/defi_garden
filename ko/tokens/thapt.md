@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [thalaswap →](https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token) | Aptos | 0.01% | $293.9K |
+| [thalaswap →](https://www.defi.garden/?pool=6f746663-06f6-4b18-a6dd-8bcdf583e26e&src=seo_token) | Aptos | 0.01% | $297.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 thalaswap에서 APY 0.01%예요.
 
 ### THAPT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $293.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $297.6K예요.
 
 ### 이 수익률은 안전한가요?
 

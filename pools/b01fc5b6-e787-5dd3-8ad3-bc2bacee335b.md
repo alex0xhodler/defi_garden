@@ -1,12 +1,12 @@
 # SIERRA — pendle on Ethereum
 
-**Total APY:** 8.12% (8.12% Base · + 0.00% Rewards)
+**Total APY:** 8.13% (8.13% Base · + 0.00% Rewards)
 
 **TVL:** $7.62M
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 8.45%
+**30d Mean APY:** 8.44%
 
 **Exposure:** single
 

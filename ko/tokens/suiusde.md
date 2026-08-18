@@ -4,18 +4,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token) | Sui | 0.50% | $502.2K |
+| [cetus-clmm →](https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token) | Sui | 0.51% | $502.2K |
 | [bluefin-spot →](https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token) | Sui | 0.14% | $496.8K |
 | [navi-lending →](https://www.defi.garden/?pool=85c687c8-5ecd-494c-b3cc-d930612349b0&src=seo_token) | Sui | 1.33% | $322.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUIUSDE의 변동성 낮은 후보는 Sui의 cetus-clmm, APY 0.50%, TVL $502.2K, https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token; Sui의 bluefin-spot, APY 0.14%, TVL $496.8K, https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token; Sui의 navi-lending, APY 1.33%, TVL $322.7K, https://www.defi.garden/?pool=85c687c8-5ecd-494c-b3cc-d930612349b0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUIUSDE의 변동성 낮은 후보는 Sui의 cetus-clmm, APY 0.51%, TVL $502.2K, https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token; Sui의 bluefin-spot, APY 0.14%, TVL $496.8K, https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token; Sui의 navi-lending, APY 1.33%, TVL $322.7K, https://www.defi.garden/?pool=85c687c8-5ecd-494c-b3cc-d930612349b0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [cetus-clmm →](https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token) | Sui | 0.50% | $502.2K |
+| 1 | [cetus-clmm →](https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token) | Sui | 0.51% | $502.2K |
 | 2 | [bluefin-spot →](https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token) | Sui | 0.14% | $496.8K |
 | 3 | [navi-lending →](https://www.defi.garden/?pool=85c687c8-5ecd-494c-b3cc-d930612349b0&src=seo_token) | Sui | 1.33% | $322.7K |
 
@@ -25,13 +25,13 @@ APY 이력만 기준으로 비교한 SUIUSDE의 변동성 낮은 후보는 Sui�
 
 SUIUSDE 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.14%부터 1.33%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.15%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.16%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 3개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| cetus-clmm | 0.50% | 0.15% | 기본 금리 |
+| cetus-clmm | 0.51% | 0.16% | 기본 금리 |
 | bluefin-spot | 0.14% | 0.06% | 기본 금리 |
 | navi-lending | 1.33% | 1.23% | 기본 금리 |
 
@@ -53,15 +53,15 @@ DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 1.33%예요.
 
 ### SUIUSDE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUIUSDE의 변동성 낮은 후보는 Sui의 cetus-clmm, APY 0.50%, TVL $502.2K, https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token; Sui의 bluefin-spot, APY 0.14%, TVL $496.8K, https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token; Sui의 navi-lending, APY 1.33%, TVL $322.7K, https://www.defi.garden/?pool=85c687c8-5ecd-494c-b3cc-d930612349b0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUIUSDE의 변동성 낮은 후보는 Sui의 cetus-clmm, APY 0.51%, TVL $502.2K, https://www.defi.garden/?pool=4480dad2-9e26-4a90-aca3-df88066d9158&src=seo_token; Sui의 bluefin-spot, APY 0.14%, TVL $496.8K, https://www.defi.garden/?pool=27c95c63-51a9-4143-a91d-b1dcd86599c8&src=seo_token; Sui의 navi-lending, APY 1.33%, TVL $322.7K, https://www.defi.garden/?pool=85c687c8-5ecd-494c-b3cc-d930612349b0&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [BUCK](https://www.defi.garden/ko/tokens/buck)
 - [SUI](https://www.defi.garden/ko/tokens/sui)
+- [BUCK](https://www.defi.garden/ko/tokens/buck)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
 
 ## 이용 가능한 체인

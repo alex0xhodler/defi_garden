@@ -1,10 +1,10 @@
 # TRUEX DeFi Yields
 
-The highest honest TRUEX yield right now is 2.50% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUEX yield right now is 1.93% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=efc2e25c-3b25-4b44-889e-56a7f44e56d3&src=seo_token) | Solana | 2.50% | $1.23M |
+| [raydium-amm →](https://www.defi.garden/?pool=efc2e25c-3b25-4b44-889e-56a7f44e56d3&src=seo_token) | Solana | 1.93% | $1.22M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TRUEX yield today?
 
-2.50% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.93% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many TRUEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.23M in total.
+1 live pool clear this page's $100K TVL floor, $1.22M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank TRUEX pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

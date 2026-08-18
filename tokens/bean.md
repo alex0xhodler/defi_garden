@@ -1,10 +1,10 @@
 # BEAN DeFi Yields
 
-The highest honest BEAN yield right now is 11.31% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BEAN yield right now is 6.66% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=157568c3-cb0a-46db-8499-bc1e0f4b5bb0&src=seo_token) | Base | 11.31% | $214.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=157568c3-cb0a-46db-8499-bc1e0f4b5bb0&src=seo_token) | Base | 6.66% | $218.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BEAN yield today?
 
-11.31% APY on uniswap-v4 (Base), based on live DefiLlama data.
+6.66% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BEAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $214.8K in total.
+1 live pool clear this page's $100K TVL floor, $218.1K in total.
 
 ### Are these rates safe?
 

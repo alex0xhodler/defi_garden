@@ -4,30 +4,30 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token) | Tron | 0.02% | $417.25M |
-| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.15% | $151.74M |
-| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 4.04% | $53.11M |
-| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 1.81% | $18.9M |
-| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 1.81% | $3.75M |
-| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 3.75% | $3.03M |
-| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.32% | $1.87M |
-| [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 188.57% | $1.63M |
+| [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token) | Tron | 0.02% | $421.81M |
+| [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.14% | $153.22M |
+| [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 4.00% | $53.51M |
+| [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 1.81% | $19.09M |
+| [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 1.81% | $3.79M |
+| [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 3.91% | $3.05M |
+| [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.29% | $1.98M |
+| [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 188.57% | $1.59M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 justlend-v1, APY 0.02%, TVL $417.25M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token; Bitcoin의 b14g, APY 0.15%, TVL $151.74M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; Ethereum의 midas-rwa, APY 1.81%, TVL $18.9M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; Monad의 midas-rwa, APY 1.81%, TVL $3.75M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; Mezo의 mezo-earn, APY 4.04%, TVL $53.11M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; Bitcoin의 chainflip-lending, APY 0.32%, TVL $1.87M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; Bitcoin의 chainflip-amm, APY 3.75%, TVL $3.03M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; Solana의 gmtrade, APY 188.57%, TVL $1.63M, https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 justlend-v1, APY 0.02%, TVL $421.81M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token; Bitcoin의 b14g, APY 0.14%, TVL $153.22M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; Ethereum의 midas-rwa, APY 1.81%, TVL $19.09M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; Monad의 midas-rwa, APY 1.81%, TVL $3.79M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; Mezo의 mezo-earn, APY 4.00%, TVL $53.51M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; Bitcoin의 chainflip-lending, APY 0.29%, TVL $1.98M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; Bitcoin의 chainflip-amm, APY 3.91%, TVL $3.05M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; Solana의 gmtrade, APY 188.57%, TVL $1.59M, https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token) | Tron | 0.02% | $417.25M |
-| 2 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.15% | $151.74M |
-| 3 | [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 1.81% | $18.9M |
-| 4 | [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 1.81% | $3.75M |
-| 5 | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 4.04% | $53.11M |
-| 6 | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.32% | $1.87M |
-| 7 | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 3.75% | $3.03M |
-| 8 | [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 188.57% | $1.63M |
+| 1 | [justlend-v1 →](https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token) | Tron | 0.02% | $421.81M |
+| 2 | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token) | Bitcoin | 0.14% | $153.22M |
+| 3 | [midas-rwa →](https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token) | Ethereum | 1.81% | $19.09M |
+| 4 | [midas-rwa →](https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token) | Monad | 1.81% | $3.79M |
+| 5 | [mezo-earn →](https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token) | Mezo | 4.00% | $53.51M |
+| 6 | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token) | Bitcoin | 0.29% | $1.98M |
+| 7 | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token) | Bitcoin | 3.91% | $3.05M |
+| 8 | [gmtrade →](https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token) | Solana | 188.57% | $1.59M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,7 +35,7 @@ APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 j
 
 BTC 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.02%부터 188.57%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.37%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 2.39%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -44,13 +44,13 @@ BTC 풀은 여기 8개가 있고, 6개 체인에서 APY가 0.02%부터 188.57%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | justlend-v1 | 0.02% | 0.02% | 기본 금리 |
-| b14g | 0.15% | 0.13% | 기본 금리 |
-| mezo-earn | 4.04% | 3.60% | 인센티브 99.30% |
-| midas-rwa | 1.81% | 2.37% | 기본 금리 |
-| midas-rwa | 1.81% | 2.37% | 기본 금리 |
-| chainflip-amm | 3.75% | 3.43% | 기본 금리 |
-| chainflip-lending | 0.32% | 0.26% | 기본 금리 |
-| gmtrade | 188.57% | 186.67% | 기본 금리 |
+| b14g | 0.14% | 0.13% | 기본 금리 |
+| mezo-earn | 4.00% | 3.60% | 인센티브 99.30% |
+| midas-rwa | 1.81% | 2.39% | 기본 금리 |
+| midas-rwa | 1.81% | 2.39% | 기본 금리 |
+| chainflip-amm | 3.91% | 3.44% | 기본 금리 |
+| chainflip-lending | 0.29% | 0.26% | 기본 금리 |
+| gmtrade | 188.57% | 187.12% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -62,7 +62,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 188.57%예요.
 
 ### BTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 21개이며, 합산 TVL은 $667.57M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 21개이며, 합산 TVL은 $674.46M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Solana의 gmtrade에서 APY 188.57%예요.
 
 ### BTC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 justlend-v1, APY 0.02%, TVL $417.25M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token; Bitcoin의 b14g, APY 0.15%, TVL $151.74M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; Ethereum의 midas-rwa, APY 1.81%, TVL $18.9M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; Monad의 midas-rwa, APY 1.81%, TVL $3.75M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; Mezo의 mezo-earn, APY 4.04%, TVL $53.11M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; Bitcoin의 chainflip-lending, APY 0.32%, TVL $1.87M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; Bitcoin의 chainflip-amm, APY 3.75%, TVL $3.03M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; Solana의 gmtrade, APY 188.57%, TVL $1.63M, https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BTC의 변동성 낮은 후보는 Tron의 justlend-v1, APY 0.02%, TVL $421.81M, https://www.defi.garden/?pool=71418c17-d2aa-4eff-b68a-806fff9ec951&src=seo_token; Bitcoin의 b14g, APY 0.14%, TVL $153.22M, https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_token; Ethereum의 midas-rwa, APY 1.81%, TVL $19.09M, https://www.defi.garden/?pool=d2b2bdd9-6535-4acc-8e84-2b0838bd63bb&src=seo_token; Monad의 midas-rwa, APY 1.81%, TVL $3.79M, https://www.defi.garden/?pool=24514f34-853f-4678-9faa-7cebf550aba7&src=seo_token; Mezo의 mezo-earn, APY 4.00%, TVL $53.51M, https://www.defi.garden/?pool=0d03f7c5-938c-4038-8483-aa3cf58c088c&src=seo_token; Bitcoin의 chainflip-lending, APY 0.29%, TVL $1.98M, https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_token; Bitcoin의 chainflip-amm, APY 3.91%, TVL $3.05M, https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_token; Solana의 gmtrade, APY 188.57%, TVL $1.59M, https://www.defi.garden/?pool=3e6c799e-d07e-45f5-9854-9f0c18fe7646&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

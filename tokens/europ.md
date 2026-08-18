@@ -4,7 +4,7 @@ The highest honest EUROP yield right now is 0.02% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8&src=seo_token) | Ethereum | 0.02% | $115.1K |
+| [curve-dex →](https://www.defi.garden/?pool=323b2ebe-96cc-43ac-a1fb-4441334e22f8&src=seo_token) | Ethereum | 0.02% | $115K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many EUROP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.1K in total.
+1 live pool clear this page's $100K TVL floor, $115K in total.
 
 ### Are these rates safe?
 

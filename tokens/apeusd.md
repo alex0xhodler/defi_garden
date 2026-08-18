@@ -4,18 +4,18 @@ The highest honest APEUSD yield right now is 0.03% on curve-dex (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.03% | $134.4K |
-| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.03% | $132.3K |
+| [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.03% | $134.5K |
+| [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.03% | $132.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, APEUSD's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $134.4K TVL, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token; convex-finance (Ethereum), 0.03% APY, $132.3K TVL, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, APEUSD's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $134.5K TVL, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token; convex-finance (Ethereum), 0.03% APY, $132.4K TVL, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.03% | $134.4K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.03% | $132.3K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token) | Ethereum | 0.03% | $134.5K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token) | Ethereum | 0.03% | $132.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 0.03% | 0.13% | Base rate |
+| curve-dex | 0.03% | 0.14% | Base rate |
 | convex-finance | 0.03% | 0.14% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which APEUSD pools have the most stable APY history?
 
-Based on APY history only, APEUSD's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $134.4K TVL, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token; convex-finance (Ethereum), 0.03% APY, $132.3K TVL, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, APEUSD's lower-variability candidates are curve-dex (Ethereum), 0.03% APY, $134.5K TVL, https://www.defi.garden/?pool=b23bf709-7cf7-4fa9-aaa6-94ac9f8bb589&src=seo_token; convex-finance (Ethereum), 0.03% APY, $132.4K TVL, https://www.defi.garden/?pool=504dc086-c35f-4987-8b48-67f302d92576&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

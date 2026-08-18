@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $486.8K |
+| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $486.9K |
 | [morpho-blue →](https://www.defi.garden/?pool=9ca84254-ecc7-53a7-adf1-4186812dfa37&src=seo_token) | Monad | 1.25% | $149.6K |
 
 <!-- rate-stability:insufficient -->
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 0.50%예요.
 
 ### YZM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $886K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $886.1K예요.
 
 ### 이 수익률은 안전한가요?
 

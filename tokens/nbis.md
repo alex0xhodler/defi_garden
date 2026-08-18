@@ -1,10 +1,10 @@
 # NBIS DeFi Yields
 
-The highest honest NBIS yield right now is 38.77% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NBIS yield right now is 48.29% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=46eb97ca-b5e7-5fa9-bd53-18597fa57d93&src=seo_token) | Solana | 38.77% | $284.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=46eb97ca-b5e7-5fa9-bd53-18597fa57d93&src=seo_token) | Solana | 48.29% | $276.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NBIS yield today?
 
-38.77% APY on raydium-amm (Solana), based on live DefiLlama data.
+48.29% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NBIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $284.4K in total.
+1 live pool clear this page's $100K TVL floor, $276.1K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank NBIS pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

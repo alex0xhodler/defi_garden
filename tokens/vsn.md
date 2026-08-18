@@ -1,31 +1,31 @@
 # VSN DeFi Yields
 
-The highest honest VSN yield right now is 2.53% on uniswap-v4 (Arbitrum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VSN yield right now is 2.09% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token) | Ethereum | 1.55% | $3.13M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token) | Ethereum | 2.29% | $1.39M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token) | Arbitrum | 2.53% | $627.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 1.16% | $414.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token) | Ethereum | 1.21% | $3.14M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token) | Ethereum | 2.09% | $1.39M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token) | Arbitrum | 1.64% | $628.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 0.89% | $414.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VSN's lower-variability candidates are uniswap-v4 (Arbitrum), 2.53% APY, $627.6K TVL, https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token; uniswap-v4 (Arbitrum), 1.16% APY, $414.1K TVL, https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token; uniswap-v4 (Ethereum), 1.55% APY, $3.13M TVL, https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token; uniswap-v4 (Ethereum), 2.29% APY, $1.39M TVL, https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VSN's lower-variability candidates are uniswap-v4 (Arbitrum), 1.64% APY, $628.7K TVL, https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token; uniswap-v4 (Arbitrum), 0.89% APY, $414.9K TVL, https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token; uniswap-v4 (Ethereum), 1.21% APY, $3.14M TVL, https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token; uniswap-v4 (Ethereum), 2.09% APY, $1.39M TVL, https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token) | Arbitrum | 2.53% | $627.6K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 1.16% | $414.1K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token) | Ethereum | 1.55% | $3.13M |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token) | Ethereum | 2.29% | $1.39M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token) | Arbitrum | 1.64% | $628.7K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token) | Arbitrum | 0.89% | $414.9K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token) | Ethereum | 1.21% | $3.14M |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token) | Ethereum | 2.09% | $1.39M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VSN shows up in 4 pools here, with rates from 1.16% to 2.53% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+VSN shows up in 4 pools here, with rates from 0.89% to 2.09% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 3.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,10 +35,10 @@ All 4 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 1.55% | 3.98% | Base rate |
-| uniswap-v4 | 2.29% | 5.34% | Base rate |
-| uniswap-v4 | 2.53% | 3.52% | Base rate |
-| uniswap-v4 | 1.16% | 3.27% | Base rate |
+| uniswap-v4 | 1.21% | 3.99% | Base rate |
+| uniswap-v4 | 2.09% | 5.35% | Base rate |
+| uniswap-v4 | 1.64% | 3.51% | Base rate |
+| uniswap-v4 | 0.89% | 3.25% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VSN yield today?
 
-2.53% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
+2.09% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many VSN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.56M in total.
+4 live pools clear this page's $100K TVL floor, $5.58M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VSN pools have the most stable APY history?
 
-Based on APY history only, VSN's lower-variability candidates are uniswap-v4 (Arbitrum), 2.53% APY, $627.6K TVL, https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token; uniswap-v4 (Arbitrum), 1.16% APY, $414.1K TVL, https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token; uniswap-v4 (Ethereum), 1.55% APY, $3.13M TVL, https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token; uniswap-v4 (Ethereum), 2.29% APY, $1.39M TVL, https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VSN's lower-variability candidates are uniswap-v4 (Arbitrum), 1.64% APY, $628.7K TVL, https://www.defi.garden/?pool=975a981d-ef67-4855-ba14-f770a6714a2a&src=seo_token; uniswap-v4 (Arbitrum), 0.89% APY, $414.9K TVL, https://www.defi.garden/?pool=2b4ae96b-396e-4bf9-9594-bf0d4643ffce&src=seo_token; uniswap-v4 (Ethereum), 1.21% APY, $3.14M TVL, https://www.defi.garden/?pool=39255c54-dab3-4f38-8bbd-951548ff7756&src=seo_token; uniswap-v4 (Ethereum), 2.09% APY, $1.39M TVL, https://www.defi.garden/?pool=761d4f93-d2dc-4601-a1e3-f09e62c77405&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

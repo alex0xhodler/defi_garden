@@ -4,25 +4,25 @@ The highest honest JRROYAPYUSD yield right now is 19.15% on pendle (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e&src=seo_token) | Ethereum | 486.42% | $1.15M |
-| [pendle →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token) | Ethereum | 8.99% | $981.6K |
-| [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $981.6K |
+| [royco-v2 →](https://www.defi.garden/?pool=168147fa-b90d-5ffd-bfb3-9ea4e737ff5e&src=seo_token) | Ethereum | 615.00% | $1.14M |
+| [pendle →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token) | Ethereum | 8.90% | $991.8K |
+| [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $991.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, JRROYAPYUSD's lower-variability candidates are pendle (Ethereum), 19.15% APY, $981.6K TVL, https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token; pendle (Ethereum), 8.99% APY, $981.6K TVL, https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JRROYAPYUSD's lower-variability candidates are pendle (Ethereum), 19.15% APY, $991.8K TVL, https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token; pendle (Ethereum), 8.90% APY, $991.8K TVL, https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $981.6K |
-| 2 | [pendle →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token) | Ethereum | 8.99% | $981.6K |
+| 1 | [pendle →](https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token) | Ethereum | 19.15% | $991.8K |
+| 2 | [pendle →](https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token) | Ethereum | 8.90% | $991.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-JRROYAPYUSD shows up in 3 pools here, with rates from 8.99% to 486.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JRROYAPYUSD shows up in 3 pools here, with rates from 8.90% to 615.00% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 19.15% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -30,8 +30,8 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| royco-v2 | 486.42% | 239.01% | Base rate |
-| pendle | 8.99% | 9.12% | Base rate |
+| royco-v2 | 615.00% | 241.86% | Base rate |
+| pendle | 8.90% | 9.11% | Base rate |
 | pendle | 19.15% | 19.15% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JRROYAPYUSD pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.11M in total.
+3 live pools clear this page's $100K TVL floor, $3.12M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which JRROYAPYUSD pools have the most stable APY history?
 
-Based on APY history only, JRROYAPYUSD's lower-variability candidates are pendle (Ethereum), 19.15% APY, $981.6K TVL, https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token; pendle (Ethereum), 8.99% APY, $981.6K TVL, https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, JRROYAPYUSD's lower-variability candidates are pendle (Ethereum), 19.15% APY, $991.8K TVL, https://www.defi.garden/?pool=bfbbf2f7-d7d8-4bb7-8c4e-f7d0399f77d0&src=seo_token; pendle (Ethereum), 8.90% APY, $991.8K TVL, https://www.defi.garden/?pool=3208bd1b-43c2-435e-a28c-779cdddf8453&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

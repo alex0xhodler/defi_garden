@@ -1,10 +1,10 @@
 # TET DeFi Yields
 
-The highest honest TET yield right now is 2.06% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TET yield right now is 1.99% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=91ad2ca4-4220-4e8e-b231-efd55ab54c67&src=seo_token) | Ethereum | 2.06% | $220.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=91ad2ca4-4220-4e8e-b231-efd55ab54c67&src=seo_token) | Ethereum | 1.99% | $220.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TET yield today?
 
-2.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.99% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TET pools clear the TVL floor?
 

@@ -61,17 +61,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/robinhood-chain</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/stellar</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/sonic</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/robinhood-chain</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -106,12 +106,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/plume-mainnet</loc>
+    <loc>https://www.defi.garden/ko/chains/op-mainnet</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/op-mainnet</loc>
+    <loc>https://www.defi.garden/ko/chains/plume-mainnet</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -171,12 +171,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/starknet</loc>
+    <loc>https://www.defi.garden/ko/chains/stacks</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/stacks</loc>
+    <loc>https://www.defi.garden/ko/chains/starknet</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -251,12 +251,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/flow</loc>
+    <loc>https://www.defi.garden/ko/chains/celo</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/celo</loc>
+    <loc>https://www.defi.garden/ko/chains/flow</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -321,12 +321,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/core</loc>
+    <loc>https://www.defi.garden/ko/chains/echelon-initia</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/echelon-initia</loc>
+    <loc>https://www.defi.garden/ko/chains/core</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>daily</changefreq>
   </url>

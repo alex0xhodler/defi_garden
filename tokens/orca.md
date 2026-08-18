@@ -1,29 +1,29 @@
 # ORCA DeFi Yields
 
-The highest honest ORCA yield right now is 0.05% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ORCA yield right now is 0.06% on orca-dex (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token) | Solana | 56.31% | $552.3K |
-| [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token) | Solana | 0.05% | $300.9K |
+| [orca-dex →](https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token) | Solana | 46.26% | $575.6K |
+| [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token) | Solana | 0.06% | $304.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ORCA's lower-variability candidates are orca-dex (Solana), 0.05% APY, $300.9K TVL, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token; orca-dex (Solana), 56.31% APY, $552.3K TVL, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ORCA's lower-variability candidates are orca-dex (Solana), 0.06% APY, $304.7K TVL, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token; orca-dex (Solana), 46.26% APY, $575.6K TVL, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token) | Solana | 0.05% | $300.9K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token) | Solana | 56.31% | $552.3K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token) | Solana | 0.06% | $304.7K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token) | Solana | 46.26% | $575.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ORCA shows up in 2 pools here, with rates from 0.05% to 56.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ORCA shows up in 2 pools here, with rates from 0.06% to 46.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 14.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 14.83% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 56.31% | 29.34% | Base rate |
-| orca-dex | 0.05% | 0.16% | Base rate |
+| orca-dex | 46.26% | 29.51% | Base rate |
+| orca-dex | 0.06% | 0.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ORCA yield today?
 
-0.05% APY on orca-dex (Solana), based on live DefiLlama data.
+0.06% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many ORCA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $994.4K in total.
+3 live pools clear this page's $100K TVL floor, $1.02M in total.
 
 ### Are these rates safe?
 
@@ -52,16 +52,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ORCA pools have the most stable APY history?
 
-Based on APY history only, ORCA's lower-variability candidates are orca-dex (Solana), 0.05% APY, $300.9K TVL, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token; orca-dex (Solana), 56.31% APY, $552.3K TVL, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ORCA's lower-variability candidates are orca-dex (Solana), 0.06% APY, $304.7K TVL, https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token; orca-dex (Solana), 46.26% APY, $575.6K TVL, https://www.defi.garden/?pool=558efc67-8544-434b-bf15-ea152f5c5e1d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

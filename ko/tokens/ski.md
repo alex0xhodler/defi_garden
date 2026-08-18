@@ -1,10 +1,10 @@
 # SKI 디파이 수익률
 
-현재 SKI의 가장 높은 정직한 수익률은 Base의 uniswap-v2에서 10.80%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SKI의 가장 높은 정직한 수익률은 Base의 uniswap-v2에서 9.53%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=190da63b-79b9-4d0b-b3fa-440c612d631b&src=seo_token) | Base | 10.80% | $635.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=190da63b-79b9-4d0b-b3fa-440c612d631b&src=seo_token) | Base | 9.53% | $521.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 SKI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 10.80%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 9.53%예요.
 
 ### SKI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $635.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $521.1K예요.
 
 ### 이 수익률은 안전한가요?
 

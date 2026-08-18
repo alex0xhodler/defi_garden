@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WMTUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $7.58M in total.
+2 live pools clear this page's $100K TVL floor, $7.59M in total.
 
 ### Are these rates safe?
 

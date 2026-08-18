@@ -4,7 +4,7 @@ The highest honest FLUID yield right now is 0.03% on uniswap-v3 (Base), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2edfe9c4-2e3b-4cc7-8bd3-7383a8f0b343&src=seo_token) | Base | 0.03% | $188K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2edfe9c4-2e3b-4cc7-8bd3-7383a8f0b343&src=seo_token) | Base | 0.03% | $192.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FLUID pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.78M in total.
+4 live pools clear this page's $100K TVL floor, $3.8M in total.
 
 ### Are these rates safe?
 

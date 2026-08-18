@@ -4,7 +4,7 @@ The highest honest RAMP yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=3edd79ba-7af4-4855-8f3b-152be40b3333&src=seo_token) | Ethereum | 0.02% | $115K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3edd79ba-7af4-4855-8f3b-152be40b3333&src=seo_token) | Ethereum | 0.02% | $115.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RAMP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115K in total.
+1 live pool clear this page's $100K TVL floor, $115.5K in total.
 
 ### Are these rates safe?
 

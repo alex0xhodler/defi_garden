@@ -1,10 +1,10 @@
 # RETIRE DeFi Yields
 
-The highest honest RETIRE yield right now is 4.54% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RETIRE yield right now is 6.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=70926954-4cfb-41e2-8aff-cbc81532bd7c&src=seo_token) | Solana | 4.54% | $405.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=70926954-4cfb-41e2-8aff-cbc81532bd7c&src=seo_token) | Solana | 6.53% | $422.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RETIRE yield today?
 
-4.54% APY on raydium-amm (Solana), based on live DefiLlama data.
+6.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many RETIRE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $405.8K in total.
+1 live pool clear this page's $100K TVL floor, $422.4K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank RETIRE pools. This view cover
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

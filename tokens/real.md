@@ -1,10 +1,10 @@
 # REAL DeFi Yields
 
-The highest honest REAL yield right now is 4.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REAL yield right now is 4.97% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9bd6ba2f-30ac-4d25-ae4e-b143585cf4a8&src=seo_token) | Solana | 4.99% | $187.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=9bd6ba2f-30ac-4d25-ae4e-b143585cf4a8&src=seo_token) | Solana | 4.97% | $187.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REAL yield today?
 
-4.99% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.97% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many REAL pools clear the TVL floor?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank REAL pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

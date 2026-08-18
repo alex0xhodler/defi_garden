@@ -4,7 +4,7 @@ The highest honest BLOCK yield right now is 2.46% on uniswap-v3 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=21dfa227-f69a-402c-9b63-6da59a97feee&src=seo_token) | Ethereum | 2.46% | $187.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=21dfa227-f69a-402c-9b63-6da59a97feee&src=seo_token) | Ethereum | 2.46% | $190K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BLOCK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $187.7K in total.
+1 live pool clear this page's $100K TVL floor, $190K in total.
 
 ### Are these rates safe?
 

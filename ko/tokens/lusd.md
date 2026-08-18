@@ -6,18 +6,18 @@
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.09% | $11.9M |
 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.58% | $1.25M |
-| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.05% | $785.5K |
+| [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.05% | $785.7K |
 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.09%, TVL $11.9M, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; Ethereum의 curve-dex, APY 0.05%, TVL $785.5K, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; Ethereum의 aave-v3, APY 0.58%, TVL $1.25M, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; Arbitrum의 aave-v3, APY 1.00%, TVL $117.3K, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.09%, TVL $11.9M, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; Ethereum의 curve-dex, APY 0.05%, TVL $785.7K, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; Ethereum의 aave-v3, APY 0.58%, TVL $1.25M, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; Arbitrum의 aave-v3, APY 1.00%, TVL $117.3K, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token) | Ethereum | 0.09% | $11.9M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.05% | $785.5K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token) | Ethereum | 0.05% | $785.7K |
 | 3 | [aave-v3 →](https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token) | Ethereum | 0.58% | $1.25M |
 | 4 | [aave-v3 →](https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token) | Arbitrum | 1.00% | $117.3K |
 
@@ -35,7 +35,7 @@ LUSD 풀은 여기 4개가 있고, 2개 체인에서 APY가 0.05%부터 1.00%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 0.09% | 0.04% | 인센티브 0.44% |
+| curve-dex | 0.09% | 0.04% | 인센티브 0.45% |
 | aave-v3 | 0.58% | 0.54% | 기본 금리 |
 | curve-dex | 0.05% | 0.10% | 기본 금리 |
 | aave-v3 | 1.00% | 1.00% | 기본 금리 |
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 aave-v3에서 APY 1.00%예요.
 
 ### LUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.09%, TVL $11.9M, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; Ethereum의 curve-dex, APY 0.05%, TVL $785.5K, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; Ethereum의 aave-v3, APY 0.58%, TVL $1.25M, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; Arbitrum의 aave-v3, APY 1.00%, TVL $117.3K, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LUSD의 변동성 낮은 후보는 Ethereum의 curve-dex, APY 0.09%, TVL $11.9M, https://www.defi.garden/?pool=836e7def-cb99-46f6-8e22-1056a81e4040&src=seo_token; Ethereum의 curve-dex, APY 0.05%, TVL $785.7K, https://www.defi.garden/?pool=80011215-3cbe-4d82-b6c6-5b7a69f729ce&src=seo_token; Ethereum의 aave-v3, APY 0.58%, TVL $1.25M, https://www.defi.garden/?pool=ef8fbf02-ac96-4453-a78c-37bda4cd65e3&src=seo_token; Arbitrum의 aave-v3, APY 1.00%, TVL $117.3K, https://www.defi.garden/?pool=b6d41555-60e5-485f-9629-ae292c563a5d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

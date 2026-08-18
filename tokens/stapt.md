@@ -4,7 +4,7 @@ The highest honest STAPT yield right now is 2.44% on echelon-market (Aptos), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=cc5bf3e2-c68f-45ae-8d61-8d2ec473ddd3&src=seo_token) | Aptos | 2.44% | $431.5K |
+| [echelon-market →](https://www.defi.garden/?pool=cc5bf3e2-c68f-45ae-8d61-8d2ec473ddd3&src=seo_token) | Aptos | 2.44% | $436.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STAPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $431.5K in total.
+1 live pool clear this page's $100K TVL floor, $436.1K in total.
 
 ### Are these rates safe?
 

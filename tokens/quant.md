@@ -1,10 +1,10 @@
 # QUANT DeFi Yields
 
-The highest honest QUANT yield right now is 1.11% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QUANT yield right now is 1.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0d2d7e81-8912-45a8-9990-6e73619504b7&src=seo_token) | Solana | 1.11% | $115.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=0d2d7e81-8912-45a8-9990-6e73619504b7&src=seo_token) | Solana | 1.10% | $116.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QUANT yield today?
 
-1.11% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many QUANT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.2K in total.
+1 live pool clear this page's $100K TVL floor, $116.8K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank QUANT pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

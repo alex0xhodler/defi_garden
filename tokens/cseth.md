@@ -4,7 +4,7 @@ The highest honest CSETH yield right now is 1.43% on morpho-blue (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=fe26020c-d2fc-4524-822a-991ee1d658b5&src=seo_token) | Base | 1.43% | $100.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=fe26020c-d2fc-4524-822a-991ee1d658b5&src=seo_token) | Base | 1.43% | $101.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.8K in total.
+1 live pool clear this page's $100K TVL floor, $101.9K in total.
 
 ### Are these rates safe?
 

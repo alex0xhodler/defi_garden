@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank CEUR pools. This view covers 
 ## Related tokens
 
 - [CUSD](https://www.defi.garden/tokens/cusd)
+- [EURM](https://www.defi.garden/tokens/eurm)
 - [CELO](https://www.defi.garden/tokens/celo)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
 - [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

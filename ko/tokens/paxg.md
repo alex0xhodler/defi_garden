@@ -1,39 +1,39 @@
 # PAXG 디파이 수익률
 
-현재 PAXG의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 7.88%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PAXG의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 8.06%이며, $100K TVL 기준을 넘는 23개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token) | Ethereum | 1.31% | $13.84M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 1.73% | $5.46M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.82% | $3.41M |
-| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.54% | $2.26M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token) | Ethereum | 7.88% | $2.06M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token) | Ethereum | 4.34% | $1.02M |
-| [curve-dex →](https://www.defi.garden/?pool=dab77475-487b-418e-bf9e-7fc337a51de1&src=seo_token) | Ethereum | 0.10% | $846.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token) | Ethereum | 2.30% | $798.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token) | Ethereum | 1.47% | $13.85M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 1.74% | $5.42M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.56% | $3.38M |
+| [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.28% | $2.24M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token) | Ethereum | 8.06% | $2.05M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token) | Ethereum | 4.20% | $1.02M |
+| [curve-dex →](https://www.defi.garden/?pool=dab77475-487b-418e-bf9e-7fc337a51de1&src=seo_token) | Ethereum | 0.11% | $845.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token) | Ethereum | 5.73% | $800.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 PAXG의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.82%, TVL $3.41M, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token; Ethereum의 uniswap-v3, APY 1.73%, TVL $5.46M, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; Ethereum의 curve-dex, APY 0.10%, TVL $846.9K, https://www.defi.garden/?pool=dab77475-487b-418e-bf9e-7fc337a51de1&src=seo_token; Ethereum의 fluid-dex, APY 0.54%, TVL $2.26M, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; Ethereum의 uniswap-v2, APY 1.31%, TVL $13.84M, https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token; Ethereum의 uniswap-v3, APY 7.88%, TVL $2.06M, https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token; Ethereum의 uniswap-v4, APY 2.30%, TVL $798.3K, https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token; Ethereum의 uniswap-v3, APY 4.34%, TVL $1.02M, https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PAXG의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.56%, TVL $3.38M, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token; Ethereum의 uniswap-v3, APY 1.74%, TVL $5.42M, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; Ethereum의 curve-dex, APY 0.11%, TVL $845.8K, https://www.defi.garden/?pool=dab77475-487b-418e-bf9e-7fc337a51de1&src=seo_token; Ethereum의 fluid-dex, APY 0.28%, TVL $2.24M, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; Ethereum의 uniswap-v2, APY 1.47%, TVL $13.85M, https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token; Ethereum의 uniswap-v3, APY 8.06%, TVL $2.05M, https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token; Ethereum의 uniswap-v4, APY 5.73%, TVL $800.4K, https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token; Ethereum의 uniswap-v3, APY 4.20%, TVL $1.02M, https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.82% | $3.41M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 1.73% | $5.46M |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=dab77475-487b-418e-bf9e-7fc337a51de1&src=seo_token) | Ethereum | 0.10% | $846.9K |
-| 4 | [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.54% | $2.26M |
-| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token) | Ethereum | 1.31% | $13.84M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token) | Ethereum | 7.88% | $2.06M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token) | Ethereum | 2.30% | $798.3K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token) | Ethereum | 4.34% | $1.02M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token) | Ethereum | 0.56% | $3.38M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token) | Ethereum | 1.74% | $5.42M |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=dab77475-487b-418e-bf9e-7fc337a51de1&src=seo_token) | Ethereum | 0.11% | $845.8K |
+| 4 | [fluid-dex →](https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token) | Ethereum | 0.28% | $2.24M |
+| 5 | [uniswap-v2 →](https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token) | Ethereum | 1.47% | $13.85M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token) | Ethereum | 8.06% | $2.05M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token) | Ethereum | 5.73% | $800.4K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token) | Ethereum | 4.20% | $1.02M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PAXG 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.10%부터 7.88%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PAXG 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.11%부터 8.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.82%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -43,14 +43,14 @@ PAXG 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.10%부터 7.88%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 1.31% | 1.68% | 기본 금리 |
-| uniswap-v3 | 1.73% | 1.95% | 기본 금리 |
-| uniswap-v3 | 0.82% | 0.52% | 기본 금리 |
-| fluid-dex | 0.54% | 0.56% | 기본 금리 |
-| uniswap-v3 | 7.88% | 6.39% | 기본 금리 |
-| uniswap-v3 | 4.34% | 4.87% | 기본 금리 |
-| curve-dex | 0.10% | 0.28% | 인센티브 3.06% |
-| uniswap-v4 | 2.30% | 5.05% | 기본 금리 |
+| uniswap-v2 | 1.47% | 1.69% | 기본 금리 |
+| uniswap-v3 | 1.74% | 1.95% | 기본 금리 |
+| uniswap-v3 | 0.56% | 0.53% | 기본 금리 |
+| fluid-dex | 0.28% | 0.56% | 기본 금리 |
+| uniswap-v3 | 8.06% | 6.45% | 기본 금리 |
+| uniswap-v3 | 4.20% | 4.88% | 기본 금리 |
+| curve-dex | 0.11% | 0.28% | 인센티브 2.82% |
+| uniswap-v4 | 5.73% | 5.07% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ PAXG 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.10%부터 7.88%까
 
 ### 오늘 PAXG의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 7.88%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 8.06%예요.
 
 ### PAXG 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $56.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 23개이며, 합산 TVL은 $55.74M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 7.88%예�
 
 ### PAXG 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 PAXG의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.82%, TVL $3.41M, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token; Ethereum의 uniswap-v3, APY 1.73%, TVL $5.46M, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; Ethereum의 curve-dex, APY 0.10%, TVL $846.9K, https://www.defi.garden/?pool=dab77475-487b-418e-bf9e-7fc337a51de1&src=seo_token; Ethereum의 fluid-dex, APY 0.54%, TVL $2.26M, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; Ethereum의 uniswap-v2, APY 1.31%, TVL $13.84M, https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token; Ethereum의 uniswap-v3, APY 7.88%, TVL $2.06M, https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token; Ethereum의 uniswap-v4, APY 2.30%, TVL $798.3K, https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token; Ethereum의 uniswap-v3, APY 4.34%, TVL $1.02M, https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PAXG의 변동성 낮은 후보는 Ethereum의 uniswap-v3, APY 0.56%, TVL $3.38M, https://www.defi.garden/?pool=be2d3040-1888-4b9a-936c-becabab6009f&src=seo_token; Ethereum의 uniswap-v3, APY 1.74%, TVL $5.42M, https://www.defi.garden/?pool=0f7a6ecb-f4d9-43ea-8df9-7076f99f4ad0&src=seo_token; Ethereum의 curve-dex, APY 0.11%, TVL $845.8K, https://www.defi.garden/?pool=dab77475-487b-418e-bf9e-7fc337a51de1&src=seo_token; Ethereum의 fluid-dex, APY 0.28%, TVL $2.24M, https://www.defi.garden/?pool=5cb413e1-6478-4b0c-9bd9-c817b8eb035a&src=seo_token; Ethereum의 uniswap-v2, APY 1.47%, TVL $13.85M, https://www.defi.garden/?pool=40ac1aaf-26f1-4a04-b908-539f37672ef2&src=seo_token; Ethereum의 uniswap-v3, APY 8.06%, TVL $2.05M, https://www.defi.garden/?pool=af5844bd-59e8-4dbf-be0c-f855a860a426&src=seo_token; Ethereum의 uniswap-v4, APY 5.73%, TVL $800.4K, https://www.defi.garden/?pool=304ad1ca-96fc-4a47-9e8d-4818025b0608&src=seo_token; Ethereum의 uniswap-v3, APY 4.20%, TVL $1.02M, https://www.defi.garden/?pool=459e731e-60a0-45fa-8b49-092468ab14f5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

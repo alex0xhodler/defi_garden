@@ -4,18 +4,18 @@ The highest honest PSOL yield right now is 6.30% on phantom-sol (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [phantom-sol →](https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token) | Solana | 6.30% | $125.57M |
-| [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.09% | $1.46M |
+| [phantom-sol →](https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token) | Solana | 6.30% | $127.31M |
+| [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.09% | $1.48M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PSOL's lower-variability candidates are phantom-sol (Solana), 6.30% APY, $125.57M TVL, https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token; orca-dex (Solana), 0.09% APY, $1.46M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PSOL's lower-variability candidates are phantom-sol (Solana), 6.30% APY, $127.31M TVL, https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token; orca-dex (Solana), 0.09% APY, $1.48M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [phantom-sol →](https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token) | Solana | 6.30% | $125.57M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.09% | $1.46M |
+| 1 | [phantom-sol →](https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token) | Solana | 6.30% | $127.31M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token) | Solana | 0.09% | $1.48M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $133.2M in total.
+3 live pools clear this page's $100K TVL floor, $135.05M in total.
 
 ### Are these rates safe?
 
@@ -52,16 +52,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PSOL pools have the most stable APY history?
 
-Based on APY history only, PSOL's lower-variability candidates are phantom-sol (Solana), 6.30% APY, $125.57M TVL, https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token; orca-dex (Solana), 0.09% APY, $1.46M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PSOL's lower-variability candidates are phantom-sol (Solana), 6.30% APY, $127.31M TVL, https://www.defi.garden/?pool=7f5c2e8b-0428-431b-ba6e-571c38a57010&src=seo_token; orca-dex (Solana), 0.09% APY, $1.48M TVL, https://www.defi.garden/?pool=f77695be-107f-40d3-9414-f718c459f225&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
