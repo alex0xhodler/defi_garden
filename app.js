@@ -124,8 +124,13 @@ const CATEGORY_TABS = [
 // buttons. Rendered via navIcon() with stroke="currentColor" so each glyph
 // inherits its control's text color (inactive/active/has-selection) automatically.
 const NAV_ICONS = {
-  // grid — "all / everything"
+  // grid / cards — "all / everything / grid view" (sharp square cards)
   all: 'M3 3h7v7H3z M14 3h7v7h-7z M14 14h7v7h-7z M3 14h7v7H3z',
+  grid: 'M3 3h7v7H3z M14 3h7v7h-7z M14 14h7v7h-7z M3 14h7v7H3z',
+  cards: 'M3 3h7v7H3z M14 3h7v7h-7z M14 14h7v7h-7z M3 14h7v7H3z',
+  // list / rows — sharp horizontal rows
+  list: 'M3 6h18 M3 12h18 M3 18h18',
+  rows: 'M3 6h18 M3 12h18 M3 18h18',
   // landmark / bank — lending
   lending: 'M3 21h18 M4 10h16 M5 21v-11 M9 21v-11 M15 21v-11 M19 21v-11 M12 3 4 10h16z',
   // layers — staking
@@ -133,17 +138,20 @@ const NAV_ICONS = {
   // arrow-left-right (swap) — LP/DEX
   lpdex: 'M8 3 4 7l4 4 M4 7h16 M16 21l4-4-4-4 M20 17H4',
   // building — real-world assets
-  rwa: 'M4 22V4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18 M4 22h16 M9 7h2 M13 7h2 M9 11h2 M13 11h2 M10 22v-4h4v4',
+  rwa: 'M4 22V3h16v19 M4 22h16 M9 7h2 M13 7h2 M9 11h2 M13 11h2 M10 22v-4h4v4',
   // trending-up — yield derivatives
   yieldderiv: 'M22 7l-8.5 8.5-5-5L2 17 M16 7h6v6',
   // link — chains
   chains: 'M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71 M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71',
-  // database (cylinder) — TVL
-  tvl: 'M4 6c0-1.66 3.58-3 8-3s8 1.34 8 3 M4 6c0 1.66 3.58 3 8 3s8-1.34 8-3 M4 6v12c0 1.66 3.58 3 8 3s8-1.34 8-3V6 M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3',
+  // stack / database — TVL (sharp angular stacked layers)
+  tvl: 'M4 4h16v4H4z M4 10h16v4H4z M4 16h16v4H4z',
   // cube / box — protocols
   protocols: 'M21 7.5l-9-5-9 5v9l9 5 9-5v-9z M3 7.5l9 5 9-5 M12 12.5v10',
-  // percent — APY
-  apy: 'M19 5 5 19 M7 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 1 0 0-5z M17 14.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 1 0 0-5z'
+  // percent — APY (sharp angles: diagonal line + square dots)
+  apy: 'M19 5 5 19 M5 5h4v4H5z M15 15h4v4h-4z',
+  // shield / gauge — Risk adjusted (Sharpe)
+  sharpe: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20',
+  risk: 'M12 2L4 6v6l8 10 8-10V6L12 2z M12 2v20'
 };
 
 // Render a 16x16 currentColor line glyph for the nav rail (spec 093).
@@ -804,6 +812,63 @@ function AnimatedNumber({ value, formatFn = (v) => v, duration = 1200, delay = 0
 
   return React.createElement(React.Fragment, null, formatFn(displayValue));
 }
+
+// Decorative protocol + chain logo for a pool row/card (spec 094). Purely
+// visual: reads pool.project/pool.chain only, never touches ordering,
+// filtering, numbers, anomaly flags, or the 092 demotion. Icons load lazily
+// from the DefiLlama icon CDN and degrade to a monogram (first letter of the
+// project) on error, so a broken/blocked image never reflows the row. The
+// container is aria-hidden — the existing text badge carries accessible
+// identity — but the imgs still get real alt text per the a11y criterion.
+const PoolLogo = React.memo(({ project, chain, t }) => {
+  const [protoError, setProtoError] = useState(false);
+  const [chainError, setChainError] = useState(false);
+
+  useEffect(() => {
+    setProtoError(false);
+    setChainError(false);
+  }, [project, chain]);
+
+  const protoSrc = project
+    ? `https://icons.llamao.fi/icons/protocols/${encodeURIComponent(String(project).toLowerCase())}?w=48&h=48`
+    : '';
+  const chainSrc = chain
+    ? `https://icons.llamao.fi/icons/chains/rsz_${encodeURIComponent(String(chain).toLowerCase())}?w=48&h=48`
+    : '';
+  const monogram = (String(project || '').trim()[0] || '?').toUpperCase();
+  const altProto = t ? t('poolProtocolLogoAlt', project || '') : `${project || ''} logo`;
+  const altChain = t ? t('poolChainLogoAlt', chain || '') : `${chain || ''} logo`;
+
+  return React.createElement('div', { className: 'pool-logo', 'aria-hidden': 'true' },
+    (!protoSrc || protoError)
+      ? React.createElement('div', {
+          className: 'pool-logo-monogram',
+          title: altProto
+        }, monogram)
+      : React.createElement('img', {
+          className: 'pool-logo-img',
+          src: protoSrc,
+          loading: 'lazy',
+          width: 24,
+          height: 24,
+          decoding: 'async',
+          alt: altProto,
+          onError: () => setProtoError(true)
+        }),
+    (chainSrc && !chainError)
+      ? React.createElement('img', {
+          className: 'pool-logo-chain',
+          src: chainSrc,
+          loading: 'lazy',
+          width: 14,
+          height: 14,
+          decoding: 'async',
+          alt: altChain,
+          onError: () => setChainError(true)
+        })
+      : null
+  );
+});
 
 // APY sanity constants
 const APY_SANITY_LIMIT = 1000;
@@ -2691,6 +2756,24 @@ function App() {
 
   const totalPages = Math.ceil(filteredPools.length / itemsPerPage);
 
+  // Keyboard navigation for pagination (ArrowLeft / ArrowRight)
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName) || document.activeElement?.isContentEditable) {
+        return;
+      }
+      if (totalPages > 1) {
+        if (e.key === 'ArrowLeft') {
+          setCurrentPage(prev => Math.max(1, prev - 1));
+        } else if (e.key === 'ArrowRight') {
+          setCurrentPage(prev => Math.min(totalPages, prev + 1));
+        }
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [totalPages]);
+
   // Handle pool click to navigate to pool detail page
   const handlePoolClick = (pool, e, position = -1, surface) => {
     e.preventDefault();
@@ -2967,53 +3050,7 @@ function App() {
     };
   };
 
-  // Decorative protocol + chain logo for a pool row/card (spec 094). Purely
-  // visual: reads pool.project/pool.chain only, never touches ordering,
-  // filtering, numbers, anomaly flags, or the 092 demotion. Icons load lazily
-  // from the DefiLlama icon CDN and degrade to a monogram (first letter of the
-  // project) on error, so a broken/blocked image never reflows the row. The
-  // container is aria-hidden — the existing text badge carries accessible
-  // identity — but the imgs still get real alt text per the a11y criterion.
-  const PoolLogo = ({ project, chain }) => {
-    const [protoError, setProtoError] = useState(false);
-    const [chainError, setChainError] = useState(false);
-    const protoSrc = project
-      ? `https://icons.llamao.fi/icons/protocols/${encodeURIComponent(String(project).toLowerCase())}?w=48&h=48`
-      : '';
-    const chainSrc = chain
-      ? `https://icons.llamao.fi/icons/chains/rsz_${encodeURIComponent(String(chain).toLowerCase())}?w=48&h=48`
-      : '';
-    const monogram = (String(project || '').trim()[0] || '?').toUpperCase();
-    return React.createElement('div', { className: 'pool-logo', 'aria-hidden': 'true' },
-      (!protoSrc || protoError)
-        ? React.createElement('div', {
-            className: 'pool-logo-monogram',
-            title: t('poolProtocolLogoAlt', project || '')
-          }, monogram)
-        : React.createElement('img', {
-            className: 'pool-logo-img',
-            src: protoSrc,
-            loading: 'lazy',
-            width: 24,
-            height: 24,
-            decoding: 'async',
-            alt: t('poolProtocolLogoAlt', project),
-            onError: () => setProtoError(true)
-          }),
-      (chainSrc && !chainError)
-        ? React.createElement('img', {
-            className: 'pool-logo-chain',
-            src: chainSrc,
-            loading: 'lazy',
-            width: 14,
-            height: 14,
-            decoding: 'async',
-            alt: t('poolChainLogoAlt', chain),
-            onError: () => setChainError(true)
-          })
-        : null
-    );
-  };
+
 
   // Shared pool-card renderer — factored out of the results grid so the
   // zero-result "alternatives" block (spec 012) can render pools with the
@@ -3050,7 +3087,7 @@ function App() {
       // Header: Symbol + Protocol info + APY
       React.createElement('div', { className: 'pool-header-new' },
         React.createElement('div', { className: 'pool-name-group' },
-          React.createElement(PoolLogo, { project: pool.project, chain: pool.chain }),
+          React.createElement(PoolLogo, { project: pool.project, chain: pool.chain, t }),
           React.createElement('div', { className: 'pool-left-section' },
             React.createElement('div', { className: 'pool-symbol' },
               pool.symbol
@@ -3487,7 +3524,6 @@ function App() {
         React.createElement('div', { className: 'error-message' }, error)
       ),
 
-
       // Results Section - show for both token mode and chain mode
       (selectedToken || (chainMode && selectedChain) || deadPoolResolved) && React.createElement('div', { className: 'results-section animate-on-mount' },
         filteredPools.length > 0 && !deadPoolResolved ? [
@@ -3512,13 +3548,15 @@ function App() {
                   React.createElement('button', {
                     className: `view-toggle-btn ${viewMode === 'grid' ? 'active' : ''}`,
                     onClick: () => setViewMode('grid'),
-                    title: 'Grid View'
-                  }, '▦'),
+                    title: 'Grid View',
+                    'aria-label': 'Grid View'
+                  }, navIcon('grid')),
                   React.createElement('button', {
                     className: `view-toggle-btn ${viewMode === 'list' ? 'active' : ''}`,
                     onClick: () => setViewMode('list'),
-                    title: 'List View'
-                  }, '☰')
+                    title: 'List View',
+                    'aria-label': 'List View'
+                  }, navIcon('list'))
                 ),
                 React.createElement('div', { className: 'sort-control' },
                   React.createElement('span', { className: 'sort-label' }, t('sortByLabel')),
@@ -3526,15 +3564,24 @@ function App() {
                     React.createElement('button', {
                       className: `view-toggle-btn sort-toggle-btn ${sortBy === 'apy' ? 'active' : ''}`,
                       onClick: () => { setSortBy('apy'); setUserSortedApy(true); }
-                    }, t('resultsColApy')),
+                    },
+                      navIcon('apy'),
+                      React.createElement('span', null, t('resultsColApy'))
+                    ),
                     React.createElement('button', {
                       className: `view-toggle-btn sort-toggle-btn ${sortBy === 'tvl' ? 'active' : ''}`,
                       onClick: () => { setSortBy('tvl'); setUserSortedApy(false); }
-                    }, t('resultsColTvl')),
+                    },
+                      navIcon('tvl'),
+                      React.createElement('span', null, t('resultsColTvl'))
+                    ),
                     React.createElement('button', {
                       className: `view-toggle-btn sort-toggle-btn ${sortBy === 'sharpe' ? 'active' : ''}`,
                       onClick: () => { setSortBy('sharpe'); setUserSortedApy(false); }
-                    }, t('sortByRiskAdjusted'))
+                    },
+                      navIcon('sharpe'),
+                      React.createElement('span', null, t('sortByRiskAdjusted'))
+                    )
                   )
                 )
               )
