@@ -1,10 +1,10 @@
 # STONX DeFi Yields
 
-The highest honest STONX yield right now is 20.35% on ekubo (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONX yield right now is 20.30% on ekubo (Robinhood Chain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_token) | Robinhood Chain | 20.35% | $651K |
+| [ekubo →](https://www.defi.garden/?pool=6fcba3d7-c4b0-58a7-b611-35c6f01ba579&src=seo_token) | Robinhood Chain | 20.30% | $652.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STONX yield today?
 
-20.35% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
+20.30% APY on ekubo (Robinhood Chain), based on live DefiLlama data.
 
 ### How many STONX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $651K in total.
+1 live pool clear this page's $100K TVL floor, $652.4K in total.
 
 ### Are these rates safe?
 

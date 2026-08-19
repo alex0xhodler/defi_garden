@@ -1,31 +1,31 @@
 # DRV DeFi Yields
 
-The highest honest DRV yield right now is 33.48% on aerodrome-v1 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DRV yield right now is 97.44% on aerodrome-slipstream (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 59.62% | $501.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 7.02% | $432K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 33.48% | $262.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 97.44% | $456.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 10.55% | $425.2K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 34.09% | $261.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DRV's lower-variability candidates are aerodrome-v1 (Base), 33.48% APY, $262.9K TVL, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; aerodrome-slipstream (Base), 59.62% APY, $501.3K TVL, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; uniswap-v4 (Base), 7.02% APY, $432K TVL, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DRV's lower-variability candidates are aerodrome-v1 (Base), 34.09% APY, $261.1K TVL, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; aerodrome-slipstream (Base), 97.44% APY, $456.9K TVL, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; uniswap-v4 (Base), 10.55% APY, $425.2K TVL, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 33.48% | $262.9K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 59.62% | $501.3K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 7.02% | $432K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token) | Base | 34.09% | $261.1K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token) | Base | 97.44% | $456.9K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token) | Base | 10.55% | $425.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DRV shows up in 3 pools here, with rates from 7.02% to 59.62% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DRV shows up in 3 pools here, with rates from 10.55% to 97.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 45.79% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 45.91% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -33,9 +33,9 @@ DRV shows up in 3 pools here, with rates from 7.02% to 59.62% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 59.62% | 187.11% | 41.74% incentives |
-| uniswap-v4 | 7.02% | 41.03% | Base rate |
-| aerodrome-v1 | 33.48% | 45.79% | 100.00% incentives |
+| aerodrome-slipstream | 97.44% | 186.72% | 46.25% incentives |
+| uniswap-v4 | 10.55% | 40.57% | Base rate |
+| aerodrome-v1 | 34.09% | 45.91% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DRV yield today?
 
-33.48% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+97.44% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many DRV pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.2M in total.
+3 live pools clear this page's $100K TVL floor, $1.14M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DRV pools have the most stable APY history?
 
-Based on APY history only, DRV's lower-variability candidates are aerodrome-v1 (Base), 33.48% APY, $262.9K TVL, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; aerodrome-slipstream (Base), 59.62% APY, $501.3K TVL, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; uniswap-v4 (Base), 7.02% APY, $432K TVL, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DRV's lower-variability candidates are aerodrome-v1 (Base), 34.09% APY, $261.1K TVL, https://www.defi.garden/?pool=f9639d02-b33e-4cd1-a126-916e66136bf0&src=seo_token; aerodrome-slipstream (Base), 97.44% APY, $456.9K TVL, https://www.defi.garden/?pool=e727fc76-9e29-4799-a2a0-e3db5d392f9e&src=seo_token; uniswap-v4 (Base), 10.55% APY, $425.2K TVL, https://www.defi.garden/?pool=524b14c1-088c-4d7d-9662-0b1e0bfbdc72&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

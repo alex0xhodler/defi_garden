@@ -1,31 +1,31 @@
 # INJ DeFi Yields
 
-The highest honest INJ yield right now is 11.11% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INJ yield right now is 15.68% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token) | Ethereum | 0.93% | $318.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token) | Ethereum | 0.92% | $323.9K |
 | [sushiswap-v3 →](https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token) | Ethereum | 3.21% | $241.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token) | Ethereum | 11.11% | $112.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token) | Ethereum | 15.68% | $114K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, INJ's lower-variability candidates are sushiswap-v3 (Ethereum), 3.21% APY, $241.8K TVL, https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token; uniswap-v4 (Ethereum), 0.93% APY, $318.4K TVL, https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token; uniswap-v4 (Ethereum), 11.11% APY, $112.7K TVL, https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INJ's lower-variability candidates are sushiswap-v3 (Ethereum), 3.21% APY, $241.8K TVL, https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token; uniswap-v4 (Ethereum), 0.92% APY, $323.9K TVL, https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token; uniswap-v4 (Ethereum), 15.68% APY, $114K TVL, https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token) | Ethereum | 3.21% | $241.8K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token) | Ethereum | 0.93% | $318.4K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token) | Ethereum | 11.11% | $112.7K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token) | Ethereum | 0.92% | $323.9K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token) | Ethereum | 15.68% | $114K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-INJ shows up in 3 pools here, with rates from 0.93% to 11.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+INJ shows up in 3 pools here, with rates from 0.92% to 15.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 17.17% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 17.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.93% | 17.17% | Base rate |
-| sushiswap-v3 | 3.21% | 6.10% | Base rate |
-| uniswap-v4 | 11.11% | 22.12% | Base rate |
+| uniswap-v4 | 0.92% | 17.03% | Base rate |
+| sushiswap-v3 | 3.21% | 6.13% | Base rate |
+| uniswap-v4 | 15.68% | 22.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest INJ yield today?
 
-11.11% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+15.68% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many INJ pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $672.9K in total.
+3 live pools clear this page's $100K TVL floor, $679.7K in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which INJ pools have the most stable APY history?
 
-Based on APY history only, INJ's lower-variability candidates are sushiswap-v3 (Ethereum), 3.21% APY, $241.8K TVL, https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token; uniswap-v4 (Ethereum), 0.93% APY, $318.4K TVL, https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token; uniswap-v4 (Ethereum), 11.11% APY, $112.7K TVL, https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INJ's lower-variability candidates are sushiswap-v3 (Ethereum), 3.21% APY, $241.8K TVL, https://www.defi.garden/?pool=1a66b258-4bb4-4f44-a707-c67bfe605957&src=seo_token; uniswap-v4 (Ethereum), 0.92% APY, $323.9K TVL, https://www.defi.garden/?pool=4ab491e2-e643-5e81-8441-12710be1c65b&src=seo_token; uniswap-v4 (Ethereum), 15.68% APY, $114K TVL, https://www.defi.garden/?pool=59695fdd-1382-48e7-ac2e-3e0689ecb54b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

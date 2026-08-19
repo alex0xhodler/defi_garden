@@ -1,10 +1,10 @@
 # MEBT DeFi Yields
 
-The highest honest MEBT yield right now is 15.06% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEBT yield right now is 15.08% on quickswap-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=356d19f3-8ba1-417b-9f28-aa4f49f25807&src=seo_token) | Polygon | 15.06% | $475.8K |
+| [quickswap-dex →](https://www.defi.garden/?pool=356d19f3-8ba1-417b-9f28-aa4f49f25807&src=seo_token) | Polygon | 15.08% | $473.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEBT yield today?
 
-15.06% APY on quickswap-dex (Polygon), based on live DefiLlama data.
+15.08% APY on quickswap-dex (Polygon), based on live DefiLlama data.
 
 ### How many MEBT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $475.8K in total.
+1 live pool clear this page's $100K TVL floor, $473.8K in total.
 
 ### Are these rates safe?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank MEBT pools. This view covers 
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

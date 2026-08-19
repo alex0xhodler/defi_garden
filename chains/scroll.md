@@ -1,10 +1,10 @@
 # Scroll DeFi Yields
 
-The highest honest Scroll yield right now is 2.29% on ether.fi-stake (Scroll), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Scroll yield right now is 2.36% on ether.fi-stake (Scroll), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=6cec9ad9-01c5-44dd-a081-1ab4e417590c&src=seo_chain) | 2.29% | $469.7K |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=6cec9ad9-01c5-44dd-a081-1ab4e417590c&src=seo_chain) | 2.36% | $472K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Scroll yield today?
 
-2.29% APY on ether.fi-stake (Scroll), based on live DefiLlama data.
+2.36% APY on ether.fi-stake (Scroll), based on live DefiLlama data.
 
 ### How many Scroll pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $469.7K in total.
+1 live pool clear this page's $100K TVL floor, $472K in total.
 
 ### Are these rates safe?
 
@@ -29,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Monad](https://www.defi.garden/chains/monad)
 - [Plasma](https://www.defi.garden/chains/plasma)
-- [Linea](https://www.defi.garden/chains/linea)
+- [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
 ## Top tokens on Scroll
 

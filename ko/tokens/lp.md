@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.01% | $3.1M |
 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
-| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $362.1K |
+| [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.4K |
 | [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.01% | $196.7K |
 | [wombat-exchange →](https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token) | BSC | 0.02% | $186.3K |
 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
@@ -15,7 +15,7 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 LP의 변동성 낮은 후보는 BSC의 wombat-exchange, APY 0.01%, TVL $196.7K, https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token; BSC의 wombat-exchange, APY 0.02%, TVL $186.3K, https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token; BSC의 wombat-exchange, APY 0.03%, TVL $2.05M, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; BSC의 wombat-exchange, APY 0.09%, TVL $131.6K, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; BSC의 wombat-exchange, APY 0.05%, TVL $362.1K, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; Arbitrum의 wombat-exchange, APY 0.21%, TVL $103.2K, https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token; BSC의 wombat-exchange, APY 0.01%, TVL $3.1M, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LP의 변동성 낮은 후보는 BSC의 wombat-exchange, APY 0.01%, TVL $196.7K, https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token; BSC의 wombat-exchange, APY 0.02%, TVL $186.3K, https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token; BSC의 wombat-exchange, APY 0.03%, TVL $2.05M, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; BSC의 wombat-exchange, APY 0.09%, TVL $131.6K, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; BSC의 wombat-exchange, APY 0.05%, TVL $363.4K, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; Arbitrum의 wombat-exchange, APY 0.21%, TVL $103.2K, https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token; BSC의 wombat-exchange, APY 0.01%, TVL $3.1M, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
@@ -23,7 +23,7 @@ APY 이력만 기준으로 비교한 LP의 변동성 낮은 후보는 BSC의 wom
 | 2 | [wombat-exchange →](https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token) | BSC | 0.02% | $186.3K |
 | 3 | [wombat-exchange →](https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token) | BSC | 0.03% | $2.05M |
 | 4 | [wombat-exchange →](https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token) | BSC | 0.09% | $131.6K |
-| 5 | [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $362.1K |
+| 5 | [wombat-exchange →](https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token) | BSC | 0.05% | $363.4K |
 | 6 | [wombat-exchange →](https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token) | Arbitrum | 0.21% | $103.2K |
 | 7 | [wombat-exchange →](https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token) | BSC | 0.01% | $3.1M |
 
@@ -43,7 +43,7 @@ LP 풀은 여기 7개가 있고, 2개 체인에서 APY가 0.01%부터 0.21%까�
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.02% | 인센티브 100.00% |
 | wombat-exchange | 0.03% | 0.03% | 인센티브 100.00% |
-| wombat-exchange | 0.05% | 0.05% | 인센티브 96.79% |
+| wombat-exchange | 0.05% | 0.05% | 인센티브 95.54% |
 | wombat-exchange | 0.01% | 0.02% | 인센티브 98.11% |
 | wombat-exchange | 0.02% | 0.02% | 인센티브 98.69% |
 | wombat-exchange | 0.09% | 0.09% | 인센티브 100.00% |
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 wombat-exchange에서 APY 0.21
 
 ### LP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 LP의 변동성 낮은 후보는 BSC의 wombat-exchange, APY 0.01%, TVL $196.7K, https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token; BSC의 wombat-exchange, APY 0.02%, TVL $186.3K, https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token; BSC의 wombat-exchange, APY 0.03%, TVL $2.05M, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; BSC의 wombat-exchange, APY 0.09%, TVL $131.6K, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; BSC의 wombat-exchange, APY 0.05%, TVL $362.1K, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; Arbitrum의 wombat-exchange, APY 0.21%, TVL $103.2K, https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token; BSC의 wombat-exchange, APY 0.01%, TVL $3.1M, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 LP의 변동성 낮은 후보는 BSC의 wombat-exchange, APY 0.01%, TVL $196.7K, https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token; BSC의 wombat-exchange, APY 0.02%, TVL $186.3K, https://www.defi.garden/?pool=398ca26f-f7db-4939-b863-2af5b9430ad2&src=seo_token; BSC의 wombat-exchange, APY 0.03%, TVL $2.05M, https://www.defi.garden/?pool=7ba5de17-c0ff-4e5d-80f2-d701a600f364&src=seo_token; BSC의 wombat-exchange, APY 0.09%, TVL $131.6K, https://www.defi.garden/?pool=9d3e8685-9e0f-4ca0-95cc-aca8a34670d3&src=seo_token; BSC의 wombat-exchange, APY 0.05%, TVL $363.4K, https://www.defi.garden/?pool=d3a65bbd-2cf8-4f74-aaaa-d417fe9ad886&src=seo_token; Arbitrum의 wombat-exchange, APY 0.21%, TVL $103.2K, https://www.defi.garden/?pool=bdd318d9-d4f8-45f8-8146-895c451eb16a&src=seo_token; BSC의 wombat-exchange, APY 0.01%, TVL $3.1M, https://www.defi.garden/?pool=dc152377-9d56-49e6-ac48-977955d38cee&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

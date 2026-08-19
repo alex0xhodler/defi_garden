@@ -4,7 +4,7 @@ The highest honest FPI yield right now is 0.01% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=09cb35f7-6a06-49e2-8d85-28567efbe3b1&src=seo_token) | Ethereum | 0.01% | $282.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=09cb35f7-6a06-49e2-8d85-28567efbe3b1&src=seo_token) | Ethereum | 0.01% | $282.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

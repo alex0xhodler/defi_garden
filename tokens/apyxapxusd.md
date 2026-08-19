@@ -4,7 +4,7 @@ The highest honest APYXAPXUSD yield right now is 8.10% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=bb6eac99-e375-4643-84c3-5d368538694d&src=seo_token) | Ethereum | 8.10% | $3.03M |
+| [morpho-blue →](https://www.defi.garden/?pool=bb6eac99-e375-4643-84c3-5d368538694d&src=seo_token) | Ethereum | 8.10% | $3.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many APYXAPXUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.03M in total.
+1 live pool clear this page's $100K TVL floor, $3.04M in total.
 
 ### Are these rates safe?
 

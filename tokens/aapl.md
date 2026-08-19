@@ -1,10 +1,10 @@
 # AAPL DeFi Yields
 
-The highest honest AAPL yield right now is 28.42% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AAPL yield right now is 28.17% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=7b56ac37-1249-4ae8-bd5d-2494f3ac7499&src=seo_token) | Solana | 28.42% | $220.3K |
+| [gmtrade →](https://www.defi.garden/?pool=7b56ac37-1249-4ae8-bd5d-2494f3ac7499&src=seo_token) | Solana | 28.17% | $220.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AAPL yield today?
 
-28.42% APY on gmtrade (Solana), based on live DefiLlama data.
+28.17% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many AAPL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $220.3K in total.
+1 live pool clear this page's $100K TVL floor, $220.7K in total.
 
 ### Are these rates safe?
 

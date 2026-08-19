@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.31M in total.
+2 live pools clear this page's $100K TVL floor, $1.3M in total.
 
 ### Are these rates safe?
 
@@ -53,8 +53,8 @@ There is not enough qualifying APY history to rank CUSD pools. This view covers 
 - [CELO](https://www.defi.garden/tokens/celo)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
 - [CEUR](https://www.defi.garden/tokens/ceur)
+- [AXLEUROC](https://www.defi.garden/tokens/axleuroc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 

@@ -5,8 +5,8 @@ The highest honest Echelon Initia yield right now is 11.61% on echelon-market (E
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | IUSD | [echelon-market →](https://www.defi.garden/?pool=efd30884-7381-4f3b-930a-39f617d0bb03&src=seo_chain) | 2.91% | $890.8K |
-| USDC | [echelon-market →](https://www.defi.garden/?pool=d08cafa1-0af2-4673-8b21-ac5533e9bb20&src=seo_chain) | 2.39% | $259.2K |
-| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_chain) | 2.71% | $202.8K |
+| USDC | [echelon-market →](https://www.defi.garden/?pool=d08cafa1-0af2-4673-8b21-ac5533e9bb20&src=seo_chain) | 2.38% | $259.2K |
+| SXINIT | [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_chain) | 2.71% | $202.6K |
 | INIT | [echelon-market →](https://www.defi.garden/?pool=7323a295-f367-45b2-b58d-280a0ee9efa3&src=seo_chain) | 11.61% | $119.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.

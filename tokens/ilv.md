@@ -4,7 +4,7 @@ The highest honest ILV yield right now is 0.89% on sushiswap (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=a951524d-177e-423b-bcf7-a172b376a08d&src=seo_token) | Ethereum | 0.89% | $1.66M |
+| [sushiswap →](https://www.defi.garden/?pool=a951524d-177e-423b-bcf7-a172b376a08d&src=seo_token) | Ethereum | 0.89% | $1.65M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ILV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.66M in total.
+1 live pool clear this page's $100K TVL floor, $1.65M in total.
 
 ### Are these rates safe?
 

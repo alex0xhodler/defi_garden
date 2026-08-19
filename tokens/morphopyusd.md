@@ -4,7 +4,7 @@ The highest honest MORPHOPYUSD yield right now is 4.26% on affluent (TON), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 4.26% | $531.1K |
+| [affluent →](https://www.defi.garden/?pool=79001931-893d-4d19-9e5c-497e9e56e464&src=seo_token) | TON | 4.26% | $531.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MORPHOPYUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $531.1K in total.
+1 live pool clear this page's $100K TVL floor, $531.2K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@ The highest honest ASTO yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8a5442e8-8f39-4dac-ad80-2ca24b17e337&src=seo_token) | Ethereum | 0.02% | $449.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8a5442e8-8f39-4dac-ad80-2ca24b17e337&src=seo_token) | Ethereum | 0.02% | $449K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ASTO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $449.1K in total.
+1 live pool clear this page's $100K TVL floor, $449K in total.
 
 ### Are these rates safe?
 

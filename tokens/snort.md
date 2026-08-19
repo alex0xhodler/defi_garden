@@ -4,7 +4,7 @@ The highest honest SNORT yield right now is 0.04% on uniswap-v2 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d3d10a05-69b9-4e28-953c-dac1b006fb92&src=seo_token) | Base | 0.04% | $103.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d3d10a05-69b9-4e28-953c-dac1b006fb92&src=seo_token) | Base | 0.04% | $103.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SNORT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.5K in total.
+1 live pool clear this page's $100K TVL floor, $103.3K in total.
 
 ### Are these rates safe?
 

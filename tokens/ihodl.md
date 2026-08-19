@@ -4,7 +4,7 @@ The highest honest IHODL yield right now is 0.60% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=20d0af92-6f4c-4676-9ab8-3a6f83a818ae&src=seo_token) | Base | 0.60% | $163.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=20d0af92-6f4c-4676-9ab8-3a6f83a818ae&src=seo_token) | Base | 0.60% | $163K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IHODL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.1K in total.
+1 live pool clear this page's $100K TVL floor, $163K in total.
 
 ### Are these rates safe?
 

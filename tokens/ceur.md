@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank CEUR pools. This view covers 
 - [EURM](https://www.defi.garden/tokens/eurm)
 - [CELO](https://www.defi.garden/tokens/celo)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
+- [AXLEUROC](https://www.defi.garden/tokens/axleuroc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 

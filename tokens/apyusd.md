@@ -1,36 +1,36 @@
 # APYUSD DeFi Yields
 
-The highest honest APYUSD yield right now is 17.18% on pendle (Ethereum), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest APYUSD yield right now is 16.39% on pendle (Ethereum), among 13 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.17% | $19.14M |
-| [pendle →](https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token) | Ethereum | 15.95% | $8.72M |
-| [pendle →](https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token) | Ethereum | 17.18% | $8.72M |
-| [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 0.20% | $6.95M |
-| [pendle →](https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token) | Ethereum | 15.92% | $5.3M |
-| [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 14.91% | $5.3M |
-| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.66% | $175.7K |
+| [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.20% | $19.21M |
+| [pendle →](https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token) | Ethereum | 15.35% | $8.69M |
+| [pendle →](https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token) | Ethereum | 16.39% | $8.69M |
+| [orca-dex →](https://www.defi.garden/?pool=2bc1e48c-3395-587a-b52e-e75ff5e90beb&src=seo_token) | Solana | 0.03% | $6.92M |
+| [pendle →](https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token) | Ethereum | 15.84% | $5.28M |
+| [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 14.79% | $5.28M |
+| [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.66% | $176K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, APYUSD's lower-variability candidates are pendle (Ethereum), 14.91% APY, $5.3M TVL, https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token; pendle (Ethereum), 17.18% APY, $8.72M TVL, https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token; hydration-dex (Polkadot), 0.66% APY, $175.7K TVL, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token; pendle (Ethereum), 15.92% APY, $5.3M TVL, https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token; pendle (Ethereum), 15.95% APY, $8.72M TVL, https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token; curve-dex (Ethereum), 7.17% APY, $19.14M TVL, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, APYUSD's lower-variability candidates are pendle (Ethereum), 14.79% APY, $5.28M TVL, https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token; pendle (Ethereum), 16.39% APY, $8.69M TVL, https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token; hydration-dex (Polkadot), 0.66% APY, $176K TVL, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token; pendle (Ethereum), 15.84% APY, $5.28M TVL, https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token; pendle (Ethereum), 15.35% APY, $8.69M TVL, https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token; curve-dex (Ethereum), 7.20% APY, $19.21M TVL, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 14.91% | $5.3M |
-| 2 | [pendle →](https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token) | Ethereum | 17.18% | $8.72M |
-| 3 | [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.66% | $175.7K |
-| 4 | [pendle →](https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token) | Ethereum | 15.92% | $5.3M |
-| 5 | [pendle →](https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token) | Ethereum | 15.95% | $8.72M |
-| 6 | [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.17% | $19.14M |
+| 1 | [pendle →](https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token) | Ethereum | 14.79% | $5.28M |
+| 2 | [pendle →](https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token) | Ethereum | 16.39% | $8.69M |
+| 3 | [hydration-dex →](https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token) | Polkadot | 0.66% | $176K |
+| 4 | [pendle →](https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token) | Ethereum | 15.84% | $5.28M |
+| 5 | [pendle →](https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token) | Ethereum | 15.35% | $8.69M |
+| 6 | [curve-dex →](https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token) | Ethereum | 7.20% | $19.21M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-APYUSD shows up in 7 pools here, with rates from 0.20% to 17.18% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+APYUSD shows up in 7 pools here, with rates from 0.03% to 16.39% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 7 of these 7 pools have a trustworthy 30-day average on file, with a median of 14.94% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -40,13 +40,13 @@ APYUSD shows up in 7 pools here, with rates from 0.20% to 17.18% APY across 3 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 7.17% | 7.70% | Base rate |
-| pendle | 15.95% | 16.18% | 1.25% incentives |
-| pendle | 17.18% | 17.05% | Base rate |
-| orca-dex | 0.20% | 0.34% | Base rate |
-| pendle | 15.92% | 16.14% | 3.38% incentives |
-| pendle | 14.91% | 14.94% | Base rate |
-| hydration-dex | 0.66% | 0.61% | Base rate |
+| curve-dex | 7.20% | 7.70% | Base rate |
+| pendle | 15.35% | 16.18% | 1.30% incentives |
+| pendle | 16.39% | 17.05% | Base rate |
+| orca-dex | 0.03% | 0.34% | Base rate |
+| pendle | 15.84% | 16.13% | 3.38% incentives |
+| pendle | 14.79% | 14.94% | Base rate |
+| hydration-dex | 0.66% | 0.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -54,11 +54,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest APYUSD yield today?
 
-17.18% APY on pendle (Ethereum), based on live DefiLlama data.
+16.39% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many APYUSD pools clear the TVL floor?
 
-13 live pools clear this page's $100K TVL floor, $98.66M in total.
+13 live pools clear this page's $100K TVL floor, $98.61M in total.
 
 ### Are these rates safe?
 
@@ -66,7 +66,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which APYUSD pools have the most stable APY history?
 
-Based on APY history only, APYUSD's lower-variability candidates are pendle (Ethereum), 14.91% APY, $5.3M TVL, https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token; pendle (Ethereum), 17.18% APY, $8.72M TVL, https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token; hydration-dex (Polkadot), 0.66% APY, $175.7K TVL, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token; pendle (Ethereum), 15.92% APY, $5.3M TVL, https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token; pendle (Ethereum), 15.95% APY, $8.72M TVL, https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token; curve-dex (Ethereum), 7.17% APY, $19.14M TVL, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, APYUSD's lower-variability candidates are pendle (Ethereum), 14.79% APY, $5.28M TVL, https://www.defi.garden/?pool=9fe33fd6-d3f3-4dbe-9187-7bff012e79f5&src=seo_token; pendle (Ethereum), 16.39% APY, $8.69M TVL, https://www.defi.garden/?pool=22e7a8b0-0e53-4365-a2b4-753a0a29e251&src=seo_token; hydration-dex (Polkadot), 0.66% APY, $176K TVL, https://www.defi.garden/?pool=b365d27e-3eb3-4d68-a5a4-ecdceda06c6b&src=seo_token; pendle (Ethereum), 15.84% APY, $5.28M TVL, https://www.defi.garden/?pool=8dc83a62-a160-4bcf-ac7f-a1f812a317dc&src=seo_token; pendle (Ethereum), 15.35% APY, $8.69M TVL, https://www.defi.garden/?pool=4f0c0906-629c-4c18-9476-ebf0f628bc2b&src=seo_token; curve-dex (Ethereum), 7.20% APY, $19.21M TVL, https://www.defi.garden/?pool=7b3e4cca-a90e-4a45-95ac-a6b637a850b2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

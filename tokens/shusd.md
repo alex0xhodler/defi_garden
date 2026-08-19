@@ -1,10 +1,10 @@
 # SHUSD DeFi Yields
 
-The highest honest SHUSD yield right now is 8.51% on sherpa (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHUSD yield right now is 8.50% on sherpa (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sherpa →](https://www.defi.garden/?pool=abd65017-6328-4916-9dfd-52ac6c5652fc&src=seo_token) | Ethereum | 8.51% | $446.8K |
+| [sherpa →](https://www.defi.garden/?pool=abd65017-6328-4916-9dfd-52ac6c5652fc&src=seo_token) | Ethereum | 8.50% | $446.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHUSD yield today?
 
-8.51% APY on sherpa (Ethereum), based on live DefiLlama data.
+8.50% APY on sherpa (Ethereum), based on live DefiLlama data.
 
 ### How many SHUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $446.8K in total.
+1 live pool clear this page's $100K TVL floor, $446.9K in total.
 
 ### Are these rates safe?
 

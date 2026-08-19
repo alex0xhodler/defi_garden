@@ -4,7 +4,7 @@ The highest honest AEURC yield right now is 0.19% on hydration-dex (Polkadot), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94&src=seo_token) | Polkadot | 0.19% | $636.8K |
+| [hydration-dex →](https://www.defi.garden/?pool=8702c691-9b2c-4722-a9c1-4eb6289bca94&src=seo_token) | Polkadot | 0.19% | $638.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AEURC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $636.8K in total.
+1 live pool clear this page's $100K TVL floor, $638.4K in total.
 
 ### Are these rates safe?
 

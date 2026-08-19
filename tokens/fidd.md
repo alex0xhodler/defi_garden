@@ -4,19 +4,19 @@ The highest honest FIDD yield right now is 0.09% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.04% | $3.57M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.04% | $3.56M |
 | [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.01% | $2.75M |
 | [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.09% | $2.24M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FIDD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $2.75M TVL, https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $3.57M TVL, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $2.24M TVL, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FIDD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $2.75M TVL, https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $3.56M TVL, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $2.24M TVL, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token) | Ethereum | 0.01% | $2.75M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.04% | $3.57M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token) | Ethereum | 0.04% | $3.56M |
 | 3 | [uniswap-v3 →](https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token) | Ethereum | 0.09% | $2.24M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FIDD pools have the most stable APY history?
 
-Based on APY history only, FIDD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $2.75M TVL, https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $3.57M TVL, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $2.24M TVL, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FIDD's lower-variability candidates are curve-dex (Ethereum), 0.01% APY, $2.75M TVL, https://www.defi.garden/?pool=1120215b-e342-42c8-84b6-b8bbd163dc8d&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $3.56M TVL, https://www.defi.garden/?pool=fcb584a1-61dc-4e9a-aafc-cc42b12569f9&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $2.24M TVL, https://www.defi.garden/?pool=e54f2032-9133-4a1c-87fd-13d274503034&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

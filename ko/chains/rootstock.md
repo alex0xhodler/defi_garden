@@ -5,8 +5,7 @@
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
 | XUSD-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_chain) | 0.10% | $960.7K |
-| ETH-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_chain) | 0.07% | $763.4K |
-| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 0.12% | $745.8K |
+| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 0.08% | $745.8K |
 | BNB-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_chain) | 0.16% | $571.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -38,7 +37,6 @@ DefiLlama 실시간 데이터 기준, Rootstock의 sovryn-dex에서 APY 0.16%예
 
 - [RBTC](https://www.defi.garden/ko/tokens/rbtc)
 - [XUSD](https://www.defi.garden/ko/tokens/xusd)
-- [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BNB](https://www.defi.garden/ko/tokens/bnb)
 

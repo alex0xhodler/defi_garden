@@ -1,10 +1,10 @@
 # NLCRD DeFi Yields
 
-The highest honest NLCRD yield right now is 15.25% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NLCRD yield right now is 15.26% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c&src=seo_token) | Plume Mainnet | 15.25% | $2.11M |
+| [nest-credit →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c&src=seo_token) | Plume Mainnet | 15.26% | $2.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NLCRD yield today?
 
-15.25% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+15.26% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NLCRD pools clear the TVL floor?
 

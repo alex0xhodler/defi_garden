@@ -4,7 +4,7 @@ The highest honest JAGSOL yield right now is 4.36% on jagpool-staked-sol (Solana
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [jagpool-staked-sol →](https://www.defi.garden/?pool=aa7c9efd-011b-4f38-b775-8a141d0baf1f&src=seo_token) | Solana | 4.36% | $58.49M |
+| [jagpool-staked-sol →](https://www.defi.garden/?pool=aa7c9efd-011b-4f38-b775-8a141d0baf1f&src=seo_token) | Solana | 4.36% | $58.98M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many JAGSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $58.49M in total.
+1 live pool clear this page's $100K TVL floor, $58.98M in total.
 
 ### Are these rates safe?
 

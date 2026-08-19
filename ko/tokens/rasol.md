@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=7df4544a-46dc-58db-9d6c-884ed8efcea5&src=seo_token) | Solana | 0.16% | $236.2K |
+| [project-0 →](https://www.defi.garden/?pool=7df4544a-46dc-58db-9d6c-884ed8efcea5&src=seo_token) | Solana | 0.16% | $238.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Solana의 project-0에서 APY 0.16%예요.
 
 ### RASOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $359.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $362.5K예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,11 +4,11 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| USDC-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.01% | $4.44M |
-| ATOM | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_chain) | 17.44% | $1.43M |
-| USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 5.23% | $694.6K |
-| USDC-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 1.46% | $192K |
-| WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.50% | $117.3K |
+| USDC-DATOM | [astroport →](https://www.defi.garden/?pool=e13cdf0b-794d-4894-908d-79a48ccc9a91&src=seo_chain) | 0.01% | $4.43M |
+| ATOM | [hydro-inflow →](https://www.defi.garden/?pool=fba8d3b6-3034-493d-91b6-603c481acbf3&src=seo_chain) | 17.44% | $1.42M |
+| USDC | [hydro-inflow →](https://www.defi.garden/?pool=f88aa7d5-f1a5-487d-a99e-32d6e953dc91&src=seo_chain) | 5.30% | $694.7K |
+| USDC-DYDX | [astroport →](https://www.defi.garden/?pool=7327109b-d1d1-451e-86ee-d7bdcf2cc640&src=seo_chain) | 0.98% | $192.2K |
+| WBTC | [hydro-inflow →](https://www.defi.garden/?pool=e6990d16-8a82-4dfa-9692-ba80530bea9a&src=seo_chain) | 0.52% | $117.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -20,7 +20,7 @@ DefiLlama 실시간 데이터 기준, Neutron의 hydro-inflow에서 APY 17.44%�
 
 ### Neutron 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $7.38M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $7.36M예요.
 
 ### 이 수익률은 안전한가요?
 

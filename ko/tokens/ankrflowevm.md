@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_token) | Flow | 7.90% | $3.5M |
+| [ankr →](https://www.defi.garden/?pool=f1246ee7-9797-46b6-bd87-f9b90bc37e36&src=seo_token) | Flow | 7.90% | $3.49M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성

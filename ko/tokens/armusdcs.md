@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d2a99602-b0c7-4f6a-a329-82bdaad3df0c&src=seo_token) | Ethereum | 5.25% | $37.42M |
+| [morpho-blue →](https://www.defi.garden/?pool=d2a99602-b0c7-4f6a-a329-82bdaad3df0c&src=seo_token) | Ethereum | 5.25% | $37.49M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 5.25%예
 
 ### ARMUSDCS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $37.42M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $37.49M예요.
 
 ### 이 수익률은 안전한가요?
 

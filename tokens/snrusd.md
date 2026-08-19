@@ -1,10 +1,10 @@
 # SNRUSD DeFi Yields
 
-The highest honest SNRUSD yield right now is 10.17% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SNRUSD yield right now is 10.66% on berapaw (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=7cda51b1-4378-423f-b77d-7304b8b9386c&src=seo_token) | Berachain | 10.17% | $190.2K |
+| [berapaw →](https://www.defi.garden/?pool=7cda51b1-4378-423f-b77d-7304b8b9386c&src=seo_token) | Berachain | 10.66% | $190.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SNRUSD yield today?
 
-10.17% APY on berapaw (Berachain), based on live DefiLlama data.
+10.66% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many SNRUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.2K in total.
+1 live pool clear this page's $100K TVL floor, $190.7K in total.
 
 ### Are these rates safe?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank SNRUSD pools. This view cover
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [IBERA](https://www.defi.garden/tokens/ibera)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
 - [HONEY](https://www.defi.garden/tokens/honey)
+- [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
 
 ## Available on
 

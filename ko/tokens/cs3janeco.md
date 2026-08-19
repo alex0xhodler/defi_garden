@@ -1,10 +1,10 @@
 # CS3JANECO 디파이 수익률
 
-현재 CS3JANECO의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.89%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CS3JANECO의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.86%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=209c1405-cb4d-4424-aa35-acbdbe924cfe&src=seo_token) | Ethereum | 7.89% | $21.32M |
+| [morpho-blue →](https://www.defi.garden/?pool=209c1405-cb4d-4424-aa35-acbdbe924cfe&src=seo_token) | Ethereum | 7.86% | $21.42M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 CS3JANECO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.89%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.86%예요.
 
 ### CS3JANECO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $21.32M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $21.42M예요.
 
 ### 이 수익률은 안전한가요?
 

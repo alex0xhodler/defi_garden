@@ -1,10 +1,10 @@
 # LABUBU DeFi Yields
 
-The highest honest LABUBU yield right now is 2.42% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LABUBU yield right now is 1.89% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=751e204d-73a7-42b3-ab05-8ad6f6459a75&src=seo_token) | Solana | 2.42% | $221K |
+| [raydium-amm →](https://www.defi.garden/?pool=751e204d-73a7-42b3-ab05-8ad6f6459a75&src=seo_token) | Solana | 1.89% | $223K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LABUBU yield today?
 
-2.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.89% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LABUBU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $221K in total.
+1 live pool clear this page's $100K TVL floor, $223K in total.
 
 ### Are these rates safe?
 

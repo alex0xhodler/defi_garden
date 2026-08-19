@@ -1,11 +1,11 @@
 # QNT DeFi Yields
 
-The highest honest QNT yield right now is 11.16% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QNT yield right now is 11.30% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76&src=seo_token) | Ethereum | 11.16% | $406.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c&src=seo_token) | Ethereum | 11.15% | $383.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6be00be4-c239-5481-a3f8-3419bb609f76&src=seo_token) | Ethereum | 10.23% | $409.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2c32828c-2105-406e-b76a-57599f1dc97c&src=seo_token) | Ethereum | 11.30% | $386.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-QNT shows up in 2 pools here, with rates from 11.15% to 11.16% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+QNT shows up in 2 pools here, with rates from 10.23% to 11.30% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 13.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 13.08% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 11.16% | 10.53% | Base rate |
-| uniswap-v3 | 11.15% | 15.76% | Base rate |
+| uniswap-v4 | 10.23% | 10.52% | Base rate |
+| uniswap-v3 | 11.30% | 15.64% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest QNT yield today?
 
-11.16% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+11.30% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many QNT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $790.1K in total.
+2 live pools clear this page's $100K TVL floor, $795.4K in total.
 
 ### Are these rates safe?
 

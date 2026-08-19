@@ -1,10 +1,10 @@
 # MAJOR DeFi Yields
 
-The highest honest MAJOR yield right now is 27.51% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAJOR yield right now is 30.83% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=78c2ca48-1f34-4bce-9ea9-97de17237715&src=seo_token) | TON | 27.51% | $130.7K |
+| [ston.fi →](https://www.defi.garden/?pool=78c2ca48-1f34-4bce-9ea9-97de17237715&src=seo_token) | TON | 30.83% | $132K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAJOR yield today?
 
-27.51% APY on ston.fi (TON), based on live DefiLlama data.
+30.83% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many MAJOR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $130.7K in total.
+1 live pool clear this page's $100K TVL floor, $132K in total.
 
 ### Are these rates safe?
 

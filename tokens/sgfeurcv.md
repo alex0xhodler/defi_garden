@@ -4,7 +4,7 @@ The highest honest SGFEURCV yield right now is 2.65% on morpho-blue (Ethereum), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4c02c11c-2d48-4d5c-b5ed-27f3f354b73c&src=seo_token) | Ethereum | 2.65% | $137.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=4c02c11c-2d48-4d5c-b5ed-27f3f354b73c&src=seo_token) | Ethereum | 2.65% | $137.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SGFEURCV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $137.5K in total.
+1 live pool clear this page's $100K TVL floor, $137.8K in total.
 
 ### Are these rates safe?
 

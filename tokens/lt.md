@@ -4,7 +4,7 @@ The highest honest LT yield right now is 22.67% on concrete (Ethereum), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf&src=seo_token) | Ethereum | 22.67% | $458.8K |
+| [concrete →](https://www.defi.garden/?pool=5235e650-9d82-44dd-8b0f-88e7929a9edf&src=seo_token) | Ethereum | 22.67% | $458.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $458.8K in total.
+1 live pool clear this page's $100K TVL floor, $458.7K in total.
 
 ### Are these rates safe?
 

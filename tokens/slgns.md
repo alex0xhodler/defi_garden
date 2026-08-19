@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank SLGNS pools. This view covers
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [DAI](https://www.defi.garden/tokens/dai)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [LINK](https://www.defi.garden/tokens/link)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

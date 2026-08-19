@@ -1,31 +1,31 @@
 # RSR DeFi Yields
 
-The highest honest RSR yield right now is 22.39% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RSR yield right now is 21.33% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 2.28% | $1.11M |
-| [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 7.06% | $136.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 22.39% | $114.6K |
+| [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 2.18% | $1.11M |
+| [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 11.20% | $137.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 21.33% | $120.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RSR's lower-variability candidates are curve-dex (Ethereum), 2.28% APY, $1.11M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; uniswap-v3 (Ethereum), 22.39% APY, $114.6K TVL, https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token; steer-protocol (Ethereum), 7.06% APY, $136.6K TVL, https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RSR's lower-variability candidates are curve-dex (Ethereum), 2.18% APY, $1.11M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; uniswap-v3 (Ethereum), 21.33% APY, $120.2K TVL, https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token; steer-protocol (Ethereum), 11.20% APY, $137.6K TVL, https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 2.28% | $1.11M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 22.39% | $114.6K |
-| 3 | [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 7.06% | $136.6K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token) | Ethereum | 2.18% | $1.11M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token) | Ethereum | 21.33% | $120.2K |
+| 3 | [steer-protocol →](https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token) | Ethereum | 11.20% | $137.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RSR shows up in 3 pools here, with rates from 2.28% to 22.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RSR shows up in 3 pools here, with rates from 2.18% to 21.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 19.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 19.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 2.28% | 3.17% | Base rate |
-| steer-protocol | 7.06% | 19.62% | Base rate |
-| uniswap-v3 | 22.39% | 21.58% | Base rate |
+| curve-dex | 2.18% | 3.16% | Base rate |
+| steer-protocol | 11.20% | 19.38% | Base rate |
+| uniswap-v3 | 21.33% | 21.69% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RSR yield today?
 
-22.39% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+21.33% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many RSR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.51M in total.
+4 live pools clear this page's $100K TVL floor, $1.53M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RSR pools have the most stable APY history?
 
-Based on APY history only, RSR's lower-variability candidates are curve-dex (Ethereum), 2.28% APY, $1.11M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; uniswap-v3 (Ethereum), 22.39% APY, $114.6K TVL, https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token; steer-protocol (Ethereum), 7.06% APY, $136.6K TVL, https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RSR's lower-variability candidates are curve-dex (Ethereum), 2.18% APY, $1.11M TVL, https://www.defi.garden/?pool=28c0ad15-ecaf-4b14-8ad6-06ded47566b1&src=seo_token; uniswap-v3 (Ethereum), 21.33% APY, $120.2K TVL, https://www.defi.garden/?pool=75ca1ed2-dcd0-419d-99e8-8aa13aa08364&src=seo_token; steer-protocol (Ethereum), 11.20% APY, $137.6K TVL, https://www.defi.garden/?pool=5ecac724-5aec-4f8c-852a-349d30d92f76&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
