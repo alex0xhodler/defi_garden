@@ -486,12 +486,35 @@ function YieldCardWidget({
     return 'https://www.defi.garden';
   };
 
+  useEffect(() => {
+    // Record incoming referral visits for referral credit
+    try {
+      if (typeof window !== 'undefined') {
+        const params = new URLSearchParams(window.location.search || '');
+        const ref = params.get('ref');
+        if (ref) {
+          const count = Number(localStorage.getItem(`defi_garden_ref_${ref}_count`) || 0);
+          localStorage.setItem(`defi_garden_ref_${ref}_count`, String(count + 1));
+        }
+      }
+    } catch (_) {}
+  }, []);
+
+  useEffect(() => {
+    if (!myRefCode || typeof window === 'undefined') return;
+    try {
+      const stored = Number(localStorage.getItem(`defi_garden_ref_${myRefCode}_count`) || 0);
+      if (stored > 0) {
+        setInvitedCount(stored);
+      }
+    } catch (_) {}
+  }, [myRefCode]);
+
   const handleCopyLink = () => {
     const url = getShareUrl();
     if (typeof navigator !== 'undefined' && navigator.clipboard) {
       navigator.clipboard.writeText(url);
       setLinkCopied(true);
-      setInvitedCount(1);
       setTimeout(() => setLinkCopied(false), 2500);
     }
   };
@@ -513,7 +536,6 @@ function YieldCardWidget({
 
     if (typeof window !== 'undefined') {
       window.open(tweetUrl, '_blank', 'noopener,noreferrer');
-      setInvitedCount(1);
     }
 
     if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardTwitterShared) {

@@ -270,6 +270,7 @@ const MUST_KEEP = [
   'sitemap-chain-pages.xml', 'sitemap-chain-pages-ko.xml', 'sitemap-token-pages-ko.xml',
   // Social / favicons.
   'og-image.png',
+  'og-yield-card.png',
   // Agent-discovery skill doc — NOT excluded despite looking like an
   // internal doc; see .well-known/oauth-authorization-server.json's
   // agent_auth.skill field (caught by the link-integrity check below).

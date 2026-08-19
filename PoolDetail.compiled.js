@@ -625,12 +625,33 @@ function YieldCardWidget({
     } catch (_) {}
     return 'https://www.defi.garden';
   };
+  useEffect(() => {
+    // Record incoming referral visits for referral credit
+    try {
+      if (typeof window !== 'undefined') {
+        var params = new URLSearchParams(window.location.search || '');
+        var ref = params.get('ref');
+        if (ref) {
+          var count = Number(localStorage.getItem(`defi_garden_ref_${ref}_count`) || 0);
+          localStorage.setItem(`defi_garden_ref_${ref}_count`, String(count + 1));
+        }
+      }
+    } catch (_) {}
+  }, []);
+  useEffect(() => {
+    if (!myRefCode || typeof window === 'undefined') return;
+    try {
+      var stored = Number(localStorage.getItem(`defi_garden_ref_${myRefCode}_count`) || 0);
+      if (stored > 0) {
+        setInvitedCount(stored);
+      }
+    } catch (_) {}
+  }, [myRefCode]);
   var handleCopyLink = () => {
     var url = getShareUrl();
     if (typeof navigator !== 'undefined' && navigator.clipboard) {
       navigator.clipboard.writeText(url);
       setLinkCopied(true);
-      setInvitedCount(1);
       setTimeout(() => setLinkCopied(false), 2500);
     }
   };
@@ -644,7 +665,6 @@ function YieldCardWidget({
     var tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
     if (typeof window !== 'undefined') {
       window.open(tweetUrl, '_blank', 'noopener,noreferrer');
-      setInvitedCount(1);
     }
     if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardTwitterShared) {
       Analytics.trackYieldCardTwitterShared({
