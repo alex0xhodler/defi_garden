@@ -52,18 +52,26 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  fs.stat(filePath, (statError, stat) => {
-    if (!statError && stat.isDirectory()) filePath = path.join(filePath, 'index.html');
-    fs.readFile(filePath, (readError, data) => {
-      if (readError) {
-        res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
-        res.end('Not found');
-        return;
-      }
-      res.writeHead(200, { 'Content-Type': MIME[path.extname(filePath)] || 'application/octet-stream' });
-      res.end(data);
+  function serveFile(targetPath) {
+    fs.stat(targetPath, (statError, stat) => {
+      let resolvedPath = targetPath;
+      if (!statError && stat.isDirectory()) resolvedPath = path.join(resolvedPath, 'index.html');
+      fs.readFile(resolvedPath, (readError, data) => {
+        if (readError) {
+          if (!path.extname(targetPath) && fs.existsSync(targetPath + '.html')) {
+            serveFile(targetPath + '.html');
+            return;
+          }
+          res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+          res.end('Not found');
+          return;
+        }
+        res.writeHead(200, { 'Content-Type': MIME[path.extname(resolvedPath)] || 'application/octet-stream' });
+        res.end(data);
+      });
     });
-  });
+  }
+  serveFile(filePath);
 });
 
 const port = getPort();

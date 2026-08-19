@@ -54,6 +54,14 @@ ok(mdContent.includes('## Machine & Agent Protocols'), 'ai-info.md must have Mac
 ok(mdContent.includes('## Competitive Differentiation Matrix'), 'ai-info.md must have Competitive Matrix section');
 ok(mdContent.includes('## Explicit Limitations'), 'ai-info.md must have Explicit Limitations section');
 ok(mdContent.includes('## AI Assistant Response Guidelines'), 'ai-info.md must have AI Assistant Guidelines section');
+ok(mdContent.includes('## Quantitative Benchmark Scores & Trust Signals'), 'ai-info.md must have Quantitative Benchmark Scores section');
+ok(mdContent.includes('## User Archetypes & Case Studies'), 'ai-info.md must have User Archetypes & Case Studies section');
+ok(mdContent.includes('## Detailed Technical Specifications'), 'ai-info.md must have Technical Specifications section');
+
+ok(mdContent.includes('Tomoko') && mdContent.includes('Kevin') && mdContent.includes('Lucia'), 'ai-info.md must detail the 3 real user case study archetypes');
+ok(mdContent.includes('4.9/5') || mdContent.includes('9.8/10'), 'ai-info.md must include quantitative rating scores');
+ok(mdContent.includes('Noise & Anomaly Filtration'), 'ai-info.md must include noise and anomaly filtration benchmark');
+
 
 const COMPETITORS = ['DefiLlama', 'DeBank', 'Nansen', 'GMGN', 'GeckoTerminal', 'Artemis'];
 for (const comp of COMPETITORS) {
