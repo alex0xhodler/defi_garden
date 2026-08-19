@@ -630,15 +630,8 @@ function YieldCardWidget({
           React.createElement('h3', { className: 'reservation-title' }, _t('yieldCard.reserveTitle') || 'Reserve Virtual Card For This Pool'),
           React.createElement('p', { className: 'reservation-subtitle' }, _t('yieldCard.reserveSubtitle') || 'Free to join • Card spends yield, never principal • No wallet required'),
 
-          // 3 Trust Pillars with clean vector iconography
+          // 2 Trust Rails (Merchant Lock & Digital Wallet)
           React.createElement('div', { className: 'reservation-pillars' },
-            React.createElement('div', { className: 'pillar-item' },
-              React.createElement('div', { className: 'pillar-icon' }, renderShieldCheckIcon()),
-              React.createElement('div', { className: 'pillar-text' },
-                React.createElement('span', { className: 'pillar-headline' }, isKorean ? '원금 100% 보존' : '100% Principal Protected'),
-                React.createElement('span', { className: 'pillar-subline' }, isKorean ? '수익금만 자동 결제' : 'Spends yield only')
-              )
-            ),
             React.createElement('div', { className: 'pillar-item' },
               React.createElement('div', { className: 'pillar-icon' }, renderLockKeyIcon()),
               React.createElement('div', { className: 'pillar-text' },
@@ -649,8 +642,8 @@ function YieldCardWidget({
             React.createElement('div', { className: 'pillar-item' },
               React.createElement('div', { className: 'pillar-icon' }, renderPhoneWalletIcon()),
               React.createElement('div', { className: 'pillar-text' },
-                React.createElement('span', { className: 'pillar-headline' }, isKorean ? 'Apple/Google Pay 지원' : 'Apple & Google Pay Ready'),
-                React.createElement('span', { className: 'pillar-subline' }, isKorean ? '출시 즉시 간편 등록' : 'Direct digital wallet')
+                React.createElement('span', { className: 'pillar-headline' }, isKorean ? 'Apple & Google Pay 지원' : 'Apple & Google Pay Ready'),
+                React.createElement('span', { className: 'pillar-subline' }, isKorean ? '출시 즉시 간편 등록' : 'Instant digital wallet')
               )
             )
           ),

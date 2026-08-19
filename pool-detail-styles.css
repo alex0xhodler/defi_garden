@@ -2080,10 +2080,10 @@ a.pool-token-chip:hover {
   color: var(--cert-ink-3);
 }
 
-/* Virtual Visa Card & Reservation Form Row (SOTA Grade) */
+/* Virtual Visa Card & Reservation Form Row (SOTA Grade / Harmonized Height) */
 .yield-card-bottom-row {
   display: grid;
-  grid-template-columns: minmax(300px, 380px) minmax(0, 1fr);
+  grid-template-columns: minmax(340px, 440px) minmax(360px, 1fr);
   gap: 24px;
   align-items: stretch;
   margin-top: 24px;
@@ -2110,10 +2110,10 @@ a.pool-token-chip:hover {
 
 .virtual-visa-card {
   width: 100%;
-  max-width: 380px;
+  max-width: 440px;
   aspect-ratio: 1.586 / 1;
   border-radius: 12px;
-  padding: 20px 22px;
+  padding: 22px 24px;
   background: linear-gradient(135deg, #091711 0%, #12291e 52%, #07130d 100%);
   border: 1px solid rgba(255, 255, 255, 0.16);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), inset 0 -1px 0 rgba(0, 0, 0, 0.4), 0 12px 30px rgba(0, 0, 0, 0.35);
@@ -2130,7 +2130,7 @@ a.pool-token-chip:hover {
 .yield-card-reservation-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: stretch;
   width: 100%;
   min-width: 0;
   max-width: 100%;
@@ -2314,10 +2314,10 @@ a.pool-token-chip:hover {
   background: var(--cert-vellum);
   border: 1px solid var(--cert-rule);
   border-radius: 0;
-  padding: 22px;
+  padding: 20px 22px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   height: 100%;
   box-sizing: border-box;
 }
@@ -2326,8 +2326,8 @@ a.pool-token-chip:hover {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 12px;
-  padding: 4px 10px;
+  margin-bottom: 8px;
+  padding: 3px 9px;
   background: var(--cert-green-wash-strong);
   border: 1px solid var(--cert-green-wash-strong);
   border-radius: 0;
@@ -2363,7 +2363,7 @@ a.pool-token-chip:hover {
 
 .queue-text {
   font-family: var(--font-family-mono, monospace);
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 700;
   color: var(--cert-green);
   letter-spacing: 0.04em;
@@ -2372,36 +2372,36 @@ a.pool-token-chip:hover {
 
 .reservation-title {
   font-family: var(--font-family-display, 'Besley', Georgia, serif);
-  font-size: 1.22rem;
+  font-size: 1.20rem;
   font-weight: 700;
   color: var(--cert-ink);
-  margin: 0 0 6px;
+  margin: 0 0 4px;
   letter-spacing: -0.01em;
   line-height: 1.25;
 }
 
 .reservation-subtitle {
   font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
-  font-size: 0.84rem;
+  font-size: 0.82rem;
   color: var(--cert-ink-2);
-  margin: 0 0 14px;
-  line-height: 1.45;
+  margin: 0 0 12px;
+  line-height: 1.4;
 }
 
-/* 3-Pillar Trust Rail System — Certificate Document Rows */
+/* 2-Pillar Trust Rail System — Clean Certificate Document Rows */
 .reservation-pillars {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   box-sizing: border-box;
 }
 
 .pillar-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 9px 12px;
+  gap: 9px;
+  padding: 8px 10px;
   background: var(--cert-paper);
   border: 1px solid var(--cert-rule);
   border-radius: 0;
@@ -2430,7 +2430,7 @@ a.pool-token-chip:hover {
 
 .pillar-headline {
   font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   font-weight: 600;
   color: var(--cert-ink);
   line-height: 1.2;
@@ -2441,7 +2441,7 @@ a.pool-token-chip:hover {
 
 .pillar-subline {
   font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
-  font-size: 0.66rem;
+  font-size: 0.64rem;
   color: var(--cert-ink-3);
   line-height: 1.2;
   white-space: nowrap;
@@ -2450,7 +2450,7 @@ a.pool-token-chip:hover {
 }
 
 .reservation-form {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .reservation-input-group {
