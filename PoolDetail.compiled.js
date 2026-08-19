@@ -590,107 +590,9 @@ function YieldCardWidget({
   }, _t('yieldCard.title') || 'Yield-Funded Virtual Card'), React.createElement('p', {
     className: 'yield-card-subtitle'
   }, _t('yieldCard.subtitle') || 'Fund software and lifestyle subscriptions with idle yield — keep your principal 100% intact.')),
-  // Deposit simulator slider section
+  // Card Preview & Reservation Row (TOP Hero Showcase)
   React.createElement('div', {
-    className: 'yield-card-slider-section'
-  }, React.createElement('div', {
-    className: 'yield-card-slider-header'
-  }, React.createElement('div', {
-    className: 'yield-card-deposit-readout'
-  }, React.createElement('span', {
-    className: 'readout-label'
-  }, _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'), React.createElement('span', {
-    className: 'readout-value'
-  }, function () {
-    var sym = pool.symbol || 'USDC';
-    if (isStable) {
-      return `$${_formatNum(depositAmount)} ${sym}`;
-    }
-    if (typeof tokenPrice === 'number' && tokenPrice > 0) {
-      var tokenQty = depositAmount / tokenPrice;
-      var formattedQty = tokenQty >= 1000 ? _formatNum(Math.round(tokenQty)) : tokenQty >= 1 ? tokenQty.toFixed(2) : tokenQty.toFixed(4);
-      return `$${_formatNum(depositAmount)} USD (≈ ${formattedQty} ${sym})`;
-    }
-    return `$${_formatNum(depositAmount)} USD (${sym})`;
-  }()), !isStable && typeof tokenPrice === 'number' && tokenPrice > 0 && React.createElement('span', {
-    className: 'yield-card-price-note'
-  }, `@ ${_formatUsd(tokenPrice, tokenPrice < 1 ? 4 : 2)} / ${pool.symbol || 'token'}`)), React.createElement('div', {
-    className: 'yield-card-yield-readout'
-  }, React.createElement('span', {
-    className: 'readout-label'
-  }, _t('yieldCard.monthlyYield') || 'Monthly Yield Generated'), React.createElement('span', {
-    className: 'readout-value yield-card-monthly-yield'
-  }, `${_formatUsd(monthlyYield)} ${_t('yieldCard.perMonth') || '/ month'}`))), React.createElement('div', {
-    className: 'yield-card-slider-wrapper'
-  }, React.createElement('input', {
-    type: 'range',
-    className: 'yield-card-slider',
-    min: '300',
-    max: '25000',
-    step: '50',
-    value: depositAmount,
-    onChange: handleSliderChange,
-    'aria-label': _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'
-  }), React.createElement('div', {
-    className: 'yield-card-presets'
-  }, [300, 1000, 2000, 4000, 10000, 25000].map(amt => React.createElement('button', {
-    key: amt,
-    type: 'button',
-    className: `yield-preset-btn${depositAmount === amt ? ' is-active' : ''}`,
-    onClick: () => {
-      setDepositAmount(amt);
-      if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSliderChange) {
-        Analytics.trackYieldCardSliderChange({
-          pool,
-          depositAmount: amt,
-          monthlyYield: calculateMonthlyYield(amt, totalApy)
-        });
-      }
-    }
-  }, `$${amt >= 1000 ? `${amt / 1000}k` : amt}`))))),
-  // Dynamic subscription unlock grid
-  React.createElement('div', {
-    className: 'yield-card-grid-section'
-  }, React.createElement('div', {
-    className: 'yield-card-grid'
-  }, catalog.map(item => {
-    var isCovered = isRungCovered(monthlyYield, item.monthlyCostUsd);
-    var isSelected = selectedGoalId === item.id;
-    var reqCap = calculateRequiredCapital(item.monthlyCostUsd, totalApy);
-    return React.createElement('div', {
-      key: item.id,
-      className: `yield-card-item ${isCovered ? 'is-covered' : 'is-locked'}${isSelected ? ' is-selected' : ''}`,
-      'data-goal-id': item.id,
-      onClick: () => handleCardClick(item, isCovered, reqCap)
-    }, React.createElement('div', {
-      className: 'yield-card-item-top'
-    }, React.createElement('img', {
-      className: 'yield-card-brand-icon',
-      src: `https://www.google.com/s2/favicons?domain=${item.domain}&sz=64`,
-      alt: '',
-      'aria-hidden': 'true',
-      loading: 'lazy',
-      onError: ev => {
-        var t2 = ev.target;
-        if (!t2 || !t2.parentNode) return;
-        var s = document.createElement('span');
-        s.className = 'yield-card-brand-icon-fallback';
-        s.textContent = item.emoji || '⚡';
-        t2.parentNode.replaceChild(s, t2);
-      }
-    }), React.createElement('span', {
-      className: 'yield-card-item-name'
-    }, item.name)), React.createElement('div', {
-      className: 'yield-card-item-bottom'
-    }, React.createElement('span', {
-      className: 'yield-card-item-price'
-    }, isKorean && item.monthlyCostKrw ? `₩${_formatNum(item.monthlyCostKrw)}/mo` : `$${item.monthlyCostUsd.toFixed(2)}/mo`), React.createElement('span', {
-      className: `yield-card-status-pill ${isCovered ? 'pill-covered' : 'pill-locked'}`
-    }, isCovered ? _t('yieldCard.statusCovered') || '✓ COVERED' : _t('yieldCard.requiresCapital', formatReqCap(item.monthlyCostUsd, item.monthlyCostKrw)) || `Requires ${formatReqCap(item.monthlyCostUsd, item.monthlyCostKrw)}`)));
-  }))),
-  // Card Preview & Reservation Row
-  React.createElement('div', {
-    className: 'yield-card-bottom-row'
+    className: 'yield-card-bottom-row yield-card-showcase-row'
   },
   // Left: Virtual Visa Card Mockup
   React.createElement('div', {
@@ -817,14 +719,106 @@ function YieldCardWidget({
     type: 'button',
     className: 'receipt-share-btn',
     onClick: handleCopyLink
-  }, linkCopied ? _t('yieldCard.linkCopied') || 'Copied!' : _t('yieldCard.shareLink') || 'Copy share link')))));
+  }, linkCopied ? _t('yieldCard.linkCopied') || 'Copied!' : _t('yieldCard.shareLink') || 'Copy share link')))),
+  // Deposit simulator slider section (Second controller in widget)
+  React.createElement('div', {
+    className: 'yield-card-slider-section'
+  }, React.createElement('div', {
+    className: 'yield-card-slider-header'
+  }, React.createElement('div', {
+    className: 'yield-card-deposit-readout'
+  }, React.createElement('span', {
+    className: 'readout-label'
+  }, _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'), React.createElement('span', {
+    className: 'readout-value'
+  }, function () {
+    var sym = pool.symbol || 'USDC';
+    if (isStable) {
+      return `$${_formatNum(depositAmount)} ${sym}`;
+    }
+    if (typeof tokenPrice === 'number' && tokenPrice > 0) {
+      var tokenQty = depositAmount / tokenPrice;
+      var formattedQty = tokenQty >= 1000 ? _formatNum(Math.round(tokenQty)) : tokenQty >= 1 ? tokenQty.toFixed(2) : tokenQty.toFixed(4);
+      return `$${_formatNum(depositAmount)} USD (≈ ${formattedQty} ${sym})`;
+    }
+    return `$${_formatNum(depositAmount)} USD (${sym})`;
+  }()), !isStable && typeof tokenPrice === 'number' && tokenPrice > 0 && React.createElement('span', {
+    className: 'yield-card-price-note'
+  }, `@ ${_formatUsd(tokenPrice, tokenPrice < 1 ? 4 : 2)} / ${pool.symbol || 'token'}`)), React.createElement('div', {
+    className: 'yield-card-yield-readout'
+  }, React.createElement('span', {
+    className: 'readout-label'
+  }, _t('yieldCard.monthlyYield') || 'Monthly Yield Generated'), React.createElement('span', {
+    className: 'readout-value yield-card-monthly-yield'
+  }, `${_formatUsd(monthlyYield)} ${_t('yieldCard.perMonth') || '/ month'}`))), React.createElement('div', {
+    className: 'yield-card-slider-wrapper'
+  }, React.createElement('input', {
+    type: 'range',
+    className: 'yield-card-slider',
+    min: '300',
+    max: '25000',
+    step: '50',
+    value: depositAmount,
+    onChange: handleSliderChange,
+    'aria-label': _t('yieldCard.simulatedDeposit') || 'Simulated Deposit'
+  }), React.createElement('div', {
+    className: 'yield-card-presets'
+  }, [300, 1000, 2000, 4000, 10000, 25000].map(amt => React.createElement('button', {
+    key: amt,
+    type: 'button',
+    className: `yield-preset-btn${depositAmount === amt ? ' is-active' : ''}`,
+    onClick: () => {
+      setDepositAmount(amt);
+      if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardSliderChange) {
+        Analytics.trackYieldCardSliderChange({
+          pool,
+          depositAmount: amt,
+          monthlyYield: calculateMonthlyYield(amt, totalApy)
+        });
+      }
+    }
+  }, `$${amt >= 1000 ? `${amt / 1000}k` : amt}`))))),
+  // Dynamic subscription unlock grid
+  React.createElement('div', {
+    className: 'yield-card-grid-section'
+  }, React.createElement('div', {
+    className: 'yield-card-grid'
+  }, catalog.map(item => {
+    var isCovered = isRungCovered(monthlyYield, item.monthlyCostUsd);
+    var isSelected = selectedGoalId === item.id;
+    var reqCap = calculateRequiredCapital(item.monthlyCostUsd, totalApy);
+    return React.createElement('div', {
+      key: item.id,
+      className: `yield-card-item ${isCovered ? 'is-covered' : 'is-locked'}${isSelected ? ' is-selected' : ''}`,
+      'data-goal-id': item.id,
+      onClick: () => handleCardClick(item, isCovered, reqCap)
+    }, React.createElement('div', {
+      className: 'yield-card-item-top'
+    }, React.createElement('img', {
+      className: 'yield-card-brand-icon',
+      src: `https://www.google.com/s2/favicons?domain=${item.domain}&sz=64`,
+      alt: '',
+      'aria-hidden': 'true',
+      loading: 'lazy',
+      onError: ev => {
+        var t2 = ev.target;
+        if (!t2 || !t2.parentNode) return;
+        var s = document.createElement('span');
+        s.className = 'yield-card-brand-icon-fallback';
+        s.textContent = item.emoji || '⚡';
+        t2.parentNode.replaceChild(s, t2);
+      }
+    }), React.createElement('span', {
+      className: 'yield-card-item-name'
+    }, item.name)), React.createElement('div', {
+      className: 'yield-card-item-bottom'
+    }, React.createElement('span', {
+      className: 'yield-card-item-price'
+    }, isKorean && item.monthlyCostKrw ? `₩${_formatNum(item.monthlyCostKrw)}/mo` : `$${item.monthlyCostUsd.toFixed(2)}/mo`), React.createElement('span', {
+      className: `yield-card-status-pill ${isCovered ? 'pill-covered' : 'pill-locked'}`
+    }, isCovered ? _t('yieldCard.statusCovered') || '✓ COVERED' : _t('yieldCard.requiresCapital', formatReqCap(item.monthlyCostUsd, item.monthlyCostKrw)) || `Requires ${formatReqCap(item.monthlyCostUsd, item.monthlyCostKrw)}`)));
+  }))));
 }
-
-// Pool type categorization — SINGLE SOURCE OF TRUTH (spec 130).
-// These list constants + getPoolTypeShared live here (PoolDetail.js loads
-// BEFORE app.js per home.html's script order, so these top-level declarations
-// are globals by the time app.js runs). app.js's getPoolType delegates to
-// getPoolTypeShared — do not fork a second copy of this classifier.
 var LENDING_PROTOCOLS = ['aave', 'aave-v2', 'aave-v3', 'compound', 'compound-v2', 'compound-v3', 'morpho', 'morpho-blue', 'spark', 'sparklend', 'maple', 'euler', 'radiant', 'iron-bank', 'cream', 'benqi-lending', 'venus', 'tectonic', 'moonwell', 'strike', 'granary', 'pac-finance', 'dforce', 'annex', 'sky-lending'];
 var DEX_LP_PROTOCOLS = ['uniswap', 'uniswap-v2', 'uniswap-v3', 'curve', 'curve-dex', 'balancer', 'balancer-v2', 'pancakeswap', 'pancakeswap-v2', 'pancakeswap-v3', 'sushiswap', 'quickswap', 'traderjoe', 'spookyswap', 'spiritswap', 'honeyswap', 'dfyn', 'viperswap', 'pangolin', 'lydia', 'defiswap', 'varen', 'levinswap', 'aerodrome', 'aerodrome-slipstream', 'velodrome', 'solidly', 'bancor', 'kyberswap', 'dodoex', '1inch', 'osmosis', 'raydium', 'orca'];
 var STAKING_PROTOCOLS = ['lido', 'rocket-pool', 'rocketpool', 'ether.fi', 'ether.fi-stake', 'stakewise', 'jito', 'jito-liquid-staking', 'marinade', 'binance-staked-eth', 'coinbase-wrapped-staked-eth', 'frax', 'frax-ether', 'benqi', 'benqi-staked-avax', 'staked-frax-ether', 'ankr', 'pstake', 'stader', 'chorus-one', 'figment'];

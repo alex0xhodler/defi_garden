@@ -2086,7 +2086,8 @@ a.pool-token-chip:hover {
   grid-template-columns: minmax(340px, 440px) minmax(360px, 1fr);
   gap: 24px;
   align-items: stretch;
-  margin-top: 24px;
+  margin-top: 0;
+  margin-bottom: 24px;
   width: 100%;
   box-sizing: border-box;
 }
