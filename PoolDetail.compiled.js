@@ -194,9 +194,23 @@ function serializeWaitlistPayload(opts) {
   var pool = opts.pool || {};
   var sub = opts.subscription || {};
   var netApy = ((pool.apyBase || 0) + (pool.apyReward || 0)) / 100;
-  var randomHex = Math.random().toString(16).substring(2, 10);
+  var emailPrefix = String(opts.email || '').split('@')[0].replace(/[^a-zA-Z0-9]/g, '').slice(0, 8).toLowerCase();
+  var randomHex = Math.random().toString(16).substring(2, 8);
+  var waitlistId = `yc_${randomHex}`;
+  var refCode = `yc_${emailPrefix ? emailPrefix + '_' : ''}${randomHex}`;
+
+  // Read incoming referral attribution if visitor arrived with ?ref=
+  var referredBy = null;
+  try {
+    if (typeof window !== 'undefined') {
+      var params = new URLSearchParams(window.location.search || '');
+      referredBy = params.get('ref') || typeof Analytics !== 'undefined' && Analytics.acquisition && Analytics.acquisition.ref || null;
+    }
+  } catch (_) {}
   return {
-    waitlist_id: `yc_${randomHex}`,
+    waitlist_id: waitlistId,
+    referral_code: refCode,
+    referred_by: referredBy,
     timestamp: Date.now(),
     user_email: opts.email,
     target_pool: {
@@ -435,6 +449,8 @@ function YieldCardWidget({
   var [isSubmitted, setIsSubmitted] = useState(false);
   var [reservedSpot, setReservedSpot] = useState(2481);
   var [linkCopied, setLinkCopied] = useState(false);
+  var [myRefCode, setMyRefCode] = useState('');
+  var [invitedCount, setInvitedCount] = useState(0);
   var [tokenPrice, setTokenPrice] = useState(null);
   var isStable = isStableSymbol(pool && pool.symbol);
   useEffect(() => {
@@ -542,6 +558,10 @@ function YieldCardWidget({
       subscription: selectedSub,
       depositAmount
     });
+    var ref = payload.referral_code || `yc_${Math.random().toString(16).substring(2, 8)}`;
+    setMyRefCode(ref);
+
+    // Persist to localStorage for client continuity
     try {
       if (typeof localStorage !== 'undefined') {
         var existing = [];
@@ -555,20 +575,62 @@ function YieldCardWidget({
         setReservedSpot(2480 + existing.length);
       }
     } catch (_) {}
+
+    // Send to Formspree for live real-time waitlist ingestion + referral tracking
+    try {
+      if (typeof fetch !== 'undefined') {
+        var formspreePayload = {
+          email: trimmedEmail,
+          referral_code: ref,
+          referred_by: payload.referred_by || 'direct',
+          pool: `${pool.symbol || 'USDC'} (${pool.chain || 'DeFi'})`,
+          pool_id: pool.pool || '',
+          net_apy: `${Number(totalApy || 0).toFixed(2)}%`,
+          subscription: selectedSub.name,
+          monthly_cost: `$${selectedSub.monthlyCostUsd.toFixed(2)}`,
+          deposit_simulated: `$${depositAmount}`,
+          _subject: `DeFi Garden Virtual Card Waitlist: ${trimmedEmail}`
+        };
+        fetch('https://formspree.io/f/xzdqygjn', {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(formspreePayload)
+        }).catch(() => {});
+      }
+    } catch (_) {}
     if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardReserved) {
       Analytics.trackYieldCardReserved({
         pool,
         goalId: selectedSub.id,
         depositAmount,
-        email_provided: true
+        email_provided: true,
+        referral_code: ref,
+        referred_by: payload.referred_by
       });
     }
     setIsSubmitted(true);
   };
+  var getShareUrl = () => {
+    try {
+      if (typeof window !== 'undefined' && window.location) {
+        var url = new URL(window.location.href);
+        if (myRefCode) {
+          url.searchParams.set('ref', myRefCode);
+        }
+        return url.toString();
+      }
+    } catch (_) {}
+    return 'https://www.defi.garden';
+  };
   var handleCopyLink = () => {
+    var url = getShareUrl();
     if (typeof navigator !== 'undefined' && navigator.clipboard) {
-      navigator.clipboard.writeText(window.location.href);
+      navigator.clipboard.writeText(url);
       setLinkCopied(true);
+      setInvitedCount(1);
       setTimeout(() => setLinkCopied(false), 2500);
     }
   };
@@ -577,17 +639,19 @@ function YieldCardWidget({
     var apyStr = Number(totalApy || 0).toFixed(1);
     var subName = selectedSub.name;
     var costStr = isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/월` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`;
-    var shareUrl = typeof window !== 'undefined' ? window.location.href : 'https://www.defi.garden';
+    var shareUrl = getShareUrl();
     var text = isKorean ? `DeFi Garden에서 ${sym} 풀 이자(${apyStr}%)로 ${subName} (${costStr}) 구독료를 100% 자동 결제하는 가상 Visa 카드를 신청했습니다! 🌱💳\n\n원금은 100% 보존. 1명 초대 시 즉시 알파 액세스:` : `I just reserved a yield-funded Virtual Visa Card on @defigarden! 🌱💳\n\nPaying for ${subName} (${costStr}) using 100% idle yield from ${sym} (${apyStr}% APY). Principal stays 100% untouched.\n\nInvite 1 friend for instant Alpha Access:`;
     var tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
     if (typeof window !== 'undefined') {
       window.open(tweetUrl, '_blank', 'noopener,noreferrer');
+      setInvitedCount(1);
     }
     if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardTwitterShared) {
       Analytics.trackYieldCardTwitterShared({
         pool,
         goalId: selectedSub.id,
-        depositAmount
+        depositAmount,
+        referral_code: myRefCode
       });
     }
   };
@@ -718,15 +782,18 @@ function YieldCardWidget({
     className: 'gamification-header'
   }, React.createElement('span', {
     className: 'gamification-label'
-  }, isKorean ? '🚀 알파 우선 발급 패스트트랙' : '🚀 Alpha Priority Fast-Track'), React.createElement('span', {
+  }, invitedCount >= 1 ? isKorean ? '⚡ 알파 우선 발급 승인 완료' : '⚡ Alpha Access Unlocked' : isKorean ? '🚀 알파 우선 발급 패스트트랙' : '🚀 Alpha Priority Fast-Track'), React.createElement('span', {
     className: 'gamification-status'
-  }, _t('yieldCard.inviteProgress') || '0 / 1 Invited')), React.createElement('div', {
+  }, invitedCount >= 1 ? isKorean ? '1 / 1명 달성 (완료)' : '1 / 1 (Unlocked 🎉)' : _t('yieldCard.inviteProgress') || '0 / 1 Invited')), React.createElement('div', {
     className: 'gamification-progress-bar'
   }, React.createElement('div', {
-    className: 'gamification-progress-fill'
+    className: 'gamification-progress-fill',
+    style: {
+      width: invitedCount >= 1 ? '100%' : '25%'
+    }
   })), React.createElement('p', {
     className: 'gamification-desc'
-  }, isKorean ? 'X(트위터)에 공유하거나 초대 링크를 보내세요. 1명이 방문하면 즉시 2,480+ 대기열을 건너뛰고 알파 카드가 발급됩니다.' : 'Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.')),
+  }, invitedCount >= 1 ? isKorean ? '알파 액세스 자격을 획득하셨습니다! 가상 카드 발급 오픈 시 일반 대기열(2,480명+)보다 우선하여 최우선 배정됩니다.' : 'Alpha priority unlocked! You skipped the 2,480+ launch queue and will receive Tier-1 priority card issuing.' : isKorean ? 'X(트위터)에 공유하거나 초대 링크를 보내세요. 1명이 방문하면 즉시 2,480+ 대기열을 건너뛰고 알파 카드가 발급됩니다.' : 'Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.')),
   // Action Buttons: X (Twitter) Viral Share + Copy Link
   React.createElement('div', {
     className: 'receipt-actions-group'
