@@ -25,4 +25,15 @@ For personalized, user-delegated sessions where the agent acts under a user-veri
 - Revoke credentials using the revocation endpoint:
   https://www.defi.garden/api/oauth2/revoke
 
+### 3. Base x402 Micro-Payment Protocol & Free Agent Access
+For high-frequency machine-to-machine calls, DeFi Garden supports standard x402 headers on Base network.
+- **Pricing Policy:** 100% free agent access with zero fees ($0 USDC) across all endpoints and tools.
+- **Free Endpoints:** /api/pools, /api/pools/:id, /api/health, /api/forever-number, /api/pricing, and MCP tools (find_pools, get_pool, forever_number, explain_rails).
+- **Payment Headers (Optional):** Agents may supply standard X-PAYMENT headers or Web Bot Auth key signatures for telemetry and verified agent identification.
+- **Discovery Metadata:**
+  - ACP Manifest: https://www.defi.garden/.well-known/acp.json
+  - MCP Server: https://www.defi.garden/mcp and https://www.defi.garden/api/mcp
+  - Pricing Document: https://www.defi.garden/api/pricing
+  - OpenAPI Specification: https://www.defi.garden/openapi.json
+
 For human developers, see our repository and documentation at https://github.com/alex0xhodler/defi_garden.

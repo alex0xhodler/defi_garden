@@ -116,16 +116,23 @@ export default {
     // only READS request.url; it cannot affect the pass-through fetch()
     // below in any way, so this check is safe to run unconditionally.
     const url = new URL(request.url);
-    if (url.pathname === '/api' || url.pathname.startsWith('/api/')) {
-      return handleApi(request, url, env, ctx);
+    // MCP endpoint: dispatch /mcp, /mcp/*, /api/mcp, and /api/mcp/* to the
+    // MCP JSON-RPC handler before general REST API and pass-through.
+    if (
+      url.pathname === '/mcp' ||
+      url.pathname.startsWith('/mcp/') ||
+      url.pathname === '/api/mcp' ||
+      url.pathname.startsWith('/api/mcp/')
+    ) {
+      return handleMcp(request, url, env, ctx);
     }
 
-    // 228: dispatch /mcp and /mcp/* to the MCP handler, same "before the
-    // pass-through" discipline as /api above — see this file's header
-    // comment. A separate branch (not folded into the /api check above) so
-    // agent-log-core.js's classifier can tell the two apart.
-    if (url.pathname === '/mcp' || url.pathname.startsWith('/mcp/')) {
-      return handleMcp(request, url, env, ctx);
+    // 227: dispatch /api and /api/* to the API handler BEFORE the
+    // pass-through — see this file's header comment. `new URL(request.url)`
+    // only READS request.url; it cannot affect the pass-through fetch()
+    // below in any way, so this check is safe to run unconditionally.
+    if (url.pathname === '/api' || url.pathname.startsWith('/api/')) {
+      return handleApi(request, url, env, ctx);
     }
 
     // PASS-THROUGH FIRST. This is the entire contract with every visitor and
