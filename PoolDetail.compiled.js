@@ -590,11 +590,11 @@ function YieldCardWidget({
   }, _t('yieldCard.title') || 'Yield-Funded Virtual Card'), React.createElement('p', {
     className: 'yield-card-subtitle'
   }, _t('yieldCard.subtitle') || 'Fund software and lifestyle subscriptions with idle yield — keep your principal 100% intact.')),
-  // Card Preview & Reservation Row (TOP Hero Showcase)
+  // Centered 1-Column Showcase: Virtual Card + Reservation Action
   React.createElement('div', {
-    className: 'yield-card-bottom-row yield-card-showcase-row'
+    className: 'yield-card-bottom-row yield-card-showcase-single'
   },
-  // Left: Virtual Visa Card Mockup
+  // Centered Virtual Visa Card Mockup
   React.createElement('div', {
     className: 'virtual-visa-card-wrapper'
   }, React.createElement('div', {
@@ -640,7 +640,7 @@ function YieldCardWidget({
   }, isKorean ? `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% 이자 직결` : `${pool.symbol || 'USDC'} • ${Number(totalApy || 0).toFixed(1)}% ${_t('yieldCard.liveApyFunded') || 'YIELD FUNDED'}`)), React.createElement('div', {
     className: 'visa-card-cap-badge'
   }, renderLockIcon(), React.createElement('span', null, isKorean && selectedSub.monthlyCostKrw ? _t('yieldCard.cardCapKrw', _formatNum(selectedSub.monthlyCostKrw)) || `월 한도: ₩${_formatNum(selectedSub.monthlyCostKrw)}` : _t('yieldCard.cardCap', selectedSub.monthlyCostUsd.toFixed(2)) || `CAP: $${selectedSub.monthlyCostUsd.toFixed(2)}/MO`))))),
-  // Right: Reservation Lead Capture / Receipt
+  // Centered Reservation Form under Card
   React.createElement('div', {
     className: 'yield-card-reservation-wrapper'
   }, !isSubmitted ? React.createElement('div', {
@@ -657,31 +657,7 @@ function YieldCardWidget({
     className: 'reservation-title'
   }, _t('yieldCard.reserveTitle') || 'Reserve Virtual Card For This Pool'), React.createElement('p', {
     className: 'reservation-subtitle'
-  }, _t('yieldCard.reserveSubtitle') || 'Free to join • Card spends yield, never principal • No wallet required'),
-  // 2 Trust Rails (Merchant Lock & Digital Wallet)
-  React.createElement('div', {
-    className: 'reservation-pillars'
-  }, React.createElement('div', {
-    className: 'pillar-item'
-  }, React.createElement('div', {
-    className: 'pillar-icon'
-  }, renderLockKeyIcon()), React.createElement('div', {
-    className: 'pillar-text'
-  }, React.createElement('span', {
-    className: 'pillar-headline'
-  }, isKorean ? '구독처 전용 잠금' : 'Merchant-Locked Routing'), React.createElement('span', {
-    className: 'pillar-subline'
-  }, isKorean ? '지정 서비스만 승인' : 'Dedicated to selected app'))), React.createElement('div', {
-    className: 'pillar-item'
-  }, React.createElement('div', {
-    className: 'pillar-icon'
-  }, renderPhoneWalletIcon()), React.createElement('div', {
-    className: 'pillar-text'
-  }, React.createElement('span', {
-    className: 'pillar-headline'
-  }, isKorean ? 'Apple & Google Pay 지원' : 'Apple & Google Pay Ready'), React.createElement('span', {
-    className: 'pillar-subline'
-  }, isKorean ? '출시 즉시 간편 등록' : 'Instant digital wallet')))), React.createElement('form', {
+  }, _t('yieldCard.reserveSubtitle') || 'Free to join • Card spends yield, never principal • No wallet required'), React.createElement('form', {
     className: 'reservation-form',
     noValidate: true,
     onSubmit: handleSubmit
