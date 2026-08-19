@@ -1,5 +1,5 @@
 {
-  "resource": "https://www.defi.garden/api",
+  "resource": "https://www.defi.garden",
   "authorization_servers": [
     "https://www.defi.garden"
   ],

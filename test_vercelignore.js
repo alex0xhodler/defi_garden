@@ -303,6 +303,8 @@ const MUST_KEEP = [
   // files (agent-skills/index.json links a .md; a blanket "*.md" or
   // extension-based exclude would break this).
   '.well-known/api-catalog.json',
+  '.well-known/ai-catalog.json',
+  '.well-known/acp.json',
   '.well-known/mcp/server-card.json',
   '.well-known/mcp/server-cards.json',
   '.well-known/mcp.json',

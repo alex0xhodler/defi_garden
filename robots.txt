@@ -9,6 +9,7 @@ Sitemap: https://www.defi.garden/sitemap.xml
 # LLM files for Search Agents
 LLM: https://www.defi.garden/llms.txt
 LLM: https://www.defi.garden/llms-full.txt
+Agentmap: https://www.defi.garden/.well-known/ai-catalog.json
 
 # General crawlers
 User-agent: *
