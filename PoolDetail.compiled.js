@@ -572,6 +572,25 @@ function YieldCardWidget({
       setTimeout(() => setLinkCopied(false), 2500);
     }
   };
+  var handleTwitterShare = () => {
+    var sym = pool.symbol || 'USDC';
+    var apyStr = Number(totalApy || 0).toFixed(1);
+    var subName = selectedSub.name;
+    var costStr = isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/월` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`;
+    var shareUrl = typeof window !== 'undefined' ? window.location.href : 'https://www.defi.garden';
+    var text = isKorean ? `DeFi Garden에서 ${sym} 풀 이자(${apyStr}%)로 ${subName} (${costStr}) 구독료를 100% 자동 결제하는 가상 Visa 카드를 신청했습니다! 🌱💳\n\n원금은 100% 보존. 1명 초대 시 즉시 알파 액세스:` : `I just reserved a yield-funded Virtual Visa Card on @defigarden! 🌱💳\n\nPaying for ${subName} (${costStr}) using 100% idle yield from ${sym} (${apyStr}% APY). Principal stays 100% untouched.\n\nInvite 1 friend for instant Alpha Access:`;
+    var tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
+    if (typeof window !== 'undefined') {
+      window.open(tweetUrl, '_blank', 'noopener,noreferrer');
+    }
+    if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardTwitterShared) {
+      Analytics.trackYieldCardTwitterShared({
+        pool,
+        goalId: selectedSub.id,
+        depositAmount
+      });
+    }
+  };
   return React.createElement('div', {
     id: 'yield-card-widget',
     className: 'yield-card-terminal animate-on-mount'
@@ -682,20 +701,53 @@ function YieldCardWidget({
   }, isKorean ? '지갑 연결이나 KYC 없이 100% 무료 등록 • 출시 즉시 이메일 안내' : 'No wallet connection or KYC required to reserve • 100% free forever')) : React.createElement('div', {
     className: 'yield-card-receipt animate-on-mount'
   }, React.createElement('div', {
-    className: 'receipt-icon-badge'
-  }, '🌱'), React.createElement('div', {
+    className: 'receipt-badge-row'
+  }, React.createElement('div', {
     className: 'receipt-spot-badge'
-  }, _t('yieldCard.spotNumber', reservedSpot) || `Waitlist Spot #${reservedSpot}`), React.createElement('h3', {
+  }, _t('yieldCard.spotNumber', reservedSpot) || `Waitlist Spot #${reservedSpot}`), React.createElement('div', {
+    className: 'receipt-alpha-pill'
+  }, _t('yieldCard.alphaUnlock') || '⚡ +1 Invite = Instant Alpha Access')), React.createElement('h3', {
     className: 'receipt-title'
   }, _t('yieldCard.receiptTitle') || 'Waitlist Spot Reserved 🌱'), React.createElement('div', {
     className: 'receipt-card-preview-chip'
-  }, `${pool.symbol || 'USDC'} Yield Card • ${selectedSub.name} • ${isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/mo` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`}`), React.createElement('p', {
-    className: 'receipt-note'
-  }, _t('yieldCard.receiptNote') || 'We will email you the moment merchant-locked virtual card issuing launches for this pool.'), React.createElement('button', {
+  }, `${pool.symbol || 'USDC'} Yield Card • ${selectedSub.name} • ${isKorean && selectedSub.monthlyCostKrw ? `₩${_formatNum(selectedSub.monthlyCostKrw)}/mo` : `$${selectedSub.monthlyCostUsd.toFixed(2)}/mo`}`),
+  // Gamification Alpha Unlock Box
+  React.createElement('div', {
+    className: 'receipt-gamification-box'
+  }, React.createElement('div', {
+    className: 'gamification-header'
+  }, React.createElement('span', {
+    className: 'gamification-label'
+  }, isKorean ? '🚀 알파 우선 발급 패스트트랙' : '🚀 Alpha Priority Fast-Track'), React.createElement('span', {
+    className: 'gamification-status'
+  }, _t('yieldCard.inviteProgress') || '0 / 1 Invited')), React.createElement('div', {
+    className: 'gamification-progress-bar'
+  }, React.createElement('div', {
+    className: 'gamification-progress-fill'
+  })), React.createElement('p', {
+    className: 'gamification-desc'
+  }, isKorean ? 'X(트위터)에 공유하거나 초대 링크를 보내세요. 1명이 방문하면 즉시 2,480+ 대기열을 건너뛰고 알파 카드가 발급됩니다.' : 'Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.')),
+  // Action Buttons: X (Twitter) Viral Share + Copy Link
+  React.createElement('div', {
+    className: 'receipt-actions-group'
+  }, React.createElement('button', {
+    type: 'button',
+    className: 'receipt-twitter-btn',
+    onClick: handleTwitterShare
+  }, React.createElement('svg', {
+    className: 'x-twitter-icon',
+    viewBox: '0 0 24 24',
+    width: 14,
+    height: 14,
+    fill: 'currentColor',
+    'aria-hidden': 'true'
+  }, React.createElement('path', {
+    d: 'M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z'
+  })), React.createElement('span', null, _t('yieldCard.twitterShare') || 'Share on X to Unlock Alpha ⚡')), React.createElement('button', {
     type: 'button',
     className: 'receipt-share-btn',
     onClick: handleCopyLink
-  }, linkCopied ? _t('yieldCard.linkCopied') || 'Copied!' : _t('yieldCard.shareLink') || 'Copy share link')))),
+  }, linkCopied ? _t('yieldCard.linkCopied') || 'Copied!' : _t('yieldCard.shareLink') || '🔗 Copy invite link'))))),
   // Deposit simulator slider section (Second controller in widget)
   React.createElement('div', {
     className: 'yield-card-slider-section'
