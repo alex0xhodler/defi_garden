@@ -4,7 +4,12 @@ import sys
 
 def verify_url(url, headers=None, expected_content_type=None, post_data=None, optional=False):
     print(f"Verifying {url}...")
-    req = urllib.request.Request(url, headers=headers or {})
+    req_headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 DeFiGardenAudit/1.0"
+    }
+    if headers:
+        req_headers.update(headers)
+    req = urllib.request.Request(url, headers=req_headers)
     if post_data:
         req.data = json.dumps(post_data).encode('utf-8')
         req.add_header('Content-Type', 'application/json')
