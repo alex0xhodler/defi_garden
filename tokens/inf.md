@@ -4,18 +4,18 @@ The highest honest INF yield right now is 5.73% on sanctum-infinity (Solana), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.73% | $156.74M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=f4f1b5a0-2ef0-42aa-947b-a5d64ecfc6d8&src=seo_token) | Solana | 0.06% | $217.3K |
+| [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.73% | $156.57M |
+| [kamino-liquidity →](https://www.defi.garden/?pool=f4f1b5a0-2ef0-42aa-947b-a5d64ecfc6d8&src=seo_token) | Solana | 0.06% | $217K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, INF's lower-variability candidates are sanctum-infinity (Solana), 5.73% APY, $156.74M TVL, https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token; kamino-liquidity (Solana), 0.06% APY, $217.3K TVL, https://www.defi.garden/?pool=f4f1b5a0-2ef0-42aa-947b-a5d64ecfc6d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INF's lower-variability candidates are sanctum-infinity (Solana), 5.73% APY, $156.57M TVL, https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token; kamino-liquidity (Solana), 0.06% APY, $217K TVL, https://www.defi.garden/?pool=f4f1b5a0-2ef0-42aa-947b-a5d64ecfc6d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.73% | $156.74M |
-| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=f4f1b5a0-2ef0-42aa-947b-a5d64ecfc6d8&src=seo_token) | Solana | 0.06% | $217.3K |
+| 1 | [sanctum-infinity →](https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token) | Solana | 5.73% | $156.57M |
+| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=f4f1b5a0-2ef0-42aa-947b-a5d64ecfc6d8&src=seo_token) | Solana | 0.06% | $217K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -31,7 +31,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sanctum-infinity | 5.73% | 5.76% | Base rate |
+| sanctum-infinity | 5.73% | 5.75% | Base rate |
 | kamino-liquidity | 0.06% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many INF pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $168.37M in total.
+7 live pools clear this page's $100K TVL floor, $168.17M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which INF pools have the most stable APY history?
 
-Based on APY history only, INF's lower-variability candidates are sanctum-infinity (Solana), 5.73% APY, $156.74M TVL, https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token; kamino-liquidity (Solana), 0.06% APY, $217.3K TVL, https://www.defi.garden/?pool=f4f1b5a0-2ef0-42aa-947b-a5d64ecfc6d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, INF's lower-variability candidates are sanctum-infinity (Solana), 5.73% APY, $156.57M TVL, https://www.defi.garden/?pool=3075a746-bdd1-4aac-bcd5-b035abee2622&src=seo_token; kamino-liquidity (Solana), 0.06% APY, $217K TVL, https://www.defi.garden/?pool=f4f1b5a0-2ef0-42aa-947b-a5d64ecfc6d8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, INF's lower-variability candidates are sanctum-infini
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

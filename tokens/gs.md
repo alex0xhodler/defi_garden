@@ -4,7 +4,7 @@ The highest honest GS yield right now is 6.17% on gammaswap-open-interest (Arbit
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gammaswap-open-interest →](https://www.defi.garden/?pool=86a2ee7d-14cb-4819-bf19-351119f5688c&src=seo_token) | Arbitrum | 6.17% | $540K |
+| [gammaswap-open-interest →](https://www.defi.garden/?pool=86a2ee7d-14cb-4819-bf19-351119f5688c&src=seo_token) | Arbitrum | 6.17% | $539.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $540K in total.
+1 live pool clear this page's $100K TVL floor, $539.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GS pools. This view covers AP
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

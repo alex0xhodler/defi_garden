@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AGNT pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

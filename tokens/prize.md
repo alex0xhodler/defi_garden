@@ -4,7 +4,7 @@ The highest honest PRIZE yield right now is 0.01% on raydium-amm (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8526d872-2e67-4f2b-bbfd-2b47263d30cf&src=seo_token) | Solana | 0.01% | $897.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=8526d872-2e67-4f2b-bbfd-2b47263d30cf&src=seo_token) | Solana | 0.01% | $894.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PRIZE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $897.1K in total.
+1 live pool clear this page's $100K TVL floor, $894.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PRIZE pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

@@ -1,29 +1,29 @@
 # MINI DeFi Yields
 
-The highest honest MINI yield right now is 0.54% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MINI yield right now is 1.14% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token) | Solana | 0.54% | $313.1K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=7adc0198-48ae-4d63-8511-40c33ea167d1&src=seo_token) | Base | 0.05% | $124.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token) | Solana | 1.14% | $311.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7adc0198-48ae-4d63-8511-40c33ea167d1&src=seo_token) | Base | 0.02% | $124.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MINI's lower-variability candidates are raydium-amm (Solana), 0.54% APY, $313.1K TVL, https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token; uniswap-v4 (Base), 0.05% APY, $124.4K TVL, https://www.defi.garden/?pool=7adc0198-48ae-4d63-8511-40c33ea167d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MINI's lower-variability candidates are raydium-amm (Solana), 1.14% APY, $311.1K TVL, https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token; uniswap-v4 (Base), 0.02% APY, $124.4K TVL, https://www.defi.garden/?pool=7adc0198-48ae-4d63-8511-40c33ea167d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token) | Solana | 0.54% | $313.1K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=7adc0198-48ae-4d63-8511-40c33ea167d1&src=seo_token) | Base | 0.05% | $124.4K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token) | Solana | 1.14% | $311.1K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=7adc0198-48ae-4d63-8511-40c33ea167d1&src=seo_token) | Base | 0.02% | $124.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MINI shows up in 2 pools here, with rates from 0.05% to 0.54% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MINI shows up in 2 pools here, with rates from 0.02% to 1.14% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.16% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.54% | 1.53% | Base rate |
-| uniswap-v4 | 0.05% | 4.80% | Base rate |
+| raydium-amm | 1.14% | 1.52% | Base rate |
+| uniswap-v4 | 0.02% | 4.77% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MINI yield today?
 
-0.54% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.14% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MINI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $437.4K in total.
+2 live pools clear this page's $100K TVL floor, $435.5K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MINI pools have the most stable APY history?
 
-Based on APY history only, MINI's lower-variability candidates are raydium-amm (Solana), 0.54% APY, $313.1K TVL, https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token; uniswap-v4 (Base), 0.05% APY, $124.4K TVL, https://www.defi.garden/?pool=7adc0198-48ae-4d63-8511-40c33ea167d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MINI's lower-variability candidates are raydium-amm (Solana), 1.14% APY, $311.1K TVL, https://www.defi.garden/?pool=674396f4-f40c-4ed1-b818-67a9976cc7e3&src=seo_token; uniswap-v4 (Base), 0.02% APY, $124.4K TVL, https://www.defi.garden/?pool=7adc0198-48ae-4d63-8511-40c33ea167d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -68,4 +68,4 @@ Based on APY history only, MINI's lower-variability candidates are raydium-amm (
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

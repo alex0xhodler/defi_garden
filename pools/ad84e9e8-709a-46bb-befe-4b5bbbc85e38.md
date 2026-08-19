@@ -2,7 +2,7 @@
 
 **Total APY:** 0.09% (0.09% Base · + 0.00% Rewards)
 
-**TVL:** $244.9K
+**TVL:** $247.5K
 
 **Pool Type:** Lending
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on morpho-blue](https://app.morpho.org/?ref=defi.garden)
 
-Last updated August 18, 2026
+Last updated August 19, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CRVUSDBTCETH pools. This view
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

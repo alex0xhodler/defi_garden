@@ -4,7 +4,7 @@ The highest honest OTHQ yield right now is 0.99% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=75c1ef98-11b7-4158-95e1-fcd53b293d1c&src=seo_token) | Base | 0.99% | $226.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=75c1ef98-11b7-4158-95e1-fcd53b293d1c&src=seo_token) | Base | 0.99% | $227.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OTHQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $226.1K in total.
+1 live pool clear this page's $100K TVL floor, $227.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank OTHQ pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

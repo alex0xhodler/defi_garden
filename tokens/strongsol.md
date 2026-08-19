@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRONGSOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.3M in total.
+2 live pools clear this page's $100K TVL floor, $6.29M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank STRONGSOL pools. This view co
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

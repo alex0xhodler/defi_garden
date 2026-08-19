@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=6c0c88d0-c1ba-5acb-b134-c91abcf35649&src=seo_token) | Flare | 1.57% | $281.4K |
+| [superform →](https://www.defi.garden/?pool=6c0c88d0-c1ba-5acb-b134-c91abcf35649&src=seo_token) | Flare | 1.57% | $281.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Flare의 superform에서 APY 1.57%예요.
 
 ### BIZFXRP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $281.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $281.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,8 +34,8 @@ DefiLlama 실시간 데이터 기준, Flare의 superform에서 APY 1.57%예요.
 ## 관련 토큰
 
 - [FXRP](https://www.defi.garden/ko/tokens/fxrp)
-- [COREUSDT0](https://www.defi.garden/ko/tokens/coreusdt0)
 - [SFLR](https://www.defi.garden/ko/tokens/sflr)
+- [COREUSDT0](https://www.defi.garden/ko/tokens/coreusdt0)
 - [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [USDX](https://www.defi.garden/ko/tokens/usdx)
 - [STXRP](https://www.defi.garden/ko/tokens/stxrp)
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Flare의 superform에서 APY 1.57%예요.
 
 - [Flare](https://www.defi.garden/ko/chains/flare)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

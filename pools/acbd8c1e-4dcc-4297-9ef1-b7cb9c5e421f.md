@@ -1,12 +1,12 @@
 # RSETH-ETH — fluid-dex on Ethereum
 
-**Total APY:** 1.60% (1.60% Base · + 0.00% Rewards)
+**Total APY:** 1.61% (1.61% Base · + 0.00% Rewards)
 
-**TVL:** $4.12M
+**TVL:** $4.13M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.16%
+**30d Mean APY:** 1.17%
 
 **Exposure:** multi
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on fluid-dex](https://www.fluid.io/?ref=defi.garden)
 
-Last updated August 18, 2026
+Last updated August 19, 2026

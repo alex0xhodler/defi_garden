@@ -4,7 +4,7 @@ The highest honest DCPLUS yield right now is 0.40% on uniswap-v2 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=71d08aa2-79a7-4df2-9042-9b2366bcc9a6&src=seo_token) | Base | 0.40% | $339.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=71d08aa2-79a7-4df2-9042-9b2366bcc9a6&src=seo_token) | Base | 0.40% | $339.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DCPLUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $339.2K in total.
+1 live pool clear this page's $100K TVL floor, $339.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DCPLUS pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

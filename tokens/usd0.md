@@ -36,7 +36,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | euler-v2 | 0.56% | 1.02% | Base rate |
-| uniswap-v3 | 0.15% | 0.81% | Base rate |
+| uniswap-v3 | 0.15% | 0.80% | Base rate |
 | uniswap-v3 | 0.04% | 0.51% | Base rate |
 | curve-dex | 0.02% | 0.06% | Base rate |
 | curve-dex | 0.01% | 0.12% | Base rate |
@@ -74,4 +74,4 @@ Based on APY history only, USD0's lower-variability candidates are uniswap-v3 (E
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

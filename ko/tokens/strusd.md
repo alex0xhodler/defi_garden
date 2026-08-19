@@ -7,7 +7,7 @@
 | [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 11.05% | $45.77M |
 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.51% | $10.08M |
 | [pendle →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.61% | $7.05M |
-| [pendle →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 11.48% | $7.05M |
+| [pendle →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 11.50% | $7.05M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -26,10 +26,10 @@ STRUSD 풀은 여기 4개가 있고, 1개 체인에서 APY가 5.51%부터 11.61%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| tori-finance | 11.05% | 11.68% | 기본 금리 |
+| tori-finance | 11.05% | 11.66% | 기본 금리 |
 | curve-dex | 5.51% | 5.48% | 기본 금리 |
 | pendle | 11.61% | 11.57% | 기본 금리 |
-| pendle | 11.48% | 12.14% | 인센티브 2.71% |
+| pendle | 11.50% | 12.13% | 인센티브 2.67% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -64,4 +64,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 11.61%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

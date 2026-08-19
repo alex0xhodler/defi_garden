@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 bitwise-uscc에서 APY 3.19%�
 
 ### USCC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $60.53M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $60.41M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,4 +70,4 @@ APY 이력만 기준으로 비교한 USCC의 변동성 낮은 후보는 Solana�
 - [Plume Mainnet](https://www.defi.garden/ko/chains/plume-mainnet)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

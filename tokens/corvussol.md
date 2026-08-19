@@ -4,7 +4,7 @@ The highest honest CORVUSSOL yield right now is 1.05% on project-0 (Solana), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=1b211b86-a553-43e1-82f7-bb6e1f213d9e&src=seo_token) | Solana | 1.05% | $148.1K |
+| [project-0 →](https://www.defi.garden/?pool=1b211b86-a553-43e1-82f7-bb6e1f213d9e&src=seo_token) | Solana | 1.05% | $147.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CORVUSSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $148.1K in total.
+1 live pool clear this page's $100K TVL floor, $147.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CORVUSSOL pools. This view co
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BONGO pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

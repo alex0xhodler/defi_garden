@@ -83,4 +83,4 @@ APY 이력만 기준으로 비교한 LP의 변동성 낮은 후보는 BSC의 wom
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

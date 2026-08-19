@@ -4,7 +4,7 @@ The highest honest BEAT yield right now is 0.50% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6e0aac86-c394-5414-9861-b30d309e19d6&src=seo_token) | Solana | 0.50% | $6.45M |
+| [raydium-amm →](https://www.defi.garden/?pool=6e0aac86-c394-5414-9861-b30d309e19d6&src=seo_token) | Solana | 0.50% | $6.44M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BEAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.45M in total.
+1 live pool clear this page's $100K TVL floor, $6.44M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BEAT pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

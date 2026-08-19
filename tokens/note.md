@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank NOTE pools. This view covers 
 
 - [Canto](https://www.defi.garden/chains/canto)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

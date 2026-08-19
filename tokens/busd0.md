@@ -4,20 +4,20 @@ The highest honest BUSD0 yield right now is 2.46% on usual-usd0 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token) | Ethereum | 2.46% | $505.67M |
+| [usual-usd0 →](https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token) | Ethereum | 2.46% | $505.74M |
 | [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.02% | $1.75M |
 | [usual-usd0 →](https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token) | Arbitrum | 2.46% | $100.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BUSD0's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $1.75M TVL, https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token; usual-usd0 (Arbitrum), 2.46% APY, $100.3K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token; usual-usd0 (Ethereum), 2.46% APY, $505.67M TVL, https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUSD0's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $1.75M TVL, https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token; usual-usd0 (Arbitrum), 2.46% APY, $100.3K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token; usual-usd0 (Ethereum), 2.46% APY, $505.74M TVL, https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curve-dex →](https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token) | Ethereum | 0.02% | $1.75M |
 | 2 | [usual-usd0 →](https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token) | Arbitrum | 2.46% | $100.3K |
-| 3 | [usual-usd0 →](https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token) | Ethereum | 2.46% | $505.67M |
+| 3 | [usual-usd0 →](https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token) | Ethereum | 2.46% | $505.74M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BUSD0 pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $507.52M in total.
+3 live pools clear this page's $100K TVL floor, $507.59M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BUSD0 pools have the most stable APY history?
 
-Based on APY history only, BUSD0's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $1.75M TVL, https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token; usual-usd0 (Arbitrum), 2.46% APY, $100.3K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token; usual-usd0 (Ethereum), 2.46% APY, $505.67M TVL, https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BUSD0's lower-variability candidates are curve-dex (Ethereum), 0.02% APY, $1.75M TVL, https://www.defi.garden/?pool=bc58a174-05f8-4e41-8f77-be9c13a614bf&src=seo_token; usual-usd0 (Arbitrum), 2.46% APY, $100.3K TVL, https://www.defi.garden/?pool=2100ff1b-4ff8-4cf3-81e5-a6630931467c&src=seo_token; usual-usd0 (Ethereum), 2.46% APY, $505.74M TVL, https://www.defi.garden/?pool=55b0893b-1dbb-47fd-9912-5e439cd3d511&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,4 +69,4 @@ Based on APY history only, BUSD0's lower-variability candidates are curve-dex (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

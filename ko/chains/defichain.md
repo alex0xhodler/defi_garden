@@ -36,4 +36,4 @@ DefiLlama 실시간 데이터 기준, Defichain의 defichain-dex에서 APY 0.20%
 - [DUSD](https://www.defi.garden/ko/tokens/dusd)
 - [DFI](https://www.defi.garden/ko/tokens/dfi)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

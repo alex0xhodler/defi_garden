@@ -1,10 +1,10 @@
 # MWETH 디파이 수익률
 
-현재 MWETH의 가장 높은 정직한 수익률은 Base의 morpho-blue에서 1.62%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 MWETH의 가장 높은 정직한 수익률은 Base의 morpho-blue에서 1.61%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4280d14b-b720-41e2-afab-a1760dbb0d54&src=seo_token) | Base | 1.62% | $5.05M |
+| [morpho-blue →](https://www.defi.garden/?pool=4280d14b-b720-41e2-afab-a1760dbb0d54&src=seo_token) | Base | 1.61% | $5.05M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 MWETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 1.62%예요.
+DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 1.61%예요.
 
 ### MWETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 1.62%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

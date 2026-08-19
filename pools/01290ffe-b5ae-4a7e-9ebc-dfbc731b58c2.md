@@ -1,12 +1,12 @@
 # THYPE-HYPERLENDKHYPE — balancer-v3 on Hyperliquid L1
 
-**Total APY:** 3.71% (2.17% Base · + 1.55% Rewards)
+**Total APY:** 3.72% (2.17% Base · + 1.55% Rewards)
 
-**TVL:** $119.9K
+**TVL:** $119.3K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.75%
+**30d Mean APY:** 3.76%
 
 **Exposure:** multi
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on balancer-v3](https://balancer.fi/?ref=defi.garden)
 
-Last updated August 18, 2026
+Last updated August 19, 2026

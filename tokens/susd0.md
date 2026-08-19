@@ -4,7 +4,7 @@ The highest honest SUSD0 yield right now is 4.10% on usual-usd0 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=854751ea-f91e-41d6-b168-532095a36da6&src=seo_token) | Ethereum | 4.10% | $351K |
+| [usual-usd0 →](https://www.defi.garden/?pool=854751ea-f91e-41d6-b168-532095a36da6&src=seo_token) | Ethereum | 4.10% | $351.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSD0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $351K in total.
+1 live pool clear this page's $100K TVL floor, $351.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SUSD0 pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

@@ -1,10 +1,10 @@
 # PRIMEUSDC DeFi Yields
 
-The highest honest PRIMEUSDC yield right now is 4.15% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRIMEUSDC yield right now is 4.14% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0f1750bb-94e1-4527-9443-a9ac19e15f41&src=seo_token) | Base | 4.15% | $119.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=0f1750bb-94e1-4527-9443-a9ac19e15f41&src=seo_token) | Base | 4.14% | $119.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRIMEUSDC yield today?
 
-4.15% APY on morpho-blue (Base), based on live DefiLlama data.
+4.14% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many PRIMEUSDC pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PRIMEUSDC pools. This view co
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

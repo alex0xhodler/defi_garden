@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USCC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $60.53M in total.
+5 live pools clear this page's $100K TVL floor, $60.41M in total.
 
 ### Are these rates safe?
 
@@ -70,4 +70,4 @@ Based on APY history only, USCC's lower-variability candidates are bitwise-uscc 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

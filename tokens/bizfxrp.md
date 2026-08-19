@@ -4,7 +4,7 @@ The highest honest BIZFXRP yield right now is 1.57% on superform (Flare), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=6c0c88d0-c1ba-5acb-b134-c91abcf35649&src=seo_token) | Flare | 1.57% | $281.4K |
+| [superform →](https://www.defi.garden/?pool=6c0c88d0-c1ba-5acb-b134-c91abcf35649&src=seo_token) | Flare | 1.57% | $281.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BIZFXRP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $281.4K in total.
+1 live pool clear this page's $100K TVL floor, $281.2K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank BIZFXRP pools. This view cove
 ## Related tokens
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
-- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [SFLR](https://www.defi.garden/tokens/sflr)
+- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [USDX](https://www.defi.garden/tokens/usdx)
 - [STXRP](https://www.defi.garden/tokens/stxrp)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BIZFXRP pools. This view cove
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

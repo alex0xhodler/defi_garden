@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=3a139a63-19f0-4461-abbf-8f0f94026cb0&src=seo_token) | Ethereum | 0.07% | $2.16M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3a139a63-19f0-4461-abbf-8f0f94026cb0&src=seo_token) | Ethereum | 0.07% | $2.17M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.07%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

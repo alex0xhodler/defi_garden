@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TSLAB pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

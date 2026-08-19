@@ -8,7 +8,7 @@ The highest honest CC yield right now is 0.03% on uniswap-v4 (Base), among 6 poo
 | [raydium-amm →](https://www.defi.garden/?pool=e1a3cd26-8102-57fd-b3b5-af932c43daf1&src=seo_token) | Solana | 0.02% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=ccb7702c-646c-5583-9757-46c347e2417c&src=seo_token) | Solana | 0.02% | $93.94M |
 | [raydium-amm →](https://www.defi.garden/?pool=791323b3-f244-5050-87b8-a59fb445e8ae&src=seo_token) | Solana | 0.01% | $92.93M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93&src=seo_token) | Base | 0.03% | $142.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93&src=seo_token) | Base | 0.03% | $142.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -32,7 +32,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 | raydium-amm | 0.01% | 0.02% | Base rate |
 | raydium-amm | 0.02% | 0.01% | Base rate |
 | raydium-amm | 0.02% | 0.02% | Base rate |
-| raydium-amm | 0.01% | 0.00% | Base rate |
+| raydium-amm | 0.01% | 0.01% | Base rate |
 | uniswap-v4 | 0.03% | 0.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -69,4 +69,4 @@ There is not enough qualifying APY history to rank CC pools. This view covers AP
 - [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

@@ -4,35 +4,35 @@ The highest honest USDG yield right now is 4.96% on maple (Ethereum), among 44 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.96% | $275.72M |
-| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.08% | $30.48M |
-| [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.18% | $25.68M |
-| [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.36% | $24.94M |
-| [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_token) | Robinhood Chain | 3.50% | $24.58M |
-| [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 3.01% | $17.66M |
+| [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.96% | $275.43M |
+| [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.28% | $30.48M |
+| [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.17% | $25.68M |
+| [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.40% | $23.95M |
+| [spark-savings →](https://www.defi.garden/?pool=a1371c8f-592f-56d4-a506-7f1530f35a00&src=seo_token) | Robinhood Chain | 3.50% | $22M |
+| [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 3.02% | $17.56M |
 | [aave-v3 →](https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token) | Ethereum | 3.43% | $4.36M |
 | [pendle →](https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token) | Ethereum | 3.67% | $3.77M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDG's lower-variability candidates are aave-v4 (Ethereum), 1.36% APY, $24.94M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token; curve-dex (Ethereum), 0.08% APY, $30.48M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token; maple (Ethereum), 4.96% APY, $275.72M TVL, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token; pendle (Ethereum), 3.67% APY, $3.77M TVL, https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token; kamino-lend (Solana), 3.01% APY, $17.66M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token; aave-v3 (Ethereum), 3.43% APY, $4.36M TVL, https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token; orca-dex (Solana), 0.18% APY, $25.68M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDG's lower-variability candidates are aave-v4 (Ethereum), 1.40% APY, $23.95M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token; curve-dex (Ethereum), 0.28% APY, $30.48M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token; maple (Ethereum), 4.96% APY, $275.43M TVL, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token; pendle (Ethereum), 3.67% APY, $3.77M TVL, https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token; kamino-lend (Solana), 3.02% APY, $17.56M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token; aave-v3 (Ethereum), 3.43% APY, $4.36M TVL, https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token; orca-dex (Solana), 0.17% APY, $25.68M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.36% | $24.94M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.08% | $30.48M |
-| 3 | [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.96% | $275.72M |
+| 1 | [aave-v4 →](https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token) | Ethereum | 1.40% | $23.95M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token) | Ethereum | 0.28% | $30.48M |
+| 3 | [maple →](https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token) | Ethereum | 4.96% | $275.43M |
 | 4 | [pendle →](https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token) | Ethereum | 3.67% | $3.77M |
-| 5 | [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 3.01% | $17.66M |
+| 5 | [kamino-lend →](https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token) | Solana | 3.02% | $17.56M |
 | 6 | [aave-v3 →](https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token) | Ethereum | 3.43% | $4.36M |
-| 7 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.18% | $25.68M |
+| 7 | [orca-dex →](https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token) | Solana | 0.17% | $25.68M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USDG shows up in 8 pools here, with rates from 0.08% to 4.96% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+USDG shows up in 8 pools here, with rates from 0.17% to 4.96% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 8 of these 8 pools have a trustworthy 30-day average on file, with a median of 3.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -41,13 +41,13 @@ USDG shows up in 8 pools here, with rates from 0.08% to 4.96% APY across 3 chain
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | maple | 4.96% | 5.00% | Base rate |
-| curve-dex | 0.08% | 0.36% | Base rate |
-| orca-dex | 0.18% | 0.20% | Base rate |
-| aave-v4 | 1.36% | 1.12% | Base rate |
+| curve-dex | 0.28% | 0.36% | Base rate |
+| orca-dex | 0.17% | 0.20% | Base rate |
+| aave-v4 | 1.40% | 1.12% | Base rate |
 | spark-savings | 3.50% | 3.50% | Base rate |
-| kamino-lend | 3.01% | 2.54% | Base rate |
-| aave-v3 | 3.43% | 5.10% | Base rate |
-| pendle | 3.67% | 3.62% | 8.71% incentives |
+| kamino-lend | 3.02% | 2.55% | Base rate |
+| aave-v3 | 3.43% | 5.09% | Base rate |
+| pendle | 3.67% | 3.62% | 8.61% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -59,7 +59,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDG pools clear the TVL floor?
 
-44 live pools clear this page's $100K TVL floor, $466.02M in total.
+44 live pools clear this page's $100K TVL floor, $461.7M in total.
 
 ### Are these rates safe?
 
@@ -67,7 +67,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDG pools have the most stable APY history?
 
-Based on APY history only, USDG's lower-variability candidates are aave-v4 (Ethereum), 1.36% APY, $24.94M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token; curve-dex (Ethereum), 0.08% APY, $30.48M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token; maple (Ethereum), 4.96% APY, $275.72M TVL, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token; pendle (Ethereum), 3.67% APY, $3.77M TVL, https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token; kamino-lend (Solana), 3.01% APY, $17.66M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token; aave-v3 (Ethereum), 3.43% APY, $4.36M TVL, https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token; orca-dex (Solana), 0.18% APY, $25.68M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDG's lower-variability candidates are aave-v4 (Ethereum), 1.40% APY, $23.95M TVL, https://www.defi.garden/?pool=411707d7-0293-4ad3-982d-72125e1f5de7&src=seo_token; curve-dex (Ethereum), 0.28% APY, $30.48M TVL, https://www.defi.garden/?pool=367f7910-672b-43e1-804b-c68d58caa927&src=seo_token; maple (Ethereum), 4.96% APY, $275.43M TVL, https://www.defi.garden/?pool=4c004503-9587-46f2-a362-d23a80f4b691&src=seo_token; pendle (Ethereum), 3.67% APY, $3.77M TVL, https://www.defi.garden/?pool=d91b979f-1c05-423f-b987-581d20d84d6f&src=seo_token; kamino-lend (Solana), 3.02% APY, $17.56M TVL, https://www.defi.garden/?pool=0cdd7f84-711e-4cd4-916d-da318857559a&src=seo_token; aave-v3 (Ethereum), 3.43% APY, $4.36M TVL, https://www.defi.garden/?pool=83fca810-ec67-401d-831a-2d0ae8e596c9&src=seo_token; orca-dex (Solana), 0.17% APY, $25.68M TVL, https://www.defi.garden/?pool=ac225670-41bc-48fa-b8d7-32011abc58fe&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -84,4 +84,4 @@ Based on APY history only, USDG's lower-variability candidates are aave-v4 (Ethe
 - [Solana](https://www.defi.garden/chains/solana)
 - [Robinhood Chain](https://www.defi.garden/chains/robinhood-chain)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

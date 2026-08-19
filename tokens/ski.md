@@ -1,10 +1,10 @@
 # SKI DeFi Yields
 
-The highest honest SKI yield right now is 9.53% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKI yield right now is 1.38% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=190da63b-79b9-4d0b-b3fa-440c612d631b&src=seo_token) | Base | 9.53% | $521.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=190da63b-79b9-4d0b-b3fa-440c612d631b&src=seo_token) | Base | 1.38% | $517.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKI yield today?
 
-9.53% APY on uniswap-v2 (Base), based on live DefiLlama data.
+1.38% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SKI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $521.1K in total.
+1 live pool clear this page's $100K TVL floor, $517.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SKI pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

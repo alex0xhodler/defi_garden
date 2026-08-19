@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank DFI pools. This view covers A
 
 - [Defichain](https://www.defi.garden/chains/defichain)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

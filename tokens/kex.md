@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KEX pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

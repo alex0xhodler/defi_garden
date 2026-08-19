@@ -5,8 +5,8 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=04097667-0a7d-5bcc-bf1a-2c31afdfd291&src=seo_token) | Solana | 0.07% | $300K |
-| [raydium-amm →](https://www.defi.garden/?pool=45edad80-a4a7-53c6-9a58-509dcbd48153&src=seo_token) | Solana | 0.06% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=185c1767-7eb1-516a-b04a-505a76da5782&src=seo_token) | Solana | 0.05% | $300K |
+| [raydium-amm →](https://www.defi.garden/?pool=45edad80-a4a7-53c6-9a58-509dcbd48153&src=seo_token) | Solana | 0.06% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=14d952c8-6b58-59de-99f9-1a4e9bc45769&src=seo_token) | Solana | 0.02% | $300K |
 
 <!-- rate-stability:insufficient -->
@@ -29,8 +29,8 @@ MVP 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.02%부터 0.07%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | raydium-amm | 0.07% | 0.14% | 기본 금리 |
-| raydium-amm | 0.06% | 0.06% | 기본 금리 |
 | raydium-amm | 0.05% | 0.06% | 기본 금리 |
+| raydium-amm | 0.06% | 0.06% | 기본 금리 |
 | raydium-amm | 0.02% | 0.04% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -66,4 +66,4 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.07%예�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

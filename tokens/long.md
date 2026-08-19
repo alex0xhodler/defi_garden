@@ -1,10 +1,10 @@
 # LONG DeFi Yields
 
-The highest honest LONG yield right now is 9.78% on zkswap-v2 (ZKsync Era), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LONG yield right now is 13.97% on zkswap-v2 (ZKsync Era), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_token) | ZKsync Era | 9.78% | $198.8K |
+| [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_token) | ZKsync Era | 13.97% | $191.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LONG yield today?
 
-9.78% APY on zkswap-v2 (ZKsync Era), based on live DefiLlama data.
+13.97% APY on zkswap-v2 (ZKsync Era), based on live DefiLlama data.
 
 ### How many LONG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $198.8K in total.
+1 live pool clear this page's $100K TVL floor, $191.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LONG pools. This view covers 
 
 - [ZKsync Era](https://www.defi.garden/chains/zksync-era)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

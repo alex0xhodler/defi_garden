@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ZIG pools. This view covers A
 
 - [ZIGChain](https://www.defi.garden/chains/zigchain)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

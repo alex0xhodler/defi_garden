@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PST pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $93.74M in total.
+9 live pools clear this page's $100K TVL floor, $93.76M in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ Based on APY history only, PST's lower-variability candidates are orca-dex (Sola
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

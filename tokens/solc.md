@@ -1,10 +1,10 @@
 # SOLC DeFi Yields
 
-The highest honest SOLC yield right now is 0.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOLC yield right now is 0.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=2920812d-eda8-4578-9af7-94f028d6a505&src=seo_token) | Solana | 0.56% | $143.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=2920812d-eda8-4578-9af7-94f028d6a505&src=seo_token) | Solana | 0.75% | $142.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOLC yield today?
 
-0.56% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.75% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SOLC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.7K in total.
+1 live pool clear this page's $100K TVL floor, $142.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SOLC pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

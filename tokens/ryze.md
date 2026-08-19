@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank RYZE pools. This view covers 
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

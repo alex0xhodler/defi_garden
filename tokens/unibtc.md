@@ -1,12 +1,12 @@
 # UNIBTC DeFi Yields
 
-The highest honest UNIBTC yield right now is 2.11% on symbiotic (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest UNIBTC yield right now is 2.12% on symbiotic (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [symbiotic →](https://www.defi.garden/?pool=dfe5b8a1-9d7d-5477-8312-1fdd1de8f136&src=seo_token) | Ethereum | 0.16% | $65.56M |
-| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.41% | $17.24M |
-| [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 2.11% | $2.56M |
+| [berapaw →](https://www.defi.garden/?pool=05d546df-73e2-4354-8cca-070ad6917067&src=seo_token) | Berachain | 0.39% | $17.19M |
+| [symbiotic →](https://www.defi.garden/?pool=696fb4d7-b328-555b-b0dc-774075d740bd&src=seo_token) | Ethereum | 2.12% | $2.55M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-UNIBTC shows up in 3 pools here, with rates from 0.16% to 2.11% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+UNIBTC shows up in 3 pools here, with rates from 0.16% to 2.12% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,8 +26,8 @@ UNIBTC shows up in 3 pools here, with rates from 0.16% to 2.11% APY across 2 cha
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | symbiotic | 0.16% | 0.16% | 100.00% incentives |
-| berapaw | 0.41% | 0.33% | 100.00% incentives |
-| symbiotic | 2.11% | 1.53% | 100.00% incentives |
+| berapaw | 0.39% | 0.33% | 100.00% incentives |
+| symbiotic | 2.12% | 1.55% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest UNIBTC yield today?
 
-2.11% APY on symbiotic (Ethereum), based on live DefiLlama data.
+2.12% APY on symbiotic (Ethereum), based on live DefiLlama data.
 
 ### How many UNIBTC pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $90.58M in total.
+7 live pools clear this page's $100K TVL floor, $90.52M in total.
 
 ### Are these rates safe?
 
@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank UNIBTC pools. This view cover
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

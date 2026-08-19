@@ -1,10 +1,10 @@
 # TBL 디파이 수익률
 
-현재 TBL의 가장 높은 정직한 수익률은 XRPL의 openeden-tbill에서 3.38%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TBL의 가장 높은 정직한 수익률은 XRPL의 openeden-tbill에서 3.42%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57&src=seo_token) | XRPL | 3.38% | $62.54M |
+| [openeden-tbill →](https://www.defi.garden/?pool=8032e541-5c60-4c68-9202-2812e75dab57&src=seo_token) | XRPL | 3.42% | $62.54M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 TBL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, XRPL의 openeden-tbill에서 APY 3.38%예요.
+DefiLlama 실시간 데이터 기준, XRPL의 openeden-tbill에서 APY 3.42%예요.
 
 ### TBL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, XRPL의 openeden-tbill에서 APY 3.38%예�
 
 - [XRPL](https://www.defi.garden/ko/chains/xrpl)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

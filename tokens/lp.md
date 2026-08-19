@@ -83,4 +83,4 @@ Based on APY history only, LP's lower-variability candidates are wombat-exchange
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

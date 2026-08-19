@@ -68,4 +68,4 @@ Based on APY history only, SUIUSDE's lower-variability candidates are cetus-clmm
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

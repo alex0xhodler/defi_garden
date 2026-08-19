@@ -1,41 +1,41 @@
 # SKY 디파이 수익률
 
-현재 SKY의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 28.65%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SKY의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 27.03%이며, $100K TVL 기준을 넘는 10개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token) | Ethereum | 8.87% | $732.19M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d&src=seo_token) | Ethereum | 1.75% | $6.28M |
-| [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token) | Ethereum | 6.83% | $2.94M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token) | Ethereum | 12.04% | $2.24M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token) | Ethereum | 16.12% | $954.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 5.65% | $438K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 28.65% | $200.1K |
-| [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 0.56% | $103.2K |
+| [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token) | Ethereum | 8.90% | $733.57M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d&src=seo_token) | Ethereum | 2.27% | $6.31M |
+| [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token) | Ethereum | 6.83% | $2.95M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token) | Ethereum | 12.06% | $2.25M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token) | Ethereum | 17.10% | $958.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 6.11% | $439.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 27.03% | $201.1K |
+| [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 0.56% | $104.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SKY의 변동성 낮은 후보는 Ethereum의 sky-lending, APY 8.87%, TVL $732.19M, https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token; Ethereum의 uniswap-v4, APY 5.65%, TVL $438K, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token; Ethereum의 uniswap-v3, APY 16.12%, TVL $954.6K, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token; Polkadot의 hydration-dex, APY 0.56%, TVL $103.2K, https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token; Ethereum의 origami-finance, APY 6.83%, TVL $2.94M, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token; Ethereum의 uniswap-v4, APY 12.04%, TVL $2.24M, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token; Ethereum의 uniswap-v3, APY 28.65%, TVL $200.1K, https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token; Ethereum의 uniswap-v4, APY 1.75%, TVL $6.28M, https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SKY의 변동성 낮은 후보는 Ethereum의 sky-lending, APY 8.90%, TVL $733.57M, https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token; Ethereum의 uniswap-v4, APY 6.11%, TVL $439.2K, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token; Ethereum의 uniswap-v3, APY 17.10%, TVL $958.8K, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token; Polkadot의 hydration-dex, APY 0.56%, TVL $104.8K, https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token; Ethereum의 origami-finance, APY 6.83%, TVL $2.95M, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token; Ethereum의 uniswap-v4, APY 12.06%, TVL $2.25M, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token; Ethereum의 uniswap-v3, APY 27.03%, TVL $201.1K, https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token; Ethereum의 uniswap-v4, APY 2.27%, TVL $6.31M, https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token) | Ethereum | 8.87% | $732.19M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 5.65% | $438K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token) | Ethereum | 16.12% | $954.6K |
-| 4 | [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 0.56% | $103.2K |
-| 5 | [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token) | Ethereum | 6.83% | $2.94M |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token) | Ethereum | 12.04% | $2.24M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 28.65% | $200.1K |
-| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d&src=seo_token) | Ethereum | 1.75% | $6.28M |
+| 1 | [sky-lending →](https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token) | Ethereum | 8.90% | $733.57M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token) | Ethereum | 6.11% | $439.2K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token) | Ethereum | 17.10% | $958.8K |
+| 4 | [hydration-dex →](https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token) | Polkadot | 0.56% | $104.8K |
+| 5 | [origami-finance →](https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token) | Ethereum | 6.83% | $2.95M |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token) | Ethereum | 12.06% | $2.25M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token) | Ethereum | 27.03% | $201.1K |
+| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d&src=seo_token) | Ethereum | 2.27% | $6.31M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SKY 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 28.65%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SKY 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 27.03%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.12%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.16%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -43,13 +43,13 @@ SKY 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 28.65%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sky-lending | 8.87% | 6.57% | 인센티브 100.00% |
-| uniswap-v4 | 1.75% | 0.29% | 기본 금리 |
-| origami-finance | 6.83% | 6.45% | 기본 금리 |
-| uniswap-v4 | 12.04% | 7.67% | 기본 금리 |
-| uniswap-v3 | 16.12% | 17.57% | 기본 금리 |
-| uniswap-v4 | 5.65% | 8.90% | 기본 금리 |
-| uniswap-v3 | 28.65% | 30.61% | 기본 금리 |
+| sky-lending | 8.90% | 6.59% | 인센티브 100.00% |
+| uniswap-v4 | 2.27% | 0.31% | 기본 금리 |
+| origami-finance | 6.83% | 6.46% | 기본 금리 |
+| uniswap-v4 | 12.06% | 7.73% | 기본 금리 |
+| uniswap-v3 | 17.10% | 17.56% | 기본 금리 |
+| uniswap-v4 | 6.11% | 8.85% | 기본 금리 |
+| uniswap-v3 | 27.03% | 30.49% | 기본 금리 |
 | hydration-dex | 0.56% | 1.06% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -58,11 +58,11 @@ SKY 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.56%부터 28.65%까
 
 ### 오늘 SKY의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 28.65%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 27.03%예요.
 
 ### SKY 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $745.57M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $747.02M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 28.65%예
 
 ### SKY 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SKY의 변동성 낮은 후보는 Ethereum의 sky-lending, APY 8.87%, TVL $732.19M, https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token; Ethereum의 uniswap-v4, APY 5.65%, TVL $438K, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token; Ethereum의 uniswap-v3, APY 16.12%, TVL $954.6K, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token; Polkadot의 hydration-dex, APY 0.56%, TVL $103.2K, https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token; Ethereum의 origami-finance, APY 6.83%, TVL $2.94M, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token; Ethereum의 uniswap-v4, APY 12.04%, TVL $2.24M, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token; Ethereum의 uniswap-v3, APY 28.65%, TVL $200.1K, https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token; Ethereum의 uniswap-v4, APY 1.75%, TVL $6.28M, https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SKY의 변동성 낮은 후보는 Ethereum의 sky-lending, APY 8.90%, TVL $733.57M, https://www.defi.garden/?pool=370a27ed-7971-5a6d-9f9d-7f98ed64d299&src=seo_token; Ethereum의 uniswap-v4, APY 6.11%, TVL $439.2K, https://www.defi.garden/?pool=354af3af-3b33-4b0d-a17a-f39a1b46e905&src=seo_token; Ethereum의 uniswap-v3, APY 17.10%, TVL $958.8K, https://www.defi.garden/?pool=0238a455-cd4d-448e-9529-0d0d0beee660&src=seo_token; Polkadot의 hydration-dex, APY 0.56%, TVL $104.8K, https://www.defi.garden/?pool=347e4a35-892c-4b55-b8ba-f1473409c91c&src=seo_token; Ethereum의 origami-finance, APY 6.83%, TVL $2.95M, https://www.defi.garden/?pool=4b51822a-05dc-4fa8-ae06-963ba010d7e1&src=seo_token; Ethereum의 uniswap-v4, APY 12.06%, TVL $2.25M, https://www.defi.garden/?pool=b795ef00-5124-4072-8c19-8ac701076677&src=seo_token; Ethereum의 uniswap-v3, APY 27.03%, TVL $201.1K, https://www.defi.garden/?pool=7fe1b874-94b1-4772-b1bd-fffc716699b7&src=seo_token; Ethereum의 uniswap-v4, APY 2.27%, TVL $6.31M, https://www.defi.garden/?pool=15981085-34a8-47f0-b9f7-e888a192b04d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -86,4 +86,4 @@ APY 이력만 기준으로 비교한 SKY의 변동성 낮은 후보는 Ethereum�
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

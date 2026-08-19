@@ -1,10 +1,10 @@
 # KEKEC DeFi Yields
 
-The highest honest KEKEC yield right now is 5.87% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KEKEC yield right now is 4.05% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9738e397-c5ba-4d62-b560-d27cd55142c4&src=seo_token) | Ethereum | 5.87% | $224.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9738e397-c5ba-4d62-b560-d27cd55142c4&src=seo_token) | Ethereum | 4.05% | $225.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KEKEC yield today?
 
-5.87% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+4.05% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many KEKEC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $224.3K in total.
+1 live pool clear this page's $100K TVL floor, $225.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KEKEC pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

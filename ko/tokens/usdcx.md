@@ -1,33 +1,33 @@
 # USDCX 디파이 수익률
 
-현재 USDCX의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 90.49%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDCX의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 87.15%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 10.33% | $1.03M |
-| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 90.49% | $198.5K |
-| [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 10.65% | $179K |
-| [liqwid →](https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token) | Cardano | 5.29% | $138.5K |
+| [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 11.66% | $937.8K |
+| [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 87.15% | $205.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 10.28% | $185.6K |
+| [liqwid →](https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token) | Cardano | 5.30% | $137.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDCX의 변동성 낮은 후보는 Cardano의 liqwid, APY 5.29%, TVL $138.5K, https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token; Move의 yuzu-finance, APY 10.33%, TVL $1.03M, https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token; Cardano의 minswap-dex, APY 10.65%, TVL $179K, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; Cardano의 minswap-dex, APY 90.49%, TVL $198.5K, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDCX의 변동성 낮은 후보는 Cardano의 liqwid, APY 5.30%, TVL $137.3K, https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token; Move의 yuzu-finance, APY 11.66%, TVL $937.8K, https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token; Cardano의 minswap-dex, APY 10.28%, TVL $185.6K, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; Cardano의 minswap-dex, APY 87.15%, TVL $205.3K, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [liqwid →](https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token) | Cardano | 5.29% | $138.5K |
-| 2 | [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 10.33% | $1.03M |
-| 3 | [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 10.65% | $179K |
-| 4 | [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 90.49% | $198.5K |
+| 1 | [liqwid →](https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token) | Cardano | 5.30% | $137.3K |
+| 2 | [yuzu-finance →](https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token) | Move | 11.66% | $937.8K |
+| 3 | [minswap-dex →](https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token) | Cardano | 10.28% | $185.6K |
+| 4 | [minswap-dex →](https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token) | Cardano | 87.15% | $205.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDCX 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.29%부터 90.49%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDCX 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.30%부터 87.15%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 13.79%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 13.74%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 4개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -35,10 +35,10 @@ USDCX 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.29%부터 90.49%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| yuzu-finance | 10.33% | 9.21% | 인센티브 99.15% |
-| minswap-dex | 90.49% | 100.84% | 인센티브 3.49% |
-| minswap-dex | 10.65% | 18.38% | 인센티브 46.10% |
-| liqwid | 5.29% | 6.02% | 기본 금리 |
+| yuzu-finance | 11.66% | 9.21% | 인센티브 98.22% |
+| minswap-dex | 87.15% | 101.33% | 인센티브 3.51% |
+| minswap-dex | 10.28% | 18.26% | 인센티브 46.11% |
+| liqwid | 5.30% | 6.02% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,11 +46,11 @@ USDCX 풀은 여기 4개가 있고, 2개 체인에서 APY가 5.29%부터 90.49%�
 
 ### 오늘 USDCX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 90.49%예요.
+DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 87.15%예요.
 
 ### USDCX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.55M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 90.49%예
 
 ### USDCX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDCX의 변동성 낮은 후보는 Cardano의 liqwid, APY 5.29%, TVL $138.5K, https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token; Move의 yuzu-finance, APY 10.33%, TVL $1.03M, https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token; Cardano의 minswap-dex, APY 10.65%, TVL $179K, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; Cardano의 minswap-dex, APY 90.49%, TVL $198.5K, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDCX의 변동성 낮은 후보는 Cardano의 liqwid, APY 5.30%, TVL $137.3K, https://www.defi.garden/?pool=50304af3-571e-46dc-8fbc-f9f5872acedf&src=seo_token; Move의 yuzu-finance, APY 11.66%, TVL $937.8K, https://www.defi.garden/?pool=25600d31-df82-43e4-9e47-c6b3b4aed521&src=seo_token; Cardano의 minswap-dex, APY 10.28%, TVL $185.6K, https://www.defi.garden/?pool=652db127-c17b-4ebb-a133-38becb741151&src=seo_token; Cardano의 minswap-dex, APY 87.15%, TVL $205.3K, https://www.defi.garden/?pool=d3f4c4e2-d14e-4772-8d77-25ed257a148c&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -67,11 +67,11 @@ APY 이력만 기준으로 비교한 USDCX의 변동성 낮은 후보는 Cardano
 - [IUSD](https://www.defi.garden/ko/tokens/iusd)
 - [USDA](https://www.defi.garden/ko/tokens/usda)
 - [USDT.E](https://www.defi.garden/ko/tokens/usdt-e)
-- [DJED](https://www.defi.garden/ko/tokens/djed)
+- [NIGHT](https://www.defi.garden/ko/tokens/night)
 
 ## 이용 가능한 체인
 
 - [Move](https://www.defi.garden/ko/chains/move)
 - [Cardano](https://www.defi.garden/ko/chains/cardano)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

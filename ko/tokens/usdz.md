@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 0.49%예요
 
 ### USDZ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $441.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $441.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 0.49%예요
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

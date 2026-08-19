@@ -4,7 +4,7 @@ The highest honest WDOGE yield right now is 0.07% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=3a139a63-19f0-4461-abbf-8f0f94026cb0&src=seo_token) | Ethereum | 0.07% | $2.16M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3a139a63-19f0-4461-abbf-8f0f94026cb0&src=seo_token) | Ethereum | 0.07% | $2.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank WDOGE pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

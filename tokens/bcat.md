@@ -1,10 +1,10 @@
 # BCAT DeFi Yields
 
-The highest honest BCAT yield right now is 3.11% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BCAT yield right now is 3.03% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=66157ba6-d409-4e91-bf1d-cd7265f9a19a&src=seo_token) | Ethereum | 3.11% | $102.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=66157ba6-d409-4e91-bf1d-cd7265f9a19a&src=seo_token) | Ethereum | 3.03% | $102.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BCAT yield today?
 
-3.11% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.03% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BCAT pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BCAT pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

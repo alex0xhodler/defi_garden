@@ -1,10 +1,10 @@
 # REGENT 디파이 수익률
 
-현재 REGENT의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 10.24%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 REGENT의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 10.36%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cad84bf8-8484-4534-987f-eac464d3f712&src=seo_token) | Base | 10.24% | $154K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cad84bf8-8484-4534-987f-eac464d3f712&src=seo_token) | Base | 10.36% | $154K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 REGENT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 10.24%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 10.36%예요.
 
 ### REGENT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 10.24%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

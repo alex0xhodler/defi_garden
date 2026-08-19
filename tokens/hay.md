@@ -67,4 +67,4 @@ Based on APY history only, HAY's lower-variability candidates are wombat-exchang
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

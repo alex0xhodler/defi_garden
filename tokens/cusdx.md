@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank CUSDX pools. This view covers
 ## Related tokens
 
 - [FXRP](https://www.defi.garden/tokens/fxrp)
-- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [SFLR](https://www.defi.garden/tokens/sflr)
+- [COREUSDT0](https://www.defi.garden/tokens/coreusdt0)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [USDX](https://www.defi.garden/tokens/usdx)
 - [STXRP](https://www.defi.garden/tokens/stxrp)
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CUSDX pools. This view covers
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

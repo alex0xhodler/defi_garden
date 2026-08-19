@@ -1,10 +1,10 @@
 # QUILL 디파이 수익률
 
-현재 QUILL의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 0.14%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 QUILL의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 0.12%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=dde56b7e-cce7-4eb1-8a2a-50b41f95ab9e&src=seo_token) | Base | 0.14% | $111.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dde56b7e-cce7-4eb1-8a2a-50b41f95ab9e&src=seo_token) | Base | 0.12% | $111.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 QUILL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.14%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.12%예요.
 
 ### QUILL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.14%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

@@ -1,10 +1,10 @@
 # LPT 디파이 수익률
 
-현재 LPT의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 10.44%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LPT의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 6.66%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=240bcd61-cc7a-40fa-9dec-b6e84e00f65c&src=seo_token) | Arbitrum | 10.44% | $183.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=240bcd61-cc7a-40fa-9dec-b6e84e00f65c&src=seo_token) | Arbitrum | 6.66% | $184.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 LPT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 10.44%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 6.66%예요.
 
 ### LPT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $183.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $184.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 10.44%예
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

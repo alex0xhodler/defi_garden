@@ -1,10 +1,10 @@
 # NAXI DeFi Yields
 
-The highest honest NAXI yield right now is 11.49% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NAXI yield right now is 11.50% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245&src=seo_token) | Plume Mainnet | 11.49% | $5.44M |
+| [nest-credit →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245&src=seo_token) | Plume Mainnet | 11.50% | $5.44M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NAXI yield today?
 
-11.49% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+11.50% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NAXI pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NAXI pools. This view covers 
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

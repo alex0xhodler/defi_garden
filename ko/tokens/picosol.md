@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Solana의 pico-staked-sol에서 APY 5.23%�
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

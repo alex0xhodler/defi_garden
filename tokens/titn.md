@@ -1,10 +1,10 @@
 # TITN DeFi Yields
 
-The highest honest TITN yield right now is 689.53% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TITN yield right now is 683.19% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5b9e4e99-b003-4990-b852-73c77c0fe533&src=seo_token) | Base | 689.53% | $242.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5b9e4e99-b003-4990-b852-73c77c0fe533&src=seo_token) | Base | 683.19% | $243.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TITN yield today?
 
-689.53% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+683.19% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TITN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $242.9K in total.
+1 live pool clear this page's $100K TVL floor, $243.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TITN pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

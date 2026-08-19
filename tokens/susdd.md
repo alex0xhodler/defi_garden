@@ -4,8 +4,8 @@ The highest honest SUSDD yield right now is 8.16% on pendle (Ethereum), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 8.16% | $5.1M |
 | [pendle →](https://www.defi.garden/?pool=851a0b68-230d-4e9d-9623-0f47e6412d89&src=seo_token) | Ethereum | 7.23% | $5.1M |
+| [pendle →](https://www.defi.garden/?pool=232eea6b-a51f-4c19-8845-c731e6da00ff&src=seo_token) | Ethereum | 8.16% | $5.1M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
@@ -29,8 +29,8 @@ SUSDD shows up in 2 pools here, with rates from 7.23% to 8.16% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 8.16% | 7.77% | Base rate |
-| pendle | 7.23% | 6.86% | 3.02% incentives |
+| pendle | 7.23% | 6.86% | 2.98% incentives |
+| pendle | 8.16% | 7.78% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -65,4 +65,4 @@ Based on APY history only, SUSDD's lower-variability candidates are pendle (Ethe
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

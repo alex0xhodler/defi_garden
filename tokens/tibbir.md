@@ -1,29 +1,29 @@
 # TIBBIR DeFi Yields
 
-The highest honest TIBBIR yield right now is 510.99% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TIBBIR yield right now is 475.87% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token) | Base | 510.99% | $302.8K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 34.54% | $102.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token) | Base | 475.87% | $304.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 35.58% | $104.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TIBBIR's lower-variability candidates are aerodrome-slipstream (Base), 510.99% APY, $302.8K TVL, https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token; aerodrome-slipstream (Base), 34.54% APY, $102.4K TVL, https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TIBBIR's lower-variability candidates are aerodrome-slipstream (Base), 475.87% APY, $304.5K TVL, https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token; aerodrome-slipstream (Base), 35.58% APY, $104.6K TVL, https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token) | Base | 510.99% | $302.8K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 34.54% | $102.4K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token) | Base | 475.87% | $304.5K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token) | Base | 35.58% | $104.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TIBBIR shows up in 2 pools here, with rates from 34.54% to 510.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TIBBIR shows up in 2 pools here, with rates from 35.58% to 475.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 160.66% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 160.85% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ TIBBIR shows up in 2 pools here, with rates from 34.54% to 510.99% APY across 1 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 510.99% | 306.98% | 65.00% incentives |
-| aerodrome-slipstream | 34.54% | 14.34% | Base rate |
+| aerodrome-slipstream | 475.87% | 307.18% | 60.72% incentives |
+| aerodrome-slipstream | 35.58% | 14.53% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TIBBIR yield today?
 
-510.99% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+475.87% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many TIBBIR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $405.2K in total.
+2 live pools clear this page's $100K TVL floor, $409K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TIBBIR pools have the most stable APY history?
 
-Based on APY history only, TIBBIR's lower-variability candidates are aerodrome-slipstream (Base), 510.99% APY, $302.8K TVL, https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token; aerodrome-slipstream (Base), 34.54% APY, $102.4K TVL, https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TIBBIR's lower-variability candidates are aerodrome-slipstream (Base), 475.87% APY, $304.5K TVL, https://www.defi.garden/?pool=4153d5ef-763e-4e84-b109-c31ce0f447e2&src=seo_token; aerodrome-slipstream (Base), 35.58% APY, $104.6K TVL, https://www.defi.garden/?pool=dd4273f8-bda0-445d-a0bf-5933e9332672&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, TIBBIR's lower-variability candidates are aerodrome-s
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

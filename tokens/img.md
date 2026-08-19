@@ -1,10 +1,10 @@
 # IMG DeFi Yields
 
-The highest honest IMG yield right now is 1.63% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IMG yield right now is 1.91% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b906fe46-e461-4343-aa7c-c7da3834ea45&src=seo_token) | Solana | 1.63% | $113.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=b906fe46-e461-4343-aa7c-c7da3834ea45&src=seo_token) | Solana | 1.91% | $113.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IMG yield today?
 
-1.63% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.91% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many IMG pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank IMG pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

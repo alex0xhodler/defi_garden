@@ -68,4 +68,4 @@ APY 이력만 기준으로 비교한 SUIUSDE의 변동성 낮은 후보는 Sui�
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

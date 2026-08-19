@@ -1,10 +1,10 @@
 # SJ DeFi Yields
 
-The highest honest SJ yield right now is 1.16% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SJ yield right now is 0.93% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=bad7f530-10c0-5f51-be13-890e4440324e&src=seo_token) | Solana | 1.16% | $147K |
+| [orca-dex →](https://www.defi.garden/?pool=bad7f530-10c0-5f51-be13-890e4440324e&src=seo_token) | Solana | 0.93% | $147K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SJ yield today?
 
-1.16% APY on orca-dex (Solana), based on live DefiLlama data.
+0.93% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SJ pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SJ pools. This view covers AP
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

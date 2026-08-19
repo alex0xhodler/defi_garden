@@ -65,4 +65,4 @@ Based on APY history only, NUSD's lower-variability candidates are pendle (Ether
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

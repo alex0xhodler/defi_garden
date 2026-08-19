@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 curve-dex에서 APY 0.07%예요
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DATOM pools. This view covers
 
 - [Neutron](https://www.defi.garden/chains/neutron)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

@@ -1,10 +1,10 @@
 # OV DeFi Yields
 
-The highest honest OV yield right now is 255.29% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OV yield right now is 223.30% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=e3ced4d2-5ce7-535f-a3d1-4a4c8b3a0d8f&src=seo_token) | Base | 255.29% | $170.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=e3ced4d2-5ce7-535f-a3d1-4a4c8b3a0d8f&src=seo_token) | Base | 223.30% | $189.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OV yield today?
 
-255.29% APY on uniswap-v2 (Base), based on live DefiLlama data.
+223.30% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many OV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $170.7K in total.
+1 live pool clear this page's $100K TVL floor, $189.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank OV pools. This view covers AP
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

@@ -36,7 +36,7 @@ USD0 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 0.56%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | euler-v2 | 0.56% | 1.02% | 기본 금리 |
-| uniswap-v3 | 0.15% | 0.81% | 기본 금리 |
+| uniswap-v3 | 0.15% | 0.80% | 기본 금리 |
 | uniswap-v3 | 0.04% | 0.51% | 기본 금리 |
 | curve-dex | 0.02% | 0.06% | 기본 금리 |
 | curve-dex | 0.01% | 0.12% | 기본 금리 |
@@ -74,4 +74,4 @@ APY 이력만 기준으로 비교한 USD0의 변동성 낮은 후보는 Ethereum
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

@@ -1,10 +1,10 @@
 # CFG DeFi Yields
 
-The highest honest CFG yield right now is 62.41% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CFG yield right now is 56.03% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=47d34a64-2fd2-44dc-aae8-38d2e95d7da4&src=seo_token) | Ethereum | 62.41% | $1.06M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=47d34a64-2fd2-44dc-aae8-38d2e95d7da4&src=seo_token) | Ethereum | 56.03% | $1.05M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CFG yield today?
 
-62.41% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+56.03% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many CFG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.06M in total.
+1 live pool clear this page's $100K TVL floor, $1.05M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CFG pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

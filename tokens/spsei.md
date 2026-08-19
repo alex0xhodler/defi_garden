@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SPSEI pools. This view covers
 
 - [Sei](https://www.defi.garden/chains/sei)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

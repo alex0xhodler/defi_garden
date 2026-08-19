@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token) | Ethereum | 0.01% | $157.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=2dd2ace9-9c7c-4877-add8-a0a8fc8cbd9a&src=seo_token) | Ethereum | 0.01% | $158.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.01%예�
 
 ### ZIK 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $8.2M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $8.21M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.01%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

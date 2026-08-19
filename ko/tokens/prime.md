@@ -1,38 +1,38 @@
 # PRIME 디파이 수익률
 
-현재 PRIME의 가장 높은 정직한 수익률은 Ethereum의 hastra에서 6.74%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 PRIME의 가장 높은 정직한 수익률은 Ethereum의 hastra에서 6.75%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hastra →](https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7&src=seo_token) | Ethereum | 6.74% | $399.55M |
-| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 6.74% | $162.92M |
-| [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 4.10% | $20.67M |
-| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 1.23% | $9.65M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 3.04% | $9M |
-| [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.06% | $3.4M |
+| [hastra →](https://www.defi.garden/?pool=acfc00cf-5f1f-5172-acc7-4827e5ddd0b7&src=seo_token) | Ethereum | 6.75% | $408.38M |
+| [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 6.75% | $162.81M |
+| [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 4.37% | $20.68M |
+| [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.23% | $9.63M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 2.86% | $9M |
 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 2.54% | $2.12M |
-| [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.03% | $1.55M |
+| [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.25% | $1.55M |
+| [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token) | Ethereum | 1.83% | $1.52M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 PRIME의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.03%, TVL $1.55M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Solana의 orca-dex, APY 0.06%, TVL $3.4M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; Ethereum의 morpho-blue, APY 4.10%, TVL $20.67M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token; Solana의 hastra, APY 6.74%, TVL $162.92M, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token; Solana의 orca-dex, APY 1.23%, TVL $9.65M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; Ethereum의 morpho-blue, APY 2.54%, TVL $2.12M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token; Ethereum의 uniswap-v3, APY 3.04%, TVL $9M, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PRIME의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.25%, TVL $1.55M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Ethereum의 morpho-blue, APY 4.37%, TVL $20.68M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token; Solana의 hastra, APY 6.75%, TVL $162.81M, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token; Solana의 orca-dex, APY 0.23%, TVL $9.63M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; Ethereum의 morpho-blue, APY 2.54%, TVL $2.12M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token; Ethereum의 morpho-blue, APY 1.83%, TVL $1.52M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token; Ethereum의 uniswap-v3, APY 2.86%, TVL $9M, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.03% | $1.55M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token) | Solana | 0.06% | $3.4M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 4.10% | $20.67M |
-| 4 | [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 6.74% | $162.92M |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 1.23% | $9.65M |
-| 6 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 2.54% | $2.12M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 3.04% | $9M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.25% | $1.55M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token) | Ethereum | 4.37% | $20.68M |
+| 3 | [hastra →](https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token) | Solana | 6.75% | $162.81M |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token) | Solana | 0.23% | $9.63M |
+| 5 | [morpho-blue →](https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token) | Ethereum | 2.54% | $2.12M |
+| 6 | [morpho-blue →](https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token) | Ethereum | 1.83% | $1.52M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token) | Ethereum | 2.86% | $9M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 6.74%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.23%부터 6.75%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.60%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -42,14 +42,14 @@ PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 6.74%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| hastra | 6.74% | 6.86% | 기본 금리 |
-| hastra | 6.74% | 5.57% | 기본 금리 |
-| morpho-blue | 4.10% | 3.94% | 기본 금리 |
-| orca-dex | 1.23% | 0.64% | 기본 금리 |
-| uniswap-v3 | 3.04% | 3.30% | 기본 금리 |
-| orca-dex | 0.06% | 0.20% | 기본 금리 |
+| hastra | 6.75% | 6.85% | 기본 금리 |
+| hastra | 6.75% | 5.58% | 기본 금리 |
+| morpho-blue | 4.37% | 3.94% | 기본 금리 |
+| orca-dex | 0.23% | 0.64% | 기본 금리 |
+| uniswap-v3 | 2.86% | 3.31% | 기본 금리 |
 | morpho-blue | 2.54% | 3.39% | 기본 금리 |
-| morpho-blue | 4.03% | 3.81% | 기본 금리 |
+| morpho-blue | 4.25% | 3.82% | 기본 금리 |
+| morpho-blue | 1.83% | 1.82% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -57,11 +57,11 @@ PRIME 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.06%부터 6.74%�
 
 ### 오늘 PRIME의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 hastra에서 APY 6.74%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 hastra에서 APY 6.75%예요.
 
 ### PRIME 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $993.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $1B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -69,7 +69,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 hastra에서 APY 6.74%예요.
 
 ### PRIME 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 PRIME의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.03%, TVL $1.55M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Solana의 orca-dex, APY 0.06%, TVL $3.4M, https://www.defi.garden/?pool=069fc5ee-37bc-4699-8793-38094d6c0e1a&src=seo_token; Ethereum의 morpho-blue, APY 4.10%, TVL $20.67M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token; Solana의 hastra, APY 6.74%, TVL $162.92M, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token; Solana의 orca-dex, APY 1.23%, TVL $9.65M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; Ethereum의 morpho-blue, APY 2.54%, TVL $2.12M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token; Ethereum의 uniswap-v3, APY 3.04%, TVL $9M, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 PRIME의 변동성 낮은 후보는 Ethereum의 morpho-blue, APY 4.25%, TVL $1.55M, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; Ethereum의 morpho-blue, APY 4.37%, TVL $20.68M, https://www.defi.garden/?pool=052e3f85-e489-4bee-9e34-c7898ef1d449&src=seo_token; Solana의 hastra, APY 6.75%, TVL $162.81M, https://www.defi.garden/?pool=76bb34c2-e68a-4398-9fba-d8a14c0caa44&src=seo_token; Solana의 orca-dex, APY 0.23%, TVL $9.63M, https://www.defi.garden/?pool=2896d802-ab4c-4b5b-96e9-9dd1c01a7255&src=seo_token; Ethereum의 morpho-blue, APY 2.54%, TVL $2.12M, https://www.defi.garden/?pool=8fa8207f-039a-4223-9344-f68cf247bc74&src=seo_token; Ethereum의 morpho-blue, APY 1.83%, TVL $1.52M, https://www.defi.garden/?pool=59444b82-6f00-4f1f-89a6-48a0d715c10f&src=seo_token; Ethereum의 uniswap-v3, APY 2.86%, TVL $9M, https://www.defi.garden/?pool=e17c52fd-7327-481a-9e4e-ca37474e192b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -85,4 +85,4 @@ APY 이력만 기준으로 비교한 PRIME의 변동성 낮은 후보는 Ethereu
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026

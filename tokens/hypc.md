@@ -1,10 +1,10 @@
 # HYPC DeFi Yields
 
-The highest honest HYPC yield right now is 0.07% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HYPC yield right now is 0.06% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=58bf1c08-edd4-40b9-8e03-e3d4beec0f17&src=seo_token) | Ethereum | 0.07% | $108.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=58bf1c08-edd4-40b9-8e03-e3d4beec0f17&src=seo_token) | Ethereum | 0.06% | $108.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HYPC yield today?
 
-0.07% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HYPC pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HYPC pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

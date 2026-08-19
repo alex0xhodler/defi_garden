@@ -1,10 +1,10 @@
 # VULT DeFi Yields
 
-The highest honest VULT yield right now is 0.63% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VULT yield right now is 0.05% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=bbfcf63d-1673-4f04-81d9-d8f2f41d819c&src=seo_token) | Ethereum | 0.63% | $2.06M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bbfcf63d-1673-4f04-81d9-d8f2f41d819c&src=seo_token) | Ethereum | 0.05% | $2.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VULT yield today?
 
-0.63% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.05% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many VULT pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VULT pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 18, 2026
+## Last updated August 19, 2026

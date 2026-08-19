@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, TON의 affluent에서 APY 4.26%예요.
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: August 18, 2026
+## 마지막 업데이트: August 19, 2026
