@@ -4,7 +4,7 @@ The highest honest USDMXN yield right now is 39.16% on gmtrade (Solana), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=0c99a34a-15b7-4ac4-bb35-3bc1f7acb7d4&src=seo_token) | Solana | 39.16% | $1.76M |
+| [gmtrade →](https://www.defi.garden/?pool=0c99a34a-15b7-4ac4-bb35-3bc1f7acb7d4&src=seo_token) | Solana | 39.16% | $1.71M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDMXN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.76M in total.
+1 live pool clear this page's $100K TVL floor, $1.71M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank USDMXN pools. This view cover
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

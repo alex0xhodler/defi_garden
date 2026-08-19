@@ -1,10 +1,10 @@
 # RESERVOIRUSDC DeFi Yields
 
-The highest honest RESERVOIRUSDC yield right now is 5.79% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RESERVOIRUSDC yield right now is 5.88% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2&src=seo_token) | Ethereum | 5.79% | $15.28M |
+| [morpho-blue →](https://www.defi.garden/?pool=1b33f341-1dc2-446a-856e-caf900563ae2&src=seo_token) | Ethereum | 5.88% | $15.03M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RESERVOIRUSDC yield today?
 
-5.79% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.88% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many RESERVOIRUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $15.28M in total.
+1 live pool clear this page's $100K TVL floor, $15.03M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank RESERVOIRUSDC pools. This vie
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

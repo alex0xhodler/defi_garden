@@ -4,7 +4,7 @@ The highest honest KUSDT yield right now is 2.29% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4bcd9f41-e648-4e25-aebd-9b8caf04860c&src=seo_token) | Ethereum | 2.29% | $200.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=4bcd9f41-e648-4e25-aebd-9b8caf04860c&src=seo_token) | Ethereum | 2.29% | $201K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $200.9K in total.
+1 live pool clear this page's $100K TVL floor, $201K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank KUSDT pools. This view covers
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

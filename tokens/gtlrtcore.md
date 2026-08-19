@@ -1,10 +1,10 @@
 # GTLRTCORE DeFi Yields
 
-The highest honest GTLRTCORE yield right now is 1.56% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTLRTCORE yield right now is 1.64% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=7feb7f43-e5c0-4fb7-ab1f-ca60a9281c22&src=seo_token) | Ethereum | 1.56% | $2.74M |
+| [morpho-blue →](https://www.defi.garden/?pool=7feb7f43-e5c0-4fb7-ab1f-ca60a9281c22&src=seo_token) | Ethereum | 1.64% | $2.98M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTLRTCORE yield today?
 
-1.56% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+1.64% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTLRTCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.74M in total.
+1 live pool clear this page's $100K TVL floor, $2.98M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank GTLRTCORE pools. This view co
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

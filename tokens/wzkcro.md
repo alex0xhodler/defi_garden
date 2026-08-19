@@ -4,7 +4,7 @@ The highest honest WZKCRO yield right now is 0.03% on amply-finance (Cronos zkEV
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [amply-finance →](https://www.defi.garden/?pool=e6611219-1e6f-4904-91fd-9831eb6ff041&src=seo_token) | Cronos zkEVM | 0.03% | $119.3K |
+| [amply-finance →](https://www.defi.garden/?pool=e6611219-1e6f-4904-91fd-9831eb6ff041&src=seo_token) | Cronos zkEVM | 0.03% | $121.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WZKCRO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.3K in total.
+1 live pool clear this page's $100K TVL floor, $121.6K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank WZKCRO pools. This view cover
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # NPRY DeFi Yields
 
-The highest honest NPRY yield right now is 0.49% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NPRY yield right now is 0.48% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a9ba51b1-fc62-4e99-8234-6778bfc27314&src=seo_token) | Solana | 0.49% | $237.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=a9ba51b1-fc62-4e99-8234-6778bfc27314&src=seo_token) | Solana | 0.48% | $237.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NPRY yield today?
 
-0.49% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.48% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many NPRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $237.2K in total.
+1 live pool clear this page's $100K TVL floor, $237.4K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank NPRY pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

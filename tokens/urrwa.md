@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank URRWA pools. This view covers
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [AUSD](https://www.defi.garden/tokens/ausd)
 - [BTC](https://www.defi.garden/tokens/btc)
+- [AUSD](https://www.defi.garden/tokens/ausd)
 
 ## Available on
 

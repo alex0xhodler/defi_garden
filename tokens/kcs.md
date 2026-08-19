@@ -1,10 +1,10 @@
 # KCS DeFi Yields
 
-The highest honest KCS yield right now is 0.35% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KCS yield right now is 1.26% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=add9f7d1-74f7-49e1-b49b-5b2772776708&src=seo_token) | Ethereum | 0.35% | $3.98M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=add9f7d1-74f7-49e1-b49b-5b2772776708&src=seo_token) | Ethereum | 1.26% | $4.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KCS yield today?
 
-0.35% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.26% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many KCS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.98M in total.
+1 live pool clear this page's $100K TVL floor, $4.24M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank KCS pools. This view covers A
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

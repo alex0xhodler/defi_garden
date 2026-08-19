@@ -1,10 +1,10 @@
 # KEKIUS DeFi Yields
 
-The highest honest KEKIUS yield right now is 5.09% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KEKIUS yield right now is 15.74% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=bce397f6-1b0e-4373-9eee-f5d799ba3f91&src=seo_token) | Ethereum | 5.09% | $768.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=bce397f6-1b0e-4373-9eee-f5d799ba3f91&src=seo_token) | Ethereum | 15.74% | $868.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KEKIUS yield today?
 
-5.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+15.74% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many KEKIUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $768.7K in total.
+1 live pool clear this page's $100K TVL floor, $868.9K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank KEKIUS pools. This view cover
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

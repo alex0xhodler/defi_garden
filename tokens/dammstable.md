@@ -4,7 +4,7 @@ The highest honest DAMMSTABLE yield right now is 5.46% on lagoon (Arbitrum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=2c7146e4-90d0-43a7-9e22-bf3b174a924f&src=seo_token) | Arbitrum | 5.46% | $1.47M |
+| [lagoon →](https://www.defi.garden/?pool=2c7146e4-90d0-43a7-9e22-bf3b174a924f&src=seo_token) | Arbitrum | 5.46% | $1.48M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DAMMSTABLE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.47M in total.
+1 live pool clear this page's $100K TVL floor, $1.48M in total.
 
 ### Are these rates safe?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank DAMMSTABLE pools. This view c
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
-- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 

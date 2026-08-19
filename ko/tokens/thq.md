@@ -1,10 +1,10 @@
 # THQ 디파이 수익률
 
-현재 THQ의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 9.76%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 THQ의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 0.56%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e48ef376-ab68-47a2-9e18-2ec1d6c43081&src=seo_token) | Ethereum | 9.76% | $117.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e48ef376-ab68-47a2-9e18-2ec1d6c43081&src=seo_token) | Ethereum | 0.56% | $117.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 THQ의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 9.76%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.56%예요.
 
 ### THQ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,7 +38,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 9.76%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 

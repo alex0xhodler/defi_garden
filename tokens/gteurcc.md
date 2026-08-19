@@ -1,10 +1,10 @@
 # GTEURCC DeFi Yields
 
-The highest honest GTEURCC yield right now is 3.15% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTEURCC yield right now is 3.49% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d4ea65f3-b54b-49c4-81ba-56e16eec4fb7&src=seo_token) | Ethereum | 3.15% | $1.24M |
+| [morpho-blue →](https://www.defi.garden/?pool=d4ea65f3-b54b-49c4-81ba-56e16eec4fb7&src=seo_token) | Ethereum | 3.49% | $1.25M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTEURCC yield today?
 
-3.15% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.49% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTEURCC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.24M in total.
+1 live pool clear this page's $100K TVL floor, $1.25M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank GTEURCC pools. This view cove
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

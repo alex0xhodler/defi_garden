@@ -4,7 +4,7 @@ The highest honest NCLOA yield right now is 4.30% on nest-credit (Plume Mainnet)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=a960f0fd-0ed0-51dc-afcb-4196ae033c68&src=seo_token) | Plume Mainnet | 4.30% | $8.91M |
+| [nest-credit →](https://www.defi.garden/?pool=a960f0fd-0ed0-51dc-afcb-4196ae033c68&src=seo_token) | Plume Mainnet | 4.30% | $8.79M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NCLOA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.91M in total.
+1 live pool clear this page's $100K TVL floor, $8.79M in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank NCLOA pools. This view covers
 ## Related tokens
 
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [NOPAL](https://www.defi.garden/tokens/nopal)
 - [USCC](https://www.defi.garden/tokens/uscc)
+- [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
 - [NAXI](https://www.defi.garden/tokens/naxi)

@@ -1,10 +1,10 @@
 # JESUS DeFi Yields
 
-The highest honest JESUS yield right now is 0.50% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JESUS yield right now is 1.26% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b8d6ceaf-7230-4e81-85e5-b1899adf6a6e&src=seo_token) | Ethereum | 0.50% | $659.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b8d6ceaf-7230-4e81-85e5-b1899adf6a6e&src=seo_token) | Ethereum | 1.26% | $717.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JESUS yield today?
 
-0.50% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.26% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JESUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $659.6K in total.
+1 live pool clear this page's $100K TVL floor, $717.2K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank JESUS pools. This view covers
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

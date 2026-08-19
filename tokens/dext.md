@@ -1,10 +1,10 @@
 # DEXT DeFi Yields
 
-The highest honest DEXT yield right now is 1.13% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DEXT yield right now is 16.39% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c1f6005f-9d1d-4667-b435-f1ae668b6991&src=seo_token) | Ethereum | 1.13% | $225.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c1f6005f-9d1d-4667-b435-f1ae668b6991&src=seo_token) | Ethereum | 16.39% | $235.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DEXT yield today?
 
-1.13% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+16.39% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many DEXT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $225.1K in total.
+1 live pool clear this page's $100K TVL floor, $235.9K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank DEXT pools. This view covers 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

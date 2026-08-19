@@ -1,10 +1,10 @@
 # ZVUSDC DeFi Yields
 
-The highest honest ZVUSDC yield right now is 5.93% on zircuit-finance (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZVUSDC yield right now is 7.56% on zircuit-finance (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zircuit-finance →](https://www.defi.garden/?pool=437a4c66-b5a7-416b-853a-565433679627&src=seo_token) | Base | 5.93% | $1.39M |
+| [zircuit-finance →](https://www.defi.garden/?pool=437a4c66-b5a7-416b-853a-565433679627&src=seo_token) | Base | 7.56% | $1.39M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZVUSDC yield today?
 
-5.93% APY on zircuit-finance (Base), based on live DefiLlama data.
+7.56% APY on zircuit-finance (Base), based on live DefiLlama data.
 
 ### How many ZVUSDC pools clear the TVL floor?
 

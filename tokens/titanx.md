@@ -1,10 +1,10 @@
 # TITANX DeFi Yields
 
-The highest honest TITANX yield right now is 23.20% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TITANX yield right now is 27.09% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token) | Ethereum | 23.20% | $167.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=10a3e39a-bb78-466f-bcf9-f4ed53b50a9a&src=seo_token) | Ethereum | 27.09% | $189.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TITANX yield today?
 
-23.20% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+27.09% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many TITANX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $167.7K in total.
+1 live pool clear this page's $100K TVL floor, $189.8K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank TITANX pools. This view cover
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

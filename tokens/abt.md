@@ -1,10 +1,10 @@
 # ABT DeFi Yields
 
-The highest honest ABT yield right now is 5.55% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ABT yield right now is 13.31% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=9af4e11a-a0a4-4482-a3e6-3729b4dfb36f&src=seo_token) | Ethereum | 5.55% | $112.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9af4e11a-a0a4-4482-a3e6-3729b4dfb36f&src=seo_token) | Ethereum | 13.31% | $120K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ABT yield today?
 
-5.55% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+13.31% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ABT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.9K in total.
+1 live pool clear this page's $100K TVL floor, $120K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank ABT pools. This view covers A
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

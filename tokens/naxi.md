@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank NAXI pools. This view covers 
 ## Related tokens
 
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [NOPAL](https://www.defi.garden/tokens/nopal)
 - [USCC](https://www.defi.garden/tokens/uscc)
+- [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
 - [NCLOA](https://www.defi.garden/tokens/ncloa)

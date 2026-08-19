@@ -4,7 +4,7 @@ The highest honest UNIBOT yield right now is 0.21% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fd883134-dc0c-4c13-a349-afbf2756da4c&src=seo_token) | Ethereum | 0.21% | $635.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fd883134-dc0c-4c13-a349-afbf2756da4c&src=seo_token) | Ethereum | 0.21% | $689K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UNIBOT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $635.3K in total.
+1 live pool clear this page's $100K TVL floor, $689K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank UNIBOT pools. This view cover
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

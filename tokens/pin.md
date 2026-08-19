@@ -1,10 +1,10 @@
 # PIN DeFi Yields
 
-The highest honest PIN yield right now is 10.77% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PIN yield right now is 19.37% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e10173b8-0307-4837-abd6-125f87c052fd&src=seo_token) | Ethereum | 10.77% | $288.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e10173b8-0307-4837-abd6-125f87c052fd&src=seo_token) | Ethereum | 19.37% | $313.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PIN yield today?
 
-10.77% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+19.37% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $288.3K in total.
+1 live pool clear this page's $100K TVL floor, $313.1K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank PIN pools. This view covers A
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

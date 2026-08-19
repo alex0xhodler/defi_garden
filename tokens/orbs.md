@@ -1,29 +1,29 @@
 # ORBS DeFi Yields
 
-The highest honest ORBS yield right now is 3.68% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ORBS yield right now is 5.02% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token) | Polygon | 1.12% | $284.3K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token) | Ethereum | 3.68% | $217.5K |
+| [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token) | Polygon | 1.56% | $288.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token) | Ethereum | 5.02% | $229.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 1.12% APY, $284.3K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token; uniswap-v2 (Ethereum), 3.68% APY, $217.5K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 1.56% APY, $288.3K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token; uniswap-v2 (Ethereum), 5.02% APY, $229.9K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token) | Polygon | 1.12% | $284.3K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token) | Ethereum | 3.68% | $217.5K |
+| 1 | [quickswap-dex →](https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token) | Polygon | 1.56% | $288.3K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token) | Ethereum | 5.02% | $229.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ORBS shows up in 2 pools here, with rates from 1.12% to 3.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ORBS shows up in 2 pools here, with rates from 1.56% to 5.02% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 73.87% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 73.78% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| quickswap-dex | 1.12% | 144.38% | Base rate |
-| uniswap-v2 | 3.68% | 3.36% | Base rate |
+| quickswap-dex | 1.56% | 144.17% | Base rate |
+| uniswap-v2 | 5.02% | 3.39% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ORBS yield today?
 
-3.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+5.02% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many ORBS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $501.8K in total.
+2 live pools clear this page's $100K TVL floor, $518.3K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ORBS pools have the most stable APY history?
 
-Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 1.12% APY, $284.3K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token; uniswap-v2 (Ethereum), 3.68% APY, $217.5K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ORBS's lower-variability candidates are quickswap-dex (Polygon), 1.56% APY, $288.3K TVL, https://www.defi.garden/?pool=2d25f006-6942-4deb-9204-56c01e68dfb4&src=seo_token; uniswap-v2 (Ethereum), 5.02% APY, $229.9K TVL, https://www.defi.garden/?pool=87aab758-8b98-4ccc-9631-70e414f34686&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -61,7 +61,7 @@ Based on APY history only, ORBS's lower-variability candidates are quickswap-dex
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

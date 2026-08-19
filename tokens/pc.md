@@ -1,10 +1,10 @@
 # PC DeFi Yields
 
-The highest honest PC yield right now is 0.24% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PC yield right now is 1.49% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=0af06677-4169-4d9d-bfb6-f9910be749cc&src=seo_token) | Ethereum | 0.24% | $178K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=0af06677-4169-4d9d-bfb6-f9910be749cc&src=seo_token) | Ethereum | 1.49% | $189K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PC yield today?
 
-0.24% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.49% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $178K in total.
+1 live pool clear this page's $100K TVL floor, $189K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank PC pools. This view covers AP
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=7b5050c5-e711-497a-95c8-9c13011ae17f&src=seo_token) | Plume Mainnet | 2.00% | $100.3K |
+| [nest-credit →](https://www.defi.garden/?pool=7b5050c5-e711-497a-95c8-9c13011ae17f&src=seo_token) | Plume Mainnet | 2.00% | $100.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 2.0
 
 ### NACRDX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $100.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $100.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,8 +34,8 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 2.0
 ## 관련 토큰
 
 - [USTB](https://www.defi.garden/ko/tokens/ustb)
-- [NOPAL](https://www.defi.garden/ko/tokens/nopal)
 - [USCC](https://www.defi.garden/ko/tokens/uscc)
+- [NOPAL](https://www.defi.garden/ko/tokens/nopal)
 - [NFALCON](https://www.defi.garden/ko/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/ko/tokens/nalpha)
 - [NCLOA](https://www.defi.garden/ko/tokens/ncloa)

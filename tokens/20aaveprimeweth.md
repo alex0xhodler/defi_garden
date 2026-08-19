@@ -1,10 +1,10 @@
 # 20AAVEPRIMEWETH DeFi Yields
 
-The highest honest 20AAVEPRIMEWETH yield right now is 2.00% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 20AAVEPRIMEWETH yield right now is 34.21% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5&src=seo_token) | Ethereum | 2.00% | $215.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=59f64d8b-b590-4e32-a79c-3df80cff35f5&src=seo_token) | Ethereum | 34.21% | $255.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 20AAVEPRIMEWETH yield today?
 
-2.00% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+34.21% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 20AAVEPRIMEWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $215.3K in total.
+1 live pool clear this page's $100K TVL floor, $255.9K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank 20AAVEPRIMEWETH pools. This v
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

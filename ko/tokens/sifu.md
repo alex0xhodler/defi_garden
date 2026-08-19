@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $395.9K |
+| [uwu-lend →](https://www.defi.garden/?pool=0cc952a9-714e-4724-9fed-56ac675e34c5&src=seo_token) | Ethereum | 0.02% | $391.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uwu-lend에서 APY 0.02%예요
 
 ### SIFU 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $582.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $578.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uwu-lend에서 APY 0.02%예요
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 

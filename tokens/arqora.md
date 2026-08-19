@@ -1,10 +1,10 @@
 # ARQORA DeFi Yields
 
-The highest honest ARQORA yield right now is 4.77% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ARQORA yield right now is 5.78% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b57a185e-d11d-4680-9083-7b11c1daf4be&src=seo_token) | Solana | 4.77% | $121.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=b57a185e-d11d-4680-9083-7b11c1daf4be&src=seo_token) | Solana | 5.78% | $127.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ARQORA yield today?
 
-4.77% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.78% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ARQORA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.6K in total.
+1 live pool clear this page's $100K TVL floor, $127.6K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank ARQORA pools. This view cover
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # BTCUSD DeFi Yields
 
-The highest honest BTCUSD yield right now is 9.44% on bifi (Bifrost Network), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BTCUSD yield right now is 9.36% on bifi (Bifrost Network), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_token) | Bifrost Network | 9.44% | $112.7K |
+| [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_token) | Bifrost Network | 9.36% | $115.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BTCUSD yield today?
 
-9.44% APY on bifi (Bifrost Network), based on live DefiLlama data.
+9.36% APY on bifi (Bifrost Network), based on live DefiLlama data.
 
 ### How many BTCUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.7K in total.
+1 live pool clear this page's $100K TVL floor, $115.8K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank BTCUSD pools. This view cover
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

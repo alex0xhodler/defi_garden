@@ -1,10 +1,10 @@
 # NBASIS DeFi Yields
 
-The highest honest NBASIS yield right now is 2.76% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NBASIS yield right now is 3.54% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a&src=seo_token) | Plume Mainnet | 2.76% | $183K |
+| [nest-credit →](https://www.defi.garden/?pool=b5331747-f55e-457e-aadc-9635c96ed38a&src=seo_token) | Plume Mainnet | 3.54% | $177.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NBASIS yield today?
 
-2.76% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+3.54% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NBASIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $183K in total.
+1 live pool clear this page's $100K TVL floor, $177.5K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank NBASIS pools. This view cover
 ## Related tokens
 
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [NOPAL](https://www.defi.garden/tokens/nopal)
 - [USCC](https://www.defi.garden/tokens/uscc)
+- [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
 - [NCLOA](https://www.defi.garden/tokens/ncloa)

@@ -1,10 +1,10 @@
 # LEDGER 디파이 수익률
 
-현재 LEDGER의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 0.38%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 LEDGER의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 0.44%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c42d83bf-7f52-431f-940a-9b60e91df4b4&src=seo_token) | Ethereum | 0.38% | $247.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c42d83bf-7f52-431f-940a-9b60e91df4b4&src=seo_token) | Ethereum | 0.44% | $268.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 LEDGER의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.38%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.44%예요.
 
 ### LEDGER 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $247.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $268.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,7 +38,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.38%예�
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 

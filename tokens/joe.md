@@ -1,10 +1,10 @@
 # JOE DeFi Yields
 
-The highest honest JOE yield right now is 2.21% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JOE yield right now is 7.67% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=86e7d910-b29c-49d7-8183-e8f52932cc64&src=seo_token) | Ethereum | 2.21% | $1.24M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=86e7d910-b29c-49d7-8183-e8f52932cc64&src=seo_token) | Ethereum | 7.67% | $1.33M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JOE yield today?
 
-2.21% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+7.67% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JOE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.24M in total.
+1 live pool clear this page's $100K TVL floor, $1.33M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank JOE pools. This view covers A
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

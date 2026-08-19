@@ -1,10 +1,10 @@
 # WAAPLX DeFi Yields
 
-The highest honest WAAPLX yield right now is 0.01% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAAPLX yield right now is 0.65% on fluxion-network (Mantle), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=3b6b75cf-adb5-4fb4-bbcd-8f75c6879c9d&src=seo_token) | Mantle | 0.01% | $111.6K |
+| [fluxion-network →](https://www.defi.garden/?pool=3b6b75cf-adb5-4fb4-bbcd-8f75c6879c9d&src=seo_token) | Mantle | 0.65% | $112.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAAPLX yield today?
 
-0.01% APY on fluxion-network (Mantle), based on live DefiLlama data.
+0.65% APY on fluxion-network (Mantle), based on live DefiLlama data.
 
 ### How many WAAPLX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.6K in total.
+1 live pool clear this page's $100K TVL floor, $112.9K in total.
 
 ### Are these rates safe?
 

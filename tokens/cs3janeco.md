@@ -4,7 +4,7 @@ The highest honest CS3JANECO yield right now is 7.85% on morpho-blue (Ethereum),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=209c1405-cb4d-4424-aa35-acbdbe924cfe&src=seo_token) | Ethereum | 7.85% | $21.56M |
+| [morpho-blue →](https://www.defi.garden/?pool=209c1405-cb4d-4424-aa35-acbdbe924cfe&src=seo_token) | Ethereum | 7.85% | $22.02M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CS3JANECO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $21.56M in total.
+1 live pool clear this page's $100K TVL floor, $22.02M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank CS3JANECO pools. This view co
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

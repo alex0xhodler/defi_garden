@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=935fb02d-9645-4d46-85e0-5504bd01ef80&src=seo_token) | Ethereum | 6.84% | $8.2M |
+| [morpho-blue →](https://www.defi.garden/?pool=935fb02d-9645-4d46-85e0-5504bd01ef80&src=seo_token) | Ethereum | 6.84% | $7.9M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.84%예
 
 ### REECOUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $8.2M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $7.9M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,7 +38,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.84%예
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 

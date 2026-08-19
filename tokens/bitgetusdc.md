@@ -4,7 +4,7 @@ The highest honest BITGETUSDC yield right now is 2.74% on morpho-blue (Arbitrum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4a433427-2a7e-4193-bf83-e15c996915e8&src=seo_token) | Arbitrum | 2.74% | $2.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=4a433427-2a7e-4193-bf83-e15c996915e8&src=seo_token) | Arbitrum | 2.74% | $2.91M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BITGETUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.96M in total.
+1 live pool clear this page's $100K TVL floor, $2.91M in total.
 
 ### Are these rates safe?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank BITGETUSDC pools. This view c
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
-- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # PMFRXUSD DeFi Yields
 
-The highest honest PMFRXUSD yield right now is 19.60% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PMFRXUSD yield right now is 21.97% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=099fab49-5103-4c85-b5e6-fff734eb1691&src=seo_token) | Ethereum | 19.60% | $109.2K |
+| [yearn-finance →](https://www.defi.garden/?pool=099fab49-5103-4c85-b5e6-fff734eb1691&src=seo_token) | Ethereum | 21.97% | $105K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PMFRXUSD yield today?
 
-19.60% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+21.97% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many PMFRXUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.2K in total.
+1 live pool clear this page's $100K TVL floor, $105K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank PMFRXUSD pools. This view cov
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # DETH DeFi Yields
 
-The highest honest DETH yield right now is 2.42% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DETH yield right now is 3.20% on makina (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=3acfa7fe-2667-56ea-9427-cfb763f891f2&src=seo_token) | Ethereum | 2.42% | $5.01M |
+| [makina →](https://www.defi.garden/?pool=3acfa7fe-2667-56ea-9427-cfb763f891f2&src=seo_token) | Ethereum | 3.20% | $5.45M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DETH yield today?
 
-2.42% APY on makina (Ethereum), based on live DefiLlama data.
+3.20% APY on makina (Ethereum), based on live DefiLlama data.
 
 ### How many DETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.01M in total.
+1 live pool clear this page's $100K TVL floor, $5.45M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank DETH pools. This view covers 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

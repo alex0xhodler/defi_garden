@@ -4,7 +4,7 @@ The highest honest MPUSDC yield right now is 4.13% on morpho-blue (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=66471469-2dc4-4223-b867-ca780fe7457d&src=seo_token) | Base | 4.13% | $583.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=66471469-2dc4-4223-b867-ca780fe7457d&src=seo_token) | Base | 4.13% | $596.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MPUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $583.4K in total.
+1 live pool clear this page's $100K TVL floor, $596.3K in total.
 
 ### Are these rates safe?
 

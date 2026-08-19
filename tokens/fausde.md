@@ -4,7 +4,7 @@ The highest honest FAUSDE yield right now is 9.94% on morpho-blue (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=e45f5c36-0277-423f-a5b0-15071e1a250e&src=seo_token) | Ethereum | 9.94% | $6.99M |
+| [morpho-blue →](https://www.defi.garden/?pool=e45f5c36-0277-423f-a5b0-15071e1a250e&src=seo_token) | Ethereum | 9.94% | $7M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FAUSDE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.99M in total.
+1 live pool clear this page's $100K TVL floor, $7M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank FAUSDE pools. This view cover
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

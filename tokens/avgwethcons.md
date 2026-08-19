@@ -4,7 +4,7 @@ The highest honest AVGWETHCONS yield right now is 1.52% on morpho-blue (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a367bab7-cbba-4483-8b05-696fa56aaa89&src=seo_token) | Ethereum | 1.52% | $1.46M |
+| [morpho-blue →](https://www.defi.garden/?pool=a367bab7-cbba-4483-8b05-696fa56aaa89&src=seo_token) | Ethereum | 1.52% | $1.59M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AVGWETHCONS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.46M in total.
+1 live pool clear this page's $100K TVL floor, $1.59M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank AVGWETHCONS pools. This view 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

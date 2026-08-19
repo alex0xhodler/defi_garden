@@ -1,10 +1,10 @@
 # JARVIS DeFi Yields
 
-The highest honest JARVIS yield right now is 3.42% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JARVIS yield right now is 3.29% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=63b5e571-db71-4df2-bd44-3d0b867fe03c&src=seo_token) | Base | 3.42% | $116.7K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=63b5e571-db71-4df2-bd44-3d0b867fe03c&src=seo_token) | Base | 3.29% | $126.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JARVIS yield today?
 
-3.42% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+3.29% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many JARVIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.7K in total.
+1 live pool clear this page's $100K TVL floor, $126.5K in total.
 
 ### Are these rates safe?
 

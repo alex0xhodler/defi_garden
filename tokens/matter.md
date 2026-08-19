@@ -4,7 +4,7 @@ The highest honest MATTER yield right now is 0.11% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=818d49d9-b345-4c63-8eed-8b7c3a625055&src=seo_token) | Ethereum | 0.11% | $109.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=818d49d9-b345-4c63-8eed-8b7c3a625055&src=seo_token) | Ethereum | 0.11% | $114.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MATTER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.4K in total.
+1 live pool clear this page's $100K TVL floor, $114.2K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank MATTER pools. This view cover
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

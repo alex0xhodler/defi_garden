@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank NFALCON pools. This view cove
 ## Related tokens
 
 - [USTB](https://www.defi.garden/tokens/ustb)
-- [NOPAL](https://www.defi.garden/tokens/nopal)
 - [USCC](https://www.defi.garden/tokens/uscc)
+- [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
 - [NCLOA](https://www.defi.garden/tokens/ncloa)
 - [NAXI](https://www.defi.garden/tokens/naxi)

@@ -4,7 +4,7 @@ The highest honest SATOSHI yield right now is 0.07% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4411a2a3-ed2a-47a4-afc5-a3790e7707bd&src=seo_token) | Ethereum | 0.07% | $151.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4411a2a3-ed2a-47a4-afc5-a3790e7707bd&src=seo_token) | Ethereum | 0.07% | $162.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SATOSHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $151.2K in total.
+1 live pool clear this page's $100K TVL floor, $162.7K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank SATOSHI pools. This view cove
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

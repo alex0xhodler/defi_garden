@@ -1,10 +1,10 @@
 # PANDORA DeFi Yields
 
-The highest honest PANDORA yield right now is 0.01% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PANDORA yield right now is 0.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f6635031-e5f8-4a99-9b46-4fd160859cf7&src=seo_token) | Ethereum | 0.01% | $575.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f6635031-e5f8-4a99-9b46-4fd160859cf7&src=seo_token) | Ethereum | 0.02% | $593K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PANDORA yield today?
 
-0.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PANDORA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $575.5K in total.
+1 live pool clear this page's $100K TVL floor, $593K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank PANDORA pools. This view cove
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

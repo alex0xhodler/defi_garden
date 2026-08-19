@@ -35,10 +35,10 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 t3tris-finance에서 APY 12.58
 
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
-- [USDS](https://www.defi.garden/ko/tokens/usds)
+- [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
+- [USDS](https://www.defi.garden/ko/tokens/usds)
 - [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
-- [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
 
 ## 이용 가능한 체인
 

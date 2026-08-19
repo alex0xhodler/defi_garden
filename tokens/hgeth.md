@@ -4,7 +4,7 @@ The highest honest HGETH yield right now is 6.15% on upshift (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [upshift →](https://www.defi.garden/?pool=bb925c10-033a-488d-90c1-595001b5656e&src=seo_token) | Ethereum | 6.15% | $12.3M |
+| [upshift →](https://www.defi.garden/?pool=bb925c10-033a-488d-90c1-595001b5656e&src=seo_token) | Ethereum | 6.15% | $13.35M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HGETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $12.3M in total.
+1 live pool clear this page's $100K TVL floor, $13.35M in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank HGETH pools. This view covers
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

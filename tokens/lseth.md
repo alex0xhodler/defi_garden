@@ -1,36 +1,29 @@
 # LSETH DeFi Yields
 
-The highest honest LSETH yield right now is 1.74% on liquid-collective (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LSETH yield right now is 1.74% on liquid-collective (Ethereum), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [liquid-collective →](https://www.defi.garden/?pool=465d177e-3d0d-42c0-b5f5-31c857567135&src=seo_token) | Ethereum | 1.74% | $618.94M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b16b4a73-dde5-4a4d-93d3-5785c4eb4a04&src=seo_token) | Ethereum | 0.01% | $6.09M |
+| [liquid-collective →](https://www.defi.garden/?pool=465d177e-3d0d-42c0-b5f5-31c857567135&src=seo_token) | Ethereum | 1.74% | $672.76M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, LSETH's lower-variability candidates are uniswap-v3 (Ethereum), 0.01% APY, $6.09M TVL, https://www.defi.garden/?pool=b16b4a73-dde5-4a4d-93d3-5785c4eb4a04&src=seo_token; liquid-collective (Ethereum), 1.74% APY, $618.94M TVL, https://www.defi.garden/?pool=465d177e-3d0d-42c0-b5f5-31c857567135&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b16b4a73-dde5-4a4d-93d3-5785c4eb4a04&src=seo_token) | Ethereum | 0.01% | $6.09M |
-| 2 | [liquid-collective →](https://www.defi.garden/?pool=465d177e-3d0d-42c0-b5f5-31c857567135&src=seo_token) | Ethereum | 1.74% | $618.94M |
+There is not enough qualifying APY history to rank LSETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LSETH shows up in 2 pools here, with rates from 0.01% to 1.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LSETH shows up in 1 pools here, with rates from 1.74% to 1.74% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.23% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.34% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | liquid-collective | 1.74% | 2.34% | Base rate |
-| uniswap-v3 | 0.01% | 0.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many LSETH pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $631.24M in total.
+8 live pools clear this page's $100K TVL floor, $686.24M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +43,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LSETH pools have the most stable APY history?
 
-Based on APY history only, LSETH's lower-variability candidates are uniswap-v3 (Ethereum), 0.01% APY, $6.09M TVL, https://www.defi.garden/?pool=b16b4a73-dde5-4a4d-93d3-5785c4eb4a04&src=seo_token; liquid-collective (Ethereum), 1.74% APY, $618.94M TVL, https://www.defi.garden/?pool=465d177e-3d0d-42c0-b5f5-31c857567135&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank LSETH pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -59,7 +52,7 @@ Based on APY history only, LSETH's lower-variability candidates are uniswap-v3 (
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

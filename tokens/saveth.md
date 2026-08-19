@@ -4,7 +4,7 @@ The highest honest SAVETH yield right now is 4.88% on avant-aveth (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [avant-aveth →](https://www.defi.garden/?pool=b2c0504c-fed5-46ae-908e-aac28bfbede2&src=seo_token) | Ethereum | 4.88% | $21.64M |
+| [avant-aveth →](https://www.defi.garden/?pool=b2c0504c-fed5-46ae-908e-aac28bfbede2&src=seo_token) | Ethereum | 4.88% | $23.52M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,13 +17,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SAVETH shows up in 1 pools here, with rates from 4.88% to 4.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.69% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| avant-aveth | 4.88% | 4.69% | Base rate |
+| avant-aveth | 4.88% | 4.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SAVETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $28.14M in total.
+3 live pools clear this page's $100K TVL floor, $30.58M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ There is not enough qualifying APY history to rank SAVETH pools. This view cover
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

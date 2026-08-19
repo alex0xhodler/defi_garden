@@ -1,10 +1,10 @@
 # WIGL DeFi Yields
 
-The highest honest WIGL yield right now is 0.29% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WIGL yield right now is 0.43% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b8dab6a-a137-4f96-af4d-42f1874d35ef&src=seo_token) | Ethereum | 0.29% | $235.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b8dab6a-a137-4f96-af4d-42f1874d35ef&src=seo_token) | Ethereum | 0.43% | $235.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WIGL yield today?
 
-0.29% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.43% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WIGL pools clear the TVL floor?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank WIGL pools. This view covers 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

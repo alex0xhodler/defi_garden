@@ -1,10 +1,10 @@
 # PIKACHU DeFi Yields
 
-The highest honest PIKACHU yield right now is 0.68% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PIKACHU yield right now is 0.22% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=14a4d443-b76b-40b3-927f-1b95aedca183&src=seo_token) | Ethereum | 0.68% | $106K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=14a4d443-b76b-40b3-927f-1b95aedca183&src=seo_token) | Ethereum | 0.22% | $115.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PIKACHU yield today?
 
-0.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.22% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many PIKACHU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106K in total.
+1 live pool clear this page's $100K TVL floor, $115.4K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank PIKACHU pools. This view cove
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

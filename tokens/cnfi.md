@@ -1,10 +1,10 @@
 # CNFI DeFi Yields
 
-The highest honest CNFI yield right now is 0.24% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CNFI yield right now is 0.22% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b0f0d1d-3f08-4db2-a3d9-63c1d09b76a4&src=seo_token) | Arbitrum | 0.24% | $194.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b0f0d1d-3f08-4db2-a3d9-63c1d09b76a4&src=seo_token) | Arbitrum | 0.22% | $211K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CNFI yield today?
 
-0.24% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.22% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many CNFI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $194.9K in total.
+1 live pool clear this page's $100K TVL floor, $211K in total.
 
 ### Are these rates safe?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank CNFI pools. This view covers 
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
-- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 

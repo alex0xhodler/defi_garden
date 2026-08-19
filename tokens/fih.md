@@ -1,10 +1,10 @@
 # FIH DeFi Yields
 
-The highest honest FIH yield right now is 32.80% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FIH yield right now is 33.20% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5d6f57f4-6b2e-4647-a7b0-1034aab84475&src=seo_token) | Solana | 32.80% | $552.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=5d6f57f4-6b2e-4647-a7b0-1034aab84475&src=seo_token) | Solana | 33.20% | $552.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FIH yield today?
 
-32.80% APY on raydium-amm (Solana), based on live DefiLlama data.
+33.20% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FIH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $552.6K in total.
+1 live pool clear this page's $100K TVL floor, $552.9K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank FIH pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

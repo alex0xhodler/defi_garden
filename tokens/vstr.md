@@ -1,10 +1,10 @@
 # VSTR DeFi Yields
 
-The highest honest VSTR yield right now is 3.10% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VSTR yield right now is 5.08% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b5284d13-348a-404e-a57a-701883bd2c0b&src=seo_token) | Ethereum | 3.10% | $1.08M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b5284d13-348a-404e-a57a-701883bd2c0b&src=seo_token) | Ethereum | 5.08% | $985.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VSTR yield today?
 
-3.10% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.08% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many VSTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.08M in total.
+1 live pool clear this page's $100K TVL floor, $985.6K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank VSTR pools. This view covers 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

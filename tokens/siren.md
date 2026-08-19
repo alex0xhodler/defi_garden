@@ -1,10 +1,10 @@
 # SIREN DeFi Yields
 
-The highest honest SIREN yield right now is 13.66% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIREN yield right now is 20.94% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=78a8e29a-b5a4-479b-9615-2e619f35c05c&src=seo_token) | Base | 13.66% | $104.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=78a8e29a-b5a4-479b-9615-2e619f35c05c&src=seo_token) | Base | 20.94% | $108.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SIREN yield today?
 
-13.66% APY on uniswap-v2 (Base), based on live DefiLlama data.
+20.94% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many SIREN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.7K in total.
+1 live pool clear this page's $100K TVL floor, $108.9K in total.
 
 ### Are these rates safe?
 

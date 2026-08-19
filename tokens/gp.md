@@ -1,10 +1,10 @@
 # GP DeFi Yields
 
-The highest honest GP yield right now is 1.04% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GP yield right now is 2.02% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=aa220686-ff62-4399-a009-2c2cef13e837&src=seo_token) | Solana | 1.04% | $252K |
+| [orca-dex →](https://www.defi.garden/?pool=aa220686-ff62-4399-a009-2c2cef13e837&src=seo_token) | Solana | 2.02% | $251.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GP yield today?
 
-1.04% APY on orca-dex (Solana), based on live DefiLlama data.
+2.02% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many GP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $252K in total.
+1 live pool clear this page's $100K TVL floor, $251.7K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank GP pools. This view covers AP
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

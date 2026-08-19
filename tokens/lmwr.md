@@ -1,10 +1,10 @@
 # LMWR DeFi Yields
 
-The highest honest LMWR yield right now is 1.46% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LMWR yield right now is 3.37% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=72da4636-aa83-4a4e-a1ae-59594eb1e274&src=seo_token) | Ethereum | 1.46% | $106.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=72da4636-aa83-4a4e-a1ae-59594eb1e274&src=seo_token) | Ethereum | 3.37% | $114.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LMWR yield today?
 
-1.46% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.37% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LMWR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.9K in total.
+1 live pool clear this page's $100K TVL floor, $114.1K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank LMWR pools. This view covers 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

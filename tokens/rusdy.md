@@ -1,10 +1,10 @@
 # RUSDY DeFi Yields
 
-The highest honest RUSDY yield right now is 1.99% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RUSDY yield right now is 1.98% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=39882aee-7fb3-45c2-a39d-9ee60ca09c9b&src=seo_token) | Ethereum | 1.99% | $7.63M |
+| [curve-dex →](https://www.defi.garden/?pool=39882aee-7fb3-45c2-a39d-9ee60ca09c9b&src=seo_token) | Ethereum | 1.98% | $7.63M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RUSDY yield today?
 
-1.99% APY on curve-dex (Ethereum), based on live DefiLlama data.
+1.98% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many RUSDY pools clear the TVL floor?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank RUSDY pools. This view covers
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

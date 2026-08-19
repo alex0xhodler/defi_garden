@@ -1,10 +1,10 @@
 # DOS DeFi Yields
 
-The highest honest DOS yield right now is 140.97% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOS yield right now is 133.03% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1ae4838e-5bb5-5b46-89af-1c63bc27c5c1&src=seo_token) | Base | 140.97% | $276.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1ae4838e-5bb5-5b46-89af-1c63bc27c5c1&src=seo_token) | Base | 133.03% | $296.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOS yield today?
 
-140.97% APY on uniswap-v2 (Base), based on live DefiLlama data.
+133.03% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many DOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $276.2K in total.
+1 live pool clear this page's $100K TVL floor, $296.8K in total.
 
 ### Are these rates safe?
 

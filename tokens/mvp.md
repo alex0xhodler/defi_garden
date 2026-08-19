@@ -1,11 +1,12 @@
 # MVP DeFi Yields
 
-The highest honest MVP yield right now is 0.07% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MVP yield right now is 0.07% on raydium-amm (Solana), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=04097667-0a7d-5bcc-bf1a-2c31afdfd291&src=seo_token) | Solana | 0.07% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=185c1767-7eb1-516a-b04a-505a76da5782&src=seo_token) | Solana | 0.05% | $300K |
+| [raydium-amm →](https://www.defi.garden/?pool=2ad4d93a-3354-5ae5-b2d4-46357a517ac6&src=seo_token) | Solana | 0.06% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=45edad80-a4a7-53c6-9a58-509dcbd48153&src=seo_token) | Solana | 0.06% | $300K |
 | [raydium-amm →](https://www.defi.garden/?pool=14d952c8-6b58-59de-99f9-1a4e9bc45769&src=seo_token) | Solana | 0.02% | $300K |
 
@@ -18,18 +19,19 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-MVP shows up in 4 pools here, with rates from 0.02% to 0.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MVP shows up in 5 pools here, with rates from 0.02% to 0.07% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.06% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | raydium-amm | 0.07% | 0.14% | Base rate |
 | raydium-amm | 0.05% | 0.06% | Base rate |
+| raydium-amm | 0.06% | 0.06% | Base rate |
 | raydium-amm | 0.06% | 0.06% | Base rate |
 | raydium-amm | 0.02% | 0.04% | Base rate |
 
@@ -43,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MVP pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.2M in total.
+5 live pools clear this page's $100K TVL floor, $1.5M in total.
 
 ### Are these rates safe?
 
@@ -56,11 +58,11 @@ There is not enough qualifying APY history to rank MVP pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

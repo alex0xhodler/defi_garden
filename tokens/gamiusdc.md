@@ -4,26 +4,26 @@ The highest honest GAMIUSDC yield right now is 9.17% on lagoon (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token) | Ethereum | 9.17% | $9.15M |
-| [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token) | Ethereum | 9.06% | $9.15M |
-| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 7.47% | $552.1K |
+| [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token) | Ethereum | 9.17% | $9.14M |
+| [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token) | Ethereum | 9.05% | $9.14M |
+| [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 7.33% | $552.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GAMIUSDC's lower-variability candidates are gami-labs (Ethereum), 9.06% APY, $9.15M TVL, https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token; lagoon (Ethereum), 9.17% APY, $9.15M TVL, https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token; balancer-v3 (Avalanche), 7.47% APY, $552.1K TVL, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GAMIUSDC's lower-variability candidates are gami-labs (Ethereum), 9.05% APY, $9.14M TVL, https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token; lagoon (Ethereum), 9.17% APY, $9.14M TVL, https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token; balancer-v3 (Avalanche), 7.33% APY, $552.1K TVL, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token) | Ethereum | 9.06% | $9.15M |
-| 2 | [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token) | Ethereum | 9.17% | $9.15M |
-| 3 | [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 7.47% | $552.1K |
+| 1 | [gami-labs →](https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token) | Ethereum | 9.05% | $9.14M |
+| 2 | [lagoon →](https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token) | Ethereum | 9.17% | $9.14M |
+| 3 | [balancer-v3 →](https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token) | Avalanche | 7.33% | $552.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GAMIUSDC shows up in 3 pools here, with rates from 7.47% to 9.17% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GAMIUSDC shows up in 3 pools here, with rates from 7.33% to 9.17% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.60% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,9 +31,9 @@ GAMIUSDC shows up in 3 pools here, with rates from 7.47% to 9.17% APY across 2 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| lagoon | 9.17% | 8.52% | Base rate |
-| gami-labs | 9.06% | 8.60% | Base rate |
-| balancer-v3 | 7.47% | 9.74% | 77.34% incentives |
+| lagoon | 9.17% | 8.53% | Base rate |
+| gami-labs | 9.05% | 8.60% | Base rate |
+| balancer-v3 | 7.33% | 9.71% | 78.82% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many GAMIUSDC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $24.85M in total.
+4 live pools clear this page's $100K TVL floor, $24.83M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GAMIUSDC pools have the most stable APY history?
 
-Based on APY history only, GAMIUSDC's lower-variability candidates are gami-labs (Ethereum), 9.06% APY, $9.15M TVL, https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token; lagoon (Ethereum), 9.17% APY, $9.15M TVL, https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token; balancer-v3 (Avalanche), 7.47% APY, $552.1K TVL, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GAMIUSDC's lower-variability candidates are gami-labs (Ethereum), 9.05% APY, $9.14M TVL, https://www.defi.garden/?pool=aabf8498-4b0d-47e6-863d-5742bf563bd2&src=seo_token; lagoon (Ethereum), 9.17% APY, $9.14M TVL, https://www.defi.garden/?pool=b49e91d4-961e-49f1-98cd-f3b6d4422b65&src=seo_token; balancer-v3 (Avalanche), 7.33% APY, $552.1K TVL, https://www.defi.garden/?pool=54b39ee3-5b97-465b-a3de-7582b0f87cc2&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -62,7 +62,7 @@ Based on APY history only, GAMIUSDC's lower-variability candidates are gami-labs
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

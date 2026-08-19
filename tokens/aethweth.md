@@ -4,7 +4,7 @@ The highest honest AETHWETH yield right now is 0.01% on uniswap-v3 (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0e09627b-1c4e-4f18-b12c-7579c47ac0ca&src=seo_token) | Ethereum | 0.01% | $112.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0e09627b-1c4e-4f18-b12c-7579c47ac0ca&src=seo_token) | Ethereum | 0.01% | $121.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AETHWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.9K in total.
+1 live pool clear this page's $100K TVL floor, $121.4K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank AETHWETH pools. This view cov
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

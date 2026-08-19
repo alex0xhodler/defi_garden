@@ -1,10 +1,10 @@
 # MANLET DeFi Yields
 
-The highest honest MANLET yield right now is 481.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MANLET yield right now is 543.98% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25&src=seo_token) | Solana | 481.99% | $196.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=9b03690c-5d2b-5f0b-9399-45cf54cabd25&src=seo_token) | Solana | 543.98% | $171.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MANLET yield today?
 
-481.99% APY on raydium-amm (Solana), based on live DefiLlama data.
+543.98% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MANLET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $196.6K in total.
+1 live pool clear this page's $100K TVL floor, $171.7K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank MANLET pools. This view cover
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

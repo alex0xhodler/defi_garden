@@ -1,10 +1,10 @@
 # SRROYSYRUPUSDC 디파이 수익률
 
-현재 SRROYSYRUPUSDC의 가장 높은 정직한 수익률은 Ethereum의 royco-v2에서 4.79%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SRROYSYRUPUSDC의 가장 높은 정직한 수익률은 Ethereum의 royco-v2에서 4.80%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=274d97a2-567d-5fa5-8639-8d42a1ccdb0d&src=seo_token) | Ethereum | 4.79% | $1.31M |
+| [royco-v2 →](https://www.defi.garden/?pool=274d97a2-567d-5fa5-8639-8d42a1ccdb0d&src=seo_token) | Ethereum | 4.80% | $1.31M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SRROYSYRUPUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 4.79%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 4.80%예요.
 
 ### SRROYSYRUPUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -38,7 +38,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 4.79%예요
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
+- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
 ## 이용 가능한 체인
 

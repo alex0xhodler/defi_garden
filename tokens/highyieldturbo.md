@@ -1,10 +1,10 @@
 # HIGHYIELDTURBO DeFi Yields
 
-The highest honest HIGHYIELDTURBO yield right now is 1.67% on steakhouse-financial (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HIGHYIELDTURBO yield right now is 1.65% on steakhouse-financial (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steakhouse-financial →](https://www.defi.garden/?pool=230d2275-8440-4154-8136-d307370def09&src=seo_token) | Ethereum | 1.67% | $203.2K |
+| [steakhouse-financial →](https://www.defi.garden/?pool=230d2275-8440-4154-8136-d307370def09&src=seo_token) | Ethereum | 1.65% | $214.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HIGHYIELDTURBO yield today?
 
-1.67% APY on steakhouse-financial (Ethereum), based on live DefiLlama data.
+1.65% APY on steakhouse-financial (Ethereum), based on live DefiLlama data.
 
 ### How many HIGHYIELDTURBO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $203.2K in total.
+1 live pool clear this page's $100K TVL floor, $214.6K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank HIGHYIELDTURBO pools. This vi
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

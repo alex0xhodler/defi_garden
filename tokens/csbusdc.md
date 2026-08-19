@@ -1,10 +1,10 @@
 # CSBUSDC DeFi Yields
 
-The highest honest CSBUSDC yield right now is 16.29% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSBUSDC yield right now is 15.66% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 16.29% | $968.5K |
+| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 15.66% | $963.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSBUSDC yield today?
 
-16.29% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
+15.66% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many CSBUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $968.5K in total.
+1 live pool clear this page's $100K TVL floor, $963.1K in total.
 
 ### Are these rates safe?
 

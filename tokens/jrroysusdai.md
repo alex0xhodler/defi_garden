@@ -1,10 +1,10 @@
 # JRROYSUSDAI DeFi Yields
 
-The highest honest JRROYSUSDAI yield right now is 8.15% on royco-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRROYSUSDAI yield right now is 8.10% on royco-v2 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=70192414-13bd-53c0-8fbe-81a716832a21&src=seo_token) | Arbitrum | 8.15% | $135.1K |
+| [royco-v2 →](https://www.defi.garden/?pool=70192414-13bd-53c0-8fbe-81a716832a21&src=seo_token) | Arbitrum | 8.10% | $135.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRROYSUSDAI yield today?
 
-8.15% APY on royco-v2 (Arbitrum), based on live DefiLlama data.
+8.10% APY on royco-v2 (Arbitrum), based on live DefiLlama data.
 
 ### How many JRROYSUSDAI pools clear the TVL floor?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank JRROYSUSDAI pools. This view 
 
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [USDS](https://www.defi.garden/tokens/usds)
+- [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
+- [USDS](https://www.defi.garden/tokens/usds)
 - [SUSDAI](https://www.defi.garden/tokens/susdai)
-- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 

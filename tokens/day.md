@@ -1,10 +1,10 @@
 # DAY DeFi Yields
 
-The highest honest DAY yield right now is 0.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAY yield right now is 0.09% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=000d8ece-6344-42e5-968b-3be036d5b9f6&src=seo_token) | Ethereum | 0.02% | $1.86M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=000d8ece-6344-42e5-968b-3be036d5b9f6&src=seo_token) | Ethereum | 0.09% | $1.86M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAY yield today?
 
-0.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.09% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many DAY pools clear the TVL floor?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank DAY pools. This view covers A
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

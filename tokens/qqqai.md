@@ -1,10 +1,10 @@
 # QQQAI DeFi Yields
 
-The highest honest QQQAI yield right now is 0.10% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QQQAI yield right now is 0.11% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d1eb2723-93a7-460b-ad49-8ed542e00b08&src=seo_token) | Ethereum | 0.10% | $1.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d1eb2723-93a7-460b-ad49-8ed542e00b08&src=seo_token) | Ethereum | 0.11% | $1.14M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QQQAI yield today?
 
-0.10% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.11% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many QQQAI pools clear the TVL floor?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank QQQAI pools. This view covers
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

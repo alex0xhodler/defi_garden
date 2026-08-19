@@ -4,7 +4,7 @@ The highest honest CSUSDCCORE yield right now is 5.76% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=32ab021e-6faa-46e2-b609-f15f34d25b09&src=seo_token) | Ethereum | 5.76% | $763.9K |
+| [morpho-blue →](https://www.defi.garden/?pool=32ab021e-6faa-46e2-b609-f15f34d25b09&src=seo_token) | Ethereum | 5.76% | $764K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CSUSDCCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $763.9K in total.
+1 live pool clear this page's $100K TVL floor, $764K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank CSUSDCCORE pools. This view c
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

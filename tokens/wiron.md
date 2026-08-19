@@ -1,10 +1,10 @@
 # WIRON DeFi Yields
 
-The highest honest WIRON yield right now is 7.78% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WIRON yield right now is 8.12% on aerodrome-v1 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=2f24b50a-760d-4057-931c-ffd3fd5d7b9b&src=seo_token) | Base | 7.78% | $100.4K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=2f24b50a-760d-4057-931c-ffd3fd5d7b9b&src=seo_token) | Base | 8.12% | $100.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WIRON yield today?
 
-7.78% APY on aerodrome-v1 (Base), based on live DefiLlama data.
+8.12% APY on aerodrome-v1 (Base), based on live DefiLlama data.
 
 ### How many WIRON pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.4K in total.
+1 live pool clear this page's $100K TVL floor, $100.3K in total.
 
 ### Are these rates safe?
 

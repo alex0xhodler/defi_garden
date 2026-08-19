@@ -4,7 +4,7 @@ The highest honest STEAKPYUSD yield right now is 3.54% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1eb871b8-f380-40a7-b451-1c899eba8fd2&src=seo_token) | Ethereum | 3.54% | $300.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=1eb871b8-f380-40a7-b451-1c899eba8fd2&src=seo_token) | Ethereum | 3.54% | $300.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STEAKPYUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $300.4K in total.
+1 live pool clear this page's $100K TVL floor, $300.5K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank STEAKPYUSD pools. This view c
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # SSV DeFi Yields
 
-The highest honest SSV yield right now is 10.10% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SSV yield right now is 10.56% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=78019537-31a3-49da-99b4-0a570b084c46&src=seo_token) | Ethereum | 10.10% | $291.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=78019537-31a3-49da-99b4-0a570b084c46&src=seo_token) | Ethereum | 10.56% | $305.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SSV yield today?
 
-10.10% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+10.56% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SSV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $291.2K in total.
+1 live pool clear this page's $100K TVL floor, $305.6K in total.
 
 ### Are these rates safe?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank SSV pools. This view covers A
 - [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [SUSDS](https://www.defi.garden/tokens/susds)
+- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
 ## Available on
 
