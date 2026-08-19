@@ -2741,6 +2741,25 @@ a.pool-token-chip:hover {
   transform: translateY(1px);
 }
 
+.receipt-verify-link-btn {
+  background: none;
+  border: none;
+  color: var(--cert-ink-3);
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 4px 8px;
+  transition: color 0.15s ease;
+}
+
+.receipt-verify-link-btn:hover {
+  color: var(--cert-green);
+}
+
 /* Mobile responsive adjustments (<= 480px) */
 @media (max-width: 480px) {
   .virtual-visa-card {

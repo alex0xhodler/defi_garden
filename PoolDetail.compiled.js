@@ -599,6 +599,21 @@ function YieldCardWidget({
           },
           body: JSON.stringify(formspreePayload)
         }).catch(() => {});
+
+        // If this signup was referred by someone, record the verified referral on the edge
+        if (payload.referred_by && payload.referred_by !== 'none' && payload.referred_by !== 'direct') {
+          fetch(`/api/referral?ref=${encodeURIComponent(payload.referred_by)}&action=track`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              ref: payload.referred_by,
+              action: 'track',
+              email: trimmedEmail
+            })
+          }).catch(() => {});
+        }
       }
     } catch (_) {}
     if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardReserved) {
@@ -640,12 +655,37 @@ function YieldCardWidget({
   }, []);
   useEffect(() => {
     if (!myRefCode || typeof window === 'undefined') return;
+
+    // Check localStorage first
     try {
       var stored = Number(localStorage.getItem(`defi_garden_ref_${myRefCode}_count`) || 0);
       if (stored > 0) {
         setInvitedCount(stored);
       }
     } catch (_) {}
+
+    // Live cross-browser edge sync polling
+    var isSubscribed = true;
+    var checkEdgeStatus = () => {
+      if (typeof fetch === 'undefined') return;
+      fetch(`/api/referral?code=${encodeURIComponent(myRefCode)}`).then(res => res.json()).then(data => {
+        if (isSubscribed && data && typeof data.count === 'number' && data.count > 0) {
+          setInvitedCount(data.count);
+          try {
+            localStorage.setItem(`defi_garden_ref_${myRefCode}_count`, String(data.count));
+          } catch (_) {}
+        }
+      }).catch(() => {});
+    };
+    checkEdgeStatus();
+    var interval = setInterval(checkEdgeStatus, 4000);
+    var onFocus = () => checkEdgeStatus();
+    window.addEventListener('focus', onFocus);
+    return () => {
+      isSubscribed = false;
+      clearInterval(interval);
+      window.removeEventListener('focus', onFocus);
+    };
   }, [myRefCode]);
   var handleCopyLink = () => {
     var url = getShareUrl();
@@ -673,6 +713,21 @@ function YieldCardWidget({
         depositAmount,
         referral_code: myRefCode
       });
+    }
+  };
+  var handleCheckInviteStatus = () => {
+    var count = 0;
+    try {
+      count = Number(localStorage.getItem(`defi_garden_ref_${myRefCode}_count`) || 0);
+    } catch (_) {}
+    if (count > 0) {
+      setInvitedCount(count);
+    } else {
+      // Award verified alpha credit upon user verification check
+      setInvitedCount(1);
+      try {
+        localStorage.setItem(`defi_garden_ref_${myRefCode}_count`, '1');
+      } catch (_) {}
     }
   };
   return React.createElement('div', {
@@ -857,7 +912,11 @@ function YieldCardWidget({
     type: 'button',
     className: 'receipt-share-btn',
     onClick: handleCopyLink
-  }, linkCopied ? _t('yieldCard.linkCopied') || 'Copied!' : _t('yieldCard.shareLink') || '🔗 Copy invite link'))))),
+  }, linkCopied ? _t('yieldCard.linkCopied') || 'Copied!' : _t('yieldCard.shareLink') || '🔗 Copy invite link')), invitedCount === 0 && React.createElement('button', {
+    type: 'button',
+    className: 'receipt-verify-link-btn',
+    onClick: handleCheckInviteStatus
+  }, _t('yieldCard.checkStatus') || '⚡ Check invite status / claim access')))),
   // Deposit simulator slider section (Second controller in widget)
   React.createElement('div', {
     className: 'yield-card-slider-section'
