@@ -2308,13 +2308,13 @@ a.pool-token-chip:hover {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Reservation Form & Receipt (Quiet / SOTA Grade) */
+/* Reservation Form & Receipt (The Certificate Grammar / Brand On-Theme) */
 
 .yield-card-reservation {
   background: var(--cert-vellum);
   border: 1px solid var(--cert-rule);
-  border-radius: 8px;
-  padding: 22px 24px;
+  border-radius: 0;
+  padding: 22px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2327,10 +2327,10 @@ a.pool-token-chip:hover {
   align-items: center;
   gap: 8px;
   margin-bottom: 12px;
-  padding: 4px 11px;
+  padding: 4px 10px;
   background: var(--cert-green-wash-strong);
   border: 1px solid var(--cert-green-wash-strong);
-  border-radius: 9999px;
+  border-radius: 0;
   align-self: flex-start;
 }
 
@@ -2366,29 +2366,29 @@ a.pool-token-chip:hover {
   font-size: 0.76rem;
   font-weight: 700;
   color: var(--cert-green);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   white-space: nowrap;
 }
 
 .reservation-title {
-  font-family: 'Besley', Georgia, serif;
-  font-size: 1.18rem;
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
+  font-size: 1.22rem;
   font-weight: 700;
   color: var(--cert-ink);
-  margin: 0 0 5px;
+  margin: 0 0 6px;
   letter-spacing: -0.01em;
   line-height: 1.25;
 }
 
 .reservation-subtitle {
-  font-family: 'Public Sans', system-ui, sans-serif;
-  font-size: 0.82rem;
-  color: var(--cert-ink-3);
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+  font-size: 0.84rem;
+  color: var(--cert-ink-2);
   margin: 0 0 14px;
-  line-height: 1.4;
+  line-height: 1.45;
 }
 
-/* 3-Pillar Trust Rail System */
+/* 3-Pillar Trust Rail System — Certificate Document Rows */
 .reservation-pillars {
   display: flex;
   flex-direction: column;
@@ -2400,11 +2400,11 @@ a.pool-token-chip:hover {
 .pillar-item {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 10px;
+  gap: 10px;
+  padding: 9px 12px;
   background: var(--cert-paper);
   border: 1px solid var(--cert-rule);
-  border-radius: 6px;
+  border-radius: 0;
   box-sizing: border-box;
   min-width: 0;
 }
@@ -2429,9 +2429,9 @@ a.pool-token-chip:hover {
 }
 
 .pillar-headline {
-  font-family: 'Public Sans', system-ui, sans-serif;
-  font-size: 0.70rem;
-  font-weight: 700;
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+  font-size: 0.76rem;
+  font-weight: 600;
   color: var(--cert-ink);
   line-height: 1.2;
   white-space: nowrap;
@@ -2440,8 +2440,8 @@ a.pool-token-chip:hover {
 }
 
 .pillar-subline {
-  font-family: 'Public Sans', system-ui, sans-serif;
-  font-size: 0.62rem;
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
+  font-size: 0.66rem;
   color: var(--cert-ink-3);
   line-height: 1.2;
   white-space: nowrap;
@@ -2476,11 +2476,12 @@ a.pool-token-chip:hover {
 
 .email-input {
   width: 100%;
-  height: 42px;
+  height: 44px;
   box-sizing: border-box;
-  padding: 0 12px 0 36px;
+  padding: 0 12px 0 38px;
   border: 1px solid var(--cert-rule-strong);
-  border-radius: 6px;
+  border-radius: 0;
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
   font-size: 0.88rem;
   background: var(--cert-paper);
   color: var(--cert-ink);
@@ -2493,44 +2494,68 @@ a.pool-token-chip:hover {
   box-shadow: var(--cert-focus-ring);
 }
 
+/* Intaglio Green Primary CTA with signature certificate inner hairline */
 .reserve-submit-btn {
-  height: 42px;
-  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+  height: 46px;
+  min-height: 46px;
+  padding: 0 20px;
   background: var(--cert-green);
   color: var(--cert-on-green);
-  border: 1px solid transparent;
-  border-radius: 6px;
+  border: 1px solid var(--cert-green-hover);
+  border-radius: 0;
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
   font-weight: 600;
   font-size: 0.88rem;
   cursor: pointer;
   transition: all 0.15s ease;
   white-space: nowrap;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.reserve-submit-btn::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 1px solid var(--cert-on-green);
+  border-radius: 0;
+  opacity: 0.25;
+  pointer-events: none;
 }
 
 .reserve-submit-btn:hover {
   background: var(--cert-green-hover);
-  transform: translateY(-1px);
+  color: var(--cert-on-green);
 }
 
 .reserve-submit-btn:active {
   background: var(--cert-green-active);
+  color: var(--cert-on-green);
   transform: translateY(1px);
 }
 
+.reserve-submit-btn:focus-visible {
+  outline: none;
+  box-shadow: var(--cert-focus-ring);
+}
+
 .reservation-micro-hint {
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
   font-size: 0.72rem;
   color: var(--cert-ink-3);
   margin: 10px 0 0;
   text-align: center;
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
 .validation-error {
-  color: var(--color-error, #c53030);
+  color: var(--cert-red, #A3271E);
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
   font-size: 0.78rem;
   margin-top: 6px;
   font-weight: 500;
@@ -2539,7 +2564,7 @@ a.pool-token-chip:hover {
 .yield-card-receipt {
   background: var(--cert-green-wash);
   border: 1px solid var(--cert-green);
-  border-radius: 8px;
+  border-radius: 0;
   padding: 24px;
   text-align: center;
   display: flex;
@@ -2564,13 +2589,13 @@ a.pool-token-chip:hover {
   background: var(--cert-green);
   color: var(--cert-on-green);
   padding: 4px 12px;
-  border-radius: 9999px;
+  border-radius: 0;
   margin-bottom: 10px;
   letter-spacing: 0.04em;
 }
 
 .receipt-title {
-  font-family: 'Besley', Georgia, serif;
+  font-family: var(--font-family-display, 'Besley', Georgia, serif);
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--cert-ink);
@@ -2581,7 +2606,7 @@ a.pool-token-chip:hover {
   padding: 6px 12px;
   background: var(--cert-paper);
   border: 1px solid var(--cert-rule);
-  border-radius: 6px;
+  border-radius: 0;
   font-family: var(--font-family-mono, monospace);
   font-size: 0.82rem;
   font-weight: 600;
@@ -2590,6 +2615,7 @@ a.pool-token-chip:hover {
 }
 
 .receipt-note {
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
   font-size: 0.8rem;
   color: var(--cert-ink-3);
   margin: 0 0 14px;
@@ -2598,12 +2624,13 @@ a.pool-token-chip:hover {
 }
 
 .receipt-share-btn {
+  font-family: var(--font-family-base, 'Public Sans', system-ui, sans-serif);
   font-size: 0.84rem;
   padding: 7px 16px;
   border: 1px solid var(--cert-green);
   background: var(--cert-paper);
   color: var(--cert-green);
-  border-radius: 6px;
+  border-radius: 0;
   cursor: pointer;
   font-weight: 600;
   transition: all 0.15s ease;
@@ -2656,10 +2683,10 @@ a.pool-token-chip:hover {
   }
   .yield-card-reservation {
     padding: 18px 16px;
-    border-radius: 8px;
+    border-radius: 0;
   }
   .reservation-title {
-    font-size: 1.10rem;
+    font-size: 1.12rem;
   }
 }
 /* Collapsed Calculator scroll-up action */
