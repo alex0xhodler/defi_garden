@@ -1,10 +1,10 @@
 # YCSUSDC DeFi Yields
 
-The highest honest YCSUSDC yield right now is 3.91% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YCSUSDC yield right now is 3.90% on morpho-blue (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=44b5ceb6-274a-4193-9665-ff497ec1e535&src=seo_token) | Base | 3.91% | $823.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=44b5ceb6-274a-4193-9665-ff497ec1e535&src=seo_token) | Base | 3.90% | $824.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YCSUSDC yield today?
 
-3.91% APY on morpho-blue (Base), based on live DefiLlama data.
+3.90% APY on morpho-blue (Base), based on live DefiLlama data.
 
 ### How many YCSUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $823.3K in total.
+1 live pool clear this page's $100K TVL floor, $824.3K in total.
 
 ### Are these rates safe?
 

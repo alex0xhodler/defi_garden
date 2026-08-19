@@ -1,33 +1,33 @@
 # KNTQ DeFi Yields
 
-The highest honest KNTQ yield right now is 55.17% on nest-cl (Hyperliquid L1), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KNTQ yield right now is 72.79% on nest-cl (Hyperliquid L1), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-cl →](https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token) | Hyperliquid L1 | 55.17% | $253.6K |
-| [project-x →](https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token) | Hyperliquid L1 | 30.52% | $228.9K |
-| [project-x →](https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token) | Hyperliquid L1 | 25.03% | $188.2K |
-| [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token) | Hyperliquid L1 | 183.24% | $149.8K |
+| [nest-cl →](https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token) | Hyperliquid L1 | 72.79% | $253K |
+| [project-x →](https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token) | Hyperliquid L1 | 34.39% | $225.1K |
+| [project-x →](https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token) | Hyperliquid L1 | 30.77% | $185.3K |
+| [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token) | Hyperliquid L1 | 190.34% | $149.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, KNTQ's lower-variability candidates are nest-cl (Hyperliquid L1), 183.24% APY, $149.8K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token; project-x (Hyperliquid L1), 25.03% APY, $188.2K TVL, https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token; nest-cl (Hyperliquid L1), 55.17% APY, $253.6K TVL, https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token; project-x (Hyperliquid L1), 30.52% APY, $228.9K TVL, https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KNTQ's lower-variability candidates are nest-cl (Hyperliquid L1), 190.34% APY, $149.9K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token; project-x (Hyperliquid L1), 30.77% APY, $185.3K TVL, https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token; nest-cl (Hyperliquid L1), 72.79% APY, $253K TVL, https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token; project-x (Hyperliquid L1), 34.39% APY, $225.1K TVL, https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token) | Hyperliquid L1 | 183.24% | $149.8K |
-| 2 | [project-x →](https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token) | Hyperliquid L1 | 25.03% | $188.2K |
-| 3 | [nest-cl →](https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token) | Hyperliquid L1 | 55.17% | $253.6K |
-| 4 | [project-x →](https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token) | Hyperliquid L1 | 30.52% | $228.9K |
+| 1 | [nest-cl →](https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token) | Hyperliquid L1 | 190.34% | $149.9K |
+| 2 | [project-x →](https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token) | Hyperliquid L1 | 30.77% | $185.3K |
+| 3 | [nest-cl →](https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token) | Hyperliquid L1 | 72.79% | $253K |
+| 4 | [project-x →](https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token) | Hyperliquid L1 | 34.39% | $225.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-KNTQ shows up in 4 pools here, with rates from 25.03% to 183.24% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+KNTQ shows up in 4 pools here, with rates from 30.77% to 190.34% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 30.98% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 31.02% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ KNTQ shows up in 4 pools here, with rates from 25.03% to 183.24% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| nest-cl | 55.17% | 50.96% | 100.00% incentives |
-| project-x | 30.52% | 10.99% | Base rate |
-| project-x | 25.03% | 8.36% | Base rate |
-| nest-cl | 183.24% | 103.18% | 100.00% incentives |
+| nest-cl | 72.79% | 50.96% | 100.00% incentives |
+| project-x | 34.39% | 11.08% | Base rate |
+| project-x | 30.77% | 8.45% | Base rate |
+| nest-cl | 190.34% | 103.50% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest KNTQ yield today?
 
-55.17% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
+72.79% APY on nest-cl (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many KNTQ pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $820.5K in total.
+4 live pools clear this page's $100K TVL floor, $813.4K in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which KNTQ pools have the most stable APY history?
 
-Based on APY history only, KNTQ's lower-variability candidates are nest-cl (Hyperliquid L1), 183.24% APY, $149.8K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token; project-x (Hyperliquid L1), 25.03% APY, $188.2K TVL, https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token; nest-cl (Hyperliquid L1), 55.17% APY, $253.6K TVL, https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token; project-x (Hyperliquid L1), 30.52% APY, $228.9K TVL, https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, KNTQ's lower-variability candidates are nest-cl (Hyperliquid L1), 190.34% APY, $149.9K TVL, https://www.defi.garden/?pool=0551cdb2-2ebd-4ed5-9c13-73b8216ba47a&src=seo_token; project-x (Hyperliquid L1), 30.77% APY, $185.3K TVL, https://www.defi.garden/?pool=485983b0-c836-4629-8fdf-9f0fcade41c4&src=seo_token; nest-cl (Hyperliquid L1), 72.79% APY, $253K TVL, https://www.defi.garden/?pool=ece296cb-762f-4926-91f3-0940cb6e1f69&src=seo_token; project-x (Hyperliquid L1), 34.39% APY, $225.1K TVL, https://www.defi.garden/?pool=360ce8c2-c4bb-4f68-a888-bafcc8fa37db&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

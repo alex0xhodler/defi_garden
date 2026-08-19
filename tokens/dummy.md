@@ -4,7 +4,7 @@ The highest honest DUMMY yield right now is 0.01% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e477731-59e4-43cf-8c12-05cecc9d6074&src=seo_token) | Ethereum | 0.01% | $915.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e477731-59e4-43cf-8c12-05cecc9d6074&src=seo_token) | Ethereum | 0.01% | $924.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DUMMY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $915.8K in total.
+1 live pool clear this page's $100K TVL floor, $924.4K in total.
 
 ### Are these rates safe?
 

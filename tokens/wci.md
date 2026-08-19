@@ -4,7 +4,7 @@ The highest honest WCI yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=38ef6075-a65c-4f84-a24c-94229f811ad1&src=seo_token) | Ethereum | 0.01% | $148.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=38ef6075-a65c-4f84-a24c-94229f811ad1&src=seo_token) | Ethereum | 0.01% | $149.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WCI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $148.5K in total.
+1 live pool clear this page's $100K TVL floor, $149.2K in total.
 
 ### Are these rates safe?
 

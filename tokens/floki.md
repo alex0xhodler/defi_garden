@@ -4,7 +4,7 @@ The highest honest FLOKI yield right now is 0.21% on uniswap-v2 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=542cda14-2cee-4069-b83c-328b93910dbf&src=seo_token) | Ethereum | 0.21% | $5.84M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=542cda14-2cee-4069-b83c-328b93910dbf&src=seo_token) | Ethereum | 0.21% | $5.89M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many FLOKI pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $6.35M in total.
+4 live pools clear this page's $100K TVL floor, $6.41M in total.
 
 ### Are these rates safe?
 

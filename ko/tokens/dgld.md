@@ -5,16 +5,16 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [uniswap-v4 →](https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token) | Ethereum | 2.01% | $455.6K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token) | Base | 0.03% | $102.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token) | Base | 0.03% | $102.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 DGLD의 변동성 낮은 후보는 Base의 uniswap-v4, APY 0.03%, TVL $102.5K, https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token; Ethereum의 uniswap-v4, APY 2.01%, TVL $455.6K, https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DGLD의 변동성 낮은 후보는 Base의 uniswap-v4, APY 0.03%, TVL $102.9K, https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token; Ethereum의 uniswap-v4, APY 2.01%, TVL $455.6K, https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token) | Base | 0.03% | $102.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token) | Base | 0.03% | $102.9K |
 | 2 | [uniswap-v4 →](https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token) | Ethereum | 2.01% | $455.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 2.01%예�
 
 ### DGLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $558.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $558.5K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 2.01%예�
 
 ### DGLD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 DGLD의 변동성 낮은 후보는 Base의 uniswap-v4, APY 0.03%, TVL $102.5K, https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token; Ethereum의 uniswap-v4, APY 2.01%, TVL $455.6K, https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 DGLD의 변동성 낮은 후보는 Base의 uniswap-v4, APY 0.03%, TVL $102.9K, https://www.defi.garden/?pool=5a57ce06-272e-42a0-a99b-6013c05630a7&src=seo_token; Ethereum의 uniswap-v4, APY 2.01%, TVL $455.6K, https://www.defi.garden/?pool=a26226c4-68b5-426f-8b9f-b237b8b03008&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

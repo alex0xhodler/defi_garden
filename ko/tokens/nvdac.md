@@ -1,10 +1,10 @@
 # NVDAC 디파이 수익률
 
-현재 NVDAC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 233.34%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NVDAC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 617.76%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 233.34% | $239.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 617.76% | $239.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 NVDAC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 233.34%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 617.76%예요.
 
 ### NVDAC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

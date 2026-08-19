@@ -1,27 +1,27 @@
 # ORDER DeFi Yields
 
-The highest honest ORDER yield right now is 1.42% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ORDER yield right now is 1.48% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token) | Ethereum | 0.31% | $282.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token) | Solana | 1.42% | $112.9K |
+| [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token) | Ethereum | 0.11% | $283.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token) | Solana | 1.48% | $113.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ORDER's lower-variability candidates are raydium-amm (Solana), 1.42% APY, $112.9K TVL, https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.31% APY, $282.6K TVL, https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ORDER's lower-variability candidates are raydium-amm (Solana), 1.48% APY, $113.4K TVL, https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.11% APY, $283.7K TVL, https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token) | Solana | 1.42% | $112.9K |
-| 2 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token) | Ethereum | 0.31% | $282.6K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token) | Solana | 1.48% | $113.4K |
+| 2 | [pancakeswap-amm-v3 →](https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token) | Ethereum | 0.11% | $283.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ORDER shows up in 2 pools here, with rates from 0.31% to 1.42% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ORDER shows up in 2 pools here, with rates from 0.11% to 1.48% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.37% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pancakeswap-amm-v3 | 0.31% | 4.16% | Base rate |
-| raydium-amm | 1.42% | 8.58% | Base rate |
+| pancakeswap-amm-v3 | 0.11% | 4.16% | Base rate |
+| raydium-amm | 1.48% | 8.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ORDER yield today?
 
-1.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.48% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ORDER pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $395.4K in total.
+2 live pools clear this page's $100K TVL floor, $397.1K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ORDER pools have the most stable APY history?
 
-Based on APY history only, ORDER's lower-variability candidates are raydium-amm (Solana), 1.42% APY, $112.9K TVL, https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.31% APY, $282.6K TVL, https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ORDER's lower-variability candidates are raydium-amm (Solana), 1.48% APY, $113.4K TVL, https://www.defi.garden/?pool=81661763-1df6-49be-85f1-828b919f53d0&src=seo_token; pancakeswap-amm-v3 (Ethereum), 0.11% APY, $283.7K TVL, https://www.defi.garden/?pool=b3477c69-e154-492e-9533-62abb672ca30&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -6,8 +6,8 @@ The highest honest STRUSD yield right now is 11.62% on pendle (Ethereum), among 
 |---|---|---|---|
 | [tori-finance →](https://www.defi.garden/?pool=e7fdda30-ce71-5dea-8b3a-dd43de77ce55&src=seo_token) | Ethereum | 11.05% | $45.78M |
 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.50% | $10.08M |
-| [pendle →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.62% | $7.05M |
-| [pendle →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 11.44% | $7.05M |
+| [pendle →](https://www.defi.garden/?pool=576837c2-4d9c-5783-8543-df63fcb34d80&src=seo_token) | Ethereum | 11.62% | $7.06M |
+| [pendle →](https://www.defi.garden/?pool=6dfc3f02-ff4e-5a75-bff0-6865cf9f200f&src=seo_token) | Ethereum | 11.44% | $7.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -26,10 +26,10 @@ STRUSD shows up in 4 pools here, with rates from 5.50% to 11.62% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tori-finance | 11.05% | 11.63% | Base rate |
+| tori-finance | 11.05% | 11.62% | Base rate |
 | curve-dex | 5.50% | 5.48% | Base rate |
 | pendle | 11.62% | 11.57% | Base rate |
-| pendle | 11.44% | 12.10% | 2.00% incentives |
+| pendle | 11.44% | 12.10% | 1.93% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STRUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $82.15M in total.
+6 live pools clear this page's $100K TVL floor, $82.17M in total.
 
 ### Are these rates safe?
 

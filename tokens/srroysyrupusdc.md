@@ -4,7 +4,7 @@ The highest honest SRROYSYRUPUSDC yield right now is 4.79% on royco-v2 (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=274d97a2-567d-5fa5-8639-8d42a1ccdb0d&src=seo_token) | Ethereum | 4.79% | $2.46M |
+| [royco-v2 →](https://www.defi.garden/?pool=274d97a2-567d-5fa5-8639-8d42a1ccdb0d&src=seo_token) | Ethereum | 4.79% | $1.31M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SRROYSYRUPUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.46M in total.
+1 live pool clear this page's $100K TVL floor, $1.31M in total.
 
 ### Are these rates safe?
 

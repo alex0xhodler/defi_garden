@@ -33,12 +33,12 @@ There is not enough qualifying APY history to rank JST pools. This view covers A
 
 ## Related tokens
 
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [BTC](https://www.defi.garden/tokens/btc)
 - [USDD](https://www.defi.garden/tokens/usdd)
 - [USD1](https://www.defi.garden/tokens/usd1)
 - [SUN](https://www.defi.garden/tokens/sun)
+- [TUSD](https://www.defi.garden/tokens/tusd)
 
 ## Available on
 

@@ -4,7 +4,7 @@ The highest honest TRBT yield right now is 0.37% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=3a9f5688-d9e6-4254-99ef-aa635f4bf4e9&src=seo_token) | Ethereum | 0.37% | $140.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3a9f5688-d9e6-4254-99ef-aa635f4bf4e9&src=seo_token) | Ethereum | 0.37% | $141.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TRBT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $140.4K in total.
+1 live pool clear this page's $100K TVL floor, $141.1K in total.
 
 ### Are these rates safe?
 

@@ -1,11 +1,11 @@
 # EURAU DeFi Yields
 
-The highest honest EURAU yield right now is 1.01% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURAU yield right now is 1.52% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=cca7ebd6-241f-46ce-8c17-710453fa1103&src=seo_token) | Base | 1.01% | $141.3K |
-| [raydium-amm →](https://www.defi.garden/?pool=05456cc4-bd76-5b3a-8236-538e0f59d445&src=seo_token) | Solana | 0.29% | $110.9K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=cca7ebd6-241f-46ce-8c17-710453fa1103&src=seo_token) | Base | 1.52% | $141.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=05456cc4-bd76-5b3a-8236-538e0f59d445&src=seo_token) | Solana | 0.57% | $111K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-EURAU shows up in 2 pools here, with rates from 0.29% to 1.01% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EURAU shows up in 2 pools here, with rates from 0.57% to 1.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 1.01% | 1.08% | Base rate |
-| raydium-amm | 0.29% | 0.60% | Base rate |
+| aerodrome-slipstream | 1.52% | 1.08% | Base rate |
+| raydium-amm | 0.57% | 0.60% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EURAU yield today?
 
-1.01% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+1.52% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many EURAU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $252.2K in total.
+2 live pools clear this page's $100K TVL floor, $252.5K in total.
 
 ### Are these rates safe?
 

@@ -27,7 +27,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 PT shows up in 5 pools here, with rates from 0.20% to 4.02% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.70% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.71% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 5 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,7 +37,7 @@ PT shows up in 5 pools here, with rates from 0.20% to 4.02% APY across 2 chains 
 |---|---|---|---|
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 | morpho-blue | 1.67% | 1.70% | 100.00% incentives |
-| morpho-blue | 2.00% | 0.70% | 100.00% incentives |
+| morpho-blue | 2.00% | 0.71% | 100.00% incentives |
 | neverland | 4.02% | 4.30% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
 
@@ -51,7 +51,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PT pools clear the TVL floor?
 
-39 live pools clear this page's $100K TVL floor, $451.65M in total.
+39 live pools clear this page's $100K TVL floor, $449.69M in total.
 
 ### Are these rates safe?
 

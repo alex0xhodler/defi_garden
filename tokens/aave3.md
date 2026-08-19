@@ -4,7 +4,7 @@ The highest honest AAVE3 yield right now is 13.05% on balancer-v3 (Monad), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=143d08f6-819c-5ca0-a0d9-7cc034c3f2f6&src=seo_token) | Monad | 13.05% | $1.01M |
+| [balancer-v3 →](https://www.defi.garden/?pool=143d08f6-819c-5ca0-a0d9-7cc034c3f2f6&src=seo_token) | Monad | 13.05% | $1M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AAVE3 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.01M in total.
+1 live pool clear this page's $100K TVL floor, $1M in total.
 
 ### Are these rates safe?
 

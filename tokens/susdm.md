@@ -29,7 +29,7 @@ SUSDM shows up in 2 pools here, with rates from 2.43% to 9.00% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| monetrix | 9.00% | 6.87% | Base rate |
+| monetrix | 9.00% | 6.86% | Base rate |
 | hybra-v4 | 2.43% | 1.91% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.

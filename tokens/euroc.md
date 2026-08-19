@@ -1,31 +1,31 @@
 # EUROC DeFi Yields
 
-The highest honest EUROC yield right now is 2.72% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUROC yield right now is 3.94% on uniswap-v3 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.31% | $5.83M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token) | Ethereum | 2.72% | $4.69M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 0.69% | $224.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.42% | $5.84M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token) | Ethereum | 3.94% | $4.55M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 0.75% | $225K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, EUROC's lower-variability candidates are uniswap-v3 (Ethereum), 0.31% APY, $5.83M TVL, https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token; uniswap-v3 (Avalanche), 0.69% APY, $224.8K TVL, https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token; uniswap-v3 (Ethereum), 2.72% APY, $4.69M TVL, https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EUROC's lower-variability candidates are uniswap-v3 (Ethereum), 0.42% APY, $5.84M TVL, https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token; uniswap-v3 (Avalanche), 0.75% APY, $225K TVL, https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token; uniswap-v3 (Ethereum), 3.94% APY, $4.55M TVL, https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.31% | $5.83M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 0.69% | $224.8K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token) | Ethereum | 2.72% | $4.69M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token) | Ethereum | 0.42% | $5.84M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token) | Avalanche | 0.75% | $225K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token) | Ethereum | 3.94% | $4.55M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-EUROC shows up in 3 pools here, with rates from 0.31% to 2.72% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+EUROC shows up in 3 pools here, with rates from 0.42% to 3.94% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.65% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 0.66% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.31% | 0.37% | Base rate |
-| uniswap-v3 | 2.72% | 4.35% | Base rate |
-| uniswap-v3 | 0.69% | 0.65% | Base rate |
+| uniswap-v3 | 0.42% | 0.37% | Base rate |
+| uniswap-v3 | 3.94% | 4.35% | Base rate |
+| uniswap-v3 | 0.75% | 0.66% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest EUROC yield today?
 
-2.72% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+3.94% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EUROC pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $10.75M in total.
+3 live pools clear this page's $100K TVL floor, $10.62M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which EUROC pools have the most stable APY history?
 
-Based on APY history only, EUROC's lower-variability candidates are uniswap-v3 (Ethereum), 0.31% APY, $5.83M TVL, https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token; uniswap-v3 (Avalanche), 0.69% APY, $224.8K TVL, https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token; uniswap-v3 (Ethereum), 2.72% APY, $4.69M TVL, https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, EUROC's lower-variability candidates are uniswap-v3 (Ethereum), 0.42% APY, $5.84M TVL, https://www.defi.garden/?pool=037ed84a-815a-478f-a4c8-e54f375372ea&src=seo_token; uniswap-v3 (Avalanche), 0.75% APY, $225K TVL, https://www.defi.garden/?pool=55daa3a2-6f8b-4107-9f54-0d35444c5304&src=seo_token; uniswap-v3 (Ethereum), 3.94% APY, $4.55M TVL, https://www.defi.garden/?pool=170db696-4634-4d6b-94b8-db6608776577&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

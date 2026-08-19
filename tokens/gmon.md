@@ -4,22 +4,22 @@ The highest honest GMON yield right now is 16.00% on curve-dex (Monad), among 4 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 10.43% | $1.13M |
+| [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 10.43% | $1.14M |
 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 16.00% | $596.7K |
-| [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.36% | $235.1K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.01% | $101.1K |
+| [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.36% | $236.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.01% | $101.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GMON's lower-variability candidates are uniswap-v3 (Monad), 0.01% APY, $101.1K TVL, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; neverland (Monad), 0.36% APY, $235.1K TVL, https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token; curve-dex (Monad), 16.00% APY, $596.7K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; magma-staking (Monad), 10.43% APY, $1.13M TVL, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GMON's lower-variability candidates are uniswap-v3 (Monad), 0.01% APY, $101.8K TVL, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; neverland (Monad), 0.36% APY, $236.6K TVL, https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token; curve-dex (Monad), 16.00% APY, $596.7K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; magma-staking (Monad), 10.43% APY, $1.14M TVL, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.01% | $101.1K |
-| 2 | [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.36% | $235.1K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token) | Monad | 0.01% | $101.8K |
+| 2 | [neverland →](https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token) | Monad | 0.36% | $236.6K |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token) | Monad | 16.00% | $596.7K |
-| 4 | [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 10.43% | $1.13M |
+| 4 | [magma-staking →](https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token) | Monad | 10.43% | $1.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -36,7 +36,7 @@ GMON shows up in 4 pools here, with rates from 0.01% to 16.00% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | magma-staking | 10.43% | 10.76% | Base rate |
-| curve-dex | 16.00% | 21.49% | 100.00% incentives |
+| curve-dex | 16.00% | 21.48% | 100.00% incentives |
 | neverland | 0.36% | 0.23% | 100.00% incentives |
 | uniswap-v3 | 0.01% | 0.01% | Base rate |
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GMON pools have the most stable APY history?
 
-Based on APY history only, GMON's lower-variability candidates are uniswap-v3 (Monad), 0.01% APY, $101.1K TVL, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; neverland (Monad), 0.36% APY, $235.1K TVL, https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token; curve-dex (Monad), 16.00% APY, $596.7K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; magma-staking (Monad), 10.43% APY, $1.13M TVL, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GMON's lower-variability candidates are uniswap-v3 (Monad), 0.01% APY, $101.8K TVL, https://www.defi.garden/?pool=32266757-3325-5077-b015-6e908b08692d&src=seo_token; neverland (Monad), 0.36% APY, $236.6K TVL, https://www.defi.garden/?pool=77bc1759-5baf-4888-97a0-a0c351d4d372&src=seo_token; curve-dex (Monad), 16.00% APY, $596.7K TVL, https://www.defi.garden/?pool=d2d38be8-a125-4b56-9378-519c15e6dea7&src=seo_token; magma-staking (Monad), 10.43% APY, $1.14M TVL, https://www.defi.garden/?pool=96f74061-dc9a-4ef7-8117-6cd3935230de&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

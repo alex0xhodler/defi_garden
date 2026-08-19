@@ -1,10 +1,10 @@
 # WGNK DeFi Yields
 
-The highest honest WGNK yield right now is 6.57% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WGNK yield right now is 7.16% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a0d90790-a64b-4902-9dbc-4d64e260ac71&src=seo_token) | Ethereum | 6.57% | $610.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a0d90790-a64b-4902-9dbc-4d64e260ac71&src=seo_token) | Ethereum | 7.16% | $620.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WGNK yield today?
 
-6.57% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+7.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WGNK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $610.2K in total.
+1 live pool clear this page's $100K TVL floor, $620.2K in total.
 
 ### Are these rates safe?
 

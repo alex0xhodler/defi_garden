@@ -4,7 +4,7 @@ The highest honest NPRY yield right now is 0.49% on raydium-amm (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a9ba51b1-fc62-4e99-8234-6778bfc27314&src=seo_token) | Solana | 0.49% | $237.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=a9ba51b1-fc62-4e99-8234-6778bfc27314&src=seo_token) | Solana | 0.49% | $237.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NPRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $237.3K in total.
+1 live pool clear this page's $100K TVL floor, $237.2K in total.
 
 ### Are these rates safe?
 

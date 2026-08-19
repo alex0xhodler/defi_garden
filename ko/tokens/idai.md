@@ -1,10 +1,10 @@
 # IDAI 디파이 수익률
 
-현재 IDAI의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 123.62%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 IDAI의 가장 높은 정직한 수익률은 Ethereum의 curve-dex에서 123.68%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7e218bc2-186c-473d-af0c-415bcdfe392b&src=seo_token) | Ethereum | 123.62% | $1.79M |
+| [curve-dex →](https://www.defi.garden/?pool=7e218bc2-186c-473d-af0c-415bcdfe392b&src=seo_token) | Ethereum | 123.68% | $1.79M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 IDAI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 123.62%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 curve-dex에서 APY 123.68%예요.
 
 ### IDAI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

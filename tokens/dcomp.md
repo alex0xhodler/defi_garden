@@ -4,7 +4,7 @@ The highest honest DCOMP yield right now is 7.99% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 7.99% | $13.62M |
+| [morpho-blue →](https://www.defi.garden/?pool=58c04b13-6220-4122-9fa9-6845058f1d71&src=seo_token) | Ethereum | 7.99% | $13.6M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DCOMP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $44.96M in total.
+2 live pools clear this page's $100K TVL floor, $44.94M in total.
 
 ### Are these rates safe?
 

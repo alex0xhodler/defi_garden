@@ -1,10 +1,10 @@
 # CAH DeFi Yields
 
-The highest honest CAH yield right now is 0.20% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CAH yield right now is 0.98% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a0a2d1f8-cc29-45ea-8ec8-b0697756e6ca&src=seo_token) | Ethereum | 0.20% | $116.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a0a2d1f8-cc29-45ea-8ec8-b0697756e6ca&src=seo_token) | Ethereum | 0.98% | $116.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CAH yield today?
 
-0.20% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.98% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many CAH pools clear the TVL floor?
 

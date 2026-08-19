@@ -4,7 +4,7 @@ The highest honest WALLET yield right now is 1.42% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=b39eb4b4-e692-4a18-a802-e127773a6563&src=seo_token) | Ethereum | 1.42% | $585.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b39eb4b4-e692-4a18-a802-e127773a6563&src=seo_token) | Ethereum | 1.42% | $587.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WALLET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $585.7K in total.
+1 live pool clear this page's $100K TVL floor, $587.3K in total.
 
 ### Are these rates safe?
 

@@ -36,8 +36,8 @@ DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 3.30%�
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [DAI](https://www.defi.garden/ko/tokens/dai)
-- [LINK](https://www.defi.garden/ko/tokens/link)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
+- [LINK](https://www.defi.garden/ko/tokens/link)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
 
 ## 이용 가능한 체인

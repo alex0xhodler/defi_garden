@@ -4,7 +4,7 @@ The highest honest WSB yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=bfcc2703-422f-40c7-9764-931e550f2a0e&src=seo_token) | Ethereum | 0.01% | $176.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=bfcc2703-422f-40c7-9764-931e550f2a0e&src=seo_token) | Ethereum | 0.01% | $178K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $320.2K in total.
+2 live pools clear this page's $100K TVL floor, $321.8K in total.
 
 ### Are these rates safe?
 

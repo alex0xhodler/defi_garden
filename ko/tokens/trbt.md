@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=3a9f5688-d9e6-4254-99ef-aa635f4bf4e9&src=seo_token) | Ethereum | 0.37% | $140.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3a9f5688-d9e6-4254-99ef-aa635f4bf4e9&src=seo_token) | Ethereum | 0.37% | $141.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 0.37%예�
 
 ### TRBT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $140.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $141.1K예요.
 
 ### 이 수익률은 안전한가요?
 
