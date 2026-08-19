@@ -885,6 +885,30 @@ async function runWorkerTests() {
     ok(res !== sentinel, '/mcp must NEVER return the pass-through sentinel Response — it is always answered from mcp-core.js, regardless of what getPools()\'s upstream fetch receives');
   }
 
+  console.log('\nK11. /api/mcp endpoint: JSON-RPC tools and preflight support');
+  {
+    workerModule.__resetPoolsMemoForTests();
+    setFetch(makeWorkerFetchStub({ poolsBody: POPULATION }));
+    const { db, calls } = makeFakeDB();
+    const { ctx, waited } = makeFakeCtx();
+    const reqBody = JSON.stringify({ jsonrpc: '2.0', id: 101, method: 'tools/call', params: { name: 'find_pools', arguments: { limit: 3 } } });
+    const req = makeRequest('https://www.defi.garden/api/mcp', { method: 'POST', body: reqBody, headers: { 'content-type': 'application/json' } });
+    const res = await worker.fetch(req, { DB: db }, ctx);
+    await Promise.allSettled(waited);
+    eq(res.status, 200, 'POST /api/mcp tools/call find_pools -> 200');
+    eq(res.headers.get('access-control-allow-origin'), '*', 'CORS header present on POST /api/mcp');
+    const body = await res.json();
+    eq(body.jsonrpc, '2.0', 'response is jsonrpc 2.0 on /api/mcp');
+    ok(body.result && Array.isArray(body.result.content), '/api/mcp returns tool result content array');
+    const parsed = JSON.parse(body.result.content[0].text);
+    eq(parsed.pools.length, 3, 'find_pools via /api/mcp returns 3 pools');
+
+    const optReq = makeRequest('https://www.defi.garden/api/mcp', { method: 'OPTIONS' });
+    const optRes = await worker.fetch(optReq, { DB: db }, ctx);
+    eq(optRes.status, 204, 'OPTIONS /api/mcp -> 204');
+    eq(optRes.headers.get('access-control-allow-origin'), '*', 'OPTIONS /api/mcp CORS header present');
+  }
+
   restoreFetch();
 }
 

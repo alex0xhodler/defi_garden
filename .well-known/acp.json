@@ -1,0 +1,44 @@
+{
+  "$schema": "https://agenticreadiness.com/schemas/acp-v1.json",
+  "protocol": "acp/1.0",
+  "serverInfo": {
+    "name": "DeFi Garden",
+    "version": "1.0.0",
+    "description": "Real-time DeFi yield intelligence and trust-railed pool data for AI agents",
+    "homepage": "https://www.defi.garden"
+  },
+  "endpoints": {
+    "api_base": "https://www.defi.garden/api",
+    "mcp": "https://www.defi.garden/mcp",
+    "mcp_api": "https://www.defi.garden/api/mcp",
+    "auth": "https://www.defi.garden/auth.md",
+    "openapi": "https://www.defi.garden/openapi.json",
+    "skills": "https://www.defi.garden/.well-known/agent-skills/index.json",
+    "pricing": "https://www.defi.garden/api/pricing"
+  },
+  "capabilities": {
+    "pools": {
+      "description": "Query railed DeFi yield pools filtered by token, chain, and min TVL",
+      "url": "https://www.defi.garden/api/pools"
+    },
+    "health": {
+      "description": "Liveness and pool-data freshness verification",
+      "url": "https://www.defi.garden/api/health"
+    },
+    "forever_number": {
+      "description": "Subscription-archetype savings math and capital projections",
+      "url": "https://www.defi.garden/api/forever-number"
+    },
+    "mcp_tools": {
+      "description": "Model Context Protocol JSON-RPC 2.0 tool invocation (find_pools, get_pool, forever_number, explain_rails)",
+      "url": "https://www.defi.garden/mcp"
+    }
+  },
+  "payment": {
+    "protocol": "x402",
+    "network": "base",
+    "free": true,
+    "pricing_url": "https://www.defi.garden/api/pricing",
+    "description": "100% free agent access with optional Base x402 headers for agent telemetry and high-frequency access"
+  }
+}
