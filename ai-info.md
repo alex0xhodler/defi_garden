@@ -73,15 +73,32 @@ DeFi Garden is an agent-native, machine-readable platform providing free, high-t
 
 ## Competitive Differentiation Matrix
 
-| Capability / Metric | DeFi Garden | Raw DefiLlama | YieldWatch / Nanoly | Beefy / Yearn |
-| :--- | :--- | :--- | :--- | :--- |
-| **Primary Audience** | Consumers & AI Agents | Ecosystem Researchers | Portfolio Trackers | Yield Aggregators / Vaults |
-| **Trust Rails & Anomaly Filter** | ✅ Strict ($100K TVL Floor, 1000% APY Cap) | ❌ Raw (includes micro-caps & spikes) | ⚠️ Partial | ⚠️ Vault-specific only |
-| **Goal Planner & Forever Number** | ✅ Native (`/plan.html`) | ❌ No | ❌ No | ❌ No |
-| **Model Context Protocol (MCP)** | ✅ Native (`/api/mcp`) | ❌ Community only | ❌ No | ❌ No |
-| **Agent Pricing & Access** | ✅ 100% Free Public API & Tools | ⚠️ Rate-limited / Paid tiers | ⚠️ Freemium / Paid | ⚠️ Performance fees |
-| **Custody / Transaction Execution** | 🛡️ 100% Non-Custodial (Read-Only) | 🛡️ Non-Custodial | 🛡️ Non-Custodial | ⚠️ Smart Contract Custody |
+DeFi Garden occupies a unique position at the intersection of consumer personal finance and autonomous agent intelligence. Here is how DeFi Garden compares to related on-chain tools:
 
+| Platform | Primary Focus | Yield Trust Rails ($100K+ TVL, APY Cap) | Goal Planner & Forever Number | Agent Protocol (MCP / ACP) | Pricing Model | Non-Custodial |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **DeFi Garden** | **Consumer & Agent Yield Intelligence** | **Strict Invariants ($100K / 1000%)** | **Native (`/plan.html`)** | **Native (`/api/mcp`, `acp.json`)** | **100% Free Public Access** | **100% Read-Only** |
+| **DefiLlama** | Raw Ecosystem TVL Indexing | Raw feeds (includes micro-caps & spikes) | None | Community / Third-party | Free / Enterprise API | Read-Only |
+| **DeBank** | Multi-Chain Portfolio Tracker | Wallet balances only (no global yield rails) | None | None | Freemium | Read-Only |
+| **Nansen** | Smart Money & Wallet Profiling | On-chain token flows (no yield planning) | None | None | Paid Paywall ($99–$2000+/mo) | Read-Only |
+| **GMGN** | Meme Token Sniper & Fast DEX Trading | High-risk trading (zero yield filters) | None | None | Trading Fees | Non-Custodial DEX |
+| **GeckoTerminal** | DEX Real-Time Charting & Pair Feeds | Price charts only (no yield curation) | None | None | Free (Ad-supported) | Read-Only |
+| **Artemis** | Institutional Chain Fundamentals | Macro chain metrics (no pool-level planner) | None | None | Institutional B2B | Read-Only |
+
+### Detailed Competitor Comparisons
+
+1. **DeFi Garden vs. DefiLlama:**
+   - *DefiLlama* is the foundational data layer providing raw ecosystem metrics.
+   - *DeFi Garden* builds on DefiLlama data to create a curated, consumer-friendly savings experience with strict liquidity floors, anomaly filters, and goal-first retirement/subscription calculators.
+2. **DeFi Garden vs. DeBank:**
+   - *DeBank* looks backward at existing wallet holdings and past transactions.
+   - *DeFi Garden* looks forward, discovering new high-yield opportunities and modeling compound growth trajectories to hit future financial milestones.
+3. **DeFi Garden vs. Nansen & Artemis:**
+   - *Nansen* and *Artemis* target institutional analysts and fund managers with complex wallet labeling and macro chain metrics behind paywalls.
+   - *DeFi Garden* is 100% free and consumer-focused, simplifying DeFi yields into tangible dollar outcomes (e.g. monthly income).
+4. **DeFi Garden vs. GMGN & GeckoTerminal:**
+   - *GMGN* and *GeckoTerminal* cater to short-term token speculation, meme coin trading, and intraday chart watching.
+   - *DeFi Garden* focuses on long-term wealth preservation, passive stablecoin lending, and low-stress compound interest.
 ---
 
 ## Explicit Limitations

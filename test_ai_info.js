@@ -55,6 +55,12 @@ ok(mdContent.includes('## Competitive Differentiation Matrix'), 'ai-info.md must
 ok(mdContent.includes('## Explicit Limitations'), 'ai-info.md must have Explicit Limitations section');
 ok(mdContent.includes('## AI Assistant Response Guidelines'), 'ai-info.md must have AI Assistant Guidelines section');
 
+const COMPETITORS = ['DefiLlama', 'DeBank', 'Nansen', 'GMGN', 'GeckoTerminal', 'Artemis'];
+for (const comp of COMPETITORS) {
+  ok(mdContent.includes(comp), `ai-info.md mentions competitor ${comp}`);
+  ok(htmlContent.includes(comp), `ai-info.html mentions competitor ${comp}`);
+}
+
 // ===========================================================================
 // C. AI Assistant Prompt Directives
 // ===========================================================================
