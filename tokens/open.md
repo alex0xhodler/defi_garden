@@ -4,18 +4,18 @@ The highest honest OPEN yield right now is 3.68% on steer-protocol (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 3.68% | $271K |
+| [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 3.68% | $270.5K |
 | [ston.fi →](https://www.defi.garden/?pool=1d4c2a54-9f5b-4e10-85f1-631cf031f91d&src=seo_token) | TON | 0.02% | $189.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OPEN's lower-variability candidates are ston.fi (TON), 0.02% APY, $189.8K TVL, https://www.defi.garden/?pool=1d4c2a54-9f5b-4e10-85f1-631cf031f91d&src=seo_token; steer-protocol (Ethereum), 3.68% APY, $271K TVL, https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OPEN's lower-variability candidates are ston.fi (TON), 0.02% APY, $189.8K TVL, https://www.defi.garden/?pool=1d4c2a54-9f5b-4e10-85f1-631cf031f91d&src=seo_token; steer-protocol (Ethereum), 3.68% APY, $270.5K TVL, https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [ston.fi →](https://www.defi.garden/?pool=1d4c2a54-9f5b-4e10-85f1-631cf031f91d&src=seo_token) | TON | 0.02% | $189.8K |
-| 2 | [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 3.68% | $271K |
+| 2 | [steer-protocol →](https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token) | Ethereum | 3.68% | $270.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OPEN pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $880.4K in total.
+4 live pools clear this page's $100K TVL floor, $879.8K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OPEN pools have the most stable APY history?
 
-Based on APY history only, OPEN's lower-variability candidates are ston.fi (TON), 0.02% APY, $189.8K TVL, https://www.defi.garden/?pool=1d4c2a54-9f5b-4e10-85f1-631cf031f91d&src=seo_token; steer-protocol (Ethereum), 3.68% APY, $271K TVL, https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OPEN's lower-variability candidates are ston.fi (TON), 0.02% APY, $189.8K TVL, https://www.defi.garden/?pool=1d4c2a54-9f5b-4e10-85f1-631cf031f91d&src=seo_token; steer-protocol (Ethereum), 3.68% APY, $270.5K TVL, https://www.defi.garden/?pool=c38f06b9-3657-4c25-b556-3968006fcf6c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

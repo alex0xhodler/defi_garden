@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token) | Solana | 0.03% | $304.9K |
+| [orca-dex →](https://www.defi.garden/?pool=c255352a-52e6-428e-8610-98e6a97d3a50&src=seo_token) | Solana | 0.03% | $305.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.03%예요.
 
 ### XORCA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $304.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $305.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,11 +34,11 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 0.03%예요.
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 

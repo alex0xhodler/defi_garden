@@ -7,7 +7,7 @@
 | USD₮ | [aave-v3 →](https://www.defi.garden/?pool=8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd&src=seo_chain) | 1.12% | $1.97M |
 | WETH | [aave-v3 →](https://www.defi.garden/?pool=5335b797-b623-4ed1-a492-880cbabb053a&src=seo_chain) | 3.29% | $1.43M |
 | USD₮-CUSD | [uniswap-v3 →](https://www.defi.garden/?pool=ad10fdd6-8351-4d9b-8695-deb1bf2dc33a&src=seo_chain) | 0.17% | $642.9K |
-| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 7.99% | $568.7K |
+| CELO-STCELO | [uniswap-v3 →](https://www.defi.garden/?pool=88ada026-2f5a-4cb8-b591-4e46e32fedc5&src=seo_chain) | 7.99% | $567.1K |
 | USD₮-WBTC | [uniswap-v3 →](https://www.defi.garden/?pool=8f5e5824-7c41-4af2-899b-2db398962bea&src=seo_chain) | 40.04% | $244.7K |
 | USD₮-WETH | [uniswap-v3 →](https://www.defi.garden/?pool=53a906e0-d837-4cef-b562-e29222f6b3b6&src=seo_chain) | 7.42% | $220.1K |
 | USD₮-USDC | [uniswap-v3 →](https://www.defi.garden/?pool=81cba9f3-4799-46af-aeaa-eb5cf0c4fdc0&src=seo_chain) | 0.51% | $189.6K |

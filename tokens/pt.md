@@ -36,7 +36,7 @@ PT shows up in 5 pools here, with rates from 0.20% to 4.02% APY across 2 chains 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | curvance | 0.20% | 0.20% | 100.00% incentives |
-| morpho-blue | 1.67% | 1.69% | 100.00% incentives |
+| morpho-blue | 1.67% | 1.70% | 100.00% incentives |
 | morpho-blue | 2.00% | 0.70% | 100.00% incentives |
 | neverland | 4.02% | 4.30% | 100.00% incentives |
 | curvance | 0.20% | 0.20% | 100.00% incentives |
@@ -51,7 +51,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PT pools clear the TVL floor?
 
-39 live pools clear this page's $100K TVL floor, $454.93M in total.
+39 live pools clear this page's $100K TVL floor, $451.65M in total.
 
 ### Are these rates safe?
 

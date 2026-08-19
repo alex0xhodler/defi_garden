@@ -36,9 +36,9 @@ There is not enough qualifying APY history to rank CSRHONEY pools. This view cov
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
+- [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
 - [HONEY](https://www.defi.garden/tokens/honey)
-- [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
 
 ## Available on
 

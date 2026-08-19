@@ -116,12 +116,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/linea</loc>
+    <loc>https://www.defi.garden/chains/bitcoin</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/bitcoin</loc>
+    <loc>https://www.defi.garden/chains/linea</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -306,12 +306,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/strato</loc>
+    <loc>https://www.defi.garden/chains/hemi</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/hemi</loc>
+    <loc>https://www.defi.garden/chains/strato</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -321,12 +321,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/echelon-initia</loc>
+    <loc>https://www.defi.garden/chains/core</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/chains/core</loc>
+    <loc>https://www.defi.garden/chains/echelon-initia</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
   </url>

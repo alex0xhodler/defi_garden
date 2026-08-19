@@ -1,10 +1,10 @@
 # BRZ 디파이 수익률
 
-현재 BRZ의 가장 높은 정직한 수익률은 Polygon의 curve-dex에서 11.82%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BRZ의 가장 높은 정직한 수익률은 Polygon의 curve-dex에서 11.83%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token) | Polygon | 11.82% | $373.4K |
+| [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token) | Polygon | 11.83% | $373.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 BRZ의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 curve-dex에서 APY 11.82%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 curve-dex에서 APY 11.83%예요.
 
 ### BRZ 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -35,10 +35,10 @@ DefiLlama 실시간 데이터 기준, Polygon의 curve-dex에서 APY 11.82%예�
 
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
+- [DAI](https://www.defi.garden/ko/tokens/dai)
 - [LINK](https://www.defi.garden/ko/tokens/link)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
-- [BET](https://www.defi.garden/ko/tokens/bet)
 
 ## 이용 가능한 체인
 

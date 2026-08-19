@@ -1,6 +1,6 @@
 # SRUSDAT 디파이 수익률
 
-현재 SRUSDAT의 가장 높은 정직한 수익률은 Monad의 pendle에서 13.28%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SRUSDAT의 가장 높은 정직한 수익률은 Monad의 pendle에서 13.26%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
@@ -8,7 +8,7 @@
 | [pendle →](https://www.defi.garden/?pool=96d93097-1e9e-4b78-ac1d-5924f04e1e56&src=seo_token) | Ethereum | 9.87% | $417.6K |
 | [pendle →](https://www.defi.garden/?pool=23debab1-4c7c-4498-8964-269bca4fdb3a&src=seo_token) | Ethereum | 10.36% | $417.6K |
 | [pendle →](https://www.defi.garden/?pool=808eba20-0889-5afb-9ce7-e3de0c44f326&src=seo_token) | Monad | 11.69% | $111.8K |
-| [pendle →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 13.28% | $111.8K |
+| [pendle →](https://www.defi.garden/?pool=2a1a339c-5221-51f1-94bf-2fce313b23fd&src=seo_token) | Monad | 13.26% | $111.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -25,7 +25,7 @@ APY 이력만 기준으로 비교한 SRUSDAT의 변동성 낮은 후보는 Ether
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SRUSDAT 풀은 여기 5개가 있고, 2개 체인에서 APY가 8.11%부터 13.28%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SRUSDAT 풀은 여기 5개가 있고, 2개 체인에서 APY가 8.11%부터 13.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 10.54%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -37,7 +37,7 @@ SRUSDAT 풀은 여기 5개가 있고, 2개 체인에서 APY가 8.11%부터 13.28
 | pendle | 9.87% | 10.12% | 기본 금리 |
 | pendle | 10.36% | 10.54% | 기본 금리 |
 | pendle | 11.69% | 11.55% | 기본 금리 |
-| pendle | 13.28% | 12.97% | 인센티브 14.42% |
+| pendle | 13.26% | 12.98% | 인센티브 14.34% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -45,7 +45,7 @@ SRUSDAT 풀은 여기 5개가 있고, 2개 체인에서 APY가 8.11%부터 13.28
 
 ### 오늘 SRUSDAT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 13.28%예요.
+DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 13.26%예요.
 
 ### SRUSDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

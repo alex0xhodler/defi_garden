@@ -4,7 +4,7 @@ The highest honest PEIPEI yield right now is 0.88% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=01c11fce-5818-410f-84cb-076176191959&src=seo_token) | Ethereum | 0.88% | $524.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=01c11fce-5818-410f-84cb-076176191959&src=seo_token) | Ethereum | 0.88% | $524.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PEIPEI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $524.7K in total.
+1 live pool clear this page's $100K TVL floor, $524.1K in total.
 
 ### Are these rates safe?
 

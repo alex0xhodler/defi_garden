@@ -1,31 +1,31 @@
 # DMT DeFi Yields
 
-The highest honest DMT yield right now is 34.38% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DMT yield right now is 32.57% on uniswap-v4 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 11.64% | $793.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token) | Ethereum | 34.38% | $378K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 0.67% | $241K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 10.51% | $787K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token) | Ethereum | 32.57% | $372.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 0.68% | $240.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DMT's lower-variability candidates are uniswap-v3 (Ethereum), 0.67% APY, $241K TVL, https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token; uniswap-v4 (Ethereum), 11.64% APY, $793.7K TVL, https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token; uniswap-v4 (Ethereum), 34.38% APY, $378K TVL, https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DMT's lower-variability candidates are uniswap-v3 (Ethereum), 0.68% APY, $240.3K TVL, https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token; uniswap-v4 (Ethereum), 10.51% APY, $787K TVL, https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token; uniswap-v4 (Ethereum), 32.57% APY, $372.7K TVL, https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 0.67% | $241K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 11.64% | $793.7K |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token) | Ethereum | 34.38% | $378K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token) | Ethereum | 0.68% | $240.3K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token) | Ethereum | 10.51% | $787K |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token) | Ethereum | 32.57% | $372.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DMT shows up in 3 pools here, with rates from 0.67% to 34.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DMT shows up in 3 pools here, with rates from 0.68% to 32.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 20.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 20.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 11.64% | 20.41% | Base rate |
-| uniswap-v4 | 34.38% | 59.54% | Base rate |
-| uniswap-v3 | 0.67% | 3.75% | Base rate |
+| uniswap-v4 | 10.51% | 20.38% | Base rate |
+| uniswap-v4 | 32.57% | 59.40% | Base rate |
+| uniswap-v3 | 0.68% | 3.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DMT yield today?
 
-34.38% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+32.57% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many DMT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.41M in total.
+3 live pools clear this page's $100K TVL floor, $1.4M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DMT pools have the most stable APY history?
 
-Based on APY history only, DMT's lower-variability candidates are uniswap-v3 (Ethereum), 0.67% APY, $241K TVL, https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token; uniswap-v4 (Ethereum), 11.64% APY, $793.7K TVL, https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token; uniswap-v4 (Ethereum), 34.38% APY, $378K TVL, https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DMT's lower-variability candidates are uniswap-v3 (Ethereum), 0.68% APY, $240.3K TVL, https://www.defi.garden/?pool=d23b1609-811a-4122-87e1-5736a0f7a515&src=seo_token; uniswap-v4 (Ethereum), 10.51% APY, $787K TVL, https://www.defi.garden/?pool=266d789b-b15b-42ee-b2c0-29270175df2f&src=seo_token; uniswap-v4 (Ethereum), 32.57% APY, $372.7K TVL, https://www.defi.garden/?pool=8e16defc-cc2a-45ed-9bd8-58ecd440e896&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

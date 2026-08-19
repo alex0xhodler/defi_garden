@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [the-vault-liquid-staking →](https://www.defi.garden/?pool=8b46fdde-a5e4-4574-9926-6ba8047f4fca&src=seo_token) | Solana | 5.19% | $103.97M |
+| [the-vault-liquid-staking →](https://www.defi.garden/?pool=8b46fdde-a5e4-4574-9926-6ba8047f4fca&src=seo_token) | Solana | 5.19% | $103.78M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Solana의 the-vault-liquid-staking에서 A
 
 ### VSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $117.94M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $117.73M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -48,11 +48,11 @@ DefiLlama 실시간 데이터 기준, Solana의 the-vault-liquid-staking에서 A
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 

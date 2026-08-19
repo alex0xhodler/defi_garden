@@ -4,17 +4,17 @@ The highest honest XSWAP yield right now is 0.21% on uniswap-v3 (Base), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token) | Ethereum | 0.09% | $204K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token) | Ethereum | 0.09% | $204.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token) | Base | 0.21% | $127.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XSWAP's lower-variability candidates are uniswap-v3 (Ethereum), 0.09% APY, $204K TVL, https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token; uniswap-v3 (Base), 0.21% APY, $127.4K TVL, https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSWAP's lower-variability candidates are uniswap-v3 (Ethereum), 0.09% APY, $204.2K TVL, https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token; uniswap-v3 (Base), 0.21% APY, $127.4K TVL, https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token) | Ethereum | 0.09% | $204K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token) | Ethereum | 0.09% | $204.2K |
 | 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token) | Base | 0.21% | $127.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XSWAP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $331.5K in total.
+2 live pools clear this page's $100K TVL floor, $331.6K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XSWAP pools have the most stable APY history?
 
-Based on APY history only, XSWAP's lower-variability candidates are uniswap-v3 (Ethereum), 0.09% APY, $204K TVL, https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token; uniswap-v3 (Base), 0.21% APY, $127.4K TVL, https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XSWAP's lower-variability candidates are uniswap-v3 (Ethereum), 0.09% APY, $204.2K TVL, https://www.defi.garden/?pool=a33112b8-0a59-4cca-b3cd-6afa34822651&src=seo_token; uniswap-v3 (Base), 0.21% APY, $127.4K TVL, https://www.defi.garden/?pool=d67dbdb2-f10d-4296-8dc8-a37742686ef3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

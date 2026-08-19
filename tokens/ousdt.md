@@ -1,10 +1,10 @@
 # OUSDT DeFi Yields
 
-The highest honest OUSDT yield right now is 26.15% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OUSDT yield right now is 25.70% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5913dcdb-5556-4846-a3e0-112d34a2f294&src=seo_token) | Base | 26.15% | $101.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5913dcdb-5556-4846-a3e0-112d34a2f294&src=seo_token) | Base | 25.70% | $104.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OUSDT yield today?
 
-26.15% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+25.70% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many OUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.6K in total.
+1 live pool clear this page's $100K TVL floor, $104.1K in total.
 
 ### Are these rates safe?
 

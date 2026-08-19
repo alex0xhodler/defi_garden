@@ -37,7 +37,7 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 23.69%예�
 
 ### POL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $952.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $951.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -51,10 +51,10 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v4에서 APY 23.69%예�
 
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
+- [DAI](https://www.defi.garden/ko/tokens/dai)
 - [LINK](https://www.defi.garden/ko/tokens/link)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [ACRED](https://www.defi.garden/ko/tokens/acred)
-- [BET](https://www.defi.garden/ko/tokens/bet)
 
 ## 이용 가능한 체인
 

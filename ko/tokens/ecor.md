@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd&src=seo_token) | TON | 0.45% | $120.4K |
+| [dedust →](https://www.defi.garden/?pool=9e21f88a-d8de-4c69-b1a5-4b708d2cb5cd&src=seo_token) | TON | 0.45% | $120.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, TON의 dedust에서 APY 0.45%예요.
 
 ### ECOR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $120.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $120.3K예요.
 
 ### 이 수익률은 안전한가요?
 

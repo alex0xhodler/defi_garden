@@ -1,10 +1,10 @@
 # SEI DeFi Yields
 
-The highest honest SEI yield right now is 9.90% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SEI yield right now is 10.07% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=5e9db4c8-e4c7-4e0a-8fcb-787e02e8c316&src=seo_token) | Ethereum | 9.90% | $1.93M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=5e9db4c8-e4c7-4e0a-8fcb-787e02e8c316&src=seo_token) | Ethereum | 10.07% | $1.93M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SEI yield today?
 
-9.90% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+10.07% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SEI pools clear the TVL floor?
 

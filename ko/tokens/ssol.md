@@ -4,18 +4,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.11% | $164.6K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.12% | $112.1K |
+| [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.11% | $164.5K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.12% | $111.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SSOL의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.11%, TVL $164.6K, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; Solana의 kamino-liquidity, APY 0.12%, TVL $112.1K, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SSOL의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.11%, TVL $164.5K, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; Solana의 kamino-liquidity, APY 0.12%, TVL $111.9K, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.11% | $164.6K |
-| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.12% | $112.1K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.11% | $164.5K |
+| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.12% | $111.9K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 0.12%
 
 ### SSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $507.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $507K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,16 +52,16 @@ DefiLlama 실시간 데이터 기준, Solana의 kamino-liquidity에서 APY 0.12%
 
 ### SSOL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SSOL의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.11%, TVL $164.6K, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; Solana의 kamino-liquidity, APY 0.12%, TVL $112.1K, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SSOL의 변동성 낮은 후보는 Solana의 orca-dex, APY 0.11%, TVL $164.5K, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; Solana의 kamino-liquidity, APY 0.12%, TVL $111.9K, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 

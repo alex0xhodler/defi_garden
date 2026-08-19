@@ -4,7 +4,7 @@ The highest honest MOLTEN yield right now is 0.05% on uniswap-v4 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ec35e341-511c-4965-a45a-aa07125914e2&src=seo_token) | Base | 0.05% | $162.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ec35e341-511c-4965-a45a-aa07125914e2&src=seo_token) | Base | 0.05% | $162.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOLTEN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $162.2K in total.
+1 live pool clear this page's $100K TVL floor, $162.6K in total.
 
 ### Are these rates safe?
 

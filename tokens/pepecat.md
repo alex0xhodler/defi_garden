@@ -1,10 +1,10 @@
 # PEPECAT DeFi Yields
 
-The highest honest PEPECAT yield right now is 0.82% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEPECAT yield right now is 0.76% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=d3df0f29-4f6b-41eb-80b9-4de0a1312298&src=seo_token) | Solana | 0.82% | $220.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=d3df0f29-4f6b-41eb-80b9-4de0a1312298&src=seo_token) | Solana | 0.76% | $220.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PEPECAT yield today?
 
-0.82% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.76% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PEPECAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $220.5K in total.
+1 live pool clear this page's $100K TVL floor, $220.3K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank PEPECAT pools. This view cove
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

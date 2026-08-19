@@ -1,54 +1,54 @@
 # USDT0 디파이 수익률
 
-현재 USDT0의 가장 높은 정직한 수익률은 Monad의 curve-dex에서 11.99%이며, $100K TVL 기준을 넘는 28개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDT0의 가장 높은 정직한 수익률은 Monad의 curve-dex에서 12.02%이며, $100K TVL 기준을 넘는 28개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.70% | $54.76M |
-| [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 5.05% | $41.16M |
-| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.17% | $24.05M |
-| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.70% | $23.94M |
-| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 2.84% | $12.43M |
-| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 11.99% | $2.6M |
-| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 11.08% | $1.52M |
-| [nest-cl →](https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token) | Hyperliquid L1 | 7.47% | $647.5K |
+| [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 5.54% | $49.13M |
+| [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 5.06% | $41.15M |
+| [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.16% | $24.07M |
+| [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.46% | $21.06M |
+| [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 2.84% | $12.42M |
+| [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 12.02% | $2.6M |
+| [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 11.09% | $1.52M |
+| [nest-cl →](https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token) | Hyperliquid L1 | 6.26% | $647.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 4.70%, TVL $54.76M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; Plasma의 fluid-lending, APY 5.05%, TVL $41.16M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; Mantle의 aave-v3, APY 4.70%, TVL $23.94M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; Polygon의 aave-v3, APY 2.84%, TVL $12.43M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; Monad의 aave-v3, APY 5.17%, TVL $24.05M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; Monad의 neverland, APY 11.08%, TVL $1.52M, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; Monad의 curve-dex, APY 11.99%, TVL $2.6M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; Hyperliquid L1의 nest-cl, APY 7.47%, TVL $647.5K, https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 5.54%, TVL $49.13M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; Plasma의 fluid-lending, APY 5.06%, TVL $41.15M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; Mantle의 aave-v3, APY 4.46%, TVL $21.06M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; Polygon의 aave-v3, APY 2.84%, TVL $12.42M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; Monad의 aave-v3, APY 5.16%, TVL $24.07M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; Monad의 neverland, APY 11.09%, TVL $1.52M, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; Monad의 curve-dex, APY 12.02%, TVL $2.6M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; Hyperliquid L1의 nest-cl, APY 6.26%, TVL $647.4K, https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 4.70% | $54.76M |
-| 2 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 5.05% | $41.16M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.70% | $23.94M |
-| 4 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 2.84% | $12.43M |
-| 5 | [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.17% | $24.05M |
-| 6 | [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 11.08% | $1.52M |
-| 7 | [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 11.99% | $2.6M |
-| 8 | [nest-cl →](https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token) | Hyperliquid L1 | 7.47% | $647.5K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token) | Plasma | 5.54% | $49.13M |
+| 2 | [fluid-lending →](https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token) | Plasma | 5.06% | $41.15M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token) | Mantle | 4.46% | $21.06M |
+| 4 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token) | Polygon | 2.84% | $12.42M |
+| 5 | [aave-v3 →](https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token) | Monad | 5.16% | $24.07M |
+| 6 | [neverland →](https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token) | Monad | 11.09% | $1.52M |
+| 7 | [curve-dex →](https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token) | Monad | 12.02% | $2.6M |
+| 8 | [nest-cl →](https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token) | Hyperliquid L1 | 6.26% | $647.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDT0 풀은 여기 8개가 있고, 5개 체인에서 APY가 2.84%부터 11.99%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDT0 풀은 여기 8개가 있고, 5개 체인에서 APY가 2.84%부터 12.02%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.17%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 4.70% | 4.14% | 인센티브 18.36% |
-| fluid-lending | 5.05% | 4.98% | 기본 금리 |
-| aave-v3 | 5.17% | 6.61% | 인센티브 45.74% |
-| aave-v3 | 4.70% | 4.30% | 인센티브 41.71% |
+| aave-v3 | 5.54% | 4.14% | 인센티브 15.58% |
+| fluid-lending | 5.06% | 4.97% | 기본 금리 |
+| aave-v3 | 5.16% | 6.60% | 인센티브 45.72% |
+| aave-v3 | 4.46% | 4.29% | 인센티브 35.47% |
 | aave-v3 | 2.84% | 2.69% | 기본 금리 |
-| curve-dex | 11.99% | 13.27% | 인센티브 100.00% |
-| neverland | 11.08% | 5.37% | 인센티브 86.42% |
-| nest-cl | 7.47% | 5.79% | 인센티브 100.00% |
+| curve-dex | 12.02% | 13.27% | 인센티브 100.00% |
+| neverland | 11.09% | 5.40% | 인센티브 86.42% |
+| nest-cl | 6.26% | 5.79% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -56,11 +56,11 @@ USDT0 풀은 여기 8개가 있고, 5개 체인에서 APY가 2.84%부터 11.99%�
 
 ### 오늘 USDT0의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 11.99%예요.
+DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 12.02%예요.
 
 ### USDT0 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 28개이며, 합산 TVL은 $169.84M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 28개이며, 합산 TVL은 $161.31M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -68,7 +68,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curve-dex에서 APY 11.99%예요.
 
 ### USDT0 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 4.70%, TVL $54.76M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; Plasma의 fluid-lending, APY 5.05%, TVL $41.16M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; Mantle의 aave-v3, APY 4.70%, TVL $23.94M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; Polygon의 aave-v3, APY 2.84%, TVL $12.43M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; Monad의 aave-v3, APY 5.17%, TVL $24.05M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; Monad의 neverland, APY 11.08%, TVL $1.52M, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; Monad의 curve-dex, APY 11.99%, TVL $2.6M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; Hyperliquid L1의 nest-cl, APY 7.47%, TVL $647.5K, https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDT0의 변동성 낮은 후보는 Plasma의 aave-v3, APY 5.54%, TVL $49.13M, https://www.defi.garden/?pool=e338c687-a5d8-4abf-bc04-127990811b0a&src=seo_token; Plasma의 fluid-lending, APY 5.06%, TVL $41.15M, https://www.defi.garden/?pool=21e972fb-b330-4289-8bfa-6a14e925ecdb&src=seo_token; Mantle의 aave-v3, APY 4.46%, TVL $21.06M, https://www.defi.garden/?pool=47da0cdd-7b1d-4927-9545-20b53b73afa8&src=seo_token; Polygon의 aave-v3, APY 2.84%, TVL $12.42M, https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_token; Monad의 aave-v3, APY 5.16%, TVL $24.07M, https://www.defi.garden/?pool=8bba1554-1318-54ad-9143-0972406e9428&src=seo_token; Monad의 neverland, APY 11.09%, TVL $1.52M, https://www.defi.garden/?pool=75ebf8be-5578-460c-a529-4ae8c35f6138&src=seo_token; Monad의 curve-dex, APY 12.02%, TVL $2.6M, https://www.defi.garden/?pool=ceb80408-8ab8-4293-b274-162efff518a6&src=seo_token; Hyperliquid L1의 nest-cl, APY 6.26%, TVL $647.4K, https://www.defi.garden/?pool=fe86c613-70f7-4755-8bec-4291e0bcde52&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

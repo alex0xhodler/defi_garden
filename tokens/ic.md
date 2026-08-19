@@ -4,7 +4,7 @@ The highest honest IC yield right now is 1.03% on uniswap-v2 (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c15ea321-8d5f-45d7-b4f2-e1c773139448&src=seo_token) | Ethereum | 1.03% | $642.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c15ea321-8d5f-45d7-b4f2-e1c773139448&src=seo_token) | Ethereum | 1.03% | $641.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many IC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $642.6K in total.
+1 live pool clear this page's $100K TVL floor, $641.4K in total.
 
 ### Are these rates safe?
 

@@ -4,18 +4,18 @@ The highest honest SSOL yield right now is 0.12% on kamino-liquidity (Solana), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.11% | $164.6K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.12% | $112.1K |
+| [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.11% | $164.5K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.12% | $111.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SSOL's lower-variability candidates are orca-dex (Solana), 0.11% APY, $164.6K TVL, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; kamino-liquidity (Solana), 0.12% APY, $112.1K TVL, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SSOL's lower-variability candidates are orca-dex (Solana), 0.11% APY, $164.5K TVL, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; kamino-liquidity (Solana), 0.12% APY, $111.9K TVL, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.11% | $164.6K |
-| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.12% | $112.1K |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token) | Solana | 0.11% | $164.5K |
+| 2 | [kamino-liquidity →](https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token) | Solana | 0.12% | $111.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SSOL pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $507.3K in total.
+3 live pools clear this page's $100K TVL floor, $507K in total.
 
 ### Are these rates safe?
 
@@ -52,16 +52,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SSOL pools have the most stable APY history?
 
-Based on APY history only, SSOL's lower-variability candidates are orca-dex (Solana), 0.11% APY, $164.6K TVL, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; kamino-liquidity (Solana), 0.12% APY, $112.1K TVL, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SSOL's lower-variability candidates are orca-dex (Solana), 0.11% APY, $164.5K TVL, https://www.defi.garden/?pool=3cb249b9-30cb-4232-b0f1-1b527244fd24&src=seo_token; kamino-liquidity (Solana), 0.12% APY, $111.9K TVL, https://www.defi.garden/?pool=b18a9940-3b8d-468c-acb7-ed28deeb31cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # PROMPT DeFi Yields
 
-The highest honest PROMPT yield right now is 5.25% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PROMPT yield right now is 5.46% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token) | Ethereum | 5.25% | $232.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2ebc117a-c8ea-474d-a725-fee0868b27a0&src=seo_token) | Ethereum | 5.46% | $232.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PROMPT yield today?
 
-5.25% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+5.46% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PROMPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $232.9K in total.
+1 live pool clear this page's $100K TVL floor, $232.2K in total.
 
 ### Are these rates safe?
 

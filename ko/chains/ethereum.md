@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| STETH | [lido →](https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_chain) | 2.18% | $18.27B |
-| WBETH | [binance-staked-eth →](https://www.defi.garden/?pool=80b8bf92-b953-4c20-98ea-c9653ef2bb98&src=seo_chain) | 2.27% | $6.74B |
+| STETH | [lido →](https://www.defi.garden/?pool=747c1d2a-c668-4682-b9f9-296708a3dd90&src=seo_chain) | 2.18% | $18.28B |
+| WBETH | [binance-staked-eth →](https://www.defi.garden/?pool=80b8bf92-b953-4c20-98ea-c9653ef2bb98&src=seo_chain) | 2.27% | $6.73B |
 | SUSDS | [sky-lending →](https://www.defi.garden/?pool=d8c4eff5-c8a9-46fc-a888-057c4c668e72&src=seo_chain) | 3.52% | $4.72B |
-| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_chain) | 2.36% | $3.85B |
-| RETH | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_chain) | 2.16% | $2.6B |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=46bd2bdf-6d92-4066-b482-e885ee172264&src=seo_chain) | 2.30% | $3.84B |
 | USDC | [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_chain) | 4.80% | $2.6B |
+| RETH | [rocket-pool →](https://www.defi.garden/?pool=d4b3c522-6127-4b89-bedf-83641cdcd2eb&src=seo_chain) | 2.16% | $2.6B |
 | WBTC | [aave-v3 →](https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_chain) | 0.01% | $2.1B |
-| SUSDE | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_chain) | 4.58% | $1.38B |
+| SUSDE | [ethena-usde →](https://www.defi.garden/?pool=66985a81-9c51-46ca-9977-42b4fe7bc6df&src=seo_chain) | 4.49% | $1.37B |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 maple에서 APY 4.80%예요.
 
 ### Ethereum 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3,083개이며, 합산 TVL은 $88.56B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3,083개이며, 합산 TVL은 $88.43B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,8 +44,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 maple에서 APY 4.80%예요.
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [RETH](https://www.defi.garden/ko/tokens/reth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [RETH](https://www.defi.garden/ko/tokens/reth)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 

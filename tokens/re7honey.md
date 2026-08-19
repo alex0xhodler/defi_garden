@@ -36,9 +36,9 @@ There is not enough qualifying APY history to rank RE7HONEY pools. This view cov
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
 - [IBERA](https://www.defi.garden/tokens/ibera)
-- [HONEY](https://www.defi.garden/tokens/honey)
+- [BUSD](https://www.defi.garden/tokens/busd)
 - [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
-- [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
+- [HONEY](https://www.defi.garden/tokens/honey)
 
 ## Available on
 

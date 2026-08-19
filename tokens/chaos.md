@@ -4,7 +4,7 @@ The highest honest CHAOS yield right now is 0.09% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b81cbf5-313b-4e27-b235-1e340dc1aef7&src=seo_token) | Base | 0.09% | $229.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b81cbf5-313b-4e27-b235-1e340dc1aef7&src=seo_token) | Base | 0.09% | $228.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CHAOS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $229.2K in total.
+1 live pool clear this page's $100K TVL floor, $228.7K in total.
 
 ### Are these rates safe?
 

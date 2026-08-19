@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82&src=seo_token) | Algorand | 0.03% | $349.8K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=b078877c-2707-4524-9038-de3befd28a82&src=seo_token) | Algorand | 0.03% | $349.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 
 ### GOETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $349.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $349.4K예요.
 
 ### 이 수익률은 안전한가요?
 

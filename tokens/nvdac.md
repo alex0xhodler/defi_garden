@@ -1,10 +1,10 @@
 # NVDAC DeFi Yields
 
-The highest honest NVDAC yield right now is 113.13% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAC yield right now is 233.34% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 113.13% | $241.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=f07ec582-f302-5fab-9531-eabc3f8f291c&src=seo_token) | Base | 233.34% | $239.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NVDAC yield today?
 
-113.13% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+233.34% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many NVDAC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $241.6K in total.
+1 live pool clear this page's $100K TVL floor, $239.1K in total.
 
 ### Are these rates safe?
 

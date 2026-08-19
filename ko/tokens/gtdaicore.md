@@ -1,10 +1,10 @@
 # GTDAICORE 디파이 수익률
 
-현재 GTDAICORE의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 4.57%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GTDAICORE의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 4.54%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d78f63a2-98c4-481b-9f3d-147505dd9974&src=seo_token) | Ethereum | 4.57% | $2.32M |
+| [morpho-blue →](https://www.defi.garden/?pool=d78f63a2-98c4-481b-9f3d-147505dd9974&src=seo_token) | Ethereum | 4.54% | $2.32M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 GTDAICORE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.57%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.54%예요.
 
 ### GTDAICORE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

@@ -4,20 +4,20 @@ The highest honest VDOT yield right now is 2.88% on bifrost-liquid-staking (Polk
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 2.88% | $6.69M |
-| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.36% | $3.46M |
-| [hydration-dex →](https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token) | Polkadot | 0.39% | $113.2K |
+| [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 2.88% | $6.77M |
+| [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.36% | $3.49M |
+| [hydration-dex →](https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token) | Polkadot | 0.40% | $114.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VDOT's lower-variability candidates are hydration-dex (Polkadot), 0.36% APY, $3.46M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 0.39% APY, $113.2K TVL, https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token; bifrost-liquid-staking (Polkadot), 2.88% APY, $6.69M TVL, https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VDOT's lower-variability candidates are hydration-dex (Polkadot), 0.36% APY, $3.49M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 0.40% APY, $114.9K TVL, https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token; bifrost-liquid-staking (Polkadot), 2.88% APY, $6.77M TVL, https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.36% | $3.46M |
-| 2 | [hydration-dex →](https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token) | Polkadot | 0.39% | $113.2K |
-| 3 | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 2.88% | $6.69M |
+| 1 | [hydration-dex →](https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token) | Polkadot | 0.36% | $3.49M |
+| 2 | [hydration-dex →](https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token) | Polkadot | 0.40% | $114.9K |
+| 3 | [bifrost-liquid-staking →](https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token) | Polkadot | 2.88% | $6.77M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -35,7 +35,7 @@ VDOT shows up in 3 pools here, with rates from 0.36% to 2.88% APY across 1 chain
 |---|---|---|---|
 | bifrost-liquid-staking | 2.88% | 4.04% | 3.82% incentives |
 | hydration-dex | 0.36% | 0.56% | Base rate |
-| hydration-dex | 0.39% | 0.42% | Base rate |
+| hydration-dex | 0.40% | 0.42% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many VDOT pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $10.26M in total.
+3 live pools clear this page's $100K TVL floor, $10.37M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VDOT pools have the most stable APY history?
 
-Based on APY history only, VDOT's lower-variability candidates are hydration-dex (Polkadot), 0.36% APY, $3.46M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 0.39% APY, $113.2K TVL, https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token; bifrost-liquid-staking (Polkadot), 2.88% APY, $6.69M TVL, https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VDOT's lower-variability candidates are hydration-dex (Polkadot), 0.36% APY, $3.49M TVL, https://www.defi.garden/?pool=89f2d7f2-de12-488e-9c8f-53a7625db94a&src=seo_token; hydration-dex (Polkadot), 0.40% APY, $114.9K TVL, https://www.defi.garden/?pool=473a1e1e-4259-4234-b430-e9f0108d7a22&src=seo_token; bifrost-liquid-staking (Polkadot), 2.88% APY, $6.77M TVL, https://www.defi.garden/?pool=ff05ab26-971e-4e68-b1c6-c61a4c12c364&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

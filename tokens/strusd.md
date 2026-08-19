@@ -26,10 +26,10 @@ STRUSD shows up in 4 pools here, with rates from 5.50% to 11.62% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| tori-finance | 11.05% | 11.64% | Base rate |
+| tori-finance | 11.05% | 11.63% | Base rate |
 | curve-dex | 5.50% | 5.48% | Base rate |
 | pendle | 11.62% | 11.57% | Base rate |
-| pendle | 11.44% | 12.11% | 2.01% incentives |
+| pendle | 11.44% | 12.10% | 2.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

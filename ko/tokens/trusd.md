@@ -5,9 +5,9 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.50% | $10.08M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.16% | $5.15M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.18% | $5.15M |
 | [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.66% | $4.88M |
-| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 4.01% | $2.73M |
+| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 4.00% | $2.73M |
 | [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 9.96% | $2.73M |
 
 <!-- rate-stability:insufficient -->
@@ -19,7 +19,7 @@
 
 ## 이 수익률은 어떻게 움직였을까요
 
-TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.16%부터 9.96%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.18%부터 9.96%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.48%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -28,10 +28,10 @@ TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.16%부터 9.96%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | curve-dex | 5.50% | 5.48% | 기본 금리 |
-| curve-dex | 0.16% | 0.41% | 인센티브 0.37% |
-| curve-dex | 3.66% | 151.48% | 인센티브 98.63% |
-| pendle | 4.01% | 4.33% | 인센티브 33.60% |
-| pendle | 9.96% | 9.50% | 기본 금리 |
+| curve-dex | 0.18% | 0.40% | 인센티브 0.33% |
+| curve-dex | 3.66% | 150.87% | 인센티브 98.36% |
+| pendle | 4.00% | 4.33% | 인센티브 33.44% |
+| pendle | 9.96% | 9.51% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 

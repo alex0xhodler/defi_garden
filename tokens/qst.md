@@ -1,10 +1,10 @@
 # QST DeFi Yields
 
-The highest honest QST yield right now is 11.56% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QST yield right now is 10.12% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e4928c0c-694e-4df3-8854-f624bec16d68&src=seo_token) | Solana | 11.56% | $150.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=e4928c0c-694e-4df3-8854-f624bec16d68&src=seo_token) | Solana | 10.12% | $150.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QST yield today?
 
-11.56% APY on raydium-amm (Solana), based on live DefiLlama data.
+10.12% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many QST pools clear the TVL floor?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank QST pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

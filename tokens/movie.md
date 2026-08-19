@@ -4,7 +4,7 @@ The highest honest MOVIE yield right now is 0.01% on uniswap-v4 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=cdf311a3-0cd8-4f5e-a3af-87e4bb1ec02b&src=seo_token) | Base | 0.01% | $102.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=cdf311a3-0cd8-4f5e-a3af-87e4bb1ec02b&src=seo_token) | Base | 0.01% | $102K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MOVIE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.1K in total.
+1 live pool clear this page's $100K TVL floor, $102K in total.
 
 ### Are these rates safe?
 

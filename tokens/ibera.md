@@ -1,10 +1,10 @@
 # IBERA DeFi Yields
 
-The highest honest IBERA yield right now is 3.70% on infrared-finance (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IBERA yield right now is 3.71% on infrared-finance (Berachain), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d&src=seo_token) | Berachain | 3.70% | $12.64M |
+| [infrared-finance →](https://www.defi.garden/?pool=2b9e97cd-15f2-406c-8e18-a426e451d09d&src=seo_token) | Berachain | 3.71% | $12.64M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IBERA yield today?
 
-3.70% APY on infrared-finance (Berachain), based on live DefiLlama data.
+3.71% APY on infrared-finance (Berachain), based on live DefiLlama data.
 
 ### How many IBERA pools clear the TVL floor?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank IBERA pools. This view covers
 
 - [UNIBTC](https://www.defi.garden/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/tokens/kodibrbtc)
+- [BUSD](https://www.defi.garden/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/tokens/re7honey)
-- [HONEY](https://www.defi.garden/tokens/honey)
 - [CSRHONEY](https://www.defi.garden/tokens/csrhoney)
-- [KODIUSDE](https://www.defi.garden/tokens/kodiusde)
+- [HONEY](https://www.defi.garden/tokens/honey)
 
 ## Available on
 

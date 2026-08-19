@@ -4,7 +4,7 @@ The highest honest RKSOL yield right now is 5.62% on starke-staked-sol (Solana),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [starke-staked-sol →](https://www.defi.garden/?pool=b6dbf329-91dd-443e-bfd6-1340bcd4e1aa&src=seo_token) | Solana | 5.62% | $831.4K |
+| [starke-staked-sol →](https://www.defi.garden/?pool=b6dbf329-91dd-443e-bfd6-1340bcd4e1aa&src=seo_token) | Solana | 5.62% | $829.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RKSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $831.4K in total.
+1 live pool clear this page's $100K TVL floor, $829.6K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank RKSOL pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

@@ -4,7 +4,7 @@ The highest honest FISH yield right now is 0.09% on dedust (TON), among 1 pool a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=d3ea6adc-951d-4135-9b0d-81c54e7a7d90&src=seo_token) | TON | 0.09% | $100.9K |
+| [dedust →](https://www.defi.garden/?pool=d3ea6adc-951d-4135-9b0d-81c54e7a7d90&src=seo_token) | TON | 0.09% | $100.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FISH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.9K in total.
+1 live pool clear this page's $100K TVL floor, $100.8K in total.
 
 ### Are these rates safe?
 

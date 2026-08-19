@@ -4,7 +4,7 @@ The highest honest SLERF yield right now is 1.41% on orca-dex (Solana), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 1.41% | $112.5K |
+| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 1.41% | $112.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SLERF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $112.5K in total.
+1 live pool clear this page's $100K TVL floor, $112.7K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank SLERF pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

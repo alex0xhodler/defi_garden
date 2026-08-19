@@ -4,8 +4,8 @@ The highest honest Bifrost Network yield right now is 9.48% on bifi (Bifrost Net
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| ETH | [bifi →](https://www.defi.garden/?pool=e5686448-3686-4da2-8863-5d3b2647b816&src=seo_chain) | 0.08% | $360.2K |
-| BTCUSD | [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_chain) | 9.48% | $110.9K |
+| ETH | [bifi →](https://www.defi.garden/?pool=e5686448-3686-4da2-8863-5d3b2647b816&src=seo_chain) | 0.08% | $359.6K |
+| BTCUSD | [bifi →](https://www.defi.garden/?pool=35f5c40a-ac74-484d-b8bd-45fc9f3ceab5&src=seo_chain) | 9.48% | $111.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Bifrost Network pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $5.68M in total.
+5 live pools clear this page's $100K TVL floor, $5.67M in total.
 
 ### Are these rates safe?
 

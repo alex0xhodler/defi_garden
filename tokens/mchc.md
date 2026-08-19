@@ -4,7 +4,7 @@ The highest honest MCHC yield right now is 0.21% on quickswap-dex (Polygon), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [quickswap-dex →](https://www.defi.garden/?pool=040de32c-fa23-4fac-afe5-7e28f972254f&src=seo_token) | Polygon | 0.21% | $135.2K |
+| [quickswap-dex →](https://www.defi.garden/?pool=040de32c-fa23-4fac-afe5-7e28f972254f&src=seo_token) | Polygon | 0.21% | $134.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MCHC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $135.2K in total.
+1 live pool clear this page's $100K TVL floor, $134.7K in total.
 
 ### Are these rates safe?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank MCHC pools. This view covers 
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

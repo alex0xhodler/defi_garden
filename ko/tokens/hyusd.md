@@ -5,23 +5,23 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token) | Solana | 0.17% | $1.99M |
-| [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token) | Solana | 0.23% | $1.87M |
-| [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token) | Solana | 2.02% | $165.1K |
-| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 2.95% | $165K |
+| [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token) | Solana | 0.21% | $1.87M |
+| [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 2.96% | $165K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token) | Solana | 2.02% | $165K |
 | [loopscale →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token) | Solana | 5.86% | $107.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 HYUSD의 변동성 낮은 후보는 Solana의 loopscale, APY 5.86%, TVL $107.4K, https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token; Solana의 orca-dex, APY 0.23%, TVL $1.87M, https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token; Solana의 kamino-liquidity, APY 0.17%, TVL $1.99M, https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token; Solana의 orca-dex, APY 2.95%, TVL $165K, https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token; Solana의 kamino-liquidity, APY 2.02%, TVL $165.1K, https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HYUSD의 변동성 낮은 후보는 Solana의 loopscale, APY 5.86%, TVL $107.4K, https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token; Solana의 orca-dex, APY 0.21%, TVL $1.87M, https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token; Solana의 kamino-liquidity, APY 0.17%, TVL $1.99M, https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token; Solana의 orca-dex, APY 2.96%, TVL $165K, https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token; Solana의 kamino-liquidity, APY 2.02%, TVL $165K, https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [loopscale →](https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token) | Solana | 5.86% | $107.4K |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token) | Solana | 0.23% | $1.87M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token) | Solana | 0.21% | $1.87M |
 | 3 | [kamino-liquidity →](https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token) | Solana | 0.17% | $1.99M |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 2.95% | $165K |
-| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token) | Solana | 2.02% | $165.1K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token) | Solana | 2.96% | $165K |
+| 5 | [kamino-liquidity →](https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token) | Solana | 2.02% | $165K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -38,9 +38,9 @@ HYUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.17%부터 5.86%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | kamino-liquidity | 0.17% | 0.31% | 기본 금리 |
-| orca-dex | 0.23% | 0.41% | 기본 금리 |
+| orca-dex | 0.21% | 0.41% | 기본 금리 |
+| orca-dex | 2.96% | 3.65% | 기본 금리 |
 | kamino-liquidity | 2.02% | 2.91% | 기본 금리 |
-| orca-dex | 2.95% | 3.66% | 기본 금리 |
 | loopscale | 5.86% | 6.53% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -61,16 +61,16 @@ DefiLlama 실시간 데이터 기준, Solana의 loopscale에서 APY 5.86%예요.
 
 ### HYUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 HYUSD의 변동성 낮은 후보는 Solana의 loopscale, APY 5.86%, TVL $107.4K, https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token; Solana의 orca-dex, APY 0.23%, TVL $1.87M, https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token; Solana의 kamino-liquidity, APY 0.17%, TVL $1.99M, https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token; Solana의 orca-dex, APY 2.95%, TVL $165K, https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token; Solana의 kamino-liquidity, APY 2.02%, TVL $165.1K, https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HYUSD의 변동성 낮은 후보는 Solana의 loopscale, APY 5.86%, TVL $107.4K, https://www.defi.garden/?pool=da576830-547b-4119-a0aa-6e837fcc5b47&src=seo_token; Solana의 orca-dex, APY 0.21%, TVL $1.87M, https://www.defi.garden/?pool=e9e0d806-6138-4591-9ba5-6f63848d4345&src=seo_token; Solana의 kamino-liquidity, APY 0.17%, TVL $1.99M, https://www.defi.garden/?pool=e1014444-6a83-4816-a8ac-6f9daca0dc79&src=seo_token; Solana의 orca-dex, APY 2.96%, TVL $165K, https://www.defi.garden/?pool=4d5a655b-4228-4341-8485-f8c22a048a55&src=seo_token; Solana의 kamino-liquidity, APY 2.02%, TVL $165K, https://www.defi.garden/?pool=70e45373-e1b0-48b7-9d51-4f683d1326c8&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 

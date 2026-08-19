@@ -1,10 +1,10 @@
 # ANI DeFi Yields
 
-The highest honest ANI yield right now is 96.16% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANI yield right now is 84.96% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=07bc774d-b4e1-4f9e-9f95-b238074897bd&src=seo_token) | Solana | 96.16% | $132.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=07bc774d-b4e1-4f9e-9f95-b238074897bd&src=seo_token) | Solana | 84.96% | $133.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANI yield today?
 
-96.16% APY on raydium-amm (Solana), based on live DefiLlama data.
+84.96% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ANI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.3K in total.
+1 live pool clear this page's $100K TVL floor, $133.7K in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank ANI pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

@@ -4,18 +4,18 @@ The highest honest SUSDM yield right now is 9.00% on monetrix (Hyperliquid L1), 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [monetrix →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 9.00% | $2.14M |
-| [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 2.43% | $103.5K |
+| [monetrix →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 9.00% | $2.13M |
+| [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 2.43% | $103.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDM's lower-variability candidates are hybra-v4 (Hyperliquid L1), 2.43% APY, $103.5K TVL, https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token; monetrix (Hyperliquid L1), 9.00% APY, $2.14M TVL, https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDM's lower-variability candidates are hybra-v4 (Hyperliquid L1), 2.43% APY, $103.7K TVL, https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token; monetrix (Hyperliquid L1), 9.00% APY, $2.13M TVL, https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 2.43% | $103.5K |
-| 2 | [monetrix →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 9.00% | $2.14M |
+| 1 | [hybra-v4 →](https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token) | Hyperliquid L1 | 2.43% | $103.7K |
+| 2 | [monetrix →](https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token) | Hyperliquid L1 | 9.00% | $2.13M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -30,7 +30,7 @@ SUSDM shows up in 2 pools here, with rates from 2.43% to 9.00% APY across 1 chai
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | monetrix | 9.00% | 6.87% | Base rate |
-| hybra-v4 | 2.43% | 1.90% | 100.00% incentives |
+| hybra-v4 | 2.43% | 1.91% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDM pools have the most stable APY history?
 
-Based on APY history only, SUSDM's lower-variability candidates are hybra-v4 (Hyperliquid L1), 2.43% APY, $103.5K TVL, https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token; monetrix (Hyperliquid L1), 9.00% APY, $2.14M TVL, https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDM's lower-variability candidates are hybra-v4 (Hyperliquid L1), 2.43% APY, $103.7K TVL, https://www.defi.garden/?pool=930572d9-cb0c-52c5-b2d3-0499c49574b9&src=seo_token; monetrix (Hyperliquid L1), 9.00% APY, $2.13M TVL, https://www.defi.garden/?pool=7bc0e89a-cec0-50e9-b371-e6cb66a80098&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

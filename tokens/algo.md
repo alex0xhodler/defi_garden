@@ -4,7 +4,7 @@ The highest honest ALGO yield right now is 1.95% on folks-finance-lending (Algor
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_token) | Algorand | 1.95% | $3.04M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=30eb7dd0-a154-4e28-add4-5879add62c58&src=seo_token) | Algorand | 1.95% | $3.05M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

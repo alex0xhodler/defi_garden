@@ -1,10 +1,10 @@
 # BRZ DeFi Yields
 
-The highest honest BRZ yield right now is 11.82% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRZ yield right now is 11.83% on curve-dex (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token) | Polygon | 11.82% | $373.4K |
+| [curve-dex →](https://www.defi.garden/?pool=c5bc0acc-1399-426d-9fa6-ab39e0bca463&src=seo_token) | Polygon | 11.83% | $373.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRZ yield today?
 
-11.82% APY on curve-dex (Polygon), based on live DefiLlama data.
+11.83% APY on curve-dex (Polygon), based on live DefiLlama data.
 
 ### How many BRZ pools clear the TVL floor?
 
@@ -35,10 +35,10 @@ There is not enough qualifying APY history to rank BRZ pools. This view covers A
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
+- [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
-- [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 

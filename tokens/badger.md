@@ -4,18 +4,18 @@ The highest honest BADGER yield right now is 0.09% on uniswap-v3 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.09% | $3.92M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.09% | $3.91M |
 | [sushiswap-v3 →](https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token) | Ethereum | 0.08% | $237.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BADGER's lower-variability candidates are sushiswap-v3 (Ethereum), 0.08% APY, $237.3K TVL, https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $3.92M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BADGER's lower-variability candidates are sushiswap-v3 (Ethereum), 0.08% APY, $237.3K TVL, https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $3.91M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token) | Ethereum | 0.08% | $237.3K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.09% | $3.92M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token) | Ethereum | 0.09% | $3.91M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BADGER pools have the most stable APY history?
 
-Based on APY history only, BADGER's lower-variability candidates are sushiswap-v3 (Ethereum), 0.08% APY, $237.3K TVL, https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $3.92M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BADGER's lower-variability candidates are sushiswap-v3 (Ethereum), 0.08% APY, $237.3K TVL, https://www.defi.garden/?pool=3fd66d7c-d565-46b2-9c0f-d8449a2a5791&src=seo_token; uniswap-v3 (Ethereum), 0.09% APY, $3.91M TVL, https://www.defi.garden/?pool=996c6ebd-5814-4d7f-970e-b8de7860c4ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -1,10 +1,10 @@
 # HEHE DeFi Yields
 
-The highest honest HEHE yield right now is 1.07% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEHE yield right now is 1.03% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ccfdf5f6-910a-4d8b-8dd2-6c3d34ed32ae&src=seo_token) | Solana | 1.07% | $150.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=ccfdf5f6-910a-4d8b-8dd2-6c3d34ed32ae&src=seo_token) | Solana | 1.03% | $150.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HEHE yield today?
 
-1.07% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.03% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HEHE pools clear the TVL floor?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank HEHE pools. This view covers 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

@@ -4,17 +4,17 @@ The highest honest ZBTC yield right now is 1.67% on orca-dex (Solana), among 4 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.06% | $301.3K |
+| [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.06% | $301.2K |
 | [orca-dex →](https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token) | Solana | 1.67% | $133.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZBTC's lower-variability candidates are loopscale (Solana), 1.06% APY, $301.3K TVL, https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token; orca-dex (Solana), 1.67% APY, $133.6K TVL, https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZBTC's lower-variability candidates are loopscale (Solana), 1.06% APY, $301.2K TVL, https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token; orca-dex (Solana), 1.67% APY, $133.6K TVL, https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.06% | $301.3K |
+| 1 | [loopscale →](https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token) | Solana | 1.06% | $301.2K |
 | 2 | [orca-dex →](https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token) | Solana | 1.67% | $133.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -50,16 +50,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZBTC pools have the most stable APY history?
 
-Based on APY history only, ZBTC's lower-variability candidates are loopscale (Solana), 1.06% APY, $301.3K TVL, https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token; orca-dex (Solana), 1.67% APY, $133.6K TVL, https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZBTC's lower-variability candidates are loopscale (Solana), 1.06% APY, $301.2K TVL, https://www.defi.garden/?pool=8544e9ed-02b3-4374-84b6-9d0bd380c1c5&src=seo_token; orca-dex (Solana), 1.67% APY, $133.6K TVL, https://www.defi.garden/?pool=0f5d2d33-57c1-4e6f-a8ad-8bc5191d6a86&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

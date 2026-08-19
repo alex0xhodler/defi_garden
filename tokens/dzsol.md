@@ -4,7 +4,7 @@ The highest honest DZSOL yield right now is 4.86% on doublezero-staked-sol (Sola
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [doublezero-staked-sol →](https://www.defi.garden/?pool=3997db8b-3f0c-4774-985d-d9fed3978f53&src=seo_token) | Solana | 4.86% | $55.45M |
+| [doublezero-staked-sol →](https://www.defi.garden/?pool=3997db8b-3f0c-4774-985d-d9fed3978f53&src=seo_token) | Solana | 4.86% | $55.42M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DZSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $55.45M in total.
+1 live pool clear this page's $100K TVL floor, $55.42M in total.
 
 ### Are these rates safe?
 
@@ -34,11 +34,11 @@ There is not enough qualifying APY history to rank DZSOL pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

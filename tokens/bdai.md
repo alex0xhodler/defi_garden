@@ -4,7 +4,7 @@ The highest honest BDAI yield right now is 1.54% on curve-dex (Avalanche), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $794.8K |
+| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $795K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BDAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $794.8K in total.
+1 live pool clear this page's $100K TVL floor, $795K in total.
 
 ### Are these rates safe?
 

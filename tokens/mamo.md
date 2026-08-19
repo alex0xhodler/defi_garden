@@ -1,33 +1,33 @@
 # MAMO DeFi Yields
 
-The highest honest MAMO yield right now is 59.60% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAMO yield right now is 59.40% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token) | Base | 59.60% | $396.9K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token) | Base | 52.78% | $371.1K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token) | Base | 31.66% | $329.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token) | Base | 45.16% | $252.3K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token) | Base | 59.40% | $395.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token) | Base | 52.28% | $371.1K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token) | Base | 31.30% | $329.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token) | Base | 44.79% | $252.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MAMO's lower-variability candidates are aerodrome-slipstream (Base), 52.78% APY, $371.1K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token; aerodrome-slipstream (Base), 45.16% APY, $252.3K TVL, https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token; aerodrome-slipstream (Base), 31.66% APY, $329.4K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token; aerodrome-slipstream (Base), 59.60% APY, $396.9K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MAMO's lower-variability candidates are aerodrome-slipstream (Base), 52.28% APY, $371.1K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token; aerodrome-slipstream (Base), 44.79% APY, $252.2K TVL, https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token; aerodrome-slipstream (Base), 31.30% APY, $329.4K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token; aerodrome-slipstream (Base), 59.40% APY, $395.7K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token) | Base | 52.78% | $371.1K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token) | Base | 45.16% | $252.3K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token) | Base | 31.66% | $329.4K |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token) | Base | 59.60% | $396.9K |
+| 1 | [aerodrome-slipstream →](https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token) | Base | 52.28% | $371.1K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token) | Base | 44.79% | $252.2K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token) | Base | 31.30% | $329.4K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token) | Base | 59.40% | $395.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MAMO shows up in 4 pools here, with rates from 31.66% to 59.60% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+MAMO shows up in 4 pools here, with rates from 31.30% to 59.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 81.20% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 81.21% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ MAMO shows up in 4 pools here, with rates from 31.66% to 59.60% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 59.60% | 85.10% | 98.73% incentives |
-| aerodrome-slipstream | 52.78% | 77.31% | 95.40% incentives |
-| aerodrome-slipstream | 31.66% | 66.96% | 94.94% incentives |
-| aerodrome-slipstream | 45.16% | 85.81% | 93.16% incentives |
+| aerodrome-slipstream | 59.40% | 85.10% | 98.92% incentives |
+| aerodrome-slipstream | 52.28% | 77.32% | 95.87% incentives |
+| aerodrome-slipstream | 31.30% | 66.86% | 95.58% incentives |
+| aerodrome-slipstream | 44.79% | 85.50% | 93.55% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MAMO yield today?
 
-59.60% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+59.40% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many MAMO pools clear the TVL floor?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MAMO pools have the most stable APY history?
 
-Based on APY history only, MAMO's lower-variability candidates are aerodrome-slipstream (Base), 52.78% APY, $371.1K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token; aerodrome-slipstream (Base), 45.16% APY, $252.3K TVL, https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token; aerodrome-slipstream (Base), 31.66% APY, $329.4K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token; aerodrome-slipstream (Base), 59.60% APY, $396.9K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MAMO's lower-variability candidates are aerodrome-slipstream (Base), 52.28% APY, $371.1K TVL, https://www.defi.garden/?pool=64af7438-4b30-4f29-b92e-04da74fcc7dc&src=seo_token; aerodrome-slipstream (Base), 44.79% APY, $252.2K TVL, https://www.defi.garden/?pool=b1b24298-d957-48cb-ae63-ae43d7b7ef86&src=seo_token; aerodrome-slipstream (Base), 31.30% APY, $329.4K TVL, https://www.defi.garden/?pool=e96c24c3-ebf1-41f8-a11b-acba75501579&src=seo_token; aerodrome-slipstream (Base), 59.40% APY, $395.7K TVL, https://www.defi.garden/?pool=dd8c11fb-4e20-4d65-83ff-6f652ed54750&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

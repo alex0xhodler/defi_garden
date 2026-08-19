@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SUSDU pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $42.32M in total.
+2 live pools clear this page's $100K TVL floor, $42.33M in total.
 
 ### Are these rates safe?
 
@@ -56,10 +56,10 @@ Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu 
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
+- [USDY](https://www.defi.garden/tokens/usdy)
 
 ## Available on
 

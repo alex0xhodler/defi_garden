@@ -4,7 +4,7 @@ The highest honest MAGA yield right now is 0.33% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d0acdc74-0547-4617-a4de-bdc478e6bafc&src=seo_token) | Ethereum | 0.33% | $299K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d0acdc74-0547-4617-a4de-bdc478e6bafc&src=seo_token) | Ethereum | 0.33% | $298.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MAGA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $299K in total.
+1 live pool clear this page's $100K TVL floor, $298.4K in total.
 
 ### Are these rates safe?
 

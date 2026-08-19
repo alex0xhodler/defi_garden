@@ -4,7 +4,7 @@ The highest honest BBTC yield right now is 4.47% on uniswap-v3 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099&src=seo_token) | Ethereum | 4.47% | $205.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3556ef27-b6f4-555f-ba7c-e22a2f48d099&src=seo_token) | Ethereum | 4.47% | $205.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -4,18 +4,18 @@ The highest honest ETH2X yield right now is 17.17% on arrakis-v1 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token) | Ethereum | 0.04% | $256.9K |
-| [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $142.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token) | Ethereum | 0.04% | $256.5K |
+| [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $142.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ETH2X's lower-variability candidates are arrakis-v1 (Ethereum), 17.17% APY, $142.9K TVL, https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $256.9K TVL, https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETH2X's lower-variability candidates are arrakis-v1 (Ethereum), 17.17% APY, $142.7K TVL, https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $256.5K TVL, https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $142.9K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token) | Ethereum | 0.04% | $256.9K |
+| 1 | [arrakis-v1 →](https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token) | Ethereum | 17.17% | $142.7K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token) | Ethereum | 0.04% | $256.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ETH2X pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $399.9K in total.
+2 live pools clear this page's $100K TVL floor, $399.2K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ETH2X pools have the most stable APY history?
 
-Based on APY history only, ETH2X's lower-variability candidates are arrakis-v1 (Ethereum), 17.17% APY, $142.9K TVL, https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $256.9K TVL, https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ETH2X's lower-variability candidates are arrakis-v1 (Ethereum), 17.17% APY, $142.7K TVL, https://www.defi.garden/?pool=33751ce6-278d-4d46-a4fd-e806a588b1c1&src=seo_token; uniswap-v3 (Ethereum), 0.04% APY, $256.5K TVL, https://www.defi.garden/?pool=871f52f5-dab9-4a8d-af2a-a0e55929e163&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

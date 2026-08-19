@@ -4,7 +4,7 @@ The highest honest PST yield right now is 0.02% on orca-dex (Solana), among 9 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.02% | $3.84M |
+| [orca-dex →](https://www.defi.garden/?pool=ad4a3155-eee1-4a47-b453-b460e0c3b574&src=seo_token) | Solana | 0.02% | $3.83M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PST pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $93.52M in total.
+9 live pools clear this page's $100K TVL floor, $93.51M in total.
 
 ### Are these rates safe?
 
@@ -50,11 +50,11 @@ There is not enough qualifying APY history to rank PST pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 

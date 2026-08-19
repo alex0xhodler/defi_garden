@@ -4,7 +4,7 @@ The highest honest ATLASFORGE yield right now is 0.10% on uniswap-v4 (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=07cc3ae8-b8d7-4ed1-b0a5-9e407b8a931d&src=seo_token) | Base | 0.10% | $100.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=07cc3ae8-b8d7-4ed1-b0a5-9e407b8a931d&src=seo_token) | Base | 0.10% | $100K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ATLASFORGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.2K in total.
+1 live pool clear this page's $100K TVL floor, $100K in total.
 
 ### Are these rates safe?
 
