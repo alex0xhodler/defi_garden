@@ -650,7 +650,7 @@ function YieldCardWidget({
           ),
 
           // Gamification Alpha Unlock Box
-          React.createElement('div', { className: 'receipt-gamification-box' },
+          React.createElement('div', { className: `receipt-gamification-box${invitedCount >= 1 ? ' is-unlocked' : ''}` },
             React.createElement('div', { className: 'gamification-header' },
               React.createElement('span', { className: 'gamification-label' },
                 invitedCount >= 1
@@ -672,11 +672,31 @@ function YieldCardWidget({
             React.createElement('p', { className: 'gamification-desc' },
               invitedCount >= 1
                 ? (isKorean
-                    ? '알파 액세스 자격을 획득하셨습니다! 가상 카드 발급 오픈 시 일반 대기열(2,480명+)보다 우선하여 최우선 배정됩니다.'
-                    : 'Alpha priority unlocked! You skipped the 2,480+ launch queue and will receive Tier-1 priority card issuing.')
+                    ? '알파 액세스 자격을 획득하셨습니다! 아래 비공개 텔레그램 그룹에 입장하여 테스트넷 카드 발급 슬롯을 수령하세요.'
+                    : 'Alpha priority unlocked! You skipped the 2,480+ launch queue. Join the private Alpha Telegram group to claim your card issuance slot.')
                 : (isKorean
                     ? 'X(트위터)에 공유하거나 초대 링크를 보내세요. 1명이 방문하면 즉시 2,480+ 대기열을 건너뛰고 알파 카드가 발급됩니다.'
                     : 'Share on X or send your invite link. Just 1 referral unlocks Instant Alpha Access and skips the 2,480+ launch queue.')
+            ),
+            invitedCount >= 1 && React.createElement('a', {
+              className: 'receipt-telegram-cta-btn',
+              href: 'https://t.me/+rXf7XKhsffMxNzdk',
+              target: '_blank',
+              rel: 'noopener noreferrer',
+              onClick: () => {
+                if (typeof Analytics !== 'undefined' && Analytics.trackYieldCardTelegramJoined) {
+                  Analytics.trackYieldCardTelegramJoined({
+                    pool,
+                    goalId: selectedSub.id,
+                    referral_code: myRefCode
+                  });
+                }
+              }
+            },
+              React.createElement('svg', { className: 'telegram-svg-icon', viewBox: '0 0 24 24', width: 15, height: 15, fill: 'currentColor', 'aria-hidden': 'true' },
+                React.createElement('path', { d: 'M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z' })
+              ),
+              React.createElement('span', null, _t('yieldCard.joinTelegramAlpha') || 'Claim Alpha in Private Telegram →')
             )
           ),
 
