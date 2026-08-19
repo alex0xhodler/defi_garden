@@ -1,0 +1,64 @@
+{
+  "$schema": "https://agenticresourcediscovery.org/schemas/v0.9/ai-catalog.json",
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "DeFi Garden",
+    "identifier": "did:web:www.defi.garden"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:defi.garden:server:mcp",
+      "displayName": "DeFi Garden MCP Server",
+      "type": "application/mcp-server-card+json",
+      "url": "https://www.defi.garden/.well-known/mcp.json",
+      "representativeQueries": [
+        "what is the best USDC yield on Base",
+        "find safe staking pools for ETH",
+        "calculate forever number for monthly expenses",
+        "explain DeFi Garden trust rails and TVL floor"
+      ]
+    },
+    {
+      "identifier": "urn:air:defi.garden:api:yields",
+      "displayName": "DeFi Garden Public Yield API",
+      "type": "application/openapi+json",
+      "url": "https://www.defi.garden/openapi.json",
+      "representativeQueries": [
+        "query live DeFi yield pools",
+        "check API health and freshness",
+        "get pool details by DefiLlama ID"
+      ]
+    },
+    {
+      "identifier": "urn:air:defi.garden:skill:readiness",
+      "displayName": "DeFi Garden Agentic Readiness Skill",
+      "type": "text/markdown",
+      "url": "https://www.defi.garden/.well-known/agent-skills/agentic-readiness/SKILL.md",
+      "representativeQueries": [
+        "agentic readiness best practices",
+        "configure content negotiation and MCP"
+      ]
+    },
+    {
+      "identifier": "urn:air:defi.garden:doc:ai-info",
+      "displayName": "DeFi Garden AI Assistant Guide",
+      "type": "text/markdown",
+      "url": "https://www.defi.garden/ai-info.md",
+      "representativeQueries": [
+        "what is DeFi Garden",
+        "DeFi Garden vs DefiLlama",
+        "DeFi Garden trust rails and anomaly filters"
+      ]
+    },
+    {
+      "identifier": "urn:air:defi.garden:manifest:acp",
+      "displayName": "DeFi Garden Agentic Commerce Protocol Manifest",
+      "type": "application/json",
+      "url": "https://www.defi.garden/.well-known/acp.json",
+      "representativeQueries": [
+        "agent commerce protocol manifest",
+        "free agent payment headers x402"
+      ]
+    }
+  ]
+}

@@ -258,7 +258,7 @@ const MUST_KEEP = [
   'landing-styles.css',
   // SEO / agent-discovery surface.
   'robots.txt', 'llms.txt', 'llms-full.txt', 'openapi.json', 'status',
-  'fa81c8f43e7870a3b48e7481b2b7c8df.txt',
+  'fa81c8f43e7870a3b48e7481b2b7c8df.txt', 'ai-info.html', 'ai-info.md',
   // item 226 (Google head-curation, 2026-08-05): EMIT_APP_VIEW_SITEMAPS now
   // defaults to false, so generate-sitemap.js stops regenerating the
   // app-view families (sitemap-chain-<Chain>.xml, sitemap-category-<Cat>.xml,
@@ -303,6 +303,8 @@ const MUST_KEEP = [
   // files (agent-skills/index.json links a .md; a blanket "*.md" or
   // extension-based exclude would break this).
   '.well-known/api-catalog.json',
+  '.well-known/ai-catalog.json',
+  '.well-known/acp.json',
   '.well-known/mcp/server-card.json',
   '.well-known/mcp/server-cards.json',
   '.well-known/mcp.json',

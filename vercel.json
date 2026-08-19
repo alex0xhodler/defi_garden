@@ -69,6 +69,10 @@
     {
       "source": "/.well-known/acp",
       "destination": "/.well-known/acp.json"
+    },
+    {
+      "source": "/.well-known/ai-catalog",
+      "destination": "/.well-known/ai-catalog.json"
     }
   ],
   "redirects": [
@@ -83,6 +87,18 @@
       "has": [{ "type": "host", "value": "^(www\\.)?yield\\.garden$" }],
       "destination": "https://www.defi.garden/:path*",
       "permanent": true
+    },
+    {
+      "source": "/ai-info",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "destination": "/ai-info.md",
+      "permanent": false
     },
     {
       "source": "/tokens/index",
@@ -173,7 +189,7 @@
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" },
         { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Accept, Authorization" },
-        { "key": "Link", "value": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </llms.txt>; rel=\"llms-txt\"; type=\"text/markdown\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/agent-skills/index.json>; rel=\"agent-skills\"; type=\"application/json\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\"; type=\"application/json\", </.well-known/acp.json>; rel=\"acp\"; type=\"application/json\", </.well-known/oauth-protected-resource>; rel=\"oauth-protected-resource\"; type=\"application/json\", </.well-known/oauth-authorization-server>; rel=\"oauth-authorization-server\"; type=\"application/json\", </.well-known/openid-configuration>; rel=\"openid-configuration\"; type=\"application/json\"" }
+        { "key": "Link", "value": "</sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </llms.txt>; rel=\"llms-txt\"; type=\"text/markdown\", </ai-info>; rel=\"ai-info\"; type=\"text/html\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/ai-catalog.json>; rel=\"ai-catalog\"; type=\"application/json\", </.well-known/agent-skills/index.json>; rel=\"agent-skills\"; type=\"application/json\", </.well-known/mcp/server-card.json>; rel=\"mcp-server-card\"; type=\"application/json\", </.well-known/acp.json>; rel=\"acp\"; type=\"application/json\", </.well-known/oauth-protected-resource>; rel=\"oauth-protected-resource\"; type=\"application/json\", </.well-known/oauth-authorization-server>; rel=\"oauth-authorization-server\"; type=\"application/json\", </.well-known/openid-configuration>; rel=\"openid-configuration\"; type=\"application/json\"" }
       ]
     },
     {
@@ -229,6 +245,26 @@
       "headers": [
         { "key": "Vary", "value": "Accept" },
         { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/ai-info",
+      "has": [
+        {
+          "type": "header",
+          "key": "Accept",
+          "value": "(.*)text/markdown(.*)"
+        }
+      ],
+      "headers": [
+        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" },
+        { "key": "Vary", "value": "Accept" }
+      ]
+    },
+    {
+      "source": "/ai-info",
+      "headers": [
+        { "key": "Vary", "value": "Accept" }
       ]
     },
     {
