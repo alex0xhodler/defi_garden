@@ -1,10 +1,10 @@
 # FEHYPE DeFi Yields
 
-The highest honest FEHYPE yield right now is 0.98% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEHYPE yield right now is 1.00% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_token) | Hyperliquid L1 | 0.98% | $19.46M |
+| [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_token) | Hyperliquid L1 | 1.00% | $19.35M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEHYPE yield today?
 
-0.98% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+1.00% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many FEHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $19.46M in total.
+1 live pool clear this page's $100K TVL floor, $19.35M in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank FEHYPE pools. This view cover
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
+- [HYPE](https://www.defi.garden/tokens/hype)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

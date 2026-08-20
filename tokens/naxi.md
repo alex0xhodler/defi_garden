@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NAXI pools. This view covers 
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

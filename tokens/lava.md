@@ -4,7 +4,7 @@ The highest honest LAVA yield right now is 0.01% on uniswap-v3 (Arbitrum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=292673f0-42de-4073-b128-1382a4d19e25&src=seo_token) | Arbitrum | 0.01% | $127.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=292673f0-42de-4073-b128-1382a4d19e25&src=seo_token) | Arbitrum | 0.01% | $130.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LAVA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.2K in total.
+1 live pool clear this page's $100K TVL floor, $130.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LAVA pools. This view covers 
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

@@ -4,7 +4,7 @@ The highest honest HXXI yield right now is 4.81% on d2-finance (Hyperliquid L1),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [d2-finance →](https://www.defi.garden/?pool=5cff44f9-ee1a-5f73-bd87-ca9580b80b68&src=seo_token) | Hyperliquid L1 | 4.81% | $2.68M |
+| [d2-finance →](https://www.defi.garden/?pool=5cff44f9-ee1a-5f73-bd87-ca9580b80b68&src=seo_token) | Hyperliquid L1 | 4.81% | $2.73M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HXXI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.68M in total.
+1 live pool clear this page's $100K TVL floor, $2.73M in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank HXXI pools. This view covers 
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
+- [HYPE](https://www.defi.garden/tokens/hype)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

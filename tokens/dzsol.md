@@ -4,7 +4,7 @@ The highest honest DZSOL yield right now is 4.86% on doublezero-staked-sol (Sola
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [doublezero-staked-sol →](https://www.defi.garden/?pool=3997db8b-3f0c-4774-985d-d9fed3978f53&src=seo_token) | Solana | 4.86% | $58.98M |
+| [doublezero-staked-sol →](https://www.defi.garden/?pool=3997db8b-3f0c-4774-985d-d9fed3978f53&src=seo_token) | Solana | 4.86% | $61.15M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DZSOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $58.98M in total.
+1 live pool clear this page's $100K TVL floor, $61.15M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DZSOL pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

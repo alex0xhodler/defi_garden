@@ -1,10 +1,10 @@
 # PVS DeFi Yields
 
-The highest honest PVS yield right now is 3.86% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PVS yield right now is 3.12% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ccab7bdb-4b70-4eef-847c-af95a0129e15&src=seo_token) | Solana | 3.86% | $104.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=ccab7bdb-4b70-4eef-847c-af95a0129e15&src=seo_token) | Solana | 3.12% | $107.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PVS yield today?
 
-3.86% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.12% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PVS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.3K in total.
+1 live pool clear this page's $100K TVL floor, $107.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PVS pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

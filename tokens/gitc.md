@@ -1,10 +1,10 @@
 # GITC DeFi Yields
 
-The highest honest GITC yield right now is 0.14% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GITC yield right now is 0.84% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=dd7c11a1-8e22-4998-84fd-e2684873ec45&src=seo_token) | Base | 0.14% | $101.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=dd7c11a1-8e22-4998-84fd-e2684873ec45&src=seo_token) | Base | 0.84% | $115.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GITC yield today?
 
-0.14% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.84% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many GITC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.2K in total.
+1 live pool clear this page's $100K TVL floor, $115.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GITC pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

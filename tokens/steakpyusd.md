@@ -1,10 +1,10 @@
 # STEAKPYUSD DeFi Yields
 
-The highest honest STEAKPYUSD yield right now is 3.54% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STEAKPYUSD yield right now is 3.51% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=1eb871b8-f380-40a7-b451-1c899eba8fd2&src=seo_token) | Ethereum | 3.54% | $300.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=1eb871b8-f380-40a7-b451-1c899eba8fd2&src=seo_token) | Ethereum | 3.51% | $300.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STEAKPYUSD yield today?
 
-3.54% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+3.51% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many STEAKPYUSD pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STEAKPYUSD pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

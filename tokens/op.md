@@ -4,34 +4,34 @@ The highest honest OP yield right now is 50.70% on uniswap-v3 (OP Mainnet), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $310.6K |
+| [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $320.9K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token) | OP Mainnet | 50.70% | $298K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token) | OP Mainnet | 0.03% | $256.3K |
-| [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 16.68% | $159K |
-| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 15.01% | $100.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token) | OP Mainnet | 49.39% | $272.5K |
+| [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 1.21% | $161.9K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 48.36% | $105.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OP's lower-variability candidates are aave-v3 (OP Mainnet), 0.06% APY, $310.6K TVL, https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token; velodrome-v2 (OP Mainnet), 15.01% APY, $100.6K TVL, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token; curve-dex (OP Mainnet), 16.68% APY, $159K TVL, https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token; uniswap-v3 (OP Mainnet), 50.70% APY, $298K TVL, https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token; uniswap-v4 (OP Mainnet), 0.03% APY, $256.3K TVL, https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OP's lower-variability candidates are aave-v3 (OP Mainnet), 0.06% APY, $320.9K TVL, https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token; velodrome-v2 (OP Mainnet), 48.36% APY, $105.2K TVL, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token; curve-dex (OP Mainnet), 1.21% APY, $161.9K TVL, https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token; uniswap-v3 (OP Mainnet), 50.70% APY, $298K TVL, https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token; uniswap-v4 (OP Mainnet), 49.39% APY, $272.5K TVL, https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $310.6K |
-| 2 | [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 15.01% | $100.6K |
-| 3 | [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 16.68% | $159K |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token) | OP Mainnet | 0.06% | $320.9K |
+| 2 | [velodrome-v2 →](https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token) | OP Mainnet | 48.36% | $105.2K |
+| 3 | [curve-dex →](https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token) | OP Mainnet | 1.21% | $161.9K |
 | 4 | [uniswap-v3 →](https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token) | OP Mainnet | 50.70% | $298K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token) | OP Mainnet | 0.03% | $256.3K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token) | OP Mainnet | 49.39% | $272.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OP shows up in 5 pools here, with rates from 0.03% to 50.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OP shows up in 5 pools here, with rates from 0.06% to 50.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 15.36% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 15.33% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-2 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
+1 of 5 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 4 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
@@ -39,9 +39,9 @@ OP shows up in 5 pools here, with rates from 0.03% to 50.70% APY across 1 chains
 |---|---|---|---|
 | aave-v3 | 0.06% | 0.06% | Base rate |
 | uniswap-v3 | 50.70% | 44.31% | Base rate |
-| uniswap-v4 | 0.03% | 26.74% | Base rate |
-| curve-dex | 16.68% | 15.36% | 95.56% incentives |
-| velodrome-v2 | 15.01% | 14.32% | 100.00% incentives |
+| uniswap-v4 | 49.39% | 26.90% | Base rate |
+| curve-dex | 1.21% | 15.33% | Base rate |
+| velodrome-v2 | 48.36% | 14.28% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -53,7 +53,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many OP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $1.41M in total.
+6 live pools clear this page's $100K TVL floor, $1.46M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OP pools have the most stable APY history?
 
-Based on APY history only, OP's lower-variability candidates are aave-v3 (OP Mainnet), 0.06% APY, $310.6K TVL, https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token; velodrome-v2 (OP Mainnet), 15.01% APY, $100.6K TVL, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token; curve-dex (OP Mainnet), 16.68% APY, $159K TVL, https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token; uniswap-v3 (OP Mainnet), 50.70% APY, $298K TVL, https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token; uniswap-v4 (OP Mainnet), 0.03% APY, $256.3K TVL, https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OP's lower-variability candidates are aave-v3 (OP Mainnet), 0.06% APY, $320.9K TVL, https://www.defi.garden/?pool=87e476df-2d7c-4ee9-913c-e0d96865ef82&src=seo_token; velodrome-v2 (OP Mainnet), 48.36% APY, $105.2K TVL, https://www.defi.garden/?pool=366c295f-4366-475b-bea3-287292cb5b7a&src=seo_token; curve-dex (OP Mainnet), 1.21% APY, $161.9K TVL, https://www.defi.garden/?pool=288fb947-2d71-469b-b05a-63ed8a51c262&src=seo_token; uniswap-v3 (OP Mainnet), 50.70% APY, $298K TVL, https://www.defi.garden/?pool=b023d35a-f511-4650-9518-03a4728cda76&src=seo_token; uniswap-v4 (OP Mainnet), 49.39% APY, $272.5K TVL, https://www.defi.garden/?pool=4c7b18e7-5004-47f1-abe5-7a8d5e423d38&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, OP's lower-variability candidates are aave-v3 (OP Mai
 
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

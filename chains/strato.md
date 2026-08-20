@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Strato pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.54M in total.
+2 live pools clear this page's $100K TVL floor, $2.55M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDST](https://www.defi.garden/tokens/usdst)
 - [STRATO](https://www.defi.garden/tokens/strato)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

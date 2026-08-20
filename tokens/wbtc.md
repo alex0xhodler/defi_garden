@@ -1,41 +1,41 @@
 # WBTC DeFi Yields
 
-The highest honest WBTC yield right now is 0.18% on uniswap-v3 (Ethereum), among 308 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WBTC yield right now is 0.27% on uniswap-v3 (Ethereum), among 308 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token) | Ethereum | 0.01% | $2.23B |
-| [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token) | Arbitrum | 0.05% | $172.19M |
-| [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token) | Ethereum | 0.98% | $57.98M |
-| [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token) | Polygon | 0.02% | $56.15M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 15.19% | $48.22M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token) | Ethereum | 3.91% | $36.6M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token) | Arbitrum | 25.60% | $34.62M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.18% | $31.47M |
+| [aave-v3 →](https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token) | Ethereum | 0.01% | $2.27B |
+| [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token) | Arbitrum | 0.05% | $175.98M |
+| [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token) | Polygon | 0.02% | $57.49M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 27.30% | $52.35M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token) | Ethereum | 10.77% | $39.12M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token) | Arbitrum | 52.45% | $34.64M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.27% | $32.08M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=bbecbf69-a4f7-43e3-8b72-de180d106e2c&src=seo_token) | Ethereum | 23.08% | $27.18M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WBTC's lower-variability candidates are aave-v3 (Ethereum), 0.01% APY, $2.23B TVL, https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token; aave-v3 (Polygon), 0.02% APY, $56.15M TVL, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token; aave-v3 (Arbitrum), 0.05% APY, $172.19M TVL, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token; uniswap-v3 (Ethereum), 0.18% APY, $31.47M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token; curve-dex (Ethereum), 0.98% APY, $57.98M TVL, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token; uniswap-v3 (Ethereum), 3.91% APY, $36.6M TVL, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token; uniswap-v3 (Ethereum), 15.19% APY, $48.22M TVL, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token; uniswap-v3 (Arbitrum), 25.60% APY, $34.62M TVL, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBTC's lower-variability candidates are aave-v3 (Ethereum), 0.01% APY, $2.27B TVL, https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token; aave-v3 (Polygon), 0.02% APY, $57.49M TVL, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token; aave-v3 (Arbitrum), 0.05% APY, $175.98M TVL, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token; uniswap-v3 (Ethereum), 0.27% APY, $32.08M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token; uniswap-v3 (Ethereum), 10.77% APY, $39.12M TVL, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token; uniswap-v3 (Ethereum), 27.30% APY, $52.35M TVL, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token; uniswap-v3 (Arbitrum), 52.45% APY, $34.64M TVL, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token; uniswap-v3 (Ethereum), 23.08% APY, $27.18M TVL, https://www.defi.garden/?pool=bbecbf69-a4f7-43e3-8b72-de180d106e2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token) | Ethereum | 0.01% | $2.23B |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token) | Polygon | 0.02% | $56.15M |
-| 3 | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token) | Arbitrum | 0.05% | $172.19M |
-| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.18% | $31.47M |
-| 5 | [curve-dex →](https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token) | Ethereum | 0.98% | $57.98M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token) | Ethereum | 3.91% | $36.6M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 15.19% | $48.22M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token) | Arbitrum | 25.60% | $34.62M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token) | Ethereum | 0.01% | $2.27B |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token) | Polygon | 0.02% | $57.49M |
+| 3 | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token) | Arbitrum | 0.05% | $175.98M |
+| 4 | [uniswap-v3 →](https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token) | Ethereum | 0.27% | $32.08M |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token) | Ethereum | 10.77% | $39.12M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token) | Ethereum | 27.30% | $52.35M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token) | Arbitrum | 52.45% | $34.64M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=bbecbf69-a4f7-43e3-8b72-de180d106e2c&src=seo_token) | Ethereum | 23.08% | $27.18M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WBTC shows up in 8 pools here, with rates from 0.01% to 25.60% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+WBTC shows up in 8 pools here, with rates from 0.01% to 52.45% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.53% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 0.58% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -45,12 +45,12 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | aave-v3 | 0.01% | 0.01% | Base rate |
 | aave-v3 | 0.05% | 0.05% | Base rate |
-| curve-dex | 0.98% | 2.07% | Base rate |
 | aave-v3 | 0.02% | 0.02% | Base rate |
-| uniswap-v3 | 15.19% | 4.81% | Base rate |
-| uniswap-v3 | 3.91% | 0.82% | Base rate |
-| uniswap-v3 | 25.60% | 7.22% | Base rate |
-| uniswap-v3 | 0.18% | 0.25% | Base rate |
+| uniswap-v3 | 27.30% | 4.97% | Base rate |
+| uniswap-v3 | 10.77% | 0.90% | Base rate |
+| uniswap-v3 | 52.45% | 7.51% | Base rate |
+| uniswap-v3 | 0.27% | 0.25% | Base rate |
+| uniswap-v3 | 23.08% | 4.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +58,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WBTC yield today?
 
-0.18% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.27% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WBTC pools clear the TVL floor?
 
-308 live pools clear this page's $100K TVL floor, $4.61B in total.
+308 live pools clear this page's $100K TVL floor, $4.7B in total.
 
 ### Are these rates safe?
 
@@ -70,7 +70,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WBTC pools have the most stable APY history?
 
-Based on APY history only, WBTC's lower-variability candidates are aave-v3 (Ethereum), 0.01% APY, $2.23B TVL, https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token; aave-v3 (Polygon), 0.02% APY, $56.15M TVL, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token; aave-v3 (Arbitrum), 0.05% APY, $172.19M TVL, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token; uniswap-v3 (Ethereum), 0.18% APY, $31.47M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token; curve-dex (Ethereum), 0.98% APY, $57.98M TVL, https://www.defi.garden/?pool=128b253a-0903-476f-9a70-6007b336e395&src=seo_token; uniswap-v3 (Ethereum), 3.91% APY, $36.6M TVL, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token; uniswap-v3 (Ethereum), 15.19% APY, $48.22M TVL, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token; uniswap-v3 (Arbitrum), 25.60% APY, $34.62M TVL, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WBTC's lower-variability candidates are aave-v3 (Ethereum), 0.01% APY, $2.27B TVL, https://www.defi.garden/?pool=7e382157-b1bc-406d-b17b-facba43b716e&src=seo_token; aave-v3 (Polygon), 0.02% APY, $57.49M TVL, https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_token; aave-v3 (Arbitrum), 0.05% APY, $175.98M TVL, https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_token; uniswap-v3 (Ethereum), 0.27% APY, $32.08M TVL, https://www.defi.garden/?pool=7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc&src=seo_token; uniswap-v3 (Ethereum), 10.77% APY, $39.12M TVL, https://www.defi.garden/?pool=c5599b3a-ea73-4017-a867-72eb971301d1&src=seo_token; uniswap-v3 (Ethereum), 27.30% APY, $52.35M TVL, https://www.defi.garden/?pool=d59a5728-d391-4989-86f6-a94e11e0eb3b&src=seo_token; uniswap-v3 (Arbitrum), 52.45% APY, $34.64M TVL, https://www.defi.garden/?pool=bb7e9353-129f-4e01-b822-f4250d0abb8a&src=seo_token; uniswap-v3 (Ethereum), 23.08% APY, $27.18M TVL, https://www.defi.garden/?pool=bbecbf69-a4f7-43e3-8b72-de180d106e2c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -87,4 +87,4 @@ Based on APY history only, WBTC's lower-variability candidates are aave-v3 (Ethe
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

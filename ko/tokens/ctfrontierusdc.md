@@ -58,4 +58,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 concrete에서 APY 9.36%예요
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

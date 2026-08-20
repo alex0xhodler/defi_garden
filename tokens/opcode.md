@@ -4,7 +4,7 @@ The highest honest OPCODE yield right now is 0.01% on uniswap-v4 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=55894293-f5af-483b-9e1a-b09b282b8de2&src=seo_token) | Ethereum | 0.01% | $3.82M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=55894293-f5af-483b-9e1a-b09b282b8de2&src=seo_token) | Ethereum | 0.01% | $3.9M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OPCODE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.82M in total.
+1 live pool clear this page's $100K TVL floor, $3.9M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank OPCODE pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

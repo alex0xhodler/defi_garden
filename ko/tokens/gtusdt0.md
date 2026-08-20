@@ -1,10 +1,10 @@
 # GTUSDT0 디파이 수익률
 
-현재 GTUSDT0의 가장 높은 정직한 수익률은 Hyperliquid L1의 morpho-blue에서 5.64%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GTUSDT0의 가장 높은 정직한 수익률은 Hyperliquid L1의 morpho-blue에서 5.67%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a5a41daf-40da-435f-854c-4a9e9df99d32&src=seo_token) | Hyperliquid L1 | 5.64% | $515.5K |
+| [morpho-blue →](https://www.defi.garden/?pool=a5a41daf-40da-435f-854c-4a9e9df99d32&src=seo_token) | Hyperliquid L1 | 5.67% | $515.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 GTUSDT0의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 5.64%예요.
+DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 5.67%예요.
 
 ### GTUSDT0 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 5.
 
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
+- [HYPE](https://www.defi.garden/ko/tokens/hype)
 
 ## 이용 가능한 체인
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

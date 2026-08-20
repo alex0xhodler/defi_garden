@@ -1,10 +1,10 @@
 # DOLAN DeFi Yields
 
-The highest honest DOLAN yield right now is 4.47% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOLAN yield right now is 4.40% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=613324d2-7f42-4d64-a608-62f68d8832af&src=seo_token) | Solana | 4.47% | $110K |
+| [raydium-amm →](https://www.defi.garden/?pool=613324d2-7f42-4d64-a608-62f68d8832af&src=seo_token) | Solana | 4.40% | $114.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOLAN yield today?
 
-4.47% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.40% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many DOLAN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110K in total.
+1 live pool clear this page's $100K TVL floor, $114.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DOLAN pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

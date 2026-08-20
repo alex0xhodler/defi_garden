@@ -4,7 +4,7 @@ The highest honest CHURCH yield right now is 0.01% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=80540859-866d-46f6-bdea-5f4affe6a8c5&src=seo_token) | Ethereum | 0.01% | $149.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=80540859-866d-46f6-bdea-5f4affe6a8c5&src=seo_token) | Ethereum | 0.01% | $155.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CHURCH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $149.4K in total.
+1 live pool clear this page's $100K TVL floor, $155.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CHURCH pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

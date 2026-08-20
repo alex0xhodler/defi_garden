@@ -31,9 +31,9 @@ GAMIUSDC 풀은 여기 3개가 있고, 2개 체인에서 APY가 7.33%부터 9.17
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| lagoon | 9.17% | 8.53% | 기본 금리 |
+| lagoon | 9.17% | 8.54% | 기본 금리 |
 | gami-labs | 9.05% | 8.60% | 기본 금리 |
-| balancer-v3 | 7.33% | 9.71% | 인센티브 78.82% |
+| balancer-v3 | 7.33% | 9.68% | 인센티브 78.82% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -69,4 +69,4 @@ APY 이력만 기준으로 비교한 GAMIUSDC의 변동성 낮은 후보는 Ethe
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

@@ -1,10 +1,10 @@
 # NX8 DeFi Yields
 
-The highest honest NX8 yield right now is 41.91% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NX8 yield right now is 121.39% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=a8e35214-28a0-420f-ad6f-54a8e8af9700&src=seo_token) | Solana | 41.91% | $573.2K |
+| [orca-dex →](https://www.defi.garden/?pool=a8e35214-28a0-420f-ad6f-54a8e8af9700&src=seo_token) | Solana | 121.39% | $374.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NX8 yield today?
 
-41.91% APY on orca-dex (Solana), based on live DefiLlama data.
+121.39% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many NX8 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $573.2K in total.
+1 live pool clear this page's $100K TVL floor, $374.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NX8 pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

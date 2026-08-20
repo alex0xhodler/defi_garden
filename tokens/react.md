@@ -1,10 +1,10 @@
 # REACT DeFi Yields
 
-The highest honest REACT yield right now is 101.90% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REACT yield right now is 98.01% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=72c6fa77-eed2-4b88-acbc-90718b0b966b&src=seo_token) | Ethereum | 101.90% | $131.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=72c6fa77-eed2-4b88-acbc-90718b0b966b&src=seo_token) | Ethereum | 98.01% | $139.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REACT yield today?
 
-101.90% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+98.01% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many REACT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $131.9K in total.
+1 live pool clear this page's $100K TVL floor, $139.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank REACT pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

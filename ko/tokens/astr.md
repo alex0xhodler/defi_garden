@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [hydration-dex →](https://www.defi.garden/?pool=c11bb727-d099-47a1-ae8d-032ecc94e26d&src=seo_token) | Polkadot | 0.40% | $205.9K |
+| [hydration-dex →](https://www.defi.garden/?pool=c11bb727-d099-47a1-ae8d-032ecc94e26d&src=seo_token) | Polkadot | 0.40% | $209.3K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 0.40%�
 
 ### ASTR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $205.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $209.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Polkadot의 hydration-dex에서 APY 0.40%�
 
 - [Polkadot](https://www.defi.garden/ko/chains/polkadot)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

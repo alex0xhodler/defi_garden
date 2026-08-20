@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=a58c513c-8430-4525-a53a-14ccbe8fa507&src=seo_token) | Ethereum | 0.28% | $129.5K |
+| [yearn-finance →](https://www.defi.garden/?pool=a58c513c-8430-4525-a53a-14ccbe8fa507&src=seo_token) | Ethereum | 0.28% | $129.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 0.28%�
 
 ### CRVALUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $129.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $129.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 yearn-finance에서 APY 0.28%�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

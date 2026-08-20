@@ -1,12 +1,12 @@
 # Hemi DeFi Yields
 
-The highest honest Hemi yield right now is 80.06% on sushiswap-v3 (Hemi), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Hemi yield right now is 62.96% on sushiswap-v3 (Hemi), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| HEMI-USDT | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_chain) | 39.42% | $323.1K |
-| HEMI-HEMIBTC | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_chain) | 36.40% | $193.9K |
-| HEMI-USDC.E | [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_chain) | 80.06% | $135.6K |
+| HEMI-USDT | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_chain) | 44.80% | $323.1K |
+| HEMI-USDC.E | [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_chain) | 62.96% | $195.8K |
+| HEMI-HEMIBTC | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_chain) | 41.89% | $194.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Hemi yield today?
 
-80.06% APY on sushiswap-v3 (Hemi), based on live DefiLlama data.
+62.96% APY on sushiswap-v3 (Hemi), based on live DefiLlama data.
 
 ### How many Hemi pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.43M in total.
+5 live pools clear this page's $100K TVL floor, $2.49M in total.
 
 ### Are these rates safe?
 
@@ -37,7 +37,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [HEMI](https://www.defi.garden/tokens/hemi)
 - [USDT](https://www.defi.garden/tokens/usdt)
-- [HEMIBTC](https://www.defi.garden/tokens/hemibtc)
 - [USDC.E](https://www.defi.garden/tokens/usdc-e)
+- [HEMIBTC](https://www.defi.garden/tokens/hemibtc)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

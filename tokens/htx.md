@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HTX pools. This view covers A
 
 - [Tron](https://www.defi.garden/chains/tron)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

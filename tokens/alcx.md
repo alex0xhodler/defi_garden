@@ -1,33 +1,33 @@
 # ALCX DeFi Yields
 
-The highest honest ALCX yield right now is 26.56% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALCX yield right now is 25.64% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 9.98% | $593.3K |
-| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 14.78% | $463.3K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 10.90% | $333.3K |
-| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 26.56% | $330.3K |
-| [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 24.74% | $135.8K |
+| [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 6.13% | $634K |
+| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 13.65% | $483.6K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 4.81% | $355.5K |
+| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 25.64% | $344.7K |
+| [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 23.46% | $141.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ALCX's lower-variability candidates are stake-dao (Ethereum), 24.74% APY, $135.8K TVL, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token; sushiswap-v3 (Ethereum), 10.90% APY, $333.3K TVL, https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token; sushiswap (Ethereum), 9.98% APY, $593.3K TVL, https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token; curve-dex (Ethereum), 14.78% APY, $463.3K TVL, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; convex-finance (Ethereum), 26.56% APY, $330.3K TVL, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALCX's lower-variability candidates are stake-dao (Ethereum), 23.46% APY, $141.8K TVL, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token; sushiswap-v3 (Ethereum), 4.81% APY, $355.5K TVL, https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token; sushiswap (Ethereum), 6.13% APY, $634K TVL, https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token; curve-dex (Ethereum), 13.65% APY, $483.6K TVL, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; convex-finance (Ethereum), 25.64% APY, $344.7K TVL, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 24.74% | $135.8K |
-| 2 | [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 10.90% | $333.3K |
-| 3 | [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 9.98% | $593.3K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 14.78% | $463.3K |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 26.56% | $330.3K |
+| 1 | [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 23.46% | $141.8K |
+| 2 | [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 4.81% | $355.5K |
+| 3 | [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 6.13% | $634K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 13.65% | $483.6K |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 25.64% | $344.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ALCX shows up in 5 pools here, with rates from 9.98% to 26.56% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+ALCX shows up in 5 pools here, with rates from 4.81% to 25.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 14.51% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -37,11 +37,11 @@ ALCX shows up in 5 pools here, with rates from 9.98% to 26.56% APY across 1 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| sushiswap | 9.98% | 1.29% | Base rate |
-| curve-dex | 14.78% | 14.51% | 87.28% incentives |
-| sushiswap-v3 | 10.90% | 0.97% | Base rate |
-| convex-finance | 26.56% | 26.94% | 92.92% incentives |
-| stake-dao | 24.74% | 25.39% | 98.63% incentives |
+| sushiswap | 6.13% | 1.36% | Base rate |
+| curve-dex | 13.65% | 14.51% | 89.23% incentives |
+| sushiswap-v3 | 4.81% | 1.03% | Base rate |
+| convex-finance | 25.64% | 26.94% | 94.27% incentives |
+| stake-dao | 23.46% | 25.38% | 98.08% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ALCX yield today?
 
-26.56% APY on convex-finance (Ethereum), based on live DefiLlama data.
+25.64% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many ALCX pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $1.86M in total.
+5 live pools clear this page's $100K TVL floor, $1.96M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ALCX pools have the most stable APY history?
 
-Based on APY history only, ALCX's lower-variability candidates are stake-dao (Ethereum), 24.74% APY, $135.8K TVL, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token; sushiswap-v3 (Ethereum), 10.90% APY, $333.3K TVL, https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token; sushiswap (Ethereum), 9.98% APY, $593.3K TVL, https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token; curve-dex (Ethereum), 14.78% APY, $463.3K TVL, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; convex-finance (Ethereum), 26.56% APY, $330.3K TVL, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ALCX's lower-variability candidates are stake-dao (Ethereum), 23.46% APY, $141.8K TVL, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token; sushiswap-v3 (Ethereum), 4.81% APY, $355.5K TVL, https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token; sushiswap (Ethereum), 6.13% APY, $634K TVL, https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token; curve-dex (Ethereum), 13.65% APY, $483.6K TVL, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; convex-finance (Ethereum), 25.64% APY, $344.7K TVL, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -76,4 +76,4 @@ Based on APY history only, ALCX's lower-variability candidates are stake-dao (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VOOI pools. This view covers 
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

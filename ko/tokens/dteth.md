@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=f8f84a30-879e-4da1-ac4d-6c9e902b9cb4&src=seo_token) | Base | 7.73% | $117.6K |
+| [lagoon →](https://www.defi.garden/?pool=f8f84a30-879e-4da1-ac4d-6c9e902b9cb4&src=seo_token) | Base | 7.73% | $127.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 lagoon에서 APY 7.73%예요.
 
 ### DTETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $117.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $127.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 lagoon에서 APY 7.73%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

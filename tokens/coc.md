@@ -1,10 +1,10 @@
 # COC DeFi Yields
 
-The highest honest COC yield right now is 1.20% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COC yield right now is 1.15% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=513fcada-4ac6-46e6-a658-22a8c7e1dd0f&src=seo_token) | Ethereum | 1.20% | $100.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=513fcada-4ac6-46e6-a658-22a8c7e1dd0f&src=seo_token) | Ethereum | 1.15% | $104.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COC yield today?
 
-1.20% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.15% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many COC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.2K in total.
+1 live pool clear this page's $100K TVL floor, $104.1K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank COC pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

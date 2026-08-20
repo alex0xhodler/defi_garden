@@ -4,8 +4,8 @@ The highest honest ZKsync Era yield right now is 0.01% on symbiosis (ZKsync Era)
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| LONG-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_chain) | 7.16% | $206.4K |
-| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 4.64% | $113.7K |
+| LONG-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=472dd466-6dd3-425d-aa76-5ccc7c59faa5&src=seo_chain) | 2.76% | $223.6K |
+| USDC.E-WETH | [zkswap-v2 →](https://www.defi.garden/?pool=275cc0a1-571b-41f2-a467-ec69efbf4e47&src=seo_chain) | 6.72% | $118.3K |
 | USDC.E | [symbiosis →](https://www.defi.garden/?pool=55cef2b5-318a-4cd2-be72-17e31311c32d&src=seo_chain) | 0.01% | $104.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZKsync Era pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $424.8K in total.
+3 live pools clear this page's $100K TVL floor, $446.6K in total.
 
 ### Are these rates safe?
 
@@ -28,15 +28,15 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 - [Polygon](https://www.defi.garden/chains/polygon)
-- [Berachain](https://www.defi.garden/chains/berachain)
 - [Flare](https://www.defi.garden/chains/flare)
+- [Berachain](https://www.defi.garden/chains/berachain)
 - [Gnosis](https://www.defi.garden/chains/gnosis)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
 ## Top tokens on ZKsync Era
 
 - [WETH](https://www.defi.garden/tokens/weth)
-- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 - [LONG](https://www.defi.garden/tokens/long)
+- [USDC.E](https://www.defi.garden/tokens/usdc-e)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

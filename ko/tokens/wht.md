@@ -60,4 +60,4 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 0.98%예요.
 
 - [Heco](https://www.defi.garden/ko/chains/heco)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

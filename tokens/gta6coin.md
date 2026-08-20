@@ -1,10 +1,10 @@
 # GTA6COIN DeFi Yields
 
-The highest honest GTA6COIN yield right now is 16.69% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTA6COIN yield right now is 21.75% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c5d39105-af41-4498-a2eb-b46891ead868&src=seo_token) | Solana | 16.69% | $129.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=c5d39105-af41-4498-a2eb-b46891ead868&src=seo_token) | Solana | 21.75% | $133K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTA6COIN yield today?
 
-16.69% APY on raydium-amm (Solana), based on live DefiLlama data.
+21.75% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many GTA6COIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.9K in total.
+1 live pool clear this page's $100K TVL floor, $133K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GTA6COIN pools. This view cov
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

@@ -2,11 +2,11 @@
 
 **Total APY:** 6.66% (6.66% Base · + 0.00% Rewards)
 
-**TVL:** $9.44M
+**TVL:** $9.42M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 3.26%
+**30d Mean APY:** 3.28%
 
 **Exposure:** single
 
@@ -24,10 +24,10 @@ $1,000 in this pool grows to ~$1,380 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 6.66% right now vs a 3.26% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 6.66% right now vs a 3.28% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,380 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on looped-hype](https://www.loopingcollective.org/?ref=defi.garden)
 
-Last updated August 19, 2026
+Last updated August 20, 2026

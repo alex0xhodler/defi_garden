@@ -1,40 +1,40 @@
 # SPYX DeFi Yields
 
-The highest honest SPYX yield right now is 78.42% on raydium-amm (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPYX yield right now is 98.32% on raydium-amm (Solana), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [jupiter-lend →](https://www.defi.garden/?pool=6e0a7124-be02-4460-bbbe-a6dc6719e017&src=seo_token) | Solana | 3.05% | $5.25M |
-| [kamino-lend →](https://www.defi.garden/?pool=a0f306a6-976a-4d29-852b-eaa09e84f8b4&src=seo_token) | Solana | 0.15% | $3.92M |
-| [raydium-amm →](https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token) | Solana | 1.62% | $2.46M |
-| [jupiter-lend →](https://www.defi.garden/?pool=f70ced93-ac20-4619-a86a-834cae2f9a46&src=seo_token) | Solana | 3.05% | $1.65M |
-| [raydium-amm →](https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614&src=seo_token) | Solana | 273.26% | $293.4K |
-| [raydium-amm →](https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token) | Solana | 20.53% | $259.8K |
-| [orca-dex →](https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token) | Solana | 2.20% | $200K |
-| [raydium-amm →](https://www.defi.garden/?pool=c8947f06-3856-4c9c-88de-1fd1b9f4db0b&src=seo_token) | Solana | 78.42% | $138.5K |
+| [kamino-lend →](https://www.defi.garden/?pool=a0f306a6-976a-4d29-852b-eaa09e84f8b4&src=seo_token) | Solana | 0.15% | $3.93M |
+| [raydium-amm →](https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token) | Solana | 1.71% | $2.46M |
+| [jupiter-lend →](https://www.defi.garden/?pool=f70ced93-ac20-4619-a86a-834cae2f9a46&src=seo_token) | Solana | 3.05% | $1.66M |
+| [raydium-amm →](https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614&src=seo_token) | Solana | 335.89% | $317K |
+| [raydium-amm →](https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token) | Solana | 23.89% | $255.9K |
+| [orca-dex →](https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token) | Solana | 2.52% | $200.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=c8947f06-3856-4c9c-88de-1fd1b9f4db0b&src=seo_token) | Solana | 98.32% | $137.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPYX's lower-variability candidates are kamino-lend (Solana), 0.15% APY, $3.92M TVL, https://www.defi.garden/?pool=a0f306a6-976a-4d29-852b-eaa09e84f8b4&src=seo_token; jupiter-lend (Solana), 3.05% APY, $1.65M TVL, https://www.defi.garden/?pool=f70ced93-ac20-4619-a86a-834cae2f9a46&src=seo_token; jupiter-lend (Solana), 3.05% APY, $5.25M TVL, https://www.defi.garden/?pool=6e0a7124-be02-4460-bbbe-a6dc6719e017&src=seo_token; raydium-amm (Solana), 1.62% APY, $2.46M TVL, https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token; orca-dex (Solana), 2.20% APY, $200K TVL, https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token; raydium-amm (Solana), 78.42% APY, $138.5K TVL, https://www.defi.garden/?pool=c8947f06-3856-4c9c-88de-1fd1b9f4db0b&src=seo_token; raydium-amm (Solana), 20.53% APY, $259.8K TVL, https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPYX's lower-variability candidates are kamino-lend (Solana), 0.15% APY, $3.93M TVL, https://www.defi.garden/?pool=a0f306a6-976a-4d29-852b-eaa09e84f8b4&src=seo_token; jupiter-lend (Solana), 3.05% APY, $1.66M TVL, https://www.defi.garden/?pool=f70ced93-ac20-4619-a86a-834cae2f9a46&src=seo_token; jupiter-lend (Solana), 3.05% APY, $5.25M TVL, https://www.defi.garden/?pool=6e0a7124-be02-4460-bbbe-a6dc6719e017&src=seo_token; raydium-amm (Solana), 1.71% APY, $2.46M TVL, https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token; orca-dex (Solana), 2.52% APY, $200.1K TVL, https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token; raydium-amm (Solana), 98.32% APY, $137.3K TVL, https://www.defi.garden/?pool=c8947f06-3856-4c9c-88de-1fd1b9f4db0b&src=seo_token; raydium-amm (Solana), 23.89% APY, $255.9K TVL, https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=a0f306a6-976a-4d29-852b-eaa09e84f8b4&src=seo_token) | Solana | 0.15% | $3.92M |
-| 2 | [jupiter-lend →](https://www.defi.garden/?pool=f70ced93-ac20-4619-a86a-834cae2f9a46&src=seo_token) | Solana | 3.05% | $1.65M |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=a0f306a6-976a-4d29-852b-eaa09e84f8b4&src=seo_token) | Solana | 0.15% | $3.93M |
+| 2 | [jupiter-lend →](https://www.defi.garden/?pool=f70ced93-ac20-4619-a86a-834cae2f9a46&src=seo_token) | Solana | 3.05% | $1.66M |
 | 3 | [jupiter-lend →](https://www.defi.garden/?pool=6e0a7124-be02-4460-bbbe-a6dc6719e017&src=seo_token) | Solana | 3.05% | $5.25M |
-| 4 | [raydium-amm →](https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token) | Solana | 1.62% | $2.46M |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token) | Solana | 2.20% | $200K |
-| 6 | [raydium-amm →](https://www.defi.garden/?pool=c8947f06-3856-4c9c-88de-1fd1b9f4db0b&src=seo_token) | Solana | 78.42% | $138.5K |
-| 7 | [raydium-amm →](https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token) | Solana | 20.53% | $259.8K |
+| 4 | [raydium-amm →](https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token) | Solana | 1.71% | $2.46M |
+| 5 | [orca-dex →](https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token) | Solana | 2.52% | $200.1K |
+| 6 | [raydium-amm →](https://www.defi.garden/?pool=c8947f06-3856-4c9c-88de-1fd1b9f4db0b&src=seo_token) | Solana | 98.32% | $137.3K |
+| 7 | [raydium-amm →](https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token) | Solana | 23.89% | $255.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPYX shows up in 8 pools here, with rates from 0.15% to 273.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPYX shows up in 8 pools here, with rates from 0.15% to 335.89% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-7 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+7 of these 8 pools have a trustworthy 30-day average on file, with a median of 5.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -42,14 +42,14 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| jupiter-lend | 3.05% | 1.81% | Base rate |
+| jupiter-lend | 3.05% | 1.82% | Base rate |
 | kamino-lend | 0.15% | 0.15% | Base rate |
-| raydium-amm | 1.62% | 5.07% | Base rate |
-| jupiter-lend | 3.05% | 1.81% | Base rate |
-| raydium-amm | 273.26% | — | Base rate |
-| raydium-amm | 20.53% | 18.80% | Base rate |
-| orca-dex | 2.20% | 8.30% | Base rate |
-| raydium-amm | 78.42% | 135.15% | Base rate |
+| raydium-amm | 1.71% | 5.05% | Base rate |
+| jupiter-lend | 3.05% | 1.82% | Base rate |
+| raydium-amm | 335.89% | — | Base rate |
+| raydium-amm | 23.89% | 18.14% | Base rate |
+| orca-dex | 2.52% | 7.96% | Base rate |
+| raydium-amm | 98.32% | 135.72% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,11 +57,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPYX yield today?
 
-78.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+98.32% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SPYX pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $14.3M in total.
+9 live pools clear this page's $100K TVL floor, $14.33M in total.
 
 ### Are these rates safe?
 
@@ -69,7 +69,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPYX pools have the most stable APY history?
 
-Based on APY history only, SPYX's lower-variability candidates are kamino-lend (Solana), 0.15% APY, $3.92M TVL, https://www.defi.garden/?pool=a0f306a6-976a-4d29-852b-eaa09e84f8b4&src=seo_token; jupiter-lend (Solana), 3.05% APY, $1.65M TVL, https://www.defi.garden/?pool=f70ced93-ac20-4619-a86a-834cae2f9a46&src=seo_token; jupiter-lend (Solana), 3.05% APY, $5.25M TVL, https://www.defi.garden/?pool=6e0a7124-be02-4460-bbbe-a6dc6719e017&src=seo_token; raydium-amm (Solana), 1.62% APY, $2.46M TVL, https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token; orca-dex (Solana), 2.20% APY, $200K TVL, https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token; raydium-amm (Solana), 78.42% APY, $138.5K TVL, https://www.defi.garden/?pool=c8947f06-3856-4c9c-88de-1fd1b9f4db0b&src=seo_token; raydium-amm (Solana), 20.53% APY, $259.8K TVL, https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPYX's lower-variability candidates are kamino-lend (Solana), 0.15% APY, $3.93M TVL, https://www.defi.garden/?pool=a0f306a6-976a-4d29-852b-eaa09e84f8b4&src=seo_token; jupiter-lend (Solana), 3.05% APY, $1.66M TVL, https://www.defi.garden/?pool=f70ced93-ac20-4619-a86a-834cae2f9a46&src=seo_token; jupiter-lend (Solana), 3.05% APY, $5.25M TVL, https://www.defi.garden/?pool=6e0a7124-be02-4460-bbbe-a6dc6719e017&src=seo_token; raydium-amm (Solana), 1.71% APY, $2.46M TVL, https://www.defi.garden/?pool=5ccd0074-df46-49d8-8f6d-de221b60672c&src=seo_token; orca-dex (Solana), 2.52% APY, $200.1K TVL, https://www.defi.garden/?pool=119990a9-9784-4203-b72d-70fa7bcd6769&src=seo_token; raydium-amm (Solana), 98.32% APY, $137.3K TVL, https://www.defi.garden/?pool=c8947f06-3856-4c9c-88de-1fd1b9f4db0b&src=seo_token; raydium-amm (Solana), 23.89% APY, $255.9K TVL, https://www.defi.garden/?pool=f5be6f43-4e18-4bc4-9e96-f64abc62b201&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -84,4 +84,4 @@ Based on APY history only, SPYX's lower-variability candidates are kamino-lend (
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

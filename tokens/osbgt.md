@@ -1,29 +1,29 @@
 # OSBGT DeFi Yields
 
-The highest honest OSBGT yield right now is 15.82% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OSBGT yield right now is 15.67% on berapaw (Berachain), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 11.36% | $596.9K |
-| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 15.82% | $551.9K |
+| [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 11.47% | $596.9K |
+| [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 15.67% | $551.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, OSBGT's lower-variability candidates are berapaw (Berachain), 15.82% APY, $551.9K TVL, https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token; berapaw (Berachain), 11.36% APY, $596.9K TVL, https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OSBGT's lower-variability candidates are berapaw (Berachain), 15.67% APY, $551.9K TVL, https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token; berapaw (Berachain), 11.47% APY, $596.9K TVL, https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 15.82% | $551.9K |
-| 2 | [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 11.36% | $596.9K |
+| 1 | [berapaw →](https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token) | Berachain | 15.67% | $551.9K |
+| 2 | [berapaw →](https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token) | Berachain | 11.47% | $596.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-OSBGT shows up in 2 pools here, with rates from 11.36% to 15.82% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OSBGT shows up in 2 pools here, with rates from 11.47% to 15.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 30.04% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 29.62% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ OSBGT shows up in 2 pools here, with rates from 11.36% to 15.82% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| berapaw | 11.36% | 29.22% | 100.00% incentives |
-| berapaw | 15.82% | 30.87% | 100.00% incentives |
+| berapaw | 11.47% | 28.79% | 100.00% incentives |
+| berapaw | 15.67% | 30.45% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OSBGT yield today?
 
-15.82% APY on berapaw (Berachain), based on live DefiLlama data.
+15.67% APY on berapaw (Berachain), based on live DefiLlama data.
 
 ### How many OSBGT pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which OSBGT pools have the most stable APY history?
 
-Based on APY history only, OSBGT's lower-variability candidates are berapaw (Berachain), 15.82% APY, $551.9K TVL, https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token; berapaw (Berachain), 11.36% APY, $596.9K TVL, https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, OSBGT's lower-variability candidates are berapaw (Berachain), 15.67% APY, $551.9K TVL, https://www.defi.garden/?pool=122967c8-2fd5-4f43-95ff-ffcaeb99da09&src=seo_token; berapaw (Berachain), 11.47% APY, $596.9K TVL, https://www.defi.garden/?pool=ef1b824f-d2d4-4630-83ac-3c09236019e9&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -67,4 +67,4 @@ Based on APY history only, OSBGT's lower-variability candidates are berapaw (Ber
 
 - [Berachain](https://www.defi.garden/chains/berachain)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

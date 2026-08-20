@@ -1,10 +1,10 @@
 # SDFRXUSDV2 DeFi Yields
 
-The highest honest SDFRXUSDV2 yield right now is 2.79% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDFRXUSDV2 yield right now is 4.32% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=0c305f71-d4bf-401b-ad89-76d814954dcf&src=seo_token) | Ethereum | 2.79% | $1.02M |
+| [morpho-blue →](https://www.defi.garden/?pool=0c305f71-d4bf-401b-ad89-76d814954dcf&src=seo_token) | Ethereum | 4.32% | $1.03M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDFRXUSDV2 yield today?
 
-2.79% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.32% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SDFRXUSDV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.02M in total.
+1 live pool clear this page's $100K TVL floor, $1.03M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SDFRXUSDV2 pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

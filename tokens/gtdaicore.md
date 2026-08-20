@@ -1,10 +1,10 @@
 # GTDAICORE DeFi Yields
 
-The highest honest GTDAICORE yield right now is 4.51% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTDAICORE yield right now is 4.50% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d78f63a2-98c4-481b-9f3d-147505dd9974&src=seo_token) | Ethereum | 4.51% | $2.32M |
+| [morpho-blue →](https://www.defi.garden/?pool=d78f63a2-98c4-481b-9f3d-147505dd9974&src=seo_token) | Ethereum | 4.50% | $2.32M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTDAICORE yield today?
 
-4.51% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.50% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTDAICORE pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GTDAICORE pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

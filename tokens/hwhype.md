@@ -4,7 +4,7 @@ The highest honest HWHYPE yield right now is 4.72% on hyperwave (Hyperliquid L1)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperwave →](https://www.defi.garden/?pool=88c6f0fd-5371-4b60-8032-ddf168b4bdd6&src=seo_token) | Hyperliquid L1 | 4.72% | $1.41M |
+| [hyperwave →](https://www.defi.garden/?pool=88c6f0fd-5371-4b60-8032-ddf168b4bdd6&src=seo_token) | Hyperliquid L1 | 4.72% | $1.4M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HWHYPE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.41M in total.
+1 live pool clear this page's $100K TVL floor, $1.4M in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank HWHYPE pools. This view cover
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
+- [HYPE](https://www.defi.garden/tokens/hype)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

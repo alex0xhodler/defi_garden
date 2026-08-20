@@ -1,42 +1,42 @@
 # SUPERUSDC DeFi Yields
 
-The highest honest SUPERUSDC yield right now is 11.98% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERUSDC yield right now is 12.21% on pendle (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.30% | $7.26M |
-| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.08% | $800.7K |
-| [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 9.11% | $786.4K |
-| [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 11.98% | $786.4K |
+| [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.44% | $7.26M |
+| [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.11% | $799.7K |
+| [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 9.13% | $786.4K |
+| [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 12.21% | $786.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUPERUSDC's lower-variability candidates are pendle (Ethereum), 9.11% APY, $786.4K TVL, https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token; superform (Base), 5.08% APY, $800.7K TVL, https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token; pendle (Ethereum), 11.98% APY, $786.4K TVL, https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token; superform (Ethereum), 6.30% APY, $7.26M TVL, https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPERUSDC's lower-variability candidates are pendle (Ethereum), 9.13% APY, $786.4K TVL, https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token; superform (Base), 5.11% APY, $799.7K TVL, https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token; pendle (Ethereum), 12.21% APY, $786.4K TVL, https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token; superform (Ethereum), 6.44% APY, $7.26M TVL, https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 9.11% | $786.4K |
-| 2 | [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.08% | $800.7K |
-| 3 | [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 11.98% | $786.4K |
-| 4 | [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.30% | $7.26M |
+| 1 | [pendle →](https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token) | Ethereum | 9.13% | $786.4K |
+| 2 | [superform →](https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token) | Base | 5.11% | $799.7K |
+| 3 | [pendle →](https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token) | Ethereum | 12.21% | $786.4K |
+| 4 | [superform →](https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token) | Ethereum | 6.44% | $7.26M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SUPERUSDC shows up in 4 pools here, with rates from 5.08% to 11.98% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SUPERUSDC shows up in 4 pools here, with rates from 5.11% to 12.21% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.15% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 7.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| superform | 6.30% | 5.94% | 27.15% incentives |
-| superform | 5.08% | 5.86% | 33.71% incentives |
-| pendle | 9.11% | 8.35% | 14.48% incentives |
-| pendle | 11.98% | 10.66% | 11.02% incentives |
+| superform | 6.44% | 5.95% | 27.22% incentives |
+| superform | 5.11% | 5.85% | 34.29% incentives |
+| pendle | 9.13% | 8.37% | 14.70% incentives |
+| pendle | 12.21% | 10.70% | 10.99% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,11 +44,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SUPERUSDC yield today?
 
-11.98% APY on pendle (Ethereum), based on live DefiLlama data.
+12.21% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SUPERUSDC pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $9.64M in total.
+4 live pools clear this page's $100K TVL floor, $9.63M in total.
 
 ### Are these rates safe?
 
@@ -56,7 +56,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUPERUSDC pools have the most stable APY history?
 
-Based on APY history only, SUPERUSDC's lower-variability candidates are pendle (Ethereum), 9.11% APY, $786.4K TVL, https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token; superform (Base), 5.08% APY, $800.7K TVL, https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token; pendle (Ethereum), 11.98% APY, $786.4K TVL, https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token; superform (Ethereum), 6.30% APY, $7.26M TVL, https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUPERUSDC's lower-variability candidates are pendle (Ethereum), 9.13% APY, $786.4K TVL, https://www.defi.garden/?pool=053044f6-aeee-46b2-9c56-bf5af6dbdea1&src=seo_token; superform (Base), 5.11% APY, $799.7K TVL, https://www.defi.garden/?pool=a7e28f73-d613-4ddf-ab90-756018fdf299&src=seo_token; pendle (Ethereum), 12.21% APY, $786.4K TVL, https://www.defi.garden/?pool=52512514-c3c0-4d2b-9023-169cb3cb3e82&src=seo_token; superform (Ethereum), 6.44% APY, $7.26M TVL, https://www.defi.garden/?pool=fbd2a90a-f18f-412f-9f75-cc75432efd3f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -72,4 +72,4 @@ Based on APY history only, SUPERUSDC's lower-variability candidates are pendle (
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

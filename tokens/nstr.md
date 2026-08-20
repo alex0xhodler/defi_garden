@@ -1,10 +1,10 @@
 # NSTR DeFi Yields
 
-The highest honest NSTR yield right now is 1.12% on nostra-pools (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NSTR yield right now is 2.14% on nostra-pools (Starknet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nostra-pools →](https://www.defi.garden/?pool=b63efca5-3891-48ea-8702-294583733687&src=seo_token) | Starknet | 1.12% | $107.4K |
+| [nostra-pools →](https://www.defi.garden/?pool=b63efca5-3891-48ea-8702-294583733687&src=seo_token) | Starknet | 2.14% | $109K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NSTR yield today?
 
-1.12% APY on nostra-pools (Starknet), based on live DefiLlama data.
+2.14% APY on nostra-pools (Starknet), based on live DefiLlama data.
 
 ### How many NSTR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.4K in total.
+1 live pool clear this page's $100K TVL floor, $109K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NSTR pools. This view covers 
 
 - [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

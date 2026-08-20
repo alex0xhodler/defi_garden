@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank CUSD pools. This view covers 
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

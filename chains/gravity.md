@@ -5,7 +5,7 @@ The highest honest Gravity yield right now is 1.70% on latch (Gravity), among 2 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | ATUSD | [latch →](https://www.defi.garden/?pool=9998bf68-1ef8-4948-9cbb-d62eeeab91ab&src=seo_chain) | 0.29% | $1.39M |
-| ATETH | [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_chain) | 1.70% | $199.6K |
+| ATETH | [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_chain) | 1.70% | $214.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Gravity pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.59M in total.
+2 live pools clear this page's $100K TVL floor, $1.61M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [ATUSD](https://www.defi.garden/tokens/atusd)
 - [ATETH](https://www.defi.garden/tokens/ateth)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

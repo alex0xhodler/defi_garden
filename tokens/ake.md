@@ -4,8 +4,8 @@ The highest honest AKE yield right now is 0.26% on raydium-amm (Solana), among 2
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=8687566b-4ed6-5175-a606-b6229aef62bf&src=seo_token) | Solana | 0.21% | $6.23M |
-| [raydium-amm →](https://www.defi.garden/?pool=04166f2e-694d-518c-b08e-bd36e01d3f76&src=seo_token) | Solana | 0.26% | $3.92M |
+| [raydium-amm →](https://www.defi.garden/?pool=8687566b-4ed6-5175-a606-b6229aef62bf&src=seo_token) | Solana | 0.26% | $6.23M |
+| [raydium-amm →](https://www.defi.garden/?pool=04166f2e-694d-518c-b08e-bd36e01d3f76&src=seo_token) | Solana | 0.24% | $3.92M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-AKE shows up in 2 pools here, with rates from 0.21% to 0.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AKE shows up in 2 pools here, with rates from 0.24% to 0.26% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.60% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.21% | 0.54% | Base rate |
-| raydium-amm | 0.26% | 0.66% | Base rate |
+| raydium-amm | 0.26% | 0.53% | Base rate |
+| raydium-amm | 0.24% | 0.65% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank AKE pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

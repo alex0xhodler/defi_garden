@@ -4,7 +4,7 @@ The highest honest WNUSDT0 yield right now is 10.22% on balancer-v3 (Monad), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.22% | $3.39M |
+| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.22% | $3.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,13 +17,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 WNUSDT0 shows up in 1 pools here, with rates from 10.22% to 10.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 9.25% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 9.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 10.22% | 9.25% | 77.64% incentives |
+| balancer-v3 | 10.22% | 9.26% | 78.15% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WNUSDT0 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $4.17M in total.
+2 live pools clear this page's $100K TVL floor, $4.16M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank WNUSDT0 pools. This view cove
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

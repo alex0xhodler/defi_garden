@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=4cdfc753-f347-5dc8-80bc-a2a028646606&src=seo_token) | Ethereum | 3.88% | $294.1K |
+| [lagoon →](https://www.defi.garden/?pool=4cdfc753-f347-5dc8-80bc-a2a028646606&src=seo_token) | Ethereum | 3.88% | $299.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 3.88%예요.
 
 ### DAMMBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $294.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $299.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 lagoon에서 APY 3.88%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

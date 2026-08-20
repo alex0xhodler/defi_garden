@@ -1,33 +1,33 @@
 # HEMI 디파이 수익률
 
-현재 HEMI의 가장 높은 정직한 수익률은 Hemi의 sushiswap-v3에서 80.06%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HEMI의 가장 높은 정직한 수익률은 Hemi의 sushiswap-v3에서 62.96%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 39.42% | $323.1K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 36.40% | $193.9K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 80.06% | $135.6K |
-| [curve-dex →](https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token) | Ethereum | 28.98% | $111.1K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 44.80% | $323.1K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 62.96% | $195.8K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 41.89% | $194.4K |
+| [curve-dex →](https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token) | Ethereum | 39.02% | $114K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 HEMI의 변동성 낮은 후보는 Hemi의 sushiswap-v3, APY 36.40%, TVL $193.9K, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; Ethereum의 curve-dex, APY 28.98%, TVL $111.1K, https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token; Hemi의 sushiswap-v3, APY 80.06%, TVL $135.6K, https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token; Hemi의 sushiswap-v3, APY 39.42%, TVL $323.1K, https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HEMI의 변동성 낮은 후보는 Hemi의 sushiswap-v3, APY 41.89%, TVL $194.4K, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; Ethereum의 curve-dex, APY 39.02%, TVL $114K, https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token; Hemi의 sushiswap-v3, APY 62.96%, TVL $195.8K, https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token; Hemi의 sushiswap-v3, APY 44.80%, TVL $323.1K, https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 36.40% | $193.9K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token) | Ethereum | 28.98% | $111.1K |
-| 3 | [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 80.06% | $135.6K |
-| 4 | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 39.42% | $323.1K |
+| 1 | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 41.89% | $194.4K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token) | Ethereum | 39.02% | $114K |
+| 3 | [sushiswap-v3 →](https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token) | Hemi | 62.96% | $195.8K |
+| 4 | [sushiswap-v3 →](https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token) | Hemi | 44.80% | $323.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-HEMI 풀은 여기 4개가 있고, 2개 체인에서 APY가 28.98%부터 80.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+HEMI 풀은 여기 4개가 있고, 2개 체인에서 APY가 39.02%부터 62.96%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.39%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.53%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 4개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -35,10 +35,10 @@ HEMI 풀은 여기 4개가 있고, 2개 체인에서 APY가 28.98%부터 80.06%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sushiswap-v3 | 39.42% | 5.48% | 기본 금리 |
-| sushiswap-v3 | 36.40% | 1.34% | 기본 금리 |
-| sushiswap-v3 | 80.06% | 9.30% | 기본 금리 |
-| curve-dex | 28.98% | 9.57% | 기본 금리 |
+| sushiswap-v3 | 44.80% | 5.62% | 기본 금리 |
+| sushiswap-v3 | 62.96% | 9.43% | 기본 금리 |
+| sushiswap-v3 | 41.89% | 1.65% | 기본 금리 |
+| curve-dex | 39.02% | 9.72% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,11 +46,11 @@ HEMI 풀은 여기 4개가 있고, 2개 체인에서 APY가 28.98%부터 80.06%�
 
 ### 오늘 HEMI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Hemi의 sushiswap-v3에서 APY 80.06%예요.
+DefiLlama 실시간 데이터 기준, Hemi의 sushiswap-v3에서 APY 62.96%예요.
 
 ### HEMI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $763.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $827.2K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,7 +58,7 @@ DefiLlama 실시간 데이터 기준, Hemi의 sushiswap-v3에서 APY 80.06%예�
 
 ### HEMI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 HEMI의 변동성 낮은 후보는 Hemi의 sushiswap-v3, APY 36.40%, TVL $193.9K, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; Ethereum의 curve-dex, APY 28.98%, TVL $111.1K, https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token; Hemi의 sushiswap-v3, APY 80.06%, TVL $135.6K, https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token; Hemi의 sushiswap-v3, APY 39.42%, TVL $323.1K, https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HEMI의 변동성 낮은 후보는 Hemi의 sushiswap-v3, APY 41.89%, TVL $194.4K, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; Ethereum의 curve-dex, APY 39.02%, TVL $114K, https://www.defi.garden/?pool=3e120dd8-7a87-49bd-bb2e-a35bf727fbae&src=seo_token; Hemi의 sushiswap-v3, APY 62.96%, TVL $195.8K, https://www.defi.garden/?pool=fc6e7de6-d4f1-4c60-ad60-5fcfa216cbc0&src=seo_token; Hemi의 sushiswap-v3, APY 44.80%, TVL $323.1K, https://www.defi.garden/?pool=8b7d8749-7fbf-4175-a544-9727b92cae2f&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -74,4 +74,4 @@ APY 이력만 기준으로 비교한 HEMI의 변동성 낮은 후보는 Hemi의 
 - [Hemi](https://www.defi.garden/ko/chains/hemi)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

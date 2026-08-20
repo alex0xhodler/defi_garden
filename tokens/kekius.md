@@ -1,10 +1,10 @@
 # KEKIUS DeFi Yields
 
-The highest honest KEKIUS yield right now is 15.74% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KEKIUS yield right now is 24.06% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=bce397f6-1b0e-4373-9eee-f5d799ba3f91&src=seo_token) | Ethereum | 15.74% | $868.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=bce397f6-1b0e-4373-9eee-f5d799ba3f91&src=seo_token) | Ethereum | 24.06% | $975.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KEKIUS yield today?
 
-15.74% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+24.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many KEKIUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $868.9K in total.
+1 live pool clear this page's $100K TVL floor, $975.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KEKIUS pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

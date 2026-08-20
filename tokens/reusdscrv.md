@@ -1,10 +1,10 @@
 # REUSDSCRV DeFi Yields
 
-The highest honest REUSDSCRV yield right now is 16.30% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REUSDSCRV yield right now is 16.33% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=2904a15c-ecb8-4d5d-895d-b25af8f818e8&src=seo_token) | Ethereum | 16.30% | $1.18M |
+| [yearn-finance →](https://www.defi.garden/?pool=2904a15c-ecb8-4d5d-895d-b25af8f818e8&src=seo_token) | Ethereum | 16.33% | $1.18M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REUSDSCRV yield today?
 
-16.30% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+16.33% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many REUSDSCRV pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank REUSDSCRV pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

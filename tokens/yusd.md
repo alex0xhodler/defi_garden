@@ -66,4 +66,4 @@ Based on APY history only, YUSD's lower-variability candidates are uniswap-v4 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

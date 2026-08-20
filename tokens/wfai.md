@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WFAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $307.5K in total.
+2 live pools clear this page's $100K TVL floor, $307.3K in total.
 
 ### Are these rates safe?
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank WFAI pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

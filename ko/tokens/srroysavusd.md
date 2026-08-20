@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Avalanche의 royco-v2에서 APY 9.29%예�
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

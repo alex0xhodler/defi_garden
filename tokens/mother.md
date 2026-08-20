@@ -1,10 +1,10 @@
 # MOTHER DeFi Yields
 
-The highest honest MOTHER yield right now is 0.31% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOTHER yield right now is 0.35% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=872ad21b-2cd9-4c55-8714-4f43a39dfa11&src=seo_token) | Solana | 0.31% | $331.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=872ad21b-2cd9-4c55-8714-4f43a39dfa11&src=seo_token) | Solana | 0.35% | $343.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOTHER yield today?
 
-0.31% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.35% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MOTHER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $331.9K in total.
+1 live pool clear this page's $100K TVL floor, $343.8K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MOTHER pools. This view cover
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

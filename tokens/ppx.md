@@ -4,7 +4,7 @@ The highest honest PPX yield right now is 0.14% on uniswap-v4 (Base), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3e30e763-daf4-489a-a0f8-056673298ebc&src=seo_token) | Base | 0.14% | $186.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3e30e763-daf4-489a-a0f8-056673298ebc&src=seo_token) | Base | 0.14% | $186.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PPX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $186.5K in total.
+1 live pool clear this page's $100K TVL floor, $186.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PPX pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

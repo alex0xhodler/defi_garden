@@ -1,10 +1,10 @@
 # SBR DeFi Yields
 
-The highest honest SBR yield right now is 1.32% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SBR yield right now is 1.37% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8918ac7e-241c-493c-a630-da046a417298&src=seo_token) | Ethereum | 1.32% | $203.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8918ac7e-241c-493c-a630-da046a417298&src=seo_token) | Ethereum | 1.37% | $219.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SBR yield today?
 
-1.32% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.37% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SBR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $203.6K in total.
+1 live pool clear this page's $100K TVL floor, $219.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SBR pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

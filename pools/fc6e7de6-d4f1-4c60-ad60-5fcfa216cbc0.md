@@ -1,12 +1,12 @@
 # HEMI-USDC.E — sushiswap-v3 on Hemi
 
-**Total APY:** 80.06% (80.06% Base · + 0.00% Rewards)
+**Total APY:** 62.96% (62.96% Base · + 0.00% Rewards)
 
-**TVL:** $135.6K
+**TVL:** $195.8K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 9.30%
+**30d Mean APY:** 9.43%
 
 **Exposure:** multi
 
@@ -22,16 +22,16 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$3,263 in 5y at current rates.
+$1,000 in this pool grows to ~$2,592 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (80.06% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (62.96% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 80.06% right now vs a 9.30% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 62.96% right now vs a 9.43% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$3,263 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$2,592 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on sushiswap-v3](https://sushi.com/?ref=defi.garden)
 
-Last updated August 19, 2026
+Last updated August 20, 2026

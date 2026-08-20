@@ -1,10 +1,10 @@
 # LIQUIDUSD DeFi Yields
 
-The highest honest LIQUIDUSD yield right now is 4.02% on ether.fi-liquid (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIQUIDUSD yield right now is 5.79% on ether.fi-liquid (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ether.fi-liquid →](https://www.defi.garden/?pool=7c12f175-37bc-41db-967a-1d7f1f4a23c4&src=seo_token) | Ethereum | 4.02% | $30.49M |
+| [ether.fi-liquid →](https://www.defi.garden/?pool=7c12f175-37bc-41db-967a-1d7f1f4a23c4&src=seo_token) | Ethereum | 5.79% | $30.49M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIQUIDUSD yield today?
 
-4.02% APY on ether.fi-liquid (Ethereum), based on live DefiLlama data.
+5.79% APY on ether.fi-liquid (Ethereum), based on live DefiLlama data.
 
 ### How many LIQUIDUSD pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LIQUIDUSD pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

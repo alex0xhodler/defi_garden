@@ -1,31 +1,31 @@
 # VAULT 디파이 수익률
 
-현재 VAULT의 가장 높은 정직한 수익률은 OP Mainnet의 40-acres에서 13.90%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 VAULT의 가장 높은 정직한 수익률은 OP Mainnet의 40-acres에서 12.67%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 11.92% | $7.21M |
-| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 13.90% | $848.1K |
-| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 7.86% | $501.6K |
+| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 10.86% | $7.2M |
+| [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 12.67% | $848.1K |
+| [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 7.48% | $500K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 VAULT의 변동성 낮은 후보는 Base의 40-acres, APY 11.92%, TVL $7.21M, https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token; Avalanche의 40-acres, APY 7.86%, TVL $501.6K, https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token; OP Mainnet의 40-acres, APY 13.90%, TVL $848.1K, https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VAULT의 변동성 낮은 후보는 Base의 40-acres, APY 10.86%, TVL $7.2M, https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token; Avalanche의 40-acres, APY 7.48%, TVL $500K, https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token; OP Mainnet의 40-acres, APY 12.67%, TVL $848.1K, https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 11.92% | $7.21M |
-| 2 | [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 7.86% | $501.6K |
-| 3 | [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 13.90% | $848.1K |
+| 1 | [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 10.86% | $7.2M |
+| 2 | [40-acres →](https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token) | Avalanche | 7.48% | $500K |
+| 3 | [40-acres →](https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token) | OP Mainnet | 12.67% | $848.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-VAULT 풀은 여기 3개가 있고, 3개 체인에서 APY가 7.86%부터 13.90%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+VAULT 풀은 여기 3개가 있고, 3개 체인에서 APY가 7.48%부터 12.67%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 12.64%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 12.61%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 3개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -33,9 +33,9 @@ VAULT 풀은 여기 3개가 있고, 3개 체인에서 APY가 7.86%부터 13.90%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| 40-acres | 11.92% | 12.64% | 기본 금리 |
-| 40-acres | 13.90% | 16.41% | 기본 금리 |
-| 40-acres | 7.86% | 11.63% | 기본 금리 |
+| 40-acres | 10.86% | 12.61% | 기본 금리 |
+| 40-acres | 12.67% | 16.32% | 기본 금리 |
+| 40-acres | 7.48% | 11.60% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -43,11 +43,11 @@ VAULT 풀은 여기 3개가 있고, 3개 체인에서 APY가 7.86%부터 13.90%�
 
 ### 오늘 VAULT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, OP Mainnet의 40-acres에서 APY 13.90%예요.
+DefiLlama 실시간 데이터 기준, OP Mainnet의 40-acres에서 APY 12.67%예요.
 
 ### VAULT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $9.21M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $9.2M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,15 +55,15 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 40-acres에서 APY 13.90%예
 
 ### VAULT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 VAULT의 변동성 낮은 후보는 Base의 40-acres, APY 11.92%, TVL $7.21M, https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token; Avalanche의 40-acres, APY 7.86%, TVL $501.6K, https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token; OP Mainnet의 40-acres, APY 13.90%, TVL $848.1K, https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 VAULT의 변동성 낮은 후보는 Base의 40-acres, APY 10.86%, TVL $7.2M, https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token; Avalanche의 40-acres, APY 7.48%, TVL $500K, https://www.defi.garden/?pool=a373b6b1-0a35-4b00-9cfd-79fe7c7b7158&src=seo_token; OP Mainnet의 40-acres, APY 12.67%, TVL $848.1K, https://www.defi.garden/?pool=33d124b0-1f74-466d-aeb1-f52985de323d&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
-- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 
 ## 이용 가능한 체인
@@ -72,4 +72,4 @@ APY 이력만 기준으로 비교한 VAULT의 변동성 낮은 후보는 Base의
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

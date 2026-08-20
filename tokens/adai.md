@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ADAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $460.2K in total.
+2 live pools clear this page's $100K TVL floor, $460.3K in total.
 
 ### Are these rates safe?
 
@@ -67,4 +67,4 @@ Based on APY history only, ADAI's lower-variability candidates are curve-dex (Et
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

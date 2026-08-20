@@ -4,7 +4,7 @@ The highest honest TIPN yield right now is 0.01% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=e378a9f3-0acc-48bb-8c1b-9b155e799d95&src=seo_token) | Base | 0.01% | $525.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e378a9f3-0acc-48bb-8c1b-9b155e799d95&src=seo_token) | Base | 0.01% | $563.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TIPN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $525.3K in total.
+1 live pool clear this page's $100K TVL floor, $563.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TIPN pools. This view covers 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

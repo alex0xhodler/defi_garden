@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Polygon의 quickswap-dex에서 APY 3.30%�
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 19, 2026
+## 마지막 업데이트: August 20, 2026

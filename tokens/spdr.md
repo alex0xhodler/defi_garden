@@ -1,10 +1,10 @@
 # SPDR DeFi Yields
 
-The highest honest SPDR yield right now is 0.05% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPDR yield right now is 2.38% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=c3cf2570-0b31-40b6-b4c9-248098a2ba85&src=seo_token) | Solana | 0.05% | $133.2K |
+| [orca-dex →](https://www.defi.garden/?pool=c3cf2570-0b31-40b6-b4c9-248098a2ba85&src=seo_token) | Solana | 2.38% | $138.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SPDR yield today?
 
-0.05% APY on orca-dex (Solana), based on live DefiLlama data.
+2.38% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SPDR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.2K in total.
+1 live pool clear this page's $100K TVL floor, $138.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SPDR pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

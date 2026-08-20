@@ -4,7 +4,7 @@ The highest honest GLM yield right now is 0.01% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cb7a611-466e-4cfe-8bcc-f9a4ba25e48b&src=seo_token) | Ethereum | 0.01% | $106.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cb7a611-466e-4cfe-8bcc-f9a4ba25e48b&src=seo_token) | Ethereum | 0.01% | $111.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GLM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.4K in total.
+1 live pool clear this page's $100K TVL floor, $111.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GLM pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

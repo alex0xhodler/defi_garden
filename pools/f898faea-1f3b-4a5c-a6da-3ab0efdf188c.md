@@ -1,8 +1,8 @@
 # USDT-MQT — uniswap-v3 on Avalanche
 
-**Total APY:** 0.42% (0.42% Base · + 0.00% Rewards)
+**Total APY:** 0.41% (0.41% Base · + 0.00% Rewards)
 
-**TVL:** $221.1K
+**TVL:** $221.2K
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 19, 2026
+Last updated August 20, 2026

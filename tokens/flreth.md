@@ -4,7 +4,7 @@ The highest honest FLRETH yield right now is 0.05% on kinetic (Flare), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.05% | $1.92M |
+| [kinetic →](https://www.defi.garden/?pool=1b911036-e30b-446e-87a2-b83c4f57cc3e&src=seo_token) | Flare | 0.05% | $2.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FLRETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.92M in total.
+1 live pool clear this page's $100K TVL floor, $2.09M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FLRETH pools. This view cover
 
 - [Flare](https://www.defi.garden/chains/flare)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

@@ -1,10 +1,10 @@
 # PYUSD0 DeFi Yields
 
-The highest honest PYUSD0 yield right now is 10.76% on more-markets (Flow), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PYUSD0 yield right now is 10.77% on more-markets (Flow), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_token) | Flow | 10.76% | $126.2K |
+| [more-markets →](https://www.defi.garden/?pool=107c6769-4a4f-4279-9a5e-f181d78d09dd&src=seo_token) | Flow | 10.77% | $126.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PYUSD0 yield today?
 
-10.76% APY on more-markets (Flow), based on live DefiLlama data.
+10.77% APY on more-markets (Flow), based on live DefiLlama data.
 
 ### How many PYUSD0 pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PYUSD0 pools. This view cover
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

@@ -1,10 +1,10 @@
 # XBG DeFi Yields
 
-The highest honest XBG yield right now is 11.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XBG yield right now is 4.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397&src=seo_token) | Solana | 11.18% | $179.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=7b0b84dc-d49e-4cf8-8dbb-55a6a694d397&src=seo_token) | Solana | 4.10% | $562.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XBG yield today?
 
-11.18% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many XBG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $179.5K in total.
+1 live pool clear this page's $100K TVL floor, $562.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XBG pools. This view covers A
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

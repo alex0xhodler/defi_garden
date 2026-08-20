@@ -1,10 +1,10 @@
 # BIRB DeFi Yields
 
-The highest honest BIRB yield right now is 0.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BIRB yield right now is 0.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token) | Solana | 0.44% | $1.53M |
+| [raydium-amm →](https://www.defi.garden/?pool=e65da47e-838a-4247-b01e-60b8bd9bdc1a&src=seo_token) | Solana | 0.53% | $1.53M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BIRB yield today?
 
-0.44% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BIRB pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BIRB pools. This view covers 
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

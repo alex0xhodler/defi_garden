@@ -1,10 +1,10 @@
 # PARTI DeFi Yields
 
-The highest honest PARTI yield right now is 8.36% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PARTI yield right now is 16.95% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4533a42b-d826-47ca-92c7-3505a89256ae&src=seo_token) | Base | 8.36% | $165.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4533a42b-d826-47ca-92c7-3505a89256ae&src=seo_token) | Base | 16.95% | $171.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PARTI yield today?
 
-8.36% APY on uniswap-v3 (Base), based on live DefiLlama data.
+16.95% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many PARTI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $165.3K in total.
+1 live pool clear this page's $100K TVL floor, $171.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PARTI pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026

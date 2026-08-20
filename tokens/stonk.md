@@ -1,10 +1,10 @@
 # STONK DeFi Yields
 
-The highest honest STONK yield right now is 273.26% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STONK yield right now is 335.89% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614&src=seo_token) | Solana | 273.26% | $293.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=93f4aaea-5905-52ab-8e2b-926490246614&src=seo_token) | Solana | 335.89% | $317K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STONK yield today?
 
-273.26% APY on raydium-amm (Solana), based on live DefiLlama data.
+335.89% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many STONK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $293.4K in total.
+1 live pool clear this page's $100K TVL floor, $317K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STONK pools. This view covers
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 19, 2026
+## Last updated August 20, 2026
