@@ -57,14 +57,7 @@ zone_name = "defi.garden"
 # mode — all money/org-admin, never a loop action): edge/DEPLOY.md §9.
 # Payment contract: edge/X402.md.
 #
-# Add as [vars] (non-secret) below, or `wrangler secret put <NAME>` if ever
-# treated as sensitive — this file does not prescribe which, since none of
-# these are set today:
-#
-#   X402_ENABLED         = "false"        (default when unset; "true"/"1" turns the payment gate ON — HUMAN action)
-#   X402_MODE             = "test"        (default when unset; "test" | "live" — never defaults to live)
-#   X402_NETWORK          = "base-sepolia" (default network for 402 challenges when unset)
-#   X402_ASSET            = ""            (priced-asset contract address; unset -> null, never invented)
-#   X402_PAY_TO           = ""            (settlement wallet/handle; unset -> null, never invented)
-#   X402_FACILITATOR_URL  = ""            (x402 facilitator base URL for live-mode /verify; unset -> live mode fails closed)
-#   WEB_BOT_AUTH_KEYS     = "{}"          (JSON: keyid -> base64url Ed25519 public key; unset -> empty keyring, every signed request honestly resolves 'unverified')
+[vars]
+X402_PAY_TO = "0x1B3bBAb4f9975094b326C6b64644fF2723d163C4"
+X402_NETWORK = "base"
+X402_ASSET = "0x833589fCD6eDb351a47402d5823ca7F192534578"

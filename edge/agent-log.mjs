@@ -171,8 +171,8 @@ const API_CORS_HEADERS = {
   // real request header and needs to READ `X-PAYMENT-RESPONSE` back off the
   // response — CORS blocks both by default unless explicitly allowed/
   // exposed here, regardless of `Access-Control-Allow-Origin: *`.
-  'Access-Control-Allow-Headers': 'Content-Type, X-PAYMENT',
-  'Access-Control-Expose-Headers': 'X-PAYMENT-RESPONSE',
+  'Access-Control-Allow-Headers': 'Content-Type, X-PAYMENT, Authorization, PAYMENT-REQUIRED',
+  'Access-Control-Expose-Headers': 'X-PAYMENT-RESPONSE, PAYMENT-REQUIRED, WWW-Authenticate',
 };
 
 // In-isolate memo (module-level — persists for the isolate's lifetime,
@@ -241,6 +241,15 @@ async function getPools() {
  * unknown /api/* path) is deliberately never gated — see x402-core.js's own
  * header comment ("NULL MEANS NO SUCH RESOURCE") and Territory note 3: a
  * 404 answers nothing, so charging for it would be charging for nothing. */
+function toBase64Utf8(str) {
+  if (typeof Buffer !== 'undefined') {
+    return Buffer.from(str, 'utf8').toString('base64');
+  }
+  return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(_match, p1) {
+    return String.fromCharCode(parseInt(p1, 16));
+  }));
+}
+
 async function handleApi(request, url, env, ctx) {
   if (request.method === 'OPTIONS') {
     return new Response(null, { status: 204, headers: API_CORS_HEADERS });
@@ -301,7 +310,13 @@ async function handleApi(request, url, env, ctx) {
       // 402, never publicly cacheable, same CORS headers /api always sends,
       // body is x402Core.buildChallenge()'s own protocol-conformant shape —
       // see x402Core's own tests (test_x402_core.js) for the shape proof.
-      const res402 = new Response(JSON.stringify(challenge), { status: 402, headers: headersFor(402) });
+      const challengeStr = JSON.stringify(challenge);
+      const base64Challenge = toBase64Utf8(challengeStr);
+      const challengeHeaders = {
+        'PAYMENT-REQUIRED': base64Challenge,
+        'WWW-Authenticate': 'X402 requirements="' + base64Challenge + '"',
+      };
+      const res402 = new Response(challengeStr, { status: 402, headers: headersFor(402, challengeHeaders) });
       try {
         logAgentRead(request, res402, env, ctx, { paymentStatus: core.mapPaymentStatus(paymentResult, true) });
       } catch (_e) { /* never break serving */ }
@@ -392,8 +407,8 @@ const MCP_CORS_HEADERS = {
   // backlog 234 (verifier round 1): same reasoning as API_CORS_HEADERS
   // above — a browser-origin agent calling a paid `tools/call` needs to
   // SEND `X-PAYMENT` and READ `X-PAYMENT-RESPONSE` back.
-  'Access-Control-Allow-Headers': 'Content-Type, X-PAYMENT',
-  'Access-Control-Expose-Headers': 'X-PAYMENT-RESPONSE',
+  'Access-Control-Allow-Headers': 'Content-Type, X-PAYMENT, Authorization, PAYMENT-REQUIRED',
+  'Access-Control-Expose-Headers': 'X-PAYMENT-RESPONSE, PAYMENT-REQUIRED, WWW-Authenticate',
 };
 
 /** Every /mcp JSON response is call-specific (a JSON-RPC result/error tied
@@ -565,7 +580,13 @@ async function handleMcp(request, url, env, ctx) {
       const paymentHeader = request.headers.get('X-PAYMENT');
       paymentResult = await x402Core.verifyPayment({ header: paymentHeader, challenge: challenge, config: x402Config, fetchImpl: fetch });
       if (!paymentResult.paid) {
-        const res402 = new Response(JSON.stringify(challenge), { status: 402, headers: mcpJsonHeaders() });
+        const challengeStr = JSON.stringify(challenge);
+        const base64Challenge = toBase64Utf8(challengeStr);
+        const challengeHeaders = {
+          'PAYMENT-REQUIRED': base64Challenge,
+          'WWW-Authenticate': 'X402 requirements="' + base64Challenge + '"',
+        };
+        const res402 = new Response(challengeStr, { status: 402, headers: mcpJsonHeaders(challengeHeaders) });
         try {
           logAgentRead(request, res402, env, ctx, { paymentStatus: core.mapPaymentStatus(paymentResult, true) });
         } catch (_e) { /* never break serving */ }
