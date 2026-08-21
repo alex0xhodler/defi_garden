@@ -1,10 +1,10 @@
 # SENPYUSDPRIMEV2 DeFi Yields
 
-The highest honest SENPYUSDPRIMEV2 yield right now is 6.29% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SENPYUSDPRIMEV2 yield right now is 6.25% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=f569e486-da2a-41ef-8bfe-1a4db0d1d268&src=seo_token) | Ethereum | 6.29% | $202.23M |
+| [morpho-blue →](https://www.defi.garden/?pool=f569e486-da2a-41ef-8bfe-1a4db0d1d268&src=seo_token) | Ethereum | 6.25% | $202.58M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SENPYUSDPRIMEV2 yield today?
 
-6.29% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+6.25% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many SENPYUSDPRIMEV2 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $202.23M in total.
+1 live pool clear this page's $100K TVL floor, $202.58M in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank SENPYUSDPRIMEV2 pools. This v
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SENPYUSDPRIMEV2 pools. This v
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

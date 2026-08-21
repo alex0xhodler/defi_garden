@@ -4,7 +4,7 @@ The highest honest BITGETUSDT0 yield right now is 2.15% on morpho-blue (Arbitrum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=940650fd-f695-4178-b438-cc52a7cd59e9&src=seo_token) | Arbitrum | 2.15% | $5.27M |
+| [morpho-blue →](https://www.defi.garden/?pool=940650fd-f695-4178-b438-cc52a7cd59e9&src=seo_token) | Arbitrum | 2.15% | $5.16M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BITGETUSDT0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.27M in total.
+1 live pool clear this page's $100K TVL floor, $5.16M in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank BITGETUSDT0 pools. This view 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [LSETH](https://www.defi.garden/tokens/lseth)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

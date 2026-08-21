@@ -1,17 +1,17 @@
 # Polygon 디파이 수익률
 
-현재 Polygon의 가장 높은 정직한 수익률은 Polygon의 hamilton-lane-senior-credit-opportunities-securitize-fund에서 6.78%이며, $100K TVL 기준을 넘는 179개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Polygon의 가장 높은 정직한 수익률은 Polygon의 hamilton-lane-senior-credit-opportunities-securitize-fund에서 6.82%이며, $100K TVL 기준을 넘는 181개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.02% | $57.49M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.25% | $23.06M |
-| BET-USDT | [uniswap-v3 →](https://www.defi.garden/?pool=3e80e8c9-e344-4a52-aea2-d2ae0c204ed3&src=seo_chain) | 0.01% | $17.24M |
-| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_chain) | 2.84% | $12.44M |
-| USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee&src=seo_chain) | 2.90% | $12.12M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=58d18059-f1d1-45ed-acd3-f386e98cc506&src=seo_chain) | 0.02% | $62.3M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc&src=seo_chain) | 0.29% | $23.35M |
+| BET-USDT | [uniswap-v3 →](https://www.defi.garden/?pool=3e80e8c9-e344-4a52-aea2-d2ae0c204ed3&src=seo_chain) | 0.01% | $16.95M |
+| USDC | [aave-v3 →](https://www.defi.garden/?pool=1b8b4cdb-0728-42a8-bf13-2c8fea7427ee&src=seo_chain) | 2.70% | $12.77M |
+| USDT0 | [aave-v3 →](https://www.defi.garden/?pool=7e7821a2-3d20-4ae7-9c3d-04cd57904555&src=seo_chain) | 2.84% | $12.47M |
 | BUIDL | [blackrock-buidl →](https://www.defi.garden/?pool=0715f02b-1803-417f-98ec-4e6e950ff498&src=seo_chain) | 3.54% | $8.48M |
-| WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_chain) | 0.10% | $6.91M |
-| HLSCOPE | [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_chain) | 6.78% | $4.1M |
+| WPOL | [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_chain) | 0.17% | $5.08M |
+| HLSCOPE | [hamilton-lane-senior-credit-opportunities-securitize-fund →](https://www.defi.garden/?pool=6c56fab9-d340-4f63-b84b-18b04df5efe1&src=seo_chain) | 6.82% | $4.1M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -19,11 +19,11 @@
 
 ### 오늘 Polygon의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 hamilton-lane-senior-credit-opportunities-securitize-fund에서 APY 6.78%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 hamilton-lane-senior-credit-opportunities-securitize-fund에서 APY 6.82%예요.
 
 ### Polygon 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 179개이며, 합산 TVL은 $241.02M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 181개이며, 합산 TVL은 $247.34M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,9 +44,9 @@ DefiLlama 실시간 데이터 기준, Polygon의 hamilton-lane-senior-credit-opp
 - [WETH](https://www.defi.garden/ko/tokens/weth)
 - [BET](https://www.defi.garden/ko/tokens/bet)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [WPOL](https://www.defi.garden/ko/tokens/wpol)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

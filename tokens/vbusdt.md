@@ -1,29 +1,29 @@
 # VBUSDT DeFi Yields
 
-The highest honest VBUSDT yield right now is 3.52% on morpho-blue (Katana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBUSDT yield right now is 3.44% on morpho-blue (Katana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 1.94% | $1.95M |
-| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.52% | $1.56M |
+| [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 3.00% | $1.95M |
+| [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.44% | $1.56M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, VBUSDT's lower-variability candidates are yearn-finance (Katana), 1.94% APY, $1.95M TVL, https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token; morpho-blue (Katana), 3.52% APY, $1.56M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBUSDT's lower-variability candidates are yearn-finance (Katana), 3.00% APY, $1.95M TVL, https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token; morpho-blue (Katana), 3.44% APY, $1.56M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 1.94% | $1.95M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.52% | $1.56M |
+| 1 | [yearn-finance →](https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token) | Katana | 3.00% | $1.95M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token) | Katana | 3.44% | $1.56M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-VBUSDT shows up in 2 pools here, with rates from 1.94% to 3.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VBUSDT shows up in 2 pools here, with rates from 3.00% to 3.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.54% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.39% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ VBUSDT shows up in 2 pools here, with rates from 1.94% to 3.52% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 1.94% | 3.89% | 6.01% incentives |
-| morpho-blue | 3.52% | 5.19% | 24.92% incentives |
+| yearn-finance | 3.00% | 3.76% | 30.15% incentives |
+| morpho-blue | 3.44% | 5.03% | 14.49% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,7 +40,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VBUSDT yield today?
 
-3.52% APY on morpho-blue (Katana), based on live DefiLlama data.
+3.44% APY on morpho-blue (Katana), based on live DefiLlama data.
 
 ### How many VBUSDT pools clear the TVL floor?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which VBUSDT pools have the most stable APY history?
 
-Based on APY history only, VBUSDT's lower-variability candidates are yearn-finance (Katana), 1.94% APY, $1.95M TVL, https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token; morpho-blue (Katana), 3.52% APY, $1.56M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, VBUSDT's lower-variability candidates are yearn-finance (Katana), 3.00% APY, $1.95M TVL, https://www.defi.garden/?pool=1bf184d6-57bf-4e96-8831-b65fb9064d38&src=seo_token; morpho-blue (Katana), 3.44% APY, $1.56M TVL, https://www.defi.garden/?pool=5a755e4c-df1c-5890-bfdc-ef9cfca6b5ca&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -61,10 +61,10 @@ Based on APY history only, VBUSDT's lower-variability candidates are yearn-finan
 - [VBWBTC](https://www.defi.garden/tokens/vbwbtc)
 - [YMVOG](https://www.defi.garden/tokens/ymvog)
 - [VBUSDC](https://www.defi.garden/tokens/vbusdc)
-- [GTWETH](https://www.defi.garden/tokens/gtweth)
+- [VBETH](https://www.defi.garden/tokens/vbeth)
 
 ## Available on
 
 - [Katana](https://www.defi.garden/chains/katana)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

@@ -1,10 +1,10 @@
 # GPU DeFi Yields
 
-The highest honest GPU yield right now is 0.94% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GPU yield right now is 3.51% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=d0ae2616-48cf-4c04-a77c-a636c3fa6903&src=seo_token) | Ethereum | 0.94% | $237K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=d0ae2616-48cf-4c04-a77c-a636c3fa6903&src=seo_token) | Ethereum | 3.51% | $258.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GPU yield today?
 
-0.94% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.51% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GPU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $237K in total.
+1 live pool clear this page's $100K TVL floor, $258.6K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank GPU pools. This view covers A
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GPU pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

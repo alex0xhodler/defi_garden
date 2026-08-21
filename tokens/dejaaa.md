@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many DEJAAA pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $598.8K in total.
+3 live pools clear this page's $100K TVL floor, $598.9K in total.
 
 ### Are these rates safe?
 
@@ -54,10 +54,10 @@ There is not enough qualifying APY history to rank DEJAAA pools. This view cover
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

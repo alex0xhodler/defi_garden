@@ -52,12 +52,12 @@ There is not enough qualifying APY history to rank WHT pools. This view covers A
 - [MDX](https://www.defi.garden/tokens/mdx)
 - [DOGE](https://www.defi.garden/tokens/doge)
 - [CON](https://www.defi.garden/tokens/con)
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 
 - [Heco](https://www.defi.garden/chains/heco)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

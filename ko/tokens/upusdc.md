@@ -33,10 +33,10 @@ DefiLlama 실시간 데이터 기준, Ethereum의 upshift에서 APY 9.09%예요.
 
 ## 관련 토큰
 
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 upshift에서 APY 9.09%예요.
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

@@ -1,12 +1,12 @@
 # SFRXUSD-FRXUSD — curve-dex on Ethereum
 
-**Total APY:** 2.95% (2.27% Base · + 0.68% Rewards)
+**Total APY:** 3.00% (2.26% Base · + 0.74% Rewards)
 
 **TVL:** $11.86M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 3.14%
+**30d Mean APY:** 3.13%
 
 **Exposure:** multi
 
@@ -21,14 +21,14 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,156 in 5y at current rates.
+$1,000 in this pool grows to ~$1,159 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 38 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+Steady so far: across the 39 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
-[Garden this pool → ~$1,156 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,159 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 
-Last updated August 20, 2026
+Last updated August 21, 2026

@@ -1,33 +1,33 @@
 # ALCX 디파이 수익률
 
-현재 ALCX의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 25.64%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ALCX의 가장 높은 정직한 수익률은 Ethereum의 convex-finance에서 26.79%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 6.13% | $634K |
-| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 13.65% | $483.6K |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 4.81% | $355.5K |
-| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 25.64% | $344.7K |
-| [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 23.46% | $141.8K |
+| [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 2.63% | $654.3K |
+| [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 13.79% | $488.9K |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 1.67% | $366.3K |
+| [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 26.79% | $348.5K |
+| [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 25.20% | $143.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ALCX의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 23.46%, TVL $141.8K, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token; Ethereum의 sushiswap-v3, APY 4.81%, TVL $355.5K, https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token; Ethereum의 sushiswap, APY 6.13%, TVL $634K, https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token; Ethereum의 curve-dex, APY 13.65%, TVL $483.6K, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; Ethereum의 convex-finance, APY 25.64%, TVL $344.7K, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ALCX의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 25.20%, TVL $143.3K, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token; Ethereum의 sushiswap-v3, APY 1.67%, TVL $366.3K, https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token; Ethereum의 sushiswap, APY 2.63%, TVL $654.3K, https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token; Ethereum의 curve-dex, APY 13.79%, TVL $488.9K, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; Ethereum의 convex-finance, APY 26.79%, TVL $348.5K, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 23.46% | $141.8K |
-| 2 | [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 4.81% | $355.5K |
-| 3 | [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 6.13% | $634K |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 13.65% | $483.6K |
-| 5 | [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 25.64% | $344.7K |
+| 1 | [stake-dao →](https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token) | Ethereum | 25.20% | $143.3K |
+| 2 | [sushiswap-v3 →](https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token) | Ethereum | 1.67% | $366.3K |
+| 3 | [sushiswap →](https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token) | Ethereum | 2.63% | $654.3K |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token) | Ethereum | 13.79% | $488.9K |
+| 5 | [convex-finance →](https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token) | Ethereum | 26.79% | $348.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ALCX 풀은 여기 5개가 있고, 1개 체인에서 APY가 4.81%부터 25.64%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ALCX 풀은 여기 5개가 있고, 1개 체인에서 APY가 1.67%부터 26.79%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.51%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -37,11 +37,11 @@ ALCX 풀은 여기 5개가 있고, 1개 체인에서 APY가 4.81%부터 25.64%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| sushiswap | 6.13% | 1.36% | 기본 금리 |
-| curve-dex | 13.65% | 14.51% | 인센티브 89.23% |
-| sushiswap-v3 | 4.81% | 1.03% | 기본 금리 |
-| convex-finance | 25.64% | 26.94% | 인센티브 94.27% |
-| stake-dao | 23.46% | 25.38% | 인센티브 98.08% |
+| sushiswap | 2.63% | 1.48% | 기본 금리 |
+| curve-dex | 13.79% | 14.51% | 인센티브 95.50% |
+| sushiswap-v3 | 1.67% | 1.11% | 기본 금리 |
+| convex-finance | 26.79% | 26.97% | 인센티브 97.69% |
+| stake-dao | 25.20% | 25.38% | 인센티브 97.90% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -49,11 +49,11 @@ ALCX 풀은 여기 5개가 있고, 1개 체인에서 APY가 4.81%부터 25.64%�
 
 ### 오늘 ALCX의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 25.64%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 26.79%예요.
 
 ### ALCX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $1.96M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $2M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -61,14 +61,14 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 25.64
 
 ### ALCX 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ALCX의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 23.46%, TVL $141.8K, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token; Ethereum의 sushiswap-v3, APY 4.81%, TVL $355.5K, https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token; Ethereum의 sushiswap, APY 6.13%, TVL $634K, https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token; Ethereum의 curve-dex, APY 13.65%, TVL $483.6K, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; Ethereum의 convex-finance, APY 25.64%, TVL $344.7K, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ALCX의 변동성 낮은 후보는 Ethereum의 stake-dao, APY 25.20%, TVL $143.3K, https://www.defi.garden/?pool=e415d94c-8c95-47de-b912-4b17b5b097c3&src=seo_token; Ethereum의 sushiswap-v3, APY 1.67%, TVL $366.3K, https://www.defi.garden/?pool=eba1d5dd-1a86-42ba-9292-3dd35b6c7e4f&src=seo_token; Ethereum의 sushiswap, APY 2.63%, TVL $654.3K, https://www.defi.garden/?pool=1cc9980b-7c86-4303-955e-94c7840c5eea&src=seo_token; Ethereum의 curve-dex, APY 13.79%, TVL $488.9K, https://www.defi.garden/?pool=dc8cd648-9df1-4a15-920f-7af845786469&src=seo_token; Ethereum의 convex-finance, APY 26.79%, TVL $348.5K, https://www.defi.garden/?pool=17d0b914-7a7d-474c-a97b-35062fbd2273&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -76,4 +76,4 @@ APY 이력만 기준으로 비교한 ALCX의 변동성 낮은 후보는 Ethereum
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

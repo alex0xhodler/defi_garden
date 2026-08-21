@@ -1,12 +1,12 @@
 # SIUSD DeFi Yields
 
-The highest honest SIUSD yield right now is 8.94% on pendle (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SIUSD yield right now is 8.57% on pendle (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 5.73% | $29.44M |
-| [pendle →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token) | Ethereum | 8.94% | $125.2K |
-| [pendle →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776&src=seo_token) | Ethereum | 8.06% | $125.2K |
+| [infinifi →](https://www.defi.garden/?pool=8fa2e60e-365a-41fc-8d50-fadde5041f94&src=seo_token) | Ethereum | 5.66% | $28.86M |
+| [pendle →](https://www.defi.garden/?pool=e45b5460-fb26-5c0b-92fd-a1abed86743a&src=seo_token) | Ethereum | 8.57% | $146.9K |
+| [pendle →](https://www.defi.garden/?pool=28c59256-f6c3-56ae-9423-6544f9e81776&src=seo_token) | Ethereum | 7.87% | $146.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,17 +17,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SIUSD shows up in 3 pools here, with rates from 5.73% to 8.94% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SIUSD shows up in 3 pools here, with rates from 5.66% to 8.57% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.99% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.82% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| infinifi | 5.73% | 5.61% | Base rate |
-| pendle | 8.94% | 10.93% | 23.92% incentives |
-| pendle | 8.06% | 8.99% | Base rate |
+| infinifi | 5.66% | 5.62% | Base rate |
+| pendle | 8.57% | 10.59% | 22.07% incentives |
+| pendle | 7.87% | 8.82% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SIUSD yield today?
 
-8.94% APY on pendle (Ethereum), based on live DefiLlama data.
+8.57% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many SIUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $45.56M in total.
+5 live pools clear this page's $100K TVL floor, $44.75M in total.
 
 ### Are these rates safe?
 
@@ -51,10 +51,10 @@ There is not enough qualifying APY history to rank SIUSD pools. This view covers
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank SIUSD pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

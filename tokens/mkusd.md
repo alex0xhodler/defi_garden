@@ -1,10 +1,10 @@
 # MKUSD DeFi Yields
 
-The highest honest MKUSD yield right now is 0.02% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MKUSD yield right now is 0.01% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=6595a5b8-9900-4225-8237-ba63b0d226c6&src=seo_token) | Ethereum | 0.02% | $116.6K |
+| [curve-dex →](https://www.defi.garden/?pool=6595a5b8-9900-4225-8237-ba63b0d226c6&src=seo_token) | Ethereum | 0.01% | $116.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MKUSD yield today?
 
-0.02% APY on curve-dex (Ethereum), based on live DefiLlama data.
+0.01% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many MKUSD pools clear the TVL floor?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank MKUSD pools. This view covers
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MKUSD pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

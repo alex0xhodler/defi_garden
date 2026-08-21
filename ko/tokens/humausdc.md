@@ -1,10 +1,10 @@
 # HUMAUSDC 디파이 수익률
 
-현재 HUMAUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 6.87%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HUMAUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 7.42%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a295b2bd-0d49-4b01-803a-ff96bdcd0d33&src=seo_token) | Ethereum | 6.87% | $14.86M |
+| [morpho-blue →](https://www.defi.garden/?pool=a295b2bd-0d49-4b01-803a-ff96bdcd0d33&src=seo_token) | Ethereum | 7.42% | $15.07M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 HUMAUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.87%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.42%예요.
 
 ### HUMAUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $14.86M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $15.07M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,10 +33,10 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.87%예
 
 ## 관련 토큰
 
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 6.87%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

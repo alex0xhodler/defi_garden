@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank AVUSDC pools. This view cover
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

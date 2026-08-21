@@ -4,8 +4,8 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| TIGER-LION | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_chain) | 6.14% | $7.29M |
-| USDT | [scrubvault →](https://www.defi.garden/?pool=a0c2aee6-f17e-4483-8312-031542fdb67c&src=seo_chain) | 15.00% | $100.1K |
+| TIGER-LION | [scrub-invest →](https://www.defi.garden/?pool=bc34f03d-95fe-4ed6-a809-09df91d44727&src=seo_chain) | 6.13% | $7.22M |
+| USDT | [scrubvault →](https://www.defi.garden/?pool=a0c2aee6-f17e-4483-8312-031542fdb67c&src=seo_chain) | 15.00% | $100.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -17,7 +17,7 @@ DefiLlama 실시간 데이터 기준, Kava의 scrubvault에서 APY 15.00%예요.
 
 ### Kava 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $18.56M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $19.29M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,4 +38,4 @@ DefiLlama 실시간 데이터 기준, Kava의 scrubvault에서 APY 15.00%예요.
 - [LION](https://www.defi.garden/ko/tokens/lion)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

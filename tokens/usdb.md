@@ -4,7 +4,7 @@ The highest honest USDB yield right now is 0.10% on cetus-clmm (Sui), among 4 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.10% | $850K |
+| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.10% | $849K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -49,13 +49,13 @@ There is not enough qualifying APY history to rank USDB pools. This view covers 
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
-- [SUI](https://www.defi.garden/tokens/sui)
-- [BUCK](https://www.defi.garden/tokens/buck)
 - [HASUI](https://www.defi.garden/tokens/hasui)
+- [BUCK](https://www.defi.garden/tokens/buck)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

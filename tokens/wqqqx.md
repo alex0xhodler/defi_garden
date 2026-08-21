@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank WQQQX pools. This view covers
 
 ## Related tokens
 
-- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [KII](https://www.defi.garden/tokens/kii)
 - [BSB](https://www.defi.garden/tokens/bsb)
+- [BILL](https://www.defi.garden/tokens/bill)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

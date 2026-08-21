@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [amply-finance →](https://www.defi.garden/?pool=e6611219-1e6f-4904-91fd-9831eb6ff041&src=seo_token) | Cronos zkEVM | 0.01% | $131.1K |
+| [amply-finance →](https://www.defi.garden/?pool=e6611219-1e6f-4904-91fd-9831eb6ff041&src=seo_token) | Cronos zkEVM | 0.01% | $139.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Cronos zkEVM의 amply-finance에서 APY 0.
 
 ### WZKCRO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $131.1K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $139.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,10 +33,10 @@ DefiLlama 실시간 데이터 기준, Cronos zkEVM의 amply-finance에서 APY 0.
 
 ## 관련 토큰
 
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Cronos zkEVM의 amply-finance에서 APY 0.
 
 - [Cronos zkEVM](https://www.defi.garden/ko/chains/cronos-zkevm)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

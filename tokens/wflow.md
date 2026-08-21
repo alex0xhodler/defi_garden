@@ -4,7 +4,7 @@ The highest honest WFLOW yield right now is 1.92% on more-markets (Flow), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_token) | Flow | 1.92% | $450.9K |
+| [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_token) | Flow | 1.92% | $453.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WFLOW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $450.9K in total.
+1 live pool clear this page's $100K TVL floor, $453.9K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank WFLOW pools. This view covers
 - [ANKRFLOWEVM](https://www.defi.garden/tokens/ankrflowevm)
 - [STGUSDC](https://www.defi.garden/tokens/stgusdc)
 - [PYUSD0](https://www.defi.garden/tokens/pyusd0)
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

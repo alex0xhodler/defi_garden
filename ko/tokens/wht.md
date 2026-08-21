@@ -52,12 +52,12 @@ DefiLlama 실시간 데이터 기준, Heco의 mdex에서 APY 0.98%예요.
 - [MDX](https://www.defi.garden/ko/tokens/mdx)
 - [DOGE](https://www.defi.garden/ko/tokens/doge)
 - [CON](https://www.defi.garden/ko/tokens/con)
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 
 ## 이용 가능한 체인
 
 - [Heco](https://www.defi.garden/ko/chains/heco)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

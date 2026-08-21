@@ -1,10 +1,10 @@
 # CSUSDCCORE DeFi Yields
 
-The highest honest CSUSDCCORE yield right now is 5.79% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSUSDCCORE yield right now is 5.66% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=32ab021e-6faa-46e2-b609-f15f34d25b09&src=seo_token) | Ethereum | 5.79% | $764K |
+| [morpho-blue →](https://www.defi.garden/?pool=32ab021e-6faa-46e2-b609-f15f34d25b09&src=seo_token) | Ethereum | 5.66% | $764.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSUSDCCORE yield today?
 
-5.79% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.66% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many CSUSDCCORE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $764K in total.
+1 live pool clear this page's $100K TVL floor, $764.2K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank CSUSDCCORE pools. This view c
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CSUSDCCORE pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

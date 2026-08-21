@@ -1,8 +1,8 @@
 # USDC-ARCX — uniswap-v3 on Base
 
-**Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
+**Total APY:** 0.02% (0.02% Base · + 0.00% Rewards)
 
-**TVL:** $259.9K
+**TVL:** $259.8K
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 20, 2026
+Last updated August 21, 2026

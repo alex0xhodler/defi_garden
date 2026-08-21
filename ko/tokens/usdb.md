@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.10% | $850K |
+| [cetus-clmm →](https://www.defi.garden/?pool=a5be7327-3935-4839-b73a-810f5c2dbf82&src=seo_token) | Sui | 0.10% | $849K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -49,13 +49,13 @@ DefiLlama 실시간 데이터 기준, Sui의 cetus-clmm에서 APY 0.10%예요.
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [SUI](https://www.defi.garden/ko/tokens/sui)
-- [BUCK](https://www.defi.garden/ko/tokens/buck)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
+- [BUCK](https://www.defi.garden/ko/tokens/buck)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

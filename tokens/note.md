@@ -4,7 +4,7 @@ The highest honest NOTE yield right now is 32.06% on canto-lending (Canto), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [canto-lending →](https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token) | Canto | 32.06% | $116.1K |
+| [canto-lending →](https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token) | Canto | 32.06% | $113.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NOTE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $291.7K in total.
+2 live pools clear this page's $100K TVL floor, $296.3K in total.
 
 ### Are these rates safe?
 
@@ -50,14 +50,14 @@ There is not enough qualifying APY history to rank NOTE pools. This view covers 
 ## Related tokens
 
 - [WCANTO](https://www.defi.garden/tokens/wcanto)
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Canto](https://www.defi.garden/chains/canto)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

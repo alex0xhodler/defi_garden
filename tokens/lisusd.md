@@ -1,48 +1,27 @@
 # LISUSD DeFi Yields
 
-The highest honest LISUSD yield right now is 1.09% on venus-core-pool (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LISUSD yield right now is 1.02% on lista-lending (BSC), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lista-lending →](https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token) | BSC | 0.97% | $28.49M |
-| [venus-core-pool →](https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token) | BSC | 1.09% | $665.5K |
+| [lista-lending →](https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token) | BSC | 1.02% | $28.5M |
 
-<!-- rate-stability:ranked -->
+<!-- rate-stability:insufficient -->
 ## Rate stability from APY history
 
-Based on APY history only, LISUSD's lower-variability candidates are lista-lending (BSC), 0.97% APY, $28.49M TVL, https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token; venus-core-pool (BSC), 1.09% APY, $665.5K TVL, https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
-
-| Rank | Protocol | Chain | APY | TVL |
-|---|---|---|---|---|
-| 1 | [lista-lending →](https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token) | BSC | 0.97% | $28.49M |
-| 2 | [venus-core-pool →](https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token) | BSC | 1.09% | $665.5K |
+There is not enough qualifying APY history to rank LISUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
-
-## How this rate has behaved
-
-LISUSD shows up in 2 pools here, with rates from 0.97% to 1.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
-
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.07% — a useful check against today's number for whether the rate is steady or just having a good day.
-
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-| Protocol | APY | 30d Mean APY | Yield mix |
-|---|---|---|---|
-| lista-lending | 0.97% | 1.04% | Base rate |
-| venus-core-pool | 1.09% | 1.11% | Base rate |
-
-The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
 ## Frequently asked questions
 
 ### What's the highest LISUSD yield today?
 
-1.09% APY on venus-core-pool (BSC), based on live DefiLlama data.
+1.02% APY on lista-lending (BSC), based on live DefiLlama data.
 
 ### How many LISUSD pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $29.16M in total.
+1 live pool clear this page's $100K TVL floor, $28.5M in total.
 
 ### Are these rates safe?
 
@@ -50,7 +29,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LISUSD pools have the most stable APY history?
 
-Based on APY history only, LISUSD's lower-variability candidates are lista-lending (BSC), 0.97% APY, $28.49M TVL, https://www.defi.garden/?pool=9f1fc935-5bd3-4327-aefe-6f09045bf092&src=seo_token; venus-core-pool (BSC), 1.09% APY, $665.5K TVL, https://www.defi.garden/?pool=9f44dab4-eaba-4f79-b86d-648e010edf0c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+There is not enough qualifying APY history to rank LISUSD pools. This view covers APY history only and does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -58,11 +37,11 @@ Based on APY history only, LISUSD's lower-variability candidates are lista-lendi
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USYC](https://www.defi.garden/tokens/usyc)
-- [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)
+- [BTCB](https://www.defi.garden/tokens/btcb)
 
 ## Available on
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

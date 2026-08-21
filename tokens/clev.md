@@ -1,10 +1,10 @@
 # CLEV DeFi Yields
 
-The highest honest CLEV yield right now is 5.20% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLEV yield right now is 5.07% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=f525ce6d-93e9-4e84-a620-5f631603e8f0&src=seo_token) | Ethereum | 5.20% | $227.5K |
+| [curve-dex →](https://www.defi.garden/?pool=f525ce6d-93e9-4e84-a620-5f631603e8f0&src=seo_token) | Ethereum | 5.07% | $255.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CLEV yield today?
 
-5.20% APY on curve-dex (Ethereum), based on live DefiLlama data.
+5.07% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many CLEV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $227.5K in total.
+1 live pool clear this page's $100K TVL floor, $255.6K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank CLEV pools. This view covers 
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CLEV pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

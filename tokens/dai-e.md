@@ -1,10 +1,10 @@
 # DAI.E DeFi Yields
 
-The highest honest DAI.E yield right now is 1.75% on aave-v3 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAI.E yield right now is 1.76% on aave-v3 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=3e669ce8-74c5-4fc9-bf85-f40a924c6407&src=seo_token) | Avalanche | 1.75% | $1.72M |
+| [aave-v3 →](https://www.defi.garden/?pool=3e669ce8-74c5-4fc9-bf85-f40a924c6407&src=seo_token) | Avalanche | 1.76% | $1.72M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAI.E yield today?
 
-1.75% APY on aave-v3 (Avalanche), based on live DefiLlama data.
+1.76% APY on aave-v3 (Avalanche), based on live DefiLlama data.
 
 ### How many DAI.E pools clear the TVL floor?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank DAI.E pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

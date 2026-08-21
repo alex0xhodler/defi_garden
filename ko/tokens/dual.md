@@ -1,10 +1,10 @@
 # DUAL 디파이 수익률
 
-현재 DUAL의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 2.31%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DUAL의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 1.58%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f3a83af1-141c-4ebb-9aa2-b0a705a1ec61&src=seo_token) | Ethereum | 2.31% | $593K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f3a83af1-141c-4ebb-9aa2-b0a705a1ec61&src=seo_token) | Ethereum | 1.58% | $631.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 DUAL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 2.31%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 1.58%예요.
 
 ### DUAL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $593K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $631.5K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,10 +33,10 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 2.31%예�
 
 ## 관련 토큰
 
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 2.31%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

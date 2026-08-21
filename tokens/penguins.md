@@ -1,10 +1,10 @@
 # PENGUINS DeFi Yields
 
-The highest honest PENGUINS yield right now is 33.10% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PENGUINS yield right now is 35.84% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1e09422b-66dc-4875-a37c-55015beebacc&src=seo_token) | Base | 33.10% | $184.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1e09422b-66dc-4875-a37c-55015beebacc&src=seo_token) | Base | 35.84% | $189.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PENGUINS yield today?
 
-33.10% APY on uniswap-v3 (Base), based on live DefiLlama data.
+35.84% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many PENGUINS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $184.3K in total.
+1 live pool clear this page's $100K TVL floor, $189.2K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PENGUINS pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

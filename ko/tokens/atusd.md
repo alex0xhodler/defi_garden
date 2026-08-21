@@ -34,14 +34,14 @@ DefiLlama 실시간 데이터 기준, Gravity의 latch에서 APY 0.29%예요.
 ## 관련 토큰
 
 - [ATETH](https://www.defi.garden/ko/tokens/ateth)
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 
 ## 이용 가능한 체인
 
 - [Gravity](https://www.defi.garden/ko/chains/gravity)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

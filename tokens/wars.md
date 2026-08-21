@@ -4,27 +4,27 @@ The highest honest WARS yield right now is 24.00% on morpho-blue (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.00% | $5.12M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 0.01% | $480.8K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 0.95% | $274.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=c4c879b1-f256-5bc3-81eb-d93adf2b8a39&src=seo_token) | Ethereum | 24.00% | $5.15M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 0.26% | $482.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 0.57% | $276K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 0.01% APY, $480.8K TVL, https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token; uniswap-v4 (Ethereum), 0.95% APY, $274.7K TVL, https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 0.26% APY, $482.9K TVL, https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token; uniswap-v4 (Ethereum), 0.57% APY, $276K TVL, https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 0.01% | $480.8K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 0.95% | $274.7K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token) | Base | 0.26% | $482.9K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token) | Ethereum | 0.57% | $276K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WARS shows up in 3 pools here, with rates from 0.01% to 24.00% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+WARS shows up in 3 pools here, with rates from 0.26% to 24.00% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 6.16% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 3 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -32,9 +32,9 @@ WARS shows up in 3 pools here, with rates from 0.01% to 24.00% APY across 2 chai
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 24.00% | 7.84% | 99.06% incentives |
-| uniswap-v4 | 0.01% | 1.14% | Base rate |
-| uniswap-v4 | 0.95% | 6.61% | Base rate |
+| morpho-blue | 24.00% | 8.53% | 99.03% incentives |
+| uniswap-v4 | 0.26% | 1.11% | Base rate |
+| uniswap-v4 | 0.57% | 6.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,7 +46,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WARS pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $5.88M in total.
+3 live pools clear this page's $100K TVL floor, $5.91M in total.
 
 ### Are these rates safe?
 
@@ -54,14 +54,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WARS pools have the most stable APY history?
 
-Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 0.01% APY, $480.8K TVL, https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token; uniswap-v4 (Ethereum), 0.95% APY, $274.7K TVL, https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (Base), 0.26% APY, $482.9K TVL, https://www.defi.garden/?pool=db6a2517-d714-4b7c-b380-a06984f1c0e1&src=seo_token; uniswap-v4 (Ethereum), 0.57% APY, $276K TVL, https://www.defi.garden/?pool=f768c50b-d4b0-4ed8-921f-ed053e542d73&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -70,4 +70,4 @@ Based on APY history only, WARS's lower-variability candidates are uniswap-v4 (B
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

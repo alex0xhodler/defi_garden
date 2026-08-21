@@ -4,36 +4,36 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token) | Ethereum | 8.57% | $542.3K |
-| [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token) | Ethereum | 22.06% | $276.3K |
-| [stake-dao →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token) | Ethereum | 19.07% | $163.8K |
+| [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token) | Ethereum | 11.14% | $547.4K |
+| [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token) | Ethereum | 22.06% | $278.9K |
+| [stake-dao →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token) | Ethereum | 20.53% | $165.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CVCRVUSD의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 22.06%, TVL $276.3K, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token; Ethereum의 curve-dex, APY 8.57%, TVL $542.3K, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token; Ethereum의 stake-dao, APY 19.07%, TVL $163.8K, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CVCRVUSD의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 22.06%, TVL $278.9K, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token; Ethereum의 curve-dex, APY 11.14%, TVL $547.4K, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token; Ethereum의 stake-dao, APY 20.53%, TVL $165.3K, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token) | Ethereum | 22.06% | $276.3K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token) | Ethereum | 8.57% | $542.3K |
-| 3 | [stake-dao →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token) | Ethereum | 19.07% | $163.8K |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token) | Ethereum | 22.06% | $278.9K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token) | Ethereum | 11.14% | $547.4K |
+| 3 | [stake-dao →](https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token) | Ethereum | 20.53% | $165.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CVCRVUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 8.57%부터 22.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CVCRVUSD 풀은 여기 3개가 있고, 1개 체인에서 APY가 11.14%부터 22.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.92%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 15.03%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 3개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| curve-dex | 8.57% | 8.42% | 인센티브 100.00% |
-| convex-finance | 22.06% | 16.35% | 인센티브 84.54% |
-| stake-dao | 19.07% | 14.92% | 인센티브 82.12% |
+| curve-dex | 11.14% | 8.50% | 인센티브 83.49% |
+| convex-finance | 22.06% | 16.57% | 인센티브 91.66% |
+| stake-dao | 20.53% | 15.03% | 인센티브 82.07% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 22.06
 
 ### CVCRVUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $982.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $991.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -53,14 +53,14 @@ DefiLlama 실시간 데이터 기준, Ethereum의 convex-finance에서 APY 22.06
 
 ### CVCRVUSD 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CVCRVUSD의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 22.06%, TVL $276.3K, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token; Ethereum의 curve-dex, APY 8.57%, TVL $542.3K, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token; Ethereum의 stake-dao, APY 19.07%, TVL $163.8K, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CVCRVUSD의 변동성 낮은 후보는 Ethereum의 convex-finance, APY 22.06%, TVL $278.9K, https://www.defi.garden/?pool=184e49b8-644a-434c-9628-089b6213c273&src=seo_token; Ethereum의 curve-dex, APY 11.14%, TVL $547.4K, https://www.defi.garden/?pool=5ae68ccd-1f75-42a7-a2e6-23f80e98b874&src=seo_token; Ethereum의 stake-dao, APY 20.53%, TVL $165.3K, https://www.defi.garden/?pool=92c51b42-a228-41d0-a656-628601219660&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -68,4 +68,4 @@ APY 이력만 기준으로 비교한 CVCRVUSD의 변동성 낮은 후보는 Ethe
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

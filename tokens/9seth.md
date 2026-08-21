@@ -1,10 +1,10 @@
 # 9SETH DeFi Yields
 
-The highest honest 9SETH yield right now is 4.04% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 9SETH yield right now is 3.55% on lagoon (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=a5642791-1d8f-4b00-8609-55b710a45dd3&src=seo_token) | Ethereum | 4.04% | $3.7M |
+| [lagoon →](https://www.defi.garden/?pool=a5642791-1d8f-4b00-8609-55b710a45dd3&src=seo_token) | Ethereum | 3.55% | $4.67M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 9SETH yield today?
 
-4.04% APY on lagoon (Ethereum), based on live DefiLlama data.
+3.55% APY on lagoon (Ethereum), based on live DefiLlama data.
 
 ### How many 9SETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.7M in total.
+1 live pool clear this page's $100K TVL floor, $4.67M in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank 9SETH pools. This view covers
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank 9SETH pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

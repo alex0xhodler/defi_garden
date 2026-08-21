@@ -1,10 +1,10 @@
 # ALFRXETH DeFi Yields
 
-The highest honest ALFRXETH yield right now is 2.41% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALFRXETH yield right now is 2.47% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=5679b275-efda-4296-92bf-7f8fcdbc3d9d&src=seo_token) | Ethereum | 2.41% | $167.7K |
+| [yearn-finance →](https://www.defi.garden/?pool=5679b275-efda-4296-92bf-7f8fcdbc3d9d&src=seo_token) | Ethereum | 2.47% | $171.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALFRXETH yield today?
 
-2.41% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+2.47% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many ALFRXETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $167.7K in total.
+1 live pool clear this page's $100K TVL floor, $171.7K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank ALFRXETH pools. This view cov
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ALFRXETH pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

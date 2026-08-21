@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=940650fd-f695-4178-b438-cc52a7cd59e9&src=seo_token) | Arbitrum | 2.15% | $5.27M |
+| [morpho-blue →](https://www.defi.garden/?pool=940650fd-f695-4178-b438-cc52a7cd59e9&src=seo_token) | Arbitrum | 2.15% | $5.16M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 morpho-blue에서 APY 2.15%예
 
 ### BITGETUSDT0 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $5.27M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $5.16M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,10 +38,10 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 morpho-blue에서 APY 2.15%예
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
-- [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
+- [LSETH](https://www.defi.garden/ko/tokens/lseth)
 
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

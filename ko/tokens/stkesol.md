@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.45% | $53.04M |
+| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.45% | $55.35M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Solana의 stkesol-by-sol-strategies에서 
 
 ### STKESOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $60.92M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $63.55M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,10 +52,10 @@ DefiLlama 실시간 데이터 기준, Solana의 stkesol-by-sol-strategies에서 
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

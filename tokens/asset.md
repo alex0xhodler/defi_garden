@@ -1,10 +1,10 @@
 # ASSET DeFi Yields
 
-The highest honest ASSET yield right now is 7.62% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASSET yield right now is 4.16% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=227e6334-cd9a-426e-814a-499af64cf449&src=seo_token) | Ethereum | 7.62% | $1.58M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=227e6334-cd9a-426e-814a-499af64cf449&src=seo_token) | Ethereum | 4.16% | $1.56M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ASSET yield today?
 
-7.62% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+4.16% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ASSET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.58M in total.
+1 live pool clear this page's $100K TVL floor, $1.56M in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank ASSET pools. This view covers
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ASSET pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

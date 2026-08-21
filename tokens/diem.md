@@ -1,33 +1,33 @@
 # DIEM DeFi Yields
 
-The highest honest DIEM yield right now is 97.89% on aerodrome-slipstream (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DIEM yield right now is 31.61% on uniswap-v3 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 0.35% | $6.23M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 21.33% | $4.71M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 97.89% | $354.9K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 147.23% | $237.6K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 0.38% | $6.16M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 17.81% | $4.66M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 52.76% | $340.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 31.61% | $235.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, DIEM's lower-variability candidates are aerodrome-v1 (Base), 0.35% APY, $6.23M TVL, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; aerodrome-slipstream (Base), 21.33% APY, $4.71M TVL, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; uniswap-v3 (Base), 147.23% APY, $237.6K TVL, https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token; aerodrome-slipstream (Base), 97.89% APY, $354.9K TVL, https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DIEM's lower-variability candidates are aerodrome-v1 (Base), 0.38% APY, $6.16M TVL, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; aerodrome-slipstream (Base), 17.81% APY, $4.66M TVL, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; uniswap-v3 (Base), 31.61% APY, $235.5K TVL, https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token; aerodrome-slipstream (Base), 52.76% APY, $340.2K TVL, https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 0.35% | $6.23M |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 21.33% | $4.71M |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 147.23% | $237.6K |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 97.89% | $354.9K |
+| 1 | [aerodrome-v1 →](https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token) | Base | 0.38% | $6.16M |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token) | Base | 17.81% | $4.66M |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token) | Base | 31.61% | $235.5K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token) | Base | 52.76% | $340.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-DIEM shows up in 4 pools here, with rates from 0.35% to 147.23% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+DIEM shows up in 4 pools here, with rates from 0.38% to 52.76% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 37.23% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 37.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ DIEM shows up in 4 pools here, with rates from 0.35% to 147.23% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-v1 | 0.35% | 3.73% | 100.00% incentives |
-| aerodrome-slipstream | 21.33% | 18.84% | 100.00% incentives |
-| aerodrome-slipstream | 97.89% | 111.58% | 100.00% incentives |
-| uniswap-v3 | 147.23% | 55.62% | Base rate |
+| aerodrome-v1 | 0.38% | 3.60% | 100.00% incentives |
+| aerodrome-slipstream | 17.81% | 18.27% | 100.00% incentives |
+| aerodrome-slipstream | 52.76% | 107.12% | 100.00% incentives |
+| uniswap-v3 | 31.61% | 57.08% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest DIEM yield today?
 
-97.89% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+31.61% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many DIEM pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $12.09M in total.
+5 live pools clear this page's $100K TVL floor, $11.95M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which DIEM pools have the most stable APY history?
 
-Based on APY history only, DIEM's lower-variability candidates are aerodrome-v1 (Base), 0.35% APY, $6.23M TVL, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; aerodrome-slipstream (Base), 21.33% APY, $4.71M TVL, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; uniswap-v3 (Base), 147.23% APY, $237.6K TVL, https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token; aerodrome-slipstream (Base), 97.89% APY, $354.9K TVL, https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, DIEM's lower-variability candidates are aerodrome-v1 (Base), 0.38% APY, $6.16M TVL, https://www.defi.garden/?pool=7dff6cc0-5cdb-42cc-afa0-3b647f071399&src=seo_token; aerodrome-slipstream (Base), 17.81% APY, $4.66M TVL, https://www.defi.garden/?pool=c5bfb4c1-f788-4d05-8714-42c603c81534&src=seo_token; uniswap-v3 (Base), 31.61% APY, $235.5K TVL, https://www.defi.garden/?pool=6d3763f2-b4c3-4c95-ae28-4248cb9c0358&src=seo_token; aerodrome-slipstream (Base), 52.76% APY, $340.2K TVL, https://www.defi.garden/?pool=7944b313-e6ee-42b2-a5c8-a26446e37621&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -73,4 +73,4 @@ Based on APY history only, DIEM's lower-variability candidates are aerodrome-v1 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

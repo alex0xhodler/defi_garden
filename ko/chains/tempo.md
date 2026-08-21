@@ -1,11 +1,11 @@
 # Tempo 디파이 수익률
 
-현재 Tempo의 가장 높은 정직한 수익률은 Tempo의 morpho-blue에서 3.23%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Tempo의 가장 높은 정직한 수익률은 Tempo의 morpho-blue에서 3.25%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11&src=seo_chain) | 2.27% | $22.9M |
-| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_chain) | 3.23% | $287K |
+| SENPATHUSD | [morpho-blue →](https://www.defi.garden/?pool=8ee39d92-b2b7-457b-b636-46e655892a11&src=seo_chain) | 2.28% | $23.12M |
+| GTPATHUSDP | [morpho-blue →](https://www.defi.garden/?pool=c9ea92cc-f58c-495f-a664-077823a70386&src=seo_chain) | 3.25% | $286.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 Tempo의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Tempo의 morpho-blue에서 APY 3.23%예요.
+DefiLlama 실시간 데이터 기준, Tempo의 morpho-blue에서 APY 3.25%예요.
 
 ### Tempo 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $39.81M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $41.4M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Tempo의 morpho-blue에서 APY 3.23%예요
 - [SENPATHUSD](https://www.defi.garden/ko/tokens/senpathusd)
 - [GTPATHUSDP](https://www.defi.garden/ko/tokens/gtpathusdp)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

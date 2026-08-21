@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank SRROYSUSDAI pools. This view 
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [LSETH](https://www.defi.garden/tokens/lseth)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

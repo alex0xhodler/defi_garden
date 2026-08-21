@@ -1,11 +1,10 @@
 # Defichain 디파이 수익률
 
-현재 Defichain의 가장 높은 정직한 수익률은 Defichain의 defichain-dex에서 0.18%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Defichain의 가장 높은 정직한 수익률은 Defichain의 defichain-dex에서 1.75%이며, $100K TVL 기준을 넘는 7개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 1.39% | $694.2K |
-| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_chain) | 0.18% | $202.1K |
+| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_chain) | 1.75% | $208.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +12,11 @@
 
 ### 오늘 Defichain의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Defichain의 defichain-dex에서 APY 0.18%예요.
+DefiLlama 실시간 데이터 기준, Defichain의 defichain-dex에서 APY 1.75%예요.
 
 ### Defichain 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $3.56M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 7개이며, 합산 TVL은 $3.57M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,8 +33,7 @@ DefiLlama 실시간 데이터 기준, Defichain의 defichain-dex에서 APY 0.18%
 
 ## Defichain의 인기 토큰
 
-- [DUSD](https://www.defi.garden/ko/tokens/dusd)
-- [DFI](https://www.defi.garden/ko/tokens/dfi)
 - [MSTR](https://www.defi.garden/ko/tokens/mstr)
+- [DUSD](https://www.defi.garden/ko/tokens/dusd)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

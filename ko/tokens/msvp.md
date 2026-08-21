@@ -38,10 +38,10 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.05%예�
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

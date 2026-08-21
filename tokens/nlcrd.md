@@ -1,10 +1,10 @@
 # NLCRD DeFi Yields
 
-The highest honest NLCRD yield right now is 12.71% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NLCRD yield right now is 18.43% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c&src=seo_token) | Plume Mainnet | 12.71% | $2.11M |
+| [nest-credit →](https://www.defi.garden/?pool=6249eadc-249b-4227-92a2-d8676a1df08c&src=seo_token) | Plume Mainnet | 18.43% | $2.12M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NLCRD yield today?
 
-12.71% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+18.43% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NLCRD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.11M in total.
+1 live pool clear this page's $100K TVL floor, $2.12M in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank NLCRD pools. This view covers
 - [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
-- [NCLOA](https://www.defi.garden/tokens/ncloa)
+- [NAXI](https://www.defi.garden/tokens/naxi)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

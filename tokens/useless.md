@@ -1,29 +1,29 @@
 # USELESS DeFi Yields
 
-The highest honest USELESS yield right now is 49.85% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USELESS yield right now is 105.47% on orca-dex (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token) | Solana | 18.24% | $1.74M |
-| [orca-dex →](https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token) | Solana | 49.85% | $161.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token) | Solana | 39.49% | $1.89M |
+| [orca-dex →](https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token) | Solana | 105.47% | $184.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USELESS's lower-variability candidates are orca-dex (Solana), 49.85% APY, $161.4K TVL, https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token; raydium-amm (Solana), 18.24% APY, $1.74M TVL, https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USELESS's lower-variability candidates are orca-dex (Solana), 105.47% APY, $184.9K TVL, https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token; raydium-amm (Solana), 39.49% APY, $1.89M TVL, https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [orca-dex →](https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token) | Solana | 49.85% | $161.4K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token) | Solana | 18.24% | $1.74M |
+| 1 | [orca-dex →](https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token) | Solana | 105.47% | $184.9K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token) | Solana | 39.49% | $1.89M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-USELESS shows up in 2 pools here, with rates from 18.24% to 49.85% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USELESS shows up in 2 pools here, with rates from 39.49% to 105.47% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 29.61% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 29.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 18.24% | 16.55% | Base rate |
-| orca-dex | 49.85% | 42.67% | Base rate |
+| raydium-amm | 39.49% | 16.90% | Base rate |
+| orca-dex | 105.47% | 42.21% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USELESS yield today?
 
-49.85% APY on orca-dex (Solana), based on live DefiLlama data.
+105.47% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many USELESS pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.9M in total.
+2 live pools clear this page's $100K TVL floor, $2.08M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USELESS pools have the most stable APY history?
 
-Based on APY history only, USELESS's lower-variability candidates are orca-dex (Solana), 49.85% APY, $161.4K TVL, https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token; raydium-amm (Solana), 18.24% APY, $1.74M TVL, https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USELESS's lower-variability candidates are orca-dex (Solana), 105.47% APY, $184.9K TVL, https://www.defi.garden/?pool=d0dc7d4d-f498-4d32-ac19-183c55109f09&src=seo_token; raydium-amm (Solana), 39.49% APY, $1.89M TVL, https://www.defi.garden/?pool=99d4b1c8-9e7b-45d7-8603-260d9846866c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -61,10 +61,10 @@ Based on APY history only, USELESS's lower-variability candidates are orca-dex (
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

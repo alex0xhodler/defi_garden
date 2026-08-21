@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_token) | Flow | 1.92% | $450.9K |
+| [more-markets →](https://www.defi.garden/?pool=bc3005b3-c072-419d-ab4d-ca6ccc58a7cc&src=seo_token) | Flow | 1.92% | $453.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Flow의 more-markets에서 APY 1.92%예요
 
 ### WFLOW 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $450.9K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $453.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, Flow의 more-markets에서 APY 1.92%예요
 - [ANKRFLOWEVM](https://www.defi.garden/ko/tokens/ankrflowevm)
 - [STGUSDC](https://www.defi.garden/ko/tokens/stgusdc)
 - [PYUSD0](https://www.defi.garden/ko/tokens/pyusd0)
-- [STETH](https://www.defi.garden/ko/tokens/steth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [STETH](https://www.defi.garden/ko/tokens/steth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 
 ## 이용 가능한 체인
 
 - [Flow](https://www.defi.garden/ko/chains/flow)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

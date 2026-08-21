@@ -1,10 +1,10 @@
 # KEKEC DeFi Yields
 
-The highest honest KEKEC yield right now is 0.80% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest KEKEC yield right now is 3.35% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9738e397-c5ba-4d62-b560-d27cd55142c4&src=seo_token) | Ethereum | 0.80% | $267.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9738e397-c5ba-4d62-b560-d27cd55142c4&src=seo_token) | Ethereum | 3.35% | $304.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest KEKEC yield today?
 
-0.80% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.35% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many KEKEC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $267.8K in total.
+1 live pool clear this page's $100K TVL floor, $304.9K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank KEKEC pools. This view covers
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KEKEC pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

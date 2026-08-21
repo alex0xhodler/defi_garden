@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ARCHGV1USDC pools. This view 
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ATUSD pools. This view covers
 ## Related tokens
 
 - [ATETH](https://www.defi.garden/tokens/ateth)
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Gravity](https://www.defi.garden/chains/gravity)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

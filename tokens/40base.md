@@ -1,10 +1,10 @@
 # 40BASE DeFi Yields
 
-The highest honest 40BASE yield right now is 10.86% on 40-acres (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 40BASE yield right now is 12.24% on 40-acres (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 10.86% | $7.2M |
+| [40-acres →](https://www.defi.garden/?pool=35b00f23-d8f5-4a9c-822c-c323fb164215&src=seo_token) | Base | 12.24% | $7.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 40BASE yield today?
 
-10.86% APY on 40-acres (Base), based on live DefiLlama data.
+12.24% APY on 40-acres (Base), based on live DefiLlama data.
 
 ### How many 40BASE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.2M in total.
+1 live pool clear this page's $100K TVL floor, $7.17M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank 40BASE pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

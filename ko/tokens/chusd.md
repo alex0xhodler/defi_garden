@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 project-x에서 APY 0.03
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
-- [HYPE](https://www.defi.garden/ko/tokens/hype)
 
 ## 이용 가능한 체인
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

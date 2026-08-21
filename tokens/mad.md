@@ -1,10 +1,10 @@
 # MAD DeFi Yields
 
-The highest honest MAD yield right now is 4.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAD yield right now is 2.10% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c41112b0-d378-4d25-8350-8feea0d59ffd&src=seo_token) | Solana | 4.10% | $109K |
+| [raydium-amm →](https://www.defi.garden/?pool=c41112b0-d378-4d25-8350-8feea0d59ffd&src=seo_token) | Solana | 2.10% | $113K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAD yield today?
 
-4.10% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.10% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MAD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109K in total.
+1 live pool clear this page's $100K TVL floor, $113K in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank MAD pools. This view covers A
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

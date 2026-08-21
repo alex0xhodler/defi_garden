@@ -1,10 +1,10 @@
 # XCU DeFi Yields
 
-The highest honest XCU yield right now is 87.38% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XCU yield right now is 93.12% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=3858ef87-0274-4d51-9a94-923cdfdd9313&src=seo_token) | Solana | 87.38% | $357.7K |
+| [gmtrade →](https://www.defi.garden/?pool=3858ef87-0274-4d51-9a94-923cdfdd9313&src=seo_token) | Solana | 93.12% | $352.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XCU yield today?
 
-87.38% APY on gmtrade (Solana), based on live DefiLlama data.
+93.12% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many XCU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $357.7K in total.
+1 live pool clear this page's $100K TVL floor, $352.5K in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank XCU pools. This view covers A
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

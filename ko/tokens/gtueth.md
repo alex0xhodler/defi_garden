@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d057b285-cef6-4515-b3eb-57b12c8dec02&src=seo_token) | Hyperliquid L1 | 0.04% | $177.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=d057b285-cef6-4515-b3eb-57b12c8dec02&src=seo_token) | Hyperliquid L1 | 0.04% | $185.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 0.
 
 ### GTUETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $177.7K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $185.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 morpho-blue에서 APY 0.
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
-- [HYPE](https://www.defi.garden/ko/tokens/hype)
 
 ## 이용 가능한 체인
 
 - [Hyperliquid L1](https://www.defi.garden/ko/chains/hyperliquid-l1)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

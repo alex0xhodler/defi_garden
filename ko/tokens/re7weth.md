@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=fb0a056b-1672-4ff6-b695-f1ba349aec3f&src=seo_token) | OP Mainnet | 0.74% | $141.6K |
+| [morpho-blue →](https://www.defi.garden/?pool=fb0a056b-1672-4ff6-b695-f1ba349aec3f&src=seo_token) | OP Mainnet | 0.74% | $147.4K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 morpho-blue에서 APY 0.74%�
 
 ### RE7WETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $141.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $147.4K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 morpho-blue에서 APY 0.74%�
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
+- [USX](https://www.defi.garden/ko/tokens/usx)
 - [ALETH](https://www.defi.garden/ko/tokens/aleth)
 - [ALUSD](https://www.defi.garden/ko/tokens/alusd)
-- [VAULT](https://www.defi.garden/ko/tokens/vault)
 
 ## 이용 가능한 체인
 
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

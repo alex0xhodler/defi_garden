@@ -1,10 +1,10 @@
 # NFALCON DeFi Yields
 
-The highest honest NFALCON yield right now is 7.29% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NFALCON yield right now is 6.24% on nest-credit (Plume Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 7.29% | $28.81M |
+| [nest-credit →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_token) | Plume Mainnet | 6.24% | $28.81M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NFALCON yield today?
 
-7.29% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
+6.24% APY on nest-credit (Plume Mainnet), based on live DefiLlama data.
 
 ### How many NFALCON pools clear the TVL floor?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank NFALCON pools. This view cove
 - [USCC](https://www.defi.garden/tokens/uscc)
 - [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
-- [NCLOA](https://www.defi.garden/tokens/ncloa)
 - [NAXI](https://www.defi.garden/tokens/naxi)
+- [NCLOA](https://www.defi.garden/tokens/ncloa)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

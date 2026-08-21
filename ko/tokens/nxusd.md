@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $250.3K |
+| [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $249.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Avalanche의 curve-dex에서 APY 0.39%예�
 
 ### NXUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $250.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $249.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, Avalanche의 curve-dex에서 APY 0.39%예�
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
-- [VBILL](https://www.defi.garden/ko/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
+- [VBILL](https://www.defi.garden/ko/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
 
 ## 이용 가능한 체인
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

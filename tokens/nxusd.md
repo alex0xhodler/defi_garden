@@ -4,7 +4,7 @@ The highest honest NXUSD yield right now is 0.39% on curve-dex (Avalanche), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $250.3K |
+| [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $249.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NXUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $250.3K in total.
+1 live pool clear this page's $100K TVL floor, $249.1K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank NXUSD pools. This view covers
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

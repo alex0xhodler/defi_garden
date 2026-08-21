@@ -4,7 +4,7 @@ The highest honest STKESOL yield right now is 4.45% on stkesol-by-sol-strategies
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.45% | $53.04M |
+| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.45% | $55.35M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STKESOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $60.92M in total.
+2 live pools clear this page's $100K TVL floor, $63.55M in total.
 
 ### Are these rates safe?
 
@@ -52,10 +52,10 @@ There is not enough qualifying APY history to rank STKESOL pools. This view cove
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

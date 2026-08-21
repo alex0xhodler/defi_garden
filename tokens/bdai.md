@@ -4,7 +4,7 @@ The highest honest BDAI yield right now is 1.54% on curve-dex (Avalanche), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $795K |
+| [curve-dex →](https://www.defi.garden/?pool=7b74b60b-ef48-4ad2-ac83-e324fea78fa7&src=seo_token) | Avalanche | 1.54% | $795.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BDAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $795K in total.
+1 live pool clear this page's $100K TVL floor, $795.4K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank BDAI pools. This view covers 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [SAVAX](https://www.defi.garden/tokens/savax)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
+- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

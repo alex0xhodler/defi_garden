@@ -1,12 +1,12 @@
 # Bitcoin DeFi Yields
 
-The highest honest Bitcoin yield right now is 0.30% on chainflip-lending (Bitcoin), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Bitcoin yield right now is 0.29% on chainflip-lending (Bitcoin), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| BTC | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_chain) | 0.14% | $164.83M |
-| BTC | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_chain) | 9.58% | $3.29M |
-| BTC | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_chain) | 0.30% | $2.12M |
+| BTC | [b14g →](https://www.defi.garden/?pool=b3168ff6-9cf8-4a14-97ca-0b21273c39ec&src=seo_chain) | 0.15% | $177.6M |
+| BTC | [chainflip-amm →](https://www.defi.garden/?pool=55b7d4ba-fe9a-4a26-ac49-965b6344a490&src=seo_chain) | 12.33% | $3.7M |
+| BTC | [chainflip-lending →](https://www.defi.garden/?pool=9309afc7-0b43-42a2-b4fb-d33e14356b66&src=seo_chain) | 0.29% | $2.28M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -14,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Bitcoin yield today?
 
-0.30% APY on chainflip-lending (Bitcoin), based on live DefiLlama data.
+0.29% APY on chainflip-lending (Bitcoin), based on live DefiLlama data.
 
 ### How many Bitcoin pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $170.24M in total.
+3 live pools clear this page's $100K TVL floor, $183.58M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [BTC](https://www.defi.garden/tokens/btc)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

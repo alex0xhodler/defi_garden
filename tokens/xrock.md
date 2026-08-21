@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XROCK pools. This view covers
 
 - [TON](https://www.defi.garden/chains/ton)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

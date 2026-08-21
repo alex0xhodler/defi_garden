@@ -1,10 +1,10 @@
 # ATONE DeFi Yields
 
-The highest honest ATONE yield right now is 30.47% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATONE yield right now is 29.44% on osmosis-dex (Osmosis), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 30.47% | $235.7K |
+| [osmosis-dex →](https://www.defi.garden/?pool=5384c5b1-9e14-4e75-b182-509654974b10&src=seo_token) | Osmosis | 29.44% | $231.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATONE yield today?
 
-30.47% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
+29.44% APY on osmosis-dex (Osmosis), based on live DefiLlama data.
 
 ### How many ATONE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $235.7K in total.
+1 live pool clear this page's $100K TVL floor, $231.9K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank ATONE pools. This view covers
 - [ATOM](https://www.defi.garden/tokens/atom)
 - [OSMO](https://www.defi.garden/tokens/osmo)
 - [AKT](https://www.defi.garden/tokens/akt)
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [STETH](https://www.defi.garden/tokens/steth)
 
 ## Available on
 
 - [Osmosis](https://www.defi.garden/chains/osmosis)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

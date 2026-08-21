@@ -1,10 +1,10 @@
 # BSB 디파이 수익률
 
-현재 BSB의 가장 높은 정직한 수익률은 Mantle의 fluxion-network에서 0.01%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BSB의 가장 높은 정직한 수익률은 Mantle의 fluxion-network에서 0.25%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29&src=seo_token) | Mantle | 0.01% | $576.6K |
+| [fluxion-network →](https://www.defi.garden/?pool=35f2103d-231b-443b-952e-d2cd118d8f29&src=seo_token) | Mantle | 0.25% | $576.1K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 BSB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Mantle의 fluxion-network에서 APY 0.01%예요.
+DefiLlama 실시간 데이터 기준, Mantle의 fluxion-network에서 APY 0.25%예요.
 
 ### BSB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $576.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $576.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Mantle의 fluxion-network에서 APY 0.01%�
 
 ## 관련 토큰
 
-- [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [KII](https://www.defi.garden/ko/tokens/kii)
 - [BILL](https://www.defi.garden/ko/tokens/bill)
+- [ELSA](https://www.defi.garden/ko/tokens/elsa)
 
 ## 이용 가능한 체인
 
 - [Mantle](https://www.defi.garden/ko/chains/mantle)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

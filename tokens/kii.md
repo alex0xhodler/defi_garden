@@ -4,7 +4,7 @@ The highest honest KII yield right now is 257.79% on uniswap-v2 (Base), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c&src=seo_token) | Mantle | 0.41% | $424.4K |
+| [fluxion-network →](https://www.defi.garden/?pool=269c72aa-ab12-57fd-a84d-79471faa170c&src=seo_token) | Mantle | 0.26% | $407.3K |
 | [uniswap-v2 →](https://www.defi.garden/?pool=a7d941de-2a7c-514f-b60d-dc153a79b7d9&src=seo_token) | Base | 257.79% | $178.3K |
 
 <!-- rate-stability:insufficient -->
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-KII shows up in 2 pools here, with rates from 0.41% to 257.79% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+KII shows up in 2 pools here, with rates from 0.26% to 257.79% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 255.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 235.43% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| fluxion-network | 0.41% | 237.38% | Base rate |
+| fluxion-network | 0.26% | 197.07% | Base rate |
 | uniswap-v2 | 257.79% | 273.79% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many KII pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $602.7K in total.
+2 live pools clear this page's $100K TVL floor, $585.7K in total.
 
 ### Are these rates safe?
 
@@ -55,12 +55,12 @@ There is not enough qualifying APY history to rank KII pools. This view covers A
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [WETH](https://www.defi.garden/tokens/weth)
-- [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDS](https://www.defi.garden/tokens/usds)
+- [USDY](https://www.defi.garden/tokens/usdy)
 
 ## Available on
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

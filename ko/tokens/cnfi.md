@@ -1,10 +1,10 @@
 # CNFI 디파이 수익률
 
-현재 CNFI의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 0.12%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CNFI의 가장 높은 정직한 수익률은 Arbitrum의 uniswap-v3에서 0.17%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=4b0f0d1d-3f08-4db2-a3d9-63c1d09b76a4&src=seo_token) | Arbitrum | 0.12% | $228.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=4b0f0d1d-3f08-4db2-a3d9-63c1d09b76a4&src=seo_token) | Arbitrum | 0.17% | $160.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 CNFI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.12%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.17%예요.
 
 ### CNFI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $228.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $160.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,10 +38,10 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 uniswap-v3에서 APY 0.12%예�
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
-- [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
+- [LSETH](https://www.defi.garden/ko/tokens/lseth)
 
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

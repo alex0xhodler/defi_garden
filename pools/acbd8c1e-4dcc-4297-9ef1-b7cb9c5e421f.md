@@ -1,12 +1,12 @@
 # RSETH-ETH — fluid-dex on Ethereum
 
-**Total APY:** 0.07% (0.07% Base · + 0.00% Rewards)
+**Total APY:** 2.72% (2.72% Base · + 0.00% Rewards)
 
-**TVL:** $4.89M
+**TVL:** $5.11M
 
 **Pool Type:** Yield Farming
 
-**30d Mean APY:** 1.07%
+**30d Mean APY:** 1.05%
 
 **Exposure:** multi
 
@@ -20,14 +20,14 @@ Conservative DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,004 in 5y at current rates.
+$1,000 in this pool grows to ~$1,144 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 0.07% right now vs a 1.07% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 2.72% right now vs a 1.05% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,004 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,144 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on fluid-dex](https://www.fluid.io/?ref=defi.garden)
 
-Last updated August 20, 2026
+Last updated August 21, 2026

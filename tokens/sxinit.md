@@ -4,7 +4,7 @@ The highest honest SXINIT yield right now is 2.71% on echelon-market (Echelon In
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_token) | Echelon Initia | 2.71% | $211.9K |
+| [echelon-market →](https://www.defi.garden/?pool=1ef7473e-2947-4faa-a0c1-c6bdb5734369&src=seo_token) | Echelon Initia | 2.71% | $216.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SXINIT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $211.9K in total.
+1 live pool clear this page's $100K TVL floor, $216.7K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank SXINIT pools. This view cover
 
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [INIT](https://www.defi.garden/tokens/init)
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Echelon Initia](https://www.defi.garden/chains/echelon-initia)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

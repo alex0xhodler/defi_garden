@@ -4,7 +4,7 @@ The highest honest SUPERCBBTC yield right now is 1.05% on superform (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=d214617a-29b1-4b60-9c23-bf3864e22e03&src=seo_token) | Base | 1.05% | $322.4K |
+| [superform →](https://www.defi.garden/?pool=d214617a-29b1-4b60-9c23-bf3864e22e03&src=seo_token) | Base | 1.05% | $301K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUPERCBBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $322.4K in total.
+1 live pool clear this page's $100K TVL floor, $301K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SUPERCBBTC pools. This view c
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

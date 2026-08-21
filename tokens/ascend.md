@@ -1,10 +1,10 @@
 # ASCEND DeFi Yields
 
-The highest honest ASCEND yield right now is 83.05% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASCEND yield right now is 79.62% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=8530cb49-d146-4c95-8ab2-a41021b879c8&src=seo_token) | Cardano | 83.05% | $238.4K |
+| [minswap-dex →](https://www.defi.garden/?pool=8530cb49-d146-4c95-8ab2-a41021b879c8&src=seo_token) | Cardano | 79.62% | $256.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ASCEND yield today?
 
-83.05% APY on minswap-dex (Cardano), based on live DefiLlama data.
+79.62% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many ASCEND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $238.4K in total.
+1 live pool clear this page's $100K TVL floor, $256.5K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank ASCEND pools. This view cover
 
 ## Related tokens
 
-- [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
+- [USDM](https://www.defi.garden/tokens/usdm)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
 - [NIGHT](https://www.defi.garden/tokens/night)
-- [USDCX](https://www.defi.garden/tokens/usdcx)
+- [MIN](https://www.defi.garden/tokens/min)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

@@ -1,10 +1,10 @@
 # ALLINDOGE DeFi Yields
 
-The highest honest ALLINDOGE yield right now is 10.60% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ALLINDOGE yield right now is 14.26% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=af61b3b6-241c-4468-a90e-8da963be6357&src=seo_token) | Solana | 10.60% | $195.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=af61b3b6-241c-4468-a90e-8da963be6357&src=seo_token) | Solana | 14.26% | $214.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ALLINDOGE yield today?
 
-10.60% APY on raydium-amm (Solana), based on live DefiLlama data.
+14.26% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ALLINDOGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $195.6K in total.
+1 live pool clear this page's $100K TVL floor, $214.1K in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank ALLINDOGE pools. This view co
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

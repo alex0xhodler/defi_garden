@@ -1,10 +1,10 @@
 # NES DeFi Yields
 
-The highest honest NES yield right now is 0.77% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NES yield right now is 0.89% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=01dcc4c4-702c-41fe-9ea7-03afde39f76c&src=seo_token) | Ethereum | 0.77% | $1.62M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=01dcc4c4-702c-41fe-9ea7-03afde39f76c&src=seo_token) | Ethereum | 0.89% | $1.62M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NES yield today?
 
-0.77% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.89% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many NES pools clear the TVL floor?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank NES pools. This view covers A
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NES pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

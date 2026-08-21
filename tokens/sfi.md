@@ -1,11 +1,11 @@
 # SFI DeFi Yields
 
-The highest honest SFI yield right now is 24.73% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SFI yield right now is 41.68% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30&src=seo_token) | Ethereum | 14.27% | $175.2K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=8bbc1034-84de-5b05-8cf3-29eb4e158bc9&src=seo_token) | Arbitrum | 24.73% | $121.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e97db-3cbc-4303-9bd8-d2d28d5f2a30&src=seo_token) | Ethereum | 41.68% | $200.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=8bbc1034-84de-5b05-8cf3-29eb4e158bc9&src=seo_token) | Arbitrum | 17.58% | $143.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SFI shows up in 2 pools here, with rates from 14.27% to 24.73% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SFI shows up in 2 pools here, with rates from 17.58% to 41.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.99% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 14.27% | 6.46% | Base rate |
-| uniswap-v3 | 24.73% | 3.24% | Base rate |
+| uniswap-v2 | 41.68% | 7.54% | Base rate |
+| uniswap-v3 | 17.58% | 4.45% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SFI yield today?
 
-24.73% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+41.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many SFI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $296.6K in total.
+2 live pools clear this page's $100K TVL floor, $343.8K in total.
 
 ### Are these rates safe?
 
@@ -51,10 +51,10 @@ There is not enough qualifying APY history to rank SFI pools. This view covers A
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -63,4 +63,4 @@ There is not enough qualifying APY history to rank SFI pools. This view covers A
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

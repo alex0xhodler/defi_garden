@@ -1,10 +1,10 @@
 # RDP DeFi Yields
 
-The highest honest RDP yield right now is 3.02% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RDP yield right now is 0.31% on camelot-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=77e1b1fc-ee29-45ac-82f5-9d24da9b28e9&src=seo_token) | Arbitrum | 3.02% | $120.1K |
+| [camelot-v3 →](https://www.defi.garden/?pool=77e1b1fc-ee29-45ac-82f5-9d24da9b28e9&src=seo_token) | Arbitrum | 0.31% | $126.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RDP yield today?
 
-3.02% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+0.31% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RDP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.1K in total.
+1 live pool clear this page's $100K TVL floor, $126.3K in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank RDP pools. This view covers A
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [LSETH](https://www.defi.garden/tokens/lseth)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

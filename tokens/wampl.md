@@ -1,10 +1,10 @@
 # WAMPL DeFi Yields
 
-The highest honest WAMPL yield right now is 3.58% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WAMPL yield right now is 6.97% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2e5ddf22-61b7-4b07-aaab-70397f2bdbc3&src=seo_token) | Ethereum | 3.58% | $229.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2e5ddf22-61b7-4b07-aaab-70397f2bdbc3&src=seo_token) | Ethereum | 6.97% | $248.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WAMPL yield today?
 
-3.58% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+6.97% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WAMPL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $229.3K in total.
+1 live pool clear this page's $100K TVL floor, $248.6K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank WAMPL pools. This view covers
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WAMPL pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

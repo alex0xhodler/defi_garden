@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=d214617a-29b1-4b60-9c23-bf3864e22e03&src=seo_token) | Base | 1.05% | $322.4K |
+| [superform →](https://www.defi.garden/?pool=d214617a-29b1-4b60-9c23-bf3864e22e03&src=seo_token) | Base | 1.05% | $301K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 superform에서 APY 1.05%예요.
 
 ### SUPERCBBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $322.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $301K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 superform에서 APY 1.05%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 20, 2026
+## 마지막 업데이트: August 21, 2026

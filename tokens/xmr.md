@@ -1,6 +1,6 @@
 # XMR DeFi Yields
 
-The highest honest XMR yield right now is 28.52% on raydium-amm (Solana), among 14 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XMR yield right now is 28.52% on raydium-amm (Solana), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
@@ -51,7 +51,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many XMR pools clear the TVL floor?
 
-14 live pools clear this page's $100K TVL floor, $1.42M in total.
+11 live pools clear this page's $100K TVL floor, $1.12M in total.
 
 ### Are these rates safe?
 
@@ -68,10 +68,10 @@ There is not enough qualifying APY history to rank XMR pools. This view covers A
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

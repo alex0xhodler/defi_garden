@@ -1,10 +1,10 @@
 # FLDT DeFi Yields
 
-The highest honest FLDT yield right now is 27.73% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLDT yield right now is 27.57% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 27.73% | $632.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 27.57% | $701.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FLDT yield today?
 
-27.73% APY on minswap-dex (Cardano), based on live DefiLlama data.
+27.57% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many FLDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $632.7K in total.
+1 live pool clear this page's $100K TVL floor, $701.9K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank FLDT pools. This view covers 
 
 ## Related tokens
 
-- [USDM](https://www.defi.garden/tokens/usdm)
 - [ADA](https://www.defi.garden/tokens/ada)
+- [USDM](https://www.defi.garden/tokens/usdm)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
 - [NIGHT](https://www.defi.garden/tokens/night)
-- [USDCX](https://www.defi.garden/tokens/usdcx)
+- [MIN](https://www.defi.garden/tokens/min)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

@@ -1,6 +1,6 @@
 # WUSDC — navi-lending on Sui
 
-**Total APY:** 1.48% (1.48% Base · + 0.00% Rewards)
+**Total APY:** 1.49% (1.49% Base · + 0.00% Rewards)
 
 **TVL:** $147.2K
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on navi-lending](https://www.naviprotocol.io/?ref=defi.garden)
 
-Last updated August 20, 2026
+Last updated August 21, 2026

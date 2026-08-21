@@ -1,10 +1,10 @@
 # OSAK DeFi Yields
 
-The highest honest OSAK yield right now is 5.21% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OSAK yield right now is 0.60% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6a6e1615-a61b-4441-908f-232a6ca47850&src=seo_token) | Ethereum | 5.21% | $494.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6a6e1615-a61b-4441-908f-232a6ca47850&src=seo_token) | Ethereum | 0.60% | $519.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OSAK yield today?
 
-5.21% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.60% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OSAK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $494.1K in total.
+1 live pool clear this page's $100K TVL floor, $519.6K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank OSAK pools. This view covers 
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank OSAK pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

@@ -1,10 +1,10 @@
 # INC DeFi Yields
 
-The highest honest INC yield right now is 1.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest INC yield right now is 1.38% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=5a23252d-e4b7-422c-a6ad-7727ef0df05e&src=seo_token) | Solana | 1.04% | $322.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=5a23252d-e4b7-422c-a6ad-7727ef0df05e&src=seo_token) | Solana | 1.38% | $334.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest INC yield today?
 
-1.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.38% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many INC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $322.8K in total.
+1 live pool clear this page's $100K TVL floor, $334.8K in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank INC pools. This view covers A
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

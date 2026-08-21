@@ -4,7 +4,7 @@ The highest honest NACRDX yield right now is 2.00% on nest-credit (Plume Mainnet
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nest-credit →](https://www.defi.garden/?pool=7b5050c5-e711-497a-95c8-9c13011ae17f&src=seo_token) | Plume Mainnet | 2.00% | $100.4K |
+| [nest-credit →](https://www.defi.garden/?pool=7b5050c5-e711-497a-95c8-9c13011ae17f&src=seo_token) | Plume Mainnet | 2.00% | $100.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NACRDX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.4K in total.
+1 live pool clear this page's $100K TVL floor, $100.5K in total.
 
 ### Are these rates safe?
 
@@ -38,10 +38,10 @@ There is not enough qualifying APY history to rank NACRDX pools. This view cover
 - [NOPAL](https://www.defi.garden/tokens/nopal)
 - [NFALCON](https://www.defi.garden/tokens/nfalcon)
 - [NALPHA](https://www.defi.garden/tokens/nalpha)
-- [NCLOA](https://www.defi.garden/tokens/ncloa)
+- [NAXI](https://www.defi.garden/tokens/naxi)
 
 ## Available on
 
 - [Plume Mainnet](https://www.defi.garden/chains/plume-mainnet)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

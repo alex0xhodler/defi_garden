@@ -1,13 +1,12 @@
 # Rootstock DeFi Yields
 
-The highest honest Rootstock yield right now is 2.37% on sovryn-dex (Rootstock), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Rootstock yield right now is 0.17% on sovryn-dex (Rootstock), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XUSD-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_chain) | 1.82% | $1M |
-| ETH-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_chain) | 2.37% | $872.4K |
-| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 1.35% | $802.1K |
-| BNB-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=4ced90d6-5aa2-4a56-897e-7e36f06f69a2&src=seo_chain) | 0.79% | $611.3K |
+| XUSD-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_chain) | 1.02% | $1.03M |
+| ETH-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_chain) | 0.11% | $926.3K |
+| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 0.17% | $848K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -15,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Rootstock yield today?
 
-2.37% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
+0.17% APY on sovryn-dex (Rootstock), based on live DefiLlama data.
 
 ### How many Rootstock pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.29M in total.
+4 live pools clear this page's $100K TVL floor, $3.46M in total.
 
 ### Are these rates safe?
 
@@ -40,6 +39,5 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [XUSD](https://www.defi.garden/tokens/xusd)
 - [ETH](https://www.defi.garden/tokens/eth)
 - [USDT](https://www.defi.garden/tokens/usdt)
-- [BNB](https://www.defi.garden/tokens/bnb)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

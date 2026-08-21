@@ -4,7 +4,7 @@ The highest honest ASUSD yield right now is 0.20% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $151.2K |
+| [curve-dex →](https://www.defi.garden/?pool=1bb62ef4-02b3-4667-8d09-e2250da740c0&src=seo_token) | Ethereum | 0.20% | $153.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ASUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $151.2K in total.
+1 live pool clear this page's $100K TVL floor, $153.5K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank ASUSD pools. This view covers
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ASUSD pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

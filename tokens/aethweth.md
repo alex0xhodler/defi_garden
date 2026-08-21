@@ -1,10 +1,10 @@
 # AETHWETH DeFi Yields
 
-The highest honest AETHWETH yield right now is 0.53% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AETHWETH yield right now is 1.12% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0e09627b-1c4e-4f18-b12c-7579c47ac0ca&src=seo_token) | Ethereum | 0.53% | $132.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0e09627b-1c4e-4f18-b12c-7579c47ac0ca&src=seo_token) | Ethereum | 1.12% | $137.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AETHWETH yield today?
 
-0.53% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.12% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AETHWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $132.2K in total.
+1 live pool clear this page's $100K TVL floor, $137.9K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank AETHWETH pools. This view cov
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AETHWETH pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

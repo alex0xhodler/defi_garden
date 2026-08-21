@@ -1,10 +1,10 @@
 # PUFFER DeFi Yields
 
-The highest honest PUFFER yield right now is 11.38% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PUFFER yield right now is 9.19% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=72fc66c6-3e16-49ba-aef4-0adbaabb8776&src=seo_token) | Ethereum | 11.38% | $142.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=72fc66c6-3e16-49ba-aef4-0adbaabb8776&src=seo_token) | Ethereum | 9.19% | $150.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PUFFER yield today?
 
-11.38% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+9.19% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many PUFFER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.7K in total.
+1 live pool clear this page's $100K TVL floor, $150.6K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank PUFFER pools. This view cover
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank PUFFER pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

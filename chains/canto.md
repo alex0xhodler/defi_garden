@@ -5,7 +5,7 @@ The highest honest Canto yield right now is 32.06% on canto-lending (Canto), amo
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | USDC | [canto-lending →](https://www.defi.garden/?pool=727fc50d-b687-4f74-a30e-ee961c25c5e3&src=seo_chain) | 13.61% | $1.35M |
-| NOTE-WCANTO | [canto-lending →](https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_chain) | 32.06% | $116.1K |
+| NOTE-WCANTO | [canto-lending →](https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_chain) | 32.06% | $113.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Canto pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.47M in total.
+2 live pools clear this page's $100K TVL floor, $1.46M in total.
 
 ### Are these rates safe?
 
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [NOTE](https://www.defi.garden/tokens/note)
 - [WCANTO](https://www.defi.garden/tokens/wcanto)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026

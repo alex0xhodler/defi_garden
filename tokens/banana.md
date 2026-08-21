@@ -1,10 +1,10 @@
 # BANANA DeFi Yields
 
-The highest honest BANANA yield right now is 4.68% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BANANA yield right now is 3.57% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=fda94d45-2066-4785-876c-550a18ff5fe4&src=seo_token) | Ethereum | 4.68% | $2.96M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=fda94d45-2066-4785-876c-550a18ff5fe4&src=seo_token) | Ethereum | 3.57% | $3.09M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BANANA yield today?
 
-4.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.57% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many BANANA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.96M in total.
+1 live pool clear this page's $100K TVL floor, $3.09M in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank BANANA pools. This view cover
 
 ## Related tokens
 
-- [STETH](https://www.defi.garden/tokens/steth)
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [STETH](https://www.defi.garden/tokens/steth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BANANA pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 20, 2026
+## Last updated August 21, 2026
