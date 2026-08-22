@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aarna-protocol →](https://www.defi.garden/?pool=3b775318-0b40-4bb5-b68c-8834a51da847&src=seo_token) | Ethereum | 12.28% | $354.8K |
+| [aarna-protocol →](https://www.defi.garden/?pool=3b775318-0b40-4bb5-b68c-8834a51da847&src=seo_token) | Ethereum | 12.28% | $227K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 aarna-protocol에서 APY 12.28
 
 ### ATVPTMAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $354.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $227K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 aarna-protocol에서 APY 12.28
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 aarna-protocol에서 APY 12.28
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

@@ -1,10 +1,10 @@
 # JRSTRUSD DeFi Yields
 
-The highest honest JRSTRUSD yield right now is 10.94% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JRSTRUSD yield right now is 10.99% on royco-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=770af48f-80a5-5574-bbe3-fed480a999b6&src=seo_token) | Ethereum | 10.94% | $1.01M |
+| [royco-v2 →](https://www.defi.garden/?pool=770af48f-80a5-5574-bbe3-fed480a999b6&src=seo_token) | Ethereum | 10.99% | $1.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JRSTRUSD yield today?
 
-10.94% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+10.99% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many JRSTRUSD pools clear the TVL floor?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank JRSTRUSD pools. This view cov
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank JRSTRUSD pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

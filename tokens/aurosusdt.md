@@ -1,10 +1,10 @@
 # AUROSUSDT DeFi Yields
 
-The highest honest AUROSUSDT yield right now is 8.75% on wildcat-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUROSUSDT yield right now is 9.50% on wildcat-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=f7f37217-789d-496a-b4c6-e45f6b663065&src=seo_token) | Ethereum | 8.75% | $106.5K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=f7f37217-789d-496a-b4c6-e45f6b663065&src=seo_token) | Ethereum | 9.50% | $106.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUROSUSDT yield today?
 
-8.75% APY on wildcat-protocol (Ethereum), based on live DefiLlama data.
+9.50% APY on wildcat-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many AUROSUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.5K in total.
+1 live pool clear this page's $100K TVL floor, $106.6K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank AUROSUSDT pools. This view co
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AUROSUSDT pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

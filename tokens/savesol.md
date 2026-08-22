@@ -1,10 +1,10 @@
 # SAVESOL DeFi Yields
 
-The highest honest SAVESOL yield right now is 4.66% on save-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SAVESOL yield right now is 4.59% on save-sol (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [save-sol →](https://www.defi.garden/?pool=1a2f864d-dffb-4b58-bfe4-e136e4ad0547&src=seo_token) | Solana | 4.66% | $5.42M |
+| [save-sol →](https://www.defi.garden/?pool=1a2f864d-dffb-4b58-bfe4-e136e4ad0547&src=seo_token) | Solana | 4.59% | $5.72M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,7 +15,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SAVESOL shows up in 1 pools here, with rates from 4.66% to 4.66% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SAVESOL shows up in 1 pools here, with rates from 4.59% to 4.59% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.68% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -23,7 +23,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| save-sol | 4.66% | 4.68% | Base rate |
+| save-sol | 4.59% | 4.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -31,11 +31,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SAVESOL yield today?
 
-4.66% APY on save-sol (Solana), based on live DefiLlama data.
+4.59% APY on save-sol (Solana), based on live DefiLlama data.
 
 ### How many SAVESOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $9.75M in total.
+2 live pools clear this page's $100K TVL floor, $10.28M in total.
 
 ### Are these rates safe?
 
@@ -48,14 +48,14 @@ There is not enough qualifying APY history to rank SAVESOL pools. This view cove
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

@@ -4,7 +4,7 @@ The highest honest STEAKCUSDC yield right now is 7.20% on morpho-blue (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=2f5341f4-6c2e-4c65-b2e0-10cd5228ff62&src=seo_token) | Ethereum | 7.20% | $40.76M |
+| [morpho-blue →](https://www.defi.garden/?pool=2f5341f4-6c2e-4c65-b2e0-10cd5228ff62&src=seo_token) | Ethereum | 7.20% | $41.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STEAKCUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $40.76M in total.
+1 live pool clear this page's $100K TVL floor, $41.11M in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank STEAKCUSDC pools. This view c
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STEAKCUSDC pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

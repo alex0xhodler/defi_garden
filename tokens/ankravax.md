@@ -1,10 +1,10 @@
 # ANKRAVAX DeFi Yields
 
-The highest honest ANKRAVAX yield right now is 3.03% on ankr (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ANKRAVAX yield right now is 3.02% on ankr (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=6c8f48ae-27f9-4829-866f-7cb08841e816&src=seo_token) | Avalanche | 3.03% | $114.1K |
+| [ankr →](https://www.defi.garden/?pool=6c8f48ae-27f9-4829-866f-7cb08841e816&src=seo_token) | Avalanche | 3.02% | $124.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ANKRAVAX yield today?
 
-3.03% APY on ankr (Avalanche), based on live DefiLlama data.
+3.02% APY on ankr (Avalanche), based on live DefiLlama data.
 
 ### How many ANKRAVAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.1K in total.
+1 live pool clear this page's $100K TVL floor, $124.2K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank ANKRAVAX pools. This view cov
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

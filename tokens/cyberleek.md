@@ -1,10 +1,10 @@
 # CYBERLEEK DeFi Yields
 
-The highest honest CYBERLEEK yield right now is 508.54% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CYBERLEEK yield right now is 343.78% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=163d0261-de66-5ad5-885f-3157d7e3e0e3&src=seo_token) | Solana | 508.54% | $401.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=163d0261-de66-5ad5-885f-3157d7e3e0e3&src=seo_token) | Solana | 343.78% | $398.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CYBERLEEK yield today?
 
-508.54% APY on raydium-amm (Solana), based on live DefiLlama data.
+343.78% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CYBERLEEK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $401.5K in total.
+1 live pool clear this page's $100K TVL floor, $398.1K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank CYBERLEEK pools. This view co
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

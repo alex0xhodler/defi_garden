@@ -36,12 +36,12 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 lagoon에서 APY 4.28%예요.
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
-- [ETH](https://www.defi.garden/ko/tokens/eth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
-- [LSETH](https://www.defi.garden/ko/tokens/lseth)
+- [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
 
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

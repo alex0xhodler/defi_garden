@@ -29,7 +29,7 @@ YUSD 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.16%부터 0.28%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 0.28% | 0.06% | 기본 금리 |
+| uniswap-v4 | 0.28% | 0.07% | 기본 금리 |
 | curve-dex | 0.16% | 0.16% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -42,7 +42,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.28%예�
 
 ### YUSD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $36.03M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $36.04M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -56,8 +56,8 @@ APY 이력만 기준으로 비교한 YUSD의 변동성 낮은 후보는 Ethereum
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -66,4 +66,4 @@ APY 이력만 기준으로 비교한 YUSD의 변동성 낮은 후보는 Ethereum
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

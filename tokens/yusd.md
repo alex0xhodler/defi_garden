@@ -29,7 +29,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 0.28% | 0.06% | Base rate |
+| uniswap-v4 | 0.28% | 0.07% | Base rate |
 | curve-dex | 0.16% | 0.16% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many YUSD pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $36.03M in total.
+5 live pools clear this page's $100K TVL floor, $36.04M in total.
 
 ### Are these rates safe?
 
@@ -56,8 +56,8 @@ Based on APY history only, YUSD's lower-variability candidates are uniswap-v4 (E
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -66,4 +66,4 @@ Based on APY history only, YUSD's lower-variability candidates are uniswap-v4 (E
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

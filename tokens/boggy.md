@@ -1,10 +1,10 @@
 # BOGGY DeFi Yields
 
-The highest honest BOGGY yield right now is 0.79% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BOGGY yield right now is 1.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=724f88f9-9f75-498b-a6f2-f9f8b2c69a1c&src=seo_token) | Solana | 0.79% | $142.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=724f88f9-9f75-498b-a6f2-f9f8b2c69a1c&src=seo_token) | Solana | 1.02% | $154.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BOGGY yield today?
 
-0.79% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.02% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BOGGY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $142.2K in total.
+1 live pool clear this page's $100K TVL floor, $154.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BOGGY pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

@@ -1,10 +1,10 @@
 # DOLZ DeFi Yields
 
-The highest honest DOLZ yield right now is 2.72% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOLZ yield right now is 0.75% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=228a1b06-1993-440d-bfc0-a900629e560b&src=seo_token) | Polygon | 2.72% | $338.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=228a1b06-1993-440d-bfc0-a900629e560b&src=seo_token) | Polygon | 0.75% | $339K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOLZ yield today?
 
-2.72% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+0.75% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many DOLZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $338.3K in total.
+1 live pool clear this page's $100K TVL floor, $339K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank DOLZ pools. This view covers 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

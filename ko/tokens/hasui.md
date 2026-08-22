@@ -1,44 +1,47 @@
 # HASUI 디파이 수익률
 
-현재 HASUI의 가장 높은 정직한 수익률은 Sui의 current에서 2.50%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 HASUI의 가장 높은 정직한 수익률은 Sui의 current에서 2.48%이며, $100K TVL 기준을 넘는 5개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.17% | $16.15M |
-| [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.50% | $5.02M |
-| [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.07% | $2.52M |
-| [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 7.32% | $109.5K |
+| [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.17% | $18.79M |
+| [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.48% | $5.77M |
+| [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.10% | $2.89M |
+| [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 11.50% | $120.3K |
+| [scallop-lend →](https://www.defi.garden/?pool=b4a901c9-220b-4121-8a4b-82022a0a39b9&src=seo_token) | Sui | 0.19% | $100.6K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 HASUI의 변동성 낮은 후보는 Sui의 navi-lending, APY 1.17%, TVL $16.15M, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; Sui의 current, APY 2.50%, TVL $5.02M, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; Sui의 cetus-clmm, APY 0.07%, TVL $2.52M, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; Sui의 cetus-clmm, APY 7.32%, TVL $109.5K, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HASUI의 변동성 낮은 후보는 Sui의 navi-lending, APY 1.17%, TVL $18.79M, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; Sui의 current, APY 2.48%, TVL $5.77M, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; Sui의 cetus-clmm, APY 0.10%, TVL $2.89M, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; Sui의 scallop-lend, APY 0.19%, TVL $100.6K, https://www.defi.garden/?pool=b4a901c9-220b-4121-8a4b-82022a0a39b9&src=seo_token; Sui의 cetus-clmm, APY 11.50%, TVL $120.3K, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.17% | $16.15M |
-| 2 | [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.50% | $5.02M |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.07% | $2.52M |
-| 4 | [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 7.32% | $109.5K |
+| 1 | [navi-lending →](https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token) | Sui | 1.17% | $18.79M |
+| 2 | [current →](https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token) | Sui | 2.48% | $5.77M |
+| 3 | [cetus-clmm →](https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token) | Sui | 0.10% | $2.89M |
+| 4 | [scallop-lend →](https://www.defi.garden/?pool=b4a901c9-220b-4121-8a4b-82022a0a39b9&src=seo_token) | Sui | 0.19% | $100.6K |
+| 5 | [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 11.50% | $120.3K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-HASUI 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.07%부터 7.32%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+HASUI 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.10%부터 11.50%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.96%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+5개 풀 중 5개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.19%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
-4개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
+5개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
-4개 풀 중 2개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
+5개 풀 중 2개는 비영구적 손실(IL) 위험이 있어요 — 두 자산을 맞춰 넣는 포지션은 수익이 나는 중에도 그냥 들고 있는 것보다 가치가 줄어들 수 있어요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | navi-lending | 1.17% | 1.19% | 인센티브 98.75% |
-| current | 2.50% | 2.73% | 인센티브 37.28% |
-| cetus-clmm | 0.07% | 0.06% | 기본 금리 |
-| cetus-clmm | 7.32% | 4.47% | 기본 금리 |
+| current | 2.48% | 2.72% | 인센티브 36.77% |
+| cetus-clmm | 0.10% | 0.06% | 기본 금리 |
+| cetus-clmm | 11.50% | 4.58% | 기본 금리 |
+| scallop-lend | 0.19% | 0.22% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -46,11 +49,11 @@ HASUI 풀은 여기 4개가 있고, 1개 체인에서 APY가 0.07%부터 7.32%�
 
 ### 오늘 HASUI의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Sui의 current에서 APY 2.50%예요.
+DefiLlama 실시간 데이터 기준, Sui의 current에서 APY 2.48%예요.
 
 ### HASUI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $23.81M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $27.68M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -58,19 +61,19 @@ DefiLlama 실시간 데이터 기준, Sui의 current에서 APY 2.50%예요.
 
 ### HASUI 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 HASUI의 변동성 낮은 후보는 Sui의 navi-lending, APY 1.17%, TVL $16.15M, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; Sui의 current, APY 2.50%, TVL $5.02M, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; Sui의 cetus-clmm, APY 0.07%, TVL $2.52M, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; Sui의 cetus-clmm, APY 7.32%, TVL $109.5K, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 HASUI의 변동성 낮은 후보는 Sui의 navi-lending, APY 1.17%, TVL $18.79M, https://www.defi.garden/?pool=01d96249-c69b-46de-a749-479facf4b806&src=seo_token; Sui의 current, APY 2.48%, TVL $5.77M, https://www.defi.garden/?pool=f53a6810-5974-484b-8504-44041006c67e&src=seo_token; Sui의 cetus-clmm, APY 0.10%, TVL $2.89M, https://www.defi.garden/?pool=0aa735e0-4cef-4b56-87ea-f75919b2bab0&src=seo_token; Sui의 scallop-lend, APY 0.19%, TVL $100.6K, https://www.defi.garden/?pool=b4a901c9-220b-4121-8a4b-82022a0a39b9&src=seo_token; Sui의 cetus-clmm, APY 11.50%, TVL $120.3K, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
-- [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
-- [BUCK](https://www.defi.garden/ko/tokens/buck)
 - [SUI](https://www.defi.garden/ko/tokens/sui)
+- [BUCK](https://www.defi.garden/ko/tokens/buck)
+- [VSUI](https://www.defi.garden/ko/tokens/vsui)
 
 ## 이용 가능한 체인
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

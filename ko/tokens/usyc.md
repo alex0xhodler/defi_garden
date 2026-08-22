@@ -5,17 +5,17 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [circle-usyc →](https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_token) | BSC | 3.18% | $2.85B |
-| [circle-usyc →](https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token) | Ethereum | 3.18% | $70.06M |
+| [circle-usyc →](https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token) | Ethereum | 3.18% | $70.09M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USYC의 변동성 낮은 후보는 BSC의 circle-usyc, APY 3.18%, TVL $2.85B, https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_token; Ethereum의 circle-usyc, APY 3.18%, TVL $70.06M, https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USYC의 변동성 낮은 후보는 BSC의 circle-usyc, APY 3.18%, TVL $2.85B, https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_token; Ethereum의 circle-usyc, APY 3.18%, TVL $70.09M, https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [circle-usyc →](https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_token) | BSC | 3.18% | $2.85B |
-| 2 | [circle-usyc →](https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token) | Ethereum | 3.18% | $70.06M |
+| 2 | [circle-usyc →](https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token) | Ethereum | 3.18% | $70.09M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -50,14 +50,14 @@ DefiLlama 실시간 데이터 기준, BSC의 circle-usyc에서 APY 3.18%예요.
 
 ### USYC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USYC의 변동성 낮은 후보는 BSC의 circle-usyc, APY 3.18%, TVL $2.85B, https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_token; Ethereum의 circle-usyc, APY 3.18%, TVL $70.06M, https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USYC의 변동성 낮은 후보는 BSC의 circle-usyc, APY 3.18%, TVL $2.85B, https://www.defi.garden/?pool=7c0a89c7-70cf-460c-b62e-cb278bf97e8f&src=seo_token; Ethereum의 circle-usyc, APY 3.18%, TVL $70.09M, https://www.defi.garden/?pool=448a64ff-06fd-4e56-b63c-03662ac39010&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -66,4 +66,4 @@ APY 이력만 기준으로 비교한 USYC의 변동성 낮은 후보는 BSC의 c
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

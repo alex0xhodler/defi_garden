@@ -1,10 +1,10 @@
 # GTWETH DeFi Yields
 
-The highest honest GTWETH yield right now is 1.89% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTWETH yield right now is 1.74% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=eaa7b496-512f-442f-be1f-9d8909442e53&src=seo_token) | Ethereum | 1.89% | $8.63M |
+| [morpho-blue →](https://www.defi.garden/?pool=eaa7b496-512f-442f-be1f-9d8909442e53&src=seo_token) | Ethereum | 1.74% | $9.2M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GTWETH yield today?
 
-1.89% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+1.74% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.63M in total.
+1 live pool clear this page's $100K TVL floor, $9.2M in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank GTWETH pools. This view cover
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GTWETH pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

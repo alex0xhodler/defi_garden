@@ -1,10 +1,10 @@
 # WITRY DeFi Yields
 
-The highest honest WITRY yield right now is 41.70% on brix (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WITRY yield right now is 39.37% on brix (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [brix →](https://www.defi.garden/?pool=da8c4ac9-733d-4a98-85a5-83b76b7e84d1&src=seo_token) | Ethereum | 41.70% | $8.76M |
+| [brix →](https://www.defi.garden/?pool=da8c4ac9-733d-4a98-85a5-83b76b7e84d1&src=seo_token) | Ethereum | 39.37% | $8.88M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WITRY yield today?
 
-41.70% APY on brix (Ethereum), based on live DefiLlama data.
+39.37% APY on brix (Ethereum), based on live DefiLlama data.
 
 ### How many WITRY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $8.76M in total.
+1 live pool clear this page's $100K TVL floor, $8.88M in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank WITRY pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WITRY pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

@@ -1,10 +1,10 @@
 # COTI DeFi Yields
 
-The highest honest COTI yield right now is 26.72% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COTI yield right now is 99.42% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=17b013f7-39fa-417d-91d0-b31e176cc7f6&src=seo_token) | Ethereum | 26.72% | $143.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=17b013f7-39fa-417d-91d0-b31e176cc7f6&src=seo_token) | Ethereum | 99.42% | $158.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest COTI yield today?
 
-26.72% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+99.42% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many COTI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.9K in total.
+1 live pool clear this page's $100K TVL floor, $158.9K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank COTI pools. This view covers 
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank COTI pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

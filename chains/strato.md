@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [USDST](https://www.defi.garden/tokens/usdst)
 - [STRATO](https://www.defi.garden/tokens/strato)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

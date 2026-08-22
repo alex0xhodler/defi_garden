@@ -1,10 +1,10 @@
 # CRVUSDUSDC DeFi Yields
 
-The highest honest CRVUSDUSDC yield right now is 7.02% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CRVUSDUSDC yield right now is 8.54% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=107d79b4-0e63-4a07-9277-711c7c6c0383&src=seo_token) | Ethereum | 7.02% | $143.6K |
+| [yearn-finance →](https://www.defi.garden/?pool=107d79b4-0e63-4a07-9277-711c7c6c0383&src=seo_token) | Ethereum | 8.54% | $143.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CRVUSDUSDC yield today?
 
-7.02% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+8.54% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many CRVUSDUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $143.6K in total.
+1 live pool clear this page's $100K TVL floor, $143.7K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank CRVUSDUSDC pools. This view c
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CRVUSDUSDC pools. This view c
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

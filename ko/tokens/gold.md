@@ -5,7 +5,7 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=d4ae5908-ed9e-42be-ad6b-63bf6107c409&src=seo_token) | Solana | 0.09% | $602.2K |
-| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.16% | $461.5K |
+| [folks-finance-lending →](https://www.defi.garden/?pool=6da6f63f-8ebb-49ab-9125-c5a429d49c98&src=seo_token) | Algorand | 0.16% | $540.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -27,7 +27,7 @@ GOLD 풀은 여기 2개가 있고, 2개 체인에서 APY가 0.09%부터 0.16%까
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | raydium-amm | 0.09% | 0.14% | 기본 금리 |
-| folks-finance-lending | 0.16% | 0.14% | 기본 금리 |
+| folks-finance-lending | 0.16% | 0.15% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -39,7 +39,7 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 
 ### GOLD 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.56M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $1.68M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,10 +52,10 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
+- [PRIME](https://www.defi.garden/ko/tokens/prime)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 
 ## 이용 가능한 체인
@@ -63,4 +63,4 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Algorand](https://www.defi.garden/ko/chains/algorand)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

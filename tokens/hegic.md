@@ -1,11 +1,11 @@
 # HEGIC DeFi Yields
 
-The highest honest HEGIC yield right now is 1.40% on uniswap-v4 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEGIC yield right now is 20.99% on uniswap-v4 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e72b5f97-7631-4f13-a251-39d798750f6a&src=seo_token) | Arbitrum | 0.99% | $2.05M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=85050698-ce79-51e8-a448-fac540457f45&src=seo_token) | Arbitrum | 1.40% | $159.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e72b5f97-7631-4f13-a251-39d798750f6a&src=seo_token) | Arbitrum | 10.61% | $2.1M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=85050698-ce79-51e8-a448-fac540457f45&src=seo_token) | Arbitrum | 20.99% | $160.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-HEGIC shows up in 2 pools here, with rates from 0.99% to 1.40% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HEGIC shows up in 2 pools here, with rates from 10.61% to 20.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 0.71% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 0.99% | 0.03% | Base rate |
-| uniswap-v4 | 1.40% | 1.40% | Base rate |
+| uniswap-v3 | 10.61% | 0.21% | Base rate |
+| uniswap-v4 | 20.99% | 9.58% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HEGIC yield today?
 
-1.40% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
+20.99% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
 
 ### How many HEGIC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.21M in total.
+2 live pools clear this page's $100K TVL floor, $2.27M in total.
 
 ### Are these rates safe?
 
@@ -54,12 +54,12 @@ There is not enough qualifying APY history to rank HEGIC pools. This view covers
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [LSETH](https://www.defi.garden/tokens/lseth)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

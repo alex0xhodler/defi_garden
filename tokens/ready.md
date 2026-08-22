@@ -1,10 +1,10 @@
 # READY DeFi Yields
 
-The highest honest READY yield right now is 161.70% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest READY yield right now is 134.53% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=10aba9d6-02ab-4cca-9475-2d0f822fff8b&src=seo_token) | Solana | 161.70% | $240.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=10aba9d6-02ab-4cca-9475-2d0f822fff8b&src=seo_token) | Solana | 134.53% | $231.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest READY yield today?
 
-161.70% APY on raydium-amm (Solana), based on live DefiLlama data.
+134.53% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many READY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $240.5K in total.
+1 live pool clear this page's $100K TVL floor, $231.4K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank READY pools. This view covers
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

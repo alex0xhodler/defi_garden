@@ -1,12 +1,12 @@
 # USD₮ — aave-v3 on Celo
 
-**Total APY:** 7.66% (0.31% Base · + 7.36% Rewards)
+**Total APY:** 7.67% (0.34% Base · + 7.33% Rewards)
 
-**TVL:** $1.93M
+**TVL:** $1.92M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 5.44%
+**30d Mean APY:** 5.45%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on aave-v3](https://aave.com/?ref=defi.garden)
 
-Last updated August 21, 2026
+Last updated August 22, 2026

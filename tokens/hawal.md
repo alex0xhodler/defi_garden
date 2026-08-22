@@ -1,10 +1,10 @@
 # HAWAL DeFi Yields
 
-The highest honest HAWAL yield right now is 0.10% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAWAL yield right now is 0.01% on cetus-clmm (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8&src=seo_token) | Sui | 0.10% | $356.1K |
+| [cetus-clmm →](https://www.defi.garden/?pool=bde28b9b-cb39-4aab-8aa6-4a817661c2a8&src=seo_token) | Sui | 0.01% | $386.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HAWAL yield today?
 
-0.10% APY on cetus-clmm (Sui), based on live DefiLlama data.
+0.01% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many HAWAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $356.1K in total.
+1 live pool clear this page's $100K TVL floor, $386.9K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank HAWAL pools. This view covers
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
-- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
+- [SUI](https://www.defi.garden/tokens/sui)
 - [HASUI](https://www.defi.garden/tokens/hasui)
 - [BUCK](https://www.defi.garden/tokens/buck)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HAWAL pools. This view covers
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

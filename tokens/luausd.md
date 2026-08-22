@@ -4,7 +4,7 @@ The highest honest LUAUSD yield right now is 0.01% on curve-dex (Arbitrum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1f7d105b-9f30-425e-99af-59abfc8654c6&src=seo_token) | Arbitrum | 0.01% | $3.35M |
+| [curve-dex →](https://www.defi.garden/?pool=1f7d105b-9f30-425e-99af-59abfc8654c6&src=seo_token) | Arbitrum | 0.01% | $3.48M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LUAUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.35M in total.
+1 live pool clear this page's $100K TVL floor, $3.48M in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank LUAUSD pools. This view cover
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
-- [ETH](https://www.defi.garden/tokens/eth)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [LSETH](https://www.defi.garden/tokens/lseth)
+- [SUSDAI](https://www.defi.garden/tokens/susdai)
+- [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
 
 ## Available on
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

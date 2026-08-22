@@ -4,7 +4,7 @@ The highest honest UZR yield right now is 1.85% on fira (Ethereum), among 1 pool
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fira →](https://www.defi.garden/?pool=067c8d57-e9de-49e2-92a3-e3a4d8ab33de&src=seo_token) | Ethereum | 1.85% | $9.31M |
+| [fira →](https://www.defi.garden/?pool=067c8d57-e9de-49e2-92a3-e3a4d8ab33de&src=seo_token) | Ethereum | 1.85% | $9.27M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many UZR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $9.31M in total.
+1 live pool clear this page's $100K TVL floor, $9.27M in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank UZR pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank UZR pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

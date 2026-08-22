@@ -1,10 +1,10 @@
 # POL DeFi Yields
 
-The highest honest POL yield right now is 15.52% on uniswap-v4 (Polygon), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest POL yield right now is 29.80% on uniswap-v4 (Polygon), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ce4fb431-d3a8-49b7-b0c3-ae3f9c5f0318&src=seo_token) | Polygon | 15.52% | $111.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ce4fb431-d3a8-49b7-b0c3-ae3f9c5f0318&src=seo_token) | Polygon | 29.80% | $122.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-POL shows up in 1 pools here, with rates from 15.52% to 15.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+POL shows up in 1 pools here, with rates from 29.80% to 29.80% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 3.71% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 15.52% | 3.71% | Base rate |
+| uniswap-v4 | 29.80% | 4.20% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest POL yield today?
 
-15.52% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+29.80% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many POL pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $959.2K in total.
+6 live pools clear this page's $100K TVL floor, $1.07M in total.
 
 ### Are these rates safe?
 
@@ -52,12 +52,12 @@ There is not enough qualifying APY history to rank POL pools. This view covers A
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [ACRED](https://www.defi.garden/tokens/acred)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [BET](https://www.defi.garden/tokens/bet)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

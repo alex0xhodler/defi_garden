@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $405.5K |
+| [curvance →](https://www.defi.garden/?pool=ff62c40e-0541-4409-862f-d93d8269b018&src=seo_token) | Monad | 0.50% | $400.2K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 0.50%예요.
 
 ### YZM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $655.2K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $650.1K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -47,15 +47,15 @@ DefiLlama 실시간 데이터 기준, Monad의 curvance에서 APY 0.50%예요.
 
 ## 관련 토큰
 
-- [WETH](https://www.defi.garden/ko/tokens/weth)
 - [SUSDE](https://www.defi.garden/ko/tokens/susde)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
 - [BTC](https://www.defi.garden/ko/tokens/btc)
 - [AUSD](https://www.defi.garden/ko/tokens/ausd)
+- [PT](https://www.defi.garden/ko/tokens/pt)
 
 ## 이용 가능한 체인
 
 - [Monad](https://www.defi.garden/ko/chains/monad)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

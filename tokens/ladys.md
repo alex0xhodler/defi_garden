@@ -1,10 +1,10 @@
 # LADYS DeFi Yields
 
-The highest honest LADYS yield right now is 5.12% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LADYS yield right now is 5.45% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=79ae8295-372d-4d67-8fc4-03f54c2b49ea&src=seo_token) | Ethereum | 5.12% | $818K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=79ae8295-372d-4d67-8fc4-03f54c2b49ea&src=seo_token) | Ethereum | 5.45% | $876.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LADYS yield today?
 
-5.12% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+5.45% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LADYS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $818K in total.
+1 live pool clear this page's $100K TVL floor, $876.1K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank LADYS pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LADYS pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

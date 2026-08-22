@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=c98159e6-8e05-4261-91cd-dc1d9d0ec3c8&src=seo_token) | Ethereum | 0.01% | $164.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=c98159e6-8e05-4261-91cd-dc1d9d0ec3c8&src=seo_token) | Ethereum | 0.01% | $175.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.01%예�
 
 ### WCUP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $164.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $175.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.01%예�
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 0.01%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

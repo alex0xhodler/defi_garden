@@ -1,10 +1,10 @@
 # ICHI DeFi Yields
 
-The highest honest ICHI yield right now is 0.33% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ICHI yield right now is 0.67% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=cff7ac9a-29b9-4057-bb87-20f790e13a15&src=seo_token) | Ethereum | 0.33% | $185.6K |
+| [sushiswap →](https://www.defi.garden/?pool=cff7ac9a-29b9-4057-bb87-20f790e13a15&src=seo_token) | Ethereum | 0.67% | $196.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ICHI yield today?
 
-0.33% APY on sushiswap (Ethereum), based on live DefiLlama data.
+0.67% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many ICHI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $185.6K in total.
+1 live pool clear this page's $100K TVL floor, $196.5K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank ICHI pools. This view covers 
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ICHI pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

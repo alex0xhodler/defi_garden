@@ -1,10 +1,10 @@
 # SDL DeFi Yields
 
-The highest honest SDL yield right now is 21.09% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SDL yield right now is 6.28% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6a276d5c-349b-4fc0-a501-c56f9127c87f&src=seo_token) | Ethereum | 21.09% | $441.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6a276d5c-349b-4fc0-a501-c56f9127c87f&src=seo_token) | Ethereum | 6.28% | $469.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SDL yield today?
 
-21.09% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+6.28% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SDL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $441.7K in total.
+1 live pool clear this page's $100K TVL floor, $469.5K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank SDL pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SDL pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

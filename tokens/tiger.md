@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank TIGER pools. This view covers
 - [LION](https://www.defi.garden/tokens/lion)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Kava](https://www.defi.garden/chains/kava)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

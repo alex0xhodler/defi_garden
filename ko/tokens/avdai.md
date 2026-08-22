@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Avalanche의 curve-dex에서 APY 1.26%예�
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [BTC](https://www.defi.garden/ko/tokens/btc)
 - [SAVAX](https://www.defi.garden/ko/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
-- [VBILL](https://www.defi.garden/ko/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/ko/tokens/savusd)
 
 ## 이용 가능한 체인
 
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank USDST pools. This view covers
 - [STRATO](https://www.defi.garden/tokens/strato)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Strato](https://www.defi.garden/chains/strato)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

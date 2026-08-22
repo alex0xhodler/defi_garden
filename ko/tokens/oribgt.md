@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [origami-finance →](https://www.defi.garden/?pool=9b8da01e-a2d6-427b-95ef-96df8de8d32f&src=seo_token) | Berachain | 40.79% | $152.3K |
+| [origami-finance →](https://www.defi.garden/?pool=9b8da01e-a2d6-427b-95ef-96df8de8d32f&src=seo_token) | Berachain | 40.79% | $173.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Berachain의 origami-finance에서 APY 40.
 
 ### ORIBGT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $152.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $173.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,13 +35,13 @@ DefiLlama 실시간 데이터 기준, Berachain의 origami-finance에서 APY 40.
 
 - [UNIBTC](https://www.defi.garden/ko/tokens/unibtc)
 - [KODIBRBTC](https://www.defi.garden/ko/tokens/kodibrbtc)
+- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
 - [IBERA](https://www.defi.garden/ko/tokens/ibera)
 - [BUSD](https://www.defi.garden/ko/tokens/busd)
 - [RE7HONEY](https://www.defi.garden/ko/tokens/re7honey)
-- [CSRHONEY](https://www.defi.garden/ko/tokens/csrhoney)
 
 ## 이용 가능한 체인
 
 - [Berachain](https://www.defi.garden/ko/chains/berachain)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

@@ -4,7 +4,7 @@ The highest honest SLNUSDT yield right now is 9.50% on wildcat-protocol (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=4d870e8b-0674-4f21-b236-c62b88228c3b&src=seo_token) | Ethereum | 9.50% | $710.5K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=4d870e8b-0674-4f21-b236-c62b88228c3b&src=seo_token) | Ethereum | 9.50% | $710.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SLNUSDT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $710.5K in total.
+1 live pool clear this page's $100K TVL floor, $710.6K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank SLNUSDT pools. This view cove
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SLNUSDT pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

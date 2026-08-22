@@ -4,7 +4,7 @@ The highest honest TGLD yield right now is 4.01% on accountable (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [accountable →](https://www.defi.garden/?pool=943e4205-5f5a-4cf1-b8ee-ff1d0b80596a&src=seo_token) | Ethereum | 4.01% | $455.1K |
+| [accountable →](https://www.defi.garden/?pool=943e4205-5f5a-4cf1-b8ee-ff1d0b80596a&src=seo_token) | Ethereum | 4.01% | $466K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TGLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $455.1K in total.
+1 live pool clear this page's $100K TVL floor, $466K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank TGLD pools. This view covers 
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TGLD pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

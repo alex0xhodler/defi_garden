@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=4d870e8b-0674-4f21-b236-c62b88228c3b&src=seo_token) | Ethereum | 9.50% | $710.5K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=4d870e8b-0674-4f21-b236-c62b88228c3b&src=seo_token) | Ethereum | 9.50% | $710.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 wildcat-protocol에서 APY 9.5
 
 ### SLNUSDT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $710.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $710.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 wildcat-protocol에서 APY 9.5
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 wildcat-protocol에서 APY 9.5
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

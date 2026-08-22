@@ -4,7 +4,7 @@ The highest honest YIELDETH yield right now is 7.92% on lagoon (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=d3b330b8-66e4-4622-b01f-9466298a18d9&src=seo_token) | Ethereum | 7.92% | $724.3K |
+| [lagoon →](https://www.defi.garden/?pool=d3b330b8-66e4-4622-b01f-9466298a18d9&src=seo_token) | Ethereum | 7.92% | $772.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YIELDETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $724.3K in total.
+1 live pool clear this page's $100K TVL floor, $772.1K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank YIELDETH pools. This view cov
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank YIELDETH pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

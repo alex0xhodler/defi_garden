@@ -1,12 +1,12 @@
 # USDC-GHST — aerodrome-slipstream on Base
 
-**Total APY:** 22.98% (0.00% Base · + 22.98% Rewards)
+**Total APY:** 26.50% (3.14% Base · + 23.36% Rewards)
 
-**TVL:** $577.8K
+**TVL:** $589.5K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 68.07%
+**30d Mean APY:** 68.76%
 
 **Exposure:** multi
 
@@ -22,16 +22,16 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,446 in 5y at current rates.
+$1,000 in this pool grows to ~$1,527 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (22.98% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (26.50% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 22.98% right now vs a 68.07% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 26.50% right now vs a 68.76% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,446 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,527 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on aerodrome-slipstream](https://aerodrome.finance/?ref=defi.garden)
 
-Last updated August 21, 2026
+Last updated August 22, 2026

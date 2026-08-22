@@ -1,41 +1,41 @@
 # 1INCH 디파이 수익률
 
-현재 1INCH의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 21.56%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 1INCH의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v4에서 34.70%이며, $100K TVL 기준을 넘는 18개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 11.54% | $5.63M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 0.34% | $2.01M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 21.56% | $1.35M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 14.63% | $1.14M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 10.11% | $681.2K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 65.06% | $638.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 11.76% | $582.3K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.03% | $420.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 6.74% | $6.01M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 24.50% | $2.13M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 34.70% | $1.48M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 96.20% | $1.32M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 46.96% | $744.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 142.20% | $717.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 11.24% | $590.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=78586eb7-6e85-4617-95ac-37841d076c70&src=seo_token) | Ethereum | 36.52% | $255.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 1INCH의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.34%, TVL $2.01M, https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token; Ethereum의 uniswap-v4, APY 11.54%, TVL $5.63M, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; Ethereum의 uniswap-v4, APY 10.11%, TVL $681.2K, https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token; Ethereum의 uniswap-v4, APY 14.63%, TVL $1.14M, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; Ethereum의 uniswap-v4, APY 11.76%, TVL $582.3K, https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token; Ethereum의 uniswap-v4, APY 65.06%, TVL $638.4K, https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token; Ethereum의 uniswap-v4, APY 21.56%, TVL $1.35M, https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token; Ethereum의 uniswap-v4, APY 0.03%, TVL $420.3K, https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 1INCH의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 24.50%, TVL $2.13M, https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token; Ethereum의 uniswap-v4, APY 6.74%, TVL $6.01M, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; Ethereum의 uniswap-v4, APY 46.96%, TVL $744.7K, https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token; Ethereum의 uniswap-v4, APY 96.20%, TVL $1.32M, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; Ethereum의 uniswap-v4, APY 11.24%, TVL $590.8K, https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token; Ethereum의 uniswap-v4, APY 34.70%, TVL $1.48M, https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token; Ethereum의 uniswap-v4, APY 142.20%, TVL $717.1K, https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token; Ethereum의 uniswap-v3, APY 36.52%, TVL $255.4K, https://www.defi.garden/?pool=78586eb7-6e85-4617-95ac-37841d076c70&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 0.34% | $2.01M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 11.54% | $5.63M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 10.11% | $681.2K |
-| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 14.63% | $1.14M |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 11.76% | $582.3K |
-| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 65.06% | $638.4K |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 21.56% | $1.35M |
-| 8 | [uniswap-v4 →](https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token) | Ethereum | 0.03% | $420.3K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token) | Ethereum | 24.50% | $2.13M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token) | Ethereum | 6.74% | $6.01M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token) | Ethereum | 46.96% | $744.7K |
+| 4 | [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 96.20% | $1.32M |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token) | Ethereum | 11.24% | $590.8K |
+| 6 | [uniswap-v4 →](https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token) | Ethereum | 34.70% | $1.48M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token) | Ethereum | 142.20% | $717.1K |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=78586eb7-6e85-4617-95ac-37841d076c70&src=seo_token) | Ethereum | 36.52% | $255.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-1INCH 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.03%부터 65.06%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+1INCH 풀은 여기 8개가 있고, 1개 체인에서 APY가 6.74%부터 142.20%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 14.06%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 15.83%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 8개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -43,14 +43,14 @@ APY 이력만 기준으로 비교한 1INCH의 변동성 낮은 후보는 Ethereu
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v4 | 11.54% | 10.25% | 기본 금리 |
-| uniswap-v4 | 0.34% | 1.45% | 기본 금리 |
-| uniswap-v4 | 21.56% | 26.02% | 기본 금리 |
-| uniswap-v4 | 14.63% | 17.35% | 기본 금리 |
-| uniswap-v4 | 10.11% | 15.70% | 기본 금리 |
-| uniswap-v4 | 65.06% | 27.53% | 기본 금리 |
-| uniswap-v4 | 11.76% | 12.42% | 기본 금리 |
-| uniswap-v4 | 0.03% | 3.77% | 기본 금리 |
+| uniswap-v4 | 6.74% | 8.28% | 기본 금리 |
+| uniswap-v4 | 24.50% | 0.73% | 기본 금리 |
+| uniswap-v4 | 34.70% | 24.83% | 기본 금리 |
+| uniswap-v4 | 96.20% | 16.68% | 기본 금리 |
+| uniswap-v4 | 46.96% | 14.99% | 기본 금리 |
+| uniswap-v4 | 142.20% | 30.24% | 기본 금리 |
+| uniswap-v4 | 11.24% | 9.82% | 기본 금리 |
+| uniswap-v3 | 36.52% | 21.77% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ APY 이력만 기준으로 비교한 1INCH의 변동성 낮은 후보는 Ethereu
 
 ### 오늘 1INCH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 21.56%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 34.70%예요.
 
 ### 1INCH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $23.86M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 18개이며, 합산 TVL은 $25.69M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,14 +70,14 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v4에서 APY 21.56%예
 
 ### 1INCH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 1INCH의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 0.34%, TVL $2.01M, https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token; Ethereum의 uniswap-v4, APY 11.54%, TVL $5.63M, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; Ethereum의 uniswap-v4, APY 10.11%, TVL $681.2K, https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token; Ethereum의 uniswap-v4, APY 14.63%, TVL $1.14M, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; Ethereum의 uniswap-v4, APY 11.76%, TVL $582.3K, https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token; Ethereum의 uniswap-v4, APY 65.06%, TVL $638.4K, https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token; Ethereum의 uniswap-v4, APY 21.56%, TVL $1.35M, https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token; Ethereum의 uniswap-v4, APY 0.03%, TVL $420.3K, https://www.defi.garden/?pool=9337a681-156f-4ee5-91f0-84ad73b26c32&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 1INCH의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 24.50%, TVL $2.13M, https://www.defi.garden/?pool=4bf0159e-7b41-49fe-b8d9-d4d37e2ba745&src=seo_token; Ethereum의 uniswap-v4, APY 6.74%, TVL $6.01M, https://www.defi.garden/?pool=efeb2357-5a2b-44a4-8d94-3fd8a82b826c&src=seo_token; Ethereum의 uniswap-v4, APY 46.96%, TVL $744.7K, https://www.defi.garden/?pool=420f17fc-8f8a-4ad1-9080-7161f5eb8d10&src=seo_token; Ethereum의 uniswap-v4, APY 96.20%, TVL $1.32M, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; Ethereum의 uniswap-v4, APY 11.24%, TVL $590.8K, https://www.defi.garden/?pool=551d0260-0869-43b7-a6ed-cb34c4f637b6&src=seo_token; Ethereum의 uniswap-v4, APY 34.70%, TVL $1.48M, https://www.defi.garden/?pool=61e26935-9ba4-4477-815a-d93c5d445b04&src=seo_token; Ethereum의 uniswap-v4, APY 142.20%, TVL $717.1K, https://www.defi.garden/?pool=28e1d1cc-e830-41db-9d31-96e1f8b5d98b&src=seo_token; Ethereum의 uniswap-v3, APY 36.52%, TVL $255.4K, https://www.defi.garden/?pool=78586eb7-6e85-4617-95ac-37841d076c70&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -85,4 +85,4 @@ APY 이력만 기준으로 비교한 1INCH의 변동성 낮은 후보는 Ethereu
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

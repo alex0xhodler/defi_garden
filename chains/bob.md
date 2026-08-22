@@ -1,12 +1,11 @@
 # Bob DeFi Yields
 
-The highest honest Bob yield right now is 1.81% on segment-finance (Bob), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Bob yield right now is 1.81% on segment-finance (Bob), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XSOLVBTC | [avalon-finance →](https://www.defi.garden/?pool=19c9b477-6ce9-4e59-897e-1b3ef76afa3a&src=seo_chain) | 1.00% | $126.1K |
-| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.81% | $110.9K |
-| WBTC-SOLVBTC | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_chain) | 0.94% | $105.6K |
+| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.81% | $114.6K |
+| WBTC-SOLVBTC | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_chain) | 0.07% | $109.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Bob pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $53.12M in total.
+4 live pools clear this page's $100K TVL floor, $54.39M in total.
 
 ### Are these rates safe?
 
@@ -28,15 +27,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Solana](https://www.defi.garden/chains/solana)
-- [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Monad](https://www.defi.garden/chains/monad)
+- [Aptos](https://www.defi.garden/chains/aptos)
 
 ## Top tokens on Bob
 
 - [WBTC](https://www.defi.garden/tokens/wbtc)
-- [XSOLVBTC](https://www.defi.garden/tokens/xsolvbtc)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

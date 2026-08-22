@@ -2,11 +2,11 @@
 
 **Total APY:** 2.17% (2.17% Base · + 0.00% Rewards)
 
-**TVL:** $114.26M
+**TVL:** $114.36M
 
 **Pool Type:** Lending
 
-**30d Mean APY:** 2.18%
+**30d Mean APY:** 2.17%
 
 **Exposure:** single
 
@@ -25,10 +25,10 @@ $1,000 in this pool grows to ~$1,113 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 39 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+Steady so far: across the 40 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
 
 [Garden this pool → ~$1,113 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on sparklend](https://spark.finance/?ref=defi.garden)
 
-Last updated August 21, 2026
+Last updated August 22, 2026

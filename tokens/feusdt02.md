@@ -1,10 +1,10 @@
 # FEUSDT02 DeFi Yields
 
-The highest honest FEUSDT02 yield right now is 3.50% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FEUSDT02 yield right now is 3.62% on morpho-blue (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a8377123-ab6a-4df7-b873-8490a47e2881&src=seo_token) | Hyperliquid L1 | 3.50% | $695.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=a8377123-ab6a-4df7-b873-8490a47e2881&src=seo_token) | Hyperliquid L1 | 3.62% | $694.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FEUSDT02 yield today?
 
-3.50% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
+3.62% APY on morpho-blue (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many FEUSDT02 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $695.2K in total.
+1 live pool clear this page's $100K TVL floor, $694.7K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank FEUSDT02 pools. This view cov
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
+- [THBILL](https://www.defi.garden/tokens/thbill)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FEUSDT02 pools. This view cov
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

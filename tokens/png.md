@@ -1,10 +1,10 @@
 # PNG DeFi Yields
 
-The highest honest PNG yield right now is 8.17% on pangolin-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNG yield right now is 18.33% on pangolin-v2 (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pangolin-v2 →](https://www.defi.garden/?pool=566f2380-2a31-4a98-8700-d7bc6bd0c29c&src=seo_token) | Avalanche | 8.17% | $181K |
+| [pangolin-v2 →](https://www.defi.garden/?pool=566f2380-2a31-4a98-8700-d7bc6bd0c29c&src=seo_token) | Avalanche | 18.33% | $197.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNG yield today?
 
-8.17% APY on pangolin-v2 (Avalanche), based on live DefiLlama data.
+18.33% APY on pangolin-v2 (Avalanche), based on live DefiLlama data.
 
 ### How many PNG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $181K in total.
+1 live pool clear this page's $100K TVL floor, $197.7K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank PNG pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

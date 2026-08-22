@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Moonbeam의 moonwell-lending에서 APY 0.0
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Moonbeam의 moonwell-lending에서 APY 0.0
 
 - [Moonbeam](https://www.defi.garden/ko/chains/moonbeam)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

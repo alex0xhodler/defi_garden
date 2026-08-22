@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank OV pools. This view covers AP
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

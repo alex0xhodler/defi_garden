@@ -1,10 +1,10 @@
 # LIKES DeFi Yields
 
-The highest honest LIKES yield right now is 0.07% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LIKES yield right now is 0.34% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=eca3bd67-df5e-4959-bc5a-272f6863ac24&src=seo_token) | Base | 0.07% | $177.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=eca3bd67-df5e-4959-bc5a-272f6863ac24&src=seo_token) | Base | 0.34% | $188.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LIKES yield today?
 
-0.07% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.34% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many LIKES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $177.8K in total.
+1 live pool clear this page's $100K TVL floor, $188.9K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank LIKES pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

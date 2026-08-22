@@ -1,10 +1,10 @@
 # YAK DeFi Yields
 
-The highest honest YAK yield right now is 0.75% on yield-yak-aggregator (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YAK yield right now is 0.71% on yield-yak-aggregator (Avalanche), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yield-yak-aggregator →](https://www.defi.garden/?pool=f2b69026-34c2-4933-825b-cd3f6dd5fab3&src=seo_token) | Avalanche | 0.75% | $206.4K |
+| [yield-yak-aggregator →](https://www.defi.garden/?pool=f2b69026-34c2-4933-825b-cd3f6dd5fab3&src=seo_token) | Avalanche | 0.71% | $262.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YAK yield today?
 
-0.75% APY on yield-yak-aggregator (Avalanche), based on live DefiLlama data.
+0.71% APY on yield-yak-aggregator (Avalanche), based on live DefiLlama data.
 
 ### How many YAK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $206.4K in total.
+1 live pool clear this page's $100K TVL floor, $262.8K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank YAK pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

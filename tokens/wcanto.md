@@ -4,7 +4,7 @@ The highest honest WCANTO yield right now is 32.06% on canto-lending (Canto), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [canto-lending →](https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token) | Canto | 32.06% | $113.4K |
+| [canto-lending →](https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token) | Canto | 32.06% | $116.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WCANTO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.4K in total.
+1 live pool clear this page's $100K TVL floor, $116.5K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank WCANTO pools. This view cover
 - [NOTE](https://www.defi.garden/tokens/note)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Canto](https://www.defi.garden/chains/canto)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

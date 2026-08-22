@@ -4,18 +4,18 @@ The highest honest AV3CRV yield right now is 0.53% on curve-dex (Avalanche), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $505.3K |
-| [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $249.1K |
+| [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $519.5K |
+| [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $248.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AV3CRV's lower-variability candidates are curve-dex (Avalanche), 0.39% APY, $249.1K TVL, https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token; curve-dex (Avalanche), 0.53% APY, $505.3K TVL, https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AV3CRV's lower-variability candidates are curve-dex (Avalanche), 0.39% APY, $248.9K TVL, https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token; curve-dex (Avalanche), 0.53% APY, $519.5K TVL, https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $249.1K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $505.3K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token) | Avalanche | 0.39% | $248.9K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token) | Avalanche | 0.53% | $519.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AV3CRV pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $754.4K in total.
+2 live pools clear this page's $100K TVL floor, $768.4K in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AV3CRV pools have the most stable APY history?
 
-Based on APY history only, AV3CRV's lower-variability candidates are curve-dex (Avalanche), 0.39% APY, $249.1K TVL, https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token; curve-dex (Avalanche), 0.53% APY, $505.3K TVL, https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AV3CRV's lower-variability candidates are curve-dex (Avalanche), 0.39% APY, $248.9K TVL, https://www.defi.garden/?pool=4904bc90-237b-429f-9732-d272363db47e&src=seo_token; curve-dex (Avalanche), 0.53% APY, $519.5K TVL, https://www.defi.garden/?pool=43acdd23-dfe1-41a5-ac9d-8726462f0001&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [BTC](https://www.defi.garden/tokens/btc)
 - [SAVAX](https://www.defi.garden/tokens/savax)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
-- [VBILL](https://www.defi.garden/tokens/vbill)
 - [SAVUSD](https://www.defi.garden/tokens/savusd)
 
 ## Available on
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

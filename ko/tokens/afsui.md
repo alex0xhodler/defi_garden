@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [scallop-lend →](https://www.defi.garden/?pool=3dae75a6-110c-4fb0-892d-1d861cb2649b&src=seo_token) | Sui | 0.12% | $124.5K |
+| [scallop-lend →](https://www.defi.garden/?pool=3dae75a6-110c-4fb0-892d-1d861cb2649b&src=seo_token) | Sui | 0.12% | $142.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Sui의 scallop-lend에서 APY 0.12%예요.
 
 ### AFSUI 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $124.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $142.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Sui의 scallop-lend에서 APY 0.12%예요.
 
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
 - [LBTC](https://www.defi.garden/ko/tokens/lbtc)
-- [ENZOBTC](https://www.defi.garden/ko/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/ko/tokens/xbtc)
+- [SUI](https://www.defi.garden/ko/tokens/sui)
 - [HASUI](https://www.defi.garden/ko/tokens/hasui)
 - [BUCK](https://www.defi.garden/ko/tokens/buck)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Sui의 scallop-lend에서 APY 0.12%예요.
 
 - [Sui](https://www.defi.garden/ko/chains/sui)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

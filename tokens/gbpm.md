@@ -4,7 +4,7 @@ The highest honest GBPM yield right now is 25.06% on mento-v3 (Monad), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 25.06% | $609.5K |
+| [mento-v3 →](https://www.defi.garden/?pool=51f3ee86-2dd5-41e7-951c-c8c27165abbf&src=seo_token) | Monad | 25.06% | $608.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GBPM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $609.5K in total.
+1 live pool clear this page's $100K TVL floor, $608.8K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank GBPM pools. This view covers 
 
 ## Related tokens
 
-- [WETH](https://www.defi.garden/tokens/weth)
 - [SUSDE](https://www.defi.garden/tokens/susde)
 - [USDE](https://www.defi.garden/tokens/usde)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
 - [BTC](https://www.defi.garden/tokens/btc)
 - [AUSD](https://www.defi.garden/tokens/ausd)
+- [PT](https://www.defi.garden/tokens/pt)
 
 ## Available on
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

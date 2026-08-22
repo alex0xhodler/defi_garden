@@ -1,10 +1,10 @@
 # SQGROW DeFi Yields
 
-The highest honest SQGROW yield right now is 126.29% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SQGROW yield right now is 76.58% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4534e56b-e9fa-49e0-bcf5-f3f11954e59b&src=seo_token) | Ethereum | 126.29% | $190.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4534e56b-e9fa-49e0-bcf5-f3f11954e59b&src=seo_token) | Ethereum | 76.58% | $199.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SQGROW yield today?
 
-126.29% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+76.58% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SQGROW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $190.5K in total.
+1 live pool clear this page's $100K TVL floor, $199.6K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank SQGROW pools. This view cover
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SQGROW pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

@@ -2,7 +2,7 @@
 
 **Total APY:** 0.06% (0.06% Base · + 0.00% Rewards)
 
-**TVL:** $109.8K
+**TVL:** $1.17M
 
 **Pool Type:** LP/DEX
 
@@ -16,7 +16,7 @@
 
 Moderate risk profile
 
-- Low liquidity
+- Medium liquidity
 - Impermanent loss risk
 
 ## The long game
@@ -31,4 +31,4 @@ This pool's rate moves a lot: 0.06% right now vs a 0.02% 30-day average. Reward 
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 
-Last updated August 21, 2026
+Last updated August 22, 2026

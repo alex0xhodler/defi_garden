@@ -1,10 +1,10 @@
 # HOPPY DeFi Yields
 
-The highest honest HOPPY yield right now is 4.88% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HOPPY yield right now is 1.64% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1d02e0b2-9441-4c4f-922a-1fa61aa98733&src=seo_token) | Ethereum | 4.88% | $391.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1d02e0b2-9441-4c4f-922a-1fa61aa98733&src=seo_token) | Ethereum | 1.64% | $427.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HOPPY yield today?
 
-4.88% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.64% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many HOPPY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $391.9K in total.
+1 live pool clear this page's $100K TVL floor, $427.8K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank HOPPY pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HOPPY pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

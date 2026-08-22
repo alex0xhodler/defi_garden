@@ -1,10 +1,10 @@
 # BRAINPRO DeFi Yields
 
-The highest honest BRAINPRO yield right now is 0.06% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRAINPRO yield right now is 0.34% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=d799b0e7-afce-4eb0-8ddd-47ff6c58afa7&src=seo_token) | Base | 0.06% | $115.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d799b0e7-afce-4eb0-8ddd-47ff6c58afa7&src=seo_token) | Base | 0.34% | $123.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRAINPRO yield today?
 
-0.06% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.34% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BRAINPRO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $115.5K in total.
+1 live pool clear this page's $100K TVL floor, $123.4K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BRAINPRO pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

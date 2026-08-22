@@ -1,10 +1,10 @@
 # ABX DeFi Yields
 
-The highest honest ABX yield right now is 15.55% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ABX yield right now is 20.18% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=f5c8b063-e873-4fe8-86b3-a03e1b76ce8c&src=seo_token) | Base | 15.55% | $106.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f5c8b063-e873-4fe8-86b3-a03e1b76ce8c&src=seo_token) | Base | 20.18% | $111.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ABX yield today?
 
-15.55% APY on uniswap-v3 (Base), based on live DefiLlama data.
+20.18% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many ABX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $106.1K in total.
+1 live pool clear this page's $100K TVL floor, $111.6K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ABX pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

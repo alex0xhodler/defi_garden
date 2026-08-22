@@ -1,10 +1,10 @@
 # DBR DeFi Yields
 
-The highest honest DBR yield right now is 2.43% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DBR yield right now is 7.39% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 2.43% | $797.9K |
+| [curve-dex →](https://www.defi.garden/?pool=168a12f8-56b3-47e6-86d6-9de16bcb45ec&src=seo_token) | Ethereum | 7.39% | $796.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DBR yield today?
 
-2.43% APY on curve-dex (Ethereum), based on live DefiLlama data.
+7.39% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many DBR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $797.9K in total.
+1 live pool clear this page's $100K TVL floor, $796.5K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank DBR pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DBR pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

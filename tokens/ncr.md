@@ -4,7 +4,7 @@ The highest honest NCR yield right now is 0.01% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=247150e5-6e30-4c32-9c58-bf45ef62dd8f&src=seo_token) | Ethereum | 0.01% | $311.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=247150e5-6e30-4c32-9c58-bf45ef62dd8f&src=seo_token) | Ethereum | 0.01% | $310.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NCR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $311.7K in total.
+1 live pool clear this page's $100K TVL floor, $310.9K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank NCR pools. This view covers A
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NCR pools. This view covers A
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

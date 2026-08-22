@@ -1,37 +1,37 @@
 # XAUT0 DeFi Yields
 
-The highest honest XAUT0 yield right now is 2.90% on raydium-amm (Solana), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XAUT0 yield right now is 2.71% on affluent (TON), among 11 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.90% | $504.1K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.65% | $249.6K |
-| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 2.31% | $217.6K |
-| [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 1.75% | $212.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 29.38% | $149.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.39% | $510.9K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.71% | $261.1K |
+| [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 3.16% | $222.3K |
+| [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 2.10% | $214.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 87.60% | $151.3K |
 | [raydium-amm →](https://www.defi.garden/?pool=e6d897d8-681f-4e6d-94aa-a1893d28339d&src=seo_token) | Solana | 0.48% | $101.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, XAUT0's lower-variability candidates are affluent (TON), 2.65% APY, $249.6K TVL, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token; ston.fi (TON), 1.75% APY, $212.9K TVL, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token; raydium-amm (Solana), 2.90% APY, $504.1K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token; raydium-amm (Solana), 0.48% APY, $101.6K TVL, https://www.defi.garden/?pool=e6d897d8-681f-4e6d-94aa-a1893d28339d&src=seo_token; uniswap-v4 (Arbitrum), 29.38% APY, $149.6K TVL, https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token; project-x (Hyperliquid L1), 2.31% APY, $217.6K TVL, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XAUT0's lower-variability candidates are affluent (TON), 2.71% APY, $261.1K TVL, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token; ston.fi (TON), 2.10% APY, $214.4K TVL, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token; raydium-amm (Solana), 2.39% APY, $510.9K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token; raydium-amm (Solana), 0.48% APY, $101.6K TVL, https://www.defi.garden/?pool=e6d897d8-681f-4e6d-94aa-a1893d28339d&src=seo_token; uniswap-v4 (Arbitrum), 87.60% APY, $151.3K TVL, https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token; project-x (Hyperliquid L1), 3.16% APY, $222.3K TVL, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.65% | $249.6K |
-| 2 | [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 1.75% | $212.9K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.90% | $504.1K |
+| 1 | [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.71% | $261.1K |
+| 2 | [ston.fi →](https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token) | TON | 2.10% | $214.4K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token) | Solana | 2.39% | $510.9K |
 | 4 | [raydium-amm →](https://www.defi.garden/?pool=e6d897d8-681f-4e6d-94aa-a1893d28339d&src=seo_token) | Solana | 0.48% | $101.6K |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 29.38% | $149.6K |
-| 6 | [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 2.31% | $217.6K |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token) | Arbitrum | 87.60% | $151.3K |
+| 6 | [project-x →](https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token) | Hyperliquid L1 | 3.16% | $222.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-XAUT0 shows up in 6 pools here, with rates from 0.48% to 29.38% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
+XAUT0 shows up in 6 pools here, with rates from 0.48% to 87.60% APY across 4 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-6 of these 6 pools have a trustworthy 30-day average on file, with a median of 2.52% — a useful check against today's number for whether the rate is steady or just having a good day.
+6 of these 6 pools have a trustworthy 30-day average on file, with a median of 2.54% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 6 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -39,11 +39,11 @@ All 6 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 2.90% | 2.19% | Base rate |
-| affluent | 2.65% | 2.85% | Base rate |
-| project-x | 2.31% | 7.52% | Base rate |
-| ston.fi | 1.75% | 1.43% | Base rate |
-| uniswap-v4 | 29.38% | 11.31% | Base rate |
+| raydium-amm | 2.39% | 2.25% | Base rate |
+| affluent | 2.71% | 2.82% | Base rate |
+| project-x | 3.16% | 8.13% | Base rate |
+| ston.fi | 2.10% | 1.45% | Base rate |
+| uniswap-v4 | 87.60% | 13.17% | Base rate |
 | raydium-amm | 0.48% | 0.59% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -52,11 +52,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest XAUT0 yield today?
 
-2.90% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.71% APY on affluent (TON), based on live DefiLlama data.
 
 ### How many XAUT0 pools clear the TVL floor?
 
-11 live pools clear this page's $100K TVL floor, $6.69M in total.
+11 live pools clear this page's $100K TVL floor, $6.64M in total.
 
 ### Are these rates safe?
 
@@ -64,16 +64,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which XAUT0 pools have the most stable APY history?
 
-Based on APY history only, XAUT0's lower-variability candidates are affluent (TON), 2.65% APY, $249.6K TVL, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token; ston.fi (TON), 1.75% APY, $212.9K TVL, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token; raydium-amm (Solana), 2.90% APY, $504.1K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token; raydium-amm (Solana), 0.48% APY, $101.6K TVL, https://www.defi.garden/?pool=e6d897d8-681f-4e6d-94aa-a1893d28339d&src=seo_token; uniswap-v4 (Arbitrum), 29.38% APY, $149.6K TVL, https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token; project-x (Hyperliquid L1), 2.31% APY, $217.6K TVL, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, XAUT0's lower-variability candidates are affluent (TON), 2.71% APY, $261.1K TVL, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token; ston.fi (TON), 2.10% APY, $214.4K TVL, https://www.defi.garden/?pool=e1bc290a-0ee5-4b7b-8fc1-684d692231dd&src=seo_token; raydium-amm (Solana), 2.39% APY, $510.9K TVL, https://www.defi.garden/?pool=1f86297f-55bf-40e7-9485-68e843761c70&src=seo_token; raydium-amm (Solana), 0.48% APY, $101.6K TVL, https://www.defi.garden/?pool=e6d897d8-681f-4e6d-94aa-a1893d28339d&src=seo_token; uniswap-v4 (Arbitrum), 87.60% APY, $151.3K TVL, https://www.defi.garden/?pool=80e49e3d-9a80-4ff9-a816-e3d8d20b0fdf&src=seo_token; project-x (Hyperliquid L1), 3.16% APY, $222.3K TVL, https://www.defi.garden/?pool=aa6ec082-71d4-4caf-bbdc-12c7553cc8d1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDS](https://www.defi.garden/tokens/usds)
 
 ## Available on
 
@@ -82,4 +82,4 @@ Based on APY history only, XAUT0's lower-variability candidates are affluent (TO
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

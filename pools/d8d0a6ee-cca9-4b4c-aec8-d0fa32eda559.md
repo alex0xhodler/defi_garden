@@ -2,7 +2,7 @@
 
 **Total APY:** 2.00% (0.00% Base · + 2.00% Rewards)
 
-**TVL:** $2.89M
+**TVL:** $2.98M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on vesu](https://www.vesu.xyz/?ref=defi.garden)
 
-Last updated August 21, 2026
+Last updated August 22, 2026

@@ -1,10 +1,10 @@
 # STPOL DeFi Yields
 
-The highest honest STPOL yield right now is 3.45% on stake.link-liquid (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STPOL yield right now is 3.46% on stake.link-liquid (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake.link-liquid →](https://www.defi.garden/?pool=5797965f-0002-4bc0-b989-1aa575e096d8&src=seo_token) | Ethereum | 3.45% | $1.12M |
+| [stake.link-liquid →](https://www.defi.garden/?pool=5797965f-0002-4bc0-b989-1aa575e096d8&src=seo_token) | Ethereum | 3.46% | $1.33M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STPOL yield today?
 
-3.45% APY on stake.link-liquid (Ethereum), based on live DefiLlama data.
+3.46% APY on stake.link-liquid (Ethereum), based on live DefiLlama data.
 
 ### How many STPOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.12M in total.
+1 live pool clear this page's $100K TVL floor, $1.33M in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank STPOL pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STPOL pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

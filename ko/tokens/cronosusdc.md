@@ -1,10 +1,10 @@
 # CRONOSUSDC 디파이 수익률
 
-현재 CRONOSUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 4.20%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CRONOSUSDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 4.15%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=7c9210dc-9550-47eb-b73c-5774aa629c96&src=seo_token) | Ethereum | 4.20% | $1.37M |
+| [morpho-blue →](https://www.defi.garden/?pool=7c9210dc-9550-47eb-b73c-5774aa629c96&src=seo_token) | Ethereum | 4.15% | $1.37M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 CRONOSUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.20%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.15%예요.
 
 ### CRONOSUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -35,8 +35,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.20%예
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.20%예
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 21, 2026
+## 마지막 업데이트: August 22, 2026

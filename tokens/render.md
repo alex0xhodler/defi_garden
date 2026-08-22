@@ -4,28 +4,28 @@ The highest honest RENDER yield right now is 0.02% on project-0 (Solana), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 37.27% | $415.2K |
-| [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.02% | $280.7K |
-| [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 12.73% | $243.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 68.38% | $458.4K |
+| [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.02% | $310.4K |
+| [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 34.99% | $262.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.02% APY, $280.7K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token; raydium-amm (Solana), 37.27% APY, $415.2K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token; orca-dex (Solana), 12.73% APY, $243.5K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.02% APY, $310.4K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token; raydium-amm (Solana), 68.38% APY, $458.4K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token; orca-dex (Solana), 34.99% APY, $262.2K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.02% | $280.7K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 37.27% | $415.2K |
-| 3 | [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 12.73% | $243.5K |
+| 1 | [project-0 →](https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token) | Solana | 0.02% | $310.4K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token) | Solana | 68.38% | $458.4K |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token) | Solana | 34.99% | $262.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RENDER shows up in 3 pools here, with rates from 0.02% to 37.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RENDER shows up in 3 pools here, with rates from 0.02% to 68.38% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 7.62% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 8.20% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 37.27% | 17.00% | Base rate |
+| raydium-amm | 68.38% | 18.19% | Base rate |
 | project-0 | 0.02% | 0.03% | Base rate |
-| orca-dex | 12.73% | 7.62% | Base rate |
+| orca-dex | 34.99% | 8.20% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many RENDER pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $939.4K in total.
+3 live pools clear this page's $100K TVL floor, $1.03M in total.
 
 ### Are these rates safe?
 
@@ -55,19 +55,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RENDER pools have the most stable APY history?
 
-Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.02% APY, $280.7K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token; raydium-amm (Solana), 37.27% APY, $415.2K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token; orca-dex (Solana), 12.73% APY, $243.5K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RENDER's lower-variability candidates are project-0 (Solana), 0.02% APY, $310.4K TVL, https://www.defi.garden/?pool=dd6fd7f6-77d4-4a97-8cae-cd3d081a3b04&src=seo_token; raydium-amm (Solana), 68.38% APY, $458.4K TVL, https://www.defi.garden/?pool=a6441945-9eff-4d1b-91dc-2134cd9cdd35&src=seo_token; orca-dex (Solana), 34.99% APY, $262.2K TVL, https://www.defi.garden/?pool=4376015c-0cde-4a59-b7cc-ed2ee92277c1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

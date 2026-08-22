@@ -1,9 +1,10 @@
 # CC DeFi Yields
 
-The highest honest CC yield right now is 0.02% on raydium-amm (Solana), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CC yield right now is 0.02% on raydium-amm (Solana), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
+| [raydium-amm →](https://www.defi.garden/?pool=6c01ecea-47f9-5239-9779-14ff9d50195d&src=seo_token) | Solana | 0.01% | $98.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.01% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=e1a3cd26-8102-57fd-b3b5-af932c43daf1&src=seo_token) | Solana | 0.02% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=74cb86c7-0d1b-5873-bc13-9021e27d4d9c&src=seo_token) | Solana | 0.01% | $93.93M |
@@ -18,16 +19,17 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-CC shows up in 4 pools here, with rates from 0.01% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CC shows up in 5 pools here, with rates from 0.01% to 0.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 0.01% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.01% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 4 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-4 of 4 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
+| raydium-amm | 0.01% | 0.00% | Base rate |
 | raydium-amm | 0.01% | 0.02% | Base rate |
 | raydium-amm | 0.02% | 0.01% | Base rate |
 | raydium-amm | 0.01% | 0.31% | Base rate |
@@ -43,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $471.81M in total.
+7 live pools clear this page's $100K TVL floor, $570.74M in total.
 
 ### Are these rates safe?
 
@@ -56,14 +58,14 @@ There is not enough qualifying APY history to rank CC pools. This view covers AP
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

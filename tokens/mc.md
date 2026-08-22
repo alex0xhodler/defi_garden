@@ -4,7 +4,7 @@ The highest honest MC yield right now is 6.90% on morpho-blue (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48&src=seo_token) | Ethereum | 6.90% | $215.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=76fc98cd-0ee8-44c0-bb7d-e553faaf9e48&src=seo_token) | Ethereum | 6.90% | $215.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $215.3K in total.
+1 live pool clear this page's $100K TVL floor, $215.5K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank MC pools. This view covers AP
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MC pools. This view covers AP
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

@@ -1,10 +1,10 @@
 # STUSDC DeFi Yields
 
-The highest honest STUSDC yield right now is 4.53% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest STUSDC yield right now is 1.09% on concrete (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=3c8231f3-1259-5c66-af05-aad426ef3647&src=seo_token) | Ethereum | 4.53% | $119.1K |
+| [concrete →](https://www.defi.garden/?pool=3c8231f3-1259-5c66-af05-aad426ef3647&src=seo_token) | Ethereum | 1.09% | $119.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest STUSDC yield today?
 
-4.53% APY on concrete (Ethereum), based on live DefiLlama data.
+1.09% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many STUSDC pools clear the TVL floor?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank STUSDC pools. This view cover
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STUSDC pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

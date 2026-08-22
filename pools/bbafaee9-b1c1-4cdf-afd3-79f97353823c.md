@@ -1,34 +1,37 @@
 # DICKBUTT-WETH — uniswap-v3 on Base
 
-**Total APY:** 2.95% (2.95% Base · + 0.00% Rewards)
+**Total APY:** 96.31% (96.31% Base · + 0.00% Rewards)
 
-**TVL:** $191.9K
+**TVL:** $247.5K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 12.22%
+**30d Mean APY:** 12.53%
 
 **Exposure:** multi
 
 **IL Risk:** Yes
 
-## Risk Assessment: Medium
+## Risk Assessment: High
 
-Moderate risk profile
+Advanced DeFi strategy
 
 - Low liquidity
+- Very high yield
 - Impermanent loss risk
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,156 in 5y at current rates.
+$1,000 in this pool grows to ~$4,023 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 2.95% right now vs a 12.22% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+Projected at ⅓ haircut (96.31% headline) — farm rates decay. Active management required.
 
-[Garden this pool → ~$1,156 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+This pool's rate moves a lot: 96.31% right now vs a 12.53% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+
+[Garden this pool → ~$4,023 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v3](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 21, 2026
+Last updated August 22, 2026

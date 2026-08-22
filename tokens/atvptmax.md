@@ -4,7 +4,7 @@ The highest honest ATVPTMAX yield right now is 12.28% on aarna-protocol (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aarna-protocol →](https://www.defi.garden/?pool=3b775318-0b40-4bb5-b68c-8834a51da847&src=seo_token) | Ethereum | 12.28% | $354.8K |
+| [aarna-protocol →](https://www.defi.garden/?pool=3b775318-0b40-4bb5-b68c-8834a51da847&src=seo_token) | Ethereum | 12.28% | $227K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ATVPTMAX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $354.8K in total.
+1 live pool clear this page's $100K TVL floor, $227K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank ATVPTMAX pools. This view cov
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ATVPTMAX pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

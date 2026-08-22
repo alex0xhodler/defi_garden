@@ -4,7 +4,7 @@ The highest honest RNETH yield right now is 2.12% on nodedao (Ethereum), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [nodedao →](https://www.defi.garden/?pool=cb82fc8f-ea76-4823-b53b-98ee7486efce&src=seo_token) | Ethereum | 2.12% | $22.64M |
+| [nodedao →](https://www.defi.garden/?pool=cb82fc8f-ea76-4823-b53b-98ee7486efce&src=seo_token) | Ethereum | 2.12% | $24.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RNETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $22.64M in total.
+1 live pool clear this page's $100K TVL floor, $24.17M in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank RNETH pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank RNETH pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

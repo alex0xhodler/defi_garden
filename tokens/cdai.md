@@ -4,7 +4,7 @@ The highest honest CDAI yield right now is 0.01% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $567.2K |
+| [curve-dex →](https://www.defi.garden/?pool=8ec9e3e2-1eb5-4c47-82de-edcc825ca4cc&src=seo_token) | Ethereum | 0.01% | $567.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CDAI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $747.5K in total.
+2 live pools clear this page's $100K TVL floor, $747.4K in total.
 
 ### Are these rates safe?
 
@@ -49,8 +49,8 @@ There is not enough qualifying APY history to rank CDAI pools. This view covers 
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank CDAI pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

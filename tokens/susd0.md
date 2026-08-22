@@ -4,7 +4,7 @@ The highest honest SUSD0 yield right now is 4.10% on usual-usd0 (Ethereum), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [usual-usd0 →](https://www.defi.garden/?pool=854751ea-f91e-41d6-b168-532095a36da6&src=seo_token) | Ethereum | 4.10% | $236.8K |
+| [usual-usd0 →](https://www.defi.garden/?pool=854751ea-f91e-41d6-b168-532095a36da6&src=seo_token) | Ethereum | 4.10% | $236.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SUSD0 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $236.8K in total.
+1 live pool clear this page's $100K TVL floor, $236.9K in total.
 
 ### Are these rates safe?
 
@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank SUSD0 pools. This view covers
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SUSD0 pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

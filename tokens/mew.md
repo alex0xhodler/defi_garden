@@ -1,10 +1,10 @@
 # MEW DeFi Yields
 
-The highest honest MEW yield right now is 4.24% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEW yield right now is 8.32% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62&src=seo_token) | Solana | 4.24% | $7.86M |
+| [raydium-amm →](https://www.defi.garden/?pool=919f83c6-1a2d-4c67-985f-99e8b8423f62&src=seo_token) | Solana | 8.32% | $8.62M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEW yield today?
 
-4.24% APY on raydium-amm (Solana), based on live DefiLlama data.
+8.32% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MEW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $7.86M in total.
+1 live pool clear this page's $100K TVL floor, $8.62M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MEW pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
+- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

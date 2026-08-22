@@ -1,10 +1,10 @@
 # CTUSD DeFi Yields
 
-The highest honest CTUSD yield right now is 7.26% on zentra-finance (Citrea), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CTUSD yield right now is 8.28% on zentra-finance (Citrea), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_token) | Citrea | 7.26% | $102.1K |
+| [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_token) | Citrea | 8.28% | $100.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CTUSD yield today?
 
-7.26% APY on zentra-finance (Citrea), based on live DefiLlama data.
+8.28% APY on zentra-finance (Citrea), based on live DefiLlama data.
 
 ### How many CTUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.1K in total.
+1 live pool clear this page's $100K TVL floor, $100.2K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank CTUSD pools. This view covers
 - [WCBTC](https://www.defi.garden/tokens/wcbtc)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Citrea](https://www.defi.garden/chains/citrea)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

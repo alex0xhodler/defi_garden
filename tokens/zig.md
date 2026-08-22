@@ -4,26 +4,26 @@ The highest honest ZIG yield right now is 0.08% on permapod (ZIGChain), among 2 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token) | ZIGChain | 0.08% | $1.36M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token) | Ethereum | 77.84% | $109.7K |
+| [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token) | ZIGChain | 0.08% | $1.34M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token) | Ethereum | 71.95% | $112.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZIG's lower-variability candidates are permapod (ZIGChain), 0.08% APY, $1.36M TVL, https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token; uniswap-v2 (Ethereum), 77.84% APY, $109.7K TVL, https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZIG's lower-variability candidates are permapod (ZIGChain), 0.08% APY, $1.34M TVL, https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token; uniswap-v2 (Ethereum), 71.95% APY, $112.7K TVL, https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token) | ZIGChain | 0.08% | $1.36M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token) | Ethereum | 77.84% | $109.7K |
+| 1 | [permapod →](https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token) | ZIGChain | 0.08% | $1.34M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token) | Ethereum | 71.95% | $112.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZIG shows up in 2 pools here, with rates from 0.08% to 77.84% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZIG shows up in 2 pools here, with rates from 0.08% to 71.95% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 15.54% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 16.26% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -32,7 +32,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | permapod | 0.08% | 0.08% | Base rate |
-| uniswap-v2 | 77.84% | 31.00% | Base rate |
+| uniswap-v2 | 71.95% | 32.44% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ZIG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.47M in total.
+2 live pools clear this page's $100K TVL floor, $1.45M in total.
 
 ### Are these rates safe?
 
@@ -52,14 +52,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZIG pools have the most stable APY history?
 
-Based on APY history only, ZIG's lower-variability candidates are permapod (ZIGChain), 0.08% APY, $1.36M TVL, https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token; uniswap-v2 (Ethereum), 77.84% APY, $109.7K TVL, https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZIG's lower-variability candidates are permapod (ZIGChain), 0.08% APY, $1.34M TVL, https://www.defi.garden/?pool=0e1e5e05-c22c-4e87-899c-5e00e4cea451&src=seo_token; uniswap-v2 (Ethereum), 71.95% APY, $112.7K TVL, https://www.defi.garden/?pool=9169ecce-f1b4-4593-b9f4-22eb988d19ab&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WSTETH](https://www.defi.garden/tokens/wsteth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 
@@ -68,4 +68,4 @@ Based on APY history only, ZIG's lower-variability candidates are permapod (ZIGC
 - [ZIGChain](https://www.defi.garden/chains/zigchain)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026

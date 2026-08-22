@@ -35,8 +35,8 @@ There is not enough qualifying APY history to rank CHUSD pools. This view covers
 
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
-- [THBILL](https://www.defi.garden/tokens/thbill)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
+- [THBILL](https://www.defi.garden/tokens/thbill)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CHUSD pools. This view covers
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 21, 2026
+## Last updated August 22, 2026
