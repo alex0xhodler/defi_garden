@@ -49,15 +49,15 @@ There is not enough qualifying APY history to rank CUSD pools. This view covers 
 
 ## Related tokens
 
-- [EURM](https://www.defi.garden/tokens/eurm)
 - [CELO](https://www.defi.garden/tokens/celo)
 - [STCELO](https://www.defi.garden/tokens/stcelo)
 - [CEUR](https://www.defi.garden/tokens/ceur)
-- [AXLEUROC](https://www.defi.garden/tokens/axleuroc)
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 
 ## Available on
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

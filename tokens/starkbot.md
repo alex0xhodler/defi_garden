@@ -4,7 +4,7 @@ The highest honest STARKBOT yield right now is 0.01% on uniswap-v4 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5e505705-aa64-4c89-975b-07fe4bda4242&src=seo_token) | Base | 0.01% | $230.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5e505705-aa64-4c89-975b-07fe4bda4242&src=seo_token) | Base | 0.01% | $222.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STARKBOT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $230.1K in total.
+1 live pool clear this page's $100K TVL floor, $222.5K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank STARKBOT pools. This view cov
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank STARKBOT pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

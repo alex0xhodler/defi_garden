@@ -1,11 +1,11 @@
 # Bob 디파이 수익률
 
-현재 Bob의 가장 높은 정직한 수익률은 Bob의 segment-finance에서 1.81%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Bob의 가장 높은 정직한 수익률은 Bob의 segment-finance에서 1.82%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.81% | $114.6K |
-| WBTC-SOLVBTC | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_chain) | 0.07% | $109.2K |
+| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.82% | $113.2K |
+| WBTC-SOLVBTC | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_chain) | 1.54% | $108.2K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -13,11 +13,11 @@
 
 ### 오늘 Bob의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Bob의 segment-finance에서 APY 1.81%예요.
+DefiLlama 실시간 데이터 기준, Bob의 segment-finance에서 APY 1.82%예요.
 
 ### Bob 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $54.39M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $53.97M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,4 +37,4 @@ DefiLlama 실시간 데이터 기준, Bob의 segment-finance에서 APY 1.81%예�
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [SOLVBTC](https://www.defi.garden/ko/tokens/solvbtc)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

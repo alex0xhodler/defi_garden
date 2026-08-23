@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6c01ecea-47f9-5239-9779-14ff9d50195d&src=seo_token) | Solana | 0.01% | $98.92M |
+| [raydium-amm →](https://www.defi.garden/?pool=6c01ecea-47f9-5239-9779-14ff9d50195d&src=seo_token) | Solana | 0.01% | $98.93M |
 | [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.01% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=e1a3cd26-8102-57fd-b3b5-af932c43daf1&src=seo_token) | Solana | 0.02% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=74cb86c7-0d1b-5873-bc13-9021e27d4d9c&src=seo_token) | Solana | 0.01% | $93.93M |
@@ -29,7 +29,7 @@ CC 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.01%부터 0.02%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 0.01% | 0.00% | 기본 금리 |
+| raydium-amm | 0.01% | 0.01% | 기본 금리 |
 | raydium-amm | 0.01% | 0.02% | 기본 금리 |
 | raydium-amm | 0.02% | 0.01% | 기본 금리 |
 | raydium-amm | 0.01% | 0.31% | 기본 금리 |
@@ -61,11 +61,11 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 0.02%예�
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [PRIME](https://www.defi.garden/ko/tokens/prime)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [PRIME](https://www.defi.garden/ko/tokens/prime)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

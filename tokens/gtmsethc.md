@@ -4,7 +4,7 @@ The highest honest GTMSETHC yield right now is 0.11% on morpho-blue (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token) | Base | 0.11% | $6.41M |
+| [morpho-blue →](https://www.defi.garden/?pool=671d794e-9d7e-469e-8573-4298e5a02c17&src=seo_token) | Base | 0.11% | $6.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GTMSETHC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $6.41M in total.
+1 live pool clear this page's $100K TVL floor, $6.06M in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank GTMSETHC pools. This view cov
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GTMSETHC pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

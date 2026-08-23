@@ -33,9 +33,9 @@ VBILL 풀은 여기 4개가 있고, 4개 체인에서 APY가 3.53%부터 3.53%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| vaneck-treasury-fund | 3.53% | 3.53% | 기본 금리 |
 | vaneck-treasury-fund | 3.53% | 3.54% | 기본 금리 |
-| vaneck-treasury-fund | 3.53% | 3.53% | 기본 금리 |
+| vaneck-treasury-fund | 3.53% | 3.54% | 기본 금리 |
+| vaneck-treasury-fund | 3.53% | 3.54% | 기본 금리 |
 | vaneck-treasury-fund | 3.53% | 3.54% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -60,12 +60,12 @@ APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereu
 
 ## 관련 토큰
 
+- [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 
@@ -74,4 +74,4 @@ APY 이력만 기준으로 비교한 VBILL의 변동성 낮은 후보는 Ethereu
 - [Solana](https://www.defi.garden/ko/chains/solana)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

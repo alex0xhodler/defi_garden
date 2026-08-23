@@ -4,7 +4,7 @@ The highest honest FEATHERBRZ yield right now is 0.01% on morpho-blue (Polygon),
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f&src=seo_token) | Polygon | 0.01% | $193.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=a3f368d6-1893-59a9-a6e7-a43fc744b26f&src=seo_token) | Polygon | 0.01% | $193.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FEATHERBRZ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $193.3K in total.
+1 live pool clear this page's $100K TVL floor, $193.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank FEATHERBRZ pools. This view c
 
 ## Related tokens
 
+- [SAND](https://www.defi.garden/tokens/sand)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
-- [ACRED](https://www.defi.garden/tokens/acred)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [BET](https://www.defi.garden/tokens/bet)
+- [ACRED](https://www.defi.garden/tokens/acred)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

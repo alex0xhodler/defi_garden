@@ -1,10 +1,10 @@
 # YFIETH DeFi Yields
 
-The highest honest YFIETH yield right now is 10.80% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest YFIETH yield right now is 11.15% on yearn-finance (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=02d5d866-e333-4688-9a61-8e4278577c80&src=seo_token) | Ethereum | 10.80% | $236.1K |
+| [yearn-finance →](https://www.defi.garden/?pool=02d5d866-e333-4688-9a61-8e4278577c80&src=seo_token) | Ethereum | 11.15% | $231.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest YFIETH yield today?
 
-10.80% APY on yearn-finance (Ethereum), based on live DefiLlama data.
+11.15% APY on yearn-finance (Ethereum), based on live DefiLlama data.
 
 ### How many YFIETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $236.1K in total.
+1 live pool clear this page's $100K TVL floor, $231.2K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank YFIETH pools. This view cover
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

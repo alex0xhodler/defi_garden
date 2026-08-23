@@ -1,14 +1,14 @@
 # TRUSD DeFi Yields
 
-The highest honest TRUSD yield right now is 10.37% on pendle (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TRUSD yield right now is 10.01% on pendle (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.50% | $10.08M |
-| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.05% | $5.15M |
-| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.20% | $4.88M |
-| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 3.02% | $2.71M |
-| [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 10.37% | $2.71M |
+| [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.40% | $10.08M |
+| [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.42% | $5.15M |
+| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.16% | $4.88M |
+| [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 2.81% | $2.71M |
+| [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 10.01% | $2.71M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -19,7 +19,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-TRUSD shows up in 5 pools here, with rates from 0.05% to 10.37% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+TRUSD shows up in 5 pools here, with rates from 0.42% to 10.01% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 5.48% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -27,11 +27,11 @@ TRUSD shows up in 5 pools here, with rates from 0.05% to 10.37% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 5.50% | 5.48% | Base rate |
-| curve-dex | 0.05% | 0.38% | 1.54% incentives |
-| curve-dex | 3.20% | 133.97% | 99.38% incentives |
-| pendle | 3.02% | 4.16% | 12.36% incentives |
-| pendle | 10.37% | 9.67% | Base rate |
+| curve-dex | 5.40% | 5.48% | Base rate |
+| curve-dex | 0.42% | 0.37% | 0.02% incentives |
+| curve-dex | 3.16% | 128.51% | 96.84% incentives |
+| pendle | 2.81% | 4.06% | 12.91% incentives |
+| pendle | 10.01% | 9.70% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,11 +39,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TRUSD yield today?
 
-10.37% APY on pendle (Ethereum), based on live DefiLlama data.
+10.01% APY on pendle (Ethereum), based on live DefiLlama data.
 
 ### How many TRUSD pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $27.75M in total.
+6 live pools clear this page's $100K TVL floor, $27.8M in total.
 
 ### Are these rates safe?
 
@@ -55,15 +55,15 @@ There is not enough qualifying APY history to rank TRUSD pools. This view covers
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

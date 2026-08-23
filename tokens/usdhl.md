@@ -1,10 +1,10 @@
 # USDHL DeFi Yields
 
-The highest honest USDHL yield right now is 0.09% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USDHL yield right now is 0.14% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=39bdd699-8e90-4724-988d-4533b0031fdc&src=seo_token) | Hyperliquid L1 | 0.09% | $156.8K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=39bdd699-8e90-4724-988d-4533b0031fdc&src=seo_token) | Hyperliquid L1 | 0.14% | $162K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest USDHL yield today?
 
-0.09% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+0.14% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many USDHL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $156.8K in total.
+1 live pool clear this page's $100K TVL floor, $162K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank USDHL pools. This view covers
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [THBILL](https://www.defi.garden/tokens/thbill)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
+- [THBILL](https://www.defi.garden/tokens/thbill)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

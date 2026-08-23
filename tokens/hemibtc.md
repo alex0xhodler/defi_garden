@@ -1,33 +1,33 @@
 # HEMIBTC DeFi Yields
 
-The highest honest HEMIBTC yield right now is 6.18% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HEMIBTC yield right now is 5.78% on convex-finance (Ethereum), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 2.88% | $3.93M |
-| [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 4.50% | $3.22M |
-| [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 6.18% | $1.5M |
-| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 48.65% | $236.8K |
+| [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 2.60% | $3.88M |
+| [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 4.39% | $3.17M |
+| [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 5.78% | $1.47M |
+| [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 21.83% | $222.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HEMIBTC's lower-variability candidates are convex-finance (Ethereum), 6.18% APY, $1.5M TVL, https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token; sushiswap-v3 (Hemi), 48.65% APY, $236.8K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; stake-dao (Ethereum), 4.50% APY, $3.22M TVL, https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token; curve-dex (Ethereum), 2.88% APY, $3.93M TVL, https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEMIBTC's lower-variability candidates are convex-finance (Ethereum), 5.78% APY, $1.47M TVL, https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token; sushiswap-v3 (Hemi), 21.83% APY, $222.4K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; stake-dao (Ethereum), 4.39% APY, $3.17M TVL, https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token; curve-dex (Ethereum), 2.60% APY, $3.88M TVL, https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 6.18% | $1.5M |
-| 2 | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 48.65% | $236.8K |
-| 3 | [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 4.50% | $3.22M |
-| 4 | [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 2.88% | $3.93M |
+| 1 | [convex-finance →](https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token) | Ethereum | 5.78% | $1.47M |
+| 2 | [sushiswap-v3 →](https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token) | Hemi | 21.83% | $222.4K |
+| 3 | [stake-dao →](https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token) | Ethereum | 4.39% | $3.17M |
+| 4 | [curve-dex →](https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token) | Ethereum | 2.60% | $3.88M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HEMIBTC shows up in 4 pools here, with rates from 2.88% to 48.65% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+HEMIBTC shows up in 4 pools here, with rates from 2.60% to 21.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 4.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.11% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ HEMIBTC shows up in 4 pools here, with rates from 2.88% to 48.65% APY across 2 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 2.88% | 3.43% | 91.66% incentives |
-| stake-dao | 4.50% | 4.89% | 97.11% incentives |
-| convex-finance | 6.18% | 6.99% | 96.11% incentives |
-| sushiswap-v3 | 48.65% | 4.00% | Base rate |
+| curve-dex | 2.60% | 3.41% | 99.23% incentives |
+| stake-dao | 4.39% | 4.89% | 97.27% incentives |
+| convex-finance | 5.78% | 6.97% | 99.65% incentives |
+| sushiswap-v3 | 21.83% | 5.33% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HEMIBTC yield today?
 
-6.18% APY on convex-finance (Ethereum), based on live DefiLlama data.
+5.78% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many HEMIBTC pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $10.17M in total.
+5 live pools clear this page's $100K TVL floor, $10.01M in total.
 
 ### Are these rates safe?
 
@@ -58,20 +58,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HEMIBTC pools have the most stable APY history?
 
-Based on APY history only, HEMIBTC's lower-variability candidates are convex-finance (Ethereum), 6.18% APY, $1.5M TVL, https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token; sushiswap-v3 (Hemi), 48.65% APY, $236.8K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; stake-dao (Ethereum), 4.50% APY, $3.22M TVL, https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token; curve-dex (Ethereum), 2.88% APY, $3.93M TVL, https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HEMIBTC's lower-variability candidates are convex-finance (Ethereum), 5.78% APY, $1.47M TVL, https://www.defi.garden/?pool=13fb5563-8ac1-4ffb-90e2-9900b85476e8&src=seo_token; sushiswap-v3 (Hemi), 21.83% APY, $222.4K TVL, https://www.defi.garden/?pool=9640de84-c760-4e3e-bb90-92fb25965cf2&src=seo_token; stake-dao (Ethereum), 4.39% APY, $3.17M TVL, https://www.defi.garden/?pool=3dbd7074-9bf0-43f8-a194-738c1e302e4d&src=seo_token; curve-dex (Ethereum), 2.60% APY, $3.88M TVL, https://www.defi.garden/?pool=33c2163a-5ca4-4f9a-b2dc-598be8400c0f&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Hemi](https://www.defi.garden/chains/hemi)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

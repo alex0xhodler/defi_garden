@@ -25,8 +25,8 @@ DefiLlama 실시간 데이터 기준, Moonbeam의 moonwell-lending에서 APY 0.0
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
+- [Solana](https://www.defi.garden/ko/chains/solana)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Tron](https://www.defi.garden/ko/chains/tron)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
@@ -35,4 +35,4 @@ DefiLlama 실시간 데이터 기준, Moonbeam의 moonwell-lending에서 APY 0.0
 
 - [XCDOT](https://www.defi.garden/ko/tokens/xcdot)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

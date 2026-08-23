@@ -4,7 +4,7 @@ The highest honest SRMHYPER yield right now is 6.48% on strata-markets (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=a0560647-eb43-45d9-880d-3155db6d357e&src=seo_token) | Ethereum | 6.48% | $624.4K |
+| [strata-markets →](https://www.defi.garden/?pool=a0560647-eb43-45d9-880d-3155db6d357e&src=seo_token) | Ethereum | 6.48% | $624.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SRMHYPER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $624.4K in total.
+1 live pool clear this page's $100K TVL floor, $624.5K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank SRMHYPER pools. This view cov
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

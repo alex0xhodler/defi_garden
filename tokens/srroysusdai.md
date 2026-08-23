@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank SRROYSUSDAI pools. This view 
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -1,12 +1,12 @@
 # WSOL-JLP — raydium-amm on Solana
 
-**Total APY:** 28.68% (28.68% Base · + 0.00% Rewards)
+**Total APY:** 32.29% (32.29% Base · + 0.00% Rewards)
 
-**TVL:** $152.1K
+**TVL:** $155.1K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 5.39%
+**30d Mean APY:** 6.38%
 
 **Exposure:** multi
 
@@ -22,16 +22,16 @@ Advanced DeFi strategy
 
 ## The long game
 
-$1,000 in this pool grows to ~$1,579 in 5y at current rates.
+$1,000 in this pool grows to ~$1,667 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Projected at ⅓ haircut (28.68% headline) — farm rates decay. Active management required.
+Projected at ⅓ haircut (32.29% headline) — farm rates decay. Active management required.
 
-This pool's rate moves a lot: 28.68% right now vs a 5.39% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+This pool's rate moves a lot: 32.29% right now vs a 6.38% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
-[Garden this pool → ~$1,579 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$1,667 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=degen&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on raydium-amm](https://raydium.io/?ref=defi.garden)
 
-Last updated August 22, 2026
+Last updated August 23, 2026

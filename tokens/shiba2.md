@@ -1,29 +1,29 @@
 # SHIBA2 DeFi Yields
 
-The highest honest SHIBA2 yield right now is 11.22% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHIBA2 yield right now is 7.44% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 5.48% | $2.25M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token) | Ethereum | 11.22% | $1.04M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 2.34% | $2.15M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token) | Ethereum | 7.44% | $1M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SHIBA2's lower-variability candidates are uniswap-v3 (Ethereum), 5.48% APY, $2.25M TVL, https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token; uniswap-v3 (Ethereum), 11.22% APY, $1.04M TVL, https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHIBA2's lower-variability candidates are uniswap-v3 (Ethereum), 2.34% APY, $2.15M TVL, https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token; uniswap-v3 (Ethereum), 7.44% APY, $1M TVL, https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 5.48% | $2.25M |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token) | Ethereum | 11.22% | $1.04M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token) | Ethereum | 2.34% | $2.15M |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token) | Ethereum | 7.44% | $1M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SHIBA2 shows up in 2 pools here, with rates from 5.48% to 11.22% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHIBA2 shows up in 2 pools here, with rates from 2.34% to 7.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.90% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 5.48% | 1.29% | Base rate |
-| uniswap-v3 | 11.22% | 2.51% | Base rate |
+| uniswap-v3 | 2.34% | 1.56% | Base rate |
+| uniswap-v3 | 7.44% | 3.09% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SHIBA2 yield today?
 
-11.22% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+7.44% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SHIBA2 pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.3M in total.
+2 live pools clear this page's $100K TVL floor, $3.15M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SHIBA2 pools have the most stable APY history?
 
-Based on APY history only, SHIBA2's lower-variability candidates are uniswap-v3 (Ethereum), 5.48% APY, $2.25M TVL, https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token; uniswap-v3 (Ethereum), 11.22% APY, $1.04M TVL, https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHIBA2's lower-variability candidates are uniswap-v3 (Ethereum), 2.34% APY, $2.15M TVL, https://www.defi.garden/?pool=0a0f10c7-ddb9-4a35-afde-f8efd8c6a8f1&src=seo_token; uniswap-v3 (Ethereum), 7.44% APY, $1M TVL, https://www.defi.garden/?pool=d3bed3be-25d5-409f-bc6f-3fb2aa4b0e9a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

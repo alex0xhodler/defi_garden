@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9&src=seo_token) | Solana | 4.75% | $1.14M |
+| [laine-sol →](https://www.defi.garden/?pool=e04a81c8-b419-4088-aff2-636076299fc9&src=seo_token) | Solana | 4.75% | $1.17M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Solana의 laine-sol에서 APY 4.75%예요.
 
 ### LAINESOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.14M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.17M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Solana의 laine-sol에서 APY 4.75%예요.
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [PRIME](https://www.defi.garden/ko/tokens/prime)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [PRIME](https://www.defi.garden/ko/tokens/prime)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

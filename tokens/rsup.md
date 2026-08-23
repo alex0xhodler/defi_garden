@@ -1,29 +1,29 @@
 # RSUP DeFi Yields
 
-The highest honest RSUP yield right now is 29.83% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RSUP yield right now is 29.67% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token) | Ethereum | 19.68% | $581.4K |
-| [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 29.83% | $485.6K |
+| [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token) | Ethereum | 19.76% | $559.5K |
+| [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 29.67% | $467.7K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 19.68% APY, $581.4K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token; convex-finance (Ethereum), 29.83% APY, $485.6K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 19.76% APY, $559.5K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token; convex-finance (Ethereum), 29.67% APY, $467.7K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token) | Ethereum | 19.68% | $581.4K |
-| 2 | [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 29.83% | $485.6K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token) | Ethereum | 19.76% | $559.5K |
+| 2 | [convex-finance →](https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token) | Ethereum | 29.67% | $467.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RSUP shows up in 2 pools here, with rates from 19.68% to 29.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RSUP shows up in 2 pools here, with rates from 19.76% to 29.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.63% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 17.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ RSUP shows up in 2 pools here, with rates from 19.68% to 29.83% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 19.68% | 14.13% | 98.58% incentives |
-| convex-finance | 29.83% | 21.13% | 99.06% incentives |
+| curve-dex | 19.76% | 14.34% | 98.18% incentives |
+| convex-finance | 29.67% | 21.35% | 98.79% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RSUP yield today?
 
-29.83% APY on convex-finance (Ethereum), based on live DefiLlama data.
+29.67% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many RSUP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.07M in total.
+2 live pools clear this page's $100K TVL floor, $1.03M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RSUP pools have the most stable APY history?
 
-Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 19.68% APY, $581.4K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token; convex-finance (Ethereum), 29.83% APY, $485.6K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RSUP's lower-variability candidates are curve-dex (Ethereum), 19.76% APY, $559.5K TVL, https://www.defi.garden/?pool=1cfa57c8-2c94-4c3d-869f-a3ae98cfb370&src=seo_token; convex-finance (Ethereum), 29.67% APY, $467.7K TVL, https://www.defi.garden/?pool=03783f78-933d-4cbd-b446-8e3b7c8b5638&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

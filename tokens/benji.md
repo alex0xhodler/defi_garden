@@ -1,10 +1,10 @@
 # BENJI DeFi Yields
 
-The highest honest BENJI yield right now is 6.63% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BENJI yield right now is 9.52% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c231858c-4320-45e7-a6fc-0d0b635b61cb&src=seo_token) | Base | 6.63% | $382.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c231858c-4320-45e7-a6fc-0d0b635b61cb&src=seo_token) | Base | 9.52% | $366.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BENJI yield today?
 
-6.63% APY on uniswap-v2 (Base), based on live DefiLlama data.
+9.52% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many BENJI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $382.7K in total.
+1 live pool clear this page's $100K TVL floor, $366.9K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank BENJI pools. This view covers
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank BENJI pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -1,10 +1,10 @@
 # DESPXA 디파이 수익률
 
-현재 DESPXA의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 1.77%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DESPXA의 가장 높은 정직한 수익률은 Base의 uniswap-v3에서 0.96%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=050acbe0-ff86-44fc-a1a0-f3bd93b7345c&src=seo_token) | Base | 1.77% | $3.46M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=050acbe0-ff86-44fc-a1a0-f3bd93b7345c&src=seo_token) | Base | 0.96% | $3.46M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 DESPXA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 1.77%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.96%예요.
 
 ### DESPXA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -33,10 +33,10 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 1.77%예요.
 
 ## 관련 토큰
 
+- [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
-- [WETH](https://www.defi.garden/ko/tokens/weth)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
 - [USDE](https://www.defi.garden/ko/tokens/usde)
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 1.77%예요.
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

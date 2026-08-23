@@ -1,10 +1,10 @@
 # FOLKS DeFi Yields
 
-The highest honest FOLKS yield right now is 61.09% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FOLKS yield right now is 163.81% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=5ffd8475-98ee-5200-9a50-8a59506a31ee&src=seo_token) | Base | 61.09% | $303.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=5ffd8475-98ee-5200-9a50-8a59506a31ee&src=seo_token) | Base | 163.81% | $306K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FOLKS yield today?
 
-61.09% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+163.81% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many FOLKS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $303.4K in total.
+1 live pool clear this page's $100K TVL floor, $306K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank FOLKS pools. This view covers
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank FOLKS pools. This view covers
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

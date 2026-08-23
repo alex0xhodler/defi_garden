@@ -1,10 +1,11 @@
 # BASECAT DeFi Yields
 
-The highest honest BASECAT yield right now is 201.70% on uniswap-v4 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BASECAT yield right now is 270.42% on uniswap-v4 (Base), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=4a912f75-37e8-5f85-9da8-3b4afc944d78&src=seo_token) | Base | 201.70% | $101K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=523f4688-ce0a-5dfb-b23f-822dec897425&src=seo_token) | Base | 270.42% | $284K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=743a8ba6-1544-56fa-a896-0d77bc66f162&src=seo_token) | Base | 70.79% | $236.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,17 +16,16 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-BASECAT shows up in 1 pools here, with rates from 201.70% to 201.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+BASECAT shows up in 2 pools here, with rates from 70.79% to 270.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 152.86% — a useful check against today's number for whether the rate is steady or just having a good day.
+All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
-
-1 of 1 pool carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+2 of 2 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 201.70% | 152.86% | Base rate |
+| uniswap-v4 | 270.42% | — | Base rate |
+| uniswap-v4 | 70.79% | — | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest BASECAT yield today?
 
-201.70% APY on uniswap-v4 (Base), based on live DefiLlama data.
+270.42% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many BASECAT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $956.3K in total.
+3 live pools clear this page's $100K TVL floor, $1.28M in total.
 
 ### Are these rates safe?
 
@@ -49,10 +49,10 @@ There is not enough qualifying APY history to rank BASECAT pools. This view cove
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -60,4 +60,4 @@ There is not enough qualifying APY history to rank BASECAT pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

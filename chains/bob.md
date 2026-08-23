@@ -1,11 +1,11 @@
 # Bob DeFi Yields
 
-The highest honest Bob yield right now is 1.81% on segment-finance (Bob), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Bob yield right now is 1.82% on segment-finance (Bob), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.81% | $114.6K |
-| WBTC-SOLVBTC | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_chain) | 0.07% | $109.2K |
+| WBTC | [segment-finance →](https://www.defi.garden/?pool=56eed6bb-80ac-42e3-a7fb-f93c0438c72b&src=seo_chain) | 1.82% | $113.2K |
+| WBTC-SOLVBTC | [uniswap-v3 →](https://www.defi.garden/?pool=d9eba9cb-5f1e-40bd-8222-2b1202be5454&src=seo_chain) | 1.54% | $108.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Bob yield today?
 
-1.81% APY on segment-finance (Bob), based on live DefiLlama data.
+1.82% APY on segment-finance (Bob), based on live DefiLlama data.
 
 ### How many Bob pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $54.39M in total.
+4 live pools clear this page's $100K TVL floor, $53.97M in total.
 
 ### Are these rates safe?
 
@@ -37,4 +37,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [SOLVBTC](https://www.defi.garden/tokens/solvbtc)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -31,8 +31,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [BSC](https://www.defi.garden/chains/bsc)
-- [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
+- [Solana](https://www.defi.garden/chains/solana)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
@@ -44,4 +44,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [DOGE](https://www.defi.garden/tokens/doge)
 - [CON](https://www.defi.garden/tokens/con)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

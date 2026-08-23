@@ -5,25 +5,25 @@
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.00% | $298.9K |
-| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.71% | $261.1K |
+| [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.75% | $262.5K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 TSUSDE의 변동성 낮은 후보는 TON의 affluent, APY 4.00%, TVL $298.9K, https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token; TON의 affluent, APY 2.71%, TVL $261.1K, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TSUSDE의 변동성 낮은 후보는 TON의 affluent, APY 4.00%, TVL $298.9K, https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token; TON의 affluent, APY 2.75%, TVL $262.5K, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [affluent →](https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token) | TON | 4.00% | $298.9K |
-| 2 | [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.71% | $261.1K |
+| 2 | [affluent →](https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token) | TON | 2.75% | $262.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-TSUSDE 풀은 여기 2개가 있고, 1개 체인에서 APY가 2.71%부터 4.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+TSUSDE 풀은 여기 2개가 있고, 1개 체인에서 APY가 2.75%부터 4.00%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.41%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.40%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 2개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -32,7 +32,7 @@ TSUSDE 풀은 여기 2개가 있고, 1개 체인에서 APY가 2.71%부터 4.00%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | affluent | 4.00% | 4.00% | 기본 금리 |
-| affluent | 2.71% | 2.82% | 기본 금리 |
+| affluent | 2.75% | 2.80% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -44,7 +44,7 @@ DefiLlama 실시간 데이터 기준, TON의 affluent에서 APY 4.00%예요.
 
 ### TSUSDE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $560K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $561.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, TON의 affluent에서 APY 4.00%예요.
 
 ### TSUSDE 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 TSUSDE의 변동성 낮은 후보는 TON의 affluent, APY 4.00%, TVL $298.9K, https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token; TON의 affluent, APY 2.71%, TVL $261.1K, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TSUSDE의 변동성 낮은 후보는 TON의 affluent, APY 4.00%, TVL $298.9K, https://www.defi.garden/?pool=a4c64e2f-df0e-41e8-9f25-28105181cd93&src=seo_token; TON의 affluent, APY 2.75%, TVL $262.5K, https://www.defi.garden/?pool=472dac4a-c99c-4a52-ae13-fb63d5a5ee1e&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -67,4 +67,4 @@ APY 이력만 기준으로 비교한 TSUSDE의 변동성 낮은 후보는 TON의
 
 - [TON](https://www.defi.garden/ko/chains/ton)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

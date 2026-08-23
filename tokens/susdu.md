@@ -4,17 +4,17 @@ The highest honest SUSDU yield right now is 9.97% on unitas-usdu (Solana), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 9.96% | $34.32M |
+| [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 9.96% | $34.31M |
 | [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token) | Solana | 9.97% | $7.35M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu (BSC), 9.96% APY, $34.32M TVL, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token; unitas-usdu (Solana), 9.97% APY, $7.35M TVL, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu (BSC), 9.96% APY, $34.31M TVL, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token; unitas-usdu (Solana), 9.97% APY, $7.35M TVL, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 9.96% | $34.32M |
+| 1 | [unitas-usdu →](https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token) | BSC | 9.96% | $34.31M |
 | 2 | [unitas-usdu →](https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token) | Solana | 9.97% | $7.35M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 SUSDU shows up in 2 pools here, with rates from 9.96% to 9.97% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.96% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 9.97% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SUSDU pools have the most stable APY history?
 
-Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu (BSC), 9.96% APY, $34.32M TVL, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token; unitas-usdu (Solana), 9.97% APY, $7.35M TVL, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu (BSC), 9.96% APY, $34.31M TVL, https://www.defi.garden/?pool=3e78432a-f58b-46b2-ba69-1b446efc3e21&src=seo_token; unitas-usdu (Solana), 9.97% APY, $7.35M TVL, https://www.defi.garden/?pool=7f980c43-5b87-4690-a11a-b0e8a5e37a63&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -66,4 +66,4 @@ Based on APY history only, SUSDU's lower-variability candidates are unitas-usdu 
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

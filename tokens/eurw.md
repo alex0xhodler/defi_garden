@@ -1,10 +1,10 @@
 # EURW DeFi Yields
 
-The highest honest EURW yield right now is 11.08% on uniswap-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EURW yield right now is 12.56% on uniswap-v3 (Monad), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c57840e5-a0e1-5b7c-9627-3afbfbd33bcd&src=seo_token) | Monad | 11.08% | $1.12M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c57840e5-a0e1-5b7c-9627-3afbfbd33bcd&src=seo_token) | Monad | 12.56% | $1.11M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EURW yield today?
 
-11.08% APY on uniswap-v3 (Monad), based on live DefiLlama data.
+12.56% APY on uniswap-v3 (Monad), based on live DefiLlama data.
 
 ### How many EURW pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.12M in total.
+1 live pool clear this page's $100K TVL floor, $1.11M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank EURW pools. This view covers 
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

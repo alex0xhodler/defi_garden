@@ -1,10 +1,10 @@
 # PNDC DeFi Yields
 
-The highest honest PNDC yield right now is 42.49% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PNDC yield right now is 32.88% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=a84f69c6-878a-4770-863d-d8a146fd3a3b&src=seo_token) | Ethereum | 42.49% | $118.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=a84f69c6-878a-4770-863d-d8a146fd3a3b&src=seo_token) | Ethereum | 32.88% | $106.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PNDC yield today?
 
-42.49% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+32.88% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PNDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $118.2K in total.
+1 live pool clear this page's $100K TVL floor, $106.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank PNDC pools. This view covers 
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -1,29 +1,29 @@
 # MOODENG DeFi Yields
 
-The highest honest MOODENG yield right now is 3.95% on uniswap-v2 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOODENG yield right now is 47.73% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 32.53% | $2.77M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 3.95% | $599.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 47.73% | $2.66M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 13.55% | $534.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MOODENG's lower-variability candidates are raydium-amm (Solana), 32.53% APY, $2.77M TVL, https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token; uniswap-v2 (Ethereum), 3.95% APY, $599.7K TVL, https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOODENG's lower-variability candidates are raydium-amm (Solana), 47.73% APY, $2.66M TVL, https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token; uniswap-v2 (Ethereum), 13.55% APY, $534.5K TVL, https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 32.53% | $2.77M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 3.95% | $599.7K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token) | Solana | 47.73% | $2.66M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token) | Ethereum | 13.55% | $534.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MOODENG shows up in 2 pools here, with rates from 3.95% to 32.53% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MOODENG shows up in 2 pools here, with rates from 13.55% to 47.73% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 4.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 32.53% | 6.04% | Base rate |
-| uniswap-v2 | 3.95% | 3.55% | Base rate |
+| raydium-amm | 47.73% | 7.67% | Base rate |
+| uniswap-v2 | 13.55% | 3.80% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MOODENG yield today?
 
-3.95% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+47.73% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MOODENG pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.37M in total.
+2 live pools clear this page's $100K TVL floor, $3.2M in total.
 
 ### Are these rates safe?
 
@@ -52,20 +52,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MOODENG pools have the most stable APY history?
 
-Based on APY history only, MOODENG's lower-variability candidates are raydium-amm (Solana), 32.53% APY, $2.77M TVL, https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token; uniswap-v2 (Ethereum), 3.95% APY, $599.7K TVL, https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOODENG's lower-variability candidates are raydium-amm (Solana), 47.73% APY, $2.66M TVL, https://www.defi.garden/?pool=46f5eec1-26f1-4911-8d91-d627ff756dcd&src=seo_token; uniswap-v2 (Ethereum), 13.55% APY, $534.5K TVL, https://www.defi.garden/?pool=9b8ac016-8747-40b6-83b6-c197adb6a22c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

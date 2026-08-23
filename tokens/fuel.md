@@ -4,7 +4,7 @@ The highest honest FUEL yield right now is 20.00% on fuel-staking (Fuel Ignition
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [fuel-staking →](https://www.defi.garden/?pool=ca3f5b8f-896d-4e54-9602-ccaa47727fa2&src=seo_token) | Fuel Ignition | 20.00% | $1.26M |
+| [fuel-staking →](https://www.defi.garden/?pool=ca3f5b8f-896d-4e54-9602-ccaa47727fa2&src=seo_token) | Fuel Ignition | 20.00% | $1.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FUEL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.26M in total.
+1 live pool clear this page's $100K TVL floor, $1.24M in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank FUEL pools. This view covers 
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Fuel Ignition](https://www.defi.garden/chains/fuel-ignition)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

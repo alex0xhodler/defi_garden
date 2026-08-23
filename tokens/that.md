@@ -1,10 +1,10 @@
 # THAT DeFi Yields
 
-The highest honest THAT yield right now is 9.23% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest THAT yield right now is 10.77% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127&src=seo_token) | Polygon | 9.23% | $196.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=577dc1e4-1336-44c2-86bd-712af4ae2127&src=seo_token) | Polygon | 10.77% | $200.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest THAT yield today?
 
-9.23% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+10.77% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many THAT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $196.2K in total.
+1 live pool clear this page's $100K TVL floor, $200.1K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank THAT pools. This view covers 
 
 ## Related tokens
 
+- [SAND](https://www.defi.garden/tokens/sand)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
-- [ACRED](https://www.defi.garden/tokens/acred)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [BET](https://www.defi.garden/tokens/bet)
+- [ACRED](https://www.defi.garden/tokens/acred)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

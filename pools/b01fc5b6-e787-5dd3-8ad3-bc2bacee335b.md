@@ -1,12 +1,12 @@
 # SIERRA — pendle on Ethereum
 
-**Total APY:** 8.12% (8.12% Base · + 0.00% Rewards)
+**Total APY:** 8.13% (8.13% Base · + 0.00% Rewards)
 
 **TVL:** $9.71M
 
 **Pool Type:** Yield Derivatives
 
-**30d Mean APY:** 8.34%
+**30d Mean APY:** 8.32%
 
 **Exposure:** single
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on pendle](https://pendle.finance/?ref=defi.garden)
 
-Last updated August 22, 2026
+Last updated August 23, 2026

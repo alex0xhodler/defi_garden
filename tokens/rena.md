@@ -1,10 +1,10 @@
 # RENA DeFi Yields
 
-The highest honest RENA yield right now is 0.06% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RENA yield right now is 0.40% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=8b7f8a5a-d7a5-476e-9288-53cb2d25fbb9&src=seo_token) | Ethereum | 0.06% | $353K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=8b7f8a5a-d7a5-476e-9288-53cb2d25fbb9&src=seo_token) | Ethereum | 0.40% | $340.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RENA yield today?
 
-0.06% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.40% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many RENA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $353K in total.
+1 live pool clear this page's $100K TVL floor, $340.9K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank RENA pools. This view covers 
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

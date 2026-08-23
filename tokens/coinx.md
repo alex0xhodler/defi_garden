@@ -1,31 +1,31 @@
 # COINX DeFi Yields
 
-The highest honest COINX yield right now is 182.35% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest COINX yield right now is 56.73% on raydium-amm (Solana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token) | Solana | 171.81% | $792.1K |
-| [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token) | Solana | 164.68% | $277.8K |
-| [raydium-amm →](https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token) | Solana | 182.35% | $110.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token) | Solana | 56.73% | $814.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token) | Solana | 316.95% | $285K |
+| [raydium-amm →](https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token) | Solana | 49.59% | $110.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, COINX's lower-variability candidates are raydium-amm (Solana), 171.81% APY, $792.1K TVL, https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token; raydium-amm (Solana), 182.35% APY, $110.1K TVL, https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token; raydium-amm (Solana), 164.68% APY, $277.8K TVL, https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COINX's lower-variability candidates are raydium-amm (Solana), 56.73% APY, $814.1K TVL, https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token; raydium-amm (Solana), 49.59% APY, $110.8K TVL, https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token; raydium-amm (Solana), 316.95% APY, $285K TVL, https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token) | Solana | 171.81% | $792.1K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token) | Solana | 182.35% | $110.1K |
-| 3 | [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token) | Solana | 164.68% | $277.8K |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token) | Solana | 56.73% | $814.1K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token) | Solana | 49.59% | $110.8K |
+| 3 | [raydium-amm →](https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token) | Solana | 316.95% | $285K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-COINX shows up in 3 pools here, with rates from 164.68% to 182.35% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+COINX shows up in 3 pools here, with rates from 49.59% to 316.95% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 63.60% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 65.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 171.81% | 63.60% | Base rate |
-| raydium-amm | 164.68% | 72.35% | Base rate |
-| raydium-amm | 182.35% | 54.68% | Base rate |
+| raydium-amm | 56.73% | 65.59% | Base rate |
+| raydium-amm | 316.95% | 80.92% | Base rate |
+| raydium-amm | 49.59% | 57.32% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest COINX yield today?
 
-182.35% APY on raydium-amm (Solana), based on live DefiLlama data.
+56.73% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many COINX pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $1.18M in total.
+3 live pools clear this page's $100K TVL floor, $1.21M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which COINX pools have the most stable APY history?
 
-Based on APY history only, COINX's lower-variability candidates are raydium-amm (Solana), 171.81% APY, $792.1K TVL, https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token; raydium-amm (Solana), 182.35% APY, $110.1K TVL, https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token; raydium-amm (Solana), 164.68% APY, $277.8K TVL, https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, COINX's lower-variability candidates are raydium-amm (Solana), 56.73% APY, $814.1K TVL, https://www.defi.garden/?pool=b561548e-daa8-4945-9d24-e04aafcf5fda&src=seo_token; raydium-amm (Solana), 49.59% APY, $110.8K TVL, https://www.defi.garden/?pool=8950fa38-8d84-4aa3-81c8-32f4dea48191&src=seo_token; raydium-amm (Solana), 316.95% APY, $285K TVL, https://www.defi.garden/?pool=1aa2981e-1565-4471-879c-bcd0d2e8236a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -63,11 +63,11 @@ Based on APY history only, COINX's lower-variability candidates are raydium-amm 
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

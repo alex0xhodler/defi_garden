@@ -1,29 +1,29 @@
 # ATH DeFi Yields
 
-The highest honest ATH yield right now is 352.37% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATH yield right now is 347.37% on uniswap-v4 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 352.37% | $466.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 38.50% | $312.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 347.37% | $467.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 40.68% | $300.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 38.50% APY, $312.8K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 352.37% APY, $466.5K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 40.68% APY, $300.2K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 347.37% APY, $467.8K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 38.50% | $312.8K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 352.37% | $466.5K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token) | Ethereum | 40.68% | $300.2K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token) | Polygon | 347.37% | $467.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ATH shows up in 2 pools here, with rates from 38.50% to 352.37% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ATH shows up in 2 pools here, with rates from 40.68% to 347.37% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 229.02% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 228.27% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 352.37% | 444.67% | Base rate |
-| uniswap-v3 | 38.50% | 13.38% | Base rate |
+| uniswap-v4 | 347.37% | 442.05% | Base rate |
+| uniswap-v3 | 40.68% | 14.48% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ATH yield today?
 
-352.37% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
+347.37% APY on uniswap-v4 (Polygon), based on live DefiLlama data.
 
 ### How many ATH pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $779.3K in total.
+2 live pools clear this page's $100K TVL floor, $768K in total.
 
 ### Are these rates safe?
 
@@ -52,20 +52,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ATH pools have the most stable APY history?
 
-Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 38.50% APY, $312.8K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 352.37% APY, $466.5K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ATH's lower-variability candidates are uniswap-v3 (Ethereum), 40.68% APY, $300.2K TVL, https://www.defi.garden/?pool=493c9c8a-712d-432b-8fe1-6d671c517d42&src=seo_token; uniswap-v4 (Polygon), 347.37% APY, $467.8K TVL, https://www.defi.garden/?pool=ec4f2365-fe44-4aa4-9fde-a79e94e77683&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -1,10 +1,10 @@
 # OFC DeFi Yields
 
-The highest honest OFC yield right now is 1.98% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OFC yield right now is 2.61% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=520675c7-af08-48ba-87a1-4a74f43b41b9&src=seo_token) | Base | 1.98% | $199.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=520675c7-af08-48ba-87a1-4a74f43b41b9&src=seo_token) | Base | 2.61% | $192.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OFC yield today?
 
-1.98% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+2.61% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many OFC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $199.4K in total.
+1 live pool clear this page's $100K TVL floor, $192.4K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank OFC pools. This view covers A
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank OFC pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -4,7 +4,7 @@ The highest honest XRPL EVM yield right now is 2.21% on midas-rwa (XRPL EVM), am
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| XRP | [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_chain) | 2.21% | $969.9K |
+| XRP | [midas-rwa →](https://www.defi.garden/?pool=54478c15-57c9-4d0f-bbf5-1ea33b027423&src=seo_chain) | 2.21% | $972.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many XRPL EVM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $969.9K in total.
+1 live pool clear this page's $100K TVL floor, $972.3K in total.
 
 ### Are these rates safe?
 
@@ -27,12 +27,12 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Kava](https://www.defi.garden/chains/kava)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
+- [Solana](https://www.defi.garden/chains/solana)
 - [Tron](https://www.defi.garden/chains/tron)
 
 ## Top tokens on XRPL EVM
 
 - [XRP](https://www.defi.garden/tokens/xrp)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

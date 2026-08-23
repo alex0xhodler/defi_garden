@@ -1,10 +1,10 @@
 # TCRUST DeFi Yields
 
-The highest honest TCRUST yield right now is 0.01% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TCRUST yield right now is 21.26% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a5a249fb-458a-4040-b4e0-cc0a2734d6df&src=seo_token) | Base | 0.01% | $117.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a5a249fb-458a-4040-b4e0-cc0a2734d6df&src=seo_token) | Base | 21.26% | $112.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TCRUST yield today?
 
-0.01% APY on uniswap-v4 (Base), based on live DefiLlama data.
+21.26% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many TCRUST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $117.6K in total.
+1 live pool clear this page's $100K TVL floor, $112.9K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank TCRUST pools. This view cover
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank TCRUST pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

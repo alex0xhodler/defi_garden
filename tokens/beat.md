@@ -1,10 +1,10 @@
 # BEAT DeFi Yields
 
-The highest honest BEAT yield right now is 0.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BEAT yield right now is 0.24% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6e0aac86-c394-5414-9861-b30d309e19d6&src=seo_token) | Solana | 0.23% | $6.45M |
+| [raydium-amm →](https://www.defi.garden/?pool=6e0aac86-c394-5414-9861-b30d309e19d6&src=seo_token) | Solana | 0.24% | $6.45M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BEAT yield today?
 
-0.23% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.24% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many BEAT pools clear the TVL floor?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank BEAT pools. This view covers 
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

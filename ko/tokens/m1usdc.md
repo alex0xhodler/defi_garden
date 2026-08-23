@@ -1,10 +1,10 @@
 # M1USDC 디파이 수익률
 
-현재 M1USDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 8.81%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 M1USDC의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 8.85%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=212a6c31-9633-408e-b2bb-347490046581&src=seo_token) | Ethereum | 8.81% | $8.46M |
+| [morpho-blue →](https://www.defi.garden/?pool=212a6c31-9633-408e-b2bb-347490046581&src=seo_token) | Ethereum | 8.85% | $8.46M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 M1USDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 8.81%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 8.85%예요.
 
 ### M1USDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 8.81%예
 
 ## 관련 토큰
 
+- [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
-- [WSTETH](https://www.defi.garden/ko/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

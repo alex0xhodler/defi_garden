@@ -4,7 +4,7 @@ The highest honest TURTLEPST yield right now is 7.82% on gami-labs (Ethereum), a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gami-labs →](https://www.defi.garden/?pool=9cef3a33-0b35-5370-9bbc-01e84d8d5a45&src=seo_token) | Ethereum | 7.82% | $2.48M |
+| [gami-labs →](https://www.defi.garden/?pool=9cef3a33-0b35-5370-9bbc-01e84d8d5a45&src=seo_token) | Ethereum | 7.82% | $2.57M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many TURTLEPST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.48M in total.
+1 live pool clear this page's $100K TVL floor, $2.57M in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank TURTLEPST pools. This view co
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

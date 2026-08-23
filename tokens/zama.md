@@ -1,10 +1,10 @@
 # ZAMA DeFi Yields
 
-The highest honest ZAMA yield right now is 52.14% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZAMA yield right now is 79.26% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fa9297a7-7620-4ad3-9d22-5cf6cbf2531a&src=seo_token) | Ethereum | 52.14% | $533.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fa9297a7-7620-4ad3-9d22-5cf6cbf2531a&src=seo_token) | Ethereum | 79.26% | $533.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZAMA yield today?
 
-52.14% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+79.26% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many ZAMA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $533.7K in total.
+1 live pool clear this page's $100K TVL floor, $533.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank ZAMA pools. This view covers 
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

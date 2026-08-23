@@ -1,11 +1,10 @@
 # NVDAB DeFi Yields
 
-The highest honest NVDAB yield right now is 124.10% on native-credit-pool (BSC), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NVDAB yield right now is 124.10% on native-credit-pool (BSC), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d58b2d86-df88-56b9-9212-930d8a164095&src=seo_token) | BSC | 125.39% | $133.3K |
-| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74&src=seo_token) | BSC | 124.10% | $104.6K |
+| [native-credit-pool →](https://www.defi.garden/?pool=59eecd41-6673-44ec-a5ba-82158afbeb74&src=seo_token) | BSC | 124.10% | $104.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,18 +15,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-NVDAB shows up in 2 pools here, with rates from 124.10% to 125.39% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+NVDAB shows up in 1 pools here, with rates from 124.10% to 124.10% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 194.59% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 119.19% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
-
-1 of 2 pools carries impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 125.39% | 270.27% | Base rate |
-| native-credit-pool | 124.10% | 118.92% | Base rate |
+| native-credit-pool | 124.10% | 119.19% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -39,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NVDAB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $373K in total.
+2 live pools clear this page's $100K TVL floor, $275.3K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +58,4 @@ There is not enough qualifying APY history to rank NVDAB pools. This view covers
 
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

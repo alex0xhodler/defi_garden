@@ -1,12 +1,12 @@
 # FTUSD DeFi Yields
 
-The highest honest FTUSD yield right now is 38.99% on convex-finance (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FTUSD yield right now is 36.99% on convex-finance (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb&src=seo_token) | Ethereum | 1.55% | $1.88M |
-| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9&src=seo_token) | Ethereum | 16.49% | $345.5K |
-| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d&src=seo_token) | Ethereum | 38.99% | $115.6K |
+| [curve-dex →](https://www.defi.garden/?pool=f6df3c6a-c52c-414d-a82a-17e98eb90dcb&src=seo_token) | Ethereum | 1.55% | $1.87M |
+| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9&src=seo_token) | Ethereum | 15.94% | $350.7K |
+| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d&src=seo_token) | Ethereum | 36.99% | $117.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,9 +17,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FTUSD shows up in 3 pools here, with rates from 1.55% to 38.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FTUSD shows up in 3 pools here, with rates from 1.55% to 36.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 27.75% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 28.23% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 3 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -27,9 +27,9 @@ FTUSD shows up in 3 pools here, with rates from 1.55% to 38.99% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 1.55% | 1.96% | 96.78% incentives |
-| curve-dex | 16.49% | 54.13% | 98.42% incentives |
-| convex-finance | 38.99% | 27.75% | 99.33% incentives |
+| curve-dex | 1.55% | 1.87% | 93.55% incentives |
+| curve-dex | 15.94% | 54.68% | 96.61% incentives |
+| convex-finance | 36.99% | 28.23% | 98.54% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FTUSD yield today?
 
-38.99% APY on convex-finance (Ethereum), based on live DefiLlama data.
+36.99% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FTUSD pools clear the TVL floor?
 
@@ -53,15 +53,15 @@ There is not enough qualifying APY history to rank FTUSD pools. This view covers
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

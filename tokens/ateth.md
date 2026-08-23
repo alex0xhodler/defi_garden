@@ -1,10 +1,10 @@
 # ATETH DeFi Yields
 
-The highest honest ATETH yield right now is 1.58% on latch (Gravity), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ATETH yield right now is 1.51% on latch (Gravity), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_token) | Gravity | 1.58% | $238.4K |
+| [latch →](https://www.defi.garden/?pool=191d6bfe-d781-4972-a5c1-765f80a7042a&src=seo_token) | Gravity | 1.51% | $229K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ATETH yield today?
 
-1.58% APY on latch (Gravity), based on live DefiLlama data.
+1.51% APY on latch (Gravity), based on live DefiLlama data.
 
 ### How many ATETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $238.4K in total.
+1 live pool clear this page's $100K TVL floor, $229K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ATETH pools. This view covers
 ## Related tokens
 
 - [ATUSD](https://www.defi.garden/tokens/atusd)
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
 
 ## Available on
 
 - [Gravity](https://www.defi.garden/chains/gravity)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

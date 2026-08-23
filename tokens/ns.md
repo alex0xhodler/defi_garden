@@ -1,10 +1,10 @@
 # NS DeFi Yields
 
-The highest honest NS yield right now is 0.30% on navi-lending (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NS yield right now is 0.31% on navi-lending (Sui), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [navi-lending →](https://www.defi.garden/?pool=468407a0-6ac8-45a7-ae77-385c8e1b64bc&src=seo_token) | Sui | 0.30% | $119.8K |
+| [navi-lending →](https://www.defi.garden/?pool=468407a0-6ac8-45a7-ae77-385c8e1b64bc&src=seo_token) | Sui | 0.31% | $106.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NS yield today?
 
-0.30% APY on navi-lending (Sui), based on live DefiLlama data.
+0.31% APY on navi-lending (Sui), based on live DefiLlama data.
 
 ### How many NS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.8K in total.
+1 live pool clear this page's $100K TVL floor, $106.2K in total.
 
 ### Are these rates safe?
 
@@ -35,13 +35,13 @@ There is not enough qualifying APY history to rank NS pools. This view covers AP
 
 - [USDY](https://www.defi.garden/tokens/usdy)
 - [LBTC](https://www.defi.garden/tokens/lbtc)
+- [ENZOBTC](https://www.defi.garden/tokens/enzobtc)
 - [XBTC](https://www.defi.garden/tokens/xbtc)
 - [SUI](https://www.defi.garden/tokens/sui)
 - [HASUI](https://www.defi.garden/tokens/hasui)
-- [BUCK](https://www.defi.garden/tokens/buck)
 
 ## Available on
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

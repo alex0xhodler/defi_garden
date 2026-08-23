@@ -1,10 +1,10 @@
 # LOCKIN DeFi Yields
 
-The highest honest LOCKIN yield right now is 11.02% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LOCKIN yield right now is 14.57% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=b3aa20ae-6e2c-4f68-b1ed-b36b76caa649&src=seo_token) | Solana | 11.02% | $322.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=b3aa20ae-6e2c-4f68-b1ed-b36b76caa649&src=seo_token) | Solana | 14.57% | $335.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LOCKIN yield today?
 
-11.02% APY on raydium-amm (Solana), based on live DefiLlama data.
+14.57% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LOCKIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $322.2K in total.
+1 live pool clear this page's $100K TVL floor, $335.9K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank LOCKIN pools. This view cover
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

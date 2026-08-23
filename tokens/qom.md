@@ -1,10 +1,10 @@
 # QOM DeFi Yields
 
-The highest honest QOM yield right now is 0.09% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest QOM yield right now is 0.02% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b4609df1-5671-4cd0-849a-ab0f27d572c0&src=seo_token) | Ethereum | 0.09% | $713.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b4609df1-5671-4cd0-849a-ab0f27d572c0&src=seo_token) | Ethereum | 0.02% | $685K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest QOM yield today?
 
-0.09% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.02% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many QOM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $713.4K in total.
+1 live pool clear this page's $100K TVL floor, $685K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank QOM pools. This view covers A
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

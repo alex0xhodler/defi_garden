@@ -1,10 +1,10 @@
 # SKR 디파이 수익률
 
-현재 SKR의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 12.56%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SKR의 가장 높은 정직한 수익률은 Solana의 orca-dex에서 45.60%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=fd9493f2-7c09-4348-a5b0-f1081093742f&src=seo_token) | Solana | 12.56% | $379.6K |
+| [orca-dex →](https://www.defi.garden/?pool=fd9493f2-7c09-4348-a5b0-f1081093742f&src=seo_token) | Solana | 45.60% | $390K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 SKR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 12.56%예요.
+DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 45.60%예요.
 
 ### SKR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $379.6K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $390K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Solana의 orca-dex에서 APY 12.56%예요.
 - [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [PRIME](https://www.defi.garden/ko/tokens/prime)
 - [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [PRIME](https://www.defi.garden/ko/tokens/prime)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

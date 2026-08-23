@@ -1,10 +1,10 @@
 # DOVU DeFi Yields
 
-The highest honest DOVU yield right now is 12.87% on saucerswap-v1 (Hedera), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DOVU yield right now is 15.07% on saucerswap-v1 (Hedera), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 12.87% | $161.1K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=25280848-1b55-488e-b9af-925c8330e8de&src=seo_token) | Hedera | 15.07% | $149.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DOVU yield today?
 
-12.87% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
+15.07% APY on saucerswap-v1 (Hedera), based on live DefiLlama data.
 
 ### How many DOVU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $161.1K in total.
+1 live pool clear this page's $100K TVL floor, $149.8K in total.
 
 ### Are these rates safe?
 
@@ -36,12 +36,12 @@ There is not enough qualifying APY history to rank DOVU pools. This view covers 
 - [HBAR](https://www.defi.garden/tokens/hbar)
 - [SAUCE](https://www.defi.garden/tokens/sauce)
 - [XSAUCE](https://www.defi.garden/tokens/xsauce)
-- [USDC](https://www.defi.garden/tokens/usdc)
-- [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
+- [HBARX](https://www.defi.garden/tokens/hbarx)
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 
 ## Available on
 
 - [Hedera](https://www.defi.garden/chains/hedera)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

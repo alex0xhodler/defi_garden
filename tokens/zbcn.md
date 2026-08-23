@@ -1,10 +1,10 @@
 # ZBCN DeFi Yields
 
-The highest honest ZBCN yield right now is 813.05% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZBCN yield right now is 381.83% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=01b5637e-2599-41d0-a141-88e7ae35c126&src=seo_token) | Solana | 813.05% | $135.3K |
+| [orca-dex →](https://www.defi.garden/?pool=01b5637e-2599-41d0-a141-88e7ae35c126&src=seo_token) | Solana | 381.83% | $122.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZBCN yield today?
 
-813.05% APY on orca-dex (Solana), based on live DefiLlama data.
+381.83% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many ZBCN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $135.3K in total.
+1 live pool clear this page's $100K TVL floor, $122.5K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank ZBCN pools. This view covers 
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

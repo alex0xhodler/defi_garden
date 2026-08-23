@@ -4,7 +4,7 @@ The highest honest AHYPER yield right now is 1.00% on morpho-blue (Monad), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=8ee92b15-1846-4a9c-8ce8-254a745e2b62&src=seo_token) | Monad | 1.00% | $55.02M |
+| [morpho-blue →](https://www.defi.garden/?pool=8ee92b15-1846-4a9c-8ce8-254a745e2b62&src=seo_token) | Monad | 1.00% | $55.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many AHYPER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $55.02M in total.
+1 live pool clear this page's $100K TVL floor, $55.04M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AHYPER pools. This view cover
 
 - [Monad](https://www.defi.garden/chains/monad)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

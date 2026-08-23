@@ -4,7 +4,7 @@ The highest honest MPUSDC yield right now is 4.17% on morpho-blue (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=66471469-2dc4-4223-b867-ca780fe7457d&src=seo_token) | Base | 4.17% | $592.8K |
+| [morpho-blue →](https://www.defi.garden/?pool=66471469-2dc4-4223-b867-ca780fe7457d&src=seo_token) | Base | 4.17% | $596.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many MPUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $592.8K in total.
+1 live pool clear this page's $100K TVL floor, $596.1K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank MPUSDC pools. This view cover
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MPUSDC pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -4,7 +4,7 @@ The highest honest CC yield right now is 0.02% on raydium-amm (Solana), among 7 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=6c01ecea-47f9-5239-9779-14ff9d50195d&src=seo_token) | Solana | 0.01% | $98.92M |
+| [raydium-amm →](https://www.defi.garden/?pool=6c01ecea-47f9-5239-9779-14ff9d50195d&src=seo_token) | Solana | 0.01% | $98.93M |
 | [raydium-amm →](https://www.defi.garden/?pool=6fb4e091-ad17-5301-a991-567266b11be3&src=seo_token) | Solana | 0.01% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=e1a3cd26-8102-57fd-b3b5-af932c43daf1&src=seo_token) | Solana | 0.02% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=74cb86c7-0d1b-5873-bc13-9021e27d4d9c&src=seo_token) | Solana | 0.01% | $93.93M |
@@ -29,7 +29,7 @@ All 5 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.01% | 0.00% | Base rate |
+| raydium-amm | 0.01% | 0.01% | Base rate |
 | raydium-amm | 0.01% | 0.02% | Base rate |
 | raydium-amm | 0.02% | 0.01% | Base rate |
 | raydium-amm | 0.01% | 0.31% | Base rate |
@@ -61,11 +61,11 @@ There is not enough qualifying APY history to rank CC pools. This view covers AP
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

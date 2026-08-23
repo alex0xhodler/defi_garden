@@ -1,10 +1,10 @@
 # TPT 디파이 수익률
 
-현재 TPT의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 26.73%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TPT의 가장 높은 정직한 수익률은 Polygon의 uniswap-v3에서 38.37%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0e6b230e-79f7-5069-8203-5e21bdb8bfe8&src=seo_token) | Polygon | 26.73% | $132.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0e6b230e-79f7-5069-8203-5e21bdb8bfe8&src=seo_token) | Polygon | 38.37% | $132.5K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 TPT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 26.73%예요.
+DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 38.37%예요.
 
 ### TPT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -33,15 +33,15 @@ DefiLlama 실시간 데이터 기준, Polygon의 uniswap-v3에서 APY 26.73%예�
 
 ## 관련 토큰
 
+- [SAND](https://www.defi.garden/ko/tokens/sand)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 - [DAI](https://www.defi.garden/ko/tokens/dai)
 - [LINK](https://www.defi.garden/ko/tokens/link)
-- [ACRED](https://www.defi.garden/ko/tokens/acred)
 - [USDT0](https://www.defi.garden/ko/tokens/usdt0)
-- [BET](https://www.defi.garden/ko/tokens/bet)
+- [ACRED](https://www.defi.garden/ko/tokens/acred)
 
 ## 이용 가능한 체인
 
 - [Polygon](https://www.defi.garden/ko/chains/polygon)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

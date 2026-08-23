@@ -1,29 +1,29 @@
 # SHX DeFi Yields
 
-The highest honest SHX yield right now is 14.48% on uniswap-v4 (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHX yield right now is 9.77% on uniswap-v4 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 4.92% | $1.18M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 14.48% | $151.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 9.77% | $1.13M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 0.98% | $146K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SHX's lower-variability candidates are uniswap-v4 (Ethereum), 4.92% APY, $1.18M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 14.48% APY, $151.6K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHX's lower-variability candidates are uniswap-v4 (Ethereum), 9.77% APY, $1.13M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 0.98% APY, $146K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 4.92% | $1.18M |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 14.48% | $151.6K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token) | Ethereum | 9.77% | $1.13M |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token) | Base | 0.98% | $146K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SHX shows up in 2 pools here, with rates from 4.92% to 14.48% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+SHX shows up in 2 pools here, with rates from 0.98% to 9.77% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.34% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 4.92% | 2.89% | Base rate |
-| uniswap-v4 | 14.48% | 7.80% | Base rate |
+| uniswap-v4 | 9.77% | 3.00% | Base rate |
+| uniswap-v4 | 0.98% | 8.06% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SHX yield today?
 
-14.48% APY on uniswap-v4 (Base), based on live DefiLlama data.
+9.77% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SHX pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.71M in total.
+4 live pools clear this page's $100K TVL floor, $3.57M in total.
 
 ### Are these rates safe?
 
@@ -52,20 +52,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SHX pools have the most stable APY history?
 
-Based on APY history only, SHX's lower-variability candidates are uniswap-v4 (Ethereum), 4.92% APY, $1.18M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 14.48% APY, $151.6K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SHX's lower-variability candidates are uniswap-v4 (Ethereum), 9.77% APY, $1.13M TVL, https://www.defi.garden/?pool=0118c145-1731-4f14-91e1-830ea664dafc&src=seo_token; uniswap-v4 (Base), 0.98% APY, $146K TVL, https://www.defi.garden/?pool=f15c2a99-3ba8-4357-9654-0973f71ab5b8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

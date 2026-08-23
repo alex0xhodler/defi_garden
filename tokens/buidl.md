@@ -72,12 +72,12 @@ Based on APY history only, BUIDL's lower-variability candidates are blackrock-bu
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
@@ -89,4 +89,4 @@ Based on APY history only, BUIDL's lower-variability candidates are blackrock-bu
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -4,7 +4,7 @@ The highest honest STPOL yield right now is 3.46% on stake.link-liquid (Ethereum
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stake.link-liquid →](https://www.defi.garden/?pool=5797965f-0002-4bc0-b989-1aa575e096d8&src=seo_token) | Ethereum | 3.46% | $1.33M |
+| [stake.link-liquid →](https://www.defi.garden/?pool=5797965f-0002-4bc0-b989-1aa575e096d8&src=seo_token) | Ethereum | 3.46% | $1.46M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STPOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.33M in total.
+1 live pool clear this page's $100K TVL floor, $1.46M in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank STPOL pools. This view covers
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

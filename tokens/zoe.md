@@ -1,10 +1,10 @@
 # ZOE DeFi Yields
 
-The highest honest ZOE yield right now is 3.40% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZOE yield right now is 0.11% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ec88dafc-7c63-427b-8aea-79568f336681&src=seo_token) | Base | 3.40% | $177.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ec88dafc-7c63-427b-8aea-79568f336681&src=seo_token) | Base | 0.11% | $170.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ZOE yield today?
 
-3.40% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.11% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many ZOE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $177.4K in total.
+1 live pool clear this page's $100K TVL floor, $170.6K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank ZOE pools. This view covers A
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank ZOE pools. This view covers A
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -2,7 +2,7 @@
 
 **Total APY:** 0.01% (0.01% Base · + 0.00% Rewards)
 
-**TVL:** $143.19M
+**TVL:** $137.84M
 
 **Pool Type:** LP/DEX
 
@@ -25,10 +25,10 @@ $1,000 in this pool grows to ~$1,000 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-Steady so far: across the 40 days we've tracked it, this pool's rate has stayed close to level. Steadier rates are easier to plan a garden around.
+This pool's rate moves a lot: 0.01% right now vs a 0.00% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
 
 [Garden this pool → ~$1,000 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=stable&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on uniswap-v2](https://app.uniswap.org/?ref=defi.garden)
 
-Last updated August 22, 2026
+Last updated August 23, 2026

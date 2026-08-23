@@ -1,10 +1,10 @@
 # MEME DeFi Yields
 
-The highest honest MEME yield right now is 15.30% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MEME yield right now is 29.53% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=2b53e332-3ad2-4307-bc32-54ed412c1652&src=seo_token) | Ethereum | 15.30% | $262.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=2b53e332-3ad2-4307-bc32-54ed412c1652&src=seo_token) | Ethereum | 29.53% | $250.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MEME yield today?
 
-15.30% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+29.53% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many MEME pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $262.9K in total.
+1 live pool clear this page's $100K TVL floor, $250.8K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank MEME pools. This view covers 
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

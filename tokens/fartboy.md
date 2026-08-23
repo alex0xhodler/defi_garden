@@ -1,10 +1,10 @@
 # FARTBOY DeFi Yields
 
-The highest honest FARTBOY yield right now is 15.04% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FARTBOY yield right now is 26.23% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=ff7c7fa9-5d22-4502-862a-57c3e38cb018&src=seo_token) | Solana | 15.04% | $491.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=ff7c7fa9-5d22-4502-862a-57c3e38cb018&src=seo_token) | Solana | 26.23% | $522.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FARTBOY yield today?
 
-15.04% APY on raydium-amm (Solana), based on live DefiLlama data.
+26.23% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many FARTBOY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $491.4K in total.
+1 live pool clear this page's $100K TVL floor, $522.4K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank FARTBOY pools. This view cove
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -1,56 +1,47 @@
 # ZEC DeFi Yields
 
-The highest honest ZEC yield right now is 495.83% on uniswap-v3 (BSC), among 9 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ZEC yield right now is 434.69% on uniswap-v3 (BSC), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token) | Solana | 231.58% | $3.43M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token) | BSC | 211.36% | $616.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token) | BSC | 495.83% | $297.6K |
-| [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 335.55% | $239.1K |
-| [ekubo →](https://www.defi.garden/?pool=9c2667eb-5416-4cf4-b025-6bca6fecd365&src=seo_token) | Starknet | 182.85% | $141.3K |
-| [project-0 →](https://www.defi.garden/?pool=5f6964ed-4341-4a75-abf0-d8d913e8378a&src=seo_token) | Solana | 2.15% | $125.8K |
-| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token) | Solana | 354.96% | $111.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=1f07f8d8-f405-450f-91eb-22537023004e&src=seo_token) | BSC | 238.67% | $107.2K |
+| [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token) | Solana | 342.20% | $2.69M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token) | BSC | 328.01% | $800.8K |
+| [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 212.01% | $233.8K |
+| [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token) | Solana | 295.65% | $213.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token) | BSC | 434.69% | $111.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ZEC's lower-variability candidates are project-0 (Solana), 2.15% APY, $125.8K TVL, https://www.defi.garden/?pool=5f6964ed-4341-4a75-abf0-d8d913e8378a&src=seo_token; ekubo (Starknet), 182.85% APY, $141.3K TVL, https://www.defi.garden/?pool=9c2667eb-5416-4cf4-b025-6bca6fecd365&src=seo_token; uniswap-v3 (BSC), 495.83% APY, $297.6K TVL, https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token; orca-dex (Solana), 231.58% APY, $3.43M TVL, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token; orca-dex (Solana), 354.96% APY, $111.6K TVL, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token; orca-dex (Solana), 335.55% APY, $239.1K TVL, https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token; uniswap-v3 (BSC), 211.36% APY, $616.4K TVL, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token; uniswap-v3 (BSC), 238.67% APY, $107.2K TVL, https://www.defi.garden/?pool=1f07f8d8-f405-450f-91eb-22537023004e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEC's lower-variability candidates are uniswap-v3 (BSC), 434.69% APY, $111.4K TVL, https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token; orca-dex (Solana), 342.20% APY, $2.69M TVL, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token; orca-dex (Solana), 295.65% APY, $213.7K TVL, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token; orca-dex (Solana), 212.01% APY, $233.8K TVL, https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token; uniswap-v3 (BSC), 328.01% APY, $800.8K TVL, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [project-0 →](https://www.defi.garden/?pool=5f6964ed-4341-4a75-abf0-d8d913e8378a&src=seo_token) | Solana | 2.15% | $125.8K |
-| 2 | [ekubo →](https://www.defi.garden/?pool=9c2667eb-5416-4cf4-b025-6bca6fecd365&src=seo_token) | Starknet | 182.85% | $141.3K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token) | BSC | 495.83% | $297.6K |
-| 4 | [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token) | Solana | 231.58% | $3.43M |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token) | Solana | 354.96% | $111.6K |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 335.55% | $239.1K |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token) | BSC | 211.36% | $616.4K |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=1f07f8d8-f405-450f-91eb-22537023004e&src=seo_token) | BSC | 238.67% | $107.2K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token) | BSC | 434.69% | $111.4K |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token) | Solana | 342.20% | $2.69M |
+| 3 | [orca-dex →](https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token) | Solana | 295.65% | $213.7K |
+| 4 | [orca-dex →](https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token) | Solana | 212.01% | $233.8K |
+| 5 | [uniswap-v3 →](https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token) | BSC | 328.01% | $800.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-ZEC shows up in 8 pools here, with rates from 2.15% to 495.83% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+ZEC shows up in 5 pools here, with rates from 212.01% to 434.69% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 43.69% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 64.39% — a useful check against today's number for whether the rate is steady or just having a good day.
 
-All 8 pools pay a plain base rate right now — no incentive or reward APY mixed in.
+All 5 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
-7 of 8 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
+5 of 5 pools carry impermanent-loss risk, meaning a two-sided position can lose value against just holding, even while it earns yield.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| orca-dex | 231.58% | 53.98% | Base rate |
-| uniswap-v3 | 211.36% | 40.57% | Base rate |
-| uniswap-v3 | 495.83% | 62.85% | Base rate |
-| orca-dex | 335.55% | 31.40% | Base rate |
-| ekubo | 182.85% | 46.81% | Base rate |
-| project-0 | 2.15% | 6.58% | Base rate |
-| orca-dex | 354.96% | 53.09% | Base rate |
-| uniswap-v3 | 238.67% | 34.19% | Base rate |
+| orca-dex | 342.20% | 64.39% | Base rate |
+| uniswap-v3 | 328.01% | 47.74% | Base rate |
+| orca-dex | 212.01% | 42.71% | Base rate |
+| orca-dex | 295.65% | 65.12% | Base rate |
+| uniswap-v3 | 434.69% | 75.56% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ZEC yield today?
 
-495.83% APY on uniswap-v3 (BSC), based on live DefiLlama data.
+434.69% APY on uniswap-v3 (BSC), based on live DefiLlama data.
 
 ### How many ZEC pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $5.18M in total.
+7 live pools clear this page's $100K TVL floor, $4.32M in total.
 
 ### Are these rates safe?
 
@@ -70,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ZEC pools have the most stable APY history?
 
-Based on APY history only, ZEC's lower-variability candidates are project-0 (Solana), 2.15% APY, $125.8K TVL, https://www.defi.garden/?pool=5f6964ed-4341-4a75-abf0-d8d913e8378a&src=seo_token; ekubo (Starknet), 182.85% APY, $141.3K TVL, https://www.defi.garden/?pool=9c2667eb-5416-4cf4-b025-6bca6fecd365&src=seo_token; uniswap-v3 (BSC), 495.83% APY, $297.6K TVL, https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token; orca-dex (Solana), 231.58% APY, $3.43M TVL, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token; orca-dex (Solana), 354.96% APY, $111.6K TVL, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token; orca-dex (Solana), 335.55% APY, $239.1K TVL, https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token; uniswap-v3 (BSC), 211.36% APY, $616.4K TVL, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token; uniswap-v3 (BSC), 238.67% APY, $107.2K TVL, https://www.defi.garden/?pool=1f07f8d8-f405-450f-91eb-22537023004e&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ZEC's lower-variability candidates are uniswap-v3 (BSC), 434.69% APY, $111.4K TVL, https://www.defi.garden/?pool=c9079f69-c269-4d2f-b96b-321e22f67cf8&src=seo_token; orca-dex (Solana), 342.20% APY, $2.69M TVL, https://www.defi.garden/?pool=3de7947c-e199-4842-a496-a775f59d6ba3&src=seo_token; orca-dex (Solana), 295.65% APY, $213.7K TVL, https://www.defi.garden/?pool=d3976688-cd2f-404c-be53-dd47ae528811&src=seo_token; orca-dex (Solana), 212.01% APY, $233.8K TVL, https://www.defi.garden/?pool=96e01aac-6d31-4e6d-ab26-4a2aa853c719&src=seo_token; uniswap-v3 (BSC), 328.01% APY, $800.8K TVL, https://www.defi.garden/?pool=9777c6f8-4447-48fe-9250-4be162a078ec&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -85,6 +76,5 @@ Based on APY history only, ZEC's lower-variability candidates are project-0 (Sol
 
 - [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
-- [Starknet](https://www.defi.garden/chains/starknet)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

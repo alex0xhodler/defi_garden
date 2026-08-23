@@ -1,10 +1,10 @@
 # PENG DeFi Yields
 
-The highest honest PENG yield right now is 1.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PENG yield right now is 3.67% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c57c6ba9-5733-4829-bac5-89b3a1edce26&src=seo_token) | Solana | 1.44% | $113.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=c57c6ba9-5733-4829-bac5-89b3a1edce26&src=seo_token) | Solana | 3.67% | $110.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PENG yield today?
 
-1.44% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.67% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many PENG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.9K in total.
+1 live pool clear this page's $100K TVL floor, $110.6K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank PENG pools. This view covers 
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

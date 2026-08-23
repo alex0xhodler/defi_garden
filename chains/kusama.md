@@ -4,7 +4,7 @@ The highest honest Kusama yield right now is 12.08% on bifrost-liquid-staking (K
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VKSM | [bifrost-liquid-staking →](https://www.defi.garden/?pool=402b81ac-fa55-4beb-9364-dd927376cbd0&src=seo_chain) | 12.08% | $553.4K |
+| VKSM | [bifrost-liquid-staking →](https://www.defi.garden/?pool=402b81ac-fa55-4beb-9364-dd927376cbd0&src=seo_chain) | 12.08% | $541.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Kusama pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $553.4K in total.
+1 live pool clear this page's $100K TVL floor, $541.3K in total.
 
 ### Are these rates safe?
 
@@ -25,8 +25,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
+- [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [VKSM](https://www.defi.garden/tokens/vksm)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

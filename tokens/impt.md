@@ -1,10 +1,10 @@
 # IMPT DeFi Yields
 
-The highest honest IMPT yield right now is 1.48% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IMPT yield right now is 0.86% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=573d6b65-f98d-4952-9f45-e7f031eebcb0&src=seo_token) | Ethereum | 1.48% | $848.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=573d6b65-f98d-4952-9f45-e7f031eebcb0&src=seo_token) | Ethereum | 0.86% | $805.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IMPT yield today?
 
-1.48% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.86% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many IMPT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $848.4K in total.
+1 live pool clear this page's $100K TVL floor, $805.4K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank IMPT pools. This view covers 
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -1,10 +1,10 @@
 # CHAIN DeFi Yields
 
-The highest honest CHAIN yield right now is 10.56% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CHAIN yield right now is 7.46% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2aa3c021-0dd3-450e-a261-86e903657aa0&src=seo_token) | Ethereum | 10.56% | $166.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2aa3c021-0dd3-450e-a261-86e903657aa0&src=seo_token) | Ethereum | 7.46% | $167.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CHAIN yield today?
 
-10.56% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+7.46% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many CHAIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $166.3K in total.
+1 live pool clear this page's $100K TVL floor, $167.3K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank CHAIN pools. This view covers
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

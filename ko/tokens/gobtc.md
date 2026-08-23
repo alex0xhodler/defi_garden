@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c&src=seo_token) | Algorand | 0.08% | $1.06M |
+| [folks-finance-lending →](https://www.defi.garden/?pool=c402e884-ca25-4c2e-97f7-a4a55c13781c&src=seo_token) | Algorand | 0.08% | $1.05M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 
 ### GOBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.06M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.05M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,11 +37,11 @@ DefiLlama 실시간 데이터 기준, Algorand의 folks-finance-lending에서 AP
 - [GOLD](https://www.defi.garden/ko/tokens/gold)
 - [SILVER](https://www.defi.garden/ko/tokens/silver)
 - [GOETH](https://www.defi.garden/ko/tokens/goeth)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [STETH](https://www.defi.garden/ko/tokens/steth)
+- [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SAND](https://www.defi.garden/ko/tokens/sand)
 
 ## 이용 가능한 체인
 
 - [Algorand](https://www.defi.garden/ko/chains/algorand)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

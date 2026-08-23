@@ -1,10 +1,10 @@
 # NST DeFi Yields
 
-The highest honest NST yield right now is 16.95% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NST yield right now is 17.42% on uniswap-v3 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=16c09aa8-dc98-4c34-8d14-ebebccae7cf4&src=seo_token) | Arbitrum | 16.95% | $176.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=16c09aa8-dc98-4c34-8d14-ebebccae7cf4&src=seo_token) | Arbitrum | 17.42% | $173.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NST yield today?
 
-16.95% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+17.42% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many NST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $176.8K in total.
+1 live pool clear this page's $100K TVL floor, $173.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank NST pools. This view covers A
 
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

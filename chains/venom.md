@@ -4,7 +4,7 @@ The highest honest Venom yield right now is 7.76% on venomstake (Venom), among 2
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| VENOM | [venomstake →](https://www.defi.garden/?pool=36e53dd0-7048-4d8b-aec3-c26708edb67c&src=seo_chain) | 7.76% | $6.43M |
+| VENOM | [venomstake →](https://www.defi.garden/?pool=36e53dd0-7048-4d8b-aec3-c26708edb67c&src=seo_chain) | 7.76% | $6.52M |
 | WVENOM-USDT | [web3.world →](https://www.defi.garden/?pool=049cfb62-8663-4c50-a814-be2d00d7736e&src=seo_chain) | 0.50% | $162.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Venom pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $6.59M in total.
+2 live pools clear this page's $100K TVL floor, $6.68M in total.
 
 ### Are these rates safe?
 
@@ -26,8 +26,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
+- [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
@@ -38,4 +38,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WVENOM](https://www.defi.garden/tokens/wvenom)
 - [USDT](https://www.defi.garden/tokens/usdt)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

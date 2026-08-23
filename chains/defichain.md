@@ -1,11 +1,12 @@
 # Defichain DeFi Yields
 
-The highest honest Defichain yield right now is 1.40% on defichain-dex (Defichain), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Defichain yield right now is 0.26% on defichain-dex (Defichain), among 8 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 0.05% | $688.4K |
-| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_chain) | 1.40% | $216.1K |
+| DUSD-DFI | [defichain-dex →](https://www.defi.garden/?pool=74ab9394-5d6d-41a6-955e-b246ecc8dede&src=seo_chain) | 0.05% | $676.2K |
+| MSTR-DUSD | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_chain) | 0.26% | $214.5K |
+| COIN-DUSD | [defichain-dex →](https://www.defi.garden/?pool=8954d1ef-2f53-4ef7-bc29-9134c0d058a3&src=seo_chain) | 0.84% | $100.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +14,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Defichain yield today?
 
-1.40% APY on defichain-dex (Defichain), based on live DefiLlama data.
+0.26% APY on defichain-dex (Defichain), based on live DefiLlama data.
 
 ### How many Defichain pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $3.57M in total.
+8 live pools clear this page's $100K TVL floor, $3.66M in total.
 
 ### Are these rates safe?
 
@@ -26,8 +27,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
+- [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Tron](https://www.defi.garden/chains/tron)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
@@ -37,5 +38,6 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [DUSD](https://www.defi.garden/tokens/dusd)
 - [DFI](https://www.defi.garden/tokens/dfi)
 - [MSTR](https://www.defi.garden/tokens/mstr)
+- [COIN](https://www.defi.garden/tokens/coin)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

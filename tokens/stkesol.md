@@ -4,7 +4,7 @@ The highest honest STKESOL yield right now is 4.64% on stkesol-by-sol-strategies
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.64% | $58.26M |
+| [stkesol-by-sol-strategies →](https://www.defi.garden/?pool=481ba825-cc83-4b90-a7ee-9baa66b9ee83&src=seo_token) | Solana | 4.64% | $59.44M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,13 +17,13 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 STKESOL shows up in 1 pools here, with rates from 4.64% to 4.64% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.55% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 4.56% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| stkesol-by-sol-strategies | 4.64% | 4.55% | Base rate |
+| stkesol-by-sol-strategies | 4.64% | 4.56% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many STKESOL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $66.92M in total.
+2 live pools clear this page's $100K TVL floor, $68.3M in total.
 
 ### Are these rates safe?
 
@@ -51,11 +51,11 @@ There is not enough qualifying APY history to rank STKESOL pools. This view cove
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -1,10 +1,10 @@
 # AEROBUD DeFi Yields
 
-The highest honest AEROBUD yield right now is 5.85% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AEROBUD yield right now is 3.10% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ef2bca1f-10b9-4b51-8f3d-1c8a60204353&src=seo_token) | Base | 5.85% | $186.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ef2bca1f-10b9-4b51-8f3d-1c8a60204353&src=seo_token) | Base | 3.10% | $172.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AEROBUD yield today?
 
-5.85% APY on uniswap-v2 (Base), based on live DefiLlama data.
+3.10% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many AEROBUD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $186.1K in total.
+1 live pool clear this page's $100K TVL floor, $172.9K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank AEROBUD pools. This view cove
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AEROBUD pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

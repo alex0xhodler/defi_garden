@@ -1,10 +1,10 @@
 # WPOL DeFi Yields
 
-The highest honest WPOL yield right now is 0.18% on aave-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WPOL yield right now is 0.19% on aave-v3 (Polygon), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.18% | $5.89M |
+| [aave-v3 →](https://www.defi.garden/?pool=f67c3baa-613a-409e-940e-5366f474871b&src=seo_token) | Polygon | 0.19% | $6.27M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -13,15 +13,29 @@ There is not enough qualifying APY history to rank WPOL pools. This view covers 
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
+## How this rate has behaved
+
+WPOL shows up in 1 pools here, with rates from 0.19% to 0.19% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 0.13% — a useful check against today's number for whether the rate is steady or just having a good day.
+
+All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
+
+| Protocol | APY | 30d Mean APY | Yield mix |
+|---|---|---|---|
+| aave-v3 | 0.19% | 0.13% | Base rate |
+
+The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
+
 ## Frequently asked questions
 
 ### What's the highest WPOL yield today?
 
-0.18% APY on aave-v3 (Polygon), based on live DefiLlama data.
+0.19% APY on aave-v3 (Polygon), based on live DefiLlama data.
 
 ### How many WPOL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.89M in total.
+2 live pools clear this page's $100K TVL floor, $6.38M in total.
 
 ### Are these rates safe?
 
@@ -33,15 +47,15 @@ There is not enough qualifying APY history to rank WPOL pools. This view covers 
 
 ## Related tokens
 
+- [SAND](https://www.defi.garden/tokens/sand)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [DAI](https://www.defi.garden/tokens/dai)
 - [LINK](https://www.defi.garden/tokens/link)
-- [ACRED](https://www.defi.garden/tokens/acred)
 - [USDT0](https://www.defi.garden/tokens/usdt0)
-- [BET](https://www.defi.garden/tokens/bet)
+- [ACRED](https://www.defi.garden/tokens/acred)
 
 ## Available on
 
 - [Polygon](https://www.defi.garden/chains/polygon)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

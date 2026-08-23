@@ -1,17 +1,17 @@
 # Hyperliquid L1 디파이 수익률
 
-현재 Hyperliquid L1의 가장 높은 정직한 수익률은 Hyperliquid L1의 kinetiq-khype에서 10.95%이며, $100K TVL 기준을 넘는 170개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 Hyperliquid L1의 가장 높은 정직한 수익률은 Hyperliquid L1의 kinetiq-khype에서 10.95%이며, $100K TVL 기준을 넘는 175개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 2.02% | $1.06B |
-| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.64% | $48.74M |
-| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.27% | $22.91M |
-| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 1.25% | $19.75M |
-| WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 0.07% | $18.11M |
-| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.59% | $15.19M |
-| SKNTQ | [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_chain) | 10.95% | $14.64M |
-| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 5.33% | $11.16M |
+| KHYPE | [kinetiq-khype →](https://www.defi.garden/?pool=9f25a954-db87-4bb2-a8b2-4be0b843a44c&src=seo_chain) | 1.92% | $1.11B |
+| WHYPE | [hyperlend-pooled →](https://www.defi.garden/?pool=b039004a-df3c-4813-97b8-a15ec488212c&src=seo_chain) | 0.79% | $50.35M |
+| USDC | [harmonix-finance →](https://www.defi.garden/?pool=f06872f7-a5c9-478e-a7cf-a3ba356b99e6&src=seo_chain) | 6.07% | $23.84M |
+| FEHYPE | [morpho-blue →](https://www.defi.garden/?pool=a211ef42-288f-4079-8b4f-648640c04fb1&src=seo_chain) | 3.16% | $19.6M |
+| WHYPE-USDC | [project-x →](https://www.defi.garden/?pool=f55a970c-7fdb-4087-8c62-258287e7a6cd&src=seo_chain) | 0.32% | $18.62M |
+| SKNTQ | [kinetiq-khype →](https://www.defi.garden/?pool=59b65b4f-1164-4f56-8a6b-3f006a3f3fb4&src=seo_chain) | 10.95% | $15.33M |
+| USDC | [hyperlend-pooled →](https://www.defi.garden/?pool=9d21c8a0-4ea9-4585-81a7-e3d09ab24a45&src=seo_chain) | 5.72% | $13.62M |
+| FEUSDC | [morpho-blue →](https://www.defi.garden/?pool=8622e84a-794b-4b68-aad2-a6a2e0e0d2c7&src=seo_chain) | 5.56% | $11.2M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 kinetiq-khype에서 APY 
 
 ### Hyperliquid L1 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 170개이며, 합산 TVL은 $2.24B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 175개이며, 합산 TVL은 $2.33B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -32,8 +32,8 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 kinetiq-khype에서 APY 
 ## 관련 체인
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
-- [Solana](https://www.defi.garden/ko/chains/solana)
 - [Base](https://www.defi.garden/ko/chains/base)
+- [Solana](https://www.defi.garden/ko/chains/solana)
 - [BSC](https://www.defi.garden/ko/chains/bsc)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
@@ -47,4 +47,4 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 kinetiq-khype에서 APY 
 - [SKNTQ](https://www.defi.garden/ko/tokens/skntq)
 - [FEUSDC](https://www.defi.garden/ko/tokens/feusdc)
 
-## 마지막 업데이트: August 22, 2026
+## 마지막 업데이트: August 23, 2026

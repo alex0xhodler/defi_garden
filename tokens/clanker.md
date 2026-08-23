@@ -1,33 +1,33 @@
 # CLANKER DeFi Yields
 
-The highest honest CLANKER yield right now is 550.85% on aerodrome-slipstream (Base), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CLANKER yield right now is 15.82% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token) | Base | 18.10% | $1.64M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token) | Base | 8.66% | $177.6K |
-| [raydium-amm →](https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token) | Solana | 99.35% | $174.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token) | Base | 550.85% | $120.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token) | Base | 15.75% | $1.53M |
+| [raydium-amm →](https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token) | Solana | 15.82% | $189.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token) | Base | 7.10% | $168.5K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token) | Base | 328.00% | $114.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CLANKER's lower-variability candidates are uniswap-v4 (Base), 8.66% APY, $177.6K TVL, https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token; raydium-amm (Solana), 99.35% APY, $174.7K TVL, https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token; uniswap-v3 (Base), 18.10% APY, $1.64M TVL, https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token; aerodrome-slipstream (Base), 550.85% APY, $120.5K TVL, https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CLANKER's lower-variability candidates are uniswap-v4 (Base), 7.10% APY, $168.5K TVL, https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token; raydium-amm (Solana), 15.82% APY, $189.8K TVL, https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token; uniswap-v3 (Base), 15.75% APY, $1.53M TVL, https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token; aerodrome-slipstream (Base), 328.00% APY, $114.4K TVL, https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token) | Base | 8.66% | $177.6K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token) | Solana | 99.35% | $174.7K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token) | Base | 18.10% | $1.64M |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token) | Base | 550.85% | $120.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token) | Base | 7.10% | $168.5K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token) | Solana | 15.82% | $189.8K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token) | Base | 15.75% | $1.53M |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token) | Base | 328.00% | $114.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CLANKER shows up in 4 pools here, with rates from 8.66% to 550.85% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+CLANKER shows up in 4 pools here, with rates from 7.10% to 328.00% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 9.46% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 10.64% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 4 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ CLANKER shows up in 4 pools here, with rates from 8.66% to 550.85% APY across 2 
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 18.10% | 9.10% | Base rate |
-| uniswap-v4 | 8.66% | 2.60% | Base rate |
-| raydium-amm | 99.35% | 9.83% | Base rate |
-| aerodrome-slipstream | 550.85% | 93.36% | 97.18% incentives |
+| uniswap-v3 | 15.75% | 9.68% | Base rate |
+| raydium-amm | 15.82% | 11.60% | Base rate |
+| uniswap-v4 | 7.10% | 3.17% | Base rate |
+| aerodrome-slipstream | 328.00% | 100.18% | 94.21% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest CLANKER yield today?
 
-550.85% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+15.82% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CLANKER pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $2.11M in total.
+4 live pools clear this page's $100K TVL floor, $2M in total.
 
 ### Are these rates safe?
 
@@ -58,14 +58,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CLANKER pools have the most stable APY history?
 
-Based on APY history only, CLANKER's lower-variability candidates are uniswap-v4 (Base), 8.66% APY, $177.6K TVL, https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token; raydium-amm (Solana), 99.35% APY, $174.7K TVL, https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token; uniswap-v3 (Base), 18.10% APY, $1.64M TVL, https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token; aerodrome-slipstream (Base), 550.85% APY, $120.5K TVL, https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CLANKER's lower-variability candidates are uniswap-v4 (Base), 7.10% APY, $168.5K TVL, https://www.defi.garden/?pool=624b4a39-24a3-4e01-940d-fd7b379521d5&src=seo_token; raydium-amm (Solana), 15.82% APY, $189.8K TVL, https://www.defi.garden/?pool=32c2cd6d-1e56-469b-9989-de91584787a9&src=seo_token; uniswap-v3 (Base), 15.75% APY, $1.53M TVL, https://www.defi.garden/?pool=41273999-c799-420e-ae8b-2d8c6c6ab0fa&src=seo_token; aerodrome-slipstream (Base), 328.00% APY, $114.4K TVL, https://www.defi.garden/?pool=49d6cc94-f311-447b-9de2-d44be06b9637&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 
@@ -74,4 +74,4 @@ Based on APY history only, CLANKER's lower-variability candidates are uniswap-v4
 - [Base](https://www.defi.garden/chains/base)
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

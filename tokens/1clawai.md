@@ -1,10 +1,10 @@
 # 1CLAWAI DeFi Yields
 
-The highest honest 1CLAWAI yield right now is 30.58% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 1CLAWAI yield right now is 88.89% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1435aece-221b-4654-96d5-274c2d88404a&src=seo_token) | Base | 30.58% | $120.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1435aece-221b-4654-96d5-274c2d88404a&src=seo_token) | Base | 88.89% | $149K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 1CLAWAI yield today?
 
-30.58% APY on uniswap-v4 (Base), based on live DefiLlama data.
+88.89% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many 1CLAWAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $120.7K in total.
+1 live pool clear this page's $100K TVL floor, $149K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank 1CLAWAI pools. This view cove
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank 1CLAWAI pools. This view cove
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

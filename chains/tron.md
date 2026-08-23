@@ -4,13 +4,13 @@ The highest honest Tron yield right now is 11.00% on tr-energy (Tron), among 25 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_chain) | 0.30% | $709.74M |
-| USDD | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_chain) | 4.07% | $400.78M |
-| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_chain) | 1.94% | $93.97M |
-| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_chain) | 11.00% | $93.78M |
-| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_chain) | 0.25% | $10.27M |
-| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_chain) | 1.60% | $5.29M |
-| U | [justlend-v1 →](https://www.defi.garden/?pool=d598a9e0-b347-5baf-b61a-94c2e8e730d0&src=seo_chain) | 0.01% | $4.97M |
+| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_chain) | 0.29% | $710.94M |
+| USDD | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_chain) | 4.03% | $391.39M |
+| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_chain) | 11.00% | $94.33M |
+| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_chain) | 2.15% | $79.35M |
+| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_chain) | 0.25% | $10.26M |
+| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_chain) | 1.40% | $5.73M |
+| U | [justlend-v1 →](https://www.defi.garden/?pool=d598a9e0-b347-5baf-b61a-94c2e8e730d0&src=seo_chain) | 0.01% | $4.99M |
 | TUSD | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_chain) | 1.40% | $1.08M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Tron pools clear the TVL floor?
 
-25 live pools clear this page's $100K TVL floor, $3.96B in total.
+25 live pools clear this page's $100K TVL floor, $3.87B in total.
 
 ### Are these rates safe?
 
@@ -32,8 +32,8 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 ## Related chains
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
-- [Solana](https://www.defi.garden/chains/solana)
 - [Base](https://www.defi.garden/chains/base)
+- [Solana](https://www.defi.garden/chains/solana)
 - [BSC](https://www.defi.garden/chains/bsc)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 - [Avalanche](https://www.defi.garden/chains/avalanche)
@@ -47,4 +47,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [SUN](https://www.defi.garden/tokens/sun)
 - [TUSD](https://www.defi.garden/tokens/tusd)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

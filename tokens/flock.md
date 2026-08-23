@@ -1,29 +1,29 @@
 # FLOCK DeFi Yields
 
-The highest honest FLOCK yield right now is 142.87% on aerodrome-slipstream (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FLOCK yield right now is 18.76% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token) | Base | 142.87% | $149.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 19.07% | $121.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token) | Base | 341.02% | $144.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 18.76% | $117.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FLOCK's lower-variability candidates are uniswap-v3 (Base), 19.07% APY, $121.4K TVL, https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token; aerodrome-slipstream (Base), 142.87% APY, $149.5K TVL, https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FLOCK's lower-variability candidates are uniswap-v3 (Base), 18.76% APY, $117.8K TVL, https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token; aerodrome-slipstream (Base), 341.02% APY, $144.8K TVL, https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 19.07% | $121.4K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token) | Base | 142.87% | $149.5K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token) | Base | 18.76% | $117.8K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token) | Base | 341.02% | $144.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FLOCK shows up in 2 pools here, with rates from 19.07% to 142.87% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FLOCK shows up in 2 pools here, with rates from 18.76% to 341.02% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 90.85% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 93.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,8 +31,8 @@ FLOCK shows up in 2 pools here, with rates from 19.07% to 142.87% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 142.87% | 166.94% | 89.57% incentives |
-| uniswap-v3 | 19.07% | 14.76% | Base rate |
+| aerodrome-slipstream | 341.02% | 171.09% | 95.86% incentives |
+| uniswap-v3 | 18.76% | 15.19% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FLOCK yield today?
 
-142.87% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+18.76% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many FLOCK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $270.9K in total.
+2 live pools clear this page's $100K TVL floor, $262.6K in total.
 
 ### Are these rates safe?
 
@@ -52,14 +52,14 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FLOCK pools have the most stable APY history?
 
-Based on APY history only, FLOCK's lower-variability candidates are uniswap-v3 (Base), 19.07% APY, $121.4K TVL, https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token; aerodrome-slipstream (Base), 142.87% APY, $149.5K TVL, https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FLOCK's lower-variability candidates are uniswap-v3 (Base), 18.76% APY, $117.8K TVL, https://www.defi.garden/?pool=0735311d-4b8a-4a2c-a625-bad22e98b08c&src=seo_token; aerodrome-slipstream (Base), 341.02% APY, $144.8K TVL, https://www.defi.garden/?pool=d6b2f728-4a37-49d4-b0e2-d2f755f90303&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -67,4 +67,4 @@ Based on APY history only, FLOCK's lower-variability candidates are uniswap-v3 (
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

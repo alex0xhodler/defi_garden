@@ -1,27 +1,27 @@
 # GTWETHB DeFi Yields
 
-The highest honest GTWETHB yield right now is 1.83% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GTWETHB yield right now is 1.74% on morpho-blue (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token) | Base | 1.61% | $2.06M |
-| [morpho-blue →](https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token) | Ethereum | 1.83% | $1.3M |
+| [morpho-blue →](https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token) | Base | 1.60% | $1.96M |
+| [morpho-blue →](https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token) | Ethereum | 1.74% | $1.25M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, GTWETHB's lower-variability candidates are morpho-blue (Ethereum), 1.83% APY, $1.3M TVL, https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token; morpho-blue (Base), 1.61% APY, $2.06M TVL, https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTWETHB's lower-variability candidates are morpho-blue (Ethereum), 1.74% APY, $1.25M TVL, https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token; morpho-blue (Base), 1.60% APY, $1.96M TVL, https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token) | Ethereum | 1.83% | $1.3M |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token) | Base | 1.61% | $2.06M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token) | Ethereum | 1.74% | $1.25M |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token) | Base | 1.60% | $1.96M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-GTWETHB shows up in 2 pools here, with rates from 1.61% to 1.83% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+GTWETHB shows up in 2 pools here, with rates from 1.60% to 1.74% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.73% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,8 +29,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 1.61% | 1.60% | Base rate |
-| morpho-blue | 1.83% | 1.86% | Base rate |
+| morpho-blue | 1.60% | 1.59% | Base rate |
+| morpho-blue | 1.74% | 1.86% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,11 +38,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest GTWETHB yield today?
 
-1.83% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+1.74% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GTWETHB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $3.36M in total.
+2 live pools clear this page's $100K TVL floor, $3.21M in total.
 
 ### Are these rates safe?
 
@@ -50,20 +50,20 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which GTWETHB pools have the most stable APY history?
 
-Based on APY history only, GTWETHB's lower-variability candidates are morpho-blue (Ethereum), 1.83% APY, $1.3M TVL, https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token; morpho-blue (Base), 1.61% APY, $2.06M TVL, https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, GTWETHB's lower-variability candidates are morpho-blue (Ethereum), 1.74% APY, $1.25M TVL, https://www.defi.garden/?pool=5de8cd6e-9dc2-44b0-bcc4-1b7b794c8acf&src=seo_token; morpho-blue (Base), 1.60% APY, $1.96M TVL, https://www.defi.garden/?pool=b7123782-2676-4208-8d92-fafb0e998bee&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

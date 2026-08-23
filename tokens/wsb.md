@@ -4,7 +4,7 @@ The highest honest WSB yield right now is 0.01% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=2492639b-20bd-4ef0-80b8-5040ddb1ea1e&src=seo_token) | Ethereum | 0.01% | $188.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=2492639b-20bd-4ef0-80b8-5040ddb1ea1e&src=seo_token) | Ethereum | 0.01% | $178.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many WSB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $411K in total.
+2 live pools clear this page's $100K TVL floor, $401.5K in total.
 
 ### Are these rates safe?
 
@@ -49,15 +49,15 @@ There is not enough qualifying APY history to rank WSB pools. This view covers A
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

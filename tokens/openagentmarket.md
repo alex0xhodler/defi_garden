@@ -1,10 +1,10 @@
 # OPENAGENTMARKET DeFi Yields
 
-The highest honest OPENAGENTMARKET yield right now is 1.71% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OPENAGENTMARKET yield right now is 1.13% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a194016c-e11e-4662-853c-b6964e1a9fe4&src=seo_token) | Base | 1.71% | $116.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a194016c-e11e-4662-853c-b6964e1a9fe4&src=seo_token) | Base | 1.13% | $111.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OPENAGENTMARKET yield today?
 
-1.71% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.13% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many OPENAGENTMARKET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.8K in total.
+1 live pool clear this page's $100K TVL floor, $111.5K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank OPENAGENTMARKET pools. This v
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank OPENAGENTMARKET pools. This v
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

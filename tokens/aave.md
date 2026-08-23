@@ -4,38 +4,38 @@ The highest honest AAVE yield right now is 0.01% on venus-core-pool (BSC), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 3.92% | $15.51M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 30.76% | $4.07M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 83.09% | $3.84M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 84.57% | $2.41M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 87.03% | $2.36M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 96.20% | $1.32M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 186.34% | $1.05M |
-| [venus-core-pool →](https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token) | BSC | 0.01% | $713.9K |
+| [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 4.27% | $15.42M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 77.45% | $4.07M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 142.62% | $3.82M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 47.00% | $2.41M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 96.75% | $2.38M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 84.80% | $1.3M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 135.85% | $1.13M |
+| [venus-core-pool →](https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token) | BSC | 0.01% | $713.1K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AAVE's lower-variability candidates are venus-core-pool (BSC), 0.01% APY, $713.9K TVL, https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token; uniswap-v4 (Ethereum), 96.20% APY, $1.32M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 30.76% APY, $4.07M TVL, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; aerodrome-slipstream (Base), 186.34% APY, $1.05M TVL, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; uniswap-v4 (Ethereum), 84.57% APY, $2.41M TVL, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; uniswap-v3 (Ethereum), 83.09% APY, $3.84M TVL, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; uniswap-v4 (Ethereum), 87.03% APY, $2.36M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; balancer-v2 (Ethereum), 3.92% APY, $15.51M TVL, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVE's lower-variability candidates are venus-core-pool (BSC), 0.01% APY, $713.1K TVL, https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token; uniswap-v4 (Ethereum), 84.80% APY, $1.3M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 77.45% APY, $4.07M TVL, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; aerodrome-slipstream (Base), 135.85% APY, $1.13M TVL, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; uniswap-v4 (Ethereum), 47.00% APY, $2.41M TVL, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; uniswap-v3 (Ethereum), 142.62% APY, $3.82M TVL, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; uniswap-v4 (Ethereum), 96.75% APY, $2.38M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; balancer-v2 (Ethereum), 4.27% APY, $15.42M TVL, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [venus-core-pool →](https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token) | BSC | 0.01% | $713.9K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 96.20% | $1.32M |
-| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 30.76% | $4.07M |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 186.34% | $1.05M |
-| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 84.57% | $2.41M |
-| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 83.09% | $3.84M |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 87.03% | $2.36M |
-| 8 | [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 3.92% | $15.51M |
+| 1 | [venus-core-pool →](https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token) | BSC | 0.01% | $713.1K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token) | Ethereum | 84.80% | $1.3M |
+| 3 | [uniswap-v4 →](https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token) | Ethereum | 77.45% | $4.07M |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token) | Base | 135.85% | $1.13M |
+| 5 | [uniswap-v4 →](https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token) | Ethereum | 47.00% | $2.41M |
+| 6 | [uniswap-v3 →](https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token) | Ethereum | 142.62% | $3.82M |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token) | Ethereum | 96.75% | $2.38M |
+| 8 | [balancer-v2 →](https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token) | Ethereum | 4.27% | $15.42M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AAVE shows up in 8 pools here, with rates from 0.01% to 186.34% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+AAVE shows up in 8 pools here, with rates from 0.01% to 142.62% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-8 of these 8 pools have a trustworthy 30-day average on file, with a median of 15.07% — a useful check against today's number for whether the rate is steady or just having a good day.
+8 of these 8 pools have a trustworthy 30-day average on file, with a median of 18.90% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 8 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -43,13 +43,13 @@ AAVE shows up in 8 pools here, with rates from 0.01% to 186.34% APY across 3 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v2 | 3.92% | 0.49% | Base rate |
-| uniswap-v4 | 30.76% | 7.82% | Base rate |
-| uniswap-v3 | 83.09% | 13.47% | Base rate |
-| uniswap-v4 | 84.57% | 18.52% | Base rate |
-| uniswap-v4 | 87.03% | 21.84% | Base rate |
-| uniswap-v4 | 96.20% | 16.68% | Base rate |
-| aerodrome-slipstream | 186.34% | 47.59% | 47.05% incentives |
+| balancer-v2 | 4.27% | 0.63% | Base rate |
+| uniswap-v4 | 77.45% | 9.63% | Base rate |
+| uniswap-v3 | 142.62% | 18.07% | Base rate |
+| uniswap-v4 | 47.00% | 20.52% | Base rate |
+| uniswap-v4 | 96.75% | 24.83% | Base rate |
+| uniswap-v4 | 84.80% | 19.74% | Base rate |
+| aerodrome-slipstream | 135.85% | 50.34% | 21.81% incentives |
 | venus-core-pool | 0.01% | 0.01% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -62,7 +62,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many AAVE pools clear the TVL floor?
 
-35 live pools clear this page's $100K TVL floor, $146.84M in total.
+35 live pools clear this page's $100K TVL floor, $147.35M in total.
 
 ### Are these rates safe?
 
@@ -70,16 +70,16 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AAVE pools have the most stable APY history?
 
-Based on APY history only, AAVE's lower-variability candidates are venus-core-pool (BSC), 0.01% APY, $713.9K TVL, https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token; uniswap-v4 (Ethereum), 96.20% APY, $1.32M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 30.76% APY, $4.07M TVL, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; aerodrome-slipstream (Base), 186.34% APY, $1.05M TVL, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; uniswap-v4 (Ethereum), 84.57% APY, $2.41M TVL, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; uniswap-v3 (Ethereum), 83.09% APY, $3.84M TVL, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; uniswap-v4 (Ethereum), 87.03% APY, $2.36M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; balancer-v2 (Ethereum), 3.92% APY, $15.51M TVL, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AAVE's lower-variability candidates are venus-core-pool (BSC), 0.01% APY, $713.1K TVL, https://www.defi.garden/?pool=2e3895f1-c990-4eb9-82ac-f5b16c236279&src=seo_token; uniswap-v4 (Ethereum), 84.80% APY, $1.3M TVL, https://www.defi.garden/?pool=fc1683a5-9292-4539-9ba6-3230c3898f86&src=seo_token; uniswap-v4 (Ethereum), 77.45% APY, $4.07M TVL, https://www.defi.garden/?pool=8e8812ec-9057-4940-b48f-7e27e188d29c&src=seo_token; aerodrome-slipstream (Base), 135.85% APY, $1.13M TVL, https://www.defi.garden/?pool=2641aaa3-d441-4718-b638-029d09ca1d14&src=seo_token; uniswap-v4 (Ethereum), 47.00% APY, $2.41M TVL, https://www.defi.garden/?pool=e6602ff7-7ada-4120-84f0-65adeb389c1b&src=seo_token; uniswap-v3 (Ethereum), 142.62% APY, $3.82M TVL, https://www.defi.garden/?pool=472f422f-f809-4764-8169-b3e40e532bb3&src=seo_token; uniswap-v4 (Ethereum), 96.75% APY, $2.38M TVL, https://www.defi.garden/?pool=4bda7d26-3d08-4898-9845-0c861cfe3879&src=seo_token; balancer-v2 (Ethereum), 4.27% APY, $15.42M TVL, https://www.defi.garden/?pool=201e5f6e-cf75-4d0e-b07f-d58da3cee23a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
@@ -87,4 +87,4 @@ Based on APY history only, AAVE's lower-variability candidates are venus-core-po
 - [Base](https://www.defi.garden/chains/base)
 - [BSC](https://www.defi.garden/chains/bsc)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

@@ -1,10 +1,10 @@
 # AUBRAI DeFi Yields
 
-The highest honest AUBRAI yield right now is 7.59% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUBRAI yield right now is 6.72% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 7.59% | $175K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 6.72% | $159.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUBRAI yield today?
 
-7.59% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+6.72% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many AUBRAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $175K in total.
+1 live pool clear this page's $100K TVL floor, $159.2K in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank AUBRAI pools. This view cover
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AUBRAI pools. This view cover
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

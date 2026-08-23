@@ -1,10 +1,10 @@
 # RAI DeFi Yields
 
-The highest honest RAI yield right now is 1.25% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAI yield right now is 0.25% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=4cae00bf-061a-455d-8c78-085ebb5659fb&src=seo_token) | Ethereum | 1.25% | $245.3K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4cae00bf-061a-455d-8c78-085ebb5659fb&src=seo_token) | Ethereum | 0.25% | $235.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RAI yield today?
 
-1.25% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.25% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many RAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $245.3K in total.
+1 live pool clear this page's $100K TVL floor, $235.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank RAI pools. This view covers A
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

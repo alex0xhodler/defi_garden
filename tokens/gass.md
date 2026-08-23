@@ -1,10 +1,10 @@
 # GASS DeFi Yields
 
-The highest honest GASS yield right now is 3.56% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GASS yield right now is 15.13% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=95f488cd-2fa6-42c9-8288-1cc5e19e6674&src=seo_token) | Ethereum | 3.56% | $152.8K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=95f488cd-2fa6-42c9-8288-1cc5e19e6674&src=seo_token) | Ethereum | 15.13% | $161.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GASS yield today?
 
-3.56% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+15.13% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GASS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $152.8K in total.
+1 live pool clear this page's $100K TVL floor, $161.6K in total.
 
 ### Are these rates safe?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank GASS pools. This view covers 
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

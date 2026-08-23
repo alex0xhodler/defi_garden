@@ -1,10 +1,10 @@
 # AETHUSDC DeFi Yields
 
-The highest honest AETHUSDC yield right now is 1.02% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AETHUSDC yield right now is 1.32% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=fd5a968d-536d-4a45-af23-bc0c8029a867&src=seo_token) | Ethereum | 1.02% | $170.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=fd5a968d-536d-4a45-af23-bc0c8029a867&src=seo_token) | Ethereum | 1.32% | $170.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AETHUSDC yield today?
 
-1.02% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+1.32% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many AETHUSDC pools clear the TVL floor?
 
@@ -33,15 +33,15 @@ There is not enough qualifying APY history to rank AETHUSDC pools. This view cov
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WBETH](https://www.defi.garden/tokens/wbeth)
 - [WEETH](https://www.defi.garden/tokens/weeth)
-- [WSTETH](https://www.defi.garden/tokens/wsteth)
-- [CBBTC](https://www.defi.garden/tokens/cbbtc)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

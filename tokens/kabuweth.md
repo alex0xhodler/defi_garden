@@ -4,7 +4,7 @@ The highest honest KABUWETH yield right now is 1.17% on morpho-blue (Base), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3ebc80ed-02a3-59fd-8fb6-ec81089f7a17&src=seo_token) | Base | 1.17% | $1.32M |
+| [morpho-blue →](https://www.defi.garden/?pool=3ebc80ed-02a3-59fd-8fb6-ec81089f7a17&src=seo_token) | Base | 1.17% | $1.27M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KABUWETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.32M in total.
+1 live pool clear this page's $100K TVL floor, $1.27M in total.
 
 ### Are these rates safe?
 
@@ -33,10 +33,10 @@ There is not enough qualifying APY history to rank KABUWETH pools. This view cov
 
 ## Related tokens
 
+- [WETH](https://www.defi.garden/tokens/weth)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
-- [WETH](https://www.defi.garden/tokens/weth)
 - [USDS](https://www.defi.garden/tokens/usds)
 - [USDE](https://www.defi.garden/tokens/usde)
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank KABUWETH pools. This view cov
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026

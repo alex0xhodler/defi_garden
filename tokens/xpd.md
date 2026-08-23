@@ -1,10 +1,10 @@
 # XPD DeFi Yields
 
-The highest honest XPD yield right now is 76.89% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XPD yield right now is 78.93% on gmtrade (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=36384f68-0f24-4775-8efd-c1f6828f8f08&src=seo_token) | Solana | 76.89% | $207.3K |
+| [gmtrade →](https://www.defi.garden/?pool=36384f68-0f24-4775-8efd-c1f6828f8f08&src=seo_token) | Solana | 78.93% | $207.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XPD yield today?
 
-76.89% APY on gmtrade (Solana), based on live DefiLlama data.
+78.93% APY on gmtrade (Solana), based on live DefiLlama data.
 
 ### How many XPD pools clear the TVL floor?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank XPD pools. This view covers A
 - [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [PRIME](https://www.defi.garden/tokens/prime)
 - [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [PRIME](https://www.defi.garden/tokens/prime)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 22, 2026
+## Last updated August 23, 2026
