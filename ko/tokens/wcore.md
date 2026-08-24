@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.93% | $138.3K |
+| [colend-protocol →](https://www.defi.garden/?pool=959e6cb8-6b57-4d66-b0a4-7581601e0eb7&src=seo_token) | CORE | 0.93% | $137.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, CORE의 colend-protocol에서 APY 0.93%예
 
 ### WCORE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $138.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $137.9K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -38,7 +38,7 @@ DefiLlama 실시간 데이터 기준, CORE의 colend-protocol에서 APY 0.93%예
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
+- [WBETH](https://www.defi.garden/ko/tokens/wbeth)
 
 ## 이용 가능한 체인
 

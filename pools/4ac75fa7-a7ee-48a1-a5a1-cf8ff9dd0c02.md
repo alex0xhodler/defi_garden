@@ -1,8 +1,8 @@
 # BTC2.0-WETH — uniswap-v2 on Ethereum
 
-**Total APY:** 0.04% (0.04% Base · + 0.00% Rewards)
+**Total APY:** 0.03% (0.03% Base · + 0.00% Rewards)
 
-**TVL:** $334.8K
+**TVL:** $341.8K
 
 **Pool Type:** LP/DEX
 

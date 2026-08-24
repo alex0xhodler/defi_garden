@@ -1,10 +1,10 @@
 # RAD DeFi Yields
 
-The highest honest RAD yield right now is 1.60% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RAD yield right now is 1.38% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=171852e8-a9b2-403d-a4da-ddbdf261daa6&src=seo_token) | Ethereum | 1.60% | $1.95M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=171852e8-a9b2-403d-a4da-ddbdf261daa6&src=seo_token) | Ethereum | 1.38% | $1.95M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest RAD yield today?
 
-1.60% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+1.38% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many RAD pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank RAD pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

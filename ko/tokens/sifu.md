@@ -51,8 +51,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uwu-lend에서 APY 0.02%예요
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 
 ## 이용 가능한 체인
 

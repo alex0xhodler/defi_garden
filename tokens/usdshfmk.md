@@ -4,7 +4,7 @@ The highest honest USDSHFMK yield right now is 7.39% on makina (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [makina →](https://www.defi.garden/?pool=56a40119-56c1-5f44-822e-b6e3fd4aa785&src=seo_token) | Ethereum | 7.39% | $22.13M |
+| [makina →](https://www.defi.garden/?pool=56a40119-56c1-5f44-822e-b6e3fd4aa785&src=seo_token) | Ethereum | 7.39% | $22.1M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many USDSHFMK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $22.13M in total.
+1 live pool clear this page's $100K TVL floor, $22.1M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank USDSHFMK pools. This view cov
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

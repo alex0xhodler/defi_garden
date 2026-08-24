@@ -32,7 +32,7 @@ HAY shows up in 2 pools here, with rates from 0.01% to 0.07% APY across 1 chains
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | wombat-exchange | 0.01% | 0.01% | 100.00% incentives |
-| wombat-exchange | 0.07% | 0.05% | 72.20% incentives |
+| wombat-exchange | 0.07% | 0.05% | 65.27% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -57,8 +57,8 @@ Based on APY history only, HAY's lower-variability candidates are wombat-exchang
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)

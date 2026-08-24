@@ -4,12 +4,12 @@ The highest honest Tron yield right now is 11.61% on tr-energy (Tron), among 25 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_chain) | 0.29% | $706.89M |
-| USDD | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_chain) | 4.12% | $381.78M |
-| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_chain) | 11.61% | $93.82M |
-| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_chain) | 2.05% | $81.61M |
-| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_chain) | 0.26% | $9.45M |
-| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_chain) | 1.41% | $5.65M |
+| TRX | [justlend-v1 →](https://www.defi.garden/?pool=90d3f42a-8700-4b9f-baa8-090a3c4322c9&src=seo_chain) | 0.29% | $709.67M |
+| USDD | [justlend-v1 →](https://www.defi.garden/?pool=f179ea6c-3345-432f-b727-9e68e7881105&src=seo_chain) | 4.11% | $383.78M |
+| TRX | [tr-energy →](https://www.defi.garden/?pool=cf7a5142-ff74-4b1d-8267-98148c90b72c&src=seo_chain) | 11.61% | $94.01M |
+| USDT | [justlend-v1 →](https://www.defi.garden/?pool=dac406f6-5600-437e-849d-f03daa383864&src=seo_chain) | 2.36% | $69.44M |
+| JST | [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_chain) | 0.27% | $9.1M |
+| SUN | [justlend-v1 →](https://www.defi.garden/?pool=873e1048-9094-4b63-a6f4-bd62325ecc81&src=seo_chain) | 1.41% | $5.67M |
 | U | [justlend-v1 →](https://www.defi.garden/?pool=d598a9e0-b347-5baf-b61a-94c2e8e730d0&src=seo_chain) | 0.03% | $4.92M |
 | TUSD | [justlend-v1 →](https://www.defi.garden/?pool=535daca1-b457-48be-b93f-82b7a7fa1e0a&src=seo_chain) | 1.39% | $1.08M |
 
@@ -23,7 +23,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Tron pools clear the TVL floor?
 
-25 live pools clear this page's $100K TVL floor, $3.87B in total.
+25 live pools clear this page's $100K TVL floor, $3.88B in total.
 
 ### Are these rates safe?
 

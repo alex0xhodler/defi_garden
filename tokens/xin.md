@@ -1,10 +1,10 @@
 # XIN DeFi Yields
 
-The highest honest XIN yield right now is 6.31% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XIN yield right now is 4.93% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token) | Solana | 6.31% | $113.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=1b066965-95e5-4e8c-acb8-503d68017836&src=seo_token) | Solana | 4.93% | $112.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XIN yield today?
 
-6.31% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.93% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many XIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $113.6K in total.
+1 live pool clear this page's $100K TVL floor, $112.9K in total.
 
 ### Are these rates safe?
 

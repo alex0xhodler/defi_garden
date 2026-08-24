@@ -1,10 +1,10 @@
 # OCEAN DeFi Yields
 
-The highest honest OCEAN yield right now is 2.68% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OCEAN yield right now is 3.41% on uniswap-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=ea6dd674-7567-44cd-a70f-04634f3510c5&src=seo_token) | Ethereum | 2.68% | $1.19M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=ea6dd674-7567-44cd-a70f-04634f3510c5&src=seo_token) | Ethereum | 3.41% | $1.19M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-OCEAN shows up in 1 pools here, with rates from 2.68% to 2.68% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+OCEAN shows up in 1 pools here, with rates from 3.41% to 3.41% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.51% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.55% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 2.68% | 5.51% | Base rate |
+| uniswap-v2 | 3.41% | 5.55% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest OCEAN yield today?
 
-2.68% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+3.41% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many OCEAN pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $3.88M in total.
+3 live pools clear this page's $100K TVL floor, $3.94M in total.
 
 ### Are these rates safe?
 
@@ -53,8 +53,8 @@ There is not enough qualifying APY history to rank OCEAN pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

@@ -1,10 +1,10 @@
 # EUL DeFi Yields
 
-The highest honest EUL yield right now is 40.22% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EUL yield right now is 54.43% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5923fed9-8eab-484e-854b-9f19df22d519&src=seo_token) | Ethereum | 40.22% | $1.03M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5923fed9-8eab-484e-854b-9f19df22d519&src=seo_token) | Ethereum | 54.43% | $1.06M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EUL yield today?
 
-40.22% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+54.43% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many EUL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.03M in total.
+1 live pool clear this page's $100K TVL floor, $1.06M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank EUL pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

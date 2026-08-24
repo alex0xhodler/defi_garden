@@ -1,10 +1,10 @@
 # GUSDCE 디파이 수익률
 
-현재 GUSDCE의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 4.59%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 GUSDCE의 가장 높은 정직한 수익률은 Ethereum의 morpho-blue에서 4.72%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=746c13b0-b757-4733-aec5-2b1e72e33958&src=seo_token) | Ethereum | 4.59% | $8.03M |
+| [morpho-blue →](https://www.defi.garden/?pool=746c13b0-b757-4733-aec5-2b1e72e33958&src=seo_token) | Ethereum | 4.72% | $8.03M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 GUSDCE의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.59%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.72%예요.
 
 ### GUSDCE 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 4.59%예
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 
 ## 이용 가능한 체인
 

@@ -1,29 +1,29 @@
 # SPK DeFi Yields
 
-The highest honest SPK yield right now is 135.51% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SPK yield right now is 188.88% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 135.51% | $815.7K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 83.22% | $645.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 188.88% | $803.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 61.79% | $623.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SPK's lower-variability candidates are uniswap-v4 (Ethereum), 135.51% APY, $815.7K TVL, https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token; uniswap-v4 (Ethereum), 83.22% APY, $645.5K TVL, https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPK's lower-variability candidates are uniswap-v4 (Ethereum), 188.88% APY, $803.1K TVL, https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token; uniswap-v4 (Ethereum), 61.79% APY, $623.5K TVL, https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 135.51% | $815.7K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 83.22% | $645.5K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token) | Ethereum | 188.88% | $803.1K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token) | Ethereum | 61.79% | $623.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-SPK shows up in 2 pools here, with rates from 83.22% to 135.51% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SPK shows up in 2 pools here, with rates from 61.79% to 188.88% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 24.34% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 26.03% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 135.51% | 18.54% | Base rate |
-| uniswap-v4 | 83.22% | 30.14% | Base rate |
+| uniswap-v4 | 188.88% | 21.14% | Base rate |
+| uniswap-v4 | 61.79% | 30.92% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SPK yield today?
 
-135.51% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+188.88% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many SPK pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.46M in total.
+2 live pools clear this page's $100K TVL floor, $1.43M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SPK pools have the most stable APY history?
 
-Based on APY history only, SPK's lower-variability candidates are uniswap-v4 (Ethereum), 135.51% APY, $815.7K TVL, https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token; uniswap-v4 (Ethereum), 83.22% APY, $645.5K TVL, https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SPK's lower-variability candidates are uniswap-v4 (Ethereum), 188.88% APY, $803.1K TVL, https://www.defi.garden/?pool=02628ae1-65e1-4895-8ae1-06f6ea86930d&src=seo_token; uniswap-v4 (Ethereum), 61.79% APY, $623.5K TVL, https://www.defi.garden/?pool=17210337-8981-4a52-b621-e3fd1d11b235&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,8 +60,8 @@ Based on APY history only, SPK's lower-variability candidates are uniswap-v4 (Et
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

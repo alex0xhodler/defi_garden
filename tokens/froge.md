@@ -1,10 +1,10 @@
 # FROGE DeFi Yields
 
-The highest honest FROGE yield right now is 7.21% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FROGE yield right now is 9.44% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0bf2d2cc-62e4-44ba-84e7-9a420fafc712&src=seo_token) | Ethereum | 7.21% | $467.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0bf2d2cc-62e4-44ba-84e7-9a420fafc712&src=seo_token) | Ethereum | 9.44% | $478.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FROGE yield today?
 
-7.21% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+9.44% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FROGE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $467.1K in total.
+1 live pool clear this page's $100K TVL floor, $478.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank FROGE pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

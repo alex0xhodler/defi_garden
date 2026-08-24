@@ -1,39 +1,39 @@
 # EURC 디파이 수익률
 
-현재 EURC의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 28.30%이며, $100K TVL 기준을 넘는 32개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 EURC의 가장 높은 정직한 수익률은 Base의 aerodrome-v1에서 16.46%이며, $100K TVL 기준을 넘는 32개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.25% | $16.93M |
-| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 5.03% | $4.89M |
-| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.27% | $3.72M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 28.30% | $2.42M |
-| [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 3.27% | $1.39M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 19.33% | $1.27M |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 4.44% | $855.5K |
-| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 14.98% | $847.1K |
+| [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.27% | $16.77M |
+| [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 4.98% | $4.89M |
+| [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.03% | $3.96M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 3.40% | $2.67M |
+| [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 3.31% | $1.38M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 27.59% | $1.27M |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 4.43% | $854.5K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 16.46% | $848K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 aave-v3, APY 2.27%, TVL $3.72M, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; Ethereum의 aave-v3, APY 2.25%, TVL $16.93M, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; Solana의 jupiter-lend, APY 5.03%, TVL $4.89M, https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token; Stellar의 blend-pools-v2, APY 4.44%, TVL $855.5K, https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token; Base의 fluid-lending, APY 3.27%, TVL $1.39M, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; Base의 aerodrome-v1, APY 14.98%, TVL $847.1K, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; Ethereum의 uniswap-v4, APY 19.33%, TVL $1.27M, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; Base의 aerodrome-slipstream, APY 28.30%, TVL $2.42M, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 aave-v3, APY 2.03%, TVL $3.96M, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; Ethereum의 aave-v3, APY 2.27%, TVL $16.77M, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; Solana의 jupiter-lend, APY 4.98%, TVL $4.89M, https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token; Stellar의 blend-pools-v2, APY 4.43%, TVL $854.5K, https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token; Base의 fluid-lending, APY 3.31%, TVL $1.38M, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; Base의 aerodrome-v1, APY 16.46%, TVL $848K, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; Ethereum의 uniswap-v4, APY 27.59%, TVL $1.27M, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; Base의 aerodrome-slipstream, APY 3.40%, TVL $2.67M, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.27% | $3.72M |
-| 2 | [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.25% | $16.93M |
-| 3 | [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 5.03% | $4.89M |
-| 4 | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 4.44% | $855.5K |
-| 5 | [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 3.27% | $1.39M |
-| 6 | [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 14.98% | $847.1K |
-| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 19.33% | $1.27M |
-| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 28.30% | $2.42M |
+| 1 | [aave-v3 →](https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token) | Base | 2.03% | $3.96M |
+| 2 | [aave-v3 →](https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token) | Ethereum | 2.27% | $16.77M |
+| 3 | [jupiter-lend →](https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token) | Solana | 4.98% | $4.89M |
+| 4 | [blend-pools-v2 →](https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token) | Stellar | 4.43% | $854.5K |
+| 5 | [fluid-lending →](https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token) | Base | 3.31% | $1.38M |
+| 6 | [aerodrome-v1 →](https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token) | Base | 16.46% | $848K |
+| 7 | [uniswap-v4 →](https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token) | Ethereum | 27.59% | $1.27M |
+| 8 | [aerodrome-slipstream →](https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token) | Base | 3.40% | $2.67M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.25%부터 28.30%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.03%부터 27.59%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 4.27%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -43,14 +43,14 @@ EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.25%부터 28.30%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| aave-v3 | 2.25% | 2.89% | 기본 금리 |
-| jupiter-lend | 5.03% | 3.57% | 기본 금리 |
-| aave-v3 | 2.27% | 2.63% | 기본 금리 |
-| aerodrome-slipstream | 28.30% | 23.43% | 인센티브 14.17% |
-| fluid-lending | 3.27% | 3.30% | 기본 금리 |
-| uniswap-v4 | 19.33% | 14.70% | 기본 금리 |
-| blend-pools-v2 | 4.44% | 4.98% | 기본 금리 |
-| aerodrome-v1 | 14.98% | 12.08% | 인센티브 100.00% |
+| aave-v3 | 2.27% | 2.88% | 기본 금리 |
+| jupiter-lend | 4.98% | 3.59% | 기본 금리 |
+| aave-v3 | 2.03% | 2.63% | 기본 금리 |
+| aerodrome-slipstream | 3.40% | 23.51% | 인센티브 100.00% |
+| fluid-lending | 3.31% | 3.29% | 기본 금리 |
+| uniswap-v4 | 27.59% | 14.55% | 기본 금리 |
+| blend-pools-v2 | 4.43% | 4.96% | 기본 금리 |
+| aerodrome-v1 | 16.46% | 12.22% | 인센티브 100.00% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ EURC 풀은 여기 8개가 있고, 4개 체인에서 APY가 2.25%부터 28.30%�
 
 ### 오늘 EURC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 28.30%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-v1에서 APY 16.46%예요.
 
 ### EURC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 32개이며, 합산 TVL은 $43.54M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 32개이며, 합산 TVL은 $43.83M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 28.
 
 ### EURC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 aave-v3, APY 2.27%, TVL $3.72M, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; Ethereum의 aave-v3, APY 2.25%, TVL $16.93M, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; Solana의 jupiter-lend, APY 5.03%, TVL $4.89M, https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token; Stellar의 blend-pools-v2, APY 4.44%, TVL $855.5K, https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token; Base의 fluid-lending, APY 3.27%, TVL $1.39M, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; Base의 aerodrome-v1, APY 14.98%, TVL $847.1K, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; Ethereum의 uniswap-v4, APY 19.33%, TVL $1.27M, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; Base의 aerodrome-slipstream, APY 28.30%, TVL $2.42M, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 aave-v3, APY 2.03%, TVL $3.96M, https://www.defi.garden/?pool=6652ed18-d327-46cd-9bac-08e0e14ea715&src=seo_token; Ethereum의 aave-v3, APY 2.27%, TVL $16.77M, https://www.defi.garden/?pool=bdcf8682-1d72-42a7-b23e-f56d666dd10e&src=seo_token; Solana의 jupiter-lend, APY 4.98%, TVL $4.89M, https://www.defi.garden/?pool=c6d1abbb-1e0a-47a0-99bd-3155b797d7d3&src=seo_token; Stellar의 blend-pools-v2, APY 4.43%, TVL $854.5K, https://www.defi.garden/?pool=3a61420f-6f6e-45f9-accc-8d23f5a32d33&src=seo_token; Base의 fluid-lending, APY 3.31%, TVL $1.38M, https://www.defi.garden/?pool=18e2bbf0-f05f-4802-8e1e-d0ec4ab9a4d0&src=seo_token; Base의 aerodrome-v1, APY 16.46%, TVL $848K, https://www.defi.garden/?pool=e5345fb1-416b-4649-8e75-fc975dada7a7&src=seo_token; Ethereum의 uniswap-v4, APY 27.59%, TVL $1.27M, https://www.defi.garden/?pool=d1b19295-a660-43ee-81ba-a7d4d3726807&src=seo_token; Base의 aerodrome-slipstream, APY 3.40%, TVL $2.67M, https://www.defi.garden/?pool=847c874f-d4e7-47ed-8870-97d2f24a8767&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -78,8 +78,8 @@ APY 이력만 기준으로 비교한 EURC의 변동성 낮은 후보는 Base의 
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 
 ## 이용 가능한 체인
 

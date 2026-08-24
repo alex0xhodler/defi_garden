@@ -1,10 +1,10 @@
 # GHX DeFi Yields
 
-The highest honest GHX yield right now is 33.67% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GHX yield right now is 14.60% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=de299ee8-e682-4f19-b779-57e42a01a40f&src=seo_token) | Ethereum | 33.67% | $111.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=de299ee8-e682-4f19-b779-57e42a01a40f&src=seo_token) | Ethereum | 14.60% | $112.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GHX yield today?
 
-33.67% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+14.60% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many GHX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $111.9K in total.
+1 live pool clear this page's $100K TVL floor, $112.3K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank GHX pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

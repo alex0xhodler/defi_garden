@@ -1,10 +1,10 @@
 # TET DeFi Yields
 
-The highest honest TET yield right now is 2.83% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TET yield right now is 2.96% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=91ad2ca4-4220-4e8e-b231-efd55ab54c67&src=seo_token) | Ethereum | 2.83% | $306.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=91ad2ca4-4220-4e8e-b231-efd55ab54c67&src=seo_token) | Ethereum | 2.96% | $311.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TET yield today?
 
-2.83% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+2.96% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TET pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $306.6K in total.
+1 live pool clear this page's $100K TVL floor, $311.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank TET pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

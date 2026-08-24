@@ -1,10 +1,10 @@
 # TENBINUSDC DeFi Yields
 
-The highest honest TENBINUSDC yield right now is 4.00% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TENBINUSDC yield right now is 4.05% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=adb0b56a-77f5-5b6a-b95d-c905431d6f72&src=seo_token) | Ethereum | 4.00% | $301K |
+| [morpho-blue →](https://www.defi.garden/?pool=adb0b56a-77f5-5b6a-b95d-c905431d6f72&src=seo_token) | Ethereum | 4.05% | $301.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TENBINUSDC yield today?
 
-4.00% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.05% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many TENBINUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $301K in total.
+1 live pool clear this page's $100K TVL floor, $301.1K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank TENBINUSDC pools. This view c
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

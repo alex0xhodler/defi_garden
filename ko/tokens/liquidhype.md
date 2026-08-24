@@ -36,8 +36,8 @@ DefiLlama 실시간 데이터 기준, Hyperliquid L1의 ether.fi-liquid에서 AP
 - [KHYPE](https://www.defi.garden/ko/tokens/khype)
 - [WHYPE](https://www.defi.garden/ko/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/ko/tokens/wsthype)
-- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [THBILL](https://www.defi.garden/ko/tokens/thbill)
+- [USDT0](https://www.defi.garden/ko/tokens/usdt0)
 - [UBTC](https://www.defi.garden/ko/tokens/ubtc)
 
 ## 이용 가능한 체인

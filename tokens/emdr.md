@@ -1,10 +1,10 @@
 # EMDR DeFi Yields
 
-The highest honest EMDR yield right now is 9.94% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EMDR yield right now is 12.67% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=ac8a468a-6108-4cb1-989d-80e3f07f7e14&src=seo_token) | Ethereum | 9.94% | $219.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=ac8a468a-6108-4cb1-989d-80e3f07f7e14&src=seo_token) | Ethereum | 12.67% | $223.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EMDR yield today?
 
-9.94% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+12.67% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many EMDR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $219.1K in total.
+1 live pool clear this page's $100K TVL floor, $223.6K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank EMDR pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

@@ -1,41 +1,41 @@
 # ADA 디파이 수익률
 
-현재 ADA의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 27.38%이며, $100K TVL 기준을 넘는 25개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 ADA의 가장 높은 정직한 수익률은 Cardano의 minswap-dex에서 27.91%이며, $100K TVL 기준을 넘는 26개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token) | Cardano | 2.04% | $7.98M |
-| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 2.96% | $1.41M |
-| [venus-core-pool →](https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token) | BSC | 0.05% | $1.03M |
-| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 21.19% | $913.4K |
-| [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 25.65% | $893.6K |
-| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 13.33% | $837.9K |
-| [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 27.38% | $741.1K |
-| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.81% | $725.5K |
+| [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token) | Cardano | 2.04% | $8.1M |
+| [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 2.92% | $1.44M |
+| [venus-core-pool →](https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token) | BSC | 0.05% | $1.04M |
+| [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 20.74% | $932.4K |
+| [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 25.22% | $897.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 13.14% | $843.7K |
+| [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 27.91% | $760.6K |
+| [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.69% | $739.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ADA의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.05%, TVL $1.03M, https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token; Cardano의 liqwid, APY 2.04%, TVL $7.98M, https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token; Cardano의 minswap-dex, APY 2.96%, TVL $1.41M, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token; Cardano의 minswap-dex, APY 13.33%, TVL $837.9K, https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token; Cardano의 minswap-dex, APY 27.38%, TVL $741.1K, https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token; Cardano의 minswap-dex, APY 17.81%, TVL $725.5K, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token; Cardano의 minswap-dex, APY 21.19%, TVL $913.4K, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token; Cardano의 minswap-dex, APY 25.65%, TVL $893.6K, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ADA의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.05%, TVL $1.04M, https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token; Cardano의 liqwid, APY 2.04%, TVL $8.1M, https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token; Cardano의 minswap-dex, APY 2.92%, TVL $1.44M, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token; Cardano의 minswap-dex, APY 13.14%, TVL $843.7K, https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token; Cardano의 minswap-dex, APY 27.91%, TVL $760.6K, https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token; Cardano의 minswap-dex, APY 17.69%, TVL $739.2K, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token; Cardano의 minswap-dex, APY 20.74%, TVL $932.4K, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token; Cardano의 minswap-dex, APY 25.22%, TVL $897.6K, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [venus-core-pool →](https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token) | BSC | 0.05% | $1.03M |
-| 2 | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token) | Cardano | 2.04% | $7.98M |
-| 3 | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 2.96% | $1.41M |
-| 4 | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 13.33% | $837.9K |
-| 5 | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 27.38% | $741.1K |
-| 6 | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.81% | $725.5K |
-| 7 | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 21.19% | $913.4K |
-| 8 | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 25.65% | $893.6K |
+| 1 | [venus-core-pool →](https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token) | BSC | 0.05% | $1.04M |
+| 2 | [liqwid →](https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token) | Cardano | 2.04% | $8.1M |
+| 3 | [minswap-dex →](https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token) | Cardano | 2.92% | $1.44M |
+| 4 | [minswap-dex →](https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token) | Cardano | 13.14% | $843.7K |
+| 5 | [minswap-dex →](https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token) | Cardano | 27.91% | $760.6K |
+| 6 | [minswap-dex →](https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token) | Cardano | 17.69% | $739.2K |
+| 7 | [minswap-dex →](https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token) | Cardano | 20.74% | $932.4K |
+| 8 | [minswap-dex →](https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token) | Cardano | 25.22% | $897.6K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-ADA 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.05%부터 27.38%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+ADA 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.05%부터 27.91%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 23.13%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 23.10%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 6개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -43,14 +43,14 @@ ADA 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.05%부터 27.38%까
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| liqwid | 2.04% | 2.12% | 기본 금리 |
-| minswap-dex | 2.96% | 4.18% | 인센티브 27.70% |
-| venus-core-pool | 0.05% | 0.11% | 기본 금리 |
-| minswap-dex | 21.19% | 36.61% | 인센티브 46.11% |
-| minswap-dex | 25.65% | 80.77% | 인센티브 1.60% |
-| minswap-dex | 13.33% | 40.61% | 인센티브 7.28% |
-| minswap-dex | 27.38% | 28.38% | 인센티브 98.06% |
-| minswap-dex | 17.81% | 17.87% | 인센티브 78.50% |
+| liqwid | 2.04% | 2.11% | 기본 금리 |
+| minswap-dex | 2.92% | 4.16% | 인센티브 28.08% |
+| venus-core-pool | 0.05% | 0.10% | 기본 금리 |
+| minswap-dex | 20.74% | 36.22% | 인센티브 46.19% |
+| minswap-dex | 25.22% | 79.84% | 인센티브 1.67% |
+| minswap-dex | 13.14% | 40.08% | 인센티브 7.38% |
+| minswap-dex | 27.91% | 28.36% | 인센티브 98.07% |
+| minswap-dex | 17.69% | 17.84% | 인센티브 78.52% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ ADA 풀은 여기 8개가 있고, 2개 체인에서 APY가 0.05%부터 27.38%까
 
 ### 오늘 ADA의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 27.38%예요.
+DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 27.91%예요.
 
 ### ADA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 25개이며, 합산 TVL은 $18.35M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 26개이며, 합산 TVL은 $18.75M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,13 +70,13 @@ DefiLlama 실시간 데이터 기준, Cardano의 minswap-dex에서 APY 27.38%예
 
 ### ADA 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ADA의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.05%, TVL $1.03M, https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token; Cardano의 liqwid, APY 2.04%, TVL $7.98M, https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token; Cardano의 minswap-dex, APY 2.96%, TVL $1.41M, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token; Cardano의 minswap-dex, APY 13.33%, TVL $837.9K, https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token; Cardano의 minswap-dex, APY 27.38%, TVL $741.1K, https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token; Cardano의 minswap-dex, APY 17.81%, TVL $725.5K, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token; Cardano의 minswap-dex, APY 21.19%, TVL $913.4K, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token; Cardano의 minswap-dex, APY 25.65%, TVL $893.6K, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ADA의 변동성 낮은 후보는 BSC의 venus-core-pool, APY 0.05%, TVL $1.04M, https://www.defi.garden/?pool=3cbdf078-5b0a-4483-8308-46e2f5f60c83&src=seo_token; Cardano의 liqwid, APY 2.04%, TVL $8.1M, https://www.defi.garden/?pool=79e042b5-e55d-4a4e-b0b0-6661a570470b&src=seo_token; Cardano의 minswap-dex, APY 2.92%, TVL $1.44M, https://www.defi.garden/?pool=25a7770b-4a3e-4e47-a215-06e2a7854c27&src=seo_token; Cardano의 minswap-dex, APY 13.14%, TVL $843.7K, https://www.defi.garden/?pool=d7a2badf-9a75-4b90-9396-1e7c293cb454&src=seo_token; Cardano의 minswap-dex, APY 27.91%, TVL $760.6K, https://www.defi.garden/?pool=d314f243-a440-4a4c-83f5-4da7e67c629a&src=seo_token; Cardano의 minswap-dex, APY 17.69%, TVL $739.2K, https://www.defi.garden/?pool=f40020a4-d465-489b-b6ab-d2a0d6cda763&src=seo_token; Cardano의 minswap-dex, APY 20.74%, TVL $932.4K, https://www.defi.garden/?pool=d66c9dc4-6ce4-41ba-b446-edb89e19cce6&src=seo_token; Cardano의 minswap-dex, APY 25.22%, TVL $897.6K, https://www.defi.garden/?pool=3f86eb49-a1fd-4236-ab2d-d90f9afc8f27&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)

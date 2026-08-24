@@ -1,11 +1,11 @@
 # Citrea DeFi Yields
 
-The highest honest Citrea yield right now is 7.40% on zentra-finance (Citrea), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Citrea yield right now is 7.72% on zentra-finance (Citrea), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WCBTC | [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_chain) | 0.61% | $3.08M |
-| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 7.40% | $102.1K |
+| WCBTC | [accountable →](https://www.defi.garden/?pool=7264f113-0517-4da4-989b-34974579ef87&src=seo_chain) | 0.53% | $3.14M |
+| CTUSD | [zentra-finance →](https://www.defi.garden/?pool=91d1bd85-7988-46d6-9e22-92b926ca3ecf&src=seo_chain) | 7.72% | $101.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -13,11 +13,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Citrea yield today?
 
-7.40% APY on zentra-finance (Citrea), based on live DefiLlama data.
+7.72% APY on zentra-finance (Citrea), based on live DefiLlama data.
 
 ### How many Citrea pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $4.95M in total.
+3 live pools clear this page's $100K TVL floor, $5.01M in total.
 
 ### Are these rates safe?
 

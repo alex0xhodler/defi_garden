@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [native-credit-pool →](https://www.defi.garden/?pool=1687633e-61ff-49d4-9256-5734ba06e595&src=seo_token) | BSC | 0.26% | $352K |
+| [native-credit-pool →](https://www.defi.garden/?pool=1687633e-61ff-49d4-9256-5734ba06e595&src=seo_token) | BSC | 0.26% | $345.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, BSC의 native-credit-pool에서 APY 0.26%�
 
 ### MUB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $352K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $345.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,8 +34,8 @@ DefiLlama 실시간 데이터 기준, BSC의 native-credit-pool에서 APY 0.26%�
 ## 관련 토큰
 
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
+- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [USYC](https://www.defi.garden/ko/tokens/usyc)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
 - [SLISBNB](https://www.defi.garden/ko/tokens/slisbnb)

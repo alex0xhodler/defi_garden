@@ -4,7 +4,7 @@ The highest honest HOLD yield right now is 4.89% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=1e68bd70-f55e-430e-bf0b-fe152bdef1e8&src=seo_token) | Ethereum | 4.89% | $296.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=1e68bd70-f55e-430e-bf0b-fe152bdef1e8&src=seo_token) | Ethereum | 4.89% | $303.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HOLD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $296.6K in total.
+1 live pool clear this page's $100K TVL floor, $303.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank HOLD pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

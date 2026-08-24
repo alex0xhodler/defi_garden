@@ -1,10 +1,10 @@
 # AUDF DeFi Yields
 
-The highest honest AUDF yield right now is 17.95% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AUDF yield right now is 18.33% on curve-dex (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=c0054420-79cf-4b72-9f34-56f99cad4ca3&src=seo_token) | Ethereum | 17.95% | $110.4K |
+| [curve-dex →](https://www.defi.garden/?pool=c0054420-79cf-4b72-9f34-56f99cad4ca3&src=seo_token) | Ethereum | 18.33% | $110.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest AUDF yield today?
 
-17.95% APY on curve-dex (Ethereum), based on live DefiLlama data.
+18.33% APY on curve-dex (Ethereum), based on live DefiLlama data.
 
 ### How many AUDF pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank AUDF pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

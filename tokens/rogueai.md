@@ -4,7 +4,7 @@ The highest honest ROGUEAI yield right now is 0.02% on uniswap-v4 (Base), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=5b3ca3e7-73ce-4b6d-bdea-f6be19edc2d7&src=seo_token) | Base | 0.02% | $128.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=5b3ca3e7-73ce-4b6d-bdea-f6be19edc2d7&src=seo_token) | Base | 0.02% | $129.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ROGUEAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $128.1K in total.
+1 live pool clear this page's $100K TVL floor, $129.7K in total.
 
 ### Are these rates safe?
 

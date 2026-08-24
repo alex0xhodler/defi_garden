@@ -1,10 +1,10 @@
 # SUPERGEMMA DeFi Yields
 
-The highest honest SUPERGEMMA yield right now is 25.14% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERGEMMA yield right now is 33.73% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=962104f4-5cfa-498c-a976-3d297466be66&src=seo_token) | Base | 25.14% | $512.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=962104f4-5cfa-498c-a976-3d297466be66&src=seo_token) | Base | 33.73% | $544.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPERGEMMA yield today?
 
-25.14% APY on uniswap-v4 (Base), based on live DefiLlama data.
+33.73% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SUPERGEMMA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $512.2K in total.
+1 live pool clear this page's $100K TVL floor, $544.5K in total.
 
 ### Are these rates safe?
 

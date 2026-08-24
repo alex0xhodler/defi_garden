@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=02c84762-9d13-4290-b64c-5d2ca638effc&src=seo_token) | OP Mainnet | 0.02% | $240.5K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=02c84762-9d13-4290-b64c-5d2ca638effc&src=seo_token) | OP Mainnet | 0.02% | $244.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 0.02%
 
 ### MTA 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $240.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $244.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -36,9 +36,9 @@ DefiLlama 실시간 데이터 기준, OP Mainnet의 velodrome-v2에서 APY 0.02%
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/ko/tokens/gtusdcp)
+- [USX](https://www.defi.garden/ko/tokens/usx)
 - [ALETH](https://www.defi.garden/ko/tokens/aleth)
 - [ALUSD](https://www.defi.garden/ko/tokens/alusd)
-- [VAULT](https://www.defi.garden/ko/tokens/vault)
 
 ## 이용 가능한 체인
 

@@ -33,12 +33,12 @@ There is not enough qualifying APY history to rank WSTUSDT pools. This view cove
 
 ## Related tokens
 
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [USDD](https://www.defi.garden/tokens/usdd)
 - [USD1](https://www.defi.garden/tokens/usd1)
 - [JST](https://www.defi.garden/tokens/jst)
 - [SUN](https://www.defi.garden/tokens/sun)
+- [TUSD](https://www.defi.garden/tokens/tusd)
 
 ## Available on
 

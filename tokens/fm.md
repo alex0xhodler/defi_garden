@@ -4,7 +4,7 @@ The highest honest FM yield right now is 0.10% on vvs-standard (Cronos), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a&src=seo_token) | Cronos | 0.10% | $881.8K |
+| [vvs-standard →](https://www.defi.garden/?pool=c061e869-2bc9-5d2a-ace5-0bedd6e49d1a&src=seo_token) | Cronos | 0.10% | $917.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $881.8K in total.
+1 live pool clear this page's $100K TVL floor, $917.7K in total.
 
 ### Are these rates safe?
 

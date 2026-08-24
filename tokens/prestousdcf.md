@@ -1,10 +1,10 @@
 # PRESTOUSDCF DeFi Yields
 
-The highest honest PRESTOUSDCF yield right now is 4.66% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PRESTOUSDCF yield right now is 4.56% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d706265d-def3-5417-9c56-960c960d5520&src=seo_token) | Ethereum | 4.66% | $3.01M |
+| [morpho-blue →](https://www.defi.garden/?pool=d706265d-def3-5417-9c56-960c960d5520&src=seo_token) | Ethereum | 4.56% | $3.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PRESTOUSDCF yield today?
 
-4.66% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.56% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many PRESTOUSDCF pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank PRESTOUSDCF pools. This view 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

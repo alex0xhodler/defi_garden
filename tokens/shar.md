@@ -1,10 +1,10 @@
 # SHAR DeFi Yields
 
-The highest honest SHAR yield right now is 1.14% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHAR yield right now is 0.62% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=06d85534-7a78-46fe-9d5a-e12030df6051&src=seo_token) | Solana | 1.14% | $703.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=06d85534-7a78-46fe-9d5a-e12030df6051&src=seo_token) | Solana | 0.62% | $715.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHAR yield today?
 
-1.14% APY on raydium-amm (Solana), based on live DefiLlama data.
+0.62% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SHAR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $703.6K in total.
+1 live pool clear this page's $100K TVL floor, $715.1K in total.
 
 ### Are these rates safe?
 

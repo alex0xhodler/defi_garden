@@ -1,10 +1,10 @@
 # VBETH DeFi Yields
 
-The highest honest VBETH yield right now is 1.27% on yearn-finance (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VBETH yield right now is 1.25% on yearn-finance (Katana), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 1.27% | $7.68M |
+| [yearn-finance →](https://www.defi.garden/?pool=23efa6ee-dbe8-4590-9857-5e0a4bcfc9ed&src=seo_token) | Katana | 1.25% | $7.71M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,15 +15,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-VBETH shows up in 1 pools here, with rates from 1.27% to 1.27% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+VBETH shows up in 1 pools here, with rates from 1.25% to 1.25% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.14% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 2.13% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 1 pool blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| yearn-finance | 1.27% | 2.14% | 2.10% incentives |
+| yearn-finance | 1.25% | 2.13% | 2.05% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -31,11 +31,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest VBETH yield today?
 
-1.27% APY on yearn-finance (Katana), based on live DefiLlama data.
+1.25% APY on yearn-finance (Katana), based on live DefiLlama data.
 
 ### How many VBETH pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $10.34M in total.
+3 live pools clear this page's $100K TVL floor, $10.43M in total.
 
 ### Are these rates safe?
 

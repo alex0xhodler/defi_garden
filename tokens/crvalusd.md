@@ -4,7 +4,7 @@ The highest honest CRVALUSD yield right now is 0.26% on yearn-finance (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=a58c513c-8430-4525-a53a-14ccbe8fa507&src=seo_token) | Ethereum | 0.26% | $129.9K |
+| [yearn-finance →](https://www.defi.garden/?pool=a58c513c-8430-4525-a53a-14ccbe8fa507&src=seo_token) | Ethereum | 0.26% | $130.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CRVALUSD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $129.9K in total.
+1 live pool clear this page's $100K TVL floor, $130.1K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank CRVALUSD pools. This view cov
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

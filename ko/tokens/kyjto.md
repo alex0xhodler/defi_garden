@@ -1,10 +1,10 @@
 # KYJTO 디파이 수익률
 
-현재 KYJTO의 가장 높은 정직한 수익률은 Solana의 kyros에서 2.78%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 KYJTO의 가장 높은 정직한 수익률은 Solana의 kyros에서 3.19%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [kyros →](https://www.defi.garden/?pool=aaa2c1f0-2651-4261-8efb-9090a37fe091&src=seo_token) | Solana | 2.78% | $1M |
+| [kyros →](https://www.defi.garden/?pool=aaa2c1f0-2651-4261-8efb-9090a37fe091&src=seo_token) | Solana | 3.19% | $999.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 KYJTO의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 kyros에서 APY 2.78%예요.
+DefiLlama 실시간 데이터 기준, Solana의 kyros에서 APY 3.19%예요.
 
 ### KYJTO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $999.7K예요.
 
 ### 이 수익률은 안전한가요?
 

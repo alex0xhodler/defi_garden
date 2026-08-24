@@ -4,7 +4,7 @@ The highest honest DEFROGS yield right now is 0.09% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=414ec487-5828-4943-a587-0c78ac35931c&src=seo_token) | Ethereum | 0.09% | $133.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=414ec487-5828-4943-a587-0c78ac35931c&src=seo_token) | Ethereum | 0.09% | $136K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DEFROGS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $133.6K in total.
+1 live pool clear this page's $100K TVL floor, $136K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank DEFROGS pools. This view cove
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

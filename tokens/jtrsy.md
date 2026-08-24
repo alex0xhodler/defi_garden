@@ -1,10 +1,10 @@
 # JTRSY DeFi Yields
 
-The highest honest JTRSY yield right now is 3.60% on centrifuge-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest JTRSY yield right now is 3.59% on centrifuge-protocol (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [centrifuge-protocol →](https://www.defi.garden/?pool=99181d82-5589-4ae6-b737-594aa11ded9f&src=seo_token) | Ethereum | 3.60% | $5.76M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=99181d82-5589-4ae6-b737-594aa11ded9f&src=seo_token) | Ethereum | 3.59% | $5.77M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest JTRSY yield today?
 
-3.60% APY on centrifuge-protocol (Ethereum), based on live DefiLlama data.
+3.59% APY on centrifuge-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many JTRSY pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $5.76M in total.
+1 live pool clear this page's $100K TVL floor, $5.77M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank JTRSY pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

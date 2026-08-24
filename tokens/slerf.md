@@ -1,10 +1,10 @@
 # SLERF DeFi Yields
 
-The highest honest SLERF yield right now is 6.11% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SLERF yield right now is 3.76% on orca-dex (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 6.11% | $135.7K |
+| [orca-dex →](https://www.defi.garden/?pool=f94ab9ad-cd1a-49d0-83ad-ec078cbd8a50&src=seo_token) | Solana | 3.76% | $136.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SLERF yield today?
 
-6.11% APY on orca-dex (Solana), based on live DefiLlama data.
+3.76% APY on orca-dex (Solana), based on live DefiLlama data.
 
 ### How many SLERF pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $135.7K in total.
+1 live pool clear this page's $100K TVL floor, $136.9K in total.
 
 ### Are these rates safe?
 

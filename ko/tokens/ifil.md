@@ -1,10 +1,10 @@
 # IFIL 디파이 수익률
 
-현재 IFIL의 가장 높은 정직한 수익률은 Filecoin의 glif에서 3.62%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 IFIL의 가장 높은 정직한 수익률은 Filecoin의 glif에서 3.61%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [glif →](https://www.defi.garden/?pool=53048f5b-7b0a-4917-b283-c49bef77e580&src=seo_token) | Filecoin | 3.62% | $21.77M |
+| [glif →](https://www.defi.garden/?pool=53048f5b-7b0a-4917-b283-c49bef77e580&src=seo_token) | Filecoin | 3.61% | $21.93M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 IFIL의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Filecoin의 glif에서 APY 3.62%예요.
+DefiLlama 실시간 데이터 기준, Filecoin의 glif에서 APY 3.61%예요.
 
 ### IFIL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $21.77M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $21.93M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -37,8 +37,8 @@ DefiLlama 실시간 데이터 기준, Filecoin의 glif에서 APY 3.62%예요.
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 
 ## 이용 가능한 체인
 

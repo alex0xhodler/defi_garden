@@ -1,10 +1,10 @@
 # CORAL DeFi Yields
 
-The highest honest CORAL yield right now is 4.44% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CORAL yield right now is 3.21% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=1a8861aa-cea1-4db6-bcef-0d5829a81cbe&src=seo_token) | Solana | 4.44% | $127.2K |
+| [raydium-amm →](https://www.defi.garden/?pool=1a8861aa-cea1-4db6-bcef-0d5829a81cbe&src=seo_token) | Solana | 3.21% | $129.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CORAL yield today?
 
-4.44% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.21% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many CORAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $127.2K in total.
+1 live pool clear this page's $100K TVL floor, $129.4K in total.
 
 ### Are these rates safe?
 

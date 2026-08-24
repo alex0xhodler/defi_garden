@@ -8,7 +8,7 @@
 | [raydium-amm →](https://www.defi.garden/?pool=e1a3cd26-8102-57fd-b3b5-af932c43daf1&src=seo_token) | Solana | 0.02% | $96.92M |
 | [raydium-amm →](https://www.defi.garden/?pool=74cb86c7-0d1b-5873-bc13-9021e27d4d9c&src=seo_token) | Solana | 0.01% | $93.93M |
 | [raydium-amm →](https://www.defi.garden/?pool=791323b3-f244-5050-87b8-a59fb445e8ae&src=seo_token) | Solana | 0.01% | $92.93M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93&src=seo_token) | Base | 0.19% | $181.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=4596bc8d-5252-4ffa-9948-1ff245c37f93&src=seo_token) | Base | 0.19% | $186K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -45,7 +45,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 0.19%예요.
 
 ### CC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $473.81M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $473.82M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -1,10 +1,10 @@
 # LUIGI DeFi Yields
 
-The highest honest LUIGI yield right now is 5.18% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LUIGI yield right now is 3.40% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=36c21e83-644e-4458-a4eb-01de17b64269&src=seo_token) | Solana | 5.18% | $122.1K |
+| [raydium-amm →](https://www.defi.garden/?pool=36c21e83-644e-4458-a4eb-01de17b64269&src=seo_token) | Solana | 3.40% | $124.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LUIGI yield today?
 
-5.18% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.40% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LUIGI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.1K in total.
+1 live pool clear this page's $100K TVL floor, $124.2K in total.
 
 ### Are these rates safe?
 

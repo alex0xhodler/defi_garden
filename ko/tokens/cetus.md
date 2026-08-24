@@ -4,28 +4,28 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 43.02% | $1.13M |
-| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 14.53% | $530.9K |
-| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.55% | $179.9K |
+| [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 39.89% | $1.13M |
+| [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 15.92% | $532K |
+| [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.55% | $177.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CETUS의 변동성 낮은 후보는 Sui의 navi-lending, APY 0.55%, TVL $179.9K, https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token; Sui의 cetus-clmm, APY 43.02%, TVL $1.13M, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; Sui의 cetus-clmm, APY 14.53%, TVL $530.9K, https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CETUS의 변동성 낮은 후보는 Sui의 navi-lending, APY 0.55%, TVL $177.7K, https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token; Sui의 cetus-clmm, APY 39.89%, TVL $1.13M, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; Sui의 cetus-clmm, APY 15.92%, TVL $532K, https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.55% | $179.9K |
-| 2 | [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 43.02% | $1.13M |
-| 3 | [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 14.53% | $530.9K |
+| 1 | [navi-lending →](https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token) | Sui | 0.55% | $177.7K |
+| 2 | [cetus-clmm →](https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token) | Sui | 39.89% | $1.13M |
+| 3 | [cetus-clmm →](https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token) | Sui | 15.92% | $532K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CETUS 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.55%부터 43.02%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CETUS 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.55%부터 39.89%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.62%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 7.80%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 3개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -33,8 +33,8 @@ CETUS 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.55%부터 43.02%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| cetus-clmm | 43.02% | 22.19% | 인센티브 7.88% |
-| cetus-clmm | 14.53% | 7.62% | 기본 금리 |
+| cetus-clmm | 39.89% | 22.57% | 인센티브 8.47% |
+| cetus-clmm | 15.92% | 7.80% | 기본 금리 |
 | navi-lending | 0.55% | 0.53% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Sui의 navi-lending에서 APY 0.55%예요.
 
 ### CETUS 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CETUS의 변동성 낮은 후보는 Sui의 navi-lending, APY 0.55%, TVL $179.9K, https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token; Sui의 cetus-clmm, APY 43.02%, TVL $1.13M, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; Sui의 cetus-clmm, APY 14.53%, TVL $530.9K, https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CETUS의 변동성 낮은 후보는 Sui의 navi-lending, APY 0.55%, TVL $177.7K, https://www.defi.garden/?pool=0d4b1aed-3df6-4ca6-b674-7c9583b8b363&src=seo_token; Sui의 cetus-clmm, APY 39.89%, TVL $1.13M, https://www.defi.garden/?pool=054de9b8-3470-480e-ab7a-f089213b7b07&src=seo_token; Sui의 cetus-clmm, APY 15.92%, TVL $532K, https://www.defi.garden/?pool=b3026a92-47fb-4533-97fb-36c0b8fcaeef&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

@@ -1,10 +1,10 @@
 # SKBDI DeFi Yields
 
-The highest honest SKBDI yield right now is 8.82% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SKBDI yield right now is 5.98% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9d5080d5-0645-4b60-956f-16d06dc897a0&src=seo_token) | Solana | 8.82% | $126.7K |
+| [raydium-amm →](https://www.defi.garden/?pool=9d5080d5-0645-4b60-956f-16d06dc897a0&src=seo_token) | Solana | 5.98% | $129K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SKBDI yield today?
 
-8.82% APY on raydium-amm (Solana), based on live DefiLlama data.
+5.98% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SKBDI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $126.7K in total.
+1 live pool clear this page's $100K TVL floor, $129K in total.
 
 ### Are these rates safe?
 

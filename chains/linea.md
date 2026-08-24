@@ -1,14 +1,15 @@
 # Linea DeFi Yields
 
-The highest honest Linea yield right now is 3.21% on aave-v3 (Linea), among 17 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Linea yield right now is 3.21% on aave-v3 (Linea), among 18 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_chain) | 2.35% | $182.85M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=40a5252b-305d-495a-9582-664a09ef2dc5&src=seo_chain) | 0.63% | $5.42M |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=e68ecfb4-ba44-49e9-9626-31299405b520&src=seo_chain) | 0.06% | $773.2K |
-| USDC | [aave-v3 →](https://www.defi.garden/?pool=5a49dee1-344d-4b50-a167-8f5faab08752&src=seo_chain) | 3.21% | $178.1K |
-| USDC-WETH | [etherex-cl →](https://www.defi.garden/?pool=54125a9d-966d-4734-85e5-ae231b781894&src=seo_chain) | 465.42% | $174.8K |
+| WEETH | [ether.fi-stake →](https://www.defi.garden/?pool=d13ce20b-9c18-466e-be47-31ae642b0754&src=seo_chain) | 2.35% | $186.91M |
+| WETH | [aave-v3 →](https://www.defi.garden/?pool=40a5252b-305d-495a-9582-664a09ef2dc5&src=seo_chain) | 0.63% | $5.55M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=e68ecfb4-ba44-49e9-9626-31299405b520&src=seo_chain) | 0.06% | $783.2K |
+| VAMM-XRGB-WETH | [lynex-v2 →](https://www.defi.garden/?pool=26fceb07-621f-4256-b867-804507f90758&src=seo_chain) | 0.13% | $184.3K |
+| USDC-WETH | [etherex-cl →](https://www.defi.garden/?pool=54125a9d-966d-4734-85e5-ae231b781894&src=seo_chain) | 484.89% | $178.3K |
+| USDC | [aave-v3 →](https://www.defi.garden/?pool=5a49dee1-344d-4b50-a167-8f5faab08752&src=seo_chain) | 3.21% | $177.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -20,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Linea pools clear the TVL floor?
 
-17 live pools clear this page's $100K TVL floor, $198.69M in total.
+18 live pools clear this page's $100K TVL floor, $203.23M in total.
 
 ### Are these rates safe?
 
@@ -41,5 +42,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WETH](https://www.defi.garden/tokens/weth)
 - [WBTC](https://www.defi.garden/tokens/wbtc)
 - [USDC](https://www.defi.garden/tokens/usdc)
+- [VAMM](https://www.defi.garden/tokens/vamm)
+- [XRGB](https://www.defi.garden/tokens/xrgb)
 
 ## Last updated August 24, 2026

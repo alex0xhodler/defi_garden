@@ -4,7 +4,7 @@ The highest honest EUR yield right now is 55.52% on gmtrade (Solana), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [gmtrade →](https://www.defi.garden/?pool=9503cfc7-5b20-4c77-bc16-df72263bd907&src=seo_token) | Solana | 55.52% | $1.65M |
+| [gmtrade →](https://www.defi.garden/?pool=9503cfc7-5b20-4c77-bc16-df72263bd907&src=seo_token) | Solana | 55.52% | $1.66M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

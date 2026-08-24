@@ -1,10 +1,10 @@
 # LCS DeFi Yields
 
-The highest honest LCS yield right now is 4.13% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LCS yield right now is 0.08% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e2ac0-478c-4cce-be20-35a4354ebafe&src=seo_token) | Ethereum | 4.13% | $296.9K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=9e9e2ac0-478c-4cce-be20-35a4354ebafe&src=seo_token) | Ethereum | 0.08% | $304.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LCS yield today?
 
-4.13% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.08% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many LCS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $296.9K in total.
+1 live pool clear this page's $100K TVL floor, $304.1K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank LCS pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

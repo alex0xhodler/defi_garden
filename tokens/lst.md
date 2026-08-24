@@ -4,7 +4,7 @@ The highest honest LST yield right now is 0.01% on project-0 (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.87M |
+| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.92M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.87M in total.
+1 live pool clear this page's $100K TVL floor, $2.92M in total.
 
 ### Are these rates safe?
 

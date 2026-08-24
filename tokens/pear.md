@@ -1,29 +1,29 @@
 # PEAR DeFi Yields
 
-The highest honest PEAR yield right now is 16.06% on camelot-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PEAR yield right now is 21.17% on camelot-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v3 →](https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token) | Arbitrum | 16.06% | $708.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token) | Arbitrum | 3.70% | $184.9K |
+| [camelot-v3 →](https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token) | Arbitrum | 21.17% | $739.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token) | Arbitrum | 4.02% | $189.9K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PEAR's lower-variability candidates are camelot-v3 (Arbitrum), 16.06% APY, $708.5K TVL, https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token; uniswap-v3 (Arbitrum), 3.70% APY, $184.9K TVL, https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PEAR's lower-variability candidates are camelot-v3 (Arbitrum), 21.17% APY, $739.1K TVL, https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token; uniswap-v3 (Arbitrum), 4.02% APY, $189.9K TVL, https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [camelot-v3 →](https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token) | Arbitrum | 16.06% | $708.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token) | Arbitrum | 3.70% | $184.9K |
+| 1 | [camelot-v3 →](https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token) | Arbitrum | 21.17% | $739.1K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token) | Arbitrum | 4.02% | $189.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PEAR shows up in 2 pools here, with rates from 3.70% to 16.06% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PEAR shows up in 2 pools here, with rates from 4.02% to 21.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 2.94% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.05% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| camelot-v3 | 16.06% | 3.81% | Base rate |
-| uniswap-v3 | 3.70% | 2.07% | Base rate |
+| camelot-v3 | 21.17% | 3.99% | Base rate |
+| uniswap-v3 | 4.02% | 2.10% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PEAR yield today?
 
-16.06% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
+21.17% APY on camelot-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many PEAR pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $893.4K in total.
+2 live pools clear this page's $100K TVL floor, $929K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PEAR pools have the most stable APY history?
 
-Based on APY history only, PEAR's lower-variability candidates are camelot-v3 (Arbitrum), 16.06% APY, $708.5K TVL, https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token; uniswap-v3 (Arbitrum), 3.70% APY, $184.9K TVL, https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PEAR's lower-variability candidates are camelot-v3 (Arbitrum), 21.17% APY, $739.1K TVL, https://www.defi.garden/?pool=22a4a964-ea4c-4c5e-bdbf-c43342f61f3b&src=seo_token; uniswap-v3 (Arbitrum), 4.02% APY, $189.9K TVL, https://www.defi.garden/?pool=9984360f-b781-4018-9d54-3444c4ea6c55&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

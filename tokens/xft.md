@@ -1,10 +1,10 @@
 # XFT DeFi Yields
 
-The highest honest XFT yield right now is 0.01% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest XFT yield right now is 0.83% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=6773e454-4a0f-4ed0-b213-60cf9556d1ec&src=seo_token) | Ethereum | 0.01% | $200.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=6773e454-4a0f-4ed0-b213-60cf9556d1ec&src=seo_token) | Ethereum | 0.83% | $206.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest XFT yield today?
 
-0.01% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.83% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many XFT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $200.4K in total.
+1 live pool clear this page's $100K TVL floor, $206.7K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank XFT pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

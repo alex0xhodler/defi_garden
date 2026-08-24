@@ -1,10 +1,10 @@
 # EXA DeFi Yields
 
-The highest honest EXA yield right now is 2.35% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EXA yield right now is 2.46% on velodrome-v2 (OP Mainnet), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [velodrome-v2 →](https://www.defi.garden/?pool=2e4ac811-e143-43ca-bfd0-9fc06c81e83f&src=seo_token) | OP Mainnet | 2.35% | $110.7K |
+| [velodrome-v2 →](https://www.defi.garden/?pool=2e4ac811-e143-43ca-bfd0-9fc06c81e83f&src=seo_token) | OP Mainnet | 2.46% | $113.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EXA yield today?
 
-2.35% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
+2.46% APY on velodrome-v2 (OP Mainnet), based on live DefiLlama data.
 
 ### How many EXA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.7K in total.
+1 live pool clear this page's $100K TVL floor, $113.7K in total.
 
 ### Are these rates safe?
 
@@ -36,9 +36,9 @@ There is not enough qualifying APY history to rank EXA pools. This view covers A
 - [SUSDS](https://www.defi.garden/tokens/susds)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [GTUSDCP](https://www.defi.garden/tokens/gtusdcp)
+- [USX](https://www.defi.garden/tokens/usx)
 - [ALETH](https://www.defi.garden/tokens/aleth)
 - [ALUSD](https://www.defi.garden/tokens/alusd)
-- [VAULT](https://www.defi.garden/tokens/vault)
 
 ## Available on
 

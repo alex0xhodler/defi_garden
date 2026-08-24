@@ -1,10 +1,10 @@
 # 0XCORAL DeFi Yields
 
-The highest honest 0XCORAL yield right now is 47.54% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 0XCORAL yield right now is 30.27% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=bd262e86-6319-4679-bdfe-51abe38cbd40&src=seo_token) | Base | 47.54% | $107.8K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=bd262e86-6319-4679-bdfe-51abe38cbd40&src=seo_token) | Base | 30.27% | $110.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 0XCORAL yield today?
 
-47.54% APY on uniswap-v4 (Base), based on live DefiLlama data.
+30.27% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many 0XCORAL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.8K in total.
+1 live pool clear this page's $100K TVL floor, $110.4K in total.
 
 ### Are these rates safe?
 

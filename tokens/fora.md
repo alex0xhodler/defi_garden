@@ -1,10 +1,10 @@
 # FORA DeFi Yields
 
-The highest honest FORA yield right now is 6.03% on uniswap-v4 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FORA yield right now is 5.80% on uniswap-v4 (Arbitrum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=8f20e002-63ba-4ad5-88eb-22c4974dbf22&src=seo_token) | Arbitrum | 6.03% | $883.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=8f20e002-63ba-4ad5-88eb-22c4974dbf22&src=seo_token) | Arbitrum | 5.80% | $871.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FORA yield today?
 
-6.03% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
+5.80% APY on uniswap-v4 (Arbitrum), based on live DefiLlama data.
 
 ### How many FORA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $883.2K in total.
+1 live pool clear this page's $100K TVL floor, $871.3K in total.
 
 ### Are these rates safe?
 

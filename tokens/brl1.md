@@ -1,10 +1,10 @@
 # BRL1 DeFi Yields
 
-The highest honest BRL1 yield right now is 1.65% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest BRL1 yield right now is 1.64% on uniswap-v3 (Polygon), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e072b25e-a349-4fd4-9396-721cb4afacb9&src=seo_token) | Polygon | 1.65% | $122.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e072b25e-a349-4fd4-9396-721cb4afacb9&src=seo_token) | Polygon | 1.64% | $122.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest BRL1 yield today?
 
-1.65% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
+1.64% APY on uniswap-v3 (Polygon), based on live DefiLlama data.
 
 ### How many BRL1 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $122.1K in total.
+1 live pool clear this page's $100K TVL floor, $122.2K in total.
 
 ### Are these rates safe?
 

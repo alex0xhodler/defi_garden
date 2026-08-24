@@ -4,10 +4,10 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| NOPAL | [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_chain) | 8.68% | $72.4M |
+| NOPAL | [nest-credit →](https://www.defi.garden/?pool=f21c4938-864a-44bd-91fb-c492864fcb46&src=seo_chain) | 8.68% | $72.48M |
 | NFALCON | [nest-credit →](https://www.defi.garden/?pool=ad047a62-5c88-4b43-bf42-4e4d0858c53a&src=seo_chain) | 7.42% | $28.78M |
-| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=1dee4660-d688-4800-8e0f-7af0d77bcde1&src=seo_chain) | 15.38% | $20.78M |
-| NALPHA | [nest-credit →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_chain) | 7.56% | $13.45M |
+| USDC | [centrifuge-protocol →](https://www.defi.garden/?pool=1dee4660-d688-4800-8e0f-7af0d77bcde1&src=seo_chain) | 21.00% | $20.8M |
+| NALPHA | [nest-credit →](https://www.defi.garden/?pool=f6793703-310d-4d55-9295-38d39047f18c&src=seo_chain) | 7.58% | $13.45M |
 | USCC | [bitwise-uscc →](https://www.defi.garden/?pool=ea1d8316-9160-48f0-ad18-a1298473f826&src=seo_chain) | 4.15% | $12.59M |
 | NAXI | [nest-credit →](https://www.defi.garden/?pool=ae992838-303f-5a75-8dc7-0cb765396245&src=seo_chain) | 11.50% | $5.45M |
 | NCLOA | [nest-credit →](https://www.defi.garden/?pool=a960f0fd-0ed0-51dc-afcb-4196ae033c68&src=seo_chain) | 4.30% | $4.18M |
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Plume Mainnet의 nest-credit에서 APY 11.
 
 ### Plume Mainnet 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $167.76M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 14개이며, 합산 TVL은 $167.87M예요.
 
 ### 이 수익률은 안전한가요?
 

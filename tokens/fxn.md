@@ -1,35 +1,35 @@
 # FXN DeFi Yields
 
-The highest honest FXN yield right now is 8.52% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FXN yield right now is 8.68% on convex-finance (Ethereum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token) | Ethereum | 1.14% | $1.24M |
-| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.24% | $794.8K |
-| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 8.52% | $557.3K |
-| [convex-finance →](https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token) | Ethereum | 1.14% | $453.9K |
-| [raydium-amm →](https://www.defi.garden/?pool=34da3c48-79ef-4c96-9dc2-cdc208d25afa&src=seo_token) | Solana | 1.34% | $117.2K |
+| [curve-dex →](https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token) | Ethereum | 0.75% | $1.26M |
+| [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.38% | $799.2K |
+| [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 8.68% | $560.4K |
+| [convex-finance →](https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token) | Ethereum | 0.75% | $460.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=34da3c48-79ef-4c96-9dc2-cdc208d25afa&src=seo_token) | Solana | 4.27% | $116.5K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, FXN's lower-variability candidates are curve-dex (Ethereum), 7.24% APY, $794.8K TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token; curve-dex (Ethereum), 1.14% APY, $1.24M TVL, https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token; convex-finance (Ethereum), 8.52% APY, $557.3K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token; convex-finance (Ethereum), 1.14% APY, $453.9K TVL, https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token; raydium-amm (Solana), 1.34% APY, $117.2K TVL, https://www.defi.garden/?pool=34da3c48-79ef-4c96-9dc2-cdc208d25afa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FXN's lower-variability candidates are curve-dex (Ethereum), 7.38% APY, $799.2K TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token; curve-dex (Ethereum), 0.75% APY, $1.26M TVL, https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token; convex-finance (Ethereum), 8.68% APY, $560.4K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token; convex-finance (Ethereum), 0.75% APY, $460.6K TVL, https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token; raydium-amm (Solana), 4.27% APY, $116.5K TVL, https://www.defi.garden/?pool=34da3c48-79ef-4c96-9dc2-cdc208d25afa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.24% | $794.8K |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token) | Ethereum | 1.14% | $1.24M |
-| 3 | [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 8.52% | $557.3K |
-| 4 | [convex-finance →](https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token) | Ethereum | 1.14% | $453.9K |
-| 5 | [raydium-amm →](https://www.defi.garden/?pool=34da3c48-79ef-4c96-9dc2-cdc208d25afa&src=seo_token) | Solana | 1.34% | $117.2K |
+| 1 | [curve-dex →](https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token) | Ethereum | 7.38% | $799.2K |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token) | Ethereum | 0.75% | $1.26M |
+| 3 | [convex-finance →](https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token) | Ethereum | 8.68% | $560.4K |
+| 4 | [convex-finance →](https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token) | Ethereum | 0.75% | $460.6K |
+| 5 | [raydium-amm →](https://www.defi.garden/?pool=34da3c48-79ef-4c96-9dc2-cdc208d25afa&src=seo_token) | Solana | 4.27% | $116.5K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-FXN shows up in 5 pools here, with rates from 1.14% to 8.52% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+FXN shows up in 5 pools here, with rates from 0.75% to 8.68% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-5 of these 5 pools have a trustworthy 30-day average on file, with a median of 1.67% — a useful check against today's number for whether the rate is steady or just having a good day.
+5 of these 5 pools have a trustworthy 30-day average on file, with a median of 1.74% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 5 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -37,11 +37,11 @@ FXN shows up in 5 pools here, with rates from 1.14% to 8.52% APY across 2 chains
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 1.14% | 0.94% | 0.01% incentives |
-| curve-dex | 7.24% | 7.40% | 96.82% incentives |
-| convex-finance | 8.52% | 10.93% | 97.30% incentives |
-| convex-finance | 1.14% | 0.94% | Base rate |
-| raydium-amm | 1.34% | 1.67% | Base rate |
+| curve-dex | 0.75% | 0.95% | 0.01% incentives |
+| curve-dex | 7.38% | 7.41% | 96.88% incentives |
+| convex-finance | 8.68% | 10.91% | 97.35% incentives |
+| convex-finance | 0.75% | 0.95% | Base rate |
+| raydium-amm | 4.27% | 1.74% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FXN yield today?
 
-8.52% APY on convex-finance (Ethereum), based on live DefiLlama data.
+8.68% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FXN pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $3.72M in total.
+6 live pools clear this page's $100K TVL floor, $3.75M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which FXN pools have the most stable APY history?
 
-Based on APY history only, FXN's lower-variability candidates are curve-dex (Ethereum), 7.24% APY, $794.8K TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token; curve-dex (Ethereum), 1.14% APY, $1.24M TVL, https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token; convex-finance (Ethereum), 8.52% APY, $557.3K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token; convex-finance (Ethereum), 1.14% APY, $453.9K TVL, https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token; raydium-amm (Solana), 1.34% APY, $117.2K TVL, https://www.defi.garden/?pool=34da3c48-79ef-4c96-9dc2-cdc208d25afa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, FXN's lower-variability candidates are curve-dex (Ethereum), 7.38% APY, $799.2K TVL, https://www.defi.garden/?pool=491f6321-e8fb-4b74-92d8-5c73ac4752e5&src=seo_token; curve-dex (Ethereum), 0.75% APY, $1.26M TVL, https://www.defi.garden/?pool=e5314f0a-4976-4333-a964-93a24289e314&src=seo_token; convex-finance (Ethereum), 8.68% APY, $560.4K TVL, https://www.defi.garden/?pool=fcb9f6f2-8d72-40d6-969a-24b3a2103cc2&src=seo_token; convex-finance (Ethereum), 0.75% APY, $460.6K TVL, https://www.defi.garden/?pool=02f202af-5a37-4934-bb68-4b40f022df2a&src=seo_token; raydium-amm (Solana), 4.27% APY, $116.5K TVL, https://www.defi.garden/?pool=34da3c48-79ef-4c96-9dc2-cdc208d25afa&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -69,8 +69,8 @@ Based on APY history only, FXN's lower-variability candidates are curve-dex (Eth
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

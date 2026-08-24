@@ -1,10 +1,10 @@
 # CJ DeFi Yields
 
-The highest honest CJ yield right now is 1.03% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CJ yield right now is 1.23% on uniswap-v2 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b48860af-0f64-48ba-aa8a-48e5065b6730&src=seo_token) | Base | 1.03% | $114.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b48860af-0f64-48ba-aa8a-48e5065b6730&src=seo_token) | Base | 1.23% | $113.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CJ yield today?
 
-1.03% APY on uniswap-v2 (Base), based on live DefiLlama data.
+1.23% APY on uniswap-v2 (Base), based on live DefiLlama data.
 
 ### How many CJ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $114.1K in total.
+1 live pool clear this page's $100K TVL floor, $113.1K in total.
 
 ### Are these rates safe?
 

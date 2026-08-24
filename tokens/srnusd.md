@@ -1,10 +1,10 @@
 # SRNUSD DeFi Yields
 
-The highest honest SRNUSD yield right now is 4.06% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRNUSD yield right now is 4.09% on strata-markets (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&src=seo_token) | Ethereum | 4.06% | $1.38M |
+| [strata-markets →](https://www.defi.garden/?pool=979711ce-d0c0-4aae-a5fc-d7b76e868649&src=seo_token) | Ethereum | 4.09% | $1.38M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SRNUSD yield today?
 
-4.06% APY on strata-markets (Ethereum), based on live DefiLlama data.
+4.09% APY on strata-markets (Ethereum), based on live DefiLlama data.
 
 ### How many SRNUSD pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank SRNUSD pools. This view cover
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

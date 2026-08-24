@@ -1,29 +1,29 @@
 # PING DeFi Yields
 
-The highest honest PING yield right now is 3.83% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PING yield right now is 1.42% on uniswap-v4 (Base), among 5 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token) | Base | 3.83% | $1.02M |
-| [uniswap-v4 →](https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token) | Base | 0.10% | $340.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token) | Base | 1.42% | $1.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token) | Base | 0.07% | $340.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, PING's lower-variability candidates are uniswap-v4 (Base), 0.10% APY, $340.3K TVL, https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token; uniswap-v4 (Base), 3.83% APY, $1.02M TVL, https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PING's lower-variability candidates are uniswap-v4 (Base), 0.07% APY, $340.2K TVL, https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token; uniswap-v4 (Base), 1.42% APY, $1.02M TVL, https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token) | Base | 0.10% | $340.3K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token) | Base | 3.83% | $1.02M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token) | Base | 0.07% | $340.2K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token) | Base | 1.42% | $1.02M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-PING shows up in 2 pools here, with rates from 0.10% to 3.83% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+PING shows up in 2 pools here, with rates from 0.07% to 1.42% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.41% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 1.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 3.83% | 2.75% | Base rate |
-| uniswap-v4 | 0.10% | 0.08% | Base rate |
+| uniswap-v4 | 1.42% | 2.73% | Base rate |
+| uniswap-v4 | 0.07% | 0.07% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PING yield today?
 
-3.83% APY on uniswap-v4 (Base), based on live DefiLlama data.
+1.42% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many PING pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $2.16M in total.
+5 live pools clear this page's $100K TVL floor, $2.17M in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which PING pools have the most stable APY history?
 
-Based on APY history only, PING's lower-variability candidates are uniswap-v4 (Base), 0.10% APY, $340.3K TVL, https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token; uniswap-v4 (Base), 3.83% APY, $1.02M TVL, https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, PING's lower-variability candidates are uniswap-v4 (Base), 0.07% APY, $340.2K TVL, https://www.defi.garden/?pool=6d2dfae6-a288-4687-a5af-db8076d2cc98&src=seo_token; uniswap-v4 (Base), 1.42% APY, $1.02M TVL, https://www.defi.garden/?pool=6fb90eb1-7aa3-4566-940f-0362f0a8c60a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

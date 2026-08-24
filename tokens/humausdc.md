@@ -1,10 +1,10 @@
 # HUMAUSDC DeFi Yields
 
-The highest honest HUMAUSDC yield right now is 5.67% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HUMAUSDC yield right now is 5.66% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=a295b2bd-0d49-4b01-803a-ff96bdcd0d33&src=seo_token) | Ethereum | 5.67% | $13.17M |
+| [morpho-blue →](https://www.defi.garden/?pool=a295b2bd-0d49-4b01-803a-ff96bdcd0d33&src=seo_token) | Ethereum | 5.66% | $13.17M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HUMAUSDC yield today?
 
-5.67% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.66% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many HUMAUSDC pools clear the TVL floor?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank HUMAUSDC pools. This view cov
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

@@ -106,12 +106,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/mantle</loc>
+    <loc>https://www.defi.garden/ko/chains/bitcoin</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/bitcoin</loc>
+    <loc>https://www.defi.garden/ko/chains/mantle</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -206,12 +206,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/filecoin</loc>
+    <loc>https://www.defi.garden/ko/chains/sonic</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/sonic</loc>
+    <loc>https://www.defi.garden/ko/chains/filecoin</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -246,17 +246,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/neutron</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.defi.garden/ko/chains/multiversx</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.defi.garden/ko/chains/celo</loc>
+    <loc>https://www.defi.garden/ko/chains/neutron</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -281,12 +276,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/celo</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/citrea</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/move</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.defi.garden/ko/chains/defichain</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -301,17 +306,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://www.defi.garden/ko/chains/unichain</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://www.defi.garden/ko/chains/strato</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.defi.garden/ko/chains/hemi</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.defi.garden/ko/chains/unichain</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
   </url>

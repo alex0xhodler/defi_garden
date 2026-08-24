@@ -1,33 +1,33 @@
 # WEGLD DeFi Yields
 
-The highest honest WEGLD yield right now is 22.12% on xexchange (MultiversX), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WEGLD yield right now is 21.67% on xexchange (MultiversX), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 12.13% | $940.6K |
-| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 5.10% | $219.5K |
-| [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 11.77% | $105.9K |
-| [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 22.12% | $105.9K |
+| [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 11.26% | $958.1K |
+| [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 4.39% | $227.5K |
+| [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 21.67% | $109.9K |
+| [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 9.86% | $108.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WEGLD's lower-variability candidates are xexchange (MultiversX), 5.10% APY, $219.5K TVL, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; xexchange (MultiversX), 11.77% APY, $105.9K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; xexchange (MultiversX), 22.12% APY, $105.9K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; xexchange (MultiversX), 12.13% APY, $940.6K TVL, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WEGLD's lower-variability candidates are xexchange (MultiversX), 4.39% APY, $227.5K TVL, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; xexchange (MultiversX), 9.86% APY, $108.2K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; xexchange (MultiversX), 21.67% APY, $109.9K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; xexchange (MultiversX), 11.26% APY, $958.1K TVL, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 5.10% | $219.5K |
-| 2 | [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 11.77% | $105.9K |
-| 3 | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 22.12% | $105.9K |
-| 4 | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 12.13% | $940.6K |
+| 1 | [xexchange →](https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token) | MultiversX | 4.39% | $227.5K |
+| 2 | [xexchange →](https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token) | MultiversX | 9.86% | $108.2K |
+| 3 | [xexchange →](https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token) | MultiversX | 21.67% | $109.9K |
+| 4 | [xexchange →](https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token) | MultiversX | 11.26% | $958.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WEGLD shows up in 4 pools here, with rates from 5.10% to 22.12% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WEGLD shows up in 4 pools here, with rates from 4.39% to 21.67% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.06% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 6.14% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 4 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ WEGLD shows up in 4 pools here, with rates from 5.10% to 22.12% APY across 1 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| xexchange | 12.13% | 5.03% | 9.53% incentives |
-| xexchange | 5.10% | 4.10% | 67.98% incentives |
-| xexchange | 11.77% | 7.08% | 43.62% incentives |
-| xexchange | 22.12% | 18.12% | 92.83% incentives |
+| xexchange | 11.26% | 5.14% | 10.42% incentives |
+| xexchange | 4.39% | 4.11% | 78.81% incentives |
+| xexchange | 21.67% | 18.19% | 94.31% incentives |
+| xexchange | 9.86% | 7.14% | 52.66% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -46,11 +46,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WEGLD yield today?
 
-22.12% APY on xexchange (MultiversX), based on live DefiLlama data.
+21.67% APY on xexchange (MultiversX), based on live DefiLlama data.
 
 ### How many WEGLD pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1.37M in total.
+4 live pools clear this page's $100K TVL floor, $1.4M in total.
 
 ### Are these rates safe?
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WEGLD pools have the most stable APY history?
 
-Based on APY history only, WEGLD's lower-variability candidates are xexchange (MultiversX), 5.10% APY, $219.5K TVL, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; xexchange (MultiversX), 11.77% APY, $105.9K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; xexchange (MultiversX), 22.12% APY, $105.9K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; xexchange (MultiversX), 12.13% APY, $940.6K TVL, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WEGLD's lower-variability candidates are xexchange (MultiversX), 4.39% APY, $227.5K TVL, https://www.defi.garden/?pool=599d46c8-638e-4759-94b2-bcd2a56cbe54&src=seo_token; xexchange (MultiversX), 9.86% APY, $108.2K TVL, https://www.defi.garden/?pool=c859cc88-e671-46aa-b08a-14da1542364f&src=seo_token; xexchange (MultiversX), 21.67% APY, $109.9K TVL, https://www.defi.garden/?pool=26542660-abf6-4e31-95f7-7e5bb54c66de&src=seo_token; xexchange (MultiversX), 11.26% APY, $958.1K TVL, https://www.defi.garden/?pool=5ea5ce3f-926a-49c6-961f-e534e2caabd8&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

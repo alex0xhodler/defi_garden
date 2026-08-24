@@ -1,10 +1,10 @@
 # JST 디파이 수익률
 
-현재 JST의 가장 높은 정직한 수익률은 Tron의 justlend-v1에서 0.26%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JST의 가장 높은 정직한 수익률은 Tron의 justlend-v1에서 0.27%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_token) | Tron | 0.26% | $9.45M |
+| [justlend-v1 →](https://www.defi.garden/?pool=aa3b8470-cd15-4e02-a83d-b83fae993855&src=seo_token) | Tron | 0.27% | $9.1M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 JST의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 0.26%예요.
+DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 0.27%예요.
 
 ### JST 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $9.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $9.1M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -33,12 +33,12 @@ DefiLlama 실시간 데이터 기준, Tron의 justlend-v1에서 APY 0.26%예요.
 
 ## 관련 토큰
 
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [TRX](https://www.defi.garden/ko/tokens/trx)
 - [USDD](https://www.defi.garden/ko/tokens/usdd)
 - [USD1](https://www.defi.garden/ko/tokens/usd1)
 - [SUN](https://www.defi.garden/ko/tokens/sun)
 - [TUSD](https://www.defi.garden/ko/tokens/tusd)
+- [BTT](https://www.defi.garden/ko/tokens/btt)
 
 ## 이용 가능한 체인
 

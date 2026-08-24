@@ -1,10 +1,10 @@
 # USUAL DeFi Yields
 
-The highest honest USUAL yield right now is 68.03% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest USUAL yield right now is 65.70% on uniswap-v4 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7dd7784d-70e6-4fb5-8061-4638805637fa&src=seo_token) | Ethereum | 68.03% | $783.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7dd7784d-70e6-4fb5-8061-4638805637fa&src=seo_token) | Ethereum | 65.70% | $786.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,9 +15,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-USUAL shows up in 1 pools here, with rates from 68.03% to 68.03% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+USUAL shows up in 1 pools here, with rates from 65.70% to 65.70% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 43.27% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 44.28% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -25,7 +25,7 @@ All 1 pool pays a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 68.03% | 43.27% | Base rate |
+| uniswap-v4 | 65.70% | 44.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -33,11 +33,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest USUAL yield today?
 
-68.03% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+65.70% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many USUAL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $926.9K in total.
+2 live pools clear this page's $100K TVL floor, $925.4K in total.
 
 ### Are these rates safe?
 
@@ -53,8 +53,8 @@ There is not enough qualifying APY history to rank USUAL pools. This view covers
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

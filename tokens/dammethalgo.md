@@ -4,7 +4,7 @@ The highest honest DAMMETHALGO yield right now is 0.75% on lagoon (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=6238418f-6d43-5303-88d8-f8ca915e9d39&src=seo_token) | Ethereum | 0.75% | $217.7K |
+| [lagoon →](https://www.defi.garden/?pool=6238418f-6d43-5303-88d8-f8ca915e9d39&src=seo_token) | Ethereum | 0.75% | $222.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DAMMETHALGO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $217.7K in total.
+1 live pool clear this page's $100K TVL floor, $222.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank DAMMETHALGO pools. This view 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

@@ -1,29 +1,29 @@
 # HAEDAL DeFi Yields
 
-The highest honest HAEDAL yield right now is 6.25% on cetus-clmm (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HAEDAL yield right now is 8.50% on cetus-clmm (Sui), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token) | Sui | 6.25% | $606.8K |
-| [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 9.33% | $114.5K |
+| [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token) | Sui | 4.44% | $610.7K |
+| [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 8.50% | $115.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, HAEDAL's lower-variability candidates are cetus-clmm (Sui), 6.25% APY, $606.8K TVL, https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token; cetus-clmm (Sui), 9.33% APY, $114.5K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HAEDAL's lower-variability candidates are cetus-clmm (Sui), 4.44% APY, $610.7K TVL, https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token; cetus-clmm (Sui), 8.50% APY, $115.8K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token) | Sui | 6.25% | $606.8K |
-| 2 | [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 9.33% | $114.5K |
+| 1 | [cetus-clmm →](https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token) | Sui | 4.44% | $610.7K |
+| 2 | [cetus-clmm →](https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token) | Sui | 8.50% | $115.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-HAEDAL shows up in 2 pools here, with rates from 6.25% to 9.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+HAEDAL shows up in 2 pools here, with rates from 4.44% to 8.50% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.54% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 6.59% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| cetus-clmm | 6.25% | 7.50% | Base rate |
-| cetus-clmm | 9.33% | 5.59% | Base rate |
+| cetus-clmm | 4.44% | 7.52% | Base rate |
+| cetus-clmm | 8.50% | 5.67% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest HAEDAL yield today?
 
-6.25% APY on cetus-clmm (Sui), based on live DefiLlama data.
+8.50% APY on cetus-clmm (Sui), based on live DefiLlama data.
 
 ### How many HAEDAL pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $721.3K in total.
+2 live pools clear this page's $100K TVL floor, $726.6K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which HAEDAL pools have the most stable APY history?
 
-Based on APY history only, HAEDAL's lower-variability candidates are cetus-clmm (Sui), 6.25% APY, $606.8K TVL, https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token; cetus-clmm (Sui), 9.33% APY, $114.5K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, HAEDAL's lower-variability candidates are cetus-clmm (Sui), 4.44% APY, $610.7K TVL, https://www.defi.garden/?pool=187a4585-19b3-4b85-b7ed-147bf4e04cc1&src=seo_token; cetus-clmm (Sui), 8.50% APY, $115.8K TVL, https://www.defi.garden/?pool=6bcf4d70-4a1e-425d-a37d-2377e9ff4d65&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

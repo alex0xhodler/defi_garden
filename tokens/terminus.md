@@ -1,10 +1,10 @@
 # TERMINUS DeFi Yields
 
-The highest honest TERMINUS yield right now is 0.17% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TERMINUS yield right now is 0.84% on uniswap-v2 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=6e81c9bf-de9e-4529-95cd-4637a6c5fafb&src=seo_token) | Ethereum | 0.17% | $239.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=6e81c9bf-de9e-4529-95cd-4637a6c5fafb&src=seo_token) | Ethereum | 0.84% | $241.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest TERMINUS yield today?
 
-0.17% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
+0.84% APY on uniswap-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many TERMINUS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $239.1K in total.
+1 live pool clear this page's $100K TVL floor, $241.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank TERMINUS pools. This view cov
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

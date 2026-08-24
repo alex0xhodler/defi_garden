@@ -4,7 +4,7 @@ The highest honest WSM yield right now is 0.02% on uniswap-v3 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=30c4a489-ce5f-4289-b4ba-dc2da323a087&src=seo_token) | BSC | 0.02% | $104.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=30c4a489-ce5f-4289-b4ba-dc2da323a087&src=seo_token) | BSC | 0.02% | $105.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many WSM pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $104.8K in total.
+1 live pool clear this page's $100K TVL floor, $105.6K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank WSM pools. This view covers A
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)

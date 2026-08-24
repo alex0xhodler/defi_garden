@@ -1,10 +1,10 @@
 # CADC DeFi Yields
 
-The highest honest CADC yield right now is 47.05% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CADC yield right now is 15.73% on aerodrome-slipstream (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=8c0d3027-f688-4255-b926-48efdae2e74a&src=seo_token) | Base | 47.05% | $119.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=8c0d3027-f688-4255-b926-48efdae2e74a&src=seo_token) | Base | 15.73% | $134.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CADC yield today?
 
-47.05% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
+15.73% APY on aerodrome-slipstream (Base), based on live DefiLlama data.
 
 ### How many CADC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $119.7K in total.
+1 live pool clear this page's $100K TVL floor, $134.6K in total.
 
 ### Are these rates safe?
 

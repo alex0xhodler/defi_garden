@@ -1,10 +1,10 @@
 # 1CLAWAI DeFi Yields
 
-The highest honest 1CLAWAI yield right now is 40.86% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 1CLAWAI yield right now is 41.21% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=1435aece-221b-4654-96d5-274c2d88404a&src=seo_token) | Base | 40.86% | $163.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=1435aece-221b-4654-96d5-274c2d88404a&src=seo_token) | Base | 41.21% | $169.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 1CLAWAI yield today?
 
-40.86% APY on uniswap-v4 (Base), based on live DefiLlama data.
+41.21% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many 1CLAWAI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $163.7K in total.
+1 live pool clear this page's $100K TVL floor, $169.9K in total.
 
 ### Are these rates safe?
 

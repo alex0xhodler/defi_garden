@@ -1,10 +1,10 @@
 # 50WETH DeFi Yields
 
-The highest honest 50WETH yield right now is 18.54% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest 50WETH yield right now is 17.42% on balancer-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=9dc8d002-85cd-4d9f-b6c9-452331ea01b1&src=seo_token) | Ethereum | 18.54% | $134.4K |
+| [balancer-v3 →](https://www.defi.garden/?pool=9dc8d002-85cd-4d9f-b6c9-452331ea01b1&src=seo_token) | Ethereum | 17.42% | $137K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest 50WETH yield today?
 
-18.54% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
+17.42% APY on balancer-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many 50WETH pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $134.4K in total.
+1 live pool clear this page's $100K TVL floor, $137K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank 50WETH pools. This view cover
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

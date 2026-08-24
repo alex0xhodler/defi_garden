@@ -4,7 +4,7 @@ The highest honest ATC yield right now is 0.01% on uniswap-v3 (BSC), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.01% | $456.1K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=98213b99-c909-4278-a8f6-eabde68430f0&src=seo_token) | BSC | 0.01% | $457.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ATC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $456.1K in total.
+1 live pool clear this page's $100K TVL floor, $457.4K in total.
 
 ### Are these rates safe?
 
@@ -34,8 +34,8 @@ There is not enough qualifying APY history to rank ATC pools. This view covers A
 ## Related tokens
 
 - [WBETH](https://www.defi.garden/tokens/wbeth)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
+- [USDT](https://www.defi.garden/tokens/usdt)
 - [USYC](https://www.defi.garden/tokens/usyc)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [SLISBNB](https://www.defi.garden/tokens/slisbnb)

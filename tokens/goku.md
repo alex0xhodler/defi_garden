@@ -4,7 +4,7 @@ The highest honest GOKU yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=cd7a8d4c-a26d-46c2-b813-b896c4a13bc1&src=seo_token) | Ethereum | 0.02% | $252K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=cd7a8d4c-a26d-46c2-b813-b896c4a13bc1&src=seo_token) | Ethereum | 0.02% | $256K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GOKU pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $252K in total.
+1 live pool clear this page's $100K TVL floor, $256K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank GOKU pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

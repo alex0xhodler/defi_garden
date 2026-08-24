@@ -1,10 +1,10 @@
 # VEE DeFi Yields
 
-The highest honest VEE yield right now is 2.28% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest VEE yield right now is 0.37% on uniswap-v4 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=92974aef-911e-4765-a74f-476c9b847583&src=seo_token) | Ethereum | 2.28% | $109.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=92974aef-911e-4765-a74f-476c9b847583&src=seo_token) | Ethereum | 0.37% | $112.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest VEE yield today?
 
-2.28% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
+0.37% APY on uniswap-v4 (Ethereum), based on live DefiLlama data.
 
 ### How many VEE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $109.9K in total.
+1 live pool clear this page's $100K TVL floor, $112.1K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank VEE pools. This view covers A
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

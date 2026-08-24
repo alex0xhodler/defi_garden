@@ -4,7 +4,7 @@ The highest honest NFT yield right now is 0.03% on justlend-v1 (Tron), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [justlend-v1 →](https://www.defi.garden/?pool=ef2717a7-e370-47cf-b744-2551f9515ae3&src=seo_token) | Tron | 0.03% | $590.5K |
+| [justlend-v1 →](https://www.defi.garden/?pool=ef2717a7-e370-47cf-b744-2551f9515ae3&src=seo_token) | Tron | 0.03% | $585.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many NFT pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $590.5K in total.
+1 live pool clear this page's $100K TVL floor, $585.9K in total.
 
 ### Are these rates safe?
 
@@ -33,12 +33,12 @@ There is not enough qualifying APY history to rank NFT pools. This view covers A
 
 ## Related tokens
 
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [TRX](https://www.defi.garden/tokens/trx)
 - [USDD](https://www.defi.garden/tokens/usdd)
 - [USD1](https://www.defi.garden/tokens/usd1)
 - [JST](https://www.defi.garden/tokens/jst)
 - [SUN](https://www.defi.garden/tokens/sun)
+- [TUSD](https://www.defi.garden/tokens/tusd)
 
 ## Available on
 

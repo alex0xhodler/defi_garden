@@ -1,10 +1,10 @@
 # ROXTORI DeFi Yields
 
-The highest honest ROXTORI yield right now is 4.07% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ROXTORI yield right now is 4.32% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=ea5f40b9-0d0e-5b99-a967-040a93abc9f6&src=seo_token) | Ethereum | 4.07% | $13.4M |
+| [morpho-blue →](https://www.defi.garden/?pool=ea5f40b9-0d0e-5b99-a967-040a93abc9f6&src=seo_token) | Ethereum | 4.32% | $13.43M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ROXTORI yield today?
 
-4.07% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.32% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ROXTORI pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $13.4M in total.
+1 live pool clear this page's $100K TVL floor, $13.43M in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank ROXTORI pools. This view cove
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

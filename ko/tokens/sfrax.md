@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 frax에서 APY 1.25%예요.
 
 ### SFRAX 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $102.62M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 2개이며, 합산 TVL은 $102.63M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -51,8 +51,8 @@ DefiLlama 실시간 데이터 기준, Ethereum의 frax에서 APY 1.25%예요.
 - [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [STETH](https://www.defi.garden/ko/tokens/steth)
-- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [WBETH](https://www.defi.garden/ko/tokens/wbeth)
+- [WEETH](https://www.defi.garden/ko/tokens/weeth)
 
 ## 이용 가능한 체인
 

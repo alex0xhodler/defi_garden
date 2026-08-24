@@ -1,10 +1,10 @@
 # WPLS DeFi Yields
 
-The highest honest WPLS yield right now is 82.77% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WPLS yield right now is 84.52% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=d519d056-e680-41e4-9893-34522ae262fd&src=seo_token) | Ethereum | 82.77% | $124.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=d519d056-e680-41e4-9893-34522ae262fd&src=seo_token) | Ethereum | 84.52% | $124K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WPLS yield today?
 
-82.77% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+84.52% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many WPLS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $124.8K in total.
+1 live pool clear this page's $100K TVL floor, $124K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank WPLS pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

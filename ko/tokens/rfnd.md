@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1feb1348-e710-40d3-966d-1614f158a959&src=seo_token) | Base | 0.08% | $101.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1feb1348-e710-40d3-966d-1614f158a959&src=seo_token) | Base | 0.08% | $103.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v3에서 APY 0.08%예요.
 
 ### RFND 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $101.3K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $103.9K예요.
 
 ### 이 수익률은 안전한가요?
 

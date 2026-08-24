@@ -1,29 +1,29 @@
 # MOBY DeFi Yields
 
-The highest honest MOBY yield right now is 17.25% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOBY yield right now is 14.51% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 17.25% | $354.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.63% | $120.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 14.51% | $352.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.61% | $123.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.63% APY, $120.3K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 17.25% APY, $354.5K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.61% APY, $123.4K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 14.51% APY, $352.2K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.63% | $120.3K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 17.25% | $354.5K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token) | Ethereum | 0.61% | $123.4K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token) | Solana | 14.51% | $352.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MOBY shows up in 2 pools here, with rates from 0.63% to 17.25% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+MOBY shows up in 2 pools here, with rates from 0.61% to 14.51% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.44% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 3.53% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 17.25% | 6.85% | Base rate |
-| uniswap-v3 | 0.63% | 0.03% | Base rate |
+| raydium-amm | 14.51% | 7.01% | Base rate |
+| uniswap-v3 | 0.61% | 0.05% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MOBY yield today?
 
-17.25% APY on raydium-amm (Solana), based on live DefiLlama data.
+14.51% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MOBY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $474.9K in total.
+2 live pools clear this page's $100K TVL floor, $475.5K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MOBY pools have the most stable APY history?
 
-Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.63% APY, $120.3K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 17.25% APY, $354.5K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (Ethereum), 0.61% APY, $123.4K TVL, https://www.defi.garden/?pool=3825a5cc-3d60-452e-ac5d-9df1c678221d&src=seo_token; raydium-amm (Solana), 14.51% APY, $352.2K TVL, https://www.defi.garden/?pool=9c70ed31-a89a-4c6b-b421-6cff1cf6a063&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
@@ -60,8 +60,8 @@ Based on APY history only, MOBY's lower-variability candidates are uniswap-v3 (E
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

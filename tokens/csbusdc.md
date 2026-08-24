@@ -1,10 +1,10 @@
 # CSBUSDC DeFi Yields
 
-The highest honest CSBUSDC yield right now is 13.70% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CSBUSDC yield right now is 11.89% on balancer-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 13.70% | $962.3K |
+| [balancer-v3 →](https://www.defi.garden/?pool=a06aeaa0-2876-46b2-afc2-94e9a7a5559d&src=seo_token) | Hyperliquid L1 | 11.89% | $962.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CSBUSDC yield today?
 
-13.70% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
+11.89% APY on balancer-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many CSBUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $962.3K in total.
+1 live pool clear this page's $100K TVL floor, $962.9K in total.
 
 ### Are these rates safe?
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank CSBUSDC pools. This view cove
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on

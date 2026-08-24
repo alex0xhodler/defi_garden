@@ -4,7 +4,7 @@ The highest honest BOLDUSDC yield right now is 6.67% on yearn-finance (Ethereum)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yearn-finance →](https://www.defi.garden/?pool=58259c5c-232c-42d7-aadc-f750db7a9458&src=seo_token) | Ethereum | 6.67% | $366.3K |
+| [yearn-finance →](https://www.defi.garden/?pool=58259c5c-232c-42d7-aadc-f750db7a9458&src=seo_token) | Ethereum | 6.67% | $366.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BOLDUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $366.3K in total.
+1 live pool clear this page's $100K TVL floor, $366.2K in total.
 
 ### Are these rates safe?
 
@@ -37,8 +37,8 @@ There is not enough qualifying APY history to rank BOLDUSDC pools. This view cov
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
 - [WBETH](https://www.defi.garden/tokens/wbeth)
+- [WEETH](https://www.defi.garden/tokens/weeth)
 
 ## Available on
 

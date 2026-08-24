@@ -4,7 +4,7 @@ The highest honest MEM yield right now is 0.01% on dedust (TON), among 2 pools a
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.01% | $212.2K |
+| [dedust →](https://www.defi.garden/?pool=e421988e-2475-44ce-8609-c7a0acedb701&src=seo_token) | TON | 0.01% | $210.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MEM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $427.3K in total.
+2 live pools clear this page's $100K TVL floor, $427K in total.
 
 ### Are these rates safe?
 

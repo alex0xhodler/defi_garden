@@ -1,10 +1,10 @@
 # IGRA DeFi Yields
 
-The highest honest IGRA yield right now is 32.44% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest IGRA yield right now is 31.58% on zealousswap (Igra), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token) | Igra | 32.44% | $122K |
+| [zealousswap →](https://www.defi.garden/?pool=7503a92f-39bb-4971-b0c1-19db426a8def&src=seo_token) | Igra | 31.58% | $122K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest IGRA yield today?
 
-32.44% APY on zealousswap (Igra), based on live DefiLlama data.
+31.58% APY on zealousswap (Igra), based on live DefiLlama data.
 
 ### How many IGRA pools clear the TVL floor?
 
@@ -38,7 +38,7 @@ There is not enough qualifying APY history to rank IGRA pools. This view covers 
 - [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [STETH](https://www.defi.garden/tokens/steth)
-- [WEETH](https://www.defi.garden/tokens/weeth)
+- [WBETH](https://www.defi.garden/tokens/wbeth)
 
 ## Available on
 

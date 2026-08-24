@@ -1,10 +1,10 @@
 # EGG DeFi Yields
 
-The highest honest EGG yield right now is 0.04% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest EGG yield right now is 30.94% on hyperswap-v3 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v3 →](https://www.defi.garden/?pool=ad01c5ec-79fd-53d9-8d2f-24ca24be4843&src=seo_token) | Hyperliquid L1 | 0.04% | $229.5K |
+| [hyperswap-v3 →](https://www.defi.garden/?pool=ad01c5ec-79fd-53d9-8d2f-24ca24be4843&src=seo_token) | Hyperliquid L1 | 30.94% | $209K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest EGG yield today?
 
-0.04% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
+30.94% APY on hyperswap-v3 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many EGG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $229.5K in total.
+1 live pool clear this page's $100K TVL floor, $209K in total.
 
 ### Are these rates safe?
 
@@ -36,8 +36,8 @@ There is not enough qualifying APY history to rank EGG pools. This view covers A
 - [KHYPE](https://www.defi.garden/tokens/khype)
 - [WHYPE](https://www.defi.garden/tokens/whype)
 - [WSTHYPE](https://www.defi.garden/tokens/wsthype)
-- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [THBILL](https://www.defi.garden/tokens/thbill)
+- [USDT0](https://www.defi.garden/tokens/usdt0)
 - [UBTC](https://www.defi.garden/tokens/ubtc)
 
 ## Available on
