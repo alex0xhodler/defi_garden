@@ -1,329 +1,129 @@
 # 🌱 DeFi Garden
 
-**Discover the highest yielding DeFi opportunities across all blockchain networks.**
+**Calm, honest DeFi yield discovery and goal-based savings planning.**
 
-DeFi Garden is a modern, responsive web application that helps users find the best yield farming opportunities in the decentralized finance ecosystem. Built with React and featuring a beautiful neumorphic design, it provides real-time data from the Defillama API to present lending, staking, and liquidity pool opportunities in an intuitive, searchable interface.
+DeFi Garden is a static, zero-backend, zero-build-step web application built on the DefiLlama yields API, designed for cautious savers and DeFi operators who value trust, realistic projections, and mathematical transparency over speculative hype.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://www.defi.garden)
-[![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-[![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
-
-## ✨ Features
-
-### 🔍 **Smart Search & Discovery**
-- **Natural Language Processing**: Type queries like "USDC yields on Base" or "best ETH staking"
-- **Intelligent Autocomplete**: Context-aware token suggestions with debounced search
-- **Dual Search Modes**: Token-first or Chain-first discovery workflows
-- **"I'm Feeling Degen" Button**: Quick exploration of high-yield opportunities
-
-### 🎯 **Advanced Filtering System**
-- **Multi-Chain Support**: Filter across 15+ blockchain networks
-- **Pool Type Categories**: Lending, LP/DEX, Staking, Yield Farming
-- **TVL & APY Filters**: Set minimum thresholds for Total Value Locked and Annual Percentage Yield
-- **Real-time Results**: Instant filtering with pagination support
-
-### 📊 **Comprehensive Pool Information**
-- **Detailed Pool Cards**: Symbol, protocol, chain, TVL, and APY breakdown
-- **Pool Detail Pages**: In-depth analysis with historical data and risk metrics
-- **Yield Calculator**: Interactive calculator for investment projections
-- **Direct Protocol Access**: One-click redirects to protocol interfaces with referral tracking
-
-### 🎨 **Modern Design & UX**
-- **Neumorphic Design System**: Beautiful, tactile interface with depth and shadows
-- **Dark/Light Mode**: System-aware theme switching with persistent preferences
-- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
-- **Smooth Animations**: Polished micro-interactions and state transitions
-- **Accessibility First**: WCAG compliant with keyboard navigation support
-
-### ⚡ **Performance & SEO**
-- **Instant Loading**: No build tools, direct HTML/CSS/JS execution
-- **Background Data Loading**: Non-blocking API calls for faster perceived performance
-- **SEO Optimized**: Dynamic meta tags, structured data, and sitemap generation
-- **PWA Ready**: Service worker support for offline functionality
-
-## 🚀 Live Demo
-
-Experience DeFi Garden at **[www.defi.garden](https://www.defi.garden)**
-
-## 🛠️ Technology Stack
-
-### Frontend
-- **React 18** - Component library with hooks pattern
-- **Vanilla CSS** - Custom neumorphic design system with CSS custom properties
-- **ES6+ JavaScript** - Modern JavaScript with React patterns
-- **Babel Standalone** - Client-side JSX transformation
-
-### Data & APIs
-- **[Defillama Yields API](https://api-docs.defillama.com/)** - Real-time DeFi pool data
-- **[Defillama Protocols API](https://api-docs.defillama.com/)** - Protocol information and URLs
-- **LocalStorage Caching** - Performance optimization for protocol data
-
-### Architecture
-- **Static Site Generation** - No server required, deployable anywhere
-- **Client-Side Routing** - URL state management with history API
-- **Component-Based Design** - Modular React components with separation of concerns
-
-## 📁 Project Structure
-
-```
-defi-garden-neumorphic/
-├── 📄 index.html              # Main HTML entry point
-├── ⚛️ app.js                  # Core React application
-├── 📦 PoolDetail.js           # Pool detail page component
-├── 🎨 style.css               # Main stylesheet with neumorphic design
-├── 🎨 pool-detail-styles.css  # Pool detail specific styles
-├── 📋 package.json            # Project metadata and scripts
-├── 🗺️ sitemap.xml             # SEO sitemap
-├── 🤖 robots.txt              # Search engine directives
-├── 📚 CLAUDE.md               # Development documentation
-└── 📖 README.md               # This file
-```
-
-## 🏃‍♂️ Quick Start
-
-### Prerequisites
-- **Python 3.x** (for local development server)
-- **Git** (for version control)
-- **Modern Web Browser** (Chrome, Firefox, Safari, Edge)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/alex0xhodler/defi_garden.git
-   cd defi_garden
-   ```
-
-2. **Start the development server**
-   ```bash
-   # Using Python (recommended)
-   python -m http.server 8000
-   
-   # Or using Node.js
-   npx serve .
-   
-   # Or using PHP
-   php -S localhost:8000
-   ```
-
-3. **Open your browser**
-   Navigate to `http://localhost:8000`
-
-That's it! No build process, no dependencies to install. The application runs directly in the browser.
-
-## 🔧 Development Guide
-
-### Code Structure
-
-#### **Main Application (`app.js`)**
-- **Component State Management**: React hooks for all application state
-- **API Integration**: Background fetching of pool and protocol data
-- **Search Logic**: Natural language processing and token matching
-- **Filtering System**: Multi-criteria filtering with URL state persistence
-- **Theme Management**: Dark/light mode with system preference detection
-
-#### **Pool Detail Component (`PoolDetail.js`)**
-- **Detailed Pool Views**: In-depth analysis and metrics
-- **Interactive Elements**: Yield calculator, protocol navigation
-- **Performance Analytics**: APY breakdowns and historical context
-
-#### **Styling System (`style.css` & `pool-detail-styles.css`)**
-- **CSS Custom Properties**: Theme variables for consistent design
-- **Neumorphic Components**: Depth-based shadow system
-- **Responsive Breakpoints**: Mobile-first responsive design
-- **Animation System**: Smooth transitions and micro-interactions
-
-### Key Features Implementation
-
-#### **Natural Language Search**
-```javascript
-// Context-aware token extraction
-const parseNaturalLanguageQuery = (query, allTokens, allChains) => {
-  // Position-based scoring for better token identification
-  // Chain context separation ("on", "chain", "network")
-  // Common token prioritization (USDC, ETH, BTC, etc.)
-}
-```
-
-#### **Neumorphic Design System**
-```css
-/* Consistent shadow system */
-:root {
-  --neuro-shadow-raised: inset -2px -2px 6px var(--shadow-light), 
-                         inset 2px 2px 6px var(--shadow-dark);
-  --neuro-shadow-pressed: inset 2px 2px 6px var(--shadow-dark), 
-                          inset -2px -2px 6px var(--shadow-light);
-}
-```
-
-#### **Performance Optimizations**
-- **Debounced Search**: 300ms delay prevents excessive API calls
-- **Memoized Calculations**: `useMemo` for expensive filtering operations
-- **Background Loading**: Non-blocking UI with progressive data loading
-- **Efficient Pagination**: Client-side pagination for large datasets
-
-### Available Scripts
-
-```bash
-# Development server
-npm run dev              # Start local development server
-npm run serve           # Alternative development server
-
-# SEO & Sitemap
-npm run sitemap         # Generate sitemap.xml
-npm run sitemap:validate # Validate generated sitemap
-
-# LLM Files
-npm run generate:llms   # Generate llms.txt and llms-full.txt
-```
-
-### AI Assistant Integration
-
-DeFi Garden includes cutting-edge AI assistant integration through `llms.txt` and `llms-full.txt` files:
-
-#### **LLM Files Generation**
-- **`llms.txt`**: Concise overview optimized for AI assistants
-- **`llms-full.txt`**: Comprehensive site index with all URLs and live yield data
-- **Daily Updates**: Automatically generated via GitHub Actions alongside sitemap updates
-- **High-Yield Data**: Includes real-time top-performing pools from DefiLlama API
-
-#### **Environment Variables**
-```bash
-SITEMAP_PATH=./sitemap.xml           # Path to sitemap.xml file
-LLMS_OUTPUT_DIR=./                   # Output directory for LLM files
-DEFILLAMA_YIELDS_URL=https://yields.llama.fi/pools  # DefiLlama API endpoint
-```
-
-#### **AI Crawler Support**
-The enhanced `robots.txt` explicitly allows AI assistant crawlers:
-- **OpenAI**: `OAI-SearchBot`, `ChatGPT-User`
-- **Perplexity**: `PerplexityBot`, `Perplexity-User`
-- **References**: Direct links to `llms.txt` and `llms-full.txt` for discovery
-
-### Environment Configuration
-
-#### **Theme Customization**
-Modify CSS custom properties in `style.css`:
-```css
-:root {
-  --color-primary: #21808D;      # Primary brand color
-  --color-background: #F0F2F5;   # Light mode background
-  --color-text: #1F2937;         # Primary text color
-}
-
-[data-theme="dark"] {
-  --color-background: #1F2121;   # Dark mode background
-  --color-text: #F9FAFB;         # Dark mode text
-}
-```
-
-#### **API Configuration**
-Default APIs are configured in `app.js`:
-```javascript
-const YIELDS_API = 'https://yields.llama.fi/pools';
-const PROTOCOLS_API = 'https://api.llama.fi/protocols';
-```
-
-## 🚀 Deployment
-
-DeFi Garden is a static web application that can be deployed to any hosting service:
-
-### **Recommended Platforms**
-- **[Netlify](https://netlify.com)** - Automatic deployments from Git
-- **[Vercel](https://vercel.com)** - Zero-configuration deployment
-- **[GitHub Pages](https://pages.github.com)** - Free hosting for public repositories
-- **[Cloudflare Pages](https://pages.cloudflare.com)** - Global edge deployment
-
-### **Deployment Steps**
-1. **Build artifacts** (none required - static files)
-2. **Upload files** to hosting service
-3. **Configure domain** and SSL certificates
-4. **Set cache headers** for optimal performance
-
-### **Performance Recommendations**
-- **Enable Gzip compression** for CSS/JS files
-- **Set cache headers** for static assets (1 year)
-- **Use CDN** for global content delivery
-- **Enable HTTP/2** for improved loading speed
-
-## 📊 API Reference
-
-### **Defillama Yields API**
-```javascript
-// Endpoint: https://yields.llama.fi/pools
-// Returns: Array of pool objects with yield data
-
-{
-  pool: "unique-pool-id",
-  chain: "Ethereum",
-  project: "Aave",
-  symbol: "USDC",
-  tvlUsd: 1500000000,
-  apyBase: 4.2,
-  apyReward: 1.8,
-  // ... additional fields
-}
-```
-
-### **Defillama Protocols API**
-```javascript
-// Endpoint: https://api.llama.fi/protocols
-// Returns: Array of protocol objects with metadata
-
-{
-  name: "Aave",
-  url: "https://app.aave.com",
-  description: "Decentralized lending protocol",
-  // ... additional fields
-}
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our contributing guidelines:
-
-### **Development Workflow**
-1. **Fork the repository**
-2. **Create feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Make changes** with clear, descriptive commits
-4. **Test thoroughly** across different browsers and devices
-5. **Submit pull request** with detailed description
-
-### **Code Style Guidelines**
-- **React Components**: Functional components with hooks
-- **CSS**: BEM methodology with neumorphic design principles
-- **JavaScript**: ES6+ features, descriptive variable names
-- **Comments**: Document complex logic and business rules
-
-### **Testing Checklist**
-- [ ] Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
-- [ ] Responsive design on mobile, tablet, desktop
-- [ ] Accessibility with keyboard navigation
-- [ ] Performance with large datasets
-- [ ] Theme switching functionality
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **[DeFiLlama](https://defillama.com)** - Providing comprehensive DeFi data APIs
-- **[React Team](https://reactjs.org)** - Modern component library
-- **DeFi Community** - Inspiration and feedback for better user experience
-
-## 📞 Support & Contact
-
-- **Website**: [www.defi.garden](https://www.defi.garden)
-- **Issues**: [GitHub Issues](https://github.com/alex0xhodler/defi_garden/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/alex0xhodler/defi_garden/discussions)
+[![Live Demo](https://img.shields.io/badge/Live-www.defi.garden-3B82F6?style=for-the-badge)](https://www.defi.garden)
+[![MIT License](https://img.shields.io/badge/License-MIT-gray?style=for-the-badge)](LICENSE)
+[![React 18 UMD](https://img.shields.io/badge/React-18%20UMD-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 
 ---
 
-<div align="center">
+## 🌟 The Two Core Faces of DeFi Garden
 
-**[🌱 Explore DeFi Garden](https://www.defi.garden)** | **[📖 Documentation](https://github.com/alex0xhodler/defi_garden/wiki)** | **[🐛 Report Bug](https://github.com/alex0xhodler/defi_garden/issues)**
+DeFi Garden serves two distinct workflows through an inline, zero-flash IA router (`window.__APP_MODE` in `home.html`):
 
-Made with ❤️ by the DeFi Garden team
+### 1. 🪴 Garden Planner (Default Experience — `/` and `plan.html`)
+- **Goal-First Conversational Savings:** Plan savings around real-life goals (subscriptions, gadgets, life milestones) rather than chasing abstract APY numbers.
+- **Yield-Funded Paradigm:** *"Buy it outright and the money's gone. Garden it and you keep the money AND get the thing."*
+- **Blended Yield Rates:** Calculates honest "forever numbers" — the capital required so ongoing live yield pays recurring bills automatically.
+- **Degen Honesty:** Applies a mandatory **⅓ decay haircut** to variable farm/reward emissions, ensuring users plan around realistic long-term carry.
 
-</div>
+### 2. 📊 Analytics & Yield Discovery (`/?token=`, `/?chain=`, `/?pool=`, `/?app=1`)
+- **Multi-Chain Pool Explorer:** Real-time yield monitoring across 50+ blockchains (Ethereum, Arbitrum, Base, Hyperliquid, Solana, etc.) and all major protocol types (Lending, Staking, LP/DEX, Yield Farming).
+- **Deep Pool Breakdown (`PoolDetail.js`):** In-depth pool analytics, 30-day mean APY tracking, base vs. reward emission separation, and impermanent loss risk indicators.
+- **Funding Harvest Module (`/hype-harvest.html` / `/?module=hype-harvest`):** Delta-neutral cash-and-carry funding harvest calculator for Hyperliquid perps with live basis spread tracking and dual-oracle divergence tripwires.
+
+---
+
+## 🛡️ Trust Rails (The Core Moat)
+
+Every metric rendered across DeFi Garden derives from live on-chain and API data through strict, non-negotiable trust rails:
+
+1. **`APY_SANITY_LIMIT = 1000%`:** Anomalous, short-lived spikes can never enter a plan. In analytics, anomalous pools are demoted, flagged with `⚠`, and forced to high-risk classification.
+2. **`DEFAULT_MIN_TVL = $100K`:** Low-liquidity pools below the safety floor are filtered out to protect savers from illiquid exits and sudden deprecations.
+3. **Dual-Oracle Divergence Guard:** Modules verify mark vs. oracle price divergence ($<15\text{ bps}$ tripwire) to alert on basis dislocation and squeeze risk.
+4. **Deterministic Math Layer:** LLMs may narrate or explain mechanisms, but numbers, projections, and compounded yields are calculated deterministically.
+
+---
+
+## 🎨 Design System — "Quiet"
+
+DeFi Garden uses the **"Quiet"** design system — a restrained, clean-minimal, table-first interface designed for clarity and focus:
+
+- **Surface Tokens (`--ui-*`):** 
+  - Backgrounds: `--ui-bg` (`#F7F8FA` light / `#161A20` dark), `--ui-surface` (`#FFFFFF` / `#1E242C`), `--ui-surface-muted`, `--ui-surface-sunken`.
+  - Separation: Single-pixel hairline borders (`--ui-border: #E4E7EE`, `--ui-border-strong: #CBD2DF`).
+  - Text: High-contrast hierarchy (`--ui-text: #10151F`, `--ui-text-secondary: #5A6478`, `--ui-text-muted: #8A93A6`).
+  - Accents: Fixed trust-blue palette (`--ui-accent: #3B82F6`, `--ui-accent-hover: #2563EB`, `--ui-accent-soft: #EFF5FF`).
+  - Radii: Clean geometric squircles (`--ui-radius-sm: 8px`, `--ui-radius-md: 12px`, `--ui-radius-lg: 16px`, `--ui-radius-pill: 999px`).
+- **No Heavy Shadows or Skeuomorphic Skeins:** Depth is created through crisp hairline borders and subtle surface tone steps, not artificial dual-direction shadows or background gradients.
+- **Physical Press Physics:** Interactive controls sink 1px on `:active` (`transform: translateY(1px)`), respecting `prefers-reduced-motion`.
+- **First-Class Bilingual Support (`translations.js`):** Complete English (`en`) and Korean (`ko`) localization synchronized across all user-facing strings.
+
+---
+
+## 🛠️ Architecture & Technology Stack
+
+- **Zero Build Step:** Runs natively on vanilla web standards. React 18 UMD loaded via script tag; components written in pure `React.createElement` (no JSX compilation step required).
+- **Data Ingestion:** Client-side integration with `https://yields.llama.fi/pools` and Hyperliquid Info API (`https://api.hyperliquid.xyz/info`).
+- **State Management:**
+  - Theme: `localStorage.getItem('theme')` with `data-theme="light|dark"` attribute on `<html>`.
+  - Language: URL param `?lang=` + `localStorage.getItem('defi-garden-lang')`.
+  - Saved Plan: `localStorage.getItem('garden-plan')`.
+- **SEO & Machine Readability:**
+  - Automated dynamic sitemaps (`generate-sitemap.js`).
+  - AI Context endpoints: `llms.txt` and `llms-full.txt` (`generate-llms.js`).
+  - Model Context Protocol (MCP) server integration (`mcp_server.js`).
+
+---
+
+## 📁 Repository Structure
+
+```
+defi_garden/
+├── home.html                   # Master router & analytics app shell
+├── plan.html                   # Standalone Garden Planner entry
+├── hype-harvest.html           # HYPE Funding Harvest module
+├── planner.js                  # Conversational Garden Planner engine
+├── app.js                      # Core analytics grid & pool filtering
+├── PoolDetail.js               # In-depth pool analytics & calculator
+├── hype-harvest.js             # HYPE funding harvest React UMD module
+├── translations.js             # Bilingual dictionary (EN + KO)
+├── translations.min.js         # Production-minified translation dictionary
+├── style.css                   # "Quiet" design system tokens & base styles
+├── planner-styles.css          # Planner-specific layout styles
+├── pool-detail-styles.css      # Pool detail drawer styles
+├── hype-harvest.css            # Funding harvest layout styles
+├── trust-rails.js              # Shared trust-rail constants
+├── canonical.js                # URL canonicalization logic
+├── keeper/                     # Autonomous execution & risk keeper scripts
+│   ├── keeper_engine.py        # Core risk keeper engine
+│   └── hype_funding_harvest.py # Hyperliquid HYPE funding rate worker
+├── tests/                      # Python unit & integration test suite
+│   ├── test_keeper_engine.py
+│   └── test_keeper_hype_harvest.py
+└── test_*.js                   # JavaScript offline test suite (71+ test files)
+```
+
+---
+
+## 🧪 Development & Testing
+
+DeFi Garden requires no build pipeline. Serve locally with any static HTTP server:
+
+```bash
+# Start local server
+python3 -m http.server 8000
+# Open in browser: http://localhost:8000
+```
+
+### Running Tests
+
+```bash
+# Run all unit tests in fast plain mode
+npm run test:fast
+
+# Run the complete test suite (plain + browser)
+npm test
+
+# Minify production assets
+npm run minify
+```
+
+---
+
+## 📜 License
+
+MIT License. See [LICENSE](LICENSE) for details.

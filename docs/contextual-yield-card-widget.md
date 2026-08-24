@@ -14,7 +14,7 @@ The **Contextual Yield-Funded Virtual Card Terminal** connects idle DeFi pool AP
 1. **Context Alert Header**: Displays live pool context (Token, Chain, Net APY, Risk rating, TVL) and Early Access alert badge.
 2. **Deposit Simulator Slider**: Interactive range slider ($1,000 to $25,000, default $4,000) with live monthly yield output.
 3. **Geo-Adaptive Subscription Unlock Grid**: Automatically selects KRW (₩) catalog for Korean users (`Asia/Seoul` / `ko` locale) and USD ($) catalog for global users. Rungs dynamically switch between `COVERED` and `LOCKED`. Clicking a locked rung auto-adjusts the slider to the required capital.
-4. **Virtual Visa Card Preview**: Neumorphic card mockup with official Visa vector mark, metallic gold security chip, dynamic subscription name, network/yield info, and monthly spend limit cap badge.
+4. **Virtual Visa Card Preview**: Quiet design system card mockup with official Visa vector mark, metallic gold security chip, dynamic subscription name, network/yield info, and monthly spend limit cap badge.
 5. **Reservation Terminal**: Validates email, persists waitlist registration to `localStorage['defi_garden_card_waitlist']`, emits Mixpanel telemetry (`yield_card_reserved`), and presents confirmation receipt state.
 
 ---

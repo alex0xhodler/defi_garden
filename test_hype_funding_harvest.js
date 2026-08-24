@@ -97,7 +97,7 @@ assert.ok(htmlContent.includes('hype-harvest.css'), 'HTML must include hype-harv
 assert.ok(htmlContent.includes('translations.js'), 'HTML must include translations.js');
 
 const cssContent = fs.readFileSync(path.join(__dirname, 'hype-harvest.css'), 'utf-8');
-assert.ok(cssContent.includes('--neuro-shadow-raised'), 'CSS must use neumorphic design system tokens');
+assert.ok(cssContent.includes('--ui-border'), 'CSS must use Quiet design system tokens (--ui-border)');
 
 console.log('  ✓ (d) HTML/CSS asset links and design system tokens verified');
 
