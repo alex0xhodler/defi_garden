@@ -1,10 +1,10 @@
 # LETSBONK DeFi Yields
 
-The highest honest LETSBONK yield right now is 1.41% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest LETSBONK yield right now is 1.01% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=7ee7c23e-5a5e-482e-a3e0-2261463cfe0f&src=seo_token) | Solana | 1.41% | $159.6K |
+| [raydium-amm →](https://www.defi.garden/?pool=7ee7c23e-5a5e-482e-a3e0-2261463cfe0f&src=seo_token) | Solana | 1.01% | $155.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest LETSBONK yield today?
 
-1.41% APY on raydium-amm (Solana), based on live DefiLlama data.
+1.01% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many LETSBONK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $159.6K in total.
+1 live pool clear this page's $100K TVL floor, $155.5K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank LETSBONK pools. This view cov
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

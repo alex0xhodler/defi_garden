@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=3b910461-8f90-425b-af3f-1f2ce05e607a&src=seo_token) | Base | 0.03% | $326.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=3b910461-8f90-425b-af3f-1f2ce05e607a&src=seo_token) | Base | 0.03% | $332.7K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 0.03%예요.
 
 ### GTCBBTCC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $326.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $332.7K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,14 +34,14 @@ DefiLlama 실시간 데이터 기준, Base의 morpho-blue에서 APY 0.03%예요.
 ## 관련 토큰
 
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

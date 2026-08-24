@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $747.2K in total.
+2 live pools clear this page's $100K TVL floor, $747.3K in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank CUSDC pools. This view covers
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

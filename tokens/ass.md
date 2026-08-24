@@ -1,10 +1,10 @@
 # ASS DeFi Yields
 
-The highest honest ASS yield right now is 2.17% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ASS yield right now is 2.07% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=14b1248e-67e1-4598-9beb-f42c0dfd8862&src=seo_token) | Solana | 2.17% | $102.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=14b1248e-67e1-4598-9beb-f42c0dfd8862&src=seo_token) | Solana | 2.07% | $100.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ASS yield today?
 
-2.17% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.07% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many ASS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.9K in total.
+1 live pool clear this page's $100K TVL floor, $100.2K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank ASS pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

@@ -1,8 +1,8 @@
 # TBTC — hydration-dex on Polkadot
 
-**Total APY:** 5.55% (0.33% Base · + 5.23% Rewards)
+**Total APY:** 5.56% (0.33% Base · + 5.23% Rewards)
 
-**TVL:** $2.17M
+**TVL:** $2.11M
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on hydration-dex](https://hydration.net/?ref=defi.garden)
 
-Last updated August 23, 2026
+Last updated August 24, 2026

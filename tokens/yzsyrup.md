@@ -4,7 +4,7 @@ The highest honest YZSYRUP yield right now is 9.96% on yuzu-money (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=f455e212-39fd-5555-aa9b-45fc31d2d506&src=seo_token) | Ethereum | 9.96% | $3.85M |
+| [yuzu-money →](https://www.defi.garden/?pool=f455e212-39fd-5555-aa9b-45fc31d2d506&src=seo_token) | Ethereum | 9.96% | $3.86M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YZSYRUP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.85M in total.
+1 live pool clear this page's $100K TVL floor, $3.86M in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank YZSYRUP pools. This view cove
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

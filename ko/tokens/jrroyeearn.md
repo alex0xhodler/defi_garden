@@ -1,10 +1,10 @@
 # JRROYEEARN 디파이 수익률
 
-현재 JRROYEEARN의 가장 높은 정직한 수익률은 Ethereum의 royco-v2에서 13.43%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 JRROYEEARN의 가장 높은 정직한 수익률은 Ethereum의 royco-v2에서 13.37%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=cc8066c2-543a-569a-a207-486a38c9fc48&src=seo_token) | Ethereum | 13.43% | $180.8K |
+| [royco-v2 →](https://www.defi.garden/?pool=cc8066c2-543a-569a-a207-486a38c9fc48&src=seo_token) | Ethereum | 13.37% | $180.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 JRROYEEARN의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 13.43%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 13.37%예요.
 
 ### JRROYEEARN 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Ethereum의 royco-v2에서 APY 13.43%예�
 
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

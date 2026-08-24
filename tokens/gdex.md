@@ -4,7 +4,7 @@ The highest honest GDEX yield right now is 0.15% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=7b804cb3-f6ad-4db6-908a-a3458247df1e&src=seo_token) | Base | 0.15% | $296.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7b804cb3-f6ad-4db6-908a-a3458247df1e&src=seo_token) | Base | 0.15% | $298.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GDEX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $296.8K in total.
+1 live pool clear this page's $100K TVL floor, $298.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank GDEX pools. This view covers 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

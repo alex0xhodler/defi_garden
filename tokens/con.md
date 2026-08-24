@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CON pools. This view covers A
 
 - [Heco](https://www.defi.garden/chains/heco)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

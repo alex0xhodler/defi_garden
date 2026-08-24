@@ -5,29 +5,29 @@ The highest honest CBXRP yield right now is 0.05% on moonwell-lending (Base), am
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.05% | $2.37M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 346.55% | $526.7K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 616.52% | $194.4K |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 566.57% | $140K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 213.61% | $506.6K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 99.81% | $249.4K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 126.00% | $193K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CBXRP's lower-variability candidates are moonwell-lending (Base), 0.05% APY, $2.37M TVL, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; aerodrome-slipstream (Base), 346.55% APY, $526.7K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; aerodrome-slipstream (Base), 616.52% APY, $194.4K TVL, https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token; aerodrome-slipstream (Base), 566.57% APY, $140K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBXRP's lower-variability candidates are moonwell-lending (Base), 0.05% APY, $2.37M TVL, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; aerodrome-slipstream (Base), 213.61% APY, $506.6K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; aerodrome-slipstream (Base), 126.00% APY, $193K TVL, https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token; aerodrome-slipstream (Base), 99.81% APY, $249.4K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.05% | $2.37M |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 346.55% | $526.7K |
-| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 616.52% | $194.4K |
-| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 566.57% | $140K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 213.61% | $506.6K |
+| 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token) | Base | 126.00% | $193K |
+| 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 99.81% | $249.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-CBXRP shows up in 4 pools here, with rates from 0.05% to 616.52% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+CBXRP shows up in 4 pools here, with rates from 0.05% to 213.61% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-4 of these 4 pools have a trustworthy 30-day average on file, with a median of 35.73% — a useful check against today's number for whether the rate is steady or just having a good day.
+4 of these 4 pools have a trustworthy 30-day average on file, with a median of 43.93% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 3 of 4 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -35,10 +35,10 @@ CBXRP shows up in 4 pools here, with rates from 0.05% to 616.52% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| moonwell-lending | 0.05% | 0.12% | 93.86% incentives |
-| aerodrome-slipstream | 346.55% | 79.27% | 3.60% incentives |
-| aerodrome-slipstream | 616.52% | 21.81% | Base rate |
-| aerodrome-slipstream | 566.57% | 49.64% | 19.85% incentives |
+| moonwell-lending | 0.05% | 0.11% | 93.94% incentives |
+| aerodrome-slipstream | 213.61% | 93.50% | 6.88% incentives |
+| aerodrome-slipstream | 99.81% | 58.19% | 2.93% incentives |
+| aerodrome-slipstream | 126.00% | 29.68% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -50,7 +50,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CBXRP pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $140.02M in total.
+6 live pools clear this page's $100K TVL floor, $138.53M in total.
 
 ### Are these rates safe?
 
@@ -58,19 +58,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CBXRP pools have the most stable APY history?
 
-Based on APY history only, CBXRP's lower-variability candidates are moonwell-lending (Base), 0.05% APY, $2.37M TVL, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; aerodrome-slipstream (Base), 346.55% APY, $526.7K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; aerodrome-slipstream (Base), 616.52% APY, $194.4K TVL, https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token; aerodrome-slipstream (Base), 566.57% APY, $140K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CBXRP's lower-variability candidates are moonwell-lending (Base), 0.05% APY, $2.37M TVL, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; aerodrome-slipstream (Base), 213.61% APY, $506.6K TVL, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; aerodrome-slipstream (Base), 126.00% APY, $193K TVL, https://www.defi.garden/?pool=16f57370-96da-46f5-af56-febc5f3296aa&src=seo_token; aerodrome-slipstream (Base), 99.81% APY, $249.4K TVL, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

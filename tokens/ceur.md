@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CEUR pools. This view covers 
 
 - [Celo](https://www.defi.garden/chains/celo)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

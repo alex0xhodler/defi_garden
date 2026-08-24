@@ -1,10 +1,10 @@
 # MOLT DeFi Yields
 
-The highest honest MOLT yield right now is 4.83% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MOLT yield right now is 0.69% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=53552b29-1dac-4aec-8034-c5a486b2a8a1&src=seo_token) | Base | 4.83% | $1.3M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=53552b29-1dac-4aec-8034-c5a486b2a8a1&src=seo_token) | Base | 0.69% | $1.3M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MOLT yield today?
 
-4.83% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.69% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many MOLT pools clear the TVL floor?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MOLT pools. This view covers 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

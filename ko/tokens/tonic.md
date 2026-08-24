@@ -1,31 +1,31 @@
 # TONIC 디파이 수익률
 
-현재 TONIC의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 10.47%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 TONIC의 가장 높은 정직한 수익률은 Cronos의 vvs-standard에서 5.08%이며, $100K TVL 기준을 넘는 3개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 10.47% | $196.9K |
-| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 3.00% | $190.3K |
-| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 7.04% | $188.2K |
+| [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 5.08% | $198.5K |
+| [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.52% | $192.5K |
+| [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 1.55% | $190.3K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 TONIC의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 3.00%, TVL $190.3K, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; Cronos의 vvs-standard, APY 7.04%, TVL $188.2K, https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token; Cronos의 vvs-standard, APY 10.47%, TVL $196.9K, https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TONIC의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 0.52%, TVL $192.5K, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; Cronos의 vvs-standard, APY 1.55%, TVL $190.3K, https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token; Cronos의 vvs-standard, APY 5.08%, TVL $198.5K, https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 3.00% | $190.3K |
-| 2 | [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 7.04% | $188.2K |
-| 3 | [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 10.47% | $196.9K |
+| 1 | [vvs-standard →](https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token) | Cronos | 0.52% | $192.5K |
+| 2 | [vvs-standard →](https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token) | Cronos | 1.55% | $190.3K |
+| 3 | [vvs-standard →](https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token) | Cronos | 5.08% | $198.5K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-TONIC 풀은 여기 3개가 있고, 1개 체인에서 APY가 3.00%부터 10.47%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+TONIC 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.52%부터 5.08%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.51%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 1.59%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 현재 3개 풀 모두 인센티브 없이 순수 기본 금리만 지급하고 있어요.
 
@@ -33,9 +33,9 @@ TONIC 풀은 여기 3개가 있고, 1개 체인에서 APY가 3.00%부터 10.47%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| vvs-standard | 10.47% | 5.23% | 기본 금리 |
-| vvs-standard | 3.00% | 0.82% | 기본 금리 |
-| vvs-standard | 7.04% | 1.51% | 기본 금리 |
+| vvs-standard | 5.08% | 5.40% | 기본 금리 |
+| vvs-standard | 0.52% | 0.85% | 기본 금리 |
+| vvs-standard | 1.55% | 1.59% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -43,11 +43,11 @@ TONIC 풀은 여기 3개가 있고, 1개 체인에서 APY가 3.00%부터 10.47%�
 
 ### 오늘 TONIC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 10.47%예요.
+DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 5.08%예요.
 
 ### TONIC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $575.5K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $581.3K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Cronos의 vvs-standard에서 APY 10.47%예
 
 ### TONIC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 TONIC의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 3.00%, TVL $190.3K, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; Cronos의 vvs-standard, APY 7.04%, TVL $188.2K, https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token; Cronos의 vvs-standard, APY 10.47%, TVL $196.9K, https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 TONIC의 변동성 낮은 후보는 Cronos의 vvs-standard, APY 0.52%, TVL $192.5K, https://www.defi.garden/?pool=1b4fbfb0-ef9b-4e1f-98f4-a6e6d722b108&src=seo_token; Cronos의 vvs-standard, APY 1.55%, TVL $190.3K, https://www.defi.garden/?pool=bc9be526-8ab8-4e3f-8d1e-b495d015582d&src=seo_token; Cronos의 vvs-standard, APY 5.08%, TVL $198.5K, https://www.defi.garden/?pool=c65caf84-d830-5861-aca3-1497615c12bf&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -64,10 +64,10 @@ APY 이력만 기준으로 비교한 TONIC의 변동성 낮은 후보는 Cronos�
 - [WCRO](https://www.defi.garden/ko/tokens/wcro)
 - [VVS](https://www.defi.garden/ko/tokens/vvs)
 - [CDCETH](https://www.defi.garden/ko/tokens/cdceth)
-- [USDC.E](https://www.defi.garden/ko/tokens/usdc-e)
+- [LION](https://www.defi.garden/ko/tokens/lion)
 
 ## 이용 가능한 체인
 
 - [Cronos](https://www.defi.garden/ko/chains/cronos)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

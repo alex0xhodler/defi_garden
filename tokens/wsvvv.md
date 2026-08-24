@@ -1,10 +1,10 @@
 # WSVVV DeFi Yields
 
-The highest honest WSVVV yield right now is 7.37% on lagoon (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WSVVV yield right now is 7.11% on lagoon (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [lagoon →](https://www.defi.garden/?pool=0b793ce2-99bc-4f35-9678-3baf6fb1a7ef&src=seo_token) | Base | 7.37% | $226.8K |
+| [lagoon →](https://www.defi.garden/?pool=0b793ce2-99bc-4f35-9678-3baf6fb1a7ef&src=seo_token) | Base | 7.11% | $222.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WSVVV yield today?
 
-7.37% APY on lagoon (Base), based on live DefiLlama data.
+7.11% APY on lagoon (Base), based on live DefiLlama data.
 
 ### How many WSVVV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $226.8K in total.
+1 live pool clear this page's $100K TVL floor, $222.3K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank WSVVV pools. This view covers
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

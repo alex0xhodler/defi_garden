@@ -4,7 +4,7 @@ The highest honest HBARX yield right now is 0.01% on saucerswap-v1 (Hedera), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $271.8K |
+| [saucerswap-v1 →](https://www.defi.garden/?pool=9aef43ba-4be9-4958-a186-ba03ac45e3c4&src=seo_token) | Hedera | 0.01% | $272.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HBARX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $271.8K in total.
+1 live pool clear this page's $100K TVL floor, $272.3K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank HBARX pools. This view covers
 
 - [Hedera](https://www.defi.garden/chains/hedera)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

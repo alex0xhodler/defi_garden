@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GOBTC pools. This view covers
 
 - [Algorand](https://www.defi.garden/chains/algorand)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

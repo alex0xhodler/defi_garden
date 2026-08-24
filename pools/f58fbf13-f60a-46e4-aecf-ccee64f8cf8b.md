@@ -1,8 +1,8 @@
 # FUN-DAI — quickswap-dex on Polygon
 
-**Total APY:** 0.56% (0.56% Base · + 0.00% Rewards)
+**Total APY:** 0.55% (0.55% Base · + 0.00% Rewards)
 
-**TVL:** $2.16M
+**TVL:** $2.14M
 
 **Pool Type:** LP/DEX
 
@@ -31,4 +31,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on quickswap-dex](https://quickswap.exchange/?ref=defi.garden)
 
-Last updated August 23, 2026
+Last updated August 24, 2026

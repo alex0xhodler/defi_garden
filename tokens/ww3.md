@@ -1,10 +1,10 @@
 # WW3 DeFi Yields
 
-The highest honest WW3 yield right now is 0.99% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WW3 yield right now is 3.12% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=116ca384-8e49-41cb-9795-e6b9eddc67e3&src=seo_token) | Solana | 0.99% | $389.3K |
+| [raydium-amm →](https://www.defi.garden/?pool=116ca384-8e49-41cb-9795-e6b9eddc67e3&src=seo_token) | Solana | 3.12% | $359.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest WW3 yield today?
 
-0.99% APY on raydium-amm (Solana), based on live DefiLlama data.
+3.12% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many WW3 pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $389.3K in total.
+1 live pool clear this page's $100K TVL floor, $359.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank WW3 pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

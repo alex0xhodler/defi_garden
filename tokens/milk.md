@@ -1,10 +1,10 @@
 # MILK DeFi Yields
 
-The highest honest MILK yield right now is 0.87% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MILK yield right now is 38.14% on hyperswap-v2 (Hyperliquid L1), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=382e7eaa-38af-4ef0-ae41-1c5864809033&src=seo_token) | Hyperliquid L1 | 0.87% | $110.5K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=382e7eaa-38af-4ef0-ae41-1c5864809033&src=seo_token) | Hyperliquid L1 | 38.14% | $154.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MILK yield today?
 
-0.87% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
+38.14% APY on hyperswap-v2 (Hyperliquid L1), based on live DefiLlama data.
 
 ### How many MILK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $110.5K in total.
+1 live pool clear this page's $100K TVL floor, $154.7K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank MILK pools. This view covers 
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

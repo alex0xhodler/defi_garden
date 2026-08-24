@@ -1,10 +1,10 @@
 # A0T DeFi Yields
 
-The highest honest A0T yield right now is 18.93% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest A0T yield right now is 7.91% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=60e232c8-2c54-41a1-98a4-a8be1b2c75a0&src=seo_token) | Base | 18.93% | $501.5K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=60e232c8-2c54-41a1-98a4-a8be1b2c75a0&src=seo_token) | Base | 7.91% | $494.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest A0T yield today?
 
-18.93% APY on uniswap-v4 (Base), based on live DefiLlama data.
+7.91% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many A0T pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $501.5K in total.
+1 live pool clear this page's $100K TVL floor, $494.2K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank A0T pools. This view covers A
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

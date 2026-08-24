@@ -4,18 +4,18 @@ The highest honest MWCBBTC yield right now is 0.36% on morpho-blue (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.36% | $2.1M |
-| [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.18% | $488.7K |
+| [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.36% | $2.03M |
+| [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.18% | $488.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MWCBBTC's lower-variability candidates are morpho-blue (Base), 0.18% APY, $488.7K TVL, https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token; morpho-blue (Base), 0.36% APY, $2.1M TVL, https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MWCBBTC's lower-variability candidates are morpho-blue (Base), 0.18% APY, $488.3K TVL, https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token; morpho-blue (Base), 0.36% APY, $2.03M TVL, https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.18% | $488.7K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.36% | $2.1M |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token) | Base | 0.18% | $488.3K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token) | Base | 0.36% | $2.03M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -29,8 +29,8 @@ MWCBBTC shows up in 2 pools here, with rates from 0.18% to 0.36% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 0.36% | 0.46% | 49.68% incentives |
-| morpho-blue | 0.18% | 0.23% | 97.60% incentives |
+| morpho-blue | 0.36% | 0.45% | 49.71% incentives |
+| morpho-blue | 0.18% | 0.23% | 99.38% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -42,7 +42,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many MWCBBTC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.58M in total.
+2 live pools clear this page's $100K TVL floor, $2.52M in total.
 
 ### Are these rates safe?
 
@@ -50,19 +50,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MWCBBTC pools have the most stable APY history?
 
-Based on APY history only, MWCBBTC's lower-variability candidates are morpho-blue (Base), 0.18% APY, $488.7K TVL, https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token; morpho-blue (Base), 0.36% APY, $2.1M TVL, https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MWCBBTC's lower-variability candidates are morpho-blue (Base), 0.18% APY, $488.3K TVL, https://www.defi.garden/?pool=eafdd1e6-29c2-4828-abf3-eb61f09ee2d5&src=seo_token; morpho-blue (Base), 0.36% APY, $2.03M TVL, https://www.defi.garden/?pool=4d12d743-19d5-4a26-b6d7-928caff46ff1&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

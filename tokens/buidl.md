@@ -41,7 +41,7 @@ All 8 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| blackrock-buidl | 3.59% | 3.57% | Base rate |
+| blackrock-buidl | 3.59% | 3.58% | Base rate |
 | blackrock-buidl | 3.25% | 3.23% | Base rate |
 | blackrock-buidl | 3.56% | 3.54% | Base rate |
 | blackrock-buidl | 3.56% | 3.54% | Base rate |
@@ -89,4 +89,4 @@ Based on APY history only, BUIDL's lower-variability candidates are blackrock-bu
 - [OP Mainnet](https://www.defi.garden/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/chains/arbitrum)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

@@ -1,29 +1,29 @@
 # CHIP 디파이 수익률
 
-현재 CHIP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 64.56%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 CHIP의 가장 높은 정직한 수익률은 Base의 aerodrome-slipstream에서 91.05%이며, $100K TVL 기준을 넘는 2개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 1.51% | $1.06M |
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 64.56% | $212.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 1.64% | $1.06M |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 91.05% | $210.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CHIP의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 1.51%, TVL $1.06M, https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token; Base의 aerodrome-slipstream, APY 64.56%, TVL $212.5K, https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CHIP의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 1.64%, TVL $1.06M, https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token; Base의 aerodrome-slipstream, APY 91.05%, TVL $210.1K, https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 1.51% | $1.06M |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 64.56% | $212.5K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token) | Arbitrum | 1.64% | $1.06M |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token) | Base | 91.05% | $210.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-CHIP 풀은 여기 2개가 있고, 2개 체인에서 APY가 1.51%부터 64.56%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+CHIP 풀은 여기 2개가 있고, 2개 체인에서 APY가 1.64%부터 91.05%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 46.16%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+2개 풀 중 2개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 46.75%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 2개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -31,8 +31,8 @@ CHIP 풀은 여기 2개가 있고, 2개 체인에서 APY가 1.51%부터 64.56%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v3 | 1.51% | 0.63% | 기본 금리 |
-| aerodrome-slipstream | 64.56% | 91.69% | 인센티브 54.36% |
+| uniswap-v3 | 1.64% | 0.67% | 기본 금리 |
+| aerodrome-slipstream | 91.05% | 92.83% | 인센티브 69.64% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -40,7 +40,7 @@ CHIP 풀은 여기 2개가 있고, 2개 체인에서 APY가 1.51%부터 64.56%�
 
 ### 오늘 CHIP의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 64.56%예요.
+DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 91.05%예요.
 
 ### CHIP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -52,20 +52,20 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 64.
 
 ### CHIP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CHIP의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 1.51%, TVL $1.06M, https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token; Base의 aerodrome-slipstream, APY 64.56%, TVL $212.5K, https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CHIP의 변동성 낮은 후보는 Arbitrum의 uniswap-v3, APY 1.64%, TVL $1.06M, https://www.defi.garden/?pool=1c3ccb43-3eea-457a-8d64-ed8527455167&src=seo_token; Base의 aerodrome-slipstream, APY 91.05%, TVL $210.1K, https://www.defi.garden/?pool=0ea6aa06-41a0-488f-b8de-08823fa3e435&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [SUSDS](https://www.defi.garden/ko/tokens/susds)
-- [WBTC](https://www.defi.garden/ko/tokens/wbtc)
 
 ## 이용 가능한 체인
 
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

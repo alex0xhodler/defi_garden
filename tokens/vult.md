@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank VULT pools. This view covers 
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

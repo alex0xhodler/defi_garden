@@ -1,10 +1,10 @@
 # MAG7.SSI DeFi Yields
 
-The highest honest MAG7.SSI yield right now is 19.41% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MAG7.SSI yield right now is 15.18% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=eb267ce8-5183-47b6-be35-fbb560757086&src=seo_token) | Base | 19.41% | $2.01M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=eb267ce8-5183-47b6-be35-fbb560757086&src=seo_token) | Base | 15.18% | $2.01M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest MAG7.SSI yield today?
 
-19.41% APY on uniswap-v3 (Base), based on live DefiLlama data.
+15.18% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many MAG7.SSI pools clear the TVL floor?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank MAG7.SSI pools. This view cov
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

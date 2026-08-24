@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Flow의 more-markets에서 APY 1.37%예요
 
 - [Flow](https://www.defi.garden/ko/chains/flow)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

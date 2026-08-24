@@ -4,14 +4,14 @@
 
 | 토큰 | 프로토콜 | APY | TVL |
 |---|---|---|---|
-| SUSDS | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_chain) | 3.52% | $362M |
-| USDS | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_chain) | 3.52% | $362M |
-| SUSDAI | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_chain) | 7.73% | $355.59M |
-| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_chain) | 0.04% | $198.28M |
-| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_chain) | 13.59% | $56.82M |
-| USDAI | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_chain) | 1.14% | $50.28M |
-| USDAI | [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_chain) | 7.10% | $50.28M |
-| WETH | [aave-v3 →](https://www.defi.garden/?pool=e302de4d-952e-4e18-9749-0a9dc86e98bc&src=seo_chain) | 0.90% | $47.61M |
+| SUSDS | [sky-lending →](https://www.defi.garden/?pool=3637ce7b-529b-49c1-964c-710a50b2939c&src=seo_chain) | 3.52% | $362.02M |
+| USDS | [spark-savings →](https://www.defi.garden/?pool=9d499222-a01a-45bb-bbc9-f01c7923693b&src=seo_chain) | 3.52% | $362.02M |
+| SUSDAI | [usd-ai →](https://www.defi.garden/?pool=712ce948-bd9e-4f4a-8916-b72c447f7578&src=seo_chain) | 7.73% | $355.57M |
+| WBTC | [aave-v3 →](https://www.defi.garden/?pool=7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf&src=seo_chain) | 0.04% | $198.61M |
+| WBTC.B-USDC | [gmx-v2-perps →](https://www.defi.garden/?pool=5b8c0691-b9ff-4d82-97e4-19a1247e6dbf&src=seo_chain) | 14.17% | $56.84M |
+| USDC | [aave-v3 →](https://www.defi.garden/?pool=d9fa8e14-0447-4207-9ae8-7810199dfa1f&src=seo_chain) | 2.09% | $51.25M |
+| USDAI | [pendle →](https://www.defi.garden/?pool=adc1a060-aa9b-416e-ad10-4b7d7100b42c&src=seo_chain) | 1.14% | $50.29M |
+| USDAI | [pendle →](https://www.defi.garden/?pool=2785c8d0-348b-4e8f-904e-4b02819993b9&src=seo_chain) | 7.11% | $50.29M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -23,7 +23,7 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 usd-ai에서 APY 7.73%예요.
 
 ### Arbitrum 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 470개이며, 합산 TVL은 $2.58B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 470개이며, 합산 TVL은 $2.59B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,9 +44,8 @@ DefiLlama 실시간 데이터 기준, Arbitrum의 usd-ai에서 APY 7.73%예요.
 - [USDS](https://www.defi.garden/ko/tokens/usds)
 - [SUSDAI](https://www.defi.garden/ko/tokens/susdai)
 - [WBTC](https://www.defi.garden/ko/tokens/wbtc)
+- [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [USDAI](https://www.defi.garden/ko/tokens/usdai)
 - [WBTC.B](https://www.defi.garden/ko/tokens/wbtc-b)
-- [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [WETH](https://www.defi.garden/ko/tokens/weth)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

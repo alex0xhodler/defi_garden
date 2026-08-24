@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WARPED pools. This view cover
 
 - [Sui](https://www.defi.garden/chains/sui)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

@@ -1,10 +1,10 @@
 # SRROYUSDC DeFi Yields
 
-The highest honest SRROYUSDC yield right now is 0.31% on concrete (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SRROYUSDC yield right now is 19.33% on concrete (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [concrete →](https://www.defi.garden/?pool=7081d7c4-d0df-4c68-adce-2bb210cd25e8&src=seo_token) | Ethereum | 0.31% | $11.03M |
+| [concrete →](https://www.defi.garden/?pool=7081d7c4-d0df-4c68-adce-2bb210cd25e8&src=seo_token) | Ethereum | 19.33% | $11.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -15,15 +15,15 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-SRROYUSDC shows up in 1 pools here, with rates from 0.31% to 0.31% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+SRROYUSDC shows up in 1 pools here, with rates from 19.33% to 19.33% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.42% — a useful check against today's number for whether the rate is steady or just having a good day.
+1 of these 1 pool has a trustworthy 30-day average on file, with a median of 5.84% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 1 pool pays a plain base rate right now — no incentive or reward APY mixed in.
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| concrete | 0.31% | 5.42% | Base rate |
+| concrete | 19.33% | 5.84% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -31,11 +31,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest SRROYUSDC yield today?
 
-0.31% APY on concrete (Ethereum), based on live DefiLlama data.
+19.33% APY on concrete (Ethereum), based on live DefiLlama data.
 
 ### How many SRROYUSDC pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $13.51M in total.
+2 live pools clear this page's $100K TVL floor, $13.52M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank SRROYUSDC pools. This view co
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

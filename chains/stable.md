@@ -4,7 +4,7 @@ The highest honest Stable yield right now is 6.73% on morpho-blue (Stable), amon
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| GTUSDTB | [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_chain) | 6.73% | $24.21M |
+| GTUSDTB | [morpho-blue →](https://www.defi.garden/?pool=a259a0f0-8897-4740-b3b2-0ae1041f1bf0&src=seo_chain) | 6.73% | $24.22M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -35,4 +35,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 - [GTUSDTB](https://www.defi.garden/tokens/gtusdtb)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

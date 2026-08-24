@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank AVUSDC pools. This view cover
 
 - [Avalanche](https://www.defi.garden/chains/avalanche)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

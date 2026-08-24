@@ -1,41 +1,41 @@
 # USDC 디파이 수익률
 
-현재 USDC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 18.36%이며, $100K TVL 기준을 넘는 1,550개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 USDC의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v3에서 17.67%이며, $100K TVL 기준을 넘는 1,546개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 4.81% | $2.85B |
-| [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 5.04% | $436.15M |
-| [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 5.15% | $261.49M |
-| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $256.22M |
-| [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 8.02% | $168.49M |
-| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 4.50% | $152.24M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 102.63% | $109.85M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 18.36% | $103.69M |
+| [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 4.82% | $2.85B |
+| [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 5.11% | $440.51M |
+| [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 5.15% | $261.5M |
+| [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $257.64M |
+| [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 8.02% | $168.5M |
+| [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 4.49% | $152.01M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 131.60% | $111.29M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 17.67% | $103.19M |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 USDC의 변동성 낮은 후보는 Ethereum의 pareto-credit, APY 8.02%, TVL $168.49M, https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token; Ethereum의 spark-savings, APY 3.52%, TVL $256.22M, https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token; Solana의 jupiter-lend, APY 5.04%, TVL $436.15M, https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token; Avalanche의 centrifuge-protocol, APY 5.15%, TVL $261.49M, https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token; Ethereum의 maple, APY 4.81%, TVL $2.85B, https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token; Ethereum의 fluid-lending, APY 4.50%, TVL $152.24M, https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token; Ethereum의 uniswap-v3, APY 18.36%, TVL $103.69M, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token; Base의 uniswap-v3, APY 102.63%, TVL $109.85M, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDC의 변동성 낮은 후보는 Ethereum의 pareto-credit, APY 8.02%, TVL $168.5M, https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token; Ethereum의 spark-savings, APY 3.52%, TVL $257.64M, https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token; Solana의 jupiter-lend, APY 5.11%, TVL $440.51M, https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token; Avalanche의 centrifuge-protocol, APY 5.15%, TVL $261.5M, https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token; Ethereum의 maple, APY 4.82%, TVL $2.85B, https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token; Ethereum의 fluid-lending, APY 4.49%, TVL $152.01M, https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token; Ethereum의 uniswap-v3, APY 17.67%, TVL $103.19M, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token; Base의 uniswap-v3, APY 131.60%, TVL $111.29M, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 8.02% | $168.49M |
-| 2 | [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $256.22M |
-| 3 | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 5.04% | $436.15M |
-| 4 | [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 5.15% | $261.49M |
-| 5 | [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 4.81% | $2.85B |
-| 6 | [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 4.50% | $152.24M |
-| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 18.36% | $103.69M |
-| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 102.63% | $109.85M |
+| 1 | [pareto-credit →](https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token) | Ethereum | 8.02% | $168.5M |
+| 2 | [spark-savings →](https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token) | Ethereum | 3.52% | $257.64M |
+| 3 | [jupiter-lend →](https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token) | Solana | 5.11% | $440.51M |
+| 4 | [centrifuge-protocol →](https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token) | Avalanche | 5.15% | $261.5M |
+| 5 | [maple →](https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token) | Ethereum | 4.82% | $2.85B |
+| 6 | [fluid-lending →](https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token) | Ethereum | 4.49% | $152.01M |
+| 7 | [uniswap-v3 →](https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token) | Ethereum | 17.67% | $103.19M |
+| 8 | [uniswap-v3 →](https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token) | Base | 131.60% | $111.29M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-USDC 풀은 여기 8개가 있고, 4개 체인에서 APY가 3.52%부터 102.63%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+USDC 풀은 여기 8개가 있고, 4개 체인에서 APY가 3.52%부터 131.60%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.15%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.14%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 1개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
@@ -43,14 +43,14 @@ USDC 풀은 여기 8개가 있고, 4개 체인에서 APY가 3.52%부터 102.63%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| maple | 4.81% | 4.91% | 기본 금리 |
-| jupiter-lend | 5.04% | 5.01% | 인센티브 13.73% |
-| centrifuge-protocol | 5.15% | 5.18% | 기본 금리 |
+| maple | 4.82% | 4.91% | 기본 금리 |
+| jupiter-lend | 5.11% | 5.02% | 인센티브 13.56% |
+| centrifuge-protocol | 5.15% | 5.21% | 기본 금리 |
 | spark-savings | 3.52% | 3.52% | 기본 금리 |
-| pareto-credit | 8.02% | 8.12% | 기본 금리 |
-| fluid-lending | 4.50% | 5.11% | 기본 금리 |
-| uniswap-v3 | 102.63% | 48.96% | 기본 금리 |
-| uniswap-v3 | 18.36% | 15.68% | 기본 금리 |
+| pareto-credit | 8.02% | 8.11% | 기본 금리 |
+| fluid-lending | 4.49% | 5.08% | 기본 금리 |
+| uniswap-v3 | 131.60% | 50.49% | 기본 금리 |
+| uniswap-v3 | 17.67% | 15.70% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ USDC 풀은 여기 8개가 있고, 4개 체인에서 APY가 3.52%부터 102.63%�
 
 ### 오늘 USDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 18.36%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 17.67%예요.
 
 ### USDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,550개이며, 합산 TVL은 $26.68B예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1,546개이며, 합산 TVL은 $26.11B예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 18.36%예
 
 ### USDC 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 USDC의 변동성 낮은 후보는 Ethereum의 pareto-credit, APY 8.02%, TVL $168.49M, https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token; Ethereum의 spark-savings, APY 3.52%, TVL $256.22M, https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token; Solana의 jupiter-lend, APY 5.04%, TVL $436.15M, https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token; Avalanche의 centrifuge-protocol, APY 5.15%, TVL $261.49M, https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token; Ethereum의 maple, APY 4.81%, TVL $2.85B, https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token; Ethereum의 fluid-lending, APY 4.50%, TVL $152.24M, https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token; Ethereum의 uniswap-v3, APY 18.36%, TVL $103.69M, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token; Base의 uniswap-v3, APY 102.63%, TVL $109.85M, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 USDC의 변동성 낮은 후보는 Ethereum의 pareto-credit, APY 8.02%, TVL $168.5M, https://www.defi.garden/?pool=2eb2bdf8-c3e3-5b30-8d49-8d5232294184&src=seo_token; Ethereum의 spark-savings, APY 3.52%, TVL $257.64M, https://www.defi.garden/?pool=c5c74dd1-995c-4445-9d84-3e710bad7d52&src=seo_token; Solana의 jupiter-lend, APY 5.11%, TVL $440.51M, https://www.defi.garden/?pool=d783c8df-e2ed-44b4-8317-161ccc1b5f06&src=seo_token; Avalanche의 centrifuge-protocol, APY 5.15%, TVL $261.5M, https://www.defi.garden/?pool=80359eae-ff65-4fa6-842d-c971dc2928de&src=seo_token; Ethereum의 maple, APY 4.82%, TVL $2.85B, https://www.defi.garden/?pool=43641cf5-a92e-416b-bce9-27113d3c0db6&src=seo_token; Ethereum의 fluid-lending, APY 4.49%, TVL $152.01M, https://www.defi.garden/?pool=4438dabc-7f0c-430b-8136-2722711ae663&src=seo_token; Ethereum의 uniswap-v3, APY 17.67%, TVL $103.19M, https://www.defi.garden/?pool=665dc8bc-c79d-4800-97f7-304bf368e547&src=seo_token; Base의 uniswap-v3, APY 131.60%, TVL $111.29M, https://www.defi.garden/?pool=b99bcdf5-1350-4269-981e-0e9b5cccb007&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -88,4 +88,4 @@ APY 이력만 기준으로 비교한 USDC의 변동성 낮은 후보는 Ethereum
 - [Avalanche](https://www.defi.garden/ko/chains/avalanche)
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

@@ -1,10 +1,10 @@
 # OTHQ DeFi Yields
 
-The highest honest OTHQ yield right now is 0.57% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest OTHQ yield right now is 0.45% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=75c1ef98-11b7-4158-95e1-fcd53b293d1c&src=seo_token) | Base | 0.57% | $239.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=75c1ef98-11b7-4158-95e1-fcd53b293d1c&src=seo_token) | Base | 0.45% | $237.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest OTHQ yield today?
 
-0.57% APY on uniswap-v4 (Base), based on live DefiLlama data.
+0.45% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many OTHQ pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $239.3K in total.
+1 live pool clear this page's $100K TVL floor, $237.5K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank OTHQ pools. This view covers 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

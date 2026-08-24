@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank WAAPLX pools. This view cover
 
 - [Mantle](https://www.defi.garden/chains/mantle)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

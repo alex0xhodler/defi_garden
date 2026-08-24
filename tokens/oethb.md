@@ -4,7 +4,7 @@ The highest honest OETHB yield right now is 17.84% on aerodrome-v1 (Base), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b&src=seo_token) | Base | 17.84% | $320.5K |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=5dc3b4cd-77a0-48bd-938f-a61b2e03c68b&src=seo_token) | Base | 17.84% | $325.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OETHB pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $320.5K in total.
+1 live pool clear this page's $100K TVL floor, $325.7K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank OETHB pools. This view covers
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

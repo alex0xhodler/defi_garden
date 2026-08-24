@@ -1,10 +1,10 @@
 # GUSDCE DeFi Yields
 
-The highest honest GUSDCE yield right now is 4.63% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest GUSDCE yield right now is 4.59% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=746c13b0-b757-4733-aec5-2b1e72e33958&src=seo_token) | Ethereum | 4.63% | $8.03M |
+| [morpho-blue →](https://www.defi.garden/?pool=746c13b0-b757-4733-aec5-2b1e72e33958&src=seo_token) | Ethereum | 4.59% | $8.03M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest GUSDCE yield today?
 
-4.63% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+4.59% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many GUSDCE pools clear the TVL floor?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank GUSDCE pools. This view cover
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

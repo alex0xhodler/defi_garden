@@ -1,29 +1,29 @@
 # REI DeFi Yields
 
-The highest honest REI yield right now is 52.75% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REI yield right now is 49.71% on uniswap-v3 (Base), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 0.02% | $2.12M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 52.75% | $298.7K |
+| [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 0.02% | $2.14M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 49.71% | $302.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, REI's lower-variability candidates are uniswap-v3 (Base), 52.75% APY, $298.7K TVL, https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token; aerodrome-slipstream (Base), 0.02% APY, $2.12M TVL, https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, REI's lower-variability candidates are uniswap-v3 (Base), 49.71% APY, $302.3K TVL, https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token; aerodrome-slipstream (Base), 0.02% APY, $2.14M TVL, https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 52.75% | $298.7K |
-| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 0.02% | $2.12M |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token) | Base | 49.71% | $302.3K |
+| 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token) | Base | 0.02% | $2.14M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-REI shows up in 2 pools here, with rates from 0.02% to 52.75% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+REI shows up in 2 pools here, with rates from 0.02% to 49.71% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 35.50% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 34.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| aerodrome-slipstream | 0.02% | 17.29% | Base rate |
-| uniswap-v3 | 52.75% | 53.71% | Base rate |
+| aerodrome-slipstream | 0.02% | 14.67% | Base rate |
+| uniswap-v3 | 49.71% | 55.24% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest REI yield today?
 
-52.75% APY on uniswap-v3 (Base), based on live DefiLlama data.
+49.71% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many REI pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $2.42M in total.
+2 live pools clear this page's $100K TVL floor, $2.45M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which REI pools have the most stable APY history?
 
-Based on APY history only, REI's lower-variability candidates are uniswap-v3 (Base), 52.75% APY, $298.7K TVL, https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token; aerodrome-slipstream (Base), 0.02% APY, $2.12M TVL, https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, REI's lower-variability candidates are uniswap-v3 (Base), 49.71% APY, $302.3K TVL, https://www.defi.garden/?pool=7cb47e02-170a-4f9e-bdd4-9d1a9a65e65a&src=seo_token; aerodrome-slipstream (Base), 0.02% APY, $2.14M TVL, https://www.defi.garden/?pool=4b4071bc-944d-4838-b696-624e21a3a383&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

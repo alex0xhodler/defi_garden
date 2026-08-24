@@ -4,12 +4,12 @@ The highest honest Sei yield right now is 10.72% on takara-lend (Sei), among 10 
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_chain) | 3.55% | $258.35M |
-| ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_chain) | 5.69% | $15.65M |
-| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_chain) | 7.71% | $10.77M |
-| SPSEI | [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_chain) | 0.61% | $3.13M |
-| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_chain) | 1.33% | $801.1K |
-| USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321&src=seo_chain) | 10.01% | $629.1K |
+| USDY | [ondo-yield-assets →](https://www.defi.garden/?pool=1f8a60c7-e307-42cd-844c-18dec84f5137&src=seo_chain) | 3.55% | $258.38M |
+| ACRED | [apollo-diversified-credit-securitize-fund →](https://www.defi.garden/?pool=0dad484d-368d-4213-a9a1-0a065e0f7701&src=seo_chain) | 7.42% | $15.65M |
+| SYZUSD | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_chain) | 7.58% | $10.88M |
+| SPSEI | [takara-lend →](https://www.defi.garden/?pool=e1874db0-b8b4-4a8e-b338-029b1b70efc7&src=seo_chain) | 0.61% | $3.09M |
+| WSEI | [takara-lend →](https://www.defi.garden/?pool=450812cf-e0cb-4609-9645-2df1e9cf01a5&src=seo_chain) | 1.33% | $792.6K |
+| USD₮0 | [takara-lend →](https://www.defi.garden/?pool=45cb0bd0-a5d1-4c28-bf84-1dcdf4a93321&src=seo_chain) | 9.99% | $629.9K |
 | USDC | [takara-lend →](https://www.defi.garden/?pool=099e1398-4924-41bc-9ec5-c164dc236cea&src=seo_chain) | 10.72% | $184.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -22,7 +22,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Sei pools clear the TVL floor?
 
-10 live pools clear this page's $100K TVL floor, $331.56M in total.
+10 live pools clear this page's $100K TVL floor, $331.62M in total.
 
 ### Are these rates safe?
 
@@ -46,4 +46,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [WSEI](https://www.defi.garden/tokens/wsei)
 - [USDC](https://www.defi.garden/tokens/usdc)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

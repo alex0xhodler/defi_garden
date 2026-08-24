@@ -34,14 +34,14 @@ DefiLlama 실시간 데이터 기준, Base의 uniswap-v2에서 APY 215.84%예요
 ## 관련 토큰
 
 - [WETH](https://www.defi.garden/ko/tokens/weth)
+- [SAND](https://www.defi.garden/ko/tokens/sand)
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
 - [WEETH](https://www.defi.garden/ko/tokens/weeth)
 - [CBBTC](https://www.defi.garden/ko/tokens/cbbtc)
 - [USDS](https://www.defi.garden/ko/tokens/usds)
-- [USDE](https://www.defi.garden/ko/tokens/usde)
 
 ## 이용 가능한 체인
 
 - [Base](https://www.defi.garden/ko/chains/base)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

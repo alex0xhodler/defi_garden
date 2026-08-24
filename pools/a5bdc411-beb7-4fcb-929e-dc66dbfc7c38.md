@@ -2,7 +2,7 @@
 
 **Total APY:** 1.66% (0.00% Base · + 1.66% Rewards)
 
-**TVL:** $102.4K
+**TVL:** $102.5K
 
 **Pool Type:** Yield Farming
 
@@ -30,4 +30,4 @@ We're still building this pool's rate history — not a long enough track record
 
 [Start Earning on clipper](https://clipper.exchange/?ref=defi.garden)
 
-Last updated August 23, 2026
+Last updated August 24, 2026

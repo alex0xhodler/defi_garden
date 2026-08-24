@@ -41,7 +41,7 @@ BUIDL 풀은 여기 8개가 있고, 7개 체인에서 APY가 3.25%부터 3.59%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| blackrock-buidl | 3.59% | 3.57% | 기본 금리 |
+| blackrock-buidl | 3.59% | 3.58% | 기본 금리 |
 | blackrock-buidl | 3.25% | 3.23% | 기본 금리 |
 | blackrock-buidl | 3.56% | 3.54% | 기본 금리 |
 | blackrock-buidl | 3.56% | 3.54% | 기본 금리 |
@@ -89,4 +89,4 @@ APY 이력만 기준으로 비교한 BUIDL의 변동성 낮은 후보는 Aptos�
 - [OP Mainnet](https://www.defi.garden/ko/chains/op-mainnet)
 - [Arbitrum](https://www.defi.garden/ko/chains/arbitrum)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

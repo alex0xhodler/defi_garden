@@ -1,10 +1,10 @@
 # DAUSDRWA DeFi Yields
 
-The highest honest DAUSDRWA yield right now is 3.53% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DAUSDRWA yield right now is 5.07% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=810c3c15-112a-5e57-8a22-e53e1a5b5e75&src=seo_token) | Ethereum | 3.53% | $100.4K |
+| [morpho-blue →](https://www.defi.garden/?pool=810c3c15-112a-5e57-8a22-e53e1a5b5e75&src=seo_token) | Ethereum | 5.07% | $100.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DAUSDRWA yield today?
 
-3.53% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+5.07% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many DAUSDRWA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.4K in total.
+1 live pool clear this page's $100K TVL floor, $100.5K in total.
 
 ### Are these rates safe?
 
@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank DAUSDRWA pools. This view cov
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank CHUSD pools. This view covers
 
 - [Hyperliquid L1](https://www.defi.garden/chains/hyperliquid-l1)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

@@ -4,7 +4,7 @@ The highest honest SEND yield right now is 0.42% on aerodrome-v1 (Base), among 1
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [aerodrome-v1 →](https://www.defi.garden/?pool=7cb2cd44-4ed4-4a70-bc91-4f8a46761d34&src=seo_token) | Base | 0.42% | $1.28M |
+| [aerodrome-v1 →](https://www.defi.garden/?pool=7cb2cd44-4ed4-4a70-bc91-4f8a46761d34&src=seo_token) | Base | 0.42% | $1.29M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SEND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $1.28M in total.
+1 live pool clear this page's $100K TVL floor, $1.29M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SEND pools. This view covers 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

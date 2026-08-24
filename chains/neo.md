@@ -1,10 +1,10 @@
 # Neo DeFi Yields
 
-The highest honest Neo yield right now is 5.36% on flamingo-finance (Neo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest Neo yield right now is 5.32% on flamingo-finance (Neo), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
-| FLM-BNEO | [flamingo-finance →](https://www.defi.garden/?pool=1cbf99d6-acbd-4dd1-a4e0-140259a09ee9&src=seo_chain) | 5.36% | $107.4K |
+| FLM-BNEO | [flamingo-finance →](https://www.defi.garden/?pool=1cbf99d6-acbd-4dd1-a4e0-140259a09ee9&src=seo_chain) | 5.32% | $105.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -12,11 +12,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest Neo yield today?
 
-5.36% APY on flamingo-finance (Neo), based on live DefiLlama data.
+5.32% APY on flamingo-finance (Neo), based on live DefiLlama data.
 
 ### How many Neo pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.4K in total.
+1 live pool clear this page's $100K TVL floor, $105.3K in total.
 
 ### Are these rates safe?
 
@@ -36,4 +36,4 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 - [FLM](https://www.defi.garden/tokens/flm)
 - [BNEO](https://www.defi.garden/tokens/bneo)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

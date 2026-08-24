@@ -1,29 +1,29 @@
 # AVA DeFi Yields
 
-The highest honest AVA yield right now is 72.17% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest AVA yield right now is 29.55% on raydium-amm (Solana), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token) | Solana | 72.17% | $1.21M |
-| [raydium-amm →](https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492&src=seo_token) | Solana | 10.56% | $107.9K |
+| [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token) | Solana | 29.55% | $1.17M |
+| [raydium-amm →](https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492&src=seo_token) | Solana | 6.38% | $106.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 10.56% APY, $107.9K TVL, https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492&src=seo_token; raydium-amm (Solana), 72.17% APY, $1.21M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 6.38% APY, $106.8K TVL, https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492&src=seo_token; raydium-amm (Solana), 29.55% APY, $1.17M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [raydium-amm →](https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492&src=seo_token) | Solana | 10.56% | $107.9K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token) | Solana | 72.17% | $1.21M |
+| 1 | [raydium-amm →](https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492&src=seo_token) | Solana | 6.38% | $106.8K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token) | Solana | 29.55% | $1.17M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-AVA shows up in 2 pools here, with rates from 10.56% to 72.17% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+AVA shows up in 2 pools here, with rates from 6.38% to 29.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 28.80% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 29.32% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -31,8 +31,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 72.17% | 51.67% | Base rate |
-| raydium-amm | 10.56% | 5.92% | Base rate |
+| raydium-amm | 29.55% | 52.53% | Base rate |
+| raydium-amm | 6.38% | 6.11% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -40,11 +40,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest AVA yield today?
 
-72.17% APY on raydium-amm (Solana), based on live DefiLlama data.
+29.55% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many AVA pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.31M in total.
+2 live pools clear this page's $100K TVL floor, $1.27M in total.
 
 ### Are these rates safe?
 
@@ -52,19 +52,19 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which AVA pools have the most stable APY history?
 
-Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 10.56% APY, $107.9K TVL, https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492&src=seo_token; raydium-amm (Solana), 72.17% APY, $1.21M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, AVA's lower-variability candidates are raydium-amm (Solana), 6.38% APY, $106.8K TVL, https://www.defi.garden/?pool=f8e1990e-af40-490f-9d29-bb8c70981492&src=seo_token; raydium-amm (Solana), 29.55% APY, $1.17M TVL, https://www.defi.garden/?pool=4ad29d1d-ff76-48fb-ba0e-a88dfd71f3e0&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ANKRFLOWEVM pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $5.44M in total.
+2 live pools clear this page's $100K TVL floor, $5.43M in total.
 
 ### Are these rates safe?
 
@@ -58,4 +58,4 @@ There is not enough qualifying APY history to rank ANKRFLOWEVM pools. This view 
 
 - [Flow](https://www.defi.garden/chains/flow)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

@@ -1,10 +1,10 @@
 # DONT 디파이 수익률
 
-현재 DONT의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 217.02%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 DONT의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 21.25%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=f460d965-61c8-477d-a82d-643aa14d7a91&src=seo_token) | Solana | 217.02% | $181.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=f460d965-61c8-477d-a82d-643aa14d7a91&src=seo_token) | Solana | 21.25% | $182.6K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 DONT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 217.02%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 21.25%예요.
 
 ### DONT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $181.4K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $182.6K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,14 +34,14 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 217.02%예
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

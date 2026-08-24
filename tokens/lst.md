@@ -4,7 +4,7 @@ The highest honest LST yield right now is 0.01% on project-0 (Solana), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.94M |
+| [project-0 →](https://www.defi.garden/?pool=20a0912c-088b-4866-a609-0cfd4a8b8039&src=seo_token) | Solana | 0.01% | $2.87M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.94M in total.
+1 live pool clear this page's $100K TVL floor, $2.87M in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank LST pools. This view covers A
 ## Related tokens
 
 - [USDC](https://www.defi.garden/tokens/usdc)
-- [USDT](https://www.defi.garden/tokens/usdt)
 - [BUIDL](https://www.defi.garden/tokens/buidl)
 - [USDY](https://www.defi.garden/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/tokens/jitosol)
 - [PRIME](https://www.defi.garden/tokens/prime)
+- [JITOSOL](https://www.defi.garden/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/tokens/bnsol)
 
 ## Available on
 
 - [Solana](https://www.defi.garden/chains/solana)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

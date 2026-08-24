@@ -1,10 +1,10 @@
 # NTX DeFi Yields
 
-The highest honest NTX yield right now is 6.69% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest NTX yield right now is 6.85% on minswap-dex (Cardano), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [minswap-dex →](https://www.defi.garden/?pool=be47e85b-6c1f-4ece-ad70-8eb8f11ca873&src=seo_token) | Cardano | 6.69% | $164.3K |
+| [minswap-dex →](https://www.defi.garden/?pool=be47e85b-6c1f-4ece-ad70-8eb8f11ca873&src=seo_token) | Cardano | 6.85% | $158K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest NTX yield today?
 
-6.69% APY on minswap-dex (Cardano), based on live DefiLlama data.
+6.85% APY on minswap-dex (Cardano), based on live DefiLlama data.
 
 ### How many NTX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $164.3K in total.
+1 live pool clear this page's $100K TVL floor, $158K in total.
 
 ### Are these rates safe?
 
@@ -37,11 +37,11 @@ There is not enough qualifying APY history to rank NTX pools. This view covers A
 - [USDM](https://www.defi.garden/tokens/usdm)
 - [IUSD](https://www.defi.garden/tokens/iusd)
 - [USDA](https://www.defi.garden/tokens/usda)
-- [NIGHT](https://www.defi.garden/tokens/night)
 - [FET](https://www.defi.garden/tokens/fet)
+- [NIGHT](https://www.defi.garden/tokens/night)
 
 ## Available on
 
 - [Cardano](https://www.defi.garden/chains/cardano)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

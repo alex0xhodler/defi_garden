@@ -4,7 +4,7 @@ The highest honest BLCK yield right now is 0.06% on uniswap-v2 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=b5ac680a-ede0-4caf-a4f0-bfb4ec9c25c5&src=seo_token) | Base | 0.06% | $107.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=b5ac680a-ede0-4caf-a4f0-bfb4ec9c25c5&src=seo_token) | Base | 0.06% | $109K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BLCK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $107.7K in total.
+1 live pool clear this page's $100K TVL floor, $109K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank BLCK pools. This view covers 
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

@@ -44,4 +44,4 @@ There is not enough qualifying APY history to rank XCDOT pools. This view covers
 
 - [Moonbeam](https://www.defi.garden/chains/moonbeam)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

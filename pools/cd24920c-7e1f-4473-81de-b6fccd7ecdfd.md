@@ -1,12 +1,12 @@
 # CRVUSD-YB — curve-dex on Ethereum
 
-**Total APY:** 31.42% (15.58% Base · + 15.84% Rewards)
+**Total APY:** 26.30% (11.04% Base · + 15.26% Rewards)
 
-**TVL:** $1.1M
+**TVL:** $1.12M
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 18.38%
+**30d Mean APY:** 18.92%
 
 **Exposure:** multi
 
@@ -22,14 +22,14 @@ Moderate risk profile
 
 ## The long game
 
-$1,000 in this pool grows to ~$3,920 in 5y at current rates.
+$1,000 in this pool grows to ~$3,214 in 5y at current rates.
 
 Your deposit stays yours — you keep your money, and it keeps working.
 
-This pool's rate moves a lot: 31.42% right now vs a 18.38% 30-day average. Reward emissions change daily — projections on this page use the current rate and will move with it.
+We're still building this pool's rate history — not a long enough track record yet to judge how steady it is. A longer history makes a rate easier to trust.
 
-[Garden this pool → ~$3,920 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
+[Garden this pool → ~$3,214 in 5y](https://www.defi.garden/plan.html?goal=retirement&pace=rwa&capital=1000&fm=capital&years=5&src=pool)
 
 [Start Earning on curve-dex](https://curve.finance/?ref=defi.garden)
 
-Last updated August 23, 2026
+Last updated August 24, 2026

@@ -1,11 +1,11 @@
 # FT DeFi Yields
 
-The highest honest FT yield right now is 36.99% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FT yield right now is 34.63% on convex-finance (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9&src=seo_token) | Ethereum | 15.94% | $350.7K |
-| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d&src=seo_token) | Ethereum | 36.99% | $117.4K |
+| [curve-dex →](https://www.defi.garden/?pool=01f29b6e-c258-53c1-bc44-728a551491e9&src=seo_token) | Ethereum | 18.04% | $347.4K |
+| [convex-finance →](https://www.defi.garden/?pool=bc14161c-0a0b-54e6-90cf-399dc219a30d&src=seo_token) | Ethereum | 34.63% | $116.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FT shows up in 2 pools here, with rates from 15.94% to 36.99% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FT shows up in 2 pools here, with rates from 18.04% to 34.63% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 41.45% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 41.95% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 2 of 2 pools blend in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -26,8 +26,8 @@ FT shows up in 2 pools here, with rates from 15.94% to 36.99% APY across 1 chain
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| curve-dex | 15.94% | 54.68% | 96.61% incentives |
-| convex-finance | 36.99% | 28.23% | 98.54% incentives |
+| curve-dex | 18.04% | 55.26% | 85.42% incentives |
+| convex-finance | 34.63% | 28.64% | 92.41% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FT yield today?
 
-36.99% APY on convex-finance (Ethereum), based on live DefiLlama data.
+34.63% APY on convex-finance (Ethereum), based on live DefiLlama data.
 
 ### How many FT pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $468.1K in total.
+2 live pools clear this page's $100K TVL floor, $463.7K in total.
 
 ### Are these rates safe?
 
@@ -62,4 +62,4 @@ There is not enough qualifying APY history to rank FT pools. This view covers AP
 
 - [Ethereum](https://www.defi.garden/chains/ethereum)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026

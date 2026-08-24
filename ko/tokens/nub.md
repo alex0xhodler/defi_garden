@@ -1,10 +1,10 @@
 # NUB 디파이 수익률
 
-현재 NUB의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 10.19%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 NUB의 가장 높은 정직한 수익률은 Solana의 raydium-amm에서 5.43%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=a7831e3a-a415-4851-af47-86a08447c01e&src=seo_token) | Solana | 10.19% | $740K |
+| [raydium-amm →](https://www.defi.garden/?pool=a7831e3a-a415-4851-af47-86a08447c01e&src=seo_token) | Solana | 5.43% | $724.8K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,11 +17,11 @@
 
 ### 오늘 NUB의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 10.19%예요.
+DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 5.43%예요.
 
 ### NUB 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $740K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $724.8K예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -34,14 +34,14 @@ DefiLlama 실시간 데이터 기준, Solana의 raydium-amm에서 APY 10.19%예�
 ## 관련 토큰
 
 - [USDC](https://www.defi.garden/ko/tokens/usdc)
-- [USDT](https://www.defi.garden/ko/tokens/usdt)
 - [BUIDL](https://www.defi.garden/ko/tokens/buidl)
 - [USDY](https://www.defi.garden/ko/tokens/usdy)
-- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
 - [PRIME](https://www.defi.garden/ko/tokens/prime)
+- [JITOSOL](https://www.defi.garden/ko/tokens/jitosol)
+- [BNSOL](https://www.defi.garden/ko/tokens/bnsol)
 
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

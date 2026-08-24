@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f&src=seo_token) | Strato | 5.00% | $1.67M |
+| [strato →](https://www.defi.garden/?pool=3d1f50ff-60fc-5456-966d-c66a6542d20f&src=seo_token) | Strato | 5.00% | $1.68M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 5.00%예요.
 
 ### USDST 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.67M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $1.68M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -44,4 +44,4 @@ DefiLlama 실시간 데이터 기준, Strato의 strato에서 APY 5.00%예요.
 
 - [Strato](https://www.defi.garden/ko/chains/strato)
 
-## 마지막 업데이트: August 23, 2026
+## 마지막 업데이트: August 24, 2026

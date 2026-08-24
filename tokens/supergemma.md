@@ -1,10 +1,10 @@
 # SUPERGEMMA DeFi Yields
 
-The highest honest SUPERGEMMA yield right now is 55.24% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SUPERGEMMA yield right now is 25.14% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=962104f4-5cfa-498c-a976-3d297466be66&src=seo_token) | Base | 55.24% | $490.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=962104f4-5cfa-498c-a976-3d297466be66&src=seo_token) | Base | 25.14% | $512.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SUPERGEMMA yield today?
 
-55.24% APY on uniswap-v4 (Base), based on live DefiLlama data.
+25.14% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many SUPERGEMMA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $490.7K in total.
+1 live pool clear this page's $100K TVL floor, $512.2K in total.
 
 ### Are these rates safe?
 
@@ -34,14 +34,14 @@ There is not enough qualifying APY history to rank SUPERGEMMA pools. This view c
 ## Related tokens
 
 - [WETH](https://www.defi.garden/tokens/weth)
+- [SAND](https://www.defi.garden/tokens/sand)
 - [USDC](https://www.defi.garden/tokens/usdc)
 - [WEETH](https://www.defi.garden/tokens/weeth)
 - [CBBTC](https://www.defi.garden/tokens/cbbtc)
 - [USDS](https://www.defi.garden/tokens/usds)
-- [USDE](https://www.defi.garden/tokens/usde)
 
 ## Available on
 
 - [Base](https://www.defi.garden/chains/base)
 
-## Last updated August 23, 2026
+## Last updated August 24, 2026
