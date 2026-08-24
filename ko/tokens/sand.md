@@ -1,22 +1,22 @@
 # SAND 디파이 수익률
 
-현재 SAND의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 9.32%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SAND의 가장 높은 정직한 수익률은 Ethereum의 uniswap-v2에서 12.89%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 9.32% | $357.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 12.89% | $357.4K |
 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 105.71% | $203.7K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=f1443e01-4fbd-5c6e-848e-670b4f719057&src=seo_token) | Base | 0.86% | $121.9K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SAND의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 105.71%, TVL $203.7K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Ethereum의 uniswap-v2, APY 9.32%, TVL $357.1K, https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SAND의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 105.71%, TVL $203.7K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Ethereum의 uniswap-v2, APY 12.89%, TVL $357.4K, https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [quickswap-dex →](https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token) | Polygon | 105.71% | $203.7K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 9.32% | $357.1K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token) | Ethereum | 12.89% | $357.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -32,7 +32,7 @@ SAND 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.86%부터 105.71%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| uniswap-v2 | 9.32% | 8.95% | 기본 금리 |
+| uniswap-v2 | 12.89% | 8.96% | 기본 금리 |
 | quickswap-dex | 105.71% | 5.79% | 기본 금리 |
 | uniswap-v4 | 0.86% | — | 기본 금리 |
 
@@ -42,7 +42,7 @@ SAND 풀은 여기 3개가 있고, 3개 체인에서 APY가 0.86%부터 105.71%�
 
 ### 오늘 SAND의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 9.32%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 12.89%예요.
 
 ### SAND 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
@@ -54,7 +54,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v2에서 APY 9.32%예�
 
 ### SAND 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SAND의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 105.71%, TVL $203.7K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Ethereum의 uniswap-v2, APY 9.32%, TVL $357.1K, https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SAND의 변동성 낮은 후보는 Polygon의 quickswap-dex, APY 105.71%, TVL $203.7K, https://www.defi.garden/?pool=e7feb0ba-5b99-496c-9c76-75b0f26f753a&src=seo_token; Ethereum의 uniswap-v2, APY 12.89%, TVL $357.4K, https://www.defi.garden/?pool=38bf6ea2-7812-41c1-9508-894ee47e05b6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

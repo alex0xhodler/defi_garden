@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.45% | $3.47M |
+| [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.45% | $3.46M |
 | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token) | Aptos | 0.19% | $1.9M |
 | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
 | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token) | Aptos | 1.12% | $1.44M |
@@ -15,13 +15,13 @@
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 APT의 변동성 낮은 후보는 Aptos의 hyperion, APY 0.09%, TVL $103.9K, https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token; Aptos의 hyperion, APY 4.80%, TVL $1.58M, https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token; Aptos의 amnis-finance, APY 2.45%, TVL $3.47M, https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token; Aptos의 echelon-market, APY 0.19%, TVL $1.9M, https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token; Aptos의 hyperion, APY 12.83%, TVL $219.6K, https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token; Aptos의 hyperion, APY 1.12%, TVL $1.44M, https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token; Aptos의 hyperion, APY 195.25%, TVL $353.4K, https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 APT의 변동성 낮은 후보는 Aptos의 hyperion, APY 0.09%, TVL $103.9K, https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token; Aptos의 hyperion, APY 4.80%, TVL $1.58M, https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token; Aptos의 amnis-finance, APY 2.45%, TVL $3.46M, https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token; Aptos의 echelon-market, APY 0.19%, TVL $1.9M, https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token; Aptos의 hyperion, APY 12.83%, TVL $219.6K, https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token; Aptos의 hyperion, APY 1.12%, TVL $1.44M, https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token; Aptos의 hyperion, APY 195.25%, TVL $353.4K, https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [hyperion →](https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token) | Aptos | 0.09% | $103.9K |
 | 2 | [hyperion →](https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token) | Aptos | 4.80% | $1.58M |
-| 3 | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.45% | $3.47M |
+| 3 | [amnis-finance →](https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token) | Aptos | 2.45% | $3.46M |
 | 4 | [echelon-market →](https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token) | Aptos | 0.19% | $1.9M |
 | 5 | [hyperion →](https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token) | Aptos | 12.83% | $219.6K |
 | 6 | [hyperion →](https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token) | Aptos | 1.12% | $1.44M |
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 195.25%예요.
 
 ### APT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $9.82M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 10개이며, 합산 TVL은 $9.81M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Aptos의 hyperion에서 APY 195.25%예요.
 
 ### APT 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 APT의 변동성 낮은 후보는 Aptos의 hyperion, APY 0.09%, TVL $103.9K, https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token; Aptos의 hyperion, APY 4.80%, TVL $1.58M, https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token; Aptos의 amnis-finance, APY 2.45%, TVL $3.47M, https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token; Aptos의 echelon-market, APY 0.19%, TVL $1.9M, https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token; Aptos의 hyperion, APY 12.83%, TVL $219.6K, https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token; Aptos의 hyperion, APY 1.12%, TVL $1.44M, https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token; Aptos의 hyperion, APY 195.25%, TVL $353.4K, https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 APT의 변동성 낮은 후보는 Aptos의 hyperion, APY 0.09%, TVL $103.9K, https://www.defi.garden/?pool=e23f3d1e-acdd-426e-824c-45b617b5db84&src=seo_token; Aptos의 hyperion, APY 4.80%, TVL $1.58M, https://www.defi.garden/?pool=75c32bdd-1121-408b-a7b3-ca415a1233c4&src=seo_token; Aptos의 amnis-finance, APY 2.45%, TVL $3.46M, https://www.defi.garden/?pool=490006e3-284b-4107-9bb9-99906b7880b2&src=seo_token; Aptos의 echelon-market, APY 0.19%, TVL $1.9M, https://www.defi.garden/?pool=cf6fa110-1204-486e-9cfe-6e83bace42b0&src=seo_token; Aptos의 hyperion, APY 12.83%, TVL $219.6K, https://www.defi.garden/?pool=55e1a22e-8164-4b78-a526-ced00edbfa5f&src=seo_token; Aptos의 hyperion, APY 1.12%, TVL $1.44M, https://www.defi.garden/?pool=c0d0a7a7-4d21-4d0f-9de0-f0b0f73ca28c&src=seo_token; Aptos의 hyperion, APY 195.25%, TVL $353.4K, https://www.defi.garden/?pool=2858944c-bae3-4290-b64d-c3db60d2a114&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

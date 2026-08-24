@@ -4,7 +4,7 @@ The highest honest 2CRV yield right now is 0.01% on curve-dex (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=1f7d105b-9f30-425e-99af-59abfc8654c6&src=seo_token) | Arbitrum | 0.01% | $3.41M |
+| [curve-dex →](https://www.defi.garden/?pool=1f7d105b-9f30-425e-99af-59abfc8654c6&src=seo_token) | Arbitrum | 0.01% | $3.34M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many 2CRV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.41M in total.
+1 live pool clear this page's $100K TVL floor, $3.34M in total.
 
 ### Are these rates safe?
 

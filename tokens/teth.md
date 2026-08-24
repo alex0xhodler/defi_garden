@@ -1,29 +1,29 @@
 # TETH DeFi Yields
 
-The highest honest TETH yield right now is 2.80% on curve-dex (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest TETH yield right now is 3.01% on treehouse-protocol (Ethereum), among 7 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.64% | $63.94M |
+| [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 3.01% | $64.09M |
 | [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.80% | $755.3K |
-| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $218.8K |
+| [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $219.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, TETH's lower-variability candidates are euler-v2 (Arbitrum), 0.01% APY, $218.8K TVL, https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token; treehouse-protocol (Ethereum), 2.64% APY, $63.94M TVL, https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token; curve-dex (Ethereum), 2.80% APY, $755.3K TVL, https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TETH's lower-variability candidates are euler-v2 (Arbitrum), 0.01% APY, $219.8K TVL, https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token; treehouse-protocol (Ethereum), 3.01% APY, $64.09M TVL, https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token; curve-dex (Ethereum), 2.80% APY, $755.3K TVL, https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $218.8K |
-| 2 | [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 2.64% | $63.94M |
+| 1 | [euler-v2 →](https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token) | Arbitrum | 0.01% | $219.8K |
+| 2 | [treehouse-protocol →](https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token) | Ethereum | 3.01% | $64.09M |
 | 3 | [curve-dex →](https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token) | Ethereum | 2.80% | $755.3K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-TETH shows up in 3 pools here, with rates from 0.01% to 2.80% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+TETH shows up in 3 pools here, with rates from 0.01% to 3.01% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.45% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -31,7 +31,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| treehouse-protocol | 2.64% | 2.45% | Base rate |
+| treehouse-protocol | 3.01% | 2.45% | Base rate |
 | curve-dex | 2.80% | 2.67% | Base rate |
 | euler-v2 | 0.01% | 0.01% | Base rate |
 
@@ -41,11 +41,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest TETH yield today?
 
-2.80% APY on curve-dex (Ethereum), based on live DefiLlama data.
+3.01% APY on treehouse-protocol (Ethereum), based on live DefiLlama data.
 
 ### How many TETH pools clear the TVL floor?
 
-7 live pools clear this page's $100K TVL floor, $119.14M in total.
+7 live pools clear this page's $100K TVL floor, $121.09M in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which TETH pools have the most stable APY history?
 
-Based on APY history only, TETH's lower-variability candidates are euler-v2 (Arbitrum), 0.01% APY, $218.8K TVL, https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token; treehouse-protocol (Ethereum), 2.64% APY, $63.94M TVL, https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token; curve-dex (Ethereum), 2.80% APY, $755.3K TVL, https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, TETH's lower-variability candidates are euler-v2 (Arbitrum), 0.01% APY, $219.8K TVL, https://www.defi.garden/?pool=383ae6a9-03e8-4698-909a-ad75eef9a67d&src=seo_token; treehouse-protocol (Ethereum), 3.01% APY, $64.09M TVL, https://www.defi.garden/?pool=5762f4a8-bb48-45d6-90ed-2d93d1777169&src=seo_token; curve-dex (Ethereum), 2.80% APY, $755.3K TVL, https://www.defi.garden/?pool=d0f09aac-e563-4cfc-b1d6-9a0c3d6767cb&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

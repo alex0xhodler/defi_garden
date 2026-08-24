@@ -1,10 +1,10 @@
 # X3CRV 디파이 수익률
 
-현재 X3CRV의 가장 높은 정직한 수익률은 Gnosis의 curve-dex에서 1.48%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 X3CRV의 가장 높은 정직한 수익률은 Gnosis의 curve-dex에서 2.07%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 1.48% | $229.9K |
+| [curve-dex →](https://www.defi.garden/?pool=ce825a16-4166-4849-ba8b-0f913f192710&src=seo_token) | Gnosis | 2.07% | $229.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 X3CRV의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Gnosis의 curve-dex에서 APY 1.48%예요.
+DefiLlama 실시간 데이터 기준, Gnosis의 curve-dex에서 APY 2.07%예요.
 
 ### X3CRV 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

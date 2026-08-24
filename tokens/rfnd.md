@@ -4,7 +4,7 @@ The highest honest RFND yield right now is 0.08% on uniswap-v3 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=1feb1348-e710-40d3-966d-1614f158a959&src=seo_token) | Base | 0.08% | $103.9K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=1feb1348-e710-40d3-966d-1614f158a959&src=seo_token) | Base | 0.08% | $104.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many RFND pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.9K in total.
+1 live pool clear this page's $100K TVL floor, $104.7K in total.
 
 ### Are these rates safe?
 

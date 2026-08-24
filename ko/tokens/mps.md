@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=49bef53c-d221-4053-a36b-ce54aa260c6a&src=seo_token) | Ethereum | 0.05% | $334.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=49bef53c-d221-4053-a36b-ce54aa260c6a&src=seo_token) | Ethereum | 0.05% | $340.9K |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.05%예�
 
 ### MPS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $334.8K예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $340.9K예요.
 
 ### 이 수익률은 안전한가요?
 

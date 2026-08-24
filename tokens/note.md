@@ -4,18 +4,18 @@ The highest honest NOTE yield right now is 32.06% on canto-lending (Canto), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v2 →](https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token) | Ethereum | 0.17% | $189.4K |
+| [balancer-v2 →](https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token) | Ethereum | 0.17% | $189.7K |
 | [canto-lending →](https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token) | Canto | 32.06% | $107K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, NOTE's lower-variability candidates are canto-lending (Canto), 32.06% APY, $107K TVL, https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token; balancer-v2 (Ethereum), 0.17% APY, $189.4K TVL, https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOTE's lower-variability candidates are canto-lending (Canto), 32.06% APY, $107K TVL, https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token; balancer-v2 (Ethereum), 0.17% APY, $189.7K TVL, https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [canto-lending →](https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token) | Canto | 32.06% | $107K |
-| 2 | [balancer-v2 →](https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token) | Ethereum | 0.17% | $189.4K |
+| 2 | [balancer-v2 →](https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token) | Ethereum | 0.17% | $189.7K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many NOTE pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $296.4K in total.
+2 live pools clear this page's $100K TVL floor, $296.6K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which NOTE pools have the most stable APY history?
 
-Based on APY history only, NOTE's lower-variability candidates are canto-lending (Canto), 32.06% APY, $107K TVL, https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token; balancer-v2 (Ethereum), 0.17% APY, $189.4K TVL, https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, NOTE's lower-variability candidates are canto-lending (Canto), 32.06% APY, $107K TVL, https://www.defi.garden/?pool=fc7cafb0-6f5b-4d7f-9f9d-124a44857537&src=seo_token; balancer-v2 (Ethereum), 0.17% APY, $189.7K TVL, https://www.defi.garden/?pool=f37dffea-05d1-4f3e-8a83-f5436a9106c7&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

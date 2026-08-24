@@ -5,8 +5,8 @@ The highest honest Rootstock yield right now is 0.40% on sovryn-dex (Rootstock),
 | Token | Protocol | APY | TVL |
 |---|---|---|---|
 | XUSD-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_chain) | 0.40% | $1.06M |
-| ETH-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_chain) | 0.24% | $958.7K |
-| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 0.14% | $878.4K |
+| ETH-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_chain) | 0.24% | $966.3K |
+| USDT-RBTC | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_chain) | 0.14% | $884.6K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -18,7 +18,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many Rootstock pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $3.57M in total.
+4 live pools clear this page's $100K TVL floor, $3.59M in total.
 
 ### Are these rates safe?
 

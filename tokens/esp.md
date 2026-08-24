@@ -1,11 +1,11 @@
 # ESP DeFi Yields
 
-The highest honest ESP yield right now is 3.40% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ESP yield right now is 3.37% on uniswap-v3 (Arbitrum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token) | Arbitrum | 3.40% | $553.8K |
-| [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token) | Ethereum | 2.86% | $262.7K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=34ccf582-38d6-41e1-9ff2-3cfcbc2888a2&src=seo_token) | Arbitrum | 3.37% | $555.8K |
+| [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token) | Ethereum | 2.86% | $263.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-ESP shows up in 2 pools here, with rates from 2.86% to 3.40% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+ESP shows up in 2 pools here, with rates from 2.86% to 3.37% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 5.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v3 | 3.40% | 9.19% | Base rate |
+| uniswap-v3 | 3.37% | 9.19% | Base rate |
 | curve-dex | 2.86% | 1.57% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -35,11 +35,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest ESP yield today?
 
-3.40% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+3.37% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many ESP pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $816.5K in total.
+2 live pools clear this page's $100K TVL floor, $818.9K in total.
 
 ### Are these rates safe?
 

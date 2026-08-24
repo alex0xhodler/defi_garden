@@ -1,27 +1,27 @@
 # WNAUSD DeFi Yields
 
-The highest honest WNAUSD yield right now is 11.55% on balancer-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest WNAUSD yield right now is 11.53% on balancer-v3 (Monad), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.33% | $3.37M |
-| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.55% | $108K |
+| [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.24% | $3.37M |
+| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.53% | $108K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, WNAUSD's lower-variability candidates are balancer-v3 (Monad), 10.33% APY, $3.37M TVL, https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token; balancer-v3 (Monad), 11.55% APY, $108K TVL, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WNAUSD's lower-variability candidates are balancer-v3 (Monad), 10.24% APY, $3.37M TVL, https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token; balancer-v3 (Monad), 11.53% APY, $108K TVL, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.33% | $3.37M |
-| 2 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.55% | $108K |
+| 1 | [balancer-v3 →](https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token) | Monad | 10.24% | $3.37M |
+| 2 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.53% | $108K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-WNAUSD shows up in 2 pools here, with rates from 10.33% to 11.55% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+WNAUSD shows up in 2 pools here, with rates from 10.24% to 11.53% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.86% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -29,8 +29,8 @@ WNAUSD shows up in 2 pools here, with rates from 10.33% to 11.55% APY across 1 c
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| balancer-v3 | 10.33% | 9.46% | 76.91% incentives |
-| balancer-v3 | 11.55% | 14.26% | 50.80% incentives |
+| balancer-v3 | 10.24% | 9.46% | 76.85% incentives |
+| balancer-v3 | 11.53% | 14.26% | 50.40% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -38,7 +38,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest WNAUSD yield today?
 
-11.55% APY on balancer-v3 (Monad), based on live DefiLlama data.
+11.53% APY on balancer-v3 (Monad), based on live DefiLlama data.
 
 ### How many WNAUSD pools clear the TVL floor?
 
@@ -50,7 +50,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which WNAUSD pools have the most stable APY history?
 
-Based on APY history only, WNAUSD's lower-variability candidates are balancer-v3 (Monad), 10.33% APY, $3.37M TVL, https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token; balancer-v3 (Monad), 11.55% APY, $108K TVL, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, WNAUSD's lower-variability candidates are balancer-v3 (Monad), 10.24% APY, $3.37M TVL, https://www.defi.garden/?pool=e1c092b8-3d7b-4a27-b24c-da8a0ff2f8d2&src=seo_token; balancer-v3 (Monad), 11.53% APY, $108K TVL, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

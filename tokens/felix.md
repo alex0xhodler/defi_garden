@@ -1,10 +1,10 @@
 # FELIX DeFi Yields
 
-The highest honest FELIX yield right now is 4.38% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FELIX yield right now is 4.71% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=a8e09994-70e4-42a3-be49-bfc6c48a41fe&src=seo_token) | Base | 4.38% | $387.4K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=a8e09994-70e4-42a3-be49-bfc6c48a41fe&src=seo_token) | Base | 4.71% | $391.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FELIX yield today?
 
-4.38% APY on uniswap-v4 (Base), based on live DefiLlama data.
+4.71% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many FELIX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $387.4K in total.
+1 live pool clear this page's $100K TVL floor, $391.4K in total.
 
 ### Are these rates safe?
 

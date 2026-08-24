@@ -1,11 +1,11 @@
 # PIN DeFi Yields
 
-The highest honest PIN yield right now is 25.45% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PIN yield right now is 26.40% on uniswap-v3 (Ethereum), among 2 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [raydium-amm →](https://www.defi.garden/?pool=27fc27e4-4095-52a8-b60a-fe0080eca0be&src=seo_token) | Solana | 0.03% | $48.4M |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e10173b8-0307-4837-abd6-125f87c052fd&src=seo_token) | Ethereum | 25.45% | $497.5K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e10173b8-0307-4837-abd6-125f87c052fd&src=seo_token) | Ethereum | 26.40% | $503.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-PIN shows up in 2 pools here, with rates from 0.03% to 25.45% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+PIN shows up in 2 pools here, with rates from 0.03% to 26.40% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 27.05% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 26.00% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 0.03% | 36.28% | Base rate |
-| uniswap-v3 | 25.45% | 17.82% | Base rate |
+| raydium-amm | 0.03% | 34.15% | Base rate |
+| uniswap-v3 | 26.40% | 17.85% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest PIN yield today?
 
-25.45% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+26.40% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many PIN pools clear the TVL floor?
 

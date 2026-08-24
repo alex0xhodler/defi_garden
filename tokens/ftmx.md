@@ -4,7 +4,7 @@ The highest honest FTMX yield right now is 0.29% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=bb6f6975-3336-47ab-904f-7646bdd69e9a&src=seo_token) | Ethereum | 0.29% | $558.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=bb6f6975-3336-47ab-904f-7646bdd69e9a&src=seo_token) | Ethereum | 0.29% | $561.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many FTMX pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $558.7K in total.
+1 live pool clear this page's $100K TVL floor, $561.3K in total.
 
 ### Are these rates safe?
 

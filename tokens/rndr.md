@@ -1,31 +1,31 @@
 # RNDR DeFi Yields
 
-The highest honest RNDR yield right now is 40.19% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RNDR yield right now is 40.23% on uniswap-v3 (Ethereum), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token) | Ethereum | 8.95% | $346.6K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token) | Ethereum | 40.19% | $293K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token) | Ethereum | 63.44% | $216.6K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token) | Ethereum | 8.77% | $347.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token) | Ethereum | 40.23% | $292.8K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token) | Ethereum | 63.36% | $216.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RNDR's lower-variability candidates are uniswap-v2 (Ethereum), 8.95% APY, $346.6K TVL, https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token; uniswap-v3 (Ethereum), 63.44% APY, $216.6K TVL, https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token; uniswap-v3 (Ethereum), 40.19% APY, $293K TVL, https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RNDR's lower-variability candidates are uniswap-v2 (Ethereum), 8.77% APY, $347.3K TVL, https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token; uniswap-v3 (Ethereum), 63.36% APY, $216.6K TVL, https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token; uniswap-v3 (Ethereum), 40.23% APY, $292.8K TVL, https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token) | Ethereum | 8.95% | $346.6K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token) | Ethereum | 63.44% | $216.6K |
-| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token) | Ethereum | 40.19% | $293K |
+| 1 | [uniswap-v2 →](https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token) | Ethereum | 8.77% | $347.3K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token) | Ethereum | 63.36% | $216.6K |
+| 3 | [uniswap-v3 →](https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token) | Ethereum | 40.23% | $292.8K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RNDR shows up in 3 pools here, with rates from 8.95% to 63.44% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+RNDR shows up in 3 pools here, with rates from 8.77% to 63.36% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-3 of these 3 pools have a trustworthy 30-day average on file, with a median of 32.76% — a useful check against today's number for whether the rate is steady or just having a good day.
+3 of these 3 pools have a trustworthy 30-day average on file, with a median of 32.77% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 3 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -33,9 +33,9 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v2 | 8.95% | 7.36% | Base rate |
-| uniswap-v3 | 40.19% | 32.76% | Base rate |
-| uniswap-v3 | 63.44% | 34.22% | Base rate |
+| uniswap-v2 | 8.77% | 7.36% | Base rate |
+| uniswap-v3 | 40.23% | 32.77% | Base rate |
+| uniswap-v3 | 63.36% | 34.28% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -43,11 +43,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RNDR yield today?
 
-40.19% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+40.23% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many RNDR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $1M in total.
+4 live pools clear this page's $100K TVL floor, $1.01M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RNDR pools have the most stable APY history?
 
-Based on APY history only, RNDR's lower-variability candidates are uniswap-v2 (Ethereum), 8.95% APY, $346.6K TVL, https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token; uniswap-v3 (Ethereum), 63.44% APY, $216.6K TVL, https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token; uniswap-v3 (Ethereum), 40.19% APY, $293K TVL, https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RNDR's lower-variability candidates are uniswap-v2 (Ethereum), 8.77% APY, $347.3K TVL, https://www.defi.garden/?pool=3ea693f6-9f78-47d7-bbb9-fac9e2a51aaa&src=seo_token; uniswap-v3 (Ethereum), 63.36% APY, $216.6K TVL, https://www.defi.garden/?pool=e7cd012c-4e7b-42c8-bc6a-ab07a40f8cc7&src=seo_token; uniswap-v3 (Ethereum), 40.23% APY, $292.8K TVL, https://www.defi.garden/?pool=f50fdaa0-9db4-49f9-a2dd-1b3edb703051&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

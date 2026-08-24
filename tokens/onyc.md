@@ -5,18 +5,18 @@ The highest honest ONYC yield right now is 11.55% on onre (Solana), among 6 pool
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [onre →](https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token) | Solana | 11.55% | $269.7M |
-| [orca-dex →](https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token) | Solana | 1.26% | $5.99M |
+| [orca-dex →](https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token) | Solana | 1.25% | $5.98M |
 | [raydium-amm →](https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token) | Solana | 0.54% | $3.18M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ONYC's lower-variability candidates are onre (Solana), 11.55% APY, $269.7M TVL, https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token; orca-dex (Solana), 1.26% APY, $5.99M TVL, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token; raydium-amm (Solana), 0.54% APY, $3.18M TVL, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ONYC's lower-variability candidates are onre (Solana), 11.55% APY, $269.7M TVL, https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token; orca-dex (Solana), 1.25% APY, $5.98M TVL, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token; raydium-amm (Solana), 0.54% APY, $3.18M TVL, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [onre →](https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token) | Solana | 11.55% | $269.7M |
-| 2 | [orca-dex →](https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token) | Solana | 1.26% | $5.99M |
+| 2 | [orca-dex →](https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token) | Solana | 1.25% | $5.98M |
 | 3 | [raydium-amm →](https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token) | Solana | 0.54% | $3.18M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -34,7 +34,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
 | onre | 11.55% | 11.60% | Base rate |
-| orca-dex | 1.26% | 1.02% | Base rate |
+| orca-dex | 1.25% | 1.02% | Base rate |
 | raydium-amm | 0.54% | 0.41% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ONYC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $440.15M in total.
+6 live pools clear this page's $100K TVL floor, $440.12M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ONYC pools have the most stable APY history?
 
-Based on APY history only, ONYC's lower-variability candidates are onre (Solana), 11.55% APY, $269.7M TVL, https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token; orca-dex (Solana), 1.26% APY, $5.99M TVL, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token; raydium-amm (Solana), 0.54% APY, $3.18M TVL, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ONYC's lower-variability candidates are onre (Solana), 11.55% APY, $269.7M TVL, https://www.defi.garden/?pool=7083d6a5-e3cb-4eeb-8204-f1b735e4ecbb&src=seo_token; orca-dex (Solana), 1.25% APY, $5.98M TVL, https://www.defi.garden/?pool=cb268c37-d05c-4f1e-a889-ace0488f46e0&src=seo_token; raydium-amm (Solana), 0.54% APY, $3.18M TVL, https://www.defi.garden/?pool=92d30c54-b6c6-436d-b93d-c17f09268d0a&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

@@ -27,7 +27,7 @@ SUSN shows up in 3 pools here, with rates from 7.48% to 14.45% APY across 2 chai
 |---|---|---|---|
 | pendle | 8.22% | 8.37% | Base rate |
 | pendle | 7.48% | 7.95% | Base rate |
-| bluefin-spot | 14.45% | 14.61% | 99.34% incentives |
+| bluefin-spot | 14.45% | 14.58% | 99.34% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 

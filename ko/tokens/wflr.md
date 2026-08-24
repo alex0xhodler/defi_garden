@@ -1,39 +1,39 @@
 # WFLR 디파이 수익률
 
-현재 WFLR의 가장 높은 정직한 수익률은 Flare의 sparkdex-v4에서 34.26%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 WFLR의 가장 높은 정직한 수익률은 Flare의 sparkdex-v4에서 34.15%이며, $100K TVL 기준을 넘는 11개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.41% | $1.46M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 34.26% | $1.35M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.41% | $1.47M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 34.15% | $1.35M |
 | [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.04% | $1.13M |
-| [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 6.28% | $1.11M |
-| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 18.87% | $1.02M |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 2.21% | $368.9K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.96% | $353.3K |
-| [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 13.36% | $248.2K |
+| [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 6.27% | $1.11M |
+| [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 18.64% | $1.04M |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 2.12% | $368.9K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.91% | $352.9K |
+| [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 13.33% | $248.1K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 WFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 6.04%, TVL $1.13M, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; Flare의 sparkdex-v4, APY 4.41%, TVL $1.46M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 kinetic, APY 6.28%, TVL $1.11M, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; Flare의 sparkdex-v4, APY 18.87%, TVL $1.02M, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; Flare의 sparkdex-v3.1, APY 2.21%, TVL $368.9K, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; Flare의 sparkdex-v4, APY 34.26%, TVL $1.35M, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; Flare의 sparkdex-v3.1, APY 0.96%, TVL $353.3K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; Flare의 sparkdex-v3.1, APY 13.36%, TVL $248.2K, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 6.04%, TVL $1.13M, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; Flare의 sparkdex-v4, APY 4.41%, TVL $1.47M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 kinetic, APY 6.27%, TVL $1.11M, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; Flare의 sparkdex-v4, APY 18.64%, TVL $1.04M, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; Flare의 sparkdex-v3.1, APY 2.12%, TVL $368.9K, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; Flare의 sparkdex-v4, APY 34.15%, TVL $1.35M, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; Flare의 sparkdex-v3.1, APY 0.91%, TVL $352.9K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; Flare의 sparkdex-v3.1, APY 13.33%, TVL $248.1K, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
 | 1 | [sparkdex-v4 →](https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token) | Flare | 6.04% | $1.13M |
-| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.41% | $1.46M |
-| 3 | [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 6.28% | $1.11M |
-| 4 | [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 18.87% | $1.02M |
-| 5 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 2.21% | $368.9K |
-| 6 | [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 34.26% | $1.35M |
-| 7 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.96% | $353.3K |
-| 8 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 13.36% | $248.2K |
+| 2 | [sparkdex-v4 →](https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token) | Flare | 4.41% | $1.47M |
+| 3 | [kinetic →](https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token) | Flare | 6.27% | $1.11M |
+| 4 | [sparkdex-v4 →](https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token) | Flare | 18.64% | $1.04M |
+| 5 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token) | Flare | 2.12% | $368.9K |
+| 6 | [sparkdex-v4 →](https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token) | Flare | 34.15% | $1.35M |
+| 7 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token) | Flare | 0.91% | $352.9K |
+| 8 | [sparkdex-v3.1 →](https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token) | Flare | 13.33% | $248.1K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-WFLR 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.96%부터 34.26%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+WFLR 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.91%부터 34.15%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 5.89%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -44,13 +44,13 @@ WFLR 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.96%부터 34.26%�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | sparkdex-v4 | 4.41% | 4.55% | 인센티브 99.95% |
-| sparkdex-v4 | 34.26% | 30.48% | 인센티브 71.22% |
-| sparkdex-v4 | 6.04% | 6.45% | 인센티브 99.63% |
-| kinetic | 6.28% | 5.34% | 인센티브 79.55% |
-| sparkdex-v4 | 18.87% | 16.63% | 인센티브 59.53% |
-| sparkdex-v3.1 | 2.21% | 3.51% | 인센티브 45.40% |
-| sparkdex-v3.1 | 0.96% | 1.27% | 인센티브 72.71% |
-| sparkdex-v3.1 | 13.36% | 6.76% | 인센티브 5.48% |
+| sparkdex-v4 | 34.15% | 30.49% | 인센티브 71.43% |
+| sparkdex-v4 | 6.04% | 6.44% | 인센티브 99.59% |
+| kinetic | 6.27% | 5.34% | 인센티브 79.57% |
+| sparkdex-v4 | 18.64% | 16.64% | 인센티브 60.25% |
+| sparkdex-v3.1 | 2.12% | 3.51% | 인센티브 43.04% |
+| sparkdex-v3.1 | 0.91% | 1.27% | 인센티브 67.16% |
+| sparkdex-v3.1 | 13.33% | 6.78% | 인센티브 5.04% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -58,11 +58,11 @@ WFLR 풀은 여기 8개가 있고, 1개 체인에서 APY가 0.96%부터 34.26%�
 
 ### 오늘 WFLR의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 34.26%예요.
+DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 34.15%예요.
 
 ### WFLR 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $7.45M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 11개이며, 합산 TVL은 $7.47M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -70,7 +70,7 @@ DefiLlama 실시간 데이터 기준, Flare의 sparkdex-v4에서 APY 34.26%예�
 
 ### WFLR 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 WFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 6.04%, TVL $1.13M, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; Flare의 sparkdex-v4, APY 4.41%, TVL $1.46M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 kinetic, APY 6.28%, TVL $1.11M, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; Flare의 sparkdex-v4, APY 18.87%, TVL $1.02M, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; Flare의 sparkdex-v3.1, APY 2.21%, TVL $368.9K, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; Flare의 sparkdex-v4, APY 34.26%, TVL $1.35M, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; Flare의 sparkdex-v3.1, APY 0.96%, TVL $353.3K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; Flare의 sparkdex-v3.1, APY 13.36%, TVL $248.2K, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 WFLR의 변동성 낮은 후보는 Flare의 sparkdex-v4, APY 6.04%, TVL $1.13M, https://www.defi.garden/?pool=9ea77171-3c46-4d50-b2fa-888e7c490164&src=seo_token; Flare의 sparkdex-v4, APY 4.41%, TVL $1.47M, https://www.defi.garden/?pool=dc48c740-b7bd-4026-8040-adc83232d80d&src=seo_token; Flare의 kinetic, APY 6.27%, TVL $1.11M, https://www.defi.garden/?pool=57405161-f1f1-4060-80ed-548912091c66&src=seo_token; Flare의 sparkdex-v4, APY 18.64%, TVL $1.04M, https://www.defi.garden/?pool=86656bca-cc02-4447-9934-4d45f11c254a&src=seo_token; Flare의 sparkdex-v3.1, APY 2.12%, TVL $368.9K, https://www.defi.garden/?pool=4813a787-4ed2-46e0-b752-b2bd9b91e5f1&src=seo_token; Flare의 sparkdex-v4, APY 34.15%, TVL $1.35M, https://www.defi.garden/?pool=8a754192-739c-4381-8fd7-05ee1cb29867&src=seo_token; Flare의 sparkdex-v3.1, APY 0.91%, TVL $352.9K, https://www.defi.garden/?pool=eaa4cf8c-5f2f-40bb-9248-adaa243d0728&src=seo_token; Flare의 sparkdex-v3.1, APY 13.33%, TVL $248.1K, https://www.defi.garden/?pool=399483c2-f5e6-4144-9032-640435b9f2d5&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

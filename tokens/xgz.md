@@ -4,7 +4,7 @@ The highest honest XGZ yield right now is 0.33% on uniswap-v4 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=714437a0-6424-4151-99ee-c1b5d59e89db&src=seo_token) | Ethereum | 0.33% | $171.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=714437a0-6424-4151-99ee-c1b5d59e89db&src=seo_token) | Ethereum | 0.33% | $171.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

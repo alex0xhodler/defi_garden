@@ -4,7 +4,7 @@ The highest honest SLNUSDC yield right now is 9.50% on wildcat-protocol (Ethereu
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [wildcat-protocol →](https://www.defi.garden/?pool=f4a1c59e-7cbf-4410-9fe7-06939d4c3508&src=seo_token) | Ethereum | 9.50% | $827.6K |
+| [wildcat-protocol →](https://www.defi.garden/?pool=f4a1c59e-7cbf-4410-9fe7-06939d4c3508&src=seo_token) | Ethereum | 9.50% | $827.5K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SLNUSDC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $827.6K in total.
+1 live pool clear this page's $100K TVL floor, $827.5K in total.
 
 ### Are these rates safe?
 

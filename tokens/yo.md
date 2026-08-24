@@ -4,7 +4,7 @@ The highest honest YO yield right now is 0.01% on uniswap-v3 (Base), among 1 poo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=88730a20-1967-44db-b94f-dd307ee12a75&src=seo_token) | Base | 0.01% | $136K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=88730a20-1967-44db-b94f-dd307ee12a75&src=seo_token) | Base | 0.01% | $137K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many YO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $136K in total.
+1 live pool clear this page's $100K TVL floor, $137K in total.
 
 ### Are these rates safe?
 

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=712d2037-a22b-4e5f-897f-ad7532a725fb&src=seo_token) | Ethereum | 0.02% | $8.3M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=712d2037-a22b-4e5f-897f-ad7532a725fb&src=seo_token) | Ethereum | 0.02% | $8.38M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -35,7 +35,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 uniswap-v3에서 APY 0.02%예�
 
 ### FBTC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $38.86M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 5개이며, 합산 TVL은 $39.32M예요.
 
 ### 이 수익률은 안전한가요?
 

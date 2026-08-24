@@ -4,7 +4,7 @@ The highest honest OBTC yield right now is 0.04% on curve-dex (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.04% | $116.8K |
+| [curve-dex →](https://www.defi.garden/?pool=497883a9-d74e-4c98-b81a-0dc05706d927&src=seo_token) | Ethereum | 0.04% | $117.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many OBTC pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $116.8K in total.
+1 live pool clear this page's $100K TVL floor, $117.8K in total.
 
 ### Are these rates safe?
 

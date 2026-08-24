@@ -1,28 +1,28 @@
 # MSTR DeFi Yields
 
-The highest honest MSTR yield right now is 44.42% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest MSTR yield right now is 49.86% on raydium-amm (Solana), among 4 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 44.42% | $307.1K |
-| [uniswap-v2 →](https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token) | Ethereum | 0.27% | $249.5K |
+| [raydium-amm →](https://www.defi.garden/?pool=19b50b0e-0205-57c1-a76c-f07c26cbf6ab&src=seo_token) | Solana | 49.86% | $307.1K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token) | Ethereum | 0.27% | $251.1K |
 | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_token) | Defichain | 1.08% | $214.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, MSTR's lower-variability candidates are defichain-dex (Defichain), 1.08% APY, $214.2K TVL, https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_token; uniswap-v2 (Ethereum), 0.27% APY, $249.5K TVL, https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSTR's lower-variability candidates are defichain-dex (Defichain), 1.08% APY, $214.2K TVL, https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_token; uniswap-v2 (Ethereum), 0.27% APY, $251.1K TVL, https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [defichain-dex →](https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_token) | Defichain | 1.08% | $214.2K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token) | Ethereum | 0.27% | $249.5K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token) | Ethereum | 0.27% | $251.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-MSTR shows up in 3 pools here, with rates from 0.27% to 44.42% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+MSTR shows up in 3 pools here, with rates from 0.27% to 49.86% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 3 of these 3 pools have a trustworthy 30-day average on file, with a median of 2.75% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -32,7 +32,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| raydium-amm | 44.42% | 39.46% | Base rate |
+| raydium-amm | 49.86% | 39.47% | Base rate |
 | uniswap-v2 | 0.27% | 2.75% | Base rate |
 | defichain-dex | 1.08% | 0.22% | Base rate |
 
@@ -42,11 +42,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest MSTR yield today?
 
-44.42% APY on raydium-amm (Solana), based on live DefiLlama data.
+49.86% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many MSTR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $915.4K in total.
+4 live pools clear this page's $100K TVL floor, $918.1K in total.
 
 ### Are these rates safe?
 
@@ -54,7 +54,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which MSTR pools have the most stable APY history?
 
-Based on APY history only, MSTR's lower-variability candidates are defichain-dex (Defichain), 1.08% APY, $214.2K TVL, https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_token; uniswap-v2 (Ethereum), 0.27% APY, $249.5K TVL, https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, MSTR's lower-variability candidates are defichain-dex (Defichain), 1.08% APY, $214.2K TVL, https://www.defi.garden/?pool=4f4e18b0-ad83-4322-bd49-299f51092ea9&src=seo_token; uniswap-v2 (Ethereum), 0.27% APY, $251.1K TVL, https://www.defi.garden/?pool=4eeeccae-614f-40e9-b7bb-99ed1a82eb6d&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

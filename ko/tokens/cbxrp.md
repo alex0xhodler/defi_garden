@@ -4,18 +4,18 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.05% | $2.41M |
+| [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.05% | $2.43M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 112.42% | $380.4K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 2.84% | $272.2K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 CBXRP의 변동성 낮은 후보는 Base의 moonwell-lending, APY 0.05%, TVL $2.41M, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; Base의 aerodrome-slipstream, APY 112.42%, TVL $380.4K, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; Base의 aerodrome-slipstream, APY 2.84%, TVL $272.2K, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBXRP의 변동성 낮은 후보는 Base의 moonwell-lending, APY 0.05%, TVL $2.43M, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; Base의 aerodrome-slipstream, APY 112.42%, TVL $380.4K, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; Base의 aerodrome-slipstream, APY 2.84%, TVL $272.2K, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.05% | $2.41M |
+| 1 | [moonwell-lending →](https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token) | Base | 0.05% | $2.43M |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token) | Base | 112.42% | $380.4K |
 | 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token) | Base | 2.84% | $272.2K |
 
@@ -33,7 +33,7 @@ CBXRP 풀은 여기 3개가 있고, 1개 체인에서 APY가 0.05%부터 112.42%
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| moonwell-lending | 0.05% | 0.11% | 인센티브 93.98% |
+| moonwell-lending | 0.05% | 0.11% | 인센티브 93.93% |
 | aerodrome-slipstream | 112.42% | 96.22% | 인센티브 100.00% |
 | aerodrome-slipstream | 2.84% | 60.81% | 인센티브 100.00% |
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 112
 
 ### CBXRP 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $140.48M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $141.98M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 112
 
 ### CBXRP 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 CBXRP의 변동성 낮은 후보는 Base의 moonwell-lending, APY 0.05%, TVL $2.41M, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; Base의 aerodrome-slipstream, APY 112.42%, TVL $380.4K, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; Base의 aerodrome-slipstream, APY 2.84%, TVL $272.2K, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 CBXRP의 변동성 낮은 후보는 Base의 moonwell-lending, APY 0.05%, TVL $2.43M, https://www.defi.garden/?pool=52aa442e-188a-4da4-9d44-b9d4a2e38192&src=seo_token; Base의 aerodrome-slipstream, APY 112.42%, TVL $380.4K, https://www.defi.garden/?pool=ad247753-74a9-4958-ab00-82a6b436ee03&src=seo_token; Base의 aerodrome-slipstream, APY 2.84%, TVL $272.2K, https://www.defi.garden/?pool=0330d308-62db-468f-b4b9-990bb810020b&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

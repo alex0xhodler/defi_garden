@@ -1,10 +1,10 @@
 # SHFL DeFi Yields
 
-The highest honest SHFL yield right now is 10.48% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SHFL yield right now is 8.88% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=e55823a3-3b38-4699-812c-fb19852d845d&src=seo_token) | Ethereum | 10.48% | $7.36M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=e55823a3-3b38-4699-812c-fb19852d845d&src=seo_token) | Ethereum | 8.88% | $7.36M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SHFL yield today?
 
-10.48% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+8.88% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many SHFL pools clear the TVL floor?
 

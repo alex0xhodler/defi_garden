@@ -1,10 +1,10 @@
 # HOBBES DeFi Yields
 
-The highest honest HOBBES yield right now is 4.30% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest HOBBES yield right now is 4.24% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=59bf6e89-c890-4d94-9ac4-7fedfee37345&src=seo_token) | Solana | 4.30% | $103K |
+| [raydium-amm →](https://www.defi.garden/?pool=59bf6e89-c890-4d94-9ac4-7fedfee37345&src=seo_token) | Solana | 4.24% | $103.9K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest HOBBES yield today?
 
-4.30% APY on raydium-amm (Solana), based on live DefiLlama data.
+4.24% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many HOBBES pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103K in total.
+1 live pool clear this page's $100K TVL floor, $103.9K in total.
 
 ### Are these rates safe?
 

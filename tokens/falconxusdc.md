@@ -1,11 +1,11 @@
 # FALCONXUSDC DeFi Yields
 
-The highest honest FALCONXUSDC yield right now is 17.14% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FALCONXUSDC yield right now is 17.11% on royco-v2 (Ethereum), among 3 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token) | Ethereum | 7.73% | $2.63M |
-| [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 17.14% | $158.4K |
+| [royco-v2 →](https://www.defi.garden/?pool=543ff8b3-09f8-5abd-9e2c-882788c1ad74&src=seo_token) | Ethereum | 7.72% | $2.63M |
+| [royco-v2 →](https://www.defi.garden/?pool=8e7a34d7-74a1-5c41-b1a6-5882319605b2&src=seo_token) | Ethereum | 17.11% | $158.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -16,7 +16,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-FALCONXUSDC shows up in 2 pools here, with rates from 7.73% to 17.14% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+FALCONXUSDC shows up in 2 pools here, with rates from 7.72% to 17.11% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 2 of these 2 pools have a trustworthy 30-day average on file, with a median of 11.42% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -26,8 +26,8 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| royco-v2 | 7.73% | 6.94% | Base rate |
-| royco-v2 | 17.14% | 15.90% | Base rate |
+| royco-v2 | 7.72% | 6.94% | Base rate |
+| royco-v2 | 17.11% | 15.90% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -35,7 +35,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest FALCONXUSDC yield today?
 
-17.14% APY on royco-v2 (Ethereum), based on live DefiLlama data.
+17.11% APY on royco-v2 (Ethereum), based on live DefiLlama data.
 
 ### How many FALCONXUSDC pools clear the TVL floor?
 

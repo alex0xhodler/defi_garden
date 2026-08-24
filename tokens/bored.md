@@ -4,7 +4,7 @@ The highest honest BORED yield right now is 0.04% on uniswap-v3 (Base), among 1 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=0f11964a-2ccc-4a44-a848-d743c7d836c4&src=seo_token) | Base | 0.04% | $3.2M |
+| [uniswap-v3 →](https://www.defi.garden/?pool=0f11964a-2ccc-4a44-a848-d743c7d836c4&src=seo_token) | Base | 0.04% | $3.24M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BORED pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $3.2M in total.
+1 live pool clear this page's $100K TVL floor, $3.24M in total.
 
 ### Are these rates safe?
 

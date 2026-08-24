@@ -1,10 +1,10 @@
 # FAIR DeFi Yields
 
-The highest honest FAIR yield right now is 26.84% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FAIR yield right now is 29.64% on uniswap-v3 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=08c09775-b4fa-4ab1-bfcf-9aa3bd94bcb5&src=seo_token) | Base | 26.84% | $182.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=08c09775-b4fa-4ab1-bfcf-9aa3bd94bcb5&src=seo_token) | Base | 29.64% | $184.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FAIR yield today?
 
-26.84% APY on uniswap-v3 (Base), based on live DefiLlama data.
+29.64% APY on uniswap-v3 (Base), based on live DefiLlama data.
 
 ### How many FAIR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $182.6K in total.
+1 live pool clear this page's $100K TVL floor, $184.8K in total.
 
 ### Are these rates safe?
 

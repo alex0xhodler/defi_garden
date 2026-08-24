@@ -4,7 +4,7 @@ The highest honest STESP yield right now is 2.86% on curve-dex (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token) | Ethereum | 2.86% | $262.7K |
+| [curve-dex →](https://www.defi.garden/?pool=a8b88f04-5a32-5d5e-b772-3d4d8d72baaf&src=seo_token) | Ethereum | 2.86% | $263.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many STESP pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $262.7K in total.
+1 live pool clear this page's $100K TVL floor, $263.1K in total.
 
 ### Are these rates safe?
 

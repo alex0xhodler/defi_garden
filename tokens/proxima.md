@@ -4,7 +4,7 @@ The highest honest PROXIMA yield right now is 0.01% on uniswap-v2 (Ethereum), am
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=64dcfb62-d1e6-4238-95c5-0dae5f0a5659&src=seo_token) | Ethereum | 0.01% | $248.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=64dcfb62-d1e6-4238-95c5-0dae5f0a5659&src=seo_token) | Ethereum | 0.01% | $249.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many PROXIMA pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $248.4K in total.
+1 live pool clear this page's $100K TVL floor, $249.3K in total.
 
 ### Are these rates safe?
 

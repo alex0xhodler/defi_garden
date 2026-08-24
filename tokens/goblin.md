@@ -4,7 +4,7 @@ The highest honest GOBLIN yield right now is 0.02% on uniswap-v4 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=561b5621-514e-449c-a600-59024eed9dd7&src=seo_token) | Ethereum | 0.02% | $121.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=561b5621-514e-449c-a600-59024eed9dd7&src=seo_token) | Ethereum | 0.02% | $122K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many GOBLIN pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $121.1K in total.
+1 live pool clear this page's $100K TVL floor, $122K in total.
 
 ### Are these rates safe?
 

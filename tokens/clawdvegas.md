@@ -4,7 +4,7 @@ The highest honest CLAWDVEGAS yield right now is 0.04% on uniswap-v4 (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=04a15547-914c-4057-946e-018ea6a02d9d&src=seo_token) | Base | 0.04% | $100.7K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=04a15547-914c-4057-946e-018ea6a02d9d&src=seo_token) | Base | 0.04% | $101.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many CLAWDVEGAS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $100.7K in total.
+1 live pool clear this page's $100K TVL floor, $101.4K in total.
 
 ### Are these rates safe?
 

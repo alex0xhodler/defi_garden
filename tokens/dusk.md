@@ -1,10 +1,10 @@
 # DUSK DeFi Yields
 
-The highest honest DUSK yield right now is 29.09% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest DUSK yield right now is 56.92% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=c7bf75b8-d1d2-4c71-8d2d-1d8f27170c1e&src=seo_token) | Ethereum | 29.09% | $228.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=c7bf75b8-d1d2-4c71-8d2d-1d8f27170c1e&src=seo_token) | Ethereum | 56.92% | $229.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest DUSK yield today?
 
-29.09% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+56.92% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many DUSK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $228.2K in total.
+1 live pool clear this page's $100K TVL floor, $229.7K in total.
 
 ### Are these rates safe?
 

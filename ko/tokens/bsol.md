@@ -4,28 +4,28 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 4.87% | $88.8M |
-| [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $7.78M |
-| [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $4.93M |
-| [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 0.96% | $570.3K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.65% | $512K |
-| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 24.01% | $193.5K |
-| [orca-dex →](https://www.defi.garden/?pool=14f7b33e-15ce-4eef-9f82-dfe53b4503a0&src=seo_token) | Solana | 0.03% | $114.2K |
+| [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 4.87% | $89.33M |
+| [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $7.83M |
+| [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $4.96M |
+| [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 1.11% | $517.3K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.65% | $515.6K |
+| [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 24.01% | $195.4K |
+| [orca-dex →](https://www.defi.garden/?pool=14f7b33e-15ce-4eef-9f82-dfe53b4503a0&src=seo_token) | Solana | 0.03% | $114.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BSOL의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.02%, TVL $7.78M, https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token; Solana의 project-0, APY 0.03%, TVL $4.93M, https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token; Solana의 blazestake, APY 4.87%, TVL $88.8M, https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token; Solana의 kamino-liquidity, APY 0.65%, TVL $512K, https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token; Solana의 orca-dex, APY 0.96%, TVL $570.3K, https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token; Solana의 orca-dex, APY 0.03%, TVL $114.2K, https://www.defi.garden/?pool=14f7b33e-15ce-4eef-9f82-dfe53b4503a0&src=seo_token; Solana의 kamino-liquidity, APY 24.01%, TVL $193.5K, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BSOL의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.02%, TVL $7.83M, https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token; Solana의 project-0, APY 0.03%, TVL $4.96M, https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token; Solana의 blazestake, APY 4.87%, TVL $89.33M, https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token; Solana의 kamino-liquidity, APY 0.65%, TVL $515.6K, https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token; Solana의 orca-dex, APY 1.11%, TVL $517.3K, https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token; Solana의 orca-dex, APY 0.03%, TVL $114.8K, https://www.defi.garden/?pool=14f7b33e-15ce-4eef-9f82-dfe53b4503a0&src=seo_token; Solana의 kamino-liquidity, APY 24.01%, TVL $195.4K, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $7.78M |
-| 2 | [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $4.93M |
-| 3 | [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 4.87% | $88.8M |
-| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.65% | $512K |
-| 5 | [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 0.96% | $570.3K |
-| 6 | [orca-dex →](https://www.defi.garden/?pool=14f7b33e-15ce-4eef-9f82-dfe53b4503a0&src=seo_token) | Solana | 0.03% | $114.2K |
-| 7 | [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 24.01% | $193.5K |
+| 1 | [kamino-lend →](https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token) | Solana | 0.02% | $7.83M |
+| 2 | [project-0 →](https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token) | Solana | 0.03% | $4.96M |
+| 3 | [blazestake →](https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token) | Solana | 4.87% | $89.33M |
+| 4 | [kamino-liquidity →](https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token) | Solana | 0.65% | $515.6K |
+| 5 | [orca-dex →](https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token) | Solana | 1.11% | $517.3K |
+| 6 | [orca-dex →](https://www.defi.garden/?pool=14f7b33e-15ce-4eef-9f82-dfe53b4503a0&src=seo_token) | Solana | 0.03% | $114.8K |
+| 7 | [kamino-liquidity →](https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token) | Solana | 24.01% | $195.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -44,10 +44,10 @@ BSOL 풀은 여기 7개가 있고, 1개 체인에서 APY가 0.02%부터 24.01%�
 | blazestake | 4.87% | 5.13% | 기본 금리 |
 | kamino-lend | 0.02% | 0.02% | 기본 금리 |
 | project-0 | 0.03% | 0.03% | 기본 금리 |
-| orca-dex | 0.96% | 0.89% | 인센티브 3.15% |
+| orca-dex | 1.11% | 0.89% | 인센티브 3.22% |
 | kamino-liquidity | 0.65% | 0.77% | 기본 금리 |
-| kamino-liquidity | 24.01% | 11.13% | 기본 금리 |
-| orca-dex | 0.03% | 0.10% | 인센티브 95.72% |
+| kamino-liquidity | 24.01% | 11.15% | 기본 금리 |
+| orca-dex | 0.03% | 0.10% | 인센티브 94.63% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -59,7 +59,7 @@ DefiLlama 실시간 데이터 기준, Solana의 blazestake에서 APY 4.87%예요
 
 ### BSOL 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $131.77M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 9개이며, 합산 TVL은 $132.38M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -67,7 +67,7 @@ DefiLlama 실시간 데이터 기준, Solana의 blazestake에서 APY 4.87%예요
 
 ### BSOL 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BSOL의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.02%, TVL $7.78M, https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token; Solana의 project-0, APY 0.03%, TVL $4.93M, https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token; Solana의 blazestake, APY 4.87%, TVL $88.8M, https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token; Solana의 kamino-liquidity, APY 0.65%, TVL $512K, https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token; Solana의 orca-dex, APY 0.96%, TVL $570.3K, https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token; Solana의 orca-dex, APY 0.03%, TVL $114.2K, https://www.defi.garden/?pool=14f7b33e-15ce-4eef-9f82-dfe53b4503a0&src=seo_token; Solana의 kamino-liquidity, APY 24.01%, TVL $193.5K, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BSOL의 변동성 낮은 후보는 Solana의 kamino-lend, APY 0.02%, TVL $7.83M, https://www.defi.garden/?pool=9837ed71-8e5e-45c4-a56d-54d738a1cb1e&src=seo_token; Solana의 project-0, APY 0.03%, TVL $4.96M, https://www.defi.garden/?pool=857b1f5d-5aea-40d3-a3c5-0d20d61160b3&src=seo_token; Solana의 blazestake, APY 4.87%, TVL $89.33M, https://www.defi.garden/?pool=387d6732-59f0-4ae0-8a88-aba75a5cbe4a&src=seo_token; Solana의 kamino-liquidity, APY 0.65%, TVL $515.6K, https://www.defi.garden/?pool=ceef4c39-3df9-4ead-89e3-45b824bb5136&src=seo_token; Solana의 orca-dex, APY 1.11%, TVL $517.3K, https://www.defi.garden/?pool=e571b6f4-6242-4e0c-a4ef-ab7525de9a1f&src=seo_token; Solana의 orca-dex, APY 0.03%, TVL $114.8K, https://www.defi.garden/?pool=14f7b33e-15ce-4eef-9f82-dfe53b4503a0&src=seo_token; Solana의 kamino-liquidity, APY 24.01%, TVL $195.4K, https://www.defi.garden/?pool=eb3b548a-4c25-4e49-9e08-9733c8da29a6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

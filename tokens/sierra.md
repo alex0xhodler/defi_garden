@@ -4,8 +4,8 @@ The highest honest SIERRA yield right now is 8.15% on pendle (Ethereum), among 5
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 5.33% | $9.71M |
-| [pendle →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.15% | $9.71M |
+| [pendle →](https://www.defi.garden/?pool=b01fc5b6-e787-5dd3-8ad3-bc2bacee335b&src=seo_token) | Ethereum | 8.15% | $9.74M |
+| [pendle →](https://www.defi.garden/?pool=d83955a1-edb2-57bb-a98a-d1ef77d5ce18&src=seo_token) | Ethereum | 5.31% | $9.74M |
 | [joe-v2.2 →](https://www.defi.garden/?pool=752371ac-d9cd-46b5-b2d9-28fbce6bb571&src=seo_token) | Avalanche | 0.01% | $155.4K |
 
 <!-- rate-stability:insufficient -->
@@ -27,8 +27,8 @@ SIERRA shows up in 3 pools here, with rates from 0.01% to 8.15% APY across 2 cha
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| pendle | 5.33% | 6.13% | 3.89% incentives |
 | pendle | 8.15% | 8.30% | Base rate |
+| pendle | 5.31% | 6.13% | 3.92% incentives |
 | joe-v2.2 | 0.01% | 0.51% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -41,7 +41,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SIERRA pools clear the TVL floor?
 
-5 live pools clear this page's $100K TVL floor, $27.39M in total.
+5 live pools clear this page's $100K TVL floor, $27.45M in total.
 
 ### Are these rates safe?
 

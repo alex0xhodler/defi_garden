@@ -4,7 +4,7 @@ The highest honest ZEST yield right now is 4.97% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token) | Ethereum | 4.97% | $252.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=ecd8b20a-b231-4c2a-8960-da94caf140cf&src=seo_token) | Ethereum | 4.97% | $252.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ZEST pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $252.2K in total.
+1 live pool clear this page's $100K TVL floor, $252.1K in total.
 
 ### Are these rates safe?
 

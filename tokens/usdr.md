@@ -4,19 +4,19 @@ The highest honest USDR yield right now is 0.12% on uniswap-v4 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token) | Ethereum | 0.89% | $196.3K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token) | Ethereum | 0.89% | $196.4K |
 | [uniswap-v4 →](https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token) | Ethereum | 0.12% | $195.4K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.80% | $195.1K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.85% | $195.2K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, USDR's lower-variability candidates are uniswap-v4 (Ethereum), 0.89% APY, $196.3K TVL, https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token; uniswap-v4 (Ethereum), 0.80% APY, $195.1K TVL, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token; uniswap-v4 (Ethereum), 0.12% APY, $195.4K TVL, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDR's lower-variability candidates are uniswap-v4 (Ethereum), 0.89% APY, $196.4K TVL, https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token; uniswap-v4 (Ethereum), 0.85% APY, $195.2K TVL, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token; uniswap-v4 (Ethereum), 0.12% APY, $195.4K TVL, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token) | Ethereum | 0.89% | $196.3K |
-| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.80% | $195.1K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token) | Ethereum | 0.89% | $196.4K |
+| 2 | [uniswap-v4 →](https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token) | Ethereum | 0.85% | $195.2K |
 | 3 | [uniswap-v4 →](https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token) | Ethereum | 0.12% | $195.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
@@ -33,7 +33,7 @@ All 3 pools pay a plain base rate right now — no incentive or reward APY mixed
 |---|---|---|---|
 | uniswap-v4 | 0.89% | 0.09% | Base rate |
 | uniswap-v4 | 0.12% | 0.20% | Base rate |
-| uniswap-v4 | 0.80% | 0.26% | Base rate |
+| uniswap-v4 | 0.85% | 0.26% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -45,7 +45,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many USDR pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $783.2K in total.
+4 live pools clear this page's $100K TVL floor, $783.4K in total.
 
 ### Are these rates safe?
 
@@ -53,7 +53,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which USDR pools have the most stable APY history?
 
-Based on APY history only, USDR's lower-variability candidates are uniswap-v4 (Ethereum), 0.89% APY, $196.3K TVL, https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token; uniswap-v4 (Ethereum), 0.80% APY, $195.1K TVL, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token; uniswap-v4 (Ethereum), 0.12% APY, $195.4K TVL, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, USDR's lower-variability candidates are uniswap-v4 (Ethereum), 0.89% APY, $196.4K TVL, https://www.defi.garden/?pool=f5dd43e4-2bf4-41f9-a6aa-d6a6717d7718&src=seo_token; uniswap-v4 (Ethereum), 0.85% APY, $195.2K TVL, https://www.defi.garden/?pool=54971977-eb8e-46aa-acd7-a26e7f06a22d&src=seo_token; uniswap-v4 (Ethereum), 0.12% APY, $195.4K TVL, https://www.defi.garden/?pool=96fe353f-d409-4339-9c1c-e1d8e2925485&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

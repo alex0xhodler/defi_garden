@@ -1,33 +1,33 @@
 # RBTC DeFi Yields
 
-The highest honest RBTC yield right now is 0.78% on uniswap-v3 (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest RBTC yield right now is 0.77% on uniswap-v3 (Arbitrum), among 6 pools above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.40% | $1.06M |
-| [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token) | Rootstock | 0.24% | $958.7K |
-| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.14% | $878.4K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 0.78% | $287.5K |
-| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 1.54% | $144.9K |
+| [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token) | Rootstock | 0.24% | $966.3K |
+| [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.14% | $884.6K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 0.77% | $290.4K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 1.55% | $146.6K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, RBTC's lower-variability candidates are uniswap-v3 (Arbitrum), 0.78% APY, $287.5K TVL, https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token; uniswap-v3 (Base), 1.54% APY, $144.9K TVL, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; sovryn-dex (Rootstock), 0.24% APY, $958.7K TVL, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; sovryn-dex (Rootstock), 0.14% APY, $878.4K TVL, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; sovryn-dex (Rootstock), 0.40% APY, $1.06M TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RBTC's lower-variability candidates are uniswap-v3 (Arbitrum), 0.77% APY, $290.4K TVL, https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token; uniswap-v3 (Base), 1.55% APY, $146.6K TVL, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; sovryn-dex (Rootstock), 0.24% APY, $966.3K TVL, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; sovryn-dex (Rootstock), 0.14% APY, $884.6K TVL, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; sovryn-dex (Rootstock), 0.40% APY, $1.06M TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 0.78% | $287.5K |
-| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 1.54% | $144.9K |
-| 3 | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token) | Rootstock | 0.24% | $958.7K |
-| 4 | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.14% | $878.4K |
+| 1 | [uniswap-v3 →](https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token) | Arbitrum | 0.77% | $290.4K |
+| 2 | [uniswap-v3 →](https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token) | Base | 1.55% | $146.6K |
+| 3 | [sovryn-dex →](https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token) | Rootstock | 0.24% | $966.3K |
+| 4 | [sovryn-dex →](https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token) | Rootstock | 0.14% | $884.6K |
 | 5 | [sovryn-dex →](https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token) | Rootstock | 0.40% | $1.06M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-RBTC shows up in 5 pools here, with rates from 0.14% to 1.54% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
+RBTC shows up in 5 pools here, with rates from 0.14% to 1.55% APY across 3 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 5 of these 5 pools have a trustworthy 30-day average on file, with a median of 0.40% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -40,8 +40,8 @@ RBTC shows up in 5 pools here, with rates from 0.14% to 1.54% APY across 3 chain
 | sovryn-dex | 0.40% | 0.59% | 100.00% incentives |
 | sovryn-dex | 0.24% | 0.19% | 100.00% incentives |
 | sovryn-dex | 0.14% | 0.22% | 100.00% incentives |
-| uniswap-v3 | 0.78% | 0.43% | Base rate |
-| uniswap-v3 | 1.54% | 0.40% | Base rate |
+| uniswap-v3 | 0.77% | 0.44% | Base rate |
+| uniswap-v3 | 1.55% | 0.40% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -49,11 +49,11 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### What's the highest RBTC yield today?
 
-0.78% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
+0.77% APY on uniswap-v3 (Arbitrum), based on live DefiLlama data.
 
 ### How many RBTC pools clear the TVL floor?
 
-6 live pools clear this page's $100K TVL floor, $4M in total.
+6 live pools clear this page's $100K TVL floor, $4.03M in total.
 
 ### Are these rates safe?
 
@@ -61,7 +61,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which RBTC pools have the most stable APY history?
 
-Based on APY history only, RBTC's lower-variability candidates are uniswap-v3 (Arbitrum), 0.78% APY, $287.5K TVL, https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token; uniswap-v3 (Base), 1.54% APY, $144.9K TVL, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; sovryn-dex (Rootstock), 0.24% APY, $958.7K TVL, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; sovryn-dex (Rootstock), 0.14% APY, $878.4K TVL, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; sovryn-dex (Rootstock), 0.40% APY, $1.06M TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, RBTC's lower-variability candidates are uniswap-v3 (Arbitrum), 0.77% APY, $290.4K TVL, https://www.defi.garden/?pool=be31e4e4-c68a-4c4d-94c9-8e7f7a6c1424&src=seo_token; uniswap-v3 (Base), 1.55% APY, $146.6K TVL, https://www.defi.garden/?pool=898a9755-11e4-5eb2-80e3-a438ba7fdc9a&src=seo_token; sovryn-dex (Rootstock), 0.24% APY, $966.3K TVL, https://www.defi.garden/?pool=1382d8c4-7482-4e8f-9037-a6dda636eda6&src=seo_token; sovryn-dex (Rootstock), 0.14% APY, $884.6K TVL, https://www.defi.garden/?pool=1fbd4ce2-104c-4152-b966-c51613f6717f&src=seo_token; sovryn-dex (Rootstock), 0.40% APY, $1.06M TVL, https://www.defi.garden/?pool=a172fd9e-eae8-4915-83b9-3fa8a595bd03&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

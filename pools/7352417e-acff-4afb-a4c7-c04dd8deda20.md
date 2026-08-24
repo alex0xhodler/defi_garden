@@ -1,6 +1,6 @@
 # USDC-USDBC — alien-base-v3 on Base
 
-**Total APY:** 0.45% (0.45% Base · + 0.00% Rewards)
+**Total APY:** 0.46% (0.46% Base · + 0.00% Rewards)
 
 **TVL:** $135.4K
 

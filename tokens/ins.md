@@ -4,7 +4,7 @@ The highest honest INS yield right now is 0.04% on uniswap-v3 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=987e4d9f-1483-4ed9-ae44-0f38196c7eff&src=seo_token) | Ethereum | 0.04% | $202.3K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=987e4d9f-1483-4ed9-ae44-0f38196c7eff&src=seo_token) | Ethereum | 0.04% | $203.1K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many INS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $202.3K in total.
+1 live pool clear this page's $100K TVL floor, $203.1K in total.
 
 ### Are these rates safe?
 

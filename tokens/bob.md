@@ -4,18 +4,18 @@ The highest honest BOB yield right now is 0.04% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token) | Ethereum | 0.04% | $436.7K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token) | Ethereum | 0.04% | $440.2K |
 | [uniswap-v3 →](https://www.defi.garden/?pool=b340bd39-c19b-4266-90a1-a43cb6825a81&src=seo_token) | Polygon | 0.01% | $200.8K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BOB's lower-variability candidates are uniswap-v3 (Polygon), 0.01% APY, $200.8K TVL, https://www.defi.garden/?pool=b340bd39-c19b-4266-90a1-a43cb6825a81&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $436.7K TVL, https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOB's lower-variability candidates are uniswap-v3 (Polygon), 0.01% APY, $200.8K TVL, https://www.defi.garden/?pool=b340bd39-c19b-4266-90a1-a43cb6825a81&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $440.2K TVL, https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [uniswap-v3 →](https://www.defi.garden/?pool=b340bd39-c19b-4266-90a1-a43cb6825a81&src=seo_token) | Polygon | 0.01% | $200.8K |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token) | Ethereum | 0.04% | $436.7K |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token) | Ethereum | 0.04% | $440.2K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many BOB pools clear the TVL floor?
 
-3 live pools clear this page's $100K TVL floor, $737.5K in total.
+3 live pools clear this page's $100K TVL floor, $741K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BOB pools have the most stable APY history?
 
-Based on APY history only, BOB's lower-variability candidates are uniswap-v3 (Polygon), 0.01% APY, $200.8K TVL, https://www.defi.garden/?pool=b340bd39-c19b-4266-90a1-a43cb6825a81&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $436.7K TVL, https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BOB's lower-variability candidates are uniswap-v3 (Polygon), 0.01% APY, $200.8K TVL, https://www.defi.garden/?pool=b340bd39-c19b-4266-90a1-a43cb6825a81&src=seo_token; uniswap-v2 (Ethereum), 0.04% APY, $440.2K TVL, https://www.defi.garden/?pool=c19821c2-55bc-404b-bed2-e590ebb1663b&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

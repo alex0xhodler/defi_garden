@@ -1,10 +1,10 @@
 # CIG DeFi Yields
 
-The highest honest CIG yield right now is 2.85% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest CIG yield right now is 2.84% on sushiswap (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [sushiswap →](https://www.defi.garden/?pool=7c08c152-ccc6-427c-bcb6-16e3f7472c5b&src=seo_token) | Ethereum | 2.85% | $336.6K |
+| [sushiswap →](https://www.defi.garden/?pool=7c08c152-ccc6-427c-bcb6-16e3f7472c5b&src=seo_token) | Ethereum | 2.84% | $337.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest CIG yield today?
 
-2.85% APY on sushiswap (Ethereum), based on live DefiLlama data.
+2.84% APY on sushiswap (Ethereum), based on live DefiLlama data.
 
 ### How many CIG pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $336.6K in total.
+1 live pool clear this page's $100K TVL floor, $337.8K in total.
 
 ### Are these rates safe?
 

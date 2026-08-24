@@ -1,10 +1,10 @@
 # SOIL DeFi Yields
 
-The highest honest SOIL yield right now is 0.19% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest SOIL yield right now is 2.85% on raydium-amm (Solana), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=c55a5c99-c06e-5c90-8724-5bf94e5b7720&src=seo_token) | Solana | 0.19% | $342.4K |
+| [raydium-amm →](https://www.defi.garden/?pool=c55a5c99-c06e-5c90-8724-5bf94e5b7720&src=seo_token) | Solana | 2.85% | $364.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest SOIL yield today?
 
-0.19% APY on raydium-amm (Solana), based on live DefiLlama data.
+2.85% APY on raydium-amm (Solana), based on live DefiLlama data.
 
 ### How many SOIL pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $342.4K in total.
+1 live pool clear this page's $100K TVL floor, $364.3K in total.
 
 ### Are these rates safe?
 

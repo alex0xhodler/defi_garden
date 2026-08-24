@@ -4,20 +4,20 @@ The highest honest CORE yield right now is 13.65% on b14g (CORE), among 4 pools 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token) | CORE | 13.65% | $2.27M |
-| [uniswap-v2 →](https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token) | Ethereum | 0.02% | $1.56M |
+| [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token) | CORE | 13.65% | $2.28M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token) | Ethereum | 0.02% | $1.57M |
 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.16% | $1.56M |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.16% APY, $1.56M TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; uniswap-v2 (Ethereum), 0.02% APY, $1.56M TVL, https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token; b14g (CORE), 13.65% APY, $2.27M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.16% APY, $1.56M TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; uniswap-v2 (Ethereum), 0.02% APY, $1.57M TVL, https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token; b14g (CORE), 13.65% APY, $2.28M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [morpho-blue →](https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token) | Ethereum | 4.16% | $1.56M |
-| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token) | Ethereum | 0.02% | $1.56M |
-| 3 | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token) | CORE | 13.65% | $2.27M |
+| 2 | [uniswap-v2 →](https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token) | Ethereum | 0.02% | $1.57M |
+| 3 | [b14g →](https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token) | CORE | 13.65% | $2.28M |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -47,7 +47,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many CORE pools clear the TVL floor?
 
-4 live pools clear this page's $100K TVL floor, $5.54M in total.
+4 live pools clear this page's $100K TVL floor, $5.56M in total.
 
 ### Are these rates safe?
 
@@ -55,7 +55,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which CORE pools have the most stable APY history?
 
-Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.16% APY, $1.56M TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; uniswap-v2 (Ethereum), 0.02% APY, $1.56M TVL, https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token; b14g (CORE), 13.65% APY, $2.27M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, CORE's lower-variability candidates are morpho-blue (Ethereum), 4.16% APY, $1.56M TVL, https://www.defi.garden/?pool=257780b7-83a2-42f7-a530-b700bc674ef4&src=seo_token; uniswap-v2 (Ethereum), 0.02% APY, $1.57M TVL, https://www.defi.garden/?pool=757c495b-3a88-4c21-a1ef-f7e4bc8d0064&src=seo_token; b14g (CORE), 13.65% APY, $2.28M TVL, https://www.defi.garden/?pool=f183f1a4-5d17-4bfa-8270-32d861a13fd3&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

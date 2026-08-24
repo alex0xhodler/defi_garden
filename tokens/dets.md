@@ -4,7 +4,7 @@ The highest honest DETS yield right now is 0.02% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=efc28cf2-88c4-40ec-93f3-7219bdbc5896&src=seo_token) | Ethereum | 0.02% | $2.67M |
+| [uniswap-v2 →](https://www.defi.garden/?pool=efc28cf2-88c4-40ec-93f3-7219bdbc5896&src=seo_token) | Ethereum | 0.02% | $2.68M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many DETS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $2.67M in total.
+1 live pool clear this page's $100K TVL floor, $2.68M in total.
 
 ### Are these rates safe?
 

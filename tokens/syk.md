@@ -4,7 +4,7 @@ The highest honest SYK yield right now is 0.20% on camelot-v2 (Arbitrum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [camelot-v2 →](https://www.defi.garden/?pool=08a736f7-a0ed-40ff-bd3b-8c602b8f606e&src=seo_token) | Arbitrum | 0.20% | $101.6K |
+| [camelot-v2 →](https://www.defi.garden/?pool=08a736f7-a0ed-40ff-bd3b-8c602b8f606e&src=seo_token) | Arbitrum | 0.20% | $102.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many SYK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $101.6K in total.
+1 live pool clear this page's $100K TVL floor, $102.2K in total.
 
 ### Are these rates safe?
 

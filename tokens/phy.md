@@ -4,7 +4,7 @@ The highest honest PHY yield right now is 0.69% on orca-dex (Solana), among 2 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token) | Solana | 0.69% | $208.2K |
+| [orca-dex →](https://www.defi.garden/?pool=14a65a8c-4d05-4796-8adc-b6073f3a2d5c&src=seo_token) | Solana | 0.69% | $209.3K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -37,7 +37,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many PHY pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $371K in total.
+2 live pools clear this page's $100K TVL floor, $372.9K in total.
 
 ### Are these rates safe?
 

@@ -1,31 +1,31 @@
 # SUPERWETH 디파이 수익률
 
-현재 SUPERWETH의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 4.37%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUPERWETH의 가장 높은 정직한 수익률은 Ethereum의 pendle에서 4.42%이며, $100K TVL 기준을 넘는 4개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.12% | $2.6M |
-| [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.16% | $533.1K |
-| [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.37% | $533.1K |
-| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.38% | $319.4K |
+| [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.18% | $2.62M |
+| [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.22% | $538.1K |
+| [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.42% | $538.1K |
+| [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.45% | $321.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 SUPERWETH의 변동성 낮은 후보는 Ethereum의 pendle, APY 4.16%, TVL $533.1K, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; Base의 superform, APY 2.38%, TVL $319.4K, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; Ethereum의 pendle, APY 4.37%, TVL $533.1K, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token; Ethereum의 superform, APY 1.12%, TVL $2.6M, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUPERWETH의 변동성 낮은 후보는 Ethereum의 pendle, APY 4.22%, TVL $538.1K, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; Base의 superform, APY 2.45%, TVL $321.7K, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; Ethereum의 pendle, APY 4.42%, TVL $538.1K, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token; Ethereum의 superform, APY 1.18%, TVL $2.62M, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.16% | $533.1K |
-| 2 | [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.38% | $319.4K |
-| 3 | [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.37% | $533.1K |
-| 4 | [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.12% | $2.6M |
+| 1 | [pendle →](https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token) | Ethereum | 4.22% | $538.1K |
+| 2 | [superform →](https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token) | Base | 2.45% | $321.7K |
+| 3 | [pendle →](https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token) | Ethereum | 4.42% | $538.1K |
+| 4 | [superform →](https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token) | Ethereum | 1.18% | $2.62M |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUPERWETH 풀은 여기 4개가 있고, 2개 체인에서 APY가 1.12%부터 4.37%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUPERWETH 풀은 여기 4개가 있고, 2개 체인에서 APY가 1.18%부터 4.42%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 4개 풀 중 4개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 3.49%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -33,10 +33,10 @@ SUPERWETH 풀은 여기 4개가 있고, 2개 체인에서 APY가 1.12%부터 4.3
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| superform | 1.12% | 1.39% | 인센티브 100.00% |
-| pendle | 4.16% | 4.38% | 인센티브 21.42% |
-| pendle | 4.37% | 4.93% | 인센티브 20.43% |
-| superform | 2.38% | 2.60% | 인센티브 47.29% |
+| superform | 1.18% | 1.39% | 인센티브 100.00% |
+| pendle | 4.22% | 4.38% | 인센티브 22.44% |
+| pendle | 4.42% | 4.93% | 인센티브 21.39% |
+| superform | 2.45% | 2.60% | 인센티브 48.04% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -44,11 +44,11 @@ SUPERWETH 풀은 여기 4개가 있고, 2개 체인에서 APY가 1.12%부터 4.3
 
 ### 오늘 SUPERWETH의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 4.37%예요.
+DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 4.42%예요.
 
 ### SUPERWETH 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $3.99M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 4개이며, 합산 TVL은 $4.02M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -56,7 +56,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 pendle에서 APY 4.37%예요.
 
 ### SUPERWETH 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 SUPERWETH의 변동성 낮은 후보는 Ethereum의 pendle, APY 4.16%, TVL $533.1K, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; Base의 superform, APY 2.38%, TVL $319.4K, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; Ethereum의 pendle, APY 4.37%, TVL $533.1K, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token; Ethereum의 superform, APY 1.12%, TVL $2.6M, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 SUPERWETH의 변동성 낮은 후보는 Ethereum의 pendle, APY 4.22%, TVL $538.1K, https://www.defi.garden/?pool=a4237a69-4c1c-4e30-a061-0f4646c1973a&src=seo_token; Base의 superform, APY 2.45%, TVL $321.7K, https://www.defi.garden/?pool=34c1bf61-ef0e-4832-8f14-67008187d3b4&src=seo_token; Ethereum의 pendle, APY 4.42%, TVL $538.1K, https://www.defi.garden/?pool=b38a8a8a-d736-46d4-b8c8-e521b0b98bd5&src=seo_token; Ethereum의 superform, APY 1.18%, TVL $2.62M, https://www.defi.garden/?pool=39143e86-aca1-4538-a77d-8b081fab62b6&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

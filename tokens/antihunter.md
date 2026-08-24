@@ -4,7 +4,7 @@ The highest honest ANTIHUNTER yield right now is 0.09% on uniswap-v4 (Base), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=675c3956-3515-4e68-9cd6-13f4d0328008&src=seo_token) | Base | 0.09% | $341.9K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=675c3956-3515-4e68-9cd6-13f4d0328008&src=seo_token) | Base | 0.09% | $344.8K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many ANTIHUNTER pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $341.9K in total.
+1 live pool clear this page's $100K TVL floor, $344.8K in total.
 
 ### Are these rates safe?
 

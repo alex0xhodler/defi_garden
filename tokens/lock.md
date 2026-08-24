@@ -4,7 +4,7 @@ The highest honest LOCK yield right now is 0.03% on uniswap-v2 (Ethereum), among
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=edb37483-44a1-484d-b7af-fd174406b929&src=seo_token) | Ethereum | 0.03% | $156.5K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=edb37483-44a1-484d-b7af-fd174406b929&src=seo_token) | Ethereum | 0.03% | $157K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LOCK pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $156.5K in total.
+1 live pool clear this page's $100K TVL floor, $157K in total.
 
 ### Are these rates safe?
 

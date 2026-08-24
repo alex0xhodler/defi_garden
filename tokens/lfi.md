@@ -4,26 +4,26 @@ The highest honest LFI yield right now is 853.43% on aerodrome-slipstream (Base)
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 127.95% | $1.02M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 127.86% | $1.03M |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token) | Base | 853.43% | $123.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, LFI's lower-variability candidates are uniswap-v4 (Base), 127.95% APY, $1.02M TVL, https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token; aerodrome-slipstream (Base), 853.43% APY, $123.4K TVL, https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LFI's lower-variability candidates are uniswap-v4 (Base), 127.86% APY, $1.03M TVL, https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token; aerodrome-slipstream (Base), 853.43% APY, $123.4K TVL, https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 127.95% | $1.02M |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token) | Base | 127.86% | $1.03M |
 | 2 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token) | Base | 853.43% | $123.4K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-LFI shows up in 2 pools here, with rates from 127.95% to 853.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+LFI shows up in 2 pools here, with rates from 127.86% to 853.43% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 413.37% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 413.44% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 1 of 2 pools blends in incentive or reward APY on top of the base rate. Incentive yield decays over time as reward programs run down — the base rate is the more durable number.
 
@@ -31,7 +31,7 @@ LFI shows up in 2 pools here, with rates from 127.95% to 853.43% APY across 1 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| uniswap-v4 | 127.95% | 72.97% | Base rate |
+| uniswap-v4 | 127.86% | 73.11% | Base rate |
 | aerodrome-slipstream | 853.43% | 753.78% | 100.00% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which LFI pools have the most stable APY history?
 
-Based on APY history only, LFI's lower-variability candidates are uniswap-v4 (Base), 127.95% APY, $1.02M TVL, https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token; aerodrome-slipstream (Base), 853.43% APY, $123.4K TVL, https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, LFI's lower-variability candidates are uniswap-v4 (Base), 127.86% APY, $1.03M TVL, https://www.defi.garden/?pool=7ba3c8d4-8acf-418d-8fe5-f35916d45363&src=seo_token; aerodrome-slipstream (Base), 853.43% APY, $123.4K TVL, https://www.defi.garden/?pool=3efdd00f-7ab1-48c9-9032-ff03c6250b74&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

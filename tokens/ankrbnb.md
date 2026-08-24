@@ -4,18 +4,18 @@ The highest honest ANKRBNB yield right now is 1.25% on ankr (BSC), among 2 pools
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token) | BSC | 1.25% | $742K |
+| [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token) | BSC | 1.25% | $745.1K |
 | [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.01% | $229.4K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, ANKRBNB's lower-variability candidates are wombat-exchange (BSC), 0.01% APY, $229.4K TVL, https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token; ankr (BSC), 1.25% APY, $742K TVL, https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANKRBNB's lower-variability candidates are wombat-exchange (BSC), 0.01% APY, $229.4K TVL, https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token; ankr (BSC), 1.25% APY, $745.1K TVL, https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [wombat-exchange →](https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token) | BSC | 0.01% | $229.4K |
-| 2 | [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token) | BSC | 1.25% | $742K |
+| 2 | [ankr →](https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token) | BSC | 1.25% | $745.1K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -44,7 +44,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many ANKRBNB pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $971.3K in total.
+2 live pools clear this page's $100K TVL floor, $974.4K in total.
 
 ### Are these rates safe?
 
@@ -52,7 +52,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which ANKRBNB pools have the most stable APY history?
 
-Based on APY history only, ANKRBNB's lower-variability candidates are wombat-exchange (BSC), 0.01% APY, $229.4K TVL, https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token; ankr (BSC), 1.25% APY, $742K TVL, https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, ANKRBNB's lower-variability candidates are wombat-exchange (BSC), 0.01% APY, $229.4K TVL, https://www.defi.garden/?pool=226d2cfb-cc13-4580-9534-6b8a67351097&src=seo_token; ankr (BSC), 1.25% APY, $745.1K TVL, https://www.defi.garden/?pool=76ce5019-2483-4d1b-ae06-01b890360045&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

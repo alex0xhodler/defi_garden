@@ -1,12 +1,12 @@
 # WSOL-HEHE — raydium-amm on Solana
 
-**Total APY:** 1.87% (1.87% Base · + 0.00% Rewards)
+**Total APY:** 1.86% (1.86% Base · + 0.00% Rewards)
 
-**TVL:** $175K
+**TVL:** $175.6K
 
 **Pool Type:** LP/DEX
 
-**30d Mean APY:** 1.96%
+**30d Mean APY:** 1.95%
 
 **Exposure:** multi
 

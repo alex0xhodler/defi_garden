@@ -4,7 +4,7 @@ The highest honest LBTCV yield right now is 0.57% on veda (Ethereum), among 1 po
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [veda →](https://www.defi.garden/?pool=17e0b32c-db36-4ecd-9cfc-25943ebb756b&src=seo_token) | Ethereum | 0.57% | $70.22M |
+| [veda →](https://www.defi.garden/?pool=17e0b32c-db36-4ecd-9cfc-25943ebb756b&src=seo_token) | Ethereum | 0.57% | $71.04M |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many LBTCV pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $70.22M in total.
+1 live pool clear this page's $100K TVL floor, $71.04M in total.
 
 ### Are these rates safe?
 

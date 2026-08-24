@@ -4,22 +4,22 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [origin-arm →](https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token) | Ethereum | 5.43% | $7.38M |
-| [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 3.55% | $5.14M |
-| [origin-arm →](https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token) | Ethereum | 6.63% | $542.5K |
-| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.37% | $304.5K |
-| [origin-arm →](https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token) | Ethereum | 4.84% | $200.5K |
-| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 2.85% | $122.7K |
+| [origin-arm →](https://www.defi.garden/?pool=7dcbc810-3f9d-54c7-bb06-037a3954558c&src=seo_token) | Ethereum | 5.47% | $7.43M |
+| [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 3.53% | $5.18M |
+| [origin-arm →](https://www.defi.garden/?pool=bd2c4da2-b4a0-527d-a772-c5c3f161a6c1&src=seo_token) | Ethereum | 6.63% | $542.4K |
+| [origin-arm →](https://www.defi.garden/?pool=632e4738-0025-5a2c-8ee0-50f8a550c387&src=seo_token) | Ethereum | 1.37% | $306.7K |
+| [origin-arm →](https://www.defi.garden/?pool=1e52181b-7fbc-568a-98bc-be71e4dd428d&src=seo_token) | Ethereum | 4.91% | $200.5K |
+| [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 2.83% | $123.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 ARM의 변동성 낮은 후보는 Ethereum의 origin-arm, APY 3.55%, TVL $5.14M, https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token; Ethereum의 curve-dex, APY 2.85%, TVL $122.7K, https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ARM의 변동성 낮은 후보는 Ethereum의 origin-arm, APY 3.53%, TVL $5.18M, https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token; Ethereum의 curve-dex, APY 2.83%, TVL $123.4K, https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 3.55% | $5.14M |
-| 2 | [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 2.85% | $122.7K |
+| 1 | [origin-arm →](https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token) | Ethereum | 3.53% | $5.18M |
+| 2 | [curve-dex →](https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token) | Ethereum | 2.83% | $123.4K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
@@ -35,12 +35,12 @@ ARM 풀은 여기 6개가 있고, 1개 체인에서 APY가 1.37%부터 6.63%까�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| origin-arm | 5.43% | 4.70% | 인센티브 27.61% |
-| origin-arm | 3.55% | 2.29% | 기본 금리 |
-| origin-arm | 6.63% | 7.13% | 인센티브 30.17% |
+| origin-arm | 5.47% | 4.71% | 인센티브 27.40% |
+| origin-arm | 3.53% | 2.30% | 기본 금리 |
+| origin-arm | 6.63% | 7.13% | 인센티브 30.19% |
 | origin-arm | 1.37% | 1.42% | 기본 금리 |
-| origin-arm | 4.84% | 7.01% | 기본 금리 |
-| curve-dex | 2.85% | 2.61% | 인센티브 44.50% |
+| origin-arm | 4.91% | 7.01% | 기본 금리 |
+| curve-dex | 2.83% | 2.61% | 인센티브 44.18% |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -52,7 +52,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 origin-arm에서 APY 6.63%예�
 
 ### ARM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $13.7M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 6개이며, 합산 TVL은 $13.79M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -60,7 +60,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 origin-arm에서 APY 6.63%예�
 
 ### ARM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 ARM의 변동성 낮은 후보는 Ethereum의 origin-arm, APY 3.55%, TVL $5.14M, https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token; Ethereum의 curve-dex, APY 2.85%, TVL $122.7K, https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 ARM의 변동성 낮은 후보는 Ethereum의 origin-arm, APY 3.53%, TVL $5.18M, https://www.defi.garden/?pool=0610f132-4f4e-415d-bfde-81c81694fe8e&src=seo_token; Ethereum의 curve-dex, APY 2.83%, TVL $123.4K, https://www.defi.garden/?pool=a0e36ac9-443c-4123-b543-364c3d1cfa68&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

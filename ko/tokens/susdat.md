@@ -1,17 +1,17 @@
 # SUSDAT 디파이 수익률
 
-현재 SUSDAT의 가장 높은 정직한 수익률은 Monad의 pendle에서 26.11%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SUSDAT의 가장 높은 정직한 수익률은 Monad의 pendle에서 26.12%이며, $100K TVL 기준을 넘는 15개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
 | [saturn →](https://www.defi.garden/?pool=47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50&src=seo_token) | Ethereum | 15.98% | $79.91M |
 | [pendle →](https://www.defi.garden/?pool=f807b170-a976-55d3-88f1-f4fda5900fa2&src=seo_token) | Monad | 18.43% | $2.8M |
-| [pendle →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token) | Monad | 26.11% | $2.8M |
+| [pendle →](https://www.defi.garden/?pool=68a736e3-80bd-5eef-af8a-29dd931d6415&src=seo_token) | Monad | 26.12% | $2.8M |
 | [pendle →](https://www.defi.garden/?pool=d3dfdf45-2758-4d4d-8957-658e5e2a5cac&src=seo_token) | Ethereum | 20.58% | $2.48M |
 | [pendle →](https://www.defi.garden/?pool=1b9fd865-8e9a-40c3-90e2-18b43fab4c97&src=seo_token) | Ethereum | 16.11% | $2.48M |
 | [pendle →](https://www.defi.garden/?pool=0ff975b8-b113-4749-bc5f-649cca347327&src=seo_token) | BSC | 12.20% | $2.37M |
 | [pendle →](https://www.defi.garden/?pool=f3c5aa2a-1bd3-45fd-a69b-8741fb1ba62b&src=seo_token) | BSC | 16.08% | $2.37M |
-| [curve-dex →](https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token) | Ethereum | 0.29% | $103.5K |
+| [curve-dex →](https://www.defi.garden/?pool=21d224c9-fe8d-571f-89e4-b234858a0aae&src=seo_token) | Ethereum | 0.29% | $103.4K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
@@ -30,22 +30,22 @@ APY 이력만 기준으로 비교한 SUSDAT의 변동성 낮은 후보는 BSC의
 
 ## 이 수익률은 어떻게 움직였을까요
 
-SUSDAT 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.29%부터 26.11%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+SUSDAT 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.29%부터 26.12%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
-8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 11.80%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
+8개 풀 중 8개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 11.79%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
 8개 풀 중 2개는 기본 금리에 인센티브·리워드 APY가 더해져 있어요. 인센티브 수익률은 보상 프로그램이 줄어들면서 시간이 지나면 낮아지는 경향이 있으니, 기본 금리가 더 오래가는 숫자예요.
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| saturn | 15.98% | 21.00% | 기본 금리 |
-| pendle | 18.43% | 20.37% | 기본 금리 |
-| pendle | 26.11% | 35.27% | 인센티브 1.61% |
-| pendle | 20.58% | 11.37% | 기본 금리 |
+| saturn | 15.98% | 20.98% | 기본 금리 |
+| pendle | 18.43% | 20.36% | 기본 금리 |
+| pendle | 26.12% | 35.24% | 인센티브 1.62% |
+| pendle | 20.58% | 11.38% | 기본 금리 |
 | pendle | 16.11% | 3.11% | 인센티브 3.25% |
 | pendle | 12.20% | 5.25% | 기본 금리 |
-| pendle | 16.08% | 12.22% | 기본 금리 |
-| curve-dex | 0.29% | 5.40% | 기본 금리 |
+| pendle | 16.08% | 12.21% | 기본 금리 |
+| curve-dex | 0.29% | 5.39% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -53,11 +53,11 @@ SUSDAT 풀은 여기 8개가 있고, 3개 체인에서 APY가 0.29%부터 26.11%
 
 ### 오늘 SUSDAT의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 26.11%예요.
+DefiLlama 실시간 데이터 기준, Monad의 pendle에서 APY 26.12%예요.
 
 ### SUSDAT 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $114.65M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 15개이며, 합산 TVL은 $114.64M예요.
 
 ### 이 수익률은 안전한가요?
 

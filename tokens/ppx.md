@@ -1,10 +1,10 @@
 # PPX DeFi Yields
 
-The highest honest PPX yield right now is 11.53% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest PPX yield right now is 10.97% on uniswap-v4 (Base), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=3e30e763-daf4-489a-a0f8-056673298ebc&src=seo_token) | Base | 11.53% | $145K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=3e30e763-daf4-489a-a0f8-056673298ebc&src=seo_token) | Base | 10.97% | $145K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest PPX yield today?
 
-11.53% APY on uniswap-v4 (Base), based on live DefiLlama data.
+10.97% APY on uniswap-v4 (Base), based on live DefiLlama data.
 
 ### How many PPX pools clear the TVL floor?
 

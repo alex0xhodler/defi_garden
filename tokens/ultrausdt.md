@@ -1,10 +1,10 @@
 # ULTRAUSDT DeFi Yields
 
-The highest honest ULTRAUSDT yield right now is 2.91% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest ULTRAUSDT yield right now is 2.79% on morpho-blue (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=c75090de-fc74-44d7-bc80-5a25a0f9c919&src=seo_token) | Ethereum | 2.91% | $101K |
+| [morpho-blue →](https://www.defi.garden/?pool=c75090de-fc74-44d7-bc80-5a25a0f9c919&src=seo_token) | Ethereum | 2.79% | $101K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,7 +17,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest ULTRAUSDT yield today?
 
-2.91% APY on morpho-blue (Ethereum), based on live DefiLlama data.
+2.79% APY on morpho-blue (Ethereum), based on live DefiLlama data.
 
 ### How many ULTRAUSDT pools clear the TVL floor?
 

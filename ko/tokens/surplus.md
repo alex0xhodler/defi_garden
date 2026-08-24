@@ -1,10 +1,10 @@
 # SURPLUS 디파이 수익률
 
-현재 SURPLUS의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 103.44%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 SURPLUS의 가장 높은 정직한 수익률은 Base의 uniswap-v4에서 102.17%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=74af654d-1d20-448a-8f8b-151d4c1df070&src=seo_token) | Base | 103.44% | $1.82M |
+| [uniswap-v4 →](https://www.defi.garden/?pool=74af654d-1d20-448a-8f8b-151d4c1df070&src=seo_token) | Base | 102.17% | $1.82M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 SURPLUS의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 103.44%예요.
+DefiLlama 실시간 데이터 기준, Base의 uniswap-v4에서 APY 102.17%예요.
 
 ### SURPLUS 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

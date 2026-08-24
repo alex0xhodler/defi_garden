@@ -4,7 +4,7 @@ The highest honest HARRIS yield right now is 0.27% on uniswap-v2 (Ethereum), amo
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=c3c67a13-3790-43b0-9145-9ab195b447e3&src=seo_token) | Ethereum | 0.27% | $103.2K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=c3c67a13-3790-43b0-9145-9ab195b447e3&src=seo_token) | Ethereum | 0.27% | $103.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many HARRIS pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $103.2K in total.
+1 live pool clear this page's $100K TVL floor, $103.6K in total.
 
 ### Are these rates safe?
 

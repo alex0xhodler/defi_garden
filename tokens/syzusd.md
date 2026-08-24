@@ -4,30 +4,30 @@ The highest honest SYZUSD yield right now is 14.18% on balancer-v3 (Monad), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.53% | $35.19M |
+| [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.53% | $35.18M |
 | [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 7.53% | $11.5M |
 | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 7.53% | $10.89M |
 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.09M |
 | [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token) | Monad | 1.25% | $422.8K |
-| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.53% | $393.3K |
+| [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.53% | $393.2K |
 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 14.18% | $365.1K |
-| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.55% | $108K |
+| [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.53% | $108K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, SYZUSD's lower-variability candidates are curvance (Monad), 0.20% APY, $1.09M TVL, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; yuzu-money (Sei), 7.53% APY, $10.89M TVL, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; morpho-blue (Monad), 1.25% APY, $422.8K TVL, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; yuzu-money (Ethereum), 7.53% APY, $393.3K TVL, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; yuzu-money (Monad), 7.53% APY, $11.5M TVL, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; yuzu-money (Plasma), 7.53% APY, $35.19M TVL, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; balancer-v3 (Monad), 14.18% APY, $365.1K TVL, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token; balancer-v3 (Monad), 11.55% APY, $108K TVL, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYZUSD's lower-variability candidates are curvance (Monad), 0.20% APY, $1.09M TVL, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; yuzu-money (Sei), 7.53% APY, $10.89M TVL, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; morpho-blue (Monad), 1.25% APY, $422.8K TVL, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; yuzu-money (Ethereum), 7.53% APY, $393.2K TVL, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; yuzu-money (Monad), 7.53% APY, $11.5M TVL, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; yuzu-money (Plasma), 7.53% APY, $35.18M TVL, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; balancer-v3 (Monad), 14.18% APY, $365.1K TVL, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token; balancer-v3 (Monad), 11.53% APY, $108K TVL, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
 | 1 | [curvance →](https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token) | Monad | 0.20% | $1.09M |
 | 2 | [yuzu-money →](https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token) | Sei | 7.53% | $10.89M |
 | 3 | [morpho-blue →](https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token) | Monad | 1.25% | $422.8K |
-| 4 | [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.53% | $393.3K |
+| 4 | [yuzu-money →](https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token) | Ethereum | 7.53% | $393.2K |
 | 5 | [yuzu-money →](https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token) | Monad | 7.53% | $11.5M |
-| 6 | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.53% | $35.19M |
+| 6 | [yuzu-money →](https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token) | Plasma | 7.53% | $35.18M |
 | 7 | [balancer-v3 →](https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token) | Monad | 14.18% | $365.1K |
-| 8 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.55% | $108K |
+| 8 | [balancer-v3 →](https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token) | Monad | 11.53% | $108K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
@@ -48,7 +48,7 @@ SYZUSD shows up in 8 pools here, with rates from 0.20% to 14.18% APY across 4 ch
 | morpho-blue | 1.25% | 0.67% | 100.00% incentives |
 | yuzu-money | 7.53% | 7.91% | Base rate |
 | balancer-v3 | 14.18% | 11.33% | 46.56% incentives |
-| balancer-v3 | 11.55% | 14.26% | 50.80% incentives |
+| balancer-v3 | 11.53% | 14.26% | 50.40% incentives |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -60,7 +60,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many SYZUSD pools clear the TVL floor?
 
-9 live pools clear this page's $100K TVL floor, $60.07M in total.
+9 live pools clear this page's $100K TVL floor, $60.06M in total.
 
 ### Are these rates safe?
 
@@ -68,7 +68,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which SYZUSD pools have the most stable APY history?
 
-Based on APY history only, SYZUSD's lower-variability candidates are curvance (Monad), 0.20% APY, $1.09M TVL, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; yuzu-money (Sei), 7.53% APY, $10.89M TVL, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; morpho-blue (Monad), 1.25% APY, $422.8K TVL, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; yuzu-money (Ethereum), 7.53% APY, $393.3K TVL, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; yuzu-money (Monad), 7.53% APY, $11.5M TVL, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; yuzu-money (Plasma), 7.53% APY, $35.19M TVL, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; balancer-v3 (Monad), 14.18% APY, $365.1K TVL, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token; balancer-v3 (Monad), 11.55% APY, $108K TVL, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, SYZUSD's lower-variability candidates are curvance (Monad), 0.20% APY, $1.09M TVL, https://www.defi.garden/?pool=148af5a0-747c-426d-91a4-5c5acf46f4e9&src=seo_token; yuzu-money (Sei), 7.53% APY, $10.89M TVL, https://www.defi.garden/?pool=20ccc2e5-0eca-4d9d-abd0-313908f51b31&src=seo_token; morpho-blue (Monad), 1.25% APY, $422.8K TVL, https://www.defi.garden/?pool=8ee86f6f-318b-45c5-aad2-e003be777062&src=seo_token; yuzu-money (Ethereum), 7.53% APY, $393.2K TVL, https://www.defi.garden/?pool=570ddae7-acae-4277-905b-278cd994b08d&src=seo_token; yuzu-money (Monad), 7.53% APY, $11.5M TVL, https://www.defi.garden/?pool=c51e151e-44ad-4f25-9911-102bd00811dc&src=seo_token; yuzu-money (Plasma), 7.53% APY, $35.18M TVL, https://www.defi.garden/?pool=6174b1d6-8212-4964-95bf-ca9c539864ba&src=seo_token; balancer-v3 (Monad), 14.18% APY, $365.1K TVL, https://www.defi.garden/?pool=5bb0941e-6df0-4453-91dc-117093747229&src=seo_token; balancer-v3 (Monad), 11.53% APY, $108K TVL, https://www.defi.garden/?pool=82b88360-3c2a-4845-a17e-fb5d73ce42af&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

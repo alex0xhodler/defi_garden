@@ -5,7 +5,7 @@ The highest honest UNIETH yield right now is 2.65% on bedrock-unieth (Ethereum),
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
 | [bedrock-unieth →](https://www.defi.garden/?pool=ad383eed-61d8-4378-80bd-a197d9a11c79&src=seo_token) | Ethereum | 2.65% | $25.43M |
-| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.74% | $497.2K |
+| [morpho-blue →](https://www.defi.garden/?pool=25524efa-1a20-5e0d-ac23-dc3254dc84f3&src=seo_token) | Ethereum | 1.74% | $501.7K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history

@@ -4,7 +4,7 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=d73fcfed-a2ca-5314-a94b-a841982df77f&src=seo_token) | Ethereum | 7.19% | $50.33M |
+| [morpho-blue →](https://www.defi.garden/?pool=d73fcfed-a2ca-5314-a94b-a841982df77f&src=seo_token) | Ethereum | 7.19% | $49.62M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -21,7 +21,7 @@ DefiLlama 실시간 데이터 기준, Ethereum의 morpho-blue에서 APY 7.19%예
 
 ### PENDLEUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $50.33M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 1개이며, 합산 TVL은 $49.62M예요.
 
 ### 이 수익률은 안전한가요?
 

@@ -4,7 +4,7 @@ The highest honest KSLR yield right now is 0.22% on uniswap-v4 (Base), among 1 p
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v4 →](https://www.defi.garden/?pool=7f45fdee-0553-537a-ae51-1cc5bf304eae&src=seo_token) | Base | 0.22% | $102.6K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=7f45fdee-0553-537a-ae51-1cc5bf304eae&src=seo_token) | Base | 0.22% | $104K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many KSLR pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $102.6K in total.
+1 live pool clear this page's $100K TVL floor, $104K in total.
 
 ### Are these rates safe?
 

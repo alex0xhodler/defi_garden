@@ -4,26 +4,26 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.05% | $152.4M |
-| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.86% | $365.8K |
-| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 6.18% | $125.5K |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.05% | $153.19M |
+| [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.86% | $367.7K |
+| [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 10.92% | $126.8K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 XLM의 변동성 낮은 후보는 Stellar의 blend-pools-v2, APY 0.05%, TVL $152.4M, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; Stellar의 blend-pools-v2, APY 0.86%, TVL $365.8K, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token; Cronos의 vvs-standard, APY 6.18%, TVL $125.5K, https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XLM의 변동성 낮은 후보는 Stellar의 blend-pools-v2, APY 0.05%, TVL $153.19M, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; Stellar의 blend-pools-v2, APY 0.86%, TVL $367.7K, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token; Cronos의 vvs-standard, APY 10.92%, TVL $126.8K, https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.05% | $152.4M |
-| 2 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.86% | $365.8K |
-| 3 | [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 6.18% | $125.5K |
+| 1 | [blend-pools-v2 →](https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token) | Stellar | 0.05% | $153.19M |
+| 2 | [blend-pools-v2 →](https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token) | Stellar | 0.86% | $367.7K |
+| 3 | [vvs-standard →](https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token) | Cronos | 10.92% | $126.8K |
 
 수익률은 DefiLlama의 실시간 데이터예요. 이 페이지의 풀은 최소 TVL $100K 기준을 충족하고 이상 수치는 제외했어요 — 이는 이 페이지의 게재 기준일 뿐, 안전을 보장하는 것은 아니에요. 투자 조언이 아닌 교육 목적의 정보예요.
 
 ## 이 수익률은 어떻게 움직였을까요
 
-XLM 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.05%부터 6.18%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
+XLM 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.05%부터 10.92%까지 나타나요 — 같은 토큰이라도 어떤 프로토콜과 체인을 고르느냐에 따라 수익률이 달라져요.
 
 3개 풀 중 3개는 믿을 수 있는 30일 평균값이 있고, 중앙값은 0.60%예요 — 오늘 수익률과 비교하면 꾸준한 편인지 일시적으로 튄 값인지 가늠할 수 있어요.
 
@@ -34,8 +34,8 @@ XLM 풀은 여기 3개가 있고, 2개 체인에서 APY가 0.05%부터 6.18%까�
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
 | blend-pools-v2 | 0.05% | 0.06% | 인센티브 99.62% |
-| blend-pools-v2 | 0.86% | 0.60% | 인센티브 92.56% |
-| vvs-standard | 6.18% | 3.42% | 기본 금리 |
+| blend-pools-v2 | 0.86% | 0.60% | 인센티브 92.58% |
+| vvs-standard | 10.92% | 3.43% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.
 
@@ -47,7 +47,7 @@ DefiLlama 실시간 데이터 기준, Stellar의 blend-pools-v2에서 APY 0.86%�
 
 ### XLM 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $152.89M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 3개이며, 합산 TVL은 $153.68M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -55,7 +55,7 @@ DefiLlama 실시간 데이터 기준, Stellar의 blend-pools-v2에서 APY 0.86%�
 
 ### XLM 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 XLM의 변동성 낮은 후보는 Stellar의 blend-pools-v2, APY 0.05%, TVL $152.4M, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; Stellar의 blend-pools-v2, APY 0.86%, TVL $365.8K, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token; Cronos의 vvs-standard, APY 6.18%, TVL $125.5K, https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 XLM의 변동성 낮은 후보는 Stellar의 blend-pools-v2, APY 0.05%, TVL $153.19M, https://www.defi.garden/?pool=e8a6579f-75bd-4b55-9084-de31affed8e2&src=seo_token; Stellar의 blend-pools-v2, APY 0.86%, TVL $367.7K, https://www.defi.garden/?pool=2d401ed8-2ced-4116-bda9-deb9058d423d&src=seo_token; Cronos의 vvs-standard, APY 10.92%, TVL $126.8K, https://www.defi.garden/?pool=b47ed075-8aea-5ccc-8307-e4b12986aa73&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 

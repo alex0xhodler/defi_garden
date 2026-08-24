@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [curve-dex →](https://www.defi.garden/?pool=23e0e833-36db-5a19-bcef-3d8a20724265&src=seo_token) | Ethereum | 5.80% | $10.07M |
 | [curve-dex →](https://www.defi.garden/?pool=6e1a895d-f97f-5ba9-ac8d-fd169c856fd1&src=seo_token) | Ethereum | 0.51% | $5.15M |
-| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.52% | $4.87M |
+| [curve-dex →](https://www.defi.garden/?pool=99691e5c-44c7-59aa-af1b-aef1f7efed80&src=seo_token) | Ethereum | 3.49% | $4.87M |
 | [pendle →](https://www.defi.garden/?pool=6057a7dd-44f8-573a-88ca-d8b12c6c30e7&src=seo_token) | Ethereum | 2.95% | $2.66M |
 | [pendle →](https://www.defi.garden/?pool=9f2ebb59-f408-5927-8236-14f46762d7bd&src=seo_token) | Ethereum | 8.52% | $2.66M |
 
@@ -29,8 +29,8 @@ TRUSD 풀은 여기 5개가 있고, 1개 체인에서 APY가 0.51%부터 8.52%�
 |---|---|---|---|
 | curve-dex | 5.80% | 5.48% | 기본 금리 |
 | curve-dex | 0.51% | 0.38% | 인센티브 0.15% |
-| curve-dex | 3.52% | 121.52% | 인센티브 88.35% |
-| pendle | 2.95% | 3.94% | 인센티브 15.47% |
+| curve-dex | 3.49% | 121.33% | 인센티브 88.26% |
+| pendle | 2.95% | 3.94% | 인센티브 15.55% |
 | pendle | 8.52% | 9.58% | 기본 금리 |
 
 30일 평균은 DefiLlama의 데이터를 그대로 가져오며, 이 페이지의 다른 모든 숫자와 같은 안전 기준을 통과했을 때만 표시돼요 — 대시(—)는 숨긴 게 아니라 그 기준을 통과하지 못했다는 뜻이에요. 여기 풀은 모두 최소 TVL $100K 기준을 충족해요. 수익률은 매일 바뀌니 이건 예측이 아니라 지금 이 순간의 스냅샷이에요.

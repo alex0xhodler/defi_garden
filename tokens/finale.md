@@ -1,10 +1,10 @@
 # FINALE DeFi Yields
 
-The highest honest FINALE yield right now is 0.75% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest FINALE yield right now is 0.81% on uniswap-v3 (Ethereum), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v3 →](https://www.defi.garden/?pool=01c0e998-100e-4e03-9cc7-7964a2ee403b&src=seo_token) | Ethereum | 0.75% | $172.2K |
+| [uniswap-v3 →](https://www.defi.garden/?pool=01c0e998-100e-4e03-9cc7-7964a2ee403b&src=seo_token) | Ethereum | 0.81% | $173.4K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest FINALE yield today?
 
-0.75% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
+0.81% APY on uniswap-v3 (Ethereum), based on live DefiLlama data.
 
 ### How many FINALE pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $172.2K in total.
+1 live pool clear this page's $100K TVL floor, $173.4K in total.
 
 ### Are these rates safe?
 

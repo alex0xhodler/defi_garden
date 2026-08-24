@@ -4,7 +4,7 @@ The highest honest JOFF yield right now is 392.09% on hyperswap-v3 (Hyperliquid 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [hyperswap-v2 →](https://www.defi.garden/?pool=a755afb7-6299-46ea-9b9e-b25ee174a16a&src=seo_token) | Hyperliquid L1 | 253.85% | $750.2K |
+| [hyperswap-v2 →](https://www.defi.garden/?pool=a755afb7-6299-46ea-9b9e-b25ee174a16a&src=seo_token) | Hyperliquid L1 | 253.66% | $746.4K |
 | [hyperswap-v3 →](https://www.defi.garden/?pool=6438a44c-2f30-4481-a227-96a6e5eee5ef&src=seo_token) | Hyperliquid L1 | 392.09% | $277.7K |
 
 <!-- rate-stability:insufficient -->
@@ -16,9 +16,9 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ## How this rate has behaved
 
-JOFF shows up in 2 pools here, with rates from 253.85% to 392.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
+JOFF shows up in 2 pools here, with rates from 253.66% to 392.09% APY across 1 chains — the rate depends on which protocol and chain you pick, not just the token.
 
-2 of these 2 pools have a trustworthy 30-day average on file, with a median of 93.28% — a useful check against today's number for whether the rate is steady or just having a good day.
+2 of these 2 pools have a trustworthy 30-day average on file, with a median of 93.47% — a useful check against today's number for whether the rate is steady or just having a good day.
 
 All 2 pools pay a plain base rate right now — no incentive or reward APY mixed in.
 
@@ -26,7 +26,7 @@ All 2 pools pay a plain base rate right now — no incentive or reward APY mixed
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| hyperswap-v2 | 253.85% | 6.85% | Base rate |
+| hyperswap-v2 | 253.66% | 7.23% | Base rate |
 | hyperswap-v3 | 392.09% | 179.71% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
@@ -39,7 +39,7 @@ The 30-day average comes straight from DefiLlama and only appears when it passes
 
 ### How many JOFF pools clear the TVL floor?
 
-2 live pools clear this page's $100K TVL floor, $1.03M in total.
+2 live pools clear this page's $100K TVL floor, $1.02M in total.
 
 ### Are these rates safe?
 

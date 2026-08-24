@@ -1,10 +1,10 @@
 # BITGETUSDC 디파이 수익률
 
-현재 BITGETUSDC의 가장 높은 정직한 수익률은 Arbitrum의 morpho-blue에서 3.33%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
+현재 BITGETUSDC의 가장 높은 정직한 수익률은 Arbitrum의 morpho-blue에서 3.35%이며, $100K TVL 기준을 넘는 1개 풀 중 최고예요. 수익률은 DefiLlama의 실시간 데이터이며 이상 수치(APY 1000% 초과) 풀은 제외했어요.
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=4a433427-2a7e-4193-bf83-e15c996915e8&src=seo_token) | Arbitrum | 3.33% | $2.92M |
+| [morpho-blue →](https://www.defi.garden/?pool=4a433427-2a7e-4193-bf83-e15c996915e8&src=seo_token) | Arbitrum | 3.35% | $2.92M |
 
 <!-- rate-stability:insufficient -->
 ## APY 이력 기반 수익률 안정성
@@ -17,7 +17,7 @@
 
 ### 오늘 BITGETUSDC의 가장 높은 수익률은 얼마인가요?
 
-DefiLlama 실시간 데이터 기준, Arbitrum의 morpho-blue에서 APY 3.33%예요.
+DefiLlama 실시간 데이터 기준, Arbitrum의 morpho-blue에서 APY 3.35%예요.
 
 ### BITGETUSDC 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 

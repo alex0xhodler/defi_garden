@@ -4,21 +4,21 @@
 
 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|
-| [raydium-amm →](https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token) | Solana | 5.17% | $388.8K |
+| [raydium-amm →](https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token) | Solana | 4.98% | $392.2K |
+| [uniswap-v4 →](https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token) | Ethereum | 11.05% | $353.3K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token) | Base | 102.16% | $352.9K |
-| [uniswap-v4 →](https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token) | Ethereum | 11.36% | $350.5K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token) | Base | 55.02% | $314.9K |
 | [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 4.75% | $158.7K |
 
 <!-- rate-stability:ranked -->
 ## APY 이력 기반 수익률 안정성
 
-APY 이력만 기준으로 비교한 BIO의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 11.36%, TVL $350.5K, https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token; Solana의 raydium-amm, APY 5.17%, TVL $388.8K, https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token; Base의 aerodrome-slipstream, APY 55.02%, TVL $314.9K, https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token; Base의 aerodrome-slipstream, APY 4.75%, TVL $158.7K, https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token; Base의 aerodrome-slipstream, APY 102.16%, TVL $352.9K, https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BIO의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 11.05%, TVL $353.3K, https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token; Solana의 raydium-amm, APY 4.98%, TVL $392.2K, https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token; Base의 aerodrome-slipstream, APY 55.02%, TVL $314.9K, https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token; Base의 aerodrome-slipstream, APY 4.75%, TVL $158.7K, https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token; Base의 aerodrome-slipstream, APY 102.16%, TVL $352.9K, https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 | 순위 | 프로토콜 | 체인 | APY | TVL |
 |---|---|---|---|---|
-| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token) | Ethereum | 11.36% | $350.5K |
-| 2 | [raydium-amm →](https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token) | Solana | 5.17% | $388.8K |
+| 1 | [uniswap-v4 →](https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token) | Ethereum | 11.05% | $353.3K |
+| 2 | [raydium-amm →](https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token) | Solana | 4.98% | $392.2K |
 | 3 | [aerodrome-slipstream →](https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token) | Base | 55.02% | $314.9K |
 | 4 | [aerodrome-slipstream →](https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token) | Base | 4.75% | $158.7K |
 | 5 | [aerodrome-slipstream →](https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token) | Base | 102.16% | $352.9K |
@@ -37,9 +37,9 @@ BIO 풀은 여기 5개가 있고, 3개 체인에서 APY가 4.75%부터 102.16%�
 
 | 프로토콜 | APY | 30일 평균 APY | 수익 구성 |
 |---|---|---|---|
-| raydium-amm | 5.17% | 6.25% | 기본 금리 |
+| raydium-amm | 4.98% | 6.25% | 기본 금리 |
+| uniswap-v4 | 11.05% | 5.51% | 기본 금리 |
 | aerodrome-slipstream | 102.16% | 108.92% | 인센티브 100.00% |
-| uniswap-v4 | 11.36% | 5.51% | 기본 금리 |
 | aerodrome-slipstream | 55.02% | 61.28% | 인센티브 100.00% |
 | aerodrome-slipstream | 4.75% | 10.78% | 인센티브 100.00% |
 
@@ -53,7 +53,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 102
 
 ### BIO 풀 중 TVL 기준을 통과한 풀은 몇 개인가요?
 
-이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $2.19M예요.
+이 페이지의 $100K TVL 기준을 통과한 실시간 풀은 8개이며, 합산 TVL은 $2.2M예요.
 
 ### 이 수익률은 안전한가요?
 
@@ -61,7 +61,7 @@ DefiLlama 실시간 데이터 기준, Base의 aerodrome-slipstream에서 APY 102
 
 ### BIO 풀 중 APY 이력이 가장 안정적인 후보는 무엇인가요?
 
-APY 이력만 기준으로 비교한 BIO의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 11.36%, TVL $350.5K, https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token; Solana의 raydium-amm, APY 5.17%, TVL $388.8K, https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token; Base의 aerodrome-slipstream, APY 55.02%, TVL $314.9K, https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token; Base의 aerodrome-slipstream, APY 4.75%, TVL $158.7K, https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token; Base의 aerodrome-slipstream, APY 102.16%, TVL $352.9K, https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
+APY 이력만 기준으로 비교한 BIO의 변동성 낮은 후보는 Ethereum의 uniswap-v4, APY 11.05%, TVL $353.3K, https://www.defi.garden/?pool=b376af99-84eb-470e-91c8-9aaeccb659b0&src=seo_token; Solana의 raydium-amm, APY 4.98%, TVL $392.2K, https://www.defi.garden/?pool=0b61ca99-1a43-4bc9-8170-86d26aa20e5e&src=seo_token; Base의 aerodrome-slipstream, APY 55.02%, TVL $314.9K, https://www.defi.garden/?pool=3709f4bb-2114-4742-907a-7bb5d58de274&src=seo_token; Base의 aerodrome-slipstream, APY 4.75%, TVL $158.7K, https://www.defi.garden/?pool=914e00bc-c36e-4e6b-b4ee-2c3a89a87768&src=seo_token; Base의 aerodrome-slipstream, APY 102.16%, TVL $352.9K, https://www.defi.garden/?pool=c82b6e92-d55c-484c-997f-fd54e1ea5705&src=seo_token예요. 이 비교는 프로토콜, 익스플로잇, 디페그, 유동성, 거버넌스 또는 원금 손실 위험을 측정하지 않아요.
 
 ## 관련 토큰
 
@@ -75,7 +75,7 @@ APY 이력만 기준으로 비교한 BIO의 변동성 낮은 후보는 Ethereum�
 ## 이용 가능한 체인
 
 - [Solana](https://www.defi.garden/ko/chains/solana)
-- [Base](https://www.defi.garden/ko/chains/base)
 - [Ethereum](https://www.defi.garden/ko/chains/ethereum)
+- [Base](https://www.defi.garden/ko/chains/base)
 
 ## 마지막 업데이트: August 24, 2026

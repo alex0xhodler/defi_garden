@@ -4,28 +4,28 @@ The highest honest BBQAUSD yield right now is 7.18% on morpho-blue (Monad), amon
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [morpho-blue →](https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token) | Ethereum | 8.70% | $4.25M |
-| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.23% | $260.1K |
+| [morpho-blue →](https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token) | Ethereum | 8.97% | $4.25M |
+| [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.21% | $260K |
 | [morpho-blue →](https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token) | Monad | 7.18% | $223.9K |
-| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 8.52% | $118.3K |
+| [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 8.82% | $118.3K |
 
 <!-- rate-stability:ranked -->
 ## Rate stability from APY history
 
-Based on APY history only, BBQAUSD's lower-variability candidates are morpho-blue (Ethereum), 8.52% APY, $118.3K TVL, https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token; morpho-blue (Ethereum), 8.70% APY, $4.25M TVL, https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token; morpho-blue (Monad), 6.23% APY, $260.1K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token; morpho-blue (Monad), 7.18% APY, $223.9K TVL, https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BBQAUSD's lower-variability candidates are morpho-blue (Ethereum), 8.82% APY, $118.3K TVL, https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token; morpho-blue (Ethereum), 8.97% APY, $4.25M TVL, https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token; morpho-blue (Monad), 6.21% APY, $260K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token; morpho-blue (Monad), 7.18% APY, $223.9K TVL, https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 | Rank | Protocol | Chain | APY | TVL |
 |---|---|---|---|---|
-| 1 | [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 8.52% | $118.3K |
-| 2 | [morpho-blue →](https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token) | Ethereum | 8.70% | $4.25M |
-| 3 | [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.23% | $260.1K |
+| 1 | [morpho-blue →](https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token) | Ethereum | 8.82% | $118.3K |
+| 2 | [morpho-blue →](https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token) | Ethereum | 8.97% | $4.25M |
+| 3 | [morpho-blue →](https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token) | Monad | 6.21% | $260K |
 | 4 | [morpho-blue →](https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token) | Monad | 7.18% | $223.9K |
 
 Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and exclude anomalous rates — that's this page's listing bar, not a safety guarantee. Education only, not financial advice.
 
 ## How this rate has behaved
 
-BBQAUSD shows up in 4 pools here, with rates from 6.23% to 8.70% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
+BBQAUSD shows up in 4 pools here, with rates from 6.21% to 8.97% APY across 2 chains — the rate depends on which protocol and chain you pick, not just the token.
 
 4 of these 4 pools have a trustworthy 30-day average on file, with a median of 5.38% — a useful check against today's number for whether the rate is steady or just having a good day.
 
@@ -35,10 +35,10 @@ BBQAUSD shows up in 4 pools here, with rates from 6.23% to 8.70% APY across 2 ch
 
 | Protocol | APY | 30d Mean APY | Yield mix |
 |---|---|---|---|
-| morpho-blue | 8.70% | 4.49% | Base rate |
-| morpho-blue | 6.23% | 6.26% | 32.11% incentives |
-| morpho-blue | 7.18% | 8.47% | 27.86% incentives |
-| morpho-blue | 8.52% | 4.46% | Base rate |
+| morpho-blue | 8.97% | 4.50% | Base rate |
+| morpho-blue | 6.21% | 6.27% | 32.20% incentives |
+| morpho-blue | 7.18% | 8.45% | 27.87% incentives |
+| morpho-blue | 8.82% | 4.46% | Base rate |
 
 The 30-day average comes straight from DefiLlama and only appears when it passes the same sanity rail as every other number on this page — a dash means it didn't clear that bar, not that it's being hidden. Every pool here already clears a $100K minimum TVL. Rates move daily, so treat this as a snapshot, not a promise.
 
@@ -58,7 +58,7 @@ Pools listed on this page clear a $100K minimum TVL and exclude anomalous (>1000
 
 ### Which BBQAUSD pools have the most stable APY history?
 
-Based on APY history only, BBQAUSD's lower-variability candidates are morpho-blue (Ethereum), 8.52% APY, $118.3K TVL, https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token; morpho-blue (Ethereum), 8.70% APY, $4.25M TVL, https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token; morpho-blue (Monad), 6.23% APY, $260.1K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token; morpho-blue (Monad), 7.18% APY, $223.9K TVL, https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
+Based on APY history only, BBQAUSD's lower-variability candidates are morpho-blue (Ethereum), 8.82% APY, $118.3K TVL, https://www.defi.garden/?pool=2e059959-972a-4c13-bdc8-83d3133081b4&src=seo_token; morpho-blue (Ethereum), 8.97% APY, $4.25M TVL, https://www.defi.garden/?pool=839da887-cac0-4d5b-a69b-55b41134d903&src=seo_token; morpho-blue (Monad), 6.21% APY, $260K TVL, https://www.defi.garden/?pool=b5fd4a27-5eb6-4617-8ae8-7afe9687e65d&src=seo_token; morpho-blue (Monad), 7.18% APY, $223.9K TVL, https://www.defi.garden/?pool=462bf18a-d7c7-49e9-9d36-ae826758897c&src=seo_token. This comparison does not measure protocol, exploit, depeg, liquidity, governance, or principal-loss risk.
 
 ## Related tokens
 

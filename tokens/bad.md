@@ -4,7 +4,7 @@ The highest honest BAD yield right now is 3.85% on uniswap-v2 (Ethereum), among 
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [uniswap-v2 →](https://www.defi.garden/?pool=30f6cb05-609f-4df5-888e-098509d3feee&src=seo_token) | Ethereum | 3.85% | $258.4K |
+| [uniswap-v2 →](https://www.defi.garden/?pool=30f6cb05-609f-4df5-888e-098509d3feee&src=seo_token) | Ethereum | 3.85% | $259.6K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -21,7 +21,7 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### How many BAD pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $258.4K in total.
+1 live pool clear this page's $100K TVL floor, $259.6K in total.
 
 ### Are these rates safe?
 

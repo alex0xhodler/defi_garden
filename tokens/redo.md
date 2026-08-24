@@ -1,10 +1,10 @@
 # REDO DeFi Yields
 
-The highest honest REDO yield right now is 48.31% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
+The highest honest REDO yield right now is 48.21% on ston.fi (TON), among 1 pool above the $100K TVL floor. Rates are live from DefiLlama and exclude anomalous (>1000% APY) pools.
 
 | Protocol | Chain | APY | TVL |
 |---|---|---|---|
-| [ston.fi →](https://www.defi.garden/?pool=fe239f71-6f46-4d65-9722-6f2262d5b132&src=seo_token) | TON | 48.31% | $403K |
+| [ston.fi →](https://www.defi.garden/?pool=fe239f71-6f46-4d65-9722-6f2262d5b132&src=seo_token) | TON | 48.21% | $402.2K |
 
 <!-- rate-stability:insufficient -->
 ## Rate stability from APY history
@@ -17,11 +17,11 @@ Yields are live from DefiLlama. Pools on this page clear a $100K minimum TVL and
 
 ### What's the highest REDO yield today?
 
-48.31% APY on ston.fi (TON), based on live DefiLlama data.
+48.21% APY on ston.fi (TON), based on live DefiLlama data.
 
 ### How many REDO pools clear the TVL floor?
 
-1 live pool clear this page's $100K TVL floor, $403K in total.
+1 live pool clear this page's $100K TVL floor, $402.2K in total.
 
 ### Are these rates safe?
 
