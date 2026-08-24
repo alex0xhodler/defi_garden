@@ -1,0 +1,307 @@
+/* DeFi Garden - HYPE Funding Harvest Neumorphic Styles */
+
+.hype-harvest-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.neuro-card {
+  background: var(--neuro-bg-gradient, linear-gradient(145deg, #ffffff, #f0f3f6));
+  border-radius: var(--neuro-radius-md, 14px);
+  box-shadow: var(--neuro-shadow-raised, 6px 6px 14px rgba(166, 175, 195, 0.4), -6px -6px 14px rgba(255, 255, 255, 0.8));
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  transition: all 0.2s ease;
+}
+
+[data-theme="dark"] .neuro-card {
+  background: var(--neuro-bg-gradient, linear-gradient(145deg, #1e242c, #161a20));
+  box-shadow: var(--neuro-shadow-raised, 6px 6px 14px rgba(0, 0, 0, 0.5), -6px -6px 14px rgba(255, 255, 255, 0.03));
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.hype-harvest-header .hype-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hype-title {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary, #1e293b);
+}
+
+[data-theme="dark"] .hype-title {
+  color: var(--text-primary, #f8fafc);
+}
+
+.hype-subtitle {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.95rem;
+  color: var(--text-secondary, #64748b);
+}
+
+.hype-badge {
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--neuro-radius-sm, 10px);
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: var(--neuro-shadow-flat, inset 1px 1px 3px rgba(0,0,0,0.1));
+}
+
+.badge-crowded {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.badge-normal {
+  background: rgba(59, 130, 246, 0.1);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.hype-alert-box {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--neuro-radius-sm, 10px);
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  color: #d97706;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Metrics Grid */
+.hype-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+}
+
+.hype-stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary, #64748b);
+  font-weight: 600;
+}
+
+.stat-hero-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary, #0f172a);
+}
+
+[data-theme="dark"] .stat-hero-value {
+  color: var(--text-primary, #f1f5f9);
+}
+
+.text-accent {
+  color: #2563eb;
+}
+
+[data-theme="dark"] .text-accent {
+  color: #60a5fa;
+}
+
+.stat-sub-value {
+  font-size: 0.82rem;
+  color: var(--text-secondary, #64748b);
+}
+
+/* Calculator Card */
+.hype-calculator-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.calc-title, .exec-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary, #1e293b);
+}
+
+[data-theme="dark"] .calc-title, [data-theme="dark"] .exec-title {
+  color: var(--text-primary, #f8fafc);
+}
+
+.calc-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.calc-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary, #64748b);
+}
+
+.calc-quick-chips {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.neuro-chip {
+  background: var(--neuro-bg-gradient, #f1f5f9);
+  border: 1px solid rgba(0,0,0,0.05);
+  border-radius: var(--neuro-radius-sm, 10px);
+  padding: 0.4rem 0.85rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary, #475569);
+  cursor: pointer;
+  box-shadow: var(--neuro-shadow-raised, 2px 2px 5px rgba(0,0,0,0.08), -2px -2px 5px rgba(255,255,255,0.7));
+  transition: all 0.15s ease;
+}
+
+[data-theme="dark"] .neuro-chip {
+  color: var(--text-secondary, #94a3b8);
+  border-color: rgba(255,255,255,0.05);
+}
+
+.neuro-chip:active, .neuro-chip.active {
+  transform: translateY(1px);
+  box-shadow: var(--neuro-shadow-pressed, inset 2px 2px 5px rgba(0,0,0,0.15));
+  color: #2563eb;
+  border-color: #3b82f6;
+}
+
+[data-theme="dark"] .neuro-chip:active, [data-theme="dark"] .neuro-chip.active {
+  color: #60a5fa;
+}
+
+.neuro-slider {
+  width: 100%;
+  margin: 0.5rem 0;
+  accent-color: #2563eb;
+  cursor: pointer;
+}
+
+.calc-current-capital {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary, #0f172a);
+}
+
+[data-theme="dark"] .calc-current-capital {
+  color: var(--text-primary, #f1f5f9);
+}
+
+.calc-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.result-box {
+  background: var(--neuro-bg-gradient, #f8fafc);
+  padding: 0.85rem;
+  border-radius: var(--neuro-radius-sm, 10px);
+  box-shadow: var(--neuro-shadow-flat, inset 1px 1px 3px rgba(0,0,0,0.05));
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+[data-theme="dark"] .result-box {
+  background: var(--neuro-bg-gradient, #1a202c);
+}
+
+.result-label {
+  font-size: 0.78rem;
+  color: var(--text-secondary, #64748b);
+  font-weight: 500;
+}
+
+.result-value {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary, #0f172a);
+}
+
+[data-theme="dark"] .result-value {
+  color: var(--text-primary, #f8fafc);
+}
+
+.calc-legs-breakdown {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  font-size: 0.85rem;
+  color: var(--text-secondary, #64748b);
+}
+
+[data-theme="dark"] .calc-legs-breakdown {
+  border-top-color: rgba(255,255,255,0.06);
+}
+
+.leg-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.leg-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.spot-dot {
+  background: #10b981;
+}
+
+.short-dot {
+  background: #3b82f6;
+}
+
+/* Execution Steps */
+.exec-steps-list {
+  margin: 0.75rem 0 1rem 1.25rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--text-primary, #334155);
+}
+
+[data-theme="dark"] .exec-steps-list {
+  color: var(--text-primary, #cbd5e1);
+}
+
+.hype-risk-note {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--text-secondary, #64748b);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.hype-loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary, #64748b);
+}
