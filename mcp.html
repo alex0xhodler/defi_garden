@@ -2,7 +2,7 @@
 <html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>DeFi Garden MCP Server | Machine-Native Base Yield Intelligence for AI Agents</title>
   <meta name="description" content="Official Model Context Protocol (MCP) server for DeFi Garden. Connect autonomous AI agents (Hermes, Claude Desktop, Cursor, AgentKit) to verified Base yield primitives with cryptographic sanity checks and zero rate hallucinations.">
   <meta name="keywords" content="MCP, Model Context Protocol, DeFi Garden, Base Yield, AI Agents, Autonomous Finance, Morpho Blue, Auto Finance, baseEUR, Moonwell, Aerodrome, Yield Discovery, AEO, Streamable HTTP">
@@ -20,8 +20,9 @@
   <meta name="twitter:description" content="Streamable HTTP MCP Server for Base yield primitives. APY sanity ceilings, TVL floors, and zero rate hallucinations for AI agents.">
   <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
 
-  <!-- Design System Tokens -->
+  <!-- Brand Design System Tokens -->
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>">
 
   <!-- AEO & Search Structured Data (JSON-LD) -->
   <script type="application/ld+json">
@@ -110,255 +111,340 @@
   </script>
 
   <style>
-    :root {
-      --mcp-primary: #3B82F6;
-      --mcp-success: #10B981;
-      --mcp-card-bg: rgba(255, 255, 255, 0.03);
-      --mcp-card-border: rgba(255, 255, 255, 0.08);
-      --mcp-code-bg: #0d1117;
-    }
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: #0f172a;
-      color: #f8fafc;
-      line-height: 1.6;
-    }
-    .mcp-container {
-      max-width: 1100px;
+    /* MCP On-Brand Custom Extensions */
+    .mcp-wrapper {
+      max-width: 1040px;
       margin: 0 auto;
-      padding: 40px 20px 80px;
+      padding: 24px 20px 80px;
     }
-    .mcp-header {
-      text-align: center;
-      margin-bottom: 48px;
-    }
-    .status-badge {
-      display: inline-flex;
+    
+    .brand-header-nav {
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      gap: 8px;
-      padding: 6px 16px;
-      background: rgba(16, 185, 129, 0.12);
-      border: 1px solid rgba(16, 185, 129, 0.3);
-      border-radius: 9999px;
-      color: #34d399;
-      font-size: 0.875rem;
-      font-weight: 600;
-      margin-bottom: 20px;
-    }
-    .status-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: #10b981;
-      box-shadow: 0 0 8px #10b981;
-    }
-    h1 {
-      font-size: 2.75rem;
-      font-weight: 800;
-      letter-spacing: -0.025em;
-      margin: 0 0 16px;
-      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .subtitle {
-      font-size: 1.25rem;
-      color: #94a3b8;
-      max-width: 720px;
-      margin: 0 auto;
-    }
-    .grid-2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
+      padding: 16px 0 32px;
+      border-bottom: 1px solid var(--color-border);
       margin-bottom: 40px;
     }
-    @media (max-width: 768px) {
-      .grid-2 {
-        grid-template-columns: 1fr;
-      }
-      h1 {
-        font-size: 2rem;
-      }
-    }
-    .mcp-card {
-      background: var(--mcp-card-bg);
-      border: 1px solid var(--mcp-card-border);
-      border-radius: 16px;
-      padding: 24px;
-      backdrop-filter: blur(12px);
-    }
-    .mcp-card h2 {
-      margin-top: 0;
-      font-size: 1.25rem;
+
+    .brand-logo-wrap {
       display: flex;
       align-items: center;
       gap: 10px;
-      color: #e2e8f0;
+      text-decoration: none;
+      color: var(--color-text);
+      font-weight: 700;
+      font-size: 1.25rem;
     }
-    .tabs-nav {
+
+    .nav-links-wrap {
       display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-link-item {
+      color: var(--color-text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+
+    .nav-link-item:hover, .nav-link-item.active {
+      color: var(--color-primary);
+    }
+
+    .theme-toggle-btn {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      color: var(--color-text);
+      padding: 6px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
       gap: 8px;
-      border-bottom: 1px solid var(--mcp-card-border);
+      padding: 6px 14px;
+      background: rgba(var(--color-teal-500-rgb), 0.12);
+      border: 1px solid rgba(var(--color-teal-500-rgb), 0.3);
+      border-radius: 9999px;
+      color: var(--color-primary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .status-pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      box-shadow: 0 0 8px var(--color-primary);
+    }
+
+    .mcp-hero-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      line-height: 1.15;
+      margin: 0 0 16px;
+      color: var(--color-text);
+      letter-spacing: -0.02em;
+    }
+
+    .mcp-hero-desc {
+      font-size: 1.15rem;
+      color: var(--color-text-secondary);
+      max-width: 760px;
+      margin: 0 auto 40px;
+      line-height: 1.5;
+    }
+
+    .grid-duo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 36px;
+    }
+
+    @media (max-width: 800px) {
+      .grid-duo {
+        grid-template-columns: 1fr;
+      }
+      .mcp-hero-title {
+        font-size: 1.85rem;
+      }
+      .brand-header-nav {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+      }
+    }
+
+    .brand-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .brand-card h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      color: var(--color-text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .tab-pills {
+      display: flex;
+      gap: 6px;
+      border-bottom: 1px solid var(--color-border);
       padding-bottom: 12px;
       margin-bottom: 16px;
       overflow-x: auto;
     }
-    .tab-btn {
+
+    .tab-pill-btn {
       background: transparent;
       border: 1px solid transparent;
-      color: #94a3b8;
-      padding: 6px 14px;
+      color: var(--color-text-secondary);
+      padding: 6px 12px;
       border-radius: 8px;
       cursor: pointer;
+      font-size: 0.85rem;
       font-weight: 500;
-      font-size: 0.875rem;
-      transition: all 0.2s;
+      transition: all 0.15s ease;
     }
-    .tab-btn.active {
-      background: rgba(59, 130, 246, 0.15);
-      border-color: rgba(59, 130, 246, 0.4);
-      color: #60a5fa;
+
+    .tab-pill-btn.active {
+      background: rgba(var(--color-teal-500-rgb), 0.15);
+      border-color: rgba(var(--color-teal-500-rgb), 0.3);
+      color: var(--color-primary);
     }
-    .code-container {
+
+    .code-box {
       position: relative;
-      background: var(--mcp-code-bg);
-      border: 1px solid #30363d;
-      border-radius: 8px;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--color-border);
+      border-radius: 10px;
       padding: 16px;
+      font-family: var(--font-family-mono);
+      font-size: 0.85rem;
+      color: var(--color-text);
       overflow-x: auto;
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      font-size: 0.875rem;
-      color: #e6edf3;
     }
-    .copy-btn {
+
+    .copy-pill {
       position: absolute;
       top: 10px;
       right: 10px;
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      color: #fff;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      color: var(--color-text);
       padding: 4px 10px;
       border-radius: 6px;
       font-size: 0.75rem;
+      font-weight: 500;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: background 0.15s ease;
     }
-    .copy-btn:hover {
-      background: rgba(255, 255, 255, 0.2);
+
+    .copy-pill:hover {
+      background: var(--color-primary);
+      color: #fff;
     }
-    .tools-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
+
+    .trust-rails-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+      margin-top: 16px;
     }
-    .tool-item {
-      border: 1px solid var(--mcp-card-border);
-      border-radius: 10px;
-      padding: 16px;
+
+    .trust-rail-item {
       background: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--color-border);
+      border-radius: 10px;
+      padding: 14px;
     }
-    .tool-header {
+
+    .trust-rail-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      margin-bottom: 4px;
+    }
+
+    .trust-rail-text {
+      font-size: 0.8rem;
+      color: var(--color-text-secondary);
+      line-height: 1.4;
+    }
+
+    .tool-row {
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      padding: 16px;
+      background: rgba(0, 0, 0, 0.15);
+      margin-bottom: 12px;
+    }
+
+    .tool-head {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
-    .tool-name {
-      font-family: monospace;
+
+    .tool-signature {
+      font-family: var(--font-family-mono);
       font-weight: 700;
-      color: #60a5fa;
-      font-size: 1rem;
+      color: var(--color-primary);
+      font-size: 0.95rem;
     }
-    .tool-desc {
-      color: #94a3b8;
-      font-size: 0.875rem;
-      margin-bottom: 12px;
-    }
-    .btn-test {
-      background: #2563eb;
+
+    .btn-exec {
+      background: var(--color-primary);
       color: #fff;
       border: none;
       padding: 6px 12px;
       border-radius: 6px;
-      font-size: 0.8125rem;
+      font-size: 0.8rem;
       font-weight: 600;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: opacity 0.15s ease;
     }
-    .btn-test:hover {
-      background: #1d4ed8;
+
+    .btn-exec:hover {
+      opacity: 0.9;
     }
-    .trust-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 16px;
-      margin-top: 16px;
+
+    .tool-description {
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
     }
-    .trust-item {
-      background: rgba(0, 0, 0, 0.25);
-      border: 1px solid var(--mcp-card-border);
-      border-radius: 12px;
-      padding: 16px;
-    }
-    .trust-title {
-      font-weight: 600;
-      color: #38bdf8;
-      margin-bottom: 6px;
-      font-size: 0.95rem;
-    }
-    .trust-desc {
-      font-size: 0.8125rem;
-      color: #94a3b8;
-    }
-    .footer-links {
-      display: flex;
-      justify-content: center;
-      gap: 24px;
+
+    .brand-footer {
       margin-top: 60px;
       padding-top: 24px;
-      border-top: 1px solid var(--mcp-card-border);
-      color: #64748b;
-      font-size: 0.875rem;
+      border-top: 1px solid var(--color-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
+      flex-wrap: wrap;
+      gap: 16px;
     }
-    .footer-links a {
-      color: #94a3b8;
+
+    .brand-footer-links {
+      display: flex;
+      gap: 16px;
+    }
+
+    .brand-footer-links a {
+      color: var(--color-text-secondary);
       text-decoration: none;
     }
-    .footer-links a:hover {
-      color: #60a5fa;
+
+    .brand-footer-links a:hover {
+      color: var(--color-primary);
     }
   </style>
 </head>
 <body>
-  <div class="mcp-container">
-    <div class="mcp-header">
-      <div class="status-badge">
-        <span class="status-dot"></span>
-        <span>Operational · Base Mainnet · MCP v2024-11-05</span>
+  <div class="mcp-wrapper">
+    <!-- Brand Header Navigation -->
+    <header class="brand-header-nav">
+      <a href="/" class="brand-logo-wrap">
+        <span>🌱</span>
+        <span>DeFi Garden</span>
+      </a>
+
+      <nav class="nav-links-wrap">
+        <a href="/" class="nav-link-item">Savings Planner</a>
+        <a href="/?token=USDC" class="nav-link-item">Yield Analytics</a>
+        <a href="/mcp" class="nav-link-item active">MCP & Agents</a>
+        <a href="/llms.txt" class="nav-link-item">llms.txt</a>
+        <button class="theme-toggle-btn" onclick="toggleTheme()" id="theme-btn">🌓 Theme</button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div style="text-align: center;">
+      <div class="hero-badge">
+        <span class="status-pulse"></span>
+        <span>Streamable HTTP MCP · Base Mainnet · Zero Rate Hallucinations</span>
       </div>
-      <h1>Model Context Protocol (MCP) Server</h1>
-      <p class="subtitle">
-        Hardened yield discovery and execution intelligence on Base for autonomous AI agents (Hermes, Claude Desktop, Cursor, AgentKit) with zero rate hallucinations.
+      <h1 class="mcp-hero-title">Model Context Protocol (MCP) Server</h1>
+      <p class="mcp-hero-desc">
+        Deterministic, machine-native Base yield intelligence for autonomous AI agents (Hermes, Claude Desktop, Cursor, AgentKit) with cryptographic sanity checks and zero rate hallucinations.
       </p>
     </div>
 
-    <div class="grid-2">
-      <!-- 1-Click Agent Integration -->
-      <div class="mcp-card">
+    <!-- Main Grid: 1-Click Integration & Trust Rails -->
+    <div class="grid-duo">
+      <!-- 1-Click Integration -->
+      <div class="brand-card">
         <h2>⚡ 1-Click Agent Integration</h2>
-        <div class="tabs-nav" id="config-tabs">
-          <button class="tab-btn active" onclick="switchTab('claude')">Claude Desktop</button>
-          <button class="tab-btn" onclick="switchTab('hermes')">Hermes Agent</button>
-          <button class="tab-btn" onclick="switchTab('cursor')">Cursor</button>
-          <button class="tab-btn" onclick="switchTab('curl')">cURL / HTTP</button>
+        <div class="tab-pills">
+          <button class="tab-pill-btn active" onclick="setTab('claude')">Claude Desktop</button>
+          <button class="tab-pill-btn" onclick="setTab('hermes')">Hermes Agent</button>
+          <button class="tab-pill-btn" onclick="setTab('cursor')">Cursor</button>
+          <button class="tab-pill-btn" onclick="setTab('curl')">cURL / HTTP</button>
         </div>
 
-        <div class="code-container">
-          <button class="copy-btn" onclick="copyConfig()">Copy</button>
-          <pre id="config-code" style="margin:0;"><code>{
+        <div class="code-box">
+          <button class="copy-pill" onclick="copySnippet()">Copy</button>
+          <pre id="snippet-box" style="margin:0;"><code>{
   "mcpServers": {
     "defi-garden": {
       "type": "http",
@@ -367,137 +453,153 @@
   }
 }</code></pre>
         </div>
-        <p style="font-size:0.8125rem; color:#94a3b8; margin-top:12px;">
-          Endpoint: <code style="color:#60a5fa;">https://www.defi.garden/api/mcp</code> (Streamable HTTP & SSE)
+        <p style="font-size:0.8rem; color:var(--color-text-secondary); margin-top:12px; margin-bottom:0;">
+          Direct API endpoint: <code style="color:var(--color-primary);">https://www.defi.garden/api/mcp</code>
         </p>
       </div>
 
       <!-- Trust Rails & Invariants -->
-      <div class="mcp-card">
+      <div class="brand-card">
         <h2>🛡️ Trust Rails & Invariants</h2>
-        <p style="font-size:0.875rem; color:#94a3b8; margin-top:0;">
-          Deterministic filter gates enforced at the schema level to guarantee AI agents never route into anomalous memecoin spikes or illiquid pools.
+        <p style="font-size:0.85rem; color:var(--color-text-secondary); margin-top:0;">
+          Deterministic filter gates enforced at the schema level so AI agents never route into decaying memecoin farms or illiquid pools.
         </p>
-        <div class="trust-grid">
-          <div class="trust-item">
-            <div class="trust-title">Sanity APY Ceiling</div>
-            <div class="trust-desc">Hard cap at &le; 1,000% APY. Memecoin spikes and decaying pools are auto-demoted.</div>
+        <div class="trust-rails-container">
+          <div class="trust-rail-item">
+            <div class="trust-rail-title">Sanity APY Ceiling</div>
+            <div class="trust-rail-text">&le; 1,000% APY cap. Memecoin spikes are auto-demoted.</div>
           </div>
-          <div class="trust-item">
-            <div class="trust-title">Liquidity Floor</div>
-            <div class="trust-desc">Minimum TVL threshold of &ge; $100K USD for any pool surfaced to agents.</div>
+          <div class="trust-rail-item">
+            <div class="trust-rail-title">Liquidity Floor</div>
+            <div class="trust-rail-text">&ge; $100K USD minimum TVL for surfaced pools.</div>
           </div>
-          <div class="trust-item">
-            <div class="trust-title">Dual-Oracle Defense</div>
-            <div class="trust-desc">Automated circuit breaker trips if Chainlink and Pyth feeds diverge by &gt; 15 bps.</div>
+          <div class="trust-rail-item">
+            <div class="trust-rail-title">Dual-Oracle Defense</div>
+            <div class="trust-rail-text">Circuit breaker trips if Pyth & Chainlink diverge &gt; 15 bps.</div>
           </div>
-          <div class="trust-item">
-            <div class="trust-title">Principal Preservation</div>
-            <div class="trust-desc">&Delta; Principal &equiv; 0 invariant enforced across automated yield sweepers.</div>
+          <div class="trust-rail-item">
+            <div class="trust-rail-title">Principal Preservation</div>
+            <div class="trust-rail-text">&Delta; Principal &equiv; 0 invariant enforced for harvest keepers.</div>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Live Tool Explorer -->
-    <div class="mcp-card" style="margin-bottom: 40px;">
-      <h2>🛠️ Machine-Callable MCP Tools</h2>
-      <p style="color:#94a3b8; font-size:0.875rem; margin-top:0; margin-bottom:20px;">
-        Autonomous agents can invoke these tools natively during multi-step reasoning cycles.
+    <div class="brand-card" style="margin-bottom: 36px;">
+      <h2>🛠️ Registered MCP Tools</h2>
+      <p style="color:var(--color-text-secondary); font-size:0.85rem; margin-top:0; margin-bottom:16px;">
+        Autonomous agents invoke these tools natively during multi-step reasoning cycles.
       </p>
 
-      <div class="tools-list">
-        <!-- Tool 1 -->
-        <div class="tool-item">
-          <div class="tool-header">
-            <span class="tool-name">get_base_yields</span>
-            <button class="btn-test" onclick="runTool('get_base_yields')">Run Sample Query</button>
-          </div>
-          <div class="tool-desc">
-            Filter verified Base yield pools (Morpho Blue, Auto Finance baseEUR, Moonwell, Aerodrome, TermMax) with strict sanity limits and anomaly demotions.
-          </div>
+      <div class="tool-row">
+        <div class="tool-head">
+          <span class="tool-signature">get_base_yields</span>
+          <button class="btn-exec" onclick="testTool('get_base_yields')">Run Query</button>
         </div>
-
-        <!-- Tool 2 -->
-        <div class="tool-item">
-          <div class="tool-header">
-            <span class="tool-name">find_lending_rate</span>
-            <button class="btn-test" onclick="runTool('find_lending_rate')">Run Sample Query</button>
-          </div>
-          <div class="tool-desc">
-            Query real-time supply and borrow lending APYs, collateral risk parameters, and LLTV limits on Base.
-          </div>
-        </div>
-
-        <!-- Tool 3 -->
-        <div class="tool-item">
-          <div class="tool-header">
-            <span class="tool-name">get_looping_params</span>
-            <button class="btn-test" onclick="runTool('get_looping_params')">Run Sample Query</button>
-          </div>
-          <div class="tool-desc">
-            Calculate leverage multiplier, borrow capacity, liquidation threshold (LLTV), and net APY projection for yield looping strategies.
-          </div>
-        </div>
-
-        <!-- Tool 4 -->
-        <div class="tool-item">
-          <div class="tool-header">
-            <span class="tool-name">get_trust_rails</span>
-            <button class="btn-test" onclick="runTool('get_trust_rails')">Run Sample Query</button>
-          </div>
-          <div class="tool-desc">
-            Retrieve active safety invariants, sanity ceilings, oracle divergence gates, and pool qualification criteria.
-          </div>
+        <div class="tool-description">
+          Filter verified Base yield pools (Morpho Blue, Auto Finance baseEUR, Moonwell, Aerodrome, TermMax) with strict sanity limits and anomaly demotions.
         </div>
       </div>
 
-      <!-- Live Output Window -->
+      <div class="tool-row">
+        <div class="tool-head">
+          <span class="tool-signature">find_lending_rate</span>
+          <button class="btn-exec" onclick="testTool('find_lending_rate')">Run Query</button>
+        </div>
+        <div class="tool-description">
+          Query real-time supply and borrow lending APYs, collateral risk parameters, and LLTV limits on Base.
+        </div>
+      </div>
+
+      <div class="tool-row">
+        <div class="tool-head">
+          <span class="tool-signature">get_looping_params</span>
+          <button class="btn-exec" onclick="testTool('get_looping_params')">Run Query</button>
+        </div>
+        <div class="tool-description">
+          Calculate leverage multiplier, borrow capacity, liquidation threshold (LLTV), and net APY projection for yield looping strategies.
+        </div>
+      </div>
+
+      <div class="tool-row">
+        <div class="tool-head">
+          <span class="tool-signature">get_trust_rails</span>
+          <button class="btn-exec" onclick="testTool('get_trust_rails')">Run Query</button>
+        </div>
+        <div class="tool-description">
+          Retrieve active safety invariants, sanity ceilings, oracle divergence gates, and pool qualification criteria.
+        </div>
+      </div>
+
+      <!-- Live JSON Result Viewer -->
       <div style="margin-top:20px;">
-        <div style="font-size:0.875rem; font-weight:600; color:#94a3b8; margin-bottom:8px;">Live JSON-RPC Tool Output:</div>
-        <div class="code-container" style="max-height: 260px;">
-          <pre id="tool-output" style="margin:0;"><code>// Click "Run Sample Query" on any tool above to test live execution against /api/mcp...</code></pre>
+        <div style="font-size:0.85rem; font-weight:600; color:var(--color-text-secondary); margin-bottom:8px;">Live JSON-RPC Tool Execution Output:</div>
+        <div class="code-box" style="max-height: 240px;">
+          <pre id="exec-result-box" style="margin:0;"><code>// Click "Run Query" on any tool above to test live execution against /api/mcp...</code></pre>
         </div>
       </div>
     </div>
 
-    <!-- Machine Manifest & Ecosystem Links -->
-    <div class="footer-links">
-      <a href="/">🌱 Garden Savings Planner</a>
-      <a href="/?token=USDC">📊 Yield Analytics Grid</a>
-      <a href="/llms.txt">📄 Machine Manifest (llms.txt)</a>
-      <a href="/api/mcp">🔌 Direct MCP API</a>
-      <a href="https://github.com/0xhodler">💻 GitHub</a>
-    </div>
+    <!-- On-Brand Footer -->
+    <footer class="brand-footer">
+      <div>© 2026 DeFi Garden · Education & Yield Intelligence, not financial advice.</div>
+      <div class="brand-footer-links">
+        <a href="/">Savings Planner</a>
+        <a href="/?token=USDC">Analytics Grid</a>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="https://github.com/alex0xhodler/defi_garden">GitHub</a>
+      </div>
+    </footer>
   </div>
 
   <script>
-    const configs = {
+    // Theme Management
+    function applySavedTheme() {
+      try {
+        const saved = localStorage.getItem('theme');
+        const isDark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+      } catch(e) {}
+    }
+    applySavedTheme();
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+
+    // Config Snippets
+    const configMap = {
       claude: `{\n  "mcpServers": {\n    "defi-garden": {\n      "type": "http",\n      "url": "https://www.defi.garden/api/mcp"\n    }\n  }\n}`,
       hermes: `# Add to ~/.hermes/config.yaml under mcp_servers:\nmcp_servers:\n  defi-garden:\n    url: "https://www.defi.garden/api/mcp"`,
       cursor: `{\n  "mcpServers": {\n    "defi-garden": {\n      "url": "https://www.defi.garden/api/mcp"\n    }\n  }\n}`,
       curl: `curl -X POST https://www.defi.garden/api/mcp \\\n  -H "Content-Type: application/json" \\\n  -d '{\n    "jsonrpc": "2.0",\n    "id": 1,\n    "method": "tools/call",\n    "params": {\n      "name": "get_base_yields",\n      "arguments": { "asset": "USDC" }\n    }\n  }'`
     };
 
-    let currentTab = 'claude';
+    let activeTab = 'claude';
 
-    function switchTab(tab) {
-      currentTab = tab;
-      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    function setTab(tab) {
+      activeTab = tab;
+      document.querySelectorAll('.tab-pill-btn').forEach(btn => btn.classList.remove('active'));
       event.target.classList.add('active');
-      document.getElementById('config-code').textContent = configs[tab];
+      document.getElementById('snippet-box').textContent = configMap[tab];
     }
 
-    function copyConfig() {
-      navigator.clipboard.writeText(configs[currentTab]).then(() => {
-        const btn = document.querySelector('.copy-btn');
+    function copySnippet() {
+      navigator.clipboard.writeText(configMap[activeTab]).then(() => {
+        const btn = document.querySelector('.copy-pill');
         btn.textContent = 'Copied!';
         setTimeout(() => btn.textContent = 'Copy', 2000);
       });
     }
 
-    async function runTool(toolName) {
-      const outputEl = document.getElementById('tool-output');
+    // Tool Execution Demo
+    async function testTool(toolName) {
+      const outputEl = document.getElementById('exec-result-box');
       outputEl.textContent = `Executing tool: ${toolName}...`;
 
       let args = {};
@@ -522,7 +624,7 @@
         const data = await res.json();
         outputEl.textContent = JSON.stringify(data, null, 2);
       } catch (err) {
-        outputEl.textContent = `Error executing tool: ${err.message}\n(Make sure /api/mcp is deployed and accessible)`;
+        outputEl.textContent = `Error executing tool: ${err.message}`;
       }
     }
   </script>

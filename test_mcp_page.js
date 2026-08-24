@@ -24,7 +24,7 @@ function testMcpPage() {
   assert.ok(content.includes('"@type": "BreadcrumbList"'), 'BreadcrumbList schema required');
 
   // Interactive UI Elements
-  assert.ok(content.includes('class="status-badge"'), 'Status badge required');
+  assert.ok(content.includes('hero-badge') || content.includes('status-badge'), 'Status badge required');
   assert.ok(content.includes('Claude Desktop'), 'Claude config tab required');
   assert.ok(content.includes('Hermes Agent'), 'Hermes config tab required');
   assert.ok(content.includes('Cursor'), 'Cursor config tab required');
@@ -32,7 +32,7 @@ function testMcpPage() {
   assert.ok(content.includes('find_lending_rate'), 'find_lending_rate tool item required');
   assert.ok(content.includes('get_looping_params'), 'get_looping_params tool item required');
   assert.ok(content.includes('get_trust_rails'), 'get_trust_rails tool item required');
-  assert.ok(content.includes('runTool'), 'Interactive execution function required');
+  assert.ok(content.includes('testTool') || content.includes('runTool'), 'Interactive execution function required');
 
   console.log('  ✓ mcp.html: SEO, AEO/GEO JSON-LD schemas, and interactive tool components validated');
   console.log('All MCP Landing Page tests passed successfully.');
