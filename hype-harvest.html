@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>HYPE Funding Harvest | DeFi Garden</title>
+    <meta name="description" content="Delta-Neutral Cash & Carry funding harvest for HYPE on Hyperliquid. Calculate annualized carry and live funding rates with DeFi Garden trust rails.">
+    <link rel="canonical" href="https://www.defi.garden/hype-harvest.html">
+
+    <!-- Fonts -->
+    <link rel="preload" href="./fonts/PublicSans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/Besley-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="hype-harvest.css">
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="trust-rails.js"></script>
+    <script src="translations.min.js"></script>
+    <script src="hype-harvest.js"></script>
+</head>
+<body>
+    <div class="harvest-shell">
+        <!-- Navigation Header -->
+        <header class="harvest-nav">
+            <div class="harvest-nav-inner">
+                <a href="/" class="harvest-brand">
+                    <span style="font-size: 1.25rem;">🌱</span>
+                    <span>DeFi Garden</span>
+                </a>
+                <div class="harvest-nav-links">
+                    <a href="/plan.html" class="harvest-nav-btn">🪴 Garden Planner</a>
+                    <a href="/?token=HYPE" class="harvest-nav-btn">📊 Yield Search</a>
+                    <button id="theme-toggle" class="harvest-nav-btn" onclick="toggleTheme()">🌓 Theme</button>
+                    <button id="lang-toggle" class="harvest-nav-btn" onclick="toggleLang()">🌐 EN/KO</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Root Element for React App -->
+        <main id="hype-harvest-root"></main>
+
+        <!-- Footer -->
+        <footer class="harvest-footer">
+            <div class="harvest-footer-inner">
+                <div>© 2026 DeFi Garden • Education, not advice.</div>
+                <div>Live data via Hyperliquid Info API • Dual-Oracle Tripwire &lt;15 bps</div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var currentLang = (typeof detectUserLanguage === 'function') ? detectUserLanguage() : 'en';
+        
+        function applyTheme() {
+            var saved = localStorage.getItem('theme');
+            var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+        }
+
+        function toggleTheme() {
+            var current = document.documentElement.getAttribute('data-theme');
+            var next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+        }
+
+        function toggleLang() {
+            currentLang = currentLang === 'en' ? 'ko' : 'en';
+            renderApp();
+        }
+
+        function renderApp() {
+            var root = ReactDOM.createRoot(document.getElementById('hype-harvest-root'));
+            root.render(React.createElement(window.HypeFundingHarvest, { lang: currentLang }));
+        }
+
+        applyTheme();
+        renderApp();
+    </script>
+</body>
+</html>

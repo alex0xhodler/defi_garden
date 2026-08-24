@@ -99,7 +99,7 @@ Disclaimer line stays at the bottom of the artifact.
 - Bare `/` (no query params): the user gets the Garden Planner experience.
 - Any content params (token/chain/pool/poolTypes/protocols/minTvl/minApy): the analytics app, pixel-identical to today. ?lang must work for both.
 - Mechanism is the implementer's choice under these constraints: no perceptible flash/redirect-loop, no SEO breakage, no double-loading of both app bundles. A minimal early inline router in index.html that loads exactly one experience is acceptable; an instant client-side replace to /plan.html is an acceptable v1 fallback if flash-free.
-- Planner header (top right): an icon button (📊 or magnifier, neumorphic circle, consistent with existing detail-header buttons) linking to the analytics app's search home (/?view=search or equivalent that renders the app homepage despite the bare-path rule — implementer picks a clean param, e.g. /?app=1, and the router must honor it).
+- Planner header (top right): an icon button (📊 or magnifier, clean minimal circle, consistent with existing detail-header buttons) linking to the analytics app's search home (/?view=search or equivalent that renders the app homepage despite the bare-path rule — implementer picks a clean param, e.g. /?app=1, and the router must honor it).
 - The analytics app keeps its planner entry card (now plan-aware, §5).
 - Update canonical/OG metadata accordingly: / canonical describes the planner; the analytics app pages keep their existing SEO behavior. Regenerate sitemap if URL roles change.
 

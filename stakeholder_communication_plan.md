@@ -238,7 +238,7 @@ Technical Performance:
 - [ ] **Pill Animation:** Subtle animation (bounce/glow) triggers on page load
 - [ ] **Pill Analytics:** Click tracking implemented via GA4 custom events
 - [ ] **Pill Responsive:** Mobile and desktop display optimized
-- [ ] **Pill Design:** Consistent with neumorphic design system
+- [ ] **Pill Design:** Consistent with Quiet design system
 
 #### URL Structure & Routing
 - [ ] **URL Format:** Chain URLs follow pattern /chain=ethereum, /chain=polygon
@@ -272,7 +272,7 @@ Technical Performance:
 - [ ] **Mobile Navigation:** Touch-friendly chain selection on mobile devices
 
 #### User Interface & Design
-- [ ] **Design Consistency:** Maintains neumorphic design system throughout
+- [ ] **Design Consistency:** Maintains Quiet design system throughout
 - [ ] **Visual Hierarchy:** Clear information architecture for chain content
 - [ ] **Loading States:** User feedback during data fetching and filtering
 - [ ] **Error States:** User-friendly error messages with actionable guidance
