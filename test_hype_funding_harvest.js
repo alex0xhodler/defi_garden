@@ -94,7 +94,7 @@ console.log('  ✓ (c) delta-neutral carry and decay haircut math verified');
 const htmlContent = fs.readFileSync(path.join(__dirname, 'hype-harvest.html'), 'utf-8');
 assert.ok(htmlContent.includes('hype-harvest.js'), 'HTML must include hype-harvest.js');
 assert.ok(htmlContent.includes('hype-harvest.css'), 'HTML must include hype-harvest.css');
-assert.ok(htmlContent.includes('translations.js'), 'HTML must include translations.js');
+assert.ok(htmlContent.includes('translations.js') || htmlContent.includes('translations.min.js'), 'HTML must include translations dictionary');
 
 const cssContent = fs.readFileSync(path.join(__dirname, 'hype-harvest.css'), 'utf-8');
 assert.ok(cssContent.includes('--ui-border'), 'CSS must use Quiet design system tokens (--ui-border)');
