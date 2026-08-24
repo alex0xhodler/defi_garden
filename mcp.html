@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DeFi Garden MCP Server | Machine-Native Base Yield Intelligence for AI Agents</title>
+  <meta name="description" content="Official Model Context Protocol (MCP) server for DeFi Garden. Connect autonomous AI agents (Hermes, Claude Desktop, Cursor, AgentKit) to verified Base yield primitives with cryptographic sanity checks and zero rate hallucinations.">
+  <meta name="keywords" content="MCP, Model Context Protocol, DeFi Garden, Base Yield, AI Agents, Autonomous Finance, Morpho Blue, Auto Finance, baseEUR, Moonwell, Aerodrome, Yield Discovery, AEO, Streamable HTTP">
+  <link rel="canonical" href="https://www.defi.garden/mcp">
+  
+  <!-- OpenGraph / Social Cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.defi.garden/mcp">
+  <meta property="og:title" content="DeFi Garden MCP Server — Machine-Native Base Yield for AI Agents">
+  <meta property="og:description" content="Query, verify, and route into Base yield primitives with strict APY sanity limits and zero rate hallucinations. Supports Claude, Hermes, Cursor, and AgentKit.">
+  <meta property="og:site_name" content="DeFi Garden">
+  <meta property="og:image" content="https://www.defi.garden/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DeFi Garden MCP Server | Yield Discovery for Autonomous AI">
+  <meta name="twitter:description" content="Streamable HTTP MCP Server for Base yield primitives. APY sanity ceilings, TVL floors, and zero rate hallucinations for AI agents.">
+  <meta name="twitter:image" content="https://www.defi.garden/og-image.png">
+
+  <!-- Design System Tokens -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AEO & Search Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.defi.garden/mcp#application",
+        "name": "DeFi Garden MCP Server",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "url": "https://www.defi.garden/mcp",
+        "downloadUrl": "https://www.defi.garden/api/mcp",
+        "description": "Model Context Protocol (MCP) server providing deterministic, zero-hallucination yield intelligence on Base for autonomous AI agents.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "DeFi Garden",
+          "url": "https://www.defi.garden"
+        }
+      },
+      {
+        "@type": "WebAPI",
+        "@id": "https://www.defi.garden/mcp#api",
+        "name": "DeFi Garden Streamable MCP API",
+        "description": "Streamable HTTP and SSE Model Context Protocol API for Base yield queries, lending rate discovery, and risk verification.",
+        "documentation": "https://www.defi.garden/mcp",
+        "endpointUrl": "https://www.defi.garden/api/mcp",
+        "protocol": "Model Context Protocol (2024-11-05)"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.defi.garden/mcp#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the DeFi Garden MCP Server?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The DeFi Garden MCP Server is an open-source, machine-native endpoint implementing Anthropic's Model Context Protocol (MCP). It allows autonomous AI agents and developer IDEs (Claude Desktop, Hermes Agent, Cursor, Coinbase AgentKit) to query, verify, and route capital into live Base yield primitives with strict APY sanity bounds and zero rate hallucinations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does DeFi Garden prevent AI agent yield hallucinations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Every yield pool served through the MCP layer passes through deterministic trust rails: a 1000% APY sanity ceiling, a minimum TVL floor ($100,000+), dual-oracle divergence tripwires (15 bps freeze), and anomaly pool demotions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I connect Claude Desktop or Cursor to DeFi Garden MCP?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Add the endpoint 'https://www.defi.garden/api/mcp' as an HTTP transport server in your Claude Desktop or Cursor .mcp.json configuration file."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.defi.garden/mcp#breadcrumbs",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.defi.garden/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "MCP Server Documentation",
+            "item": "https://www.defi.garden/mcp"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --mcp-primary: #3B82F6;
+      --mcp-success: #10B981;
+      --mcp-card-bg: rgba(255, 255, 255, 0.03);
+      --mcp-card-border: rgba(255, 255, 255, 0.08);
+      --mcp-code-bg: #0d1117;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    .mcp-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    .mcp-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 9999px;
+      color: #34d399;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 8px #10b981;
+    }
+    h1 {
+      font-size: 2.75rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin: 0 0 16px;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      font-size: 1.25rem;
+      color: #94a3b8;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 768px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+    }
+    .mcp-card {
+      background: var(--mcp-card-bg);
+      border: 1px solid var(--mcp-card-border);
+      border-radius: 16px;
+      padding: 24px;
+      backdrop-filter: blur(12px);
+    }
+    .mcp-card h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #e2e8f0;
+    }
+    .tabs-nav {
+      display: flex;
+      gap: 8px;
+      border-bottom: 1px solid var(--mcp-card-border);
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+      overflow-x: auto;
+    }
+    .tab-btn {
+      background: transparent;
+      border: 1px solid transparent;
+      color: #94a3b8;
+      padding: 6px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 0.875rem;
+      transition: all 0.2s;
+    }
+    .tab-btn.active {
+      background: rgba(59, 130, 246, 0.15);
+      border-color: rgba(59, 130, 246, 0.4);
+      color: #60a5fa;
+    }
+    .code-container {
+      position: relative;
+      background: var(--mcp-code-bg);
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 16px;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.875rem;
+      color: #e6edf3;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .copy-btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    .tools-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .tool-item {
+      border: 1px solid var(--mcp-card-border);
+      border-radius: 10px;
+      padding: 16px;
+      background: rgba(0, 0, 0, 0.2);
+    }
+    .tool-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .tool-name {
+      font-family: monospace;
+      font-weight: 700;
+      color: #60a5fa;
+      font-size: 1rem;
+    }
+    .tool-desc {
+      color: #94a3b8;
+      font-size: 0.875rem;
+      margin-bottom: 12px;
+    }
+    .btn-test {
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-test:hover {
+      background: #1d4ed8;
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .trust-item {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid var(--mcp-card-border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .trust-title {
+      font-weight: 600;
+      color: #38bdf8;
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
+    .trust-desc {
+      font-size: 0.8125rem;
+      color: #94a3b8;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--mcp-card-border);
+      color: #64748b;
+      font-size: 0.875rem;
+    }
+    .footer-links a {
+      color: #94a3b8;
+      text-decoration: none;
+    }
+    .footer-links a:hover {
+      color: #60a5fa;
+    }
+  </style>
+</head>
+<body>
+  <div class="mcp-container">
+    <div class="mcp-header">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span>Operational · Base Mainnet · MCP v2024-11-05</span>
+      </div>
+      <h1>Model Context Protocol (MCP) Server</h1>
+      <p class="subtitle">
+        Hardened yield discovery and execution intelligence on Base for autonomous AI agents (Hermes, Claude Desktop, Cursor, AgentKit) with zero rate hallucinations.
+      </p>
+    </div>
+
+    <div class="grid-2">
+      <!-- 1-Click Agent Integration -->
+      <div class="mcp-card">
+        <h2>⚡ 1-Click Agent Integration</h2>
+        <div class="tabs-nav" id="config-tabs">
+          <button class="tab-btn active" onclick="switchTab('claude')">Claude Desktop</button>
+          <button class="tab-btn" onclick="switchTab('hermes')">Hermes Agent</button>
+          <button class="tab-btn" onclick="switchTab('cursor')">Cursor</button>
+          <button class="tab-btn" onclick="switchTab('curl')">cURL / HTTP</button>
+        </div>
+
+        <div class="code-container">
+          <button class="copy-btn" onclick="copyConfig()">Copy</button>
+          <pre id="config-code" style="margin:0;"><code>{
+  "mcpServers": {
+    "defi-garden": {
+      "type": "http",
+      "url": "https://www.defi.garden/api/mcp"
+    }
+  }
+}</code></pre>
+        </div>
+        <p style="font-size:0.8125rem; color:#94a3b8; margin-top:12px;">
+          Endpoint: <code style="color:#60a5fa;">https://www.defi.garden/api/mcp</code> (Streamable HTTP & SSE)
+        </p>
+      </div>
+
+      <!-- Trust Rails & Invariants -->
+      <div class="mcp-card">
+        <h2>🛡️ Trust Rails & Invariants</h2>
+        <p style="font-size:0.875rem; color:#94a3b8; margin-top:0;">
+          Deterministic filter gates enforced at the schema level to guarantee AI agents never route into anomalous memecoin spikes or illiquid pools.
+        </p>
+        <div class="trust-grid">
+          <div class="trust-item">
+            <div class="trust-title">Sanity APY Ceiling</div>
+            <div class="trust-desc">Hard cap at &le; 1,000% APY. Memecoin spikes and decaying pools are auto-demoted.</div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-title">Liquidity Floor</div>
+            <div class="trust-desc">Minimum TVL threshold of &ge; $100K USD for any pool surfaced to agents.</div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-title">Dual-Oracle Defense</div>
+            <div class="trust-desc">Automated circuit breaker trips if Chainlink and Pyth feeds diverge by &gt; 15 bps.</div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-title">Principal Preservation</div>
+            <div class="trust-desc">&Delta; Principal &equiv; 0 invariant enforced across automated yield sweepers.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live Tool Explorer -->
+    <div class="mcp-card" style="margin-bottom: 40px;">
+      <h2>🛠️ Machine-Callable MCP Tools</h2>
+      <p style="color:#94a3b8; font-size:0.875rem; margin-top:0; margin-bottom:20px;">
+        Autonomous agents can invoke these tools natively during multi-step reasoning cycles.
+      </p>
+
+      <div class="tools-list">
+        <!-- Tool 1 -->
+        <div class="tool-item">
+          <div class="tool-header">
+            <span class="tool-name">get_base_yields</span>
+            <button class="btn-test" onclick="runTool('get_base_yields')">Run Sample Query</button>
+          </div>
+          <div class="tool-desc">
+            Filter verified Base yield pools (Morpho Blue, Auto Finance baseEUR, Moonwell, Aerodrome, TermMax) with strict sanity limits and anomaly demotions.
+          </div>
+        </div>
+
+        <!-- Tool 2 -->
+        <div class="tool-item">
+          <div class="tool-header">
+            <span class="tool-name">find_lending_rate</span>
+            <button class="btn-test" onclick="runTool('find_lending_rate')">Run Sample Query</button>
+          </div>
+          <div class="tool-desc">
+            Query real-time supply and borrow lending APYs, collateral risk parameters, and LLTV limits on Base.
+          </div>
+        </div>
+
+        <!-- Tool 3 -->
+        <div class="tool-item">
+          <div class="tool-header">
+            <span class="tool-name">get_looping_params</span>
+            <button class="btn-test" onclick="runTool('get_looping_params')">Run Sample Query</button>
+          </div>
+          <div class="tool-desc">
+            Calculate leverage multiplier, borrow capacity, liquidation threshold (LLTV), and net APY projection for yield looping strategies.
+          </div>
+        </div>
+
+        <!-- Tool 4 -->
+        <div class="tool-item">
+          <div class="tool-header">
+            <span class="tool-name">get_trust_rails</span>
+            <button class="btn-test" onclick="runTool('get_trust_rails')">Run Sample Query</button>
+          </div>
+          <div class="tool-desc">
+            Retrieve active safety invariants, sanity ceilings, oracle divergence gates, and pool qualification criteria.
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Output Window -->
+      <div style="margin-top:20px;">
+        <div style="font-size:0.875rem; font-weight:600; color:#94a3b8; margin-bottom:8px;">Live JSON-RPC Tool Output:</div>
+        <div class="code-container" style="max-height: 260px;">
+          <pre id="tool-output" style="margin:0;"><code>// Click "Run Sample Query" on any tool above to test live execution against /api/mcp...</code></pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- Machine Manifest & Ecosystem Links -->
+    <div class="footer-links">
+      <a href="/">🌱 Garden Savings Planner</a>
+      <a href="/?token=USDC">📊 Yield Analytics Grid</a>
+      <a href="/llms.txt">📄 Machine Manifest (llms.txt)</a>
+      <a href="/api/mcp">🔌 Direct MCP API</a>
+      <a href="https://github.com/0xhodler">💻 GitHub</a>
+    </div>
+  </div>
+
+  <script>
+    const configs = {
+      claude: `{\n  "mcpServers": {\n    "defi-garden": {\n      "type": "http",\n      "url": "https://www.defi.garden/api/mcp"\n    }\n  }\n}`,
+      hermes: `# Add to ~/.hermes/config.yaml under mcp_servers:\nmcp_servers:\n  defi-garden:\n    url: "https://www.defi.garden/api/mcp"`,
+      cursor: `{\n  "mcpServers": {\n    "defi-garden": {\n      "url": "https://www.defi.garden/api/mcp"\n    }\n  }\n}`,
+      curl: `curl -X POST https://www.defi.garden/api/mcp \\\n  -H "Content-Type: application/json" \\\n  -d '{\n    "jsonrpc": "2.0",\n    "id": 1,\n    "method": "tools/call",\n    "params": {\n      "name": "get_base_yields",\n      "arguments": { "asset": "USDC" }\n    }\n  }'`
+    };
+
+    let currentTab = 'claude';
+
+    function switchTab(tab) {
+      currentTab = tab;
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+      document.getElementById('config-code').textContent = configs[tab];
+    }
+
+    function copyConfig() {
+      navigator.clipboard.writeText(configs[currentTab]).then(() => {
+        const btn = document.querySelector('.copy-btn');
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = 'Copy', 2000);
+      });
+    }
+
+    async function runTool(toolName) {
+      const outputEl = document.getElementById('tool-output');
+      outputEl.textContent = `Executing tool: ${toolName}...`;
+
+      let args = {};
+      if (toolName === 'get_base_yields') args = { asset: "USDC" };
+      if (toolName === 'find_lending_rate') args = { asset: "USDC", chain: "base" };
+      if (toolName === 'get_looping_params') args = { collateral_asset: "WETH", borrow_asset: "USDC", target_leverage: 2.0 };
+
+      try {
+        const res = await fetch('/api/mcp', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            jsonrpc: "2.0",
+            id: Date.now(),
+            method: "tools/call",
+            params: {
+              name: toolName,
+              arguments: args
+            }
+          })
+        });
+        const data = await res.json();
+        outputEl.textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        outputEl.textContent = `Error executing tool: ${err.message}\n(Make sure /api/mcp is deployed and accessible)`;
+      }
+    }
+  </script>
+</body>
+</html>

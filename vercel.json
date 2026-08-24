@@ -51,6 +51,10 @@
       "destination": "/home"
     },
     {
+      "source": "/mcp",
+      "destination": "/mcp.html"
+    },
+    {
       "source": "/.well-known/api-catalog",
       "destination": "/.well-known/api-catalog.json"
     },
@@ -415,6 +419,13 @@
       "source": "/.well-known/agent-skills/index.json",
       "headers": [
         { "key": "Content-Type", "value": "application/json; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/mcp",
+      "headers": [
+        { "key": "Content-Type", "value": "text/html; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=86400" }
       ]
     },
     {
