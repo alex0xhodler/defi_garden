@@ -35,9 +35,7 @@
     { id: 'doordash', name: 'DoorDash', monthly: 11.99, baseMonthly: 9.99, slug: 'doordash', icon: 'doordash.com', emoji: '🥡' },
     { id: 'uber', name: 'Uber One', monthly: 11.99, baseMonthly: 9.99, slug: 'uber', icon: 'uber.com', emoji: '🚗' },
     { id: 'audible', name: 'Audible', monthly: 17.94, baseMonthly: 14.95, slug: 'audible', icon: 'audible.com', emoji: '🎧' },
-    { id: 'walmart', name: 'Walmart+', monthly: 15.54, baseMonthly: 12.95, slug: 'walmart', icon: 'walmart.com', emoji: '🛒' },
-    { id: 'phonebill', name: 'Phone Bill', monthly: 84.00, baseMonthly: 70.00, slug: 'phonebill', icon: null, emoji: '📶' },
-    { id: 'rent', name: 'Rent', monthly: 2160.00, baseMonthly: 1800.00, slug: 'rent', icon: null, emoji: '🏠' }
+    { id: 'walmart', name: 'Walmart+', monthly: 15.54, baseMonthly: 12.95, slug: 'walmart', icon: 'walmart.com', emoji: '🛒' }
   ];
   var INTENT_SUBS = ALL_MAPPED_SUBS;
 
