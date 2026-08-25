@@ -1,0 +1,72 @@
+{
+  "version": "2.1.0",
+  "last_updated": "2026-08-18T21:30:00Z",
+  "author": "risk-quant",
+  "status": "active",
+  "v2_intent_framework_solvency": {
+    "over_collateralization_multiplier": 1.25,
+    "tax_vat_headroom_multiplier": 1.20,
+    "initial_liquid_escrow_months": 1,
+    "surplus_sponge_cap_months": 3,
+    "conservative_yield_floor_apy_pct": 5.0,
+    "bounded_grace_tap_max_months": 1,
+    "escrow_depletion_alert_threshold_pct": 25.0,
+    "solvency_formula": "C_required = ((12 * monthly_bill * 1.20) / (r_conservative / 100.0)) * 1.25",
+    "preset_capital_requirements": {
+      "claude_pro_20usd": {
+        "monthly_bill_usd": 20.0,
+        "tax_adjusted_monthly_usd": 24.0,
+        "annual_liability_usd": 288.0,
+        "conservative_apy_pct": 5.0,
+        "required_collateral_usd": 7200.0,
+        "escrow_reserve_usd": 24.0
+      },
+      "cursor_pro_20usd": {
+        "monthly_bill_usd": 20.0,
+        "tax_adjusted_monthly_usd": 24.0,
+        "annual_liability_usd": 288.0,
+        "conservative_apy_pct": 5.0,
+        "required_collateral_usd": 7200.0,
+        "escrow_reserve_usd": 24.0
+      },
+      "spotify_individual_12usd": {
+        "monthly_bill_usd": 11.99,
+        "tax_adjusted_monthly_usd": 14.39,
+        "annual_liability_usd": 172.66,
+        "conservative_apy_pct": 5.0,
+        "required_collateral_usd": 4316.40,
+        "escrow_reserve_usd": 14.39
+      },
+      "team_saas_500usd": {
+        "monthly_bill_usd": 500.0,
+        "tax_adjusted_monthly_usd": 600.0,
+        "annual_liability_usd": 7200.0,
+        "conservative_apy_pct": 5.0,
+        "required_collateral_usd": 180000.0,
+        "escrow_reserve_usd": 600.0
+      }
+    }
+  },
+  "leverage_gates": {
+    "morpho_blue": {
+      "max_lltv_cap_pct": 82.0,
+      "deleverage_trigger_ltv_pct": 78.0,
+      "target_healthy_ltv_pct": 70.0,
+      "max_leverage_multiplier": 5.0,
+      "liquidation_buffer_min_bps": 400
+    }
+  },
+  "oracle_divergence_tripwires": {
+    "primary_oracle": "chainlink",
+    "secondary_oracle": "pyth_redstone",
+    "max_divergence_spread_bps": 15,
+    "max_oracle_staleness_seconds": 3600,
+    "anomaly_action": "FREEZE_REBALANCE_AND_HARVEST"
+  },
+  "keeper_execution_thresholds": {
+    "min_harvest_yield_usdc": 10.0,
+    "max_slippage_bps": 30,
+    "max_gas_gwei_base": 15.0,
+    "principal_protection_invariant": true
+  }
+}

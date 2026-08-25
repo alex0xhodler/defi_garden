@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-08-18T10:30:00Z",
+  "author": "risk-quant",
+  "status": "active",
+  "base_protocol_risk_tiers": {
+    "moonwell_usdc": {
+      "tier": "STANDARD_CONSERVATIVE",
+      "strategy_type": "SUPPLY_LENDING",
+      "underlying_asset": "USDC",
+      "c_token_address": "0xEdc817A28E8B93Ca689afB96317d2274711c0645",
+      "borrow_risk_ltv_pct": 0.0,
+      "bad_debt_monitor_threshold_usd": 50000.0,
+      "min_tvl_usd": 5000000.0,
+      "max_apy_sanity_pct": 20.0,
+      "sweep_safety_buffer_bps": 0
+    },
+    "seamless_ilm_boosted": {
+      "tier": "BOOSTED_MODE_LEVERAGED",
+      "strategy_type": "LOOPED_LENDING_ILM",
+      "underlying_asset": "USDC",
+      "max_leverage_multiplier": 4.0,
+      "max_borrow_ltv_pct": 75.0,
+      "deleverage_trigger_ltv_pct": 70.0,
+      "borrow_rate_volatility_max_sigma_7d": 2.0,
+      "rate_spike_freeze_threshold_apy_pct": 25.0,
+      "min_tvl_usd": 1000000.0
+    },
+    "overnight_usd_plus": {
+      "tier": "STANDARD_YIELD_REBASE",
+      "strategy_type": "REBASE_COLLATERAL",
+      "token_address": "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376",
+      "peg_tripwire_min_price_usd": 0.9990,
+      "max_depeg_spread_bps": 10,
+      "negative_rebase_action": "FREEZE_SWEEP_AND_ALERT",
+      "min_tvl_usd": 2000000.0
+    },
+    "aerodrome_cl_usdc_usdt": {
+      "tier": "STANDARD_LP_FEES",
+      "strategy_type": "CONCENTRATED_LIQUIDITY",
+      "pool_address": "0x...",
+      "price_range_bound_pct": 0.20,
+      "out_of_range_harvest_freeze_hours": 12,
+      "max_impermanent_loss_bps": 25,
+      "min_pool_tvl_usd": 3000000.0
+    },
+    "auto_finance_base_eur": {
+      "tier": "STANDARD_EUR_YIELD",
+      "strategy_type": "ERC4626_EUR_VAULT",
+      "underlying_asset": "baseEUR",
+      "vault_address": "0x0B3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+      "currency": "EUR",
+      "oracle_pair": "EUR/USD",
+      "max_oracle_divergence_bps": 15,
+      "min_secondary_liquidity_ratio": 3.0,
+      "min_tvl_eur": 1000000.0,
+      "max_apy_sanity_pct": 25.0
+    },
+    "termmax_usdc_boosted": {
+      "tier": "FIXED_TERM_BOND_YIELD",
+      "strategy_type": "FIXED_RATE_TS_FINANCE",
+      "underlying_asset": "USDC",
+      "platform": "ts.finance",
+      "roll_over_buffer_days": 7,
+      "maturity_queue_enabled": true,
+      "max_apy_sanity_pct": 35.0,
+      "min_tvl_usd": 1500000.0
+    }
+  }
+}

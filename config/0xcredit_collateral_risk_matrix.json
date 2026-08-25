@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-08-18T20:30:00Z",
+  "author": "risk-quant",
+  "status": "active",
+  "lead_collateral_tier": "BACKED_FINANCE_ETF_INDICES",
+  "collateral_tiers": {
+    "tier_1_etf_indices": {
+      "priority": 1,
+      "assets": ["bIB01", "bCSPX"],
+      "issuer": "Backed Finance",
+      "max_ltv_pct": 75.0,
+      "lltv_liquidation_pct": 85.0,
+      "auto_deleverage_trigger_ltv_pct": 80.0,
+      "target_healthy_ltv_pct": 70.0,
+      "pricing_feed": "chainlink_low_latency",
+      "market_close_price_clamp": true,
+      "weekend_trading_halt_buffer_bps": 50
+    },
+    "tier_2_single_equities": {
+      "priority": 2,
+      "assets": ["dNVDA", "dAAPL", "bNVDA", "bAAPL"],
+      "issuer": "Dinari / Backed",
+      "max_ltv_pct": 65.0,
+      "lltv_liquidation_pct": 75.0,
+      "auto_deleverage_trigger_ltv_pct": 70.0,
+      "target_healthy_ltv_pct": 60.0,
+      "pricing_feed": "pyth_chainlink_dual",
+      "market_close_price_clamp": true,
+      "weekend_trading_halt_buffer_bps": 100
+    }
+  }
+}
